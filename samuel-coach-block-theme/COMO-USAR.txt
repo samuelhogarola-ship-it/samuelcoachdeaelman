@@ -1,0 +1,24 @@
+1. Sube el archivo ZIP del tema en WordPress:
+   Apariencia > Temas > Anadir nuevo > Subir tema
+
+2. Activa el tema "Samuel Coach Blocks".
+
+3. Crea una pagina nueva, por ejemplo "Inicio".
+
+4. Dentro del editor de la pagina:
+   - pulsa el boton "+"
+   - busca "Landing Samuel Home"
+   - inserta ese patron
+
+5. Edita los textos, botones e imagenes directamente desde bloques.
+
+6. Ve a Ajustes > Lectura:
+   - Tu pagina de inicio muestra: Una pagina estatica
+   - Pagina de inicio: "Inicio"
+
+7. El blog puede quedarse en otra pagina aparte, por ejemplo "Blog".
+
+Notas:
+- El logo del patron sale desde el propio tema.
+- Puedes sustituir cualquier bloque por otro desde el editor.
+- Si quieres, el bloque de "Entrada reciente del blog" luego se puede convertir en uno dinamico.

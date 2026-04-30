@@ -1,0 +1,20 @@
+/*
+Theme Name: Samuel Coach de Aleman
+Theme URI: https://www.samuelcoachdealeman.com/
+Author: Samuel Coach de Aleman
+Author URI: https://www.samuelcoachdealeman.com/
+Description: Tema WordPress para la landing de Samuel Coach de Aleman.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 7.4
+Text Domain: samuel-coach
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}

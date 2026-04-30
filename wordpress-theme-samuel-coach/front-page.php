@@ -1,0 +1,592 @@
+<?php
+/*
+ * Template Name: Landing Samuel
+ * Description: Landing page completa — bypasses theme header/footer
+ */
+defined('ABSPATH') || exit;
+
+// Logo: sube landinglogo.png a /wp-content/themes/TU-TEMA/ y funcionará automáticamente
+$logo = get_template_directory_uri() . '/landinglogo.png';
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Clases de Alemán Online · 100% Éxito Garantizado · Samuel Coach de Alemán</title>
+<meta name="description" content="Clases de alemán online personalizadas con Samuel Coach de Alemán (Fuengirola, Málaga). Método individualizado, 100% éxito garantizado. Goethe, TELC, empresas y conversacional. ¡Primera consulta gratis!">
+<meta name="keywords" content="clases alemán online, profesor alemán, coach alemán, aprender alemán, Goethe, TELC, alemán Málaga, alemán conversacional, alemán empresas">
+<meta name="author" content="Samuel Coach de Alemán">
+<link rel="canonical" href="https://www.samuelcoachdealeman.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.samuelcoachdealeman.com/">
+<meta property="og:title" content="Clases de Alemán Online · 100% Éxito Garantizado · Samuel Coach de Alemán">
+<meta property="og:description" content="Aprende alemán online con método personalizado y éxito garantizado. Goethe, TELC, conversacional y alemán para empresas. Fuengirola, Málaga.">
+<meta property="og:image" content="https://www.samuelcoachdealeman.com/og-image.jpg">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Samuel Coach de Alemán">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Clases de Alemán Online · Samuel Coach de Alemán">
+<meta name="twitter:description" content="Método personalizado y éxito garantizado. Goethe, TELC, conversacional y alemán para empresas.">
+<meta name="twitter:image" content="https://www.samuelcoachdealeman.com/og-image.jpg">
+
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="geo.region" content="ES-AN">
+<meta name="geo.placename" content="Fuengirola, Málaga">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://wa.me">
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.samuelcoachdealeman.com/#business",
+      "name": "Samuel Coach de Alemán",
+      "url": "https://www.samuelcoachdealeman.com/",
+      "telephone": "+34644220965",
+      "email": "samuelcoachdealeman@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fuengirola",
+        "addressRegion": "Málaga",
+        "addressCountry": "ES"
+      },
+      "areaServed": {"@type": "Country", "name": "España"},
+      "serviceType": "Clases de alemán online",
+      "priceRange": "€€",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "171",
+        "bestRating": "5"
+      },
+      "sameAs": [
+        "https://www.superprof.es",
+        "https://www.facebook.com/samuelcoachdealeman",
+        "https://www.instagram.com/samuelcoachdealeman"
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "Samuel",
+      "jobTitle": "Coach de Alemán",
+      "url": "https://www.samuelcoachdealeman.com/sobre-mi",
+      "worksFor": {"@id": "https://www.samuelcoachdealeman.com/#business"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cómo son las clases de alemán online?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Las clases se realizan por videollamada. Son totalmente personalizadas con materiales adaptados a tu nivel y objetivos. Incluye una sesión de evaluación gratuita."}
+        },
+        {
+          "@type": "Question",
+          "name": "¿Desde qué nivel puedo empezar?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Desde cero absoluto hasta nivel avanzado C1. Adaptamos el programa a tu punto de partida."}
+        },
+        {
+          "@type": "Question",
+          "name": "¿Me ayudas a prepararme para el examen Goethe o TELC?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Sí. Ofrezco preparación específica para todos los niveles de Goethe (A1 a C2), TELC, DSD y otros certificados internacionales."}
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo se tarda en aprender alemán?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Con dos clases semanales y práctica diaria, en 3-6 meses se notan avances muy significativos. Lo definimos en la sesión inicial."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<?php wp_head(); ?>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --teal:       #3aa9ab;
+  --teal-dark:  #2c8182;
+  --teal-light: #45c6c9;
+  --teal-pale:  #edf8f8;
+  --nav-bg:     #455a64;
+  --nav-hover:  #4f6672;
+  --dark:       #0d3637;
+  --text:       #1b1b1b;
+  --muted:      #474747;
+  --border:     #dbdbdb;
+  --bg-alt:     #f6f6f6;
+  --white:      #ffffff;
+  --radius:     8px;
+}
+
+body { font-family: 'Lato', arial, sans-serif; color: var(--text); background: var(--white); font-size: 16px; line-height: 1.65; }
+h1, h2, h3, h4 { font-family: 'Cabin', arial, sans-serif; line-height: 1.25; }
+a { color: var(--teal); text-decoration: none; }
+a:hover { color: var(--teal-dark); }
+img { display: block; max-width: 100%; }
+.container { max-width: 1060px; margin: 0 auto; padding: 0 24px; }
+
+/* ── NOTICE ── */
+.notice { background: var(--dark); color: var(--white); text-align: center; font-size: .88rem; padding: 10px 20px; letter-spacing: .01em; }
+.notice a { color: var(--teal-light); font-weight: 700; }
+
+/* ── NAV ── */
+nav { background: var(--nav-bg); position: sticky; top: 0; z-index: 200; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+.nav-inner { display: flex; align-items: center; justify-content: space-between; max-width: 1060px; margin: 0 auto; padding: 12px 24px; }
+.nav-logo img { height: 52px; }
+.nav-links { display: flex; align-items: center; gap: 6px; list-style: none; }
+.nav-links a { color: rgba(255,255,255,.88); font-size: .88rem; font-family: 'Cabin', sans-serif; font-weight: 600; padding: 7px 13px; border-radius: var(--radius); transition: background .15s; }
+.nav-links a:hover { background: var(--nav-hover); color: var(--white); }
+.nav-links .nav-cta { background: var(--teal); color: var(--white) !important; border-radius: 50px; padding: 8px 18px; }
+.nav-links .nav-cta:hover { background: var(--teal-light); }
+.nav-drop { position: relative; }
+.nav-drop > a::after { content: ' ▾'; font-size: .7rem; opacity: .7; }
+.drop-menu { display: none; position: absolute; top: 100%; left: 0; background: var(--nav-hover); border-radius: var(--radius); min-width: 210px; padding: 6px 0; box-shadow: 0 6px 20px rgba(0,0,0,.2); }
+.nav-drop:hover .drop-menu { display: block; }
+.drop-menu a { display: block; padding: 9px 16px; color: rgba(255,255,255,.9); font-size: .85rem; }
+.drop-menu a:hover { background: rgba(255,255,255,.1); }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+.hamburger span { width: 24px; height: 2px; background: var(--white); border-radius: 2px; display: block; }
+
+/* ── HERO ── */
+.hero { background: var(--teal); color: var(--white); padding: 48px 24px 52px; }
+.hero-inner { display: grid; grid-template-columns: 1fr 340px; gap: 48px; align-items: center; max-width: 1060px; margin: 0 auto; }
+.hero-text h1 { font-size: clamp(1.6rem, 3.5vw, 2.4rem); margin-bottom: 12px; }
+.hero-text h1 em { font-style: normal; color: var(--dark); }
+.hero-text p { font-size: 1rem; opacity: .93; margin-bottom: 24px; max-width: 480px; }
+.hero-meta { font-size: .82rem; opacity: .8; margin-bottom: 20px; display: flex; gap: 16px; flex-wrap: wrap; }
+.hero-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 26px; border-radius: 50px; font-family: 'Cabin', sans-serif; font-weight: 700; font-size: .95rem; transition: transform .15s, box-shadow .15s; }
+.btn:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.2); color: inherit; }
+.btn-white { background: var(--white); color: var(--teal-dark); }
+.btn-dark  { background: var(--dark);  color: var(--white); }
+.btn-wa    { background: #25d366;      color: var(--white); }
+.hero-photo { position: relative; }
+.hero-photo .photo-wrap { border-radius: 12px; overflow: hidden; border: 4px solid rgba(255,255,255,.25); background: var(--teal-dark); aspect-ratio: 4/5; display: flex; align-items: center; justify-content: center; }
+.hero-photo .photo-placeholder { width: 100%; height: 100%; background: linear-gradient(160deg, var(--teal-dark) 0%, #0f4e50 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; color: rgba(255,255,255,.5); font-size: .9rem; gap: 12px; }
+.hero-photo .photo-placeholder svg { width: 72px; height: 72px; opacity: .4; }
+
+/* ── PILLARS ── */
+.pillars { padding: 80px 24px; background: var(--white); }
+.section-head { text-align: center; margin-bottom: 52px; }
+.lema-badge { display: inline-flex; align-items: center; gap: 10px; background: var(--teal); color: var(--white); font-family: 'Cabin', sans-serif; font-size: 1.44rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 10px 28px; border-radius: 30px; margin-bottom: 18px; }
+.section-head h2 { font-size: clamp(2rem, 3vw, 3rem); margin-bottom: 10px; }
+.section-head h2 .accent-line { display: block; width: 52px; height: 4px; background: var(--teal); border-radius: 2px; margin: 14px auto 0; }
+.section-head p { color: var(--muted); max-width: 560px; margin: 0 auto; }
+.testimonials .section-head h2, .blog .section-head h2, .faq .section-head h2 { font-size: 2rem; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.pillar-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 40px 28px; text-align: center; transition: box-shadow .2s, border-color .2s, transform .2s; position: relative; }
+.pillar-card::before { content: attr(data-num); position: absolute; top: 16px; right: 18px; font-family: 'Cabin', sans-serif; font-size: .72rem; font-weight: 700; color: var(--teal); opacity: .5; letter-spacing: .04em; }
+.pillar-card:hover { box-shadow: 0 8px 28px rgba(58,169,171,.15); border-color: var(--teal); transform: translateY(-3px); }
+.pillar-card .icon { font-size: 2.6rem; margin-bottom: 18px; display: block; }
+.pillar-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 10px; color: var(--dark); }
+.pillar-card p { font-size: .93rem; color: var(--muted); line-height: 1.7; }
+
+/* ── TESTIMONIALS ── */
+.testimonials { background: var(--bg-alt); padding: 72px 24px; }
+.proof-bar { display: flex; align-items: stretch; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; max-width: 620px; margin: 0 auto 48px; }
+.proof-stat { flex: 1; display: flex; align-items: center; gap: 12px; padding: 18px 22px; background: var(--white); text-decoration: none; color: inherit; transition: background .15s; }
+.proof-stat:hover { background: var(--bg-alt); }
+.proof-stat + .proof-stat { border-left: 1px solid var(--border); }
+.proof-divider { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 14px 18px; background: var(--bg-alt); border-left: 1px solid var(--border); border-right: 1px solid var(--border); }
+.proof-divider strong { font-family: 'Cabin', sans-serif; font-size: 1.5rem; line-height: 1; color: var(--text); }
+.proof-divider span { font-size: .7rem; color: var(--muted); text-align: center; margin-top: 3px; }
+.plat-icon { width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: .85rem; }
+.plat-google    { background: #4285f4; color: #fff; }
+.plat-superprof { background: #ff6b35; color: #fff; }
+.proof-stat .stat-info strong { display: block; font-family: 'Cabin', sans-serif; font-size: .9rem; }
+.proof-stat .stat-info .plat-stars { color: #f5a623; font-size: .78rem; letter-spacing: 1px; line-height: 1.4; }
+.proof-stat .stat-info span { font-size: .75rem; color: var(--muted); }
+.testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.testi-card { background: var(--white); border-radius: var(--radius); padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,.06); display: flex; flex-direction: column; }
+.testi-card-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+.stars { color: #f5a623; font-size: .95rem; letter-spacing: 2px; }
+.platform-badge { font-size: .7rem; font-weight: 700; padding: 3px 9px; border-radius: 20px; white-space: nowrap; flex-shrink: 0; }
+.badge-google    { background: #e8f0fe; color: #4285f4; }
+.badge-superprof { background: #fff0ea; color: #ff6b35; }
+.testi-card > p { font-size: .9rem; color: var(--muted); line-height: 1.65; flex: 1; margin-bottom: 18px; }
+.testi-author { display: flex; align-items: center; gap: 10px; margin-top: auto; }
+.author-avatar { width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: var(--white); font-family: 'Cabin', sans-serif; font-weight: 700; font-size: .85rem; }
+.av-google    { background: #4285f4; }
+.av-superprof { background: #ff6b35; }
+.testi-author strong { display: block; font-size: .88rem; }
+.testi-author span { font-size: .76rem; color: var(--muted); }
+.testi-links { display: flex; justify-content: center; gap: 20px; margin-top: 36px; flex-wrap: wrap; }
+.testi-links a { font-family: 'Cabin', sans-serif; font-weight: 700; font-size: .88rem; display: inline-flex; align-items: center; gap: 6px; }
+.link-google    { color: #4285f4; }
+.link-superprof { color: #ff6b35; }
+
+/* ── BLOG ── */
+.blog { padding: 72px 24px; background: var(--white); }
+.blog-card { display: grid; grid-template-columns: 280px 1fr; gap: 0; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; max-width: 800px; margin: 0 auto; }
+.blog-thumb { background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%); min-height: 220px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,.5); font-size: 3rem; }
+.blog-body { padding: 32px 28px; }
+.blog-tag { display: inline-block; background: var(--teal-pale); color: var(--teal-dark); font-size: .75rem; font-weight: 700; padding: 3px 10px; border-radius: 20px; margin-bottom: 12px; }
+.blog-body h3 { font-size: 1.25rem; margin-bottom: 10px; color: var(--text); }
+.blog-body h3 a { color: var(--text); }
+.blog-body h3 a:hover { color: var(--teal); }
+.blog-meta { font-size: .8rem; color: var(--muted); margin-bottom: 14px; }
+.blog-body p { font-size: .92rem; color: var(--muted); margin-bottom: 20px; }
+.blog-all { text-align: center; margin-top: 32px; }
+.btn-outline-teal { display: inline-flex; align-items: center; gap: 8px; padding: 11px 24px; border-radius: 50px; border: 2px solid var(--teal); color: var(--teal); font-family: 'Cabin', sans-serif; font-weight: 700; font-size: .9rem; transition: background .15s, color .15s; }
+.btn-outline-teal:hover { background: var(--teal); color: var(--white); }
+
+/* ── FAQ ── */
+.faq { padding: 72px 24px; background: var(--bg-alt); }
+.faq-list { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+details { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+details[open] { border-color: var(--teal); }
+summary { padding: 18px 20px; cursor: pointer; font-family: 'Cabin', sans-serif; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 12px; color: var(--text); }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: '+'; font-size: 1.3rem; color: var(--teal); flex-shrink: 0; }
+details[open] summary::after { content: '−'; }
+.faq-body { padding: 0 20px 20px; font-size: .93rem; color: var(--muted); line-height: 1.7; }
+
+/* ── CONTACT ── */
+.contact { padding: 72px 24px; background: var(--teal); color: var(--white); }
+.contact-inner { max-width: 560px; margin: 0 auto; text-align: center; }
+.contact-inner h2 { font-size: 2rem; margin-bottom: 12px; }
+.contact-inner p { opacity: .9; margin-bottom: 36px; }
+.contact-btns { display: flex; flex-direction: column; gap: 14px; }
+.contact-btn { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 15px 24px; border-radius: var(--radius); font-family: 'Cabin', sans-serif; font-weight: 700; font-size: 1rem; transition: transform .15s, box-shadow .15s; }
+.contact-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.2); color: inherit; }
+.cb-phone { background: var(--dark); color: var(--white); }
+.cb-wa    { background: #25d366; color: var(--white); }
+.cb-email { background: var(--white); color: var(--teal-dark); }
+.contact-info { margin-top: 24px; font-size: .85rem; opacity: .8; }
+
+/* ── FOOTER ── */
+footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; }
+.footer-inner { max-width: 1060px; margin: 0 auto; }
+.footer-top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; margin-bottom: 28px; }
+.footer-logo img { height: 44px; opacity: .85; }
+.footer-links { display: flex; gap: 20px; flex-wrap: wrap; }
+.footer-links a { color: rgba(255,255,255,.6); font-size: .85rem; }
+.footer-links a:hover { color: var(--white); }
+.socials { display: flex; gap: 10px; }
+.socials a { width: 34px; height: 34px; border-radius: 50%; border: 1px solid rgba(255,255,255,.2); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,.65); font-size: .8rem; font-weight: 700; }
+.socials a:hover { border-color: var(--teal); color: var(--teal); }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,.1); padding-top: 20px; font-size: .8rem; text-align: center; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 860px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-photo { display: none; }
+  .grid-3, .testi-grid { grid-template-columns: 1fr; }
+  .blog-card { grid-template-columns: 1fr; }
+  .blog-thumb { min-height: 140px; }
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .footer-top { flex-direction: column; align-items: flex-start; }
+  .proof-bar { flex-direction: column; }
+  .proof-stat + .proof-stat { border-left: none; border-top: 1px solid var(--border); }
+  .proof-divider { border-left: none; border-right: none; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+}
+@media (max-width: 600px) {
+  .hero-btns { flex-direction: column; }
+}
+</style>
+</head>
+<body <?php body_class('landing-samuel'); ?>>
+<?php wp_body_open(); ?>
+
+<!-- NOTICE -->
+<div class="notice">
+  🗓️ Agenda cerrada hasta el 22.06 &nbsp;·&nbsp; Mientras tanto, <a href="/blog">aprende alemán gratis en el blog</a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="<?php echo esc_url(home_url('/')); ?>">
+      <img src="<?php echo esc_url($logo); ?>" alt="Samuel Coach de Alemán" width="180" height="52" fetchpriority="high">
+    </a>
+    <ul class="nav-links">
+      <li><a href="<?php echo esc_url(home_url('/')); ?>">Inicio</a></li>
+      <li><a href="<?php echo esc_url(home_url('/blog')); ?>">Blog</a></li>
+      <li><a href="<?php echo esc_url(home_url('/sobre-mi')); ?>">Sobre mí</a></li>
+      <li class="nav-drop">
+        <a href="<?php echo esc_url(home_url('/servicios')); ?>">Servicios</a>
+        <div class="drop-menu">
+          <a href="<?php echo esc_url(home_url('/aleman-conversacional')); ?>">Alemán conversacional</a>
+          <a href="<?php echo esc_url(home_url('/trabajar-en-alemania')); ?>">Trabajar en Alemania</a>
+          <a href="<?php echo esc_url(home_url('/preparacion-examenes')); ?>">Preparación de exámenes</a>
+          <a href="<?php echo esc_url(home_url('/aleman-empresas')); ?>">Alemán para empresas</a>
+          <a href="<?php echo esc_url(home_url('/aleman-escolar')); ?>">Alemán escolar</a>
+        </div>
+      </li>
+      <li><a href="<?php echo esc_url(home_url('/metodologia')); ?>">Metodología</a></li>
+      <li><a href="#faq">FAQs</a></li>
+      <li class="nav-drop">
+        <a href="<?php echo esc_url(home_url('/practicar-aleman')); ?>">Practicar alemán</a>
+        <div class="drop-menu">
+          <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">🔤 Vokabellab</a>
+          <a href="https://derdiedasvokabellab.com" target="_blank" rel="noopener noreferrer">🇩🇪 Der Die Das Vokabellab</a>
+          <a href="https://imkontextvokabellab.com" target="_blank" rel="noopener noreferrer">📖 Im Kontext Vokabellab</a>
+        </div>
+      </li>
+      <li><a class="nav-cta" href="#contacto">Habla conmigo</a></li>
+    </ul>
+    <div class="hamburger" onclick="this.nextElementSibling.style.display='block'">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <h1>Willkommen bei<br><em>Samuel Coach de alemán</em></h1>
+      <div class="hero-meta">
+        <span>📍 Fuengirola, Málaga, España</span>
+        <span>📞 644 220 965</span>
+      </div>
+      <p>Aprende alemán online con 100% de éxito garantizado. Método individualizado, clases prácticas y plan de estudio adaptado a tus metas.</p>
+      <div class="hero-btns">
+        <a href="tel:644220965" class="btn btn-white">📞 Habla conmigo</a>
+        <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer"><svg style="width:18px;height:18px;flex-shrink:0" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> WhatsApp</a>
+        <a href="mailto:samuelcoachdealeman@gmail.com" class="btn btn-dark">✉️ Más información</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-wrap">
+        <div class="photo-placeholder">
+          <!-- Reemplaza con: <img src="tu-foto.jpg" alt="Samuel Coach de Alemán"> -->
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+          <span>Tu foto aquí</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PILLARS -->
+<section class="pillars">
+  <div class="container">
+    <div class="section-head">
+      <span class="lema-badge">🏆 Éxito 100% Garantizado</span>
+      <h2>Aprende alemán gracias a mis 3 claves<span class="accent-line"></span></h2>
+      <p>Da igual cuáles sean tus metas y tu situación, juntos alcanzaremos tus objetivos.</p>
+    </div>
+    <div class="grid-3">
+      <div class="pillar-card" data-num="01">
+        <div class="icon">🎯</div>
+        <h3>Experiencia y dedicación</h3>
+        <p>La enseñanza es mi pasión y eso se transmite en cada clase. Más de 171 reseñas de 5 estrellas lo avalan.</p>
+      </div>
+      <div class="pillar-card" data-num="02">
+        <div class="icon">🧠</div>
+        <h3>Aprendizaje práctico</h3>
+        <p>Entrenarás tu mente aprendiendo alemán de forma efectiva, con énfasis en aspectos útiles para la vida real.</p>
+      </div>
+      <div class="pillar-card" data-num="03">
+        <div class="icon">📋</div>
+        <h3>Objetivos individualizados</h3>
+        <p>Un plan de estudios diseñado para ti, basado en tus metas personales, tu nivel y tu ritmo de aprendizaje.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-head">
+      <h2>Lo que dicen mis alumnos</h2>
+      <p>Reseñas verificadas en Google y Superprof.</p>
+    </div>
+    <div class="proof-bar">
+      <a class="proof-stat" href="https://maps.app.goo.gl/QUfAcEKRy9hLtfxLA" target="_blank" rel="noopener noreferrer">
+        <div class="plat-icon plat-google">G</div>
+        <div class="stat-info">
+          <strong>Google</strong>
+          <div class="plat-stars">★★★★★ 5.0</div>
+          <span>124 reseñas</span>
+        </div>
+      </a>
+      <div class="proof-divider">
+        <strong>171</strong>
+        <span>opiniones<br>totales</span>
+      </div>
+      <a class="proof-stat" href="https://www.superprof.es/samuel-coach-aleman-aprender-aleman-puede-ser-facil-dejalo-mis-manos.html" target="_blank" rel="noopener noreferrer">
+        <div class="plat-icon plat-superprof">S</div>
+        <div class="stat-info">
+          <strong>Superprof</strong>
+          <div class="plat-stars">★★★★★ 5.0</div>
+          <span>47 opiniones</span>
+        </div>
+      </a>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-card-head"><div class="stars">★★★★★</div><span class="platform-badge badge-google">Google</span></div>
+        <p>"Las clases son muy dinámicas y personalizadas. Samuel se adapta perfectamente a mi nivel y avanzamos a buen ritmo. Lo recomiendo sin duda."</p>
+        <div class="testi-author"><div class="author-avatar av-google">A</div><div><strong>Ana M.</strong><span>Alemán conversacional</span></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-card-head"><div class="stars">★★★★★</div><span class="platform-badge badge-superprof">Superprof</span></div>
+        <p>"Samuel explica muy bien, adapta cada clase a lo que necesito y siempre resuelve mis dudas. En pocos meses noté un avance increíble."</p>
+        <div class="testi-author"><div class="author-avatar av-superprof">M</div><div><strong>María G.</strong><span>Alemán conversacional</span></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-card-head"><div class="stars">★★★★★</div><span class="platform-badge badge-google">Google</span></div>
+        <p>"Muy buen profesor, explica con mucha paciencia y claridad. Empecé desde cero y en 6 meses ya mantengo conversaciones básicas. Increíble."</p>
+        <div class="testi-author"><div class="author-avatar av-google">C</div><div><strong>Carlos F.</strong><span>Nivel A1 → A2</span></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-card-head"><div class="stars">★★★★★</div><span class="platform-badge badge-superprof">Superprof</span></div>
+        <p>"Preparé el Goethe B2 con Samuel y lo aprobé a la primera. Su método es muy práctico y las clases son dinámicas. Totalmente recomendable."</p>
+        <div class="testi-author"><div class="author-avatar av-superprof">J</div><div><strong>Javier R.</strong><span>Goethe B2</span></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-card-head"><div class="stars">★★★★★</div><span class="platform-badge badge-google">Google</span></div>
+        <p>"Buscaba un profesor para preparar el TELC y Samuel fue la mejor elección. Muy organizado, puntual y con materiales excelentes."</p>
+        <div class="testi-author"><div class="author-avatar av-google">R</div><div><strong>Rosa T.</strong><span>Preparación TELC B1</span></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-card-head"><div class="stars">★★★★★</div><span class="platform-badge badge-superprof">Superprof</span></div>
+        <p>"Llevaba años intentando aprender alemán sin éxito. Con Samuel encontré el método que necesitaba. Ahora trabajo en Alemania."</p>
+        <div class="testi-author"><div class="author-avatar av-superprof">L</div><div><strong>Laura P.</strong><span>Alemán para trabajar</span></div></div>
+      </div>
+    </div>
+    <div class="testi-links">
+      <a class="link-google" href="https://maps.app.goo.gl/QUfAcEKRy9hLtfxLA" target="_blank" rel="noopener noreferrer">★ Ver 124 reseñas en Google →</a>
+      <a class="link-superprof" href="https://www.superprof.es/samuel-coach-aleman-aprender-aleman-puede-ser-facil-dejalo-mis-manos.html" target="_blank" rel="noopener noreferrer">★ Ver 47 opiniones en Superprof →</a>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="blog">
+  <div class="container">
+    <div class="section-head">
+      <h2>Entrada reciente del blog</h2>
+      <p>Aquí encontrarás todo lo que necesitas para aprender alemán y la vida en Alemania.</p>
+    </div>
+    <div class="blog-card">
+      <div class="blog-thumb">🇩🇪</div>
+      <div class="blog-body">
+        <span class="blog-tag">Gramática</span>
+        <h3><a href="<?php echo esc_url(home_url('/blog/tekamolo')); ?>">¿Sabías esto del TEKAMOLO? El truco que cambia tu alemán para siempre</a></h3>
+        <div class="blog-meta">📅 20 de abril de 2026</div>
+        <p>El TEKAMOLO es una de las reglas más importantes del alemán y una de las menos conocidas. Descubre cómo dominarla y construir frases perfectas desde hoy.</p>
+        <a href="<?php echo esc_url(home_url('/blog/tekamolo')); ?>" class="btn-outline-teal">Leer artículo →</a>
+      </div>
+    </div>
+    <div class="blog-all">
+      <a href="<?php echo esc_url(home_url('/blog')); ?>" class="btn-outline-teal">Ver todos los artículos</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <h2>Preguntas frecuentes</h2>
+    </div>
+    <div class="faq-list">
+      <details>
+        <summary>¿Cómo son las clases de alemán online?</summary>
+        <div class="faq-body">Las clases se realizan por videollamada (Zoom, Meet o similar). Son totalmente personalizadas: trabajamos con materiales adaptados a tu nivel y objetivos. Antes de empezar hacemos una sesión de evaluación gratuita.</div>
+      </details>
+      <details>
+        <summary>¿Desde qué nivel puedo empezar?</summary>
+        <div class="faq-body">Desde cero absoluto hasta nivel avanzado (C1). Tanto si nunca has estudiado alemán como si quieres perfeccionar lo que ya sabes, adaptamos el programa a tu punto de partida.</div>
+      </details>
+      <details>
+        <summary>¿Cuánto tiempo se tarda en aprender alemán?</summary>
+        <div class="faq-body">Depende de tu nivel de partida, tu objetivo y la frecuencia de las clases. Con dos clases semanales y práctica diaria, en 3-6 meses se notan avances muy significativos. Lo hablamos en la sesión inicial.</div>
+      </details>
+      <details>
+        <summary>¿Me ayudas a prepararme para el examen Goethe / TELC?</summary>
+        <div class="faq-body">Sí. Ofrezco preparación específica para todos los niveles de Goethe (A1 a C2), TELC, DSD y otros certificados reconocidos internacionalmente. El enfoque está en los cuatro componentes: comprensión lectora, auditiva, expresión escrita y oral.</div>
+      </details>
+      <details>
+        <summary>¿Cuáles son las condiciones de pago?</summary>
+        <div class="faq-body">
+          <strong>Primeras dos clases:</strong> el pago se realiza antes de cada sesión, con un mínimo de 24 horas de antelación. Si el pago no se ha efectuado 12 horas antes del inicio, me reservo el derecho de cancelar la clase para gestionar mi agenda.<br><br>
+          <strong>A partir de la tercera clase:</strong> la facturación es mensual y anticipada, calculada sobre el total de horas del mes. Este sistema garantiza la reserva de tu horario.<br><br>
+          <strong>Métodos aceptados:</strong> transferencia bancaria o Bizum, según lo acordado previamente.
+        </div>
+      </details>
+      <details>
+        <summary>¿Cuál es la política de cancelaciones?</summary>
+        <div class="faq-body">
+          <strong>Cancelaciones del alumno:</strong><br>
+          — Con más de 24 horas de antelación: la clase es recuperable y se reprograma según disponibilidad de ambas partes.<br>
+          — Con menos de 24 horas: la clase no es recuperable. Si el profesor no tiene disponibilidad en el plazo acordado, el importe se descontará del mes siguiente.<br>
+          — Las cancelaciones reiteradas pueden suponer la pérdida del horario fijo y, en casos extremos, la rescisión del servicio.<br><br>
+          <strong>Cancelaciones por mi parte:</strong><br>
+          — Con más de 24 horas: la clase se recupera según disponibilidad o se descuenta su importe.<br>
+          — Con menos de 24 horas: se reprograma si hay disponibilidad; en caso contrario, se descuenta.<br>
+          — Si cancelo dos veces con menos de 12 horas de antelación, recibirás una clase adicional completamente gratuita, además de la recuperación de la clase cancelada.
+        </div>
+      </details>
+      <details>
+        <summary>¿Cuál es el precio de las clases?</summary>
+        <div class="faq-body">El precio varía según el tipo de clase y la frecuencia. Contáctame directamente para recibir una propuesta personalizada sin compromiso.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contacto">
+  <div class="container">
+    <div class="contact-inner">
+      <h2>Hablemos sin compromiso</h2>
+      <p>Cuéntame tu situación y diseñamos juntos el mejor plan para que consigas tu objetivo en alemán.</p>
+      <div class="contact-btns">
+        <a href="tel:644220965" class="contact-btn cb-phone">📞 Llámame · 644 220 965</a>
+        <a href="https://wa.me/34644220965" class="contact-btn cb-wa" target="_blank" rel="noopener noreferrer"><svg style="width:18px;height:18px;flex-shrink:0" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> Escríbeme por WhatsApp</a>
+        <a href="mailto:samuelcoachdealeman@gmail.com" class="contact-btn cb-email">✉️ Enviar email</a>
+      </div>
+      <p class="contact-info">📍 Fuengirola, Málaga, España &nbsp;·&nbsp; Clases 100% online</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <a class="footer-logo" href="<?php echo esc_url(home_url('/')); ?>">
+        <img src="<?php echo esc_url($logo); ?>" alt="Samuel Coach de Alemán" width="140" height="44" loading="lazy">
+      </a>
+      <div class="socials">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="X">𝕏</a>
+      </div>
+      <div class="footer-links">
+        <a href="<?php echo esc_url(home_url('/blog')); ?>">Blog</a>
+        <a href="<?php echo esc_url(home_url('/sobre-mi')); ?>">Sobre mí</a>
+        <a href="<?php echo esc_url(home_url('/servicios')); ?>">Servicios</a>
+        <a href="#contacto">Contacto</a>
+        <a href="<?php echo esc_url(home_url('/politica-de-privacidad')); ?>">Política de privacidad</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Copyright &copy; <?php echo date('Y'); ?> Samuel Coach de Alemán &middot; Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+<?php wp_footer(); ?>
+</body>
+</html>
