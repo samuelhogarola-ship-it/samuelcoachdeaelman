@@ -1,0 +1,21 @@
+{
+  "name": "Samuel Coach de Alemán",
+  "short_name": "Samuel Alemán",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#455a64",
+  "description": "Clases de alemán online con Samuel Coach de Alemán.",
+  "icons": [
+    {
+      "src": "/assets/img/apple-touch-icon.webp",
+      "sizes": "180x180",
+      "type": "image/webp"
+    },
+    {
+      "src": "/assets/img/favicon.webp",
+      "sizes": "96x96",
+      "type": "image/webp"
+    }
+  ]
+}
