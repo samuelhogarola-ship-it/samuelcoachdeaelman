@@ -1,2 +1,6 @@
 .DS_Store
 .claude/
+*.JPEG
+*.jpeg
+logo.*.png
+sobre mi.png
