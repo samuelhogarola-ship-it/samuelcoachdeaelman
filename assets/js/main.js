@@ -28,6 +28,16 @@ if (hamburger && mobileMenu) {
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeMenu();
   });
+
+  document.addEventListener("click", (event) => {
+    if (
+      mobileMenu.classList.contains("is-open") &&
+      !mobileMenu.contains(event.target) &&
+      !hamburger.contains(event.target)
+    ) {
+      closeMenu();
+    }
+  });
 }
 
 const getScrollOffset = () => {

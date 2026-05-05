@@ -76,6 +76,12 @@ nav {
   transition: background .15s;
 }
 .nav-links a:hover { background: var(--nav-hover); color: var(--white); }
+.mobile-menu a:focus-visible,
+.nav-links a:focus-visible,
+.hamburger:focus-visible {
+  outline: 2px solid var(--teal-light);
+  outline-offset: 3px;
+}
 .nav-links .nav-cta {
   background: var(--teal);
   color: var(--white) !important;
@@ -1007,15 +1013,15 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
     gap: 18px;
   }
   .hero-photo {
-    width: min(68vw, 250px);
+    width: min(58vw, 230px);
   }
   .hero-kicker {
     font-size: .78rem;
     margin-bottom: 8px;
   }
   .hero-text h1 {
-    font-size: clamp(2.15rem, 8.6vw, 3rem);
-    line-height: 1.08;
+    font-size: clamp(1.9rem, 8vw, 2.55rem);
+    line-height: 1.1;
     margin-bottom: 14px;
   }
   .hero-meta {
