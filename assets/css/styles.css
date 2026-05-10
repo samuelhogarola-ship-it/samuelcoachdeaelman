@@ -825,6 +825,44 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   flex-direction: column;
   gap: 14px;
 }
+.app-logo-wrap {
+  min-height: 136px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: linear-gradient(180deg, #f7fbfb 0%, #ffffff 100%);
+  border: 1px solid #e8f0f0;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.app-logo {
+  width: auto;
+  max-width: 180px;
+  max-height: 96px;
+  object-fit: contain;
+}
+.app-logo-wrap-vokabellab {
+  background: linear-gradient(180deg, #f3fbfb 0%, #ffffff 100%);
+}
+.app-logo-vokabellab {
+  max-width: 96px;
+  max-height: 104px;
+}
+.app-logo-wrap-derdiedas {
+  background: linear-gradient(180deg, #eef5ff 0%, #ffffff 100%);
+}
+.app-logo-derdiedas {
+  max-width: 168px;
+  max-height: 112px;
+}
+.app-logo-wrap-imkontext {
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+}
+.app-logo-wide {
+  max-width: 200px;
+  max-height: 92px;
+}
 .app-card h3 {
   color: var(--dark);
   font-size: 1.2rem;
