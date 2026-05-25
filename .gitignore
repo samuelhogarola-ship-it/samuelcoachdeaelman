@@ -4,3 +4,6 @@
 *.jpeg
 logo.*.png
 sobre mi.png
+node_modules/
+playwright-report/
+test-results/
