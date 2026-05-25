@@ -216,13 +216,13 @@ function generatePage(texto) {
   <meta property="og:title" content="${titulo} — Leseverstehen ${nivel}">
   <meta property="og:description" content="${descripcion}">
   <meta property="og:url" content="${canonical}">
-  <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/hero-photo-full.webp">
+  <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.webp">
   <meta property="og:site_name" content="Samuel Coach de Alemán">
   <meta property="og:locale" content="es_ES">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${titulo} — Leseverstehen ${nivel}">
   <meta name="twitter:description" content="${descripcion}">
-  <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/hero-photo-full.webp">
+  <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.webp">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
