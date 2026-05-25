@@ -5,7 +5,7 @@ const staticPages = [
   { path: "/servicios/", heading: /servicios de alemán online/i },
   { path: "/sobre-mi/", heading: /sobre mí/i },
   { path: "/metodologia/", heading: /metodología/i },
-  { path: "/practicar-aleman/", heading: /practica alemán con mis apps/i },
+  { path: "/practicar-aleman/", heading: /practicar alemán online con herramientas reales/i },
   { path: "/politica-de-privacidad/", heading: /política de privacidad/i }
 ];
 
@@ -31,7 +31,7 @@ test.describe("home interactions", () => {
 
   test("persists the apps widget as closed after the user closes it", async ({ page }) => {
     const widgetToggle = page.locator("#apps-widget-toggle");
-    const widgetClose = page.getByLabel("Cerrar menú de apps");
+    const widgetClose = page.locator(".apps-widget-close");
 
     await expect(widgetToggle).toBeChecked();
     await widgetClose.click();
