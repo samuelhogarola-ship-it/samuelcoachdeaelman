@@ -60,6 +60,61 @@ const TEXTOS = [
     titulo: 'Der Tagesausflug',
     descripcion: 'Lectura en alemán A2 sobre Paul y Maria de excursión a la montaña. Ejercicios de comprensión lectora Richtig oder Falsch nivel A2.',
   },
+  // ── B1 ──────────────────────────────────────────────────────
+  {
+    slug: 'homeoffice',
+    nivel: 'B1',
+    titulo: 'Homeoffice – Fluch oder Segen?',
+    descripcion: 'Texto B1 en alemán sobre el teletrabajo: ventajas, inconvenientes y reglas empresariales. Practica el Leseverstehen B1 con ejercicios Wahr/Falsch.',
+  },
+  {
+    slug: 'reise-mit-dem-zug',
+    nivel: 'B1',
+    titulo: 'Eine Reise mit dem Zug durch Europa',
+    descripcion: 'Lectura B1 en alemán sobre un viaje en tren con Interrail por Europa. Comprensión lectora con ejercicios Wahr/Falsch para nivel B1.',
+  },
+  {
+    slug: 'gesund-essen',
+    nivel: 'B1',
+    titulo: 'Gesund essen im Alltag – leichter gesagt als getan',
+    descripcion: 'Texto en alemán B1 sobre alimentación saludable y hábitos de vida. Ejercicios de comprensión lectora Wahr/Falsch. Ideal para preparar el Goethe B1.',
+  },
+  {
+    slug: 'klimaschutz-im-alltag',
+    nivel: 'B1',
+    titulo: 'Klimaschutz im Alltag – Was kann jeder tun?',
+    descripcion: 'Lectura B1 en alemán sobre la protección del clima y el papel del individuo. Ejercicios Wahr/Falsch para practicar el Leseverstehen B1.',
+  },
+  {
+    slug: 'lebenslanges-lernen',
+    nivel: 'B1',
+    titulo: 'Lebenslanges Lernen – Weiterbildung im Erwachsenenalter',
+    descripcion: 'Texto en alemán B1 sobre formación continua y plataformas digitales de aprendizaje. Comprensión lectora con ejercicios Wahr/Falsch nivel B1.',
+  },
+  {
+    slug: 'stress-und-erholung',
+    nivel: 'B1',
+    titulo: 'Stress und Erholung – Wie finden wir die Balance?',
+    descripcion: 'Lectura B1 en alemán sobre el estrés, el sueño y el descanso. Practica el Leseverstehen B1 con ejercicios interactivos Wahr/Falsch.',
+  },
+  {
+    slug: 'soziale-medien',
+    nivel: 'B1',
+    titulo: 'Soziale Medien – Fluch oder Segen für Jugendliche?',
+    descripcion: 'Texto B1 en alemán sobre redes sociales y su impacto en los jóvenes. Comprensión lectora con ejercicios Wahr/Falsch para nivel B1.',
+  },
+  {
+    slug: 'ehrenamt',
+    nivel: 'B1',
+    titulo: 'Ehrenamt – Warum immer mehr Menschen freiwillig helfen',
+    descripcion: 'Lectura en alemán B1 sobre el voluntariado en Alemania. Ejercicios de comprensión lectora Wahr/Falsch. Preparación Goethe B1 y TELC B1.',
+  },
+  {
+    slug: 'wochenende-auf-dem-bauernhof',
+    nivel: 'B1',
+    titulo: 'Ein Wochenende auf dem Bauernhof',
+    descripcion: 'Texto B1 en alemán sobre un fin de semana en una granja ecológica cerca de Friburgo. Ejercicios Wahr/Falsch de comprensión lectora nivel B1.',
+  },
 ];
 
 const NAV = `
