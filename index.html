@@ -37,6 +37,7 @@
   <link rel="preload" as="image" href="assets/img/hero-photo-full.webp" type="image/webp" fetchpriority="high">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/cookie-banner-core.css">
 
   <script type="application/ld+json">
   {
@@ -597,7 +598,7 @@
 
   <div class="apps-widget" aria-label="Acceso rápido a apps">
     <div class="apps-widget-panel">
-      <input class="apps-widget-toggle" type="checkbox" id="apps-widget-toggle">
+      <input class="apps-widget-toggle" type="checkbox" id="apps-widget-toggle" checked>
       <label class="apps-widget-backdrop" for="apps-widget-toggle" aria-hidden="true"></label>
       <label class="apps-widget-trigger" for="apps-widget-toggle" aria-label="Abrir apps para practicar alemán">
         <img src="assets/img/logo-tree.png" alt="Logo Tree" class="apps-widget-tree" loading="lazy">
@@ -615,6 +616,7 @@
   </div>
 
   <!-- Si luego quieres formulario real, enchúfalo desde main.js o añade un endpoint aquí -->
+  <script src="assets/js/cookie-banner-core.js" defer></script>
   <script src="assets/js/main.js" defer></script>
 </body>
 </html>
