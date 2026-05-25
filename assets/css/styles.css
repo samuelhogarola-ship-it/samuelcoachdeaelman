@@ -1376,8 +1376,10 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 28px 24px;
+  position: -webkit-sticky;
   position: sticky;
   top: 80px;
+  will-change: transform;
 }
 .lese-ejercicio-titulo {
   font-size: 1.05rem;
