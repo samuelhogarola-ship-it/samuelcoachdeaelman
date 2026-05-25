@@ -86,3 +86,71 @@ window.siteHooks = {
     if (typeof handler === "function") handler();
   }
 };
+
+const initAppsWidgetPreference = () => {
+  const widgetToggle = document.querySelector(".apps-widget-toggle");
+  if (!widgetToggle) return;
+
+  const storageKey = "samuelcoach_apps_widget_state";
+  let savedState = null;
+
+  try {
+    savedState = window.localStorage.getItem(storageKey);
+  } catch (_error) {
+    savedState = null;
+  }
+
+  widgetToggle.checked = savedState !== "closed";
+
+  widgetToggle.addEventListener("change", () => {
+    try {
+      window.localStorage.setItem(storageKey, widgetToggle.checked ? "open" : "closed");
+    } catch (_error) {
+      // Ignore storage errors and keep the widget interactive.
+    }
+  });
+};
+
+const emitCookiePreferences = (preferences) => {
+  window.dispatchEvent(
+    new CustomEvent("cookiepreferenceschange", {
+      detail: {
+        necesarias: true,
+        analiticas: !!(preferences && preferences.analiticas)
+      }
+    })
+  );
+};
+
+const initCookieBanner = () => {
+  if (!window.CookieBannerCore || typeof window.CookieBannerCore.init !== "function") return;
+
+  window.CookieBannerCore.init({
+    storageKey: "samuelcoach_cookie_consent",
+    imageSrc: "/assets/img/samuel-cookie.webp",
+    imageAlt: "Galleta decorativa del banner de cookies",
+    title: "Tu privacidad importa",
+    noticeHtml:
+      '<p>Usamos cookies necesarias para que la web funcione y, solo si lo aceptas, cookies analíticas para entender el uso del sitio y mejorarlo. <a href="/politica-de-privacidad/">Más información</a>.</p>',
+    acceptLabel: "Aceptar",
+    rejectLabel: "Rechazar",
+    configLabel: "Configurar cookies",
+    configModalTitle: "Configura tus cookies",
+    configModalIntro:
+      "Puedes aceptar solo las cookies necesarias o activar también las cookies analíticas. Siempre podrás cambiar tu decisión borrando las cookies del navegador.",
+    necessaryTitle: "Cookies necesarias",
+    necessaryDescription:
+      "Son imprescindibles para funciones básicas como navegación, seguridad y recordar tu elección de consentimiento.",
+    necessaryBadge: "Siempre activas",
+    analyticsTitle: "Cookies analíticas",
+    analyticsDescription:
+      "Nos ayudan a entender cómo se usa la web para mejorar contenidos, rendimiento y experiencia de navegación.",
+    saveConfigLabel: "Guardar configuración",
+    onAccept: emitCookiePreferences,
+    onReject: emitCookiePreferences,
+    onSaveConfig: emitCookiePreferences
+  });
+};
+
+initCookieBanner();
+initAppsWidgetPreference();
