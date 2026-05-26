@@ -143,7 +143,8 @@ function renderLectura(container, slug) {
     comprobarFin();
   });
 
-  container.querySelector('.lese-btn-reiniciar')?.addEventListener('click', () => {
+  const reiniciarBtn = container.querySelector('.lese-btn-reiniciar');
+  if (reiniciarBtn) reiniciarBtn.addEventListener('click', () => {
     renderLectura(container, slug);
   });
 }
