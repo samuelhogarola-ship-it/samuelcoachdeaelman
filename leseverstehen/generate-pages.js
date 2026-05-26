@@ -10,6 +10,31 @@ const path = require('path');
 
 const TEXTOS = require('../assets/js/leseverstehen-data.js');
 
+// ── Funciones de escape ──────────────────────────────────────────────────────
+// Para valores dentro de atributos HTML (content="…", og:title, etc.)
+function escapeHtmlAttr(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+// Para contenido de texto visible en el HTML (<title>, <h1>, etc.)
+function escapeHtmlText(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+// Para valores dentro del bloque JSON-LD: usa JSON.stringify() que escapa
+// comillas, barras, etc. El resultado ya lleva las comillas externas.
+// Uso: "name": ${jsonVal(titulo)}
+function jsonVal(str) {
+  return JSON.stringify(String(str));
+}
+
 // ── Metadatos SEO por nivel ──────────────────────────────────────────────────
 const NIVEL_META = {
   A2: {
@@ -132,30 +157,30 @@ function generatePage(texto) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${pageTitle}</title>
-  <meta name="description" content="${descripcion}">
+  <title>${escapeHtmlText(pageTitle)}</title>
+  <meta name="description" content="${escapeHtmlAttr(descripcion)}">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
   <link rel="canonical" href="${canonical}">
   <meta name="theme-color" content="#455a64">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="${titulo} — Leseverstehen ${nivel}">
-  <meta property="og:description" content="${descripcion}">
+  <meta property="og:title" content="${escapeHtmlAttr(titulo)} — Leseverstehen ${nivel}">
+  <meta property="og:description" content="${escapeHtmlAttr(descripcion)}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.jpg">
   <meta property="og:site_name" content="Samuel Coach de Alemán">
   <meta property="og:locale" content="es_ES">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${titulo} — Leseverstehen ${nivel}">
-  <meta name="twitter:description" content="${descripcion}">
+  <meta name="twitter:title" content="${escapeHtmlAttr(titulo)} — Leseverstehen ${nivel}">
+  <meta name="twitter:description" content="${escapeHtmlAttr(descripcion)}">
   <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.jpg">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LearningResource",
-    "name": "${titulo}",
-    "description": "${descripcion}",
-    "url": "${canonical}",
-    "educationalLevel": "${nivel}",
+    "name": ${jsonVal(titulo)},
+    "description": ${jsonVal(descripcion)},
+    "url": ${jsonVal(canonical)},
+    "educationalLevel": ${jsonVal(nivel)},
     "inLanguage": "de",
     "learningResourceType": "Reading comprehension exercise",
     "provider": {
@@ -208,15 +233,15 @@ function generateLevelPage(nivel) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${meta.title}</title>
-  <meta name="description" content="${meta.description}">
-  <meta name="keywords" content="${meta.keywords}">
+  <title>${escapeHtmlText(meta.title)}</title>
+  <meta name="description" content="${escapeHtmlAttr(meta.description)}">
+  <meta name="keywords" content="${escapeHtmlAttr(meta.keywords)}">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
   <link rel="canonical" href="${canonical}">
   <meta name="theme-color" content="#455a64">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="${meta.h1} — Comprensión lectora con ejercicios">
-  <meta property="og:description" content="${meta.description}">
+  <meta property="og:title" content="${escapeHtmlAttr(meta.h1)} — Comprensión lectora con ejercicios">
+  <meta property="og:description" content="${escapeHtmlAttr(meta.description)}">
   <meta property="og:url" content="${canonical}">
   <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.jpg">
   <meta property="og:image:width" content="1080">
@@ -224,8 +249,8 @@ function generateLevelPage(nivel) {
   <meta property="og:site_name" content="Samuel Coach de Alemán">
   <meta property="og:locale" content="es_ES">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${meta.h1} — Comprensión lectora con ejercicios">
-  <meta name="twitter:description" content="${meta.description}">
+  <meta name="twitter:title" content="${escapeHtmlAttr(meta.h1)} — Comprensión lectora con ejercicios">
+  <meta name="twitter:description" content="${escapeHtmlAttr(meta.description)}">
   <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -243,7 +268,7 @@ ${makeNav(p)}
     <section class="lese-hero">
       <div class="container">
         <span class="lese-hero-kicker">Comprensión lectora en alemán</span>
-        <h1>${meta.h1}</h1>
+        <h1>${escapeHtmlText(meta.h1)}</h1>
         <p>${meta.sub}</p>
       </div>
     </section>
