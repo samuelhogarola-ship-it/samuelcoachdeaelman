@@ -10,13 +10,14 @@ function getTextos() {
   return TEXTOS;
 }
 
+// Renderiza todos los niveles en el contenedor (página principal /leseverstehen/)
 function renderLista(container) {
   const niveles = [...new Set(TEXTOS.map(t => t.nivel))];
   let html = '';
   niveles.forEach(nivel => {
     const grupo = TEXTOS.filter(t => t.nivel === nivel);
     html += `<div class="lese-nivel-grupo">
-      <h2 class="lese-nivel-titulo">Nivel ${nivel}</h2>
+      <h2 class="lese-nivel-titulo"><a href="/leseverstehen/${nivel.toLowerCase()}/">Nivel ${nivel}</a></h2>
       <div class="lese-grid">`;
     grupo.forEach(t => {
       html += `<a class="lese-card" href="/leseverstehen/${t.nivel.toLowerCase()}/${t.slug}/">
@@ -28,6 +29,29 @@ function renderLista(container) {
     });
     html += `</div></div>`;
   });
+  container.innerHTML = html;
+}
+
+// Renderiza solo los textos de un nivel (páginas /leseverstehen/a2/, /b1/, /b2/)
+function renderListaNivel(container, nivel) {
+  const grupo = TEXTOS.filter(t => t.nivel === nivel);
+  if (!grupo.length) {
+    container.innerHTML = '<p class="lese-error">Nivel no encontrado.</p>';
+    return;
+  }
+  let html = '<div class="lese-grid">';
+  grupo.forEach(t => {
+    html += `<a class="lese-card" href="/leseverstehen/${t.nivel.toLowerCase()}/${t.slug}/">
+      <span class="lese-card-nivel">${t.nivel}</span>
+      <h3>${t.titulo}</h3>
+      <p>${t.descripcion}</p>
+      <span class="lese-card-cta">Leer y practicar →</span>
+    </a>`;
+  });
+  html += `</div>
+  <div class="lese-back">
+    <a href="/leseverstehen/" class="lese-volver">← Ver todos los niveles</a>
+  </div>`;
   container.innerHTML = html;
 }
 
@@ -69,7 +93,7 @@ function renderLectura(container, slug) {
       </div>
     </div>
     <div class="lese-back">
-      <a href="/leseverstehen/" class="lese-volver">← Volver a la lista</a>
+      <a href="/leseverstehen/${texto.nivel.toLowerCase()}/" class="lese-volver">← Volver a ${texto.nivel}</a>
     </div>
   `;
 
