@@ -692,6 +692,206 @@ Am Abend schläft Bello auf seinem Kissen. Er schläft viel. Ich mag Bello sehr.
       { enunciado: 'Ben mag seinen Hund sehr.', respuesta: true },
     ],
   },
+  {
+    slug: 'familie-schneider',
+    nivel: 'A1',
+    titulo: 'Familie Schneider',
+    descripcion: 'Conoce a la familia Schneider de Colonia: sus hijos, profesiones y rutina de fin de semana. Texto A1 sobre la familia.',
+    texto: `Das ist Familie Schneider. Der Vater heißt Thomas. Die Mutter heißt Anna. Sie haben drei Kinder: einen Sohn und zwei Töchter. Der Sohn heißt Lukas. Er ist acht Jahre alt. Die Töchter heißen Mia und Sophie. Mia ist sechs Jahre alt und Sophie ist drei Jahre alt.
+
+Die Familie wohnt in einem Haus in Köln. Das Haus hat einen Garten. Im Garten gibt es Blumen und einen Baum. Thomas arbeitet als Arzt. Anna ist Lehrerin. Die Kinder gehen in die Schule – nur Sophie nicht. Sie ist noch klein und geht in den Kindergarten.
+
+Am Wochenende kocht Anna gern. Thomas spielt mit den Kindern im Garten. Lukas mag Fußball. Mia malt gern. Sophie spielt mit ihrer Katze. Die Katze heißt Mimi. Mimi ist grau und weiß.
+
+Die Familie ist glücklich. Sie essen abends zusammen. Das ist wichtig für sie.`,
+    preguntas: [
+      { enunciado: 'Familie Schneider hat zwei Kinder.', respuesta: false },
+      { enunciado: 'Thomas arbeitet als Arzt.', respuesta: true },
+      { enunciado: 'Das Haus hat keinen Garten.', respuesta: false },
+      { enunciado: 'Sophie geht in den Kindergarten.', respuesta: true },
+      { enunciado: 'Die Katze heißt Mimi und ist schwarz.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'mein-koerper',
+    nivel: 'A1',
+    titulo: 'Mein Körper',
+    descripcion: 'Jonas aprende las partes del cuerpo en alemán. Vocabulario A1 esencial sobre el cuerpo humano.',
+    texto: `Ich heiße Jonas. Ich bin zehn Jahre alt. Heute lerne ich in der Schule Körperteile auf Deutsch.
+
+Der Kopf ist oben. Im Kopf sind die Augen, die Nase, der Mund und die Ohren. Ich habe zwei Augen. Sie sind blau. Ich habe eine Nase und einen Mund. Mit dem Mund esse und spreche ich. Mit den Ohren höre ich Musik.
+
+Der Hals verbindet den Kopf mit dem Körper. Dann kommen die Schultern, die Arme und die Hände. Ich habe zwei Arme und zwei Hände. Mit den Händen schreibe ich und spiele ich Gitarre.
+
+Unten sind die Beine und die Füße. Ich habe zwei Beine und zwei Füße. Mit den Beinen laufe ich und spiele ich Fußball. Mein Körper ist toll!`,
+    preguntas: [
+      { enunciado: 'Jonas ist zwölf Jahre alt.', respuesta: false },
+      { enunciado: 'Jonas hat blaue Augen.', respuesta: true },
+      { enunciado: 'Mit den Ohren schreibt Jonas.', respuesta: false },
+      { enunciado: 'Jonas spielt Gitarre.', respuesta: true },
+      { enunciado: 'Der Hals verbindet den Kopf mit dem Körper.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'tiere-auf-dem-bauernhof',
+    nivel: 'A1',
+    titulo: 'Tiere auf dem Bauernhof',
+    descripcion: 'Los animales de la granja del señor Müller: vacas, cerdos, gallinas, ovejas y el perro Rex. Vocabulario A1.',
+    texto: `Auf dem Bauernhof von Herrn Müller leben viele Tiere. Es gibt Kühe, Schweine, Hühner, Schafe und ein Pferd. Das Pferd heißt Bruno. Bruno ist braun und sehr groß.
+
+Die Kühe geben Milch. Herr Müller verkauft die Milch im Dorf. Die Hühner legen Eier. Morgens sammelt Herr Müller die Eier ein. Die Schweine fressen viel. Sie fressen Gemüse und Brot.
+
+Die Schafe haben viel Wolle. Einmal im Jahr schneidet Herr Müller die Wolle. Das nennt man „scheren". Die Wolle ist weich und warm.
+
+Herr Müller hat auch einen Hund. Der Hund heißt Rex. Rex passt auf die Schafe auf. Er ist sehr intelligent. Herr Müller mag alle seine Tiere. Er sagt: „Der Bauernhof ist mein Leben."`,
+    preguntas: [
+      { enunciado: 'Auf dem Bauernhof gibt es keine Schweine.', respuesta: false },
+      { enunciado: 'Das Pferd Bruno ist braun.', respuesta: true },
+      { enunciado: 'Die Kühe legen Eier.', respuesta: false },
+      { enunciado: 'Der Hund Rex passt auf die Schafe auf.', respuesta: true },
+      { enunciado: 'Herr Müller schneidet die Wolle jeden Monat.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'meine-wohnung',
+    nivel: 'A1',
+    titulo: 'Meine Wohnung',
+    descripcion: 'Sara describe su piso en Berlín: habitaciones, muebles y electrodomésticos. Vocabulario A1 sobre la casa.',
+    texto: `Ich heiße Sara. Ich wohne in einer Wohnung in Berlin. Die Wohnung ist nicht groß, aber sie ist schön und hell.
+
+Die Wohnung hat vier Zimmer: ein Wohnzimmer, ein Schlafzimmer, ein Badezimmer und eine Küche. Im Wohnzimmer gibt es ein Sofa, einen Tisch und einen Fernseher. Im Schlafzimmer steht mein Bett. Das Bett ist groß und bequem.
+
+In der Küche koche ich gern. Ich habe einen Herd, einen Kühlschrank und eine Spülmaschine. Das Badezimmer hat eine Dusche und ein Waschbecken. Ich habe keine Badewanne.
+
+Im Flur hängt ein großer Spiegel. Neben dem Spiegel steht ein Regal mit Büchern. Meine Lieblingszimmer sind die Küche und das Wohnzimmer. Ich fühle mich hier sehr wohl.`,
+    preguntas: [
+      { enunciado: 'Saras Wohnung hat fünf Zimmer.', respuesta: false },
+      { enunciado: 'Im Wohnzimmer gibt es einen Fernseher.', respuesta: true },
+      { enunciado: 'Sara hat eine Badewanne im Badezimmer.', respuesta: false },
+      { enunciado: 'Im Flur hängt ein großer Spiegel.', respuesta: true },
+      { enunciado: 'Sara kocht nicht gern.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'berufe-in-meiner-stadt',
+    nivel: 'A1',
+    titulo: 'Berufe in meiner Stadt',
+    descripcion: 'Las profesiones más comunes en una ciudad alemana: médico, panadero, policía, conductor... Vocabulario A1.',
+    texto: `In meiner Stadt gibt es viele verschiedene Berufe. Der Arzt arbeitet im Krankenhaus. Er hilft kranken Menschen. Die Lehrerin arbeitet in der Schule. Sie unterrichtet Kinder.
+
+Der Bäcker backt Brot und Kuchen. Er beginnt sehr früh – um vier Uhr morgens! Der Polizist sorgt für Sicherheit auf der Straße. Die Köchin arbeitet in einem Restaurant. Sie kocht das Essen für die Gäste.
+
+Der Busfahrer fährt jeden Tag viele Menschen durch die Stadt. Er kennt alle Straßen. Die Verkäuferin arbeitet in einem Supermarkt. Sie hilft den Kunden und kassiert das Geld.
+
+Alle diese Menschen arbeiten für die Stadt. Ohne sie funktioniert das Leben nicht. Welchen Beruf finde ich interessant? Ich möchte Ärztin werden!`,
+    preguntas: [
+      { enunciado: 'Der Bäcker beginnt seine Arbeit um vier Uhr morgens.', respuesta: true },
+      { enunciado: 'Der Polizist arbeitet im Krankenhaus.', respuesta: false },
+      { enunciado: 'Die Köchin arbeitet in einem Restaurant.', respuesta: true },
+      { enunciado: 'Die Verkäuferin arbeitet in einer Bäckerei.', respuesta: false },
+      { enunciado: 'Die Person im Text möchte Ärztin werden.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'jahreszeiten',
+    nivel: 'A1',
+    titulo: 'Das Wetter und die Jahreszeiten',
+    descripcion: 'Las cuatro estaciones del año en Alemania y el vocabulario del tiempo. Texto A1 sobre el clima.',
+    texto: `In Deutschland gibt es vier Jahreszeiten: Frühling, Sommer, Herbst und Winter.
+
+Im Frühling ist es warm und die Blumen wachsen. Die Sonne scheint oft, aber es regnet auch manchmal. Im Sommer ist es heiß. Die Temperatur ist manchmal 30 Grad oder mehr. Die Kinder haben Sommerferien und spielen draußen.
+
+Im Herbst werden die Blätter gelb, orange und rot. Es ist kühler und es regnet mehr. Die Tage werden kürzer. Im Winter ist es kalt. Manchmal schneit es. Die Kinder bauen Schneemänner und fahren Schlitten.
+
+Meine Lieblingszeit ist der Sommer. Ich gehe gern schwimmen und mache Ausflüge mit meiner Familie. Was ist deine Lieblingszeit?`,
+    preguntas: [
+      { enunciado: 'In Deutschland gibt es drei Jahreszeiten.', respuesta: false },
+      { enunciado: 'Im Sommer können die Temperaturen 30 Grad oder mehr erreichen.', respuesta: true },
+      { enunciado: 'Im Herbst werden die Blätter grün.', respuesta: false },
+      { enunciado: 'Im Winter schneit es manchmal.', respuesta: true },
+      { enunciado: 'Die Person im Text mag den Winter am liebsten.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'lebensmittel-und-einkaufen',
+    nivel: 'A1',
+    titulo: 'Lebensmittel und Einkaufen',
+    descripcion: 'La señora Koch hace la compra semanal: frutas, verduras, lácteos y más. Vocabulario A1 sobre alimentos.',
+    texto: `Heute geht Frau Koch in den Supermarkt. Sie braucht Lebensmittel für die Woche. Sie nimmt einen Einkaufskorb und geht durch die Gänge.
+
+Zuerst nimmt sie Gemüse: Tomaten, Karotten und einen Salat. Dann kauft sie Obst: Äpfel, Bananen und Orangen. Im Kühlregal nimmt sie Milch, Butter, Joghurt und Käse. Sie braucht auch Eier.
+
+An der Fleischtheke kauft sie Hähnchen und etwas Schinken. Danach geht sie zur Brotabteilung. Sie kauft ein Vollkornbrot und zwei Brötchen. Am Ende nimmt sie noch Nudeln, Reis und Olivenöl.
+
+An der Kasse bezahlt sie 42 Euro. Sie bezahlt mit Karte. „Danke und auf Wiedersehen!", sagt die Kassiererin. Frau Koch nimmt ihre Taschen und geht nach Hause.`,
+    preguntas: [
+      { enunciado: 'Frau Koch kauft Bananen und Orangen.', respuesta: true },
+      { enunciado: 'Im Kühlregal kauft sie Nudeln und Reis.', respuesta: false },
+      { enunciado: 'An der Fleischtheke kauft sie Rindfleisch.', respuesta: false },
+      { enunciado: 'Frau Koch bezahlt mit Karte.', respuesta: true },
+      { enunciado: 'Sie kauft drei Brötchen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'mein-schultag',
+    nivel: 'A1',
+    titulo: 'Mein Schultag',
+    descripcion: 'Ben cuenta cómo es su jornada escolar: horarios, asignaturas y la tarde con su amigo Paul. Vocabulario A1.',
+    texto: `Ich heiße Ben. Ich bin neun Jahre alt und gehe in die dritte Klasse. Meine Schule beginnt um acht Uhr. Ich stehe um sieben Uhr auf und frühstücke mit meiner Familie.
+
+In meinem Schulranzen habe ich Bücher, Hefte, Stifte und ein Lineal. Meine Lieblingsfächer sind Mathematik und Sport. Deutsch mag ich auch, aber Englisch finde ich schwierig.
+
+In der Pause esse ich mein Pausenbrot. Meistens bringe ich ein Käsebrot oder ein Brot mit Marmelade mit. Ich trinke Wasser oder Apfelsaft. Nach der Pause haben wir noch zwei Stunden Unterricht.
+
+Um dreizehn Uhr ist die Schule fertig. Dann gehe ich nach Hause. Nachmittags mache ich zuerst Hausaufgaben, dann spiele ich mit meinem Freund Paul. Manchmal spielen wir Fußball, manchmal spielen wir Computerspiele.`,
+    preguntas: [
+      { enunciado: 'Bens Schule beginnt um neun Uhr.', respuesta: false },
+      { enunciado: 'Bens Lieblingsfächer sind Mathematik und Sport.', respuesta: true },
+      { enunciado: 'In der Pause isst Ben meistens ein Wurstbrot.', respuesta: false },
+      { enunciado: 'Ben macht nach der Schule zuerst Hausaufgaben.', respuesta: true },
+      { enunciado: 'Ben spielt nachmittags immer allein.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'beim-arzt',
+    nivel: 'A1',
+    titulo: 'Beim Arzt',
+    descripcion: 'Emma tiene fiebre y va al médico con su madre. Vocabulario A1 sobre síntomas, enfermedades y la visita médica.',
+    texto: `Heute geht Emma zum Arzt. Sie fühlt sich nicht gut. Sie hat Kopfschmerzen, Halsschmerzen und etwas Fieber. Ihre Mutter geht mit ihr.
+
+Im Wartezimmer sitzen noch drei andere Patienten. Emma wartet zwanzig Minuten. Dann ruft die Sprechstundenhilfe: „Emma Weber, bitte!"
+
+Der Arzt heißt Dr. Berger. Er ist freundlich. Er fragt: „Was fehlt Ihnen?" Emma sagt: „Ich habe Halsschmerzen und Kopfschmerzen. Mir ist auch kalt." Dr. Berger schaut in ihren Hals und misst die Temperatur. Emma hat 38,5 Grad Fieber.
+
+Dr. Berger sagt: „Sie haben eine Erkältung. Sie brauchen Ruhe und viel Tee." Er schreibt ein Rezept für Tabletten. „In drei bis vier Tagen geht es Ihnen besser", sagt er. Emma und ihre Mutter gehen zur Apotheke und kaufen die Tabletten.`,
+    preguntas: [
+      { enunciado: 'Emma hat Bauchschmerzen und Fieber.', respuesta: false },
+      { enunciado: 'Emma wartet zwanzig Minuten im Wartezimmer.', respuesta: true },
+      { enunciado: 'Dr. Berger sagt, Emma hat eine Grippe.', respuesta: false },
+      { enunciado: 'Emma hat 38,5 Grad Fieber.', respuesta: true },
+      { enunciado: 'Nach dem Arztbesuch gehen Emma und ihre Mutter in den Supermarkt.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'hobbys-und-freizeit',
+    nivel: 'A1',
+    titulo: 'Hobbys und Freizeit',
+    descripcion: 'Lena habla de sus aficiones: piano, lectura, natación y salidas con amigas. Texto A1 sobre el tiempo libre.',
+    texto: `Mein Name ist Lena. Ich bin vierzehn Jahre alt. In meiner Freizeit mache ich viele Dinge, die mir Spaß machen.
+
+Ich spiele gern Klavier. Ich übe dreimal pro Woche – dienstags, donnerstags und samstags. Meine Klavierlehrerin heißt Frau Vogel. Sie ist sehr nett.
+
+Ich lese auch sehr gern. Mein Lieblingsbuch ist eine Geschichte über ein Mädchen und einen Drachen. Ich lese abends vor dem Schlafen. Außerdem gehe ich einmal pro Woche schwimmen. Das Schwimmbad ist fünf Minuten von meinem Haus entfernt.
+
+Am Wochenende treffe ich meine Freundinnen. Wir gehen manchmal ins Kino oder in ein Café. Im Café trinken wir heiße Schokolade und reden viel. Das ist mein Lieblingstag: Samstag mit meinen Freundinnen!`,
+    preguntas: [
+      { enunciado: 'Lena spielt Gitarre.', respuesta: false },
+      { enunciado: 'Lena übt Klavier dreimal pro Woche.', respuesta: true },
+      { enunciado: 'Lenas Lieblingsbuch handelt von einem Mädchen und einem Drachen.', respuesta: true },
+      { enunciado: 'Das Schwimmbad ist zehn Minuten von Lenas Haus entfernt.', respuesta: false },
+      { enunciado: 'Am Wochenende geht Lena immer allein ins Kino.', respuesta: false },
+    ],
+  },
   // ── fin A1 ──────────────────────────────────────────────────
 
   {
