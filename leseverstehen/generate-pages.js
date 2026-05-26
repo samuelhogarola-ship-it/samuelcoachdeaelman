@@ -115,6 +115,67 @@ const TEXTOS = [
     titulo: 'Ein Wochenende auf dem Bauernhof',
     descripcion: 'Texto B1 en alemán sobre un fin de semana en una granja ecológica cerca de Friburgo. Ejercicios Wahr/Falsch de comprensión lectora nivel B1.',
   },
+  // ── B2 ──────────────────────────────────────────────────────
+  {
+    slug: 'zwischen-zwei-kulturen',
+    nivel: 'B2',
+    titulo: 'Zwischen zwei Kulturen – Identität im Wandel',
+    descripcion: 'Texto B2 en alemán sobre identidad cultural e hibridez. Ejercicios Wahr/Falsch de comprensión lectora nivel B2. Preparación Goethe B2 y TELC B2.',
+  },
+  {
+    slug: 'vier-tage-woche',
+    nivel: 'B2',
+    titulo: 'Die Vier-Tage-Woche – Zukunftsmodell oder Utopie?',
+    descripcion: 'Lectura B2 en alemán sobre la semana de cuatro días laborables. Ejercicios Wahr/Falsch para practicar el Leseverstehen B2.',
+  },
+  {
+    slug: 'overtourism',
+    nivel: 'B2',
+    titulo: 'Overtourism – Wenn der Massentourismus Städte erdrückt',
+    descripcion: 'Texto en alemán B2 sobre el turismo masivo y sus consecuencias. Comprensión lectora Wahr/Falsch. Ideal para preparar el Goethe B2.',
+  },
+  {
+    slug: 'ki-in-der-medizin',
+    nivel: 'B2',
+    titulo: 'Künstliche Intelligenz in der Medizin – Chance und Risiko',
+    descripcion: 'Lectura B2 en alemán sobre inteligencia artificial en medicina. Ejercicios de comprensión Wahr/Falsch para nivel B2.',
+  },
+  {
+    slug: 'einsamkeit',
+    nivel: 'B2',
+    titulo: 'Einsamkeit – die stille Epidemie unserer Zeit',
+    descripcion: 'Texto B2 en alemán sobre la soledad como problema de salud pública. Ejercicios Wahr/Falsch de Leseverstehen nivel B2.',
+  },
+  {
+    slug: 'kolonialzeit-raubkunst',
+    nivel: 'B2',
+    titulo: 'Das Erbe der Kolonialzeit – Raubkunst und Rückgabedebatte',
+    descripcion: 'Lectura B2 en alemán sobre la restitución de arte colonial. Comprensión lectora Wahr/Falsch para preparar el Goethe B2 o TELC B2.',
+  },
+  {
+    slug: 'gentrifizierung',
+    nivel: 'B2',
+    titulo: 'Gentrifizierung – Wenn Aufwertung zur Verdrängung wird',
+    descripcion: 'Texto en alemán B2 sobre la gentrificación en ciudades alemanas. Ejercicios interactivos Wahr/Falsch de comprensión lectora B2.',
+  },
+  {
+    slug: 'schlaf-und-leistung',
+    nivel: 'B2',
+    titulo: 'Schlaf und Leistung – Was die Wissenschaft wirklich weiß',
+    descripcion: 'Lectura B2 en alemán sobre ciencia del sueño y rendimiento cognitivo. Ejercicios Wahr/Falsch para el Leseverstehen B2.',
+  },
+  {
+    slug: 'populismus-in-europa',
+    nivel: 'B2',
+    titulo: 'Demokratie unter Druck – Populismus in Europa',
+    descripcion: 'Texto B2 en alemán sobre el auge del populismo en Europa. Comprensión lectora Wahr/Falsch. Preparación Goethe B2 y TELC B2.',
+  },
+  {
+    slug: 'minimalismus',
+    nivel: 'B2',
+    titulo: 'Minimalismus – Weniger haben, mehr leben?',
+    descripcion: 'Lectura en alemán B2 sobre el minimalismo como tendencia cultural. Ejercicios de comprensión lectora Wahr/Falsch nivel B2.',
+  },
 ];
 
 const NAV = `

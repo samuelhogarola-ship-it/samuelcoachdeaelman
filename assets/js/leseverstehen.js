@@ -326,6 +326,209 @@ Am letzten Abend saßen alle zusammen am Tisch: die Familie Huber, zwei weitere 
   },
   // ── fin B1 ──────────────────────────────────────────────────
 
+  // ── B2 ──────────────────────────────────────────────────────
+  {
+    slug: 'zwischen-zwei-kulturen',
+    nivel: 'B2',
+    titulo: 'Zwischen zwei Kulturen – Identität im Wandel',
+    descripcion: 'Kemal, nacido en Stuttgart de padres turcos, vive entre dos culturas. Un texto sobre identidad, pertenencia y la "hibridez cultural".',
+    texto: `Wer in einem Land aufwächst und gleichzeitig die Traditionen einer anderen Kultur zu Hause lebt, kennt das Gefühl: Man gehört irgendwie überall dazu – und manchmal nirgends so ganz. Dieses Phänomen, das Soziologen als „kulturelle Hybridität" bezeichnen, betrifft Millionen von Menschen weltweit und wird in der Migrationsforschung zunehmend als Ressource statt als Problem begriffen.
+
+Kemal, 29 Jahre alt, ist in Stuttgart geboren und aufgewachsen. Seine Eltern kommen aus der Türkei, die Großeltern sprechen kaum Deutsch. Zu Hause wird Türkisch gesprochen, gegessen wird traditionell – aber Kemal studiert Informatik, spielt in einer Band und fühlt sich beiden Welten zugehörig. „Ich übersetz nicht nur Sprachen, ich übersetz auch Denkweisen", sagt er.
+
+Nicht immer verläuft diese Doppelzugehörigkeit reibungslos. Kemal berichtet, dass er in manchen deutschen Kontexten als „zu türkisch" wahrgenommen wird, während ihn Verwandte bei Besuchen in der Türkei als „zu deutsch" bezeichnen. Diese Zuschreibungen empfindet er als einengend – er weigert sich, sich für eine Identität entscheiden zu müssen.
+
+Fachleute betonen, dass mehrsprachige und transkulturelle Biografien in einer globalisierten Welt immer bedeutsamer werden. Arbeitgeber schätzen kulturelle Kompetenz, und gesellschaftlich kann die Fähigkeit, Brücken zwischen Kulturen zu bauen, eine wertvolle Bereicherung sein – vorausgesetzt, die Gesellschaft erkennt dieses Potenzial auch an.`,
+    preguntas: [
+      { enunciado: 'Soziologen betrachten kulturelle Hybridität zunehmend als Defizit.', respuesta: false },
+      { enunciado: 'Kemal fühlt sich ausschließlich der deutschen Kultur zugehörig.', respuesta: false },
+      { enunciado: 'In manchen Kontexten wird Kemal als „zu türkisch" oder „zu deutsch" wahrgenommen.', respuesta: true },
+      { enunciado: 'Laut dem Text verlieren mehrsprachige Biografien in der globalisierten Welt an Bedeutung.', respuesta: false },
+      { enunciado: 'Kemal lehnt es ab, sich auf eine einzige Identität festlegen zu lassen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'vier-tage-woche',
+    nivel: 'B2',
+    titulo: 'Die Vier-Tage-Woche – Zukunftsmodell oder Utopie?',
+    descripcion: '¿Es viable trabajar cuatro días con el mismo salario? El texto analiza los experimentos en Islandia y Reino Unido y el debate entre economistas.',
+    texto: `In Island, Großbritannien und zuletzt auch in Deutschland wurde sie erprobt, diskutiert und bejubelt: die Vier-Tage-Woche. Das Modell sieht vor, dass Arbeitnehmer bei gleichem Lohn und gleicher Produktivität einen Tag weniger arbeiten. Klingt verlockend – doch so einfach ist es nicht.
+
+Die Ergebnisse der isländischen Pilotprojekte, die zwischen 2015 und 2019 durchgeführt wurden, waren bemerkenswert positiv: Die Produktivität blieb stabil oder stieg sogar leicht an, während das Wohlbefinden der Beschäftigten sich deutlich verbesserte. Krankheitstage gingen zurück, die Mitarbeiterzufriedenheit stieg. Ähnliche Tendenzen zeigten sich in britischen Versuchen, an denen rund 60 Unternehmen teilnahmen.
+
+Kritiker hingegen warnen vor einer Verallgemeinerung. In Branchen wie dem Gesundheitswesen, dem Einzelhandel oder der Gastronomie sei das Modell kaum umsetzbar, ohne dass entweder die Qualität leidet oder mehr Personal eingestellt werden muss – was wiederum Kosten verursacht. Auch Fragen der Arbeitszeitverteilung innerhalb von Teams sind komplex.
+
+Ökonomen sind gespalten. Manche sehen in der Vier-Tage-Woche eine Antwort auf Burnout-Epidemien und den Fachkräftemangel. Andere befürchten, dass sie die Wettbewerbsfähigkeit des Wirtschaftsstandorts Deutschland gefährden könnte. Was bleibt, ist eine lebhafte Debatte – und die Erkenntnis, dass das Verhältnis zwischen Arbeit und Leben neu verhandelt werden muss.`,
+    preguntas: [
+      { enunciado: 'Die isländischen Pilotprojekte zur Vier-Tage-Woche zeigten durchgängig negative Ergebnisse.', respuesta: false },
+      { enunciado: 'An den britischen Versuchen nahmen rund 60 Unternehmen teil.', respuesta: true },
+      { enunciado: 'Laut dem Text lässt sich die Vier-Tage-Woche problemlos in allen Branchen einführen.', respuesta: false },
+      { enunciado: 'Unter Ökonomen herrscht Einigkeit darüber, dass die Vier-Tage-Woche vorteilhaft ist.', respuesta: false },
+      { enunciado: 'Der Text schlägt vor, das Verhältnis zwischen Arbeit und Leben neu zu überdenken.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'overtourism',
+    nivel: 'B2',
+    titulo: 'Overtourism – Wenn der Massentourismus Städte erdrückt',
+    descripcion: 'Venecia, Barcelona, Dubrovnik: ciudades que sufren el exceso de turismo. El texto analiza causas, consecuencias y posibles soluciones.',
+    texto: `Venedig, Barcelona, Dubrovnik – diese Städte haben eines gemeinsam: Sie leiden unter dem, was Experten als „Overtourism" bezeichnen. Gemeint ist ein Übermaß an Touristen, das die lokale Infrastruktur, die Umwelt und das Alltagsleben der Einheimischen erheblich belastet. Was für Besucher wie ein Traumziel wirkt, ist für die Bewohner oft längst zur Zumutung geworden.
+
+In Barcelona etwa haben in den vergangenen Jahren Tausende von Einwohnern gegen den Massentourismus demonstriert. Sie beklagen steigende Mietpreise, überfüllte Straßen und den Verlust des ursprünglichen Stadtcharakters durch die Ausbreitung von Souvenirläden und Fast-Food-Ketten. Manche Stadtviertel sind kaum noch wiederzuerkennen.
+
+Einige Städte reagieren mit konkreten Maßnahmen: Venedig hat zeitweise Eintrittsgebühren für Tagesbesucher eingeführt, andere Orte begrenzen die Zahl der Airbnb-Wohnungen oder schließen bestimmte Bereiche für große Reisegruppen. Ob diese Maßnahmen langfristig wirken, ist jedoch umstritten.
+
+Im Kern stellt Overtourism die Frage, wie Tourismus nachhaltig gestaltet werden kann. Reisende können dazu beitragen, indem sie weniger besuchte Ziele wählen, außerhalb der Hochsaison reisen und lokale Betriebe bevorzugen. Doch letztlich braucht es auch politische Rahmenbedingungen, die nicht nur Wirtschaftsinteressen, sondern auch das Wohlbefinden der Bevölkerung schützen.`,
+    preguntas: [
+      { enunciado: 'Overtourism beschreibt das Phänomen, dass zu wenige Touristen eine Stadt besuchen.', respuesta: false },
+      { enunciado: 'In Barcelona haben Einwohner gegen den Massentourismus protestiert.', respuesta: true },
+      { enunciado: 'Venedig hat dauerhaft Eintrittsgebühren für alle Besucher eingeführt.', respuesta: false },
+      { enunciado: 'Laut dem Text können auch individuelle Reisende zur Lösung des Problems beitragen.', respuesta: true },
+      { enunciado: 'Der Text ist der Ansicht, dass politische Maßnahmen zur Bekämpfung von Overtourism unnötig sind.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'ki-in-der-medizin',
+    nivel: 'B2',
+    titulo: 'Künstliche Intelligenz in der Medizin – Chance und Risiko',
+    descripcion: 'La IA ya diagnostica enfermedades con gran precisión. El texto debate si puede reemplazar a los médicos y qué riesgos éticos y legales plantea.',
+    texto: `Die Medizin steht vor einem tiefgreifenden Wandel. Künstliche Intelligenz kann bereits heute Röntgenbilder auswerten, Krebszellen in Gewebeproben erkennen und Risikoprofile für Herzerkrankungen erstellen – oft mit einer Präzision, die menschliche Experten übersteigt. Doch was bedeutet das für die Arzt-Patienten-Beziehung und für ethische Fragen der Verantwortung?
+
+Befürworter betonen, dass KI-Systeme Ärzte nicht ersetzen, sondern entlasten sollen. Routineaufgaben können automatisiert werden, sodass Medizinerinnen und Mediziner mehr Zeit für das Gespräch mit ihren Patientinnen und Patienten haben. In der Diagnostik kann KI als zweite Meinung fungieren und potenzielle Fehler reduzieren.
+
+Kritiker hingegen mahnen zur Vorsicht. Algorithmen werden mit historischen Daten trainiert, die gesellschaftliche Ungleichheiten widerspiegeln können. So wurde etwa festgestellt, dass manche KI-Systeme bei der Diagnose von Hautkrankheiten weniger präzise bei Menschen mit dunkler Hautfarbe sind, weil Trainingsbilder überwiegend hellhäutige Personen zeigten. Auch die Frage der Haftung – wer ist verantwortlich, wenn ein Algorithmus einen Fehler macht? – ist rechtlich noch weitgehend ungeklärt.
+
+Einig sind sich beide Seiten darin, dass der Einsatz von KI in der Medizin strenger Regulierung bedarf. Transparenz, Überprüfbarkeit und ein klarer rechtlicher Rahmen sind Grundvoraussetzungen, damit diese Technologie dem Menschen nutzt, ohne ihm zu schaden.`,
+    preguntas: [
+      { enunciado: 'KI-Systeme in der Medizin sollen laut dem Text Ärzte vollständig ersetzen.', respuesta: false },
+      { enunciado: 'Manche KI-Systeme zeigen bei der Diagnose Unterschiede je nach Hautfarbe der Patienten.', respuesta: true },
+      { enunciado: 'Die rechtliche Frage der Haftung bei KI-Fehlern ist bereits vollständig geregelt.', respuesta: false },
+      { enunciado: 'Sowohl Befürworter als auch Kritiker sind sich einig, dass KI in der Medizin reguliert werden muss.', respuesta: true },
+      { enunciado: 'Laut dem Text können KI-Systeme keine Krebszellen erkennen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'einsamkeit',
+    nivel: 'B2',
+    titulo: 'Einsamkeit – die stille Epidemie unserer Zeit',
+    descripcion: 'La soledad crónica es tan dañina como fumar 15 cigarrillos al día. El texto analiza a quién afecta, qué hace la política y qué podemos hacer.',
+    texto: `Einsamkeit gilt als eines der unterschätztesten Gesundheitsrisiken der Gegenwart. Studien zeigen, dass chronische Einsamkeit das Risiko für Herzerkrankungen, Schlaganfälle und sogar Demenz erhöht – in einem Ausmaß, das dem Rauchen von 15 Zigaretten täglich entsprechen soll. Dabei ist Einsamkeit kein Randphänomen: In Deutschland gibt sich laut einer Umfrage des Robert Koch-Instituts fast ein Viertel der Bevölkerung als einsam zu erkennen.
+
+Besonders betroffen sind ältere Menschen, die nach dem Tod des Partners oder dem Auszug der Kinder soziale Kontakte verlieren. Doch auch junge Erwachsene zwischen 18 und 30 Jahren berichten überraschend häufig von Einsamkeitsgefühlen – trotz oder vielleicht gerade wegen der ständigen Vernetzung in sozialen Medien. Oberflächliche digitale Kontakte, so die These vieler Psychologen, können das Bedürfnis nach echter Nähe nicht erfüllen.
+
+Politisch wurde das Thema lange ignoriert. Großbritannien hat als erstes europäisches Land eine Staatsministerin für Einsamkeit ernannt und nationale Strategien entwickelt, um soziale Isolation zu bekämpfen. In Deutschland hinkt die politische Reaktion noch hinterher, obwohl Fachleute schon länger auf die Dringlichkeit hinweisen.
+
+Was können Einzelne tun? Experten empfehlen, regelmäßige Treffen zu festen Terminen zu planen, sich ehrenamtlich zu engagieren oder Nachbarschaftsinitiativen beizutreten. Denn Einsamkeit entsteht nicht immer durch fehlende Kontakte – sondern durch mangelnde Qualität der vorhandenen.`,
+    preguntas: [
+      { enunciado: 'Chronische Einsamkeit kann laut Studien mit dem Rauchen von 15 Zigaretten täglich verglichen werden.', respuesta: true },
+      { enunciado: 'Junge Erwachsene sind laut dem Text kaum von Einsamkeit betroffen.', respuesta: false },
+      { enunciado: 'Großbritannien hat eine Ministerin ernannt, die sich gezielt mit Einsamkeit befasst.', respuesta: true },
+      { enunciado: 'Deutschland hat bereits umfangreiche nationale Strategien gegen Einsamkeit entwickelt.', respuesta: false },
+      { enunciado: 'Laut dem Text entsteht Einsamkeit immer nur durch fehlende soziale Kontakte.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'kolonialzeit-raubkunst',
+    nivel: 'B2',
+    titulo: 'Das Erbe der Kolonialzeit – Raubkunst und Rückgabedebatte',
+    descripcion: '¿Deben los museos europeos devolver las obras de arte coloniales? El texto analiza el debate sobre las Benin-Bronzen y la restitución cultural.',
+    texto: `Europäische Museen beherbergen Millionen von Kunstwerken und Kulturgütern, die während der Kolonialzeit unter zweifelhaften Umständen in die Sammlungen gelangt sind. Die Debatte darüber, ob und wie diese Objekte an ihre Herkunftsländer zurückgegeben werden sollen, gewinnt seit Jahren an Intensität.
+
+Deutschland hat in dieser Diskussion eine ambivalente Rolle gespielt. Einerseits hat die Bundesregierung die Rückgabe von über tausend Benin-Bronzen an Nigeria angekündigt – ein historischer Schritt, der international Anerkennung fand. Andererseits stocken die Verhandlungen mit anderen Ländern, und bei vielen Objekten ist die Herkunft nicht eindeutig dokumentiert.
+
+Kritiker werfen deutschen und europäischen Institutionen vor, trotz guter Absichtserklärungen zu langsam zu handeln. Zudem wird bemängelt, dass die Bedingungen für Rückgaben oft einseitig von den abgebenden Institutionen festgelegt werden – ohne gleichberechtigte Beteiligung der Herkunftsgesellschaften.
+
+Auf der anderen Seite argumentieren manche Museumsdirektoren, dass die Objekte in Europa besser erforscht und konserviert worden seien und einem weltweiten Publikum zugänglich gemacht wurden. Dieses Argument stößt in den betroffenen Ländern zunehmend auf Widerstand. Die Forderung ist klar: Herkunftsgesellschaften sollen selbst entscheiden dürfen, was mit ihrem kulturellen Erbe geschieht – unabhängig davon, wo es sich gerade befindet.`,
+    preguntas: [
+      { enunciado: 'Deutschland hat die Rückgabe von Benin-Bronzen an Nigeria angekündigt.', respuesta: true },
+      { enunciado: 'Laut dem Text ist die Herkunft aller Objekte in europäischen Museen klar dokumentiert.', respuesta: false },
+      { enunciado: 'Kritiker sind zufrieden mit dem Tempo der Rückgaben.', respuesta: false },
+      { enunciado: 'Einige Museumsdirektoren argumentieren, die Objekte seien in Europa gut konserviert und erforscht worden.', respuesta: true },
+      { enunciado: 'Die Herkunftsgesellschaften fordern das Recht, selbst über ihr kulturelles Erbe zu entscheiden.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'gentrifizierung',
+    nivel: 'B2',
+    titulo: 'Gentrifizierung – Wenn Aufwertung zur Verdrängung wird',
+    descripcion: 'La rehabilitación urbana en Berlín, Hamburgo y Múnich expulsa a los vecinos con menos recursos. Un texto sobre el precio social del progreso urbano.',
+    texto: `Wenn ein Stadtviertel saniert, aufgewertet und attraktiver wird, klingt das zunächst nach einer Erfolgsgeschichte. Doch hinter dem Begriff „Gentrifizierung" verbirgt sich ein komplexer sozialer Prozess, der für viele Bewohnerinnen und Bewohner alles andere als positiv ist. Günstige Altbauwohnungen werden zu Luxusapartments, Eckkneipen weichen Boutiquen, und alteingesessene Mieter können sich die steigenden Mieten nicht mehr leisten.
+
+Das Phänomen ist in deutschen Großstädten wie Berlin, Hamburg und München seit Jahren zu beobachten. Besonders betroffen sind einkommensschwache Haushalte, Rentner und Familien mit Kindern, die in günstige Randgebiete verdrängt werden – weit weg von ihren sozialen Netzwerken, Schulen und Arbeitsplätzen. Soziologen sprechen von einem „sozialen Riss", der durch Städte geht.
+
+Stadtentwickler und Politiker stehen vor einem Dilemma: Investitionen in Infrastruktur und Wohnqualität sind notwendig, dürfen aber nicht auf Kosten sozialer Durchmischung gehen. Einige Kommunen reagieren mit Mietpreisbremsen, dem Vorkaufsrecht für Gemeinden oder der Ausweisung von Sozialmietwohnungskontingenten. Die Wirksamkeit dieser Instrumente wird jedoch kontrovers diskutiert.
+
+Was klar ist: Stadtentwicklung ist keine rein technische, sondern zutiefst politische Aufgabe. Wer bestimmt, wie eine Stadt aussehen soll – und wer darin leben darf? Diese Frage berührt Grundüberzeugungen über Gerechtigkeit, Teilhabe und das Recht auf Stadt.`,
+    preguntas: [
+      { enunciado: 'Gentrifizierung hat laut dem Text ausschließlich positive Auswirkungen für alle Bewohner.', respuesta: false },
+      { enunciado: 'Besonders einkommensschwache Haushalte sind von Verdrängung betroffen.', respuesta: true },
+      { enunciado: 'Laut dem Text haben alle Kommunen dasselbe Instrument zur Bekämpfung der Gentrifizierung eingesetzt.', respuesta: false },
+      { enunciado: 'Soziologen beschreiben Gentrifizierung als einen „sozialen Riss" durch die Städte.', respuesta: true },
+      { enunciado: 'Der Text betrachtet Stadtentwicklung als rein technische Aufgabe ohne politische Dimension.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'schlaf-und-leistung',
+    nivel: 'B2',
+    titulo: 'Schlaf und Leistung – Was die Wissenschaft wirklich weiß',
+    descripcion: 'Dormir poco no es señal de ambición: la ciencia lo desmiente. Un texto sobre los efectos del sueño en la cognición, la salud y la productividad.',
+    texto: `Schlafen gilt in vielen Gesellschaften immer noch als Zeichen von Faulheit – wer wenig schläft, gilt als besonders ehrgeizig und leistungsfähig. Doch die Schlafforschung der letzten zwei Jahrzehnte hat dieses Bild gründlich widerlegt. Schlaf ist keine passive Auszeit, sondern ein hochaktiver biologischer Prozess, der für kognitive Leistungsfähigkeit, emotionale Regulation und körperliche Gesundheit unverzichtbar ist.
+
+Während des Schlafs festigt das Gehirn Erinnerungen, verarbeitet emotionale Erlebnisse und reinigt sich von Stoffwechselabfällen – darunter Proteine, die mit der Entstehung von Alzheimer in Verbindung gebracht werden. Schlafentzug hingegen beeinträchtigt Urteilsvermögen, Kreativität und Impulskontrolle in einem Maß, das dem Alkoholeinfluss vergleichbar ist.
+
+Besonders alarmierend ist, dass Menschen nach schlafarmen Nächten ihre eigene Beeinträchtigung systematisch unterschätzen. Wer vier Stunden geschlafen hat, glaubt oft, funktionsfähig zu sein – ein trügerisches Selbstgefühl, das in Berufen mit hoher Verantwortung, wie etwa in der Medizin oder im Transportwesen, fatale Folgen haben kann.
+
+Trotz dieser Erkenntnisse verändert sich die gesellschaftliche Einstellung nur langsam. Einige Unternehmen bieten inzwischen Ruheräume und flexible Arbeitszeiten an, um erholsamen Schlaf zu fördern. Doch solange Erschöpfung als Leistungsmerkmal gilt, wird es schwer sein, eine echte Schlafkultur zu etablieren – zum Schaden der Gesundheit und letztlich auch der Produktivität.`,
+    preguntas: [
+      { enunciado: 'Die Schlafforschung hat bestätigt, dass wenig Schlaf ein Zeichen von Leistungsfähigkeit ist.', respuesta: false },
+      { enunciado: 'Während des Schlafs reinigt das Gehirn sich von Stoffwechselabfällen.', respuesta: true },
+      { enunciado: 'Menschen nach schlafarmen Nächten überschätzen in der Regel ihre eigene Beeinträchtigung.', respuesta: false },
+      { enunciado: 'Schlafentzug kann Auswirkungen haben, die dem Einfluss von Alkohol vergleichbar sind.', respuesta: true },
+      { enunciado: 'Die gesellschaftliche Einstellung zum Schlaf hat sich laut dem Text bereits grundlegend verändert.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'populismus-in-europa',
+    nivel: 'B2',
+    titulo: 'Demokratie unter Druck – Populismus in Europa',
+    descripcion: 'El populismo avanza en Europa. El texto analiza qué es, por qué atrae a votantes de todos los perfiles y qué reto supone para la democracia liberal.',
+    texto: `Seit einigen Jahren beobachten Politikwissenschaftler mit wachsender Sorge den Aufstieg populistischer Parteien in Europa. Von Ungarn über Italien bis nach Schweden haben Bewegungen an Zulauf gewonnen, die mit einfachen Antworten auf komplexe Probleme punkten und dabei oft etablierte Institutionen, Medien und gesellschaftliche Minderheiten als Feinde des „einfachen Volkes" darstellen.
+
+Populismus ist schwer zu definieren, weil er keine einheitliche Ideologie darstellt. Er tritt sowohl von rechts als auch von links auf und nutzt in beiden Fällen eine ähnliche Rhetorik der Konfrontation: hier das korrupte Establishment, dort das wahre Volk. Was Rechtspopulismus von Linkspopulismus unterscheidet, ist weniger die Methode als der Inhalt – insbesondere die Haltung gegenüber Migration, Globalisierung und kultureller Identität.
+
+Demokratieforscher warnen davor, Populismus allein als Protest der Bildungsfernen oder Abgehängten zu verstehen. Studien zeigen, dass populistische Parteien auch bei gut ausgebildeten und wirtschaftlich stabilen Wählern punkten – oft aus Protest gegen ein politisches System, dem sie nicht mehr vertrauen.
+
+Die Herausforderung für liberale Demokratien besteht darin, auf legitime Unzufriedenheit zu reagieren, ohne dabei Grundwerte wie Rechtsstaatlichkeit, Pressefreiheit und Minderheitenschutz zu opfern. Das erfordert keine Anpassung an populistische Rhetorik, sondern glaubwürdige politische Angebote und eine ehrliche Auseinandersetzung mit den Ursachen des Vertrauensverlusts.`,
+    preguntas: [
+      { enunciado: 'Populismus ist eine klar definierte politische Ideologie mit einheitlichem Programm.', respuesta: false },
+      { enunciado: 'Populistische Parteien gewinnen laut Studien auch bei gut ausgebildeten Wählern an Zustimmung.', respuesta: true },
+      { enunciado: 'Laut dem Text tritt Populismus ausschließlich in rechtsgerichteten Parteien auf.', respuesta: false },
+      { enunciado: 'Demokratieforscher empfehlen, populistische Rhetorik zu übernehmen, um Wähler zurückzugewinnen.', respuesta: false },
+      { enunciado: 'Der Text beschreibt den Aufstieg populistischer Parteien als europaweites Phänomen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'minimalismus',
+    nivel: 'B2',
+    titulo: 'Minimalismus – Weniger haben, mehr leben?',
+    descripcion: '¿Tener menos hace más feliz? El texto examina el auge del minimalismo, sus raíces en Japón y las críticas que recibe como fenómeno de lujo.',
+    texto: `In einer Welt, die auf ständiges Wachstum und Konsum ausgerichtet ist, wächst eine Gegenbewegung: der Minimalismus. Was einst als Randphänomen galt, hat sich zu einem kulturellen Trend entwickelt, der Bücher, Podcasts und ganze Instagram-Kanäle füllt. Die Botschaft ist simpel: Wer weniger besitzt, lebt befreiter.
+
+Die Ursprünge des modernen Minimalismus liegen unter anderem in Japan, wo die Aufräum-Methode der Organisationsberaterin Marie Kondo weltweit bekannt wurde. Ihr Prinzip – behalte nur, was Freude macht – hat Millionen von Menschen dazu gebracht, Kleiderschränke auszumisten, Bücher zu verschenken und Wohnungen radikal zu entrümpeln.
+
+Doch Minimalismus ist mehr als Aufräumen. In seiner konsequentesten Form hinterfragt er die Grundannahmen westlicher Konsumgesellschaften: Macht Besitz wirklich glücklicher? Welche Rolle spielen Statussymbole für Selbstwertgefühl und soziale Zugehörigkeit? Forschungen zur subjektiven Lebensqualität zeigen, dass ab einem bestimmten Wohlstandsniveau zusätzlicher Besitz kaum noch zum Glücksempfinden beiträgt.
+
+Kritiker weisen darauf hin, dass Minimalismus ein Luxusphänomen sein kann: Wer grundlegende Bedürfnisse nicht gesichert hat, kann sich keine Philosophie des Weglassens leisten. Zudem läuft er Gefahr, zu einer weiteren Lifestyle-Marke zu werden, die am Ende neue Konsumprodukte – designte Aufbewahrungsboxen, teure Capsule-Wardrobes – verkauft, anstatt wirklich zu einem bewussteren Leben beizutragen.`,
+    preguntas: [
+      { enunciado: 'Der moderne Minimalismus hat seine Wurzeln unter anderem in Japan.', respuesta: true },
+      { enunciado: 'Marie Kondos Methode besagt, man solle alles behalten, was praktisch ist.', respuesta: false },
+      { enunciado: 'Laut Forschungen steigt das Glücksempfinden mit zunehmendem Besitz unbegrenzt an.', respuesta: false },
+      { enunciado: 'Kritiker bezeichnen Minimalismus unter Umständen als ein Luxusphänomen.', respuesta: true },
+      { enunciado: 'Der Text ist ausschließlich positiv gegenüber dem Minimalismus und nennt keine Einwände.', respuesta: false },
+    ],
+  },
+  // ── fin B2 ──────────────────────────────────────────────────
+
   {
     slug: 'tagesausflug',
     nivel: 'A2',
