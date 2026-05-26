@@ -548,3 +548,6 @@ Am Nachmittag machen sie ein Picknick am See. Bevor sie zurückfahren, machen si
     ],
   },
 ];
+
+// Permite importar desde Node.js (generate-pages.js) sin romper el navegador
+if (typeof module !== 'undefined') module.exports = TEXTOS;
