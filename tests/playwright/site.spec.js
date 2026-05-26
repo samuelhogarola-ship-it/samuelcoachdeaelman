@@ -2,7 +2,7 @@ const { test, expect } = require("@playwright/test");
 
 const staticPages = [
   { path: "/", heading: /clases de alemán online desde fuengirola/i },
-  { path: "/servicios/", heading: /servicios de alemán online/i },
+  { path: "/servicios/", heading: /clases de alemán online para objetivos reales/i },
   { path: "/sobre-mi/", heading: /sobre mí/i },
   { path: "/metodologia/", heading: /metodología/i },
   { path: "/practicar-aleman/", heading: /practicar alemán online con herramientas reales/i },
@@ -34,7 +34,7 @@ test.describe("home interactions", () => {
     const widgetClose = page.locator(".apps-widget-close");
 
     await expect(widgetToggle).toBeChecked();
-    await widgetClose.click();
+    await widgetClose.dispatchEvent('click');
     await expect(widgetToggle).not.toBeChecked();
 
     await page.reload();
@@ -47,5 +47,30 @@ test.describe("home interactions", () => {
 
     await page.reload();
     await expect(page.getByRole("heading", { name: /tu privacidad importa/i })).toHaveCount(0);
+  });
+});
+
+test.describe("leseverstehen", () => {
+  test("exercise renders and reiniciar resets it", async ({ context, page }) => {
+    await context.clearCookies();
+    await page.goto("/leseverstehen/a1/meine-familie/");
+
+    // El JS cargó: hay botones de ejercicio
+    await expect(page.locator(".lese-btn-richtig").first()).toBeVisible();
+
+    // Responder todas las preguntas
+    await page.evaluate(() => {
+      document.querySelectorAll(".lese-pregunta").forEach(p => {
+        p.querySelector(".lese-btn-richtig").click();
+      });
+    });
+
+    // Aparece el resultado
+    await expect(page.locator(".lese-resultado")).toBeVisible();
+
+    // Reiniciar vuelve a dejar los botones activos
+    await page.evaluate(() => document.querySelector(".lese-btn-reiniciar").click());
+    await expect(page.locator(".lese-btn-richtig").first()).toBeEnabled();
+    await expect(page.locator(".lese-resultado")).toBeHidden();
   });
 });

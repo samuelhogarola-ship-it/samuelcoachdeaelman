@@ -12,7 +12,7 @@ const TEXTOS = require('../assets/js/leseverstehen-data.js');
 
 // Bump este valor cada vez que cambies leseverstehen.js o leseverstehen-data.js
 // para que LiteSpeed/browsers descarguen el archivo nuevo en lugar de usar caché.
-const JS_VERSION = '20260526c';
+const JS_VERSION = '20260526d';
 
 // ── Funciones de escape ──────────────────────────────────────────────────────
 // Para valores dentro de atributos HTML (content="…", og:title, etc.)
