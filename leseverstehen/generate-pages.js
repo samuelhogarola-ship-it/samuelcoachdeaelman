@@ -323,3 +323,45 @@ niveles.forEach(nivel => {
 });
 
 console.log(`\n${TEXTOS.length} textos + ${niveles.length} páginas de nivel generadas.`);
+
+// 3. Actualizar sitemap.xml
+const base = 'https://www.samuelcoachdealeman.com';
+const sitemapPath = path.join(root, 'sitemap.xml');
+let sitemap = fs.readFileSync(sitemapPath, 'utf8');
+
+// Eliminar bloque anterior si existe (para que el script sea idempotente)
+sitemap = sitemap.replace(/\s*<!-- LESEVERSTEHEN:START -->[\s\S]*?<!-- LESEVERSTEHEN:END -->/g, '');
+
+let block = '\n  <!-- LESEVERSTEHEN:START -->';
+
+block += `
+  <url>
+    <loc>${base}/leseverstehen/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>`;
+
+niveles.forEach(nivel => {
+  if (!NIVEL_META[nivel]) return;
+  block += `
+  <url>
+    <loc>${base}/leseverstehen/${nivel.toLowerCase()}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>`;
+});
+
+TEXTOS.forEach(texto => {
+  block += `
+  <url>
+    <loc>${base}/leseverstehen/${texto.nivel.toLowerCase()}/${texto.slug}/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>`;
+});
+
+block += '\n  <!-- LESEVERSTEHEN:END -->';
+
+sitemap = sitemap.replace('</urlset>', block + '\n</urlset>');
+fs.writeFileSync(sitemapPath, sitemap, 'utf8');
+console.log(`✓ sitemap.xml: 1 índice + ${niveles.length} niveles + ${TEXTOS.length} textos añadidos.`);
