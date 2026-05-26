@@ -12,7 +12,7 @@ const TEXTOS = require('../assets/js/leseverstehen-data.js');
 
 // Bump este valor cada vez que cambies leseverstehen.js o leseverstehen-data.js
 // para que LiteSpeed/browsers descarguen el archivo nuevo en lugar de usar caché.
-const JS_VERSION = '20260526b';
+const JS_VERSION = '20260526c';
 
 // ── Funciones de escape ──────────────────────────────────────────────────────
 // Para valores dentro de atributos HTML (content="…", og:title, etc.)
@@ -203,7 +203,8 @@ function generatePage(texto) {
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
   <link rel="icon" type="image/webp" href="${p}assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="${p}assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
@@ -265,7 +266,8 @@ function generateLevelPage(nivel) {
   <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
   <link rel="icon" type="image/webp" href="${p}assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="${p}assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
