@@ -313,7 +313,8 @@ TEXTOS.forEach(texto => {
 });
 
 // 2. Páginas de nivel
-const niveles = [...new Set(TEXTOS.map(t => t.nivel))];
+const ORDEN_NIVELES = ['A1', 'A2', 'B1', 'B2'];
+const niveles = ORDEN_NIVELES.filter(n => TEXTOS.some(t => t.nivel === n));
 niveles.forEach(nivel => {
   if (!NIVEL_META[nivel]) return; // skip niveles sin meta definida
   const dir = path.join(root, 'leseverstehen', nivel.toLowerCase());

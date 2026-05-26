@@ -12,7 +12,8 @@ function getTextos() {
 
 // Renderiza todos los niveles en el contenedor (página principal /leseverstehen/)
 function renderLista(container) {
-  const niveles = [...new Set(TEXTOS.map(t => t.nivel))];
+  const ORDEN = ['A1', 'A2', 'B1', 'B2'];
+  const niveles = ORDEN.filter(n => TEXTOS.some(t => t.nivel === n));
   let html = '';
   niveles.forEach(nivel => {
     const grupo = TEXTOS.filter(t => t.nivel === nivel);
