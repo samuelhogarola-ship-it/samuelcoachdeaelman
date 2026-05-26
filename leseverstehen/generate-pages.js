@@ -10,6 +10,10 @@ const path = require('path');
 
 const TEXTOS = require('../assets/js/leseverstehen-data.js');
 
+// Bump este valor cada vez que cambies leseverstehen.js o leseverstehen-data.js
+// para que LiteSpeed/browsers descarguen el archivo nuevo en lugar de usar caché.
+const JS_VERSION = '20260526b';
+
 // ── Funciones de escape ──────────────────────────────────────────────────────
 // Para valores dentro de atributos HTML (content="…", og:title, etc.)
 function escapeHtmlAttr(str) {
@@ -219,8 +223,8 @@ ${makeFooter(p)}
 
   <script src="${p}assets/js/cookie-banner-core.js" defer></script>
   <script src="${p}assets/js/main.js" defer></script>
-  <script src="${p}assets/js/leseverstehen-data.js"></script>
-  <script src="${p}assets/js/leseverstehen.js"></script>
+  <script src="${p}assets/js/leseverstehen-data.js?v=${JS_VERSION}"></script>
+  <script src="${p}assets/js/leseverstehen.js?v=${JS_VERSION}"></script>
   <script>
     renderLectura(document.getElementById('lese-leer-root'), '${slug}');
   </script>
@@ -291,8 +295,8 @@ ${makeFooter(p)}
 
   <script src="${p}assets/js/cookie-banner-core.js" defer></script>
   <script src="${p}assets/js/main.js" defer></script>
-  <script src="${p}assets/js/leseverstehen-data.js"></script>
-  <script src="${p}assets/js/leseverstehen.js"></script>
+  <script src="${p}assets/js/leseverstehen-data.js?v=${JS_VERSION}"></script>
+  <script src="${p}assets/js/leseverstehen.js?v=${JS_VERSION}"></script>
   <script>
     renderListaNivel(document.getElementById('lese-lista-root'), '${nivel}');
   </script>
