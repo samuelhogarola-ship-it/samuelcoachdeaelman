@@ -17,9 +17,15 @@ function renderLista(container) {
   let html = '';
   niveles.forEach(nivel => {
     const grupo = TEXTOS.filter(t => t.nivel === nivel);
+    const gridId = 'grid-' + nivel.toLowerCase();
     html += `<div class="lese-nivel-grupo">
-      <h2 class="lese-nivel-titulo"><a href="/leseverstehen/${nivel.toLowerCase()}/">Nivel ${nivel}</a></h2>
-      <div class="lese-grid">`;
+      <div class="lese-nivel-header" data-target="${gridId}">
+        <h2 class="lese-nivel-titulo"><a href="/leseverstehen/${nivel.toLowerCase()}/">Nivel ${nivel}</a></h2>
+        <button class="lese-nivel-toggle" aria-expanded="false" aria-controls="${gridId}">
+          <span class="lese-nivel-arrow" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="lese-grid" id="${gridId}" hidden>`;
     grupo.forEach(t => {
       html += `<a class="lese-card" href="/leseverstehen/${t.nivel.toLowerCase()}/${t.slug}/">
         <span class="lese-card-nivel">${t.nivel}</span>
@@ -31,6 +37,17 @@ function renderLista(container) {
     html += `</div></div>`;
   });
   container.innerHTML = html;
+
+  container.querySelectorAll('.lese-nivel-header').forEach(header => {
+    header.addEventListener('click', function(e) {
+      if (e.target.closest('a')) return;
+      const grid = document.getElementById(header.dataset.target);
+      const btn = header.querySelector('.lese-nivel-toggle');
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      grid.hidden = open;
+    });
+  });
 }
 
 // Renderiza solo los textos de un nivel (páginas /leseverstehen/a2/, /b1/, /b2/)
