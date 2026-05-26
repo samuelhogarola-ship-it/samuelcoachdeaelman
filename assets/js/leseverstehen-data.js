@@ -529,6 +529,171 @@ Kritiker weisen darauf hin, dass Minimalismus ein Luxusphänomen sein kann: Wer 
   },
   // ── fin B2 ──────────────────────────────────────────────────
 
+  // ── A1 ──────────────────────────────────────────────────────
+  {
+    slug: 'meine-familie',
+    nivel: 'A1',
+    titulo: 'Meine Familie',
+    descripcion: 'Lisa presenta a su pequeña familia. Un texto A1 con vocabulario básico sobre la familia.',
+    texto: `Lisa hat eine kleine Familie. Sie hat eine Mutter, einen Vater und einen Bruder. Ihr Bruder heißt Tom. Tom ist acht Jahre alt. Lisa ist zehn Jahre alt.
+
+Lisas Vater heißt Klaus. Er ist Lehrer. Lisas Mutter heißt Anna. Sie ist Ärztin. Die Familie wohnt in München.
+
+Am Wochenende essen sie zusammen. Sie mögen Pizza und Salat. Tom trinkt Apfelsaft. Lisa trinkt Wasser. Die Familie ist sehr glücklich.`,
+    preguntas: [
+      { enunciado: 'Lisa hat zwei Geschwister.', respuesta: false },
+      { enunciado: 'Lisas Vater ist Lehrer.', respuesta: true },
+      { enunciado: 'Tom ist zehn Jahre alt.', respuesta: false },
+      { enunciado: 'Die Familie wohnt in München.', respuesta: true },
+      { enunciado: 'Am Wochenende essen sie zusammen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'das-wetter',
+    nivel: 'A1',
+    titulo: 'Das Wetter',
+    descripcion: 'Peter habla del tiempo en las cuatro estaciones. Vocabulario A1 sobre el clima.',
+    texto: `Im Sommer ist es warm und sonnig. Peter geht gern schwimmen. Er mag den Sommer sehr. Im Winter ist es kalt. Es schneit oft. Peter spielt dann Fußball in der Halle.
+
+Im Frühling ist es schön. Die Blumen sind bunt. Im Herbst ist es windig und es regnet viel. Peter trägt dann eine Jacke.
+
+Peters Lieblingszeit ist der Sommer. Er schwimmt gern im See. Das macht er jeden Tag.`,
+    preguntas: [
+      { enunciado: 'Im Sommer geht Peter schwimmen.', respuesta: true },
+      { enunciado: 'Im Winter spielt Peter Fußball draußen.', respuesta: false },
+      { enunciado: 'Im Frühling regnet es viel.', respuesta: false },
+      { enunciado: 'Peters Lieblingszeit ist der Winter.', respuesta: false },
+      { enunciado: 'Im Herbst trägt Peter eine Jacke.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'im-supermarkt',
+    nivel: 'A1',
+    titulo: 'Im Supermarkt',
+    descripcion: 'Emma va al supermercado con una lista de la compra. Vocabulario A1 sobre alimentos.',
+    texto: `Emma geht heute in den Supermarkt. Sie braucht Milch, Brot und Äpfel. Sie hat eine Einkaufsliste. Die Liste ist kurz.
+
+Im Supermarkt findet Emma die Milch im Kühlschrank. Das Brot ist beim Eingang. Die Äpfel sind im Obstbereich. Emma kauft auch Schokolade. Die mag sie sehr.
+
+An der Kasse bezahlt Emma. Alles kostet sechs Euro. Emma geht dann nach Hause.`,
+    preguntas: [
+      { enunciado: 'Emma kauft Milch, Brot und Äpfel.', respuesta: true },
+      { enunciado: 'Emma findet die Milch im Obstbereich.', respuesta: false },
+      { enunciado: 'Emma kauft auch Schokolade.', respuesta: true },
+      { enunciado: 'Alles kostet zehn Euro.', respuesta: false },
+      { enunciado: 'Emma hat eine Einkaufsliste.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'mein-zimmer',
+    nivel: 'A1',
+    titulo: 'Mein Zimmer',
+    descripcion: 'Max describe su habitación. Vocabulario A1 sobre muebles y objetos de casa.',
+    texto: `Max hat ein kleines Zimmer. Es gibt ein Bett, einen Schreibtisch und einen Stuhl. Das Bett ist blau. Der Schreibtisch ist braun. An der Wand hängen Bilder.
+
+Max hat viele Bücher. Die Bücher stehen im Regal. Er liest sehr gern. Sein Zimmer ist oft unordentlich. Seine Mutter sagt: „Räum dein Zimmer auf!"
+
+Das Fenster ist groß. Max kann den Garten sehen. Er mag sein Zimmer sehr.`,
+    preguntas: [
+      { enunciado: 'Max hat ein großes Zimmer.', respuesta: false },
+      { enunciado: 'Das Bett ist blau.', respuesta: true },
+      { enunciado: 'Max hat keine Bücher.', respuesta: false },
+      { enunciado: 'Das Zimmer ist immer ordentlich.', respuesta: false },
+      { enunciado: 'Max kann den Garten aus dem Fenster sehen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-morgen',
+    nivel: 'A1',
+    titulo: 'Der Morgen',
+    descripcion: 'Lena describe su rutina matutina. Vocabulario A1 sobre la rutina diaria.',
+    texto: `Lena steht um sieben Uhr auf. Sie geht ins Bad. Sie wäscht sich und putzt die Zähne. Dann zieht sie sich an.
+
+Zum Frühstück isst Lena Brot mit Butter. Sie trinkt Orangensaft. Das Frühstück ist ihr Lieblingsessen. Um halb acht geht sie zur Schule. Die Schule ist nicht weit.
+
+Lena ist immer pünktlich. Sie mag die Schule. Ihre Lehrerin ist nett.`,
+    preguntas: [
+      { enunciado: 'Lena steht um acht Uhr auf.', respuesta: false },
+      { enunciado: 'Zum Frühstück isst Lena Brot mit Butter.', respuesta: true },
+      { enunciado: 'Lena trinkt Kaffee zum Frühstück.', respuesta: false },
+      { enunciado: 'Die Schule ist weit von Lenas Haus.', respuesta: false },
+      { enunciado: 'Lena ist immer pünktlich.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'in-der-schule',
+    nivel: 'A1',
+    titulo: 'In der Schule',
+    descripcion: 'Felix cuenta cómo es su día en el colegio. Vocabulario A1 sobre la escuela.',
+    texto: `Felix geht in die vierte Klasse. Seine Schule heißt Stadtschule. Felix mag Mathe und Sport.
+
+In der Pause spielt Felix mit seinen Freunden. Sie spielen Fußball. Das macht Felix sehr gern. Nach der Schule macht er seine Hausaufgaben.
+
+Am Freitag gibt es Kunstunterricht. Felix malt gern. Sein Lieblingslehrer ist Herr Braun. Er ist der Sportlehrer.`,
+    preguntas: [
+      { enunciado: 'Felix mag Mathe und Sport.', respuesta: true },
+      { enunciado: 'In der Pause liest Felix Bücher.', respuesta: false },
+      { enunciado: 'Felix macht seine Hausaufgaben nach der Schule.', respuesta: true },
+      { enunciado: 'Herr Braun ist der Mathematiklehrer.', respuesta: false },
+      { enunciado: 'Felix geht in die fünfte Klasse.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'meine-hobbys',
+    nivel: 'A1',
+    titulo: 'Meine Hobbys',
+    descripcion: 'Julia habla de sus aficiones: bailar, leer, pintar y montar en bici. Vocabulario A1.',
+    texto: `Julia hat viele Hobbys. Sie tanzt, liest und malt. Tanzen ist ihr Lieblingshobbys. Sie geht zweimal pro Woche zum Tanzkurs.
+
+Julia hat auch ein Fahrrad. Am Samstag fährt sie gern Fahrrad. Manchmal fährt sie mit ihrer Freundin Sarah. Das macht ihr viel Spaß.
+
+Julia sieht auch gern Filme. Aber sie geht nicht so gern ins Kino. Sie schaut die Filme zu Hause.`,
+    preguntas: [
+      { enunciado: 'Tanzen ist Julias Lieblingshobby.', respuesta: true },
+      { enunciado: 'Julia fährt jeden Tag Fahrrad.', respuesta: false },
+      { enunciado: 'Julia geht gern ins Kino.', respuesta: false },
+      { enunciado: 'Julias Freundin heißt Sarah.', respuesta: true },
+      { enunciado: 'Julia geht zweimal pro Woche zum Tanzkurs.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'im-cafe',
+    nivel: 'A1',
+    titulo: 'Im Café',
+    descripcion: 'Maria y Sofía toman algo en un café. Vocabulario A1 para pedir en un café.',
+    texto: `Maria und ihre Freundin Sofía gehen ins Café. Das Café heißt „Zum Bären". Es ist sehr gemütlich. Sie setzen sich an einen Tisch beim Fenster.
+
+Die Kellnerin kommt. Maria bestellt einen Kaffee und ein Stück Kuchen. Sofía möchte Tee und ein Sandwich. Der Kuchen ist sehr lecker.
+
+Sie reden viel. Es ist schön. Nach einer Stunde bezahlen sie und gehen nach Hause.`,
+    preguntas: [
+      { enunciado: 'Das Café heißt „Zum Bären".', respuesta: true },
+      { enunciado: 'Maria bestellt Tee.', respuesta: false },
+      { enunciado: 'Sofía möchte ein Stück Kuchen.', respuesta: false },
+      { enunciado: 'Sie sitzen beim Fenster.', respuesta: true },
+      { enunciado: 'Sie bleiben zwei Stunden im Café.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'mein-hund',
+    nivel: 'A1',
+    titulo: 'Mein Hund',
+    descripcion: 'Ben presenta a su perro Bello. Texto A1 muy sencillo sobre los animales domésticos.',
+    texto: `Ich heiße Ben. Ich habe einen Hund. Er heißt Bello. Bello ist drei Jahre alt. Er ist braun und weiß.
+
+Bello ist sehr freundlich. Er spielt gern mit mir. Jeden Morgen gehen wir zusammen spazieren. Das macht Bello sehr glücklich.
+
+Am Abend schläft Bello auf seinem Kissen. Er schläft viel. Ich mag Bello sehr. Er ist mein bester Freund.`,
+    preguntas: [
+      { enunciado: 'Der Hund heißt Bello.', respuesta: true },
+      { enunciado: 'Bello ist schwarz.', respuesta: false },
+      { enunciado: 'Ben und Bello gehen jeden Morgen spazieren.', respuesta: true },
+      { enunciado: 'Bello schläft auf dem Sofa.', respuesta: false },
+      { enunciado: 'Ben mag seinen Hund sehr.', respuesta: true },
+    ],
+  },
+  // ── fin A1 ──────────────────────────────────────────────────
+
   {
     slug: 'tagesausflug',
     nivel: 'A2',

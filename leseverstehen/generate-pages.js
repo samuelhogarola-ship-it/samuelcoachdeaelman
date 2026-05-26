@@ -12,6 +12,13 @@ const TEXTOS = require('../assets/js/leseverstehen-data.js');
 
 // ── Metadatos SEO por nivel ──────────────────────────────────────────────────
 const NIVEL_META = {
+  A1: {
+    title: 'Textos en alemán A1 — Comprensión lectora para principiantes | Samuel Coach de Alemán',
+    description: 'Practica el Leseverstehen A1 con textos muy sencillos y ejercicios de Richtig oder Falsch. Perfecto para empezar a aprender alemán desde cero. Gratis, sin registro.',
+    h1: 'Leseverstehen A1',
+    sub: 'Textos en alemán nivel A1 con ejercicios interactivos de <em>Richtig oder Falsch</em>. Perfectos para empezar a aprender alemán desde cero.',
+    keywords: 'textos alemán A1, leseverstehen A1, comprensión lectora alemán A1, ejercicios alemán principiantes, alemán A1',
+  },
   A2: {
     title: 'Textos en alemán A2 — Comprensión lectora con ejercicios | Samuel Coach de Alemán',
     description: 'Practica el Leseverstehen A2 con textos graduados y ejercicios de Richtig oder Falsch. Ideal para preparar el Goethe A2 o el TELC A2. Gratis, sin registro.',
