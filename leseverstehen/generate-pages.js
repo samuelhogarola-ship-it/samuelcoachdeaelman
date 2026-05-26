@@ -323,6 +323,7 @@ ${FOOTER}
 
   <script src="../../../assets/js/cookie-banner-core.js" defer></script>
   <script src="../../../assets/js/main.js" defer></script>
+  <script src="../../../assets/js/leseverstehen-data.js"></script>
   <script src="../../../assets/js/leseverstehen.js"></script>
   <script>
     renderLectura(document.getElementById('lese-leer-root'), '${slug}');
