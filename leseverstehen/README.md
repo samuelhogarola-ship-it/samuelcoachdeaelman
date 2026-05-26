@@ -74,6 +74,18 @@ Cuando los textos migren a Supabase:
 
 ---
 
+## URLs generadas
+
+| Tipo | URL | Contenido |
+|---|---|---|
+| Lista general | `/leseverstehen/` | Todos los niveles (manual) |
+| Página de nivel | `/leseverstehen/a2/` | Solo textos A2, SEO propio |
+| Página de nivel | `/leseverstehen/b1/` | Solo textos B1, SEO propio |
+| Página de nivel | `/leseverstehen/b2/` | Solo textos B2, SEO propio |
+| Texto individual | `/leseverstehen/a2/auf-dem-markt/` | Texto + ejercicio |
+
+Las páginas de nivel tienen `title`, `description`, `canonical` y `keywords` únicos definidos en `NIVEL_META` dentro de `generate-pages.js`. Para añadir un nivel nuevo (ej. A1), añade una entrada a `NIVEL_META`.
+
 ## Scripts disponibles
 
 | Comando | Descripción |
