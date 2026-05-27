@@ -133,7 +133,7 @@ const initCookieBanner = () => {
   // GA must init BEFORE the banner so consent defaults are set first (Consent Mode v2)
   if (window.GoogleAnalyticsCore) {
     GoogleAnalyticsCore.init({
-      measurementId: 'G-XXXXXXXXXX', // TODO: reemplazar con el Measurement ID de GA4
+      measurementId: 'G-JR13E61YDJ',
     });
   }
 
