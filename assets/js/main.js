@@ -112,6 +112,11 @@ const initAppsWidgetPreference = () => {
 };
 
 const emitCookiePreferences = (preferences) => {
+  // Wire GA consent on every user decision
+  if (window.GoogleAnalyticsCore) {
+    if (preferences && preferences.analiticas) GoogleAnalyticsCore.grantConsent();
+    else                                        GoogleAnalyticsCore.revokeConsent();
+  }
   window.dispatchEvent(
     new CustomEvent("cookiepreferenceschange", {
       detail: {
@@ -124,6 +129,13 @@ const emitCookiePreferences = (preferences) => {
 
 const initCookieBanner = () => {
   if (!window.CookieBannerCore || typeof window.CookieBannerCore.init !== "function") return;
+
+  // GA must init BEFORE the banner so consent defaults are set first (Consent Mode v2)
+  if (window.GoogleAnalyticsCore) {
+    GoogleAnalyticsCore.init({
+      measurementId: 'G-JR13E61YDJ',
+    });
+  }
 
   window.CookieBannerCore.init({
     storageKey: "samuelcoach_cookie_consent",
