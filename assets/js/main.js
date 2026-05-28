@@ -134,6 +134,7 @@ const initCookieBanner = () => {
   if (window.GoogleAnalyticsCore) {
     GoogleAnalyticsCore.init({
       measurementId: 'G-JR13E61YDJ',
+      preferencesKey: 'samuelcoach_cookie_consent_preferences',
     });
   }
 
