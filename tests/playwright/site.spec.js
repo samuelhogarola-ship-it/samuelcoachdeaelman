@@ -6,6 +6,7 @@ const staticPages = [
   { path: "/sobre-mi/", heading: /sobre mí/i },
   { path: "/metodologia/", heading: /metodología/i },
   { path: "/practicar-aleman/", heading: /practicar alemán online con herramientas reales/i },
+  { path: "/recursos/", heading: /recursos para preparar telc y goethe/i },
   { path: "/politica-de-privacidad/", heading: /política de privacidad/i }
 ];
 
