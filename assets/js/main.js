@@ -1,10 +1,38 @@
+const siteLocaleContent = window.siteLocaleContent || {};
+const navigationCopy = {
+  openMenu: "Abrir menú",
+  closeMenu: "Cerrar menú",
+  ...(siteLocaleContent.navigation || {})
+};
+const cookieCopy = {
+  imageAlt: "Galleta decorativa del banner de cookies",
+  title: "Tu privacidad importa",
+  noticeHtml:
+    '<p>Usamos cookies necesarias para que la web funcione y, solo si lo aceptas, cookies analíticas para entender el uso del sitio y mejorarlo. <a href="/politica-de-privacidad/">Más información</a>.</p>',
+  acceptLabel: "Aceptar",
+  rejectLabel: "Rechazar",
+  configLabel: "Configurar cookies",
+  configModalTitle: "Configura tus cookies",
+  configModalIntro:
+    "Puedes aceptar solo las cookies necesarias o activar también las cookies analíticas. Siempre podrás cambiar tu decisión borrando las cookies del navegador.",
+  necessaryTitle: "Cookies necesarias",
+  necessaryDescription:
+    "Son imprescindibles para funciones básicas como navegación, seguridad y recordar tu elección de consentimiento.",
+  necessaryBadge: "Siempre activas",
+  analyticsTitle: "Cookies analíticas",
+  analyticsDescription:
+    "Nos ayudan a entender cómo se usa la web para mejorar contenidos, rendimiento y experiencia de navegación.",
+  saveConfigLabel: "Guardar configuración",
+  ...(siteLocaleContent.cookieBanner || {})
+};
+
 const hamburger = document.querySelector(".hamburger");
 const mobileMenu = document.querySelector("#mobile-menu");
 
 if (hamburger && mobileMenu) {
   const closeMenu = () => {
     hamburger.setAttribute("aria-expanded", "false");
-    hamburger.setAttribute("aria-label", "Abrir menú");
+    hamburger.setAttribute("aria-label", navigationCopy.openMenu);
     mobileMenu.hidden = true;
     mobileMenu.classList.remove("is-open");
   };
@@ -12,7 +40,7 @@ if (hamburger && mobileMenu) {
   hamburger.addEventListener("click", () => {
     const isOpen = hamburger.getAttribute("aria-expanded") === "true";
     hamburger.setAttribute("aria-expanded", String(!isOpen));
-    hamburger.setAttribute("aria-label", isOpen ? "Abrir menú" : "Cerrar menú");
+    hamburger.setAttribute("aria-label", isOpen ? navigationCopy.openMenu : navigationCopy.closeMenu);
     mobileMenu.hidden = isOpen;
     mobileMenu.classList.toggle("is-open", !isOpen);
   });
@@ -142,24 +170,20 @@ const initCookieBanner = () => {
   window.CookieBannerCore.init({
     storageKey: "samuelcoach_cookie_consent",
     imageSrc: "/assets/img/samuel-cookie.webp",
-    imageAlt: "Galleta decorativa del banner de cookies",
-    title: "Tu privacidad importa",
-    noticeHtml:
-      '<p>Usamos cookies necesarias para que la web funcione y, solo si lo aceptas, cookies analíticas para entender el uso del sitio y mejorarlo. <a href="/politica-de-privacidad/">Más información</a>.</p>',
-    acceptLabel: "Aceptar",
-    rejectLabel: "Rechazar",
-    configLabel: "Configurar cookies",
-    configModalTitle: "Configura tus cookies",
-    configModalIntro:
-      "Puedes aceptar solo las cookies necesarias o activar también las cookies analíticas. Siempre podrás cambiar tu decisión borrando las cookies del navegador.",
-    necessaryTitle: "Cookies necesarias",
-    necessaryDescription:
-      "Son imprescindibles para funciones básicas como navegación, seguridad y recordar tu elección de consentimiento.",
-    necessaryBadge: "Siempre activas",
-    analyticsTitle: "Cookies analíticas",
-    analyticsDescription:
-      "Nos ayudan a entender cómo se usa la web para mejorar contenidos, rendimiento y experiencia de navegación.",
-    saveConfigLabel: "Guardar configuración",
+    imageAlt: cookieCopy.imageAlt,
+    title: cookieCopy.title,
+    noticeHtml: cookieCopy.noticeHtml,
+    acceptLabel: cookieCopy.acceptLabel,
+    rejectLabel: cookieCopy.rejectLabel,
+    configLabel: cookieCopy.configLabel,
+    configModalTitle: cookieCopy.configModalTitle,
+    configModalIntro: cookieCopy.configModalIntro,
+    necessaryTitle: cookieCopy.necessaryTitle,
+    necessaryDescription: cookieCopy.necessaryDescription,
+    necessaryBadge: cookieCopy.necessaryBadge,
+    analyticsTitle: cookieCopy.analyticsTitle,
+    analyticsDescription: cookieCopy.analyticsDescription,
+    saveConfigLabel: cookieCopy.saveConfigLabel,
     onAccept: emitCookiePreferences,
     onReject: emitCookiePreferences,
     onSaveConfig: emitCookiePreferences
