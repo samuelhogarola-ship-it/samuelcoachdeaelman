@@ -28,6 +28,63 @@ const cookieCopy = {
 
 const hamburger = document.querySelector(".hamburger");
 const mobileMenu = document.querySelector("#mobile-menu");
+const navInner = document.querySelector(".nav-inner");
+
+const initLocaleSwitcher = () => {
+  if (!navInner) return;
+
+  const alternateLinks = Array.from(
+    document.querySelectorAll('link[rel="alternate"][hreflang]')
+  );
+  const supportedLocales = ["es", "de", "en"];
+  const localeLabels = { es: "ES", de: "DE", en: "EN" };
+
+  const localeEntries = supportedLocales
+    .map((locale) => {
+      const match = alternateLinks.find(
+        (link) => link.getAttribute("hreflang") === locale
+      );
+      return match
+        ? {
+            locale,
+            href: match.getAttribute("href"),
+            label: localeLabels[locale]
+          }
+        : null;
+    })
+    .filter(Boolean);
+
+  if (localeEntries.length < 2) return;
+
+  const currentLocale = (document.documentElement.lang || "es").slice(0, 2);
+
+  const switcher = document.createElement("div");
+  switcher.className = "lang-switch";
+  switcher.setAttribute("aria-label", "Language selector");
+
+  localeEntries.forEach(({ locale, href, label }) => {
+    const link = document.createElement("a");
+    link.className = "lang-switch-link";
+    link.href = href;
+    link.textContent = label;
+    link.setAttribute("hreflang", locale);
+    if (locale === currentLocale) {
+      link.classList.add("is-active");
+      link.setAttribute("aria-current", "true");
+    }
+    switcher.appendChild(link);
+  });
+
+  const navLinks = navInner.querySelector(".nav-links");
+  if (navLinks) navLinks.insertAdjacentElement("afterend", switcher);
+  else navInner.appendChild(switcher);
+
+  if (mobileMenu) {
+    const mobileSwitcher = switcher.cloneNode(true);
+    mobileSwitcher.classList.add("lang-switch-mobile");
+    mobileMenu.insertAdjacentElement("afterbegin", mobileSwitcher);
+  }
+};
 
 if (hamburger && mobileMenu) {
   const closeMenu = () => {
@@ -192,3 +249,4 @@ const initCookieBanner = () => {
 
 initCookieBanner();
 initAppsWidgetPreference();
+initLocaleSwitcher();
