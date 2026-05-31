@@ -38,6 +38,16 @@ const initLocaleSwitcher = () => {
   );
   const supportedLocales = ["es", "de", "en"];
   const localeLabels = { es: "ES", de: "DE", en: "EN" };
+  const localeNames = {
+    es: "Español",
+    de: "Deutsch",
+    en: "English"
+  };
+  const switcherAriaLabels = {
+    es: "Selector de idioma",
+    de: "Sprachauswahl",
+    en: "Language selector"
+  };
 
   const localeEntries = supportedLocales
     .map((locale) => {
@@ -60,7 +70,11 @@ const initLocaleSwitcher = () => {
 
   const switcher = document.createElement("div");
   switcher.className = "lang-switch";
-  switcher.setAttribute("aria-label", "Language selector");
+  switcher.setAttribute("role", "navigation");
+  switcher.setAttribute(
+    "aria-label",
+    switcherAriaLabels[currentLocale] || switcherAriaLabels.es
+  );
 
   localeEntries.forEach(({ locale, href, label }) => {
     const link = document.createElement("a");
@@ -68,6 +82,9 @@ const initLocaleSwitcher = () => {
     link.href = href;
     link.textContent = label;
     link.setAttribute("hreflang", locale);
+    link.setAttribute("lang", locale);
+    link.setAttribute("title", localeNames[locale]);
+    link.setAttribute("aria-label", localeNames[locale]);
     if (locale === currentLocale) {
       link.classList.add("is-active");
       link.setAttribute("aria-current", "true");
