@@ -90,7 +90,7 @@ const shared = {
     nav: {
       home: "Home",
       blog: "Blog",
-      about: "About",
+      about: "About me",
       services: "Services",
       methodology: "Method",
       faq: "FAQ",
@@ -241,103 +241,103 @@ const pages = [
 const copy = {
   de: {
     home: {
-      title: "Online-Deutschunterricht in Fuengirola | Samuel Coach de Aleman",
+      title: "Online-Deutschunterricht in Fuengirola | Samuel Coach de Alemán",
       description:
         "Online-Deutschunterricht aus Fuengirola: Konversation, Schule, Integration und berufliche Vorbereitung. Klarer Plan, individuelle Begleitung und echter Fortschritt.",
-      ogTitle: "Online-Deutschunterricht in Fuengirola | Samuel Coach de Aleman",
+      ogTitle: "Online-Deutschunterricht in Fuengirola | Samuel Coach de Alemán",
       ogDescription:
-        "Persoenlicher Online-Deutschunterricht aus Fuengirola fuer Alltag, Schule, Pruefungen und berufliche Ziele.",
+        "Persönlicher Online-Deutschunterricht aus Fuengirola für Alltag, Schule, Prüfungen und berufliche Ziele.",
       heroTitle: "Online-Deutschunterricht mit Klarheit, Struktur und echtem Fortschritt",
       heroLead:
-        "Ich unterstuetze Erwachsene, Familien und Fachkraefte dabei, Deutsch mit einem klaren Plan zu lernen: fuer Alltag, Pruefungen, Beruf oder den Schritt nach Deutschland.",
-      kicker: "Willkommen bei Samuel Coach de Aleman",
-      cardsTitle: "Womit ich dich unterstuetze",
+        "Ich unterstütze Erwachsene, Familien und Fachkräfte dabei, Deutsch mit einem klaren Plan zu lernen: für Alltag, Prüfungen, Beruf oder den Schritt nach Deutschland.",
+      kicker: "Willkommen bei Samuel Coach de Alemán",
+      cardsTitle: "Womit ich dich unterstütze",
       cards: [
-        ["Konversation", "Mehr Fluessigkeit, mehr Sicherheit und weniger Blockaden beim Sprechen."],
-        ["Goethe und TELC", "Gezielte Pruefungsvorbereitung mit Strategie, Format und realer Praxis."],
-        ["Arbeiten in Deutschland", "Deutsch fuer Interviews, Alltag und den beruflichen Einstieg."],
-        ["Schuldeutsch", "Klare Unterstuetzung fuer Kinder und Jugendliche mit Deutsch im Schulalltag."]
+        ["Konversation", "Mehr Flüssigkeit, mehr Sicherheit und weniger Blockaden beim Sprechen."],
+        ["Goethe und TELC", "Gezielte Prüfungsvorbereitung mit Strategie, Format und realer Praxis."],
+        ["Arbeiten in Deutschland", "Deutsch für Interviews, Alltag und den beruflichen Einstieg."],
+        ["Schuldeutsch", "Klare Unterstützung für Kinder und Jugendliche mit Deutsch im Schulalltag."]
       ],
       methodTitle: "Deutsch lernen ohne planloses Herumprobieren",
       methodText:
-        "Mein Unterricht ist darauf ausgelegt, dass du verstehst, woran du arbeitest, warum du daran arbeitest und wie du wirklich vorankommst. Kein Fuellmaterial, sondern ein klarer Weg.",
-      faqTitle: "Haeufige Fragen",
+        "Mein Unterricht ist darauf ausgelegt, dass du verstehst, woran du arbeitest, warum du daran arbeitest und wie du wirklich vorankommst. Kein Füllmaterial, sondern ein klarer Weg.",
+      faqTitle: "Häufige Fragen",
       faqs: [
-        ["Ist der Unterricht nur fuer Erwachsene?", "Nein. Ich arbeite auch mit Jugendlichen und Familien, wenn das Ziel und die Betreuung dazu passen."],
-        ["Bereitest du auf Goethe und TELC vor?", "Ja. Ich arbeite gezielt an Format, Strategie, Schwaechen und den einzelnen Pruefungsteilen."],
-        ["Findet alles online statt?", "Der Unterricht kann online stattfinden und ist so aufgebaut, dass du auch ausserhalb der Stunde klar weiterarbeiten kannst."]
+        ["Ist der Unterricht nur für Erwachsene?", "Nein. Ich arbeite auch mit Jugendlichen und Familien, wenn das Ziel und die Betreuung dazu passen."],
+        ["Bereitest du auf Goethe und TELC vor?", "Ja. Ich arbeite gezielt an Format, Strategie, Schwächen und den einzelnen Prüfungsteilen."],
+        ["Findet alles online statt?", "Der Unterricht kann online stattfinden und ist so aufgebaut, dass du auch außerhalb der Stunde klar weiterarbeiten kannst."]
       ],
       ctaTitle: "Wenn du Deutsch mit Richtung lernen willst, lass uns sprechen",
       ctaText: "Schreib mir kurz, wo du stehst und was du erreichen willst. Ich sage dir ehrlich, wie ich dir helfen kann."
     },
     services: {
-      title: "Online-Deutschunterricht fuer Goethe, TELC, Beruf und Konversation",
+      title: "Online-Deutschunterricht für Goethe, TELC, Beruf und Konversation",
       description:
-        "Individuelle Online-Deutschstunden fuer fluessigeres Sprechen, Goethe- und TELC-Pruefungen, den Beruf in Deutschland oder Schuelerunterstuetzung.",
-      ogTitle: "Online-Deutschunterricht fuer Goethe, TELC, Beruf und Konversation",
+        "Individuelle Online-Deutschstunden für flüssigeres Sprechen, Goethe- und TELC-Prüfungen, den Beruf in Deutschland oder Schülerunterstützung.",
+      ogTitle: "Online-Deutschunterricht für Goethe, TELC, Beruf und Konversation",
       ogDescription:
-        "Deutschunterricht fuer Konversation, offizielle Pruefungen, den Arbeitsmarkt in Deutschland, Unternehmen und Schule.",
-      heroTitle: "Deutschangebote fuer echte Ziele, nicht fuer Schubladen",
+        "Deutschunterricht für Konversation, offizielle Prüfungen, den Arbeitsmarkt in Deutschland, Unternehmen und Schule.",
+      heroTitle: "Deutschangebote für echte Ziele, nicht für Schubladen",
       heroText:
-        "Ich arbeite eins zu eins mit dir, damit Deutsch zu deinem konkreten Ziel passt: freier sprechen, Goethe oder TELC bestehen, beruflich weiterkommen oder Schuelerdeutsch sinnvoll aufbauen.",
-      introTitle: "Waehle das Format nach deinem Ziel",
+        "Ich arbeite eins zu eins mit dir, damit Deutsch zu deinem konkreten Ziel passt: freier sprechen, Goethe oder TELC bestehen, beruflich weiterkommen oder Schuldeutsch sinnvoll aufbauen.",
+      introTitle: "Wähle das Format nach deinem Ziel",
       introText:
-        "Nicht jeder Deutschunterricht bringt dasselbe. Hier findest du einen klaren Ueberblick, damit du schnell erkennst, welches Angebot zu dir passt.",
+        "Nicht jeder Deutschunterricht bringt dasselbe. Hier findest du einen klaren Überblick, damit du schnell erkennst, welches Angebot zu dir passt.",
       cards: [
-        ["conversacional", "Konversationsdeutsch", "Ideal, wenn du bereits Grundlagen hast und natuerlicher sprechen moechtest: mehr Reaktionsfaehigkeit, mehr Sicherheit und weniger Blockaden."],
-        ["examenes", "Goethe- und TELC-Vorbereitung", "Hier lernst du nicht nur Deutsch, sondern auch, wie du in einer Pruefung gut performst: Struktur, Zeitmanagement und Strategien inklusive."],
-        ["laboral", "Deutsch fuer die Arbeit in Deutschland", "Praktische Vorbereitung fuer Interviews, Arbeitsalltag und echte berufliche Chancen in Deutschland, Oesterreich oder der Schweiz."],
-        ["empresas", "Deutsch fuer Unternehmen", "Sprachtraining plus berufliches Coaching fuer Teams, die mit deutschen Partnern, Kunden oder Strukturen arbeiten."],
-        ["escolar", "Schuldeutsch", "Klare, visuelle und geduldige Unterstuetzung fuer Kinder und Jugendliche, die Deutsch in der Schule brauchen."]
+        ["conversacional", "Konversationsdeutsch", "Ideal, wenn du bereits Grundlagen hast und natürlicher sprechen möchtest: mehr Reaktionsfähigkeit, mehr Sicherheit und weniger Blockaden."],
+        ["examenes", "Goethe- und TELC-Vorbereitung", "Hier lernst du nicht nur Deutsch, sondern auch, wie du in einer Prüfung gut performst: Struktur, Zeitmanagement und Strategien inklusive."],
+        ["laboral", "Deutsch für die Arbeit in Deutschland", "Praktische Vorbereitung für Interviews, Arbeitsalltag und echte berufliche Chancen in Deutschland, Österreich oder der Schweiz."],
+        ["empresas", "Deutsch für Unternehmen", "Sprachtraining plus berufliches Coaching für Teams, die mit deutschen Partnern, Kunden oder Strukturen arbeiten."],
+        ["escolar", "Schuldeutsch", "Klare, visuelle und geduldige Unterstützung für Kinder und Jugendliche, die Deutsch in der Schule brauchen."]
       ],
-      ctaTitle: "Wenn du nicht weisst, womit du anfangen sollst, finden wir es gemeinsam heraus",
-      ctaText: "Erzaehl mir dein Ziel und ich sage dir, welches Format am meisten Sinn macht."
+      ctaTitle: "Wenn du nicht weißt, womit du anfangen sollst, finden wir es gemeinsam heraus",
+      ctaText: "Erzähl mir dein Ziel und ich sage dir, welches Format am meisten Sinn macht."
     },
     about: {
-      title: "Ueber mich | Samuel Coach de Aleman",
+      title: "Über mich | Samuel Coach de Alemán",
       description:
         "Lerne Samuel kennen: echte Erfahrung in Deutschland, Unterrichtspraxis und eine klare, menschliche Art, Deutsch online zu vermitteln.",
-      ogTitle: "Ueber mich | Samuel Coach de Aleman",
+      ogTitle: "Über mich | Samuel Coach de Alemán",
       ogDescription:
-        "Meine Geschichte, meine Erfahrung in Deutschland und meine Art, Deutsch mit Naehe und Klarheit zu unterrichten.",
-      heroTitle: "Ueber mich",
+        "Meine Geschichte, meine Erfahrung in Deutschland und meine Art, Deutsch mit Nähe und Klarheit zu unterrichten.",
+      heroTitle: "Über mich",
       heroText:
         "Ich bin Samuel, Deutschlehrer und Coach. Ich unterrichte aus echter Erfahrung: leben, arbeiten und wachsen in Deutschland und danach anderen Menschen den Weg erleichtern.",
       storyTitle: "Meine Geschichte in Kurzform",
       story: [
-        "Nach meinem Studium zog ich 2014 nach Muenchen. Ich musste Deutsch nicht aus einem Lehrbuch kennenlernen, sondern im echten Leben.",
-        "Ich arbeitete zuerst praktisch im Alltag und spaeter in der Bildungsarbeit, wo ich Menschen beim Deutschlernen und beim Einstieg in Deutschland begleitete.",
-        "Mit der Zeit erreichte ich erst B2 und spaeter C2+ beim Goethe-Institut. Gleichzeitig wuchs mein Blick dafuer, was Lernende wirklich brauchen: Klarheit, Struktur und ehrliches Feedback.",
-        "Heute unterrichte ich online und praesent vor allem mit einem Ziel: dass Deutsch fuer dich nutzbar wird, nicht nur theoretisch korrekt."
+        "Nach meinem Studium zog ich 2014 nach München. Ich musste Deutsch nicht aus einem Lehrbuch kennenlernen, sondern im echten Leben.",
+        "Ich arbeitete zuerst praktisch im Alltag und später in der Bildungsarbeit, wo ich Menschen beim Deutschlernen und beim Einstieg in Deutschland begleitete.",
+        "Mit der Zeit erreichte ich erst B2 und später C2+ beim Goethe-Institut. Gleichzeitig wuchs mein Blick dafür, was Lernende wirklich brauchen: Klarheit, Struktur und ehrliches Feedback.",
+        "Heute unterrichte ich online und präsent vor allem mit einem Ziel: dass Deutsch für dich nutzbar wird, nicht nur theoretisch korrekt."
       ],
       valuesTitle: "Was mir im Unterricht wichtig ist",
       values: [
-        ["Verstaendnis vor Show", "Ich will, dass du wirklich verstehst, was du tust und warum es funktioniert."],
-        ["Praxis vor Leerlauf", "Wir arbeiten an Inhalten, die dir fuer Alltag, Beruf oder Pruefung wirklich helfen."],
-        ["Naehe mit Anspruch", "Ich erklaere klar und geduldig, aber ich lasse dich nicht im Kreis lernen."]
+        ["Verständnis vor Show", "Ich will, dass du wirklich verstehst, was du tust und warum es funktioniert."],
+        ["Praxis vor Leerlauf", "Wir arbeiten an Inhalten, die dir für Alltag, Beruf oder Prüfung wirklich helfen."],
+        ["Nähe mit Anspruch", "Ich erkläre klar und geduldig, aber ich lasse dich nicht im Kreis lernen."]
       ],
       ctaTitle: "Wenn dich diese Art zu lernen anspricht, lass uns reden",
-      ctaText: "Erzaehl mir, wo du stehst, und wir schauen, welcher Weg fuer dein Deutsch sinnvoll ist."
+      ctaText: "Erzähl mir, wo du stehst, und wir schauen, welcher Weg für dein Deutsch sinnvoll ist."
     },
     methodology: {
-      title: "Methodik fuer erfolgreiches Deutschlernen online",
+      title: "Methodik für erfolgreiches Deutschlernen online",
       description:
-        "Entdecke die Methodik von Samuel Coach de Aleman: klar, strukturiert und auf echte Fortschritte in Konversation, Pruefungen und Beruf ausgerichtet.",
-      ogTitle: "Methodik fuer erfolgreiches Deutschlernen online",
+        "Entdecke die Methodik von Samuel Coach de Alemán: klar, strukturiert und auf echte Fortschritte in Konversation, Prüfungen und Beruf ausgerichtet.",
+      ogTitle: "Methodik für erfolgreiches Deutschlernen online",
       ogDescription: "Eine klare, wirksame und menschliche Methode, um online Deutsch mit Ziel zu lernen.",
       heroTitle: "Methodik",
       heroText:
-        "Deutschlernen sollte kein Ratespiel sein. Meine Arbeitsweise ist darauf aufgebaut, dass du genau weisst, was du tust, warum du es tust und wie du weiterkommst.",
+        "Deutschlernen sollte kein Ratespiel sein. Meine Arbeitsweise ist darauf aufgebaut, dass du genau weißt, was du tust, warum du es tust und wie du weiterkommst.",
       steps: [
         ["1. Standort bestimmen", "Zuerst sehen wir uns an, wo du wirklich stehst, was dich blockiert und welches Ziel du verfolgst."],
-        ["2. Passenden Plan bauen", "Je nach Ziel braucht man Konversation, Grammatik, Schreiben, Hoerverstehen oder gezielte Pruefungsvorbereitung."],
-        ["3. Mit Absicht ueben", "Ich gebe keine Aufgaben, nur um Zeit zu fuellen. Alles hat einen klaren Zweck."],
-        ["4. Korrigieren und anpassen", "Wir justieren den Prozess laufend, damit du nicht stecken bleibst und deine Fehler schneller hinter dir laesst."]
+        ["2. Passenden Plan bauen", "Je nach Ziel braucht man Konversation, Grammatik, Schreiben, Hörverstehen oder gezielte Prüfungsvorbereitung."],
+        ["3. Mit Absicht üben", "Ich gebe keine Aufgaben, nur um Zeit zu füllen. Alles hat einen klaren Zweck."],
+        ["4. Korrigieren und anpassen", "Wir justieren den Prozess laufend, damit du nicht stecken bleibst und deine Fehler schneller hinter dir lässt."]
       ],
-      resultTitle: "Was gute Arbeit meist veraendert",
+      resultTitle: "Was gute Arbeit meist verändert",
       resultItems: [
         "du lernst nicht mehr ohne Richtung",
-        "du erkennst, woran du als Naechstes arbeiten solltest",
+        "du erkennst, woran du als Nächstes arbeiten solltest",
         "du wiederholst typische Fehler seltener",
         "du wirst sicherer beim Sprechen und Anwenden"
       ],
@@ -356,47 +356,47 @@ const copy = {
         "Hier findest du eine Auswahl an Apps, mit denen du zwischen den Stunden sinnvoll weiterarbeiten kannst: Wortschatz, Artikel und Deutsch im Kontext.",
       introTitle: "Drei Apps, drei klare Schwerpunkte",
       introText:
-        "Jede App trainiert einen anderen Teil des Deutschen. Zusammen geben sie dir mehr Kontinuitaet, Abwechslung und echte Wiederholung.",
+        "Jede App trainiert einen anderen Teil des Deutschen. Zusammen geben sie dir mehr Kontinuität, Abwechslung und echte Wiederholung.",
       cards: [
-        ["Vokabel Lab", "Aktives Wortschatztraining mit Themen, Karten, Schreiben und Testformaten.", "Nuetzlich, wenn du deinen Wortschatz erweitern und regelmaessig mit der Sprache in Kontakt bleiben willst.", "https://vokabellab.com", "/assets/img/apps/vokabellab-logo.webp"],
-        ["Der Die Das", "Gezielte Uebung fuer Artikel und grammatische Sicherheit.", "Ideal, wenn du mit Genus und Artikeln kaempfst und genau dort praeziser werden willst.", "https://derdiedas.vokabellab.com", "/assets/img/apps/derdiedas-logo.png"],
-        ["Im Kontext", "Deutsch in echten Saetzen und Texten statt nur in isolierten Listen.", "Hilft dir zu verstehen, wie Woerter wirklich verwendet werden und wie Sprache im Zusammenhang funktioniert.", "https://imkontext.vokabellab.com", "/assets/img/apps/imkontext-logo.png"]
+        ["Vokabel Lab", "Aktives Wortschatztraining mit Themen, Karten, Schreiben und Testformaten.", "Nützlich, wenn du deinen Wortschatz erweitern und regelmäßig mit der Sprache in Kontakt bleiben willst.", "https://vokabellab.com", "/assets/img/apps/vokabellab-logo.webp"],
+        ["Der Die Das", "Gezielte Übung für Artikel und grammatische Sicherheit.", "Ideal, wenn du mit Genus und Artikeln kämpfst und genau dort präziser werden willst.", "https://derdiedas.vokabellab.com", "/assets/img/apps/derdiedas-logo.png"],
+        ["Im Kontext", "Deutsch in echten Sätzen und Texten statt nur in isolierten Listen.", "Hilft dir zu verstehen, wie Wörter wirklich verwendet werden und wie Sprache im Zusammenhang funktioniert.", "https://imkontext.vokabellab.com", "/assets/img/apps/imkontext-logo.png"]
       ],
       ctaTitle: "Selbststaendig ueben und trotzdem mit Richtung vorankommen",
-      ctaText: "Nutze die Apps fuer deinen Alltag und kombiniere sie mit Unterricht, wenn du mehr Struktur und persoenliches Feedback willst."
+      ctaText: "Nutze die Apps für deinen Alltag und kombiniere sie mit Unterricht, wenn du mehr Struktur und persönliches Feedback willst."
     },
     resources: {
-      title: "Ressourcen fuer TELC und Goethe",
+      title: "Ressourcen für TELC und Goethe",
       description:
-        "Ressourcen fuer die Vorbereitung auf TELC und Goethe: Leseverstehen, Lueckentext, Schreiben mit Feedback und Hoerverstehen.",
-      ogTitle: "Ressourcen fuer TELC und Goethe",
+        "Ressourcen für die Vorbereitung auf TELC und Goethe: Leseverstehen, Lückentext, Schreiben mit Feedback und Hörverstehen.",
+      ogTitle: "Ressourcen für TELC und Goethe",
       ogDescription:
-        "Eine Bibliothek mit klaren Ressourcen fuer die Vorbereitung auf Deutschpruefungen.",
-      heroTitle: "Ressourcen fuer TELC und Goethe",
+        "Eine Bibliothek mit klaren Ressourcen für die Vorbereitung auf Deutschprüfungen.",
+      heroTitle: "Ressourcen für TELC und Goethe",
       heroText:
-        "Bereite dich strukturiert auf deine Deutschpruefungen vor. Hier findest du Ressourcen, die einzelne Fertigkeiten gezielt trainieren.",
+        "Bereite dich strukturiert auf deine Deutschprüfungen vor. Hier findest du Ressourcen, die einzelne Fertigkeiten gezielt trainieren.",
       introTitle: "Einfacher lernen mit klaren Bausteinen",
       introText:
-        "Nicht jede Person braucht denselben Einstieg. Deshalb gibt es hier verschiedene Ressourcen fuer Lesen, Luecken, Schreiben und Hoeren.",
+        "Nicht jede Person braucht denselben Einstieg. Deshalb gibt es hier verschiedene Ressourcen für Lesen, Lücken, Schreiben und Hören.",
       cards: [
-        ["1", "Leseverstehen", "Texte auf Deutsch mit interaktiven Aufgaben, damit du Lesekompetenz nach Niveau trainieren kannst.", ["A1, A2, B1 und B2", "pruefungsnahe Leseuebungen", "geeignet fuer TELC und Goethe"], "/leseverstehen/", "Kostenlos", "Verfuegbar"],
-        ["2", "Lueckentext", "Fill-in-the-gap-Uebungen fuer Wortschatz, Konnektoren und globales Verstaendnis.", ["praxisnaher Kontext", "hilft bei praezisen Fehlern", "sinnvoll fuer Pruefung und Alltag"], "/de/recursos/lueckentext/", "In Vorbereitung", ""],
+        ["1", "Leseverstehen", "Texte auf Deutsch mit interaktiven Aufgaben, damit du Lesekompetenz nach Niveau trainieren kannst.", ["A1, A2, B1 und B2", "prüfungsnahe Leseübungen", "geeignet für TELC und Goethe"], "/leseverstehen/", "Kostenlos", "Verfügbar"],
+        ["2", "Lückentext", "Lückentext-Übungen für Wortschatz, Konnektoren und globales Verständnis.", ["praxisnaher Kontext", "hilft bei präzisen Fehlern", "sinnvoll für Prüfung und Alltag"], "/de/recursos/lueckentext/", "In Vorbereitung", ""],
         ["3", "Schreiben", "Reale Schreibaufgaben mit schnellem Feedback. Die Erfahrung wird von KI begleitet, die von Samuel trainiert wurde.", ["reale Aufgabenformate", "sofortiges Feedback", "Premium-Ressource"], "/de/recursos/schreiben/", "Nur Premium", ""],
-        ["4", "Hoerverstehen", "Eine kuenftige Ressource fuer gezieltes Hoertraining und besseres Verstehen im echten Sprachtempo.", ["Training nach Niveau", "nuetzlich fuer Alltag und Pruefung", "bald verfuegbar"], "/de/recursos/hoerverstehen/", "Coming soon", ""]
+        ["4", "Hörverstehen", "Eine künftige Ressource für gezieltes Hörtraining und besseres Verstehen im echten Sprachtempo.", ["Training nach Niveau", "nützlich für Alltag und Prüfung", "bald verfügbar"], "/de/recursos/hoerverstehen/", "Coming soon", ""]
       ],
-      ctaTitle: "Wenn du eine gefuehrte Vorbereitung suchst, begleite ich dich gern",
-      ctaText: "Wenn du nicht weisst, welche Ressource fuer dich jetzt am meisten Sinn macht, helfe ich dir bei der Auswahl."
+      ctaTitle: "Wenn du eine geführte Vorbereitung suchst, begleite ich dich gern",
+      ctaText: "Wenn du nicht weißt, welche Ressource für dich jetzt am meisten Sinn macht, helfe ich dir bei der Auswahl."
     },
     lueckentext: {
-      title: "Lueckentext | Ressource fuer Deutschpruefungen",
+      title: "Lückentext | Ressource für Deutschprüfungen",
       description:
-        "Lueckentext als Ressource fuer Deutschpruefungen: Wortschatz, Konnektoren und Strukturen im Kontext trainieren.",
-      ogTitle: "Lueckentext | Ressource fuer Deutschpruefungen",
+        "Lückentext als Ressource für Deutschprüfungen: Wortschatz, Konnektoren und Strukturen im Kontext trainieren.",
+      ogTitle: "Lückentext | Ressource für Deutschprüfungen",
       ogDescription:
-        "Trainiere Wortschatz, Konnektoren und Strukturen mit gezielten Lueckentext-Aufgaben.",
-      heroTitle: "Lueckentext",
+        "Trainiere Wortschatz, Konnektoren und Strukturen mit gezielten Lückentext-Aufgaben.",
+      heroTitle: "Lückentext",
       heroText:
-        "Diese Ressource ist fuer Lernende gedacht, die bereits lesen koennen, aber beim Ergaenzen noch unsicher sind. Der Uebungskern bleibt auf Deutsch.",
+        "Diese Ressource ist für Lernende gedacht, die bereits lesen können, aber beim Ergänzen noch unsicher sind. Der Übungskern bleibt auf Deutsch.",
       bullets: [
         "Wortschatz und Konnektoren im Kontext ueben",
         "globale und lokale Textlogik besser verstehen",
@@ -406,57 +406,57 @@ const copy = {
       noteText: "Die Ressource ist in Vorbereitung. Die spaetere Uebung bleibt auf Deutsch; nur die redaktionelle Einfuehrung wird lokalisiert."
     },
     schreiben: {
-      title: "Schreiben | Premium-Ressource fuer TELC und Goethe",
+      title: "Schreiben | Premium-Ressource für TELC und Goethe",
       description:
-        "Schreiben als Premium-Ressource: reale Schreibaufgaben mit schnellem Feedback fuer TELC, Goethe und schriftliche Ausdrucksfaehigkeit.",
-      ogTitle: "Schreiben | Premium-Ressource fuer TELC und Goethe",
+        "Schreiben als Premium-Ressource: reale Schreibaufgaben mit schnellem Feedback für TELC, Goethe und schriftliche Ausdrucksfähigkeit.",
+      ogTitle: "Schreiben | Premium-Ressource für TELC und Goethe",
       ogDescription:
         "Reale Schreibaufgaben mit schnellem Feedback und klaren Korrekturhinweisen.",
       heroTitle: "Schreiben",
       heroText:
-        "Schreiben richtet sich an Lernende, die nicht nur Aufgaben sammeln wollen, sondern klares Feedback und echte Orientierung fuer ihren schriftlichen Ausdruck brauchen.",
+        "Schreiben richtet sich an Lernende, die nicht nur Aufgaben sammeln wollen, sondern klares Feedback und echte Orientierung für ihren schriftlichen Ausdruck brauchen.",
       bullets: [
         "reale Aufgaben mit pruefungsnahen Formaten",
         "schnelles Feedback mit konkreten Hinweisen",
-        "geeignet fuer TELC, Goethe und alltagstaugliches Schreiben"
+        "geeignet für TELC, Goethe und alltagstaugliches Schreiben"
       ],
       noteTitle: "Premium",
       noteText: "Diese Ressource ist als Premium-Bereich gedacht. Die Uebungsinhalte selbst bleiben auf Deutsch."
     },
     hoerverstehen: {
-      title: "Hoerverstehen | Kommende Ressource",
+      title: "Hörverstehen | Kommende Ressource",
       description:
-        "Hoerverstehen als kommende Ressource fuer Deutschpruefungen und alltagsnahes Verstehen in echtem Sprachtempo.",
-      ogTitle: "Hoerverstehen | Kommende Ressource",
+        "Hörverstehen als kommende Ressource für Deutschprüfungen und alltagsnahes Verstehen in echtem Sprachtempo.",
+      ogTitle: "Hörverstehen | Kommende Ressource",
       ogDescription:
-        "Eine kommende Ressource fuer Hoertraining, Informationsverarbeitung und mehr Sicherheit im Deutschen.",
-      heroTitle: "Hoerverstehen",
+        "Eine kommende Ressource für Hörtraining, Informationsverarbeitung und mehr Sicherheit im Deutschen.",
+      heroTitle: "Hörverstehen",
       heroText:
         "Diese Ressource wird spaeter das gezielte Hoertraining abdecken: Informationen herausholen, Tempo aushalten und Struktur besser erkennen.",
       bullets: [
         "Training nach Niveau",
-        "alltagsnahes und pruefungsrelevantes Hoerverstehen",
-        "klare Progression statt planloser Hoeruebungen"
+        "alltagsnahes und prüfungsrelevantes Hörverstehen",
+        "klare Progression statt planloser Hörübungen"
       ],
       noteTitle: "Coming soon",
       noteText: "Noch nicht veroeffentlicht. Wenn sie live geht, bleibt das Uebungsmaterial auf Deutsch."
     },
     privacy: {
-      title: "Datenschutzerklaerung | Samuel Coach de Aleman",
+      title: "Datenschutzerklärung | Samuel Coach de Alemán",
       description:
-        "Datenschutzerklaerung von Samuel Coach de Aleman: Informationen zu Datenverarbeitung, Kontakt, Speicherdauer und Nutzerrechten.",
-      ogTitle: "Datenschutzerklaerung | Samuel Coach de Aleman",
+        "Datenschutzerklärung von Samuel Coach de Alemán: Informationen zu Datenverarbeitung, Kontakt, Speicherdauer und Nutzerrechten.",
+      ogTitle: "Datenschutzerklärung | Samuel Coach de Alemán",
       ogDescription: "Informationen zu Datenverarbeitung, Nutzerrechten und Datenschutz auf dieser Website.",
-      heroTitle: "Datenschutzerklaerung",
+      heroTitle: "Datenschutzerklärung",
       heroText:
-        "Grundlegende Informationen zur Verarbeitung personenbezogener Daten auf dieser Website. Diese Uebersetzung dient der Orientierung und sollte rechtlich geprueft werden.",
+        "Grundlegende Informationen zur Verarbeitung personenbezogener Daten auf dieser Website. Diese Übersetzung dient der Orientierung und sollte rechtlich geprüft werden.",
       sections: [
-        ["Verantwortliche Stelle", ["Samuel Coach de Aleman", "Kontakt: samuelcoachdealeman@gmail.com", "Standort: Fuengirola, Malaga, Spanien"]],
-        ["Zweck der Verarbeitung", ["Personenbezogene Daten koennen genutzt werden, um Anfragen zu beantworten, Kontakte zu verwalten und gewuenschte Leistungen bereitzustellen."]],
+        ["Verantwortliche Stelle", ["Samuel Coach de Alemán", "Kontakt: samuelcoachdealeman@gmail.com", "Standort: Fuengirola, Málaga, Spanien"]],
+        ["Zweck der Verarbeitung", ["Personenbezogene Daten können genutzt werden, um Anfragen zu beantworten, Kontakte zu verwalten und gewünschte Leistungen bereitzustellen."]],
         ["Rechtsgrundlage", ["Grundlage der Verarbeitung sind Einwilligung, vorvertragliche oder vertragliche Beziehung und, sofern zutreffend, berechtigtes Interesse."]],
-        ["Speicherdauer", ["Daten werden nur so lange gespeichert, wie es fuer den jeweiligen Zweck und fuer gesetzliche Pflichten erforderlich ist."]],
-        ["Empfaenger", ["Daten werden nur weitergegeben, wenn es gesetzlich notwendig ist oder fuer technische Dienstleister und Kommunikationsplattformen benoetigt wird."]],
-        ["Rechte der Nutzer", ["Auskunft", "Berichtigung oder Loeschung", "Einschraenkung der Verarbeitung", "Widerspruch gegen die Verarbeitung", "Datenuebertragbarkeit, sofern anwendbar"]],
+        ["Speicherdauer", ["Daten werden nur so lange gespeichert, wie es für den jeweiligen Zweck und für gesetzliche Pflichten erforderlich ist."]],
+        ["Empfänger", ["Daten werden nur weitergegeben, wenn es gesetzlich notwendig ist oder für technische Dienstleister und Kommunikationsplattformen benötigt wird."]],
+        ["Rechte der Nutzer", ["Auskunft", "Berichtigung oder Löschung", "Einschränkung der Verarbeitung", "Widerspruch gegen die Verarbeitung", "Datenübertragbarkeit, sofern anwendbar"]],
         ["Cookies und Drittanbieter", ["Die Website kann technische und analytische Cookies sowie Dienste Dritter nutzen. Diese Information sollte mit der Cookie-Richtlinie zusammen gelesen werden."]]
       ]
     }
