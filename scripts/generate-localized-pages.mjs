@@ -351,7 +351,7 @@ const copy = {
       ogTitle: "Apps zum Deutschlernen: Wortschatz, Artikel und Texte",
       ogDescription:
         "Drei Apps zum Deutschlernen: Wortschatz, Artikel und Deutsch im Kontext mit echten Texten.",
-      heroTitle: "Deutsch online mit echten Tools ueben",
+      heroTitle: "Deutsch online mit echten Tools üben",
       heroText:
         "Hier findest du eine Auswahl an Apps, mit denen du zwischen den Stunden sinnvoll weiterarbeiten kannst: Wortschatz, Artikel und Deutsch im Kontext.",
       introTitle: "Drei Apps, drei klare Schwerpunkte",
@@ -362,7 +362,7 @@ const copy = {
         ["Der Die Das", "Gezielte Übung für Artikel und grammatische Sicherheit.", "Ideal, wenn du mit Genus und Artikeln kämpfst und genau dort präziser werden willst.", "https://derdiedas.vokabellab.com", "/assets/img/apps/derdiedas-logo.png"],
         ["Im Kontext", "Deutsch in echten Sätzen und Texten statt nur in isolierten Listen.", "Hilft dir zu verstehen, wie Wörter wirklich verwendet werden und wie Sprache im Zusammenhang funktioniert.", "https://imkontext.vokabellab.com", "/assets/img/apps/imkontext-logo.png"]
       ],
-      ctaTitle: "Selbststaendig ueben und trotzdem mit Richtung vorankommen",
+      ctaTitle: "Selbstständig üben und trotzdem mit Richtung vorankommen",
       ctaText: "Nutze die Apps für deinen Alltag und kombiniere sie mit Unterricht, wenn du mehr Struktur und persönliches Feedback willst."
     },
     resources: {
@@ -398,12 +398,12 @@ const copy = {
       heroText:
         "Diese Ressource ist für Lernende gedacht, die bereits lesen können, aber beim Ergänzen noch unsicher sind. Der Übungskern bleibt auf Deutsch.",
       bullets: [
-        "Wortschatz und Konnektoren im Kontext ueben",
+        "Wortschatz und Konnektoren im Kontext üben",
         "globale und lokale Textlogik besser verstehen",
-        "Fehler in Struktur und Praezision schneller erkennen"
+        "Fehler in Struktur und Präzision schneller erkennen"
       ],
       noteTitle: "Status",
-      noteText: "Die Ressource ist in Vorbereitung. Die spaetere Uebung bleibt auf Deutsch; nur die redaktionelle Einfuehrung wird lokalisiert."
+      noteText: "Die Ressource ist in Vorbereitung. Die spätere Übung bleibt auf Deutsch; nur die redaktionelle Einführung wird lokalisiert."
     },
     schreiben: {
       title: "Schreiben | Premium-Ressource für TELC und Goethe",
@@ -416,12 +416,12 @@ const copy = {
       heroText:
         "Schreiben richtet sich an Lernende, die nicht nur Aufgaben sammeln wollen, sondern klares Feedback und echte Orientierung für ihren schriftlichen Ausdruck brauchen.",
       bullets: [
-        "reale Aufgaben mit pruefungsnahen Formaten",
+        "reale Aufgaben mit prüfungsnahen Formaten",
         "schnelles Feedback mit konkreten Hinweisen",
         "geeignet für TELC, Goethe und alltagstaugliches Schreiben"
       ],
       noteTitle: "Premium",
-      noteText: "Diese Ressource ist als Premium-Bereich gedacht. Die Uebungsinhalte selbst bleiben auf Deutsch."
+      noteText: "Diese Ressource ist als Premium-Bereich gedacht. Die Übungsinhalte selbst bleiben auf Deutsch."
     },
     hoerverstehen: {
       title: "Hörverstehen | Kommende Ressource",
@@ -432,14 +432,14 @@ const copy = {
         "Eine kommende Ressource für Hörtraining, Informationsverarbeitung und mehr Sicherheit im Deutschen.",
       heroTitle: "Hörverstehen",
       heroText:
-        "Diese Ressource wird spaeter das gezielte Hoertraining abdecken: Informationen herausholen, Tempo aushalten und Struktur besser erkennen.",
+        "Diese Ressource wird später das gezielte Hörtraining abdecken: Informationen herausholen, Tempo aushalten und Struktur besser erkennen.",
       bullets: [
         "Training nach Niveau",
         "alltagsnahes und prüfungsrelevantes Hörverstehen",
         "klare Progression statt planloser Hörübungen"
       ],
       noteTitle: "Coming soon",
-      noteText: "Noch nicht veroeffentlicht. Wenn sie live geht, bleibt das Uebungsmaterial auf Deutsch."
+      noteText: "Noch nicht veröffentlicht. Wenn sie live geht, bleibt das Übungsmaterial auf Deutsch."
     },
     privacy: {
       title: "Datenschutzerklärung | Samuel Coach de Alemán",

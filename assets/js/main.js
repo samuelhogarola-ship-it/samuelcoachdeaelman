@@ -70,6 +70,7 @@ const initLocaleSwitcher = () => {
 
   const switcher = document.createElement("div");
   switcher.className = "lang-switch";
+  switcher.setAttribute("role", "navigation");
   switcher.setAttribute(
     "aria-label",
     switcherAriaLabels[currentLocale] || switcherAriaLabels.es
