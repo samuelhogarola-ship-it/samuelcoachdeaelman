@@ -100,7 +100,8 @@ const initAppsWidgetPreference = () => {
     savedState = null;
   }
 
-  widgetToggle.checked = savedState !== "closed";
+  const isMobileViewport = window.matchMedia("(max-width: 860px)").matches;
+  widgetToggle.checked = isMobileViewport ? false : savedState !== "closed";
 
   widgetToggle.addEventListener("change", () => {
     try {
