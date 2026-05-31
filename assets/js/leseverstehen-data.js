@@ -1,7 +1,7 @@
 const TEXTOS = [
   {
     slug: 'auf-dem-markt',
-    nivel: 'A2',
+    nivel: 'B1',
     titulo: 'Auf dem Markt',
     descripcion: 'Anna und Max besuchen einen Wochenmarkt in Berlin-Kreuzberg.',
     texto: `Anna und Max sind heute in Berlin und besuchen einen Wochenmarkt im Stadtteil Kreuzberg. Es ist Samstagmorgen, und der Markt ist schon sehr voll. Viele Leute kaufen frisches Obst und Gemüse, und die Stände sind bunt und lebendig. Anna möchte frische Erdbeeren kaufen, und Max sucht nach Tomaten und Paprika für das Abendessen. Neben den Gemüseständen gibt es auch Stände mit Blumen und handgemachten Produkten. Anna interessiert sich besonders für die bunten Blumensträuße und überlegt, ob sie einen für ihre Wohnung kaufen soll.
@@ -19,7 +19,7 @@ Nach dem Einkaufen setzen sich Anna und Max in ein kleines Café am Marktplatz u
   },
   {
     slug: 'im-park',
-    nivel: 'A2',
+    nivel: 'B1',
     titulo: 'Im Park',
     descripcion: 'Laura und Max verbringen einen entspannten Sonntagnachmittag im Park.',
     texto: `Am Sonntagnachmittag gehen Laura und Max in den Park, um etwas frische Luft zu bekommen und spazieren zu gehen. Es ist ein sonniger Tag, und der Park ist voller Menschen. Einige Leute sitzen auf Bänken und lesen. Laura hat ihren Hund dabei, der fröhlich herumläuft. Max kauft Eis, und sie setzen sich auf eine Bank in der Nähe des Teichs.
@@ -37,7 +37,7 @@ Bevor sie nach Hause gehen, machen Laura und Max noch einen kleinen Spaziergang 
   },
   {
     slug: 'im-zoo',
-    nivel: 'A2',
+    nivel: 'B1',
     titulo: 'Im Zoo',
     descripcion: 'Anna und Felix verbringen einen aufregenden Tag im Zoo.',
     texto: `Anna und Felix besuchen am Samstag den Zoo, damit sie die neuen Tiere sehen können. Sie haben sich schon lange darauf gefreut. Felix bringt seine Kamera mit, um viele Fotos zu machen. Im Zoo gibt es viele spannende Tiere, darunter Löwen, Elefanten und Pinguine. Anna liebt besonders die Pinguine, weil sie so lustig watscheln.
@@ -55,7 +55,7 @@ Am Nachmittag sehen sie sich die Fütterung der Elefanten an. Die Elefanten hebe
   },
   {
     slug: 'im-restaurant',
-    nivel: 'A2',
+    nivel: 'B1',
     titulo: 'Im Restaurant',
     descripcion: 'Sophie und Martin probieren ein neues Restaurant in der Stadt.',
     texto: `Sophie und Martin gehen an einem Freitagabend in ein neues Restaurant in der Stadt. Sie haben schon viel über das Essen dort gehört und sind gespannt, die Spezialitäten zu probieren. Martin bestellt ein Steak, während Sophie sich für einen frischen Salat mit Lachs entscheidet. Beide genießen die gemütliche Atmosphäre im Restaurant.
@@ -73,7 +73,7 @@ Zum Schluss trinken sie einen Kaffee, bevor sie das Restaurant verlassen. Sie sp
   },
   {
     slug: 'im-einkaufszentrum',
-    nivel: 'A2',
+    nivel: 'B1',
     titulo: 'Im Einkaufszentrum',
     descripcion: 'Lisa und Tom suchen neue Kleidung im Einkaufszentrum.',
     texto: `Am Samstag gehen Lisa und Tom ins Einkaufszentrum, weil sie neue Kleidung brauchen. Tom möchte vor allem neue Sportschuhe kaufen, da seine alten kaputt sind. Lisa hingegen sucht ein Kleid für eine Hochzeit, zu der sie die nächste Woche eingeladen ist. Sie gehen zuerst in ein Sportgeschäft, wohin Tom gerne geht, weil dort die besten Angebote sind.
@@ -91,7 +91,7 @@ Am Ende treffen sich beide wieder im Café im zweiten Stock. Lisa hat schließli
   },
   {
     slug: 'ausflug-mit-freunden',
-    nivel: 'A2',
+    nivel: 'B1',
     titulo: 'Der Ausflug mit Freunden',
     descripcion: 'Peter und Julia fahren mit Freunden in die Berge.',
     texto: `Peter und Julia machen einen Ausflug, den sie schon lange geplant haben. Sie fahren mit ihren Freunden, die aus der Nachbarstadt kommen, in die Berge. Peter freut sich besonders, weil er gerne klettert und Julia sich mehr für die Natur interessiert. Am Abend kehren sie in eine Hütte ein, wo sie übernachten werden. Peter ist sehr müde, deshalb legt er sich sofort ins Bett. Julia ist noch nicht müde, aber sie unterhält sich trotzdem mit den anderen über den Tag.
@@ -109,7 +109,7 @@ Am nächsten Morgen entscheiden sie sich, einen kurzen Spaziergang zu machen. Di
   },
   {
     slug: 'familienausflug',
-    nivel: 'A2',
+    nivel: 'B1',
     titulo: 'Der Familienausflug',
     descripcion: 'Die Familie Müller macht einen unvergesslichen Ausflug an den See.',
     texto: `Letzten Sommer machte die Familie Müller einen Ausflug an den See. Als sie ankamen, wollten die Kinder sofort ins Wasser springen. Das Wetter war perfekt, so dass die Sonne schien. Herr Müller packte das Picknick aus, während Frau Müller nach einem schattigen Platz suchte. Neben dem See gab es eine kleine Wiese, auf der Anna und Felix einige Male spielen konnten.
@@ -127,7 +127,7 @@ Am Abend, als die Sonne unterging, packte die Familie ihre Sachen zusammen. Herr
   },
   {
     slug: 'museumsbesuch',
-    nivel: 'A2',
+    nivel: 'B1',
     titulo: 'Der Museumsbesuch',
     descripcion: 'Clara besucht mit ihrer Schulklasse ein bekanntes Museum.',
     texto: `Letzte Woche besuchte Clara mit ihrer Klasse ein Museum, das in ihrer Stadt sehr bekannt ist. Als sie ankamen, wurden sie von einem Führer begrüßt, der ihnen die Ausstellung zeigen wollte. Das Museum war groß, so dass die Klasse mehrere Stunden brauchte, um alles zu sehen. Clara interessierte sich besonders für die Kunstwerke, die aus dem Mittelalter stammten.
@@ -896,7 +896,7 @@ Am Wochenende treffe ich meine Freundinnen. Wir gehen manchmal ins Kino oder in 
 
   {
     slug: 'tagesausflug',
-    nivel: 'A2',
+    nivel: 'B1',
     titulo: 'Der Tagesausflug',
     descripcion: 'Paul und Maria planen einen Tagesausflug in die Berge.',
     texto: `Paul und Maria planen einen Tagesausflug in die Berge. Bevor sie losfahren, packen sie ihre Rucksäcke und bereiten ein Picknick vor. Sie wollen früh aufbrechen, vorher tanken sie aber noch ihr Auto. Nachdem sie sich alle vorbereitet haben, starten sie ihre Reise. Es ist ein sonniger Tag, und beide freuen sich auf den Ausflug.

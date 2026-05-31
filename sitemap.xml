@@ -166,11 +166,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -181,42 +176,42 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/auf-dem-markt/</loc>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/auf-dem-markt/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/im-park/</loc>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/im-park/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/im-zoo/</loc>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/im-zoo/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/im-restaurant/</loc>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/im-restaurant/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/im-einkaufszentrum/</loc>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/im-einkaufszentrum/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/ausflug-mit-freunden/</loc>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/ausflug-mit-freunden/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/familienausflug/</loc>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/familienausflug/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/museumsbesuch/</loc>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/museumsbesuch/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -411,7 +406,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/tagesausflug/</loc>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/tagesausflug/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
