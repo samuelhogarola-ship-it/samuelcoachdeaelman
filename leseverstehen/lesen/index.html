@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leseverstehen A2 | Samuel Coach de Alemán</title>
+  <title>Leseverstehen | Samuel Coach de Alemán</title>
   <meta name="description" content="Lee el texto en alemán y responde el ejercicio de comprensión lectora.">
   <meta name="robots" content="noindex">
   <meta name="theme-color" content="#455a64">
@@ -114,7 +114,7 @@
       renderLectura(root, slug);
       const texto = getTextoBySlug(slug);
       if (texto) {
-        document.title = `${texto.titulo} — Leseverstehen A2 | Samuel Coach de Alemán`;
+        document.title = `${texto.titulo} — Leseverstehen ${texto.nivel} | Samuel Coach de Alemán`;
       }
     } else {
       root.innerHTML = '<p class="lese-error">No se ha especificado ningún texto. <a href="/leseverstehen/">Volver a la lista</a>.</p>';
