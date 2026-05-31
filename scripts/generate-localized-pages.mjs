@@ -732,7 +732,6 @@ function renderLocaleScript(locale) {
 function renderNav(locale) {
   const common = shared[locale];
   const prefix = localePrefix(locale);
-  const faqHref = `${prefix || ""}/#faq`;
   const servicesHref = `${prefix || ""}/servicios/`;
   const appsHref = `${prefix || ""}/practicar-aleman/`;
   const resourcesHref = `${prefix || ""}/recursos/`;
@@ -758,7 +757,6 @@ function renderNav(locale) {
             <a href="${servicesHref}#escolar">${common.nav.school}</a>
           </div>
         </li>
-        <li><a href="${faqHref}">${common.nav.faq}</a></li>
         <li class="nav-drop">
           <a href="${appsHref}">${common.nav.apps}</a>
           <div class="drop-menu">
@@ -780,7 +778,6 @@ function renderNav(locale) {
       <a href="${servicesHref}#examenes">${common.nav.exams}</a>
       <a href="${servicesHref}#empresas">${common.nav.companies}</a>
       <a href="${servicesHref}#escolar">${common.nav.school}</a>
-      <a href="${faqHref}">${common.nav.faq}</a>
       <a href="${appsHref}">${common.nav.apps}</a>
       <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">Vokabel Lab</a>
       <a href="https://derdiedas.vokabellab.com" target="_blank" rel="noopener noreferrer">Der Die Das</a>
@@ -793,6 +790,7 @@ function renderNav(locale) {
 function renderFooter(locale) {
   const common = shared[locale];
   const prefix = localePrefix(locale);
+  const faqHref = `${prefix || ""}/#faq`;
   return `  <footer>
     <div class="footer-inner">
       <div class="footer-top">
@@ -802,6 +800,7 @@ function renderFooter(locale) {
           <a href="${prefix}/sobre-mi/">${common.nav.about}</a>
           <a href="${prefix}/servicios/">${common.nav.services}</a>
           <a href="${prefix}/metodologia/">${common.nav.methodology}</a>
+          <a href="${faqHref}">${common.nav.faq}</a>
           <a href="${prefix}/practicar-aleman/">${common.nav.apps}</a>
           <a href="${prefix}/politica-de-privacidad/">${common.nav.privacy}</a>
         </div>
