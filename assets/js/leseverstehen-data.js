@@ -999,7 +999,7 @@ Während der Fahrt sieht Patrick grüne Wiesen, kleine Dörfer und später sogar
       { enunciado: 'Er kauft das Ticket zwei Wochen vor der Reise online.', respuesta: true },
       { enunciado: 'Patrick reserviert einen Platz am Gang.', respuesta: false },
       { enunciado: 'Im Zug spricht Patrick kurz mit einer älteren Dame.', respuesta: true },
-      { enunciado: 'Nach der Fahrt möchte Patrick auch in Zukunft öfter Zug reisen.', respuesta: true },
+      { enunciado: 'Nach der Fahrt möchte Patrick auch in Zukunft öfter mit dem Zug reisen.', respuesta: true },
     ],
   },
   {
@@ -1042,7 +1042,7 @@ Am Abend grillt Majas Vater Würstchen und Gemüse. Die Gäste reden, lachen und
     slug: 'besuch-im-freilichtmuseum',
     nivel: 'A2',
     titulo: 'Ein Besuch im Freilichtmuseum',
-    descripcion: 'Tim besucht mit seiner Klasse ein Museum und entdeckt dort alte Häuser, Berufe und deutsche Alltagskultur.',
+    descripcion: 'Tim besucht mit seiner Klasse ein Freilichtmuseum und entdeckt dort alte Häuser, Berufe und deutsche Alltagskultur.',
     texto: `Tim fährt mit seiner Klasse in ein Freilichtmuseum. Der Ausflug gehört zum Unterricht, denn die Schülerinnen und Schüler sprechen gerade über das Leben früher. Das Museum liegt außerhalb der Stadt, deshalb fahren alle morgens mit dem Bus dorthin.
 
 Im Museum sehen sie alte Häuser, eine kleine Schule und Werkstätten von Handwerkern. Eine Mitarbeiterin erklärt, wie die Menschen vor hundert Jahren gelebt haben. Tim findet besonders die alte Küche spannend. Dort gibt es keinen modernen Herd, sondern nur einen großen Ofen.

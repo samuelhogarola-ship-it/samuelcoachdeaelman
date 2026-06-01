@@ -2,6 +2,92 @@
 // Los datos (array TEXTOS) están en leseverstehen-data.js.
 // Carga ese archivo antes que este en el HTML.
 
+const LESE_UI = {
+  es: {
+    levelLabel: "Nivel",
+    cardCta: "Leer y practicar →",
+    notFoundLevel: "Nivel no encontrado.",
+    notFoundText: "Texto no encontrado.",
+    backAll: "← Ver todos los niveles",
+    exerciseTitle: "¿Has entendido el texto?",
+    exerciseSub:
+      "Indica si cada frase es <strong>Verdadero</strong> o <strong>Falso</strong>.",
+    optionTrue: "Verdadero",
+    optionFalse: "Falso",
+    result: (hits, total) => `Resultado: ${hits} de ${total} correctas.`,
+    retry: "Intentar de nuevo",
+    backLevel: (level) => `← Volver a ${level}`,
+    feedbackOk: "✓ ¡Correcto!",
+    feedbackError: (label) => `✗ Incorrecto. La respuesta correcta es: ${label}.`,
+    summary: (level) =>
+      `Texto interactivo de lectura en alemán para practicar el nivel ${level}.`,
+  },
+  de: {
+    levelLabel: "Niveau",
+    cardCta: "Lesen und üben →",
+    notFoundLevel: "Niveau nicht gefunden.",
+    notFoundText: "Text nicht gefunden.",
+    backAll: "← Alle Niveaus ansehen",
+    exerciseTitle: "Hast du den Text verstanden?",
+    exerciseSub:
+      "Entscheide, ob jede Aussage <strong>Richtig</strong> oder <strong>Falsch</strong> ist.",
+    optionTrue: "Richtig",
+    optionFalse: "Falsch",
+    result: (hits, total) => `Ergebnis: ${hits} von ${total} richtig.`,
+    retry: "Noch einmal versuchen",
+    backLevel: (level) => `← Zurück zu ${level}`,
+    feedbackOk: "✓ Richtig!",
+    feedbackError: (label) => `✗ Nicht richtig. Die richtige Antwort ist: ${label}.`,
+    summary: (level) =>
+      `Interaktiver Lesetext auf Deutsch, um das Niveau ${level} zu trainieren.`,
+  },
+  en: {
+    levelLabel: "Level",
+    cardCta: "Read and practise →",
+    notFoundLevel: "Level not found.",
+    notFoundText: "Text not found.",
+    backAll: "← View all levels",
+    exerciseTitle: "Did you understand the text?",
+    exerciseSub:
+      "Decide whether each statement is <strong>True</strong> or <strong>False</strong>.",
+    optionTrue: "True",
+    optionFalse: "False",
+    result: (hits, total) => `Result: ${hits} out of ${total} correct.`,
+    retry: "Try again",
+    backLevel: (level) => `← Back to ${level}`,
+    feedbackOk: "✓ Correct!",
+    feedbackError: (label) => `✗ Incorrect. The correct answer is: ${label}.`,
+    summary: (level) =>
+      `Interactive German reading text to practise level ${level}.`,
+  },
+};
+
+function getCurrentLocale() {
+  const lang = (document.documentElement.lang || "es").slice(0, 2);
+  return LESE_UI[lang] ? lang : "es";
+}
+
+function getUi() {
+  return LESE_UI[getCurrentLocale()];
+}
+
+function getLocalePrefix() {
+  const pathname = window.location.pathname || "";
+  if (pathname.startsWith("/de/")) return "/de";
+  if (pathname.startsWith("/en/")) return "/en";
+  return "";
+}
+
+function buildLeseUrl(path = "") {
+  const prefix = getLocalePrefix();
+  return `${prefix}/leseverstehen/${path}`;
+}
+
+function getCardDescription(texto) {
+  if (getCurrentLocale() === "es") return texto.descripcion;
+  return getUi().summary(texto.nivel);
+}
+
 function getTextoBySlug(slug) {
   return TEXTOS.find(t => t.slug === slug) || null;
 }
@@ -12,6 +98,7 @@ function getTextos() {
 
 // Renderiza todos los niveles en el contenedor (página principal /leseverstehen/)
 function renderLista(container) {
+  const ui = getUi();
   const ORDEN = ['A1', 'A2', 'B1', 'B2'];
   const niveles = ORDEN.filter(n => TEXTOS.some(t => t.nivel === n));
   let html = '';
@@ -20,18 +107,18 @@ function renderLista(container) {
     const gridId = 'grid-' + nivel.toLowerCase();
     html += `<div class="lese-nivel-grupo">
       <div class="lese-nivel-header" data-target="${gridId}">
-        <h2 class="lese-nivel-titulo"><a href="/leseverstehen/${nivel.toLowerCase()}/">Nivel ${nivel}</a></h2>
+        <h2 class="lese-nivel-titulo"><a href="${buildLeseUrl(`${nivel.toLowerCase()}/`)}">${ui.levelLabel} ${nivel}</a></h2>
         <button class="lese-nivel-toggle" aria-expanded="false" aria-controls="${gridId}">
           <span class="lese-nivel-arrow" aria-hidden="true"></span>
         </button>
       </div>
       <div class="lese-grid" id="${gridId}" hidden>`;
     grupo.forEach(t => {
-      html += `<a class="lese-card" href="/leseverstehen/${t.nivel.toLowerCase()}/${t.slug}/">
+      html += `<a class="lese-card" href="${buildLeseUrl(`${t.nivel.toLowerCase()}/${t.slug}/`)}">
         <span class="lese-card-nivel">${t.nivel}</span>
         <h3>${t.titulo}</h3>
-        <p>${t.descripcion}</p>
-        <span class="lese-card-cta">Leer y practicar →</span>
+        <p>${getCardDescription(t)}</p>
+        <span class="lese-card-cta">${ui.cardCta}</span>
       </a>`;
     });
     html += `</div></div>`;
@@ -52,31 +139,33 @@ function renderLista(container) {
 
 // Renderiza solo los textos de un nivel (páginas /leseverstehen/a2/, /b1/, /b2/)
 function renderListaNivel(container, nivel) {
+  const ui = getUi();
   const grupo = TEXTOS.filter(t => t.nivel === nivel);
   if (!grupo.length) {
-    container.innerHTML = '<p class="lese-error">Nivel no encontrado.</p>';
+    container.innerHTML = `<p class="lese-error">${ui.notFoundLevel}</p>`;
     return;
   }
   let html = '<div class="lese-grid">';
   grupo.forEach(t => {
-    html += `<a class="lese-card" href="/leseverstehen/${t.nivel.toLowerCase()}/${t.slug}/">
+    html += `<a class="lese-card" href="${buildLeseUrl(`${t.nivel.toLowerCase()}/${t.slug}/`)}">
       <span class="lese-card-nivel">${t.nivel}</span>
       <h3>${t.titulo}</h3>
-      <p>${t.descripcion}</p>
-      <span class="lese-card-cta">Leer y practicar →</span>
+      <p>${getCardDescription(t)}</p>
+      <span class="lese-card-cta">${ui.cardCta}</span>
     </a>`;
   });
   html += `</div>
   <div class="lese-back">
-    <a href="/leseverstehen/" class="lese-volver">← Ver todos los niveles</a>
+    <a href="${buildLeseUrl()}" class="lese-volver">${ui.backAll}</a>
   </div>`;
   container.innerHTML = html;
 }
 
 function renderLectura(container, slug) {
+  const ui = getUi();
   const texto = getTextoBySlug(slug);
   if (!texto) {
-    container.innerHTML = '<p class="lese-error">Texto no encontrado.</p>';
+    container.innerHTML = `<p class="lese-error">${ui.notFoundText}</p>`;
     return;
   }
 
@@ -86,8 +175,8 @@ function renderLectura(container, slug) {
     <div class="lese-pregunta" id="pregunta-${i}">
       <p class="lese-pregunta-enunciado"><span class="lese-num">${i + 1}.</span> ${p.enunciado}</p>
       <div class="lese-opciones">
-        <button class="lese-btn lese-btn-richtig" data-index="${i}" data-valor="true">Richtig</button>
-        <button class="lese-btn lese-btn-falsch" data-index="${i}" data-valor="false">Falsch</button>
+        <button class="lese-btn lese-btn-richtig" data-index="${i}" data-valor="true">${ui.optionTrue}</button>
+        <button class="lese-btn lese-btn-falsch" data-index="${i}" data-valor="false">${ui.optionFalse}</button>
       </div>
       <p class="lese-feedback" aria-live="polite"></p>
     </div>
@@ -101,17 +190,17 @@ function renderLectura(container, slug) {
         <div class="lese-cuerpo">${parrafos}</div>
       </div>
       <div class="lese-ejercicio-col">
-        <h2 class="lese-ejercicio-titulo">¿Has entendido el texto?</h2>
-        <p class="lese-ejercicio-sub">Indica si cada frase es <strong>Richtig</strong> (verdadero) o <strong>Falsch</strong> (falso).</p>
+        <h2 class="lese-ejercicio-titulo">${ui.exerciseTitle}</h2>
+        <p class="lese-ejercicio-sub">${ui.exerciseSub}</p>
         <div class="lese-preguntas">${preguntasHtml}</div>
         <div class="lese-resultado" hidden>
           <p class="lese-resultado-texto"></p>
-          <button class="lese-btn-reiniciar">Intentar de nuevo</button>
+          <button class="lese-btn-reiniciar">${ui.retry}</button>
         </div>
       </div>
     </div>
     <div class="lese-back">
-      <a href="/leseverstehen/${texto.nivel.toLowerCase()}/" class="lese-volver">← Volver a ${texto.nivel}</a>
+      <a href="${buildLeseUrl(`${texto.nivel.toLowerCase()}/`)}" class="lese-volver">${ui.backLevel(texto.nivel)}</a>
     </div>
   `;
 
@@ -122,7 +211,7 @@ function renderLectura(container, slug) {
       const aciertos = respuestas.filter((r, i) => r === texto.preguntas[i].respuesta).length;
       const resultado = container.querySelector('.lese-resultado');
       const textoResultado = container.querySelector('.lese-resultado-texto');
-      textoResultado.textContent = `Resultado: ${aciertos} de ${texto.preguntas.length} correctas.`;
+      textoResultado.textContent = ui.result(aciertos, texto.preguntas.length);
       resultado.hidden = false;
       resultado.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
@@ -146,11 +235,11 @@ function renderLectura(container, slug) {
     btn.classList.add('lese-btn-seleccionado');
     if (valor === correcta) {
       btn.classList.add('lese-correcto');
-      feedback.textContent = '✓ Richtig!';
+      feedback.textContent = ui.feedbackOk;
       feedback.className = 'lese-feedback lese-feedback-ok';
     } else {
       btn.classList.add('lese-incorrecto');
-      feedback.textContent = `✗ Falsch. Die richtige Antwort ist: ${correcta ? 'Richtig' : 'Falsch'}.`;
+      feedback.textContent = ui.feedbackError(correcta ? ui.optionTrue : ui.optionFalse);
       feedback.className = 'lese-feedback lese-feedback-error';
       const correctBtn = bloque.querySelector(`.lese-btn[data-valor="${correcta}"]`);
       if (correctBtn) correctBtn.classList.add('lese-correcto');
