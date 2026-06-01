@@ -895,6 +895,187 @@ Am Wochenende treffe ich meine Freundinnen. Wir gehen manchmal ins Kino oder in 
   // ── fin A1 ──────────────────────────────────────────────────
 
   {
+    slug: 'picknick-im-park',
+    nivel: 'A2',
+    titulo: 'Ein Picknick im Park',
+    descripcion: 'Mira und Jonas verbringen einen warmen Samstag im Park und erleben einen typischen Freizeittag auf A2-Niveau.',
+    texto: `Am Samstag ist das Wetter sehr schön. Mira und Jonas möchten nicht zu Hause bleiben, deshalb machen sie ein Picknick im Stadtpark. Am Morgen kaufen sie im Supermarkt Wasser, Saft, Käsebrote, Weintrauben und kleine Kuchen. Mira bringt auch eine Decke, Teller und Becher von zu Hause mit.
+
+Gegen elf Uhr treffen sie sich am Parkeingang. Dort ist schon viel los. Familien spazieren mit ihren Kindern, Jugendliche fahren Fahrrad und einige Leute spielen Badminton. Mira und Jonas suchen einen ruhigen Platz unter einem großen Baum. Dort setzen sie sich und essen zusammen.
+
+Nach dem Essen hören sie Musik und sprechen über ihre Pläne für die Sommerferien. Jonas möchte gern ans Meer fahren, aber Mira bleibt dieses Jahr in Deutschland. Sie will ihre Tante in Köln besuchen. Später machen sie noch einen Spaziergang am See im Park. Auf dem Rückweg kaufen sie ein Eis und fahren am Nachmittag zufrieden nach Hause.`,
+    preguntas: [
+      { enunciado: 'Mira und Jonas kaufen am Morgen Essen und Getränke im Supermarkt.', respuesta: true },
+      { enunciado: 'Sie treffen sich erst am Abend im Park.', respuesta: false },
+      { enunciado: 'Im Park spielen nur kleine Kinder.', respuesta: false },
+      { enunciado: 'Mira möchte im Sommer ihre Tante in Köln besuchen.', respuesta: true },
+      { enunciado: 'Bevor sie nach Hause fahren, kaufen sie ein Eis.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'wochenende-am-see',
+    nivel: 'A2',
+    titulo: 'Ein Wochenende am See',
+    descripcion: 'Nina fährt mit ihrer Familie an einen See und erzählt von Freizeit, Gewohnheiten und einem entspannten Wochenende.',
+    texto: `Nina verbringt das Wochenende mit ihrer Familie an einem kleinen See in Bayern. Ihre Eltern haben dort für zwei Nächte ein Ferienhaus gemietet. Am Freitagabend kommen sie mit dem Auto an. Es ist schon spät, deshalb packen sie nur schnell ihre Taschen aus und essen Brot, Käse und Tomaten.
+
+Am Samstag stehen alle früh auf. Der Vater macht Kaffee, und die Mutter bereitet das Frühstück vor. Danach gehen Nina und ihr kleiner Bruder sofort zum Wasser. Sie dürfen schwimmen, aber nur in der Nähe des Stegs. Später mieten sie ein Tretboot für eine Stunde. Das macht allen viel Spaß.
+
+Am Nachmittag macht die Familie einen Spaziergang durch den Wald. Dort sehen sie viele Vögel und sammeln schöne Steine. Abends grillen sie vor dem Haus. Am Sonntag fahren sie nach dem Frühstück wieder zurück. Nina findet das Wochenende kurz, aber sehr schön, und sie möchte im nächsten Sommer noch einmal dorthin fahren.`,
+    preguntas: [
+      { enunciado: 'Die Familie übernachtet in einem Hotel am See.', respuesta: false },
+      { enunciado: 'Am Freitagabend essen sie noch eine kleine Mahlzeit.', respuesta: true },
+      { enunciado: 'Nina und ihr Bruder dürfen weit weg vom Steg schwimmen.', respuesta: false },
+      { enunciado: 'Die Familie mietet am Samstag ein Tretboot.', respuesta: true },
+      { enunciado: 'Nina möchte nächstes Jahr wieder an den See fahren.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'stadtfest-im-sommer',
+    nivel: 'A2',
+    titulo: 'Das Stadtfest im Sommer',
+    descripcion: 'Ali besucht mit Freunden ein Stadtfest und berichtet über Musik, Essen und typische Freizeitaktivitäten.',
+    texto: `In Alis Stadt gibt es jedes Jahr im Juni ein großes Stadtfest. Viele Menschen warten schon lange darauf, weil es dort Musik, Essen und kleine Stände gibt. Dieses Jahr geht Ali am Samstagnachmittag mit seinen Freunden Emma und Leon dorthin. Sie treffen sich vor dem Rathaus und laufen dann zusammen über den Marktplatz.
+
+Zuerst sehen sie sich die Stände mit regionalen Produkten an. Emma kauft Honig für ihre Großmutter, und Leon probiert eine Wurst im Brötchen. Ali möchte später etwas Süßes essen und wartet noch. Auf einer kleinen Bühne spielt eine Schülerband. Die Musik ist nicht perfekt, aber die Stimmung ist sehr gut.
+
+Am Abend wird der Platz immer voller. Viele Familien sitzen an langen Tischen und unterhalten sich. Ali kauft am Ende noch einen Crêpe mit Schokolade. Um halb zehn fahren die drei mit dem Bus nach Hause. Sie sind müde, aber sie finden, dass das Stadtfest wieder sehr schön war.`,
+    preguntas: [
+      { enunciado: 'Das Stadtfest findet jedes Jahr im Winter statt.', respuesta: false },
+      { enunciado: 'Ali trifft seine Freunde vor dem Rathaus.', respuesta: true },
+      { enunciado: 'Emma kauft Honig für ihre Großmutter.', respuesta: true },
+      { enunciado: 'Ali isst zuerst einen Crêpe mit Schokolade.', respuesta: false },
+      { enunciado: 'Die Freunde fahren am Abend mit dem Bus nach Hause.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'reise-nach-hamburg',
+    nivel: 'A2',
+    titulo: 'Eine Reise nach Hamburg',
+    descripcion: 'Clara macht eine kurze Städtereise nach Hamburg und trainiert typisches Reisevokabular für A2-Prüfungen.',
+    texto: `Clara fährt in den Herbstferien für drei Tage nach Hamburg. Sie reist allein, weil ihre beste Freundin arbeiten muss. Die Zugfahrt dauert nur etwas mehr als zwei Stunden, deshalb nimmt Clara keinen großen Koffer mit. Sie packt nur einen Rucksack mit Kleidung, einem Buch, ihrer Kamera und einem Regenschirm.
+
+Nach der Ankunft geht sie zuerst in ihr kleines Hotel in der Nähe des Bahnhofs. Das Zimmer ist nicht groß, aber sehr sauber. Nachdem sie ihren Rucksack abgestellt hat, fährt sie mit der U-Bahn in die Innenstadt. Dort macht sie eine Hafenrundfahrt. Clara findet die Schiffe und die alten Speicherhäuser besonders interessant.
+
+Am zweiten Tag besucht sie die Elbphilharmonie und trinkt später einen Kaffee mit Blick auf das Wasser. Vor der Rückreise kauft sie noch ein paar Postkarten für ihre Familie. Zu Hause erzählt sie begeistert von der Reise und sagt, dass sie bald noch einmal nach Hamburg fahren möchte.`,
+    preguntas: [
+      { enunciado: 'Clara reist mit ihrer besten Freundin nach Hamburg.', respuesta: false },
+      { enunciado: 'Sie nimmt nur einen Rucksack mit.', respuesta: true },
+      { enunciado: 'Ihr Hotel ist groß und luxuriös.', respuesta: false },
+      { enunciado: 'Clara macht in Hamburg eine Hafenrundfahrt.', respuesta: true },
+      { enunciado: 'Vor der Rückreise kauft sie Postkarten.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'sonntag-bei-oma',
+    nivel: 'A2',
+    titulo: 'Sonntag bei Oma',
+    descripcion: 'Lea beschreibt einen typischen Sonntagsbesuch bei ihrer Großmutter mit Familie, Essen und kleinen Traditionen.',
+    texto: `Fast jeden zweiten Sonntag besucht Lea mit ihren Eltern und ihrem Bruder die Großmutter. Sie wohnt in einem Dorf, ungefähr dreißig Kilometer von der Stadt entfernt. Die Familie fährt meistens gegen elf Uhr los und bleibt bis zum frühen Abend dort.
+
+Wenn sie ankommen, steht das Mittagessen oft schon auf dem Tisch. Omas Spezialität ist Hähnchen mit Kartoffeln und Salat. Nach dem Essen trinken alle zusammen Kaffee, und es gibt selbst gemachten Apfelkuchen. Lea hilft ihrer Großmutter danach in der Küche, während ihr Bruder im Garten Fußball spielt.
+
+Später machen sie oft einen kurzen Spaziergang durch das Dorf. Die Großmutter kennt viele Nachbarn und bleibt unterwegs immer wieder stehen, um ein paar Worte zu wechseln. Lea findet diese Sonntage manchmal ein bisschen ruhig, aber gleichzeitig auch sehr gemütlich. Für sie gehört dieser Besuch einfach zur Familienroutine.`,
+    preguntas: [
+      { enunciado: 'Leas Großmutter wohnt mitten in der Stadt.', respuesta: false },
+      { enunciado: 'Die Familie fährt meistens gegen elf Uhr los.', respuesta: true },
+      { enunciado: 'Nach dem Essen gibt es Kaffee und Apfelkuchen.', respuesta: true },
+      { enunciado: 'Leas Bruder hilft nach dem Essen in der Küche.', respuesta: false },
+      { enunciado: 'Lea sieht die Sonntagsbesuche als Teil der Familienroutine.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'urlaub-mit-dem-zug',
+    nivel: 'A2',
+    titulo: 'Urlaub mit dem Zug',
+    descripcion: 'Patrick plant seine Reise mit dem Zug und erzählt von Tickets, Gepäck und einer bequemen Urlaubsfahrt.',
+    texto: `Patrick möchte in den Sommerferien nach Österreich fahren. Dieses Mal nimmt er nicht das Auto, sondern den Zug. Er findet das entspannter, weil er unterwegs lesen oder Musik hören kann. Zwei Wochen vor der Reise kauft er sein Ticket online. So bekommt er einen günstigeren Preis und kann direkt einen Fensterplatz reservieren.
+
+Am Reisetag ist Patrick schon früh am Bahnhof. Er hat einen Koffer, einen kleinen Rucksack und eine Flasche Wasser dabei. Der Zug kommt pünktlich, und Patrick findet seinen Platz schnell. Gegenüber sitzt eine ältere Dame, die auch nach Österreich fährt. Sie sprechen kurz über das Wetter und über die Berge.
+
+Während der Fahrt sieht Patrick grüne Wiesen, kleine Dörfer und später sogar hohe Berge. Er isst ein Sandwich und liest in seinem Reiseführer. Als der Zug am Ziel ankommt, ist Patrick froh, dass die Reise so ruhig war. Er möchte in Zukunft öfter mit dem Zug in den Urlaub fahren.`,
+    preguntas: [
+      { enunciado: 'Patrick fährt dieses Mal mit dem Auto nach Österreich.', respuesta: false },
+      { enunciado: 'Er kauft das Ticket zwei Wochen vor der Reise online.', respuesta: true },
+      { enunciado: 'Patrick reserviert einen Platz am Gang.', respuesta: false },
+      { enunciado: 'Im Zug spricht Patrick kurz mit einer älteren Dame.', respuesta: true },
+      { enunciado: 'Nach der Fahrt möchte Patrick auch in Zukunft öfter mit dem Zug reisen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'deutsches-fruehstueck',
+    nivel: 'A2',
+    titulo: 'Ein typisches Frühstück',
+    descripcion: 'Sara berichtet über Frühstücksgewohnheiten in Deutschland und lernt dabei Wortschatz zu Essen und Alltag.',
+    texto: `Sara kommt aus Spanien und lebt seit drei Monaten in Deutschland. Sie wohnt bei einer Gastfamilie in Bonn und findet viele Alltagsgewohnheiten interessant. Besonders das Frühstück unterscheidet sich von dem, was sie von zu Hause kennt.
+
+Unter der Woche frühstückt die Familie eher schnell. Der Vater trinkt Kaffee, die Mutter Tee, und die Kinder essen Brot mit Käse oder Marmelade. Manchmal gibt es auch Joghurt mit Obst. Alle sitzen nur kurz am Tisch, weil Schule und Arbeit früh beginnen.
+
+Am Sonntag ist das ganz anders. Dann nimmt sich die Familie viel mehr Zeit. Auf dem Tisch stehen Brötchen, Eier, Butter, Wurst, Käse und manchmal auch Croissants. Sara hilft oft beim Decken des Tisches. Sie mag besonders die frischen Brötchen vom Bäcker. Für sie ist das Sonntagsfrühstück schon zu einer kleinen Tradition geworden, auf die sie sich jede Woche freut.`,
+    preguntas: [
+      { enunciado: 'Sara lebt seit drei Monaten in Deutschland.', respuesta: true },
+      { enunciado: 'Unter der Woche frühstückt die Familie sehr lange.', respuesta: false },
+      { enunciado: 'Die Kinder essen oft Brot mit Käse oder Marmelade.', respuesta: true },
+      { enunciado: 'Am Sonntag gibt es nie Eier auf dem Tisch.', respuesta: false },
+      { enunciado: 'Sara freut sich jede Woche auf das Sonntagsfrühstück.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'geburtstag-im-garten',
+    nivel: 'A2',
+    titulo: 'Eine Geburtstagsparty im Garten',
+    descripcion: 'Maja feiert ihren Geburtstag im Garten und erzählt von Vorbereitungen, Gästen und typischen Festgewohnheiten.',
+    texto: `Maja hat im Mai Geburtstag und wird dieses Jahr zwanzig Jahre alt. Weil das Wetter schön ist, organisiert sie eine kleine Feier im Garten ihrer Eltern. Schon am Vormittag hilft ihr Bruder beim Aufstellen der Tische und Stühle. Maja hängt bunte Lichterketten auf und stellt Blumen auf die Tische.
+
+Am Nachmittag kommen zuerst ihre beste Freundin Klara und zwei Nachbarn. Später treffen noch einige Kommilitonen von der Universität ein. Jeder bringt etwas mit: Saft, Salate, Brot oder einen Kuchen. Maja freut sich besonders über einen Schokoladenkuchen, den ihre Tante gebacken hat.
+
+Am Abend grillt Majas Vater Würstchen und Gemüse. Die Gäste reden, lachen und machen viele Fotos. Gegen neun Uhr singt die Gruppe ein Geburtstagslied, und Maja pustet die Kerzen aus. Sie findet die Feier nicht zu groß und genau deshalb besonders schön.`,
+    preguntas: [
+      { enunciado: 'Maja feiert ihren Geburtstag im Winter.', respuesta: false },
+      { enunciado: 'Ihr Bruder hilft am Vormittag bei den Vorbereitungen.', respuesta: true },
+      { enunciado: 'Alle Gäste kommen gleichzeitig am Nachmittag an.', respuesta: false },
+      { enunciado: 'Majas Tante backt einen Schokoladenkuchen.', respuesta: true },
+      { enunciado: 'Maja mag die Feier, weil sie nicht zu groß ist.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'besuch-im-freilichtmuseum',
+    nivel: 'A2',
+    titulo: 'Ein Besuch im Freilichtmuseum',
+    descripcion: 'Tim besucht mit seiner Klasse ein Freilichtmuseum und entdeckt dort alte Häuser, Berufe und deutsche Alltagskultur.',
+    texto: `Tim fährt mit seiner Klasse in ein Freilichtmuseum. Der Ausflug gehört zum Unterricht, denn die Schülerinnen und Schüler sprechen gerade über das Leben früher. Das Museum liegt außerhalb der Stadt, deshalb fahren alle morgens mit dem Bus dorthin.
+
+Im Museum sehen sie alte Häuser, eine kleine Schule und Werkstätten von Handwerkern. Eine Mitarbeiterin erklärt, wie die Menschen vor hundert Jahren gelebt haben. Tim findet besonders die alte Küche spannend. Dort gibt es keinen modernen Herd, sondern nur einen großen Ofen.
+
+Zur Mittagszeit essen die Jugendlichen ihre belegten Brote auf einer Bank. Danach dürfen sie in kleinen Gruppen noch einmal durch das Gelände gehen. Tim kauft im Museumsladen eine Postkarte für seinen Großvater, weil dieser sich auch für Geschichte interessiert. Auf dem Heimweg sprechen viele über ihre Lieblingsorte im Museum.`,
+    preguntas: [
+      { enunciado: 'Tim fährt allein ins Freilichtmuseum.', respuesta: false },
+      { enunciado: 'Die Klasse lernt gerade im Unterricht etwas über das Leben früher.', respuesta: true },
+      { enunciado: 'Tim findet die alte Küche besonders spannend.', respuesta: true },
+      { enunciado: 'Die Schülerinnen und Schüler essen mittags in einem Restaurant.', respuesta: false },
+      { enunciado: 'Tim kauft eine Postkarte für seinen Großvater.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'ferienjob-im-cafe',
+    nivel: 'A2',
+    titulo: 'Ein Ferienjob im Café',
+    descripcion: 'Lukas arbeitet in den Sommerferien in einem Café und übt A2-Themen aus Alltag, Arbeit und Kundenkontakt.',
+    texto: `In den Sommerferien hat Lukas einen Ferienjob in einem kleinen Café gefunden. Er möchte etwas Geld verdienen, weil er im Herbst mit Freunden nach Prag reisen will. Das Café liegt in der Innenstadt und ist besonders am Wochenende sehr voll.
+
+Lukas arbeitet vier Tage pro Woche, immer von zehn bis sechzehn Uhr. Morgens stellt er zuerst Tassen und Gläser auf die Theke. Danach hilft er beim Servieren von Kaffee, Tee und Kuchen. Manchmal bringt er auch frische Brötchen von der Küche zu den Gästen.
+
+Am Anfang war Lukas nervös, weil er noch nie in einem Café gearbeitet hat. Jetzt gefällt ihm die Arbeit gut. Er hat nette Kolleginnen, und die Chefin erklärt alles geduldig. Nur wenn viele Touristen gleichzeitig kommen, wird es stressig. Trotzdem ist Lukas zufrieden, denn er lernt viel und spart schon erfolgreich für seine Reise.`,
+    preguntas: [
+      { enunciado: 'Lukas möchte mit dem Ferienjob Geld für eine Reise sparen.', respuesta: true },
+      { enunciado: 'Das Café ist nur unter der Woche sehr voll.', respuesta: false },
+      { enunciado: 'Lukas arbeitet jeden Tag von morgens bis abends.', respuesta: false },
+      { enunciado: 'Am Anfang war Lukas wegen der neuen Arbeit nervös.', respuesta: true },
+      { enunciado: 'Trotz stressiger Momente ist Lukas mit dem Ferienjob zufrieden.', respuesta: true },
+    ],
+  },
+
+  {
     slug: 'tagesausflug',
     nivel: 'B1',
     titulo: 'Der Tagesausflug',

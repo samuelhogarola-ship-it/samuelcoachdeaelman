@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-// Genera páginas estáticas para Leseverstehen:
-//   - /leseverstehen/[nivel]/[slug]/index.html  → una por texto
-//   - /leseverstehen/[nivel]/index.html          → una por nivel
-// Uso: node leseverstehen/generate-pages.js
-// Los datos vienen de assets/js/leseverstehen-data.js (fuente única de verdad).
+// Genera páginas estáticas para Leseverstehen en español, alemán e inglés.
+// Los textos se mantienen en alemán, pero la interfaz y la navegación
+// se localizan por idioma para que el selector funcione en cualquier página.
 
 const fs = require('fs');
 const path = require('path');
@@ -12,10 +10,9 @@ const TEXTOS = require('../assets/js/leseverstehen-data.js');
 
 // Bump este valor cada vez que cambies leseverstehen.js o leseverstehen-data.js
 // para que LiteSpeed/browsers descarguen el archivo nuevo en lugar de usar caché.
-const JS_VERSION = '20260526d';
+const JS_VERSION = '20260601a';
+const BASE_URL = 'https://www.samuelcoachdealeman.com';
 
-// ── Funciones de escape ──────────────────────────────────────────────────────
-// Para valores dentro de atributos HTML (content="…", og:title, etc.)
 function escapeHtmlAttr(str) {
   return String(str)
     .replace(/&/g, '&amp;')
@@ -24,7 +21,6 @@ function escapeHtmlAttr(str) {
     .replace(/>/g, '&gt;');
 }
 
-// Para contenido de texto visible en el HTML (<title>, <h1>, etc.)
 function escapeHtmlText(str) {
   return String(str)
     .replace(/&/g, '&amp;')
@@ -32,168 +28,368 @@ function escapeHtmlText(str) {
     .replace(/>/g, '&gt;');
 }
 
-// Para valores dentro del bloque JSON-LD: usa JSON.stringify() que escapa
-// comillas, barras, etc. El resultado ya lleva las comillas externas.
-// Uso: "name": ${jsonVal(titulo)}
 function jsonVal(str) {
   return JSON.stringify(String(str));
 }
 
-// ── Metadatos SEO por nivel ──────────────────────────────────────────────────
-const NIVEL_META = {
-  A1: {
-    title: 'Textos en alemán A1 — Comprensión lectora para principiantes | Samuel Coach de Alemán',
-    description: 'Practica el Leseverstehen A1 con textos muy sencillos y ejercicios de Richtig oder Falsch. Perfecto para empezar a aprender alemán desde cero. Gratis, sin registro.',
-    h1: 'Leseverstehen A1',
-    sub: 'Textos en alemán nivel A1 con ejercicios interactivos de <em>Richtig oder Falsch</em>. Perfectos para empezar a aprender alemán desde cero.',
-    keywords: 'textos alemán A1, leseverstehen A1, comprensión lectora alemán A1, ejercicios alemán principiantes, alemán A1',
+const LOCALES = {
+  es: {
+    htmlLang: 'es',
+    ogLocale: 'es_ES',
+    localePath: '',
+    localeName: 'Español',
+    siteLocaleContent: null,
+    nav: {
+      home: 'Inicio',
+      about: 'Sobre mí',
+      services: 'Servicios',
+      apps: 'Mis APPs',
+      resources: 'Recursos',
+      conversational: 'Alemán conversacional',
+      work: 'Trabajar en Alemania',
+      exams: 'Preparación de exámenes',
+      companies: 'Alemán para empresas',
+      school: 'Alemán escolar',
+      methodology: 'Metodología',
+      faq: 'FAQs',
+      practice: 'Practicar alemán',
+      privacy: 'Política de privacidad',
+      rights: 'Todos los derechos reservados.',
+    },
+    root: {
+      title: 'Leseverstehen — Textos en alemán A1, A2, B1 y B2 con ejercicios | Samuel Coach de Alemán',
+      description:
+        'Practica la comprensión lectora en alemán con textos niveles A1, A2, B1 y B2 y ejercicios interactivos de Richtig oder Falsch. Ideal para preparar el Goethe o el TELC. Gratis, sin registro.',
+      keywords:
+        'leseverstehen alemán, comprensión lectora alemán, textos alemán A1, textos alemán A2, textos alemán B1, textos alemán B2, ejercicios alemán, practicar alemán, Goethe, TELC',
+      ogTitle: 'Leseverstehen — Textos en alemán A1, A2, B1 y B2 con ejercicios interactivos',
+      twitterDescription:
+        'Textos en alemán niveles A1, A2, B1 y B2 con ejercicios de comprensión lectora. Gratis y sin registro.',
+      kicker: 'Comprensión lectora en alemán',
+      h1: 'Leseverstehen',
+      lead:
+        'Uno de mis recursos para preparar Goethe y TELC con más claridad. Practica la comprensión lectora en tu nivel — A1, A2, B1 o B2 — con ejercicios interactivos de <em>Richtig oder Falsch</em>. Gratis y sin registro.',
+    },
+    levelMeta(nivel) {
+      return {
+        title: `Textos en alemán ${nivel} — Comprensión lectora con ejercicios | Samuel Coach de Alemán`,
+        description: `Practica el Leseverstehen ${nivel} con textos graduados y ejercicios de Richtig oder Falsch. Ideal para preparar el Goethe ${nivel} o el TELC ${nivel}. Gratis, sin registro.`,
+        keywords: `textos alemán ${nivel}, leseverstehen ${nivel}, comprensión lectora alemán ${nivel}, ejercicios alemán ${nivel}, Goethe ${nivel}, TELC ${nivel}`,
+        h1: `Leseverstehen ${nivel}`,
+        sub: `Textos en alemán nivel ${nivel} con ejercicios interactivos de <em>Richtig oder Falsch</em>. Practica la comprensión lectora y prepárate para el Goethe ${nivel} o el TELC ${nivel}.`,
+      };
+    },
+    pageDescription(texto) {
+      return texto.descripcion;
+    },
   },
-  A2: {
-    title: 'Textos en alemán A2 — Comprensión lectora con ejercicios | Samuel Coach de Alemán',
-    description: 'Practica el Leseverstehen A2 con textos graduados y ejercicios de Richtig oder Falsch. Ideal para preparar el Goethe A2 o el TELC A2. Gratis, sin registro.',
-    h1: 'Leseverstehen A2',
-    sub: 'Textos en alemán nivel A2 con ejercicios interactivos de <em>Richtig oder Falsch</em>. Practica la comprensión lectora y prepárate para el Goethe A2 o el TELC A2.',
-    keywords: 'textos alemán A2, leseverstehen A2, comprensión lectora alemán A2, ejercicios alemán A2, Goethe A2, TELC A2',
+  de: {
+    htmlLang: 'de',
+    ogLocale: 'de_DE',
+    localePath: '/de',
+    localeName: 'Deutsch',
+    siteLocaleContent: {
+      navigation: {
+        openMenu: 'Menü öffnen',
+        closeMenu: 'Menü schließen',
+      },
+      cookieBanner: {
+        imageAlt: 'Dekoratives Keksbild im Cookie-Banner',
+        title: 'Deine Privatsphäre ist wichtig',
+        noticeHtml:
+          '<p>Wir verwenden notwendige Cookies, damit die Website funktioniert, und nur mit deiner Zustimmung Analyse-Cookies, um Nutzung und Inhalte zu verbessern. <a href="/de/politica-de-privacidad/">Mehr Informationen</a>.</p>',
+        acceptLabel: 'Akzeptieren',
+        rejectLabel: 'Ablehnen',
+        configLabel: 'Cookies einstellen',
+        configModalTitle: 'Cookies konfigurieren',
+        configModalIntro:
+          'Du kannst nur notwendige Cookies akzeptieren oder auch Analyse-Cookies aktivieren. Deine Entscheidung kannst du jederzeit ändern, indem du die Browser-Cookies löschst.',
+        necessaryTitle: 'Notwendige Cookies',
+        necessaryDescription:
+          'Sie sind erforderlich für Navigation, Sicherheit und das Speichern deiner Cookie-Entscheidung.',
+        necessaryBadge: 'Immer aktiv',
+        analyticsTitle: 'Analyse-Cookies',
+        analyticsDescription:
+          'Sie helfen uns zu verstehen, wie die Website genutzt wird, damit wir Inhalte, Leistung und Nutzererlebnis verbessern können.',
+        saveConfigLabel: 'Einstellungen speichern',
+      },
+    },
+    nav: {
+      home: 'Start',
+      about: 'Über mich',
+      services: 'Angebote',
+      apps: 'Meine Apps',
+      resources: 'Ressourcen',
+      conversational: 'Konversationsdeutsch',
+      work: 'Arbeiten in Deutschland',
+      exams: 'Prüfungsvorbereitung',
+      companies: 'Deutsch für Unternehmen',
+      school: 'Schuldeutsch',
+      methodology: 'Methodik',
+      faq: 'FAQ',
+      practice: 'Deutsch üben',
+      privacy: 'Datenschutz',
+      rights: 'Alle Rechte vorbehalten.',
+    },
+    root: {
+      title: 'Leseverstehen auf Deutsch — Texte mit interaktiven Übungen | Samuel Coach de Alemán',
+      description:
+        'Trainiere deutsches Leseverstehen mit Texten auf A1-, A2-, B1- und B2-Niveau. Interaktive Aufgaben, klarer Fortschritt und geeignet für Goethe und TELC.',
+      keywords:
+        'Leseverstehen Deutsch, deutsche Texte A1 A2 B1 B2, Lesetraining Deutsch, Goethe Vorbereitung, TELC Vorbereitung',
+      ogTitle: 'Leseverstehen auf Deutsch — Texte mit interaktiven Übungen',
+      twitterDescription:
+        'Deutsche Texte auf A1-, A2-, B1- und B2-Niveau mit interaktiven Aufgaben. Kostenlos und ohne Anmeldung.',
+      kicker: 'Lesekompetenz auf Deutsch',
+      h1: 'Leseverstehen',
+      lead:
+        'Hier trainierst du deutsches Leseverstehen nach Niveau — A1, A2, B1 oder B2 — mit interaktiven Aufgaben. Ideal als zusätzliche Übung für Goethe- oder TELC-Prüfungen.',
+    },
+    levelMeta(nivel) {
+      return {
+        title: `Deutsche Texte ${nivel} — Leseverstehen mit Übungen | Samuel Coach de Alemán`,
+        description: `Trainiere Leseverstehen ${nivel} mit deutschen Texten und interaktiven Richtig-oder-Falsch-Aufgaben. Geeignet für Goethe ${nivel} und TELC ${nivel}.`,
+        keywords: `deutsche Texte ${nivel}, Leseverstehen ${nivel}, Goethe ${nivel}, TELC ${nivel}, Deutschprüfung ${nivel}`,
+        h1: `Leseverstehen ${nivel}`,
+        sub: `Deutsche Texte auf Niveau ${nivel} mit interaktiven <em>Richtig-oder-Falsch</em>-Aufgaben. Perfekt zum gezielten Training für Goethe ${nivel} oder TELC ${nivel}.`,
+      };
+    },
+    pageDescription(texto) {
+      return `Interaktiver Lesetext auf Deutsch auf Niveau ${texto.nivel}: ${texto.titulo}.`;
+    },
   },
-  B1: {
-    title: 'Textos en alemán B1 — Comprensión lectora con ejercicios | Samuel Coach de Alemán',
-    description: 'Practica el Leseverstehen B1 con textos graduados y ejercicios de Richtig oder Falsch. Ideal para preparar el Goethe B1 o el TELC B1. Gratis, sin registro.',
-    h1: 'Leseverstehen B1',
-    sub: 'Textos en alemán nivel B1 con ejercicios interactivos de <em>Richtig oder Falsch</em>. Practica la comprensión lectora y prepárate para el Goethe B1 o el TELC B1.',
-    keywords: 'textos alemán B1, leseverstehen B1, comprensión lectora alemán B1, ejercicios alemán B1, Goethe B1, TELC B1',
-  },
-  B2: {
-    title: 'Textos en alemán B2 — Comprensión lectora con ejercicios | Samuel Coach de Alemán',
-    description: 'Practica el Leseverstehen B2 con textos graduados y ejercicios de Richtig oder Falsch. Ideal para preparar el Goethe B2 o el TELC B2. Gratis, sin registro.',
-    h1: 'Leseverstehen B2',
-    sub: 'Textos en alemán nivel B2 con ejercicios interactivos de <em>Richtig oder Falsch</em>. Practica la comprensión lectora y prepárate para el Goethe B2 o el TELC B2.',
-    keywords: 'textos alemán B2, leseverstehen B2, comprensión lectora alemán B2, ejercicios alemán B2, Goethe B2, TELC B2',
+  en: {
+    htmlLang: 'en',
+    ogLocale: 'en_GB',
+    localePath: '/en',
+    localeName: 'English',
+    siteLocaleContent: {
+      navigation: {
+        openMenu: 'Open menu',
+        closeMenu: 'Close menu',
+      },
+      cookieBanner: {
+        imageAlt: 'Decorative cookie image in the cookie banner',
+        title: 'Your privacy matters',
+        noticeHtml:
+          '<p>We use essential cookies to make the site work and, only if you agree, analytics cookies to understand usage and improve the website. <a href="/en/politica-de-privacidad/">More information</a>.</p>',
+        acceptLabel: 'Accept',
+        rejectLabel: 'Reject',
+        configLabel: 'Cookie settings',
+        configModalTitle: 'Configure your cookies',
+        configModalIntro:
+          'You can accept only essential cookies or also enable analytics cookies. You can change your decision at any time by deleting browser cookies.',
+        necessaryTitle: 'Essential cookies',
+        necessaryDescription:
+          'They are required for basic functions such as navigation, security and remembering your cookie choice.',
+        necessaryBadge: 'Always active',
+        analyticsTitle: 'Analytics cookies',
+        analyticsDescription:
+          'They help us understand how the site is used so we can improve content, performance and user experience.',
+        saveConfigLabel: 'Save settings',
+      },
+    },
+    nav: {
+      home: 'Home',
+      about: 'About me',
+      services: 'Services',
+      apps: 'My Apps',
+      resources: 'Resources',
+      conversational: 'Conversational German',
+      work: 'Working in Germany',
+      exams: 'Exam preparation',
+      companies: 'German for companies',
+      school: 'School German',
+      methodology: 'Method',
+      faq: 'FAQ',
+      practice: 'Practise German',
+      privacy: 'Privacy policy',
+      rights: 'All rights reserved.',
+    },
+    root: {
+      title: 'German Reading Practice — Interactive A1, A2, B1 and B2 texts | Samuel Coach de Alemán',
+      description:
+        'Practise German reading comprehension with interactive texts from A1 to B2. Useful for Goethe and TELC preparation, with clear progression and no registration required.',
+      keywords:
+        'German reading practice, German texts A1 A2 B1 B2, Goethe preparation, TELC preparation, reading comprehension German',
+      ogTitle: 'German Reading Practice — Interactive texts from A1 to B2',
+      twitterDescription:
+        'Interactive German reading texts from A1 to B2 for steady practice and exam preparation.',
+      kicker: 'German reading practice',
+      h1: 'Leseverstehen',
+      lead:
+        'Use these German reading texts to practise by level — A1, A2, B1 or B2 — with interactive tasks. A helpful extra resource for Goethe and TELC exam preparation.',
+    },
+    levelMeta(nivel) {
+      return {
+        title: `German texts ${nivel} — Reading practice with exercises | Samuel Coach de Alemán`,
+        description: `Practise German reading at ${nivel} level with interactive true-or-false activities. Suitable for Goethe ${nivel} and TELC ${nivel} preparation.`,
+        keywords: `German texts ${nivel}, reading practice ${nivel}, Goethe ${nivel}, TELC ${nivel}, German exam practice ${nivel}`,
+        h1: `Leseverstehen ${nivel}`,
+        sub: `German texts at ${nivel} level with interactive <em>true-or-false</em> tasks. Ideal extra reading practice for Goethe ${nivel} or TELC ${nivel}.`,
+      };
+    },
+    pageDescription(texto) {
+      return `Interactive German reading text at ${texto.nivel} level: ${texto.titulo}.`;
+    },
   },
 };
 
-// ── Plantillas de nav y footer (p = prefijo de assets, ej. '../../') ─────────
-function makeNav(p) {
+function route(locale, slug = '') {
+  const prefix = LOCALES[locale].localePath;
+  if (!slug) return prefix ? `${prefix}/` : '/';
+  return `${prefix}/${slug}`;
+}
+
+function leseBase(locale) {
+  return route(locale, 'leseverstehen/');
+}
+
+function levelPath(locale, nivel) {
+  return route(locale, `leseverstehen/${nivel.toLowerCase()}/`);
+}
+
+function textPath(locale, texto) {
+  return route(locale, `leseverstehen/${texto.nivel.toLowerCase()}/${texto.slug}/`);
+}
+
+function absolute(urlPath) {
+  return `${BASE_URL}${urlPath}`;
+}
+
+function makeAlternateLinks(pathBuilder) {
+  return `  <link rel="alternate" hreflang="es" href="${absolute(pathBuilder('es'))}">
+  <link rel="alternate" hreflang="de" href="${absolute(pathBuilder('de'))}">
+  <link rel="alternate" hreflang="en" href="${absolute(pathBuilder('en'))}">
+  <link rel="alternate" hreflang="x-default" href="${absolute(pathBuilder('es'))}">`;
+}
+
+function makeLocaleScript(locale) {
+  const content = LOCALES[locale].siteLocaleContent;
+  if (!content) return '';
+  return `  <script>
+    window.siteLocaleContent = ${JSON.stringify(content)};
+  </script>`;
+}
+
+function makeNav(locale) {
+  const copy = LOCALES[locale].nav;
   return `
   <nav>
     <div class="nav-inner">
-      <a class="nav-logo" href="/"><img src="${p}assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260" fetchpriority="high"></a>
-      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" aria-haspopup="true">
+      <a class="nav-logo" href="${route(locale)}"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260" fetchpriority="high"></a>
+      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="${locale === 'es' ? 'Abrir menú' : locale === 'de' ? 'Menü öffnen' : 'Open menu'}" aria-haspopup="true">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="/">Inicio</a></li>
+        <li><a href="${route(locale)}">${copy.home}</a></li>
         <li><a href="https://blog.samuelcoachdealeman.com">Blog</a></li>
-        <li><a href="/sobre-mi">Sobre mí</a></li>
+        <li><a href="${route(locale, 'sobre-mi/')}">${copy.about}</a></li>
         <li class="nav-drop">
-          <a href="/servicios">Servicios</a>
+          <a href="${route(locale, 'servicios/')}">${copy.services}</a>
           <div class="drop-menu">
-            <a href="/servicios#conversacional">Alemán conversacional</a>
-            <a href="/servicios#laboral">Trabajar en Alemania</a>
-            <a href="/servicios#examenes">Preparación de exámenes</a>
-            <a href="/servicios#empresas">Alemán para empresas</a>
-            <a href="/servicios#escolar">Alemán escolar</a>
+            <a href="${route(locale, 'servicios/#conversacional')}">${copy.conversational}</a>
+            <a href="${route(locale, 'servicios/#laboral')}">${copy.work}</a>
+            <a href="${route(locale, 'servicios/#examenes')}">${copy.exams}</a>
+            <a href="${route(locale, 'servicios/#empresas')}">${copy.companies}</a>
+            <a href="${route(locale, 'servicios/#escolar')}">${copy.school}</a>
           </div>
         </li>
-        <li><a href="/metodologia">Metodología</a></li>
-        <li><a href="/#faq">FAQs</a></li>
         <li class="nav-drop">
-          <a href="/practicar-aleman">Mis APPs</a>
+          <a href="${route(locale, 'practicar-aleman/')}">${copy.apps}</a>
           <div class="drop-menu">
-            <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">🔤 Vokabellab</a>
-            <a href="https://derdiedas.vokabellab.com" target="_blank" rel="noopener noreferrer">🇩🇪 Der Die Das</a>
-            <a href="https://imkontext.vokabellab.com" target="_blank" rel="noopener noreferrer">📖 Im Kontext</a>
+            <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">Vokabel Lab</a>
+            <a href="https://derdiedas.vokabellab.com" target="_blank" rel="noopener noreferrer">Der Die Das</a>
+            <a href="https://imkontext.vokabellab.com" target="_blank" rel="noopener noreferrer">Im Kontext</a>
           </div>
         </li>
-        <li><a href="/leseverstehen/">Leseverstehen</a></li>
+        <li><a href="${route(locale, 'recursos/')}">${copy.resources}</a></li>
       </ul>
     </div>
     <div id="mobile-menu" class="mobile-menu" hidden>
-      <a href="/">Inicio</a>
+      <a href="${route(locale)}">${copy.home}</a>
       <a href="https://blog.samuelcoachdealeman.com">Blog</a>
-      <a href="/sobre-mi">Sobre mí</a>
-      <a href="/servicios">Servicios</a>
-      <a href="/servicios#conversacional">Alemán conversacional</a>
-      <a href="/servicios#laboral">Trabajar en Alemania</a>
-      <a href="/servicios#examenes">Preparación de exámenes</a>
-      <a href="/servicios#empresas">Alemán para empresas</a>
-      <a href="/servicios#escolar">Alemán escolar</a>
-      <a href="/metodologia">Metodología</a>
-      <a href="/#faq">FAQs</a>
-      <a href="/practicar-aleman">Mis APPs</a>
-      <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">Vokabellab</a>
+      <a href="${route(locale, 'sobre-mi/')}">${copy.about}</a>
+      <a href="${route(locale, 'servicios/')}">${copy.services}</a>
+      <a href="${route(locale, 'servicios/#conversacional')}">${copy.conversational}</a>
+      <a href="${route(locale, 'servicios/#laboral')}">${copy.work}</a>
+      <a href="${route(locale, 'servicios/#examenes')}">${copy.exams}</a>
+      <a href="${route(locale, 'servicios/#empresas')}">${copy.companies}</a>
+      <a href="${route(locale, 'servicios/#escolar')}">${copy.school}</a>
+      <a href="${route(locale, 'practicar-aleman/')}">${copy.apps}</a>
+      <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">Vokabel Lab</a>
       <a href="https://derdiedas.vokabellab.com" target="_blank" rel="noopener noreferrer">Der Die Das</a>
       <a href="https://imkontext.vokabellab.com" target="_blank" rel="noopener noreferrer">Im Kontext</a>
-      <a href="/leseverstehen/">Leseverstehen</a>
+      <a href="${route(locale, 'recursos/')}">${copy.resources}</a>
     </div>
   </nav>`;
 }
 
-function makeFooter(p) {
+function makeFooter(locale) {
+  const copy = LOCALES[locale].nav;
   return `
   <footer>
     <div class="footer-inner">
       <div class="footer-top">
-        <a class="footer-logo footer-logo-fun" href="/"><img src="${p}assets/img/logo-fun.webp" alt="Logo divertido de Samuel Coach de Alemán" width="180" height="180" loading="lazy" decoding="async"></a>
+        <a class="footer-logo footer-logo-fun" href="${route(locale)}"><img src="/assets/img/logo-fun.webp" alt="Logo divertido de Samuel Coach de Alemán" width="180" height="180" loading="lazy" decoding="async"></a>
         <div class="socials">
           <a href="https://blog.samuelcoachdealeman.com" aria-label="Blog" title="Blog">Blog</a>
           <a href="https://www.instagram.com/samuelcoachdealeman" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">Instagram</a>
           <a href="https://www.facebook.com/samuelcoachdealeman" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">Facebook</a>
-          <a href="/practicar-aleman" aria-label="Apps para practicar alemán" title="Apps para practicar alemán">Apps</a>
+          <a href="${route(locale, 'practicar-aleman/')}" aria-label="${copy.apps}" title="${copy.apps}">Apps</a>
         </div>
         <div class="footer-links">
           <a href="https://blog.samuelcoachdealeman.com">Blog</a>
-          <a href="/sobre-mi">Sobre mí</a>
-          <a href="/servicios">Servicios</a>
-          <a href="/practicar-aleman">Practicar alemán</a>
-          <a href="/#contacto">Contacto</a>
-          <a href="/politica-de-privacidad">Política de privacidad</a>
+          <a href="${route(locale, 'sobre-mi/')}">${copy.about}</a>
+          <a href="${route(locale, 'servicios/')}">${copy.services}</a>
+          <a href="${route(locale, 'metodologia/')}">${copy.methodology}</a>
+          <a href="${route(locale, '#faq')}">${copy.faq}</a>
+          <a href="${route(locale, 'practicar-aleman/')}">${copy.apps}</a>
+          <a href="${route(locale, 'politica-de-privacidad/')}">${copy.privacy}</a>
         </div>
       </div>
       <div class="footer-bottom">
-        Copyright © 2026 Samuel Coach de Alemán · Todos los derechos reservados.
+        Copyright © 2026 Samuel Coach de Alemán · ${copy.rights}
       </div>
     </div>
   </footer>`;
 }
 
-// ── Página de texto individual (/leseverstehen/[nivel]/[slug]/) ───────────────
-function generatePage(texto) {
-  const { slug, nivel, titulo, descripcion } = texto;
-  const p = '../../../';
-  const canonical = `https://www.samuelcoachdealeman.com/leseverstehen/${nivel.toLowerCase()}/${slug}/`;
-  const pageTitle = `${titulo} — Leseverstehen ${nivel} | Samuel Coach de Alemán`;
-
+function pageHead({ locale, title, description, keywords, canonicalPath, ogTitle, schemaType, schemaName, schemaDescription, schemaInLanguage = 'de', alternates }) {
+  const localeMeta = LOCALES[locale];
   return `<!DOCTYPE html>
-<html lang="de">
+<html lang="${localeMeta.htmlLang}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${escapeHtmlText(pageTitle)}</title>
-  <meta name="description" content="${escapeHtmlAttr(descripcion)}">
+  <title>${escapeHtmlText(title)}</title>
+  <meta name="description" content="${escapeHtmlAttr(description)}">
+${keywords ? `  <meta name="keywords" content="${escapeHtmlAttr(keywords)}">\n` : ''}  <link rel="canonical" href="${absolute(canonicalPath)}">
+${alternates}
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-  <link rel="canonical" href="${canonical}">
   <meta name="theme-color" content="#455a64">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="${escapeHtmlAttr(titulo)} — Leseverstehen ${nivel}">
-  <meta property="og:description" content="${escapeHtmlAttr(descripcion)}">
-  <meta property="og:url" content="${canonical}">
-  <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.jpg">
+  <meta property="og:type" content="${schemaType === 'LearningResource' ? 'article' : 'website'}">
+  <meta property="og:title" content="${escapeHtmlAttr(ogTitle || title)}">
+  <meta property="og:description" content="${escapeHtmlAttr(description)}">
+  <meta property="og:url" content="${absolute(canonicalPath)}">
+  <meta property="og:image" content="${BASE_URL}/assets/img/leseverstehen-og.jpg">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="1080">
   <meta property="og:site_name" content="Samuel Coach de Alemán">
-  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale" content="${localeMeta.ogLocale}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${escapeHtmlAttr(titulo)} — Leseverstehen ${nivel}">
-  <meta name="twitter:description" content="${escapeHtmlAttr(descripcion)}">
-  <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.jpg">
+  <meta name="twitter:title" content="${escapeHtmlAttr(ogTitle || title)}">
+  <meta name="twitter:description" content="${escapeHtmlAttr(description)}">
+  <meta name="twitter:image" content="${BASE_URL}/assets/img/leseverstehen-og.jpg">
+${makeLocaleScript(locale)}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LearningResource",
-    "name": ${jsonVal(titulo)},
-    "description": ${jsonVal(descripcion)},
-    "url": ${jsonVal(canonical)},
-    "educationalLevel": ${jsonVal(nivel)},
-    "inLanguage": "de",
-    "learningResourceType": "Reading comprehension exercise",
+    "@type": "${schemaType}",
+    "name": ${jsonVal(schemaName || title)},
+    "description": ${jsonVal(schemaDescription || description)},
+    "url": ${jsonVal(absolute(canonicalPath))},
+    "inLanguage": ${jsonVal(schemaInLanguage)},
     "provider": {
       "@type": "Person",
       "name": "Samuel Coach de Alemán",
@@ -205,82 +401,84 @@ function generatePage(texto) {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
-  <link rel="icon" type="image/webp" href="${p}assets/img/favicon.webp">
-  <link rel="apple-touch-icon" href="${p}assets/img/apple-touch-icon.webp">
+  <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="${p}assets/css/styles.css">
-  <link rel="stylesheet" href="${p}assets/css/cookie-banner-core.css">
-</head>
-<body>
-${makeNav(p)}
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+</head>`;
+}
 
+function generateRootPage(locale) {
+  const copy = LOCALES[locale].root;
+  const canonicalPath = leseBase(locale);
+  return `${pageHead({
+    locale,
+    title: copy.title,
+    description: copy.description,
+    keywords: copy.keywords,
+    canonicalPath,
+    ogTitle: copy.ogTitle,
+    schemaType: 'CollectionPage',
+    schemaName: copy.h1,
+    schemaDescription: copy.description,
+    alternates: makeAlternateLinks((altLocale) => leseBase(altLocale)),
+  })}
+<body>
+${makeNav(locale)}
   <main>
-    <div class="container">
-      <div id="lese-leer-root" class="lese-leer-root"></div>
-    </div>
+    <section class="lese-hero">
+      <div class="container">
+        <span class="lese-hero-kicker">${copy.kicker}</span>
+        <h1>${copy.h1}</h1>
+        <p>${copy.lead}</p>
+      </div>
+    </section>
+
+    <section class="lese-lista">
+      <div class="container">
+        <div id="lese-lista-root"></div>
+      </div>
+    </section>
   </main>
 
-${makeFooter(p)}
+${makeFooter(locale)}
 
-  <script src="${p}assets/js/cookie-banner-core.js" defer></script>
-  <script src="${p}assets/js/main.js" defer></script>
-  <script src="${p}assets/js/leseverstehen-data.js?v=${JS_VERSION}"></script>
-  <script src="${p}assets/js/leseverstehen.js?v=${JS_VERSION}"></script>
+  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script src="/assets/js/cookie-banner-core.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/leseverstehen-data.js?v=${JS_VERSION}"></script>
+  <script src="/assets/js/leseverstehen.js?v=${JS_VERSION}"></script>
   <script>
-    renderLectura(document.getElementById('lese-leer-root'), '${slug}');
+    renderLista(document.getElementById('lese-lista-root'));
   </script>
 </body>
 </html>
 `;
 }
 
-// ── Página de nivel (/leseverstehen/[nivel]/) ────────────────────────────────
-function generateLevelPage(nivel) {
-  const meta = NIVEL_META[nivel];
-  const p = '../../';
-  const canonical = `https://www.samuelcoachdealeman.com/leseverstehen/${nivel.toLowerCase()}/`;
-
-  return `<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${escapeHtmlText(meta.title)}</title>
-  <meta name="description" content="${escapeHtmlAttr(meta.description)}">
-  <meta name="keywords" content="${escapeHtmlAttr(meta.keywords)}">
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-  <link rel="canonical" href="${canonical}">
-  <meta name="theme-color" content="#455a64">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="${escapeHtmlAttr(meta.h1)} — Comprensión lectora con ejercicios">
-  <meta property="og:description" content="${escapeHtmlAttr(meta.description)}">
-  <meta property="og:url" content="${canonical}">
-  <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.jpg">
-  <meta property="og:image:width" content="1080">
-  <meta property="og:image:height" content="1080">
-  <meta property="og:site_name" content="Samuel Coach de Alemán">
-  <meta property="og:locale" content="es_ES">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${escapeHtmlAttr(meta.h1)} — Comprensión lectora con ejercicios">
-  <meta name="twitter:description" content="${escapeHtmlAttr(meta.description)}">
-  <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/leseverstehen-og.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
-  <link rel="icon" type="image/webp" href="${p}assets/img/favicon.webp">
-  <link rel="apple-touch-icon" href="${p}assets/img/apple-touch-icon.webp">
-  <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="${p}assets/css/styles.css">
-  <link rel="stylesheet" href="${p}assets/css/cookie-banner-core.css">
-</head>
+function generateLevelPage(locale, nivel) {
+  const meta = LOCALES[locale].levelMeta(nivel);
+  const canonicalPath = levelPath(locale, nivel);
+  return `${pageHead({
+    locale,
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    canonicalPath,
+    ogTitle: `${meta.h1} | Samuel Coach de Alemán`,
+    schemaType: 'CollectionPage',
+    schemaName: meta.h1,
+    schemaDescription: meta.description,
+    alternates: makeAlternateLinks((altLocale) => levelPath(altLocale, nivel)),
+  })}
 <body>
-${makeNav(p)}
+${makeNav(locale)}
 
   <main>
     <section class="lese-hero">
       <div class="container">
-        <span class="lese-hero-kicker">Comprensión lectora en alemán</span>
+        <span class="lese-hero-kicker">${LOCALES[locale].root.kicker}</span>
         <h1>${escapeHtmlText(meta.h1)}</h1>
         <p>${meta.sub}</p>
       </div>
@@ -293,12 +491,13 @@ ${makeNav(p)}
     </section>
   </main>
 
-${makeFooter(p)}
+${makeFooter(locale)}
 
-  <script src="${p}assets/js/cookie-banner-core.js" defer></script>
-  <script src="${p}assets/js/main.js" defer></script>
-  <script src="${p}assets/js/leseverstehen-data.js?v=${JS_VERSION}"></script>
-  <script src="${p}assets/js/leseverstehen.js?v=${JS_VERSION}"></script>
+  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script src="/assets/js/cookie-banner-core.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/leseverstehen-data.js?v=${JS_VERSION}"></script>
+  <script src="/assets/js/leseverstehen.js?v=${JS_VERSION}"></script>
   <script>
     renderListaNivel(document.getElementById('lese-lista-root'), '${nivel}');
   </script>
@@ -307,68 +506,125 @@ ${makeFooter(p)}
 `;
 }
 
-// ── Generación ───────────────────────────────────────────────────────────────
+function generateTextPage(locale, texto) {
+  const description = LOCALES[locale].pageDescription(texto);
+  const canonicalPath = textPath(locale, texto);
+  const pageTitle = `${texto.titulo} — Leseverstehen ${texto.nivel} | Samuel Coach de Alemán`;
+  return `${pageHead({
+    locale,
+    title: pageTitle,
+    description,
+    canonicalPath,
+    ogTitle: `${texto.titulo} — Leseverstehen ${texto.nivel}`,
+    schemaType: 'LearningResource',
+    schemaName: texto.titulo,
+    schemaDescription: description,
+    schemaInLanguage: 'de',
+    alternates: makeAlternateLinks((altLocale) => textPath(altLocale, texto)),
+  })}
+<body>
+${makeNav(locale)}
+
+  <main>
+    <div class="container">
+      <div id="lese-leer-root" class="lese-leer-root"></div>
+    </div>
+  </main>
+
+${makeFooter(locale)}
+
+  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script src="/assets/js/cookie-banner-core.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/leseverstehen-data.js?v=${JS_VERSION}"></script>
+  <script src="/assets/js/leseverstehen.js?v=${JS_VERSION}"></script>
+  <script>
+    renderLectura(document.getElementById('lese-leer-root'), '${texto.slug}');
+  </script>
+</body>
+</html>
+`;
+}
+
 const root = path.resolve(__dirname, '..');
-
-// 1. Páginas de texto individuales
-TEXTOS.forEach(texto => {
-  const dir = path.join(root, 'leseverstehen', texto.nivel.toLowerCase(), texto.slug);
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), generatePage(texto), 'utf8');
-  console.log(`✓ /leseverstehen/${texto.nivel.toLowerCase()}/${texto.slug}/`);
-});
-
-// 2. Páginas de nivel
 const ORDEN_NIVELES = ['A1', 'A2', 'B1', 'B2'];
-const niveles = ORDEN_NIVELES.filter(n => TEXTOS.some(t => t.nivel === n));
-niveles.forEach(nivel => {
-  if (!NIVEL_META[nivel]) return; // skip niveles sin meta definida
-  const dir = path.join(root, 'leseverstehen', nivel.toLowerCase());
+const niveles = ORDEN_NIVELES.filter((nivel) => TEXTOS.some((texto) => texto.nivel === nivel));
+const locales = ['es', 'de', 'en'];
+
+function outputDirFor(locale, relativePath) {
+  if (locale === 'es') return path.join(root, relativePath);
+  return path.join(root, locale, relativePath);
+}
+
+// 1. Índices principales por idioma
+locales.forEach((locale) => {
+  const dir = outputDirFor(locale, 'leseverstehen');
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), generateLevelPage(nivel), 'utf8');
-  console.log(`✓ /leseverstehen/${nivel.toLowerCase()}/`);
+  fs.writeFileSync(path.join(dir, 'index.html'), generateRootPage(locale), 'utf8');
+  console.log(`✓ ${route(locale, 'leseverstehen/')}`);
 });
 
-console.log(`\n${TEXTOS.length} textos + ${niveles.length} páginas de nivel generadas.`);
+// 2. Páginas por nivel y por texto en los tres idiomas
+locales.forEach((locale) => {
+  niveles.forEach((nivel) => {
+    const levelDir = outputDirFor(locale, path.join('leseverstehen', nivel.toLowerCase()));
+    fs.mkdirSync(levelDir, { recursive: true });
+    fs.writeFileSync(path.join(levelDir, 'index.html'), generateLevelPage(locale, nivel), 'utf8');
+    console.log(`✓ ${levelPath(locale, nivel)}`);
+  });
+
+  TEXTOS.forEach((texto) => {
+    const textDir = outputDirFor(
+      locale,
+      path.join('leseverstehen', texto.nivel.toLowerCase(), texto.slug)
+    );
+    fs.mkdirSync(textDir, { recursive: true });
+    fs.writeFileSync(path.join(textDir, 'index.html'), generateTextPage(locale, texto), 'utf8');
+    console.log(`✓ ${textPath(locale, texto)}`);
+  });
+});
+
+console.log(`\n${TEXTOS.length} textos + ${niveles.length} niveles generados en ${locales.length} idiomas.`);
 
 // 3. Actualizar sitemap.xml
-const base = 'https://www.samuelcoachdealeman.com';
 const sitemapPath = path.join(root, 'sitemap.xml');
 let sitemap = fs.readFileSync(sitemapPath, 'utf8');
-
-// Eliminar bloque anterior si existe (para que el script sea idempotente)
 sitemap = sitemap.replace(/\s*<!-- LESEVERSTEHEN:START -->[\s\S]*?<!-- LESEVERSTEHEN:END -->/g, '');
 
 let block = '\n  <!-- LESEVERSTEHEN:START -->';
 
-block += `
-  <url>
-    <loc>${base}/leseverstehen/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>`;
-
-niveles.forEach(nivel => {
-  if (!NIVEL_META[nivel]) return;
+locales.forEach((locale) => {
   block += `
   <url>
-    <loc>${base}/leseverstehen/${nivel.toLowerCase()}/</loc>
+    <loc>${absolute(leseBase(locale))}</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>${locale === 'es' ? '0.9' : '0.7'}</priority>
   </url>`;
 });
 
-TEXTOS.forEach(texto => {
-  block += `
+niveles.forEach((nivel) => {
+  locales.forEach((locale) => {
+    block += `
   <url>
-    <loc>${base}/leseverstehen/${texto.nivel.toLowerCase()}/${texto.slug}/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>${absolute(levelPath(locale, nivel))}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>${locale === 'es' ? '0.8' : '0.6'}</priority>
   </url>`;
+  });
+});
+
+TEXTOS.forEach((texto) => {
+  locales.forEach((locale) => {
+    block += `
+  <url>
+    <loc>${absolute(textPath(locale, texto))}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>${locale === 'es' ? '0.7' : '0.5'}</priority>
+  </url>`;
+  });
 });
 
 block += '\n  <!-- LESEVERSTEHEN:END -->';
-
 sitemap = sitemap.replace('</urlset>', block + '\n</urlset>');
 fs.writeFileSync(sitemapPath, sitemap, 'utf8');
-console.log(`✓ sitemap.xml: 1 índice + ${niveles.length} niveles + ${TEXTOS.length} textos añadidos.`);
+console.log(`✓ sitemap.xml: rutas de Leseverstehen actualizadas en ${locales.length} idiomas.`);
