@@ -166,6 +166,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.samuelcoachdealeman.com/leseverstehen/b1/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -402,6 +407,56 @@
   </url>
   <url>
     <loc>https://www.samuelcoachdealeman.com/leseverstehen/a1/hobbys-und-freizeit/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/picknick-im-park/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/wochenende-am-see/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/stadtfest-im-sommer/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/reise-nach-hamburg/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/sonntag-bei-oma/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/urlaub-mit-dem-zug/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/deutsches-fruehstueck/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/geburtstag-im-garten/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/besuch-im-freilichtmuseum/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/leseverstehen/a2/ferienjob-im-cafe/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

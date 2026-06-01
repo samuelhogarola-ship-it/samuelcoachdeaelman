@@ -94,8 +94,6 @@ function makeNav(p) {
             <a href="/servicios#escolar">Alemán escolar</a>
           </div>
         </li>
-        <li><a href="/metodologia">Metodología</a></li>
-        <li><a href="/#faq">FAQs</a></li>
         <li class="nav-drop">
           <a href="/practicar-aleman">Mis APPs</a>
           <div class="drop-menu">
@@ -104,7 +102,7 @@ function makeNav(p) {
             <a href="https://imkontext.vokabellab.com" target="_blank" rel="noopener noreferrer">📖 Im Kontext</a>
           </div>
         </li>
-        <li><a href="/leseverstehen/">Leseverstehen</a></li>
+        <li><a href="/recursos/">Recursos</a></li>
       </ul>
     </div>
     <div id="mobile-menu" class="mobile-menu" hidden>
@@ -117,13 +115,11 @@ function makeNav(p) {
       <a href="/servicios#examenes">Preparación de exámenes</a>
       <a href="/servicios#empresas">Alemán para empresas</a>
       <a href="/servicios#escolar">Alemán escolar</a>
-      <a href="/metodologia">Metodología</a>
-      <a href="/#faq">FAQs</a>
       <a href="/practicar-aleman">Mis APPs</a>
       <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">Vokabellab</a>
       <a href="https://derdiedas.vokabellab.com" target="_blank" rel="noopener noreferrer">Der Die Das</a>
       <a href="https://imkontext.vokabellab.com" target="_blank" rel="noopener noreferrer">Im Kontext</a>
-      <a href="/leseverstehen/">Leseverstehen</a>
+      <a href="/recursos/">Recursos</a>
     </div>
   </nav>`;
 }
@@ -144,6 +140,8 @@ function makeFooter(p) {
           <a href="https://blog.samuelcoachdealeman.com">Blog</a>
           <a href="/sobre-mi">Sobre mí</a>
           <a href="/servicios">Servicios</a>
+          <a href="/metodologia">Metodología</a>
+          <a href="/#faq">FAQs</a>
           <a href="/practicar-aleman">Practicar alemán</a>
           <a href="/#contacto">Contacto</a>
           <a href="/politica-de-privacidad">Política de privacidad</a>
@@ -222,6 +220,7 @@ ${makeNav(p)}
 
 ${makeFooter(p)}
 
+  <script defer src="${p}assets/js/google-analytics-core.js"></script>
   <script src="${p}assets/js/cookie-banner-core.js" defer></script>
   <script src="${p}assets/js/main.js" defer></script>
   <script src="${p}assets/js/leseverstehen-data.js?v=${JS_VERSION}"></script>
@@ -295,6 +294,7 @@ ${makeNav(p)}
 
 ${makeFooter(p)}
 
+  <script defer src="${p}assets/js/google-analytics-core.js"></script>
   <script src="${p}assets/js/cookie-banner-core.js" defer></script>
   <script src="${p}assets/js/main.js" defer></script>
   <script src="${p}assets/js/leseverstehen-data.js?v=${JS_VERSION}"></script>
