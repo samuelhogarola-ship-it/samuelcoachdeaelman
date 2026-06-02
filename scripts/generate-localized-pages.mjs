@@ -968,43 +968,49 @@ function renderContactForm(locale) {
                 <div class="offer-form-grid">
                   <label class="form-field is-required">
                     <span>${form.fields.name}</span>
-                    <input type="text" name="name" autocomplete="name" required>
+                    <input type="text" name="name" autocomplete="name" required aria-required="true" aria-invalid="false" aria-describedby="name-error">
+                    <span id="name-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field is-required">
                     <span>${form.fields.email}</span>
-                    <input type="email" name="email" autocomplete="email" required>
+                    <input type="email" name="email" autocomplete="email" required aria-required="true" aria-invalid="false" aria-describedby="email-error">
+                    <span id="email-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field">
                     <span>${form.fields.phone}</span>
-                    <input type="text" name="phone" autocomplete="tel">
+                    <input type="tel" name="phone" autocomplete="tel">
                   </label>
                   <label class="form-field is-required">
                     <span>${form.fields.level}</span>
-                    <select name="current_level" required>
+                    <select name="current_level" required aria-required="true" aria-invalid="false" aria-describedby="current_level-error">
                       <option value="">${form.fields.levelPlaceholder}</option>
 ${optionList(form.options.levels)}
                     </select>
+                    <span id="current_level-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field is-required">
                     <span>${form.fields.service}</span>
-                    <select name="service_interest" required>
+                    <select name="service_interest" required aria-required="true" aria-invalid="false" aria-describedby="service_interest-error">
                       <option value="">${form.fields.servicePlaceholder}</option>
 ${optionList(form.options.services)}
                     </select>
+                    <span id="service_interest-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field is-required">
                     <span>${form.fields.goal}</span>
-                    <select name="goal" required>
+                    <select name="goal" required aria-required="true" aria-invalid="false" aria-describedby="goal-error">
                       <option value="">${form.fields.goalPlaceholder}</option>
 ${optionList(form.options.goals)}
                     </select>
+                    <span id="goal-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field is-required">
                     <span>${form.fields.hours}</span>
-                    <select name="hours_per_week" required>
+                    <select name="hours_per_week" required aria-required="true" aria-invalid="false" aria-describedby="hours_per_week-error">
                       <option value="">${form.fields.hoursPlaceholder}</option>
 ${optionList(form.options.hours)}
                     </select>
+                    <span id="hours_per_week-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field">
                     <span>${form.fields.schedule}</span>
@@ -1017,7 +1023,8 @@ ${optionList(form.options.schedules)}
 
                 <label class="form-field is-required">
                   <span>${form.fields.situation}</span>
-                  <textarea name="situation" rows="5" placeholder="${form.fields.situationPlaceholder}" required></textarea>
+                  <textarea name="situation" rows="5" placeholder="${form.fields.situationPlaceholder}" required aria-required="true" aria-invalid="false" aria-describedby="situation-error"></textarea>
+                  <span id="situation-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                 </label>
 
                 <button type="submit" class="contact-btn cb-email">${form.submit}</button>

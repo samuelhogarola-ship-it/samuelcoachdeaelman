@@ -208,19 +208,21 @@
                 <div class="offer-form-grid">
                   <label class="form-field is-required">
                     <span>Name</span>
-                    <input type="text" name="name" autocomplete="name" required>
+                    <input type="text" name="name" autocomplete="name" required aria-required="true" aria-invalid="false" aria-describedby="name-error">
+                    <span id="name-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field is-required">
                     <span>Email</span>
-                    <input type="email" name="email" autocomplete="email" required>
+                    <input type="email" name="email" autocomplete="email" required aria-required="true" aria-invalid="false" aria-describedby="email-error">
+                    <span id="email-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field">
                     <span>Phone or WhatsApp</span>
-                    <input type="text" name="phone" autocomplete="tel">
+                    <input type="tel" name="phone" autocomplete="tel">
                   </label>
                   <label class="form-field is-required">
                     <span>Current level</span>
-                    <select name="current_level" required>
+                    <select name="current_level" required aria-required="true" aria-invalid="false" aria-describedby="current_level-error">
                       <option value="">Select your level</option>
                       <option>A1</option>
                       <option>A2</option>
@@ -229,10 +231,11 @@
                       <option>C1 or above</option>
                       <option>I am not sure yet</option>
                     </select>
+                    <span id="current_level-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field is-required">
                     <span>Service you are interested in</span>
-                    <select name="service_interest" required>
+                    <select name="service_interest" required aria-required="true" aria-invalid="false" aria-describedby="service_interest-error">
                       <option value="">Choose an option</option>
                       <option>Conversational German</option>
                       <option>Goethe or TELC preparation</option>
@@ -241,10 +244,11 @@
                       <option>School German</option>
                       <option>I am not sure yet</option>
                     </select>
+                    <span id="service_interest-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field is-required">
                     <span>Main goal</span>
-                    <select name="goal" required>
+                    <select name="goal" required aria-required="true" aria-invalid="false" aria-describedby="goal-error">
                       <option value="">Select your goal</option>
                       <option>Speak more fluently</option>
                       <option>Pass an exam</option>
@@ -252,10 +256,11 @@
                       <option>Support school German</option>
                       <option>Improve for personal reasons</option>
                     </select>
+                    <span id="goal-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field is-required">
                     <span>Hours available per week</span>
-                    <select name="hours_per_week" required>
+                    <select name="hours_per_week" required aria-required="true" aria-invalid="false" aria-describedby="hours_per_week-error">
                       <option value="">Select an option</option>
                       <option>1 hour</option>
                       <option>2 hours</option>
@@ -263,6 +268,7 @@
                       <option>4 hours or more</option>
                       <option>I am not sure yet</option>
                     </select>
+                    <span id="hours_per_week-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                   </label>
                   <label class="form-field">
                     <span>Preferred time slot</span>
@@ -279,7 +285,8 @@
 
                 <label class="form-field is-required">
                   <span>Tell me a bit about your situation</span>
-                  <textarea name="situation" rows="5" placeholder="For example: your exam date, whether you are starting from scratch or what is hardest for you right now." required></textarea>
+                  <textarea name="situation" rows="5" placeholder="For example: your exam date, whether you are starting from scratch or what is hardest for you right now." required aria-required="true" aria-invalid="false" aria-describedby="situation-error"></textarea>
+                  <span id="situation-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                 </label>
 
                 <button type="submit" class="contact-btn cb-email">Request information</button>

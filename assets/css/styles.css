@@ -953,6 +953,11 @@ details[open] summary::after { content: "−"; }
   font-size: .88rem;
   color: rgba(255,255,255,.78);
 }
+.field-error {
+  font-size: .8rem;
+  color: #fff3bf;
+  min-height: 1.1em;
+}
 .form-honeypot {
   position: absolute;
   left: -9999px;

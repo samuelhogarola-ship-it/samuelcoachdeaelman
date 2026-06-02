@@ -271,33 +271,59 @@ const initOfferForms = () => {
   const locale = (document.documentElement.lang || "es").slice(0, 2);
   const validationCopy = {
     es: {
-      title: "Por favor, completa estos campos obligatorios:"
+      title: "Por favor, completa estos campos obligatorios:",
+      required: "Este campo es obligatorio.",
+      email: "Introduce un email válido."
     },
     de: {
-      title: "Bitte fülle diese Pflichtfelder aus:"
+      title: "Bitte fülle diese Pflichtfelder aus:",
+      required: "Dieses Feld ist erforderlich.",
+      email: "Bitte gib eine gültige E-Mail-Adresse ein."
     },
     en: {
-      title: "Please complete these required fields:"
+      title: "Please complete these required fields:",
+      required: "This field is required.",
+      email: "Please enter a valid email address."
     }
   };
   const copy = validationCopy[locale] || validationCopy.es;
 
   forms.forEach((form) => {
-    form.addEventListener("submit", (event) => {
-      const requiredFields = Array.from(
-        form.querySelectorAll("input[required], select[required], textarea[required]")
-      );
+    const requiredFields = Array.from(
+      form.querySelectorAll("input[required], select[required], textarea[required]")
+    );
 
-      const missingLabels = requiredFields
-        .filter((field) => {
-          if (field.type === "email") return !field.value.trim() || !field.checkValidity();
-          return !field.value.trim();
-        })
-        .map((field) => {
+    const setFieldError = (field, message) => {
+      const errorId = field.getAttribute("aria-describedby");
+      const errorNode = errorId ? form.querySelector(`#${errorId}`) : null;
+      field.setAttribute("aria-invalid", message ? "true" : "false");
+      if (!errorNode) return;
+      errorNode.textContent = message || "";
+      errorNode.hidden = !message;
+    };
+
+    requiredFields.forEach((field) => {
+      const resetField = () => setFieldError(field, "");
+      field.addEventListener("input", resetField);
+      field.addEventListener("change", resetField);
+    });
+
+    form.addEventListener("submit", (event) => {
+      const missingLabels = [];
+
+      requiredFields.forEach((field) => {
+        const isEmpty = !field.value.trim();
+        const isInvalidEmail = field.type === "email" && !isEmpty && !field.checkValidity();
+        const message = isEmpty ? copy.required : isInvalidEmail ? copy.email : "";
+
+        setFieldError(field, message);
+
+        if (message) {
           const fieldLabel = field.closest(".form-field");
           const text = fieldLabel?.querySelector("span")?.textContent || field.name;
-          return text.replace(/\s*\*$/, "");
-        });
+          missingLabels.push(text.replace(/\s*\*$/, ""));
+        }
+      });
 
       if (!missingLabels.length) return;
 
