@@ -124,6 +124,7 @@
           <div class="hero-btns">
             <a href="/de/servicios/" class="btn btn-white">Angebote ansehen</a>
             <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="#contacto-formulario" class="btn btn-white">Mehr Informationen</a>
           </div>
         </div>
         <div class="hero-photo">
@@ -189,14 +190,118 @@
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="contact" id="contacto">
       <div class="container">
-        <div class="page-cta">
-          <h2>Wenn du Deutsch mit Richtung lernen willst, lass uns sprechen</h2>
-          <p>Schreib mir kurz, wo du stehst und was du erreichen willst. Ich sage dir ehrlich, wie ich dir helfen kann.</p>
-          <div class="hero-btns">
-            <a href="tel:644220965" class="btn btn-white">Anrufen</a>
-            <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <div class="contact-inner">
+          <h2>Persönliche Informationen anfragen</h2>
+          <p>Wenn ich dein Ziel, dein Niveau und deine verfügbare Zeit kenne, kann ich dir viel schneller ein passendes Angebot machen.</p>
+          <div class="contact-grid">
+            <div class="contact-card contact-card-form">
+              <h3 id="contacto-formulario">Persönliche Informationen anfragen</h3>
+              <p class="contact-card-copy">Wenn ich dein Ziel, dein Niveau und deine verfügbare Zeit kenne, kann ich dir viel schneller ein passendes Angebot machen.</p>
+              <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate>
+                <input type="hidden" name="_subject" value="Neue Kontaktanfrage - Samuel Coach de Aleman">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_url" value="https://www.samuelcoachdealeman.com/de/#contacto-formulario">
+                <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+
+                <div class="offer-form-grid">
+                  <label class="form-field is-required">
+                    <span>Name</span>
+                    <input type="text" name="name" autocomplete="name" required aria-required="true" aria-invalid="false" aria-describedby="name-error">
+                    <span id="name-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>E-Mail</span>
+                    <input type="email" name="email" autocomplete="email" required aria-required="true" aria-invalid="false" aria-describedby="email-error">
+                    <span id="email-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field">
+                    <span>Telefon oder WhatsApp</span>
+                    <input type="tel" name="phone" autocomplete="tel">
+                  </label>
+                  <label class="form-field is-required">
+                    <span>Aktuelles Niveau</span>
+                    <select name="current_level" required aria-required="true" aria-invalid="false" aria-describedby="current_level-error">
+                      <option value="">Niveau auswählen</option>
+                      <option>A1</option>
+                      <option>A2</option>
+                      <option>B1</option>
+                      <option>B2</option>
+                      <option>C1 oder höher</option>
+                      <option>Ich weiß es noch nicht</option>
+                    </select>
+                    <span id="current_level-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>Welches Angebot interessiert dich?</span>
+                    <select name="service_interest" required aria-required="true" aria-invalid="false" aria-describedby="service_interest-error">
+                      <option value="">Angebot auswählen</option>
+                      <option>Konversationsdeutsch</option>
+                      <option>Goethe- oder TELC-Vorbereitung</option>
+                      <option>Deutsch für die Arbeit in Deutschland</option>
+                      <option>Deutsch für Unternehmen</option>
+                      <option>Schuldeutsch</option>
+                      <option>Ich bin mir noch nicht sicher</option>
+                    </select>
+                    <span id="service_interest-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>Hauptziel</span>
+                    <select name="goal" required aria-required="true" aria-invalid="false" aria-describedby="goal-error">
+                      <option value="">Ziel auswählen</option>
+                      <option>Flüssiger sprechen</option>
+                      <option>Eine Prüfung bestehen</option>
+                      <option>Mich auf Arbeit in Deutschland vorbereiten</option>
+                      <option>Schuldeutsch stärken</option>
+                      <option>Mich aus persönlichen Gründen verbessern</option>
+                    </select>
+                    <span id="goal-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>Verfügbare Stunden pro Woche</span>
+                    <select name="hours_per_week" required aria-required="true" aria-invalid="false" aria-describedby="hours_per_week-error">
+                      <option value="">Option auswählen</option>
+                      <option>1 Stunde</option>
+                      <option>2 Stunden</option>
+                      <option>3 Stunden</option>
+                      <option>4 Stunden oder mehr</option>
+                      <option>Ich weiß es noch nicht</option>
+                    </select>
+                    <span id="hours_per_week-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field">
+                    <span>Bevorzugte Uhrzeit</span>
+                    <select name="preferred_schedule">
+                      <option value="">Keine Präferenz</option>
+                      <option>Vormittags</option>
+                      <option>Mittags</option>
+                      <option>Nachmittags</option>
+                      <option>Abends</option>
+                      <option>Flexibel</option>
+                    </select>
+                  </label>
+                </div>
+
+                <label class="form-field is-required">
+                  <span>Erzähl mir kurz deine Situation</span>
+                  <textarea name="situation" rows="5" placeholder="Zum Beispiel: Brauchst du Deutsch für eine Prüfung, für die Arbeit oder fängst du gerade erst an?" required aria-required="true" aria-invalid="false" aria-describedby="situation-error"></textarea>
+                  <span id="situation-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                </label>
+
+                <button type="submit" class="contact-btn cb-email">Informationen anfragen</button>
+                <p class="form-note">Beim Absenden erhalte ich deine Anfrage unter samuelcoachdealeman@gmail.com und kann dir gezielter auf dein Niveau, dein Ziel und deine Verfügbarkeit antworten.</p>
+              </form>
+            </div>
+            <div class="contact-card contact-card-direct">
+              <h3>Wenn du lieber direkt sprechen möchtest</h3>
+              <p class="contact-card-copy">Du kannst mich auch anrufen oder per WhatsApp schreiben, wenn du dein Ziel schon klar hast oder lieber direkt Kontakt aufnimmst.</p>
+              <div class="contact-btns">
+                <a href="tel:644220965" class="contact-btn cb-phone">Anrufen · 644 220 965</a>
+                <a href="https://wa.me/34644220965" class="contact-btn cb-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+              <p class="contact-info">Fuengirola, Malaga, Spanien · 100 % Online-Unterricht</p>
+            </div>
           </div>
         </div>
       </div>

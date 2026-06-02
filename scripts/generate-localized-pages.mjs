@@ -43,6 +43,62 @@ const shared = {
       requestAssessment: "Erstgespräch anfragen",
       openApp: "App öffnen"
     },
+    contactForm: {
+      subject: "Neue Kontaktanfrage - Samuel Coach de Aleman",
+      jumpToForm: "Mehr Informationen",
+      title: "Persönliche Informationen anfragen",
+      intro:
+        "Wenn ich dein Ziel, dein Niveau und deine verfügbare Zeit kenne, kann ich dir viel schneller ein passendes Angebot machen.",
+      directTitle: "Wenn du lieber direkt sprechen möchtest",
+      directText:
+        "Du kannst mich auch anrufen oder per WhatsApp schreiben, wenn du dein Ziel schon klar hast oder lieber direkt Kontakt aufnimmst.",
+      locationInfo: "Fuengirola, Malaga, Spanien · 100 % Online-Unterricht",
+      submit: "Informationen anfragen",
+      note:
+        "Beim Absenden erhalte ich deine Anfrage unter samuelcoachdealeman@gmail.com und kann dir gezielter auf dein Niveau, dein Ziel und deine Verfügbarkeit antworten.",
+      fields: {
+        name: "Name",
+        email: "E-Mail",
+        phone: "Telefon oder WhatsApp",
+        level: "Aktuelles Niveau",
+        service: "Welches Angebot interessiert dich?",
+        goal: "Hauptziel",
+        hours: "Verfügbare Stunden pro Woche",
+        schedule: "Bevorzugte Uhrzeit",
+        situation: "Erzähl mir kurz deine Situation",
+        situationPlaceholder:
+          "Zum Beispiel: Brauchst du Deutsch für eine Prüfung, für die Arbeit oder fängst du gerade erst an?",
+        levelPlaceholder: "Niveau auswählen",
+        servicePlaceholder: "Angebot auswählen",
+        goalPlaceholder: "Ziel auswählen",
+        hoursPlaceholder: "Option auswählen",
+        schedulePlaceholder: "Keine Präferenz"
+      },
+      options: {
+        levels: ["A1", "A2", "B1", "B2", "C1 oder höher", "Ich weiß es noch nicht"],
+        services: [
+          "Konversationsdeutsch",
+          "Goethe- oder TELC-Vorbereitung",
+          "Deutsch für die Arbeit in Deutschland",
+          "Deutsch für Unternehmen",
+          "Schuldeutsch",
+          "Ich bin mir noch nicht sicher"
+        ],
+        goals: [
+          "Flüssiger sprechen",
+          "Eine Prüfung bestehen",
+          "Mich auf Arbeit in Deutschland vorbereiten",
+          "Schuldeutsch stärken",
+          "Mich aus persönlichen Gründen verbessern"
+        ],
+        hours: ["1 Stunde", "2 Stunden", "3 Stunden", "4 Stunden oder mehr", "Ich weiß es noch nicht"],
+        schedules: ["Vormittags", "Mittags", "Nachmittags", "Abends", "Flexibel"]
+      },
+      validation: {
+        title: "Bitte fülle die Pflichtfelder aus:",
+        email: "Bitte gib eine gültige E-Mail-Adresse ein."
+      }
+    },
     widget: {
       aria: "Schnellzugriff auf Apps",
       open: "Apps zum Deutschlernen öffnen",
@@ -113,6 +169,62 @@ const shared = {
       learnMore: "Learn more",
       requestAssessment: "Request assessment",
       openApp: "Open app"
+    },
+    contactForm: {
+      subject: "New contact request - Samuel Coach de Aleman",
+      jumpToForm: "More information",
+      title: "Request personalised information",
+      intro:
+        "If I know your level, your goal and how many hours you can dedicate each week, I can reply with a much clearer option from the start.",
+      directTitle: "If you would rather talk directly",
+      directText:
+        "You can also call me or write on WhatsApp if you already know what you need or if you want a faster reply.",
+      locationInfo: "Fuengirola, Malaga, Spain · 100% online lessons",
+      submit: "Request information",
+      note:
+        "When you submit the form, I will receive your enquiry at samuelcoachdealeman@gmail.com and can answer more precisely based on your level, your goal and your availability.",
+      fields: {
+        name: "Name",
+        email: "Email",
+        phone: "Phone or WhatsApp",
+        level: "Current level",
+        service: "Service you are interested in",
+        goal: "Main goal",
+        hours: "Hours available per week",
+        schedule: "Preferred time slot",
+        situation: "Tell me a bit about your situation",
+        situationPlaceholder:
+          "For example: your exam date, whether you are starting from scratch or what is hardest for you right now.",
+        levelPlaceholder: "Select your level",
+        servicePlaceholder: "Choose an option",
+        goalPlaceholder: "Select your goal",
+        hoursPlaceholder: "Select an option",
+        schedulePlaceholder: "No preference"
+      },
+      options: {
+        levels: ["A1", "A2", "B1", "B2", "C1 or above", "I am not sure yet"],
+        services: [
+          "Conversational German",
+          "Goethe or TELC preparation",
+          "German for working in Germany",
+          "German for companies",
+          "School German",
+          "I am not sure yet"
+        ],
+        goals: [
+          "Speak more fluently",
+          "Pass an exam",
+          "Prepare to work in Germany",
+          "Support school German",
+          "Improve for personal reasons"
+        ],
+        hours: ["1 hour", "2 hours", "3 hours", "4 hours or more", "I am not sure yet"],
+        schedules: ["Mornings", "Midday", "Afternoons", "Evenings", "Flexible"]
+      },
+      validation: {
+        title: "Please complete the required fields:",
+        email: "Please enter a valid email address."
+      }
     },
     widget: {
       aria: "Quick access to apps",
@@ -832,6 +944,108 @@ function renderAppsWidget(locale) {
   </div>`;
 }
 
+function renderContactForm(locale) {
+  const form = shared[locale].contactForm;
+  const ctas = shared[locale].ctas;
+  const formUrl = `${absoluteUrl(locale, "")}#contacto-formulario`;
+  const optionList = (items) => items.map((item) => `                      <option>${item}</option>`).join("\n");
+
+  return `    <section class="contact" id="contacto">
+      <div class="container">
+        <div class="contact-inner">
+          <h2>${form.title}</h2>
+          <p>${form.intro}</p>
+          <div class="contact-grid">
+            <div class="contact-card contact-card-form">
+              <h3 id="contacto-formulario">${form.title}</h3>
+              <p class="contact-card-copy">${form.intro}</p>
+              <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate>
+                <input type="hidden" name="_subject" value="${form.subject}">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_url" value="${formUrl}">
+                <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+
+                <div class="offer-form-grid">
+                  <label class="form-field is-required">
+                    <span>${form.fields.name}</span>
+                    <input type="text" name="name" autocomplete="name" required aria-required="true" aria-invalid="false" aria-describedby="name-error">
+                    <span id="name-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>${form.fields.email}</span>
+                    <input type="email" name="email" autocomplete="email" required aria-required="true" aria-invalid="false" aria-describedby="email-error">
+                    <span id="email-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field">
+                    <span>${form.fields.phone}</span>
+                    <input type="tel" name="phone" autocomplete="tel">
+                  </label>
+                  <label class="form-field is-required">
+                    <span>${form.fields.level}</span>
+                    <select name="current_level" required aria-required="true" aria-invalid="false" aria-describedby="current_level-error">
+                      <option value="">${form.fields.levelPlaceholder}</option>
+${optionList(form.options.levels)}
+                    </select>
+                    <span id="current_level-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>${form.fields.service}</span>
+                    <select name="service_interest" required aria-required="true" aria-invalid="false" aria-describedby="service_interest-error">
+                      <option value="">${form.fields.servicePlaceholder}</option>
+${optionList(form.options.services)}
+                    </select>
+                    <span id="service_interest-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>${form.fields.goal}</span>
+                    <select name="goal" required aria-required="true" aria-invalid="false" aria-describedby="goal-error">
+                      <option value="">${form.fields.goalPlaceholder}</option>
+${optionList(form.options.goals)}
+                    </select>
+                    <span id="goal-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>${form.fields.hours}</span>
+                    <select name="hours_per_week" required aria-required="true" aria-invalid="false" aria-describedby="hours_per_week-error">
+                      <option value="">${form.fields.hoursPlaceholder}</option>
+${optionList(form.options.hours)}
+                    </select>
+                    <span id="hours_per_week-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                  </label>
+                  <label class="form-field">
+                    <span>${form.fields.schedule}</span>
+                    <select name="preferred_schedule">
+                      <option value="">${form.fields.schedulePlaceholder}</option>
+${optionList(form.options.schedules)}
+                    </select>
+                  </label>
+                </div>
+
+                <label class="form-field is-required">
+                  <span>${form.fields.situation}</span>
+                  <textarea name="situation" rows="5" placeholder="${form.fields.situationPlaceholder}" required aria-required="true" aria-invalid="false" aria-describedby="situation-error"></textarea>
+                  <span id="situation-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
+                </label>
+
+                <button type="submit" class="contact-btn cb-email">${form.submit}</button>
+                <p class="form-note">${form.note}</p>
+              </form>
+            </div>
+            <div class="contact-card contact-card-direct">
+              <h3>${form.directTitle}</h3>
+              <p class="contact-card-copy">${form.directText}</p>
+              <div class="contact-btns">
+                <a href="tel:644220965" class="contact-btn cb-phone">${ctas.call} · 644 220 965</a>
+                <a href="https://wa.me/34644220965" class="contact-btn cb-wa" target="_blank" rel="noopener noreferrer">${ctas.whatsapp}</a>
+              </div>
+              <p class="contact-info">${form.locationInfo}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>`;
+}
+
 function renderPageSchema(page, locale, title, description) {
   const pathUrl = absoluteUrl(locale, page.slug);
   const data = {
@@ -898,6 +1112,7 @@ function renderHome(locale) {
           <div class="hero-btns">
             <a href="/${locale}/servicios/" class="btn btn-white">${ctas.viewServices}</a>
             <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">${ctas.whatsapp}</a>
+            <a href="#contacto-formulario" class="btn btn-white">${shared[locale].contactForm.jumpToForm}</a>
           </div>
         </div>
         <div class="hero-photo">
@@ -937,18 +1152,7 @@ ${faqs}
       </div>
     </section>
 
-    <section class="page-section">
-      <div class="container">
-        <div class="page-cta">
-          <h2>${text.ctaTitle}</h2>
-          <p>${text.ctaText}</p>
-          <div class="hero-btns">
-            <a href="tel:644220965" class="btn btn-white">${ctas.call}</a>
-            <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">${ctas.whatsapp}</a>
-          </div>
-        </div>
-      </div>
-    </section>
+${renderContactForm(locale)}
   </main>`;
 }
 
