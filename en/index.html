@@ -124,6 +124,7 @@
           <div class="hero-btns">
             <a href="/en/servicios/" class="btn btn-white">View services</a>
             <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="#contacto-formulario" class="btn btn-white">More information</a>
           </div>
         </div>
         <div class="hero-photo">
@@ -189,14 +190,111 @@
       </div>
     </section>
 
-    <section class="page-section">
+    <section class="contact" id="contacto">
       <div class="container">
-        <div class="page-cta">
-          <h2>If you want to learn German with direction, let's talk</h2>
-          <p>Send me a short message about your current level and your goal. I will tell you honestly how I can help.</p>
-          <div class="hero-btns">
-            <a href="tel:644220965" class="btn btn-white">Call</a>
-            <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <div class="contact-inner">
+          <h2>Request personalised information</h2>
+          <p>If I know your level, your goal and how many hours you can dedicate each week, I can reply with a much clearer option from the start.</p>
+          <div class="contact-grid">
+            <div class="contact-card contact-card-form">
+              <h3 id="contacto-formulario">Request personalised information</h3>
+              <p class="contact-card-copy">If I know your level, your goal and how many hours you can dedicate each week, I can reply with a much clearer option from the start.</p>
+              <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate>
+                <input type="hidden" name="_subject" value="New contact request - Samuel Coach de Aleman">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_url" value="https://www.samuelcoachdealeman.com/en/#contacto-formulario">
+                <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+
+                <div class="offer-form-grid">
+                  <label class="form-field is-required">
+                    <span>Name</span>
+                    <input type="text" name="name" autocomplete="name" required>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>Email</span>
+                    <input type="email" name="email" autocomplete="email" required>
+                  </label>
+                  <label class="form-field">
+                    <span>Phone or WhatsApp</span>
+                    <input type="text" name="phone" autocomplete="tel">
+                  </label>
+                  <label class="form-field is-required">
+                    <span>Current level</span>
+                    <select name="current_level" required>
+                      <option value="">Select your level</option>
+                      <option>A1</option>
+                      <option>A2</option>
+                      <option>B1</option>
+                      <option>B2</option>
+                      <option>C1 or above</option>
+                      <option>I am not sure yet</option>
+                    </select>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>Service you are interested in</span>
+                    <select name="service_interest" required>
+                      <option value="">Choose an option</option>
+                      <option>Conversational German</option>
+                      <option>Goethe or TELC preparation</option>
+                      <option>German for working in Germany</option>
+                      <option>German for companies</option>
+                      <option>School German</option>
+                      <option>I am not sure yet</option>
+                    </select>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>Main goal</span>
+                    <select name="goal" required>
+                      <option value="">Select your goal</option>
+                      <option>Speak more fluently</option>
+                      <option>Pass an exam</option>
+                      <option>Prepare to work in Germany</option>
+                      <option>Support school German</option>
+                      <option>Improve for personal reasons</option>
+                    </select>
+                  </label>
+                  <label class="form-field is-required">
+                    <span>Hours available per week</span>
+                    <select name="hours_per_week" required>
+                      <option value="">Select an option</option>
+                      <option>1 hour</option>
+                      <option>2 hours</option>
+                      <option>3 hours</option>
+                      <option>4 hours or more</option>
+                      <option>I am not sure yet</option>
+                    </select>
+                  </label>
+                  <label class="form-field">
+                    <span>Preferred time slot</span>
+                    <select name="preferred_schedule">
+                      <option value="">No preference</option>
+                      <option>Mornings</option>
+                      <option>Midday</option>
+                      <option>Afternoons</option>
+                      <option>Evenings</option>
+                      <option>Flexible</option>
+                    </select>
+                  </label>
+                </div>
+
+                <label class="form-field is-required">
+                  <span>Tell me a bit about your situation</span>
+                  <textarea name="situation" rows="5" placeholder="For example: your exam date, whether you are starting from scratch or what is hardest for you right now." required></textarea>
+                </label>
+
+                <button type="submit" class="contact-btn cb-email">Request information</button>
+                <p class="form-note">When you submit the form, I will receive your enquiry at samuelcoachdealeman@gmail.com and can answer more precisely based on your level, your goal and your availability.</p>
+              </form>
+            </div>
+            <div class="contact-card contact-card-direct">
+              <h3>If you would rather talk directly</h3>
+              <p class="contact-card-copy">You can also call me or write on WhatsApp if you already know what you need or if you want a faster reply.</p>
+              <div class="contact-btns">
+                <a href="tel:644220965" class="contact-btn cb-phone">Call · 644 220 965</a>
+                <a href="https://wa.me/34644220965" class="contact-btn cb-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              </div>
+              <p class="contact-info">Fuengirola, Malaga, Spain · 100% online lessons</p>
+            </div>
           </div>
         </div>
       </div>

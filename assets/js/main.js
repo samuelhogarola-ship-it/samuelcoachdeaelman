@@ -264,6 +264,50 @@ const initCookieBanner = () => {
   });
 };
 
+const initOfferForms = () => {
+  const forms = document.querySelectorAll(".offer-form");
+  if (!forms.length) return;
+
+  const locale = (document.documentElement.lang || "es").slice(0, 2);
+  const validationCopy = {
+    es: {
+      title: "Por favor, completa estos campos obligatorios:"
+    },
+    de: {
+      title: "Bitte fülle diese Pflichtfelder aus:"
+    },
+    en: {
+      title: "Please complete these required fields:"
+    }
+  };
+  const copy = validationCopy[locale] || validationCopy.es;
+
+  forms.forEach((form) => {
+    form.addEventListener("submit", (event) => {
+      const requiredFields = Array.from(
+        form.querySelectorAll("input[required], select[required], textarea[required]")
+      );
+
+      const missingLabels = requiredFields
+        .filter((field) => {
+          if (field.type === "email") return !field.value.trim() || !field.checkValidity();
+          return !field.value.trim();
+        })
+        .map((field) => {
+          const fieldLabel = field.closest(".form-field");
+          const text = fieldLabel?.querySelector("span")?.textContent || field.name;
+          return text.replace(/\s*\*$/, "");
+        });
+
+      if (!missingLabels.length) return;
+
+      event.preventDefault();
+      window.alert(`${copy.title}\n\n- ${missingLabels.join("\n- ")}`);
+    });
+  });
+};
+
 initCookieBanner();
 initAppsWidgetPreference();
 initLocaleSwitcher();
+initOfferForms();
