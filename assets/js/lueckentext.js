@@ -3,8 +3,8 @@ const LUECK_UI = {
     levelLabel: "Nivel",
     homeTitle: "Elige un nivel para practicar",
     homeLead:
-      "Cada texto se convierte en un Sprachbaustein interactivo. La mitad de los textos de cada nivel están en tipo 1 y la otra mitad en tipo 2.",
-    homeHint: "Los ejercicios disponibles aparecen justo debajo, agrupados por nivel.",
+      "Practica Sprachbausteine para Goethe y TELC con textos reales convertidos en ejercicios interactivos. Cada nivel combina ejercicios tipo 1 y tipo 2 para trabajar conectores, vocabulario y estructura en contexto.",
+    homeHint: "Los ejercicios aparecen agrupados por nivel para que entres rápido en A1, A2, B1 o B2.",
     homeModesTitle: "Así funcionan los ejercicios",
     homeLevelsTitle: "Después elige tu nivel",
     homeLevelsLead: "Abre solo el nivel que te interesa y entra directamente al ejercicio que quieras practicar.",
@@ -16,8 +16,8 @@ const LUECK_UI = {
     allTypes: "Todos",
     cardType1: "Tipo 1",
     cardType2: "Tipo 2",
-    cardMode1: "10 huecos con 3 opciones por hueco",
-    cardMode2: "10 huecos + banco de 15 palabras",
+    cardMode1: "Opciones guiadas para completar huecos con apoyo visual y corrección inmediata.",
+    cardMode2: "Banco de palabras con distractores de examen para colocar cada opción en su hueco correcto.",
     openExercise: "Abrir ejercicio →",
     backAll: "← Ver todos los niveles",
     backLevel: (level) => `← Volver a ${level}`,
@@ -45,8 +45,8 @@ const LUECK_UI = {
     levelLabel: "Niveau",
     homeTitle: "Wähle ein Niveau",
     homeLead:
-      "Jeder Text wird zu einem interaktiven Sprachbaustein. Die Hälfte der Texte pro Niveau ist Typ 1, die andere Hälfte Typ 2.",
-    homeHint: "Die verfügbaren Übungen erscheinen direkt darunter, nach Niveau gruppiert.",
+      "Trainiere Sprachbausteine für Goethe und TELC mit echten Texten als interaktive Übungen. Jedes Niveau kombiniert Typ 1 und Typ 2, damit du Konnektoren, Wortschatz und Strukturen im Kontext übst.",
+    homeHint: "Die Übungen sind nach Niveau gebündelt, damit du direkt zu A1, A2, B1 oder B2 springen kannst.",
     homeModesTitle: "So funktionieren die Aufgabentypen",
     homeLevelsTitle: "Danach wählst du dein Niveau",
     homeLevelsLead: "Öffne nur das Niveau, das du gerade brauchst, und geh dann direkt in die passende Übung.",
@@ -58,8 +58,8 @@ const LUECK_UI = {
     allTypes: "Alle",
     cardType1: "Typ 1",
     cardType2: "Typ 2",
-    cardMode1: "10 Lücken mit 3 Optionen pro Lücke",
-    cardMode2: "10 Lücken + Wortbank mit 15 Wörtern",
+    cardMode1: "Geführte Auswahlaufgabe mit klaren Optionen und sofortiger Korrektur direkt am Text.",
+    cardMode2: "Wortbank mit guten Distraktoren, damit du die passende Lösung aktiv jeder Lücke zuordnest.",
     openExercise: "Übung öffnen →",
     backAll: "← Alle Niveaus ansehen",
     backLevel: (level) => `← Zurück zu ${level}`,
@@ -87,8 +87,8 @@ const LUECK_UI = {
     levelLabel: "Level",
     homeTitle: "Choose a level",
     homeLead:
-      "Each text becomes an interactive Sprachbaustein. Half of the texts in each level are type 1 and the other half are type 2.",
-    homeHint: "The available exercises are listed just below, grouped by level.",
+      "Practise Sprachbausteine for Goethe and TELC with real texts turned into interactive tasks. Each level combines type 1 and type 2 so you can train connectors, vocabulary and structure in context.",
+    homeHint: "The exercises are grouped by level so you can jump straight into A1, A2, B1 or B2.",
     homeModesTitle: "How the exercise types work",
     homeLevelsTitle: "Then choose your level",
     homeLevelsLead: "Open only the level you need right now and jump straight to the exercise you want to practise.",
@@ -100,8 +100,8 @@ const LUECK_UI = {
     allTypes: "All",
     cardType1: "Type 1",
     cardType2: "Type 2",
-    cardMode1: "10 blanks with 3 options per blank",
-    cardMode2: "10 blanks + a bank of 15 words",
+    cardMode1: "Guided multiple-choice gap fill with clear support and instant correction.",
+    cardMode2: "Word bank practice with exam-style distractors to place each option in the right gap.",
     openExercise: "Open exercise →",
     backAll: "← View all levels",
     backLevel: (level) => `← Back to ${level}`,
@@ -227,7 +227,7 @@ function renderHome(container) {
     if (!group.length) return "";
 
     return `
-      <details class="lueck-level-block"${level === "A1" ? " open" : ""}>
+      <details class="lueck-level-block">
         <summary class="lueck-level-summary">
           <div class="lueck-level-head">
             <div>
@@ -585,7 +585,7 @@ function renderExercise(container, level, slug) {
 
 function initLueckentext() {
   const container = document.querySelector("#lueck-app");
-  if (!container || !window.LUECKENTEXTE) return;
+  if (!container || typeof LUECKENTEXTE === "undefined") return;
 
   const view = container.dataset.view;
   const level = container.dataset.level;
