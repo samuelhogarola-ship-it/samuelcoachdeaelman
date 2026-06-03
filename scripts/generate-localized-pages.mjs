@@ -540,9 +540,14 @@ const copy = {
       introText:
         "Nicht jede Person braucht denselben Einstieg. Deshalb gibt es hier verschiedene Ressourcen für Lesen, Lücken, Schreiben und Hören.",
       examHub: {
-        title: "Prüfungsweg klarer auswählen",
+        title: "Schnellroute für TELC oder Goethe",
         text:
-          "Wenn du schon weißt, dass du gezielt für Goethe oder TELC trainieren willst, kannst du direkt über eine suchstarke Prüfungsroute einsteigen: zuerst Modalität, dann Niveau, dann passendes Aufgabenformat.",
+          "Wenn dein Ziel schon die Prüfung ist, geh direkt über eine klare Route hinein: zuerst die Fertigkeit, dann dein Niveau und danach das passende Aufgabenformat.",
+        steps: ["1. Fertigkeit", "2. Niveau", "3. Aufgabentyp"],
+        primaryTitle: "Leseverstehen",
+        primaryText: "Prüfungsnahe Lesetexte nach Niveau mit direktem Einstieg in die passende Übung.",
+        secondaryTitle: "Sprachbausteine",
+        secondaryText: "Interaktive Lückentexte mit Typ 1 und Typ 2 für Konnektoren, Wortschatz und Struktur.",
         primaryCta: "Zu Leseverstehen",
         secondaryCta: "Zu Sprachbausteinen"
       },
@@ -768,6 +773,18 @@ const copy = {
       introTitle: "A simpler route for smarter study",
       introText:
         "Not everyone needs the same starting point. That is why this section brings together different resources for reading, gap filling, writing and listening.",
+      examHub: {
+        title: "Fast route for TELC or Goethe",
+        text:
+          "If the exam is already your goal, start through a clearer route: choose the skill first, then your level, and finally the task type that fits.",
+        steps: ["1. Skill", "2. Level", "3. Task type"],
+        primaryTitle: "Leseverstehen",
+        primaryText: "Level-based reading practice with direct access to exam-style comprehension work.",
+        secondaryTitle: "Sprachbausteine",
+        secondaryText: "Interactive gap-fill practice with type 1 and type 2 for connectors, vocabulary and structure.",
+        primaryCta: "Go to Leseverstehen",
+        secondaryCta: "Go to Sprachbausteine"
+      },
       cards: [
         ["1", "Leseverstehen", "German texts with interactive tasks to train reading comprehension by level.", ["A1, A2, B1 and B2", "exam-style reading practice", "suited to TELC and Goethe"], "/leseverstehen/", "Free", "Available"],
         ["2", "Sprachbausteine", "Interactive Sprachbausteine built from real texts with type 1 and type 2 practice.", ["10 blanks per text", "word bank with solid distractors", "suited to TELC and Goethe"], "/en/recursos/lueckentext/", "Available", "Type 1 and Type 2"],
@@ -1480,21 +1497,35 @@ ${cards}
 function renderResources(locale) {
   const text = copy[locale].resources;
   const ctas = shared[locale].ctas;
-  const examHub = locale === "de" && text.examHub
+  const examHubLinks = locale === "de"
+    ? { primary: "/de/pruefungsvorbereitung-telc-goethe/leseverstehen/", secondary: "/de/pruefungsvorbereitung-telc-goethe/sprachbausteine/" }
+    : { primary: "/en/leseverstehen/", secondary: "/en/recursos/lueckentext/" };
+  const examHub = text.examHub
     ? `    <section class="page-section">
       <div class="container">
         <div class="exam-hub-banner">
-          <div>
+          <div class="exam-hub-copy">
             <div class="resource-badge-row">
               <span class="resource-badge resource-badge-guide">TELC · Goethe</span>
-              <span class="resource-badge resource-badge-free">Prüfungsweg</span>
+              <span class="resource-badge resource-badge-free">${text.examHub.steps[0].split(". ")[1] || text.examHub.steps[0]}</span>
             </div>
             <h2>${text.examHub.title}</h2>
             <p>${text.examHub.text}</p>
+            <div class="exam-hub-steps">
+              ${text.examHub.steps.map((step, i, arr) => `<span class="exam-hub-step">${step}</span>${i < arr.length - 1 ? '<span class="exam-hub-step-arrow" aria-hidden="true">→</span>' : ""}`).join("")}
+            </div>
           </div>
-          <div class="hero-btns">
-            <a href="/de/pruefungsvorbereitung-telc-goethe/leseverstehen/" class="btn btn-dark">${text.examHub.primaryCta}</a>
-            <a href="/de/pruefungsvorbereitung-telc-goethe/sprachbausteine/" class="btn btn-outline-teal">${text.examHub.secondaryCta}</a>
+          <div class="exam-hub-actions">
+            <a href="${examHubLinks.primary}" class="exam-hub-link-card" aria-label="${text.examHub.primaryCta}: ${text.examHub.primaryText}">
+              <strong>${text.examHub.primaryTitle}</strong>
+              <span>${text.examHub.primaryText}</span>
+              <em>${text.examHub.primaryCta} →</em>
+            </a>
+            <a href="${examHubLinks.secondary}" class="exam-hub-link-card" aria-label="${text.examHub.secondaryCta}: ${text.examHub.secondaryText}">
+              <strong>${text.examHub.secondaryTitle}</strong>
+              <span>${text.examHub.secondaryText}</span>
+              <em>${text.examHub.secondaryCta} →</em>
+            </a>
           </div>
         </div>
       </div>
