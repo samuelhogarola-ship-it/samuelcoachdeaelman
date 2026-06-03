@@ -4,8 +4,16 @@ const LUECK_UI = {
     homeTitle: "Elige un nivel para practicar",
     homeLead:
       "Cada texto se convierte en un Sprachbaustein interactivo. La mitad de los textos de cada nivel están en tipo 1 y la otra mitad en tipo 2.",
+    homeHint: "Los ejercicios disponibles aparecen justo debajo, agrupados por nivel.",
+    homeModesTitle: "Así funcionan los ejercicios",
+    homeLevelsTitle: "Después elige tu nivel",
+    homeLevelsLead: "Abre solo el nivel que te interesa y entra directamente al ejercicio que quieras practicar.",
     levelLead: (level) =>
       `Ejercicios de huecos nivel ${level} con corrección inmediata y distractores de calidad.`,
+    levelCount: (count) => `${count} ejercicios disponibles`,
+    openLevel: (level) => `Ver página ${level}`,
+    typeFilterTitle: "Elige el formato",
+    allTypes: "Todos",
     cardType1: "Tipo 1",
     cardType2: "Tipo 2",
     cardMode1: "10 huecos con 3 opciones por hueco",
@@ -38,8 +46,16 @@ const LUECK_UI = {
     homeTitle: "Wähle ein Niveau",
     homeLead:
       "Jeder Text wird zu einem interaktiven Sprachbaustein. Die Hälfte der Texte pro Niveau ist Typ 1, die andere Hälfte Typ 2.",
+    homeHint: "Die verfügbaren Übungen erscheinen direkt darunter, nach Niveau gruppiert.",
+    homeModesTitle: "So funktionieren die Aufgabentypen",
+    homeLevelsTitle: "Danach wählst du dein Niveau",
+    homeLevelsLead: "Öffne nur das Niveau, das du gerade brauchst, und geh dann direkt in die passende Übung.",
     levelLead: (level) =>
-      `Lückentext-Aufgaben auf Niveau ${level} mit sofortiger Korrektur und guten Distraktoren.`,
+      `Sprachbausteine auf Niveau ${level} mit sofortiger Korrektur und guten Distraktoren.`,
+    levelCount: (count) => `${count} verfügbare Übungen`,
+    openLevel: (level) => `Zur ${level}-Seite`,
+    typeFilterTitle: "Wähle das Format",
+    allTypes: "Alle",
     cardType1: "Typ 1",
     cardType2: "Typ 2",
     cardMode1: "10 Lücken mit 3 Optionen pro Lücke",
@@ -72,8 +88,16 @@ const LUECK_UI = {
     homeTitle: "Choose a level",
     homeLead:
       "Each text becomes an interactive Sprachbaustein. Half of the texts in each level are type 1 and the other half are type 2.",
+    homeHint: "The available exercises are listed just below, grouped by level.",
+    homeModesTitle: "How the exercise types work",
+    homeLevelsTitle: "Then choose your level",
+    homeLevelsLead: "Open only the level you need right now and jump straight to the exercise you want to practise.",
     levelLead: (level) =>
       `Gap-fill exercises at ${level} level with instant correction and solid distractors.`,
+    levelCount: (count) => `${count} exercises available`,
+    openLevel: (level) => `Open ${level} page`,
+    typeFilterTitle: "Choose the format",
+    allTypes: "All",
     cardType1: "Type 1",
     cardType2: "Type 2",
     cardMode1: "10 blanks with 3 options per blank",
@@ -146,13 +170,17 @@ function renderExerciseText(exercise, state, checked) {
     <p>${paragraph.map((segment) => {
       if (segment.type === "text") return escapeHtml(segment.value);
       const placed = state.placements?.[segment.id];
+      const selectedOption = state.selections?.[segment.id];
       const selected = state.selectedBlankId === segment.id;
       const resultClass = checked
         ? (state.results?.[segment.id] ? " is-correct" : " is-wrong")
         : "";
-      const blankLabel = exercise.tipo === "type2" && placed
-        ? `${segment.id}. ${placed.text}`
-        : `${segment.id}`;
+      let blankLabel = `${segment.id}`;
+      if (exercise.tipo === "type2" && placed) {
+        blankLabel = `${segment.id}. ${placed.text}`;
+      } else if (exercise.tipo === "type1" && selectedOption) {
+        blankLabel = `${segment.id}. ${selectedOption}`;
+      }
       return `<button class="lueck-blank${selected ? " is-selected" : ""}${resultClass}${placed ? " is-filled" : ""}" type="button" data-blank-id="${segment.id}"><span>${blankLabel}</span></button>`;
     }).join("")}</p>
   `).join("");
@@ -174,21 +202,49 @@ function renderCards(exercises) {
 function renderHome(container) {
   const ui = getLueckUi();
   const levels = ["A1", "A2", "B1", "B2"];
+  const modeSection = `
+    <section class="lueck-home-layout">
+      <div class="lueck-home-info">
+        <h3>${ui.homeModesTitle}</h3>
+        <div class="lueck-mode-grid">
+          <article class="lueck-mode-card">
+            <span class="lueck-mode-kicker">${ui.typeLabel.type1}</span>
+            <p>${ui.cardMode1}</p>
+          </article>
+          <article class="lueck-mode-card">
+            <span class="lueck-mode-kicker">${ui.typeLabel.type2}</span>
+            <p>${ui.cardMode2}</p>
+          </article>
+        </div>
+      </div>
+      <figure class="lueck-home-media">
+        <img src="/assets/img/resources-exam-hero.webp" alt="Material de estudio para practicar alemán con ejercicios interactivos" width="1024" height="1024" loading="lazy">
+      </figure>
+    </section>
+  `;
   const html = levels.map((level) => {
     const group = getExercises().filter((exercise) => exercise.nivel === level);
     if (!group.length) return "";
 
     return `
-      <section class="lueck-level-block">
-        <div class="lueck-level-head">
-          <div>
-            <span class="lueck-level-kicker">${ui.levelLabel}</span>
-            <h2><a href="${buildLueckUrl(`${level.toLowerCase()}/`)}">${level}</a></h2>
+      <details class="lueck-level-block"${level === "A1" ? " open" : ""}>
+        <summary class="lueck-level-summary">
+          <div class="lueck-level-head">
+            <div>
+              <span class="lueck-level-kicker">${ui.levelLabel}</span>
+              <h2>${level}</h2>
+              <p class="lueck-level-count">${ui.levelCount(group.length)}</p>
+            </div>
+            <p>${ui.levelLead(level)}</p>
           </div>
-          <p>${ui.levelLead(level)}</p>
+        </summary>
+        <div class="lueck-level-panel">
+          <div class="app-link-row lueck-level-actions">
+            <a href="${buildLueckUrl(`${level.toLowerCase()}/`)}" class="btn btn-outline-teal">${ui.openLevel(level)}</a>
+          </div>
+          <div class="lese-grid">${renderCards(group)}</div>
         </div>
-        <div class="lese-grid">${renderCards(group)}</div>
-      </section>
+      </details>
     `;
   }).join("");
 
@@ -196,6 +252,12 @@ function renderHome(container) {
     <section class="content-narrow lueck-copy-block">
       <h2>${ui.homeTitle}</h2>
       <p>${ui.homeLead}</p>
+      <p class="lueck-home-hint">${ui.homeHint}</p>
+    </section>
+    ${modeSection}
+    <section class="content-narrow lueck-copy-block">
+      <h2>${ui.homeLevelsTitle}</h2>
+      <p>${ui.homeLevelsLead}</p>
     </section>
     ${html}
   `;
@@ -204,17 +266,51 @@ function renderHome(container) {
 function renderLevel(container, level) {
   const ui = getLueckUi();
   const group = getExercises().filter((exercise) => exercise.nivel === level);
+  const counts = {
+    all: group.length,
+    type1: group.filter((exercise) => exercise.tipo === "type1").length,
+    type2: group.filter((exercise) => exercise.tipo === "type2").length,
+  };
+  const state = {
+    activeType: "all",
+  };
 
-  container.innerHTML = `
-    <section class="content-narrow lueck-copy-block">
-      <h2>${ui.levelLabel} ${level}</h2>
-      <p>${ui.levelLead(level)}</p>
-    </section>
-    <div class="lese-grid">${renderCards(group)}</div>
-    <div class="lese-back">
-      <a href="${buildLueckUrl()}" class="lese-volver">${ui.backAll}</a>
-    </div>
-  `;
+  const render = () => {
+    const visible = state.activeType === "all"
+      ? group
+      : group.filter((exercise) => exercise.tipo === state.activeType);
+
+    container.innerHTML = `
+      <section class="content-narrow lueck-copy-block">
+        <h2>${ui.levelLabel} ${level}</h2>
+        <p>${ui.levelLead(level)}</p>
+      </section>
+      <section class="lueck-type-filter">
+        <div class="lueck-type-filter-head">
+          <h3>${ui.typeFilterTitle}</h3>
+          <p class="lueck-level-count">${ui.levelCount(visible.length)}</p>
+        </div>
+        <div class="lueck-type-filter-row">
+          <button class="lueck-type-chip${state.activeType === "all" ? " is-active" : ""}" type="button" data-level-filter="all">${ui.allTypes} (${counts.all})</button>
+          <button class="lueck-type-chip${state.activeType === "type1" ? " is-active" : ""}" type="button" data-level-filter="type1">${ui.typeLabel.type1} (${counts.type1})</button>
+          <button class="lueck-type-chip${state.activeType === "type2" ? " is-active" : ""}" type="button" data-level-filter="type2">${ui.typeLabel.type2} (${counts.type2})</button>
+        </div>
+      </section>
+      <div class="lese-grid">${renderCards(visible)}</div>
+      <div class="lese-back">
+        <a href="${buildLueckUrl()}" class="lese-volver">${ui.backAll}</a>
+      </div>
+    `;
+
+    container.querySelectorAll("[data-level-filter]").forEach((button) => {
+      button.addEventListener("click", () => {
+        state.activeType = button.dataset.levelFilter || "all";
+        render();
+      });
+    });
+  };
+
+  render();
 }
 
 function renderType1Options(exercise, state, checked) {

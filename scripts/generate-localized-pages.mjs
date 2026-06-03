@@ -4,6 +4,7 @@ import path from "path";
 const rootDir = process.cwd();
 const baseUrl = "https://www.samuelcoachdealeman.com";
 const locales = ["de", "en"];
+const examLevels = ["A1", "A2", "B1", "B2"];
 const localeOg = {
   es: "es_ES",
   de: "de_DE",
@@ -341,6 +342,54 @@ const pages = [
     schemaType: "WebPage"
   },
   {
+    key: "examPrepHub",
+    slug: "pruefungsvorbereitung-telc-goethe/",
+    changefreq: "weekly",
+    priority: "0.85",
+    schemaType: "CollectionPage",
+    locales: ["de"]
+  },
+  {
+    key: "examPrepMode",
+    slug: "pruefungsvorbereitung-telc-goethe/leseverstehen/",
+    changefreq: "weekly",
+    priority: "0.82",
+    schemaType: "CollectionPage",
+    locales: ["de"],
+    resource: "leseverstehen"
+  },
+  {
+    key: "examPrepMode",
+    slug: "pruefungsvorbereitung-telc-goethe/sprachbausteine/",
+    changefreq: "weekly",
+    priority: "0.82",
+    schemaType: "CollectionPage",
+    locales: ["de"],
+    resource: "sprachbausteine"
+  },
+  ...examLevels.flatMap((level) => ([
+    {
+      key: "examPrepLevel",
+      slug: `pruefungsvorbereitung-telc-goethe/leseverstehen/${level.toLowerCase()}/`,
+      changefreq: "weekly",
+      priority: "0.78",
+      schemaType: "WebPage",
+      locales: ["de"],
+      resource: "leseverstehen",
+      level
+    },
+    {
+      key: "examPrepLevel",
+      slug: `pruefungsvorbereitung-telc-goethe/sprachbausteine/${level.toLowerCase()}/`,
+      changefreq: "weekly",
+      priority: "0.78",
+      schemaType: "WebPage",
+      locales: ["de"],
+      resource: "sprachbausteine",
+      level
+    }
+  ])),
+  {
     key: "privacy",
     slug: "politica-de-privacidad/",
     sourceFile: "politica-de-privacidad/index.html",
@@ -480,7 +529,7 @@ const copy = {
     resources: {
       title: "Ressourcen für TELC und Goethe",
       description:
-        "Ressourcen für die Vorbereitung auf TELC und Goethe: Leseverstehen, Lückentext, Schreiben mit Feedback und Hörverstehen.",
+        "Ressourcen für die Vorbereitung auf TELC und Goethe: Leseverstehen, Sprachbausteine, Schreiben mit Feedback und Hörverstehen.",
       ogTitle: "Ressourcen für TELC und Goethe",
       ogDescription:
         "Eine Bibliothek mit klaren Ressourcen für die Vorbereitung auf Deutschprüfungen.",
@@ -490,9 +539,16 @@ const copy = {
       introTitle: "Einfacher lernen mit klaren Bausteinen",
       introText:
         "Nicht jede Person braucht denselben Einstieg. Deshalb gibt es hier verschiedene Ressourcen für Lesen, Lücken, Schreiben und Hören.",
+      examHub: {
+        title: "Prüfungsweg klarer auswählen",
+        text:
+          "Wenn du schon weißt, dass du gezielt für Goethe oder TELC trainieren willst, kannst du direkt über eine suchstarke Prüfungsroute einsteigen: zuerst Modalität, dann Niveau, dann passendes Aufgabenformat.",
+        primaryCta: "Zu Leseverstehen",
+        secondaryCta: "Zu Sprachbausteinen"
+      },
       cards: [
         ["1", "Leseverstehen", "Texte auf Deutsch mit interaktiven Aufgaben, damit du Lesekompetenz nach Niveau trainieren kannst.", ["A1, A2, B1 und B2", "prüfungsnahe Leseübungen", "geeignet für TELC und Goethe"], "/leseverstehen/", "Kostenlos", "Verfügbar"],
-        ["2", "Lückentext", "Interaktive Sprachbausteine auf Basis realer Texte mit Typ 1 und Typ 2.", ["10 Lücken pro Text", "Wortbank mit guten Distraktoren", "geeignet für TELC und Goethe"], "/de/recursos/lueckentext/", "Verfügbar", "Typ 1 und Typ 2"],
+        ["2", "Sprachbausteine", "Interaktive Sprachbausteine auf Basis realer Texte mit Typ 1 und Typ 2.", ["10 Lücken pro Text", "Wortbank mit guten Distraktoren", "geeignet für TELC und Goethe"], "/de/recursos/lueckentext/", "Verfügbar", "Typ 1 und Typ 2"],
         ["3", "Schreiben", "Reale Schreibaufgaben mit schnellem Feedback. Die Erfahrung wird von KI begleitet, die von Samuel trainiert wurde.", ["reale Aufgabenformate", "sofortiges Feedback", "Premium-Ressource"], "/de/recursos/schreiben/", "Nur Premium", ""],
         ["4", "Hörverstehen", "Eine künftige Ressource für gezieltes Hörtraining und besseres Verstehen im echten Sprachtempo.", ["Training nach Niveau", "nützlich für Alltag und Prüfung", "bald verfügbar"], "/de/recursos/hoerverstehen/", "Coming soon", ""]
       ],
@@ -500,13 +556,13 @@ const copy = {
       ctaText: "Wenn du nicht weißt, welche Ressource für dich jetzt am meisten Sinn macht, helfe ich dir bei der Auswahl."
     },
     lueckentext: {
-      title: "Lückentext | Ressource für Deutschprüfungen",
+      title: "Sprachbausteine | Ressource für Deutschprüfungen",
       description:
-        "Lückentext als Ressource für Deutschprüfungen: Wortschatz, Konnektoren und Strukturen im Kontext trainieren.",
-      ogTitle: "Lückentext | Ressource für Deutschprüfungen",
+        "Sprachbausteine als Ressource für Deutschprüfungen: Wortschatz, Konnektoren und Strukturen im Kontext trainieren.",
+      ogTitle: "Sprachbausteine | Ressource für Deutschprüfungen",
       ogDescription:
-        "Trainiere Wortschatz, Konnektoren und Strukturen mit gezielten Lückentext-Aufgaben.",
-      heroTitle: "Lückentext",
+        "Trainiere Wortschatz, Konnektoren und Strukturen mit gezielten Sprachbausteine-Aufgaben.",
+      heroTitle: "Sprachbausteine",
       heroText:
         "Diese Ressource ist für Lernende gedacht, die bereits lesen können, aber beim Ergänzen noch unsicher sind. Der Übungskern bleibt auf Deutsch.",
       bullets: [
@@ -714,7 +770,7 @@ const copy = {
         "Not everyone needs the same starting point. That is why this section brings together different resources for reading, gap filling, writing and listening.",
       cards: [
         ["1", "Leseverstehen", "German texts with interactive tasks to train reading comprehension by level.", ["A1, A2, B1 and B2", "exam-style reading practice", "suited to TELC and Goethe"], "/leseverstehen/", "Free", "Available"],
-        ["2", "Lueckentext", "Interactive Sprachbausteine built from real texts with type 1 and type 2 practice.", ["10 blanks per text", "word bank with solid distractors", "suited to TELC and Goethe"], "/en/recursos/lueckentext/", "Available", "Type 1 and Type 2"],
+        ["2", "Sprachbausteine", "Interactive Sprachbausteine built from real texts with type 1 and type 2 practice.", ["10 blanks per text", "word bank with solid distractors", "suited to TELC and Goethe"], "/en/recursos/lueckentext/", "Available", "Type 1 and Type 2"],
         ["3", "Writing", "Real writing tasks with fast feedback. The experience is guided by AI trained by Samuel.", ["real task formats", "immediate feedback", "premium resource"], "/en/recursos/schreiben/", "Premium only", ""],
         ["4", "Listening", "A future resource focused on listening skills, information tracking and real German pace.", ["level-based training", "useful for everyday use and exams", "coming soon"], "/en/recursos/hoerverstehen/", "Coming soon", ""]
       ],
@@ -722,13 +778,13 @@ const copy = {
       ctaText: "If you are unsure which resource fits your level and goal, I can point you in the right direction."
     },
     lueckentext: {
-      title: "Lueckentext | Resource for German Exam Preparation",
+      title: "Sprachbausteine | Resource for German Exam Preparation",
       description:
-        "Gap-fill practice resource for German exams: train vocabulary, connectors and structures in context.",
-      ogTitle: "Lueckentext | Resource for German Exam Preparation",
+        "Sprachbausteine resource for German exams: train vocabulary, connectors and structures in context.",
+      ogTitle: "Sprachbausteine | Resource for German Exam Preparation",
       ogDescription:
         "Train vocabulary, connectors and structure through focused gap-fill tasks.",
-      heroTitle: "Lueckentext",
+      heroTitle: "Sprachbausteine",
       heroText:
         "This resource is designed for learners who can already read but still feel unsure when completing a text. The exercise core remains in German.",
       bullets: [
@@ -1047,6 +1103,65 @@ ${optionList(form.options.schedules)}
 }
 
 function renderPageSchema(page, locale, title, description) {
+  if (isExamPrepPage(page)) {
+    const breadcrumbs = [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: shared[locale].nav.home,
+        item: absoluteUrl(locale, "")
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Prüfungsvorbereitung TELC / Goethe",
+        item: absoluteUrl("de", "pruefungsvorbereitung-telc-goethe/")
+      }
+    ];
+
+    if (page.key === "examPrepMode" || page.key === "examPrepLevel") {
+      breadcrumbs.push({
+        "@type": "ListItem",
+        position: 3,
+        name: examPrepResourceLabel(page.resource),
+        item: absoluteUrl("de", `pruefungsvorbereitung-telc-goethe/${page.resource}/`)
+      });
+    }
+
+    if (page.key === "examPrepLevel") {
+      breadcrumbs.push({
+        "@type": "ListItem",
+        position: 4,
+        name: `${page.level} ${examPrepResourceLabel(page.resource)}`,
+        item: absoluteUrl("de", page.slug)
+      });
+    }
+
+    const schema = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          itemListElement: breadcrumbs
+        },
+        {
+          "@type": page.schemaType,
+          name: title,
+          url: absoluteUrl(locale, page.slug),
+          description,
+          inLanguage: locale,
+          about: [
+            "TELC",
+            "Goethe",
+            examPrepResourceLabel(page.resource || "leseverstehen")
+          ]
+        }
+      ]
+    };
+
+    return `  <script type="application/ld+json">\n${JSON.stringify(schema, null, 2)}\n  </script>`;
+  }
+
   const pathUrl = absoluteUrl(locale, page.slug);
   const data = {
     "@context": "https://schema.org",
@@ -1365,6 +1480,26 @@ ${cards}
 function renderResources(locale) {
   const text = copy[locale].resources;
   const ctas = shared[locale].ctas;
+  const examHub = locale === "de" && text.examHub
+    ? `    <section class="page-section">
+      <div class="container">
+        <div class="exam-hub-banner">
+          <div>
+            <div class="resource-badge-row">
+              <span class="resource-badge resource-badge-guide">TELC · Goethe</span>
+              <span class="resource-badge resource-badge-free">Prüfungsweg</span>
+            </div>
+            <h2>${text.examHub.title}</h2>
+            <p>${text.examHub.text}</p>
+          </div>
+          <div class="hero-btns">
+            <a href="/de/pruefungsvorbereitung-telc-goethe/leseverstehen/" class="btn btn-dark">${text.examHub.primaryCta}</a>
+            <a href="/de/pruefungsvorbereitung-telc-goethe/sprachbausteine/" class="btn btn-outline-teal">${text.examHub.secondaryCta}</a>
+          </div>
+        </div>
+      </div>
+    </section>`
+    : "";
   const cards = text.cards
     .map(([num, title, body, bullets, link, badgeA, badgeB]) => {
       const badges = [badgeA, badgeB]
@@ -1409,6 +1544,7 @@ ${list}
         <p>${text.introText}</p>
       </div>
     </section>
+${examHub}
     <section class="page-section alt">
       <div class="container resource-grid">
 ${cards}
@@ -1422,6 +1558,237 @@ ${cards}
           <div class="hero-btns">
             <a href="/${locale}/servicios/" class="btn btn-white">${ctas.viewServices}</a>
             <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">${ctas.whatsapp}</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>`;
+}
+
+function examPrepResourceLabel(resource) {
+  return resource === "leseverstehen" ? "Leseverstehen" : "Sprachbausteine";
+}
+
+function examPrepResourceDescription(resource) {
+  if (resource === "leseverstehen") {
+    return "Trainiere deutsches Leseverstehen mit klaren, prüfungsnahen Texten und einer Progression nach Niveau.";
+  }
+  return "Übe Sprachbausteine im Kontext mit interaktiven Lückentexten, guten Distraktoren und zwei praxistauglichen Formaten.";
+}
+
+function examPrepResourcePath(resource) {
+  return resource === "leseverstehen"
+    ? "/de/pruefungsvorbereitung-telc-goethe/leseverstehen/"
+    : "/de/pruefungsvorbereitung-telc-goethe/sprachbausteine/";
+}
+
+function examPrepLevelPath(resource, level) {
+  return `/de/pruefungsvorbereitung-telc-goethe/${resource}/${level.toLowerCase()}/`;
+}
+
+function examPrepModeResourceLink(resource, level) {
+  return resource === "leseverstehen"
+    ? `/de/leseverstehen/${level.toLowerCase()}/`
+    : `/de/recursos/lueckentext/${level.toLowerCase()}/`;
+}
+
+function renderExamPrepHub() {
+  return `  <main>
+    <section class="page-hero resources-hero exam-prep-hero">
+      <div class="page-hero-inner resources-hero-inner">
+        <div class="resources-hero-copy">
+          <div class="resource-badge-row">
+            <span class="resource-badge resource-badge-guide">TELC · Goethe</span>
+            <span class="resource-badge resource-badge-free">Prüfungsvorbereitung</span>
+          </div>
+          <h1>Prüfungsvorbereitung TELC / Goethe</h1>
+          <p>Wähle zuerst die passende Modalität und geh dann über dein Niveau direkt in die richtige Übungsform. So wird der Weg zur Prüfung klarer, einfacher und suchbarer.</p>
+        </div>
+        <figure class="resources-hero-media">
+          <img src="/assets/img/resources-exam-hero.webp" alt="Material für die Vorbereitung auf TELC und Goethe" width="1024" height="1024" loading="eager" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+    <section class="page-section">
+      <div class="container content-narrow">
+        <h2>Wähle deine Modalität</h2>
+        <p>Du kannst direkt mit Leseverstehen oder mit Sprachbausteinen einsteigen. Auf der nächsten Seite wählst du dein Niveau und bekommst dann die passende Route zu den Übungen.</p>
+      </div>
+    </section>
+    <section class="page-section alt">
+      <div class="container exam-path-grid">
+        <article class="exam-path-card">
+          <div class="resource-badge-row">
+            <span class="resource-badge resource-badge-guide">Modalität 1</span>
+            <span class="resource-badge resource-badge-free">Verfügbar</span>
+          </div>
+          <h3>Leseverstehen Goethe / TELC Prüfungsvorbereitung</h3>
+          <p>${examPrepResourceDescription("leseverstehen")}</p>
+          <ul class="resource-link-list">
+            <li>prüfungsnahe Texte nach Niveau</li>
+            <li>direkte Auswahl von A1 bis B2</li>
+            <li>klarer Einstieg für Goethe und TELC</li>
+          </ul>
+          <div class="hero-btns">
+            <a href="${examPrepResourcePath("leseverstehen")}" class="btn btn-dark">Modalität wählen</a>
+          </div>
+        </article>
+        <article class="exam-path-card">
+          <div class="resource-badge-row">
+            <span class="resource-badge resource-badge-guide">Modalität 2</span>
+            <span class="resource-badge resource-badge-free">Verfügbar</span>
+          </div>
+          <h3>Sprachbausteine Goethe / TELC Prüfungsvorbereitung</h3>
+          <p>${examPrepResourceDescription("sprachbausteine")}</p>
+          <ul class="resource-link-list">
+            <li>Typ 1 und Typ 2 in derselben Lernroute</li>
+            <li>gute Distraktoren und sofortige Korrektur</li>
+            <li>direkter Zugang pro Niveau</li>
+          </ul>
+          <div class="hero-btns">
+            <a href="${examPrepResourcePath("sprachbausteine")}" class="btn btn-outline-teal">Modalität wählen</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>`;
+}
+
+function renderExamPrepMode(page) {
+  const label = examPrepResourceLabel(page.resource);
+  const levels = examLevels.map((level) => `
+        <article class="exam-level-card">
+          <div class="resource-card-top">
+            <div><div class="resource-card-number">${level}</div></div>
+            <div class="resource-badge-row"><span class="resource-badge resource-badge-guide">Niveau</span></div>
+          </div>
+          <h3>${level} ${label}</h3>
+          <p>Öffne die Prüfungsroute für ${level} und wähle dort das passende Aufgabenformat.</p>
+          <div class="app-link-row">
+            <a href="${examPrepLevelPath(page.resource, level)}" class="btn btn-dark">Niveau wählen</a>
+          </div>
+        </article>
+  `).join("\n");
+
+  return `  <main>
+    <section class="page-hero resources-hero exam-prep-hero">
+      <div class="page-hero-inner resources-hero-inner">
+        <div class="resources-hero-copy">
+          <div class="resource-badge-row">
+            <span class="resource-badge resource-badge-guide">Prüfungsroute</span>
+            <span class="resource-badge resource-badge-free">${label}</span>
+          </div>
+          <h1>${label} für Goethe und TELC</h1>
+          <p>Wähle dein Niveau und geh dann direkt in die passende Vorbereitung für ${label}. So landet man schneller bei genau der Übung, die zur Prüfung passt.</p>
+        </div>
+        <figure class="resources-hero-media">
+          <img src="/assets/img/resources-exam-hero.webp" alt="Prüfungsvorbereitung für ${label}" width="1024" height="1024" loading="eager" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+    <section class="page-section">
+      <div class="container content-narrow">
+        <h2>Niveau wählen</h2>
+        <p>Jedes Niveau bekommt eine eigene Seite mit direktem Zugang zur passenden Übungsform und zu den aktuellen Ressourcen.</p>
+      </div>
+    </section>
+    <section class="page-section alt">
+      <div class="container exam-level-grid">
+${levels}
+      </div>
+    </section>
+  </main>`;
+}
+
+function renderExamPrepLevel(page) {
+  const isReading = page.resource === "leseverstehen";
+  const resourceLabel = examPrepResourceLabel(page.resource);
+  const directLink = examPrepModeResourceLink(page.resource, page.level);
+  const cards = isReading
+    ? `
+        <article class="exam-type-card">
+          <div class="resource-badge-row">
+            <span class="resource-badge resource-badge-guide">Typ 1</span>
+            <span class="resource-badge resource-badge-free">Verfügbar</span>
+          </div>
+          <h3>${page.level} Leseverstehen Typ 1</h3>
+          <p>Texte mit Richtig-oder-Falsch-Aufgaben, damit du Leselogik, Details und Prüfungsroutine gezielt trainieren kannst.</p>
+          <div class="hero-btns">
+            <a href="${directLink}" class="btn btn-dark">Zum Typ 1</a>
+          </div>
+        </article>
+        <article class="exam-type-card">
+          <div class="resource-badge-row">
+            <span class="resource-badge resource-badge-guide">Typ 2</span>
+            <span class="resource-badge resource-badge-soon">Wenn verfügbar</span>
+          </div>
+          <h3>${page.level} Leseverstehen Typ 2</h3>
+          <p>Diese zweite Form ist noch nicht veröffentlicht. Sobald sie live ist, wird sie hier direkt in die Prüfungsroute eingebunden.</p>
+          <div class="hero-btns">
+            <a href="/de/servicios/#examenes" class="btn btn-outline-teal">Geführte Vorbereitung</a>
+          </div>
+        </article>
+      `
+    : `
+        <article class="exam-type-card">
+          <div class="resource-badge-row">
+            <span class="resource-badge resource-badge-guide">Typ 1</span>
+            <span class="resource-badge resource-badge-free">Verfügbar</span>
+          </div>
+          <h3>${page.level} Sprachbausteine Typ 1</h3>
+          <p>Drei klickbare Optionen pro Lücke für alle, die Struktur, Konnektoren und Wortschatz erst einmal kontrollierter trainieren wollen.</p>
+          <div class="hero-btns">
+            <a href="${directLink}" class="btn btn-dark">Zum Typ 1</a>
+          </div>
+        </article>
+        <article class="exam-type-card">
+          <div class="resource-badge-row">
+            <span class="resource-badge resource-badge-guide">Typ 2</span>
+            <span class="resource-badge resource-badge-free">Verfügbar</span>
+          </div>
+          <h3>${page.level} Sprachbausteine Typ 2</h3>
+          <p>Wortbank mit Distraktoren und freierer Auswahl, näher am offenen Prüfungsgefühl und ideal für präzisere Entscheidungen im Text.</p>
+          <div class="hero-btns">
+            <a href="${directLink}" class="btn btn-outline-teal">Zum Typ 2</a>
+          </div>
+        </article>
+      `;
+
+  return `  <main>
+    <section class="page-hero resources-hero exam-prep-hero">
+      <div class="page-hero-inner resources-hero-inner">
+        <div class="resources-hero-copy">
+          <div class="resource-badge-row">
+            <span class="resource-badge resource-badge-guide">${page.level}</span>
+            <span class="resource-badge resource-badge-free">${resourceLabel}</span>
+          </div>
+          <h1>${page.level} ${resourceLabel} TELC / Goethe Prüfungsvorbereitung</h1>
+          <p>Hier wählst du die passende Übungsform für ${page.level}. Danach landest du direkt auf der Ressource, die heute schon dafür verfügbar ist.</p>
+        </div>
+        <figure class="resources-hero-media">
+          <img src="/assets/img/resources-exam-hero.webp" alt="${page.level} ${resourceLabel} für Goethe und TELC" width="1024" height="1024" loading="eager" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+    <section class="page-section">
+      <div class="container content-narrow">
+        <h2>Passendes Format wählen</h2>
+        <p>${isReading ? "Für Leseverstehen ist aktuell Typ 1 online. Typ 2 bekommt hier später seinen direkten Platz, sobald das Format veröffentlicht ist." : "Für Sprachbausteine sind Typ 1 und Typ 2 bereits Teil derselben A2-, B1- oder B2-Route. Beide Karten führen dich direkt in die entsprechende Sammlung."}</p>
+      </div>
+    </section>
+    <section class="page-section alt">
+      <div class="container exam-type-grid">
+${cards}
+      </div>
+    </section>
+    <section class="page-section">
+      <div class="container">
+        <div class="page-cta">
+          <h2>Direkt zur kompletten ${page.level}-Sammlung</h2>
+          <p>Wenn du lieber alle aktuell verfügbaren Übungen dieses Niveaus auf einen Blick sehen möchtest, kannst du auch direkt in die Ressource springen.</p>
+          <div class="hero-btns">
+            <a href="${directLink}" class="btn btn-white">Alle ${page.level}-Übungen öffnen</a>
+            <a href="${examPrepResourcePath(page.resource)}" class="btn btn-wa">Zur Niveauauswahl</a>
           </div>
         </div>
       </div>
@@ -1515,6 +1882,12 @@ function renderMain(page, locale) {
     case "schreiben":
     case "hoerverstehen":
       return renderSimpleResource(locale, page.key);
+    case "examPrepHub":
+      return renderExamPrepHub();
+    case "examPrepMode":
+      return renderExamPrepMode(page);
+    case "examPrepLevel":
+      return renderExamPrepLevel(page);
     case "privacy":
       return renderPrivacy(locale);
     default:
@@ -1522,41 +1895,84 @@ function renderMain(page, locale) {
   }
 }
 
+function isExamPrepPage(page) {
+  return page.key === "examPrepHub" || page.key === "examPrepMode" || page.key === "examPrepLevel";
+}
+
+function examPrepMeta(page) {
+  if (page.key === "examPrepHub") {
+    return {
+      title: "Prüfungsvorbereitung TELC / Goethe | Samuel Coach de Alemán",
+      description:
+        "Wähle deine Modalität für die Prüfungsvorbereitung auf Goethe oder TELC: Leseverstehen oder Sprachbausteine mit klarer Route nach Niveau."
+    };
+  }
+
+  if (page.key === "examPrepMode") {
+    const label = examPrepResourceLabel(page.resource);
+    return {
+      title: `${label} Goethe / TELC Prüfungsvorbereitung | Samuel Coach de Alemán`,
+      description:
+        `Wähle dein Niveau für ${label} und geh direkt in die passende Goethe- oder TELC-Prüfungsvorbereitung mit klarer Progression.`
+    };
+  }
+
+  const label = examPrepResourceLabel(page.resource);
+  return {
+    title: `${page.level} ${label} TELC / Goethe Prüfungsvorbereitung | Samuel Coach de Alemán`,
+    description:
+      `Finde die passende ${page.level}-Route für ${label} in der Goethe- und TELC-Prüfungsvorbereitung mit direktem Zugang zu Typ 1 und, wenn verfügbar, Typ 2.`
+  };
+}
+
 function pageTitle(locale, key) {
-  return copy[locale][key].title;
+  if (typeof key === "object" && isExamPrepPage(key)) return examPrepMeta(key).title;
+  const pageKey = typeof key === "object" ? key.key : key;
+  return copy[locale][pageKey].title;
 }
 
 function pageDescription(locale, key) {
-  return copy[locale][key].description;
+  if (typeof key === "object" && isExamPrepPage(key)) return examPrepMeta(key).description;
+  const pageKey = typeof key === "object" ? key.key : key;
+  return copy[locale][pageKey].description;
 }
 
 function pageOgTitle(locale, key) {
-  return copy[locale][key].ogTitle || copy[locale][key].title;
+  if (typeof key === "object" && isExamPrepPage(key)) return examPrepMeta(key).title;
+  const pageKey = typeof key === "object" ? key.key : key;
+  return copy[locale][pageKey].ogTitle || copy[locale][pageKey].title;
 }
 
 function pageOgDescription(locale, key) {
-  return copy[locale][key].ogDescription || copy[locale][key].description;
+  if (typeof key === "object" && isExamPrepPage(key)) return examPrepMeta(key).description;
+  const pageKey = typeof key === "object" ? key.key : key;
+  return copy[locale][pageKey].ogDescription || copy[locale][pageKey].description;
 }
 
 function pageImage(pageKey) {
-  if (pageKey === "resources" || pageKey === "lueckentext" || pageKey === "schreiben" || pageKey === "hoerverstehen") {
+  if (typeof pageKey === "object" && isExamPrepPage(pageKey)) {
     return `${baseUrl}/assets/img/resources-exam-hero.webp`;
   }
-  if (pageKey === "services") {
+  const key = typeof pageKey === "object" ? pageKey.key : pageKey;
+  if (key === "resources" || key === "lueckentext" || key === "schreiben" || key === "hoerverstehen") {
+    return `${baseUrl}/assets/img/resources-exam-hero.webp`;
+  }
+  if (key === "services") {
     return `${baseUrl}/assets/img/services-hero.webp`;
   }
-  if (pageKey === "about") {
+  if (key === "about") {
     return `${baseUrl}/assets/img/about-journey.webp`;
   }
   return `${baseUrl}/assets/img/hero-photo-full.webp`;
 }
 
 function buildHtml(page, locale) {
-  const title = pageTitle(locale, page.key);
-  const description = pageDescription(locale, page.key);
-  const ogTitle = pageOgTitle(locale, page.key);
-  const ogDescription = pageOgDescription(locale, page.key);
+  const title = pageTitle(locale, page);
+  const description = pageDescription(locale, page);
+  const ogTitle = pageOgTitle(locale, page);
+  const ogDescription = pageOgDescription(locale, page);
   const canonical = absoluteUrl(locale, page.slug);
+  const alternates = page.locales ? "" : renderAlternates(page.slug);
 
   return `<!DOCTYPE html>
 <html lang="${shared[locale].lang}">
@@ -1566,20 +1982,20 @@ function buildHtml(page, locale) {
   <title>${title}</title>
   <meta name="description" content="${escapeHtml(description)}">
   <link rel="canonical" href="${canonical}">
-${renderAlternates(page.slug)}
+${alternates}
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="theme-color" content="#455a64">
   <meta property="og:type" content="website">
   <meta property="og:title" content="${escapeHtml(ogTitle)}">
   <meta property="og:description" content="${escapeHtml(ogDescription)}">
   <meta property="og:url" content="${canonical}">
-  <meta property="og:image" content="${pageImage(page.key)}">
+  <meta property="og:image" content="${pageImage(page)}">
   <meta property="og:site_name" content="Samuel Coach de Alemán">
   <meta property="og:locale" content="${localeOg[locale]}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(ogTitle)}">
   <meta name="twitter:description" content="${escapeHtml(ogDescription)}">
-  <meta name="twitter:image" content="${pageImage(page.key)}">
+  <meta name="twitter:image" content="${pageImage(page)}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -1605,8 +2021,9 @@ ${renderAppsWidget(locale)}
 }
 
 function writeLocalizedPages() {
-  for (const locale of locales) {
-    for (const page of pages) {
+  for (const page of pages) {
+    const targetLocales = page.locales || locales;
+    for (const locale of targetLocales) {
       const relativeFile = path.join(locale, page.slug, "index.html");
       const targetFile = path.join(rootDir, relativeFile);
       ensureDir(targetFile);
@@ -1617,6 +2034,7 @@ function writeLocalizedPages() {
 
 function updateOriginalAlternates() {
   for (const page of pages) {
+    if (!page.sourceFile) continue;
     const targetFile = path.join(rootDir, page.sourceFile);
     const source = fs.readFileSync(targetFile, "utf8");
     const alternateBlock = `${renderAlternates(page.slug)}`;
@@ -1633,8 +2051,9 @@ function updateSitemap() {
   const source = fs.readFileSync(sitemapFile, "utf8");
   const localizedEntries = [];
 
-  for (const locale of locales) {
-    for (const page of pages) {
+  for (const page of pages) {
+    const targetLocales = page.locales || locales;
+    for (const locale of targetLocales) {
       localizedEntries.push(`  <url>
     <loc>${absoluteUrl(locale, page.slug)}</loc>
     <changefreq>${page.changefreq}</changefreq>

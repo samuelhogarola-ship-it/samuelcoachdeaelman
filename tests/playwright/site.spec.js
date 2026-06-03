@@ -24,6 +24,20 @@ test.describe("static pages", () => {
   }
 });
 
+test.describe("exam prep seo pages", () => {
+  test("german exam prep hub routes users to modality pages", async ({ context, page }) => {
+    await context.clearCookies();
+    await page.goto("/de/pruefungsvorbereitung-telc-goethe/");
+    await page.getByRole("button", { name: "Akzeptieren" }).click();
+
+    await expect(page.getByRole("heading", { name: /prüfungsvorbereitung telc \/ goethe/i })).toBeVisible();
+    await expect(page.getByRole("heading", { name: /leseverstehen goethe \/ telc prüfungsvorbereitung/i })).toBeVisible();
+    await expect(page.getByRole("heading", { name: /sprachbausteine goethe \/ telc prüfungsvorbereitung/i })).toBeVisible();
+    await expect(page.getByRole("link", { name: /modalität wählen/i }).first()).toBeVisible();
+    await expect(page.getByRole("link", { name: /modalität wählen/i }).nth(1)).toBeVisible();
+  });
+});
+
 test.describe("home interactions", () => {
   test.beforeEach(async ({ context, page }) => {
     await context.clearCookies();

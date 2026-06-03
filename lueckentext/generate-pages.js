@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const BASE_URL = "https://www.samuelcoachdealeman.com";
-const JS_VERSION = "20260602a";
+const JS_VERSION = "20260603a";
 const ROOT_DIR = path.resolve(__dirname, "..");
 const TEXTOS = require(path.join(ROOT_DIR, "assets/js/leseverstehen-data.js"));
 
@@ -80,11 +80,11 @@ const LOCALES = {
       openMenu: "Abrir menú",
     },
     root: {
-      title: "Lückentext interactivo para TELC y Goethe | Samuel Coach de Alemán",
+      title: "Sprachbausteine interactivos para TELC y Goethe | Samuel Coach de Alemán",
       description:
         "Practica Sprachbausteine interactivos con ejercicios tipo 1 y tipo 2 a partir de textos reales de A1, A2, B1 y B2. Ideal para preparar Goethe y TELC.",
       status: "Disponible",
-      heroTitle: "Lückentext interactivo",
+      heroTitle: "Sprachbausteine interactivos",
       heroLead:
         "Convierte textos reales en práctica de Sprachbausteine con dos modos: opciones guiadas y banco de palabras con distractores útiles. El texto del ejercicio se mantiene en alemán; la interfaz te acompaña en tu idioma.",
       mode1Title: "Tipo 1",
@@ -97,13 +97,13 @@ const LOCALES = {
     },
     levelMeta(level) {
       return {
-        title: `Lückentext ${level} — Sprachbausteine interactivos | Samuel Coach de Alemán`,
-        description: `Ejercicios de Lückentext ${level} con 10 huecos, corrección inmediata y distractores de calidad para TELC y Goethe.`,
+        title: `Sprachbausteine ${level} interactivos | Samuel Coach de Alemán`,
+        description: `Ejercicios interactivos de Sprachbausteine ${level} con corrección inmediata y distractores de calidad para TELC y Goethe.`,
       };
     },
     pageMeta(exercise) {
       return {
-        title: `${exercise.titulo} | Lückentext ${exercise.nivel} interactivo`,
+        title: `${exercise.titulo} | Sprachbausteine ${exercise.nivel} interactivos`,
         description: `Sprachbaustein interactivo ${exercise.nivel} basado en "${exercise.titulo}" con corrección inmediata y distractores cuidados.`,
       };
     },
@@ -160,11 +160,11 @@ const LOCALES = {
       openMenu: "Menü öffnen",
     },
     root: {
-      title: "Lückentext interaktiv für TELC und Goethe | Samuel Coach de Alemán",
+      title: "Interaktive Sprachbausteine für TELC und Goethe | Samuel Coach de Alemán",
       description:
         "Interaktive Sprachbausteine mit Typ 1 und Typ 2 auf Basis realer Texte von A1 bis B2. Geeignet für Goethe und TELC.",
       status: "Verfügbar",
-      heroTitle: "Lückentext interaktiv",
+      heroTitle: "Interaktive Sprachbausteine",
       heroLead:
         "Hier übst du Sprachbausteine mit echten Texten und zwei klaren Modi: geführte Optionen oder Wortbank mit guten Distraktoren. Der Übungstext bleibt auf Deutsch, die Oberfläche passt sich deiner Sprache an.",
       mode1Title: "Typ 1",
@@ -177,13 +177,13 @@ const LOCALES = {
     },
     levelMeta(level) {
       return {
-        title: `Lückentext ${level} — Interaktive Sprachbausteine | Samuel Coach de Alemán`,
-        description: `Interaktive Lückentext-Aufgaben auf Niveau ${level} mit 10 Lücken, sofortiger Korrektur und sinnvollen Distraktoren.`,
+        title: `Sprachbausteine ${level} interaktiv | Samuel Coach de Alemán`,
+        description: `Interaktive Sprachbausteine auf Niveau ${level} mit sofortiger Korrektur und sinnvollen Distraktoren.`,
       };
     },
     pageMeta(exercise) {
       return {
-        title: `${exercise.titulo} | Lückentext ${exercise.nivel} interaktiv`,
+        title: `${exercise.titulo} | Sprachbausteine ${exercise.nivel} interaktiv`,
         description: `Interaktiver Sprachbaustein ${exercise.nivel} auf Basis von "${exercise.titulo}" mit direktem Feedback.`,
       };
     },
@@ -240,11 +240,11 @@ const LOCALES = {
       openMenu: "Open menu",
     },
     root: {
-      title: "Interactive Lueckentext for TELC and Goethe | Samuel Coach de Alemán",
+      title: "Interactive Sprachbausteine for TELC and Goethe | Samuel Coach de Alemán",
       description:
         "Practise interactive German gap-fill exercises with type 1 and type 2 tasks based on real A1 to B2 texts. Useful for Goethe and TELC preparation.",
       status: "Available",
-      heroTitle: "Interactive Lueckentext",
+      heroTitle: "Interactive Sprachbausteine",
       heroLead:
         "Turn real reading texts into Sprachbausteine practice with two clear modes: guided options or a word bank with strong distractors. The exercise text stays in German while the interface follows your language.",
       mode1Title: "Type 1",
@@ -257,13 +257,13 @@ const LOCALES = {
     },
     levelMeta(level) {
       return {
-        title: `Lueckentext ${level} — Interactive Sprachbausteine | Samuel Coach de Alemán`,
+        title: `Interactive Sprachbausteine ${level} | Samuel Coach de Alemán`,
         description: `Interactive ${level} gap-fill tasks with 10 blanks, instant correction and high-quality distractors for Goethe and TELC.`,
       };
     },
     pageMeta(exercise) {
       return {
-        title: `${exercise.titulo} | Interactive Lueckentext ${exercise.nivel}`,
+        title: `${exercise.titulo} | Interactive Sprachbausteine ${exercise.nivel}`,
         description: `Interactive ${exercise.nivel} Sprachbaustein based on "${exercise.titulo}" with instant feedback and careful distractors.`,
       };
     },
@@ -872,7 +872,7 @@ function generate() {
         },
         canonical: rootPath(locale),
         alternatePath: rootPath,
-        hero: buildHero(locale, rootCopy.heroTitle, rootCopy.heroLead, true),
+        hero: buildHero(locale, rootCopy.heroTitle, rootCopy.heroLead, false),
         appData: {
           view: "home",
           level: "",
@@ -889,7 +889,7 @@ function generate() {
           meta,
           canonical: levelPath(locale, level),
           alternatePath: (targetLocale) => levelPath(targetLocale, level),
-          hero: buildHero(locale, `Lückentext ${level}`, meta.description, false),
+          hero: buildHero(locale, `Sprachbausteine ${level}`, meta.description, false),
           appData: {
             view: "level",
             level,
