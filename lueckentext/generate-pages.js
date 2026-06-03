@@ -86,13 +86,13 @@ const LOCALES = {
       status: "Disponible",
       heroTitle: "Sprachbausteine interactivos",
       heroLead:
-        "Convierte textos reales en práctica de Sprachbausteine con dos modos: opciones guiadas y banco de palabras con distractores útiles. El texto del ejercicio se mantiene en alemán; la interfaz te acompaña en tu idioma.",
+        "Prepara Goethe y TELC con Sprachbausteine interactivos basados en textos reales. Practica conectores, vocabulario y estructuras con dos formatos pensados para examen y corrección inmediata.",
       mode1Title: "Tipo 1",
       mode1Body:
-        "Diez huecos numerados dentro del texto y tres opciones clicables por hueco para entrenar precisión y lógica.",
+        "Sprachbausteine tipo 1 con huecos guiados y tres opciones por apartado. Ideal para entrenar lógica textual, conectores y vocabulario frecuente de examen.",
       mode2Title: "Tipo 2",
       mode2Body:
-        "Diez huecos y un banco de quince palabras para arrastrar o colocar con clic, como práctica más abierta de examen.",
+        "Sprachbausteine tipo 2 con banco de palabras y distractores de calidad para practicar una versión más abierta y exigente del formato TELC o Goethe.",
       cta: "Explora por nivel",
     },
     levelMeta(level) {
@@ -166,13 +166,13 @@ const LOCALES = {
       status: "Verfügbar",
       heroTitle: "Interaktive Sprachbausteine",
       heroLead:
-        "Hier übst du Sprachbausteine mit echten Texten und zwei klaren Modi: geführte Optionen oder Wortbank mit guten Distraktoren. Der Übungstext bleibt auf Deutsch, die Oberfläche passt sich deiner Sprache an.",
+        "Bereite Goethe und TELC mit interaktiven Sprachbausteinen auf Basis echter Texte vor. Du trainierst Konnektoren, Wortschatz und Strukturen in zwei prüfungsnahen Formaten mit direkter Korrektur.",
       mode1Title: "Typ 1",
       mode1Body:
-        "Zehn nummerierte Lücken im Text und drei klickbare Optionen pro Lücke, um Präzision und Textlogik zu trainieren.",
+        "Sprachbausteine Typ 1 mit geführten Lücken und drei Optionen pro Aufgabe. Gut, um Textlogik, Konnektoren und typischen Prüfungswortschatz sicher zu trainieren.",
       mode2Title: "Typ 2",
       mode2Body:
-        "Zehn Lücken und eine Wortbank mit fünfzehn Wörtern zum Ziehen oder Einsetzen per Klick, näher am offenen Prüfungsformat.",
+        "Sprachbausteine Typ 2 mit Wortbank und starken Distraktoren, damit du das offenere und anspruchsvollere Format von TELC oder Goethe übst.",
       cta: "Nach Niveau öffnen",
     },
     levelMeta(level) {
@@ -246,13 +246,13 @@ const LOCALES = {
       status: "Available",
       heroTitle: "Interactive Sprachbausteine",
       heroLead:
-        "Turn real reading texts into Sprachbausteine practice with two clear modes: guided options or a word bank with strong distractors. The exercise text stays in German while the interface follows your language.",
+        "Prepare for Goethe and TELC with interactive Sprachbausteine built from real texts. Train connectors, vocabulary and structure through two exam-focused formats with instant correction.",
       mode1Title: "Type 1",
       mode1Body:
-        "Ten numbered gaps inside the text plus three clickable options for each gap to train precision and text logic.",
+        "Type 1 Sprachbausteine with guided gaps and three options per item. Best for training text logic, connectors and high-frequency exam vocabulary.",
       mode2Title: "Type 2",
       mode2Body:
-        "Ten gaps and a bank of fifteen words that you can drag or place with clicks for a more open exam-style task.",
+        "Type 2 Sprachbausteine with a word bank and high-quality distractors for a more open and demanding TELC or Goethe-style task.",
       cta: "Browse by level",
     },
     levelMeta(level) {
