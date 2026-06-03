@@ -1278,9 +1278,68 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   border-radius: 24px;
   padding: 28px 26px;
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) auto;
-  gap: 20px;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, .95fr);
+  gap: 24px;
+  align-items: start;
+}
+.exam-hub-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.exam-hub-copy h2,
+.exam-hub-copy p {
+  margin: 0;
+}
+.exam-hub-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.exam-hub-step {
+  display: inline-flex;
   align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.9);
+  border: 1px solid rgba(36, 161, 160, .18);
+  color: var(--teal-dark);
+  font-size: .86rem;
+  font-weight: 700;
+}
+.exam-hub-actions {
+  display: grid;
+  gap: 14px;
+}
+.exam-hub-link-card {
+  display: grid;
+  gap: 8px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: var(--white);
+  border: 1px solid rgba(36, 161, 160, .16);
+  box-shadow: 0 10px 24px rgba(13,54,55,.06);
+  color: inherit;
+  text-decoration: none;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.exam-hub-link-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(36, 161, 160, .34);
+  box-shadow: 0 16px 30px rgba(13,54,55,.1);
+}
+.exam-hub-link-card strong {
+  color: var(--dark);
+  font-family: "Cabin", sans-serif;
+  font-size: 1.05rem;
+}
+.exam-hub-link-card span {
+  color: var(--muted);
+}
+.exam-hub-link-card em {
+  color: var(--teal);
+  font-style: normal;
+  font-weight: 700;
 }
 .exam-hub-banner h2,
 .exam-path-card h3,
