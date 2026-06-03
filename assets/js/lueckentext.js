@@ -248,6 +248,17 @@ function getAvailableWords(exercise, state) {
   return exercise.wordBank.filter((item) => !usedIds.has(item.id));
 }
 
+function getNextBlankId(exercise, state, currentBlankId) {
+  const blanks = exercise.blanks.map((blank) => blank.id);
+  const currentIndex = blanks.indexOf(currentBlankId);
+  const ordered = currentIndex >= 0
+    ? [...blanks.slice(currentIndex + 1), ...blanks.slice(0, currentIndex + 1)]
+    : blanks;
+
+  const next = ordered.find((blankId) => !state.placements[blankId]);
+  return next || null;
+}
+
 function renderType2Bank(exercise, state, checked) {
   const ui = getLueckUi();
   const words = getAvailableWords(exercise, state);
@@ -279,8 +290,9 @@ function renderType2Answers(exercise, state, checked) {
   return exercise.blanks.map((blank) => {
     const placed = state.placements[blank.id];
     const correct = checked ? state.results?.[blank.id] : null;
+    const isActive = !checked && state.selectedBlankId === blank.id;
     return `
-      <article class="lueck-answer-card${checked ? (correct ? " is-correct" : " is-wrong") : ""}">
+      <article class="lueck-answer-card${checked ? (correct ? " is-correct" : " is-wrong") : ""}${isActive ? " is-active" : ""}">
         <div class="lueck-choice-top">
           <span class="lueck-choice-number">${blank.id}</span>
           <span class="lueck-answer-current">${placed ? escapeHtml(placed.text) : ui.empty}</span>
@@ -322,7 +334,7 @@ function renderExercise(container, level, slug) {
   const state = {
     selections: {},
     placements: {},
-    selectedBlankId: null,
+    selectedBlankId: exercise.tipo === "type2" ? exercise.blanks[0]?.id || null : null,
     checked: false,
     results: {},
     hits: 0,
@@ -379,7 +391,7 @@ function renderExercise(container, level, slug) {
     });
 
     state.placements[blankId] = selectedWord;
-    state.selectedBlankId = blankId;
+    state.selectedBlankId = getNextBlankId(exercise, state, blankId);
     update();
   };
 
@@ -399,7 +411,7 @@ function renderExercise(container, level, slug) {
       const blankId = Number(blankButton.getAttribute("data-blank-id"));
       if (state.selectedBlankId === blankId && state.placements[blankId]) {
         delete state.placements[blankId];
-        state.selectedBlankId = null;
+        state.selectedBlankId = blankId;
       } else {
         state.selectedBlankId = blankId;
       }

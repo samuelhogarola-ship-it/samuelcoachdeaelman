@@ -9,8 +9,14 @@ const ROOT_DIR = path.resolve(__dirname, "..");
 const TEXTOS = require(path.join(ROOT_DIR, "assets/js/leseverstehen-data.js"));
 
 const LEVELS = ["A1", "A2", "B1", "B2"];
-const GAP_COUNT = 10;
-const WORD_BANK_SIZE = 15;
+const GAP_COUNT_BY_LEVEL = {
+  A1: 5,
+  A2: 8,
+  B1: 10,
+  B2: 10,
+};
+
+const DISTRACTORS_PER_TYPE2 = 5;
 
 const CLOSED_CLASSES = {
   article: new Set([
@@ -399,15 +405,23 @@ function buildCandidates(text) {
   return candidates;
 }
 
-function selectGaps(text) {
+function getGapCount(level) {
+  return GAP_COUNT_BY_LEVEL[level] || 10;
+}
+
+function getWordBankSize(level) {
+  return getGapCount(level) + DISTRACTORS_PER_TYPE2;
+}
+
+function selectGaps(text, gapCount) {
   const candidates = buildCandidates(text);
-  if (candidates.length <= GAP_COUNT) return candidates;
+  if (candidates.length <= gapCount) return candidates;
 
   const selected = [];
   const usedWords = new Set();
 
-  for (let slot = 0; slot < GAP_COUNT; slot += 1) {
-    const targetIndex = Math.floor(((slot + 0.5) * candidates.length) / GAP_COUNT);
+  for (let slot = 0; slot < gapCount; slot += 1) {
+    const targetIndex = Math.floor(((slot + 0.5) * candidates.length) / gapCount);
     let found = null;
 
     for (let offset = 0; offset < candidates.length; offset += 1) {
@@ -434,7 +448,7 @@ function selectGaps(text) {
   }
 
   return selected
-    .slice(0, GAP_COUNT)
+    .slice(0, gapCount)
     .sort((a, b) => a.absoluteWordIndex - b.absoluteWordIndex);
 }
 
@@ -529,7 +543,9 @@ const TYPE_ASSIGNMENTS = buildTypeAssignments();
 function buildExercises() {
   return TEXTOS.map((text) => {
     const tipo = TYPE_ASSIGNMENTS[text.nivel][text.slug];
-    const gaps = selectGaps(text);
+    const gapCount = getGapCount(text.nivel);
+    const wordBankSize = getWordBankSize(text.nivel);
+    const gaps = selectGaps(text, gapCount);
     const bannedAnswers = gaps.map((gap) => gap.word);
     const seedBase = `${text.nivel}:${text.slug}:${tipo}`;
 
@@ -564,7 +580,7 @@ function buildExercises() {
         [...bannedAnswers, ...distractors],
         `${seedBase}:bank:${blank.id}`
       ).forEach((word) => {
-        if (distractors.length < WORD_BANK_SIZE - GAP_COUNT) distractors.push(word);
+        if (distractors.length < wordBankSize - gapCount) distractors.push(word);
       });
     });
 
@@ -577,7 +593,7 @@ function buildExercises() {
               correctFor: blank.id,
             })),
             ...uniqueWords(distractors)
-              .slice(0, WORD_BANK_SIZE - GAP_COUNT)
+              .slice(0, wordBankSize - gapCount)
               .map((word, index) => ({
                 id: `distractor-${index + 1}`,
                 text: word,
