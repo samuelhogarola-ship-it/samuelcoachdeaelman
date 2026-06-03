@@ -1497,9 +1497,9 @@ ${cards}
 function renderResources(locale) {
   const text = copy[locale].resources;
   const ctas = shared[locale].ctas;
-  const examPrefix = locale === "de"
-    ? "/de/pruefungsvorbereitung-telc-goethe/"
-    : "/en/pruefungsvorbereitung-telc-goethe/";
+  const examHubLinks = locale === "de"
+    ? { primary: "/de/pruefungsvorbereitung-telc-goethe/leseverstehen/", secondary: "/de/pruefungsvorbereitung-telc-goethe/sprachbausteine/" }
+    : { primary: "/en/leseverstehen/", secondary: "/en/recursos/lueckentext/" };
   const examHub = text.examHub
     ? `    <section class="page-section">
       <div class="container">
@@ -1516,12 +1516,12 @@ function renderResources(locale) {
             </div>
           </div>
           <div class="exam-hub-actions">
-            <a href="${examPrefix}leseverstehen/" class="exam-hub-link-card" aria-label="${text.examHub.primaryCta}: ${text.examHub.primaryText}">
+            <a href="${examHubLinks.primary}" class="exam-hub-link-card" aria-label="${text.examHub.primaryCta}: ${text.examHub.primaryText}">
               <strong>${text.examHub.primaryTitle}</strong>
               <span>${text.examHub.primaryText}</span>
               <em>${text.examHub.primaryCta} →</em>
             </a>
-            <a href="${examPrefix}sprachbausteine/" class="exam-hub-link-card" aria-label="${text.examHub.secondaryCta}: ${text.examHub.secondaryText}">
+            <a href="${examHubLinks.secondary}" class="exam-hub-link-card" aria-label="${text.examHub.secondaryCta}: ${text.examHub.secondaryText}">
               <strong>${text.examHub.secondaryTitle}</strong>
               <span>${text.examHub.secondaryText}</span>
               <em>${text.examHub.secondaryCta} →</em>

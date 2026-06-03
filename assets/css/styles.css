@@ -1336,7 +1336,7 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
 }
 .exam-hub-link-card strong {
   color: var(--dark);
-  font-family: "Cabin", sans-serif;
+  font-family: Cabin, sans-serif;
   font-size: 1.05rem;
 }
 .exam-hub-link-card span {
