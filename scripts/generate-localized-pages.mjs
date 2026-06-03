@@ -1512,19 +1512,19 @@ function renderResources(locale) {
             <h2>${text.examHub.title}</h2>
             <p>${text.examHub.text}</p>
             <div class="exam-hub-steps">
-              ${text.examHub.steps.map((step) => `<span class="exam-hub-step">${step}</span>`).join("")}
+              ${text.examHub.steps.map((step, i, arr) => `<span class="exam-hub-step">${step}</span>${i < arr.length - 1 ? '<span class="exam-hub-step-arrow" aria-hidden="true">→</span>' : ""}`).join("")}
             </div>
           </div>
           <div class="exam-hub-actions">
-            <a href="${examPrefix}leseverstehen/" class="exam-hub-link-card">
+            <a href="${examPrefix}leseverstehen/" class="exam-hub-link-card" aria-label="${text.examHub.primaryCta}: ${text.examHub.primaryText}">
               <strong>${text.examHub.primaryTitle}</strong>
               <span>${text.examHub.primaryText}</span>
-              <em>${text.examHub.primaryCta}</em>
+              <em>${text.examHub.primaryCta} →</em>
             </a>
-            <a href="${examPrefix}sprachbausteine/" class="exam-hub-link-card">
+            <a href="${examPrefix}sprachbausteine/" class="exam-hub-link-card" aria-label="${text.examHub.secondaryCta}: ${text.examHub.secondaryText}">
               <strong>${text.examHub.secondaryTitle}</strong>
               <span>${text.examHub.secondaryText}</span>
-              <em>${text.examHub.secondaryCta}</em>
+              <em>${text.examHub.secondaryCta} →</em>
             </a>
           </div>
         </div>

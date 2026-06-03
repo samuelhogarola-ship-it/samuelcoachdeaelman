@@ -1307,6 +1307,12 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   font-size: .86rem;
   font-weight: 700;
 }
+.exam-hub-step-arrow {
+  color: var(--teal);
+  font-size: .9rem;
+  font-weight: 700;
+  align-self: center;
+}
 .exam-hub-actions {
   display: grid;
   gap: 14px;
@@ -1656,6 +1662,11 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   .services-grid,
   .services-overview {
     grid-template-columns: 1fr;
+  }
+  .lueck-home-media {
+    max-width: 360px;
+    width: 100%;
+    justify-self: center;
   }
   .services-hero {
     padding-bottom: 28px;
@@ -2191,14 +2202,17 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   background: linear-gradient(180deg, #ffffff 0%, #f4fbfb 100%);
   border: 1px solid rgba(69,90,100,.14);
   border-radius: 24px;
-  padding: 18px;
+  padding: 14px;
   box-shadow: 0 16px 34px rgba(13,54,55,.07);
+  max-width: 420px;
+  justify-self: end;
 }
 
 .lueck-home-media img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 18px;
 }
 
 .lueck-level-block {
