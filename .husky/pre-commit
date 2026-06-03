@@ -20,3 +20,4 @@ run_if_script_exists() {
 run_if_script_exists "lint"
 run_if_script_exists "typecheck"
 run_if_script_exists "test:unit"
+run_if_script_exists "test:e2e:smoke"
