@@ -1,0 +1,5 @@
+# Redirects 301: lueckentext → sprachbausteine
+RedirectMatch 301 ^/lueckentext/(.*)$ /sprachbausteine/$1
+RedirectMatch 301 ^/recursos/lueckentext/(.*)$ /recursos/sprachbausteine/$1
+RedirectMatch 301 ^/de/recursos/lueckentext/(.*)$ /de/recursos/sprachbausteine/$1
+RedirectMatch 301 ^/en/recursos/lueckentext/(.*)$ /en/recursos/sprachbausteine/$1

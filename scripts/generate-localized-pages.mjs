@@ -319,8 +319,8 @@ const pages = [
   },
   {
     key: "lueckentext",
-    slug: "recursos/lueckentext/",
-    sourceFile: "recursos/lueckentext/index.html",
+    slug: "recursos/sprachbausteine/",
+    sourceFile: "recursos/sprachbausteine/index.html",
     changefreq: "monthly",
     priority: "0.7",
     schemaType: "WebPage"
@@ -553,7 +553,7 @@ const copy = {
       },
       cards: [
         ["1", "Leseverstehen", "Texte auf Deutsch mit interaktiven Aufgaben, damit du Lesekompetenz nach Niveau trainieren kannst.", ["A1, A2, B1 und B2", "prüfungsnahe Leseübungen", "geeignet für TELC und Goethe"], "/leseverstehen/", "Kostenlos", "Verfügbar"],
-        ["2", "Sprachbausteine", "Interaktive Sprachbausteine auf Basis realer Texte mit Typ 1 und Typ 2.", ["10 Lücken pro Text", "Wortbank mit guten Distraktoren", "geeignet für TELC und Goethe"], "/de/recursos/lueckentext/", "Verfügbar", "Typ 1 und Typ 2"],
+        ["2", "Sprachbausteine", "Interaktive Sprachbausteine auf Basis realer Texte mit Typ 1 und Typ 2.", ["10 Lücken pro Text", "Wortbank mit guten Distraktoren", "geeignet für TELC und Goethe"], "/de/recursos/sprachbausteine/", "Verfügbar", "Typ 1 und Typ 2"],
         ["3", "Schreiben", "Reale Schreibaufgaben mit schnellem Feedback. Die Erfahrung wird von KI begleitet, die von Samuel trainiert wurde.", ["reale Aufgabenformate", "sofortiges Feedback", "Premium-Ressource"], "/de/recursos/schreiben/", "Nur Premium", ""],
         ["4", "Hörverstehen", "Eine künftige Ressource für gezieltes Hörtraining und besseres Verstehen im echten Sprachtempo.", ["Training nach Niveau", "nützlich für Alltag und Prüfung", "bald verfügbar"], "/de/recursos/hoerverstehen/", "Coming soon", ""]
       ],
@@ -787,7 +787,7 @@ const copy = {
       },
       cards: [
         ["1", "Leseverstehen", "German texts with interactive tasks to train reading comprehension by level.", ["A1, A2, B1 and B2", "exam-style reading practice", "suited to TELC and Goethe"], "/leseverstehen/", "Free", "Available"],
-        ["2", "Sprachbausteine", "Interactive Sprachbausteine built from real texts with type 1 and type 2 practice.", ["10 blanks per text", "word bank with solid distractors", "suited to TELC and Goethe"], "/en/recursos/lueckentext/", "Available", "Type 1 and Type 2"],
+        ["2", "Sprachbausteine", "Interactive Sprachbausteine built from real texts with type 1 and type 2 practice.", ["10 blanks per text", "word bank with solid distractors", "suited to TELC and Goethe"], "/en/recursos/sprachbausteine/", "Available", "Type 1 and Type 2"],
         ["3", "Writing", "Real writing tasks with fast feedback. The experience is guided by AI trained by Samuel.", ["real task formats", "immediate feedback", "premium resource"], "/en/recursos/schreiben/", "Premium only", ""],
         ["4", "Listening", "A future resource focused on listening skills, information tracking and real German pace.", ["level-based training", "useful for everyday use and exams", "coming soon"], "/en/recursos/hoerverstehen/", "Coming soon", ""]
       ],
@@ -1499,7 +1499,7 @@ function renderResources(locale) {
   const ctas = shared[locale].ctas;
   const examHubLinks = locale === "de"
     ? { primary: "/de/pruefungsvorbereitung-telc-goethe/leseverstehen/", secondary: "/de/pruefungsvorbereitung-telc-goethe/sprachbausteine/" }
-    : { primary: "/en/leseverstehen/", secondary: "/en/recursos/lueckentext/" };
+    : { primary: "/en/leseverstehen/", secondary: "/en/recursos/sprachbausteine/" };
   const examHub = text.examHub
     ? `    <section class="page-section">
       <div class="container">
@@ -1620,7 +1620,7 @@ function examPrepLevelPath(resource, level) {
 function examPrepModeResourceLink(resource, level) {
   return resource === "leseverstehen"
     ? `/de/leseverstehen/${level.toLowerCase()}/`
-    : `/de/recursos/lueckentext/${level.toLowerCase()}/`;
+    : `/de/recursos/sprachbausteine/${level.toLowerCase()}/`;
 }
 
 function renderExamPrepHub() {
