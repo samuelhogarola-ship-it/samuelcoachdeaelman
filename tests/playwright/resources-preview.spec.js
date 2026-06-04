@@ -93,4 +93,18 @@ test.describe("resource preview smoke", () => {
       expect(previewAssetResponse.ok()).toBeTruthy();
     });
   }
+
+  test("/recursos/sprachbausteine/a1/meine-familie/ uses sprachbausteine meta urls", async ({ page }) => {
+    const path = "/recursos/sprachbausteine/a1/meine-familie/";
+    const expectedUrl = `https://www.samuelcoachdealeman.com${path}`;
+
+    await page.goto(path);
+
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", expectedUrl);
+    await expect(page.locator('meta[property="og:url"]')).toHaveAttribute("content", expectedUrl);
+    await expect(page.locator('link[rel="alternate"][hreflang="x-default"]')).toHaveAttribute(
+      "href",
+      expectedUrl
+    );
+  });
 });

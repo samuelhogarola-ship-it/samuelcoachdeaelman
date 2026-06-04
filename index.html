@@ -37,10 +37,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="dns-prefetch" href="https://wa.me">
-  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
   <link rel="icon" type="image/webp" href="assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.webp">
-  <link rel="preload" as="image" href="assets/img/og-home.webp" type="image/webp" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/img/hero-photo-full.webp" type="image/webp" fetchpriority="high">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/cookie-banner-core.css">
@@ -191,7 +192,7 @@
 
   <nav>
     <div class="nav-inner">
-      <a class="nav-logo" href="/"><img src="assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260" fetchpriority="high"></a>
+      <a class="nav-logo" href="/"><img src="assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
 
       <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" aria-haspopup="true">
         <span></span><span></span><span></span>
@@ -264,7 +265,7 @@
         </div>
         <div class="hero-photo">
           <div class="photo-wrap">
-            <img src="assets/img/og-home.webp" alt="Samuel Coach de Alemán, profesor de alemán online" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high">
+            <img src="assets/img/hero-photo-full.webp" alt="Samuel Coach de Alemán, profesor de alemán online" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high">
           </div>
         </div>
       </div>
@@ -713,11 +714,11 @@
       <input class="apps-widget-toggle" type="checkbox" id="apps-widget-toggle">
       <label class="apps-widget-backdrop" for="apps-widget-toggle" aria-hidden="true"></label>
       <label class="apps-widget-trigger" for="apps-widget-toggle" aria-label="Abrir apps para practicar alemán">
-        <img src="assets/img/logo-tree.png" alt="Logo Tree" class="apps-widget-tree" loading="lazy">
+        <img src="assets/img/logo-tree.webp" alt="Logo Tree" class="apps-widget-tree" loading="lazy">
       </label>
       <div class="apps-widget-menu">
         <label class="apps-widget-close" for="apps-widget-toggle" aria-label="Cerrar menú de apps">Cerrar</label>
-        <img src="assets/img/logo-tree.png" alt="Logo Tree" class="apps-widget-poster" loading="lazy">
+        <img src="assets/img/logo-tree.webp" alt="Logo Tree" class="apps-widget-poster" loading="lazy">
         <p class="apps-widget-kicker">Practica ya alemán con</p>
         <h3>Vokabel Lab APPs</h3>
         <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">Abrir Vokabel Lab</a>

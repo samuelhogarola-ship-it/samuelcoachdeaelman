@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "prepare": "husky",
-    "build:i18n": "node scripts/generate-localized-pages.mjs && node leseverstehen/generate-pages.js && node lueckentext/generate-pages.js",
+    "build:i18n": "node scripts/generate-localized-pages.mjs && node leseverstehen/generate-pages.js && node sprachbausteine/generate-pages.js",
     "test:e2e:smoke": "playwright test tests/playwright/resources-preview.spec.js --reporter=line",
     "test:e2e": "playwright test",
     "test:e2e:headed": "playwright test --headed",

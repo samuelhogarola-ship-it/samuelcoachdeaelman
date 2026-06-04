@@ -625,15 +625,15 @@ function route(locale, slug) {
 }
 
 function rootPath(locale) {
-  return route(locale, "recursos/lueckentext/");
+  return route(locale, "recursos/sprachbausteine/");
 }
 
 function levelPath(locale, level) {
-  return route(locale, `recursos/lueckentext/${level.toLowerCase()}/`);
+  return route(locale, `recursos/sprachbausteine/${level.toLowerCase()}/`);
 }
 
 function exercisePath(locale, exercise) {
-  return route(locale, `recursos/lueckentext/${exercise.nivel.toLowerCase()}/${exercise.slug}/`);
+  return route(locale, `recursos/sprachbausteine/${exercise.nivel.toLowerCase()}/${exercise.slug}/`);
 }
 
 function absolute(urlPath) {
@@ -838,7 +838,7 @@ function updateSitemap(exercises) {
     .split(/(?=\s*<url>)/)
     .map((block) => block.trim())
     .filter(Boolean)
-    .filter((block) => !block.includes("/recursos/lueckentext/"));
+    .filter((block) => !block.includes("/recursos/sprachbausteine/"));
 
   const urls = [];
   Object.keys(LOCALES).forEach((locale) => {
@@ -864,7 +864,7 @@ function generate() {
   Object.keys(LOCALES).forEach((locale) => {
     const rootCopy = LOCALES[locale].root;
     writeFile(
-      path.join(ROOT_DIR, locale === "es" ? "recursos/lueckentext/index.html" : `${locale}/recursos/lueckentext/index.html`),
+      path.join(ROOT_DIR, locale === "es" ? "recursos/sprachbausteine/index.html" : `${locale}/recursos/sprachbausteine/index.html`),
       buildPage(locale, {
         meta: {
           title: rootCopy.title,
@@ -884,7 +884,7 @@ function generate() {
     LEVELS.forEach((level) => {
       const meta = LOCALES[locale].levelMeta(level);
       writeFile(
-        path.join(ROOT_DIR, locale === "es" ? `recursos/lueckentext/${level.toLowerCase()}/index.html` : `${locale}/recursos/lueckentext/${level.toLowerCase()}/index.html`),
+        path.join(ROOT_DIR, locale === "es" ? `recursos/sprachbausteine/${level.toLowerCase()}/index.html` : `${locale}/recursos/sprachbausteine/${level.toLowerCase()}/index.html`),
         buildPage(locale, {
           meta,
           canonical: levelPath(locale, level),
@@ -902,7 +902,7 @@ function generate() {
     exercises.forEach((exercise) => {
       const meta = LOCALES[locale].pageMeta(exercise);
       writeFile(
-        path.join(ROOT_DIR, locale === "es" ? `recursos/lueckentext/${exercise.nivel.toLowerCase()}/${exercise.slug}/index.html` : `${locale}/recursos/lueckentext/${exercise.nivel.toLowerCase()}/${exercise.slug}/index.html`),
+        path.join(ROOT_DIR, locale === "es" ? `recursos/sprachbausteine/${exercise.nivel.toLowerCase()}/${exercise.slug}/index.html` : `${locale}/recursos/sprachbausteine/${exercise.nivel.toLowerCase()}/${exercise.slug}/index.html`),
         buildPage(locale, {
           meta,
           canonical: exercisePath(locale, exercise),
