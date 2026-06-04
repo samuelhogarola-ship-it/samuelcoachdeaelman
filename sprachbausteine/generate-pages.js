@@ -46,9 +46,9 @@ const CLOSED_CLASSES = {
   adverb: new Set([
     "anschliessend", "auch", "bald", "dabei", "danach", "dann", "darum", "daher",
     "deshalb", "deswegen", "direkt", "dort", "fruher", "gestern", "heute",
-    "hier", "hingegen", "immer", "jetzt", "morgen", "nicht", "noch", "oft", "schon", "selbst",
+    "hier", "hingegen", "immer", "jetzt", "nicht", "noch", "oft", "schon", "selbst",
     "selten", "sofort", "sonst", "spater", "trotzdem", "vorher", "vielleicht",
-    "wirklich", "zudem", "zuerst", "zusammen", "fast", "halb",
+    "wirklich", "zudem", "zuerst", "zusammen", "fast", "halb", "naturlich", "schlussendlich", "schließlich",
   ]),
 };
 
@@ -83,8 +83,34 @@ const CURATED_DISTRACTOR_BANKS = {
     "auch", "anschließend", "bald", "dabei", "danach", "dann", "darum", "daher",
     "deshalb", "deswegen", "direkt", "dort", "früher", "heute", "immer",
     "jetzt", "nicht", "noch", "oft", "schon", "selbst", "sofort", "sonst", "später",
-    "trotzdem", "vorher", "vielleicht", "wirklich", "zudem", "zuerst", "zusammen", "fast",
+    "trotzdem", "vorher", "vielleicht", "wirklich", "zudem", "zuerst", "zusammen", "fast", "natürlich", "schließlich",
   ],
+};
+
+const ARTICLE_SURFACE_FALLBACKS = {
+  der: ["dieser", "einer", "keiner"],
+  die: ["diese", "eine", "keine"],
+  das: ["dieses", "ein", "kein"],
+  den: ["diesen", "einen", "keinen"],
+  dem: ["diesem", "einem", "keinem"],
+  des: ["dieses", "eines", "keines"],
+  ein: ["dieses", "kein", "das"],
+  eine: ["diese", "keine", "die"],
+  einen: ["den", "keinen", "diesen"],
+  einem: ["dem", "keinem", "diesem"],
+  einer: ["dieser", "keiner", "der"],
+  eines: ["dieses", "keines", "des"],
+  kein: ["ein", "dieses", "das"],
+  keine: ["eine", "diese", "die"],
+  keinen: ["einen", "diesen", "den"],
+  keinem: ["einem", "diesem", "dem"],
+  keiner: ["einer", "dieser", "der"],
+  keines: ["eines", "dieses", "des"],
+  dieser: ["der", "einer", "keiner"],
+  diese: ["die", "eine", "keine"],
+  dieses: ["das", "ein", "kein"],
+  diesem: ["dem", "einem", "keinem"],
+  diesen: ["den", "einen", "keinen"],
 };
 
 const CONNECTOR_FAMILIES = {
@@ -107,9 +133,9 @@ const CONNECTOR_FAMILY_BY_WORD = Object.entries(CONNECTOR_FAMILIES).reduce((map,
 }, {});
 
 const ARTICLE_PROFILES = {
-  nomMasc: new Set(["der", "ein", "kein", "dieser"]),
+  nomMasc: new Set(["der", "dieser"]),
   nomFemOrNomPl: new Set(["die", "eine", "keine", "diese"]),
-  nomNeut: new Set(["das", "dieses"]),
+  nomNeut: new Set(["das", "dieses", "ein", "kein"]),
   accMasc: new Set(["den", "einen", "keinen", "diesen"]),
   datMascNeut: new Set(["dem", "einem", "keinem", "diesem"]),
   datFemGen: new Set(["der", "einer", "keiner", "dieser"]),
@@ -146,6 +172,7 @@ const COMMON_NAMES = new Set([
 const ARTICLE_LIKE_WORDS = new Set([
   ...CLOSED_CLASSES.article,
   ...["mein", "meine", "meinem", "meinen", "meiner", "meines", "dein", "deine", "deinem", "deinen", "deiner", "sein", "seine", "seinem", "seinen", "seiner", "ihr", "ihre", "ihrem", "ihren", "ihrer", "unser", "unsere", "unserem", "unseren", "unserer", "euer", "eure", "kein", "keine", "keinem", "keinen", "keiner", "keines"],
+  ...["am", "ans", "beim", "im", "ins", "vom", "zum", "zur"],
 ]);
 
 const COPULA_WORDS = new Set(["bin", "bist", "ist", "sind", "seid", "war", "waren", "bleibt", "bleiben", "wird", "werden", "wirkt", "scheint"]);
@@ -384,15 +411,24 @@ function splitParagraph(paragraph) {
   return paragraph.split(/([\p{L}ÄÖÜäöüß-]+)/u).filter(Boolean);
 }
 
+function findNeighborWord(segments, startIndex, step) {
+  for (let index = startIndex + step; index >= 0 && index < segments.length; index += step) {
+    if (isWordToken(segments[index])) return segments[index];
+  }
+  return "";
+}
+
 function detectCategory(word, previousToken = "", nextToken = "") {
   const normalized = normalizeWord(word);
   const previous = normalizeWord(previousToken);
   const next = normalizeWord(nextToken);
+  const nextLooksNoun = /^[A-ZÄÖÜ]/.test(nextToken);
 
   if (CLOSED_CLASSES.article.has(normalized)) return "article";
   if (CLOSED_CLASSES.preposition.has(normalized)) return "preposition";
   if (CLOSED_CLASSES.conjunction.has(normalized)) return "conjunction";
   if (CLOSED_CLASSES.pronoun.has(normalized)) return "pronoun";
+  if (/^[A-ZÄÖÜ]/.test(word) && previous && !/[.!?]$/.test(previousToken)) return "noun";
   if (CLOSED_CLASSES.adverb.has(normalized)) return "adverb";
   if (NUMERAL_WORDS.has(normalized)) return "other";
   if (
@@ -400,6 +436,15 @@ function detectCategory(word, previousToken = "", nextToken = "") {
     ARTICLE_LIKE_WORDS.has(previous) &&
     !/^[A-ZÄÖÜ]/.test(word) &&
     /(e|en|er|em|es|ig|isch|lich|bar|los|sam|haft|voll|frei|nah|weit|alt|neu|jung|klar|bewusst|spannend|gesund|gemutlich|gemuetlich|britisch|schattig|wichtig|ruhig|freundlich|kalt|warm|perfekt)$/i.test(normalized)
+  ) {
+    return "adjective";
+  }
+  if (
+    nextLooksNoun &&
+    !/^[A-ZÄÖÜ]/.test(word) &&
+    !CLOSED_CLASSES.adverb.has(normalized) &&
+    !CLOSED_CLASSES.pronoun.has(normalized) &&
+    !NUMERAL_WORDS.has(normalized)
   ) {
     return "adjective";
   }
@@ -412,7 +457,6 @@ function detectCategory(word, previousToken = "", nextToken = "") {
     return "adjective";
   }
   if (previous === "zu" && /(ieren|en|eln|ern)$/i.test(normalized)) return "verb";
-  if (/^[A-ZÄÖÜ]/.test(word)) return "noun";
   if (/(lich|ig|isch|bar|sam|los|end)$/i.test(word)) return "adjective";
   if (
     !ARTICLE_LIKE_WORDS.has(previous) &&
@@ -585,7 +629,8 @@ function buildCandidates(text) {
     segments.forEach((segment, segmentIndex) => {
       if (!isWordToken(segment)) return;
       absoluteWordIndex += 1;
-      const previousToken = segments[segmentIndex - 1] || "";
+      const previousToken = findNeighborWord(segments, segmentIndex, -1);
+      const nextToken = findNeighborWord(segments, segmentIndex, 1);
       if (!isEligibleWord(segment, previousToken)) return;
 
       candidates.push({
@@ -594,7 +639,7 @@ function buildCandidates(text) {
         absoluteWordIndex,
         word: segment,
         normalized: normalizeWord(segment),
-        category: detectCategory(segment, previousToken, segments[segmentIndex + 1] || ""),
+        category: detectCategory(segment, previousToken, nextToken),
       });
     });
   });
@@ -722,6 +767,14 @@ function fallbackAcceptableDistractor(answerMeta, candidateMeta) {
     return candidateMeta.category === "verb" && !isLikelyParticipleLike(candidateMeta.word);
   }
 
+  if (answerMeta.category === "pronoun") {
+    return candidateMeta.category === "pronoun" && candidateMeta.profile === answerMeta.profile;
+  }
+
+  if (["article", "preposition"].includes(answerMeta.category)) {
+    return candidateMeta.category === answerMeta.category && candidateMeta.profile === answerMeta.profile;
+  }
+
   return candidateMeta.category === answerMeta.category;
 }
 
@@ -758,6 +811,30 @@ function ensureOptionCount(level, answer, category, options, bannedWords, seed) 
     if (existing.length >= 3) break;
     seen.add(candidate.normalized);
     existing.push(candidate.word);
+  }
+
+  if (existing.length < 3 && category === "article") {
+    const relaxedArticleSource = [
+      ...(ARTICLE_SURFACE_FALLBACKS[normalizeWord(answer)] || []),
+      ...(CURATED_DISTRACTOR_BANKS.article || []),
+    ];
+
+    const relaxedArticleCandidates = seededSort(
+      uniqueWords(relaxedArticleSource)
+        .map((word) => buildCandidateMeta(word, "article"))
+        .filter((candidate) => !seen.has(candidate.normalized))
+        .filter((candidate) => candidate.category === "article")
+        .sort((a, b) => grammaticalScore(answerMeta, b) - grammaticalScore(answerMeta, a))
+        .slice(0, 12),
+      `${seed}:article-relaxed`,
+      (candidate) => candidate.word
+    );
+
+    for (const candidate of relaxedArticleCandidates) {
+      if (existing.length >= 3) break;
+      seen.add(candidate.normalized);
+      existing.push(candidate.word);
+    }
   }
 
   return existing.slice(0, 3);
@@ -810,7 +887,11 @@ function pickDistractors(level, answer, category, amount, bannedWords, seed) {
         (candidate) => candidate.category === answerMeta.category,
         (candidate) => CONNECTOR_CATEGORIES.has(candidate.category),
       ]
-    : answerMeta.profile
+    : ["article", "preposition", "pronoun"].includes(answerMeta.category)
+      ? [
+          (candidate) => candidate.category === answerMeta.category && candidate.profile === answerMeta.profile,
+        ]
+      : answerMeta.profile
       ? [
           (candidate) => candidate.category === answerMeta.category && candidate.profile === answerMeta.profile,
           (candidate) => candidate.category === answerMeta.category,
