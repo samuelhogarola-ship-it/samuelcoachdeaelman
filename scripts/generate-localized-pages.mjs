@@ -1002,11 +1002,11 @@ function renderAppsWidget(locale) {
       <input class="apps-widget-toggle" type="checkbox" id="apps-widget-toggle">
       <label class="apps-widget-backdrop" for="apps-widget-toggle" aria-hidden="true"></label>
       <label class="apps-widget-trigger" for="apps-widget-toggle" aria-label="${widget.open}">
-        <img src="/assets/img/logo-tree.png" alt="Logo Tree" class="apps-widget-tree" loading="lazy">
+        <img src="/assets/img/logo-tree.webp" alt="Logo Tree" class="apps-widget-tree" loading="lazy">
       </label>
       <div class="apps-widget-menu">
         <label class="apps-widget-close" for="apps-widget-toggle" aria-label="${widget.close}">${widget.closeLabel}</label>
-        <img src="/assets/img/logo-tree.png" alt="Logo Tree" class="apps-widget-poster" loading="lazy">
+        <img src="/assets/img/logo-tree.webp" alt="Logo Tree" class="apps-widget-poster" loading="lazy">
         <p class="apps-widget-kicker">${widget.kicker}</p>
         <h3>${widget.title}</h3>
         <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">${widget.vokabellab}</a>

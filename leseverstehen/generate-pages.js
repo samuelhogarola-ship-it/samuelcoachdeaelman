@@ -277,7 +277,7 @@ function makeNav(locale) {
   return `
   <nav>
     <div class="nav-inner">
-      <a class="nav-logo" href="${route(locale)}"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260" fetchpriority="high"></a>
+      <a class="nav-logo" href="${route(locale)}"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
       <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="${locale === 'es' ? 'Abrir menú' : locale === 'de' ? 'Menü öffnen' : 'Open menu'}" aria-haspopup="true">
         <span></span><span></span><span></span>
       </button>
