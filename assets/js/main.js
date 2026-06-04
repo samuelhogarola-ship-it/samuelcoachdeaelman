@@ -8,7 +8,7 @@ const cookieCopy = {
   imageAlt: "Galleta decorativa del banner de cookies",
   title: "Tu privacidad importa",
   noticeHtml:
-    '<p>Usamos cookies necesarias para que la web funcione y, solo si lo aceptas, cookies analíticas para entender el uso del sitio y mejorarlo. <a href="/politica-de-privacidad/">Más información</a>.</p>',
+    '<p>Usamos cookies necesarias para que la web funcione y, solo si lo aceptas, cookies analíticas para entender el uso del sitio y mejorarlo. <a href="/politica-de-privacidad/">Consulta la política de privacidad</a>.</p>',
   acceptLabel: "Aceptar",
   rejectLabel: "Rechazar",
   configLabel: "Configurar cookies",
