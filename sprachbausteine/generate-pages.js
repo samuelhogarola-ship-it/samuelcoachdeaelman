@@ -23,7 +23,7 @@ const CLOSED_CLASSES = {
     "der", "die", "das", "den", "dem", "des",
     "ein", "eine", "einen", "einem", "einer", "eines",
     "kein", "keine", "keinen", "keinem", "keiner", "keines",
-    "dieser", "diese", "dieses",
+    "dieser", "diese", "dieses", "diesem", "diesen",
   ]),
   preposition: new Set([
     "an", "auf", "aus", "bei", "bis", "durch", "fur", "gegen", "hinter",
@@ -31,18 +31,135 @@ const CLOSED_CLASSES = {
     "von", "vor", "wahrend", "wegen", "zu", "zwischen",
   ]),
   conjunction: new Set([
-    "aber", "als", "bevor", "damit", "dass", "denn", "nachdem", "ob",
-    "obwohl", "oder", "sondern", "und", "wahrend", "weil", "wenn",
+    "aber", "als", "bevor", "bis", "damit", "dass", "denn", "falls",
+    "nachdem", "ob", "obwohl", "oder", "sondern", "sowie", "und",
+    "wahrend", "weil", "wenn",
   ]),
   pronoun: new Set([
-    "alle", "du", "euch", "er", "es", "ich", "ihr", "ihn", "ihnen", "man",
-    "mein", "meine", "meinem", "meinen", "mich", "sie", "unser", "uns",
-    "wir", "dein", "deine", "euer", "eure",
+    "alle", "dein", "deine", "deinem", "deinen", "deiner", "du", "euch",
+    "er", "es", "euer", "eure", "ich", "ihr", "ihm", "ihn", "ihnen",
+    "ihrer", "ihrem", "ihren", "ihres", "man", "mein", "meine", "meinem",
+    "meinen", "meiner", "meines", "mich", "mir", "sich", "sein", "seine",
+    "seinem", "seinen", "seiner", "seines", "sie", "unser", "unsere",
+    "unserem", "unseren", "unserer", "unseres", "uns", "wir",
   ]),
   adverb: new Set([
-    "bald", "danach", "dann", "deshalb", "direkt", "dort", "fruher", "gestern",
-    "heute", "hier", "immer", "jetzt", "morgen", "noch", "oft", "schon",
-    "selten", "sofort", "spater", "trotzdem", "vorher", "wirklich", "zuerst",
+    "anschliessend", "auch", "bald", "dabei", "danach", "dann", "darum", "daher",
+    "deshalb", "deswegen", "direkt", "dort", "fruher", "gestern", "heute",
+    "hier", "hingegen", "immer", "jetzt", "nicht", "noch", "oft", "schon", "selbst",
+    "selten", "sofort", "sonst", "spater", "trotzdem", "vorher", "vielleicht",
+    "wirklich", "zudem", "zuerst", "zusammen", "fast", "halb", "naturlich", "schlussendlich", "schließlich",
+  ]),
+};
+
+const CONNECTOR_CATEGORIES = new Set(["conjunction", "adverb", "preposition"]);
+
+const CURATED_DISTRACTOR_BANKS = {
+  article: [
+    "der", "die", "das", "den", "dem", "des",
+    "ein", "eine", "einen", "einem", "einer", "eines",
+    "kein", "keine", "keinen", "keinem", "keiner", "keines",
+    "dieser", "diese", "dieses", "diesem", "diesen",
+  ],
+  preposition: [
+    "an", "auf", "aus", "bei", "bis", "durch", "für", "gegen", "hinter",
+    "in", "mit", "nach", "neben", "ohne", "seit", "über", "um", "unter",
+    "von", "vor", "während", "wegen", "zu", "zwischen",
+  ],
+  conjunction: [
+    "aber", "als", "bevor", "bis", "damit", "dass", "denn", "falls",
+    "nachdem", "ob", "obwohl", "oder", "sondern", "sowie", "und",
+    "während", "weil", "wenn",
+  ],
+  pronoun: [
+    "ich", "du", "er", "sie", "es", "wir", "ihr", "sie",
+    "mich", "dich", "ihn", "uns", "euch", "ihnen", "mir", "dir", "ihm",
+    "mein", "meine", "meinem", "meinen", "meiner", "dein", "deine",
+    "deinem", "deinen", "deiner", "sein", "seine", "seinem", "seinen",
+    "seiner", "ihr", "ihre", "ihrem", "ihren", "ihrer", "unser", "unsere",
+    "unserem", "unseren", "unserer", "sich", "man",
+  ],
+  adverb: [
+    "auch", "anschließend", "bald", "dabei", "danach", "dann", "darum", "daher",
+    "deshalb", "deswegen", "direkt", "dort", "früher", "heute", "immer",
+    "jetzt", "nicht", "noch", "oft", "schon", "selbst", "sofort", "sonst", "später",
+    "trotzdem", "vorher", "vielleicht", "wirklich", "zudem", "zuerst", "zusammen", "fast", "natürlich", "schließlich",
+  ],
+};
+
+const ARTICLE_SURFACE_FALLBACKS = {
+  der: ["dieser", "einer", "keiner"],
+  die: ["diese", "eine", "keine"],
+  das: ["dieses", "ein", "kein"],
+  den: ["diesen", "einen", "keinen"],
+  dem: ["diesem", "einem", "keinem"],
+  des: ["dieses", "eines", "keines"],
+  ein: ["dieses", "kein", "das"],
+  eine: ["diese", "keine", "die"],
+  einen: ["den", "keinen", "diesen"],
+  einem: ["dem", "keinem", "diesem"],
+  einer: ["dieser", "keiner", "der"],
+  eines: ["dieses", "keines", "des"],
+  kein: ["ein", "dieses", "das"],
+  keine: ["eine", "diese", "die"],
+  keinen: ["einen", "diesen", "den"],
+  keinem: ["einem", "diesem", "dem"],
+  keiner: ["einer", "dieser", "der"],
+  keines: ["eines", "dieses", "des"],
+  dieser: ["der", "einer", "keiner"],
+  diese: ["die", "eine", "keine"],
+  dieses: ["das", "ein", "kein"],
+  diesem: ["dem", "einem", "keinem"],
+  diesen: ["den", "einen", "keinen"],
+};
+
+const CONNECTOR_FAMILIES = {
+  addition: ["und", "auch", "außerdem", "zudem", "sowie"],
+  alternative: ["oder"],
+  cause: ["weil", "denn", "deshalb", "deswegen", "darum", "daher"],
+  condition: ["wenn", "falls", "sonst"],
+  contrast: ["aber", "sondern", "obwohl", "trotzdem", "während"],
+  purpose: ["damit"],
+  sequence: ["dann", "danach", "anschließend", "vorher", "zuerst"],
+  time: ["als", "bevor", "bis", "nachdem"],
+  content: ["dass", "ob"],
+};
+
+const CONNECTOR_FAMILY_BY_WORD = Object.entries(CONNECTOR_FAMILIES).reduce((map, [family, words]) => {
+  words.forEach((word) => {
+    map[normalizeWord(word)] = family;
+  });
+  return map;
+}, {});
+
+const ARTICLE_PROFILES = {
+  nomMasc: new Set(["der", "dieser"]),
+  nomFemOrNomPl: new Set(["die", "eine", "keine", "diese"]),
+  nomNeut: new Set(["das", "dieses", "ein", "kein"]),
+  accMasc: new Set(["den", "einen", "keinen", "diesen"]),
+  datMascNeut: new Set(["dem", "einem", "keinem", "diesem"]),
+  datFemGen: new Set(["der", "einer", "keiner", "dieser"]),
+  genMascNeut: new Set(["des", "eines", "keines", "dieses"]),
+};
+
+const PREPOSITION_PROFILES = {
+  accusative: new Set(["durch", "fur", "gegen", "ohne", "um", "bis"]),
+  dative: new Set(["aus", "bei", "mit", "nach", "seit", "von", "zu", "gegenuber"]),
+  twoWay: new Set(["an", "auf", "hinter", "in", "neben", "uber", "unter", "vor", "zwischen"]),
+  temporalCausal: new Set(["wahrend", "wegen"]),
+};
+
+const PRONOUN_PROFILES = {
+  objectPronoun: new Set(["mich", "dich", "ihn", "ihm", "ihnen", "mir", "dir", "uns", "euch", "sich"]),
+  personalNom: new Set(["ich", "du", "er", "sie", "es", "wir", "ihr"]),
+  possessiveBase: new Set(["mein", "dein", "sein", "ihr", "unser", "euer"]),
+  possessiveInflected: new Set([
+    "meine", "meinem", "meinen", "meiner", "meines",
+    "deine", "deinem", "deinen", "deiner",
+    "seine", "seinem", "seinen", "seiner", "seines",
+    "ihre", "ihrem", "ihren", "ihrer",
+    "unsere", "unserem", "unseren", "unserer",
+    "eure",
   ]),
 };
 
@@ -51,6 +168,15 @@ const COMMON_NAMES = new Set([
   "lukas", "maja", "maria", "martin", "max", "mira", "nina", "paul",
   "patrick", "peter", "sara", "sophie", "stefan", "tim", "tom",
 ]);
+
+const ARTICLE_LIKE_WORDS = new Set([
+  ...CLOSED_CLASSES.article,
+  ...["mein", "meine", "meinem", "meinen", "meiner", "meines", "dein", "deine", "deinem", "deinen", "deiner", "sein", "seine", "seinem", "seinen", "seiner", "ihr", "ihre", "ihrem", "ihren", "ihrer", "unser", "unsere", "unserem", "unseren", "unserer", "euer", "eure", "kein", "keine", "keinem", "keinen", "keiner", "keines"],
+  ...["am", "ans", "beim", "im", "ins", "vom", "zum", "zur"],
+]);
+
+const COPULA_WORDS = new Set(["bin", "bist", "ist", "sind", "seid", "war", "waren", "bleibt", "bleiben", "wird", "werden", "wirkt", "scheint"]);
+const NUMERAL_WORDS = new Set(["ein", "eine", "eins", "zwei", "drei", "vier", "fünf", "funf", "sechs", "sieben", "acht", "neun", "zehn"]);
 
 const LOCALES = {
   es: {
@@ -285,17 +411,129 @@ function splitParagraph(paragraph) {
   return paragraph.split(/([\p{L}ÄÖÜäöüß-]+)/u).filter(Boolean);
 }
 
-function detectCategory(word) {
+function findNeighborWord(segments, startIndex, step) {
+  for (let index = startIndex + step; index >= 0 && index < segments.length; index += step) {
+    if (isWordToken(segments[index])) return segments[index];
+  }
+  return "";
+}
+
+function detectCategory(word, previousToken = "", nextToken = "") {
   const normalized = normalizeWord(word);
+  const previous = normalizeWord(previousToken);
+  const next = normalizeWord(nextToken);
+  const nextLooksNoun = /^[A-ZÄÖÜ]/.test(nextToken);
+
   if (CLOSED_CLASSES.article.has(normalized)) return "article";
   if (CLOSED_CLASSES.preposition.has(normalized)) return "preposition";
   if (CLOSED_CLASSES.conjunction.has(normalized)) return "conjunction";
   if (CLOSED_CLASSES.pronoun.has(normalized)) return "pronoun";
+  if (/^[A-ZÄÖÜ]/.test(word) && previous && !/[.!?]$/.test(previousToken)) return "noun";
   if (CLOSED_CLASSES.adverb.has(normalized)) return "adverb";
-  if (/^[A-ZÄÖÜ]/.test(word)) return "noun";
-  if (/(en|ern|eln|ieren|st|t)$/i.test(word)) return "verb";
+  if (NUMERAL_WORDS.has(normalized)) return "other";
+  if (
+    previous &&
+    ARTICLE_LIKE_WORDS.has(previous) &&
+    !/^[A-ZÄÖÜ]/.test(word) &&
+    /(e|en|er|em|es|ig|isch|lich|bar|los|sam|haft|voll|frei|nah|weit|alt|neu|jung|klar|bewusst|spannend|gesund|gemutlich|gemuetlich|britisch|schattig|wichtig|ruhig|freundlich|kalt|warm|perfekt)$/i.test(normalized)
+  ) {
+    return "adjective";
+  }
+  if (
+    nextLooksNoun &&
+    !/^[A-ZÄÖÜ]/.test(word) &&
+    !CLOSED_CLASSES.adverb.has(normalized) &&
+    !CLOSED_CLASSES.pronoun.has(normalized) &&
+    !NUMERAL_WORDS.has(normalized)
+  ) {
+    return "adjective";
+  }
+  if (
+    previous &&
+    COPULA_WORDS.has(previous) &&
+    !/^[A-ZÄÖÜ]/.test(word) &&
+    !CLOSED_CLASSES.adverb.has(normalized)
+  ) {
+    return "adjective";
+  }
+  if (previous === "zu" && /(ieren|en|eln|ern)$/i.test(normalized)) return "verb";
   if (/(lich|ig|isch|bar|sam|los|end)$/i.test(word)) return "adjective";
+  if (
+    !ARTICLE_LIKE_WORDS.has(previous) &&
+    !COPULA_WORDS.has(previous) &&
+    !NUMERAL_WORDS.has(normalized) &&
+    !/(ig|isch|lich|bar|los|sam|haft|voll|frei|nah|weit|alt|neu|jung|klar|bewusst|spannend|gesund|gemutlich|gemuetlich|britisch|schattig|wichtig|ruhig|freundlich|kalt|warm|perfekt)$/i.test(normalized) &&
+    /(en|ern|eln|ieren|st|t)$/i.test(word)
+  ) {
+    return "verb";
+  }
   return "other";
+}
+
+function detectProfileFromMap(word, profileMap, fallback) {
+  const normalized = normalizeWord(word);
+  for (const [profile, words] of Object.entries(profileMap)) {
+    if (words.has(normalized)) return profile;
+  }
+  return fallback;
+}
+
+function detectVerbProfile(word) {
+  const normalized = normalizeWord(word);
+  if (isLikelyParticipleLike(normalized)) {
+    return "participle";
+  }
+  if (/(ieren|en|eln|ern)$/.test(normalized)) return "infinitive";
+  if (/(test|est)$/.test(normalized)) return "finite2sg";
+  if (/(ten|eten)$/.test(normalized)) return "finitePluralOrPast";
+  if (/(te|ete)$/.test(normalized)) return "finitePast";
+  if (/t$/.test(normalized)) return "finite3sg";
+  if (/e$/.test(normalized)) return "finite1sg";
+  return "verb";
+}
+
+function isLikelyParticipleLike(word) {
+  const normalized = normalizeWord(word);
+  return /^(ge.+(en|t)|(?:ab|an|auf|aus|ein|fort|los|mit|nach|vor|weg|wieder|zuruck|zurueck|zusammen)ge.+(en|t))$/.test(normalized)
+    || /(worden|funden|fahren|gangen|kommen|nommen|schlossen|beschlossen|geboten|gesehen)$/i.test(normalized);
+}
+
+function detectNounProfile(word) {
+  const normalized = normalizeWord(word);
+  if (/en$/.test(normalized) && !/(ung|keit|heit|schaft)$/.test(normalized)) return "nominalizedOrPlural";
+  if (/-/.test(word) || /[A-ZÄÖÜ][a-zäöüß]+[A-ZÄÖÜ]/.test(word)) return "compound";
+  return "noun";
+}
+
+function detectOtherProfile(word) {
+  const normalized = normalizeWord(word);
+  if (normalized === "nicht") return "negation";
+  if (normalized === "zu") return "particle";
+  return "other";
+}
+
+function detectProfile(word, category) {
+  switch (category) {
+    case "article":
+      return detectProfileFromMap(word, ARTICLE_PROFILES, "article");
+    case "preposition":
+      return detectProfileFromMap(word, PREPOSITION_PROFILES, "preposition");
+    case "pronoun":
+      return detectProfileFromMap(word, PRONOUN_PROFILES, "pronoun");
+    case "verb":
+      return detectVerbProfile(word);
+    case "noun":
+      return detectNounProfile(word);
+    case "other":
+      return detectOtherProfile(word);
+    default:
+      return category;
+  }
+}
+
+function detectConnectorFamily(word, category) {
+  if (!CONNECTOR_CATEGORIES.has(category)) return null;
+  return CONNECTOR_FAMILY_BY_WORD[normalizeWord(word)] || null;
 }
 
 function isEligibleWord(word, previousToken) {
@@ -359,10 +597,13 @@ function buildLevelPools() {
     TEXTOS
       .filter((text) => text.nivel === level)
       .forEach((text) => {
-        text.texto.split(/\s+/).forEach((rawToken) => {
+        const rawTokens = text.texto.split(/\s+/);
+        rawTokens.forEach((rawToken, index) => {
           const cleaned = rawToken.replace(/^[^A-Za-zÄÖÜäöüß]+|[^A-Za-zÄÖÜäöüß-]+$/gu, "");
           if (!cleaned || !isWordToken(cleaned)) return;
-          levelPools[detectCategory(cleaned)].push(cleaned);
+          const previousToken = rawTokens[index - 1] || "";
+          const nextToken = rawTokens[index + 1] || "";
+          levelPools[detectCategory(cleaned, previousToken, nextToken)].push(cleaned);
         });
       });
 
@@ -388,7 +629,8 @@ function buildCandidates(text) {
     segments.forEach((segment, segmentIndex) => {
       if (!isWordToken(segment)) return;
       absoluteWordIndex += 1;
-      const previousToken = segments[segmentIndex - 1] || "";
+      const previousToken = findNeighborWord(segments, segmentIndex, -1);
+      const nextToken = findNeighborWord(segments, segmentIndex, 1);
       if (!isEligibleWord(segment, previousToken)) return;
 
       candidates.push({
@@ -397,7 +639,7 @@ function buildCandidates(text) {
         absoluteWordIndex,
         word: segment,
         normalized: normalizeWord(segment),
-        category: detectCategory(segment),
+        category: detectCategory(segment, previousToken, nextToken),
       });
     });
   });
@@ -463,46 +705,224 @@ function similarityScore(target, candidate) {
   return score;
 }
 
+function grammaticalScore(answerMeta, candidateMeta) {
+  let score = similarityScore(answerMeta.word, candidateMeta.word);
+  if (candidateMeta.category === answerMeta.category) score += 5;
+  if (candidateMeta.profile === answerMeta.profile) score += 6;
+  if (candidateMeta.family && candidateMeta.family === answerMeta.family) score += 8;
+
+  const lengthDelta = Math.abs(answerMeta.word.length - candidateMeta.word.length);
+  score += Math.max(0, 3 - lengthDelta);
+
+  if (answerMeta.category === "verb" && candidateMeta.profile === answerMeta.profile) score += 2;
+  if (answerMeta.category === "noun" && candidateMeta.profile === answerMeta.profile) score += 1;
+
+  return score;
+}
+
+function buildCandidateMeta(word, categoryOverride) {
+  const category = categoryOverride || detectCategory(word);
+  return {
+    word,
+    normalized: normalizeWord(word),
+    category,
+    profile: detectProfile(word, category),
+    family: detectConnectorFamily(word, category),
+  };
+}
+
+function isAcceptableDistractor(answerMeta, candidateMeta) {
+  if (candidateMeta.normalized === normalizeWord(answerMeta.word)) return false;
+
+  if (answerMeta.family) {
+    return CONNECTOR_CATEGORIES.has(candidateMeta.category)
+      && (candidateMeta.family === answerMeta.family || candidateMeta.category === answerMeta.category);
+  }
+
+  if (answerMeta.category === "verb") {
+    return candidateMeta.category === "verb"
+      && candidateMeta.profile !== "participle"
+      && !isLikelyParticipleLike(candidateMeta.word);
+  }
+
+  if (answerMeta.category === "pronoun") {
+    return candidateMeta.category === "pronoun" && candidateMeta.profile === answerMeta.profile;
+  }
+
+  if (["article", "preposition"].includes(answerMeta.category)) {
+    return candidateMeta.category === answerMeta.category && candidateMeta.profile === answerMeta.profile;
+  }
+
+  return candidateMeta.category === answerMeta.category;
+}
+
+function fallbackAcceptableDistractor(answerMeta, candidateMeta) {
+  if (candidateMeta.normalized === normalizeWord(answerMeta.word)) return false;
+
+  if (answerMeta.family) {
+    return CONNECTOR_CATEGORIES.has(candidateMeta.category);
+  }
+
+  if (answerMeta.category === "verb") {
+    return candidateMeta.category === "verb" && !isLikelyParticipleLike(candidateMeta.word);
+  }
+
+  if (answerMeta.category === "pronoun") {
+    return candidateMeta.category === "pronoun" && candidateMeta.profile === answerMeta.profile;
+  }
+
+  if (["article", "preposition"].includes(answerMeta.category)) {
+    return candidateMeta.category === answerMeta.category && candidateMeta.profile === answerMeta.profile;
+  }
+
+  return candidateMeta.category === answerMeta.category;
+}
+
+function ensureOptionCount(level, answer, category, options, bannedWords, seed) {
+  const answerMeta = {
+    word: answer,
+    category,
+    profile: detectProfile(answer, category),
+    family: detectConnectorFamily(answer, category),
+  };
+
+  const existing = uniqueWords(options);
+  if (existing.length >= 3) return existing.slice(0, 3);
+
+  const pools = [
+    ...(CURATED_DISTRACTOR_BANKS[category] || []),
+    ...(LEVEL_POOLS[level][category] || []),
+    ...(answerMeta.family ? Object.values(CONNECTOR_FAMILIES).flat() : []),
+  ];
+
+  const seen = new Set([...bannedWords, ...existing].map((word) => normalizeWord(word)));
+  const candidates = seededSort(
+    uniqueWords(pools)
+      .map((word) => buildCandidateMeta(word, (CURATED_DISTRACTOR_BANKS[category] || []).includes(word) ? category : undefined))
+      .filter((candidate) => !seen.has(candidate.normalized))
+      .filter((candidate) => fallbackAcceptableDistractor(answerMeta, candidate))
+      .sort((a, b) => grammaticalScore(answerMeta, b) - grammaticalScore(answerMeta, a))
+      .slice(0, 12),
+    `${seed}:fallback`,
+    (candidate) => candidate.word
+  );
+
+  for (const candidate of candidates) {
+    if (existing.length >= 3) break;
+    seen.add(candidate.normalized);
+    existing.push(candidate.word);
+  }
+
+  if (existing.length < 3 && category === "article") {
+    const relaxedArticleSource = [
+      ...(ARTICLE_SURFACE_FALLBACKS[normalizeWord(answer)] || []),
+      ...(CURATED_DISTRACTOR_BANKS.article || []),
+    ];
+
+    const relaxedArticleCandidates = seededSort(
+      uniqueWords(relaxedArticleSource)
+        .map((word) => buildCandidateMeta(word, "article"))
+        .filter((candidate) => !seen.has(candidate.normalized))
+        .filter((candidate) => candidate.category === "article")
+        .sort((a, b) => grammaticalScore(answerMeta, b) - grammaticalScore(answerMeta, a))
+        .slice(0, 12),
+      `${seed}:article-relaxed`,
+      (candidate) => candidate.word
+    );
+
+    for (const candidate of relaxedArticleCandidates) {
+      if (existing.length >= 3) break;
+      seen.add(candidate.normalized);
+      existing.push(candidate.word);
+    }
+  }
+
+  return existing.slice(0, 3);
+}
+
 function pickDistractors(level, answer, category, amount, bannedWords, seed) {
   const banned = new Set((bannedWords || []).map((item) => normalizeWord(item)));
   banned.add(normalizeWord(answer));
-
-  const bucketOrder = uniqueWords([
+  const answerMeta = {
+    word: answer,
     category,
-    category === "noun" ? "other" : "noun",
-    category === "verb" ? "other" : "verb",
-    category === "adjective" ? "adverb" : "adjective",
-    "preposition",
-    "conjunction",
-    "pronoun",
-    "adverb",
-    "other",
+    profile: detectProfile(answer, category),
+    family: detectConnectorFamily(answer, category),
+  };
+
+  const pool = uniqueWords([
+    ...(CURATED_DISTRACTOR_BANKS[category] || []),
+    ...(LEVEL_POOLS[level][category] || []),
+    ...(answerMeta.family
+      ? Object.values(CONNECTOR_FAMILIES)
+          .flat()
+          .concat(
+            LEVEL_POOLS[level].conjunction || [],
+            LEVEL_POOLS[level].adverb || [],
+            LEVEL_POOLS[level].preposition || []
+          )
+      : []),
   ]);
 
-  const candidates = [];
-  bucketOrder.forEach((bucket) => {
-    (LEVEL_POOLS[level][bucket] || []).forEach((word) => {
-      if (banned.has(normalizeWord(word))) return;
-      candidates.push(word);
-      if (candidates.length >= amount * 6) return;
+  const candidates = pool
+    .filter((word) => !banned.has(normalizeWord(word)))
+    .map((word) => {
+      const forcedCategory = (CURATED_DISTRACTOR_BANKS[category] || []).includes(word)
+        ? category
+        : answerMeta.family && (LEVEL_POOLS[level].conjunction || []).includes(word)
+          ? "conjunction"
+          : answerMeta.family && (LEVEL_POOLS[level].adverb || []).includes(word)
+            ? "adverb"
+            : answerMeta.family && (LEVEL_POOLS[level].preposition || []).includes(word)
+              ? "preposition"
+              : category;
+      return buildCandidateMeta(word, forcedCategory);
+    })
+    .filter((candidate) => isAcceptableDistractor(answerMeta, candidate));
+
+  const tiers = answerMeta.family
+    ? [
+        (candidate) => candidate.family === answerMeta.family && candidate.category === answerMeta.category,
+        (candidate) => candidate.family === answerMeta.family && CONNECTOR_CATEGORIES.has(candidate.category),
+        (candidate) => candidate.category === answerMeta.category,
+        (candidate) => CONNECTOR_CATEGORIES.has(candidate.category),
+      ]
+    : ["article", "preposition", "pronoun"].includes(answerMeta.category)
+      ? [
+          (candidate) => candidate.category === answerMeta.category && candidate.profile === answerMeta.profile,
+        ]
+      : answerMeta.profile
+      ? [
+          (candidate) => candidate.category === answerMeta.category && candidate.profile === answerMeta.profile,
+          (candidate) => candidate.category === answerMeta.category,
+        ]
+      : [
+          (candidate) => candidate.category === answerMeta.category,
+        ];
+
+  const picked = [];
+  const seen = new Set();
+
+  tiers.forEach((predicate, tierIndex) => {
+    if (picked.length >= amount) return;
+
+    seededSort(
+      candidates
+        .filter((candidate) => !seen.has(candidate.normalized))
+        .filter(predicate)
+        .sort((a, b) => grammaticalScore(answerMeta, b) - grammaticalScore(answerMeta, a))
+        .slice(0, Math.max(amount * 4, amount + 2)),
+      `${seed}:tier:${tierIndex}`,
+      (candidate) => candidate.word
+    ).forEach((candidate) => {
+      if (picked.length >= amount) return;
+      if (seen.has(candidate.normalized)) return;
+      seen.add(candidate.normalized);
+      picked.push(candidate.word);
     });
-    if (candidates.length >= amount * 6) return;
   });
 
-  const uniqueCandidates = uniqueWords(candidates)
-    .map((word) => ({
-      word,
-      score: similarityScore(answer, word),
-    }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, Math.max(amount * 3, amount))
-    .map((entry) => entry.word);
-
-  return seededSort(
-    uniqueCandidates,
-    seed,
-    (word) => word
-  ).slice(0, amount);
+  return picked.slice(0, amount);
 }
 
 function buildParagraphs(text, gaps) {
@@ -552,13 +972,20 @@ function buildExercises() {
     const blanks = gaps.map((gap, index) => {
       const id = index + 1;
       const options = tipo === "type1"
-        ? seededSort(
-            [
-              gap.word,
-              ...pickDistractors(text.nivel, gap.word, gap.category, 2, bannedAnswers, `${seedBase}:options:${id}`),
-            ],
-            `${seedBase}:shuffle:${id}`,
-            (item) => item
+        ? ensureOptionCount(
+            text.nivel,
+            gap.word,
+            gap.category,
+            seededSort(
+              [
+                gap.word,
+                ...pickDistractors(text.nivel, gap.word, gap.category, 2, bannedAnswers, `${seedBase}:options:${id}`),
+              ],
+              `${seedBase}:shuffle:${id}`,
+              (item) => item
+            ),
+            bannedAnswers,
+            `${seedBase}:options:${id}`
           )
         : [];
 

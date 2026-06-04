@@ -104,18 +104,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Stadtteil",
-          "category": "noun"
+          "type": "text",
+          "value": "Stadtteil"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Kreuzberg"
+          "type": "blank",
+          "id": 1,
+          "answer": "Kreuzberg",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -290,18 +290,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "bunt"
+          "type": "blank",
+          "id": 2,
+          "answer": "bunt",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
@@ -484,18 +484,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Stände"
+          "type": "blank",
+          "id": 3,
+          "answer": "Stände",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "mit",
-          "category": "preposition"
+          "type": "text",
+          "value": "mit"
         },
         {
           "type": "text",
@@ -670,8 +670,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "soll"
+          "type": "blank",
+          "id": 4,
+          "answer": "soll",
+          "category": "other"
         },
         {
           "type": "text",
@@ -688,10 +690,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "schlendern",
-          "category": "verb"
+          "type": "text",
+          "value": "schlendern"
         },
         {
           "type": "text",
@@ -861,7 +861,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 5,
           "answer": "sagt",
-          "category": "verb"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -1445,7 +1445,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 8,
           "answer": "sich",
-          "category": "other"
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -1924,51 +1924,51 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Stadtteil",
+        "answer": "Kreuzberg",
         "category": "noun",
         "options": [
-          "Gegenteil",
-          "Einkaufen",
-          "Stadtteil"
+          "Kreuzberg",
+          "Nachtisch",
+          "Frühstück"
         ]
       },
       {
         "id": 2,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "bunt",
+        "category": "adjective",
         "options": [
-          "hat",
-          "und",
-          "Uhr"
+          "dazu",
+          "bunt",
+          "ihre"
         ]
       },
       {
         "id": 3,
-        "answer": "mit",
-        "category": "preposition",
+        "answer": "Stände",
+        "category": "noun",
         "options": [
-          "auf",
-          "für",
-          "mit"
+          "Schuhe",
+          "Sommer",
+          "Stände"
         ]
       },
       {
         "id": 4,
-        "answer": "schlendern",
-        "category": "verb",
+        "answer": "soll",
+        "category": "other",
         "options": [
-          "sondern",
-          "schattigen",
-          "schlendern"
+          "soll",
+          "sehr",
+          "zwei"
         ]
       },
       {
         "id": 5,
         "answer": "sagt",
-        "category": "verb",
+        "category": "adjective",
         "options": [
-          "schlägt",
-          "soll",
+          "ihre",
+          "dazu",
           "sagt"
         ]
       },
@@ -1979,7 +1979,7 @@ const LUECKENTEXTE = [
         "options": [
           "spazieren",
           "entdecken",
-          "mitnehmen"
+          "schafften"
         ]
       },
       {
@@ -1987,19 +1987,19 @@ const LUECKENTEXTE = [
         "answer": "sehen",
         "category": "verb",
         "options": [
+          "heben",
           "sehen",
-          "saßen",
-          "haben"
+          "saßen"
         ]
       },
       {
         "id": 8,
         "answer": "sich",
-        "category": "other",
+        "category": "pronoun",
         "options": [
-          "sich",
-          "noch",
-          "doch"
+          "mich",
+          "euch",
+          "sich"
         ]
       },
       {
@@ -2007,8 +2007,8 @@ const LUECKENTEXTE = [
         "answer": "freuen",
         "category": "verb",
         "options": [
-          "fragen",
           "freuen",
+          "sitzen",
           "fühlen"
         ]
       },
@@ -2018,8 +2018,8 @@ const LUECKENTEXTE = [
         "category": "verb",
         "options": [
           "beschließen",
-          "entscheiden",
-          "beantworten"
+          "mitzunehmen",
+          "ausschalten"
         ]
       }
     ],
@@ -2106,18 +2106,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "um",
-          "category": "preposition"
+          "type": "text",
+          "value": "um"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "etwas"
+          "type": "blank",
+          "id": 1,
+          "answer": "etwas",
+          "category": "other"
         },
         {
           "type": "text",
@@ -2353,7 +2353,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 3,
           "answer": "ihren",
-          "category": "verb"
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -2856,18 +2856,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "hört",
-          "category": "verb"
+          "type": "text",
+          "value": "hört"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "interessiert"
+          "type": "blank",
+          "id": 7,
+          "answer": "interessiert",
+          "category": "verb"
         },
         {
           "type": "text",
@@ -2996,18 +2996,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "noch",
-          "category": "adverb"
+          "type": "text",
+          "value": "noch"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "einen"
+          "type": "blank",
+          "id": 8,
+          "answer": "einen",
+          "category": "article"
         },
         {
           "type": "text",
@@ -3110,18 +3110,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "die",
-          "category": "article"
+          "type": "text",
+          "value": "die"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "mit"
+          "type": "blank",
+          "id": 9,
+          "answer": "mit",
+          "category": "preposition"
         },
         {
           "type": "text",
@@ -3243,7 +3243,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 10,
           "answer": "zur",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -3310,12 +3310,12 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "um",
-        "category": "preposition",
+        "answer": "etwas",
+        "category": "other",
         "options": [
-          "um",
-          "da",
-          "an"
+          "jeder",
+          "sagte",
+          "etwas"
         ]
       },
       {
@@ -3323,19 +3323,19 @@ const LUECKENTEXTE = [
         "answer": "und",
         "category": "conjunction",
         "options": [
-          "ist",
-          "überraschend",
+          "außerdem",
+          "zudem",
           "und"
         ]
       },
       {
         "id": 3,
         "answer": "ihren",
-        "category": "verb",
+        "category": "pronoun",
         "options": [
-          "sehen",
+          "ihrer",
           "ihren",
-          "essen"
+          "seine"
         ]
       },
       {
@@ -3344,8 +3344,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Brot",
-          "Baum",
-          "Bank"
+          "Bank",
+          "Büro"
         ]
       },
       {
@@ -3353,9 +3353,9 @@ const LUECKENTEXTE = [
         "answer": "reden",
         "category": "verb",
         "options": [
-          "sehen",
-          "reden",
-          "haben"
+          "essen",
+          "riechen",
+          "reden"
         ]
       },
       {
@@ -3364,48 +3364,48 @@ const LUECKENTEXTE = [
         "category": "article",
         "options": [
           "einer",
-          "einen",
-          "einem"
+          "keiner",
+          "eines"
         ]
       },
       {
         "id": 7,
-        "answer": "hört",
+        "answer": "interessiert",
         "category": "verb",
         "options": [
-          "dort",
-          "hält",
-          "hört"
+          "ausprobiert",
+          "hört",
+          "interessiert"
         ]
       },
       {
         "id": 8,
-        "answer": "noch",
-        "category": "adverb",
+        "answer": "einen",
+        "category": "article",
         "options": [
-          "nach",
-          "Doch",
-          "noch"
+          "einen",
+          "den",
+          "diesen"
         ]
       },
       {
         "id": 9,
-        "answer": "die",
-        "category": "article",
+        "answer": "mit",
+        "category": "preposition",
         "options": [
-          "wie",
-          "die",
-          "sie"
+          "mit",
+          "aus",
+          "seit"
         ]
       },
       {
         "id": 10,
         "answer": "zur",
-        "category": "other",
+        "category": "adjective",
         "options": [
-          "für",
-          "zur",
-          "ins"
+          "was",
+          "hat",
+          "zur"
         ]
       }
     ],
@@ -3590,8 +3590,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "gefreut"
+          "type": "blank",
+          "id": 2,
+          "answer": "gefreut",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -3606,10 +3608,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "bringt",
-          "category": "verb"
+          "type": "text",
+          "value": "bringt"
         },
         {
           "type": "text",
@@ -4040,10 +4040,8 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
@@ -4058,8 +4056,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "setzen"
+          "type": "blank",
+          "id": 6,
+          "answer": "setzen",
+          "category": "verb"
         },
         {
           "type": "text",
@@ -4294,18 +4294,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "die",
-          "category": "article"
+          "type": "text",
+          "value": "die"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Fütterung"
+          "type": "blank",
+          "id": 8,
+          "answer": "Fütterung",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -4392,10 +4392,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "Futter",
-          "category": "noun"
+          "type": "text",
+          "value": "Futter"
         },
         {
           "type": "text",
@@ -4410,8 +4408,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "den"
+          "type": "blank",
+          "id": 9,
+          "answer": "den",
+          "category": "article"
         },
         {
           "type": "text",
@@ -4522,18 +4522,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "über",
-          "category": "preposition"
+          "type": "text",
+          "value": "über"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "die"
+          "type": "blank",
+          "id": 10,
+          "answer": "die",
+          "category": "article"
         },
         {
           "type": "text",
@@ -4595,19 +4595,19 @@ const LUECKENTEXTE = [
         "answer": "damit",
         "category": "conjunction",
         "options": [
-          "darin",
+          "zudem",
           "damit",
-          "sucht"
+          "darum"
         ]
       },
       {
         "id": 2,
-        "answer": "bringt",
-        "category": "verb",
+        "answer": "gefreut",
+        "category": "adjective",
         "options": [
-          "bestätigt",
-          "beiden",
-          "bringt"
+          "geistig",
+          "schlägt",
+          "gefreut"
         ]
       },
       {
@@ -4615,8 +4615,8 @@ const LUECKENTEXTE = [
         "answer": "viele",
         "category": "other",
         "options": [
-          "neues",
-          "Rolle",
+          "alles",
+          "darin",
           "viele"
         ]
       },
@@ -4625,8 +4625,8 @@ const LUECKENTEXTE = [
         "answer": "sie",
         "category": "pronoun",
         "options": [
-          "nie",
-          "sei",
+          "wir",
+          "du",
           "sie"
         ]
       },
@@ -4635,19 +4635,19 @@ const LUECKENTEXTE = [
         "answer": "Pause",
         "category": "noun",
         "options": [
-          "Party",
-          "Wiese",
+          "Pläne",
+          "Reise",
           "Pause"
         ]
       },
       {
         "id": 6,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "setzen",
+        "category": "verb",
         "options": [
-          "und",
-          "hat",
-          "gut"
+          "machen",
+          "setzen",
+          "sollen"
         ]
       },
       {
@@ -4657,37 +4657,37 @@ const LUECKENTEXTE = [
         "options": [
           "von",
           "aus",
-          "auf"
+          "nach"
         ]
       },
       {
         "id": 8,
-        "answer": "die",
-        "category": "article",
+        "answer": "Fütterung",
+        "category": "noun",
         "options": [
-          "die",
-          "der",
-          "des"
+          "Fütterung",
+          "Kreuzberg",
+          "Bedeutung"
         ]
       },
       {
         "id": 9,
-        "answer": "Futter",
-        "category": "noun",
+        "answer": "den",
+        "category": "article",
         "options": [
-          "Futter",
-          "Felder",
-          "Sommer"
+          "diesen",
+          "einen",
+          "den"
         ]
       },
       {
         "id": 10,
-        "answer": "über",
-        "category": "preposition",
+        "answer": "die",
+        "category": "article",
         "options": [
-          "hier",
-          "über",
-          "vier"
+          "eine",
+          "die",
+          "keine"
         ]
       }
     ],
@@ -5168,18 +5168,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "Nachtisch",
-          "category": "noun"
+          "type": "text",
+          "value": "Nachtisch"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "zu"
+          "type": "blank",
+          "id": 5,
+          "answer": "zu",
+          "category": "preposition"
         },
         {
           "type": "text",
@@ -5480,18 +5480,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "sie",
-          "category": "pronoun"
+          "type": "text",
+          "value": "sie"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "einen"
+          "type": "blank",
+          "id": 8,
+          "answer": "einen",
+          "category": "article"
         },
         {
           "type": "text",
@@ -5684,18 +5684,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "sie"
+          "type": "blank",
+          "id": 10,
+          "answer": "sie",
+          "category": "pronoun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "gehen",
-          "category": "verb"
+          "type": "text",
+          "value": "gehen"
         },
         {
           "type": "text",
@@ -5741,9 +5741,9 @@ const LUECKENTEXTE = [
         "answer": "in",
         "category": "preposition",
         "options": [
-          "zu",
-          "in",
-          "Im"
+          "über",
+          "auf",
+          "in"
         ]
       },
       {
@@ -5751,9 +5751,9 @@ const LUECKENTEXTE = [
         "answer": "das",
         "category": "article",
         "options": [
-          "das",
-          "die",
-          "Was"
+          "dieses",
+          "kein",
+          "das"
         ]
       },
       {
@@ -5762,8 +5762,8 @@ const LUECKENTEXTE = [
         "category": "article",
         "options": [
           "ein",
-          "der",
-          "des"
+          "dieses",
+          "kein"
         ]
       },
       {
@@ -5772,18 +5772,18 @@ const LUECKENTEXTE = [
         "category": "verb",
         "options": [
           "genießen",
-          "gefunden",
-          "gefahren"
+          "arbeiten",
+          "brauchen"
         ]
       },
       {
         "id": 5,
-        "answer": "Nachtisch",
-        "category": "noun",
+        "answer": "zu",
+        "category": "preposition",
         "options": [
-          "Nachteile",
-          "Nachtisch",
-          "plötzlich"
+          "zu",
+          "bei",
+          "mit"
         ]
       },
       {
@@ -5791,9 +5791,9 @@ const LUECKENTEXTE = [
         "answer": "und",
         "category": "conjunction",
         "options": [
+          "zudem",
           "und",
-          "uns",
-          "ist"
+          "sowie"
         ]
       },
       {
@@ -5801,19 +5801,19 @@ const LUECKENTEXTE = [
         "answer": "Wahl",
         "category": "noun",
         "options": [
-          "Obst",
-          "Käse",
+          "Anna",
+          "Ende",
           "Wahl"
         ]
       },
       {
         "id": 8,
-        "answer": "sie",
-        "category": "pronoun",
+        "answer": "einen",
+        "category": "article",
         "options": [
-          "sie",
-          "sowie",
-          "nie"
+          "einen",
+          "den",
+          "keinen"
         ]
       },
       {
@@ -5821,19 +5821,19 @@ const LUECKENTEXTE = [
         "answer": "um",
         "category": "preposition",
         "options": [
-          "so",
-          "ob",
-          "um"
+          "ohne",
+          "um",
+          "gegen"
         ]
       },
       {
         "id": 10,
-        "answer": "gehen",
-        "category": "verb",
+        "answer": "sie",
+        "category": "pronoun",
         "options": [
-          "gehen",
-          "reden",
-          "haben"
+          "sie",
+          "du",
+          "es"
         ]
       }
     ],
@@ -6045,7 +6045,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 2,
           "answer": "sind",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -6156,18 +6156,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "Woche",
-          "category": "noun"
+          "type": "text",
+          "value": "Woche"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "eingeladen"
+          "type": "blank",
+          "id": 3,
+          "answer": "eingeladen",
+          "category": "verb"
         },
         {
           "type": "text",
@@ -6535,7 +6535,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 6,
           "answer": "sich",
-          "category": "other"
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -6789,7 +6789,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 8,
           "answer": "schließlich",
-          "category": "adjective"
+          "category": "adverb"
         },
         {
           "type": "text",
@@ -6892,10 +6892,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "entschieden",
-          "category": "verb"
+          "type": "text",
+          "value": "entschieden"
         },
         {
           "type": "text",
@@ -6918,8 +6916,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "zufrieden"
+          "type": "blank",
+          "id": 9,
+          "answer": "zufrieden",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -7088,28 +7088,28 @@ const LUECKENTEXTE = [
         "category": "pronoun",
         "options": [
           "sie",
-          "sei",
-          "sowie"
+          "wir",
+          "ich"
         ]
       },
       {
         "id": 2,
         "answer": "sind",
-        "category": "other",
+        "category": "adjective",
         "options": [
+          "dazu",
           "sind",
-          "sein",
           "soll"
         ]
       },
       {
         "id": 3,
-        "answer": "Woche",
-        "category": "noun",
+        "answer": "eingeladen",
+        "category": "verb",
         "options": [
-          "Viele",
-          "Wiese",
-          "Woche"
+          "eingeladen",
+          "einzubauen",
+          "engagieren"
         ]
       },
       {
@@ -7117,8 +7117,8 @@ const LUECKENTEXTE = [
         "answer": "die",
         "category": "article",
         "options": [
-          "wie",
-          "nie",
+          "keine",
+          "eine",
           "die"
         ]
       },
@@ -7127,19 +7127,19 @@ const LUECKENTEXTE = [
         "answer": "zu",
         "category": "preposition",
         "options": [
-          "um",
+          "bei",
           "zu",
-          "in"
+          "von"
         ]
       },
       {
         "id": 6,
         "answer": "sich",
-        "category": "other",
+        "category": "pronoun",
         "options": [
-          "nach",
           "sich",
-          "auch"
+          "ihn",
+          "ihnen"
         ]
       },
       {
@@ -7147,29 +7147,29 @@ const LUECKENTEXTE = [
         "answer": "Kopfhörer",
         "category": "noun",
         "options": [
-          "Kinder",
           "Techniker",
+          "Nachtisch",
           "Kopfhörer"
         ]
       },
       {
         "id": 8,
         "answer": "schließlich",
-        "category": "adjective",
+        "category": "adverb",
         "options": [
+          "auch",
           "schließlich",
-          "natürlich",
-          "frisch"
+          "wirklich"
         ]
       },
       {
         "id": 9,
-        "answer": "entschieden",
-        "category": "verb",
+        "answer": "zufrieden",
+        "category": "adjective",
         "options": [
-          "übernachten",
-          "anzuschauen",
-          "entschieden"
+          "zufrieden",
+          "ruhigeren",
+          "probieren"
         ]
       },
       {
@@ -7177,9 +7177,9 @@ const LUECKENTEXTE = [
         "answer": "es",
         "category": "pronoun",
         "options": [
-          "er",
           "es",
-          "in"
+          "du",
+          "wir"
         ]
       }
     ],
@@ -7534,18 +7534,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Abend"
+          "type": "blank",
+          "id": 3,
+          "answer": "Abend",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "kehren",
-          "category": "verb"
+          "type": "text",
+          "value": "kehren"
         },
         {
           "type": "text",
@@ -7926,10 +7926,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "gehen",
-          "category": "verb"
+          "type": "text",
+          "value": "gehen"
         },
         {
           "type": "text",
@@ -7944,8 +7942,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "einen"
+          "type": "blank",
+          "id": 6,
+          "answer": "einen",
+          "category": "article"
         },
         {
           "type": "text",
@@ -8056,18 +8056,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "nächsten",
-          "category": "verb"
+          "type": "text",
+          "value": "nächsten"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Morgen"
+          "type": "blank",
+          "id": 7,
+          "answer": "Morgen",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -8188,10 +8188,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "Gruppe",
-          "category": "noun"
+          "type": "text",
+          "value": "Gruppe"
         },
         {
           "type": "text",
@@ -8206,8 +8204,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "sich"
+          "type": "blank",
+          "id": 8,
+          "answer": "sich",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -8529,9 +8529,9 @@ const LUECKENTEXTE = [
         "answer": "lange",
         "category": "other",
         "options": [
+          "sagte",
           "lange",
-          "liebt",
-          "liegt"
+          "etwas"
         ]
       },
       {
@@ -8539,19 +8539,19 @@ const LUECKENTEXTE = [
         "answer": "freut",
         "category": "verb",
         "options": [
+          "sucht",
           "freut",
-          "führt",
           "fühlt"
         ]
       },
       {
         "id": 3,
-        "answer": "kehren",
-        "category": "verb",
+        "answer": "Abend",
+        "category": "noun",
         "options": [
-          "kehren",
-          "klagen",
-          "können"
+          "Pläne",
+          "Abend",
+          "Party"
         ]
       },
       {
@@ -8559,9 +8559,9 @@ const LUECKENTEXTE = [
         "answer": "er",
         "category": "pronoun",
         "options": [
-          "Es",
+          "ihr",
           "er",
-          "zu"
+          "wir"
         ]
       },
       {
@@ -8569,39 +8569,39 @@ const LUECKENTEXTE = [
         "answer": "den",
         "category": "article",
         "options": [
+          "keinen",
           "den",
-          "des",
-          "die"
+          "diesen"
         ]
       },
       {
         "id": 6,
-        "answer": "gehen",
-        "category": "verb",
+        "answer": "einen",
+        "category": "article",
         "options": [
-          "haben",
-          "gehen",
-          "sehen"
+          "einen",
+          "diesen",
+          "keinen"
         ]
       },
       {
         "id": 7,
-        "answer": "nächsten",
-        "category": "verb",
+        "answer": "Morgen",
+        "category": "noun",
         "options": [
-          "normalen",
-          "nächsten",
-          "frischen"
+          "Blumen",
+          "Morgen",
+          "Museen"
         ]
       },
       {
         "id": 8,
-        "answer": "Gruppe",
-        "category": "noun",
+        "answer": "sich",
+        "category": "pronoun",
         "options": [
-          "Gruppe",
-          "Gemüse",
-          "Gefühl"
+          "euch",
+          "ihn",
+          "sich"
         ]
       },
       {
@@ -8609,9 +8609,9 @@ const LUECKENTEXTE = [
         "answer": "auf",
         "category": "preposition",
         "options": [
-          "aus",
-          "alt",
-          "auf"
+          "neben",
+          "auf",
+          "über"
         ]
       },
       {
@@ -8620,8 +8620,8 @@ const LUECKENTEXTE = [
         "category": "pronoun",
         "options": [
           "sie",
-          "nie",
-          "uns"
+          "du",
+          "wir"
         ]
       }
     ],
@@ -8830,18 +8830,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "perfekt"
+          "type": "blank",
+          "id": 2,
+          "answer": "perfekt",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "so",
-          "category": "other"
+          "type": "text",
+          "value": "so"
         },
         {
           "type": "text",
@@ -8960,18 +8960,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "einem"
+          "type": "blank",
+          "id": 3,
+          "answer": "einem",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "schattigen",
-          "category": "verb"
+          "type": "text",
+          "value": "schattigen"
         },
         {
           "type": "text",
@@ -9238,18 +9238,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "darin",
-          "category": "other"
+          "type": "text",
+          "value": "darin"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "zu"
+          "type": "blank",
+          "id": 5,
+          "answer": "zu",
+          "category": "preposition"
         },
         {
           "type": "text",
@@ -9490,18 +9490,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Tag"
+          "type": "blank",
+          "id": 7,
+          "answer": "Tag",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "zu",
-          "category": "preposition"
+          "type": "text",
+          "value": "zu"
         },
         {
           "type": "text",
@@ -9760,18 +9760,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "weil",
-          "category": "conjunction"
+          "type": "text",
+          "value": "weil"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "der"
+          "type": "blank",
+          "id": 9,
+          "answer": "der",
+          "category": "article"
         },
         {
           "type": "text",
@@ -9890,18 +9890,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "nächsten",
-          "category": "verb"
+          "type": "text",
+          "value": "nächsten"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Ausflug"
+          "type": "blank",
+          "id": 10,
+          "answer": "Ausflug",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -9971,29 +9971,29 @@ const LUECKENTEXTE = [
         "answer": "an",
         "category": "preposition",
         "options": [
-          "um",
+          "zwischen",
           "in",
           "an"
         ]
       },
       {
         "id": 2,
-        "answer": "so",
-        "category": "other",
+        "answer": "perfekt",
+        "category": "adjective",
         "options": [
-          "so",
-          "wo",
-          "in"
+          "perfekt",
+          "schlägt",
+          "frische"
         ]
       },
       {
         "id": 3,
-        "answer": "schattigen",
-        "category": "verb",
+        "answer": "einem",
+        "category": "article",
         "options": [
-          "schattigen",
-          "eingeladen",
-          "gebackenen"
+          "dem",
+          "einem",
+          "diesem"
         ]
       },
       {
@@ -10001,19 +10001,19 @@ const LUECKENTEXTE = [
         "answer": "Male",
         "category": "noun",
         "options": [
+          "Obst",
           "Male",
-          "Mann",
-          "Anna"
+          "Mann"
         ]
       },
       {
         "id": 5,
-        "answer": "darin",
-        "category": "other",
+        "answer": "zu",
+        "category": "preposition",
         "options": [
-          "darin",
-          "damit",
-          "wohin"
+          "bei",
+          "von",
+          "zu"
         ]
       },
       {
@@ -10021,19 +10021,19 @@ const LUECKENTEXTE = [
         "answer": "Essen",
         "category": "noun",
         "options": [
-          "Affen",
           "Essen",
-          "Erdbeeren"
+          "Lachen",
+          "Löwen"
         ]
       },
       {
         "id": 7,
-        "answer": "zu",
-        "category": "preposition",
+        "answer": "Tag",
+        "category": "noun",
         "options": [
-          "zu",
-          "wo",
-          "um"
+          "Tag",
+          "Max",
+          "Weg"
         ]
       },
       {
@@ -10043,27 +10043,27 @@ const LUECKENTEXTE = [
         "options": [
           "Sonne",
           "Ebene",
-          "Stand"
+          "Pläne"
         ]
       },
       {
         "id": 9,
-        "answer": "weil",
-        "category": "conjunction",
+        "answer": "der",
+        "category": "article",
         "options": [
-          "denn",
-          "weil",
-          "wird"
+          "der",
+          "dieser",
+          "ein"
         ]
       },
       {
         "id": 10,
-        "answer": "nächsten",
-        "category": "verb",
+        "answer": "Ausflug",
+        "category": "noun",
         "options": [
-          "besuchen",
-          "normalen",
-          "nächsten"
+          "Samstag",
+          "Ankunft",
+          "Ausflug"
         ]
       }
     ],
@@ -10142,18 +10142,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Museum",
-          "category": "noun"
+          "type": "text",
+          "value": "Museum"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "das"
+          "type": "blank",
+          "id": 1,
+          "answer": "das",
+          "category": "article"
         },
         {
           "type": "text",
@@ -10378,18 +10378,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "die"
+          "type": "blank",
+          "id": 3,
+          "answer": "die",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "Klasse",
-          "category": "noun"
+          "type": "text",
+          "value": "Klasse"
         },
         {
           "type": "text",
@@ -10624,18 +10624,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Neues"
+          "type": "blank",
+          "id": 5,
+          "answer": "Neues",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "das",
-          "category": "article"
+          "type": "text",
+          "value": "das"
         },
         {
           "type": "text",
@@ -10992,18 +10992,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "würden",
-          "category": "verb"
+          "type": "text",
+          "value": "würden"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "allerdings"
+          "type": "blank",
+          "id": 8,
+          "answer": "allerdings",
+          "category": "other"
         },
         {
           "type": "text",
@@ -11236,18 +11236,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "müde"
+          "type": "blank",
+          "id": 10,
+          "answer": "müde",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "trotzdem",
-          "category": "adverb"
+          "type": "text",
+          "value": "trotzdem"
         },
         {
           "type": "text",
@@ -11306,12 +11306,12 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Museum",
-        "category": "noun",
+        "answer": "das",
+        "category": "article",
         "options": [
-          "Museum",
-          "Konsum",
-          "Museen"
+          "kein",
+          "das",
+          "ein"
         ]
       },
       {
@@ -11319,19 +11319,19 @@ const LUECKENTEXTE = [
         "answer": "Führer",
         "category": "noun",
         "options": [
+          "Sommer",
           "Futter",
-          "Führer",
-          "Früher"
+          "Führer"
         ]
       },
       {
         "id": 3,
-        "answer": "Klasse",
-        "category": "noun",
+        "answer": "die",
+        "category": "article",
         "options": [
-          "Preise",
-          "Klasse",
-          "Gemüse"
+          "diese",
+          "keine",
+          "die"
         ]
       },
       {
@@ -11340,18 +11340,18 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Kunstwerke",
-          "Marktplatz",
-          "Nachmittag"
+          "Homeoffice",
+          "Wochenende"
         ]
       },
       {
         "id": 5,
-        "answer": "das",
-        "category": "article",
+        "answer": "Neues",
+        "category": "noun",
         "options": [
-          "der",
-          "das",
-          "Was"
+          "Abend",
+          "Stand",
+          "Neues"
         ]
       },
       {
@@ -11359,9 +11359,9 @@ const LUECKENTEXTE = [
         "answer": "machte",
         "category": "other",
         "options": [
-          "setzte",
-          "konnte",
-          "machte"
+          "machte",
+          "führte",
+          "zeigte"
         ]
       },
       {
@@ -11371,17 +11371,17 @@ const LUECKENTEXTE = [
         "options": [
           "Obst",
           "Ende",
-          "Käse"
+          "Eier"
         ]
       },
       {
         "id": 8,
-        "answer": "würden",
-        "category": "verb",
+        "answer": "allerdings",
+        "category": "other",
         "options": [
-          "wissen",
-          "werden",
-          "würden"
+          "allerdings",
+          "unterhält",
+          "glitzerte"
         ]
       },
       {
@@ -11389,19 +11389,19 @@ const LUECKENTEXTE = [
         "answer": "nach",
         "category": "preposition",
         "options": [
+          "aus",
           "nach",
-          "natürlich",
-          "sich"
+          "von"
         ]
       },
       {
         "id": 10,
-        "answer": "trotzdem",
-        "category": "adverb",
+        "answer": "müde",
+        "category": "adjective",
         "options": [
-          "besuchen",
-          "trotzdem",
-          "genießen"
+          "dazu",
+          "müde",
+          "sagt"
         ]
       }
     ],
@@ -12074,18 +12074,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "es"
+          "type": "blank",
+          "id": 5,
+          "answer": "es",
+          "category": "pronoun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "ihm",
-          "category": "other"
+          "type": "text",
+          "value": "ihm"
         },
         {
           "type": "text",
@@ -12212,8 +12212,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "der"
+          "type": "blank",
+          "id": 6,
+          "answer": "der",
+          "category": "article"
         },
         {
           "type": "text",
@@ -12228,10 +12230,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "eigentlich",
-          "category": "adjective"
+          "type": "text",
+          "value": "eigentlich"
         },
         {
           "type": "text",
@@ -12371,7 +12371,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 7,
           "answer": "pro",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -12514,18 +12514,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "sinnvoll"
+          "type": "blank",
+          "id": 8,
+          "answer": "sinnvoll",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": ". „"
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "Man",
-          "category": "pronoun"
+          "type": "text",
+          "value": "Man"
         },
         {
           "type": "text",
@@ -12890,8 +12890,8 @@ const LUECKENTEXTE = [
         "category": "preposition",
         "options": [
           "zu",
-          "da",
-          "um"
+          "bei",
+          "nach"
         ]
       },
       {
@@ -12901,7 +12901,7 @@ const LUECKENTEXTE = [
         "options": [
           "Leute",
           "Woche",
-          "Wiese"
+          "Pläne"
         ]
       },
       {
@@ -12910,7 +12910,7 @@ const LUECKENTEXTE = [
         "category": "verb",
         "options": [
           "ist",
-          "war",
+          "hört",
           "hat"
         ]
       },
@@ -12919,49 +12919,49 @@ const LUECKENTEXTE = [
         "answer": "Kontakt",
         "category": "noun",
         "options": [
-          "Tomaten",
+          "Kleider",
           "Kontakt",
-          "Wochenmarkt"
+          "Marktes"
         ]
       },
       {
         "id": 5,
-        "answer": "ihm",
-        "category": "other",
+        "answer": "es",
+        "category": "pronoun",
         "options": [
-          "zum",
-          "zur",
-          "ihm"
+          "es",
+          "sie",
+          "ihr"
         ]
       },
       {
         "id": 6,
-        "answer": "eigentlich",
-        "category": "adjective",
+        "answer": "der",
+        "category": "article",
         "options": [
-          "ehrenamtlich",
-          "eigentlich",
-          "eingeladen"
+          "dieser",
+          "der",
+          "des"
         ]
       },
       {
         "id": 7,
         "answer": "pro",
-        "category": "other",
+        "category": "adjective",
         "options": [
-          "zur",
-          "wie",
-          "pro"
+          "pro",
+          "ins",
+          "ist"
         ]
       },
       {
         "id": 8,
-        "answer": "Man",
-        "category": "pronoun",
+        "answer": "sinnvoll",
+        "category": "adjective",
         "options": [
-          "Stefan",
-          "Max",
-          "Man"
+          "sinnvoll",
+          "springen",
+          "stabilen"
         ]
       },
       {
@@ -12970,8 +12970,8 @@ const LUECKENTEXTE = [
         "category": "article",
         "options": [
           "das",
-          "des",
-          "der"
+          "ein",
+          "kein"
         ]
       },
       {
@@ -12979,8 +12979,8 @@ const LUECKENTEXTE = [
         "answer": "aus",
         "category": "preposition",
         "options": [
-          "von",
-          "vor",
+          "bei",
+          "mit",
           "aus"
         ]
       }
@@ -13811,7 +13811,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 6,
           "answer": "günstiges",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -13956,18 +13956,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "natürlich",
-          "category": "adjective"
+          "type": "text",
+          "value": "natürlich"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "auch"
+          "type": "blank",
+          "id": 7,
+          "answer": "auch",
+          "category": "adverb"
         },
         {
           "type": "text",
@@ -14105,7 +14105,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 8,
           "answer": "nächsten",
-          "category": "verb"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -14521,19 +14521,19 @@ const LUECKENTEXTE = [
       {
         "id": 6,
         "answer": "günstiges",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 7,
-        "answer": "natürlich",
-        "category": "adjective",
+        "answer": "auch",
+        "category": "adverb",
         "options": []
       },
       {
         "id": 8,
         "answer": "nächsten",
-        "category": "verb",
+        "category": "adjective",
         "options": []
       },
       {
@@ -14551,18 +14551,8 @@ const LUECKENTEXTE = [
     ],
     "wordBank": [
       {
-        "id": "distractor-5",
-        "text": "nie",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-3",
-        "text": "Schritte",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-1",
-        "text": "kurzen",
+        "id": "distractor-4",
+        "text": "Pflegern",
         "correctFor": null
       },
       {
@@ -14591,14 +14581,14 @@ const LUECKENTEXTE = [
         "correctFor": 3
       },
       {
-        "id": "distractor-4",
-        "text": "Rundgang",
-        "correctFor": null
-      },
-      {
         "id": "answer-6",
         "text": "günstiges",
         "correctFor": 6
+      },
+      {
+        "id": "distractor-5",
+        "text": "ich",
+        "correctFor": null
       },
       {
         "id": "answer-10",
@@ -14606,24 +14596,34 @@ const LUECKENTEXTE = [
         "correctFor": 10
       },
       {
+        "id": "distractor-3",
+        "text": "Rundgang",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-1",
+        "text": "einen",
+        "correctFor": null
+      },
+      {
         "id": "answer-9",
         "text": "das",
         "correctFor": 9
       },
       {
-        "id": "distractor-2",
-        "text": "kehren",
-        "correctFor": null
-      },
-      {
         "id": "answer-7",
-        "text": "natürlich",
+        "text": "auch",
         "correctFor": 7
       },
       {
         "id": "answer-8",
         "text": "nächsten",
         "correctFor": 8
+      },
+      {
+        "id": "distractor-2",
+        "text": "diesen",
+        "correctFor": null
       }
     ]
   },
@@ -14862,18 +14862,18 @@ const LUECKENTEXTE = [
           "value": ": "
         },
         {
-          "type": "text",
-          "value": "Obwohl"
+          "type": "blank",
+          "id": 2,
+          "answer": "Obwohl",
+          "category": "conjunction"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "neun",
-          "category": "other"
+          "type": "text",
+          "value": "neun"
         },
         {
           "type": "text",
@@ -15474,8 +15474,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "empfiehlt"
+          "type": "blank",
+          "id": 6,
+          "answer": "empfiehlt",
+          "category": "verb"
         },
         {
           "type": "text",
@@ -15490,10 +15492,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "Schritte",
-          "category": "noun"
+          "type": "text",
+          "value": "Schritte"
         },
         {
           "type": "text",
@@ -15620,18 +15620,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "mag"
+          "type": "blank",
+          "id": 7,
+          "answer": "mag",
+          "category": "other"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "hält",
-          "category": "verb"
+          "type": "text",
+          "value": "hält"
         },
         {
           "type": "text",
@@ -15774,18 +15774,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "mehr"
+          "type": "blank",
+          "id": 8,
+          "answer": "mehr",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "Hülsenfrüchte",
-          "category": "noun"
+          "type": "text",
+          "value": "Hülsenfrüchte"
         },
         {
           "type": "text",
@@ -16076,18 +16076,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "der"
+          "type": "blank",
+          "id": 10,
+          "answer": "der",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "Welt",
-          "category": "noun"
+          "type": "text",
+          "value": "Welt"
         },
         {
           "type": "text",
@@ -16168,8 +16168,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 2,
-        "answer": "neun",
-        "category": "other",
+        "answer": "Obwohl",
+        "category": "conjunction",
         "options": []
       },
       {
@@ -16192,20 +16192,20 @@ const LUECKENTEXTE = [
       },
       {
         "id": 6,
-        "answer": "Schritte",
-        "category": "noun",
-        "options": []
-      },
-      {
-        "id": 7,
-        "answer": "hält",
+        "answer": "empfiehlt",
         "category": "verb",
         "options": []
       },
       {
+        "id": 7,
+        "answer": "mag",
+        "category": "other",
+        "options": []
+      },
+      {
         "id": 8,
-        "answer": "Hülsenfrüchte",
-        "category": "noun",
+        "answer": "mehr",
+        "category": "adjective",
         "options": []
       },
       {
@@ -16216,36 +16216,46 @@ const LUECKENTEXTE = [
       },
       {
         "id": 10,
-        "answer": "Welt",
-        "category": "noun",
+        "answer": "der",
+        "category": "article",
         "options": []
       }
     ],
     "wordBank": [
+      {
+        "id": "answer-7",
+        "text": "mag",
+        "correctFor": 7
+      },
       {
         "id": "answer-1",
         "text": "zwischen",
         "correctFor": 1
       },
       {
-        "id": "answer-8",
-        "text": "Hülsenfrüchte",
-        "correctFor": 8
-      },
-      {
-        "id": "distractor-3",
-        "text": "sind",
-        "correctFor": null
-      },
-      {
         "id": "answer-10",
-        "text": "Welt",
+        "text": "der",
         "correctFor": 10
       },
       {
-        "id": "distractor-1",
-        "text": "gefunden",
+        "id": "distractor-4",
+        "text": "aber",
         "correctFor": null
+      },
+      {
+        "id": "distractor-3",
+        "text": "während",
+        "correctFor": null
+      },
+      {
+        "id": "answer-2",
+        "text": "Obwohl",
+        "correctFor": 2
+      },
+      {
+        "id": "answer-6",
+        "text": "empfiehlt",
+        "correctFor": 6
       },
       {
         "id": "answer-5",
@@ -16263,18 +16273,13 @@ const LUECKENTEXTE = [
         "correctFor": 3
       },
       {
-        "id": "answer-7",
-        "text": "hält",
-        "correctFor": 7
+        "id": "answer-8",
+        "text": "mehr",
+        "correctFor": 8
       },
       {
-        "id": "distractor-2",
-        "text": "bekommen",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-4",
-        "text": "voll",
+        "id": "distractor-1",
+        "text": "in",
         "correctFor": null
       },
       {
@@ -16283,14 +16288,9 @@ const LUECKENTEXTE = [
         "correctFor": 9
       },
       {
-        "id": "answer-2",
-        "text": "neun",
-        "correctFor": 2
-      },
-      {
-        "id": "answer-6",
-        "text": "Schritte",
-        "correctFor": 6
+        "id": "distractor-2",
+        "text": "an",
+        "correctFor": null
       },
       {
         "id": "answer-4",
@@ -16380,18 +16380,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Viele"
+          "type": "blank",
+          "id": 1,
+          "answer": "Viele",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Menschen",
-          "category": "noun"
+          "type": "text",
+          "value": "Menschen"
         },
         {
           "type": "text",
@@ -16812,18 +16812,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "auf"
+          "type": "blank",
+          "id": 4,
+          "answer": "auf",
+          "category": "preposition"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "häufige",
-          "category": "other"
+          "type": "text",
+          "value": "häufige"
         },
         {
           "type": "text",
@@ -16950,18 +16950,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "von",
-          "category": "preposition"
+          "type": "text",
+          "value": "von"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Lebensmitteln"
+          "type": "blank",
+          "id": 5,
+          "answer": "Lebensmitteln",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -17236,10 +17236,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "wechseln",
-          "category": "verb"
+          "type": "text",
+          "value": "wechseln"
         },
         {
           "type": "text",
@@ -17254,8 +17252,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "die"
+          "type": "blank",
+          "id": 7,
+          "answer": "die",
+          "category": "article"
         },
         {
           "type": "text",
@@ -17392,18 +17392,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "es",
-          "category": "pronoun"
+          "type": "text",
+          "value": "es"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "ungerecht"
+          "type": "blank",
+          "id": 8,
+          "answer": "ungerecht",
+          "category": "verb"
         },
         {
           "type": "text",
@@ -17762,7 +17762,7 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Menschen",
+        "answer": "Viele",
         "category": "noun",
         "options": []
       },
@@ -17780,14 +17780,14 @@ const LUECKENTEXTE = [
       },
       {
         "id": 4,
-        "answer": "häufige",
-        "category": "other",
+        "answer": "auf",
+        "category": "preposition",
         "options": []
       },
       {
         "id": 5,
-        "answer": "von",
-        "category": "preposition",
+        "answer": "Lebensmitteln",
+        "category": "noun",
         "options": []
       },
       {
@@ -17798,14 +17798,14 @@ const LUECKENTEXTE = [
       },
       {
         "id": 7,
-        "answer": "wechseln",
-        "category": "verb",
+        "answer": "die",
+        "category": "article",
         "options": []
       },
       {
         "id": 8,
-        "answer": "es",
-        "category": "pronoun",
+        "answer": "ungerecht",
+        "category": "verb",
         "options": []
       },
       {
@@ -17823,6 +17823,11 @@ const LUECKENTEXTE = [
     ],
     "wordBank": [
       {
+        "id": "answer-4",
+        "text": "auf",
+        "correctFor": 4
+      },
+      {
         "id": "answer-6",
         "text": "verursacht",
         "correctFor": 6
@@ -17833,39 +17838,34 @@ const LUECKENTEXTE = [
         "correctFor": 3
       },
       {
-        "id": "distractor-4",
-        "text": "soll",
-        "correctFor": null
-      },
-      {
-        "id": "answer-8",
-        "text": "es",
-        "correctFor": 8
-      },
-      {
-        "id": "distractor-2",
-        "text": "modernen",
-        "correctFor": null
-      },
-      {
-        "id": "answer-4",
-        "text": "häufige",
-        "correctFor": 4
-      },
-      {
-        "id": "answer-1",
-        "text": "Menschen",
-        "correctFor": 1
-      },
-      {
-        "id": "distractor-1",
-        "text": "Kollegen",
-        "correctFor": null
+        "id": "answer-5",
+        "text": "Lebensmitteln",
+        "correctFor": 5
       },
       {
         "id": "answer-7",
-        "text": "wechseln",
+        "text": "die",
         "correctFor": 7
+      },
+      {
+        "id": "answer-1",
+        "text": "Viele",
+        "correctFor": 1
+      },
+      {
+        "id": "answer-8",
+        "text": "ungerecht",
+        "correctFor": 8
+      },
+      {
+        "id": "distractor-5",
+        "text": "Gemüse",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-3",
+        "text": "viel",
+        "correctFor": null
       },
       {
         "id": "answer-9",
@@ -17873,14 +17873,14 @@ const LUECKENTEXTE = [
         "correctFor": 9
       },
       {
-        "id": "answer-5",
-        "text": "von",
-        "correctFor": 5
-      },
-      {
         "id": "answer-2",
         "text": "sind",
         "correctFor": 2
+      },
+      {
+        "id": "distractor-1",
+        "text": "Rolle",
+        "correctFor": null
       },
       {
         "id": "answer-10",
@@ -17888,13 +17888,13 @@ const LUECKENTEXTE = [
         "correctFor": 10
       },
       {
-        "id": "distractor-3",
-        "text": "Hund",
+        "id": "distractor-4",
+        "text": "mehr",
         "correctFor": null
       },
       {
-        "id": "distractor-5",
-        "text": "Arbeit",
+        "id": "distractor-2",
+        "text": "Leute",
         "correctFor": null
       }
     ]
@@ -18118,18 +18118,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "und"
+          "type": "blank",
+          "id": 2,
+          "answer": "und",
+          "category": "conjunction"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "Automatisierung",
-          "category": "noun"
+          "type": "text",
+          "value": "Automatisierung"
         },
         {
           "type": "text",
@@ -18258,18 +18258,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "für"
+          "type": "blank",
+          "id": 3,
+          "answer": "für",
+          "category": "preposition"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "Bildung",
-          "category": "noun"
+          "type": "text",
+          "value": "Bildung"
         },
         {
           "type": "text",
@@ -18396,18 +18396,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Sprachkurse"
+          "type": "blank",
+          "id": 4,
+          "answer": "Sprachkurse",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "Online-Seminare",
-          "category": "noun"
+          "type": "text",
+          "value": "Online-Seminare"
         },
         {
           "type": "text",
@@ -18526,8 +18526,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "sich"
+          "type": "blank",
+          "id": 5,
+          "answer": "sich",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -18542,10 +18544,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "eine",
-          "category": "article"
+          "type": "text",
+          "value": "eine"
         },
         {
           "type": "text",
@@ -18674,18 +18674,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "sind"
+          "type": "blank",
+          "id": 6,
+          "answer": "sind",
+          "category": "other"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "in",
-          "category": "preposition"
+          "type": "text",
+          "value": "in"
         },
         {
           "type": "text",
@@ -18812,18 +18812,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "flexible"
+          "type": "blank",
+          "id": 7,
+          "answer": "flexible",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "Lernzeiten",
-          "category": "noun"
+          "type": "text",
+          "value": "Lernzeiten"
         },
         {
           "type": "text",
@@ -18950,18 +18950,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Arbeitgebern"
+          "type": "blank",
+          "id": 8,
+          "answer": "Arbeitgebern",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "anerkannt",
-          "category": "verb"
+          "type": "text",
+          "value": "anerkannt"
         },
         {
           "type": "text",
@@ -19090,18 +19090,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "gleichen"
+          "type": "blank",
+          "id": 9,
+          "answer": "gleichen",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "Zugang",
-          "category": "noun"
+          "type": "text",
+          "value": "Zugang"
         },
         {
           "type": "text",
@@ -19228,18 +19228,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Zeit"
+          "type": "blank",
+          "id": 10,
+          "answer": "Zeit",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
@@ -19312,113 +19312,98 @@ const LUECKENTEXTE = [
       },
       {
         "id": 2,
-        "answer": "Automatisierung",
-        "category": "noun",
+        "answer": "und",
+        "category": "conjunction",
         "options": []
       },
       {
         "id": 3,
-        "answer": "Bildung",
-        "category": "noun",
+        "answer": "für",
+        "category": "preposition",
         "options": []
       },
       {
         "id": 4,
-        "answer": "Online-Seminare",
+        "answer": "Sprachkurse",
         "category": "noun",
         "options": []
       },
       {
         "id": 5,
-        "answer": "eine",
-        "category": "article",
+        "answer": "sich",
+        "category": "pronoun",
         "options": []
       },
       {
         "id": 6,
-        "answer": "in",
-        "category": "preposition",
+        "answer": "sind",
+        "category": "other",
         "options": []
       },
       {
         "id": 7,
-        "answer": "Lernzeiten",
-        "category": "noun",
+        "answer": "flexible",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 8,
-        "answer": "anerkannt",
-        "category": "verb",
-        "options": []
-      },
-      {
-        "id": 9,
-        "answer": "Zugang",
+        "answer": "Arbeitgebern",
         "category": "noun",
         "options": []
       },
       {
+        "id": 9,
+        "answer": "gleichen",
+        "category": "adjective",
+        "options": []
+      },
+      {
         "id": 10,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "Zeit",
+        "category": "noun",
         "options": []
       }
     ],
     "wordBank": [
       {
-        "id": "distractor-4",
-        "text": "Spaziergang",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-1",
-        "text": "hier",
-        "correctFor": null
-      },
-      {
-        "id": "answer-2",
-        "text": "Automatisierung",
-        "correctFor": 2
-      },
-      {
-        "id": "answer-7",
-        "text": "Lernzeiten",
-        "correctFor": 7
-      },
-      {
-        "id": "answer-4",
-        "text": "Online-Seminare",
-        "correctFor": 4
-      },
-      {
-        "id": "answer-3",
-        "text": "Bildung",
-        "correctFor": 3
-      },
-      {
-        "id": "answer-8",
-        "text": "anerkannt",
-        "correctFor": 8
-      },
-      {
-        "id": "answer-10",
-        "text": "und",
-        "correctFor": 10
-      },
-      {
         "id": "answer-6",
-        "text": "in",
+        "text": "sind",
         "correctFor": 6
       },
       {
-        "id": "distractor-3",
-        "text": "Ausstellung",
+        "id": "distractor-1",
+        "text": "denn",
         "correctFor": null
       },
       {
-        "id": "distractor-2",
-        "text": "vier",
+        "id": "distractor-3",
+        "text": "zudem",
+        "correctFor": null
+      },
+      {
+        "id": "answer-8",
+        "text": "Arbeitgebern",
+        "correctFor": 8
+      },
+      {
+        "id": "answer-9",
+        "text": "gleichen",
+        "correctFor": 9
+      },
+      {
+        "id": "answer-5",
+        "text": "sich",
+        "correctFor": 5
+      },
+      {
+        "id": "answer-2",
+        "text": "und",
+        "correctFor": 2
+      },
+      {
+        "id": "distractor-4",
+        "text": "sowie",
         "correctFor": null
       },
       {
@@ -19427,19 +19412,34 @@ const LUECKENTEXTE = [
         "correctFor": 1
       },
       {
-        "id": "answer-5",
-        "text": "eine",
-        "correctFor": 5
+        "id": "answer-4",
+        "text": "Sprachkurse",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-10",
+        "text": "Zeit",
+        "correctFor": 10
       },
       {
         "id": "distractor-5",
-        "text": "Werbung",
+        "text": "gegen",
         "correctFor": null
       },
       {
-        "id": "answer-9",
-        "text": "Zugang",
-        "correctFor": 9
+        "id": "distractor-2",
+        "text": "als",
+        "correctFor": null
+      },
+      {
+        "id": "answer-7",
+        "text": "flexible",
+        "correctFor": 7
+      },
+      {
+        "id": "answer-3",
+        "text": "für",
+        "correctFor": 3
       }
     ]
   },
@@ -19516,18 +19516,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "über",
-          "category": "preposition"
+          "type": "text",
+          "value": "über"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Stress"
+          "type": "blank",
+          "id": 1,
+          "answer": "Stress",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -19805,7 +19805,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 3,
           "answer": "vieler",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -19932,18 +19932,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "dauerhaft"
+          "type": "blank",
+          "id": 4,
+          "answer": "dauerhaft",
+          "category": "other"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "weniger",
-          "category": "other"
+          "type": "text",
+          "value": "weniger"
         },
         {
           "type": "text",
@@ -20062,18 +20062,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "geschwächtes"
+          "type": "blank",
+          "id": 5,
+          "answer": "geschwächtes",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "Immunsystem",
-          "category": "noun"
+          "type": "text",
+          "value": "Immunsystem"
         },
         {
           "type": "text",
@@ -20213,7 +20213,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 6,
           "answer": "vom",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -20340,18 +20340,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "das"
+          "type": "blank",
+          "id": 7,
+          "answer": "das",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "Gefühl",
-          "category": "noun"
+          "type": "text",
+          "value": "Gefühl"
         },
         {
           "type": "text",
@@ -20480,18 +20480,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "Mitarbeitern",
-          "category": "noun"
+          "type": "text",
+          "value": "Mitarbeitern"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Meditationskurse"
+          "type": "blank",
+          "id": 8,
+          "answer": "Meditationskurse",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -20610,18 +20610,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "zu",
-          "category": "preposition"
+          "type": "text",
+          "value": "zu"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "beantworten"
+          "type": "blank",
+          "id": 9,
+          "answer": "beantworten",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -20748,18 +20748,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "keine"
+          "type": "blank",
+          "id": 10,
+          "answer": "keine",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "Schwäche",
-          "category": "noun"
+          "type": "text",
+          "value": "Schwäche"
         },
         {
           "type": "text",
@@ -20826,8 +20826,8 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "über",
-        "category": "preposition",
+        "answer": "Stress",
+        "category": "noun",
         "options": []
       },
       {
@@ -20839,77 +20839,62 @@ const LUECKENTEXTE = [
       {
         "id": 3,
         "answer": "vieler",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 4,
-        "answer": "weniger",
+        "answer": "dauerhaft",
         "category": "other",
         "options": []
       },
       {
         "id": 5,
-        "answer": "Immunsystem",
-        "category": "noun",
+        "answer": "geschwächtes",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 6,
         "answer": "vom",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 7,
-        "answer": "Gefühl",
-        "category": "noun",
+        "answer": "das",
+        "category": "article",
         "options": []
       },
       {
         "id": 8,
-        "answer": "Mitarbeitern",
+        "answer": "Meditationskurse",
         "category": "noun",
         "options": []
       },
       {
         "id": 9,
-        "answer": "zu",
-        "category": "preposition",
+        "answer": "beantworten",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 10,
-        "answer": "Schwäche",
-        "category": "noun",
+        "answer": "keine",
+        "category": "article",
         "options": []
       }
     ],
     "wordBank": [
-      {
-        "id": "answer-7",
-        "text": "Gefühl",
-        "correctFor": 7
-      },
-      {
-        "id": "distractor-4",
-        "text": "dabei",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-2",
-        "text": "oder",
-        "correctFor": null
-      },
       {
         "id": "answer-3",
         "text": "vieler",
         "correctFor": 3
       },
       {
-        "id": "answer-9",
-        "text": "zu",
-        "correctFor": 9
+        "id": "distractor-2",
+        "text": "Sophie",
+        "correctFor": null
       },
       {
         "id": "answer-2",
@@ -20917,49 +20902,64 @@ const LUECKENTEXTE = [
         "correctFor": 2
       },
       {
-        "id": "answer-1",
-        "text": "über",
-        "correctFor": 1
-      },
-      {
         "id": "answer-6",
         "text": "vom",
         "correctFor": 6
       },
       {
+        "id": "answer-9",
+        "text": "beantworten",
+        "correctFor": 9
+      },
+      {
+        "id": "answer-1",
+        "text": "Stress",
+        "correctFor": 1
+      },
+      {
+        "id": "distractor-4",
+        "text": "für",
+        "correctFor": null
+      },
+      {
         "id": "answer-5",
-        "text": "Immunsystem",
+        "text": "geschwächtes",
         "correctFor": 5
       },
       {
+        "id": "answer-4",
+        "text": "dauerhaft",
+        "correctFor": 4
+      },
+      {
+        "id": "distractor-3",
+        "text": "gegen",
+        "correctFor": null
+      },
+      {
+        "id": "answer-8",
+        "text": "Meditationskurse",
+        "correctFor": 8
+      },
+      {
         "id": "answer-10",
-        "text": "Schwäche",
+        "text": "keine",
         "correctFor": 10
       },
       {
         "id": "distractor-5",
-        "text": "vorher",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-3",
-        "text": "Tisch",
+        "text": "schwer",
         "correctFor": null
       },
       {
         "id": "distractor-1",
-        "text": "aber",
+        "text": "Studie",
         "correctFor": null
       },
       {
-        "id": "answer-4",
-        "text": "weniger",
-        "correctFor": 4
-      },
-      {
-        "id": "answer-8",
-        "text": "Mitarbeitern",
-        "correctFor": 8
+        "id": "answer-7",
+        "text": "das",
+        "correctFor": 7
       }
     ]
   },
@@ -21320,18 +21320,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "beim",
-          "category": "other"
+          "type": "text",
+          "value": "beim"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Lernen"
+          "type": "blank",
+          "id": 3,
+          "answer": "Lernen",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -21468,18 +21468,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "Medien",
-          "category": "noun"
+          "type": "text",
+          "value": "Medien"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "mit"
+          "type": "blank",
+          "id": 4,
+          "answer": "mit",
+          "category": "preposition"
         },
         {
           "type": "text",
@@ -21754,18 +21754,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Schulen"
+          "type": "blank",
+          "id": 6,
+          "answer": "Schulen",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -22038,18 +22038,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "eigenen",
-          "category": "verb"
+          "type": "text",
+          "value": "eigenen"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Konsum"
+          "type": "blank",
+          "id": 8,
+          "answer": "Konsum",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -22422,14 +22422,14 @@ const LUECKENTEXTE = [
       },
       {
         "id": 3,
-        "answer": "beim",
-        "category": "other",
+        "answer": "Lernen",
+        "category": "noun",
         "options": []
       },
       {
         "id": 4,
-        "answer": "Medien",
-        "category": "noun",
+        "answer": "mit",
+        "category": "preposition",
         "options": []
       },
       {
@@ -22440,8 +22440,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 6,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "Schulen",
+        "category": "noun",
         "options": []
       },
       {
@@ -22452,8 +22452,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 8,
-        "answer": "eigenen",
-        "category": "verb",
+        "answer": "Konsum",
+        "category": "noun",
         "options": []
       },
       {
@@ -22476,13 +22476,18 @@ const LUECKENTEXTE = [
         "correctFor": 2
       },
       {
-        "id": "distractor-1",
-        "text": "dort",
+        "id": "distractor-3",
+        "text": "Interrail-Pass",
         "correctFor": null
       },
       {
-        "id": "distractor-3",
-        "text": "Teichs",
+        "id": "answer-6",
+        "text": "Schulen",
+        "correctFor": 6
+      },
+      {
+        "id": "distractor-5",
+        "text": "Kuchen",
         "correctFor": null
       },
       {
@@ -22491,9 +22496,24 @@ const LUECKENTEXTE = [
         "correctFor": 10
       },
       {
-        "id": "answer-8",
-        "text": "eigenen",
-        "correctFor": 8
+        "id": "answer-3",
+        "text": "Lernen",
+        "correctFor": 3
+      },
+      {
+        "id": "distractor-2",
+        "text": "verschickt",
+        "correctFor": null
+      },
+      {
+        "id": "answer-4",
+        "text": "mit",
+        "correctFor": 4
+      },
+      {
+        "id": "distractor-1",
+        "text": "interessiert",
+        "correctFor": null
       },
       {
         "id": "answer-7",
@@ -22501,29 +22521,14 @@ const LUECKENTEXTE = [
         "correctFor": 7
       },
       {
-        "id": "distractor-5",
-        "text": "im",
-        "correctFor": null
-      },
-      {
         "id": "answer-9",
         "text": "ist",
         "correctFor": 9
       },
       {
-        "id": "answer-3",
-        "text": "beim",
-        "correctFor": 3
-      },
-      {
-        "id": "answer-6",
-        "text": "und",
-        "correctFor": 6
-      },
-      {
-        "id": "answer-4",
-        "text": "Medien",
-        "correctFor": 4
+        "id": "answer-8",
+        "text": "Konsum",
+        "correctFor": 8
       },
       {
         "id": "answer-5",
@@ -22531,19 +22536,14 @@ const LUECKENTEXTE = [
         "correctFor": 5
       },
       {
+        "id": "distractor-4",
+        "text": "Online-Seminare",
+        "correctFor": null
+      },
+      {
         "id": "answer-1",
         "text": "diskutiert",
         "correctFor": 1
-      },
-      {
-        "id": "distractor-2",
-        "text": "begeistert",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-4",
-        "text": "Thomas",
-        "correctFor": null
       }
     ]
   },
@@ -22620,18 +22620,18 @@ const LUECKENTEXTE = [
           "value": " – "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "das",
-          "category": "article"
+          "type": "text",
+          "value": "das"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "sind"
+          "type": "blank",
+          "id": 1,
+          "answer": "sind",
+          "category": "other"
         },
         {
           "type": "text",
@@ -22906,18 +22906,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "geben"
+          "type": "blank",
+          "id": 3,
+          "answer": "geben",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "an",
-          "category": "preposition"
+          "type": "text",
+          "value": "an"
         },
         {
           "type": "text",
@@ -23036,18 +23036,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Aspekt"
+          "type": "blank",
+          "id": 4,
+          "answer": "Aspekt",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": ": "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "Man",
-          "category": "pronoun"
+          "type": "text",
+          "value": "Man"
         },
         {
           "type": "text",
@@ -23166,8 +23166,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "und"
+          "type": "blank",
+          "id": 5,
+          "answer": "und",
+          "category": "conjunction"
         },
         {
           "type": "text",
@@ -23182,10 +23184,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "ist",
-          "category": "verb"
+          "type": "text",
+          "value": "ist"
         },
         {
           "type": "text",
@@ -23852,18 +23852,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "indem"
+          "type": "blank",
+          "id": 10,
+          "answer": "indem",
+          "category": "other"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "sie",
-          "category": "pronoun"
+          "type": "text",
+          "value": "sie"
         },
         {
           "type": "text",
@@ -23930,8 +23930,8 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "das",
-        "category": "article",
+        "answer": "sind",
+        "category": "other",
         "options": []
       },
       {
@@ -23942,20 +23942,20 @@ const LUECKENTEXTE = [
       },
       {
         "id": 3,
-        "answer": "an",
-        "category": "preposition",
+        "answer": "geben",
+        "category": "verb",
         "options": []
       },
       {
         "id": 4,
-        "answer": "Man",
-        "category": "pronoun",
+        "answer": "Aspekt",
+        "category": "noun",
         "options": []
       },
       {
         "id": 5,
-        "answer": "ist",
-        "category": "verb",
+        "answer": "und",
+        "category": "conjunction",
         "options": []
       },
       {
@@ -23984,15 +23984,25 @@ const LUECKENTEXTE = [
       },
       {
         "id": 10,
-        "answer": "sie",
-        "category": "pronoun",
+        "answer": "indem",
+        "category": "other",
         "options": []
       }
     ],
     "wordBank": [
       {
-        "id": "distractor-2",
-        "text": "des",
+        "id": "answer-3",
+        "text": "geben",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-10",
+        "text": "indem",
+        "correctFor": 10
+      },
+      {
+        "id": "distractor-5",
+        "text": "essen",
         "correctFor": null
       },
       {
@@ -24002,7 +24012,7 @@ const LUECKENTEXTE = [
       },
       {
         "id": "answer-4",
-        "text": "Man",
+        "text": "Aspekt",
         "correctFor": 4
       },
       {
@@ -24011,14 +24021,9 @@ const LUECKENTEXTE = [
         "correctFor": 6
       },
       {
-        "id": "answer-10",
-        "text": "sie",
-        "correctFor": 10
-      },
-      {
-        "id": "answer-1",
-        "text": "das",
-        "correctFor": 1
+        "id": "distractor-3",
+        "text": "Mitarbeiter",
+        "correctFor": null
       },
       {
         "id": "answer-9",
@@ -24031,8 +24036,8 @@ const LUECKENTEXTE = [
         "correctFor": null
       },
       {
-        "id": "distractor-3",
-        "text": "Sportschuhe",
+        "id": "distractor-2",
+        "text": "kann",
         "correctFor": null
       },
       {
@@ -24041,24 +24046,19 @@ const LUECKENTEXTE = [
         "correctFor": 7
       },
       {
-        "id": "distractor-1",
-        "text": "ein",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-5",
-        "text": "Am",
-        "correctFor": null
-      },
-      {
-        "id": "answer-3",
-        "text": "an",
-        "correctFor": 3
+        "id": "answer-1",
+        "text": "sind",
+        "correctFor": 1
       },
       {
         "id": "answer-5",
-        "text": "ist",
+        "text": "und",
         "correctFor": 5
+      },
+      {
+        "id": "distractor-1",
+        "text": "zwei",
+        "correctFor": null
       },
       {
         "id": "answer-2",
@@ -24442,18 +24442,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "aber",
-          "category": "conjunction"
+          "type": "text",
+          "value": "aber"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "gemütlich"
+          "type": "blank",
+          "id": 3,
+          "answer": "gemütlich",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -24580,18 +24580,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "Hof",
-          "category": "noun"
+          "type": "text",
+          "value": "Hof"
         },
         {
           "type": "text",
           "value": " – "
         },
         {
-          "type": "text",
-          "value": "selbstgemachte"
+          "type": "blank",
+          "id": 4,
+          "answer": "selbstgemachte",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -24736,18 +24736,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "sie",
-          "category": "pronoun"
+          "type": "text",
+          "value": "sie"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "bei"
+          "type": "blank",
+          "id": 5,
+          "answer": "bei",
+          "category": "preposition"
         },
         {
           "type": "text",
@@ -24890,18 +24890,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "ihnen"
+          "type": "blank",
+          "id": 6,
+          "answer": "ihnen",
+          "category": "pronoun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "der",
-          "category": "article"
+          "type": "text",
+          "value": "der"
         },
         {
           "type": "text",
@@ -25036,18 +25036,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Mann"
+          "type": "blank",
+          "id": 7,
+          "answer": "Mann",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "hingegen",
-          "category": "verb"
+          "type": "text",
+          "value": "hingegen"
         },
         {
           "type": "text",
@@ -25184,18 +25184,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "am"
+          "type": "blank",
+          "id": 8,
+          "answer": "am",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "Tisch",
-          "category": "noun"
+          "type": "text",
+          "value": "Tisch"
         },
         {
           "type": "text",
@@ -25330,18 +25330,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "lachte"
+          "type": "blank",
+          "id": 9,
+          "answer": "lachte",
+          "category": "other"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
@@ -25566,44 +25566,44 @@ const LUECKENTEXTE = [
       },
       {
         "id": 3,
-        "answer": "aber",
-        "category": "conjunction",
+        "answer": "gemütlich",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 4,
-        "answer": "Hof",
-        "category": "noun",
+        "answer": "selbstgemachte",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 5,
-        "answer": "sie",
-        "category": "pronoun",
+        "answer": "bei",
+        "category": "preposition",
         "options": []
       },
       {
         "id": 6,
-        "answer": "der",
-        "category": "article",
+        "answer": "ihnen",
+        "category": "pronoun",
         "options": []
       },
       {
         "id": 7,
-        "answer": "hingegen",
-        "category": "verb",
-        "options": []
-      },
-      {
-        "id": 8,
-        "answer": "Tisch",
+        "answer": "Mann",
         "category": "noun",
         "options": []
       },
       {
+        "id": 8,
+        "answer": "am",
+        "category": "adjective",
+        "options": []
+      },
+      {
         "id": 9,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "lachte",
+        "category": "other",
         "options": []
       },
       {
@@ -25615,44 +25615,34 @@ const LUECKENTEXTE = [
     ],
     "wordBank": [
       {
+        "id": "distractor-4",
+        "text": "dann",
+        "correctFor": null
+      },
+      {
         "id": "answer-10",
         "text": "Reisebewertung",
         "correctFor": 10
       },
       {
+        "id": "distractor-2",
+        "text": "Rezept",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-1",
+        "text": "Umgang",
+        "correctFor": null
+      },
+      {
         "id": "answer-5",
-        "text": "sie",
+        "text": "bei",
         "correctFor": 5
       },
       {
-        "id": "answer-6",
-        "text": "der",
-        "correctFor": 6
-      },
-      {
-        "id": "answer-3",
-        "text": "aber",
-        "correctFor": 3
-      },
-      {
-        "id": "answer-7",
-        "text": "hingegen",
-        "correctFor": 7
-      },
-      {
         "id": "distractor-5",
-        "text": "Eier",
+        "text": "watscheln",
         "correctFor": null
-      },
-      {
-        "id": "distractor-3",
-        "text": "Auch",
-        "correctFor": null
-      },
-      {
-        "id": "answer-4",
-        "text": "Hof",
-        "correctFor": 4
       },
       {
         "id": "answer-2",
@@ -25661,23 +25651,33 @@ const LUECKENTEXTE = [
       },
       {
         "id": "answer-8",
-        "text": "Tisch",
+        "text": "am",
         "correctFor": 8
       },
       {
-        "id": "distractor-4",
-        "text": "natürlich",
+        "id": "answer-3",
+        "text": "gemütlich",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-4",
+        "text": "selbstgemachte",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-6",
+        "text": "ihnen",
+        "correctFor": 6
+      },
+      {
+        "id": "distractor-3",
+        "text": "dort",
         "correctFor": null
       },
       {
         "id": "answer-9",
-        "text": "und",
+        "text": "lachte",
         "correctFor": 9
-      },
-      {
-        "id": "distractor-2",
-        "text": "Berlin",
-        "correctFor": null
       },
       {
         "id": "answer-1",
@@ -25685,9 +25685,9 @@ const LUECKENTEXTE = [
         "correctFor": 1
       },
       {
-        "id": "distractor-1",
-        "text": "Reihen",
-        "correctFor": null
+        "id": "answer-7",
+        "text": "Mann",
+        "correctFor": 7
       }
     ]
   },
@@ -25783,7 +25783,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 1,
           "answer": "anderen",
-          "category": "verb"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -26080,18 +26080,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "als",
-          "category": "conjunction"
+          "type": "text",
+          "value": "als"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Ressource"
+          "type": "blank",
+          "id": 3,
+          "answer": "Ressource",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -26870,18 +26870,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "weigert"
+          "type": "blank",
+          "id": 8,
+          "answer": "weigert",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "sich",
-          "category": "other"
+          "type": "text",
+          "value": "sich"
         },
         {
           "type": "text",
@@ -27275,10 +27275,10 @@ const LUECKENTEXTE = [
       {
         "id": 1,
         "answer": "anderen",
-        "category": "verb",
+        "category": "adjective",
         "options": [
-          "schaden",
-          "betonen",
+          "arbeiten",
+          "letzten",
           "anderen"
         ]
       },
@@ -27294,12 +27294,12 @@ const LUECKENTEXTE = [
       },
       {
         "id": 3,
-        "answer": "als",
-        "category": "conjunction",
+        "answer": "Ressource",
+        "category": "noun",
         "options": [
-          "als",
-          "hat",
-          "ist"
+          "Stuttgart",
+          "Ressource",
+          "Fähigkeit"
         ]
       },
       {
@@ -27307,9 +27307,9 @@ const LUECKENTEXTE = [
         "answer": "die",
         "category": "article",
         "options": [
-          "der",
-          "das",
-          "die"
+          "die",
+          "keine",
+          "diese"
         ]
       },
       {
@@ -27317,9 +27317,9 @@ const LUECKENTEXTE = [
         "answer": "einer",
         "category": "article",
         "options": [
-          "hoher",
-          "guter",
-          "einer"
+          "einer",
+          "keiner",
+          "keine"
         ]
       },
       {
@@ -27328,8 +27328,8 @@ const LUECKENTEXTE = [
         "category": "pronoun",
         "options": [
           "er",
-          "es",
-          "zu"
+          "du",
+          "ihr"
         ]
       },
       {
@@ -27337,19 +27337,19 @@ const LUECKENTEXTE = [
         "answer": "während",
         "category": "preposition",
         "options": [
-          "Widerstand",
-          "weitgehend",
+          "obwohl",
+          "trotzdem",
           "während"
         ]
       },
       {
         "id": 8,
-        "answer": "sich",
-        "category": "other",
+        "answer": "weigert",
+        "category": "verb",
         "options": [
-          "doch",
-          "auch",
-          "sich"
+          "erprobt",
+          "erkennt",
+          "weigert"
         ]
       },
       {
@@ -27357,9 +27357,9 @@ const LUECKENTEXTE = [
         "answer": "immer",
         "category": "adverb",
         "options": [
-          "unter",
           "immer",
-          "guter"
+          "nicht",
+          "schon"
         ]
       },
       {
@@ -27367,9 +27367,9 @@ const LUECKENTEXTE = [
         "answer": "Bereicherung",
         "category": "noun",
         "options": [
-          "Bundesregierung",
-          "Migrationsforschung",
-          "Bereicherung"
+          "Einzelhandel",
+          "Bereicherung",
+          "Kulturgütern"
         ]
       }
     ],
@@ -27750,18 +27750,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "die",
-          "category": "article"
+          "type": "text",
+          "value": "die"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "zwischen"
+          "type": "blank",
+          "id": 3,
+          "answer": "zwischen",
+          "category": "preposition"
         },
         {
           "type": "text",
@@ -27888,18 +27888,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "während",
-          "category": "preposition"
+          "type": "text",
+          "value": "während"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "das"
+          "type": "blank",
+          "id": 4,
+          "answer": "das",
+          "category": "article"
         },
         {
           "type": "text",
@@ -28045,7 +28045,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 5,
           "answer": "britischen",
-          "category": "verb"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -28328,18 +28328,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "mehr",
-          "category": "other"
+          "type": "text",
+          "value": "mehr"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Personal"
+          "type": "blank",
+          "id": 7,
+          "answer": "Personal",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -28484,18 +28484,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "sind",
-          "category": "other"
+          "type": "text",
+          "value": "sind"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "gespalten"
+          "type": "blank",
+          "id": 8,
+          "answer": "gespalten",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -28630,18 +28630,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "die"
+          "type": "blank",
+          "id": 9,
+          "answer": "die",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "Wettbewerbsfähigkeit",
-          "category": "noun"
+          "type": "text",
+          "value": "Wettbewerbsfähigkeit"
         },
         {
           "type": "text",
@@ -28857,9 +28857,9 @@ const LUECKENTEXTE = [
         "answer": "sie",
         "category": "pronoun",
         "options": [
-          "ist",
-          "ihn",
-          "sie"
+          "ihr",
+          "sie",
+          "ich"
         ]
       },
       {
@@ -28867,38 +28867,38 @@ const LUECKENTEXTE = [
         "answer": "Produktivität",
         "category": "noun",
         "options": [
-          "Pilotprojekte",
-          "Qualität",
+          "Risikoprofile",
+          "Tagesbesucher",
           "Produktivität"
         ]
       },
       {
         "id": 3,
-        "answer": "die",
-        "category": "article",
+        "answer": "zwischen",
+        "category": "preposition",
         "options": [
-          "die",
-          "wie",
-          "ein"
+          "zwischen",
+          "vor",
+          "auf"
         ]
       },
       {
         "id": 4,
-        "answer": "während",
-        "category": "preposition",
+        "answer": "das",
+        "category": "article",
         "options": [
-          "während",
-          "weigert",
-          "weichen"
+          "dieses",
+          "kein",
+          "das"
         ]
       },
       {
         "id": 5,
         "answer": "britischen",
-        "category": "verb",
+        "category": "adjective",
         "options": [
-          "bezeichnen",
-          "bestimmten",
+          "teilnahmen",
+          "bevorzugen",
           "britischen"
         ]
       },
@@ -28909,37 +28909,37 @@ const LUECKENTEXTE = [
         "options": [
           "dem",
           "einem",
-          "ein"
+          "diesem"
         ]
       },
       {
         "id": 7,
-        "answer": "mehr",
-        "category": "other",
+        "answer": "Personal",
+        "category": "noun",
         "options": [
-          "kaum",
-          "sich",
-          "mehr"
+          "Personal",
+          "Qualität",
+          "Potenzial"
         ]
       },
       {
         "id": 8,
-        "answer": "sind",
-        "category": "other",
+        "answer": "gespalten",
+        "category": "adjective",
         "options": [
-          "fand",
-          "sein",
-          "sind"
+          "gespalten",
+          "bekämpfen",
+          "verlieren"
         ]
       },
       {
         "id": 9,
-        "answer": "Wettbewerbsfähigkeit",
-        "category": "noun",
+        "answer": "die",
+        "category": "article",
         "options": [
-          "Wirtschaftsstandorts",
-          "Wettbewerbsfähigkeit",
-          "Fähigkeit"
+          "diese",
+          "die",
+          "eine"
         ]
       },
       {
@@ -28947,8 +28947,8 @@ const LUECKENTEXTE = [
         "answer": "Verhältnis",
         "category": "noun",
         "options": [
-          "Soziologen",
-          "Vernetzung",
+          "Großeltern",
+          "Ergebnisse",
           "Verhältnis"
         ]
       }
@@ -29312,18 +29312,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "ist"
+          "type": "blank",
+          "id": 3,
+          "answer": "ist",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "für",
-          "category": "preposition"
+          "type": "text",
+          "value": "für"
         },
         {
           "type": "text",
@@ -29884,18 +29884,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "schließen",
-          "category": "verb"
+          "type": "text",
+          "value": "schließen"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "bestimmte"
+          "type": "blank",
+          "id": 7,
+          "answer": "bestimmte",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -30319,7 +30319,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 10,
           "answer": "nur",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -30397,8 +30397,8 @@ const LUECKENTEXTE = [
         "answer": "leiden",
         "category": "verb",
         "options": [
-          "kommen",
-          "beiden",
+          "liegen",
+          "werden",
           "leiden"
         ]
       },
@@ -30407,19 +30407,19 @@ const LUECKENTEXTE = [
         "answer": "Infrastruktur",
         "category": "noun",
         "options": [
-          "Investitionen",
+          "Produktivität",
           "Infrastruktur",
-          "Beschäftigten"
+          "Schlaganfälle"
         ]
       },
       {
         "id": 3,
-        "answer": "für",
-        "category": "preposition",
+        "answer": "ist",
+        "category": "adjective",
         "options": [
-          "mit",
-          "zur",
-          "für"
+          "ist",
+          "im",
+          "zur"
         ]
       },
       {
@@ -30427,9 +30427,9 @@ const LUECKENTEXTE = [
         "answer": "von",
         "category": "preposition",
         "options": [
-          "auf",
-          "aus",
-          "von"
+          "von",
+          "mit",
+          "seit"
         ]
       },
       {
@@ -30437,9 +30437,9 @@ const LUECKENTEXTE = [
         "answer": "Stadtcharakters",
         "category": "noun",
         "options": [
+          "Herkunftsländer",
           "Stadtcharakters",
-          "Schlafforschung",
-          "Hautkrankheiten"
+          "Schlafforschung"
         ]
       },
       {
@@ -30448,18 +30448,18 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Touristen",
-          "Maßnahmen",
-          "Millionen"
+          "Patienten",
+          "Maßnahmen"
         ]
       },
       {
         "id": 7,
-        "answer": "schließen",
-        "category": "verb",
+        "answer": "bestimmte",
+        "category": "adjective",
         "options": [
-          "deutschen",
-          "gefährden",
-          "schließen"
+          "befreiter",
+          "zunehmend",
+          "bestimmte"
         ]
       },
       {
@@ -30477,19 +30477,19 @@ const LUECKENTEXTE = [
         "answer": "außerhalb",
         "category": "other",
         "options": [
+          "manchmal",
           "innerhalb",
-          "aufwächst",
           "außerhalb"
         ]
       },
       {
         "id": 10,
         "answer": "nur",
-        "category": "other",
+        "category": "adjective",
         "options": [
-          "neu",
           "nur",
-          "sei"
+          "was",
+          "wie"
         ]
       }
     ],
@@ -30576,18 +30576,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "kann"
+          "type": "blank",
+          "id": 1,
+          "answer": "kann",
+          "category": "other"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "bereits",
-          "category": "other"
+          "type": "text",
+          "value": "bereits"
         },
         {
           "type": "text",
@@ -31326,8 +31326,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "können"
+          "type": "blank",
+          "id": 6,
+          "answer": "können",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -31342,10 +31344,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "wurde",
-          "category": "other"
+          "type": "text",
+          "value": "wurde"
         },
         {
           "type": "text",
@@ -31472,18 +31472,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "dunkler"
+          "type": "blank",
+          "id": 7,
+          "answer": "dunkler",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "Hautfarbe",
-          "category": "noun"
+          "type": "text",
+          "value": "Hautfarbe"
         },
         {
           "type": "text",
@@ -31618,18 +31618,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "ein"
+          "type": "blank",
+          "id": 8,
+          "answer": "ein",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "Algorithmus",
-          "category": "noun"
+          "type": "text",
+          "value": "Algorithmus"
         },
         {
           "type": "text",
@@ -31998,12 +31998,12 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "bereits",
+        "answer": "kann",
         "category": "other",
         "options": [
-          "bereits",
-          "besitzt",
-          "behalte"
+          "rund",
+          "kann",
+          "wird"
         ]
       },
       {
@@ -32011,9 +32011,9 @@ const LUECKENTEXTE = [
         "answer": "die",
         "category": "article",
         "options": [
-          "die",
-          "der",
-          "wie"
+          "eine",
+          "keine",
+          "die"
         ]
       },
       {
@@ -32021,9 +32021,9 @@ const LUECKENTEXTE = [
         "answer": "dass",
         "category": "conjunction",
         "options": [
-          "dass",
-          "darf",
-          "dazu"
+          "ob",
+          "dann",
+          "dass"
         ]
       },
       {
@@ -32032,8 +32032,8 @@ const LUECKENTEXTE = [
         "category": "preposition",
         "options": [
           "für",
-          "vor",
-          "zur"
+          "ohne",
+          "durch"
         ]
       },
       {
@@ -32041,39 +32041,39 @@ const LUECKENTEXTE = [
         "answer": "und",
         "category": "conjunction",
         "options": [
-          "ist",
-          "überraschend",
+          "sowie",
+          "außerdem",
           "und"
         ]
       },
       {
         "id": 6,
-        "answer": "wurde",
-        "category": "other",
+        "answer": "können",
+        "category": "adjective",
         "options": [
-          "wahre",
-          "waren",
-          "wurde"
+          "können",
+          "wurden",
+          "werden"
         ]
       },
       {
         "id": 7,
-        "answer": "Hautfarbe",
-        "category": "noun",
+        "answer": "dunkler",
+        "category": "adjective",
         "options": [
-          "Verwandte",
-          "Hautfarbe",
-          "Haushalte"
+          "komplex",
+          "tausend",
+          "dunkler"
         ]
       },
       {
         "id": 8,
-        "answer": "Algorithmus",
-        "category": "noun",
+        "answer": "ein",
+        "category": "article",
         "options": [
-          "Traditionen",
-          "Ausbreitung",
-          "Algorithmus"
+          "kein",
+          "dieses",
+          "ein"
         ]
       },
       {
@@ -32081,8 +32081,8 @@ const LUECKENTEXTE = [
         "answer": "von",
         "category": "preposition",
         "options": [
-          "aus",
-          "auf",
+          "seit",
+          "bei",
           "von"
         ]
       },
@@ -32091,9 +32091,9 @@ const LUECKENTEXTE = [
         "answer": "diese",
         "category": "article",
         "options": [
+          "eine",
           "diese",
-          "These",
-          "denen"
+          "keine"
         ]
       }
     ],
@@ -32188,18 +32188,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "zeigen"
+          "type": "blank",
+          "id": 1,
+          "answer": "zeigen",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "dass",
-          "category": "conjunction"
+          "type": "text",
+          "value": "dass"
         },
         {
           "type": "text",
@@ -33434,18 +33434,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "empfehlen"
+          "type": "blank",
+          "id": 9,
+          "answer": "empfehlen",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "regelmäßige",
-          "category": "other"
+          "type": "text",
+          "value": "regelmäßige"
         },
         {
           "type": "text",
@@ -33588,18 +33588,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "immer"
+          "type": "blank",
+          "id": 10,
+          "answer": "immer",
+          "category": "adverb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "durch",
-          "category": "preposition"
+          "type": "text",
+          "value": "durch"
         },
         {
           "type": "text",
@@ -33674,12 +33674,12 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "dass",
-        "category": "conjunction",
+        "answer": "zeigen",
+        "category": "verb",
         "options": [
-          "Riss",
-          "darf",
-          "dass"
+          "wurden",
+          "zeigen",
+          "können"
         ]
       },
       {
@@ -33687,9 +33687,9 @@ const LUECKENTEXTE = [
         "answer": "von",
         "category": "preposition",
         "options": [
-          "auf",
-          "von",
-          "vor"
+          "mit",
+          "nach",
+          "von"
         ]
       },
       {
@@ -33697,9 +33697,9 @@ const LUECKENTEXTE = [
         "answer": "Koch-Instituts",
         "category": "noun",
         "options": [
-          "Medizinerinnen",
-          "Zuschreibungen",
-          "Koch-Instituts"
+          "Koch-Instituts",
+          "Vier-Tage-Woche",
+          "Instagram-Kanäle"
         ]
       },
       {
@@ -33707,8 +33707,8 @@ const LUECKENTEXTE = [
         "answer": "des",
         "category": "article",
         "options": [
-          "dem",
-          "den",
+          "eines",
+          "keines",
           "des"
         ]
       },
@@ -33717,9 +33717,9 @@ const LUECKENTEXTE = [
         "answer": "häufig",
         "category": "adjective",
         "options": [
-          "einsam",
-          "zugehörig",
-          "häufig"
+          "häufig",
+          "jedoch",
+          "andere"
         ]
       },
       {
@@ -33727,9 +33727,9 @@ const LUECKENTEXTE = [
         "answer": "These",
         "category": "noun",
         "options": [
-          "Trotz",
+          "Trend",
           "These",
-          "Teams"
+          "Kemal"
         ]
       },
       {
@@ -33737,9 +33737,9 @@ const LUECKENTEXTE = [
         "answer": "erstes",
         "category": "other",
         "options": [
-          "europäisches",
           "erstes",
-          "einsam"
+          "stabil",
+          "sowohl"
         ]
       },
       {
@@ -33747,29 +33747,29 @@ const LUECKENTEXTE = [
         "answer": "hinkt",
         "category": "verb",
         "options": [
-          "wirkt",
-          "haben",
-          "hinkt"
+          "sieht",
+          "hinkt",
+          "nutzt"
         ]
       },
       {
         "id": 9,
-        "answer": "regelmäßige",
-        "category": "other",
+        "answer": "empfehlen",
+        "category": "verb",
         "options": [
-          "regelmäßige",
-          "hellhäutige",
-          "rechtlicher"
+          "beitragen",
+          "empfehlen",
+          "fungieren"
         ]
       },
       {
         "id": 10,
-        "answer": "durch",
-        "category": "preposition",
+        "answer": "immer",
+        "category": "adverb",
         "options": [
-          "durch",
-          "davor",
-          "davon"
+          "nicht",
+          "immer",
+          "daher"
         ]
       }
     ],
@@ -33994,18 +33994,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "diese"
+          "type": "blank",
+          "id": 2,
+          "answer": "diese",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "Objekte",
-          "category": "noun"
+          "type": "text",
+          "value": "Objekte"
         },
         {
           "type": "text",
@@ -34142,18 +34142,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "eine",
-          "category": "article"
+          "type": "text",
+          "value": "eine"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "ambivalente"
+          "type": "blank",
+          "id": 3,
+          "answer": "ambivalente",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -34291,7 +34291,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 4,
           "answer": "historischer",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -34426,18 +34426,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "ist"
+          "type": "blank",
+          "id": 5,
+          "answer": "ist",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "die",
-          "category": "article"
+          "type": "text",
+          "value": "die"
         },
         {
           "type": "text",
@@ -34574,18 +34574,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "zu",
-          "category": "preposition"
+          "type": "text",
+          "value": "zu"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "handeln"
+          "type": "blank",
+          "id": 6,
+          "answer": "handeln",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -35006,18 +35006,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "betroffenen",
-          "category": "verb"
+          "type": "text",
+          "value": "betroffenen"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Ländern"
+          "type": "blank",
+          "id": 9,
+          "answer": "Ländern",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -35236,32 +35236,32 @@ const LUECKENTEXTE = [
       },
       {
         "id": 2,
-        "answer": "Objekte",
-        "category": "noun",
+        "answer": "diese",
+        "category": "article",
         "options": []
       },
       {
         "id": 3,
-        "answer": "eine",
-        "category": "article",
+        "answer": "ambivalente",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 4,
         "answer": "historischer",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 5,
-        "answer": "die",
-        "category": "article",
+        "answer": "ist",
+        "category": "verb",
         "options": []
       },
       {
         "id": 6,
-        "answer": "zu",
-        "category": "preposition",
+        "answer": "handeln",
+        "category": "adjective",
         "options": []
       },
       {
@@ -35278,8 +35278,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 9,
-        "answer": "betroffenen",
-        "category": "verb",
+        "answer": "Ländern",
+        "category": "noun",
         "options": []
       },
       {
@@ -35291,29 +35291,19 @@ const LUECKENTEXTE = [
     ],
     "wordBank": [
       {
-        "id": "answer-3",
-        "text": "eine",
-        "correctFor": 3
-      },
-      {
-        "id": "distractor-4",
-        "text": "Debatte",
-        "correctFor": null
-      },
-      {
-        "id": "answer-5",
-        "text": "die",
-        "correctFor": 5
-      },
-      {
-        "id": "distractor-2",
-        "text": "weigert",
-        "correctFor": null
-      },
-      {
         "id": "answer-6",
-        "text": "zu",
+        "text": "handeln",
         "correctFor": 6
+      },
+      {
+        "id": "answer-9",
+        "text": "Ländern",
+        "correctFor": 9
+      },
+      {
+        "id": "distractor-1",
+        "text": "trotzdem",
+        "correctFor": null
       },
       {
         "id": "answer-7",
@@ -35321,14 +35311,24 @@ const LUECKENTEXTE = [
         "correctFor": 7
       },
       {
-        "id": "answer-9",
-        "text": "betroffenen",
-        "correctFor": 9
+        "id": "distractor-5",
+        "text": "alarmierend",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "obwohl",
+        "correctFor": null
       },
       {
         "id": "answer-8",
         "text": "erforscht",
         "correctFor": 8
+      },
+      {
+        "id": "distractor-4",
+        "text": "eine",
+        "correctFor": null
       },
       {
         "id": "answer-10",
@@ -35341,24 +35341,24 @@ const LUECKENTEXTE = [
         "correctFor": 4
       },
       {
-        "id": "distractor-1",
-        "text": "Widerstand",
-        "correctFor": null
+        "id": "answer-3",
+        "text": "ambivalente",
+        "correctFor": 3
       },
       {
-        "id": "distractor-3",
-        "text": "Deutsch",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-5",
-        "text": "kein",
-        "correctFor": null
+        "id": "answer-5",
+        "text": "ist",
+        "correctFor": 5
       },
       {
         "id": "answer-2",
-        "text": "Objekte",
+        "text": "diese",
         "correctFor": 2
+      },
+      {
+        "id": "distractor-3",
+        "text": "keine",
+        "correctFor": null
       },
       {
         "id": "answer-1",
@@ -35448,18 +35448,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "das",
-          "category": "article"
+          "type": "text",
+          "value": "das"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "zunächst"
+          "type": "blank",
+          "id": 1,
+          "answer": "zunächst",
+          "category": "other"
         },
         {
           "type": "text",
@@ -35594,18 +35594,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "viele",
-          "category": "other"
+          "type": "text",
+          "value": "viele"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Bewohnerinnen"
+          "type": "blank",
+          "id": 2,
+          "answer": "Bewohnerinnen",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -35896,18 +35896,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "München"
+          "type": "blank",
+          "id": 4,
+          "answer": "München",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -36042,18 +36042,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "günstige",
-          "category": "other"
+          "type": "text",
+          "value": "günstige"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Randgebiete"
+          "type": "blank",
+          "id": 5,
+          "answer": "Randgebiete",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -36344,18 +36344,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "dürfen",
-          "category": "verb"
+          "type": "text",
+          "value": "dürfen"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "aber"
+          "type": "blank",
+          "id": 7,
+          "answer": "aber",
+          "category": "conjunction"
         },
         {
           "type": "text",
@@ -36482,10 +36482,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "oder",
-          "category": "conjunction"
+          "type": "text",
+          "value": "oder"
         },
         {
           "type": "text",
@@ -36500,8 +36498,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Ausweisung"
+          "type": "blank",
+          "id": 8,
+          "answer": "Ausweisung",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -36800,18 +36800,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "berührt"
+          "type": "blank",
+          "id": 10,
+          "answer": "berührt",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "Grundüberzeugungen",
-          "category": "noun"
+          "type": "text",
+          "value": "Grundüberzeugungen"
         },
         {
           "type": "text",
@@ -36886,14 +36886,14 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "das",
-        "category": "article",
+        "answer": "zunächst",
+        "category": "other",
         "options": []
       },
       {
         "id": 2,
-        "answer": "viele",
-        "category": "other",
+        "answer": "Bewohnerinnen",
+        "category": "noun",
         "options": []
       },
       {
@@ -36904,14 +36904,14 @@ const LUECKENTEXTE = [
       },
       {
         "id": 4,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "München",
+        "category": "noun",
         "options": []
       },
       {
         "id": 5,
-        "answer": "günstige",
-        "category": "other",
+        "answer": "Randgebiete",
+        "category": "noun",
         "options": []
       },
       {
@@ -36922,14 +36922,14 @@ const LUECKENTEXTE = [
       },
       {
         "id": 7,
-        "answer": "dürfen",
-        "category": "verb",
+        "answer": "aber",
+        "category": "conjunction",
         "options": []
       },
       {
         "id": 8,
-        "answer": "oder",
-        "category": "conjunction",
+        "answer": "Ausweisung",
+        "category": "noun",
         "options": []
       },
       {
@@ -36940,21 +36940,21 @@ const LUECKENTEXTE = [
       },
       {
         "id": 10,
-        "answer": "Grundüberzeugungen",
-        "category": "noun",
+        "answer": "berührt",
+        "category": "adjective",
         "options": []
       }
     ],
     "wordBank": [
       {
-        "id": "distractor-2",
-        "text": "des",
-        "correctFor": null
+        "id": "answer-8",
+        "text": "Ausweisung",
+        "correctFor": 8
       },
       {
-        "id": "answer-1",
-        "text": "das",
-        "correctFor": 1
+        "id": "answer-4",
+        "text": "München",
+        "correctFor": 4
       },
       {
         "id": "answer-3",
@@ -36962,19 +36962,29 @@ const LUECKENTEXTE = [
         "correctFor": 3
       },
       {
-        "id": "answer-10",
-        "text": "Grundüberzeugungen",
-        "correctFor": 10
-      },
-      {
-        "id": "distractor-1",
-        "text": "Was",
+        "id": "distractor-4",
+        "text": "Benin-Bronzen",
         "correctFor": null
       },
       {
-        "id": "answer-8",
-        "text": "oder",
-        "correctFor": 8
+        "id": "distractor-5",
+        "text": "Kultur",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "Reisende",
+        "correctFor": null
+      },
+      {
+        "id": "answer-7",
+        "text": "aber",
+        "correctFor": 7
+      },
+      {
+        "id": "answer-5",
+        "text": "Randgebiete",
+        "correctFor": 5
       },
       {
         "id": "answer-9",
@@ -36983,18 +36993,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": "distractor-3",
-        "text": "wertvolle",
+        "text": "Investitionen",
         "correctFor": null
-      },
-      {
-        "id": "distractor-4",
-        "text": "transkulturelle",
-        "correctFor": null
-      },
-      {
-        "id": "answer-7",
-        "text": "dürfen",
-        "correctFor": 7
       },
       {
         "id": "answer-6",
@@ -37003,22 +37003,22 @@ const LUECKENTEXTE = [
       },
       {
         "id": "answer-2",
-        "text": "viele",
+        "text": "Bewohnerinnen",
         "correctFor": 2
       },
       {
-        "id": "answer-4",
-        "text": "und",
-        "correctFor": 4
+        "id": "answer-10",
+        "text": "berührt",
+        "correctFor": 10
       },
       {
-        "id": "answer-5",
-        "text": "günstige",
-        "correctFor": 5
+        "id": "answer-1",
+        "text": "zunächst",
+        "correctFor": 1
       },
       {
-        "id": "distractor-5",
-        "text": "Modell",
+        "id": "distractor-1",
+        "text": "nirgends",
         "correctFor": null
       }
     ]
@@ -37104,18 +37104,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "von",
-          "category": "preposition"
+          "type": "text",
+          "value": "von"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Faulheit"
+          "type": "blank",
+          "id": 1,
+          "answer": "Faulheit",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -37404,18 +37404,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "emotionale"
+          "type": "blank",
+          "id": 3,
+          "answer": "emotionale",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "Regulation",
-          "category": "noun"
+          "type": "text",
+          "value": "Regulation"
         },
         {
           "type": "text",
@@ -37560,18 +37560,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "sich",
-          "category": "other"
+          "type": "text",
+          "value": "sich"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "von"
+          "type": "blank",
+          "id": 4,
+          "answer": "von",
+          "category": "preposition"
         },
         {
           "type": "text",
@@ -38016,18 +38016,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "das"
+          "type": "blank",
+          "id": 7,
+          "answer": "das",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "in",
-          "category": "preposition"
+          "type": "text",
+          "value": "in"
         },
         {
           "type": "text",
@@ -38172,18 +38172,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "dieser",
-          "category": "article"
+          "type": "text",
+          "value": "dieser"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Erkenntnisse"
+          "type": "blank",
+          "id": 8,
+          "answer": "Erkenntnisse",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -38329,7 +38329,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 9,
           "answer": "erholsamen",
-          "category": "verb"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -38472,18 +38472,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "etablieren"
+          "type": "blank",
+          "id": 10,
+          "answer": "etablieren",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " – "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "zum",
-          "category": "other"
+          "type": "text",
+          "value": "zum"
         },
         {
           "type": "text",
@@ -38558,8 +38558,8 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "von",
-        "category": "preposition",
+        "answer": "Faulheit",
+        "category": "noun",
         "options": []
       },
       {
@@ -38570,14 +38570,14 @@ const LUECKENTEXTE = [
       },
       {
         "id": 3,
-        "answer": "Regulation",
-        "category": "noun",
+        "answer": "emotionale",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 4,
-        "answer": "sich",
-        "category": "other",
+        "answer": "von",
+        "category": "preposition",
         "options": []
       },
       {
@@ -38594,49 +38594,39 @@ const LUECKENTEXTE = [
       },
       {
         "id": 7,
-        "answer": "in",
-        "category": "preposition",
+        "answer": "das",
+        "category": "article",
         "options": []
       },
       {
         "id": 8,
-        "answer": "dieser",
-        "category": "article",
+        "answer": "Erkenntnisse",
+        "category": "noun",
         "options": []
       },
       {
         "id": 9,
         "answer": "erholsamen",
-        "category": "verb",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 10,
-        "answer": "zum",
-        "category": "other",
+        "answer": "etablieren",
+        "category": "verb",
         "options": []
       }
     ],
     "wordBank": [
       {
-        "id": "answer-7",
-        "text": "in",
-        "correctFor": 7
-      },
-      {
-        "id": "answer-10",
-        "text": "zum",
-        "correctFor": 10
-      },
-      {
-        "id": "distractor-3",
-        "text": "Volkes",
-        "correctFor": null
-      },
-      {
         "id": "distractor-2",
-        "text": "mit",
+        "text": "Besucher",
         "correctFor": null
+      },
+      {
+        "id": "answer-8",
+        "text": "Erkenntnisse",
+        "correctFor": 8
       },
       {
         "id": "answer-5",
@@ -38644,19 +38634,24 @@ const LUECKENTEXTE = [
         "correctFor": 5
       },
       {
-        "id": "answer-8",
-        "text": "dieser",
-        "correctFor": 8
-      },
-      {
-        "id": "answer-4",
-        "text": "sich",
-        "correctFor": 4
+        "id": "distractor-4",
+        "text": "ein",
+        "correctFor": null
       },
       {
         "id": "distractor-1",
-        "text": "für",
+        "text": "Fähigkeit",
         "correctFor": null
+      },
+      {
+        "id": "distractor-5",
+        "text": "teilnahmen",
+        "correctFor": null
+      },
+      {
+        "id": "answer-1",
+        "text": "Faulheit",
+        "correctFor": 1
       },
       {
         "id": "answer-9",
@@ -38669,19 +38664,19 @@ const LUECKENTEXTE = [
         "correctFor": 6
       },
       {
-        "id": "answer-1",
+        "id": "answer-4",
         "text": "von",
-        "correctFor": 1
+        "correctFor": 4
       },
       {
-        "id": "distractor-5",
-        "text": "Hybridität",
-        "correctFor": null
+        "id": "answer-7",
+        "text": "das",
+        "correctFor": 7
       },
       {
-        "id": "distractor-4",
-        "text": "erstes",
-        "correctFor": null
+        "id": "answer-10",
+        "text": "etablieren",
+        "correctFor": 10
       },
       {
         "id": "answer-2",
@@ -38689,8 +38684,13 @@ const LUECKENTEXTE = [
         "correctFor": 2
       },
       {
+        "id": "distractor-3",
+        "text": "kein",
+        "correctFor": null
+      },
+      {
         "id": "answer-3",
-        "text": "Regulation",
+        "text": "emotionale",
         "correctFor": 3
       }
     ]
@@ -38787,7 +38787,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 1,
           "answer": "populistischer",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -38930,18 +38930,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "einfachen"
+          "type": "blank",
+          "id": 2,
+          "answer": "einfachen",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "Antworten",
-          "category": "noun"
+          "type": "text",
+          "value": "Antworten"
         },
         {
           "type": "text",
@@ -39704,18 +39704,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "zeigen"
+          "type": "blank",
+          "id": 7,
+          "answer": "zeigen",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "dass",
-          "category": "conjunction"
+          "type": "text",
+          "value": "dass"
         },
         {
           "type": "text",
@@ -40014,18 +40014,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "dabei",
-          "category": "other"
+          "type": "text",
+          "value": "dabei"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Grundwerte"
+          "type": "blank",
+          "id": 9,
+          "answer": "Grundwerte",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -40255,13 +40255,13 @@ const LUECKENTEXTE = [
       {
         "id": 1,
         "answer": "populistischer",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 2,
-        "answer": "Antworten",
-        "category": "noun",
+        "answer": "einfachen",
+        "category": "adjective",
         "options": []
       },
       {
@@ -40290,8 +40290,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 7,
-        "answer": "dass",
-        "category": "conjunction",
+        "answer": "zeigen",
+        "category": "verb",
         "options": []
       },
       {
@@ -40302,8 +40302,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 9,
-        "answer": "dabei",
-        "category": "other",
+        "answer": "Grundwerte",
+        "category": "noun",
         "options": []
       },
       {
@@ -40315,9 +40315,9 @@ const LUECKENTEXTE = [
     ],
     "wordBank": [
       {
-        "id": "answer-9",
-        "text": "dabei",
-        "correctFor": 9
+        "id": "answer-2",
+        "text": "einfachen",
+        "correctFor": 2
       },
       {
         "id": "answer-6",
@@ -40330,6 +40330,16 @@ const LUECKENTEXTE = [
         "correctFor": 3
       },
       {
+        "id": "answer-9",
+        "text": "Grundwerte",
+        "correctFor": 9
+      },
+      {
+        "id": "answer-7",
+        "text": "zeigen",
+        "correctFor": 7
+      },
+      {
         "id": "distractor-5",
         "text": "Türkei",
         "correctFor": null
@@ -40340,13 +40350,13 @@ const LUECKENTEXTE = [
         "correctFor": 8
       },
       {
-        "id": "distractor-4",
-        "text": "Tendenzen",
+        "id": "distractor-1",
+        "text": "verantwortlich",
         "correctFor": null
       },
       {
-        "id": "distractor-2",
-        "text": "entweder",
+        "id": "distractor-3",
+        "text": "gespalten",
         "correctFor": null
       },
       {
@@ -40355,18 +40365,13 @@ const LUECKENTEXTE = [
         "correctFor": 1
       },
       {
-        "id": "distractor-1",
-        "text": "gleicher",
-        "correctFor": null
-      },
-      {
         "id": "answer-10",
         "text": "Angebote",
         "correctFor": 10
       },
       {
-        "id": "distractor-3",
-        "text": "Kontexten",
+        "id": "distractor-2",
+        "text": "globalisierten",
         "correctFor": null
       },
       {
@@ -40375,19 +40380,14 @@ const LUECKENTEXTE = [
         "correctFor": 5
       },
       {
-        "id": "answer-2",
-        "text": "Antworten",
-        "correctFor": 2
+        "id": "distractor-4",
+        "text": "verlieren",
+        "correctFor": null
       },
       {
         "id": "answer-4",
         "text": "von",
         "correctFor": 4
-      },
-      {
-        "id": "answer-7",
-        "text": "dass",
-        "correctFor": 7
       }
     ]
   },
@@ -40774,18 +40774,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "des"
+          "type": "blank",
+          "id": 3,
+          "answer": "des",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "modernen",
-          "category": "verb"
+          "type": "text",
+          "value": "modernen"
         },
         {
           "type": "text",
@@ -40920,18 +40920,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Ihr"
+          "type": "blank",
+          "id": 4,
+          "answer": "Ihr",
+          "category": "pronoun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "Prinzip",
-          "category": "noun"
+          "type": "text",
+          "value": "Prinzip"
         },
         {
           "type": "text",
@@ -41225,7 +41225,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 6,
           "answer": "westlicher",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -41368,18 +41368,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Lebensqualität"
+          "type": "blank",
+          "id": 7,
+          "answer": "Lebensqualität",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "zeigen",
-          "category": "verb"
+          "type": "text",
+          "value": "zeigen"
         },
         {
           "type": "text",
@@ -41524,18 +41524,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Minimalismus"
+          "type": "blank",
+          "id": 8,
+          "answer": "Minimalismus",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "ein",
-          "category": "article"
+          "type": "text",
+          "value": "ein"
         },
         {
           "type": "text",
@@ -41670,18 +41670,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Zudem"
+          "type": "blank",
+          "id": 9,
+          "answer": "Zudem",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "läuft",
-          "category": "verb"
+          "type": "text",
+          "value": "läuft"
         },
         {
           "type": "text",
@@ -41906,14 +41906,14 @@ const LUECKENTEXTE = [
       },
       {
         "id": 3,
-        "answer": "modernen",
-        "category": "verb",
+        "answer": "des",
+        "category": "article",
         "options": []
       },
       {
         "id": 4,
-        "answer": "Prinzip",
-        "category": "noun",
+        "answer": "Ihr",
+        "category": "pronoun",
         "options": []
       },
       {
@@ -41925,25 +41925,25 @@ const LUECKENTEXTE = [
       {
         "id": 6,
         "answer": "westlicher",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 7,
-        "answer": "zeigen",
-        "category": "verb",
+        "answer": "Lebensqualität",
+        "category": "noun",
         "options": []
       },
       {
         "id": 8,
-        "answer": "ein",
-        "category": "article",
+        "answer": "Minimalismus",
+        "category": "noun",
         "options": []
       },
       {
         "id": 9,
-        "answer": "läuft",
-        "category": "verb",
+        "answer": "Zudem",
+        "category": "noun",
         "options": []
       },
       {
@@ -41955,9 +41955,9 @@ const LUECKENTEXTE = [
     ],
     "wordBank": [
       {
-        "id": "distractor-2",
-        "text": "isländischen",
-        "correctFor": null
+        "id": "answer-8",
+        "text": "Minimalismus",
+        "correctFor": 8
       },
       {
         "id": "answer-5",
@@ -41966,23 +41966,13 @@ const LUECKENTEXTE = [
       },
       {
         "id": "answer-9",
-        "text": "läuft",
+        "text": "Zudem",
         "correctFor": 9
       },
       {
-        "id": "distractor-4",
-        "text": "verhandelt",
+        "id": "distractor-2",
+        "text": "argumentieren",
         "correctFor": null
-      },
-      {
-        "id": "distractor-5",
-        "text": "gegessen",
-        "correctFor": null
-      },
-      {
-        "id": "answer-8",
-        "text": "ein",
-        "correctFor": 8
       },
       {
         "id": "answer-6",
@@ -41990,19 +41980,14 @@ const LUECKENTEXTE = [
         "correctFor": 6
       },
       {
-        "id": "answer-7",
-        "text": "zeigen",
-        "correctFor": 7
-      },
-      {
-        "id": "distractor-1",
-        "text": "aufgewertet",
+        "id": "distractor-5",
+        "text": "eines",
         "correctFor": null
       },
       {
-        "id": "answer-3",
-        "text": "modernen",
-        "correctFor": 3
+        "id": "distractor-1",
+        "text": "berichtet",
+        "correctFor": null
       },
       {
         "id": "answer-1",
@@ -42010,9 +41995,19 @@ const LUECKENTEXTE = [
         "correctFor": 1
       },
       {
+        "id": "answer-4",
+        "text": "Ihr",
+        "correctFor": 4
+      },
+      {
         "id": "answer-2",
         "text": "entwickelt",
         "correctFor": 2
+      },
+      {
+        "id": "distractor-4",
+        "text": "empfindet",
+        "correctFor": null
       },
       {
         "id": "answer-10",
@@ -42020,14 +42015,19 @@ const LUECKENTEXTE = [
         "correctFor": 10
       },
       {
-        "id": "answer-4",
-        "text": "Prinzip",
-        "correctFor": 4
+        "id": "answer-7",
+        "text": "Lebensqualität",
+        "correctFor": 7
       },
       {
         "id": "distractor-3",
-        "text": "eingestellt",
+        "text": "festgelegt",
         "correctFor": null
+      },
+      {
+        "id": "answer-3",
+        "text": "des",
+        "correctFor": 3
       }
     ]
   },
@@ -42088,18 +42088,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "hat"
+          "type": "blank",
+          "id": 1,
+          "answer": "hat",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "eine",
-          "category": "article"
+          "type": "text",
+          "value": "eine"
         },
         {
           "type": "text",
@@ -42205,7 +42205,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 2,
           "answer": "acht",
-          "category": "verb"
+          "category": "other"
         },
         {
           "type": "text",
@@ -42310,18 +42310,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "ist",
-          "category": "verb"
+          "type": "text",
+          "value": "ist"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Lehrer"
+          "type": "blank",
+          "id": 3,
+          "answer": "Lehrer",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -42540,18 +42540,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "trinkt",
-          "category": "verb"
+          "type": "text",
+          "value": "trinkt"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Wasser"
+          "type": "blank",
+          "id": 5,
+          "answer": "Wasser",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -42602,32 +42602,32 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "eine",
-        "category": "article",
+        "answer": "hat",
+        "category": "verb",
         "options": [
-          "eine",
-          "Ohne",
-          "Eier"
+          "ist",
+          "hat",
+          "ruft"
         ]
       },
       {
         "id": 2,
         "answer": "acht",
-        "category": "verb",
+        "category": "other",
         "options": [
-          "alle",
           "acht",
-          "auch"
+          "sind",
+          "habe"
         ]
       },
       {
         "id": 3,
-        "answer": "ist",
-        "category": "verb",
+        "answer": "Lehrer",
+        "category": "noun",
         "options": [
-          "isst",
-          "hat",
-          "ist"
+          "Lehrer",
+          "Butter",
+          "Bücher"
         ]
       },
       {
@@ -42635,19 +42635,19 @@ const LUECKENTEXTE = [
         "answer": "Wochenende",
         "category": "noun",
         "options": [
-          "Stunde",
           "Supermarkt",
-          "Wochenende"
+          "Wochenende",
+          "Wohnzimmer"
         ]
       },
       {
         "id": 5,
-        "answer": "trinkt",
-        "category": "verb",
+        "answer": "Wasser",
+        "category": "noun",
         "options": [
-          "kostet",
-          "findet",
-          "trinkt"
+          "Wasser",
+          "Zimmer",
+          "Mutter"
         ]
       }
     ],
@@ -42710,10 +42710,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "sonnig",
-          "category": "adjective"
+          "type": "text",
+          "value": "sonnig"
         },
         {
           "type": "text",
@@ -42728,8 +42726,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "geht"
+          "type": "blank",
+          "id": 1,
+          "answer": "geht",
+          "category": "verb"
         },
         {
           "type": "text",
@@ -42827,7 +42827,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 2,
           "answer": "kalt",
-          "category": "verb"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -43057,7 +43057,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 4,
           "answer": "viel",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -43173,7 +43173,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 5,
           "answer": "im",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -43232,22 +43232,22 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "sonnig",
-        "category": "adjective",
+        "answer": "geht",
+        "category": "verb",
         "options": [
-          "fertig",
-          "spielt",
-          "sonnig"
+          "ruft",
+          "gern",
+          "geht"
         ]
       },
       {
         "id": 2,
         "answer": "kalt",
-        "category": "verb",
+        "category": "adjective",
         "options": [
           "malt",
-          "kalt",
-          "kann"
+          "sehr",
+          "kalt"
         ]
       },
       {
@@ -43255,29 +43255,29 @@ const LUECKENTEXTE = [
         "answer": "schön",
         "category": "adverb",
         "options": [
-          "sechs",
-          "sehen",
+          "heute",
+          "jetzt",
           "schön"
         ]
       },
       {
         "id": 4,
         "answer": "viel",
-        "category": "other",
+        "category": "adjective",
         "options": [
+          "beim",
           "viel",
-          "zehn",
-          "warm"
+          "kurz"
         ]
       },
       {
         "id": 5,
         "answer": "im",
-        "category": "other",
+        "category": "adjective",
         "options": [
-          "im",
-          "in",
-          "zu"
+          "isst",
+          "mag",
+          "im"
         ]
       }
     ],
@@ -43332,18 +43332,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Supermarkt",
-          "category": "noun"
+          "type": "text",
+          "value": "Supermarkt"
         },
         {
           "type": "text",
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Sie"
+          "type": "blank",
+          "id": 1,
+          "answer": "Sie",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -43790,12 +43790,12 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Supermarkt",
-        "category": "noun",
+        "answer": "Sie",
+        "category": "pronoun",
         "options": [
-          "Wohnzimmer",
-          "Schwimmbad",
-          "Supermarkt"
+          "wir",
+          "Sie",
+          "ich"
         ]
       },
       {
@@ -43804,8 +43804,8 @@ const LUECKENTEXTE = [
         "category": "verb",
         "options": [
           "passt",
-          "ist",
-          "ins"
+          "wohnt",
+          "ist"
         ]
       },
       {
@@ -43814,8 +43814,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Brot",
-          "Wand",
-          "Anna"
+          "Emma",
+          "Wand"
         ]
       },
       {
@@ -43823,9 +43823,9 @@ const LUECKENTEXTE = [
         "answer": "Schokolade",
         "category": "noun",
         "options": [
-          "Schokolade",
-          "Schwimmbad",
-          "Sicherheit"
+          "Restaurant",
+          "Supermarkt",
+          "Schokolade"
         ]
       },
       {
@@ -43834,8 +43834,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Euro",
-          "Bett",
-          "Anna"
+          "Ende",
+          "Wand"
         ]
       }
     ],
@@ -44218,8 +44218,10 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Seine"
+          "type": "blank",
+          "id": 4,
+          "answer": "Seine",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -44234,10 +44236,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "sagt",
-          "category": "verb"
+          "type": "text",
+          "value": "sagt"
         },
         {
           "type": "text",
@@ -44399,9 +44399,9 @@ const LUECKENTEXTE = [
         "answer": "ein",
         "category": "article",
         "options": [
-          "den",
-          "hat",
-          "ein"
+          "kein",
+          "ein",
+          "dieses"
         ]
       },
       {
@@ -44409,8 +44409,8 @@ const LUECKENTEXTE = [
         "answer": "Schreibtisch",
         "category": "noun",
         "options": [
-          "Sommerferien",
-          "Schlafzimmer",
+          "Spülmaschine",
+          "Schneemänner",
           "Schreibtisch"
         ]
       },
@@ -44419,19 +44419,19 @@ const LUECKENTEXTE = [
         "answer": "stehen",
         "category": "verb",
         "options": [
-          "heißen",
-          "seinen",
+          "setzen",
+          "spielen",
           "stehen"
         ]
       },
       {
         "id": 4,
-        "answer": "sagt",
-        "category": "verb",
+        "answer": "Seine",
+        "category": "pronoun",
         "options": [
-          "sind",
-          "sagt",
-          "acht"
+          "seiner",
+          "deine",
+          "Seine"
         ]
       },
       {
@@ -44440,8 +44440,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Garten",
-          "Kissen",
-          "Händen"
+          "Kunden",
+          "Beinen"
         ]
       }
     ],
@@ -44496,18 +44496,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "auf",
-          "category": "preposition"
+          "type": "text",
+          "value": "auf"
         },
         {
           "type": "text",
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Sie"
+          "type": "blank",
+          "id": 1,
+          "answer": "Sie",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -44702,18 +44702,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "trinkt",
-          "category": "verb"
+          "type": "text",
+          "value": "trinkt"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Orangensaft"
+          "type": "blank",
+          "id": 3,
+          "answer": "Orangensaft",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -44803,7 +44803,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 4,
           "answer": "zur",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -44962,12 +44962,12 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "auf",
-        "category": "preposition",
+        "answer": "Sie",
+        "category": "pronoun",
         "options": [
-          "bis",
-          "von",
-          "auf"
+          "Sie",
+          "es",
+          "er"
         ]
       },
       {
@@ -44975,29 +44975,29 @@ const LUECKENTEXTE = [
         "answer": "zieht",
         "category": "verb",
         "options": [
-          "nicht",
-          "sieht",
-          "zieht"
+          "steht",
+          "zieht",
+          "macht"
         ]
       },
       {
         "id": 3,
-        "answer": "trinkt",
-        "category": "verb",
+        "answer": "Orangensaft",
+        "category": "noun",
         "options": [
-          "trinke",
-          "trinkt",
-          "treffe"
+          "Kühlschrank",
+          "Stadtschule",
+          "Orangensaft"
         ]
       },
       {
         "id": 4,
         "answer": "zur",
-        "category": "other",
+        "category": "adjective",
         "options": [
-          "ins",
+          "rot",
           "zur",
-          "zum"
+          "nur"
         ]
       },
       {
@@ -45005,9 +45005,9 @@ const LUECKENTEXTE = [
         "answer": "die",
         "category": "article",
         "options": [
-          "die",
-          "ein",
-          "Das"
+          "diese",
+          "eine",
+          "die"
         ]
       }
     ],
@@ -45154,18 +45154,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "der",
-          "category": "article"
+          "type": "text",
+          "value": "der"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Pause"
+          "type": "blank",
+          "id": 2,
+          "answer": "Pause",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -45426,18 +45426,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "Herr",
-          "category": "noun"
+          "type": "text",
+          "value": "Herr"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Braun"
+          "type": "blank",
+          "id": 5,
+          "answer": "Braun",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -45483,19 +45483,19 @@ const LUECKENTEXTE = [
         "answer": "Klasse",
         "category": "noun",
         "options": [
-          "Kuchen",
-          "Kissen",
-          "Klasse"
+          "Klasse",
+          "Kaffee",
+          "Gemüse"
         ]
       },
       {
         "id": 2,
-        "answer": "der",
-        "category": "article",
+        "answer": "Pause",
+        "category": "noun",
         "options": [
-          "Die",
-          "Das",
-          "der"
+          "Pause",
+          "Hause",
+          "Klaus"
         ]
       },
       {
@@ -45504,8 +45504,8 @@ const LUECKENTEXTE = [
         "category": "other",
         "options": [
           "sehr",
-          "sagt",
-          "mehr"
+          "acht",
+          "warm"
         ]
       },
       {
@@ -45513,19 +45513,19 @@ const LUECKENTEXTE = [
         "answer": "Freitag",
         "category": "noun",
         "options": [
+          "Familie",
           "Freitag",
-          "Fenster",
-          "München"
+          "Kindern"
         ]
       },
       {
         "id": 5,
-        "answer": "Herr",
+        "answer": "Braun",
         "category": "noun",
         "options": [
-          "Herr",
-          "Hund",
-          "Hals"
+          "Braun",
+          "Vater",
+          "Bello"
         ]
       }
     ],
@@ -45588,18 +45588,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "liest"
+          "type": "blank",
+          "id": 1,
+          "answer": "liest",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
@@ -45686,18 +45686,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "zum"
+          "type": "blank",
+          "id": 2,
+          "answer": "zum",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "Tanzkurs",
-          "category": "noun"
+          "type": "text",
+          "value": "Tanzkurs"
         },
         {
           "type": "text",
@@ -45794,18 +45794,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Manchmal"
+          "type": "blank",
+          "id": 3,
+          "answer": "Manchmal",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "fährt",
-          "category": "verb"
+          "type": "text",
+          "value": "fährt"
         },
         {
           "type": "text",
@@ -45992,18 +45992,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "Kino",
-          "category": "noun"
+          "type": "text",
+          "value": "Kino"
         },
         {
           "type": "text",
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Sie"
+          "type": "blank",
+          "id": 5,
+          "answer": "Sie",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -46054,32 +46054,32 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "liest",
+        "category": "verb",
         "options": [
-          "alt",
-          "und",
-          "hat"
+          "steht",
+          "liest",
+          "wohnt"
         ]
       },
       {
         "id": 2,
-        "answer": "Tanzkurs",
-        "category": "noun",
+        "answer": "zum",
+        "category": "adjective",
         "options": [
-          "Tanzkurs",
-          "Freunden",
-          "Frühling"
+          "zum",
+          "zur",
+          "mag"
         ]
       },
       {
         "id": 3,
-        "answer": "fährt",
-        "category": "verb",
+        "answer": "Manchmal",
+        "category": "noun",
         "options": [
-          "fährt",
-          "fragt",
-          "fühlt"
+          "Ausflüge",
+          "Manchmal",
+          "Tanzkurs"
         ]
       },
       {
@@ -46087,19 +46087,19 @@ const LUECKENTEXTE = [
         "answer": "sieht",
         "category": "verb",
         "options": [
-          "kocht",
+          "zieht",
           "sieht",
-          "nicht"
+          "steht"
         ]
       },
       {
         "id": 5,
-        "answer": "Kino",
-        "category": "noun",
+        "answer": "Sie",
+        "category": "pronoun",
         "options": [
-          "Kühe",
-          "Koch",
-          "Kino"
+          "ich",
+          "ihr",
+          "Sie"
         ]
       }
     ],
@@ -46165,7 +46165,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 1,
           "answer": "ins",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -46260,18 +46260,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "setzen"
+          "type": "blank",
+          "id": 2,
+          "answer": "setzen",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "sich",
-          "category": "other"
+          "type": "text",
+          "value": "sich"
         },
         {
           "type": "text",
@@ -46368,18 +46368,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "Kaffee",
-          "category": "noun"
+          "type": "text",
+          "value": "Kaffee"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "und"
+          "type": "blank",
+          "id": 3,
+          "answer": "und",
+          "category": "conjunction"
         },
         {
           "type": "text",
@@ -46629,31 +46629,31 @@ const LUECKENTEXTE = [
       {
         "id": 1,
         "answer": "ins",
-        "category": "other",
+        "category": "adjective",
         "options": [
-          "mag",
-          "pro",
+          "nur",
+          "rot",
           "ins"
         ]
       },
       {
         "id": 2,
-        "answer": "sich",
-        "category": "other",
+        "answer": "setzen",
+        "category": "verb",
         "options": [
-          "sich",
-          "noch",
-          "sehr"
+          "Tanzen",
+          "essen",
+          "setzen"
         ]
       },
       {
         "id": 3,
-        "answer": "Kaffee",
-        "category": "noun",
+        "answer": "und",
+        "category": "conjunction",
         "options": [
-          "Kaffee",
-          "Kunden",
-          "Kinder"
+          "außerdem",
+          "und",
+          "sowie"
         ]
       },
       {
@@ -46662,8 +46662,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Händen",
-          "Blumen",
-          "Kuchen"
+          "Kuchen",
+          "München"
         ]
       },
       {
@@ -46671,8 +46671,8 @@ const LUECKENTEXTE = [
         "answer": "bezahlen",
         "category": "verb",
         "options": [
-          "bestellt",
-          "Brötchen",
+          "spielen",
+          "stehen",
           "bezahlen"
         ]
       }
@@ -46826,18 +46826,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "braun"
+          "type": "blank",
+          "id": 2,
+          "answer": "braun",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
@@ -46934,18 +46934,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Morgen"
+          "type": "blank",
+          "id": 3,
+          "answer": "Morgen",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "gehen",
-          "category": "verb"
+          "type": "text",
+          "value": "gehen"
         },
         {
           "type": "text",
@@ -47037,7 +47037,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 4,
           "answer": "schläft",
-          "category": "verb"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -47127,7 +47127,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 5,
           "answer": "sehr",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -47181,49 +47181,49 @@ const LUECKENTEXTE = [
         "answer": "Hund",
         "category": "noun",
         "options": [
-          "Wand",
-          "Herr",
+          "Hals",
+          "Haus",
           "Hund"
         ]
       },
       {
         "id": 2,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "braun",
+        "category": "adjective",
         "options": [
-          "alt",
-          "und",
-          "hat"
+          "mögen",
+          "sehen",
+          "braun"
         ]
       },
       {
         "id": 3,
-        "answer": "gehen",
-        "category": "verb",
+        "answer": "Morgen",
+        "category": "noun",
         "options": [
-          "gehen",
-          "geben",
-          "jeden"
+          "Händen",
+          "Kunden",
+          "Morgen"
         ]
       },
       {
         "id": 4,
         "answer": "schläft",
-        "category": "verb",
+        "category": "adjective",
         "options": [
-          "scheint",
-          "spielen",
+          "sammelt",
+          "bezahlt",
           "schläft"
         ]
       },
       {
         "id": 5,
         "answer": "sehr",
-        "category": "other",
+        "category": "adjective",
         "options": [
           "sehr",
           "sind",
-          "sagt"
+          "kalt"
         ]
       }
     ],
@@ -47350,18 +47350,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "drei"
+          "type": "blank",
+          "id": 1,
+          "answer": "drei",
+          "category": "other"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Kinder",
-          "category": "noun"
+          "type": "text",
+          "value": "Kinder"
         },
         {
           "type": "text",
@@ -47568,8 +47568,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "und"
+          "type": "blank",
+          "id": 2,
+          "answer": "und",
+          "category": "conjunction"
         },
         {
           "type": "text",
@@ -47592,10 +47594,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "drei",
-          "category": "other"
+          "type": "text",
+          "value": "drei"
         },
         {
           "type": "text",
@@ -47788,18 +47788,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Thomas"
+          "type": "blank",
+          "id": 3,
+          "answer": "Thomas",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "arbeitet",
-          "category": "verb"
+          "type": "text",
+          "value": "arbeitet"
         },
         {
           "type": "text",
@@ -48008,10 +48008,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "kocht",
-          "category": "verb"
+          "type": "text",
+          "value": "kocht"
         },
         {
           "type": "text",
@@ -48026,8 +48024,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "gern"
+          "type": "blank",
+          "id": 4,
+          "answer": "gern",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -48362,42 +48362,42 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Kinder",
-        "category": "noun",
-        "options": [
-          "Wasser",
-          "Kinder",
-          "Lehrer"
-        ]
-      },
-      {
-        "id": 2,
         "answer": "drei",
         "category": "other",
         "options": [
           "drei",
-          "sehr",
-          "dein"
+          "sind",
+          "warm"
+        ]
+      },
+      {
+        "id": 2,
+        "answer": "und",
+        "category": "conjunction",
+        "options": [
+          "außerdem",
+          "sowie",
+          "und"
         ]
       },
       {
         "id": 3,
-        "answer": "arbeitet",
-        "category": "verb",
+        "answer": "Thomas",
+        "category": "noun",
         "options": [
-          "zusammen",
-          "kostet",
-          "arbeitet"
+          "Mutter",
+          "Thomas",
+          "Winter"
         ]
       },
       {
         "id": 4,
-        "answer": "kocht",
-        "category": "verb",
+        "answer": "gern",
+        "category": "adjective",
         "options": [
-          "kocht",
-          "zieht",
-          "sieht"
+          "gibt",
+          "groß",
+          "gern"
         ]
       },
       {
@@ -48405,8 +48405,8 @@ const LUECKENTEXTE = [
         "answer": "weiß",
         "category": "other",
         "options": [
-          "weit",
-          "heiß",
+          "wohl",
+          "acht",
           "weiß"
         ]
       }
@@ -48526,18 +48526,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Schule"
+          "type": "blank",
+          "id": 1,
+          "answer": "Schule",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Körperteile",
-          "category": "noun"
+          "type": "text",
+          "value": "Körperteile"
         },
         {
           "type": "text",
@@ -48722,18 +48722,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Sie"
+          "type": "blank",
+          "id": 2,
+          "answer": "Sie",
+          "category": "pronoun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "sind",
-          "category": "other"
+          "type": "text",
+          "value": "sind"
         },
         {
           "type": "text",
@@ -48918,18 +48918,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Hals"
+          "type": "blank",
+          "id": 3,
+          "answer": "Hals",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "verbindet",
-          "category": "verb"
+          "type": "text",
+          "value": "verbindet"
         },
         {
           "type": "text",
@@ -49104,18 +49104,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Mit"
+          "type": "blank",
+          "id": 4,
+          "answer": "Mit",
+          "category": "preposition"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "den",
-          "category": "article"
+          "type": "text",
+          "value": "den"
         },
         {
           "type": "text",
@@ -49284,10 +49284,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "Füße",
-          "category": "noun"
+          "type": "text",
+          "value": "Füße"
         },
         {
           "type": "text",
@@ -49302,8 +49300,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "den"
+          "type": "blank",
+          "id": 5,
+          "answer": "den",
+          "category": "article"
         },
         {
           "type": "text",
@@ -49402,85 +49402,85 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Körperteile",
+        "answer": "Schule",
         "category": "noun",
         "options": []
       },
       {
         "id": 2,
-        "answer": "sind",
-        "category": "other",
+        "answer": "Sie",
+        "category": "pronoun",
         "options": []
       },
       {
         "id": 3,
-        "answer": "verbindet",
-        "category": "verb",
+        "answer": "Hals",
+        "category": "noun",
         "options": []
       },
       {
         "id": 4,
-        "answer": "den",
-        "category": "article",
+        "answer": "Mit",
+        "category": "preposition",
         "options": []
       },
       {
         "id": 5,
-        "answer": "Füße",
-        "category": "noun",
+        "answer": "den",
+        "category": "article",
         "options": []
       }
     ],
     "wordBank": [
       {
-        "id": "answer-3",
-        "text": "verbindet",
-        "correctFor": 3
-      },
-      {
-        "id": "distractor-2",
-        "text": "Stadtschule",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-1",
-        "text": "Kassiererin",
-        "correctFor": null
-      },
-      {
-        "id": "answer-4",
-        "text": "den",
-        "correctFor": 4
-      },
-      {
         "id": "distractor-4",
-        "text": "sein",
+        "text": "ihr",
         "correctFor": null
       },
       {
         "id": "distractor-3",
-        "text": "sehr",
+        "text": "wir",
         "correctFor": null
       },
       {
-        "id": "answer-5",
-        "text": "Füße",
-        "correctFor": 5
-      },
-      {
-        "id": "answer-1",
-        "text": "Körperteile",
-        "correctFor": 1
+        "id": "distractor-1",
+        "text": "Mutter",
+        "correctFor": null
       },
       {
         "id": "answer-2",
-        "text": "sind",
+        "text": "Sie",
         "correctFor": 2
       },
       {
         "id": "distractor-5",
-        "text": "schneidet",
+        "text": "Brot",
         "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "Sommer",
+        "correctFor": null
+      },
+      {
+        "id": "answer-4",
+        "text": "Mit",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-3",
+        "text": "Hals",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-5",
+        "text": "den",
+        "correctFor": 5
+      },
+      {
+        "id": "answer-1",
+        "text": "Schule",
+        "correctFor": 1
       }
     ]
   },
@@ -49581,18 +49581,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Kühe",
-          "category": "noun"
+          "type": "text",
+          "value": "Kühe"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "Schweine"
+          "type": "blank",
+          "id": 1,
+          "answer": "Schweine",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -49769,18 +49769,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "verkauft",
-          "category": "verb"
+          "type": "text",
+          "value": "verkauft"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "die"
+          "type": "blank",
+          "id": 2,
+          "answer": "die",
+          "category": "article"
         },
         {
           "type": "text",
@@ -50138,7 +50138,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 4,
           "answer": "weich",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -50331,18 +50331,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Müller"
+          "type": "blank",
+          "id": 5,
+          "answer": "Müller",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "mag",
-          "category": "other"
+          "type": "text",
+          "value": "mag"
         },
         {
           "type": "text",
@@ -50433,14 +50433,14 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Kühe",
+        "answer": "Schweine",
         "category": "noun",
         "options": []
       },
       {
         "id": 2,
-        "answer": "verkauft",
-        "category": "verb",
+        "answer": "die",
+        "category": "article",
         "options": []
       },
       {
@@ -50452,21 +50452,21 @@ const LUECKENTEXTE = [
       {
         "id": 4,
         "answer": "weich",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 5,
-        "answer": "mag",
-        "category": "other",
+        "answer": "Müller",
+        "category": "noun",
         "options": []
       }
     ],
     "wordBank": [
       {
-        "id": "distractor-5",
-        "text": "Uhr",
-        "correctFor": null
+        "id": "answer-1",
+        "text": "Schweine",
+        "correctFor": 1
       },
       {
         "id": "answer-4",
@@ -50475,32 +50475,32 @@ const LUECKENTEXTE = [
       },
       {
         "id": "answer-5",
-        "text": "mag",
+        "text": "Müller",
         "correctFor": 5
       },
       {
-        "id": "answer-1",
-        "text": "Kühe",
-        "correctFor": 1
+        "id": "distractor-2",
+        "text": "Tanzkurs",
+        "correctFor": null
       },
       {
-        "id": "distractor-3",
-        "text": "bezahlen",
+        "id": "distractor-4",
+        "text": "keine",
         "correctFor": null
       },
       {
         "id": "answer-2",
-        "text": "verkauft",
+        "text": "die",
         "correctFor": 2
       },
       {
-        "id": "distractor-1",
-        "text": "Köln",
+        "id": "distractor-3",
+        "text": "eine",
         "correctFor": null
       },
       {
-        "id": "distractor-2",
-        "text": "Küche",
+        "id": "distractor-5",
+        "text": "sowie",
         "correctFor": null
       },
       {
@@ -50509,8 +50509,8 @@ const LUECKENTEXTE = [
         "correctFor": 3
       },
       {
-        "id": "distractor-4",
-        "text": "kauft",
+        "id": "distractor-1",
+        "text": "Freundin",
         "correctFor": null
       }
     ]
@@ -50620,18 +50620,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "ist"
+          "type": "blank",
+          "id": 1,
+          "answer": "ist",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "nicht",
-          "category": "verb"
+          "type": "text",
+          "value": "nicht"
         },
         {
           "type": "text",
@@ -50792,10 +50792,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "eine",
-          "category": "article"
+          "type": "text",
+          "value": "eine"
         },
         {
           "type": "text",
@@ -50810,8 +50808,10 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Im"
+          "type": "blank",
+          "id": 2,
+          "answer": "Im",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -51440,14 +51440,14 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "nicht",
+        "answer": "ist",
         "category": "verb",
         "options": []
       },
       {
         "id": 2,
-        "answer": "eine",
-        "category": "article",
+        "answer": "Im",
+        "category": "noun",
         "options": []
       },
       {
@@ -51472,12 +51472,7 @@ const LUECKENTEXTE = [
     "wordBank": [
       {
         "id": "distractor-5",
-        "text": "bester",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-2",
-        "text": "steht",
+        "text": "orange",
         "correctFor": null
       },
       {
@@ -51486,14 +51481,14 @@ const LUECKENTEXTE = [
         "correctFor": 5
       },
       {
-        "id": "distractor-3",
-        "text": "Emma",
+        "id": "distractor-4",
+        "text": "Zum",
         "correctFor": null
       },
       {
-        "id": "distractor-4",
-        "text": "Ohne",
-        "correctFor": null
+        "id": "answer-2",
+        "text": "Im",
+        "correctFor": 2
       },
       {
         "id": "answer-3",
@@ -51501,24 +51496,29 @@ const LUECKENTEXTE = [
         "correctFor": 3
       },
       {
+        "id": "distractor-2",
+        "text": "passt",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-1",
+        "text": "wohnt",
+        "correctFor": null
+      },
+      {
         "id": "answer-4",
         "text": "ein",
         "correctFor": 4
       },
       {
-        "id": "answer-1",
-        "text": "nicht",
-        "correctFor": 1
-      },
-      {
-        "id": "distractor-1",
-        "text": "sieht",
+        "id": "distractor-3",
+        "text": "See",
         "correctFor": null
       },
       {
-        "id": "answer-2",
-        "text": "eine",
-        "correctFor": 2
+        "id": "answer-1",
+        "text": "ist",
+        "correctFor": 1
       }
     ]
   },
@@ -51622,7 +51622,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 1,
           "answer": "im",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -51977,18 +51977,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "kocht"
+          "type": "blank",
+          "id": 3,
+          "answer": "kocht",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "das",
-          "category": "article"
+          "type": "text",
+          "value": "das"
         },
         {
           "type": "text",
@@ -52157,18 +52157,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "arbeitet"
+          "type": "blank",
+          "id": 4,
+          "answer": "arbeitet",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "in",
-          "category": "preposition"
+          "type": "text",
+          "value": "in"
         },
         {
           "type": "text",
@@ -52329,10 +52329,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "funktioniert",
-          "category": "verb"
+          "type": "text",
+          "value": "funktioniert"
         },
         {
           "type": "text",
@@ -52347,8 +52345,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Leben"
+          "type": "blank",
+          "id": 5,
+          "answer": "Leben",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -52440,7 +52440,7 @@ const LUECKENTEXTE = [
       {
         "id": 1,
         "answer": "im",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
@@ -52451,73 +52451,73 @@ const LUECKENTEXTE = [
       },
       {
         "id": 3,
-        "answer": "das",
-        "category": "article",
+        "answer": "kocht",
+        "category": "verb",
         "options": []
       },
       {
         "id": 4,
-        "answer": "in",
-        "category": "preposition",
+        "answer": "arbeitet",
+        "category": "verb",
         "options": []
       },
       {
         "id": 5,
-        "answer": "funktioniert",
-        "category": "verb",
+        "answer": "Leben",
+        "category": "noun",
         "options": []
       }
     ],
     "wordBank": [
+      {
+        "id": "answer-3",
+        "text": "kocht",
+        "correctFor": 3
+      },
+      {
+        "id": "distractor-2",
+        "text": "zur",
+        "correctFor": null
+      },
       {
         "id": "answer-1",
         "text": "im",
         "correctFor": 1
       },
       {
-        "id": "answer-3",
-        "text": "das",
-        "correctFor": 3
-      },
-      {
-        "id": "answer-4",
-        "text": "in",
-        "correctFor": 4
-      },
-      {
-        "id": "distractor-5",
-        "text": "der",
+        "id": "distractor-4",
+        "text": "sind",
         "correctFor": null
       },
       {
-        "id": "answer-5",
-        "text": "funktioniert",
-        "correctFor": 5
-      },
-      {
-        "id": "distractor-2",
-        "text": "es",
+        "id": "distractor-5",
+        "text": "sieht",
         "correctFor": null
       },
       {
         "id": "distractor-1",
-        "text": "um",
+        "text": "isst",
         "correctFor": null
       },
       {
-        "id": "distractor-4",
-        "text": "sich",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-3",
-        "text": "sind",
-        "correctFor": null
+        "id": "answer-4",
+        "text": "arbeitet",
+        "correctFor": 4
       },
       {
         "id": "answer-2",
         "text": "sehr",
         "correctFor": 2
+      },
+      {
+        "id": "answer-5",
+        "text": "Leben",
+        "correctFor": 5
+      },
+      {
+        "id": "distractor-3",
+        "text": "habe",
+        "correctFor": null
       }
     ]
   },
@@ -52602,18 +52602,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Winter"
+          "type": "blank",
+          "id": 1,
+          "answer": "Winter",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -52774,18 +52774,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "Sommer",
-          "category": "noun"
+          "type": "text",
+          "value": "Sommer"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "ist"
+          "type": "blank",
+          "id": 2,
+          "answer": "ist",
+          "category": "verb"
         },
         {
           "type": "text",
@@ -52938,10 +52938,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "werden",
-          "category": "verb"
+          "type": "text",
+          "value": "werden"
         },
         {
           "type": "text",
@@ -52956,8 +52954,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Blätter"
+          "type": "blank",
+          "id": 3,
+          "answer": "Blätter",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -53100,18 +53100,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "ist",
-          "category": "verb"
+          "type": "text",
+          "value": "ist"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "es"
+          "type": "blank",
+          "id": 4,
+          "answer": "es",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -53272,18 +53272,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "schwimmen",
-          "category": "verb"
+          "type": "text",
+          "value": "schwimmen"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "und"
+          "type": "blank",
+          "id": 5,
+          "answer": "und",
+          "category": "conjunction"
         },
         {
           "type": "text",
@@ -53366,85 +53366,85 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "und",
-        "category": "conjunction",
-        "options": []
-      },
-      {
-        "id": 2,
-        "answer": "Sommer",
+        "answer": "Winter",
         "category": "noun",
         "options": []
       },
       {
-        "id": 3,
-        "answer": "werden",
-        "category": "verb",
-        "options": []
-      },
-      {
-        "id": 4,
+        "id": 2,
         "answer": "ist",
         "category": "verb",
         "options": []
       },
       {
+        "id": 3,
+        "answer": "Blätter",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "es",
+        "category": "pronoun",
+        "options": []
+      },
+      {
         "id": 5,
-        "answer": "schwimmen",
-        "category": "verb",
+        "answer": "und",
+        "category": "conjunction",
         "options": []
       }
     ],
     "wordBank": [
       {
-        "id": "distractor-5",
-        "text": "hängen",
-        "correctFor": null
+        "id": "answer-1",
+        "text": "Winter",
+        "correctFor": 1
       },
       {
         "id": "answer-5",
-        "text": "schwimmen",
+        "text": "und",
         "correctFor": 5
       },
       {
+        "id": "answer-2",
+        "text": "ist",
+        "correctFor": 2
+      },
+      {
+        "id": "distractor-1",
+        "text": "Sommer",
+        "correctFor": null
+      },
+      {
+        "id": "answer-4",
+        "text": "es",
+        "correctFor": 4
+      },
+      {
+        "id": "distractor-3",
+        "text": "hat",
+        "correctFor": null
+      },
+      {
         "id": "distractor-4",
-        "text": "Mutter",
+        "text": "ruft",
         "correctFor": null
       },
       {
         "id": "distractor-2",
-        "text": "übe",
+        "text": "Bücher",
         "correctFor": null
       },
       {
         "id": "answer-3",
-        "text": "werden",
+        "text": "Blätter",
         "correctFor": 3
       },
       {
-        "id": "distractor-3",
-        "text": "Wasser",
+        "id": "distractor-5",
+        "text": "Klavier",
         "correctFor": null
-      },
-      {
-        "id": "distractor-1",
-        "text": "Uhr",
-        "correctFor": null
-      },
-      {
-        "id": "answer-1",
-        "text": "und",
-        "correctFor": 1
-      },
-      {
-        "id": "answer-2",
-        "text": "Sommer",
-        "correctFor": 2
-      },
-      {
-        "id": "answer-4",
-        "text": "ist",
-        "correctFor": 4
       }
     ]
   },
@@ -54372,13 +54372,13 @@ const LUECKENTEXTE = [
     ],
     "wordBank": [
       {
-        "id": "distractor-4",
-        "text": "wir",
+        "id": "distractor-5",
+        "text": "zieht",
         "correctFor": null
       },
       {
-        "id": "distractor-3",
-        "text": "See",
+        "id": "distractor-4",
+        "text": "ich",
         "correctFor": null
       },
       {
@@ -54392,18 +54392,18 @@ const LUECKENTEXTE = [
         "correctFor": 5
       },
       {
-        "id": "distractor-5",
-        "text": "koche",
-        "correctFor": null
-      },
-      {
         "id": "answer-3",
         "text": "kauft",
         "correctFor": 3
       },
       {
-        "id": "distractor-1",
-        "text": "den",
+        "id": "distractor-2",
+        "text": "diese",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-3",
+        "text": "ihr",
         "correctFor": null
       },
       {
@@ -54417,8 +54417,8 @@ const LUECKENTEXTE = [
         "correctFor": 2
       },
       {
-        "id": "distractor-2",
-        "text": "dem",
+        "id": "distractor-1",
+        "text": "keine",
         "correctFor": null
       }
     ]
@@ -54531,7 +54531,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 1,
           "answer": "dritte",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -54920,18 +54920,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "esse",
-          "category": "other"
+          "type": "text",
+          "value": "esse"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "ich"
+          "type": "blank",
+          "id": 3,
+          "answer": "ich",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -55302,18 +55302,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "spiele"
+          "type": "blank",
+          "id": 5,
+          "answer": "spiele",
+          "category": "other"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "ich",
-          "category": "pronoun"
+          "type": "text",
+          "value": "ich"
         },
         {
           "type": "text",
@@ -55421,7 +55421,7 @@ const LUECKENTEXTE = [
       {
         "id": 1,
         "answer": "dritte",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
@@ -55432,8 +55432,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 3,
-        "answer": "esse",
-        "category": "other",
+        "answer": "ich",
+        "category": "pronoun",
         "options": []
       },
       {
@@ -55444,15 +55444,15 @@ const LUECKENTEXTE = [
       },
       {
         "id": 5,
-        "answer": "ich",
-        "category": "pronoun",
+        "answer": "spiele",
+        "category": "other",
         "options": []
       }
     ],
     "wordBank": [
       {
-        "id": "distractor-2",
-        "text": "seinem",
+        "id": "distractor-5",
+        "text": "ihr",
         "correctFor": null
       },
       {
@@ -55461,13 +55461,18 @@ const LUECKENTEXTE = [
         "correctFor": 2
       },
       {
+        "id": "distractor-4",
+        "text": "Lehrer",
+        "correctFor": null
+      },
+      {
         "id": "distractor-1",
         "text": "vierte",
         "correctFor": null
       },
       {
         "id": "answer-3",
-        "text": "esse",
+        "text": "ich",
         "correctFor": 3
       },
       {
@@ -55476,18 +55481,13 @@ const LUECKENTEXTE = [
         "correctFor": 1
       },
       {
-        "id": "distractor-4",
-        "text": "Bilder",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-3",
-        "text": "Butter",
+        "id": "distractor-2",
+        "text": "möchte",
         "correctFor": null
       },
       {
         "id": "answer-5",
-        "text": "ich",
+        "text": "spiele",
         "correctFor": 5
       },
       {
@@ -55496,8 +55496,8 @@ const LUECKENTEXTE = [
         "correctFor": 4
       },
       {
-        "id": "distractor-5",
-        "text": "zehn",
+        "id": "distractor-3",
+        "text": "Wasser",
         "correctFor": null
       }
     ]
@@ -55607,18 +55607,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Kopfschmerzen"
+          "type": "blank",
+          "id": 1,
+          "answer": "Kopfschmerzen",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Halsschmerzen",
-          "category": "noun"
+          "type": "text",
+          "value": "Halsschmerzen"
         },
         {
           "type": "text",
@@ -55803,18 +55803,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Sprechstundenhilfe"
+          "type": "blank",
+          "id": 2,
+          "answer": "Sprechstundenhilfe",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": ": „"
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "Emma",
-          "category": "noun"
+          "type": "text",
+          "value": "Emma"
         },
         {
           "type": "text",
@@ -55999,8 +55999,10 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Mir"
+          "type": "blank",
+          "id": 3,
+          "answer": "Mir",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -56015,10 +56017,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "auch",
-          "category": "other"
+          "type": "text",
+          "value": "auch"
         },
         {
           "type": "text",
@@ -56195,8 +56195,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Erkältung"
+          "type": "blank",
+          "id": 4,
+          "answer": "Erkältung",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -56219,10 +56221,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "Ruhe",
-          "category": "noun"
+          "type": "text",
+          "value": "Ruhe"
         },
         {
           "type": "text",
@@ -56483,25 +56483,25 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Halsschmerzen",
+        "answer": "Kopfschmerzen",
         "category": "noun",
         "options": []
       },
       {
         "id": 2,
-        "answer": "Emma",
+        "answer": "Sprechstundenhilfe",
         "category": "noun",
         "options": []
       },
       {
         "id": 3,
-        "answer": "auch",
-        "category": "other",
+        "answer": "Mir",
+        "category": "pronoun",
         "options": []
       },
       {
         "id": 4,
-        "answer": "Ruhe",
+        "answer": "Erkältung",
         "category": "noun",
         "options": []
       },
@@ -56514,48 +56514,48 @@ const LUECKENTEXTE = [
     ],
     "wordBank": [
       {
-        "id": "distractor-5",
-        "text": "nach",
-        "correctFor": null
-      },
-      {
-        "id": "answer-4",
-        "text": "Ruhe",
-        "correctFor": 4
-      },
-      {
-        "id": "answer-2",
-        "text": "Emma",
-        "correctFor": 2
-      },
-      {
         "id": "answer-3",
-        "text": "auch",
+        "text": "Mir",
         "correctFor": 3
       },
       {
-        "id": "distractor-1",
-        "text": "München",
+        "id": "distractor-2",
+        "text": "Halsschmerzen",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-5",
+        "text": "dir",
         "correctFor": null
       },
       {
         "id": "distractor-3",
-        "text": "Lisa",
+        "text": "Schreibtisch",
         "correctFor": null
+      },
+      {
+        "id": "answer-4",
+        "text": "Erkältung",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-2",
+        "text": "Sprechstundenhilfe",
+        "correctFor": 2
       },
       {
         "id": "answer-1",
-        "text": "Halsschmerzen",
+        "text": "Kopfschmerzen",
         "correctFor": 1
       },
       {
-        "id": "distractor-2",
-        "text": "Blumen",
+        "id": "distractor-4",
+        "text": "Sommer",
         "correctFor": null
       },
       {
-        "id": "distractor-4",
-        "text": "Anna",
+        "id": "distractor-1",
+        "text": "Kuchen",
         "correctFor": null
       },
       {
@@ -56662,18 +56662,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Freizeit"
+          "type": "blank",
+          "id": 1,
+          "answer": "Freizeit",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "mache",
-          "category": "other"
+          "type": "text",
+          "value": "mache"
         },
         {
           "type": "text",
@@ -57208,18 +57208,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Haus"
+          "type": "blank",
+          "id": 4,
+          "answer": "Haus",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "entfernt",
-          "category": "verb"
+          "type": "text",
+          "value": "entfernt"
         },
         {
           "type": "text",
@@ -57490,8 +57490,8 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "mache",
-        "category": "other",
+        "answer": "Freizeit",
+        "category": "noun",
         "options": []
       },
       {
@@ -57508,8 +57508,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 4,
-        "answer": "entfernt",
-        "category": "verb",
+        "answer": "Haus",
+        "category": "noun",
         "options": []
       },
       {
@@ -57521,13 +57521,8 @@ const LUECKENTEXTE = [
     ],
     "wordBank": [
       {
-        "id": "distractor-1",
-        "text": "koche",
-        "correctFor": null
-      },
-      {
         "id": "distractor-3",
-        "text": "Köchin",
+        "text": "Lieblingshobbys",
         "correctFor": null
       },
       {
@@ -57536,8 +57531,8 @@ const LUECKENTEXTE = [
         "correctFor": 3
       },
       {
-        "id": "distractor-2",
-        "text": "Mathe",
+        "id": "distractor-1",
+        "text": "Freundin",
         "correctFor": null
       },
       {
@@ -57551,19 +57546,24 @@ const LUECKENTEXTE = [
         "correctFor": null
       },
       {
-        "id": "distractor-4",
-        "text": "Kassiererin",
-        "correctFor": null
+        "id": "answer-1",
+        "text": "Freizeit",
+        "correctFor": 1
       },
       {
         "id": "answer-4",
-        "text": "entfernt",
+        "text": "Haus",
         "correctFor": 4
       },
       {
-        "id": "answer-1",
-        "text": "mache",
-        "correctFor": 1
+        "id": "distractor-4",
+        "text": "Lieblingsfächer",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "Tanzkurs",
+        "correctFor": null
       },
       {
         "id": "answer-2",
@@ -57672,7 +57672,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 1,
           "answer": "nicht",
-          "category": "verb"
+          "category": "adverb"
         },
         {
           "type": "text",
@@ -57807,18 +57807,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "Wasser",
-          "category": "noun"
+          "type": "text",
+          "value": "Wasser"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "Saft"
+          "type": "blank",
+          "id": 2,
+          "answer": "Saft",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -57953,10 +57953,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "mit",
-          "category": "preposition"
+          "type": "text",
+          "value": "mit"
         },
         {
           "type": "text",
@@ -57973,8 +57971,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "elf"
+          "type": "blank",
+          "id": 3,
+          "answer": "elf",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -58411,18 +58411,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "für",
-          "category": "preposition"
+          "type": "text",
+          "value": "für"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "die"
+          "type": "blank",
+          "id": 6,
+          "answer": "die",
+          "category": "article"
         },
         {
           "type": "text",
@@ -58798,31 +58798,31 @@ const LUECKENTEXTE = [
       {
         "id": 1,
         "answer": "nicht",
-        "category": "verb",
+        "category": "adverb",
         "options": [
           "nicht",
-          "nimmt",
-          "nette"
+          "dabei",
+          "heute"
         ]
       },
       {
         "id": 2,
-        "answer": "Wasser",
+        "answer": "Saft",
         "category": "noun",
         "options": [
-          "Wasser",
-          "Wetter",
-          "Bruder"
+          "Saft",
+          "Mira",
+          "Baum"
         ]
       },
       {
         "id": 3,
-        "answer": "mit",
-        "category": "preposition",
+        "answer": "elf",
+        "category": "adjective",
         "options": [
-          "mag",
-          "aus",
-          "mit"
+          "elf",
+          "zur",
+          "zum"
         ]
       },
       {
@@ -58830,9 +58830,9 @@ const LUECKENTEXTE = [
         "answer": "Jugendliche",
         "category": "noun",
         "options": [
-          "Deutschland",
+          "Regenschirm",
           "Jugendliche",
-          "Nähe"
+          "Schülerband"
         ]
       },
       {
@@ -58842,17 +58842,17 @@ const LUECKENTEXTE = [
         "options": [
           "machen",
           "setzen",
-          "sitzen"
+          "kaufen"
         ]
       },
       {
         "id": 6,
-        "answer": "für",
-        "category": "preposition",
+        "answer": "die",
+        "category": "article",
         "options": [
-          "für",
-          "Nur",
-          "Zur"
+          "keine",
+          "die",
+          "eine"
         ]
       },
       {
@@ -58860,9 +58860,9 @@ const LUECKENTEXTE = [
         "answer": "in",
         "category": "preposition",
         "options": [
+          "vor",
           "in",
-          "Im",
-          "er"
+          "über"
         ]
       },
       {
@@ -58870,9 +58870,9 @@ const LUECKENTEXTE = [
         "answer": "ein",
         "category": "article",
         "options": [
-          "den",
+          "das",
           "ein",
-          "elf"
+          "kein"
         ]
       }
     ],
@@ -58959,18 +58959,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "kleinen",
-          "category": "verb"
+          "type": "text",
+          "value": "kleinen"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "See"
+          "type": "blank",
+          "id": 1,
+          "answer": "See",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -59569,18 +59569,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "des",
-          "category": "article"
+          "type": "text",
+          "value": "des"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Stegs"
+          "type": "blank",
+          "id": 5,
+          "answer": "Stegs",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -60033,18 +60033,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "und"
+          "type": "blank",
+          "id": 8,
+          "answer": "und",
+          "category": "conjunction"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "sie",
-          "category": "pronoun"
+          "type": "text",
+          "value": "sie"
         },
         {
           "type": "text",
@@ -60119,12 +60119,12 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "kleinen",
-        "category": "verb",
+        "answer": "See",
+        "category": "noun",
         "options": [
-          "treffen",
-          "spielen",
-          "kleinen"
+          "Bus",
+          "See",
+          "Lea"
         ]
       },
       {
@@ -60132,9 +60132,9 @@ const LUECKENTEXTE = [
         "answer": "dem",
         "category": "article",
         "options": [
-          "das",
+          "diesem",
           "dem",
-          "den"
+          "keinem"
         ]
       },
       {
@@ -60142,8 +60142,8 @@ const LUECKENTEXTE = [
         "answer": "Käse",
         "category": "noun",
         "options": [
-          "Köln",
-          "Saft",
+          "Baum",
+          "Park",
           "Käse"
         ]
       },
@@ -60152,19 +60152,19 @@ const LUECKENTEXTE = [
         "answer": "vor",
         "category": "preposition",
         "options": [
-          "bis",
-          "vor",
-          "aus"
+          "hinter",
+          "an",
+          "vor"
         ]
       },
       {
         "id": 5,
-        "answer": "des",
-        "category": "article",
+        "answer": "Stegs",
+        "category": "noun",
         "options": [
-          "des",
-          "das",
-          "den"
+          "Stegs",
+          "Hause",
+          "Leute"
         ]
       },
       {
@@ -60172,9 +60172,9 @@ const LUECKENTEXTE = [
         "answer": "einen",
         "category": "article",
         "options": [
-          "ihren",
-          "einen",
-          "hören"
+          "diesen",
+          "keinen",
+          "einen"
         ]
       },
       {
@@ -60182,19 +60182,19 @@ const LUECKENTEXTE = [
         "answer": "Haus",
         "category": "noun",
         "options": [
-          "Baum",
-          "Saft",
+          "Jahr",
+          "Park",
           "Haus"
         ]
       },
       {
         "id": 8,
-        "answer": "sie",
-        "category": "pronoun",
+        "answer": "und",
+        "category": "conjunction",
         "options": [
-          "sie",
-          "ist",
-          "ihr"
+          "außerdem",
+          "zudem",
+          "und"
         ]
       }
     ],
@@ -60281,18 +60281,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "ein",
-          "category": "article"
+          "type": "text",
+          "value": "ein"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "großes"
+          "type": "blank",
+          "id": 1,
+          "answer": "großes",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -61363,18 +61363,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "aber"
+          "type": "blank",
+          "id": 8,
+          "answer": "aber",
+          "category": "conjunction"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "sie",
-          "category": "pronoun"
+          "type": "text",
+          "value": "sie"
         },
         {
           "type": "text",
@@ -61449,12 +61449,12 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "ein",
-        "category": "article",
+        "answer": "großes",
+        "category": "adjective",
         "options": [
-          "das",
-          "ein",
-          "elf"
+          "voller",
+          "großes",
+          "zurück"
         ]
       },
       {
@@ -61462,9 +61462,9 @@ const LUECKENTEXTE = [
         "answer": "Jahr",
         "category": "noun",
         "options": [
-          "sehr",
           "Jahr",
-          "Uhr"
+          "Park",
+          "Saft"
         ]
       },
       {
@@ -61472,9 +61472,9 @@ const LUECKENTEXTE = [
         "answer": "laufen",
         "category": "verb",
         "options": [
-          "langen",
+          "packen",
           "laufen",
-          "fahren"
+          "kaufen"
         ]
       },
       {
@@ -61482,9 +61482,9 @@ const LUECKENTEXTE = [
         "answer": "für",
         "category": "preposition",
         "options": [
-          "von",
-          "vor",
-          "für"
+          "ohne",
+          "für",
+          "durch"
         ]
       },
       {
@@ -61492,9 +61492,9 @@ const LUECKENTEXTE = [
         "answer": "einer",
         "category": "article",
         "options": [
-          "ihrer",
+          "keiner",
           "einer",
-          "unter"
+          "ein"
         ]
       },
       {
@@ -61502,9 +61502,9 @@ const LUECKENTEXTE = [
         "answer": "wird",
         "category": "other",
         "options": [
+          "drei",
           "wird",
-          "auch",
-          "sich"
+          "kurz"
         ]
       },
       {
@@ -61512,19 +61512,19 @@ const LUECKENTEXTE = [
         "answer": "einen",
         "category": "article",
         "options": [
-          "haben",
           "einen",
-          "allen"
+          "den",
+          "diesen"
         ]
       },
       {
         "id": 8,
-        "answer": "sie",
-        "category": "pronoun",
+        "answer": "aber",
+        "category": "conjunction",
         "options": [
-          "sie",
-          "ist",
-          "ihr"
+          "obwohl",
+          "trotzdem",
+          "aber"
         ]
       }
     ],
@@ -61611,18 +61611,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Hamburg",
-          "category": "noun"
+          "type": "text",
+          "value": "Hamburg"
         },
         {
           "type": "text",
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Sie"
+          "type": "blank",
+          "id": 1,
+          "answer": "Sie",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -62523,18 +62523,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "kauft"
+          "type": "blank",
+          "id": 7,
+          "answer": "kauft",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "sie",
-          "category": "pronoun"
+          "type": "text",
+          "value": "sie"
         },
         {
           "type": "text",
@@ -62755,12 +62755,12 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Hamburg",
-        "category": "noun",
+        "answer": "Sie",
+        "category": "pronoun",
         "options": [
-          "Hamburg",
-          "Familie",
-          "Samstag"
+          "Sie",
+          "ihr",
+          "ich"
         ]
       },
       {
@@ -62768,8 +62768,8 @@ const LUECKENTEXTE = [
         "answer": "deshalb",
         "category": "adverb",
         "options": [
-          "dreißig",
-          "dorthin",
+          "deswegen",
+          "darum",
           "deshalb"
         ]
       },
@@ -62779,8 +62779,8 @@ const LUECKENTEXTE = [
         "category": "article",
         "options": [
           "einem",
-          "einer",
-          "dem"
+          "keinem",
+          "diesem"
         ]
       },
       {
@@ -62788,9 +62788,9 @@ const LUECKENTEXTE = [
         "answer": "ist",
         "category": "verb",
         "options": [
-          "gut",
-          "ist",
-          "ihm"
+          "lebt",
+          "isst",
+          "ist"
         ]
       },
       {
@@ -62798,9 +62798,9 @@ const LUECKENTEXTE = [
         "answer": "die",
         "category": "article",
         "options": [
-          "wie",
+          "diese",
           "die",
-          "dem"
+          "eine"
         ]
       },
       {
@@ -62808,19 +62808,19 @@ const LUECKENTEXTE = [
         "answer": "besucht",
         "category": "verb",
         "options": [
-          "nicht",
-          "bleiben",
+          "bleibt",
+          "bereitet",
           "besucht"
         ]
       },
       {
         "id": 7,
-        "answer": "sie",
-        "category": "pronoun",
+        "answer": "kauft",
+        "category": "verb",
         "options": [
-          "sie",
-          "hat",
-          "See"
+          "kauft",
+          "packt",
+          "kommt"
         ]
       },
       {
@@ -62828,8 +62828,8 @@ const LUECKENTEXTE = [
         "answer": "dass",
         "category": "conjunction",
         "options": [
-          "weil",
-          "muss",
+          "ob",
+          "aber",
           "dass"
         ]
       }
@@ -62917,18 +62917,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "ihrem"
+          "type": "blank",
+          "id": 1,
+          "answer": "ihrem",
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -63055,18 +63055,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Die"
+          "type": "blank",
+          "id": 2,
+          "answer": "Die",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "Familie",
-          "category": "noun"
+          "type": "text",
+          "value": "Familie"
         },
         {
           "type": "text",
@@ -63325,8 +63325,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Salat"
+          "type": "blank",
+          "id": 4,
+          "answer": "Salat",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -63341,10 +63343,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "dem",
-          "category": "article"
+          "type": "text",
+          "value": "dem"
         },
         {
           "type": "text",
@@ -63957,22 +63957,22 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "ihrem",
+        "category": "pronoun",
         "options": [
-          "und",
-          "hat",
-          "ist"
+          "ihrer",
+          "ihrem",
+          "ihren"
         ]
       },
       {
         "id": 2,
-        "answer": "Familie",
-        "category": "noun",
+        "answer": "Die",
+        "category": "article",
         "options": [
-          "Familie",
-          "Fahrrad",
-          "Flasche"
+          "diese",
+          "Die",
+          "keine"
         ]
       },
       {
@@ -63981,18 +63981,18 @@ const LUECKENTEXTE = [
         "category": "verb",
         "options": [
           "ankommen",
-          "besuchen",
-          "arbeiten"
+          "bleiben",
+          "probiert"
         ]
       },
       {
         "id": 4,
-        "answer": "dem",
-        "category": "article",
+        "answer": "Salat",
+        "category": "noun",
         "options": [
-          "Der",
-          "dem",
-          "einem"
+          "Süßes",
+          "Hause",
+          "Salat"
         ]
       },
       {
@@ -64000,9 +64000,9 @@ const LUECKENTEXTE = [
         "answer": "danach",
         "category": "adverb",
         "options": [
-          "Besuch",
-          "danach",
-          "darauf"
+          "dann",
+          "vorher",
+          "danach"
         ]
       },
       {
@@ -64011,8 +64011,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Spaziergang",
-          "Jugendliche",
-          "Weintrauben"
+          "Regenschirm",
+          "Gastfamilie"
         ]
       },
       {
@@ -64020,9 +64020,9 @@ const LUECKENTEXTE = [
         "answer": "ein",
         "category": "article",
         "options": [
+          "kein",
           "ein",
-          "die",
-          "das"
+          "dieses"
         ]
       },
       {
@@ -64031,8 +64031,8 @@ const LUECKENTEXTE = [
         "category": "adjective",
         "options": [
           "gemütlich",
-          "Gegenüber",
-          "Großvater"
+          "besuchen",
+          "geduldig"
         ]
       }
     ],
@@ -64737,18 +64737,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "ältere"
+          "type": "blank",
+          "id": 5,
+          "answer": "ältere",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "Dame",
-          "category": "noun"
+          "type": "text",
+          "value": "Dame"
         },
         {
           "type": "text",
@@ -64893,18 +64893,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Fahrt"
+          "type": "blank",
+          "id": 6,
+          "answer": "Fahrt",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "sieht",
-          "category": "verb"
+          "type": "text",
+          "value": "sieht"
         },
         {
           "type": "text",
@@ -65050,7 +65050,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 7,
           "answer": "seinem",
-          "category": "other"
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -65201,18 +65201,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "in"
+          "type": "blank",
+          "id": 8,
+          "answer": "in",
+          "category": "preposition"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "Zukunft",
-          "category": "noun"
+          "type": "text",
+          "value": "Zukunft"
         },
         {
           "type": "text",
@@ -65311,64 +65311,64 @@ const LUECKENTEXTE = [
       },
       {
         "id": 5,
-        "answer": "Dame",
-        "category": "noun",
+        "answer": "ältere",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 6,
-        "answer": "sieht",
-        "category": "verb",
+        "answer": "Fahrt",
+        "category": "noun",
         "options": []
       },
       {
         "id": 7,
         "answer": "seinem",
-        "category": "other",
+        "category": "pronoun",
         "options": []
       },
       {
         "id": 8,
-        "answer": "Zukunft",
-        "category": "noun",
+        "answer": "in",
+        "category": "preposition",
         "options": []
       }
     ],
     "wordBank": [
-      {
-        "id": "answer-6",
-        "text": "sieht",
-        "correctFor": 6
-      },
-      {
-        "id": "distractor-1",
-        "text": "haben",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-2",
-        "text": "nette",
-        "correctFor": null
-      },
       {
         "id": "answer-4",
         "text": "Rucksack",
         "correctFor": 4
       },
       {
-        "id": "distractor-3",
+        "id": "distractor-4",
         "text": "essen",
         "correctFor": null
       },
       {
-        "id": "distractor-4",
-        "text": "gehen",
+        "id": "distractor-3",
+        "text": "machen",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-1",
+        "text": "packt",
         "correctFor": null
       },
       {
         "id": "answer-5",
-        "text": "Dame",
+        "text": "ältere",
         "correctFor": 5
+      },
+      {
+        "id": "answer-8",
+        "text": "in",
+        "correctFor": 8
+      },
+      {
+        "id": "distractor-2",
+        "text": "reist",
+        "correctFor": null
       },
       {
         "id": "answer-7",
@@ -65381,6 +65381,11 @@ const LUECKENTEXTE = [
         "correctFor": 1
       },
       {
+        "id": "distractor-5",
+        "text": "zudem",
+        "correctFor": null
+      },
+      {
         "id": "answer-2",
         "text": "hören",
         "correctFor": 2
@@ -65391,14 +65396,9 @@ const LUECKENTEXTE = [
         "correctFor": 3
       },
       {
-        "id": "distractor-5",
-        "text": "als",
-        "correctFor": null
-      },
-      {
-        "id": "answer-8",
-        "text": "Zukunft",
-        "correctFor": 8
+        "id": "answer-6",
+        "text": "Fahrt",
+        "correctFor": 6
       }
     ]
   },
@@ -65475,18 +65475,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Monaten",
-          "category": "noun"
+          "type": "text",
+          "value": "Monaten"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "in"
+          "type": "blank",
+          "id": 1,
+          "answer": "in",
+          "category": "preposition"
         },
         {
           "type": "text",
@@ -65761,18 +65761,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "schnell",
-          "category": "other"
+          "type": "text",
+          "value": "schnell"
         },
         {
           "type": "text",
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Der"
+          "type": "blank",
+          "id": 3,
+          "answer": "Der",
+          "category": "article"
         },
         {
           "type": "text",
@@ -66185,18 +66185,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Tisch"
+          "type": "blank",
+          "id": 6,
+          "answer": "Tisch",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "stehen",
-          "category": "verb"
+          "type": "text",
+          "value": "stehen"
         },
         {
           "type": "text",
@@ -66331,18 +66331,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Sie"
+          "type": "blank",
+          "id": 7,
+          "answer": "Sie",
+          "category": "pronoun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "mag",
-          "category": "other"
+          "type": "text",
+          "value": "mag"
         },
         {
           "type": "text",
@@ -66469,18 +66469,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Tradition"
+          "type": "blank",
+          "id": 8,
+          "answer": "Tradition",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "geworden",
-          "category": "verb"
+          "type": "text",
+          "value": "geworden"
         },
         {
           "type": "text",
@@ -66547,8 +66547,8 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Monaten",
-        "category": "noun",
+        "answer": "in",
+        "category": "preposition",
         "options": []
       },
       {
@@ -66559,8 +66559,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 3,
-        "answer": "schnell",
-        "category": "other",
+        "answer": "Der",
+        "category": "article",
         "options": []
       },
       {
@@ -66577,20 +66577,20 @@ const LUECKENTEXTE = [
       },
       {
         "id": 6,
-        "answer": "stehen",
-        "category": "verb",
+        "answer": "Tisch",
+        "category": "noun",
         "options": []
       },
       {
         "id": 7,
-        "answer": "mag",
-        "category": "other",
+        "answer": "Sie",
+        "category": "pronoun",
         "options": []
       },
       {
         "id": 8,
-        "answer": "geworden",
-        "category": "verb",
+        "answer": "Tradition",
+        "category": "noun",
         "options": []
       }
     ],
@@ -66601,59 +66601,59 @@ const LUECKENTEXTE = [
         "correctFor": 5
       },
       {
-        "id": "answer-1",
-        "text": "Monaten",
-        "correctFor": 1
+        "id": "answer-7",
+        "text": "Sie",
+        "correctFor": 7
+      },
+      {
+        "id": "distractor-4",
+        "text": "organisiert",
+        "correctFor": null
+      },
+      {
+        "id": "answer-8",
+        "text": "Tradition",
+        "correctFor": 8
+      },
+      {
+        "id": "answer-6",
+        "text": "Tisch",
+        "correctFor": 6
       },
       {
         "id": "distractor-3",
-        "text": "arbeitet",
+        "text": "ist",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "über",
         "correctFor": null
       },
       {
         "id": "distractor-1",
-        "text": "Tomaten",
+        "text": "auf",
         "correctFor": null
       },
       {
+        "id": "answer-1",
+        "text": "in",
+        "correctFor": 1
+      },
+      {
         "id": "answer-3",
-        "text": "schnell",
+        "text": "Der",
         "correctFor": 3
       },
       {
-        "id": "distractor-4",
-        "text": "pustet",
+        "id": "distractor-5",
+        "text": "dieser",
         "correctFor": null
       },
       {
         "id": "answer-2",
         "text": "unterscheidet",
         "correctFor": 2
-      },
-      {
-        "id": "answer-8",
-        "text": "geworden",
-        "correctFor": 8
-      },
-      {
-        "id": "distractor-5",
-        "text": "kleiner",
-        "correctFor": null
-      },
-      {
-        "id": "answer-7",
-        "text": "mag",
-        "correctFor": 7
-      },
-      {
-        "id": "distractor-2",
-        "text": "Spanien",
-        "correctFor": null
-      },
-      {
-        "id": "answer-6",
-        "text": "stehen",
-        "correctFor": 6
       },
       {
         "id": "answer-4",
@@ -66868,7 +66868,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 2,
           "answer": "ihrer",
-          "category": "other"
+          "category": "pronoun"
         },
         {
           "type": "text",
@@ -67135,18 +67135,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "zwei"
+          "type": "blank",
+          "id": 4,
+          "answer": "zwei",
+          "category": "other"
         },
         {
           "type": "text",
@@ -67403,10 +67403,8 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 6,
-          "answer": "hat",
-          "category": "verb"
+          "type": "text",
+          "value": "hat"
         },
         {
           "type": "text",
@@ -67423,8 +67421,10 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Abend"
+          "type": "blank",
+          "id": 6,
+          "answer": "Abend",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -67692,7 +67692,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 8,
           "answer": "nicht",
-          "category": "verb"
+          "category": "adverb"
         },
         {
           "type": "text",
@@ -67766,7 +67766,7 @@ const LUECKENTEXTE = [
       {
         "id": 2,
         "answer": "ihrer",
-        "category": "other",
+        "category": "pronoun",
         "options": []
       },
       {
@@ -67777,8 +67777,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 4,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "zwei",
+        "category": "other",
         "options": []
       },
       {
@@ -67789,8 +67789,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 6,
-        "answer": "hat",
-        "category": "verb",
+        "answer": "Abend",
+        "category": "noun",
         "options": []
       },
       {
@@ -67802,14 +67802,14 @@ const LUECKENTEXTE = [
       {
         "id": 8,
         "answer": "nicht",
-        "category": "verb",
+        "category": "adverb",
         "options": []
       }
     ],
     "wordBank": [
       {
-        "id": "distractor-1",
-        "text": "sehr",
+        "id": "distractor-3",
+        "text": "deiner",
         "correctFor": null
       },
       {
@@ -67818,34 +67818,24 @@ const LUECKENTEXTE = [
         "correctFor": 2
       },
       {
-        "id": "answer-4",
-        "text": "und",
-        "correctFor": 4
-      },
-      {
         "id": "answer-1",
         "text": "Jahr",
         "correctFor": 1
       },
       {
-        "id": "distractor-5",
-        "text": "Lieblingsorte",
+        "id": "distractor-1",
+        "text": "Baum",
         "correctFor": null
       },
       {
-        "id": "answer-6",
-        "text": "hat",
-        "correctFor": 6
+        "id": "distractor-4",
+        "text": "seine",
+        "correctFor": null
       },
       {
         "id": "answer-3",
         "text": "Lichterketten",
         "correctFor": 3
-      },
-      {
-        "id": "distractor-4",
-        "text": "immer",
-        "correctFor": null
       },
       {
         "id": "answer-8",
@@ -67858,9 +67848,14 @@ const LUECKENTEXTE = [
         "correctFor": 5
       },
       {
-        "id": "distractor-2",
-        "text": "Juni",
-        "correctFor": null
+        "id": "answer-6",
+        "text": "Abend",
+        "correctFor": 6
+      },
+      {
+        "id": "answer-4",
+        "text": "zwei",
+        "correctFor": 4
       },
       {
         "id": "answer-7",
@@ -67868,8 +67863,13 @@ const LUECKENTEXTE = [
         "correctFor": 7
       },
       {
-        "id": "distractor-3",
-        "text": "ihrem",
+        "id": "distractor-2",
+        "text": "Saft",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-5",
+        "text": "Jugendlichen",
         "correctFor": null
       }
     ]
@@ -67947,18 +67947,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Der"
+          "type": "blank",
+          "id": 1,
+          "answer": "Der",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Ausflug",
-          "category": "noun"
+          "type": "text",
+          "value": "Ausflug"
         },
         {
           "type": "text",
@@ -68077,18 +68077,18 @@ const LUECKENTEXTE = [
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Das"
+          "type": "blank",
+          "id": 2,
+          "answer": "Das",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "Museum",
-          "category": "noun"
+          "type": "text",
+          "value": "Museum"
         },
         {
           "type": "text",
@@ -68469,18 +68469,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "keinen"
+          "type": "blank",
+          "id": 5,
+          "answer": "keinen",
+          "category": "article"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "modernen",
-          "category": "verb"
+          "type": "text",
+          "value": "modernen"
         },
         {
           "type": "text",
@@ -68742,7 +68742,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 7,
           "answer": "im",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -68939,14 +68939,14 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Ausflug",
-        "category": "noun",
+        "answer": "Der",
+        "category": "article",
         "options": []
       },
       {
         "id": 2,
-        "answer": "Museum",
-        "category": "noun",
+        "answer": "Das",
+        "category": "article",
         "options": []
       },
       {
@@ -68963,8 +68963,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 5,
-        "answer": "modernen",
-        "category": "verb",
+        "answer": "keinen",
+        "category": "article",
         "options": []
       },
       {
@@ -68976,7 +68976,7 @@ const LUECKENTEXTE = [
       {
         "id": 7,
         "answer": "im",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
@@ -68993,29 +68993,14 @@ const LUECKENTEXTE = [
         "correctFor": 6
       },
       {
-        "id": "answer-1",
-        "text": "Ausflug",
-        "correctFor": 1
-      },
-      {
-        "id": "answer-5",
-        "text": "modernen",
-        "correctFor": 5
-      },
-      {
         "id": "answer-2",
-        "text": "Museum",
+        "text": "Das",
         "correctFor": 2
       },
       {
         "id": "answer-3",
         "text": "sehen",
         "correctFor": 3
-      },
-      {
-        "id": "distractor-2",
-        "text": "Ankunft",
-        "correctFor": null
       },
       {
         "id": "answer-4",
@@ -69029,17 +69014,27 @@ const LUECKENTEXTE = [
       },
       {
         "id": "distractor-5",
-        "text": "haben",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-3",
-        "text": "Mutter",
+        "text": "suchen",
         "correctFor": null
       },
       {
         "id": "distractor-4",
-        "text": "Kuchen",
+        "text": "jeden",
+        "correctFor": null
+      },
+      {
+        "id": "answer-1",
+        "text": "Der",
+        "correctFor": 1
+      },
+      {
+        "id": "distractor-1",
+        "text": "dieser",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "kein",
         "correctFor": null
       },
       {
@@ -69048,8 +69043,13 @@ const LUECKENTEXTE = [
         "correctFor": 7
       },
       {
-        "id": "distractor-1",
-        "text": "Samstag",
+        "id": "answer-5",
+        "text": "keinen",
+        "correctFor": 5
+      },
+      {
+        "id": "distractor-3",
+        "text": "ein",
         "correctFor": null
       }
     ]
@@ -69135,18 +69135,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "kleinen",
-          "category": "verb"
+          "type": "text",
+          "value": "kleinen"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Café"
+          "type": "blank",
+          "id": 1,
+          "answer": "Café",
+          "category": "noun"
         },
         {
           "type": "text",
@@ -69276,7 +69276,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 2,
           "answer": "will",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -69413,18 +69413,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "Tage",
-          "category": "noun"
+          "type": "text",
+          "value": "Tage"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "pro"
+          "type": "blank",
+          "id": 3,
+          "answer": "pro",
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -69543,18 +69543,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 4,
-          "answer": "auf",
-          "category": "preposition"
+          "type": "text",
+          "value": "auf"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "die"
+          "type": "blank",
+          "id": 4,
+          "answer": "die",
+          "category": "article"
         },
         {
           "type": "text",
@@ -69967,18 +69967,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "erklärt",
-          "category": "verb"
+          "type": "text",
+          "value": "erklärt"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "alles"
+          "type": "blank",
+          "id": 7,
+          "answer": "alles",
+          "category": "other"
         },
         {
           "type": "text",
@@ -70113,18 +70113,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "lernt"
+          "type": "blank",
+          "id": 8,
+          "answer": "lernt",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 8,
-          "answer": "viel",
-          "category": "other"
+          "type": "text",
+          "value": "viel"
         },
         {
           "type": "text",
@@ -70191,26 +70191,26 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "kleinen",
-        "category": "verb",
+        "answer": "Café",
+        "category": "noun",
         "options": []
       },
       {
         "id": 2,
         "answer": "will",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 3,
-        "answer": "Tage",
-        "category": "noun",
+        "answer": "pro",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 4,
-        "answer": "auf",
-        "category": "preposition",
+        "answer": "die",
+        "category": "article",
         "options": []
       },
       {
@@ -70227,36 +70227,46 @@ const LUECKENTEXTE = [
       },
       {
         "id": 7,
-        "answer": "erklärt",
-        "category": "verb",
+        "answer": "alles",
+        "category": "other",
         "options": []
       },
       {
         "id": 8,
-        "answer": "viel",
-        "category": "other",
+        "answer": "lernt",
+        "category": "verb",
         "options": []
       }
     ],
     "wordBank": [
       {
+        "id": "distractor-5",
+        "text": "ist",
+        "correctFor": null
+      },
+      {
         "id": "distractor-4",
-        "text": "voll",
+        "text": "ihre",
         "correctFor": null
       },
       {
         "id": "answer-1",
-        "text": "kleinen",
+        "text": "Café",
         "correctFor": 1
       },
       {
-        "id": "distractor-5",
-        "text": "Baum",
-        "correctFor": null
+        "id": "answer-3",
+        "text": "pro",
+        "correctFor": 3
       },
       {
         "id": "distractor-1",
-        "text": "ruhigen",
+        "text": "Meer",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "Baum",
         "correctFor": null
       },
       {
@@ -70265,19 +70275,19 @@ const LUECKENTEXTE = [
         "correctFor": 5
       },
       {
-        "id": "distractor-2",
-        "text": "spielen",
-        "correctFor": null
-      },
-      {
         "id": "answer-2",
         "text": "will",
         "correctFor": 2
       },
       {
-        "id": "answer-3",
-        "text": "Tage",
-        "correctFor": 3
+        "id": "answer-7",
+        "text": "alles",
+        "correctFor": 7
+      },
+      {
+        "id": "answer-8",
+        "text": "lernt",
+        "correctFor": 8
       },
       {
         "id": "answer-6",
@@ -70285,23 +70295,13 @@ const LUECKENTEXTE = [
         "correctFor": 6
       },
       {
-        "id": "answer-8",
-        "text": "viel",
-        "correctFor": 8
-      },
-      {
-        "id": "answer-7",
-        "text": "erklärt",
-        "correctFor": 7
-      },
-      {
         "id": "distractor-3",
-        "text": "sich",
+        "text": "sehr",
         "correctFor": null
       },
       {
         "id": "answer-4",
-        "text": "auf",
+        "text": "die",
         "correctFor": 4
       }
     ]
@@ -70379,18 +70379,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 1,
-          "answer": "Berge",
-          "category": "noun"
+          "type": "text",
+          "value": "Berge"
         },
         {
           "type": "text",
           "value": ". "
         },
         {
-          "type": "text",
-          "value": "Bevor"
+          "type": "blank",
+          "id": 1,
+          "answer": "Bevor",
+          "category": "conjunction"
         },
         {
           "type": "text",
@@ -70501,18 +70501,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "früh"
+          "type": "blank",
+          "id": 2,
+          "answer": "früh",
+          "category": "other"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 2,
-          "answer": "aufbrechen",
-          "category": "verb"
+          "type": "text",
+          "value": "aufbrechen"
         },
         {
           "type": "text",
@@ -70623,18 +70623,18 @@ const LUECKENTEXTE = [
           "value": ", "
         },
         {
-          "type": "text",
-          "value": "starten"
+          "type": "blank",
+          "id": 3,
+          "answer": "starten",
+          "category": "verb"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 3,
-          "answer": "sie",
-          "category": "pronoun"
+          "type": "text",
+          "value": "sie"
         },
         {
           "type": "text",
@@ -70869,18 +70869,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "kurze"
+          "type": "blank",
+          "id": 5,
+          "answer": "kurze",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 5,
-          "answer": "Pause",
-          "category": "noun"
+          "type": "text",
+          "value": "Pause"
         },
         {
           "type": "text",
@@ -71105,18 +71105,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "wunderschön"
+          "type": "blank",
+          "id": 7,
+          "answer": "wunderschön",
+          "category": "adjective"
         },
         {
           "type": "text",
           "value": ", "
         },
         {
-          "type": "blank",
-          "id": 7,
-          "answer": "und",
-          "category": "conjunction"
+          "type": "text",
+          "value": "und"
         },
         {
           "type": "text",
@@ -71240,7 +71240,7 @@ const LUECKENTEXTE = [
           "type": "blank",
           "id": 8,
           "answer": "am",
-          "category": "other"
+          "category": "adjective"
         },
         {
           "type": "text",
@@ -71351,18 +71351,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 9,
-          "answer": "Tag",
-          "category": "noun"
+          "type": "text",
+          "value": "Tag"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "text",
-          "value": "zu"
+          "type": "blank",
+          "id": 9,
+          "answer": "zu",
+          "category": "preposition"
         },
         {
           "type": "text",
@@ -71473,18 +71473,18 @@ const LUECKENTEXTE = [
           "value": " "
         },
         {
-          "type": "text",
-          "value": "Berg"
+          "type": "blank",
+          "id": 10,
+          "answer": "Berg",
+          "category": "noun"
         },
         {
           "type": "text",
           "value": " "
         },
         {
-          "type": "blank",
-          "id": 10,
-          "answer": "hinuntergegangen",
-          "category": "verb"
+          "type": "text",
+          "value": "hinuntergegangen"
         },
         {
           "type": "text",
@@ -71543,20 +71543,20 @@ const LUECKENTEXTE = [
     "blanks": [
       {
         "id": 1,
-        "answer": "Berge",
-        "category": "noun",
+        "answer": "Bevor",
+        "category": "conjunction",
         "options": []
       },
       {
         "id": 2,
-        "answer": "aufbrechen",
-        "category": "verb",
+        "answer": "früh",
+        "category": "other",
         "options": []
       },
       {
         "id": 3,
-        "answer": "sie",
-        "category": "pronoun",
+        "answer": "starten",
+        "category": "verb",
         "options": []
       },
       {
@@ -71567,8 +71567,8 @@ const LUECKENTEXTE = [
       },
       {
         "id": 5,
-        "answer": "Pause",
-        "category": "noun",
+        "answer": "kurze",
+        "category": "adjective",
         "options": []
       },
       {
@@ -71579,59 +71579,54 @@ const LUECKENTEXTE = [
       },
       {
         "id": 7,
-        "answer": "und",
-        "category": "conjunction",
+        "answer": "wunderschön",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 8,
         "answer": "am",
-        "category": "other",
+        "category": "adjective",
         "options": []
       },
       {
         "id": 9,
-        "answer": "Tag",
-        "category": "noun",
+        "answer": "zu",
+        "category": "preposition",
         "options": []
       },
       {
         "id": 10,
-        "answer": "hinuntergegangen",
-        "category": "verb",
+        "answer": "Berg",
+        "category": "noun",
         "options": []
       }
     ],
     "wordBank": [
       {
-        "id": "distractor-4",
-        "text": "eingeladen",
+        "id": "distractor-1",
+        "text": "bis",
         "correctFor": null
       },
       {
-        "id": "answer-1",
-        "text": "Berge",
-        "correctFor": 1
+        "id": "distractor-4",
+        "text": "sehr",
+        "correctFor": null
+      },
+      {
+        "id": "answer-7",
+        "text": "wunderschön",
+        "correctFor": 7
       },
       {
         "id": "answer-9",
-        "text": "Tag",
+        "text": "zu",
         "correctFor": 9
       },
       {
-        "id": "answer-10",
-        "text": "hinuntergegangen",
-        "correctFor": 10
-      },
-      {
         "id": "answer-3",
-        "text": "sie",
+        "text": "starten",
         "correctFor": 3
-      },
-      {
-        "id": "answer-5",
-        "text": "Pause",
-        "correctFor": 5
       },
       {
         "id": "answer-4",
@@ -71639,34 +71634,19 @@ const LUECKENTEXTE = [
         "correctFor": 4
       },
       {
-        "id": "distractor-2",
-        "text": "Bauer",
-        "correctFor": null
-      },
-      {
         "id": "answer-8",
         "text": "am",
         "correctFor": 8
       },
       {
-        "id": "distractor-3",
-        "text": "gebackenen",
-        "correctFor": null
+        "id": "answer-10",
+        "text": "Berg",
+        "correctFor": 10
       },
       {
-        "id": "answer-7",
-        "text": "und",
-        "correctFor": 7
-      },
-      {
-        "id": "distractor-1",
-        "text": "Beruf",
-        "correctFor": null
-      },
-      {
-        "id": "answer-2",
-        "text": "aufbrechen",
-        "correctFor": 2
+        "id": "answer-5",
+        "text": "kurze",
+        "correctFor": 5
       },
       {
         "id": "answer-6",
@@ -71674,8 +71654,28 @@ const LUECKENTEXTE = [
         "correctFor": 6
       },
       {
+        "id": "answer-1",
+        "text": "Bevor",
+        "correctFor": 1
+      },
+      {
+        "id": "distractor-2",
+        "text": "als",
+        "correctFor": null
+      },
+      {
+        "id": "answer-2",
+        "text": "früh",
+        "correctFor": 2
+      },
+      {
+        "id": "distractor-3",
+        "text": "viel",
+        "correctFor": null
+      },
+      {
         "id": "distractor-5",
-        "text": "wie",
+        "text": "stellen",
         "correctFor": null
       }
     ]
