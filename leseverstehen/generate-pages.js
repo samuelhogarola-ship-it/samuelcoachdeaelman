@@ -283,7 +283,7 @@ function makeNav(locale) {
       </button>
       <ul class="nav-links">
         <li><a href="${route(locale)}">${copy.home}</a></li>
-        <li><a href="https://blog.samuelcoachdealeman.com">Blog</a></li>
+        <li><a href="/f">Blog</a></li>
         <li><a href="${route(locale, 'sobre-mi/')}">${copy.about}</a></li>
         <li class="nav-drop">
           <a href="${route(locale, 'servicios/')}">${copy.services}</a>
@@ -308,7 +308,7 @@ function makeNav(locale) {
     </div>
     <div id="mobile-menu" class="mobile-menu" hidden>
       <a href="${route(locale)}">${copy.home}</a>
-      <a href="https://blog.samuelcoachdealeman.com">Blog</a>
+      <a href="/f">Blog</a>
       <a href="${route(locale, 'sobre-mi/')}">${copy.about}</a>
       <a href="${route(locale, 'servicios/')}">${copy.services}</a>
       <a href="${route(locale, 'servicios/#conversacional')}">${copy.conversational}</a>
@@ -333,13 +333,13 @@ function makeFooter(locale) {
       <div class="footer-top">
         <a class="footer-logo footer-logo-fun" href="${route(locale)}"><img src="/assets/img/logo-fun.webp" alt="Logo divertido de Samuel Coach de Alemán" width="180" height="180" loading="lazy" decoding="async"></a>
         <div class="socials">
-          <a href="https://blog.samuelcoachdealeman.com" aria-label="Blog" title="Blog">Blog</a>
+          <a href="/f" aria-label="Blog" title="Blog">Blog</a>
           <a href="https://www.instagram.com/samuelcoachdealeman" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">Instagram</a>
           <a href="https://www.facebook.com/samuelcoachdealeman" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">Facebook</a>
           <a href="${route(locale, 'practicar-aleman/')}" aria-label="${copy.apps}" title="${copy.apps}">Apps</a>
         </div>
         <div class="footer-links">
-          <a href="https://blog.samuelcoachdealeman.com">Blog</a>
+          <a href="/f">Blog</a>
           <a href="${route(locale, 'sobre-mi/')}">${copy.about}</a>
           <a href="${route(locale, 'servicios/')}">${copy.services}</a>
           <a href="${route(locale, 'metodologia/')}">${copy.methodology}</a>

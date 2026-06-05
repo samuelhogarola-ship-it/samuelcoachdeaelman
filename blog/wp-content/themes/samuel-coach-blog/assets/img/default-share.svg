@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Samuel Coach de alemán</title>
+  <desc id="desc">Imagen social por defecto del blog de Samuel Coach de alemán.</desc>
+  <rect width="1200" height="630" fill="#f4f8f8"/>
+  <rect x="72" y="72" width="1056" height="486" rx="18" fill="#ffffff" stroke="#3aa9ab" stroke-width="8"/>
+  <text x="120" y="250" font-family="Arial, sans-serif" font-size="86" font-weight="700" fill="#1b1b1b">Samuel Coach</text>
+  <text x="120" y="350" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#3aa9ab">de alemán</text>
+  <text x="120" y="445" font-family="Arial, sans-serif" font-size="38" fill="#5e5e5e">Gramática clara, recursos y examen</text>
+</svg>

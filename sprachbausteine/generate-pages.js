@@ -186,7 +186,7 @@ const LOCALES = {
     localeName: "Español",
     siteLocaleContent: null,
     notice:
-      '🗓️ Agenda cerrada hasta el 22.06 &nbsp;·&nbsp; Mientras tanto, <a href="https://blog.samuelcoachdealeman.com">aprende alemán gratis en el blog</a>',
+      '🗓️ Agenda cerrada hasta el 22.06 &nbsp;·&nbsp; Mientras tanto, <a href="/f">aprende alemán gratis en el blog</a>',
     nav: {
       home: "Inicio",
       blog: "Blog",
@@ -266,7 +266,7 @@ const LOCALES = {
       },
     },
     notice:
-      'Terminplan bis zum 22.06 geschlossen · In der Zwischenzeit kannst du <a href="https://blog.samuelcoachdealeman.com">im Blog kostenlos Deutsch lernen</a>',
+      'Terminplan bis zum 22.06 geschlossen · In der Zwischenzeit kannst du <a href="/f">im Blog kostenlos Deutsch lernen</a>',
     nav: {
       home: "Start",
       blog: "Blog",
@@ -346,7 +346,7 @@ const LOCALES = {
       },
     },
     notice:
-      'Schedule closed until 22.06 · In the meantime, you can <a href="https://blog.samuelcoachdealeman.com">learn German for free on the blog</a>',
+      'Schedule closed until 22.06 · In the meantime, you can <a href="/f">learn German for free on the blog</a>',
     nav: {
       home: "Home",
       blog: "Blog",
@@ -1102,7 +1102,7 @@ function buildNav(locale) {
       <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="${nav.openMenu}"><span></span><span></span><span></span></button>
       <ul class="nav-links">
         <li><a href="${home}">${nav.home}</a></li>
-        <li><a href="https://blog.samuelcoachdealeman.com">${nav.blog}</a></li>
+        <li><a href="/f">${nav.blog}</a></li>
         <li><a href="${about}">${nav.about}</a></li>
         <li class="nav-drop">
           <a href="${services}">${nav.services}</a>
@@ -1120,7 +1120,7 @@ function buildNav(locale) {
     </div>
     <div id="mobile-menu" class="mobile-menu" hidden>
       <a href="${home}">${nav.home}</a>
-      <a href="https://blog.samuelcoachdealeman.com">${nav.blog}</a>
+      <a href="/f">${nav.blog}</a>
       <a href="${about}">${nav.about}</a>
       <a href="${services}">${nav.services}</a>
       <a href="${services}#conversacional">${nav.conversational}</a>
@@ -1142,7 +1142,7 @@ function buildFooter(locale) {
       <div class="footer-top">
         <a class="footer-logo footer-logo-fun" href="${route(locale, "")}"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
         <div class="footer-links">
-          <a href="https://blog.samuelcoachdealeman.com">${nav.blog}</a>
+          <a href="/f">${nav.blog}</a>
           <a href="${route(locale, "sobre-mi/")}">${nav.about}</a>
           <a href="${route(locale, "servicios/")}">${nav.services}</a>
           <a href="${route(locale, "metodologia/")}">${nav.methodology}</a>

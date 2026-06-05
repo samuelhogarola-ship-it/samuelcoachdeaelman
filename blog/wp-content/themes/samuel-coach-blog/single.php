@@ -30,6 +30,21 @@ while (have_posts()) :
 			<?php the_content(); ?>
 		</div>
 
+		<?php
+		$category_list = get_the_category_list(', ');
+		$tag_list      = get_the_tag_list('', ', ');
+		if ($category_list || $tag_list) :
+			?>
+			<section class="scb-entry-taxonomy" aria-label="<?php esc_attr_e('Temas relacionados', 'samuel-coach-blog'); ?>">
+				<?php if ($category_list) : ?>
+					<p><strong>Temas:</strong> <?php echo wp_kses_post($category_list); ?></p>
+				<?php endif; ?>
+				<?php if ($tag_list) : ?>
+					<p><strong>Etiquetas:</strong> <?php echo wp_kses_post($tag_list); ?></p>
+				<?php endif; ?>
+			</section>
+		<?php endif; ?>
+
 		<?php scb_render_newsletter(); ?>
 
 		<nav class="scb-post-nav" aria-label="<?php esc_attr_e('Navegación de entradas', 'samuel-coach-blog'); ?>">
@@ -41,20 +56,13 @@ while (have_posts()) :
 	<section class="scb-section scb-section--soft">
 		<div class="scb-container">
 			<header class="scb-section-heading scb-section-heading--left">
-				<h2 class="scb-section-heading__title">Mi Blog de alemán</h2>
+				<h2 class="scb-section-heading__title">Artículos relacionados</h2>
 				<hr class="scb-section-heading__rule">
-				<p class="scb-section-heading__intro">Aquí encontrarás todo lo que necesitas para aprender alemán y la vida en Alemania.</p>
+				<p class="scb-section-heading__intro">Sigue con temas cercanos para reforzar la gramática, ampliar vocabulario y mantener una navegación interna más útil.</p>
 			</header>
 
 			<?php
-			$related = new WP_Query(
-				[
-					'post_type'           => 'post',
-					'posts_per_page'      => 3,
-					'post__not_in'        => [get_the_ID()],
-					'ignore_sticky_posts' => true,
-				]
-			);
+			$related = scb_get_related_posts(get_the_ID(), 3);
 
 			if ($related->have_posts()) :
 				?>
@@ -78,4 +86,3 @@ endwhile;
 
 <?php
 get_footer();
-

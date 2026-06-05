@@ -98,6 +98,286 @@ function scb_enqueue_assets() {
 }
 add_action('wp_enqueue_scripts', 'scb_enqueue_assets');
 
+function scb_get_base_url() {
+	return trailingslashit(home_url('/'));
+}
+
+function scb_get_seo_image_url($post_id = null) {
+	if ($post_id && has_post_thumbnail($post_id)) {
+		$image = wp_get_attachment_image_url(get_post_thumbnail_id($post_id), 'full');
+		if ($image) {
+			return $image;
+		}
+	}
+
+	if (has_custom_logo()) {
+		$logo_id = get_theme_mod('custom_logo');
+		$logo    = wp_get_attachment_image_url($logo_id, 'full');
+		if ($logo) {
+			return $logo;
+		}
+	}
+
+	return get_template_directory_uri() . '/assets/img/default-share.svg';
+}
+
+function scb_clean_text_for_meta($text) {
+	$text = wp_strip_all_tags((string) $text, true);
+	$text = preg_replace('/\s+/', ' ', $text);
+	return trim((string) $text);
+}
+
+function scb_get_seo_description($post_id = null) {
+	if ($post_id) {
+		$excerpt = get_the_excerpt($post_id);
+		if (! empty($excerpt)) {
+			return wp_trim_words(scb_clean_text_for_meta($excerpt), 28, '');
+		}
+
+		$content = get_post_field('post_content', $post_id);
+		if (! empty($content)) {
+			return wp_trim_words(scb_clean_text_for_meta($content), 30, '');
+		}
+	}
+
+	if (is_home() || is_front_page() || is_archive()) {
+		return scb_clean_text_for_meta(scb_get_theme_mod('blog_intro'));
+	}
+
+	if (is_page()) {
+		$page_content = get_post_field('post_content', get_queried_object_id());
+		if (! empty($page_content)) {
+			return wp_trim_words(scb_clean_text_for_meta($page_content), 30, '');
+		}
+	}
+
+	return 'Blog para aprender alemán con explicaciones claras, ejemplos reales, recursos de examen y consejos prácticos para avanzar paso a paso.';
+}
+
+function scb_get_canonical_url() {
+	if (is_singular()) {
+		return get_permalink();
+	}
+
+	if (is_home()) {
+		$page_for_posts = (int) get_option('page_for_posts');
+		if ($page_for_posts) {
+			return get_permalink($page_for_posts);
+		}
+	}
+
+	if (is_front_page()) {
+		return home_url('/');
+	}
+
+	if (is_category() || is_tag() || is_tax()) {
+		$term_link = get_term_link(get_queried_object());
+		return is_wp_error($term_link) ? home_url('/') : $term_link;
+	}
+
+	if (is_post_type_archive()) {
+		return get_post_type_archive_link(get_query_var('post_type'));
+	}
+
+	if (is_author()) {
+		return get_author_posts_url((int) get_query_var('author'));
+	}
+
+	if (is_date()) {
+		return get_pagenum_link(1);
+	}
+
+	if (function_exists('get_pagenum_link')) {
+		return get_pagenum_link(max(1, get_query_var('paged')));
+	}
+
+	return home_url('/');
+}
+
+function scb_get_schema_logo() {
+	if (! has_custom_logo()) {
+		return null;
+	}
+
+	$logo_id  = get_theme_mod('custom_logo');
+	$logo_url = wp_get_attachment_image_url($logo_id, 'full');
+
+	if (! $logo_url) {
+		return null;
+	}
+
+	return [
+		'@type' => 'ImageObject',
+		'url'   => $logo_url,
+	];
+}
+
+function scb_get_breadcrumb_schema() {
+	$items = [];
+	$items[] = [
+		'@type'    => 'ListItem',
+		'position' => 1,
+		'name'     => 'Inicio',
+		'item'     => home_url('/'),
+	];
+
+	$position = 2;
+
+	if (is_home()) {
+		$items[] = [
+			'@type'    => 'ListItem',
+			'position' => $position,
+			'name'     => 'Blog',
+			'item'     => get_permalink(get_option('page_for_posts')) ?: home_url('/blog/'),
+		];
+	} elseif (is_single()) {
+		$blog_url = get_permalink(get_option('page_for_posts')) ?: home_url('/blog/');
+		$items[]  = [
+			'@type'    => 'ListItem',
+			'position' => $position,
+			'name'     => 'Blog',
+			'item'     => $blog_url,
+		];
+		$position++;
+
+		$items[] = [
+			'@type'    => 'ListItem',
+			'position' => $position,
+			'name'     => get_the_title(),
+			'item'     => get_permalink(),
+		];
+	} elseif (is_page()) {
+		$items[] = [
+			'@type'    => 'ListItem',
+			'position' => $position,
+			'name'     => get_the_title(),
+			'item'     => get_permalink(),
+		];
+	}
+
+	return [
+		'@context'        => 'https://schema.org',
+		'@type'           => 'BreadcrumbList',
+		'itemListElement' => $items,
+	];
+}
+
+function scb_get_primary_schema() {
+	$organization = [
+		'@context' => 'https://schema.org',
+		'@type'    => 'Organization',
+		'@id'      => scb_get_base_url() . '#organization',
+		'name'     => get_bloginfo('name'),
+		'url'      => home_url('/'),
+	];
+
+	$logo = scb_get_schema_logo();
+	if ($logo) {
+		$organization['logo'] = $logo;
+	}
+
+	if (is_single()) {
+		$post_id      = get_queried_object_id();
+		$description  = scb_get_seo_description($post_id);
+		$image_url    = scb_get_seo_image_url($post_id);
+		$author_name  = get_the_author_meta('display_name', (int) get_post_field('post_author', $post_id)) ?: get_bloginfo('name');
+		$schema_items = [
+			$organization,
+			[
+				'@context'         => 'https://schema.org',
+				'@type'            => 'BlogPosting',
+				'mainEntityOfPage' => get_permalink($post_id),
+				'headline'         => get_the_title($post_id),
+				'description'      => $description,
+				'datePublished'    => get_post_time('c', true, $post_id),
+				'dateModified'     => get_post_modified_time('c', true, $post_id),
+				'author'           => [
+					'@type' => 'Person',
+					'name'  => $author_name,
+				],
+				'publisher'        => [
+					'@id' => scb_get_base_url() . '#organization',
+				],
+				'image'            => [
+					'@type' => 'ImageObject',
+					'url'   => $image_url,
+				],
+			],
+			scb_get_breadcrumb_schema(),
+		];
+
+		return $schema_items;
+	}
+
+	if (is_page()) {
+		return [
+			$organization,
+			[
+				'@context'         => 'https://schema.org',
+				'@type'            => 'WebPage',
+				'headline'         => get_the_title(),
+				'description'      => scb_get_seo_description(get_queried_object_id()),
+				'url'              => get_permalink(),
+				'mainEntityOfPage' => get_permalink(),
+			],
+			scb_get_breadcrumb_schema(),
+		];
+	}
+
+	if (is_home() || is_front_page()) {
+		return [
+			$organization,
+			[
+				'@context'    => 'https://schema.org',
+				'@type'       => 'WebSite',
+				'name'        => get_bloginfo('name'),
+				'url'         => home_url('/'),
+				'description' => scb_get_seo_description(),
+			],
+		];
+	}
+
+	return [$organization];
+}
+
+function scb_output_seo_meta() {
+	if (is_admin()) {
+		return;
+	}
+
+	$title       = wp_get_document_title();
+	$description = scb_get_seo_description(is_singular() ? get_queried_object_id() : null);
+	$canonical   = scb_get_canonical_url();
+	$image_url   = scb_get_seo_image_url(is_singular() ? get_queried_object_id() : null);
+	$og_type     = is_single() ? 'article' : 'website';
+	$robots      = is_search() || is_404() ? 'noindex,follow' : 'index,follow';
+
+	echo "\n" . '<meta name="description" content="' . esc_attr($description) . '">' . "\n";
+	echo '<meta name="robots" content="' . esc_attr($robots) . '">' . "\n";
+	echo '<link rel="canonical" href="' . esc_url($canonical) . '">' . "\n";
+	echo '<meta property="og:locale" content="es_ES">' . "\n";
+	echo '<meta property="og:type" content="' . esc_attr($og_type) . '">' . "\n";
+	echo '<meta property="og:title" content="' . esc_attr($title) . '">' . "\n";
+	echo '<meta property="og:description" content="' . esc_attr($description) . '">' . "\n";
+	echo '<meta property="og:url" content="' . esc_url($canonical) . '">' . "\n";
+	echo '<meta property="og:site_name" content="' . esc_attr(get_bloginfo('name')) . '">' . "\n";
+	echo '<meta property="og:image" content="' . esc_url($image_url) . '">' . "\n";
+	echo '<meta name="twitter:card" content="summary_large_image">' . "\n";
+	echo '<meta name="twitter:title" content="' . esc_attr($title) . '">' . "\n";
+	echo '<meta name="twitter:description" content="' . esc_attr($description) . '">' . "\n";
+	echo '<meta name="twitter:image" content="' . esc_url($image_url) . '">' . "\n";
+
+	if (is_single()) {
+		echo '<meta property="article:published_time" content="' . esc_attr(get_post_time('c', true)) . '">' . "\n";
+		echo '<meta property="article:modified_time" content="' . esc_attr(get_post_modified_time('c', true)) . '">' . "\n";
+	}
+
+	foreach (scb_get_primary_schema() as $schema) {
+		echo '<script type="application/ld+json">' . wp_json_encode($schema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>' . "\n";
+	}
+}
+add_action('wp_head', 'scb_output_seo_meta', 1);
+
 function scb_customizer($wp_customize) {
 	$defaults = scb_theme_defaults();
 
@@ -301,6 +581,57 @@ function scb_render_newsletter() {
 		</div>
 	</section>
 	<?php
+}
+
+function scb_get_related_posts($post_id, $posts_per_page = 3) {
+	$category_ids = wp_get_post_categories($post_id);
+	$tag_ids      = wp_get_post_tags($post_id, ['fields' => 'ids']);
+
+	$args = [
+		'post_type'           => 'post',
+		'posts_per_page'      => $posts_per_page,
+		'post__not_in'        => [$post_id],
+		'ignore_sticky_posts' => true,
+	];
+
+	if (! empty($category_ids) || ! empty($tag_ids)) {
+		$tax_query = ['relation' => 'OR'];
+
+		if (! empty($category_ids)) {
+			$tax_query[] = [
+				'taxonomy' => 'category',
+				'field'    => 'term_id',
+				'terms'    => $category_ids,
+			];
+		}
+
+		if (! empty($tag_ids)) {
+			$tax_query[] = [
+				'taxonomy' => 'post_tag',
+				'field'    => 'term_id',
+				'terms'    => $tag_ids,
+			];
+		}
+
+		$args['tax_query'] = $tax_query;
+	}
+
+	$query = new WP_Query($args);
+
+	if ($query->have_posts()) {
+		return $query;
+	}
+
+	return new WP_Query(
+		[
+			'post_type'           => 'post',
+			'posts_per_page'      => $posts_per_page,
+			'post__not_in'        => [$post_id],
+			'ignore_sticky_posts' => true,
+			'orderby'             => 'date',
+			'order'               => 'DESC',
+		]
+	);
 }
 
 function scb_excerpt_more($more) {

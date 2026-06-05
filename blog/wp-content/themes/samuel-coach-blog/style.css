@@ -424,6 +424,22 @@ input[type="submit"]:hover {
   text-decoration: underline;
 }
 
+.scb-entry-taxonomy {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--scb-line);
+  background: #fbfbfb;
+}
+
+.scb-entry-taxonomy p:last-child {
+  margin-bottom: 0;
+}
+
+.scb-entry-taxonomy a {
+  color: var(--scb-accent-dark);
+  text-decoration: underline;
+}
+
 .scb-entry__content blockquote {
   margin: 1.5rem 0;
   padding: 1.25rem 1.5rem;

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">La hora en alemán: die Uhrzeit</title>
+  <desc id="desc">Imagen social del artículo sobre cómo decir la hora en alemán de forma fácil.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#edf8f8"/>
+      <stop offset="100%" stop-color="#d7efef"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#ffffff" stroke="#3aa9ab" stroke-width="8"/>
+  <text x="88" y="132" fill="#2c8182" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">Samuel Coach de Alemán</text>
+  <text x="88" y="250" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="76" font-weight="700">La hora en alemán</text>
+  <text x="88" y="330" fill="#455a64" font-family="Lato, Arial, sans-serif" font-size="34">Cómo decir die Uhrzeit de forma fácil</text>
+  <text x="88" y="418" fill="#1b1b1b" font-family="Lato, Arial, sans-serif" font-size="30">Formal: sechs Uhr fünfzehn</text>
+  <text x="88" y="468" fill="#1b1b1b" font-family="Lato, Arial, sans-serif" font-size="30">Informal: Viertel nach sechs</text>
+  <circle cx="950" cy="300" r="145" fill="#edf8f8" stroke="#455a64" stroke-width="16"/>
+  <circle cx="950" cy="300" r="10" fill="#455a64"/>
+  <line x1="950" y1="300" x2="950" y2="208" stroke="#0d3637" stroke-width="16" stroke-linecap="round"/>
+  <line x1="950" y1="300" x2="1022" y2="300" stroke="#3aa9ab" stroke-width="16" stroke-linecap="round"/>
+  <text x="943" y="184" fill="#455a64" font-family="Cabin, Arial, sans-serif" font-size="28">12</text>
+  <text x="1060" y="309" fill="#455a64" font-family="Cabin, Arial, sans-serif" font-size="28">3</text>
+  <text x="943" y="438" fill="#455a64" font-family="Cabin, Arial, sans-serif" font-size="28">6</text>
+  <text x="830" y="309" fill="#455a64" font-family="Cabin, Arial, sans-serif" font-size="28">9</text>
+  <rect x="792" y="474" width="316" height="66" rx="18" fill="#0d3637"/>
+  <text x="856" y="518" fill="#ffffff" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">06:15 Uhr</text>
+</svg>
