@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Vor, vorher y bevor</title>
+  <desc id="desc">Imagen social del artículo sobre las diferencias entre vor, vorher y bevor en alemán.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbfbfb"/>
+      <stop offset="100%" stop-color="#edf4f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#ffffff" stroke="#3aa9ab" stroke-width="8"/>
+  <text x="88" y="126" fill="#2c8182" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">Samuel Coach de Alemán</text>
+  <text x="88" y="220" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="94" font-weight="700">vor</text>
+  <text x="88" y="320" fill="#78d95c" font-family="Cabin, Arial, sans-serif" font-size="94" font-weight="700">vorher</text>
+  <text x="88" y="420" fill="#ff6f61" font-family="Cabin, Arial, sans-serif" font-size="94" font-weight="700">bevor</text>
+  <text x="88" y="502" fill="#455a64" font-family="Lato, Arial, sans-serif" font-size="34">tres formas de decir “antes” y no funcionan igual</text>
+  <rect x="766" y="160" width="294" height="64" rx="18" fill="#edf8f8" stroke="#455a64" stroke-width="6"/>
+  <text x="812" y="202" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="30" font-weight="700">preposición</text>
+  <rect x="766" y="282" width="294" height="64" rx="18" fill="#f1fff0" stroke="#78d95c" stroke-width="6"/>
+  <text x="844" y="324" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="30" font-weight="700">adverbio</text>
+  <rect x="766" y="404" width="294" height="64" rx="18" fill="#fff4f2" stroke="#ff6f61" stroke-width="6"/>
+  <text x="812" y="446" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="30" font-weight="700">conjunción</text>
+</svg>
