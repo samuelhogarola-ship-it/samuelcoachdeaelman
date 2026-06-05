@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Pronombres personales en alemán</title>
+  <desc id="desc">Imagen social del artículo sobre nominativo, dativo y acusativo de los pronombres personales en alemán.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fbfd"/>
+      <stop offset="100%" stop-color="#e8f1f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#ffffff" stroke="#3aa9ab" stroke-width="8"/>
+  <text x="88" y="126" fill="#2c8182" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">Samuel Coach de Alemán</text>
+  <text x="88" y="220" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="78" font-weight="700">Pronombres</text>
+  <text x="88" y="304" fill="#ff6f61" font-family="Cabin, Arial, sans-serif" font-size="58" font-weight="700">personales</text>
+  <text x="88" y="388" fill="#455a64" font-family="Lato, Arial, sans-serif" font-size="34">Nominativ · Dativ · Akkusativ</text>
+  <rect x="88" y="452" width="220" height="62" rx="18" fill="#0d3637"/>
+  <text x="140" y="493" fill="#ffffff" font-family="Cabin, Arial, sans-serif" font-size="30" font-weight="700">ich / mich / mir</text>
+  <rect x="760" y="170" width="300" height="70" rx="18" fill="#edf8f8" stroke="#3aa9ab" stroke-width="6"/>
+  <text x="826" y="216" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">Nominativ</text>
+  <rect x="760" y="290" width="300" height="70" rx="18" fill="#fff4f2" stroke="#ff6f61" stroke-width="6"/>
+  <text x="866" y="336" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">Dativ</text>
+  <rect x="760" y="410" width="300" height="70" rx="18" fill="#f4f4f4" stroke="#455a64" stroke-width="6"/>
+  <text x="836" y="456" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">Akkusativ</text>
+</svg>
