@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Der, die, das: géneros en alemán</title>
+  <desc id="desc">Imagen social del artículo sobre cómo aprender los géneros en alemán con reglas y ejemplos claros.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7fbfd"/>
+      <stop offset="100%" stop-color="#edf6f8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#ffffff" stroke="#3aa9ab" stroke-width="8"/>
+  <text x="88" y="126" fill="#2c8182" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">Samuel Coach de Alemán</text>
+  <text x="88" y="220" fill="#69c34a" font-family="Cabin, Arial, sans-serif" font-size="78" font-weight="700">der</text>
+  <text x="286" y="220" fill="#ff6fb3" font-family="Cabin, Arial, sans-serif" font-size="78" font-weight="700">die</text>
+  <text x="484" y="220" fill="#4a86d9" font-family="Cabin, Arial, sans-serif" font-size="78" font-weight="700">das</text>
+  <text x="88" y="314" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="72" font-weight="700">Géneros</text>
+  <text x="88" y="390" fill="#ff6f61" font-family="Cabin, Arial, sans-serif" font-size="56" font-weight="700">en alemán sin caos</text>
+  <rect x="88" y="458" width="320" height="64" rx="18" fill="#0d3637"/>
+  <text x="144" y="501" fill="#ffffff" font-family="Cabin, Arial, sans-serif" font-size="30" font-weight="700">reglas + errores típicos</text>
+  <circle cx="950" cy="230" r="82" fill="#eef8f8" stroke="#3aa9ab" stroke-width="8"/>
+  <text x="920" y="247" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="46" font-weight="700">?</text>
+  <rect x="770" y="352" width="290" height="56" rx="18" fill="#f1f8f8"/>
+  <text x="814" y="389" fill="#455a64" font-family="Lato, Arial, sans-serif" font-size="28">-ung → die</text>
+  <rect x="770" y="420" width="290" height="56" rx="18" fill="#f8f8ef"/>
+  <text x="812" y="457" fill="#455a64" font-family="Lato, Arial, sans-serif" font-size="28">-chen → das</text>
+  <rect x="770" y="488" width="290" height="56" rx="18" fill="#f8f3ef"/>
+  <text x="818" y="525" fill="#455a64" font-family="Lato, Arial, sans-serif" font-size="28">-ling → der</text>
+</svg>
