@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Wo y wohin en alemán</title>
+  <desc id="desc">Imagen social del artículo sobre posición, movimiento y complementos de lugar en alemán.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7fbfb"/>
+      <stop offset="100%" stop-color="#e4f3f4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#ffffff" stroke="#3aa9ab" stroke-width="8"/>
+  <text x="88" y="126" fill="#2c8182" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">Samuel Coach de Alemán</text>
+  <text x="88" y="230" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="88" font-weight="700">Wo / Wohin</text>
+  <text x="88" y="314" fill="#ff6f61" font-family="Cabin, Arial, sans-serif" font-size="50" font-weight="700">posición y movimiento</text>
+  <text x="88" y="390" fill="#455a64" font-family="Lato, Arial, sans-serif" font-size="34">Cómo elegir entre dativo, acusativo e in / an / auf / nach / zu</text>
+  <rect x="88" y="450" width="250" height="66" rx="18" fill="#0d3637"/>
+  <text x="144" y="494" fill="#ffffff" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">Wo = Dativ</text>
+  <rect x="372" y="450" width="298" height="66" rx="18" fill="#ff6f61"/>
+  <text x="432" y="494" fill="#ffffff" font-family="Cabin, Arial, sans-serif" font-size="34" font-weight="700">Wohin = Akk</text>
+  <circle cx="940" cy="244" r="88" fill="#edf8f8" stroke="#455a64" stroke-width="8"/>
+  <text x="904" y="258" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="44" font-weight="700">wo</text>
+  <circle cx="940" cy="390" r="88" fill="#fff4f2" stroke="#ff6f61" stroke-width="8"/>
+  <text x="872" y="404" fill="#0d3637" font-family="Cabin, Arial, sans-serif" font-size="40" font-weight="700">wohin</text>
+  <line x1="940" y1="302" x2="940" y2="332" stroke="#455a64" stroke-width="10" stroke-linecap="round"/>
+  <polygon points="940,362 918,330 962,330" fill="#455a64"/>
+</svg>
