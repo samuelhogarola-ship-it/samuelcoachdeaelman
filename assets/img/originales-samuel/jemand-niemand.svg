@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Jemand, niemand y keiner en alemán</title>
+  <desc id="desc">Imagen social: pronombres indefinidos en alemán.</desc>
+  <rect width="1200" height="630" fill="#fbfbfb"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#fff" stroke="#3aa9ab" stroke-width="8"/>
+  <text x="88" y="126" fill="#2c8182" font-family="Cabin,Arial,sans-serif" font-size="32" font-weight="700">Samuel Coach de Alemán</text>
+  <text x="88" y="230" fill="#78d95c" font-family="Cabin,Arial,sans-serif" font-size="82" font-weight="700">jemand</text>
+  <text x="88" y="330" fill="#ff6f61" font-family="Cabin,Arial,sans-serif" font-size="82" font-weight="700">niemand</text>
+  <text x="88" y="430" fill="#0d3637" font-family="Cabin,Arial,sans-serif" font-size="82" font-weight="700">keiner</text>
+  <text x="700" y="310" fill="#455a64" font-family="Lato,Arial,sans-serif" font-size="34">alguien · nadie</text>
+  <text x="700" y="360" fill="#455a64" font-family="Lato,Arial,sans-serif" font-size="34">ninguno</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">La negación en alemán</title>
+  <desc id="desc">Imagen social: nicht vs kein en alemán.</desc>
+  <rect width="1200" height="630" fill="#fbfbfb"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#fff" stroke="#3aa9ab" stroke-width="8"/>
+  <text x="88" y="126" fill="#2c8182" font-family="Cabin,Arial,sans-serif" font-size="32" font-weight="700">Samuel Coach de Alemán</text>
+  <text x="88" y="230" fill="#0d3637" font-family="Cabin,Arial,sans-serif" font-size="110" font-weight="700">nicht</text>
+  <text x="88" y="350" fill="#ff6f61" font-family="Cabin,Arial,sans-serif" font-size="110" font-weight="700">kein</text>
+  <text x="88" y="440" fill="#455a64" font-family="Lato,Arial,sans-serif" font-size="36">cuándo usar cada uno y dónde va</text>
+  <rect x="750" y="160" width="340" height="70" rx="18" fill="#edf8f8" stroke="#3aa9ab" stroke-width="5"/>
+  <text x="800" y="204" fill="#0d3637" font-family="Cabin,Arial,sans-serif" font-size="32" font-weight="700">Die Negation</text>
+</svg>
