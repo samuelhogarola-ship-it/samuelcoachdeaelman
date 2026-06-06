@@ -1,0 +1,35 @@
+source,target,code,notes
+# ── BLOQUE 1: URLs confirmadas con tráfico / historial visible ────────────────
+/f/trennbare-verben-en-alem%C3%A1n-verbos-separables-y-no-separables,/trennbare-verben-en-aleman-verbos-separables-y-no-separables,301,Confirmada en historial
+/f/la-negaci%C3%B3n-en-alem%C3%A1n-die-negation-im-deutschen,/la-negacion-en-aleman-die-negation-im-deutschen,301,Confirmada en historial
+/f/jemand-niemand-y-keiner-usos-y-diferencias-en-alem%C3%A1n,/jemand-niemand-y-keiner-usos-y-diferencias-en-aleman,301,Confirmada en historial
+/f/verbos-de-dativo-en-alem%C3%A1n-dativ-verben,/verbos-de-dativo-en-aleman-dativ-verben,301,Confirmada en historial
+/f/demonstrativpronomen-los-pronombres-demostrativos-en-alem%C3%A1n,/demonstrativpronomen-los-pronombres-demostrativos-en-aleman,301,Confirmada en historial
+/f/los-art%C3%ADculos-posesivos-en-alem%C3%A1n-possessivartikel-auf-deutsch,/los-articulos-posesivos-en-aleman-possessivartikel-auf-deutsch,301,Confirmada en historial
+/f/la-declinaci%C3%B3n-del-adjetivo-en-alem%C3%A1n-adjektivdeklination,/la-declinacion-del-adjetivo-en-aleman-adjektivdeklination,301,Confirmada en historial
+/f/las-w-fragen-en-alem%C3%A1n,/las-w-fragen-en-aleman,301,Confirmada en historial
+/f/indirekte-fragen-preguntas-indirectas-en-alem%C3%A1n,/indirekte-fragen-preguntas-indirectas-en-aleman,301,Confirmada en historial
+/f/konjunktiv-2-en-alem%C3%A1n,/konjunktiv-2-en-aleman,301,Confirmada en historial
+# ── BLOQUE 2: URLs mandadas directamente en esta sesión ──────────────────────
+/f/trennbare-verben-en-alem%C3%A1n-verbos-separables-y-no-separables,/trennbare-verben-en-aleman-verbos-separables-y-no-separables,301,Duplicado — ya en bloque 1
+/f/la-voz-pasiva-con-verbos-modales-en-alem%C3%A1n-passiv-mit-modalverben,/la-voz-pasiva-con-verbos-modales-en-aleman-passiv-mit-modalverben,301,URL mandada por usuario
+/f/el-imperativo-en-alem%C3%A1n,/el-imperativo-en-aleman,301,URL mandada por usuario
+/f/partizip-2-en-alem%C3%A1n-la-formaci%C3%B3n-del-participio,/partizip-2-en-aleman-la-formacion-del-participio,301,URL mandada por usuario
+/f/indirekte-fragen-preguntas-indirectas-en-alem%C3%A1n,/indirekte-fragen-preguntas-indirectas-en-aleman,301,Duplicado — ya en bloque 1
+/f/wo-wohin-en-alem%C3%A1n-complementos-de-lugar,/wo-wohin-en-aleman-complementos-de-lugar,301,URL mandada por usuario (variante con acento)
+/f/pronombres-personales-en-alem%C3%A1n-personal-pronomen,/pronombres-personales-en-aleman-personal-pronomen,301,URL mandada por usuario (variante con acento)
+/f/demonstrativpronomen-los-pronombres-demostrativos-en-alem%C3%A1n,/demonstrativpronomen-los-pronombres-demostrativos-en-aleman,301,Duplicado — ya en bloque 1
+# ── BLOQUE 3: URLs del /f/ estático actual (sin acentos) — por si se mueven a WP ─
+/f/wo-wohin-en-aleman-complementos-de-lugar,/wo-wohin-en-aleman-complementos-de-lugar,301,PENDIENTE confirmar si WP usará mismo slug
+/f/pronombres-personales-en-aleman-personal-pronomen,/pronombres-personales-en-aleman-personal-pronomen,301,PENDIENTE confirmar si WP usará mismo slug
+/f/la-hora-en-aleman-die-uhrzeit,/la-hora-en-aleman-die-uhrzeit,301,PENDIENTE confirmar si WP usará mismo slug
+/f/der-die-das-los-generos-en-aleman,/der-die-das-los-generos-en-aleman,301,PENDIENTE confirmar si WP usará mismo slug
+/f/vor-vorher-bevor,/vor-vorher-bevor,301,PENDIENTE — slug muy corto, confirmar
+/f/redemittel-b1-b2-und-c1,/redemittel-b1-b2-und-c1,301,PENDIENTE confirmar slug WP
+/f/como-aprobar-el-sprechen-b1b2-o-c1-en-aleman-usando-redemittel,/como-aprobar-el-sprechen-b1b2-o-c1-en-aleman-usando-redemittel,301,PENDIENTE confirmar slug WP
+/f/tekamolo-2-0-en-aleman-satzbau,/tekamolo-2-0-en-aleman-satzbau,301,PENDIENTE confirmar slug WP
+/f/haeufigkeitsadverbien-en-aleman,/haeufigkeitsadverbien-en-aleman,301,PENDIENTE confirmar slug WP
+/f/partizip-1-vs-partizip-2-en-aleman,/partizip-1-vs-partizip-2-en-aleman,301,PENDIENTE confirmar slug WP
+# ── BLOQUE 4: URLs a confirmar con Search Console / Wayback ──────────────────
+# Añadir aquí las URLs con impresiones en Search Console
+# Formato: /f/slug-exacto-codificado,/slug-limpio-wordpress,301,fuente
