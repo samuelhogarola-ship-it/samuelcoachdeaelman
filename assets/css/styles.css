@@ -1247,7 +1247,8 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
 .blog-related-grid,
 .blog-hub-grid {
   display: grid;
-  gap: 18px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
 }
 .blog-clock-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1431,24 +1432,63 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   font-size: 1.06rem;
 }
 .blog-hub-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: 28px;
 }
 .blog-hub-card {
-  padding: 24px;
-  box-shadow: 0 14px 34px rgba(13,54,55,.08);
+  padding: 0;
+  box-shadow: 0 8px 24px rgba(13,54,55,.07);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.blog-hub-thumb {
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  background: #f1f8f8;
+}
+.blog-hub-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .3s ease;
+}
+.blog-hub-card:hover .blog-hub-thumb img {
+  transform: scale(1.04);
+}
+.blog-hub-card-body {
+  padding: 20px 22px 22px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .blog-hub-card h2 {
-  font-size: 1.3rem;
-  margin: 10px 0 10px;
+  font-size: 1.12rem;
+  margin: 8px 0 8px;
   color: var(--dark);
 }
 .blog-hub-card p {
   color: var(--muted);
+  font-size: .93rem;
   margin-bottom: 14px;
+  flex: 1;
 }
 .blog-hub-card .blog-meta {
-  margin-bottom: 10px;
+  font-size: .82rem;
+  margin-bottom: 8px;
+}
+.blog-post-hero-img {
+  margin: 24px 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #f1f8f8;
+}
+.blog-post-hero-img img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .blog-status-note {
   margin-top: 20px;
@@ -2021,7 +2061,7 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   .blog-clock-grid,
   .blog-example-grid,
   .blog-related-grid,
-  .blog-hub-grid { grid-template-columns: 1fr; }
+  .blog-hub-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .blog-post-card,
   .blog-side-card,
   .blog-visual-card,
@@ -2124,6 +2164,7 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
 }
 
 @media (max-width: 600px) {
+  .blog-hub-grid { grid-template-columns: 1fr; }
   .nav-inner {
     padding: 9px 14px;
   }
