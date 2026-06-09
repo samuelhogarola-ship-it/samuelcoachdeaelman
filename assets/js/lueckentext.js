@@ -313,30 +313,36 @@ function renderLevel(container, level) {
   render();
 }
 
-function renderType1Options(exercise, state, checked) {
-  return exercise.blanks.map((blank) => {
-    const selected = state.selections[blank.id] || "";
-    const isCorrect = checked && selected === blank.answer;
+function renderType1OptionCard(blank, state, checked) {
+  const selected = state.selections[blank.id] || "";
+  const isCorrect = checked && selected === blank.answer;
+  return `
+    <article class="lueck-choice-card">
+      <div class="lueck-choice-top">
+        <span class="lueck-choice-number">${blank.id}</span>
+        ${checked ? `<span class="lueck-choice-status${isCorrect ? " is-correct" : " is-wrong"}">${isCorrect ? "OK" : "X"}</span>` : ""}
+      </div>
+      <div class="lueck-choice-options">
+        ${blank.options.map((option) => {
+          const isSelected = selected === option;
+          const classes = ["lueck-option"];
+          if (isSelected) classes.push("is-selected");
+          if (checked && option === blank.answer) classes.push("is-correct");
+          if (checked && isSelected && option !== blank.answer) classes.push("is-wrong");
+          return `<button class="${classes.join(" ")}" type="button" data-option-blank="${blank.id}" data-option-value="${escapeHtml(option)}">${escapeHtml(option)}</button>`;
+        }).join("")}
+      </div>
+    </article>
+  `;
+}
 
-    return `
-      <article class="lueck-choice-card">
-        <div class="lueck-choice-top">
-          <span class="lueck-choice-number">${blank.id}</span>
-          ${checked ? `<span class="lueck-choice-status${isCorrect ? " is-correct" : " is-wrong"}">${isCorrect ? "OK" : "X"}</span>` : ""}
-        </div>
-        <div class="lueck-choice-options">
-          ${blank.options.map((option) => {
-            const isSelected = selected === option;
-            const classes = ["lueck-option"];
-            if (isSelected) classes.push("is-selected");
-            if (checked && option === blank.answer) classes.push("is-correct");
-            if (checked && isSelected && option !== blank.answer) classes.push("is-wrong");
-            return `<button class="${classes.join(" ")}" type="button" data-option-blank="${blank.id}" data-option-value="${escapeHtml(option)}">${escapeHtml(option)}</button>`;
-          }).join("")}
-        </div>
-      </article>
-    `;
-  }).join("");
+function renderType1Options(exercise, state, checked) {
+  if (checked) {
+    return exercise.blanks.map((blank) => renderType1OptionCard(blank, state, true)).join("");
+  }
+  const blank = exercise.blanks.find((b) => b.id === state.selectedBlankId);
+  if (!blank) return "";
+  return renderType1OptionCard(blank, state, false);
 }
 
 function getAvailableWords(exercise, state) {
@@ -430,7 +436,7 @@ function renderExercise(container, level, slug) {
   const state = {
     selections: {},
     placements: {},
-    selectedBlankId: exercise.tipo === "type2" ? exercise.blanks[0]?.id || null : null,
+    selectedBlankId: exercise.blanks[0]?.id || null,
     checked: false,
     results: {},
     hits: 0,
@@ -498,16 +504,25 @@ function renderExercise(container, level, slug) {
     if (optionButton && !state.checked) {
       const blankId = Number(optionButton.getAttribute("data-option-blank"));
       state.selections[blankId] = optionButton.getAttribute("data-option-value");
+      const allIds = exercise.blanks.map((b) => b.id);
+      const idx = allIds.indexOf(blankId);
+      const ordered = [...allIds.slice(idx + 1), ...allIds.slice(0, idx + 1)];
+      const next = ordered.find((id) => !state.selections[id]);
+      state.selectedBlankId = next || blankId;
       update();
       return;
     }
 
     const blankButton = event.target.closest("[data-blank-id]");
-    if (blankButton && exercise.tipo === "type2" && !state.checked) {
+    if (blankButton && !state.checked) {
       const blankId = Number(blankButton.getAttribute("data-blank-id"));
-      if (state.selectedBlankId === blankId && state.placements[blankId]) {
-        delete state.placements[blankId];
-        state.selectedBlankId = blankId;
+      if (exercise.tipo === "type2") {
+        if (state.selectedBlankId === blankId && state.placements[blankId]) {
+          delete state.placements[blankId];
+          state.selectedBlankId = blankId;
+        } else {
+          state.selectedBlankId = blankId;
+        }
       } else {
         state.selectedBlankId = blankId;
       }
@@ -530,7 +545,7 @@ function renderExercise(container, level, slug) {
     if (action === "reset") {
       state.selections = {};
       state.placements = {};
-      state.selectedBlankId = null;
+      state.selectedBlankId = exercise.blanks[0]?.id || null;
       state.checked = false;
       state.results = {};
       state.hits = 0;

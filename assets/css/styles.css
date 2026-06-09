@@ -2771,8 +2771,9 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
 
 .lueck-reader {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 360px);
   gap: 20px;
+  align-items: start;
 }
 
 .lueck-text-col {
@@ -2873,7 +2874,7 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
 .lueck-answer-grid {
   display: grid;
   gap: 14px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
 }
 
 .lueck-choice-card,
@@ -2918,7 +2919,7 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
 
 .lueck-choice-options {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 8px;
 }
 
@@ -3070,9 +3071,12 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
 }
 
 @media (max-width: 760px) {
+  .lueck-reader {
+    grid-template-columns: 1fr;
+  }
+
   .lueck-home-layout,
-  .lueck-mode-grid,
-  .lueck-choice-options {
+  .lueck-mode-grid {
     grid-template-columns: 1fr;
   }
 
