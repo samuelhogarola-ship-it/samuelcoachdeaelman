@@ -33,6 +33,9 @@ const LUECK_UI = {
     result: (hits, total) => `Resultado: ${hits} aciertos y ${total - hits} errores.`,
     empty: "Sin responder",
     answerLabel: "Respuesta correcta",
+    blankLabel: "Hueco",
+    optionsForBlank: (id) => `Opciones para el hueco ${id}`,
+    closeOptions: "Cerrar opciones",
     selectWord: "Pulsa un hueco y luego una palabra del banco.",
     wordBankTitle: "Banco de palabras",
     bankHint: "15 palabras: 10 correctas y 5 distractores.",
@@ -75,6 +78,9 @@ const LUECK_UI = {
     result: (hits, total) => `Ergebnis: ${hits} Treffer und ${total - hits} Fehler.`,
     empty: "Keine Antwort",
     answerLabel: "Richtige Antwort",
+    blankLabel: "Lücke",
+    optionsForBlank: (id) => `Optionen für Lücke ${id}`,
+    closeOptions: "Optionen schließen",
     selectWord: "Klicke zuerst auf eine Lücke und danach auf ein Wort.",
     wordBankTitle: "Wortbank",
     bankHint: "15 Wörter: 10 richtig und 5 Distraktoren.",
@@ -117,6 +123,9 @@ const LUECK_UI = {
     result: (hits, total) => `Result: ${hits} correct and ${total - hits} errors.`,
     empty: "No answer",
     answerLabel: "Correct answer",
+    blankLabel: "Blank",
+    optionsForBlank: (id) => `Options for blank ${id}`,
+    closeOptions: "Close options",
     selectWord: "Click a blank first and then choose a word from the bank.",
     wordBankTitle: "Word bank",
     bankHint: "15 words: 10 correct and 5 distractors.",
@@ -165,12 +174,17 @@ function escapeHtml(value) {
     .replace(/>/g, "&gt;");
 }
 
+function isLueckMobileViewport() {
+  return window.matchMedia("(max-width: 760px)").matches;
+}
+
 function renderExerciseText(exercise, state, checked) {
   return exercise.paragraphs.map((paragraph) => `
     <p>${paragraph.map((segment) => {
       if (segment.type === "text") return escapeHtml(segment.value);
       const placed = state.placements?.[segment.id];
       const selectedOption = state.selections?.[segment.id];
+      const filledValue = exercise.tipo === "type2" ? placed : selectedOption;
       const selected = state.selectedBlankId === segment.id;
       const resultClass = checked
         ? (state.results?.[segment.id] ? " is-correct" : " is-wrong")
@@ -181,7 +195,10 @@ function renderExerciseText(exercise, state, checked) {
       } else if (exercise.tipo === "type1" && selectedOption) {
         blankLabel = `${segment.id}. ${selectedOption}`;
       }
-      return `<button class="lueck-blank${selected ? " is-selected" : ""}${resultClass}${placed ? " is-filled" : ""}" type="button" data-blank-id="${segment.id}"><span>${blankLabel}</span></button>`;
+      const a11yAttrs = exercise.tipo === "type1"
+        ? ` aria-haspopup="dialog" aria-controls="lueck-mobile-sheet" aria-expanded="${selected && !checked ? "true" : "false"}"`
+        : "";
+      return `<button class="lueck-blank${selected ? " is-selected" : ""}${resultClass}${filledValue ? " is-filled" : ""}" type="button" data-blank-id="${segment.id}"${a11yAttrs}><span>${blankLabel}</span></button>`;
     }).join("")}</p>
   `).join("");
 }
@@ -319,7 +336,7 @@ function renderType1Options(exercise, state, checked) {
     const isCorrect = checked && selected === blank.answer;
 
     return `
-      <article class="lueck-choice-card">
+      <article class="lueck-choice-card${state.selectedBlankId === blank.id ? " is-active" : ""}">
         <div class="lueck-choice-top">
           <span class="lueck-choice-number">${blank.id}</span>
           ${checked ? `<span class="lueck-choice-status${isCorrect ? " is-correct" : " is-wrong"}">${isCorrect ? "OK" : "X"}</span>` : ""}
@@ -337,6 +354,64 @@ function renderType1Options(exercise, state, checked) {
       </article>
     `;
   }).join("");
+}
+
+function renderType1MobilePicker(exercise, state, checked) {
+  const ui = getLueckUi();
+  const blank = exercise.blanks.find((item) => item.id === state.selectedBlankId);
+  const isOpen = Boolean(blank) && !checked;
+
+  if (!isOpen) {
+    return `<div class="lueck-mobile-sheet" id="lueck-mobile-sheet" aria-hidden="true"></div>`;
+  }
+
+  const selected = state.selections[blank.id] || "";
+  return `
+    <div class="lueck-mobile-sheet is-open" id="lueck-mobile-sheet" role="dialog" aria-modal="false" aria-hidden="false" aria-labelledby="lueck-mobile-sheet-title">
+      <div class="lueck-mobile-sheet-card">
+        <div class="lueck-mobile-sheet-head">
+          <div>
+            <p class="lueck-mobile-sheet-kicker">${ui.blankLabel} ${blank.id}</p>
+            <h3 id="lueck-mobile-sheet-title">${ui.optionsForBlank(blank.id)}</h3>
+          </div>
+          <button class="lueck-mobile-sheet-close" type="button" data-action="close-picker" aria-label="${ui.closeOptions}">×</button>
+        </div>
+        <div class="lueck-mobile-options" role="listbox" aria-label="${ui.optionsForBlank(blank.id)}">
+          ${blank.options.map((option, index) => {
+            const isSelected = selected === option;
+            return `<button class="lueck-option${isSelected ? " is-selected" : ""}" type="button" role="option" aria-selected="${isSelected ? "true" : "false"}" data-mobile-option="${index === 0 ? "true" : "false"}" data-option-blank="${blank.id}" data-option-value="${escapeHtml(option)}">${escapeHtml(option)}</button>`;
+          }).join("")}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderType1InlinePicker(exercise, state, checked) {
+  const ui = getLueckUi();
+  const blank = exercise.blanks.find((item) => item.id === state.selectedBlankId);
+  const isOpen = Boolean(blank) && !checked;
+
+  if (!isOpen) return "";
+
+  const selected = state.selections[blank.id] || "";
+  return `
+    <section class="lueck-inline-picker" aria-labelledby="lueck-inline-picker-title">
+      <div class="lueck-inline-picker-head">
+        <div>
+          <p class="lueck-inline-picker-kicker">${ui.blankLabel} ${blank.id}</p>
+          <h3 id="lueck-inline-picker-title">${ui.optionsForBlank(blank.id)}</h3>
+        </div>
+        <button class="lueck-inline-picker-close" type="button" data-action="close-picker" aria-label="${ui.closeOptions}">×</button>
+      </div>
+      <div class="lueck-inline-options" role="listbox" aria-label="${ui.optionsForBlank(blank.id)}">
+        ${blank.options.map((option, index) => {
+          const isSelected = selected === option;
+          return `<button class="lueck-option${isSelected ? " is-selected" : ""}" type="button" role="option" aria-selected="${isSelected ? "true" : "false"}" data-inline-option="${index === 0 ? "true" : "false"}" data-option-blank="${blank.id}" data-option-value="${escapeHtml(option)}">${escapeHtml(option)}</button>`;
+        }).join("")}
+      </div>
+    </section>
+  `;
 }
 
 function getAvailableWords(exercise, state) {
@@ -435,11 +510,12 @@ function renderExercise(container, level, slug) {
     results: {},
     hits: 0,
   };
+  let pendingFocus = null;
 
   const update = () => {
     container.innerHTML = `
       <div class="lueck-reader">
-        <div class="lueck-text-col">
+        <section class="lueck-exercise-card">
           <div class="lueck-heading-row">
             <span class="lese-card-nivel">${exercise.nivel}</span>
             <span class="lueck-card-type">${ui.typeLabel[exercise.tipo]}</span>
@@ -449,9 +525,8 @@ function renderExercise(container, level, slug) {
           <div class="lese-cuerpo lueck-text-body">
             ${renderExerciseText(exercise, state, state.checked)}
           </div>
-        </div>
-        <div class="lueck-panel">
-          <div class="lueck-panel-top">
+          ${exercise.tipo === "type1" ? renderType1InlinePicker(exercise, state, state.checked) : ""}
+          <div class="lueck-exercise-meta">
             <h3>${ui.exerciseTitle}</h3>
             <div class="lueck-score">
               <span>${ui.hits}: <strong>${state.hits}</strong></span>
@@ -459,9 +534,11 @@ function renderExercise(container, level, slug) {
             </div>
           </div>
           ${exercise.tipo === "type1"
-            ? `<div class="lueck-choice-grid">${renderType1Options(exercise, state, state.checked)}</div>`
+            ? ""
             : `
-              ${renderType2Bank(exercise, state, state.checked)}
+              <div class="lueck-support-block">
+                ${renderType2Bank(exercise, state, state.checked)}
+              </div>
               <div class="lueck-answer-grid">${renderType2Answers(exercise, state, state.checked)}</div>
             `}
           <div class="lueck-actions">
@@ -469,12 +546,24 @@ function renderExercise(container, level, slug) {
             <button class="lueck-action-btn is-secondary" type="button" data-action="reset">${ui.retry}</button>
           </div>
           ${state.checked ? `<p class="lueck-result-text">${ui.result(state.hits, exercise.blanks.length)}</p>` : ""}
-        </div>
+        </section>
       </div>
+      ${exercise.tipo === "type1" ? renderType1MobilePicker(exercise, state, state.checked) : ""}
       <div class="lese-back">
         <a href="${buildLueckUrl(`${exercise.nivel.toLowerCase()}/`)}" class="lese-volver">${ui.backLevel(exercise.nivel)}</a>
       </div>
     `;
+
+    if (pendingFocus) {
+      const selector = pendingFocus;
+      pendingFocus = null;
+      requestAnimationFrame(() => {
+        const target = container.querySelector(selector);
+        if (target instanceof HTMLElement) {
+          target.focus({ preventScroll: true });
+        }
+      });
+    }
   };
 
   const assignWord = (blankId, wordId) => {
@@ -498,11 +587,27 @@ function renderExercise(container, level, slug) {
     if (optionButton && !state.checked) {
       const blankId = Number(optionButton.getAttribute("data-option-blank"));
       state.selections[blankId] = optionButton.getAttribute("data-option-value");
+      if (exercise.tipo === "type1") {
+        state.selectedBlankId = null;
+        pendingFocus = `[data-blank-id="${blankId}"]`;
+      }
       update();
       return;
     }
 
     const blankButton = event.target.closest("[data-blank-id]");
+    if (blankButton && exercise.tipo === "type1" && !state.checked) {
+      const blankId = Number(blankButton.getAttribute("data-blank-id"));
+      state.selectedBlankId = state.selectedBlankId === blankId ? null : blankId;
+      if (state.selectedBlankId) {
+        pendingFocus = isLueckMobileViewport()
+          ? "[data-mobile-option='true']"
+          : "[data-inline-option='true']";
+      }
+      update();
+      return;
+    }
+
     if (blankButton && exercise.tipo === "type2" && !state.checked) {
       const blankId = Number(blankButton.getAttribute("data-blank-id"));
       if (state.selectedBlankId === blankId && state.placements[blankId]) {
@@ -527,6 +632,14 @@ function renderExercise(container, level, slug) {
     if (!actionButton) return;
 
     const action = actionButton.getAttribute("data-action");
+    if (action === "close-picker") {
+      const blankId = state.selectedBlankId;
+      state.selectedBlankId = null;
+      if (blankId) pendingFocus = `[data-blank-id="${blankId}"]`;
+      update();
+      return;
+    }
+
     if (action === "reset") {
       state.selections = {};
       state.placements = {};
@@ -580,6 +693,14 @@ function renderExercise(container, level, slug) {
       });
       update();
     }
+  });
+
+  container.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || exercise.tipo !== "type1" || !state.selectedBlankId || state.checked) return;
+    const blankId = state.selectedBlankId;
+    state.selectedBlankId = null;
+    pendingFocus = `[data-blank-id="${blankId}"]`;
+    update();
   });
 }
 

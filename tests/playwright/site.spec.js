@@ -93,12 +93,13 @@ test.describe("leseverstehen", () => {
 test.describe("lueckentext", () => {
   test("type 1 exercise checks answers and shows feedback", async ({ context, page }) => {
     await context.clearCookies();
-    await page.goto("/recursos/lueckentext/a1/meine-familie/");
+    await page.goto("/recursos/sprachbausteine/a1/meine-familie/");
 
     await page.getByRole("button", { name: "Aceptar" }).click();
     await expect(page.locator("h1")).toHaveText(/meine familie/i);
     await expect(page.locator(".lang-switch").first()).toBeVisible();
-    await expect(page.locator(".lueck-option").first()).toBeVisible();
+    await expect(page.locator(".lueck-inline-picker")).toHaveCount(0);
+    await expect(page.locator(".lueck-panel")).toHaveCount(0);
 
     const firstBlankOptions = await page.evaluate(() => {
       const exercise = window.LUECKENTEXTE.find((item) => item.slug === "meine-familie");
@@ -108,17 +109,49 @@ test.describe("lueckentext", () => {
       };
     });
 
-    await page.getByRole("button", { name: firstBlankOptions.options[0], exact: true }).click();
+    await page.locator('[data-blank-id="1"]').click();
+    await expect(page.locator(".lueck-inline-picker")).toBeVisible();
+    await page.getByRole("option", { name: firstBlankOptions.options[0], exact: true }).click();
+    await expect(page.locator(".lueck-inline-picker")).toHaveCount(0);
     await page.getByRole("button", { name: /corregir/i }).click();
 
     await expect(page.locator(".lueck-result-text")).toBeVisible();
-    expect(await page.locator(".lueck-option.is-correct").count()).toBeGreaterThan(0);
+    await expect(page.locator('[data-blank-id="1"]')).toBeVisible();
+    await expect(page.locator('[data-blank-id="1"].is-correct, [data-blank-id="1"].is-wrong')).toHaveCount(1);
+  });
+
+  test("type 1 mobile flow answers blanks inline with a single open picker", async ({ context, page }) => {
+    await context.clearCookies();
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/recursos/sprachbausteine/a1/meine-familie/");
+
+    await page.getByRole("button", { name: "Aceptar" }).click();
     await expect(page.locator(".lueck-blank").first()).toBeVisible();
+    await expect(page.locator(".lueck-choice-grid")).toBeHidden();
+
+    const exerciseData = await page.evaluate(() => {
+      const exercise = window.LUECKENTEXTE.find((item) => item.slug === "meine-familie");
+      return {
+        first: exercise.blanks[0],
+        second: exercise.blanks[1]
+      };
+    });
+
+    await page.locator(`[data-blank-id="${exerciseData.first.id}"]`).click();
+    await expect(page.locator(".lueck-mobile-sheet.is-open")).toBeVisible();
+    await expect(page.locator(".lueck-mobile-sheet").getByRole("heading", { name: new RegExp(`hueco ${exerciseData.first.id}`, "i") })).toBeVisible();
+
+    await page.locator(`[data-blank-id="${exerciseData.second.id}"]`).click();
+    await expect(page.locator(".lueck-mobile-sheet").getByRole("heading", { name: new RegExp(`hueco ${exerciseData.second.id}`, "i") })).toBeVisible();
+
+    await page.locator(".lueck-mobile-sheet").getByRole("option", { name: exerciseData.second.options[0], exact: true }).click();
+    await expect(page.locator(".lueck-mobile-sheet.is-open")).toHaveCount(0);
+    await expect(page.locator(`[data-blank-id="${exerciseData.second.id}"]`)).toContainText(exerciseData.second.options[0]);
   });
 
   test("type 2 exercise supports click placement and scoring", async ({ context, page }) => {
     await context.clearCookies();
-    await page.goto("/recursos/lueckentext/b1/reise-mit-dem-zug/");
+    await page.goto("/recursos/sprachbausteine/b1/reise-mit-dem-zug/");
     await page.getByRole("button", { name: "Aceptar" }).click();
 
     await expect(page.locator(".lueck-word-chip")).toHaveCount(15);
@@ -145,12 +178,12 @@ test.describe("lueckentext", () => {
 
   test("localized exercise keeps the language switcher available", async ({ context, page }) => {
     await context.clearCookies();
-    await page.goto("/de/recursos/lueckentext/a1/meine-familie/");
+    await page.goto("/de/recursos/sprachbausteine/a1/meine-familie/");
     await page.getByRole("button", { name: "Akzeptieren" }).click();
 
     await expect(page.locator(".lang-switch").first()).toBeVisible();
     await expect(page.locator(".lang-switch-link.is-active").first()).toHaveText("DE");
     await expect(page.locator("h1")).toHaveText(/meine familie/i);
-    await expect(page.locator(".lueck-option").first()).toBeVisible();
+    await expect(page.locator(".lueck-inline-picker")).toHaveCount(0);
   });
 });
