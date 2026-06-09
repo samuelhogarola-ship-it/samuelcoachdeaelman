@@ -337,12 +337,7 @@ function renderType1OptionCard(blank, state, checked) {
 }
 
 function renderType1Options(exercise, state, checked) {
-  if (checked) {
-    return exercise.blanks.map((blank) => renderType1OptionCard(blank, state, true)).join("");
-  }
-  const blank = exercise.blanks.find((b) => b.id === state.selectedBlankId);
-  if (!blank) return "";
-  return renderType1OptionCard(blank, state, false);
+  return exercise.blanks.map((blank) => renderType1OptionCard(blank, state, checked)).join("");
 }
 
 function getAvailableWords(exercise, state) {
