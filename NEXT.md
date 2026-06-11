@@ -18,5 +18,7 @@
 ## Notes
 - El widget de apps ya no se abre por defecto en movil.
 - El `logo-tree.png` pesado ya no se referencia en las paginas espanolas donde seguia vivo.
+- Convencion de blog: los posts nuevos deben publicarse con un unico slug canonico, siempre en minusculas, con guiones y sin acentos ni `ñ`.
+- Si se rescata un post legacy con otra URL historica, se crea una pagina estatica real en `/f/` para ese slug legacy; no se depende de CSV ni de redirects HTML.
 - Evitar redisenos globales; los cambios de producto deben concentrarse primero en `Recursos`.
 - El cierre del ciclo de `Sprachbausteine` ya esta mergeado en `main` mediante el PR `#31`.
