@@ -3,6 +3,7 @@ import path from "path";
 
 const rootDir = process.cwd();
 const baseUrl = "https://www.samuelcoachdealeman.com";
+const blogUrl = `${baseUrl}/f/`;
 const locales = ["de", "en"];
 const examLevels = ["A1", "A2", "B1", "B2"];
 const localeOg = {
@@ -16,7 +17,7 @@ const shared = {
     lang: "de",
     localeName: "Deutsch",
     notice:
-      'Terminplan bis zum 22.06 geschlossen · In der Zwischenzeit kannst du <a href="https://blog.samuelcoachdealeman.com">im Blog kostenlos Deutsch lernen</a>',
+      `Terminplan bis zum 22.06 geschlossen · In der Zwischenzeit kannst du <a href="${blogUrl}">im Blog kostenlos Deutsch lernen</a>`,
     nav: {
       home: "Start",
       blog: "Blog",
@@ -143,7 +144,7 @@ const shared = {
     lang: "en",
     localeName: "English",
     notice:
-      'Schedule closed until 22.06 · In the meantime, you can <a href="https://blog.samuelcoachdealeman.com">learn German for free on the blog</a>',
+      `Schedule closed until 22.06 · In the meantime, you can <a href="${blogUrl}">learn German for free on the blog</a>`,
     nav: {
       home: "Home",
       blog: "Blog",
@@ -930,7 +931,7 @@ function renderNav(locale) {
       <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="${common.cookie.navigation.openMenu}"><span></span><span></span><span></span></button>
       <ul class="nav-links">
         <li><a href="${homeHref}">${common.nav.home}</a></li>
-        <li><a href="https://blog.samuelcoachdealeman.com">${common.nav.blog}</a></li>
+        <li><a href="https://www.samuelcoachdealeman.com/f/">${common.nav.blog}</a></li>
         <li><a href="${aboutHref}">${common.nav.about}</a></li>
         <li class="nav-drop">
           <a href="${servicesHref}">${common.nav.services}</a>
@@ -955,7 +956,7 @@ function renderNav(locale) {
     </div>
     <div id="mobile-menu" class="mobile-menu" hidden>
       <a href="${homeHref}">${common.nav.home}</a>
-      <a href="https://blog.samuelcoachdealeman.com">${common.nav.blog}</a>
+      <a href="https://www.samuelcoachdealeman.com/f/">${common.nav.blog}</a>
       <a href="${aboutHref}">${common.nav.about}</a>
       <a href="${servicesHref}">${common.nav.services}</a>
       <a href="${servicesHref}#conversacional">${common.nav.conversational}</a>
@@ -981,7 +982,7 @@ function renderFooter(locale) {
       <div class="footer-top">
         <a class="footer-logo footer-logo-fun" href="${prefix || "/"}"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
         <div class="footer-links">
-          <a href="https://blog.samuelcoachdealeman.com">${common.nav.blog}</a>
+          <a href="https://www.samuelcoachdealeman.com/f/">${common.nav.blog}</a>
           <a href="${prefix}/sobre-mi/">${common.nav.about}</a>
           <a href="${prefix}/servicios/">${common.nav.services}</a>
           <a href="${prefix}/metodologia/">${common.nav.methodology}</a>
