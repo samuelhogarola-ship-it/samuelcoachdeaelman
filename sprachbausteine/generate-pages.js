@@ -1257,16 +1257,8 @@ function writeDataFile(exercises) {
 
 function updateSitemap(exercises) {
   const sitemapPath = path.join(ROOT_DIR, "sitemap.xml");
-  const existing = fs.readFileSync(sitemapPath, "utf8");
-  const inner = existing
-    .replace(/^<\?xml[^>]*>\s*/i, "")
-    .replace(/^<urlset[^>]*>\s*/i, "")
-    .replace(/\s*<\/urlset>\s*$/i, "");
-  const keptBlocks = inner
-    .split(/(?=\s*<url>)/)
-    .map((block) => block.trim())
-    .filter(Boolean)
-    .filter((block) => !block.includes("/recursos/sprachbausteine/"));
+  let sitemap = fs.readFileSync(sitemapPath, "utf8");
+  sitemap = sitemap.replace(/\s*<!-- SPRACHBAUSTEINE:START -->[\s\S]*?<!-- SPRACHBAUSTEINE:END -->/g, "");
 
   const urls = [];
   Object.keys(LOCALES).forEach((locale) => {
@@ -1279,10 +1271,14 @@ function updateSitemap(exercises) {
     });
   });
 
-  const urlBlocks = urls.map((url) => `  <url>\n    <loc>${absolute(url)}</loc>\n  </url>`).join("\n");
-  const preserved = keptBlocks.map((block) => `  ${block.replace(/\n/g, "\n  ")}`).join("\n");
-  const finalXml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${preserved}${preserved ? "\n" : ""}${urlBlocks}\n</urlset>\n`;
-  fs.writeFileSync(sitemapPath, finalXml);
+  let block = "\n  <!-- SPRACHBAUSTEINE:START -->";
+  urls.forEach((url) => {
+    block += `\n  <url>\n    <loc>${absolute(url)}</loc>\n  </url>`;
+  });
+  block += "\n  <!-- SPRACHBAUSTEINE:END -->\n";
+
+  sitemap = sitemap.replace("</urlset>", `${block}</urlset>`);
+  fs.writeFileSync(sitemapPath, sitemap);
 }
 
 function generate() {
