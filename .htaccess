@@ -3,3 +3,10 @@ RedirectMatch 301 ^/lueckentext/(.*)$ /sprachbausteine/$1
 RedirectMatch 301 ^/recursos/lueckentext/(.*)$ /recursos/sprachbausteine/$1
 RedirectMatch 301 ^/de/recursos/lueckentext/(.*)$ /de/recursos/sprachbausteine/$1
 RedirectMatch 301 ^/en/recursos/lueckentext/(.*)$ /en/recursos/sprachbausteine/$1
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Legacy blog slug with quotes/accents -> exact legacy lassen image
+RewriteRule ^f/el-verbo-.*lassen.*particularidades/?$ /assets/img/originales-samuel/lassen-legacy.png [R=301,L,NC,QSD]
+</IfModule>
