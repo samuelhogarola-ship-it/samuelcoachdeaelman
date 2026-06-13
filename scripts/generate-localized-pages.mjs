@@ -1036,7 +1036,7 @@ function renderContactForm(locale) {
               <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate>
                 <input type="hidden" name="_subject" value="${form.subject}">
                 <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_url" value="${formUrl}">
+                <input type="hidden" name="_next" value="${formUrl}">
                 <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
 
                 <div class="offer-form-grid">
@@ -1103,6 +1103,7 @@ ${optionList(form.options.schedules)}
 
                 <button type="submit" class="contact-btn cb-email">${form.submit}</button>
                 <p class="form-note">${form.note}</p>
+                <p class="form-status" aria-live="polite"></p>
               </form>
             </div>
             <div class="contact-card contact-card-direct">

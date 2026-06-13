@@ -76,11 +76,12 @@
               <span>Lectura: 6 min</span>
             </div>
 
-            <img
-              class="blog-post-hero-img"
-              src="/assets/img/blog/slug-del-post/hero.jpg"
-              alt="Descripcion clara de la imagen destacada"
-            />
+            <div class="blog-post-hero-img">
+              <img
+                src="/assets/img/blog/slug-del-post/hero.jpg"
+                alt="Descripcion clara de la imagen destacada"
+              />
+            </div>
 
             <div class="blog-summary-card">
               <h2>Resumen rapido</h2>
@@ -148,6 +149,103 @@
                 <strong>Error 2</strong>
                 <p>Explica el fallo y como corregirlo.</p>
               </div>
+            </div>
+
+            <figure class="blog-post-figure is-secondary">
+              <div class="blog-post-hero-img">
+                <img
+                  src="/assets/img/blog/slug-del-post/secondary.jpg"
+                  alt="Descripcion clara de la imagen secundaria"
+                />
+              </div>
+              <figcaption>
+                Usa una segunda imagen de apoyo con la misma linea visual de marca.
+              </figcaption>
+            </figure>
+
+            <div class="blog-quiz-card">
+              <h2>Mini ejercicio final</h2>
+              <p class="blog-quiz-intro">
+                Cierra cada post con un multiple choice corto para reforzar la idea
+                principal.
+              </p>
+
+              <form class="blog-quiz-form" data-blog-quiz>
+                <fieldset
+                  class="blog-quiz-question"
+                  data-quiz-question
+                  data-correct="b"
+                  data-explanation="La opcion correcta debe reforzar la regla principal del post."
+                >
+                  <legend>1. Pregunta breve sobre el contenido</legend>
+                  <div class="blog-quiz-options">
+                    <label class="blog-quiz-option">
+                      <input type="radio" name="q1" value="a" />
+                      <span>Opcion A</span>
+                    </label>
+                    <label class="blog-quiz-option">
+                      <input type="radio" name="q1" value="b" />
+                      <span>Opcion B</span>
+                    </label>
+                    <label class="blog-quiz-option">
+                      <input type="radio" name="q1" value="c" />
+                      <span>Opcion C</span>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <fieldset
+                  class="blog-quiz-question"
+                  data-quiz-question
+                  data-correct="a"
+                  data-explanation="Mantener dos o tres preguntas es suficiente para un cierre ligero."
+                >
+                  <legend>2. Segunda pregunta</legend>
+                  <div class="blog-quiz-options">
+                    <label class="blog-quiz-option">
+                      <input type="radio" name="q2" value="a" />
+                      <span>Opcion A</span>
+                    </label>
+                    <label class="blog-quiz-option">
+                      <input type="radio" name="q2" value="b" />
+                      <span>Opcion B</span>
+                    </label>
+                    <label class="blog-quiz-option">
+                      <input type="radio" name="q2" value="c" />
+                      <span>Opcion C</span>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <fieldset
+                  class="blog-quiz-question"
+                  data-quiz-question
+                  data-correct="c"
+                  data-explanation="El objetivo del quiz es reforzar comprension y retencion, no alargar el post."
+                >
+                  <legend>3. Tercera pregunta</legend>
+                  <div class="blog-quiz-options">
+                    <label class="blog-quiz-option">
+                      <input type="radio" name="q3" value="a" />
+                      <span>Opcion A</span>
+                    </label>
+                    <label class="blog-quiz-option">
+                      <input type="radio" name="q3" value="b" />
+                      <span>Opcion B</span>
+                    </label>
+                    <label class="blog-quiz-option">
+                      <input type="radio" name="q3" value="c" />
+                      <span>Opcion C</span>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <div class="blog-quiz-actions">
+                  <button class="btn btn-white" type="submit">Corregir mini test</button>
+                  <p class="blog-quiz-result" data-quiz-result aria-live="polite"></p>
+                </div>
+                <div class="blog-quiz-feedback" data-quiz-feedback hidden></div>
+              </form>
             </div>
 
             <div class="blog-cta-card">
