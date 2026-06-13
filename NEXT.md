@@ -20,5 +20,7 @@
 - El `logo-tree.png` pesado ya no se referencia en las paginas espanolas donde seguia vivo.
 - Convencion de blog: los posts nuevos deben publicarse con un unico slug canonico, siempre en minusculas, con guiones y sin acentos ni `ñ`.
 - Si se rescata un post legacy con otra URL historica, se crea una pagina estatica real en `/f/` para ese slug legacy; no se depende de CSV ni de redirects HTML.
+- Convencion tecnica: antes de levantar cualquier proyecto local, comprobar si el puerto objetivo ya esta en uso; si lo esta, arrancar en otro puerto libre en vez de pisar el proceso existente.
+- `playwright.config.js` ya aplica esta regla buscando un puerto libre a partir del `4173` o del valor de `PLAYWRIGHT_PORT`.
 - Evitar redisenos globales; los cambios de producto deben concentrarse primero en `Recursos`.
 - El cierre del ciclo de `Sprachbausteine` ya esta mergeado en `main` mediante el PR `#31`.
