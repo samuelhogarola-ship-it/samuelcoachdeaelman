@@ -3,8 +3,9 @@ const { test, expect } = require("@playwright/test");
 const resourcePages = [
   {
     path: "/recursos/",
-    heading: /recursos para preparar telc y goethe/i,
-    cookieHeading: /tu privacidad importa/i
+    heading: /recursos para aprender alemán con mejor dirección/i,
+    cookieHeading: /tu privacidad importa/i,
+    expectsAppsWidget: false
   },
   {
     path: "/recursos/schreiben/",
@@ -56,7 +57,9 @@ test.describe("resource preview smoke", () => {
 
       await expect(page.locator("h1")).toHaveText(pageDef.heading);
       await expect(page.locator("nav")).toBeVisible();
-      await expect(page.locator(".apps-widget-menu")).toBeVisible();
+      if (pageDef.expectsAppsWidget !== false) {
+        await expect(page.locator(".apps-widget-menu")).toBeVisible();
+      }
       await expect(page.getByRole("heading", { name: pageDef.cookieHeading })).toBeVisible();
 
       await expect(page.locator('meta[name="robots"]')).toHaveAttribute(
