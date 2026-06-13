@@ -9,4 +9,74 @@ RewriteEngine On
 
 # Legacy blog slug with quotes/accents -> exact legacy lassen image
 RewriteRule ^f/el-verbo-.*lassen.*particularidades/?$ /assets/img/originales-samuel/lassen-legacy.png [R=301,L,NC,QSD]
+
+# Legacy /f/ blog slugs -> current canonical posts
+RewriteCond %{REQUEST_URI} ^/f/trennbare-verben-en-alem%C3%A1n-verbos-separables-y-no-separables/?$ [NC]
+RewriteRule ^ /f/trennbare-verben-en-aleman-verbos-separables-y-no-separables/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/la-negaci%C3%B3n-en-alem%C3%A1n-die-negation-im-deutschen/?$ [NC]
+RewriteRule ^ /f/la-negacion-en-aleman-die-negation-im-deutschen/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/jemand-niemand-y-keiner-usos-y-diferencias-en-alem%C3%A1n/?$ [NC]
+RewriteRule ^ /f/jemand-niemand-y-keiner-usos-y-diferencias-en-aleman/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/verbos-de-dativo-en-alem%C3%A1n-dativ-verben/?$ [NC]
+RewriteRule ^ /f/verbos-de-dativo-en-aleman-dativ-verben/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/demonstrativpronomen-los-pronombres-demostrativos-en-alem%C3%A1n/?$ [NC]
+RewriteRule ^ /f/demonstrativpronomen-los-pronombres-demostrativos-en-aleman/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/los-art%C3%ADculos-posesivos-en-alem%C3%A1n-possessivartikel-auf-deutsch/?$ [NC]
+RewriteRule ^ /f/los-articulos-posesivos-en-aleman-possessivartikel-auf-deutsch/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/la-declinaci%C3%B3n-del-adjetivo-en-alem%C3%A1n-adjektivdeklination/?$ [NC]
+RewriteRule ^ /f/la-declinacion-del-adjetivo-en-aleman-adjektivdeklination/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/las-w-fragen-en-alem%C3%A1n/?$ [NC]
+RewriteRule ^ /f/las-w-fragen-en-aleman/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/indirekte-fragen-preguntas-indirectas-en-alem%C3%A1n/?$ [NC]
+RewriteRule ^ /f/indirekte-fragen-preguntas-indirectas-en-aleman/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/konjunktiv-2-en-alem%C3%A1n/?$ [NC]
+RewriteRule ^ /f/konjunktiv-2-en-aleman/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/la-voz-pasiva-con-verbos-modales-en-alem%C3%A1n-passiv-mit-modalverben/?$ [NC]
+RewriteRule ^ /f/la-voz-pasiva-con-verbos-modales-en-aleman-passiv-mit-modalverben/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/el-imperativo-en-alem%C3%A1n/?$ [NC]
+RewriteRule ^ /f/el-imperativo-en-aleman/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/partizip-2-en-alem%C3%A1n-la-formaci%C3%B3n-del-participio/?$ [NC]
+RewriteRule ^ /f/partizip-2-en-aleman-la-formacion-del-participio/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/wo-wohin-en-alem%C3%A1n-complementos-de-lugar/?$ [NC]
+RewriteRule ^ /f/wo-wohin-en-aleman-complementos-de-lugar/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/pronombres-personales-en-alem%C3%A1n-personal-pronomen/?$ [NC]
+RewriteRule ^ /f/pronombres-personales-en-aleman-personal-pronomen/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/la-hora-en-aleman-die-uhrzeit/?$ [NC]
+RewriteRule ^ /f/la-hora-en-aleman-die-uhrzeit/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/der-die-das-los-generos-en-aleman/?$ [NC]
+RewriteRule ^ /f/der-die-das-los-generos-en-aleman/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/vor-vorher-bevor/?$ [NC]
+RewriteRule ^ /f/vor-vorher-bevor/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/redemittel-b1-b2-und-c1/?$ [NC]
+RewriteRule ^ /f/redemittel-b1-b2-und-c1/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/como-aprobar-el-sprechen-b1b2-o-c1-en-aleman-usando-redemittel/?$ [NC]
+RewriteRule ^ /f/como-aprobar-el-sprechen-b1b2-o-c1-en-aleman-usando-redemittel/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/tekamolo-2-0-en-aleman-satzbau/?$ [NC]
+RewriteRule ^ /f/tekamolo-2-0-en-aleman-satzbau/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/haeufigkeitsadverbien-en-aleman/?$ [NC]
+RewriteRule ^ /f/haeufigkeitsadverbien-en-aleman/ [R=301,L,QSD]
+
+RewriteCond %{REQUEST_URI} ^/f/partizip-1-vs-partizip-2-en-aleman/?$ [NC]
+RewriteRule ^ /f/partizip-1-vs-partizip-2-en-aleman/ [R=301,L,QSD]
 </IfModule>
