@@ -287,11 +287,39 @@ const initOfferForms = () => {
     }
   };
   const copy = validationCopy[locale] || validationCopy.es;
+  const submitCopy = {
+    es: {
+      sending: "Enviando...",
+      success: "Mensaje enviado. Te responderé lo antes posible.",
+      error: "No se pudo enviar el formulario ahora mismo. Escríbeme por WhatsApp o inténtalo de nuevo en unos minutos."
+    },
+    de: {
+      sending: "Wird gesendet...",
+      success: "Nachricht gesendet. Ich antworte dir so schnell wie möglich.",
+      error: "Das Formular konnte gerade nicht gesendet werden. Schreib mir per WhatsApp oder versuche es in ein paar Minuten erneut."
+    },
+    en: {
+      sending: "Sending...",
+      success: "Message sent. I will get back to you as soon as possible.",
+      error: "The form could not be sent right now. Please message me on WhatsApp or try again in a few minutes."
+    }
+  };
+  const submitText = submitCopy[locale] || submitCopy.es;
 
   forms.forEach((form) => {
     const requiredFields = Array.from(
       form.querySelectorAll("input[required], select[required], textarea[required]")
     );
+    const submitButton = form.querySelector('button[type="submit"]');
+    const defaultButtonLabel = submitButton ? submitButton.textContent : "";
+    let statusNode = form.querySelector(".form-status");
+
+    if (!statusNode) {
+      statusNode = document.createElement("p");
+      statusNode.className = "form-status";
+      statusNode.setAttribute("aria-live", "polite");
+      form.appendChild(statusNode);
+    }
 
     const setFieldError = (field, message) => {
       const errorId = field.getAttribute("aria-describedby");
@@ -308,7 +336,7 @@ const initOfferForms = () => {
       field.addEventListener("change", resetField);
     });
 
-    form.addEventListener("submit", (event) => {
+    form.addEventListener("submit", async (event) => {
       const missingLabels = [];
 
       requiredFields.forEach((field) => {
@@ -325,10 +353,141 @@ const initOfferForms = () => {
         }
       });
 
-      if (!missingLabels.length) return;
+      if (missingLabels.length) {
+        event.preventDefault();
+        if (statusNode) {
+          statusNode.textContent = "";
+          statusNode.classList.remove("is-success", "is-error");
+        }
+        window.alert(`${copy.title}\n\n- ${missingLabels.join("\n- ")}`);
+        return;
+      }
+
+      const action = form.getAttribute("action") || "";
+      if (!action.includes("formsubmit.co")) return;
 
       event.preventDefault();
-      window.alert(`${copy.title}\n\n- ${missingLabels.join("\n- ")}`);
+
+      if (statusNode) {
+        statusNode.textContent = submitText.sending;
+        statusNode.classList.remove("is-success", "is-error");
+      }
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = submitText.sending;
+      }
+
+      try {
+        const actionUrl = new URL(action, window.location.href);
+        const ajaxUrl = `${actionUrl.origin}/ajax${actionUrl.pathname}`;
+        const response = await fetch(ajaxUrl, {
+          method: "POST",
+          headers: {
+            Accept: "application/json"
+          },
+          body: new FormData(form)
+        });
+
+        if (!response.ok) {
+          throw new Error(`Unexpected response status: ${response.status}`);
+        }
+
+        const payload = await response.json();
+        if (payload.success !== "true" && payload.success !== true) {
+          throw new Error("FormSubmit did not confirm success.");
+        }
+
+        form.reset();
+        requiredFields.forEach((field) => setFieldError(field, ""));
+        if (statusNode) {
+          statusNode.textContent = submitText.success;
+          statusNode.classList.remove("is-error");
+          statusNode.classList.add("is-success");
+        }
+      } catch (_error) {
+        if (statusNode) {
+          statusNode.textContent = submitText.error;
+          statusNode.classList.remove("is-success");
+          statusNode.classList.add("is-error");
+        }
+      } finally {
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.textContent = defaultButtonLabel;
+        }
+      }
+    });
+  });
+};
+
+const initBlogQuiz = () => {
+  const quizForms = document.querySelectorAll("[data-blog-quiz]");
+  if (!quizForms.length) return;
+
+  quizForms.forEach((form) => {
+    const result = form.querySelector("[data-quiz-result]");
+    const feedback = form.querySelector("[data-quiz-feedback]");
+    const questions = Array.from(form.querySelectorAll("[data-quiz-question]"));
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      let score = 0;
+      let missingAnswer = false;
+
+      if (feedback) {
+        feedback.innerHTML = "";
+        feedback.hidden = true;
+      }
+
+      questions.forEach((question, index) => {
+        const correctValue = question.getAttribute("data-correct");
+        const checked = question.querySelector('input[type="radio"]:checked');
+        const options = question.querySelectorAll(".blog-quiz-option");
+
+        options.forEach((option) => {
+          option.classList.remove("is-correct", "is-wrong");
+        });
+
+        if (!checked) {
+          missingAnswer = true;
+          return;
+        }
+
+        const selectedOption = checked.closest(".blog-quiz-option");
+        const correctOption = question.querySelector(
+          `input[type="radio"][value="${correctValue}"]`
+        )?.closest(".blog-quiz-option");
+
+        if (checked.value === correctValue) {
+          score += 1;
+          if (selectedOption) selectedOption.classList.add("is-correct");
+        } else {
+          if (selectedOption) selectedOption.classList.add("is-wrong");
+          if (correctOption) correctOption.classList.add("is-correct");
+        }
+
+        if (feedback) {
+          const item = document.createElement("div");
+          item.className = "blog-quiz-feedback-item";
+          item.innerHTML = `<strong>Pregunta ${index + 1}.</strong> ${question.getAttribute("data-explanation") || ""}`;
+          feedback.appendChild(item);
+        }
+      });
+
+      if (missingAnswer) {
+        if (result) {
+          result.textContent = "Completa las tres preguntas antes de corregir.";
+          result.classList.add("is-error");
+        }
+        return;
+      }
+
+      if (result) {
+        result.textContent = `Resultado: ${score} de ${questions.length} correctas.`;
+        result.classList.remove("is-error");
+      }
+      if (feedback) feedback.hidden = false;
     });
   });
 };
@@ -337,3 +496,4 @@ initCookieBanner();
 initAppsWidgetPreference();
 initLocaleSwitcher();
 initOfferForms();
+initBlogQuiz();

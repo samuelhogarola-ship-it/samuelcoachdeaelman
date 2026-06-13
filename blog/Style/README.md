@@ -2,6 +2,18 @@
 
 Esta carpeta define la linea base para crear nuevos posts del blog con una misma estructura, el mismo tono visual y una maquetacion coherente con los posts ya integrados en `/f/`.
 
+## Direccion visual
+
+La linea del blog debe sentirse:
+
+- minimalista
+- sobria
+- premium
+- clara
+- centrada en blancos, grafito suave y verde azulado de marca
+
+No introducir morados ni combinaciones oscuras ajenas al sistema actual.
+
 ## Objetivo
 
 Usar siempre el mismo esqueleto para que:
@@ -42,12 +54,14 @@ Todo post nuevo debe mantener este orden:
    - `h1`
    - lead
    - meta
-   - imagen destacada
+   - imagen destacada principal
 8. Resumen inicial con `div.blog-summary-card`.
 9. Cuerpo del contenido en bloques claros con `h2` y, si hace falta, `h3`.
-10. CTA final con `div.blog-cta-card`.
-11. Relacionados.
-12. `aside.blog-post-aside` con ayuda de navegacion o conversion.
+10. Imagen secundaria dentro del desarrollo.
+11. Mini ejercicio multiple choice al final.
+12. CTA final con `div.blog-cta-card`.
+13. Relacionados.
+14. `aside.blog-post-aside` con ayuda de navegacion o conversion.
 
 ## Bloques recomendados
 
@@ -59,6 +73,8 @@ Estos bloques ya existen en posts publicados y conviene reutilizarlos antes de i
 - `blog-error-list` y `blog-error-item` para errores frecuentes
 - `blog-example-grid` y `blog-example-box` para ejemplos comparados
 - `blog-visual-card` para explicaciones con apoyo visual
+- `blog-post-figure` para la imagen secundaria y su caption
+- `blog-quiz-card` para el mini ejercicio final
 - `blog-cta-card` para cierre comercial o paso siguiente
 - `blog-related-wrap`, `blog-related-grid` y `blog-related-card` para enlazado interno
 - `blog-side-card` para bloques del lateral
@@ -71,7 +87,11 @@ Estos bloques ya existen en posts publicados y conviene reutilizarlos antes de i
 - Priorizar bloques cortos y visuales frente a parrafos largos.
 - Cada seccion importante debe tener un `h2`.
 - Las tablas deben ir dentro de `blog-table-wrap`.
+- Todo post nuevo debe llevar dos imagenes de calidad alineadas con la marca:
+  - una principal arriba
+  - una secundaria dentro del desarrollo
 - Si hay listas de errores o diferencias, usar los componentes de errores o ejemplos.
+- El post debe cerrar con un mini quiz multiple choice para reforzar retencion.
 - El CTA final debe enlazar a una accion real del sitio.
 
 ## Reglas de copy
@@ -91,7 +111,8 @@ Cada post nuevo debe salir con:
 - `link rel="canonical"`
 - Open Graph basico
 - `script type="application/ld+json"` tipo `Article`
-- imagen destacada con `alt` descriptivo
+- imagen principal con `alt` descriptivo
+- imagen secundaria con `alt` descriptivo
 - enlazado interno a 2 o 3 posts relacionados
 
 ## Flujo recomendado
@@ -100,13 +121,15 @@ Cada post nuevo debe salir con:
 2. Rellenar metadatos.
 3. Sustituir el contenido de ejemplo por el tema real.
 4. Mantener las clases existentes.
-5. Revisar que haya resumen, CTA y relacionados.
-6. Comprobar que la URL, canonical y breadcrumbs coinciden.
+5. Añadir imagen principal, imagen secundaria y quiz final.
+6. Revisar que haya resumen, CTA y relacionados.
+7. Comprobar que la URL, canonical y breadcrumbs coinciden.
 
 ## No hacer
 
 - No mezclar estructuras distintas entre posts.
 - No cambiar clases base si no es necesario.
 - No publicar posts sin resumen inicial ni CTA final.
+- No publicar posts sin segunda imagen ni quiz final.
 - No dejar el lateral vacio si el resto de posts similares lo usan.
 - No crear componentes nuevos si ya existe uno valido en `/f/`.
