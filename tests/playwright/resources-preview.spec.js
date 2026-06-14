@@ -20,7 +20,8 @@ const resourcePages = [
   {
     path: "/de/recursos/",
     heading: /ressourcen für telc und goethe/i,
-    cookieHeading: /deine privatsphäre ist wichtig/i
+    cookieHeading: /deine privatsphäre ist wichtig/i,
+    expectsAppsWidget: false
   },
   {
     path: "/de/recursos/schreiben/",
@@ -35,7 +36,8 @@ const resourcePages = [
   {
     path: "/en/recursos/",
     heading: /resources for telc and goethe/i,
-    cookieHeading: /your privacy matters/i
+    cookieHeading: /your privacy matters/i,
+    expectsAppsWidget: false
   },
   {
     path: "/en/recursos/schreiben/",

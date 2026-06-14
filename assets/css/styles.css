@@ -4785,13 +4785,27 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
     padding-inline: 20px;
   }
 
-  .home-page .nav-links,
-  .home-page .lang-switch {
+  .home-page .nav-links {
     display: none;
+  }
+
+  .home-page .lang-switch {
+    display: inline-flex;
+    order: 2;
+    margin-left: auto;
+    margin-right: 4px;
+    padding: 3px;
+    gap: 2px;
+  }
+
+  .home-page .lang-switch-link {
+    font-size: 0.72rem;
+    padding: 6px 9px;
   }
 
   .home-page .hamburger {
     display: inline-flex;
+    order: 3;
   }
 
   .home-needs-grid,
