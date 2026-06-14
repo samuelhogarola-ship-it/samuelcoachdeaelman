@@ -124,7 +124,7 @@ if (hamburger && mobileMenu) {
   });
 
   window.addEventListener("resize", () => {
-    if (window.innerWidth > 860) closeMenu();
+    if (window.innerWidth > 980) closeMenu();
   });
 
   document.addEventListener("keydown", (event) => {
@@ -171,6 +171,60 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
     scrollToHashTarget(hash);
   });
 });
+
+const initHomeGoalPrefill = () => {
+  const cards = document.querySelectorAll(".home-need-card[data-goal]");
+  if (!cards.length) return;
+
+  cards.forEach((card) => {
+    card.addEventListener("click", (event) => {
+      if (card.getAttribute("href") !== "#valoracion") return;
+
+      const goal = card.dataset.goal;
+      const form = document.querySelector("#valoracion .offer-form");
+      const goalField = form?.querySelector('select[name="goal"]');
+      const nameField = form?.querySelector('input[name="name"]');
+
+      if (goalField) {
+        goalField.value = goal;
+        goalField.dispatchEvent(new Event("change", { bubbles: true }));
+      }
+
+      event.preventDefault();
+      history.pushState(null, "", "#valoracion");
+      scrollToHashTarget("#valoracion");
+
+      window.setTimeout(() => {
+        if (nameField) nameField.focus({ preventScroll: true });
+      }, 420);
+    });
+  });
+};
+
+const initMobileStickyCtaGuard = () => {
+  const stickyCta = document.querySelector(".mobile-sticky-cta");
+  const formSection = document.querySelector("#valoracion");
+  const form = formSection?.querySelector(".offer-form");
+  if (!stickyCta || !formSection) return;
+
+  const updateStickyState = () => {
+    const formRect = formSection.getBoundingClientRect();
+    const isNearForm =
+      formRect.top < window.innerHeight - 150 &&
+      formRect.bottom > 180;
+    const isFormFocused = !!form && form.contains(document.activeElement);
+
+    stickyCta.classList.toggle("is-hidden", isNearForm || isFormFocused);
+  };
+
+  updateStickyState();
+  window.addEventListener("scroll", updateStickyState, { passive: true });
+  window.addEventListener("resize", updateStickyState);
+  document.addEventListener("focusin", updateStickyState);
+  document.addEventListener("focusout", () => {
+    window.setTimeout(updateStickyState, 20);
+  });
+};
 
 window.addEventListener("load", () => {
   if (window.location.hash) {
@@ -495,5 +549,7 @@ const initBlogQuiz = () => {
 initCookieBanner();
 initAppsWidgetPreference();
 initLocaleSwitcher();
+initHomeGoalPrefill();
+initMobileStickyCtaGuard();
 initOfferForms();
 initBlogQuiz();
