@@ -4636,6 +4636,55 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   line-height: 1.55;
 }
 
+.home-brand {
+  padding-top: 40px;
+}
+
+.home-brand-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(79,155,224,.12);
+  color: var(--home-accent-deep);
+  font-family: "Cabin", Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.home-brand-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.home-brand-card {
+  display: grid;
+  gap: 10px;
+  min-height: 184px;
+  padding: 24px;
+  border-radius: 28px;
+  border: 1px solid rgba(19,33,43,.08);
+  background: linear-gradient(180deg, rgba(255,255,255,.98), rgba(237,245,255,.78));
+  box-shadow: 0 20px 45px rgba(16, 37, 63, 0.08);
+}
+
+.home-brand-card strong {
+  font-family: "Cabin", Arial, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+}
+
+.home-brand-card span {
+  color: var(--home-ink-soft);
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
 .home-about {
   padding-top: 56px;
 }
@@ -4932,6 +4981,7 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
 
   .home-needs-grid,
   .home-proof-grid,
+  .home-brand-grid,
   .home-resource-mosaic {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -5072,6 +5122,7 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   }
 
   .home-proof-grid,
+  .home-brand-grid,
   .home-resource-mosaic {
     grid-template-columns: 1fr;
   }
