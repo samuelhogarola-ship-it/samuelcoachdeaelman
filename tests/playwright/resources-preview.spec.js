@@ -20,7 +20,8 @@ const resourcePages = [
   {
     path: "/de/recursos/",
     heading: /ressourcen für telc und goethe/i,
-    cookieHeading: /deine privatsphäre ist wichtig/i
+    cookieHeading: /deine privatsphäre ist wichtig/i,
+    expectsAppsWidget: false
   },
   {
     path: "/de/recursos/schreiben/",
