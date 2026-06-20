@@ -4399,7 +4399,7 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   margin: 0;
   min-height: clamp(640px, 80vh, 780px);
   align-self: stretch;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .home-hero-media::before,
@@ -4426,13 +4426,13 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
 
 .home-hero-photo {
   position: absolute;
-  right: -36px;
+  right: 0;
   bottom: 0;
   width: min(100%, 760px);
   height: 98%;
   object-fit: cover;
-  object-position: center 4%;
-  transform: scale(1);
+  object-position: center top;
+  transform: translateY(52px);
   filter: saturate(1.02) contrast(1.02);
   -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.6) 14%, #000 28%, #000 84%, rgba(0,0,0,.82) 92%, transparent 100%), linear-gradient(180deg, rgba(0,0,0,.86) 0%, #000 10%, #000 80%, rgba(0,0,0,.5) 92%, transparent 100%);
   mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.6) 14%, #000 28%, #000 84%, rgba(0,0,0,.82) 92%, transparent 100%), linear-gradient(180deg, rgba(0,0,0,.86) 0%, #000 10%, #000 80%, rgba(0,0,0,.5) 92%, transparent 100%);
@@ -5027,7 +5027,7 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
     width: min(100vw, 470px);
     height: 92%;
     transform: translateX(50%) scale(1);
-    object-position: center 4%;
+    object-position: center 14%;
     -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.56) 12%, #000 24%, #000 82%, rgba(0,0,0,.78) 92%, transparent 100%), linear-gradient(180deg, rgba(0,0,0,.72) 0%, #000 10%, #000 82%, rgba(0,0,0,.4) 94%, transparent 100%);
     mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.56) 12%, #000 24%, #000 82%, rgba(0,0,0,.78) 92%, transparent 100%), linear-gradient(180deg, rgba(0,0,0,.72) 0%, #000 10%, #000 82%, rgba(0,0,0,.4) 94%, transparent 100%);
   }
