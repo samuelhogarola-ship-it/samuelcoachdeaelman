@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "prepare": "husky",
+    "lint": "eslint .",
     "build:i18n": "node scripts/generate-localized-pages.mjs && node leseverstehen/generate-pages.js && node sprachbausteine/generate-pages.js",
     "test:e2e:smoke": "playwright test tests/playwright/resources-preview.spec.js --reporter=line",
     "test:e2e": "playwright test",
@@ -10,7 +11,10 @@
     "test:e2e:ui": "playwright test --ui"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.54.0",
+    "eslint": "^10.5.0",
+    "globals": "^17.6.0",
     "husky": "^9.1.7"
   }
 }
