@@ -4478,7 +4478,7 @@ footer { background: #0f2260; color: rgba(255,255,255,.65); padding: 36px 24px; 
 .home-section-head p,
 .home-assessment-copy p,
 .home-about-copy p {
-  margin: 0;
+  margin: 16px 0 0;
   max-width: 42rem;
   color: var(--home-ink-soft);
   font-size: 0.92rem;
@@ -4608,6 +4608,21 @@ footer { background: #0f2260; color: rgba(255,255,255,.65); padding: 36px 24px; 
   color: #667884;
   font-size: 0.9rem;
   line-height: 1.55;
+}
+
+.form-faq-hint {
+  margin: 10px 0 0;
+  text-align: right;
+  font-size: 0.78rem;
+  color: #9aabb5;
+}
+.form-faq-hint a {
+  color: #9aabb5;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.form-faq-hint a:hover {
+  color: var(--home-ink-soft);
 }
 
 .home-proof {
