@@ -5472,3 +5472,102 @@ body.is-leaving {
 @media (prefers-reduced-motion: reduce) {
   body, body.is-leaving { animation: none; }
 }
+
+/* ─── Schreiben exercises ────────────────────────────────────────── */
+
+/* Badges de modalidad */
+.schreib-badge { display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .04em; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; }
+.schreib-badge--telc    { background: #e8f0fe; color: #1a3a8c; }
+.schreib-badge--goethe  { background: #fff3e0; color: #b45309; }
+.schreib-badge--eoi     { background: #e8f5e9; color: #2e7d32; }
+.schreib-badge--formal  { background: #f3e8ff; color: #6b21a8; }
+.schreib-badge--informal { background: #fce7f3; color: #9d174d; }
+
+/* Row de meta en hero */
+.schreib-meta-row { display: flex; align-items: center; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+.schreib-meta-item { font-size: .82rem; color: var(--home-ink-soft, #546e7a); }
+
+/* Layout del ejercicio */
+.schreib-layout { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; padding-bottom: 60px; }
+
+/* Situación / contexto */
+.schreib-context { background: #f8f9fa; border-left: 3px solid var(--teal); border-radius: 0 8px 8px 0; padding: 18px 22px; }
+.schreib-context__label { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--teal); margin-bottom: 8px; }
+.schreib-context em { font-style: italic; color: #455a64; }
+.schreib-context strong { font-weight: 700; }
+
+/* Aufgabe */
+.schreib-aufgabe { background: #eef3ff; border: 1.5px solid #c5d3f5; border-radius: 10px; padding: 20px 24px; }
+.schreib-aufgabe__label { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #1a3a8c; margin-bottom: 8px; }
+.schreib-aufgabe p { font-weight: 600; color: #1a2a4a; margin-bottom: 12px; }
+.schreib-punkte { padding-left: 18px; display: flex; flex-direction: column; gap: 6px; }
+.schreib-punkte li { font-size: .94rem; color: #2a3a5a; line-height: 1.5; }
+
+/* Textarea */
+.schreib-area { display: flex; flex-direction: column; gap: 8px; }
+.schreib-area__label { font-weight: 600; font-size: .9rem; color: var(--dark); }
+.schreib-textarea {
+  width: 100%; border: 1.5px solid #d0d7e4; border-radius: 10px;
+  padding: 16px; font-family: inherit; font-size: .97rem; line-height: 1.7;
+  color: var(--dark); background: #fff; resize: vertical; min-height: 220px;
+  transition: border-color .18s ease, box-shadow .18s ease;
+}
+.schreib-textarea:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px rgba(42,111,183,.12); }
+.schreib-wordcount { font-size: .82rem; color: #78909c; display: flex; gap: 8px; align-items: center; }
+.schreib-wordcount__n { font-weight: 700; font-size: .95rem; color: #90a4ae; transition: color .2s; }
+.schreib-wordcount__n.is-low  { color: #f59e0b; }
+.schreib-wordcount__n.is-ok   { color: #22c55e; }
+.schreib-wordcount__n.is-high { color: #ef4444; }
+.schreib-wordcount__guide { color: #b0bec5; }
+
+/* Tips */
+.schreib-tips { border: 1px solid #e2e8f0; border-radius: 10px; overflow: hidden; }
+.schreib-tips summary { padding: 14px 20px; font-weight: 600; font-size: .9rem; cursor: pointer; color: var(--teal); background: #f8fafc; user-select: none; }
+.schreib-tips summary:hover { background: #eef3ff; }
+.schreib-tips ul { padding: 16px 20px 16px 36px; display: flex; flex-direction: column; gap: 8px; }
+.schreib-tips li { font-size: .9rem; color: #455a64; line-height: 1.55; }
+.schreib-tips em { font-style: normal; background: #f0f4ff; border-radius: 4px; padding: 1px 5px; font-size: .88rem; font-family: 'Courier New', monospace; color: #1a3a8c; }
+
+/* Criterios */
+.schreib-criterios { background: #fff; border: 1px solid #e8ecf2; border-radius: 10px; padding: 20px 24px; }
+.schreib-criterios__title { font-size: 1rem; font-weight: 700; margin-bottom: 12px; color: var(--dark); }
+.schreib-criterios__list { padding-left: 18px; display: flex; flex-direction: column; gap: 6px; }
+.schreib-criterios__list li { font-size: .88rem; color: #546e7a; line-height: 1.5; }
+
+/* Premium AI block */
+.schreib-premium { background: linear-gradient(135deg, #0f1f4a 0%, #1a3a8c 100%); border-radius: 14px; padding: 2px; }
+.schreib-premium__inner { background: linear-gradient(135deg, #0d1b3e 0%, #162f6f 100%); border-radius: 12px; padding: 32px 28px; text-align: center; }
+.schreib-premium__icon { font-size: 1.6rem; color: #fbbf24; margin-bottom: 12px; }
+.schreib-premium__title { font-size: 1.2rem; font-weight: 700; color: #fff; margin-bottom: 10px; }
+.schreib-premium__desc { font-size: .92rem; color: #94a3b8; line-height: 1.65; margin-bottom: 20px; max-width: 500px; margin-left: auto; margin-right: auto; }
+.schreib-premium__tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 22px; }
+.schreib-premium__tags span { font-size: .75rem; background: rgba(255,255,255,.08); color: #cbd5e1; border-radius: 20px; padding: 4px 12px; border: 1px solid rgba(255,255,255,.1); }
+.schreib-premium__btn { background: #fbbf24; color: #0d1b3e; font-weight: 700; border-radius: 30px; padding: 12px 28px; border: none; text-decoration: none; display: inline-block; transition: background .18s ease, transform .15s ease; }
+.schreib-premium__btn:hover { background: #f59e0b; transform: translateY(-1px); }
+.schreib-premium__note { font-size: .75rem; color: #64748b; margin-top: 14px; }
+
+/* Nav bottom */
+.schreib-nav-bottom { display: flex; gap: 12px; flex-wrap: wrap; }
+
+/* Hub de Schreiben: lista de ejercicios por modalidad */
+.schreib-hub-section { margin-bottom: 48px; }
+.schreib-hub-title { font-size: 1.1rem; font-weight: 700; color: var(--dark); margin-bottom: 6px; }
+.schreib-hub-sub { font-size: .88rem; color: #78909c; margin-bottom: 18px; }
+.schreib-hub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.schreib-card { display: flex; flex-direction: column; gap: 8px; padding: 18px 20px; border: 1px solid #e2e8f0; border-radius: 10px; background: #fff; text-decoration: none; transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease; }
+.schreib-card:hover { border-color: var(--teal); box-shadow: 0 4px 16px rgba(42,111,183,.1); transform: translateY(-2px); }
+.schreib-card__badges { display: flex; gap: 6px; flex-wrap: wrap; }
+.schreib-card__title { font-weight: 700; font-size: .97rem; color: var(--dark); }
+.schreib-card__desc { font-size: .84rem; color: #78909c; line-height: 1.5; }
+.schreib-card__meta { font-size: .78rem; color: #90a4ae; margin-top: 2px; }
+
+/* Hero variant para schreiben */
+.page-hero--schreiben { background: linear-gradient(135deg, #f0f4ff 0%, #e8effe 100%); }
+.page-hero--schreiben h1 { color: #0d1b3e; }
+
+@media (max-width: 600px) {
+  .schreib-layout { padding-bottom: 40px; }
+  .schreib-premium__inner { padding: 24px 18px; }
+  .schreib-nav-bottom { flex-direction: column; }
+  .schreib-hub-grid { grid-template-columns: 1fr; }
+}

@@ -10,7 +10,8 @@ const resourcePages = [
   {
     path: "/recursos/schreiben/",
     heading: /^schreiben$/i,
-    cookieHeading: /tu privacidad importa/i
+    cookieHeading: /tu privacidad importa/i,
+    expectsAppsWidget: false
   },
   {
     path: "/recursos/hoerverstehen/",
@@ -26,7 +27,8 @@ const resourcePages = [
   {
     path: "/de/recursos/schreiben/",
     heading: /^schreiben$/i,
-    cookieHeading: /deine privatsphäre ist wichtig/i
+    cookieHeading: /deine privatsphäre ist wichtig/i,
+    expectsAppsWidget: false
   },
   {
     path: "/de/recursos/hoerverstehen/",
@@ -42,7 +44,8 @@ const resourcePages = [
   {
     path: "/en/recursos/schreiben/",
     heading: /^writing$/i,
-    cookieHeading: /your privacy matters/i
+    cookieHeading: /your privacy matters/i,
+    expectsAppsWidget: false
   },
   {
     path: "/en/recursos/hoerverstehen/",

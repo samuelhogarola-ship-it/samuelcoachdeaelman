@@ -27,6 +27,14 @@
     if (parts[0] === 'recursos' && parts[1] === 'sprachbausteine' && parts[2] && parts[3]) {
       return { tipo: 'sprachbausteine', nivel: parts[2], slug: parts[3] };
     }
+    // /recursos/schreiben/{modalidad}/{nivel}/{slug}/
+    if (parts[0] === 'recursos' && parts[1] === 'schreiben' && parts[2] && parts[3] && parts[4]) {
+      return { tipo: `schreiben-${parts[2]}`, nivel: parts[3], slug: parts[4] };
+    }
+    // /recursos/hoerverstehen/{nivel}/{slug}/
+    if (parts[0] === 'recursos' && parts[1] === 'hoerverstehen' && parts[2] && parts[3]) {
+      return { tipo: 'hoerverstehen', nivel: parts[2], slug: parts[3] };
+    }
     return null;
   }
 
