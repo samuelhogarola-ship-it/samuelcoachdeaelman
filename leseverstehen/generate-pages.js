@@ -53,7 +53,7 @@ const LOCALES = {
       companies: 'Alemán para empresas',
       school: 'Alemán escolar',
       methodology: 'Metodología',
-      faq: 'FAQs',
+      faq: 'Preguntas frecuentes',
       practice: 'Practicar alemán',
       privacy: 'Política de privacidad',
       rights: 'Todos los derechos reservados.',
