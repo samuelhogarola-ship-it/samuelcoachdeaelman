@@ -5449,3 +5449,26 @@ footer { background: #0f2260; color: rgba(255,255,255,.65); padding: 36px 24px; 
   font-size: 1rem;
   line-height: 1;
 }
+
+/* ─── Page transitions — Fade + Slight Up ───────────────────────── */
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes page-leave {
+  from { opacity: 1; transform: none; }
+  to   { opacity: 0; transform: translateY(-7px); }
+}
+
+body {
+  animation: page-enter .34s cubic-bezier(.22,.68,0,1.1) both;
+}
+
+body.is-leaving {
+  animation: page-leave .2s ease both;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body, body.is-leaving { animation: none; }
+}

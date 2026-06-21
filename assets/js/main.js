@@ -546,6 +546,30 @@ const initBlogQuiz = () => {
   });
 };
 
+function initPageTransitions() {
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a");
+    if (!a) return;
+    const href = a.getAttribute("href");
+    if (!href) return;
+    if (a.target === "_blank") return;
+    if (a.hasAttribute("download")) return;
+    if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+    if (href.startsWith("#")) return;
+    try {
+      const url = new URL(href, location.href);
+      if (url.origin !== location.origin) return;
+      if (url.pathname === location.pathname && url.hash) return;
+    } catch (_e) { return; }
+    e.preventDefault();
+    document.body.classList.add("is-leaving");
+    setTimeout(() => { location.href = href; }, 200);
+  });
+  window.addEventListener("pageshow", (e) => {
+    if (e.persisted) document.body.classList.remove("is-leaving");
+  });
+}
+
 initCookieBanner();
 initAppsWidgetPreference();
 initLocaleSwitcher();
@@ -553,3 +577,4 @@ initHomeGoalPrefill();
 initMobileStickyCtaGuard();
 initOfferForms();
 initBlogQuiz();
+initPageTransitions();
