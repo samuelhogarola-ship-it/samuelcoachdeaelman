@@ -53,7 +53,7 @@ const LOCALES = {
       companies: 'Alemán para empresas',
       school: 'Alemán escolar',
       methodology: 'Metodología',
-      faq: 'FAQs',
+      faq: 'Preguntas frecuentes',
       practice: 'Practicar alemán',
       privacy: 'Política de privacidad',
       rights: 'Todos los derechos reservados.',
@@ -551,6 +551,7 @@ ${makeFooter(locale)}
   <script>
     renderLectura(document.getElementById('lese-leer-root'), '${texto.slug}');
   </script>
+  <script src="/assets/js/progress-tracker.js" defer></script>
 </body>
 </html>
 `;

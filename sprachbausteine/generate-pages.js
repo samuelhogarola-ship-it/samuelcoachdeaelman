@@ -201,7 +201,7 @@ const LOCALES = {
       companies: "Alemán para empresas",
       school: "Alemán escolar",
       methodology: "Metodología",
-      faq: "FAQs",
+      faq: "Preguntas frecuentes",
       privacy: "Política de privacidad",
       rights: "Todos los derechos reservados.",
       openMenu: "Abrir menú",
@@ -1240,6 +1240,7 @@ function buildPage(locale, options) {
   <script src="/assets/js/main.js" defer></script>
   <script src="/assets/js/lueckentext-data.js?v=${JS_VERSION}" defer></script>
   <script src="/assets/js/lueckentext.js?v=${JS_VERSION}" defer></script>
+  <script src="/assets/js/progress-tracker.js" defer></script>
 </body>
 </html>`;
 }
