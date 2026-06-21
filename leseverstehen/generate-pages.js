@@ -551,6 +551,7 @@ ${makeFooter(locale)}
   <script>
     renderLectura(document.getElementById('lese-leer-root'), '${texto.slug}');
   </script>
+  <script src="/assets/js/progress-tracker.js" defer></script>
 </body>
 </html>
 `;
