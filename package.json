@@ -13,6 +13,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.54.0",
+    "@supabase/supabase-js": "^2.108.2",
     "eslint": "^10.5.0",
     "globals": "^17.6.0",
     "husky": "^9.1.7"
