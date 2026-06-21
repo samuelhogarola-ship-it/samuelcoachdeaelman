@@ -3758,6 +3758,14 @@ footer { background: #0f2260; color: rgba(255,255,255,.65); padding: 36px 24px; 
   z-index: 1;
 }
 
+.premium-about-page .premium-portrait {
+  width: auto;
+  height: 94%;
+  max-width: min(100%, 640px);
+  object-fit: contain;
+  object-position: center bottom;
+}
+
 .premium-page .resource-logo-panel {
   width: min(100%, 520px);
   min-height: 100%;
