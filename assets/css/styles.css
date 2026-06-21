@@ -5,9 +5,9 @@
   --teal-dark: #1d558d;
   --teal-light: #4f9be0;
   --teal-pale: #edf5ff;
-  --nav-bg: #15263d;
-  --nav-hover: #1d3553;
-  --dark: #14263d;
+  --nav-bg: #1a3a8c;
+  --nav-hover: #1e46a8;
+  --dark: #0f2260;
   --text: #152332;
   --muted: #506173;
   --border: #d7e1ea;
@@ -981,7 +981,7 @@ details[open] summary::after { content: "−"; }
   pointer-events: none;
 }
 
-footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; }
+footer { background: #0f2260; color: rgba(255,255,255,.65); padding: 36px 24px; }
 .footer-inner { max-width: 1060px; margin: 0 auto; }
 .footer-top {
   display: flex;
@@ -1927,7 +1927,7 @@ footer { background: #0d2626; color: rgba(255,255,255,.65); padding: 36px 24px; 
   justify-content: center;
 }
 .resources-hero-media img {
-  width: min(100%, 420px);
+  width: min(100%, 300px);
   height: auto;
   border-radius: 26px;
   border: 1px solid rgba(255,255,255,.18);
