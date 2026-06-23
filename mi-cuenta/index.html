@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi cuenta — Samuel Coach de Alemán</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
+      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" aria-haspopup="true">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/servicios/">Clases</a></li>
+        <li><a href="/recursos/">Recursos</a></li>
+        <li><a href="/sobre-mi/">Sobre mí</a></li>
+      </ul>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="/">Inicio</a>
+      <a href="/servicios/">Clases</a>
+      <a href="/recursos/">Recursos</a>
+      <a href="/sobre-mi/">Sobre mí</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="login-section">
+      <div class="login-card">
+        <div class="login-logo">
+          <img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="64" height="64">
+        </div>
+        <h1 style="font-size:1.2rem;text-align:center;margin-bottom:8px">Mi cuenta</h1>
+        <p id="account-email" style="text-align:center;color:var(--muted);margin-bottom:28px;font-size:.9rem"></p>
+        <button id="btn-signout" class="btn btn-dark login-submit">Cerrar sesión</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a class="footer-logo footer-logo-fun" href="/"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
+        <div class="footer-links">
+          <a href="/recursos/">Recursos</a>
+          <a href="/servicios">Servicios</a>
+          <a href="/#faq">Preguntas frecuentes</a>
+          <a href="/politica-de-privacidad">Política de privacidad</a>
+        </div>
+      </div>
+      <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script src="/assets/js/cookie-banner-core.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script type="module">
+    import { requireAuth, signOut } from '/assets/js/auth.js'
+
+    const user = await requireAuth()
+    if (user) {
+      document.getElementById('account-email').textContent = user.email
+    }
+
+    document.getElementById('btn-signout').addEventListener('click', async () => {
+      await signOut()
+      location.href = '/'
+    })
+  </script>
+
+</body>
+</html>

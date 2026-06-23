@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión — Samuel Coach de Alemán</title>
+  <meta name="description" content="Accede a tu cuenta de Samuel Coach de Alemán para guardar tu progreso y acceder a contenido premium.">
+  <link rel="canonical" href="https://www.samuelcoachdealeman.com/login/">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#455a64">
+  <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
+      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" aria-haspopup="true">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/servicios/">Clases</a></li>
+        <li><a href="/recursos/">Recursos</a></li>
+        <li><a href="/sobre-mi/">Sobre mí</a></li>
+      </ul>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="/">Inicio</a>
+      <a href="/servicios/">Clases</a>
+      <a href="/recursos/">Recursos</a>
+      <a href="/sobre-mi/">Sobre mí</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="login-section">
+      <div class="login-card">
+
+        <div class="login-logo">
+          <img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="64" height="64">
+        </div>
+
+        <div class="login-tabs" role="tablist">
+          <button class="login-tab is-active" role="tab" data-tab="signin" aria-selected="true">Iniciar sesión</button>
+          <button class="login-tab" role="tab" data-tab="signup" aria-selected="false">Crear cuenta</button>
+        </div>
+
+        <!-- Sign in -->
+        <form id="form-signin" class="login-form" novalidate>
+          <div class="login-field">
+            <label for="signin-email">Correo electrónico</label>
+            <input type="email" id="signin-email" name="email" autocomplete="email" required placeholder="tu@email.com">
+          </div>
+          <div class="login-field">
+            <label for="signin-password">Contraseña</label>
+            <input type="password" id="signin-password" name="password" autocomplete="current-password" required placeholder="••••••••">
+          </div>
+          <div id="signin-error" class="login-error" hidden></div>
+          <button type="submit" class="btn btn-dark login-submit">Entrar</button>
+          <button type="button" class="login-reset-link" id="btn-reset">¿Olvidaste tu contraseña?</button>
+        </form>
+
+        <!-- Sign up -->
+        <form id="form-signup" class="login-form" hidden novalidate>
+          <div class="login-field">
+            <label for="signup-email">Correo electrónico</label>
+            <input type="email" id="signup-email" name="email" autocomplete="email" required placeholder="tu@email.com">
+          </div>
+          <div class="login-field">
+            <label for="signup-password">Contraseña</label>
+            <input type="password" id="signup-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
+          </div>
+          <div id="signup-error" class="login-error" hidden></div>
+          <div id="signup-ok" class="login-ok" hidden></div>
+          <button type="submit" class="btn btn-dark login-submit">Crear cuenta</button>
+        </form>
+
+        <!-- Reset password -->
+        <form id="form-reset" class="login-form" hidden novalidate>
+          <p class="login-reset-desc">Escribe tu correo y te enviamos un enlace para restablecer tu contraseña.</p>
+          <div class="login-field">
+            <label for="reset-email">Correo electrónico</label>
+            <input type="email" id="reset-email" name="email" autocomplete="email" required placeholder="tu@email.com">
+          </div>
+          <div id="reset-error" class="login-error" hidden></div>
+          <div id="reset-ok" class="login-ok" hidden></div>
+          <button type="submit" class="btn btn-dark login-submit">Enviar enlace</button>
+          <button type="button" class="login-reset-link" id="btn-back-to-signin">← Volver al inicio de sesión</button>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a class="footer-logo footer-logo-fun" href="/"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
+        <div class="footer-links">
+          <a href="/recursos/">Recursos</a>
+          <a href="/servicios">Servicios</a>
+          <a href="/metodologia">Metodología</a>
+          <a href="/#faq">Preguntas frecuentes</a>
+          <a href="/politica-de-privacidad">Política de privacidad</a>
+        </div>
+      </div>
+      <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script src="/assets/js/cookie-banner-core.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script type="module">
+    import { signIn, signUp, resetPassword, supabase } from '/assets/js/auth.js'
+
+    // Redirect if already logged in
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session) redirectAfterLogin()
+    })
+
+    function redirectAfterLogin() {
+      const redirect = new URLSearchParams(location.search).get('redirect')
+      location.href = redirect && redirect.startsWith('/') ? redirect : '/mi-cuenta/'
+    }
+
+    // Tab switching
+    const tabs   = document.querySelectorAll('.login-tab')
+    const signin = document.getElementById('form-signin')
+    const signup = document.getElementById('form-signup')
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected','false') })
+        tab.classList.add('is-active')
+        tab.setAttribute('aria-selected', 'true')
+        signin.hidden = tab.dataset.tab !== 'signin'
+        signup.hidden = tab.dataset.tab !== 'signup'
+        document.getElementById('form-reset').hidden = true
+      })
+    })
+
+    // Reset password toggle
+    document.getElementById('btn-reset').addEventListener('click', () => {
+      signin.hidden = true
+      signup.hidden = true
+      document.getElementById('form-reset').hidden = false
+    })
+    document.getElementById('btn-back-to-signin').addEventListener('click', () => {
+      document.getElementById('form-reset').hidden = true
+      signin.hidden = false
+    })
+
+    function showError(id, msg) {
+      const el = document.getElementById(id)
+      el.textContent = msg
+      el.hidden = false
+    }
+    function clearMsg(id) {
+      const el = document.getElementById(id)
+      if (el) { el.textContent = ''; el.hidden = true }
+    }
+    function setLoading(btn, loading) {
+      btn.disabled = loading
+      btn.textContent = loading ? 'Un momento…' : btn.dataset.label
+    }
+
+    // Store labels
+    document.querySelectorAll('.login-submit').forEach(btn => {
+      btn.dataset.label = btn.textContent
+    })
+
+    // Sign in
+    document.getElementById('form-signin').addEventListener('submit', async e => {
+      e.preventDefault()
+      clearMsg('signin-error')
+      const btn   = e.target.querySelector('.login-submit')
+      const email = document.getElementById('signin-email').value.trim()
+      const pass  = document.getElementById('signin-password').value
+      setLoading(btn, true)
+      const { error } = await signIn(email, pass)
+      setLoading(btn, false)
+      if (error) { showError('signin-error', error.message); return }
+      redirectAfterLogin()
+    })
+
+    // Sign up
+    document.getElementById('form-signup').addEventListener('submit', async e => {
+      e.preventDefault()
+      clearMsg('signup-error')
+      clearMsg('signup-ok')
+      const btn   = e.target.querySelector('.login-submit')
+      const email = document.getElementById('signup-email').value.trim()
+      const pass  = document.getElementById('signup-password').value
+      if (pass.length < 6) { showError('signup-error', 'La contraseña debe tener al menos 6 caracteres.'); return }
+      setLoading(btn, true)
+      const { error } = await signUp(email, pass)
+      setLoading(btn, false)
+      if (error) { showError('signup-error', error.message); return }
+      const ok = document.getElementById('signup-ok')
+      ok.textContent = 'Cuenta creada. Revisa tu correo para confirmar.'
+      ok.hidden = false
+    })
+
+    // Reset password
+    document.getElementById('form-reset').addEventListener('submit', async e => {
+      e.preventDefault()
+      clearMsg('reset-error')
+      clearMsg('reset-ok')
+      const btn   = e.target.querySelector('.login-submit')
+      const email = document.getElementById('reset-email').value.trim()
+      setLoading(btn, true)
+      const { error } = await resetPassword(email)
+      setLoading(btn, false)
+      if (error) { showError('reset-error', error.message); return }
+      const ok = document.getElementById('reset-ok')
+      ok.textContent = 'Enlace enviado. Revisa tu correo.'
+      ok.hidden = false
+    })
+  </script>
+
+</body>
+</html>
