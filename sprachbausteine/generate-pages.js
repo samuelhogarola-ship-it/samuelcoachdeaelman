@@ -1241,6 +1241,7 @@ function buildPage(locale, options) {
   <script src="/assets/js/lueckentext-data.js?v=${JS_VERSION}" defer></script>
   <script src="/assets/js/lueckentext.js?v=${JS_VERSION}" defer></script>
   <script src="/assets/js/progress-tracker.js" defer></script>
+  <script type="module" src="/assets/js/auth.js"></script>
 </body>
 </html>`;
 }
