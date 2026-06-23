@@ -82,7 +82,7 @@
           <button type="submit" class="btn btn-dark login-submit">Crear cuenta</button>
         </form>
 
-        <!-- Reset password -->
+        <!-- Reset password (request link) -->
         <form id="form-reset" class="login-form" hidden novalidate>
           <p class="login-reset-desc">Escribe tu correo y te enviamos un enlace para restablecer tu contraseña.</p>
           <div class="login-field">
@@ -93,6 +93,18 @@
           <div id="reset-ok" class="login-ok" hidden></div>
           <button type="submit" class="btn btn-dark login-submit">Enviar enlace</button>
           <button type="button" class="login-reset-link" id="btn-back-to-signin">← Volver al inicio de sesión</button>
+        </form>
+
+        <!-- New password (after clicking reset link in email) -->
+        <form id="form-newpass" class="login-form" hidden novalidate>
+          <p class="login-reset-desc">Elige una nueva contraseña para tu cuenta.</p>
+          <div class="login-field">
+            <label for="newpass-password">Nueva contraseña</label>
+            <input type="password" id="newpass-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
+          </div>
+          <div id="newpass-error" class="login-error" hidden></div>
+          <div id="newpass-ok" class="login-ok" hidden></div>
+          <button type="submit" class="btn btn-dark login-submit">Guardar contraseña</button>
         </form>
 
       </div>
@@ -121,10 +133,29 @@
   <script type="module">
     import { signIn, signUp, resetPassword, supabase } from '/assets/js/auth.js'
 
-    // Redirect if already logged in
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      if (session) redirectAfterLogin()
+    const isRecovery = new URLSearchParams(location.search).get('reset') === '1'
+
+    // If this is a recovery link, wait for Supabase to fire PASSWORD_RECOVERY
+    // before showing any form (hides the default sign-in tab flash)
+    if (isRecovery) {
+      document.querySelectorAll('.login-tab').forEach(t => t.closest('.login-tabs').hidden = true)
+      document.getElementById('form-signin').hidden = true
+    }
+
+    supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'PASSWORD_RECOVERY') showNewPassForm()
+      else if (session && !isRecovery) redirectAfterLogin()
     })
+
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session && !isRecovery) redirectAfterLogin()
+    })
+
+    function showNewPassForm() {
+      document.querySelectorAll('.login-form').forEach(f => f.hidden = true)
+      document.querySelectorAll('.login-tabs').forEach(t => t.hidden = true)
+      document.getElementById('form-newpass').hidden = false
+    }
 
     function redirectAfterLogin() {
       const redirect = new URLSearchParams(location.search).get('redirect')
@@ -209,7 +240,7 @@
       ok.hidden = false
     })
 
-    // Reset password
+    // Reset password (request link)
     document.getElementById('form-reset').addEventListener('submit', async e => {
       e.preventDefault()
       clearMsg('reset-error')
@@ -223,6 +254,24 @@
       const ok = document.getElementById('reset-ok')
       ok.textContent = 'Enlace enviado. Revisa tu correo.'
       ok.hidden = false
+    })
+
+    // New password (after clicking email link)
+    document.getElementById('form-newpass').addEventListener('submit', async e => {
+      e.preventDefault()
+      clearMsg('newpass-error')
+      clearMsg('newpass-ok')
+      const btn  = e.target.querySelector('.login-submit')
+      const pass = document.getElementById('newpass-password').value
+      if (pass.length < 6) { showError('newpass-error', 'La contraseña debe tener al menos 6 caracteres.'); return }
+      setLoading(btn, true)
+      const { error } = await supabase.auth.updateUser({ password: pass })
+      setLoading(btn, false)
+      if (error) { showError('newpass-error', error.message); return }
+      const ok = document.getElementById('newpass-ok')
+      ok.textContent = 'Contraseña actualizada. Redirigiendo…'
+      ok.hidden = false
+      setTimeout(() => { location.href = '/mi-cuenta/' }, 1500)
     })
   </script>
 
