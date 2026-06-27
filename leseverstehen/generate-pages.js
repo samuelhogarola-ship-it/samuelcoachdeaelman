@@ -462,6 +462,7 @@ ${makeFooter(locale)}
   <script>
     renderLista(document.getElementById('lese-lista-root'));
   </script>
+  <script type="module" src="/assets/js/auth.js"></script>
 </body>
 </html>
 `;
@@ -511,6 +512,7 @@ ${makeFooter(locale)}
   <script>
     renderListaNivel(document.getElementById('lese-lista-root'), '${nivel}');
   </script>
+  <script type="module" src="/assets/js/auth.js"></script>
 </body>
 </html>
 `;
@@ -552,6 +554,7 @@ ${makeFooter(locale)}
     renderLectura(document.getElementById('lese-leer-root'), '${texto.slug}');
   </script>
   <script src="/assets/js/progress-tracker.js" defer></script>
+  <script type="module" src="/assets/js/auth.js"></script>
 </body>
 </html>
 `;

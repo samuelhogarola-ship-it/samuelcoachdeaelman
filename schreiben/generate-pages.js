@@ -245,8 +245,8 @@ ${criteriosHtml}
               <span>Sugerencias de mejora</span>
               <span>Puntuación orientativa</span>
             </div>
-            <a href="/#contacto" class="btn schreib-premium__btn">Quiero acceso premium</a>
-            <p class="schreib-premium__note">Solo disponible para alumnos activos de Samuel Coach de Alemán</p>
+            <a href="/login/?redirect=/recursos/schreiben/${mod}/${niv}/${ej.slug}/" class="btn schreib-premium__btn" data-premium-cta>Iniciar sesión para acceder</a>
+            <p class="schreib-premium__note" data-premium-note>Solo disponible para alumnos activos de Samuel Coach de Alemán</p>
           </div>
         </div>
 
@@ -280,6 +280,7 @@ ${criteriosHtml}
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
   <script src="/assets/js/progress-tracker.js" defer></script>
+  <script type="module" src="/assets/js/auth.js"></script>
   <script>
   (function () {
     var MIN = ${ej.minWords}, MAX = ${ej.maxWords};
