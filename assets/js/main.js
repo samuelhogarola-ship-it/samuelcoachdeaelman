@@ -322,32 +322,56 @@ const initOfferForms = () => {
   const forms = document.querySelectorAll(".offer-form");
   if (!forms.length) return;
 
+  const runtimeConfig = window.__SAMUEL_CONTACT_CONFIG__ || {};
+  const getMetaConfig = (name) =>
+    document.querySelector(`meta[name="${name}"]`)?.getAttribute("content")?.trim() || "";
+  const readPublicConfig = (runtimeValue, metaName) => {
+    const value =
+      (typeof runtimeValue === "string" ? runtimeValue : "") || getMetaConfig(metaName);
+
+    if (!value) return "";
+    return /^REPLACE_WITH_/i.test(value) ? "" : value;
+  };
+
   const locale = (document.documentElement.lang || "es").slice(0, 2);
+  const functionEndpoint =
+    readPublicConfig(runtimeConfig.contactEndpoint, "samuel-contact-endpoint") ||
+    "/functions/v1/contact";
+  const turnstileSiteKey = readPublicConfig(
+    runtimeConfig.turnstileSiteKey,
+    "samuel-turnstile-site-key"
+  );
   let turnstileLoader = null;
+
   const validationCopy = {
     es: {
-      title: "Por favor, completa estos campos obligatorios:",
       required: "Este campo es obligatorio.",
       email: "Introduce un email válido.",
+      review: "Revisa los campos marcados e inténtalo de nuevo.",
+      retry: "No hemos podido procesar el formulario. Revíselo e inténtelo de nuevo en un momento.",
+      risk: "Hemos detectado datos inconsistentes. Revise el formulario e inténtelo de nuevo.",
       turnstile: "Confirma que no eres un bot.",
       turnstileError: "No se pudo cargar la comprobación de seguridad. Escríbeme por WhatsApp o inténtalo de nuevo en unos minutos."
     },
     de: {
-      title: "Bitte fülle diese Pflichtfelder aus:",
       required: "Dieses Feld ist erforderlich.",
       email: "Bitte gib eine gültige E-Mail-Adresse ein.",
+      review: "Bitte prüfe die markierten Felder und versuche es erneut.",
+      retry: "Das Formular konnte nicht verarbeitet werden. Bitte prüfe es und versuche es gleich noch einmal.",
+      risk: "Wir haben widersprüchliche Angaben erkannt. Bitte prüfe das Formular und versuche es erneut.",
       turnstile: "Bitte bestätige, dass du kein Bot bist.",
       turnstileError: "Die Sicherheitsprüfung konnte nicht geladen werden. Schreib mir per WhatsApp oder versuche es in ein paar Minuten erneut."
     },
     en: {
-      title: "Please complete these required fields:",
       required: "This field is required.",
       email: "Please enter a valid email address.",
+      review: "Please review the highlighted fields and try again.",
+      retry: "We could not process the form. Please review it and try again in a moment.",
+      risk: "We detected inconsistent details. Please review the form and try again.",
       turnstile: "Please confirm that you are not a bot.",
       turnstileError: "The security check could not be loaded. Please message me on WhatsApp or try again in a few minutes."
     }
   };
-  const copy = validationCopy[locale] || validationCopy.es;
   const submitCopy = {
     es: {
       sending: "Enviando...",
@@ -365,6 +389,7 @@ const initOfferForms = () => {
       error: "The form could not be sent right now. Please message me on WhatsApp or try again in a few minutes."
     }
   };
+  const copy = validationCopy[locale] || validationCopy.es;
   const submitText = submitCopy[locale] || submitCopy.es;
 
   const loadTurnstile = () => {
@@ -390,6 +415,18 @@ const initOfferForms = () => {
     return turnstileLoader;
   };
 
+  const payloadFromForm = (form) => {
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+    if (typeof data.phone === "string") {
+      data.phone = data.phone.replace(/[\s\-().]/g, "");
+    }
+    data.turnstileToken = data.turnstileToken || "";
+    data.locale = locale;
+    data.page_path = window.location.pathname;
+    return data;
+  };
+
   forms.forEach((form) => {
     const requiredFields = Array.from(
       form.querySelectorAll("input[required], select[required], textarea[required]")
@@ -409,8 +446,8 @@ const initOfferForms = () => {
     const turnstileWidget = turnstileContainer?.querySelector(".form-turnstile-widget");
     const turnstileRequiredMessage = turnstileContainer?.dataset.turnstileRequired || copy.turnstile;
     const turnstileLoadErrorMessage = turnstileContainer?.dataset.turnstileError || copy.turnstileError;
-    const turnstileSiteKey = form.dataset.turnstileSitekey;
     const turnstileState = {
+      required: Boolean(turnstileContainer && turnstileWidget),
       enabled: Boolean(turnstileContainer && turnstileWidget && turnstileSiteKey),
       widgetId: null,
       loaded: false
@@ -425,6 +462,38 @@ const initOfferForms = () => {
       }
     };
 
+    const setFieldError = (field, message) => {
+      const errorId = field.getAttribute("aria-describedby");
+      const errorNode = errorId ? form.querySelector(`#${errorId}`) : null;
+      field.setAttribute("aria-invalid", message ? "true" : "false");
+      if (!errorNode) return;
+      errorNode.textContent = message || "";
+      errorNode.hidden = !message;
+    };
+
+    const validateBasicFields = () => {
+      let hasErrors = false;
+
+      requiredFields.forEach((field) => {
+        const isEmpty = !field.value.trim();
+        const isInvalidEmail = field.type === "email" && !isEmpty && !field.checkValidity();
+        const message = isEmpty ? copy.required : isInvalidEmail ? copy.email : "";
+
+        setFieldError(field, message);
+        if (message) {
+          hasErrors = true;
+        }
+      });
+
+      return !hasErrors;
+    };
+
+    requiredFields.forEach((field) => {
+      const resetField = () => setFieldError(field, "");
+      field.addEventListener("input", resetField);
+      field.addEventListener("change", resetField);
+    });
+
     if (turnstileState.enabled) {
       loadTurnstile()
         .then((turnstile) => {
@@ -432,12 +501,20 @@ const initOfferForms = () => {
             sitekey: turnstileSiteKey,
             theme: "light",
             language: locale === "en" ? "en" : locale === "de" ? "de" : "es",
-            callback: () => {
+            callback: (token) => {
+              const hiddenInput = form.querySelector('input[name="turnstileToken"]');
+              if (hiddenInput) {
+                hiddenInput.value = token || "";
+              }
               if (statusNode?.textContent === turnstileRequiredMessage) {
                 setStatusMessage("");
               }
             },
-            "expired-callback": () => setStatusMessage(turnstileRequiredMessage, "error"),
+            "expired-callback": () => {
+              const hiddenInput = form.querySelector('input[name="turnstileToken"]');
+              if (hiddenInput) hiddenInput.value = "";
+              setStatusMessage(turnstileRequiredMessage, "error");
+            },
             "error-callback": () => setStatusMessage(turnstileLoadErrorMessage, "error")
           });
           turnstileState.loaded = true;
@@ -448,64 +525,34 @@ const initOfferForms = () => {
         });
     }
 
-    const setFieldError = (field, message) => {
-      const errorId = field.getAttribute("aria-describedby");
-      const errorNode = errorId ? form.querySelector(`#${errorId}`) : null;
-      field.setAttribute("aria-invalid", message ? "true" : "false");
-      if (!errorNode) return;
-      errorNode.textContent = message || "";
-      errorNode.hidden = !message;
-    };
-
-    requiredFields.forEach((field) => {
-      const resetField = () => setFieldError(field, "");
-      field.addEventListener("input", resetField);
-      field.addEventListener("change", resetField);
-    });
-
     form.addEventListener("submit", async (event) => {
-      const missingLabels = [];
+      event.preventDefault();
 
-      requiredFields.forEach((field) => {
-        const isEmpty = !field.value.trim();
-        const isInvalidEmail = field.type === "email" && !isEmpty && !field.checkValidity();
-        const message = isEmpty ? copy.required : isInvalidEmail ? copy.email : "";
-
-        setFieldError(field, message);
-
-        if (message) {
-          const fieldLabel = field.closest(".form-field");
-          const text = fieldLabel?.querySelector("span")?.textContent || field.name;
-          missingLabels.push(text.replace(/\s*\*$/, ""));
-        }
-      });
-
-      if (missingLabels.length) {
-        event.preventDefault();
-        setStatusMessage("");
-        window.alert(`${copy.title}\n\n- ${missingLabels.join("\n- ")}`);
+      if (!validateBasicFields()) {
+        setStatusMessage(copy.review, "error");
         return;
       }
 
-      if (turnstileState.enabled) {
-        event.preventDefault();
-
-        if (!turnstileState.loaded || turnstileState.widgetId === null || !window.turnstile) {
+      if (turnstileState.required) {
+        if (!turnstileState.enabled || !turnstileState.loaded || turnstileState.widgetId === null || !window.turnstile) {
           setStatusMessage(turnstileLoadErrorMessage, "error");
           return;
         }
 
-        const response = window.turnstile.getResponse(turnstileState.widgetId);
-        if (!response) {
+        const token = window.turnstile.getResponse(turnstileState.widgetId);
+        if (!token) {
           setStatusMessage(turnstileRequiredMessage, "error");
           return;
         }
+
+        const hiddenInput = form.querySelector('input[name="turnstileToken"]');
+        if (hiddenInput) {
+          hiddenInput.value = token;
+        }
       }
 
-      const action = form.getAttribute("action") || "";
-      if (!action.includes("formsubmit.co")) return;
-
-      event.preventDefault();
+      const action = functionEndpoint || form.getAttribute("action") || "/functions/v1/contact";
+      const payload = payloadFromForm(form);
 
       setStatusMessage(submitText.sending);
       if (submitButton) {
@@ -514,33 +561,43 @@ const initOfferForms = () => {
       }
 
       try {
-        const actionUrl = new URL(action, window.location.href);
-        const ajaxUrl = `${actionUrl.origin}/ajax${actionUrl.pathname}`;
-        const response = await fetch(ajaxUrl, {
+        const response = await fetch(action, {
           method: "POST",
           headers: {
-            Accept: "application/json"
+            Accept: "application/json",
+            "Content-Type": "application/json"
           },
-          body: new FormData(form)
+          body: JSON.stringify(payload)
         });
 
-        if (!response.ok) {
-          throw new Error(`Unexpected response status: ${response.status}`);
+        let result = null;
+        try {
+          result = await response.json();
+        } catch (_error) {
+          result = null;
         }
 
-        const payload = await response.json();
-        if (payload.success !== "true" && payload.success !== true) {
-          throw new Error("FormSubmit did not confirm success.");
+        if (!response.ok) {
+          const message = result?.messageKey === "risk" ? copy.risk : copy.retry;
+          setStatusMessage(message, "error");
+          return;
         }
 
         form.reset();
         requiredFields.forEach((field) => setFieldError(field, ""));
-        setStatusMessage(submitText.success, "success");
+        setStatusMessage(
+          result?.messageKey === "success" ? submitText.success : submitText.success,
+          "success"
+        );
       } catch (_error) {
         setStatusMessage(submitText.error, "error");
       } finally {
         if (turnstileState.enabled && turnstileState.loaded && turnstileState.widgetId !== null && window.turnstile) {
           window.turnstile.reset(turnstileState.widgetId);
+        }
+        const hiddenInput = form.querySelector('input[name="turnstileToken"]');
+        if (hiddenInput) {
+          hiddenInput.value = "";
         }
         if (submitButton) {
           submitButton.disabled = false;

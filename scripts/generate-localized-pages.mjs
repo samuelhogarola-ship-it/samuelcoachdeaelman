@@ -4,8 +4,6 @@ import path from "path";
 const rootDir = process.cwd();
 const baseUrl = "https://www.samuelcoachdealeman.com";
 const blogUrl = `${baseUrl}/f/`;
-// Replace the fallback test key with the real Cloudflare Turnstile site key in production.
-const turnstileSiteKey = process.env.CLOUDFLARE_TURNSTILE_SITE_KEY || "1x00000000000000000000AA";
 const locales = ["de", "en"];
 const examLevels = ["A1", "A2", "B1", "B2"];
 const localeOg = {
@@ -1039,11 +1037,9 @@ function renderContactForm(locale) {
             <div class="contact-card contact-card-form">
               <h3 id="contacto-formulario">${form.title}</h3>
               <p class="contact-card-copy">${form.intro}</p>
-              <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate data-turnstile-sitekey="${turnstileSiteKey}">
-                <input type="hidden" name="_subject" value="${form.subject}">
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="${formUrl}">
-                <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+              <form class="offer-form" action="/functions/v1/contact" method="POST" novalidate>
+                <input type="text" name="company" class="form-honeypot" tabindex="-1" autocomplete="organization" data-honeypot-field>
+                <input type="hidden" name="turnstileToken" value="">
 
                 <div class="offer-form-grid">
                   <label class="form-field is-required">
@@ -2040,6 +2036,8 @@ ${alternates}
   <meta name="twitter:title" content="${escapeHtml(ogTitle)}">
   <meta name="twitter:description" content="${escapeHtml(ogDescription)}">
   <meta name="twitter:image" content="${pageImage(page)}">
+  <meta name="samuel-turnstile-site-key" content="REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY">
+  <meta name="samuel-contact-endpoint" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -2048,6 +2046,15 @@ ${alternates}
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <script>
+    window.__SAMUEL_CONTACT_CONFIG__ = Object.assign(
+      {
+        turnstileSiteKey: "REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY",
+        contactEndpoint: ""
+      },
+      window.__SAMUEL_CONTACT_CONFIG__ || {}
+    );
+  </script>
 ${renderLocaleScript(locale)}
 ${renderPageSchema(page, locale, title, description)}
 </head>

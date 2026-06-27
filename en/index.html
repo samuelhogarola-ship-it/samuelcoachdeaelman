@@ -23,6 +23,8 @@
   <meta name="twitter:title" content="Online German Lessons in Fuengirola | Samuel Coach de Aleman">
   <meta name="twitter:description" content="Personal online German lessons from Fuengirola for daily life, school, exams and professional goals.">
   <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/hero-photo-full.webp">
+  <meta name="samuel-turnstile-site-key" content="REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY">
+  <meta name="samuel-contact-endpoint" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -31,6 +33,15 @@
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <script>
+    window.__SAMUEL_CONTACT_CONFIG__ = Object.assign(
+      {
+        turnstileSiteKey: "REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY",
+        contactEndpoint: ""
+      },
+      window.__SAMUEL_CONTACT_CONFIG__ || {}
+    );
+  </script>
   <script>
     window.siteLocaleContent = {"navigation":{"openMenu":"Open menu","closeMenu":"Close menu"},"cookieBanner":{"imageAlt":"Decorative cookie image in the cookie banner","title":"Your privacy matters","noticeHtml":"<p>We use essential cookies to make the site work and, only if you agree, analytics cookies to understand usage and improve the website. <a href=\"/en/politica-de-privacidad/\">More information</a>.</p>","acceptLabel":"Accept","rejectLabel":"Reject","configLabel":"Cookie settings","configModalTitle":"Configure your cookies","configModalIntro":"You can accept only essential cookies or also enable analytics cookies. You can change your decision at any time by deleting browser cookies.","necessaryTitle":"Essential cookies","necessaryDescription":"They are required for basic functions such as navigation, security and remembering your cookie choice.","necessaryBadge":"Always active","analyticsTitle":"Analytics cookies","analyticsDescription":"They help us understand how the site is used so we can improve content, performance and user experience.","saveConfigLabel":"Save settings"}};
   </script>
@@ -199,11 +210,9 @@
             <div class="contact-card contact-card-form">
               <h3 id="contacto-formulario">Request personalised information</h3>
               <p class="contact-card-copy">If I know your level, your goal and how many hours you can dedicate each week, I can reply with a much clearer option from the start.</p>
-              <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate data-turnstile-sitekey="1x00000000000000000000AA">
-                <input type="hidden" name="_subject" value="New contact request - Samuel Coach de Aleman">
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="https://www.samuelcoachdealeman.com/en/#contacto-formulario">
-                <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+              <form class="offer-form" action="/functions/v1/contact" method="POST" novalidate>
+                <input type="text" name="company" class="form-honeypot" tabindex="-1" autocomplete="organization" data-honeypot-field>
+                <input type="hidden" name="turnstileToken" value="">
 
                 <div class="offer-form-grid">
                   <label class="form-field is-required">

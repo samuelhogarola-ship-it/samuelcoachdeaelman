@@ -29,6 +29,8 @@
   <meta name="twitter:title" content="Clases de Alemán Online Personalizadas | Samuel Coach de Alemán">
   <meta name="twitter:description" content="Aprende alemán de verdad con clases personalizadas y una valoración adaptada a tu nivel, edad y objetivo.">
   <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/og-home.webp">
+  <meta name="samuel-turnstile-site-key" content="REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY">
+  <meta name="samuel-contact-endpoint" content="">
 
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="geo.region" content="ES-AN">
@@ -45,6 +47,15 @@
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="assets/css/styles.css?v=20260613d">
   <link rel="stylesheet" href="assets/css/cookie-banner-core.css">
+  <script>
+    window.__SAMUEL_CONTACT_CONFIG__ = Object.assign(
+      {
+        turnstileSiteKey: "REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY",
+        contactEndpoint: ""
+      },
+      window.__SAMUEL_CONTACT_CONFIG__ || {}
+    );
+  </script>
 
   <script type="application/ld+json">
   {
@@ -391,11 +402,9 @@
         </div>
 
         <div class="home-form-card">
-          <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate data-turnstile-sitekey="1x00000000000000000000AA">
-            <input type="hidden" name="_subject" value="Nueva valoracion personalizada - Samuel Coach de Aleman">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_url" value="https://www.samuelcoachdealeman.com/#valoracion">
-            <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+          <form class="offer-form" action="/functions/v1/contact" method="POST" novalidate>
+            <input type="text" name="company" class="form-honeypot" tabindex="-1" autocomplete="organization" data-honeypot-field>
+            <input type="hidden" name="turnstileToken" value="">
 
             <div class="offer-form-grid home-form-grid">
               <label class="form-field is-required">
