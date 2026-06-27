@@ -323,21 +323,28 @@ const initOfferForms = () => {
   if (!forms.length) return;
 
   const locale = (document.documentElement.lang || "es").slice(0, 2);
+  let turnstileLoader = null;
   const validationCopy = {
     es: {
       title: "Por favor, completa estos campos obligatorios:",
       required: "Este campo es obligatorio.",
-      email: "Introduce un email válido."
+      email: "Introduce un email válido.",
+      turnstile: "Confirma que no eres un bot.",
+      turnstileError: "No se pudo cargar la comprobación de seguridad. Escríbeme por WhatsApp o inténtalo de nuevo en unos minutos."
     },
     de: {
       title: "Bitte fülle diese Pflichtfelder aus:",
       required: "Dieses Feld ist erforderlich.",
-      email: "Bitte gib eine gültige E-Mail-Adresse ein."
+      email: "Bitte gib eine gültige E-Mail-Adresse ein.",
+      turnstile: "Bitte bestätige, dass du kein Bot bist.",
+      turnstileError: "Die Sicherheitsprüfung konnte nicht geladen werden. Schreib mir per WhatsApp oder versuche es in ein paar Minuten erneut."
     },
     en: {
       title: "Please complete these required fields:",
       required: "This field is required.",
-      email: "Please enter a valid email address."
+      email: "Please enter a valid email address.",
+      turnstile: "Please confirm that you are not a bot.",
+      turnstileError: "The security check could not be loaded. Please message me on WhatsApp or try again in a few minutes."
     }
   };
   const copy = validationCopy[locale] || validationCopy.es;
@@ -360,6 +367,29 @@ const initOfferForms = () => {
   };
   const submitText = submitCopy[locale] || submitCopy.es;
 
+  const loadTurnstile = () => {
+    if (window.turnstile) return Promise.resolve(window.turnstile);
+    if (turnstileLoader) return turnstileLoader;
+
+    turnstileLoader = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+      script.async = true;
+      script.defer = true;
+      script.onload = () => {
+        if (window.turnstile) {
+          resolve(window.turnstile);
+          return;
+        }
+        reject(new Error("Turnstile loaded without API."));
+      };
+      script.onerror = () => reject(new Error("Turnstile failed to load."));
+      document.head.appendChild(script);
+    });
+
+    return turnstileLoader;
+  };
+
   forms.forEach((form) => {
     const requiredFields = Array.from(
       form.querySelectorAll("input[required], select[required], textarea[required]")
@@ -373,6 +403,49 @@ const initOfferForms = () => {
       statusNode.className = "form-status";
       statusNode.setAttribute("aria-live", "polite");
       form.appendChild(statusNode);
+    }
+
+    const turnstileContainer = form.querySelector("[data-turnstile-container]");
+    const turnstileWidget = turnstileContainer?.querySelector(".form-turnstile-widget");
+    const turnstileRequiredMessage = turnstileContainer?.dataset.turnstileRequired || copy.turnstile;
+    const turnstileLoadErrorMessage = turnstileContainer?.dataset.turnstileError || copy.turnstileError;
+    const turnstileSiteKey = form.dataset.turnstileSitekey;
+    const turnstileState = {
+      enabled: Boolean(turnstileContainer && turnstileWidget && turnstileSiteKey),
+      widgetId: null,
+      loaded: false
+    };
+
+    const setStatusMessage = (message, tone) => {
+      if (!statusNode) return;
+      statusNode.textContent = message || "";
+      statusNode.classList.remove("is-success", "is-error");
+      if (tone) {
+        statusNode.classList.add(tone === "success" ? "is-success" : "is-error");
+      }
+    };
+
+    if (turnstileState.enabled) {
+      loadTurnstile()
+        .then((turnstile) => {
+          turnstileState.widgetId = turnstile.render(turnstileWidget, {
+            sitekey: turnstileSiteKey,
+            theme: "light",
+            language: locale === "en" ? "en" : locale === "de" ? "de" : "es",
+            callback: () => {
+              if (statusNode?.textContent === turnstileRequiredMessage) {
+                setStatusMessage("");
+              }
+            },
+            "expired-callback": () => setStatusMessage(turnstileRequiredMessage, "error"),
+            "error-callback": () => setStatusMessage(turnstileLoadErrorMessage, "error")
+          });
+          turnstileState.loaded = true;
+        })
+        .catch(() => {
+          turnstileState.loaded = false;
+          setStatusMessage(turnstileLoadErrorMessage, "error");
+        });
     }
 
     const setFieldError = (field, message) => {
@@ -409,12 +482,24 @@ const initOfferForms = () => {
 
       if (missingLabels.length) {
         event.preventDefault();
-        if (statusNode) {
-          statusNode.textContent = "";
-          statusNode.classList.remove("is-success", "is-error");
-        }
+        setStatusMessage("");
         window.alert(`${copy.title}\n\n- ${missingLabels.join("\n- ")}`);
         return;
+      }
+
+      if (turnstileState.enabled) {
+        event.preventDefault();
+
+        if (!turnstileState.loaded || turnstileState.widgetId === null || !window.turnstile) {
+          setStatusMessage(turnstileLoadErrorMessage, "error");
+          return;
+        }
+
+        const response = window.turnstile.getResponse(turnstileState.widgetId);
+        if (!response) {
+          setStatusMessage(turnstileRequiredMessage, "error");
+          return;
+        }
       }
 
       const action = form.getAttribute("action") || "";
@@ -422,10 +507,7 @@ const initOfferForms = () => {
 
       event.preventDefault();
 
-      if (statusNode) {
-        statusNode.textContent = submitText.sending;
-        statusNode.classList.remove("is-success", "is-error");
-      }
+      setStatusMessage(submitText.sending);
       if (submitButton) {
         submitButton.disabled = true;
         submitButton.textContent = submitText.sending;
@@ -453,18 +535,13 @@ const initOfferForms = () => {
 
         form.reset();
         requiredFields.forEach((field) => setFieldError(field, ""));
-        if (statusNode) {
-          statusNode.textContent = submitText.success;
-          statusNode.classList.remove("is-error");
-          statusNode.classList.add("is-success");
-        }
+        setStatusMessage(submitText.success, "success");
       } catch (_error) {
-        if (statusNode) {
-          statusNode.textContent = submitText.error;
-          statusNode.classList.remove("is-success");
-          statusNode.classList.add("is-error");
-        }
+        setStatusMessage(submitText.error, "error");
       } finally {
+        if (turnstileState.enabled && turnstileState.loaded && turnstileState.widgetId !== null && window.turnstile) {
+          window.turnstile.reset(turnstileState.widgetId);
+        }
         if (submitButton) {
           submitButton.disabled = false;
           submitButton.textContent = defaultButtonLabel;

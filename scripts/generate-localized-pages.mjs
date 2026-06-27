@@ -4,6 +4,8 @@ import path from "path";
 const rootDir = process.cwd();
 const baseUrl = "https://www.samuelcoachdealeman.com";
 const blogUrl = `${baseUrl}/f/`;
+// Replace the fallback test key with the real Cloudflare Turnstile site key in production.
+const turnstileSiteKey = process.env.CLOUDFLARE_TURNSTILE_SITE_KEY || "1x00000000000000000000AA";
 const locales = ["de", "en"];
 const examLevels = ["A1", "A2", "B1", "B2"];
 const localeOg = {
@@ -98,7 +100,9 @@ const shared = {
       },
       validation: {
         title: "Bitte fülle die Pflichtfelder aus:",
-        email: "Bitte gib eine gültige E-Mail-Adresse ein."
+        email: "Bitte gib eine gültige E-Mail-Adresse ein.",
+        turnstile: "Bitte bestätige, dass du kein Bot bist.",
+        turnstileError: "Die Sicherheitsprüfung konnte nicht geladen werden. Schreib mir bitte per WhatsApp oder versuche es gleich noch einmal."
       }
     },
     widget: {
@@ -225,7 +229,9 @@ const shared = {
       },
       validation: {
         title: "Please complete the required fields:",
-        email: "Please enter a valid email address."
+        email: "Please enter a valid email address.",
+        turnstile: "Please confirm that you are not a bot.",
+        turnstileError: "The security check could not be loaded. Please message me on WhatsApp or try again in a moment."
       }
     },
     widget: {
@@ -1033,7 +1039,7 @@ function renderContactForm(locale) {
             <div class="contact-card contact-card-form">
               <h3 id="contacto-formulario">${form.title}</h3>
               <p class="contact-card-copy">${form.intro}</p>
-              <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate>
+              <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate data-turnstile-sitekey="${turnstileSiteKey}">
                 <input type="hidden" name="_subject" value="${form.subject}">
                 <input type="hidden" name="_template" value="table">
                 <input type="hidden" name="_next" value="${formUrl}">
@@ -1100,6 +1106,11 @@ ${optionList(form.options.schedules)}
                   <textarea name="situation" rows="5" placeholder="${form.fields.situationPlaceholder}" required aria-required="true" aria-invalid="false" aria-describedby="situation-error"></textarea>
                   <span id="situation-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                 </label>
+
+                <div class="form-turnstile" data-turnstile-container data-turnstile-required="${form.validation.turnstile}" data-turnstile-error="${form.validation.turnstileError}">
+                  <div class="form-turnstile-widget"></div>
+                  <p class="form-turnstile-note">${form.validation.turnstile}</p>
+                </div>
 
                 <button type="submit" class="contact-btn cb-email">${form.submit}</button>
                 <p class="form-note">${form.note}</p>

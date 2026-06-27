@@ -391,7 +391,7 @@
         </div>
 
         <div class="home-form-card">
-          <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate>
+          <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate data-turnstile-sitekey="1x00000000000000000000AA">
             <input type="hidden" name="_subject" value="Nueva valoracion personalizada - Samuel Coach de Aleman">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_url" value="https://www.samuelcoachdealeman.com/#valoracion">
@@ -466,6 +466,11 @@
                 </select>
                 <span id="availability-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
               </label>
+            </div>
+
+            <div class="form-turnstile" data-turnstile-container data-turnstile-required="Confirma que no eres un bot." data-turnstile-error="No se pudo cargar la comprobación de seguridad. Escríbeme por WhatsApp o inténtalo de nuevo en unos minutos.">
+              <div class="form-turnstile-widget"></div>
+              <p class="form-turnstile-note">Confirma que no eres un bot.</p>
             </div>
 
             <button type="submit" class="contact-btn cb-email home-form-submit">Quiero mi plan personalizado</button>
