@@ -98,7 +98,9 @@ const shared = {
       },
       validation: {
         title: "Bitte fülle die Pflichtfelder aus:",
-        email: "Bitte gib eine gültige E-Mail-Adresse ein."
+        email: "Bitte gib eine gültige E-Mail-Adresse ein.",
+        turnstile: "Bitte bestätige, dass du kein Bot bist.",
+        turnstileError: "Die Sicherheitsprüfung konnte nicht geladen werden. Schreib mir bitte per WhatsApp oder versuche es gleich noch einmal."
       }
     },
     widget: {
@@ -225,7 +227,9 @@ const shared = {
       },
       validation: {
         title: "Please complete the required fields:",
-        email: "Please enter a valid email address."
+        email: "Please enter a valid email address.",
+        turnstile: "Please confirm that you are not a bot.",
+        turnstileError: "The security check could not be loaded. Please message me on WhatsApp or try again in a moment."
       }
     },
     widget: {
@@ -1033,11 +1037,9 @@ function renderContactForm(locale) {
             <div class="contact-card contact-card-form">
               <h3 id="contacto-formulario">${form.title}</h3>
               <p class="contact-card-copy">${form.intro}</p>
-              <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate>
-                <input type="hidden" name="_subject" value="${form.subject}">
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="${formUrl}">
-                <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+              <form class="offer-form" action="/functions/v1/contact" method="POST" novalidate>
+                <input type="text" name="company" class="form-honeypot" tabindex="-1" autocomplete="organization" data-honeypot-field>
+                <input type="hidden" name="turnstileToken" value="">
 
                 <div class="offer-form-grid">
                   <label class="form-field is-required">
@@ -1100,6 +1102,11 @@ ${optionList(form.options.schedules)}
                   <textarea name="situation" rows="5" placeholder="${form.fields.situationPlaceholder}" required aria-required="true" aria-invalid="false" aria-describedby="situation-error"></textarea>
                   <span id="situation-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                 </label>
+
+                <div class="form-turnstile" data-turnstile-container data-turnstile-required="${form.validation.turnstile}" data-turnstile-error="${form.validation.turnstileError}">
+                  <div class="form-turnstile-widget"></div>
+                  <p class="form-turnstile-note">${form.validation.turnstile}</p>
+                </div>
 
                 <button type="submit" class="contact-btn cb-email">${form.submit}</button>
                 <p class="form-note">${form.note}</p>
@@ -2029,6 +2036,8 @@ ${alternates}
   <meta name="twitter:title" content="${escapeHtml(ogTitle)}">
   <meta name="twitter:description" content="${escapeHtml(ogDescription)}">
   <meta name="twitter:image" content="${pageImage(page)}">
+  <meta name="samuel-turnstile-site-key" content="REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY">
+  <meta name="samuel-contact-endpoint" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -2037,6 +2046,15 @@ ${alternates}
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <script>
+    window.__SAMUEL_CONTACT_CONFIG__ = Object.assign(
+      {
+        turnstileSiteKey: "REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY",
+        contactEndpoint: ""
+      },
+      window.__SAMUEL_CONTACT_CONFIG__ || {}
+    );
+  </script>
 ${renderLocaleScript(locale)}
 ${renderPageSchema(page, locale, title, description)}
 </head>

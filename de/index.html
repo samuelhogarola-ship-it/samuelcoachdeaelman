@@ -23,6 +23,8 @@
   <meta name="twitter:title" content="Online-Deutschunterricht in Fuengirola | Samuel Coach de Alemán">
   <meta name="twitter:description" content="Persönlicher Online-Deutschunterricht aus Fuengirola für Alltag, Schule, Prüfungen und berufliche Ziele.">
   <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/hero-photo-full.webp">
+  <meta name="samuel-turnstile-site-key" content="REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY">
+  <meta name="samuel-contact-endpoint" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -31,6 +33,15 @@
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <script>
+    window.__SAMUEL_CONTACT_CONFIG__ = Object.assign(
+      {
+        turnstileSiteKey: "REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY",
+        contactEndpoint: ""
+      },
+      window.__SAMUEL_CONTACT_CONFIG__ || {}
+    );
+  </script>
   <script>
     window.siteLocaleContent = {"navigation":{"openMenu":"Menü öffnen","closeMenu":"Menü schließen"},"cookieBanner":{"imageAlt":"Dekoratives Keksbild im Cookie-Banner","title":"Deine Privatsphäre ist wichtig","noticeHtml":"<p>Wir verwenden notwendige Cookies, damit die Website funktioniert, und nur mit deiner Zustimmung Analyse-Cookies, um Nutzung und Inhalte zu verbessern. <a href=\"/de/politica-de-privacidad/\">Mehr Informationen</a>.</p>","acceptLabel":"Akzeptieren","rejectLabel":"Ablehnen","configLabel":"Cookies einstellen","configModalTitle":"Cookies konfigurieren","configModalIntro":"Du kannst nur notwendige Cookies akzeptieren oder auch Analyse-Cookies aktivieren. Deine Entscheidung kannst du jederzeit ändern, indem du die Browser-Cookies löschst.","necessaryTitle":"Notwendige Cookies","necessaryDescription":"Sie sind erforderlich für Navigation, Sicherheit und das Speichern deiner Cookie-Entscheidung.","necessaryBadge":"Immer aktiv","analyticsTitle":"Analyse-Cookies","analyticsDescription":"Sie helfen uns zu verstehen, wie die Website genutzt wird, damit wir Inhalte, Leistung und Nutzererlebnis verbessern können.","saveConfigLabel":"Einstellungen speichern"}};
   </script>
@@ -199,11 +210,9 @@
             <div class="contact-card contact-card-form">
               <h3 id="contacto-formulario">Persönliche Informationen anfragen</h3>
               <p class="contact-card-copy">Wenn ich dein Ziel, dein Niveau und deine verfügbare Zeit kenne, kann ich dir viel schneller ein passendes Angebot machen.</p>
-              <form class="offer-form" action="https://formsubmit.co/samuelcoachdealeman@gmail.com" method="POST" novalidate>
-                <input type="hidden" name="_subject" value="Neue Kontaktanfrage - Samuel Coach de Aleman">
-                <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_next" value="https://www.samuelcoachdealeman.com/de/#contacto-formulario">
-                <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off">
+              <form class="offer-form" action="/functions/v1/contact" method="POST" novalidate>
+                <input type="text" name="company" class="form-honeypot" tabindex="-1" autocomplete="organization" data-honeypot-field>
+                <input type="hidden" name="turnstileToken" value="">
 
                 <div class="offer-form-grid">
                   <label class="form-field is-required">
@@ -289,6 +298,14 @@
                   <span id="situation-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                 </label>
 
+<<<<<<< HEAD
+                <div class="form-turnstile" data-turnstile-container data-turnstile-required="Bitte bestätige, dass du kein Bot bist." data-turnstile-error="Die Sicherheitsprüfung konnte nicht geladen werden. Schreib mir bitte per WhatsApp oder versuche es gleich noch einmal.">
+                  <div class="form-turnstile-widget"></div>
+                  <p class="form-turnstile-note">Bitte bestätige, dass du kein Bot bist.</p>
+                </div>
+
+=======
+>>>>>>> origin/main
                 <button type="submit" class="contact-btn cb-email">Informationen anfragen</button>
                 <p class="form-note">Beim Absenden erhalte ich deine Anfrage unter samuelcoachdealeman@gmail.com und kann dir gezielter auf dein Niveau, dein Ziel und deine Verfügbarkeit antworten.</p>
                 <p class="form-status" aria-live="polite"></p>
@@ -346,6 +363,9 @@
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
+<<<<<<< HEAD
+=======
   <script type="module" src="/assets/js/auth.js"></script>
+>>>>>>> origin/main
 </body>
 </html>
