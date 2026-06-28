@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reseñas — Samuel Coach de Alemán</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="samuel-reviews-admin-endpoint" content="/functions/v1/admin-reviews">
+  <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
+      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" aria-haspopup="true">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/mi-cuenta/">Mi cuenta</a></li>
+        <li><a href="/admin/leads/">Leads</a></li>
+      </ul>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="/">Inicio</a>
+      <a href="/mi-cuenta/">Mi cuenta</a>
+      <a href="/admin/leads/">Leads</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="login-section">
+      <div class="login-card">
+        <div class="login-logo">
+          <img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="64" height="64">
+        </div>
+        <div class="account-shell">
+          <header class="account-header">
+            <span class="account-kicker">Área privada</span>
+            <h1 style="font-size:1.2rem;margin:0">Reseñas</h1>
+            <p id="admin-email" class="account-subtitle"></p>
+            <p class="account-subtitle">Panel mínimo para revisar qué reseñas se publican en la home, cuáles quedan destacadas y cómo van los contadores por fuente.</p>
+          </header>
+
+          <p id="reviews-loading" class="account-loading">Cargando reseñas…</p>
+          <p id="reviews-status" class="account-empty" hidden></p>
+
+          <section id="review-sources" class="account-grid" hidden></section>
+          <section id="reviews-stats" class="account-grid" hidden>
+            <article class="account-stat">
+              <span class="account-stat-label">Total</span>
+              <strong id="stat-reviews-total" class="account-stat-value">0</strong>
+            </article>
+            <article class="account-stat">
+              <span class="account-stat-label">Publicadas</span>
+              <strong id="stat-reviews-published" class="account-stat-value">0</strong>
+            </article>
+            <article class="account-stat">
+              <span class="account-stat-label">Destacadas</span>
+              <strong id="stat-reviews-featured" class="account-stat-value">0</strong>
+            </article>
+          </section>
+
+          <div class="account-panels">
+            <section class="account-panel">
+              <div class="admin-leads-toolbar">
+                <div class="admin-leads-filters" role="tablist" aria-label="Filtrar reseñas">
+                  <button class="admin-filter is-active" type="button" data-status="all">Todas</button>
+                  <button class="admin-filter" type="button" data-status="draft">Draft</button>
+                  <button class="admin-filter" type="button" data-status="published">Publicadas</button>
+                  <button class="admin-filter" type="button" data-status="archived">Archivadas</button>
+                  <button class="admin-filter" type="button" data-status="featured">Destacadas</button>
+                </div>
+                <div class="admin-leads-filters">
+                  <input id="reviews-search" class="account-profile-input admin-users-search" type="search" placeholder="Buscar por nombre o texto" autocomplete="off">
+                  <button id="btn-refresh-reviews" class="btn btn-dark login-submit" type="button">Actualizar</button>
+                </div>
+              </div>
+
+              <p id="reviews-empty" class="account-empty" hidden>No hay reseñas para este filtro ahora mismo.</p>
+              <div id="reviews-list" class="admin-leads-list" hidden></div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a class="footer-logo footer-logo-fun" href="/"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
+        <div class="footer-links">
+          <a href="/mi-cuenta/">Mi cuenta</a>
+          <a href="/admin/leads/">Leads</a>
+          <a href="/politica-de-privacidad">Política de privacidad</a>
+        </div>
+      </div>
+      <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script src="/assets/js/cookie-banner-core.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script type="module">
+    import { requireAuth, supabase } from '/assets/js/auth.js'
+
+    const adminEmail = document.getElementById('admin-email')
+    const loading = document.getElementById('reviews-loading')
+    const statusBox = document.getElementById('reviews-status')
+    const reviewSources = document.getElementById('review-sources')
+    const reviewsStats = document.getElementById('reviews-stats')
+    const reviewsEmpty = document.getElementById('reviews-empty')
+    const reviewsList = document.getElementById('reviews-list')
+    const refreshButton = document.getElementById('btn-refresh-reviews')
+    const filterButtons = Array.from(document.querySelectorAll('.admin-filter'))
+    const searchInput = document.getElementById('reviews-search')
+    const statReviewsTotal = document.getElementById('stat-reviews-total')
+    const statReviewsPublished = document.getElementById('stat-reviews-published')
+    const statReviewsFeatured = document.getElementById('stat-reviews-featured')
+
+    const runtimeConfig = window.__SAMUEL_ADMIN_CONFIG__ || {}
+    const endpointMeta = document.querySelector('meta[name="samuel-reviews-admin-endpoint"]')?.content?.trim() || ''
+    const adminEndpoint =
+      (typeof runtimeConfig.reviewsEndpoint === 'string' && runtimeConfig.reviewsEndpoint.trim()) ||
+      endpointMeta ||
+      '/functions/v1/admin-reviews'
+
+    let activeFilter = 'all'
+    let accessToken = ''
+    let currentReviews = []
+
+    const user = await requireAuth('/admin/reviews/')
+    if (user) {
+      adminEmail.textContent = user.email
+      const { data: { session } } = await supabase.auth.getSession()
+      accessToken = session?.access_token || ''
+      await loadReviews()
+    }
+
+    refreshButton.addEventListener('click', () => {
+      loadReviews()
+    })
+
+    searchInput.addEventListener('input', () => {
+      renderFilteredReviews()
+    })
+
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', async () => {
+        if (button.dataset.status === activeFilter) return
+        activeFilter = button.dataset.status || 'all'
+        updateFilterState()
+        await loadReviews()
+      })
+    })
+
+    reviewsList.addEventListener('click', async (event) => {
+      const button = event.target.closest('[data-review-id]')
+      if (!button) return
+
+      const reviewId = button.getAttribute('data-review-id')
+      const nextStatus = button.getAttribute('data-next-status')
+      const featuredFlag = button.getAttribute('data-featured-flag')
+      if (!reviewId) return
+
+      const payload = { id: reviewId }
+      if (nextStatus) payload.status = nextStatus
+      if (featuredFlag != null) payload.is_featured = featuredFlag === 'true'
+
+      button.disabled = true
+      await updateReview(payload)
+      button.disabled = false
+    })
+
+    function updateFilterState() {
+      filterButtons.forEach((button) => {
+        const isActive = button.dataset.status === activeFilter
+        button.classList.toggle('is-active', isActive)
+        button.setAttribute('aria-pressed', String(isActive))
+      })
+    }
+
+    function updateStats(reviews) {
+      const publishedCount = reviews.filter((review) => review.status === 'published').length
+      const featuredCount = reviews.filter((review) => Boolean(review.is_featured)).length
+
+      statReviewsTotal.textContent = String(reviews.length)
+      statReviewsPublished.textContent = String(publishedCount)
+      statReviewsFeatured.textContent = String(featuredCount)
+      reviewsStats.hidden = false
+    }
+
+    function showMessage(message) {
+      statusBox.textContent = message
+      statusBox.hidden = false
+    }
+
+    function clearMessage() {
+      statusBox.textContent = ''
+      statusBox.hidden = true
+    }
+
+    function formatDate(value) {
+      if (!value) return '-'
+      return new Intl.DateTimeFormat('es-ES', {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      }).format(new Date(value))
+    }
+
+    function escapeHtml(value) {
+      return String(value || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;')
+    }
+
+    function sourceBadgeClass(source) {
+      return source === 'google'
+        ? 'home-review-badge home-review-badge--google'
+        : 'home-review-badge home-review-badge--superprof'
+    }
+
+    function renderSources(sources) {
+      if (!sources.length) {
+        reviewSources.hidden = true
+        reviewSources.innerHTML = ''
+        return
+      }
+
+      reviewSources.hidden = false
+      reviewSources.innerHTML = sources
+        .map((source) => `
+          <article class="account-stat account-stat--source">
+            <span class="${sourceBadgeClass(source.source)}">${escapeHtml(source.label)}</span>
+            <strong class="account-stat-value">${escapeHtml(source.review_count)}</strong>
+            <span class="account-stat-label">reseñas · ${escapeHtml(source.rating_value)} ★</span>
+          </article>
+        `)
+        .join('')
+    }
+
+    function buildActionButtons(review) {
+      const actions = []
+      if (review.status !== 'draft') {
+        actions.push(`<button type="button" class="admin-action-btn" data-review-id="${review.id}" data-next-status="draft">Pasar a draft</button>`)
+      }
+      if (review.status !== 'published') {
+        actions.push(`<button type="button" class="admin-action-btn" data-review-id="${review.id}" data-next-status="published">Publicar</button>`)
+      }
+      if (review.status !== 'archived') {
+        actions.push(`<button type="button" class="admin-action-btn" data-review-id="${review.id}" data-next-status="archived">Archivar</button>`)
+      }
+      actions.push(
+        `<button type="button" class="admin-action-btn" data-review-id="${review.id}" data-featured-flag="${review.is_featured ? 'false' : 'true'}">${review.is_featured ? 'Quitar destacada' : 'Destacar en home'}</button>`
+      )
+      return actions.join('')
+    }
+
+    function renderReviews(reviews) {
+      if (!reviews.length) {
+        reviewsEmpty.hidden = false
+        reviewsList.hidden = true
+        return
+      }
+
+      reviewsEmpty.hidden = true
+      reviewsList.hidden = false
+      reviewsList.innerHTML = reviews
+        .map((review) => `
+          <article class="admin-lead-card">
+            <div class="admin-lead-top">
+              <div>
+                <h2>${escapeHtml(review.reviewer_name)}</h2>
+                <p class="admin-lead-meta">${escapeHtml(review.reviewer_role || '-')} · ${escapeHtml(review.source)}</p>
+              </div>
+              <div class="admin-lead-badges">
+                <span class="account-badge">${escapeHtml(review.status)}</span>
+                <span class="account-badge">${review.is_featured ? 'destacada' : 'normal'}</span>
+              </div>
+            </div>
+            <div class="admin-lead-grid">
+              <p><strong>Fecha:</strong> ${escapeHtml(formatDate(review.created_at))}</p>
+              <p><strong>Rating:</strong> ${escapeHtml(review.rating)} ★</p>
+              <p><strong>Orden:</strong> ${escapeHtml(review.sort_order)}</p>
+              <p><strong>Fuente:</strong> ${escapeHtml(review.source)}</p>
+            </div>
+            <p class="admin-lead-message">${escapeHtml(review.review_text)}</p>
+            <div class="admin-lead-actions">
+              ${buildActionButtons(review)}
+            </div>
+          </article>
+        `)
+        .join('')
+    }
+
+    function getFilteredReviews(reviews) {
+      const query = searchInput.value.trim().toLowerCase()
+
+      return reviews.filter((review) => {
+        const matchesStatus =
+          activeFilter === 'all' ||
+          (activeFilter === 'featured' && review.is_featured) ||
+          review.status === activeFilter
+
+        if (!matchesStatus) return false
+        if (!query) return true
+
+        const haystack = `${review.reviewer_name || ''} ${review.review_text || ''} ${review.reviewer_role || ''}`.toLowerCase()
+        return haystack.includes(query)
+      })
+    }
+
+    function renderFilteredReviews() {
+      renderReviews(getFilteredReviews(currentReviews))
+    }
+
+    async function loadReviews(options = {}) {
+      if (!accessToken) return
+
+      if (!options.preserveMessage) {
+        clearMessage()
+      }
+      loading.hidden = false
+      refreshButton.disabled = true
+
+      const url = new URL(adminEndpoint, window.location.origin)
+      if (activeFilter !== 'all') {
+        url.searchParams.set('status', activeFilter)
+      }
+      url.searchParams.set('limit', '50')
+
+      try {
+        const response = await fetch(url, {
+          headers: {
+            Authorization: `Bearer ${accessToken}`
+          }
+        })
+        const payload = await response.json()
+
+        if (!response.ok || !payload.success) {
+          throw new Error(payload.message || 'No hemos podido cargar las reseñas ahora mismo.')
+        }
+
+        renderSources(Array.isArray(payload.reviewSources) ? payload.reviewSources : [])
+        currentReviews = Array.isArray(payload.reviews) ? payload.reviews : []
+        updateStats(currentReviews)
+        renderFilteredReviews()
+      } catch (error) {
+        showMessage(error.message || 'No hemos podido cargar las reseñas ahora mismo.')
+        reviewSources.hidden = true
+        reviewsStats.hidden = true
+        reviewsEmpty.hidden = true
+        reviewsList.hidden = true
+      } finally {
+        loading.hidden = true
+        refreshButton.disabled = false
+      }
+    }
+
+    async function updateReview(payload) {
+      clearMessage()
+
+      try {
+        const response = await fetch(adminEndpoint, {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${accessToken}`
+          },
+          body: JSON.stringify(payload)
+        })
+        const result = await response.json()
+
+        if (!response.ok || !result.success) {
+          throw new Error(result.message || 'No hemos podido actualizar la reseña.')
+        }
+
+        showMessage('Reseña actualizada.')
+        await loadReviews({ preserveMessage: true })
+      } catch (error) {
+        showMessage(error.message || 'No hemos podido actualizar la reseña.')
+      }
+    }
+  </script>
+</body>
+</html>

@@ -318,6 +318,215 @@ const initCookieBanner = () => {
   });
 };
 
+const initHomeReviews = () => {
+  const reviewsSection = document.querySelector(".home-reviews");
+  const reviewsGrid = document.querySelector("[data-reviews-grid]");
+  if (!reviewsSection || !reviewsGrid) return;
+
+  const emptyNode = document.querySelector("[data-reviews-empty]");
+  const totalCountNode = document.querySelector("[data-review-total-count]");
+  const proofCopyNode = document.querySelector("[data-reviews-proof-copy]");
+  const proofTitleNode = document.querySelector("[data-reviews-proof-title]");
+  const proofSubtitleNode = document.querySelector("[data-reviews-proof-subtitle]");
+  const schemaNode = document.getElementById("samuel-business-schema");
+
+  const runtimeConfig = window.__SAMUEL_HOME_CONFIG__ || {};
+  const endpointMeta =
+    document
+      .querySelector('meta[name="samuel-public-reviews-endpoint"]')
+      ?.getAttribute("content")
+      ?.trim() || "";
+  const endpoint =
+    (typeof runtimeConfig.publicReviewsEndpoint === "string" &&
+      runtimeConfig.publicReviewsEndpoint.trim()) ||
+    endpointMeta ||
+    "/functions/v1/public-reviews";
+
+  const escapeHtml = (value) =>
+    String(value || "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#39;");
+
+  const formatReviewCount = (value) => {
+    const count = Number(value) || 0;
+    if (count === 1) return "1 reseña";
+    return `${count} reseñas`;
+  };
+
+  const formatRating = (value) => {
+    const rating = Number(value);
+    if (!Number.isFinite(rating)) return "★★★★★";
+    return `★★★★★ ${rating.toFixed(1)}`;
+  };
+
+  const getSourceBadgeClass = (source) =>
+    source === "google"
+      ? "home-review-badge home-review-badge--google"
+      : "home-review-badge home-review-badge--superprof";
+
+  const getSourceAvatarClass = (source) =>
+    source === "google"
+      ? "home-review-avatar home-review-avatar--google"
+      : "home-review-avatar home-review-avatar--superprof";
+
+  const getInitials = (name) => {
+    const source = String(name || "").trim();
+    if (!source) return "SC";
+    return (
+      source
+        .split(/\s+/)
+        .slice(0, 2)
+        .map((chunk) => chunk[0]?.toUpperCase() || "")
+        .join("") || "SC"
+    );
+  };
+
+  const revealCards = () => {
+    const cards = reviewsGrid.querySelectorAll(".home-review-card");
+    if (!cards.length || typeof IntersectionObserver !== "function") {
+      cards.forEach((card) => card.classList.add("is-visible"));
+      return;
+    }
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    cards.forEach((card) => io.observe(card));
+  };
+
+  const updateSchema = (summary) => {
+    if (!schemaNode) return;
+
+    try {
+      const parsed = JSON.parse(schemaNode.textContent || "{}");
+      const graph = Array.isArray(parsed["@graph"]) ? parsed["@graph"] : [];
+      const businessNode = graph.find(
+        (item) => item && item["@id"] === "https://www.samuelcoachdealeman.com/#business"
+      );
+      if (!businessNode) return;
+
+      if (summary?.averageRating && summary?.totalReviewCount) {
+        businessNode.aggregateRating = {
+          "@type": "AggregateRating",
+          ratingValue: String(summary.averageRating),
+          reviewCount: String(summary.totalReviewCount),
+          bestRating: "5"
+        };
+      } else {
+        delete businessNode.aggregateRating;
+      }
+
+      schemaNode.textContent = JSON.stringify(parsed, null, 2);
+    } catch (_error) {
+      // Keep the static schema if parsing fails.
+    }
+  };
+
+  const updateSourceNodes = (sources) => {
+    sources.forEach((source) => {
+      const sourceNode = document.querySelector(`[data-review-source="${source.source}"]`);
+      if (!sourceNode) return;
+
+      if (source.profile_url) {
+        sourceNode.setAttribute("href", source.profile_url);
+      }
+
+      const ratingNode = sourceNode.querySelector("[data-review-source-rating]");
+      const countNode = sourceNode.querySelector("[data-review-source-count]");
+      if (ratingNode) {
+        ratingNode.textContent = formatRating(source.rating_value);
+      }
+      if (countNode) {
+        countNode.textContent = formatReviewCount(source.review_count);
+      }
+
+      const linkNode = document.querySelector(`[data-review-link="${source.source}"]`);
+      if (linkNode) {
+        if (source.profile_url) {
+          linkNode.setAttribute("href", source.profile_url);
+        }
+        const noun = source.source === "superprof" ? "opiniones" : "reseñas";
+        linkNode.textContent = `★ Ver ${source.review_count} ${noun} en ${source.label} →`;
+      }
+    });
+  };
+
+  const renderReviews = (reviews) => {
+    if (!reviews.length) {
+      reviewsGrid.innerHTML = "";
+      if (emptyNode) emptyNode.hidden = false;
+      return;
+    }
+
+    if (emptyNode) emptyNode.hidden = true;
+    reviewsGrid.innerHTML = reviews
+      .map((review) => `
+        <article class="home-review-card">
+          <div class="home-review-head">
+            <div class="home-review-stars">${formatRating(review.rating)}</div>
+            <span class="${getSourceBadgeClass(review.source)}"><img src="assets/img/brands/${review.source}.svg" alt="" loading="lazy">${escapeHtml(review.source === "superprof" ? "Superprof" : "Google")}</span>
+          </div>
+          <p>"${escapeHtml(review.review_text)}"</p>
+          <div class="home-review-author">
+            <div class="${getSourceAvatarClass(review.source)}">${escapeHtml(getInitials(review.reviewer_name))}</div>
+            <div><strong>${escapeHtml(review.reviewer_name)}</strong><span>${escapeHtml(review.reviewer_role || "Alumno de Samuel Coach de Alemán")}</span></div>
+          </div>
+        </article>
+      `)
+      .join("");
+
+    revealCards();
+  };
+
+  fetch(endpoint, {
+    headers: {
+      Accept: "application/json"
+    }
+  })
+    .then(async (response) => {
+      const payload = await response.json().catch(() => null);
+      if (!response.ok || !payload?.success) {
+        throw new Error("reviews");
+      }
+
+      const summary = payload.summary || {};
+      const sources = Array.isArray(payload.sources) ? payload.sources : [];
+      const reviews = Array.isArray(payload.reviews) ? payload.reviews : [];
+
+      if (totalCountNode) {
+        totalCountNode.textContent = summary.totalReviewCount
+          ? String(summary.totalReviewCount)
+          : "--";
+      }
+
+      if (proofTitleNode && summary.totalReviewCount) {
+        proofTitleNode.textContent = `${summary.totalReviewCount} reseñas verificadas`;
+      }
+      if (proofSubtitleNode && summary.averageRating) {
+        proofSubtitleNode.textContent = `Media pública de ${summary.averageRating} ★ entre Google y Superprof.`;
+      }
+      if (proofCopyNode && summary.totalReviewCount && summary.averageRating) {
+        proofCopyNode.textContent = `La enseñanza es mi pasión y eso se transmite en cada clase. ${summary.totalReviewCount} reseñas públicas con una media de ${summary.averageRating} estrellas lo respaldan.`;
+      }
+
+      updateSourceNodes(sources);
+      renderReviews(reviews);
+      updateSchema(summary);
+    })
+    .catch(() => {
+      renderReviews([]);
+    });
+};
+
 const initOfferForms = () => {
   const forms = document.querySelectorAll(".offer-form");
   if (!forms.length) return;
@@ -421,6 +630,7 @@ const initOfferForms = () => {
     if (typeof data.phone === "string") {
       data.phone = data.phone.replace(/[\s\-().]/g, "");
     }
+    data.privacy_consent = form.querySelector('input[name="privacy_consent"]')?.checked ? "true" : "";
     data.turnstileToken = data.turnstileToken || "";
     data.locale = locale;
     data.page_path = window.location.pathname;
@@ -475,7 +685,8 @@ const initOfferForms = () => {
       let hasErrors = false;
 
       requiredFields.forEach((field) => {
-        const isEmpty = !field.value.trim();
+        const isCheckbox = field.type === "checkbox";
+        const isEmpty = isCheckbox ? !field.checked : !field.value.trim();
         const isInvalidEmail = field.type === "email" && !isEmpty && !field.checkValidity();
         const message = isEmpty ? copy.required : isInvalidEmail ? copy.email : "";
 
@@ -709,6 +920,7 @@ initAppsWidgetPreference();
 initLocaleSwitcher();
 initHomeGoalPrefill();
 initMobileStickyCtaGuard();
+initHomeReviews();
 initOfferForms();
 initBlogQuiz();
 initPageTransitions();

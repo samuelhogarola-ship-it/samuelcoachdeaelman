@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leads — Samuel Coach de Alemán</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="samuel-leads-admin-endpoint" content="/functions/v1/admin-leads">
+  <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
+      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" aria-haspopup="true">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/mi-cuenta/">Mi cuenta</a></li>
+        <li><a href="/recursos/">Recursos</a></li>
+      </ul>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="/">Inicio</a>
+      <a href="/mi-cuenta/">Mi cuenta</a>
+      <a href="/recursos/">Recursos</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="login-section">
+      <div class="login-card">
+        <div class="login-logo">
+          <img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="64" height="64">
+        </div>
+        <div class="account-shell">
+          <header class="account-header">
+            <span class="account-kicker">Área privada</span>
+            <h1 style="font-size:1.2rem;margin:0">Leads</h1>
+            <p id="admin-email" class="account-subtitle"></p>
+            <p class="account-subtitle">Panel mínimo para revisar leads del formulario, cambiar estado y detectar rápido qué entradas necesitan revisión manual.</p>
+          </header>
+
+          <p id="leads-loading" class="account-loading">Cargando leads…</p>
+          <p id="leads-status" class="account-empty" hidden></p>
+
+          <section id="leads-stats" class="account-grid" hidden>
+            <article class="account-stat">
+              <span class="account-stat-label">Total cargados</span>
+              <strong id="stat-total" class="account-stat-value">0</strong>
+            </article>
+            <article class="account-stat">
+              <span class="account-stat-label">Nuevos</span>
+              <strong id="stat-new" class="account-stat-value">0</strong>
+            </article>
+            <article class="account-stat">
+              <span class="account-stat-label">Revisados</span>
+              <strong id="stat-reviewed" class="account-stat-value">0</strong>
+            </article>
+            <article class="account-stat">
+              <span class="account-stat-label">Respondidos</span>
+              <strong id="stat-answered" class="account-stat-value">0</strong>
+            </article>
+            <article class="account-stat">
+              <span class="account-stat-label">Spam</span>
+              <strong id="stat-spam" class="account-stat-value">0</strong>
+            </article>
+          </section>
+
+          <div class="account-panels">
+            <section class="account-panel">
+              <div class="admin-leads-toolbar">
+                <div class="admin-leads-filters" role="tablist" aria-label="Filtrar leads">
+                  <button class="admin-filter is-active" type="button" data-status="all">Todos</button>
+                  <button class="admin-filter" type="button" data-status="new">Nuevos</button>
+                  <button class="admin-filter" type="button" data-status="reviewed">Revisados</button>
+                  <button class="admin-filter" type="button" data-status="answered">Respondidos</button>
+                  <button class="admin-filter" type="button" data-status="spam">Spam</button>
+                </div>
+                <button id="btn-refresh-leads" class="btn btn-dark login-submit" type="button">Actualizar</button>
+              </div>
+
+              <p id="leads-empty" class="account-empty" hidden>No hay leads para este filtro ahora mismo.</p>
+              <div id="leads-list" class="admin-leads-list" hidden></div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a class="footer-logo footer-logo-fun" href="/"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
+        <div class="footer-links">
+          <a href="/mi-cuenta/">Mi cuenta</a>
+          <a href="/recursos/">Recursos</a>
+          <a href="/politica-de-privacidad">Política de privacidad</a>
+        </div>
+      </div>
+      <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script src="/assets/js/cookie-banner-core.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script type="module">
+    import { requireAuth, supabase } from '/assets/js/auth.js'
+
+    const adminEmail = document.getElementById('admin-email')
+    const loading = document.getElementById('leads-loading')
+    const statusBox = document.getElementById('leads-status')
+    const stats = document.getElementById('leads-stats')
+    const leadsEmpty = document.getElementById('leads-empty')
+    const leadsList = document.getElementById('leads-list')
+    const refreshButton = document.getElementById('btn-refresh-leads')
+    const filterButtons = Array.from(document.querySelectorAll('.admin-filter'))
+
+    const statTotal = document.getElementById('stat-total')
+    const statNew = document.getElementById('stat-new')
+    const statReviewed = document.getElementById('stat-reviewed')
+    const statAnswered = document.getElementById('stat-answered')
+    const statSpam = document.getElementById('stat-spam')
+
+    const runtimeConfig = window.__SAMUEL_ADMIN_CONFIG__ || {}
+    const endpointMeta = document.querySelector('meta[name="samuel-leads-admin-endpoint"]')?.content?.trim() || ''
+    const adminEndpoint =
+      (typeof runtimeConfig.leadsEndpoint === 'string' && runtimeConfig.leadsEndpoint.trim()) ||
+      endpointMeta ||
+      '/functions/v1/admin-leads'
+
+    let activeFilter = 'all'
+    let currentLeads = []
+    let accessToken = ''
+
+    const user = await requireAuth('/admin/leads/')
+    if (user) {
+      adminEmail.textContent = user.email
+      const { data: { session } } = await supabase.auth.getSession()
+      accessToken = session?.access_token || ''
+      await loadLeads()
+    }
+
+    refreshButton.addEventListener('click', () => {
+      loadLeads()
+    })
+
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', async () => {
+        if (button.dataset.status === activeFilter) return
+        activeFilter = button.dataset.status || 'all'
+        updateFilterState()
+        await loadLeads()
+      })
+    })
+
+    leadsList.addEventListener('click', async (event) => {
+      const button = event.target.closest('[data-next-status]')
+      if (!button) return
+
+      const leadId = button.getAttribute('data-lead-id')
+      const nextStatus = button.getAttribute('data-next-status')
+      if (!leadId || !nextStatus) return
+
+      button.disabled = true
+      await updateLeadStatus(leadId, nextStatus)
+      button.disabled = false
+    })
+
+    function updateFilterState() {
+      filterButtons.forEach((button) => {
+        const isActive = button.dataset.status === activeFilter
+        button.classList.toggle('is-active', isActive)
+        button.setAttribute('aria-pressed', String(isActive))
+      })
+    }
+
+    function showMessage(message) {
+      statusBox.textContent = message
+      statusBox.hidden = false
+    }
+
+    function clearMessage() {
+      statusBox.textContent = ''
+      statusBox.hidden = true
+    }
+
+    function formatDate(value) {
+      if (!value) return '-'
+      return new Intl.DateTimeFormat('es-ES', {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      }).format(new Date(value))
+    }
+
+    function escapeHtml(value) {
+      return String(value || '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;')
+    }
+
+    function buildActionButtons(lead) {
+      const actions = []
+      if (lead.status !== 'new') {
+        actions.push(`<button type="button" class="admin-action-btn" data-lead-id="${lead.id}" data-next-status="new">Marcar nuevo</button>`)
+      }
+      if (lead.status !== 'reviewed') {
+        actions.push(`<button type="button" class="admin-action-btn" data-lead-id="${lead.id}" data-next-status="reviewed">Marcar revisado</button>`)
+      }
+      if (lead.status !== 'answered') {
+        actions.push(`<button type="button" class="admin-action-btn" data-lead-id="${lead.id}" data-next-status="answered">Marcar respondido</button>`)
+      }
+      if (lead.status !== 'spam') {
+        actions.push(`<button type="button" class="admin-action-btn" data-lead-id="${lead.id}" data-next-status="spam">Marcar spam</button>`)
+      }
+      return actions.join('')
+    }
+
+    function renderLeads(leads) {
+      if (!leads.length) {
+        leadsEmpty.hidden = false
+        leadsList.hidden = true
+        return
+      }
+
+      leadsEmpty.hidden = true
+      leadsList.hidden = false
+      leadsList.innerHTML = leads
+        .map((lead) => `
+          <article class="admin-lead-card">
+            <div class="admin-lead-top">
+              <div>
+                <h2>${escapeHtml(lead.name)}</h2>
+                <p class="admin-lead-meta">${escapeHtml(lead.email)} · ${escapeHtml(lead.phone || '-')}</p>
+              </div>
+              <div class="admin-lead-badges">
+                <span class="account-badge">${escapeHtml(lead.status)}</span>
+                <span class="account-badge">Riesgo ${escapeHtml(lead.risk_score)}</span>
+              </div>
+            </div>
+            <div class="admin-lead-grid">
+              <p><strong>Fecha:</strong> ${escapeHtml(formatDate(lead.created_at))}</p>
+              <p><strong>Edad:</strong> ${escapeHtml(lead.age_band || '-')}</p>
+              <p><strong>Objetivo:</strong> ${escapeHtml(lead.goal || '-')}</p>
+              <p><strong>Nivel:</strong> ${escapeHtml(lead.current_level || '-')}</p>
+              <p><strong>Disponibilidad:</strong> ${escapeHtml(lead.availability || '-')}</p>
+              <p><strong>Turnstile:</strong> ${lead.turnstile_success ? 'OK' : 'No'}</p>
+            </div>
+            <p class="admin-lead-message">${escapeHtml(lead.message || 'Sin mensaje adicional.')}</p>
+            <div class="admin-lead-actions">
+              ${buildActionButtons(lead)}
+            </div>
+          </article>
+        `)
+        .join('')
+    }
+
+    function updateStats(leads) {
+      const counts = {
+        total: leads.length,
+        new: 0,
+        reviewed: 0,
+        answered: 0,
+        spam: 0
+      }
+
+      leads.forEach((lead) => {
+        if (lead.status in counts) counts[lead.status] += 1
+      })
+
+      statTotal.textContent = String(counts.total)
+      statNew.textContent = String(counts.new)
+      statReviewed.textContent = String(counts.reviewed)
+      statAnswered.textContent = String(counts.answered)
+      statSpam.textContent = String(counts.spam)
+      stats.hidden = false
+    }
+
+    async function loadLeads(options = {}) {
+      if (!accessToken) return
+
+      if (!options.preserveMessage) {
+        clearMessage()
+      }
+      loading.hidden = false
+      refreshButton.disabled = true
+
+      const url = new URL(adminEndpoint, window.location.origin)
+      if (activeFilter !== 'all') {
+        url.searchParams.set('status', activeFilter)
+      }
+      url.searchParams.set('limit', '50')
+
+      try {
+        const response = await fetch(url, {
+          headers: {
+            Authorization: `Bearer ${accessToken}`
+          }
+        })
+        const payload = await response.json()
+
+        if (!response.ok || !payload.success) {
+          throw new Error(payload.message || 'No hemos podido cargar los leads ahora mismo.')
+        }
+
+        currentLeads = Array.isArray(payload.leads) ? payload.leads : []
+        renderLeads(currentLeads)
+        updateStats(currentLeads)
+      } catch (error) {
+        showMessage(error.message || 'No hemos podido cargar los leads ahora mismo.')
+        leadsEmpty.hidden = true
+        leadsList.hidden = true
+      } finally {
+        loading.hidden = true
+        refreshButton.disabled = false
+      }
+    }
+
+    async function updateLeadStatus(leadId, nextStatus) {
+      clearMessage()
+
+      try {
+        const response = await fetch(adminEndpoint, {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${accessToken}`
+          },
+          body: JSON.stringify({
+            id: leadId,
+            status: nextStatus
+          })
+        })
+        const payload = await response.json()
+
+        if (!response.ok || !payload.success) {
+          throw new Error(payload.message || 'No hemos podido actualizar el lead.')
+        }
+
+        showMessage('Estado actualizado.')
+        await loadLeads({ preserveMessage: true })
+      } catch (error) {
+        showMessage(error.message || 'No hemos podido actualizar el lead.')
+      }
+    }
+  </script>
+</body>
+</html>

@@ -95,6 +95,12 @@ const buildMessage = (payload) => {
 
 export const normalizePayload = (rawPayload = {}) => {
   const normalizedPhone = stringValue(rawPayload.phone)?.replace(/[\s\-().]/g, "") || null;
+  const privacyConsentRaw = stringValue(rawPayload.privacy_consent);
+  const privacyConsent =
+    privacyConsentRaw === "true" ||
+    privacyConsentRaw === "1" ||
+    privacyConsentRaw === "on" ||
+    rawPayload.privacy_consent === true;
 
   return {
     name: stringValue(rawPayload.name),
@@ -116,6 +122,8 @@ export const normalizePayload = (rawPayload = {}) => {
     turnstileToken:
       stringValue(rawPayload.turnstileToken) ||
       stringValue(rawPayload["cf-turnstile-response"]),
+    privacy_consent: privacyConsent,
+    privacy_policy_version: stringValue(rawPayload.privacy_policy_version),
     locale: stringValue(rawPayload.locale) || "es",
     page_path: stringValue(rawPayload.page_path),
     user_message: buildMessage(rawPayload)
@@ -134,6 +142,7 @@ export const validateBasicPayload = (payload) => {
   if (!payload.goal) errors.push("goal");
   if (!payload.current_level) errors.push("current_level");
   if (!payload.turnstileToken) errors.push("turnstileToken");
+  if (!payload.privacy_consent) errors.push("privacy_consent");
 
   if (payload.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(payload.email)) {
     errors.push("email_format");
@@ -234,6 +243,9 @@ export const buildLeadRecord = ({
   current_level: payload.current_level,
   availability: payload.availability,
   message: payload.user_message,
+  privacy_consent: payload.privacy_consent,
+  privacy_consent_at: payload.privacy_consent ? createdAt : null,
+  privacy_policy_version: payload.privacy_policy_version,
   risk_score: riskScore,
   ip_hash: ipHash,
   user_agent: userAgent,
@@ -253,6 +265,9 @@ export const buildLeadEmailText = (lead) =>
     `Nivel actual: ${lead.current_level || "-"}`,
     `Disponibilidad: ${lead.availability || "-"}`,
     `Mensaje: ${lead.message || "-"}`,
+    `Consentimiento privacidad: ${lead.privacy_consent ? "sí" : "no"}`,
+    `Fecha consentimiento: ${lead.privacy_consent_at || "-"}`,
+    `Versión política: ${lead.privacy_policy_version || "-"}`,
     `Risk score: ${lead.risk_score}`,
     `Status: ${lead.status}`,
     `Turnstile OK: ${lead.turnstile_success ? "sí" : "no"}`,

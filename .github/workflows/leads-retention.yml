@@ -1,0 +1,48 @@
+name: Leads Retention
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Run in preview mode without deleting or anonymizing leads"
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  retention:
+    name: Run leads retention
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate required secrets
+        env:
+          RETENTION_URL: ${{ secrets.LEADS_RETENTION_URL }}
+          RETENTION_KEY: ${{ secrets.RETENTION_JOB_SECRET }}
+        run: |
+          test -n "$RETENTION_URL"
+          test -n "$RETENTION_KEY"
+
+      - name: Build target URL
+        id: target
+        env:
+          RETENTION_URL: ${{ secrets.LEADS_RETENTION_URL }}
+          INPUT_DRY_RUN: ${{ github.event.inputs.dry_run }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          URL="$RETENTION_URL"
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] && [ "$INPUT_DRY_RUN" = "true" ]; then
+            URL="${URL}?dry_run=1"
+          fi
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+      - name: Execute retention job
+        env:
+          TARGET_URL: ${{ steps.target.outputs.url }}
+          RETENTION_KEY: ${{ secrets.RETENTION_JOB_SECRET }}
+        run: |
+          curl --fail --show-error --silent \
+            -X POST \
+            -H "Authorization: Bearer $RETENTION_KEY" \
+            "$TARGET_URL"

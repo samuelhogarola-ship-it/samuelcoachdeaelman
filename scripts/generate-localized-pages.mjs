@@ -70,6 +70,9 @@ const shared = {
         situation: "Erzähl mir kurz deine Situation",
         situationPlaceholder:
           "Zum Beispiel: Brauchst du Deutsch für eine Prüfung, für die Arbeit oder fängst du gerade erst an?",
+        privacyConsent:
+          "Ich akzeptiere die Datenschutzerklärung und die Verarbeitung meiner Daten zur Beantwortung dieser Anfrage.",
+        privacyLinkLabel: "Datenschutzerklärung",
         levelPlaceholder: "Niveau auswählen",
         servicePlaceholder: "Angebot auswählen",
         goalPlaceholder: "Ziel auswählen",
@@ -199,6 +202,9 @@ const shared = {
         situation: "Tell me a bit about your situation",
         situationPlaceholder:
           "For example: your exam date, whether you are starting from scratch or what is hardest for you right now.",
+        privacyConsent:
+          "I accept the privacy policy and the processing of my data to answer this request.",
+        privacyLinkLabel: "privacy policy",
         levelPlaceholder: "Select your level",
         servicePlaceholder: "Choose an option",
         goalPlaceholder: "Select your goal",
@@ -627,7 +633,7 @@ const copy = {
       ogDescription: "Informationen zu Datenverarbeitung, Nutzerrechten und Datenschutz auf dieser Website.",
       heroTitle: "Datenschutzerklärung",
       heroText:
-        "Grundlegende Informationen zur Verarbeitung personenbezogener Daten auf dieser Website. Diese Übersetzung dient der Orientierung und sollte rechtlich geprüft werden.",
+        "Grundlegende Informationen zur Verarbeitung personenbezogener Daten auf dieser Website, den damit verbundenen Diensten und dem privaten Bereich der Plattform.",
       sections: [
         ["Verantwortliche Stelle", ["Samuel Coach de Alemán", "Kontakt: samuelcoachdealeman@gmail.com", "Standort: Fuengirola, Málaga, Spanien"]],
         ["Zweck der Verarbeitung", ["Personenbezogene Daten können genutzt werden, um Anfragen zu beantworten, Kontakte zu verwalten und gewünschte Leistungen bereitzustellen."]],
@@ -861,7 +867,7 @@ const copy = {
       ogDescription: "Information about data processing, user rights and privacy on this website.",
       heroTitle: "Privacy policy",
       heroText:
-        "Basic information about how personal data may be processed on this website. This translated version is provided for clarity and should be legally reviewed before final publication.",
+        "Basic information about how personal data may be processed on this website, the related services and the private area of the platform.",
       sections: [
         ["Data controller", ["Samuel Coach de Aleman", "Contact email: samuelcoachdealeman@gmail.com", "Location: Fuengirola, Malaga, Spain"]],
         ["Purpose of processing", ["Personal data may be used to answer enquiries, manage communication and provide the services requested by the user."]],
@@ -1040,6 +1046,7 @@ function renderContactForm(locale) {
               <form class="offer-form" action="/functions/v1/contact" method="POST" novalidate>
                 <input type="text" name="company" class="form-honeypot" tabindex="-1" autocomplete="organization" data-honeypot-field>
                 <input type="hidden" name="turnstileToken" value="">
+                <input type="hidden" name="privacy_policy_version" value="2026-06-27">
 
                 <div class="offer-form-grid">
                   <label class="form-field is-required">
@@ -1102,6 +1109,12 @@ ${optionList(form.options.schedules)}
                   <textarea name="situation" rows="5" placeholder="${form.fields.situationPlaceholder}" required aria-required="true" aria-invalid="false" aria-describedby="situation-error"></textarea>
                   <span id="situation-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
                 </label>
+
+                <label class="form-consent is-required">
+                  <input type="checkbox" name="privacy_consent" required aria-required="true" aria-invalid="false" aria-describedby="privacy-consent-error">
+                  <span><a href="${prefix}/politica-de-privacidad/" target="_blank" rel="noopener noreferrer">${form.fields.privacyLinkLabel}</a> · ${form.fields.privacyConsent}</span>
+                </label>
+                <span id="privacy-consent-error" class="field-error" role="alert" aria-live="assertive" hidden></span>
 
                 <div class="form-turnstile" data-turnstile-container data-turnstile-required="${form.validation.turnstile}" data-turnstile-error="${form.validation.turnstileError}">
                   <div class="form-turnstile-widget"></div>

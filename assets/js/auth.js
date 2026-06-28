@@ -4,10 +4,38 @@
 
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
 
-const SUPABASE_URL  = 'https://owlcmhlfuszyuwqxuhpb.supabase.co'
-const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im93bGNtaGxmdXN6eXV3cXh1aHBiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODExNTYwOTgsImV4cCI6MjA5NjczMjA5OH0.6DzbUjE-8CmKQbs6PUV7QXjU3uMzp-kU6KVDL6by9JY'
+const DEFAULT_SUPABASE_URL = 'https://owlcmhlfuszyuwqxuhpb.supabase.co'
+const DEFAULT_SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im93bGNtaGxmdXN6eXV3cXh1aHBiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODExNTYwOTgsImV4cCI6MjA5NjczMjA5OH0.6DzbUjE-8CmKQbs6PUV7QXjU3uMzp-kU6KVDL6by9JY'
+
+function readPublicConfig(candidateValue, metaName) {
+  if (typeof candidateValue === 'string' && candidateValue.trim()) {
+    return candidateValue.trim()
+  }
+
+  const metaValue = document
+    .querySelector(`meta[name="${metaName}"]`)
+    ?.getAttribute('content')
+
+  return typeof metaValue === 'string' && metaValue.trim()
+    ? metaValue.trim()
+    : ''
+}
+
+const runtimeConfig = window.__SAMUEL_AUTH_CONFIG__ || {}
+const SUPABASE_URL = readPublicConfig(
+  runtimeConfig.supabaseUrl,
+  'samuel-supabase-url'
+) || DEFAULT_SUPABASE_URL
+const SUPABASE_ANON = readPublicConfig(
+  runtimeConfig.supabaseAnonKey,
+  'samuel-supabase-anon-key'
+) || DEFAULT_SUPABASE_ANON
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON)
+export const authPublicConfig = Object.freeze({
+  supabaseUrl: SUPABASE_URL,
+  supabaseAnonKey: SUPABASE_ANON
+})
 
 // ── i18n ───────────────────────────────────────────────────────────────────────
 
@@ -135,6 +163,24 @@ export async function resetPassword(email) {
 export async function getUser() {
   const { data } = await supabase.auth.getUser()
   return data.user
+}
+
+export async function getUserRoles() {
+  const user = await getUser()
+  if (!user) return []
+
+  const { data, error } = await supabase
+    .from('user_roles')
+    .select('role')
+    .eq('user_id', user.id)
+
+  if (error) return []
+  return (data || []).map((row) => row.role).filter(Boolean)
+}
+
+export async function isAdminUser() {
+  const roles = await getUserRoles()
+  return roles.includes('admin')
 }
 
 // Redirige a /login/ si no hay sesión activa. Usar en páginas protegidas.

@@ -17,7 +17,9 @@ const basePayload = () => ({
   current_level: "B1",
   availability: "Tardes",
   company: "",
-  turnstileToken: "valid-token"
+  turnstileToken: "valid-token",
+  privacy_consent: "true",
+  privacy_policy_version: "2026-06-27"
 });
 
 const buildService = (overrides = {}) =>
@@ -59,6 +61,29 @@ test("rejects an invalid turnstile token", async () => {
 
   const result = await service.process({
     payload: basePayload(),
+    headers: new Headers()
+  });
+
+  assert.equal(result.status, 400);
+  assert.equal(result.body.success, false);
+  assert.equal(result.body.message, GENERIC_RETRY_MESSAGE);
+  assert.equal(inserted, false);
+});
+
+test("rejects submissions without privacy consent", async () => {
+  let inserted = false;
+  const service = buildService({
+    insertLead: async () => {
+      inserted = true;
+      return { success: true, id: "lead-1" };
+    }
+  });
+
+  const payload = basePayload();
+  delete payload.privacy_consent;
+
+  const result = await service.process({
+    payload,
     headers: new Headers()
   });
 

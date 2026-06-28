@@ -18,11 +18,12 @@ async function fillHomeContactForm(page) {
 }
 
 test.describe("contact form", () => {
-  test("shows validation feedback for incomplete submissions", async ({ page }) => {
+  test("requires privacy consent before submitting", async ({ page }) => {
     await page.goto("/#valoracion");
     await acceptCookiesIfVisible(page);
 
     await expect(page.locator(".offer-form")).toBeVisible();
+    await fillHomeContactForm(page);
     await page.getByRole("button", { name: /quiero mi plan personalizado/i }).click();
 
     await expect(page.locator(".form-status")).toHaveText(
@@ -45,6 +46,7 @@ test.describe("contact form", () => {
     await page.goto("/#valoracion");
     await acceptCookiesIfVisible(page);
     await fillHomeContactForm(page);
+    await page.locator('input[name="privacy_consent"]').check();
 
     await expect(page.locator("[data-turnstile-container]")).toBeVisible();
     await page.getByRole("button", { name: /quiero mi plan personalizado/i }).click();
@@ -96,6 +98,7 @@ test.describe("contact form", () => {
     await page.goto("/#valoracion");
     await acceptCookiesIfVisible(page);
     await fillHomeContactForm(page);
+    await page.locator('input[name="privacy_consent"]').check();
 
     await expect(page.locator(".form-turnstile-widget")).toHaveAttribute(
       "data-turnstile-ready",
@@ -110,7 +113,9 @@ test.describe("contact form", () => {
     expect(requestBody).toMatchObject({
       name: "Maria Gomez",
       email: "maria.gomez@example.com",
-      turnstileToken: "mock-turnstile-token"
+      turnstileToken: "mock-turnstile-token",
+      privacy_consent: "true",
+      privacy_policy_version: "2026-06-27"
     });
   });
 });

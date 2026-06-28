@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi cuenta — Samuel Coach de Alemán</title>
   <meta name="robots" content="noindex, nofollow">
+  <meta name="samuel-account-delete-endpoint" content="/functions/v1/account-delete">
+  <meta name="samuel-account-export-endpoint" content="/functions/v1/account-export">
+  <meta name="samuel-account-leads-endpoint" content="/functions/v1/account-leads">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
@@ -42,9 +45,116 @@
         <div class="login-logo">
           <img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="64" height="64">
         </div>
-        <h1 style="font-size:1.2rem;text-align:center;margin-bottom:8px">Mi cuenta</h1>
-        <p id="account-email" style="text-align:center;color:var(--muted);margin-bottom:28px;font-size:.9rem"></p>
-        <button id="btn-signout" class="btn btn-dark login-submit">Cerrar sesión</button>
+        <div class="account-shell">
+          <header class="account-header">
+            <span class="account-kicker">Área privada</span>
+            <h1 style="font-size:1.2rem;margin:0">Mi cuenta</h1>
+            <p id="account-email" class="account-subtitle"></p>
+            <p class="account-subtitle">Aquí verás tu progreso guardado, tu actividad reciente y las próximas mejoras del área privada.</p>
+          </header>
+
+          <p id="account-loading" class="account-loading">Cargando tus datos…</p>
+
+          <section id="account-stats" class="account-grid" hidden>
+            <article class="account-stat">
+              <span class="account-stat-label">Actividades completadas</span>
+              <strong id="stat-completed" class="account-stat-value">0</strong>
+            </article>
+            <article class="account-stat">
+              <span class="account-stat-label">Intentos guardados</span>
+              <strong id="stat-attempts" class="account-stat-value">0</strong>
+            </article>
+            <article class="account-stat">
+              <span class="account-stat-label">Media global</span>
+              <strong id="stat-average" class="account-stat-value">-</strong>
+            </article>
+            <article class="account-stat">
+              <span class="account-stat-label">Última actividad</span>
+              <strong id="stat-last-activity" class="account-stat-value">-</strong>
+            </article>
+          </section>
+
+          <div class="account-panels">
+            <section class="account-panel">
+              <h2>Tu perfil</h2>
+              <p class="account-panel-copy">Puedes guardar tu nombre visible y subir una imagen real de perfil. El avatar se almacena en Supabase Storage y se vincula a tu fila en `profiles`.</p>
+              <form id="profile-form" class="account-profile-form" novalidate>
+                <div class="account-profile-grid">
+                  <div class="account-profile-preview">
+                    <div id="profile-avatar-preview" class="account-avatar">SC</div>
+                    <p id="profile-preview-name" class="account-profile-name">Tu perfil</p>
+                  </div>
+                  <div class="account-profile-fields">
+                    <label class="account-profile-label" for="profile-full-name">Nombre</label>
+                    <input id="profile-full-name" name="full_name" class="account-profile-input" type="text" maxlength="80" placeholder="Tu nombre">
+                    <label class="account-profile-label" for="profile-avatar-file">Foto de perfil</label>
+                    <input id="profile-avatar-file" name="avatar_file" class="account-profile-input account-profile-input--file" type="file" accept="image/png,image/jpeg,image/webp,image/gif">
+                    <p class="account-profile-help">PNG, JPG, WEBP o GIF. Tamaño máximo recomendado: 2 MB.</p>
+                    <label class="account-profile-label" for="profile-avatar-url">O usar URL externa</label>
+                    <input id="profile-avatar-url" name="avatar_url" class="account-profile-input" type="url" maxlength="280" placeholder="https://...">
+                  </div>
+                </div>
+                <div class="account-actions">
+                  <button id="profile-save-button" class="btn btn-dark login-submit" type="submit">Guardar perfil</button>
+                </div>
+                <p id="profile-status" class="account-empty" hidden></p>
+              </form>
+            </section>
+
+            <section class="account-panel">
+              <h2>Progreso por nivel y tipo</h2>
+              <p class="account-panel-copy">Este bloque resume lo que ya has trabajado en la plataforma y la media registrada por bloque.</p>
+              <p id="progress-empty" class="account-empty" hidden>Todavía no hay progreso sincronizado en tu cuenta. En cuanto completes actividades con seguimiento, aparecerán aquí.</p>
+              <ul id="progress-list" class="account-list" hidden></ul>
+            </section>
+
+            <section class="account-panel">
+              <h2>Actividad reciente</h2>
+              <p class="account-panel-copy">Los últimos intentos guardados te ayudan a ver continuidad y detectar si el seguimiento se está registrando bien.</p>
+              <p id="attempts-empty" class="account-empty" hidden>Todavía no hay intentos registrados en tu cuenta.</p>
+              <ul id="attempts-list" class="account-list" hidden></ul>
+            </section>
+
+            <section class="account-panel">
+              <h2>Mis solicitudes</h2>
+              <p class="account-panel-copy">Aquí verás las solicitudes de información o contacto asociadas al correo de tu cuenta y el estado interno con el que se están gestionando.</p>
+              <p id="account-leads-empty" class="account-empty" hidden>Todavía no hay solicitudes asociadas a tu cuenta.</p>
+              <ul id="account-leads-list" class="account-list" hidden></ul>
+            </section>
+
+            <section class="account-panel">
+              <h2>Seguridad y acceso</h2>
+              <p class="account-panel-copy">Aquí puedes revisar tu acceso actual y solicitar un enlace seguro para cambiar la contraseña de tu cuenta.</p>
+              <div class="account-security-grid">
+                <p><strong>Correo:</strong> <span id="access-email">-</span></p>
+                <p><strong>Alta:</strong> <span id="access-created-at">-</span></p>
+              </div>
+              <div id="access-roles" class="account-actions account-actions--roles" aria-label="Roles de la cuenta"></div>
+              <div class="account-actions">
+                <button id="access-reset-password" class="btn btn-dark login-submit" type="button">Enviar enlace para cambiar contraseña</button>
+                <button id="btn-signout" class="btn btn-dark login-submit" type="button">Cerrar sesión</button>
+              </div>
+              <p id="access-status" class="account-empty" hidden></p>
+            </section>
+
+            <section class="account-panel account-panel--danger">
+              <h2>Privacidad y cuenta</h2>
+              <p class="account-panel-copy">Desde aquí puedes descargar una copia de tus datos y, si lo necesitas, ejercer tu derecho de supresión. La eliminación borrará tu acceso, tu perfil, tus roles, tu progreso guardado, los intentos asociados y el avatar subido.</p>
+              <div class="account-actions account-actions--privacy">
+                <button id="export-account-button" class="btn btn-dark login-submit" type="button">Descargar mis datos</button>
+              </div>
+              <p id="export-account-status" class="account-empty" hidden></p>
+              <form id="delete-account-form" class="account-profile-form" novalidate>
+                <label class="account-profile-label" for="delete-account-confirmation">Escribe <strong>ELIMINAR</strong> para confirmar</label>
+                <input id="delete-account-confirmation" name="confirmation" class="account-profile-input" type="text" maxlength="20" placeholder="ELIMINAR" autocomplete="off" spellcheck="false">
+                <div class="account-actions">
+                  <button id="delete-account-button" class="btn btn-danger login-submit" type="submit">Eliminar cuenta</button>
+                </div>
+                <p id="delete-account-status" class="account-empty" hidden></p>
+              </form>
+            </section>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -68,17 +178,630 @@
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
   <script type="module">
-    import { requireAuth, signOut } from '/assets/js/auth.js'
+    import { requireAuth, signOut, supabase, isAdminUser, getUserRoles, resetPassword } from '/assets/js/auth.js'
+
+    const accountEmail = document.getElementById('account-email')
+    const accountLoading = document.getElementById('account-loading')
+    const accountStats = document.getElementById('account-stats')
+    const progressList = document.getElementById('progress-list')
+    const progressEmpty = document.getElementById('progress-empty')
+    const attemptsList = document.getElementById('attempts-list')
+    const attemptsEmpty = document.getElementById('attempts-empty')
+    const accountLeadsList = document.getElementById('account-leads-list')
+    const accountLeadsEmpty = document.getElementById('account-leads-empty')
+    const profileForm = document.getElementById('profile-form')
+    const profileFullName = document.getElementById('profile-full-name')
+    const profileAvatarFile = document.getElementById('profile-avatar-file')
+    const profileAvatarUrl = document.getElementById('profile-avatar-url')
+    const profileAvatarPreview = document.getElementById('profile-avatar-preview')
+    const profilePreviewName = document.getElementById('profile-preview-name')
+    const profileStatus = document.getElementById('profile-status')
+    const profileSaveButton = document.getElementById('profile-save-button')
+    const deleteAccountForm = document.getElementById('delete-account-form')
+    const deleteAccountConfirmation = document.getElementById('delete-account-confirmation')
+    const deleteAccountButton = document.getElementById('delete-account-button')
+    const deleteAccountStatus = document.getElementById('delete-account-status')
+    const exportAccountButton = document.getElementById('export-account-button')
+    const exportAccountStatus = document.getElementById('export-account-status')
+    const accessEmail = document.getElementById('access-email')
+    const accessCreatedAt = document.getElementById('access-created-at')
+    const accessRoles = document.getElementById('access-roles')
+    const accessStatus = document.getElementById('access-status')
+    const accessResetPasswordButton = document.getElementById('access-reset-password')
+
+    const statCompleted = document.getElementById('stat-completed')
+    const statAttempts = document.getElementById('stat-attempts')
+    const statAverage = document.getElementById('stat-average')
+    const statLastActivity = document.getElementById('stat-last-activity')
+    const runtimeConfig = window.__SAMUEL_ACCOUNT_CONFIG__ || {}
+    const accountDeleteEndpointMeta =
+      document.querySelector('meta[name="samuel-account-delete-endpoint"]')?.content?.trim() || ''
+    const accountExportEndpointMeta =
+      document.querySelector('meta[name="samuel-account-export-endpoint"]')?.content?.trim() || ''
+    const accountLeadsEndpointMeta =
+      document.querySelector('meta[name="samuel-account-leads-endpoint"]')?.content?.trim() || ''
+    const accountDeleteEndpoint =
+      (typeof runtimeConfig.deleteEndpoint === 'string' && runtimeConfig.deleteEndpoint.trim()) ||
+      accountDeleteEndpointMeta ||
+      '/functions/v1/account-delete'
+    const accountExportEndpoint =
+      (typeof runtimeConfig.exportEndpoint === 'string' && runtimeConfig.exportEndpoint.trim()) ||
+      accountExportEndpointMeta ||
+      '/functions/v1/account-export'
+    const accountLeadsEndpoint =
+      (typeof runtimeConfig.leadsEndpoint === 'string' && runtimeConfig.leadsEndpoint.trim()) ||
+      accountLeadsEndpointMeta ||
+      '/functions/v1/account-leads'
+
+    let activeUser = null
+    let avatarPreviewObjectUrl = ''
 
     const user = await requireAuth()
     if (user) {
-      document.getElementById('account-email').textContent = user.email
+      activeUser = user
+      accountEmail.textContent = user.email
+      accessEmail.textContent = user.email
+      await renderAdminShortcut()
+      await Promise.all([loadDashboard(), loadProfile(), loadAccessState(), loadOwnLeads()])
     }
 
     document.getElementById('btn-signout').addEventListener('click', async () => {
       await signOut()
       location.href = '/'
     })
+
+    profileForm.addEventListener('submit', async (event) => {
+      event.preventDefault()
+      await saveProfile()
+    })
+
+    deleteAccountForm.addEventListener('submit', async (event) => {
+      event.preventDefault()
+      await deleteAccount()
+    })
+
+    exportAccountButton.addEventListener('click', async () => {
+      await exportAccountData()
+    })
+
+    accessResetPasswordButton.addEventListener('click', async () => {
+      await sendPasswordReset()
+    })
+
+    profileFullName.addEventListener('input', updateProfilePreview)
+    profileAvatarFile.addEventListener('change', updateProfilePreview)
+    profileAvatarUrl.addEventListener('input', updateProfilePreview)
+
+    window.addEventListener('beforeunload', () => {
+      clearAvatarPreviewObjectUrl()
+    })
+
+    function formatDate(value) {
+      if (!value) return '-'
+      const date = new Date(value)
+      return new Intl.DateTimeFormat('es-ES', {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      }).format(date)
+    }
+
+    function formatExerciseType(value) {
+      const map = {
+        leseverstehen: 'Leseverstehen',
+        sprachbausteine_type1: 'Sprachbausteine · Tipo 1',
+        sprachbausteine_type2: 'Sprachbausteine · Tipo 2',
+        lueckentext_type1: 'Lückentext · Tipo 1',
+        lueckentext_type2: 'Lückentext · Tipo 2'
+      }
+      return map[value] || value || 'Actividad'
+    }
+
+    function setProfileStatus(message, isError = false) {
+      profileStatus.textContent = message
+      profileStatus.hidden = false
+      profileStatus.classList.toggle('account-empty-error', isError)
+    }
+
+    function setDeleteAccountStatus(message, isError = false) {
+      deleteAccountStatus.textContent = message
+      deleteAccountStatus.hidden = false
+      deleteAccountStatus.classList.toggle('account-empty-error', isError)
+    }
+
+    function setAccessStatus(message, isError = false) {
+      accessStatus.textContent = message
+      accessStatus.hidden = false
+      accessStatus.classList.toggle('account-empty-error', isError)
+    }
+
+    function setExportAccountStatus(message, isError = false) {
+      exportAccountStatus.textContent = message
+      exportAccountStatus.hidden = false
+      exportAccountStatus.classList.toggle('account-empty-error', isError)
+    }
+
+    function getAvatarInitials(name) {
+      const source = String(name || '').trim()
+      if (!source) return 'SC'
+      return source
+        .split(/\s+/)
+        .slice(0, 2)
+        .map((chunk) => chunk[0]?.toUpperCase() || '')
+        .join('') || 'SC'
+    }
+
+    function clearAvatarPreviewObjectUrl() {
+      if (!avatarPreviewObjectUrl) return
+      URL.revokeObjectURL(avatarPreviewObjectUrl)
+      avatarPreviewObjectUrl = ''
+    }
+
+    function setAvatarPreview(src, altText) {
+      profileAvatarPreview.innerHTML = `<img src="${src.replaceAll('"', '&quot;')}" alt="${altText.replaceAll('"', '&quot;')}">`
+    }
+
+    function updateProfilePreview() {
+      const fullName = profileFullName.value.trim()
+      const selectedFile = profileAvatarFile.files?.[0] || null
+      const avatarUrl = profileAvatarUrl.value.trim()
+
+      profilePreviewName.textContent = fullName || 'Tu perfil'
+
+      if (selectedFile) {
+        clearAvatarPreviewObjectUrl()
+        avatarPreviewObjectUrl = URL.createObjectURL(selectedFile)
+        setAvatarPreview(avatarPreviewObjectUrl, 'Avatar de perfil')
+      } else if (avatarUrl) {
+        clearAvatarPreviewObjectUrl()
+        setAvatarPreview(avatarUrl, 'Avatar de perfil')
+      } else {
+        clearAvatarPreviewObjectUrl()
+        profileAvatarPreview.textContent = getAvatarInitials(fullName)
+      }
+    }
+
+    function getAvatarFileExtension(file) {
+      const extensionFromName = file.name.includes('.')
+        ? file.name.split('.').pop().toLowerCase()
+        : ''
+      if (extensionFromName) return extensionFromName
+
+      const mimeMap = {
+        'image/jpeg': 'jpg',
+        'image/png': 'png',
+        'image/webp': 'webp',
+        'image/gif': 'gif'
+      }
+      return mimeMap[file.type] || 'bin'
+    }
+
+    async function uploadAvatarFile(file) {
+      const extension = getAvatarFileExtension(file)
+      const path = `${activeUser.id}/avatar.${extension}`
+      const bucket = supabase.storage.from('profile-avatars')
+
+      const { error: uploadError } = await bucket.upload(path, file, {
+        cacheControl: '3600',
+        upsert: true
+      })
+
+      if (uploadError) {
+        throw uploadError
+      }
+
+      const { data } = bucket.getPublicUrl(path)
+      return data?.publicUrl || ''
+    }
+
+    async function loadProfile() {
+      if (!activeUser) return
+
+      const { data, error } = await supabase
+        .from('profiles')
+        .select('full_name, avatar_url, created_at')
+        .eq('user_id', activeUser.id)
+        .maybeSingle()
+
+      if (error) {
+        setProfileStatus('No hemos podido cargar tu perfil ahora mismo.', true)
+        return
+      }
+
+      profileFullName.value = data?.full_name || ''
+      profileAvatarUrl.value = data?.avatar_url || ''
+      accessCreatedAt.textContent = data?.created_at ? formatDate(data.created_at) : '-'
+      updateProfilePreview()
+    }
+
+    async function loadAccessState() {
+      if (!activeUser) return
+
+      const roles = await getUserRoles()
+      const normalizedRoles = roles.length ? roles : ['student']
+      accessRoles.innerHTML = normalizedRoles
+        .map((role) => `<span class="account-badge">${escapeHtml(role)}</span>`)
+        .join('')
+    }
+
+    async function saveProfile() {
+      if (!activeUser) return
+
+      profileSaveButton.disabled = true
+      profileStatus.hidden = true
+
+      const fullName = profileFullName.value.trim()
+      const externalAvatarUrl = profileAvatarUrl.value.trim()
+      const selectedFile = profileAvatarFile.files?.[0] || null
+
+      if (!fullName) {
+        setProfileStatus('Añade al menos tu nombre para guardar el perfil.', true)
+        profileSaveButton.disabled = false
+        return
+      }
+
+      let avatarUrl = externalAvatarUrl
+
+      if (selectedFile) {
+        try {
+          avatarUrl = await uploadAvatarFile(selectedFile)
+        } catch (_error) {
+          setProfileStatus('No hemos podido subir tu foto ahora mismo.', true)
+          profileSaveButton.disabled = false
+          return
+        }
+      }
+
+      const { error } = await supabase
+        .from('profiles')
+        .update({
+          full_name: fullName,
+          avatar_url: avatarUrl || null,
+          updated_at: new Date().toISOString()
+        })
+        .eq('user_id', activeUser.id)
+
+      profileSaveButton.disabled = false
+
+      if (error) {
+        setProfileStatus('No hemos podido guardar tu perfil ahora mismo.', true)
+        return
+      }
+
+      profileAvatarUrl.value = avatarUrl || ''
+      profileAvatarFile.value = ''
+      updateProfilePreview()
+      setProfileStatus('Perfil guardado.')
+    }
+
+    async function deleteAccount() {
+      if (!activeUser) return
+
+      const confirmation = deleteAccountConfirmation.value.trim()
+      if (confirmation.toUpperCase() !== 'ELIMINAR') {
+        setDeleteAccountStatus('Escribe ELIMINAR para confirmar la eliminación de la cuenta.', true)
+        return
+      }
+
+      deleteAccountButton.disabled = true
+      deleteAccountStatus.hidden = true
+
+      try {
+        const { data: { session } } = await supabase.auth.getSession()
+        if (!session?.access_token) {
+          throw new Error('Necesitas iniciar sesión de nuevo para completar este paso.')
+        }
+
+        const response = await fetch(accountDeleteEndpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${session.access_token}`
+          },
+          body: JSON.stringify({ confirmation })
+        })
+
+        const result = await response.json().catch(() => ({}))
+        if (!response.ok || !result?.success) {
+          throw new Error(result?.message || 'No hemos podido eliminar tu cuenta ahora mismo.')
+        }
+
+        setDeleteAccountStatus(result.message || 'Tu cuenta se ha eliminado correctamente.')
+        await signOut().catch(() => null)
+        window.setTimeout(() => {
+          location.href = '/?account_deleted=1'
+        }, 700)
+      } catch (error) {
+        setDeleteAccountStatus(
+          error?.message || 'No hemos podido eliminar tu cuenta ahora mismo.',
+          true
+        )
+        deleteAccountButton.disabled = false
+      }
+    }
+
+    async function exportAccountData() {
+      if (!activeUser) return
+
+      exportAccountButton.disabled = true
+      exportAccountStatus.hidden = true
+
+      try {
+        const { data: { session } } = await supabase.auth.getSession()
+        if (!session?.access_token) {
+          throw new Error('Necesitas iniciar sesión de nuevo para completar este paso.')
+        }
+
+        const response = await fetch(accountExportEndpoint, {
+          method: 'GET',
+          headers: {
+            Authorization: `Bearer ${session.access_token}`
+          }
+        })
+
+        const result = await response.json().catch(() => ({}))
+        if (!response.ok || !result?.success || !result?.export) {
+          throw new Error(result?.message || 'No hemos podido preparar tu exportación ahora mismo.')
+        }
+
+        const payload = JSON.stringify(result.export, null, 2)
+        const blob = new Blob([payload], { type: 'application/json' })
+        const objectUrl = URL.createObjectURL(blob)
+        const safeDate = new Date().toISOString().slice(0, 10)
+        const downloadLink = document.createElement('a')
+        downloadLink.href = objectUrl
+        downloadLink.download = `samuel-coach-datos-${safeDate}.json`
+        document.body.appendChild(downloadLink)
+        downloadLink.click()
+        downloadLink.remove()
+        URL.revokeObjectURL(objectUrl)
+
+        setExportAccountStatus('Tu exportación se ha descargado correctamente.')
+      } catch (error) {
+        setExportAccountStatus(
+          error?.message || 'No hemos podido preparar tu exportación ahora mismo.',
+          true
+        )
+      } finally {
+        exportAccountButton.disabled = false
+      }
+    }
+
+    async function sendPasswordReset() {
+      if (!activeUser?.email) return
+
+      accessResetPasswordButton.disabled = true
+      accessStatus.hidden = true
+
+      try {
+        const { error } = await resetPassword(activeUser.email)
+        if (error) {
+          throw error
+        }
+
+        setAccessStatus('Te hemos enviado un enlace para cambiar tu contraseña. Revisa tu correo.')
+      } catch (error) {
+        setAccessStatus(
+          error?.message || 'No hemos podido enviar el enlace de cambio de contraseña.',
+          true
+        )
+      } finally {
+        accessResetPasswordButton.disabled = false
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;')
+    }
+
+    async function renderAdminShortcut() {
+      const nextStepPanel = document.querySelector('.account-panel:last-child .account-actions')
+      if (!nextStepPanel) return
+
+      if (await isAdminUser()) {
+        const adminPanelLink = document.createElement('a')
+        adminPanelLink.href = '/admin/'
+        adminPanelLink.className = 'btn btn-dark'
+        adminPanelLink.textContent = 'Panel admin'
+        const usersLink = document.createElement('a')
+        usersLink.href = '/admin/users/'
+        usersLink.className = 'btn btn-dark'
+        usersLink.textContent = 'Usuarios y roles'
+        const reviewsLink = document.createElement('a')
+        reviewsLink.href = '/admin/reviews/'
+        reviewsLink.className = 'btn btn-dark'
+        reviewsLink.textContent = 'Gestionar reseñas'
+        const adminLink = document.createElement('a')
+        adminLink.href = '/admin/leads/'
+        adminLink.className = 'btn btn-dark'
+        adminLink.textContent = 'Revisar leads'
+        nextStepPanel.prepend(adminPanelLink)
+        nextStepPanel.prepend(usersLink)
+        nextStepPanel.prepend(reviewsLink)
+        nextStepPanel.prepend(adminLink)
+      }
+    }
+
+    function renderProgressRows(rows) {
+      if (!rows.length) {
+        progressEmpty.hidden = false
+        progressList.hidden = true
+        return
+      }
+
+      progressEmpty.hidden = true
+      progressList.hidden = false
+      progressList.innerHTML = rows
+        .sort((a, b) => {
+          if (a.nivel === b.nivel) return a.exercise_type.localeCompare(b.exercise_type)
+          return a.nivel.localeCompare(b.nivel)
+        })
+        .map((row) => `
+          <li class="account-list-item">
+            <div>
+              <span class="account-list-title">${row.nivel} · ${formatExerciseType(row.exercise_type)}</span>
+              <span class="account-list-meta">${row.completed_activities || 0} actividades completadas · Media ${row.average_score ?? '-'}%</span>
+            </div>
+            <span class="account-badge">${formatDate(row.updated_at)}</span>
+          </li>
+        `)
+        .join('')
+    }
+
+    function renderAttemptRows(rows) {
+      if (!rows.length) {
+        attemptsEmpty.hidden = false
+        attemptsList.hidden = true
+        return
+      }
+
+      attemptsEmpty.hidden = true
+      attemptsList.hidden = false
+      attemptsList.innerHTML = rows
+        .map((row) => {
+          const scoreText =
+            row.score != null && row.max_score != null
+              ? `${row.score}/${row.max_score}`
+              : row.score != null
+                ? `${row.score}`
+                : 'Sin nota'
+          return `
+            <li class="account-list-item">
+              <div>
+                <span class="account-list-title">${formatExerciseType(row.exercise?.exercise_type)}</span>
+                <span class="account-list-meta">${row.exercise?.text?.titulo || 'Intento guardado'} · ${formatDate(row.completed_at)}</span>
+              </div>
+              <span class="account-badge">${scoreText}</span>
+            </li>
+          `
+        })
+        .join('')
+    }
+
+    function renderOwnLeads(rows) {
+      if (!rows.length) {
+        accountLeadsEmpty.hidden = false
+        accountLeadsList.hidden = true
+        return
+      }
+
+      accountLeadsEmpty.hidden = true
+      accountLeadsList.hidden = false
+      accountLeadsList.innerHTML = rows
+        .map((row) => `
+          <li class="account-list-item">
+            <div>
+              <span class="account-list-title">${escapeHtml(row.goal || 'Solicitud enviada')}</span>
+              <span class="account-list-meta">${escapeHtml(row.current_level || '-')} · ${escapeHtml(row.availability || '-')} · ${formatDate(row.created_at)}</span>
+              <span class="account-list-meta">${escapeHtml(row.message || 'Sin mensaje adicional')}</span>
+            </div>
+            <span class="account-badge">${escapeHtml(formatLeadStatus(row.status))}</span>
+          </li>
+        `)
+        .join('')
+    }
+
+    function formatLeadStatus(value) {
+      const labels = {
+        new: 'pendiente',
+        reviewed: 'revisado',
+        answered: 'respondido',
+        spam: 'descartado'
+      }
+      return labels[value] || value || 'pendiente'
+    }
+
+    function updateStats(progressRows, attemptsRows) {
+      const completedActivities = progressRows.reduce(
+        (sum, row) => sum + (Number(row.completed_activities) || 0),
+        0
+      )
+      const averageValues = progressRows
+        .map((row) => Number(row.average_score))
+        .filter((value) => Number.isFinite(value))
+      const globalAverage = averageValues.length
+        ? Math.round(averageValues.reduce((sum, value) => sum + value, 0) / averageValues.length)
+        : null
+
+      statCompleted.textContent = String(completedActivities)
+      statAttempts.textContent = String(attemptsRows.length)
+      statAverage.textContent = globalAverage == null ? '-' : `${globalAverage}%`
+      statLastActivity.textContent = attemptsRows[0]?.completed_at
+        ? formatDate(attemptsRows[0].completed_at)
+        : '-'
+      accountStats.hidden = false
+    }
+
+    async function loadDashboard() {
+      const [progressResult, attemptsResult] = await Promise.all([
+        supabase
+          .from('samuel_user_progress')
+          .select('nivel, exercise_type, completed_activities, average_score, updated_at')
+          .order('updated_at', { ascending: false }),
+        supabase
+          .from('samuel_attempts')
+          .select(`
+            completed_at,
+            score,
+            max_score,
+            exercise:samuel_exercises (
+              exercise_type,
+              text:samuel_texts (
+                titulo,
+                nivel
+              )
+            )
+          `)
+          .order('completed_at', { ascending: false })
+          .limit(6)
+      ])
+
+      if (progressResult.error || attemptsResult.error) {
+        accountLoading.textContent = 'No hemos podido cargar tu panel ahora mismo. Vuelve a intentarlo en un momento.'
+        return
+      }
+
+      const progressRows = progressResult.data || []
+      const attemptsRows = attemptsResult.data || []
+
+      updateStats(progressRows, attemptsRows)
+      renderProgressRows(progressRows)
+      renderAttemptRows(attemptsRows)
+      accountLoading.hidden = true
+    }
+
+    async function loadOwnLeads() {
+      if (!activeUser) return
+
+      try {
+        const { data: { session } } = await supabase.auth.getSession()
+        if (!session?.access_token) {
+          throw new Error('No session token')
+        }
+
+        const response = await fetch(accountLeadsEndpoint, {
+          method: 'GET',
+          headers: {
+            Authorization: `Bearer ${session.access_token}`
+          }
+        })
+
+        const result = await response.json().catch(() => ({}))
+        if (!response.ok || !result?.success) {
+          throw new Error(result?.message || 'No hemos podido cargar tus solicitudes ahora mismo.')
+        }
+
+        renderOwnLeads(Array.isArray(result.leads) ? result.leads : [])
+      } catch (_error) {
+        accountLeadsEmpty.hidden = false
+        accountLeadsEmpty.textContent = 'No hemos podido cargar tus solicitudes ahora mismo.'
+        accountLeadsList.hidden = true
+      }
+    }
   </script>
 
 </body>

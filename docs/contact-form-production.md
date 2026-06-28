@@ -41,3 +41,7 @@ Example:
 `Samuel Coach de Alemán <hola@your-domain.com>`
 
 This sender must be valid in your Resend account.
+
+Related overview:
+
+- `docs/production-deployment.md`
