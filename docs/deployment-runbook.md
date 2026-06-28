@@ -38,6 +38,7 @@ If this is still undecided, stop here and decide it first. The public runtime co
 Reference:
 
 - `docs/frontend-runtime-config.md`
+- `docs/production-handoff.md`
 
 ## 2. Link the local project to Supabase
 
@@ -310,4 +311,5 @@ During the first production window:
 
 - `docs/frontend-runtime-config.md`
 - `docs/production-deployment.md`
+- `docs/production-handoff.md`
 - `docs/release-checklist.md`

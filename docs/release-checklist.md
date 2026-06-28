@@ -105,3 +105,4 @@ The main remaining work is operational production setup and live environment ver
 - `docs/admin-operations.md`
 - `docs/leads-retention.md`
 - `docs/pr-scope-production.md`
+- `docs/production-handoff.md`
