@@ -201,6 +201,29 @@
       line-height: 1.5;
     }
 
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      border-bottom: 1.5px solid var(--border);
+      margin-bottom: 28px;
+    }
+    .tab {
+      flex: 1;
+      background: none;
+      border: none;
+      border-bottom: 2.5px solid transparent;
+      margin-bottom: -1.5px;
+      padding: 0 0 12px;
+      font-size: .9rem;
+      font-family: "Cabin", Arial, sans-serif;
+      font-weight: 700;
+      color: var(--muted);
+      cursor: pointer;
+      transition: color .15s, border-color .15s;
+    }
+    .tab.is-active { color: var(--brand-dark); border-bottom-color: var(--brand-dark); }
+    .tab:hover:not(.is-active) { color: var(--text); }
+
     /* ── Footer link ── */
     .page-footer {
       margin-top: 28px;
@@ -224,59 +247,47 @@
       <img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="56" height="56">
     </a>
 
-    <!-- ── Sign in ── -->
-    <div class="card" id="card-signin">
-      <div class="card-title">Bienvenido de vuelta</div>
-      <div class="card-sub">Accede a tu cuenta para continuar</div>
-
-      <div id="signin-error" class="msg msg-error" hidden></div>
-
-      <form id="form-signin" novalidate>
-        <div class="field">
-          <label for="signin-email">Correo electrónico</label>
-          <input type="email" id="signin-email" name="email" autocomplete="email" required placeholder="tu@email.com">
-        </div>
-        <div class="field">
-          <label for="signin-password">Contraseña</label>
-          <input type="password" id="signin-password" name="password" autocomplete="current-password" required placeholder="••••••••">
-        </div>
-        <div class="forgot-row">
-          <button type="button" id="btn-reset">¿Olvidaste tu contraseña?</button>
-        </div>
-        <button type="submit" class="btn-primary">Entrar</button>
-      </form>
-
-      <div class="divider">o</div>
-
-      <div class="link-row">
-        ¿No tienes cuenta? <button type="button" id="btn-to-signup">Crear cuenta</button>
+    <!-- ── Sign in / Sign up (shared card with tabs) ── -->
+    <div class="card" id="card-auth">
+      <div class="tabs">
+        <button class="tab is-active" id="btn-to-signin" type="button">Iniciar sesión</button>
+        <button class="tab" id="btn-to-signup" type="button">Crear cuenta</button>
       </div>
-    </div>
 
-    <!-- ── Sign up ── -->
-    <div class="card" id="card-signup" hidden>
-      <div class="card-title">Crear cuenta</div>
-      <div class="card-sub">Solo para alumnos activos de Samuel</div>
+      <!-- Sign in -->
+      <div id="panel-signin">
+        <div id="signin-error" class="msg msg-error" hidden></div>
+        <form id="form-signin" novalidate>
+          <div class="field">
+            <label for="signin-email">Correo electrónico</label>
+            <input type="email" id="signin-email" name="email" autocomplete="email" required placeholder="tu@email.com">
+          </div>
+          <div class="field">
+            <label for="signin-password">Contraseña</label>
+            <input type="password" id="signin-password" name="password" autocomplete="current-password" required placeholder="••••••••">
+          </div>
+          <div class="forgot-row">
+            <button type="button" id="btn-reset">¿Olvidaste tu contraseña?</button>
+          </div>
+          <button type="submit" class="btn-primary">Entrar</button>
+        </form>
+      </div>
 
-      <div id="signup-error" class="msg msg-error" hidden></div>
-      <div id="signup-ok"    class="msg msg-ok"    hidden></div>
-
-      <form id="form-signup" novalidate>
-        <div class="field">
-          <label for="signup-email">Correo electrónico</label>
-          <input type="email" id="signup-email" name="email" autocomplete="email" required placeholder="tu@email.com">
-        </div>
-        <div class="field">
-          <label for="signup-password">Contraseña</label>
-          <input type="password" id="signup-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
-        </div>
-        <button type="submit" class="btn-primary">Crear cuenta</button>
-      </form>
-
-      <div class="divider">o</div>
-
-      <div class="link-row">
-        ¿Ya tienes cuenta? <button type="button" id="btn-to-signin">Iniciar sesión</button>
+      <!-- Sign up -->
+      <div id="panel-signup" hidden>
+        <div id="signup-error" class="msg msg-error" hidden></div>
+        <div id="signup-ok"    class="msg msg-ok"    hidden></div>
+        <form id="form-signup" novalidate>
+          <div class="field">
+            <label for="signup-email">Correo electrónico</label>
+            <input type="email" id="signup-email" name="email" autocomplete="email" required placeholder="tu@email.com">
+          </div>
+          <div class="field">
+            <label for="signup-password">Contraseña</label>
+            <input type="password" id="signup-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
+          </div>
+          <button type="submit" class="btn-primary">Crear cuenta</button>
+        </form>
       </div>
     </div>
 
@@ -331,28 +342,33 @@
 
   <!-- Navigation works independently of auth module so it never breaks -->
   <script>
-    const _cards = ['card-signin','card-signup','card-reset','card-newpass']
     function showCard(name) {
-      _cards.forEach(id => { const el = document.getElementById(id); if (el) el.hidden = id !== name })
+      ['card-auth','card-reset','card-newpass'].forEach(id => {
+        const el = document.getElementById(id); if (el) el.hidden = id !== name
+      })
+    }
+    function showPanel(name) {
+      document.getElementById('panel-signin').hidden = name !== 'signin'
+      document.getElementById('panel-signup').hidden = name !== 'signup'
+      document.getElementById('btn-to-signin').classList.toggle('is-active', name === 'signin')
+      document.getElementById('btn-to-signup').classList.toggle('is-active', name === 'signup')
     }
     if (new URLSearchParams(location.search).get('reset') === '1') showCard('card-newpass')
     document.addEventListener('DOMContentLoaded', function() {
-      document.getElementById('btn-to-signup').addEventListener('click', () => showCard('card-signup'))
-      document.getElementById('btn-to-signin').addEventListener('click', () => showCard('card-signin'))
+      document.getElementById('btn-to-signup').addEventListener('click', () => { showCard('card-auth'); showPanel('signup') })
+      document.getElementById('btn-to-signin').addEventListener('click', () => { showCard('card-auth'); showPanel('signin') })
       document.getElementById('btn-reset').addEventListener('click', () => showCard('card-reset'))
-      document.getElementById('btn-back-signin').addEventListener('click', () => showCard('card-signin'))
+      document.getElementById('btn-back-signin').addEventListener('click', () => { showCard('card-auth'); showPanel('signin') })
     })
   </script>
 
   <script type="module">
     import { buildAccountUrl, signIn, signUp, resetPassword, supabase } from '/assets/js/auth.js'
 
-    function show(name) { showCard(name) }
-
     const isRecovery = new URLSearchParams(location.search).get('reset') === '1'
 
     supabase.auth.onAuthStateChange((event, session) => {
-      if (event === 'PASSWORD_RECOVERY') show('card-newpass')
+      if (event === 'PASSWORD_RECOVERY') showCard('card-newpass')
       else if (session && !isRecovery) redirect()
     })
 
