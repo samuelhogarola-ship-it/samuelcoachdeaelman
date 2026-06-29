@@ -7,271 +7,435 @@
   <meta name="description" content="Accede a tu cuenta de Samuel Coach de Alemán para guardar tu progreso y acceder a contenido premium.">
   <link rel="canonical" href="https://www.samuelcoachdealeman.com/login/">
   <meta name="robots" content="noindex, follow">
-  <meta name="theme-color" content="#455a64">
+  <meta name="theme-color" content="#0f2260">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --brand:      #1a3a8c;
+      --brand-dark: #0f2260;
+      --brand-pale: #edf5ff;
+      --text:       #152332;
+      --muted:      #506173;
+      --border:     #d7e1ea;
+      --bg:         #f5f8ff;
+      --white:      #ffffff;
+      --error:      #c0392b;
+      --ok:         #1a7a4a;
+      --radius:     10px;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: "Lato", Arial, sans-serif;
+      font-size: 15px;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Layout ── */
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    /* ── Logo ── */
+    .logo-link {
+      display: block;
+      margin-bottom: 28px;
+      text-align: center;
+    }
+    .logo-link img {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 36px 40px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 2px 12px rgba(26,58,140,.06);
+    }
+
+    .card-title {
+      font-family: "Cabin", Arial, sans-serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .card-sub {
+      font-size: .85rem;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    /* ── Fields ── */
+    .field { margin-bottom: 16px; }
+    .field label {
+      display: block;
+      font-size: .8rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 6px;
+      letter-spacing: .02em;
+    }
+    .field input {
+      width: 100%;
+      padding: 10px 13px;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      font-size: .95rem;
+      font-family: inherit;
+      color: var(--text);
+      background: var(--white);
+      outline: none;
+      transition: border-color .15s;
+      -webkit-appearance: none;
+    }
+    .field input::placeholder { color: #a0aec0; }
+    .field input:focus { border-color: var(--brand); }
+
+    /* ── Button ── */
+    .btn-primary {
+      display: block;
+      width: 100%;
+      padding: 11px;
+      background: var(--brand-dark);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-size: .95rem;
+      font-family: "Cabin", Arial, sans-serif;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity .15s;
+      margin-top: 4px;
+    }
+    .btn-primary:hover { opacity: .88; }
+    .btn-primary:disabled { opacity: .55; cursor: default; }
+
+    /* ── Divider ── */
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 22px 0;
+      color: var(--border);
+      font-size: .75rem;
+      color: #a0aec0;
+    }
+    .divider::before, .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Links / helpers ── */
+    .link-row {
+      text-align: center;
+      font-size: .85rem;
+      color: var(--muted);
+      margin-top: 18px;
+    }
+    .link-row a, .link-row button {
+      color: var(--brand);
+      font-weight: 700;
+      text-decoration: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: inherit;
+      font-family: inherit;
+      padding: 0;
+    }
+    .link-row a:hover, .link-row button:hover { text-decoration: underline; }
+
+    .forgot-row {
+      text-align: right;
+      margin-top: -8px;
+      margin-bottom: 18px;
+    }
+    .forgot-row button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: .8rem;
+      color: var(--muted);
+      font-family: inherit;
+      padding: 0;
+    }
+    .forgot-row button:hover { color: var(--brand); }
+
+    /* ── Messages ── */
+    .msg {
+      font-size: .83rem;
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-bottom: 14px;
+    }
+    .msg-error { background: #fff0f0; color: var(--error); border: 1px solid #ffd5d5; }
+    .msg-ok    { background: #f0fff7; color: var(--ok);    border: 1px solid #b7f0d0; }
+
+    .reset-desc {
+      font-size: .88rem;
+      color: var(--muted);
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    /* ── Footer link ── */
+    .page-footer {
+      margin-top: 28px;
+      font-size: .8rem;
+      color: #a0aec0;
+      text-align: center;
+    }
+    .page-footer a { color: var(--muted); text-decoration: none; }
+    .page-footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 460px) {
+      .card { padding: 28px 24px; }
+    }
+  </style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-inner">
-      <a class="nav-logo" href="/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
-      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" aria-haspopup="true">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/servicios/">Clases</a></li>
-        <li><a href="/recursos/">Recursos</a></li>
-        <li><a href="/sobre-mi/">Sobre mí</a></li>
-      </ul>
-    </div>
-    <div id="mobile-menu" class="mobile-menu" hidden>
-      <a href="/">Inicio</a>
-      <a href="/servicios/">Clases</a>
-      <a href="/recursos/">Recursos</a>
-      <a href="/sobre-mi/">Sobre mí</a>
-    </div>
-  </nav>
+  <div class="page">
 
-  <main>
-    <section class="login-section">
-      <div class="login-card">
+    <a class="logo-link" href="/">
+      <img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="56" height="56">
+    </a>
 
-        <div class="login-logo">
-          <img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="64" height="64">
+    <!-- ── Sign in ── -->
+    <div class="card" id="card-signin">
+      <div class="card-title">Bienvenido de vuelta</div>
+      <div class="card-sub">Accede a tu cuenta para continuar</div>
+
+      <div id="signin-error" class="msg msg-error" hidden></div>
+
+      <form id="form-signin" novalidate>
+        <div class="field">
+          <label for="signin-email">Correo electrónico</label>
+          <input type="email" id="signin-email" name="email" autocomplete="email" required placeholder="tu@email.com">
         </div>
-
-        <div class="login-tabs" role="tablist">
-          <button class="login-tab is-active" role="tab" data-tab="signin" aria-selected="true">Iniciar sesión</button>
-          <button class="login-tab" role="tab" data-tab="signup" aria-selected="false">Crear cuenta</button>
+        <div class="field">
+          <label for="signin-password">Contraseña</label>
+          <input type="password" id="signin-password" name="password" autocomplete="current-password" required placeholder="••••••••">
         </div>
+        <div class="forgot-row">
+          <button type="button" id="btn-reset">¿Olvidaste tu contraseña?</button>
+        </div>
+        <button type="submit" class="btn-primary">Entrar</button>
+      </form>
 
-        <!-- Sign in -->
-        <form id="form-signin" class="login-form" novalidate>
-          <div class="login-field">
-            <label for="signin-email">Correo electrónico</label>
-            <input type="email" id="signin-email" name="email" autocomplete="email" required placeholder="tu@email.com">
-          </div>
-          <div class="login-field">
-            <label for="signin-password">Contraseña</label>
-            <input type="password" id="signin-password" name="password" autocomplete="current-password" required placeholder="••••••••">
-          </div>
-          <div id="signin-error" class="login-error" hidden></div>
-          <button type="submit" class="btn btn-dark login-submit">Entrar</button>
-          <button type="button" class="login-reset-link" id="btn-reset">¿Olvidaste tu contraseña?</button>
-        </form>
+      <div class="divider">o</div>
 
-        <!-- Sign up -->
-        <form id="form-signup" class="login-form" hidden novalidate>
-          <div class="login-field">
-            <label for="signup-email">Correo electrónico</label>
-            <input type="email" id="signup-email" name="email" autocomplete="email" required placeholder="tu@email.com">
-          </div>
-          <div class="login-field">
-            <label for="signup-password">Contraseña</label>
-            <input type="password" id="signup-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
-          </div>
-          <div id="signup-error" class="login-error" hidden></div>
-          <div id="signup-ok" class="login-ok" hidden></div>
-          <button type="submit" class="btn btn-dark login-submit">Crear cuenta</button>
-        </form>
-
-        <!-- Reset password (request link) -->
-        <form id="form-reset" class="login-form" hidden novalidate>
-          <p class="login-reset-desc">Escribe tu correo y te enviamos un enlace para restablecer tu contraseña.</p>
-          <div class="login-field">
-            <label for="reset-email">Correo electrónico</label>
-            <input type="email" id="reset-email" name="email" autocomplete="email" required placeholder="tu@email.com">
-          </div>
-          <div id="reset-error" class="login-error" hidden></div>
-          <div id="reset-ok" class="login-ok" hidden></div>
-          <button type="submit" class="btn btn-dark login-submit">Enviar enlace</button>
-          <button type="button" class="login-reset-link" id="btn-back-to-signin">← Volver al inicio de sesión</button>
-        </form>
-
-        <!-- New password (after clicking reset link in email) -->
-        <form id="form-newpass" class="login-form" hidden novalidate>
-          <p class="login-reset-desc">Elige una nueva contraseña para tu cuenta.</p>
-          <div class="login-field">
-            <label for="newpass-password">Nueva contraseña</label>
-            <input type="password" id="newpass-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
-          </div>
-          <div id="newpass-error" class="login-error" hidden></div>
-          <div id="newpass-ok" class="login-ok" hidden></div>
-          <button type="submit" class="btn btn-dark login-submit">Guardar contraseña</button>
-        </form>
-
+      <div class="link-row">
+        ¿No tienes cuenta? <button type="button" id="btn-to-signup">Crear cuenta</button>
       </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-top">
-        <a class="footer-logo footer-logo-fun" href="/"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
-        <div class="footer-links">
-          <a href="/recursos/">Recursos</a>
-          <a href="/servicios">Servicios</a>
-          <a href="/metodologia">Metodología</a>
-          <a href="/#faq">Preguntas frecuentes</a>
-          <a href="/politica-de-privacidad">Política de privacidad</a>
-        </div>
-      </div>
-      <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · Todos los derechos reservados.</div>
     </div>
-  </footer>
+
+    <!-- ── Sign up ── -->
+    <div class="card" id="card-signup" hidden>
+      <div class="card-title">Crear cuenta</div>
+      <div class="card-sub">Solo para alumnos activos de Samuel</div>
+
+      <div id="signup-error" class="msg msg-error" hidden></div>
+      <div id="signup-ok"    class="msg msg-ok"    hidden></div>
+
+      <form id="form-signup" novalidate>
+        <div class="field">
+          <label for="signup-email">Correo electrónico</label>
+          <input type="email" id="signup-email" name="email" autocomplete="email" required placeholder="tu@email.com">
+        </div>
+        <div class="field">
+          <label for="signup-password">Contraseña</label>
+          <input type="password" id="signup-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
+        </div>
+        <button type="submit" class="btn-primary">Crear cuenta</button>
+      </form>
+
+      <div class="divider">o</div>
+
+      <div class="link-row">
+        ¿Ya tienes cuenta? <button type="button" id="btn-to-signin">Iniciar sesión</button>
+      </div>
+    </div>
+
+    <!-- ── Reset password ── -->
+    <div class="card" id="card-reset" hidden>
+      <div class="card-title">Recuperar contraseña</div>
+
+      <div id="reset-error" class="msg msg-error" hidden></div>
+      <div id="reset-ok"    class="msg msg-ok"    hidden></div>
+
+      <p class="reset-desc">Escribe tu correo y te enviamos un enlace para restablecer tu contraseña.</p>
+
+      <form id="form-reset" novalidate>
+        <div class="field">
+          <label for="reset-email">Correo electrónico</label>
+          <input type="email" id="reset-email" name="email" autocomplete="email" required placeholder="tu@email.com">
+        </div>
+        <button type="submit" class="btn-primary">Enviar enlace</button>
+      </form>
+
+      <div class="link-row" style="margin-top:16px">
+        <button type="button" id="btn-back-signin">← Volver</button>
+      </div>
+    </div>
+
+    <!-- ── New password ── -->
+    <div class="card" id="card-newpass" hidden>
+      <div class="card-title">Nueva contraseña</div>
+
+      <div id="newpass-error" class="msg msg-error" hidden></div>
+      <div id="newpass-ok"    class="msg msg-ok"    hidden></div>
+
+      <p class="reset-desc">Elige una nueva contraseña para tu cuenta.</p>
+
+      <form id="form-newpass" novalidate>
+        <div class="field">
+          <label for="newpass-password">Nueva contraseña</label>
+          <input type="password" id="newpass-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
+        </div>
+        <button type="submit" class="btn-primary">Guardar contraseña</button>
+      </form>
+    </div>
+
+    <div class="page-footer">
+      <a href="/">samuelcoachdealeman.com</a> · <a href="/politica-de-privacidad/">Privacidad</a>
+    </div>
+
+  </div>
 
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
-  <script src="/assets/js/main.js" defer></script>
   <script type="module">
     import { buildAccountUrl, signIn, signUp, resetPassword, supabase } from '/assets/js/auth.js'
 
-    const isRecovery = new URLSearchParams(location.search).get('reset') === '1'
-
-    // If this is a recovery link, wait for Supabase to fire PASSWORD_RECOVERY
-    // before showing any form (hides the default sign-in tab flash)
-    if (isRecovery) {
-      document.querySelectorAll('.login-tab').forEach(t => t.closest('.login-tabs').hidden = true)
-      document.getElementById('form-signin').hidden = true
+    const cards = {
+      signin:  document.getElementById('card-signin'),
+      signup:  document.getElementById('card-signup'),
+      reset:   document.getElementById('card-reset'),
+      newpass: document.getElementById('card-newpass'),
     }
 
+    function show(name) {
+      Object.values(cards).forEach(c => c.hidden = true)
+      cards[name].hidden = false
+    }
+
+    const isRecovery = new URLSearchParams(location.search).get('reset') === '1'
+    if (isRecovery) show('newpass')
+
     supabase.auth.onAuthStateChange((event, session) => {
-      if (event === 'PASSWORD_RECOVERY') showNewPassForm()
-      else if (session && !isRecovery) redirectAfterLogin()
+      if (event === 'PASSWORD_RECOVERY') show('newpass')
+      else if (session && !isRecovery) redirect()
     })
 
     supabase.auth.getSession().then(({ data: { session } }) => {
-      if (session && !isRecovery) redirectAfterLogin()
+      if (session && !isRecovery) redirect()
     })
 
-    function showNewPassForm() {
-      document.querySelectorAll('.login-form').forEach(f => f.hidden = true)
-      document.querySelectorAll('.login-tabs').forEach(t => t.hidden = true)
-      document.getElementById('form-newpass').hidden = false
+    function redirect() {
+      const r = new URLSearchParams(location.search).get('redirect')
+      location.href = r && r.startsWith('/') ? r : buildAccountUrl()
     }
 
-    function redirectAfterLogin() {
-      const redirect = new URLSearchParams(location.search).get('redirect')
-      location.href = redirect && redirect.startsWith('/') ? redirect : buildAccountUrl()
-    }
+    // ── Navigation ──
+    document.getElementById('btn-to-signup').addEventListener('click', () => show('signup'))
+    document.getElementById('btn-to-signin').addEventListener('click', () => show('signin'))
+    document.getElementById('btn-reset').addEventListener('click', () => show('reset'))
+    document.getElementById('btn-back-signin').addEventListener('click', () => show('signin'))
 
-    // Tab switching
-    const tabs   = document.querySelectorAll('.login-tab')
-    const signin = document.getElementById('form-signin')
-    const signup = document.getElementById('form-signup')
-
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        tabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected','false') })
-        tab.classList.add('is-active')
-        tab.setAttribute('aria-selected', 'true')
-        signin.hidden = tab.dataset.tab !== 'signin'
-        signup.hidden = tab.dataset.tab !== 'signup'
-        document.getElementById('form-reset').hidden = true
-      })
-    })
-
-    // Reset password toggle
-    document.getElementById('btn-reset').addEventListener('click', () => {
-      signin.hidden = true
-      signup.hidden = true
-      document.getElementById('form-reset').hidden = false
-    })
-    document.getElementById('btn-back-to-signin').addEventListener('click', () => {
-      document.getElementById('form-reset').hidden = true
-      signin.hidden = false
-    })
-
-    function showError(id, msg) {
+    // ── Helpers ──
+    function showMsg(id, msg, type) {
       const el = document.getElementById(id)
       el.textContent = msg
       el.hidden = false
+      el.className = `msg msg-${type}`
     }
-    function clearMsg(id) {
-      const el = document.getElementById(id)
-      if (el) { el.textContent = ''; el.hidden = true }
+    function clearMsg(...ids) {
+      ids.forEach(id => { const el = document.getElementById(id); if (el) { el.textContent = ''; el.hidden = true } })
     }
-    function setLoading(btn, loading) {
-      btn.disabled = loading
-      btn.textContent = loading ? 'Un momento…' : btn.dataset.label
+    function setLoading(btn, on) {
+      btn.disabled = on
+      btn.textContent = on ? 'Un momento…' : btn.dataset.label
     }
+    document.querySelectorAll('.btn-primary').forEach(b => b.dataset.label = b.textContent)
 
-    // Store labels
-    document.querySelectorAll('.login-submit').forEach(btn => {
-      btn.dataset.label = btn.textContent
-    })
-
-    // Sign in
+    // ── Sign in ──
     document.getElementById('form-signin').addEventListener('submit', async e => {
       e.preventDefault()
       clearMsg('signin-error')
-      const btn   = e.target.querySelector('.login-submit')
-      const email = document.getElementById('signin-email').value.trim()
-      const pass  = document.getElementById('signin-password').value
+      const btn = e.target.querySelector('.btn-primary')
       setLoading(btn, true)
-      const { error } = await signIn(email, pass)
+      const { error } = await signIn(
+        document.getElementById('signin-email').value.trim(),
+        document.getElementById('signin-password').value
+      )
       setLoading(btn, false)
-      if (error) { showError('signin-error', error.message); return }
-      redirectAfterLogin()
+      if (error) { showMsg('signin-error', error.message, 'error'); return }
+      redirect()
     })
 
-    // Sign up
+    // ── Sign up ──
     document.getElementById('form-signup').addEventListener('submit', async e => {
       e.preventDefault()
-      clearMsg('signup-error')
-      clearMsg('signup-ok')
-      const btn   = e.target.querySelector('.login-submit')
-      const email = document.getElementById('signup-email').value.trim()
-      const pass  = document.getElementById('signup-password').value
-      if (pass.length < 6) { showError('signup-error', 'La contraseña debe tener al menos 6 caracteres.'); return }
+      clearMsg('signup-error', 'signup-ok')
+      const btn  = e.target.querySelector('.btn-primary')
+      const pass = document.getElementById('signup-password').value
+      if (pass.length < 6) { showMsg('signup-error', 'La contraseña debe tener al menos 6 caracteres.', 'error'); return }
       setLoading(btn, true)
-      const { error } = await signUp(email, pass)
+      const { error } = await signUp(document.getElementById('signup-email').value.trim(), pass)
       setLoading(btn, false)
-      if (error) { showError('signup-error', error.message); return }
-      const ok = document.getElementById('signup-ok')
-      ok.textContent = 'Cuenta creada. Revisa tu correo para confirmar.'
-      ok.hidden = false
+      if (error) { showMsg('signup-error', error.message, 'error'); return }
+      showMsg('signup-ok', 'Cuenta creada. Revisa tu correo para confirmar.', 'ok')
     })
 
-    // Reset password (request link)
+    // ── Reset ──
     document.getElementById('form-reset').addEventListener('submit', async e => {
       e.preventDefault()
-      clearMsg('reset-error')
-      clearMsg('reset-ok')
-      const btn   = e.target.querySelector('.login-submit')
-      const email = document.getElementById('reset-email').value.trim()
+      clearMsg('reset-error', 'reset-ok')
+      const btn = e.target.querySelector('.btn-primary')
       setLoading(btn, true)
-      const { error } = await resetPassword(email)
+      const { error } = await resetPassword(document.getElementById('reset-email').value.trim())
       setLoading(btn, false)
-      if (error) { showError('reset-error', error.message); return }
-      const ok = document.getElementById('reset-ok')
-      ok.textContent = 'Enlace enviado. Revisa tu correo.'
-      ok.hidden = false
+      if (error) { showMsg('reset-error', error.message, 'error'); return }
+      showMsg('reset-ok', 'Enlace enviado. Revisa tu correo.', 'ok')
     })
 
-    // New password (after clicking email link)
+    // ── New password ──
     document.getElementById('form-newpass').addEventListener('submit', async e => {
       e.preventDefault()
-      clearMsg('newpass-error')
-      clearMsg('newpass-ok')
-      const btn  = e.target.querySelector('.login-submit')
+      clearMsg('newpass-error', 'newpass-ok')
+      const btn  = e.target.querySelector('.btn-primary')
       const pass = document.getElementById('newpass-password').value
-      if (pass.length < 6) { showError('newpass-error', 'La contraseña debe tener al menos 6 caracteres.'); return }
+      if (pass.length < 6) { showMsg('newpass-error', 'La contraseña debe tener al menos 6 caracteres.', 'error'); return }
       setLoading(btn, true)
       const { error } = await supabase.auth.updateUser({ password: pass })
       setLoading(btn, false)
-      if (error) { showError('newpass-error', error.message); return }
-      const ok = document.getElementById('newpass-ok')
-      ok.textContent = 'Contraseña actualizada. Redirigiendo…'
-      ok.hidden = false
-      setTimeout(() => { location.href = buildAccountUrl() }, 1500)
+      if (error) { showMsg('newpass-error', error.message, 'error'); return }
+      showMsg('newpass-ok', 'Contraseña actualizada. Redirigiendo…', 'ok')
+      setTimeout(() => location.href = buildAccountUrl(), 1500)
     })
   </script>
 
