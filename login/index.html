@@ -328,26 +328,31 @@
 
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
+
+  <!-- Navigation works independently of auth module so it never breaks -->
+  <script>
+    const _cards = ['card-signin','card-signup','card-reset','card-newpass']
+    function showCard(name) {
+      _cards.forEach(id => { const el = document.getElementById(id); if (el) el.hidden = id !== name })
+    }
+    if (new URLSearchParams(location.search).get('reset') === '1') showCard('card-newpass')
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('btn-to-signup').addEventListener('click', () => showCard('card-signup'))
+      document.getElementById('btn-to-signin').addEventListener('click', () => showCard('card-signin'))
+      document.getElementById('btn-reset').addEventListener('click', () => showCard('card-reset'))
+      document.getElementById('btn-back-signin').addEventListener('click', () => showCard('card-signin'))
+    })
+  </script>
+
   <script type="module">
     import { buildAccountUrl, signIn, signUp, resetPassword, supabase } from '/assets/js/auth.js'
 
-    const cards = {
-      signin:  document.getElementById('card-signin'),
-      signup:  document.getElementById('card-signup'),
-      reset:   document.getElementById('card-reset'),
-      newpass: document.getElementById('card-newpass'),
-    }
-
-    function show(name) {
-      Object.values(cards).forEach(c => c.hidden = true)
-      cards[name].hidden = false
-    }
+    function show(name) { showCard(name) }
 
     const isRecovery = new URLSearchParams(location.search).get('reset') === '1'
-    if (isRecovery) show('newpass')
 
     supabase.auth.onAuthStateChange((event, session) => {
-      if (event === 'PASSWORD_RECOVERY') show('newpass')
+      if (event === 'PASSWORD_RECOVERY') show('card-newpass')
       else if (session && !isRecovery) redirect()
     })
 
@@ -359,12 +364,6 @@
       const r = new URLSearchParams(location.search).get('redirect')
       location.href = r && r.startsWith('/') ? r : buildAccountUrl()
     }
-
-    // ── Navigation ──
-    document.getElementById('btn-to-signup').addEventListener('click', () => show('signup'))
-    document.getElementById('btn-to-signin').addEventListener('click', () => show('signin'))
-    document.getElementById('btn-reset').addEventListener('click', () => show('reset'))
-    document.getElementById('btn-back-signin').addEventListener('click', () => show('signin'))
 
     // ── Helpers ──
     function showMsg(id, msg, type) {
