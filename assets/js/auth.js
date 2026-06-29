@@ -4,8 +4,8 @@
 
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
 
-const SUPABASE_URL  = 'https://fvhxbbhxucwawypfzikf.supabase.co'
-const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ2aHhiYmh4dWN3YXd5cGZ6aWtmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyMzEzMzEsImV4cCI6MjA5MDgwNzMzMX0.LBSbe0SGXM5mGB9Ym6ljLUyI1Tug7yP9YNFlROE6kRE'
+const SUPABASE_URL  = 'https://hocdlmxzghwymamientc.supabase.co'
+const SUPABASE_ANON = 'sb_publishable_d2RkD-vcqXebnAFs31AdHw_ti2Eb5qO'
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON)
 
@@ -43,6 +43,28 @@ function t() {
   return I18N[seg] ?? I18N.es
 }
 
+function getLocale() {
+  const seg = location.pathname.split('/')[1]
+  return I18N[seg] ? seg : 'es'
+}
+
+export function getLocalePrefix() {
+  const locale = getLocale()
+  return locale === 'es' ? '' : `/${locale}`
+}
+
+export function buildLoginUrl(redirectTo = location.pathname) {
+  return `${getLocalePrefix()}/login/?redirect=${encodeURIComponent(redirectTo)}`
+}
+
+export function buildAccountUrl() {
+  return `${getLocalePrefix()}/mi-cuenta/`
+}
+
+export function buildPasswordResetUrl() {
+  return `${location.origin}${getLocalePrefix()}/login/?reset=1`
+}
+
 // ── Nav ────────────────────────────────────────────────────────────────────────
 
 function updateNav(user) {
@@ -57,8 +79,8 @@ function updateNav(user) {
       navLinks.appendChild(li)
     }
     li.innerHTML = user
-      ? `<a href="/mi-cuenta/" class="nav-auth">${t().navAccount}</a>`
-      : `<a href="/login/?redirect=${encodeURIComponent(location.pathname)}" class="nav-auth nav-auth--cta">${t().navLogin}</a>`
+      ? `<a href="${buildAccountUrl()}" class="nav-auth">${t().navAccount}</a>`
+      : `<a href="${buildLoginUrl()}" class="nav-auth nav-auth--cta">${t().navLogin}</a>`
   }
 
   if (mobileMenu) {
@@ -68,7 +90,7 @@ function updateNav(user) {
       a.id = 'mobile-auth-a'
       mobileMenu.appendChild(a)
     }
-    a.href        = user ? '/mi-cuenta/' : `/login/?redirect=${encodeURIComponent(location.pathname)}`
+    a.href        = user ? buildAccountUrl() : buildLoginUrl()
     a.textContent = user ? t().navAccount : t().navLogin
     a.className   = user ? '' : 'mobile-cta'
   }
@@ -83,10 +105,10 @@ function updatePremiumBlocks(user) {
   document.querySelectorAll('[data-premium-cta]').forEach(btn => {
     if (user) {
       btn.textContent = t().premiumCtaAuth
-      btn.href = '/mi-cuenta/'
+      btn.href = buildAccountUrl()
       btn.setAttribute('data-auth-state', 'authenticated')
     } else {
-      btn.href = `/login/?redirect=${encodeURIComponent(location.pathname)}`
+      btn.href = buildLoginUrl()
       btn.textContent = t().premiumCta
       btn.setAttribute('data-auth-state', 'anonymous')
     }
@@ -128,7 +150,7 @@ export async function signOut() {
 
 export async function resetPassword(email) {
   return supabase.auth.resetPasswordForEmail(email, {
-    redirectTo: `${location.origin}/login/?reset=1`,
+    redirectTo: buildPasswordResetUrl(),
   })
 }
 
@@ -141,7 +163,7 @@ export async function getUser() {
 export async function requireAuth(redirectTo = location.pathname) {
   const { data: { session } } = await supabase.auth.getSession()
   if (!session) {
-    location.href = `/login/?redirect=${encodeURIComponent(redirectTo)}`
+    location.href = buildLoginUrl(redirectTo)
   }
   return session?.user ?? null
 }

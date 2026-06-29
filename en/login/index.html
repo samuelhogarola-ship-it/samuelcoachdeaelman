@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iniciar sesión — Samuel Coach de Alemán</title>
-  <meta name="description" content="Accede a tu cuenta de Samuel Coach de Alemán para guardar tu progreso y acceder a contenido premium.">
-  <link rel="canonical" href="https://www.samuelcoachdealeman.com/login/">
+  <title>Log In — Samuel Coach de Alemán</title>
+  <meta name="description" content="Access your Samuel Coach de Alemán account to save your progress and unlock premium content.">
+  <link rel="canonical" href="https://www.samuelcoachdealeman.com/en/login/">
   <meta name="robots" content="noindex, follow">
   <meta name="theme-color" content="#455a64">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
@@ -15,27 +15,51 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <script>
+    window.siteLocaleContent = {
+      navigation: {
+        openMenu: "Open menu",
+        closeMenu: "Close menu"
+      },
+      cookieBanner: {
+        imageAlt: "Decorative cookie for the cookie banner",
+        title: "Your privacy matters",
+        noticeHtml: '<p>We use necessary cookies so the website works properly and, only if you agree, analytics cookies to understand usage and improve the site. <a href="/en/politica-de-privacidad/">Read the privacy policy</a>.</p>',
+        acceptLabel: "Accept",
+        rejectLabel: "Reject",
+        configLabel: "Manage cookies",
+        configModalTitle: "Manage your cookies",
+        configModalIntro: "You can keep only the necessary cookies or also enable analytics cookies. You can always change your choice later by clearing your browser cookies.",
+        necessaryTitle: "Necessary cookies",
+        necessaryDescription: "They are essential for basic features such as navigation, security and remembering your consent choice.",
+        necessaryBadge: "Always on",
+        analyticsTitle: "Analytics cookies",
+        analyticsDescription: "They help us understand how the website is used so we can improve content, performance and the browsing experience.",
+        saveConfigLabel: "Save settings"
+      }
+    };
+  </script>
 </head>
 <body>
 
   <nav>
     <div class="nav-inner">
-      <a class="nav-logo" href="/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
-      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" aria-haspopup="true">
+      <a class="nav-logo" href="/en/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
+      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu" aria-haspopup="true">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/servicios/">Clases</a></li>
-        <li><a href="/recursos/">Recursos</a></li>
-        <li><a href="/sobre-mi/">Sobre mí</a></li>
+        <li><a href="/en/">Home</a></li>
+        <li><a href="/en/servicios/">Lessons</a></li>
+        <li><a href="/en/recursos/">Resources</a></li>
+        <li><a href="/en/sobre-mi/">About me</a></li>
       </ul>
     </div>
     <div id="mobile-menu" class="mobile-menu" hidden>
-      <a href="/">Inicio</a>
-      <a href="/servicios/">Clases</a>
-      <a href="/recursos/">Recursos</a>
-      <a href="/sobre-mi/">Sobre mí</a>
+      <a href="/en/">Home</a>
+      <a href="/en/servicios/">Lessons</a>
+      <a href="/en/recursos/">Resources</a>
+      <a href="/en/sobre-mi/">About me</a>
     </div>
   </nav>
 
@@ -48,63 +72,59 @@
         </div>
 
         <div class="login-tabs" role="tablist">
-          <button class="login-tab is-active" role="tab" data-tab="signin" aria-selected="true">Iniciar sesión</button>
-          <button class="login-tab" role="tab" data-tab="signup" aria-selected="false">Crear cuenta</button>
+          <button class="login-tab is-active" role="tab" data-tab="signin" aria-selected="true">Log in</button>
+          <button class="login-tab" role="tab" data-tab="signup" aria-selected="false">Create account</button>
         </div>
 
-        <!-- Sign in -->
         <form id="form-signin" class="login-form" novalidate>
           <div class="login-field">
-            <label for="signin-email">Correo electrónico</label>
-            <input type="email" id="signin-email" name="email" autocomplete="email" required placeholder="tu@email.com">
+            <label for="signin-email">Email</label>
+            <input type="email" id="signin-email" name="email" autocomplete="email" required placeholder="your@email.com">
           </div>
           <div class="login-field">
-            <label for="signin-password">Contraseña</label>
+            <label for="signin-password">Password</label>
             <input type="password" id="signin-password" name="password" autocomplete="current-password" required placeholder="••••••••">
           </div>
           <div id="signin-error" class="login-error" hidden></div>
-          <button type="submit" class="btn btn-dark login-submit">Entrar</button>
-          <button type="button" class="login-reset-link" id="btn-reset">¿Olvidaste tu contraseña?</button>
+          <button type="submit" class="btn btn-dark login-submit">Log in</button>
+          <button type="button" class="login-reset-link" id="btn-reset">Forgot your password?</button>
         </form>
 
-        <!-- Sign up -->
         <form id="form-signup" class="login-form" hidden novalidate>
           <div class="login-field">
-            <label for="signup-email">Correo electrónico</label>
-            <input type="email" id="signup-email" name="email" autocomplete="email" required placeholder="tu@email.com">
+            <label for="signup-email">Email</label>
+            <input type="email" id="signup-email" name="email" autocomplete="email" required placeholder="your@email.com">
           </div>
           <div class="login-field">
-            <label for="signup-password">Contraseña</label>
-            <input type="password" id="signup-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
+            <label for="signup-password">Password</label>
+            <input type="password" id="signup-password" name="password" autocomplete="new-password" required placeholder="At least 6 characters">
           </div>
           <div id="signup-error" class="login-error" hidden></div>
           <div id="signup-ok" class="login-ok" hidden></div>
-          <button type="submit" class="btn btn-dark login-submit">Crear cuenta</button>
+          <button type="submit" class="btn btn-dark login-submit">Create account</button>
         </form>
 
-        <!-- Reset password (request link) -->
         <form id="form-reset" class="login-form" hidden novalidate>
-          <p class="login-reset-desc">Escribe tu correo y te enviamos un enlace para restablecer tu contraseña.</p>
+          <p class="login-reset-desc">Enter your email address and we will send you a link to reset your password.</p>
           <div class="login-field">
-            <label for="reset-email">Correo electrónico</label>
-            <input type="email" id="reset-email" name="email" autocomplete="email" required placeholder="tu@email.com">
+            <label for="reset-email">Email</label>
+            <input type="email" id="reset-email" name="email" autocomplete="email" required placeholder="your@email.com">
           </div>
           <div id="reset-error" class="login-error" hidden></div>
           <div id="reset-ok" class="login-ok" hidden></div>
-          <button type="submit" class="btn btn-dark login-submit">Enviar enlace</button>
-          <button type="button" class="login-reset-link" id="btn-back-to-signin">← Volver al inicio de sesión</button>
+          <button type="submit" class="btn btn-dark login-submit">Send link</button>
+          <button type="button" class="login-reset-link" id="btn-back-to-signin">← Back to log in</button>
         </form>
 
-        <!-- New password (after clicking reset link in email) -->
         <form id="form-newpass" class="login-form" hidden novalidate>
-          <p class="login-reset-desc">Elige una nueva contraseña para tu cuenta.</p>
+          <p class="login-reset-desc">Choose a new password for your account.</p>
           <div class="login-field">
-            <label for="newpass-password">Nueva contraseña</label>
-            <input type="password" id="newpass-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
+            <label for="newpass-password">New password</label>
+            <input type="password" id="newpass-password" name="password" autocomplete="new-password" required placeholder="At least 6 characters">
           </div>
           <div id="newpass-error" class="login-error" hidden></div>
           <div id="newpass-ok" class="login-ok" hidden></div>
-          <button type="submit" class="btn btn-dark login-submit">Guardar contraseña</button>
+          <button type="submit" class="btn btn-dark login-submit">Save password</button>
         </form>
 
       </div>
@@ -114,16 +134,16 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-top">
-        <a class="footer-logo footer-logo-fun" href="/"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
+        <a class="footer-logo footer-logo-fun" href="/en/"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
         <div class="footer-links">
-          <a href="/recursos/">Recursos</a>
-          <a href="/servicios">Servicios</a>
-          <a href="/metodologia">Metodología</a>
-          <a href="/#faq">Preguntas frecuentes</a>
-          <a href="/politica-de-privacidad">Política de privacidad</a>
+          <a href="/en/recursos/">Resources</a>
+          <a href="/en/servicios/">Lessons</a>
+          <a href="/en/metodologia/">Methodology</a>
+          <a href="/en/#faq">FAQ</a>
+          <a href="/en/politica-de-privacidad/">Privacy policy</a>
         </div>
       </div>
-      <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · Todos los derechos reservados.</div>
+      <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · All rights reserved.</div>
     </div>
   </footer>
 
@@ -133,10 +153,16 @@
   <script type="module">
     import { buildAccountUrl, signIn, signUp, resetPassword, supabase } from '/assets/js/auth.js'
 
+    const copy = {
+      loading: 'One moment…',
+      passwordShort: 'Password must be at least 6 characters long.',
+      signupSuccess: 'Account created. Please check your email to confirm it.',
+      resetSuccess: 'Link sent. Please check your email inbox.',
+      updateSuccess: 'Password updated. Redirecting…'
+    }
+
     const isRecovery = new URLSearchParams(location.search).get('reset') === '1'
 
-    // If this is a recovery link, wait for Supabase to fire PASSWORD_RECOVERY
-    // before showing any form (hides the default sign-in tab flash)
     if (isRecovery) {
       document.querySelectorAll('.login-tab').forEach(t => t.closest('.login-tabs').hidden = true)
       document.getElementById('form-signin').hidden = true
@@ -162,14 +188,13 @@
       location.href = redirect && redirect.startsWith('/') ? redirect : buildAccountUrl()
     }
 
-    // Tab switching
-    const tabs   = document.querySelectorAll('.login-tab')
+    const tabs = document.querySelectorAll('.login-tab')
     const signin = document.getElementById('form-signin')
     const signup = document.getElementById('form-signup')
 
     tabs.forEach(tab => {
       tab.addEventListener('click', () => {
-        tabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected','false') })
+        tabs.forEach(t => { t.classList.remove('is-active'); t.setAttribute('aria-selected', 'false') })
         tab.classList.add('is-active')
         tab.setAttribute('aria-selected', 'true')
         signin.hidden = tab.dataset.tab !== 'signin'
@@ -178,7 +203,6 @@
       })
     })
 
-    // Reset password toggle
     document.getElementById('btn-reset').addEventListener('click', () => {
       signin.hidden = true
       signup.hidden = true
@@ -194,27 +218,30 @@
       el.textContent = msg
       el.hidden = false
     }
+
     function clearMsg(id) {
       const el = document.getElementById(id)
-      if (el) { el.textContent = ''; el.hidden = true }
-    }
-    function setLoading(btn, loading) {
-      btn.disabled = loading
-      btn.textContent = loading ? 'Un momento…' : btn.dataset.label
+      if (el) {
+        el.textContent = ''
+        el.hidden = true
+      }
     }
 
-    // Store labels
+    function setLoading(btn, loading) {
+      btn.disabled = loading
+      btn.textContent = loading ? copy.loading : btn.dataset.label
+    }
+
     document.querySelectorAll('.login-submit').forEach(btn => {
       btn.dataset.label = btn.textContent
     })
 
-    // Sign in
     document.getElementById('form-signin').addEventListener('submit', async e => {
       e.preventDefault()
       clearMsg('signin-error')
-      const btn   = e.target.querySelector('.login-submit')
+      const btn = e.target.querySelector('.login-submit')
       const email = document.getElementById('signin-email').value.trim()
-      const pass  = document.getElementById('signin-password').value
+      const pass = document.getElementById('signin-password').value
       setLoading(btn, true)
       const { error } = await signIn(email, pass)
       setLoading(btn, false)
@@ -222,54 +249,51 @@
       redirectAfterLogin()
     })
 
-    // Sign up
     document.getElementById('form-signup').addEventListener('submit', async e => {
       e.preventDefault()
       clearMsg('signup-error')
       clearMsg('signup-ok')
-      const btn   = e.target.querySelector('.login-submit')
+      const btn = e.target.querySelector('.login-submit')
       const email = document.getElementById('signup-email').value.trim()
-      const pass  = document.getElementById('signup-password').value
-      if (pass.length < 6) { showError('signup-error', 'La contraseña debe tener al menos 6 caracteres.'); return }
+      const pass = document.getElementById('signup-password').value
+      if (pass.length < 6) { showError('signup-error', copy.passwordShort); return }
       setLoading(btn, true)
       const { error } = await signUp(email, pass)
       setLoading(btn, false)
       if (error) { showError('signup-error', error.message); return }
       const ok = document.getElementById('signup-ok')
-      ok.textContent = 'Cuenta creada. Revisa tu correo para confirmar.'
+      ok.textContent = copy.signupSuccess
       ok.hidden = false
     })
 
-    // Reset password (request link)
     document.getElementById('form-reset').addEventListener('submit', async e => {
       e.preventDefault()
       clearMsg('reset-error')
       clearMsg('reset-ok')
-      const btn   = e.target.querySelector('.login-submit')
+      const btn = e.target.querySelector('.login-submit')
       const email = document.getElementById('reset-email').value.trim()
       setLoading(btn, true)
       const { error } = await resetPassword(email)
       setLoading(btn, false)
       if (error) { showError('reset-error', error.message); return }
       const ok = document.getElementById('reset-ok')
-      ok.textContent = 'Enlace enviado. Revisa tu correo.'
+      ok.textContent = copy.resetSuccess
       ok.hidden = false
     })
 
-    // New password (after clicking email link)
     document.getElementById('form-newpass').addEventListener('submit', async e => {
       e.preventDefault()
       clearMsg('newpass-error')
       clearMsg('newpass-ok')
-      const btn  = e.target.querySelector('.login-submit')
+      const btn = e.target.querySelector('.login-submit')
       const pass = document.getElementById('newpass-password').value
-      if (pass.length < 6) { showError('newpass-error', 'La contraseña debe tener al menos 6 caracteres.'); return }
+      if (pass.length < 6) { showError('newpass-error', copy.passwordShort); return }
       setLoading(btn, true)
       const { error } = await supabase.auth.updateUser({ password: pass })
       setLoading(btn, false)
       if (error) { showError('newpass-error', error.message); return }
       const ok = document.getElementById('newpass-ok')
-      ok.textContent = 'Contraseña actualizada. Redirigiendo…'
+      ok.textContent = copy.updateSuccess
       ok.hidden = false
       setTimeout(() => { location.href = buildAccountUrl() }, 1500)
     })

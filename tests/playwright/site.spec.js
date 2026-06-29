@@ -53,6 +53,32 @@ test.describe("home interactions", () => {
     await page.reload();
     await expect(page.getByRole("heading", { name: /tu privacidad importa/i })).toHaveCount(0);
   });
+
+  test("keeps localized auth routes for german and english pages", async ({ context, page }) => {
+    await context.clearCookies();
+
+    await page.goto("/de/");
+    await expect(page.locator("#nav-auth-li a")).toHaveAttribute(
+      "href",
+      /\/de\/login\/\?redirect=%2Fde%2F/
+    );
+
+    await page.goto("/en/");
+    await expect(page.locator("#nav-auth-li a")).toHaveAttribute(
+      "href",
+      /\/en\/login\/\?redirect=%2Fen%2F/
+    );
+  });
+
+  test("redirects localized account pages to localized login when signed out", async ({ context, page }) => {
+    await context.clearCookies();
+
+    await page.goto("/de/mi-cuenta/");
+    await page.waitForURL(/\/de\/login\/\?redirect=/);
+
+    await page.goto("/en/mi-cuenta/");
+    await page.waitForURL(/\/en\/login\/\?redirect=/);
+  });
 });
 
 test.describe("leseverstehen", () => {
