@@ -12,6 +12,154 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <style>
+    .account-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+    .account-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .account-header h1 {
+      font-size: 1.6rem;
+      margin: 0;
+    }
+    .account-header p {
+      color: var(--muted);
+      font-size: .9rem;
+      margin: 4px 0 0;
+    }
+    .btn-signout {
+      background: none;
+      border: 1.5px solid var(--line, #e2e8f0);
+      color: var(--muted);
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-size: .85rem;
+      cursor: pointer;
+      transition: border-color .2s, color .2s;
+    }
+    .btn-signout:hover { border-color: var(--fg); color: var(--fg); }
+
+    .account-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .stat-card {
+      background: var(--card-bg, #fff);
+      border: 1px solid var(--line, #e2e8f0);
+      border-radius: 14px;
+      padding: 24px 20px;
+    }
+    .stat-card__label { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+    .stat-card__value { font-size: 2.2rem; font-weight: 800; margin: 8px 0 0; color: var(--fg); }
+    .stat-card__sub { font-size: .82rem; color: var(--muted); margin-top: 4px; }
+
+    .section-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 16px;
+      color: var(--fg);
+    }
+    .progress-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .88rem;
+      background: var(--card-bg, #fff);
+      border: 1px solid var(--line, #e2e8f0);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 40px;
+    }
+    .progress-table th {
+      text-align: left;
+      padding: 12px 18px;
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--muted);
+      background: var(--bg-subtle, #f8fafc);
+      border-bottom: 1px solid var(--line, #e2e8f0);
+    }
+    .progress-table td {
+      padding: 13px 18px;
+      border-bottom: 1px solid var(--line, #e2e8f0);
+      color: var(--fg);
+    }
+    .progress-table tr:last-child td { border-bottom: none; }
+    .score-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .score-bar__track {
+      flex: 1;
+      height: 6px;
+      background: var(--line, #e2e8f0);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .score-bar__fill {
+      height: 100%;
+      background: var(--brand, #2563eb);
+      border-radius: 999px;
+      transition: width .4s ease;
+    }
+
+    .quick-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-bottom: 40px;
+    }
+    .quick-link {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--card-bg, #fff);
+      border: 1px solid var(--line, #e2e8f0);
+      border-radius: 14px;
+      padding: 18px 20px;
+      text-decoration: none;
+      color: var(--fg);
+      font-weight: 600;
+      font-size: .9rem;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .quick-link:hover {
+      border-color: var(--brand, #2563eb);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand, #2563eb) 10%, transparent);
+    }
+    .quick-link__icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: color-mix(in srgb, var(--brand, #2563eb) 10%, transparent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .quick-link__sub { font-size: .78rem; color: var(--muted); font-weight: 400; margin-top: 2px; }
+
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    .empty-state a { color: var(--brand, #2563eb); text-decoration: none; font-weight: 600; }
+    .empty-state a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
 
@@ -37,16 +185,78 @@
   </nav>
 
   <main>
-    <section class="login-section">
-      <div class="login-card">
-        <div class="login-logo">
-          <img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="64" height="64">
+    <div class="account-wrap">
+
+      <div class="account-header">
+        <div>
+          <h1>Mi cuenta</h1>
+          <p id="account-email"></p>
         </div>
-        <h1 style="font-size:1.2rem;text-align:center;margin-bottom:8px">Mi cuenta</h1>
-        <p id="account-email" style="text-align:center;color:var(--muted);margin-bottom:28px;font-size:.9rem"></p>
-        <button id="btn-signout" class="btn btn-dark login-submit">Cerrar sesión</button>
+        <button id="btn-signout" class="btn-signout">Cerrar sesión</button>
       </div>
-    </section>
+
+      <!-- Stats -->
+      <div class="account-grid">
+        <div class="stat-card">
+          <div class="stat-card__label">Ejercicios completados</div>
+          <div class="stat-card__value" id="stat-total">—</div>
+          <div class="stat-card__sub">en total</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__label">Nota media</div>
+          <div class="stat-card__value" id="stat-avg">—</div>
+          <div class="stat-card__sub">sobre 100</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__label">Último ejercicio</div>
+          <div class="stat-card__value" id="stat-last" style="font-size:1.1rem;padding-top:6px">—</div>
+          <div class="stat-card__sub" id="stat-last-sub"></div>
+        </div>
+      </div>
+
+      <!-- Progreso por tipo -->
+      <h2 class="section-title">Progreso por tipo de ejercicio</h2>
+      <div id="progress-container">
+        <div class="empty-state">
+          Aún no has completado ningún ejercicio.<br>
+          <a href="/recursos/">Empieza aquí →</a>
+        </div>
+      </div>
+
+      <!-- Acceso rápido -->
+      <h2 class="section-title">Acceso rápido</h2>
+      <div class="quick-links">
+        <a class="quick-link" href="/recursos/">
+          <div class="quick-link__icon">📚</div>
+          <div>
+            <div>Recursos</div>
+            <div class="quick-link__sub">Fichas, gramática y más</div>
+          </div>
+        </a>
+        <a class="quick-link" href="/recursos/hoerverstehen/">
+          <div class="quick-link__icon">🎧</div>
+          <div>
+            <div>Hörverstehen</div>
+            <div class="quick-link__sub">Comprensión auditiva</div>
+          </div>
+        </a>
+        <a class="quick-link" href="/recursos/schreiben/">
+          <div class="quick-link__icon">✍️</div>
+          <div>
+            <div>Schreiben</div>
+            <div class="quick-link__sub">Expresión escrita</div>
+          </div>
+        </a>
+        <a class="quick-link" href="/servicios/">
+          <div class="quick-link__icon">📅</div>
+          <div>
+            <div>Reservar clase</div>
+            <div class="quick-link__sub">Con Samuel</div>
+          </div>
+        </a>
+      </div>
+
+    </div>
   </main>
 
   <footer>
@@ -68,17 +278,86 @@
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
   <script type="module">
-    import { getLocalePrefix, requireAuth, signOut } from '/assets/js/auth.js'
+    import { supabase, getLocalePrefix, requireAuth, signOut } from '/assets/js/auth.js'
+
+    const APPS_URL  = 'https://hocdlmxzghwymamientc.supabase.co'
+    const APPS_ANON = 'sb_publishable_d2RkD-vcqXebnAFs31AdHw_ti2Eb5qO'
 
     const user = await requireAuth()
-    if (user) {
-      document.getElementById('account-email').textContent = user.email
-    }
+    if (!user) return
+
+    document.getElementById('account-email').textContent = user.email
 
     document.getElementById('btn-signout').addEventListener('click', async () => {
       await signOut()
-      location.href = `${getLocalePrefix() || '/'}`
+      location.href = getLocalePrefix() || '/'
     })
+
+    // Cargar progreso desde apps-users
+    async function loadProgress() {
+      const res = await fetch(
+        `${APPS_URL}/rest/v1/samuel_user_progress?user_id=eq.${user.id}&select=nivel,exercise_type,completed_activities,average_score&order=nivel,exercise_type`,
+        { headers: { apikey: APPS_ANON, Authorization: `Bearer ${(await supabase.auth.getSession()).data.session?.access_token}` } }
+      )
+      if (!res.ok) return []
+      return res.json()
+    }
+
+    async function loadAttempts() {
+      const res = await fetch(
+        `${APPS_URL}/rest/v1/samuel_attempts?user_id=eq.${user.id}&select=score,max_score,completed_at&order=completed_at.desc&limit=20`,
+        { headers: { apikey: APPS_ANON, Authorization: `Bearer ${(await supabase.auth.getSession()).data.session?.access_token}` } }
+      )
+      if (!res.ok) return []
+      return res.json()
+    }
+
+    const [progress, attempts] = await Promise.all([loadProgress(), loadAttempts()])
+
+    // Stats globales
+    if (attempts.length > 0) {
+      const total = attempts.length
+      const avg = attempts.reduce((s, a) => s + (a.max_score > 0 ? (a.score / a.max_score) * 100 : 0), 0) / total
+      const last = new Date(attempts[0].completed_at)
+
+      document.getElementById('stat-total').textContent = total
+      document.getElementById('stat-avg').textContent = Math.round(avg)
+      document.getElementById('stat-last').textContent = last.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })
+      document.getElementById('stat-last-sub').textContent = last.toLocaleDateString('es-ES', { year: 'numeric' })
+    }
+
+    // Tabla de progreso por tipo
+    if (progress.length > 0) {
+      const TYPE_LABELS = {
+        lueckentext: 'Lückentext',
+        leseverstehen: 'Leseverstehen',
+        hoerverstehen: 'Hörverstehen',
+        schreiben: 'Schreiben',
+        sprachbausteine: 'Sprachbausteine',
+      }
+      const NIVEL_LABELS = { a1:'A1', a2:'A2', b1:'B1', b2:'B2', c1:'C1' }
+
+      const table = document.createElement('table')
+      table.className = 'progress-table'
+      table.innerHTML = `<thead><tr>
+        <th>Nivel</th><th>Tipo</th><th>Completados</th><th>Nota media</th>
+      </tr></thead>`
+      const tbody = document.createElement('tbody')
+      for (const row of progress) {
+        const pct = row.average_score != null ? Math.round(row.average_score) : null
+        tbody.innerHTML += `<tr>
+          <td>${NIVEL_LABELS[row.nivel] ?? row.nivel}</td>
+          <td>${TYPE_LABELS[row.exercise_type] ?? row.exercise_type}</td>
+          <td>${row.completed_activities}</td>
+          <td>${pct != null ? `<div class="score-bar">
+            <div class="score-bar__track"><div class="score-bar__fill" style="width:${pct}%"></div></div>
+            <span>${pct}</span>
+          </div>` : '—'}</td>
+        </tr>`
+      }
+      table.appendChild(tbody)
+      document.getElementById('progress-container').replaceWith(table)
+    }
   </script>
 
 </body>
