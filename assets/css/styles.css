@@ -980,6 +980,19 @@ details[open] summary::after { content: "−"; }
   opacity: 0;
   pointer-events: none;
 }
+.form-turnstile {
+  display: grid;
+  gap: 10px;
+  margin-top: 4px;
+}
+.form-turnstile-widget {
+  min-height: 66px;
+}
+.form-turnstile-note {
+  margin: 0;
+  font-size: .82rem;
+  color: rgba(255,255,255,.78);
+}
 
 footer { background: #0f2260; color: rgba(255,255,255,.65); padding: 36px 24px; }
 .footer-inner { max-width: 1060px; margin: 0 auto; }
