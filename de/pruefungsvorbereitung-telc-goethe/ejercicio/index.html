@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Übung — Prüfungsvorbereitung | Samuel Coach de Alemán</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://www.samuelcoachdealeman.com/de/pruefungsvorbereitung-telc-goethe/ejercicio/">
+  <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <style>
+    :root {
+      --ex-border: #d7e1ea;
+      --ex-bg: #f7fbff;
+      --ex-ok: #1a7a4a;
+      --ex-ok-bg: #f0fff7;
+      --ex-ok-border: #b7f0d0;
+      --ex-err: #c0392b;
+      --ex-err-bg: #fff0f0;
+      --ex-err-border: #ffd5d5;
+    }
+
+    .ex-wrap { max-width: 740px; margin: 0 auto; padding: 40px 20px 80px; }
+
+    /* ── Breadcrumb ── */
+    .breadcrumb { font-size: .8rem; color: var(--muted); margin-bottom: 28px; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; }
+
+    /* ── Nivel picker ── */
+    .nivel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      margin-bottom: 40px;
+    }
+    .nivel-btn {
+      padding: 20px;
+      background: #fff;
+      border: 1.5px solid var(--ex-border);
+      border-radius: 12px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color .15s, box-shadow .15s;
+      font-family: "Cabin", sans-serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--dark);
+    }
+    .nivel-btn:hover { border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-pale); }
+    .nivel-btn small { display: block; font-size: .7rem; color: var(--muted); font-family: "Lato", sans-serif; font-weight: 400; margin-top: 4px; }
+
+    /* ── Exercise list ── */
+    .ex-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 32px; }
+    .ex-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 20px;
+      background: #fff;
+      border: 1px solid var(--ex-border);
+      border-radius: 12px;
+      text-decoration: none;
+      color: var(--text);
+      transition: border-color .15s, box-shadow .15s;
+      gap: 12px;
+    }
+    .ex-item:hover { border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-pale); }
+    .ex-item__title { font-weight: 700; font-size: .95rem; }
+    .ex-item__desc { font-size: .8rem; color: var(--muted); margin-top: 2px; }
+    .ex-item__type { font-size: .75rem; background: var(--teal-pale); color: var(--teal-dark); padding: 3px 8px; border-radius: 999px; white-space: nowrap; font-weight: 700; flex-shrink: 0; }
+    .ex-item__type.type2 { background: #fff0e0; color: #b45309; }
+
+    /* ── Exercise player ── */
+    .ex-header { margin-bottom: 28px; }
+    .ex-header h1 { font-size: 1.4rem; margin: 0 0 6px; }
+    .ex-header p { color: var(--muted); font-size: .88rem; margin: 0; }
+
+    .ex-type-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: .75rem;
+      font-weight: 700;
+      background: var(--teal-pale);
+      color: var(--teal-dark);
+      margin-bottom: 16px;
+    }
+
+    .ex-text {
+      background: #fff;
+      border: 1px solid var(--ex-border);
+      border-radius: 12px;
+      padding: 24px;
+      line-height: 1.9;
+      font-size: .95rem;
+      margin-bottom: 28px;
+    }
+    .ex-text p { margin: 0 0 12px; }
+    .ex-text p:last-child { margin-bottom: 0; }
+
+    /* Blanks */
+    .blank-select, .blank-input {
+      display: inline-block;
+      font-family: inherit;
+      font-size: .9rem;
+      border: 1.5px solid var(--teal);
+      border-radius: 6px;
+      background: var(--teal-pale);
+      color: var(--text);
+      padding: 2px 6px;
+      vertical-align: baseline;
+      cursor: pointer;
+      min-width: 100px;
+    }
+    .blank-select:focus, .blank-input:focus { outline: 2px solid var(--teal); outline-offset: 1px; }
+    .blank-input { min-width: 120px; }
+
+    .blank-select.is-correct, .blank-input.is-correct {
+      background: var(--ex-ok-bg);
+      border-color: var(--ex-ok);
+      color: var(--ex-ok);
+    }
+    .blank-select.is-wrong, .blank-input.is-wrong {
+      background: var(--ex-err-bg);
+      border-color: var(--ex-err);
+      color: var(--ex-err);
+    }
+
+    .blank-reveal {
+      display: none;
+      font-size: .78rem;
+      color: var(--ex-ok);
+      font-weight: 700;
+      margin-left: 4px;
+    }
+    .blank-reveal.show { display: inline; }
+
+    /* T/F questions */
+    .tf-section { margin-bottom: 28px; }
+    .tf-section h2 { font-size: 1rem; font-weight: 700; margin: 0 0 16px; }
+    .tf-list { display: flex; flex-direction: column; gap: 10px; }
+    .tf-item {
+      background: #fff;
+      border: 1px solid var(--ex-border);
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .tf-item__stmt { font-size: .9rem; margin-bottom: 10px; color: var(--text); }
+    .tf-btns { display: flex; gap: 8px; }
+    .tf-btn {
+      padding: 6px 18px;
+      border: 1.5px solid var(--ex-border);
+      border-radius: 8px;
+      background: none;
+      font-family: "Cabin", sans-serif;
+      font-weight: 700;
+      font-size: .85rem;
+      cursor: pointer;
+      color: var(--muted);
+      transition: all .15s;
+    }
+    .tf-btn:hover { border-color: var(--teal); color: var(--teal); }
+    .tf-btn.selected { background: var(--teal); border-color: var(--teal); color: #fff; }
+    .tf-btn.is-correct { background: var(--ex-ok-bg); border-color: var(--ex-ok); color: var(--ex-ok); }
+    .tf-btn.is-wrong   { background: var(--ex-err-bg); border-color: var(--ex-err); color: var(--ex-err); }
+    .tf-item__exp { font-size: .8rem; color: var(--muted); margin-top: 8px; display: none; }
+    .tf-item__exp.show { display: block; }
+
+    /* Score */
+    .score-box {
+      background: #fff;
+      border: 1.5px solid var(--ex-border);
+      border-radius: 14px;
+      padding: 28px 24px;
+      text-align: center;
+      margin-bottom: 28px;
+    }
+    .score-box__value { font-size: 3rem; font-weight: 800; color: var(--dark); line-height: 1; }
+    .score-box__label { font-size: .85rem; color: var(--muted); margin-top: 6px; }
+    .score-box__bar-wrap {
+      height: 8px;
+      background: var(--ex-border);
+      border-radius: 999px;
+      overflow: hidden;
+      margin: 16px 0 12px;
+    }
+    .score-box__bar { height: 100%; background: var(--teal); border-radius: 999px; transition: width .5s ease; }
+
+    /* Actions */
+    .ex-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .btn-submit {
+      padding: 12px 28px;
+      background: var(--dark);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-family: "Cabin", sans-serif;
+      font-weight: 700;
+      font-size: .95rem;
+      cursor: pointer;
+      transition: opacity .15s;
+    }
+    .btn-submit:hover { opacity: .88; }
+    .btn-submit:disabled { opacity: .5; cursor: default; }
+
+    .btn-retry {
+      padding: 12px 24px;
+      background: none;
+      border: 1.5px solid var(--ex-border);
+      border-radius: 10px;
+      font-family: "Cabin", sans-serif;
+      font-weight: 700;
+      font-size: .95rem;
+      cursor: pointer;
+      color: var(--text);
+      transition: border-color .15s;
+    }
+    .btn-retry:hover { border-color: var(--teal); }
+
+    /* Loading / error */
+    .state-box { text-align: center; padding: 60px 20px; color: var(--muted); }
+    .state-box h2 { font-size: 1.1rem; color: var(--text); margin: 0 0 8px; }
+
+    /* Saved badge */
+    .saved-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      background: var(--ex-ok-bg);
+      border: 1px solid var(--ex-ok-border);
+      border-radius: 8px;
+      font-size: .8rem;
+      color: var(--ex-ok);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="/de/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
+      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen" aria-haspopup="true">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/de/">Start</a></li>
+        <li><a href="/de/servicios/">Unterricht</a></li>
+        <li><a href="/de/recursos/">Ressourcen</a></li>
+        <li><a href="/de/pruefungsvorbereitung-telc-goethe/">Prüfungsvorbereitung</a></li>
+        <li><a href="/de/sobre-mi/">Über mich</a></li>
+      </ul>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="/de/">Start</a>
+      <a href="/de/servicios/">Unterricht</a>
+      <a href="/de/recursos/">Ressourcen</a>
+      <a href="/de/pruefungsvorbereitung-telc-goethe/">Prüfungsvorbereitung</a>
+      <a href="/de/sobre-mi/">Über mich</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="ex-wrap">
+      <div class="breadcrumb">
+        <a href="/de/">Start</a> ›
+        <a href="/de/pruefungsvorbereitung-telc-goethe/">Prüfungsvorbereitung</a> ›
+        <span id="bc-current">Übung</span>
+      </div>
+      <div id="app">
+        <div class="state-box"><p>Lädt…</p></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a class="footer-logo footer-logo-fun" href="/de/"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
+        <div class="footer-links">
+          <a href="/de/recursos/">Ressourcen</a>
+          <a href="/de/servicios/">Unterricht</a>
+          <a href="/de/#faq">FAQ</a>
+          <a href="/de/politica-de-privacidad/">Datenschutz</a>
+        </div>
+      </div>
+      <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · Alle Rechte vorbehalten.</div>
+    </div>
+  </footer>
+
+  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script src="/assets/js/cookie-banner-core.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script type="module">
+    import { supabase } from '/assets/js/auth.js'
+    ;(async () => {
+
+    const IMKONTEXT_URL  = 'https://fvhxbbhxucwawypfzikf.supabase.co'
+    const IMKONTEXT_ANON = 'sb_publishable_ON0w4HzhRgdCvUoxL5ogSg_sRnHIe9T'
+    const APPS_URL       = 'https://hocdlmxzghwymamientc.supabase.co'
+    const APPS_ANON      = 'sb_publishable_d2RkD-vcqXebnAFs31AdHw_ti2Eb5qO'
+
+    const app  = document.getElementById('app')
+    const params = new URLSearchParams(location.search)
+    const slug   = params.get('slug')
+    const mode   = params.get('mode') || 'sprachbausteine'
+    const nivel  = params.get('nivel')
+
+    async function ikFetch(path) {
+      const res = await fetch(`${IMKONTEXT_URL}/rest/v1/${path}`, {
+        headers: { apikey: IMKONTEXT_ANON, Accept: 'application/json' }
+      })
+      if (!res.ok) throw new Error(await res.text())
+      return res.json()
+    }
+
+    // ── Nivel picker ───────────────────────────────────────────────────────────
+    if (!slug && !nivel) {
+      document.getElementById('bc-current').textContent = 'Niveau wählen'
+      const NIVELES = [
+        { key: 'A1', count: 19 },
+        { key: 'A2', count: 10 },
+        { key: 'B1', count: 18 },
+        { key: 'B2', count: 10 },
+      ]
+      app.innerHTML = `
+        <h1 style="font-size:1.4rem;margin:0 0 8px">Prüfungsvorbereitung</h1>
+        <p style="color:var(--muted);font-size:.9rem;margin:0 0 32px">Wähle dein Niveau, um mit den Übungen zu beginnen.</p>
+        <div class="nivel-grid">
+          ${NIVELES.map(n => `
+            <button class="nivel-btn" onclick="location.href='?nivel=${n.key}'">
+              ${n.key}<small>${n.count} Übungen</small>
+            </button>`).join('')}
+        </div>
+      `
+      return
+    }
+
+    // ── Exercise list by nivel ─────────────────────────────────────────────────
+    if (nivel && !slug) {
+      document.getElementById('bc-current').textContent = `Niveau ${nivel}`
+      app.innerHTML = '<div class="state-box"><p>Lädt…</p></div>'
+      try {
+        const texts = await ikFetch(
+          `samuel_texts?app_key=eq.samuel_coach&nivel=eq.${nivel}&is_published=eq.true&select=id,slug,titulo,descripcion&order=titulo`
+        )
+        const exercises = await ikFetch(
+          `samuel_exercises?text_id=in.(${texts.map(t => t.id).join(',')})&select=text_id,exercise_type`
+        )
+        const typeMap = {}
+        exercises.forEach(e => { typeMap[e.text_id] = e.exercise_type })
+
+        const TYPE_LABELS = { lueckentext_type1: 'Typ 1', lueckentext_type2: 'Typ 2' }
+
+        app.innerHTML = `
+          <h1 style="font-size:1.4rem;margin:0 0 6px">Niveau ${nivel} — Übungen</h1>
+          <p style="color:var(--muted);font-size:.88rem;margin:0 0 24px">${texts.length} Übungen verfügbar</p>
+          <div class="ex-list">
+            ${texts.map(t => {
+              const type = typeMap[t.id] || ''
+              const label = TYPE_LABELS[type] || type
+              const isType2 = type === 'lueckentext_type2'
+              return `<a class="ex-item" href="?slug=${t.slug}&mode=sprachbausteine">
+                <div>
+                  <div class="ex-item__title">${t.titulo}</div>
+                  <div class="ex-item__desc">${t.descripcion || ''}</div>
+                </div>
+                <span class="ex-item__type${isType2 ? ' type2' : ''}">${label}</span>
+              </a>`
+            }).join('')}
+          </div>
+          <p style="font-size:.8rem;color:var(--muted)">
+            <a href="?">← Alle Niveaus</a>
+          </p>
+        `
+      } catch(e) {
+        app.innerHTML = `<div class="state-box"><h2>Fehler beim Laden</h2><p>${e.message}</p></div>`
+      }
+      return
+    }
+
+    // ── Exercise player ────────────────────────────────────────────────────────
+    app.innerHTML = '<div class="state-box"><p>Übung wird geladen…</p></div>'
+
+    let textData, exerciseData, tokens, questions
+
+    try {
+      const texts = await ikFetch(
+        `samuel_texts?app_key=eq.samuel_coach&slug=eq.${slug}&is_published=eq.true&select=id,nivel,slug,titulo,descripcion,texto&limit=1`
+      )
+      if (!texts.length) throw new Error('Übung nicht gefunden.')
+      textData = texts[0]
+
+      const exercises = await ikFetch(
+        `samuel_exercises?text_id=eq.${textData.id}&select=id,exercise_type,gap_count&limit=1`
+      )
+      exerciseData = exercises[0] || null
+
+      if (mode === 'sprachbausteine' && exerciseData) {
+        tokens = await ikFetch(
+          `samuel_exercise_tokens?exercise_id=eq.${exerciseData.id}&order=paragraph_idx,token_idx&select=paragraph_idx,token_idx,token_type,value,blank_id,answer`
+        )
+      }
+
+      questions = await ikFetch(
+        `samuel_questions?text_id=eq.${textData.id}&order=order_index&select=order_index,enunciado,respuesta,explicacion`
+      )
+    } catch(e) {
+      app.innerHTML = `<div class="state-box"><h2>Fehler</h2><p>${e.message}</p></div>`
+      return
+    }
+
+    document.getElementById('bc-current').textContent = textData.titulo
+    document.title = `${textData.titulo} — Prüfungsvorbereitung | Samuel Coach de Alemán`
+
+    const TYPE_LABEL = {
+      lueckentext_type1: 'Sprachbausteine Typ 1 · Auswahl',
+      lueckentext_type2: 'Sprachbausteine Typ 2 · Freitext',
+    }
+    const isType1 = exerciseData?.exercise_type === 'lueckentext_type1'
+    const isSprachbausteine = mode === 'sprachbausteine' && exerciseData && tokens?.length
+
+    // ── Build text with blanks ─────────────────────────────────────────────────
+    function buildTextHtml(tokens, isType1, answers) {
+      // group by paragraph
+      const paragraphs = {}
+      tokens.forEach(t => {
+        if (!paragraphs[t.paragraph_idx]) paragraphs[t.paragraph_idx] = []
+        paragraphs[t.paragraph_idx].push(t)
+      })
+
+      // For type1: build word bank from all answers (shuffled)
+      const wordBank = isType1 ? shuffle([...answers]) : []
+
+      return Object.values(paragraphs).map(toks => {
+        const content = toks.map(t => {
+          if (t.token_type === 'text') return escHtml(t.value)
+          if (t.token_type === 'blank') {
+            const id = `blank-${t.blank_id}`
+            if (isType1) {
+              const opts = shuffle([t.answer, ...wordBank.filter(w => w !== t.answer).slice(0, 5)])
+              return `<select class="blank-select" data-blank="${t.blank_id}" data-answer="${escAttr(t.answer)}">
+                <option value="">– wählen –</option>
+                ${opts.map(o => `<option value="${escAttr(o)}">${escHtml(o)}</option>`).join('')}
+              </select><span class="blank-reveal" id="reveal-${t.blank_id}">✓ ${escHtml(t.answer)}</span>`
+            } else {
+              return `<input class="blank-input" type="text" data-blank="${t.blank_id}" data-answer="${escAttr(t.answer)}" placeholder="…"><span class="blank-reveal" id="reveal-${t.blank_id}">✓ ${escHtml(t.answer)}</span>`
+            }
+          }
+          return ''
+        }).join('')
+        return `<p>${content}</p>`
+      }).join('')
+    }
+
+    function buildQuestionsHtml(questions) {
+      if (!questions.length) return ''
+      return `<div class="tf-section">
+        <h2>Richtig oder Falsch?</h2>
+        <div class="tf-list">
+          ${questions.map((q, i) => `
+            <div class="tf-item" data-idx="${i}" data-answer="${q.respuesta}">
+              <div class="tf-item__stmt">${escHtml(q.enunciado)}</div>
+              <div class="tf-btns">
+                <button class="tf-btn" data-val="true" onclick="tfSelect(this)">Richtig</button>
+                <button class="tf-btn" data-val="false" onclick="tfSelect(this)">Falsch</button>
+              </div>
+              ${q.explicacion ? `<div class="tf-item__exp">${escHtml(q.explicacion)}</div>` : ''}
+            </div>`).join('')}
+        </div>
+      </div>`
+    }
+
+    // ── Shuffle utility ────────────────────────────────────────────────────────
+    function shuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]]
+      }
+      return arr
+    }
+    function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') }
+    function escAttr(s) { return String(s).replace(/"/g,'&quot;') }
+
+    const blankAnswers = tokens ? tokens.filter(t => t.token_type === 'blank').map(t => t.answer) : []
+
+    const textHtml = isSprachbausteine ? buildTextHtml(tokens, isType1, blankAnswers) : `<div class="ex-text">${textData.texto.split('\n\n').map(p => `<p>${escHtml(p)}</p>`).join('')}</div>`
+    const questionsHtml = questions.length ? buildQuestionsHtml(questions) : ''
+
+    const hasSprachbausteine = isSprachbausteine
+    const hasLeseverstehen   = questions.length > 0
+
+    app.innerHTML = `
+      <div class="ex-header">
+        <span class="ex-type-badge">${isSprachbausteine ? (TYPE_LABEL[exerciseData.exercise_type] || 'Sprachbausteine') : 'Leseverstehen'}</span>
+        <h1>${escHtml(textData.titulo)}</h1>
+        <p>${escHtml(textData.descripcion || '')}</p>
+      </div>
+
+      ${isSprachbausteine
+        ? `<div class="ex-text">${textHtml}</div>`
+        : `<div class="ex-text">${textData.texto.split('\n\n').map(p => `<p>${escHtml(p.trim())}</p>`).join('')}</div>`
+      }
+
+      ${(!isSprachbausteine && hasLeseverstehen) ? questionsHtml : ''}
+      ${(isSprachbausteine && hasLeseverstehen) ? `<details style="margin-bottom:28px"><summary style="cursor:pointer;font-size:.85rem;color:var(--muted)">Verständnisfragen anzeigen</summary><div style="margin-top:16px">${questionsHtml}</div></details>` : ''}
+
+      <div class="ex-actions">
+        <button class="btn-submit" id="btn-submit" onclick="checkAnswers()">Antworten prüfen</button>
+        <button class="btn-retry" id="btn-retry" style="display:none" onclick="location.reload()">Nochmal üben</button>
+      </div>
+      <div id="score-area"></div>
+      <p style="font-size:.8rem;color:var(--muted);margin-top:8px">
+        <a href="?nivel=${textData.nivel}">← Alle ${textData.nivel}-Übungen</a>
+      </p>
+    `
+
+    // ── Check answers ──────────────────────────────────────────────────────────
+    window.tfSelect = function(btn) {
+      const item = btn.closest('.tf-item')
+      if (item.dataset.checked) return
+      item.querySelectorAll('.tf-btn').forEach(b => b.classList.remove('selected'))
+      btn.classList.add('selected')
+    }
+
+    window.checkAnswers = async function() {
+      const btn = document.getElementById('btn-submit')
+      btn.disabled = true
+      btn.textContent = 'Prüfe…'
+
+      let correct = 0, total = 0
+
+      // Check blanks
+      if (isSprachbausteine) {
+        document.querySelectorAll('[data-blank]').forEach(el => {
+          const answer = el.dataset.answer.toLowerCase().trim()
+          const userVal = (el.value || '').toLowerCase().trim()
+          const isCorrect = userVal === answer
+          el.classList.toggle('is-correct', isCorrect)
+          el.classList.toggle('is-wrong', !isCorrect)
+          el.disabled = true
+          const reveal = document.getElementById(`reveal-${el.dataset.blank}`)
+          if (!isCorrect && reveal) reveal.classList.add('show')
+          if (isCorrect) correct++
+          total++
+        })
+      }
+
+      // Check T/F
+      document.querySelectorAll('.tf-item').forEach(item => {
+        if (item.dataset.checked) return
+        item.dataset.checked = '1'
+        const selected = item.querySelector('.tf-btn.selected')
+        const answer = item.dataset.answer === 'true'
+        item.querySelectorAll('.tf-btn').forEach(b => {
+          const val = b.dataset.val === 'true'
+          if (val === answer) b.classList.add('is-correct')
+          else b.classList.add('is-wrong')
+          b.disabled = true
+        })
+        const exp = item.querySelector('.tf-item__exp')
+        if (exp) exp.classList.add('show')
+        if (selected && selected.dataset.val === String(answer)) correct++
+        total++
+      })
+
+      if (total === 0) {
+        btn.textContent = 'Antworten prüfen'
+        btn.disabled = false
+        return
+      }
+
+      const pct = Math.round((correct / total) * 100)
+      const scoreArea = document.getElementById('score-area')
+      scoreArea.innerHTML = `
+        <div class="score-box">
+          <div class="score-box__value">${pct}<span style="font-size:1.5rem">%</span></div>
+          <div class="score-box__bar-wrap"><div class="score-box__bar" style="width:0%" id="score-bar"></div></div>
+          <div class="score-box__label">${correct} von ${total} richtig</div>
+          <div id="save-status" style="margin-top:12px"></div>
+        </div>
+      `
+      setTimeout(() => {
+        const bar = document.getElementById('score-bar')
+        if (bar) bar.style.width = pct + '%'
+      }, 50)
+
+      document.getElementById('btn-retry').style.display = 'inline-block'
+      btn.style.display = 'none'
+
+      // Save to apps-users if logged in
+      try {
+        const { data: { session } } = await supabase.auth.getSession()
+        if (session) {
+          const saveRes = await fetch(`${APPS_URL}/rest/v1/samuel_attempts`, {
+            method: 'POST',
+            headers: {
+              apikey: APPS_ANON,
+              Authorization: `Bearer ${session.access_token}`,
+              'Content-Type': 'application/json',
+              Prefer: 'return=minimal',
+            },
+            body: JSON.stringify({
+              user_id: session.user.id,
+              exercise_slug: slug,
+              exercise_type: mode,
+              nivel: textData.nivel,
+              score: correct,
+              max_score: total,
+            })
+          })
+          const statusEl = document.getElementById('save-status')
+          if (saveRes.ok || saveRes.status === 201) {
+            statusEl.innerHTML = '<span class="saved-badge">✓ Fortschritt gespeichert</span>'
+          }
+        }
+      } catch(_) {}
+    }
+
+    })()
+  </script>
+</body>
+</html>
