@@ -1096,7 +1096,7 @@ footer { background: #0f2260; color: rgba(255,255,255,.65); padding: 36px 24px; 
 }
 
 body:not(.premium-page):not(.home-page) .notice,
-body:not(.premium-page):not(.home-page) .apps-widget {
+body:not(.premium-page):not(.home-page):not(.apps-page) .apps-widget {
   display: none !important;
 }
 
