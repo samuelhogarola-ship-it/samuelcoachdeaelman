@@ -279,6 +279,7 @@
   <script src="/assets/js/main.js" defer></script>
   <script type="module">
     import { supabase, getLocalePrefix, requireAuth, signOut } from '/assets/js/auth.js'
+    ;(async () => {
 
     const APPS_URL  = 'https://hocdlmxzghwymamientc.supabase.co'
     const APPS_ANON = 'sb_publishable_d2RkD-vcqXebnAFs31AdHw_ti2Eb5qO'
@@ -358,6 +359,8 @@
       table.appendChild(tbody)
       document.getElementById('progress-container').replaceWith(table)
     }
+
+    })()
   </script>
 
 </body>
