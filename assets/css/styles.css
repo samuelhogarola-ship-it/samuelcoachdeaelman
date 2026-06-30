@@ -5252,6 +5252,16 @@ footer { background: #0f2260; color: rgba(255,255,255,.65); padding: 36px 24px; 
     grid-row: 1;
     grid-column: 1;
     padding-bottom: 60px;
+    text-align: left;
+    margin-inline: 0;
+  }
+
+  .home-hero-lead {
+    margin-inline: 0;
+  }
+
+  .home-hero-actions {
+    justify-content: flex-start;
   }
 
   .home-hero-media {
