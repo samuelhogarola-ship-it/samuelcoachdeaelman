@@ -5971,6 +5971,9 @@ body.is-leaving {
 .nav-auth--cta:hover { background: #e8effe; color: var(--nav-bg); border-color: #e8effe; }
 
 /* ─── Auth · login page ──────────────────────────────────────────────────── */
+.login-form[hidden],
+.login-tabs[hidden] { display: none !important; }
+
 .login-section {
   min-height: calc(100vh - 64px);
   display: flex;
@@ -6041,7 +6044,52 @@ body.is-leaving {
   padding: 10px 14px;
   border-left: 3px solid #27ae60;
 }
-.login-reset-link {
+.login-forgot {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: .83rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: underline;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+.login-forgot:hover { color: var(--teal); }
+.login-divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--muted);
+  font-size: .8rem;
+}
+.login-divider::before,
+.login-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+.login-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  background: #fff;
+  font-size: .95rem;
+  font-family: inherit;
+  color: var(--muted);
+  cursor: not-allowed;
+  opacity: .6;
+}
+.login-google svg { width: 18px; height: 18px; flex-shrink: 0; }
+.login-google-soon { font-size: .75rem; color: var(--muted); background: var(--bg-alt); border-radius: 4px; padding: 1px 6px; }
+.login-reset-link { /* legacy alias */
   background: none;
   border: none;
   color: var(--muted);
