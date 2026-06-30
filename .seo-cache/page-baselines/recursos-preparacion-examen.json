@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-06-30T14:29:53.029Z",
+  "url": "https://www.samuelcoachdealeman.com/recursos/preparacion-examen/",
+  "file": "recursos/preparacion-examen/index.html",
+  "title": "Prüfungsvorbereitung - Preparación a Examen TELC y Goethe",
+  "metaDescription": "Prepara TELC y Goethe con una ruta clara de examen: Leseverstehen, Sprachbausteine, Schreiben y Hörverstehen. Práctica útil, visual y orientada a resultado.",
+  "canonical": "https://www.samuelcoachdealeman.com/recursos/preparacion-examen/",
+  "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  "visibleIndexability": "indexable_visible_from_meta",
+  "h1": [
+    "Prüfungsvorbereitung - Preparación a examen"
+  ],
+  "h2": [
+    "Una ruta más simple para estudiar mejor",
+    "¿Quieres una preparación más guiada?"
+  ],
+  "h3": [
+    "Leseverstehen",
+    "Sprachbausteine",
+    "Schreiben",
+    "Hörverstehen"
+  ],
+  "schema": [
+    [
+      "BreadcrumbList",
+      "WebPage"
+    ]
+  ],
+  "schemaCount": 1,
+  "mainInternalLinks": [
+    "/",
+    "/servicios/",
+    "/recursos/",
+    "/sobre-mi/",
+    "/leseverstehen/",
+    "/recursos/sprachbausteine/",
+    "/recursos/schreiben/",
+    "/recursos/hoerverstehen/",
+    "/metodologia/",
+    "/politica-de-privacidad/"
+  ],
+  "sitemapInclusion": true
+}

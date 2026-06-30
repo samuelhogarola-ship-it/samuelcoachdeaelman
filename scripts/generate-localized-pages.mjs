@@ -2101,7 +2101,9 @@ function updateSitemap() {
   }
 
   const block = `  <!-- I18N:START -->\n${localizedEntries.join("\n")}\n  <!-- I18N:END -->\n\n`;
-  let next = source.replace(/\s*<!-- I18N:START -->[\s\S]*?<!-- I18N:END -->\s*/g, "\n");
+  let next = source
+    .replace(/\s*<!-- I18N:START -->[\s\S]*?<!-- I18N:END -->\s*/g, "\n")
+    .replace(/\s*<url>\s*<loc>https:\/\/www\.samuelcoachdealeman\.com\/(?:de\/|en\/)?recursos\/lueckentext\/[^<]*<\/loc>\s*<\/url>/g, "");
 
   if (next.includes("<!-- LESEVERSTEHEN:START -->")) {
     next = next.replace("  <!-- LESEVERSTEHEN:START -->", `${block}  <!-- LESEVERSTEHEN:START -->`);

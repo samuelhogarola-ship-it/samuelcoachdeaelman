@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-06-30T14:29:53.029Z",
+  "url": "https://www.samuelcoachdealeman.com/sobre-mi/",
+  "file": "sobre-mi/index.html",
+  "title": "Sobre mí · Samuel Coach de Alemán en Málaga y Online",
+  "metaDescription": "Conoce la historia de Samuel Coach de Alemán: experiencia real en Alemania, formación, enfoque práctico y una forma cercana de enseñar alemán online con objetivos claros.",
+  "canonical": "https://www.samuelcoachdealeman.com/sobre-mi/",
+  "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  "visibleIndexability": "indexable_visible_from_meta",
+  "h1": [
+    "Sobre mí"
+  ],
+  "h2": [
+    "Mi pequeña gran historia",
+    "¿Cuál es mi máxima prioridad en mis clases de alemán?",
+    "¿Quieres empezar ya? Hablemos"
+  ],
+  "h3": [
+    "De España a Alemania",
+    "Aprender, formarme y enseñar allí",
+    "Volver para enseñar con una base más real",
+    "Trabajo con alumnos que necesitan",
+    "Mi manera de acompañarte"
+  ],
+  "schema": [
+    [
+      "BreadcrumbList",
+      "AboutPage"
+    ]
+  ],
+  "schemaCount": 1,
+  "mainInternalLinks": [
+    "/",
+    "/servicios/",
+    "/recursos/",
+    "/sobre-mi/",
+    "/metodologia/",
+    "/politica-de-privacidad/"
+  ],
+  "sitemapInclusion": true
+}
