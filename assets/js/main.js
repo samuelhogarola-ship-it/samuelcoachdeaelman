@@ -182,8 +182,8 @@ const initHomeGoalPrefill = () => {
 
       const goal = card.dataset.goal;
       const form = document.querySelector("#valoracion .offer-form");
-      const goalField = form?.querySelector('select[name="goal"]');
-      const nameField = form?.querySelector('input[name="name"]');
+      const goalField = form ? form.querySelector('select[name="goal"]') : null;
+      const nameField = form ? form.querySelector('input[name="name"]') : null;
 
       if (goalField) {
         goalField.value = goal;
@@ -204,7 +204,7 @@ const initHomeGoalPrefill = () => {
 const initMobileStickyCtaGuard = () => {
   const stickyCta = document.querySelector(".mobile-sticky-cta");
   const formSection = document.querySelector("#valoracion");
-  const form = formSection?.querySelector(".offer-form");
+  const form = formSection ? formSection.querySelector(".offer-form") : null;
   if (!stickyCta || !formSection) return;
 
   const updateStickyState = () => {
@@ -324,7 +324,7 @@ const initOfferForms = () => {
 
   const runtimeConfig = window.__SAMUEL_CONTACT_CONFIG__ || {};
   const getMetaConfig = (name) =>
-    document.querySelector(`meta[name="${name}"]`)?.getAttribute("content")?.trim() || "";
+    (function(el){ return el ? (el.getAttribute("content") || "").trim() : ""; })(document.querySelector(`meta[name="${name}"]`));
   const readPublicConfig = (runtimeValue, metaName) => {
     const value =
       (typeof runtimeValue === "string" ? runtimeValue : "") || getMetaConfig(metaName);
@@ -443,9 +443,9 @@ const initOfferForms = () => {
     }
 
     const turnstileContainer = form.querySelector("[data-turnstile-container]");
-    const turnstileWidget = turnstileContainer?.querySelector(".form-turnstile-widget");
-    const turnstileRequiredMessage = turnstileContainer?.dataset.turnstileRequired || copy.turnstile;
-    const turnstileLoadErrorMessage = turnstileContainer?.dataset.turnstileError || copy.turnstileError;
+    const turnstileWidget = turnstileContainer ? turnstileContainer.querySelector(".form-turnstile-widget") : null;
+    const turnstileRequiredMessage = (turnstileContainer && turnstileContainer.dataset.turnstileRequired) || copy.turnstile;
+    const turnstileLoadErrorMessage = (turnstileContainer && turnstileContainer.dataset.turnstileError) || copy.turnstileError;
     const turnstileState = {
       required: Boolean(turnstileContainer && turnstileWidget),
       enabled: Boolean(turnstileContainer && turnstileWidget && turnstileSiteKey),
@@ -506,7 +506,7 @@ const initOfferForms = () => {
               if (hiddenInput) {
                 hiddenInput.value = token || "";
               }
-              if (statusNode?.textContent === turnstileRequiredMessage) {
+              if (statusNode && statusNode.textContent === turnstileRequiredMessage) {
                 setStatusMessage("");
               }
             },
@@ -578,7 +578,7 @@ const initOfferForms = () => {
         }
 
         if (!response.ok) {
-          const message = result?.messageKey === "risk" ? copy.risk : copy.retry;
+          const message = (result && result.messageKey === "risk") ? copy.risk : copy.retry;
           setStatusMessage(message, "error");
           return;
         }
@@ -586,7 +586,7 @@ const initOfferForms = () => {
         form.reset();
         requiredFields.forEach((field) => setFieldError(field, ""));
         setStatusMessage(
-          result?.messageKey === "success" ? submitText.success : submitText.success,
+          (result && result.messageKey === "success") ? submitText.success : submitText.success,
           "success"
         );
       } catch (_error) {
@@ -643,9 +643,10 @@ const initBlogQuiz = () => {
         }
 
         const selectedOption = checked.closest(".blog-quiz-option");
-        const correctOption = question.querySelector(
+        const correctInput = question.querySelector(
           `input[type="radio"][value="${correctValue}"]`
-        )?.closest(".blog-quiz-option");
+        );
+        const correctOption = correctInput ? correctInput.closest(".blog-quiz-option") : null;
 
         if (checked.value === correctValue) {
           score += 1;
