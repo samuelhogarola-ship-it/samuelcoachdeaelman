@@ -1188,6 +1188,10 @@ function buildPage(locale, options) {
   const appAttrs = Object.entries(options.appData || {})
     .map(([key, value]) => `data-${key}="${escapeAttr(value)}"`)
     .join(" ");
+  const schemaType = options.appData?.view === "exercise" ? "LearningResource" : "CollectionPage";
+  const schemaLevel = options.appData?.level
+    ? `,\n    "educationalLevel": "${escapeAttr(String(options.appData.level).toUpperCase())}"`
+    : "";
 
   return `<!DOCTYPE html>
 <html lang="${localeConfig.lang}">
@@ -1220,6 +1224,21 @@ function buildPage(locale, options) {
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "${schemaType}",
+    "name": ${JSON.stringify(options.meta.title)},
+    "description": ${JSON.stringify(options.meta.description)},
+    "url": "${canonical}",
+    "inLanguage": "${localeConfig.lang}",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Samuel Coach de Alemán",
+      "url": "${BASE_URL}/"
+    }${schemaLevel}
+  }
+  </script>
   ${localeConfig.siteLocaleContent ? `<script>
     window.siteLocaleContent = ${JSON.stringify(localeConfig.siteLocaleContent)};
   </script>` : ""}
@@ -1261,7 +1280,9 @@ function writeDataFile(exercises) {
 function updateSitemap(exercises) {
   const sitemapPath = path.join(ROOT_DIR, "sitemap.xml");
   let sitemap = fs.readFileSync(sitemapPath, "utf8");
-  sitemap = sitemap.replace(/\s*<!-- SPRACHBAUSTEINE:START -->[\s\S]*?<!-- SPRACHBAUSTEINE:END -->/g, "");
+  sitemap = sitemap
+    .replace(/\s*<!-- SPRACHBAUSTEINE:START -->[\s\S]*?<!-- SPRACHBAUSTEINE:END -->/g, "")
+    .replace(/\s*<url>\s*<loc>https:\/\/www\.samuelcoachdealeman\.com\/(?:de\/|en\/)?recursos\/lueckentext\/[^<]*<\/loc>\s*<\/url>/g, "");
 
   const urls = [];
   Object.keys(LOCALES).forEach((locale) => {
