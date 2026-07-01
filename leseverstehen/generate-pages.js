@@ -10,7 +10,7 @@ const TEXTOS = require('../assets/js/leseverstehen-data.js');
 
 // Bump este valor cada vez que cambies leseverstehen.js o leseverstehen-data.js
 // para que LiteSpeed/browsers descarguen el archivo nuevo en lugar de usar caché.
-const JS_VERSION = '20260601a';
+const JS_VERSION = '20260701a';
 const BASE_URL = 'https://www.samuelcoachdealeman.com';
 const BLOG_URL = `${BASE_URL}/f/`;
 

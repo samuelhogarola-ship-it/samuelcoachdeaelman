@@ -1093,6 +1093,170 @@ Am Nachmittag machen sie ein Picknick am See. Bevor sie zurückfahren, machen si
       { enunciado: 'Bevor sie nach Hause fahren, genießen sie die frische Luft.', respuesta: true },
     ],
   },
+
+  // ── Nivel 2 · Solo usuarios registrados ──────────────────────────────────
+
+  // A1 — Nivel 2
+  {
+    slug: 'lenas-zimmer',
+    nivel: 'A1',
+    titulo: 'Lenas Zimmer',
+    descripcion: 'Lena beschreibt ihr Zimmer und die Gegenstände darin.',
+    requiresAuth: true,
+    texto: `Mein Name ist Lena und ich bin zwölf Jahre alt. Ich wohne in München mit meiner Familie. Mein Zimmer ist nicht sehr groß, aber ich mag es sehr.
+
+In meinem Zimmer gibt es ein Bett, einen Schreibtisch und einen Stuhl. Neben dem Bett steht eine kleine Lampe. Auf dem Schreibtisch liegen Bücher und Stifte. An der Wand hängen Fotos von meiner Familie und meinen Freunden.
+
+Ich lerne oft an meinem Schreibtisch. Manchmal höre ich Musik, wenn ich lerne. Mein Zimmer ist mein Lieblingsplatz zu Hause.`,
+    preguntas: [
+      { enunciado: 'Lena ist zwölf Jahre alt.', respuesta: true },
+      { enunciado: 'Lenas Zimmer ist sehr groß.', respuesta: false },
+      { enunciado: 'An der Wand hängen Fotos.', respuesta: true },
+      { enunciado: 'Lena lernt immer in der Küche.', respuesta: false },
+      { enunciado: 'Auf dem Schreibtisch liegen Bücher und Stifte.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'im-supermarkt-einkaufen',
+    nivel: 'A1',
+    titulo: 'Im Supermarkt',
+    descripcion: 'Tom kauft mit seiner Mutter im Supermarkt ein.',
+    requiresAuth: true,
+    texto: `Tom geht mit seiner Mutter in den Supermarkt. Sie brauchen Milch, Brot, Äpfel und Käse. Tom schiebt den Einkaufswagen.
+
+Zuerst gehen sie in die Obstabteilung. Tom nimmt sechs Äpfel und legt sie in den Wagen. Dann kaufen sie Milch und Käse. Das Brot ist frisch und riecht gut. Tom möchte auch Schokolade kaufen, aber seine Mutter sagt nein.
+
+An der Kasse bezahlt die Mutter. Sie gibt der Kassiererin zwanzig Euro. Tom trägt eine Tüte nach Hause. Er ist müde, aber zufrieden.`,
+    preguntas: [
+      { enunciado: 'Tom geht allein in den Supermarkt.', respuesta: false },
+      { enunciado: 'Sie kaufen Milch, Brot, Äpfel und Käse.', respuesta: true },
+      { enunciado: 'Tom darf Schokolade kaufen.', respuesta: false },
+      { enunciado: 'Die Mutter bezahlt an der Kasse.', respuesta: true },
+      { enunciado: 'Tom trägt eine Tüte nach Hause.', respuesta: true },
+    ],
+  },
+
+  // A2 — Nivel 2
+  {
+    slug: 'ein-wochenende-in-hamburg',
+    nivel: 'A2',
+    titulo: 'Ein Wochenende in Hamburg',
+    descripcion: 'Sandra und Kai verbringen ein Wochenende in Hamburg und entdecken die Stadt.',
+    requiresAuth: true,
+    texto: `Sandra und Kai fahren am Freitagnachmittag mit dem Zug nach Hamburg. Sie haben ein kleines Hotel in der Nähe des Hauptbahnhofs gebucht. Das Zimmer ist sauber und hat einen Blick auf die Straße.
+
+Am Samstag besuchen sie den Hafen. Das Wetter ist windig, aber trocken. Sie machen eine kurze Bootsfahrt auf der Elbe und sehen die großen Schiffe. Danach kaufen sie Fischbrötchen an einem Stand und essen sie am Wasser.
+
+Am Sonntag gehen sie auf dem Flohmarkt in Altona spazieren. Kai findet eine alte Schallplatte für drei Euro. Am Nachmittag fahren sie wieder nach Hause. Beide sind müde, aber happy über das schöne Wochenende.`,
+    preguntas: [
+      { enunciado: 'Sandra und Kai fahren mit dem Auto nach Hamburg.', respuesta: false },
+      { enunciado: 'Ihr Hotel liegt in der Nähe des Hauptbahnhofs.', respuesta: true },
+      { enunciado: 'Am Samstag regnet es den ganzen Tag.', respuesta: false },
+      { enunciado: 'Sie essen Fischbrötchen am Hafen.', respuesta: true },
+      { enunciado: 'Kai kauft auf dem Flohmarkt eine alte Schallplatte.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'auf-der-arbeit',
+    nivel: 'A2',
+    titulo: 'Auf der Arbeit',
+    descripcion: 'Julia beginnt einen neuen Job in einem Büro und beschreibt ihren ersten Arbeitstag.',
+    requiresAuth: true,
+    texto: `Julia hat heute ihren ersten Arbeitstag in einem Büro in der Stadtmitte. Sie ist etwas nervös, aber auch aufgeregt. Sie kommt um acht Uhr morgens an.
+
+Ihr Kollege Peter zeigt ihr den Arbeitsplatz. Er erklärt, wie der Computer und das Telefon funktionieren. Um halb zehn trinken alle zusammen Kaffee in der Küche. Das ist die Kaffeepause. Julia lernt viele neue Kolleginnen und Kollegen kennen.
+
+Am Mittag isst Julia in der Kantine. Das Essen ist günstig und lecker. Am Nachmittag macht sie einfache Aufgaben am Computer. Um fünf Uhr geht sie nach Hause. Der erste Tag war gut, und Julia freut sich auf morgen.`,
+    preguntas: [
+      { enunciado: 'Julia beginnt um neun Uhr zu arbeiten.', respuesta: false },
+      { enunciado: 'Peter zeigt Julia den Arbeitsplatz.', respuesta: true },
+      { enunciado: 'Die Kaffeepause ist um halb zehn.', respuesta: true },
+      { enunciado: 'Julia isst mittags in einem Restaurant.', respuesta: false },
+      { enunciado: 'Julia ist zufrieden nach ihrem ersten Arbeitstag.', respuesta: true },
+    ],
+  },
+
+  // B1 — Nivel 2
+  {
+    slug: 'im-fitnessstudio',
+    nivel: 'B1',
+    titulo: 'Im Fitnessstudio',
+    descripcion: 'Markus fängt an, regelmäßig ins Fitnessstudio zu gehen, und erzählt von seinen Erfahrungen.',
+    requiresAuth: true,
+    texto: `Seit drei Monaten geht Markus zweimal pro Woche ins Fitnessstudio. Am Anfang war es schwierig, weil er schnell müde wurde und die Übungen kaum kannte. Aber mit der Zeit wurde es besser. Ein Trainer hat ihm gezeigt, wie er die Geräte richtig benutzt, damit er sich nicht verletzt.
+
+Heute macht Markus zuerst zwanzig Minuten auf dem Laufband, danach trainiert er seine Arme und den Rücken mit Gewichten. Er findet es wichtig, sich nach dem Training zu dehnen, weil die Muskeln sonst am nächsten Tag wehtun. Nach dem Sport duscht er im Studio und trinkt ein großes Glas Wasser.
+
+Markus merkt, dass er fitter geworden ist. Er schläft besser und hat mehr Energie im Alltag. Manchmal trifft er im Studio auch Freunde, was das Training angenehmer macht. Er plant, die Häufigkeit auf dreimal pro Woche zu erhöhen, sobald er genug Zeit hat.`,
+    preguntas: [
+      { enunciado: 'Markus geht seit drei Monaten ins Fitnessstudio.', respuesta: true },
+      { enunciado: 'Am Anfang war das Training sehr einfach für Markus.', respuesta: false },
+      { enunciado: 'Ein Trainer hat ihm erklärt, wie er die Geräte richtig benutzt.', respuesta: true },
+      { enunciado: 'Markus dehnt sich nach dem Training, damit seine Muskeln nicht wehtun.', respuesta: true },
+      { enunciado: 'Er möchte in Zukunft weniger oft ins Studio gehen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'eine-reise-nach-wien',
+    nivel: 'B1',
+    titulo: 'Eine Reise nach Wien',
+    descripcion: 'Claudia und ihr Freund reisen nach Wien und erleben die Highlights der Stadt.',
+    requiresAuth: true,
+    texto: `Claudia und ihr Freund Jonas haben eine lange Zugreise nach Wien geplant. Sie fahren früh morgens ab und kommen nach etwa neun Stunden in der österreichischen Hauptstadt an. Das Hotel, das sie gebucht haben, liegt direkt im Zentrum, nur fünf Gehminuten vom Stephansdom entfernt.
+
+Am ersten Tag besichtigen sie den Dom und schlendern durch die Innere Stadt. Die historischen Gebäude beeindrucken sie sehr. Am Abend gehen sie in ein traditionelles Wiener Restaurant und essen Wiener Schnitzel mit Kartoffelsalat. Jonas findet das Essen ausgezeichnet, obwohl er sonst kein großer Fan von Schweinefleisch ist.
+
+Am zweiten Tag besuchen sie das Kunsthistorische Museum. Die Gemälde- und Skulpturensammlung ist riesig, und sie verbringen fast vier Stunden dort. Nachmittags trinken sie Kaffee in einem klassischen Wiener Café mit Marmortischen und Kristallleuchtern. Auf der Rückreise sind sie sich einig: Wien ist eine Stadt, in die man gerne zurückkehrt.`,
+    preguntas: [
+      { enunciado: 'Claudia und Jonas reisen mit dem Flugzeug nach Wien.', respuesta: false },
+      { enunciado: 'Das Hotel liegt in der Nähe des Stephansdoms.', respuesta: true },
+      { enunciado: 'Jonas isst das Wiener Schnitzel gern, obwohl er normalerweise kein Schweinefleisch mag.', respuesta: true },
+      { enunciado: 'Sie verbringen im Kunsthistorischen Museum etwa zwei Stunden.', respuesta: false },
+      { enunciado: 'Am Ende sind beide begeistert von Wien.', respuesta: true },
+    ],
+  },
+
+  // B2 — Nivel 2
+  {
+    slug: 'digitale-kommunikation',
+    nivel: 'B2',
+    titulo: 'Digitale Kommunikation im Alltag',
+    descripcion: 'Ein Text über die Auswirkungen digitaler Kommunikation auf persönliche Beziehungen und Arbeitskultur.',
+    requiresAuth: true,
+    texto: `Die Art, wie wir miteinander kommunizieren, hat sich in den letzten zwei Jahrzehnten grundlegend verändert. Während früher Briefe und Telefonanrufe dominierten, sind heute Messenger-Dienste, E-Mails und Videoanrufe aus dem Alltag kaum noch wegzudenken. Diese Entwicklung bringt zweifellos Vorteile mit sich: Informationen lassen sich schneller austauschen, geografische Entfernungen spielen kaum noch eine Rolle, und die Dokumentation von Vereinbarungen ist einfacher geworden.
+
+Gleichzeitig beobachten Soziologen und Psychologen besorgniserregende Trends. Studien zeigen, dass die ständige Erreichbarkeit durch Smartphones viele Menschen unter Druck setzt. Die Erwartung, auf Nachrichten sofort zu reagieren, führt bei einem wachsenden Anteil der Bevölkerung zu Stress und Schlafproblemen. Besonders in beruflichen Kontexten verschwimmt die Grenze zwischen Arbeitszeit und Freizeit zunehmend, da Mitarbeitende auch außerhalb der regulären Bürostunden Nachrichten erhalten und beantworten.
+
+Ein weiteres Problem betrifft die Qualität zwischenmenschlicher Beziehungen. Digitale Kommunikation fehlt oft der nonverbale Anteil — Mimik, Gestik und Tonfall —, der in persönlichen Gesprächen für das Verständnis entscheidend ist. Missverständnisse entstehen häufiger, und Konflikte eskalieren schneller, wenn Botschaften durch das Medium gefiltert werden. Einige Experten fordern deshalb eine bewusstere Nutzung digitaler Werkzeuge und plädieren für klare Regeln, etwa Kommunikationspausen nach Feierabend oder die Rückkehr zu persönlichen Gesprächen für sensible Themen.`,
+    preguntas: [
+      { enunciado: 'Digitale Kommunikation hat ausschließlich negative Folgen für den Alltag.', respuesta: false },
+      { enunciado: 'Die ständige Erreichbarkeit durch Smartphones kann laut Studien zu Stress führen.', respuesta: true },
+      { enunciado: 'Die Grenze zwischen Arbeit und Freizeit ist durch digitale Medien klarer geworden.', respuesta: false },
+      { enunciado: 'Nonverbale Signale fehlen in digitaler Kommunikation häufig.', respuesta: true },
+      { enunciado: 'Einige Experten empfehlen, digitale Kommunikation bewusster einzusetzen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'klimawandel-und-alltag',
+    nivel: 'B2',
+    titulo: 'Klimawandel und persönliche Verantwortung',
+    descripcion: 'Ein Artikel über individuelle Handlungsmöglichkeiten angesichts des Klimawandels und gesellschaftliche Debatten dazu.',
+    requiresAuth: true,
+    texto: `Der Klimawandel gehört zu den drängendsten Herausforderungen unserer Zeit. Während internationale Gremien und Regierungen über Emissionsreduktionen und Klimaziele verhandeln, stellt sich für viele Einzelpersonen die Frage: Welchen Beitrag kann ich als Privatperson leisten? Die Antworten darauf sind vielschichtig und werden in der Gesellschaft kontrovers diskutiert.
+
+Auf der einen Seite argumentieren viele Umweltorganisationen, dass individuelle Verhaltensänderungen unerlässlich sind. Weniger Fleisch zu essen, seltener zu fliegen und auf öffentliche Verkehrsmittel umzusteigen seien konkrete Schritte, die jede und jeder Einzelne unternehmen könne. Auch der Konsum von Energie aus erneuerbaren Quellen und die Reduzierung von Einwegplastik werden als wichtige Maßnahmen genannt.
+
+Kritiker hingegen weisen darauf hin, dass individuelle Maßnahmen allein nicht ausreichen, um die notwendigen Veränderungen herbeizuführen. Sie betonen die Verantwortung von Unternehmen und politischen Entscheidungsträgern, strukturelle Rahmenbedingungen zu schaffen, die nachhaltiges Verhalten erleichtern und klimaschädliche Alternativen unattraktiver machen. Das Konzept des „Carbon Footprint", das den Einzelnen in den Mittelpunkt stellt, sei ursprünglich von der Ölindustrie populär gemacht worden, um die gesellschaftliche Debatte vom kollektiven Handeln abzulenken.
+
+Trotz dieser Meinungsverschiedenheiten sind sich die meisten Experten einig, dass es sowohl strukturelle Veränderungen als auch ein Umdenken im individuellen Verhalten braucht, um die globalen Klimaziele zu erreichen.`,
+    preguntas: [
+      { enunciado: 'Der Artikel beschreibt den Klimawandel als ein bereits gelöstes Problem.', respuesta: false },
+      { enunciado: 'Umweltorganisationen halten individuelle Verhaltensänderungen für notwendig.', respuesta: true },
+      { enunciado: 'Kritiker sind der Meinung, dass allein individuelles Handeln ausreicht.', respuesta: false },
+      { enunciado: 'Das Konzept des „Carbon Footprint" wurde laut dem Text von der Ölindustrie verbreitet.', respuesta: true },
+      { enunciado: 'Die meisten Experten sind sich einig, dass sowohl strukturelle als auch individuelle Maßnahmen nötig sind.', respuesta: true },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador

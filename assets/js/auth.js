@@ -122,6 +122,7 @@ function updatePremiumBlocks(user) {
 // ── Init ───────────────────────────────────────────────────────────────────────
 
 function applyAuthState(user) {
+  window.__samuelUser = user ?? null  // accesible desde scripts no-módulo
   updateNav(user)
   updatePremiumBlocks(user)
 }
@@ -141,7 +142,11 @@ export async function signIn(email, password) {
 }
 
 export async function signUp(email, password) {
-  return supabase.auth.signUp({ email, password })
+  return supabase.auth.signUp({
+    email,
+    password,
+    options: { emailRedirectTo: `${location.origin}${getLocalePrefix()}/login/` },
+  })
 }
 
 export async function signOut() {
@@ -166,4 +171,20 @@ export async function requireAuth(redirectTo = location.pathname) {
     location.href = buildLoginUrl(redirectTo)
   }
   return session?.user ?? null
+}
+
+// Devuelve true si el usuario tiene is_premium en samuel_profiles.
+// Requiere sesión activa. Silencioso ante errores de red.
+export async function isPremium() {
+  const { data: { session } } = await supabase.auth.getSession()
+  if (!session) return false
+  try {
+    const res = await fetch(
+      `${SUPABASE_URL}/rest/v1/samuel_profiles?user_id=eq.${session.user.id}&select=is_premium&limit=1`,
+      { headers: { apikey: SUPABASE_ANON, Authorization: `Bearer ${session.access_token}` } }
+    )
+    if (!res.ok) return false
+    const rows = await res.json()
+    return rows[0]?.is_premium === true
+  } catch { return false }
 }

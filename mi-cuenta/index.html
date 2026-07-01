@@ -161,6 +161,116 @@
     }
     .empty-state a { color: var(--brand, #2563eb); text-decoration: none; font-weight: 600; }
     .empty-state a:hover { text-decoration: underline; }
+
+    /* ── Chat section ───────────────────────────────────── */
+    .chat-section { margin-bottom: 40px; }
+
+    .chat-upsell {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      border: 1px solid #bae6fd;
+      border-radius: 14px;
+      padding: 28px 24px;
+    }
+    .chat-upsell__icon { font-size: 2rem; flex-shrink: 0; }
+    .chat-upsell__body h3 { font-size: 1rem; margin: 0 0 6px; color: var(--fg); }
+    .chat-upsell__body p { font-size: .88rem; color: var(--muted); margin: 0 0 16px; }
+    .btn-premium {
+      display: inline-block;
+      background: var(--brand, #2563eb);
+      color: #fff;
+      font-weight: 700;
+      font-size: .88rem;
+      padding: 10px 22px;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: background .18s;
+    }
+    .btn-premium:hover { background: #1d4ed8; }
+
+    .chat-box {
+      border: 1px solid var(--line, #e2e8f0);
+      border-radius: 14px;
+      overflow: hidden;
+      background: var(--card-bg, #fff);
+    }
+    .chat-messages {
+      min-height: 220px;
+      max-height: 340px;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .chat-msg {
+      max-width: 75%;
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-size: .88rem;
+      line-height: 1.45;
+    }
+    .chat-msg--user {
+      align-self: flex-end;
+      background: var(--brand, #2563eb);
+      color: #fff;
+      border-bottom-right-radius: 4px;
+    }
+    .chat-msg--coach {
+      align-self: flex-start;
+      background: var(--bg-subtle, #f8fafc);
+      color: var(--fg);
+      border: 1px solid var(--line, #e2e8f0);
+      border-bottom-left-radius: 4px;
+    }
+    .chat-msg__meta { font-size: .72rem; opacity: .65; margin-top: 4px; }
+    .chat-empty {
+      text-align: center;
+      color: var(--muted);
+      font-size: .88rem;
+      padding: 40px 20px;
+    }
+    .chat-form {
+      display: flex;
+      gap: 10px;
+      padding: 14px 16px;
+      border-top: 1px solid var(--line, #e2e8f0);
+      background: var(--bg-subtle, #f8fafc);
+    }
+    .chat-input {
+      flex: 1;
+      border: 1px solid var(--line, #e2e8f0);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: .88rem;
+      font-family: inherit;
+      resize: none;
+      background: #fff;
+      color: var(--fg);
+    }
+    .chat-input:focus { outline: 2px solid var(--brand, #2563eb); border-color: transparent; }
+    .btn-send {
+      background: var(--brand, #2563eb);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 18px;
+      font-size: .88rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background .18s;
+      white-space: nowrap;
+    }
+    .btn-send:hover { background: #1d4ed8; }
+    .btn-send:disabled { opacity: .6; cursor: default; }
+    .chat-notice {
+      font-size: .78rem;
+      color: var(--muted);
+      padding: 8px 16px 12px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -225,6 +335,12 @@
         </div>
       </div>
 
+      <!-- Chat con Samuel -->
+      <h2 class="section-title">Chat con Samuel Coach</h2>
+      <div class="chat-section" id="chat-section">
+        <!-- Se rellena por JS según si el usuario es premium o no -->
+      </div>
+
       <!-- Acceso rápido -->
       <h2 class="section-title">Acceso rápido</h2>
       <div class="quick-links">
@@ -280,7 +396,7 @@
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
   <script type="module">
-    import { supabase, getLocalePrefix, requireAuth, signOut } from '/assets/js/auth.js'
+    import { supabase, getLocalePrefix, requireAuth, signOut, isPremium } from '/assets/js/auth.js'
     ;(async () => {
 
     const APPS_URL  = 'https://hocdlmxzghwymamientc.supabase.co'
@@ -296,26 +412,37 @@
       location.href = getLocalePrefix() || '/'
     })
 
-    // Cargar progreso desde apps-users
+    function getToken() {
+      return supabase.auth.getSession().then(r => r.data.session?.access_token)
+    }
+
+    // ── Cargar progreso ────────────────────────────────────────────────────────
+
     async function loadProgress() {
+      const token = await getToken()
       const res = await fetch(
         `${APPS_URL}/rest/v1/samuel_user_progress?user_id=eq.${user.id}&select=nivel,exercise_type,completed_activities,average_score&order=nivel,exercise_type`,
-        { headers: { apikey: APPS_ANON, Authorization: `Bearer ${(await supabase.auth.getSession()).data.session?.access_token}` } }
+        { headers: { apikey: APPS_ANON, Authorization: `Bearer ${token}` } }
       )
       if (!res.ok) return []
       return res.json()
     }
 
     async function loadAttempts() {
+      const token = await getToken()
       const res = await fetch(
         `${APPS_URL}/rest/v1/samuel_attempts?user_id=eq.${user.id}&select=score,max_score,completed_at&order=completed_at.desc&limit=20`,
-        { headers: { apikey: APPS_ANON, Authorization: `Bearer ${(await supabase.auth.getSession()).data.session?.access_token}` } }
+        { headers: { apikey: APPS_ANON, Authorization: `Bearer ${token}` } }
       )
       if (!res.ok) return []
       return res.json()
     }
 
-    const [progress, attempts] = await Promise.all([loadProgress(), loadAttempts()])
+    const [progress, attempts, premium] = await Promise.all([
+      loadProgress(),
+      loadAttempts(),
+      isPremium(),
+    ])
 
     // Stats globales
     if (attempts.length > 0) {
@@ -360,6 +487,94 @@
       }
       table.appendChild(tbody)
       document.getElementById('progress-container').replaceWith(table)
+    }
+
+    // ── Chat con Samuel ────────────────────────────────────────────────────────
+
+    const chatSection = document.getElementById('chat-section')
+
+    if (!premium) {
+      chatSection.innerHTML = `
+        <div class="chat-upsell">
+          <div class="chat-upsell__icon">💬</div>
+          <div class="chat-upsell__body">
+            <h3>¿Cómo quieres comunicarte con Samuel Coach?</h3>
+            <p>El chat directo con Samuel está disponible para alumnos premium. Hazte premium hoy y accede a comunicación directa, correcciones personalizadas y seguimiento de tu progreso.</p>
+            <a href="/servicios/" class="btn-premium">Hazte premium →</a>
+          </div>
+        </div>`
+    } else {
+      // Usuario premium: cargar mensajes y mostrar chat
+      async function loadMessages() {
+        const token = await getToken()
+        const res = await fetch(
+          `${APPS_URL}/rest/v1/samuel_messages?user_id=eq.${user.id}&select=id,sender,content,created_at&order=created_at.asc&limit=50`,
+          { headers: { apikey: APPS_ANON, Authorization: `Bearer ${token}` } }
+        )
+        if (!res.ok) return []
+        return res.json()
+      }
+
+      async function sendMessage(content) {
+        const token = await getToken()
+        await fetch(`${APPS_URL}/rest/v1/samuel_messages`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            apikey: APPS_ANON,
+            Authorization: `Bearer ${token}`,
+            Prefer: 'return=minimal',
+          },
+          body: JSON.stringify({ user_id: user.id, sender: 'user', content }),
+        })
+      }
+
+      function formatTime(iso) {
+        return new Date(iso).toLocaleString('es-ES', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })
+      }
+
+      function renderMessages(msgs, container) {
+        if (!msgs.length) {
+          container.innerHTML = `<div class="chat-empty">Aún no hay mensajes. ¡Escribe algo a Samuel!</div>`
+          return
+        }
+        container.innerHTML = msgs.map(m => `
+          <div class="chat-msg chat-msg--${m.sender}">
+            ${m.content}
+            <div class="chat-msg__meta">${formatTime(m.created_at)}</div>
+          </div>
+        `).join('')
+        container.scrollTop = container.scrollHeight
+      }
+
+      const messages = await loadMessages()
+
+      chatSection.innerHTML = `
+        <div class="chat-box">
+          <div class="chat-messages" id="chat-messages"></div>
+          <form class="chat-form" id="chat-form">
+            <textarea class="chat-input" id="chat-input" rows="2" placeholder="Escribe tu mensaje a Samuel…" maxlength="1000"></textarea>
+            <button type="submit" class="btn-send" id="btn-send">Enviar</button>
+          </form>
+          <p class="chat-notice">Samuel responde en un plazo de 24-48 h. Este canal es solo para alumnos premium.</p>
+        </div>`
+
+      const msgContainer = document.getElementById('chat-messages')
+      renderMessages(messages, msgContainer)
+
+      document.getElementById('chat-form').addEventListener('submit', async e => {
+        e.preventDefault()
+        const input = document.getElementById('chat-input')
+        const btn   = document.getElementById('btn-send')
+        const text  = input.value.trim()
+        if (!text) return
+        btn.disabled = true
+        input.value = ''
+        await sendMessage(text)
+        const updated = await loadMessages()
+        renderMessages(updated, msgContainer)
+        btn.disabled = false
+      })
     }
 
     })()
