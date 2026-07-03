@@ -40,33 +40,55 @@ function parseBlogPost(content) {
   return { frontmatter, markdown: markdownContent };
 }
 
-// Simple markdown to HTML
-function markdownToHtml(markdown) {
-  let html = markdown
-    // Headings
-    .replace(/^### (.*?)$/gm, '<h3>$1</h3>')
-    .replace(/^## (.*?)$/gm, '<h2>$1</h2>')
-    .replace(/^# (.*?)$/gm, '<h1>$1</h1>')
-    // Bold, italic
+// Format inline elements (bold, italic, links, code)
+function formatInline(text) {
+  return text
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.*?)\*/g, '<em>$1</em>')
-    // Links
     .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
-    // Unordered lists
-    .replace(/^- (.*?)$/gm, '<li>$1</li>')
-    // Wrap lists
-    .replace(/(<li>.*?<\/li>)/s, '<ul>$1</ul>')
-    .replace(/<\/ul>\n<ul>/g, '')
+    .replace(/`(.*?)`/g, '<code>$1</code>');
+}
+
+// Simple markdown to HTML
+function markdownToHtml(markdown) {
+  // Split by double newlines to identify blocks
+  const blocks = markdown.split(/\n\n+/);
+  const html = blocks.map(block => {
+    block = block.trim();
+    if (!block) return '';
+
+    // Headings
+    if (/^### /.test(block)) {
+      return block.replace(/^### (.*?)$/gm, '<h3>$1</h3>');
+    }
+    if (/^## /.test(block)) {
+      return block.replace(/^## (.*?)$/gm, '<h2>$1</h2>');
+    }
+    if (/^# /.test(block)) {
+      return block.replace(/^# (.*?)$/gm, '<h1>$1</h1>');
+    }
+
     // Code blocks
-    .replace(/```(.*?)```/gs, '<pre><code>$1</code></pre>')
-    // Inline code
-    .replace(/`(.*?)`/g, '<code>$1</code>')
-    // Paragraphs
-    .replace(/\n\n/g, '</p><p>')
-    .replace(/^(?!<)(.+)$/gm, (match) => {
-      if (match.startsWith('<') || match.trim() === '') return match;
-      return '<p>' + match + '</p>';
-    });
+    if (/^```/.test(block)) {
+      const code = block.replace(/^```[\s\S]*?\n?([\s\S]*?)\n?```$/gm, '$1');
+      return '<pre><code>' + code.trim() + '</code></pre>';
+    }
+
+    // Lists
+    if (/^- /.test(block)) {
+      const items = block.split('\n').map(line => {
+        if (line.trim().startsWith('- ')) {
+          const itemText = line.replace(/^- /, '').trim();
+          return '<li>' + formatInline(itemText) + '</li>';
+        }
+        return '';
+      }).join('');
+      return '<ul>' + items + '</ul>';
+    }
+
+    // Paragraphs with formatting
+    return '<p>' + formatInline(block) + '</p>';
+  }).join('\n');
 
   return html;
 }
