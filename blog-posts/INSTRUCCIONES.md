@@ -2,100 +2,141 @@
 title: Cómo escribir posts automáticos
 slug: como-escribir-posts
 description: Guía para crear nuevos posts en el blog usando markdown
-date: 2026-07-03
+date: 2026-07-04
 author: Samuel Coach de Alemán
 lang: es
 ---
 
 # Cómo Escribir Posts Automáticamente
 
-Este archivo explica cómo crear nuevos posts para el blog.
+Crear un blog post es tan fácil como escribir texto en markdown.
 
-## Formato
+## 🚀 Opción 1: Comando Interactivo (Recomendado)
 
-Cada post es un archivo `.md` en `/blog-posts/` con este formato:
-
+```bash
+npm run new:post
 ```
+
+Te pide interactivamente:
+- **Título** del post
+- **Slug** (URL, ej: mi-primer-post)
+- **Meta description** (160 caracteres max)
+- **Autor** (default: Samuel Coach de Alemán)
+- **Idioma** (es/en, default: es)
+- **¿Añadir imagen?** (s/n)
+
+El script:
+1. Crea `/blog-posts/mi-post.md` con frontmatter
+2. Crea carpeta `/f/mi-post/img/` para la imagen
+3. Ejecuta `npm run build:blog` automáticamente
+4. Tu post está listo en `/f/mi-post/index.html`
+
+## 📝 Opción 2: Manual
+
+Crea un archivo en `/blog-posts/` con este formato:
+
+```markdown
 ---
-title: Título del Post
-slug: slug-del-post
-description: Descripción corta (meta)
-date: 2026-07-03
+title: Mi Primer Post
+slug: mi-primer-post
+description: Descripción corta para meta tags
+date: 2026-07-04
 author: Samuel Coach de Alemán
 lang: es
+image: img/cover.webp
 ---
 
-# Contenido del post
+# Título del Post
 
-Tu contenido en markdown aquí...
+Contenido aquí...
+
+## Sección 2
+
+Más contenido...
 ```
 
-## Campos Obligatorios
+Luego ejecuta:
+```bash
+npm run build:blog
+```
 
-- **title**: Título del post
-- **slug**: URL slug (sin espacios, sin guiones al inicio/final)
-- **description**: Meta description (160 caracteres máximo)
-- **date**: Fecha de publicación (YYYY-MM-DD)
-- **author**: Autor
-- **lang**: Idioma (es, en, de)
+## 🖼️ Imágenes
 
-## Markdown Soportado
+Para añadir una imagen (OG image + schema.org):
+
+1. Colócala en `/f/{slug}/img/nombre.webp`
+2. Añade a frontmatter: `image: img/nombre.webp`
+3. En el contenido, úsala así: `![Alt text](./img/nombre.webp)`
+
+La imagen aparecerá en:
+- Redes sociales (OG tags)
+- Buscadores (schema.org)
+- Contenido del artículo
+
+Sin imagen: fallback automático a `/assets/img/og-blog.webp`
+
+## ✨ Markdown Soportado
 
 - **Encabezados**: `# H1`, `## H2`, `### H3`
 - **Bold**: `**texto**`
 - **Italic**: `*texto*`
 - **Links**: `[texto](url)`
 - **Listas**: `- item`
-- **Código**: `` `inline` `` o `` ```code block``` ``
+- **Código inline**: `` `código` ``
+- **Código block**: `` ```javascript ... ``` ``
 
-## Ejemplo
+## 📋 Campos Obligatorios
 
-Crea un archivo: `/blog-posts/mi-primer-post.md`
+- **title**: Título del post
+- **slug**: URL slug (sin espacios)
+- **description**: Meta description (160 caracteres max)
+- **date**: Fecha (YYYY-MM-DD)
+- **author**: Autor del post
+- **lang**: Idioma (es, en)
+- **image** (opcional): Ruta relativa imagen OG
 
-```markdown
----
-title: Mi Primer Post
-slug: mi-primer-post
-description: Este es mi primer post automático
-date: 2026-07-03
-author: Samuel Coach de Alemán
-lang: es
----
-
-# Bienvenida
-
-Este post se genera automáticamente desde markdown.
-
-## Ventajas
-
-- **Rápido**: Escribe markdown, no HTML
-- **Automático**: npm run build:blog genera todo
-- **SEO**: Schema.org automático, meta tags
-
-## Cómo publicar
-
-1. Crea `/blog-posts/mi-primer-post.md`
-2. Ejecuta: `npm run build:blog`
-3. El post aparece en `/f/mi-primer-post/`
-4. Commit + push
-
-¡Listo!
-```
-
-## Ejecutar Generador
+## 🔄 Flujo Completo
 
 ```bash
+# 1. Crear post
+npm run new:post
+# Responde preguntas...
+
+# 2. Editar contenido
+nano blog-posts/mi-post.md
+
+# 3. Copiar imagen (si la agregaste)
+cp mi-imagen.webp f/mi-post/img/
+
+# 4. Regenerar HTML (si editaste manual)
 npm run build:blog
+
+# 5. Commit + push
+git add blog-posts/ f/
+git commit -m "feat: nuevo post - mi post"
+git push
 ```
 
-Esto genera HTML en `/f/{slug}/index.html` automáticamente.
+## 🌍 Multiidioma
 
-## Multiidioma
+Para crear post en inglés:
+- Crea `/blog-posts/my-post.md`
+- Usa `lang: en` en frontmatter
+- Aparecerá en `/f/my-post/index.html`
 
-Para crear post en inglés: `/blog-posts/my-first-post-en.md`
+Automáticamente genera hreflang para SEO.
 
-Con `lang: en` en frontmatter.
+## ✅ SEO Automático
+
+Cada post incluye:
+- ✅ Meta description
+- ✅ OG tags (Facebook, LinkedIn)
+- ✅ Twitter Card
+- ✅ Schema.org BlogPosting
+- ✅ Canonical URL
+- ✅ Imagen personalizada
+- ✅ Hreflang (multiidioma)
 
 ---
 
-**Listo.** Ahora puedes escribir posts en markdown sin tocar HTML.
+**Tip:** Si es tu primer post, usa `npm run new:post` — es más rápido. 🚀
