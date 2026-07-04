@@ -1584,6 +1584,79 @@ body:not(.premium-page):not(.home-page) .footer-bottom {
   align-items: center;
   gap: 6px;
 }
+.blog-post-taxonomy {
+  display: grid;
+  gap: 16px;
+  padding: 20px 22px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(69,90,100,.12);
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ffffff 0%, #f5fbfb 100%);
+}
+.blog-post-taxonomy-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.blog-post-taxonomy-label {
+  font-family: "Cabin", sans-serif;
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--dark);
+  min-width: 128px;
+}
+.blog-post-hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.blog-hashtag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: #edf7fb;
+  color: #245a70;
+  font-family: "Cabin", sans-serif;
+  font-size: .78rem;
+  font-weight: 700;
+}
+.blog-post-signature {
+  margin-top: 34px;
+  padding: 24px 26px;
+  border: 1px solid rgba(69,90,100,.14);
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ffffff 0%, #eef8f8 100%);
+}
+.blog-post-signature p {
+  margin: 0;
+}
+.blog-post-signature p + p {
+  margin-top: 10px;
+}
+.blog-post-signature-name {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+.blog-post-signature-role {
+  color: var(--muted);
+  font-size: .92rem;
+}
+.blog-post-signature-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 12px;
+}
+.blog-post-signature-links a {
+  font-family: "Cabin", sans-serif;
+  font-size: .86rem;
+  font-weight: 700;
+}
 .blog-summary-card {
   padding: 24px 24px 22px;
   margin-bottom: 26px;
@@ -2675,6 +2748,19 @@ body:not(.premium-page):not(.home-page) .footer-bottom {
   }
   .blog-side-card {
     position: static;
+  }
+  .blog-post-taxonomy {
+    padding: 18px;
+  }
+  .blog-post-taxonomy-group {
+    align-items: flex-start;
+  }
+  .blog-post-taxonomy-label {
+    min-width: auto;
+    width: 100%;
+  }
+  .blog-post-signature {
+    padding: 22px 20px;
   }
   .blog-clock-line {
     flex-direction: column;

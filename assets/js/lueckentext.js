@@ -169,11 +169,11 @@ function renderExerciseText(exercise, state, checked) {
   return exercise.paragraphs.map((paragraph) => `
     <p>${paragraph.map((segment) => {
       if (segment.type === "text") return escapeHtml(segment.value);
-      const placed = state.placements?.[segment.id];
-      const selectedOption = state.selections?.[segment.id];
+      const placed = state.placements ? state.placements[segment.id] : undefined;
+      const selectedOption = state.selections ? state.selections[segment.id] : undefined;
       const selected = state.selectedBlankId === segment.id;
       const resultClass = checked
-        ? (state.results?.[segment.id] ? " is-correct" : " is-wrong")
+        ? (state.results && state.results[segment.id] ? " is-correct" : " is-wrong")
         : "";
       let blankLabel = `${segment.id}`;
       if (exercise.tipo === "type2" && placed) {
@@ -386,7 +386,7 @@ function renderType2Answers(exercise, state, checked) {
   const ui = getLueckUi();
   return exercise.blanks.map((blank) => {
     const placed = state.placements[blank.id];
-    const correct = checked ? state.results?.[blank.id] : null;
+    const correct = checked ? (state.results ? state.results[blank.id] : null) : null;
     const isActive = !checked && state.selectedBlankId === blank.id;
     return `
       <article class="lueck-answer-card${checked ? (correct ? " is-correct" : " is-wrong") : ""}${isActive ? " is-active" : ""}">
@@ -431,7 +431,7 @@ function renderExercise(container, level, slug) {
   const state = {
     selections: {},
     placements: {},
-    selectedBlankId: exercise.blanks[0]?.id || null,
+    selectedBlankId: (exercise.blanks[0] ? exercise.blanks[0].id : null),
     checked: false,
     results: {},
     hits: 0,
@@ -484,7 +484,7 @@ function renderExercise(container, level, slug) {
     if (!selectedWord) return;
 
     Object.keys(state.placements).forEach((key) => {
-      if (state.placements[key]?.id === wordId) delete state.placements[key];
+      if (state.placements[key] && state.placements[key].id === wordId) delete state.placements[key];
     });
 
     state.placements[blankId] = selectedWord;
@@ -540,7 +540,7 @@ function renderExercise(container, level, slug) {
     if (action === "reset") {
       state.selections = {};
       state.placements = {};
-      state.selectedBlankId = exercise.blanks[0]?.id || null;
+      state.selectedBlankId = (exercise.blanks[0] ? exercise.blanks[0].id : null);
       state.checked = false;
       state.results = {};
       state.hits = 0;
@@ -562,7 +562,7 @@ function renderExercise(container, level, slug) {
   container.addEventListener("dragstart", (event) => {
     const wordButton = event.target.closest("[data-word-id]");
     if (!wordButton || state.checked) return;
-    event.dataTransfer?.setData("text/plain", wordButton.getAttribute("data-word-id"));
+    if (event.dataTransfer) event.dataTransfer.setData("text/plain", wordButton.getAttribute("data-word-id"));
   });
 
   container.addEventListener("dragover", (event) => {
@@ -572,7 +572,7 @@ function renderExercise(container, level, slug) {
   });
 
   container.addEventListener("drop", (event) => {
-    const wordId = event.dataTransfer?.getData("text/plain");
+    const wordId = event.dataTransfer ? event.dataTransfer.getData("text/plain") : null;
     if (!wordId || state.checked) return;
 
     const blankButton = event.target.closest("[data-blank-id]");
@@ -586,7 +586,7 @@ function renderExercise(container, level, slug) {
     if (bankZone) {
       event.preventDefault();
       Object.keys(state.placements).forEach((key) => {
-        if (state.placements[key]?.id === wordId) delete state.placements[key];
+        if (state.placements[key] && state.placements[key].id === wordId) delete state.placements[key];
       });
       update();
     }

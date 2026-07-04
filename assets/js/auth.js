@@ -40,7 +40,7 @@ const I18N = {
 
 function t() {
   const seg = location.pathname.split('/')[1]
-  return I18N[seg] ?? I18N.es
+  return I18N[seg] ? I18N[seg] : I18N.es
 }
 
 function getLocale() {
@@ -128,11 +128,11 @@ function applyAuthState(user) {
 }
 
 supabase.auth.getSession().then(({ data: { session } }) => {
-  applyAuthState(session?.user ?? null)
+  applyAuthState(session ? session.user : null)
 })
 
 supabase.auth.onAuthStateChange((_event, session) => {
-  applyAuthState(session?.user ?? null)
+  applyAuthState(session ? session.user : null)
 })
 
 // ── Exports ────────────────────────────────────────────────────────────────────
@@ -170,7 +170,7 @@ export async function requireAuth(redirectTo = location.pathname) {
   if (!session) {
     location.href = buildLoginUrl(redirectTo)
   }
-  return session?.user ?? null
+  return session ? session.user : null
 }
 
 // Devuelve true si el usuario tiene is_premium en samuel_profiles.
