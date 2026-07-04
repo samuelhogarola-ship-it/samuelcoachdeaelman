@@ -16,7 +16,8 @@ const resourcePages = [
   {
     path: "/recursos/hoerverstehen/",
     heading: /^hörverstehen$/i,
-    cookieHeading: /tu privacidad importa/i
+    cookieHeading: /tu privacidad importa/i,
+    expectsAppsWidget: false
   },
   {
     path: "/de/recursos/",
@@ -33,7 +34,8 @@ const resourcePages = [
   {
     path: "/de/recursos/hoerverstehen/",
     heading: /^hörverstehen$/i,
-    cookieHeading: /deine privatsphäre ist wichtig/i
+    cookieHeading: /deine privatsphäre ist wichtig/i,
+    expectsAppsWidget: false
   },
   {
     path: "/en/recursos/",
@@ -50,7 +52,8 @@ const resourcePages = [
   {
     path: "/en/recursos/hoerverstehen/",
     heading: /^listening$/i,
-    cookieHeading: /your privacy matters/i
+    cookieHeading: /your privacy matters/i,
+    expectsAppsWidget: false
   }
 ];
 

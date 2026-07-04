@@ -52,6 +52,135 @@ function navPath(modalidad, nivel) {
   return `/recursos/schreiben/${modalidad}/${nivel}/`;
 }
 
+function categoryUrl(modalidad, nivel) {
+  return `${BASE_URL}${navPath(modalidad, nivel)}`;
+}
+
+function buildCategoryPage(modalidad, nivel, ejercicios) {
+  const label = `${MODALIDAD_LABEL[modalidad]} ${NIVEL_LABEL[nivel]}`;
+  const url = categoryUrl(modalidad, nivel);
+  const title = `Ejercicios Schreiben ${label} | Samuel Coach de Alemán`;
+  const desc = `Practica Schreiben ${label} con tareas guiadas, criterios de evaluación y consejos para escribir mejor en alemán.`;
+  const cards = ejercicios
+    .map((ej) => `          <article class="resource-card">
+            <span class="resource-card-kicker">${tipoLabel(ej.tipo)}</span>
+            <h2>${esc(ej.titulo)}</h2>
+            <p>${esc(ej.descripcionEs)}</p>
+            <a class="btn btn-white" href="/recursos/schreiben/${modalidad}/${nivel}/${ej.slug}/">Abrir ejercicio</a>
+          </article>`)
+    .join('\n');
+
+  return `<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${esc(title)}</title>
+  <meta name="description" content="${esc(desc)}">
+  <link rel="canonical" href="${url}">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#455a64">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="${esc(title)}">
+  <meta property="og:description" content="${esc(desc)}">
+  <meta property="og:url" content="${url}">
+  <meta property="og:image" content="${BASE_URL}/assets/img/og-recursos.webp">
+  <meta property="og:site_name" content="Samuel Coach de Alemán">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${esc(title)}">
+  <meta name="twitter:description" content="${esc(desc)}">
+  <meta name="twitter:image" content="${BASE_URL}/assets/img/og-recursos.webp">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "${safe(title)}",
+    "description": "${safe(desc)}",
+    "url": "${url}",
+    "inLanguage": "es",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Samuel Coach de Alemán",
+      "url": "${BASE_URL}/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
+      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" aria-haspopup="true">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="${BASE_URL}/f/">Blog</a></li>
+        <li><a href="/sobre-mi/">Sobre mí</a></li>
+        <li><a href="/servicios/">Servicios</a></li>
+        <li><a href="/recursos/">Recursos</a></li>
+      </ul>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="/">Inicio</a>
+      <a href="${BASE_URL}/f/">Blog</a>
+      <a href="/sobre-mi/">Sobre mí</a>
+      <a href="/servicios/">Servicios</a>
+      <a href="/recursos/">Recursos</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-hero page-hero--schreiben">
+      <div class="page-hero-inner">
+        <div class="resource-badge-row">
+          ${modalidadBadge(modalidad)}
+          <span class="resource-badge">${NIVEL_LABEL[nivel]}</span>
+        </div>
+        <h1>Ejercicios Schreiben ${label}</h1>
+        <p>${esc(desc)}</p>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="container">
+        <div class="resource-grid">
+${cards}
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a class="footer-logo footer-logo-fun" href="/"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
+        <div class="footer-links">
+          <a href="/recursos/">Recursos</a>
+          <a href="/servicios/">Servicios</a>
+          <a href="/metodologia/">Metodología</a>
+          <a href="/politica-de-privacidad/">Política de privacidad</a>
+        </div>
+      </div>
+      <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script src="/assets/js/cookie-banner-core.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>`;
+}
+
 function buildPage(ej) {
   const mod   = ej.modalidad;
   const niv   = ej.nivel;
@@ -305,13 +434,64 @@ function writeFile(filepath, content) {
   fs.writeFileSync(filepath, content, 'utf8');
 }
 
+function updateSitemap(categoryGroups) {
+  const sitemapPath = path.join(ROOT_DIR, 'sitemap.xml');
+  let sitemap = fs.readFileSync(sitemapPath, 'utf8');
+  sitemap = sitemap.replace(/\s*<!-- SCHREIBEN:START -->[\s\S]*?<!-- SCHREIBEN:END -->/g, '');
+
+  const urls = [];
+  for (const [key, ejercicios] of categoryGroups) {
+    const [modalidad, nivel] = key.split(':');
+    urls.push({
+      loc: categoryUrl(modalidad, nivel),
+      changefreq: 'monthly',
+      priority: '0.65',
+    });
+    ejercicios.forEach((ej) => {
+      urls.push({
+        loc: `${BASE_URL}/recursos/schreiben/${ej.modalidad}/${ej.nivel}/${ej.slug}/`,
+        changefreq: 'monthly',
+        priority: '0.6',
+      });
+    });
+  }
+
+  let block = '\n  <!-- SCHREIBEN:START -->';
+  urls.forEach((url) => {
+    block += `
+  <url>
+    <loc>${url.loc}</loc>
+    <changefreq>${url.changefreq}</changefreq>
+    <priority>${url.priority}</priority>
+  </url>`;
+  });
+  block += '\n  <!-- SCHREIBEN:END -->\n';
+
+  sitemap = sitemap.replace('</urlset>', `${block}</urlset>`);
+  fs.writeFileSync(sitemapPath, sitemap, 'utf8');
+}
+
 // Genera todas las páginas de ejercicios individuales
+const categoryGroups = new Map();
 let count = 0;
 for (const ej of EJERCICIOS) {
+  const categoryKey = `${ej.modalidad}:${ej.nivel}`;
+  if (!categoryGroups.has(categoryKey)) categoryGroups.set(categoryKey, []);
+  categoryGroups.get(categoryKey).push(ej);
+
   const outPath = path.join(OUT_ROOT, ej.modalidad, ej.nivel, ej.slug, 'index.html');
   writeFile(outPath, buildPage(ej));
   count++;
   console.log(`  ✓ /recursos/schreiben/${ej.modalidad}/${ej.nivel}/${ej.slug}/`);
 }
+
+for (const [key, ejercicios] of categoryGroups) {
+  const [modalidad, nivel] = key.split(':');
+  const outPath = path.join(OUT_ROOT, modalidad, nivel, 'index.html');
+  writeFile(outPath, buildCategoryPage(modalidad, nivel, ejercicios));
+  console.log(`  ✓ /recursos/schreiben/${modalidad}/${nivel}/`);
+}
+
+updateSitemap(categoryGroups);
 
 console.log(`\nSchreiben: ${count} páginas generadas.`);

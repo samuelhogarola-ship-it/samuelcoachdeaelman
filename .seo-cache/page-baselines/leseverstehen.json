@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-06-30T14:29:53.029Z",
+  "url": "https://www.samuelcoachdealeman.com/leseverstehen/",
+  "file": "leseverstehen/index.html",
+  "title": "Leseverstehen — Textos en alemán A1, A2, B1 y B2 con ejercicios | Samuel Coach de Alemán",
+  "metaDescription": "Practica la comprensión lectora en alemán con textos niveles A1, A2, B1 y B2 y ejercicios interactivos de Richtig oder Falsch. Ideal para preparar el Goethe o el TELC. Gratis, sin registro.",
+  "canonical": "https://www.samuelcoachdealeman.com/leseverstehen/",
+  "robots": "index, follow, max-snippet:-1, max-image-preview:large",
+  "visibleIndexability": "indexable_visible_from_meta",
+  "h1": [
+    "Leseverstehen"
+  ],
+  "h2": [],
+  "h3": [],
+  "schema": [
+    "CollectionPage"
+  ],
+  "schemaCount": 1,
+  "mainInternalLinks": [
+    "/",
+    "/sobre-mi/",
+    "/servicios/",
+    "/practicar-aleman/",
+    "/recursos/",
+    "/metodologia/",
+    "/politica-de-privacidad/"
+  ],
+  "sitemapInclusion": true
+}

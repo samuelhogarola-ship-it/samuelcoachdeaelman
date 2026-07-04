@@ -6,6 +6,7 @@ const LESE_UI = {
   es: {
     levelLabel: "Nivel",
     cardCta: "Leer y practicar →",
+    cardCtaLocked: "Iniciar sesión para leer →",
     notFoundLevel: "Nivel no encontrado.",
     notFoundText: "Texto no encontrado.",
     backAll: "← Ver todos los niveles",
@@ -21,10 +22,15 @@ const LESE_UI = {
     feedbackError: (label) => `✗ Incorrecto. La respuesta correcta es: ${label}.`,
     summary: (level) =>
       `Texto interactivo de lectura en alemán para practicar el nivel ${level}.`,
+    authGateTitle: "Contenido para alumnos registrados",
+    authGateText: "Este texto está disponible para usuarios con cuenta en Samuel Coach de Alemán. Es gratis registrarse.",
+    authGateBtn: "Iniciar sesión / Registrarse",
+    lockedBadge: "🔒 Solo registrados",
   },
   de: {
     levelLabel: "Niveau",
     cardCta: "Lesen und üben →",
+    cardCtaLocked: "Anmelden zum Lesen →",
     notFoundLevel: "Niveau nicht gefunden.",
     notFoundText: "Text nicht gefunden.",
     backAll: "← Alle Niveaus ansehen",
@@ -40,10 +46,15 @@ const LESE_UI = {
     feedbackError: (label) => `✗ Nicht richtig. Die richtige Antwort ist: ${label}.`,
     summary: (level) =>
       `Interaktiver Lesetext auf Deutsch, um das Niveau ${level} zu trainieren.`,
+    authGateTitle: "Inhalt für registrierte Schüler",
+    authGateText: "Dieser Text ist für Nutzer mit einem Konto bei Samuel Coach de Alemán verfügbar. Die Registrierung ist kostenlos.",
+    authGateBtn: "Anmelden / Registrieren",
+    lockedBadge: "🔒 Nur für Registrierte",
   },
   en: {
     levelLabel: "Level",
     cardCta: "Read and practise →",
+    cardCtaLocked: "Log in to read →",
     notFoundLevel: "Level not found.",
     notFoundText: "Text not found.",
     backAll: "← View all levels",
@@ -59,6 +70,10 @@ const LESE_UI = {
     feedbackError: (label) => `✗ Incorrect. The correct answer is: ${label}.`,
     summary: (level) =>
       `Interactive German reading text to practise level ${level}.`,
+    authGateTitle: "Content for registered students",
+    authGateText: "This text is available to users with a Samuel Coach de Alemán account. Registration is free.",
+    authGateBtn: "Log in / Sign up",
+    lockedBadge: "🔒 Registered only",
   },
 };
 
@@ -83,6 +98,11 @@ function buildLeseUrl(path = "") {
   return `${prefix}/leseverstehen/${path}`;
 }
 
+function buildLoginUrl() {
+  const prefix = getLocalePrefix();
+  return `${prefix}/login/?redirect=${encodeURIComponent(location.pathname)}`;
+}
+
 function getCardDescription(texto) {
   if (getCurrentLocale() === "es") return texto.descripcion;
   return getUi().summary(texto.nivel);
@@ -96,9 +116,66 @@ function getTextos() {
   return TEXTOS;
 }
 
+// ── Auth helpers (sin importar auth.js para mantener compatibilidad con scripts no-módulo) ──
+
+const SUPABASE_URL  = 'https://hocdlmxzghwymamientc.supabase.co';
+const SUPABASE_ANON = 'sb_publishable_d2RkD-vcqXebnAFs31AdHw_ti2Eb5qO';
+const SUPABASE_LS_KEY = 'sb-hocdlmxzghwymamientc-auth-token';
+
+function getStoredSession() {
+  try {
+    const raw = localStorage.getItem(SUPABASE_LS_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch { return null; }
+}
+
+function isAuthenticated() {
+  const s = getStoredSession();
+  if (!s) return false;
+  // Supabase v2: { access_token, expires_at, user }
+  const expiresAt = s.expires_at;
+  if (expiresAt && Date.now() / 1000 > expiresAt) return false;
+  return !!s.access_token;
+}
+
+function getAccessToken() {
+  var s = getStoredSession();
+  return s ? s.access_token : null;
+}
+
+function getUserId() {
+  var s = getStoredSession();
+  return s && s.user ? s.user.id : null;
+}
+
+// Guarda progreso en Supabase vía RPC increment_samuel_progress
+async function saveLeseProgress(nivel, score100) {
+  const token = getAccessToken();
+  if (!token) return;
+  try {
+    await fetch(`${SUPABASE_URL}/rest/v1/rpc/increment_samuel_progress`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        apikey: SUPABASE_ANON,
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({
+        p_nivel: nivel.toLowerCase(),
+        p_exercise_type: 'leseverstehen',
+        p_score: score100,
+      }),
+    });
+  } catch (_) { /* silencioso — no bloquea UX */ }
+}
+
+// ── Renderizado ───────────────────────────────────────────────────────────────
+
 // Renderiza todos los niveles en el contenedor (página principal /leseverstehen/)
 function renderLista(container) {
   const ui = getUi();
+  const authed = isAuthenticated();
   const ORDEN = ['A1', 'A2', 'B1', 'B2'];
   const niveles = ORDEN.filter(n => TEXTOS.some(t => t.nivel === n));
   let html = '';
@@ -114,11 +191,13 @@ function renderLista(container) {
       </div>
       <div class="lese-grid" id="${gridId}" hidden>`;
     grupo.forEach(t => {
-      html += `<a class="lese-card" href="${buildLeseUrl(`${t.nivel.toLowerCase()}/${t.slug}/`)}">
+      const locked = t.requiresAuth && !authed;
+      html += `<a class="lese-card${locked ? ' lese-card--locked' : ''}" href="${buildLeseUrl(`${t.nivel.toLowerCase()}/${t.slug}/`)}">
         <span class="lese-card-nivel">${t.nivel}</span>
+        ${locked ? `<span class="lese-card-lock" aria-label="${ui.lockedBadge}">${ui.lockedBadge}</span>` : ''}
         <h3>${t.titulo}</h3>
         <p>${getCardDescription(t)}</p>
-        <span class="lese-card-cta">${ui.cardCta}</span>
+        <span class="lese-card-cta">${locked ? ui.cardCtaLocked : ui.cardCta}</span>
       </a>`;
     });
     html += `</div></div>`;
@@ -140,6 +219,7 @@ function renderLista(container) {
 // Renderiza solo los textos de un nivel (páginas /leseverstehen/a2/, /b1/, /b2/)
 function renderListaNivel(container, nivel) {
   const ui = getUi();
+  const authed = isAuthenticated();
   const grupo = TEXTOS.filter(t => t.nivel === nivel);
   if (!grupo.length) {
     container.innerHTML = `<p class="lese-error">${ui.notFoundLevel}</p>`;
@@ -147,11 +227,13 @@ function renderListaNivel(container, nivel) {
   }
   let html = '<div class="lese-grid">';
   grupo.forEach(t => {
-    html += `<a class="lese-card" href="${buildLeseUrl(`${t.nivel.toLowerCase()}/${t.slug}/`)}">
+    const locked = t.requiresAuth && !authed;
+    html += `<a class="lese-card${locked ? ' lese-card--locked' : ''}" href="${buildLeseUrl(`${t.nivel.toLowerCase()}/${t.slug}/`)}">
       <span class="lese-card-nivel">${t.nivel}</span>
+      ${locked ? `<span class="lese-card-lock" aria-label="${ui.lockedBadge}">${ui.lockedBadge}</span>` : ''}
       <h3>${t.titulo}</h3>
       <p>${getCardDescription(t)}</p>
-      <span class="lese-card-cta">${ui.cardCta}</span>
+      <span class="lese-card-cta">${locked ? ui.cardCtaLocked : ui.cardCta}</span>
     </a>`;
   });
   html += `</div>
@@ -166,6 +248,22 @@ function renderLectura(container, slug) {
   const texto = getTextoBySlug(slug);
   if (!texto) {
     container.innerHTML = `<p class="lese-error">${ui.notFoundText}</p>`;
+    return;
+  }
+
+  // Gate de autenticación para textos restringidos
+  if (texto.requiresAuth && !isAuthenticated()) {
+    container.innerHTML = `
+      <div class="lese-auth-gate">
+        <div class="lese-auth-gate__icon" aria-hidden="true">🔒</div>
+        <h2 class="lese-auth-gate__title">${ui.authGateTitle}</h2>
+        <p class="lese-auth-gate__text">${ui.authGateText}</p>
+        <a class="lese-auth-gate__btn" href="${buildLoginUrl()}">${ui.authGateBtn}</a>
+      </div>
+      <div class="lese-back">
+        <a href="${buildLeseUrl(`${texto.nivel.toLowerCase()}/`)}" class="lese-volver">${ui.backLevel(texto.nivel)}</a>
+      </div>
+    `;
     return;
   }
 
@@ -205,6 +303,7 @@ function renderLectura(container, slug) {
   `;
 
   let respuestas = new Array(texto.preguntas.length).fill(null);
+  let progressSaved = false;
 
   function comprobarFin() {
     if (respuestas.every(r => r !== null)) {
@@ -214,6 +313,15 @@ function renderLectura(container, slug) {
       textoResultado.textContent = ui.result(aciertos, texto.preguntas.length);
       resultado.hidden = false;
       resultado.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+      // Guardar progreso en Supabase (una sola vez por intento)
+      if (!progressSaved && isAuthenticated()) {
+        progressSaved = true;
+        const score100 = texto.preguntas.length > 0
+          ? Math.round((aciertos / texto.preguntas.length) * 100)
+          : 0;
+        saveLeseProgress(texto.nivel, score100);
+      }
     }
   }
 
@@ -251,6 +359,7 @@ function renderLectura(container, slug) {
 
   const reiniciarBtn = container.querySelector('.lese-btn-reiniciar');
   if (reiniciarBtn) reiniciarBtn.addEventListener('click', () => {
+    progressSaved = false;
     renderLectura(container, slug);
   });
 }

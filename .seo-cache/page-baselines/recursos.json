@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-06-30T14:29:53.029Z",
+  "url": "https://www.samuelcoachdealeman.com/recursos/",
+  "file": "recursos/index.html",
+  "title": "Recursos de Alemán | Examen, Vocabulario, Artículos y Contexto",
+  "metaDescription": "Explora los recursos de Samuel Coach de Alemán: preparación de examen, Vokabel Lab, Der Die Das e Im Kontext. Cuatro caminos claros para practicar alemán con más dirección.",
+  "canonical": "https://www.samuelcoachdealeman.com/recursos/",
+  "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  "visibleIndexability": "indexable_visible_from_meta",
+  "h1": [
+    "Recursos para aprender alemán con mejor dirección"
+  ],
+  "h2": [
+    "Un hub más claro para elegir bien",
+    "Prüfungsvorbereitung - Preparación a examen",
+    "Vokabel Lab",
+    "Der Die Das",
+    "Im Kontext",
+    "Si quieres avanzar con un plan claro, te ayudo"
+  ],
+  "h3": [
+    "Vokabel Lab APPs"
+  ],
+  "schema": [
+    [
+      "BreadcrumbList",
+      "CollectionPage"
+    ]
+  ],
+  "schemaCount": 1,
+  "mainInternalLinks": [
+    "/",
+    "/servicios/",
+    "/recursos/",
+    "/sobre-mi/",
+    "/recursos/preparacion-examen/",
+    "/recursos/vokabel-lab/",
+    "/recursos/der-die-das/",
+    "/recursos/im-kontext/",
+    "/metodologia/",
+    "/politica-de-privacidad/"
+  ],
+  "sitemapInclusion": true
+}

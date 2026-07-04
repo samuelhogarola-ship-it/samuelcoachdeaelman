@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-06-30T14:29:53.029Z",
+  "url": "https://www.samuelcoachdealeman.com/metodologia/",
+  "file": "metodologia/index.html",
+  "title": "Metodología para Aprender Alemán Online · Samuel Coach de Alemán",
+  "metaDescription": "Descubre la metodología de Samuel Coach de Alemán para aprender alemán online con estructura, claridad y resultados reales en conversación, exámenes y alemán laboral.",
+  "canonical": "https://www.samuelcoachdealeman.com/metodologia/",
+  "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  "visibleIndexability": "indexable_visible_from_meta",
+  "h1": [
+    "Metodología"
+  ],
+  "h2": [
+    "Cómo trabajo para que el alemán tenga dirección",
+    "Si quieres trabajar esta metodología en tu caso, hablemos"
+  ],
+  "h3": [
+    "Diagnóstico inicial",
+    "Plan adaptado",
+    "Práctica con intención",
+    "Corrección y ajuste",
+    "Qué diferencia esta forma de enseñar",
+    "Lo que suele pasar cuando trabajamos bien"
+  ],
+  "schema": [
+    [
+      "BreadcrumbList",
+      "WebPage"
+    ]
+  ],
+  "schemaCount": 1,
+  "mainInternalLinks": [
+    "/",
+    "/servicios/",
+    "/recursos/",
+    "/sobre-mi/",
+    "/metodologia/",
+    "/politica-de-privacidad/"
+  ],
+  "sitemapInclusion": true
+}

@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-06-30T14:29:53.029Z",
+  "url": "https://www.samuelcoachdealeman.com/",
+  "file": "index.html",
+  "title": "Clases de Alemán Online Personalizadas | Samuel Coach de Alemán",
+  "metaDescription": "Aprende alemán de verdad con clases personalizadas para niños, adolescentes y adultos. Online, con un plan claro y una valoración adaptada a tu objetivo.",
+  "canonical": "https://www.samuelcoachdealeman.com/",
+  "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  "visibleIndexability": "indexable_visible_from_meta",
+  "h1": [
+    "Aprende alemán de verdad."
+  ],
+  "h2": [
+    "Aprende alemán gracias a mis 3 claves",
+    "¿Para qué necesitas alemán?",
+    "Resultados y experiencia",
+    "Lo que dicen mis alumnos",
+    "Recursos gratuitos",
+    "Reserva tu valoración personalizada"
+  ],
+  "h3": [],
+  "schema": [
+    [
+      "ProfessionalService",
+      "LocalBusiness",
+      "Person",
+      "WebSite"
+    ]
+  ],
+  "schemaCount": 1,
+  "mainInternalLinks": [
+    "/servicios",
+    "/recursos/",
+    "/sobre-mi/",
+    "/servicios/",
+    "/f/",
+    "/leseverstehen/",
+    "/recursos/sprachbausteine/",
+    "/politica-de-privacidad"
+  ],
+  "sitemapInclusion": true
+}
