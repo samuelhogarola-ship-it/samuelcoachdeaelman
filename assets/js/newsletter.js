@@ -4,7 +4,7 @@
     forms[i].addEventListener('submit', function (e) {
       e.preventDefault();
       var form = e.currentTarget;
-      var emailInput = form.querySelector('input[type="email"]');
+      var emailInput = form.querySelector('input[name="newsletter-email"]');
       var btn = form.querySelector('button[type="submit"]');
       var msg = form.querySelector('.newsletter-msg');
 
