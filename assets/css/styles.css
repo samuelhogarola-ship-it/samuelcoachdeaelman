@@ -3591,6 +3591,10 @@ body:not(.premium-page):not(.home-page) .footer-bottom {
 
 .lueck-panel {
   padding: 22px;
+  position: sticky;
+  top: 16px;
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
 }
 
 .lueck-panel-top {
@@ -3816,6 +3820,52 @@ body:not(.premium-page):not(.home-page) .footer-bottom {
   .lueck-answer-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Fullscreen mode */
+.lueck-reader.is-fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #f5f8fc;
+  padding: 16px 20px;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0;
+}
+.lueck-reader.is-fullscreen .lueck-text-col {
+  overflow-y: auto;
+  height: calc(100vh - 32px);
+}
+.lueck-reader.is-fullscreen .lueck-panel {
+  position: static;
+  top: auto;
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
+}
+.lueck-reader.is-fullscreen + .lese-back {
+  display: none;
+}
+
+/* Fullscreen toggle button */
+.lueck-fullscreen-btn {
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 8px;
+  cursor: pointer;
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: color .15s, background .15s, border-color .15s;
+}
+.lueck-fullscreen-btn:hover {
+  color: var(--teal);
+  background: var(--teal-pale);
+  border-color: var(--teal-light);
 }
 
 @media (max-width: 760px) {
