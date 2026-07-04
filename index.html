@@ -491,6 +491,23 @@
     </section>
   </main>
 
+  <section class="newsletter-section">
+    <h2>Consejos y recursos gratuitos cada semana</h2>
+    <p>Suscríbete al newsletter de Samuel: alemán práctico, recursos y trucos de aprendizaje directamente en tu email.</p>
+    <form
+      class="newsletter-form"
+      data-locale="es"
+      data-success-msg="¡Listo! Revisa tu email para confirmar la suscripción."
+      data-already-msg="Ya estás suscrito. ¡Gracias!"
+      data-error-msg="Algo salió mal. Inténtalo de nuevo."
+    >
+      <input type="email" name="newsletter-email" placeholder="tu@email.com" autocomplete="email" required aria-label="Tu email">
+      <button type="submit">Suscribirme</button>
+    </form>
+    <p class="newsletter-msg" hidden></p>
+    <p style="margin-top:14px;font-size:.8rem;color:var(--muted);">Sin spam. Cancela cuando quieras.</p>
+  </section>
+
   <footer class="home-footer">
     <div class="footer-inner">
       <div class="footer-top">
@@ -527,6 +544,7 @@
 
   <script src="assets/js/google-analytics-core.js" defer></script>
   <script src="assets/js/cookie-banner-core.js" defer></script>
+  <script src="assets/js/newsletter.js" defer></script>
   <script src="assets/js/main.js?v=20260613d" defer></script>
   <script type="module" src="/assets/js/auth.js"></script>
   <script>
