@@ -280,6 +280,8 @@ function renderLectura(container, slug) {
     </div>
   `).join('');
 
+  var leseFullscreen = false;
+
   container.innerHTML = `
     <div class="lese-lectura-wrap">
       <div class="lese-texto-col">
@@ -288,7 +290,12 @@ function renderLectura(container, slug) {
         <div class="lese-cuerpo">${parrafos}</div>
       </div>
       <div class="lese-ejercicio-col">
-        <h2 class="lese-ejercicio-titulo">${ui.exerciseTitle}</h2>
+        <div class="lese-ejercicio-head">
+          <h2 class="lese-ejercicio-titulo">${ui.exerciseTitle}</h2>
+          <button class="lese-fullscreen-btn" data-action="lese-fullscreen" aria-label="Pantalla completa" title="Pantalla completa">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+          </button>
+        </div>
         <p class="lese-ejercicio-sub">${ui.exerciseSub}</p>
         <div class="lese-preguntas">${preguntasHtml}</div>
         <div class="lese-resultado" hidden>
@@ -301,6 +308,29 @@ function renderLectura(container, slug) {
       <a href="${buildLeseUrl(`${texto.nivel.toLowerCase()}/`)}" class="lese-volver">${ui.backLevel(texto.nivel)}</a>
     </div>
   `;
+
+  var leseWrap = container.querySelector('.lese-lectura-wrap');
+  var leseFullscreenBtn = container.querySelector('[data-action="lese-fullscreen"]');
+
+  function toggleLeseFullscreen() {
+    leseFullscreen = !leseFullscreen;
+    leseWrap.classList.toggle('is-fullscreen', leseFullscreen);
+    document.body.style.overflow = leseFullscreen ? 'hidden' : '';
+    leseFullscreenBtn.innerHTML = leseFullscreen
+      ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 14 10 14 10 20"/><polyline points="20 10 14 10 14 4"/><line x1="10" y1="14" x2="3" y2="21"/><line x1="21" y1="3" x2="14" y2="10"/></svg>'
+      : '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>';
+  }
+
+  leseFullscreenBtn.addEventListener('click', toggleLeseFullscreen);
+
+  document.addEventListener('keydown', function onLeseEsc(e) {
+    if (e.key === 'Escape' && leseFullscreen) {
+      toggleLeseFullscreen();
+    }
+    if (!container.querySelector('.lese-lectura-wrap')) {
+      document.removeEventListener('keydown', onLeseEsc);
+    }
+  });
 
   let respuestas = new Array(texto.preguntas.length).fill(null);
   let progressSaved = false;
