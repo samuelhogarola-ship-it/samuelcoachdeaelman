@@ -13,152 +13,40 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
   <style>
-    .account-wrap {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 48px 20px 80px;
-    }
-    .account-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 16px;
-      margin-bottom: 40px;
-    }
-    .account-header h1 {
-      font-size: 1.6rem;
-      margin: 0;
-    }
-    .account-header p {
-      color: var(--muted);
-      font-size: .9rem;
-      margin: 4px 0 0;
-    }
-    .btn-signout {
-      background: none;
-      border: 1.5px solid var(--line, #e2e8f0);
-      color: var(--muted);
-      padding: 8px 18px;
-      border-radius: 999px;
-      font-size: .85rem;
-      cursor: pointer;
-      transition: border-color .2s, color .2s;
-    }
-    .btn-signout:hover { border-color: var(--fg); color: var(--fg); }
+    .account-wrap { max-width: 860px; margin: 0 auto; padding: 48px 20px 80px; }
+    .account-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 32px; }
+    .account-header h1 { font-size: 1.5rem; margin: 0; }
+    .account-header p { color: var(--muted); font-size: .88rem; margin: 4px 0 0; }
+    .btn-signout { background: none; border: 1.5px solid var(--border); color: var(--muted); padding: 8px 18px; border-radius: 999px; font-size: .85rem; cursor: pointer; transition: border-color .2s, color .2s; }
+    .btn-signout:hover { border-color: var(--dark); color: var(--dark); }
 
-    .account-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 16px;
-      margin-bottom: 40px;
-    }
-    .stat-card {
-      background: var(--card-bg, #fff);
-      border: 1px solid var(--line, #e2e8f0);
-      border-radius: 14px;
-      padding: 24px 20px;
-    }
-    .stat-card__label { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
-    .stat-card__value { font-size: 2.2rem; font-weight: 800; margin: 8px 0 0; color: var(--fg); }
-    .stat-card__sub { font-size: .82rem; color: var(--muted); margin-top: 4px; }
+    .account-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 36px; }
+    .stat-card { background: var(--white); border: 1px solid var(--border); border-radius: 14px; padding: 22px 20px; }
+    .stat-card__label { font-size: .75rem; color: var(--muted); text-transform: uppercase; letter-spacing: .07em; font-weight: 600; }
+    .stat-card__value { font-size: 2.1rem; font-weight: 800; margin: 8px 0 0; color: var(--dark); }
+    .stat-card__sub { font-size: .8rem; color: var(--muted); margin-top: 4px; }
 
-    .section-title {
-      font-size: 1rem;
-      font-weight: 700;
-      margin: 0 0 16px;
-      color: var(--fg);
-    }
-    .progress-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: .88rem;
-      background: var(--card-bg, #fff);
-      border: 1px solid var(--line, #e2e8f0);
-      border-radius: 14px;
-      overflow: hidden;
-      margin-bottom: 40px;
-    }
-    .progress-table th {
-      text-align: left;
-      padding: 12px 18px;
-      font-size: .75rem;
-      text-transform: uppercase;
-      letter-spacing: .08em;
-      color: var(--muted);
-      background: var(--bg-subtle, #f8fafc);
-      border-bottom: 1px solid var(--line, #e2e8f0);
-    }
-    .progress-table td {
-      padding: 13px 18px;
-      border-bottom: 1px solid var(--line, #e2e8f0);
-      color: var(--fg);
-    }
+    .section-title { font-size: 1rem; font-weight: 700; margin: 0 0 16px; color: var(--dark); }
+
+    .progress-table { width: 100%; border-collapse: collapse; font-size: .88rem; background: var(--white); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; margin-bottom: 40px; }
+    .progress-table th { text-align: left; padding: 12px 18px; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); background: var(--bg-alt); border-bottom: 1px solid var(--border); }
+    .progress-table td { padding: 12px 18px; border-bottom: 1px solid var(--border); color: var(--dark); }
     .progress-table tr:last-child td { border-bottom: none; }
-    .score-bar {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .score-bar__track {
-      flex: 1;
-      height: 6px;
-      background: var(--line, #e2e8f0);
-      border-radius: 999px;
-      overflow: hidden;
-    }
-    .score-bar__fill {
-      height: 100%;
-      background: var(--brand, #2563eb);
-      border-radius: 999px;
-      transition: width .4s ease;
-    }
+    .score-bar { display: flex; align-items: center; gap: 10px; }
+    .score-bar__track { flex: 1; height: 6px; background: var(--border); border-radius: 999px; overflow: hidden; }
+    .score-bar__fill { height: 100%; background: var(--teal); border-radius: 999px; transition: width .4s ease; }
 
-    .quick-links {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 14px;
-      margin-bottom: 40px;
-    }
-    .quick-link {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      background: var(--card-bg, #fff);
-      border: 1px solid var(--line, #e2e8f0);
-      border-radius: 14px;
-      padding: 18px 20px;
-      text-decoration: none;
-      color: var(--fg);
-      font-weight: 600;
-      font-size: .9rem;
-      transition: border-color .2s, box-shadow .2s;
-    }
-    .quick-link:hover {
-      border-color: var(--brand, #2563eb);
-      box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand, #2563eb) 10%, transparent);
-    }
-    .quick-link__icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
-      background: color-mix(in srgb, var(--brand, #2563eb) 10%, transparent);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.2rem;
-      flex-shrink: 0;
-    }
-    .quick-link__sub { font-size: .78rem; color: var(--muted); font-weight: 400; margin-top: 2px; }
+    .quick-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 40px; }
+    .quick-link { display: flex; align-items: center; gap: 14px; background: var(--white); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; text-decoration: none; color: var(--dark); font-weight: 600; font-size: .88rem; transition: border-color .2s, box-shadow .2s; }
+    .quick-link:hover { border-color: var(--teal-light); box-shadow: 0 0 0 3px var(--teal-pale); }
+    .quick-link__icon { width: 38px; height: 38px; border-radius: 10px; background: var(--teal-pale); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+    .quick-link__sub { font-size: .76rem; color: var(--muted); font-weight: 400; margin-top: 2px; }
 
-    .empty-state {
-      text-align: center;
-      padding: 40px 20px;
-      color: var(--muted);
-      font-size: .9rem;
-    }
-    .empty-state a { color: var(--brand, #2563eb); text-decoration: none; font-weight: 600; }
+    .empty-state { text-align: center; padding: 36px 20px; color: var(--muted); font-size: .9rem; }
+    .empty-state a { color: var(--teal-dark); text-decoration: none; font-weight: 600; }
     .empty-state a:hover { text-decoration: underline; }
+
+    .section-reveal { margin-bottom: 40px; }
   </style>
 </head>
 <body>
@@ -195,8 +83,21 @@
         <button id="btn-signout" class="btn-signout">Cerrar sesión</button>
       </div>
 
+      <!-- Greeting -->
+      <div class="greeting-card reveal">
+        <span class="greeting-card__emoji" id="greeting-emoji">👋</span>
+        <div class="greeting-card__body">
+          <h2 class="greeting-card__title" id="greeting-title">¡Hola de nuevo!</h2>
+          <p class="greeting-card__phrase" id="greeting-phrase">Cargando tu progreso…</p>
+        </div>
+        <div class="greeting-card__streak" id="greeting-streak" hidden>
+          <span class="greeting-streak__val" id="greeting-streak-val">0</span>
+          <span class="greeting-streak__label">🔥 días</span>
+        </div>
+      </div>
+
       <!-- Stats -->
-      <div class="account-grid">
+      <div class="account-grid reveal">
         <div class="stat-card">
           <div class="stat-card__label">Ejercicios completados</div>
           <div class="stat-card__value" id="stat-total">—</div>
@@ -207,53 +108,70 @@
           <div class="stat-card__value" id="stat-avg">—</div>
           <div class="stat-card__sub">sobre 100</div>
         </div>
+        <div class="stat-card stat-card--fire">
+          <div class="stat-card__label">Racha actual</div>
+          <div class="stat-card__value" id="stat-streak">—</div>
+          <div class="stat-card__sub">días seguidos</div>
+        </div>
         <div class="stat-card">
           <div class="stat-card__label">Último ejercicio</div>
-          <div class="stat-card__value" id="stat-last" style="font-size:1.1rem;padding-top:6px">—</div>
+          <div class="stat-card__value stat-card__value--sm" id="stat-last">—</div>
           <div class="stat-card__sub" id="stat-last-sub"></div>
         </div>
       </div>
 
-      <!-- Progreso por tipo -->
-      <h2 class="section-title">Progreso por tipo de ejercicio</h2>
-      <div id="progress-container">
-        <div class="empty-state">
-          Aún no has completado ningún ejercicio.<br>
-          <a href="/recursos/">Empieza aquí →</a>
+      <!-- Challenges -->
+      <div class="section-reveal reveal">
+        <h2 class="section-title">Retos activos</h2>
+        <div id="challenges-container" class="challenges-grid">
+          <div class="challenge-skeleton"></div>
+          <div class="challenge-skeleton"></div>
+          <div class="challenge-skeleton"></div>
         </div>
       </div>
 
-      <!-- Acceso rápido -->
-      <h2 class="section-title">Acceso rápido</h2>
-      <div class="quick-links">
-        <a class="quick-link" href="/recursos/">
-          <div class="quick-link__icon">📚</div>
-          <div>
-            <div>Recursos</div>
-            <div class="quick-link__sub">Fichas, gramática y más</div>
+      <!-- Messages from Samuel -->
+      <div id="messages-section" class="section-reveal" hidden>
+        <h2 class="section-title">Samuel te ha escrito</h2>
+        <div id="messages-container"></div>
+      </div>
+
+      <!-- Progress by type -->
+      <div class="section-reveal reveal">
+        <h2 class="section-title">Progreso por tipo de ejercicio</h2>
+        <div id="progress-container">
+          <div class="empty-state">
+            Aún no has completado ningún ejercicio.<br>
+            <a href="/recursos/">Empieza aquí →</a>
           </div>
-        </a>
-        <a class="quick-link" href="/recursos/hoerverstehen/">
-          <div class="quick-link__icon">🎧</div>
-          <div>
-            <div>Hörverstehen</div>
-            <div class="quick-link__sub">Comprensión auditiva</div>
-          </div>
-        </a>
-        <a class="quick-link" href="/recursos/schreiben/">
-          <div class="quick-link__icon">✍️</div>
-          <div>
-            <div>Schreiben</div>
-            <div class="quick-link__sub">Expresión escrita</div>
-          </div>
-        </a>
-        <a class="quick-link" href="/servicios/">
-          <div class="quick-link__icon">📅</div>
-          <div>
-            <div>Reservar clase</div>
-            <div class="quick-link__sub">Con Samuel</div>
-          </div>
-        </a>
+        </div>
+      </div>
+
+      <!-- Quick links -->
+      <div class="section-reveal reveal">
+        <h2 class="section-title">Acceso rápido</h2>
+        <div class="quick-links">
+          <a class="quick-link" href="/recursos/">
+            <div class="quick-link__icon">📚</div>
+            <div><div>Recursos</div><div class="quick-link__sub">Fichas, gramática y más</div></div>
+          </a>
+          <a class="quick-link" href="/leseverstehen/">
+            <div class="quick-link__icon">📖</div>
+            <div><div>Leseverstehen</div><div class="quick-link__sub">Comprensión lectora</div></div>
+          </a>
+          <a class="quick-link" href="/recursos/sprachbausteine/">
+            <div class="quick-link__icon">🧩</div>
+            <div><div>Sprachbausteine</div><div class="quick-link__sub">Ejercicios tipo examen</div></div>
+          </a>
+          <a class="quick-link" href="/recursos/hoerverstehen/">
+            <div class="quick-link__icon">🎧</div>
+            <div><div>Hörverstehen</div><div class="quick-link__sub">Comprensión auditiva</div></div>
+          </a>
+          <a class="quick-link" href="/servicios/">
+            <div class="quick-link__icon">📅</div>
+            <div><div>Reservar clase</div><div class="quick-link__sub">Clases con Samuel</div></div>
+          </a>
+        </div>
       </div>
 
     </div>
@@ -277,6 +195,7 @@
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/scroll-reveal.js" defer></script>
   <script type="module">
     import { supabase, getLocalePrefix, requireAuth, signOut } from '/assets/js/auth.js'
     ;(async () => {
@@ -288,73 +207,232 @@
     if (!user) return
 
     document.getElementById('account-email').textContent = user.email
-
     document.getElementById('btn-signout').addEventListener('click', async () => {
       await signOut()
       location.href = getLocalePrefix() || '/'
     })
 
-    // Cargar progreso desde apps-users
-    async function loadProgress() {
-      const res = await fetch(
-        `${APPS_URL}/rest/v1/samuel_user_progress?user_id=eq.${user.id}&select=nivel,exercise_type,completed_activities,average_score&order=nivel,exercise_type`,
-        { headers: { apikey: APPS_ANON, Authorization: `Bearer ${(await supabase.auth.getSession()).data.session?.access_token}` } }
-      )
-      if (!res.ok) return []
-      return res.json()
+    // ── Frases motivacionales ──────────────────────────────────────────────────
+    const FRASES = [
+      'Cada ejercicio que completas te acerca un paso más a tu nivel objetivo.',
+      'Konstanz ist der Schlüssel zum Erfolg. ¡Sigue practicando!',
+      'El alemán se aprende con constancia — y tú ya estás en ello.',
+      'Hoy es un buen día para repasar algo nuevo. ¡Vamos!',
+      '¡Los errores también enseñan! Lo importante es seguir intentándolo.',
+      'Wer rastet, der rostet. ¡Mantén el ritmo, va genial!',
+      'Tu esfuerzo de hoy es el progreso de mañana.',
+      '¡Ánimo! Cada Sprachbaustein completado es un paso hacia el examen.',
+    ]
+
+    function getGreeting() {
+      var h = new Date().getHours()
+      if (h < 12) return 'Buenos días'
+      if (h < 20) return 'Buenas tardes'
+      return 'Buenas noches'
     }
 
-    async function loadAttempts() {
-      const res = await fetch(
-        `${APPS_URL}/rest/v1/samuel_attempts?user_id=eq.${user.id}&select=score,max_score,completed_at&order=completed_at.desc&limit=20`,
-        { headers: { apikey: APPS_ANON, Authorization: `Bearer ${(await supabase.auth.getSession()).data.session?.access_token}` } }
-      )
-      if (!res.ok) return []
-      return res.json()
+    function computeStreak(attempts) {
+      if (!attempts.length) return 0
+      var seen = {}
+      var days = []
+      for (var i = 0; i < attempts.length; i++) {
+        var d = attempts[i].completed_at.slice(0, 10)
+        if (!seen[d]) { seen[d] = true; days.push(d) }
+      }
+      days.sort().reverse()
+      var today = new Date().toISOString().slice(0, 10)
+      var yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10)
+      if (days[0] !== today && days[0] !== yesterday) return 0
+      var streak = 1
+      for (var j = 1; j < days.length; j++) {
+        var diff = (new Date(days[j - 1]) - new Date(days[j])) / 86400000
+        if (diff === 1) streak++
+        else break
+      }
+      return streak
     }
 
-    const [progress, attempts] = await Promise.all([loadProgress(), loadAttempts()])
+    function weeklyCount(attempts) {
+      var cutoff = new Date(Date.now() - 7 * 86400000).toISOString()
+      var n = 0
+      for (var i = 0; i < attempts.length; i++) {
+        if (attempts[i].completed_at >= cutoff) n++
+      }
+      return n
+    }
 
-    // Stats globales
-    if (attempts.length > 0) {
-      const total = attempts.length
-      const avg = attempts.reduce((s, a) => s + (a.max_score > 0 ? (a.score / a.max_score) * 100 : 0), 0) / total
-      const last = new Date(attempts[0].completed_at)
+    function challengeProgress(ch, attempts, progress) {
+      if (ch.type === 'weekly_exercises') {
+        return Math.min(weeklyCount(attempts), ch.target)
+      }
+      if (ch.type === 'avg_score') {
+        var total = 0; var count = 0
+        for (var i = 0; i < progress.length; i++) {
+          if (!ch.exercise_type || progress[i].exercise_type === ch.exercise_type) {
+            if (progress[i].average_score != null) { total += +progress[i].average_score; count++ }
+          }
+        }
+        return count > 0 ? Math.min(Math.round(total / count), ch.target) : 0
+      }
+      if (ch.type === 'streak_days') {
+        return Math.min(computeStreak(attempts), ch.target)
+      }
+      if (ch.type === 'total_exercises') {
+        var sum = 0
+        for (var k = 0; k < progress.length; k++) sum += progress[k].completed_activities
+        return Math.min(sum, ch.target)
+      }
+      return 0
+    }
 
-      document.getElementById('stat-total').textContent = total
-      document.getElementById('stat-avg').textContent = Math.round(avg)
-      document.getElementById('stat-last').textContent = last.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })
+    const PERIOD_ES = { weekly_exercises: 'Esta semana', streak_days: 'Racha', avg_score: 'Media', total_exercises: 'Total' }
+
+    function renderChallenges(challenges, attempts, progress) {
+      var container = document.getElementById('challenges-container')
+      if (!challenges || !challenges.length) {
+        container.innerHTML = '<p class="empty-state" style="text-align:left;padding:0">Próximamente habrá retos para ti.</p>'
+        return
+      }
+      var html = ''
+      for (var i = 0; i < challenges.length; i++) {
+        var ch = challenges[i]
+        var curr = challengeProgress(ch, attempts, progress)
+        var pct = Math.min(Math.round((curr / ch.target) * 100), 100)
+        var done = curr >= ch.target
+        html += '<div class="challenge-card' + (done ? ' challenge-card--done' : '') + '">'
+        if (done) html += '<span class="challenge-badge">¡Completado!</span>'
+        html += '<div class="challenge-card__icon">' + (ch.icon || '🎯') + '</div>'
+        html += '<div class="challenge-card__period">' + (PERIOD_ES[ch.type] || '') + '</div>'
+        html += '<div class="challenge-card__title">' + ch.title_es + '</div>'
+        html += '<div class="challenge-card__desc">' + (ch.desc_es || '') + '</div>'
+        html += '<div class="challenge-card__progress">'
+        html += '<div class="challenge-card__track"><div class="challenge-card__fill" style="width:' + pct + '%"></div></div>'
+        html += '<span class="challenge-card__count">' + curr + ' / ' + ch.target + '</span>'
+        html += '</div></div>'
+      }
+      container.innerHTML = html
+    }
+
+    function renderMessages(messages, token) {
+      if (!messages || !messages.length) return
+      var section = document.getElementById('messages-section')
+      var container = document.getElementById('messages-container')
+      section.hidden = false
+      var html = ''
+      for (var i = 0; i < messages.length; i++) {
+        var m = messages[i]
+        var date = new Date(m.created_at).toLocaleDateString('es-ES', { day: 'numeric', month: 'long' })
+        html += '<div class="msg-card' + (m.is_read ? '' : ' msg-card--unread') + '">'
+        html += '<img class="msg-card__avatar" src="/assets/img/logo-main.webp" alt="Samuel" width="36" height="36" loading="lazy">'
+        html += '<div class="msg-card__body">'
+        html += '<div class="msg-card__content">' + m.content.replace(/[<>&]/g, function(c) { return {'<':'&lt;','>':'&gt;','&':'&amp;'}[c] }).replace(/\n/g, '<br>') + '</div>'
+        html += '<div class="msg-card__meta">Samuel · ' + date + '</div>'
+        html += '</div></div>'
+      }
+      container.innerHTML = html
+
+      var unread = messages.filter(function(m) { return !m.is_read })
+      if (unread.length) {
+        var ids = unread.map(function(m) { return m.id }).join(',')
+        fetch(APPS_URL + '/rest/v1/samuel_messages?id=in.(' + ids + ')', {
+          method: 'PATCH',
+          headers: { apikey: APPS_ANON, Authorization: 'Bearer ' + token, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+          body: JSON.stringify({ is_read: true })
+        }).catch(function() {})
+      }
+    }
+
+    // ── Fetch all data in parallel ─────────────────────────────────────────────
+    var sessionData = await supabase.auth.getSession()
+    var token = sessionData.data.session ? sessionData.data.session.access_token : ''
+    var headers = { apikey: APPS_ANON, Authorization: 'Bearer ' + token }
+
+    var results = await Promise.allSettled([
+      fetch(APPS_URL + '/rest/v1/samuel_challenges?active=eq.true&order=sort_order', { headers }),
+      fetch(APPS_URL + '/rest/v1/samuel_attempts?user_id=eq.' + user.id + '&select=score,max_score,completed_at&order=completed_at.desc&limit=200', { headers }),
+      fetch(APPS_URL + '/rest/v1/samuel_user_progress?user_id=eq.' + user.id + '&select=nivel,exercise_type,completed_activities,average_score&order=nivel,exercise_type', { headers }),
+      fetch(APPS_URL + '/rest/v1/samuel_messages?user_id=eq.' + user.id + '&sender=eq.coach&order=created_at.desc&limit=5', { headers }),
+    ])
+
+    var challenges = results[0].status === 'fulfilled' && results[0].value.ok ? await results[0].value.json() : []
+    var attempts   = results[1].status === 'fulfilled' && results[1].value.ok ? await results[1].value.json() : []
+    var progress   = results[2].status === 'fulfilled' && results[2].value.ok ? await results[2].value.json() : []
+    var messages   = results[3].status === 'fulfilled' && results[3].value.ok ? await results[3].value.json() : []
+
+    // ── Greeting ───────────────────────────────────────────────────────────────
+    var streak = computeStreak(attempts)
+    var name = user.email.split('@')[0]
+    var greeting = getGreeting()
+    var frase = FRASES[Math.floor(Math.random() * FRASES.length)]
+    var emoji = '👋'
+
+    if (streak >= 7)      { frase = '¡Increíble! ' + streak + ' días de racha. Eso es dedicación de nivel C1. ¡Sigue así!'; emoji = '🔥' }
+    else if (streak >= 3) { frase = '¡' + streak + ' días seguidos! Estás en racha. ¡No la pierdas!'; emoji = '⚡' }
+    else if (!attempts.length) { frase = '¡Bienvenido a tu panel! Completa tu primer ejercicio para ver tu progreso aquí.'; emoji = '🚀' }
+
+    document.getElementById('greeting-emoji').textContent = emoji
+    document.getElementById('greeting-title').textContent = greeting + ', ' + name + '!'
+    document.getElementById('greeting-phrase').textContent = frase
+
+    if (streak > 0) {
+      var streakEl = document.getElementById('greeting-streak')
+      streakEl.hidden = false
+      document.getElementById('greeting-streak-val').textContent = streak
+    }
+
+    // ── Stats ──────────────────────────────────────────────────────────────────
+    var totalExercises = 0
+    for (var pi = 0; pi < progress.length; pi++) totalExercises += progress[pi].completed_activities
+
+    var avgScore = null
+    if (attempts.length) {
+      var scoreSum = 0
+      for (var ai = 0; ai < attempts.length; ai++) {
+        scoreSum += attempts[ai].max_score > 0 ? (attempts[ai].score / attempts[ai].max_score) * 100 : 0
+      }
+      avgScore = Math.round(scoreSum / attempts.length)
+    }
+
+    document.getElementById('stat-total').textContent = totalExercises || '—'
+    document.getElementById('stat-avg').textContent   = avgScore != null ? avgScore : '—'
+    document.getElementById('stat-streak').textContent = streak || '0'
+
+    if (attempts.length) {
+      var last = new Date(attempts[0].completed_at)
+      document.getElementById('stat-last').textContent     = last.toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })
       document.getElementById('stat-last-sub').textContent = last.toLocaleDateString('es-ES', { year: 'numeric' })
     }
 
-    // Tabla de progreso por tipo
-    if (progress.length > 0) {
-      const TYPE_LABELS = {
-        lueckentext: 'Lückentext',
-        leseverstehen: 'Leseverstehen',
-        hoerverstehen: 'Hörverstehen',
-        schreiben: 'Schreiben',
-        sprachbausteine: 'Sprachbausteine',
-      }
-      const NIVEL_LABELS = { a1:'A1', a2:'A2', b1:'B1', b2:'B2', c1:'C1' }
+    // ── Challenges ─────────────────────────────────────────────────────────────
+    renderChallenges(challenges, attempts, progress)
 
-      const table = document.createElement('table')
+    // ── Messages ───────────────────────────────────────────────────────────────
+    renderMessages(messages, token)
+
+    // ── Progress table ─────────────────────────────────────────────────────────
+    var TYPE_LABELS = {
+      lueckentext: 'Lückentext', leseverstehen: 'Leseverstehen',
+      hoerverstehen: 'Hörverstehen', schreiben: 'Schreiben',
+      sprachbausteine: 'Sprachbausteine',
+      sprachbausteine_type1: 'Sprachbausteine Tipo 1',
+      sprachbausteine_type2: 'Sprachbausteine Tipo 2',
+      lueckentext_type1: 'Lückentext Tipo 1',
+      lueckentext_type2: 'Lückentext Tipo 2',
+    }
+    var NIVEL_LABELS = { a1:'A1', a2:'A2', b1:'B1', b2:'B2', c1:'C1' }
+
+    if (progress.length) {
+      var table = document.createElement('table')
       table.className = 'progress-table'
-      table.innerHTML = `<thead><tr>
-        <th>Nivel</th><th>Tipo</th><th>Completados</th><th>Nota media</th>
-      </tr></thead>`
-      const tbody = document.createElement('tbody')
-      for (const row of progress) {
-        const pct = row.average_score != null ? Math.round(row.average_score) : null
-        tbody.innerHTML += `<tr>
-          <td>${NIVEL_LABELS[row.nivel] ?? row.nivel}</td>
-          <td>${TYPE_LABELS[row.exercise_type] ?? row.exercise_type}</td>
-          <td>${row.completed_activities}</td>
-          <td>${pct != null ? `<div class="score-bar">
-            <div class="score-bar__track"><div class="score-bar__fill" style="width:${pct}%"></div></div>
-            <span>${pct}</span>
-          </div>` : '—'}</td>
-        </tr>`
+      table.innerHTML = '<thead><tr><th>Nivel</th><th>Tipo</th><th>Completados</th><th>Nota media</th></tr></thead>'
+      var tbody = document.createElement('tbody')
+      for (var ri = 0; ri < progress.length; ri++) {
+        var row = progress[ri]
+        var pct = row.average_score != null ? Math.round(row.average_score) : null
+        var bar = pct != null
+          ? '<div class="score-bar"><div class="score-bar__track"><div class="score-bar__fill" style="width:' + pct + '%"></div></div><span>' + pct + '</span></div>'
+          : '—'
+        tbody.innerHTML += '<tr><td>' + (NIVEL_LABELS[row.nivel] || row.nivel) + '</td><td>' + (TYPE_LABELS[row.exercise_type] || row.exercise_type) + '</td><td>' + row.completed_activities + '</td><td>' + bar + '</td></tr>'
       }
       table.appendChild(tbody)
       document.getElementById('progress-container').replaceWith(table)
