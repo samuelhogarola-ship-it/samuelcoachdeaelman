@@ -49,7 +49,7 @@
   };
 
   function getLocale() {
-    return document.documentElement.lang?.slice(0, 2) || 'es';
+    return (document.documentElement.lang || '').slice(0, 2) || 'es';
   }
 
   function render(page) {

@@ -10,7 +10,7 @@ const TEXTOS = require('../assets/js/leseverstehen-data.js');
 
 // Bump este valor cada vez que cambies leseverstehen.js o leseverstehen-data.js
 // para que LiteSpeed/browsers descarguen el archivo nuevo en lugar de usar caché.
-const JS_VERSION = '20260601a';
+const JS_VERSION = '20260701a';
 const BASE_URL = 'https://www.samuelcoachdealeman.com';
 const BLOG_URL = `${BASE_URL}/f/`;
 
@@ -522,6 +522,10 @@ function generateTextPage(locale, texto) {
   const description = LOCALES[locale].pageDescription(texto);
   const canonicalPath = textPath(locale, texto);
   const pageTitle = `${texto.titulo} — Leseverstehen ${texto.nivel} | Samuel Coach de Alemán`;
+  const paragraphs = texto.texto
+    .split('\n\n')
+    .map((p) => `<p>${escapeHtmlText(p.trim())}</p>`)
+    .join('\n          ');
   return `${pageHead({
     locale,
     title: pageTitle,
@@ -539,7 +543,17 @@ ${makeNav(locale)}
 
   <main>
     <div class="container">
-      <div id="lese-leer-root" class="lese-leer-root"></div>
+      <div id="lese-leer-root" class="lese-leer-root">
+        <div class="lese-lectura-wrap">
+          <div class="lese-texto-col">
+            <span class="lese-badge-nivel">${escapeHtmlText(texto.nivel)}</span>
+            <h1 class="lese-titulo">${escapeHtmlText(texto.titulo)}</h1>
+            <div class="lese-cuerpo">
+          ${paragraphs}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 

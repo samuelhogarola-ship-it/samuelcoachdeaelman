@@ -923,56 +923,35 @@ function renderNav(locale) {
   const common = shared[locale];
   const prefix = localePrefix(locale);
   const servicesHref = `${prefix || ""}/servicios/`;
-  const appsHref = `${prefix || ""}/practicar-aleman/`;
   const resourcesHref = `${prefix || ""}/recursos/`;
   const aboutHref = `${prefix || ""}/sobre-mi/`;
+  const contactHref = `${prefix || ""}/#contacto-formulario`;
   const homeHref = `${prefix || ""}/`;
+  const navLabels = {
+    de: "Hauptnavigation",
+    en: "Main navigation"
+  };
 
-  return `  <div class="notice">${common.notice}</div>
-  <nav>
+  return `  <nav aria-label="${navLabels[locale] || "Main navigation"}">
     <div class="nav-inner">
       <a class="nav-logo" href="${homeHref}"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
       <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="${common.cookie.navigation.openMenu}"><span></span><span></span><span></span></button>
       <ul class="nav-links">
         <li><a href="${homeHref}">${common.nav.home}</a></li>
-        <li><a href="https://www.samuelcoachdealeman.com/f/">${common.nav.blog}</a></li>
-        <li><a href="${aboutHref}">${common.nav.about}</a></li>
-        <li class="nav-drop">
-          <a href="${servicesHref}">${common.nav.services}</a>
-          <div class="drop-menu">
-            <a href="${servicesHref}#conversacional">${common.nav.conversational}</a>
-            <a href="${servicesHref}#laboral">${common.nav.work}</a>
-            <a href="${servicesHref}#examenes">${common.nav.exams}</a>
-            <a href="${servicesHref}#empresas">${common.nav.companies}</a>
-            <a href="${servicesHref}#escolar">${common.nav.school}</a>
-          </div>
-        </li>
-        <li class="nav-drop">
-          <a href="${appsHref}">${common.nav.apps}</a>
-          <div class="drop-menu">
-            <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">Vokabel Lab</a>
-            <a href="https://derdiedas.vokabellab.com" target="_blank" rel="noopener noreferrer">Der Die Das</a>
-            <a href="https://imkontext.vokabellab.com" target="_blank" rel="noopener noreferrer">Im Kontext</a>
-          </div>
-        </li>
+        <li><a href="${servicesHref}">${common.nav.services}</a></li>
         <li><a href="${resourcesHref}">${common.nav.resources}</a></li>
+        <li><a href="${aboutHref}">${common.nav.about}</a></li>
+        <li><a href="${contactHref}">${common.ctas.contact}</a></li>
+        <li><a class="nav-cta" href="${contactHref}">${common.ctas.requestAssessment}</a></li>
       </ul>
     </div>
     <div id="mobile-menu" class="mobile-menu" hidden>
       <a href="${homeHref}">${common.nav.home}</a>
-      <a href="https://www.samuelcoachdealeman.com/f/">${common.nav.blog}</a>
-      <a href="${aboutHref}">${common.nav.about}</a>
       <a href="${servicesHref}">${common.nav.services}</a>
-      <a href="${servicesHref}#conversacional">${common.nav.conversational}</a>
-      <a href="${servicesHref}#laboral">${common.nav.work}</a>
-      <a href="${servicesHref}#examenes">${common.nav.exams}</a>
-      <a href="${servicesHref}#empresas">${common.nav.companies}</a>
-      <a href="${servicesHref}#escolar">${common.nav.school}</a>
-      <a href="${appsHref}">${common.nav.apps}</a>
-      <a href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">Vokabel Lab</a>
-      <a href="https://derdiedas.vokabellab.com" target="_blank" rel="noopener noreferrer">Der Die Das</a>
-      <a href="https://imkontext.vokabellab.com" target="_blank" rel="noopener noreferrer">Im Kontext</a>
       <a href="${resourcesHref}">${common.nav.resources}</a>
+      <a href="${aboutHref}">${common.nav.about}</a>
+      <a href="${contactHref}">${common.ctas.contact}</a>
+      <a class="mobile-cta" href="${contactHref}">${common.ctas.requestAssessment}</a>
     </div>
   </nav>`;
 }
@@ -980,24 +959,32 @@ function renderNav(locale) {
 function renderFooter(locale) {
   const common = shared[locale];
   const prefix = localePrefix(locale);
-  const faqHref = `${prefix || ""}/#faq`;
   return `  <footer>
     <div class="footer-inner">
       <div class="footer-top">
         <a class="footer-logo footer-logo-fun" href="${prefix || "/"}"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
         <div class="footer-links">
-          <a href="https://www.samuelcoachdealeman.com/f/">${common.nav.blog}</a>
-          <a href="${prefix}/sobre-mi/">${common.nav.about}</a>
+          <a href="${prefix || "/"}">${common.nav.home}</a>
           <a href="${prefix}/servicios/">${common.nav.services}</a>
+          <a href="${prefix}/recursos/">${common.nav.resources}</a>
           <a href="${prefix}/metodologia/">${common.nav.methodology}</a>
-          <a href="${faqHref}">${common.nav.faq}</a>
-          <a href="${prefix}/practicar-aleman/">${common.nav.apps}</a>
+          <a href="${prefix}/sobre-mi/">${common.nav.about}</a>
           <a href="${prefix}/politica-de-privacidad/">${common.nav.privacy}</a>
         </div>
       </div>
       <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · ${common.footerRights}</div>
     </div>
   </footer>`;
+}
+
+function bodyClass(page) {
+  const key = typeof page === "object" ? page.key : page;
+  if (key === "home") return "home-page";
+  if (key === "services") return "premium-page premium-services-page";
+  if (key === "about") return "premium-page premium-about-page";
+  if (key === "methodology") return "premium-page premium-method-page";
+  if (key === "resources") return "premium-page premium-resource-page";
+  return "premium-page";
 }
 
 function renderAppsWidget(locale) {
@@ -2024,7 +2011,7 @@ function buildHtml(page, locale) {
   <link rel="canonical" href="${canonical}">
 ${alternates}
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="theme-color" content="#455a64">
+  <meta name="theme-color" content="#ffffff">
   <meta property="og:type" content="website">
   <meta property="og:title" content="${escapeHtml(ogTitle)}">
   <meta property="og:description" content="${escapeHtml(ogDescription)}">
@@ -2058,11 +2045,10 @@ ${alternates}
 ${renderLocaleScript(locale)}
 ${renderPageSchema(page, locale, title, description)}
 </head>
-<body>
+<body class="${bodyClass(page)}">
 ${renderNav(locale)}
 ${renderMain(page, locale)}
 ${renderFooter(locale)}
-${renderAppsWidget(locale)}
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
@@ -2115,7 +2101,9 @@ function updateSitemap() {
   }
 
   const block = `  <!-- I18N:START -->\n${localizedEntries.join("\n")}\n  <!-- I18N:END -->\n\n`;
-  let next = source.replace(/\s*<!-- I18N:START -->[\s\S]*?<!-- I18N:END -->\s*/g, "\n");
+  let next = source
+    .replace(/\s*<!-- I18N:START -->[\s\S]*?<!-- I18N:END -->\s*/g, "\n")
+    .replace(/\s*<url>\s*<loc>https:\/\/www\.samuelcoachdealeman\.com\/(?:de\/|en\/)?recursos\/lueckentext\/[^<]*<\/loc>\s*<\/url>/g, "");
 
   if (next.includes("<!-- LESEVERSTEHEN:START -->")) {
     next = next.replace("  <!-- LESEVERSTEHEN:START -->", `${block}  <!-- LESEVERSTEHEN:START -->`);

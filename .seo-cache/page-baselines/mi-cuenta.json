@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-06-30T14:29:53.029Z",
+  "url": "https://www.samuelcoachdealeman.com/mi-cuenta/",
+  "file": "mi-cuenta/index.html",
+  "title": "Mi cuenta — Samuel Coach de Alemán",
+  "metaDescription": "",
+  "canonical": "",
+  "robots": "noindex, nofollow",
+  "visibleIndexability": "noindex_visible",
+  "h1": [
+    "Mi cuenta"
+  ],
+  "h2": [
+    "Progreso por tipo de ejercicio",
+    "Acceso rápido"
+  ],
+  "h3": [],
+  "schema": [],
+  "schemaCount": 0,
+  "mainInternalLinks": [
+    "/",
+    "/servicios/",
+    "/recursos/",
+    "/sobre-mi/",
+    "/recursos/hoerverstehen/",
+    "/recursos/schreiben/",
+    "/servicios",
+    "/politica-de-privacidad"
+  ],
+  "sitemapInclusion": false
+}
