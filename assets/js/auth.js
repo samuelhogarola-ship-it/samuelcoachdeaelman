@@ -185,6 +185,6 @@ export async function isPremium() {
     )
     if (!res.ok) return false
     const rows = await res.json()
-    return rows[0]?.is_premium === true
+    return rows.length > 0 && rows[0].is_premium === true
   } catch { return false }
 }
