@@ -140,11 +140,13 @@ function isAuthenticated() {
 }
 
 function getAccessToken() {
-  return getStoredSession()?.access_token ?? null;
+  var s = getStoredSession();
+  return s ? s.access_token : null;
 }
 
 function getUserId() {
-  return getStoredSession()?.user?.id ?? null;
+  var s = getStoredSession();
+  return s && s.user ? s.user.id : null;
 }
 
 // Guarda progreso en Supabase vía RPC increment_samuel_progress
