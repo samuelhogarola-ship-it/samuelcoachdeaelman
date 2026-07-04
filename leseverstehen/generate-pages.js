@@ -562,7 +562,7 @@ ${makeFooter(locale)}
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
-  <script src="/assets/js/leseverstehen-data.js?v=${JS_VERSION}"></script>
+  <script>var TEXTOS = [${JSON.stringify(texto)}];</script>
   <script src="/assets/js/leseverstehen.js?v=${JS_VERSION}"></script>
   <script>
     renderLectura(document.getElementById('lese-leer-root'), '${texto.slug}');

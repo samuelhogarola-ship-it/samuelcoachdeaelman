@@ -1258,7 +1258,9 @@ function buildPage(locale, options) {
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
-  <script src="/assets/js/lueckentext-data.js?v=${JS_VERSION}" defer></script>
+  ${options.inlineExercise
+    ? `<script>var LUECKENTEXTE=[${JSON.stringify(options.inlineExercise)}];window.LUECKENTEXTE=LUECKENTEXTE;</script>`
+    : `<script src="/assets/js/lueckentext-data.js?v=${JS_VERSION}" defer></script>`}
   <script src="/assets/js/lueckentext.js?v=${JS_VERSION}" defer></script>
   <script src="/assets/js/progress-tracker.js" defer></script>
   <script type="module" src="/assets/js/auth.js"></script>
@@ -1361,6 +1363,7 @@ function generate() {
             level: exercise.nivel,
             slug: exercise.slug,
           },
+          inlineExercise: exercise,
         })
       );
     });
