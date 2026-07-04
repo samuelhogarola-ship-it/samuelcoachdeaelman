@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Übung — Prüfungsvorbereitung | Samuel Coach de Alemán</title>
-  <meta name="description" content="Interaktive noindex-Übungsansicht für die Prüfungsvorbereitung von Samuel Coach de Alemán.">
   <meta name="robots" content="noindex, follow">
   <link rel="canonical" href="https://www.samuelcoachdealeman.com/de/pruefungsvorbereitung-telc-goethe/ejercicio/">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
@@ -275,10 +274,7 @@
         <span id="bc-current">Übung</span>
       </div>
       <div id="app">
-        <div class="state-box">
-          <h1>Prüfungsvorbereitung</h1>
-          <p>Lädt…</p>
-        </div>
+        <div class="state-box"><p>Lädt…</p></div>
       </div>
     </div>
   </main>
@@ -324,11 +320,6 @@
       return res.json()
     }
 
-    function headingOne(content, style = '') {
-      const styleAttr = style ? ` style="${style}"` : ''
-      return '<h' + `1${styleAttr}>${content}</h` + '1>'
-    }
-
     // ── Nivel picker ───────────────────────────────────────────────────────────
     if (!slug && !nivel) {
       document.getElementById('bc-current').textContent = 'Niveau wählen'
@@ -339,7 +330,7 @@
         { key: 'B2', count: 10 },
       ]
       app.innerHTML = `
-        ${headingOne('Prüfungsvorbereitung', 'font-size:1.4rem;margin:0 0 8px')}
+        <h1 style="font-size:1.4rem;margin:0 0 8px">Prüfungsvorbereitung</h1>
         <p style="color:var(--muted);font-size:.9rem;margin:0 0 32px">Wähle dein Niveau, um mit den Übungen zu beginnen.</p>
         <div class="nivel-grid">
           ${NIVELES.map(n => `
@@ -368,7 +359,7 @@
         const TYPE_LABELS = { lueckentext_type1: 'Typ 1', lueckentext_type2: 'Typ 2' }
 
         app.innerHTML = `
-          ${headingOne(`Niveau ${nivel} — Übungen`, 'font-size:1.4rem;margin:0 0 6px')}
+          <h1 style="font-size:1.4rem;margin:0 0 6px">Niveau ${nivel} — Übungen</h1>
           <p style="color:var(--muted);font-size:.88rem;margin:0 0 24px">${texts.length} Übungen verfügbar</p>
           <div class="ex-list">
             ${texts.map(t => {
@@ -508,7 +499,7 @@
     app.innerHTML = `
       <div class="ex-header">
         <span class="ex-type-badge">${isSprachbausteine ? (TYPE_LABEL[exerciseData.exercise_type] || 'Sprachbausteine') : 'Leseverstehen'}</span>
-        ${headingOne(escHtml(textData.titulo))}
+        <h1>${escHtml(textData.titulo)}</h1>
         <p>${escHtml(textData.descripcion || '')}</p>
       </div>
 
