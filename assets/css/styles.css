@@ -6265,3 +6265,94 @@ body.is-leaving {
 @media (max-width: 480px) {
   .login-card { padding: 28px 20px; }
 }
+
+/* Newsletter section */
+.newsletter-section {
+  background: var(--teal-pale);
+  padding: 56px 20px;
+  text-align: center;
+}
+.newsletter-section h2 {
+  font-family: "Cabin", sans-serif;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  color: var(--dark);
+  margin: 0 0 10px;
+}
+.newsletter-section p {
+  color: var(--muted);
+  margin: 0 0 28px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.newsletter-form input[type="email"] {
+  flex: 1 1 220px;
+  padding: 12px 16px;
+  border: 1.5px solid #c8d8ec;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color .2s;
+}
+.newsletter-form input[type="email"]:focus {
+  border-color: var(--teal);
+}
+.newsletter-form button {
+  padding: 12px 24px;
+  background: var(--teal);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .2s, transform .15s;
+}
+.newsletter-form button:hover { background: var(--teal-dark); transform: translateY(-1px); }
+.newsletter-form button:disabled { opacity: .6; cursor: default; transform: none; }
+.newsletter-msg {
+  margin-top: 14px;
+  font-size: .95rem;
+  color: var(--teal-dark);
+  font-weight: 600;
+}
+
+/* Newsletter confirmation page */
+.newsletter-confirm-page {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+.newsletter-confirm-card {
+  max-width: 500px;
+  background: var(--teal-pale);
+  border-radius: 12px;
+  padding: 48px 36px;
+}
+.newsletter-confirm-card h1 {
+  font-family: "Cabin", sans-serif;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  color: var(--dark);
+  margin: 0 0 14px;
+}
+.newsletter-confirm-card p {
+  color: var(--muted);
+  margin: 0 0 24px;
+}
+.newsletter-confirm-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}

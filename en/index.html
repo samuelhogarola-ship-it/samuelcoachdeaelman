@@ -298,6 +298,24 @@
       </div>
     </section>
   </main>
+
+  <section class="newsletter-section">
+    <h2>Free tips &amp; resources every week</h2>
+    <p>Subscribe to Samuel's newsletter: practical German, learning resources and study tips straight to your inbox.</p>
+    <form
+      class="newsletter-form"
+      data-locale="en"
+      data-success-msg="Done! Check your email to confirm your subscription."
+      data-already-msg="You're already subscribed. Thank you!"
+      data-error-msg="Something went wrong. Please try again."
+    >
+      <input type="email" name="email" placeholder="your@email.com" autocomplete="email" required aria-label="Your email">
+      <button type="submit">Subscribe</button>
+    </form>
+    <p class="newsletter-msg" hidden></p>
+    <p style="margin-top:14px;font-size:.8rem;color:var(--muted);">No spam. Unsubscribe anytime.</p>
+  </section>
+
   <footer>
     <div class="footer-inner">
       <div class="footer-top">
@@ -316,6 +334,7 @@
   </footer>
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
+  <script src="/assets/js/newsletter.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
   <script type="module" src="/assets/js/auth.js"></script>
 </body>
