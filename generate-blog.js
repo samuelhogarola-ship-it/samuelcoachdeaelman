@@ -99,6 +99,9 @@ function generateHtmlPage(slug, frontmatter, htmlContent) {
   const description = frontmatter.description || `Blog post: ${title}`;
   const publishDate = frontmatter.date || new Date().toISOString().split('T')[0];
   const author = frontmatter.author || 'Samuel Coach de Alemán';
+  const image = frontmatter.image
+    ? `https://www.samuelcoachdealeman.com/f/${slug}/${frontmatter.image}`
+    : 'https://www.samuelcoachdealeman.com/assets/img/og-blog.webp';
 
   return `<!DOCTYPE html>
 <html lang="${frontmatter.lang || 'es'}">
@@ -110,12 +113,12 @@ function generateHtmlPage(slug, frontmatter, htmlContent) {
   <link rel="canonical" href="https://www.samuelcoachdealeman.com/f/${slug}/">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
-  <link rel="stylesheet" href="/assets/css/styles.css?v=20260703a">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=20260704a">
   <meta property="og:type" content="article">
   <meta property="og:title" content="${title}">
   <meta property="og:description" content="${description}">
   <meta property="og:url" content="https://www.samuelcoachdealeman.com/f/${slug}/">
-  <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/og-blog.webp">
+  <meta property="og:image" content="${image}">
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">
   {
@@ -125,7 +128,7 @@ function generateHtmlPage(slug, frontmatter, htmlContent) {
     "description": "${description}",
     "author": {"@type": "Person", "name": "${author}"},
     "datePublished": "${publishDate}",
-    "image": "https://www.samuelcoachdealeman.com/assets/img/og-blog.webp",
+    "image": "${image}",
     "publisher": {
       "@type": "Organization",
       "name": "Samuel Coach de Alemán",

@@ -47,6 +47,7 @@ async function createPost() {
 
   // Crear archivo markdown
   const date = new Date().toISOString().split('T')[0];
+  const imageLine = imageFile ? `image: img/${imageFile}\n` : '';
   const imageRef = imageFile ? `\n![${title}](./img/${imageFile})` : '';
 
   const markdownContent = `---
@@ -56,7 +57,7 @@ description: ${description}
 date: ${date}
 author: ${author}
 lang: ${lang}
----
+${imageLine}---
 
 # ${title}
 
