@@ -62,18 +62,38 @@ npm run build:blog
 
 ## 🖼️ Imágenes
 
-Para añadir una imagen (OG image + schema.org):
+**3 opciones:**
 
-1. Colócala en `/f/{slug}/img/nombre.webp`
-2. Añade a frontmatter: `image: img/nombre.webp`
-3. En el contenido, úsala así: `![Alt text](./img/nombre.webp)`
+### Opción 1: Tienes imagen lista
+```
+npm run new:post
+→ ¿Añadir imagen? → s
+→ ¿Imagen custom (c) o estática (e)? → c
+→ Nombre: cover.webp
+→ Copia cover.webp a /f/{slug}/img/
+```
 
-La imagen aparecerá en:
-- Redes sociales (OG tags)
-- Buscadores (schema.org)
+### Opción 2: Sin imagen aún (usa fallback)
+```
+npm run new:post
+→ ¿Añadir imagen? → s
+→ ¿Imagen custom (c) o estática (e)? → e
+→ Post listo con og-blog.webp temporal
+```
+
+### Opción 3: Cambiar imagen después
+```
+1. Copia tu imagen a: /f/{slug}/img/cover.webp
+2. Edita /blog-posts/{slug}.md
+3. Cambia: image: default → image: img/cover.webp
+4. Ejecuta: npm run build:blog
+```
+
+**Automático:**
+- OG tags (Facebook, LinkedIn)
+- Twitter Card
+- Schema.org
 - Contenido del artículo
-
-Sin imagen: fallback automático a `/assets/img/og-blog.webp`
 
 ## ✨ Markdown Soportado
 

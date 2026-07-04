@@ -99,9 +99,15 @@ function generateHtmlPage(slug, frontmatter, htmlContent) {
   const description = frontmatter.description || `Blog post: ${title}`;
   const publishDate = frontmatter.date || new Date().toISOString().split('T')[0];
   const author = frontmatter.author || 'Samuel Coach de Alemán';
-  const image = frontmatter.image
-    ? `https://www.samuelcoachdealeman.com/f/${slug}/${frontmatter.image}`
-    : 'https://www.samuelcoachdealeman.com/assets/img/og-blog.webp';
+
+  let image = 'https://www.samuelcoachdealeman.com/assets/img/og-blog.webp';
+  if (frontmatter.image) {
+    if (frontmatter.image === 'default') {
+      image = 'https://www.samuelcoachdealeman.com/assets/img/og-blog.webp';
+    } else {
+      image = `https://www.samuelcoachdealeman.com/f/${slug}/${frontmatter.image}`;
+    }
+  }
 
   return `<!DOCTYPE html>
 <html lang="${frontmatter.lang || 'es'}">
