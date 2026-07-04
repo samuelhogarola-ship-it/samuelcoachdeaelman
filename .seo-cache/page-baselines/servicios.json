@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-06-30T14:29:53.029Z",
+  "url": "https://www.samuelcoachdealeman.com/servicios/",
+  "file": "servicios/index.html",
+  "title": "Clases de Alemán Online para Goethe, TELC, Conversación y Trabajo · Samuel Coach de Alemán",
+  "metaDescription": "Clases de alemán online personalizadas para hablar con fluidez, preparar Goethe y TELC, trabajar en Alemania o reforzar el alemán escolar. Planes claros, seguimiento real y clases 1 a 1.",
+  "canonical": "https://www.samuelcoachdealeman.com/servicios/",
+  "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+  "visibleIndexability": "indexable_visible_from_meta",
+  "h1": [
+    "Servicios de alemán online para hablar, aprobar y avanzar con propósito"
+  ],
+  "h2": [
+    "Elige el servicio según tu objetivo, no según una etiqueta genérica",
+    "Alemán conversacional",
+    "Preparación de exámenes oficiales",
+    "Alemán para trabajar en Alemania",
+    "Alemán + coaching laboral para empresas",
+    "Alemán escolar",
+    "Plan personalizado de alemán online",
+    "No todas las clases de alemán sirven para lo mismo"
+  ],
+  "h3": [
+    "Qué incluyen mis clases de alemán online",
+    "Cómo decidimos el mejor bloque"
+  ],
+  "schema": [
+    [
+      "BreadcrumbList",
+      "Service"
+    ]
+  ],
+  "schemaCount": 1,
+  "mainInternalLinks": [
+    "/",
+    "/servicios/",
+    "/recursos/",
+    "/sobre-mi/",
+    "/metodologia/",
+    "/politica-de-privacidad/"
+  ],
+  "sitemapInclusion": true
+}

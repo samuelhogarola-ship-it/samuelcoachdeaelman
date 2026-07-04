@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-06-30T14:29:53.029Z",
+  "baselineType": "local_static_html",
+  "urls": [
+    {
+      "url": "https://www.samuelcoachdealeman.com/",
+      "file": "index.html",
+      "baselineFile": ".seo-cache/page-baselines/home.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/servicios/",
+      "file": "servicios/index.html",
+      "baselineFile": ".seo-cache/page-baselines/servicios.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/sobre-mi/",
+      "file": "sobre-mi/index.html",
+      "baselineFile": ".seo-cache/page-baselines/sobre-mi.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/metodologia/",
+      "file": "metodologia/index.html",
+      "baselineFile": ".seo-cache/page-baselines/metodologia.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/practicar-aleman/",
+      "file": "practicar-aleman/index.html",
+      "baselineFile": ".seo-cache/page-baselines/practicar-aleman.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/recursos/",
+      "file": "recursos/index.html",
+      "baselineFile": ".seo-cache/page-baselines/recursos.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/recursos/preparacion-examen/",
+      "file": "recursos/preparacion-examen/index.html",
+      "baselineFile": ".seo-cache/page-baselines/recursos-preparacion-examen.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/f/",
+      "file": "f/index.html",
+      "baselineFile": ".seo-cache/page-baselines/f.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/leseverstehen/",
+      "file": "leseverstehen/index.html",
+      "baselineFile": ".seo-cache/page-baselines/leseverstehen.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/recursos/sprachbausteine/",
+      "file": "recursos/sprachbausteine/index.html",
+      "baselineFile": ".seo-cache/page-baselines/recursos-sprachbausteine.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/login/",
+      "file": "login/index.html",
+      "baselineFile": ".seo-cache/page-baselines/login.json"
+    },
+    {
+      "url": "https://www.samuelcoachdealeman.com/mi-cuenta/",
+      "file": "mi-cuenta/index.html",
+      "baselineFile": ".seo-cache/page-baselines/mi-cuenta.json"
+    }
+  ]
+}

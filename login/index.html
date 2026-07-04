@@ -200,6 +200,17 @@
       margin-bottom: 20px;
       line-height: 1.5;
     }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
 
     /* ── Tabs ── */
     .tabs {
@@ -242,6 +253,7 @@
 <body>
 
   <div class="page">
+    <h1 class="sr-only">Iniciar sesión</h1>
 
     <a class="logo-link" href="/">
       <img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="56" height="56">
@@ -366,10 +378,12 @@
     import { buildAccountUrl, signIn, signUp, resetPassword, supabase } from '/assets/js/auth.js'
 
     const isRecovery = new URLSearchParams(location.search).get('reset') === '1'
+    const hash = new URLSearchParams(location.hash.slice(1))
+    const hasToken = hash.has('access_token')
 
     supabase.auth.onAuthStateChange((event, session) => {
       if (event === 'PASSWORD_RECOVERY') showCard('card-newpass')
-      else if (session && !isRecovery) redirect()
+      else if (event === 'SIGNED_IN' || (session && !isRecovery)) redirect()
     })
 
     supabase.auth.getSession().then(({ data: { session } }) => {
@@ -411,6 +425,16 @@
       if (error) { showMsg('signin-error', error.message, 'error'); return }
       redirect()
     })
+
+    // ── Auto-process magic link token if present ──
+    if (hasToken) {
+      supabase.auth.getSession().then(({ data: { session } }) => {
+        if (session) {
+          if (isRecovery) showCard('card-newpass')
+          else redirect()
+        }
+      })
+    }
 
     // ── Sign up ──
     document.getElementById('form-signup').addEventListener('submit', async e => {

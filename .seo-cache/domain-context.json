@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-06-30T14:29:53.029Z",
+  "projectRoot": "/Users/sam/Desktop/webs/samuel coach de aleman",
+  "domain": "https://www.samuelcoachdealeman.com/",
+  "detectedBusinessType": "educativo + servicios profesionales + local",
+  "classificationNotes": "Online German coaching/classes with educational resources, exam preparation and local Fuengirola/Malaga signals.",
+  "audience": [
+    "Spanish-speaking German learners",
+    "children/adolescents/adults needing online classes",
+    "Goethe/TELC exam candidates",
+    "people preparing to work or live in Germany",
+    "companies needing German support"
+  ],
+  "primaryServices": [
+    "Clases de alemán online 1:1",
+    "Preparación Goethe/TELC",
+    "Alemán conversacional",
+    "Alemán laboral",
+    "Alemán escolar",
+    "Recursos gratuitos de lectura, Sprachbausteine y escritura"
+  ],
+  "geographies": [
+    "España",
+    "Fuengirola",
+    "Málaga",
+    "online",
+    "Germany/Austria/Switzerland intent in content"
+  ],
+  "urlStructure": [
+    "/ core Spanish pages",
+    "/de/ and /en/ localized pages",
+    "/f/ blog articles",
+    "/leseverstehen/ reading exercises",
+    "/recursos/ resource hubs",
+    "/recursos/sprachbausteine/ grammar/exercise resources",
+    "/recursos/schreiben/ writing examples"
+  ],
+  "dominantSearchIntent": "Mixed commercial investigation for classes and informational/educational intent for resources.",
+  "probableKeywords": [
+    "clases de alemán online",
+    "profesor alemán online",
+    "preparación Goethe alemán",
+    "preparación TELC alemán",
+    "alemán conversacional",
+    "alemán para trabajar en Alemania",
+    "Leseverstehen A1 A2 B1 B2",
+    "Sprachbausteine alemán",
+    "Redemittel B1 B2 C1"
+  ],
+  "competitorsVisibleLocally": "setup_required: no competitor data found in local HTML; external SERP/local pack research was not performed.",
+  "externalDataMissing": [
+    "Google Search Console",
+    "Analytics",
+    "PageSpeed/CrUX/Core Web Vitals real field data",
+    "remote crawl with HTTP status codes",
+    "SERP/local competitor data",
+    "Google Business Profile/NAP review sources",
+    "backlink/citation data"
+  ],
+  "localInventory": {
+    "htmlIndexPages": 478,
+    "sitemapUrls": 2693,
+    "robotsPresent": true,
+    "manifestPresent": true
+  },
+  "capabilities": [
+    {
+      "name": "seo-orchestrator",
+      "status": "setup_required",
+      "evidence": "No callable tool or skill with this name is exposed in the current Codex environment.",
+      "minimumSetup": "Expose a tool/skill that can crawl pages, store evidence, return structured findings, and declare data-source limitations."
+    },
+    {
+      "name": "seo-technical",
+      "status": "setup_required",
+      "evidence": "No callable tool or skill with this name is exposed in the current Codex environment.",
+      "minimumSetup": "Expose a tool/skill that can crawl pages, store evidence, return structured findings, and declare data-source limitations."
+    },
+    {
+      "name": "seo-schema",
+      "status": "setup_required",
+      "evidence": "No callable tool or skill with this name is exposed in the current Codex environment.",
+      "minimumSetup": "Expose a tool/skill that can crawl pages, store evidence, return structured findings, and declare data-source limitations."
+    },
+    {
+      "name": "seo-content",
+      "status": "setup_required",
+      "evidence": "No callable tool or skill with this name is exposed in the current Codex environment.",
+      "minimumSetup": "Expose a tool/skill that can crawl pages, store evidence, return structured findings, and declare data-source limitations."
+    },
+    {
+      "name": "seo-geo",
+      "status": "setup_required",
+      "evidence": "No callable tool or skill with this name is exposed in the current Codex environment.",
+      "minimumSetup": "Expose a tool/skill that can crawl pages, store evidence, return structured findings, and declare data-source limitations."
+    },
+    {
+      "name": "seo-sitemap",
+      "status": "setup_required",
+      "evidence": "No callable tool or skill with this name is exposed in the current Codex environment.",
+      "minimumSetup": "Expose a tool/skill that can crawl pages, store evidence, return structured findings, and declare data-source limitations."
+    },
+    {
+      "name": "seo-drift",
+      "status": "setup_required",
+      "evidence": "No callable tool or skill with this name is exposed in the current Codex environment.",
+      "minimumSetup": "Expose a tool/skill that can crawl pages, store evidence, return structured findings, and declare data-source limitations."
+    },
+    {
+      "name": "seo-local",
+      "status": "setup_required",
+      "evidence": "No callable tool or skill with this name is exposed in the current Codex environment.",
+      "minimumSetup": "Expose a tool/skill that can crawl pages, store evidence, return structured findings, and declare data-source limitations."
+    }
+  ]
+}

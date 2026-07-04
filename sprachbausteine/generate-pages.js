@@ -1188,6 +1188,10 @@ function buildPage(locale, options) {
   const appAttrs = Object.entries(options.appData || {})
     .map(([key, value]) => `data-${key}="${escapeAttr(value)}"`)
     .join(" ");
+  const schemaType = options.appData?.view === "exercise" ? "LearningResource" : "CollectionPage";
+  const schemaLevel = options.appData?.level
+    ? `,\n    "educationalLevel": "${escapeAttr(String(options.appData.level).toUpperCase())}"`
+    : "";
 
   return `<!DOCTYPE html>
 <html lang="${localeConfig.lang}">
@@ -1213,12 +1217,28 @@ function buildPage(locale, options) {
   <meta name="twitter:image" content="${BASE_URL}/assets/img/resources-exam-hero.webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "${schemaType}",
+    "name": ${JSON.stringify(options.meta.title)},
+    "description": ${JSON.stringify(options.meta.description)},
+    "url": "${canonical}",
+    "inLanguage": "${localeConfig.lang}",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Samuel Coach de Alemán",
+      "url": "${BASE_URL}/"
+    }${schemaLevel}
+  }
+  </script>
   ${localeConfig.siteLocaleContent ? `<script>
     window.siteLocaleContent = ${JSON.stringify(localeConfig.siteLocaleContent)};
   </script>` : ""}
@@ -1260,7 +1280,9 @@ function writeDataFile(exercises) {
 function updateSitemap(exercises) {
   const sitemapPath = path.join(ROOT_DIR, "sitemap.xml");
   let sitemap = fs.readFileSync(sitemapPath, "utf8");
-  sitemap = sitemap.replace(/\s*<!-- SPRACHBAUSTEINE:START -->[\s\S]*?<!-- SPRACHBAUSTEINE:END -->/g, "");
+  sitemap = sitemap
+    .replace(/\s*<!-- SPRACHBAUSTEINE:START -->[\s\S]*?<!-- SPRACHBAUSTEINE:END -->/g, "")
+    .replace(/\s*<url>\s*<loc>https:\/\/www\.samuelcoachdealeman\.com\/(?:de\/|en\/)?recursos\/lueckentext\/[^<]*<\/loc>\s*<\/url>/g, "");
 
   const urls = [];
   Object.keys(LOCALES).forEach((locale) => {
