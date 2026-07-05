@@ -435,15 +435,22 @@ function renderExercise(container, level, slug) {
     checked: false,
     results: {},
     hits: 0,
+    fullscreen: false,
   };
 
   const update = () => {
     container.innerHTML = `
-      <div class="lueck-reader">
+      <div class="lueck-reader${state.fullscreen ? ' is-fullscreen' : ''}">
         <div class="lueck-text-col">
           <div class="lueck-heading-row">
             <span class="lese-card-nivel">${exercise.nivel}</span>
             <span class="lueck-card-type">${ui.typeLabel[exercise.tipo]}</span>
+            <button class="lueck-fullscreen-btn" type="button" data-action="fullscreen" title="${state.fullscreen ? 'Salir de pantalla completa' : 'Pantalla completa'}">
+              ${state.fullscreen
+                ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3a2 2 0 01-2 2H3"/><path d="M21 8h-3a2 2 0 01-2-2V3"/><path d="M3 16h3a2 2 0 012 2v3"/><path d="M16 21v-3a2 2 0 012-2h3"/></svg>'
+                : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 00-2 2v3"/><path d="M21 8V5a2 2 0 00-2-2h-3"/><path d="M3 16v3a2 2 0 002 2h3"/><path d="M16 21h3a2 2 0 002-2v-3"/></svg>'
+              }
+            </button>
           </div>
           <h2 class="lese-titulo">${escapeHtml(exercise.titulo)}</h2>
           <p class="lueck-reader-lead">${escapeHtml(exercise.tipo === "type1" ? ui.exerciseLead1 : ui.exerciseLead2)}</p>
@@ -492,6 +499,14 @@ function renderExercise(container, level, slug) {
     update();
   };
 
+  document.addEventListener("keydown", function onEsc(e) {
+    if (e.key === "Escape" && state.fullscreen) {
+      state.fullscreen = false;
+      document.body.style.overflow = '';
+      update();
+    }
+  });
+
   update();
 
   container.addEventListener("click", (event) => {
@@ -537,6 +552,12 @@ function renderExercise(container, level, slug) {
     if (!actionButton) return;
 
     const action = actionButton.getAttribute("data-action");
+    if (action === "fullscreen") {
+      state.fullscreen = !state.fullscreen;
+      document.body.style.overflow = state.fullscreen ? 'hidden' : '';
+      update();
+      return;
+    }
     if (action === "reset") {
       state.selections = {};
       state.placements = {};
