@@ -1,26 +1,34 @@
 # NEXT
 
-## Current Focus
-- Preparar `/recursos/` como la primera zona evolutiva del proyecto.
-- Mantener la web principal estática y estable mientras `Recursos` gana lógica propia.
-- Consolidar la calidad de los ejercicios generados antes de mover más lógica de producto.
-- Rematar optimizaciones de rendimiento movil sin abrir un frente de rediseño global.
+## PRs abiertos (esperando merge del usuario)
 
-## Next Steps
-- Definir la arquitectura de autenticacion para usuarios gratuitos y premium.
-- Decidir la pasarela de pago y el modelo de acceso a contenidos premium.
-- Separar datos y bloques de `Recursos` para facilitar una futura migracion a React.
-- Empezar por `Schreiben` como primer recurso con login y experiencia premium.
-- Añadir validaciones automaticas para `Sprachbausteine`, sobre todo para categoria gramatical y consistencia de distractores.
-- Mejorar la calidad semantica de distractores nominales y verbales sin romper la consistencia gramatical.
-- Atacar el siguiente tramo de rendimiento movil: CSS bloqueante, carga de Google Fonts y tamanos adaptables de `samuel-cookie.webp`, `hero-photo-full.webp` y `logo-main.webp`.
+- **PR #79** — `fix/lueckentext-sticky-fullscreen`: panel sticky + modo fullscreen en Sprachbausteine y Leseverstehen
+- **PR #80** — `feat/dashboard-v2-lazy`: dashboard v2 (greeting card, streak, retos, mensajes coach), scroll reveal, scroll reveal en homepage
 
-## Notes
-- El widget de apps ya no se abre por defecto en movil.
-- El `logo-tree.png` pesado ya no se referencia en las paginas espanolas donde seguia vivo.
-- Convencion de blog: los posts nuevos deben publicarse con un unico slug canonico, siempre en minusculas, con guiones y sin acentos ni `ñ`.
-- Si se rescata un post legacy con otra URL historica, se crea una pagina estatica real en `/f/` para ese slug legacy; no se depende de CSV ni de redirects HTML.
-- Convencion tecnica: antes de levantar cualquier proyecto local, comprobar si el puerto objetivo ya esta en uso; si lo esta, arrancar en otro puerto libre en vez de pisar el proceso existente.
-- `playwright.config.js` ya aplica esta regla buscando un puerto libre a partir del `4173` o del valor de `PLAYWRIGHT_PORT`.
-- Evitar redisenos globales; los cambios de producto deben concentrarse primero en `Recursos`.
-- El cierre del ciclo de `Sprachbausteine` ya esta mergeado en `main` mediante el PR `#31`.
+## Acciones manuales pendientes en Supabase (`hocdlmxzghwymamientc`)
+
+1. ✅ Auth URL Configuration — configurado 2026-07-05
+
+2. **Migración challenges** (opcional para PR #80): verificar si la tabla `samuel_challenges` existe. Si los Retos muestran skeleton permanente tras el login, aplicar `supabase/migrations/20260704000002_challenges.sql`. El resto del panel funciona sin ella.
+
+## Pendiente técnico
+
+- **Categorización visual con chips** (`.res-chip`): el CSS ya existe en `styles.css` pero NO está aplicado a ninguna tarjeta de recursos en HTML. Falta añadir `<span class="res-chip res-chip--spb">Sprachbausteine</span>` etc. a las listas de `/recursos/`, `/de/recursos/`, `/en/recursos/`
+- **Migraciones premium/chat** (`20260701000001` + `20260701000002`): viven en rama `feat/estadisticas-textos-nivel2-chat-premium` — ya mergeada. Pendiente aplicarlas a `hocdlmxzghwymamientc` (Samuel hace `supabase link --project-ref hocdlmxzghwymamientc`)
+- **studio-panel**: admin de Vokabel-World (imKontext) y sección Fuengirola — PRs pendientes en web-fuengirola
+- **Migraciones WF-Studio**: clientes Angel, Indira, Sofia → migrar auth a apps-users
+
+## Foco de producto
+
+- `/recursos/` como zona evolutiva principal — añadir lógica sin romper el resto estático
+- Consolidar calidad de ejercicios antes de abrir nuevos frentes
+- Schreiben como primer recurso con experiencia premium completa (login + corrección)
+- Decidir pasarela de pago y modelo de acceso premium
+
+## Convenciones activas
+
+- **iOS 13**: nunca `?.` en `assets/js/` — `grep -rn '\?\.' assets/js/` antes de cada PR
+- **Git**: siempre rama feature + PR, nunca directo a main, nunca auto-merge
+- **Blog slugs**: minúsculas, guiones, sin acentos ni ñ, un único slug canónico
+- **Puertos locales**: comprobar puerto libre antes de levantar servidor; playwright busca desde 4173
+- **Supabase proyectos**: `admin-panels` (studio-panel) / `apps-clients` = `hocdlmxzghwymamientc` (usuarios finales Samuel)
