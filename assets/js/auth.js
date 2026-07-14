@@ -277,6 +277,19 @@ export async function isPremium() {
   return status.active
 }
 
+export async function redeemPremiumCode(code) {
+  const cleaned = String(code || '').trim().toUpperCase()
+  if (!cleaned) {
+    return { ok: false, error: new Error('Premium-Code fehlt.') }
+  }
+
+  const { data, error } = await supabase.rpc('redeem_premium_code', {
+    p_code: cleaned,
+  })
+
+  return { ok: data === true && !error, error: error ?? null }
+}
+
 export async function requirePremium(redirectTo = location.pathname) {
   const user = await requireAuth(redirectTo)
   if (!user) return null
