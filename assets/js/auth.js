@@ -15,26 +15,26 @@ const I18N = {
   de: {
     navLogin:        'Anmelden',
     navAccount:      'Mein Konto',
-    premiumCta:      'Anmelden für Zugang',
-    premiumCtaAuth:  'KI-Korrektur demnächst verfügbar',
-    premiumNote:     'Nur für aktive Schüler von Samuel Coach de Alemán',
-    premiumNoteAuth: 'Du bist angemeldet. KI-Korrektur folgt bald.',
+    premiumCta:      'Anmelden für Premium-Zugang',
+    premiumCtaAuth:  'Premium-Bereich öffnen',
+    premiumNote:     'Nur für Nutzer mit aktiver Premium-Mitgliedschaft',
+    premiumNoteAuth: 'Du bist angemeldet. Premium-Inhalte werden mit aktiver Mitgliedschaft freigeschaltet.',
   },
   en: {
     navLogin:        'Log in',
     navAccount:      'My account',
-    premiumCta:      'Log in to access',
-    premiumCtaAuth:  'AI correction coming soon',
-    premiumNote:     'Only available for active Samuel Coach de Alemán students',
-    premiumNoteAuth: 'You\'re logged in. AI correction will be available soon.',
+    premiumCta:      'Log in for premium access',
+    premiumCtaAuth:  'Open premium area',
+    premiumNote:     'Only available with an active premium membership',
+    premiumNoteAuth: 'You are logged in. Premium content unlocks with an active membership.',
   },
   es: {
     navLogin:        'Iniciar sesión',
     navAccount:      'Mi cuenta',
-    premiumCta:      'Iniciar sesión para acceder',
-    premiumCtaAuth:  'Corrección IA disponible próximamente',
-    premiumNote:     'Solo disponible para alumnos activos de Samuel Coach de Alemán',
-    premiumNoteAuth: 'Has iniciado sesión. La corrección IA estará disponible en breve.',
+    premiumCta:      'Iniciar sesión para acceso premium',
+    premiumCtaAuth:  'Abrir zona premium',
+    premiumNote:     'Solo disponible con una membresía premium activa',
+    premiumNoteAuth: 'Has iniciado sesión. El contenido premium se desbloquea con una membresía activa.',
   },
 }
 
@@ -63,6 +63,35 @@ export function buildAccountUrl() {
 
 export function buildPasswordResetUrl() {
   return `${location.origin}${getLocalePrefix()}/login/?reset=1`
+}
+
+function cleanupAuthUrl() {
+  const url = new URL(location.href)
+  const removable = [
+    'code',
+    'token_hash',
+    'type',
+    'error',
+    'error_code',
+    'error_description',
+    'access_token',
+    'refresh_token',
+    'expires_at',
+    'expires_in',
+    'provider_token',
+    'provider_refresh_token',
+  ]
+
+  removable.forEach(key => url.searchParams.delete(key))
+
+  if (url.hash) {
+    const hashParams = new URLSearchParams(url.hash.slice(1))
+    removable.forEach(key => hashParams.delete(key))
+    const nextHash = hashParams.toString()
+    url.hash = nextHash ? `#${nextHash}` : ''
+  }
+
+  history.replaceState({}, document.title, `${url.pathname}${url.search}${url.hash}`)
 }
 
 // ── Nav ────────────────────────────────────────────────────────────────────────
@@ -159,6 +188,51 @@ export async function resetPassword(email) {
   })
 }
 
+export async function finishAuthSessionFromUrl() {
+  const url = new URL(location.href)
+  const hashParams = new URLSearchParams(url.hash.startsWith('#') ? url.hash.slice(1) : '')
+  const type = url.searchParams.get('type') || hashParams.get('type') || ''
+  const isRecovery = url.searchParams.get('reset') === '1' || type === 'recovery'
+  const errorDescription = url.searchParams.get('error_description') || hashParams.get('error_description')
+
+  if (errorDescription) {
+    cleanupAuthUrl()
+    return {
+      error: new Error(decodeURIComponent(errorDescription.replace(/\+/g, ' '))),
+      isRecovery,
+      session: null,
+    }
+  }
+
+  const code = url.searchParams.get('code')
+  const tokenHash = url.searchParams.get('token_hash')
+  const hasHashSession =
+    hashParams.has('access_token') ||
+    hashParams.has('refresh_token') ||
+    hashParams.has('provider_token')
+
+  if (code) {
+    const { data, error } = await supabase.auth.exchangeCodeForSession(code)
+    cleanupAuthUrl()
+    return { error, isRecovery, session: data?.session ?? null }
+  }
+
+  if (tokenHash && type) {
+    const { data, error } = await supabase.auth.verifyOtp({ token_hash: tokenHash, type })
+    cleanupAuthUrl()
+    return { error, isRecovery, session: data?.session ?? null }
+  }
+
+  if (hasHashSession) {
+    const { data, error } = await supabase.auth.getSession()
+    cleanupAuthUrl()
+    return { error: error ?? null, isRecovery, session: data?.session ?? null }
+  }
+
+  const { data, error } = await supabase.auth.getSession()
+  return { error: error ?? null, isRecovery, session: data?.session ?? null }
+}
+
 export async function getUser() {
   const { data } = await supabase.auth.getUser()
   return data.user
@@ -175,16 +249,54 @@ export async function requireAuth(redirectTo = location.pathname) {
 
 // Devuelve true si el usuario tiene is_premium en samuel_profiles.
 // Requiere sesión activa. Silencioso ante errores de red.
-export async function isPremium() {
+export async function getPremiumStatus() {
   const { data: { session } } = await supabase.auth.getSession()
-  if (!session) return false
+  if (!session) return { active: false, expiresAt: null }
   try {
     const res = await fetch(
-      `${SUPABASE_URL}/rest/v1/samuel_profiles?user_id=eq.${session.user.id}&select=is_premium&limit=1`,
+      `${SUPABASE_URL}/rest/v1/samuel_profiles?user_id=eq.${session.user.id}&select=is_premium,premium_expires_at&limit=1`,
       { headers: { apikey: SUPABASE_ANON, Authorization: `Bearer ${session.access_token}` } }
     )
-    if (!res.ok) return false
+    if (!res.ok) return { active: false, expiresAt: null }
     const rows = await res.json()
-    return rows.length > 0 && rows[0].is_premium === true
-  } catch { return false }
+    if (!rows.length) return { active: false, expiresAt: null }
+    const expiresAt = rows[0].premium_expires_at || null
+    const active =
+      rows[0].is_premium === true &&
+      typeof expiresAt === 'string' &&
+      Number.isFinite(Date.parse(expiresAt)) &&
+      Date.parse(expiresAt) > Date.now()
+    return { active, expiresAt }
+  } catch {
+    return { active: false, expiresAt: null }
+  }
+}
+
+export async function isPremium() {
+  const status = await getPremiumStatus()
+  return status.active
+}
+
+export async function redeemPremiumCode(code) {
+  const cleaned = String(code || '').trim().toUpperCase()
+  if (!cleaned) {
+    return { ok: false, error: new Error('Premium-Code fehlt.') }
+  }
+
+  const { data, error } = await supabase.rpc('redeem_premium_code', {
+    p_code: cleaned,
+  })
+
+  return { ok: data === true && !error, error: error ?? null }
+}
+
+export async function requirePremium(redirectTo = location.pathname) {
+  const user = await requireAuth(redirectTo)
+  if (!user) return null
+  const status = await getPremiumStatus()
+  if (!status.active) {
+    location.href = buildAccountUrl()
+    return null
+  }
+  return user
 }

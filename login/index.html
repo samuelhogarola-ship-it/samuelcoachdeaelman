@@ -8,11 +8,39 @@
   <link rel="canonical" href="https://www.samuelcoachdealeman.com/login/">
   <meta name="robots" content="noindex, follow">
   <meta name="theme-color" content="#0f2260">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Iniciar sesión — Samuel Coach de Alemán">
+  <meta property="og:description" content="Accede a tu cuenta de Samuel Coach de Alemán para guardar tu progreso y acceder a contenido premium.">
+  <meta property="og:url" content="https://www.samuelcoachdealeman.com/login/">
+  <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/og-home.webp">
+  <meta property="og:image:width" content="1731">
+  <meta property="og:image:height" content="909">
+  <meta property="og:site_name" content="Samuel Coach de Alemán">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Iniciar sesión — Samuel Coach de Alemán">
+  <meta name="twitter:description" content="Accede a tu cuenta para continuar con tus recursos y ejercicios de alemán.">
+  <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/og-home.webp">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Iniciar sesión — Samuel Coach de Alemán",
+    "url": "https://www.samuelcoachdealeman.com/login/",
+    "description": "Accede a tu cuenta de Samuel Coach de Alemán para guardar tu progreso y acceder a contenido premium.",
+    "inLanguage": "es",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Samuel Coach de Alemán",
+      "url": "https://www.samuelcoachdealeman.com/"
+    }
+  }
+  </script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -252,7 +280,7 @@
 </head>
 <body>
 
-  <div class="page">
+  <main class="page">
     <h1 class="sr-only">Iniciar sesión</h1>
 
     <a class="logo-link" href="/">
@@ -347,7 +375,7 @@
       <a href="/">samuelcoachdealeman.com</a> · <a href="/politica-de-privacidad/">Privacidad</a>
     </div>
 
-  </div>
+  </main>
 
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
@@ -375,20 +403,10 @@
   </script>
 
   <script type="module">
-    import { buildAccountUrl, signIn, signUp, resetPassword, supabase } from '/assets/js/auth.js'
+    import { buildAccountUrl, finishAuthSessionFromUrl, resetPassword, signIn, signUp, supabase } from '/assets/js/auth.js'
 
-    const isRecovery = new URLSearchParams(location.search).get('reset') === '1'
-    const hash = new URLSearchParams(location.hash.slice(1))
-    const hasToken = hash.has('access_token')
-
-    supabase.auth.onAuthStateChange((event, session) => {
-      if (event === 'PASSWORD_RECOVERY') showCard('card-newpass')
-      else if (event === 'SIGNED_IN' || (session && !isRecovery)) redirect()
-    })
-
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      if (session && !isRecovery) redirect()
-    })
+    const flow = await finishAuthSessionFromUrl()
+    const isRecovery = flow.isRecovery
 
     function redirect() {
       const r = new URLSearchParams(location.search).get('redirect')
@@ -411,6 +429,15 @@
     }
     document.querySelectorAll('.btn-primary').forEach(b => b.dataset.label = b.textContent)
 
+    if (isRecovery) showCard('card-newpass')
+    if (flow.error) showMsg(isRecovery ? 'newpass-error' : 'signin-error', flow.error.message, 'error')
+    if (flow.session && !isRecovery) redirect()
+
+    supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'PASSWORD_RECOVERY') showCard('card-newpass')
+      else if (event === 'SIGNED_IN' && session && !isRecovery) redirect()
+    })
+
     // ── Sign in ──
     document.getElementById('form-signin').addEventListener('submit', async e => {
       e.preventDefault()
@@ -425,16 +452,6 @@
       if (error) { showMsg('signin-error', error.message, 'error'); return }
       redirect()
     })
-
-    // ── Auto-process magic link token if present ──
-    if (hasToken) {
-      supabase.auth.getSession().then(({ data: { session } }) => {
-        if (session) {
-          if (isRecovery) showCard('card-newpass')
-          else redirect()
-        }
-      })
-    }
 
     // ── Sign up ──
     document.getElementById('form-signup').addEventListener('submit', async e => {

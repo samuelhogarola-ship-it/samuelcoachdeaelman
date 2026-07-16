@@ -8,11 +8,39 @@
   <link rel="canonical" href="https://www.samuelcoachdealeman.com/de/login/">
   <meta name="robots" content="noindex, follow">
   <meta name="theme-color" content="#455a64">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Anmelden — Samuel Coach de Alemán">
+  <meta property="og:description" content="Melde dich bei deinem Konto von Samuel Coach de Alemán an, um deinen Fortschritt zu speichern und auf Premium-Inhalte zuzugreifen.">
+  <meta property="og:url" content="https://www.samuelcoachdealeman.com/de/login/">
+  <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/og-home.webp">
+  <meta property="og:image:width" content="1731">
+  <meta property="og:image:height" content="909">
+  <meta property="og:site_name" content="Samuel Coach de Alemán">
+  <meta property="og:locale" content="de_DE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Anmelden — Samuel Coach de Alemán">
+  <meta name="twitter:description" content="Melde dich an, um mit deinen Deutschressourcen und Übungen weiterzulernen.">
+  <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/og-home.webp">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Anmelden — Samuel Coach de Alemán",
+    "url": "https://www.samuelcoachdealeman.com/de/login/",
+    "description": "Melde dich bei deinem Konto von Samuel Coach de Alemán an, um deinen Fortschritt zu speichern und auf Premium-Inhalte zuzugreifen.",
+    "inLanguage": "de",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Samuel Coach de Alemán",
+      "url": "https://www.samuelcoachdealeman.com/"
+    }
+  }
+  </script>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
   <script>
@@ -42,7 +70,7 @@
 </head>
 <body>
 
-  <nav>
+  <nav aria-label="Hauptnavigation">
     <div class="nav-inner">
       <a class="nav-logo" href="/de/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
       <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen" aria-haspopup="true">
@@ -164,7 +192,7 @@
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
   <script type="module">
-    import { buildAccountUrl, signIn, signUp, resetPassword, supabase } from '/assets/js/auth.js'
+    import { buildAccountUrl, finishAuthSessionFromUrl, resetPassword, signIn, signUp, supabase } from '/assets/js/auth.js'
 
     const copy = {
       loading: 'Einen Moment…',
@@ -174,7 +202,8 @@
       updateSuccess: 'Passwort aktualisiert. Weiterleitung…'
     }
 
-    const isRecovery = new URLSearchParams(location.search).get('reset') === '1'
+    const flow = await finishAuthSessionFromUrl()
+    const isRecovery = flow.isRecovery
 
     if (isRecovery) {
       document.querySelectorAll('.login-tab').forEach(t => t.closest('.login-tabs').hidden = true)
@@ -183,12 +212,11 @@
 
     supabase.auth.onAuthStateChange((event, session) => {
       if (event === 'PASSWORD_RECOVERY') showNewPassForm()
-      else if (session && !isRecovery) redirectAfterLogin()
+      else if (event === 'SIGNED_IN' && session && !isRecovery) redirectAfterLogin()
     })
 
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      if (session && !isRecovery) redirectAfterLogin()
-    })
+    if (flow.error) showError(isRecovery ? 'newpass-error' : 'signin-error', flow.error.message)
+    if (flow.session && !isRecovery) redirectAfterLogin()
 
     function showNewPassForm() {
       document.querySelectorAll('.login-form').forEach(f => f.hidden = true)
