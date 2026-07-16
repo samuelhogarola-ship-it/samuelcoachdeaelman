@@ -54,6 +54,29 @@ test.describe("contact form", () => {
     );
   });
 
+  test("falls back to a prepared email when the contact endpoint is unavailable", async ({ page }) => {
+    await page.route("**/functions/v1/contact", async (route) => {
+      await route.fulfill({
+        status: 404,
+        contentType: "application/json",
+        body: JSON.stringify({
+          success: false,
+          message: "Requested function was not found"
+        })
+      });
+    });
+
+    await page.goto("/#valoracion");
+    await acceptCookiesIfVisible(page);
+    await fillHomeContactForm(page);
+
+    await page.getByRole("button", { name: /quiero mi plan personalizado/i }).click();
+
+    await expect(page.locator(".form-status")).toHaveText(
+      /he preparado el email con tus datos/i
+    );
+  });
+
   test("submits successfully with a mocked endpoint and mocked Turnstile", async ({ page }) => {
     let requestBody = null;
 
