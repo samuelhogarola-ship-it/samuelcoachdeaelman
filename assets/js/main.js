@@ -334,9 +334,15 @@ const initOfferForms = () => {
   };
 
   const locale = (document.documentElement.lang || "es").slice(0, 2);
-  const functionEndpoint =
-    readPublicConfig(runtimeConfig.contactEndpoint, "samuel-contact-endpoint") ||
-    "/functions/v1/contact";
+  const configuredEndpoint = readPublicConfig(
+    runtimeConfig.contactEndpoint,
+    "samuel-contact-endpoint"
+  );
+  const normalizeContactEndpoint = (value) => {
+    const endpoint = (value || "").trim();
+    if (endpoint === "/functions/v1/contact") return "/functions/v1/contact/";
+    return endpoint || "/functions/v1/contact/";
+  };
   const turnstileSiteKey = readPublicConfig(
     runtimeConfig.turnstileSiteKey,
     "samuel-turnstile-site-key"
@@ -597,7 +603,9 @@ const initOfferForms = () => {
         }
       }
 
-      const action = functionEndpoint || form.getAttribute("action") || "/functions/v1/contact";
+      const action = normalizeContactEndpoint(
+        configuredEndpoint || form.getAttribute("action")
+      );
       const payload = payloadFromForm(form);
 
       setStatusMessage(submitText.sending);

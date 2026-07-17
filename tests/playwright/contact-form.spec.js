@@ -34,7 +34,7 @@ test.describe("contact form", () => {
     await page.addInitScript(() => {
       window.__SAMUEL_CONTACT_CONFIG__ = {
         turnstileSiteKey: "production-site-key",
-        contactEndpoint: "/functions/v1/contact"
+        contactEndpoint: "/functions/v1/contact/"
       };
     });
 
@@ -55,7 +55,7 @@ test.describe("contact form", () => {
   });
 
   test("falls back to a prepared email when the contact endpoint is unavailable", async ({ page }) => {
-    await page.route("**/functions/v1/contact", async (route) => {
+    await page.route("**/functions/v1/contact**", async (route) => {
       await route.fulfill({
         status: 404,
         contentType: "application/json",
@@ -83,7 +83,7 @@ test.describe("contact form", () => {
     await page.addInitScript(() => {
       window.__SAMUEL_CONTACT_CONFIG__ = {
         turnstileSiteKey: "production-site-key",
-        contactEndpoint: "/functions/v1/contact"
+        contactEndpoint: "/functions/v1/contact/"
       };
 
       window.__turnstileToken = "mock-turnstile-token";
@@ -104,7 +104,7 @@ test.describe("contact form", () => {
       };
     });
 
-    await page.route("**/functions/v1/contact", async (route) => {
+    await page.route("**/functions/v1/contact**", async (route) => {
       requestBody = route.request().postDataJSON();
       await route.fulfill({
         status: 200,
