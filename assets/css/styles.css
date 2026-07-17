@@ -4129,6 +4129,8 @@ body:not(.premium-page):not(.home-page) .footer-bottom {
   line-height: .95;
   letter-spacing: -.05em;
   text-wrap: balance;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .premium-page .page-hero p,
