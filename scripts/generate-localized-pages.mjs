@@ -980,6 +980,51 @@ function renderFooter(locale) {
   </footer>`;
 }
 
+function renderNewsletter(locale) {
+  const copy = {
+    de: {
+      title: "Tipps &amp; Ressourcen gratis jede Woche",
+      text: "Melde dich für Samuels Newsletter an: praktisches Deutsch, Lernressourcen und Tipps direkt in dein Postfach.",
+      success: "Fertig! Anfrage erhalten. Ich nehme dich in den Newsletter auf.",
+      already: "Du bist bereits angemeldet. Danke!",
+      error: "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+      placeholder: "deine@email.de",
+      aria: "Deine E-Mail",
+      button: "Anmelden",
+      note: "Kein Spam. Jederzeit abmeldbar."
+    },
+    en: {
+      title: "Free tips &amp; resources every week",
+      text: "Subscribe to Samuel's newsletter: practical German, learning resources and study tips straight to your inbox.",
+      success: "Done! Request received. I will add you to the newsletter list.",
+      already: "You're already subscribed. Thank you!",
+      error: "Something went wrong. Please try again.",
+      placeholder: "your@email.com",
+      aria: "Your email",
+      button: "Subscribe",
+      note: "No spam. Unsubscribe anytime."
+    }
+  }[locale];
+
+  return `  <section class="newsletter-section">
+    <h2>${copy.title}</h2>
+    <p>${copy.text}</p>
+    <form
+      class="newsletter-form"
+      data-locale="${locale}"
+      data-success-msg="${copy.success}"
+      data-already-msg="${copy.already}"
+      data-error-msg="${copy.error}"
+    >
+      <input type="text" name="company" class="form-honeypot" tabindex="-1" autocomplete="organization" aria-hidden="true">
+      <input type="email" name="newsletter-email" placeholder="${copy.placeholder}" autocomplete="email" required aria-label="${copy.aria}">
+      <button type="submit">${copy.button}</button>
+    </form>
+    <p class="newsletter-msg" hidden></p>
+    <p style="margin-top:14px;font-size:.8rem;color:var(--muted);">${copy.note}</p>
+  </section>`;
+}
+
 function bodyClass(page) {
   const key = typeof page === "object" ? page.key : page;
   if (key === "home") return "home-page";
@@ -1248,7 +1293,7 @@ function renderHome(locale) {
         </div>
         <div class="hero-photo">
           <div class="photo-wrap">
-            <img src="/assets/img/hero-photo-full.webp" alt="Samuel Coach de Alemán" width="720" height="720" loading="eager" fetchpriority="high">
+            <img src="/assets/img/hero-photo.webp" alt="Samuel Coach de Alemán" width="720" height="720" loading="eager" fetchpriority="high">
           </div>
         </div>
       </div>
@@ -1993,10 +2038,11 @@ function pageImage(pageKey) {
   if (key === "about") {
     return `${baseUrl}/assets/img/about-journey.webp`;
   }
-  return `${baseUrl}/assets/img/hero-photo-full.webp`;
+  return `${baseUrl}/assets/img/hero-photo.webp`;
 }
 
 function buildHtml(page, locale) {
+  const key = typeof page === "object" ? page.key : page;
   const title = pageTitle(locale, page);
   const description = pageDescription(locale, page);
   const ogTitle = pageOgTitle(locale, page);
@@ -2030,7 +2076,8 @@ ${alternates}
   <meta name="samuel-contact-endpoint" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
@@ -2051,10 +2098,11 @@ ${renderPageSchema(page, locale, title, description)}
 <body class="${bodyClass(page)}">
 ${renderNav(locale)}
 ${renderMain(page, locale)}
+${key === "home" ? renderNewsletter(locale) : ""}
 ${renderFooter(locale)}
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
-  <script src="/assets/js/main.js" defer></script>
+${key === "home" ? '  <script src="/assets/js/newsletter.js" defer></script>\n' : ""}  <script src="/assets/js/main.js" defer></script>
   <script type="module" src="/assets/js/auth.js"></script>
 </body>
 </html>

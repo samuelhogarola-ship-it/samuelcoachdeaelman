@@ -1,4 +1,40 @@
-# Redirects 301: lueckentext → sprachbausteine
+# Canonical host, production endpoints and technical redirects.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Force one canonical host so SEO signals are not split between www/non-www.
+RewriteCond %{HTTP_HOST} ^samuelcoachdealeman\.com$ [NC]
+RewriteRule ^ https://www.samuelcoachdealeman.com%{REQUEST_URI} [R=301,L]
+
+# Keep the public Supabase-style paths used by the frontend, but serve them
+# through PHP on this hosting so forms do not fall back to mailto.
+RewriteRule ^functions/v1/contact/?$ /contact.php [L,QSA]
+RewriteRule ^functions/v1/newsletter-subscribe/?$ /newsletter-subscribe.php [L,QSA]
+</IfModule>
+
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# Legacy campaign URLs that were linked/sitemapped but do not have pages yet.
+RedirectMatch 301 ^/preparacion-goethe-online/?$ /recursos/preparacion-examen/
+RedirectMatch 301 ^/preparacion-telc-online/?$ /recursos/preparacion-examen/
+RedirectMatch 301 ^/resenas/?$ /#resenas
+RedirectMatch 301 ^/de/preparacion-examenes/?$ /de/pruefungsvorbereitung/
+RedirectMatch 301 ^/de/trabajar-en-alemania/?$ /de/arbeiten-in-deutschland/
+RedirectMatch 301 ^/de/aprender-aleman-solo/?$ /de/deutsch-alleine-lernen/
+RedirectMatch 301 ^/en/preparacion-examenes/?$ /en/exam-preparation/
+RedirectMatch 301 ^/en/trabajar-en-alemania/?$ /en/work-in-germany/
+RedirectMatch 301 ^/en/aprender-aleman-solo/?$ /en/learn-german-alone/
+RedirectMatch 301 ^/en/resources/?$ /en/recursos/
+RedirectMatch 301 ^/en/services/?$ /en/servicios/
+RedirectMatch 301 ^/en/privacy/?$ /en/politica-de-privacidad/
+
+# Redirects 301: lueckentext -> sprachbausteine
 RedirectMatch 301 ^/lueckentext/(.*)$ /sprachbausteine/$1
 RedirectMatch 301 ^/recursos/lueckentext/(.*)$ /recursos/sprachbausteine/$1
 RedirectMatch 301 ^/de/recursos/lueckentext/(.*)$ /de/recursos/sprachbausteine/$1
