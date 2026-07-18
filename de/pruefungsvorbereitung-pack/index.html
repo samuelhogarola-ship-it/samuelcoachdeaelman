@@ -10,10 +10,12 @@
   <meta name="theme-color" content="#0f2260">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <link rel="alternate" hreflang="de" href="https://www.samuelcoachdealeman.com/de/pruefungsvorbereitung-pack/">
-  <link rel="alternate" hreflang="x-default" href="https://www.samuelcoachdealeman.com/de/pruefungsvorbereitung-pack/">
+  <link rel="alternate" hreflang="es" href="https://www.samuelcoachdealeman.com/preparacion-examen-aleman-b1-b2/">
+  <link rel="alternate" hreflang="en" href="https://www.samuelcoachdealeman.com/en/german-exam-preparation-b1-b2/">
+  <link rel="alternate" hreflang="x-default" href="https://www.samuelcoachdealeman.com/preparacion-examen-aleman-b1-b2/">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=20260718b">
   <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Prüfungsvorbereitung Pack B1/B2 | Premium-Abo für Goethe und TELC">
@@ -431,9 +433,24 @@
     }
     @media (max-width: 560px) {
       .pack-hero h1 {
-        font-size: clamp(2.35rem, 12vw, 3.25rem);
+        font-size: clamp(2.1rem, 10vw, 2.8rem);
         line-height: 1;
         max-width: 100%;
+      }
+      .pack-locked-grid,
+      .pack-locked,
+      .pack-status,
+      .pack-locked__content,
+      .pack-library-list,
+      .pack-library-item {
+        min-width: 0;
+        width: 100%;
+      }
+      .pack-library-item {
+        grid-template-columns: 1fr;
+      }
+      .pack-library-item > * {
+        overflow-wrap: anywhere;
       }
       .pack-actions,
       .pack-cta__actions {

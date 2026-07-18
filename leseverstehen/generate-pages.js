@@ -12,7 +12,10 @@ const TEXTOS = require('../assets/js/leseverstehen-data.js');
 // para que LiteSpeed/browsers descarguen el archivo nuevo en lugar de usar caché.
 const JS_VERSION = '20260701a';
 const BASE_URL = 'https://www.samuelcoachdealeman.com';
-const BLOG_URL = `${BASE_URL}/f/`;
+
+function blogUrl(locale) {
+  return `${BASE_URL}${locale === 'es' ? '' : `/${locale}`}/f/`;
+}
 
 function escapeHtmlAttr(str) {
   return String(str)
@@ -59,7 +62,7 @@ const LOCALES = {
       rights: 'Todos los derechos reservados.',
     },
     notice:
-      `🗓️ Agenda cerrada hasta el 22.06 &nbsp;·&nbsp; Mientras tanto, <a href="${BLOG_URL}">aprende alemán gratis en el blog</a>`,
+      `Practica por nivel y continúa con <a href="${blogUrl('es')}">guías gratuitas en el blog</a>`,
     root: {
       title: 'Leseverstehen — Textos en alemán A1, A2, B1 y B2 con ejercicios | Samuel Coach de Alemán',
       description:
@@ -137,7 +140,7 @@ const LOCALES = {
       rights: 'Alle Rechte vorbehalten.',
     },
     notice:
-      `Terminplan bis zum 22.06 geschlossen · In der Zwischenzeit kannst du <a href="${BLOG_URL}">im Blog kostenlos Deutsch lernen</a>`,
+      `Übe nach Niveau und lerne mit <a href="${blogUrl('de')}">kostenlosen Guides im Blog</a> weiter`,
     root: {
       title: 'Leseverstehen auf Deutsch — Texte mit interaktiven Übungen | Samuel Coach de Alemán',
       description:
@@ -215,7 +218,7 @@ const LOCALES = {
       rights: 'All rights reserved.',
     },
     notice:
-      `Schedule closed until 22.06 · In the meantime, you can <a href="${BLOG_URL}">learn German for free on the blog</a>`,
+      `Practise by level and continue with <a href="${blogUrl('en')}">free German guides on the blog</a>`,
     root: {
       title: 'German Reading Practice — Interactive A1, A2, B1 and B2 texts | Samuel Coach de Alemán',
       description:
@@ -284,6 +287,7 @@ function makeLocaleScript(locale) {
 
 function makeNav(locale) {
   const copy = LOCALES[locale].nav;
+  const localizedBlog = blogUrl(locale);
   return `
   <nav>
     <div class="nav-inner">
@@ -293,7 +297,7 @@ function makeNav(locale) {
       </button>
       <ul class="nav-links">
         <li><a href="${route(locale)}">${copy.home}</a></li>
-        <li><a href="https://www.samuelcoachdealeman.com/f/">Blog</a></li>
+        <li><a href="${localizedBlog}">Blog</a></li>
         <li><a href="${route(locale, 'sobre-mi/')}">${copy.about}</a></li>
         <li class="nav-drop">
           <a href="${route(locale, 'servicios/')}">${copy.services}</a>
@@ -318,7 +322,7 @@ function makeNav(locale) {
     </div>
     <div id="mobile-menu" class="mobile-menu" hidden>
       <a href="${route(locale)}">${copy.home}</a>
-      <a href="https://www.samuelcoachdealeman.com/f/">Blog</a>
+      <a href="${localizedBlog}">Blog</a>
       <a href="${route(locale, 'sobre-mi/')}">${copy.about}</a>
       <a href="${route(locale, 'servicios/')}">${copy.services}</a>
       <a href="${route(locale, 'servicios/#conversacional')}">${copy.conversational}</a>
@@ -337,19 +341,20 @@ function makeNav(locale) {
 
 function makeFooter(locale) {
   const copy = LOCALES[locale].nav;
+  const localizedBlog = blogUrl(locale);
   return `
   <footer>
     <div class="footer-inner">
       <div class="footer-top">
         <a class="footer-logo footer-logo-fun" href="${route(locale)}"><img src="/assets/img/logo-fun.webp" alt="Logo divertido de Samuel Coach de Alemán" width="180" height="180" loading="lazy" decoding="async"></a>
         <div class="socials">
-          <a href="https://www.samuelcoachdealeman.com/f/" aria-label="Blog" title="Blog">Blog</a>
+          <a href="${localizedBlog}" aria-label="Blog" title="Blog">Blog</a>
           <a href="https://www.instagram.com/samuelcoachdealeman" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">Instagram</a>
           <a href="https://www.facebook.com/samuelcoachdealeman" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">Facebook</a>
           <a href="${route(locale, 'practicar-aleman/')}" aria-label="${copy.apps}" title="${copy.apps}">Apps</a>
         </div>
         <div class="footer-links">
-          <a href="https://www.samuelcoachdealeman.com/f/">Blog</a>
+          <a href="${localizedBlog}">Blog</a>
           <a href="${route(locale, 'sobre-mi/')}">${copy.about}</a>
           <a href="${route(locale, 'servicios/')}">${copy.services}</a>
           <a href="${route(locale, 'metodologia/')}">${copy.methodology}</a>

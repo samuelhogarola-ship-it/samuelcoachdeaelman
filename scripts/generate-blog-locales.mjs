@@ -15,7 +15,8 @@ const locales = {
     eyebrow: "Blog de alemán gratis",
     h1: "Blog de alemán: gramática, vocabulario, exámenes y trucos para aprender mejor",
     description:
-      "Blog de alemán gratis con guías de gramática, vocabulario, escritura, Lesen, Sprechen y preparación Goethe/TELC para aprender alemán con claridad."
+      "Blog de alemán gratis con guías de gramática, vocabulario, escritura, Lesen, Sprechen y preparación Goethe/TELC para aprender alemán con claridad.",
+    notice: 'Nuevas guías de alemán y recursos de examen publicados con regularidad.'
   },
   de: {
     lang: "de",
@@ -25,7 +26,9 @@ const locales = {
     eyebrow: "Kostenloser Deutsch-Blog",
     h1: "Deutsch-Blog: Grammatik, Wortschatz, Prüfungen und Lerntipps",
     description:
-      "Deutsch-Blog mit kostenlosen Guides zu Grammatik, Wortschatz, Schreiben, Lesen, Sprechen und Goethe/TELC-Prüfungsvorbereitung."
+      "Deutsch-Blog mit kostenlosen Guides zu Grammatik, Wortschatz, Schreiben, Lesen, Sprechen und Goethe/TELC-Prüfungsvorbereitung.",
+    notice: 'Neue Deutsch-Guides und Prüfungsressourcen werden regelmäßig veröffentlicht.',
+    untranslatedNotice: 'Dieser Artikel ist derzeit auf Spanisch verfügbar. <a href="/de/f/">Zur deutschen Blog-Übersicht</a>.'
   },
   en: {
     lang: "en",
@@ -35,7 +38,9 @@ const locales = {
     eyebrow: "Free German blog",
     h1: "German blog: grammar, vocabulary, exams and study tips",
     description:
-      "Free German blog with guides on grammar, vocabulary, writing, reading, speaking and Goethe/TELC exam preparation."
+      "Free German blog with guides on grammar, vocabulary, writing, reading, speaking and Goethe/TELC exam preparation.",
+    notice: 'New German guides and exam resources are published regularly.',
+    untranslatedNotice: 'This article is currently available in Spanish. <a href="/en/f/">Back to the English blog hub</a>.'
   }
 };
 
@@ -77,13 +82,20 @@ function findBlogPages() {
   return pages.sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
-function renderAlternates(slug) {
-  return [
-    ["es", absoluteBlogUrl("es", slug)],
-    ["de", absoluteBlogUrl("de", slug)],
-    ["en", absoluteBlogUrl("en", slug)],
-    ["x-default", absoluteBlogUrl("es", slug)]
-  ]
+function renderAlternates(slug, hasTranslations) {
+  const entries = hasTranslations
+    ? [
+        ["es", absoluteBlogUrl("es", slug)],
+        ["de", absoluteBlogUrl("de", slug)],
+        ["en", absoluteBlogUrl("en", slug)],
+        ["x-default", absoluteBlogUrl("es", slug)]
+      ]
+    : [
+        ["es", absoluteBlogUrl("es", slug)],
+        ["x-default", absoluteBlogUrl("es", slug)]
+      ];
+
+  return entries
     .map(([hreflang, href]) => `  <link rel="alternate" hreflang="${hreflang}" href="${href}">`)
     .join("\n");
 }
@@ -112,7 +124,8 @@ function localizeSiteLinks(html, locale) {
   ];
 
   let next = html
-    .replace(/href="\/f\//g, `href="${blogPath(locale)}`)
+    .replace(/(<a\b[^>]*\shref=")https:\/\/www\.samuelcoachdealeman\.com\/f\//gi, `$1${absoluteBlogUrl(locale)}`)
+    .replace(/(<a\b[^>]*\shref=")\/f\//gi, `$1${blogPath(locale)}`)
     .replace(/href="\/"/g, `href="${prefix}/"`)
     .replace(/href="\/#/g, `href="${prefix}/#`);
 
@@ -240,16 +253,20 @@ function localizeRootBlogBody(html, locale) {
 }
 
 function localizeHead(html, locale, slug, canonicalSlug) {
-  const canonical = absoluteBlogUrl(locale, canonicalSlug);
-  const alternates = renderAlternates(canonicalSlug);
+  const isUntranslatedCopy = locale !== "es" && slug !== "";
+  const isInternalGuide = slug === "como-escribir-posts";
+  const canonicalLocale = isUntranslatedCopy ? "es" : locale;
+  const canonical = absoluteBlogUrl(canonicalLocale, canonicalSlug);
+  const alternates = renderAlternates(canonicalSlug, slug === "");
   const info = locales[locale];
+  const metadataLocale = locales[isUntranslatedCopy ? "es" : locale];
 
   let next = html
-    .replace(/<html lang="[^"]*">/, `<html lang="${info.lang}">`)
+    .replace(/<html lang="[^"]*">/, `<html lang="${isUntranslatedCopy ? "es" : info.lang}">`)
     .replace(/\n\s*<link rel="alternate" hreflang="[^"]+" href="[^"]+">/g, "")
     .replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${canonical}">\n${alternates}`)
     .replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="${canonical}">`)
-    .replace(/<meta property="og:locale" content="[^"]+">/, `<meta property="og:locale" content="${info.ogLocale}">`);
+    .replace(/<meta property="og:locale" content="[^"]+">/, `<meta property="og:locale" content="${metadataLocale.ogLocale}">`);
 
   if (slug === "") {
     next = next
@@ -262,6 +279,14 @@ function localizeHead(html, locale, slug, canonicalSlug) {
       .replace(/<meta name="twitter:description" content="[^"]*">/, `<meta name="twitter:description" content="${info.description}">`)
       .replace(/<span class="blog-pill">[^<]*<\/span>/, `<span class="blog-pill">${info.eyebrow}</span>`)
       .replace(/<h1>[^<]*<\/h1>/, `<h1>${info.h1}</h1>`);
+  }
+
+  if (isUntranslatedCopy || isInternalGuide) {
+    if (/<meta name="robots"/i.test(next)) {
+      next = next.replace(/<meta name="robots" content="[^"]*">/i, '<meta name="robots" content="noindex, follow">');
+    } else {
+      next = next.replace(/<link rel="canonical"[^>]+>/, (match) => `${match}\n  <meta name="robots" content="noindex, follow">`);
+    }
   }
 
   return next;
@@ -279,12 +304,17 @@ function localizeStructuredData(html, locale, canonicalSlug) {
 
 function buildLocalizedHtml(source, locale, slug, canonicalSlug) {
   let html = source;
-  html = localizeStructuredData(html, locale, canonicalSlug);
+  const isUntranslatedCopy = locale !== "es" && slug !== "";
+  html = isUntranslatedCopy
+    ? html.replace(/\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/g, "")
+    : localizeStructuredData(html, locale, canonicalSlug);
   html = localizeHead(html, locale, slug, canonicalSlug);
   html = localizeSiteLinks(html, locale);
   if (slug === "") {
     html = localizeRootBlogBody(html, locale);
   }
+  const notice = isUntranslatedCopy ? locales[locale].untranslatedNotice : locales[locale].notice;
+  html = html.replace(/<div class="notice">[\s\S]*?<\/div>/, `<div class="notice">${notice}</div>`);
   return html;
 }
 
@@ -308,7 +338,7 @@ function updateSitemap(pages) {
   if (!fs.existsSync(sitemapFile)) return;
 
   const entries = [];
-  const canonicalPages = pages.filter((page) => page.slug === page.canonicalSlug);
+  const canonicalPages = pages.filter((page) => page.slug === "");
   for (const locale of ["de", "en"]) {
     for (const page of canonicalPages) {
       entries.push(`  <url>

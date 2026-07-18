@@ -18,6 +18,38 @@ Header always set Referrer-Policy "strict-origin-when-cross-origin"
 Header always set X-Frame-Options "SAMEORIGIN"
 Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
 Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+<FilesMatch "\.(?:avif|gif|ico|jpe?g|png|svg|webp)$">
+Header set Cache-Control "public, max-age=2592000"
+</FilesMatch>
+<FilesMatch "\.woff2?$">
+Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+<FilesMatch "\.(?:css|js|json|webmanifest)$">
+Header set Cache-Control "public, max-age=604800"
+</FilesMatch>
+<FilesMatch "\.(?:html?|php)$">
+Header set Cache-Control "no-cache, must-revalidate"
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/avif "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/svg+xml "access plus 1 month"
+ExpiresByType image/webp "access plus 1 month"
+ExpiresByType font/woff2 "access plus 1 year"
+ExpiresByType text/css "access plus 7 days"
+ExpiresByType text/javascript "access plus 7 days"
+ExpiresByType application/javascript "access plus 7 days"
+ExpiresByType application/manifest+json "access plus 7 days"
+ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json application/ld+json application/xml image/svg+xml
 </IfModule>
 
 # Legacy campaign URLs that were linked/sitemapped but do not have pages yet.
@@ -33,6 +65,18 @@ RedirectMatch 301 ^/en/aprender-aleman-solo/?$ /en/learn-german-alone/
 RedirectMatch 301 ^/en/resources/?$ /en/recursos/
 RedirectMatch 301 ^/en/services/?$ /en/servicios/
 RedirectMatch 301 ^/en/privacy/?$ /en/politica-de-privacidad/
+
+# Consolidate historical blog aliases into their canonical articles.
+RedirectMatch 301 ^/f/haeufigkeitsadverbien-en-aleman/?$ /f/adverbios-de-frecuencia-en-aleman/
+RedirectMatch 301 ^/f/demonstrativpronomen-los-pronombres-demostrativos-en-aleman/?$ /f/demonstrativpronomen-en-aleman/
+RedirectMatch 301 ^/f/el-imperativo-en-aleman/?$ /f/imperativ-en-aleman/
+RedirectMatch 301 ^/f/la-voz-pasiva-con-verbos-modales-en-aleman-passiv-mit-modalverben/?$ /f/passiv-mit-modalverben-en-aleman/
+RedirectMatch 301 ^/f/las-w-fragen-en-aleman/?$ /f/w-fragen-en-aleman/
+RedirectMatch 301 ^/f/los-articulos-posesivos-en-aleman-possessivartikel-auf-deutsch/?$ /f/possessivartikel-en-aleman/
+RedirectMatch 301 ^/f/partizip-1-vs-partizip-2-en-aleman/?$ /f/partizip-1-en-aleman/
+RedirectMatch 301 ^/f/partizip-2-en-aleman-la-formacion-del-participio/?$ /f/partizip-2-en-aleman/
+RedirectMatch 301 ^/f/tekamolo-2-0-en-aleman-satzbau/?$ /f/tekamolo-orden-de-palabras-en-aleman/
+RedirectMatch 301 ^/f/trennbare-verben-en-aleman-verbos-separables-y-no-separables/?$ /f/trennbare-verben-en-aleman/
 
 # Redirects 301: lueckentext -> sprachbausteine
 RedirectMatch 301 ^/lueckentext/(.*)$ /sprachbausteine/$1
