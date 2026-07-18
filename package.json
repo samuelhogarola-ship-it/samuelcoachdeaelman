@@ -4,9 +4,10 @@
   "scripts": {
     "prepare": "husky",
     "lint": "eslint .",
-    "build:i18n": "node scripts/generate-localized-pages.mjs && node scripts/generate-blog-locales.mjs && node leseverstehen/generate-pages.js && node sprachbausteine/generate-pages.js && node schreiben/generate-pages.js",
+    "build:i18n": "node scripts/generate-localized-pages.mjs && node scripts/generate-blog-locales.mjs && node leseverstehen/generate-pages.js && node sprachbausteine/generate-pages.js && node schreiben/generate-pages.js && node scripts/dedupe-sitemap.mjs",
     "build:blog": "node generate-blog.js",
     "build": "npm run build:blog && npm run build:i18n",
+    "audit:seo": "node scripts/seo-audit.mjs",
     "new:post": "node new-post.js",
     "test:e2e:smoke": "playwright test tests/playwright/resources-preview.spec.js --reporter=line",
     "test:e2e": "playwright test",

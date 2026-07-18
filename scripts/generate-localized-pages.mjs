@@ -17,12 +17,13 @@ const shared = {
     lang: "de",
     localeName: "Deutsch",
     notice:
-      `Terminplan bis zum 22.06 geschlossen · In der Zwischenzeit kannst du <a href="${localizedBlogUrl("de")}">im Blog kostenlos Deutsch lernen</a>`,
+      `Übe nach Niveau und lerne mit <a href="${localizedBlogUrl("de")}">kostenlosen Guides im Blog</a> weiter`,
     nav: {
       home: "Start",
       blog: "Blog",
       about: "Über mich",
       services: "Angebote",
+      examPack: "B1/B2 Pack",
       methodology: "Methodik",
       faq: "FAQ",
       apps: "Meine Apps",
@@ -146,12 +147,13 @@ const shared = {
     lang: "en",
     localeName: "English",
     notice:
-      `Schedule closed until 22.06 · In the meantime, you can <a href="${localizedBlogUrl("en")}">learn German for free on the blog</a>`,
+      `Practise by level and continue with <a href="${localizedBlogUrl("en")}">free German guides on the blog</a>`,
     nav: {
       home: "Home",
       blog: "Blog",
       about: "About me",
       services: "Services",
+      examPack: "B1/B2 Exam Pack",
       methodology: "Method",
       faq: "FAQ",
       apps: "My Apps",
@@ -923,6 +925,9 @@ function renderNav(locale) {
   const common = shared[locale];
   const prefix = localePrefix(locale);
   const servicesHref = `${prefix || ""}/servicios/`;
+  const examPackHref = locale === "de"
+    ? "/de/pruefungsvorbereitung-pack/"
+    : "/en/german-exam-preparation-b1-b2/";
   const blogHref = `${prefix || ""}/f/`;
   const resourcesHref = `${prefix || ""}/recursos/`;
   const aboutHref = `${prefix || ""}/sobre-mi/`;
@@ -940,6 +945,7 @@ function renderNav(locale) {
       <ul class="nav-links">
         <li><a href="${homeHref}">${common.nav.home}</a></li>
         <li><a href="${servicesHref}">${common.nav.services}</a></li>
+        <li><a href="${examPackHref}">${common.nav.examPack}</a></li>
         <li><a href="${blogHref}">${common.nav.blog}</a></li>
         <li><a href="${resourcesHref}">${common.nav.resources}</a></li>
         <li><a href="${aboutHref}">${common.nav.about}</a></li>
@@ -950,6 +956,7 @@ function renderNav(locale) {
     <div id="mobile-menu" class="mobile-menu" hidden>
       <a href="${homeHref}">${common.nav.home}</a>
       <a href="${servicesHref}">${common.nav.services}</a>
+      <a href="${examPackHref}">${common.nav.examPack}</a>
       <a href="${blogHref}">${common.nav.blog}</a>
       <a href="${resourcesHref}">${common.nav.resources}</a>
       <a href="${aboutHref}">${common.nav.about}</a>
@@ -962,6 +969,9 @@ function renderNav(locale) {
 function renderFooter(locale) {
   const common = shared[locale];
   const prefix = localePrefix(locale);
+  const examPackHref = locale === "de"
+    ? "/de/pruefungsvorbereitung-pack/"
+    : "/en/german-exam-preparation-b1-b2/";
   return `  <footer>
     <div class="footer-inner">
       <div class="footer-top">
@@ -969,6 +979,7 @@ function renderFooter(locale) {
         <div class="footer-links">
           <a href="${prefix || "/"}">${common.nav.home}</a>
           <a href="${prefix}/servicios/">${common.nav.services}</a>
+          <a href="${examPackHref}">${common.nav.examPack}</a>
           <a href="${prefix}/recursos/">${common.nav.resources}</a>
           <a href="${prefix}/metodologia/">${common.nav.methodology}</a>
           <a href="${prefix}/sobre-mi/">${common.nav.about}</a>
@@ -978,6 +989,51 @@ function renderFooter(locale) {
       <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · ${common.footerRights}</div>
     </div>
   </footer>`;
+}
+
+function renderNewsletter(locale) {
+  const copy = {
+    de: {
+      title: "Tipps &amp; Ressourcen gratis jede Woche",
+      text: "Melde dich für Samuels Newsletter an: praktisches Deutsch, Lernressourcen und Tipps direkt in dein Postfach.",
+      success: "Fertig! Anfrage erhalten. Ich nehme dich in den Newsletter auf.",
+      already: "Du bist bereits angemeldet. Danke!",
+      error: "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+      placeholder: "deine@email.de",
+      aria: "Deine E-Mail",
+      button: "Anmelden",
+      note: "Kein Spam. Jederzeit abmeldbar."
+    },
+    en: {
+      title: "Free tips &amp; resources every week",
+      text: "Subscribe to Samuel's newsletter: practical German, learning resources and study tips straight to your inbox.",
+      success: "Done! Request received. I will add you to the newsletter list.",
+      already: "You're already subscribed. Thank you!",
+      error: "Something went wrong. Please try again.",
+      placeholder: "your@email.com",
+      aria: "Your email",
+      button: "Subscribe",
+      note: "No spam. Unsubscribe anytime."
+    }
+  }[locale];
+
+  return `  <section class="newsletter-section">
+    <h2>${copy.title}</h2>
+    <p>${copy.text}</p>
+    <form
+      class="newsletter-form"
+      data-locale="${locale}"
+      data-success-msg="${copy.success}"
+      data-already-msg="${copy.already}"
+      data-error-msg="${copy.error}"
+    >
+      <input type="text" name="company" class="form-honeypot" tabindex="-1" autocomplete="organization" aria-hidden="true">
+      <input type="email" name="newsletter-email" placeholder="${copy.placeholder}" autocomplete="email" required aria-label="${copy.aria}">
+      <button type="submit">${copy.button}</button>
+    </form>
+    <p class="newsletter-msg" hidden></p>
+    <p style="margin-top:14px;font-size:.8rem;color:var(--muted);">${copy.note}</p>
+  </section>`;
 }
 
 function bodyClass(page) {
@@ -1216,6 +1272,21 @@ function renderHome(locale) {
   const text = copy[locale].home;
   const ctas = shared[locale].ctas;
   const prefix = localePrefix(locale);
+  const pack = locale === "de"
+    ? {
+        href: "/de/pruefungsvorbereitung-pack/",
+        kicker: "Premium-Prüfungstraining B1/B2",
+        title: "75 prüfungsnahe Modelle für Goethe und TELC",
+        text: "Leseverstehen, Sprachbausteine und Schreiben in einer wachsenden Bibliothek für selbstständige Vorbereitung.",
+        cta: "Prüfungsvorbereitung Pack ansehen"
+      }
+    : {
+        href: "/en/german-exam-preparation-b1-b2/",
+        kicker: "Premium B1/B2 exam practice",
+        title: "75 exam-style models for Goethe and TELC",
+        text: "Reading, Sprachbausteine and writing in a growing library for structured independent preparation.",
+        cta: "Explore the German Exam Pack"
+      };
   const cards = text.cards
     .map(
       ([title, body]) => `        <div class="page-card">
@@ -1242,13 +1313,14 @@ function renderHome(locale) {
           <p>${text.heroLead}</p>
           <div class="hero-btns">
             <a href="/${locale}/servicios/" class="btn btn-white">${ctas.viewServices}</a>
+            <a href="${pack.href}" class="btn btn-white">${shared[locale].nav.examPack}</a>
             <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">${ctas.whatsapp}</a>
             <a href="#contacto-formulario" class="btn btn-white">${shared[locale].contactForm.jumpToForm}</a>
           </div>
         </div>
         <div class="hero-photo">
           <div class="photo-wrap">
-            <img src="/assets/img/hero-photo-full.webp" alt="Samuel Coach de Alemán" width="720" height="720" loading="eager" fetchpriority="high">
+            <img src="/assets/img/hero-photo.webp" alt="Samuel Coach de Alemán" width="720" height="720" loading="eager" fetchpriority="high">
           </div>
         </div>
       </div>
@@ -1271,6 +1343,19 @@ ${cards}
       <div class="container content-narrow">
         <h2>${text.methodTitle}</h2>
         <p>${text.methodText}</p>
+      </div>
+    </section>
+
+    <section class="page-section alt">
+      <div class="container">
+        <div class="page-cta">
+          <span class="hero-kicker">${pack.kicker}</span>
+          <h2>${pack.title}</h2>
+          <p>${pack.text}</p>
+          <div class="hero-btns">
+            <a href="${pack.href}" class="btn btn-white">${pack.cta}</a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -1993,10 +2078,11 @@ function pageImage(pageKey) {
   if (key === "about") {
     return `${baseUrl}/assets/img/about-journey.webp`;
   }
-  return `${baseUrl}/assets/img/hero-photo-full.webp`;
+  return `${baseUrl}/assets/img/hero-photo.webp`;
 }
 
 function buildHtml(page, locale) {
+  const key = typeof page === "object" ? page.key : page;
   const title = pageTitle(locale, page);
   const description = pageDescription(locale, page);
   const ogTitle = pageOgTitle(locale, page);
@@ -2030,7 +2116,8 @@ ${alternates}
   <meta name="samuel-contact-endpoint" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
@@ -2051,10 +2138,11 @@ ${renderPageSchema(page, locale, title, description)}
 <body class="${bodyClass(page)}">
 ${renderNav(locale)}
 ${renderMain(page, locale)}
+${key === "home" ? renderNewsletter(locale) : ""}
 ${renderFooter(locale)}
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
-  <script src="/assets/js/main.js" defer></script>
+${key === "home" ? '  <script src="/assets/js/newsletter.js" defer></script>\n' : ""}  <script src="/assets/js/main.js" defer></script>
   <script type="module" src="/assets/js/auth.js"></script>
 </body>
 </html>
@@ -2067,6 +2155,9 @@ function writeLocalizedPages() {
     for (const locale of targetLocales) {
       const relativeFile = path.join(locale, page.slug, "index.html");
       const targetFile = path.join(rootDir, relativeFile);
+      // Editorial locale pages are enriched by hand after their initial scaffold.
+      // Only regenerate them when the localized file does not exist yet.
+      if (page.sourceFile && fs.existsSync(targetFile)) continue;
       ensureDir(targetFile);
       fs.writeFileSync(targetFile, buildHtml(page, locale), "utf8");
     }

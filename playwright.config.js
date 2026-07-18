@@ -45,7 +45,11 @@ function resolveStablePort() {
   if (fs.existsSync(portFile)) {
     const savedPort = Number(fs.readFileSync(portFile, "utf8").trim());
     if (Number.isInteger(savedPort) && savedPort > 0) {
-      return savedPort;
+      const portFileAge = Date.now() - fs.statSync(portFile).mtimeMs;
+      // Workers load this config again after the parent starts the web server.
+      if (portFileAge < 5 * 60 * 1000 || !isPortInUse(savedPort)) {
+        return savedPort;
+      }
     }
   }
 

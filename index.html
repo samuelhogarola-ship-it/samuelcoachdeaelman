@@ -44,7 +44,7 @@
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.webp">
   <link rel="preload" as="image" href="assets/img/hero-photo.webp" type="image/webp" fetchpriority="high">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="assets/css/styles.css?v=20260613d">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260718b">
   <link rel="stylesheet" href="assets/css/cookie-banner-core.css">
   <script type="application/ld+json">
   {
@@ -173,6 +173,7 @@
       <ul class="nav-links">
         <li><a href="#top">Inicio</a></li>
         <li><a href="/servicios">Clases</a></li>
+        <li><a href="/preparacion-examen-aleman-b1-b2/">Pack B1/B2</a></li>
         <li><a href="/f/">Blog</a></li>
         <li><a href="/recursos/">Recursos</a></li>
         <li><a href="/sobre-mi/">Sobre mí</a></li>
@@ -184,6 +185,7 @@
     <div id="mobile-menu" class="mobile-menu" hidden>
       <a href="#top">Inicio</a>
       <a href="/servicios">Clases</a>
+      <a href="/preparacion-examen-aleman-b1-b2/">Pack B1/B2</a>
       <a href="/f/">Blog</a>
       <a href="/recursos/">Recursos</a>
       <a href="/sobre-mi/">Sobre mí</a>
@@ -286,11 +288,11 @@
           <article class="home-proof-card"><strong>Goethe y TELC</strong><span>Preparación enfocada en formato, estrategia y práctica.</span></article>
           <article class="home-proof-card"><strong>Niños, adolescentes y adultos</strong><span>Formación personalizada para distintas etapas y metas.</span></article>
         </div>
-        <p class="home-supporting-link" style="margin-top:20px; text-align:center;">Si tu objetivo es el examen oficial, entra en <a href="/preparacion-goethe-online/">preparación Goethe online</a> o <a href="/preparacion-telc-online/">preparación TELC online</a> para ver el enfoque específico según el examen.</p>
+        <p class="home-supporting-link" style="margin-top:20px; text-align:center;">Si tu objetivo es el examen oficial, entra en <a href="/recursos/preparacion-examen/">preparación Goethe online</a> o <a href="/recursos/preparacion-examen/">preparación TELC online</a> para ver el enfoque específico según el examen.</p>
       </div>
     </section>
 
-    <section class="home-reviews" aria-labelledby="reviews-title">
+    <section class="home-reviews" id="resenas" aria-labelledby="reviews-title">
       <div class="home-shell">
         <div class="home-section-head">
           <h2 id="reviews-title">Lo que dicen mis alumnos</h2>
@@ -402,7 +404,7 @@
           <a class="home-reviews-link--google" href="https://maps.app.goo.gl/QUfAcEKRy9hLtfxLA" target="_blank" rel="noopener noreferrer">★ Ver 124 reseñas en Google →</a>
           <a class="home-reviews-link--superprof" href="https://www.superprof.es/samuel-coach-aleman-aprender-aleman-puede-ser-facil-dejalo-mis-manos.html" target="_blank" rel="noopener noreferrer">★ Ver 47 opiniones en Superprof →</a>
         </div>
-        <p style="margin-top:18px; text-align:center;"><a href="/resenas/" class="btn btn-white">Ver todas las reseñas</a></p>
+        <p style="margin-top:18px; text-align:center;"><a href="#resenas" class="btn btn-white">Ver todas las reseñas</a></p>
       </div>
     </section>
 
@@ -414,6 +416,12 @@
         </div>
 
         <div class="home-resource-mosaic">
+          <a class="home-resource-card is-featured" href="/preparacion-examen-aleman-b1-b2/">
+            <span class="home-resource-label">Premium B1/B2</span>
+            <strong>75 modelos para preparar Goethe y TELC con una ruta clara.</strong>
+            <p>Leseverstehen, Sprachbausteine y Schreiben en una biblioteca de práctica por suscripción.</p>
+          </a>
+
           <a class="home-resource-card is-featured" href="/f/">
             <span class="home-resource-label">Blog</span>
             <strong>Artículos claros para aprender alemán con más criterio.</strong>
@@ -440,7 +448,7 @@
             <strong>Explora la colección de recursos y materiales de estudio.</strong>
           </a>
         </div>
-        <p class="home-supporting-link" style="margin-top:20px; text-align:center;">Si prefieres practicar por tu cuenta con una ruta más guiada, entra en <a href="/practicar-aleman/">practicar alemán</a> para combinar recursos, blog y siguientes pasos sin ir saltando entre páginas sueltas.</p>
+        <p class="home-supporting-link" style="margin-top:20px; text-align:center;">Si prefieres practicar por tu cuenta con una ruta más guiada, entra en <a href="/practicar-aleman/">practicar alemán</a>. Si buscas clases 1:1 desde la provincia, consulta también las <a href="/clases-aleman-malaga/">clases de alemán online en Málaga</a>.</p>
       </div>
     </section>
 
@@ -579,10 +587,11 @@
     <form
       class="newsletter-form"
       data-locale="es"
-      data-success-msg="¡Listo! Revisa tu email para confirmar la suscripción."
+      data-success-msg="¡Listo! Solicitud recibida. Te añadiré a la lista del newsletter."
       data-already-msg="Ya estás suscrito. ¡Gracias!"
       data-error-msg="Algo salió mal. Inténtalo de nuevo."
     >
+      <input type="text" name="company" class="form-honeypot" tabindex="-1" autocomplete="organization" aria-hidden="true">
       <input type="email" name="newsletter-email" placeholder="tu@email.com" autocomplete="email" required aria-label="Tu email">
       <button type="submit">Suscribirme</button>
     </form>
@@ -598,7 +607,7 @@
           <a href="/servicios">Clases</a>
           <a href="/recursos/">Recursos</a>
           <a href="/sobre-mi/">Sobre mí</a>
-          <a href="/resenas/">Reseñas</a>
+          <a href="#resenas">Reseñas</a>
           <a href="/contacto/#contacto-formulario">Reservar valoración</a>
           <a href="#faq">Preguntas frecuentes</a>
           <a href="/politica-de-privacidad">Política de privacidad</a>

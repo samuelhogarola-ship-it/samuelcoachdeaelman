@@ -4,7 +4,6 @@ const fs = require("fs");
 const path = require("path");
 
 const BASE_URL = "https://www.samuelcoachdealeman.com";
-const BLOG_URL = `${BASE_URL}/f/`;
 const JS_VERSION = "20260609a";
 const ROOT_DIR = path.resolve(__dirname, "..");
 const TEXTOS = require(path.join(ROOT_DIR, "assets/js/leseverstehen-data.js"));
@@ -18,6 +17,10 @@ const GAP_COUNT_BY_LEVEL = {
 };
 
 const DISTRACTORS_PER_TYPE2 = 5;
+
+function blogUrl(locale) {
+  return `${BASE_URL}${locale === "es" ? "" : `/${locale}`}/f/`;
+}
 
 const CLOSED_CLASSES = {
   article: new Set([
@@ -187,7 +190,7 @@ const LOCALES = {
     localeName: "Español",
     siteLocaleContent: null,
     notice:
-      `🗓️ Agenda cerrada hasta el 22.06 &nbsp;·&nbsp; Mientras tanto, <a href="${BLOG_URL}">aprende alemán gratis en el blog</a>`,
+      `Practica por nivel y continúa con <a href="${blogUrl("es")}">guías gratuitas en el blog</a>`,
     nav: {
       home: "Inicio",
       blog: "Blog",
@@ -267,7 +270,7 @@ const LOCALES = {
       },
     },
     notice:
-      `Terminplan bis zum 22.06 geschlossen · In der Zwischenzeit kannst du <a href="${BLOG_URL}">im Blog kostenlos Deutsch lernen</a>`,
+      `Übe nach Niveau und lerne mit <a href="${blogUrl("de")}">kostenlosen Guides im Blog</a> weiter`,
     nav: {
       home: "Start",
       blog: "Blog",
@@ -347,7 +350,7 @@ const LOCALES = {
       },
     },
     notice:
-      `Schedule closed until 22.06 · In the meantime, you can <a href="${BLOG_URL}">learn German for free on the blog</a>`,
+      `Practise by level and continue with <a href="${blogUrl("en")}">free German guides on the blog</a>`,
     nav: {
       home: "Home",
       blog: "Blog",
@@ -1090,6 +1093,7 @@ function buildAlternates(pathBuilder) {
 
 function buildNav(locale) {
   const nav = LOCALES[locale].nav;
+  const localizedBlog = blogUrl(locale);
   const home = route(locale, "");
   const services = route(locale, "servicios/");
   const apps = route(locale, "practicar-aleman/");
@@ -1103,7 +1107,7 @@ function buildNav(locale) {
       <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="${nav.openMenu}"><span></span><span></span><span></span></button>
       <ul class="nav-links">
         <li><a href="${home}">${nav.home}</a></li>
-        <li><a href="https://www.samuelcoachdealeman.com/f/">${nav.blog}</a></li>
+        <li><a href="${localizedBlog}">${nav.blog}</a></li>
         <li><a href="${about}">${nav.about}</a></li>
         <li class="nav-drop">
           <a href="${services}">${nav.services}</a>
@@ -1121,7 +1125,7 @@ function buildNav(locale) {
     </div>
     <div id="mobile-menu" class="mobile-menu" hidden>
       <a href="${home}">${nav.home}</a>
-      <a href="https://www.samuelcoachdealeman.com/f/">${nav.blog}</a>
+      <a href="${localizedBlog}">${nav.blog}</a>
       <a href="${about}">${nav.about}</a>
       <a href="${services}">${nav.services}</a>
       <a href="${services}#conversacional">${nav.conversational}</a>
@@ -1137,13 +1141,14 @@ function buildNav(locale) {
 
 function buildFooter(locale) {
   const nav = LOCALES[locale].nav;
+  const localizedBlog = blogUrl(locale);
   return `
   <footer>
     <div class="footer-inner">
       <div class="footer-top">
         <a class="footer-logo footer-logo-fun" href="${route(locale, "")}"><img src="/assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
         <div class="footer-links">
-          <a href="https://www.samuelcoachdealeman.com/f/">${nav.blog}</a>
+          <a href="${localizedBlog}">${nav.blog}</a>
           <a href="${route(locale, "sobre-mi/")}">${nav.about}</a>
           <a href="${route(locale, "servicios/")}">${nav.services}</a>
           <a href="${route(locale, "metodologia/")}">${nav.methodology}</a>
