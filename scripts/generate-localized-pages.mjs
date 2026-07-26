@@ -3,7 +3,7 @@ import path from "path";
 
 const rootDir = process.cwd();
 const baseUrl = "https://www.samuelcoachdealeman.com";
-const blogUrl = `${baseUrl}/f/`;
+const localizedBlogUrl = (locale) => `${baseUrl}${locale === "es" ? "" : `/${locale}`}/f/`;
 const locales = ["de", "en"];
 const examLevels = ["A1", "A2", "B1", "B2"];
 const localeOg = {
@@ -17,7 +17,7 @@ const shared = {
     lang: "de",
     localeName: "Deutsch",
     notice:
-      `Terminplan bis zum 22.06 geschlossen · In der Zwischenzeit kannst du <a href="${blogUrl}">im Blog kostenlos Deutsch lernen</a>`,
+      `Terminplan bis zum 22.06 geschlossen · In der Zwischenzeit kannst du <a href="${localizedBlogUrl("de")}">im Blog kostenlos Deutsch lernen</a>`,
     nav: {
       home: "Start",
       blog: "Blog",
@@ -146,7 +146,7 @@ const shared = {
     lang: "en",
     localeName: "English",
     notice:
-      `Schedule closed until 22.06 · In the meantime, you can <a href="${blogUrl}">learn German for free on the blog</a>`,
+      `Schedule closed until 22.06 · In the meantime, you can <a href="${localizedBlogUrl("en")}">learn German for free on the blog</a>`,
     nav: {
       home: "Home",
       blog: "Blog",
@@ -923,6 +923,7 @@ function renderNav(locale) {
   const common = shared[locale];
   const prefix = localePrefix(locale);
   const servicesHref = `${prefix || ""}/servicios/`;
+  const blogHref = `${prefix || ""}/f/`;
   const resourcesHref = `${prefix || ""}/recursos/`;
   const aboutHref = `${prefix || ""}/sobre-mi/`;
   const contactHref = `${prefix || ""}/#contacto-formulario`;
@@ -939,6 +940,7 @@ function renderNav(locale) {
       <ul class="nav-links">
         <li><a href="${homeHref}">${common.nav.home}</a></li>
         <li><a href="${servicesHref}">${common.nav.services}</a></li>
+        <li><a href="${blogHref}">${common.nav.blog}</a></li>
         <li><a href="${resourcesHref}">${common.nav.resources}</a></li>
         <li><a href="${aboutHref}">${common.nav.about}</a></li>
         <li><a href="${contactHref}">${common.ctas.contact}</a></li>
@@ -948,6 +950,7 @@ function renderNav(locale) {
     <div id="mobile-menu" class="mobile-menu" hidden>
       <a href="${homeHref}">${common.nav.home}</a>
       <a href="${servicesHref}">${common.nav.services}</a>
+      <a href="${blogHref}">${common.nav.blog}</a>
       <a href="${resourcesHref}">${common.nav.resources}</a>
       <a href="${aboutHref}">${common.nav.about}</a>
       <a href="${contactHref}">${common.ctas.contact}</a>

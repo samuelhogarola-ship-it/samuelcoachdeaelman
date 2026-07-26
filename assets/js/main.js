@@ -334,9 +334,15 @@ const initOfferForms = () => {
   };
 
   const locale = (document.documentElement.lang || "es").slice(0, 2);
-  const functionEndpoint =
-    readPublicConfig(runtimeConfig.contactEndpoint, "samuel-contact-endpoint") ||
-    "/functions/v1/contact";
+  const configuredEndpoint = readPublicConfig(
+    runtimeConfig.contactEndpoint,
+    "samuel-contact-endpoint"
+  );
+  const normalizeContactEndpoint = (value) => {
+    const endpoint = (value || "").trim();
+    if (endpoint === "/functions/v1/contact") return "/functions/v1/contact/";
+    return endpoint || "/functions/v1/contact/";
+  };
   const turnstileSiteKey = readPublicConfig(
     runtimeConfig.turnstileSiteKey,
     "samuel-turnstile-site-key"
@@ -376,21 +382,67 @@ const initOfferForms = () => {
     es: {
       sending: "Enviando...",
       success: "Mensaje enviado. Te responderé lo antes posible.",
-      error: "No se pudo enviar el formulario ahora mismo. Escríbeme por WhatsApp o inténtalo de nuevo en unos minutos."
+      error: "No se pudo enviar el formulario ahora mismo. Escríbeme por WhatsApp o inténtalo de nuevo en unos minutos.",
+      fallback: "No se pudo enviar automáticamente, pero he preparado el email con tus datos para que puedas mandarlo en un clic."
     },
     de: {
       sending: "Wird gesendet...",
       success: "Nachricht gesendet. Ich antworte dir so schnell wie möglich.",
-      error: "Das Formular konnte gerade nicht gesendet werden. Schreib mir per WhatsApp oder versuche es in ein paar Minuten erneut."
+      error: "Das Formular konnte gerade nicht gesendet werden. Schreib mir per WhatsApp oder versuche es in ein paar Minuten erneut.",
+      fallback: "Der automatische Versand ist nicht verfügbar, aber ich habe die E-Mail mit deinen Angaben vorbereitet."
     },
     en: {
       sending: "Sending...",
       success: "Message sent. I will get back to you as soon as possible.",
-      error: "The form could not be sent right now. Please message me on WhatsApp or try again in a few minutes."
+      error: "The form could not be sent right now. Please message me on WhatsApp or try again in a few minutes.",
+      fallback: "Automatic sending is not available, but I have prepared an email with your details so you can send it in one click."
     }
+  };
+  const fallbackSubject = {
+    es: "Solicitud de valoración desde la web",
+    de: "Anfrage über die Website",
+    en: "Website assessment request"
   };
   const copy = validationCopy[locale] || validationCopy.es;
   const submitText = submitCopy[locale] || submitCopy.es;
+
+  const buildFallbackBody = (payload) => {
+    const rows = [
+      ["Nombre / Name", payload.name],
+      ["Email", payload.email],
+      ["Teléfono / Phone", payload.phone],
+      ["Edad / Age", payload.age_band],
+      ["Objetivo / Goal", payload.goal],
+      ["Nivel / Level", payload.current_level],
+      ["Disponibilidad / Availability", payload.availability],
+      ["Servicio / Service", payload.service_interest],
+      ["Horas por semana / Hours per week", payload.hours_per_week],
+      ["Horario preferido / Preferred schedule", payload.preferred_schedule],
+      ["Situación / Message", payload.situation || payload.message],
+      ["Página / Page", payload.page_path]
+    ].filter(([, value]) => value);
+
+    const fieldSummary = rows
+      .map(([label, value]) => `${label}: ${value}`)
+      .join("\n");
+
+    return [
+      "Hola Samuel,",
+      "",
+      "Te envío mi solicitud de valoración desde la web:",
+      "",
+      fieldSummary,
+      "",
+      "Gracias."
+    ].join("\n");
+  };
+
+  const openEmailFallback = (payload) => {
+    const recipient = "samuelcoachdealeman@gmail.com";
+    const subject = fallbackSubject[locale] || fallbackSubject.es;
+    const body = buildFallbackBody(payload);
+    window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  };
 
   const loadTurnstile = () => {
     if (window.turnstile) return Promise.resolve(window.turnstile);
@@ -447,7 +499,7 @@ const initOfferForms = () => {
     const turnstileRequiredMessage = (turnstileContainer && turnstileContainer.dataset.turnstileRequired) || copy.turnstile;
     const turnstileLoadErrorMessage = (turnstileContainer && turnstileContainer.dataset.turnstileError) || copy.turnstileError;
     const turnstileState = {
-      required: Boolean(turnstileContainer && turnstileWidget),
+      required: Boolean(turnstileContainer && turnstileWidget && turnstileSiteKey),
       enabled: Boolean(turnstileContainer && turnstileWidget && turnstileSiteKey),
       widgetId: null,
       loaded: false
@@ -551,7 +603,9 @@ const initOfferForms = () => {
         }
       }
 
-      const action = functionEndpoint || form.getAttribute("action") || "/functions/v1/contact";
+      const action = normalizeContactEndpoint(
+        configuredEndpoint || form.getAttribute("action")
+      );
       const payload = payloadFromForm(form);
 
       setStatusMessage(submitText.sending);
@@ -578,8 +632,18 @@ const initOfferForms = () => {
         }
 
         if (!response.ok) {
-          const message = (result && result.messageKey === "risk") ? copy.risk : copy.retry;
-          setStatusMessage(message, "error");
+          if (result && result.messageKey === "risk") {
+            setStatusMessage(copy.risk, "error");
+            return;
+          }
+
+          openEmailFallback(payload);
+          setStatusMessage(submitText.fallback, "error");
+          return;
+        }
+
+        if (result && result.success === false) {
+          setStatusMessage(copy.retry, "error");
           return;
         }
 
@@ -590,7 +654,8 @@ const initOfferForms = () => {
           "success"
         );
       } catch (_error) {
-        setStatusMessage(submitText.error, "error");
+        openEmailFallback(payload);
+        setStatusMessage(submitText.fallback || submitText.error, "error");
       } finally {
         if (turnstileState.enabled && turnstileState.loaded && turnstileState.widgetId !== null && window.turnstile) {
           window.turnstile.reset(turnstileState.widgetId);
