@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Informes">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="/assets/img/logo-main.webp">
+  <title>Informes de Alemán · Samuel Coach</title>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --accent:#2563eb;--accent-d:#1d4ed8;--accent-l:#eff6ff;
+      --si:#16a34a;--si-bg:#f0fdf4;--si-b:#bbf7d0;
+      --no:#dc2626;--no-bg:#fef2f2;--no-b:#fecaca;
+      --border:#e5e7eb;--bg:#f3f4f6;--surface:#fff;
+      --text:#111827;--muted:#6b7280;--r:8px;
+    }
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+    /* HEADER */
+    header{background:var(--accent);color:#fff;padding:14px 24px;display:flex;align-items:center;gap:16px}
+    header img.logo{width:52px;height:52px;border-radius:50%;border:2px solid rgba(255,255,255,.3);flex-shrink:0}
+    header .hinfo{flex:1}
+    header h1{font-size:18px;font-weight:700;line-height:1.2}
+    header p{font-size:12px;opacity:.75;margin-top:2px}
+    .btn-nuevo{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);color:#fff;
+      border-radius:6px;padding:8px 16px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+    .btn-nuevo:hover{background:rgba(255,255,255,.28)}
+
+    /* TEMPLATE BAR */
+    .tbar{background:#1e3a6e;padding:10px 24px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    .tbar label{font-size:12px;color:rgba(255,255,255,.7);white-space:nowrap}
+    .tbar select{flex:1;min-width:220px;padding:7px 10px;border-radius:6px;border:none;
+      font-size:13px;background:#fff;color:var(--text);cursor:pointer}
+    .tbar .sep{width:1px;height:28px;background:rgba(255,255,255,.2);margin:0 4px}
+    .tbtn{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);color:#fff;
+      border-radius:6px;padding:6px 14px;font-size:12px;cursor:pointer;white-space:nowrap}
+    .tbtn:hover{background:rgba(255,255,255,.22)}
+    .tbtn.danger{background:rgba(220,38,38,.25);border-color:rgba(220,38,38,.4)}
+    .tbtn.danger:hover{background:rgba(220,38,38,.4)}
+
+    /* CONTAINER */
+    .container{max-width:960px;margin:0 auto;padding:28px 20px 80px}
+
+    /* CARD */
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);margin-bottom:18px;overflow:hidden}
+    .card-header{background:#f8fafc;border-bottom:1px solid var(--border);padding:13px 20px;
+      display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none}
+    .card-header h2{font-size:13.5px;font-weight:700;color:var(--accent);letter-spacing:.4px;text-transform:uppercase}
+    .card-header .chev{font-size:16px;color:var(--muted);transition:transform .2s}
+    .card-header.open .chev{transform:rotate(180deg)}
+    .card-body{padding:20px}
+    .card-body.hidden{display:none}
+
+    /* FORM GRID */
+    .fg{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    @media(max-width:580px){.fg{grid-template-columns:1fr}}
+    .fg-full{grid-column:1/-1}
+    .fl{display:flex;flex-direction:column;gap:5px}
+    .fl label{font-size:12px;font-weight:600;color:var(--muted)}
+    .fl input,.fl select{border:1px solid var(--border);border-radius:6px;padding:8px 12px;
+      font-size:14px;outline:none;transition:border-color .15s;width:100%}
+    .fl input:focus,.fl select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(37,99,235,.1)}
+    .badge-prof{background:var(--accent-l);color:var(--accent);border:1px solid #bfdbfe;
+      border-radius:6px;padding:8px 12px;font-size:14px;font-weight:600}
+
+    /* PROGRESS */
+    .prog-wrap{margin-bottom:14px}
+    .prog-bar{height:6px;background:var(--border);border-radius:99px;overflow:hidden}
+    .prog-fill{height:100%;background:var(--si);border-radius:99px;transition:width .3s;width:0}
+    .prog-label{font-size:11px;color:var(--muted);margin-top:4px;text-align:right}
+
+    /* QUICK FILL */
+    .qfill{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;align-items:center}
+    .qfill span{font-size:11.5px;color:var(--muted)}
+    .qfill button{font-size:11.5px;padding:4px 12px;border-radius:20px;border:1px solid var(--border);
+      background:#fff;cursor:pointer}
+    .qfill button:hover{background:var(--bg)}
+
+    /* SECTION LABEL */
+    .slabel{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;
+      color:var(--muted);margin:18px 0 8px;display:flex;align-items:center;gap:8px}
+    .slabel:first-child{margin-top:0}
+    .slabel-badge{font-size:10px;padding:2px 8px;border-radius:20px;font-weight:600}
+    .slabel-badge.visto{background:#dbeafe;color:#1d4ed8}
+    .slabel-badge.logrado{background:#dcfce7;color:#15803d}
+
+    /* ITEM ROW */
+    .irow{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid #f3f4f6}
+    .irow:last-child{border-bottom:none}
+    .itext{flex:1;font-size:13px;line-height:1.4}
+    .tgrp{display:flex;gap:3px;flex-shrink:0}
+    .bsi,.bno{border:1px solid var(--border);background:#fff;border-radius:5px;
+      width:36px;height:28px;font-size:13px;cursor:pointer;display:flex;align-items:center;
+      justify-content:center;transition:all .12s}
+    .bsi:hover{border-color:var(--si);color:var(--si)}
+    .bno:hover{border-color:var(--no);color:var(--no)}
+    .bsi.active{background:var(--si-bg);border-color:var(--si);color:var(--si);font-weight:700}
+    .bno.active{background:var(--no-bg);border-color:var(--no);color:var(--no);font-weight:700}
+
+    /* OBS */
+    .og{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    @media(max-width:600px){.og{grid-template-columns:1fr}}
+    .og-full{grid-column:1/-1}
+    .ogrp{display:flex;flex-direction:column;gap:5px}
+    .ogrp label{font-size:13px;font-weight:600}
+    .ogrp textarea{border:1px solid var(--border);border-radius:6px;padding:9px 12px;
+      font-size:13px;font-family:inherit;resize:vertical;min-height:88px;outline:none;transition:border-color .15s}
+    .ogrp textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(37,99,235,.1)}
+
+    /* ACTIONS */
+    .actions{display:flex;gap:12px;margin-top:6px;flex-wrap:wrap}
+    .btn-primary{background:var(--accent);color:#fff;border:none;border-radius:8px;
+      padding:12px 28px;font-size:15px;font-weight:700;cursor:pointer;transition:background .15s}
+    .btn-primary:hover{background:var(--accent-d)}
+    .btn-sec{background:#fff;color:var(--text);border:1px solid var(--border);border-radius:8px;
+      padding:12px 20px;font-size:14px;cursor:pointer}
+    .btn-sec:hover{background:var(--bg)}
+    .btn-suggest{background:#fff;color:var(--accent);border:1px dashed var(--accent);
+      border-radius:6px;padding:5px 10px;font-size:12px;cursor:pointer}
+    .btn-suggest:hover{background:var(--accent-l)}
+
+    /* OVERLAY */
+    .overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:200;
+      align-items:flex-start;justify-content:center;padding:24px 16px;overflow-y:auto}
+    .overlay.open{display:flex}
+    .modal{background:#fff;border-radius:10px;width:100%;max-width:840px;overflow:hidden;
+      box-shadow:0 20px 60px rgba(0,0,0,.25)}
+    .modal-toolbar{background:#1e293b;color:#fff;padding:12px 18px;display:flex;gap:10px;align-items:center}
+    .modal-toolbar span{flex:1;font-size:14px;font-weight:600}
+    .modal-toolbar button{background:rgba(255,255,255,.15);border:none;color:#fff;
+      border-radius:5px;padding:6px 14px;font-size:13px;cursor:pointer}
+    .modal-toolbar button:hover{background:rgba(255,255,255,.25)}
+
+    /* REPORT */
+    .rc{padding:36px 44px;font-family:Georgia,"Times New Roman",serif;font-size:12.5px;
+      line-height:1.6;color:#1a1a1a}
+    .rh{display:flex;align-items:center;gap:18px;padding-bottom:18px;margin-bottom:20px;
+      border-bottom:2px solid #1a1a1a}
+    .rh img{width:58px;height:58px;border-radius:50%;flex-shrink:0}
+    .rh-text{flex:1;text-align:center}
+    .rh-title{font-size:17px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}
+    .rh-sub{font-size:12px;color:#444;margin-bottom:6px}
+    .rh-meta{font-size:11.5px;color:#555;display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+    .ru-title{font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;
+      background:#eff6ff;padding:7px 12px;margin:20px 0 8px;border-left:3px solid #2563eb}
+    .rs-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;
+      color:#666;margin:10px 0 5px}
+    .rc table{width:100%;border-collapse:collapse;margin-bottom:8px;font-size:12px}
+    .rc table th{background:#f8f9fa;padding:5px 9px;text-align:left;border:1px solid #ccc;
+      font-size:11px;font-weight:700}
+    .rc table th.c{text-align:center;width:64px}
+    .rc table td{padding:4px 9px;border:1px solid #ddd}
+    .rc table td.c{text-align:center;font-size:13px}
+    .rc table tr:nth-child(even) td{background:#fafafa}
+    .r-si{color:#16a34a;font-weight:700}
+    .r-no{color:#dc2626;font-weight:700}
+    .r-blank{color:#ccc}
+    .robs{margin-top:24px;border-top:1px solid #ccc;padding-top:18px}
+    .robs-title{font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;margin-bottom:6px}
+    .robs-text{font-size:12.5px;line-height:1.75;color:#333;white-space:pre-wrap}
+
+    /* SAVE TEMPLATE MODAL */
+    .smodal{background:#fff;border-radius:10px;width:100%;max-width:420px;padding:24px;
+      box-shadow:0 20px 60px rgba(0,0,0,.25)}
+    .smodal h3{font-size:16px;font-weight:700;margin-bottom:14px}
+    .smodal input{width:100%;border:1px solid var(--border);border-radius:6px;
+      padding:9px 12px;font-size:14px;outline:none;margin-bottom:14px}
+    .smodal input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(37,99,235,.1)}
+    .smodal-actions{display:flex;gap:10px;justify-content:flex-end}
+
+    /* PRINT */
+    @media print{
+      *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+      body>*:not(#roverlay){display:none!important}
+      #roverlay{display:block!important;position:static!important;background:none!important;padding:0!important}
+      .modal{box-shadow:none!important;max-width:100%!important;border-radius:0!important;width:100%!important}
+      .modal-toolbar{display:none!important}
+      .rc{padding:8mm 10mm!important}
+      table{page-break-inside:avoid}
+      .ru-title{page-break-after:avoid}
+      .robs{page-break-before:auto}
+      @page{margin:12mm;size:A4}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img class="logo" src="data:image/webp;base64,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" alt="Samuel Coach de Alemán">
+  <div class="hinfo">
+    <h1>Generador de Informes — Alemán</h1>
+    <p>Samuel · Coach de Alemán · Herramienta interna</p>
+  </div>
+  <button class="btn-nuevo" onclick="newReport()">➕ Nuevo informe</button>
+</header>
+
+<div class="tbar">
+  <label>Plantilla:</label>
+  <select id="tsel"></select>
+  <button class="tbtn" onclick="loadTemplate()">Cargar</button>
+  <div class="sep"></div>
+  <button class="tbtn" onclick="openSaveModal()">💾 Guardar plantilla</button>
+  <button class="tbtn danger" id="btn-del-tpl" onclick="deleteUserTemplate()" style="display:none">🗑️ Eliminar</button>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <div class="card-header open" onclick="toggleCard(this)">
+      <h2>📋 Datos del alumno/a</h2><span class="chev">▾</span>
+    </div>
+    <div class="card-body" id="body-info">
+      <div class="fg">
+        <div class="fl">
+          <label>Nombre del alumno/a</label>
+          <input id="alumno" type="text" placeholder="Ej.: Salliver García Martínez">
+        </div>
+        <div class="fl">
+          <label>Curso escolar</label>
+          <input id="curso" type="text" value="2025 / 2026">
+        </div>
+        <div class="fl">
+          <label>Nivel / Curso</label>
+          <select id="nivel">
+            <optgroup label="Nivel MCER">
+              <option>A1</option><option>A2</option>
+              <option>B1</option><option>B2</option>
+              <option>C1</option><option>C2</option>
+            </optgroup>
+            <optgroup label="Educación Primaria">
+              <option>1.º Primaria</option><option>2.º Primaria</option>
+              <option>3.º Primaria</option><option>4.º Primaria</option>
+              <option>5.º Primaria</option><option>6.º Primaria</option>
+            </optgroup>
+            <optgroup label="Educación Secundaria (ESO)">
+              <option selected>1.º ESO</option><option>2.º ESO</option>
+              <option>3.º ESO</option><option>4.º ESO</option>
+            </optgroup>
+            <optgroup label="Bachillerato">
+              <option>1.º Bachillerato</option><option>2.º Bachillerato</option>
+            </optgroup>
+            <optgroup label="Otros">
+              <option>Adultos / Academia</option>
+              <option>Empresas</option>
+              <option>Conversación</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="fl">
+          <label>Fecha del informe</label>
+          <input id="fecha" type="date">
+        </div>
+        <div class="fl">
+          <label>Motivo del informe</label>
+          <select id="motivo">
+            <option>Informe fin de curso</option>
+            <option>Preparación a examen</option>
+            <option>Inicio de curso</option>
+            <option>Seguimiento trimestral</option>
+            <option>Informe de progreso</option>
+            <option>Inicio de clases particulares</option>
+          </select>
+        </div>
+        <div class="fl">
+          <label>Profesor/a</label>
+          <div class="badge-prof">Samuel · Coach de Alemán</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="units-container"></div>
+
+  <div class="card">
+    <div class="card-header open" onclick="toggleCard(this)">
+      <h2>💬 Observaciones y recomendaciones</h2><span class="chev">▾</span>
+    </div>
+    <div class="card-body" id="body-obs">
+      <div style="display:flex;justify-content:flex-end;margin-bottom:14px">
+        <button class="btn-suggest" onclick="autoSuggest()">✨ Sugerir texto automáticamente</button>
+      </div>
+      <div class="og">
+        <div class="ogrp og-full">
+          <label>Observaciones generales</label>
+          <textarea id="obs-gen" rows="5" placeholder="El alumno / la alumna ha demostrado…"></textarea>
+        </div>
+        <div class="ogrp">
+          <label>Aspectos positivos</label>
+          <textarea id="obs-pos" rows="4" placeholder="Destaca especialmente en…"></textarea>
+        </div>
+        <div class="ogrp">
+          <label>Aspectos a reforzar</label>
+          <textarea id="obs-ref" rows="4" placeholder="Conviene trabajar más…"></textarea>
+        </div>
+        <div class="ogrp og-full">
+          <label>Recomendaciones para el siguiente curso / fase</label>
+          <textarea id="obs-rec" rows="3" placeholder="Se recomienda…"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button class="btn-primary" onclick="generateReport()">📄 Generar informe</button>
+    <button class="btn-sec" onclick="resetAll()">🔄 Reiniciar todo</button>
+  </div>
+</div>
+
+<div class="overlay" id="roverlay">
+  <div class="modal">
+    <div class="modal-toolbar">
+      <span>Informe generado</span>
+      <button onclick="copyReport()">📋 Copiar texto</button>
+      <button onclick="window.print()">🖨️ Imprimir / PDF</button>
+      <button onclick="closeReport()">✕ Cerrar</button>
+    </div>
+    <div class="rc" id="report-out"></div>
+  </div>
+</div>
+
+<div class="overlay" id="soverlay">
+  <div class="smodal">
+    <h3>💾 Guardar plantilla</h3>
+    <input id="tpl-name" type="text" placeholder="Nombre (ej.: Mi Telc B2 avanzado)">
+    <div class="smodal-actions">
+      <button class="btn-sec" onclick="document.getElementById('soverlay').classList.remove('open')">Cancelar</button>
+      <button class="btn-primary" onclick="saveTemplate()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const LOGO_SRC='data:image/webp;base64,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';
+
+// ── CURRICULUM DATA ──────────────────────────────
+const PRIMARIA=[
+  {id:1,title:'UNIDAD 1 — SEPTIEMBRE · OCTUBRE',
+   contenidos:['Saludos y presentaciones','La hora (halb, Uhr, Viertel)',
+     'Verbos modales: können, mögen, möchten','Verbos irregulares: sein, haben',
+     'Verbos regulares: kommen, heißen, spielen, machen',
+     'Verbos separables: mitspielen, aufräumen, zuhören','Imperativo','Orden de la frase',
+     'Preguntas y respuestas sencillas (Wie heißt du?, Wie alt bist du?, Wie geht\'s?, Wie spät ist es?)'],
+   objetivos:['Conocer y manejar las horas','Comprender y utilizar las formas más comunes del saludo',
+     'Manejar y comprender verbos modales','Afianzar verbos irregulares básicos',
+     'Identificar y manejar verbos regulares','Ser capaz de presentarse y saludarse',
+     'Escuchar y comprender mensajes orales y conversaciones simples',
+     'Comprender textos sencillos escritos']},
+  {id:2,title:'UNIDAD 2 — NOVIEMBRE · DICIEMBRE',
+   contenidos:['Die Kleidung (la ropa)','Pronombres personales',
+     'Artículos determinados e indeterminados en Acusativo y Dativo',
+     'Verbos: kosten, arbeiten, reden',
+     'Verbos con dativo: helfen, danken, schmecken, gefallen, gehören, geben, empfehlen, schenken',
+     'Das gefällt mir','Wie findest du…?','Gefällt mir / dir','Es / Er / Sie sieht … aus','Magst du…?'],
+   objetivos:['Conocer y utilizar el vocabulario de la ropa','Aprender las formas del acusativo y dativo',
+     'Trabajar verbos que rigen dativo','Expresar de forma sencilla opiniones sobre la ropa',
+     'Comprender mensajes orales y conversaciones sencillas','Comprender textos sencillos escritos']},
+  {id:3,title:'UNIDAD 3 — ENERO · MARZO',
+   contenidos:['Der Körper (el cuerpo humano)','Fieber und krank',
+     'Verbos regulares: machen, trinken, kosten, kaufen','Pasado de sein y haben',
+     'Wie geht es dir?','Mir geht es…','Mein / meine … tut weh','Ich bin krank'],
+   objetivos:['Identificar vocabulario relacionado con el cuerpo humano','Manejar verbos regulares',
+     'Aplicar el acusativo en situaciones cotidianas','Utilizar el pasado de sein y haben',
+     'Expresar el estado de salud','Comprender mensajes orales','Comprender textos sencillos']},
+  {id:4,title:'UNIDAD 4 — ABRIL · MAYO',
+   contenidos:['Das Haus','Verbos: bauen, reinigen, putzen','Verbos modales: wollen, müssen',
+     'Kein / Nicht','Das Perfekt','Was ist das?','Das Haus hat…','Passt … Haus?','Ist … klein / groß?'],
+   objetivos:['Conocer el vocabulario relacionado con la casa','Manejar verbos regulares',
+     'Utilizar verbos modales','Aprender estructuras negativas','Reconocer aspectos básicos del pasado',
+     'Comprender mensajes orales','Comprender textos sencillos']},
+  {id:5,title:'UNIDAD 5 — MAYO · JUNIO',
+   contenidos:['Das Frühstück','Süßigkeiten','Obst','Das Gemüse','Die Getränke',
+     'Verbos: schmecken, gehen, arbeiten, backen, bringen','Es gibt + Akkusativ',
+     'Was möchtest du essen?','Was willst du machen?','Kannst du mir … bringen?','Gibst du mir…?'],
+   objetivos:['Conocer vocabulario relacionado con la comida','Identificar y manejar verbos regulares',
+     'Utilizar la estructura es gibt + acusativo','Reconocer aspectos básicos del pasado',
+     'Expresar gustos y preferencias','Comprender mensajes orales','Comprender textos sencillos']}
+];
+
+const TELC_B2=[
+  {id:1,title:'LESEVERSTEHEN — Comprensión lectora',
+   contenidos:['Teil 1 — Globalverstehen: artículo de fondo (carta de lectores, reportaje, opinión)',
+     'Teil 2 — Selektives Lesen: emparejar 5 textos breves con 10 afirmaciones',
+     'Teil 3 — Detailverstehen: texto extenso con 6 preguntas de opción múltiple (a/b/c)'],
+   objetivos:['Extraer la idea global de textos auténticos extensos y complejos',
+     'Localizar información específica distribuida en varios textos breves',
+     'Comprender en detalle un texto largo de temática no especializada',
+     'Inferir el significado de vocabulario desconocido por el contexto',
+     'Diferenciar hechos de opiniones en un texto argumentativo']},
+  {id:2,title:'HÖRVERSTEHEN — Comprensión auditiva',
+   contenidos:['Teil 1 — Globalverstehen: conferencia o entrevista radiofónica (≈ 5 min.)',
+     'Teil 2 — Detailverstehen: conversaciones o noticias con preguntas de opción múltiple'],
+   objetivos:['Captar la idea principal de discursos orales extensos y auténticos',
+     'Identificar detalles específicos en conversaciones y diálogos naturales',
+     'Comprender diferentes acentos y velocidades de habla',
+     'Distinguir actitudes y puntos de vista del hablante']},
+  {id:3,title:'SPRACHBAUSTEINE — Estructuras lingüísticas',
+   contenidos:['Teil 1 — Auswahl: elegir entre 5 opciones para completar huecos en un texto',
+     'Teil 2 — Zuordnung: asignar palabras o expresiones a huecos en un texto'],
+   objetivos:['Reconocer estructuras gramaticales en contexto auténtico',
+     'Seleccionar la opción léxica y gramatical correcta',
+     'Dominar preposiciones, artículos, conjunciones y conectores',
+     'Aplicar conocimiento de colocaciones y expresiones idiomáticas']},
+  {id:4,title:'SCHRIFTLICHER AUSDRUCK — Expresión escrita',
+   contenidos:['Redacción de carta o email formal (250–350 palabras)',
+     'Registro formal: fórmulas de saludo, cuerpo argumentado y despedida',
+     'Conectores y marcadores discursivos de nivel B2',
+     'Estructuras para opinar, argumentar, pedir y responder formalmente'],
+   objetivos:['Producir textos escritos formales claros y bien estructurados',
+     'Argumentar y desarrollar ideas con coherencia y cohesión',
+     'Aplicar vocabulario y gramática propios del nivel B2',
+     'Respetar el formato, la longitud y el registro adecuados',
+     'Revisar y corregir el propio texto antes de entregarlo']},
+  {id:5,title:'MÜNDLICHE KOMMUNIKATION — Comunicación oral',
+   contenidos:['Teil 1 — Gemeinsam etwas planen: negociación entre dos candidatos',
+     'Teil 2 — Etwas präsentieren: presentación de un tema + preguntas y debate'],
+   objetivos:['Planificar y negociar oralmente con fluidez y corrección',
+     'Presentar un tema con argumentos y ejemplos concretos',
+     'Interactuar y debatir con naturalidad y reaccionar ante imprevistos',
+     'Mantener la coherencia y fluidez durante toda la intervención',
+     'Pronunciar con claridad y entonación adecuada al registro']},
+  {id:6,title:'GRAMÁTICA Y VOCABULARIO B2 — Contenidos transversales',
+   contenidos:['Konjunktiv II: formas y usos (hipótesis, irrealidad, cortesía, consejo)',
+     'Passiv: Vorgangspassiv y Zustandspassiv en todos los tiempos',
+     'Relativsätze con preposición (mit dem, auf dem, worüber…)',
+     'Infinitivkonstruktionen: um…zu, ohne…zu, anstatt…zu',
+     'Konzessivsätze: obwohl, trotzdem, dennoch, obgleich',
+     'Kausalsätze: weil, da, denn, deshalb, daher, deswegen',
+     'Temporalsätze: als, wenn, während, nachdem, bevor, bis, seitdem',
+     'Wortschatz B2: medio ambiente, trabajo, sociedad, tecnología, salud, cultura',
+     'Redemittel: argumentar, matizar, conceder y contraargumentar'],
+   objetivos:['Dominar las estructuras gramaticales propias del nivel B2',
+     'Utilizar vocabulario preciso y amplio en contextos variados',
+     'Manejar conectores y marcadores discursivos con corrección',
+     'Construir frases complejas y subordinadas con soltura',
+     'Distinguir y aplicar correctamente los diferentes registros']}
+];
+
+const GOETHE_B2=[
+  {id:1,title:'LESEN — Comprensión lectora',
+   contenidos:['Aufgabe 1 — Correspondencia: asignar 5 textos breves a titulares',
+     'Aufgabe 2 — Elección múltiple: texto de fondo con 5 preguntas a/b/c',
+     'Aufgabe 3 — Reconstrucción: insertar 5 fragmentos en un artículo',
+     'Aufgabe 4 — Emparejar: 10 afirmaciones con 12 textos breves',
+     'Aufgabe 5 — Elección múltiple: texto administrativo o periodístico'],
+   objetivos:['Comprender textos informativos, argumentativos y periodísticos auténticos',
+     'Localizar información específica en textos extensos',
+     'Reconstruir la coherencia y cohesión de un texto',
+     'Distinguir la intención comunicativa y el tono del autor']},
+  {id:2,title:'HÖREN — Comprensión auditiva',
+   contenidos:['Aufgabe 1 — Radio: cinco personas opinan sobre un tema, verdadero/falso',
+     'Aufgabe 2 — Debate o conferencia: elección múltiple a/b/c',
+     'Aufgabe 3 — Conversación cotidiana: completar información',
+     'Aufgabe 4 — Entrevista larga: verdadero / falso / no se menciona'],
+   objetivos:['Comprender textos orales de distinta naturaleza y longitud',
+     'Identificar actitudes, opiniones y puntos de vista del hablante',
+     'Extraer información específica de conversaciones auténticas',
+     'Discriminar información relevante en documentos sonoros complejos']},
+  {id:3,title:'SCHREIBEN — Expresión escrita',
+   contenidos:['Aufgabe 1 — Foro de internet: comentario argumentado (≈ 200 palabras)',
+     'Aufgabe 2 — Carta o email formal con múltiples puntos a tratar (≈ 200 palabras)'],
+   objetivos:['Expresar opiniones y argumentos de forma estructurada y formal',
+     'Dominar las fórmulas y convenciones del escrito formal en alemán',
+     'Organizar el texto con introducción, desarrollo y conclusión claros',
+     'Adaptar el registro al tipo de texto y al destinatario']},
+  {id:4,title:'SPRECHEN — Expresión e interacción oral',
+   contenidos:['Aufgabe 1 — Diapositivas: presentación de un tema a partir de diapositivas',
+     'Aufgabe 2 — Discusión: debatir y llegar a un acuerdo con el interlocutor',
+     'Aufgabe 3 — Comentario: valorar la presentación del otro candidato'],
+   objetivos:['Presentar temas complejos con estructura y argumentación',
+     'Negociar, persuadir y llegar a acuerdos oralmente',
+     'Reaccionar a las intervenciones del interlocutor con naturalidad',
+     'Mantener la fluidez y la corrección durante toda la prueba oral']},
+  {id:5,title:'GRAMÁTICA Y VOCABULARIO B2 — Contenidos transversales',
+   contenidos:['Konjunktiv II: formas y usos (hipótesis, irrealidad, cortesía)',
+     'Passiv: Vorgangs- y Zustandspassiv, Passiversatzformen',
+     'Relativsätze con preposición y pronombres relativos complejos',
+     'Infinitivkonstruktionen: um…zu, ohne…zu, anstatt…zu',
+     'Konzessiv-, Kausal-, Temporal-, Modal- y Konditionalsätze',
+     'Nominalisierung y Verbalisierung',
+     'Wortschatz B2: política, economía, medio ambiente, cultura, tecnología',
+     'Redemittel für Diskussion und Argumentation'],
+   objetivos:['Construir frases complejas y subordinadas con soltura y precisión',
+     'Utilizar correctamente estructuras pasivas y nominalizaciones',
+     'Manejar el vocabulario propio del B2 con precisión',
+     'Argumentar con conectores y marcadores adecuados al registro']}
+];
+
+const TELC_B1=[
+  {id:1,title:'LESEVERSTEHEN — Comprensión lectora',
+   contenidos:['Teil 1 — Globalverstehen: artículo con 5 afirmaciones verdadero/falso',
+     'Teil 2 — Selektives Lesen: 5 textos breves + 5 personas con sus necesidades',
+     'Teil 3 — Detailverstehen: texto informativo con 5 preguntas de opción múltiple'],
+   objetivos:['Comprender la idea principal de textos informativos cotidianos',
+     'Localizar información específica en textos breves y anuncios',
+     'Captar detalles importantes en textos de temática conocida',
+     'Reconocer el tono y la intención del autor']},
+  {id:2,title:'HÖRVERSTEHEN — Comprensión auditiva',
+   contenidos:['Teil 1 — Globalverstehen: 5 mensajes cortos (contestadores, avisos), emparejar',
+     'Teil 2 — Detailverstehen: entrevista o conversación con 5 preguntas verdadero/falso'],
+   objetivos:['Comprender mensajes breves y conversaciones cotidianas',
+     'Identificar información específica en audios de temática familiar',
+     'Comprender el propósito comunicativo de distintos tipos de texto oral']},
+  {id:3,title:'SPRACHBAUSTEINE — Estructuras lingüísticas',
+   contenidos:['Teil 1 — Auswahl: completar un texto eligiendo 1 opción de 5',
+     'Teil 2 — Zuordnung: completar un texto asignando palabras de una lista'],
+   objetivos:['Reconocer preposiciones, conjunciones y conectores en contexto',
+     'Aplicar conocimiento léxico y gramatical en texto auténtico',
+     'Identificar colocaciones frecuentes del nivel B1']},
+  {id:4,title:'SCHRIFTLICHER AUSDRUCK — Expresión escrita',
+   contenidos:['Email o carta semiformales (≈ 150–200 palabras)',
+     'Estructuras para informar, pedir, agradecer y disculparse',
+     'Fórmulas de saludo y despedida semiformales',
+     'Uso de conectores básicos (weil, deshalb, aber, auch, zuerst…)'],
+   objetivos:['Producir textos escritos sencillos y claros para situaciones cotidianas',
+     'Respetar el formato y registro semiformal',
+     'Expresar intenciones, deseos y necesidades por escrito',
+     'Revisar la ortografía y gramática antes de entregar']},
+  {id:5,title:'MÜNDLICHE KOMMUNIKATION — Comunicación oral',
+   contenidos:['Teil 1 — Kontaktaufnahme: presentación personal y preguntas al examinador',
+     'Teil 2 — Gemeinsam planen: planificar un evento con el otro candidato',
+     'Teil 3 — Feedback: valorar brevemente la propuesta del compañero'],
+   objetivos:['Presentarse con naturalidad y responder preguntas cotidianas',
+     'Negociar y ponerse de acuerdo en situaciones conocidas',
+     'Expresar opiniones y reaccionar a las del interlocutor',
+     'Mantener una conversación con corrección y fluidez básica']},
+  {id:6,title:'GRAMÁTICA Y VOCABULARIO B1 — Contenidos transversales',
+   contenidos:['Präteritum y Perfekt: diferencias y usos en registro escrito y oral',
+     'Konjunktiv II básico: hätte, wäre, würde + Infinitiv',
+     'Passiv básico: Präsens y Präteritum',
+     'Relativsätze en Nominativ y Akkusativ',
+     'Kausalsätze (weil, da, denn), Konzessivsätze (obwohl), Temporalsätze (als, wenn, nachdem)',
+     'Dativ y Akkusativ con verbos y preposiciones de lugar y dirección',
+     'Wortschatz B1: viaje, trabajo, salud, ocio, hogar, compras, medioambiente',
+     'Redemittel für Alltagssituationen'],
+   objetivos:['Usar tiempos del pasado con corrección en registro oral y escrito',
+     'Construir oraciones subordinadas simples con coherencia',
+     'Manejar el vocabulario cotidiano del nivel B1 con fluidez',
+     'Aplicar las preposiciones de dativo y acusativo correctamente']}
+];
+
+const GOETHE_B1=[
+  {id:1,title:'LESEN — Comprensión lectora',
+   contenidos:['Aufgabe 1 — Artículos breves con afirmaciones verdadero/falso/no menciona',
+     'Aufgabe 2 — Texto de revista con 5 preguntas a/b/c',
+     'Aufgabe 3 — Selektivas: emparejar 5 personas con 8 anuncios o textos',
+     'Aufgabe 4 — Texto formal (formulario, aviso, instrucciones): verdadero/falso'],
+   objetivos:['Comprender textos informativos y de opinión de temática cotidiana',
+     'Localizar información específica en textos breves y anuncios',
+     'Captar detalles en textos de nivel B1',
+     'Identificar el propósito del texto y la actitud del autor']},
+  {id:2,title:'HÖREN — Comprensión auditiva',
+   contenidos:['Aufgabe 1 — Mensajes breves (contestadores, radio): verdadero/falso/no menciona',
+     'Aufgabe 2 — Entrevista o reportaje: elección múltiple a/b/c',
+     'Aufgabe 3 — Conversación cotidiana: completar información'],
+   objetivos:['Comprender mensajes cotidianos y noticias sencillas',
+     'Extraer información relevante de entrevistas y reportajes',
+     'Identificar datos específicos en conversaciones entre nativos']},
+  {id:3,title:'SCHREIBEN — Expresión escrita',
+   contenidos:['Aufgabe 1 — Email o foro: respuesta breve y argumentada (≈ 100 palabras)',
+     'Aufgabe 2 — Carta semiformal con instrucciones específicas (≈ 100 palabras)'],
+   objetivos:['Producir textos escritos correctos y claros para situaciones cotidianas',
+     'Seguir instrucciones sobre el contenido y el registro del escrito',
+     'Aplicar fórmulas de saludo y despedida adecuadas al registro']},
+  {id:4,title:'SPRECHEN — Expresión e interacción oral',
+   contenidos:['Aufgabe 1 — Presentación de un tema a partir de una imagen o esquema',
+     'Aufgabe 2 — Debate: discutir sobre el tema del compañero',
+     'Aufgabe 3 — Planificación conjunta: negociar y decidir en pareja'],
+   objetivos:['Presentar un tema conocido con estructura básica y ejemplos',
+     'Opinar, argumentar y reaccionar en situaciones cotidianas',
+     'Negociar y llegar a un acuerdo con el interlocutor',
+     'Mantener la fluidez y la corrección básica en la expresión oral']},
+  {id:5,title:'GRAMÁTICA Y VOCABULARIO B1 — Contenidos transversales',
+   contenidos:['Präteritum y Perfekt: elección según el contexto',
+     'Plusquamperfekt: para expresar anterioridad en el pasado',
+     'Konjunktiv II: hätte, wäre, würde + Infinitiv (deseos y consejos)',
+     'Passiv Präsens y Präteritum',
+     'Relativsätze en Nominativ, Akkusativ y Dativ',
+     'Subordinadas: weil, da, obwohl, damit, wenn, als, nachdem, bevor',
+     'Präpositionen mit Genitiv: trotz, wegen, während',
+     'Wortschatz B1: temas del examen (trabajo, naturaleza, cultura, salud)',
+     'Redemittel para describir, narrar y argumentar'],
+   objetivos:['Conjugar y usar los tiempos del pasado con corrección',
+     'Construir oraciones subordinadas variadas con coherencia',
+     'Usar el vocabulario cotidiano del nivel B1 con precisión',
+     'Aplicar preposiciones de Genitiv y Dativ correctamente']}
+];
+
+// ── FACTORY ──────────────────────────────────────
+const FACTORY={
+  'salliver':   {name:'🧒 Salliver – 1.º ESO',               units:PRIMARIA},
+  'primaria':   {name:'📚 Programación Primaria (5 unidades)', units:PRIMARIA},
+  'telc-b2':   {name:'🎓 Preparación TELC B2',               units:TELC_B2},
+  'goethe-b2': {name:'🎓 Goethe-Zertifikat B2',              units:GOETHE_B2},
+  'telc-b1':   {name:'📝 Preparación TELC B1',               units:TELC_B1},
+  'goethe-b1': {name:'📝 Goethe-Zertifikat B1',              units:GOETHE_B1},
+};
+
+// ── STATE ─────────────────────────────────────────
+let currentUnits=PRIMARIA, currentTplKey='salliver', state={};
+
+function initState(units){
+  state={};
+  units.forEach(u=>{state[u.id]={c:Array(u.contenidos.length).fill(null),o:Array(u.objetivos.length).fill(null)};});
+}
+
+// ── TEMPLATE SELECT ───────────────────────────────
+function buildTemplateSelect(){
+  const sel=document.getElementById('tsel');
+  sel.innerHTML='';
+  const fg=document.createElement('optgroup'); fg.label='— Plantillas predeterminadas —';
+  Object.entries(FACTORY).forEach(([k,v])=>{
+    const o=document.createElement('option'); o.value=k; o.textContent=v.name;
+    if(k===currentTplKey) o.selected=true; fg.appendChild(o);
+  });
+  sel.appendChild(fg);
+  const user=getUserTemplates();
+  if(user.length){
+    const ug=document.createElement('optgroup'); ug.label='— Mis plantillas guardadas —';
+    user.forEach(t=>{
+      const o=document.createElement('option'); o.value='user:'+t.id; o.textContent='⭐ '+t.name;
+      if('user:'+t.id===currentTplKey) o.selected=true; ug.appendChild(o);
+    });
+    sel.appendChild(ug);
+  }
+  document.getElementById('btn-del-tpl').style.display=currentTplKey.startsWith('user:')? '':'none';
+}
+
+function loadTemplate(){
+  const key=document.getElementById('tsel').value;
+  if(!key) return;
+  currentTplKey=key;
+  let units;
+  if(key.startsWith('user:')){
+    const id=key.replace('user:','');
+    const t=getUserTemplates().find(t=>t.id===id);
+    if(!t) return;
+    units=t.units;
+  } else {
+    if(!FACTORY[key]) return;
+    units=FACTORY[key].units;
+  }
+  currentUnits=units; initState(units); renderUnits();
+  units.forEach(u=>updateProgress(u.id)); buildTemplateSelect();
+}
+
+// ── USER TEMPLATES ────────────────────────────────
+function getUserTemplates(){try{return JSON.parse(localStorage.getItem('informes_tpls')||'[]');}catch{return[];}}
+function setUserTemplates(a){localStorage.setItem('informes_tpls',JSON.stringify(a));}
+
+function openSaveModal(){
+  document.getElementById('tpl-name').value='';
+  document.getElementById('soverlay').classList.add('open');
+  setTimeout(()=>document.getElementById('tpl-name').focus(),80);
+}
+
+function saveTemplate(){
+  const name=document.getElementById('tpl-name').value.trim();
+  if(!name){alert('Escribe un nombre para la plantilla.');return;}
+  const id='u'+Date.now(), arr=getUserTemplates();
+  arr.push({id,name,units:JSON.parse(JSON.stringify(currentUnits))});
+  setUserTemplates(arr); currentTplKey='user:'+id;
+  buildTemplateSelect(); document.getElementById('soverlay').classList.remove('open');
+}
+
+function deleteUserTemplate(){
+  if(!currentTplKey.startsWith('user:')) return;
+  if(!confirm('¿Eliminar esta plantilla?')) return;
+  const id=currentTplKey.replace('user:','');
+  setUserTemplates(getUserTemplates().filter(t=>t.id!==id));
+  currentTplKey='salliver'; currentUnits=PRIMARIA; initState(currentUnits);
+  renderUnits(); currentUnits.forEach(u=>updateProgress(u.id)); buildTemplateSelect();
+}
+
+// ── NEW REPORT ────────────────────────────────────
+function newReport(){
+  if(!confirm('¿Nuevo informe? Se borrarán los datos del alumno y las marcas actuales.')) return;
+  document.getElementById('alumno').value='';
+  document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
+  ['obs-gen','obs-pos','obs-ref','obs-rec'].forEach(id=>document.getElementById(id).value='');
+  initState(currentUnits); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
+}
+function resetAll(){
+  if(!confirm('¿Reiniciar todo?')) return;
+  document.getElementById('alumno').value='';
+  document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
+  ['obs-gen','obs-pos','obs-ref','obs-rec'].forEach(id=>document.getElementById(id).value='');
+  initState(currentUnits); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
+}
+
+// ── RENDER UNITS ──────────────────────────────────
+function renderUnits(){
+  const c=document.getElementById('units-container'); c.innerHTML='';
+  currentUnits.forEach(u=>renderUnit(u,c));
+}
+function renderUnit(unit,container){
+  const card=document.createElement('div'); card.className='card';
+  card.innerHTML=`
+    <div class="card-header open" onclick="toggleCard(this)">
+      <h2>📖 ${esc(unit.title)}</h2><span class="chev">▾</span>
+    </div>
+    <div class="card-body" id="body-u${unit.id}">
+      <div class="prog-wrap">
+        <div class="prog-bar"><div class="prog-fill" id="prog-${unit.id}"></div></div>
+        <div class="prog-label" id="prog-lbl-${unit.id}">0 %</div>
+      </div>
+      <div class="qfill">
+        <span>Todo:</span>
+        <button onclick="fillUnit(${unit.id},'si')">✓ Visto / Logrado</button>
+        <button onclick="fillUnit(${unit.id},'no')">✗ No visto / No logrado</button>
+        <button onclick="fillUnit(${unit.id},null)">⬜ Limpiar</button>
+      </div>
+      <div class="slabel">CONTENIDOS <span class="slabel-badge visto">Visto · No visto</span></div>
+      <div id="cont-${unit.id}"></div>
+      <div class="slabel" style="margin-top:16px">OBJETIVOS <span class="slabel-badge logrado">Logrado · No logrado</span></div>
+      <div id="obj-${unit.id}"></div>
+    </div>`;
+  container.appendChild(card);
+  renderRows(unit);
+}
+function renderRows(unit){
+  renderSection(unit,'c',document.getElementById('cont-'+unit.id),unit.contenidos,'Visto','No visto');
+  renderSection(unit,'o',document.getElementById('obj-'+unit.id),unit.objetivos,'Logrado','No logrado');
+}
+function renderSection(unit,key,el,items,lSi,lNo){
+  el.innerHTML='';
+  items.forEach((text,idx)=>{
+    const v=state[unit.id][key][idx];
+    const row=document.createElement('div'); row.className='irow';
+    row.innerHTML=`<span class="itext">${esc(text)}</span>
+      <div class="tgrp">
+        <button class="bsi${v==='si'?' active':''}" onclick="setVal(${unit.id},'${key}',${idx},'si')" title="${lSi}">✓</button>
+        <button class="bno${v==='no'?' active':''}" onclick="setVal(${unit.id},'${key}',${idx},'no')" title="${lNo}">✗</button>
+      </div>`;
+    el.appendChild(row);
+  });
+}
+function setVal(uid,key,idx,val){
+  state[uid][key][idx]=state[uid][key][idx]===val?null:val;
+  const unit=currentUnits.find(u=>u.id===uid); renderRows(unit); updateProgress(uid);
+}
+function fillUnit(uid,val){
+  const unit=currentUnits.find(u=>u.id===uid);
+  state[uid].c=Array(unit.contenidos.length).fill(val);
+  state[uid].o=Array(unit.objetivos.length).fill(val);
+  renderRows(unit); updateProgress(uid);
+}
+function updateProgress(uid){
+  const s=state[uid], all=[...s.c,...s.o];
+  const si=all.filter(v=>v==='si').length, total=all.length;
+  const pct=total?Math.round(si/total*100):0;
+  document.getElementById('prog-'+uid).style.width=pct+'%';
+  document.getElementById('prog-lbl-'+uid).textContent=si+' de '+total+' ítems ('+pct+' %)';
+}
+
+// ── TOGGLE CARD ───────────────────────────────────
+function toggleCard(h){
+  const open=h.classList.contains('open');
+  h.classList.toggle('open',!open);
+  h.nextElementSibling.classList.toggle('hidden',open);
+}
+
+// ── AUTO-SUGGEST ──────────────────────────────────
+function autoSuggest(){
+  const nombre=document.getElementById('alumno').value.trim()||'El alumno / la alumna';
+  const nivel=document.getElementById('nivel').value;
+  const motivo=document.getElementById('motivo').value;
+  const stats=currentUnits.map(u=>{
+    const all=[...state[u.id].c,...state[u.id].o];
+    const ev=all.filter(v=>v!==null).length, si=all.filter(v=>v==='si').length;
+    return{title:u.title.split('—')[0].trim(),si,ev,pct:ev?Math.round(si/ev*100):null};
+  });
+  const totalEv=stats.reduce((a,b)=>a+b.ev,0), totalSi=stats.reduce((a,b)=>a+b.si,0);
+  const gPct=totalEv?Math.round(totalSi/totalEv*100):0;
+  const lvl=gPct>=80?'alto':gPct>=60?'satisfactorio':gPct>=40?'básico':'en desarrollo';
+  const strong=stats.filter(s=>s.pct!==null&&s.pct>=70).map(s=>s.title);
+  const weak=stats.filter(s=>s.pct!==null&&s.pct<50).map(s=>s.title);
+  let gen=`${nombre} ha participado en el presente proceso de evaluación correspondiente a ${nivel} — ${motivo}.
+`;
+  gen+=`El rendimiento global se sitúa en un nivel ${lvl}, con un ${gPct} % de los contenidos y objetivos evaluados alcanzados.
+`;
+  if(strong.length) gen+=`Destaca de forma especial en ${strong.join(', ')}.
+`;
+  if(weak.length) gen+=`Se observan áreas de mejora en ${weak.join(', ')}.
+`;
+  gen+=`En términos generales, muestra una actitud positiva y receptiva hacia el aprendizaje del alemán.`;
+  let pos=strong.length?`Demuestra un dominio sólido en ${strong.join(' y ')}, donde los resultados reflejan un trabajo constante y una comprensión clara de los contenidos.
+`:'';
+  pos+=`Participa activamente en las actividades propuestas y muestra motivación e interés en la mejora continua.`;
+  let ref=weak.length?`Conviene prestar especial atención a ${weak.join(' y ')}, áreas donde los contenidos aún no están consolidados.
+`:'';
+  ref+=`Se recomienda practicar de forma más sistemática la comprensión lectora y la producción escrita en alemán.`;
+  let rec=`Para la siguiente fase, se aconseja revisar los contenidos no alcanzados antes de avanzar a nuevas estructuras. `;
+  rec+=`La práctica regular —canciones, lectura, aplicaciones de vocabulario, conversación— contribuirá a afianzar los aprendizajes. `;
+  rec+=`Se recomienda mantener la motivación mediante actividades comunicativas y lúdicas.`;
+  document.getElementById('obs-gen').value=gen;
+  document.getElementById('obs-pos').value=pos;
+  document.getElementById('obs-ref').value=ref;
+  document.getElementById('obs-rec').value=rec;
+}
+
+// ── GENERATE REPORT ───────────────────────────────
+function generateReport(){
+  const alumno=document.getElementById('alumno').value.trim()||'___________________________';
+  const curso=document.getElementById('curso').value.trim()||'_____ / _____';
+  const nivel=document.getElementById('nivel').value;
+  const fecha=fmtFecha(document.getElementById('fecha').value);
+  const motivo=document.getElementById('motivo').value;
+  let html=`<div class="rh">
+    <img src="${LOGO_SRC}" alt="Samuel Coach de Alemán">
+    <div class="rh-text">
+      <div class="rh-title">Informe Individual de Alemán</div>
+      <div class="rh-sub">${esc(motivo)}</div>
+      <div class="rh-meta">
+        <span><strong>Alumno/a:</strong> ${esc(alumno)}</span>
+        <span><strong>Nivel:</strong> ${esc(nivel)} · ${esc(curso)}</span>
+        <span><strong>Fecha:</strong> ${esc(fecha)}</span>
+        <span><strong>Profesor/a:</strong> Samuel · Coach de Alemán</span>
+      </div>
+    </div>
+  </div>`;
+  currentUnits.forEach(u=>{
+    html+=`<div class="ru-title">${esc(u.title)}</div>`;
+    html+=`<div class="rs-label">CONTENIDOS</div>`;
+    html+=buildTable(u.contenidos,state[u.id].c,'Contenido','Visto','No visto');
+    html+=`<div class="rs-label" style="margin-top:8px">OBJETIVOS</div>`;
+    html+=buildTable(u.objetivos,state[u.id].o,'Objetivo','Logrado','No logrado');
+  });
+  const og=document.getElementById('obs-gen').value.trim();
+  const op=document.getElementById('obs-pos').value.trim();
+  const or_=document.getElementById('obs-ref').value.trim();
+  const oc=document.getElementById('obs-rec').value.trim();
+  if(og||op||or_||oc){
+    html+=`<div class="robs">`;
+    if(og) html+=obsBlock('Observaciones generales',og);
+    if(op) html+=obsBlock('Aspectos positivos',op);
+    if(or_) html+=obsBlock('Aspectos a reforzar',or_);
+    if(oc) html+=obsBlock('Recomendaciones para la siguiente fase',oc);
+    html+=`</div>`;
+  }
+  document.getElementById('report-out').innerHTML=html;
+  document.getElementById('roverlay').classList.add('open');
+}
+
+function buildTable(items,vals,hdr,lSi,lNo){
+  let t=`<table><tr><th>${esc(hdr)}</th><th class="c">${esc(lSi)}</th><th class="c">${esc(lNo)}</th></tr>`;
+  items.forEach((item,i)=>{
+    const v=vals[i];
+    const si=v==='si'?'<span class="r-si">✓</span>':'<span class="r-blank">☐</span>';
+    const no=v==='no'?'<span class="r-no">✗</span>':'<span class="r-blank">☐</span>';
+    t+=`<tr><td>${esc(item)}</td><td class="c">${si}</td><td class="c">${no}</td></tr>`;
+  });
+  return t+'</table>';
+}
+function obsBlock(title,text){
+  return `<div style="margin-bottom:16px"><div class="robs-title">${esc(title)}</div><div class="robs-text">${esc(text)}</div></div>`;
+}
+
+// ── CLOSE / COPY ──────────────────────────────────
+function closeReport(){document.getElementById('roverlay').classList.remove('open');}
+document.getElementById('roverlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closeReport();});
+document.getElementById('soverlay').addEventListener('click',e=>{if(e.target===e.currentTarget)e.currentTarget.classList.remove('open');});
+function copyReport(){
+  const text=document.getElementById('report-out').innerText||'';
+  navigator.clipboard.writeText(text).then(()=>alert('Informe copiado al portapapeles.')).catch(()=>alert('Usa Ctrl+A para seleccionar el texto manualmente.'));
+}
+
+// ── UTILS ─────────────────────────────────────────
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function fmtFecha(v){
+  if(!v) return new Date().toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'});
+  const[y,m,d]=v.split('-');
+  return new Date(y,m-1,d).toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'});
+}
+
+// ── INIT ──────────────────────────────────────────
+document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
+initState(PRIMARIA); buildTemplateSelect(); renderUnits(); PRIMARIA.forEach(u=>updateProgress(u.id));
+
+// Check URL for ?nuevo=1
+if(new URLSearchParams(location.search).get('nuevo')==='1') newReport();
+
+// PWA
+if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+let _prompt;
+window.addEventListener('beforeinstallprompt',e=>{
+  e.preventDefault(); _prompt=e;
+  const btn=document.createElement('button');
+  btn.className='tbtn'; btn.textContent='📲 Instalar app';
+  btn.onclick=()=>{_prompt.prompt();_prompt=null;btn.remove();};
+  document.querySelector('.tbar').appendChild(btn);
+});
+</script>
+</body>
+</html>

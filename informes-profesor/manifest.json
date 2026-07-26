@@ -1,0 +1,25 @@
+{
+  "name": "Informes de Alemán – Samuel Coach",
+  "short_name": "Informes",
+  "description": "Generador de informes individuales de alemán",
+  "start_url": "/informes-profesor/",
+  "scope": "/informes-profesor/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#2563eb",
+  "theme_color": "#2563eb",
+  "lang": "es",
+  "icons": [
+    { "src": "/assets/img/logo-main.webp", "sizes": "512x512", "type": "image/webp", "purpose": "any" },
+    { "src": "/assets/img/logo-tree.png",  "sizes": "192x192", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nuevo informe",
+      "short_name": "Nuevo",
+      "url": "/informes-profesor/?nuevo=1",
+      "icons": [{ "src": "/assets/img/logo-tree.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["education", "productivity"]
+}
