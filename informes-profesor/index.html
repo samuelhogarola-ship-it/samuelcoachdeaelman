@@ -82,6 +82,18 @@
       background:#fff;cursor:pointer}
     .qfill button:hover{background:var(--bg)}
 
+    /* TEMPLATE EDITOR */
+    .edit-panel{background:#fff7ed;border:1px dashed #fdba74;border-radius:8px;padding:12px;margin:12px 0 14px}
+    .edit-title{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+    .edit-title input{flex:1;min-width:220px;border:1px solid #fed7aa;border-radius:6px;padding:8px 10px;font-size:13px}
+    .edit-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .edit-btn{background:#fff;border:1px solid #fed7aa;color:#9a3412;border-radius:6px;padding:6px 10px;font-size:12px;cursor:pointer}
+    .edit-btn:hover{background:#ffedd5}
+    .edit-btn.danger{border-color:#fecaca;color:#b91c1c}
+    .edit-btn.danger:hover{background:#fef2f2}
+    .edit-row-input{flex:1;border:1px solid #fed7aa;border-radius:6px;padding:7px 9px;font-size:13px}
+    .edit-row-actions{display:flex;gap:4px;flex-shrink:0}
+
     /* SECTION LABEL */
     .slabel{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;
       color:var(--muted);margin:18px 0 8px;display:flex;align-items:center;gap:8px}
@@ -204,6 +216,9 @@
   <label>Plantilla:</label>
   <select id="tsel"></select>
   <button class="tbtn" onclick="loadTemplate()">Cargar</button>
+  <div class="sep"></div>
+  <button class="tbtn" id="btn-edit-fields" onclick="toggleTemplateEditor()">✏️ Editar campos</button>
+  <button class="tbtn" id="btn-add-unit" onclick="addUnit()" style="display:none">➕ Añadir sección</button>
   <div class="sep"></div>
   <button class="tbtn" onclick="openSaveModal()">💾 Guardar plantilla</button>
   <button class="tbtn danger" id="btn-del-tpl" onclick="deleteUserTemplate()" style="display:none">🗑️ Eliminar</button>
@@ -602,11 +617,32 @@ const FACTORY={
 };
 
 // ── STATE ─────────────────────────────────────────
-let currentUnits=PRIMARIA, currentTplKey='salliver', state={};
+let currentUnits=cloneUnits(PRIMARIA), currentTplKey='salliver', state={}, editMode=false;
+
+function cloneUnits(units){
+  return JSON.parse(JSON.stringify(units));
+}
 
 function initState(units){
   state={};
   units.forEach(u=>{state[u.id]={c:Array(u.contenidos.length).fill(null),o:Array(u.objetivos.length).fill(null)};});
+}
+
+function syncStateToUnits(){
+  currentUnits.forEach(u=>{
+    if(!state[u.id]) state[u.id]={c:[],o:[]};
+    state[u.id].c=resizeMarks(state[u.id].c,u.contenidos.length);
+    state[u.id].o=resizeMarks(state[u.id].o,u.objetivos.length);
+  });
+  Object.keys(state).forEach(id=>{
+    if(!currentUnits.some(u=>String(u.id)===String(id))) delete state[id];
+  });
+}
+
+function resizeMarks(values,len){
+  const next=Array.isArray(values)?values.slice(0,len):[];
+  while(next.length<len) next.push(null);
+  return next;
 }
 
 // ── TEMPLATE SELECT ───────────────────────────────
@@ -640,11 +676,12 @@ function loadTemplate(){
     const id=key.replace('user:','');
     const t=getUserTemplates().find(t=>t.id===id);
     if(!t) return;
-    units=t.units;
+    units=cloneUnits(t.units);
   } else {
     if(!FACTORY[key]) return;
-    units=FACTORY[key].units;
+    units=cloneUnits(FACTORY[key].units);
   }
+  editMode=false; updateEditorButtons();
   currentUnits=units; initState(units); renderUnits();
   units.forEach(u=>updateProgress(u.id)); buildTemplateSelect();
 }
@@ -662,6 +699,7 @@ function openSaveModal(){
 function saveTemplate(){
   const name=document.getElementById('tpl-name').value.trim();
   if(!name){alert('Escribe un nombre para la plantilla.');return;}
+  syncStateToUnits();
   const id='u'+Date.now(), arr=getUserTemplates();
   arr.push({id,name,units:JSON.parse(JSON.stringify(currentUnits))});
   setUserTemplates(arr); currentTplKey='user:'+id;
@@ -673,8 +711,67 @@ function deleteUserTemplate(){
   if(!confirm('¿Eliminar esta plantilla?')) return;
   const id=currentTplKey.replace('user:','');
   setUserTemplates(getUserTemplates().filter(t=>t.id!==id));
-  currentTplKey='salliver'; currentUnits=PRIMARIA; initState(currentUnits);
+  currentTplKey='salliver'; currentUnits=cloneUnits(PRIMARIA); initState(currentUnits);
   renderUnits(); currentUnits.forEach(u=>updateProgress(u.id)); buildTemplateSelect();
+}
+
+// ── TEMPLATE EDITOR ───────────────────────────────
+function updateEditorButtons(){
+  const editBtn=document.getElementById('btn-edit-fields');
+  const addBtn=document.getElementById('btn-add-unit');
+  if(editBtn) editBtn.textContent=editMode?'✓ Terminar edición':'✏️ Editar campos';
+  if(addBtn) addBtn.style.display=editMode?'':'none';
+}
+function toggleTemplateEditor(){
+  editMode=!editMode;
+  updateEditorButtons();
+  syncStateToUnits();
+  renderUnits();
+  currentUnits.forEach(u=>updateProgress(u.id));
+}
+function nextUnitId(){
+  return currentUnits.reduce((max,u)=>Math.max(max,Number(u.id)||0),0)+1;
+}
+function addUnit(){
+  const id=nextUnitId();
+  currentUnits.push({id,title:'NUEVA SECCIÓN',contenidos:['Nuevo contenido'],objetivos:['Nuevo objetivo']});
+  state[id]={c:[null],o:[null]};
+  renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
+}
+function renameUnit(uid,value){
+  const unit=currentUnits.find(u=>u.id===uid);
+  if(unit) unit.title=value.trim()||'SECCIÓN SIN TÍTULO';
+}
+function deleteUnit(uid){
+  if(currentUnits.length<=1){alert('Debe quedar al menos una sección.');return;}
+  if(!confirm('¿Eliminar esta sección de la plantilla actual?')) return;
+  currentUnits=currentUnits.filter(u=>u.id!==uid);
+  delete state[uid];
+  renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
+}
+function addItem(uid,key){
+  const unit=currentUnits.find(u=>u.id===uid);
+  if(!unit) return;
+  const list=key==='c'?unit.contenidos:unit.objetivos;
+  list.push(key==='c'?'Nuevo contenido':'Nuevo objetivo');
+  syncStateToUnits();
+  renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
+}
+function updateItem(uid,key,idx,value){
+  const unit=currentUnits.find(u=>u.id===uid);
+  if(!unit) return;
+  const list=key==='c'?unit.contenidos:unit.objetivos;
+  list[idx]=value.trim()||(key==='c'?'Contenido sin título':'Objetivo sin título');
+}
+function deleteItem(uid,key,idx){
+  const unit=currentUnits.find(u=>u.id===uid);
+  if(!unit) return;
+  const list=key==='c'?unit.contenidos:unit.objetivos;
+  if(list.length<=1){alert('Debe quedar al menos un ítem en esta sección.');return;}
+  list.splice(idx,1);
+  if(state[uid]) state[uid][key].splice(idx,1);
+  syncStateToUnits();
+  renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
 }
 
 // ── NEW REPORT ────────────────────────────────────
@@ -700,6 +797,17 @@ function renderUnits(){
 }
 function renderUnit(unit,container){
   const card=document.createElement('div'); card.className='card';
+  const editor=editMode?`
+      <div class="edit-panel">
+        <div class="edit-title">
+          <input value="${esc(unit.title)}" onchange="renameUnit(${unit.id},this.value)" aria-label="Título de la sección">
+          <button class="edit-btn danger" onclick="deleteUnit(${unit.id})">Eliminar sección</button>
+        </div>
+        <div class="edit-actions">
+          <button class="edit-btn" onclick="addItem(${unit.id},'c')">Añadir contenido</button>
+          <button class="edit-btn" onclick="addItem(${unit.id},'o')">Añadir objetivo</button>
+        </div>
+      </div>`:'';
   card.innerHTML=`
     <div class="card-header open" onclick="toggleCard(this)">
       <h2>📖 ${esc(unit.title)}</h2><span class="chev">▾</span>
@@ -715,6 +823,7 @@ function renderUnit(unit,container){
         <button onclick="fillUnit(${unit.id},'no')">✗ No visto / No logrado</button>
         <button onclick="fillUnit(${unit.id},null)">⬜ Limpiar</button>
       </div>
+      ${editor}
       <div class="slabel">CONTENIDOS <span class="slabel-badge visto">Visto · No visto</span></div>
       <div id="cont-${unit.id}"></div>
       <div class="slabel" style="margin-top:16px">OBJETIVOS <span class="slabel-badge logrado">Logrado · No logrado</span></div>
@@ -732,11 +841,18 @@ function renderSection(unit,key,el,items,lSi,lNo){
   items.forEach((text,idx)=>{
     const v=state[unit.id][key][idx];
     const row=document.createElement('div'); row.className='irow';
-    row.innerHTML=`<span class="itext">${esc(text)}</span>
+    const label=editMode
+      ? `<input class="edit-row-input" value="${esc(text)}" onchange="updateItem(${unit.id},'${key}',${idx},this.value)" aria-label="${key==='c'?'Contenido':'Objetivo'}">`
+      : `<span class="itext">${esc(text)}</span>`;
+    const editActions=editMode
+      ? `<button class="edit-btn danger" onclick="deleteItem(${unit.id},'${key}',${idx})" title="Eliminar">Eliminar</button>`
+      : '';
+    row.innerHTML=`${label}
       <div class="tgrp">
         <button class="bsi${v==='si'?' active':''}" onclick="setVal(${unit.id},'${key}',${idx},'si')" title="${lSi}">✓</button>
         <button class="bno${v==='no'?' active':''}" onclick="setVal(${unit.id},'${key}',${idx},'no')" title="${lNo}">✗</button>
-      </div>`;
+      </div>
+      <div class="edit-row-actions">${editActions}</div>`;
     el.appendChild(row);
   });
 }
@@ -880,7 +996,7 @@ function fmtFecha(v){
 
 // ── INIT ──────────────────────────────────────────
 document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
-initState(PRIMARIA); buildTemplateSelect(); renderUnits(); PRIMARIA.forEach(u=>updateProgress(u.id));
+initState(currentUnits); updateEditorButtons(); buildTemplateSelect(); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
 
 // Check URL for ?nuevo=1
 if(new URLSearchParams(location.search).get('nuevo')==='1') newReport();
