@@ -142,6 +142,11 @@
 
     /* ACTIONS */
     .actions{display:flex;gap:12px;margin-top:6px;flex-wrap:wrap}
+    .report-options{display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid var(--border);
+      border-radius:8px;padding:12px 14px;margin:18px 0 12px}
+    .report-options label{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:700;color:var(--text)}
+    .report-options input{width:16px;height:16px;accent-color:var(--accent)}
+    .report-options p{font-size:12px;color:var(--muted);padding-left:25px}
     .btn-primary{background:var(--accent);color:#fff;border:none;border-radius:8px;
       padding:12px 28px;font-size:15px;font-weight:700;cursor:pointer;transition:background .15s}
     .btn-primary:hover{background:var(--accent-d)}
@@ -360,6 +365,11 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="report-options">
+    <label><input id="public-objetivos" type="checkbox" checked onchange="saveReportOptions()"> Publicar objetivos en el informe</label>
+    <p>Si lo desactivas, el PDF muestra solo los contenidos y sirve como índice público. Los objetivos siguen visibles aquí para seguimiento interno.</p>
   </div>
 
   <div class="actions">
@@ -971,6 +981,7 @@ function deleteUserTemplate(){
 // ── LOCAL MINI CLASSROOM ──────────────────────────
 const LOCAL_STUDENTS_KEY='informes_classroom_students_v1';
 const LOCAL_REPORTS_KEY='informes_classroom_reports_v1';
+const REPORT_OPTIONS_KEY='informes_report_options_v1';
 function setCloudState(text){const el=document.getElementById('cloud-state'); if(el) el.textContent=text;}
 function localId(prefix){return prefix+'_'+Date.now().toString(36)+'_'+Math.random().toString(36).slice(2,7);}
 function readLocalList(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value:[];}catch{return[];}}
@@ -980,6 +991,16 @@ function setLocalStudents(value){writeLocalList(LOCAL_STUDENTS_KEY,value);}
 function getLocalReports(){return readLocalList(LOCAL_REPORTS_KEY);}
 function setLocalReports(value){writeLocalList(LOCAL_REPORTS_KEY,value);}
 function cleanEmail(v){return String(v||'').trim().toLowerCase();}
+function shouldPublishObjectives(){return document.getElementById('public-objetivos').checked;}
+function saveReportOptions(){
+  localStorage.setItem(REPORT_OPTIONS_KEY,JSON.stringify({publishObjectives:shouldPublishObjectives()}));
+}
+function loadReportOptions(){
+  try{
+    const saved=JSON.parse(localStorage.getItem(REPORT_OPTIONS_KEY)||'{}');
+    if(typeof saved.publishObjectives==='boolean') document.getElementById('public-objetivos').checked=saved.publishObjectives;
+  }catch{}
+}
 function getFormData(){
   return{
     alumno:document.getElementById('alumno').value.trim(),
@@ -988,7 +1009,8 @@ function getFormData(){
     nivel:document.getElementById('nivel').value,
     fecha:document.getElementById('fecha').value,
     motivo:document.getElementById('motivo').value,
-    notas:document.getElementById('alumno-notas').value.trim()
+    notas:document.getElementById('alumno-notas').value.trim(),
+    publishObjectives:shouldPublishObjectives()
   };
 }
 function getObservations(){
@@ -1131,6 +1153,8 @@ async function loadCloudReport(reportId){
     document.getElementById('nivel').value=report.nivel||form.nivel||'A1';
     document.getElementById('fecha').value=report.report_date||form.fecha||new Date().toISOString().slice(0,10);
     document.getElementById('motivo').value=report.motivo||form.motivo||'Informe de progreso';
+    if(typeof form.publishObjectives==='boolean') document.getElementById('public-objetivos').checked=form.publishObjectives;
+    saveReportOptions();
     currentUnits=cloneUnits(report.units||[]);
     state=report.marks||{};
     syncStateToUnits();
@@ -1405,6 +1429,8 @@ function generateReport(){
   const nivel=document.getElementById('nivel').value;
   const fecha=fmtFecha(document.getElementById('fecha').value);
   const motivo=document.getElementById('motivo').value;
+  const publishObjectives=shouldPublishObjectives();
+  saveReportOptions();
   let html=`<div class="rh">
     <img src="${LOGO_SRC}" alt="Samuel Coach de Alemán">
     <div class="rh-text">
@@ -1432,8 +1458,10 @@ function generateReport(){
     </div>`;
     html+=`<div class="rs-label">CONTENIDOS</div>`;
     html+=buildTable(u.contenidos,state[u.id].c,'Contenido','Visto','No visto');
-    html+=`<div class="rs-label" style="margin-top:8px">OBJETIVOS</div>`;
-    html+=buildTable(u.objetivos,state[u.id].o,'Objetivo','Logrado','No logrado');
+    if(publishObjectives){
+      html+=`<div class="rs-label" style="margin-top:8px">OBJETIVOS</div>`;
+      html+=buildTable(u.objetivos,state[u.id].o,'Objetivo','Logrado','No logrado');
+    }
   });
   const og=document.getElementById('obs-gen').value.trim();
   const op=document.getElementById('obs-pos').value.trim();
@@ -1485,6 +1513,7 @@ function fmtFecha(v){
 
 // ── INIT ──────────────────────────────────────────
 document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
+loadReportOptions();
 initState(currentUnits); updateEditorButtons(); buildTemplateSelect(); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
 setCloudState('Local');
 
