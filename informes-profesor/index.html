@@ -310,7 +310,7 @@
           </select>
         </div>
         <div class="fl">
-          <label>Fecha del informe</label>
+          <label>Fecha del informe <span style="font-weight:400;color:#9ca3af">(opcional)</span></label>
           <input id="fecha" type="date">
         </div>
         <div class="fl">
@@ -676,7 +676,7 @@ const PREPARACION_B2_DE=[
      'Futur I: Absicht, Versprechen, Prognose und Vermutung in der Gegenwart',
      'Passiv: Präsens, Präteritum, Perfekt, Passiv mit Modalverben und Zustandspassiv',
      'Konjunktiv II: Wünsche, Hypothesen, Ratschläge, Höflichkeit, irreale Vergangenheit und irreale Vergleiche',
-     'Konjunktiv I: indirekte Rede in Gegenwart und Vergangenheit'],
+     'Konjunktiv I: indirekte Rede in der Gegenwart'],
    objetivos:['B2-relevante Zeiten und Verbformen im Kontext erkennen und anwenden',
      'Aktivsätze ins Passiv umformen und Vorgangspassiv/Zustandspassiv unterscheiden',
      'Konjunktiv II sicher für Hypothesen, Ratschläge und höfliche Formulierungen nutzen',
@@ -1151,7 +1151,7 @@ async function loadCloudReport(reportId){
     document.getElementById('alumno-notas').value=student.notes||form.notas||'';
     document.getElementById('curso').value=report.curso||form.curso||'';
     document.getElementById('nivel').value=report.nivel||form.nivel||'A1';
-    document.getElementById('fecha').value=report.report_date||form.fecha||new Date().toISOString().slice(0,10);
+    document.getElementById('fecha').value=report.report_date||form.fecha||'';
     document.getElementById('motivo').value=report.motivo||form.motivo||'Informe de progreso';
     if(typeof form.publishObjectives==='boolean') document.getElementById('public-objetivos').checked=form.publishObjectives;
     saveReportOptions();
@@ -1244,7 +1244,7 @@ function newReport(){
   document.getElementById('alumno').value='';
   document.getElementById('alumno-email').value='';
   document.getElementById('alumno-notas').value='';
-  document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
+  document.getElementById('fecha').value='';
   ['obs-gen','obs-pos','obs-ref','obs-rec'].forEach(id=>document.getElementById(id).value='');
   initState(currentUnits); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
 }
@@ -1254,7 +1254,7 @@ function resetAll(){
   document.getElementById('alumno').value='';
   document.getElementById('alumno-email').value='';
   document.getElementById('alumno-notas').value='';
-  document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
+  document.getElementById('fecha').value='';
   ['obs-gen','obs-pos','obs-ref','obs-rec'].forEach(id=>document.getElementById(id).value='');
   initState(currentUnits); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
 }
@@ -1439,7 +1439,7 @@ function generateReport(){
       <div class="rh-meta">
         <span><strong>Alumno/a:</strong> ${esc(alumno)}</span>
         <span><strong>Nivel:</strong> ${esc(nivel)} · ${esc(curso)}</span>
-        <span><strong>Fecha:</strong> ${esc(fecha)}</span>
+        ${fecha?`<span><strong>Fecha:</strong> ${esc(fecha)}</span>`:''}
         <span><strong>Profesor/a:</strong> Samuel · Coach de Alemán</span>
       </div>
     </div>
@@ -1506,13 +1506,13 @@ function copyReport(){
 // ── UTILS ─────────────────────────────────────────
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function fmtFecha(v){
-  if(!v) return new Date().toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'});
+  if(!v) return '';
   const[y,m,d]=v.split('-');
   return new Date(y,m-1,d).toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'});
 }
 
 // ── INIT ──────────────────────────────────────────
-document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
+document.getElementById('fecha').value='';
 loadReportOptions();
 initState(currentUnits); updateEditorButtons(); buildTemplateSelect(); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
 setCloudState('Local');
