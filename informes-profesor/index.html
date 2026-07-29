@@ -57,6 +57,20 @@
     .card-header.open .chev{transform:rotate(180deg)}
     .card-body{padding:20px}
     .card-body.hidden{display:none}
+    .unit-group{display:flex;align-items:center;gap:12px;margin:28px 0 12px}
+    .unit-group:first-child{margin-top:0}
+    .unit-group::after{content:"";height:1px;background:var(--border);flex:1}
+    .unit-group span{background:#111827;color:#fff;border-radius:6px;padding:6px 10px;font-size:11px;font-weight:800;letter-spacing:.8px;text-transform:uppercase}
+    .unit-card{border-color:#dbeafe}
+    .unit-card .card-header{align-items:flex-start;gap:14px;background:linear-gradient(180deg,#eff6ff 0%,#f8fafc 100%)}
+    .unit-head{min-width:0;display:flex;flex-direction:column;gap:3px}
+    .unit-part{font-size:10px;font-weight:800;letter-spacing:.9px;text-transform:uppercase;color:#1d4ed8}
+    .unit-card .card-header h2{font-size:16px;letter-spacing:0;text-transform:none;color:#111827}
+    .unit-area{font-size:12px;color:var(--muted);font-weight:600}
+    .unit-card.grammar{border-left:4px solid #2563eb}
+    .unit-card.vocab{border-left:4px solid #0891b2}
+    .unit-card.redemittel{border-left:4px solid #7c3aed}
+    .unit-card.final{border-left:4px solid #16a34a}
 
     /* FORM GRID */
     .fg{display:grid;grid-template-columns:1fr 1fr;gap:14px}
@@ -162,6 +176,11 @@
     .rh-meta{font-size:11.5px;color:#555;display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
     .ru-title{font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;
       background:#eff6ff;padding:7px 12px;margin:20px 0 8px;border-left:3px solid #2563eb}
+    .report-group{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;
+      color:#111827;border-bottom:1px solid #111827;margin:22px 0 10px;padding-bottom:4px}
+    .ru-part{display:block;font-size:10px;letter-spacing:.8px;color:#2563eb;margin-bottom:2px}
+    .ru-focus{display:block;font-size:12.5px;color:#111827}
+    .ru-area{display:block;font-size:11px;color:#555;text-transform:none;letter-spacing:0;margin-top:1px}
     .rs-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;
       color:#666;margin:10px 0 5px}
     .rc table{width:100%;border-collapse:collapse;margin-bottom:8px;font-size:12px}
@@ -1219,10 +1238,43 @@ function resetAll(){
 // ── RENDER UNITS ──────────────────────────────────
 function renderUnits(){
   const c=document.getElementById('units-container'); c.innerHTML='';
-  currentUnits.forEach(u=>renderUnit(u,c));
+  let lastGroup='';
+  currentUnits.forEach(u=>{
+    const meta=parseUnitTitle(u.title);
+    if(meta.group!==lastGroup){
+      const group=document.createElement('div');
+      group.className='unit-group';
+      group.innerHTML=`<span>${esc(meta.group)}</span>`;
+      c.appendChild(group);
+      lastGroup=meta.group;
+    }
+    renderUnit(u,c,meta);
+  });
 }
-function renderUnit(unit,container){
-  const card=document.createElement('div'); card.className='card';
+function parseUnitTitle(title){
+  const raw=String(title||'Sección');
+  const parts=raw.split('—').map(s=>s.trim());
+  const part=parts.length>1?parts[0]:'';
+  const rest=parts.length>1?parts.slice(1).join('—').trim():raw;
+  const detail=rest.split('·').map(s=>s.trim());
+  const area=detail.length>1?detail[0]:'';
+  const focus=detail.length>1?detail.slice(1).join(' · ').trim():rest;
+  const group=area||part||focus;
+  const type=/gram[aá]t|grammat/i.test(group)?'grammar'
+    :/vocab|wortschatz/i.test(group)?'vocab'
+    :/rede|nomen-verb/i.test(group)?'redemittel'
+    :/final|abschluss|simulaci|simulation/i.test(group)?'final':'';
+  return{part,area,focus,group,type,raw};
+}
+function unitHeaderHtml(meta){
+  return `<div class="unit-head">
+    ${meta.part?`<span class="unit-part">${esc(meta.part)}</span>`:''}
+    <h2>${esc(meta.focus)}</h2>
+    ${meta.area?`<span class="unit-area">${esc(meta.area)}</span>`:''}
+  </div>`;
+}
+function renderUnit(unit,container,meta=parseUnitTitle(unit.title)){
+  const card=document.createElement('div'); card.className=`card unit-card ${meta.type}`;
   const editor=editMode?`
       <div class="edit-panel">
         <div class="edit-title">
@@ -1236,7 +1288,7 @@ function renderUnit(unit,container){
       </div>`:'';
   card.innerHTML=`
     <div class="card-header open" onclick="toggleCard(this)">
-      <h2>📖 ${esc(unit.title)}</h2><span class="chev">▾</span>
+      ${unitHeaderHtml(meta)}<span class="chev">▾</span>
     </div>
     <div class="card-body" id="body-u${unit.id}">
       <div class="prog-wrap">
@@ -1366,8 +1418,18 @@ function generateReport(){
       </div>
     </div>
   </div>`;
+  let lastGroup='';
   currentUnits.forEach(u=>{
-    html+=`<div class="ru-title">${esc(u.title)}</div>`;
+    const meta=parseUnitTitle(u.title);
+    if(meta.group!==lastGroup){
+      html+=`<div class="report-group">${esc(meta.group)}</div>`;
+      lastGroup=meta.group;
+    }
+    html+=`<div class="ru-title">
+      ${meta.part?`<span class="ru-part">${esc(meta.part)}</span>`:''}
+      <span class="ru-focus">${esc(meta.focus)}</span>
+      ${meta.area?`<span class="ru-area">${esc(meta.area)}</span>`:''}
+    </div>`;
     html+=`<div class="rs-label">CONTENIDOS</div>`;
     html+=buildTable(u.contenidos,state[u.id].c,'Contenido','Visto','No visto');
     html+=`<div class="rs-label" style="margin-top:8px">OBJETIVOS</div>`;
