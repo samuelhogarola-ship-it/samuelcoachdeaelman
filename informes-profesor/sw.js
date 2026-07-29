@@ -1,4 +1,4 @@
-const CACHE = 'informes-v9';
+const CACHE = 'informes-v10';
 const ASSETS = ['./', './manifest.json'];
 
 self.addEventListener('install', e => {

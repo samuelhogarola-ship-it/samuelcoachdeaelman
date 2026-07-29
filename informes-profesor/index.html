@@ -43,6 +43,11 @@
     .tbtn:hover{background:rgba(255,255,255,.22)}
     .tbtn.danger{background:rgba(220,38,38,.25);border-color:rgba(220,38,38,.4)}
     .tbtn.danger:hover{background:rgba(220,38,38,.4)}
+    .lang-toggle{display:none;align-items:center;gap:6px;color:rgba(255,255,255,.82);font-size:12px}
+    .lang-toggle.open{display:flex}
+    .lang-toggle select{border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.12);color:#fff;
+      border-radius:6px;padding:5px 8px;font-size:12px;outline:none}
+    .lang-toggle option{color:#111827}
     .cloud-state{font-size:12px;color:rgba(255,255,255,.78);min-height:18px}
 
     /* CONTAINER */
@@ -108,6 +113,9 @@
     .edit-btn.danger:hover{background:#fef2f2}
     .edit-row-input{flex:1;border:1px solid #fed7aa;border-radius:6px;padding:7px 9px;font-size:13px}
     .edit-row-actions{display:flex;gap:4px;flex-shrink:0}
+    .slabel-add{margin-left:auto;background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;border-radius:6px;
+      padding:4px 8px;font-size:11px;font-weight:700;text-transform:none;letter-spacing:0;cursor:pointer}
+    .slabel-add:hover{background:#ffedd5}
 
     /* SECTION LABEL */
     .slabel{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;
@@ -250,6 +258,13 @@
   <label>Plantilla:</label>
   <select id="tsel"></select>
   <button class="tbtn" onclick="loadTemplate()">Cargar</button>
+  <div class="lang-toggle" id="language-toggle">
+    <label for="template-language">Idioma:</label>
+    <select id="template-language" onchange="changeTemplateLanguage()">
+      <option value="es">Español</option>
+      <option value="de">Deutsch</option>
+    </select>
+  </div>
   <div class="sep"></div>
   <button class="tbtn" id="btn-edit-fields" onclick="toggleTemplateEditor()">✏️ Editar campos</button>
   <button class="tbtn" id="btn-add-unit" onclick="addUnit()" style="display:none">➕ Añadir sección</button>
@@ -870,8 +885,7 @@ const GOETHE_B1=[
 const FACTORY={
   'salliver':   {name:'🧒 Salliver – 1.º ESO',               units:PRIMARIA},
   'primaria':   {name:'📚 Programación Primaria (5 unidades)', units:PRIMARIA},
-  'prep-b2':   {name:'🎯 Preparación General B2',            units:PREPARACION_B2},
-  'prep-b2-de': {name:'🎯 Vorbereitung Allgemein B2',         units:PREPARACION_B2_DE},
+  'prep-b2':   {name:'🎯 Preparación General B2',            units:{es:PREPARACION_B2,de:PREPARACION_B2_DE}, multilingual:true},
   'telc-b2':   {name:'🎓 Preparación TELC B2',               units:TELC_B2},
   'goethe-b2': {name:'🎓 Goethe-Zertifikat B2',              units:GOETHE_B2},
   'telc-b1':   {name:'📝 Preparación TELC B1',               units:TELC_B1},
@@ -879,11 +893,17 @@ const FACTORY={
 };
 
 // ── STATE ─────────────────────────────────────────
-let currentUnits=cloneUnits(PRIMARIA), currentTplKey='salliver', state={}, editMode=false;
+let currentUnits=cloneUnits(PRIMARIA), currentTplKey='salliver', currentLanguage='es', state={}, editMode=false;
 let currentStudentId=null, currentReportId=null;
 
 function cloneUnits(units){
   return JSON.parse(JSON.stringify(units));
+}
+function getFactoryUnits(key){
+  const tpl=FACTORY[key];
+  if(!tpl) return [];
+  if(tpl.multilingual) return tpl.units[currentLanguage]||tpl.units.es;
+  return tpl.units;
 }
 
 function initState(units){
@@ -928,6 +948,7 @@ function buildTemplateSelect(){
     sel.appendChild(ug);
   }
   document.getElementById('btn-del-tpl').style.display=currentTplKey.startsWith('user:')? '':'none';
+  updateLanguageToggle();
 }
 
 function loadTemplate(){
@@ -942,11 +963,28 @@ function loadTemplate(){
     units=cloneUnits(t.units);
   } else {
     if(!FACTORY[key]) return;
-    units=cloneUnits(FACTORY[key].units);
+    if(!FACTORY[key].multilingual) currentLanguage='es';
+    units=cloneUnits(getFactoryUnits(key));
   }
   editMode=false; updateEditorButtons();
   currentUnits=units; initState(units); renderUnits();
   units.forEach(u=>updateProgress(u.id)); buildTemplateSelect();
+}
+
+function updateLanguageToggle(){
+  const wrap=document.getElementById('language-toggle');
+  const select=document.getElementById('template-language');
+  const active=FACTORY[currentTplKey]&&FACTORY[currentTplKey].multilingual;
+  if(!wrap||!select) return;
+  wrap.classList.toggle('open',!!active);
+  select.value=currentLanguage;
+}
+function changeTemplateLanguage(){
+  if(!(FACTORY[currentTplKey]&&FACTORY[currentTplKey].multilingual)) return;
+  currentLanguage=document.getElementById('template-language').value;
+  editMode=false; updateEditorButtons();
+  currentUnits=cloneUnits(getFactoryUnits(currentTplKey));
+  initState(currentUnits); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id)); buildTemplateSelect();
 }
 
 // ── USER TEMPLATES ────────────────────────────────
@@ -1010,6 +1048,8 @@ function getFormData(){
     fecha:document.getElementById('fecha').value,
     motivo:document.getElementById('motivo').value,
     notas:document.getElementById('alumno-notas').value.trim(),
+    templateKey:currentTplKey,
+    templateLanguage:currentLanguage,
     publishObjectives:shouldPublishObjectives()
   };
 }
@@ -1034,7 +1074,10 @@ function getMarkStats(){
 function getTemplateName(){
   const sel=document.getElementById('tsel');
   const label=sel.options[sel.selectedIndex]?sel.options[sel.selectedIndex].textContent:'Plantilla personalizada';
-  return label.replace(/^⭐\s*/,'').trim();
+  const clean=label.replace(/^⭐\s*/,'').trim();
+  return FACTORY[currentTplKey]&&FACTORY[currentTplKey].multilingual
+    ? `${clean} · ${currentLanguage==='de'?'Deutsch':'Español'}`
+    : clean;
 }
 function upsertLocalStudent(form){
   if(!form.alumno){alert('Escribe el nombre del alumno antes de guardar.'); throw new Error('Falta alumno.');}
@@ -1146,6 +1189,8 @@ async function loadCloudReport(reportId){
     currentReportId=report.id;
     currentStudentId=report.student_id;
     const form=report.form_data||{};
+    currentTplKey=form.templateKey&&FACTORY[form.templateKey]?form.templateKey:currentTplKey;
+    currentLanguage=form.templateLanguage||currentLanguage;
     document.getElementById('alumno').value=student.full_name||form.alumno||'';
     document.getElementById('alumno-email').value=student.email||form.email||'';
     document.getElementById('alumno-notas').value=student.notes||form.notas||'';
@@ -1170,6 +1215,7 @@ async function loadCloudReport(reportId){
     report.updated_at=now;
     setLocalReports(reports.map(r=>r.id===report.id?report:r));
     editMode=false; updateEditorButtons(); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
+    buildTemplateSelect();
     closeCloudModal();
     setCloudState(`Abierto local v${report.version||1}`);
   }catch(err){
@@ -1326,9 +1372,9 @@ function renderUnit(unit,container,meta=parseUnitTitle(unit.title)){
         <button onclick="fillUnit(${unit.id},null)">⬜ Limpiar</button>
       </div>
       ${editor}
-      <div class="slabel">CONTENIDOS <span class="slabel-badge visto">Visto · No visto</span></div>
+      <div class="slabel">CONTENIDOS <span class="slabel-badge visto">Visto · No visto</span>${editMode?`<button class="slabel-add" onclick="addItem(${unit.id},'c')">Añadir campo</button>`:''}</div>
       <div id="cont-${unit.id}"></div>
-      <div class="slabel" style="margin-top:16px">OBJETIVOS <span class="slabel-badge logrado">Logrado · No logrado</span></div>
+      <div class="slabel" style="margin-top:16px">OBJETIVOS <span class="slabel-badge logrado">Logrado · No logrado</span>${editMode?`<button class="slabel-add" onclick="addItem(${unit.id},'o')">Añadir campo</button>`:''}</div>
       <div id="obj-${unit.id}"></div>
     </div>`;
   container.appendChild(card);
