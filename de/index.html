@@ -27,8 +27,7 @@
   <meta name="samuel-contact-endpoint" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
@@ -104,77 +103,175 @@
     </div>
   </nav>
   <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <div class="hero-text">
-          <span class="hero-kicker">Willkommen bei Samuel Coach de Alemán</span>
+    <section class="home-hero">
+      <div class="home-shell home-hero-grid">
+        <div class="home-hero-copy">
           <h1>Online-Deutschunterricht mit Klarheit, Struktur und echtem Fortschritt</h1>
-          <p>Ich unterstütze Erwachsene, Familien und Fachkräfte dabei, Deutsch mit einem klaren Plan zu lernen: für Alltag, Prüfungen, Beruf oder den Schritt nach Deutschland.</p>
-          <div class="hero-btns">
-            <a href="/de/servicios/" class="btn btn-white">Angebote ansehen</a>
-            <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-            <a href="#contacto-formulario" class="btn btn-white">Mehr Informationen</a>
+          <p class="home-hero-lead">Ich unterstütze Erwachsene, Familien und Fachkräfte dabei, Deutsch mit einem klaren Plan zu lernen: für Alltag, Prüfungen, Beruf oder den Schritt nach Deutschland.</p>
+          <div class="home-hero-actions">
+            <a href="#contacto-formulario" class="btn btn-dark">Erstgespräch anfragen</a>
+            <a href="#opciones-aprendizaje" class="btn btn-white">Lernoptionen ansehen</a>
           </div>
         </div>
-        <div class="hero-photo">
-          <div class="photo-wrap">
-            <img src="/assets/img/hero-photo-full.webp" alt="Samuel Coach de Alemán" width="720" height="720" loading="eager" fetchpriority="high">
-          </div>
+
+        <figure class="home-hero-media" aria-hidden="true">
+          <img class="home-hero-photo" src="/assets/img/hero-photo.webp" alt="Samuel Coach de Alemán" width="1228" height="1512" loading="eager" decoding="async" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <section class="home-brand" aria-labelledby="marca-title">
+      <div class="home-shell">
+        <div class="home-section-head reveal">
+          <span class="home-brand-badge">Erfolg mit klarer Struktur</span>
+          <h2 id="marca-title">Deutsch lernen mit meinen 3 Schlüsseln</h2>
+          <p>Egal, welches Ziel du hast: Wir bauen einen Weg, der zu deinem Niveau und Alltag passt.</p>
+        </div>
+        <div class="home-brand-grid reveal">
+          <article class="home-brand-card">
+            <strong>Konversation</strong>
+            <span>Mehr Flüssigkeit, mehr Sicherheit und weniger Blockaden beim Sprechen.</span>
+          </article>
+          <article class="home-brand-card">
+            <strong>Goethe und TELC</strong>
+            <span>Gezielte Prüfungsvorbereitung mit Strategie, Format und realer Praxis.</span>
+          </article>
+          <article class="home-brand-card">
+            <strong>Arbeiten in Deutschland</strong>
+            <span>Deutsch für Interviews, Alltag und den beruflichen Einstieg.</span>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="page-section">
-      <div class="container content-narrow">
-        <h2>Womit ich dich unterstütze</h2>
-        <p>Mein Unterricht ist darauf ausgelegt, dass du verstehst, woran du arbeitest, warum du daran arbeitest und wie du wirklich vorankommst. Kein Füllmaterial, sondern ein klarer Weg.</p>
+    <section class="home-needs" id="opciones-aprendizaje" aria-labelledby="opciones-aprendizaje-title">
+      <div class="home-shell">
+        <div class="home-section-head reveal">
+          <h2 id="opciones-aprendizaje-title">Wofür brauchst du Deutsch?</h2>
+          <p>Wähle deine Situation und geh direkt zum passenden Unterrichtsformat.</p>
+        </div>
+        <div class="home-needs-grid reveal">
+          <a class="home-need-card" href="/de/servicios/#escolar">
+            <strong>Schule</strong>
+            <span>Klare Unterstützung für Kinder und Jugendliche.</span>
+          </a>
+          <a class="home-need-card" href="/de/servicios/#examenes">
+            <strong>Universität</strong>
+            <span>Struktur für Kurse, Prüfungen und mehr Sicherheit.</span>
+          </a>
+          <a class="home-need-card" href="/de/servicios/#laboral">
+            <strong>Arbeit</strong>
+            <span>Deutsch für Interviews und berufliche Kommunikation.</span>
+          </a>
+          <a class="home-need-card" href="/de/servicios/#laboral">
+            <strong>Leben in Deutschland</strong>
+            <span>Praktische Sprache für Alltag und Integration.</span>
+          </a>
+          <a class="home-need-card" href="/de/servicios/#examenes">
+            <strong>Goethe / TELC</strong>
+            <span>Prüfungsvorbereitung mit Format und Strategie.</span>
+          </a>
+          <a class="home-need-card" href="/de/servicios/#personalizado">
+            <strong>Individueller Plan</strong>
+            <span>Ein Lernweg passend zu Niveau, Ziel und Tempo.</span>
+          </a>
+        </div>
       </div>
     </section>
 
-    <section class="page-section alt">
-      <div class="container page-grid-2">
-        <div class="page-card">
-          <h3>Konversation</h3>
-          <p>Mehr Flüssigkeit, mehr Sicherheit und weniger Blockaden beim Sprechen.</p>
+    <section class="home-proof" aria-labelledby="resultados-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="resultados-title">Ergebnisse und Erfahrung</h2>
+          <p>Vertrauen, Nähe und Unterricht für echte Ziele.</p>
         </div>
-        <div class="page-card">
-          <h3>Goethe und TELC</h3>
-          <p>Gezielte Prüfungsvorbereitung mit Strategie, Format und realer Praxis.</p>
-        </div>
-        <div class="page-card">
-          <h3>Arbeiten in Deutschland</h3>
-          <p>Deutsch für Interviews, Alltag und den beruflichen Einstieg.</p>
-        </div>
-        <div class="page-card">
-          <h3>Schuldeutsch</h3>
-          <p>Klare Unterstützung für Kinder und Jugendliche mit Deutsch im Schulalltag.</p>
+        <div class="home-proof-grid">
+          <article class="home-proof-card"><strong>171 reseñas 5★</strong><span>Google + Superprof.</span></article>
+          <article class="home-proof-card"><strong>C2+ Goethe</strong><span>Máximo nivel acreditado.</span></article>
+          <article class="home-proof-card"><strong>6 años en Alemania</strong><span>Experiencia real de vida y trabajo.</span></article>
+          <article class="home-proof-card"><strong>1 a 1</strong><span>Seguimiento individual y plan adaptado.</span></article>
+          <article class="home-proof-card"><strong>Goethe y TELC</strong><span>Formato, estrategia y práctica.</span></article>
+          <article class="home-proof-card"><strong>Niños, adolescentes y adultos</strong><span>Formación para distintas etapas.</span></article>
         </div>
       </div>
     </section>
 
-    <section class="page-section">
-      <div class="container content-narrow">
-        <h2>Deutsch lernen ohne planloses Herumprobieren</h2>
-        <p>Mein Unterricht ist darauf ausgelegt, dass du verstehst, woran du arbeitest, warum du daran arbeitest und wie du wirklich vorankommst. Kein Füllmaterial, sondern ein klarer Weg.</p>
+    <section class="home-reviews" aria-labelledby="reviews-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="reviews-title">Was Schüler sagen</h2>
+          <p>Verifizierte Bewertungen bei Google und Superprof.</p>
+        </div>
+        <div class="home-reviews-bar">
+          <a class="home-reviews-stat" href="https://maps.app.goo.gl/QUfAcEKRy9hLtfxLA" target="_blank" rel="noopener noreferrer">
+            <div class="home-reviews-stat-logo"><img src="/assets/img/brands/google.svg" alt="Google" loading="lazy" width="20" height="20"></div>
+            <div class="home-reviews-stat-info"><strong>Google</strong><div class="reviews-stars">★★★★★ 5.0</div><span>124 Bewertungen</span></div>
+          </a>
+          <div class="home-reviews-divider"><strong>171</strong><span>Bewertungen insgesamt</span></div>
+          <a class="home-reviews-stat" href="https://www.superprof.es/samuel-coach-aleman-aprender-aleman-puede-ser-facil-dejalo-mis-manos.html" target="_blank" rel="noopener noreferrer">
+            <div class="home-reviews-stat-logo"><img src="/assets/img/brands/superprof.svg" alt="Superprof" loading="lazy" width="20" height="20"></div>
+            <div class="home-reviews-stat-info"><strong>Superprof</strong><div class="reviews-stars">★★★★★ 5.0</div><span>47 Bewertungen</span></div>
+          </a>
+        </div>
+        <div class="home-reviews-grid">
+          <article class="home-review-card"><div class="home-review-stars">★★★★★</div><p>Samuel erklärt klar, geduldig und sehr strukturiert. Ich merke endlich, woran ich arbeiten muss.</p></article>
+          <article class="home-review-card"><div class="home-review-stars">★★★★★</div><p>Die Stunden sind persönlich, praktisch und genau auf mein Ziel ausgerichtet. Sehr empfehlenswert.</p></article>
+          <article class="home-review-card"><div class="home-review-stars">★★★★★</div><p>Ich habe mich mit Goethe/TELC deutlich sicherer gefühlt, weil wir Strategie und echte Aufgaben trainiert haben.</p></article>
+        </div>
       </div>
     </section>
 
-    <section class="page-section alt" id="faq">
-      <div class="container content-narrow">
-        <h2>Häufige Fragen</h2>
+    <section class="home-resources" aria-labelledby="recursos-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="recursos-title">Kostenlose Ressourcen</h2>
+          <p>Schnelle Einstiege zum Üben zwischen den Stunden.</p>
+        </div>
+        <div class="home-resource-mosaic">
+          <a class="home-resource-card is-featured" href="/de/f/">
+            <span class="home-resource-label">Blog</span>
+            <strong>Klare Artikel, um Deutsch mit mehr System zu lernen.</strong>
+            <p>Grammatik, echte Verwendung und typische Blockaden.</p>
+          </a>
+          <a class="home-resource-card" href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">
+            <span class="home-resource-label">Wortschatz</span>
+            <strong>Trainiere nützliche Wörter aktiv.</strong>
+          </a>
+          <a class="home-resource-card" href="/de/leseverstehen/">
+            <span class="home-resource-label">Lesen</span>
+            <strong>Übe Leseverstehen mit Texten nach Niveau.</strong>
+          </a>
+          <a class="home-resource-card" href="/de/recursos/sprachbausteine/">
+            <span class="home-resource-label">Übungen</span>
+            <strong>Interaktive Lücken für Struktur und Wortschatz.</strong>
+          </a>
+          <a class="home-resource-card" href="/de/recursos/">
+            <span class="home-resource-label">Sammlung</span>
+            <strong>Öffne die Ressourcen und Lernmaterialien.</strong>
+          </a>
+        </div>
       </div>
-      <div class="container page-grid-2">
-        <div class="page-card">
+    </section>
+
+    <section class="home-faq" id="faq" aria-labelledby="faq-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="faq-title">Häufige Fragen</h2>
+          <p>Die häufigsten Fragen vor einer Bewertung oder dem Unterricht.</p>
+        </div>
+        <div class="home-reviews-grid">
+          <article class="home-review-card">
           <h3>Ist der Unterricht nur für Erwachsene?</h3>
           <p>Nein. Ich arbeite auch mit Jugendlichen und Familien, wenn das Ziel und die Betreuung dazu passen.</p>
-        </div>
-        <div class="page-card">
+          </article>
+          <article class="home-review-card">
           <h3>Bereitest du auf Goethe und TELC vor?</h3>
           <p>Ja. Ich arbeite gezielt an Format, Strategie, Schwächen und den einzelnen Prüfungsteilen.</p>
-        </div>
-        <div class="page-card">
+          </article>
+          <article class="home-review-card">
           <h3>Findet alles online statt?</h3>
           <p>Der Unterricht kann online stattfinden und ist so aufgebaut, dass du auch außerhalb der Stunde klar weiterarbeiten kannst.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -300,24 +397,6 @@
       </div>
     </section>
   </main>
-
-  <section class="newsletter-section">
-    <h2>Tipps &amp; Ressourcen gratis jede Woche</h2>
-    <p>Melde dich für Samuels Newsletter an: praktisches Deutsch, Lernressourcen und Tipps direkt in dein Postfach.</p>
-    <form
-      class="newsletter-form"
-      data-locale="de"
-      data-success-msg="Fertig! Schau in dein Postfach, um die Anmeldung zu bestätigen."
-      data-already-msg="Du bist bereits angemeldet. Danke!"
-      data-error-msg="Etwas ist schiefgelaufen. Bitte versuche es erneut."
-    >
-      <input type="email" name="newsletter-email" placeholder="deine@email.de" autocomplete="email" required aria-label="Deine E-Mail">
-      <button type="submit">Anmelden</button>
-    </form>
-    <p class="newsletter-msg" hidden></p>
-    <p style="margin-top:14px;font-size:.8rem;color:var(--muted);">Kein Spam. Jederzeit abmeldbar.</p>
-  </section>
-
   <footer>
     <div class="footer-inner">
       <div class="footer-top">
@@ -336,7 +415,6 @@
   </footer>
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
-  <script src="/assets/js/newsletter.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
   <script type="module" src="/assets/js/auth.js"></script>
 </body>

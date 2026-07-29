@@ -1216,70 +1216,237 @@ function renderHome(locale) {
   const text = copy[locale].home;
   const ctas = shared[locale].ctas;
   const prefix = localePrefix(locale);
-  const cards = text.cards
+  const brandCards = text.cards.slice(0, 3)
     .map(
-      ([title, body]) => `        <div class="page-card">
-          <h3>${escapeHtml(title)}</h3>
-          <p>${escapeHtml(body)}</p>
-        </div>`
+      ([title, body]) => `          <article class="home-brand-card">
+            <strong>${escapeHtml(title)}</strong>
+            <span>${escapeHtml(body)}</span>
+          </article>`
     )
     .join("\n");
   const faqs = text.faqs
     .map(
-      ([title, body]) => `        <div class="page-card">
+      ([title, body]) => `          <article class="home-review-card">
           <h3>${escapeHtml(title)}</h3>
           <p>${escapeHtml(body)}</p>
-        </div>`
+          </article>`
     )
     .join("\n");
+  const needs = locale === "de"
+    ? [
+        ["Schule", "Klare Unterstützung für Kinder und Jugendliche.", `${prefix}/servicios/#escolar`],
+        ["Universität", "Struktur für Kurse, Prüfungen und mehr Sicherheit.", `${prefix}/servicios/#examenes`],
+        ["Arbeit", "Deutsch für Interviews und berufliche Kommunikation.", `${prefix}/servicios/#laboral`],
+        ["Leben in Deutschland", "Praktische Sprache für Alltag und Integration.", `${prefix}/servicios/#laboral`],
+        ["Goethe / TELC", "Prüfungsvorbereitung mit Format und Strategie.", `${prefix}/servicios/#examenes`],
+        ["Individueller Plan", "Ein Lernweg passend zu Niveau, Ziel und Tempo.", `${prefix}/servicios/#personalizado`]
+      ]
+    : [
+        ["School", "Clear support for children and teenagers.", `${prefix}/servicios/#escolar`],
+        ["University", "Structure for classes, exams and stronger confidence.", `${prefix}/servicios/#examenes`],
+        ["Work", "German for interviews and professional communication.", `${prefix}/servicios/#laboral`],
+        ["Life in Germany", "Practical language for daily life and integration.", `${prefix}/servicios/#laboral`],
+        ["Goethe / TELC", "Exam preparation with format and strategy.", `${prefix}/servicios/#examenes`],
+        ["Personal plan", "A learning path matched to level, goal and pace.", `${prefix}/servicios/#personalizado`]
+      ];
+  const needCards = needs
+    .map(([title, body, href]) => `          <a class="home-need-card" href="${href}">
+            <strong>${title}</strong>
+            <span>${body}</span>
+          </a>`)
+    .join("\n");
+  const labels = locale === "de"
+    ? {
+        primary: "Erstgespräch anfragen",
+        secondary: "Lernoptionen ansehen",
+        brandBadge: "Erfolg mit klarer Struktur",
+        brandTitle: "Deutsch lernen mit meinen 3 Schlüsseln",
+        brandText: "Egal, welches Ziel du hast: Wir bauen einen Weg, der zu deinem Niveau und Alltag passt.",
+        needsTitle: "Wofür brauchst du Deutsch?",
+        needsText: "Wähle deine Situation und geh direkt zum passenden Unterrichtsformat.",
+        proofTitle: "Ergebnisse und Erfahrung",
+        proofText: "Vertrauen, Nähe und Unterricht für echte Ziele.",
+        reviewsTitle: "Was Schüler sagen",
+        reviewsText: "Verifizierte Bewertungen bei Google und Superprof.",
+        resourcesTitle: "Kostenlose Ressourcen",
+        resourcesText: "Schnelle Einstiege zum Üben zwischen den Stunden.",
+        faqText: "Die häufigsten Fragen vor einer Bewertung oder dem Unterricht.",
+        blogStrong: "Klare Artikel, um Deutsch mit mehr System zu lernen.",
+        blogText: "Grammatik, echte Verwendung und typische Blockaden.",
+        vocab: "Wortschatz",
+        vocabText: "Trainiere nützliche Wörter aktiv.",
+        reading: "Lesen",
+        readingText: "Übe Leseverstehen mit Texten nach Niveau.",
+        exercises: "Übungen",
+        exercisesText: "Interaktive Lücken für Struktur und Wortschatz.",
+        downloads: "Sammlung",
+        downloadsText: "Öffne die Ressourcen und Lernmaterialien.",
+        googleReviews: "124 Bewertungen",
+        superprofReviews: "47 Bewertungen",
+        totalReviews: "Bewertungen insgesamt",
+        review1: "Samuel erklärt klar, geduldig und sehr strukturiert. Ich merke endlich, woran ich arbeiten muss.",
+        review2: "Die Stunden sind persönlich, praktisch und genau auf mein Ziel ausgerichtet. Sehr empfehlenswert.",
+        review3: "Ich habe mich mit Goethe/TELC deutlich sicherer gefühlt, weil wir Strategie und echte Aufgaben trainiert haben."
+      }
+    : {
+        primary: "Request a personal assessment",
+        secondary: "View learning options",
+        brandBadge: "Progress with clear structure",
+        brandTitle: "Learn German through my 3 keys",
+        brandText: "Whatever your goal is, we build a path that fits your level and daily life.",
+        needsTitle: "Why do you need German?",
+        needsText: "Choose your situation and go straight to the most relevant lesson format.",
+        proofTitle: "Results and experience",
+        proofText: "Trust, clarity and teaching built around real goals.",
+        reviewsTitle: "What students say",
+        reviewsText: "Verified reviews on Google and Superprof.",
+        resourcesTitle: "Free resources",
+        resourcesText: "Quick ways to practise between lessons.",
+        faqText: "Common questions before booking an assessment or starting lessons.",
+        blogStrong: "Clear articles to learn German with more structure.",
+        blogText: "Grammar, real usage and the doubts that block many learners.",
+        vocab: "Vocabulary",
+        vocabText: "Train useful vocabulary actively.",
+        reading: "Reading",
+        readingText: "Practise comprehension with level-based texts.",
+        exercises: "Exercises",
+        exercisesText: "Interactive gap fills for structure and vocabulary.",
+        downloads: "Collection",
+        downloadsText: "Explore the resource library and study materials.",
+        googleReviews: "124 reviews",
+        superprofReviews: "47 reviews",
+        totalReviews: "total reviews",
+        review1: "Samuel explains clearly, patiently and with structure. I finally know what to work on.",
+        review2: "The lessons are personal, practical and focused on my exact goal. Highly recommended.",
+        review3: "I felt much more confident with Goethe/TELC because we trained strategy and real tasks."
+      };
 
   return `  <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <div class="hero-text">
-          <span class="hero-kicker">${text.kicker}</span>
+    <section class="home-hero">
+      <div class="home-shell home-hero-grid">
+        <div class="home-hero-copy">
           <h1>${text.heroTitle}</h1>
-          <p>${text.heroLead}</p>
-          <div class="hero-btns">
-            <a href="/${locale}/servicios/" class="btn btn-white">${ctas.viewServices}</a>
-            <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">${ctas.whatsapp}</a>
-            <a href="#contacto-formulario" class="btn btn-white">${shared[locale].contactForm.jumpToForm}</a>
+          <p class="home-hero-lead">${text.heroLead}</p>
+          <div class="home-hero-actions">
+            <a href="#contacto-formulario" class="btn btn-dark">${labels.primary}</a>
+            <a href="#opciones-aprendizaje" class="btn btn-white">${labels.secondary}</a>
           </div>
         </div>
-        <div class="hero-photo">
-          <div class="photo-wrap">
-            <img src="/assets/img/hero-photo-full.webp" alt="Samuel Coach de Alemán" width="720" height="720" loading="eager" fetchpriority="high">
-          </div>
+
+        <figure class="home-hero-media" aria-hidden="true">
+          <img class="home-hero-photo" src="/assets/img/hero-photo.webp" alt="Samuel Coach de Alemán" width="1228" height="1512" loading="eager" decoding="async" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <section class="home-brand" aria-labelledby="marca-title">
+      <div class="home-shell">
+        <div class="home-section-head reveal">
+          <span class="home-brand-badge">${labels.brandBadge}</span>
+          <h2 id="marca-title">${labels.brandTitle}</h2>
+          <p>${labels.brandText}</p>
+        </div>
+        <div class="home-brand-grid reveal">
+${brandCards}
         </div>
       </div>
     </section>
 
-    <section class="page-section">
-      <div class="container content-narrow">
-        <h2>${text.cardsTitle}</h2>
-        <p>${text.methodText}</p>
+    <section class="home-needs" id="opciones-aprendizaje" aria-labelledby="opciones-aprendizaje-title">
+      <div class="home-shell">
+        <div class="home-section-head reveal">
+          <h2 id="opciones-aprendizaje-title">${labels.needsTitle}</h2>
+          <p>${labels.needsText}</p>
+        </div>
+        <div class="home-needs-grid reveal">
+${needCards}
+        </div>
       </div>
     </section>
 
-    <section class="page-section alt">
-      <div class="container page-grid-2">
-${cards}
+    <section class="home-proof" aria-labelledby="resultados-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="resultados-title">${labels.proofTitle}</h2>
+          <p>${labels.proofText}</p>
+        </div>
+        <div class="home-proof-grid">
+          <article class="home-proof-card"><strong>171 reseñas 5★</strong><span>Google + Superprof.</span></article>
+          <article class="home-proof-card"><strong>C2+ Goethe</strong><span>Máximo nivel acreditado.</span></article>
+          <article class="home-proof-card"><strong>6 años en Alemania</strong><span>Experiencia real de vida y trabajo.</span></article>
+          <article class="home-proof-card"><strong>1 a 1</strong><span>Seguimiento individual y plan adaptado.</span></article>
+          <article class="home-proof-card"><strong>Goethe y TELC</strong><span>Formato, estrategia y práctica.</span></article>
+          <article class="home-proof-card"><strong>Niños, adolescentes y adultos</strong><span>Formación para distintas etapas.</span></article>
+        </div>
       </div>
     </section>
 
-    <section class="page-section">
-      <div class="container content-narrow">
-        <h2>${text.methodTitle}</h2>
-        <p>${text.methodText}</p>
+    <section class="home-reviews" aria-labelledby="reviews-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="reviews-title">${labels.reviewsTitle}</h2>
+          <p>${labels.reviewsText}</p>
+        </div>
+        <div class="home-reviews-bar">
+          <a class="home-reviews-stat" href="https://maps.app.goo.gl/QUfAcEKRy9hLtfxLA" target="_blank" rel="noopener noreferrer">
+            <div class="home-reviews-stat-logo"><img src="/assets/img/brands/google.svg" alt="Google" loading="lazy" width="20" height="20"></div>
+            <div class="home-reviews-stat-info"><strong>Google</strong><div class="reviews-stars">★★★★★ 5.0</div><span>${labels.googleReviews}</span></div>
+          </a>
+          <div class="home-reviews-divider"><strong>171</strong><span>${labels.totalReviews}</span></div>
+          <a class="home-reviews-stat" href="https://www.superprof.es/samuel-coach-aleman-aprender-aleman-puede-ser-facil-dejalo-mis-manos.html" target="_blank" rel="noopener noreferrer">
+            <div class="home-reviews-stat-logo"><img src="/assets/img/brands/superprof.svg" alt="Superprof" loading="lazy" width="20" height="20"></div>
+            <div class="home-reviews-stat-info"><strong>Superprof</strong><div class="reviews-stars">★★★★★ 5.0</div><span>${labels.superprofReviews}</span></div>
+          </a>
+        </div>
+        <div class="home-reviews-grid">
+          <article class="home-review-card"><div class="home-review-stars">★★★★★</div><p>${labels.review1}</p></article>
+          <article class="home-review-card"><div class="home-review-stars">★★★★★</div><p>${labels.review2}</p></article>
+          <article class="home-review-card"><div class="home-review-stars">★★★★★</div><p>${labels.review3}</p></article>
+        </div>
       </div>
     </section>
 
-    <section class="page-section alt" id="faq">
-      <div class="container content-narrow">
-        <h2>${text.faqTitle}</h2>
+    <section class="home-resources" aria-labelledby="recursos-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="recursos-title">${labels.resourcesTitle}</h2>
+          <p>${labels.resourcesText}</p>
+        </div>
+        <div class="home-resource-mosaic">
+          <a class="home-resource-card is-featured" href="${prefix}/f/">
+            <span class="home-resource-label">Blog</span>
+            <strong>${labels.blogStrong}</strong>
+            <p>${labels.blogText}</p>
+          </a>
+          <a class="home-resource-card" href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">
+            <span class="home-resource-label">${labels.vocab}</span>
+            <strong>${labels.vocabText}</strong>
+          </a>
+          <a class="home-resource-card" href="${prefix}/leseverstehen/">
+            <span class="home-resource-label">${labels.reading}</span>
+            <strong>${labels.readingText}</strong>
+          </a>
+          <a class="home-resource-card" href="${prefix}/recursos/sprachbausteine/">
+            <span class="home-resource-label">${labels.exercises}</span>
+            <strong>${labels.exercisesText}</strong>
+          </a>
+          <a class="home-resource-card" href="${prefix}/recursos/">
+            <span class="home-resource-label">${labels.downloads}</span>
+            <strong>${labels.downloadsText}</strong>
+          </a>
+        </div>
       </div>
-      <div class="container page-grid-2">
+    </section>
+
+    <section class="home-faq" id="faq" aria-labelledby="faq-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="faq-title">${text.faqTitle}</h2>
+          <p>${labels.faqText}</p>
+        </div>
+        <div class="home-reviews-grid">
 ${faqs}
+        </div>
       </div>
     </section>
 
