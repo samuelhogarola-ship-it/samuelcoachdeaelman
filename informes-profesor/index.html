@@ -43,6 +43,7 @@
     .tbtn:hover{background:rgba(255,255,255,.22)}
     .tbtn.danger{background:rgba(220,38,38,.25);border-color:rgba(220,38,38,.4)}
     .tbtn.danger:hover{background:rgba(220,38,38,.4)}
+    .cloud-state{font-size:12px;color:rgba(255,255,255,.78);min-height:18px}
 
     /* CONTAINER */
     .container{max-width:960px;margin:0 auto;padding:28px 20px 80px}
@@ -185,6 +186,15 @@
       padding:9px 12px;font-size:14px;outline:none;margin-bottom:14px}
     .smodal input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(37,99,235,.1)}
     .smodal-actions{display:flex;gap:10px;justify-content:flex-end}
+    .wide-modal{max-width:920px}
+    .cloud-list{max-height:62vh;overflow:auto;border-top:1px solid var(--border)}
+    .cloud-row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:14px 18px;border-bottom:1px solid var(--border)}
+    .cloud-row:hover{background:#f8fafc}
+    .cloud-row h4{font-size:14px;margin:0 0 4px}
+    .cloud-row p{font-size:12px;color:var(--muted);margin:0}
+    .cloud-row button{border:1px solid var(--border);background:#fff;border-radius:6px;padding:7px 12px;font-size:12px;cursor:pointer}
+    .event-list{margin-top:8px;padding-left:16px;color:var(--muted);font-size:12px}
+    .event-list li{margin:3px 0}
 
     /* PRINT */
     @media print{
@@ -222,6 +232,10 @@
   <div class="sep"></div>
   <button class="tbtn" onclick="openSaveModal()">💾 Guardar plantilla</button>
   <button class="tbtn danger" id="btn-del-tpl" onclick="deleteUserTemplate()" style="display:none">🗑️ Eliminar</button>
+  <div class="sep"></div>
+  <button class="tbtn" onclick="saveCloudReport()">💾 Guardar borrador</button>
+  <button class="tbtn" onclick="openCloudModal()">📚 Informes guardados</button>
+  <span class="cloud-state" id="cloud-state">Local</span>
 </div>
 
 <div class="container">
@@ -235,6 +249,10 @@
         <div class="fl">
           <label>Nombre del alumno/a</label>
           <input id="alumno" type="text" placeholder="Ej.: Salliver García Martínez">
+        </div>
+        <div class="fl">
+          <label>Email del alumno/a</label>
+          <input id="alumno-email" type="email" placeholder="alumno@email.com">
         </div>
         <div class="fl">
           <label>Curso escolar</label>
@@ -285,6 +303,10 @@
         <div class="fl">
           <label>Profesor/a</label>
           <div class="badge-prof">Samuel · Coach de Alemán</div>
+        </div>
+        <div class="fl fg-full">
+          <label>Notas internas del alumno/a</label>
+          <input id="alumno-notas" type="text" placeholder="Objetivo, ritmo, contexto familiar o cualquier apunte útil">
         </div>
       </div>
     </div>
@@ -346,6 +368,19 @@
     <div class="smodal-actions">
       <button class="btn-sec" onclick="document.getElementById('soverlay').classList.remove('open')">Cancelar</button>
       <button class="btn-primary" onclick="saveTemplate()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="cloudoverlay">
+  <div class="modal wide-modal">
+    <div class="modal-toolbar">
+      <span>Mini classroom · informes locales</span>
+      <button onclick="refreshCloudReports()">Actualizar</button>
+      <button onclick="closeCloudModal()">Cerrar</button>
+    </div>
+    <div id="cloud-list" class="cloud-list">
+      <p style="padding:18px;color:#6b7280;font-size:13px">Todavía no hay informes guardados.</p>
     </div>
   </div>
 </div>
@@ -506,6 +541,104 @@ const GOETHE_B2=[
      'Argumentar con conectores y marcadores adecuados al registro']}
 ];
 
+const PREPARACION_B2=[
+  {id:1,title:'PARTE 1 — BASE GRAMATICAL B2 · TIEMPOS VERBALES',
+   contenidos:['Perfekt: formación del Partizip II, verbos separables/no separables y elección haben/sein',
+     'Präteritum: verbos regulares, irregulares y mixtos en textos escritos',
+     'Plusquamperfekt: anterioridad en el pasado con nachdem, als y relatos',
+     'Futur I: intención, promesa, prognosis y su uso como sospecha en presente',
+     'Passiv: Präsens, Präteritum, Perfekt, Passiv con Modalverben y Zustandspassiv',
+     'Konjunktiv II: deseos, hipótesis, consejos, cortesía, pasado irreal y comparaciones irreales',
+     'Konjunktiv I: estilo indirecto en presente y pasado'],
+   objetivos:['Reconocer y producir los tiempos verbales propios de B2 en contexto',
+     'Transformar frases activas en pasivas y distinguir Vorgangspassiv/Zustandspassiv',
+     'Usar Konjunktiv II con seguridad en hipótesis, consejos y fórmulas de cortesía',
+     'Identificar el valor comunicativo del Futur I más allá del futuro cronológico',
+     'Corregir errores frecuentes de auxiliar, posición verbal y Partizip II']},
+  {id:2,title:'PARTE 1 — BASE GRAMATICAL B2 · DECLINACIONES Y PRONOMBRES',
+   contenidos:['Kasus: Nominativ, Akkusativ, Dativ y Genitiv en sintagmas nominales complejos',
+     'Deklination von Nomen: n-Deklination, Genitiv y sustantivos nominalizados',
+     'Adjektivdeklination: con artículo definido, indefinido, posesivos, negación y Nullartikel',
+     'Partizip I y Partizip II como adjetivo: usos descriptivos y construcciones compactas',
+     'Pronombres personales, reflexivos, posesivos, demostrativos, indefinidos e interrogativos',
+     'Orden de pronombres: combinación de Dativ/Akkusativ, objetos conocidos y nuevos',
+     'Pronombres con preposición: damit, darauf, woran, wofür y formas con personas'],
+   objetivos:['Declinar con consistencia grupos nominales de nivel B2',
+     'Distinguir funciones de pronombres y elegir el caso correcto',
+     'Evitar errores de orden cuando aparecen dos objetos o pronombres',
+     'Usar nominalizaciones y participios adjetivales para elevar el registro',
+     'Relacionar artículos, adjetivos y pronombres con género, número y caso']},
+  {id:3,title:'PARTE 1 — BASE GRAMATICAL B2 · ORACIONES SUBORDINADAS',
+   contenidos:['Hauptsatz y Nebensatz: verbo conjugado, Satzklammer y posición del Nebensatz',
+     'Preguntas indirectas: ob, pronombres interrogativos, preposición + pregunta y orden verbal final',
+     'Relativsätze: der/die/das, welchen, dessen/deren, denen y preposición + relativo',
+     'Kausalsätze: weil, da, zumal y alternativas con denn, deshalb, darum, wegen + Genitiv',
+     'Finalsätze: damit, um ... zu y alternativas con dazu, hierzu, zu + Dativ',
+     'Infinitivkonstruktionen: zu + Infinitiv, um ... zu, ohne ... zu, anstatt ... zu',
+     'Temporalsätze: als, wenn, während, bevor, nachdem, seitdem, sobald, solange, bis',
+     'Gleichzeitigkeit, Vorzeitigkeit y Nachzeitigkeit en subordinadas temporales',
+     'Konzessivsätze: obwohl, auch wenn, selbst wenn y alternativas con trotzdem, dennoch, trotz + Genitiv',
+     'Konditionalsätze y Konsekutivsätze: wenn, falls, sofern, sodass, so ... dass'],
+   objetivos:['Clasificar subordinadas por función comunicativa, no solo por conector',
+     'Construir preguntas indirectas y relativos con verbo al final',
+     'Elegir entre Nebensatz, conector adverbial, Konjunktion y preposición cuando sea posible',
+     'Controlar relaciones temporales entre dos acciones',
+     'Usar subordinación variada para escribir y hablar con nivel B2 real']},
+  {id:4,title:'PARTE 1 — BASE GRAMATICAL B2 · CONECTORES Y ADVERBIALES',
+   contenidos:['Conectores adverbiales causales: deshalb, darum, deswegen, daher, nämlich',
+     'Conectores adverbiales concesivos: trotzdem, dennoch, allerdings',
+     'Conectores adverbiales finales y consecutivos: dazu, hierzu, also, folglich',
+     'Konjunktionen en posición cero: und, oder, aber, denn, sondern, doch',
+     'Subjunktionen con verbo final: weil, da, obwohl, wenn, damit, während, nachdem, bevor',
+     'Preposiciones temporales, causales, modales y locales como alternativa compacta',
+     'Orden de adverbiales: temporal, kausal, modal, lokal',
+     'Satzbau: posición I/II, Satzklammer, objetos, negación de palabra y negación de frase'],
+   objetivos:['Convertir una misma relación lógica en varias estructuras correctas',
+     'Mover conectores a posición I sin romper la inversión verbo-sujeto',
+     'Combinar conectores adverbiales, Konjunktionen y preposiciones en redacciones B2',
+     'Ordenar información compleja dentro de la Satzklammer',
+     'Detectar errores de posición verbal en textos propios']},
+  {id:5,title:'PARTE 2 — VOCABULARIO B2 · DER DIE DAS Y VOKABELLAB',
+   contenidos:['Sustantivos B2 con género y plural: aprendizaje activo con der die das',
+     'Familias léxicas: Beruf, Bildung, Gesellschaft, Umwelt, Gesundheit, Medien, Technik, Kultur',
+     'Verbos con prefijos separables y no separables: significado, acento y Partizip II',
+     'Verbos, adjetivos y nombres con preposición: sich bewerben um, abhängig von, Interesse an',
+     'Colocaciones frecuentes y chunks reutilizables de Vokabellab hasta B2 mínimo',
+     'Palabras funcionales de examen: conectores, partículas modales, adverbios de matiz',
+     'Revisión por tarjetas: género, plural, caso exigido, preposición y frase de ejemplo'],
+   objetivos:['Ampliar vocabulario B2 con control de género, plural y régimen',
+     'Integrar der die das como repaso sistemático de sustantivos',
+     'Usar Vokabellab para consolidar vocabulario mínimo B2 por temas',
+     'Pasar de palabras sueltas a combinaciones naturales de examen',
+     'Reutilizar vocabulario nuevo en frases orales y escritas propias']},
+  {id:6,title:'PARTE 3 — REDEMITTEL Y NOMEN-VERB-VERBINDUNGEN',
+   contenidos:['Redemittel para opinión: Meiner Ansicht nach, Ich bin der Auffassung, dass ..., Aus meiner Sicht ...',
+     'Redemittel para argumentar: Einerseits ... andererseits, Ein wichtiger Grund dafür ist ..., Zudem ...',
+     'Redemittel para contraste y concesión: Zwar ..., aber ..., Trotzdem sollte man bedenken, dass ...',
+     'Redemittel para ejemplos y consecuencias: Zum Beispiel, Dies führt dazu, dass ..., Daraus ergibt sich ...',
+     'Redemittel para cierre escrito: Zusammenfassend lässt sich sagen, Abschließend möchte ich betonen ...',
+     'Redemittel oral: iniciar, pedir aclaración, reaccionar, interrumpir con cortesía y llegar a un acuerdo',
+     'Nomen-Verb-Verbindungen: eine Entscheidung treffen, zur Verfügung stehen, in Betracht ziehen',
+     'Nomen-Verb-Verbindungen con preposición y caso: zum Abschluss bringen, zur Sprache kommen, Einfluss nehmen auf'],
+   objetivos:['Preparar recursos lingüísticos para la parte escrita del examen B2',
+     'Automatizar frases útiles para presentación, debate y planificación oral',
+     'Sustituir verbos simples por Nomen-Verb-Verbindungen cuando el registro lo pide',
+     'Conectar argumentos de manera clara, formal y flexible',
+     'Usar Redemittel sin sonar memorizado, adaptándolos al tema del examen']},
+  {id:7,title:'PARTE FINAL — SIMULACIÓN Y TRANSFERENCIA A EXAMEN',
+   contenidos:['Escritura: comentario, email formal, queja, propuesta y texto argumentativo',
+     'Oral: presentación breve, debate, planificación conjunta y reacción a preguntas',
+     'Corrección focalizada: verbo final, caso, conector, preposición, género y registro',
+     'Reformulación B2: unir frases simples, nominalizar, variar conectores y elevar precisión',
+     'Banco personal de errores: registrar fallo, regla, ejemplo correcto y frase propia',
+     'Mini simulacros con Redemittel, vocabulario B2 y gramática obligatoria integrada'],
+   objetivos:['Aplicar gramática, vocabulario y Redemittel en tareas reales de examen',
+     'Reducir errores recurrentes mediante registro y revisión espaciada',
+     'Mejorar coherencia, cohesión y corrección en producción escrita',
+     'Ganar fluidez y seguridad en producción oral B2',
+     'Llegar al examen con estructuras automatizadas y repertorio expresivo suficiente']}
+];
+
 const TELC_B1=[
   {id:1,title:'LESEVERSTEHEN — Comprensión lectora',
    contenidos:['Teil 1 — Globalverstehen: artículo con 5 afirmaciones verdadero/falso',
@@ -610,6 +743,7 @@ const GOETHE_B1=[
 const FACTORY={
   'salliver':   {name:'🧒 Salliver – 1.º ESO',               units:PRIMARIA},
   'primaria':   {name:'📚 Programación Primaria (5 unidades)', units:PRIMARIA},
+  'prep-b2':   {name:'🎯 Preparación General B2',            units:PREPARACION_B2},
   'telc-b2':   {name:'🎓 Preparación TELC B2',               units:TELC_B2},
   'goethe-b2': {name:'🎓 Goethe-Zertifikat B2',              units:GOETHE_B2},
   'telc-b1':   {name:'📝 Preparación TELC B1',               units:TELC_B1},
@@ -618,6 +752,7 @@ const FACTORY={
 
 // ── STATE ─────────────────────────────────────────
 let currentUnits=cloneUnits(PRIMARIA), currentTplKey='salliver', state={}, editMode=false;
+let currentStudentId=null, currentReportId=null;
 
 function cloneUnits(units){
   return JSON.parse(JSON.stringify(units));
@@ -715,6 +850,192 @@ function deleteUserTemplate(){
   renderUnits(); currentUnits.forEach(u=>updateProgress(u.id)); buildTemplateSelect();
 }
 
+// ── LOCAL MINI CLASSROOM ──────────────────────────
+const LOCAL_STUDENTS_KEY='informes_classroom_students_v1';
+const LOCAL_REPORTS_KEY='informes_classroom_reports_v1';
+function setCloudState(text){const el=document.getElementById('cloud-state'); if(el) el.textContent=text;}
+function localId(prefix){return prefix+'_'+Date.now().toString(36)+'_'+Math.random().toString(36).slice(2,7);}
+function readLocalList(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value:[];}catch{return[];}}
+function writeLocalList(key,value){localStorage.setItem(key,JSON.stringify(value));}
+function getLocalStudents(){return readLocalList(LOCAL_STUDENTS_KEY);}
+function setLocalStudents(value){writeLocalList(LOCAL_STUDENTS_KEY,value);}
+function getLocalReports(){return readLocalList(LOCAL_REPORTS_KEY);}
+function setLocalReports(value){writeLocalList(LOCAL_REPORTS_KEY,value);}
+function cleanEmail(v){return String(v||'').trim().toLowerCase();}
+function getFormData(){
+  return{
+    alumno:document.getElementById('alumno').value.trim(),
+    email:cleanEmail(document.getElementById('alumno-email').value),
+    curso:document.getElementById('curso').value.trim(),
+    nivel:document.getElementById('nivel').value,
+    fecha:document.getElementById('fecha').value,
+    motivo:document.getElementById('motivo').value,
+    notas:document.getElementById('alumno-notas').value.trim()
+  };
+}
+function getObservations(){
+  return{
+    general:document.getElementById('obs-gen').value.trim(),
+    positives:document.getElementById('obs-pos').value.trim(),
+    reinforce:document.getElementById('obs-ref').value.trim(),
+    recommendations:document.getElementById('obs-rec').value.trim()
+  };
+}
+function setObservations(obs){
+  document.getElementById('obs-gen').value=obs.general||'';
+  document.getElementById('obs-pos').value=obs.positives||'';
+  document.getElementById('obs-ref').value=obs.reinforce||'';
+  document.getElementById('obs-rec').value=obs.recommendations||'';
+}
+function getMarkStats(){
+  const all=currentUnits.flatMap(u=>[...state[u.id].c,...state[u.id].o]);
+  return{total:all.length,marked:all.filter(v=>v!==null).length,si:all.filter(v=>v==='si').length,no:all.filter(v=>v==='no').length};
+}
+function getTemplateName(){
+  const sel=document.getElementById('tsel');
+  const label=sel.options[sel.selectedIndex]?sel.options[sel.selectedIndex].textContent:'Plantilla personalizada';
+  return label.replace(/^⭐\s*/,'').trim();
+}
+function upsertLocalStudent(form){
+  if(!form.alumno){alert('Escribe el nombre del alumno antes de guardar.'); throw new Error('Falta alumno.');}
+  const now=new Date().toISOString();
+  const students=getLocalStudents();
+  const byCurrent=currentStudentId?students.find(s=>s.id===currentStudentId):null;
+  const byEmail=form.email?students.find(s=>cleanEmail(s.email)===form.email):null;
+  const byName=students.find(s=>s.full_name.toLowerCase()===form.alumno.toLowerCase()&&!form.email);
+  const existing=byCurrent||byEmail||byName;
+  const student={
+    id:existing?existing.id:localId('student'),
+    full_name:form.alumno,
+    email:form.email||'',
+    nivel:form.nivel,
+    curso:form.curso,
+    notes:form.notas||'',
+    created_at:existing?existing.created_at:now,
+    updated_at:now
+  };
+  const next=existing?students.map(s=>s.id===existing.id?student:s):[student,...students];
+  setLocalStudents(next);
+  return student.id;
+}
+async function saveCloudReport(){
+  try{
+    setCloudState('Guardando…');
+    const form=getFormData();
+    const observations=getObservations();
+    const studentId=upsertLocalStudent(form);
+    const reports=getLocalReports();
+    const existing=currentReportId?reports.find(r=>r.id===currentReportId):null;
+    const now=new Date().toISOString();
+    const stats=getMarkStats();
+    const version=existing?(existing.version||1)+1:1;
+    const eventType=existing?'updated':'created';
+    const event={
+      id:localId('event'),
+      event_type:eventType,
+      summary:`Borrador guardado · ${stats.marked}/${stats.total} ítems marcados`,
+      changes:{version,stats,template:getTemplateName()},
+      created_at:now
+    };
+    const report={
+      id:existing?existing.id:localId('report'),
+      student_id:studentId,
+      title:'Informe Individual de Alemán',
+      status:'draft',
+      motivo:form.motivo,
+      nivel:form.nivel,
+      curso:form.curso,
+      report_date:form.fecha||'',
+      form_data:form,
+      template_name:getTemplateName(),
+      units:JSON.parse(JSON.stringify(currentUnits)),
+      marks:JSON.parse(JSON.stringify(state)),
+      observations,
+      version,
+      events:[event,...(existing&&Array.isArray(existing.events)?existing.events:[])].slice(0,20),
+      created_at:existing?existing.created_at:now,
+      updated_at:now
+    };
+    currentStudentId=studentId;
+    currentReportId=report.id;
+    setLocalReports(existing?reports.map(r=>r.id===existing.id?report:r):[report,...reports]);
+    setCloudState(`Guardado local v${version}`);
+  }catch(err){
+    setCloudState('Error local');
+    alert(err.message||'No se pudo guardar el informe en este navegador.');
+  }
+}
+async function openCloudModal(){
+  document.getElementById('cloudoverlay').classList.add('open');
+  await refreshCloudReports();
+}
+function closeCloudModal(){document.getElementById('cloudoverlay').classList.remove('open');}
+async function refreshCloudReports(){
+  renderCloudReports(getLocalReports(),getLocalStudents());
+  setCloudState('Local');
+}
+function renderCloudReports(reports,students){
+  const list=document.getElementById('cloud-list');
+  const studentById=new Map(students.map(s=>[s.id,s]));
+  if(!reports.length){
+    list.innerHTML='<p style="padding:18px;color:#6b7280;font-size:13px">Todavía no hay informes guardados en este navegador.</p>';
+    return;
+  }
+  list.innerHTML=reports.map(r=>{
+    const st=studentById.get(r.student_id)||{};
+    const evs=Array.isArray(r.events)?r.events.slice(0,3):[];
+    const date=new Date(r.updated_at).toLocaleString('es-ES',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+    const evHtml=evs.length?`<ul class="event-list">${evs.map(ev=>`<li>${esc(ev.summary||ev.event_type)}</li>`).join('')}</ul>`:'';
+    return `<div class="cloud-row">
+      <div>
+        <h4>${esc(st.full_name||r.form_data.alumno||'Alumno sin nombre')} · ${esc(r.nivel||'—')} · v${r.version||1}</h4>
+        <p>${esc(r.motivo||'Informe')} · ${esc(st.email||r.form_data.email||'sin email')} · actualizado ${esc(date)}</p>
+        ${evHtml}
+      </div>
+      <button onclick="loadCloudReport('${r.id}')">Abrir</button>
+    </div>`;
+  }).join('');
+}
+async function loadCloudReport(reportId){
+  try{
+    const reports=getLocalReports();
+    const report=reports.find(r=>r.id===reportId);
+    if(!report) throw new Error('No se encontró el informe local.');
+    const students=getLocalStudents();
+    const student=students.find(s=>s.id===report.student_id)||{};
+    currentReportId=report.id;
+    currentStudentId=report.student_id;
+    const form=report.form_data||{};
+    document.getElementById('alumno').value=student.full_name||form.alumno||'';
+    document.getElementById('alumno-email').value=student.email||form.email||'';
+    document.getElementById('alumno-notas').value=student.notes||form.notas||'';
+    document.getElementById('curso').value=report.curso||form.curso||'';
+    document.getElementById('nivel').value=report.nivel||form.nivel||'A1';
+    document.getElementById('fecha').value=report.report_date||form.fecha||new Date().toISOString().slice(0,10);
+    document.getElementById('motivo').value=report.motivo||form.motivo||'Informe de progreso';
+    currentUnits=cloneUnits(report.units||[]);
+    state=report.marks||{};
+    syncStateToUnits();
+    setObservations(report.observations||{});
+    const now=new Date().toISOString();
+    report.events=[{
+      id:localId('event'),
+      event_type:'loaded',
+      summary:'Informe abierto desde mini classroom local',
+      changes:{version:report.version||1},
+      created_at:now
+    },...(Array.isArray(report.events)?report.events:[])].slice(0,20);
+    report.updated_at=now;
+    setLocalReports(reports.map(r=>r.id===report.id?report:r));
+    editMode=false; updateEditorButtons(); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
+    closeCloudModal();
+    setCloudState(`Abierto local v${report.version||1}`);
+  }catch(err){
+    setCloudState('Error al abrir');
+    alert(err.message||'No se pudo abrir el informe local.');
+  }
+}
+
 // ── TEMPLATE EDITOR ───────────────────────────────
 function updateEditorButtons(){
   const editBtn=document.getElementById('btn-edit-fields');
@@ -777,14 +1098,20 @@ function deleteItem(uid,key,idx){
 // ── NEW REPORT ────────────────────────────────────
 function newReport(){
   if(!confirm('¿Nuevo informe? Se borrarán los datos del alumno y las marcas actuales.')) return;
+  currentStudentId=null; currentReportId=null;
   document.getElementById('alumno').value='';
+  document.getElementById('alumno-email').value='';
+  document.getElementById('alumno-notas').value='';
   document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
   ['obs-gen','obs-pos','obs-ref','obs-rec'].forEach(id=>document.getElementById(id).value='');
   initState(currentUnits); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
 }
 function resetAll(){
   if(!confirm('¿Reiniciar todo?')) return;
+  currentStudentId=null; currentReportId=null;
   document.getElementById('alumno').value='';
+  document.getElementById('alumno-email').value='';
+  document.getElementById('alumno-notas').value='';
   document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
   ['obs-gen','obs-pos','obs-ref','obs-rec'].forEach(id=>document.getElementById(id).value='');
   initState(currentUnits); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
@@ -981,6 +1308,7 @@ function obsBlock(title,text){
 function closeReport(){document.getElementById('roverlay').classList.remove('open');}
 document.getElementById('roverlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closeReport();});
 document.getElementById('soverlay').addEventListener('click',e=>{if(e.target===e.currentTarget)e.currentTarget.classList.remove('open');});
+document.getElementById('cloudoverlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closeCloudModal();});
 function copyReport(){
   const text=document.getElementById('report-out').innerText||'';
   navigator.clipboard.writeText(text).then(()=>alert('Informe copiado al portapapeles.')).catch(()=>alert('Usa Ctrl+A para seleccionar el texto manualmente.'));
@@ -997,6 +1325,7 @@ function fmtFecha(v){
 // ── INIT ──────────────────────────────────────────
 document.getElementById('fecha').value=new Date().toISOString().slice(0,10);
 initState(currentUnits); updateEditorButtons(); buildTemplateSelect(); renderUnits(); currentUnits.forEach(u=>updateProgress(u.id));
+setCloudState('Local');
 
 // Check URL for ?nuevo=1
 if(new URLSearchParams(location.search).get('nuevo')==='1') newReport();

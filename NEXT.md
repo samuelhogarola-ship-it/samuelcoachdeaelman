@@ -24,6 +24,7 @@
 - Consolidar calidad de ejercicios antes de abrir nuevos frentes
 - Schreiben como primer recurso con experiencia premium completa (login + corrección)
 - Decidir pasarela de pago y modelo de acceso premium
+- **Mini classroom / informes profesor**: ahora guarda alumnos, borradores e historial en `localStorage` para uso ligero. Posible mejora futura: migrar a Supabase (`hocdlmxzghwymamientc`) si hace falta sincronizar entre dispositivos, compartir con panel admin o conservar más historial.
 
 ## Convenciones activas
 
