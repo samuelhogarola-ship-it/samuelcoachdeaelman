@@ -13,9 +13,12 @@
   const optionsEl = root.querySelector("[data-options]");
   const feedbackEl = root.querySelector("[data-feedback]");
   const levelSelect = root.querySelector("[data-level]");
+  const noTimerCheckbox = root.querySelector("[data-no-timer]");
+  const revealButton = root.querySelector("[data-reveal]");
   const startButton = root.querySelector("[data-start]");
   const resetButton = root.querySelector("[data-reset]");
   const modeButtons = Array.from(root.querySelectorAll("[data-mode]"));
+  const gamesPanel = document.getElementById("games-panel");
 
   const items = [
     { id: "pass", noun: "Pass", article: "der", acc: "einen", word: "der Pass", category: "Reise", initial: "P", roomHint: "Dokument", shape: "rect", tone: "blue" },
@@ -87,6 +90,20 @@
 
   const startCountdown = (seconds, done) => {
     clearTimer();
+    revealButton.hidden = true;
+
+    if (noTimerCheckbox.checked) {
+      state.timer = 0;
+      timerEl.textContent = "∞";
+      revealButton.hidden = false;
+      revealButton.onclick = () => {
+        revealButton.hidden = true;
+        revealButton.onclick = null;
+        done();
+      };
+      return;
+    }
+
     state.timer = seconds;
     updateMeta();
     state.timerId = window.setInterval(() => {
@@ -175,6 +192,16 @@
     });
   };
 
+  const askOnBoard = (question, onAnswer) => {
+    questionPanel.hidden = false;
+    questionEl.textContent = question;
+    feedbackEl.textContent = "";
+    optionsEl.innerHTML = "";
+    board.querySelectorAll(".game-memory-card").forEach((card) => {
+      card.addEventListener("click", () => onAnswer(card.dataset.card, card));
+    });
+  };
+
   const finishAnswer = (isCorrect, explanation, button) => {
     if (state.locked) return;
     state.locked = true;
@@ -184,6 +211,10 @@
     optionsEl.querySelectorAll("button").forEach((option) => {
       option.disabled = true;
       option.classList.toggle("is-picked", option === button);
+    });
+    board.querySelectorAll(".game-memory-card").forEach((card) => {
+      card.disabled = true;
+      card.classList.toggle("is-picked", card === button);
     });
 
     feedbackEl.textContent = `${isCorrect ? "Correcto." : "Casi."} ${explanation}`;
@@ -206,22 +237,30 @@
       article: {
         question: `Entrega un paquete con artículo ${target.article}.`,
         check: (item) => item.article === target.article,
-        explain: `La pista pedía ${target.article}; una respuesta válida era ${target.word}.`
+        explain: (selected, correct) => correct
+          ? `${selected.word} lleva el artículo ${selected.article}, tal y como pedía la pista.`
+          : `Buscábamos artículo ${target.article}; ${selected.word} lleva ${selected.article}.`
       },
       category: {
         question: `Entrega algo de la categoría ${target.category}.`,
         check: (item) => item.category === target.category,
-        explain: `${target.word} pertenece a ${target.category}.`
+        explain: (selected, correct) => correct
+          ? `${selected.word} pertenece a ${selected.category}, la categoría pedida.`
+          : `Buscábamos la categoría ${target.category}; ${selected.word} es de ${selected.category}.`
       },
       initial: {
         question: `Entrega una palabra que empiece por ${target.initial}.`,
         check: (item) => item.initial === target.initial,
-        explain: `${target.word} empieza por ${target.initial}.`
+        explain: (selected, correct) => correct
+          ? `${selected.word} empieza por ${selected.initial}, la letra pedida.`
+          : `Buscábamos una palabra que empezara por ${target.initial}; elegiste ${selected.word}.`
       },
       exact: {
         question: `Entrega exactamente ${target.word}.`,
         check: (item) => item.id === target.id,
-        explain: `El paquete buscado era ${target.word}.`
+        explain: (selected, correct) => correct
+          ? `Acertaste: era ${target.word}.`
+          : `El paquete buscado era ${target.word}, no ${selected.word}.`
       }
     };
 
@@ -233,12 +272,10 @@
     startCountdown(state.level === "a2" ? 7 : 6, () => {
       renderCards(cards, { hidden: true, kind: "package" });
       const currentTask = labels[task];
-      ask(currentTask.question, cards.map((card, index) => ({
-        value: card.id,
-        label: `Paquete ${index + 1}`
-      })), (value, button) => {
-        const selected = cards.find((card) => card.id === value);
-        finishAnswer(currentTask.check(selected), currentTask.explain, button);
+      askOnBoard(currentTask.question, (value, card) => {
+        const selected = cards.find((item) => item.id === value);
+        const correct = currentTask.check(selected);
+        finishAnswer(correct, currentTask.explain(selected, correct), card);
       });
     });
   };
@@ -345,6 +382,8 @@
     board.className = "game-table";
     board.innerHTML = "";
     questionPanel.hidden = true;
+    revealButton.hidden = true;
+    revealButton.onclick = null;
     startButton.textContent = "Preparar ronda";
     setStatus("Marcador reiniciado. Prepara una ronda para empezar.");
     updateMeta();
@@ -358,6 +397,7 @@
         tab.classList.toggle("is-active", active);
         tab.setAttribute("aria-selected", String(active));
       });
+      if (gamesPanel) gamesPanel.setAttribute("aria-labelledby", button.id);
       reset();
       title.textContent = titles[state.mode];
     });

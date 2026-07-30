@@ -27,7 +27,7 @@
   <link rel="icon" type="image/webp" href="../../assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="../../assets/css/styles.css?v=20260730juegos">
+  <link rel="stylesheet" href="../../assets/css/styles.css?v=20260730juegos2">
   <link rel="stylesheet" href="../../assets/css/cookie-banner-core.css">
   <script type="application/ld+json">
   {
@@ -134,9 +134,9 @@
           </header>
 
           <div class="games-mode-tabs" role="tablist" aria-label="Elegir juego">
-            <button class="games-mode-tab is-active" type="button" data-mode="paquete" aria-selected="true">Paquete</button>
-            <button class="games-mode-tab" type="button" data-mode="contrabando" aria-selected="false">Contrabando</button>
-            <button class="games-mode-tab" type="button" data-mode="hotel" aria-selected="false">Hotel</button>
+            <button id="mode-tab-paquete" class="games-mode-tab is-active" type="button" role="tab" data-mode="paquete" aria-selected="true" aria-controls="games-panel">Paquete</button>
+            <button id="mode-tab-contrabando" class="games-mode-tab" type="button" role="tab" data-mode="contrabando" aria-selected="false" aria-controls="games-panel">Contrabando</button>
+            <button id="mode-tab-hotel" class="games-mode-tab" type="button" role="tab" data-mode="hotel" aria-selected="false" aria-controls="games-panel">Hotel</button>
           </div>
 
           <div class="games-controls">
@@ -147,19 +147,27 @@
                 <option value="a2">A2 con frase</option>
               </select>
             </label>
+            <label class="games-no-timer-toggle">
+              <input type="checkbox" data-no-timer>
+              <span>Sin cronómetro (más tiempo para memorizar)</span>
+            </label>
             <button class="btn btn-teal" type="button" data-start>Preparar ronda</button>
             <button class="btn-outline-teal" type="button" data-reset>Reiniciar</button>
           </div>
 
-          <div class="games-status" data-status aria-live="polite">Elige un juego y prepara la primera ronda.</div>
+          <div id="games-panel" role="tabpanel" aria-labelledby="mode-tab-paquete">
+            <div class="games-status" data-status aria-live="polite">Elige un juego y prepara la primera ronda.</div>
 
-          <div class="game-table" data-board aria-label="Zona de juego"></div>
+            <button class="btn-outline-teal game-reveal-button" type="button" data-reveal hidden>Ya memoricé, continuar</button>
 
-          <div class="game-question-panel" data-question-panel hidden>
-            <p class="game-question-label">Decisión</p>
-            <h3 data-question>Memoriza primero la mesa.</h3>
-            <div class="game-options" data-options></div>
-            <p class="game-feedback" data-feedback aria-live="polite"></p>
+            <div class="game-table" data-board aria-label="Zona de juego"></div>
+
+            <div class="game-question-panel" data-question-panel hidden>
+              <p class="game-question-label">Decisión</p>
+              <h3 data-question>Memoriza primero la mesa.</h3>
+              <div class="game-options" data-options></div>
+              <p class="game-feedback" data-feedback aria-live="polite"></p>
+            </div>
           </div>
         </div>
       </div>

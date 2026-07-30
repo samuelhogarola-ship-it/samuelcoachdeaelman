@@ -6843,6 +6843,19 @@ body.is-leaving {
   cursor: pointer;
 }
 .game-memory-card:disabled { cursor: default; opacity: 1; }
+.game-memory-card.is-picked {
+  background: var(--teal-pale);
+  border-color: var(--teal);
+}
+.games-no-timer-toggle {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 8px;
+  min-width: auto !important;
+}
+.games-no-timer-toggle input { width: 18px; height: 18px; }
+.game-reveal-button { margin: 0 24px 18px; }
 .is-memory-hidden .game-memory-card:not(:disabled):hover,
 .game-option:hover {
   border-color: var(--teal);
