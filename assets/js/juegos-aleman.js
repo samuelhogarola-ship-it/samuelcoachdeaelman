@@ -65,7 +65,7 @@
     try {
       const raw = window.localStorage.getItem(STORAGE_PREFIX + mode);
       return raw ? parseInt(raw, 10) || 0 : 0;
-    } catch (error) {
+    } catch (_error) {
       return 0;
     }
   };
@@ -73,7 +73,7 @@
   const writeBestStreak = (mode, value) => {
     try {
       window.localStorage.setItem(STORAGE_PREFIX + mode, String(value));
-    } catch (error) {
+    } catch (_error) {
       /* localStorage puede fallar en modo privado; la racha simplemente no persiste */
     }
   };
