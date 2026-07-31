@@ -27,8 +27,7 @@
   <meta name="samuel-contact-endpoint" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
@@ -104,77 +103,175 @@
     </div>
   </nav>
   <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <div class="hero-text">
-          <span class="hero-kicker">Welcome to Samuel Coach de Aleman</span>
+    <section class="home-hero">
+      <div class="home-shell home-hero-grid">
+        <div class="home-hero-copy">
           <h1>Online German lessons with clarity, structure and real progress</h1>
-          <p>I help adults, families and professionals learn German with a clear plan: for everyday life, exams, work or a move to Germany.</p>
-          <div class="hero-btns">
-            <a href="/en/servicios/" class="btn btn-white">View services</a>
-            <a href="https://wa.me/34644220965" class="btn btn-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-            <a href="#contacto-formulario" class="btn btn-white">More information</a>
+          <p class="home-hero-lead">I help adults, families and professionals learn German with a clear plan: for everyday life, exams, work or a move to Germany.</p>
+          <div class="home-hero-actions">
+            <a href="#contacto-formulario" class="btn btn-dark">Request a personal assessment</a>
+            <a href="#opciones-aprendizaje" class="btn btn-white">View learning options</a>
           </div>
         </div>
-        <div class="hero-photo">
-          <div class="photo-wrap">
-            <img src="/assets/img/hero-photo-full.webp" alt="Samuel Coach de Alemán" width="720" height="720" loading="eager" fetchpriority="high">
-          </div>
+
+        <figure class="home-hero-media" aria-hidden="true">
+          <img class="home-hero-photo" src="/assets/img/hero-photo.webp" alt="Samuel Coach de Alemán" width="1228" height="1512" loading="eager" decoding="async" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <section class="home-brand" aria-labelledby="marca-title">
+      <div class="home-shell">
+        <div class="home-section-head reveal">
+          <span class="home-brand-badge">Progress with clear structure</span>
+          <h2 id="marca-title">Learn German through my 3 keys</h2>
+          <p>Whatever your goal is, we build a path that fits your level and daily life.</p>
+        </div>
+        <div class="home-brand-grid reveal">
+          <article class="home-brand-card">
+            <strong>Conversation</strong>
+            <span>More fluency, more confidence and fewer blocks when speaking.</span>
+          </article>
+          <article class="home-brand-card">
+            <strong>Goethe and TELC</strong>
+            <span>Focused exam preparation with strategy, format and realistic practice.</span>
+          </article>
+          <article class="home-brand-card">
+            <strong>Working in Germany</strong>
+            <span>German for interviews, daily life and professional transition.</span>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="page-section">
-      <div class="container content-narrow">
-        <h2>What I can help you with</h2>
-        <p>My teaching is built so that you understand what you are working on, why you are working on it and how you are actually improving. No filler, just direction.</p>
+    <section class="home-needs" id="opciones-aprendizaje" aria-labelledby="opciones-aprendizaje-title">
+      <div class="home-shell">
+        <div class="home-section-head reveal">
+          <h2 id="opciones-aprendizaje-title">Why do you need German?</h2>
+          <p>Choose your situation and go straight to the most relevant lesson format.</p>
+        </div>
+        <div class="home-needs-grid reveal">
+          <a class="home-need-card" href="/en/servicios/#escolar">
+            <strong>School</strong>
+            <span>Clear support for children and teenagers.</span>
+          </a>
+          <a class="home-need-card" href="/en/servicios/#examenes">
+            <strong>University</strong>
+            <span>Structure for classes, exams and stronger confidence.</span>
+          </a>
+          <a class="home-need-card" href="/en/servicios/#laboral">
+            <strong>Work</strong>
+            <span>German for interviews and professional communication.</span>
+          </a>
+          <a class="home-need-card" href="/en/servicios/#laboral">
+            <strong>Life in Germany</strong>
+            <span>Practical language for daily life and integration.</span>
+          </a>
+          <a class="home-need-card" href="/en/servicios/#examenes">
+            <strong>Goethe / TELC</strong>
+            <span>Exam preparation with format and strategy.</span>
+          </a>
+          <a class="home-need-card" href="/en/servicios/#personalizado">
+            <strong>Personal plan</strong>
+            <span>A learning path matched to level, goal and pace.</span>
+          </a>
+        </div>
       </div>
     </section>
 
-    <section class="page-section alt">
-      <div class="container page-grid-2">
-        <div class="page-card">
-          <h3>Conversation</h3>
-          <p>More fluency, more confidence and fewer blocks when speaking.</p>
+    <section class="home-proof" aria-labelledby="resultados-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="resultados-title">Results and experience</h2>
+          <p>Trust, clarity and teaching built around real goals.</p>
         </div>
-        <div class="page-card">
-          <h3>Goethe and TELC</h3>
-          <p>Focused exam preparation with strategy, format and realistic practice.</p>
-        </div>
-        <div class="page-card">
-          <h3>Working in Germany</h3>
-          <p>German for interviews, daily life and professional transition.</p>
-        </div>
-        <div class="page-card">
-          <h3>School German</h3>
-          <p>Clear support for children and teenagers who need German at school.</p>
+        <div class="home-proof-grid">
+          <article class="home-proof-card"><strong>171 reseñas 5★</strong><span>Google + Superprof.</span></article>
+          <article class="home-proof-card"><strong>C2+ Goethe</strong><span>Máximo nivel acreditado.</span></article>
+          <article class="home-proof-card"><strong>6 años en Alemania</strong><span>Experiencia real de vida y trabajo.</span></article>
+          <article class="home-proof-card"><strong>1 a 1</strong><span>Seguimiento individual y plan adaptado.</span></article>
+          <article class="home-proof-card"><strong>Goethe y TELC</strong><span>Formato, estrategia y práctica.</span></article>
+          <article class="home-proof-card"><strong>Niños, adolescentes y adultos</strong><span>Formación para distintas etapas.</span></article>
         </div>
       </div>
     </section>
 
-    <section class="page-section">
-      <div class="container content-narrow">
-        <h2>Learn German without guessing your way through it</h2>
-        <p>My teaching is built so that you understand what you are working on, why you are working on it and how you are actually improving. No filler, just direction.</p>
+    <section class="home-reviews" aria-labelledby="reviews-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="reviews-title">What students say</h2>
+          <p>Verified reviews on Google and Superprof.</p>
+        </div>
+        <div class="home-reviews-bar">
+          <a class="home-reviews-stat" href="https://maps.app.goo.gl/QUfAcEKRy9hLtfxLA" target="_blank" rel="noopener noreferrer">
+            <div class="home-reviews-stat-logo"><img src="/assets/img/brands/google.svg" alt="Google" loading="lazy" width="20" height="20"></div>
+            <div class="home-reviews-stat-info"><strong>Google</strong><div class="reviews-stars">★★★★★ 5.0</div><span>124 reviews</span></div>
+          </a>
+          <div class="home-reviews-divider"><strong>171</strong><span>total reviews</span></div>
+          <a class="home-reviews-stat" href="https://www.superprof.es/samuel-coach-aleman-aprender-aleman-puede-ser-facil-dejalo-mis-manos.html" target="_blank" rel="noopener noreferrer">
+            <div class="home-reviews-stat-logo"><img src="/assets/img/brands/superprof.svg" alt="Superprof" loading="lazy" width="20" height="20"></div>
+            <div class="home-reviews-stat-info"><strong>Superprof</strong><div class="reviews-stars">★★★★★ 5.0</div><span>47 reviews</span></div>
+          </a>
+        </div>
+        <div class="home-reviews-grid">
+          <article class="home-review-card"><div class="home-review-stars">★★★★★</div><p>Samuel explains clearly, patiently and with structure. I finally know what to work on.</p></article>
+          <article class="home-review-card"><div class="home-review-stars">★★★★★</div><p>The lessons are personal, practical and focused on my exact goal. Highly recommended.</p></article>
+          <article class="home-review-card"><div class="home-review-stars">★★★★★</div><p>I felt much more confident with Goethe/TELC because we trained strategy and real tasks.</p></article>
+        </div>
       </div>
     </section>
 
-    <section class="page-section alt" id="faq">
-      <div class="container content-narrow">
-        <h2>Frequently asked questions</h2>
+    <section class="home-resources" aria-labelledby="recursos-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="recursos-title">Free resources</h2>
+          <p>Quick ways to practise between lessons.</p>
+        </div>
+        <div class="home-resource-mosaic">
+          <a class="home-resource-card is-featured" href="/en/f/">
+            <span class="home-resource-label">Blog</span>
+            <strong>Clear articles to learn German with more structure.</strong>
+            <p>Grammar, real usage and the doubts that block many learners.</p>
+          </a>
+          <a class="home-resource-card" href="https://vokabellab.com" target="_blank" rel="noopener noreferrer">
+            <span class="home-resource-label">Vocabulary</span>
+            <strong>Train useful vocabulary actively.</strong>
+          </a>
+          <a class="home-resource-card" href="/en/leseverstehen/">
+            <span class="home-resource-label">Reading</span>
+            <strong>Practise comprehension with level-based texts.</strong>
+          </a>
+          <a class="home-resource-card" href="/en/recursos/sprachbausteine/">
+            <span class="home-resource-label">Exercises</span>
+            <strong>Interactive gap fills for structure and vocabulary.</strong>
+          </a>
+          <a class="home-resource-card" href="/en/recursos/">
+            <span class="home-resource-label">Collection</span>
+            <strong>Explore the resource library and study materials.</strong>
+          </a>
+        </div>
       </div>
-      <div class="container page-grid-2">
-        <div class="page-card">
+    </section>
+
+    <section class="home-faq" id="faq" aria-labelledby="faq-title">
+      <div class="home-shell">
+        <div class="home-section-head">
+          <h2 id="faq-title">Frequently asked questions</h2>
+          <p>Common questions before booking an assessment or starting lessons.</p>
+        </div>
+        <div class="home-reviews-grid">
+          <article class="home-review-card">
           <h3>Are your lessons only for adults?</h3>
           <p>No. I also work with teenagers and families when the goal and the format are a good fit.</p>
-        </div>
-        <div class="page-card">
+          </article>
+          <article class="home-review-card">
           <h3>Do you prepare students for Goethe and TELC?</h3>
           <p>Yes. I work on format, strategy, weak points and the specific skills each exam requires.</p>
-        </div>
-        <div class="page-card">
+          </article>
+          <article class="home-review-card">
           <h3>Is everything online?</h3>
           <p>Lessons can be online and are designed so you can keep working with clarity between sessions.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -300,24 +397,6 @@
       </div>
     </section>
   </main>
-
-  <section class="newsletter-section">
-    <h2>Free tips &amp; resources every week</h2>
-    <p>Subscribe to Samuel's newsletter: practical German, learning resources and study tips straight to your inbox.</p>
-    <form
-      class="newsletter-form"
-      data-locale="en"
-      data-success-msg="Done! Check your email to confirm your subscription."
-      data-already-msg="You're already subscribed. Thank you!"
-      data-error-msg="Something went wrong. Please try again."
-    >
-      <input type="email" name="newsletter-email" placeholder="your@email.com" autocomplete="email" required aria-label="Your email">
-      <button type="submit">Subscribe</button>
-    </form>
-    <p class="newsletter-msg" hidden></p>
-    <p style="margin-top:14px;font-size:.8rem;color:var(--muted);">No spam. Unsubscribe anytime.</p>
-  </section>
-
   <footer>
     <div class="footer-inner">
       <div class="footer-top">
@@ -336,7 +415,6 @@
   </footer>
   <script defer src="/assets/js/google-analytics-core.js"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
-  <script src="/assets/js/newsletter.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
   <script type="module" src="/assets/js/auth.js"></script>
 </body>
