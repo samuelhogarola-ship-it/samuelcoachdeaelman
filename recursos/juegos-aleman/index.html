@@ -27,7 +27,7 @@
   <link rel="icon" type="image/webp" href="../../assets/img/favicon.webp">
   <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.webp">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="../../assets/css/styles.css?v=20260730juegos2">
+  <link rel="stylesheet" href="../../assets/css/styles.css?v=20260730juegos3">
   <link rel="stylesheet" href="../../assets/css/cookie-banner-core.css">
   <script type="application/ld+json">
   {
@@ -130,8 +130,10 @@
               <div><span data-score>0</span><small>puntos</small></div>
               <div><span data-round>1</span><small>ronda</small></div>
               <div><span data-timer>0</span><small>segundos</small></div>
+              <div class="games-streak-box"><span data-streak>0</span><small data-streak-label>racha</small></div>
             </div>
           </header>
+          <div class="game-timer-bar" data-timer-bar aria-hidden="true"><span></span></div>
 
           <div class="games-mode-tabs" role="tablist" aria-label="Elegir juego">
             <button id="mode-tab-paquete" class="games-mode-tab is-active" type="button" role="tab" data-mode="paquete" aria-selected="true" aria-controls="games-panel">Paquete</button>
@@ -157,16 +159,23 @@
 
           <div id="games-panel" role="tabpanel" aria-labelledby="mode-tab-paquete">
             <div class="games-status" data-status aria-live="polite">Elige un juego y prepara la primera ronda.</div>
+            <p class="games-focus-hint" data-focus-hint aria-live="polite" hidden></p>
 
             <button class="btn-outline-teal game-reveal-button" type="button" data-reveal hidden>Ya memoricé, continuar</button>
 
             <div class="game-table" data-board aria-label="Zona de juego"></div>
 
             <div class="game-question-panel" data-question-panel hidden>
-              <p class="game-question-label">Decisión</p>
+              <div class="game-question-head">
+                <p class="game-question-label">Decisión</p>
+                <span class="game-rule-tag" data-rule-tag hidden></span>
+              </div>
               <h3 data-question>Memoriza primero la mesa.</h3>
               <div class="game-options" data-options></div>
-              <p class="game-feedback" data-feedback aria-live="polite"></p>
+              <p class="game-feedback" data-feedback aria-live="polite">
+                <span class="game-feedback-icon" data-feedback-icon aria-hidden="true"></span>
+                <span data-feedback-text></span>
+              </p>
             </div>
           </div>
         </div>

@@ -7,11 +7,19 @@
   const scoreEl = root.querySelector("[data-score]");
   const roundEl = root.querySelector("[data-round]");
   const timerEl = root.querySelector("[data-timer]");
+  const timerBar = root.querySelector("[data-timer-bar]");
+  const timerBarFill = timerBar ? timerBar.querySelector("span") : null;
+  const streakEl = root.querySelector("[data-streak]");
+  const streakLabelEl = root.querySelector("[data-streak-label]");
   const statusEl = root.querySelector("[data-status]");
+  const focusHintEl = root.querySelector("[data-focus-hint]");
   const questionPanel = root.querySelector("[data-question-panel]");
   const questionEl = root.querySelector("[data-question]");
   const optionsEl = root.querySelector("[data-options]");
   const feedbackEl = root.querySelector("[data-feedback]");
+  const feedbackIconEl = root.querySelector("[data-feedback-icon]");
+  const feedbackTextEl = root.querySelector("[data-feedback-text]");
+  const ruleTagEl = root.querySelector("[data-rule-tag]");
   const levelSelect = root.querySelector("[data-level]");
   const noTimerCheckbox = root.querySelector("[data-no-timer]");
   const revealButton = root.querySelector("[data-reveal]");
@@ -32,7 +40,9 @@
     { id: "heft", noun: "Heft", article: "das", acc: "ein", word: "das Heft", category: "Schule", initial: "H", roomHint: "Notizen", shape: "book", tone: "green" },
     { id: "koffer", noun: "Koffer", article: "der", acc: "einen", word: "der Koffer", category: "Reise", initial: "K", roomHint: "Gepäck", shape: "bag", tone: "purple" },
     { id: "lampe", noun: "Lampe", article: "die", acc: "eine", word: "die Lampe", category: "Haus", initial: "L", roomHint: "Licht", shape: "lamp", tone: "red" },
-    { id: "messer", noun: "Messer", article: "das", acc: "ein", word: "das Messer", category: "Essen", initial: "M", roomHint: "Küche", shape: "rect", tone: "teal" }
+    { id: "messer", noun: "Messer", article: "das", acc: "ein", word: "das Messer", category: "Essen", initial: "M", roomHint: "Küche", shape: "rect", tone: "teal" },
+    { id: "schuh", noun: "Schuh", article: "der", acc: "einen", word: "der Schuh", category: "Alltag", initial: "S", roomHint: "Fuß", shape: "rect", tone: "purple" },
+    { id: "gabel", noun: "Gabel", article: "die", acc: "eine", word: "die Gabel", category: "Essen", initial: "G", roomHint: "Küche", shape: "rect", tone: "gold" }
   ];
 
   const rooms = ["Zimmer 1", "Zimmer 2", "Zimmer 3", "Zimmer 4"];
@@ -49,12 +59,34 @@
     hotel: "Hotel Zimmer Chaos"
   };
 
+  const STORAGE_PREFIX = "ga-games-best-streak-";
+
+  const readBestStreak = (mode) => {
+    try {
+      const raw = window.localStorage.getItem(STORAGE_PREFIX + mode);
+      return raw ? parseInt(raw, 10) || 0 : 0;
+    } catch (error) {
+      return 0;
+    }
+  };
+
+  const writeBestStreak = (mode, value) => {
+    try {
+      window.localStorage.setItem(STORAGE_PREFIX + mode, String(value));
+    } catch (error) {
+      /* localStorage puede fallar en modo privado; la racha simplemente no persiste */
+    }
+  };
+
   const state = {
     mode: "paquete",
     level: "a1",
     round: 1,
     score: 0,
+    streak: 0,
+    bestStreak: readBestStreak("paquete"),
     timer: 0,
+    timerTotal: 0,
     timerId: null,
     locked: false,
     current: null
@@ -76,16 +108,38 @@
     statusEl.textContent = text;
   };
 
+  const showFocusHint = (skill) => {
+    if (!focusHintEl) return;
+    focusHintEl.textContent = `🎯 Esta ronda entrena: ${skill}`;
+    focusHintEl.hidden = false;
+  };
+
+  const hideFocusHint = () => {
+    if (!focusHintEl) return;
+    focusHintEl.hidden = true;
+  };
+
   const updateMeta = () => {
     title.textContent = titles[state.mode];
     scoreEl.textContent = state.score;
     roundEl.textContent = state.round;
     timerEl.textContent = state.timer;
+    if (streakEl) streakEl.textContent = state.streak;
+    if (streakLabelEl) {
+      streakLabelEl.textContent = state.streak >= 3 ? `racha 🔥 (mejor ${state.bestStreak})` : `racha (mejor ${state.bestStreak})`;
+    }
   };
 
   const clearTimer = () => {
     if (state.timerId) window.clearInterval(state.timerId);
     state.timerId = null;
+  };
+
+  const setTimerBar = (ratio, urgent) => {
+    if (!timerBarFill || !timerBar) return;
+    timerBarFill.style.width = `${Math.max(0, Math.min(1, ratio)) * 100}%`;
+    timerBar.classList.toggle("is-urgent", Boolean(urgent));
+    timerBar.classList.toggle("is-infinite", ratio === -1);
   };
 
   const startCountdown = (seconds, done) => {
@@ -95,6 +149,7 @@
     if (noTimerCheckbox.checked) {
       state.timer = 0;
       timerEl.textContent = "∞";
+      setTimerBar(-1, false);
       revealButton.hidden = false;
       revealButton.onclick = () => {
         revealButton.hidden = true;
@@ -105,10 +160,13 @@
     }
 
     state.timer = seconds;
+    state.timerTotal = seconds;
     updateMeta();
+    setTimerBar(1, false);
     state.timerId = window.setInterval(() => {
       state.timer -= 1;
       updateMeta();
+      setTimerBar(state.timer / state.timerTotal, state.timer <= 3);
       if (state.timer <= 0) {
         clearTimer();
         done();
@@ -180,48 +238,95 @@
       .join("");
   };
 
-  const ask = (question, options, onAnswer) => {
+  const showRuleTag = (skill) => {
+    if (!ruleTagEl) return;
+    ruleTagEl.textContent = skill;
+    ruleTagEl.hidden = !skill;
+  };
+
+  const ask = (question, options, onAnswer, skill) => {
     questionPanel.hidden = false;
     questionEl.textContent = question;
-    feedbackEl.textContent = "";
+    feedbackTextEl.textContent = "";
+    feedbackIconEl.textContent = "";
+    showRuleTag(skill);
     optionsEl.innerHTML = options
       .map((option) => `<button class="game-option" type="button" data-value="${option.value}">${option.label}</button>`)
       .join("");
     optionsEl.querySelectorAll("button").forEach((button) => {
       button.addEventListener("click", () => onAnswer(button.dataset.value, button));
     });
+    hideFocusHint();
   };
 
-  const askOnBoard = (question, onAnswer) => {
+  const askOnBoard = (question, onAnswer, skill) => {
     questionPanel.hidden = false;
     questionEl.textContent = question;
-    feedbackEl.textContent = "";
+    feedbackTextEl.textContent = "";
+    feedbackIconEl.textContent = "";
+    showRuleTag(skill);
     optionsEl.innerHTML = "";
     board.querySelectorAll(".game-memory-card").forEach((card) => {
       card.addEventListener("click", () => onAnswer(card.dataset.card, card));
     });
+    hideFocusHint();
+  };
+
+  const popPoints = (button, delta) => {
+    if (!button) return;
+    const pop = document.createElement("span");
+    pop.className = `game-point-pop ${delta >= 0 ? "is-positive" : "is-negative"}`;
+    pop.textContent = delta >= 0 ? `+${delta}` : `${delta}`;
+    button.appendChild(pop);
+    window.setTimeout(() => pop.remove(), 900);
   };
 
   const finishAnswer = (isCorrect, explanation, button) => {
     if (state.locked) return;
     state.locked = true;
-    if (isCorrect) state.score += state.level === "a2" ? 12 : 10;
-    else state.score = Math.max(0, state.score - 4);
+
+    let delta;
+    if (isCorrect) {
+      state.streak += 1;
+      const streakBonus = state.streak >= 5 ? 6 : state.streak >= 3 ? 3 : 0;
+      delta = (state.level === "a2" ? 12 : 10) + streakBonus;
+      state.score += delta;
+      if (state.streak > state.bestStreak) {
+        state.bestStreak = state.streak;
+        writeBestStreak(state.mode, state.bestStreak);
+      }
+    } else {
+      state.streak = 0;
+      delta = -4;
+      state.score = Math.max(0, state.score + delta);
+    }
 
     optionsEl.querySelectorAll("button").forEach((option) => {
       option.disabled = true;
       option.classList.toggle("is-picked", option === button);
+      option.classList.toggle(isCorrect ? "is-correct" : "is-wrong", option === button);
     });
     board.querySelectorAll(".game-memory-card").forEach((card) => {
       card.disabled = true;
       card.classList.toggle("is-picked", card === button);
+      card.classList.toggle(isCorrect ? "is-correct" : "is-wrong", card === button);
     });
 
-    feedbackEl.textContent = `${isCorrect ? "Correcto." : "Casi."} ${explanation}`;
+    popPoints(button, delta);
+
+    feedbackIconEl.textContent = isCorrect ? "✅" : "❌";
+    feedbackTextEl.textContent = `${isCorrect ? "Correcto." : "Casi."} ${explanation}`;
+    feedbackEl.classList.toggle("is-correct", isCorrect);
+    feedbackEl.classList.toggle("is-wrong", !isCorrect);
+
     state.round += 1;
     updateMeta();
     startButton.textContent = "Siguiente ronda";
-    setStatus("Ronda terminada. Prepara otra cuando quieras.");
+    setStatus(
+      isCorrect && state.streak >= 3
+        ? `🔥 Racha de ${state.streak} aciertos. Sigue así.`
+        : "Ronda terminada. Prepara otra cuando quieras."
+    );
   };
 
   const packageRound = () => {
@@ -237,6 +342,7 @@
       article: {
         question: `Entrega un paquete con artículo ${target.article}.`,
         check: (item) => item.article === target.article,
+        skill: "Género gramatical (der/die/das)",
         explain: (selected, correct) => correct
           ? `${selected.word} lleva el artículo ${selected.article}, tal y como pedía la pista.`
           : `Buscábamos artículo ${target.article}; ${selected.word} lleva ${selected.article}.`
@@ -244,6 +350,7 @@
       category: {
         question: `Entrega algo de la categoría ${target.category}.`,
         check: (item) => item.category === target.category,
+        skill: "Categoría semántica",
         explain: (selected, correct) => correct
           ? `${selected.word} pertenece a ${selected.category}, la categoría pedida.`
           : `Buscábamos la categoría ${target.category}; ${selected.word} es de ${selected.category}.`
@@ -251,6 +358,7 @@
       initial: {
         question: `Entrega una palabra que empiece por ${target.initial}.`,
         check: (item) => item.initial === target.initial,
+        skill: "Letra inicial",
         explain: (selected, correct) => correct
           ? `${selected.word} empieza por ${selected.initial}, la letra pedida.`
           : `Buscábamos una palabra que empezara por ${target.initial}; elegiste ${selected.word}.`
@@ -258,25 +366,27 @@
       exact: {
         question: `Entrega exactamente ${target.word}.`,
         check: (item) => item.id === target.id,
+        skill: "Memoria exacta",
         explain: (selected, correct) => correct
           ? `Acertaste: era ${target.word}.`
           : `El paquete buscado era ${target.word}, no ${selected.word}.`
       }
     };
 
+    const currentTask = labels[task];
     state.current = { cards, target, task };
     renderCards(cards, { hidden: false, kind: "package" });
     setStatus("Memoriza los paquetes. Cuando se cierren, elige sin ver la palabra.");
+    showFocusHint(currentTask.skill);
     questionPanel.hidden = true;
 
     startCountdown(state.level === "a2" ? 7 : 6, () => {
       renderCards(cards, { hidden: true, kind: "package" });
-      const currentTask = labels[task];
       askOnBoard(currentTask.question, (value, card) => {
         const selected = cards.find((item) => item.id === value);
         const correct = currentTask.check(selected);
         finishAnswer(correct, currentTask.explain(selected, correct), card);
-      });
+      }, currentTask.skill);
     });
   };
 
@@ -286,10 +396,12 @@
     const target = Math.random() > 0.25 ? choice(suitcase) : choice(items.filter((item) => !suitcase.some((card) => card.id === item.id)));
     const isInside = suitcase.some((item) => item.id === target.id);
     const askArticle = isInside || Math.random() > 0.4;
+    const skill = askArticle ? "Acusativo indefinido (einen/eine/ein)" : "Memoria de contenido";
 
     state.current = { suitcase, target, isInside };
     renderSuitcase(suitcase, false);
     setStatus("Memoriza la maleta. Luego tendrás que declarar un objeto ante aduanas.");
+    showFocusHint(skill);
     questionPanel.hidden = true;
 
     startCountdown(state.level === "a2" ? 7 : 6, () => {
@@ -303,7 +415,7 @@
           const correct = value === target.acc;
           const memoryNote = isInside ? "También estaba en la maleta." : "Ojo: no estaba en la maleta, pero el acusativo se forma igual.";
           finishAnswer(correct, `Con ${target.word} se dice ${target.acc} ${target.noun}. ${memoryNote}`, button);
-        });
+        }, skill);
       } else {
         ask(`Control de aduanas: ¿había ${target.acc} ${target.noun} en la maleta?`, [
           { value: "ja", label: "Ja, estaba" },
@@ -311,7 +423,7 @@
         ], (value, button) => {
           const correct = (value === "ja") === isInside;
           finishAnswer(correct, `${target.word} ${isInside ? "sí estaba" : "no estaba"} en la maleta.`, button);
-        });
+        }, skill);
       }
     });
   };
@@ -326,10 +438,12 @@
     }));
     const target = choice(assignments);
     const task = state.level === "a2" ? choice(["room", "place", "object"]) : choice(["room", "object"]);
+    const skills = { room: "Ubicación y vocabulario", place: "Preposición de lugar", object: "Memoria de contenido" };
 
     state.current = { assignments, target, task };
     renderHotel(assignments, false);
     setStatus("Observa habitaciones, objetos y lugares. En unos segundos se tapará el hotel.");
+    showFocusHint(skills[task]);
     questionPanel.hidden = true;
 
     startCountdown(state.level === "a2" ? 8 : 7, () => {
@@ -338,14 +452,14 @@
       if (task === "room") {
         ask(`Wo ist ${target.item.word}?`, rooms.map((room) => ({ value: room, label: room })), (value, button) => {
           finishAnswer(value === target.room, `${target.item.word} estaba en ${target.room}, ${target.place.phrase}.`, button);
-        });
+        }, skills.room);
         return;
       }
 
       if (task === "place") {
         ask(`Completa: ${target.item.word} ist ...`, places.map((place) => ({ value: place.id, label: place.phrase })), (value, button) => {
           finishAnswer(value === target.place.id, `La frase correcta era: ${target.item.word} ist ${target.place.phrase}.`, button);
-        });
+        }, skills.place);
         return;
       }
 
@@ -356,7 +470,7 @@
         const correct = roomItems.some((entry) => entry.item.id === value);
         const valid = roomItems.map((entry) => entry.item.word).join(", ");
         finishAnswer(correct, `En ${target.room} había: ${valid}.`, button);
-      });
+      }, skills.object);
     });
   };
 
@@ -376,6 +490,7 @@
     clearTimer();
     state.round = 1;
     state.score = 0;
+    state.streak = 0;
     state.timer = 0;
     state.locked = false;
     state.current = null;
@@ -384,6 +499,8 @@
     questionPanel.hidden = true;
     revealButton.hidden = true;
     revealButton.onclick = null;
+    hideFocusHint();
+    setTimerBar(0, false);
     startButton.textContent = "Preparar ronda";
     setStatus("Marcador reiniciado. Prepara una ronda para empezar.");
     updateMeta();
@@ -392,6 +509,7 @@
   modeButtons.forEach((button) => {
     button.addEventListener("click", () => {
       state.mode = button.dataset.mode;
+      state.bestStreak = readBestStreak(state.mode);
       modeButtons.forEach((tab) => {
         const active = tab === button;
         tab.classList.toggle("is-active", active);
