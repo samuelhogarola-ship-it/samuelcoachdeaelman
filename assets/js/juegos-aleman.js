@@ -104,13 +104,18 @@
   const sample = (array, count) => shuffle(array).slice(0, count);
   const choice = (array) => array[Math.floor(Math.random() * array.length)];
 
+  const isBoosted = () => state.streak >= 3;
+  const adaptiveCount = (base, max) => Math.min(max, base + (state.streak >= 6 ? 2 : state.streak >= 3 ? 1 : 0));
+  const adaptiveSeconds = (base) => Math.max(4, base - (state.streak >= 6 ? 2 : state.streak >= 3 ? 1 : 0));
+
   const setStatus = (text) => {
     statusEl.textContent = text;
   };
 
   const showFocusHint = (skill) => {
     if (!focusHintEl) return;
-    focusHintEl.textContent = `🎯 Esta ronda entrena: ${skill}`;
+    const boostNote = isBoosted() ? " · dificultad subida 🔥" : "";
+    focusHintEl.textContent = `🎯 Esta ronda entrena: ${skill}${boostNote}`;
     focusHintEl.hidden = false;
   };
 
@@ -179,18 +184,35 @@
   `;
 
   const renderCards = (cards, options = {}) => {
-    const { hidden = false, kind = "package" } = options;
-    board.className = `game-table game-table-${kind}${hidden ? " is-memory-hidden" : ""}`;
+    const { kind = "package" } = options;
+    board.className = `game-table game-table-${kind}`;
     board.innerHTML = cards
       .map((card, index) => `
-        <button class="game-memory-card" type="button" data-card="${card.id}" ${hidden ? "" : "disabled"}>
+        <button class="game-memory-card is-open" type="button" data-card="${card.id}" disabled>
           <span class="game-card-index">${index + 1}</span>
-          ${visualMarkup(card)}
-          <span class="game-card-word">${hidden ? "?" : card.word}</span>
-          <span class="game-card-meta">${hidden ? "paquete cerrado" : card.category}</span>
+          <span class="game-card-flip">
+            <span class="game-card-face game-card-face-front" aria-hidden="true">
+              ${visualMarkup(card)}
+              <span class="game-card-word">?</span>
+              <span class="game-card-meta">paquete cerrado</span>
+            </span>
+            <span class="game-card-face game-card-face-back">
+              ${visualMarkup(card)}
+              <span class="game-card-word">${card.word}</span>
+              <span class="game-card-meta">${card.category}</span>
+            </span>
+          </span>
         </button>
       `)
       .join("");
+  };
+
+  const closeCards = () => {
+    board.classList.add("is-memory-hidden");
+    board.querySelectorAll(".game-memory-card").forEach((card) => {
+      card.classList.remove("is-open");
+      card.disabled = false;
+    });
   };
 
   const renderSuitcase = (cards, hidden = false) => {
@@ -267,7 +289,11 @@
     showRuleTag(skill);
     optionsEl.innerHTML = "";
     board.querySelectorAll(".game-memory-card").forEach((card) => {
-      card.addEventListener("click", () => onAnswer(card.dataset.card, card));
+      card.addEventListener("click", () => {
+        board.querySelectorAll(".game-memory-card").forEach((other) => { other.disabled = true; });
+        card.classList.add("is-open");
+        window.setTimeout(() => onAnswer(card.dataset.card, card), 550);
+      });
     });
     hideFocusHint();
   };
@@ -330,7 +356,7 @@
   };
 
   const packageRound = () => {
-    const count = state.level === "a2" ? 7 : 6;
+    const count = adaptiveCount(state.level === "a2" ? 7 : 6, 9);
     const cards = sample(items, count);
     const target = choice(cards);
     const taskTypes = state.level === "a2"
@@ -375,13 +401,13 @@
 
     const currentTask = labels[task];
     state.current = { cards, target, task };
-    renderCards(cards, { hidden: false, kind: "package" });
+    renderCards(cards, { kind: "package" });
     setStatus("Memoriza los paquetes. Cuando se cierren, elige sin ver la palabra.");
     showFocusHint(currentTask.skill);
     questionPanel.hidden = true;
 
-    startCountdown(state.level === "a2" ? 7 : 6, () => {
-      renderCards(cards, { hidden: true, kind: "package" });
+    startCountdown(adaptiveSeconds(state.level === "a2" ? 7 : 6), () => {
+      closeCards();
       askOnBoard(currentTask.question, (value, card) => {
         const selected = cards.find((item) => item.id === value);
         const correct = currentTask.check(selected);
@@ -391,7 +417,7 @@
   };
 
   const contrabandRound = () => {
-    const count = state.level === "a2" ? 7 : 6;
+    const count = adaptiveCount(state.level === "a2" ? 7 : 6, 9);
     const suitcase = sample(items, count);
     const target = Math.random() > 0.25 ? choice(suitcase) : choice(items.filter((item) => !suitcase.some((card) => card.id === item.id)));
     const isInside = suitcase.some((item) => item.id === target.id);
@@ -404,7 +430,7 @@
     showFocusHint(skill);
     questionPanel.hidden = true;
 
-    startCountdown(state.level === "a2" ? 7 : 6, () => {
+    startCountdown(adaptiveSeconds(state.level === "a2" ? 7 : 6), () => {
       renderSuitcase(suitcase, true);
       if (askArticle) {
         ask(`Declara en acusativo: Ich habe ___ ${target.noun}.`, [
@@ -429,7 +455,7 @@
   };
 
   const hotelRound = () => {
-    const count = state.level === "a2" ? 8 : 6;
+    const count = adaptiveCount(state.level === "a2" ? 8 : 6, 10);
     const hotelItems = sample(items, count);
     const assignments = hotelItems.map((item, index) => ({
       item,
@@ -446,7 +472,7 @@
     showFocusHint(skills[task]);
     questionPanel.hidden = true;
 
-    startCountdown(state.level === "a2" ? 8 : 7, () => {
+    startCountdown(adaptiveSeconds(state.level === "a2" ? 8 : 7), () => {
       renderHotel(assignments, true);
 
       if (task === "room") {
