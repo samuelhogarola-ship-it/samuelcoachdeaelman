@@ -1,4 +1,20 @@
-# Redirects 301: lueckentext → sprachbausteine
+# Consolidar el dominio canonico en www.
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^samuelcoachdealeman\.com$ [NC]
+RewriteRule ^ https://www.samuelcoachdealeman.com%{REQUEST_URI} [R=301,L,NE]
+
+# Recuperar rutas del antiguo blog que todavia aparecen en buscadores.
+RedirectMatch 301 ^/blog/f/der-die-das-los-g.neros-en-aleman/?$ /f/der-die-das-los-generos-en-aleman/
+RedirectMatch 301 ^/blog/f/posici.n-del-nicht-en-alem.n-wohin-mit-nicht/?$ /f/la-negacion-en-aleman-die-negation-im-deutschen/
+RedirectMatch 301 ^/blog/f/la-conjugaci.n-de-los-verbos-regulares-en-alem.n/?$ /f/
+RedirectMatch 301 ^/blog/f/l.nder-mit-artikel---pa.ses-con-art.culo-en-alem.n/?$ /f/
+RedirectMatch 301 ^/blog/f/(.*)$ /f/
+RedirectMatch 301 ^/f/la-negaci.n-en-alem.n-die-negation-im-deutschen-al-detalle/?$ /f/la-negacion-en-aleman-die-negation-im-deutschen/
+RedirectMatch 301 ^/f/jemand-niemand-y-keiner-usos-y-diferencias-en-alem.n-.*$ /f/jemand-niemand-y-keiner-usos-y-diferencias-en-aleman/
+RedirectMatch 301 ^/f/el-verbo-.lassen.-en-alem.n-uso-conjugaci.n-y-particularidades/?$ /f/el-verbo-lassen-en-aleman/
+RedirectMatch 301 ^/f/tipos-de-conectores-en-alem.n-una-gu.a-para-su-uso-correcto/?$ /f/
+
+# Redirects 301: lueckentext -> sprachbausteine
 RedirectMatch 301 ^/lueckentext/(.*)$ /sprachbausteine/$1
 RedirectMatch 301 ^/recursos/lueckentext/(.*)$ /recursos/sprachbausteine/$1
 RedirectMatch 301 ^/de/recursos/lueckentext/(.*)$ /de/recursos/sprachbausteine/$1

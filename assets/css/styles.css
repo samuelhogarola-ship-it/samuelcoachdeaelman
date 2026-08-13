@@ -5884,6 +5884,10 @@ body:not(.premium-page):not(.home-page) .footer-bottom {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .home-reviews-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .home-resource-card.is-featured {
     grid-column: span 2;
     grid-row: auto;
@@ -6038,8 +6042,20 @@ body:not(.premium-page):not(.home-page) .footer-bottom {
 
   .home-proof-grid,
   .home-brand-grid,
-  .home-resource-mosaic {
+  .home-resource-mosaic,
+  .home-reviews-grid {
     grid-template-columns: 1fr;
+  }
+
+  .home-reviews-bar {
+    flex-direction: column;
+  }
+
+  .home-reviews-stat + .home-reviews-stat,
+  .home-reviews-divider {
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid var(--border);
   }
 
   .home-needs-grid {
