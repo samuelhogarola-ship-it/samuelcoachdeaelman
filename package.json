@@ -4,7 +4,7 @@
   "scripts": {
     "prepare": "husky",
     "lint": "eslint .",
-    "build:i18n": "node scripts/generate-localized-pages.mjs && node scripts/generate-blog-locales.mjs && node leseverstehen/generate-pages.js && node sprachbausteine/generate-pages.js && node schreiben/generate-pages.js",
+    "build:i18n": "node scripts/generate-localized-pages.mjs && node scripts/consolidate-blog-locales.mjs && node leseverstehen/generate-pages.js && node sprachbausteine/generate-pages.js && node schreiben/generate-pages.js",
     "build:blog": "node generate-blog.js",
     "build": "npm run build:blog && npm run build:i18n",
     "new:post": "node new-post.js",

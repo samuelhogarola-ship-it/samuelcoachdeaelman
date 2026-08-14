@@ -3,7 +3,7 @@ import path from "path";
 
 const rootDir = process.cwd();
 const baseUrl = "https://www.samuelcoachdealeman.com";
-const localizedBlogUrl = (locale) => `${baseUrl}${locale === "es" ? "" : `/${locale}`}/f/`;
+const localizedBlogUrl = () => `${baseUrl}/f/`;
 const locales = ["de", "en"];
 const examLevels = ["A1", "A2", "B1", "B2"];
 const localeOg = {
@@ -923,7 +923,7 @@ function renderNav(locale) {
   const common = shared[locale];
   const prefix = localePrefix(locale);
   const servicesHref = `${prefix || ""}/servicios/`;
-  const blogHref = `${prefix || ""}/f/`;
+  const blogHref = "/f/";
   const resourcesHref = `${prefix || ""}/recursos/`;
   const aboutHref = `${prefix || ""}/sobre-mi/`;
   const contactHref = `${prefix || ""}/#contacto-formulario`;
@@ -1248,7 +1248,7 @@ function renderHome(locale) {
         </div>
         <div class="hero-photo">
           <div class="photo-wrap">
-            <img src="/assets/img/hero-photo-full.webp" alt="Samuel Coach de Alemán" width="720" height="720" loading="eager" fetchpriority="high">
+            <img src="/assets/img/hero-photo.webp" alt="Samuel Coach de Alemán" width="720" height="720" loading="eager" fetchpriority="high">
           </div>
         </div>
       </div>
@@ -1993,7 +1993,7 @@ function pageImage(pageKey) {
   if (key === "about") {
     return `${baseUrl}/assets/img/about-journey.webp`;
   }
-  return `${baseUrl}/assets/img/hero-photo-full.webp`;
+  return `${baseUrl}/assets/img/hero-photo.webp`;
 }
 
 function buildHtml(page, locale) {
