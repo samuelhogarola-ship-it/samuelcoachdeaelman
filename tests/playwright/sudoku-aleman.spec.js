@@ -61,6 +61,32 @@ test("enforces the language gate and decrements lives on a wrong answer", async 
   await expect(page.locator("#languageGate")).toBeHidden();
 });
 
+test("opens the language gate after three real first-time completions", async ({ page }) => {
+  await page.goto(path);
+
+  for (let number = 1; number <= 3; number += 1) {
+    const puzzleId = `a1-${String(number).padStart(2, "0")}`;
+    await page.locator("#puzzleSelect").selectOption(puzzleId);
+    await page.evaluate(({ id }) => {
+      const puzzle = window.SudokuEngine.puzzles.A1.find((item) => item.id === id);
+      for (let index = 0; index < 81; index += 1) {
+        if (puzzle.grid[index] !== "0") continue;
+        document.querySelector(`#sudokuBoard [data-index="${index}"]`).click();
+        document.dispatchEvent(new KeyboardEvent("keydown", {
+          key: puzzle.solution[index],
+          bubbles: true,
+        }));
+      }
+    }, { id: puzzleId });
+  }
+
+  await expect(page.locator("#languageGate")).toBeVisible();
+  await expect.poll(() => page.locator("#languageGate .gate-option").count()).toBeGreaterThanOrEqual(3);
+  const state = await page.evaluate((key) => JSON.parse(localStorage.getItem(key)), storageKey);
+  expect(Object.keys(state.completed)).toHaveLength(3);
+  expect(state.pendingGate.level).toBe("A1");
+});
+
 test("recovers all lives through the pending reward-provider adapter", async ({ page }) => {
   await page.addInitScript(({ key, state }) => {
     localStorage.setItem(key, JSON.stringify(state));
