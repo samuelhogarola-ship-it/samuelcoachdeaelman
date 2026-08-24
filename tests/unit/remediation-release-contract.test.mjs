@@ -38,3 +38,13 @@ test("CI runs executable local Postgres policy tests", async () => {
   assert.match(workflow, /supabase db start/);
   assert.match(workflow, /supabase test db/);
 });
+
+test("CI installs npm dependencies before checking Edge Functions", async () => {
+  const workflow = await read(".github/workflows/ci.yml");
+  const edgeJob = workflow.split("  edge-functions:")[1] || "";
+  const installIndex = edgeJob.indexOf("npm ci");
+  const checkIndex = edgeJob.indexOf("deno check");
+
+  assert.ok(installIndex >= 0, "edge-functions job must install npm dependencies");
+  assert.ok(checkIndex > installIndex, "deno check must run after npm ci");
+});

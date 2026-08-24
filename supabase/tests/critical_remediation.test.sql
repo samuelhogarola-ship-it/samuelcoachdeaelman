@@ -1,7 +1,7 @@
 begin;
 
 create extension if not exists pgtap with schema extensions;
-select plan(34);
+select plan(38);
 
 insert into auth.users (
   instance_id, id, aud, role, email, encrypted_password,
@@ -63,6 +63,18 @@ select is(
 select ok(
   not has_function_privilege('authenticated', 'public.prepare_newsletter_confirmation(text,text,timestamptz,timestamptz)', 'execute'),
   'authenticated users cannot prepare newsletter delivery'
+);
+select ok(
+  has_table_privilege('authenticated', 'public.samuel_profiles', 'select'),
+  'authenticated users can read their profile through RLS'
+);
+select ok(
+  not has_table_privilege('authenticated', 'public.samuel_profiles', 'update'),
+  'authenticated users have no direct profile update privilege'
+);
+select ok(
+  not has_table_privilege('authenticated', 'public.samuel_profiles', 'insert'),
+  'authenticated users have no direct profile insert privilege'
 );
 select ok(
   (select should_send from public.prepare_newsletter_confirmation(
@@ -166,9 +178,10 @@ select throws_ok(
   $$insert into public.samuel_profiles (user_id, is_premium) values ('22222222-2222-4222-8222-222222222222', true)$$,
   '42501', null, 'users cannot insert premium profiles'
 );
-update public.samuel_profiles
-set is_premium = true
-where user_id = '11111111-1111-4111-8111-111111111111';
+select throws_ok(
+  $$update public.samuel_profiles set is_premium = true where user_id = '11111111-1111-4111-8111-111111111111'$$,
+  '42501', null, 'users cannot execute direct premium profile updates'
+);
 select is(
   (select is_premium from public.samuel_profiles where user_id = auth.uid()),
   false,

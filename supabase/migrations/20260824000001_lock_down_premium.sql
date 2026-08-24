@@ -4,6 +4,10 @@
 drop policy if exists "samuel_profiles_own_insert" on public.samuel_profiles;
 drop policy if exists "samuel_profiles_own_update" on public.samuel_profiles;
 
+revoke all on table public.samuel_profiles from anon, authenticated;
+grant select on table public.samuel_profiles to authenticated;
+grant all on table public.samuel_profiles to service_role;
+
 alter table public.samuel_premium_codes enable row level security;
 revoke all on table public.samuel_premium_codes from anon, authenticated;
 grant all on table public.samuel_premium_codes to service_role;
