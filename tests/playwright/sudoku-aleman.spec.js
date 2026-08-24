@@ -40,7 +40,9 @@ test("renders the playable board and persists an edited attempt", async ({ page 
 });
 
 test("enforces the language gate and decrements lives on a wrong answer", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
   await page.addInitScript(({ key, state }) => {
+    localStorage.setItem("samuelcoach_cookie_consent", "rejected");
     localStorage.setItem(key, JSON.stringify(state));
   }, {
     key: storageKey,
@@ -50,6 +52,9 @@ test("enforces the language gate and decrements lives on a wrong answer", async 
 
   await expect(page.locator("#languageGate")).toBeVisible();
   await expect.poll(() => page.locator("#languageGate .gate-option").count()).toBeGreaterThanOrEqual(3);
+  const panel = await page.locator("#languageGate .gate-panel").boundingBox();
+  expect(panel.y).toBeGreaterThanOrEqual(0);
+  expect(panel.y + panel.height).toBeLessThanOrEqual(844);
   const answer = await page.evaluate((key) => JSON.parse(localStorage.getItem(key)).pendingGate.question.answer, storageKey);
   const wrong = page.locator("#languageGate .gate-option").filter({ hasNotText: answer }).first();
   await wrong.click();
@@ -89,6 +94,7 @@ test("opens the language gate after three real first-time completions", async ({
 
 test("recovers all lives through the pending reward-provider adapter", async ({ page }) => {
   await page.addInitScript(({ key, state }) => {
+    localStorage.setItem("samuelcoach_cookie_consent", "rejected");
     localStorage.setItem(key, JSON.stringify(state));
   }, {
     key: storageKey,
