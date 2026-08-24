@@ -26,6 +26,7 @@ Orden obligatorio:
 
 ## Pendiente técnico
 
+- **Sudoku Alemán entregado**: el juego A1-B2, el banco local de Vokabel Lab, las cinco vidas y la barrera cada tres tableros ya están implementados. Solo falta sustituir el adaptador local por un proveedor de anuncios recompensados con consentimiento y protección antifraude antes de monetizar la recarga.
 - **Cloudflare Turnstile / contacto endurecido** (no bloqueante): mantener por ahora el formulario y su fallback de email actuales. Activar más adelante la nueva función `contact` cuando se decida usar Turnstile, se disponga de las claves reales y se pueda hacer una prueba controlada de extremo a extremo.
 - **Categorización visual con chips** (`.res-chip`): el CSS ya existe en `styles.css` pero NO está aplicado a ninguna tarjeta de recursos en HTML. Falta añadir `<span class="res-chip res-chip--spb">Sprachbausteine</span>` etc. a las listas de `/recursos/`, `/de/recursos/`, `/en/recursos/`
 - **Privacidad de informes profesor**: migrar PII de `localStorage` a almacenamiento autenticado tras definir roles y retención.
