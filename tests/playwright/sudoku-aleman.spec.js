@@ -18,6 +18,9 @@ function initialState(overrides = {}) {
 }
 
 test("renders the playable board and persists an edited attempt", async ({ page }) => {
+  await page.addInitScript(() => {
+    localStorage.setItem("samuelcoach_cookie_consent", "rejected");
+  });
   await page.goto(path);
 
   await expect(page.getByRole("heading", { name: /sudoku alemán/i })).toBeVisible();
