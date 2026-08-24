@@ -1,15 +1,17 @@
 import { createClient } from "npm:@supabase/supabase-js@2";
 
-const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
-};
+import {
+  buildConfirmationUrl,
+  buildUnsubscribeUrl,
+  confirmationHasExpired,
+  normalizeLocale,
+  publicSubscribeResponse,
+  shouldSendConfirmation,
+} from "./newsletter-handler.mjs";
 
-const jsonResponse = (status: number, body: Record<string, unknown>) =>
-  new Response(JSON.stringify(body), {
-    status,
-    headers: { ...corsHeaders, "Content-Type": "application/json" },
-  });
+const SITE_URL = "https://www.samuelcoachdealeman.com";
+const ALLOWED_ORIGINS = new Set([SITE_URL, "https://samuelcoachdealeman.com"]);
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const requireEnv = (key: string) => {
   const value = Deno.env.get(key);
@@ -17,18 +19,38 @@ const requireEnv = (key: string) => {
   return value;
 };
 
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const isAllowedOrigin = (origin: string) => {
+  if (ALLOWED_ORIGINS.has(origin)) return true;
+  try {
+    const url = new URL(origin);
+    return ["localhost", "127.0.0.1"].includes(url.hostname) && url.protocol === "http:";
+  } catch (_error) {
+    return false;
+  }
+};
 
-const SITE_URL = "https://www.samuelcoachdealeman.com";
+const corsHeaders = (request: Request) => {
+  const origin = request.headers.get("origin") || "";
+  return {
+    ...(isAllowedOrigin(origin) ? { "Access-Control-Allow-Origin": origin } : {}),
+    "Access-Control-Allow-Headers": "content-type",
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    Vary: "Origin",
+  };
+};
 
-const confirmationUrl = (token: string, locale: string) => {
-  const base = locale === "de"
+const jsonResponse = (request: Request, status: number, body: Record<string, unknown>) =>
+  new Response(JSON.stringify(body), {
+    status,
+    headers: { ...corsHeaders(request), "Content-Type": "application/json" },
+  });
+
+const confirmationRedirect = (locale: string) =>
+  locale === "de"
     ? `${SITE_URL}/de/newsletter-bestaetigt/`
     : locale === "en"
     ? `${SITE_URL}/en/newsletter-confirmed/`
     : `${SITE_URL}/newsletter-confirmado/`;
-  return `${SITE_URL}/functions/v1/newsletter-confirm?token=${token}&locale=${locale}&redirect=${encodeURIComponent(base)}`;
-};
 
 const emailSubject: Record<string, string> = {
   es: "Confirma tu suscripción al newsletter de Samuel",
@@ -36,112 +58,120 @@ const emailSubject: Record<string, string> = {
   en: "Confirm your newsletter subscription with Samuel",
 };
 
-const emailHtml = (locale: string, url: string) => {
+const emailHtml = (locale: string, confirmationUrl: string, unsubscribeUrl: string) => {
   if (locale === "de") {
-    return `<p>Hallo,</p>
-<p>Klicke auf den Button, um deine Anmeldung zu bestätigen:</p>
-<p><a href="${url}" style="background:#1a73e8;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;display:inline-block;">Anmeldung bestätigen</a></p>
-<p>Wenn du dich nicht angemeldet hast, kannst du diese E-Mail ignorieren.</p>
-<p>— Samuel Coach de Alemán</p>`;
+    return `<p>Hallo,</p><p>Bestätige deine Anmeldung:</p><p><a href="${confirmationUrl}">Anmeldung bestätigen</a></p><p>Falls du diese Anfrage nicht gestellt hast, kannst du sie <a href="${unsubscribeUrl}">widerrufen</a>.</p>`;
   }
   if (locale === "en") {
-    return `<p>Hello,</p>
-<p>Click the button below to confirm your subscription:</p>
-<p><a href="${url}" style="background:#1a73e8;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;display:inline-block;">Confirm subscription</a></p>
-<p>If you didn't sign up, you can safely ignore this email.</p>
-<p>— Samuel Coach de Alemán</p>`;
+    return `<p>Hello,</p><p>Confirm your subscription:</p><p><a href="${confirmationUrl}">Confirm subscription</a></p><p>If you did not request this, you can <a href="${unsubscribeUrl}">cancel the request</a>.</p>`;
   }
-  return `<p>Hola,</p>
-<p>Haz clic en el botón para confirmar tu suscripción:</p>
-<p><a href="${url}" style="background:#1a73e8;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;display:inline-block;">Confirmar suscripción</a></p>
-<p>Si no te has suscrito, puedes ignorar este email.</p>
-<p>— Samuel Coach de Alemán</p>`;
+  return `<p>Hola,</p><p>Confirma tu suscripción:</p><p><a href="${confirmationUrl}">Confirmar suscripción</a></p><p>Si no has solicitado el alta, puedes <a href="${unsubscribeUrl}">cancelar la solicitud</a>.</p>`;
 };
 
-Deno.serve(async (req) => {
-  if (req.method === "OPTIONS") {
-    return new Response(null, { headers: corsHeaders });
+Deno.serve(async (request) => {
+  if (request.method === "OPTIONS") {
+    const origin = request.headers.get("origin") || "";
+    return new Response(null, {
+      status: origin && !isAllowedOrigin(origin) ? 403 : 204,
+      headers: corsHeaders(request),
+    });
   }
+  if (request.method !== "POST") return jsonResponse(request, 405, { error: "method_not_allowed" });
 
-  const supabase = createClient(
-    requireEnv("SUPABASE_URL"),
-    requireEnv("SUPABASE_SERVICE_ROLE_KEY"),
-    { auth: { persistSession: false, autoRefreshToken: false } },
-  );
-  const resendApiKey = requireEnv("RESEND_API_KEY");
-  const fromEmail = requireEnv("RESEND_FROM_EMAIL");
-
-  let email: string;
-  let locale: string;
-
+  let email = "";
+  let locale = "es";
   try {
-    const body = await req.json();
-    email = (body.email ?? "").trim().toLowerCase();
-    locale = ["es", "de", "en"].includes(body.locale) ? body.locale : "es";
-  } catch {
-    return jsonResponse(400, { error: "invalid_json" });
+    const body = await request.json();
+    email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
+    locale = normalizeLocale(body.locale);
+  } catch (_error) {
+    return jsonResponse(request, 400, { error: "invalid_request" });
+  }
+  if (!EMAIL_RE.test(email) || email.length > 254) {
+    return jsonResponse(request, 400, { error: "invalid_email" });
   }
 
-  if (!EMAIL_RE.test(email)) {
-    return jsonResponse(400, { error: "invalid_email" });
-  }
-
-  // Upsert: if already exists and confirmed, return success silently
-  const { data: existing } = await supabase
+  const supabaseUrl = requireEnv("SUPABASE_URL");
+  const supabase = createClient(supabaseUrl, requireEnv("SUPABASE_SERVICE_ROLE_KEY"), {
+    auth: { persistSession: false, autoRefreshToken: false },
+  });
+  const now = new Date();
+  const nowIso = now.toISOString();
+  const expiresAt = new Date(now.getTime() + 24 * 60 * 60 * 1000).toISOString();
+  const { data: existing, error: selectError } = await supabase
     .from("newsletter_subscribers")
-    .select("id, confirmed, confirmation_token")
+    .select("id, confirmed, confirmation_token, confirmation_expires_at, unsubscribe_token, last_confirmation_sent_at, unsubscribed_at")
     .eq("email", email)
     .maybeSingle();
 
-  if (existing && existing.confirmed) {
-    // Already confirmed — don't re-send, just acknowledge
-    return jsonResponse(200, { status: "already_confirmed" });
+  if (selectError) {
+    console.error("newsletter lookup failed", selectError);
+    return jsonResponse(request, 500, { error: "temporary_failure" });
+  }
+  if (existing && existing.confirmed && !existing.unsubscribed_at) {
+    return jsonResponse(request, 200, publicSubscribeResponse());
+  }
+  if (existing && !shouldSendConfirmation(existing, now)) {
+    return jsonResponse(request, 200, publicSubscribeResponse());
   }
 
-  let token: string;
+  const rotateConfirmation = !existing || Boolean(existing.unsubscribed_at) || confirmationHasExpired(existing, now);
+  const confirmationToken = rotateConfirmation ? crypto.randomUUID() : existing.confirmation_token;
+  const unsubscribeToken = existing?.unsubscribe_token || crypto.randomUUID();
 
   if (existing) {
-    // Pending confirmation — resend the same token
-    token = existing.confirmation_token;
-    await supabase
+    const { error } = await supabase
       .from("newsletter_subscribers")
-      .update({ locale, subscribed_at: new Date().toISOString() })
+      .update({
+        locale,
+        confirmed: false,
+        confirmed_at: null,
+        unsubscribed_at: null,
+        subscribed_at: nowIso,
+        confirmation_token: confirmationToken,
+        confirmation_expires_at: rotateConfirmation ? expiresAt : existing.confirmation_expires_at,
+        unsubscribe_token: unsubscribeToken,
+        last_confirmation_sent_at: nowIso,
+      })
       .eq("id", existing.id);
-  } else {
-    const { data: inserted, error } = await supabase
-      .from("newsletter_subscribers")
-      .insert({ email, locale })
-      .select("confirmation_token")
-      .single();
-
-    if (error || !inserted) {
-      console.error("insert error", error);
-      return jsonResponse(500, { error: "db_error" });
+    if (error) {
+      console.error("newsletter update failed", error);
+      return jsonResponse(request, 500, { error: "temporary_failure" });
     }
-    token = inserted.confirmation_token;
+  } else {
+    const { error } = await supabase.from("newsletter_subscribers").insert({
+      email,
+      locale,
+      confirmation_token: confirmationToken,
+      confirmation_expires_at: expiresAt,
+      unsubscribe_token: unsubscribeToken,
+      last_confirmation_sent_at: nowIso,
+    });
+    if (error) {
+      console.error("newsletter insert failed", error);
+      return jsonResponse(request, 500, { error: "temporary_failure" });
+    }
   }
 
-  const url = confirmationUrl(token, locale);
-
-  const resendRes = await fetch("https://api.resend.com/emails", {
+  const confirmUrl = buildConfirmationUrl(supabaseUrl, confirmationToken, locale, confirmationRedirect(locale));
+  const unsubscribeUrl = buildUnsubscribeUrl(supabaseUrl, unsubscribeToken, locale);
+  const resendResponse = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${resendApiKey}`,
+      Authorization: `Bearer ${requireEnv("RESEND_API_KEY")}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      from: fromEmail,
+      from: requireEnv("RESEND_FROM_EMAIL"),
       to: [email],
       subject: emailSubject[locale],
-      html: emailHtml(locale, url),
+      html: emailHtml(locale, confirmUrl, unsubscribeUrl),
     }),
   });
 
-  if (!resendRes.ok) {
-    const err = await resendRes.text();
-    console.error("resend error", err);
-    return jsonResponse(500, { error: "email_send_failed" });
+  if (!resendResponse.ok) {
+    console.error("newsletter email failed", await resendResponse.text());
+    return jsonResponse(request, 500, { error: "temporary_failure" });
   }
-
-  return jsonResponse(200, { status: "confirmation_sent" });
+  return jsonResponse(request, 200, publicSubscribeResponse());
 });

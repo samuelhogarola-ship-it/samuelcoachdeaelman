@@ -1,14 +1,7 @@
 import { createClient } from "npm:@supabase/supabase-js@2";
 
-import { safeNewsletterRedirect } from "./redirect-policy.mjs";
-
 const SITE_URL = "https://www.samuelcoachdealeman.com";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const fallbackRedirect: Record<string, string> = {
-  es: `${SITE_URL}/newsletter-confirmado/`,
-  de: `${SITE_URL}/de/newsletter-bestaetigt/`,
-  en: `${SITE_URL}/en/newsletter-confirmed/`,
-};
 
 const requireEnv = (key: string) => {
   const value = Deno.env.get(key);
@@ -21,33 +14,26 @@ Deno.serve(async (request) => {
   const token = url.searchParams.get("token") || "";
   const requestedLocale = url.searchParams.get("locale") || "";
   const locale = ["es", "de", "en"].includes(requestedLocale) ? requestedLocale : "es";
-  const redirectUrl = safeNewsletterRedirect(
-    url.searchParams.get("redirect"),
-    fallbackRedirect[locale],
-    SITE_URL,
-  );
-  const errorRedirect = () => Response.redirect(`${SITE_URL}/?newsletter_error=invalid_token`, 302);
-  if (!UUID_RE.test(token)) return errorRedirect();
+  const destination = locale === "es" ? SITE_URL : `${SITE_URL}/${locale}/`;
+  if (!UUID_RE.test(token)) return Response.redirect(`${destination}?newsletter_error=invalid_token`, 302);
 
   const supabase = createClient(requireEnv("SUPABASE_URL"), requireEnv("SUPABASE_SERVICE_ROLE_KEY"), {
     auth: { persistSession: false, autoRefreshToken: false },
   });
-  const now = new Date().toISOString();
   const { data, error } = await supabase
     .from("newsletter_subscribers")
     .update({
-      confirmed: true,
-      confirmed_at: now,
-      unsubscribed_at: null,
+      confirmed: false,
+      confirmed_at: null,
+      unsubscribed_at: new Date().toISOString(),
       confirmation_token: crypto.randomUUID(),
       confirmation_expires_at: null,
+      unsubscribe_token: crypto.randomUUID(),
     })
-    .eq("confirmation_token", token)
-    .eq("confirmed", false)
-    .gt("confirmation_expires_at", now)
+    .eq("unsubscribe_token", token)
     .select("id")
     .maybeSingle();
 
-  if (error || !data) return errorRedirect();
-  return Response.redirect(redirectUrl, 302);
+  if (error || !data) return Response.redirect(`${destination}?newsletter_error=invalid_token`, 302);
+  return Response.redirect(`${destination}?newsletter_unsubscribed=1`, 302);
 });
