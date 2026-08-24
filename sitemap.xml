@@ -4115,5 +4115,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/sudoku-aleman/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- SCHREIBEN:END -->
 </urlset>
