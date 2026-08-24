@@ -54,16 +54,11 @@ test.describe("contact form", () => {
     );
   });
 
-  test("falls back to a prepared email when the contact endpoint is unavailable", async ({ page }) => {
+  test("fails closed when the Turnstile site key is missing", async ({ page }) => {
+    let contactRequested = false;
     await page.route("**/functions/v1/contact**", async (route) => {
-      await route.fulfill({
-        status: 404,
-        contentType: "application/json",
-        body: JSON.stringify({
-          success: false,
-          message: "Requested function was not found"
-        })
-      });
+      contactRequested = true;
+      await route.abort();
     });
 
     await page.goto("/#valoracion");
@@ -73,17 +68,18 @@ test.describe("contact form", () => {
     await page.getByRole("button", { name: /quiero mi plan personalizado/i }).click();
 
     await expect(page.locator(".form-status")).toHaveText(
-      /he preparado el email con tus datos/i
+      /No se pudo cargar la comprobación de seguridad/i
     );
+    expect(contactRequested).toBe(false);
   });
 
-  test("submits successfully with a mocked endpoint and mocked Turnstile", async ({ page }) => {
+  test("submits to the canonical endpoint with mocked Turnstile", async ({ page }) => {
     let requestBody = null;
+    let requestUrl = null;
 
     await page.addInitScript(() => {
       window.__SAMUEL_CONTACT_CONFIG__ = {
-        turnstileSiteKey: "production-site-key",
-        contactEndpoint: "/functions/v1/contact/"
+        turnstileSiteKey: "production-site-key"
       };
 
       window.__turnstileToken = "mock-turnstile-token";
@@ -105,6 +101,7 @@ test.describe("contact form", () => {
     });
 
     await page.route("**/functions/v1/contact**", async (route) => {
+      requestUrl = route.request().url();
       requestBody = route.request().postDataJSON();
       await route.fulfill({
         status: 200,
@@ -135,5 +132,8 @@ test.describe("contact form", () => {
       email: "maria.gomez@example.com",
       turnstileToken: "mock-turnstile-token"
     });
+    expect(requestUrl).toBe(
+      "https://hocdlmxzghwymamientc.supabase.co/functions/v1/contact"
+    );
   });
 });

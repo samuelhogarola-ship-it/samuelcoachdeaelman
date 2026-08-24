@@ -1,8 +1,10 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 
 import {
   createContactService,
+  extractClientIp,
   GENERIC_RETRY_MESSAGE,
   GENERIC_RISK_MESSAGE,
   SUCCESS_MESSAGE
@@ -25,6 +27,7 @@ const buildService = (overrides = {}) =>
     verifyTurnstile: async () => ({ success: true }),
     insertLead: async () => ({ success: true, id: "lead-1" }),
     sendLeadEmail: async () => ({ success: true }),
+    checkRateLimit: async () => true,
     hashIp: async () => "hashed-ip",
     now: () => "2026-06-27T18:00:00.000Z",
     logger: { error() {} },
@@ -59,13 +62,122 @@ test("rejects an invalid turnstile token", async () => {
 
   const result = await service.process({
     payload: basePayload(),
-    headers: new Headers()
+    headers: new Headers({ "x-forwarded-for": "203.0.113.20" })
   });
 
   assert.equal(result.status, 400);
   assert.equal(result.body.success, false);
   assert.equal(result.body.message, GENERIC_RETRY_MESSAGE);
   assert.equal(inserted, false);
+});
+
+test("rejects a missing turnstile token before calling dependencies", async () => {
+  let verified = false;
+  const service = buildService({
+    verifyTurnstile: async () => {
+      verified = true;
+      return { success: true };
+    }
+  });
+
+  const result = await service.process({
+    payload: { ...basePayload(), turnstileToken: "" },
+    headers: new Headers({ "x-forwarded-for": "203.0.113.21" })
+  });
+
+  assert.equal(result.status, 400);
+  assert.equal(result.body.success, false);
+  assert.equal(verified, false);
+});
+
+test("rejects oversized fields before verification or persistence", async () => {
+  let verified = false;
+  let inserted = false;
+  const service = buildService({
+    verifyTurnstile: async () => {
+      verified = true;
+      return { success: true };
+    },
+    insertLead: async () => {
+      inserted = true;
+      return { success: true, id: "lead-1" };
+    }
+  });
+
+  const result = await service.process({
+    payload: { ...basePayload(), name: "M".repeat(121) },
+    headers: new Headers({ "x-forwarded-for": "203.0.113.22" })
+  });
+
+  assert.equal(result.status, 400);
+  assert.equal(result.body.success, false);
+  assert.equal(verified, false);
+  assert.equal(inserted, false);
+});
+
+test("rate limits verified submissions using only the hashed IP", async () => {
+  let checkedHash = null;
+  let verified = false;
+  let inserted = false;
+  const service = buildService({
+    checkRateLimit: async (ipHash) => {
+      checkedHash = ipHash;
+      return false;
+    },
+    verifyTurnstile: async () => {
+      verified = true;
+      return { success: true };
+    },
+    insertLead: async () => {
+      inserted = true;
+      return { success: true, id: "lead-1" };
+    }
+  });
+
+  const result = await service.process({
+    payload: basePayload(),
+    headers: new Headers({ "x-forwarded-for": "203.0.113.10" })
+  });
+
+  assert.equal(result.status, 429);
+  assert.equal(result.body.success, false);
+  assert.equal(checkedHash, "hashed-ip");
+  assert.equal(verified, true);
+  assert.equal(inserted, false);
+});
+
+test("uses only the gateway X-Forwarded-For value and rejects conflicts", () => {
+  assert.equal(
+    extractClientIp(new Headers({
+      "x-forwarded-for": "203.0.113.9"
+    })),
+    "203.0.113.9"
+  );
+  assert.equal(
+    extractClientIp(new Headers({ "x-forwarded-for": "198.51.100.1, 198.51.100.2" })),
+    null
+  );
+  assert.equal(
+    extractClientIp(new Headers({
+      "x-forwarded-for": "203.0.113.9",
+      "cf-connecting-ip": "198.51.100.1"
+    })),
+    null
+  );
+});
+
+test("contact rate limiting is claimed atomically in Postgres", async () => {
+  const migration = await readFile(
+    new URL("../../migrations/20260824000002_contact_rate_limit.sql", import.meta.url),
+    "utf8"
+  );
+  const edgeFunction = await readFile(new URL("./index.ts", import.meta.url), "utf8");
+
+  assert.match(migration, /create table[^;]+contact_rate_limits/is);
+  assert.match(migration, /create or replace function public\.claim_contact_submission/is);
+  assert.match(migration, /for update|on conflict/is);
+  assert.match(edgeFunction, /\.rpc\("claim_contact_submission"/i);
+  assert.doesNotMatch(edgeFunction, /\.from\("leads"\)[\s\S]+count: "exact"/i);
 });
 
 test("marks honeypot submissions as spam", async () => {
@@ -87,7 +199,7 @@ test("marks honeypot submissions as spam", async () => {
       ...basePayload(),
       company: "Bot Company"
     },
-    headers: new Headers()
+    headers: new Headers({ "x-forwarded-for": "203.0.113.23" })
   });
 
   assert.equal(result.status, 422);
@@ -112,7 +224,7 @@ test("marks high-risk submissions as spam", async () => {
       email: "scholarfraschilla9050@tempmail.com",
       phone: "123456789"
     },
-    headers: new Headers()
+    headers: new Headers({ "x-forwarded-for": "203.0.113.24" })
   });
 
   assert.equal(result.status, 422);
@@ -128,7 +240,7 @@ test("returns success when Resend fails but lead is stored", async () => {
 
   const result = await service.process({
     payload: basePayload(),
-    headers: new Headers()
+    headers: new Headers({ "x-forwarded-for": "203.0.113.25" })
   });
 
   assert.equal(result.status, 200);
@@ -148,7 +260,7 @@ test("returns server error when Supabase insert fails", async () => {
 
   const result = await service.process({
     payload: basePayload(),
-    headers: new Headers()
+    headers: new Headers({ "x-forwarded-for": "203.0.113.26" })
   });
 
   assert.equal(result.status, 500);

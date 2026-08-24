@@ -1,20 +1,37 @@
 # NEXT
 
-## PRs abiertos (esperando merge del usuario)
+## PRs abiertos
 
-- **PR #79** — `fix/lueckentext-sticky-fullscreen`: panel sticky + modo fullscreen en Sprachbausteine y Leseverstehen
-- **PR #80** — `feat/dashboard-v2-lazy`: dashboard v2 (greeting card, streak, retos, mensajes coach), scroll reveal, scroll reveal en homepage
+- **PR #86** — `codex/professional-audit-fixes`: SEO multilingüe de Málaga y producto de exámenes B1/B2
+- **PR #88** — `codex/samuel-classroom-reports`: paridad de blog localizado y homepage
 
-## Acciones manuales pendientes en Supabase (`hocdlmxzghwymamientc`)
+Verificado contra GitHub el 2026-08-24. Revisar posibles conflictos con la remediación crítica antes de mergear cualquiera de los dos.
 
-1. ✅ Auth URL Configuration — configurado 2026-07-05
+## Despliegue crítico pendiente (`hocdlmxzghwymamientc`)
 
-2. **Migración challenges** (opcional para PR #80): verificar si la tabla `samuel_challenges` existe. Si los Retos muestran skeleton permanente tras el login, aplicar `supabase/migrations/20260704000002_challenges.sql`. El resto del panel funciona sin ella.
+Seguir `docs/runbooks/critical-remediation-rollout.md`. No desplegar el frontend endurecido antes de configurar la clave pública real de Turnstile y verificar los secretos de Edge Functions.
+
+Orden obligatorio:
+
+1. Backup de perfiles, códigos y datos afectados.
+2. Migraciones `20260824000001` a `20260824000004`.
+3. Funciones `contact`, `newsletter-subscribe`, `newsletter-confirm` y `newsletter-unsubscribe`.
+4. Clave pública de Turnstile y despliegue estático.
+5. Smoke tests de producción y registro de evidencias.
+
+## Otras acciones manuales en Supabase
+
+1. **Auth URL Configuration** — configurado 2026-07-05.
+2. **Migración challenges**: verificar si la tabla `samuel_challenges` existe. Si los Retos muestran skeleton permanente tras el login, aplicar `supabase/migrations/20260704000002_challenges.sql`.
 
 ## Pendiente técnico
 
 - **Categorización visual con chips** (`.res-chip`): el CSS ya existe en `styles.css` pero NO está aplicado a ninguna tarjeta de recursos en HTML. Falta añadir `<span class="res-chip res-chip--spb">Sprachbausteine</span>` etc. a las listas de `/recursos/`, `/de/recursos/`, `/en/recursos/`
-- **Migraciones premium/chat** (`20260701000001` + `20260701000002`): viven en rama `feat/estadisticas-textos-nivel2-chat-premium` — ya mergeada. Pendiente aplicarlas a `hocdlmxzghwymamientc` (Samuel hace `supabase link --project-ref hocdlmxzghwymamientc`)
+- **Privacidad de informes profesor**: migrar PII de `localStorage` a almacenamiento autenticado tras definir roles y retención.
+- **Privacidad legal**: sustituir el borrador tras revisión legal y documentar Chatbase, Supabase, Resend y Cloudflare.
+- **Consentimiento Chatbase**: bloquearlo hasta consentimiento o retirarlo.
+- **Cabeceras**: añadir HSTS, CSP con nonce/hash, `frame-ancestors`, Referrer Policy y Permissions Policy tras inventariar scripts externos.
+- **iOS 13**: retirar sintaxis incompatible de `assets/js/auth.js` y convertir la regla en check de CI.
 - **studio-panel**: admin de Vokabel-World (imKontext) y sección Fuengirola — PRs pendientes en web-fuengirola
 - **Migraciones WF-Studio**: clientes Angel, Indira, Sofia → migrar auth a apps-users
 

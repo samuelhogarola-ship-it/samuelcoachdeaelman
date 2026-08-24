@@ -341,7 +341,7 @@ const initOfferForms = () => {
   const normalizeContactEndpoint = (value) => {
     const endpoint = (value || "").trim();
     if (endpoint === "/functions/v1/contact") return "/functions/v1/contact/";
-    return endpoint || "/functions/v1/contact/";
+    return endpoint || "https://hocdlmxzghwymamientc.supabase.co/functions/v1/contact";
   };
   const turnstileSiteKey = readPublicConfig(
     runtimeConfig.turnstileSiteKey,
@@ -499,7 +499,7 @@ const initOfferForms = () => {
     const turnstileRequiredMessage = (turnstileContainer && turnstileContainer.dataset.turnstileRequired) || copy.turnstile;
     const turnstileLoadErrorMessage = (turnstileContainer && turnstileContainer.dataset.turnstileError) || copy.turnstileError;
     const turnstileState = {
-      required: Boolean(turnstileContainer && turnstileWidget && turnstileSiteKey),
+      required: Boolean(turnstileContainer && turnstileWidget),
       enabled: Boolean(turnstileContainer && turnstileWidget && turnstileSiteKey),
       widgetId: null,
       loaded: false
@@ -546,7 +546,9 @@ const initOfferForms = () => {
       field.addEventListener("change", resetField);
     });
 
-    if (turnstileState.enabled) {
+    if (turnstileState.required && !turnstileState.enabled) {
+      setStatusMessage(turnstileLoadErrorMessage, "error");
+    } else if (turnstileState.enabled) {
       loadTurnstile()
         .then((turnstile) => {
           turnstileState.widgetId = turnstile.render(turnstileWidget, {
@@ -603,9 +605,7 @@ const initOfferForms = () => {
         }
       }
 
-      const action = normalizeContactEndpoint(
-        configuredEndpoint || form.getAttribute("action")
-      );
+      const action = normalizeContactEndpoint(configuredEndpoint);
       const payload = payloadFromForm(form);
 
       setStatusMessage(submitText.sending);

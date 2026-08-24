@@ -193,6 +193,7 @@
   <script src="/assets/js/main.js" defer></script>
   <script type="module">
     import { buildAccountUrl, finishAuthSessionFromUrl, resetPassword, signIn, signUp, supabase } from '/assets/js/auth.js'
+    import { safeAuthRedirect } from '/assets/js/auth-redirect.mjs'
 
     const copy = {
       loading: 'One moment…',
@@ -226,7 +227,7 @@
 
     function redirectAfterLogin() {
       const redirect = new URLSearchParams(location.search).get('redirect')
-      location.href = redirect && redirect.startsWith('/') ? redirect : buildAccountUrl()
+      location.href = safeAuthRedirect(redirect, buildAccountUrl())
     }
 
     const tabs = document.querySelectorAll('.login-tab')

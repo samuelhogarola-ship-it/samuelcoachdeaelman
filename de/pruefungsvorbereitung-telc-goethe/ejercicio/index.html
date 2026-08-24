@@ -608,19 +608,36 @@
             },
             body: JSON.stringify({
               user_id: session.user.id,
+              exercise_id: exerciseData ? exerciseData.id : null,
               exercise_slug: slug,
-              exercise_type: mode,
-              nivel: textData.nivel,
+              exercise_type: isSprachbausteine ? exerciseData.exercise_type : 'leseverstehen',
+              nivel: String(textData.nivel || '').toUpperCase(),
+              answers: {
+                blanks: Array.from(document.querySelectorAll('[data-blank]')).map(el => ({
+                  blank: el.dataset.blank,
+                  value: el.value || ''
+                })),
+                true_false: Array.from(document.querySelectorAll('.tf-item')).map(item => {
+                  const selected = item.querySelector('.tf-btn.selected')
+                  return { selected: selected ? selected.dataset.val === 'true' : null }
+                })
+              },
               score: correct,
               max_score: total,
+              completed_at: new Date().toISOString(),
             })
           })
           const statusEl = document.getElementById('save-status')
-          if (saveRes.ok || saveRes.status === 201) {
-            statusEl.innerHTML = '<span class="saved-badge">✓ Fortschritt gespeichert</span>'
-          }
+          if (!saveRes.ok) throw new Error('Fortschritt konnte nicht gespeichert werden.')
+          const badge = document.createElement('span')
+          badge.className = 'saved-badge'
+          badge.textContent = 'Fortschritt gespeichert'
+          statusEl.replaceChildren(badge)
         }
-      } catch(_) {}
+      } catch(error) {
+        const statusEl = document.getElementById('save-status')
+        if (statusEl) statusEl.textContent = error.message || 'Speichern fehlgeschlagen. Bitte versuche es erneut.'
+      }
     }
 
     })()

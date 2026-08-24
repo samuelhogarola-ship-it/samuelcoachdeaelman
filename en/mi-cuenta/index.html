@@ -181,6 +181,7 @@
   <script src="/assets/js/scroll-reveal.js" defer></script>
   <script type="module">
     import { supabase, getLocalePrefix, requireAuth, signOut } from '/assets/js/auth.js'
+    import { markMessagesRead, renderChallenges as renderAccountChallenges, renderMessages as renderAccountMessages, renderProgressTable } from '/assets/js/account-ui.mjs'
     ;(async () => {
 
     const APPS_URL  = 'https://hocdlmxzghwymamientc.supabase.co'
@@ -265,52 +266,19 @@
 
     function renderChallenges(challenges, attempts, progress) {
       var container = document.getElementById('challenges-container')
-      if (!challenges || !challenges.length) {
-        container.innerHTML = '<p class="empty-state" style="text-align:left;padding:0">Challenges coming soon!</p>'
-        return
-      }
-      var html = ''
-      for (var i = 0; i < challenges.length; i++) {
-        var ch = challenges[i]
-        var curr = challengeProgress(ch, attempts, progress)
-        var pct = Math.min(Math.round((curr / ch.target) * 100), 100)
-        var done = curr >= ch.target
-        html += '<div class="challenge-card' + (done ? ' challenge-card--done' : '') + '">'
-        if (done) html += '<span class="challenge-badge">Done!</span>'
-        html += '<div class="challenge-card__icon">' + (ch.icon || '🎯') + '</div>'
-        html += '<div class="challenge-card__period">' + (PERIOD_EN[ch.type] || '') + '</div>'
-        html += '<div class="challenge-card__title">' + (ch.title_en || ch.title_es) + '</div>'
-        html += '<div class="challenge-card__desc">' + (ch.desc_en || ch.desc_es || '') + '</div>'
-        html += '<div class="challenge-card__progress"><div class="challenge-card__track"><div class="challenge-card__fill" style="width:' + pct + '%"></div></div><span class="challenge-card__count">' + curr + ' / ' + ch.target + '</span></div>'
-        html += '</div>'
-      }
-      container.innerHTML = html
+      renderAccountChallenges(container, challenges, attempts, progress, {
+        empty: 'Challenges coming soon!', completed: 'Done!',
+        periods: PERIOD_EN, titleField: 'title_en', descField: 'desc_en', getProgress: challengeProgress
+      })
     }
 
     function renderMessages(messages, token) {
-      if (!messages || !messages.length) return
       var section = document.getElementById('messages-section')
       var container = document.getElementById('messages-container')
-      section.hidden = false
-      var html = ''
-      for (var i = 0; i < messages.length; i++) {
-        var m = messages[i]
-        var date = new Date(m.created_at).toLocaleDateString('en-GB', { day: 'numeric', month: 'long' })
-        html += '<div class="msg-card' + (m.is_read ? '' : ' msg-card--unread') + '">'
-        html += '<img class="msg-card__avatar" src="/assets/img/logo-main.webp" alt="Samuel" width="36" height="36" loading="lazy">'
-        html += '<div class="msg-card__body"><div class="msg-card__content">' + m.content.replace(/[<>&]/g, function(c) { return {'<':'&lt;','>':'&gt;','&':'&amp;'}[c] }).replace(/\n/g, '<br>') + '</div>'
-        html += '<div class="msg-card__meta">Samuel · ' + date + '</div></div></div>'
-      }
-      container.innerHTML = html
-      var unread = messages.filter(function(m) { return !m.is_read })
-      if (unread.length) {
-        var ids = unread.map(function(m) { return m.id }).join(',')
-        fetch(APPS_URL + '/rest/v1/samuel_messages?id=in.(' + ids + ')', {
-          method: 'PATCH',
-          headers: { apikey: APPS_ANON, Authorization: 'Bearer ' + token, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
-          body: JSON.stringify({ is_read: true })
-        }).catch(function() {})
-      }
+      var ids = renderAccountMessages(section, container, messages, 'en-GB')
+      markMessagesRead(APPS_URL, APPS_ANON, token, ids).catch(function() {
+        document.getElementById('greeting-phrase').textContent = 'Messages could not be updated. Reload the page to try again.'
+      })
     }
 
     var sessionData = await supabase.auth.getSession()
@@ -328,6 +296,13 @@
     var attempts   = results[1].status === 'fulfilled' && results[1].value.ok ? await results[1].value.json() : []
     var progress   = results[2].status === 'fulfilled' && results[2].value.ok ? await results[2].value.json() : []
     var messages   = results[3].status === 'fulfilled' && results[3].value.ok ? await results[3].value.json() : []
+
+    if (results.some(function(result) { return result.status !== 'fulfilled' || !result.value.ok })) {
+      var loadError = document.createElement('p')
+      loadError.className = 'empty-state'
+      loadError.textContent = 'Some of your data could not be loaded. Reload the page to try again.'
+      document.querySelector('main').prepend(loadError)
+    }
 
     var streak = computeStreak(attempts)
     var name = user.email.split('@')[0]
@@ -377,18 +352,9 @@
     var NIVEL_LABELS = { a1:'A1', a2:'A2', b1:'B1', b2:'B2', c1:'C1' }
 
     if (progress.length) {
-      var table = document.createElement('table')
-      table.className = 'progress-table'
-      table.innerHTML = '<thead><tr><th>Level</th><th>Type</th><th>Completed</th><th>Avg. score</th></tr></thead>'
-      var tbody = document.createElement('tbody')
-      for (var ri = 0; ri < progress.length; ri++) {
-        var row = progress[ri]
-        var pct = row.average_score != null ? Math.round(row.average_score) : null
-        var bar = pct != null ? '<div class="score-bar"><div class="score-bar__track"><div class="score-bar__fill" style="width:' + pct + '%"></div></div><span>' + pct + '</span></div>' : '—'
-        tbody.innerHTML += '<tr><td>' + (NIVEL_LABELS[row.nivel] || row.nivel) + '</td><td>' + (TYPE_LABELS[row.exercise_type] || row.exercise_type) + '</td><td>' + row.completed_activities + '</td><td>' + bar + '</td></tr>'
-      }
-      table.appendChild(tbody)
-      document.getElementById('progress-container').replaceWith(table)
+      renderProgressTable(document.getElementById('progress-container'), progress, {
+        headings: ['Level', 'Type', 'Completed', 'Avg. score'], levels: NIVEL_LABELS, types: TYPE_LABELS
+      })
     }
 
     })()

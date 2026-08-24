@@ -404,13 +404,14 @@
 
   <script type="module">
     import { buildAccountUrl, finishAuthSessionFromUrl, resetPassword, signIn, signUp, supabase } from '/assets/js/auth.js'
+    import { safeAuthRedirect } from '/assets/js/auth-redirect.mjs'
 
     const flow = await finishAuthSessionFromUrl()
     const isRecovery = flow.isRecovery
 
     function redirect() {
       const r = new URLSearchParams(location.search).get('redirect')
-      location.href = r && r.startsWith('/') ? r : buildAccountUrl()
+      location.href = safeAuthRedirect(r, buildAccountUrl())
     }
 
     // ── Helpers ──
