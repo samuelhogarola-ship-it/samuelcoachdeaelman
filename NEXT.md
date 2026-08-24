@@ -9,14 +9,14 @@ Verificado contra GitHub el 2026-08-24. Revisar posibles conflictos con la remed
 
 ## Despliegue crítico pendiente (`hocdlmxzghwymamientc`)
 
-Seguir `docs/runbooks/critical-remediation-rollout.md`. No desplegar el frontend endurecido antes de configurar la clave pública real de Turnstile y verificar los secretos de Edge Functions.
+Seguir `docs/runbooks/critical-remediation-rollout.md`. El formulario de contacto actual se mantiene sin cambios: Turnstile y la nueva función `contact` quedan fuera de este despliegue.
 
 Orden obligatorio:
 
 1. Backup de perfiles, códigos y datos afectados.
 2. Migraciones `20260824000001` a `20260824000004`.
-3. Funciones `contact`, `newsletter-subscribe`, `newsletter-confirm` y `newsletter-unsubscribe`.
-4. Clave pública de Turnstile y despliegue estático.
+3. Funciones `newsletter-subscribe`, `newsletter-confirm` y `newsletter-unsubscribe`.
+4. Despliegue estático sin cambiar la configuración actual del formulario de contacto.
 5. Smoke tests de producción y registro de evidencias.
 
 ## Otras acciones manuales en Supabase
@@ -26,6 +26,7 @@ Orden obligatorio:
 
 ## Pendiente técnico
 
+- **Cloudflare Turnstile / contacto endurecido** (no bloqueante): mantener por ahora el formulario y su fallback de email actuales. Activar más adelante la nueva función `contact` cuando se decida usar Turnstile, se disponga de las claves reales y se pueda hacer una prueba controlada de extremo a extremo.
 - **Categorización visual con chips** (`.res-chip`): el CSS ya existe en `styles.css` pero NO está aplicado a ninguna tarjeta de recursos en HTML. Falta añadir `<span class="res-chip res-chip--spb">Sprachbausteine</span>` etc. a las listas de `/recursos/`, `/de/recursos/`, `/en/recursos/`
 - **Privacidad de informes profesor**: migrar PII de `localStorage` a almacenamiento autenticado tras definir roles y retención.
 - **Privacidad legal**: sustituir el borrador tras revisión legal y documentar Chatbase, Supabase, Resend y Cloudflare.
