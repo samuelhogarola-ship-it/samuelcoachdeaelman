@@ -4,18 +4,16 @@ Date prepared: 2026-08-24
 Supabase project ref: `hocdlmxzghwymamientc`  
 Production hosts: `samuelcoachdealeman.com`, `www.samuelcoachdealeman.com`
 
-This runbook deploys the premium authorization, redirect, contact, newsletter and product-data remediations. Record timestamps, operator and result in the evidence table. Never record secret values.
+This runbook deploys the premium authorization, redirect, newsletter and product-data remediations. Turnstile and the hardened `contact` Function are deferred in `NEXT.md`; keep the current production contact flow unchanged. Record timestamps, operator and result in the evidence table. Never record secret values.
 
 ## Release prerequisites
 
 - A recent database backup or point-in-time recovery window is confirmed.
 - Supabase CLI is authenticated and linked to `hocdlmxzghwymamientc`.
 - Hostinger rollback can restore the previous static release.
-- The Turnstile widget allows both production hostnames.
 - Resend has a verified `RESEND_FROM_EMAIL` sender.
 - A controlled test email and a normal non-premium test user are available.
-- Required Edge Function variables exist: `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `RESEND_API_KEY`, `RESEND_FROM_EMAIL`, `TURNSTILE_SECRET_KEY`, `CONTACT_EMAIL`, `SITE_URL`.
-- The public Turnstile site key is available for the static release. It is public configuration, but its value is not stored in this runbook.
+- Required newsletter Edge Function variables exist: `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, `RESEND_API_KEY`, `RESEND_FROM_EMAIL` and `SITE_URL`.
 
 ## Backup
 
@@ -43,18 +41,16 @@ The migration adds the score, level and type constraints as `NOT VALID`: new wri
 
 1. Confirm `git status --short` is empty and the merged commit matches the approved PR.
 2. Run `supabase db push --linked` and verify migrations `20260824000001` through `20260824000004` appear in remote migration history.
-3. Deploy `contact`, `newsletter-subscribe`, `newsletter-confirm` and `newsletter-unsubscribe` with JWT verification disabled as declared in `supabase/config.toml`.
+3. Deploy `newsletter-subscribe`, `newsletter-confirm` and `newsletter-unsubscribe` with JWT verification disabled as declared in `supabase/config.toml`. Do not deploy `contact` in this rollout.
 4. Verify required secret names exist in Supabase without printing their values.
-5. Replace `REPLACE_WITH_PRODUCTION_TURNSTILE_SITE_KEY` during the static release build/deployment. Do not commit the production key if hosting provides runtime injection.
-6. Deploy the static site to Hostinger. The contact and newsletter clients use direct public Supabase Function URLs.
-7. Purge the Hostinger/CDN cache and wait for both production hostnames to serve the new asset version.
+5. Deploy the static site to Hostinger without changing the current contact endpoint or Turnstile configuration.
+6. Purge the Hostinger/CDN cache and wait for both production hostnames to serve the new asset version.
 
-Stop the rollout on any failed step. Do not continue to static deployment if migrations, functions, sender verification or Turnstile configuration are incomplete.
+Stop the rollout on any failed step. Do not continue to static deployment if migrations, newsletter functions or sender verification are incomplete.
 
 ## Production smoke tests
 
-- Submit one complete contact form with Turnstile. Expect one success response, one `leads` row and one email to `CONTACT_EMAIL`.
-- Submit the same contact form more than five times inside 15 minutes from the test source. Expect throttling without duplicate delivery.
+- Submit one contact form through the existing production flow. Expect the same successful behavior observed before this rollout.
 - Subscribe a controlled new address. Expect the same public response used for an existing address, one confirmation email and no active subscription before confirmation.
 - Open the confirmation link, then the unsubscribe link. Expect idempotent success and correct database state.
 - Attempt login with `redirect=https://example.com`. Expect a same-origin fallback, never an external redirect.
@@ -79,8 +75,7 @@ Stop the rollout on any failed step. Do not continue to static deployment if mig
 | --- | --- | --- | --- |
 | Backup verified |  |  |  |
 | Migrations `00001`-`00004` applied |  |  |  |
-| Four Edge Functions deployed |  |  |  |
-| Turnstile hostnames and public key verified |  |  |  |
+| Three newsletter Edge Functions deployed |  |  |  |
 | Hostinger release deployed |  |  |  |
 | Contact smoke test |  |  |  |
 | Newsletter lifecycle smoke test |  |  |  |
@@ -90,6 +85,7 @@ Stop the rollout on any failed step. Do not continue to static deployment if mig
 
 ## Second wave
 
+- Enable Turnstile and the hardened `contact` Function only after obtaining the real keys and completing a controlled end-to-end test.
 - Move teacher-report PII from `localStorage` to authenticated storage after roles and retention are agreed.
 - Complete legal review and consent handling for Chatbase, Supabase, Resend and Cloudflare.
 - Add HSTS and a nonce/hash-based CSP plus `frame-ancestors`, Referrer Policy and Permissions Policy.
