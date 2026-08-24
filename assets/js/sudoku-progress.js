@@ -69,7 +69,7 @@
   function parseState(serialized) {
     try {
       return sanitizeState(typeof serialized === "string" ? JSON.parse(serialized) : serialized);
-    } catch (error) {
+    } catch {
       return createInitialState();
     }
   }

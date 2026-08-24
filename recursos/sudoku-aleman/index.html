@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku Alemán por Niveles A1-B2 | Juego Gratis</title>
+  <meta name="description" content="Juega al sudoku alemán gratis por niveles A1, A2, B1 y B2. Resuelve tableros y practica artículos, gramática y vocabulario de Vokabel Lab.">
+  <link rel="canonical" href="https://www.samuelcoachdealeman.com/recursos/sudoku-aleman/">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#087f73">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sudoku Alemán por Niveles A1-B2">
+  <meta property="og:description" content="Sudokus con retos de artículos, gramática y vocabulario alemán cada tres tableros.">
+  <meta property="og:url" content="https://www.samuelcoachdealeman.com/recursos/sudoku-aleman/">
+  <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/og-recursos.webp">
+  <meta property="og:image:alt" content="Recursos para practicar alemán">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sudoku Alemán por Niveles A1-B2">
+  <meta name="twitter:description" content="Juega y practica alemán con preguntas de Vokabel Lab.">
+  <meta name="twitter:image" content="https://www.samuelcoachdealeman.com/assets/img/og-recursos.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
+  <link rel="icon" type="image/webp" href="../../assets/img/favicon.webp">
+  <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.webp">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="../../assets/css/styles.css?v=20260614e">
+  <link rel="stylesheet" href="../../assets/css/cookie-banner-core.css">
+  <link rel="stylesheet" href="../../assets/css/sudoku-aleman.css?v=20260824">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Sudoku Alemán",
+    "url": "https://www.samuelcoachdealeman.com/recursos/sudoku-aleman/",
+    "description": "Juego gratuito de sudoku con preguntas de vocabulario, artículos y gramática alemana por niveles A1 a B2.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Cualquier navegador web",
+    "inLanguage": "es",
+    "isAccessibleForFree": true,
+    "author": { "@type": "Person", "name": "Samuel Coach de Alemán" }
+  }
+  </script>
+</head>
+<body class="premium-page sudoku-page">
+  <nav aria-label="Principal">
+    <div class="nav-inner">
+      <a class="nav-logo" href="/"><img src="../../assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
+      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li><li><a href="/servicios/">Clases</a></li><li><a href="/f/">Blog</a></li>
+        <li><a href="/recursos/">Recursos</a></li><li><a href="/sobre-mi/">Sobre mí</a></li><li><a href="/contacto/">Contacto</a></li>
+        <li><a class="nav-cta" href="/contacto/#contacto-formulario">Reservar valoración</a></li>
+      </ul>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="/">Inicio</a><a href="/servicios/">Clases</a><a href="/f/">Blog</a><a href="/recursos/">Recursos</a><a href="/sobre-mi/">Sobre mí</a><a href="/contacto/">Contacto</a>
+    </div>
+  </nav>
+
+  <main class="sudoku-main">
+    <header class="sudoku-heading">
+      <p class="sudoku-kicker">Spiel · Sprache · Fortschritt</p>
+      <h1>Sudoku Alemán</h1>
+      <p>Completa tableros y supera retos breves de vocabulario, artículos y gramática adaptados a tu nivel.</p>
+    </header>
+
+    <section class="sudoku-workspace" aria-label="Juego de sudoku alemán">
+      <div class="sudoku-toolbar">
+        <div id="levelTabs" class="level-tabs" role="tablist" aria-label="Nivel de alemán">
+          <button type="button" role="tab" data-level="A1">A1</button>
+          <button type="button" role="tab" data-level="A2">A2</button>
+          <button type="button" role="tab" data-level="B1">B1</button>
+          <button type="button" role="tab" data-level="B2">B2</button>
+        </div>
+        <label class="puzzle-picker">Reto
+          <select id="puzzleSelect" aria-label="Elegir sudoku"></select>
+        </label>
+      </div>
+
+      <div class="sudoku-layout">
+        <div class="board-column">
+          <div class="game-status" aria-label="Estado de la partida">
+            <span id="timer">00:00</span>
+            <span id="mistakes">Errores 0/3</span>
+            <span id="lives" aria-label="Vidas de alemán">Vidas 5/5</span>
+          </div>
+          <div id="sudokuBoard" class="sudoku-board" role="grid" aria-label="Tablero de sudoku 9 por 9"></div>
+          <div class="number-pad" aria-label="Teclado del sudoku">
+            <button type="button" data-number="1">1</button><button type="button" data-number="2">2</button><button type="button" data-number="3">3</button>
+            <button type="button" data-number="4">4</button><button type="button" data-number="5">5</button><button type="button" data-number="6">6</button>
+            <button type="button" data-number="7">7</button><button type="button" data-number="8">8</button><button type="button" data-number="9">9</button>
+            <button type="button" id="eraseBtn" class="erase-button" aria-label="Borrar casilla">Borrar</button>
+          </div>
+        </div>
+
+        <aside class="sudoku-sidebar" aria-label="Progreso">
+          <div>
+            <p class="sidebar-label">Nivel actual</p>
+            <strong id="currentLevel">A1</strong>
+          </div>
+          <div>
+            <p class="sidebar-label">Completados</p>
+            <strong id="completedCount">0 / 20</strong>
+          </div>
+          <div>
+            <p class="sidebar-label">Próximo reto alemán</p>
+            <div id="gateDots" class="gate-dots" aria-label="0 de 3 sudokus completados"><i></i><i></i><i></i></div>
+          </div>
+          <button type="button" id="resetBtn" class="secondary-action">Reiniciar tablero</button>
+          <p id="gameMessage" class="game-message" role="status" aria-live="polite"></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div id="languageGate" class="language-gate" role="dialog" aria-modal="true" aria-labelledby="gateTitle" hidden>
+    <div class="gate-panel">
+      <p class="gate-count">Reto de alemán</p>
+      <h2 id="gateTitle">Demuestra lo que sabes</h2>
+      <p id="gatePrompt" class="gate-prompt"></p>
+      <div id="gateOptions" class="gate-options"></div>
+      <p id="gateFeedback" class="gate-feedback" role="status" aria-live="assertive"></p>
+      <button type="button" id="rewardLivesBtn" class="reward-button" hidden>Recuperar vidas</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a class="footer-logo footer-logo-fun" href="/"><img src="../../assets/img/logo-fun.webp" alt="Samuel Coach de Alemán" width="180" height="180" loading="lazy"></a>
+        <div class="footer-links"><a href="/">Inicio</a><a href="/servicios/">Clases</a><a href="/recursos/">Recursos</a><a href="/sobre-mi/">Sobre mí</a><a href="/contacto/">Contacto</a><a href="/politica-de-privacidad/">Privacidad</a></div>
+      </div>
+      <div class="footer-bottom">Copyright © 2026 Samuel Coach de Alemán · Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/sudoku-engine.js"></script>
+  <script src="../../assets/js/sudoku-questions.js"></script>
+  <script src="../../assets/js/sudoku-progress.js"></script>
+  <script src="../../assets/js/sudoku-aleman.js" defer></script>
+  <script defer src="../../assets/js/google-analytics-core.js"></script>
+  <script src="../../assets/js/cookie-banner-core.js" defer></script>
+  <script src="../../assets/js/main.js" defer></script>
+</body>
+</html>
