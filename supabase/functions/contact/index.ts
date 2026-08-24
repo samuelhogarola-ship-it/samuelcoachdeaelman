@@ -113,21 +113,18 @@ const insertLead = async (lead: Record<string, unknown>) => {
 };
 
 const checkRateLimit = async (ipHash: string | null) => {
-  if (!ipHash) return true;
+  if (!ipHash) return false;
 
-  const since = new Date(Date.now() - 15 * 60 * 1000).toISOString();
-  const { count, error } = await supabase
-    .from("leads")
-    .select("id", { count: "exact", head: true })
-    .eq("ip_hash", ipHash)
-    .gte("created_at", since);
+  const { data, error } = await supabase.rpc("claim_contact_submission", {
+    p_ip_hash: ipHash,
+  });
 
   if (error) {
-    console.error("contact rate limit check failed", error);
+    console.error("contact rate limit claim failed", error);
     return false;
   }
 
-  return (count || 0) < 5;
+  return data === true;
 };
 
 const sendLeadEmail = async ({

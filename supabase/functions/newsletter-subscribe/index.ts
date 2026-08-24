@@ -3,15 +3,34 @@ import { createClient } from "npm:@supabase/supabase-js@2";
 import {
   buildConfirmationUrl,
   buildUnsubscribeUrl,
-  confirmationHasExpired,
+  deliveryTimestampAfterAttempt,
   normalizeLocale,
   publicSubscribeResponse,
-  shouldSendConfirmation,
 } from "./newsletter-handler.mjs";
 
 const SITE_URL = "https://www.samuelcoachdealeman.com";
 const ALLOWED_ORIGINS = new Set([SITE_URL, "https://samuelcoachdealeman.com"]);
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+type PreparedDelivery = {
+  subscriber_id: string;
+  prepared_confirmation_token: string;
+  prepared_unsubscribe_token: string;
+  delivery_attempt_id: string;
+  delivery_locale: string;
+  should_send: boolean;
+};
+
+type DeliveryPayload = {
+  from: string;
+  to: string[];
+  subject: string;
+  html: string;
+};
+
+type BoundPayload = {
+  bound_payload: unknown;
+};
 
 const requireEnv = (key: string) => {
   const value = Deno.env.get(key);
@@ -45,6 +64,17 @@ const jsonResponse = (request: Request, status: number, body: Record<string, unk
     headers: { ...corsHeaders(request), "Content-Type": "application/json" },
   });
 
+const isDeliveryPayload = (value: unknown): value is DeliveryPayload => {
+  if (!value || typeof value !== "object") return false;
+  const payload = value as Partial<DeliveryPayload>;
+  return typeof payload.from === "string"
+    && Array.isArray(payload.to)
+    && payload.to.length === 1
+    && payload.to.every((recipient) => typeof recipient === "string")
+    && typeof payload.subject === "string"
+    && typeof payload.html === "string";
+};
+
 const confirmationRedirect = (locale: string) =>
   locale === "de"
     ? `${SITE_URL}/de/newsletter-bestaetigt/`
@@ -68,7 +98,7 @@ const emailHtml = (locale: string, confirmationUrl: string, unsubscribeUrl: stri
   return `<p>Hola,</p><p>Confirma tu suscripción:</p><p><a href="${confirmationUrl}">Confirmar suscripción</a></p><p>Si no has solicitado el alta, puedes <a href="${unsubscribeUrl}">cancelar la solicitud</a>.</p>`;
 };
 
-Deno.serve(async (request) => {
+const handleRequest = async (request: Request) => {
   if (request.method === "OPTIONS") {
     const origin = request.headers.get("origin") || "";
     return new Response(null, {
@@ -98,80 +128,105 @@ Deno.serve(async (request) => {
   const now = new Date();
   const nowIso = now.toISOString();
   const expiresAt = new Date(now.getTime() + 24 * 60 * 60 * 1000).toISOString();
-  const { data: existing, error: selectError } = await supabase
-    .from("newsletter_subscribers")
-    .select("id, confirmed, confirmation_token, confirmation_expires_at, unsubscribe_token, last_confirmation_sent_at, unsubscribed_at")
-    .eq("email", email)
-    .maybeSingle();
-
-  if (selectError) {
-    console.error("newsletter lookup failed", selectError);
-    return jsonResponse(request, 500, { error: "temporary_failure" });
-  }
-  if (existing && existing.confirmed && !existing.unsubscribed_at) {
-    return jsonResponse(request, 200, publicSubscribeResponse());
-  }
-  if (existing && !shouldSendConfirmation(existing, now)) {
+  const { data: preparedData, error: prepareError } = await supabase
+    .rpc("prepare_newsletter_confirmation", {
+      p_email: email,
+      p_locale: locale,
+      p_now: nowIso,
+      p_expires_at: expiresAt,
+    })
+    .single();
+  const delivery = preparedData as PreparedDelivery | null;
+  if (prepareError || !delivery || delivery.should_send !== true) {
+    if (prepareError) console.error("newsletter delivery preparation failed", prepareError);
     return jsonResponse(request, 200, publicSubscribeResponse());
   }
 
-  const rotateConfirmation = !existing || Boolean(existing.unsubscribed_at) || confirmationHasExpired(existing, now);
-  const confirmationToken = rotateConfirmation ? crypto.randomUUID() : existing.confirmation_token;
-  const unsubscribeToken = existing?.unsubscribe_token || crypto.randomUUID();
+  const subscriberId = delivery.subscriber_id;
+  const confirmationToken = delivery.prepared_confirmation_token;
+  const unsubscribeToken = delivery.prepared_unsubscribe_token;
+  const deliveryAttemptId = delivery.delivery_attempt_id;
+  const deliveryLocale = normalizeLocale(delivery.delivery_locale);
+  const confirmUrl = buildConfirmationUrl(
+    supabaseUrl,
+    confirmationToken,
+    deliveryLocale,
+    confirmationRedirect(deliveryLocale),
+  );
+  const unsubscribeUrl = buildUnsubscribeUrl(supabaseUrl, unsubscribeToken, deliveryLocale);
 
-  if (existing) {
-    const { error } = await supabase
-      .from("newsletter_subscribers")
-      .update({
-        locale,
-        confirmed: false,
-        confirmed_at: null,
-        unsubscribed_at: null,
-        subscribed_at: nowIso,
-        confirmation_token: confirmationToken,
-        confirmation_expires_at: rotateConfirmation ? expiresAt : existing.confirmation_expires_at,
-        unsubscribe_token: unsubscribeToken,
-        last_confirmation_sent_at: nowIso,
+  const completeDelivery = async (delivered: boolean) => {
+    try {
+      const deliveredAt = deliveryTimestampAfterAttempt(delivered, nowIso);
+      const { error } = await supabase.rpc("complete_newsletter_confirmation", {
+        p_subscriber_id: subscriberId,
+        p_claimed_at: nowIso,
+        p_delivered: Boolean(deliveredAt),
+      });
+      if (error) console.error("newsletter delivery completion failed", error);
+    } catch (error) {
+      console.error("newsletter delivery completion threw", error);
+    }
+  };
+
+  const requestedPayload: DeliveryPayload = {
+    from: requireEnv("RESEND_FROM_EMAIL"),
+    to: [email],
+    subject: emailSubject[deliveryLocale],
+    html: emailHtml(deliveryLocale, confirmUrl, unsubscribeUrl),
+  };
+  let boundPayload: BoundPayload | null = null;
+  try {
+    const { data, error } = await supabase
+      .rpc("bind_newsletter_confirmation_payload", {
+        p_subscriber_id: subscriberId,
+        p_claimed_at: nowIso,
+        p_delivery_id: deliveryAttemptId,
+        p_payload: requestedPayload,
       })
-      .eq("id", existing.id);
-    if (error) {
-      console.error("newsletter update failed", error);
-      return jsonResponse(request, 500, { error: "temporary_failure" });
-    }
-  } else {
-    const { error } = await supabase.from("newsletter_subscribers").insert({
-      email,
-      locale,
-      confirmation_token: confirmationToken,
-      confirmation_expires_at: expiresAt,
-      unsubscribe_token: unsubscribeToken,
-      last_confirmation_sent_at: nowIso,
-    });
-    if (error) {
-      console.error("newsletter insert failed", error);
-      return jsonResponse(request, 500, { error: "temporary_failure" });
-    }
+      .single();
+    if (error) console.error("newsletter payload binding failed", error);
+    boundPayload = error ? null : data as BoundPayload | null;
+  } catch (error) {
+    console.error("newsletter payload binding threw", error);
   }
+  if (!boundPayload || !isDeliveryPayload(boundPayload.bound_payload)) {
+    await completeDelivery(false);
+    return jsonResponse(request, 200, publicSubscribeResponse());
+  }
+  const deliveryPayload = boundPayload.bound_payload;
 
-  const confirmUrl = buildConfirmationUrl(supabaseUrl, confirmationToken, locale, confirmationRedirect(locale));
-  const unsubscribeUrl = buildUnsubscribeUrl(supabaseUrl, unsubscribeToken, locale);
-  const resendResponse = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${requireEnv("RESEND_API_KEY")}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      from: requireEnv("RESEND_FROM_EMAIL"),
-      to: [email],
-      subject: emailSubject[locale],
-      html: emailHtml(locale, confirmUrl, unsubscribeUrl),
-    }),
-  });
+  let resendResponse: Response;
+  try {
+    resendResponse = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${requireEnv("RESEND_API_KEY")}`,
+        "Content-Type": "application/json",
+        "Idempotency-Key": `newsletter-confirmation/${deliveryAttemptId}`,
+      },
+      body: JSON.stringify(deliveryPayload),
+    });
+  } catch (error) {
+    console.error("newsletter email threw", error);
+    await completeDelivery(false);
+    return jsonResponse(request, 200, publicSubscribeResponse());
+  }
 
   if (!resendResponse.ok) {
-    console.error("newsletter email failed", await resendResponse.text());
-    return jsonResponse(request, 500, { error: "temporary_failure" });
+    console.error("newsletter email failed", resendResponse.status);
+    await completeDelivery(false);
+    return jsonResponse(request, 200, publicSubscribeResponse());
   }
+  await completeDelivery(true);
   return jsonResponse(request, 200, publicSubscribeResponse());
+};
+
+Deno.serve(async (request) => {
+  try {
+    return await handleRequest(request);
+  } catch (error) {
+    console.error("newsletter subscribe failed", error);
+    return jsonResponse(request, 200, publicSubscribeResponse());
+  }
 });

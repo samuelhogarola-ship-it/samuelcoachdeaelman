@@ -223,15 +223,18 @@ export const calculateRiskScore = (payload) => {
 export const extractClientIp = (headers) => {
   const requestHeaders = new Headers(headers || {});
   const forwarded = requestHeaders.get("x-forwarded-for");
-  if (forwarded) {
-    return forwarded.split(",")[0]?.trim() || null;
-  }
+  if (!forwarded) return null;
 
-  return (
-    requestHeaders.get("cf-connecting-ip") ||
-    requestHeaders.get("x-real-ip") ||
-    requestHeaders.get("x-client-ip")
-  );
+  const values = forwarded.split(",").map((value) => value.trim()).filter(Boolean);
+  if (values.length !== 1) return null;
+
+  const gatewayIp = values[0];
+  const alternatives = ["cf-connecting-ip", "x-real-ip", "x-client-ip"]
+    .map((name) => requestHeaders.get(name)?.trim())
+    .filter(Boolean);
+  if (alternatives.some((value) => value !== gatewayIp)) return null;
+
+  return gatewayIp;
 };
 
 export const sha256Hex = async (value) => {
@@ -288,7 +291,7 @@ export const buildLeadEmailText = (lead) =>
 
 export const createContactService = ({
   verifyTurnstile,
-  checkRateLimit = async () => true,
+  checkRateLimit = async (_ipHash) => true,
   insertLead,
   sendLeadEmail,
   hashIp = sha256Hex,
@@ -314,9 +317,11 @@ export const createContactService = ({
     const ipHash = clientIp ? await hashIp(clientIp) : null;
     const userAgent = new Headers(headers || {}).get("user-agent");
 
-    if (!(await checkRateLimit(ipHash))) {
+    const turnstileResult = await verifyTurnstile(payload.turnstileToken, clientIp);
+
+    if (!turnstileResult.success) {
       return {
-        status: 429,
+        status: 400,
         body: {
           success: false,
           messageKey: "retry",
@@ -325,11 +330,9 @@ export const createContactService = ({
       };
     }
 
-    const turnstileResult = await verifyTurnstile(payload.turnstileToken, clientIp);
-
-    if (!turnstileResult.success) {
+    if (!ipHash || !(await checkRateLimit(ipHash))) {
       return {
-        status: 400,
+        status: 429,
         body: {
           success: false,
           messageKey: "retry",

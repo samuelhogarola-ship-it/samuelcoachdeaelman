@@ -19,7 +19,7 @@ const snapshot = () => {
 };
 
 const before = snapshot();
-run("npm", ["run", "build"]);
+run("npm", ["run", "build:generated"]);
 const after = snapshot();
 
 if (before !== after) {

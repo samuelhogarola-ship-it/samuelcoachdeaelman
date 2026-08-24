@@ -73,13 +73,13 @@ test.describe("contact form", () => {
     expect(contactRequested).toBe(false);
   });
 
-  test("submits successfully with a mocked endpoint and mocked Turnstile", async ({ page }) => {
+  test("submits to the canonical endpoint with mocked Turnstile", async ({ page }) => {
     let requestBody = null;
+    let requestUrl = null;
 
     await page.addInitScript(() => {
       window.__SAMUEL_CONTACT_CONFIG__ = {
-        turnstileSiteKey: "production-site-key",
-        contactEndpoint: "/functions/v1/contact/"
+        turnstileSiteKey: "production-site-key"
       };
 
       window.__turnstileToken = "mock-turnstile-token";
@@ -101,6 +101,7 @@ test.describe("contact form", () => {
     });
 
     await page.route("**/functions/v1/contact**", async (route) => {
+      requestUrl = route.request().url();
       requestBody = route.request().postDataJSON();
       await route.fulfill({
         status: 200,
@@ -131,5 +132,8 @@ test.describe("contact form", () => {
       email: "maria.gomez@example.com",
       turnstileToken: "mock-turnstile-token"
     });
+    expect(requestUrl).toBe(
+      "https://hocdlmxzghwymamientc.supabase.co/functions/v1/contact"
+    );
   });
 });

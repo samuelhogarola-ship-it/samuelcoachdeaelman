@@ -7,16 +7,16 @@ alter table public.samuel_attempts
 alter table public.samuel_attempts
   drop constraint if exists samuel_attempts_score_range,
   add constraint samuel_attempts_score_range
-    check (score is null or (score >= 0 and max_score > 0 and score <= max_score)),
+    check (score is null or (score >= 0 and max_score > 0 and score <= max_score)) not valid,
   drop constraint if exists samuel_attempts_nivel_known,
   add constraint samuel_attempts_nivel_known
-    check (nivel is null or nivel in ('A1', 'A2', 'B1', 'B2', 'C1')),
+    check (nivel is null or nivel in ('A1', 'A2', 'B1', 'B2', 'C1')) not valid,
   drop constraint if exists samuel_attempts_type_known,
   add constraint samuel_attempts_type_known
     check (exercise_type is null or exercise_type in (
       'leseverstehen', 'sprachbausteine_type1', 'sprachbausteine_type2',
       'lueckentext_type1', 'lueckentext_type2', 'hoerverstehen', 'schreiben'
-    ));
+    )) not valid;
 
 drop policy if exists "samuel_attempts_own_insert" on public.samuel_attempts;
 create policy "samuel_attempts_own_insert"

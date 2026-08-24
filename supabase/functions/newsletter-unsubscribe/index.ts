@@ -28,7 +28,6 @@ Deno.serve(async (request) => {
       unsubscribed_at: new Date().toISOString(),
       confirmation_token: crypto.randomUUID(),
       confirmation_expires_at: null,
-      unsubscribe_token: crypto.randomUUID(),
     })
     .eq("unsubscribe_token", token)
     .select("id")

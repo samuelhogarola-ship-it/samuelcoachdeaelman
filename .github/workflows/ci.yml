@@ -45,3 +45,25 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 7
+
+  database:
+    name: Supabase database policies
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: supabase/setup-cli@v2
+        with:
+          version: 2.115.0
+          github-token: ${{ github.token }}
+      - run: supabase db start
+      - run: supabase test db supabase/tests
+
+  edge-functions:
+    name: Edge Function typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - run: deno check supabase/functions/contact/index.ts supabase/functions/newsletter-subscribe/index.ts supabase/functions/newsletter-confirm/index.ts supabase/functions/newsletter-unsubscribe/index.ts

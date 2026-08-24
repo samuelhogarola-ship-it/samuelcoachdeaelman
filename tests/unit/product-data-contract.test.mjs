@@ -20,6 +20,7 @@ test("product migration aligns attempts, progress and read receipts", async () =
   assert.match(sql, /add column if not exists nivel text/i);
   assert.match(sql, /alter column exercise_id drop not null/i);
   assert.match(sql, /score[^;]+score <= max_score/is);
+  assert.match(sql, /samuel_attempts_score_range[\s\S]+not valid/i);
   assert.match(sql, /v_nivel not in \('a1', 'a2', 'b1', 'b2', 'c1'\)/i);
   assert.match(sql, /mark_samuel_messages_read\(uuid\[\]\)/i);
   assert.match(sql, /user_id = auth\.uid\(\)[^;]+sender = 'coach'/is);

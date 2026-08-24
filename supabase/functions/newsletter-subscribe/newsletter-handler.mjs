@@ -22,6 +22,9 @@ export const buildUnsubscribeUrl = (supabaseUrl, token, locale) => {
 
 export const publicSubscribeResponse = () => ({ status: "confirmation_sent" });
 
+export const deliveryTimestampAfterAttempt = (delivered, sentAt) =>
+  delivered ? sentAt : null;
+
 export const shouldSendConfirmation = (subscriber, now = new Date()) => {
   if (!subscriber || !subscriber.last_confirmation_sent_at) return true;
   const lastSent = new Date(subscriber.last_confirmation_sent_at).getTime();

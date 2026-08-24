@@ -341,7 +341,7 @@ const initOfferForms = () => {
   const normalizeContactEndpoint = (value) => {
     const endpoint = (value || "").trim();
     if (endpoint === "/functions/v1/contact") return "/functions/v1/contact/";
-    return endpoint || "/functions/v1/contact/";
+    return endpoint || "https://hocdlmxzghwymamientc.supabase.co/functions/v1/contact";
   };
   const turnstileSiteKey = readPublicConfig(
     runtimeConfig.turnstileSiteKey,
@@ -605,9 +605,7 @@ const initOfferForms = () => {
         }
       }
 
-      const action = normalizeContactEndpoint(
-        configuredEndpoint || form.getAttribute("action")
-      );
+      const action = normalizeContactEndpoint(configuredEndpoint);
       const payload = payloadFromForm(form);
 
       setStatusMessage(submitText.sending);
