@@ -70,6 +70,19 @@ test.describe("home interactions", () => {
     );
   });
 
+  test("rejects external post-login redirect destinations", async ({ context, page }) => {
+    await context.clearCookies();
+    await page.goto("/login/?redirect=//evil.example");
+
+    const destination = await page.evaluate(async () => {
+      const { safeAuthRedirect } = await import("/assets/js/auth-redirect.mjs");
+      const candidate = new URLSearchParams(location.search).get("redirect");
+      return safeAuthRedirect(candidate, "/mi-cuenta/");
+    });
+
+    expect(destination).toBe("/mi-cuenta/");
+  });
+
   test("redirects localized account pages to localized login when signed out", async ({ context, page }) => {
     await context.clearCookies();
 
