@@ -25,6 +25,7 @@ const buildService = (overrides = {}) =>
     verifyTurnstile: async () => ({ success: true }),
     insertLead: async () => ({ success: true, id: "lead-1" }),
     sendLeadEmail: async () => ({ success: true }),
+    checkRateLimit: async () => true,
     hashIp: async () => "hashed-ip",
     now: () => "2026-06-27T18:00:00.000Z",
     logger: { error() {} },
@@ -65,6 +66,81 @@ test("rejects an invalid turnstile token", async () => {
   assert.equal(result.status, 400);
   assert.equal(result.body.success, false);
   assert.equal(result.body.message, GENERIC_RETRY_MESSAGE);
+  assert.equal(inserted, false);
+});
+
+test("rejects a missing turnstile token before calling dependencies", async () => {
+  let verified = false;
+  const service = buildService({
+    verifyTurnstile: async () => {
+      verified = true;
+      return { success: true };
+    }
+  });
+
+  const result = await service.process({
+    payload: { ...basePayload(), turnstileToken: "" },
+    headers: new Headers()
+  });
+
+  assert.equal(result.status, 400);
+  assert.equal(result.body.success, false);
+  assert.equal(verified, false);
+});
+
+test("rejects oversized fields before verification or persistence", async () => {
+  let verified = false;
+  let inserted = false;
+  const service = buildService({
+    verifyTurnstile: async () => {
+      verified = true;
+      return { success: true };
+    },
+    insertLead: async () => {
+      inserted = true;
+      return { success: true, id: "lead-1" };
+    }
+  });
+
+  const result = await service.process({
+    payload: { ...basePayload(), name: "M".repeat(121) },
+    headers: new Headers()
+  });
+
+  assert.equal(result.status, 400);
+  assert.equal(result.body.success, false);
+  assert.equal(verified, false);
+  assert.equal(inserted, false);
+});
+
+test("rate limits repeated submissions using only the hashed IP", async () => {
+  let checkedHash = null;
+  let verified = false;
+  let inserted = false;
+  const service = buildService({
+    checkRateLimit: async (ipHash) => {
+      checkedHash = ipHash;
+      return false;
+    },
+    verifyTurnstile: async () => {
+      verified = true;
+      return { success: true };
+    },
+    insertLead: async () => {
+      inserted = true;
+      return { success: true, id: "lead-1" };
+    }
+  });
+
+  const result = await service.process({
+    payload: basePayload(),
+    headers: new Headers({ "x-forwarded-for": "203.0.113.10" })
+  });
+
+  assert.equal(result.status, 429);
+  assert.equal(result.body.success, false);
+  assert.equal(checkedHash, "hashed-ip");
+  assert.equal(verified, false);
   assert.equal(inserted, false);
 });
 

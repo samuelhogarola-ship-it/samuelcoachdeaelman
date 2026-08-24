@@ -54,16 +54,11 @@ test.describe("contact form", () => {
     );
   });
 
-  test("falls back to a prepared email when the contact endpoint is unavailable", async ({ page }) => {
+  test("fails closed when the Turnstile site key is missing", async ({ page }) => {
+    let contactRequested = false;
     await page.route("**/functions/v1/contact**", async (route) => {
-      await route.fulfill({
-        status: 404,
-        contentType: "application/json",
-        body: JSON.stringify({
-          success: false,
-          message: "Requested function was not found"
-        })
-      });
+      contactRequested = true;
+      await route.abort();
     });
 
     await page.goto("/#valoracion");
@@ -73,8 +68,9 @@ test.describe("contact form", () => {
     await page.getByRole("button", { name: /quiero mi plan personalizado/i }).click();
 
     await expect(page.locator(".form-status")).toHaveText(
-      /he preparado el email con tus datos/i
+      /No se pudo cargar la comprobación de seguridad/i
     );
+    expect(contactRequested).toBe(false);
   });
 
   test("submits successfully with a mocked endpoint and mocked Turnstile", async ({ page }) => {

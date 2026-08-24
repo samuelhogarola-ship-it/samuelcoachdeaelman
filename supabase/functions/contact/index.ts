@@ -6,16 +6,40 @@ import {
   GENERIC_RETRY_MESSAGE
 } from "./contact-handler.mjs";
 
-const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type"
+const PRODUCTION_ORIGINS = new Set([
+  "https://www.samuelcoachdealeman.com",
+  "https://samuelcoachdealeman.com"
+]);
+
+const isAllowedOrigin = (origin: string) => {
+  if (PRODUCTION_ORIGINS.has(origin)) return true;
+
+  try {
+    const url = new URL(origin);
+    return (
+      (url.hostname === "127.0.0.1" || url.hostname === "localhost") &&
+      (url.protocol === "http:" || url.protocol === "https:")
+    );
+  } catch (_error) {
+    return false;
+  }
 };
 
-const jsonResponse = (status: number, body: Record<string, unknown>) =>
+const corsHeaders = (request: Request) => {
+  const origin = request.headers.get("origin") || "";
+  return {
+    ...(isAllowedOrigin(origin) ? { "Access-Control-Allow-Origin": origin } : {}),
+    "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    Vary: "Origin"
+  };
+};
+
+const jsonResponse = (request: Request, status: number, body: Record<string, unknown>) =>
   new Response(JSON.stringify(body), {
     status,
     headers: {
-      ...corsHeaders,
+      ...corsHeaders(request),
       "Content-Type": "application/json"
     }
   });
@@ -88,6 +112,24 @@ const insertLead = async (lead: Record<string, unknown>) => {
   };
 };
 
+const checkRateLimit = async (ipHash: string | null) => {
+  if (!ipHash) return true;
+
+  const since = new Date(Date.now() - 15 * 60 * 1000).toISOString();
+  const { count, error } = await supabase
+    .from("leads")
+    .select("id", { count: "exact", head: true })
+    .eq("ip_hash", ipHash)
+    .gte("created_at", since);
+
+  if (error) {
+    console.error("contact rate limit check failed", error);
+    return false;
+  }
+
+  return (count || 0) < 5;
+};
+
 const sendLeadEmail = async ({
   lead,
   leadId
@@ -123,6 +165,7 @@ const sendLeadEmail = async ({
 
 const contactService = createContactService({
   verifyTurnstile,
+  checkRateLimit,
   insertLead,
   sendLeadEmail,
   logger: console
@@ -130,11 +173,15 @@ const contactService = createContactService({
 
 Deno.serve(async (request) => {
   if (request.method === "OPTIONS") {
-    return new Response("ok", { headers: corsHeaders });
+    const origin = request.headers.get("origin") || "";
+    if (origin && !isAllowedOrigin(origin)) {
+      return new Response("Forbidden", { status: 403, headers: corsHeaders(request) });
+    }
+    return new Response("ok", { headers: corsHeaders(request) });
   }
 
   if (request.method !== "POST") {
-    return jsonResponse(405, {
+    return jsonResponse(request, 405, {
       success: false,
       message: GENERIC_RETRY_MESSAGE
     });
@@ -147,10 +194,10 @@ Deno.serve(async (request) => {
       headers: request.headers
     });
 
-    return jsonResponse(result.status, result.body);
+    return jsonResponse(request, result.status, result.body);
   } catch (error) {
     console.error("contact function failed", error);
-    return jsonResponse(500, {
+    return jsonResponse(request, 500, {
       success: false,
       message: GENERIC_RETRY_MESSAGE
     });

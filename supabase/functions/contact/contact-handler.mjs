@@ -6,6 +6,26 @@ export const GENERIC_RISK_MESSAGE =
 export const SUCCESS_MESSAGE =
   "Mensaje enviado. Te responderé lo antes posible.";
 
+const FIELD_MAX_LENGTHS = {
+  name: 120,
+  email: 254,
+  phone: 32,
+  age_band: 40,
+  goal: 160,
+  current_level: 80,
+  availability: 160,
+  message: 3000,
+  company: 160,
+  service_interest: 160,
+  hours_per_week: 80,
+  preferred_schedule: 160,
+  situation: 3000,
+  turnstileToken: 4096,
+  locale: 10,
+  page_path: 500,
+  user_message: 5000
+};
+
 const TEMPORARY_EMAIL_DOMAINS = new Set([
   "10minutemail.com",
   "10minutemail.net",
@@ -139,6 +159,12 @@ export const validateBasicPayload = (payload) => {
     errors.push("email_format");
   }
 
+  Object.entries(FIELD_MAX_LENGTHS).forEach(([field, maxLength]) => {
+    if (payload[field] && payload[field].length > maxLength) {
+      errors.push(`${field}_length`);
+    }
+  });
+
   if (hasRootVariant) {
     if (!payload.age_band) errors.push("age_band");
     if (!payload.availability) errors.push("availability");
@@ -262,6 +288,7 @@ export const buildLeadEmailText = (lead) =>
 
 export const createContactService = ({
   verifyTurnstile,
+  checkRateLimit = async () => true,
   insertLead,
   sendLeadEmail,
   hashIp = sha256Hex,
@@ -284,7 +311,20 @@ export const createContactService = ({
     }
 
     const clientIp = extractClientIp(headers);
+    const ipHash = clientIp ? await hashIp(clientIp) : null;
     const userAgent = new Headers(headers || {}).get("user-agent");
+
+    if (!(await checkRateLimit(ipHash))) {
+      return {
+        status: 429,
+        body: {
+          success: false,
+          messageKey: "retry",
+          message: GENERIC_RETRY_MESSAGE
+        }
+      };
+    }
+
     const turnstileResult = await verifyTurnstile(payload.turnstileToken, clientIp);
 
     if (!turnstileResult.success) {
@@ -303,8 +343,8 @@ export const createContactService = ({
     const leadRecord = buildLeadRecord({
       payload,
       riskScore,
-      ipHash: clientIp ? await hashIp(clientIp) : null,
-      userAgent,
+      ipHash,
+      userAgent: userAgent ? userAgent.slice(0, 512) : null,
       turnstileSuccess: true,
       status,
       createdAt: now()

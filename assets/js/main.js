@@ -499,7 +499,7 @@ const initOfferForms = () => {
     const turnstileRequiredMessage = (turnstileContainer && turnstileContainer.dataset.turnstileRequired) || copy.turnstile;
     const turnstileLoadErrorMessage = (turnstileContainer && turnstileContainer.dataset.turnstileError) || copy.turnstileError;
     const turnstileState = {
-      required: Boolean(turnstileContainer && turnstileWidget && turnstileSiteKey),
+      required: Boolean(turnstileContainer && turnstileWidget),
       enabled: Boolean(turnstileContainer && turnstileWidget && turnstileSiteKey),
       widgetId: null,
       loaded: false
@@ -546,7 +546,9 @@ const initOfferForms = () => {
       field.addEventListener("change", resetField);
     });
 
-    if (turnstileState.enabled) {
+    if (turnstileState.required && !turnstileState.enabled) {
+      setStatusMessage(turnstileLoadErrorMessage, "error");
+    } else if (turnstileState.enabled) {
       loadTurnstile()
         .then((turnstile) => {
           turnstileState.widgetId = turnstile.render(turnstileWidget, {
