@@ -152,9 +152,9 @@ function getUserId() {
 // Guarda progreso en Supabase vía RPC increment_samuel_progress
 async function saveLeseProgress(nivel, score100) {
   const token = getAccessToken();
-  if (!token) return;
+  if (!token) return false;
   try {
-    await fetch(`${SUPABASE_URL}/rest/v1/rpc/increment_samuel_progress`, {
+    const response = await fetch(`${SUPABASE_URL}/rest/v1/rpc/increment_samuel_progress`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -167,7 +167,10 @@ async function saveLeseProgress(nivel, score100) {
         p_score: score100,
       }),
     });
-  } catch (_) { /* silencioso — no bloquea UX */ }
+    return response.ok;
+  } catch (_) {
+    return false;
+  }
 }
 
 // ── Renderizado ───────────────────────────────────────────────────────────────
@@ -350,7 +353,16 @@ function renderLectura(container, slug) {
         const score100 = texto.preguntas.length > 0
           ? Math.round((aciertos / texto.preguntas.length) * 100)
           : 0;
-        saveLeseProgress(texto.nivel, score100);
+        saveLeseProgress(texto.nivel, score100).then(saved => {
+          if (saved) return;
+          let saveError = resultado.querySelector('.lese-save-error');
+          if (!saveError) {
+            saveError = document.createElement('p');
+            saveError.className = 'lese-save-error';
+            resultado.appendChild(saveError);
+          }
+          saveError.textContent = 'No se pudo guardar el progreso. Recarga e inténtalo de nuevo.';
+        });
       }
     }
   }
