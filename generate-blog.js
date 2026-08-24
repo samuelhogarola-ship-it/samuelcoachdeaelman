@@ -209,6 +209,11 @@ function generateBlog() {
     const outputPath = path.join(OUTPUT_DIR, slug, 'index.html');
     const outputDir = path.dirname(outputPath);
 
+    if (fs.existsSync(outputPath) && process.env.REBUILD_BLOG_PAGES !== '1') {
+      console.log(`- Preserved editorial page ${slug}`);
+      return;
+    }
+
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true });
     }

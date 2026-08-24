@@ -2067,6 +2067,9 @@ function writeLocalizedPages() {
     for (const locale of targetLocales) {
       const relativeFile = path.join(locale, page.slug, "index.html");
       const targetFile = path.join(rootDir, relativeFile);
+      if (fs.existsSync(targetFile) && process.env.REBUILD_LOCALIZED_PAGES !== "1") {
+        continue;
+      }
       ensureDir(targetFile);
       fs.writeFileSync(targetFile, buildHtml(page, locale), "utf8");
     }
@@ -2103,15 +2106,15 @@ function updateSitemap() {
     }
   }
 
-  const block = `  <!-- I18N:START -->\n${localizedEntries.join("\n")}\n  <!-- I18N:END -->\n\n`;
+  const block = `  <!-- I18N:START -->\n${localizedEntries.join("\n")}\n  <!-- I18N:END -->`;
   let next = source
-    .replace(/\s*<!-- I18N:START -->[\s\S]*?<!-- I18N:END -->\s*/g, "\n")
+    .replace(/\n[ \t]*<!-- I18N:START -->[\s\S]*?<!-- I18N:END -->\n?/g, "")
     .replace(/\s*<url>\s*<loc>https:\/\/www\.samuelcoachdealeman\.com\/(?:de\/|en\/)?recursos\/lueckentext\/[^<]*<\/loc>\s*<\/url>/g, "");
 
   if (next.includes("<!-- LESEVERSTEHEN:START -->")) {
-    next = next.replace("  <!-- LESEVERSTEHEN:START -->", `${block}  <!-- LESEVERSTEHEN:START -->`);
+    next = next.replace(/\n+[ \t]*<!-- LESEVERSTEHEN:START -->/m, `\n\n${block}\n\n  <!-- LESEVERSTEHEN:START -->`);
   } else {
-    next = next.replace("</urlset>", `${block}</urlset>`);
+    next = next.replace("</urlset>", `\n${block}\n</urlset>`);
   }
 
   fs.writeFileSync(sitemapFile, next, "utf8");
