@@ -3,6 +3,8 @@ import fs from "node:fs";
 import test from "node:test";
 
 const migrationPath = "supabase/migrations/20260824000001_lock_down_premium.sql";
+const deployedHotfixPath =
+  "supabase/migrations/20260824161000_lock_down_existing_premium.sql";
 
 test("premium migration removes user writes and public admin RPC access", () => {
   assert.equal(fs.existsSync(migrationPath), true, "corrective premium migration must exist");
@@ -35,4 +37,28 @@ test("premium code redemption claims a code atomically", () => {
   assert.match(redeemBody, /redeemed_by is null/i);
   assert.match(redeemBody, /returning[\s\S]+duration_days/i);
   assert.doesNotMatch(redeemBody, /select[\s\S]+from public\.samuel_premium_codes[\s\S]+redeemed_by is null/i);
+});
+
+test("deployed premium hotfix blocks every administrative RPC", () => {
+  assert.equal(fs.existsSync(deployedHotfixPath), true, "deployed premium hotfix must be tracked");
+  const sql = fs.readFileSync(deployedHotfixPath, "utf8");
+
+  for (const signature of [
+    "admin_set_premium\\(uuid, integer\\)",
+    "generate_premium_code\\(integer, text, text\\)",
+    "cancel_premium_code\\(text\\)",
+    "list_premium_codes\\(text\\)",
+  ]) {
+    assert.match(
+      sql,
+      new RegExp(
+        `revoke execute on function public\\.${signature} from public, anon, authenticated`,
+        "i"
+      )
+    );
+    assert.match(
+      sql,
+      new RegExp(`grant execute on function public\\.${signature} to service_role`, "i")
+    );
+  }
 });
