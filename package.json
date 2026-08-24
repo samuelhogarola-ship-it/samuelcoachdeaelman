@@ -8,6 +8,7 @@
     "build:blog": "node generate-blog.js",
     "build": "npm run build:blog && npm run build:i18n",
     "check:generated": "node scripts/check-generated-clean.mjs",
+    "check:links": "node scripts/check-internal-links.mjs",
     "test:unit": "node --test tests/unit/*.test.mjs tests/security/*.test.mjs supabase/functions/contact/index.test.mjs",
     "new:post": "node new-post.js",
     "test:e2e:smoke": "playwright test tests/playwright/resources-preview.spec.js --reporter=line",

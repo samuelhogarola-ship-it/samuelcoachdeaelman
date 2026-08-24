@@ -20,6 +20,8 @@ jobs:
       - run: npm run lint
       - run: npm run test:unit
       - run: npm run check:generated
+      - run: npm run check:links
+      - run: npm audit --audit-level=high
 
   e2e:
     name: Playwright E2E
