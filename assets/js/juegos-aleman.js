@@ -505,7 +505,7 @@
     state.locked = false;
     state.level = levelSelect.value;
     updateMeta();
-    startButton.textContent = "Preparar ronda";
+    startButton.textContent = "Nueva ronda";
 
     if (state.mode === "paquete") packageRound();
     if (state.mode === "contrabando") contrabandRound();
@@ -544,11 +544,15 @@
       if (gamesPanel) gamesPanel.setAttribute("aria-labelledby", button.id);
       reset();
       title.textContent = titles[state.mode];
+      startRound();
     });
   });
 
   startButton.addEventListener("click", startRound);
-  resetButton.addEventListener("click", reset);
+  resetButton.addEventListener("click", () => {
+    reset();
+    startRound();
+  });
 
-  updateMeta();
+  startRound();
 })();
