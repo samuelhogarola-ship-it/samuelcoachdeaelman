@@ -58,6 +58,16 @@ test("accepts umlaut and Eszett transliterations when validating answers", () =>
   assert.equal(engine.isAnswerCorrect("apfel", "Äpfel"), false);
 });
 
+test("rejects empty answers and missing or empty solutions", () => {
+  assert.equal(engine.isAnswerCorrect("", "Haus"), false);
+  assert.equal(engine.isAnswerCorrect(" ", "Haus"), false);
+  assert.equal(engine.isAnswerCorrect(null, "Haus"), false);
+  assert.equal(engine.isAnswerCorrect("Haus", ""), false);
+  assert.equal(engine.isAnswerCorrect("Haus", null), false);
+  assert.equal(engine.isAnswerCorrect("", undefined), false);
+  assert.equal(engine.isAnswerCorrect("", {}), false);
+});
+
 function assertConnectedPuzzle(puzzle, expectedCount) {
   assert.ok(puzzle);
   assert.equal(puzzle.words.length, expectedCount);
@@ -90,4 +100,35 @@ test("builds connected puzzles with the configured word count", () => {
   assertConnectedPuzzle(engine.buildPuzzle(prepared, "easy", () => 0.2), 2);
   assertConnectedPuzzle(engine.buildPuzzle(prepared, "medium", () => 0.4), 3);
   assertConnectedPuzzle(engine.buildPuzzle(prepared, "hard", () => 0.6), 4);
+});
+
+test("only shares cells between perpendicular words", () => {
+  const puzzle = engine.buildPuzzle([
+    { id: "weinglas", de: "Weinglas", es: "copa de vino", artikel: "das", type: "Nomen", level: "A1" },
+    { id: "gast", de: "Gast", es: "invitado", artikel: "der", type: "Nomen", level: "A1" },
+    { id: "teller", de: "Teller", es: "plato", artikel: "der", type: "Nomen", level: "A1" },
+    { id: "topf", de: "Topf", es: "olla", artikel: "der", type: "Nomen", level: "A1" },
+  ], "hard", () => 0);
+
+  assert.ok(puzzle);
+  const byWord = new Map(puzzle.words.map((word) => [word.id, word]));
+  const sharedCells = puzzle.cells.filter((cell) => cell.words.length > 1);
+  assert.ok(sharedCells.length > 0);
+  for (const cell of sharedCells) {
+    const directions = cell.words.map((wordId) => byWord.get(wordId).direction).sort();
+    assert.deepEqual(directions, ["horizontal", "vertical"], `invalid crossing at ${cell.x},${cell.y}`);
+  }
+});
+
+test("returns null for an invalid difficulty", () => {
+  assert.equal(engine.buildPuzzle(entries, "expert", () => 0), null);
+});
+
+test("returns null when the corpus cannot form a connected puzzle", () => {
+  const impossible = [
+    { id: "axt", de: "Axt", es: "hacha", artikel: "die", type: "Nomen", level: "A1" },
+    { id: "oede", de: "Öde", es: "árido", artikel: "", type: "Adjektiv", level: "A1" },
+  ];
+
+  assert.equal(engine.buildPuzzle(impossible, "easy", () => 0), null);
 });

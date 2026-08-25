@@ -72,7 +72,9 @@
 
   function isAnswerCorrect(value, answer) {
     var expected = answer && typeof answer === "object" ? answer.word || answer.answer : answer;
-    return normalizeAnswer(value) === normalizeAnswer(expected);
+    var normalizedValue = normalizeAnswer(value);
+    var normalizedExpected = normalizeAnswer(expected);
+    return Boolean(normalizedValue && normalizedExpected && normalizedValue === normalizedExpected);
   }
 
   function randomValue(random) {
@@ -122,6 +124,7 @@
         y: cell.y,
         letter: cell.letter,
         words: cell.words.slice(),
+        directions: cell.directions.slice(),
       });
     });
     return copy;
@@ -137,10 +140,12 @@
           y: position.y,
           letter: position.letter,
           words: [],
+          directions: [],
         };
         board.set(key, cell);
       }
       if (cell.words.indexOf(placement.id) === -1) cell.words.push(placement.id);
+      if (cell.directions.indexOf(placement.direction) === -1) cell.directions.push(placement.direction);
     });
   }
 
@@ -151,7 +156,7 @@
       var position = placement.cells[index];
       var cell = board.get(coordinateKey(position.x, position.y));
       if (cell) {
-        if (cell.letter !== position.letter) return false;
+        if (cell.letter !== position.letter || cell.directions.indexOf(placement.direction) !== -1) return false;
         intersections += 1;
       } else {
         newCells += 1;
