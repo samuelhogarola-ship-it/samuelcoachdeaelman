@@ -1,0 +1,99 @@
+:root {
+  --wordmaker-ink: #172321;
+  --wordmaker-muted: #586763;
+  --wordmaker-line: #afbeb8;
+  --wordmaker-accent: #087f73;
+  --wordmaker-accent-dark: #075e56;
+  --wordmaker-warm: #f4c95d;
+  --wordmaker-soft: #e8f4ef;
+  --wordmaker-error: #b33a32;
+  --wordmaker-board: #1e2b28;
+}
+
+.wordmaker-page { background: #f6faf8; color: var(--wordmaker-ink); }
+.skip-link { position: fixed; z-index: 300; top: 10px; left: 10px; padding: 8px 12px; background: #fff; color: var(--wordmaker-accent-dark); transform: translateY(-160%); }
+.skip-link:focus { transform: translateY(0); }
+.wordmaker-main { min-height: 80vh; padding: 42px 20px 72px; }
+.wordmaker-heading { width: min(100%, 980px); margin: 0 auto 30px; text-align: center; }
+.wordmaker-heading h1 { margin: 4px 0 10px; font-size: 2.9rem; letter-spacing: 0; }
+.wordmaker-heading > p:last-child { max-width: 670px; margin: 0 auto; color: var(--wordmaker-muted); font-size: 1.05rem; }
+.wordmaker-kicker, .control-label, .sidebar-label { margin: 0; color: var(--wordmaker-accent-dark); font-size: .75rem; font-weight: 700; letter-spacing: 0; text-transform: uppercase; }
+.wordmaker-workspace { width: min(100%, 1060px); margin: 0 auto; }
+.wordmaker-toolbar { display: flex; align-items: end; justify-content: space-between; gap: 20px; padding: 14px 0; border-top: 1px solid #d6e3de; border-bottom: 1px solid #d6e3de; }
+.control-group { display: grid; gap: 5px; }
+.level-tabs, .difficulty-controls { display: flex; gap: 6px; }
+.level-tabs button, .difficulty-controls button, .letter-tile, .secondary-action, .primary-action { min-height: 44px; border: 1px solid var(--wordmaker-line); border-radius: 5px; background: #fff; color: var(--wordmaker-ink); font: 700 1rem/1 "Lato", sans-serif; cursor: pointer; }
+.level-tabs button { width: 56px; }
+.difficulty-controls button { min-width: 76px; padding: 0 12px; }
+.level-tabs button[aria-selected="true"], .difficulty-controls button[aria-pressed="true"], .primary-action { border-color: var(--wordmaker-accent); background: var(--wordmaker-accent); color: #fff; }
+.level-tabs button:hover, .difficulty-controls button:hover, .letter-tile:hover, .secondary-action:hover { border-color: var(--wordmaker-accent); background: var(--wordmaker-soft); }
+.wordmaker-layout { display: grid; grid-template-columns: minmax(0, 680px) minmax(230px, 1fr); gap: 38px; align-items: start; padding-top: 28px; }
+.game-surface { min-width: 0; }
+.game-status { display: flex; justify-content: space-between; gap: 12px; min-height: 28px; color: var(--wordmaker-muted); font-size: .92rem; font-variant-numeric: tabular-nums; }
+.board-frame { display: grid; place-items: center; min-height: 324px; padding: 16px 0; }
+.wordmaker-board { display: grid; grid-template-columns: repeat(var(--columns), var(--cell-size)); grid-template-rows: repeat(var(--rows), var(--cell-size)); width: max-content; max-width: 100%; background: transparent; gap: 2px; }
+.wordmaker-cell { min-width: 0; min-height: 0; padding: 0; border: 2px solid var(--wordmaker-board); border-radius: 0; background: #fff; color: var(--wordmaker-accent-dark); font: 700 1.2rem/1 "Cabin", sans-serif; text-transform: uppercase; cursor: pointer; }
+.wordmaker-cell.is-active { background: #d9eee7; outline: 3px solid var(--wordmaker-accent); outline-offset: -3px; }
+.wordmaker-cell.is-crossing { box-shadow: inset 0 0 0 2px var(--wordmaker-warm); }
+.wordmaker-cell.is-complete { background: #edf5f1; }
+.wordmaker-cell:focus-visible { position: relative; z-index: 1; outline: 3px solid #1d558d; outline-offset: -3px; }
+.board-gap { background: transparent; }
+.letter-section { padding-top: 10px; border-top: 4px solid var(--wordmaker-warm); }
+.letter-section h2 { margin: 0 0 10px; font-size: 1rem; }
+.letter-tray { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 7px; width: min(100%, 620px); min-height: 50px; }
+.letter-tile { aspect-ratio: 1; min-height: 0; padding: 0; color: var(--wordmaker-accent-dark); font: 700 1.22rem/1 "Cabin", sans-serif; text-transform: uppercase; }
+.letter-tile:disabled { cursor: default; opacity: .35; }
+.game-actions { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; width: min(100%, 620px); margin-top: 16px; }
+.game-actions button { padding: 0 12px; }
+.game-message { min-height: 48px; margin: 12px 0 0; color: var(--wordmaker-muted); line-height: 1.5; }
+.wordmaker-sidebar { display: grid; gap: 26px; padding-top: 28px; border-top: 4px solid var(--wordmaker-warm); }
+.active-clue { margin: 6px 0 0; font: 700 1.45rem/1.3 "Cabin", sans-serif; }
+.article-hint { margin: 6px 0 0; color: var(--wordmaker-muted); font-size: .95rem; }
+.round-count { margin: 5px 0 10px; font: 700 1.15rem/1.2 "Cabin", sans-serif; }
+.clue-list { display: grid; gap: 7px; margin: 0; padding: 0; list-style: none; counter-reset: clues; }
+.clue-list button { display: grid; grid-template-columns: 28px minmax(0, 1fr); align-items: center; width: 100%; min-height: 40px; padding: 7px 8px; border: 1px solid transparent; border-radius: 4px; background: transparent; color: var(--wordmaker-muted); font: 700 .9rem/1.2 "Lato", sans-serif; text-align: left; cursor: pointer; }
+.clue-list button::before { counter-increment: clues; content: counter(clues); display: grid; place-items: center; width: 22px; height: 22px; border: 1px solid var(--wordmaker-line); border-radius: 50%; color: var(--wordmaker-accent-dark); font-size: .75rem; }
+.clue-list button.is-active { border-color: var(--wordmaker-line); background: #fff; color: var(--wordmaker-ink); }
+.clue-list button.is-complete::before { border-color: var(--wordmaker-accent); background: var(--wordmaker-accent); color: #fff; }
+.clue-list button:disabled { cursor: default; }
+.saved-progress { display: grid; gap: 4px; padding-top: 22px; border-top: 1px solid #d6e3de; }
+.saved-progress strong { font: 700 1.55rem/1.1 "Cabin", sans-serif; }
+.saved-progress span { color: var(--wordmaker-muted); font-size: .93rem; }
+.game-over-dialog { position: fixed; z-index: 2100; inset: 0; display: grid; place-items: center; padding: 20px; background: rgba(19, 32, 29, .78); }
+.game-over-dialog[hidden] { display: none; }
+.game-over-panel { width: min(100%, 510px); max-height: calc(100vh - 40px); overflow-y: auto; padding: 30px; border-top: 7px solid var(--wordmaker-warm); border-radius: 6px; background: #fff; box-shadow: 0 20px 60px rgba(0, 0, 0, .26); }
+.game-over-panel h2 { margin: 6px 0 12px; font-size: 2rem; letter-spacing: 0; }
+.game-over-panel p:not(.wordmaker-kicker) { margin: 0 0 20px; color: var(--wordmaker-muted); }
+.game-over-panel button { width: 100%; padding: 0 14px; }
+.game-over-panel button + button { margin-top: 8px; }
+.primary-action:disabled, .secondary-action:disabled { cursor: wait; opacity: .65; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.wordmaker-page button:focus-visible { outline: 3px solid #1d558d; outline-offset: 3px; }
+
+@media (max-width: 760px) {
+  .wordmaker-main { padding: 28px 12px 52px; }
+  .wordmaker-heading { margin-bottom: 22px; }
+  .wordmaker-heading h1 { font-size: 2.15rem; }
+  .wordmaker-toolbar { align-items: stretch; flex-direction: column; }
+  .control-group { width: 100%; }
+  .level-tabs, .difficulty-controls { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .difficulty-controls { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .level-tabs button, .difficulty-controls button { width: auto; min-width: 0; }
+  .wordmaker-layout { grid-template-columns: 1fr; gap: 26px; padding-top: 18px; }
+  .board-frame { min-height: 0; padding: 12px 0; }
+  .wordmaker-cell { font-size: 1rem; }
+  .letter-tray { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .wordmaker-sidebar { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; padding-top: 20px; }
+  .clue-panel, .round-progress { min-width: 0; }
+  .saved-progress { grid-column: 1 / -1; }
+}
+
+@media (max-width: 390px) {
+  .wordmaker-cell { font-size: .88rem; }
+  .game-actions { grid-template-columns: 1fr 1fr; }
+  .game-actions #newRoundBtn { grid-column: 1 / -1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+}
