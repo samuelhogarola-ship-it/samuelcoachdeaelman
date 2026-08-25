@@ -73,6 +73,57 @@ test("plays a medium round through the letter tray and starts a new round", asyn
   const previousRound = await page.evaluate(() => window.__wordmakerEvents.filter((event) => event.type === "wordmaker:round").at(-1).detail.round);
   await page.getByRole("button", { name: "Nueva ronda", exact: true }).click();
   await expect.poll(() => page.evaluate(() => window.__wordmakerEvents.filter((event) => event.type === "wordmaker:round").at(-1).detail.round)).toBeGreaterThan(previousRound);
+  await page.screenshot({ path: test.info().outputPath("wordmaker-desktop.png"), fullPage: true });
+});
+
+test("moves through German level tabs with the keyboard", async ({ page }) => {
+  await installGameEventRecorder(page);
+  await page.goto(path);
+  await waitForBoard(page);
+
+  await page.locator('#levelTabs [data-level="A1"]').focus();
+  await page.keyboard.press("ArrowRight");
+  await expect(page.locator('#levelTabs [data-level="A2"]')).toHaveAttribute("aria-selected", "true");
+  await expect(page.locator('#levelTabs [data-level="A2"]')).toBeFocused();
+});
+
+test("offers the demo reward immediately when persisted lives are exhausted", async ({ page }) => {
+  await page.addInitScript(() => {
+    localStorage.setItem("samuelcoach_cookie_consent", "rejected");
+    localStorage.setItem("wordmaker-progress", JSON.stringify({ version: 1, lives: 0 }));
+  });
+  await page.goto(path);
+  await waitForBoard(page);
+
+  await expect(page.locator("#gameOverDialog")).toBeVisible();
+  await expect(page.getByRole("button", { name: "Recargar 5 vidas (demostración)", exact: true })).toBeVisible();
+});
+
+test("fits a seeded wide B2 hard crossword inside the mobile board frame", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.addInitScript(() => {
+    localStorage.setItem("samuelcoach_cookie_consent", "rejected");
+    localStorage.removeItem("wordmaker-progress");
+    let seed = 64;
+    Math.random = () => {
+      seed = (seed * 1664525 + 1013904223) >>> 0;
+      return seed / 4294967296;
+    };
+  });
+  await page.goto(path);
+  await waitForBoard(page);
+  await page.getByRole("tab", { name: "B2", exact: true }).click();
+  await page.getByRole("button", { name: "Difícil", exact: true }).click();
+
+  const dimensions = await page.locator(".board-frame").evaluate((frame) => ({
+    clientWidth: frame.clientWidth,
+    boardWidth: frame.querySelector(".wordmaker-board").scrollWidth,
+    pageWidth: document.documentElement.scrollWidth,
+    viewportWidth: window.innerWidth,
+  }));
+  expect(dimensions.boardWidth).toBeLessThanOrEqual(dimensions.clientWidth);
+  expect(dimensions.pageWidth).toBeLessThanOrEqual(dimensions.viewportWidth);
+  await page.screenshot({ path: test.info().outputPath("wordmaker-mobile.png"), fullPage: true });
 });
 
 test("announces victory after both words in an easy round are completed", async ({ page }) => {

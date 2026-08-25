@@ -32,7 +32,7 @@
 .game-status { display: flex; justify-content: space-between; gap: 12px; min-height: 28px; color: var(--wordmaker-muted); font-size: .92rem; font-variant-numeric: tabular-nums; }
 .board-frame { display: grid; place-items: center; min-height: 324px; padding: 16px 0; }
 .wordmaker-board { display: grid; grid-template-columns: repeat(var(--columns), var(--cell-size)); grid-template-rows: repeat(var(--rows), var(--cell-size)); width: max-content; max-width: 100%; background: transparent; gap: 2px; }
-.wordmaker-cell { min-width: 0; min-height: 0; padding: 0; border: 2px solid var(--wordmaker-board); border-radius: 0; background: #fff; color: var(--wordmaker-accent-dark); font: 700 1.2rem/1 "Cabin", sans-serif; text-transform: uppercase; cursor: pointer; }
+.wordmaker-cell { min-width: 0; min-height: 0; padding: 0; border: 2px solid var(--wordmaker-board); border-radius: 0; background: #fff; color: var(--wordmaker-accent-dark); font: 700 clamp(.65rem, calc(var(--cell-size) * .38), 1.2rem)/1 "Cabin", sans-serif; text-transform: uppercase; cursor: pointer; }
 .wordmaker-cell.is-active { background: #d9eee7; outline: 3px solid var(--wordmaker-accent); outline-offset: -3px; }
 .wordmaker-cell.is-crossing { box-shadow: inset 0 0 0 2px var(--wordmaker-warm); }
 .wordmaker-cell.is-complete { background: #edf5f1; }

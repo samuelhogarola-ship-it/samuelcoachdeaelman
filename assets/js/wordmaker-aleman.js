@@ -143,7 +143,8 @@
     var frameWidth = board.parentElement ? board.parentElement.clientWidth : window.innerWidth - 24;
     var availableWidth = Math.min(620, Math.max(240, frameWidth));
     var largestAxis = Math.max(puzzle.width, puzzle.height);
-    var cellSize = Math.max(24, Math.min(56, Math.floor(availableWidth / largestAxis)));
+    var gridGaps = Math.max(0, largestAxis - 1) * 2;
+    var cellSize = Math.max(12, Math.min(56, Math.floor((availableWidth - gridGaps) / largestAxis)));
     board.style.setProperty("--cell-size", cellSize + "px");
     for (var y = puzzle.minY; y <= puzzle.maxY; y += 1) {
       for (var x = puzzle.minX; x <= puzzle.maxX; x += 1) {
@@ -288,6 +289,17 @@
     announce("wordmaker:round-complete", { round: round, score: progress.score, difficulty: difficulty });
   }
 
+  function showOutOfLives() {
+    gameMessage.textContent = "Sin vidas para esta ronda.";
+    openGameOver({
+      kicker: "Demostración",
+      title: "Sin vidas",
+      message: "La recarga local repone tus cinco vidas mientras se prepara la integración publicitaria.",
+      reward: true,
+      nextRound: false
+    });
+  }
+
   function checkWord() {
     var word = currentWord();
     if (!word || progress.lives === 0) return;
@@ -321,14 +333,7 @@
     draftEntries = [];
     render();
     if (progress.lives === 0) {
-      gameMessage.textContent = "Sin vidas para esta ronda.";
-      openGameOver({
-        kicker: "Demostración",
-        title: "Sin vidas",
-        message: "La recarga local repone tus cinco vidas mientras se prepara la integración publicitaria.",
-        reward: true,
-        nextRound: false
-      });
+      showOutOfLives();
     } else {
       gameMessage.textContent = "No encaja. Pierdes una vida.";
     }
@@ -377,6 +382,7 @@
       words: puzzle.words.map(wordPayload)
     });
     announce("wordmaker:active-word", { round: round, word: wordPayload(currentWord()) });
+    if (progress.lives === 0) showOutOfLives();
   }
 
   function changeLevel(nextLevel) {
@@ -425,6 +431,19 @@
   levelTabs.addEventListener("click", function (event) {
     var button = event.target.closest("button[data-level]");
     if (button) changeLevel(button.dataset.level);
+  });
+  levelTabs.addEventListener("keydown", function (event) {
+    var button = event.target.closest("button[data-level]");
+    if (!button || !["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+    event.preventDefault();
+    var currentIndex = LEVELS.indexOf(button.dataset.level);
+    var nextIndex = currentIndex;
+    if (event.key === "ArrowLeft") nextIndex = (currentIndex - 1 + LEVELS.length) % LEVELS.length;
+    if (event.key === "ArrowRight") nextIndex = (currentIndex + 1) % LEVELS.length;
+    if (event.key === "Home") nextIndex = 0;
+    if (event.key === "End") nextIndex = LEVELS.length - 1;
+    changeLevel(LEVELS[nextIndex]);
+    levelTabs.querySelector('[data-level="' + LEVELS[nextIndex] + '"]').focus();
   });
   difficultyControls.addEventListener("click", function (event) {
     var button = event.target.closest("button[data-difficulty]");
