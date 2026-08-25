@@ -9,6 +9,7 @@
   var MAX_LIVES = 5;
   var STORAGE_KEY = "wordmaker-progress";
   var POINTS_PER_LETTER = 10;
+  var LOCAL_REWARD_PROVIDER = "local-demo";
 
   function createInitialState() {
     return {
@@ -23,17 +24,19 @@
     };
   }
 
-  function numberOrZero(value) {
+  function numberOrDefault(value, fallback) {
+    if (value === null || value === undefined || value === "") return fallback;
+    if (typeof value !== "number" && typeof value !== "string") return fallback;
     var number = Number(value);
-    return Number.isFinite(number) ? number : 0;
+    return Number.isFinite(number) ? number : fallback;
   }
 
-  function integerAtLeast(value, minimum) {
-    return Math.max(minimum, Math.floor(numberOrZero(value)));
+  function integerAtLeast(value, minimum, fallback) {
+    return Math.max(minimum, Math.floor(numberOrDefault(value, fallback)));
   }
 
-  function clampLives(value) {
-    return Math.min(MAX_LIVES, integerAtLeast(value, 0));
+  function clampLives(value, fallback) {
+    return Math.min(MAX_LIVES, integerAtLeast(value, 0, fallback));
   }
 
   function clonePreferences(value) {
@@ -51,12 +54,12 @@
 
     var state = {
       version: VERSION,
-      lives: clampLives(value.lives),
-      score: integerAtLeast(value.score, 0),
-      streak: integerAtLeast(value.streak, 0),
-      bestScore: integerAtLeast(value.bestScore, 0),
-      bestStreak: integerAtLeast(value.bestStreak, 0),
-      completedWords: integerAtLeast(value.completedWords, 0),
+      lives: clampLives(value.lives, initial.lives),
+      score: integerAtLeast(value.score, 0, initial.score),
+      streak: integerAtLeast(value.streak, 0, initial.streak),
+      bestScore: integerAtLeast(value.bestScore, 0, initial.bestScore),
+      bestStreak: integerAtLeast(value.bestStreak, 0, initial.bestStreak),
+      completedWords: integerAtLeast(value.completedWords, 0, initial.completedWords),
       preferences: clonePreferences(value.preferences)
     };
 
@@ -79,7 +82,7 @@
 
   function applyCorrectAnswer(state, wordLength) {
     var next = cloneState(state);
-    var length = integerAtLeast(wordLength, 0);
+    var length = integerAtLeast(wordLength, 0, 0);
     var points = length * POINTS_PER_LETTER;
 
     next.score += points;
@@ -156,7 +159,7 @@
   function createLocalRewardAdapter() {
     return {
       requestReward: function () {
-        return Promise.resolve({ rewarded: true });
+        return Promise.resolve({ rewarded: true, provider: LOCAL_REWARD_PROVIDER });
       }
     };
   }

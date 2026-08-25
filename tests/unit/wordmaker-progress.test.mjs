@@ -103,11 +103,40 @@ test("falls back to a fresh state when storage is absent or corrupt", () => {
   assert.equal(unavailable.getState().lives, 4);
 });
 
+test("recovers safe defaults per field from a partial state", () => {
+  const storage = createMemoryStorage({
+    "wordmaker-progress": JSON.stringify({
+      version: 1,
+      score: "not-a-score",
+      bestScore: 25,
+      streak: null,
+      bestStreak: "not-a-streak",
+      completedWords: 3,
+      preferences: "not-preferences",
+    }),
+  });
+
+  const state = progress.createProgressStore(storage).getState();
+
+  assert.equal(state.lives, 5);
+  assert.equal(state.score, 0);
+  assert.equal(state.bestScore, 25);
+  assert.equal(state.streak, 0);
+  assert.equal(state.bestStreak, 0);
+  assert.equal(state.completedWords, 3);
+  assert.deepEqual(state.preferences, {});
+
+  const invalidLives = progress.createProgressStore(createMemoryStorage({
+    "wordmaker-progress": JSON.stringify({ version: 1, lives: "not-lives" }),
+  })).getState();
+  assert.equal(invalidLives.lives, 5);
+});
+
 test("local reward adapter exposes a replaceable request interface", async () => {
   const adapter = progress.createLocalRewardAdapter();
 
   assert.equal(typeof adapter.requestReward, "function");
   const reward = await adapter.requestReward();
-  assert.deepEqual(reward, { rewarded: true });
+  assert.deepEqual(reward, { rewarded: true, provider: "local-demo" });
   assert.equal(progress.refillLives({ ...progress.createProgressStore().getState(), lives: 0 }, reward).lives, 5);
 });
