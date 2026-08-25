@@ -2350,6 +2350,13 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/wordmaker-aleman/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- LESEVERSTEHEN:START -->
   <url>
     <loc>https://www.samuelcoachdealeman.com/leseverstehen/</loc>
