@@ -83,6 +83,25 @@ test("fails closed when the website id is missing", async () => {
   assert.equal(tracker, null);
 });
 
+test("versioned production config loads the Samuel Coach website id", async () => {
+  const config = JSON.parse(
+    await readFile(path.join(projectRoot, "umami-config.json"), "utf8"),
+  );
+  const tracker = await runBootstrap(config);
+
+  assert.equal(tracker.dataset.websiteId, "cb401ab9-2a3d-4fee-9856-6914cd77cb30");
+  assert.equal(tracker.dataset.hostUrl, "https://analytics.187.124.55.36.sslip.io");
+});
+
+test("fails closed when config points to a different Umami host", async () => {
+  const tracker = await runBootstrap({
+    hostUrl: "https://analytics.2.24.10.239.sslip.io",
+    websiteId: "cb401ab9-2a3d-4fee-9856-6914cd77cb30",
+  });
+
+  assert.equal(tracker, null);
+});
+
 test("covers every tracked HTML entry through a local analytics core", async () => {
   const htmlFiles = await collectHtmlFiles();
   const missing = [];
