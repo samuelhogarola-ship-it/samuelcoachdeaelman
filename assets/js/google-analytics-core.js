@@ -43,6 +43,16 @@
   var _scriptLoaded          = false;
   var _initialConsentGranted = false; // true when init() ran with consent already stored
 
+  function loadUmamiAnalyticsCore() {
+    if (document.querySelector('script[data-samuel-umami-bootstrap]')) return;
+
+    var script = document.createElement('script');
+    script.defer = true;
+    script.dataset.samuelUmamiBootstrap = 'true';
+    script.src = '/assets/js/umami-analytics-core.js';
+    document.head.appendChild(script);
+  }
+
   function getStorage() {
     try { return window.localStorage; } catch (_) { return null; }
   }
@@ -203,6 +213,8 @@
     trackPageview: trackPageview,
     _reset: _reset
   };
+
+  loadUmamiAnalyticsCore();
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = {

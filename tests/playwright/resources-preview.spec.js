@@ -21,7 +21,7 @@ const resourcePages = [
   },
   {
     path: "/de/recursos/",
-    heading: /ressourcen für telc und goethe/i,
+    heading: /ressourcen zum deutschlernen mit klarer richtung/i,
     cookieHeading: /deine privatsphäre ist wichtig/i,
     expectsAppsWidget: false
   },
@@ -39,7 +39,7 @@ const resourcePages = [
   },
   {
     path: "/en/recursos/",
-    heading: /resources for telc and goethe/i,
+    heading: /resources to learn german with better direction/i,
     cookieHeading: /your privacy matters/i,
     expectsAppsWidget: false
   },
