@@ -13194,6 +13194,3673 @@
         "type": "Ausdruck",
         "thema": 43,
         "level": "B2"
+      },
+      {
+        "id": "b2-44-001",
+        "de": "der Algorithmus",
+        "es": "algoritmo",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "beispiel": "Der ___ bestimmt, welche Beiträge du siehst.",
+        "plural": "Algorithmen"
+      },
+      {
+        "id": "b2-44-002",
+        "de": "die Datenschutzverordnung",
+        "es": "reglamento de protección de datos",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Datenschutzverordnungen"
+      },
+      {
+        "id": "b2-44-003",
+        "de": "der Beitrag",
+        "es": "publicación; contribución",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "beispiel": "Ihr ___ hat viele Kommentare bekommen.",
+        "plural": "Beiträge"
+      },
+      {
+        "id": "b2-44-004",
+        "de": "die Reichweite",
+        "es": "alcance",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Reichweiten"
+      },
+      {
+        "id": "b2-44-005",
+        "de": "der Datensatz",
+        "es": "conjunto de datos",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Datensätze"
+      },
+      {
+        "id": "b2-44-006",
+        "de": "die Plattform",
+        "es": "plataforma",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "beispiel": "Auf welcher ___ bist du am aktivsten?",
+        "plural": "Plattformen"
+      },
+      {
+        "id": "b2-44-007",
+        "de": "das Netzwerk",
+        "es": "red",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Netzwerke"
+      },
+      {
+        "id": "b2-44-008",
+        "de": "die Quelle",
+        "es": "fuente",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "beispiel": "Überprüfe immer die ___ einer Nachricht.",
+        "plural": "Quellen"
+      },
+      {
+        "id": "b2-44-009",
+        "de": "der Empfänger",
+        "es": "destinatario; receptor",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Empfänger"
+      },
+      {
+        "id": "b2-44-010",
+        "de": "die Überschrift",
+        "es": "titular; encabezado",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Überschriften"
+      },
+      {
+        "id": "b2-44-011",
+        "de": "der Absender",
+        "es": "remitente",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "Empfänger",
+        "plural": "Absender"
+      },
+      {
+        "id": "b2-44-012",
+        "de": "die Meinungsfreiheit",
+        "es": "libertad de expresión",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-013",
+        "de": "das Passwort",
+        "es": "contraseña",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Passwörter"
+      },
+      {
+        "id": "b2-44-014",
+        "de": "der Inhalt",
+        "es": "contenido",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Inhalte"
+      },
+      {
+        "id": "b2-44-015",
+        "de": "die Schlagzeile",
+        "es": "titular",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Schlagzeilen"
+      },
+      {
+        "id": "b2-44-016",
+        "de": "der Nutzer",
+        "es": "usuario",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Nutzer"
+      },
+      {
+        "id": "b2-44-017",
+        "de": "die Werbung",
+        "es": "publicidad",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Werbungen"
+      },
+      {
+        "id": "b2-44-018",
+        "de": "der Bildschirm",
+        "es": "pantalla",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Bildschirme"
+      },
+      {
+        "id": "b2-44-019",
+        "de": "das Abonnement",
+        "es": "suscripción",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Abonnements"
+      },
+      {
+        "id": "b2-44-020",
+        "de": "die Übertragung",
+        "es": "transmisión",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 44,
+        "level": "B2",
+        "plural": "Übertragungen"
+      },
+      {
+        "id": "b2-44-021",
+        "de": "veröffentlichen",
+        "es": "publicar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2",
+        "beispiel": "Sie will den Artikel morgen ___."
+      },
+      {
+        "id": "b2-44-022",
+        "de": "verbreiten",
+        "es": "difundir; propagar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "unterdrücken"
+      },
+      {
+        "id": "b2-44-023",
+        "de": "abonnieren",
+        "es": "suscribirse",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-024",
+        "de": "herunterladen",
+        "es": "descargar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "hochladen"
+      },
+      {
+        "id": "b2-44-025",
+        "de": "hochladen",
+        "es": "subir; cargar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "herunterladen"
+      },
+      {
+        "id": "b2-44-026",
+        "de": "speichern",
+        "es": "guardar; almacenar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "löschen"
+      },
+      {
+        "id": "b2-44-027",
+        "de": "löschen",
+        "es": "borrar; eliminar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "speichern"
+      },
+      {
+        "id": "b2-44-028",
+        "de": "streamen",
+        "es": "transmitir en directo",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-029",
+        "de": "teilen",
+        "es": "compartir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2",
+        "beispiel": "Kannst du den Link mit mir ___?"
+      },
+      {
+        "id": "b2-44-030",
+        "de": "blockieren",
+        "es": "bloquear",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "freigeben"
+      },
+      {
+        "id": "b2-44-031",
+        "de": "anmelden",
+        "es": "registrarse; iniciar sesión",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "abmelden"
+      },
+      {
+        "id": "b2-44-032",
+        "de": "überwachen",
+        "es": "vigilar; monitorizar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-033",
+        "de": "viral",
+        "es": "viral",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-034",
+        "de": "digital",
+        "es": "digital",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "analog"
+      },
+      {
+        "id": "b2-44-035",
+        "de": "anonym",
+        "es": "anónimo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "öffentlich"
+      },
+      {
+        "id": "b2-44-036",
+        "de": "vernetzt",
+        "es": "conectado; interconectado",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-037",
+        "de": "glaubwürdig",
+        "es": "creíble",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "unglaubwürdig"
+      },
+      {
+        "id": "b2-44-038",
+        "de": "manipulativ",
+        "es": "manipulador",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-039",
+        "de": "unabhängig",
+        "es": "independiente",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "abhängig"
+      },
+      {
+        "id": "b2-44-040",
+        "de": "seriös",
+        "es": "serio; fiable",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "unseriös"
+      },
+      {
+        "id": "b2-44-041",
+        "de": "zugänglich",
+        "es": "accesible",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 44,
+        "level": "B2",
+        "gegenteil": "unzugänglich"
+      },
+      {
+        "id": "b2-44-042",
+        "de": "online verfügbar",
+        "es": "disponible en línea",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-043",
+        "de": "im Internet surfen",
+        "es": "navegar por internet",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-044",
+        "de": "Fake News verbreiten",
+        "es": "difundir noticias falsas",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-045",
+        "de": "ein Konto einrichten",
+        "es": "crear una cuenta",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-046",
+        "de": "auf dem Laufenden bleiben",
+        "es": "mantenerse al día",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-047",
+        "de": "Daten sammeln",
+        "es": "recopilar datos",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-048",
+        "de": "sich informieren über",
+        "es": "informarse sobre",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-44-049",
+        "de": "den Überblick verlieren",
+        "es": "perder la perspectiva",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 44,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-001",
+        "de": "der Klimawandel",
+        "es": "cambio climático",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-002",
+        "de": "die Nachhaltigkeit",
+        "es": "sostenibilidad",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-003",
+        "de": "der Treibhauseffekt",
+        "es": "efecto invernadero",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-004",
+        "de": "die Solarenergie",
+        "es": "energía solar",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-005",
+        "de": "der Verbrauch",
+        "es": "consumo",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2",
+        "plural": "Verbräuche"
+      },
+      {
+        "id": "b2-45-006",
+        "de": "die Verschmutzung",
+        "es": "contaminación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2",
+        "plural": "Verschmutzungen"
+      },
+      {
+        "id": "b2-45-007",
+        "de": "das Artensterben",
+        "es": "extinción de especies",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-008",
+        "de": "der Rohstoff",
+        "es": "materia prima",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2",
+        "plural": "Rohstoffe"
+      },
+      {
+        "id": "b2-45-009",
+        "de": "die Abholzung",
+        "es": "deforestación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-010",
+        "de": "das Ökosystem",
+        "es": "ecosistema",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2",
+        "plural": "Ökosysteme"
+      },
+      {
+        "id": "b2-45-011",
+        "de": "der Ausstoß",
+        "es": "emisión",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-012",
+        "de": "die Wiederverwendung",
+        "es": "reutilización",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-013",
+        "de": "das Abkommen",
+        "es": "acuerdo; convenio",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2",
+        "plural": "Abkommen"
+      },
+      {
+        "id": "b2-45-014",
+        "de": "der Meeresspiegel",
+        "es": "nivel del mar",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-015",
+        "de": "die Dürre",
+        "es": "sequía",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2",
+        "gegenteil": "Überschwemmung",
+        "plural": "Dürren"
+      },
+      {
+        "id": "b2-45-016",
+        "de": "die Überschwemmung",
+        "es": "inundación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2",
+        "gegenteil": "Dürre",
+        "plural": "Überschwemmungen"
+      },
+      {
+        "id": "b2-45-017",
+        "de": "der Abfall",
+        "es": "residuo; basura",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2",
+        "plural": "Abfälle"
+      },
+      {
+        "id": "b2-45-018",
+        "de": "die Emissionen",
+        "es": "emisiones",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-019",
+        "de": "das Bewusstsein",
+        "es": "conciencia",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-020",
+        "de": "die Windkraft",
+        "es": "energía eólica",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-021",
+        "de": "recyceln",
+        "es": "reciclar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-022",
+        "de": "einsparen",
+        "es": "ahorrar; reducir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-023",
+        "de": "verschmutzen",
+        "es": "contaminar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2",
+        "beispiel": "Fabriken ___ oft die Luft."
+      },
+      {
+        "id": "b2-45-024",
+        "de": "schmelzen",
+        "es": "derretirse",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-025",
+        "de": "bedrohen",
+        "es": "amenazar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2",
+        "beispiel": "Der Klimawandel ___ viele Tierarten."
+      },
+      {
+        "id": "b2-45-026",
+        "de": "vermeiden",
+        "es": "evitar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-027",
+        "de": "verringern",
+        "es": "reducir; disminuir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2",
+        "gegenteil": "erhöhen"
+      },
+      {
+        "id": "b2-45-028",
+        "de": "entsorgen",
+        "es": "desechar; eliminar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-029",
+        "de": "gefährden",
+        "es": "poner en peligro",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2",
+        "beispiel": "Der steigende Meeresspiegel ___ Küstenstädte."
+      },
+      {
+        "id": "b2-45-030",
+        "de": "fördern",
+        "es": "fomentar; promover",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-031",
+        "de": "verschwenden",
+        "es": "desperdiciar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 45,
+        "level": "B2",
+        "gegenteil": "sparen"
+      },
+      {
+        "id": "b2-45-032",
+        "de": "erneuerbar",
+        "es": "renovable",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 45,
+        "level": "B2",
+        "gegenteil": "nicht erneuerbar"
+      },
+      {
+        "id": "b2-45-033",
+        "de": "umweltfreundlich",
+        "es": "ecológico; respetuoso con el medioambiente",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 45,
+        "level": "B2",
+        "gegenteil": "umweltschädlich"
+      },
+      {
+        "id": "b2-45-034",
+        "de": "nachhaltig",
+        "es": "sostenible",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-035",
+        "de": "biologisch",
+        "es": "biológico; orgánico",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-036",
+        "de": "klimaneutral",
+        "es": "climáticamente neutro",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-037",
+        "de": "schädlich",
+        "es": "dañino; perjudicial",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 45,
+        "level": "B2",
+        "gegenteil": "harmlos"
+      },
+      {
+        "id": "b2-45-038",
+        "de": "knapp",
+        "es": "escaso",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 45,
+        "level": "B2",
+        "gegenteil": "reichlich"
+      },
+      {
+        "id": "b2-45-039",
+        "de": "giftig",
+        "es": "tóxico; venenoso",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 45,
+        "level": "B2",
+        "gegenteil": "ungiftig"
+      },
+      {
+        "id": "b2-45-040",
+        "de": "regional",
+        "es": "regional; local",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 45,
+        "level": "B2",
+        "gegenteil": "global"
+      },
+      {
+        "id": "b2-45-041",
+        "de": "tropisch",
+        "es": "tropical",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-042",
+        "de": "den Müll trennen",
+        "es": "separar la basura",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-043",
+        "de": "Energie sparen",
+        "es": "ahorrar energía",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-044",
+        "de": "unter Naturschutz stehen",
+        "es": "estar protegido por ley",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-045",
+        "de": "auf Plastik verzichten",
+        "es": "renunciar al plástico",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-046",
+        "de": "einen Beitrag leisten",
+        "es": "hacer una contribución",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-047",
+        "de": "die Umwelt schonen",
+        "es": "cuidar el medioambiente",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-048",
+        "de": "sich für die Umwelt einsetzen",
+        "es": "comprometerse con el medioambiente",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-45-049",
+        "de": "Ressourcen schonen",
+        "es": "preservar los recursos",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 45,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-001",
+        "de": "die Ernährung",
+        "es": "alimentación; nutrición",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-002",
+        "de": "das Immunsystem",
+        "es": "sistema inmunológico",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-003",
+        "de": "die Therapie",
+        "es": "terapia",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "plural": "Therapien"
+      },
+      {
+        "id": "b2-46-004",
+        "de": "der Blutdruck",
+        "es": "presión arterial",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-005",
+        "de": "die Nebenwirkung",
+        "es": "efecto secundario",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "plural": "Nebenwirkungen"
+      },
+      {
+        "id": "b2-46-006",
+        "de": "das Wohlbefinden",
+        "es": "bienestar",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-007",
+        "de": "die Behandlung",
+        "es": "tratamiento",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "plural": "Behandlungen"
+      },
+      {
+        "id": "b2-46-008",
+        "de": "der Kreislauf",
+        "es": "circulación",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-009",
+        "de": "die Vorsorge",
+        "es": "prevención; chequeo preventivo",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-010",
+        "de": "das Rezept",
+        "es": "receta (médica)",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "plural": "Rezepte"
+      },
+      {
+        "id": "b2-46-011",
+        "de": "der Mangel",
+        "es": "carencia; deficiencia",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "Überfluss",
+        "plural": "Mängel"
+      },
+      {
+        "id": "b2-46-012",
+        "de": "die Sucht",
+        "es": "adicción",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-013",
+        "de": "das Symptom",
+        "es": "síntoma",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "plural": "Symptome"
+      },
+      {
+        "id": "b2-46-014",
+        "de": "der Eingriff",
+        "es": "intervención (quirúrgica)",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "plural": "Eingriffe"
+      },
+      {
+        "id": "b2-46-015",
+        "de": "die Diagnose",
+        "es": "diagnóstico",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "plural": "Diagnosen"
+      },
+      {
+        "id": "b2-46-016",
+        "de": "das Übergewicht",
+        "es": "sobrepeso",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "Untergewicht"
+      },
+      {
+        "id": "b2-46-017",
+        "de": "der Stoffwechsel",
+        "es": "metabolismo",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-018",
+        "de": "die Impfung",
+        "es": "vacunación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "plural": "Impfungen"
+      },
+      {
+        "id": "b2-46-019",
+        "de": "das Heilmittel",
+        "es": "remedio; medicamento",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "plural": "Heilmittel"
+      },
+      {
+        "id": "b2-46-020",
+        "de": "die Entspannung",
+        "es": "relajación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "Anspannung"
+      },
+      {
+        "id": "b2-46-021",
+        "de": "behandeln",
+        "es": "tratar (médicamente)",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2",
+        "beispiel": "Der Arzt wird Sie sofort ___."
+      },
+      {
+        "id": "b2-46-022",
+        "de": "vorbeugen",
+        "es": "prevenir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-023",
+        "de": "verschreiben",
+        "es": "recetar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-024",
+        "de": "heilen",
+        "es": "curar; sanar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "erkranken"
+      },
+      {
+        "id": "b2-46-025",
+        "de": "erkranken",
+        "es": "enfermar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "genesen"
+      },
+      {
+        "id": "b2-46-026",
+        "de": "genesen",
+        "es": "recuperarse; sanar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "erkranken"
+      },
+      {
+        "id": "b2-46-027",
+        "de": "betreuen",
+        "es": "atender; cuidar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-028",
+        "de": "untersuchen",
+        "es": "examinar; investigar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2",
+        "beispiel": "Der Arzt muss Sie zuerst gründlich ___."
+      },
+      {
+        "id": "b2-46-029",
+        "de": "lindern",
+        "es": "aliviar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-030",
+        "de": "überweisen",
+        "es": "derivar (a un especialista)",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-031",
+        "de": "sich erholen",
+        "es": "recuperarse",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-032",
+        "de": "chronisch",
+        "es": "crónico",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "akut"
+      },
+      {
+        "id": "b2-46-033",
+        "de": "ansteckend",
+        "es": "contagioso",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-034",
+        "de": "psychisch",
+        "es": "psíquico; mental",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "körperlich"
+      },
+      {
+        "id": "b2-46-035",
+        "de": "körperlich",
+        "es": "corporal; físico",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "psychisch"
+      },
+      {
+        "id": "b2-46-036",
+        "de": "ausgewogen",
+        "es": "equilibrado",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "einseitig"
+      },
+      {
+        "id": "b2-46-037",
+        "de": "empfindlich",
+        "es": "sensible; delicado",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "robust"
+      },
+      {
+        "id": "b2-46-038",
+        "de": "schmerzfrei",
+        "es": "sin dolor",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "schmerzhaft"
+      },
+      {
+        "id": "b2-46-039",
+        "de": "stressig",
+        "es": "estresante",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 46,
+        "level": "B2",
+        "gegenteil": "entspannt"
+      },
+      {
+        "id": "b2-46-040",
+        "de": "entzündet",
+        "es": "inflamado",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-041",
+        "de": "einen Termin vereinbaren",
+        "es": "concertar una cita",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-042",
+        "de": "unter Stress leiden",
+        "es": "sufrir estrés",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-043",
+        "de": "auf die Gesundheit achten",
+        "es": "cuidar la salud",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-044",
+        "de": "eine Diät einhalten",
+        "es": "seguir una dieta",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-045",
+        "de": "sich krankschreiben lassen",
+        "es": "pedir la baja por enfermedad",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-046",
+        "de": "in Behandlung sein",
+        "es": "estar en tratamiento",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-047",
+        "de": "sich impfen lassen",
+        "es": "vacunarse",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-46-048",
+        "de": "auf nüchternen Magen",
+        "es": "en ayunas",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 46,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-001",
+        "de": "die Bewerbung",
+        "es": "solicitud (de empleo)",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Bewerbungen"
+      },
+      {
+        "id": "b2-47-002",
+        "de": "das Vorstellungsgespräch",
+        "es": "entrevista de trabajo",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Vorstellungsgespräche"
+      },
+      {
+        "id": "b2-47-003",
+        "de": "der Lebenslauf",
+        "es": "currículum",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Lebensläufe"
+      },
+      {
+        "id": "b2-47-004",
+        "de": "die Kündigung",
+        "es": "despido; renuncia",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Kündigungen"
+      },
+      {
+        "id": "b2-47-005",
+        "de": "der Arbeitgeber",
+        "es": "empleador",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "gegenteil": "Arbeitnehmer",
+        "plural": "Arbeitgeber"
+      },
+      {
+        "id": "b2-47-006",
+        "de": "der Arbeitnehmer",
+        "es": "empleado; trabajador",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "gegenteil": "Arbeitgeber",
+        "plural": "Arbeitnehmer"
+      },
+      {
+        "id": "b2-47-007",
+        "de": "die Gehaltserhöhung",
+        "es": "aumento de sueldo",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Gehaltserhöhungen"
+      },
+      {
+        "id": "b2-47-008",
+        "de": "das Gehalt",
+        "es": "salario; sueldo",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Gehälter"
+      },
+      {
+        "id": "b2-47-009",
+        "de": "die Fortbildung",
+        "es": "formación continua",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Fortbildungen"
+      },
+      {
+        "id": "b2-47-010",
+        "de": "der Fachkräftemangel",
+        "es": "escasez de mano de obra cualificada",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-011",
+        "de": "die Überstunde",
+        "es": "hora extra",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Überstunden"
+      },
+      {
+        "id": "b2-47-012",
+        "de": "der Arbeitsvertrag",
+        "es": "contrato de trabajo",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Arbeitsverträge"
+      },
+      {
+        "id": "b2-47-013",
+        "de": "die Beförderung",
+        "es": "ascenso",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Beförderungen"
+      },
+      {
+        "id": "b2-47-014",
+        "de": "das Homeoffice",
+        "es": "teletrabajo",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-015",
+        "de": "die Qualifikation",
+        "es": "cualificación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Qualifikationen"
+      },
+      {
+        "id": "b2-47-016",
+        "de": "der Betriebsrat",
+        "es": "comité de empresa",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-017",
+        "de": "die Probezeit",
+        "es": "periodo de prueba",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Probezeiten"
+      },
+      {
+        "id": "b2-47-018",
+        "de": "das Zeugnis",
+        "es": "certificado; referencia laboral",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Zeugnisse"
+      },
+      {
+        "id": "b2-47-019",
+        "de": "die Stelle",
+        "es": "puesto (de trabajo)",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Stellen"
+      },
+      {
+        "id": "b2-47-020",
+        "de": "der Kollege",
+        "es": "compañero (de trabajo)",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 47,
+        "level": "B2",
+        "plural": "Kollegen"
+      },
+      {
+        "id": "b2-47-021",
+        "de": "kündigen",
+        "es": "despedir; renunciar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2",
+        "beispiel": "Er hat gestern seinen Job ___."
+      },
+      {
+        "id": "b2-47-022",
+        "de": "einstellen",
+        "es": "contratar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2",
+        "gegenteil": "entlassen"
+      },
+      {
+        "id": "b2-47-023",
+        "de": "entlassen",
+        "es": "despedir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2",
+        "gegenteil": "einstellen"
+      },
+      {
+        "id": "b2-47-024",
+        "de": "befördern",
+        "es": "ascender",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-025",
+        "de": "verhandeln",
+        "es": "negociar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2",
+        "beispiel": "Wir müssen die Bedingungen noch ___."
+      },
+      {
+        "id": "b2-47-026",
+        "de": "qualifizieren",
+        "es": "cualificar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-027",
+        "de": "leiten",
+        "es": "dirigir; liderar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-028",
+        "de": "übernehmen",
+        "es": "asumir; hacerse cargo de",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-029",
+        "de": "pendeln",
+        "es": "desplazarse al trabajo",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-030",
+        "de": "vermitteln",
+        "es": "mediar; intermediar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-031",
+        "de": "motivieren",
+        "es": "motivar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 47,
+        "level": "B2",
+        "gegenteil": "demotivieren"
+      },
+      {
+        "id": "b2-47-032",
+        "de": "befristet",
+        "es": "temporal; de duración limitada",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 47,
+        "level": "B2",
+        "gegenteil": "unbefristet"
+      },
+      {
+        "id": "b2-47-033",
+        "de": "unbefristet",
+        "es": "indefinido; sin límite de tiempo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 47,
+        "level": "B2",
+        "gegenteil": "befristet"
+      },
+      {
+        "id": "b2-47-034",
+        "de": "selbstständig",
+        "es": "autónomo; independiente",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 47,
+        "level": "B2",
+        "gegenteil": "angestellt"
+      },
+      {
+        "id": "b2-47-035",
+        "de": "ehrgeizig",
+        "es": "ambicioso",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-036",
+        "de": "teamfähig",
+        "es": "capaz de trabajar en equipo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-037",
+        "de": "belastbar",
+        "es": "resistente al estrés",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-038",
+        "de": "zuverlässig",
+        "es": "fiable; responsable",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 47,
+        "level": "B2",
+        "gegenteil": "unzuverlässig"
+      },
+      {
+        "id": "b2-47-039",
+        "de": "flexibel",
+        "es": "flexible",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 47,
+        "level": "B2",
+        "gegenteil": "starr"
+      },
+      {
+        "id": "b2-47-040",
+        "de": "verantwortungsvoll",
+        "es": "responsable",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-041",
+        "de": "sich bewerben um",
+        "es": "solicitar (un empleo)",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-042",
+        "de": "Erfahrung sammeln",
+        "es": "ganar experiencia",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-043",
+        "de": "eine Stelle antreten",
+        "es": "empezar un puesto",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-044",
+        "de": "Verantwortung übernehmen",
+        "es": "asumir responsabilidad",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-045",
+        "de": "im Team arbeiten",
+        "es": "trabajar en equipo",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-046",
+        "de": "unter Druck stehen",
+        "es": "estar bajo presión",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-047",
+        "de": "Karriere machen",
+        "es": "hacer carrera",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-47-048",
+        "de": "in Rente gehen",
+        "es": "jubilarse",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 47,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-001",
+        "de": "die Gleichberechtigung",
+        "es": "igualdad de derechos",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-002",
+        "de": "der Bürger",
+        "es": "ciudadano",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "plural": "Bürger"
+      },
+      {
+        "id": "b2-48-003",
+        "de": "die Demokratie",
+        "es": "democracia",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "gegenteil": "Diktatur",
+        "plural": "Demokratien"
+      },
+      {
+        "id": "b2-48-004",
+        "de": "das Grundgesetz",
+        "es": "ley fundamental; constitución",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-005",
+        "de": "die Integration",
+        "es": "integración",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-006",
+        "de": "der Flüchtling",
+        "es": "refugiado",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "plural": "Flüchtlinge"
+      },
+      {
+        "id": "b2-48-007",
+        "de": "die Steuer",
+        "es": "impuesto",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "plural": "Steuern"
+      },
+      {
+        "id": "b2-48-008",
+        "de": "das Wahlrecht",
+        "es": "derecho al voto",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-009",
+        "de": "die Partei",
+        "es": "partido (político)",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "plural": "Parteien"
+      },
+      {
+        "id": "b2-48-010",
+        "de": "der Kompromiss",
+        "es": "compromiso; acuerdo",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "plural": "Kompromisse"
+      },
+      {
+        "id": "b2-48-011",
+        "de": "die Zuwanderung",
+        "es": "inmigración",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "gegenteil": "Auswanderung"
+      },
+      {
+        "id": "b2-48-012",
+        "de": "der Wohlstand",
+        "es": "bienestar; prosperidad",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "gegenteil": "Armut"
+      },
+      {
+        "id": "b2-48-013",
+        "de": "die Armut",
+        "es": "pobreza",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "gegenteil": "Reichtum"
+      },
+      {
+        "id": "b2-48-014",
+        "de": "das Ehrenamt",
+        "es": "voluntariado",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-015",
+        "de": "die Demonstration",
+        "es": "manifestación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "plural": "Demonstrationen"
+      },
+      {
+        "id": "b2-48-016",
+        "de": "der Zusammenhalt",
+        "es": "cohesión",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-017",
+        "de": "die Gerechtigkeit",
+        "es": "justicia",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "gegenteil": "Ungerechtigkeit"
+      },
+      {
+        "id": "b2-48-018",
+        "de": "das Vorurteil",
+        "es": "prejuicio",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "plural": "Vorurteile"
+      },
+      {
+        "id": "b2-48-019",
+        "de": "die Vielfalt",
+        "es": "diversidad",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-020",
+        "de": "der Einfluss",
+        "es": "influencia",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 48,
+        "level": "B2",
+        "plural": "Einflüsse"
+      },
+      {
+        "id": "b2-48-021",
+        "de": "wählen",
+        "es": "votar; elegir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2",
+        "beispiel": "In Deutschland darf man ab 18 Jahren ___."
+      },
+      {
+        "id": "b2-48-022",
+        "de": "protestieren",
+        "es": "protestar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-023",
+        "de": "integrieren",
+        "es": "integrar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-024",
+        "de": "diskriminieren",
+        "es": "discriminar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-025",
+        "de": "demonstrieren",
+        "es": "manifestarse",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-026",
+        "de": "engagieren",
+        "es": "comprometerse",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-027",
+        "de": "abstimmen",
+        "es": "votar; decidir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-028",
+        "de": "regieren",
+        "es": "gobernar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-029",
+        "de": "beeinflussen",
+        "es": "influir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-030",
+        "de": "benachteiligen",
+        "es": "desfavorecer",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2",
+        "gegenteil": "bevorzugen"
+      },
+      {
+        "id": "b2-48-031",
+        "de": "bevorzugen",
+        "es": "favorecer; preferir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 48,
+        "level": "B2",
+        "gegenteil": "benachteiligen"
+      },
+      {
+        "id": "b2-48-032",
+        "de": "ehrenamtlich",
+        "es": "voluntario (no remunerado)",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-033",
+        "de": "gerecht",
+        "es": "justo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 48,
+        "level": "B2",
+        "gegenteil": "ungerecht"
+      },
+      {
+        "id": "b2-48-034",
+        "de": "bürgerlich",
+        "es": "cívico; burgués",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-035",
+        "de": "solidarisch",
+        "es": "solidario",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-036",
+        "de": "tolerant",
+        "es": "tolerante",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 48,
+        "level": "B2",
+        "gegenteil": "intolerant"
+      },
+      {
+        "id": "b2-48-037",
+        "de": "demokratisch",
+        "es": "democrático",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-038",
+        "de": "kontrovers",
+        "es": "controvertido",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-039",
+        "de": "sozial",
+        "es": "social",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-040",
+        "de": "politisch",
+        "es": "político",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-041",
+        "de": "ein Gesetz verabschieden",
+        "es": "aprobar una ley",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-042",
+        "de": "zur Wahl gehen",
+        "es": "ir a votar",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-043",
+        "de": "Stellung nehmen zu",
+        "es": "posicionarse sobre",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-044",
+        "de": "gegen etwas vorgehen",
+        "es": "actuar contra algo",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-045",
+        "de": "Einfluss nehmen auf",
+        "es": "ejercer influencia sobre",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-046",
+        "de": "sich einsetzen für",
+        "es": "comprometerse por",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-047",
+        "de": "in Frage stellen",
+        "es": "cuestionar",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-48-048",
+        "de": "auf die Straße gehen",
+        "es": "salir a la calle (a protestar)",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 48,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-001",
+        "de": "die Forschung",
+        "es": "investigación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Forschungen"
+      },
+      {
+        "id": "b2-49-002",
+        "de": "das Stipendium",
+        "es": "beca",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Stipendien"
+      },
+      {
+        "id": "b2-49-003",
+        "de": "der Abschluss",
+        "es": "título; graduación",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Abschlüsse"
+      },
+      {
+        "id": "b2-49-004",
+        "de": "die Vorlesung",
+        "es": "clase magistral",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Vorlesungen"
+      },
+      {
+        "id": "b2-49-005",
+        "de": "das Ergebnis",
+        "es": "resultado",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Ergebnisse"
+      },
+      {
+        "id": "b2-49-006",
+        "de": "der Versuch",
+        "es": "experimento; intento",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Versuche"
+      },
+      {
+        "id": "b2-49-007",
+        "de": "die Studie",
+        "es": "estudio",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Studien"
+      },
+      {
+        "id": "b2-49-008",
+        "de": "das Seminar",
+        "es": "seminario",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Seminare"
+      },
+      {
+        "id": "b2-49-009",
+        "de": "der Lehrstuhl",
+        "es": "cátedra",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Lehrstühle"
+      },
+      {
+        "id": "b2-49-010",
+        "de": "die Hypothese",
+        "es": "hipótesis",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Hypothesen"
+      },
+      {
+        "id": "b2-49-011",
+        "de": "das Bildungssystem",
+        "es": "sistema educativo",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-012",
+        "de": "der Lehrplan",
+        "es": "plan de estudios",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Lehrpläne"
+      },
+      {
+        "id": "b2-49-013",
+        "de": "die Ausbildung",
+        "es": "formación profesional",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Ausbildungen"
+      },
+      {
+        "id": "b2-49-014",
+        "de": "das Wissen",
+        "es": "conocimiento; saber",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-015",
+        "de": "der Dozent",
+        "es": "docente universitario",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Dozenten"
+      },
+      {
+        "id": "b2-49-016",
+        "de": "die Fachrichtung",
+        "es": "especialidad; rama",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Fachrichtungen"
+      },
+      {
+        "id": "b2-49-017",
+        "de": "das Labor",
+        "es": "laboratorio",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Labore"
+      },
+      {
+        "id": "b2-49-018",
+        "de": "die Analyse",
+        "es": "análisis",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Analysen"
+      },
+      {
+        "id": "b2-49-019",
+        "de": "der Beweis",
+        "es": "prueba; demostración",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Beweise"
+      },
+      {
+        "id": "b2-49-020",
+        "de": "die Erkenntnis",
+        "es": "conocimiento; hallazgo",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 49,
+        "level": "B2",
+        "plural": "Erkenntnisse"
+      },
+      {
+        "id": "b2-49-021",
+        "de": "forschen",
+        "es": "investigar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-022",
+        "de": "beweisen",
+        "es": "demostrar; probar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2",
+        "gegenteil": "widerlegen"
+      },
+      {
+        "id": "b2-49-023",
+        "de": "widerlegen",
+        "es": "refutar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2",
+        "gegenteil": "beweisen"
+      },
+      {
+        "id": "b2-49-024",
+        "de": "analysieren",
+        "es": "analizar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-025",
+        "de": "auswerten",
+        "es": "evaluar; analizar datos",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-026",
+        "de": "promovieren",
+        "es": "hacer el doctorado",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-027",
+        "de": "nachweisen",
+        "es": "comprobar; acreditar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-028",
+        "de": "hinterfragen",
+        "es": "cuestionar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-029",
+        "de": "belegen",
+        "es": "demostrar; cursar (una asignatura)",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-030",
+        "de": "vermitteln",
+        "es": "transmitir (conocimientos)",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-031",
+        "de": "veranschaulichen",
+        "es": "ilustrar; visualizar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-032",
+        "de": "akademisch",
+        "es": "académico",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-033",
+        "de": "empirisch",
+        "es": "empírico",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 49,
+        "level": "B2",
+        "gegenteil": "theoretisch"
+      },
+      {
+        "id": "b2-49-034",
+        "de": "theoretisch",
+        "es": "teórico",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 49,
+        "level": "B2",
+        "gegenteil": "praktisch"
+      },
+      {
+        "id": "b2-49-035",
+        "de": "wissenschaftlich",
+        "es": "científico",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-036",
+        "de": "anerkannt",
+        "es": "reconocido",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-037",
+        "de": "interdisziplinär",
+        "es": "interdisciplinar",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-038",
+        "de": "methodisch",
+        "es": "metódico",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-039",
+        "de": "sachlich",
+        "es": "objetivo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 49,
+        "level": "B2",
+        "gegenteil": "unsachlich"
+      },
+      {
+        "id": "b2-49-040",
+        "de": "gründlich",
+        "es": "minucioso; a fondo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 49,
+        "level": "B2",
+        "gegenteil": "oberflächlich"
+      },
+      {
+        "id": "b2-49-041",
+        "de": "ein Studium abschließen",
+        "es": "terminar los estudios",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-042",
+        "de": "eine Arbeit verfassen",
+        "es": "redactar un trabajo",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-043",
+        "de": "einen Vortrag halten",
+        "es": "dar una ponencia",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-044",
+        "de": "Daten erheben",
+        "es": "recopilar datos",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-045",
+        "de": "zu dem Ergebnis kommen",
+        "es": "llegar al resultado",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-046",
+        "de": "eine These aufstellen",
+        "es": "plantear una tesis",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-047",
+        "de": "sich an der Uni einschreiben",
+        "es": "matricularse en la universidad",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-49-048",
+        "de": "den Horizont erweitern",
+        "es": "ampliar horizontes",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 49,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-001",
+        "de": "die Inflation",
+        "es": "inflación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-002",
+        "de": "der Umsatz",
+        "es": "facturación; ventas",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "plural": "Umsätze"
+      },
+      {
+        "id": "b2-50-003",
+        "de": "die Aktie",
+        "es": "acción (bursátil)",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "plural": "Aktien"
+      },
+      {
+        "id": "b2-50-004",
+        "de": "das Unternehmen",
+        "es": "empresa",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "plural": "Unternehmen"
+      },
+      {
+        "id": "b2-50-005",
+        "de": "die Schulden",
+        "es": "deudas",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-006",
+        "de": "der Gewinn",
+        "es": "ganancia; beneficio",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "Verlust",
+        "plural": "Gewinne"
+      },
+      {
+        "id": "b2-50-007",
+        "de": "der Verlust",
+        "es": "pérdida",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "Gewinn",
+        "plural": "Verluste"
+      },
+      {
+        "id": "b2-50-008",
+        "de": "die Investition",
+        "es": "inversión",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "plural": "Investitionen"
+      },
+      {
+        "id": "b2-50-009",
+        "de": "der Wettbewerb",
+        "es": "competencia",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-010",
+        "de": "die Wirtschaft",
+        "es": "economía",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-011",
+        "de": "der Zinssatz",
+        "es": "tipo de interés",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "plural": "Zinssätze"
+      },
+      {
+        "id": "b2-50-012",
+        "de": "die Währung",
+        "es": "moneda; divisa",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "plural": "Währungen"
+      },
+      {
+        "id": "b2-50-013",
+        "de": "das Bruttoinlandsprodukt",
+        "es": "producto interior bruto",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-014",
+        "de": "der Handel",
+        "es": "comercio",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-015",
+        "de": "die Nachfrage",
+        "es": "demanda",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "Angebot"
+      },
+      {
+        "id": "b2-50-016",
+        "de": "das Angebot",
+        "es": "oferta",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "Nachfrage",
+        "plural": "Angebote"
+      },
+      {
+        "id": "b2-50-017",
+        "de": "der Verbraucher",
+        "es": "consumidor",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "plural": "Verbraucher"
+      },
+      {
+        "id": "b2-50-018",
+        "de": "die Börse",
+        "es": "bolsa (de valores)",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "plural": "Börsen"
+      },
+      {
+        "id": "b2-50-019",
+        "de": "das Einkommen",
+        "es": "ingreso; renta",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2",
+        "plural": "Einkommen"
+      },
+      {
+        "id": "b2-50-020",
+        "de": "die Konjunktur",
+        "es": "coyuntura económica",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-021",
+        "de": "investieren",
+        "es": "invertir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-022",
+        "de": "konkurrieren",
+        "es": "competir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-023",
+        "de": "exportieren",
+        "es": "exportar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "importieren"
+      },
+      {
+        "id": "b2-50-024",
+        "de": "importieren",
+        "es": "importar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "exportieren"
+      },
+      {
+        "id": "b2-50-025",
+        "de": "erwirtschaften",
+        "es": "generar (beneficios)",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-026",
+        "de": "verschulden",
+        "es": "endeudar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-027",
+        "de": "steigern",
+        "es": "incrementar; aumentar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "senken"
+      },
+      {
+        "id": "b2-50-028",
+        "de": "senken",
+        "es": "reducir; bajar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "steigern"
+      },
+      {
+        "id": "b2-50-029",
+        "de": "sparen",
+        "es": "ahorrar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "ausgeben"
+      },
+      {
+        "id": "b2-50-030",
+        "de": "subventionieren",
+        "es": "subvencionar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-031",
+        "de": "privatisieren",
+        "es": "privatizar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-032",
+        "de": "rentabel",
+        "es": "rentable",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "unrentabel"
+      },
+      {
+        "id": "b2-50-033",
+        "de": "profitabel",
+        "es": "provechoso; lucrativo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-034",
+        "de": "wirtschaftlich",
+        "es": "económico",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-035",
+        "de": "verschuldet",
+        "es": "endeudado",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-036",
+        "de": "wettbewerbsfähig",
+        "es": "competitivo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-037",
+        "de": "steuerfrei",
+        "es": "libre de impuestos",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-038",
+        "de": "börsennotiert",
+        "es": "cotizado en bolsa",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-039",
+        "de": "zahlungsfähig",
+        "es": "solvente",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 50,
+        "level": "B2",
+        "gegenteil": "zahlungsunfähig"
+      },
+      {
+        "id": "b2-50-040",
+        "de": "Pleite gehen",
+        "es": "ir a la quiebra",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-041",
+        "de": "Geld anlegen",
+        "es": "invertir dinero",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-042",
+        "de": "in Konkurs gehen",
+        "es": "declararse en quiebra",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-043",
+        "de": "den Markt erobern",
+        "es": "conquistar el mercado",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-044",
+        "de": "schwarze Zahlen schreiben",
+        "es": "tener beneficios",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-045",
+        "de": "rote Zahlen schreiben",
+        "es": "tener pérdidas",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-046",
+        "de": "Kosten senken",
+        "es": "reducir costes",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-50-047",
+        "de": "einen Kredit aufnehmen",
+        "es": "pedir un préstamo",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 50,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-001",
+        "de": "die Ausstellung",
+        "es": "exposición",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Ausstellungen"
+      },
+      {
+        "id": "b2-51-002",
+        "de": "das Kunstwerk",
+        "es": "obra de arte",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Kunstwerke"
+      },
+      {
+        "id": "b2-51-003",
+        "de": "der Regisseur",
+        "es": "director (de cine/teatro)",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Regisseure"
+      },
+      {
+        "id": "b2-51-004",
+        "de": "die Aufführung",
+        "es": "representación; función",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Aufführungen"
+      },
+      {
+        "id": "b2-51-005",
+        "de": "das Denkmal",
+        "es": "monumento",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Denkmäler"
+      },
+      {
+        "id": "b2-51-006",
+        "de": "der Komponist",
+        "es": "compositor",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Komponisten"
+      },
+      {
+        "id": "b2-51-007",
+        "de": "die Literatur",
+        "es": "literatura",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-008",
+        "de": "das Gemälde",
+        "es": "cuadro; pintura",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Gemälde"
+      },
+      {
+        "id": "b2-51-009",
+        "de": "der Bildhauer",
+        "es": "escultor",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Bildhauer"
+      },
+      {
+        "id": "b2-51-010",
+        "de": "die Skulptur",
+        "es": "escultura",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Skulpturen"
+      },
+      {
+        "id": "b2-51-011",
+        "de": "das Erbe",
+        "es": "herencia; patrimonio",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-012",
+        "de": "der Zeitgeist",
+        "es": "espíritu de la época",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-013",
+        "de": "die Uraufführung",
+        "es": "estreno",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Uraufführungen"
+      },
+      {
+        "id": "b2-51-014",
+        "de": "das Meisterwerk",
+        "es": "obra maestra",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Meisterwerke"
+      },
+      {
+        "id": "b2-51-015",
+        "de": "der Stil",
+        "es": "estilo",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Stile"
+      },
+      {
+        "id": "b2-51-016",
+        "de": "die Epoche",
+        "es": "época",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Epochen"
+      },
+      {
+        "id": "b2-51-017",
+        "de": "das Publikum",
+        "es": "público; audiencia",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-018",
+        "de": "die Kritik",
+        "es": "crítica",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Kritiken"
+      },
+      {
+        "id": "b2-51-019",
+        "de": "der Entwurf",
+        "es": "boceto; diseño",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Entwürfe"
+      },
+      {
+        "id": "b2-51-020",
+        "de": "die Tradition",
+        "es": "tradición",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 51,
+        "level": "B2",
+        "plural": "Traditionen"
+      },
+      {
+        "id": "b2-51-021",
+        "de": "inszenieren",
+        "es": "poner en escena",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-022",
+        "de": "gestalten",
+        "es": "diseñar; crear",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-023",
+        "de": "ausstellen",
+        "es": "exponer",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-024",
+        "de": "komponieren",
+        "es": "componer",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-025",
+        "de": "interpretieren",
+        "es": "interpretar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-026",
+        "de": "begeistern",
+        "es": "entusiasmar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2",
+        "gegenteil": "enttäuschen"
+      },
+      {
+        "id": "b2-51-027",
+        "de": "inspirieren",
+        "es": "inspirar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-028",
+        "de": "kritisieren",
+        "es": "criticar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-029",
+        "de": "restaurieren",
+        "es": "restaurar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-030",
+        "de": "bewundern",
+        "es": "admirar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-031",
+        "de": "entwerfen",
+        "es": "diseñar; esbozar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-032",
+        "de": "kreativ",
+        "es": "creativo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 51,
+        "level": "B2",
+        "gegenteil": "einfallslos"
+      },
+      {
+        "id": "b2-51-033",
+        "de": "zeitgenössisch",
+        "es": "contemporáneo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-034",
+        "de": "abstrakt",
+        "es": "abstracto",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 51,
+        "level": "B2",
+        "gegenteil": "gegenständlich"
+      },
+      {
+        "id": "b2-51-035",
+        "de": "ausdrucksstark",
+        "es": "expresivo",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-036",
+        "de": "klassisch",
+        "es": "clásico",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 51,
+        "level": "B2",
+        "gegenteil": "modern"
+      },
+      {
+        "id": "b2-51-037",
+        "de": "kulturell",
+        "es": "cultural",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-038",
+        "de": "avantgardistisch",
+        "es": "vanguardista",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 51,
+        "level": "B2",
+        "gegenteil": "traditionell"
+      },
+      {
+        "id": "b2-51-039",
+        "de": "vielseitig",
+        "es": "polifacético; versátil",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 51,
+        "level": "B2",
+        "gegenteil": "einseitig"
+      },
+      {
+        "id": "b2-51-040",
+        "de": "originell",
+        "es": "original",
+        "artikel": "",
+        "type": "Adjektiv/Adverb",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-041",
+        "de": "eine Rolle spielen",
+        "es": "desempeñar un papel",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-042",
+        "de": "ins Theater gehen",
+        "es": "ir al teatro",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-043",
+        "de": "Kunst fördern",
+        "es": "promover el arte",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-044",
+        "de": "den Geschmack treffen",
+        "es": "dar en el gusto",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-045",
+        "de": "großen Anklang finden",
+        "es": "tener gran acogida",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-046",
+        "de": "eine Ausstellung besuchen",
+        "es": "visitar una exposición",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-047",
+        "de": "sich von etwas inspirieren lassen",
+        "es": "dejarse inspirar por algo",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": "b2-51-048",
+        "de": "Kritik üben an",
+        "es": "ejercer crítica sobre",
+        "artikel": "",
+        "type": "Ausdruck",
+        "thema": 51,
+        "level": "B2"
       }
     ]
   }
