@@ -2185,6 +2185,20 @@
     <lastmod>2026-07-03</lastmod>
   </url>
 
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/sudoku-aleman/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/wordmaker-aleman/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- I18N:START -->
   <url>
     <loc>https://www.samuelcoachdealeman.com/de/</loc>
@@ -2342,108 +2356,6 @@
     <priority>0.4</priority>
   </url>
   <!-- I18N:END -->
-
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/sudoku-aleman/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/wordmaker-aleman/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- SCHREIBEN:START -->
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b1/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b1/brief-an-eine-freundin/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b1/kursempfehlung-per-email/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b1/kurze-nachricht-verspaetung/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b1/krankmeldung-kursleiter/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b2/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b2/leserbrief-homeoffice/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b1/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b1/hotel-anfrage-muenchen/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b1/forumsbeitrag-sprachen-lernen/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b2/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b2/meinungsartikel-soziale-medien/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b2/beschwerde-online-shop/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/eoi/b2/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/eoi/b2/meine-idealstadt/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/eoi/b2/praktikum-bewerbung/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/eoi/b2/kuerze-arbeitszeiten-pro-contra/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <!-- SCHREIBEN:END -->
 
   <!-- LESEVERSTEHEN:START -->
   <url>
@@ -6530,4 +6442,92 @@
     <loc>https://www.samuelcoachdealeman.com/en/recursos/sprachbausteine/b2/digitale-souveraenitaet/</loc>
   </url>
   <!-- SPRACHBAUSTEINE:END -->
+
+  <!-- SCHREIBEN:START -->
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b1/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b1/brief-an-eine-freundin/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b1/kursempfehlung-per-email/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b1/kurze-nachricht-verspaetung/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b1/krankmeldung-kursleiter/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b2/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/telc/b2/leserbrief-homeoffice/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b1/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b1/hotel-anfrage-muenchen/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b1/forumsbeitrag-sprachen-lernen/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b2/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b2/meinungsartikel-soziale-medien/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/goethe/b2/beschwerde-online-shop/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/eoi/b2/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/eoi/b2/meine-idealstadt/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/eoi/b2/praktikum-bewerbung/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.samuelcoachdealeman.com/recursos/schreiben/eoi/b2/kuerze-arbeitszeiten-pro-contra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <!-- SCHREIBEN:END -->
 </urlset>
