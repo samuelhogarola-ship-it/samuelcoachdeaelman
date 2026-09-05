@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "https://www.vokabellab.com/api/vocabulario",
-  "generatedAt": "2026-08-24T19:47:17.073Z",
+  "generatedAt": "2026-09-04T09:45:19.714Z",
   "levels": {
     "A1": [
       {
@@ -4178,6 +4178,456 @@
         "artikel": "",
         "type": "Verb",
         "thema": 10,
+        "level": "A1"
+      },
+      {
+        "id": 10001,
+        "de": "das Frühstück",
+        "es": "el desayuno",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A1"
+      },
+      {
+        "id": 10002,
+        "de": "die Butter",
+        "es": "la mantequilla",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A1"
+      },
+      {
+        "id": 10003,
+        "de": "die Marmelade",
+        "es": "la mermelada",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A1"
+      },
+      {
+        "id": 10004,
+        "de": "das Brötchen",
+        "es": "el panecillo",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A1"
+      },
+      {
+        "id": 10005,
+        "de": "der Bäcker",
+        "es": "el panadero",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A1"
+      },
+      {
+        "id": 10006,
+        "de": "die Wurst",
+        "es": "el embutido",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A1"
+      },
+      {
+        "id": 10007,
+        "de": "das Müsli",
+        "es": "el muesli",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A1"
+      },
+      {
+        "id": 10008,
+        "de": "der Joghurt",
+        "es": "el yogur",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A1"
+      },
+      {
+        "id": 10009,
+        "de": "lachen",
+        "es": "reír",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 52,
+        "level": "A1"
+      },
+      {
+        "id": 10010,
+        "de": "frühstücken",
+        "es": "desayunar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 52,
+        "level": "A1"
+      },
+      {
+        "id": 10011,
+        "de": "die Fahrkarte",
+        "es": "el billete",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "A1"
+      },
+      {
+        "id": 10012,
+        "de": "die Haltestelle",
+        "es": "la parada",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "A1"
+      },
+      {
+        "id": 10013,
+        "de": "die Kollegin",
+        "es": "la colega",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "A1"
+      },
+      {
+        "id": 10014,
+        "de": "einsteigen",
+        "es": "subir (a un vehículo)",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 53,
+        "level": "A1"
+      },
+      {
+        "id": 10015,
+        "de": "aussteigen",
+        "es": "bajar (de un vehículo)",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 53,
+        "level": "A1"
+      },
+      {
+        "id": 10016,
+        "de": "die Rutsche",
+        "es": "el tobogán",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "A1"
+      },
+      {
+        "id": 10017,
+        "de": "die Schaukel",
+        "es": "el columpio",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "A1"
+      },
+      {
+        "id": 10018,
+        "de": "der Sandkasten",
+        "es": "el arenero",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "A1"
+      },
+      {
+        "id": 10019,
+        "de": "die Burg",
+        "es": "el castillo",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "A1"
+      },
+      {
+        "id": 10020,
+        "de": "hungrig",
+        "es": "hambriento",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 54,
+        "level": "A1"
+      },
+      {
+        "id": 10021,
+        "de": "die Nachricht",
+        "es": "el mensaje",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 55,
+        "level": "A1"
+      },
+      {
+        "id": 10022,
+        "de": "der Wecker",
+        "es": "el despertador",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 55,
+        "level": "A1"
+      },
+      {
+        "id": 10023,
+        "de": "klingeln",
+        "es": "sonar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 55,
+        "level": "A1"
+      },
+      {
+        "id": 10024,
+        "de": "benutzen",
+        "es": "usar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 55,
+        "level": "A1"
+      },
+      {
+        "id": 10025,
+        "de": "die Apotheke",
+        "es": "la farmacia",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "A1"
+      },
+      {
+        "id": 10026,
+        "de": "die Nachbarin",
+        "es": "la vecina",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "A1"
+      },
+      {
+        "id": 10027,
+        "de": "das Fenster",
+        "es": "la ventana",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "A1"
+      },
+      {
+        "id": 10028,
+        "de": "ruhig",
+        "es": "tranquilo",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 56,
+        "level": "A1"
+      },
+      {
+        "id": 10029,
+        "de": "der Husten",
+        "es": "la tos",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "A1"
+      },
+      {
+        "id": 10030,
+        "de": "der Schnupfen",
+        "es": "el resfriado",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "A1"
+      },
+      {
+        "id": 10031,
+        "de": "das Rezept",
+        "es": "la receta",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "A1"
+      },
+      {
+        "id": 10032,
+        "de": "untersuchen",
+        "es": "examinar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 57,
+        "level": "A1"
+      },
+      {
+        "id": 10033,
+        "de": "weinen",
+        "es": "llorar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 57,
+        "level": "A1"
+      },
+      {
+        "id": 10034,
+        "de": "die Wiese",
+        "es": "el prado",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "A1"
+      },
+      {
+        "id": 10035,
+        "de": "die Leine",
+        "es": "la correa",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "A1"
+      },
+      {
+        "id": 10036,
+        "de": "die Besitzerin",
+        "es": "la dueña",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "A1"
+      },
+      {
+        "id": 10037,
+        "de": "schnell",
+        "es": "rápido",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 58,
+        "level": "A1"
+      },
+      {
+        "id": 10038,
+        "de": "das Geschenk",
+        "es": "el regalo",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 59,
+        "level": "A1"
+      },
+      {
+        "id": 10039,
+        "de": "das Puzzle",
+        "es": "el puzle",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 59,
+        "level": "A1"
+      },
+      {
+        "id": 10040,
+        "de": "der Luftballon",
+        "es": "el globo",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 59,
+        "level": "A1"
+      },
+      {
+        "id": 10041,
+        "de": "backen",
+        "es": "hornear",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 59,
+        "level": "A1"
+      },
+      {
+        "id": 10042,
+        "de": "feiern",
+        "es": "celebrar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 59,
+        "level": "A1"
+      },
+      {
+        "id": 10043,
+        "de": "das Blatt",
+        "es": "la hoja",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "A1"
+      },
+      {
+        "id": 10044,
+        "de": "der Schneemann",
+        "es": "el muñeco de nieve",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "A1"
+      },
+      {
+        "id": 10045,
+        "de": "schneien",
+        "es": "nevar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 60,
+        "level": "A1"
+      },
+      {
+        "id": 10046,
+        "de": "der Stand",
+        "es": "el puesto",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "A1"
+      },
+      {
+        "id": 10047,
+        "de": "die Erdbeere",
+        "es": "la fresa",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "A1"
+      },
+      {
+        "id": 10048,
+        "de": "die Gurke",
+        "es": "el pepino",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "A1"
+      },
+      {
+        "id": 10049,
+        "de": "die Sonnenblume",
+        "es": "el girasol",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "A1"
+      },
+      {
+        "id": 10050,
+        "de": "probieren",
+        "es": "probar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 61,
         "level": "A1"
       }
     ],
@@ -8510,6 +8960,447 @@
         "type": "Ausdruck",
         "thema": 20,
         "level": "A2"
+      },
+      {
+        "id": 10051,
+        "de": "der Balkon",
+        "es": "el balcón",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A2"
+      },
+      {
+        "id": 10052,
+        "de": "die Miete",
+        "es": "el alquiler",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A2"
+      },
+      {
+        "id": 10053,
+        "de": "die Kiste",
+        "es": "la caja",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A2"
+      },
+      {
+        "id": 10054,
+        "de": "der Transporter",
+        "es": "la furgoneta",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "A2"
+      },
+      {
+        "id": 10055,
+        "de": "streichen",
+        "es": "pintar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 52,
+        "level": "A2"
+      },
+      {
+        "id": 10056,
+        "de": "umziehen",
+        "es": "mudarse",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 52,
+        "level": "A2"
+      },
+      {
+        "id": 10057,
+        "de": "günstig",
+        "es": "económico",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 52,
+        "level": "A2"
+      },
+      {
+        "id": 10058,
+        "de": "der Imbissstand",
+        "es": "el puesto de comida",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "A2"
+      },
+      {
+        "id": 10059,
+        "de": "die Schallplatte",
+        "es": "el disco de vinilo",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "A2"
+      },
+      {
+        "id": 10060,
+        "de": "das Geschirr",
+        "es": "la vajilla",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "A2"
+      },
+      {
+        "id": 10061,
+        "de": "verkaufen",
+        "es": "vender",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 53,
+        "level": "A2"
+      },
+      {
+        "id": 10062,
+        "de": "das Gespräch",
+        "es": "la conversación",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "A2"
+      },
+      {
+        "id": 10063,
+        "de": "die Bluse",
+        "es": "la blusa",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "A2"
+      },
+      {
+        "id": 10064,
+        "de": "die Stelle",
+        "es": "el puesto de trabajo",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "A2"
+      },
+      {
+        "id": 10065,
+        "de": "pünktlich",
+        "es": "puntual",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 54,
+        "level": "A2"
+      },
+      {
+        "id": 10066,
+        "de": "nervös",
+        "es": "nervioso",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 54,
+        "level": "A2"
+      },
+      {
+        "id": 10067,
+        "de": "die Girlande",
+        "es": "la guirnalda",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 55,
+        "level": "A2"
+      },
+      {
+        "id": 10068,
+        "de": "der Keks",
+        "es": "la galleta",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 55,
+        "level": "A2"
+      },
+      {
+        "id": 10069,
+        "de": "der Preis",
+        "es": "el premio",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 55,
+        "level": "A2"
+      },
+      {
+        "id": 10070,
+        "de": "dekorieren",
+        "es": "decorar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 55,
+        "level": "A2"
+      },
+      {
+        "id": 10071,
+        "de": "stolz",
+        "es": "orgulloso",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 55,
+        "level": "A2"
+      },
+      {
+        "id": 10072,
+        "de": "der Mitbewohner",
+        "es": "el compañero de piso",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "A2"
+      },
+      {
+        "id": 10073,
+        "de": "die Regel",
+        "es": "la regla",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "A2"
+      },
+      {
+        "id": 10074,
+        "de": "das Putzmittel",
+        "es": "el producto de limpieza",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "A2"
+      },
+      {
+        "id": 10075,
+        "de": "ordentlich",
+        "es": "ordenado",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 56,
+        "level": "A2"
+      },
+      {
+        "id": 10076,
+        "de": "die Bremse",
+        "es": "el freno",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "A2"
+      },
+      {
+        "id": 10077,
+        "de": "der Rahmen",
+        "es": "el marco",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "A2"
+      },
+      {
+        "id": 10078,
+        "de": "der Helm",
+        "es": "el casco",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "A2"
+      },
+      {
+        "id": 10079,
+        "de": "das Schloss",
+        "es": "el candado",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "A2"
+      },
+      {
+        "id": 10080,
+        "de": "die Gangschaltung",
+        "es": "el cambio de marchas",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "A2"
+      },
+      {
+        "id": 10081,
+        "de": "der Lehrplan",
+        "es": "el plan de estudios",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "A2"
+      },
+      {
+        "id": 10082,
+        "de": "die Sachkunde",
+        "es": "el conocimiento del medio",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "A2"
+      },
+      {
+        "id": 10083,
+        "de": "der Vertreter",
+        "es": "el representante",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "A2"
+      },
+      {
+        "id": 10084,
+        "de": "wählen",
+        "es": "elegir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 58,
+        "level": "A2"
+      },
+      {
+        "id": 10085,
+        "de": "der Kakao",
+        "es": "el cacao",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 59,
+        "level": "A2"
+      },
+      {
+        "id": 10086,
+        "de": "der Krimi",
+        "es": "la novela policíaca",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 59,
+        "level": "A2"
+      },
+      {
+        "id": 10087,
+        "de": "die Suppe",
+        "es": "la sopa",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 59,
+        "level": "A2"
+      },
+      {
+        "id": 10088,
+        "de": "spannend",
+        "es": "emocionante",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 59,
+        "level": "A2"
+      },
+      {
+        "id": 10089,
+        "de": "wärmen",
+        "es": "calentar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 59,
+        "level": "A2"
+      },
+      {
+        "id": 10090,
+        "de": "die Mannschaft",
+        "es": "el equipo",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "A2"
+      },
+      {
+        "id": 10091,
+        "de": "der Trainer",
+        "es": "el entrenador",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "A2"
+      },
+      {
+        "id": 10092,
+        "de": "das Turnier",
+        "es": "el torneo",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "A2"
+      },
+      {
+        "id": 10093,
+        "de": "streng",
+        "es": "estricto",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 60,
+        "level": "A2"
+      },
+      {
+        "id": 10094,
+        "de": "trainieren",
+        "es": "entrenar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 60,
+        "level": "A2"
+      },
+      {
+        "id": 10095,
+        "de": "das Stockwerk",
+        "es": "la planta",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "A2"
+      },
+      {
+        "id": 10096,
+        "de": "der Ausweis",
+        "es": "el carnet",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "A2"
+      },
+      {
+        "id": 10097,
+        "de": "die Zeitschrift",
+        "es": "la revista",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "A2"
+      },
+      {
+        "id": 10098,
+        "de": "ausleihen",
+        "es": "prestar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 61,
+        "level": "A2"
+      },
+      {
+        "id": 10099,
+        "de": "kostenlos",
+        "es": "gratuito",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 61,
+        "level": "A2"
       }
     ],
     "B1": [
@@ -12471,6 +13362,402 @@
         "artikel": "",
         "type": "Ausdruck",
         "thema": 32,
+        "level": "B1"
+      },
+      {
+        "id": 10100,
+        "de": "der Feierabend",
+        "es": "el fin de jornada",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "B1"
+      },
+      {
+        "id": 10101,
+        "de": "die Pendelzeit",
+        "es": "el tiempo de desplazamiento",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "B1"
+      },
+      {
+        "id": 10102,
+        "de": "die Routine",
+        "es": "la rutina",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "B1"
+      },
+      {
+        "id": 10103,
+        "de": "hybrid",
+        "es": "híbrido",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 53,
+        "level": "B1"
+      },
+      {
+        "id": 10104,
+        "de": "trennen",
+        "es": "separar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 53,
+        "level": "B1"
+      },
+      {
+        "id": 10105,
+        "de": "der Behälter",
+        "es": "el recipiente",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "B1"
+      },
+      {
+        "id": 10106,
+        "de": "die Gewürze",
+        "es": "las especias",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "B1"
+      },
+      {
+        "id": 10107,
+        "de": "der Lieferant",
+        "es": "el proveedor",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "B1"
+      },
+      {
+        "id": 10108,
+        "de": "saisonal",
+        "es": "de temporada",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 54,
+        "level": "B1"
+      },
+      {
+        "id": 10109,
+        "de": "abfüllen",
+        "es": "llenar/envasar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 54,
+        "level": "B1"
+      },
+      {
+        "id": 10110,
+        "de": "die Mahlzeit",
+        "es": "la comida",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 55,
+        "level": "B1"
+      },
+      {
+        "id": 10111,
+        "de": "die Dankbarkeit",
+        "es": "la gratitud",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 55,
+        "level": "B1"
+      },
+      {
+        "id": 10112,
+        "de": "spenden",
+        "es": "donar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 55,
+        "level": "B1"
+      },
+      {
+        "id": 10113,
+        "de": "verteilen",
+        "es": "repartir",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 55,
+        "level": "B1"
+      },
+      {
+        "id": 10114,
+        "de": "die Aussprache",
+        "es": "la pronunciación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "B1"
+      },
+      {
+        "id": 10115,
+        "de": "die Demenz",
+        "es": "la demencia",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "B1"
+      },
+      {
+        "id": 10116,
+        "de": "geduldig",
+        "es": "paciente",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 56,
+        "level": "B1"
+      },
+      {
+        "id": 10117,
+        "de": "die Verschwendung",
+        "es": "el desperdicio",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "B1"
+      },
+      {
+        "id": 10118,
+        "de": "der Kühlschrank",
+        "es": "la nevera",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "B1"
+      },
+      {
+        "id": 10119,
+        "de": "der Bioladen",
+        "es": "la tienda ecológica",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "B1"
+      },
+      {
+        "id": 10120,
+        "de": "genießbar",
+        "es": "comestible",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 57,
+        "level": "B1"
+      },
+      {
+        "id": 10121,
+        "de": "retten",
+        "es": "salvar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 57,
+        "level": "B1"
+      },
+      {
+        "id": 10122,
+        "de": "der Radweg",
+        "es": "el carril bici",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "B1"
+      },
+      {
+        "id": 10123,
+        "de": "die Kreuzung",
+        "es": "el cruce",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "B1"
+      },
+      {
+        "id": 10124,
+        "de": "das Glatteis",
+        "es": "el hielo",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "B1"
+      },
+      {
+        "id": 10125,
+        "de": "die Dusche",
+        "es": "la ducha",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "B1"
+      },
+      {
+        "id": 10126,
+        "de": "inspirieren",
+        "es": "inspirar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 58,
+        "level": "B1"
+      },
+      {
+        "id": 10127,
+        "de": "die Entfernung",
+        "es": "la distancia",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 59,
+        "level": "B1"
+      },
+      {
+        "id": 10128,
+        "de": "die Anwesenheit",
+        "es": "la presencia",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 59,
+        "level": "B1"
+      },
+      {
+        "id": 10129,
+        "de": "ersetzen",
+        "es": "reemplazar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 59,
+        "level": "B1"
+      },
+      {
+        "id": 10130,
+        "de": "dankbar",
+        "es": "agradecido",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 59,
+        "level": "B1"
+      },
+      {
+        "id": 10131,
+        "de": "die Parzelle",
+        "es": "la parcela",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "B1"
+      },
+      {
+        "id": 10132,
+        "de": "die Laube",
+        "es": "la caseta",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "B1"
+      },
+      {
+        "id": 10133,
+        "de": "das Unkraut",
+        "es": "la mala hierba",
+        "artikel": "das",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "B1"
+      },
+      {
+        "id": 10134,
+        "de": "die Zucchini",
+        "es": "el calabacín",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "B1"
+      },
+      {
+        "id": 10135,
+        "de": "ernten",
+        "es": "cosechar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 60,
+        "level": "B1"
+      },
+      {
+        "id": 10136,
+        "de": "der Toaster",
+        "es": "la tostadora",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "B1"
+      },
+      {
+        "id": 10137,
+        "de": "der Tischler",
+        "es": "el carpintero",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "B1"
+      },
+      {
+        "id": 10138,
+        "de": "reparieren",
+        "es": "reparar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 61,
+        "level": "B1"
+      },
+      {
+        "id": 10139,
+        "de": "löten",
+        "es": "soldar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 61,
+        "level": "B1"
+      },
+      {
+        "id": 10140,
+        "de": "der Treffpunkt",
+        "es": "el punto de encuentro",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 62,
+        "level": "B1"
+      },
+      {
+        "id": 10141,
+        "de": "die Isolation",
+        "es": "el aislamiento",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 62,
+        "level": "B1"
+      },
+      {
+        "id": 10142,
+        "de": "isoliert",
+        "es": "aislado",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 62,
+        "level": "B1"
+      },
+      {
+        "id": 10143,
+        "de": "profitieren",
+        "es": "beneficiarse",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 62,
         "level": "B1"
       }
     ],
@@ -16860,6 +18147,330 @@
         "artikel": "",
         "type": "Ausdruck",
         "thema": 51,
+        "level": "B2"
+      },
+      {
+        "id": 10144,
+        "de": "die Privatsphäre",
+        "es": "la privacidad",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "B2"
+      },
+      {
+        "id": 10145,
+        "de": "die Pressefreiheit",
+        "es": "la libertad de prensa",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "B2"
+      },
+      {
+        "id": 10146,
+        "de": "die Abwägung",
+        "es": "la ponderación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 52,
+        "level": "B2"
+      },
+      {
+        "id": 10147,
+        "de": "missbrauchen",
+        "es": "abusar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 52,
+        "level": "B2"
+      },
+      {
+        "id": 10148,
+        "de": "die Herkunft",
+        "es": "el origen",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "B2"
+      },
+      {
+        "id": 10149,
+        "de": "die Nachhilfe",
+        "es": "las clases de apoyo",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "B2"
+      },
+      {
+        "id": 10150,
+        "de": "die Spaltung",
+        "es": "la división",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 53,
+        "level": "B2"
+      },
+      {
+        "id": 10151,
+        "de": "entkoppeln",
+        "es": "desacoplar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 53,
+        "level": "B2"
+      },
+      {
+        "id": 10152,
+        "de": "der Hinweisgeber",
+        "es": "el denunciante",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "B2"
+      },
+      {
+        "id": 10153,
+        "de": "der Missstand",
+        "es": "la irregularidad",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "B2"
+      },
+      {
+        "id": 10154,
+        "de": "die Repressalie",
+        "es": "la represalia",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 54,
+        "level": "B2"
+      },
+      {
+        "id": 10155,
+        "de": "aufdecken",
+        "es": "revelar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 54,
+        "level": "B2"
+      },
+      {
+        "id": 10156,
+        "de": "die Einsamkeit",
+        "es": "la soledad",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 55,
+        "level": "B2"
+      },
+      {
+        "id": 10157,
+        "de": "chronisch",
+        "es": "crónico",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 55,
+        "level": "B2"
+      },
+      {
+        "id": 10158,
+        "de": "gravierend",
+        "es": "grave",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 55,
+        "level": "B2"
+      },
+      {
+        "id": 10159,
+        "de": "der Verbrauch",
+        "es": "el consumo",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "B2"
+      },
+      {
+        "id": 10160,
+        "de": "die Tierhaltung",
+        "es": "la cría de animales",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "B2"
+      },
+      {
+        "id": 10161,
+        "de": "die Abholzung",
+        "es": "la deforestación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 56,
+        "level": "B2"
+      },
+      {
+        "id": 10162,
+        "de": "artgerecht",
+        "es": "respetuoso con la especie",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 56,
+        "level": "B2"
+      },
+      {
+        "id": 10163,
+        "de": "die Lesbarkeit",
+        "es": "la legibilidad",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "B2"
+      },
+      {
+        "id": 10164,
+        "de": "die Formulierung",
+        "es": "la formulación",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 57,
+        "level": "B2"
+      },
+      {
+        "id": 10165,
+        "de": "polarisieren",
+        "es": "polarizar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 57,
+        "level": "B2"
+      },
+      {
+        "id": 10166,
+        "de": "sperrig",
+        "es": "aparatoso",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 57,
+        "level": "B2"
+      },
+      {
+        "id": 10167,
+        "de": "die Kaltmiete",
+        "es": "el alquiler sin gastos",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "B2"
+      },
+      {
+        "id": 10168,
+        "de": "der Wohnungsbau",
+        "es": "la construcción de viviendas",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "B2"
+      },
+      {
+        "id": 10169,
+        "de": "die Erbschaft",
+        "es": "la herencia",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 58,
+        "level": "B2"
+      },
+      {
+        "id": 10170,
+        "de": "illusorisch",
+        "es": "ilusorio",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 58,
+        "level": "B2"
+      },
+      {
+        "id": 10171,
+        "de": "der Algorithmus",
+        "es": "el algoritmo",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 59,
+        "level": "B2"
+      },
+      {
+        "id": 10172,
+        "de": "die Weiterbildung",
+        "es": "la formación continua",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 59,
+        "level": "B2"
+      },
+      {
+        "id": 10173,
+        "de": "prognostizieren",
+        "es": "pronosticar",
+        "artikel": "",
+        "type": "Verb",
+        "thema": 59,
+        "level": "B2"
+      },
+      {
+        "id": 10174,
+        "de": "die Brache",
+        "es": "el terreno baldío",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "B2"
+      },
+      {
+        "id": 10175,
+        "de": "die Biodiversität",
+        "es": "la biodiversidad",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 60,
+        "level": "B2"
+      },
+      {
+        "id": 10176,
+        "de": "verdichtet",
+        "es": "densificado",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 60,
+        "level": "B2"
+      },
+      {
+        "id": 10177,
+        "de": "die Souveränität",
+        "es": "la soberanía",
+        "artikel": "die",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "B2"
+      },
+      {
+        "id": 10178,
+        "de": "der Halbleiter",
+        "es": "el semiconductor",
+        "artikel": "der",
+        "type": "Nomen",
+        "thema": 61,
+        "level": "B2"
+      },
+      {
+        "id": 10179,
+        "de": "regulatorisch",
+        "es": "regulatorio",
+        "artikel": "",
+        "type": "Adjektiv",
+        "thema": 61,
         "level": "B2"
       }
     ]
