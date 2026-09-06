@@ -2529,6 +2529,156 @@ Damit eine echte Kreislaufwirtschaft entstehen kann, müssten nach Ansicht viele
       { enunciado: 'Experten sehen auch beim Verbraucherverhalten Änderungsbedarf.', respuesta: true },
     ],
   },
+  {
+    slug: 'beim-baecker',
+    nivel: 'A1',
+    titulo: 'Beim Bäcker',
+    descripcion: 'Ein Besuch in einer kleinen Bäckerei am Morgen.',
+    texto: `Jeden Morgen geht Frau Schneider zum Bäcker. Die Bäckerei heißt „Goldkruste" und ist in ihrer Straße. Sie kauft dort immer frische Brötchen und manchmal auch ein Stück Kuchen.
+
+Herr Meier arbeitet in der Bäckerei. Er steht jeden Tag um vier Uhr auf und backt Brot, Brötchen und Croissants. Die Kunden mögen besonders das Vollkornbrot. Es ist dunkel und sehr lecker.
+
+Frau Schneider bestellt heute drei Brötchen, ein Vollkornbrot und zwei Stücke Apfelkuchen. Der Apfelkuchen ist für ihre Kinder. Sie bezahlt fünf Euro und zwanzig Cent. Herr Meier sagt: „Einen schönen Tag noch!" Frau Schneider antwortet: „Danke, Ihnen auch!" Dann geht sie nach Hause und frühstückt mit ihrer Familie.`,
+    preguntas: [
+      { enunciado: 'Frau Schneider geht jeden Morgen zum Bäcker.', respuesta: true },
+      { enunciado: 'Die Bäckerei heißt „Sonnenschein".', respuesta: false },
+      { enunciado: 'Herr Meier steht um vier Uhr auf.', respuesta: true },
+      { enunciado: 'Der Apfelkuchen ist für Frau Schneiders Kollegen.', respuesta: false },
+      { enunciado: 'Die Kunden mögen das Vollkornbrot besonders gern.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'das-postamt',
+    nivel: 'A1',
+    titulo: 'Das Postamt',
+    descripcion: 'Leon schickt ein Paket an seine Großmutter.',
+    texto: `Leon geht heute zum Postamt. Er möchte ein Paket an seine Großmutter schicken. Seine Großmutter wohnt in Hamburg. Im Paket sind ein Buch und Schokolade.
+
+Am Postamt wartet Leon in der Schlange. Vor ihm stehen drei Personen. Eine Frau kauft Briefmarken. Ein Mann holt ein Paket ab. Dann ist Leon an der Reihe.
+
+Die Frau am Schalter fragt: „Wohin soll das Paket?" Leon sagt: „Nach Hamburg." Sie wiegt das Paket. Es kostet vier Euro neunzig. Leon bezahlt und bekommt eine Quittung. Das Paket kommt in zwei Tagen an. Leon freut sich. Seine Großmutter mag Schokolade sehr gern.`,
+    preguntas: [
+      { enunciado: 'Leon schickt ein Paket an seine Großmutter.', respuesta: true },
+      { enunciado: 'Seine Großmutter wohnt in München.', respuesta: false },
+      { enunciado: 'Im Paket sind ein Buch und Schokolade.', respuesta: true },
+      { enunciado: 'Leon ist sofort an der Reihe, ohne zu warten.', respuesta: false },
+      { enunciado: 'Das Paket kommt in zwei Tagen an.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-campingurlaub',
+    nivel: 'A2',
+    titulo: 'Der Campingurlaub',
+    descripcion: 'Eine Familie verbringt ihren Urlaub auf einem Campingplatz am See.',
+    texto: `Letzten Sommer hat Familie Weber einen Campingurlaub am Bodensee gemacht. Sie sind am Freitagmorgen mit dem Auto losgefahren. Die Fahrt hat drei Stunden gedauert. Die Kinder, Mia und Jonas, waren sehr aufgeregt.
+
+Auf dem Campingplatz haben sie zuerst das Zelt aufgebaut. Das war nicht einfach, weil der Wind stark geweht hat. Danach sind sie zum See gegangen und haben gebadet. Das Wasser war kalt, aber die Kinder haben trotzdem viel Spaß gehabt.
+
+Am Abend hat der Vater ein Lagerfeuer gemacht. Die Familie hat Würstchen gegrillt und Marshmallows geröstet. Mia hat Gitarre gespielt und alle haben zusammen gesungen. Jonas hat gesagt: „Das ist der beste Urlaub!" Am nächsten Tag haben sie eine Wanderung gemacht und viele Schmetterlinge gesehen. Nach fünf Tagen sind sie müde, aber glücklich nach Hause gefahren.`,
+    preguntas: [
+      { enunciado: 'Familie Weber hat am Bodensee gecampt.', respuesta: true },
+      { enunciado: 'Die Fahrt zum Campingplatz hat fünf Stunden gedauert.', respuesta: false },
+      { enunciado: 'Der Vater hat am Abend ein Lagerfeuer gemacht.', respuesta: true },
+      { enunciado: 'Jonas hat am Lagerfeuer Gitarre gespielt.', respuesta: false },
+      { enunciado: 'Der Campingurlaub hat fünf Tage gedauert.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'taschengeld',
+    nivel: 'A2',
+    titulo: 'Taschengeld',
+    descripcion: 'Zwei Geschwister lernen, mit ihrem Taschengeld umzugehen.',
+    texto: `Emma und Luis bekommen seit Januar Taschengeld von ihren Eltern. Emma ist zwölf Jahre alt und bekommt zwanzig Euro im Monat. Luis ist neun und bekommt zehn Euro. Ihre Eltern haben gesagt, dass sie damit lernen sollen, mit Geld umzugehen.
+
+Emma hat sich ein Sparschwein gekauft und spart jeden Monat fünf Euro. Sie möchte sich im Sommer neue Kopfhörer kaufen. Letzten Monat hat sie außerdem ein Buch gekauft und ihrer Freundin ein Geburtstagsgeschenk bezahlt.
+
+Luis hat sein Taschengeld im ersten Monat sofort für Süßigkeiten ausgegeben. Danach hatte er kein Geld mehr und war traurig. Seine Mutter hat mit ihm gesprochen und einen Plan gemacht. Jetzt teilt Luis sein Geld in drei Teile: Sparen, Ausgeben und Verschenken. Im letzten Monat hat er seiner Oma Blumen gekauft. Er war sehr stolz darauf.`,
+    preguntas: [
+      { enunciado: 'Emma bekommt zwanzig Euro Taschengeld im Monat.', respuesta: true },
+      { enunciado: 'Luis bekommt genauso viel Taschengeld wie Emma.', respuesta: false },
+      { enunciado: 'Emma spart jeden Monat fünf Euro für Kopfhörer.', respuesta: true },
+      { enunciado: 'Luis hat von Anfang an gut mit seinem Geld umgehen können.', respuesta: false },
+      { enunciado: 'Luis hat seiner Oma Blumen von seinem Taschengeld gekauft.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'jugendherbergen-in-deutschland',
+    nivel: 'B1',
+    titulo: 'Jugendherbergen in Deutschland',
+    descripcion: 'Über die Geschichte und Bedeutung der deutschen Jugendherbergen.',
+    texto: `Jugendherbergen haben in Deutschland eine lange Tradition. Die erste Jugendherberge der Welt wurde 1912 in der Burg Altena in Nordrhein-Westfalen eröffnet. Der Lehrer Richard Schirrmann hatte die Idee, einfache und günstige Unterkünfte für junge Reisende zu schaffen. Heute gibt es in Deutschland über 400 Jugendherbergen, und sie werden nicht nur von Jugendlichen, sondern auch von Familien und Erwachsenen genutzt.
+
+Früher waren Jugendherbergen sehr einfach ausgestattet: Mehrbettzimmer, Gemeinschaftsbäder und ein schlichtes Frühstück gehörten zum Standard. Inzwischen haben sich viele Häuser modernisiert und bieten Einzelzimmer, WLAN und sogar Wellnessbereiche an. Trotzdem bleiben die Preise deutlich günstiger als in Hotels, was sie besonders für Schulklassen und Gruppenreisen attraktiv macht.
+
+Kritiker bemängeln allerdings, dass manche Jugendherbergen durch die Modernisierung ihren ursprünglichen Charakter verloren hätten. Sie argumentieren, dass der Gemeinschaftsgedanke in luxuriöseren Häusern weniger gepflegt werde. Befürworter halten dagegen, dass Jugendherbergen sich an die heutigen Erwartungen anpassen müssten, wenn sie wettbewerbsfähig bleiben wollten. Trotz dieser Diskussion spielen Jugendherbergen weiterhin eine wichtige Rolle im Tourismus und ermöglichen vielen Menschen einen erschwinglichen Zugang zu Reisen und Bildungserlebnissen.`,
+    preguntas: [
+      { enunciado: 'Die erste Jugendherberge der Welt wurde in Deutschland eröffnet.', respuesta: true },
+      { enunciado: 'Jugendherbergen dürfen heute nur von Jugendlichen unter 18 Jahren genutzt werden.', respuesta: false },
+      { enunciado: 'Viele Jugendherbergen haben sich inzwischen modernisiert.', respuesta: true },
+      { enunciado: 'Kritiker finden, dass die Modernisierung den Gemeinschaftsgedanken stärkt.', respuesta: false },
+      { enunciado: 'Die Preise in Jugendherbergen sind günstiger als in Hotels.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'schlafprobleme-bei-jugendlichen',
+    nivel: 'B1',
+    titulo: 'Schlafprobleme bei Jugendlichen',
+    descripcion: 'Warum viele Jugendliche zu wenig und zu schlecht schlafen.',
+    texto: `Studien zeigen, dass immer mehr Jugendliche in Deutschland unter Schlafproblemen leiden. Experten empfehlen für Teenager zwischen 14 und 17 Jahren acht bis zehn Stunden Schlaf pro Nacht. Die Realität sieht jedoch anders aus: Viele Jugendliche schlafen im Durchschnitt nur sechs bis sieben Stunden, weil sie abends lange wach bleiben und morgens früh aufstehen müssen.
+
+Ein wichtiger Grund für die Schlafprobleme ist die intensive Nutzung von Smartphones und sozialen Medien. Das blaue Licht der Bildschirme hemmt die Produktion des Schlafhormons Melatonin, wodurch es den Jugendlichen schwerer fällt, einzuschlafen. Außerdem sorgen Nachrichten und Benachrichtigungen dafür, dass viele ihr Handy bis kurz vor dem Einschlafen benutzen.
+
+Die Folgen von Schlafmangel sind erheblich: Konzentrationsprobleme in der Schule, Reizbarkeit und ein geschwächtes Immunsystem. Einige Wissenschaftler fordern deshalb, dass der Unterricht an weiterführenden Schulen erst um neun Uhr beginnen sollte, damit die biologische Uhr der Jugendlichen respektiert werde. In einigen Pilotprojekten wurde dies bereits getestet, und die Ergebnisse waren vielversprechend. Dennoch gibt es organisatorische Hürden, die eine flächendeckende Einführung erschweren.`,
+    preguntas: [
+      { enunciado: 'Experten empfehlen Teenagern acht bis zehn Stunden Schlaf.', respuesta: true },
+      { enunciado: 'Die meisten Jugendlichen schlafen laut Text ausreichend.', respuesta: false },
+      { enunciado: 'Blaues Licht von Bildschirmen hemmt die Melatonin-Produktion.', respuesta: true },
+      { enunciado: 'Pilotprojekte mit späterem Unterrichtsbeginn hatten keine positiven Ergebnisse.', respuesta: false },
+      { enunciado: 'Schlafmangel kann zu Konzentrationsproblemen in der Schule führen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'altersarmut-in-deutschland',
+    nivel: 'B2',
+    titulo: 'Altersarmut in Deutschland',
+    descripcion: 'Ursachen, Ausmaß und mögliche Lösungen für die wachsende Altersarmut.',
+    texto: `Obwohl Deutschland zu den wohlhabendsten Ländern Europas zählt, ist die Altersarmut in den vergangenen Jahren zu einem drängenden sozialpolitischen Thema geworden. Laut aktuellen Statistiken sind rund 18 Prozent der über 65-Jährigen von Armut bedroht, wobei Frauen, Alleinstehende und Menschen mit Migrationshintergrund überproportional betroffen sind. Die Ursachen dieser Entwicklung sind vielschichtig und reichen von strukturellen Veränderungen auf dem Arbeitsmarkt bis hin zu demografischen Verschiebungen.
+
+Ein zentraler Faktor ist die Zunahme von Beschäftigungsverhältnissen im Niedriglohnsektor, bei denen trotz jahrzehntelanger Erwerbstätigkeit nur geringe Rentenansprüche erworben werden. Hinzu kommen unterbrochene Erwerbsbiografien, etwa durch Kindererziehung oder Pflege von Angehörigen, die sich negativ auf die spätere Rente auswirken. Da diese Tätigkeiten überwiegend von Frauen übernommen werden, erklärt sich auch die deutlich höhere Armutsquote unter Rentnerinnen, die im Fachjargon als „Gender Pension Gap" bezeichnet wird.
+
+Auf politischer Ebene werden verschiedene Lösungsansätze diskutiert. Die Grundrente, die 2021 eingeführt wurde, soll Geringverdienern nach mindestens 33 Beitragsjahren einen Zuschlag auf ihre Rente gewähren. Kritiker bemängeln jedoch, dass die bürokratischen Hürden bei der Beantragung hoch seien und viele Berechtigte den Zuschlag gar nicht erhielten. Darüber hinaus wird eine stärkere Förderung der privaten Altersvorsorge gefordert, obwohl Studien zeigen, dass gerade einkommensschwache Haushalte kaum in der Lage sind, zusätzlich für das Alter zu sparen.
+
+Langfristig könnte die fortschreitende Alterung der Gesellschaft das Problem weiter verschärfen: Immer weniger Beitragszahler müssen die Renten einer wachsenden Zahl von Ruheständlern finanzieren. Ohne grundlegende Reformen des Rentensystems droht die Altersarmut nach Einschätzung vieler Sozialwissenschaftler in den kommenden Jahrzehnten weiter zuzunehmen und die gesellschaftliche Ungleichheit nachhaltig zu vertiefen.`,
+    preguntas: [
+      { enunciado: 'Frauen sind von Altersarmut stärker betroffen als Männer.', respuesta: true },
+      { enunciado: 'Beschäftigung im Niedriglohnsektor führt laut Text zu hohen Rentenansprüchen.', respuesta: false },
+      { enunciado: 'Der „Gender Pension Gap" beschreibt die Rentenlücke zwischen Männern und Frauen.', respuesta: true },
+      { enunciado: 'Laut Text erreicht die Grundrente problemlos alle Berechtigten.', respuesta: false },
+      { enunciado: 'Die Alterung der Gesellschaft könnte das Problem der Altersarmut verschärfen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'buergerbeteiligung-und-demokratie',
+    nivel: 'B2',
+    titulo: 'Bürgerbeteiligung und Demokratie',
+    descripcion: 'Wie Bürgerräte und partizipative Verfahren die Demokratie stärken können.',
+    texto: `In vielen europäischen Demokratien wächst die Kluft zwischen politischen Institutionen und der Bevölkerung. Sinkende Wahlbeteiligung, zunehmendes Misstrauen gegenüber Parteien und ein Gefühl der Machtlosigkeit prägen die politische Stimmung. Als Antwort darauf gewinnen partizipative Verfahren wie Bürgerräte, Bürgerhaushalte und digitale Beteiligungsplattformen zunehmend an Bedeutung. Diese Instrumente sollen die repräsentative Demokratie nicht ersetzen, sondern ergänzen und legitimieren.
+
+Ein viel beachtetes Beispiel ist der irische Bürgerrat, der 2016 einberufen wurde und maßgeblich zur Liberalisierung des Abtreibungsrechts beigetragen hat. Zufällig ausgeloste Bürgerinnen und Bürger informierten sich über Expertenmeinungen, diskutierten kontroverse Fragen und formulierten Empfehlungen, die anschließend in einem Referendum bestätigt wurden. In Deutschland haben mehrere Kommunen und Bundesländer ähnliche Formate erprobt, etwa zu Themen wie Klimaschutz, Stadtplanung oder Bildungspolitik.
+
+Befürworter argumentieren, dass Bürgerräte die politische Debatte versachlichen, weil zufällig ausgeloste Teilnehmer unabhängiger von Parteiinteressen und Lobbyeinflüssen agierten als gewählte Abgeordnete. Zudem könne das Verfahren Bevölkerungsgruppen einbeziehen, die sich sonst nicht politisch engagierten, was die Repräsentativität von Entscheidungen erhöhe.
+
+Kritiker hingegen warnen davor, demokratisch legitimierte Parlamente durch nicht gewählte Gremien zu schwächen. Sie geben zu bedenken, dass die Auswahl der Experten, die den Bürgerräten zuarbeiten, den Diskussionsverlauf erheblich beeinflussen könne und somit keineswegs neutral sei. Ferner stelle sich die Frage der Verbindlichkeit: Wenn die Empfehlungen eines Bürgerrats von der Politik ignoriert würden, drohe die Frustration der Beteiligten sogar größer zu werden als zuvor.
+
+Trotz dieser berechtigten Einwände zeigt die bisherige Praxis, dass gut organisierte Bürgerräte das Vertrauen in demokratische Prozesse stärken und die Qualität politischer Entscheidungen verbessern können — vorausgesetzt, die Ergebnisse werden transparent kommuniziert und von den zuständigen Institutionen ernst genommen.`,
+    preguntas: [
+      { enunciado: 'Partizipative Verfahren sollen die repräsentative Demokratie ergänzen, nicht ersetzen.', respuesta: true },
+      { enunciado: 'Der irische Bürgerrat setzte sich aus gewählten Politikern zusammen.', respuesta: false },
+      { enunciado: 'In Deutschland wurden Bürgerräte bereits auf kommunaler und Landesebene erprobt.', respuesta: true },
+      { enunciado: 'Kritiker halten die Auswahl der Experten für Bürgerräte für vollkommen neutral.', respuesta: false },
+      { enunciado: 'Laut Text können Bürgerräte das Vertrauen in demokratische Prozesse stärken.', respuesta: true },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
