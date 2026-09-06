@@ -2313,6 +2313,222 @@ Gleichzeitig betonen andere Fachleute, dass nicht das Smartphone an sich das Pro
       { enunciado: 'Ein bewussterer Umgang mit Medien wird von manchen Fachleuten als wichtiger Lösungsansatz gesehen.', respuesta: true },
     ],
   },
+  {
+    slug: 'der-tierarzt',
+    nivel: 'A1',
+    titulo: 'Der Tierarzt',
+    descripcion: 'Tim bringt seinen kranken Hund Bruno zum Tierarzt.',
+    texto: `Tim hat einen Hund. Der Hund heißt Bruno. Bruno ist drei Jahre alt und sehr lieb. Aber heute ist Bruno krank. Er isst nicht und schläft den ganzen Tag. Tim macht sich Sorgen und ruft den Tierarzt an.
+
+Am Nachmittag geht Tim mit Bruno zum Tierarzt. Die Praxis ist nicht weit von zu Hause. Im Wartezimmer sitzen auch eine Katze und ein Kaninchen. Bruno ist ein bisschen ängstlich, aber Tim streichelt ihn. Der Tierarzt untersucht Bruno genau und misst seine Temperatur.
+
+„Bruno hat nur eine kleine Erkältung", sagt der Tierarzt. „Er braucht viel Wasser und Ruhe." Tim ist erleichtert. Er bekommt Medizin für Bruno und geht glücklich nach Hause. Am Abend spielt Bruno schon wieder ein bisschen im Garten.`,
+    preguntas: [
+      { enunciado: 'Bruno ist der Hund von Tim.', respuesta: true },
+      { enunciado: 'Bruno ist heute sehr aktiv und isst viel.', respuesta: false },
+      { enunciado: 'Tim geht am Morgen zum Tierarzt.', respuesta: false },
+      { enunciado: 'Im Wartezimmer sind auch andere Tiere.', respuesta: true },
+      { enunciado: 'Der Tierarzt sagt, dass Bruno sehr krank ist.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'mein-lieblingsessen',
+    nivel: 'A1',
+    titulo: 'Mein Lieblingsessen',
+    descripcion: 'Lisa erzählt von ihrem Lieblingsessen und dem Sonntag mit ihrer Familie.',
+    texto: `Lisa isst gern Nudeln mit Tomatensauce. Das ist ihr Lieblingsessen. Sie kocht es fast jede Woche. Die Sauce macht sie mit Tomaten, Zwiebeln und ein bisschen Knoblauch. Das Kochen dauert nicht lange, nur dreißig Minuten.
+
+Am liebsten kocht Lisa am Sonntag. Dann hat die ganze Familie Zeit. Ihr Bruder Paul deckt den Tisch, und ihre Mutter macht einen Salat dazu. Der Vater trinkt gern ein Glas Wein zum Essen. Alle setzen sich zusammen an den Tisch und essen langsam.
+
+Nach dem Essen isst Lisa gern noch ein Stück Kuchen. Ihre Oma backt jeden Sonntag einen Apfelkuchen. Der Kuchen schmeckt sehr gut, und die ganze Familie liebt ihn. Lisa hilft ihrer Oma manchmal beim Backen.`,
+    preguntas: [
+      { enunciado: 'Lisas Lieblingsessen sind Nudeln mit Tomatensauce.', respuesta: true },
+      { enunciado: 'Lisa kocht ihr Lieblingsessen nur einmal im Jahr.', respuesta: false },
+      { enunciado: 'Paul deckt den Tisch.', respuesta: true },
+      { enunciado: 'Die Mutter trinkt gern Wein zum Essen.', respuesta: false },
+      { enunciado: 'Die Oma backt jeden Sonntag einen Kuchen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-verlorene-koffer',
+    nivel: 'A2',
+    titulo: 'Der verlorene Koffer',
+    descripcion: 'Auf der Rückreise aus Spanien hat Familie Berger ein Problem mit dem Gepäck.',
+    texto: `Familie Berger ist gerade aus dem Urlaub in Spanien zurückgekommen. Der Flug ist pünktlich gelandet, und alle waren müde, aber zufrieden. Am Gepäckband haben sie lange gewartet, doch ein Koffer ist einfach nicht gekommen. Herr Berger hat sofort zum Info-Schalter gehen müssen, weil seine Frau sehr nervös geworden ist.
+
+Am Schalter hat eine freundliche Mitarbeiterin ihm ein Formular gegeben. Er hat den Namen, die Adresse und eine Beschreibung des Koffers aufgeschrieben. Die Mitarbeiterin hat erklärt, dass der Koffer wahrscheinlich noch in Spanien ist, weil er auf einen falschen Flug geladen wurde. Sie hat versprochen, dass der Koffer in zwei oder drei Tagen mit einem Kurier nach Hause geschickt wird.
+
+Zwei Tage später hat es an der Tür geklingelt. Ein Kurier hat den Koffer gebracht, und die ganze Familie hat sich sehr gefreut. Nichts hat gefehlt, und alle Sachen waren noch heil. Frau Berger hat gesagt, dass sie beim nächsten Mal lieber ein Namensschild an den Koffer hängt.`,
+    preguntas: [
+      { enunciado: 'Familie Berger ist aus Spanien zurückgekommen.', respuesta: true },
+      { enunciado: 'Alle Koffer sind sofort am Gepäckband angekommen.', respuesta: false },
+      { enunciado: 'Herr Berger hat ein Formular am Info-Schalter ausgefüllt.', respuesta: true },
+      { enunciado: 'Der Koffer ist für immer verloren gegangen.', respuesta: false },
+      { enunciado: 'Frau Berger möchte beim nächsten Mal ein Namensschild an den Koffer hängen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-nachbarschaftsparty',
+    nivel: 'A2',
+    titulo: 'Die Nachbarschaftsparty',
+    descripcion: 'Die Nachbarn in der Gartenstraße organisieren zusammen ein Sommerfest.',
+    texto: `Im Sommer haben die Nachbarn in der Gartenstraße eine Party geplant. Frau Kaiser hat die Idee gehabt, weil sie ihre Nachbarn schon lange besser kennenlernen wollte. Sie hat kleine Zettel in alle Briefkästen gesteckt und alle zu einem Fest im Hof eingeladen.
+
+Am Samstag haben viele Nachbarn mitgemacht. Herr Yildiz hat einen Grill mitgebracht und leckeres Fleisch gegrillt. Die Kinder haben im Hof gespielt, während die Erwachsenen an langen Tischen gesessen haben. Jede Familie hat etwas zu essen mitgebracht, deshalb gab es viele verschiedene Gerichte aus unterschiedlichen Ländern.
+
+Am Abend haben alle zusammen Musik gehört und ein bisschen getanzt. Frau Kaiser war sehr glücklich, weil das Fest so gut gelungen ist. Die Nachbarn haben beschlossen, dass sie jedes Jahr im Sommer wieder ein Fest feiern wollen.`,
+    preguntas: [
+      { enunciado: 'Frau Kaiser hat die Nachbarschaftsparty organisiert.', respuesta: true },
+      { enunciado: 'Niemand hat bei der Party mitgemacht.', respuesta: false },
+      { enunciado: 'Herr Yildiz hat einen Grill mitgebracht.', respuesta: true },
+      { enunciado: 'Es gab nur ein einziges Gericht bei der Party.', respuesta: false },
+      { enunciado: 'Die Nachbarn wollen das Fest jedes Jahr wiederholen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'ein-brief-aus-der-schweiz',
+    nivel: 'A2',
+    titulo: 'Ein Brief aus der Schweiz',
+    descripcion: 'Julia bekommt einen Brief von ihrer Brieffreundin Nadja aus Zürich.',
+    texto: `Julia hat vor drei Monaten eine Brieffreundin in der Schweiz gefunden. Sie heißt Nadja und wohnt in Zürich. Letzte Woche hat Julia endlich einen Brief von Nadja bekommen. Sie hat sich sehr gefreut, weil der Brief lang und interessant war.
+
+Nadja hat geschrieben, dass sie gern in den Bergen wandert und dass ihre Familie oft am Wochenende einen Ausflug macht. Sie hat auch erzählt, dass die Schule in der Schweiz ein bisschen anders ist als in Deutschland. Am Ende des Briefes hat Nadja gefragt, ob Julia sie im Sommer besuchen möchte.
+
+Julia hat sofort geantwortet. Sie hat geschrieben, dass sie sich sehr über die Einladung freut und dass sie ihre Eltern schon gefragt hat. Ihre Eltern haben gesagt, dass sie im August zusammen in die Schweiz fahren können. Julia kann es kaum erwarten, Nadja endlich persönlich kennenzulernen.`,
+    preguntas: [
+      { enunciado: 'Julias Brieffreundin wohnt in Zürich.', respuesta: true },
+      { enunciado: 'Julia hat den Brief sofort weggeworfen.', respuesta: false },
+      { enunciado: 'Nadja wandert gern in den Bergen.', respuesta: true },
+      { enunciado: 'Nadja hat Julia nicht eingeladen.', respuesta: false },
+      { enunciado: 'Julias Eltern erlauben ihr, im August in die Schweiz zu fahren.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-kurzurlaub-an-der-ostsee',
+    nivel: 'A2',
+    titulo: 'Der Kurzurlaub an der Ostsee',
+    descripcion: 'Markus und seine Freundin Sarah fahren spontan für ein Wochenende an die Ostsee.',
+    texto: `Am Freitagabend hat Markus seiner Freundin Sarah eine Überraschung vorgeschlagen: einen kurzen Ausflug an die Ostsee. Sarah hat sich sehr gefreut, weil sie schon lange nicht mehr am Meer war. Sie haben schnell eine Tasche gepackt und sind noch am selben Abend losgefahren.
+
+Nach drei Stunden Autofahrt sind sie in einem kleinen Hotel direkt am Strand angekommen. Am nächsten Morgen sind sie früh aufgestanden und barfuß am Strand spazieren gegangen. Das Wasser war noch kalt, aber die Sonne hat schon warm geschienen. Am Nachmittag haben sie frischen Fisch in einem Restaurant am Hafen gegessen.
+
+Am Sonntag mussten sie leider schon wieder nach Hause fahren, weil Markus am Montag arbeiten musste. Trotzdem waren beide sehr zufrieden, weil der kurze Urlaub genau richtig war, um sich zu erholen. Sarah hat gesagt, dass sie unbedingt bald wieder an die Ostsee fahren möchte.`,
+    preguntas: [
+      { enunciado: 'Markus und Sarah sind an einem Freitagabend losgefahren.', respuesta: true },
+      { enunciado: 'Sie sind mit dem Zug an die Ostsee gefahren.', respuesta: false },
+      { enunciado: 'Das Hotel lag direkt am Strand.', respuesta: true },
+      { enunciado: 'Sie sind eine ganze Woche geblieben.', respuesta: false },
+      { enunciado: 'Sarah möchte bald wieder an die Ostsee fahren.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-klassenfahrt-nach-berlin',
+    nivel: 'B1',
+    titulo: 'Die Klassenfahrt nach Berlin',
+    descripcion: 'Eine neunte Klasse verbringt drei Tage in Berlin und besucht wichtige historische Orte.',
+    texto: `Die Klasse 9b ist letzte Woche für drei Tage nach Berlin gefahren. Obwohl viele Schüler vorher noch nie in der Hauptstadt waren, hatten alle sich schon lange auf die Fahrt gefreut. Nachdem die Klasse am Bahnhof angekommen war, sind sie direkt zur Jugendherberge gegangen, um ihr Gepäck abzustellen.
+
+Am ersten Tag hat die Klasse das Brandenburger Tor und den Reichstag besichtigt. Der Geschichtslehrer, Herr Wolter, hat viel über die deutsche Geschichte erzählt, obwohl manche Schüler lieber Zeit zum Shoppen gehabt hätten. Trotzdem waren die meisten beeindruckt, als sie am zweiten Tag die East Side Gallery besucht haben, wo ein Teil der ehemaligen Berliner Mauer mit bunten Bildern bemalt ist.
+
+Am letzten Abend durften die Schüler noch einmal in kleinen Gruppen durch die Stadt laufen, bevor sie am nächsten Morgen die Heimreise antreten mussten. Viele waren traurig, dass die Fahrt schon vorbei war, nachdem sie so viel Neues gesehen hatten. Am Ende waren sich alle einig, dass die Klassenfahrt eines der schönsten Erlebnisse des Schuljahres war.`,
+    preguntas: [
+      { enunciado: 'Die Klasse 9b ist für drei Tage nach Berlin gefahren.', respuesta: true },
+      { enunciado: 'Alle Schüler waren schon oft in Berlin gewesen.', respuesta: false },
+      { enunciado: 'Die Klasse hat die East Side Gallery besucht.', respuesta: true },
+      { enunciado: 'Am letzten Abend mussten alle Schüler früh ins Bett gehen.', respuesta: false },
+      { enunciado: 'Am Ende fanden die meisten Schüler die Klassenfahrt schön.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'eine-neue-freundschaft-am-arbeitsplatz',
+    nivel: 'B1',
+    titulo: 'Eine neue Freundschaft am Arbeitsplatz',
+    descripcion: 'Sabine findet in ihrer neuen Kollegin eine echte Freundin, obwohl der Anfang schwierig war.',
+    texto: `Als Sabine vor sechs Monaten ihre neue Stelle in einem Architekturbüro angefangen hat, kannte sie noch niemanden. Obwohl ihre Kollegen freundlich waren, hat sie sich in den ersten Wochen oft einsam gefühlt. Nachdem sie mehrmals allein in der Mittagspause gesessen hatte, hat eine Kollegin namens Petra sie eines Tages einfach zu ihrem Tisch eingeladen.
+
+Von diesem Moment an haben Sabine und Petra fast jeden Tag zusammen zu Mittag gegessen. Sie haben schnell gemerkt, dass sie ähnliche Interessen haben, obwohl sie in ganz unterschiedlichen Städten aufgewachsen sind. Trotzdem hat es gedauert, bis aus der Kollegenbeziehung eine echte Freundschaft geworden ist. Nachdem sie zusammen an einem großen Projekt gearbeitet hatten, haben sie sich auch außerhalb der Arbeit oft getroffen.
+
+Heute gehen Sabine und Petra regelmäßig zusammen ins Kino oder treffen sich am Wochenende zum Wandern. Obwohl der Beginn schwierig war, ist Sabine sehr froh, dass sie den Mut hatte, offen für neue Kontakte zu sein. Sie sagt oft, dass diese Freundschaft das Beste ist, was ihr an der neuen Arbeitsstelle passiert ist.`,
+    preguntas: [
+      { enunciado: 'Sabine hat sich in den ersten Wochen an der neuen Arbeit einsam gefühlt.', respuesta: true },
+      { enunciado: 'Petra hat Sabine nie zu ihrem Tisch eingeladen.', respuesta: false },
+      { enunciado: 'Sabine und Petra sind in derselben Stadt aufgewachsen.', respuesta: false },
+      { enunciado: 'Die beiden haben zusammen an einem Projekt gearbeitet.', respuesta: true },
+      { enunciado: 'Sabine und Petra treffen sich auch außerhalb der Arbeit.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'landflucht-und-strukturwandel',
+    nivel: 'B2',
+    titulo: 'Landflucht und Strukturwandel im ländlichen Raum',
+    descripcion: 'Warum immer mehr junge Menschen ländliche Regionen verlassen und welche Folgen das hat.',
+    texto: `Seit Jahrzehnten verlassen junge Menschen in Deutschland zunehmend ländliche Regionen, um in Großstädten zu studieren oder zu arbeiten. Dieses Phänomen, das als Landflucht bezeichnet wird, hat weitreichende Folgen für die betroffenen Dörfer und Kleinstädte. Wo einst Schulen, Ärzte und Geschäfte den Alltag prägten, herrscht heute vielerorts ein spürbarer Mangel an grundlegender Infrastruktur, was das Leben für die verbliebene, oft ältere Bevölkerung zunehmend erschwert.
+
+Als Hauptgründe für die Abwanderung gelten fehlende Ausbildungs- und Arbeitsplätze sowie eine unzureichende digitale Anbindung, die insbesondere für jüngere Generationen, die im Homeoffice arbeiten möchten, ein entscheidendes Kriterium darstellt. Hinzu kommt, dass kulturelle und soziale Angebote in Städten deutlich vielfältiger sind, wodurch ländliche Regionen im Vergleich als weniger attraktiv wahrgenommen werden. Regionalpolitiker warnen bereits seit Langem davor, dass sich diese Entwicklung ohne gezielte Gegenmaßnahmen weiter verschärfen könnte.
+
+Um dem Strukturwandel entgegenzuwirken, setzen manche Kommunen auf innovative Konzepte wie geförderte Coworking-Spaces, verbesserte Breitbandanbindung und finanzielle Anreize für junge Familien, die aufs Land ziehen möchten. Ob solche Maßnahmen ausreichen, um den Trend umzukehren, bleibt jedoch fraglich, zumal strukturelle Probleme wie der fehlende öffentliche Nahverkehr in vielen Regionen weiterhin ungelöst sind. Klar ist jedoch, dass ohne substanzielle Investitionen in die ländliche Infrastruktur die Kluft zwischen Stadt und Land in den kommenden Jahren eher noch größer werden dürfte.`,
+    preguntas: [
+      { enunciado: 'Landflucht beschreibt die Abwanderung junger Menschen aus ländlichen Regionen.', respuesta: true },
+      { enunciado: 'In den betroffenen Dörfern gibt es laut Text keinerlei Probleme mit der Infrastruktur.', respuesta: false },
+      { enunciado: 'Eine schlechte digitale Anbindung wird als einer der Gründe für die Abwanderung genannt.', respuesta: true },
+      { enunciado: 'Alle Kommunen haben das Problem der Landflucht bereits vollständig gelöst.', respuesta: false },
+      { enunciado: 'Manche Kommunen versuchen mit Coworking-Spaces und finanziellen Anreizen gegenzusteuern.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'kuenstliche-intelligenz-im-klassenzimmer',
+    nivel: 'B2',
+    titulo: 'Künstliche Intelligenz im Klassenzimmer',
+    descripcion: 'Wie KI-gestützte Lernprogramme den Schulunterricht verändern könnten – und welche Risiken damit verbunden sind.',
+    texto: `Künstliche Intelligenz hält zunehmend Einzug in deutsche Klassenzimmer. Adaptive Lernprogramme, die sich individuell an das Lerntempo und die Schwächen einzelner Schüler anpassen, versprechen einen effizienteren und persönlicheren Unterricht, als es einer Lehrkraft allein möglich wäre. Befürworter argumentieren, dass solche Systeme Lehrer entlasten könnten, indem sie Routineaufgaben wie die Korrektur von Tests übernehmen, wodurch mehr Zeit für individuelle Betreuung bliebe.
+
+Kritiker hingegen befürchten, dass eine übermäßige Abhängigkeit von KI-Systemen die soziale Komponente des Lernens vernachlässigen könnte, die gerade im schulischen Kontext von zentraler Bedeutung ist. Zudem stellt sich die Frage, wie mit den sensiblen Daten der Schüler umgegangen wird, die von solchen Programmen gesammelt werden. Sollten Schulen künftig verstärkt auf kommerzielle KI-Anbieter angewiesen sein, könnte dies außerdem zu einer problematischen Abhängigkeit von privaten Unternehmen im öffentlichen Bildungssystem führen.
+
+Bildungsexperten fordern deshalb klare rechtliche Rahmenbedingungen, bevor KI-Werkzeuge flächendeckend eingeführt werden. Nur wenn Datenschutz, pädagogische Qualität und die Rolle der Lehrkraft klar geregelt seien, könne künstliche Intelligenz sinnvoll in den Unterricht integriert werden, ohne dass die Vorteile der Technologie durch unabsehbare Risiken zunichtegemacht würden. Wie diese Balance in der Praxis aussehen wird, ist derzeit noch weitgehend offen.`,
+    preguntas: [
+      { enunciado: 'Adaptive Lernprogramme passen sich laut Text an das individuelle Lerntempo der Schüler an.', respuesta: true },
+      { enunciado: 'Alle Bildungsexperten lehnen den Einsatz von KI im Unterricht kategorisch ab.', respuesta: false },
+      { enunciado: 'Kritiker befürchten eine Vernachlässigung der sozialen Komponente des Lernens.', respuesta: true },
+      { enunciado: 'Der Umgang mit sensiblen Schülerdaten wird im Text als unproblematisch dargestellt.', respuesta: false },
+      { enunciado: 'Bildungsexperten fordern klare rechtliche Rahmenbedingungen für den Einsatz von KI.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'erbschaftssteuer-und-soziale-gerechtigkeit',
+    nivel: 'B2',
+    titulo: 'Erbschaftssteuer und soziale Gerechtigkeit',
+    descripcion: 'Eine gesellschaftliche Debatte darüber, ob eine höhere Besteuerung von Erbschaften mehr Gerechtigkeit schaffen würde.',
+    texto: `In kaum einem anderen Bereich der Steuerpolitik prallen die Positionen so unversöhnlich aufeinander wie bei der Erbschaftssteuer. Befürworter einer höheren Besteuerung argumentieren, dass ererbtes Vermögen maßgeblich zur wachsenden Vermögensungleichheit beitrage, da es leistungslos erworben werde und somit bestehende soziale Unterschiede über Generationen hinweg zementiere. Würde man große Erbschaften stärker besteuern, ließe sich das zusätzliche Steueraufkommen beispielsweise in Bildung oder Infrastruktur investieren, wovon die gesamte Gesellschaft profitieren könnte.
+
+Gegner einer solchen Reform verweisen hingegen darauf, dass insbesondere Familienunternehmen durch eine höhere Erbschaftssteuer in ihrer Existenz bedroht werden könnten, wenn Erben gezwungen wären, Firmenanteile zu verkaufen, um die Steuerschuld zu begleichen. Zudem sei es fraglich, ob eine stärkere Besteuerung tatsächlich zu mehr Verteilungsgerechtigkeit führe, solange gleichzeitig zahlreiche Ausnahmeregelungen und Gestaltungsmöglichkeiten bestehen blieben, die vor allem von vermögenden Familien genutzt würden.
+
+Zwischen diesen beiden Positionen versuchen manche Ökonomen einen Mittelweg zu finden, indem sie für eine Reform der bestehenden Ausnahmen plädieren, anstatt die Steuersätze grundsätzlich zu erhöhen. Auf diese Weise könnte man verhindern, dass Betriebsübergaben unnötig erschwert werden, während gleichzeitig überproportional große Privatvermögen stärker zur Finanzierung des Gemeinwesens herangezogen würden. Ob sich die Politik auf einen solchen Kompromiss einigen kann, bleibt angesichts der festgefahrenen Fronten allerdings ungewiss.`,
+    preguntas: [
+      { enunciado: 'Befürworter einer höheren Erbschaftssteuer sehen darin ein Mittel gegen wachsende Vermögensungleichheit.', respuesta: true },
+      { enunciado: 'Alle Ökonomen lehnen eine Reform der Erbschaftssteuer strikt ab.', respuesta: false },
+      { enunciado: 'Gegner der Reform befürchten Probleme für Familienunternehmen.', respuesta: true },
+      { enunciado: 'Der Text stellt die Debatte um die Erbschaftssteuer als vollkommen unumstritten dar.', respuesta: false },
+      { enunciado: 'Manche Ökonomen schlagen als Kompromiss eine Reform der bestehenden Ausnahmen vor.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'elektroschrott-und-kreislaufwirtschaft',
+    nivel: 'B2',
+    titulo: 'Elektroschrott und Kreislaufwirtschaft',
+    descripcion: 'Warum die wachsende Menge an Elektroschrott ein globales Problem darstellt und wie eine Kreislaufwirtschaft Abhilfe schaffen könnte.',
+    texto: `Weltweit wächst die Menge an Elektroschrott schneller als jede andere Abfallart, was maßgeblich auf immer kürzere Innovationszyklen und eine zunehmende Wegwerfmentalität zurückzuführen ist. Millionen Tonnen ausrangierter Smartphones, Laptops und Haushaltsgeräte landen jährlich auf Mülldeponien, obwohl viele der enthaltenen Rohstoffe, darunter seltene Erden und wertvolle Metalle, theoretisch wiederverwertet werden könnten. Besonders problematisch ist zudem, dass ein erheblicher Teil des Elektroschrotts illegal in Länder des globalen Südens exportiert wird, wo er unter gesundheitsschädlichen Bedingungen informell recycelt wird.
+
+Als Lösungsansatz gilt vielen Experten das Konzept der Kreislaufwirtschaft, bei dem Produkte von Anfang an so gestaltet werden, dass sie repariert, aufgerüstet oder recycelt werden können, anstatt nach kurzer Nutzungsdauer entsorgt zu werden. Die Europäische Union hat in diesem Zusammenhang bereits Regelungen eingeführt, die Hersteller dazu verpflichten, Ersatzteile länger verfügbar zu halten, und die ein einheitliches Ladekabel für elektronische Geräte vorschreiben. Kritiker bemängeln jedoch, dass diese Maßnahmen bislang nicht weitreichend genug seien, um die tatsächliche Lebensdauer von Elektrogeräten spürbar zu verlängern.
+
+Damit eine echte Kreislaufwirtschaft entstehen kann, müssten nach Ansicht vieler Fachleute nicht nur Hersteller, sondern auch Verbraucher ihr Verhalten grundlegend ändern, indem sie Geräte länger nutzen und häufiger reparieren lassen, anstatt vorschnell neue Produkte zu kaufen. Nur wenn ökonomische Anreize und gesetzliche Vorgaben zusammenwirkten, ließe sich die Menge des anfallenden Elektroschrotts langfristig deutlich reduzieren. Bis dahin bleibt die Kluft zwischen dem Ideal einer nachhaltigen Kreislaufwirtschaft und der Realität eines wegwerforientierten Konsumverhaltens jedoch beträchtlich.`,
+    preguntas: [
+      { enunciado: 'Die Menge an Elektroschrott wächst laut Text schneller als jede andere Abfallart.', respuesta: true },
+      { enunciado: 'Alle Rohstoffe aus Elektroschrott werden laut Text bereits vollständig recycelt.', respuesta: false },
+      { enunciado: 'Ein Teil des Elektroschrotts wird illegal in Länder des globalen Südens exportiert.', respuesta: true },
+      { enunciado: 'Die EU hat laut Text bisher keinerlei Regelungen zur Kreislaufwirtschaft eingeführt.', respuesta: false },
+      { enunciado: 'Experten sehen auch beim Verbraucherverhalten Änderungsbedarf.', respuesta: true },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
