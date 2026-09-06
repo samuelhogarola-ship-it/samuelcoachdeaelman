@@ -2097,6 +2097,222 @@ Trotz dieser Meinungsverschiedenheiten sind sich die meisten Experten einig, das
     texto: 'Europa befindet sich in einer digitalen Abhängigkeit, die zunehmend als strategisches Risiko erkannt wird. Die dominierenden Betriebssysteme, Cloud-Dienste, sozialen Netzwerke und Suchmaschinen stammen fast ausschließlich aus den USA oder China. Europäische Unternehmen, Behörden und Bürger speichern ihre sensibelsten Daten auf Servern amerikanischer Konzerne, die dem US-amerikanischen Recht unterliegen.\n\nDer Begriff der digitalen Souveränität beschreibt das Ziel, technologische Selbstbestimmung zurückzugewinnen. Dies umfasst die Fähigkeit, eigene digitale Infrastrukturen zu betreiben, Schlüsseltechnologien zu entwickeln und die Regeln des digitalen Raums selbst zu gestalten. Das europäische Cloud-Projekt Gaia-X, der Digital Markets Act und die KI-Verordnung sind Versuche, diesen Anspruch politisch und regulatorisch umzusetzen.\n\nKritiker bemängeln jedoch, dass Europa den technologischen Wettbewerb bereits verloren habe. Im Bereich der Halbleiterproduktion, der großen KI-Modelle und der Plattformökonomie fehlt es an europäischen Champions, die mit den globalen Marktführern konkurrieren könnten. Die Bürokratie der EU und die Fragmentierung in 27 nationale Märkte erschwerden Innovation zusätzlich.\n\nBefürworter der digitalen Souveränität betonen hingegen, dass Europa seine regulatorische Stärke als Gestaltungsinstrument nutzen solle. Die Datenschutz-Grundverordnung hat weltweit Standards gesetzt und gezeigt, dass normative Macht ein Gegengewicht zu technologischer Dominanz darstellen kann.\n\nLetztlich geht es um mehr als Technologie. Digitale Souveränität berührt fundamentale Fragen der Demokratie: Wer kontrolliert die Informationsflüsse, wer setzt die Regeln, und wer profitiert von der Datenwertschöpfung? Ohne eigene digitale Infrastruktur riskiert Europa, zum bloßen Konsumenten einer von anderen definierten digitalen Ordnung zu werden.',
     preguntas: [{enunciado: 'Die meisten dominierenden digitalen Dienste stammen aus Europa.', respuesta: false}, {enunciado: 'Gaia-X ist ein europäisches Cloud-Projekt.', respuesta: true}, {enunciado: 'Europa hat nach Meinung aller Experten den technologischen Wettbewerb gewonnen.', respuesta: false}, {enunciado: 'Die DSGVO hat weltweit Standards im Datenschutz gesetzt.', respuesta: true}, {enunciado: 'Digitale Souveränität berührt Fragen der Demokratie.', respuesta: true}],
   },
+  {
+    slug: 'der-friseurbesuch',
+    nivel: 'A2',
+    titulo: 'Der Friseurbesuch',
+    descripcion: 'Sophie hat einen Termin beim Friseur und erzählt von ihrem Besuch.',
+    texto: `Sophie hat lange braune Haare, aber sie findet ihre Frisur langweilig. Deshalb hat sie letzte Woche einen Termin beim Friseur gemacht. Der Salon ist in der Nähe von ihrer Wohnung, und Sophie ist dort schon oft gewesen. Am Samstagmorgen ist sie pünktlich um zehn Uhr gekommen.
+
+Die Friseurin hat Sophie zuerst gefragt, was sie sich wünscht. Sophie hat gesagt, dass sie kürzere Haare möchte, weil die langen Haare im Sommer zu warm sind. Die Friseurin hat die Haare gewaschen, geschnitten und dann geföhnt. Nach einer Stunde war Sophie fertig, und sie hat sich im Spiegel angeschaut.
+
+Sophie war sehr zufrieden mit der neuen Frisur. Sie hat der Friseurin gedankt und zehn Euro Trinkgeld gegeben. Wenn sie das nächste Mal Zeit hat, möchte sie auch ihre Haare färben lassen. Auf dem Weg nach Hause hat sie ihrer Mutter ein Foto von der neuen Frisur geschickt.`,
+    preguntas: [
+      { enunciado: 'Sophie hat lange braune Haare gehabt, bevor sie zum Friseur gegangen ist.', respuesta: true },
+      { enunciado: 'Der Friseursalon ist weit von Sophies Wohnung entfernt.', respuesta: false },
+      { enunciado: 'Sophie wollte kürzere Haare, weil ihr die langen Haare im Sommer zu warm sind.', respuesta: true },
+      { enunciado: 'Sophie war mit der neuen Frisur nicht zufrieden.', respuesta: false },
+      { enunciado: 'Sophie möchte irgendwann auch ihre Haare färben lassen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-fahrpruefung',
+    nivel: 'A2',
+    titulo: 'Die Fahrprüfung',
+    descripcion: 'Tom bereitet sich auf seine Fahrprüfung vor und berichtet von einem aufregenden Tag.',
+    texto: `Tom ist achtzehn Jahre alt und macht seit drei Monaten den Führerschein. Er hat schon viele Fahrstunden gehabt und fühlt sich ziemlich sicher. Trotzdem ist er nervös, weil die praktische Prüfung heute stattfindet. Am Morgen hat er kaum gefrühstückt, weil sein Magen so aufgeregt war.
+
+Um neun Uhr ist Tom mit seinem Fahrlehrer zur Prüfungsstelle gefahren. Dort hat ihn eine Prüferin begrüßt und sich neben ihn ins Auto gesetzt. Zuerst musste Tom durch die Innenstadt fahren, dann auf die Autobahn und schließlich einparken. Er hat ein paar kleine Fehler gemacht, aber insgesamt ist er ruhig geblieben.
+
+Nach der Prüfung hat die Prüferin gelächelt und gesagt, dass Tom bestanden hat. Tom konnte es zuerst nicht glauben, weil er so nervös gewesen war. Er hat sofort seine Eltern angerufen, und am Abend hat die ganze Familie zusammen gefeiert. Jetzt darf Tom endlich allein Auto fahren.`,
+    preguntas: [
+      { enunciado: 'Tom macht seit drei Monaten den Führerschein.', respuesta: true },
+      { enunciado: 'Tom war am Morgen der Prüfung völlig entspannt.', respuesta: false },
+      { enunciado: 'Die Prüferin hat sich neben Tom ins Auto gesetzt.', respuesta: true },
+      { enunciado: 'Tom hat die Prüfung nicht bestanden.', respuesta: false },
+      { enunciado: 'Am Abend hat die Familie zusammen gefeiert.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-nachhilfestunde',
+    nivel: 'A2',
+    titulo: 'Die Nachhilfestunde',
+    descripcion: 'Lukas hat Probleme in Mathe und bekommt Nachhilfe von seiner Nachbarin.',
+    texto: `Lukas geht in die neunte Klasse und hat große Probleme in Mathe. Seine letzte Note war eine Fünf, und seine Eltern machen sich Sorgen. Weil seine Nachbarin Julia Mathematik studiert, hat sie angeboten, ihm einmal pro Woche zu helfen. Lukas war zuerst ein bisschen schüchtern, aber er hat die Hilfe gern angenommen.
+
+Am Dienstagnachmittag ist Julia zu Lukas nach Hause gekommen. Sie haben sich an den Küchentisch gesetzt und die Hausaufgaben zusammen gemacht. Julia hat geduldig erklärt, wie man Gleichungen löst, und Lukas hat viele Fragen gestellt. Nach einer Stunde hat er die Aufgaben endlich verstanden.
+
+Seit der ersten Nachhilfestunde ist Lukas viel motivierter. Er übt jeden Tag ein bisschen und hat keine Angst mehr vor dem Matheunterricht. In der nächsten Klassenarbeit hat er eine Drei geschrieben, und seine Eltern waren sehr stolz. Lukas hat Julia zum Dank ein Stück Kuchen gebacken.`,
+    preguntas: [
+      { enunciado: 'Lukas hatte in Mathe die Note Fünf.', respuesta: true },
+      { enunciado: 'Julias Nachhilfe findet jeden Tag statt.', respuesta: false },
+      { enunciado: 'Julia hat Lukas geduldig erklärt, wie man Gleichungen löst.', respuesta: true },
+      { enunciado: 'Lukas hat in der nächsten Klassenarbeit eine schlechtere Note bekommen.', respuesta: false },
+      { enunciado: 'Lukas hat Julia zum Dank einen Kuchen gebacken.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-babysitterjob',
+    nivel: 'A2',
+    titulo: 'Der Babysitterjob',
+    descripcion: 'Laura passt zum ersten Mal auf zwei Kinder auf und erlebt einen ereignisreichen Abend.',
+    texto: `Laura ist sechzehn Jahre alt und möchte gern eigenes Geld verdienen. Ihre Nachbarn, Familie Berger, haben zwei kleine Kinder und suchen einen Babysitter für den Freitagabend. Laura hat sich sofort gemeldet, weil sie Kinder mag und schon Erfahrung mit ihrem kleinen Cousin hat.
+
+Am Freitag ist Laura um sechs Uhr zu Familie Berger gekommen. Die Eltern sind ins Kino gegangen, und Laura ist mit den Kindern allein zu Hause geblieben. Zuerst haben sie zusammen gegessen, dann haben sie ein Spiel gespielt. Um acht Uhr wollte der kleine Junge nicht ins Bett gehen, aber Laura hat ihm ruhig eine Geschichte vorgelesen, und danach ist er schnell eingeschlafen.
+
+Als die Eltern um elf Uhr zurückgekommen sind, haben sie sich sehr gefreut, weil alles gut gelaufen ist. Sie haben Laura fünfzig Euro gegeben und gefragt, ob sie auch nächste Woche kommen kann. Laura hat sofort Ja gesagt, weil ihr der Abend viel Spaß gemacht hat.`,
+    preguntas: [
+      { enunciado: 'Familie Berger hat zwei kleine Kinder.', respuesta: true },
+      { enunciado: 'Die Eltern sind am Freitagabend zu Hause geblieben.', respuesta: false },
+      { enunciado: 'Der kleine Junge ist sofort ohne Probleme eingeschlafen.', respuesta: false },
+      { enunciado: 'Die Eltern waren zufrieden, als sie nach Hause gekommen sind.', respuesta: true },
+      { enunciado: 'Laura hat abgelehnt, noch einmal zu babysitten.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-reise-nach-koeln',
+    nivel: 'A2',
+    titulo: 'Eine Reise nach Köln',
+    descripcion: 'Familie Wolf besucht Köln und entdeckt den Dom und die Altstadt.',
+    texto: `Familie Wolf hat am Wochenende eine Reise nach Köln gemacht. Sie sind früh am Samstagmorgen mit dem Zug losgefahren, weil die Fahrt von ihrer Stadt nur zwei Stunden dauert. Die Kinder haben sich sehr auf den Ausflug gefreut, weil sie den berühmten Kölner Dom noch nie gesehen haben.
+
+In Köln sind sie zuerst zum Dom gegangen und haben die vielen Treppen bis zur Turmspitze erklommen. Von oben hatten sie einen tollen Blick über die ganze Stadt und den Rhein. Danach sind sie durch die Altstadt spaziert und haben in einem kleinen Restaurant zu Mittag gegessen. Der Vater hat eine typische Kölner Wurst probiert, und die Mutter hat lieber einen Salat bestellt.
+
+Am Nachmittag haben sie noch das Schokoladenmuseum besucht, weil die Kinder unbedingt sehen wollten, wie Schokolade hergestellt wird. Am Ende des Tages waren alle sehr müde, aber glücklich. Mit dem letzten Zug sind sie am Abend wieder nach Hause gefahren.`,
+    preguntas: [
+      { enunciado: 'Familie Wolf ist mit dem Auto nach Köln gefahren.', respuesta: false },
+      { enunciado: 'Die Kinder haben den Kölner Dom vorher noch nie gesehen.', respuesta: true },
+      { enunciado: 'Von der Turmspitze hatten sie keinen guten Blick über die Stadt.', respuesta: false },
+      { enunciado: 'Am Nachmittag haben sie das Schokoladenmuseum besucht.', respuesta: true },
+      { enunciado: 'Familie Wolf ist noch eine Nacht in Köln geblieben.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-hochzeitsfeier',
+    nivel: 'A2',
+    titulo: 'Die Hochzeitsfeier',
+    descripcion: 'Julia erzählt von der Hochzeit ihrer Schwester und einem unvergesslichen Familienfest.',
+    texto: `Julias große Schwester Nina hat letzten Sommer geheiratet. Die ganze Familie hat sich schon Wochen vorher auf das Fest gefreut. Julia musste ein neues Kleid kaufen, weil sie als Trauzeugin eine wichtige Rolle bei der Feier hatte.
+
+Die Hochzeit hat in einem kleinen Dorf am See stattgefunden. Am Morgen sind Nina und ihr Freund Paul in die Kirche gegangen, und viele Gäste haben geweint, weil die Zeremonie so schön war. Danach sind alle zu einem Gasthaus gefahren, wo es ein großes Abendessen gegeben hat. Die Kinder haben im Garten gespielt, während die Erwachsenen getanzt haben.
+
+Am späten Abend hat Julia eine Rede für ihre Schwester gehalten, und alle Gäste haben laut geklatscht. Nina war sehr gerührt, dass Julia so persönliche Worte gefunden hat. Die Feier hat bis spät in die Nacht gedauert, und am nächsten Tag war die ganze Familie sehr müde, aber überglücklich.`,
+    preguntas: [
+      { enunciado: 'Julia war bei der Hochzeit die Trauzeugin.', respuesta: true },
+      { enunciado: 'Die Hochzeit hat in einer großen Stadt stattgefunden.', respuesta: false },
+      { enunciado: 'Die Kinder haben während der Zeremonie im Garten gespielt.', respuesta: false },
+      { enunciado: 'Julia hat eine Rede für ihre Schwester gehalten.', respuesta: true },
+      { enunciado: 'Die Feier ist schon früh am Abend zu Ende gegangen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'co2-steuer-und-klimapolitik',
+    nivel: 'B2',
+    titulo: 'CO2-Steuer und Klimapolitik – Ein wirksames Instrument?',
+    descripcion: 'Die Debatte um eine CO2-Steuer als Mittel gegen den Klimawandel.',
+    texto: `Seit Jahren wird in Deutschland und Europa darüber diskutiert, wie der Ausstoß von Treibhausgasen wirksam reduziert werden kann. Eine der meistdiskutierten Maßnahmen ist die sogenannte CO2-Steuer, bei der Emissionen von fossilen Brennstoffen mit einem festen Preis belegt werden. Befürworter argumentieren, dass dadurch klimaschädliches Verhalten teurer und klimafreundliches Verhalten automatisch attraktiver würde, ohne dass der Staat einzelne Produkte verbieten müsste.
+
+Kritiker hingegen weisen darauf hin, dass eine pauschale Steuer vor allem einkommensschwache Haushalte treffen würde, da diese einen größeren Anteil ihres Einkommens für Heizung und Mobilität ausgeben. Wenn die zusätzlichen Einnahmen nicht in Form eines Klimageldes an die Bürger zurückgegeben würden, könnte die Steuer als sozial ungerecht wahrgenommen werden. Aus diesem Grund fordern viele Ökonomen ein Rückerstattungsmodell, bei dem jeder Bürger unabhängig vom Verbrauch denselben Betrag erhält.
+
+Obwohl mehrere europäische Länder bereits eine CO2-Bepreisung eingeführt haben, sind die Auswirkungen auf das tatsächliche Emissionsverhalten bisher schwer messbar, da gleichzeitig auch andere Faktoren wie technologischer Fortschritt eine Rolle spielen. Trotzdem gilt die CO2-Steuer in der Wissenschaft als eines der wirkungsvollsten Instrumente der Klimapolitik, sofern sie sozial ausgewogen gestaltet wird. Die Frage, wie hoch der Preis pro Tonne CO2 tatsächlich sein müsste, um das Pariser Klimaziel zu erreichen, wird jedoch weiterhin kontrovers diskutiert.`,
+    preguntas: [
+      { enunciado: 'Die CO2-Steuer belegt den Ausstoß fossiler Brennstoffe mit einem Preis.', respuesta: true },
+      { enunciado: 'Kritiker sehen die CO2-Steuer als sozial völlig unproblematisch an.', respuesta: false },
+      { enunciado: 'Ein Klimageld könnte die soziale Ungerechtigkeit der Steuer ausgleichen.', respuesta: true },
+      { enunciado: 'Alle europäischen Länder lehnen eine CO2-Bepreisung strikt ab.', respuesta: false },
+      { enunciado: 'Die Wissenschaft betrachtet die CO2-Steuer als potenziell wirkungsvolles Klimainstrument.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'digitalisierung-der-verwaltung',
+    nivel: 'B2',
+    titulo: 'Digitalisierung der Verwaltung – Deutschland auf dem Prüfstand',
+    descripcion: 'Warum die deutsche Verwaltung im internationalen Vergleich bei der Digitalisierung hinterherhinkt.',
+    texto: `Während in vielen europäischen Ländern Behördengänge längst online erledigt werden können, müssen Bürgerinnen und Bürger in Deutschland für einen neuen Personalausweis oder eine Ummeldung häufig noch persönlich erscheinen. Diese Diskrepanz wird seit Jahren kritisiert, doch die Umsetzung des sogenannten Onlinezugangsgesetzes, das eigentlich alle Verwaltungsleistungen digital verfügbar machen sollte, verläuft nur schleppend.
+
+Die Gründe dafür sind vielfältig. Zum einen fehlt es vielerorts an einheitlichen technischen Standards zwischen Bund, Ländern und Kommunen, sodass jede Behörde teilweise eigene Softwarelösungen entwickelt hat, die nicht miteinander kompatibel sind. Zum anderen wird häufig bemängelt, dass Datenschutzbedenken zwar berechtigt seien, aber in der Praxis oft als Ausrede benutzt würden, um notwendige Reformen zu verzögern. Wäre die Digitalisierung konsequenter vorangetrieben worden, hätten viele Prozesse schon heute erheblich beschleunigt werden können.
+
+Befürworter einer schnelleren Digitalisierung verweisen auf Länder wie Estland, wo nahezu alle Behördengänge komplett online möglich sind und selbst Wahlen über das Internet durchgeführt werden können. Ein solches System würde nicht nur Zeit und Kosten sparen, sondern auch die Verwaltung insgesamt transparenter machen. Gleichzeitig warnen Experten davor, die soziale Dimension zu vergessen: Ältere oder technisch weniger versierte Menschen dürften bei der digitalen Transformation nicht abgehängt werden, weshalb analoge Alternativen weiterhin bestehen bleiben müssten.`,
+    preguntas: [
+      { enunciado: 'In Deutschland können bereits alle Behördengänge vollständig online erledigt werden.', respuesta: false },
+      { enunciado: 'Das Onlinezugangsgesetz sollte Verwaltungsleistungen digital verfügbar machen.', respuesta: true },
+      { enunciado: 'Alle Behörden in Deutschland nutzen dieselbe, einheitliche Software.', respuesta: false },
+      { enunciado: 'Estland gilt als Vorbild für digitale Verwaltungsprozesse.', respuesta: true },
+      { enunciado: 'Experten fordern, dass analoge Alternativen komplett abgeschafft werden.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'schulnoten-abschaffen',
+    nivel: 'B2',
+    titulo: 'Sollen Schulnoten abgeschafft werden?',
+    descripcion: 'Eine Debatte über Sinn und Unsinn klassischer Ziffernnoten im Schulsystem.',
+    texto: `In der Bildungsdebatte wird immer wieder die Frage gestellt, ob klassische Schulnoten von eins bis sechs noch zeitgemäß sind. Befürworter einer Abschaffung argumentieren, dass Noten den Leistungsdruck auf Schülerinnen und Schüler unnötig erhöhen und wenig über die tatsächlichen Fähigkeiten eines Kindes aussagen. Stattdessen plädieren sie für ausführliche schriftliche Rückmeldungen, die individuelle Stärken und Entwicklungsmöglichkeiten aufzeigen, anstatt eine einzelne Zahl zu vergeben.
+
+Gegner dieser Position halten dagegen, dass Noten eine einfache und vergleichbare Orientierung bieten, sowohl für Schüler und Eltern als auch für spätere Arbeitgeber und Universitäten. Ohne Noten, so ihr Argument, müsste ein völlig neues Bewertungssystem entwickelt werden, das deutlich mehr Zeit und Aufwand von Lehrkräften verlangen würde. Nachdem einige Bundesländer bereits Modellversuche mit notenfreien Grundschulen durchgeführt haben, zeigen erste Studien gemischte Ergebnisse: Zwar sank der Leistungsdruck, allerdings hatten manche Kinder Schwierigkeiten, ihre eigene Leistung realistisch einzuschätzen.
+
+Letztlich scheint klar zu sein, dass es keine einfache Lösung gibt, die allen Beteiligten gerecht wird. Während in Ländern wie Finnland alternative Bewertungsmodelle seit Langem etabliert sind, hält man in Deutschland trotz aller Kritik überwiegend am traditionellen Notensystem fest. Ob sich das in Zukunft ändern wird, hängt nicht zuletzt davon ab, wie überzeugend die Ergebnisse weiterer Modellversuche ausfallen.`,
+    preguntas: [
+      { enunciado: 'Befürworter einer Abschaffung sehen Noten als unnötigen Leistungsdruck.', respuesta: true },
+      { enunciado: 'Gegner der Abschaffung befürchten einen höheren Aufwand für Lehrkräfte ohne Noten.', respuesta: true },
+      { enunciado: 'Alle Bundesländer haben Noten in Grundschulen bereits vollständig abgeschafft.', respuesta: false },
+      { enunciado: 'Studien zu notenfreien Grundschulen zeigen ausschließlich positive Ergebnisse.', respuesta: false },
+      { enunciado: 'In Deutschland hält man überwiegend am traditionellen Notensystem fest.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'medienkonzentration',
+    nivel: 'B2',
+    titulo: 'Medienkonzentration und Meinungsvielfalt',
+    descripcion: 'Wie wenige große Konzerne die Medienlandschaft prägen und was das für die Demokratie bedeutet.',
+    texto: `In vielen westlichen Ländern gehört ein großer Teil der Zeitungen, Fernsehsender und Onlineportale nur wenigen großen Medienkonzernen. Diese Entwicklung, die als Medienkonzentration bezeichnet wird, sorgt seit Jahren für Diskussionen unter Journalisten, Politikern und Medienwissenschaftlern. Kritiker befürchten, dass eine geringe Zahl von Eigentümern die öffentliche Meinung zu stark beeinflussen könnte, wenn wichtige Nachrichtenquellen letztlich denselben wirtschaftlichen Interessen unterliegen.
+
+Besonders problematisch wird die Situation dann gesehen, wenn Medienunternehmen gleichzeitig in anderen Branchen wie der Telekommunikation oder dem Onlinehandel tätig sind, da dadurch Interessenkonflikte entstehen könnten. Sollte beispielsweise über ein Unternehmen berichtet werden, das demselben Konzern gehört wie die berichtende Redaktion, wäre eine unabhängige und kritische Berichterstattung kaum noch gewährleistet. Aus diesem Grund fordern Medienwissenschaftler strengere gesetzliche Regelungen, die eine übermäßige Konzentration von Medienbesitz verhindern sollen.
+
+Auf der anderen Seite verweisen Vertreter der Medienbranche darauf, dass große Konzerne notwendig seien, um angesichts sinkender Werbeeinnahmen und der Konkurrenz durch internationale Digitalplattformen wirtschaftlich überleben zu können. Kleine, unabhängige Medienhäuser könnten den technologischen und finanziellen Anforderungen der digitalen Transformation oft nicht mehr allein gewachsen sein. Zwischen dem Wunsch nach wirtschaftlicher Stabilität und dem demokratischen Bedürfnis nach vielfältiger, unabhängiger Berichterstattung besteht somit ein Spannungsfeld, das bislang nicht zufriedenstellend gelöst wurde.`,
+    preguntas: [
+      { enunciado: 'Medienkonzentration bedeutet, dass viele Medien wenigen großen Konzernen gehören.', respuesta: true },
+      { enunciado: 'Kritiker sehen in der Medienkonzentration keine Gefahr für die Meinungsvielfalt.', respuesta: false },
+      { enunciado: 'Manche Medienunternehmen sind gleichzeitig in anderen Branchen wie der Telekommunikation tätig.', respuesta: true },
+      { enunciado: 'Vertreter der Medienbranche halten große Konzerne für wirtschaftlich überflüssig.', respuesta: false },
+      { enunciado: 'Das Spannungsfeld zwischen wirtschaftlicher Stabilität und Meinungsvielfalt gilt als vollständig gelöst.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'tierversuche-in-der-forschung',
+    nivel: 'B2',
+    titulo: 'Tierversuche in der Forschung – Notwendigkeit oder ethisches Dilemma?',
+    descripcion: 'Die kontroverse Debatte um Tierversuche zwischen wissenschaftlichem Fortschritt und Tierschutz.',
+    texto: `Tierversuche gehören seit Jahrzehnten zu den umstrittensten Themen der Wissenschaft. Befürworter argumentieren, dass viele medizinische Durchbrüche, von Impfstoffen bis zu Krebstherapien, ohne Versuche an Tieren nicht möglich gewesen wären, da bestimmte biologische Prozesse bislang nur im lebenden Organismus vollständig untersucht werden können. Ohne diese Forschung, so ihr Argument, müssten neue Medikamente direkt am Menschen getestet werden, was ein erheblich größeres Risiko darstellen würde.
+
+Tierschützer und viele Wissenschaftler halten dem entgegen, dass alternative Methoden wie Zellkulturen, Computersimulationen und sogenannte Organ-on-a-Chip-Verfahren in den letzten Jahren enorme Fortschritte gemacht haben. Diese Methoden könnten in vielen Fällen aussagekräftigere Ergebnisse liefern als Tierversuche, da menschliche Zellen verwendet werden, anstatt die Ergebnisse von Tieren auf den Menschen zu übertragen. Zudem wird kritisiert, dass ein erheblicher Teil der Tierversuche, die in der Grundlagenforschung durchgeführt werden, nie zu konkreten medizinischen Anwendungen führt.
+
+In der Europäischen Union gilt inzwischen das sogenannte 3R-Prinzip, nach dem Tierversuche wann immer möglich vermieden, in ihrer Anzahl reduziert und in ihrer Belastung für die Tiere verbessert werden sollen. Trotzdem bleibt umstritten, wie schnell ein vollständiger Verzicht auf Tierversuche realistisch erreichbar wäre. Während einige Forscher glauben, dass alternative Methoden Tierversuche innerhalb weniger Jahrzehnte vollständig ersetzen könnten, halten andere diese Einschätzung angesichts der Komplexität lebender Organismen für zu optimistisch.`,
+    preguntas: [
+      { enunciado: 'Befürworter von Tierversuchen verweisen auf medizinische Durchbrüche wie Impfstoffe.', respuesta: true },
+      { enunciado: 'Alternative Methoden wie Zellkulturen haben in den letzten Jahren keine Fortschritte gemacht.', respuesta: false },
+      { enunciado: 'Das 3R-Prinzip fordert, Tierversuche zu vermeiden, zu reduzieren und zu verbessern.', respuesta: true },
+      { enunciado: 'Alle Forscher sind sich einig, dass Tierversuche in wenigen Jahren komplett verschwinden werden.', respuesta: false },
+      { enunciado: 'Ein Teil der Tierversuche in der Grundlagenforschung führt nie zu konkreten Anwendungen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'smartphone-sucht-bei-jugendlichen',
+    nivel: 'B2',
+    titulo: 'Smartphone-Sucht bei Jugendlichen',
+    descripcion: 'Wie exzessive Handynutzung den Alltag junger Menschen beeinflusst und was Experten empfehlen.',
+    texto: `Kaum ein Gegenstand hat den Alltag Jugendlicher in den letzten Jahren so verändert wie das Smartphone. Studien zeigen, dass Jugendliche in Deutschland durchschnittlich mehrere Stunden täglich am Bildschirm verbringen, wobei ein erheblicher Teil dieser Zeit auf soziale Netzwerke und Videoplattformen entfällt. Psychologen warnen zunehmend davor, dass eine übermäßige Nutzung Merkmale einer echten Verhaltenssucht annehmen kann, die sich unter anderem durch Kontrollverlust, Entzugserscheinungen und eine Vernachlässigung anderer Lebensbereiche äußert.
+
+Besonders besorgniserregend finden Experten, dass ständige Erreichbarkeit und der Vergleich mit scheinbar perfekten Leben anderer Nutzer erheblichen psychischen Druck erzeugen können. Nachdem mehrere Langzeitstudien einen Zusammenhang zwischen intensiver Social-Media-Nutzung und erhöhten Angst- sowie Depressionswerten bei Jugendlichen festgestellt haben, fordern Kinderärzte und Bildungsexperten strengere Regeln für Bildschirmzeiten, insbesondere bei jüngeren Kindern. Manche Länder diskutieren sogar über gesetzliche Mindestaltersgrenzen für soziale Medien.
+
+Gleichzeitig betonen andere Fachleute, dass nicht das Smartphone an sich das Problem sei, sondern der unreflektierte Umgang damit. Würden Eltern und Schulen gemeinsam einen bewussteren Medienkonsum vermitteln, könnten viele negative Folgen vermieden werden, ohne dass Jugendliche vollständig von digitalen Technologien ausgeschlossen werden müssten. Entscheidend sei letztlich, so der Konsens vieler Experten, ein ausgewogenes Verhältnis zwischen Online- und Offline-Aktivitäten zu finden.`,
+    preguntas: [
+      { enunciado: 'Jugendliche in Deutschland verbringen laut Studien durchschnittlich mehrere Stunden täglich am Bildschirm.', respuesta: true },
+      { enunciado: 'Psychologen sehen bei übermäßiger Smartphone-Nutzung keinerlei Suchtmerkmale.', respuesta: false },
+      { enunciado: 'Studien zeigen einen Zusammenhang zwischen intensiver Social-Media-Nutzung und erhöhten Angstwerten.', respuesta: true },
+      { enunciado: 'Alle Experten fordern, dass Jugendliche komplett auf Smartphones verzichten sollen.', respuesta: false },
+      { enunciado: 'Ein bewussterer Umgang mit Medien wird von manchen Fachleuten als wichtiger Lösungsansatz gesehen.', respuesta: true },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
