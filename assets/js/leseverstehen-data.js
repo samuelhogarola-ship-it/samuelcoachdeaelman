@@ -2529,6 +2529,222 @@ Damit eine echte Kreislaufwirtschaft entstehen kann, müssten nach Ansicht viele
       { enunciado: 'Experten sehen auch beim Verbraucherverhalten Änderungsbedarf.', respuesta: true },
     ],
   },
+  {
+    slug: 'meine-lieblingsfarbe',
+    nivel: 'A1',
+    titulo: 'Meine Lieblingsfarbe',
+    descripcion: 'Lisa erzählt von ihren Lieblingsfarben und ihrer Kleidung.',
+    texto: `Lisa mag viele Farben. Ihre Lieblingsfarbe ist Blau. Sie hat ein blaues Fahrrad und eine blaue Tasche. Ihr Zimmer ist auch blau. Blau macht sie glücklich.
+
+Ihr Bruder Tom mag Grün. Er hat ein grünes T-Shirt und grüne Schuhe. Er sagt: „Grün ist die Farbe der Natur." Die Geschwister streiten manchmal über Farben. Aber sie lachen auch viel zusammen.
+
+Am Wochenende kaufen Lisa und Tom neue Kleidung. Lisa findet ein blaues Kleid. Tom findet eine grüne Jacke. Die Mutter kauft für sich ein rotes Halstuch. Alle sind zufrieden mit ihren Farben.`,
+    preguntas: [
+      { enunciado: 'Lisas Lieblingsfarbe ist Blau.', respuesta: true },
+      { enunciado: 'Tom mag am liebsten die Farbe Rot.', respuesta: false },
+      { enunciado: 'Lisa hat ein blaues Fahrrad.', respuesta: true },
+      { enunciado: 'Die Geschwister kaufen am Wochenende neue Kleidung.', respuesta: true },
+      { enunciado: 'Die Mutter kauft eine grüne Jacke.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-wochenplan',
+    nivel: 'A1',
+    titulo: 'Der Wochenplan',
+    descripcion: 'Paul zeigt seinen Wochenplan mit Schule, Sport und Hobbys.',
+    texto: `Paul hat einen Wochenplan für die Schule. Montags hat er Mathe und Deutsch. Dienstags hat er Sport und Musik. Er mag Sport sehr gern.
+
+Am Mittwoch geht Paul zum Fußballtraining. Am Donnerstag lernt er Englisch mit seiner Schwester. Am Freitag hat er frei und spielt mit Freunden. Er ist froh, wenn das Wochenende kommt.
+
+Am Samstag hilft Paul seiner Mutter im Garten. Am Sonntag besucht die Familie die Großeltern. Paul isst gern Kuchen bei Oma. Danach spielt er mit seinem Cousin.`,
+    preguntas: [
+      { enunciado: 'Paul hat montags Sport und Musik.', respuesta: false },
+      { enunciado: 'Paul geht mittwochs zum Fußballtraining.', respuesta: true },
+      { enunciado: 'Am Freitag hat Paul den ganzen Tag Schule.', respuesta: false },
+      { enunciado: 'Am Sonntag besucht die Familie die Großeltern.', respuesta: true },
+      { enunciado: 'Paul isst gern Kuchen bei Oma.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-verlorene-schluessel',
+    nivel: 'A2',
+    titulo: 'Der verlorene Schlüssel',
+    descripcion: 'Sabine hat ihren Wohnungsschlüssel verloren und musste einen Schlüsseldienst rufen.',
+    texto: `Gestern Abend ist Sabine nach Hause gekommen und hat gemerkt, dass sie ihren Schlüssel nicht mehr hatte. Sie hat ihre Tasche durchsucht, aber der Schlüssel war nicht da. Weil es schon dunkel war, hat sie sich Sorgen gemacht.
+
+Sabine hat ihre Nachbarin Frau Berger angerufen und gefragt, ob sie einen Ersatzschlüssel hat. Leider hatte Frau Berger keinen Schlüssel für Sabines Wohnung. Deshalb hat Sabine einen Schlüsseldienst gerufen. Der Mann vom Schlüsseldienst ist nach dreißig Minuten gekommen und hat die Tür schnell geöffnet.
+
+Später hat Sabine ihren Schlüssel doch noch gefunden. Er war in ihrer Jackentasche. Sie hat gelacht, weil sie so lange gesucht hatte. Seitdem legt sie den Schlüssel immer an denselben Platz.`,
+    preguntas: [
+      { enunciado: 'Sabine hat ihren Schlüssel sofort in der Tasche gefunden.', respuesta: false },
+      { enunciado: 'Sabine hat ihre Nachbarin um Hilfe gebeten.', respuesta: true },
+      { enunciado: 'Frau Berger hatte einen Ersatzschlüssel für Sabines Wohnung.', respuesta: false },
+      { enunciado: 'Der Schlüsseldienst hat die Tür geöffnet.', respuesta: true },
+      { enunciado: 'Sabine hat den Schlüssel am Ende in ihrer Jackentasche gefunden.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-sprachkurs',
+    nivel: 'A2',
+    titulo: 'Der Sprachkurs',
+    descripcion: 'Elif hat an der Volkshochschule einen Deutschkurs besucht und neue Freunde gefunden.',
+    texto: `Elif ist vor einem Jahr nach Deutschland gezogen. Weil sie noch nicht gut Deutsch sprechen konnte, hat sie sich an der Volkshochschule für einen Sprachkurs angemeldet. Der Kurs hat zweimal pro Woche stattgefunden.
+
+Am Anfang war es schwer, weil viele Wörter neu für Elif waren. Ihre Lehrerin hat viel Geduld gehabt und ihr oft geholfen. Nach ein paar Monaten hat Elif schon kleine Gespräche führen können. Sie hat auch neue Freunde im Kurs kennengelernt, zum Beispiel Marco aus Italien.
+
+Am Ende des Kurses hat es eine kleine Prüfung gegeben. Elif hat sich sehr gefreut, dass sie die Prüfung bestanden hat. Jetzt spricht sie fast jeden Tag Deutsch bei der Arbeit. Sie ist stolz auf ihre Fortschritte.`,
+    preguntas: [
+      { enunciado: 'Elif konnte schon vor dem Kurs sehr gut Deutsch.', respuesta: false },
+      { enunciado: 'Der Sprachkurs hat einmal pro Monat stattgefunden.', respuesta: false },
+      { enunciado: 'Elif hat im Kurs einen neuen Freund namens Marco kennengelernt.', respuesta: true },
+      { enunciado: 'Elif hat die Abschlussprüfung nicht bestanden.', respuesta: false },
+      { enunciado: 'Elif spricht jetzt oft Deutsch bei der Arbeit.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'das-familientreffen',
+    nivel: 'A2',
+    titulo: 'Das Familientreffen',
+    descripcion: 'Die Familie Berger hat sich nach langer Zeit zu einem großen Familientreffen versammelt.',
+    texto: `Am Samstag hat die Familie Berger ein großes Familientreffen organisiert, weil die Großmutter neunzig Jahre alt geworden ist. Verwandte aus ganz Deutschland sind angereist, sogar der Onkel aus Hamburg ist gekommen. Alle haben sich sehr gefreut, sich nach so langer Zeit wiederzusehen.
+
+Es gab ein großes Buffet mit Salaten, Kuchen und gegrilltem Fleisch. Die Kinder haben im Garten gespielt, während die Erwachsenen sich unterhalten haben. Weil das Wetter so schön war, konnten alle draußen sitzen und die Sonne genießen.
+
+Am Abend hat die Großmutter eine kleine Rede gehalten und sich bei allen bedankt. Danach haben alle zusammen ein Foto gemacht. Die Familie hat beschlossen, dass sie sich jedes Jahr wieder treffen möchte.`,
+    preguntas: [
+      { enunciado: 'Das Familientreffen war für den achtzigsten Geburtstag der Großmutter.', respuesta: false },
+      { enunciado: 'Der Onkel aus Hamburg ist zum Treffen gekommen.', respuesta: true },
+      { enunciado: 'Das Familientreffen hat wegen schlechten Wetters drinnen stattgefunden.', respuesta: false },
+      { enunciado: 'Die Großmutter hat am Abend eine Rede gehalten.', respuesta: true },
+      { enunciado: 'Die Familie will sich nie wieder treffen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-schueleraustausch',
+    nivel: 'B1',
+    titulo: 'Der Schüleraustausch',
+    descripcion: 'Jonas verbringt drei Monate bei einer Gastfamilie in Frankreich und lernt eine neue Kultur kennen.',
+    texto: `Jonas hatte schon lange davon geträumt, einmal im Ausland zu leben, und im letzten Schuljahr hat sich endlich die Gelegenheit dazu ergeben. Obwohl er anfangs große Angst hatte, sich in einer fremden Familie nicht wohlzufühlen, hat er sich für einen Schüleraustausch nach Frankreich entschieden. Nachdem er drei Monate bei seiner Gastfamilie in Lyon verbracht hatte, konnte er kaum glauben, wie schnell die Zeit vergangen war.
+
+In den ersten Wochen fiel es Jonas schwer, dem schnellen Französisch seiner Gastgeschwister zu folgen, doch er gab nicht auf. Trotzdem sprach er jeden Abend mit ihnen über die Schule, das Essen und die Unterschiede zwischen Deutschland und Frankreich. Mit der Zeit verbesserte sich sein Französisch deutlich, und er begann sogar, in seinen Träumen Französisch zu sprechen.
+
+Als der Austausch zu Ende ging, fiel Jonas der Abschied sehr schwer. Er hatte enge Freundschaften geschlossen und eine Kultur kennengelernt, die ihm vorher fremd gewesen war. Zurück in Deutschland erzählte er allen begeistert von seinen Erlebnissen und plant bereits, seine Gastfamilie im nächsten Sommer zu besuchen.`,
+    preguntas: [
+      { enunciado: 'Jonas hatte von Anfang an keine Angst vor dem Austausch.', respuesta: false },
+      { enunciado: 'Jonas hat drei Monate bei einer Gastfamilie in Lyon verbracht.', respuesta: true },
+      { enunciado: 'Sein Französisch hat sich während des Aufenthalts nicht verbessert.', respuesta: false },
+      { enunciado: 'Jonas fiel der Abschied von der Gastfamilie leicht.', respuesta: false },
+      { enunciado: 'Jonas möchte seine Gastfamilie im nächsten Sommer wieder besuchen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-neue-wohngemeinschaft',
+    nivel: 'B1',
+    titulo: 'Die neue Wohngemeinschaft',
+    descripcion: 'Miriam zieht für ihr Studium in eine Wohngemeinschaft mit drei anderen Studierenden.',
+    texto: `Nachdem Miriam einen Studienplatz in München bekommen hatte, musste sie sich schnell um eine Wohnung kümmern. Weil die Mieten in der Stadt sehr hoch sind, entschied sie sich für eine Wohngemeinschaft mit drei anderen Studierenden. Obwohl sie noch nie mit fremden Menschen zusammengewohnt hatte, war sie neugierig auf das neue Leben.
+
+In den ersten Tagen war es ungewohnt, sich die Küche und das Badezimmer zu teilen. Trotzdem gewöhnte sich Miriam schnell an den Alltag in der WG, zumal ihre Mitbewohner sehr freundlich und hilfsbereit waren. Gemeinsam kochten sie oft am Abend und tauschten sich über ihre Vorlesungen aus.
+
+Nach ein paar Monaten fühlte sich Miriam in der Wohngemeinschaft richtig zu Hause. Sie hatte gute Freunde gefunden, mit denen sie nicht nur wohnte, sondern auch ihre Freizeit verbrachte. Rückblickend war der Umzug in die WG eine der besten Entscheidungen ihres Studiums.`,
+    preguntas: [
+      { enunciado: 'Miriam hat sich für ein eigenes Apartment entschieden.', respuesta: false },
+      { enunciado: 'Die Mieten in München waren laut Text sehr niedrig.', respuesta: false },
+      { enunciado: 'Miriams Mitbewohner waren freundlich und hilfsbereit.', respuesta: true },
+      { enunciado: 'Miriam hat sich nie an das Leben in der WG gewöhnt.', respuesta: false },
+      { enunciado: 'Miriam verbringt auch ihre Freizeit mit ihren Mitbewohnern.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'das-strassenfest-im-viertel',
+    nivel: 'B1',
+    titulo: 'Das Straßenfest im Viertel',
+    descripcion: 'Die Nachbarschaft organisiert ein buntes Straßenfest mit Musik, Essen und Ständen.',
+    texto: `Jedes Jahr im Sommer organisieren die Bewohner des Viertels ein großes Straßenfest, nachdem sie sich im Frühling zu einem Planungstreffen versammelt haben. Obwohl die Organisation viel Arbeit bedeutet, machen alle gerne mit, weil das Fest die Nachbarschaft näher zusammenbringt. In diesem Jahr wurde die Straße extra für den Verkehr gesperrt.
+
+An zahlreichen Ständen gab es Speisen aus verschiedenen Ländern, denn viele Familien im Viertel haben unterschiedliche kulturelle Wurzeln. Trotz des wechselhaften Wetters kamen viele Besucher, und am Nachmittag spielte sogar eine lokale Band auf einer kleinen Bühne. Kinder konnten sich schminken lassen und an Spielen teilnehmen.
+
+Am Abend, nachdem die Musik verstummt war, halfen viele Bewohner gemeinsam beim Aufräumen. Alle waren sich einig, dass das Fest ein voller Erfolg gewesen war. Schon jetzt freuen sich viele auf das nächste Straßenfest im kommenden Jahr.`,
+    preguntas: [
+      { enunciado: 'Das Straßenfest wird jedes Jahr im Winter organisiert.', respuesta: false },
+      { enunciado: 'Für das Fest wurde die Straße gesperrt.', respuesta: true },
+      { enunciado: 'An den Ständen gab es nur deutsches Essen.', respuesta: false },
+      { enunciado: 'Wegen des schlechten Wetters kamen keine Besucher.', respuesta: false },
+      { enunciado: 'Nach dem Fest haben die Bewohner gemeinsam aufgeräumt.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-mietpreisbremse',
+    nivel: 'B2',
+    titulo: 'Die Mietpreisbremse',
+    descripcion: 'Ein Text über die Wirkung und die Kritik an der deutschen Mietpreisbremse.',
+    texto: `In vielen deutschen Großstädten sind die Mieten in den vergangenen Jahren stark gestiegen, sodass immer mehr Menschen Schwierigkeiten haben, eine bezahlbare Wohnung zu finden. Um diesem Trend entgegenzuwirken, wurde die sogenannte Mietpreisbremse eingeführt, die verhindern soll, dass Vermieter bei einer Neuvermietung die Miete beliebig erhöhen. Die Regelung gilt jedoch nur in Gebieten, die von den Bundesländern als angespannte Wohnungsmärkte ausgewiesen wurden.
+
+Befürworter der Mietpreisbremse argumentieren, dass ohne diese Regelung viele einkommensschwächere Haushalte aus den Innenstädten verdrängt würden. Kritiker hingegen wenden ein, dass die Mietpreisbremse Investitionen in neuen Wohnraum hemme, da sich der Bau neuer Wohnungen für Vermieter weniger lohne, wenn die erzielbaren Mieten begrenzt würden. Studien zu den tatsächlichen Auswirkungen der Regelung kommen zu unterschiedlichen Ergebnissen.
+
+Manche Experten schlagen deshalb vor, dass anstelle einer reinen Mietpreisbegrenzung stärker in den sozialen Wohnungsbau investiert werden sollte. Würde ausreichend bezahlbarer Wohnraum geschaffen, so ihr Argument, würde sich der Druck auf dem Mietmarkt von selbst verringern. Bis eine solche Lösung umgesetzt wird, bleibt die Mietpreisbremse jedoch eines der wichtigsten Instrumente der deutschen Wohnungspolitik.`,
+    preguntas: [
+      { enunciado: 'Die Mietpreisbremse gilt in ganz Deutschland ohne Ausnahme.', respuesta: false },
+      { enunciado: 'Die Mietpreisbremse soll starke Mieterhöhungen bei Neuvermietungen verhindern.', respuesta: true },
+      { enunciado: 'Alle Experten sind sich einig, dass die Mietpreisbremse ausschließlich positive Effekte hat.', respuesta: false },
+      { enunciado: 'Kritiker befürchten, dass die Regelung den Neubau von Wohnungen bremst.', respuesta: true },
+      { enunciado: 'Manche Experten fordern stattdessen mehr Investitionen in sozialen Wohnungsbau.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'rentensystem-und-demografischer-wandel',
+    nivel: 'B2',
+    titulo: 'Rentensystem und demografischer Wandel',
+    descripcion: 'Der Text beleuchtet die Herausforderungen des deutschen Rentensystems angesichts einer alternden Gesellschaft.',
+    texto: `Das deutsche Rentensystem basiert traditionell auf dem sogenannten Umlageverfahren, bei dem die Beiträge der aktuell arbeitenden Generation direkt zur Finanzierung der Renten der älteren Generation verwendet werden. Aufgrund des demografischen Wandels, der durch eine sinkende Geburtenrate und eine steigende Lebenserwartung gekennzeichnet ist, gerät dieses System jedoch zunehmend unter Druck. Immer weniger Beitragszahler müssen für eine wachsende Zahl von Rentenempfängern aufkommen.
+
+Würde an dem bisherigen System nichts geändert, müssten entweder die Beiträge der Arbeitnehmer erheblich erhöht oder die Renten spürbar gekürzt werden. Beide Optionen sind politisch schwer durchsetzbar, da sie entweder die jüngere oder die ältere Generation stark belasten würden. Aus diesem Grund wird seit Jahren über zusätzliche private und betriebliche Altersvorsorge diskutiert, die das staatliche Rentensystem ergänzen soll.
+
+Einige Ökonomen plädieren zudem dafür, das Renteneintrittsalter schrittweise an die steigende Lebenserwartung anzupassen. Andere fordern, dass auch Selbstständige und Beamte stärker in das Umlageverfahren einbezogen werden sollten, um die finanzielle Basis zu verbreitern. Welcher Weg letztlich eingeschlagen wird, hängt maßgeblich davon ab, welche Kompromisse die Politik zwischen den Generationen zu schließen bereit ist.`,
+    preguntas: [
+      { enunciado: 'Das deutsche Rentensystem basiert auf dem Umlageverfahren.', respuesta: true },
+      { enunciado: 'Die Geburtenrate steigt laut Text kontinuierlich an.', respuesta: false },
+      { enunciado: 'Eine Erhöhung der Beiträge oder eine Kürzung der Renten gelten als politisch unproblematisch.', respuesta: false },
+      { enunciado: 'Manche Ökonomen schlagen eine schrittweise Anhebung des Renteneintrittsalters vor.', respuesta: true },
+      { enunciado: 'Laut Text sind bereits alle Selbstständigen und Beamten in das Umlageverfahren einbezogen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'cybermobbing-und-digitale-verantwortung',
+    nivel: 'B2',
+    titulo: 'Cybermobbing und digitale Verantwortung',
+    descripcion: 'Eine Auseinandersetzung mit den Ursachen von Cybermobbing und möglichen Gegenmaßnahmen.',
+    texto: `Mit der zunehmenden Nutzung sozialer Netzwerke hat sich auch das Phänomen des Cybermobbing stark ausgebreitet, bei dem Personen im Internet gezielt beleidigt, bloßgestellt oder ausgegrenzt werden. Anders als beim klassischen Mobbing auf dem Schulhof endet die Belästigung im digitalen Raum oft nicht am Ende des Schultages, sondern begleitet die Betroffenen rund um die Uhr. Untersuchungen zeigen, dass vor allem Jugendliche häufig sowohl als Täter als auch als Opfer betroffen sind.
+
+Ein wesentlicher Grund für die Verbreitung von Cybermobbing wird in der scheinbaren Anonymität des Internets gesehen, die es manchen Nutzern erleichtert, Hemmschwellen zu überschreiten, die sie im direkten Kontakt nicht überschreiten würden. Wären die sozialen Netzwerke gezwungen, konsequenter gegen beleidigende Inhalte vorzugehen, könnte dies laut Experten viele Fälle verhindern. Bislang werden gemeldete Inhalte jedoch oft nur zögerlich oder gar nicht entfernt.
+
+Um Cybermobbing wirksam zu begegnen, fordern Pädagogen, dass digitale Verantwortung bereits in der Schule vermittelt werden sollte, damit Kinder frühzeitig lernen, welche Folgen ihr Verhalten im Internet haben kann. Gleichzeitig müssten Eltern stärker sensibilisiert werden, um Warnsignale bei ihren Kindern rechtzeitig zu erkennen. Nur durch ein Zusammenspiel von Schule, Elternhaus und den Betreibern sozialer Netzwerke lasse sich das Problem langfristig eindämmen.`,
+    preguntas: [
+      { enunciado: 'Cybermobbing endet laut Text meist mit dem Ende des Schultages.', respuesta: false },
+      { enunciado: 'Jugendliche sind laut Untersuchungen sowohl als Täter als auch als Opfer betroffen.', respuesta: true },
+      { enunciado: 'Die Anonymität des Internets wird als ein Grund für Cybermobbing genannt.', respuesta: true },
+      { enunciado: 'Soziale Netzwerke entfernen gemeldete Inhalte laut Text immer sofort.', respuesta: false },
+      { enunciado: 'Pädagogen fordern, dass digitale Verantwortung bereits in der Schule vermittelt wird.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'digitale-kluft-zwischen-generationen',
+    nivel: 'B2',
+    titulo: 'Digitale Kluft zwischen den Generationen',
+    descripcion: 'Der Text untersucht, warum ältere Menschen häufig von der Digitalisierung abgehängt werden.',
+    texto: `Während jüngere Generationen mit Smartphones und digitalen Anwendungen aufgewachsen sind, tun sich viele ältere Menschen nach wie vor schwer damit, neue Technologien im Alltag zu nutzen. Diese sogenannte digitale Kluft zeigt sich besonders deutlich, wenn Behördengänge, Bankgeschäfte oder Arztbesuche zunehmend online abgewickelt werden müssen. Wer den Umgang mit digitalen Geräten nicht beherrscht, läuft Gefahr, von wichtigen gesellschaftlichen Bereichen ausgeschlossen zu werden.
+
+Als Gründe für diese Kluft werden neben mangelnder technischer Erfahrung auch fehlendes Vertrauen in die Sicherheit digitaler Systeme genannt. Viele ältere Menschen befürchten, Opfer von Betrug zu werden, wenn sie persönliche Daten online eingeben. Hinzu kommt, dass manche Anwendungen nicht nutzerfreundlich gestaltet sind und selbst technisch versierten Personen Schwierigkeiten bereiten würden.
+
+Um die digitale Kluft zu verringern, setzen sich zahlreiche Initiativen dafür ein, kostenlose Computerkurse für Senioren anzubieten. Sollten Städte und Gemeinden solche Angebote flächendeckend bereitstellen, könnte dies vielen älteren Menschen die Angst vor der Digitalisierung nehmen. Letztlich profitiert die gesamte Gesellschaft davon, wenn niemand aufgrund seines Alters von wichtigen digitalen Dienstleistungen ausgeschlossen bleibt.`,
+    preguntas: [
+      { enunciado: 'Ältere Menschen haben laut Text generell keine Schwierigkeiten mit digitalen Anwendungen.', respuesta: false },
+      { enunciado: 'Die digitale Kluft zeigt sich unter anderem bei Behördengängen und Bankgeschäften.', respuesta: true },
+      { enunciado: 'Mangelndes Vertrauen in die Sicherheit digitaler Systeme wird als Grund genannt.', respuesta: true },
+      { enunciado: 'Alle digitalen Anwendungen sind laut Text besonders nutzerfreundlich gestaltet.', respuesta: false },
+      { enunciado: 'Initiativen bieten unter anderem kostenlose Computerkurse für Senioren an.', respuesta: true },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
