@@ -26,9 +26,9 @@ RedirectMatch 301 ^/(de/|en/)?f/partizip-2-en-aleman-la-formacion-del-participio
 RedirectMatch 301 ^/(de/|en/)?f/tekamolo-2-0-en-aleman-satzbau/?$ /f/tekamolo-orden-de-palabras-en-aleman/
 RedirectMatch 301 ^/(de/|en/)?f/trennbare-verben-en-aleman-verbos-separables-y-no-separables/?$ /f/trennbare-verben-en-aleman/
 
-# Las antiguas versiones de blog de/en no estaban traducidas. Consolidarlas en espanol.
-RedirectMatch 301 ^/(de|en)/f/?$ /f/
-RedirectMatch 301 ^/(de|en)/f/(.*)$ /f/$2
+# Legacy Spanish-only blog slugs under de/en that were never translated.
+# Real multilingual blog content now lives at /de/f/ and /en/f/ so only
+# redirect the specific legacy aliases above, not the entire tree.
 
 # Redirects 301: lueckentext -> sprachbausteine
 RedirectMatch 301 ^/lueckentext/(.*)$ /sprachbausteine/$1

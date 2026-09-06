@@ -16,15 +16,12 @@ const legacyAliases = [
   "trennbare-verben-en-aleman-verbos-separables-y-no-separables",
 ];
 
-test.describe("Spanish blog consolidation", () => {
-  test("untranslated localized blog trees are not published", () => {
-    expect(fs.existsSync(path.join(root, "de/f"))).toBeFalsy();
-    expect(fs.existsSync(path.join(root, "en/f"))).toBeFalsy();
-
-    const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
-    expect(sitemap).not.toContain("/de/f/");
-    expect(sitemap).not.toContain("/en/f/");
-    expect(sitemap).not.toContain("BLOG-I18N");
+test.describe("blog consolidation", () => {
+  test("localized blog trees exist with real content", () => {
+    expect(fs.existsSync(path.join(root, "de/f"))).toBeTruthy();
+    expect(fs.existsSync(path.join(root, "en/f"))).toBeTruthy();
+    expect(fs.existsSync(path.join(root, "de/f/index.html"))).toBeTruthy();
+    expect(fs.existsSync(path.join(root, "en/f/index.html"))).toBeTruthy();
   });
 
   test("legacy duplicate slugs are redirects instead of indexable pages", () => {
@@ -36,30 +33,11 @@ test.describe("Spanish blog consolidation", () => {
     }
   });
 
-  test("Spanish blog pages do not advertise untranslated alternates", () => {
-    const blogFiles = [];
-    const walk = (directory) => {
-      for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
-        const entryPath = path.join(directory, entry.name);
-        if (entry.isDirectory()) walk(entryPath);
-        if (entry.isFile() && entry.name === "index.html") blogFiles.push(entryPath);
-      }
-    };
-
-    walk(path.join(root, "f"));
-    expect(blogFiles.length).toBeGreaterThan(40);
-
-    for (const file of blogFiles) {
-      const html = fs.readFileSync(file, "utf8");
-      expect(html).not.toMatch(/hreflang="(?:de|en)"[^>]+\/(?:de|en)\/f\//);
-    }
-  });
-
-  test("localized homepages link to the canonical Spanish blog", async ({ page }) => {
+  test("localized homepages link to their own blog", async ({ page }) => {
     for (const locale of ["de", "en"]) {
       await page.goto(`/${locale}/`);
       const blogLinks = page.getByRole("link", { name: "Blog", exact: true });
-      await expect(blogLinks.first()).toHaveAttribute("href", "/f/");
+      await expect(blogLinks.first()).toHaveAttribute("href", `/${locale}/f/`);
     }
   });
 
@@ -77,9 +55,9 @@ test.describe("Spanish blog consolidation", () => {
     }
   });
 
-  test("Apache redirects legacy locale paths to Spanish", () => {
+  test("catch-all locale blog redirects are removed", () => {
     const htaccess = fs.readFileSync(path.join(root, ".htaccess"), "utf8");
-    expect(htaccess).toContain("RedirectMatch 301 ^/(de|en)/f/?$ /f/");
-    expect(htaccess).toContain("RedirectMatch 301 ^/(de|en)/f/(.*)$ /f/$2");
+    expect(htaccess).not.toContain("RedirectMatch 301 ^/(de|en)/f/?$ /f/");
+    expect(htaccess).not.toContain("RedirectMatch 301 ^/(de|en)/f/(.*)$ /f/$2");
   });
 });

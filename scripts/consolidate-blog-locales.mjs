@@ -4,7 +4,7 @@ import path from "path";
 const rootDir = process.cwd();
 const sourceBlogDir = path.join(rootDir, "f");
 const sitemapFile = path.join(rootDir, "sitemap.xml");
-const unsupportedLocales = ["de", "en"];
+const unsupportedLocales = [];
 const legacyBlogAliases = [
   "demonstrativpronomen-los-pronombres-demostrativos-en-aleman",
   "el-imperativo-en-aleman",
