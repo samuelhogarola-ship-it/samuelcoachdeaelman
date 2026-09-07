@@ -2969,6 +2969,222 @@ Ob günstige Ticketpreise allein ausreichen, um eine echte Verkehrswende herbeiz
       { enunciado: 'Verkehrsforscher halten günstige Ticketpreise allein für ausreichend, um die Verkehrswende zu erreichen.', respuesta: false },
     ],
   },
+  {
+    slug: 'im-zug',
+    nivel: 'A1',
+    titulo: 'Im Zug',
+    descripcion: 'Lisa fährt mit dem Zug zu ihrer Oma.',
+    texto: `Lisa steht am Bahnhof. Der Zug kommt um neun Uhr. Lisa hat eine Fahrkarte. Sie sucht Platz vierzehn. Im Zug ist es warm. Lisa setzt sich ans Fenster. Sie sieht Felder und Bäume. Der Zug fährt schnell.
+
+Nach einer Stunde hält der Zug. Lisa steigt aus. Ihre Oma wartet am Bahnsteig. „Hallo, Lisa!", ruft die Oma. Sie umarmen sich. Zusammen gehen sie nach Hause. Lisa freut sich sehr.`,
+    preguntas: [
+      { enunciado: 'Lisa fährt mit dem Bus.', respuesta: false },
+      { enunciado: 'Der Zug kommt um neun Uhr.', respuesta: true },
+      { enunciado: 'Lisa sitzt am Fenster.', respuesta: true },
+      { enunciado: 'Die Fahrt dauert zwei Stunden.', respuesta: false },
+      { enunciado: 'Die Oma wartet am Bahnsteig.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'mein-tagesablauf',
+    nivel: 'A1',
+    titulo: 'Mein Tagesablauf',
+    descripcion: 'Paul erzählt von seinem normalen Tag.',
+    texto: `Paul steht um sieben Uhr auf. Er putzt seine Zähne. Dann isst er Frühstück. Er trinkt Kakao und isst Brot. Um acht Uhr geht er zur Schule. Die Schule ist nicht weit.
+
+Nach der Schule spielt Paul Fußball. Er trifft seine Freunde im Park. Am Abend isst die Familie zusammen. Danach macht Paul Hausaufgaben. Um neun Uhr geht er ins Bett.`,
+    preguntas: [
+      { enunciado: 'Paul steht um sieben Uhr auf.', respuesta: true },
+      { enunciado: 'Paul trinkt Kaffee zum Frühstück.', respuesta: false },
+      { enunciado: 'Die Schule ist weit weg.', respuesta: false },
+      { enunciado: 'Paul spielt nach der Schule Fußball.', respuesta: true },
+      { enunciado: 'Paul geht um acht Uhr ins Bett.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'am-telefon',
+    nivel: 'A1',
+    titulo: 'Am Telefon',
+    descripcion: 'Tim ruft seinen Freund Ben an.',
+    texto: `Tim hat ein Handy. Er ruft seinen Freund Ben an. „Hallo Ben, wie geht's?", fragt Tim. Ben antwortet: „Gut, danke! Und dir?" Tim erzählt von der Schule. Ben hört zu.
+
+Dann fragt Tim: „Hast du Zeit am Samstag?" Ben sagt: „Ja, ich habe Zeit." Sie planen einen Ausflug ins Schwimmbad. Beide freuen sich auf das Wochenende. Am Ende sagen sie „Tschüss" und legen auf.`,
+    preguntas: [
+      { enunciado: 'Tim ruft seine Schwester an.', respuesta: false },
+      { enunciado: 'Ben antwortet, dass es ihm gut geht.', respuesta: true },
+      { enunciado: 'Sie sprechen über die Schule.', respuesta: true },
+      { enunciado: 'Ben hat am Samstag keine Zeit.', respuesta: false },
+      { enunciado: 'Sie planen einen Ausflug ins Schwimmbad.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-skiurlaub',
+    nivel: 'A2',
+    titulo: 'Der Skiurlaub',
+    descripcion: 'Familie Berger hat eine Woche Skiurlaub in Österreich gemacht.',
+    texto: `Familie Berger ist letzte Woche nach Österreich gefahren, weil sie Skiurlaub machen wollte. Die Kinder haben sich sehr gefreut, denn sie hatten den Schnee schon lange nicht mehr gesehen. Am ersten Tag hat die Familie einen Skikurs gebucht, damit die Kinder das Skifahren richtig lernen konnten. Der Lehrer war geduldig, und schon am zweiten Tag konnten die Kinder allein den Berg hinunterfahren.
+
+Am dritten Tag ist es sehr kalt geworden, aber die Sonne hat trotzdem geschienen. Die Familie hat mittags in einer Berghütte gegessen und heißen Kakao getrunken. Der Vater hat gesagt, dass er noch nie so einen schönen Ausblick gesehen hat. Am letzten Abend haben sie zusammen ein Feuerwerk beobachtet, weil es in dem Skiort eine kleine Feier gab.
+
+Als die Familie wieder zu Hause ankam, waren alle müde, aber glücklich. Die Kinder haben schon gefragt, wann sie wieder in den Skiurlaub fahren können. Die Mutter hat gelacht und gesagt, dass sie im nächsten Winter bestimmt wiederkommen.`,
+    preguntas: [
+      { enunciado: 'Familie Berger ist nach Österreich gefahren.', respuesta: true },
+      { enunciado: 'Die Kinder kannten Skifahren schon sehr gut.', respuesta: false },
+      { enunciado: 'Am dritten Tag hat es geregnet.', respuesta: false },
+      { enunciado: 'Die Familie hat in einer Berghütte gegessen.', respuesta: true },
+      { enunciado: 'Die Kinder wollen nicht mehr in den Skiurlaub fahren.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-fahrradpanne',
+    nivel: 'A2',
+    titulo: 'Die Fahrradpanne',
+    descripcion: 'Jonas hatte eine Fahrradpanne auf dem Weg zur Arbeit.',
+    texto: `Jonas ist heute Morgen mit dem Fahrrad zur Arbeit gefahren, weil das Wetter so schön war. Nach zehn Minuten hat er plötzlich ein komisches Geräusch gehört. Er ist abgestiegen und hat gesehen, dass sein Hinterreifen platt war. Jonas hatte keine Luftpumpe dabei, deshalb konnte er nicht weiterfahren.
+
+Zum Glück ist ein Nachbar vorbeigekommen, den Jonas gut kennt. Der Nachbar hat sofort angehalten, als er Jonas mit dem kaputten Fahrrad gesehen hat. Er hat gesagt, dass er ein Flickzeug im Auto hat. Gemeinsam haben sie den Reifen repariert, obwohl es nicht einfach war. Nach zwanzig Minuten konnte Jonas endlich weiterfahren.
+
+Als Jonas im Büro ankam, war er eine Stunde zu spät. Sein Chef hat gefragt, was passiert ist, und Jonas hat die Geschichte erzählt. Der Chef hat verstanden, dass es kein Problem war, weil Jonas sich sofort gemeldet hatte.`,
+    preguntas: [
+      { enunciado: 'Jonas ist mit dem Auto zur Arbeit gefahren.', respuesta: false },
+      { enunciado: 'Der Hinterreifen von Jonas war platt.', respuesta: true },
+      { enunciado: 'Jonas hatte eine Luftpumpe dabei.', respuesta: false },
+      { enunciado: 'Ein Nachbar hat Jonas geholfen.', respuesta: true },
+      { enunciado: 'Jonas kam pünktlich im Büro an.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'ein-besuch-im-krankenhaus',
+    nivel: 'A2',
+    titulo: 'Ein Besuch im Krankenhaus',
+    descripcion: 'Marie besucht ihren Bruder, der sich beim Fußball verletzt hat.',
+    texto: `Maries Bruder Tom hat sich am Wochenende beim Fußballspielen das Bein gebrochen, weil er unglücklich gestürzt ist. Er musste sofort ins Krankenhaus gebracht werden. Marie war sehr besorgt, als sie die Nachricht bekommen hat. Am nächsten Tag ist sie mit ihrer Mutter ins Krankenhaus gefahren, um Tom zu besuchen.
+
+Als sie das Zimmer betreten haben, hat Tom im Bett gelegen und ferngesehen. Sein Bein war eingegipst, aber er hat gelächelt, weil er keine großen Schmerzen mehr hatte. Marie hat ihm Trauben und ein Comicheft mitgebracht. Sie haben zusammen gelacht und über das Fußballspiel gesprochen, obwohl es für Tom nicht so lustig war.
+
+Der Arzt hat gesagt, dass Tom noch zwei Wochen im Gips bleiben muss. Tom war traurig, weil er nicht mehr Fußball spielen konnte, aber er hat verstanden, dass die Erholung wichtig ist. Marie hat versprochen, ihn jeden Tag zu besuchen.`,
+    preguntas: [
+      { enunciado: 'Tom hat sich beim Fußball das Bein gebrochen.', respuesta: true },
+      { enunciado: 'Marie hat ihren Bruder nicht besucht.', respuesta: false },
+      { enunciado: 'Tom hatte im Krankenhaus starke Schmerzen.', respuesta: false },
+      { enunciado: 'Marie hat Trauben mitgebracht.', respuesta: true },
+      { enunciado: 'Tom muss noch zwei Wochen im Gips bleiben.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'digital-detox',
+    nivel: 'B1',
+    titulo: 'Digital Detox – Ein Wochenende ohne Handy',
+    descripcion: 'Immer mehr Menschen probieren ein Wochenende ganz ohne Smartphone aus.',
+    texto: `Nachdem Sabine bemerkt hatte, dass sie täglich mehrere Stunden am Handy verbrachte, beschloss sie, ein Wochenende ohne Smartphone zu verbringen. Am Freitagabend schaltete sie ihr Handy aus und legte es in eine Schublade. Obwohl sie zunächst unruhig war, weil sie ständig das Gefühl hatte, etwas zu verpassen, gewöhnte sie sich schon am nächsten Morgen an die neue Ruhe.
+
+Am Samstag verbrachte Sabine viel Zeit im Garten und las ein Buch, das schon seit Monaten ungelesen auf ihrem Nachttisch lag. Trotzdem fiel es ihr manchmal schwer, nicht automatisch nach dem Handy zu greifen, wenn sie eine kurze Pause hatte. Am Abend traf sie sich mit Freunden, und das Gespräch war intensiver als sonst, weil niemand ständig auf den Bildschirm schaute.
+
+Als Sabine am Sonntagabend ihr Handy wieder einschaltete, war sie überrascht, wie wenig ihr wirklich gefehlt hatte. Seitdem plant sie regelmäßig digitale Auszeiten, obwohl ihre Freunde am Anfang skeptisch waren. Viele Studien zeigen inzwischen, dass solche Pausen die Konzentration verbessern und Stress reduzieren können.`,
+    preguntas: [
+      { enunciado: 'Sabine hat ihr Handy das ganze Wochenende benutzt.', respuesta: false },
+      { enunciado: 'Sabine hat am Samstag ein Buch gelesen.', respuesta: true },
+      { enunciado: 'Es fiel Sabine von Anfang an leicht, ohne Handy auszukommen.', respuesta: false },
+      { enunciado: 'Das Treffen mit Freunden war intensiver als sonst.', respuesta: true },
+      { enunciado: 'Sabine plant seitdem keine weiteren digitalen Auszeiten.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'vereinsleben-in-deutschland',
+    nivel: 'B1',
+    titulo: 'Vereinsleben in Deutschland',
+    descripcion: 'Ein Bericht über die Bedeutung von Vereinen im deutschen Alltag.',
+    texto: `In Deutschland gibt es eine lange Tradition des Vereinslebens, die bis heute eine wichtige Rolle im Alltag vieler Menschen spielt. Ob Sportverein, Musikverein oder Gartenverein – fast jede Stadt und jedes Dorf bietet zahlreiche Möglichkeiten, sich einer Gemeinschaft anzuschließen. Nachdem Markus in eine neue Stadt gezogen war, entschied er sich, einem Fußballverein beizutreten, um schneller neue Kontakte zu knüpfen.
+
+Obwohl er anfangs Zweifel hatte, ob er in der Mannschaft willkommen sein würde, wurde er schon beim ersten Training herzlich aufgenommen. Die anderen Spieler luden ihn nach dem Training sogar zu einem gemeinsamen Essen ein. Trotzdem dauerte es einige Wochen, bis Markus sich wirklich als Teil des Vereins fühlte, weil er die anderen Mitglieder erst richtig kennenlernen musste.
+
+Heute trainiert Markus zweimal pro Woche und hat durch den Verein enge Freundschaften geschlossen. Viele Soziologen betonen, dass Vereine einen wichtigen Beitrag zum sozialen Zusammenhalt leisten, besonders in Zeiten, in denen viele Menschen zunehmend isoliert leben. Markus kann das aus eigener Erfahrung bestätigen und empfiehlt jedem, der neu in eine Stadt zieht, einem Verein beizutreten.`,
+    preguntas: [
+      { enunciado: 'Markus ist einem Fußballverein beigetreten, nachdem er umgezogen war.', respuesta: true },
+      { enunciado: 'Markus wurde bei der Mannschaft schlecht aufgenommen.', respuesta: false },
+      { enunciado: 'Es dauerte einige Wochen, bis sich Markus als Teil des Vereins fühlte.', respuesta: true },
+      { enunciado: 'Markus trainiert nur einmal im Monat.', respuesta: false },
+      { enunciado: 'Markus empfiehlt anderen, keinem Verein beizutreten.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'kulturschock-im-auslandssemester',
+    nivel: 'B1',
+    titulo: 'Kulturschock im Auslandssemester',
+    descripcion: 'Eine Studentin berichtet von ihrem Kulturschock während eines Auslandssemesters in Japan.',
+    texto: `Als Jana für ein Auslandssemester nach Japan flog, freute sie sich sehr auf die neue Erfahrung. In den ersten Tagen war jedoch fast alles ungewohnt für sie: die Höflichkeitsregeln, das Essen und sogar der öffentliche Nahverkehr funktionierten anders, als sie es erwartet hatte. Obwohl sie sich vorher intensiv vorbereitet hatte, fühlte sie sich in den ersten Wochen oft unsicher und überfordert.
+
+Nachdem Jana einige Wochen an der Universität verbracht hatte, lernte sie andere internationale Studierende kennen, die ähnliche Erfahrungen gemacht hatten. Gemeinsam besprachen sie ihre Eindrücke, und Jana merkte, dass ihr Gefühl der Fremdheit ganz normal war. Trotzdem brauchte sie noch mehrere Monate, bis sie sich in ihrem neuen Alltag wirklich wohlfühlte.
+
+Am Ende ihres Auslandssemesters war Jana überzeugt, dass der anfängliche Kulturschock eine wichtige Erfahrung gewesen war. Sie hatte gelernt, geduldiger mit sich selbst zu sein und offener auf ungewohnte Situationen zu reagieren. Als sie nach Deutschland zurückkehrte, vermisste sie schon nach kurzer Zeit das Leben in Japan.`,
+    preguntas: [
+      { enunciado: 'Jana fand alles in Japan sofort vertraut.', respuesta: false },
+      { enunciado: 'Jana hat andere internationale Studierende kennengelernt.', respuesta: true },
+      { enunciado: 'Jana fühlte sich schon nach wenigen Tagen völlig wohl.', respuesta: false },
+      { enunciado: 'Jana hält den Kulturschock rückblickend für eine wichtige Erfahrung.', respuesta: true },
+      { enunciado: 'Jana vermisste Japan nach ihrer Rückkehr nicht.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'plastikmuell-und-meeresschutz',
+    nivel: 'B2',
+    titulo: 'Plastikmüll und Meeresschutz',
+    descripcion: 'Wie Plastikmüll die Weltmeere bedroht und welche Lösungen diskutiert werden.',
+    texto: `Jedes Jahr gelangen schätzungsweise mehrere Millionen Tonnen Plastikmüll in die Weltmeere, wo er sich zu einem der drängendsten Umweltprobleme unserer Zeit entwickelt hat. Besonders problematisch ist, dass Kunststoffe im Meerwasser nur sehr langsam abgebaut werden und sich stattdessen in immer kleinere Partikel, sogenanntes Mikroplastik, zersetzen. Diese Partikel werden mittlerweile in nahezu allen Meeresorganismen nachgewiesen und gelangen über die Nahrungskette letztlich auch in den menschlichen Körper.
+
+Würde die Plastikproduktion weltweit nicht drastisch reduziert, so warnen Umweltorganisationen, könnte sich die Menge des im Meer treibenden Plastikmülls bis zur Mitte des Jahrhunderts noch einmal vervielfachen. Um dieser Entwicklung entgegenzuwirken, wurden in den vergangenen Jahren zahlreiche internationale Abkommen verhandelt, deren Umsetzung sich jedoch als schwierig erweist, da die wirtschaftlichen Interessen der beteiligten Staaten oft auseinandergehen. Einige Länder haben bereits Einwegplastik verboten, während andere weiterhin auf freiwillige Selbstverpflichtungen der Industrie setzen.
+
+Neben politischen Maßnahmen wird auch auf technologische Lösungen gesetzt. So wurden in den letzten Jahren verschiedene Systeme entwickelt, mit denen Plastikmüll direkt aus Flüssen und dem offenen Meer gefischt werden soll, bevor er sich weiter zersetzt. Kritiker bemängeln jedoch, dass solche Projekte lediglich Symptome bekämpfen würden, anstatt die eigentliche Ursache – die stetig wachsende Plastikproduktion – anzugehen.
+
+Sollte es nicht gelingen, den globalen Plastikverbrauch spürbar zu senken, dürfte sich die Vermüllung der Ozeane trotz aller technischen Innovationen weiter verschärfen. Viele Wissenschaftler fordern deshalb ein grundlegendes Umdenken im Umgang mit Verpackungen und Einwegprodukten, das weit über einzelne Verbote hinausgehen müsste.`,
+    preguntas: [
+      { enunciado: 'Plastik wird im Meerwasser sehr schnell vollständig abgebaut.', respuesta: false },
+      { enunciado: 'Mikroplastik wurde bereits in vielen Meeresorganismen nachgewiesen.', respuesta: true },
+      { enunciado: 'Alle Länder verfolgen bei Einwegplastik dieselbe Strategie.', respuesta: false },
+      { enunciado: 'Es gibt technologische Projekte, die Plastikmüll aus dem Meer entfernen sollen.', respuesta: true },
+      { enunciado: 'Kritiker halten Aufräumprojekte für eine vollständige Lösung des Problems.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'cancel-culture',
+    nivel: 'B2',
+    titulo: 'Cancel Culture – Wenn die Öffentlichkeit richtet',
+    descripcion: 'Eine Auseinandersetzung mit dem Phänomen Cancel Culture und seinen gesellschaftlichen Folgen.',
+    texto: `Der Begriff „Cancel Culture" bezeichnet ein Phänomen, bei dem Personen des öffentlichen Lebens aufgrund umstrittener Aussagen oder Handlungen in sozialen Netzwerken massiv kritisiert und in der Folge oft beruflich sowie gesellschaftlich ausgegrenzt werden. Befürworter sehen darin ein wirksames Mittel, um diskriminierendes oder verletzendes Verhalten öffentlich zu sanktionieren, das andernfalls möglicherweise folgenlos bliebe. Kritiker hingegen warnen davor, dass dabei häufig nicht mehr zwischen berechtigter Kritik und öffentlicher Vorverurteilung unterschieden werde.
+
+Besonders umstritten ist, dass Betroffene oft kaum eine Möglichkeit erhalten, sich zu den Vorwürfen zu äußern, bevor eine Welle der Empörung über sie hereinbricht. Würde jede Aussage stets in ihrem vollständigen Kontext betrachtet, ließen sich laut Kritikern viele solcher Debatten sachlicher führen. Stattdessen verbreiten sich einzelne Zitate oder Videoausschnitte innerhalb weniger Stunden, ohne dass die Nutzer den ursprünglichen Zusammenhang überhaupt kennen.
+
+Gleichzeitig betonen Befürworter der Cancel Culture, dass die öffentliche Aufmerksamkeit gerade in Fällen von Machtmissbrauch oder Diskriminierung lange überfällig gewesen sei. Ohne den Druck sozialer Netzwerke wären manche Skandale, so das Argument, vermutlich nie ans Licht gekommen. Es wird daher gefordert, zwischen legitimer öffentlicher Kritik und Formen digitaler Hetze klar zu unterscheiden, was in der Praxis jedoch selten gelingt.
+
+Ob Cancel Culture langfristig zu einer offeneren oder eher zu einer ängstlicheren Gesellschaft führt, wird kontrovers diskutiert. Während die einen befürchten, dass Menschen sich aus Angst vor öffentlicher Ächtung immer weniger trauen, ihre Meinung zu äußern, sehen andere darin eine notwendige Korrektur überkommener gesellschaftlicher Machtverhältnisse.`,
+    preguntas: [
+      { enunciado: 'Cancel Culture bezeichnet ausschließlich positive Reaktionen im Internet.', respuesta: false },
+      { enunciado: 'Kritiker bemängeln, dass oft nicht zwischen Kritik und Vorverurteilung unterschieden wird.', respuesta: true },
+      { enunciado: 'Betroffene erhalten laut Text meist ausreichend Zeit, sich zu äußern, bevor Kritik entsteht.', respuesta: false },
+      { enunciado: 'Befürworter sehen in Cancel Culture ein Mittel gegen Machtmissbrauch.', respuesta: true },
+      { enunciado: 'Der Text kommt zu einem eindeutigen, unumstrittenen Fazit.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'kernenergie-debatte',
+    nivel: 'B2',
+    titulo: 'Die Kernenergie-Debatte in Deutschland',
+    descripcion: 'Ein Überblick über die kontroverse Diskussion um Kernenergie als Klimaschutzmaßnahme.',
+    texto: `Kaum ein energiepolitisches Thema wird in Deutschland so leidenschaftlich diskutiert wie die Kernenergie. Nachdem die letzten deutschen Kernkraftwerke abgeschaltet wurden, mehren sich angesichts steigender Energiepreise und ambitionierter Klimaziele Stimmen, die eine Rückkehr zur Kernenergie fordern. Befürworter argumentieren, dass Kernkraftwerke im Betrieb kaum Treibhausgase ausstoßen und somit einen wichtigen Beitrag zur Energiewende leisten könnten, während erneuerbare Energien noch nicht ausreichend ausgebaut seien.
+
+Gegner der Kernenergie verweisen dagegen auf die bislang ungelöste Frage der Endlagerung radioaktiven Abfalls, der über tausende Jahre sicher gelagert werden müsste. Würden neue Kernkraftwerke gebaut, so ihr Argument, entstünden zusätzliche Mengen an hochradioaktivem Abfall, ohne dass ein geeignetes Endlager gefunden worden wäre. Zudem seien die Baukosten neuer Reaktoren in den vergangenen Jahren in vielen Ländern erheblich gestiegen, sodass sich Kernenergie wirtschaftlich kaum noch rechne.
+
+In anderen europäischen Ländern wird die Kernenergie deutlich anders bewertet. Frankreich etwa deckt einen Großteil seines Strombedarfs weiterhin durch Kernkraftwerke und plant sogar den Bau neuer Reaktoren. Diese unterschiedlichen energiepolitischen Strategien innerhalb der Europäischen Union erschweren eine gemeinsame europäische Klimapolitik, da sich die Mitgliedstaaten bislang nicht auf eine einheitliche Haltung zur Kernenergie einigen konnten.
+
+Sollte sich Deutschland künftig doch für eine Rückkehr zur Kernenergie entscheiden, müssten zunächst zahlreiche rechtliche und technische Hürden überwunden werden, da die entsprechende Infrastruktur größtenteils bereits zurückgebaut wurde. Ob eine solche Kehrtwende politisch durchsetzbar wäre, bleibt angesichts der gesellschaftlichen Spaltung beim Thema Kernenergie höchst ungewiss.`,
+    preguntas: [
+      { enunciado: 'Deutschland hat seine letzten Kernkraftwerke bereits abgeschaltet.', respuesta: true },
+      { enunciado: 'Die Frage der Endlagerung radioaktiven Abfalls gilt laut Text als vollständig gelöst.', respuesta: false },
+      { enunciado: 'Frankreich deckt einen Großteil seines Strombedarfs durch Kernenergie.', respuesta: true },
+      { enunciado: 'Laut Text sind die Baukosten neuer Reaktoren in den letzten Jahren gesunken.', respuesta: false },
+      { enunciado: 'Alle EU-Mitgliedstaaten haben sich auf eine gemeinsame Haltung zur Kernenergie geeinigt.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
