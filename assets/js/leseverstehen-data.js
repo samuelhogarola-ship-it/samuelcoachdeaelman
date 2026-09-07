@@ -4679,6 +4679,24 @@ Die Party war ein großer Erfolg. Alle haben getanzt, gelacht und den leckeren K
       { enunciado: 'Anna fand es einen schlechten Geburtstag.', respuesta: false },
     ],
   },
+  {
+    slug: 'julias-verlorener-schluessel',
+    nivel: 'A2',
+    titulo: 'Der verlorene Schlüssel',
+    descripcion: 'Julia hat ihren Wohnungsschlüssel verloren und sucht ihn überall.',
+    texto: `Julia ist gestern Abend nach Hause gekommen und hat gemerkt, dass sie ihren Schlüssel nicht mehr hatte. Sie hat in ihrer Tasche gesucht, aber der Schlüssel war nicht da. Julia hat sich sehr geärgert, weil es draußen kalt war und sie nicht in die Wohnung konnte.
+
+Sie hat ihre Nachbarin, Frau Weber, angerufen. Frau Weber hat einen Ersatzschlüssel und hat Julia sofort geholfen. „Ich habe gewusst, dass so etwas irgendwann passiert“, hat Frau Weber gelacht. Julia war sehr erleichtert und hat sich herzlich bedankt.
+
+Am nächsten Morgen hat Julia ihren Schlüssel gefunden. Er lag unter dem Autositz. Sie hatte ihn beim Einsteigen fallen lassen. Seitdem trägt Julia den Schlüssel immer an einer Kette, damit das nicht wieder passiert.`,
+    preguntas: [
+      { enunciado: 'Julia hat ihren Schlüssel in der Tasche gefunden.', respuesta: false },
+      { enunciado: 'Frau Weber hat Julia geholfen.', respuesta: true },
+      { enunciado: 'Julia konnte problemlos in die Wohnung, weil die Tür offen war.', respuesta: false },
+      { enunciado: 'Julia hat den Schlüssel am nächsten Morgen im Auto gefunden.', respuesta: true },
+      { enunciado: 'Julia trägt den Schlüssel jetzt an einer Kette.', respuesta: true },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
