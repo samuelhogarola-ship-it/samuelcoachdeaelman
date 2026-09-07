@@ -2745,6 +2745,230 @@ Würde das Bewertungssystem tatsächlich reformiert, müssten Lehrkräfte völli
       { enunciado: 'Die Bildungspolitik hat sich laut Text bereits auf eine einheitliche Lösung geeinigt.', respuesta: false },
     ],
   },
+  {
+    slug: 'im-freibad',
+    nivel: 'A1',
+    titulo: 'Im Schwimmbad',
+    descripcion: 'Lisa und Tom verbringen einen heißen Sommertag im Schwimmbad.',
+    texto: `Es ist Sommer und sehr heiß. Lisa und Tom gehen ins Schwimmbad. Sie packen Handtücher und Badesachen ein. Das Schwimmbad ist groß und hat drei Becken. Viele Kinder spielen im Wasser.
+
+Lisa schwimmt gerne im großen Becken. Tom springt lieber vom Sprungbrett. Nach dem Schwimmen kaufen sie ein Eis am Kiosk. Das Eis schmeckt sehr lecker. Sie sitzen zusammen in der Sonne.
+
+Am Nachmittag spielen sie Ball auf der Wiese. Danach sind sie müde und fahren nach Hause. Es war ein schöner Tag im Schwimmbad.`,
+    preguntas: [
+      { enunciado: 'Lisa und Tom gehen im Winter ins Schwimmbad.', respuesta: false },
+      { enunciado: 'Das Schwimmbad hat drei Becken.', respuesta: true },
+      { enunciado: 'Tom springt vom Sprungbrett.', respuesta: true },
+      { enunciado: 'Sie kaufen ein Eis am Kiosk.', respuesta: true },
+      { enunciado: 'Am Nachmittag schlafen sie auf der Wiese.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'meine-katze',
+    nivel: 'A1',
+    titulo: 'Meine Katze',
+    descripcion: 'Julia erzählt von ihrer Katze Mimi und ihrem Alltag.',
+    texto: `Ich heiße Julia und ich habe eine Katze. Sie heißt Mimi. Mimi ist schwarz und weiß. Sie ist drei Jahre alt. Meine Katze schläft sehr viel.
+
+Mimi frisst jeden Tag Fisch und Fleisch. Sie trinkt auch gerne Milch. Am Morgen spielt Mimi mit einem Ball. Am Abend liegt sie auf meinem Bett.
+
+Ich putze jeden Tag ihren Fressnapf. Mimi ist sehr lieb und schnurrt oft. Ich liebe meine Katze sehr.`,
+    preguntas: [
+      { enunciado: 'Julias Katze heißt Mimi.', respuesta: true },
+      { enunciado: 'Mimi ist fünf Jahre alt.', respuesta: false },
+      { enunciado: 'Mimi frisst Fisch und Fleisch.', respuesta: true },
+      { enunciado: 'Mimi spielt am Abend mit einem Ball.', respuesta: false },
+      { enunciado: 'Mimi schnurrt oft.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'meine-lieblingsfarbe',
+    nivel: 'A1',
+    titulo: 'Meine Lieblingsfarbe',
+    descripcion: 'Ben erzählt, warum Blau seine Lieblingsfarbe ist.',
+    texto: `Ich heiße Ben. Meine Lieblingsfarbe ist Blau. Der Himmel ist blau. Das Meer ist auch blau. Ich mag diese Farbe sehr.
+
+Mein T-Shirt ist blau. Mein Fahrrad ist auch blau. Meine Schwester mag Rot. Ihr Zimmer ist rot und rosa. Wir haben verschiedene Lieblingsfarben.
+
+Zum Geburtstag bekomme ich oft blaue Geschenke. Meine Mutter kauft mir einen blauen Rucksack für die Schule. Ich freue mich sehr darüber.`,
+    preguntas: [
+      { enunciado: 'Bens Lieblingsfarbe ist Grün.', respuesta: false },
+      { enunciado: 'Der Himmel ist blau.', respuesta: true },
+      { enunciado: 'Bens Fahrrad ist blau.', respuesta: true },
+      { enunciado: 'Seine Schwester mag auch am liebsten Blau.', respuesta: false },
+      { enunciado: 'Ben bekommt einen blauen Rucksack.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-sturm-am-wochenende',
+    nivel: 'A2',
+    titulo: 'Der Sturm am Wochenende',
+    descripcion: 'Ein heftiger Sturm verändert die Wochenendpläne von Nina und ihrer Familie.',
+    texto: `Nina und ihre Familie haben für das Wochenende einen Ausflug an den See geplant. Am Freitagabend hat der Wetterbericht jedoch einen starken Sturm angekündigt, weil ein Tiefdruckgebiet über das Land gezogen ist. Ninas Vater hat sofort entschieden, dass sie den Ausflug verschieben müssen.
+
+Am Samstagmorgen hat es tatsächlich stark gestürmt. Der Wind hat einen Ast vom großen Baum im Garten abgebrochen, und der Regen ist stundenlang gefallen. Nina war zuerst enttäuscht, weil sie sich so auf den See gefreut hatte. Ihre Mutter hat vorgeschlagen, dass sie stattdessen zusammen einen Kuchen backen.
+
+Am Nachmittag haben sie Brettspiele gespielt und viel gelacht. Nina hat gemerkt, dass ein Tag zu Hause auch schön sein kann, wenn man ihn mit der Familie verbringt. Am Sonntag war der Sturm vorbei, und sie sind doch noch kurz an den See gefahren.`,
+    preguntas: [
+      { enunciado: 'Die Familie wollte am Wochenende an den See fahren.', respuesta: true },
+      { enunciado: 'Der Sturm ist am Samstagmorgen gekommen.', respuesta: true },
+      { enunciado: 'Nina war froh, dass der Ausflug ausgefallen ist.', respuesta: false },
+      { enunciado: 'Die Familie hat am Samstag zusammen einen Kuchen gebacken.', respuesta: true },
+      { enunciado: 'Am Sonntag hat es noch immer gestürmt.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-verspaetete-bahn',
+    nivel: 'A2',
+    titulo: 'Die verspätete Bahn',
+    descripcion: 'Markus verpasst wegen einer Zugverspätung fast ein wichtiges Vorstellungsgespräch.',
+    texto: `Markus ist am Montag früh aufgestanden, weil er um neun Uhr ein Vorstellungsgespräch in einer anderen Stadt hatte. Er ist zum Bahnhof gefahren und hat auf seinen Zug gewartet. Plötzlich hat eine Durchsage gemeldet, dass sich der Zug wegen eines technischen Problems verspätet.
+
+Markus wurde nervös, weil er pünktlich ankommen wollte. Er hat seinen zukünftigen Chef angerufen und erklärt, dass sein Zug Verspätung hat. Der Chef war sehr verständnisvoll und hat gesagt, dass Markus sich keine Sorgen machen soll. Nach zwanzig Minuten ist der Zug endlich gekommen.
+
+Markus ist mit dem Taxi vom Bahnhof direkt zum Büro gefahren, weil er keine Zeit mehr verlieren wollte. Er ist nur fünf Minuten zu spät gekommen. Das Gespräch ist am Ende sehr gut gelaufen, und Markus hat den Job bekommen.`,
+    preguntas: [
+      { enunciado: 'Markus hatte am Montag ein Vorstellungsgespräch.', respuesta: true },
+      { enunciado: 'Der Zug ist pünktlich gekommen.', respuesta: false },
+      { enunciado: 'Markus hat seinen zukünftigen Chef angerufen.', respuesta: true },
+      { enunciado: 'Der Chef war wütend über die Verspätung.', respuesta: false },
+      { enunciado: 'Markus hat am Ende den Job bekommen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-neue-nachbar',
+    nivel: 'A2',
+    titulo: 'Der neue Nachbar',
+    descripcion: 'Familie Berger lernt ihren neuen Nachbarn kennen.',
+    texto: `Letzte Woche ist ein neuer Nachbar in das Haus neben Familie Berger eingezogen. Er heißt Herr Vogel und kommt aus Hamburg. Frau Berger hat ihn eingeladen, weil sie ihn gerne kennenlernen wollte. Herr Vogel hat sich sehr über die Einladung gefreut.
+
+Am Samstag ist Herr Vogel zu Familie Berger gekommen und hat einen Kuchen mitgebracht. Sie haben zusammen Kaffee getrunken und über ihr Leben gesprochen. Herr Vogel hat erzählt, dass er wegen seiner neuen Arbeit umgezogen ist. Die Kinder von Familie Berger haben ihm viele Fragen über Hamburg gestellt.
+
+Am Ende des Nachmittags hat Herr Vogel gesagt, dass er sich in der neuen Nachbarschaft schon sehr wohlfühlt. Familie Berger hat sich gefreut, dass sie einen so netten Nachbarn haben. Sie haben sich verabredet, bald wieder zusammen Kaffee zu trinken.`,
+    preguntas: [
+      { enunciado: 'Herr Vogel kommt aus München.', respuesta: false },
+      { enunciado: 'Frau Berger hat Herrn Vogel eingeladen.', respuesta: true },
+      { enunciado: 'Herr Vogel hat einen Kuchen mitgebracht.', respuesta: true },
+      { enunciado: 'Herr Vogel ist wegen der Schule umgezogen.', respuesta: false },
+      { enunciado: 'Familie Berger findet ihren neuen Nachbarn nett.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'das-schulkonzert',
+    nivel: 'B1',
+    titulo: 'Das Schulkonzert',
+    descripcion: 'Trotz Lampenfieber wird das Schulkonzert für Miriam zu einem unvergesslichen Erlebnis.',
+    texto: `Seit Wochen übt Miriam jeden Tag Klavier, weil sie beim großen Schulkonzert ein Solostück spielen soll. Obwohl sie das Stück inzwischen fast perfekt beherrscht, wird sie jedes Mal nervös, wenn sie an den Auftritt denkt. Ihre Musiklehrerin hat ihr versichert, dass sie gut vorbereitet ist, doch Miriam bleibt trotzdem skeptisch.
+
+Am Abend des Konzerts sitzt die ganze Aula voller Eltern und Schüler. Nachdem die ersten Klassen ihre Lieder gesungen haben, wird es langsam Zeit für Miriams Auftritt. Ihr Herz klopft laut, als sie auf die Bühne geht, doch sobald sie zu spielen beginnt, verschwindet die Angst. Sie konzentriert sich nur noch auf die Musik.
+
+Nachdem Miriam das letzte Stück gespielt hat, bricht lauter Applaus aus. Ihre Eltern stehen auf und klatschen stolz. Obwohl der Auftritt nur wenige Minuten gedauert hat, fühlt sich Miriam danach, als hätte sie etwas Großes geschafft. Sie beschließt, im nächsten Jahr wieder mitzumachen.`,
+    preguntas: [
+      { enunciado: 'Miriam übt seit Wochen für das Schulkonzert.', respuesta: true },
+      { enunciado: 'Miriam ist vor ihrem Auftritt völlig entspannt.', respuesta: false },
+      { enunciado: 'Nach den ersten Klassen kommt Miriam an die Reihe.', respuesta: true },
+      { enunciado: 'Miriam bricht ihren Auftritt wegen der Nervosität ab.', respuesta: false },
+      { enunciado: 'Miriam möchte im nächsten Jahr wieder beim Konzert mitmachen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-erste-tag-in-der-neuen-stadt',
+    nivel: 'B1',
+    titulo: 'Der erste Tag in der neuen Stadt',
+    descripcion: 'Jonas zieht in eine neue Stadt und muss sich trotz Unsicherheit zurechtfinden.',
+    texto: `Jonas ist vor wenigen Tagen mit seiner Familie nach Leipzig gezogen, weil sein Vater dort eine neue Stelle angetreten hat. Obwohl Jonas sich auf das Abenteuer gefreut hat, fühlt er sich am ersten Schultag ziemlich unsicher, da er niemanden in der neuen Klasse kennt. Trotzdem versucht er, mutig zu wirken, als er den Klassenraum betritt.
+
+Nachdem der Lehrer ihn den anderen Schülern vorgestellt hat, setzt sich Jonas neben einen Jungen namens Paul. Paul erklärt ihm freundlich, wo sich die wichtigsten Räume der Schule befinden, obwohl er selbst noch nie mit einem neuen Mitschüler gesprochen hat. In der Pause zeigt Paul ihm den Schulhof und stellt ihn seinen Freunden vor.
+
+Am Ende des Tages ist Jonas erleichtert, dass alles besser gelaufen ist, als er erwartet hatte. Nachdem er abends seinen alten Freunden von seinem Tag erzählt hat, merkt er, dass er sich schon auf den nächsten Schultag freut. Die neue Stadt erscheint ihm plötzlich gar nicht mehr so fremd.`,
+    preguntas: [
+      { enunciado: 'Jonas ist wegen der neuen Arbeit seines Vaters umgezogen.', respuesta: true },
+      { enunciado: 'Jonas kennt am ersten Schultag bereits viele Mitschüler.', respuesta: false },
+      { enunciado: 'Paul zeigt Jonas die Schule und stellt ihn seinen Freunden vor.', respuesta: true },
+      { enunciado: 'Jonas fühlt sich am Ende des Tages schlechter als am Morgen.', respuesta: false },
+      { enunciado: 'Jonas freut sich schon auf den nächsten Schultag.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'rentensystem-im-wandel',
+    nivel: 'B2',
+    titulo: 'Das Rentensystem im Wandel',
+    descripcion: 'Angesichts des demografischen Wandels wird über eine grundlegende Reform des Rentensystems diskutiert.',
+    texto: `Der demografische Wandel stellt das deutsche Rentensystem vor erhebliche Herausforderungen, da immer weniger Beitragszahler für eine wachsende Zahl von Rentnerinnen und Rentnern aufkommen müssen. Während in den vergangenen Jahrzehnten das Verhältnis zwischen Erwerbstätigen und Rentenempfängern noch relativ ausgeglichen war, verschiebt sich dieses Gleichgewicht zunehmend zugunsten der älteren Generation. Ökonomen warnen davor, dass das bestehende, auf dem Umlageverfahren basierende System langfristig nicht mehr finanzierbar sein könnte.
+
+Um die Finanzierung zu sichern, werden derzeit verschiedene Reformmodelle diskutiert. Manche Experten schlagen vor, dass das Renteneintrittsalter schrittweise weiter angehoben werden sollte, damit die Erwerbsphase entsprechend der steigenden Lebenserwartung verlängert wird. Andere plädieren dafür, dass zusätzlich zur gesetzlichen Rente eine verpflichtende, kapitalgedeckte Altersvorsorge eingeführt werden müsse, wie sie in einigen skandinavischen Ländern bereits erfolgreich praktiziert wird.
+
+Würde das Renteneintrittsalter tatsächlich weiter erhöht, müssten insbesondere Beschäftigte in körperlich anstrengenden Berufen mit erheblichen Nachteilen rechnen, da sie oft schon vor Erreichen des offiziellen Rentenalters gesundheitlich beeinträchtigt sind. Gewerkschaften fordern deshalb, dass eine mögliche Reform durch flexible Übergangsregelungen und branchenspezifische Ausnahmen ergänzt werden sollte, damit nicht alle Berufsgruppen gleichermaßen belastet werden.
+
+Ob eine grundlegende Reform des Rentensystems in absehbarer Zeit umgesetzt wird, bleibt angesichts der politischen Uneinigkeit ungewiss. Klar ist jedoch, dass ohne strukturelle Anpassungen die finanzielle Stabilität des Systems mittelfristig gefährdet wäre.`,
+    preguntas: [
+      { enunciado: 'Laut Text sinkt die Zahl der Beitragszahler im Verhältnis zu den Rentnern.', respuesta: true },
+      { enunciado: 'Ökonomen halten das bestehende Umlagesystem langfristig für uneingeschränkt finanzierbar.', respuesta: false },
+      { enunciado: 'Manche Experten fordern eine schrittweise Anhebung des Renteneintrittsalters.', respuesta: true },
+      { enunciado: 'Laut Text hätte eine Anhebung des Renteneintrittsalters für alle Berufsgruppen die gleichen Folgen.', respuesta: false },
+      { enunciado: 'Gewerkschaften fordern flexible Übergangsregelungen für bestimmte Branchen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'datenschutz-im-digitalen-zeitalter',
+    nivel: 'B2',
+    titulo: 'Datenschutz im digitalen Zeitalter',
+    descripcion: 'Zwischen persönlicher Freiheit und wirtschaftlichem Interesse: die Debatte um den Schutz persönlicher Daten.',
+    texto: `In einer zunehmend digitalisierten Gesellschaft werden täglich enorme Mengen persönlicher Daten gesammelt, ausgewertet und weiterverkauft, oft ohne dass die betroffenen Nutzerinnen und Nutzer sich dessen vollständig bewusst sind. Unternehmen begründen diese Praxis meist damit, dass personalisierte Werbung und maßgeschneiderte Dienstleistungen nur auf Grundlage umfangreicher Datenanalysen möglich seien. Datenschützer hingegen warnen, dass durch die systematische Erfassung individueller Verhaltensmuster ein bedenkliches Maß an Kontrolle über das Privatleben der Menschen entstehe.
+
+Mit der Einführung der Datenschutz-Grundverordnung sollte europaweit ein einheitlicher, hoher Schutzstandard geschaffen werden, der Bürgerinnen und Bürgern mehr Kontrolle über ihre eigenen Daten gibt. Kritiker bemängeln jedoch, dass die Umsetzung in der Praxis häufig lückenhaft bleibe, da viele Unternehmen komplizierte Einwilligungserklärungen verwendeten, die von den meisten Nutzern ungelesen akzeptiert würden. Befürworter der Verordnung entgegnen, dass zumindest ein rechtlicher Rahmen geschaffen worden sei, auf dessen Grundlage weitere Verbesserungen aufgebaut werden könnten.
+
+Würden strengere Kontrollen eingeführt und Verstöße konsequenter geahndet, müssten viele Unternehmen ihre Geschäftsmodelle grundlegend überdenken, da diese oft stark von der Verwertung persönlicher Daten abhängen. Gleichzeitig geben manche Experten zu bedenken, dass übermäßig strikte Regelungen auch die Innovationsfähigkeit kleinerer, datenbasierter Start-ups einschränken könnten.
+
+Letztlich bleibt die Debatte um einen angemessenen Ausgleich zwischen individuellem Datenschutz und wirtschaftlichem Nutzen ein zentrales Thema der digitalen Gesellschaft, dessen endgültige Lösung bislang noch aussteht.`,
+    preguntas: [
+      { enunciado: 'Laut Text werden persönliche Daten häufig ohne vollständiges Bewusstsein der Nutzer gesammelt.', respuesta: true },
+      { enunciado: 'Datenschützer sehen in der Datensammlung keinerlei Risiko für die Privatsphäre.', respuesta: false },
+      { enunciado: 'Die Datenschutz-Grundverordnung sollte einen einheitlichen Schutzstandard in Europa schaffen.', respuesta: true },
+      { enunciado: 'Kritiker sind der Meinung, dass die Umsetzung der Verordnung in der Praxis lückenlos funktioniert.', respuesta: false },
+      { enunciado: 'Manche Experten befürchten, dass strengere Regelungen Start-ups einschränken könnten.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'tierwohl-in-der-landwirtschaft',
+    nivel: 'B2',
+    titulo: 'Tierwohl in der Landwirtschaft',
+    descripcion: 'Die Debatte über artgerechte Tierhaltung stellt Landwirtschaft und Verbraucher vor schwierige Fragen.',
+    texto: `In den letzten Jahren ist das Thema Tierwohl zunehmend in den Mittelpunkt der öffentlichen Debatte über die Landwirtschaft gerückt. Tierschutzorganisationen kritisieren seit Langem die Bedingungen in vielen konventionellen Betrieben, in denen Nutztiere häufig auf engem Raum gehalten werden, um die Produktionskosten möglichst niedrig zu halten. Verbraucherinnen und Verbraucher zeigen sich zunehmend sensibilisiert, kaufen jedoch weiterhin überwiegend günstige Produkte aus konventioneller Haltung.
+
+Um dieser Diskrepanz zwischen Anspruch und tatsächlichem Kaufverhalten entgegenzuwirken, wurde in Deutschland ein staatliches Tierwohlkennzeichen eingeführt, das Verbrauchern auf einen Blick zeigen soll, unter welchen Bedingungen ein Tier gehalten wurde. Landwirte, die in artgerechtere Ställe investieren möchten, stehen jedoch vor erheblichen finanziellen Hürden, da entsprechende Umbauten oft hohe Investitionen erfordern, die sich nicht immer durch höhere Verkaufspreise refinanzieren lassen.
+
+Würden verbindliche, höhere Tierwohlstandards für die gesamte Branche eingeführt, müssten viele kleinere Betriebe befürchten, im internationalen Wettbewerb mit günstigeren Importprodukten nicht mehr bestehen zu können. Befürworter strengerer Regeln argumentieren dagegen, dass eine faire Bepreisung, die auch ökologische und ethische Kosten berücksichtigt, langfristig unumgänglich sei, wenn eine nachhaltigere Tierhaltung erreicht werden solle.
+
+Die Frage, wer letztlich für die Kosten einer besseren Tierhaltung aufkommen soll, ob der Staat, die Landwirte oder die Verbraucher selbst, bleibt politisch umstritten und dürfte die öffentliche Debatte auch in den kommenden Jahren weiter prägen.`,
+    preguntas: [
+      { enunciado: 'Tierschutzorganisationen kritisieren seit Langem die Haltungsbedingungen in konventionellen Betrieben.', respuesta: true },
+      { enunciado: 'Laut Text kaufen die meisten Verbraucher trotz ihrer Bedenken überwiegend teure Bio-Produkte.', respuesta: false },
+      { enunciado: 'In Deutschland wurde ein staatliches Tierwohlkennzeichen eingeführt.', respuesta: true },
+      { enunciado: 'Laut Text können sich Investitionen in artgerechtere Ställe immer problemlos refinanzieren.', respuesta: false },
+      { enunciado: 'Befürworter strengerer Regeln fordern eine faire Bepreisung ökologischer und ethischer Kosten.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'oeffentlicher-nahverkehr-und-klimapolitik',
+    nivel: 'B2',
+    titulo: 'Öffentlicher Nahverkehr und Klimapolitik',
+    descripcion: 'Kann ein ausgebauter öffentlicher Nahverkehr einen entscheidenden Beitrag zur Verkehrswende leisten?',
+    texto: `Angesichts der Klimaziele, zu deren Einhaltung sich Deutschland völkerrechtlich verpflichtet hat, gerät der Verkehrssektor zunehmend in den Fokus politischer Debatten, da er für einen erheblichen Anteil der nationalen Treibhausgasemissionen verantwortlich ist. Während in anderen Sektoren wie der Energiewirtschaft bereits deutliche Fortschritte erzielt wurden, stagnieren die Emissionen im Verkehrsbereich seit Jahren nahezu unverändert. Klimapolitiker sehen im Ausbau des öffentlichen Nahverkehrs einen zentralen Hebel, um diese Entwicklung umzukehren.
+
+Mit der Einführung eines bundesweit gültigen, vergünstigten Tickets sollte Bus- und Bahnfahren attraktiver gemacht und ein Anreiz geschaffen werden, auf das eigene Auto zu verzichten. Erste Auswertungen deuten darauf hin, dass zwar deutlich mehr Fahrgäste befördert wurden, ein Großteil davon jedoch zuvor bereits Fahrrad oder Bahn genutzt hatte, anstatt tatsächlich vom Auto umzusteigen. Kritiker bemängeln daher, dass die erhoffte Verlagerungswirkung bislang geringer ausgefallen sei als ursprünglich erwartet.
+
+Würde der öffentliche Nahverkehr, insbesondere in ländlichen Regionen, deutlich ausgebaut, in denen bislang häufig nur unzureichende Verbindungen bestehen, könnten mehr Menschen tatsächlich zum Umstieg bewegt werden. Ein solcher Ausbau erfordert jedoch enorme, über viele Jahre verteilte Investitionen in Infrastruktur und Personal, deren Finanzierung angesichts knapper öffentlicher Haushalte politisch umstritten bleibt.
+
+Ob günstige Ticketpreise allein ausreichen, um eine echte Verkehrswende herbeizuführen, wird von vielen Verkehrsforschern bezweifelt. Vielmehr, so ihr Argument, müsse ein dichteres Nahverkehrsnetz mit gezielten Maßnahmen zur Einschränkung des Autoverkehrs in den Städten kombiniert werden, damit ein spürbarer klimapolitischer Effekt erzielt werden kann.`,
+    preguntas: [
+      { enunciado: 'Der Verkehrssektor trägt laut Text erheblich zu den Treibhausgasemissionen bei.', respuesta: true },
+      { enunciado: 'Die Emissionen im Verkehrsbereich sind laut Text in den letzten Jahren deutlich gesunken.', respuesta: false },
+      { enunciado: 'Ein Großteil der neuen Ticketnutzer ist laut ersten Auswertungen tatsächlich vom Auto umgestiegen.', respuesta: false },
+      { enunciado: 'In ländlichen Regionen bestehen laut Text bislang häufig nur unzureichende Verbindungen.', respuesta: true },
+      { enunciado: 'Verkehrsforscher halten günstige Ticketpreise allein für ausreichend, um die Verkehrswende zu erreichen.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
