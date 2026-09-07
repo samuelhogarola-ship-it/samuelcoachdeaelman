@@ -3611,6 +3611,1074 @@ Kritiker weisen hingegen darauf hin, dass nicht jeder Arbeitnehmer sich eine unb
       { enunciado: 'Manche Rückkehrer berichten von Problemen bei der Wiedereingliederung ins Team.', respuesta: true },
     ],
   },
+  {
+    slug: 'goethe-a1-leseverstehen-alltag',
+    nivel: 'A1',
+    titulo: 'Mein Tag in der Sprachschule',
+    descripcion: 'Ein Schüler beschreibt seinen Alltag in einer deutschen Sprachschule. Leseverstehen A1 Goethe-Prüfung.',
+    texto: `Ich heiße Marco und ich lerne Deutsch in einer Sprachschule in München. Jeden Morgen stehe ich um sieben Uhr auf. Ich frühstücke Brot mit Marmelade und trinke Kaffee. Um acht Uhr gehe ich zur Schule. Der Unterricht beginnt um halb neun.
+
+In der Schule lese ich Texte und schreibe Sätze. Meine Lehrerin heißt Frau Müller. Sie ist sehr nett. Wir sprechen viel Deutsch im Unterricht. Am Nachmittag mache ich Hausaufgaben und lerne neue Wörter.
+
+Am Abend koche ich mit meinen Mitbewohnern. Wir essen zusammen und sprechen Deutsch. Das ist gut für mein Leseverstehen und mein Schreiben. Ich möchte die Goethe-Prüfung A1 bestehen.`,
+    preguntas: [
+      { enunciado: 'Marco lernt Deutsch in Berlin.', respuesta: false },
+      { enunciado: 'Der Unterricht beginnt um halb neun.', respuesta: true },
+      { enunciado: 'Frau Müller ist seine Lehrerin.', respuesta: true },
+      { enunciado: 'Marco macht keine Hausaufgaben.', respuesta: false },
+      { enunciado: 'Marco möchte die Goethe-Prüfung A1 bestehen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-a1-einkaufen-supermarkt',
+    nivel: 'A1',
+    titulo: 'Im Supermarkt einkaufen',
+    descripcion: 'Einfacher Text über Einkaufen im Supermarkt. Leseverstehen Übung telc A1.',
+    texto: `Heute gehe ich in den Supermarkt. Ich brauche Milch, Brot, Eier und Obst. Ich nehme einen Einkaufswagen und gehe durch die Gänge.
+
+Zuerst nehme ich die Milch aus dem Kühlregal. Dann finde ich das Brot. Ich nehme Vollkornbrot. Die Eier sind neben der Butter. Ich nehme sechs Eier. Zum Schluss gehe ich zum Obst. Ich kaufe Äpfel und Bananen.
+
+An der Kasse bezahle ich mit meiner Karte. Die Kassiererin sagt: 'Das macht elf Euro fünfzig.' Ich packe alles in meine Tasche und gehe nach Hause.`,
+    preguntas: [
+      { enunciado: 'Die Person braucht auch Käse.', respuesta: false },
+      { enunciado: 'Die Milch steht im Kühlregal.', respuesta: true },
+      { enunciado: 'Die Person kauft Vollkornbrot.', respuesta: true },
+      { enunciado: 'Die Person bezahlt bar.', respuesta: false },
+      { enunciado: 'Der Einkauf kostet elf Euro fünfzig.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-a1-schreiben-brief-freund',
+    nivel: 'A1',
+    titulo: 'Ein Brief an meinen Freund',
+    descripcion: 'Paul schreibt einen Brief über seine neue Stadt. Leseverstehen und Schreiben Goethe A1.',
+    texto: `Lieber Tom,
+
+wie geht es dir? Mir geht es gut. Ich wohne jetzt in Hamburg. Die Stadt ist sehr schön. Meine Wohnung ist klein, aber gemütlich. Sie hat ein Zimmer, eine Küche und ein Bad.
+
+Ich arbeite in einem Café. Ich arbeite von Montag bis Freitag. Am Wochenende habe ich frei. Dann gehe ich spazieren oder besuche Freunde.
+
+Hamburg hat einen großen Hafen. Ich gehe oft zum Hafen und schaue die Schiffe an. Das Wetter ist manchmal kalt und regnerisch, aber ich mag die Stadt.
+
+Kommst du mich mal besuchen? Das wäre toll!
+
+Viele Grüße,
+Paul`,
+    preguntas: [
+      { enunciado: 'Paul wohnt jetzt in München.', respuesta: false },
+      { enunciado: 'Seine Wohnung hat ein Zimmer.', respuesta: true },
+      { enunciado: 'Paul arbeitet in einem Restaurant.', respuesta: false },
+      { enunciado: 'Am Wochenende hat Paul frei.', respuesta: true },
+      { enunciado: 'Paul lädt Tom nach Hamburg ein.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-a2-leseverstehen-wohnungssuche',
+    nivel: 'A2',
+    titulo: 'Wohnungssuche in Deutschland',
+    descripcion: 'Eine Familie sucht eine neue Wohnung. Leseverstehen Übung telc A2 Prüfungsvorbereitung.',
+    texto: `Familie Schmidt sucht eine neue Wohnung in Frankfurt. Sie haben zwei Kinder und brauchen mindestens drei Zimmer. Herr Schmidt arbeitet im Zentrum und möchte nicht weit fahren.
+
+Sie haben drei Anzeigen gefunden. Die erste Wohnung hat vier Zimmer und kostet 1200 Euro kalt. Sie liegt im Stadtzentrum, aber hat keinen Balkon. Die zweite Wohnung hat drei Zimmer mit Balkon und kostet 950 Euro. Sie liegt etwas außerhalb. Die dritte Wohnung hat vier Zimmer, einen Garten und kostet 1100 Euro, aber sie ist 30 Minuten vom Zentrum entfernt.
+
+Frau Schmidt mag die dritte Wohnung wegen des Gartens. Die Kinder können dort spielen. Herr Schmidt findet die erste Wohnung besser, weil sie nah an seiner Arbeit ist. Am Ende entscheiden sie sich für die zweite Wohnung, weil der Preis gut ist und sie einen Balkon hat.`,
+    preguntas: [
+      { enunciado: 'Die Familie hat drei Kinder.', respuesta: false },
+      { enunciado: 'Die erste Wohnung hat keinen Balkon.', respuesta: true },
+      { enunciado: 'Die zweite Wohnung kostet 1200 Euro.', respuesta: false },
+      { enunciado: 'Die dritte Wohnung hat einen Garten.', respuesta: true },
+      { enunciado: 'Die Familie wählt die zweite Wohnung.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-a2-schreiben-urlaub',
+    nivel: 'A2',
+    titulo: 'Urlaubsplanung mit der Familie',
+    descripcion: 'Eine E-Mail über Urlaubspläne schreiben. Goethe A2 Leseverstehen und Schreiben Übung.',
+    texto: `Liebe Maria,
+
+vielen Dank für deine E-Mail! Du fragst, wohin wir im Sommer fahren. Wir haben lange überlegt und uns für Österreich entschieden. Wir fahren an den Wolfgangsee.
+
+Wir haben ein kleines Hotel direkt am See gebucht. Es hat ein Schwimmbad und einen Spielplatz für die Kinder. Wir bleiben zwei Wochen, vom 15. bis zum 29. Juli.
+
+Mein Mann möchte wandern gehen. Die Kinder freuen sich auf das Schwimmen im See. Ich möchte die Altstadt von Salzburg besuchen und dort einkaufen gehen. Salzburg ist nur eine Stunde entfernt.
+
+Letztes Jahr waren wir an der Ostsee. Das war auch schön, aber dieses Jahr wollten wir Berge sehen. Hast du auch schon Urlaubspläne?
+
+Liebe Grüße,
+Stefanie`,
+    preguntas: [
+      { enunciado: 'Die Familie fährt nach Italien.', respuesta: false },
+      { enunciado: 'Das Hotel liegt direkt am See.', respuesta: true },
+      { enunciado: 'Sie bleiben drei Wochen.', respuesta: false },
+      { enunciado: 'Stefanie möchte Salzburg besuchen.', respuesta: true },
+      { enunciado: 'Letztes Jahr war die Familie an der Ostsee.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-a2-leseverstehen-arztbesuch',
+    nivel: 'A2',
+    titulo: 'Beim Arzt — Termin und Anmeldung',
+    descripcion: 'Text über einen Arztbesuch in Deutschland. Leseverstehen telc A2 Prüfungstraining.',
+    texto: `Letzte Woche war ich krank. Ich hatte Kopfschmerzen und Fieber. Ich habe bei meinem Hausarzt angerufen und einen Termin bekommen. Der Termin war am Mittwoch um zehn Uhr.
+
+Bei der Anmeldung habe ich meine Versicherungskarte gegeben. Dann habe ich im Wartezimmer gesessen. Nach zwanzig Minuten hat die Sprechstundenhilfe meinen Namen gerufen.
+
+Der Arzt hat mich untersucht. Er hat meinen Hals angeschaut und meine Temperatur gemessen. Er hat gesagt, ich habe eine Erkältung. Er hat mir ein Rezept für Medikamente gegeben. Ich soll drei Tage zu Hause bleiben und viel Tee trinken.
+
+In der Apotheke habe ich die Medikamente geholt. Nach drei Tagen ging es mir besser. Jetzt bin ich wieder gesund.`,
+    preguntas: [
+      { enunciado: 'Der Termin war am Dienstag.', respuesta: false },
+      { enunciado: 'Im Wartezimmer hat die Person zwanzig Minuten gewartet.', respuesta: true },
+      { enunciado: 'Der Arzt hat eine Grippe diagnostiziert.', respuesta: false },
+      { enunciado: 'Die Person soll drei Tage zu Hause bleiben.', respuesta: true },
+      { enunciado: 'Die Medikamente hat die Person in der Apotheke geholt.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-b1-leseverstehen-bildungssystem',
+    nivel: 'B1',
+    titulo: 'Das deutsche Bildungssystem',
+    descripcion: 'Überblick über das Schulsystem in Deutschland. Leseverstehen Goethe B1 Prüfungsvorbereitung.',
+    texto: `Das deutsche Bildungssystem ist komplex und unterscheidet sich von Land zu Land, da Bildung in Deutschland Sache der Bundesländer ist. Nach der vierjährigen Grundschule müssen die Kinder und ihre Eltern eine wichtige Entscheidung treffen: Welche weiterführende Schule soll es sein?
+
+Es gibt drei Haupttypen: die Hauptschule, die Realschule und das Gymnasium. Die Hauptschule bereitet die Schüler auf praktische Berufe vor und endet nach der neunten Klasse. Die Realschule bietet eine breitere Ausbildung und endet nach der zehnten Klasse mit dem Realschulabschluss. Das Gymnasium führt zum Abitur, das nach der zwölften oder dreizehnten Klasse abgelegt wird und zum Studium an einer Universität berechtigt.
+
+In den letzten Jahren gibt es immer mehr Gesamtschulen, die alle drei Schulformen unter einem Dach vereinen. Kritiker des traditionellen Systems sagen, dass die Entscheidung nach der vierten Klasse zu früh kommt. Viele Eltern fühlen sich unter Druck gesetzt, ihre Kinder auf das Gymnasium zu schicken, weil sie glauben, dass nur das Abitur gute Berufschancen bietet.
+
+Für die Goethe-Prüfung B1 ist es wichtig, Texte über gesellschaftliche Themen wie Bildung verstehen zu können. Leseverstehen ist ein zentraler Teil der Prüfung.`,
+    preguntas: [
+      { enunciado: 'Bildung ist in Deutschland bundesweit einheitlich geregelt.', respuesta: false },
+      { enunciado: 'Die Grundschule dauert vier Jahre.', respuesta: true },
+      { enunciado: 'Die Hauptschule endet nach der zehnten Klasse.', respuesta: false },
+      { enunciado: 'Das Abitur berechtigt zum Universitätsstudium.', respuesta: true },
+      { enunciado: 'Gesamtschulen vereinen verschiedene Schulformen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-b1-schreiben-beschwerde',
+    nivel: 'B1',
+    titulo: 'Beschwerdebrief an den Vermieter',
+    descripcion: 'Formeller Brief als Beschwerde schreiben. Schreiben und Leseverstehen telc B1 Übung.',
+    texto: `Frau Keller wohnt seit zwei Jahren in einer Mietwohnung in Düsseldorf. In den letzten Monaten hat sie mehrere Probleme mit ihrer Wohnung. Das Badezimmerfenster schließt nicht richtig und im Winter kommt kalte Luft herein. Außerdem funktioniert die Heizung im Schlafzimmer seit November nicht mehr. Sie hat ihren Vermieter, Herrn Weber, bereits zweimal angerufen, aber er hat nichts unternommen.
+
+Deshalb hat Frau Keller beschlossen, einen formellen Beschwerdebrief zu schreiben. In dem Brief beschreibt sie die Probleme genau und setzt eine Frist von zwei Wochen für die Reparaturen. Sie erwähnt auch, dass sie das Recht hat, die Miete zu kürzen, wenn die Mängel nicht behoben werden.
+
+Ihr Nachbar, Herr Fischer, hat ähnliche Probleme. Seine Küche hat Schimmel an der Wand, weil die Belüftung nicht funktioniert. Er hat Frau Keller geraten, sich an den Mieterverein zu wenden. Dort kann man kostenlose Rechtsberatung bekommen.
+
+Das Schreiben von Beschwerdebriefen ist ein wichtiger Teil der telc B1-Prüfung. Man muss formell und höflich, aber bestimmt schreiben können.`,
+    preguntas: [
+      { enunciado: 'Frau Keller wohnt seit fünf Jahren in der Wohnung.', respuesta: false },
+      { enunciado: 'Die Heizung im Schlafzimmer funktioniert nicht.', respuesta: true },
+      { enunciado: 'Der Vermieter hat die Probleme sofort repariert.', respuesta: false },
+      { enunciado: 'Frau Keller setzt eine Frist von zwei Wochen.', respuesta: true },
+      { enunciado: 'Beim Mieterverein gibt es kostenlose Rechtsberatung.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-b1-leseverstehen-ehrenamt',
+    nivel: 'B1',
+    titulo: 'Ehrenamtliches Engagement in Deutschland',
+    descripcion: 'Text über Freiwilligenarbeit und Ehrenamt. Leseverstehen Goethe-Zertifikat B1.',
+    texto: `In Deutschland engagieren sich rund 30 Millionen Menschen ehrenamtlich. Das bedeutet, sie arbeiten freiwillig und ohne Bezahlung für das Gemeinwohl. Ehrenamtliche helfen in vielen Bereichen: im Sport, in der Kultur, bei der Feuerwehr, im Umweltschutz oder in der Flüchtlingshilfe.
+
+Sarah, 28, arbeitet zweimal pro Woche bei der Tafel. Die Tafel sammelt Lebensmittel, die Supermärkte nicht mehr verkaufen können, und verteilt sie an Menschen mit wenig Geld. 'Es ist ein gutes Gefühl zu wissen, dass weniger Essen weggeworfen wird und Menschen geholfen wird', sagt Sarah.
+
+Thomas, 45, ist seit zehn Jahren bei der freiwilligen Feuerwehr. Er wird gerufen, wenn es brennt oder bei Unfällen. 'Das Training ist anspruchsvoll, aber die Kameradschaft ist großartig. Man lernt, Verantwortung zu übernehmen', erklärt er.
+
+Die Bundesregierung unterstützt das Ehrenamt durch verschiedene Programme. Es gibt zum Beispiel die Ehrenamtskarte, mit der Freiwillige Vergünstigungen bei Kulturveranstaltungen und im öffentlichen Nahverkehr bekommen. Für junge Menschen gibt es das Freiwillige Soziale Jahr (FSJ), das oft als Orientierung vor dem Studium genutzt wird.`,
+    preguntas: [
+      { enunciado: 'Etwa 30 Millionen Deutsche arbeiten ehrenamtlich.', respuesta: true },
+      { enunciado: 'Sarah arbeitet bei der Tafel jeden Tag.', respuesta: false },
+      { enunciado: 'Thomas ist seit fünf Jahren bei der Feuerwehr.', respuesta: false },
+      { enunciado: 'Die Ehrenamtskarte bietet Vergünstigungen.', respuesta: true },
+      { enunciado: 'Das FSJ wird oft vor dem Studium gemacht.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-b1-pruefung-teil1-freizeitangebote',
+    nivel: 'B1',
+    titulo: 'Goethe B1 — Freizeitangebote zuordnen',
+    descripcion: 'Prüfungssimulation Goethe-Zertifikat B1 Leseverstehen Teil 1: Freizeitangebote.',
+    texto: `In einer Zeitschrift finden Sie verschiedene Freizeitangebote.
+
+Angebot 1: Kochkurs 'Mediterrane Küche' — Jeden Samstag von 10 bis 14 Uhr in der Volkshochschule. Kosten: 25 Euro pro Termin, inklusive Zutaten. Maximal 12 Teilnehmer. Anmeldung bis Donnerstag.
+
+Angebot 2: Wandergruppe 'Bergfreunde' — Jeden Sonntag ab 8 Uhr am Hauptbahnhof. Verschiedene Schwierigkeitsgrade. Kostenfrei, aber eigene Verpflegung mitbringen. Keine Anmeldung nötig.
+
+Angebot 3: Tanzkurs 'Salsa für Anfänger' — Dienstags und donnerstags, 19 bis 20:30 Uhr. Tanzschule Müller, Hauptstraße 15. 80 Euro für 8 Wochen. Tanzpartner nicht erforderlich.`,
+    preguntas: [
+      { enunciado: 'Der Kochkurs kostet 25 Euro für den ganzen Monat.', respuesta: false },
+      { enunciado: 'Für die Wandergruppe muss man sich vorher anmelden.', respuesta: false },
+      { enunciado: 'Der Salsa-Kurs findet zweimal pro Woche statt.', respuesta: true },
+      { enunciado: 'Beim Kochkurs sind die Zutaten im Preis enthalten.', respuesta: true },
+      { enunciado: 'Für den Salsa-Kurs braucht man einen Tanzpartner.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'goethe-b1-pruefung-teil2-zeitungsartikel-verkehr',
+    nivel: 'B1',
+    titulo: 'Goethe B1 — Verkehrswende in deutschen Städten',
+    descripcion: 'Prüfungssimulation Goethe B1 Leseverstehen Teil 2: Zeitungsartikel verstehen.',
+    texto: `Immer mehr deutsche Städte setzen auf eine Verkehrswende. Das Ziel ist es, den Autoverkehr in den Innenstädten zu reduzieren und umweltfreundlichere Alternativen zu fördern. Hamburg hat als erste deutsche Großstadt begonnen, einzelne Straßen für Autos zu sperren und in Fahrradstraßen umzuwandeln.
+
+Das öffentliche Nahverkehrsnetz wird in vielen Städten ausgebaut. München plant eine neue U-Bahn-Linie, die die Außenbezirke besser anbinden soll. In Karlsruhe wurde das Straßenbahnnetz erweitert, sodass Pendler aus dem Umland ohne Auto in die Stadt kommen können.
+
+Doch nicht alle Bürger sind begeistert. Geschäftsinhaber in autofreien Zonen befürchten Umsatzeinbußen. Studien aus anderen europäischen Städten zeigen jedoch, dass Fußgängerzonen langfristig mehr Kunden anziehen, weil die Aufenthaltsqualität steigt.
+
+Ein Streitpunkt bleibt das Tempolimit. Während die Grünen ein generelles Tempolimit von 30 km/h in Städten fordern, lehnen andere Parteien dies als unverhältnismäßig ab.`,
+    preguntas: [
+      { enunciado: 'Hamburg hat Straßen in Fahrradstraßen umgewandelt.', respuesta: true },
+      { enunciado: 'München baut eine neue Straßenbahn.', respuesta: false },
+      { enunciado: 'Alle Geschäftsinhaber unterstützen autofreie Zonen.', respuesta: false },
+      { enunciado: 'Studien zeigen, dass Fußgängerzonen mehr Kunden anziehen.', respuesta: true },
+      { enunciado: 'Alle Parteien wollen ein Tempolimit von 30 km/h.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'goethe-b1-pruefung-gesunde-ernaehrung',
+    nivel: 'B1',
+    titulo: 'Goethe B1 — Gesunde Ernährung im Alltag',
+    descripcion: 'Prüfungstext zum Thema Ernährung. Goethe-Zertifikat B1 Leseverstehen Übung.',
+    texto: `Die Deutsche Gesellschaft für Ernährung empfiehlt, täglich fünf Portionen Obst und Gemüse zu essen. Doch die Realität sieht anders aus: Laut einer aktuellen Umfrage schaffen nur 15 Prozent der Deutschen diese Empfehlung. Besonders junge Erwachsene zwischen 18 und 29 Jahren ernähren sich häufig ungesund.
+
+Der Grund dafür ist oft Zeitmangel. Viele greifen zu Fast Food oder Fertiggerichten, weil sie schnell und günstig sind. Ernährungsexperten raten jedoch, sich am Wochenende Zeit zum Kochen zu nehmen und Mahlzeiten für die Woche vorzubereiten.
+
+Auch die Schulen spielen eine wichtige Rolle. In einigen Bundesländern gibt es bereits Programme, die Kindern beibringen, gesund zu kochen. In der Ganztagsschule Bergedorf in Hamburg kochen die Schüler einmal pro Woche gemeinsam.
+
+Vegetarische und vegane Ernährung werden in Deutschland immer beliebter. Rund zehn Prozent der Bevölkerung leben vegetarisch, etwa zwei Prozent vegan.`,
+    preguntas: [
+      { enunciado: 'Die Mehrheit der Deutschen isst fünf Portionen Obst und Gemüse täglich.', respuesta: false },
+      { enunciado: 'Junge Erwachsene ernähren sich besonders gesund.', respuesta: false },
+      { enunciado: 'Meal Prep bedeutet, Mahlzeiten im Voraus vorzubereiten.', respuesta: true },
+      { enunciado: 'In Hamburg kochen Schüler gemeinsam in der Schule.', respuesta: true },
+      { enunciado: 'Etwa zehn Prozent der Deutschen leben vegetarisch.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-b1-pruefung-digitales-lernen',
+    nivel: 'B1',
+    titulo: 'Goethe B1 — Digitales Lernen an Schulen',
+    descripcion: 'Leseverstehen-Übung über Digitalisierung an Schulen. Goethe B1 Prüfungstraining.',
+    texto: `Die Digitalisierung an deutschen Schulen kommt nur langsam voran. Während Länder wie Estland oder Dänemark bereits seit Jahren mit Tablets und digitalen Schulbüchern arbeiten, fehlt es in vielen deutschen Schulen an grundlegender Ausstattung. Eine Umfrage unter Lehrern zeigt, dass 40 Prozent der Schulen kein funktionierendes WLAN haben.
+
+Der Digitalpakt, den die Bundesregierung 2019 beschlossen hat, stellt fünf Milliarden Euro für die digitale Ausstattung bereit. Doch die Umsetzung ist kompliziert: Die Schulen müssen zunächst ein Medienkonzept erstellen, bevor sie Geld beantragen können.
+
+Lehrer berichten von gemischten Erfahrungen. Einerseits können digitale Medien den Unterricht interessanter machen. Andererseits lenken Smartphones und Tablets die Schüler ab. Einige Schulen in Frankreich haben Smartphones im Unterricht sogar verboten.
+
+Experten sind sich einig, dass digitale Kompetenz zu den wichtigsten Fähigkeiten des 21. Jahrhunderts gehört.`,
+    preguntas: [
+      { enunciado: 'Die meisten deutschen Schulen haben gutes WLAN.', respuesta: false },
+      { enunciado: 'Der Digitalpakt stellt fünf Milliarden Euro bereit.', respuesta: true },
+      { enunciado: 'Schulen können das Geld ohne Medienkonzept beantragen.', respuesta: false },
+      { enunciado: 'In Frankreich wurden Smartphones an Schulen verboten.', respuesta: true },
+      { enunciado: 'Digitale Kompetenz gilt als wichtige Fähigkeit.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-b1-pruefung-wohnen-in-der-stadt',
+    nivel: 'B1',
+    titulo: 'Goethe B1 — Wohnen in der Großstadt',
+    descripcion: 'Text über Wohnungsmarkt und Mieten. Goethe B1 Leseverstehen.',
+    texto: `Die Mieten in deutschen Großstädten sind in den letzten zehn Jahren drastisch gestiegen. In München, der teuersten Stadt Deutschlands, zahlt man durchschnittlich 20 Euro pro Quadratmeter kalt. Auch in Berlin, Hamburg und Frankfurt sind die Mieten deutlich gestiegen.
+
+Besonders Studenten und junge Berufstätige haben Schwierigkeiten, bezahlbaren Wohnraum zu finden. Viele teilen sich eine Wohnung in einer Wohngemeinschaft (WG), um die Kosten zu senken.
+
+Die Politik versucht, mit verschiedenen Maßnahmen gegenzusteuern. Die Mietpreisbremse soll verhindern, dass Vermieter bei Neuvermietungen überhöhte Preise verlangen. In Berlin wurde zeitweise ein Mietendeckel eingeführt, der allerdings vom Bundesverfassungsgericht für ungültig erklärt wurde.
+
+Eine Lösung könnte der soziale Wohnungsbau sein. Die Bundesregierung hat versprochen, 400.000 neue Wohnungen pro Jahr zu bauen, davon 100.000 Sozialwohnungen.`,
+    preguntas: [
+      { enunciado: 'München ist die teuerste Stadt zum Wohnen in Deutschland.', respuesta: true },
+      { enunciado: 'Studenten wohnen oft allein in eigenen Wohnungen.', respuesta: false },
+      { enunciado: 'Der Berliner Mietendeckel ist noch gültig.', respuesta: false },
+      { enunciado: 'Die Regierung will 400.000 Wohnungen pro Jahr bauen.', respuesta: true },
+      { enunciado: 'Es gibt genug Baumaterial und Fachkräfte.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'goethe-b1-pruefung-umweltschutz-alltag',
+    nivel: 'B1',
+    titulo: 'Goethe B1 — Umweltschutz im Alltag',
+    descripcion: 'Wie man im Alltag die Umwelt schützen kann. Goethe-Zertifikat B1 Prüfungstext.',
+    texto: `Umweltschutz beginnt im Alltag. Laut einer Studie achten 78 Prozent der Bevölkerung beim Einkaufen darauf, weniger Plastik zu verwenden. Stoffbeutel statt Plastiktüten, Glasflaschen statt Einwegflaschen — die kleinen Veränderungen machen einen Unterschied.
+
+Mülltrennung gehört in Deutschland zum Alltag. Es gibt verschiedene Tonnen für Papier, Plastik, Biomüll und Restmüll. Das Pfandsystem für Flaschen und Dosen sorgt dafür, dass ein Großteil des Verpackungsmülls recycelt wird.
+
+Auch beim Thema Energie sparen die Deutschen bewusster. Viele wechseln zu Ökostrom-Anbietern und investieren in energiesparende Haushaltsgeräte. Die Installation von Solaranlagen auf Privathäusern hat sich verdoppelt. Seit 2024 gibt es in einigen Bundesländern eine Solarpflicht für Neubauten.
+
+Kritiker argumentieren jedoch, dass individuelles Handeln nicht ausreicht. Die größten CO2-Verursacher sind die Industrie und der Verkehrssektor.`,
+    preguntas: [
+      { enunciado: '78 Prozent der Deutschen achten auf weniger Plastik.', respuesta: true },
+      { enunciado: 'In Deutschland gibt es kein Pfandsystem.', respuesta: false },
+      { enunciado: 'Die Installation von Solaranlagen hat abgenommen.', respuesta: false },
+      { enunciado: 'In einigen Bundesländern gibt es eine Solarpflicht für Neubauten.', respuesta: true },
+      { enunciado: 'Der Text sagt, individuelles Handeln allein reicht aus.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'goethe-b1-pruefung-generationenkonflikt',
+    nivel: 'B1',
+    titulo: 'Goethe B1 — Jung gegen Alt?',
+    descripcion: 'Text über Generationenkonflikte und Zusammenleben. Goethe B1 Prüfungsvorbereitung Leseverstehen.',
+    texto: `Das Verhältnis zwischen den Generationen in Deutschland hat sich verändert. Während früher drei Generationen oft unter einem Dach lebten, wohnen heute die meisten jungen Erwachsenen weit entfernt von ihren Eltern.
+
+Gleichzeitig gibt es neue Formen des Zusammenlebens. In Mehrgenerationenhäusern leben junge Familien, Senioren und Singles zusammen. Sie teilen Gemeinschaftsräume und helfen sich gegenseitig: Die Älteren passen auf die Kinder auf, die Jüngeren helfen beim Einkaufen oder bei technischen Problemen.
+
+Ein häufiges Konfliktthema ist die Digitalisierung. Viele ältere Menschen fühlen sich von der schnellen technologischen Entwicklung überfordert. Bankgeschäfte, Arzttermine, Zugtickets — alles soll online gemacht werden.
+
+Doch Umfragen zeigen, dass die meisten jungen und alten Menschen ein positives Bild voneinander haben. 85 Prozent der Befragten sagen, dass sie von der anderen Generation lernen können.`,
+    preguntas: [
+      { enunciado: 'Früher lebten oft drei Generationen zusammen.', respuesta: true },
+      { enunciado: 'In Mehrgenerationenhäusern leben nur Familien.', respuesta: false },
+      { enunciado: 'Ältere Menschen haben keine Probleme mit Digitalisierung.', respuesta: false },
+      { enunciado: '85 Prozent sagen, sie können von der anderen Generation lernen.', respuesta: true },
+      { enunciado: 'Der Text bestätigt einen starken Generationenkonflikt.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'goethe-b1-pruefung-deutsch-als-fremdsprache',
+    nivel: 'B1',
+    titulo: 'Goethe B1 — Deutsch als Fremdsprache weltweit',
+    descripcion: 'Text über die Verbreitung der deutschen Sprache. Goethe-Zertifikat B1 Leseverstehen.',
+    texto: `Deutsch ist mit rund 130 Millionen Sprechern eine der meistgesprochenen Sprachen Europas. Es ist Amtssprache in Deutschland, Österreich, der Schweiz, Luxemburg und Liechtenstein. Weltweit lernen etwa 15 Millionen Menschen Deutsch als Fremdsprache.
+
+Die Goethe-Institute sind die wichtigsten Einrichtungen für die Vermittlung der deutschen Sprache im Ausland. Mit über 150 Standorten in 98 Ländern bieten sie Sprachkurse und Kulturprogramme an. Die Goethe-Prüfungen, vom Niveau A1 bis C2, sind international anerkannt.
+
+In vielen Ländern ist Deutsch nach Englisch die beliebteste Fremdsprache. In Osteuropa, besonders in Polen und Tschechien, lernen viele Schüler Deutsch, weil Deutschland der wichtigste Handelspartner ist.
+
+Die telc-Prüfungen sind eine Alternative zu den Goethe-Prüfungen und werden von vielen Behörden für Visa und Einbürgerungen akzeptiert. Beide Prüfungssysteme testen die vier Fertigkeiten Lesen, Hören, Schreiben und Sprechen.`,
+    preguntas: [
+      { enunciado: 'Deutsch ist Amtssprache in sechs Ländern.', respuesta: false },
+      { enunciado: 'Es gibt über 150 Goethe-Institute weltweit.', respuesta: true },
+      { enunciado: 'In Osteuropa ist Deutsch nicht beliebt.', respuesta: false },
+      { enunciado: 'telc-Prüfungen werden für Einbürgerungen akzeptiert.', respuesta: true },
+      { enunciado: 'Die B1-Prüfung testet vier Fertigkeiten.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-b1-pruefung-stellenanzeige-lesen',
+    nivel: 'B1',
+    titulo: 'telc B1 — Stellenanzeigen verstehen',
+    descripcion: 'Prüfungssimulation telc Deutsch B1: Stellenanzeigen lesen und verstehen.',
+    texto: `Sie suchen eine neue Arbeitsstelle und lesen folgende Anzeigen:
+
+Anzeige A: Restaurant 'Zum Goldenen Hirsch' sucht Servicekraft (m/w/d), Teilzeit 20 Std./Woche. Erfahrung erwünscht, aber nicht Bedingung. Abend- und Wochenendarbeit. Bewerbung per E-Mail.
+
+Anzeige B: Kindergarten 'Sonnenschein' sucht Erzieher/in in Vollzeit. Staatliche Anerkennung erforderlich. Montag bis Freitag, 7:30 bis 16:00 Uhr. Gehalt nach TVöD. Bewerbungsfrist: 31. März.
+
+Anzeige C: IT-Firma TechSolutions sucht Werkstudent/in für 15 Std./Woche. Studium der Informatik oder verwandtes Fach. Gute Deutschkenntnisse (mindestens B2). Homeoffice möglich. 15 Euro/Stunde.`,
+    preguntas: [
+      { enunciado: 'Für die Stelle im Restaurant braucht man unbedingt Erfahrung.', respuesta: false },
+      { enunciado: 'Die Kindergarten-Stelle ist eine Teilzeitstelle.', respuesta: false },
+      { enunciado: 'Für die IT-Stelle muss man Informatik studieren.', respuesta: true },
+      { enunciado: 'Im Restaurant arbeitet man auch am Wochenende.', respuesta: true },
+      { enunciado: 'Die IT-Stelle erfordert mindestens B2-Deutschkenntnisse.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-b1-pruefung-formeller-brief',
+    nivel: 'B1',
+    titulo: 'telc B1 — Formellen Brief verstehen',
+    descripcion: 'Brief von der Versicherung verstehen. Leseverstehen telc B1 Prüfungstraining.',
+    texto: `Sehr geehrte Frau Yilmaz,
+
+vielen Dank für Ihre Anfrage vom 15. Februar bezüglich der Änderung Ihres Versicherungsvertrags. Wir bestätigen hiermit, dass wir Ihren Antrag auf Wechsel in den Tarif 'Komfort Plus' erhalten haben.
+
+Der neue Tarif tritt zum 1. April in Kraft. Ihr monatlicher Beitrag ändert sich von 89,50 Euro auf 112,30 Euro. Im neuen Tarif sind zusätzlich Zahnbehandlungen und Naturheilverfahren enthalten. Bitte beachten Sie, dass für Zahnersatz eine Wartezeit von acht Monaten gilt.
+
+Sollten Sie innerhalb von 14 Tagen nach Erhalt dieses Schreibens von Ihrem Wechsel zurücktreten wollen, genügt eine schriftliche Mitteilung an uns.
+
+Mit freundlichen Grüßen,
+Stefan Braun
+Kundenservice`,
+    preguntas: [
+      { enunciado: 'Der neue Tarif ist günstiger als der alte.', respuesta: false },
+      { enunciado: 'Zahnbehandlungen sind im neuen Tarif enthalten.', respuesta: true },
+      { enunciado: 'Für Zahnersatz gibt es keine Wartezeit.', respuesta: false },
+      { enunciado: 'Man kann innerhalb von 14 Tagen zurücktreten.', respuesta: true },
+      { enunciado: 'Der neue Tarif beginnt am 1. April.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-b1-pruefung-reise-informationen',
+    nivel: 'B1',
+    titulo: 'telc B1 — Reiseinformationen auswerten',
+    descripcion: 'Informationstexte über Reiseziele verstehen. telc B1 Leseverstehen Prüfung.',
+    texto: `Im Reisebüro liegen drei Prospekte aus:
+
+Reise 1: Wanderurlaub in Südtirol — 7 Tage, Halbpension im Berghotel. Geführte Wanderungen für alle Schwierigkeitsgrade. Inklusive Seilbahnticket. Ab 699 Euro pro Person. Anreise mit dem Bus ab München.
+
+Reise 2: Städtereise Wien — 4 Tage, Übernachtung mit Frühstück. Stadtrundfahrt, Besuch von Schloss Schönbrunn und Abendkonzert. Ab 449 Euro pro Person. Flug ab Berlin inklusive.
+
+Reise 3: Ostsee-Familienurlaub — 10 Tage, Ferienwohnung mit Küche. Strand, Fahrradverleih und Kinderanimation. Ab 89 Euro pro Nacht für 4 Personen. Eigene Anreise.`,
+    preguntas: [
+      { enunciado: 'Die Wanderreise beinhaltet Vollpension.', respuesta: false },
+      { enunciado: 'Die Wien-Reise kostet ab 449 Euro mit Flug.', respuesta: true },
+      { enunciado: 'Die Ostsee-Reise hat keine Kinderanimation.', respuesta: false },
+      { enunciado: 'Die Ostsee-Reise ist die günstigste für Familien.', respuesta: true },
+      { enunciado: 'Die Wien-Reise dauert eine Woche.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'telc-b1-pruefung-hausordnung',
+    nivel: 'B1',
+    titulo: 'telc B1 — Hausordnung verstehen',
+    descripcion: 'Regeln und Vorschriften in einer Hausordnung. telc Deutsch B1 Leseverstehen.',
+    texto: `Hausordnung für das Mietshaus Gartenstraße 12
+
+1. Ruhezeiten: Zwischen 22:00 und 7:00 Uhr sowie an Sonn- und Feiertagen ist jeder Lärm zu vermeiden. Waschmaschinen dürfen in dieser Zeit nicht benutzt werden.
+
+2. Treppenhaus: Alle Mieter sind im wöchentlichen Wechsel für die Reinigung zuständig. Der Reinigungsplan hängt im Erdgeschoss aus. Fahrräder dürfen nicht im Treppenhaus abgestellt werden.
+
+3. Müll: Bitte trennen Sie Ihren Müll. Sperrmüll darf nicht neben die Tonnen gestellt werden. Bitte melden Sie Sperrmüll bei der Stadtreinigung an.
+
+4. Grillen: Grillen auf dem Balkon ist aus Brandschutzgründen verboten. Im Garten darf mit Einverständnis aller Nachbarn gegrillt werden.
+
+5. Haustiere: Hunde und Katzen sind mit Zustimmung des Vermieters erlaubt.`,
+    preguntas: [
+      { enunciado: 'Man darf nach 22 Uhr die Waschmaschine benutzen.', respuesta: false },
+      { enunciado: 'Fahrräder dürfen im Treppenhaus stehen.', respuesta: false },
+      { enunciado: 'Sperrmüll muss bei der Stadtreinigung angemeldet werden.', respuesta: true },
+      { enunciado: 'Grillen auf dem Balkon ist erlaubt.', respuesta: false },
+      { enunciado: 'Haustiere sind mit Erlaubnis des Vermieters gestattet.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-b1-pruefung-elternabend',
+    nivel: 'B1',
+    titulo: 'telc B1 — Einladung zum Elternabend',
+    descripcion: 'Formelle Einladung der Schule verstehen. telc B1 Leseverstehen Übung.',
+    texto: `Grundschule am Stadtpark, Köln
+
+Liebe Eltern der Klasse 3b,
+
+hiermit laden wir Sie herzlich zum Elternabend am Donnerstag, den 14. November, um 19:00 Uhr ein. Der Elternabend findet im Klassenzimmer (Raum 204, 2. OG) statt.
+
+Tagesordnung:
+1. Bericht über den Lernstand der Klasse
+2. Planung der Klassenfahrt im Mai (Jugendherberge Eifel, 3 Tage, ca. 120 Euro)
+3. Anschaffung neuer Lernmaterialien
+4. Verschiedenes
+
+Bitte teilen Sie uns bis zum 11. November mit, ob Sie teilnehmen können. Wir bitten darum, Kinder nicht mitzubringen, da es keine Betreuung gibt.
+
+Mit freundlichen Grüßen,
+Frau Dr. Lehmann (Klassenlehrerin)
+Herr Özdemir (Elternvertreter)`,
+    preguntas: [
+      { enunciado: 'Der Elternabend ist am Mittwoch.', respuesta: false },
+      { enunciado: 'Die Klassenfahrt soll in die Eifel gehen.', respuesta: true },
+      { enunciado: 'Kinder dürfen zum Elternabend mitkommen.', respuesta: false },
+      { enunciado: 'Man soll bis zum 11. November Bescheid geben.', respuesta: true },
+      { enunciado: 'Herr Özdemir ist der Klassenlehrer.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'telc-b1-pruefung-nachrichten-verstehen',
+    nivel: 'B1',
+    titulo: 'telc B1 — Nachrichten verstehen',
+    descripcion: 'Kurze Nachrichtenmeldungen lesen. Leseverstehen telc B1 Prüfungssimulation.',
+    texto: `Meldung 1: Neuer Radweg zwischen Köln und Bonn eröffnet — Ab sofort können Radfahrer auf einem 30 Kilometer langen, beleuchteten Radweg sicher zwischen den beiden Städten pendeln. Die Baukosten betrugen 12 Millionen Euro.
+
+Meldung 2: Bücherbus für ländliche Gemeinden — Da viele kleine Ortschaften keine eigene Bibliothek haben, hat der Kreis Marburg-Biedenkopf einen Bücherbus eingeführt. Zweimal pro Woche fährt der Bus 15 Dörfer an. Die Ausleihe ist kostenlos.
+
+Meldung 3: Kita-Streik in Nordrhein-Westfalen — Erzieherinnen und Erzieher streiken für bessere Arbeitsbedingungen. Rund 200 Kindergärten bleiben am Montag und Dienstag geschlossen. Die Gewerkschaft fordert zehn Prozent mehr Lohn.`,
+    preguntas: [
+      { enunciado: 'Der neue Radweg ist 30 Kilometer lang.', respuesta: true },
+      { enunciado: 'Der Bücherbus fährt einmal pro Woche.', respuesta: false },
+      { enunciado: 'Die Ausleihe im Bücherbus kostet Geld.', respuesta: false },
+      { enunciado: 'Die Gewerkschaft fordert zehn Prozent mehr Lohn.', respuesta: true },
+      { enunciado: 'Der Streik dauert eine ganze Woche.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'telc-b1-pruefung-arzt-informationsblatt',
+    nivel: 'B1',
+    titulo: 'telc B1 — Informationsblatt beim Arzt',
+    descripcion: 'Medizinisches Informationsblatt verstehen. telc B1 Leseverstehen Prüfungsformat.',
+    texto: `Patienteninformation: Grippeschutzimpfung
+
+Die Grippeimpfung wird jedes Jahr im Herbst empfohlen, besonders für Personen über 60, Schwangere, Menschen mit chronischen Erkrankungen und medizinisches Personal.
+
+Die Impfung wird von der Krankenkasse bezahlt, wenn Sie zu einer Risikogruppe gehören. Der Impfschutz beginnt etwa zwei Wochen nach der Impfung und hält ungefähr sechs Monate.
+
+Mögliche Nebenwirkungen: Rötung an der Einstichstelle, leichtes Fieber, Müdigkeit. Diese Beschwerden klingen normalerweise nach ein bis zwei Tagen ab.
+
+Wichtig: Die Impfung sollte nicht durchgeführt werden, wenn Sie akut krank sind oder Fieber haben. Bitte informieren Sie uns über Allergien.
+
+Termine: Montag bis Freitag, 8:00-11:00 Uhr, ohne Voranmeldung.`,
+    preguntas: [
+      { enunciado: 'Die Grippeimpfung wird im Frühling empfohlen.', respuesta: false },
+      { enunciado: 'Für Risikogruppen bezahlt die Krankenkasse die Impfung.', respuesta: true },
+      { enunciado: 'Der Impfschutz beginnt sofort nach der Impfung.', respuesta: false },
+      { enunciado: 'Man braucht keinen Termin für die Impfung.', respuesta: true },
+      { enunciado: 'Bei Fieber sollte man sich nicht impfen lassen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-b1-pruefung-vereinsmitgliedschaft',
+    nivel: 'B1',
+    titulo: 'telc B1 — Sportverein Anmeldung',
+    descripcion: 'Informationen über Vereinsmitgliedschaft verstehen. telc B1 Leseverstehen.',
+    texto: `Willkommen beim Sportverein Blau-Weiß Düsseldorf!
+
+Mitgliedsbeiträge: Erwachsene 25 Euro/Monat, Jugendliche (14-17) 15 Euro/Monat, Kinder (bis 13) 10 Euro/Monat, Familienmitgliedschaft 50 Euro/Monat.
+
+Im Beitrag enthalten: Nutzung aller Sportanlagen (Schwimmbad, Tennisplätze, Fitnessstudio), Teilnahme an Gruppentrainings.
+
+Nicht enthalten: Einzeltraining mit Personal Trainer (35 Euro/Stunde), Sauna (5 Euro Aufpreis).
+
+Anmeldung: Bitte bringen Sie einen gültigen Ausweis und eine Bankverbindung für den Lastschrifteinzug mit. Die Kündigungsfrist beträgt drei Monate zum Quartalsende.
+
+Probetraining: Sie können zweimal kostenlos und unverbindlich trainieren.
+
+Öffnungszeiten: Mo-Fr 6:00-22:00, Sa-So 8:00-20:00`,
+    preguntas: [
+      { enunciado: 'Eine Familienmitgliedschaft kostet 50 Euro pro Monat.', respuesta: true },
+      { enunciado: 'Die Sauna ist im Mitgliedsbeitrag enthalten.', respuesta: false },
+      { enunciado: 'Man kann einmal kostenlos probetrainieren.', respuesta: false },
+      { enunciado: 'Die Kündigungsfrist beträgt drei Monate.', respuesta: true },
+      { enunciado: 'Am Wochenende öffnet der Verein um 6 Uhr.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'goethe-b2-leseverstehen-kuenstliche-intelligenz',
+    nivel: 'B2',
+    titulo: 'Künstliche Intelligenz und die Arbeitswelt',
+    descripcion: 'Wie KI die Berufswelt verändert. Leseverstehen Goethe B2 Prüfungsvorbereitung.',
+    texto: `Die rasante Entwicklung der künstlichen Intelligenz stellt die Arbeitswelt vor fundamentale Veränderungen. Laut einer Studie des Instituts für Arbeitsmarkt- und Berufsforschung könnten bis 2035 rund vier Millionen Arbeitsplätze in Deutschland durch Automatisierung wegfallen. Gleichzeitig entstehen jedoch neue Berufsfelder.
+
+Besonders betroffen sind Routinetätigkeiten in der Verwaltung, im Bankwesen und in der Produktion. KI-Systeme können bereits heute Verträge analysieren, Kreditanträge bearbeiten und Qualitätskontrollen durchführen — oft schneller und fehlerfreier als Menschen.
+
+Experten betonen jedoch, dass KI den Menschen nicht vollständig ersetzen wird. Kreative Tätigkeiten, soziale Kompetenzen und kritisches Denken bleiben Domänen des Menschen. Die Herausforderung besteht darin, die Arbeitskräfte durch Weiterbildung auf die neuen Anforderungen vorzubereiten. Das Konzept des lebenslangen Lernens gewinnt an Bedeutung.
+
+Kritiker warnen vor einer zunehmenden sozialen Ungleichheit: Hochqualifizierte profitieren von der Technologie, während Geringqualifizierte ihre Existenzgrundlage verlieren könnten.`,
+    preguntas: [
+      { enunciado: 'Bis 2035 könnten vier Millionen Arbeitsplätze wegfallen.', respuesta: true },
+      { enunciado: 'Kreative Tätigkeiten sind besonders von KI bedroht.', respuesta: false },
+      { enunciado: 'KI kann bereits Verträge analysieren.', respuesta: true },
+      { enunciado: 'Alle Experten sind sich einig, dass KI nur Vorteile bringt.', respuesta: false },
+      { enunciado: 'Lebenslanges Lernen wird wichtiger.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-b2-schreiben-eroerterung-homeoffice',
+    nivel: 'B2',
+    titulo: 'Erörterung: Homeoffice — Fluch oder Segen?',
+    descripcion: 'Pro- und Kontra-Erörterung zum Thema Homeoffice. Schreiben und Leseverstehen telc B2.',
+    texto: `Seit der Pandemie hat sich das Homeoffice in vielen Unternehmen etabliert. Was zunächst als Notlösung begann, ist für viele Arbeitnehmer zum bevorzugten Arbeitsmodell geworden.
+
+Befürworter argumentieren, dass Homeoffice die Work-Life-Balance verbessert. Der Wegfall des täglichen Pendelns spart Zeit und reduziert Stress. Studien zeigen, dass viele Arbeitnehmer im Homeoffice produktiver arbeiten.
+
+Gegner hingegen betonen die Risiken der sozialen Isolation. Der informelle Austausch an der Kaffeemaschine fehlt. Außerdem verschwimmen die Grenzen zwischen Arbeits- und Privatleben, was zu Überarbeitung und Burnout führen kann. Führungskräfte beklagen, dass die Teamdynamik und die Unternehmenskultur leiden.
+
+Ein Kompromiss scheint das hybride Modell zu sein: zwei bis drei Tage im Büro, den Rest im Homeoffice. Entscheidend ist, dass Unternehmen klare Regeln aufstellen und in digitale Infrastruktur investieren.`,
+    preguntas: [
+      { enunciado: 'Homeoffice war von Anfang an das bevorzugte Arbeitsmodell.', respuesta: false },
+      { enunciado: 'Laut Studien arbeiten viele im Homeoffice produktiver.', respuesta: true },
+      { enunciado: 'Im Text wird erwähnt, dass Homeoffice zu Burnout führen kann.', respuesta: true },
+      { enunciado: 'Führungskräfte sind alle für Homeoffice.', respuesta: false },
+      { enunciado: 'Das hybride Modell wird als Kompromiss vorgeschlagen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-b2-leseverstehen-migration-integration',
+    nivel: 'B2',
+    titulo: 'Migration und Integration — eine Bestandsaufnahme',
+    descripcion: 'Text über Migration und Integrationspolitik in Deutschland. Goethe-Zertifikat B2 Leseverstehen.',
+    texto: `Deutschland ist in den letzten Jahrzehnten zu einem der wichtigsten Einwanderungsländer Europas geworden. Rund 22 Millionen Menschen mit Migrationshintergrund leben hier — das entspricht etwa einem Viertel der Gesamtbevölkerung.
+
+Die Integrationspolitik hat sich seit den 2000er Jahren grundlegend gewandelt. Das Zuwanderungsgesetz von 2005 verankerte erstmals Integrationskurse gesetzlich. Diese Kurse umfassen 600 Stunden Deutschunterricht und 100 Stunden Orientierungskurs.
+
+Der Spracherwerb gilt als Schlüssel zur Integration. Wer die Sprache beherrscht, hat deutlich bessere Chancen auf dem Arbeitsmarkt. Die Goethe-Institute und telc-Prüfungszentren spielen dabei eine zentrale Rolle, da ihre Zertifikate für Aufenthaltsgenehmigungen und Einbürgerungen anerkannt werden.
+
+Dennoch bleibt Integration eine gesamtgesellschaftliche Herausforderung. Studien zeigen, dass Menschen mit ausländischen Namen trotz gleicher Qualifikation seltener zu Vorstellungsgesprächen eingeladen werden.`,
+    preguntas: [
+      { enunciado: 'Etwa ein Viertel der Bevölkerung hat Migrationshintergrund.', respuesta: true },
+      { enunciado: 'Das Zuwanderungsgesetz wurde 2010 verabschiedet.', respuesta: false },
+      { enunciado: 'Integrationskurse umfassen 600 Stunden Deutschunterricht.', respuesta: true },
+      { enunciado: 'Goethe- und telc-Zertifikate sind für die Einbürgerung anerkannt.', respuesta: true },
+      { enunciado: 'Laut dem Text gibt es keine Diskriminierung auf dem Arbeitsmarkt.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'goethe-b2-pruefung-wissenschaftssprache',
+    nivel: 'B2',
+    titulo: 'Goethe B2 — Wissenschaftssprache verstehen',
+    descripcion: 'Wissenschaftlicher Text über Schlafforschung. Goethe-Zertifikat B2 Leseverstehen Teil 1.',
+    texto: `Schlafforscher der Universität München haben untersucht, wie sich chronischer Schlafmangel auf die kognitive Leistungsfähigkeit auswirkt. Die Ergebnisse sind beunruhigend: Bereits nach einer Woche mit weniger als sechs Stunden Schlaf pro Nacht sinkt die Konzentrationsfähigkeit um 30 Prozent.
+
+Besonders alarmierend ist der sogenannte Gewöhnungseffekt. Probanden, die regelmäßig zu wenig schliefen, schätzten ihre eigene Leistungsfähigkeit deutlich besser ein, als sie tatsächlich war. 'Die Betroffenen merken gar nicht, wie stark ihre Fähigkeiten nachlassen', erklärt Studienleiterin Prof. Dr. Neumann.
+
+Die volkswirtschaftlichen Kosten des Schlafmangels sind enorm. Schätzungen zufolge verursachen müdigkeitsbedingte Fehler jährliche Kosten von 60 Milliarden Euro allein in Deutschland.
+
+Die Forscher empfehlen, den Schlaf als ebenso wichtig zu betrachten wie Ernährung und Bewegung. Einige Unternehmen haben bereits Schlafräume eingerichtet, in denen Mitarbeiter einen kurzen Mittagsschlaf halten können.`,
+    preguntas: [
+      { enunciado: 'Die Konzentration sinkt nach einer Woche Schlafmangel um 50 Prozent.', respuesta: false },
+      { enunciado: 'Menschen mit chronischem Schlafmangel überschätzen ihre Leistung.', respuesta: true },
+      { enunciado: 'Schlafmangel verursacht in Deutschland Kosten von 60 Milliarden Euro.', respuesta: true },
+      { enunciado: 'Die Studie wurde an der Universität Berlin durchgeführt.', respuesta: false },
+      { enunciado: 'Einige Unternehmen bieten Schlafräume für Mitarbeiter an.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-b2-pruefung-meinungstext-gendern',
+    nivel: 'B2',
+    titulo: 'Goethe B2 — Gendern in der deutschen Sprache',
+    descripcion: 'Meinungstext über geschlechtergerechte Sprache. Goethe B2 Leseverstehen Prüfungstraining.',
+    texto: `Kaum ein sprachliches Thema wird in Deutschland so emotional diskutiert wie das Gendern. Die Debatte spaltet Gesellschaft, Medien und Politik.
+
+Befürworter der geschlechtergerechten Sprache argumentieren, dass Sprache das Denken formt. Wenn immer nur die männliche Form verwendet wird, werden Frauen unsichtbar gemacht. Studien zeigen, dass Kinder sich mehr Berufe zutrauen, wenn beide Geschlechter genannt werden.
+
+Kritiker hingegen sehen im Gendern einen Eingriff in die natürliche Sprachentwicklung. Das generische Maskulinum meine alle Geschlechter und sei seit Jahrhunderten etabliert. Gegenderte Texte seien zudem schwerer lesbar.
+
+Der Rat für deutsche Rechtschreibung hat 2023 entschieden, Sonderzeichen wie den Genderstern nicht in das offizielle Regelwerk aufzunehmen. Gleichzeitig empfiehlt er, sensibel mit Sprache umzugehen. In der Praxis handhaben es Behörden, Medien und Unternehmen unterschiedlich.`,
+    preguntas: [
+      { enunciado: 'Die Debatte über das Gendern wird in Deutschland sachlich geführt.', respuesta: false },
+      { enunciado: 'Studien zeigen einen Zusammenhang zwischen Sprache und Berufswahl bei Kindern.', respuesta: true },
+      { enunciado: 'Der Genderstern wurde in das offizielle Regelwerk aufgenommen.', respuesta: false },
+      { enunciado: 'Kritiker sagen, gegenderte Texte stören den Lesefluss.', respuesta: true },
+      { enunciado: 'Alle Medien gendern einheitlich.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'goethe-b2-pruefung-stadtplanung-zukunft',
+    nivel: 'B2',
+    titulo: 'Goethe B2 — Die Stadt der Zukunft',
+    descripcion: 'Text über nachhaltige Stadtplanung und Smart Cities. Goethe-Zertifikat B2 Prüfungstext.',
+    texto: `Wie werden wir in dreißig Jahren in unseren Städten leben? Stadtplaner arbeiten an Konzepten für die 'Smart City' — eine Stadt, die Technologie nutzt, um das Leben effizienter und nachhaltiger zu gestalten.
+
+Das Modellprojekt 'Aspern Seestadt' in Wien zeigt, wie das aussehen kann. In dem neuen Stadtviertel für 20.000 Bewohner gibt es autofreie Zonen, begrünte Fassaden und ein intelligentes Energienetz. Die Häuser speichern im Winter die Sonnenwärme und bleiben im Sommer durch natürliche Belüftung kühl.
+
+Doch nicht alle sind begeistert. Datenschützer warnen vor der totalen Überwachung, wenn Sensoren jeden Schritt erfassen. Sozialwissenschaftler befürchten, dass Smart Cities zu einer Zweiklassengesellschaft führen.
+
+Der Architekt Jan Gehl betont, dass Technologie allein keine lebenswerte Stadt schafft. 'Gute Städte brauchen Plätze, an denen sich Menschen begegnen, Parks zum Verweilen und Straßen, die zum Spazieren einladen.'`,
+    preguntas: [
+      { enunciado: 'Smart Cities nutzen Technologie für effizienteres Stadtleben.', respuesta: true },
+      { enunciado: 'Aspern Seestadt ist ein Projekt in Berlin.', respuesta: false },
+      { enunciado: 'Datenschützer unterstützen die vollständige Sensorüberwachung.', respuesta: false },
+      { enunciado: 'Jan Gehl betont die Bedeutung menschlicher Begegnungsorte.', respuesta: true },
+      { enunciado: 'In Aspern Seestadt gibt es begrünte Fassaden.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-b2-pruefung-psychologie-prokrastination',
+    nivel: 'B2',
+    titulo: 'Goethe B2 — Prokrastination verstehen',
+    descripcion: 'Psychologischer Text über Aufschieberitis. Goethe B2 Leseverstehen Prüfungsvorbereitung.',
+    texto: `Prokrastination — das chronische Aufschieben wichtiger Aufgaben — betrifft nach Schätzungen etwa 20 Prozent der Erwachsenen in klinisch relevantem Ausmaß. Es handelt sich nicht um Faulheit, sondern um ein komplexes psychologisches Phänomen der Emotionsregulation.
+
+Dr. Fuschia Sirois erklärt: 'Prokrastination ist primär ein Problem der Emotionsregulation, nicht des Zeitmanagements. Menschen schieben Aufgaben auf, weil diese negative Gefühle auslösen — Angst vor dem Scheitern, Überforderung oder Langeweile.'
+
+Neurowissenschaftliche Studien zeigen, dass bei Prokrastinierern die Amygdala — das Angstzentrum des Gehirns — stärker aktiviert ist. Gleichzeitig ist die Verbindung zum präfrontalen Kortex, der für Impulskontrolle zuständig ist, schwächer ausgeprägt.
+
+Therapeutische Ansätze kombinieren kognitive Verhaltenstherapie mit praktischen Strategien. Studien zeigen, dass Selbstmitgefühl nach einem Rückfall hilft, erneutes Prokrastinieren zu vermeiden.`,
+    preguntas: [
+      { enunciado: 'Prokrastination ist dasselbe wie Faulheit.', respuesta: false },
+      { enunciado: 'Etwa 20 Prozent der Erwachsenen sind klinisch betroffen.', respuesta: true },
+      { enunciado: 'Prokrastination hängt mit Emotionsregulation zusammen.', respuesta: true },
+      { enunciado: 'Bei Prokrastinierern ist die Amygdala weniger aktiv.', respuesta: false },
+      { enunciado: 'Selbstmitgefühl kann gegen Prokrastination helfen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-b2-pruefung-kulturfoerderung',
+    nivel: 'B2',
+    titulo: 'Goethe B2 — Kulturförderung in der Krise',
+    descripcion: 'Text über Kulturpolitik und öffentliche Förderung. Goethe-Zertifikat B2 Leseverstehen.',
+    texto: `Die Kulturbranche in Deutschland steht vor existenziellen Herausforderungen. Deutschland gibt jährlich etwa 14 Milliarden Euro für Kultur aus. Im europäischen Vergleich ist das ein hoher Betrag, doch die Verteilung ist umstritten. Rund 80 Prozent fließen in etablierte Institutionen, während die freie Szene nur einen Bruchteil erhält.
+
+Die Pandemie hat die Ungleichheit verschärft. Während Opernhäuser staatliche Hilfen in Millionenhöhe erhielten, gingen viele Solo-Selbstständige leer aus. Der Ruf nach einer grundlegenden Reform der Kulturförderung wird lauter. Vorschläge reichen von einem Grundeinkommen für Künstler bis zu einer Kulturabgabe auf Streamingdienste.
+
+Verteidiger des Status quo argumentieren, dass die großen Institutionen ein kulturelles Erbe bewahren, das internationales Ansehen genießt. Deutsche Orchester und Theater gehören zu den besten der Welt. Diese Qualität sei nur durch kontinuierliche, hohe Förderung möglich.
+
+Die Herausforderung besteht darin, das Bestehende zu erhalten und gleichzeitig die freie Szene besser zu unterstützen.`,
+    preguntas: [
+      { enunciado: 'Deutschland gibt jährlich etwa 14 Milliarden Euro für Kultur aus.', respuesta: true },
+      { enunciado: 'Die freie Szene erhält den größten Teil der Kulturförderung.', respuesta: false },
+      { enunciado: 'Während der Pandemie erhielten alle Kulturschaffenden gleich viel Hilfe.', respuesta: false },
+      { enunciado: 'Es wird ein Grundeinkommen für Künstler vorgeschlagen.', respuesta: true },
+      { enunciado: 'Der Text kritisiert die Qualität deutscher Orchester.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'telc-b2-pruefung-wirtschaftstext-globalisierung',
+    nivel: 'B2',
+    titulo: 'telc B2 — Globalisierung und lokale Wirtschaft',
+    descripcion: 'Wirtschaftstext über Globalisierung und Regionalität. telc B2 Leseverstehen Prüfung.',
+    texto: `Die Globalisierung hat deutschen Unternehmen enorme Wachstumschancen eröffnet. Deutschland ist der drittgrößte Exporteur der Welt. Doch die Abhängigkeit von globalen Lieferketten hat Schattenseiten.
+
+Als während der Pandemie Container-Schiffe im Suezkanal stecken blieben und chinesische Häfen geschlossen wurden, standen deutsche Fabriken still. Die Erfahrung hat viele Unternehmen zum Umdenken bewogen.
+
+Der Trend geht nun zum 'Nearshoring' — der Verlagerung von Produktion in nahegelegene Länder statt nach Fernost. Osteuropäische Standorte wie Polen und Tschechien profitieren davon. Gleichzeitig erleben 'Made in Germany'-Produkte eine Renaissance: Konsumenten zahlen mehr für regional hergestellte Waren.
+
+Ökonomen warnen jedoch vor übertriebener Abschottung. 'Protektionismus würde Deutschland mehr schaden als nützen. Wir brauchen offene Märkte — aber diversifizierte Lieferketten', betont Rainer Dulger.`,
+    preguntas: [
+      { enunciado: 'Deutschland ist der größte Exporteur der Welt.', respuesta: false },
+      { enunciado: 'Die Pandemie hat Lieferkettenprobleme verursacht.', respuesta: true },
+      { enunciado: 'Nearshoring bedeutet Verlagerung nach Fernost.', respuesta: false },
+      { enunciado: 'Konsumenten zahlen mehr für regionale Produkte.', respuesta: true },
+      { enunciado: 'Dulger fordert Protektionismus für Deutschland.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'telc-b2-pruefung-bildung-chancengleichheit',
+    nivel: 'B2',
+    titulo: 'telc B2 — Bildungsgerechtigkeit in Deutschland',
+    descripcion: 'Text über soziale Herkunft und Bildungschancen. telc B2 Leseverstehen Prüfungstraining.',
+    texto: `In kaum einem anderen Industrieland hängt der Bildungserfolg so stark von der sozialen Herkunft ab wie in Deutschland. Die PISA-Studien belegen: Kinder aus Akademikerfamilien haben eine dreimal höhere Wahrscheinlichkeit, das Gymnasium zu besuchen als Arbeiterkinder — selbst bei gleicher Leistung.
+
+Bereits im Vorschulalter zeigen sich Unterschiede im Wortschatz. Die frühe Aufteilung nach der Grundschule verfestigt diese Ungleichheit.
+
+Ganztagsschulen gelten als Schlüssel zur Verbesserung. Sie bieten Kindern aus bildungsfernen Familien nachmittags Förderunterricht. Studien aus Skandinavien zeigen positive Effekte auf die soziale Mobilität.
+
+Kritiker bemängeln, dass die Qualität der Ganztagsbetreuung in Deutschland sehr unterschiedlich ist. An vielen Schulen fehlt qualifiziertes Personal. Notwendig sei ein ganzheitlicher Ansatz, der individuelle Förderung, Elternarbeit und Sozialarbeit verbindet.`,
+    preguntas: [
+      { enunciado: 'In Deutschland hängt Bildungserfolg kaum von der sozialen Herkunft ab.', respuesta: false },
+      { enunciado: 'Akademikerkinder besuchen dreimal häufiger das Gymnasium.', respuesta: true },
+      { enunciado: 'In Skandinavien sind Ganztagsschulen seit Jahrzehnten üblich.', respuesta: true },
+      { enunciado: 'Alle Ganztagsschulen in Deutschland haben qualifiziertes Personal.', respuesta: false },
+      { enunciado: 'Vorlesen im Vorschulalter beeinflusst die Sprachentwicklung.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-b2-pruefung-medienkonsum-jugendliche',
+    nivel: 'B2',
+    titulo: 'telc B2 — Medienkonsum bei Jugendlichen',
+    descripcion: 'Text über Social Media und psychische Gesundheit. telc B2 Leseverstehen Übung.',
+    texto: `Die durchschnittliche Bildschirmzeit deutscher Jugendlicher beträgt laut JIM-Studie 264 Minuten täglich — mehr als vier Stunden. Die Debatte über die Auswirkungen auf die psychische Gesundheit wird zunehmend kontrovers geführt.
+
+Eine Studie der Universität Stanford hat einen Zusammenhang zwischen Social-Media-Nutzung und einem Anstieg von Depressionen bei Jugendlichen festgestellt. Die ständige Konfrontation mit idealisierten Selbstdarstellungen kann das Selbstwertgefühl untergraben. Cybermobbing betrifft rund ein Fünftel aller Jugendlichen.
+
+Andererseits erfüllen soziale Medien auch positive Funktionen. Für viele Jugendliche sind sie ein wichtiges Mittel zur Identitätsfindung. Besonders für Jugendliche in ländlichen Gebieten bieten Online-Communities einen Raum der Zugehörigkeit.
+
+Der Mittelweg liegt in der Medienkompetenz. Statt Verbote auszusprechen, sollten Eltern und Schulen Jugendlichen beibringen, Medien kritisch zu nutzen. Medienkompetenz wird zur Kernkompetenz des 21. Jahrhunderts.`,
+    preguntas: [
+      { enunciado: 'Deutsche Jugendliche verbringen durchschnittlich über vier Stunden am Bildschirm.', respuesta: true },
+      { enunciado: 'Die Stanford-Studie fand keinen Zusammenhang zwischen Social Media und Depressionen.', respuesta: false },
+      { enunciado: 'Cybermobbing betrifft etwa ein Fünftel der Jugendlichen.', respuesta: true },
+      { enunciado: 'Der Text empfiehlt ein generelles Verbot sozialer Medien.', respuesta: false },
+      { enunciado: 'Medienkompetenz wird als Kernkompetenz des 21. Jahrhunderts bezeichnet.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-b2-pruefung-wohnformen-zukunft',
+    nivel: 'B2',
+    titulo: 'telc B2 — Alternative Wohnformen der Zukunft',
+    descripcion: 'Text über Tiny Houses, Co-Living und neue Wohnkonzepte. telc B2 Leseverstehen.',
+    texto: `Angesichts steigender Mieten gewinnen alternative Wohnformen an Bedeutung. Tiny Houses, Co-Living-Spaces und genossenschaftliches Wohnen sind keine Randphänomene mehr.
+
+Tiny Houses — Minihäuser mit meist unter 30 Quadratmetern — sprechen vor allem junge Menschen an. Die niedrigen Kosten machen Wohneigentum erschwinglich. Allerdings scheitert die Umsetzung häufig an baurechtlichen Vorschriften.
+
+Co-Living-Konzepte setzen auf Gemeinschaft. Bewohner haben private Zimmer, teilen sich aber Küchen, Wohnzimmer und manchmal Werkstätten. Der Nachteil: weniger Privatsphäre und Kompromissbereitschaft nötig.
+
+Das älteste Modell — die Wohnungsgenossenschaft — erlebt eine Renaissance. In Wien, wo ein Drittel der Bevölkerung in Gemeindebauten lebt, dient das Modell vielen deutschen Städten als Vorbild. Experten sind sich einig: Eine Kombination verschiedener Wohnformen ist nötig.`,
+    preguntas: [
+      { enunciado: 'Tiny Houses haben meist unter 30 Quadratmeter.', respuesta: true },
+      { enunciado: 'Tiny Houses dürfen überall dauerhaft bewohnt werden.', respuesta: false },
+      { enunciado: 'Im Co-Living hat man mehr Privatsphäre als in einer normalen Wohnung.', respuesta: false },
+      { enunciado: 'In Wien lebt ein Drittel der Bevölkerung in Gemeindebauten.', respuesta: true },
+      { enunciado: 'Wohnungsgenossenschaften sind ein neues Konzept.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'telc-b2-pruefung-psychologie-glueck',
+    nivel: 'B2',
+    titulo: 'telc B2 — Was macht uns glücklich?',
+    descripcion: 'Psychologischer Text über Glücksforschung. telc B2 Leseverstehen Prüfungstext.',
+    texto: `Was macht Menschen glücklich? Die Harvard-Studie zur Erwachsenenentwicklung, die seit 1938 läuft, kommt zu einem klaren Ergebnis: Der wichtigste Faktor für ein glückliches Leben sind gute soziale Beziehungen — nicht Geld, Erfolg oder Ruhm.
+
+'Menschen, die im Alter von 50 Jahren die zufriedensten Beziehungen hatten, waren im Alter von 80 die gesündesten', fasst Studienleiter Prof. Robert Waldinger zusammen. Einsamkeit sei ebenso schädlich wie Rauchen.
+
+Parallel dazu zeigt die Glücksforschung, dass materielle Güter nur bis zu einem bestimmten Punkt zum Wohlbefinden beitragen. Ab einem Jahreseinkommen von etwa 75.000 Dollar steigt das tägliche emotionale Wohlbefinden kaum noch — die sogenannte 'hedonische Anpassung'.
+
+Interessanterweise unterschätzen die meisten Menschen, wie sehr alltägliche Erlebnisse — ein Spaziergang, ein gutes Gespräch — zu ihrem Glücksempfinden beitragen. Die Psychologie spricht vom 'Erlebnisparadox'.`,
+    preguntas: [
+      { enunciado: 'Die Harvard-Studie läuft seit 1938.', respuesta: true },
+      { enunciado: 'Geld ist laut der Studie der wichtigste Glücksfaktor.', respuesta: false },
+      { enunciado: 'Einsamkeit ist laut der Studie so schädlich wie Rauchen.', respuesta: true },
+      { enunciado: 'Ab 75.000 Dollar Einkommen steigt das Wohlbefinden deutlich weiter.', respuesta: false },
+      { enunciado: 'Alltägliche Erlebnisse tragen wenig zum Glück bei.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'telc-b2-pruefung-arbeitswelt-fachkraeftemangel',
+    nivel: 'B2',
+    titulo: 'telc B2 — Fachkräftemangel in Deutschland',
+    descripcion: 'Wirtschaftstext über den Fachkräftemangel. telc B2 Leseverstehen.',
+    texto: `Der Fachkräftemangel hat sich zu einem der drängendsten wirtschaftlichen Probleme Deutschlands entwickelt. Laut dem Institut der deutschen Wirtschaft fehlen rund 630.000 qualifizierte Arbeitskräfte. Besonders betroffen sind Handwerk, Pflege, IT und Bildung.
+
+Die Babyboomer gehen in den Ruhestand, während geburtenschwächere Jahrgänge nachrücken. Die Akademisierung hat dazu geführt, dass Ausbildungsberufe gemieden werden. In einigen Handwerksbranchen bleibt jede dritte Lehrstelle unbesetzt.
+
+Das Fachkräfteeinwanderungsgesetz von 2020 erleichtert qualifizierten Arbeitskräften aus Nicht-EU-Ländern den Zugang. Die Anerkennung ausländischer Abschlüsse wurde vereinfacht.
+
+Kritiker halten die Maßnahmen für unzureichend. Die Bürokratie bei Visa und Berufsanerkennung sei zu langsam. Viele Fachkräfte entschieden sich für Kanada oder Australien. Deutschland müsse nicht nur Hürden abbauen, sondern eine echte Willkommenskultur entwickeln.`,
+    preguntas: [
+      { enunciado: 'In Deutschland fehlen rund 630.000 Fachkräfte.', respuesta: true },
+      { enunciado: 'Der Fachkräftemangel betrifft nur die IT-Branche.', respuesta: false },
+      { enunciado: 'Jede dritte Lehrstelle im Handwerk bleibt unbesetzt.', respuesta: true },
+      { enunciado: 'Das Fachkräfteeinwanderungsgesetz gilt seit 2024.', respuesta: false },
+      { enunciado: 'Kritiker finden die Visaverfahren zu langsam.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'telc-b2-pruefung-energie-wende',
+    nivel: 'B2',
+    titulo: 'telc B2 — Die Energiewende und ihre Herausforderungen',
+    descripcion: 'Text über erneuerbare Energien und Energiepolitik. telc B2 Leseverstehen Prüfungsvorbereitung.',
+    texto: `Deutschland will bis 2045 klimaneutral werden. Die Energiewende — der Umstieg auf erneuerbare Energien — ist das Herzstück der Klimapolitik. 2023 stammten bereits über 50 Prozent des Stroms aus Wind, Sonne und Biomasse.
+
+Doch der Ausbau stockt. Genehmigungsverfahren für Windräder dauern durchschnittlich sieben Jahre. Bürgerinitiativen protestieren gegen Windparks in ihrer Nachbarschaft — das 'Nimby'-Phänomen. Auch der Netzausbau hinkt hinterher: Windstrom aus dem Norden muss in den Süden transportiert werden.
+
+Deutsche Haushalte zahlen die höchsten Strompreise in Europa. Während die Industrie teilweise geschützt wird, tragen private Verbraucher die Hauptlast. Das Stichwort 'Energiearmut' gewinnt an Bedeutung.
+
+Befürworter argumentieren, dass kurzfristige Kosten durch langfristige Einsparungen und die Vermeidung von Klimaschäden ausgeglichen werden. Die Energiewende sei nicht nur ökologisch, sondern auch industriepolitisch eine Chance.`,
+    preguntas: [
+      { enunciado: 'Deutschland will bis 2050 klimaneutral werden.', respuesta: false },
+      { enunciado: 'Über 50 Prozent des Stroms kommen aus erneuerbaren Quellen.', respuesta: true },
+      { enunciado: 'Genehmigungsverfahren für Windräder dauern durchschnittlich sieben Jahre.', respuesta: true },
+      { enunciado: 'Deutsche Haushalte zahlen niedrige Strompreise.', respuesta: false },
+      { enunciado: 'Die Energiewende wird auch als industriepolitische Chance gesehen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'goethe-b2-pruefung-ernaehrungstrends',
+    nivel: 'B2',
+    titulo: 'Goethe B2 — Ernährungstrends und ihre Folgen',
+    descripcion: 'Kritischer Text über moderne Ernährungstrends. Goethe B2 Prüfungstext Leseverstehen.',
+    texto: `Glutenfrei, laktosefrei, zuckerfrei, vegan — die Liste der Ernährungstrends wird immer länger. In deutschen Supermärkten hat sich das Sortiment an 'Free-from'-Produkten in den letzten fünf Jahren verdreifacht.
+
+Prof. Dr. Keller von der Universität Hohenheim warnt: 'Nur etwa ein Prozent der Bevölkerung leidet an Zöliakie und muss tatsächlich Gluten meiden. Wenn gesunde Menschen ohne medizinischen Grund darauf verzichten, fehlen ihnen wichtige Ballaststoffe.'
+
+Der Markt für pflanzliche Ersatzprodukte boomt. Allerdings sind diese nicht automatisch gesünder. Viele enthalten hohe Mengen an Zucker, Salz und Zusatzstoffen, um Geschmack und Textur nachzuahmen.
+
+Soziologen sehen in den Ernährungstrends ein Spiegelbild gesellschaftlicher Entwicklungen. In einer Welt voller Unsicherheiten vermittelt die Kontrolle über die eigene Ernährung Sicherheit. Gleichzeitig birgt die Fixierung auf 'reines' Essen das Risiko einer Essstörung namens Orthorexie.`,
+    preguntas: [
+      { enunciado: 'Das Sortiment an Free-from-Produkten hat sich verdreifacht.', respuesta: true },
+      { enunciado: 'Etwa zehn Prozent der Bevölkerung leiden an Zöliakie.', respuesta: false },
+      { enunciado: 'Vegane Ersatzprodukte sind immer gesünder als tierische.', respuesta: false },
+      { enunciado: 'Orthorexie ist eine Essstörung.', respuesta: true },
+      { enunciado: 'Prof. Keller empfiehlt allen, auf Gluten zu verzichten.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'goethe-b2-pruefung-digitale-demokratie',
+    nivel: 'B2',
+    titulo: 'Goethe B2 — Digitale Demokratie und Bürgerbeteiligung',
+    descripcion: 'Text über Online-Bürgerbeteiligung und E-Government. Goethe B2 Leseverstehen.',
+    texto: `Immer mehr Kommunen experimentieren mit digitalen Beteiligungsplattformen, auf denen Bürger über Haushaltsprioritäten abstimmen und Vorschläge einreichen können.
+
+Die Stadt Wuppertal hat mit dem 'Talbeteiligung'-Portal eine Vorreiterrolle übernommen. Über 40.000 Bürger haben die Plattform genutzt und mehr als 3.000 Vorschläge eingereicht. Einige wurden umgesetzt — etwa die Umgestaltung eines Parkplatzes in einen Bürgerpark.
+
+Doch Politikwissenschaftler mahnen zur Vorsicht. 'Es sind vor allem gut gebildete, mittelalte Männer, die sich auf diesen Plattformen engagieren. Ältere Menschen und Migranten werden oft nicht erreicht', warnt Prof. Kersting. Die digitale Kluft drohe, sich in eine demokratische Kluft zu verwandeln.
+
+Ein weiteres Problem ist die Gefahr der Manipulation. Organisierte Interessengruppen können durch koordinierte Aktionen Abstimmungen beeinflussen. Die Herausforderung besteht darin, digitale Beteiligung inklusiv und sicher zu gestalten.`,
+    preguntas: [
+      { enunciado: 'Wuppertal hat eine digitale Beteiligungsplattform eingeführt.', respuesta: true },
+      { enunciado: 'Über 40.000 Bürger haben die Plattform genutzt.', respuesta: true },
+      { enunciado: 'Digitale Beteiligung erreicht alle Bevölkerungsgruppen gleich gut.', respuesta: false },
+      { enunciado: 'Online-Abstimmungen sind gegen Manipulation geschützt.', respuesta: false },
+      { enunciado: 'Ein Parkplatz wurde in einen Bürgerpark umgestaltet.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'im-kaufhaus',
+    nivel: 'A1',
+    titulo: 'Im Kaufhaus',
+    descripcion: 'Lisa kauft eine neue Jacke im Kaufhaus.',
+    texto: `Lisa geht heute ins Kaufhaus. Sie braucht eine neue Jacke für den Winter. Das Kaufhaus ist groß und hat vier Stockwerke. Lisa fährt mit dem Aufzug in die zweite Etage. Dort sind die Jacken und Mäntel.
+
+Eine Verkäuferin hilft Lisa. Sie zeigt ihr eine rote Jacke und eine blaue Jacke. Lisa mag die blaue Jacke sehr. Sie probiert die Jacke an. Die Jacke passt gut und ist nicht zu teuer.
+
+Lisa bezahlt die Jacke an der Kasse. Die Verkäuferin packt die Jacke in eine Tüte. Lisa ist sehr glücklich. Sie trägt die neue Jacke sofort nach Hause.`,
+    preguntas: [
+      { enunciado: 'Lisa kauft eine neue Jacke.', respuesta: true },
+      { enunciado: 'Das Kaufhaus hat nur zwei Stockwerke.', respuesta: false },
+      { enunciado: 'Lisa mag die blaue Jacke.', respuesta: true },
+      { enunciado: 'Die Jacke ist zu teuer für Lisa.', respuesta: false },
+      { enunciado: 'Lisa bezahlt die Jacke an der Kasse.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-uhrzeit',
+    nivel: 'A1',
+    titulo: 'Die Uhrzeit',
+    descripcion: 'Tom lernt, wie man die Uhrzeit auf Deutsch sagt.',
+    texto: `Tom ist neun Jahre alt. In der Schule lernt er heute die Uhrzeit. Die Lehrerin zeigt eine große Uhr an der Tafel. Tom lernt die Wörter „Stunde“, „Minute“ und „Sekunde“.
+
+Um acht Uhr beginnt die Schule. Um zwölf Uhr isst Tom zu Mittag. Um halb vier ist die Schule zu Ende. Tom findet die Uhrzeit am Anfang schwierig. Die Lehrerin erklärt es aber sehr gut.
+
+Am Abend übt Tom mit seiner Mutter. Er sagt: „Es ist sieben Uhr. Wir essen jetzt zu Abend.“ Seine Mutter ist stolz auf ihn. Jetzt kann Tom die Uhrzeit gut lesen.`,
+    preguntas: [
+      { enunciado: 'Tom lernt die Uhrzeit in der Schule.', respuesta: true },
+      { enunciado: 'Die Schule beginnt um zehn Uhr.', respuesta: false },
+      { enunciado: 'Tom isst um zwölf Uhr zu Mittag.', respuesta: true },
+      { enunciado: 'Tom findet die Uhrzeit von Anfang an sehr einfach.', respuesta: false },
+      { enunciado: 'Am Abend übt Tom mit seiner Mutter.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'mein-klassenzimmer',
+    nivel: 'A1',
+    titulo: 'Mein Klassenzimmer',
+    descripcion: 'Ein Kind beschreibt sein Klassenzimmer in der Schule.',
+    texto: `Mein Klassenzimmer ist groß und hell. Es gibt viele Fenster und eine grüne Tafel. Meine Bank steht in der zweiten Reihe. Neben mir sitzt meine Freundin Emma.
+
+An der Wand hängen bunte Bilder. Wir malen die Bilder immer im Kunstunterricht. Der Lehrertisch steht vorne, direkt neben der Tafel. Im Klassenzimmer gibt es auch einen Computer und ein Regal mit Büchern.
+
+Ich mag mein Klassenzimmer sehr. Es ist warm und gemütlich. Jeden Morgen freue ich mich auf die Schule. Meine Lehrerin heißt Frau Bauer und ist sehr nett.`,
+    preguntas: [
+      { enunciado: 'Das Klassenzimmer ist klein und dunkel.', respuesta: false },
+      { enunciado: 'Emma sitzt neben dem Kind.', respuesta: true },
+      { enunciado: 'An der Wand hängen bunte Bilder.', respuesta: true },
+      { enunciado: 'Es gibt keinen Computer im Klassenzimmer.', respuesta: false },
+      { enunciado: 'Die Lehrerin heißt Frau Bauer.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'am-kiosk',
+    nivel: 'A1',
+    titulo: 'Am Kiosk',
+    descripcion: 'Paul kauft eine Zeitschrift und Süßigkeiten am Kiosk.',
+    texto: `Paul geht jeden Samstag zum Kiosk an der Ecke. Der Kiosk verkauft Zeitungen, Zeitschriften und Süßigkeiten. Paul mag Comics und kauft oft ein Comic-Heft.
+
+Heute kauft Paul ein Comic-Heft und eine Flasche Wasser. Er sieht auch Schokolade im Regal. Die Schokolade kostet zwei Euro. Paul hat genug Geld und kauft die Schokolade auch.
+
+Der Verkäufer am Kiosk heißt Herr Yilmaz. Er ist immer freundlich. Paul bezahlt und sagt „Danke schön“. Dann geht er glücklich nach Hause und liest sein neues Comic-Heft.`,
+    preguntas: [
+      { enunciado: 'Paul geht jeden Sonntag zum Kiosk.', respuesta: false },
+      { enunciado: 'Der Kiosk verkauft Zeitungen und Süßigkeiten.', respuesta: true },
+      { enunciado: 'Paul kauft heute kein Comic-Heft.', respuesta: false },
+      { enunciado: 'Die Schokolade kostet zwei Euro.', respuesta: true },
+      { enunciado: 'Der Verkäufer heißt Herr Yilmaz.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-wochentage',
+    nivel: 'A1',
+    titulo: 'Die Wochentage',
+    descripcion: 'Mia erzählt, was sie an jedem Wochentag macht.',
+    texto: `Mia hat eine feste Routine. Am Montag geht sie zur Schule und hat Sportunterricht. Am Dienstag lernt sie Englisch und Musik. Am Mittwoch hat Mia frei am Nachmittag und spielt mit Freunden.
+
+Am Donnerstag geht Mia zum Schwimmkurs. Sie schwimmt sehr gern. Am Freitag hat sie Kunstunterricht und malt gerne Bilder. Am Wochenende, also am Samstag und Sonntag, bleibt Mia zu Hause bei ihrer Familie.
+
+Mias Lieblingstag ist der Donnerstag. Dort schwimmt sie. Sie mag auch den Sonntag. Dann kocht die ganze Familie zusammen. Jede Woche freut sich Mia auf ihre Aktivitäten.`,
+    preguntas: [
+      { enunciado: 'Am Montag hat Mia Sportunterricht.', respuesta: true },
+      { enunciado: 'Am Mittwoch hat Mia keine Zeit für Freunde.', respuesta: false },
+      { enunciado: 'Mia geht am Donnerstag zum Schwimmkurs.', respuesta: true },
+      { enunciado: 'Mias Lieblingstag ist der Montag.', respuesta: false },
+      { enunciado: 'Am Sonntag kocht die Familie zusammen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'meine-freunde',
+    nivel: 'A1',
+    titulo: 'Meine Freunde',
+    descripcion: 'Ein Kind stellt seine besten Freunde vor.',
+    texto: `Ich habe drei gute Freunde. Sie heißen Ben, Lea und Noah. Ben spielt gern Fußball. Lea malt gern Bilder. Noah liest gern Bücher.
+
+Wir treffen uns oft im Park. Dort spielen wir zusammen und lachen viel. Ben bringt immer seinen Fußball mit. Lea hat bunte Stifte dabei. Noah hat immer ein Buch in der Tasche.
+
+Meine Freunde sind sehr wichtig für mich. Wir feiern zusammen Geburtstage und helfen uns gegenseitig. Am liebsten spiele ich mit meinen Freunden am Wochenende.`,
+    preguntas: [
+      { enunciado: 'Das Kind hat drei gute Freunde.', respuesta: true },
+      { enunciado: 'Ben liest gern Bücher.', respuesta: false },
+      { enunciado: 'Lea malt gern Bilder.', respuesta: true },
+      { enunciado: 'Die Freunde treffen sich nie im Park.', respuesta: false },
+      { enunciado: 'Die Freunde feiern zusammen Geburtstage.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'besuch-bei-der-tante',
+    nivel: 'A2',
+    titulo: 'Ein Besuch bei der Tante',
+    descripcion: 'Sophie besucht ihre Tante auf dem Land und erlebt einen schönen Tag.',
+    texto: `Sophie hat am Wochenende ihre Tante Rita besucht. Tante Rita wohnt auf dem Land, weit weg von der Stadt. Sophie ist mit dem Zug gefahren, weil ihre Tante keinen Bahnhof in der Nähe hat, sondern nur einen kleinen Haltepunkt.
+
+Als Sophie angekommen ist, hat Tante Rita schon Kuchen gebacken. Sie haben zusammen im Garten gesessen und Kaffee getrunken. Tante Rita hat viele Tiere: zwei Katzen, einen Hund und mehrere Hühner. Sophie hat den Hühnern beim Füttern geholfen, weil sie das noch nie gemacht hatte.
+
+Am Abend ist Sophie mit dem letzten Zug wieder nach Hause gefahren. Sie war ein bisschen traurig, dass der Besuch schon vorbei war. Trotzdem hat sie sich sehr gefreut, dass sie ihre Tante wieder gesehen hat. Sie hat versprochen, bald wiederzukommen.`,
+    preguntas: [
+      { enunciado: 'Tante Rita wohnt in der Stadt.', respuesta: false },
+      { enunciado: 'Sophie ist mit dem Auto gefahren.', respuesta: false },
+      { enunciado: 'Tante Rita hat Kuchen gebacken.', respuesta: true },
+      { enunciado: 'Sophie hat den Hühnern beim Füttern geholfen.', respuesta: true },
+      { enunciado: 'Sophie war froh, dass der Besuch so schnell vorbei war.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-autofahrt-in-den-urlaub',
+    nivel: 'A2',
+    titulo: 'Die Autofahrt in den Urlaub',
+    descripcion: 'Die Familie Bergmann fährt mit dem Auto in den Sommerurlaub nach Italien.',
+    texto: `Die Familie Bergmann ist am Samstag früh losgefahren, weil die Fahrt nach Italien sehr lang ist. Herr Bergmann hat das Auto gepackt, während die Kinder noch geschlafen haben. Frau Bergmann hat Sandwiches und Getränke für die Reise vorbereitet.
+
+Nach drei Stunden haben sie an einer Raststätte angehalten, weil die Kinder Hunger hatten. Sie haben dort zu Mittag gegessen und sich ein bisschen die Beine vertreten. Auf der Autobahn in Österreich gab es viel Verkehr, sodass die Familie später als geplant angekommen ist.
+
+Als sie endlich am Meer angekommen sind, waren alle sehr müde, aber auch glücklich. Die Kinder sind sofort ins Wasser gesprungen. Frau Bergmann hat gesagt, dass sich die lange Fahrt gelohnt hat. Der Urlaub konnte endlich beginnen.`,
+    preguntas: [
+      { enunciado: 'Die Familie Bergmann ist am Sonntag losgefahren.', respuesta: false },
+      { enunciado: 'Sie haben an einer Raststätte Mittag gegessen.', respuesta: true },
+      { enunciado: 'In Österreich gab es keinen Verkehr.', respuesta: false },
+      { enunciado: 'Die Familie ist später als geplant am Meer angekommen.', respuesta: true },
+      { enunciado: 'Die Kinder sind sofort ins Wasser gesprungen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'ausflug-nach-dresden',
+    nivel: 'A2',
+    titulo: 'Ein Ausflug nach Dresden',
+    descripcion: 'Markus und seine Kollegen machen einen Tagesausflug nach Dresden.',
+    texto: `Markus ist mit drei Kollegen nach Dresden gefahren, weil die Firma einen Betriebsausflug organisiert hat. Sie sind früh mit dem Zug losgefahren und haben nach zwei Stunden Dresden erreicht. Das Wetter war sonnig, und alle waren gut gelaunt.
+
+Zuerst haben sie die Frauenkirche besichtigt. Der Reiseführer hat erklärt, dass die Kirche im Zweiten Weltkrieg zerstört und später wieder aufgebaut wurde. Danach sind sie durch die Altstadt spaziert und haben in einem Café Kaffee und Kuchen gegessen.
+
+Am Nachmittag haben sie das Grüne Gewölbe besucht, ein berühmtes Museum mit wertvollen Schätzen. Markus hat viele Fotos gemacht, damit er sich später noch gut an den Tag erinnern kann. Am Abend sind sie müde, aber zufrieden nach Hause gefahren.`,
+    preguntas: [
+      { enunciado: 'Markus ist allein nach Dresden gefahren.', respuesta: false },
+      { enunciado: 'Die Gruppe ist mit dem Zug gefahren.', respuesta: true },
+      { enunciado: 'Die Frauenkirche wurde nie zerstört.', respuesta: false },
+      { enunciado: 'Sie haben das Grüne Gewölbe besucht.', respuesta: true },
+      { enunciado: 'Markus hat keine Fotos gemacht.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-handwerker-kommt',
+    nivel: 'A2',
+    titulo: 'Der Handwerker kommt',
+    descripcion: 'Herr Krause wartet auf einen Handwerker, weil die Heizung kaputt ist.',
+    texto: `Die Heizung in Herrn Krauses Wohnung ist letzte Woche kaputtgegangen. Es war sehr kalt, weil es draußen schon Winter war. Herr Krause hat sofort einen Handwerker angerufen, damit die Heizung schnell repariert wird.
+
+Der Handwerker hat gesagt, dass er erst am nächsten Tag kommen kann. Herr Krause hat die Nacht mit einer zusätzlichen Decke verbracht, weil die Wohnung so kalt war. Am nächsten Morgen ist der Handwerker pünktlich gekommen und hat sofort mit der Arbeit begonnen.
+
+Nach zwei Stunden war die Heizung wieder repariert. Der Handwerker hat erklärt, dass ein kleines Teil kaputt war und er es ausgetauscht hat. Herr Krause war sehr erleichtert, dass es keine große Reparatur war. Er hat dem Handwerker gedankt und die Rechnung bezahlt.`,
+    preguntas: [
+      { enunciado: 'Die Heizung ist im Sommer kaputtgegangen.', respuesta: false },
+      { enunciado: 'Herr Krause hat einen Handwerker angerufen.', respuesta: true },
+      { enunciado: 'Der Handwerker ist noch am selben Tag gekommen.', respuesta: false },
+      { enunciado: 'Die Reparatur hat zwei Stunden gedauert.', respuesta: true },
+      { enunciado: 'Herr Krause musste eine sehr große Reparatur bezahlen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-geburtstagsueberraschung',
+    nivel: 'A2',
+    titulo: 'Die Geburtstagsüberraschung',
+    descripcion: 'Freunde planen heimlich eine Überraschungsparty für Anna.',
+    texto: `Annas Freunde haben beschlossen, eine Überraschungsparty für ihren Geburtstag zu organisieren. Sie haben sich heimlich getroffen, damit Anna nichts von den Plänen erfährt. Jeder hat eine Aufgabe bekommen: Tim hat die Einladungen geschrieben, und Sarah hat den Kuchen bestellt.
+
+Am Tag der Party hat Anna gedacht, dass sie nur zu einem normalen Abendessen mit ihrer besten Freundin gehen wird. Als sie die Wohnung betreten hat, haben plötzlich alle „Überraschung!“ gerufen. Anna war so überrascht, dass sie fast geweint hat.
+
+Die Party war ein großer Erfolg. Alle haben getanzt, gelacht und den leckeren Kuchen gegessen. Anna hat sich sehr gefreut, dass ihre Freunde sich so viel Mühe gegeben hatten. Sie hat gesagt, dass es der schönste Geburtstag ihres Lebens war.`,
+    preguntas: [
+      { enunciado: 'Annas Freunde haben die Party heimlich geplant.', respuesta: true },
+      { enunciado: 'Anna hat vorher von der Party gewusst.', respuesta: false },
+      { enunciado: 'Tim hat den Kuchen bestellt.', respuesta: false },
+      { enunciado: 'Anna war überrascht, als alle „Überraschung!“ gerufen haben.', respuesta: true },
+      { enunciado: 'Anna fand es einen schlechten Geburtstag.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
