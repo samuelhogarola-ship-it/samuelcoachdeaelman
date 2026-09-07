@@ -8485,6 +8485,354 @@ const TEXTOS = [
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-taschengeld",
+    "nivel": "A1",
+    "titulo": "Mein Taschengeld",
+    "descripcion": "Paul bekommt jede Woche Taschengeld und spart für ein neues Fahrrad.",
+    "texto": "Paul ist zehn Jahre alt. Er bekommt jede Woche fünf Euro Taschengeld. Seine Eltern geben ihm das Geld am Sonntag. Paul spart das Geld in einer kleinen Box. Die Box steht auf seinem Regal. Er möchte ein neues Fahrrad kaufen. Das Fahrrad kostet hundert Euro.\n\nManchmal kauft Paul auch Süßigkeiten. Er mag Schokolade sehr gern. Aber er kauft nicht jede Woche etwas. Er will sein Geld sparen. Seine Schwester Lisa spart auch Geld. Sie möchte ein Buch kaufen. Am Ende des Monats zählen Paul und Lisa ihr Geld zusammen. Sie sind stolz auf sich.",
+    "preguntas": [
+      {
+        "enunciado": "Paul bekommt jeden Tag Taschengeld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul spart Geld für ein Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft jede Woche Süßigkeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa möchte auch etwas kaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul und Lisa zählen ihr Geld nie zusammen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-obstladen",
+    "nivel": "A1",
+    "titulo": "Im Obstladen",
+    "descripcion": "Mia kauft frisches Obst in einem kleinen Laden in ihrer Straße.",
+    "texto": "Mia geht heute in den Obstladen. Der Laden ist klein und bunt. Es gibt rote Äpfel, gelbe Bananen und grüne Trauben. Mia mag Äpfel am liebsten. Sie kauft drei Äpfel und zwei Bananen. Der Verkäufer ist sehr freundlich.\n\n„Guten Tag! Was möchten Sie noch?“, fragt der Verkäufer. Mia denkt kurz nach. Sie nimmt auch eine Packung Erdbeeren. Die Erdbeeren sind rot und süß. Mia bezahlt an der Kasse. Sie bezahlt fünf Euro. Dann geht sie glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Der Obstladen ist groß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia kauft drei Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia mag keine Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Erdbeeren sind rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia bezahlt zehn Euro.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-abendroutine",
+    "nivel": "A1",
+    "titulo": "Meine Abendroutine",
+    "descripcion": "Tom erzählt, was er jeden Abend vor dem Schlafen macht.",
+    "texto": "Jeden Abend um sieben Uhr isst Tom mit seiner Familie. Nach dem Essen räumt er den Tisch auf. Dann macht er seine Hausaufgaben. Tom braucht dafür ungefähr eine Stunde. Danach darf er ein bisschen fernsehen.\n\nUm neun Uhr putzt Tom seine Zähne. Er zieht seinen Pyjama an. Seine Mutter liest ihm eine Geschichte vor. Tom hört die Geschichte sehr gern. Um halb zehn schläft er ein. Am Wochenende bleibt er manchmal länger wach.",
+    "preguntas": [
+      {
+        "enunciado": "Tom isst um sieben Uhr mit seiner Familie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom macht zuerst die Hausaufgaben und isst danach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom putzt um neun Uhr seine Zähne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Toms Vater liest ihm eine Geschichte vor.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom bleibt am Wochenende immer schon um neun Uhr wach.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-lieblingsspiele",
+    "nivel": "A1",
+    "titulo": "Meine Lieblingsspiele",
+    "descripcion": "Sofie erzählt von ihren Lieblingsspielen mit Freunden im Garten.",
+    "texto": "Sofie spielt sehr gern mit ihren Freunden. Ihr Lieblingsspiel ist Verstecken. Sie spielen oft im Garten. Der Garten ist groß und hat viele Bäume. Sofie versteckt sich immer hinter dem großen Baum.\n\nIhre Freundin Emma spielt lieber Fangen. Fangen ist auch lustig, findet Sofie. Manchmal spielen sie beide Spiele zusammen. Am Nachmittag trinken sie Saft und essen Kekse. Sofie freut sich immer auf das Spielen mit Emma.",
+    "preguntas": [
+      {
+        "enunciado": "Sofies Lieblingsspiel ist Verstecken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie spielt lieber allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Garten ist klein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma mag Fangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie und Emma trinken am Nachmittag Kaffee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "unsere-familie-am-abend",
+    "nivel": "A1",
+    "titulo": "Unsere Familie am Abend",
+    "descripcion": "Ben beschreibt, was seine Familie jeden Abend zusammen macht.",
+    "texto": "Am Abend ist die ganze Familie zu Hause. Bens Mutter kocht das Abendessen. Sein Vater deckt den Tisch. Ben und seine Schwester helfen auch ein bisschen. Sie stellen die Teller auf den Tisch.\n\nNach dem Essen spielen sie oft zusammen ein Brettspiel. Ben gewinnt nicht immer, aber das Spiel macht ihm Spaß. Seine kleine Schwester lacht sehr viel. Um acht Uhr gehen die Kinder ins Bett. Die Eltern schauen dann noch ein bisschen fern.",
+    "preguntas": [
+      {
+        "enunciado": "Bens Vater kocht das Abendessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben hilft beim Tischdecken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie spielt nach dem Essen ein Brettspiel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben gewinnt immer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder gehen um acht Uhr ins Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-drei-lieblingsfarben",
+    "nivel": "A1",
+    "titulo": "Meine drei Lieblingsfarben",
+    "descripcion": "Nina erzählt, welche Farben sie am liebsten mag und warum.",
+    "texto": "Nina mag drei Farben besonders gern: Blau, Grün und Gelb. Ihr Zimmer ist blau. Sie findet Blau sehr ruhig. Ihr Fahrrad ist grün. Grün ist die Farbe von Bäumen und Gras.\n\nNinas Lieblingspullover ist gelb. Gelb macht sie fröhlich. Ihre beste Freundin Lea mag lieber Rosa und Lila. Die zwei Mädchen malen oft zusammen Bilder. Sie benutzen viele bunte Farben.",
+    "preguntas": [
+      {
+        "enunciado": "Nina mag Blau, Grün und Gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ninas Lieblingspullover ist gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Fahrrad ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea mag lieber Rosa und Lila.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina und Lea malen nie zusammen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-rucksack-im-flugzeug",
+    "nivel": "A2",
+    "titulo": "Der verlorene Rucksack im Flugzeug",
+    "descripcion": "Jonas hat auf dem Rückflug aus Barcelona seinen Rucksack vergessen.",
+    "texto": "Jonas ist letzte Woche nach Barcelona geflogen, weil er dort seine Cousine besucht hat. Der Flug war sehr angenehm, und er hat viele schöne Tage in der Stadt verbracht. Am Sonntag ist er zum Flughafen gefahren, um zurück nach Deutschland zu fliegen. Er hat seinen Rucksack unter den Sitz gestellt und ist während des Fluges eingeschlafen.\n\nAls das Flugzeug gelandet ist, ist Jonas schnell aufgestanden und ausgestiegen, weil er seinen Anschlussflug nicht verpassen wollte. Erst am Gate hat er gemerkt, dass er seinen Rucksack im Flugzeug vergessen hatte. Er ist sofort zum Info-Schalter gelaufen und hat der Mitarbeiterin die Situation erklärt. Sie hat im System nachgeschaut und ihm gesagt, dass der Rucksack gefunden wurde.\n\nNach einer Stunde hat Jonas seinen Rucksack endlich zurückbekommen. Er war sehr erleichtert, weil sein Laptop und sein Reisepass darin waren. „Das war eine wichtige Lektion“, hat er später seiner Cousine am Telefon erzählt. Seitdem kontrolliert er vor jedem Aussteigen genau, ob er alle seine Sachen dabeihat.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist nach Barcelona geflogen, um seine Cousine zu besuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat seinen Rucksack im Taxi vergessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat erst am Gate gemerkt, dass er den Rucksack vergessen hatte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Rucksack wurde nicht gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In dem Rucksack waren Jonas' Laptop und Reisepass.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-regnerisches-wochenende-zuhause",
+    "nivel": "A2",
+    "titulo": "Ein regnerisches Wochenende zuhause",
+    "descripcion": "Familie Berger hat wegen des schlechten Wetters das Wochenende drinnen verbracht.",
+    "texto": "Am Samstag hat es den ganzen Tag geregnet, deshalb ist Familie Berger zu Hause geblieben. Eigentlich wollten sie einen Ausflug in die Berge machen, aber das Wetter hat ihre Pläne geändert. Herr Berger hat vorgeschlagen, stattdessen einen Filmnachmittag zu machen. Die Kinder haben sich sehr darüber gefreut.\n\nFrau Berger hat Popcorn gemacht, während die Kinder Decken und Kissen ins Wohnzimmer gebracht haben. Sie haben zusammen zwei Filme angeschaut und viel gelacht. Als es am Abend immer noch geregnet hat, haben sie ein Brettspiel gespielt. Der kleine Tim hat das Spiel gewonnen, weil er sehr viel Glück hatte.\n\nAm Sonntag hat die Sonne wieder geschienen, aber die Familie war trotzdem froh über den gemütlichen Samstag. „Wenn es regnet, können wir immer noch Spaß haben“, hat Frau Berger gesagt. Sie haben beschlossen, den Ausflug in die Berge für das nächste Wochenende zu planen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger ist am Samstag in die Berge gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat den ganzen Samstag geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben sich über den Filmnachmittag geärgert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat das Brettspiel gewonnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag hat es wieder geregnet.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarin-zieht-ein",
+    "nivel": "A2",
+    "titulo": "Die Nachbarin zieht ein",
+    "descripcion": "Herr Wolf lernt seine neue Nachbarin kennen, die gerade in die Wohnung nebenan gezogen ist.",
+    "texto": "Letzten Monat ist eine neue Nachbarin in die Wohnung neben Herrn Wolf gezogen. Sie heißt Carla und kommt aus Italien. Am ersten Tag hat Herr Wolf gehört, wie Möbel getragen wurden, deshalb ist er hinausgegangen, um zu helfen. Carla hat sich sehr über die Hilfe gefreut.\n\nSie haben sich lange im Treppenhaus unterhalten, weil sie beide gerne über Kochen sprechen. Carla hat erzählt, dass sie in Italien als Köchin gearbeitet hat. Herr Wolf hat sie eingeladen, auf einen Kaffee vorbeizukommen, wenn sie mit dem Auspacken fertig ist. Carla hat die Einladung gerne angenommen.\n\nAm Wochenende hat Carla ihm einen selbstgemachten Kuchen gebracht, um sich zu bedanken. Herr Wolf war sehr überrascht und hat sich riesig gefreut. Seitdem trinken sie fast jeden Sonntag zusammen Kaffee. Herr Wolf ist froh, dass er eine so nette Nachbarin hat.",
+    "preguntas": [
+      {
+        "enunciado": "Carla kommt aus Spanien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Wolf hat Carla beim Einzug geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla hat noch nie als Köchin gearbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Wolf hat Carla zu einem Kaffee eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wolf und Carla trinken nie zusammen Kaffee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-meinen-freund-in-kanada",
+    "nivel": "A2",
+    "titulo": "Ein Brief an meinen Freund in Kanada",
+    "descripcion": "Felix schreibt seinem alten Freund Noah einen Brief über sein neues Leben an der Universität.",
+    "texto": "Lieber Noah,\n\nich hoffe, dass es dir und deiner Familie in Kanada gut geht. Ich wollte dir schon lange schreiben, aber ich hatte viel zu tun, weil ich vor zwei Monaten mit dem Studium angefangen habe. Ich studiere jetzt Wirtschaft an der Universität in Leipzig und wohne in einer kleinen Wohngemeinschaft mit zwei anderen Studenten.\n\nAm Anfang war alles neu und ein bisschen schwierig, weil ich niemanden in der Stadt kannte. Zum Glück habe ich schnell nette Leute in meinen Kursen kennengelernt. Letzte Woche haben wir zusammen einen Ausflug an den See gemacht, und das hat mir sehr gut gefallen. Ich vermisse trotzdem unsere gemeinsamen Fußballspiele sehr.\n\nSchreib mir bitte bald zurück und erzähl mir, wie es dir geht. Vielleicht können wir uns im Sommer treffen, wenn du nach Deutschland kommst. Ich würde mich sehr darüber freuen.\n\nViele Grüße\nFelix",
+    "preguntas": [
+      {
+        "enunciado": "Felix studiert Medizin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat vor zwei Monaten mit dem Studium angefangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix kannte am Anfang schon viele Leute in Leipzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix und seine Kommilitonen haben einen Ausflug an den See gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix vermisst die Fußballspiele mit Noah nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-termin-beim-hautarzt",
+    "nivel": "A2",
+    "titulo": "Ein Termin beim Hautarzt",
+    "descripcion": "Julia geht wegen eines Ausschlags zum Hautarzt und bekommt eine Salbe verschrieben.",
+    "texto": "Julia hat seit einigen Tagen einen roten Ausschlag am Arm gehabt, deshalb hat sie einen Termin beim Hautarzt gemacht. Sie war ein bisschen nervös, weil sie noch nie bei diesem Arzt gewesen war. Am Morgen des Termins ist sie früh aufgestanden, um pünktlich in der Praxis zu sein.\n\nDer Hautarzt hat sich den Ausschlag genau angeschaut und ein paar Fragen gestellt. Er hat gefragt, ob Julia neue Kosmetikprodukte benutzt hat. Julia hat geantwortet, dass sie tatsächlich vor einer Woche eine neue Creme gekauft hat. Der Arzt hat gesagt, dass sie wahrscheinlich allergisch auf diese Creme reagiert.\n\nEr hat ihr eine spezielle Salbe verschrieben und ihr geraten, die neue Creme nicht mehr zu benutzen. Julia ist danach in die Apotheke gegangen und hat sich die Salbe geholt. Nach ein paar Tagen ist der Ausschlag verschwunden, und Julia war sehr erleichtert.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hatte einen Ausschlag am Bein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia war schon oft bei diesem Hautarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt vermutet eine allergische Reaktion auf eine Creme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat eine Salbe verschrieben bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Ausschlag ist nach ein paar Tagen nicht besser geworden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-wochenende-am-fluss",
+    "nivel": "A2",
+    "titulo": "Das Wochenende am Fluss",
+    "descripcion": "Lukas und seine Freunde haben ein entspanntes Wochenende beim Angeln und Grillen am Fluss verbracht.",
+    "texto": "Am Freitagabend sind Lukas und seine Freunde zu einem kleinen Fluss außerhalb der Stadt gefahren, weil sie dort campen wollten. Sie haben ihre Zelte am Ufer aufgebaut und ein kleines Lagerfeuer gemacht. Es war ein warmer Abend, und alle haben sich sehr auf das Wochenende gefreut.\n\nAm Samstagmorgen sind sie früh aufgestanden, um zu angeln. Lukas hat nach zwei Stunden endlich einen Fisch gefangen, obwohl er vorher gedacht hatte, dass er kein Glück haben würde. Am Nachmittag haben sie den Fisch gegrillt und zusammen mit Gemüse gegessen. Danach sind sie im Fluss schwimmen gegangen, weil das Wasser sehr klar war.\n\nAm Sonntag mussten sie leider schon wieder abreisen, weil einige von ihnen am Montag arbeiten mussten. Sie haben ihre Zelte abgebaut und den Platz sauber hinterlassen. „Das war eines der schönsten Wochenenden dieses Jahres“, hat Lukas beim Nachhausefahren gesagt.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas und seine Freunde sind in ein Hotel gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas hat einen Fisch gefangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben den Fisch nicht gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind im Fluss schwimmen gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag sind sie noch länger geblieben.",
+        "respuesta": false
+      }
+    ]
   }
 ];
 
