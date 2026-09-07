@@ -2529,6 +2529,222 @@ Damit eine echte Kreislaufwirtschaft entstehen kann, müssten nach Ansicht viele
       { enunciado: 'Experten sehen auch beim Verbraucherverhalten Änderungsbedarf.', respuesta: true },
     ],
   },
+  {
+    slug: 'meine-geschwister',
+    nivel: 'A1',
+    titulo: 'Meine Geschwister',
+    descripcion: 'Lisa stellt ihre Geschwister und den Alltag mit ihrer Familie vor.',
+    texto: `Ich heiße Lisa und ich habe zwei Geschwister. Mein Bruder heißt Tom und meine Schwester heißt Mia. Tom ist vierzehn Jahre alt und Mia ist neun Jahre alt. Wir wohnen zusammen mit unseren Eltern in einem Haus.
+
+Tom spielt gern Fußball. Er trainiert jeden Dienstag und Donnerstag. Mia malt gern Bilder. Sie hat viele bunte Stifte. Ich spiele gern Klavier. Am Wochenende spielen wir oft zusammen im Garten.
+
+Am Abend essen wir zusammen. Meine Mutter kocht das Essen und mein Vater deckt den Tisch. Nach dem Essen spielen wir manchmal ein Spiel. Meine Familie ist mir sehr wichtig.`,
+    preguntas: [
+      { enunciado: 'Lisa hat zwei Geschwister.', respuesta: true },
+      { enunciado: 'Tom ist älter als Mia.', respuesta: true },
+      { enunciado: 'Mia spielt gern Fußball.', respuesta: false },
+      { enunciado: 'Die Familie isst zusammen am Abend.', respuesta: true },
+      { enunciado: 'Lisas Vater kocht das Essen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-schulweg',
+    nivel: 'A1',
+    titulo: 'Der Schulweg',
+    descripcion: 'Paul beschreibt seinen täglichen Weg zur Schule.',
+    texto: `Paul steht jeden Morgen um sieben Uhr auf. Er frühstückt schnell und zieht seine Jacke an. Die Schule ist nicht weit von seinem Haus. Paul geht zu Fuß zur Schule.
+
+Der Schulweg dauert zehn Minuten. Paul geht durch einen kleinen Park. Dort trifft er oft seinen Freund Ben. Sie gehen dann zusammen weiter. Manchmal regnet es, und Paul nimmt einen Regenschirm mit.
+
+Die Schule beginnt um acht Uhr. Paul kommt immer pünktlich an. Nach der Schule geht er wieder nach Hause und macht seine Hausaufgaben.`,
+    preguntas: [
+      { enunciado: 'Paul steht um sieben Uhr auf.', respuesta: true },
+      { enunciado: 'Paul fährt mit dem Bus zur Schule.', respuesta: false },
+      { enunciado: 'Der Schulweg dauert zehn Minuten.', respuesta: true },
+      { enunciado: 'Paul trifft seinen Freund Ben im Park.', respuesta: true },
+      { enunciado: 'Die Schule beginnt um neun Uhr.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-besuch-beim-optiker',
+    nivel: 'A2',
+    titulo: 'Der Besuch beim Optiker',
+    descripcion: 'Julia lässt ihre Augen testen und bekommt eine neue Brille.',
+    texto: `Letzte Woche ist Julia zum Optiker gegangen, weil sie schlecht sehen konnte. Sie hat schon lange Kopfschmerzen gehabt und wollte endlich wissen, was los ist. Der Optiker hat ihre Augen genau getestet.
+
+Nach dem Test hat der Optiker gesagt, dass Julia eine Brille braucht. Julia war zuerst ein bisschen traurig, aber dann hat sie viele schöne Brillen anprobiert. Sie hat sich für ein Modell mit rotem Rahmen entschieden. „Diese Brille gefällt mir am besten", hat sie gesagt.
+
+Eine Woche später hat Julia ihre neue Brille abgeholt. Sie war sehr froh, weil sie jetzt viel besser sehen konnte. Auch ihre Kopfschmerzen sind seitdem weg. Ihre Freunde finden die neue Brille toll.`,
+    preguntas: [
+      { enunciado: 'Julia ist zum Optiker gegangen, weil sie Kopfschmerzen hatte.', respuesta: true },
+      { enunciado: 'Der Optiker hat gesagt, dass Julia keine Brille braucht.', respuesta: false },
+      { enunciado: 'Julia hat sich für eine rote Brille entschieden.', respuesta: true },
+      { enunciado: 'Julia musste eine Woche auf ihre Brille warten.', respuesta: true },
+      { enunciado: 'Julias Kopfschmerzen sind nach der Brille schlimmer geworden.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'ein-wochenende-in-den-bergen',
+    nivel: 'A2',
+    titulo: 'Ein Wochenende in den Bergen',
+    descripcion: 'Familie Berger verbringt ein Wochenende beim Wandern in den Bergen.',
+    texto: `Am letzten Wochenende ist Familie Berger in die Berge gefahren. Sie wollten wandern und die frische Luft genießen. Weil das Wetter sehr gut war, sind sie schon früh am Morgen losgefahren.
+
+Nach zwei Stunden Fahrt haben sie ihr Auto geparkt und sind zu Fuß weitergegangen. Der Weg war steil, aber die Kinder waren nicht müde. Als sie oben auf dem Berg angekommen sind, haben sie ein tolles Picknick gemacht. Sie haben Brote, Käse und Obst gegessen.
+
+Am Nachmittag sind sie wieder zurück zum Auto gegangen. Alle waren müde, aber glücklich. „Das war ein perfekter Tag", hat Herr Berger gesagt. Die Familie will bald wieder in die Berge fahren.`,
+    preguntas: [
+      { enunciado: 'Familie Berger ist ans Meer gefahren.', respuesta: false },
+      { enunciado: 'Sie sind früh am Morgen losgefahren.', respuesta: true },
+      { enunciado: 'Der Weg auf den Berg war flach.', respuesta: false },
+      { enunciado: 'Die Familie hat oben ein Picknick gemacht.', respuesta: true },
+      { enunciado: 'Die Familie will nicht mehr in die Berge fahren.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-postkarte-aus-italien',
+    nivel: 'A2',
+    titulo: 'Die Postkarte aus Italien',
+    descripcion: 'Marco schickt seiner Freundin Nina eine Postkarte aus dem Italienurlaub.',
+    texto: `Marco ist im Sommer nach Italien gefahren, weil er seine Großeltern besuchen wollte. Er hat dort zwei Wochen verbracht und viele schöne Orte gesehen. Von der Reise hat er seiner Freundin Nina eine Postkarte geschickt.
+
+Auf der Postkarte hat er geschrieben, dass das Essen in Italien fantastisch ist. Er hat Pizza, Pasta und Eis gegessen. Außerdem hat er das Meer besucht und ist jeden Tag schwimmen gegangen. Nina hat sich sehr über die Postkarte gefreut.
+
+Als Marco nach Hause gekommen ist, hat er Nina viele Fotos gezeigt. Nina fand die Bilder vom Meer besonders schön. Sie hat gesagt, dass sie auch gern einmal nach Italien fahren möchte. Marco hat versprochen, sie beim nächsten Mal mitzunehmen.`,
+    preguntas: [
+      { enunciado: 'Marco ist nach Spanien gefahren.', respuesta: false },
+      { enunciado: 'Marco hat seine Großeltern besucht.', respuesta: true },
+      { enunciado: 'Nina hat sich nicht über die Postkarte gefreut.', respuesta: false },
+      { enunciado: 'Marco ist jeden Tag schwimmen gegangen.', respuesta: true },
+      { enunciado: 'Nina möchte auch einmal nach Italien fahren.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-erste-arbeitstag-in-der-neuen-firma',
+    nivel: 'B1',
+    titulo: 'Der erste Arbeitstag in der neuen Firma',
+    descripcion: 'Simon erlebt seinen ersten Arbeitstag in einer neuen Firma.',
+    texto: `Simon hatte lange auf diesen Tag gewartet: seinen ersten Arbeitstag in der neuen Firma. Obwohl er sehr nervös war, freute er sich auch darauf, endlich neue Kollegen kennenzulernen. Nachdem er sich am Empfang gemeldet hatte, wurde er von seiner neuen Chefin persönlich abgeholt.
+
+Am Vormittag bekam Simon eine Führung durch das Gebäude und lernte die wichtigsten Kollegen kennen. Trotzdem fühlte er sich zunächst etwas überfordert, weil er so viele neue Informationen auf einmal verarbeiten musste. Ein Kollege namens Felix bemerkte das und half ihm geduldig bei den ersten Aufgaben.
+
+Am Ende des Tages war Simon erschöpft, aber zufrieden. Er hatte das Gefühl, dass er sich in der neuen Firma wohlfühlen würde. Auf dem Heimweg rief er seine Eltern an und erzählte ihnen begeistert von seinem ersten Tag.`,
+    preguntas: [
+      { enunciado: 'Simon war an seinem ersten Arbeitstag überhaupt nicht nervös.', respuesta: false },
+      { enunciado: 'Simons Chefin hat ihn persönlich abgeholt.', respuesta: true },
+      { enunciado: 'Simon fühlte sich sofort überhaupt nicht überfordert.', respuesta: false },
+      { enunciado: 'Felix hat Simon bei den ersten Aufgaben geholfen.', respuesta: true },
+      { enunciado: 'Simon war am Ende des Tages unzufrieden.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'das-strassenfest-in-der-nachbarschaft',
+    nivel: 'B1',
+    titulo: 'Das Straßenfest in der Nachbarschaft',
+    descripcion: 'Die Nachbarn der Lindenstraße organisieren gemeinsam ein Straßenfest.',
+    texto: `Jedes Jahr im Sommer organisieren die Bewohner der Lindenstraße ein Straßenfest, obwohl die Vorbereitungen viel Zeit kosten. In diesem Jahr übernahm Frau Wagner die Organisation, nachdem der frühere Organisator in eine andere Stadt gezogen war. Sie sammelte Ideen von allen Nachbarn und plante ein buntes Programm.
+
+Am Tag des Festes bauten die Nachbarn schon früh morgens Tische und Stühle auf die Straße. Jede Familie brachte etwas zu essen mit, sodass am Ende ein riesiges Buffet entstand. Trotzdem gab es genug für alle, denn die Nachbarn teilten alles miteinander. Am Nachmittag spielte eine kleine Band, und viele Kinder tanzten auf der Straße.
+
+Obwohl es am Abend leicht zu regnen begann, blieben die meisten Gäste noch lange zusammen. Frau Wagner war stolz, dass das Fest so gut gelungen war. Die Nachbarn beschlossen, das Straßenfest auch im nächsten Jahr wieder zu organisieren.`,
+    preguntas: [
+      { enunciado: 'Frau Wagner hat die Organisation des Festes übernommen.', respuesta: true },
+      { enunciado: 'Jede Familie musste ihr eigenes Essen allein essen.', respuesta: false },
+      { enunciado: 'Am Nachmittag spielte eine Band.', respuesta: true },
+      { enunciado: 'Es hat den ganzen Tag stark geregnet.', respuesta: false },
+      { enunciado: 'Die Nachbarn wollen das Fest im nächsten Jahr wiederholen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-austauschschueler-aus-frankreich',
+    nivel: 'B1',
+    titulo: 'Der Austauschschüler aus Frankreich',
+    descripcion: 'Julien aus Frankreich lebt für einen Austausch bei Familie Hoffmann.',
+    texto: `Seit einer Woche wohnt Julien, ein Austauschschüler aus Frankreich, bei der Familie Hoffmann. Julien spricht schon relativ gut Deutsch, obwohl er die Sprache erst seit zwei Jahren lernt. Am Anfang war er etwas schüchtern, doch das änderte sich schnell.
+
+Tim, der Sohn der Familie Hoffmann, zeigte Julien die Schule und stellte ihn seinen Freunden vor. Nachdem die beiden Jungen gemeinsam Fußball gespielt hatten, wurden sie schnell gute Freunde. Julien erzählte Tim viel über das Leben in Frankreich, während Tim ihm die deutschen Bräuche erklärte.
+
+Am Wochenende unternahm die Familie Hoffmann einen Ausflug in die Stadt, damit Julien mehr von Deutschland sehen konnte. Julien war begeistert von der alten Architektur. Er schrieb seinen Eltern, dass er sich in Deutschland sehr wohlfühle und schon jetzt traurig sei, dass der Austausch bald enden würde.`,
+    preguntas: [
+      { enunciado: 'Julien kommt aus Spanien.', respuesta: false },
+      { enunciado: 'Julien und Tim wurden schnell Freunde.', respuesta: true },
+      { enunciado: 'Julien spricht kein Wort Deutsch.', respuesta: false },
+      { enunciado: 'Die Familie Hoffmann hat einen Ausflug in die Stadt gemacht.', respuesta: true },
+      { enunciado: 'Julien freut sich, dass der Austausch bald endet.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-woche-im-schullandheim',
+    nivel: 'B1',
+    titulo: 'Die Woche im Schullandheim',
+    descripcion: 'Die Klasse 8b verbringt eine erlebnisreiche Woche im Schullandheim.',
+    texto: `Nachdem die Klasse 8b monatelang auf die Fahrt gewartet hatte, ging es endlich los: eine ganze Woche im Schullandheim am Waldrand. Obwohl einige Schüler anfangs Heimweh hatten, verging die Zeit schnell, weil das Programm sehr abwechslungsreich war.
+
+Am ersten Tag unternahmen die Schüler eine Wanderung durch den Wald und lernten dabei viel über heimische Pflanzen und Tiere. Danach bauten sie gemeinsam ein Lagerfeuer und sangen Lieder. Trotz des kühlen Wetters blieben alle bis spät in die Nacht draußen sitzen.
+
+In den folgenden Tagen machten die Schüler Gruppenspiele, bastelten und besuchten einen nahegelegenen Bauernhof. Am letzten Abend gab es eine große Abschlussparty, bei der jede Gruppe etwas vorführte. Als der Bus am Ende der Woche zurück zur Schule fuhr, waren viele Schüler traurig, dass die schöne Zeit schon vorbei war.`,
+    preguntas: [
+      { enunciado: 'Die Klasse 8b war eine ganze Woche im Schullandheim.', respuesta: true },
+      { enunciado: 'Kein Schüler hatte am Anfang Heimweh.', respuesta: false },
+      { enunciado: 'Die Schüler haben einen Bauernhof besucht.', respuesta: true },
+      { enunciado: 'Am letzten Abend gab es keine besondere Veranstaltung.', respuesta: false },
+      { enunciado: 'Am Ende der Woche waren viele Schüler traurig.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'das-recht-auf-unerreichbarkeit',
+    nivel: 'B2',
+    titulo: 'Das Recht auf Unerreichbarkeit',
+    descripcion: 'Ein Diskurs über ein mögliches gesetzliches Recht, nach Feierabend nicht erreichbar sein zu müssen.',
+    texto: `In den vergangenen Jahren wird zunehmend darüber diskutiert, ob Arbeitnehmern ein gesetzliches Recht auf Unerreichbarkeit außerhalb der Arbeitszeit eingeräumt werden sollte. Befürworter argumentieren, dass die ständige Erreichbarkeit über Smartphones und E-Mails die Grenze zwischen Arbeit und Freizeit zunehmend verschwimmen lasse, was langfristig zu Erschöpfung und psychischen Erkrankungen führen könne.
+
+Einige europäische Länder haben bereits entsprechende Regelungen eingeführt, die es Beschäftigten erlauben, dienstliche Nachrichten nach Feierabend zu ignorieren, ohne arbeitsrechtliche Konsequenzen befürchten zu müssen. Kritiker wenden allerdings ein, dass solche Gesetze in vielen Branchen kaum umsetzbar wären, da etwa in international agierenden Unternehmen unterschiedliche Zeitzonen eine flexible Kommunikation erforderten. Zudem müsse berücksichtigt werden, dass nicht jede Erreichbarkeit erzwungen sei, sondern manche Beschäftigte freiwillig auch abends arbeiteten.
+
+Würde ein solches Recht bundesweit eingeführt, müssten Unternehmen ihre internen Kommunikationsregeln grundlegend überdenken. Manche Experten schlagen vor, dass anstelle einer starren gesetzlichen Regelung individuelle Vereinbarungen zwischen Arbeitgebern und Arbeitnehmern getroffen werden sollten. Ob eine solche Lösung tatsächlich zu einer besseren Work-Life-Balance führen würde, bleibt jedoch umstritten.`,
+    preguntas: [
+      { enunciado: 'Laut Text diskutieren manche Länder über ein Recht auf Unerreichbarkeit.', respuesta: true },
+      { enunciado: 'Befürworter meinen, dass ständige Erreichbarkeit keine negativen Folgen habe.', respuesta: false },
+      { enunciado: 'Einige europäische Länder haben bereits entsprechende Gesetze eingeführt.', respuesta: true },
+      { enunciado: 'Kritiker sehen bei international tätigen Unternehmen keine Probleme mit einem solchen Gesetz.', respuesta: false },
+      { enunciado: 'Laut Text ist unumstritten, dass ein gesetzliches Recht die Work-Life-Balance verbessern würde.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'algorithmen-und-meinungsbildung',
+    nivel: 'B2',
+    titulo: 'Algorithmen und Meinungsbildung',
+    descripcion: 'Wie Algorithmen in sozialen Netzwerken die öffentliche Meinungsbildung beeinflussen.',
+    texto: `Immer mehr Menschen informieren sich heutzutage über soziale Netzwerke, deren Inhalte von Algorithmen ausgewählt und sortiert werden. Diese Algorithmen entscheiden maßgeblich darüber, welche Nachrichten und Meinungen den Nutzern angezeigt werden, wobei in erster Linie jene Inhalte bevorzugt werden, die eine hohe Interaktion versprechen. Dadurch entsteht die Gefahr, dass polarisierende und emotional aufgeladene Beiträge stärker verbreitet werden als sachliche Informationen.
+
+Kritiker warnen davor, dass auf diese Weise sogenannte Filterblasen entstehen könnten, in denen Nutzer vorwiegend mit Meinungen konfrontiert werden, die ihre eigene Sichtweise bestätigen. Dies erschwere es, unterschiedliche Perspektiven wahrzunehmen, und könne gesellschaftliche Spaltungen verstärken. Befürworter der Plattformen entgegnen jedoch, dass die Nutzer selbst durch ihr Verhalten Einfluss darauf nähmen, welche Inhalte ihnen angezeigt würden, und dass eine vollständige Neutralität der Algorithmen ohnehin kaum erreichbar sei.
+
+Um diesem Problem entgegenzuwirken, fordern manche Politiker mehr Transparenz bei der Funktionsweise solcher Algorithmen, damit Nutzer nachvollziehen können, warum ihnen bestimmte Inhalte gezeigt werden. Ob eine solche Transparenzpflicht tatsächlich zu einer ausgewogeneren Meinungsbildung beitragen würde, ist unter Experten allerdings weiterhin umstritten.`,
+    preguntas: [
+      { enunciado: 'Algorithmen wählen laut Text aus, welche Inhalte Nutzern angezeigt werden.', respuesta: true },
+      { enunciado: 'Laut Text werden vor allem sachliche und neutrale Beiträge bevorzugt verbreitet.', respuesta: false },
+      { enunciado: 'Kritiker befürchten die Entstehung von Filterblasen.', respuesta: true },
+      { enunciado: 'Befürworter der Plattformen sagen, dass Nutzer keinen Einfluss auf die angezeigten Inhalte hätten.', respuesta: false },
+      { enunciado: 'Manche Politiker fordern mehr Transparenz bei Algorithmen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'leistungsdruck-im-abitur',
+    nivel: 'B2',
+    titulo: 'Leistungsdruck im Abitur',
+    descripcion: 'Eine Debatte über den wachsenden Leistungsdruck während der Abiturzeit und mögliche Reformen.',
+    texto: `In den letzten Jahren wird verstärkt diskutiert, ob der zunehmende Leistungsdruck während der Abiturzeit reformiert werden sollte. Viele Schülerinnen und Schüler berichten von Schlafmangel, Angstzuständen und körperlichen Beschwerden, die sie auf den enormen Druck zurückführen, in kurzer Zeit möglichst gute Noten zu erzielen. Bildungsexperten weisen darauf hin, dass dieser Druck nicht nur die schulischen Leistungen, sondern auch die psychische Gesundheit vieler Jugendlicher erheblich belaste.
+
+Als Ursache wird häufig das derzeitige Bewertungssystem genannt, bei dem wenige zentrale Prüfungen über den gesamten weiteren Bildungsweg entscheiden. Befürworter einer Reform schlagen vor, stattdessen kontinuierliche Bewertungen während der gesamten Schulzeit stärker zu berücksichtigen, sodass einzelne Prüfungstage weniger Gewicht hätten. Gegner dieser Idee befürchten jedoch, dass dadurch die Vergleichbarkeit der Abschlüsse zwischen verschiedenen Schulen und Bundesländern verloren gehen könnte.
+
+Würde das Bewertungssystem tatsächlich reformiert, müssten Lehrkräfte völlig neue Bewertungsmethoden entwickeln und anwenden. Manche Pädagogen betonen zudem, dass neben strukturellen Reformen auch eine bessere psychologische Unterstützung an Schulen notwendig wäre, damit Schülerinnen und Schüler besser mit Prüfungsstress umgehen könnten. Bislang konnte sich die Bildungspolitik jedoch auf keine einheitliche Lösung einigen.`,
+    preguntas: [
+      { enunciado: 'Viele Schüler berichten laut Text von Schlafmangel wegen des Leistungsdrucks.', respuesta: true },
+      { enunciado: 'Laut Text hat der Leistungsdruck keinerlei Einfluss auf die psychische Gesundheit.', respuesta: false },
+      { enunciado: 'Befürworter einer Reform wollen kontinuierliche Bewertungen stärker berücksichtigen.', respuesta: true },
+      { enunciado: 'Gegner der Reform befürchten einen Verlust der Vergleichbarkeit der Abschlüsse.', respuesta: true },
+      { enunciado: 'Die Bildungspolitik hat sich laut Text bereits auf eine einheitliche Lösung geeinigt.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
