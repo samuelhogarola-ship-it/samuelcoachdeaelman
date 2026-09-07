@@ -3401,6 +3401,216 @@ Sollte sich Deutschland künftig doch für eine Rückkehr zur Kernenergie entsch
       { enunciado: 'Alle EU-Mitgliedstaaten haben sich auf eine gemeinsame Haltung zur Kernenergie geeinigt.', respuesta: false },
     ],
   },
+  {
+    slug: 'meine-schultasche',
+    nivel: 'A1',
+    titulo: 'Meine Schultasche',
+    descripcion: 'Ein Kind beschreibt, was in seiner Schultasche ist.',
+    texto: `Ich heiße Paul und ich bin neun Jahre alt. Jeden Morgen packe ich meine Schultasche. In der Tasche sind viele Sachen. Ich habe zwei Hefte, einen Bleistift und einen Radiergummi. Ich habe auch ein Buch für Deutsch und ein Buch für Mathe. Meine Schultasche ist blau und sehr groß.
+
+Meine Mutter macht mir auch ein Pausenbrot. Das Brot ist mit Käse. Ich habe auch einen Apfel und eine Flasche Wasser. Um acht Uhr gehe ich zur Schule. Die Schule ist nicht weit von meinem Haus. Ich laufe zu Fuß und treffe meine Freundin Mia. Wir gehen zusammen zur Schule.`,
+    preguntas: [
+      { enunciado: 'Paul ist neun Jahre alt.', respuesta: true },
+      { enunciado: 'Die Schultasche ist rot.', respuesta: false },
+      { enunciado: 'Paul hat ein Buch für Mathe.', respuesta: true },
+      { enunciado: 'Die Mutter macht kein Pausenbrot.', respuesta: false },
+      { enunciado: 'Paul fährt mit dem Bus zur Schule.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-baecker',
+    nivel: 'A1',
+    titulo: 'Der Bäcker',
+    descripcion: 'Ein Kind kauft mit seinem Vater Brot beim Bäcker.',
+    texto: `Am Samstag gehe ich mit meinem Vater zum Bäcker. Der Bäcker ist in unserer Straße. Es gibt dort viele Brötchen, Brot und Kuchen. Mein Vater kauft ein großes Brot für die Familie. Ich möchte ein süßes Brötchen mit Schokolade.
+
+Die Verkäuferin ist sehr nett. Sie sagt: „Guten Morgen! Was möchtet ihr heute?" Mein Vater bestellt fünf Brötchen und ein Vollkornbrot. Ich zeige auf das Schokobrötchen. Die Verkäuferin lacht und packt alles in eine Tüte. Wir bezahlen an der Kasse und gehen nach Hause. Zu Hause frühstücken wir zusammen.`,
+    preguntas: [
+      { enunciado: 'Der Vater geht mit dem Kind zum Bäcker.', respuesta: true },
+      { enunciado: 'Der Bäcker ist weit weg von zu Hause.', respuesta: false },
+      { enunciado: 'Der Vater kauft ein großes Brot.', respuesta: true },
+      { enunciado: 'Das Kind möchte ein Schokobrötchen.', respuesta: true },
+      { enunciado: 'Die Familie frühstückt im Bäckerladen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'meine-stadt',
+    nivel: 'A1',
+    titulo: 'Meine Stadt',
+    descripcion: 'Ein Junge beschreibt seine kleine Stadt und was er dort mag.',
+    texto: `Ich wohne in einer kleinen Stadt. Die Stadt heißt Lindenau. Es gibt einen Marktplatz, eine Kirche und ein kleines Kino. Meine Schule ist in der Nähe vom Marktplatz. Am Marktplatz gibt es auch einen Spielplatz.
+
+Am Wochenende gehe ich oft mit meiner Familie in den Park. Der Park ist grün und ruhig. Dort gibt es einen See mit Enten. Meine Schwester füttert gern die Enten. Danach essen wir Eis in einem kleinen Café. Ich finde meine Stadt sehr schön.`,
+    preguntas: [
+      { enunciado: 'Die Stadt heißt Lindenau.', respuesta: true },
+      { enunciado: 'Es gibt kein Kino in der Stadt.', respuesta: false },
+      { enunciado: 'Der Park hat einen See mit Enten.', respuesta: true },
+      { enunciado: 'Die Schwester mag es nicht, die Enten zu füttern.', respuesta: false },
+      { enunciado: 'Die Familie isst Eis im Café.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-erste-schultag-der-tochter',
+    nivel: 'A2',
+    titulo: 'Der erste Schultag der Tochter',
+    descripcion: 'Eine Mutter erzählt vom aufregenden ersten Schultag ihrer Tochter.',
+    texto: `Gestern war ein besonderer Tag, weil meine Tochter Lina ihren ersten Schultag hatte. Wir sind früh aufgestanden, weil Lina sehr aufgeregt war. Sie hat ihr neues Kleid angezogen und ihre Schultüte mitgenommen. Ich habe Fotos gemacht, bevor wir das Haus verlassen haben.
+
+In der Schule haben viele Kinder und Eltern gewartet. Die Lehrerin hat alle Kinder begrüßt und hat jedem Kind einen Platz gezeigt. Lina hat schnell ein neues Mädchen kennengelernt, das neben ihr gesessen hat. Als die Schule zu Ende war, ist Lina glücklich zu mir gelaufen und hat erzählt, dass sie schon eine neue Freundin hat.
+
+Am Nachmittag haben wir zusammen gefeiert. Meine Eltern sind auch gekommen, weil sie Lina zum ersten Schultag gratulieren wollten. Wir haben einen Kuchen gegessen und viel gelacht. Lina hat gesagt, dass sie sich schon auf morgen freut.`,
+    preguntas: [
+      { enunciado: 'Lina hatte gestern ihren ersten Schultag.', respuesta: true },
+      { enunciado: 'Die Familie ist spät aufgestanden.', respuesta: false },
+      { enunciado: 'Lina hat in der Schule eine neue Freundin kennengelernt.', respuesta: true },
+      { enunciado: 'Die Großeltern sind nicht zur Feier gekommen.', respuesta: false },
+      { enunciado: 'Lina freut sich auf den nächsten Schultag.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-autopanne-auf-der-autobahn',
+    nivel: 'A2',
+    titulo: 'Die Autopanne auf der Autobahn',
+    descripcion: 'Eine Familie hat auf dem Weg in den Urlaub eine Autopanne.',
+    texto: `Familie Berger ist am Freitag in den Urlaub gefahren. Sie wollten an die Nordsee fahren, weil die Kinder das Meer sehen wollten. Nach zwei Stunden auf der Autobahn hat das Auto plötzlich komische Geräusche gemacht. Herr Berger ist an den Straßenrand gefahren, weil er nicht weiterfahren wollte.
+
+Er hat sofort den Pannendienst angerufen, weil er selbst das Problem nicht lösen konnte. Die Kinder waren zuerst traurig, dass die Reise unterbrochen wurde. Nach einer Stunde ist der Mechaniker gekommen und hat das Auto repariert. Er hat gesagt, dass ein kleines Teil kaputt war.
+
+Die Familie ist froh gewesen, dass die Panne nicht so schlimm war. Sie sind weitergefahren und haben am Abend endlich die Nordsee erreicht. Trotz der Verspätung haben alle den ersten Urlaubstag genossen.`,
+    preguntas: [
+      { enunciado: 'Familie Berger wollte an die Ostsee fahren.', respuesta: false },
+      { enunciado: 'Das Auto hatte auf der Autobahn ein Problem.', respuesta: true },
+      { enunciado: 'Herr Berger hat den Pannendienst angerufen.', respuesta: true },
+      { enunciado: 'Der Mechaniker konnte das Auto nicht reparieren.', respuesta: false },
+      { enunciado: 'Die Familie hat die Nordsee am Abend erreicht.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'ein-tag-im-freizeitpark',
+    nivel: 'A2',
+    titulo: 'Ein Tag im Freizeitpark',
+    descripcion: 'Zwei Freundinnen verbringen einen aufregenden Tag im Freizeitpark.',
+    texto: `Sophie und Emma sind am Sonntag in einen Freizeitpark gefahren. Sie sind schon lange nicht mehr dort gewesen, deshalb waren sie sehr aufgeregt. Zuerst sind sie mit der großen Achterbahn gefahren. Emma hatte etwas Angst, aber Sophie hat sie beruhigt.
+
+Nach der Achterbahn haben die beiden Freundinnen eine Pause gemacht, weil sie hungrig waren. Sie haben Pommes und eine Limonade gegessen. Danach sind sie noch mit dem Riesenrad gefahren und haben die ganze Stadt von oben gesehen. Emma hat gesagt, dass die Aussicht wunderschön war.
+
+Am Abend waren beide sehr müde, aber glücklich. Sie haben beschlossen, dass sie nächstes Jahr wiederkommen möchten. Der Ausflug war ein perfekter Tag für die beiden Freundinnen.`,
+    preguntas: [
+      { enunciado: 'Sophie und Emma sind mit dem Auto gefahren.', respuesta: false },
+      { enunciado: 'Sie sind zuerst mit der Achterbahn gefahren.', respuesta: true },
+      { enunciado: 'Emma hatte keine Angst vor der Achterbahn.', respuesta: false },
+      { enunciado: 'Sie sind auch mit dem Riesenrad gefahren.', respuesta: true },
+      { enunciado: 'Die Freundinnen möchten nicht wiederkommen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'nachhilfe-geben-als-nebenjob',
+    nivel: 'B1',
+    titulo: 'Nachhilfe geben als Nebenjob',
+    descripcion: 'Ein Student berichtet von seinen Erfahrungen als Nachhilfelehrer.',
+    texto: `Seit einem Jahr gebe ich zweimal pro Woche Nachhilfe in Mathematik. Nachdem ich selbst in der Schule oft Probleme mit diesem Fach hatte, wollte ich anderen Schülern helfen, die ähnliche Schwierigkeiten haben. Anfangs war ich unsicher, ob ich als Lehrer überhaupt geeignet bin, obwohl ich das Thema fachlich gut beherrsche.
+
+Mittlerweile unterrichte ich drei Schüler regelmäßig. Am Anfang jeder Stunde bespreche ich mit ihnen die Hausaufgaben, bevor wir neue Themen behandeln. Manche Schüler lernen schnell, während andere mehr Geduld brauchen. Besonders freue ich mich, wenn ein Schüler ein Thema endlich versteht, nachdem er lange daran gearbeitet hat.
+
+Der Nebenjob bringt mir nicht nur Geld, sondern auch wertvolle Erfahrung. Trotzdem ist es manchmal anstrengend, nach einem langen Studientag noch zu unterrichten. Insgesamt bin ich aber froh, dass ich diesen Weg gewählt habe, weil ich dadurch sowohl pädagogische Fähigkeiten als auch Geduld gelernt habe.`,
+    preguntas: [
+      { enunciado: 'Der Student gibt seit einem Jahr Nachhilfe.', respuesta: true },
+      { enunciado: 'Er unterrichtet das Fach Englisch.', respuesta: false },
+      { enunciado: 'Am Anfang jeder Stunde bespricht er die Hausaufgaben.', respuesta: true },
+      { enunciado: 'Der Nebenjob macht ihm keine Freude.', respuesta: false },
+      { enunciado: 'Er unterrichtet aktuell drei Schüler.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-renovierung-der-alten-wohnung',
+    nivel: 'B1',
+    titulo: 'Die Renovierung der alten Wohnung',
+    descripcion: 'Ein Paar renoviert seine erste gemeinsame Wohnung und stößt auf Überraschungen.',
+    texto: `Als Tim und Sarah ihre erste gemeinsame Wohnung gefunden hatten, war die Freude riesig, obwohl das alte Gebäude dringend renoviert werden musste. Die Wände waren grau und die Küche stammte noch aus den achtziger Jahren. Trotzdem sahen die beiden großes Potenzial in der Wohnung, weil die Zimmer hell und die Decken hoch waren.
+
+Nachdem sie einen Plan erstellt hatten, begannen sie mit den Malerarbeiten. Sie strichen die Wände in warmen Farben und tauschten die alten Lampen aus. Beim Entfernen des alten Bodens entdeckten sie unerwartet einen wunderschönen Holzboden, der jahrelang unter dem Teppich versteckt gewesen war. Diese Entdeckung motivierte sie, noch mehr Zeit und Energie in das Projekt zu investieren.
+
+Nach drei Monaten intensiver Arbeit war die Wohnung endlich fertig. Obwohl die Renovierung anstrengender war, als sie zunächst gedacht hatten, waren Tim und Sarah stolz auf das Ergebnis. Sie feierten den Abschluss der Arbeiten mit Freunden und Familie und genossen ihr neues Zuhause.`,
+    preguntas: [
+      { enunciado: 'Die Wohnung war schon vor dem Einzug perfekt renoviert.', respuesta: false },
+      { enunciado: 'Unter dem Teppich fanden sie einen alten Holzboden.', respuesta: true },
+      { enunciado: 'Tim und Sarah haben die Renovierung nach einem Monat beendet.', respuesta: false },
+      { enunciado: 'Die beiden haben die Wände neu gestrichen.', respuesta: true },
+      { enunciado: 'Sie haben den Abschluss der Arbeiten gefeiert.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'ein-wochenende-im-kletterpark',
+    nivel: 'B1',
+    titulo: 'Ein Wochenende im Kletterpark',
+    descripcion: 'Eine Gruppe von Freunden verbringt einen abenteuerlichen Tag im Kletterpark.',
+    texto: `Am Samstag trafen sich fünf Freunde, um gemeinsam einen Kletterpark im Wald zu besuchen. Keiner von ihnen hatte vorher schon einmal an Seilen zwischen den Bäumen geklettert, weshalb die Vorfreude und die Nervosität gleichermaßen groß waren. Nachdem sie sich Helm und Gurt angelegt hatten, erklärte ein Trainer die wichtigsten Sicherheitsregeln.
+
+Der erste Parcours war noch relativ einfach, doch mit jeder weiteren Ebene wurden die Hindernisse anspruchsvoller. Obwohl Lukas anfangs große Höhenangst hatte, schaffte er es dank der Unterstützung seiner Freunde, auch die schwierigeren Strecken zu meistern. Besonders die Seilrutsche am Ende jedes Parcours sorgte für Begeisterung bei der ganzen Gruppe.
+
+Nachdem sie den ganzen Nachmittag im Wald verbracht hatten, waren alle erschöpft, aber glücklich. Bei einem gemeinsamen Abendessen erzählten sie sich gegenseitig von ihren mutigsten Momenten. Die Freunde waren sich einig, dass sie diesen Ausflug bald wiederholen wollten.`,
+    preguntas: [
+      { enunciado: 'Die Freunde waren erfahrene Kletterer.', respuesta: false },
+      { enunciado: 'Ein Trainer erklärte die Sicherheitsregeln.', respuesta: true },
+      { enunciado: 'Lukas hatte keine Angst vor der Höhe.', respuesta: false },
+      { enunciado: 'Die Seilrutsche gefiel der Gruppe besonders gut.', respuesta: true },
+      { enunciado: 'Nach dem Ausflug wollten sie den Park nie wieder besuchen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'tempolimit-auf-autobahnen',
+    nivel: 'B2',
+    titulo: 'Die Debatte um ein Tempolimit auf Autobahnen',
+    descripcion: 'Deutschland diskutiert seit Jahrzehnten kontrovers über ein generelles Tempolimit auf Autobahnen.',
+    texto: `Kaum ein verkehrspolitisches Thema wird in Deutschland so leidenschaftlich diskutiert wie die Frage nach einem generellen Tempolimit auf Autobahnen. Während nahezu alle europäischen Nachbarländer längst eine Höchstgeschwindigkeit eingeführt haben, gilt Deutschland als eines der letzten Länder, in denen auf weiten Strecken uneingeschränkt schnell gefahren werden darf. Befürworter eines Tempolimits verweisen vor allem auf die Klimabilanz: Würde die Geschwindigkeit auf 130 km/h begrenzt, ließen sich laut Umweltbundesamt jährlich mehrere Millionen Tonnen CO2 einsparen.
+
+Gegner des Tempolimits hingegen betonen die symbolische Bedeutung der freien Fahrt für die deutsche Autoindustrie und argumentieren, dass moderne Fahrzeuge ohnehin immer effizienter würden. Zudem verweisen sie darauf, dass die tatsächliche Einsparung geringer ausfallen könnte, als Umweltverbände behaupten, da ein Großteil der Autobahnabschnitte bereits heute durch Baustellen oder Verkehrsschilder begrenzt sei. Auch das Argument der persönlichen Freiheit spielt in der öffentlichen Debatte eine wichtige Rolle, da viele Autofahrer ein Tempolimit als unnötigen staatlichen Eingriff empfinden.
+
+Unabhängig von der politischen Ausrichtung zeigen Umfragen, dass eine wachsende Mehrheit der Bevölkerung inzwischen für ein Tempolimit ist, was im Widerspruch zur bisherigen Ablehnung durch mehrere Bundesregierungen steht. Sollte sich die Klimapolitik weiter verschärfen, dürfte diese Debatte in den kommenden Jahren noch an Bedeutung gewinnen, zumal der Verkehrssektor bislang eines der Felder ist, in denen Deutschland seine Klimaziele am deutlichsten verfehlt.`,
+    preguntas: [
+      { enunciado: 'Deutschland gehört zu den letzten Ländern Europas ohne generelles Tempolimit.', respuesta: true },
+      { enunciado: 'Laut Umweltbundesamt hätte ein Tempolimit keinen Einfluss auf den CO2-Ausstoß.', respuesta: false },
+      { enunciado: 'Gegner des Tempolimits betonen unter anderem das Argument der persönlichen Freiheit.', respuesta: true },
+      { enunciado: 'Umfragen zeigen, dass die Mehrheit der Bevölkerung ein Tempolimit inzwischen befürwortet.', respuesta: true },
+      { enunciado: 'Der Verkehrssektor erreicht laut Text seine Klimaziele bereits vollständig.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'influencer-marketing-und-verbraucherschutz',
+    nivel: 'B2',
+    titulo: 'Influencer-Marketing und Verbraucherschutz',
+    descripcion: 'Werbung durch Influencer wirft zunehmend Fragen zu Transparenz und Verbraucherschutz auf.',
+    texto: `Influencer-Marketing hat sich in den vergangenen Jahren zu einem der wichtigsten Werbeinstrumente der digitalen Wirtschaft entwickelt. Unternehmen investieren mittlerweile Milliarden, damit bekannte Persönlichkeiten aus sozialen Netzwerken ihre Produkte präsentieren, da diese Empfehlungen bei jungen Zielgruppen als besonders glaubwürdig gelten. Anders als klassische Werbung wirkt Influencer-Marketing oft wie eine persönliche Empfehlung von Freunden, obwohl dahinter in der Regel bezahlte Kooperationen stehen.
+
+Genau an diesem Punkt setzt die Kritik von Verbraucherschützern an. Sie bemängeln, dass viele Werbeinhalte nicht ausreichend als solche gekennzeichnet werden, wodurch insbesondere jüngere Nutzer die kommerzielle Absicht hinter einem Beitrag kaum erkennen können. Gerichte haben in den letzten Jahren mehrfach entschieden, dass auch scheinbar private Beiträge als Werbung gelten müssen, sobald ein wirtschaftlicher Vorteil damit verbunden ist. Dennoch fällt es Behörden schwer, die enorme Menge an täglich veröffentlichten Inhalten wirksam zu kontrollieren.
+
+Ein weiteres Problem betrifft die Vermarktung von Finanzprodukten und Nahrungsergänzungsmitteln, bei denen fehlende Kennzeichnung besonders gravierende Folgen haben kann. Verbraucherschutzorganisationen fordern deshalb strengere gesetzliche Vorgaben sowie höhere Bußgelder für Verstöße. Ob eine schärfere Regulierung die Probleme tatsächlich löst, bleibt jedoch fraglich, solange die Plattformen selbst kaum Verantwortung für die Inhalte übernehmen, die über ihre Algorithmen verbreitet werden.`,
+    preguntas: [
+      { enunciado: 'Influencer-Marketing wird von jungen Zielgruppen oft als besonders glaubwürdig empfunden.', respuesta: true },
+      { enunciado: 'Laut Text sind alle Werbeinhalte von Influencern klar als Werbung gekennzeichnet.', respuesta: false },
+      { enunciado: 'Gerichte haben entschieden, dass bezahlte Beiträge als Werbung gelten müssen.', respuesta: true },
+      { enunciado: 'Die Vermarktung von Finanzprodukten gilt laut Text als unproblematisch.', respuesta: false },
+      { enunciado: 'Verbraucherschutzorganisationen fordern strengere gesetzliche Vorgaben.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'sabbatical-und-die-neue-arbeitskultur',
+    nivel: 'B2',
+    titulo: 'Sabbatical und die neue Arbeitskultur',
+    descripcion: 'Immer mehr Arbeitnehmer nehmen sich eine berufliche Auszeit, um Beruf und Leben neu auszubalancieren.',
+    texto: `Die klassische Erwerbsbiografie, bei der Menschen ununterbrochen von der Ausbildung bis zur Rente arbeiten, verliert zunehmend an Bedeutung. Immer mehr Arbeitnehmerinnen und Arbeitnehmer entscheiden sich für ein Sabbatical, also eine mehrmonatige berufliche Auszeit, während der das Arbeitsverhältnis ruht oder in Teilzeit fortgeführt wird. Was vor einigen Jahren noch als exotisches Privileg einzelner Branchen galt, wird inzwischen von immer mehr Unternehmen aktiv angeboten, um als attraktiver Arbeitgeber wahrgenommen zu werden.
+
+Die Gründe für eine solche Auszeit sind vielfältig: Manche nutzen die Zeit für ausgedehnte Reisen, andere widmen sich der Familie, einem Studium oder schlicht der Erholung von den Belastungen des Berufsalltags. Befürworter argumentieren, dass ein Sabbatical langfristig die Motivation und Kreativität der Beschäftigten steigere, da diese mit neuer Energie und frischen Ideen an ihren Arbeitsplatz zurückkehrten. Studien deuten zudem darauf hin, dass Mitarbeitende nach einer längeren Pause seltener unter Burnout-Symptomen leiden als jene, die ununterbrochen arbeiten.
+
+Kritiker weisen hingegen darauf hin, dass nicht jeder Arbeitnehmer sich eine unbezahlte oder teilweise unbezahlte Auszeit finanziell leisten kann, wodurch das Modell vor allem gut verdienenden Angestellten vorbehalten bleibt. Zudem berichten manche Rückkehrer von Schwierigkeiten, nach längerer Abwesenheit wieder vollständig in ihre Teams integriert zu werden. Damit das Sabbatical nicht zu einem weiteren Statussymbol privilegierter Berufsgruppen wird, fordern Arbeitsmarktexperten flexiblere und sozial gerechtere Modelle, die allen Beschäftigten offenstehen, unabhängig von Einkommen und Position.`,
+    preguntas: [
+      { enunciado: 'Ein Sabbatical ist laut Text eine mehrmonatige berufliche Auszeit.', respuesta: true },
+      { enunciado: 'Immer weniger Unternehmen bieten heute Sabbaticals an.', respuesta: false },
+      { enunciado: 'Studien deuten darauf hin, dass Sabbaticals das Burnout-Risiko senken können.', respuesta: true },
+      { enunciado: 'Laut Text können sich alle Arbeitnehmer ein Sabbatical problemlos finanziell leisten.', respuesta: false },
+      { enunciado: 'Manche Rückkehrer berichten von Problemen bei der Wiedereingliederung ins Team.', respuesta: true },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
