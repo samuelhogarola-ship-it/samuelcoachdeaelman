@@ -8137,6 +8137,354 @@ const TEXTOS = [
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-kaufhaus",
+    "nivel": "A1",
+    "titulo": "Im Kaufhaus",
+    "descripcion": "Lisa kauft eine neue Jacke im Kaufhaus.",
+    "texto": "Lisa geht heute ins Kaufhaus. Sie braucht eine neue Jacke für den Winter. Das Kaufhaus ist groß und hat vier Stockwerke. Lisa fährt mit dem Aufzug in die zweite Etage. Dort sind die Jacken und Mäntel.\n\nEine Verkäuferin hilft Lisa. Sie zeigt ihr eine rote Jacke und eine blaue Jacke. Lisa mag die blaue Jacke sehr. Sie probiert die Jacke an. Die Jacke passt gut und ist nicht zu teuer.\n\nLisa bezahlt die Jacke an der Kasse. Die Verkäuferin packt die Jacke in eine Tüte. Lisa ist sehr glücklich. Sie trägt die neue Jacke sofort nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa kauft eine neue Jacke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Kaufhaus hat nur zwei Stockwerke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa mag die blaue Jacke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Jacke ist zu teuer für Lisa.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa bezahlt die Jacke an der Kasse.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-uhrzeit",
+    "nivel": "A1",
+    "titulo": "Die Uhrzeit",
+    "descripcion": "Tom lernt, wie man die Uhrzeit auf Deutsch sagt.",
+    "texto": "Tom ist neun Jahre alt. In der Schule lernt er heute die Uhrzeit. Die Lehrerin zeigt eine große Uhr an der Tafel. Tom lernt die Wörter „Stunde“, „Minute“ und „Sekunde“.\n\nUm acht Uhr beginnt die Schule. Um zwölf Uhr isst Tom zu Mittag. Um halb vier ist die Schule zu Ende. Tom findet die Uhrzeit am Anfang schwierig. Die Lehrerin erklärt es aber sehr gut.\n\nAm Abend übt Tom mit seiner Mutter. Er sagt: „Es ist sieben Uhr. Wir essen jetzt zu Abend.“ Seine Mutter ist stolz auf ihn. Jetzt kann Tom die Uhrzeit gut lesen.",
+    "preguntas": [
+      {
+        "enunciado": "Tom lernt die Uhrzeit in der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schule beginnt um zehn Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst um zwölf Uhr zu Mittag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom findet die Uhrzeit von Anfang an sehr einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend übt Tom mit seiner Mutter.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-klassenzimmer",
+    "nivel": "A1",
+    "titulo": "Mein Klassenzimmer",
+    "descripcion": "Ein Kind beschreibt sein Klassenzimmer in der Schule.",
+    "texto": "Mein Klassenzimmer ist groß und hell. Es gibt viele Fenster und eine grüne Tafel. Meine Bank steht in der zweiten Reihe. Neben mir sitzt meine Freundin Emma.\n\nAn der Wand hängen bunte Bilder. Wir malen die Bilder immer im Kunstunterricht. Der Lehrertisch steht vorne, direkt neben der Tafel. Im Klassenzimmer gibt es auch einen Computer und ein Regal mit Büchern.\n\nIch mag mein Klassenzimmer sehr. Es ist warm und gemütlich. Jeden Morgen freue ich mich auf die Schule. Meine Lehrerin heißt Frau Bauer und ist sehr nett.",
+    "preguntas": [
+      {
+        "enunciado": "Das Klassenzimmer ist klein und dunkel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma sitzt neben dem Kind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "An der Wand hängen bunte Bilder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt keinen Computer im Klassenzimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin heißt Frau Bauer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "am-kiosk",
+    "nivel": "A1",
+    "titulo": "Am Kiosk",
+    "descripcion": "Paul kauft eine Zeitschrift und Süßigkeiten am Kiosk.",
+    "texto": "Paul geht jeden Samstag zum Kiosk an der Ecke. Der Kiosk verkauft Zeitungen, Zeitschriften und Süßigkeiten. Paul mag Comics und kauft oft ein Comic-Heft.\n\nHeute kauft Paul ein Comic-Heft und eine Flasche Wasser. Er sieht auch Schokolade im Regal. Die Schokolade kostet zwei Euro. Paul hat genug Geld und kauft die Schokolade auch.\n\nDer Verkäufer am Kiosk heißt Herr Yilmaz. Er ist immer freundlich. Paul bezahlt und sagt „Danke schön“. Dann geht er glücklich nach Hause und liest sein neues Comic-Heft.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht jeden Sonntag zum Kiosk.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kiosk verkauft Zeitungen und Süßigkeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft heute kein Comic-Heft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schokolade kostet zwei Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer heißt Herr Yilmaz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wochentage",
+    "nivel": "A1",
+    "titulo": "Die Wochentage",
+    "descripcion": "Mia erzählt, was sie an jedem Wochentag macht.",
+    "texto": "Mia hat eine feste Routine. Am Montag geht sie zur Schule und hat Sportunterricht. Am Dienstag lernt sie Englisch und Musik. Am Mittwoch hat Mia frei am Nachmittag und spielt mit Freunden.\n\nAm Donnerstag geht Mia zum Schwimmkurs. Sie schwimmt sehr gern. Am Freitag hat sie Kunstunterricht und malt gerne Bilder. Am Wochenende, also am Samstag und Sonntag, bleibt Mia zu Hause bei ihrer Familie.\n\nMias Lieblingstag ist der Donnerstag. Dort schwimmt sie. Sie mag auch den Sonntag. Dann kocht die ganze Familie zusammen. Jede Woche freut sich Mia auf ihre Aktivitäten.",
+    "preguntas": [
+      {
+        "enunciado": "Am Montag hat Mia Sportunterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Mittwoch hat Mia keine Zeit für Freunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia geht am Donnerstag zum Schwimmkurs.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Lieblingstag ist der Montag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag kocht die Familie zusammen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-freunde",
+    "nivel": "A1",
+    "titulo": "Meine Freunde",
+    "descripcion": "Ein Kind stellt seine besten Freunde vor.",
+    "texto": "Ich habe drei gute Freunde. Sie heißen Ben, Lea und Noah. Ben spielt gern Fußball. Lea malt gern Bilder. Noah liest gern Bücher.\n\nWir treffen uns oft im Park. Dort spielen wir zusammen und lachen viel. Ben bringt immer seinen Fußball mit. Lea hat bunte Stifte dabei. Noah hat immer ein Buch in der Tasche.\n\nMeine Freunde sind sehr wichtig für mich. Wir feiern zusammen Geburtstage und helfen uns gegenseitig. Am liebsten spiele ich mit meinen Freunden am Wochenende.",
+    "preguntas": [
+      {
+        "enunciado": "Das Kind hat drei gute Freunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben liest gern Bücher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea malt gern Bilder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde treffen sich nie im Park.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde feiern zusammen Geburtstage.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-schluessel",
+    "nivel": "A2",
+    "titulo": "Der verlorene Schlüssel",
+    "descripcion": "Julia hat ihren Wohnungsschlüssel verloren und sucht ihn überall.",
+    "texto": "Julia ist gestern Abend nach Hause gekommen und hat gemerkt, dass sie ihren Schlüssel nicht mehr hatte. Sie hat in ihrer Tasche gesucht, aber der Schlüssel war nicht da. Julia hat sich sehr geärgert, weil es draußen kalt war und sie nicht in die Wohnung konnte.\n\nSie hat ihre Nachbarin, Frau Weber, angerufen. Frau Weber hat einen Ersatzschlüssel und hat Julia sofort geholfen. „Ich habe gewusst, dass so etwas irgendwann passiert“, hat Frau Weber gelacht. Julia war sehr erleichtert und hat sich herzlich bedankt.\n\nAm nächsten Morgen hat Julia ihren Schlüssel gefunden. Er lag unter dem Autositz. Sie hatte ihn beim Einsteigen fallen lassen. Seitdem trägt Julia den Schlüssel immer an einer Kette, damit das nicht wieder passiert.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat ihren Schlüssel in der Tasche gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber hat Julia geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia konnte problemlos in die Wohnung, weil die Tür offen war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat den Schlüssel am nächsten Morgen im Auto gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia trägt den Schlüssel jetzt an einer Kette.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "besuch-bei-der-tante",
+    "nivel": "A2",
+    "titulo": "Ein Besuch bei der Tante",
+    "descripcion": "Sophie besucht ihre Tante auf dem Land und erlebt einen schönen Tag.",
+    "texto": "Sophie hat am Wochenende ihre Tante Rita besucht. Tante Rita wohnt auf dem Land, weit weg von der Stadt. Sophie ist mit dem Zug gefahren, weil ihre Tante keinen Bahnhof in der Nähe hat, sondern nur einen kleinen Haltepunkt.\n\nAls Sophie angekommen ist, hat Tante Rita schon Kuchen gebacken. Sie haben zusammen im Garten gesessen und Kaffee getrunken. Tante Rita hat viele Tiere: zwei Katzen, einen Hund und mehrere Hühner. Sophie hat den Hühnern beim Füttern geholfen, weil sie das noch nie gemacht hatte.\n\nAm Abend ist Sophie mit dem letzten Zug wieder nach Hause gefahren. Sie war ein bisschen traurig, dass der Besuch schon vorbei war. Trotzdem hat sie sich sehr gefreut, dass sie ihre Tante wieder gesehen hat. Sie hat versprochen, bald wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Rita wohnt in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie ist mit dem Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Rita hat Kuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat den Hühnern beim Füttern geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie war froh, dass der Besuch so schnell vorbei war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-autofahrt-in-den-urlaub",
+    "nivel": "A2",
+    "titulo": "Die Autofahrt in den Urlaub",
+    "descripcion": "Die Familie Bergmann fährt mit dem Auto in den Sommerurlaub nach Italien.",
+    "texto": "Die Familie Bergmann ist am Samstag früh losgefahren, weil die Fahrt nach Italien sehr lang ist. Herr Bergmann hat das Auto gepackt, während die Kinder noch geschlafen haben. Frau Bergmann hat Sandwiches und Getränke für die Reise vorbereitet.\n\nNach drei Stunden haben sie an einer Raststätte angehalten, weil die Kinder Hunger hatten. Sie haben dort zu Mittag gegessen und sich ein bisschen die Beine vertreten. Auf der Autobahn in Österreich gab es viel Verkehr, sodass die Familie später als geplant angekommen ist.\n\nAls sie endlich am Meer angekommen sind, waren alle sehr müde, aber auch glücklich. Die Kinder sind sofort ins Wasser gesprungen. Frau Bergmann hat gesagt, dass sich die lange Fahrt gelohnt hat. Der Urlaub konnte endlich beginnen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Bergmann ist am Sonntag losgefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben an einer Raststätte Mittag gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Österreich gab es keinen Verkehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie ist später als geplant am Meer angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder sind sofort ins Wasser gesprungen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ausflug-nach-dresden",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug nach Dresden",
+    "descripcion": "Markus und seine Kollegen machen einen Tagesausflug nach Dresden.",
+    "texto": "Markus ist mit drei Kollegen nach Dresden gefahren, weil die Firma einen Betriebsausflug organisiert hat. Sie sind früh mit dem Zug losgefahren und haben nach zwei Stunden Dresden erreicht. Das Wetter war sonnig, und alle waren gut gelaunt.\n\nZuerst haben sie die Frauenkirche besichtigt. Der Reiseführer hat erklärt, dass die Kirche im Zweiten Weltkrieg zerstört und später wieder aufgebaut wurde. Danach sind sie durch die Altstadt spaziert und haben in einem Café Kaffee und Kuchen gegessen.\n\nAm Nachmittag haben sie das Grüne Gewölbe besucht, ein berühmtes Museum mit wertvollen Schätzen. Markus hat viele Fotos gemacht, damit er sich später noch gut an den Tag erinnern kann. Am Abend sind sie müde, aber zufrieden nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist allein nach Dresden gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe ist mit dem Zug gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frauenkirche wurde nie zerstört.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben das Grüne Gewölbe besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat keine Fotos gemacht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-handwerker-kommt",
+    "nivel": "A2",
+    "titulo": "Der Handwerker kommt",
+    "descripcion": "Herr Krause wartet auf einen Handwerker, weil die Heizung kaputt ist.",
+    "texto": "Die Heizung in Herrn Krauses Wohnung ist letzte Woche kaputtgegangen. Es war sehr kalt, weil es draußen schon Winter war. Herr Krause hat sofort einen Handwerker angerufen, damit die Heizung schnell repariert wird.\n\nDer Handwerker hat gesagt, dass er erst am nächsten Tag kommen kann. Herr Krause hat die Nacht mit einer zusätzlichen Decke verbracht, weil die Wohnung so kalt war. Am nächsten Morgen ist der Handwerker pünktlich gekommen und hat sofort mit der Arbeit begonnen.\n\nNach zwei Stunden war die Heizung wieder repariert. Der Handwerker hat erklärt, dass ein kleines Teil kaputt war und er es ausgetauscht hat. Herr Krause war sehr erleichtert, dass es keine große Reparatur war. Er hat dem Handwerker gedankt und die Rechnung bezahlt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Heizung ist im Sommer kaputtgegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Krause hat einen Handwerker angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Handwerker ist noch am selben Tag gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Reparatur hat zwei Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Krause musste eine sehr große Reparatur bezahlen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsueberraschung",
+    "nivel": "A2",
+    "titulo": "Die Geburtstagsüberraschung",
+    "descripcion": "Freunde planen heimlich eine Überraschungsparty für Anna.",
+    "texto": "Annas Freunde haben beschlossen, eine Überraschungsparty für ihren Geburtstag zu organisieren. Sie haben sich heimlich getroffen, damit Anna nichts von den Plänen erfährt. Jeder hat eine Aufgabe bekommen: Tim hat die Einladungen geschrieben, und Sarah hat den Kuchen bestellt.\n\nAm Tag der Party hat Anna gedacht, dass sie nur zu einem normalen Abendessen mit ihrer besten Freundin gehen wird. Als sie die Wohnung betreten hat, haben plötzlich alle „Überraschung!“ gerufen. Anna war so überrascht, dass sie fast geweint hat.\n\nDie Party war ein großer Erfolg. Alle haben getanzt, gelacht und den leckeren Kuchen gegessen. Anna hat sich sehr gefreut, dass ihre Freunde sich so viel Mühe gegeben hatten. Sie hat gesagt, dass es der schönste Geburtstag ihres Lebens war.",
+    "preguntas": [
+      {
+        "enunciado": "Annas Freunde haben die Party heimlich geplant.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna hat vorher von der Party gewusst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat den Kuchen bestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna war überrascht, als alle „Überraschung!“ gerufen haben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna fand es einen schlechten Geburtstag.",
+        "respuesta": false
+      }
+    ]
   }
 ];
 
