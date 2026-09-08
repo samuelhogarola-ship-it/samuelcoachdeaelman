@@ -9529,6 +9529,354 @@ const TEXTOS = [
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-buecherladen",
+    "nivel": "A1",
+    "titulo": "Im Buchladen",
+    "descripcion": "Lena kauft ein Geschenk für ihren Bruder Paul.",
+    "texto": "Lena geht heute in den Buchladen. Der Buchladen ist in der Stadtmitte. Lena sucht ein Geschenk für ihren Bruder Paul. Paul mag Abenteuergeschichten. Im Laden gibt es viele Bücher. Die Bücher stehen in bunten Regalen. Lena schaut lange und findet ein Buch über Piraten. Das Buch kostet zwölf Euro. Lena bezahlt an der Kasse. Die Verkäuferin lächelt und packt das Buch schön ein.\n\nDanach geht Lena noch in ein Café neben dem Buchladen. Sie trinkt einen Kakao und isst ein Stück Kuchen. Draußen scheint die Sonne. Lena ist glücklich. Sie freut sich schon auf den Geburtstag von Paul. Am Abend zeigt sie das Buch ihrer Mutter. Die Mutter findet das Geschenk sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Lena kauft ein Geschenk für ihre Schwester.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Buchladen ist in der Stadtmitte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul mag Abenteuergeschichten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Buch kostet zwölf Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena trinkt Kaffee im Café.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-strassenbahnfahrt",
+    "nivel": "A1",
+    "titulo": "Die Straßenbahnfahrt",
+    "descripcion": "Tom fährt zum ersten Mal allein mit der Straßenbahn.",
+    "texto": "Tom ist neun Jahre alt. Heute fährt er zum ersten Mal allein mit der Straßenbahn. Die Straßenbahn hält direkt vor seinem Haus. Tom hat eine Fahrkarte in der Tasche. Er steigt ein und setzt sich ans Fenster. Die Straßenbahn ist nicht sehr voll. Tom zählt die Haltestellen. Er muss an der vierten Haltestelle aussteigen.\n\nDie Fahrt dauert zehn Minuten. Tom schaut aus dem Fenster und sieht Geschäfte, Autos und Menschen. An der vierten Haltestelle steigt er aus. Seine Oma wartet schon auf ihn. Sie umarmt Tom und lobt ihn. Tom ist stolz. Er erzählt seiner Oma alles über die Fahrt. Danach gehen sie zusammen nach Hause und essen Kuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Tom ist neun Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom fährt mit dem Bus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt dauert zehn Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom muss an der zweiten Haltestelle aussteigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Oma wartet an der Haltestelle.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingstier",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingstier",
+    "descripcion": "Mia erzählt von ihrem Lieblingstier, dem Delfin.",
+    "texto": "Mia liebt Tiere. Ihr Lieblingstier ist der Delfin. Delfine leben im Meer. Sie sind sehr klug und schnell. Mia sieht oft Videos von Delfinen im Internet. Delfine springen gern aus dem Wasser. Sie leben in Gruppen und spielen zusammen.\n\nIm Sommer besucht Mia mit ihrer Familie ein Delfinarium. Sie sieht dort echte Delfine. Die Delfine schwimmen elegant durch das Wasser. Mia klatscht und lacht. Nach der Show darf sie einen Delfin sogar streicheln. Das ist der schönste Moment für Mia. Sie möchte später vielleicht mit Delfinen arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Mias Lieblingstier ist der Delfin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Delfine leben im Wald.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia besucht im Sommer ein Delfinarium.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia darf einen Delfin streicheln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia mag keine Tiere.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-regenschirm",
+    "nivel": "A2",
+    "titulo": "Der verlorene Regenschirm",
+    "descripcion": "Jana verliert ihren Regenschirm bei einem Ausflug in den Bergen.",
+    "texto": "Am Samstag ist Jana mit ihren Freunden in die Berge gefahren. Das Wetter war am Morgen schön, aber am Nachmittag hat es plötzlich angefangen zu regnen. Jana hat schnell ihren Regenschirm aus dem Rucksack geholt. Sie und ihre Freunde haben sich unter einem Baum untergestellt, weil der Regen sehr stark war. Nach einer halben Stunde hat der Regen aufgehört, und die Gruppe ist weitergewandert.\n\nAls sie am Abend zu Hause ankam, hat Jana bemerkt, dass ihr Regenschirm fehlte. Sie hatte ihn wahrscheinlich unter dem Baum vergessen. Jana war traurig, weil der Regenschirm ein Geschenk von ihrer Großmutter war. Am nächsten Tag ist sie mit dem Auto zurück zu dem Wanderweg gefahren. Zum Glück hat sie den Regenschirm noch dort gefunden, genau unter dem Baum. Sie hat sich sehr gefreut und den Regenschirm nie wieder vergessen.",
+    "preguntas": [
+      {
+        "enunciado": "Jana ist am Samstag in die Berge gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag hat es zu regnen angefangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana hat ihren Regenschirm zu Hause vergessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Regenschirm war ein Geschenk von ihrem Vater.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana hat den Regenschirm am nächsten Tag wiedergefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-mit-dem-fahrrad",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug mit dem Fahrrad",
+    "descripcion": "Paul und seine Schwester machen eine Fahrradtour zu einem See.",
+    "texto": "Am letzten Sonntag haben Paul und seine Schwester Emma eine Fahrradtour gemacht. Sie sind früh am Morgen losgefahren, weil sie einen See besuchen wollten, der zwanzig Kilometer entfernt lag. Der Weg führte durch einen Wald und über mehrere kleine Brücken. Paul hatte Wasser und Brote eingepackt, damit sie unterwegs eine Pause machen konnten.\n\nNach zwei Stunden sind sie endlich am See angekommen. Das Wasser war klar und ruhig, und viele Vögel saßen am Ufer. Emma wollte schwimmen, obwohl das Wasser noch etwas kalt war. Paul hat lieber am Ufer gesessen und ein Buch gelesen. Am Nachmittag sind beide müde, aber zufrieden nach Hause gefahren. Sie haben sich vorgenommen, den Ausflug im nächsten Monat zu wiederholen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und Emma sind mit dem Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der See lag zwanzig Kilometer entfernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma ist im See geschwommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul ist auch geschwommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie wollen den Ausflug nie wieder machen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-picknick-im-regen",
+    "nivel": "A2",
+    "titulo": "Das Picknick im Regen",
+    "descripcion": "Eine Familie plant ein Picknick, aber das Wetter macht ihnen einen Strich durch die Rechnung.",
+    "texto": "Die Familie Meier hatte für Sonntag ein Picknick im Park geplant. Sie haben Sandwiches, Kuchen und Getränke vorbereitet, weil alle sich auf einen schönen Tag gefreut haben. Als sie im Park ankamen, war der Himmel noch blau. Doch nach einer Stunde haben dunkle Wolken den Himmel bedeckt, und es hat angefangen zu regnen.\n\nDie Familie ist schnell unter ein großes Zelt in der Nähe geflüchtet, das für ein Straßenfest aufgebaut war. Dort haben sie ihr Picknick einfach fortgesetzt. Die Kinder fanden das lustig, weil der Regen laut auf das Zeltdach getrommelt hat. Nach dem Essen hat der Regen aufgehört, und die Sonne kam wieder heraus. Die Familie ist noch eine Stunde im Park spazieren gegangen, bevor sie nach Hause gefahren sind.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Meier hat das Picknick am Samstag geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat angefangen zu regnen, nachdem sie im Park ankamen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie ist sofort nach Hause gefahren, als es zu regnen begann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder fanden den Regen lustig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Essen kam die Sonne wieder heraus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-jazzabend-in-der-altstadt",
+    "nivel": "B1",
+    "titulo": "Der Jazzabend in der Altstadt",
+    "descripcion": "Ein spontaner Konzertbesuch verändert Sophies Meinung über Jazzmusik.",
+    "texto": "Sophie hatte nie viel für Jazzmusik übrig, obwohl ihr bester Freund Ben seit Jahren begeisterter Jazzfan war. Als Ben sie zu einem Jazzabend in der Altstadt einlud, sagte sie trotzdem zu, weil sie ihm einen Gefallen tun wollte. Der Abend fand in einem kleinen Club statt, der früher eine alte Lagerhalle gewesen war. Die Atmosphäre war gemütlich, mit gedämpftem Licht und runden Holztischen.\n\nNachdem das erste Stück begonnen hatte, änderte sich Sophies Meinung schnell. Die Musiker spielten mit so viel Energie und Improvisation, dass sie den Rhythmus förmlich spüren konnte. Besonders der Saxofonist beeindruckte sie mit seinem virtuosen Spiel. Obwohl sie die Melodien nicht kannte, fand sie sich bald mitwippend im Takt der Musik.\n\nAm Ende des Abends fragte Ben, ob ihr der Abend gefallen habe. Sophie lachte und meinte, sie werde bestimmt wiederkommen. Seitdem besucht sie regelmäßig Jazzkonzerte in der Stadt und hat sogar begonnen, selbst Klavier zu spielen, um die Musik besser zu verstehen.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie war schon immer eine große Jazzfan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben lud Sophie zu einem Konzert in der Altstadt ein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Club war früher eine Lagerhalle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie fand den Abend langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Konzert begann Sophie, Klavier zu spielen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-projektwoche-in-der-schule",
+    "nivel": "B1",
+    "titulo": "Die Projektwoche in der Schule",
+    "descripcion": "Eine Schulklasse plant und gestaltet eine ungewöhnliche Projektwoche zum Thema Nachhaltigkeit.",
+    "texto": "An der Gesamtschule in Münster fand in diesem Jahr zum ersten Mal eine Projektwoche zum Thema Nachhaltigkeit statt. Die Schüler der neunten Klasse durften sich eigene Projekte ausdenken, nachdem die Lehrer ihnen einige Beispiele vorgestellt hatten. Manche Gruppen bauten ein kleines Hochbeet im Schulgarten, andere organisierten eine Kleidertauschbörse.\n\nObwohl einige Schüler zu Beginn skeptisch waren, entwickelten sich die meisten Projekte im Laufe der Woche zu echten Erfolgsgeschichten. Eine Gruppe reparierte alte Fahrräder, die sonst weggeworfen worden wären, und stellte sie später für bedürftige Familien zur Verfügung. Trotzdem gab es auch Herausforderungen: Das Wetter machte den Gartengruppen an manchen Tagen zu schaffen, und Material musste oft improvisiert werden.\n\nAm letzten Tag präsentierten alle Gruppen ihre Ergebnisse vor der gesamten Schule. Die Fahrradgruppe erhielt besonders viel Applaus, weil sie zwölf Fahrräder repariert hatte. Die Schulleitung entschied daraufhin, die Projektwoche im nächsten Jahr zu wiederholen und noch mehr Klassen einzubeziehen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Projektwoche fand an einer Schule in Münster statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler mussten dasselbe Projekt machen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrradgruppe hat zwölf Fahrräder repariert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab während der Projektwoche keine Herausforderungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schulleitung möchte die Projektwoche nicht wiederholen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-bewerbungsprozess",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Bewerbungsprozess",
+    "descripcion": "Ein Blick auf Chancen und Risiken, wenn Algorithmen über Bewerbungen entscheiden.",
+    "texto": "Immer mehr Unternehmen setzen bei der Personalauswahl auf künstliche Intelligenz. Bewerbungsunterlagen werden mittlerweile in vielen Branchen automatisch analysiert, bevor ein Mensch sie überhaupt zu Gesicht bekommt. Algorithmen sollen dabei helfen, geeignete Kandidaten schneller zu identifizieren und die Personalabteilungen von zeitaufwendiger Vorauswahl zu entlasten. Befürworter argumentieren, dass solche Systeme objektiver seien als menschliche Entscheidungen, da sie frei von persönlichen Vorurteilen agierten.\n\nKritiker hingegen weisen darauf hin, dass die Algorithmen selbst auf Daten trainiert werden, die historische Ungleichheiten widerspiegeln können. Wäre ein System beispielsweise mit Daten aus einer Branche trainiert worden, in der bisher überwiegend Männer eingestellt wurden, könnte es unbewusst weibliche Bewerberinnen benachteiligen. Studien haben gezeigt, dass solche Verzerrungen in der Praxis tatsächlich auftreten können, auch wenn die Entwickler dies nicht beabsichtigt hatten.\n\nEin weiteres Problem besteht in der mangelnden Transparenz vieler Systeme. Bewerber erfahren häufig nicht, warum sie aussortiert wurden, weil die Entscheidungsprozesse der Algorithmen selbst für Fachleute schwer nachvollziehbar sind. Datenschützer fordern deshalb, dass Unternehmen verpflichtet werden sollten, ihre Auswahlkriterien offenzulegen. Nur so könne sichergestellt werden, dass Bewerber fair behandelt werden und im Falle einer Diskriminierung rechtlich dagegen vorgehen können.\n\nTrotz dieser Bedenken dürfte der Einsatz von KI im Bewerbungsprozess in den kommenden Jahren eher zunehmen als abnehmen, da die Zahl der Bewerbungen in vielen Berufsfeldern stetig steigt. Experten empfehlen daher, dass Algorithmen stets von menschlichen Entscheidungen begleitet werden sollten, damit fragwürdige automatisierte Urteile korrigiert werden können, bevor sie zu einer echten Benachteiligung führen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text setzen immer mehr Unternehmen KI bei der Personalauswahl ein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter meinen, dass KI-Systeme objektiver als Menschen seien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zeigen, dass Algorithmen niemals Vorurteile aus Trainingsdaten übernehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text erfahren Bewerber immer genau, warum sie abgelehnt wurden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten empfehlen, dass menschliche Entscheidungen die Algorithmen begleiten sollten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "share-economy-und-nachhaltiger-konsum",
+    "nivel": "B2",
+    "titulo": "Share Economy und nachhaltiger Konsum",
+    "descripcion": "Warum das Teilen von Gütern als Lösung für Ressourcenknappheit diskutiert wird.",
+    "texto": "Ob Carsharing, Werkzeugverleih oder Kleidertauschbörsen: Die sogenannte Share Economy hat sich in den letzten Jahren in vielen deutschen Städten fest etabliert. Die Grundidee ist einfach: Statt Produkte zu besitzen, die nur selten genutzt werden, sollen sie von mehreren Menschen gemeinsam verwendet werden. Befürworter dieses Modells sehen darin einen wichtigen Beitrag zu einem nachhaltigeren Konsumverhalten, da weniger Ressourcen verbraucht und weniger Güter produziert werden müssten.\n\nTatsächlich zeigen Untersuchungen, dass ein einzelnes Auto im Carsharing im Durchschnitt bis zu acht private Fahrzeuge ersetzen kann. Wäre dieses Modell flächendeckend umgesetzt, könnte dies den Flächenbedarf für Parkplätze in Innenstädten erheblich reduzieren. Auch beim Werkzeugverleih argumentieren Experten, dass ein Bohrer, der nur wenige Male im Jahr benutzt wird, sinnvoller geteilt als von jedem Haushalt einzeln gekauft werden sollte.\n\nDennoch wird die Share Economy nicht nur positiv bewertet. Kritiker bemängeln, dass viele kommerzielle Plattformen weniger von Nachhaltigkeit als von Profit getrieben seien. Zudem könne der zusätzliche Verkehr, der durch Lieferdienste und Fahrten zu Abholstationen entsteht, die ökologischen Vorteile teilweise wieder zunichtemachen. Manche Soziologen weisen zudem darauf hin, dass echtes Teilen ein gewisses Vertrauen zwischen Menschen voraussetze, das in anonymen App-basierten Systemen oft fehle.\n\nOb die Share Economy tatsächlich zu einem nachhaltigeren Lebensstil führt, hängt letztlich stark davon ab, wie die einzelnen Angebote gestaltet und genutzt werden. Klar ist jedoch, dass sie das Potenzial hätte, unser Verständnis von Besitz grundlegend zu verändern, sofern ökologische Ziele stärker in den Vordergrund gerückt würden.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text kann ein Carsharing-Auto im Durchschnitt bis zu acht private Autos ersetzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass die Share Economy ausschließlich positive Effekte hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass manche Plattformen eher profitorientiert als nachhaltig seien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text führt Lieferverkehr niemals zu zusätzlichen ökologischen Nachteilen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text stellt fest, dass echtes Teilen Vertrauen zwischen Menschen voraussetzt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "landwirtschaft-und-wasserknappheit",
+    "nivel": "B2",
+    "titulo": "Landwirtschaft und Wasserknappheit",
+    "descripcion": "Wie sich Landwirte in Deutschland auf zunehmende Trockenheit einstellen müssen.",
+    "texto": "Die vergangenen trockenen Sommer haben deutlich gemacht, dass Wasserknappheit längst nicht mehr nur ein Problem südlicher Länder ist. Auch in Deutschland klagen immer mehr Landwirte über sinkende Grundwasserspiegel und ausbleibende Niederschläge, besonders in den östlichen Bundesländern. Ernteausfälle, die früher die Ausnahme waren, häufen sich inzwischen von Jahr zu Jahr, was viele Betriebe finanziell stark belastet.\n\nUm auf diese Entwicklung zu reagieren, setzen manche Landwirte auf sogenannte Präzisionsbewässerung, bei der Sensoren im Boden genau messen, wie viel Wasser eine Pflanze tatsächlich benötigt. Auf diese Weise könne der Wasserverbrauch erheblich gesenkt werden, ohne dass die Erträge darunter leiden müssten. Andere Betriebe wechseln zu trockenresistenteren Getreidesorten, die zwar geringere Erträge liefern, dafür aber auch in besonders trockenen Jahren zuverlässiger wachsen.\n\nUmweltverbände fordern zudem, dass die Landwirtschaftspolitik stärker auf den Wasserschutz ausgerichtet werden sollte. Subventionen, die bislang vor allem den Anbau wasserintensiver Kulturen wie Mais begünstigten, müssten überdacht werden, damit sich nachhaltigere Anbaumethoden langfristig auch wirtschaftlich lohnten. Gleichzeitig warnen Agrarökonomen davor, die Landwirte allein für die Folgen des Klimawandels verantwortlich zu machen, da diese oft nur begrenzte finanzielle Spielräume für teure Investitionen hätten.\n\nLetztlich zeigt die Debatte, dass eine nachhaltige Wasserpolitik nur gelingen kann, wenn Landwirtschaft, Politik und Gesellschaft gemeinsam an Lösungen arbeiten. Ohne gezielte Förderprogramme und eine langfristige Strategie dürfte es vielen kleineren Betrieben schwerfallen, sich an die veränderten klimatischen Bedingungen anzupassen.",
+    "preguntas": [
+      {
+        "enunciado": "Wasserknappheit betrifft laut dem Text ausschließlich südliche Länder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Präzisionsbewässerung nutzt Sensoren, um den Wasserbedarf von Pflanzen zu messen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Trockenresistente Getreidesorten liefern laut dem Text stets höhere Erträge als herkömmliche Sorten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Umweltverbände fordern eine Überprüfung von Subventionen für wasserintensive Kulturen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Agrarökonomen warnen davor, die gesamte Verantwortung allein den Landwirten zuzuschreiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "elterngeld-und-gleichberechtigung",
+    "nivel": "B2",
+    "titulo": "Elterngeld und Gleichberechtigung",
+    "descripcion": "Inwiefern das deutsche Elterngeld die Aufteilung von Familien- und Erwerbsarbeit beeinflusst.",
+    "texto": "Seit seiner Einführung im Jahr 2007 gilt das Elterngeld in Deutschland als ein zentrales familienpolitisches Instrument. Es sollte nicht nur die finanzielle Belastung junger Familien abfedern, sondern auch dazu beitragen, dass sich Väter stärker an der Kindererziehung beteiligen. Durch die sogenannten Partnermonate, die nur ausgezahlt werden, wenn auch der zweite Elternteil einen Teil der Elternzeit übernimmt, sollte ein Anreiz geschaffen werden, familiäre Aufgaben gleichmäßiger zu verteilen.\n\nStatistiken zeigen, dass sich der Anteil der Väter, die Elterngeld beziehen, seit der Reform deutlich erhöht hat. Dennoch bleibt die Dauer der Elternzeit zwischen den Geschlechtern höchst ungleich verteilt: Während Mütter im Durchschnitt mehrere Monate zu Hause bleiben, beschränken sich viele Väter auf die minimale Anzahl der Partnermonate. Kritiker bemängeln, dass dadurch die traditionelle Rollenverteilung letztlich kaum verändert werde, selbst wenn formal beide Elternteile Elterngeld in Anspruch nähmen.\n\nBefürworter einer Reform schlagen vor, dass die Partnermonate deutlich ausgeweitet werden sollten, damit eine wirklich gleichberechtigte Aufteilung der Elternzeit gefördert würde. Skandinavische Länder, in denen Väter oft verpflichtende Elternzeitanteile übernehmen müssen, würden in diesem Zusammenhang häufig als Vorbild genannt. Gegner einer solchen Reform argumentieren hingegen, dass staatliche Vorgaben die individuelle Entscheidungsfreiheit von Familien zu stark einschränken würden.\n\nOb eine Reform des Elterngeldes tatsächlich zu mehr Gleichberechtigung führen würde, lässt sich schwer vorhersagen. Klar scheint jedoch, dass finanzielle Anreize allein nicht ausreichen, um tief verwurzelte gesellschaftliche Rollenbilder zu verändern, solange sich auch am Arbeitsmarkt und in den Unternehmenskulturen nichts Grundlegendes ändert.",
+    "preguntas": [
+      {
+        "enunciado": "Das Elterngeld wurde im Jahr 2007 in Deutschland eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Väter nehmen laut dem Text im Durchschnitt genauso lange Elternzeit wie Mütter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Partnermonate sollen einen Anreiz schaffen, dass sich beide Elternteile an der Kindererziehung beteiligen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker fordern eine Abschaffung des Elterngeldes.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Skandinavische Länder werden im Text als mögliches Vorbild genannt.",
+        "respuesta": true
+      }
+    ]
   }
 ];
 
