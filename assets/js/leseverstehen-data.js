@@ -5772,6 +5772,230 @@ Letztlich scheint es keine pauschale Lösung zu geben, die für alle Familien gl
       { enunciado: 'Das Verhalten der Eltern hat laut dem Text keinen Einfluss auf die Kinder.', respuesta: false },
     ],
   },
+  {
+    slug: 'im-fahrradladen',
+    nivel: 'A1',
+    titulo: 'Im Fahrradladen',
+    descripcion: 'Tim kauft mit seinem Vater ein neues Fahrrad für die Schule.',
+    texto: `Tim braucht ein neues Fahrrad. Sein altes Fahrrad ist kaputt. Er geht mit seinem Vater in den Fahrradladen. Der Laden ist groß und hat viele Fahrräder. Es gibt rote, blaue und grüne Fahrräder. Tim mag die Farbe Blau.
+
+Der Verkäufer zeigt Tim drei Fahrräder. Tim probiert jedes Fahrrad im Laden aus. Ein Fahrrad ist zu groß. Ein Fahrrad ist zu klein. Das blaue Fahrrad passt perfekt. „Das ist mein Fahrrad!“, sagt Tim froh. Der Vater bezahlt an der Kasse. Tim bekommt auch einen neuen Helm.
+
+Am Nachmittag fährt Tim mit dem neuen Fahrrad zur Schule. Der Weg ist nicht weit. Tim ist sehr glücklich. Er fährt jetzt jeden Tag mit dem Fahrrad.`,
+    preguntas: [
+      { enunciado: 'Tim kauft ein neues Fahrrad.', respuesta: true },
+      { enunciado: 'Tims altes Fahrrad funktioniert noch gut.', respuesta: false },
+      { enunciado: 'Tim mag die Farbe Blau.', respuesta: true },
+      { enunciado: 'Das erste Fahrrad passt perfekt.', respuesta: false },
+      { enunciado: 'Tim bekommt keinen Helm.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'im-waschsalon',
+    nivel: 'A1',
+    titulo: 'Im Waschsalon',
+    descripcion: 'Lena wäscht am Samstag ihre Wäsche im Waschsalon.',
+    texto: `Lena hat viel schmutzige Wäsche zu Hause. Ihre Waschmaschine ist kaputt. Am Samstag geht sie in den Waschsalon. Der Waschsalon ist in der Nähe von ihrer Wohnung. Dort stehen viele große Waschmaschinen.
+
+Lena steckt ihre Kleidung in eine Maschine. Sie braucht Geld für die Maschine. Sie wirft Münzen in den Automaten. Die Maschine startet und wäscht die Wäsche. Lena wartet und liest ein Buch. Nach einer Stunde ist die Wäsche fertig und sauber.
+
+Lena nimmt die saubere Wäsche aus der Maschine. Die Kleidung riecht frisch. Sie legt alles in eine Tasche. Zu Hause hängt sie die Wäsche zum Trocknen auf. Lena ist zufrieden mit ihrem Samstag.`,
+    preguntas: [
+      { enunciado: 'Lenas Waschmaschine funktioniert nicht.', respuesta: true },
+      { enunciado: 'Lena geht am Sonntag in den Waschsalon.', respuesta: false },
+      { enunciado: 'Lena braucht Münzen für die Maschine.', respuesta: true },
+      { enunciado: 'Die Wäsche ist nach zehn Minuten fertig.', respuesta: false },
+      { enunciado: 'Lena ist mit ihrem Tag zufrieden.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-malkurs',
+    nivel: 'A1',
+    titulo: 'Der Malkurs',
+    descripcion: 'Paul besucht jeden Mittwoch einen Malkurs im Jugendzentrum.',
+    texto: `Paul malt sehr gern. Jeden Mittwoch geht er zu einem Malkurs. Der Kurs ist im Jugendzentrum. Acht Kinder sind im Kurs. Die Lehrerin heißt Frau Berger.
+
+Heute malen die Kinder einen Wald. Paul nimmt grüne und braune Farbe. Er malt Bäume und einen kleinen Fluss. Seine Freundin Mia malt einen Vogel im Himmel. Die Kinder sprechen und lachen viel beim Malen.
+
+Am Ende zeigt jedes Kind sein Bild. Frau Berger findet alle Bilder sehr schön. Paul hängt sein Bild in seinem Zimmer auf. Er freut sich schon auf den nächsten Mittwoch.`,
+    preguntas: [
+      { enunciado: 'Paul geht jeden Montag zum Malkurs.', respuesta: false },
+      { enunciado: 'Der Malkurs ist im Jugendzentrum.', respuesta: true },
+      { enunciado: 'Acht Kinder sind im Kurs.', respuesta: true },
+      { enunciado: 'Paul malt heute ein Auto.', respuesta: false },
+      { enunciado: 'Paul hängt sein Bild nicht auf.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-fahrradreparatur',
+    nivel: 'A2',
+    titulo: 'Die Fahrradreparatur',
+    descripcion: 'Jonas hat eine Reifenpanne und lernt bei einem Mechaniker, wie man ein Fahrrad repariert.',
+    texto: `Am Dienstag ist Jonas mit dem Fahrrad zur Arbeit gefahren. Plötzlich hat er ein lautes Geräusch gehört. Der Vorderreifen war platt. Jonas ist abgestiegen und hat sich das Rad angeschaut, weil er wissen wollte, was passiert war. Er hat einen kleinen Nagel im Reifen gefunden.
+
+Jonas hat sein Fahrrad zu einer Werkstatt geschoben, weil er selbst keine Ahnung von Reparaturen hatte. Der Mechaniker hieß Herr Klein und hat sofort mit der Arbeit begonnen. „Das ist kein großes Problem“, hat er gesagt. Er hat den alten Schlauch herausgenommen und einen neuen eingebaut. Jonas hat dabei zugeschaut und viel gelernt.
+
+Nach zwanzig Minuten war das Fahrrad wieder fertig. Jonas hat dem Mechaniker gedankt und ihn nach dem Preis gefragt. Die Reparatur war nicht teuer. Seitdem trägt Jonas immer ein kleines Reparaturset dabei, damit er beim nächsten Mal selbst helfen kann.`,
+    preguntas: [
+      { enunciado: 'Jonas hatte eine Reifenpanne auf dem Weg zur Arbeit.', respuesta: true },
+      { enunciado: 'Jonas hat das Fahrrad selbst repariert.', respuesta: false },
+      { enunciado: 'Der Mechaniker heißt Herr Klein.', respuesta: true },
+      { enunciado: 'Die Reparatur hat zwei Stunden gedauert.', respuesta: false },
+      { enunciado: 'Jonas trägt jetzt immer ein Reparaturset dabei.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-kochkurs-am-wochenende',
+    nivel: 'A2',
+    titulo: 'Der Kochkurs am Wochenende',
+    descripcion: 'Sofia nimmt an einem italienischen Kochkurs teil und lernt, Pasta selbst zu machen.',
+    texto: `Sofia hat sich schon lange für einen Kochkurs interessiert. Am Samstag hat sie endlich an einem italienischen Kochkurs teilgenommen. Der Kurs hat in einer kleinen Küche in der Innenstadt stattgefunden. Zehn Personen haben mitgemacht, weil das Thema „Pasta selbst machen“ sehr beliebt war.
+
+Der Kochlehrer hat zuerst gezeigt, wie man den Teig macht. Sofia hat Mehl, Eier und ein bisschen Salz gemischt. Danach hat sie den Teig lange geknetet, bis er weich war. Mit einer Maschine hat sie dünne Nudeln geschnitten. Ihre Nachbarin am Tisch hat ihr geholfen, weil Sofia am Anfang etwas unsicher war.
+
+Am Ende des Kurses haben alle zusammen gegessen. Die selbstgemachte Pasta hat besser geschmeckt, als Sofia gedacht hatte. Sie hat das Rezept mitgenommen, damit sie es zu Hause noch einmal kochen kann. Der nächste Kurs ist schon geplant.`,
+    preguntas: [
+      { enunciado: 'Der Kochkurs hat am Sonntag stattgefunden.', respuesta: false },
+      { enunciado: 'Im Kurs hat man gelernt, Pasta selbst zu machen.', respuesta: true },
+      { enunciado: 'Zehn Personen haben am Kurs teilgenommen.', respuesta: true },
+      { enunciado: 'Sofia hat den Teig nicht geknetet.', respuesta: false },
+      { enunciado: 'Sofia hat das Rezept mit nach Hause genommen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-verspaetete-post',
+    nivel: 'A2',
+    titulo: 'Die verspätete Post',
+    descripcion: 'Marie wartet auf ein wichtiges Paket, das viel später als erwartet ankommt.',
+    texto: `Marie hat vor zwei Wochen ein Buch im Internet bestellt. Der Versand sollte nur fünf Tage dauern. Weil das Paket nicht gekommen ist, hat sie beim Kundendienst angerufen. Die Mitarbeiterin hat gesagt, dass es leider eine Verzögerung gibt.
+
+Marie hat jeden Tag auf die Post gewartet, aber das Paket ist einfach nicht angekommen. Sie hat sich geärgert, weil sie das Buch für ihre Deutschprüfung gebraucht hat. Ihr Nachbar hat vorgeschlagen, dass sie eine E-Mail an den Verkäufer schreibt. Marie hat das sofort gemacht.
+
+Drei Tage später hat es endlich an der Tür geklingelt. Der Postbote hat ihr das Paket gebracht. Marie hat sich sehr gefreut, obwohl das Warten lange gedauert hat. Sie hat sofort mit dem Lernen begonnen.`,
+    preguntas: [
+      { enunciado: 'Marie hat ein Buch bestellt.', respuesta: true },
+      { enunciado: 'Das Paket ist nach fünf Tagen angekommen.', respuesta: false },
+      { enunciado: 'Marie hat sich beim Kundendienst gemeldet.', respuesta: true },
+      { enunciado: 'Ihr Nachbar hat ihr nicht geholfen.', respuesta: false },
+      { enunciado: 'Am Ende ist das Paket doch noch angekommen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-erste-arbeitswoche',
+    nivel: 'B1',
+    titulo: 'Die erste Arbeitswoche',
+    descripcion: 'Felix berichtet von seinen ersten Eindrücken und Herausforderungen im neuen Job.',
+    texto: `Nachdem Felix sein Studium beendet hatte, hat er endlich seine erste Stelle als Ingenieur angetreten. Am ersten Tag war er sehr aufgeregt, obwohl er sich schon lange auf diesen Moment gefreut hatte. Sein neuer Chef hat ihn den Kollegen vorgestellt und ihm das Büro gezeigt. Alles war neu: die Software, die Abläufe und sogar die Kaffeemaschine.
+
+In den ersten Tagen musste Felix viele Informationen gleichzeitig aufnehmen. Trotzdem hat er versucht, ruhig zu bleiben und Notizen zu machen. Ein Kollege namens Herr Wagner hat ihm geduldig alles erklärt, nachdem er gemerkt hatte, dass Felix unsicher war. Am Mittwoch durfte Felix zum ersten Mal an einem eigenen Projekt arbeiten, was ihn sehr stolz gemacht hat.
+
+Am Ende der Woche war Felix müde, aber zufrieden. Obwohl nicht alles perfekt gelaufen war, hatte er das Gefühl, schon viel gelernt zu haben. Er hat seiner Familie erzählt, dass ihm die neue Arbeit trotz der anfänglichen Schwierigkeiten großen Spaß macht. Für die nächste Woche hat er sich vorgenommen, noch mutiger Fragen zu stellen.`,
+    preguntas: [
+      { enunciado: 'Felix hat vor seinem ersten Arbeitstag sein Studium beendet.', respuesta: true },
+      { enunciado: 'Felix kannte am ersten Tag schon alle Abläufe im Büro.', respuesta: false },
+      { enunciado: 'Herr Wagner hat Felix geholfen, sich einzuarbeiten.', respuesta: true },
+      { enunciado: 'Felix durfte in der ersten Woche an keinem Projekt arbeiten.', respuesta: false },
+      { enunciado: 'Am Ende der Woche macht Felix die neue Arbeit Spaß.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'freundschaft-trotz-distanz',
+    nivel: 'B1',
+    titulo: 'Freundschaft trotz Distanz',
+    descripcion: 'Zwei Freundinnen erzählen, wie sie ihre Freundschaft nach dem Umzug einer von ihnen ins Ausland aufrechterhalten.',
+    texto: `Als Nora vor einem Jahr nach Kanada gezogen ist, hatten viele gedacht, dass die Freundschaft zwischen ihr und Lisa nicht lange halten würde. Die beiden kennen sich schon seit der Grundschule und wollten den Kontakt trotz der großen Entfernung nicht verlieren. Obwohl sechs Stunden Zeitunterschied zwischen Deutschland und Kanada liegen, haben sie eine Lösung gefunden.
+
+Jeden Sonntagabend telefonieren die beiden per Videoanruf, nachdem sie tagsüber ihren eigenen Beschäftigungen nachgegangen sind. Sie erzählen sich von der Arbeit, von neuen Bekanntschaften und von kleinen Alltagsproblemen. Trotzdem ist es nicht immer einfach, weil manchmal die Technik nicht funktioniert oder einer der beiden zu müde zum Reden ist. Lisa hat einmal gesagt, dass ihr die Gespräche trotz aller Schwierigkeiten sehr wichtig geworden sind.
+
+Im Sommer hat Nora Lisa in Deutschland besucht, und es war, als wäre keine Zeit vergangen. Beide waren überrascht, wie vertraut sich alles anfühlte, obwohl sie sich ein ganzes Jahr nicht persönlich gesehen hatten. Nach diesem Besuch sind sie sich sicher, dass ihre Freundschaft auch die nächste Zeit der Distanz überstehen wird.`,
+    preguntas: [
+      { enunciado: 'Nora ist vor einem Jahr nach Kanada gezogen.', respuesta: true },
+      { enunciado: 'Nora und Lisa kennen sich erst seit Kurzem.', respuesta: false },
+      { enunciado: 'Die beiden telefonieren jeden Sonntag miteinander.', respuesta: true },
+      { enunciado: 'Die Videoanrufe funktionieren immer ohne Probleme.', respuesta: false },
+      { enunciado: 'Nora hat Lisa im Sommer in Deutschland besucht.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'digitale-kluft-in-der-bildung',
+    nivel: 'B2',
+    titulo: 'Die digitale Kluft in der Bildung',
+    descripcion: 'Ein Blick auf die ungleichen Voraussetzungen von Schülerinnen und Schülern beim digitalen Lernen.',
+    texto: `Seit der Corona-Pandemie ist digitales Lernen aus dem deutschen Bildungssystem nicht mehr wegzudenken. Während einige Schulen inzwischen mit modernen Tablets, schnellem Internet und geschultem Personal ausgestattet sind, kämpfen andere weiterhin mit veralteter Technik oder fehlender Ausstattung. Diese Ungleichheit wird von Bildungsforschern als „digitale Kluft“ bezeichnet und betrifft nicht nur die Schulen selbst, sondern auch die Familien der Schülerinnen und Schüler.
+
+Besonders deutlich zeigt sich das Problem, wenn Hausaufgaben online erledigt werden sollen. Kinder aus einkommensschwachen Familien haben oft keinen eigenen Laptop und müssen sich ein Gerät mit Geschwistern teilen, was zu Konflikten und verpassten Fristen führen kann. Wäre die technische Ausstattung flächendeckend vorhanden, könnten viele dieser Nachteile vermieden werden. Kritiker bemängeln zudem, dass Lehrkräfte häufig nicht ausreichend im Umgang mit digitalen Werkzeugen geschult werden, obwohl von ihnen erwartet wird, modernen Unterricht zu gestalten.
+
+Politisch wird seit Jahren über Lösungen diskutiert. Der sogenannte Digitalpakt Schule sollte Milliarden Euro für digitale Ausstattung bereitstellen, doch die Umsetzung verlief in vielen Bundesländern schleppend, da bürokratische Hürden den Mittelabruf erschwerten. Bildungsexperten fordern daher nicht nur mehr Geld, sondern auch einfachere Antragsverfahren und eine bessere Fortbildung für Lehrkräfte, damit digitale Bildung tatsächlich allen Kindern gleichermaßen zugutekommt.
+
+Ob sich die digitale Kluft in den kommenden Jahren schließen lässt, hängt maßgeblich davon ab, wie konsequent die vorhandenen Programme umgesetzt werden. Ohne gezielte Investitionen in strukturschwache Regionen droht die Ungleichheit zwischen Schulen und Familien sich weiter zu vertiefen, was langfristig auch die Chancengleichheit im späteren Berufsleben beeinträchtigen könnte.`,
+    preguntas: [
+      { enunciado: 'Alle deutschen Schulen sind mittlerweile gleich gut mit digitaler Technik ausgestattet.', respuesta: false },
+      { enunciado: 'Kinder aus einkommensschwachen Familien müssen sich manchmal ein Gerät mit Geschwistern teilen.', respuesta: true },
+      { enunciado: 'Lehrkräfte werden laut Text immer ausreichend im Umgang mit digitalen Werkzeugen geschult.', respuesta: false },
+      { enunciado: 'Der Digitalpakt Schule wurde in allen Bundesländern reibungslos umgesetzt.', respuesta: false },
+      { enunciado: 'Experten fordern unter anderem einfachere Antragsverfahren für digitale Fördermittel.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'mentale-gesundheit-am-arbeitsplatz',
+    nivel: 'B2',
+    titulo: 'Mentale Gesundheit am Arbeitsplatz',
+    descripcion: 'Warum psychische Belastungen im Berufsleben zunehmend ernst genommen werden.',
+    texto: `Lange Zeit galt psychische Gesundheit am Arbeitsplatz als Tabuthema, über das kaum offen gesprochen wurde. Wer unter Stress, Erschöpfung oder Angstzuständen litt, fürchtete häufig, als schwach oder nicht belastbar zu gelten. Inzwischen hat sich dieses Bild in vielen Unternehmen gewandelt, nicht zuletzt, weil die Zahl der Krankheitstage aufgrund psychischer Erkrankungen in den letzten Jahren deutlich gestiegen ist.
+
+Immer mehr Firmen bieten daher Programme zur Stressprävention an, etwa Achtsamkeitskurse, anonyme Beratungsangebote oder flexible Arbeitszeiten. Manche Unternehmen haben sogenannte Mental-Health-Beauftragte eingeführt, die als erste Ansprechpartner für Mitarbeitende dienen sollen. Dennoch bemängeln Experten, dass solche Maßnahmen oft nur oberflächlich wirken, solange sich die eigentlichen Ursachen wie Zeitdruck, Personalmangel oder eine ständige Erreichbarkeit nicht ändern.
+
+Besonders diskutiert wird die Rolle von Führungskräften. Würden Vorgesetzte offener mit dem Thema umgehen und selbst über eigene Belastungen sprechen, könnte dies laut Studien das Arbeitsklima spürbar verbessern und die Hemmschwelle senken, sich Hilfe zu suchen. Kritiker weisen jedoch darauf hin, dass viele Führungskräfte selbst unter hohem Druck stehen und daher kaum Kapazitäten haben, sich intensiv um das Wohlbefinden ihres Teams zu kümmern.
+
+Letztlich zeigt sich, dass mentale Gesundheit am Arbeitsplatz kein rein individuelles Problem ist, sondern eng mit den Strukturen eines Unternehmens zusammenhängt. Nur wenn Prävention, offene Kommunikation und realistische Arbeitsanforderungen zusammenkommen, lässt sich langfristig verhindern, dass psychische Belastungen zu ernsthaften Erkrankungen führen.`,
+    preguntas: [
+      { enunciado: 'Psychische Gesundheit am Arbeitsplatz war früher ein häufig offen diskutiertes Thema.', respuesta: false },
+      { enunciado: 'Die Zahl der Krankheitstage wegen psychischer Erkrankungen ist laut Text gestiegen.', respuesta: true },
+      { enunciado: 'Laut Experten lösen oberflächliche Präventionsprogramme automatisch alle strukturellen Probleme.', respuesta: false },
+      { enunciado: 'Offenere Führungskräfte könnten laut Studien das Arbeitsklima verbessern.', respuesta: true },
+      { enunciado: 'Der Text beschreibt mentale Gesundheit als rein individuelles Problem.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'das-lieferkettengesetz',
+    nivel: 'B2',
+    titulo: 'Das Lieferkettengesetz und seine Folgen',
+    descripcion: 'Eine Auseinandersetzung mit den Chancen und Schwierigkeiten des deutschen Lieferkettengesetzes.',
+    texto: `Mit dem Lieferkettensorgfaltspflichtengesetz sollten deutsche Unternehmen stärker in die Verantwortung genommen werden, wenn es um Menschenrechte und Umweltstandards in ihren globalen Lieferketten geht. Ziel des Gesetzes ist es, dass Firmen genauer prüfen, unter welchen Bedingungen ihre Produkte im Ausland hergestellt werden, etwa in Textilfabriken oder Bergwerken.
+
+Befürworter des Gesetzes betonen, dass es überfällig gewesen sei, Unternehmen für Missstände wie Kinderarbeit oder gefährliche Arbeitsbedingungen haftbar zu machen. Ohne eine gesetzliche Grundlage, so argumentieren sie, würden sich viele Firmen kaum freiwillig um die Zustände bei ihren Zulieferern kümmern. Verbraucherschützer sehen darin zudem einen wichtigen Schritt hin zu mehr Transparenz, da Kundinnen und Kunden künftig besser nachvollziehen könnten, unter welchen Bedingungen ein Produkt entstanden ist.
+
+Kritiker hingegen weisen darauf hin, dass besonders kleinere und mittlere Unternehmen mit dem hohen bürokratischen Aufwand überfordert seien. Sie müssten Lieferketten dokumentieren, die oft aus Dutzenden Zwischenhändlern bestehen, was in der Praxis kaum vollständig kontrollierbar sei. Manche Wirtschaftsverbände fordern deshalb, das Gesetz zu vereinfachen oder zumindest auf große Konzerne zu beschränken, damit kleinere Betriebe nicht unverhältnismäßig belastet werden.
+
+Ob das Gesetz tatsächlich zu besseren Arbeitsbedingungen in den Herstellerländern führt, lässt sich bislang nur schwer beurteilen, da entsprechende Auswirkungen erst über einen längeren Zeitraum sichtbar werden. Klar ist jedoch, dass die Debatte über unternehmerische Verantwortung in globalen Lieferketten durch das Gesetz neuen Auftrieb erhalten hat und auch auf europäischer Ebene weiter diskutiert wird.`,
+    preguntas: [
+      { enunciado: 'Das Lieferkettengesetz betrifft ausschließlich deutsche Umweltstandards im Inland.', respuesta: false },
+      { enunciado: 'Befürworter sehen im Gesetz einen Schritt zu mehr Transparenz für Verbraucher.', respuesta: true },
+      { enunciado: 'Laut Kritikern sind besonders kleinere Unternehmen von hohem bürokratischem Aufwand betroffen.', respuesta: true },
+      { enunciado: 'Alle Wirtschaftsverbände lehnen das Gesetz vollständig ab.', respuesta: false },
+      { enunciado: 'Die langfristigen Auswirkungen des Gesetzes sind laut Text bereits eindeutig belegt.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'algorithmische-diskriminierung',
+    nivel: 'B2',
+    titulo: 'Algorithmische Diskriminierung im digitalen Alltag',
+    descripcion: 'Wie Algorithmen unbeabsichtigt Vorurteile verstärken können und welche Lösungsansätze diskutiert werden.',
+    texto: `Algorithmen entscheiden heute über immer mehr Bereiche unseres Lebens mit, von der Vergabe eines Kredits über die Auswahl von Bewerbungsunterlagen bis hin zu den Inhalten, die uns in sozialen Netzwerken angezeigt werden. Viele gehen davon aus, dass solche automatisierten Systeme objektiver entscheiden als Menschen, da sie angeblich frei von persönlichen Vorurteilen seien. Diese Annahme wird jedoch zunehmend infrage gestellt.
+
+Untersuchungen haben gezeigt, dass Algorithmen die Vorurteile widerspiegeln können, die bereits in den Daten enthalten sind, mit denen sie trainiert wurden. Wurde ein System beispielsweise überwiegend mit Bewerbungsdaten männlicher Kandidaten trainiert, könnte es unbewusst Bewerbungen von Frauen benachteiligen. Ähnliche Probleme sind auch bei der Kreditvergabe aufgetreten, wo bestimmte Wohngegenden oder Namen zu schlechteren Bewertungen geführt haben, obwohl die betroffenen Personen finanziell durchaus zuverlässig gewesen wären.
+
+Als Reaktion darauf fordern Wissenschaftlerinnen und Wissenschaftler mehr Transparenz bei der Entwicklung solcher Systeme. Unternehmen sollten offenlegen müssen, welche Daten verwendet werden und wie Entscheidungen zustande kommen, damit Betroffene sich gegen unfaire Bewertungen wehren können. Gleichzeitig wird diskutiert, ob unabhängige Prüfstellen eingerichtet werden sollten, die Algorithmen regelmäßig auf diskriminierende Muster hin untersuchen, bevor diese in sensiblen Bereichen eingesetzt werden dürfen.
+
+Die Europäische Union hat mit ihrer KI-Verordnung bereits erste rechtliche Rahmenbedingungen geschaffen, die den Einsatz von Hochrisiko-Systemen stärker regulieren sollen. Ob diese Maßnahmen ausreichen, um algorithmische Diskriminierung wirksam einzudämmen, bleibt abzuwarten, doch das Bewusstsein für das Problem ist in den letzten Jahren spürbar gewachsen.`,
+    preguntas: [
+      { enunciado: 'Algorithmen gelten laut Text automatisch als völlig objektiv und vorurteilsfrei.', respuesta: false },
+      { enunciado: 'Ein mit überwiegend männlichen Bewerbungsdaten trainiertes System kann Frauen benachteiligen.', respuesta: true },
+      { enunciado: 'Bei der Kreditvergabe hat die Wohngegend laut Text nie eine Rolle gespielt.', respuesta: false },
+      { enunciado: 'Wissenschaftler fordern mehr Transparenz bei der Entwicklung solcher Systeme.', respuesta: true },
+      { enunciado: 'Die EU hat bislang keinerlei rechtliche Regelungen zu KI-Systemen geschaffen.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
