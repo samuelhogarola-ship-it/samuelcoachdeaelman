@@ -4906,6 +4906,224 @@ Am Sonntag mussten sie leider schon wieder abreisen, weil einige von ihnen am Mo
       { enunciado: 'Am Sonntag sind sie noch länger geblieben.', respuesta: false },
     ],
   },
+  {
+    slug: 'der-erste-schnee',
+    nivel: 'A1',
+    titulo: 'Der erste Schnee',
+    descripcion: 'Kinder freuen sich über den ersten Schnee im Winter.',
+    texto: `Es ist Winter. Heute schneit es zum ersten Mal. Lena und Tom schauen aus dem Fenster. Die Straße ist weiß. Die Bäume sind weiß. Lena ruft: „Der Schnee ist so schön!" Tom lacht und zieht seine warme Jacke an. Die Kinder ziehen auch Mützen und Handschuhe an. Sie laufen schnell nach draußen.
+
+Im Garten bauen Lena und Tom einen Schneemann. Sie machen einen großen Kopf und einen kleinen Körper. Tom findet zwei Steine für die Augen. Lena nimmt eine Karotte für die Nase. Der Schneemann bekommt auch einen alten Hut. Die Kinder sind sehr glücklich.
+
+Nach dem Spielen sind Lena und Tom müde und kalt. Sie gehen ins Haus. Die Mutter macht heißen Kakao für die Kinder. Lena und Tom trinken den Kakao am Fenster. Sie schauen auf ihren Schneemann im Garten.`,
+    preguntas: [
+      { enunciado: 'Es ist Sommer.', respuesta: false },
+      { enunciado: 'Die Kinder bauen einen Schneemann.', respuesta: true },
+      { enunciado: 'Der Schneemann hat keine Augen.', respuesta: false },
+      { enunciado: 'Die Mutter macht heißen Kakao.', respuesta: true },
+      { enunciado: 'Lena und Tom bleiben den ganzen Tag draußen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'im-kindergarten',
+    nivel: 'A1',
+    titulo: 'Im Kindergarten',
+    descripcion: 'Ein Tag im Kindergarten von der kleinen Mia.',
+    texto: `Mia ist vier Jahre alt. Sie geht jeden Morgen in den Kindergarten. Der Kindergarten ist bunt und groß. Viele Kinder spielen dort zusammen. Mia hat eine beste Freundin. Sie heißt Emma. Mia und Emma malen gern Bilder.
+
+Am Vormittag singen die Kinder Lieder. Danach essen sie gemeinsam einen Snack. Mia isst gern einen Apfel. Emma mag lieber Kekse. Nach dem Essen gehen die Kinder in den Garten. Dort gibt es eine Schaukel und eine Rutsche. Mia schaukelt sehr gern.
+
+Am Nachmittag holt der Vater Mia ab. Mia erzählt ihm von ihrem Tag. Sie zeigt ihm ihr Bild vom Vormittag. Der Vater findet das Bild sehr schön. Mia freut sich und lacht.`,
+    preguntas: [
+      { enunciado: 'Mia ist sechs Jahre alt.', respuesta: false },
+      { enunciado: 'Mia und Emma sind Freundinnen.', respuesta: true },
+      { enunciado: 'Die Kinder essen keinen Snack.', respuesta: false },
+      { enunciado: 'Mia schaukelt gern im Garten.', respuesta: true },
+      { enunciado: 'Die Mutter holt Mia ab.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-tiere-im-wald',
+    nivel: 'A1',
+    titulo: 'Die Tiere im Wald',
+    descripcion: 'Ein Spaziergang im Wald mit vielen Tieren.',
+    texto: `Paul und seine Schwester Nina gehen heute in den Wald. Der Wald ist grün und ruhig. Die Kinder hören Vögel singen. Sie sehen auch einen kleinen Fuchs. Der Fuchs läuft schnell zwischen den Bäumen.
+
+Nina findet Spuren im Boden. „Das sind Spuren von einem Reh", sagt der Vater. Die Familie geht leise weiter. Plötzlich sehen sie ein Eichhörnchen auf einem Baum. Das Eichhörnchen hat eine Nuss im Mund. Paul macht ein Foto von dem Eichhörnchen.
+
+Am Ende des Spaziergangs sind Paul und Nina hungrig. Die Familie setzt sich auf eine Bank. Sie essen Brote und trinken Tee aus einer Thermoskanne. Nina sagt: „Der Wald ist mein Lieblingsort."`,
+    preguntas: [
+      { enunciado: 'Paul und Nina gehen in den Wald.', respuesta: true },
+      { enunciado: 'Die Kinder hören Vögel singen.', respuesta: true },
+      { enunciado: 'Sie sehen einen Löwen im Wald.', respuesta: false },
+      { enunciado: 'Die Familie isst Brote im Wald.', respuesta: true },
+      { enunciado: 'Nina mag den Wald nicht.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'mein-lieblingsspielzeug',
+    nivel: 'A1',
+    titulo: 'Mein Lieblingsspielzeug',
+    descripcion: 'Ein Junge erzählt von seinem liebsten Spielzeug.',
+    texto: `Ich heiße Ben und ich bin sieben Jahre alt. Mein Lieblingsspielzeug ist ein roter Roboter. Der Roboter heißt Max. Max hat große Augen und kleine Arme. Ich spiele jeden Tag mit ihm.
+
+Mein Roboter kann laufen und leuchten. Er macht auch lustige Geräusche. Am Abend nehme ich Max mit ins Bett. Meine Schwester hat auch ein Lieblingsspielzeug. Ihr Spielzeug ist eine Puppe. Die Puppe heißt Lisa.
+
+Manchmal spielen wir zusammen. Max und Lisa sind dann gute Freunde. Wir bauen ihnen ein Haus aus Bauklötzen. Das macht viel Spaß.`,
+    preguntas: [
+      { enunciado: 'Ben ist zehn Jahre alt.', respuesta: false },
+      { enunciado: 'Der Roboter heißt Max.', respuesta: true },
+      { enunciado: 'Max kann fliegen.', respuesta: false },
+      { enunciado: 'Bens Schwester hat eine Puppe.', respuesta: true },
+      { enunciado: 'Ben und seine Schwester spielen nie zusammen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'meine-oma',
+    nivel: 'A1',
+    titulo: 'Meine Oma',
+    descripcion: 'Ein Kind beschreibt den Besuch bei seiner Oma.',
+    texto: `Meine Oma heißt Erika. Sie wohnt in einem kleinen Haus auf dem Land. Ich besuche sie oft am Wochenende. Omas Haus hat einen großen Garten mit vielen Blumen.
+
+Oma kocht sehr gern. Sie macht immer Suppe und Kuchen für mich. Ihr Apfelkuchen schmeckt fantastisch. Nach dem Essen gehen wir zusammen im Garten spazieren. Oma zeigt mir ihre Tomaten und Erdbeeren.
+
+Am Abend liest Oma mir eine Geschichte vor. Ich mag ihre Geschichten sehr. Dann sage ich „Gute Nacht" und schlafe im Gästezimmer. Der Besuch bei Oma ist immer schön.`,
+    preguntas: [
+      { enunciado: 'Oma heißt Erika.', respuesta: true },
+      { enunciado: 'Oma wohnt in der Stadt.', respuesta: false },
+      { enunciado: 'Oma backt einen Apfelkuchen.', respuesta: true },
+      { enunciado: 'Im Garten gibt es keine Blumen.', respuesta: false },
+      { enunciado: 'Oma liest am Abend eine Geschichte vor.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'eine-reise-nach-salzburg',
+    nivel: 'A2',
+    titulo: 'Eine Reise nach Salzburg',
+    descripcion: 'Familie Berger hat ein Wochenende in Salzburg verbracht.',
+    texto: `Familie Berger hat letztes Wochenende eine Reise nach Salzburg gemacht. Sie sind mit dem Auto gefahren, weil die Zugverbindung zu teuer war. Die Fahrt hat ungefähr drei Stunden gedauert. Als sie angekommen sind, haben sie zuerst ein Hotel in der Altstadt gesucht.
+
+Am Samstag haben sie die Festung Hohensalzburg besucht. Der Blick über die Stadt war wunderschön. Danach sind sie durch die engen Gassen der Altstadt spaziert und haben dort eine typische österreichische Mehlspeise probiert. Die Kinder haben sich besonders über den Musikbrunnen im Mirabellgarten gefreut, weil das Wasser im Takt der Musik gesprungen ist.
+
+Am Sonntag hat es leider geregnet, aber die Familie war trotzdem zufrieden. Sie sind ins Mozart-Museum gegangen, weil sie mehr über den berühmten Komponisten erfahren wollten. Am Nachmittag sind sie müde, aber glücklich nach Hause gefahren. Herr Berger hat gesagt, dass er die Stadt bald wieder besuchen möchte.`,
+    preguntas: [
+      { enunciado: 'Familie Berger ist mit dem Zug gefahren.', respuesta: false },
+      { enunciado: 'Sie haben die Festung Hohensalzburg besucht.', respuesta: true },
+      { enunciado: 'Am Sonntag hat die Sonne geschienen.', respuesta: false },
+      { enunciado: 'Die Kinder haben den Musikbrunnen gemocht.', respuesta: true },
+      { enunciado: 'Herr Berger will die Stadt nie wieder besuchen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-besuch-im-tierheim',
+    nivel: 'A2',
+    titulo: 'Der Besuch im Tierheim',
+    descripcion: 'Familie Klein hat im Tierheim einen neuen Hund gefunden.',
+    texto: `Familie Klein hat schon lange über einen Hund gesprochen. Letzten Samstag sind sie deshalb ins Tierheim gefahren, weil sie einen Hund adoptieren wollten. Im Tierheim haben sie viele Hunde gesehen, aber ein kleiner brauner Hund hat ihnen besonders gut gefallen.
+
+Die Tierpflegerin hat erzählt, dass der Hund Bruno heißt und schon zwei Jahre alt ist. Bruno war sehr schüchtern, weil er lange im Tierheim gelebt hat. Trotzdem hat er die Kinder sofort gemocht und ist zu ihnen gelaufen. Die Familie hat sich sofort in Bruno verliebt.
+
+Am Ende haben Herr und Frau Klein die Papiere unterschrieben, und Bruno durfte mit nach Hause kommen. Die Kinder waren sehr aufgeregt, weil sie sich schon lange einen Hund gewünscht haben. Seit diesem Tag schläft Bruno jeden Abend im Wohnzimmer der Familie Klein.`,
+    preguntas: [
+      { enunciado: 'Familie Klein wollte eine Katze adoptieren.', respuesta: false },
+      { enunciado: 'Der Hund heißt Bruno.', respuesta: true },
+      { enunciado: 'Bruno war zuerst sehr schüchtern.', respuesta: true },
+      { enunciado: 'Die Kinder wollten keinen Hund.', respuesta: false },
+      { enunciado: 'Bruno lebt jetzt bei Familie Klein.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-neue-kollege-im-buero',
+    nivel: 'A2',
+    titulo: 'Der neue Kollege im Büro',
+    descripcion: 'Julia erzählt von ihrem neuen Kollegen bei der Arbeit.',
+    texto: `Julia arbeitet seit drei Jahren in einem Büro in Frankfurt. Letzte Woche hat ein neuer Kollege angefangen. Er heißt Daniel und kommt aus Hamburg. Julia hat sich gefreut, weil das Team einen neuen Mitarbeiter gebraucht hat.
+
+Am ersten Tag hat Julia Daniel das Büro gezeigt. Sie hat ihm erklärt, wo die Küche und die Meetingräume sind. Daniel war sehr freundlich und hat viele Fragen gestellt. Julia hat gemerkt, dass Daniel sehr fleißig ist. Zum Mittagessen sind die beiden zusammen in ein Restaurant gegangen, weil Daniel die Stadt noch nicht gut gekannt hat.
+
+Nach ein paar Tagen hat Daniel schon viele Kollegen kennengelernt. Er hat gesagt, dass er sich im Team sehr wohlfühlt. Julia und Daniel arbeiten jetzt oft zusammen an Projekten. Sie sind schnell gute Kollegen geworden.`,
+    preguntas: [
+      { enunciado: 'Daniel kommt aus München.', respuesta: false },
+      { enunciado: 'Julia hat Daniel das Büro gezeigt.', respuesta: true },
+      { enunciado: 'Daniel hat keine Fragen gestellt.', respuesta: false },
+      { enunciado: 'Julia und Daniel sind zusammen essen gegangen.', respuesta: true },
+      { enunciado: 'Daniel fühlt sich im Team nicht wohl.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-deutschpruefung-an-der-volkshochschule',
+    nivel: 'A2',
+    titulo: 'Die Deutschprüfung an der Volkshochschule',
+    descripcion: 'Marco hat sich auf seine erste Deutschprüfung vorbereitet.',
+    texto: `Marco lernt seit einem Jahr Deutsch an der Volkshochschule. Letzten Monat hat er sich sehr auf seine erste Prüfung vorbereitet, weil er unbedingt bestehen wollte. Jeden Abend hat er Vokabeln gelernt und Grammatikübungen gemacht.
+
+Am Tag der Prüfung war Marco sehr nervös. Zuerst hat er den schriftlichen Teil geschrieben. Danach hat er mit einer Partnerin mündlich gesprochen. Die Lehrerin hat gesagt, dass die Prüfung aus vier Teilen besteht: Hören, Lesen, Schreiben und Sprechen. Marco hat sich beim Sprechen ein bisschen unsicher gefühlt, obwohl er viel geübt hatte.
+
+Zwei Wochen später hat Marco die Ergebnisse bekommen. Er hat die Prüfung bestanden! Seine Familie hat sich riesig gefreut, weil Marco so hart gearbeitet hat. Jetzt möchte er den nächsten Kurs besuchen, um sein Deutsch weiter zu verbessern.`,
+    preguntas: [
+      { enunciado: 'Marco lernt seit einem Jahr Deutsch.', respuesta: true },
+      { enunciado: 'Die Prüfung hat nur zwei Teile.', respuesta: false },
+      { enunciado: 'Marco hat sich beim Sprechen sicher gefühlt.', respuesta: false },
+      { enunciado: 'Marco hat die Prüfung bestanden.', respuesta: true },
+      { enunciado: 'Marco möchte keinen weiteren Kurs machen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'ein-sommerjob-am-see',
+    nivel: 'A2',
+    titulo: 'Ein Sommerjob am See',
+    descripcion: 'Sophie hat einen Sommerjob im Café am See gefunden.',
+    texto: `Sophie ist Studentin und hat für die Sommerferien einen Job gesucht. Sie hat Glück gehabt und eine Stelle in einem kleinen Café am See gefunden. Das Café gehört einer netten Familie, die jeden Sommer viele Touristen bedient.
+
+In den ersten Tagen war die Arbeit anstrengend, weil Sophie noch nicht wusste, wo alles steht. Sie hat gelernt, Kaffee zu machen und Eis zu verkaufen. Die Gäste waren meistens freundlich, obwohl es manchmal sehr viel zu tun gab. Am Wochenende war das Café besonders voll, weil viele Familien an den See gekommen sind.
+
+Nach den Ferien hat Sophie erzählt, dass ihr die Arbeit trotz des Stresses viel Spaß gemacht hat. Sie hat neue Freunde gefunden und viel Geld für ihr Studium gespart. Nächstes Jahr möchte sie wieder im selben Café arbeiten.`,
+    preguntas: [
+      { enunciado: 'Sophie hat im Winter gearbeitet.', respuesta: false },
+      { enunciado: 'Das Café liegt an einem See.', respuesta: true },
+      { enunciado: 'Sophie wusste am ersten Tag schon alles.', respuesta: false },
+      { enunciado: 'Am Wochenende war wenig los im Café.', respuesta: false },
+      { enunciado: 'Sophie möchte im nächsten Jahr wieder dort arbeiten.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-theatergruppe-an-der-schule',
+    nivel: 'B1',
+    titulo: 'Die Theatergruppe an der Schule',
+    descripcion: 'Jonas berichtet von seinen Erfahrungen in der Theater-AG.',
+    texto: `Seit diesem Schuljahr nimmt Jonas an der Theatergruppe seiner Schule teil, obwohl er am Anfang große Angst vor dem Auftritt hatte. Ein Freund hatte ihn überredet mitzumachen, und mittlerweile ist das wöchentliche Training einer seiner liebsten Momente in der Woche. Die Gruppe besteht aus fünfzehn Schülern verschiedener Klassenstufen, die sich einmal pro Woche nach dem Unterricht treffen.
+
+Nachdem die Gruppe monatelang an einem Theaterstück über Freundschaft gearbeitet hatte, stand endlich die Premiere bevor. In den letzten Wochen vor der Aufführung wurde viel geprobt, und manche Schüler mussten sogar am Wochenende zusätzlich üben. Jonas spielte die Hauptrolle, was ihn zunächst überforderte. Trotzdem gab ihm die Theaterlehrerin viele hilfreiche Tipps, sodass er von Vorstellung zu Vorstellung sicherer wurde.
+
+Am Tag der Aufführung waren alle sehr aufgeregt. Obwohl Jonas kurz vor dem Auftritt seinen Text vergaß, half ihm ein Mitschüler leise weiter. Das Publikum applaudierte am Ende begeistert, und die ganze Mühe hatte sich gelohnt. Seitdem denkt Jonas darüber nach, auch nächstes Jahr wieder mitzumachen, weil ihm die Erfahrung so viel gegeben hat.`,
+    preguntas: [
+      { enunciado: 'Jonas hatte von Anfang an keine Angst vor dem Auftritt.', respuesta: false },
+      { enunciado: 'Die Theatergruppe trifft sich einmal pro Woche.', respuesta: true },
+      { enunciado: 'Jonas spielte eine kleine Nebenrolle.', respuesta: false },
+      { enunciado: 'Jonas vergaß kurz seinen Text während der Aufführung.', respuesta: true },
+      { enunciado: 'Jonas möchte nächstes Jahr sicher nicht mehr mitmachen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'laerm-in-der-stadt',
+    nivel: 'B2',
+    titulo: 'Lärm in der Stadt – ein unterschätztes Gesundheitsrisiko',
+    descripcion: 'Ein Überblick über die gesundheitlichen Folgen von Verkehrslärm in deutschen Großstädten.',
+    texto: `In vielen deutschen Großstädten gehört der ständige Lärm von Straßen, Schienen und Flughäfen längst zum Alltag. Während Luftverschmutzung und Feinstaub in der öffentlichen Debatte breiten Raum einnehmen, wird die gesundheitliche Belastung durch Lärm oft unterschätzt. Dabei zeigen zahlreiche Studien, dass dauerhafter Verkehrslärm nicht nur das Wohlbefinden beeinträchtigt, sondern auch ernsthafte körperliche Erkrankungen begünstigen kann.
+
+Besonders betroffen sind Menschen, die an stark befahrenen Hauptstraßen wohnen und deren Schlaf durch nächtlichen Lärm regelmäßig gestört wird. Wissenschaftler weisen darauf hin, dass chronischer Lärmstress das Risiko für Bluthochdruck und Herz-Kreislauf-Erkrankungen erhöht. Wenn der Körper über Jahre hinweg ständig erhöhten Lärmpegeln ausgesetzt wäre, würde dies langfristig zu einer messbaren Verkürzung der Lebenserwartung führen, so das Ergebnis einer viel zitierten Untersuchung. Trotzdem wird das Thema in der Stadtplanung häufig nachrangig behandelt, weil wirtschaftliche Interessen und der Wunsch nach kurzen Verkehrswegen im Vordergrund stehen.
+
+In den letzten Jahren wurden in mehreren Städten Maßnahmen ergriffen, um die Lärmbelastung zu reduzieren. So wurden beispielsweise Tempo-30-Zonen eingerichtet und lärmarmer Asphalt verlegt, der den Fahrgeräuschen entgegenwirken soll. Auch Lärmschutzwände entlang stark befahrener Straßen wurden errichtet. Kritiker bemängeln jedoch, dass diese Maßnahmen oft nur punktuell umgesetzt werden, anstatt ein umfassendes Konzept zu verfolgen, das die gesamte Stadt einbezieht.
+
+Sollte sich an dieser Situation nichts ändern, könnten die gesundheitlichen Kosten für das Gesundheitssystem in Zukunft erheblich steigen. Experten fordern deshalb, dass Lärmschutz von Anfang an in die Stadtplanung integriert wird, anstatt erst nachträglich als Reaktion auf Beschwerden der Anwohner zu erfolgen. Nur so ließe sich langfristig eine spürbare Verbesserung der Lebensqualität in urbanen Räumen erreichen.`,
+    preguntas: [
+      { enunciado: 'Lärm wird in der öffentlichen Debatte genauso stark diskutiert wie Luftverschmutzung.', respuesta: false },
+      { enunciado: 'Chronischer Lärm kann das Risiko für Bluthochdruck erhöhen.', respuesta: true },
+      { enunciado: 'In deutschen Städten wurden keinerlei Maßnahmen gegen Lärm ergriffen.', respuesta: false },
+      { enunciado: 'Kritiker meinen, dass die Maßnahmen oft nur punktuell sind.', respuesta: true },
+      { enunciado: 'Experten fordern, dass Lärmschutz erst nach Beschwerden der Anwohner beginnen soll.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
