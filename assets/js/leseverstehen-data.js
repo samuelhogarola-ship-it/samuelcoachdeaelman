@@ -9181,6 +9181,354 @@ const TEXTOS = [
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-schuhgeschaeft",
+    "nivel": "A1",
+    "titulo": "Im Schuhgeschäft",
+    "descripcion": "Lisa kauft neue Schuhe für den Winter.",
+    "texto": "Lisa braucht neue Schuhe. Es ist Winter und ihre alten Schuhe sind kaputt. Sie geht mit ihrer Mutter in ein Schuhgeschäft in der Stadt.\n\nIm Geschäft gibt es viele Schuhe. Es gibt schwarze, braune und rote Schuhe. Lisa mag die roten Stiefel. Die Verkäuferin fragt: „Welche Größe hast du?“ Lisa sagt: „Ich habe Größe 36.“\n\nLisa probiert die roten Stiefel an. Sie sind warm und bequem. Die Mutter bezahlt die Schuhe an der Kasse. Lisa ist sehr glücklich. Sie trägt die neuen Stiefel sofort nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa braucht neue Schuhe für den Sommer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa geht mit ihrer Mutter einkaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa mag die roten Stiefel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa hat Schuhgröße 40.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter bezahlt die Schuhe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "am-wochenende-zuhause",
+    "nivel": "A1",
+    "titulo": "Am Wochenende zuhause",
+    "descripcion": "Tom erzählt, was er am Samstag und Sonntag zuhause macht.",
+    "texto": "Am Samstag steht Tom spät auf. Er frühstückt mit seiner Familie. Danach räumt er sein Zimmer auf und hilft seiner Mutter in der Küche.\n\nAm Nachmittag spielt Tom mit seinem Bruder im Garten. Sie spielen Fußball und lachen viel. Am Abend sehen sie zusammen einen Film.\n\nAm Sonntag ist Tom faul. Er liest ein Buch und hört Musik. Die Familie isst zu Mittag zusammen. Tom mag das Wochenende, weil er Zeit für seine Familie hat.",
+    "preguntas": [
+      {
+        "enunciado": "Tom steht am Samstag früh auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom hilft seiner Mutter in der Küche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom spielt mit seinem Bruder Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag geht Tom schwimmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst am Sonntag zusammen zu Mittag.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsbuch",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsbuch",
+    "descripcion": "Sofia erzählt von ihrem Lieblingsbuch über einen Drachen.",
+    "texto": "Sofia liest gern Bücher. Ihr Lieblingsbuch heißt „Der kleine Drache“. Das Buch hat viele bunte Bilder.\n\nDie Geschichte ist über einen Drachen. Der Drache ist klein und freundlich. Er wohnt in einem Berg und hat viele Freunde. Sofia liest das Buch jeden Abend vor dem Schlafen.\n\nSofias Mama liest ihr manchmal auch vor. Sofia möchte später auch ein Buch schreiben. Sie mag Drachen sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Sofias Lieblingsbuch heißt „Der kleine Drache“.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Buch hat keine Bilder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Drache in der Geschichte ist böse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofia liest das Buch jeden Abend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia möchte später ein Buch schreiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wochenende-bei-den-grosseltern",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei den Großeltern",
+    "descripcion": "Paul hat das Wochenende bei seinen Großeltern auf dem Land verbracht.",
+    "texto": "Letztes Wochenende hat Paul seine Großeltern besucht. Sie wohnen auf dem Land, weit weg von der Stadt. Paul ist mit dem Auto gefahren, weil es keinen direkten Zug gibt.\n\nAm Samstag hat Paul mit seinem Opa im Garten gearbeitet. Sie haben Äpfel gepflückt und Unkraut entfernt. Danach hat die Oma einen Kuchen gebacken, weil Paul Geburtstag hatte. Am Abend haben alle zusammen gegessen und alte Fotos angeschaut.\n\nAm Sonntag ist Paul mit dem Opa spazieren gegangen. Sie haben über die Vergangenheit gesprochen, und Paul hat viel gelernt. Als er nach Hause gefahren ist, war er ein bisschen traurig, dass das Wochenende schon vorbei war.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Großeltern wohnen in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul ist mit dem Zug gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hatte an diesem Wochenende Geburtstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma hat einen Kuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul war froh, dass das Wochenende endlich vorbei war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verspaetete-flug",
+    "nivel": "A2",
+    "titulo": "Der verspätete Flug",
+    "descripcion": "Julia wartet stundenlang am Flughafen, weil ihr Flug nach Mallorca Verspätung hat.",
+    "texto": "Julia wollte am Freitag nach Mallorca fliegen. Sie ist früh zum Flughafen gefahren, weil sie pünktlich sein wollte. Am Flughafen hat sie aber schlechte Nachrichten bekommen: Ihr Flug hatte drei Stunden Verspätung.\n\nZuerst war Julia sehr enttäuscht. Sie hat sich hingesetzt und ein Buch gelesen, weil sie warten musste. Später hat sie in einem Café einen Kaffee getrunken und mit ihrer Freundin telefoniert. Die Zeit ist trotzdem langsam vergangen.\n\nEndlich, um 22 Uhr, ist ihr Flugzeug gestartet. Julia war müde, aber froh, dass sie doch noch geflogen ist. Als sie in Mallorca angekommen ist, hat sie sofort ihren Urlaub genossen.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist zu spät zum Flughafen gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihr Flug hatte drei Stunden Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat im Café einen Kaffee getrunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Flugzeug ist nie gestartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia war froh, als sie in Mallorca angekommen ist.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-fahrradunfall-im-park",
+    "nivel": "A2",
+    "titulo": "Der Fahrradunfall im Park",
+    "descripcion": "Markus hat einen kleinen Unfall mit dem Fahrrad und muss zum Arzt.",
+    "texto": "Markus ist am Sonntag mit seinem Fahrrad im Park gefahren. Er ist schnell gefahren, weil er trainieren wollte. Plötzlich ist ein Hund auf den Weg gelaufen, und Markus ist gestürzt.\n\nSein Knie hat stark geblutet, deshalb ist eine Frau aus dem Park zu ihm gekommen und hat geholfen. Sie hat einen Krankenwagen gerufen, obwohl Markus gesagt hat, dass es nicht so schlimm sei. Im Krankenhaus hat der Arzt die Wunde gereinigt und einen Verband angelegt.\n\nMarkus musste eine Woche zu Hause bleiben, weil sein Knie noch wehgetan hat. Seitdem trägt er beim Radfahren immer einen Helm und fährt vorsichtiger.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist im Park spazieren gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Hund ist auf den Weg gelaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat Markus geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat Markus im Krankenhaus behandelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus trägt jetzt immer einen Helm.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-sommerfestival",
+    "nivel": "B1",
+    "titulo": "Das Sommerfestival",
+    "descripcion": "Eine Stadt organisiert ein Musikfestival, das trotz schlechten Wetters ein Erfolg wird.",
+    "texto": "Jedes Jahr im Juli findet in der Kleinstadt Marburg ein Sommerfestival statt. Lokale Bands, Foodstände und ein Kunsthandwerkermarkt locken tausende Besucher an. In diesem Jahr sollte das Festival besonders groß werden, weil es das zehnjährige Jubiläum gab.\n\nAm Morgen des Festivaltags sah es jedoch nach Regen aus, und die Organisatoren waren nervös. Obwohl der Wetterbericht schlecht war, entschieden sie sich, das Festival trotzdem zu öffnen. Nachdem die ersten Bands aufgetreten waren, klarte der Himmel überraschend auf. Die Besucher tanzten bis in den Abend, und die Stimmung war ausgelassen.\n\nAm Ende war das Sommerfestival trotz aller Zweifel ein großer Erfolg. Die Organisatoren waren erleichtert und planen bereits, das Festival im nächsten Jahr noch größer zu machen. Für viele Einwohner ist es inzwischen der Höhepunkt des Sommers.",
+    "preguntas": [
+      {
+        "enunciado": "Das Sommerfestival findet jedes Jahr im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In diesem Jahr feierte das Festival sein zehnjähriges Jubiläum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des schlechten Wetters wurde das Festival abgesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Himmel klarte im Laufe des Tages auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Organisatoren wollen das Festival nicht wiederholen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-wg",
+    "nivel": "B1",
+    "titulo": "Die neue WG",
+    "descripcion": "Felix zieht in eine Wohngemeinschaft und muss sich an das Zusammenleben gewöhnen.",
+    "texto": "Nachdem Felix sein Studium in einer anderen Stadt begonnen hatte, musste er eine Wohnung finden. Da die Mieten sehr hoch waren, entschied er sich für eine Wohngemeinschaft mit zwei anderen Studenten. Anfangs war er unsicher, ob das Zusammenleben mit fremden Menschen funktionieren würde.\n\nIn den ersten Wochen gab es kleine Konflikte, zum Beispiel über die Küche oder die Lautstärke der Musik. Trotzdem lernte Felix schnell, wie wichtig klare Absprachen sind. Die Mitbewohner erstellten gemeinsam einen Putzplan und trafen sich regelmäßig zum Kochen, um sich besser kennenzulernen.\n\nMit der Zeit wurden aus den Mitbewohnern echte Freunde. Obwohl das Zusammenleben manchmal anstrengend war, vermisst Felix heute die gemeinsamen Abende in der WG, seit er in eine eigene Wohnung gezogen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat sich sofort für eine eigene Wohnung entschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In den ersten Wochen gab es keine Konflikte in der WG.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mitbewohner haben einen Putzplan erstellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Aus den Mitbewohnern wurden echte Freunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix vermisst die WG-Zeit nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "streit-mit-der-besten-freundin",
+    "nivel": "B1",
+    "titulo": "Streit mit der besten Freundin",
+    "descripcion": "Nach einem Missverständnis streiten sich zwei beste Freundinnen und finden am Ende wieder zueinander.",
+    "texto": "Emma und Lea sind seit der Grundschule beste Freundinnen. Vor zwei Wochen hatten sie jedoch einen großen Streit, weil Lea einen wichtigen Termin von Emma vergessen hatte. Emma war sehr enttäuscht, obwohl sie wusste, dass Lea es nicht mit Absicht getan hatte.\n\nNachdem sie tagelang nicht miteinander gesprochen hatten, schrieb Lea ihrer Freundin eine lange Nachricht. Darin erklärte sie, dass sie in letzter Zeit viel Stress in der Schule gehabt hatte und deshalb unaufmerksam gewesen war. Trotzdem entschuldigte sie sich ehrlich für ihr Verhalten.\n\nAls sich die beiden Mädchen wieder trafen, weinten sie zunächst beide. Danach umarmten sie sich und versprachen, in Zukunft offener miteinander zu reden. Seitdem ist ihre Freundschaft sogar noch stärker geworden, weil sie gelernt haben, Konflikte nicht zu verdrängen.",
+    "preguntas": [
+      {
+        "enunciado": "Emma und Lea kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea hatte einen Termin von Emma vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea hat sich nie für ihr Verhalten entschuldigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Freundinnen haben sich wieder versöhnt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihre Freundschaft ist danach zerbrochen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "deepfakes-medienkompetenz",
+    "nivel": "B2",
+    "titulo": "Deepfakes – Wenn man den eigenen Augen nicht mehr trauen kann",
+    "descripcion": "Ein Text über die wachsende Bedrohung durch KI-generierte Fälschungen und die Notwendigkeit von Medienkompetenz.",
+    "texto": "Künstliche Intelligenz macht es heute möglich, täuschend echte Videos zu erstellen, in denen Personen Dinge sagen oder tun, die nie stattgefunden haben. Diese sogenannten Deepfakes werden mithilfe komplexer Algorithmen erzeugt, wobei das Gesicht einer Person digital auf den Körper einer anderen übertragen wird. Was vor wenigen Jahren noch aufwendige Spezialkenntnisse erforderte, kann inzwischen mit frei verfügbarer Software erledigt werden.\n\nBesonders besorgniserregend ist, dass Deepfakes zunehmend für Desinformationskampagnen und Betrug eingesetzt werden. So wurden bereits gefälschte Videos von Politikern verbreitet, die diesen Aussagen in den Mund legten, die sie nie getätigt hatten. Würde diese Technologie unkontrolliert weiterentwickelt, könnte das Vertrauen in audiovisuelle Medien insgesamt erschüttert werden, da Bild- und Tonaufnahmen nicht länger als verlässliche Beweise gelten würden.\n\nExperten fordern deshalb, dass Medienkompetenz bereits in der Schule stärker gefördert wird, damit Jugendliche lernen, Inhalte kritisch zu hinterfragen. Zudem wird an technischen Lösungen gearbeitet, mit denen Deepfakes automatisch erkannt werden sollen. Ob diese Werkzeuge jedoch mit der rasanten Entwicklung der Fälschungstechnologie Schritt halten können, bleibt fraglich. Klar ist jedoch, dass ein rein technischer Ansatz allein nicht ausreichen wird, wenn nicht gleichzeitig ein gesellschaftliches Bewusstsein für dieses Problem geschaffen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Für die Erstellung von Deepfakes ist heute immer noch hochspezialisiertes Fachwissen nötig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Deepfakes wurden bereits genutzt, um Politikern falsche Aussagen zuzuschreiben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht keine Gefahr für das Vertrauen in audiovisuelle Medien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern mehr Medienkompetenz bereits in der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text reicht eine rein technische Lösung allein vollkommen aus.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mietpreisbremse-wohnungsnot",
+    "nivel": "B2",
+    "titulo": "Mietpreisbremse – Ein wirksames Mittel gegen die Wohnungsnot?",
+    "descripcion": "Der Text beleuchtet, ob die staatliche Regulierung von Mietpreisen tatsächlich zur Entspannung des Wohnungsmarkts beiträgt.",
+    "texto": "In vielen deutschen Großstädten sind die Mieten in den letzten Jahren drastisch gestiegen, sodass für viele Menschen bezahlbarer Wohnraum kaum noch zu finden ist. Als Reaktion darauf wurde die sogenannte Mietpreisbremse eingeführt, die verhindern soll, dass Neuvermietungen die ortsübliche Vergleichsmiete um mehr als zehn Prozent überschreiten. Ziel dieser Maßnahme ist es, den Anstieg der Mieten zu bremsen und einkommensschwächere Haushalte zu schützen.\n\nKritiker bezweifeln jedoch, dass die Mietpreisbremse ihr Ziel tatsächlich erreicht. Sie argumentieren, dass Vermieter aufgrund der Regulierung seltener bereit seien, in die Sanierung ihrer Immobilien zu investieren, da sich höhere Modernisierungskosten nicht mehr über die Miete refinanzieren ließen. Zudem würden viele Vermieter Schlupflöcher nutzen, indem Wohnungen möbliert oder als Zweitwohnsitz vermietet werden, wodurch die gesetzliche Obergrenze umgangen wird.\n\nBefürworter halten dem entgegen, dass ohne die Mietpreisbremse die Situation für Mieter noch dramatischer wäre. Studien zeigten zwar, dass der Mietanstieg in regulierten Gebieten leicht gebremst werde, das grundlegende Problem – ein zu geringes Angebot an Wohnraum – werde dadurch aber nicht gelöst. Wäre der Wohnungsbau in den vergangenen Jahrzehnten stärker gefördert worden, hätte sich die aktuelle Wohnungsnot vermutlich gar nicht erst in diesem Ausmaß entwickelt. Die Mietpreisbremse allein kann daher bestenfalls als Symptombekämpfung betrachtet werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreisbremse erlaubt es, die ortsübliche Vergleichsmiete beliebig zu überschreiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Vermieter weniger in Sanierungen investieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text nutzen manche Vermieter Schlupflöcher, um die Regelung zu umgehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zeigen, dass die Mietpreisbremse das Wohnraumangebot deutlich erhöht hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text bezeichnet die Mietpreisbremse als vollständige Lösung des Wohnungsproblems.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ganztagsschulen-chancengleichheit",
+    "nivel": "B2",
+    "titulo": "Ganztagsschulen – Mehr Chancengleichheit oder Stress für Kinder?",
+    "descripcion": "Eine Auseinandersetzung mit den Vor- und Nachteilen des Ausbaus von Ganztagsschulen in Deutschland.",
+    "texto": "Der Ausbau von Ganztagsschulen wird in Deutschland seit Jahren kontrovers diskutiert. Befürworter argumentieren, dass verlängerte Schulzeiten dazu beitragen könnten, Bildungsungerechtigkeiten abzubauen, da Kinder aus bildungsfernen Familien in der Schule zusätzliche Förderung erhalten würden, die ihnen zu Hause oft fehlt. Zudem erleichtere das Ganztagsangebot berufstätigen Eltern die Vereinbarkeit von Familie und Beruf erheblich.\n\nKritiker hingegen warnen davor, dass viele Kinder durch einen längeren Schultag überfordert würden. Nachdem sie bereits sechs oder sieben Stunden konzentriert gearbeitet hätten, bliebe kaum noch Zeit für Hobbys, Sport oder freies Spielen, was für die kindliche Entwicklung ebenso wichtig sei wie schulisches Lernen. Manche Experten fordern deshalb, dass Ganztagsschulen nicht einfach die Unterrichtszeit verlängern, sondern durch sinnvolle Freizeitangebote ergänzt werden sollten.\n\nEin weiteres Problem stellt der Personalmangel dar: Ohne ausreichend qualifiziertes Personal könnten viele Schulen die notwendige Betreuungsqualität gar nicht gewährleisten. Würde der Ausbau überstürzt vorangetrieben, ohne gleichzeitig in Lehrkräfte und Räumlichkeiten zu investieren, bestünde die Gefahr, dass die Qualität der Betreuung leidet und das eigentliche Ziel – mehr Chancengleichheit – verfehlt wird. Die Debatte zeigt, dass eine rein quantitative Ausweitung der Betreuungszeit allein keine Garantie für bessere Bildungschancen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter sehen in Ganztagsschulen eine Möglichkeit, Bildungsungerechtigkeit zu verringern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Kinder durch längere Schultage zu wenig Zeit für Freizeit haben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text gibt es keinen Mangel an qualifiziertem Personal an Ganztagsschulen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, dass mehr Betreuungszeit automatisch zu besseren Bildungschancen führt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten fordern zusätzliche sinnvolle Freizeitangebote an Ganztagsschulen.",
+        "respuesta": true
+      }
+    ]
   }
 ];
 
