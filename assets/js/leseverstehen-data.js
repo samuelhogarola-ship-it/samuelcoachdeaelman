@@ -9877,6 +9877,354 @@ const TEXTOS = [
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-mittagspause",
+    "nivel": "A1",
+    "titulo": "Meine Mittagspause",
+    "descripcion": "Lena erzählt, was sie jeden Tag in der Mittagspause macht.",
+    "texto": "Lena arbeitet in einem Büro in München. Um 12 Uhr hat sie Mittagspause. Sie isst nicht am Schreibtisch. Sie geht immer nach draußen. In der Nähe gibt es einen kleinen Park mit Bäumen und Bänken.\n\nLena bringt oft ihr eigenes Essen mit. Sie mag Salat mit Käse und Brot. Manchmal kauft sie auch eine Suppe im Café um die Ecke. Nach dem Essen trinkt sie einen Kaffee. Ihre Kollegin Petra isst meistens mit ihr zusammen. Sie sprechen über die Arbeit und über ihre Familien.\n\nNach der Pause geht Lena wieder ins Büro zurück. Die Pause ist kurz, aber wichtig für sie. Sie sagt: „Die Mittagspause ist meine Lieblingszeit am Tag.\"",
+    "preguntas": [
+      {
+        "enunciado": "Lena isst immer am Schreibtisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Nähe von Lenas Büro gibt es einen Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena trinkt nach dem Essen einen Kaffee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Petra isst nie mit Lena zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mittagspause ist Lenas Lieblingszeit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-spielzeugladen",
+    "nivel": "A1",
+    "titulo": "Im Spielzeugladen",
+    "descripcion": "Tom geht mit seinem Vater in einen Spielzeugladen und sucht ein Geschenk.",
+    "texto": "Tom ist sechs Jahre alt. Heute geht er mit seinem Vater in einen Spielzeugladen. Sein Freund Paul hat bald Geburtstag, und Tom möchte ein Geschenk kaufen. Der Laden ist groß und bunt. Es gibt viele Regale mit Autos, Bällen und Puzzles.\n\nTom sieht einen roten Ball und ein blaues Auto. Er kann sich nicht entscheiden. Sein Vater fragt: „Was mag Paul mehr, Autos oder Bälle?\" Tom denkt kurz nach und sagt: „Paul spielt gern Fußball. Der Ball ist besser.\" Sie gehen zur Kasse und bezahlen den Ball.\n\nVor dem Laden gibt es auch ein Eis. Tom bekommt ein kleines Eis mit Schokolade. Er freut sich sehr auf die Geburtstagsparty von Paul am Samstag.",
+    "preguntas": [
+      {
+        "enunciado": "Tom geht allein in den Spielzeugladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hat bald Geburtstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom kauft ein blaues Auto für Paul.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul spielt gern Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom bekommt kein Eis.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-eiscafe",
+    "nivel": "A1",
+    "titulo": "Im Eiscafé",
+    "descripcion": "Julia und ihre Schwester besuchen an einem heißen Tag ein Eiscafé.",
+    "texto": "Es ist Sommer und sehr heiß. Julia und ihre kleine Schwester Mia gehen zusammen in ein Eiscafé. Das Café ist im Zentrum der Stadt. Viele Menschen sitzen draußen und essen Eis.\n\nJulia bestellt ein Eis mit Vanille und Erdbeere. Mia möchte Schokolade und Banane. Der Kellner bringt zwei große Becher. Das Eis ist kalt und sehr lecker. Mia lacht und sagt: „Das ist das beste Eis der Welt!\"\n\nNach dem Eis trinken die Schwestern noch Wasser. Dann gehen sie langsam nach Hause. Der Tag ist warm, aber sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Es ist Winter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia und Mia sind Schwestern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia bestellt Vanille und Erdbeere.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kellner bringt zwei Becher Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Eis trinken sie Kaffee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verpasste-zug",
+    "nivel": "A2",
+    "titulo": "Der verpasste Zug",
+    "descripcion": "Felix kommt zu spät zum Bahnhof und muss seine Reisepläne ändern.",
+    "texto": "Felix wollte am Freitag um 8 Uhr mit dem Zug nach Köln fahren. Er hat seinen Wecker gestellt, aber er hat ihn nicht gehört. Als er aufgewacht ist, war es schon 7:40 Uhr. Er ist schnell aus dem Bett gesprungen, weil er den Zug nicht verpassen wollte.\n\nFelix ist zum Bahnhof gerannt, aber er ist trotzdem zu spät gekommen. Der Zug ist ohne ihn abgefahren. Er war sehr frustriert, weil er ein wichtiges Treffen in Köln hatte. Am Schalter hat er gefragt, wann der nächste Zug fährt. Die Frau am Schalter hat gesagt, dass es einen Zug um 9:15 Uhr gibt.\n\nFelix hat sofort seinen Kollegen angerufen und erklärt, dass er später ankommen wird. Der Kollege war nicht böse, weil so etwas manchmal passiert. Felix hat versprochen, dass er in Zukunft zwei Wecker benutzen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Felix wollte um 8 Uhr nach Köln fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat seinen Wecker gehört.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat den Zug pünktlich erreicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der nächste Zug fährt um 9:15 Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kollege war sehr böse.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wanderung-im-schwarzwald",
+    "nivel": "A2",
+    "titulo": "Die Wanderung im Schwarzwald",
+    "descripcion": "Eine Gruppe von Freunden macht eine Wanderung im Schwarzwald und erlebt schlechtes Wetter.",
+    "texto": "Im August sind Sabine und drei Freunde in den Schwarzwald gefahren, weil sie eine lange Wanderung machen wollten. Am Morgen war das Wetter schön, und die Sonne hat geschienen. Sie sind früh losgegangen und haben viele schöne Wälder und Seen gesehen.\n\nAm Nachmittag hat es plötzlich stark geregnet. Die Gruppe hatte keine Regenjacken dabei, weil sie den Regen nicht erwartet hatten. Sie sind schnell unter einen großen Baum gelaufen und haben dort gewartet. Nach einer halben Stunde hat der Regen aufgehört, und sie konnten weitergehen.\n\nAm Abend sind sie müde, aber glücklich in der Hütte angekommen. Sie haben zusammen gekocht und über den Tag gesprochen. Sabine hat gesagt, dass die Wanderung trotz des Regens ein tolles Erlebnis war.",
+    "preguntas": [
+      {
+        "enunciado": "Am Morgen hat es geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe hatte Regenjacken dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben sich unter einem Baum vor dem Regen versteckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Regen hat den ganzen Tag gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine fand die Wanderung trotzdem toll.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-ohne-handy",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende ohne Handy",
+    "descripcion": "Nora probiert aus, wie es ist, ein Wochenende ohne ihr Smartphone zu verbringen.",
+    "texto": "Nora hat ihren Freunden erzählt, dass sie zu viel Zeit am Handy verbringt. Deshalb hat sie entschieden, ein ganzes Wochenende ohne Handy zu verbringen. Am Samstagmorgen hat sie das Handy in eine Schublade gelegt und den Schlüssel ihrer Mitbewohnerin gegeben.\n\nZuerst war es schwierig, weil Nora oft automatisch nach dem Handy gegriffen hat. Sie wusste nicht, wie spät es war, weil sie keine Uhr auf dem Handy hatte. Am Nachmittag ist sie mit ihrer Schwester spazieren gegangen und hat viel mehr mit ihr geredet als sonst. Sie hat auch ein Buch gelesen, das sie schon lange lesen wollte.\n\nAm Sonntagabend hat Nora das Handy wieder geholt. Sie hatte viele Nachrichten, aber sie war nicht gestresst. Sie hat gemerkt, dass sie das Wochenende sehr ruhig fand. Nora hat beschlossen, dass sie das jetzt öfter machen möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Nora hat das Wochenende mit ihrem Handy verbracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang war es für Nora leicht, ohne Handy zu sein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nora ist mit ihrer Schwester spazieren gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nora hat kein Buch gelesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nora möchte das Experiment öfter wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-abschlussfeier",
+    "nivel": "B1",
+    "titulo": "Die Abschlussfeier",
+    "descripcion": "Nach dem Abitur feiert eine Klasse gemeinsam ihren Abschluss, obwohl nicht alles nach Plan läuft.",
+    "texto": "Nach zwölf Jahren Schule hatte die Klasse von Herrn Bauer endlich ihr Abitur bestanden. Die Schülerinnen und Schüler hatten monatelang eine große Abschlussfeier geplant. Sie wollten die Aula der Schule schmücken und eine Band einladen, obwohl das Budget der Klasse sehr klein war.\n\nAm Tag der Feier gab es einige Probleme. Die Band, die sie gebucht hatten, sagte kurzfristig ab, weil ein Mitglied krank geworden war. Trotzdem ließen sich die Schüler nicht entmutigen. Sie organisierten schnell eine Playlist mit ihrer Lieblingsmusik und stellten Lautsprecher auf. Nachdem die ersten Gäste angekommen waren, merkte niemand mehr, dass ursprünglich eine echte Band spielen sollte.\n\nDie Feier dauerte bis spät in die Nacht. Viele Eltern und Lehrer kamen vorbei, um den Schülern zu gratulieren. Am Ende des Abends waren alle sehr emotional, weil sie wussten, dass sich ihre Wege bald trennen würden. Trotz der kleinen Panne am Nachmittag war es für die meisten einer der schönsten Abende ihres Lebens.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse hat die Feier spontan ohne Planung organisiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die gebuchte Band ist kurzfristig abgesagt worden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler haben deshalb die ganze Feier abgesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Ausfall der Band spielten sie Musik von einer Playlist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Abends waren die Schüler traurig, weil niemand zur Feier kam.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-grossstadt",
+    "nivel": "B1",
+    "titulo": "Der Umzug in die Großstadt",
+    "descripcion": "Jonas zieht vom Dorf in eine Großstadt und muss sich an ein neues Leben gewöhnen.",
+    "texto": "Jonas ist in einem kleinen Dorf mit nur dreihundert Einwohnern aufgewachsen. Nach seinem Studium hat er eine Stelle in Hamburg gefunden und musste in die Großstadt ziehen, obwohl er das Leben auf dem Land immer geliebt hatte. Am Anfang war alles fremd für ihn: der Lärm, die vielen Menschen und die hohen Häuser.\n\nNachdem er in seine neue Wohnung eingezogen war, fühlte sich Jonas oft einsam. Er kannte niemanden in der Stadt, und seine Nachbarn grüßten ihn kaum. Trotzdem versuchte er, positiv zu bleiben, und meldete sich bei einem Fußballverein in der Nähe an. Dort lernte er schnell neue Leute kennen, die ihm halfen, sich in der Stadt zurechtzufinden.\n\nNach einigen Monaten hatte sich Jonas an sein neues Leben gewöhnt. Er vermisste zwar die Ruhe seines Dorfes, genoss aber auch die vielen Möglichkeiten, die eine Großstadt bietet: Kinos, Restaurants und kulturelle Veranstaltungen. Heute sagt er, dass der Umzug am Anfang schwer war, sich aber am Ende gelohnt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist in einer Großstadt aufgewachsen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang fühlte sich Jonas in Hamburg wohl.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas ist einem Fußballverein beigetreten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Durch den Verein hat Jonas neue Leute kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas bereut den Umzug und möchte zurück aufs Dorf.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wiedersehensfeier-nach-zehn-jahren",
+    "nivel": "B1",
+    "titulo": "Die Wiedersehensfeier nach zehn Jahren",
+    "descripcion": "Ehemalige Klassenkameraden treffen sich nach zehn Jahren wieder und stellen fest, dass sich vieles verändert hat.",
+    "texto": "Zehn Jahre nach dem Schulabschluss organisierte Melanie ein Klassentreffen. Sie hatte lange nichts von den meisten ihrer alten Freunde gehört, obwohl sie früher jeden Tag zusammen waren. Über eine Chatgruppe lud sie alle ein, die sie noch erreichen konnte, und viele sagten sofort zu.\n\nAls sich die Gruppe im alten Schulhof traf, erkannten sich einige zunächst kaum wieder. Manche hatten ihr Aussehen stark verändert, andere hatten sich kaum verändert. Nachdem die ersten Minuten etwas unsicher verlaufen waren, kamen die Gespräche schnell in Gang. Alle wollten wissen, was aus den anderen geworden war: wer studiert hatte, wer eine Familie gegründet hatte und wer in ein anderes Land gezogen war.\n\nAm Ende des Abends waren sich alle einig, dass sie sich öfter treffen sollten. Melanie versprach, in Zukunft jedes Jahr ein kleines Treffen zu organisieren, damit die alte Freundschaft nicht wieder verloren geht. Trotz der vielen Jahre und der unterschiedlichen Lebenswege fühlte es sich für die meisten an, als wären sie nie getrennt gewesen.",
+    "preguntas": [
+      {
+        "enunciado": "Melanie hatte in den letzten zehn Jahren regelmäßigen Kontakt zu allen Klassenkameraden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Treffen fand auf dem alten Schulhof statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle erkannten sich sofort ohne Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gäste sprachen darüber, was aus ihrem Leben geworden ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende wollte niemand ein weiteres Treffen organisieren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-sprachkurs-im-ausland",
+    "nivel": "B1",
+    "titulo": "Der Sprachkurs im Ausland",
+    "descripcion": "Paula verbringt einen Monat in Spanien, um ihre Sprachkenntnisse zu verbessern, und lernt dabei mehr als nur die Sprache.",
+    "texto": "Paula wollte schon lange ihr Spanisch verbessern und entschied sich, einen einmonatigen Sprachkurs in Sevilla zu machen. Obwohl sie vorher nervös war, weil sie noch nie allein im Ausland gelebt hatte, freute sie sich auch sehr auf das Abenteuer.\n\nIn der Sprachschule lernte Paula Menschen aus vielen verschiedenen Ländern kennen. Nachdem der Unterricht am Vormittag beendet war, trafen sich die Kursteilnehmer oft zum Mittagessen und erkundeten gemeinsam die Stadt. Anfangs fiel es Paula schwer, auf Spanisch zu sprechen, weil sie Angst hatte, Fehler zu machen. Ihre Lehrerin ermutigte sie jedoch, einfach weiterzureden, auch wenn nicht alles perfekt war.\n\nAm Ende des Monats konnte Paula viel besser Spanisch sprechen als vorher. Sie hatte nicht nur die Sprache gelernt, sondern auch neue Freundschaften geschlossen und viel über die spanische Kultur erfahren. Trotzdem war sie froh, wieder nach Hause zu fliegen, weil sie ihre Familie sehr vermisst hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Paula machte einen Sprachkurs in Barcelona.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula hatte vorher schon oft allein im Ausland gelebt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kursteilnehmer trafen sich nach dem Unterricht zum Mittagessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula hatte am Anfang keine Angst, Fehler zu machen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Kurses konnte Paula besser Spanisch sprechen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wohnungsnot-in-deutschen-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Wohnungsnot in deutschen Großstädten",
+    "descripcion": "Der Text beleuchtet die Ursachen und möglichen Lösungen der Wohnungsknappheit in deutschen Ballungsräumen.",
+    "texto": "In Großstädten wie München, Berlin und Frankfurt ist bezahlbarer Wohnraum in den letzten Jahren immer knapper geworden. Während die Mieten kontinuierlich gestiegen sind, hat sich das Angebot an neuen Wohnungen nur langsam entwickelt. Experten führen dies auf mehrere Faktoren zurück: hohe Baukosten, strenge Bauvorschriften und ein anhaltender Zuzug in die urbanen Zentren, der durch attraktive Arbeitsmärkte begünstigt wird.\n\nBesonders betroffen von der Wohnungsnot sind Menschen mit geringem oder mittlerem Einkommen, die sich die stetig steigenden Mieten kaum noch leisten können. Wäre der soziale Wohnungsbau in den vergangenen Jahrzehnten stärker gefördert worden, hätte sich diese Entwicklung vermutlich abmildern lassen. Stattdessen wurde ein erheblicher Teil des einst öffentlichen Wohnungsbestands privatisiert, was den Druck auf dem ohnehin angespannten Markt zusätzlich verschärft hat.\n\nUm der Krise entgegenzuwirken, werden verschiedene Maßnahmen diskutiert. Manche Politiker fordern eine strengere Mietpreisbremse, die verhindern soll, dass Mieten bei Neuvermietungen übermäßig steigen. Andere plädieren dafür, dass mehr staatlich geförderter Wohnraum geschaffen werden müsse, damit einkommensschwache Haushalte nicht aus den Städten verdrängt werden. Kritiker solcher Eingriffe argumentieren wiederum, dass zu starke Regulierungen private Investoren abschrecken und den Wohnungsbau langfristig sogar bremsen könnten.\n\nOb sich die Wohnungsnot in absehbarer Zeit entspannen wird, bleibt ungewiss. Klar ist jedoch, dass eine Lösung nur gelingen kann, wenn Politik, Bauwirtschaft und Kommunen gemeinsam an nachhaltigen Konzepten arbeiten, die sowohl den Bedarf an neuem Wohnraum decken als auch soziale Gerechtigkeit berücksichtigen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hohe Baukosten werden als eine Ursache der Wohnungsnot genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Menschen mit geringem Einkommen sind von der Wohnungsnot besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Politiker sind sich einig, dass eine strengere Mietpreisbremse die beste Lösung ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text braucht eine Lösung die Zusammenarbeit von Politik, Bauwirtschaft und Kommunen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "bildschirmzeit-bei-kindern",
+    "nivel": "B2",
+    "titulo": "Bildschirmzeit bei Kindern – Fluch oder Segen?",
+    "descripcion": "Der Artikel diskutiert die Auswirkungen digitaler Medien auf die kindliche Entwicklung und mögliche Lösungsansätze für Eltern.",
+    "texto": "Kaum ein Thema wird unter Eltern und Pädagogen so kontrovers diskutiert wie die Bildschirmzeit von Kindern. Smartphones, Tablets und Streaming-Dienste sind heute fester Bestandteil des Alltags, selbst für die Jüngsten. Während manche Eltern digitale Medien bewusst begrenzen, wachsen andere Kinder nahezu selbstverständlich mit Bildschirmen auf, ohne dass klare Regeln existieren.\n\nBefürworter eines maßvollen Medienkonsums verweisen auf Studien, die zeigen, dass übermäßige Bildschirmzeit mit Konzentrationsproblemen, Schlafstörungen und geringerer sozialer Kompetenz in Verbindung gebracht wird. Wären Kinder stattdessen häufiger draußen aktiv oder würden sie mehr Zeit mit realen sozialen Interaktionen verbringen, so die Argumentation, könnte sich dies positiv auf ihre kognitive und emotionale Entwicklung auswirken. Andererseits betonen einige Experten, dass digitale Kompetenzen für das spätere Berufsleben zunehmend unverzichtbar würden und ein vollständiges Verbot digitaler Medien daher wenig sinnvoll sei.\n\nEin entscheidender Faktor scheint weniger die reine Bildschirmzeit an sich zu sein als vielmehr die Art der Nutzung. Passives Konsumieren von Videos wird von Fachleuten kritischer bewertet als interaktive Anwendungen, bei denen Kinder aktiv gestalten, programmieren oder lernen. Zudem spiele die Vorbildfunktion der Eltern eine zentrale Rolle: Kinder, deren Eltern selbst ständig auf ihr Smartphone schauen, würden dieses Verhalten häufig unbewusst übernehmen.\n\nLetztlich scheint es keine pauschale Lösung zu geben, die für alle Familien gleichermaßen geeignet wäre. Die meisten Experten empfehlen jedoch klare, altersgerechte Regeln sowie gemeinsam mit den Kindern ausgehandelte Bildschirmzeiten, damit digitale Medien weder verteufelt noch unreflektiert genutzt werden.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Eltern sind sich einig, wie viel Bildschirmzeit für Kinder angemessen ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text kann übermäßige Bildschirmzeit mit Schlafstörungen zusammenhängen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten fordern ein vollständiges Verbot digitaler Medien für Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Art der Mediennutzung spielt laut dem Text eine wichtigere Rolle als die reine Bildschirmzeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Verhalten der Eltern hat laut dem Text keinen Einfluss auf die Kinder.",
+        "respuesta": false
+      }
+    ]
   }
 ];
 
