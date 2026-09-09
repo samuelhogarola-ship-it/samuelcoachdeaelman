@@ -7086,6 +7086,222 @@ Befürworter entgegnen, dass Achtsamkeit nicht als Ersatz für notwendige strukt
       { enunciado: 'Befürworter sehen Achtsamkeit als mögliche Ergänzung zu strukturellen Veränderungen.', respuesta: true },
     ],
   },
+  {
+    slug: 'am-fluss',
+    nivel: 'A1',
+    titulo: 'Am Fluss',
+    descripcion: 'Familie Berger macht einen Spaziergang am Fluss und sieht Enten und Boote.',
+    texto: `Familie Berger wohnt in einer kleinen Stadt. Der Fluss ist nicht weit von zu Hause. Am Sonntag geht die Familie oft am Fluss spazieren. Mutter, Vater und die Kinder Tom und Emma sind heute dabei.
+
+Am Fluss gibt es viele Enten. Die Kinder werfen kein Brot ins Wasser, das ist verboten. Sie fotografieren die Enten und die Boote. Ein großes weißes Boot fährt langsam vorbei. Tom winkt den Menschen auf dem Boot.
+
+Nach dem Spaziergang isst die Familie Eis. Emma nimmt Schokoladeneis, Tom nimmt Erdbeereis. Die Sonne scheint, und alle sind glücklich. Am Abend fahren sie mit dem Auto nach Hause.`,
+    preguntas: [
+      { enunciado: 'Familie Berger wohnt in einer kleinen Stadt.', respuesta: true },
+      { enunciado: 'Der Fluss ist weit von zu Hause.', respuesta: false },
+      { enunciado: 'Die Kinder werfen Brot ins Wasser.', respuesta: false },
+      { enunciado: 'Ein weißes Boot fährt vorbei.', respuesta: true },
+      { enunciado: 'Tom isst Schokoladeneis.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'meine-mahlzeiten',
+    nivel: 'A1',
+    titulo: 'Meine Mahlzeiten',
+    descripcion: 'Sofie erzählt, was sie zum Frühstück, Mittagessen und Abendessen isst.',
+    texto: `Ich heiße Sofie und ich bin neun Jahre alt. Am Morgen esse ich Frühstück mit meiner Familie. Ich esse Brot mit Marmelade und trinke ein Glas Milch. Mein Bruder isst lieber Müsli mit Joghurt.
+
+Am Mittag esse ich in der Schule. Die Schulkantine hat oft Nudeln oder Reis. Heute gibt es Nudeln mit Tomatensoße. Das schmeckt mir sehr gut. Nach dem Essen trinke ich Wasser.
+
+Am Abend kocht meine Mutter das Abendessen. Wir essen zusammen am Tisch. Oft gibt es Suppe oder Salat mit Brot. Am Wochenende gibt es manchmal Pizza. Das ist mein Lieblingsessen!`,
+    preguntas: [
+      { enunciado: 'Sofie ist neun Jahre alt.', respuesta: true },
+      { enunciado: 'Sofie trinkt am Morgen Kaffee.', respuesta: false },
+      { enunciado: 'Ihr Bruder isst Müsli mit Joghurt.', respuesta: true },
+      { enunciado: 'In der Schule gibt es heute Reis.', respuesta: false },
+      { enunciado: 'Pizza ist nicht Sofies Lieblingsessen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-sonntagsspaziergang',
+    nivel: 'A1',
+    titulo: 'Der Sonntagsspaziergang',
+    descripcion: 'Herr Klein geht mit seinem Hund Bello jeden Sonntag im Wald spazieren.',
+    texto: `Herr Klein hat einen Hund. Der Hund heißt Bello. Jeden Sonntag geht Herr Klein mit Bello im Wald spazieren. Der Wald ist in der Nähe von seinem Haus.
+
+Im Wald gibt es viele Bäume und Vögel. Bello läuft gern zwischen den Bäumen. Er sucht Stöcke und bringt sie zu Herrn Klein. Manchmal trifft Herr Klein seinen Nachbarn Herrn Fischer. Sie sprechen kurz über das Wetter.
+
+Nach dem Spaziergang trinkt Herr Klein einen Tee. Bello schläft dann auf seinem Bett. Der Sonntag ist für Herrn Klein ein ruhiger Tag. Er mag seinen Spaziergang mit Bello sehr.`,
+    preguntas: [
+      { enunciado: 'Bello ist der Hund von Herrn Klein.', respuesta: true },
+      { enunciado: 'Herr Klein geht am Montag spazieren.', respuesta: false },
+      { enunciado: 'Im Wald gibt es viele Bäume.', respuesta: true },
+      { enunciado: 'Bello bringt Blumen zu Herrn Klein.', respuesta: false },
+      { enunciado: 'Nach dem Spaziergang trinkt Herr Klein Kaffee.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'ein-schwieriger-montag',
+    nivel: 'A2',
+    titulo: 'Ein schwieriger Montag',
+    descripcion: 'Julia hat verschlafen, und an diesem Montag geht zunächst alles schief.',
+    texto: `Julia ist am Montag zu spät aufgewacht, weil ihr Wecker nicht geklingelt hat. Sie ist schnell aus dem Bett gesprungen und hat sich beeilt. Leider hat sie ihr Frühstück vergessen, weil keine Zeit mehr war. Sie ist ohne Kaffee aus dem Haus gelaufen.
+
+An der Bushaltestelle hat Julia gemerkt, dass sie ihren Bus verpasst hat. Sie musste zwanzig Minuten auf den nächsten Bus warten. Im Bus hat sie gedacht, dass der Tag nicht gut anfängt. Als sie im Büro angekommen ist, hat ihr Chef schon auf sie gewartet.
+
+Am Nachmittag ist es besser geworden. Eine Kollegin hat Julia einen Kaffee mitgebracht, weil sie gesehen hat, dass Julia müde war. Julia hat sich gefreut und wieder gelächelt. Am Abend hat sie früh geschlafen, damit der nächste Tag besser wird.`,
+    preguntas: [
+      { enunciado: 'Julias Wecker hat nicht geklingelt.', respuesta: true },
+      { enunciado: 'Julia hat in Ruhe gefrühstückt.', respuesta: false },
+      { enunciado: 'Julia hat ihren Bus pünktlich erreicht.', respuesta: false },
+      { enunciado: 'Der Chef hat schon auf Julia gewartet.', respuesta: true },
+      { enunciado: 'Am Nachmittag ist alles noch schlimmer geworden.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-termin-beim-zahnarzt',
+    nivel: 'A2',
+    titulo: 'Der Termin beim Zahnarzt',
+    descripcion: 'Markus hat Zahnschmerzen und muss zum ersten Mal zum Zahnarzt in seiner neuen Stadt.',
+    texto: `Markus ist vor zwei Monaten nach Leipzig gezogen. Letzte Woche hat er starke Zahnschmerzen bekommen, weil ein Zahn entzündet war. Da er noch keinen Zahnarzt in Leipzig hatte, hat er im Internet gesucht und eine Praxis in der Nähe gefunden.
+
+Am Telefon hat die Arzthelferin gesagt, dass er sofort einen Termin bekommen kann, weil die Schmerzen so stark waren. Markus ist nervös zum Termin gegangen, weil er Angst vor dem Zahnarzt hat. Der Zahnarzt hat den Zahn untersucht und ihm erklärt, dass eine kleine Behandlung nötig ist.
+
+Nach der Behandlung hat Markus keine Schmerzen mehr gehabt. Er war erleichtert, dass alles so schnell gegangen ist. Der Zahnarzt hat ihm geraten, öfter zur Kontrolle zu kommen, wenn er in Leipzig bleibt. Markus hat sich gleich einen neuen Termin für in sechs Monaten geben lassen.`,
+    preguntas: [
+      { enunciado: 'Markus wohnt seit zwei Monaten in Leipzig.', respuesta: true },
+      { enunciado: 'Markus hatte schon vorher einen Zahnarzt in Leipzig.', respuesta: false },
+      { enunciado: 'Die Arzthelferin konnte ihm sofort einen Termin geben.', respuesta: true },
+      { enunciado: 'Nach der Behandlung hatte Markus noch starke Schmerzen.', respuesta: false },
+      { enunciado: 'Markus hat keinen neuen Termin vereinbart.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-email-aus-australien',
+    nivel: 'A2',
+    titulo: 'Die E-Mail aus Australien',
+    descripcion: 'Petra bekommt eine überraschende E-Mail von ihrer alten Austauschschülerin aus Australien.',
+    texto: `Petra hat vor zehn Jahren eine Austauschschülerin aus Australien bei sich zu Hause gehabt. Ihr Name war Chloe. Seitdem haben die beiden nicht mehr viel Kontakt gehabt. Letzte Woche hat Petra plötzlich eine E-Mail von Chloe bekommen.
+
+In der E-Mail hat Chloe geschrieben, dass sie nächsten Sommer nach Deutschland kommen möchte. Sie hat gefragt, ob sie Petra besuchen darf, weil sie die alte Zeit sehr vermisst. Petra hat sich riesig gefreut, als sie die Nachricht gelesen hat.
+
+Petra hat sofort geantwortet, dass Chloe herzlich willkommen ist. Sie hat auch geschrieben, dass sie zusammen alte Fotos ansehen können, wenn Chloe da ist. Beide Frauen freuen sich schon sehr auf das Wiedersehen nach so langer Zeit.`,
+    preguntas: [
+      { enunciado: 'Chloe war vor zehn Jahren Austauschschülerin bei Petra.', respuesta: true },
+      { enunciado: 'Petra und Chloe hatten die ganze Zeit engen Kontakt.', respuesta: false },
+      { enunciado: 'Chloe möchte im Winter nach Deutschland kommen.', respuesta: false },
+      { enunciado: 'Petra hat sich über die E-Mail gefreut.', respuesta: true },
+      { enunciado: 'Petra hat Chloe abgesagt.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-besuch-im-parlament',
+    nivel: 'B1',
+    titulo: 'Der Besuch im Parlament',
+    descripcion: 'Eine Schulklasse besucht den Bundestag in Berlin und lernt, wie Politik funktioniert.',
+    texto: `Die Klasse 9b hat im Rahmen einer Klassenfahrt den Bundestag in Berlin besucht. Obwohl die Sicherheitskontrolle am Eingang recht streng war, waren alle Schüler aufgeregt und neugierig. Nachdem sie ihre Ausweise gezeigt hatten, durften sie in den großen Plenarsaal gehen.
+
+Ein Mitarbeiter des Bundestages hat der Klasse erklärt, wie Gesetze entstehen und wie die Abgeordneten abstimmen. Die Schüler durften sogar auf den Besuchertribünen sitzen und eine echte Debatte verfolgen. Obwohl einige Themen kompliziert waren, konnten die meisten Schüler der Diskussion trotzdem gut folgen, weil der Mitarbeiter alles verständlich erklärt hatte.
+
+Am Ende des Besuchs durften die Schüler Fragen stellen. Ein Schüler wollte wissen, wie man selbst Politiker werden kann. Nachdem die Fragerunde beendet war, sind alle zufrieden zurück zur Jugendherberge gefahren. Für viele war der Tag im Bundestag der spannendste Teil der ganzen Klassenfahrt.`,
+    preguntas: [
+      { enunciado: 'Die Klasse 9b hat den Bundestag besucht.', respuesta: true },
+      { enunciado: 'Die Sicherheitskontrolle war sehr locker.', respuesta: false },
+      { enunciado: 'Die Schüler durften eine echte Debatte verfolgen.', respuesta: true },
+      { enunciado: 'Die Schüler konnten am Ende keine Fragen stellen.', respuesta: false },
+      { enunciado: 'Für viele war der Bundestagsbesuch der langweiligste Teil der Klassenfahrt.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-kunstausstellung-im-rathaus',
+    nivel: 'B1',
+    titulo: 'Die Kunstausstellung im Rathaus',
+    descripcion: 'Im Rathaus der Stadt wird eine Ausstellung mit Werken lokaler Künstler eröffnet.',
+    texto: `Letzten Freitag wurde im Rathaus eine neue Kunstausstellung eröffnet. Gezeigt werden Gemälde und Skulpturen von Künstlern aus der Region. Obwohl das Wetter an diesem Abend sehr schlecht war, kamen über hundert Besucher zur Eröffnung.
+
+Der Bürgermeister hielt eine kurze Rede, bevor die Gäste die Werke betrachten konnten. Besonders beliebt war eine große Skulptur aus recyceltem Metall, die vor dem Eingang stand. Nachdem die offizielle Eröffnung vorbei war, unterhielten sich die Besucher bei Wein und kleinen Häppchen über die Kunstwerke.
+
+Eine junge Künstlerin aus der Stadt erzählte, dass sie sehr nervös gewesen sei, weil es ihre erste Ausstellung war. Trotzdem war sie am Ende des Abends sehr glücklich, weil ihre Bilder gut angekommen sind. Die Ausstellung bleibt noch vier Wochen im Rathaus geöffnet.`,
+    preguntas: [
+      { enunciado: 'Die Ausstellung wurde im Rathaus eröffnet.', respuesta: true },
+      { enunciado: 'Wegen des schlechten Wetters kamen nur wenige Besucher.', respuesta: false },
+      { enunciado: 'Der Bürgermeister hielt eine Rede.', respuesta: true },
+      { enunciado: 'Die junge Künstlerin war überhaupt nicht nervös.', respuesta: false },
+      { enunciado: 'Die Ausstellung ist nur noch einen Tag geöffnet.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-streit-mit-dem-mitbewohner',
+    nivel: 'B1',
+    titulo: 'Streit mit dem Mitbewohner',
+    descripcion: 'Jonas und sein Mitbewohner Felix streiten wegen der Küche und finden am Ende eine Lösung.',
+    texto: `Jonas wohnt seit einem Jahr mit seinem Mitbewohner Felix in einer WG. Meistens verstehen sich die beiden gut, obwohl sie sehr unterschiedliche Charaktere haben. In letzter Zeit gab es aber immer wieder Streit, weil Felix selten die Küche aufräumt.
+
+Letzte Woche eskalierte die Situation, nachdem Jonas dreckiges Geschirr seit drei Tagen in der Spüle gefunden hatte. Er sprach Felix direkt darauf an, und es gab ein lautes Gespräch im Wohnzimmer. Obwohl beide am Anfang wütend waren, versuchten sie trotzdem ruhig zu bleiben und ihre Sichtweisen zu erklären.
+
+Am Ende einigten sich Jonas und Felix auf einen Putzplan, den beide unterschreiben. Seitdem läuft es in der WG deutlich besser, weil jeder genau weiß, wann er an der Reihe ist. Die beiden sind sich einig, dass ein Gespräch am Anfang viel Ärger hätte ersparen können.`,
+    preguntas: [
+      { enunciado: 'Jonas und Felix wohnen seit einem Jahr zusammen.', respuesta: true },
+      { enunciado: 'Felix räumt die Küche immer sofort auf.', respuesta: false },
+      { enunciado: 'Jonas fand dreckiges Geschirr in der Spüle.', respuesta: true },
+      { enunciado: 'Nach dem Streit haben sie keine Lösung gefunden.', respuesta: false },
+      { enunciado: 'Seitdem es einen Putzplan gibt, läuft es in der WG schlechter.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'leiharbeit-und-arbeitsmarkt',
+    nivel: 'B2',
+    titulo: 'Leiharbeit und der moderne Arbeitsmarkt',
+    descripcion: 'Ein Blick auf Leiharbeit in Deutschland zeigt Vor- und Nachteile für Unternehmen und Beschäftigte.',
+    texto: `Leiharbeit, auch Zeitarbeit genannt, ist seit Jahrzehnten ein fester Bestandteil des deutschen Arbeitsmarktes. Unternehmen greifen häufig auf Leiharbeiter zurück, wenn kurzfristig zusätzliches Personal benötigt wird, etwa bei saisonalen Auftragsspitzen oder Krankheitsausfällen. Befürworter argumentieren, dass durch dieses Modell Arbeitsplätze geschaffen würden, die sonst gar nicht existierten, und dass viele Menschen über die Zeitarbeit überhaupt erst den Einstieg in den Arbeitsmarkt fänden.
+
+Kritiker hingegen weisen darauf hin, dass Leiharbeiter oft schlechter bezahlt werden als die Stammbelegschaft, obwohl sie die gleiche Arbeit verrichten. Zwar wurde der Grundsatz „Equal Pay" gesetzlich verankert, wonach Leiharbeiter nach neun Monaten den gleichen Lohn wie Festangestellte erhalten sollen, doch in der Praxis wird diese Regelung nicht immer konsequent umgesetzt. Gewerkschaften fordern deshalb, dass die Frist verkürzt und stärker kontrolliert werden müsste, damit Beschäftigte nicht dauerhaft benachteiligt werden.
+
+Würde man Leiharbeit vollständig abschaffen, hätten viele Unternehmen Schwierigkeiten, flexibel auf schwankende Auftragslagen zu reagieren. Gleichzeitig wäre es wünschenswert, dass Leiharbeiter mehr Sicherheit und bessere Aufstiegschancen erhielten, ohne dass die Flexibilität des Modells verloren ginge. Eine ausgewogene Reform, die sowohl die Interessen der Unternehmen als auch die der Beschäftigten berücksichtigt, wird von vielen Experten als notwendig erachtet.`,
+    preguntas: [
+      { enunciado: 'Leiharbeit spielt seit Jahrzehnten eine Rolle auf dem deutschen Arbeitsmarkt.', respuesta: true },
+      { enunciado: 'Leiharbeiter verdienen laut Gesetz von Anfang an genauso viel wie Festangestellte.', respuesta: false },
+      { enunciado: 'Kritiker sagen, dass Equal Pay in der Praxis immer konsequent umgesetzt wird.', respuesta: false },
+      { enunciado: 'Gewerkschaften fordern eine kürzere Frist bis zur Gleichbezahlung.', respuesta: true },
+      { enunciado: 'Eine vollständige Abschaffung der Leiharbeit hätte laut Text keine Folgen für Unternehmen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'hitzewellen-und-stadtplanung',
+    nivel: 'B2',
+    titulo: 'Hitzewellen und die Zukunft der Stadtplanung',
+    descripcion: 'Immer häufigere Hitzewellen zwingen Städte, ihre Planung grundlegend zu überdenken.',
+    texto: `In den letzten Jahren sind Hitzewellen in deutschen Städten deutlich häufiger und intensiver geworden. Besonders betroffen sind dicht bebaute Innenstädte, in denen Beton und Asphalt die Wärme speichern und nachts kaum abgeben. Dieses Phänomen, das als städtische Wärmeinsel bezeichnet wird, führt dazu, dass die Temperaturen in Großstädten oft mehrere Grad höher liegen als im Umland.
+
+Stadtplaner setzen zunehmend auf Begrünung, um dem entgegenzuwirken. Bäume, Grünflächen und begrünte Fassaden könnten dazu beitragen, dass sich die Luft in den Straßen abkühlt, während gleichzeitig die Luftqualität verbessert würde. Auch helle Oberflächen, die Sonnenlicht reflektieren statt zu absorbieren, werden inzwischen bei Neubauprojekten berücksichtigt. Wäre mehr Geld für solche Maßnahmen vorhanden, könnten viele Städte deutlich schneller umgebaut werden.
+
+Kritiker bemängeln jedoch, dass viele Konzepte zu langsam umgesetzt werden, obwohl die Dringlichkeit seit Jahren bekannt ist. Es fehle oft an politischem Willen und an ausreichenden Haushaltsmitteln, um Grünflächen in ohnehin schon dicht bebauten Vierteln zu schaffen. Experten sind sich jedoch einig, dass Städte, die jetzt nicht handeln, in Zukunft mit deutlich höheren gesundheitlichen und wirtschaftlichen Kosten rechnen müssten.`,
+    preguntas: [
+      { enunciado: 'Hitzewellen sind in deutschen Städten seltener geworden.', respuesta: false },
+      { enunciado: 'Beton und Asphalt speichern Wärme und geben sie nachts kaum ab.', respuesta: true },
+      { enunciado: 'Begrünung wird von Stadtplanern als mögliche Lösung diskutiert.', respuesta: true },
+      { enunciado: 'Kritiker meinen, dass alle Konzepte schnell genug umgesetzt werden.', respuesta: false },
+      { enunciado: 'Laut Experten entstehen durch Untätigkeit keine zusätzlichen Kosten.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'rundfunkbeitrag-debatte',
+    nivel: 'B2',
+    titulo: 'Die Debatte um den Rundfunkbeitrag',
+    descripcion: 'Der verpflichtende Rundfunkbeitrag in Deutschland wird zunehmend kontrovers diskutiert.',
+    texto: `Jeder Haushalt in Deutschland ist verpflichtet, den sogenannten Rundfunkbeitrag zu zahlen, mit dem die öffentlich-rechtlichen Sender ARD, ZDF und Deutschlandradio finanziert werden. Befürworter argumentieren, dass eine unabhängige, werbefreie Finanzierung notwendig sei, damit die Sender frei von wirtschaftlichem und politischem Druck berichten könnten. Ohne diese Unabhängigkeit, so das Argument, würde die Qualität der Berichterstattung leiden.
+
+In den vergangenen Jahren ist die Kritik an dem Modell jedoch lauter geworden. Viele Bürger empfinden es als ungerecht, dass der Beitrag unabhängig davon gezahlt werden muss, ob man die Angebote tatsächlich nutzt. Zudem wird bemängelt, dass die Sender zu groß und zu teuer geworden seien und dass eingespart werden müsste, ohne dass die journalistische Qualität darunter leidet. Einige Politiker fordern sogar, das gesamte System grundlegend zu reformieren oder durch ein anderes Finanzierungsmodell zu ersetzen.
+
+Würde der Rundfunkbeitrag abgeschafft, müssten die öffentlich-rechtlichen Sender vermutlich auf Werbeeinnahmen oder staatliche Zuschüsse zurückgreifen, was wiederum neue Abhängigkeiten schaffen könnte. Experten warnen deshalb davor, das System vorschnell abzuschaffen, ohne eine tragfähige Alternative entwickelt zu haben. Klar ist jedoch, dass eine Reform, die mehr Transparenz und Effizienz schafft, von den meisten Seiten befürwortet wird.`,
+    preguntas: [
+      { enunciado: 'Der Rundfunkbeitrag finanziert unter anderem ARD und ZDF.', respuesta: true },
+      { enunciado: 'Alle Bürger finden das Modell des Rundfunkbeitrags gerecht.', respuesta: false },
+      { enunciado: 'Manche Politiker fordern eine Reform des Finanzierungsmodells.', respuesta: true },
+      { enunciado: 'Laut Text hätte eine Abschaffung des Beitrags keinerlei Folgen.', respuesta: false },
+      { enunciado: 'Experten empfehlen eine sofortige, unüberlegte Abschaffung des Systems.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
