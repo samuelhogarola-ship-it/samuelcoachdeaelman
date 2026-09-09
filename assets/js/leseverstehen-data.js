@@ -10573,6 +10573,354 @@ const TEXTOS = [
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-blumenladen",
+    "nivel": "A1",
+    "titulo": "Im Blumenladen",
+    "descripcion": "Sofie kauft Blumen für ihre Mutter.",
+    "texto": "Sofie geht heute in den Blumenladen. Der Laden ist bunt und schön. Es gibt rote Rosen und gelbe Tulpen. Sofie mag die gelben Tulpen sehr. Sie sucht ein Geschenk für ihre Mutter.\n\n„Guten Tag!“, sagt die Verkäuferin. „Ich möchte zehn Tulpen, bitte“, sagt Sofie. Die Verkäuferin lächelt und packt die Blumen ein. Sofie bezahlt fünf Euro. Sie sagt „Danke schön“ und geht nach Hause.\n\nZu Hause gibt Sofie ihrer Mutter die Blumen. Die Mutter freut sich sehr. „Die Blumen sind wunderschön!“, sagt sie. Sofie lächelt und umarmt ihre Mutter. Heute ist ein schöner Tag für die Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Sofie kauft Tulpen für ihre Mutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tulpen sind blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofie bezahlt fünf Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter ist traurig über die Blumen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofie umarmt ihre Mutter.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-wecker-klingelt",
+    "nivel": "A1",
+    "titulo": "Mein Wecker klingelt",
+    "descripcion": "Paul beschreibt seinen Morgen und seinen Schulweg.",
+    "texto": "Um sechs Uhr klingelt mein Wecker. Ich stehe schnell auf. Zuerst gehe ich ins Badezimmer. Ich putze meine Zähne und wasche mein Gesicht. Danach ziehe ich mich an.\n\nIn der Küche esse ich mein Frühstück. Ich trinke ein Glas Milch. Meine Schwester isst ein Brötchen mit Marmelade. Um sieben Uhr packe ich meine Schultasche. Ich nehme meine Bücher und mein Pausenbrot mit.\n\nUm Viertel nach sieben verlasse ich das Haus. Ich fahre mit dem Fahrrad zur Schule. Der Schulweg dauert zehn Minuten. Um halb acht beginnt der Unterricht. Ich bin immer pünktlich in der Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wecker klingelt um sechs Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul isst zum Frühstück ein Ei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul fährt mit dem Bus zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schulweg dauert zehn Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Unterricht beginnt um halb acht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fussball-ist-mein-hobby",
+    "nivel": "A1",
+    "titulo": "Fußball ist mein Hobby",
+    "descripcion": "Tim erzählt von seinem Hobby Fußball und seinem Verein.",
+    "texto": "Mein Name ist Tim und ich bin elf Jahre alt. Fußball ist mein Lieblingshobby. Ich spiele jeden Dienstag und Donnerstag im Verein. Mein Trikot ist rot und weiß. Ich spiele gern als Stürmer.\n\nAm Samstag haben wir immer ein Spiel. Meine Eltern kommen und schauen zu. Mein Vater ruft laut „Los, Tim!“. Nach dem Spiel trinken wir Wasser und essen eine Banane. Meine Mannschaft heißt „Die Adler“.\n\nHeute gewinnen wir das Spiel drei zu eins. Ich schieße ein Tor. Alle Kinder sind glücklich. Der Trainer sagt: „Das war super!“ Danach feiern wir mit Limonade und Kuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Tim spielt Fußball als Hobby.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim spielt jeden Tag im Verein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tims Mannschaft heißt „Die Adler“.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Spiel endet unentschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim schießt ein Tor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-hund",
+    "nivel": "A2",
+    "titulo": "Der verlorene Hund",
+    "descripcion": "Frau Bauer hat ihren Hund verloren und die Nachbarn haben geholfen.",
+    "texto": "Am Montagmorgen hat Frau Bauer einen großen Schreck bekommen, weil ihr Hund Bello aus dem Garten verschwunden war. Sie hat sofort ihre Nachbarn angerufen und um Hilfe gebeten. Herr Weber hat gesagt, dass er Bello am Morgen im Park gesehen hat. Zusammen sind sie losgegangen, um den Hund zu suchen.\n\nIm Park haben sie viele Leute gefragt, ob sie einen braunen Hund gesehen haben. Ein Junge hat erzählt, dass er einen Hund am Fluss gesehen hat. Frau Bauer ist sofort zum Fluss gelaufen, weil sie sich große Sorgen gemacht hat. Dort hat sie Bello endlich gefunden. Er hat fröhlich mit dem Schwanz gewedelt.\n\nFrau Bauer hat sich sehr bei Herrn Weber bedankt, weil er ihr so gut geholfen hat. Sie hat ihm zum Dank einen Kuchen gebacken. Wenn sie das nächste Mal mit Bello spazieren geht, passt sie besser auf. Die ganze Nachbarschaft hat sich über das Happy End gefreut.",
+    "preguntas": [
+      {
+        "enunciado": "Bello ist aus dem Garten verschwunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Bauer hat die Polizei angerufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Junge hat den Hund am Fluss gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Bauer findet Bello nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Bauer backt einen Kuchen für Herrn Weber.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-beim-zelten",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende beim Zelten",
+    "descripcion": "Familie Krüger hat ein Wochenende beim Zelten am See verbracht.",
+    "texto": "Familie Krüger ist am Freitag zu einem See gefahren, weil sie dort zelten wollte. Der Vater hat das Zelt aufgebaut, während die Kinder Holz für das Lagerfeuer gesucht haben. Am Abend haben sie Würstchen über dem Feuer gegrillt. Alle haben sich gefreut, dass das Wetter so schön war.\n\nIn der Nacht hat es leider stark geregnet, obwohl der Wetterbericht Sonne vorhergesagt hatte. Das Zelt ist ein bisschen nass geworden, aber zum Glück ist niemand krank geworden. Am nächsten Morgen sind alle früh aufgewacht, weil die Vögel so laut gesungen haben. Sie haben zusammen im Freien gefrühstückt.\n\nAm Sonntag sind sie zum Schwimmen an den See gegangen, bevor sie nach Hause gefahren sind. Die Kinder haben gesagt, dass sie im nächsten Sommer wieder zelten möchten. Die Mutter hat gemeint, dass ein Hotel vielleicht bequemer wäre. Trotzdem war es für die ganze Familie ein schönes Abenteuer.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Krüger ist zum Zelten an einen See gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Nacht hat die Sonne geschienen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Zelt ist nass geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder wollen nie wieder zelten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag sind sie schwimmen gegangen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-von-der-alten-schulfreundin",
+    "nivel": "A2",
+    "titulo": "Der Brief von der alten Schulfreundin",
+    "descripcion": "Julia bekommt einen Brief von einer Schulfreundin, die sie lange nicht gesehen hat.",
+    "texto": "Julia hat letzte Woche einen Brief bekommen, und sie hat sich sehr gefreut, weil der Brief von ihrer alten Schulfreundin Nina war. Die beiden hatten sich seit zehn Jahren nicht mehr gesehen, nachdem Ninas Familie nach Kanada umgezogen war. In dem Brief hat Nina geschrieben, dass sie jetzt als Lehrerin arbeitet und zwei Kinder hat.\n\nJulia hat sofort geantwortet, weil sie so viele Fragen hatte. Sie hat erzählt, dass sie geheiratet hat und in einer kleinen Wohnung in Köln lebt. Julia hat auch gefragt, ob Nina sie bald in Deutschland besuchen kann. Sie hat gehofft, dass ihre Freundschaft trotz der großen Entfernung weiterlebt.\n\nZwei Wochen später hat Nina geantwortet und geschrieben, dass sie im Sommer nach Deutschland kommen möchte. Julia war so glücklich, dass sie sofort ihre Eltern angerufen hat. Sie hat schon einen Plan gemacht, was sie mit Nina alles unternehmen will. Die beiden Freundinnen freuen sich sehr auf das Wiedersehen.",
+    "preguntas": [
+      {
+        "enunciado": "Nina lebt jetzt in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia und Nina haben sich letzte Woche getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina arbeitet als Lehrerin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat nicht auf den Brief geantwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina möchte im Sommer nach Deutschland kommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-kollegin-aus-spanien",
+    "nivel": "B1",
+    "titulo": "Die neue Kollegin aus Spanien",
+    "descripcion": "Ein Büroangestellter berichtet über seine neue Kollegin aus Spanien und die kulturellen Unterschiede im Arbeitsalltag.",
+    "texto": "Seit letztem Monat arbeitet Carmen, eine neue Kollegin aus Spanien, in unserer Marketingabteilung. Obwohl sie erst seit Kurzem in Deutschland lebt, spricht sie schon erstaunlich gut Deutsch. Nachdem sie ihr Studium in Madrid abgeschlossen hatte, hat sie sich bewusst für eine Stelle in Deutschland entschieden, weil sie internationale Erfahrung sammeln wollte. Am Anfang war sie etwas nervös, weil ihr die deutschen Umgangsformen im Büro fremd waren.\n\nBesonders die Pünktlichkeit hat sie zunächst überrascht: In Spanien beginnen Meetings oft ein paar Minuten später, während hier jeder Termin auf die Minute genau eingehalten wird. Trotzdem hat sie sich schnell an den neuen Rhythmus gewöhnt und schätzt inzwischen die klare Struktur im deutschen Arbeitsalltag. Ihre Kollegen finden es spannend, von ihr etwas über die spanische Arbeitskultur zu lernen, zum Beispiel über die lange Mittagspause in ihrer Heimat.\n\nNeulich hat Carmen für das Team eine Tapas-Party organisiert, obwohl sie eigentlich viel zu tun hatte. Alle waren begeistert von den kleinen spanischen Gerichten, die sie mitgebracht hatte. Nachdem der Abend so gut angekommen war, planen die Kollegen bereits, daraus eine feste Tradition zu machen. Carmen fühlt sich mittlerweile im Team richtig willkommen und freut sich auf die kommenden gemeinsamen Projekte.",
+    "preguntas": [
+      {
+        "enunciado": "Carmen kommt aus Spanien und arbeitet im Marketing.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carmen spricht kein Wort Deutsch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Spanien beginnen Meetings laut Text oft etwas später.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carmen hat keine Party für das Team organisiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen möchten die Tapas-Party zur Tradition machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenmusikfestival",
+    "nivel": "B1",
+    "titulo": "Das Straßenmusikfestival",
+    "descripcion": "Eine kleine Stadt veranstaltet zum ersten Mal ein Straßenmusikfestival mit Musikern aus ganz Europa.",
+    "texto": "Letztes Wochenende fand in unserer Stadt zum ersten Mal ein Straßenmusikfestival statt, obwohl viele Bewohner anfangs skeptisch waren. Musiker aus verschiedenen europäischen Ländern reisten an, nachdem die Stadtverwaltung monatelang für das Projekt geworben hatte. Auf jedem größeren Platz spielte eine andere Band, sodass man beim Spazieren ständig neue Musikstile entdecken konnte.\n\nBesonders beliebt war eine Gruppe aus Portugal, die traditionelle Fado-Lieder sang, obwohl diese Musikrichtung in Deutschland kaum bekannt ist. Viele Zuschauer blieben stehen und lauschten gebannt, obwohl sie kein Wort verstanden. Trotzdem konnte man die Emotionen in der Musik deutlich spüren. Auch eine Straßenband aus Berlin, die moderne Popsongs mit ungewöhnlichen Instrumenten spielte, zog große Menschenmengen an.\n\nNachdem das Festival am Sonntagabend zu Ende gegangen war, zeigte sich der Bürgermeister sehr zufrieden mit dem Ergebnis. Er kündigte an, dass das Festival im nächsten Jahr wiederholt werden soll, weil die Resonanz so positiv war. Viele Geschäfte in der Innenstadt berichteten außerdem von deutlich mehr Besuchern als sonst. Die Bewohner, die anfangs skeptisch waren, sind nun die größten Fans des neuen Festivals.",
+    "preguntas": [
+      {
+        "enunciado": "Das Straßenmusikfestival fand zum ersten Mal statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bewohner waren von Anfang an begeistert von der Idee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Gruppe aus Portugal sang Fado-Lieder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Festival soll im nächsten Jahr nicht wiederholt werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Geschäfte in der Innenstadt hatten mehr Besucher als sonst.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "vom-dorf-in-die-stadt",
+    "nivel": "B1",
+    "titulo": "Vom Dorf in die Stadt",
+    "descripcion": "Markus zieht vom Dorf in die Großstadt und muss sich an ein neues Leben gewöhnen.",
+    "texto": "Markus ist auf einem kleinen Dorf aufgewachsen, in dem jeder jeden kannte. Nachdem er sein Studium beendet hatte, hat er eine Stelle in München gefunden und ist in die Großstadt gezogen. Obwohl er sich sehr auf das neue Leben gefreut hat, fiel ihm der Abschied vom Dorf schwerer, als er gedacht hatte. Seine Eltern und Großeltern lebten schon seit Generationen dort.\n\nIn den ersten Wochen in München fühlte sich Markus einsam, obwohl die Stadt voller Menschen war. Niemand grüßte ihn auf der Straße, während im Dorf jeder Nachbar stehen geblieben wäre, um kurz zu plaudern. Trotzdem hat er sich bemüht, Anschluss zu finden, und ist einem Sportverein beigetreten. Dort hat er schnell nette Leute kennengelernt, die ihm die Stadt gezeigt haben.\n\nNach einigen Monaten hat sich Markus an das Tempo und die Anonymität der Großstadt gewöhnt, obwohl er das Dorf immer noch vermisst. Am Wochenende fährt er regelmäßig nach Hause, um seine Familie zu besuchen. Er sagt, dass er jetzt beide Welten zu schätzen weiß: die Ruhe des Dorfes und die Möglichkeiten der Stadt. Trotzdem weiß er noch nicht, wo er in Zukunft wirklich leben möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist in einer Großstadt aufgewachsen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus ist wegen einer neuen Stelle nach München gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus fühlte sich in den ersten Wochen sofort wohl in München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus ist einem Sportverein beigetreten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus fährt nie mehr in sein Heimatdorf.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-skifreizeit-der-schule",
+    "nivel": "B1",
+    "titulo": "Die Skifreizeit der Schule",
+    "descripcion": "Eine neunte Klasse fährt gemeinsam auf Skifreizeit in die österreichischen Alpen.",
+    "texto": "Jedes Jahr im Januar fährt die neunte Klasse unserer Schule für eine Woche auf Skifreizeit nach Österreich. Nachdem die Schüler monatelang auf diese Fahrt gewartet hatten, war die Aufregung am Abfahrtstag riesig. Obwohl einige Schüler noch nie zuvor auf Skiern gestanden hatten, waren alle voller Vorfreude auf die Berge.\n\nIn den ersten Tagen mussten die Anfänger auf der leichten Piste üben, während die erfahrenen Skifahrer schon die schwarzen Pisten ausprobierten. Ein Mitschüler ist beim Üben hingefallen und hat sich leicht am Arm verletzt, obwohl er zum Glück keinen Knochenbruch hatte. Nachdem er sich vom Schreck erholt hatte, konnte er sogar am nächsten Tag wieder mitfahren.\n\nAm letzten Abend organisierten die Lehrer eine kleine Abschlussfeier mit Musik und heißer Schokolade. Trotzdem waren viele Schüler traurig, dass die Woche schon vorbei war. Auf der Heimfahrt im Bus erzählten alle begeistert von ihren Erlebnissen auf der Piste. Die Klasse ist sich einig, dass diese Skifreizeit eine der schönsten Klassenfahrten überhaupt war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Skifreizeit findet jedes Jahr im Januar statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler konnten vorher schon perfekt Ski fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Mitschüler hat sich beim Skifahren verletzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am letzten Abend gab es keine Feier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse fand die Skifreizeit sehr schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "elektromobilitaet-und-ladeinfrastruktur",
+    "nivel": "B2",
+    "titulo": "Elektromobilität und die Ladeinfrastruktur",
+    "descripcion": "Der Ausbau der Ladeinfrastruktur gilt als entscheidender Faktor für den Erfolg der Elektromobilität in Deutschland.",
+    "texto": "Die Bundesregierung hat sich zum Ziel gesetzt, dass bis zum Jahr 2030 mehrere Millionen Elektrofahrzeuge auf deutschen Straßen unterwegs sein sollen. Damit dieses Ziel erreicht werden kann, müsste die Ladeinfrastruktur allerdings deutlich schneller ausgebaut werden, als es bisher der Fall ist. Kritiker bemängeln, dass in vielen ländlichen Regionen kaum öffentliche Ladesäulen vorhanden sind, während in den Großstädten die Nachfrage das Angebot längst übersteigt.\n\nWürde der Ausbau konsequent vorangetrieben, könnten laut Experten viele der aktuellen Vorbehalte gegenüber Elektroautos abgebaut werden. Vor allem die Angst vor einer leeren Batterie auf längeren Strecken, die sogenannte „Reichweitenangst“, wird von vielen potenziellen Käufern als größtes Hindernis genannt. Zudem wird von Verbraucherschützern kritisiert, dass die Ladevorgänge an unterschiedlichen Anbietern unterschiedlich abgerechnet werden, was die Nutzung unnötig kompliziert macht.\n\nAuf der anderen Seite verweisen Automobilhersteller darauf, dass ohne eine verlässliche Nachfrage kein Anreiz bestehe, in neue Ladepunkte zu investieren. Es entsteht dadurch ein klassisches Henne-Ei-Problem: Solange die Infrastruktur fehlt, kaufen zu wenige Menschen Elektroautos, und solange zu wenige Elektroautos verkauft werden, lohnt sich der Ausbau der Infrastruktur wirtschaftlich kaum. Um diesen Kreislauf zu durchbrechen, fordern viele Fachleute staatliche Förderprogramme, mit denen private Investitionen in Ladesäulen gezielt unterstützt werden könnten.\n\nSollte es gelingen, die Ladeinfrastruktur flächendeckend auszubauen, wäre dies ein entscheidender Schritt für die Verkehrswende. Bis dahin bleibt die Elektromobilität für viele Autofahrer jedoch eher eine Zukunftsvision als eine praktikable Alternative zum Verbrennungsmotor. Es zeigt sich, dass technologische Innovation allein nicht ausreicht, wenn die begleitenden Strukturen nicht mitwachsen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Bundesregierung möchte, dass bis 2030 viele Elektrofahrzeuge auf den Straßen fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In ländlichen Regionen gibt es laut Text ausreichend Ladesäulen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die „Reichweitenangst“ wird im Text als Hindernis für den Kauf von Elektroautos genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Automobilhersteller investieren laut Text unabhängig von der Nachfrage in Ladepunkte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fachleute fordern staatliche Förderprogramme für den Ausbau der Ladeinfrastruktur.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meinungsfreiheit-und-hassrede-im-netz",
+    "nivel": "B2",
+    "titulo": "Meinungsfreiheit und Hassrede im Netz",
+    "descripcion": "Die Debatte darüber, wo die Meinungsfreiheit endet und Hassrede im Internet beginnt, beschäftigt Politik und Gesellschaft.",
+    "texto": "Kaum ein Thema wird in den sozialen Medien so kontrovers diskutiert wie die Frage, wo die Meinungsfreiheit endet und Hassrede beginnt. Während die einen fordern, dass beleidigende und menschenverachtende Kommentare konsequenter gelöscht werden sollten, warnen andere davor, dass zu strenge Regeln die freie Meinungsäußerung gefährden könnten. Diese Debatte wird zusätzlich dadurch erschwert, dass die Grenzen zwischen scharfer Kritik und Hassrede oft fließend sind.\n\nIn Deutschland wurden die Betreiber sozialer Netzwerke per Gesetz dazu verpflichtet, offensichtlich strafbare Inhalte innerhalb kurzer Fristen zu löschen. Wäre dieses Gesetz nicht eingeführt worden, so argumentieren Befürworter, würden viele Plattformen weiterhin kaum gegen Hassrede vorgehen. Kritiker hingegen bemängeln, dass die Plattformen aus Angst vor Strafen im Zweifel lieber zu viele Inhalte löschen, wodurch auch legitime Meinungsäußerungen betroffen sein könnten.\n\nBesonders schwierig gestaltet sich die Situation, wenn Hassrede von automatisierten Systemen erkannt werden soll. Algorithmen könnten zwar theoretisch riesige Datenmengen in Sekundenschnelle prüfen, doch fehlt ihnen oft das Verständnis für Ironie, Kontext oder kulturelle Feinheiten. Ein Kommentar, der in einem Zusammenhang als Satire gemeint war, könnte von einem System fälschlicherweise als Hassrede eingestuft und gelöscht werden, während tatsächlich beleidigende Aussagen unentdeckt bleiben.\n\nViele Experten sind sich einig, dass eine Kombination aus klaren gesetzlichen Regelungen, menschlicher Moderation und digitaler Bildung notwendig wäre, um das Problem wirksam anzugehen. Sollten Nutzerinnen und Nutzer schon frühzeitig lernen, verantwortungsvoll mit Sprache im Netz umzugehen, ließe sich ein Teil der Konflikte möglicherweise von vornherein vermeiden. Bis eine solche umfassende Lösung gefunden ist, bleibt die Debatte um Meinungsfreiheit und Hassrede jedoch ein zentrales Streitthema der digitalen Gesellschaft.",
+    "preguntas": [
+      {
+        "enunciado": "Die Debatte über Meinungsfreiheit und Hassrede wird in sozialen Medien kontrovers diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Deutschland gibt es kein Gesetz, das Plattformen zum Löschen strafbarer Inhalte verpflichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen erkennen laut Text Ironie und Kontext immer zuverlässig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten halten eine Kombination aus Gesetzen, Moderation und Bildung für sinnvoll.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte um Hassrede gilt laut Text als abgeschlossen.",
+        "respuesta": false
+      }
+    ]
   }
 ];
 
