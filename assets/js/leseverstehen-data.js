@@ -6440,6 +6440,226 @@ Ob Work-Life-Blending tatsächlich zu mehr Zufriedenheit führt oder lediglich e
       { enunciado: 'Der Text stellt fest, dass Work-Life-Blending von allen Experten eindeutig positiv bewertet wird.', respuesta: false },
     ],
   },
+  {
+    slug: 'der-schneemann',
+    nivel: 'A1',
+    titulo: 'Der Schneemann',
+    descripcion: 'Tim und seine Schwester bauen im Winter einen Schneemann im Garten.',
+    texto: `Es schneit heute. Tim ist glücklich. Er ruft seine Schwester Mia. „Komm schnell! Es schneit!", sagt Tim. Mia zieht ihre warme Jacke an. Die Kinder gehen in den Garten. Der Schnee ist weiß und kalt.
+
+Tim macht eine große Schneekugel. Mia macht eine kleine Schneekugel. Sie bauen zusammen einen Schneemann. Der Schneemann ist sehr groß. Tim holt eine Karotte für die Nase. Mia findet zwei Steine für die Augen. Der Schneemann sieht lustig aus.
+
+Am Ende trinken die Kinder heißen Kakao. Die Mutter macht den Kakao warm. Tim und Mia sind müde, aber glücklich. Morgen wollen sie wieder Schnee spielen.`,
+    preguntas: [
+      { enunciado: 'Es schneit im Sommer.', respuesta: false },
+      { enunciado: 'Tim und Mia bauen einen Schneemann.', respuesta: true },
+      { enunciado: 'Der Schneemann hat eine Karotte als Nase.', respuesta: true },
+      { enunciado: 'Die Kinder trinken kalten Tee.', respuesta: false },
+      { enunciado: 'Mia zieht eine warme Jacke an.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'meine-lieblingsmusik',
+    nivel: 'A1',
+    titulo: 'Meine Lieblingsmusik',
+    descripcion: 'Sophie erzählt von ihrer Lieblingsmusik und ihrem Keyboard.',
+    texto: `Ich heiße Sophie. Ich höre gern Musik. Musik macht mich glücklich. Ich habe ein Keyboard zu Hause. Jeden Tag übe ich zwanzig Minuten.
+
+Meine Lieblingsband heißt „Die Sonnenblumen". Die Band spielt fröhliche Lieder. Ich singe die Lieder auch unter der Dusche. Meine Mutter lacht dann immer. Mein Bruder mag lieber Rockmusik. Er hört Musik mit Kopfhörern.
+
+Am Wochenende gehen wir manchmal in ein Konzert. Das Konzert ist laut und bunt. Ich tanze gern zur Musik. Nach dem Konzert bin ich müde, aber sehr glücklich.`,
+    preguntas: [
+      { enunciado: 'Sophie spielt Gitarre.', respuesta: false },
+      { enunciado: 'Sophies Bruder mag Rockmusik.', respuesta: true },
+      { enunciado: 'Sophie übt jeden Tag Keyboard.', respuesta: true },
+      { enunciado: 'Sophie singt nie.', respuesta: false },
+      { enunciado: 'Die Familie geht manchmal ins Konzert.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'im-tierpark',
+    nivel: 'A1',
+    titulo: 'Im Tierpark',
+    descripcion: 'Familie Berger besucht am Sonntag den Tierpark und sieht viele Tiere.',
+    texto: `Am Sonntag fährt Familie Berger in den Tierpark. Die Kinder Emma und Paul freuen sich sehr. Der Tierpark ist groß und schön. Zuerst sehen sie die Affen. Die Affen klettern schnell auf die Bäume.
+
+Danach gehen sie zu den Elefanten. Die Elefanten sind sehr groß. Emma findet die Elefanten toll. Paul mag lieber die Pinguine. Die Pinguine schwimmen im kalten Wasser und laufen lustig.
+
+Zum Mittagessen kauft die Familie Pommes und Limonade. Sie sitzen auf einer Bank und essen zusammen. Am Nachmittag kaufen die Kinder noch ein kleines Stofftier. Emma wählt einen Elefanten, Paul wählt einen Pinguin.`,
+    preguntas: [
+      { enunciado: 'Familie Berger besucht am Samstag den Tierpark.', respuesta: false },
+      { enunciado: 'Emma mag die Elefanten.', respuesta: true },
+      { enunciado: 'Die Affen klettern auf die Bäume.', respuesta: true },
+      { enunciado: 'Paul kauft ein Stofftier in Form eines Affen.', respuesta: false },
+      { enunciado: 'Die Familie isst Pommes zu Mittag.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'ein-ausflug-nach-bremen',
+    nivel: 'A2',
+    titulo: 'Ein Ausflug nach Bremen',
+    descripcion: 'Jonas und seine Freundin Nina haben einen Tagesausflug nach Bremen gemacht.',
+    texto: `Letztes Wochenende sind Jonas und Nina mit dem Zug nach Bremen gefahren. Sie haben sich schon lange auf die Reise gefreut, weil sie die berühmte Statue der Bremer Stadtmusikanten sehen wollten. Am Bahnhof haben sie zuerst einen Stadtplan gekauft, damit sie sich in der Altstadt besser orientieren konnten.
+
+Am Marktplatz haben sie die Statue der Stadtmusikanten gefunden und ein Foto gemacht. Danach haben sie das alte Rathaus fotografiert und sind durch die kleinen Gassen des Schnoorviertels spaziert. Nina hat gesagt, dass ihr die bunten Häuser dort besonders gut gefallen haben. Später haben sie in einem kleinen Café Kaffee und Kuchen bestellt, weil sie müde vom vielen Laufen waren.
+
+Am Nachmittag hat es leider angefangen zu regnen. Deshalb sind Jonas und Nina in ein Museum gegangen, wo sie viel über die Geschichte der Stadt gelernt haben. Am Abend sind sie zufrieden nach Hause gefahren und haben schon Pläne für den nächsten Ausflug gemacht.`,
+    preguntas: [
+      { enunciado: 'Jonas und Nina sind mit dem Auto nach Bremen gefahren.', respuesta: false },
+      { enunciado: 'Sie haben die Statue der Bremer Stadtmusikanten gesehen.', respuesta: true },
+      { enunciado: 'Am Nachmittag hat die Sonne den ganzen Tag geschienen.', respuesta: false },
+      { enunciado: 'Nina findet die bunten Häuser im Schnoorviertel schön.', respuesta: true },
+      { enunciado: 'Bei Regen sind sie sofort nach Hause gefahren.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-computerkurs',
+    nivel: 'A2',
+    titulo: 'Der Computerkurs',
+    descripcion: 'Herr Vogel, 68 Jahre alt, hat einen Computerkurs an der Volkshochschule besucht.',
+    texto: `Herr Vogel ist 68 Jahre alt und hat noch nie einen Computer benutzt. Seine Enkelin hat ihm oft gesagt, dass er das Internet ausprobieren sollte. Deshalb hat er sich für einen Computerkurs an der Volkshochschule angemeldet. Am ersten Tag war er sehr nervös, weil alle anderen Teilnehmer jünger waren als er.
+
+Die Lehrerin, Frau Krause, hat den Kursteilnehmern langsam und geduldig alles erklärt. Herr Vogel hat gelernt, wie man E-Mails schreibt und im Internet surft. Nach drei Wochen hat er zum ersten Mal eine E-Mail an seine Tochter geschickt. Er war sehr stolz auf sich.
+
+Am Ende des Kurses hat Herr Vogel sogar gelernt, wie man Fotos von seinen Enkeln online ansieht. Er hat gesagt, dass er jetzt viel weniger Angst vor dem Computer hat. Seine Enkelin war begeistert, als sie das gehört hat, und hat versprochen, ihm bald ein Videotelefonat zu zeigen.`,
+    preguntas: [
+      { enunciado: 'Herr Vogel ist 28 Jahre alt.', respuesta: false },
+      { enunciado: 'Herr Vogel hat vorher schon oft einen Computer benutzt.', respuesta: false },
+      { enunciado: 'Die Lehrerin heißt Frau Krause.', respuesta: true },
+      { enunciado: 'Herr Vogel hat eine E-Mail an seine Tochter geschickt.', respuesta: true },
+      { enunciado: 'Herr Vogel hat jetzt weniger Angst vor dem Computer.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-goldene-hochzeit-der-grosseltern',
+    nivel: 'A2',
+    titulo: 'Die goldene Hochzeit der Großeltern',
+    descripcion: 'Die ganze Familie hat die goldene Hochzeit von Oma und Opa gefeiert.',
+    texto: `Letzten Samstag haben Lisas Großeltern ihre goldene Hochzeit gefeiert. Das bedeutet, dass sie schon seit fünfzig Jahren verheiratet sind. Die ganze Familie ist zu diesem besonderen Fest gekommen, sogar die Cousine aus Kanada ist extra angereist.
+
+Lisa hat zusammen mit ihrer Mutter eine große Fotowand vorbereitet, weil sie ihren Großeltern eine Freude machen wollten. Auf den Fotos konnte man sehen, wie jung Oma und Opa früher waren. Als die Großeltern die Fotowand gesehen haben, sind ihnen Tränen der Freude gekommen.
+
+Nach dem Essen hat Opa eine kleine Rede gehalten und sich bei allen Gästen bedankt. Danach haben alle zusammen bis spät in die Nacht getanzt. Lisa hat gesagt, dass es das schönste Familienfest war, das sie je erlebt hat.`,
+    preguntas: [
+      { enunciado: 'Die Großeltern sind seit fünfzig Jahren verheiratet.', respuesta: true },
+      { enunciado: 'Niemand aus dem Ausland ist zum Fest gekommen.', respuesta: false },
+      { enunciado: 'Opa hat eine Rede gehalten.', respuesta: true },
+      { enunciado: 'Die Großeltern haben die Fotowand nicht gesehen.', respuesta: false },
+      { enunciado: 'Nach dem Essen sind alle sofort nach Hause gefahren.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-erste-eigene-wohnung',
+    nivel: 'B1',
+    titulo: 'Die erste eigene Wohnung',
+    descripcion: 'Julia zieht mit zwanzig Jahren zum ersten Mal in eine eigene Wohnung.',
+    texto: `Julia ist zwanzig Jahre alt und wohnt seit ein paar Wochen in ihrer ersten eigenen Wohnung. Obwohl sie sich sehr auf die Unabhängigkeit gefreut hatte, war der erste Abend allein ziemlich seltsam. Zum ersten Mal musste sie sich um alles selbst kümmern: einkaufen, kochen, putzen und sogar die Waschmaschine reparieren lassen.
+
+Nachdem Julia die Wohnung bezogen hatte, merkte sie schnell, wie teuer das Leben allein sein kann. Miete, Strom und Internet kosten zusammen fast so viel wie ihr halbes Gehalt. Trotzdem bereut sie den Umzug nicht, denn sie genießt es, ihre eigenen Regeln aufzustellen und niemandem Rechenschaft ablegen zu müssen.
+
+Ihre Eltern haben ihr am Anfang oft geholfen, zum Beispiel beim Aufbau der Möbel. Inzwischen kommt Julia gut allein zurecht und lädt sogar Freunde zu kleinen Abendessen ein. Sie sagt, dass die erste eigene Wohnung sie selbstständiger gemacht hat, obwohl es am Anfang nicht immer leicht war.`,
+    preguntas: [
+      { enunciado: 'Julia ist bereits seit einem Jahr in ihrer eigenen Wohnung.', respuesta: false },
+      { enunciado: 'Julia musste lernen, sich um den Haushalt selbst zu kümmern.', respuesta: true },
+      { enunciado: 'Das Leben allein ist für Julia billiger als erwartet.', respuesta: false },
+      { enunciado: 'Julia bereut den Umzug.', respuesta: false },
+      { enunciado: 'Julias Eltern haben ihr beim Möbelaufbau geholfen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-jobwechsel-nach-zehn-jahren',
+    nivel: 'B1',
+    titulo: 'Der Jobwechsel nach zehn Jahren',
+    descripcion: 'Markus wechselt nach zehn Jahren im selben Betrieb den Arbeitsplatz.',
+    texto: `Markus hat zehn Jahre lang in derselben Firma gearbeitet. Obwohl er den Job eigentlich mochte, hatte er in letzter Zeit das Gefühl, dass er sich beruflich nicht mehr weiterentwickelte. Nachdem ein früherer Kollege ihm von einer offenen Stelle in einem anderen Unternehmen erzählt hatte, bewarb sich Markus dort.
+
+Die Entscheidung, die Firma zu wechseln, fiel ihm nicht leicht. Er hatte sich an seine Kollegen gewöhnt und kannte jeden Ablauf im Betrieb genau. Trotzdem entschied er sich für den neuen Job, weil ihm dort mehr Verantwortung und ein höheres Gehalt angeboten wurden.
+
+Am ersten Tag im neuen Unternehmen war Markus aufgeregt, fast so wie an seinem allerersten Arbeitstag überhaupt. Nach ein paar Wochen fühlte er sich aber schon viel wohler und war froh, den Schritt gewagt zu haben. Rückblickend sagt er, dass Veränderung manchmal genau das ist, was man braucht, um wieder motiviert zu sein.`,
+    preguntas: [
+      { enunciado: 'Markus hat zwanzig Jahre in derselben Firma gearbeitet.', respuesta: false },
+      { enunciado: 'Ein ehemaliger Kollege hat Markus von der neuen Stelle erzählt.', respuesta: true },
+      { enunciado: 'Markus hat den Job gewechselt, weil er entlassen wurde.', respuesta: false },
+      { enunciado: 'Im neuen Job bekommt Markus mehr Verantwortung.', respuesta: true },
+      { enunciado: 'Markus bereut den Jobwechsel.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-nachtschicht-im-krankenhaus',
+    nivel: 'B1',
+    titulo: 'Die Nachtschicht im Krankenhaus',
+    descripcion: 'Die Krankenpflegerin Sabine berichtet von einer anstrengenden Nachtschicht.',
+    texto: `Sabine arbeitet seit fünf Jahren als Krankenpflegerin und übernimmt regelmäßig Nachtschichten. Obwohl sie die Arbeit im Krankenhaus liebt, findet sie die Nächte oft besonders anstrengend, weil das Team dann viel kleiner ist als tagsüber. In der vergangenen Nacht musste sie sich gleichzeitig um mehrere Patienten kümmern.
+
+Gegen drei Uhr morgens kam ein Notfall in die Klinik: ein älterer Mann mit starken Brustschmerzen. Sabine reagierte sofort und alarmierte den diensthabenden Arzt. Nachdem der Patient stabilisiert worden war, konnte sie kurz durchatmen, bevor der nächste Klingelknopf leuchtete.
+
+Als die Sonne aufging, war Sabine völlig erschöpft, aber auch zufrieden, weil sie allen Patienten helfen konnte. Trotzdem denkt sie manchmal darüber nach, in eine Tagschicht zu wechseln, weil die Nachtarbeit auf Dauer an den Kräften zehrt. Für jetzt möchte sie aber weiterhin ihren Kollegen im Nachtdienst helfen.`,
+    preguntas: [
+      { enunciado: 'Sabine arbeitet seit fünf Jahren als Krankenpflegerin.', respuesta: true },
+      { enunciado: 'In der Nacht ist das Team im Krankenhaus größer als am Tag.', respuesta: false },
+      { enunciado: 'Ein junger Mann kam mit Brustschmerzen in die Klinik.', respuesta: false },
+      { enunciado: 'Sabine hat sofort den Arzt alarmiert.', respuesta: true },
+      { enunciado: 'Sabine denkt niemals darüber nach, die Schicht zu wechseln.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-umzug-aufs-land',
+    nivel: 'B1',
+    titulo: 'Der Umzug aufs Land',
+    descripcion: 'Die Familie Herrmann zieht von der Großstadt in ein kleines Dorf.',
+    texto: `Nach vielen Jahren in Berlin hat sich Familie Herrmann entschieden, aufs Land zu ziehen. Obwohl die Kinder anfangs skeptisch waren, freuten sie sich am Ende doch auf das neue Haus mit großem Garten. In der Stadt hatten sie nur einen kleinen Balkon, auf dem Land gibt es jetzt genug Platz zum Spielen.
+
+Nachdem die Familie umgezogen war, mussten sich alle erst an das ruhige Dorfleben gewöhnen. Es gibt keinen Supermarkt in der Nähe, deshalb müssen sie für größere Einkäufe ins nächste Städtchen fahren. Trotzdem genießen die Kinder die frische Luft und die vielen Tiere auf den umliegenden Bauernhöfen.
+
+Herr Herrmann arbeitet weiterhin in Berlin, fährt aber jetzt seltener ins Büro und macht mehr Homeoffice. Frau Herrmann hat im Dorf schon neue Freunde gefunden und engagiert sich im örtlichen Verein. Die Familie ist sich einig, dass der Umzug die richtige Entscheidung war, auch wenn manche Dinge ungewohnt sind.`,
+    preguntas: [
+      { enunciado: 'Familie Herrmann ist von einem Dorf in die Großstadt gezogen.', respuesta: false },
+      { enunciado: 'Im Dorf gibt es einen Supermarkt direkt in der Nähe.', respuesta: false },
+      { enunciado: 'Die Kinder genießen die frische Luft auf dem Land.', respuesta: true },
+      { enunciado: 'Herr Herrmann arbeitet jetzt öfter im Homeoffice.', respuesta: true },
+      { enunciado: 'Die Familie bereut den Umzug.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-abschaffung-der-sommerzeit',
+    nivel: 'B2',
+    titulo: 'Die Abschaffung der Sommerzeit – Ein Dauerstreit in Europa',
+    descripcion: 'Seit Jahren wird über die Abschaffung der Zeitumstellung diskutiert, ohne dass eine Einigung erzielt wurde.',
+    texto: `Zweimal im Jahr werden in Europa die Uhren umgestellt: im Frühjahr eine Stunde vor, im Herbst eine Stunde zurück. Diese Regelung, die ursprünglich zur Energieeinsparung eingeführt wurde, steht seit Jahren in der Kritik. Bereits 2018 wurde von der EU-Kommission eine Umfrage durchgeführt, bei der sich eine überwältigende Mehrheit der Teilnehmenden gegen die Zeitumstellung aussprach. Trotzdem ist bis heute keine verbindliche Regelung getroffen worden, die die Abschaffung tatsächlich umsetzt.
+
+Befürworter der Abschaffung argumentieren, dass die Zeitumstellung dem menschlichen Biorhythmus schade. Studien deuten darauf hin, dass in den Tagen nach der Umstellung die Zahl der Herzinfarkte und Verkehrsunfälle leicht ansteigt. Wäre die Zeitumstellung abgeschafft, so die Befürworter, könnten solche gesundheitlichen Belastungen vermieden werden. Zudem wird oft betont, dass der ursprüngliche Zweck der Energieeinsparung ohnehin nie wissenschaftlich eindeutig belegt worden sei.
+
+Auf der anderen Seite gibt es auch praktische Bedenken. Würden sich die einzelnen EU-Länder nicht auf eine einheitliche Zeit einigen, könnte es zu einem verwirrenden „Flickenteppich" unterschiedlicher Zeitzonen innerhalb Europas kommen. Manche Länder würden sich vermutlich für die dauerhafte Sommerzeit entscheiden, andere für die Winterzeit, was den grenzüberschreitenden Verkehr, Handel und Zugverkehr erheblich erschweren würde. Aus diesem Grund zögern viele Regierungen, eine endgültige Entscheidung zu treffen.
+
+Bis eine gemeinsame Lösung gefunden wird, bleibt die Zeitumstellung also weiterhin Teil des europäischen Alltags. Kritiker fordern, dass die EU-Kommission das Thema erneut aufgreift und einen verbindlichen Zeitplan vorlegt. Ob und wann die Uhren tatsächlich zum letzten Mal umgestellt werden, ist derzeit jedoch offen.`,
+    preguntas: [
+      { enunciado: 'Die Zeitumstellung wird in Europa nur einmal im Jahr durchgeführt.', respuesta: false },
+      { enunciado: 'Bei der EU-Umfrage von 2018 sprach sich die Mehrheit gegen die Zeitumstellung aus.', respuesta: true },
+      { enunciado: 'Studien zeigen, dass nach der Zeitumstellung weniger Verkehrsunfälle passieren.', respuesta: false },
+      { enunciado: 'Ein Grund für die Verzögerung ist die Sorge vor unterschiedlichen Zeitzonen in Europa.', respuesta: true },
+      { enunciado: 'Die EU hat sich bereits verbindlich auf die Abschaffung der Zeitumstellung geeinigt.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'generationengerechtigkeit-und-staatsverschuldung',
+    nivel: 'B2',
+    titulo: 'Generationengerechtigkeit und Staatsverschuldung',
+    descripcion: 'Wie hoch dürfen Staatsschulden sein, ohne künftige Generationen unangemessen zu belasten?',
+    texto: `In den letzten Jahrzehnten sind die Staatsschulden in vielen europäischen Ländern erheblich gestiegen. Während Befürworter höherer Staatsausgaben argumentieren, dass Investitionen in Bildung, Infrastruktur und Klimaschutz notwendig seien, warnen andere davor, dass die heutige Generation auf Kosten der zukünftigen lebe. Die Frage, wie viel Verschuldung noch vertretbar ist, wird deshalb zunehmend unter dem Begriff der Generationengerechtigkeit diskutiert.
+
+Kritiker der aktuellen Fiskalpolitik weisen darauf hin, dass junge Menschen dereinst höhere Steuern zahlen müssten, um die heute aufgenommenen Schulden zu tilgen. Würde der Staat konsequent sparen, so ihre Argumentation, bliebe künftigen Generationen mehr finanzieller Spielraum. Allerdings wird von Ökonomen häufig eingewendet, dass ein zu striktes Sparprogramm notwendige Investitionen verhindere und dadurch das langfristige Wirtschaftswachstum schwäche, was wiederum den jüngeren Generationen schaden würde.
+
+Ein weiteres Argument betrifft die Klimapolitik. Sollten heute keine ausreichenden Mittel in den Klimaschutz investiert werden, müssten künftige Generationen weitaus höhere Kosten für die Bewältigung der Klimafolgen tragen. Aus dieser Perspektive wird Verschuldung nicht per se als ungerecht angesehen, solange die aufgenommenen Mittel sinnvoll investiert werden und nicht lediglich konsumtive Ausgaben finanzieren.
+
+Letztlich zeigt die Debatte, dass Generationengerechtigkeit keine einfache Rechenaufgabe ist, sondern eine Frage der politischen Prioritäten. Ökonomen sind sich weitgehend einig, dass es weniger auf die absolute Höhe der Schulden ankommt als vielmehr darauf, wofür das Geld ausgegeben wird. Eine pauschale Antwort auf die Frage, wie viel Verschuldung gerecht ist, gibt es bislang nicht.`,
+    preguntas: [
+      { enunciado: 'Die Staatsschulden sind in den letzten Jahrzehnten in vielen europäischen Ländern gesunken.', respuesta: false },
+      { enunciado: 'Manche Ökonomen befürchten, dass zu striktes Sparen das Wirtschaftswachstum schwächen könnte.', respuesta: true },
+      { enunciado: 'Laut dem Text sind sich alle Experten einig, wie hoch die Staatsverschuldung maximal sein darf.', respuesta: false },
+      { enunciado: 'Investitionen in den Klimaschutz können laut Text künftige Kosten senken.', respuesta: true },
+      { enunciado: 'Der Text behauptet, dass jede Form von Staatsverschuldung ungerecht gegenüber jungen Menschen ist.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
