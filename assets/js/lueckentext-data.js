@@ -28579,8 +28579,8 @@ const LUECKENTEXTE = [
         "answer": "Produktivität",
         "category": "noun",
         "options": [
-          "Pilotprojekte",
           "Tagesbesucher",
+          "Polarisierung",
           "Produktivität"
         ]
       },
@@ -75305,7 +75305,7 @@ const LUECKENTEXTE = [
         "options": [
           "Rücken",
           "Resten",
-          "Lachen"
+          "Bänken"
         ]
       },
       {
@@ -81310,8 +81310,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Am",
-          "Dr",
-          "See"
+          "See",
+          "Ali"
         ]
       }
     ],
@@ -86264,7 +86264,7 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Am",
-          "Dr",
+          "Ali",
           "Ei"
         ]
       }
@@ -95990,8 +95990,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Teller",
-          "Kinder",
-          "Becher"
+          "Kölner",
+          "Kinder"
         ]
       },
       {
@@ -96010,8 +96010,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Pommes",
-          "Jahres",
-          "Kurses"
+          "Kurses",
+          "Baumes"
         ]
       },
       {
@@ -104027,7 +104027,7 @@ const LUECKENTEXTE = [
         "options": [
           "holen",
           "jeden",
-          "guten"
+          "haben"
         ]
       },
       {
@@ -128936,8 +128936,8 @@ const LUECKENTEXTE = [
         "category": "other",
         "options": [
           "alt",
-          "mag",
-          "nur"
+          "nur",
+          "nie"
         ]
       },
       {
@@ -137279,7 +137279,7 @@ const LUECKENTEXTE = [
         "answer": "Belastung",
         "category": "noun",
         "options": [
-          "Erwartung",
+          "Berührung",
           "Belüftung",
           "Belastung"
         ]
@@ -140623,8 +140623,8 @@ const LUECKENTEXTE = [
         "answer": "erforderlich",
         "category": "adjective",
         "options": [
-          "beträchtlich",
           "erforderlich",
+          "optimistisch",
           "hinsichtlich"
         ]
       }
@@ -145665,7 +145665,7 @@ const LUECKENTEXTE = [
         "options": [
           "auszubauen",
           "ausreichen",
-          "definieren"
+          "etablieren"
         ]
       },
       {
@@ -156074,8 +156074,8 @@ const LUECKENTEXTE = [
         "category": "adjective",
         "options": [
           "stieg",
-          "junge",
-          "könne"
+          "könne",
+          "haben"
         ]
       },
       {
@@ -174077,7 +174077,7 @@ const LUECKENTEXTE = [
         "answer": "Kinder",
         "category": "noun",
         "options": [
-          "Teller",
+          "Wasser",
           "Kinder",
           "Krüger"
         ]
@@ -175322,7 +175322,7 @@ const LUECKENTEXTE = [
         "category": "adjective",
         "options": [
           "halbe",
-          "haben",
+          "harte",
           "neues"
         ]
       },
@@ -185857,9 +185857,9 @@ const LUECKENTEXTE = [
         "answer": "nur",
         "category": "other",
         "options": [
+          "was",
           "alt",
-          "nur",
-          "mag"
+          "nur"
         ]
       },
       {
@@ -204041,8 +204041,8 @@ const LUECKENTEXTE = [
         "answer": "technologische",
         "category": "adjective",
         "options": [
-          "globalisierten",
           "psychologische",
+          "traditionellen",
           "technologische"
         ]
       },
@@ -205308,8 +205308,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Frisur",
-          "Teller",
-          "Fieber"
+          "Fieber",
+          "Wasser"
         ]
       },
       {
@@ -209145,7 +209145,7 @@ const LUECKENTEXTE = [
         "answer": "Geld",
         "category": "noun",
         "options": [
-          "Meer",
+          "Bild",
           "Geld",
           "Wald"
         ]
@@ -213489,7 +213489,7 @@ const LUECKENTEXTE = [
         "options": [
           "Arbeitgeber",
           "attraktiver",
-          "produktiver"
+          "belastbarer"
         ]
       },
       {
@@ -220347,8 +220347,8 @@ const LUECKENTEXTE = [
         "answer": "Fällen",
         "category": "noun",
         "options": [
-          "Formen",
           "Fällen",
+          "Fakten",
           "Kosten"
         ]
       },
@@ -225373,7 +225373,7 @@ const LUECKENTEXTE = [
         "answer": "Koffer",
         "category": "noun",
         "options": [
-          "Teller",
+          "Kurier",
           "Koffer",
           "Krüger"
         ]
@@ -225394,7 +225394,7 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Kantine",
-          "Kellner",
+          "Kellers",
           "Koffers"
         ]
       },
@@ -231908,8 +231908,8 @@ const LUECKENTEXTE = [
         "category": "noun",
         "options": [
           "Kollegenbeziehung",
-          "Deutschlandticket",
-          "Sonntagnachmittag"
+          "Theateraufführung",
+          "Deutschlandticket"
         ]
       },
       {
@@ -252225,7 +252225,7 @@ const LUECKENTEXTE = [
         "options": [
           "stärker",
           "weniger",
-          "schaffe"
+          "ernster"
         ]
       },
       {
@@ -261920,7 +261920,7 @@ const LUECKENTEXTE = [
     "nivel": "B1",
     "titulo": "Die Woche im Schullandheim",
     "descripcion": "Die Klasse 8b verbringt eine erlebnisreiche Woche im Schullandheim.",
-    "tipo": "type2",
+    "tipo": "type1",
     "paragraphs": [
       [
         {
@@ -262986,140 +262986,104 @@ const LUECKENTEXTE = [
         "id": 1,
         "answer": "gewartet",
         "category": "verb",
-        "options": []
+        "options": [
+          "bedeutet",
+          "gewartet",
+          "bereitet"
+        ]
       },
       {
         "id": 2,
         "answer": "Waldrand",
         "category": "noun",
-        "options": []
+        "options": [
+          "Waldrand",
+          "Pflegern",
+          "Laufband"
+        ]
       },
       {
         "id": 3,
         "answer": "Programm",
         "category": "noun",
-        "options": []
+        "options": [
+          "Praktika",
+          "Programm",
+          "Pflegern"
+        ]
       },
       {
         "id": 4,
         "answer": "den",
         "category": "article",
-        "options": []
+        "options": [
+          "diesen",
+          "einen",
+          "den"
+        ]
       },
       {
         "id": 5,
         "answer": "sie",
         "category": "pronoun",
-        "options": []
+        "options": [
+          "ihr",
+          "ich",
+          "sie"
+        ]
       },
       {
         "id": 6,
         "answer": "alle",
         "category": "pronoun",
-        "options": []
+        "options": [
+          "man",
+          "ihres",
+          "alle"
+        ]
       },
       {
         "id": 7,
         "answer": "Schüler",
         "category": "noun",
-        "options": []
+        "options": [
+          "Schüler",
+          "Toaster",
+          "Slammer"
+        ]
       },
       {
         "id": 8,
         "answer": "es",
         "category": "pronoun",
-        "options": []
+        "options": [
+          "du",
+          "es",
+          "er"
+        ]
       },
       {
         "id": 9,
         "answer": "am",
         "category": "adjective",
-        "options": []
+        "options": [
+          "alt",
+          "am",
+          "ist"
+        ]
       },
       {
         "id": 10,
         "answer": "dass",
         "category": "conjunction",
-        "options": []
+        "options": [
+          "oder",
+          "dass",
+          "ob"
+        ]
       }
     ],
-    "wordBank": [
-      {
-        "id": "answer-1",
-        "text": "gewartet",
-        "correctFor": 1
-      },
-      {
-        "id": "answer-8",
-        "text": "es",
-        "correctFor": 8
-      },
-      {
-        "id": "distractor-3",
-        "text": "Pflegern",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-4",
-        "text": "Wohnraum",
-        "correctFor": null
-      },
-      {
-        "id": "answer-4",
-        "text": "den",
-        "correctFor": 4
-      },
-      {
-        "id": "answer-3",
-        "text": "Programm",
-        "correctFor": 3
-      },
-      {
-        "id": "answer-10",
-        "text": "dass",
-        "correctFor": 10
-      },
-      {
-        "id": "answer-7",
-        "text": "Schüler",
-        "correctFor": 7
-      },
-      {
-        "id": "answer-6",
-        "text": "alle",
-        "correctFor": 6
-      },
-      {
-        "id": "answer-2",
-        "text": "Waldrand",
-        "correctFor": 2
-      },
-      {
-        "id": "answer-9",
-        "text": "am",
-        "correctFor": 9
-      },
-      {
-        "id": "answer-5",
-        "text": "sie",
-        "correctFor": 5
-      },
-      {
-        "id": "distractor-5",
-        "text": "Personal",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-2",
-        "text": "erwartet",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-1",
-        "text": "überlegt",
-        "correctFor": null
-      }
-    ]
+    "wordBank": []
   },
   {
     "slug": "das-recht-auf-unerreichbarkeit",
@@ -266018,7 +265982,7 @@ const LUECKENTEXTE = [
     "nivel": "B2",
     "titulo": "Leistungsdruck im Abitur",
     "descripcion": "Eine Debatte über den wachsenden Leistungsdruck während der Abiturzeit und mögliche Reformen.",
-    "tipo": "type2",
+    "tipo": "type1",
     "paragraphs": [
       [
         {
@@ -267436,140 +267400,104 @@ const LUECKENTEXTE = [
         "id": 1,
         "answer": "zunehmende",
         "category": "adjective",
-        "options": []
+        "options": [
+          "basierende",
+          "zunehmende",
+          "zahlreiche"
+        ]
       },
       {
         "id": 2,
         "answer": "körperlichen",
         "category": "adjective",
-        "options": []
+        "options": [
+          "körperlichen",
+          "aufgewachsen",
+          "klimatischen"
+        ]
       },
       {
         "id": 3,
         "answer": "Bildungsexperten",
         "category": "noun",
-        "options": []
+        "options": [
+          "Bildschirmzeiten",
+          "Bildungsexperten",
+          "Herzerkrankungen"
+        ]
       },
       {
         "id": 4,
         "answer": "vieler",
         "category": "adjective",
-        "options": []
+        "options": [
+          "vieler",
+          "schwer",
+          "klarer"
+        ]
       },
       {
         "id": 5,
         "answer": "den",
         "category": "article",
-        "options": []
+        "options": [
+          "einen",
+          "diesen",
+          "den"
+        ]
       },
       {
         "id": 6,
         "answer": "stärker",
         "category": "other",
-        "options": []
+        "options": [
+          "offener",
+          "genauer",
+          "stärker"
+        ]
       },
       {
         "id": 7,
         "answer": "Vergleichbarkeit",
         "category": "noun",
-        "options": []
+        "options": [
+          "Vergleichbarkeit",
+          "Barrierefreiheit",
+          "Videoausschnitte"
+        ]
       },
       {
         "id": 8,
         "answer": "völlig",
         "category": "adjective",
-        "options": []
+        "options": [
+          "stetig",
+          "vielen",
+          "völlig"
+        ]
       },
       {
         "id": 9,
         "answer": "psychologische",
         "category": "adjective",
-        "options": []
+        "options": [
+          "technologische",
+          "oberflächliche",
+          "psychologische"
+        ]
       },
       {
         "id": 10,
         "answer": "sich",
         "category": "pronoun",
-        "options": []
+        "options": [
+          "mir",
+          "sich",
+          "mich"
+        ]
       }
     ],
-    "wordBank": [
-      {
-        "id": "answer-9",
-        "text": "psychologische",
-        "correctFor": 9
-      },
-      {
-        "id": "answer-10",
-        "text": "sich",
-        "correctFor": 10
-      },
-      {
-        "id": "answer-7",
-        "text": "Vergleichbarkeit",
-        "correctFor": 7
-      },
-      {
-        "id": "answer-6",
-        "text": "stärker",
-        "correctFor": 6
-      },
-      {
-        "id": "answer-8",
-        "text": "völlig",
-        "correctFor": 8
-      },
-      {
-        "id": "answer-4",
-        "text": "vieler",
-        "correctFor": 4
-      },
-      {
-        "id": "distractor-3",
-        "text": "konkurrieren",
-        "correctFor": null
-      },
-      {
-        "id": "answer-1",
-        "text": "zunehmende",
-        "correctFor": 1
-      },
-      {
-        "id": "distractor-1",
-        "text": "basierende",
-        "correctFor": null
-      },
-      {
-        "id": "answer-5",
-        "text": "den",
-        "correctFor": 5
-      },
-      {
-        "id": "answer-2",
-        "text": "körperlichen",
-        "correctFor": 2
-      },
-      {
-        "id": "distractor-2",
-        "text": "zahlreiche",
-        "correctFor": null
-      },
-      {
-        "id": "answer-3",
-        "text": "Bildungsexperten",
-        "correctFor": 3
-      },
-      {
-        "id": "distractor-5",
-        "text": "Betriebsvermögen",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-4",
-        "text": "drängendsten",
-        "correctFor": null
-      }
-    ]
+    "wordBank": []
   },
   {
     "slug": "im-freibad",
@@ -268334,7 +268262,7 @@ const LUECKENTEXTE = [
     "nivel": "A1",
     "titulo": "Meine Katze",
     "descripcion": "Julia erzählt von ihrer Katze Mimi und ihrem Alltag.",
-    "tipo": "type2",
+    "tipo": "type1",
     "paragraphs": [
       [
         {
@@ -268918,85 +268846,54 @@ const LUECKENTEXTE = [
         "id": 1,
         "answer": "Sie",
         "category": "pronoun",
-        "options": []
+        "options": [
+          "wir",
+          "du",
+          "Sie"
+        ]
       },
       {
         "id": 2,
         "answer": "Meine",
         "category": "pronoun",
-        "options": []
+        "options": [
+          "deine",
+          "Meine",
+          "seine"
+        ]
       },
       {
         "id": 3,
         "answer": "gerne",
         "category": "adjective",
-        "options": []
+        "options": [
+          "gießt",
+          "gerne",
+          "gehen"
+        ]
       },
       {
         "id": 4,
         "answer": "auf",
         "category": "preposition",
-        "options": []
+        "options": [
+          "auf",
+          "hinter",
+          "über"
+        ]
       },
       {
         "id": 5,
         "answer": "schnurrt",
         "category": "verb",
-        "options": []
+        "options": [
+          "kassiert",
+          "schnurrt",
+          "bestellt"
+        ]
       }
     ],
-    "wordBank": [
-      {
-        "id": "distractor-2",
-        "text": "er",
-        "correctFor": null
-      },
-      {
-        "id": "answer-2",
-        "text": "Meine",
-        "correctFor": 2
-      },
-      {
-        "id": "answer-4",
-        "text": "auf",
-        "correctFor": 4
-      },
-      {
-        "id": "answer-3",
-        "text": "gerne",
-        "correctFor": 3
-      },
-      {
-        "id": "answer-5",
-        "text": "schnurrt",
-        "correctFor": 5
-      },
-      {
-        "id": "distractor-1",
-        "text": "es",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-5",
-        "text": "ganze",
-        "correctFor": null
-      },
-      {
-        "id": "answer-1",
-        "text": "Sie",
-        "correctFor": 1
-      },
-      {
-        "id": "distractor-3",
-        "text": "deine",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-4",
-        "text": "ihrem",
-        "correctFor": null
-      }
-    ]
+    "wordBank": []
   },
   {
     "slug": "bens-lieblingsfarbe",
@@ -269640,7 +269537,7 @@ const LUECKENTEXTE = [
     "nivel": "A2",
     "titulo": "Der Sturm am Wochenende",
     "descripcion": "Ein heftiger Sturm verändert die Wochenendpläne von Nina und ihrer Familie.",
-    "tipo": "type2",
+    "tipo": "type1",
     "paragraphs": [
       [
         {
@@ -270750,125 +270647,91 @@ const LUECKENTEXTE = [
         "id": 1,
         "answer": "Ausflug",
         "category": "noun",
-        "options": []
+        "options": [
+          "Ausflug",
+          "Fahrrad",
+          "Samstag"
+        ]
       },
       {
         "id": 2,
         "answer": "ein",
         "category": "article",
-        "options": []
+        "options": [
+          "kein",
+          "das",
+          "ein"
+        ]
       },
       {
         "id": 3,
         "answer": "verschieben",
         "category": "verb",
-        "options": []
+        "options": [
+          "entschieden",
+          "verschieben",
+          "wiederholen"
+        ]
       },
       {
         "id": 4,
         "answer": "im",
         "category": "adjective",
-        "options": []
+        "options": [
+          "im",
+          "da",
+          "los"
+        ]
       },
       {
         "id": 5,
         "answer": "den",
         "category": "article",
-        "options": []
+        "options": [
+          "keinen",
+          "den",
+          "einen"
+        ]
       },
       {
         "id": 6,
         "answer": "haben",
         "category": "verb",
-        "options": []
+        "options": [
+          "essen",
+          "haben",
+          "allen"
+        ]
       },
       {
         "id": 7,
         "answer": "sein",
         "category": "pronoun",
-        "options": []
+        "options": [
+          "unser",
+          "sein",
+          "dein"
+        ]
       },
       {
         "id": 8,
         "answer": "sie",
         "category": "pronoun",
-        "options": []
+        "options": [
+          "ich",
+          "ihr",
+          "sie"
+        ]
       }
     ],
-    "wordBank": [
-      {
-        "id": "distractor-4",
-        "text": "dieses",
-        "correctFor": null
-      },
-      {
-        "id": "answer-2",
-        "text": "ein",
-        "correctFor": 2
-      },
-      {
-        "id": "answer-1",
-        "text": "Ausflug",
-        "correctFor": 1
-      },
-      {
-        "id": "answer-4",
-        "text": "im",
-        "correctFor": 4
-      },
-      {
-        "id": "answer-5",
-        "text": "den",
-        "correctFor": 5
-      },
-      {
-        "id": "answer-8",
-        "text": "sie",
-        "correctFor": 8
-      },
-      {
-        "id": "distractor-5",
-        "text": "wiederholen",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-3",
-        "text": "das",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-1",
-        "text": "Aufgabe",
-        "correctFor": null
-      },
-      {
-        "id": "answer-3",
-        "text": "verschieben",
-        "correctFor": 3
-      },
-      {
-        "id": "answer-7",
-        "text": "sein",
-        "correctFor": 7
-      },
-      {
-        "id": "distractor-2",
-        "text": "Samstag",
-        "correctFor": null
-      },
-      {
-        "id": "answer-6",
-        "text": "haben",
-        "correctFor": 6
-      }
-    ]
+    "wordBank": []
   },
   {
     "slug": "die-verspaetete-bahn",
     "nivel": "A2",
     "titulo": "Die verspätete Bahn",
     "descripcion": "Markus verpasst wegen einer Zugverspätung fast ein wichtiges Vorstellungsgespräch.",
-    "tipo": "type2",
+    "tipo": "type1",
     "paragraphs": [
       [
         {
@@ -271914,118 +271777,84 @@ const LUECKENTEXTE = [
         "id": 1,
         "answer": "um",
         "category": "preposition",
-        "options": []
+        "options": [
+          "ohne",
+          "um",
+          "durch"
+        ]
       },
       {
         "id": 2,
         "answer": "hat",
         "category": "verb",
-        "options": []
+        "options": [
+          "hat",
+          "übt",
+          "gibt"
+        ]
       },
       {
         "id": 3,
         "answer": "eines",
         "category": "article",
-        "options": []
+        "options": [
+          "keines",
+          "des",
+          "eines"
+        ]
       },
       {
         "id": 4,
         "answer": "angerufen",
         "category": "verb",
-        "options": []
+        "options": [
+          "zufrieden",
+          "angerufen",
+          "verdienen"
+        ]
       },
       {
         "id": 5,
         "answer": "gesagt",
         "category": "verb",
-        "options": []
+        "options": [
+          "stehen",
+          "gesagt",
+          "packen"
+        ]
       },
       {
         "id": 6,
         "answer": "ist",
         "category": "verb",
-        "options": []
+        "options": [
+          "ist",
+          "passt",
+          "löst"
+        ]
       },
       {
         "id": 7,
         "answer": "verlieren",
         "category": "verb",
-        "options": []
+        "options": [
+          "verpassen",
+          "spazieren",
+          "verlieren"
+        ]
       },
       {
         "id": 8,
         "answer": "gut",
         "category": "verb",
-        "options": []
+        "options": [
+          "freut",
+          "gibt",
+          "gut"
+        ]
       }
     ],
-    "wordBank": [
-      {
-        "id": "answer-4",
-        "text": "angerufen",
-        "correctFor": 4
-      },
-      {
-        "id": "distractor-3",
-        "text": "isst",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-2",
-        "text": "durch",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-1",
-        "text": "bis",
-        "correctFor": null
-      },
-      {
-        "id": "answer-3",
-        "text": "eines",
-        "correctFor": 3
-      },
-      {
-        "id": "distractor-4",
-        "text": "hilft",
-        "correctFor": null
-      },
-      {
-        "id": "answer-5",
-        "text": "gesagt",
-        "correctFor": 5
-      },
-      {
-        "id": "answer-6",
-        "text": "ist",
-        "correctFor": 6
-      },
-      {
-        "id": "answer-1",
-        "text": "um",
-        "correctFor": 1
-      },
-      {
-        "id": "answer-8",
-        "text": "gut",
-        "correctFor": 8
-      },
-      {
-        "id": "answer-2",
-        "text": "hat",
-        "correctFor": 2
-      },
-      {
-        "id": "distractor-5",
-        "text": "keines",
-        "correctFor": null
-      },
-      {
-        "id": "answer-7",
-        "text": "verlieren",
-        "correctFor": 7
-      }
-    ]
+    "wordBank": []
   },
   {
     "slug": "der-neue-nachbar",
@@ -273212,7 +273041,7 @@ const LUECKENTEXTE = [
     "nivel": "B1",
     "titulo": "Das Schulkonzert",
     "descripcion": "Trotz Lampenfieber wird das Schulkonzert für Miriam zu einem unvergesslichen Erlebnis.",
-    "tipo": "type2",
+    "tipo": "type1",
     "paragraphs": [
       [
         {
@@ -274422,140 +274251,104 @@ const LUECKENTEXTE = [
         "id": 1,
         "answer": "sie",
         "category": "pronoun",
-        "options": []
+        "options": [
+          "sie",
+          "ich",
+          "ihr"
+        ]
       },
       {
         "id": 2,
         "answer": "perfekt",
         "category": "other",
-        "options": []
+        "options": [
+          "bereits",
+          "schrieb",
+          "perfekt"
+        ]
       },
       {
         "id": 3,
         "answer": "hat",
         "category": "verb",
-        "options": []
+        "options": [
+          "hat",
+          "übt",
+          "spät"
+        ]
       },
       {
         "id": 4,
         "answer": "des",
         "category": "article",
-        "options": []
+        "options": [
+          "eines",
+          "des",
+          "keines"
+        ]
       },
       {
         "id": 5,
         "answer": "ihre",
         "category": "adjective",
-        "options": []
+        "options": [
+          "wäre",
+          "ihre",
+          "dazu"
+        ]
       },
       {
         "id": 6,
         "answer": "als",
         "category": "conjunction",
-        "options": []
+        "options": [
+          "nachdem",
+          "als",
+          "bevor"
+        ]
       },
       {
         "id": 7,
         "answer": "Angst",
         "category": "noun",
-        "options": []
+        "options": [
+          "Leute",
+          "Angst",
+          "Markt"
+        ]
       },
       {
         "id": 8,
         "answer": "bricht",
         "category": "verb",
-        "options": []
+        "options": [
+          "duscht",
+          "bricht",
+          "bietet"
+        ]
       },
       {
         "id": 9,
         "answer": "nur",
         "category": "other",
-        "options": []
+        "options": [
+          "wie",
+          "nur",
+          "nun"
+        ]
       },
       {
         "id": 10,
         "answer": "geschafft",
         "category": "adjective",
-        "options": []
+        "options": [
+          "geschafft",
+          "geschätzt",
+          "gemütlich"
+        ]
       }
     ],
-    "wordBank": [
-      {
-        "id": "distractor-1",
-        "text": "ihr",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-4",
-        "text": "bereits",
-        "correctFor": null
-      },
-      {
-        "id": "answer-1",
-        "text": "sie",
-        "correctFor": 1
-      },
-      {
-        "id": "answer-10",
-        "text": "geschafft",
-        "correctFor": 10
-      },
-      {
-        "id": "distractor-5",
-        "text": "gibt",
-        "correctFor": null
-      },
-      {
-        "id": "answer-7",
-        "text": "Angst",
-        "correctFor": 7
-      },
-      {
-        "id": "distractor-2",
-        "text": "du",
-        "correctFor": null
-      },
-      {
-        "id": "answer-4",
-        "text": "des",
-        "correctFor": 4
-      },
-      {
-        "id": "distractor-3",
-        "text": "schrieb",
-        "correctFor": null
-      },
-      {
-        "id": "answer-3",
-        "text": "hat",
-        "correctFor": 3
-      },
-      {
-        "id": "answer-2",
-        "text": "perfekt",
-        "correctFor": 2
-      },
-      {
-        "id": "answer-9",
-        "text": "nur",
-        "correctFor": 9
-      },
-      {
-        "id": "answer-5",
-        "text": "ihre",
-        "correctFor": 5
-      },
-      {
-        "id": "answer-6",
-        "text": "als",
-        "correctFor": 6
-      },
-      {
-        "id": "answer-8",
-        "text": "bricht",
-        "correctFor": 8
-      }
-    ]
+    "wordBank": []
   },
   {
     "slug": "der-erste-tag-in-der-neuen-stadt",
@@ -276000,7 +275793,7 @@ const LUECKENTEXTE = [
     "nivel": "B2",
     "titulo": "Das Rentensystem im Wandel",
     "descripcion": "Angesichts des demografischen Wandels wird über eine grundlegende Reform des Rentensystems diskutiert.",
-    "tipo": "type2",
+    "tipo": "type1",
     "paragraphs": [
       [
         {
@@ -277676,140 +277469,104 @@ const LUECKENTEXTE = [
         "id": 1,
         "answer": "immer",
         "category": "adverb",
-        "options": []
+        "options": [
+          "dabei",
+          "immer",
+          "sonst"
+        ]
       },
       {
         "id": 2,
         "answer": "zwischen",
         "category": "preposition",
-        "options": []
+        "options": [
+          "zwischen",
+          "hinter",
+          "auf"
+        ]
       },
       {
         "id": 3,
         "answer": "dass",
         "category": "conjunction",
-        "options": []
+        "options": [
+          "ob",
+          "dass",
+          "als"
+        ]
       },
       {
         "id": 4,
         "answer": "verschiedene",
         "category": "adjective",
-        "options": []
+        "options": [
+          "verdunkelten",
+          "verschiedene",
+          "verpflichten"
+        ]
       },
       {
         "id": 5,
         "answer": "steigenden",
         "category": "adjective",
-        "options": []
+        "options": [
+          "reduzieren",
+          "umstritten",
+          "steigenden"
+        ]
       },
       {
         "id": 6,
         "answer": "sie",
         "category": "pronoun",
-        "options": []
+        "options": [
+          "ihr",
+          "ich",
+          "sie"
+        ]
       },
       {
         "id": 7,
         "answer": "Berufen",
         "category": "noun",
-        "options": []
+        "options": [
+          "Straßen",
+          "Berufen",
+          "Schulen"
+        ]
       },
       {
         "id": 8,
         "answer": "deshalb",
         "category": "adverb",
-        "options": []
+        "options": [
+          "darum",
+          "deshalb",
+          "daher"
+        ]
       },
       {
         "id": 9,
         "answer": "eine",
         "category": "article",
-        "options": []
+        "options": [
+          "eine",
+          "die",
+          "keine"
+        ]
       },
       {
         "id": 10,
         "answer": "ohne",
         "category": "preposition",
-        "options": []
+        "options": [
+          "ohne",
+          "bis",
+          "für"
+        ]
       }
     ],
-    "wordBank": [
-      {
-        "id": "distractor-4",
-        "text": "an",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-2",
-        "text": "daher",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-3",
-        "text": "über",
-        "correctFor": null
-      },
-      {
-        "id": "answer-5",
-        "text": "steigenden",
-        "correctFor": 5
-      },
-      {
-        "id": "answer-6",
-        "text": "sie",
-        "correctFor": 6
-      },
-      {
-        "id": "answer-2",
-        "text": "zwischen",
-        "correctFor": 2
-      },
-      {
-        "id": "answer-10",
-        "text": "ohne",
-        "correctFor": 10
-      },
-      {
-        "id": "answer-8",
-        "text": "deshalb",
-        "correctFor": 8
-      },
-      {
-        "id": "answer-1",
-        "text": "immer",
-        "correctFor": 1
-      },
-      {
-        "id": "answer-9",
-        "text": "eine",
-        "correctFor": 9
-      },
-      {
-        "id": "answer-3",
-        "text": "dass",
-        "correctFor": 3
-      },
-      {
-        "id": "distractor-1",
-        "text": "jetzt",
-        "correctFor": null
-      },
-      {
-        "id": "answer-4",
-        "text": "verschiedene",
-        "correctFor": 4
-      },
-      {
-        "id": "distractor-5",
-        "text": "ob",
-        "correctFor": null
-      },
-      {
-        "id": "answer-7",
-        "text": "Berufen",
-        "correctFor": 7
-      }
-    ]
+    "wordBank": []
   },
   {
     "slug": "datenschutz-im-digitalen-zeitalter",
@@ -353649,6 +353406,11 @@ const LUECKENTEXTE = [
         "correctFor": 3
       },
       {
+        "id": "distractor-5",
+        "text": "Uneinigkeit",
+        "correctFor": null
+      },
+      {
         "id": "answer-5",
         "text": "das",
         "correctFor": 5
@@ -353672,11 +353434,6 @@ const LUECKENTEXTE = [
         "id": "answer-9",
         "text": "auszusprechen",
         "correctFor": 9
-      },
-      {
-        "id": "distractor-5",
-        "text": "Gastronomie",
-        "correctFor": null
       },
       {
         "id": "answer-1",
@@ -361064,7 +360821,7 @@ const LUECKENTEXTE = [
       },
       {
         "id": "distractor-4",
-        "text": "Pizza",
+        "text": "Erika",
         "correctFor": null
       },
       {
@@ -379873,11 +379630,6 @@ const LUECKENTEXTE = [
         "correctFor": 4
       },
       {
-        "id": "distractor-4",
-        "text": "Mira",
-        "correctFor": null
-      },
-      {
         "id": "distractor-5",
         "text": "hinter",
         "correctFor": null
@@ -379885,6 +379637,11 @@ const LUECKENTEXTE = [
       {
         "id": "distractor-1",
         "text": "unter",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-4",
+        "text": "Meer",
         "correctFor": null
       },
       {
@@ -387597,7 +387354,7 @@ const LUECKENTEXTE = [
       },
       {
         "id": "distractor-5",
-        "text": "See",
+        "text": "Ali",
         "correctFor": null
       },
       {
@@ -404223,11 +403980,6 @@ const LUECKENTEXTE = [
         "correctFor": null
       },
       {
-        "id": "distractor-4",
-        "text": "fehlende",
-        "correctFor": null
-      },
-      {
         "id": "answer-3",
         "text": "weil",
         "correctFor": 3
@@ -404256,6 +404008,11 @@ const LUECKENTEXTE = [
         "id": "answer-1",
         "text": "Kleinstadt",
         "correctFor": 1
+      },
+      {
+        "id": "distractor-4",
+        "text": "kommende",
+        "correctFor": null
       },
       {
         "id": "answer-5",
@@ -406499,6 +406256,11 @@ const LUECKENTEXTE = [
         "correctFor": 1
       },
       {
+        "id": "distractor-2",
+        "text": "kalte",
+        "correctFor": null
+      },
+      {
         "id": "distractor-4",
         "text": "keinen",
         "correctFor": null
@@ -406522,11 +406284,6 @@ const LUECKENTEXTE = [
         "id": "answer-6",
         "text": "gehabt",
         "correctFor": 6
-      },
-      {
-        "id": "distractor-2",
-        "text": "bekam",
-        "correctFor": null
       },
       {
         "id": "distractor-5",
@@ -446502,6 +446259,11 @@ const LUECKENTEXTE = [
         "correctFor": null
       },
       {
+        "id": "distractor-2",
+        "text": "Ei",
+        "correctFor": null
+      },
+      {
         "id": "answer-5",
         "text": "sie",
         "correctFor": 5
@@ -446524,11 +446286,6 @@ const LUECKENTEXTE = [
       {
         "id": "distractor-5",
         "text": "schläft",
-        "correctFor": null
-      },
-      {
-        "id": "distractor-2",
-        "text": "Tag",
         "correctFor": null
       },
       {
@@ -503467,11 +503224,6 @@ const LUECKENTEXTE = [
         "correctFor": null
       },
       {
-        "id": "distractor-4",
-        "text": "Themenspektrum",
-        "correctFor": null
-      },
-      {
         "id": "answer-9",
         "text": "kleinen",
         "correctFor": 9
@@ -503520,6 +503272,11 @@ const LUECKENTEXTE = [
         "id": "answer-4",
         "text": "lassen",
         "correctFor": 4
+      },
+      {
+        "id": "distractor-4",
+        "text": "Nachhaltigkeit",
+        "correctFor": null
       },
       {
         "id": "answer-2",
@@ -528099,6 +527856,15317 @@ const LUECKENTEXTE = [
       {
         "id": "answer-7",
         "text": "diese",
+        "correctFor": 7
+      }
+    ]
+  },
+  {
+    "slug": "paul-kauft-milch",
+    "nivel": "A1",
+    "titulo": "Paul kauft Milch",
+    "descripcion": "Paul geht in den Supermarkt und kauft Milch, Brot und Äpfel.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Paul"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wohnt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Hamburg"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Er"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zwölf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jahre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "alt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "Am",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nachmittag"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Paul"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Supermarkt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Seine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Mutter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "braucht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Milch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kuchen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Paul"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nimmt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Einkaufstasche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Supermarkt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "sucht",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Paul"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Milch"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Milch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kühlregal"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Paul"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nimmt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Flasche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Milch"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Dann"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kauft"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "er"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Brot"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "und",
+          "category": "conjunction"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "rote"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Äpfel"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Äpfel"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sind"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "süß"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "frisch"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "An"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kasse"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bezahlt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Paul"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Geld"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seiner"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "Mutter",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Hause"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gibt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Paul"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Milch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seiner"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Mutter"
+        },
+        {
+          "type": "text",
+          "value": ". „"
+        },
+        {
+          "type": "text",
+          "value": "Danke"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "Paul"
+        },
+        {
+          "type": "text",
+          "value": "\", "
+        },
+        {
+          "type": "text",
+          "value": "sagt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "lächelt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Paul"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "isst"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Apfel"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zufrieden"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "Später",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "backt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Mutter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kuchen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Milch"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "Am",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "sucht",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "und",
+        "category": "conjunction",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "Mutter",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "Später",
+        "category": "noun",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "answer-4",
+        "text": "Mutter",
+        "correctFor": 4
+      },
+      {
+        "id": "distractor-1",
+        "text": "Dr",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "Ei",
+        "correctFor": null
+      },
+      {
+        "id": "answer-2",
+        "text": "sucht",
+        "correctFor": 2
+      },
+      {
+        "id": "answer-3",
+        "text": "und",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-5",
+        "text": "Später",
+        "correctFor": 5
+      },
+      {
+        "id": "distractor-4",
+        "text": "sieht",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-3",
+        "text": "süßes",
+        "correctFor": null
+      },
+      {
+        "id": "answer-1",
+        "text": "Am",
+        "correctFor": 1
+      },
+      {
+        "id": "distractor-5",
+        "text": "außerdem",
+        "correctFor": null
+      }
+    ]
+  },
+  {
+    "slug": "die-familie-yilmaz",
+    "nivel": "A1",
+    "titulo": "Die Familie Yilmaz",
+    "descripcion": "Die Familie Yilmaz stellt sich vor: Vater, Mutter und zwei Kinder.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Das"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Familie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Yilmaz"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Vater"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "heißt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ali"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Er"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "ist",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Lehrer"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Mutter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "heißt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Emine"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "arbeitet"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "als"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ärztin"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "haben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zwei"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kinder"
+        },
+        {
+          "type": "text",
+          "value": ": "
+        },
+        {
+          "type": "text",
+          "value": "Deniz"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Selin"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Deniz"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "acht",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jahre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "alt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Er"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "spielt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Fußball"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Selin"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zehn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jahre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "alt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "malt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bilder"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Familie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "wohnt",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kleinen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Haus"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Garten"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Garten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gibt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "es"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Blumen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "großen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Baum"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Sonntag"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "isst",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Familie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zusammen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Frühstück"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "essen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Brot"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "Käse"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Oliven"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Nach"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Frühstück"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "spielen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ali"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Deniz"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Fußball"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "im",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Garten"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Selin"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "malt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bild"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Familie"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "ist",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "acht",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "wohnt",
+        "category": "verb",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "isst",
+        "category": "verb",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "im",
+        "category": "adjective",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "answer-1",
+        "text": "ist",
+        "correctFor": 1
+      },
+      {
+        "id": "answer-3",
+        "text": "wohnt",
+        "correctFor": 3
+      },
+      {
+        "id": "distractor-5",
+        "text": "putzt",
+        "correctFor": null
+      },
+      {
+        "id": "answer-2",
+        "text": "acht",
+        "correctFor": 2
+      },
+      {
+        "id": "answer-4",
+        "text": "isst",
+        "correctFor": 4
+      },
+      {
+        "id": "distractor-2",
+        "text": "zum",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-3",
+        "text": "warm",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-4",
+        "text": "kann",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-1",
+        "text": "zur",
+        "correctFor": null
+      },
+      {
+        "id": "answer-5",
+        "text": "im",
+        "correctFor": 5
+      }
+    ]
+  },
+  {
+    "slug": "am-freitagabend",
+    "nivel": "A1",
+    "titulo": "Am Freitagabend",
+    "descripcion": "Lisa trifft ihre Freunde am Freitagabend zum Spieleabend.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Lisa"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freitag"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "frei"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Abend"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kommen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "ihre",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freunde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Tom"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Mia"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Besuch"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "spielen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zusammen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kartenspiel"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Lisa"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "macht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Popcorn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "alle"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Tom"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gewinnt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "das",
+          "category": "article"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "erste"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Spiel"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Mia"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "lacht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "viel"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "glücklich"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "trinken"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Limonade"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "essen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Chips"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Später"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "spielen",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "noch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Brettspiel"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Das"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Spiel"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dauert"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Stunde"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Um"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zehn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Uhr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gehen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Tom"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Mia"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nach"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "Hause",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Lisa"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "räumt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Küche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auf"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "müde"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "aber"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Abend"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "war"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schön"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "freut"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "schon",
+          "category": "adverb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "das"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nächste"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Treffen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freunden"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "ihre",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "das",
+        "category": "article",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "spielen",
+        "category": "verb",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "Hause",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "schon",
+        "category": "adverb",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "answer-1",
+        "text": "ihre",
+        "correctFor": 1
+      },
+      {
+        "id": "answer-4",
+        "text": "Hause",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-5",
+        "text": "schon",
+        "correctFor": 5
+      },
+      {
+        "id": "distractor-2",
+        "text": "bunt",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-3",
+        "text": "ein",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-1",
+        "text": "beim",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-4",
+        "text": "dieses",
+        "correctFor": null
+      },
+      {
+        "id": "answer-2",
+        "text": "das",
+        "correctFor": 2
+      },
+      {
+        "id": "answer-3",
+        "text": "spielen",
+        "correctFor": 3
+      },
+      {
+        "id": "distractor-5",
+        "text": "fressen",
+        "correctFor": null
+      }
+    ]
+  },
+  {
+    "slug": "der-sturz-von-der-leiter",
+    "nivel": "A2",
+    "titulo": "Der Sturz von der Leiter",
+    "descripcion": "Herr Bauer fällt beim Apfelpflücken von der Leiter und muss zum Arzt.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Herr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bauer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wollte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Samstag"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Äpfel"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seinem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "Baum",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "pflücken"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Er"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Leiter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Garten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gestellt"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "weil"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Äpfel"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "oben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "am",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Baum"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hingen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Als"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "er"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ganz"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "oben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "war"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Leiter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "plötzlich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "weggerutscht"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Herr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bauer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "gestürzt",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arm"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "verletzt"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Seine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Frau"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sofort"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Krankenwagen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gerufen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "weil"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "Arm",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "stark"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geschwollen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "war"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Krankenhaus"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arzt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arm"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geröntgt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Zum"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Glück"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "war",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arm"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nicht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gebrochen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "sondern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nur"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geprellt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arzt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gesagt"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Herr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bauer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 6,
+          "answer": "den",
+          "category": "article"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arm"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Woche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "lang"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schonen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "soll"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Seitdem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "pflückt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Herr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bauer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "keine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Äpfel"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mehr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "allein"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 7,
+          "answer": "Sohn",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hilft"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihm"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "jetzt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "jedes"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jahr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Garten"
+        },
+        {
+          "type": "text",
+          "value": ". „"
+        },
+        {
+          "type": "text",
+          "value": "Ich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bin"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "froh"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nichts"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Schlimmeres"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "passiert"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 8,
+          "answer": "ist",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": "\", "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Herr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bauer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seiner"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Frau"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gesagt"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "Baum",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "am",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "gestürzt",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "Arm",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "war",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 6,
+        "answer": "den",
+        "category": "article",
+        "options": []
+      },
+      {
+        "id": 7,
+        "answer": "Sohn",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 8,
+        "answer": "ist",
+        "category": "verb",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "distractor-2",
+        "text": "Büro",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-4",
+        "text": "alt",
+        "correctFor": null
+      },
+      {
+        "id": "answer-7",
+        "text": "Sohn",
+        "correctFor": 7
+      },
+      {
+        "id": "distractor-5",
+        "text": "geduldig",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-1",
+        "text": "Bett",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-3",
+        "text": "los",
+        "correctFor": null
+      },
+      {
+        "id": "answer-2",
+        "text": "am",
+        "correctFor": 2
+      },
+      {
+        "id": "answer-6",
+        "text": "den",
+        "correctFor": 6
+      },
+      {
+        "id": "answer-1",
+        "text": "Baum",
+        "correctFor": 1
+      },
+      {
+        "id": "answer-5",
+        "text": "war",
+        "correctFor": 5
+      },
+      {
+        "id": "answer-4",
+        "text": "Arm",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-3",
+        "text": "gestürzt",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-8",
+        "text": "ist",
+        "correctFor": 8
+      }
+    ]
+  },
+  {
+    "slug": "die-postkarte-aus-norwegen",
+    "nivel": "A2",
+    "titulo": "Die Postkarte aus Norwegen",
+    "descripcion": "Jana bekommt eine Postkarte von ihrer Freundin, die in Norwegen Urlaub macht.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Jana"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gestern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Post"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bekommen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freundin"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Sofie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "ist",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihrer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Familie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nach"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Norwegen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gefahren"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "weil"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Fjorde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sehen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wollte"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sofie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jana"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "eine",
+          "category": "article"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Postkarte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geschrieben"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Auf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Karte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "war"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bild"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "großen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Fjord"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hohen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "Bergen",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Sofie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geschrieben"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "das"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wetter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Norwegen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kalt"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "aber"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sonnig"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "einem",
+          "category": "article"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Boot"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gefahren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wale"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gesehen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Außerdem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "erzählt"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Menschen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Norwegen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "sehr",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "freundlich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sind"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Jana"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Postkarte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "an"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wand"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihrem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Zimmer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gehängt"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Jana"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "freut"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 6,
+          "answer": "sich",
+          "category": "pronoun"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Sofie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schöne"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Reise"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sofort"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nachricht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geschrieben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 7,
+          "answer": "gefragt",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "wann"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zurückkommt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sofie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geantwortet"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nächste"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Woche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wieder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Hause"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Jana"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 8,
+          "answer": "möchte",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dann"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "alle"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Fotos"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Reise"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sehen"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "ist",
+        "category": "verb",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "eine",
+        "category": "article",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "Bergen",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "einem",
+        "category": "article",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "sehr",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 6,
+        "answer": "sich",
+        "category": "pronoun",
+        "options": []
+      },
+      {
+        "id": 7,
+        "answer": "gefragt",
+        "category": "verb",
+        "options": []
+      },
+      {
+        "id": 8,
+        "answer": "möchte",
+        "category": "other",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "answer-7",
+        "text": "gefragt",
+        "correctFor": 7
+      },
+      {
+        "id": "distractor-5",
+        "text": "Becken",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "hat",
+        "correctFor": null
+      },
+      {
+        "id": "answer-6",
+        "text": "sich",
+        "correctFor": 6
+      },
+      {
+        "id": "answer-8",
+        "text": "möchte",
+        "correctFor": 8
+      },
+      {
+        "id": "answer-2",
+        "text": "eine",
+        "correctFor": 2
+      },
+      {
+        "id": "distractor-1",
+        "text": "reist",
+        "correctFor": null
+      },
+      {
+        "id": "answer-4",
+        "text": "einem",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-5",
+        "text": "sehr",
+        "correctFor": 5
+      },
+      {
+        "id": "distractor-4",
+        "text": "diese",
+        "correctFor": null
+      },
+      {
+        "id": "answer-1",
+        "text": "ist",
+        "correctFor": 1
+      },
+      {
+        "id": "distractor-3",
+        "text": "die",
+        "correctFor": null
+      },
+      {
+        "id": "answer-3",
+        "text": "Bergen",
+        "correctFor": 3
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-den-garten",
+    "nivel": "A2",
+    "titulo": "Der Streit um den Garten",
+    "descripcion": "Frau Keller und ihr Nachbar streiten wegen eines Baumes im Garten.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Frau"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Keller"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schon"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zehn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jahren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nachbarn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "namens",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Herr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wolf"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Bisher"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "haben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "immer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gut"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "verstanden"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Doch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "letzte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Woche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gab"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "es"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "Streit",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "weil"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "großer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Baum"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "aus"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Frau"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kellers"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Garten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Schatten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Herrn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wolfs"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Terrasse"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wirft"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Herr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wolf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "hat",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "beschwert"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "er"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Garten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "keine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Sonne"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mehr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bekommt"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Frau"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Keller"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wollte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Baum"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "aber"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "nicht",
+          "category": "adverb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "fällen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "weil"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vielen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jahren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "pflegt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "beiden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nachbarn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "haben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "lange"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "miteinander"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geredet"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "aber"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "sie",
+          "category": "pronoun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "konnten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "keine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Lösung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "finden"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Deshalb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Frau"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Keller"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Gärtner"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "angerufen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "damit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "er"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Äste"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 6,
+          "answer": "des",
+          "category": "article"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Baumes"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kürzt"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Nach"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arbeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "des"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Gärtners"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bekommt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Herr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wolf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wieder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mehr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Sonne"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seiner"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Terrasse"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Frau"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 7,
+          "answer": "Keller",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "froh"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Lösung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gefunden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "haben"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "ohne"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Baum"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gefällt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "musste"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "blank",
+          "id": 8,
+          "answer": "Seitdem",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "trinken"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "beiden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nachbarn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wieder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "manchmal"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zusammen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kaffee"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "namens",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "Streit",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "hat",
+        "category": "verb",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "nicht",
+        "category": "adverb",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "sie",
+        "category": "pronoun",
+        "options": []
+      },
+      {
+        "id": 6,
+        "answer": "des",
+        "category": "article",
+        "options": []
+      },
+      {
+        "id": 7,
+        "answer": "Keller",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 8,
+        "answer": "Seitdem",
+        "category": "noun",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "answer-3",
+        "text": "hat",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-2",
+        "text": "Streit",
+        "correctFor": 2
+      },
+      {
+        "id": "answer-6",
+        "text": "des",
+        "correctFor": 6
+      },
+      {
+        "id": "distractor-4",
+        "text": "Stühle",
+        "correctFor": null
+      },
+      {
+        "id": "answer-7",
+        "text": "Keller",
+        "correctFor": 7
+      },
+      {
+        "id": "answer-4",
+        "text": "nicht",
+        "correctFor": 4
+      },
+      {
+        "id": "distractor-5",
+        "text": "sagt",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-1",
+        "text": "kleine",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "fahren",
+        "correctFor": null
+      },
+      {
+        "id": "answer-5",
+        "text": "sie",
+        "correctFor": 5
+      },
+      {
+        "id": "distractor-3",
+        "text": "Arbeit",
+        "correctFor": null
+      },
+      {
+        "id": "answer-1",
+        "text": "namens",
+        "correctFor": 1
+      },
+      {
+        "id": "answer-8",
+        "text": "Seitdem",
+        "correctFor": 8
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-im-cafe",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag im Café",
+    "descripcion": "Nina beginnt ihren ersten Arbeitstag als Kellnerin in einem kleinen Café.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Nina"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Woche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "neuen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Job"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "als",
+          "category": "conjunction"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kellnerin"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kleinen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Café"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Innenstadt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Obwohl"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schon"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einmal"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "Restaurant",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gearbeitet"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "war"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ersten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Tag"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sehr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "aufgeregt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kannte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "weder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Speisekarte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "noch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "die",
+          "category": "article"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kaffeemaschine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "richtig"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "anderen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kollegen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "waren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "noch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "fremd"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Morgen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "erklärte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "Chefin",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "wie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kaffeemaschine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "funktioniert"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wo"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "alles"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Café"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "finden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Nachdem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nina"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "ersten",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bestellungen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "aufgenommen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hatte"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "wurde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "langsam"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ruhiger"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Ein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "älterer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Gast"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bestellte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Cappuccino"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 6,
+          "answer": "lobte",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sogar"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freundlichkeit"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "obwohl"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "noch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "etwas"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "unsicher"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wirkte"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Das"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gab"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 7,
+          "answer": "mehr",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Selbstvertrauen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Rest"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "des"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Tages"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Abend"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "war"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nina"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "müde"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "aber"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "stolz"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Trotzdem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 8,
+          "answer": "hatte",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "noch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "viele"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Fragen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "an"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kollegen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nächsten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Tag"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "stellen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wollte"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "blank",
+          "id": 9,
+          "answer": "Sie",
+          "category": "pronoun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "merkte"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arbeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Café"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mehr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Spaß"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "machte"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "als"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "erwartet"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hatte"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 10,
+          "answer": "und",
+          "category": "conjunction"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "freute"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schon"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kommende"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Woche"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "als",
+        "category": "conjunction",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "Restaurant",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "die",
+        "category": "article",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "Chefin",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "ersten",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 6,
+        "answer": "lobte",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 7,
+        "answer": "mehr",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 8,
+        "answer": "hatte",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 9,
+        "answer": "Sie",
+        "category": "pronoun",
+        "options": []
+      },
+      {
+        "id": 10,
+        "answer": "und",
+        "category": "conjunction",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "distractor-2",
+        "text": "bevor",
+        "correctFor": null
+      },
+      {
+        "id": "answer-4",
+        "text": "Chefin",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-9",
+        "text": "Sie",
+        "correctFor": 9
+      },
+      {
+        "id": "distractor-1",
+        "text": "nachdem",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-5",
+        "text": "eine",
+        "correctFor": null
+      },
+      {
+        "id": "answer-3",
+        "text": "die",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-6",
+        "text": "lobte",
+        "correctFor": 6
+      },
+      {
+        "id": "answer-5",
+        "text": "ersten",
+        "correctFor": 5
+      },
+      {
+        "id": "distractor-3",
+        "text": "Nachmittag",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-4",
+        "text": "Recyclings",
+        "correctFor": null
+      },
+      {
+        "id": "answer-1",
+        "text": "als",
+        "correctFor": 1
+      },
+      {
+        "id": "answer-2",
+        "text": "Restaurant",
+        "correctFor": 2
+      },
+      {
+        "id": "answer-8",
+        "text": "hatte",
+        "correctFor": 8
+      },
+      {
+        "id": "answer-10",
+        "text": "und",
+        "correctFor": 10
+      },
+      {
+        "id": "answer-7",
+        "text": "mehr",
+        "correctFor": 7
+      }
+    ]
+  },
+  {
+    "slug": "die-theaterauffuehrung-der-schule",
+    "nivel": "B1",
+    "titulo": "Die Theateraufführung der Schule",
+    "descripcion": "Die Klasse 9b führt nach monatelangen Proben ein Theaterstück vor der ganzen Schule auf.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Seit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "drei"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Monaten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "probt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Klasse"
+        },
+        {
+          "type": "text",
+          "value": " 9"
+        },
+        {
+          "type": "text",
+          "value": "b"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "jeden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "Mittwochnachmittag",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Theateraufführung"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Das"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Stück"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "handelt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Familie"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "fremde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "Stadt",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zieht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dort"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "neue"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freunde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "findet"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Obwohl"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "viele"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Schüler"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "anfangs"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Lampenfieber"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hatten"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "wurden",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "jeder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Probe"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sicherer"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Tag"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Aufführung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "waren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "alle"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sehr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nervös"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "Nachdem",
+          "category": "conjunction"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Vorhang"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "aufgegangen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "war"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "vergaßen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Schüler"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Aufregung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schnell"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "konzentrierten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "auf",
+          "category": "preposition"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Rollen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Ein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Schüler"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Hauptrolle"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "spielte"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "vergaß"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zwar"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kurz"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seinen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 6,
+          "answer": "Text",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "konnte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "aber"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schnell"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wieder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "erinnern"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Das"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Publikum"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "darunter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "viele"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Eltern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Lehrer"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 7,
+          "answer": "applaudierte",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "am"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ende"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "begeistert"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Nach"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Vorstellung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "waren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "alle"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "erleichtert"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "glücklich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zugleich"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 8,
+          "answer": "Theaterlehrerin",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "lobte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ganze"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Klasse"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "harte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arbeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Mut"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Trotzdem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 9,
+          "answer": "waren",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einige"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Schüler"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "etwas"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "traurig"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "weil"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gemeinsamen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Proben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vorbei"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "waren"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "beschlossen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 10,
+          "answer": "im",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nächsten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jahr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wieder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Stück"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "aufzuführen"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "Mittwochnachmittag",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "Stadt",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "wurden",
+        "category": "verb",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "Nachdem",
+        "category": "conjunction",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "auf",
+        "category": "preposition",
+        "options": []
+      },
+      {
+        "id": 6,
+        "answer": "Text",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 7,
+        "answer": "applaudierte",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 8,
+        "answer": "Theaterlehrerin",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 9,
+        "answer": "waren",
+        "category": "verb",
+        "options": []
+      },
+      {
+        "id": 10,
+        "answer": "im",
+        "category": "other",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "answer-6",
+        "text": "Text",
+        "correctFor": 6
+      },
+      {
+        "id": "answer-3",
+        "text": "wurden",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-5",
+        "text": "auf",
+        "correctFor": 5
+      },
+      {
+        "id": "answer-4",
+        "text": "Nachdem",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-2",
+        "text": "Stadt",
+        "correctFor": 2
+      },
+      {
+        "id": "answer-8",
+        "text": "Theaterlehrerin",
+        "correctFor": 8
+      },
+      {
+        "id": "distractor-4",
+        "text": "Sport",
+        "correctFor": null
+      },
+      {
+        "id": "answer-7",
+        "text": "applaudierte",
+        "correctFor": 7
+      },
+      {
+        "id": "answer-1",
+        "text": "Mittwochnachmittag",
+        "correctFor": 1
+      },
+      {
+        "id": "answer-9",
+        "text": "waren",
+        "correctFor": 9
+      },
+      {
+        "id": "distractor-3",
+        "text": "Steak",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-5",
+        "text": "wählen",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-1",
+        "text": "Informationsquelle",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "Skulpturensammlung",
+        "correctFor": null
+      },
+      {
+        "id": "answer-10",
+        "text": "im",
+        "correctFor": 10
+      }
+    ]
+  },
+  {
+    "slug": "umgezogen-wegen-der-liebe",
+    "nivel": "B1",
+    "titulo": "Umgezogen wegen der Liebe",
+    "descripcion": "Julia zieht für ihren Freund in eine andere Stadt und muss sich dort neu einleben.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Julia"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vor"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zwei"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Monaten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Job"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "ihre",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wohnung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "München"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "aufgegeben"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "um"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihrem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freund"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Tobias"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nach"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Leipzig"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ziehen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "Obwohl",
+          "category": "conjunction"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gerne"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "München"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gelebt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hatte"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "wollte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Beziehung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nicht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "länger"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Distanz"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "führen",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Abschied"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freunden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "fiel"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "trotzdem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schwer"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "In"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Leipzig"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "musste"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Julia"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zunächst"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "neuen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "Job",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "finden"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Nachdem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mehrere"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bewerbungen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geschrieben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hatte"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "bekam"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schließlich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Stelle"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "einem",
+          "category": "article"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kleinen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Verlag"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arbeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gefiel"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gut"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "doch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vermisste"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "alten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freunde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 6,
+          "answer": "die",
+          "category": "article"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vertraute"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Umgebung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "München"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Tobias"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "versuchte"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "ihr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Stadt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zeigen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "stellte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 7,
+          "answer": "sie",
+          "category": "pronoun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seinen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freunden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vor"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Nach"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einigen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wochen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "fühlte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Julia"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Leipzig"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "langsam"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wohler"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "lernte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 8,
+          "answer": "durch",
+          "category": "preposition"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "neue"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arbeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "interessante"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Menschen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kennen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "entdeckte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gemeinsam"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Tobias"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Stadt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Trotzdem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 9,
+          "answer": "fährt",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "noch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "regelmäßig"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nach"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "München"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "um"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "alten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Freunde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "besuchen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Julia"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "war"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 10,
+          "answer": "Umzug",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schwierig"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "aber"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nachhinein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "richtige"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Entscheidung"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "ihre",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "Obwohl",
+        "category": "conjunction",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "führen",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "Job",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "einem",
+        "category": "article",
+        "options": []
+      },
+      {
+        "id": 6,
+        "answer": "die",
+        "category": "article",
+        "options": []
+      },
+      {
+        "id": 7,
+        "answer": "sie",
+        "category": "pronoun",
+        "options": []
+      },
+      {
+        "id": 8,
+        "answer": "durch",
+        "category": "preposition",
+        "options": []
+      },
+      {
+        "id": 9,
+        "answer": "fährt",
+        "category": "verb",
+        "options": []
+      },
+      {
+        "id": 10,
+        "answer": "Umzug",
+        "category": "noun",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "answer-8",
+        "text": "durch",
+        "correctFor": 8
+      },
+      {
+        "id": "answer-5",
+        "text": "einem",
+        "correctFor": 5
+      },
+      {
+        "id": "answer-10",
+        "text": "Umzug",
+        "correctFor": 10
+      },
+      {
+        "id": "distractor-1",
+        "text": "soll",
+        "correctFor": null
+      },
+      {
+        "id": "answer-1",
+        "text": "ihre",
+        "correctFor": 1
+      },
+      {
+        "id": "answer-9",
+        "text": "fährt",
+        "correctFor": 9
+      },
+      {
+        "id": "answer-4",
+        "text": "Job",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-7",
+        "text": "sie",
+        "correctFor": 7
+      },
+      {
+        "id": "distractor-4",
+        "text": "sondern",
+        "correctFor": null
+      },
+      {
+        "id": "answer-3",
+        "text": "führen",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-6",
+        "text": "die",
+        "correctFor": 6
+      },
+      {
+        "id": "distractor-2",
+        "text": "dazu",
+        "correctFor": null
+      },
+      {
+        "id": "answer-2",
+        "text": "Obwohl",
+        "correctFor": 2
+      },
+      {
+        "id": "distractor-3",
+        "text": "aber",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-5",
+        "text": "können",
+        "correctFor": null
+      }
+    ]
+  },
+  {
+    "slug": "werbeverbot-fuer-ungesunde-lebensmittel",
+    "nivel": "B2",
+    "titulo": "Ein Werbeverbot für ungesunde Lebensmittel?",
+    "descripcion": "Die Debatte um ein Verbot von Werbung für zucker- und fettreiche Lebensmittel, die sich an Kinder richtet.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "In"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vielen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ländern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wird"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "derzeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "diskutiert"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "ob"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Werbung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "stark"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zucker-"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "fett-",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "oder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "salzhaltige"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Lebensmittel"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "an"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kinder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "richtet"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "eingeschränkt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "oder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ganz"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "verboten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sollte"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Hintergrund"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "steigende"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Zahl"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "übergewichtiger",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kinder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jugendlicher"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Gesundheitsexperten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "seit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jahren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "als"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ernstes"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gesellschaftliches"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Problem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eingestuft"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wird"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Befürworter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eines"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Werbeverbots"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "argumentieren"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "Kinder",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "besonders"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "leicht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "durch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bunte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Werbespots"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bekannte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Comicfiguren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "beeinflusst"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "können"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "ohne"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "langfristigen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gesundheitlichen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Folgen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "verstehen"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Kritiker"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eines"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "solchen",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Verbots"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hingegen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "weisen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "darauf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hin"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Verantwortung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ernährung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kindern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "erster"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Linie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bei"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Eltern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "liege",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nicht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "durch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "staatliche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Eingriffe"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ersetzt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "könne"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Zudem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "befürchten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Vertreter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Lebensmittelindustrie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "erhebliche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wirtschaftliche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nachteile"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "sollten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bestimmte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Produkte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 6,
+          "answer": "nicht",
+          "category": "adverb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mehr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "beworben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dürfen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Sie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schlagen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "stattdessen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "freiwillige"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Selbstverpflichtungen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Unternehmen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vor"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "etwa"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Reduzierung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Werbung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Sendungen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 7,
+          "answer": "die",
+          "category": "article"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "speziell"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kinder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "produziert"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Einige"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Länder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sind"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bereits"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Schritt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "weitergegangen"
+        },
+        {
+          "type": "text",
+          "value": ": "
+        },
+        {
+          "type": "text",
+          "value": "In"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Großbritannien"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wurde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Werbung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ungesunde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Lebensmittel"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 8,
+          "answer": "Fernsehen",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vor"
+        },
+        {
+          "type": "text",
+          "value": " 21 "
+        },
+        {
+          "type": "text",
+          "value": "Uhr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sowie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "im"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Internet"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "weitgehend"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "untersagt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Ob"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "solche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Regelung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "tatsächlich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gesünderen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ernährung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bei"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kindern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "führt"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 9,
+          "answer": "wird",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wissenschaftlern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "unterschiedlich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bewertet"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "da"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ernährungsgewohnheiten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vielen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "weiteren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Faktoren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Erziehung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sozialem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Umfeld"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "abhängen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Klar"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ist"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "jedoch"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 10,
+          "answer": "dass",
+          "category": "conjunction"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "das"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Thema"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "angesichts"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wachsender"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Gesundheitskosten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "weiterhin"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "politisch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "brisant"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bleiben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dürfte"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "fett-",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "übergewichtiger",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "Kinder",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "solchen",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "liege",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 6,
+        "answer": "nicht",
+        "category": "adverb",
+        "options": []
+      },
+      {
+        "id": 7,
+        "answer": "die",
+        "category": "article",
+        "options": []
+      },
+      {
+        "id": 8,
+        "answer": "Fernsehen",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 9,
+        "answer": "wird",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 10,
+        "answer": "dass",
+        "category": "conjunction",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "answer-9",
+        "text": "wird",
+        "correctFor": 9
+      },
+      {
+        "id": "distractor-1",
+        "text": "sogar",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "forme",
+        "correctFor": null
+      },
+      {
+        "id": "answer-3",
+        "text": "Kinder",
+        "correctFor": 3
+      },
+      {
+        "id": "distractor-3",
+        "text": "konsequentesten",
+        "correctFor": null
+      },
+      {
+        "id": "answer-2",
+        "text": "übergewichtiger",
+        "correctFor": 2
+      },
+      {
+        "id": "answer-7",
+        "text": "die",
+        "correctFor": 7
+      },
+      {
+        "id": "answer-4",
+        "text": "solchen",
+        "correctFor": 4
+      },
+      {
+        "id": "distractor-4",
+        "text": "zeitaufwendiger",
+        "correctFor": null
+      },
+      {
+        "id": "answer-6",
+        "text": "nicht",
+        "correctFor": 6
+      },
+      {
+        "id": "distractor-5",
+        "text": "Nutzer",
+        "correctFor": null
+      },
+      {
+        "id": "answer-8",
+        "text": "Fernsehen",
+        "correctFor": 8
+      },
+      {
+        "id": "answer-5",
+        "text": "liege",
+        "correctFor": 5
+      },
+      {
+        "id": "answer-1",
+        "text": "fett-",
+        "correctFor": 1
+      },
+      {
+        "id": "answer-10",
+        "text": "dass",
+        "correctFor": 10
+      }
+    ]
+  },
+  {
+    "slug": "algorithmen-und-die-filterblase",
+    "nivel": "B2",
+    "titulo": "Algorithmen und die Filterblase in sozialen Netzwerken",
+    "descripcion": "Wie personalisierte Algorithmen in sozialen Netzwerken die Meinungsbildung beeinflussen können.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "Soziale"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Netzwerke"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nutzen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Algorithmen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "um"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nutzern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Inhalte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "anzuzeigen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "zu",
+          "category": "preposition"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bisherigen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Interessen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Vorlieben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "passen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Dadurch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "soll"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Verweildauer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Plattform"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "erhöht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "da"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "Nutzer",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eher"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bei"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Inhalten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bleiben"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Erwartungen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "entsprechen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Kritiker"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "warnen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "jedoch"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "durch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "diese"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Personalisierung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sogenannte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Filterblasen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "entstehen",
+          "category": "verb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "können"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "denen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Menschen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "fast"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ausschließlich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Meinungen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "konfrontiert"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihre"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eigene"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Sichtweise"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bestätigen"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Diese"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Entwicklung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "wird",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Wissenschaftlern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zunehmend"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "als"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Gefahr"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gesellschaftlichen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Zusammenhalt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "betrachtet"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Wenn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "unterschiedliche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Bevölkerungsgruppen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kaum"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "noch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "gegensätzlichen",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Positionen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "in"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Berührung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kommen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "könnte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dies"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "laut"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Studien"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "stärkeren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "politischen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Polarisierung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "führen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Zudem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wird"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "befürchtet"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 6,
+          "answer": "dass",
+          "category": "conjunction"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "es"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schwieriger"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wird"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "gemeinsame"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gesellschaftliche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Debatten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auf"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Grundlage"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geteilter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Fakten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "führen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "wenn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "jeder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nutzer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 7,
+          "answer": "individuell",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zugeschnittene"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Realität"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wahrnimmt"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Manche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Plattformbetreiber"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "haben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bereits"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "reagiert"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Funktionen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eingeführt"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "denen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nutzer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Algorithmus"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "stärker"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 8,
+          "answer": "selbst",
+          "category": "adverb"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "steuern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "oder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "deaktivieren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "können"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Ob"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "solche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Maßnahmen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ausreichen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "um"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "beschriebenen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Effekte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einzudämmen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "wird"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Experten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "unterschiedlich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 9,
+          "answer": "beurteilt",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Würde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "man"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Algorithmen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "konsequent"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "transparenter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gestalten"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "so"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "argumentieren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "manche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Forscher"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "könnten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Nutzer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bewusster"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihnen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 10,
+          "answer": "präsentierten",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Inhalten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "umgehen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eigene"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Informationsvielfalt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "aktiver"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mitbestimmen"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "zu",
+        "category": "preposition",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "Nutzer",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "entstehen",
+        "category": "verb",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "wird",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "gegensätzlichen",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 6,
+        "answer": "dass",
+        "category": "conjunction",
+        "options": []
+      },
+      {
+        "id": 7,
+        "answer": "individuell",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 8,
+        "answer": "selbst",
+        "category": "adverb",
+        "options": []
+      },
+      {
+        "id": 9,
+        "answer": "beurteilt",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 10,
+        "answer": "präsentierten",
+        "category": "adjective",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "answer-2",
+        "text": "Nutzer",
+        "correctFor": 2
+      },
+      {
+        "id": "distractor-4",
+        "text": "Bürger",
+        "correctFor": null
+      },
+      {
+        "id": "answer-9",
+        "text": "beurteilt",
+        "correctFor": 9
+      },
+      {
+        "id": "answer-4",
+        "text": "wird",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-3",
+        "text": "entstehen",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-8",
+        "text": "selbst",
+        "correctFor": 8
+      },
+      {
+        "id": "answer-7",
+        "text": "individuell",
+        "correctFor": 7
+      },
+      {
+        "id": "answer-6",
+        "text": "dass",
+        "correctFor": 6
+      },
+      {
+        "id": "distractor-2",
+        "text": "aus",
+        "correctFor": null
+      },
+      {
+        "id": "answer-5",
+        "text": "gegensätzlichen",
+        "correctFor": 5
+      },
+      {
+        "id": "answer-1",
+        "text": "zu",
+        "correctFor": 1
+      },
+      {
+        "id": "answer-10",
+        "text": "präsentierten",
+        "correctFor": 10
+      },
+      {
+        "id": "distractor-1",
+        "text": "seit",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-3",
+        "text": "Kinder",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-5",
+        "text": "ergriffen",
+        "correctFor": null
+      }
+    ]
+  },
+  {
+    "slug": "achtsamkeit-als-trend",
+    "nivel": "B2",
+    "titulo": "Achtsamkeit als Trend – Selbstoptimierung oder echte Entlastung?",
+    "descripcion": "Achtsamkeitsübungen und Meditation sind populär geworden, doch Kritiker sehen darin auch eine neue Form des Leistungsdrucks.",
+    "tipo": "type2",
+    "paragraphs": [
+      [
+        {
+          "type": "text",
+          "value": "In"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "letzten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Jahren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hat"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Achtsamkeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "buddhistischen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 1,
+          "answer": "Praxis",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "weitverbreiteten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gesellschaftlichen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Trend"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "entwickelt"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Meditations-Apps"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "Achtsamkeitskurse"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Workshops"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bewusstem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Atmen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mittlerweile"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nicht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nur"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Privatpersonen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 2,
+          "answer": "sondern",
+          "category": "conjunction"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "auch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "von"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zahlreichen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Unternehmen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "angeboten"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "davon"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "höhere"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Produktivität"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "geringere"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Krankheitsraten"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ihrer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Mitarbeiter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "erhoffen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Befürworter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "berichten"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "blank",
+          "id": 3,
+          "answer": "dass",
+          "category": "conjunction"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "regelmäßige"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Achtsamkeitsübungen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nachweislich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Stress"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "reduzieren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Konzentrationsfähigkeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "verbessern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "können"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Gleichzeitig"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "mehren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "jedoch"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kritische"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Stimmen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "die"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vor"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 4,
+          "answer": "Kommerzialisierung",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ursprünglich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "spirituellen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Praxis"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "warnen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Manche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Soziologen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "bezeichnen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "den"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Achtsamkeitstrend"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sogar"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "als"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eine"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "neue"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Form"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Selbstoptimierung"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "bei"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "der"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 5,
+          "answer": "Individuen",
+          "category": "noun"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dafür"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "verantwortlich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gemacht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "mit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Stress"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "einer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "immer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "schnelleren"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arbeitswelt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "allein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zurechtzukommen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "anstatt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "strukturelle"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ursachen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "wie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Überlastung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "oder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 6,
+          "answer": "unrealistische",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Zielvorgaben"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "hinterfragen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Wenn"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Achtsamkeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "vor"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "allem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dazu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "diene"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "Mitarbeiter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "belastbarer"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ohnehin"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ungesundes"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Arbeitsumfeld"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "machen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "so"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 7,
+          "answer": "die",
+          "category": "article"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Kritik"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "werde"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "das"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eigentliche"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Problem"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nicht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gelöst"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "sondern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "lediglich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "verschleiert"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Befürworter"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "entgegnen"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "dass"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Achtsamkeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "nicht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "als"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ersatz"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "für"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "notwendige"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 8,
+          "answer": "strukturelle",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Veränderungen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gedacht"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sei"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "sondern"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "als"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sinnvolle"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Ergänzung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dazu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "dienen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "könne"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Entscheidend"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "sei"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "wie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Achtsamkeit"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "eingesetzt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werde"
+        },
+        {
+          "type": "text",
+          "value": ": "
+        },
+        {
+          "type": "text",
+          "value": "als"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ehrliches"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Angebot"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 9,
+          "answer": "zur",
+          "category": "other"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "persönlichen"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Entlastung"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "oder"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "lediglich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "als"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kostengünstige"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Maßnahme"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "um"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "tiefere"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "organisatorische"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Probleme"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zu"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "übertünchen"
+        },
+        {
+          "type": "text",
+          "value": ". "
+        },
+        {
+          "type": "text",
+          "value": "Diese"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Debatte"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "zeigt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "exemplarisch"
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "text",
+          "value": "wie"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "ein"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "blank",
+          "id": 10,
+          "answer": "ursprünglich",
+          "category": "adjective"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "individuelles"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "Konzept"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "gesellschaftlich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "unterschiedlich"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "interpretiert"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "und"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "genutzt"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "werden"
+        },
+        {
+          "type": "text",
+          "value": " "
+        },
+        {
+          "type": "text",
+          "value": "kann"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "blanks": [
+      {
+        "id": 1,
+        "answer": "Praxis",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 2,
+        "answer": "sondern",
+        "category": "conjunction",
+        "options": []
+      },
+      {
+        "id": 3,
+        "answer": "dass",
+        "category": "conjunction",
+        "options": []
+      },
+      {
+        "id": 4,
+        "answer": "Kommerzialisierung",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 5,
+        "answer": "Individuen",
+        "category": "noun",
+        "options": []
+      },
+      {
+        "id": 6,
+        "answer": "unrealistische",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 7,
+        "answer": "die",
+        "category": "article",
+        "options": []
+      },
+      {
+        "id": 8,
+        "answer": "strukturelle",
+        "category": "adjective",
+        "options": []
+      },
+      {
+        "id": 9,
+        "answer": "zur",
+        "category": "other",
+        "options": []
+      },
+      {
+        "id": 10,
+        "answer": "ursprünglich",
+        "category": "adjective",
+        "options": []
+      }
+    ],
+    "wordBank": [
+      {
+        "id": "answer-6",
+        "text": "unrealistische",
+        "correctFor": 6
+      },
+      {
+        "id": "answer-10",
+        "text": "ursprünglich",
+        "correctFor": 10
+      },
+      {
+        "id": "answer-8",
+        "text": "strukturelle",
+        "correctFor": 8
+      },
+      {
+        "id": "distractor-5",
+        "text": "ob",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-1",
+        "text": "Eltern",
+        "correctFor": null
+      },
+      {
+        "id": "answer-1",
+        "text": "Praxis",
+        "correctFor": 1
+      },
+      {
+        "id": "distractor-3",
+        "text": "während",
+        "correctFor": null
+      },
+      {
+        "id": "answer-5",
+        "text": "Individuen",
+        "correctFor": 5
+      },
+      {
+        "id": "answer-9",
+        "text": "zur",
+        "correctFor": 9
+      },
+      {
+        "id": "answer-2",
+        "text": "sondern",
+        "correctFor": 2
+      },
+      {
+        "id": "distractor-4",
+        "text": "obwohl",
+        "correctFor": null
+      },
+      {
+        "id": "distractor-2",
+        "text": "Kultur",
+        "correctFor": null
+      },
+      {
+        "id": "answer-3",
+        "text": "dass",
+        "correctFor": 3
+      },
+      {
+        "id": "answer-4",
+        "text": "Kommerzialisierung",
+        "correctFor": 4
+      },
+      {
+        "id": "answer-7",
+        "text": "die",
         "correctFor": 7
       }
     ]
