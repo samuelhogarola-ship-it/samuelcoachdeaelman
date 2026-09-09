@@ -6216,6 +6216,230 @@ Viele Experten sind sich einig, dass eine Kombination aus klaren gesetzlichen Re
       { enunciado: 'Die Debatte um Hassrede gilt laut Text als abgeschlossen.', respuesta: false },
     ],
   },
+  {
+    slug: 'mein-rucksack',
+    nivel: 'A1',
+    titulo: 'Mein Rucksack',
+    descripcion: 'Tom zeigt, was in seinem Schulrucksack ist.',
+    texto: `Das ist mein Rucksack. Er ist blau und grün. Der Rucksack ist nicht schwer. Ich trage ihn jeden Tag zur Schule. In meinem Rucksack sind ein Buch, ein Heft und ein Stift. Ich habe auch eine Flasche Wasser dabei. Die Flasche ist rot.
+
+Meine Mutter packt morgens den Rucksack mit mir. Wir machen auch ein Butterbrot für die Pause. Ich mag Käse und Wurst. Mein Bruder hat einen gelben Rucksack. Sein Rucksack ist kleiner als meiner.
+
+In der Schule hänge ich den Rucksack an einen Haken. Nach der Schule trage ich ihn wieder nach Hause. Zu Hause lege ich den Rucksack neben die Tür.`,
+    preguntas: [
+      { enunciado: 'Der Rucksack von Tom ist blau und grün.', respuesta: true },
+      { enunciado: 'Der Rucksack ist sehr schwer.', respuesta: false },
+      { enunciado: 'Tom hat eine rote Wasserflasche.', respuesta: true },
+      { enunciado: 'Der Rucksack von Toms Bruder ist größer.', respuesta: false },
+      { enunciado: 'Tom hängt den Rucksack in der Schule an einen Haken.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-ampel',
+    nivel: 'A1',
+    titulo: 'Die Ampel',
+    descripcion: 'Mia lernt, wie man sicher über die Straße geht.',
+    texto: `Mia geht jeden Morgen zur Schule. Vor der Schule ist eine große Straße. Auf der Straße ist eine Ampel. Die Ampel hat drei Farben: rot, gelb und grün. Bei Rot bleibt Mia stehen. Bei Grün geht sie über die Straße.
+
+Heute wartet Mia mit ihrem Freund Ben an der Ampel. Sie sehen viele Autos. Die Ampel wird grün, und Mia und Ben gehen langsam über die Straße. Sie schauen nach links und nach rechts. Das ist wichtig.
+
+In der Schule lernen die Kinder ein Lied über die Ampel. Der Lehrer sagt: „Rot bedeutet Stopp, Grün bedeutet Gehen.“ Mia findet das Lied lustig und singt es zu Hause noch einmal.`,
+    preguntas: [
+      { enunciado: 'Die Ampel hat drei Farben.', respuesta: true },
+      { enunciado: 'Bei Rot geht Mia über die Straße.', respuesta: false },
+      { enunciado: 'Mia wartet mit Ben an der Ampel.', respuesta: true },
+      { enunciado: 'Mia und Ben schauen nicht nach links und rechts.', respuesta: false },
+      { enunciado: 'In der Schule lernen die Kinder ein Lied über die Ampel.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-schwimmkurs',
+    nivel: 'A1',
+    titulo: 'Der Schwimmkurs',
+    descripcion: 'Paul geht am Samstag zum Schwimmkurs im Hallenbad.',
+    texto: `Paul ist sieben Jahre alt. Jeden Samstag geht er zum Schwimmkurs. Der Kurs ist im Hallenbad in seiner Stadt. Das Wasser ist warm und blau. Paul hat eine gelbe Schwimmbrille und einen Schwimmring.
+
+Der Schwimmlehrer heißt Herr Krause. Er ist sehr nett und geduldig. Paul lernt, wie man die Arme und Beine bewegt. Am Anfang hat Paul Angst vor dem tiefen Wasser. Jetzt schwimmt er schon fünf Meter allein.
+
+Nach dem Schwimmkurs isst Paul mit seinem Vater ein Eis. Das ist seine Belohnung. Paul freut sich schon auf den nächsten Samstag.`,
+    preguntas: [
+      { enunciado: 'Paul geht jeden Sonntag zum Schwimmkurs.', respuesta: false },
+      { enunciado: 'Der Schwimmkurs findet im Hallenbad statt.', respuesta: true },
+      { enunciado: 'Der Schwimmlehrer heißt Herr Krause.', respuesta: true },
+      { enunciado: 'Paul kann noch gar nicht allein schwimmen.', respuesta: false },
+      { enunciado: 'Nach dem Kurs isst Paul ein Eis mit seinem Vater.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-fahrt-zum-flughafen',
+    nivel: 'A2',
+    titulo: 'Die Fahrt zum Flughafen',
+    descripcion: 'Julia hat es fast nicht rechtzeitig zum Flughafen geschafft.',
+    texto: `Julia hatte einen Flug nach Barcelona gebucht. Der Flug sollte um neun Uhr morgens starten. Sie ist um sechs Uhr aufgestanden, weil sie noch ihren Koffer packen musste. Danach hat sie ein Taxi zum Flughafen bestellt, aber das Taxi kam später als geplant.
+
+Auf der Autobahn gab es plötzlich einen Stau, weil ein Unfall passiert war. Julia hat sich große Sorgen gemacht, dass sie den Flug verpasst. Sie hat immer wieder auf die Uhr geschaut. Der Taxifahrer hat versucht, eine andere Route zu finden, damit sie schneller ankommen.
+
+Am Ende ist Julia nur zwanzig Minuten vor dem Abflug am Flughafen angekommen. Sie ist so schnell wie möglich zum Check-in gelaufen. Zum Glück hat sie es noch rechtzeitig geschafft und konnte einsteigen, bevor die Türen geschlossen wurden.`,
+    preguntas: [
+      { enunciado: 'Julias Flug sollte um neun Uhr morgens starten.', respuesta: true },
+      { enunciado: 'Das Taxi kam pünktlich zu Julia.', respuesta: false },
+      { enunciado: 'Es gab einen Stau, weil ein Unfall passiert war.', respuesta: true },
+      { enunciado: 'Julia hat ihren Flug verpasst.', respuesta: false },
+      { enunciado: 'Julia ist zum Check-in gelaufen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-neue-deutschkurs',
+    nivel: 'A2',
+    titulo: 'Der neue Deutschkurs',
+    descripcion: 'Marco beginnt einen Deutschkurs an der Volkshochschule und lernt neue Leute kennen.',
+    texto: `Marco ist vor drei Monaten aus Italien nach Deutschland gezogen. Weil er noch nicht gut Deutsch sprechen konnte, hat er sich für einen Kurs an der Volkshochschule angemeldet. Der Kurs findet dreimal pro Woche am Abend statt. Am ersten Tag war Marco sehr nervös, weil er niemanden in der Gruppe kannte.
+
+In der Klasse hat er schnell neue Freunde gefunden. Neben ihm saß eine Frau aus Polen, die auch erst seit kurzer Zeit in Deutschland lebt. Sie haben zusammen Vokabeln geübt und sich gegenseitig geholfen. Die Lehrerin hat gemerkt, dass Marco sehr fleißig ist, und hat ihn oft gelobt.
+
+Nach ein paar Wochen konnte Marco schon einfache Gespräche auf Deutsch führen. Er war stolz auf seine Fortschritte, obwohl er noch viele Fehler gemacht hat. Am Ende des Kurses hat die Gruppe zusammen gefeiert, weil alle die Prüfung bestanden hatten.`,
+    preguntas: [
+      { enunciado: 'Marco ist aus Polen nach Deutschland gezogen.', respuesta: false },
+      { enunciado: 'Der Deutschkurs findet dreimal pro Woche statt.', respuesta: true },
+      { enunciado: 'Marco war am ersten Tag sehr nervös.', respuesta: true },
+      { enunciado: 'Marco konnte nach ein paar Wochen keine Gespräche auf Deutsch führen.', respuesta: false },
+      { enunciado: 'Am Ende des Kurses hat die Gruppe gefeiert.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'ein-missgeschick-im-restaurant',
+    nivel: 'A2',
+    titulo: 'Ein Missgeschick im Restaurant',
+    descripcion: 'Beim Abendessen mit Freunden passiert Sophie ein peinliches Missgeschick.',
+    texto: `Sophie hat sich mit ihren Freunden zum Abendessen in einem neuen Restaurant in der Stadt getroffen. Sie hatten sich sehr auf den Abend gefreut, weil das Restaurant für seine leckere italienische Küche bekannt ist. Als der Kellner das Essen brachte, hat Sophie aus Versehen ihr Glas Wasser umgestoßen.
+
+Das Wasser ist über den ganzen Tisch gelaufen, und einige Papierservietten sind nass geworden. Sophie hat sich sehr geschämt, obwohl ihre Freunde nur gelacht haben. Der Kellner ist schnell gekommen und hat den Tisch trockengewischt, ohne böse zu sein. Er hat sogar noch ein Glas Wasser umsonst gebracht.
+
+Nachdem der Tisch wieder sauber war, konnten alle in Ruhe essen. Sophie hat sich beim Kellner mehrmals entschuldigt, weil ihr das Missgeschick so unangenehm war. Am Ende des Abends haben alle über die kleine Panne gelacht und einen schönen Abend verbracht.`,
+    preguntas: [
+      { enunciado: 'Sophie hat sich mit Freunden in einem italienischen Restaurant getroffen.', respuesta: true },
+      { enunciado: 'Sophie hat aus Versehen ihr Wasserglas umgestoßen.', respuesta: true },
+      { enunciado: 'Die Freunde waren sehr böse auf Sophie.', respuesta: false },
+      { enunciado: 'Der Kellner hat sich über das Missgeschick geärgert.', respuesta: false },
+      { enunciado: 'Am Ende des Abends haben alle über die Panne gelacht.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-fernfreundschaft',
+    nivel: 'B1',
+    titulo: 'Die Fernfreundschaft',
+    descripcion: 'Zwei beste Freundinnen versuchen, ihre Freundschaft trotz großer Entfernung zu pflegen.',
+    texto: `Als Nina vor einem Jahr nach Australien gezogen ist, um dort zu studieren, hatten sie und ihre beste Freundin Carla große Angst, den Kontakt zu verlieren. Obwohl zwischen Deutschland und Australien fast acht Stunden Zeitunterschied liegen, haben sie sich vorgenommen, regelmäßig in Verbindung zu bleiben. Nachdem sie anfangs fast täglich geschrieben hatten, wurde es mit der Zeit schwieriger, gemeinsame Zeiten für Videoanrufe zu finden.
+
+Trotzdem haben die beiden eine Lösung gefunden: Jeden Sonntag telefonieren sie mindestens eine Stunde lang, egal wie müde sie sind. Carla erzählt dann von ihrem Alltag in Deutschland, während Nina von ihrem Studium und ihren neuen Freunden in Australien berichtet. Manchmal fühlt es sich an, als wäre keine Zeit vergangen, obwohl Monate zwischen den Gesprächen liegen können.
+
+Im Sommer hat Nina Carla in Deutschland besucht, und beide waren überrascht, wie vertraut sich alles anfühlte. Nachdem sie sich wieder in die Arme gefallen waren, hatten sie das Gefühl, nie getrennt gewesen zu sein. Diese Erfahrung hat beiden gezeigt, dass echte Freundschaft auch große Entfernungen überstehen kann, wenn man sich Mühe gibt.`,
+    preguntas: [
+      { enunciado: 'Nina ist vor einem Jahr nach Australien gezogen.', respuesta: true },
+      { enunciado: 'Zwischen Deutschland und Australien gibt es keinen Zeitunterschied.', respuesta: false },
+      { enunciado: 'Nina und Carla telefonieren jeden Sonntag miteinander.', respuesta: true },
+      { enunciado: 'Nina hat Carla noch nie in Deutschland besucht.', respuesta: false },
+      { enunciado: 'Die beiden Freundinnen glauben, dass Freundschaft trotz Entfernung möglich ist.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-betriebsausflug',
+    nivel: 'B1',
+    titulo: 'Der Betriebsausflug',
+    descripcion: 'Eine Firma organisiert einen gemeinsamen Ausflug, obwohl nicht alle Mitarbeiter begeistert sind.',
+    texto: `Jedes Jahr im Sommer organisiert die Firma von Herrn Weber einen Betriebsausflug für alle Mitarbeiter. In diesem Jahr sollte es zu einem Kletterpark im Wald gehen, was nicht bei allen Kollegen auf Begeisterung stieß. Während einige sich schon lange auf den Tag gefreut hatten, hatten andere Angst vor der Höhe und wollten lieber im Büro bleiben.
+
+Als der Tag endlich kam, trafen sich alle Mitarbeiter früh am Morgen am Firmenparkplatz. Nachdem der Bus sie zum Kletterpark gebracht hatte, bekam jeder eine Sicherheitsausrüstung und eine kurze Einführung von einem Trainer. Obwohl Frau Kaiser aus der Buchhaltung anfangs sehr nervös war, hat sie sich schließlich getraut, den ersten Parcours auszuprobieren.
+
+Am Nachmittag saßen alle zusammen an einem großen Tisch und aßen gemeinsam zu Abend. Die Kollegen, die sich vorher kaum kannten, haben sich beim Klettern gegenseitig geholfen und dabei viel gelacht. Am Ende des Tages waren sich alle einig, dass der Ausflug trotz anfänglicher Zweifel eine gute Idee gewesen war.`,
+    preguntas: [
+      { enunciado: 'Der Betriebsausflug führte in diesem Jahr in einen Kletterpark.', respuesta: true },
+      { enunciado: 'Alle Mitarbeiter waren sofort begeistert von der Idee.', respuesta: false },
+      { enunciado: 'Frau Kaiser hat sich am Ende getraut, den Parcours auszuprobieren.', respuesta: true },
+      { enunciado: 'Die Kollegen haben sich beim Klettern nicht geholfen.', respuesta: false },
+      { enunciado: 'Am Ende fanden die Mitarbeiter den Ausflug gelungen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'greenwashing-marketing-und-nachhaltigkeit',
+    nivel: 'B2',
+    titulo: 'Greenwashing – Wenn Nachhaltigkeit zum Marketing wird',
+    descripcion: 'Immer mehr Unternehmen werben mit grünen Versprechen, doch dahinter steckt oft weniger Umweltschutz als behauptet.',
+    texto: `Kaum ein Werbeslogan kommt heute noch ohne Begriffe wie „klimaneutral“, „nachhaltig“ oder „umweltfreundlich“ aus. Verbraucherinnen und Verbraucher, die zunehmend Wert auf einen bewussten Konsum legen, lassen sich von solchen Versprechen gerne überzeugen. Kritiker sprechen jedoch immer häufiger von „Greenwashing“ – einem Marketingtrick, bei dem Unternehmen ihr Image aufpolieren, ohne tatsächlich substanzielle Veränderungen an ihren Produkten oder Herstellungsprozessen vorzunehmen.
+
+Besonders in der Modeindustrie und bei Konsumgütern wird dieses Phänomen häufig beobachtet. Ein T-Shirt aus recyceltem Material wird als umweltfreundlich beworben, obwohl der überwiegende Teil der Kollektion weiterhin unter fragwürdigen ökologischen Bedingungen produziert wird. Würden Verbraucher genauer hinschauen, so argumentieren Experten, ließe sich in vielen Fällen ein deutlicher Widerspruch zwischen Werbeversprechen und tatsächlichem Handeln erkennen.
+
+Um dieser Entwicklung entgegenzuwirken, hat die Europäische Union strengere Regeln für Umweltaussagen in der Werbung vorgeschlagen. Sollten Unternehmen künftig verpflichtet werden, ihre Nachhaltigkeitsversprechen mit belastbaren Daten zu belegen, könnte dies dem Vertrauen der Konsumenten zugutekommen. Gleichzeitig befürchten Branchenvertreter, dass zu strenge Vorschriften kleinere Unternehmen benachteiligen könnten, die sich aufwendige Zertifizierungen kaum leisten können.
+
+Ob strengere Gesetze das Problem tatsächlich lösen werden, bleibt abzuwarten. Klar ist jedoch, dass eine informierte und kritische Öffentlichkeit eine wichtige Rolle dabei spielt, echte Nachhaltigkeitsbemühungen von reiner Marketingstrategie zu unterscheiden. Solange Transparenz fehlt, wird die Debatte um Greenwashing die Konsumgesellschaft weiter begleiten.`,
+    preguntas: [
+      { enunciado: 'Der Begriff „Greenwashing“ beschreibt echte, tiefgreifende Umweltmaßnahmen von Unternehmen.', respuesta: false },
+      { enunciado: 'Greenwashing wird laut Text besonders in der Modeindustrie beobachtet.', respuesta: true },
+      { enunciado: 'Die EU hat strengere Regeln für Umweltaussagen in der Werbung vorgeschlagen.', respuesta: true },
+      { enunciado: 'Alle Branchenvertreter begrüßen strengere Vorschriften ohne Bedenken.', respuesta: false },
+      { enunciado: 'Laut Text spielt eine kritische Öffentlichkeit keine Rolle bei der Aufklärung über Greenwashing.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'kuenstliches-fleisch-zukunft-der-ernaehrung',
+    nivel: 'B2',
+    titulo: 'Künstliches Fleisch – Zukunft der Ernährung?',
+    descripcion: 'Im Labor gezüchtetes Fleisch gilt als mögliche Lösung für Umweltprobleme, stößt aber auch auf Skepsis.',
+    texto: `Weltweit wächst der Fleischkonsum stetig, obwohl die Massentierhaltung erheblich zum Klimawandel beiträgt und enorme Mengen an Wasser sowie Ackerland verbraucht. Als mögliche Lösung für dieses Dilemma wird seit einigen Jahren an sogenanntem kultiviertem Fleisch geforscht, das aus tierischen Zellen im Labor gezüchtet wird, ohne dass dafür Tiere geschlachtet werden müssen. Befürworter sehen darin eine Chance, den Fleischkonsum umweltfreundlicher zu gestalten, ohne auf den gewohnten Geschmack verzichten zu müssen.
+
+Dennoch stößt die Technologie auch auf erhebliche Skepsis. Viele Verbraucher empfinden den Gedanken, Fleisch aus dem Labor zu essen, zunächst als befremdlich, selbst wenn ihnen die ökologischen Vorteile bewusst sind. Hinzu kommt, dass die Herstellung bislang sehr teuer ist, weshalb kultiviertes Fleisch derzeit kaum mit konventionellem Fleisch konkurrieren kann. Sollten die Produktionskosten jedoch in den kommenden Jahren sinken, könnte sich dies grundlegend ändern.
+
+Auch aus ethischer Sicht wird das Thema kontrovers diskutiert. Tierschützer begrüßen zwar, dass für kultiviertes Fleisch keine Tiere leiden müssen, kritisieren jedoch gleichzeitig, dass die Forschung weiterhin auf Zellmaterial lebender Tiere angewiesen ist. Zudem wird bemängelt, dass große Lebensmittelkonzerne die Entwicklung dominieren könnten, wodurch kleine landwirtschaftliche Betriebe ins Hintertreffen geraten würden.
+
+Ob kultiviertes Fleisch tatsächlich zur Normalität auf unseren Tellern wird, hängt letztlich von der Akzeptanz der Verbraucher sowie von politischen Rahmenbedingungen ab. Fest steht jedoch, dass angesichts der ökologischen Herausforderungen alternative Formen der Fleischproduktion an Bedeutung gewinnen werden.`,
+    preguntas: [
+      { enunciado: 'Die Massentierhaltung trägt laut Text zum Klimawandel bei.', respuesta: true },
+      { enunciado: 'Kultiviertes Fleisch wird ohne die Schlachtung von Tieren hergestellt.', respuesta: true },
+      { enunciado: 'Die Herstellung von kultiviertem Fleisch ist bislang günstiger als konventionelles Fleisch.', respuesta: false },
+      { enunciado: 'Alle Tierschützer lehnen kultiviertes Fleisch vollständig ab.', respuesta: false },
+      { enunciado: 'Der Text sagt, dass alternative Formen der Fleischproduktion an Bedeutung gewinnen könnten.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'barrierefreiheit-im-oeffentlichen-raum',
+    nivel: 'B2',
+    titulo: 'Barrierefreiheit im öffentlichen Raum',
+    descripcion: 'Trotz gesetzlicher Vorgaben bleiben viele öffentliche Orte in Deutschland für Menschen mit Behinderung schwer zugänglich.',
+    texto: `Obwohl das Prinzip der Barrierefreiheit seit Jahren gesetzlich verankert ist, stoßen Menschen mit Behinderung im Alltag noch immer auf zahlreiche Hindernisse. Bahnhöfe ohne funktionierende Aufzüge, Bürgersteige mit hohen Bordsteinkanten oder Restaurants ohne rollstuhlgerechten Zugang gehören für viele Betroffene weiterhin zur Realität. Dabei sollte eine barrierefreie Gestaltung des öffentlichen Raums längst selbstverständlich sein.
+
+Besonders im ländlichen Raum gestaltet sich die Situation oft schwieriger als in Großstädten, da hier häufig weniger finanzielle Mittel für bauliche Anpassungen zur Verfügung stehen. Kommunen argumentieren häufig, dass umfassende Umbaumaßnahmen zu teuer seien, während Betroffenenverbände darauf hinweisen, dass Barrierefreiheit letztlich der gesamten Gesellschaft zugutekommt, etwa älteren Menschen oder Eltern mit Kinderwagen.
+
+Würde von Anfang an barrierefrei geplant, anstatt nachträglich teure Umbauten vorzunehmen, ließen sich nach Expertenmeinung erhebliche Kosten einsparen. Aus diesem Grund fordern Fachleute, dass Barrierefreiheit bereits in der Planungsphase neuer Gebäude und Verkehrsmittel verpflichtend mitgedacht werden müsste, anstatt sie als nachträgliche Ergänzung zu behandeln.
+
+Solange dies jedoch nicht flächendeckend umgesetzt wird, bleibt die gesellschaftliche Teilhabe vieler Menschen mit Behinderung eingeschränkt. Die Debatte zeigt, dass Barrierefreiheit weit mehr ist als eine technische Frage – sie betrifft grundlegend, wie inklusiv eine Gesellschaft tatsächlich gestaltet ist.`,
+    preguntas: [
+      { enunciado: 'Barrierefreiheit ist in Deutschland gesetzlich verankert.', respuesta: true },
+      { enunciado: 'Laut Text gibt es im Alltag keine Hindernisse mehr für Menschen mit Behinderung.', respuesta: false },
+      { enunciado: 'Im ländlichen Raum ist die Umsetzung von Barrierefreiheit oft schwieriger.', respuesta: true },
+      { enunciado: 'Experten meinen, dass nachträgliche Umbauten günstiger sind als von Anfang an barrierefreies Planen.', respuesta: false },
+      { enunciado: 'Der Text beschreibt Barrierefreiheit als reine technische Angelegenheit ohne gesellschaftliche Bedeutung.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'work-life-blending',
+    nivel: 'B2',
+    titulo: 'Work-Life-Blending – Wenn Arbeit und Freizeit verschwimmen',
+    descripcion: 'Flexible Arbeitsmodelle versprechen mehr Freiheit, verwischen aber zunehmend die Grenze zwischen Beruf und Privatleben.',
+    texto: `Während frühere Generationen klar zwischen Arbeitszeit und Freizeit unterschieden, verschwimmen diese Grenzen für viele Berufstätige heute zunehmend. Das Konzept des sogenannten Work-Life-Blending geht davon aus, dass sich Arbeit und Privatleben nicht strikt trennen lassen, sondern flexibel miteinander verwoben werden sollten. Wer möchte, könnte demnach am Vormittag private Erledigungen machen und dafür abends noch E-Mails beantworten.
+
+Befürworter dieses Modells betonen die gewonnene Flexibilität, die es beispielsweise Eltern erleichtert, Beruf und Familie miteinander zu vereinbaren. Kritiker hingegen warnen davor, dass die ständige Erreichbarkeit langfristig zu Erschöpfung führen könnte, da klare Erholungsphasen fehlen. Sollte die Grenze zwischen Arbeit und Freizeit vollständig verschwinden, befürchten Arbeitspsychologen einen Anstieg von Stresserkrankungen.
+
+Unternehmen stehen daher vor der Herausforderung, Flexibilität zu ermöglichen, ohne die Gesundheit ihrer Mitarbeiter zu gefährden. Einige Firmen haben deshalb bewusste Regelungen eingeführt, etwa das Verbot, außerhalb der Arbeitszeit dienstliche Nachrichten zu versenden. Andere setzen stattdessen auf Vertrauensarbeitszeit und überlassen es den Beschäftigten selbst, ihre Grenzen zu setzen.
+
+Ob Work-Life-Blending tatsächlich zu mehr Zufriedenheit führt oder lediglich eine neue Form der Selbstausbeutung darstellt, wird kontrovers diskutiert. Klar scheint jedoch, dass Beschäftigte klare persönliche Strategien entwickeln müssen, um von der gewonnenen Flexibilität zu profitieren, ohne dabei ihre eigene Erholung zu vernachlässigen.`,
+    preguntas: [
+      { enunciado: 'Work-Life-Blending bedeutet eine strikte Trennung von Arbeit und Freizeit.', respuesta: false },
+      { enunciado: 'Befürworter des Modells betonen die gewonnene Flexibilität für Eltern.', respuesta: true },
+      { enunciado: 'Arbeitspsychologen befürchten bei fehlenden Grenzen einen Anstieg von Stresserkrankungen.', respuesta: true },
+      { enunciado: 'Alle Unternehmen haben Regelungen gegen dienstliche Nachrichten außerhalb der Arbeitszeit eingeführt.', respuesta: false },
+      { enunciado: 'Der Text stellt fest, dass Work-Life-Blending von allen Experten eindeutig positiv bewertet wird.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
