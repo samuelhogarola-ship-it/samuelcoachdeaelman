@@ -6660,6 +6660,216 @@ Letztlich zeigt die Debatte, dass Generationengerechtigkeit keine einfache Reche
       { enunciado: 'Der Text behauptet, dass jede Form von Staatsverschuldung ungerecht gegenüber jungen Menschen ist.', respuesta: false },
     ],
   },
+  {
+    slug: 'der-obstkorb-zu-hause',
+    nivel: 'A1',
+    titulo: 'Der Obstkorb zu Hause',
+    descripcion: 'Die Familie Berger isst am Nachmittag frisches Obst zusammen.',
+    texto: `Familie Berger sitzt am Nachmittag in der Küche. Auf dem Tisch steht ein großer Obstkorb. Der Korb ist voll mit Äpfeln, Bananen und Orangen. Die Äpfel sind rot und grün. Die Bananen sind gelb. Mama nimmt eine Orange und schneidet sie in vier Stücke. Der kleine Tom isst gern Bananen. Seine Schwester Lisa mag lieber Äpfel.
+
+„Wie viele Bananen sind noch im Korb?“, fragt Papa. Tom zählt: „Eins, zwei, drei, vier!“ Es sind vier Bananen im Korb. Lisa nimmt einen roten Apfel und isst ihn langsam. Mama trinkt ein Glas Wasser und lächelt. Nach dem Obst spielen die Kinder im Wohnzimmer. Der Obstkorb ist am Abend fast leer.`,
+    preguntas: [
+      { enunciado: 'Der Obstkorb steht auf dem Tisch in der Küche.', respuesta: true },
+      { enunciado: 'Die Bananen sind rot.', respuesta: false },
+      { enunciado: 'Tom isst gern Bananen.', respuesta: true },
+      { enunciado: 'Es sind fünf Bananen im Korb.', respuesta: false },
+      { enunciado: 'Am Abend ist der Obstkorb fast leer.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'meine-zimmerpflanze',
+    nivel: 'A1',
+    titulo: 'Meine Zimmerpflanze',
+    descripcion: 'Sofia erzählt, wie sie jeden Tag ihre grüne Pflanze pflegt.',
+    texto: `Ich heiße Sofia und ich habe eine Zimmerpflanze. Die Pflanze steht auf meinem Fensterbrett. Sie ist grün und hat viele Blätter. Jeden Morgen gieße ich die Pflanze mit ein bisschen Wasser. Die Pflanze braucht auch Licht. Deshalb steht sie direkt am Fenster.
+
+Am Wochenende messe ich die Pflanze mit einem Lineal. Im Januar war sie nur zwanzig Zentimeter groß. Jetzt ist sie fast dreißig Zentimeter groß. Meine Mutter sagt: „Deine Pflanze wächst sehr schnell!“ Ich bin stolz auf meine Pflanze und spreche jeden Tag mit ihr.`,
+    preguntas: [
+      { enunciado: 'Sofias Pflanze steht auf dem Fensterbrett.', respuesta: true },
+      { enunciado: 'Sofia gießt die Pflanze nur einmal im Monat.', respuesta: false },
+      { enunciado: 'Die Pflanze braucht kein Licht.', respuesta: false },
+      { enunciado: 'Die Pflanze ist jetzt größer als im Januar.', respuesta: true },
+      { enunciado: 'Sofias Mutter findet, dass die Pflanze schnell wächst.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'meine-puppe-lina',
+    nivel: 'A1',
+    titulo: 'Meine Puppe Lina',
+    descripcion: 'Ein kleines Mädchen erzählt von ihrer Lieblingspuppe.',
+    texto: `Ich heiße Mia und ich bin sechs Jahre alt. Meine Lieblingspuppe heißt Lina. Lina hat lange, braune Haare und blaue Augen. Sie trägt ein rosa Kleid und weiße Schuhe. Ich spiele jeden Tag mit Lina.
+
+Am Abend lege ich Lina in ihr kleines Bett neben mein Bett. „Gute Nacht, Lina“, sage ich leise. Meine Oma hat mir Lina zum Geburtstag geschenkt. Lina ist jetzt schon zwei Jahre alt. Ich liebe meine Puppe sehr.`,
+    preguntas: [
+      { enunciado: 'Lina hat blaue Augen.', respuesta: true },
+      { enunciado: 'Lina trägt ein grünes Kleid.', respuesta: false },
+      { enunciado: 'Mia spielt nur am Wochenende mit Lina.', respuesta: false },
+      { enunciado: 'Mias Oma hat ihr die Puppe geschenkt.', respuesta: true },
+      { enunciado: 'Lina schläft in einem eigenen kleinen Bett.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-fahrradtour-zum-badesee',
+    nivel: 'A2',
+    titulo: 'Die Fahrradtour zum Badesee',
+    descripcion: 'Paul und seine Freunde fahren an einem heißen Tag mit dem Rad zum See.',
+    texto: `Am Samstag ist es sehr heiß gewesen, deshalb haben Paul und seine Freunde beschlossen, mit dem Fahrrad zum Badesee zu fahren. Sie sind um zehn Uhr losgefahren, weil sie den kühlsten Teil des Tages nutzen wollten. Nach einer Stunde sind sie am See angekommen und haben sofort ihre Fahrräder abgestellt. Paul hat gesagt, dass er noch nie so durstig gewesen sei.
+
+Als sie am Wasser waren, sind alle sofort ins kühle Wasser gesprungen. Lisa hat erzählt, dass sie das Schwimmen im See viel schöner findet als im Schwimmbad. Nach dem Schwimmen haben sie ihre Butterbrote gegessen und über die Schule gesprochen. Weil es später anfing zu regnen, sind sie schneller nach Hause gefahren, als sie geplant hatten. Trotzdem war es für alle ein toller Tag.`,
+    preguntas: [
+      { enunciado: 'Paul und seine Freunde sind zu Fuß zum See gegangen.', respuesta: false },
+      { enunciado: 'Sie sind um zehn Uhr losgefahren.', respuesta: true },
+      { enunciado: 'Lisa findet das Schwimmbad schöner als den See.', respuesta: false },
+      { enunciado: 'Es hat später angefangen zu regnen.', respuesta: true },
+      { enunciado: 'Der Tag war für die Freunde langweilig.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-erste-yogakurs',
+    nivel: 'A2',
+    titulo: 'Der erste Yogakurs',
+    descripcion: 'Sabine berichtet von ihrer ersten Yogastunde und ihren gemischten Gefühlen.',
+    texto: `Sabine hat sich schon lange für Yoga interessiert, aber sie hat sich nie richtig getraut, einen Kurs zu besuchen. Letzte Woche hat sie sich endlich angemeldet, weil eine Kollegin ihr den Kurs empfohlen hat. Am ersten Abend ist sie ein bisschen nervös gewesen, denn sie hatte Angst, dass sie die Übungen nicht schaffen könnte.
+
+Die Lehrerin hat erklärt, dass man beim Yoga vor allem ruhig atmen muss. Sabine hat gemerkt, dass die Übungen anstrengender waren, als sie gedacht hatte. Wenn sie eine Übung nicht geschafft hat, hat die Lehrerin ihr geholfen. Nach der Stunde hat sich Sabine erstaunlich entspannt gefühlt, obwohl ihre Arme wehgetan haben. Sie hat sich sofort für den nächsten Kurs angemeldet.`,
+    preguntas: [
+      { enunciado: 'Sabine hat sich sofort für den Yogakurs angemeldet, als sie davon gehört hat.', respuesta: false },
+      { enunciado: 'Eine Kollegin hat Sabine den Kurs empfohlen.', respuesta: true },
+      { enunciado: 'Sabine fand die Übungen leichter, als sie erwartet hatte.', respuesta: false },
+      { enunciado: 'Nach der Stunde hat sich Sabine entspannt gefühlt.', respuesta: true },
+      { enunciado: 'Sabine will keinen weiteren Yogakurs besuchen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'wanderung-an-der-nordsee',
+    nivel: 'A2',
+    titulo: 'Eine Wanderung an der Nordsee',
+    descripcion: 'Jonas und Nina verlaufen sich bei einer Wanderung entlang der Küste.',
+    texto: `Jonas und Nina haben ihren Urlaub an der Nordsee verbracht und sind an einem windigen Tag zu einer langen Wanderung aufgebrochen. Sie sind dem Küstenweg gefolgt, weil sie das Wattenmeer aus der Nähe sehen wollten. Nach zwei Stunden haben sie bemerkt, dass sie den richtigen Weg verloren hatten.
+
+Obwohl Nina eine Karte dabeihatte, war der Weg im Nebel schwer zu erkennen. Ein freundlicher Landwirt, der in der Nähe wohnte, hat ihnen gezeigt, wie sie zurück zum Dorf kommen. Nachdem sie ihm gedankt hatten, sind sie erschöpft, aber glücklich in ihre Ferienwohnung zurückgekehrt. Am Abend haben sie sich vorgenommen, beim nächsten Mal eine genauere Karte mitzunehmen.`,
+    preguntas: [
+      { enunciado: 'Jonas und Nina haben ihren Urlaub in den Bergen verbracht.', respuesta: false },
+      { enunciado: 'Sie haben sich während der Wanderung verlaufen.', respuesta: true },
+      { enunciado: 'Ein Landwirt hat ihnen den Weg gezeigt.', respuesta: true },
+      { enunciado: 'Nina hatte keine Karte dabei.', respuesta: false },
+      { enunciado: 'Sie sind ohne Probleme direkt zur Ferienwohnung gelaufen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'ein-poetry-slam-abend',
+    nivel: 'B1',
+    titulo: 'Ein Poetry-Slam-Abend in der Studentenkneipe',
+    descripcion: 'Mehmet überwindet seine Nervosität und tritt zum ersten Mal bei einem Poetry Slam auf.',
+    texto: `Mehmet hatte schon seit Monaten eigene Texte geschrieben, sich aber nie getraut, sie vor Publikum vorzutragen. Als seine Mitbewohnerin ihn zu einem Poetry-Slam-Abend in der Studentenkneipe einlud, zögerte er zunächst, ließ sich dann aber überreden. Obwohl er wusste, dass die anderen Teilnehmer schon viel Erfahrung hatten, meldete er sich kurz vor Beginn spontan für die Liste an.
+
+Nachdem drei andere Slammer ihre Texte vorgetragen hatten, wurde Mehmets Name aufgerufen. Seine Hände zitterten, trotzdem ging er auf die kleine Bühne und begann zu lesen. Je länger er las, desto ruhiger wurde er, und das Publikum lachte an genau den Stellen, die er sich erhofft hatte. Am Ende bekam er den zweitmeisten Applaus des Abends.
+
+Nach seinem Auftritt kamen mehrere Zuschauer zu ihm und lobten seinen Text. Eine Frau fragte ihn, ob er beim nächsten Poetry Slam wieder mitmachen würde. Mehmet, der vor wenigen Stunden noch aus Angst fast abgesagt hätte, überlegte nicht lange und sagte begeistert zu. Auf dem Nachhauseweg dachte er, dass dieser Abend sein Leben ein kleines Stück verändert hatte.`,
+    preguntas: [
+      { enunciado: 'Mehmet hatte schon oft öffentlich seine Texte vorgetragen.', respuesta: false },
+      { enunciado: 'Mehmets Mitbewohnerin hat ihn zu dem Poetry Slam eingeladen.', respuesta: true },
+      { enunciado: 'Mehmet hat sich schon Wochen vorher für die Liste angemeldet.', respuesta: false },
+      { enunciado: 'Mehmet bekam den zweitmeisten Applaus des Abends.', respuesta: true },
+      { enunciado: 'Nach dem Auftritt wollte Mehmet nie wieder bei einem Poetry Slam mitmachen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'sommerpraktikum-im-ausland',
+    nivel: 'B1',
+    titulo: 'Ein Sommerpraktikum im Ausland',
+    descripcion: 'Katharina berichtet über ihr Praktikum in einem kleinen Unternehmen in Lissabon.',
+    texto: `Katharina hatte sich schon während des Studiums vorgenommen, ein Praktikum im Ausland zu machen, um ihre Sprachkenntnisse zu verbessern. Nachdem sie viele Bewerbungen verschickt hatte, bekam sie schließlich eine Zusage von einem kleinen Marketingunternehmen in Lissabon. Obwohl sie kaum Portugiesisch sprach, entschied sie sich, die Chance zu nutzen.
+
+In den ersten Wochen fiel ihr die Arbeit schwer, weil viele Kollegen untereinander nur Portugiesisch sprachen. Trotzdem gab sie nicht auf und lernte jeden Abend neue Vokabeln. Nach und nach verstand sie immer mehr, und ihre Kollegen begannen, geduldig mit ihr zu üben. Ihr Chef lobte sie dafür, dass sie sich so schnell in das Team eingefunden hatte.
+
+Am Ende des Praktikums fiel es Katharina schwer, sich von Lissabon zu verabschieden, obwohl sie am Anfang so unsicher gewesen war. Sie hatte nicht nur eine neue Sprache gelernt, sondern auch selbstbewusster im Umgang mit fremden Situationen. Zurück in Deutschland erzählte sie allen, dass dieses Praktikum die beste Entscheidung ihres Studiums gewesen sei.`,
+    preguntas: [
+      { enunciado: 'Katharina konnte schon vor dem Praktikum fließend Portugiesisch.', respuesta: false },
+      { enunciado: 'Katharina hat ihr Praktikum in Lissabon gemacht.', respuesta: true },
+      { enunciado: 'Katharinas Kollegen haben sich geweigert, mit ihr Portugiesisch zu üben.', respuesta: false },
+      { enunciado: 'Katharinas Chef hat sie für ihre schnelle Integration ins Team gelobt.', respuesta: true },
+      { enunciado: 'Katharina fand den Abschied von Lissabon leicht.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'wechsel-an-eine-neue-schule',
+    nivel: 'B1',
+    titulo: 'Der Wechsel an eine neue Schule',
+    descripcion: 'Elif muss mitten im Schuljahr die Schule wechseln und findet neue Freunde.',
+    texto: `Als Elifs Eltern beruflich in eine andere Stadt ziehen mussten, war für Elif klar, dass sie mitten im Schuljahr die Schule wechseln würde. Sie hatte große Angst davor, weil sie ihre alten Freunde nicht verlassen wollte. Am ersten Tag an der neuen Schule fühlte sie sich fremd, obwohl die Lehrerin sie freundlich vorstellte.
+
+In der Pause setzte sich Elif zunächst allein auf eine Bank, bis ein Mädchen namens Paula sie ansprach und fragte, ob sie mit in die Cafeteria kommen wolle. Nachdem die beiden über ihre gemeinsame Leidenschaft für Mangas gesprochen hatten, verstanden sie sich sofort sehr gut. Trotzdem vermisste Elif in den ersten Wochen oft ihre alte Klasse und schrieb ihnen fast jeden Tag Nachrichten.
+
+Nach einigen Monaten hatte sich Elif an der neuen Schule gut eingelebt und gehörte zu einer festen Gruppe von Freunden. Sie merkte, dass der Schulwechsel zwar am Anfang schwer gewesen war, ihr aber am Ende auch gezeigt hatte, dass sie neue Situationen gut meistern kann. Ihre alten Freunde besuchte sie trotzdem weiterhin in den Ferien.`,
+    preguntas: [
+      { enunciado: 'Elif ist freiwillig an eine neue Schule gewechselt.', respuesta: false },
+      { enunciado: 'Am ersten Tag fühlte sich Elif sofort wohl.', respuesta: false },
+      { enunciado: 'Paula hat Elif in der Pause angesprochen.', respuesta: true },
+      { enunciado: 'Elif und Paula interessieren sich beide für Mangas.', respuesta: true },
+      { enunciado: 'Elif hat den Kontakt zu ihren alten Freunden komplett abgebrochen.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'wahlrecht-ab-16',
+    nivel: 'B2',
+    titulo: 'Wahlrecht ab 16 – Sollen Jugendliche früher wählen dürfen?',
+    descripcion: 'Ein Debattenbeitrag über die Senkung des Wahlalters auf 16 Jahre in Deutschland.',
+    texto: `In mehreren deutschen Bundesländern dürfen Jugendliche bereits ab 16 Jahren bei Kommunal- und Landtagswahlen wählen, während das Wahlrecht auf Bundesebene weiterhin erst mit 18 Jahren gewährt wird. Befürworter einer bundesweiten Absenkung des Wahlalters argumentieren, dass junge Menschen von politischen Entscheidungen, die heute getroffen werden, am längsten betroffen seien, etwa in der Klima- oder Rentenpolitik. Wenn Jugendliche früher wählen dürften, so das Argument, würden ihre Interessen von der Politik ernster genommen.
+
+Kritiker hingegen bezweifeln, dass sechzehnjährige Jugendliche über die notwendige politische Reife verfügen, um eine fundierte Wahlentscheidung zu treffen. Sie verweisen darauf, dass mit dem Wahlrecht auch andere Volljährigkeitsrechte verbunden seien, die Sechzehnjährigen nicht zustünden. Es wird zudem argumentiert, dass die politische Bildung an vielen Schulen unzureichend gefördert werde, sodass eine informierte Wahlentscheidung erschwert sei.
+
+Befürworter entgegnen, dass auch bei Erwachsenen politisches Interesse und Wissen sehr unterschiedlich ausgeprägt seien, ohne dass ihnen deswegen das Wahlrecht abgesprochen würde. Studien aus Ländern, in denen das Wahlalter bereits gesenkt wurde, wie etwa Österreich, zeigten zudem, dass junge Erstwähler sich keineswegs weniger informiert an Wahlen beteiligten als ältere Wählergruppen. Wäre die politische Bildung an Schulen verbessert worden, so argumentieren manche, hätte diese Debatte an Schärfe verloren.
+
+Letztlich bleibt die Frage, ob eine Absenkung des Wahlalters zu einer stärkeren politischen Teilhabe junger Menschen führen würde oder ob sie lediglich symbolischen Charakter hätte. Sicher ist, dass die Debatte angesichts einer alternden Gesellschaft, in der junge Stimmen zahlenmäßig ohnehin in der Minderheit sind, an politischer Brisanz kaum verlieren wird.`,
+    preguntas: [
+      { enunciado: 'In allen deutschen Bundesländern dürfen Jugendliche bereits ab 16 Jahren bei Bundestagswahlen wählen.', respuesta: false },
+      { enunciado: 'Befürworter argumentieren, dass junge Menschen von heutigen politischen Entscheidungen besonders lange betroffen sind.', respuesta: true },
+      { enunciado: 'Kritiker zweifeln an der politischen Reife von Sechzehnjährigen.', respuesta: true },
+      { enunciado: 'Laut Text zeigen Studien aus Österreich, dass junge Erstwähler sich weniger informiert an Wahlen beteiligen.', respuesta: false },
+      { enunciado: 'Der Text kommt zu einem eindeutigen, abschließenden Urteil über die Sinnhaftigkeit des Wahlrechts ab 16.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'kuenstliche-intelligenz-und-urheberrecht',
+    nivel: 'B2',
+    titulo: 'Künstliche Intelligenz und Urheberrecht',
+    descripcion: 'Ein Text über die rechtlichen und ethischen Fragen, die durch KI-generierte Kunst aufgeworfen werden.',
+    texto: `Bildgeneratoren und Textmodelle, die auf künstlicher Intelligenz basieren, werden mit riesigen Mengen an vorhandenen Werken trainiert, zu denen Fotografien, Gemälde, Musikstücke und literarische Texte zählen. Dabei stellt sich zunehmend die Frage, ob und in welchem Umfang die ursprünglichen Urheber dieser Werke an der Nutzung ihrer Schöpfungen beteiligt werden müssten. Viele Künstler beklagen, dass ihre Werke ohne Zustimmung und ohne Vergütung verwendet würden, um Systeme zu trainieren, die anschließend mit ihnen in Konkurrenz treten.
+
+Die Anbieter der KI-Systeme berufen sich hingegen häufig auf das Prinzip des Text- und Data-Minings, das in einigen Rechtsordnungen unter bestimmten Bedingungen erlaubt ist. Sie argumentieren, dass ein KI-Modell nicht einzelne Werke kopiere, sondern statistische Muster erlerne, ähnlich wie ein menschlicher Künstler, der durch das Studium bestehender Werke seinen eigenen Stil entwickle. Ob dieser Vergleich juristisch und ethisch trägt, wird von Rechtswissenschaftlern kontrovers diskutiert.
+
+Sollte der Gesetzgeber strengere Regeln erlassen, müssten KI-Unternehmen künftig wohl Lizenzen für die verwendeten Trainingsdaten erwerben oder Urheber an den Einnahmen beteiligen, die mit den generierten Inhalten erzielt werden. Kritiker eines solchen Vorgehens befürchten jedoch, dass dadurch vor allem kleinere Unternehmen, die sich teure Lizenzen nicht leisten könnten, aus dem Markt gedrängt würden, während finanzstarke Konzerne kaum Nachteile zu spüren bekämen.
+
+Einige Gerichte haben in ersten Urteilen bereits entschieden, dass rein KI-generierte Werke ohne wesentlichen menschlichen kreativen Beitrag keinen eigenständigen Urheberrechtsschutz genießen. Damit ist jedoch noch nicht geklärt, wie mit den ursprünglichen, zum Training verwendeten Werken umzugehen ist. Es zeichnet sich ab, dass diese Debatte die Gesetzgebung in den kommenden Jahren maßgeblich beschäftigen wird.`,
+    preguntas: [
+      { enunciado: 'KI-Bildgeneratoren werden mit riesigen Mengen bereits vorhandener Werke trainiert.', respuesta: true },
+      { enunciado: 'Alle Künstler sind damit einverstanden, dass ihre Werke ohne Vergütung zum Training genutzt werden.', respuesta: false },
+      { enunciado: 'Die Anbieter von KI-Systemen berufen sich unter anderem auf das Prinzip des Text- und Data-Minings.', respuesta: true },
+      { enunciado: 'Laut Text sind sich Rechtswissenschaftler vollkommen einig, dass der Vergleich mit menschlichen Künstlern zulässig ist.', respuesta: false },
+      { enunciado: 'Gerichte haben bereits entschieden, dass rein KI-generierte Werke ohne menschlichen kreativen Beitrag keinen eigenständigen Urheberrechtsschutz genießen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'vermoegenssteuer-debatte',
+    nivel: 'B2',
+    titulo: 'Die Vermögenssteuer-Debatte',
+    descripcion: 'Ein Überblick über die Argumente für und gegen die Wiedereinführung einer Vermögenssteuer in Deutschland.',
+    texto: `In Deutschland wird seit Jahren darüber diskutiert, ob eine Vermögenssteuer, die 1997 ausgesetzt wurde, wieder eingeführt werden sollte. Befürworter verweisen darauf, dass die Vermögensverteilung in Deutschland im europäischen Vergleich besonders ungleich sei und ein kleiner Teil der Bevölkerung einen unverhältnismäßig großen Anteil des Gesamtvermögens besitze. Durch eine Vermögenssteuer, so das Argument, könnten zusätzliche Mittel für Bildung, Infrastruktur und soziale Sicherung gewonnen werden, ohne dass Menschen mit geringem oder mittlerem Einkommen zusätzlich belastet würden.
+
+Gegner der Steuer wenden ein, dass insbesondere Familienunternehmen, deren Vermögen häufig in Maschinen, Gebäuden oder Firmenanteilen gebunden sei, durch eine Vermögenssteuer in Liquiditätsprobleme geraten könnten, selbst wenn sie kaum über frei verfügbares Kapital verfügten. Es wird befürchtet, dass Unternehmen dadurch gezwungen wären, Kredite aufzunehmen oder Anteile zu verkaufen, um die Steuer zu begleichen, was langfristig Arbeitsplätze gefährden könnte. Zudem wird auf den hohen bürokratischen Aufwand hingewiesen, der mit der jährlichen Bewertung von Vermögenswerten verbunden wäre.
+
+Befürworter entgegnen, dass eine sorgfältig gestaltete Vermögenssteuer mit hohen Freibeträgen und Ausnahmeregelungen für Betriebsvermögen diese Risiken deutlich abmildern könnte. Würde die Steuer so gestaltet, dass nur besonders große Privatvermögen betroffen wären, träfe sie nach Ansicht der Befürworter nur einen sehr kleinen Teil der Bevölkerung, während der überwiegende Teil der Gesellschaft finanziell entlastet werden könnte.
+
+Ob und in welcher Form eine Vermögenssteuer in Deutschland tatsächlich wieder eingeführt wird, hängt letztlich von politischen Mehrheiten ab, die sich je nach wirtschaftlicher Lage und öffentlicher Stimmung verschieben können. Klar ist jedoch, dass die Debatte angesichts wachsender Vermögensunterschiede in absehbarer Zeit nicht an Bedeutung verlieren dürfte.`,
+    preguntas: [
+      { enunciado: 'Die Vermögenssteuer wurde in Deutschland im Jahr 1997 ausgesetzt.', respuesta: true },
+      { enunciado: 'Laut Befürwortern ist die Vermögensverteilung in Deutschland im europäischen Vergleich besonders gleichmäßig.', respuesta: false },
+      { enunciado: 'Gegner befürchten, dass Familienunternehmen durch eine Vermögenssteuer in Liquiditätsprobleme geraten könnten.', respuesta: true },
+      { enunciado: 'Der Text behauptet, dass alle politischen Parteien sich bereits auf die Wiedereinführung der Vermögenssteuer geeinigt haben.', respuesta: false },
+      { enunciado: 'Befürworter schlagen vor, hohe Freibeträge und Ausnahmen für Betriebsvermögen einzuführen, um Risiken abzumildern.', respuesta: true },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
