@@ -11965,6 +11965,354 @@ const TEXTOS = [
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "paul-kauft-milch",
+    "nivel": "A1",
+    "titulo": "Paul kauft Milch",
+    "descripcion": "Paul geht in den Supermarkt und kauft Milch, Brot und Äpfel.",
+    "texto": "Paul wohnt in Hamburg. Er ist zwölf Jahre alt. Am Nachmittag geht Paul in den Supermarkt. Seine Mutter braucht Milch für den Kuchen. Paul nimmt eine Einkaufstasche mit.\n\nIm Supermarkt sucht Paul die Milch. Die Milch ist im Kühlregal. Paul nimmt eine Flasche Milch. Dann kauft er auch Brot und rote Äpfel. Die Äpfel sind süß und frisch. An der Kasse bezahlt Paul mit Geld von seiner Mutter.\n\nZu Hause gibt Paul die Milch seiner Mutter. „Danke, Paul\", sagt sie und lächelt. Paul isst einen Apfel und ist zufrieden. Später backt seine Mutter einen Kuchen mit der Milch.",
+    "preguntas": [
+      {
+        "enunciado": "Paul wohnt in Hamburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft Käse für den Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Milch ist im Kühlregal.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft grüne Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Mutter backt einen Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-familie-yilmaz",
+    "nivel": "A1",
+    "titulo": "Die Familie Yilmaz",
+    "descripcion": "Die Familie Yilmaz stellt sich vor: Vater, Mutter und zwei Kinder.",
+    "texto": "Das ist die Familie Yilmaz. Der Vater heißt Ali. Er ist Lehrer. Die Mutter heißt Emine. Sie arbeitet als Ärztin. Sie haben zwei Kinder: Deniz und Selin.\n\nDeniz ist acht Jahre alt. Er spielt gern Fußball. Selin ist zehn Jahre alt. Sie malt gern Bilder. Die Familie wohnt in einem kleinen Haus mit Garten. Im Garten gibt es Blumen und einen großen Baum.\n\nAm Sonntag isst die Familie zusammen Frühstück. Sie essen Brot, Käse und Oliven. Nach dem Frühstück spielen Ali und Deniz Fußball im Garten. Selin malt ein Bild von der Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Ali arbeitet als Lehrer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emine ist Krankenschwester.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Deniz ist älter als Selin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat einen Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Selin spielt gern Fußball.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "am-freitagabend",
+    "nivel": "A1",
+    "titulo": "Am Freitagabend",
+    "descripcion": "Lisa trifft ihre Freunde am Freitagabend zum Spieleabend.",
+    "texto": "Lisa hat am Freitag frei. Am Abend kommen ihre Freunde Tom und Mia zu Besuch. Sie spielen zusammen ein Kartenspiel. Lisa macht Popcorn für alle.\n\nTom gewinnt das erste Spiel. Mia lacht viel und ist glücklich. Sie trinken Limonade und essen Chips. Später spielen sie noch ein Brettspiel. Das Spiel dauert eine Stunde.\n\nUm zehn Uhr gehen Tom und Mia nach Hause. Lisa räumt die Küche auf. Sie ist müde, aber der Abend war schön. Sie freut sich schon auf das nächste Treffen mit ihren Freunden.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa hat am Freitag frei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom und Mia kommen am Montag zu Besuch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa macht Popcorn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia gewinnt das erste Spiel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde gehen um zehn Uhr nach Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-sturz-von-der-leiter",
+    "nivel": "A2",
+    "titulo": "Der Sturz von der Leiter",
+    "descripcion": "Herr Bauer fällt beim Apfelpflücken von der Leiter und muss zum Arzt.",
+    "texto": "Herr Bauer wollte am Samstag Äpfel von seinem Baum pflücken. Er hat eine Leiter in den Garten gestellt, weil die Äpfel oben am Baum hingen. Als er ganz oben war, ist die Leiter plötzlich weggerutscht. Herr Bauer ist gestürzt und hat sich am Arm verletzt.\n\nSeine Frau hat sofort einen Krankenwagen gerufen, weil der Arm stark geschwollen war. Im Krankenhaus hat der Arzt den Arm geröntgt. Zum Glück war der Arm nicht gebrochen, sondern nur geprellt. Der Arzt hat gesagt, dass Herr Bauer den Arm eine Woche lang schonen soll.\n\nSeitdem pflückt Herr Bauer keine Äpfel mehr allein. Sein Sohn hilft ihm jetzt jedes Jahr im Garten. „Ich bin froh, dass nichts Schlimmeres passiert ist\", hat Herr Bauer zu seiner Frau gesagt.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Bauer wollte Kirschen pflücken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Leiter ist weggerutscht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arm von Herrn Bauer war gebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Bauer musste eine Woche den Arm schonen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sein Sohn hilft ihm jetzt im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-postkarte-aus-norwegen",
+    "nivel": "A2",
+    "titulo": "Die Postkarte aus Norwegen",
+    "descripcion": "Jana bekommt eine Postkarte von ihrer Freundin, die in Norwegen Urlaub macht.",
+    "texto": "Jana hat gestern Post bekommen. Ihre Freundin Sofie ist mit ihrer Familie nach Norwegen gefahren, weil sie die Fjorde sehen wollte. Sofie hat Jana eine Postkarte geschrieben. Auf der Karte war ein Bild von einem großen Fjord mit hohen Bergen.\n\nSofie hat geschrieben, dass das Wetter in Norwegen kalt, aber sonnig ist. Sie ist mit einem Boot gefahren und hat Wale gesehen. Außerdem hat sie erzählt, dass die Menschen in Norwegen sehr freundlich sind. Jana hat die Postkarte an die Wand in ihrem Zimmer gehängt.\n\nJana freut sich, dass Sofie eine schöne Reise hat. Sie hat ihr sofort eine Nachricht geschrieben und gefragt, wann sie zurückkommt. Sofie hat geantwortet, dass sie nächste Woche wieder zu Hause ist. Jana möchte dann alle Fotos von der Reise sehen.",
+    "preguntas": [
+      {
+        "enunciado": "Sofie ist nach Norwegen gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie hat Jana angerufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Norwegen war das Wetter kalt und sonnig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie hat keine Tiere gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofie kommt nächste Woche zurück.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-den-garten",
+    "nivel": "A2",
+    "titulo": "Der Streit um den Garten",
+    "descripcion": "Frau Keller und ihr Nachbar streiten wegen eines Baumes im Garten.",
+    "texto": "Frau Keller hat schon seit zehn Jahren einen Nachbarn namens Herr Wolf. Bisher haben sie sich immer gut verstanden. Doch letzte Woche gab es einen Streit, weil ein großer Baum aus Frau Kellers Garten Schatten auf Herrn Wolfs Terrasse wirft. Herr Wolf hat sich beschwert, dass er im Garten keine Sonne mehr bekommt.\n\nFrau Keller wollte den Baum aber nicht fällen, weil sie ihn seit vielen Jahren pflegt. Die beiden Nachbarn haben lange miteinander geredet, aber sie konnten keine Lösung finden. Deshalb hat Frau Keller einen Gärtner angerufen, damit er die Äste des Baumes kürzt.\n\nNach der Arbeit des Gärtners bekommt Herr Wolf wieder mehr Sonne auf seiner Terrasse. Frau Keller ist froh, dass sie eine Lösung gefunden haben, ohne dass der Baum gefällt werden musste. Seitdem trinken die beiden Nachbarn wieder manchmal zusammen Kaffee.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller und Herr Wolf sind neue Nachbarn.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Baum wirft Schatten auf Herrn Wolfs Terrasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller lässt den Baum sofort fällen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Gärtner kürzt die Äste des Baumes.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn sprechen danach nie wieder miteinander.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-im-cafe",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag im Café",
+    "descripcion": "Nina beginnt ihren ersten Arbeitstag als Kellnerin in einem kleinen Café.",
+    "texto": "Nina hat seit einer Woche einen neuen Job als Kellnerin in einem kleinen Café in der Innenstadt. Obwohl sie schon einmal in einem Restaurant gearbeitet hat, war sie am ersten Tag sehr aufgeregt. Sie kannte weder die Speisekarte noch die Kaffeemaschine richtig, und die anderen Kollegen waren ihr noch fremd.\n\nAm Morgen erklärte ihr die Chefin, wie die Kaffeemaschine funktioniert und wo alles im Café zu finden ist. Nachdem Nina die ersten Bestellungen aufgenommen hatte, wurde sie langsam ruhiger. Ein älterer Gast bestellte einen Cappuccino und lobte sie sogar für ihre Freundlichkeit, obwohl sie noch etwas unsicher wirkte. Das gab ihr mehr Selbstvertrauen für den Rest des Tages.\n\nAm Abend war Nina müde, aber auch stolz auf sich. Trotzdem hatte sie noch viele Fragen an ihre Kollegen, die sie am nächsten Tag stellen wollte. Sie merkte, dass ihr die Arbeit im Café mehr Spaß machte, als sie erwartet hatte, und freute sich schon auf die kommende Woche.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat schon vorher in einem Restaurant gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina kannte die Kaffeemaschine sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Gast hat sich über Nina beschwert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina wurde im Laufe des Tages ruhiger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend war Nina stolz auf sich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-theaterauffuehrung-der-schule",
+    "nivel": "B1",
+    "titulo": "Die Theateraufführung der Schule",
+    "descripcion": "Die Klasse 9b führt nach monatelangen Proben ein Theaterstück vor der ganzen Schule auf.",
+    "texto": "Seit drei Monaten probt die Klasse 9b jeden Mittwochnachmittag für ihre Theateraufführung. Das Stück handelt von einer Familie, die in eine fremde Stadt zieht und dort neue Freunde findet. Obwohl viele Schüler anfangs Lampenfieber hatten, wurden sie mit jeder Probe sicherer.\n\nAm Tag der Aufführung waren alle sehr nervös. Nachdem der Vorhang aufgegangen war, vergaßen die Schüler ihre Aufregung schnell und konzentrierten sich auf ihre Rollen. Ein Schüler, der die Hauptrolle spielte, vergaß zwar kurz seinen Text, konnte sich aber schnell wieder erinnern. Das Publikum, darunter viele Eltern und Lehrer, applaudierte am Ende begeistert.\n\nNach der Vorstellung waren alle erleichtert und glücklich zugleich. Die Theaterlehrerin lobte die ganze Klasse für ihre harte Arbeit und ihren Mut. Trotzdem waren einige Schüler etwas traurig, weil die gemeinsamen Proben nun vorbei waren. Sie beschlossen, im nächsten Jahr wieder ein Stück aufzuführen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b probt seit einer Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Theaterstück handelt von einem Umzug in eine neue Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hauptdarsteller vergaß seinen Text und konnte sich nicht erinnern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Publikum applaudierte am Ende der Vorstellung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler wollen nie wieder ein Theaterstück aufführen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "umgezogen-wegen-der-liebe",
+    "nivel": "B1",
+    "titulo": "Umgezogen wegen der Liebe",
+    "descripcion": "Julia zieht für ihren Freund in eine andere Stadt und muss sich dort neu einleben.",
+    "texto": "Julia hat vor zwei Monaten ihren Job und ihre Wohnung in München aufgegeben, um zu ihrem Freund Tobias nach Leipzig zu ziehen. Obwohl sie gerne in München gelebt hatte, wollte sie die Beziehung nicht länger auf Distanz führen. Der Abschied von ihren Freunden fiel ihr trotzdem schwer.\n\nIn Leipzig musste Julia zunächst einen neuen Job finden. Nachdem sie mehrere Bewerbungen geschrieben hatte, bekam sie schließlich eine Stelle in einem kleinen Verlag. Die Arbeit gefiel ihr gut, doch sie vermisste ihre alten Freunde und die vertraute Umgebung von München. Tobias versuchte, ihr die Stadt zu zeigen und stellte sie seinen Freunden vor.\n\nNach einigen Wochen fühlte sich Julia in Leipzig langsam wohler. Sie lernte durch ihre neue Arbeit interessante Menschen kennen und entdeckte gemeinsam mit Tobias die Stadt. Trotzdem fährt sie noch regelmäßig nach München, um ihre alten Freunde zu besuchen. Für Julia war der Umzug schwierig, aber im Nachhinein die richtige Entscheidung.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist von Leipzig nach München gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia fand den Abschied von ihren Freunden leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat in Leipzig eine Stelle in einem Verlag bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias hat Julia seinen Freunden vorgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia fährt nie wieder nach München.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "werbeverbot-fuer-ungesunde-lebensmittel",
+    "nivel": "B2",
+    "titulo": "Ein Werbeverbot für ungesunde Lebensmittel?",
+    "descripcion": "Die Debatte um ein Verbot von Werbung für zucker- und fettreiche Lebensmittel, die sich an Kinder richtet.",
+    "texto": "In vielen Ländern wird derzeit diskutiert, ob Werbung für stark zucker-, fett- oder salzhaltige Lebensmittel, die sich an Kinder richtet, eingeschränkt oder ganz verboten werden sollte. Hintergrund ist die steigende Zahl übergewichtiger Kinder und Jugendlicher, die von Gesundheitsexperten seit Jahren als ernstes gesellschaftliches Problem eingestuft wird. Befürworter eines Werbeverbots argumentieren, dass Kinder besonders leicht durch bunte Werbespots und bekannte Comicfiguren beeinflusst werden können, ohne die langfristigen gesundheitlichen Folgen zu verstehen.\n\nKritiker eines solchen Verbots hingegen weisen darauf hin, dass die Verantwortung für die Ernährung von Kindern in erster Linie bei den Eltern liege und nicht durch staatliche Eingriffe ersetzt werden könne. Zudem befürchten Vertreter der Lebensmittelindustrie erhebliche wirtschaftliche Nachteile, sollten bestimmte Produkte nicht mehr beworben werden dürfen. Sie schlagen stattdessen freiwillige Selbstverpflichtungen der Unternehmen vor, etwa eine Reduzierung von Werbung in Sendungen, die speziell für Kinder produziert werden.\n\nEinige Länder sind bereits einen Schritt weitergegangen: In Großbritannien wurde Werbung für ungesunde Lebensmittel im Fernsehen vor 21 Uhr sowie im Internet weitgehend untersagt. Ob eine solche Regelung tatsächlich zu einer gesünderen Ernährung bei Kindern führt, wird von Wissenschaftlern unterschiedlich bewertet, da Ernährungsgewohnheiten von vielen weiteren Faktoren wie Erziehung und sozialem Umfeld abhängen. Klar ist jedoch, dass das Thema angesichts wachsender Gesundheitskosten weiterhin politisch brisant bleiben dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Debatte betrifft Werbung für Lebensmittel, die sich an Kinder richtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter des Verbots sehen keine Gefahr durch Werbung für Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker meinen, die Verantwortung liege vor allem bei den Eltern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lebensmittelindustrie befürchtet wirtschaftliche Nachteile durch ein Werbeverbot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Großbritannien gibt es bisher keine Einschränkungen für solche Werbung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "algorithmen-und-die-filterblase",
+    "nivel": "B2",
+    "titulo": "Algorithmen und die Filterblase in sozialen Netzwerken",
+    "descripcion": "Wie personalisierte Algorithmen in sozialen Netzwerken die Meinungsbildung beeinflussen können.",
+    "texto": "Soziale Netzwerke nutzen Algorithmen, um Nutzern Inhalte anzuzeigen, die zu ihren bisherigen Interessen und Vorlieben passen. Dadurch soll die Verweildauer auf der Plattform erhöht werden, da Nutzer eher bei Inhalten bleiben, die ihren Erwartungen entsprechen. Kritiker warnen jedoch, dass durch diese Personalisierung sogenannte Filterblasen entstehen können, in denen Menschen fast ausschließlich mit Meinungen konfrontiert werden, die ihre eigene Sichtweise bestätigen.\n\nDiese Entwicklung wird von Wissenschaftlern zunehmend als Gefahr für den gesellschaftlichen Zusammenhalt betrachtet. Wenn unterschiedliche Bevölkerungsgruppen kaum noch mit gegensätzlichen Positionen in Berührung kommen, könnte dies laut Studien zu einer stärkeren politischen Polarisierung führen. Zudem wird befürchtet, dass es schwieriger wird, gemeinsame gesellschaftliche Debatten auf Grundlage geteilter Fakten zu führen, wenn jeder Nutzer eine individuell zugeschnittene Realität wahrnimmt.\n\nManche Plattformbetreiber haben bereits reagiert und Funktionen eingeführt, mit denen Nutzer den Algorithmus stärker selbst steuern oder deaktivieren können. Ob solche Maßnahmen ausreichen, um die beschriebenen Effekte einzudämmen, wird von Experten unterschiedlich beurteilt. Würde man Algorithmen konsequent transparenter gestalten, so argumentieren manche Forscher, könnten Nutzer bewusster mit den ihnen präsentierten Inhalten umgehen und die eigene Informationsvielfalt aktiver mitbestimmen.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen zeigen Nutzern zufällig ausgewählte, unpersonalisierte Inhalte an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen können dazu führen, dass Nutzer vor allem ihre eigene Meinung bestätigt sehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wissenschaftler sehen in Filterblasen eine mögliche Gefahr für den gesellschaftlichen Zusammenhalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Plattformbetreiber haben bisher jede Reaktion auf das Problem abgelehnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mehr Transparenz bei Algorithmen könnte laut manchen Forschern helfen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "achtsamkeit-als-trend",
+    "nivel": "B2",
+    "titulo": "Achtsamkeit als Trend – Selbstoptimierung oder echte Entlastung?",
+    "descripcion": "Achtsamkeitsübungen und Meditation sind populär geworden, doch Kritiker sehen darin auch eine neue Form des Leistungsdrucks.",
+    "texto": "In den letzten Jahren hat sich Achtsamkeit von einer buddhistischen Praxis zu einem weitverbreiteten gesellschaftlichen Trend entwickelt. Meditations-Apps, Achtsamkeitskurse und Workshops zu bewusstem Atmen werden mittlerweile nicht nur von Privatpersonen, sondern auch von zahlreichen Unternehmen angeboten, die sich davon eine höhere Produktivität und geringere Krankheitsraten ihrer Mitarbeiter erhoffen. Befürworter berichten, dass regelmäßige Achtsamkeitsübungen nachweislich Stress reduzieren und die Konzentrationsfähigkeit verbessern können.\n\nGleichzeitig mehren sich jedoch kritische Stimmen, die vor einer Kommerzialisierung der ursprünglich spirituellen Praxis warnen. Manche Soziologen bezeichnen den Achtsamkeitstrend sogar als eine neue Form der Selbstoptimierung, bei der Individuen dafür verantwortlich gemacht werden, mit dem Stress einer immer schnelleren Arbeitswelt allein zurechtzukommen, anstatt strukturelle Ursachen wie Überlastung oder unrealistische Zielvorgaben zu hinterfragen. Wenn Achtsamkeit vor allem dazu diene, Mitarbeiter belastbarer für ein ohnehin ungesundes Arbeitsumfeld zu machen, so die Kritik, werde das eigentliche Problem nicht gelöst, sondern lediglich verschleiert.\n\nBefürworter entgegnen, dass Achtsamkeit nicht als Ersatz für notwendige strukturelle Veränderungen gedacht sei, sondern als sinnvolle Ergänzung dazu dienen könne. Entscheidend sei, wie Achtsamkeit eingesetzt werde: als ehrliches Angebot zur persönlichen Entlastung oder lediglich als kostengünstige Maßnahme, um tiefere organisatorische Probleme zu übertünchen. Diese Debatte zeigt exemplarisch, wie ein ursprünglich individuelles Konzept gesellschaftlich unterschiedlich interpretiert und genutzt werden kann.",
+    "preguntas": [
+      {
+        "enunciado": "Achtsamkeit stammt ursprünglich aus einer buddhistischen Praxis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur Privatpersonen bieten inzwischen Achtsamkeitsübungen an, keine Unternehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Soziologen kritisieren den Trend als neue Form der Selbstoptimierung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut der Kritik werden durch Achtsamkeit stets auch die strukturellen Ursachen von Stress gelöst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen Achtsamkeit als mögliche Ergänzung zu strukturellen Veränderungen.",
+        "respuesta": true
+      }
+    ]
   }
 ];
 
