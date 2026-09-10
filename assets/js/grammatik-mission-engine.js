@@ -173,8 +173,27 @@
     };
   }
 
+  function createPractice(exercises, options) {
+    var config = options || {};
+    var level = config.level || "B1";
+    var levelIndex = LEVELS.indexOf(level);
+    var mode = config.mode;
+    if (levelIndex < 0 || MODES.indexOf(mode) < 0 || !Array.isArray(exercises)) throw new RangeError("Practice unavailable");
+    var selected = shuffled(exercises.filter(function (exercise) {
+      return exercise.mode === mode && LEVELS.indexOf(exercise.level) <= levelIndex;
+    }), config.random);
+    if (!selected.length) throw new RangeError("Practice unavailable");
+    return {
+      level: level,
+      mode: mode,
+      practice: true,
+      exercises: selected,
+      exerciseIds: selected.map(function (exercise) { return exercise.id; })
+    };
+  }
+
   function createMissionState(mission) {
-    requireCondition(mission && Array.isArray(mission.exercises) && mission.exercises.length === MISSION_LENGTH, "Invalid mission");
+    requireCondition(mission && Array.isArray(mission.exercises) && mission.exercises.length > 0, "Invalid mission");
     return {
       version: 1,
       level: mission.level,
@@ -221,7 +240,7 @@
   }
 
   function finalizeTransition(next, feedback, shouldAdvance) {
-    next.completed = next.lives <= 0 || next.index >= MISSION_LENGTH;
+    next.completed = next.lives <= 0 || next.index >= next.exerciseIds.length;
     return {
       state: next,
       feedback: feedback,
@@ -287,6 +306,49 @@
     }, true);
   }
 
+  function resolveRetry(state, exercise, response) {
+    requireCondition(state && exercise && state.pendingRetries.indexOf(exercise.id) >= 0, "Invalid retry");
+    var next = copyState(state);
+    var attemptKey = "retry:" + exercise.id;
+    var attempts = Number(next.attempts[attemptKey]) || 0;
+    if (validateAnswer(exercise, response)) {
+      delete next.attempts[attemptKey];
+      next.pendingRetries = next.pendingRetries.filter(function (id) { return id !== exercise.id; });
+      var recovered = resultFor(exercise, "recovered");
+      recovered.retry = true;
+      recovered.correct = true;
+      next.results.push(recovered);
+      return {
+        state: next,
+        feedback: { kind: "recovered", explanation: exercise.explanation, points: 0 },
+        shouldAdvance: true,
+        shouldEnd: next.completed && next.pendingRetries.length === 0
+      };
+    }
+
+    next.attempts[attemptKey] = attempts + 1;
+    if (attempts === 0) {
+      return {
+        state: next,
+        feedback: { kind: "hint", hint: exercise.hint },
+        shouldAdvance: false,
+        shouldEnd: false
+      };
+    }
+
+    delete next.attempts[attemptKey];
+    next.pendingRetries = next.pendingRetries.filter(function (id) { return id !== exercise.id; });
+    var unresolved = resultFor(exercise, "unresolved");
+    unresolved.retry = true;
+    next.results.push(unresolved);
+    return {
+      state: next,
+      feedback: { kind: "reveal", answer: getCanonicalResponse(exercise), explanation: exercise.explanation },
+      shouldAdvance: true,
+      shouldEnd: next.completed && next.pendingRetries.length === 0
+    };
+  }
+
   function emptyModeDiagnosis() {
     return { total: 0, correct: 0, percentage: 0 };
   }
@@ -337,9 +399,11 @@
     validateAnswer: validateAnswer,
     getCanonicalResponse: getCanonicalResponse,
     createMission: createMission,
+    createPractice: createPractice,
     createMissionState: createMissionState,
     submitAnswer: submitAnswer,
     skipExercise: skipExercise,
+    resolveRetry: resolveRetry,
     buildDiagnosis: buildDiagnosis
   };
 }));

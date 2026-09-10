@@ -110,3 +110,47 @@ test("round-trips a resumable mission without trusting invalid shapes", () => {
   storage.setItem(progress.STORAGE_KEY, JSON.stringify({ ...initial, currentMission: { level: "B1" } }));
   assert.equal(progress.loadProgress(storage).currentMission, null);
 });
+
+test("drops unsafe nested mission data before restoring a session", () => {
+  const initial = progress.createDefaultProgress();
+  initial.currentMission = {
+    level: "B1",
+    exerciseIds: ["one", "two"],
+    index: 1,
+    score: 100,
+    lives: 2,
+    streak: 0,
+    bestStreak: 1,
+    attempts: { one: 1, unknown: 1, "retry:two": 2, "retry:unknown": 1 },
+    results: [
+      {
+        exerciseId: "one",
+        mode: "satzbau",
+        topic: "Nebensatz",
+        sourceUrl: "/f/nebensatz/",
+        status: "incorrect",
+        correct: false,
+        retry: false,
+      },
+      {
+        exerciseId: "two",
+        mode: "verb",
+        topic: "Injected",
+        sourceUrl: "javascript:alert(1)",
+        status: "incorrect",
+        correct: false,
+        retry: false,
+      },
+    ],
+    pendingRetries: ["two", "unknown", "two"],
+    completed: false,
+  };
+
+  const storage = memoryStorage({ [progress.STORAGE_KEY]: JSON.stringify(initial) });
+  const restored = progress.loadProgress(storage).currentMission;
+
+  assert.deepEqual(restored.attempts, { one: 1, "retry:two": 2 });
+  assert.deepEqual(restored.pendingRetries, ["two"]);
+  assert.equal(restored.results.length, 1);
+  assert.equal(restored.results[0].sourceUrl, "/f/nebensatz/");
+});

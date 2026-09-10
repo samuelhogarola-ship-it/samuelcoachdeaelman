@@ -8,6 +8,7 @@
   var STORAGE_KEY = "samuel-grammatik-mission-v1";
   var MODES = ["satzbau", "fehlerjaeger", "kasus", "verb"];
   var LEVELS = ["A1", "A2", "B1", "B2"];
+  var RESULT_STATUSES = ["correct", "incorrect", "skipped", "recovered", "unresolved"];
   var RECENT_LIMIT = 30;
   var HISTORY_LIMIT = 20;
 
@@ -50,6 +51,37 @@
     return value.filter(function (item) { return typeof item === "boolean"; }).slice(-HISTORY_LIMIT);
   }
 
+  function safeInternalPath(value) {
+    return typeof value === "string" && /^\/(?!\/)[^\s]*$/.test(value) ? value : "";
+  }
+
+  function sanitizeAttempts(value, exerciseIds) {
+    var result = {};
+    var allowed = new Set(exerciseIds.concat(exerciseIds.map(function (id) { return "retry:" + id; })));
+    Object.keys(value).slice(0, RECENT_LIMIT * 2).forEach(function (key) {
+      if (allowed.has(key) && Number.isInteger(value[key]) && value[key] >= 0 && value[key] <= 2) result[key] = value[key];
+    });
+    return result;
+  }
+
+  function sanitizeMissionResult(value, exerciseIds) {
+    if (!value || typeof value !== "object" || exerciseIds.indexOf(value.exerciseId) < 0) return null;
+    if (MODES.indexOf(value.mode) < 0 || RESULT_STATUSES.indexOf(value.status) < 0) return null;
+    if (typeof value.topic !== "string" || !value.topic.trim() || value.topic.length > 200) return null;
+    var sourceUrl = safeInternalPath(value.sourceUrl);
+    if (!sourceUrl) return null;
+    var isRetry = value.status === "recovered" || value.status === "unresolved";
+    return {
+      exerciseId: value.exerciseId,
+      mode: value.mode,
+      topic: value.topic,
+      sourceUrl: sourceUrl,
+      status: value.status,
+      correct: value.status === "correct" || value.status === "recovered",
+      retry: isRetry
+    };
+  }
+
   function sanitizeMission(value) {
     if (!value || typeof value !== "object") return null;
     if (LEVELS.indexOf(value.level) < 0 || !Array.isArray(value.exerciseIds) || !value.exerciseIds.length) return null;
@@ -59,17 +91,22 @@
     if (!Number.isInteger(value.streak) || value.streak < 0 || !Number.isInteger(value.bestStreak) || value.bestStreak < 0) return null;
     if (!value.attempts || typeof value.attempts !== "object" || Array.isArray(value.attempts)) return null;
     if (!Array.isArray(value.results) || !Array.isArray(value.pendingRetries) || typeof value.completed !== "boolean") return null;
+    var exerciseIds = Array.from(new Set(value.exerciseIds));
+    var results = value.results.map(function (result) { return sanitizeMissionResult(result, exerciseIds); }).filter(Boolean).slice(-RECENT_LIMIT);
+    var pendingRetries = Array.from(new Set(stringList(value.pendingRetries, RECENT_LIMIT))).filter(function (id) {
+      return exerciseIds.indexOf(id) >= 0;
+    });
     return {
       level: value.level,
-      exerciseIds: value.exerciseIds.slice(),
+      exerciseIds: exerciseIds,
       index: value.index,
       score: value.score,
       lives: value.lives,
       streak: value.streak,
       bestStreak: value.bestStreak,
-      attempts: Object.assign({}, value.attempts),
-      results: value.results.slice(),
-      pendingRetries: stringList(value.pendingRetries, RECENT_LIMIT),
+      attempts: sanitizeAttempts(value.attempts, exerciseIds),
+      results: results,
+      pendingRetries: pendingRetries,
       completed: value.completed
     };
   }
@@ -85,7 +122,7 @@
         return {
           topic: typeof topic.topic === "string" ? topic.topic : "",
           failures: safeInteger(topic.failures, 0),
-          sourceUrl: typeof topic.sourceUrl === "string" ? topic.sourceUrl : ""
+          sourceUrl: safeInternalPath(topic.sourceUrl)
         };
       }) : []
     };
@@ -118,7 +155,7 @@
       var raw = storage.getItem(STORAGE_KEY);
       if (!raw) return createDefaultProgress();
       return sanitizeProgress(JSON.parse(raw));
-    } catch (_error) {
+    } catch {
       return createDefaultProgress();
     }
   }
@@ -128,7 +165,7 @@
     try {
       storage.setItem(STORAGE_KEY, JSON.stringify(sanitizeProgress(progress)));
       return true;
-    } catch (_error) {
+    } catch {
       return false;
     }
   }

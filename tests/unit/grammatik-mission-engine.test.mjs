@@ -139,3 +139,42 @@ test("builds a diagnosis from scored challenges without treating retries as new 
   assert.equal(diagnosis.weakTopics[0].topic, second.topic);
   assert.equal(diagnosis.weakTopics[0].sourceUrl, second.source.url);
 });
+
+test("builds a focused practice with its own completion length", () => {
+  const exercises = engine.validateBank(bank).exercises;
+  const practice = engine.createPractice(exercises, { level: "B1", mode: "verb", random: () => 0 });
+
+  assert.equal(practice.practice, true);
+  assert.equal(practice.mode, "verb");
+  assert.equal(practice.exercises.length, 2);
+  assert.ok(practice.exercises.every((exercise) => exercise.mode === "verb"));
+
+  let state = engine.createMissionState(practice);
+  for (const exercise of practice.exercises) {
+    state = engine.submitAnswer(state, exercise, engine.getCanonicalResponse(exercise)).state;
+  }
+  assert.equal(state.completed, true);
+  assert.equal(state.index, 2);
+});
+
+test("resolves queued retries without changing score, lives or numbered progress", () => {
+  const mission = engine.createMission(engine.validateBank(bank).exercises, { level: "B1", random: () => 0 });
+  const exercise = mission.exercises[0];
+  const skipped = engine.skipExercise(engine.createMissionState(mission), exercise).state;
+
+  const wrong = engine.resolveRetry(skipped, exercise, "wrong");
+  assert.equal(wrong.feedback.kind, "hint");
+  assert.equal(wrong.shouldAdvance, false);
+  assert.equal(wrong.state.lives, skipped.lives);
+  assert.equal(wrong.state.index, skipped.index);
+
+  const recovered = engine.resolveRetry(wrong.state, exercise, engine.getCanonicalResponse(exercise));
+  assert.equal(recovered.feedback.kind, "recovered");
+  assert.equal(recovered.shouldAdvance, true);
+  assert.equal(recovered.state.score, skipped.score);
+  assert.equal(recovered.state.lives, skipped.lives);
+  assert.equal(recovered.state.index, skipped.index);
+  assert.deepEqual(recovered.state.pendingRetries, []);
+  assert.equal(recovered.state.results.at(-1).retry, true);
+  assert.equal(recovered.state.results.at(-1).status, "recovered");
+});

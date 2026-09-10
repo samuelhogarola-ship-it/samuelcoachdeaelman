@@ -26,8 +26,8 @@ test("links Wordmaker from both Spanish discovery hubs", async () => {
     assert.match(html, /href="\/recursos\/wordmaker-aleman\/"/);
     assert.match(html, />Wordmaker Alemán</);
   }
-  assert.match(resources, /siete (?:accesos|recursos)/i);
-  assert.match(practice, /5 apps/i);
+  assert.match(resources, /ocho (?:accesos|recursos)/i);
+  assert.match(practice, /6 apps/i);
 });
 
 test("adds the canonical Wordmaker route to the sitemap", async () => {
