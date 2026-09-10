@@ -13009,6 +13009,354 @@ const TEXTOS = [
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-kuchen-fuer-oma",
+    "nivel": "A1",
+    "titulo": "Der Kuchen für Oma",
+    "descripcion": "Lena backt mit ihrer Mutter einen Kuchen für den Geburtstag der Oma.",
+    "texto": "Lena ist acht Jahre alt. Heute backt sie mit ihrer Mutter einen Kuchen. Der Kuchen ist für Oma. Oma hat morgen Geburtstag. Lena mag Schokoladenkuchen sehr gern.\n\nDie Mutter holt Mehl, Eier und Zucker. Lena rührt den Teig. Der Teig ist braun und süß. Lena kostet ein bisschen Teig. „Das schmeckt gut!\", sagt sie und lacht.\n\nDer Kuchen kommt in den Ofen. Nach einer Stunde ist er fertig. Lena und ihre Mutter schreiben „Alles Gute\" mit Zuckerguss auf den Kuchen. Am Abend bringen sie den Kuchen zu Oma. Oma freut sich sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Lena backt einen Kuchen für ihre Mutter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kuchen ist ein Schokoladenkuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena kostet den Teig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen bleibt drei Stunden im Ofen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma freut sich über den Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sport-am-nachmittag",
+    "nivel": "A1",
+    "titulo": "Sport am Nachmittag",
+    "descripcion": "Tim macht jeden Nachmittag Sport im Garten mit seinem Bruder.",
+    "texto": "Tim ist zehn Jahre alt. Jeden Nachmittag macht er Sport. Er läuft, springt und spielt Ball. Sein Bruder Ben macht auch mit. Sie spielen im Garten.\n\nHeute spielen Tim und Ben Fußball. Der Ball ist rot und weiß. Tim schießt das Tor. Ben lacht und läuft schnell. Nach dem Spiel trinken beide Wasser.\n\nDie Mutter ruft: „Kommt zum Essen!\" Tim und Ben gehen ins Haus. Sie sind müde, aber glücklich. Morgen spielen sie wieder Fußball.",
+    "preguntas": [
+      {
+        "enunciado": "Tim macht jeden Morgen Sport.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben ist der Bruder von Tim.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie spielen im Garten Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim schießt kein Tor.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Spiel sind Tim und Ben müde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-nachbarin-frau-klein",
+    "nivel": "A1",
+    "titulo": "Meine Nachbarin Frau Klein",
+    "descripcion": "Ein Kind erzählt von seiner freundlichen Nachbarin und ihrem Garten.",
+    "texto": "Meine Nachbarin heißt Frau Klein. Sie wohnt neben uns. Frau Klein ist alt, aber sehr aktiv. Sie hat einen großen Garten mit vielen Blumen.\n\nJeden Tag gießt Frau Klein die Blumen. Manchmal helfe ich ihr. Wir gießen zusammen die roten und gelben Blumen. Frau Klein hat auch eine Katze. Die Katze heißt Mimi und ist schwarz.\n\nAm Sonntag backt Frau Klein oft Kekse. Sie gibt mir immer ein paar Kekse. Die Kekse schmecken sehr lecker. Ich mag meine Nachbarin sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Klein wohnt weit weg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Klein hat einen Garten mit Blumen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Katze von Frau Klein heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist eine weiße Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Klein backt am Sonntag Kekse.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-katze",
+    "nivel": "A2",
+    "titulo": "Die verlorene Katze",
+    "descripcion": "Familie Berger sucht ihre Katze, die seit zwei Tagen verschwunden ist.",
+    "texto": "Familie Berger hat eine Katze. Sie heißt Minka und ist drei Jahre alt. Am Montag ist Minka nicht nach Hause gekommen. Die Familie hat den ganzen Abend im Garten gesucht, aber sie hat die Katze nicht gefunden.\n\nAm nächsten Tag hat Frau Berger Zettel geschrieben und sie im Viertel aufgehängt, weil sie hoffte, dass jemand Minka gesehen hat. Die Kinder haben auch die Nachbarn gefragt. Ein Nachbar hat erzählt, dass er eine graue Katze im Park gesehen hat.\n\nAm Abend sind Herr Berger und seine Tochter zum Park gegangen. Dort haben sie Minka endlich gefunden. Die Katze hatte Hunger, aber sonst ging es ihr gut. Die ganze Familie war sehr froh, dass Minka wieder zu Hause war.",
+    "preguntas": [
+      {
+        "enunciado": "Minka ist die Katze von Familie Berger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat Minka sofort am Montagabend gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat Zettel im Viertel aufgehängt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Nachbar hat die Katze im Supermarkt gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat Minka schließlich im Park gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-zum-kletterpark",
+    "nivel": "A2",
+    "titulo": "Der Ausflug zum Kletterpark",
+    "descripcion": "Jonas und seine Freunde verbringen einen aufregenden Tag in einem Kletterpark.",
+    "texto": "Am Samstag sind Jonas und drei Freunde zu einem Kletterpark gefahren. Sie waren schon lange nicht mehr dort gewesen und haben sich sehr gefreut. Der Kletterpark liegt im Wald, ungefähr eine Stunde von der Stadt entfernt.\n\nZuerst haben die Freunde einen Helm und einen Gurt bekommen, weil das Klettern sonst zu gefährlich gewesen wäre. Danach sind sie zwischen den Bäumen von Plattform zu Plattform geklettert. Jonas hatte am Anfang etwas Angst, aber nach einer Weile hat er sich sicherer gefühlt.\n\nAm schwierigsten war die letzte Strecke, weil man dort über eine wackelige Brücke gehen musste. Alle vier haben es trotzdem geschafft. Zum Schluss sind sie mit einer langen Seilrutsche zurück zum Boden gefahren. Müde, aber zufrieden, sind sie am Abend nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist allein zum Kletterpark gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kletterpark liegt mitten in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle bekommen einen Helm und einen Gurt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die letzte Strecke war besonders leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende fahren sie mit einer Seilrutsche nach unten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-panne-mit-dem-fahrstuhl",
+    "nivel": "A2",
+    "titulo": "Die Panne mit dem Fahrstuhl",
+    "descripcion": "Herr Wagner bleibt für kurze Zeit im Fahrstuhl seines Wohnhauses stecken.",
+    "texto": "Herr Wagner wohnt im achten Stock eines Wohnhauses. Jeden Morgen fährt er mit dem Fahrstuhl nach unten, weil er zur Arbeit muss. Am Dienstag ist etwas Ungewöhnliches passiert.\n\nAls Herr Wagner in den Fahrstuhl gestiegen ist, hat sich die Tür geschlossen, aber der Fahrstuhl hat sich nicht bewegt. Er hat auf den Notrufknopf gedrückt, weil er nicht wusste, was er sonst tun sollte. Nach ein paar Minuten hat sich eine Stimme gemeldet und gesagt, dass der Techniker unterwegs sei.\n\nHerr Wagner musste fast zwanzig Minuten warten, bis der Techniker gekommen ist und die Tür geöffnet hat. Er war froh, dass alles gut ausgegangen ist, obwohl er dadurch zu spät zur Arbeit gekommen ist. Sein Chef hat zum Glück Verständnis gezeigt.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Wagner wohnt im zweiten Stock.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Fahrstuhl hat sich am Dienstag nicht bewegt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wagner hat sofort die Tür selbst geöffnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Techniker hat die Tür geöffnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wagner ist pünktlich zur Arbeit gekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-den-parkplatz",
+    "nivel": "B1",
+    "titulo": "Der Streit um den Parkplatz",
+    "descripcion": "Zwei Nachbarn geraten wegen eines Parkplatzes vor dem Haus in Streit.",
+    "texto": "In der Wohnanlage von Herrn Fischer gibt es nur wenige Parkplätze für viele Bewohner. Obwohl niemand offiziell einen festen Platz hat, parkt Herr Fischer seit Jahren immer auf demselben Platz direkt vor seiner Haustür. Als eines Tages ein neuer Nachbar, Herr Petrov, dort parkte, war Herr Fischer sehr verärgert.\n\nHerr Fischer klingelte sofort bei Herrn Petrov und beschwerte sich lautstark, obwohl der Platz niemandem gehörte. Herr Petrov erklärte ruhig, dass er den Platz zufällig frei gefunden hatte, weil er spät nach Hause gekommen war. Trotzdem wollte Herr Fischer nicht nachgeben und drohte sogar, die Hausverwaltung einzuschalten.\n\nNachdem beide Nachbarn eine Nacht darüber geschlafen hatten, trafen sie sich am nächsten Morgen erneut. Diesmal sprachen sie ruhiger miteinander und einigten sich schließlich darauf, die Parkplätze abwechselnd zu nutzen. Seitdem gibt es keinen Streit mehr, und die beiden grüßen sich sogar freundlich, wenn sie sich im Treppenhaus begegnen.",
+    "preguntas": [
+      {
+        "enunciado": "In der Wohnanlage gibt es genug Parkplätze für alle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Petrov hatte offiziell einen festen Parkplatz reserviert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer war sofort einverstanden, den Platz zu teilen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Nachbarn trafen sich am nächsten Tag erneut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende einigten sich die Nachbarn friedlich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-umschulung-mit-vierzig",
+    "nivel": "B1",
+    "titulo": "Die Umschulung mit vierzig",
+    "descripcion": "Mit vierzig Jahren entscheidet sich Sabine für einen komplett neuen Beruf.",
+    "texto": "Sabine hat zwanzig Jahre lang als Verkäuferin in einem Modegeschäft gearbeitet. Obwohl sie den Kontakt zu den Kunden mochte, wurde die Arbeit für sie mit der Zeit immer unbefriedigender. Als das Geschäft schließlich geschlossen wurde, musste Sabine sich entscheiden, wie es beruflich weitergehen sollte.\n\nNachdem sie mehrere Beratungsgespräche beim Arbeitsamt geführt hatte, entschied sie sich für eine Umschulung zur Krankenpflegerin. Viele Freunde waren überrascht, weil eine Umschulung mit vierzig Jahren nicht einfach ist. Trotzdem begann Sabine mutig ihre neue Ausbildung, obwohl sie wieder mit jüngeren Auszubildenden die Schulbank drücken musste.\n\nDie ersten Monate waren anstrengend, weil sie sowohl theoretisches Wissen lernen als auch praktische Erfahrungen im Krankenhaus sammeln musste. Nachdem sie die Prüfung bestanden hatte, bekam Sabine eine feste Stelle in einer Klinik. Heute ist sie überzeugt, dass die Umschulung die richtige Entscheidung war, obwohl der Weg dorthin nicht leicht war.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hat vorher als Krankenpflegerin gearbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Modegeschäft, in dem Sabine arbeitete, wurde geschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine hat sich ohne Beratung sofort umschulen lassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ausbildung war für Sabine völlig problemlos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende bekommt Sabine eine feste Stelle in einer Klinik.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-vereinsausflug-an-die-ostsee",
+    "nivel": "B1",
+    "titulo": "Der Vereinsausflug an die Ostsee",
+    "descripcion": "Ein Sportverein organisiert einen gemeinsamen Wochenendausflug an die Ostsee.",
+    "texto": "Der Sportverein von Katrin organisiert einmal im Jahr einen gemeinsamen Ausflug. Dieses Jahr sollte es an die Ostsee gehen, worauf sich alle Mitglieder schon lange gefreut hatten. Um sechs Uhr morgens trafen sich über dreißig Personen am Vereinsheim, um gemeinsam mit dem Bus loszufahren.\n\nNachdem sie nach vier Stunden Fahrt endlich angekommen waren, bezogen die Mitglieder ihre Zimmer in einer kleinen Pension direkt am Strand. Trotz des windigen Wetters gingen viele sofort baden, während andere lieber einen Spaziergang am Strand machten. Am Abend saßen alle zusammen und grillten, obwohl es inzwischen deutlich kälter geworden war.\n\nAm zweiten Tag machte die Gruppe eine Fahrradtour entlang der Küste. Katrin war besonders begeistert von den Steilküsten, die sie noch nie zuvor gesehen hatte. Nachdem sie am Nachmittag zurückgefahren waren, waren sich alle einig, dass dieser Ausflug einer der schönsten seit Langem gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Der Ausflug fand an einem See in den Bergen statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe ist mit dem Bus gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des Windes ist niemand baden gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am zweiten Tag machte die Gruppe eine Fahrradtour.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende fanden alle den Ausflug enttäuschend.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "cybermobbing-unter-jugendlichen",
+    "nivel": "B2",
+    "titulo": "Cybermobbing unter Jugendlichen",
+    "descripcion": "Der Text beleuchtet die Ursachen, Folgen und mögliche Gegenmaßnahmen von Cybermobbing.",
+    "texto": "Cybermobbing, also das gezielte Beleidigen, Bloßstellen oder Ausgrenzen anderer über digitale Kanäle, hat sich in den letzten Jahren zu einem ernsten gesellschaftlichen Problem entwickelt. Anders als beim klassischen Mobbing auf dem Schulhof endet die Belästigung beim Cybermobbing nicht mit dem Verlassen der Schule, sondern kann die Betroffenen rund um die Uhr über soziale Netzwerke, Messenger-Dienste oder Online-Spiele erreichen.\n\nBesonders problematisch ist dabei die scheinbare Anonymität des Internets, die es Täterinnen und Tätern erleichtert, Hemmschwellen zu überwinden, die im direkten persönlichen Kontakt bestehen würden. Zudem verbreiten sich beleidigende Nachrichten, Fotos oder Videos oft rasend schnell, sodass sich die Öffentlichkeit eines Vorfalls kaum noch eindämmen lässt, selbst wenn der ursprüngliche Beitrag längst gelöscht wurde.\n\nExperten fordern daher, dass Schulen verpflichtende Aufklärungsprogramme zum verantwortungsvollen Umgang mit digitalen Medien einführen sollten, bevor es überhaupt zu Vorfällen kommt. Auch die Betreiber sozialer Netzwerke stehen zunehmend in der Verantwortung, Meldemechanismen zu verbessern, damit betroffene Jugendliche schneller Hilfe erhalten. Ohne ein Zusammenspiel von Prävention, elterlicher Aufmerksamkeit und technischen Schutzmaßnahmen dürfte sich das Problem jedoch kaum nachhaltig lösen lassen.",
+    "preguntas": [
+      {
+        "enunciado": "Cybermobbing endet laut Text automatisch, sobald die Schule vorbei ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die scheinbare Anonymität im Internet senkt laut Text die Hemmschwelle der Täter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beleidigende Inhalte verschwinden dem Text zufolge sofort, wenn sie gelöscht werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern Aufklärungsprogramme an Schulen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text tragen die Betreiber sozialer Netzwerke keinerlei Verantwortung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "fast-fashion-und-ihre-oekologischen-folgen",
+    "nivel": "B2",
+    "titulo": "Fast Fashion und ihre ökologischen Folgen",
+    "descripcion": "Der Text diskutiert die Umweltbelastung durch billige Wegwerfmode und mögliche Alternativen.",
+    "texto": "Unter dem Begriff Fast Fashion versteht man Kleidung, die schnell und kostengünstig produziert wird, um immer neue Modetrends in kürzester Zeit auf den Markt zu bringen. Für viele Verbraucherinnen und Verbraucher ist dies verlockend, weil sie sich so ständig neu einkleiden können, ohne viel Geld auszugeben. Diese Bequemlichkeit hat jedoch einen hohen ökologischen Preis, der von den Konsumenten selbst kaum wahrgenommen wird.\n\nDie Produktion von Fast Fashion verbraucht enorme Mengen an Wasser und Energie, während gleichzeitig giftige Chemikalien in die Umwelt gelangen können, wenn Textilien in Ländern mit niedrigen Umweltstandards gefärbt werden. Hinzu kommt, dass ein Großteil der Kleidung aus synthetischen Fasern besteht, die beim Waschen Mikroplastik freisetzen, das letztlich in Flüssen und Meeren landet. Wäre die Produktion stärker reguliert, ließen sich viele dieser Umweltschäden vermutlich deutlich reduzieren.\n\nAls Alternative wird zunehmend der Begriff der Slow Fashion diskutiert, bei der Kleidung bewusster gekauft und länger getragen werden soll. Auch Second-Hand-Plattformen und Kleidertauschbörsen gewinnen an Beliebtheit, weil sie es ermöglichen, bereits produzierte Kleidung weiterzuverwenden, anstatt ständig neue Ware zu kaufen. Ob sich dieser Trend jedoch gegen die niedrigen Preise der großen Modeketten durchsetzen kann, bleibt abzuwarten.",
+    "preguntas": [
+      {
+        "enunciado": "Fast Fashion bezeichnet besonders langlebige und teure Kleidung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Produktion von Fast Fashion verbraucht laut Text viel Wasser und Energie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Synthetische Fasern können beim Waschen Mikroplastik freisetzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Slow Fashion bedeutet, möglichst oft neue Kleidung zu kaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text ist bereits sicher, dass Slow Fashion sich durchsetzen wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-gewerkschaften",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Gewerkschaften",
+    "descripcion": "Der Text erörtert, welche Herausforderungen und Chancen Gewerkschaften im Wandel der Arbeitswelt haben.",
+    "texto": "Gewerkschaften haben in Deutschland historisch eine zentrale Rolle bei der Durchsetzung von Arbeitnehmerrechten gespielt, etwa bei der Einführung des Achtstundentags oder beim Kündigungsschutz. In den letzten Jahrzehnten ist jedoch die Zahl der Gewerkschaftsmitglieder in vielen Branchen deutlich zurückgegangen, was ihre Verhandlungsmacht gegenüber den Arbeitgebern schwächt.\n\nEin Grund dafür liegt im Wandel der Arbeitswelt selbst: Immer mehr Menschen arbeiten in befristeten Verträgen, als Selbstständige oder in der sogenannten Plattformökonomie, wo klassische gewerkschaftliche Strukturen kaum greifen. Wären diese neuen Beschäftigungsformen von Anfang an stärker in die Tarifverhandlungen einbezogen worden, hätten Gewerkschaften ihren Einfluss möglicherweise besser bewahren können.\n\nDennoch zeigen aktuelle Entwicklungen, dass Gewerkschaften durchaus in der Lage sind, sich anzupassen. So haben einige Organisationen begonnen, gezielt Beschäftigte in der Logistikbranche oder im Dienstleistungssektor anzusprechen, in denen die Arbeitsbedingungen oft besonders schwierig sind. Ob es den Gewerkschaften gelingt, dadurch langfristig wieder mehr Mitglieder zu gewinnen, wird maßgeblich davon abhängen, wie überzeugend sie ihre Relevanz für eine zunehmend flexible Arbeitswelt vermitteln können.",
+    "preguntas": [
+      {
+        "enunciado": "Gewerkschaften spielten laut Text historisch keine Rolle bei Arbeitnehmerrechten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahl der Gewerkschaftsmitglieder ist in vielen Branchen zurückgegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Plattformökonomie greifen klassische gewerkschaftliche Strukturen laut Text besonders gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Gewerkschaften sprechen gezielt Beschäftigte in der Logistikbranche an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die Zukunft der Gewerkschaften sei bereits eindeutig gesichert.",
+        "respuesta": false
+      }
+    ]
   }
 ];
 
