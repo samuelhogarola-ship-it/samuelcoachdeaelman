@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "exercises": [
+    {
+      "id": "satzbau-b1-tekamolo-001",
+      "mode": "satzbau",
+      "level": "B1",
+      "topic": "TEKAMOLO",
+      "instruction": "Ordena los bloques para formar una frase natural.",
+      "hint": "Después del verbo, prueba el orden temporal, causal, modal y local.",
+      "explanation": "El orden neutro sigue TEKAMOLO: morgen (temporal), wegen der Arbeit (causal), mit dem Zug (modal) y nach München (local).",
+      "source": {
+        "kind": "blog",
+        "slug": "tekamolo-orden-de-palabras-en-aleman",
+        "url": "/f/tekamolo-orden-de-palabras-en-aleman/"
+      },
+      "status": "reviewed",
+      "blocks": [
+        { "id": "subject", "text": "Ich" },
+        { "id": "verb", "text": "fahre" },
+        { "id": "temporal", "text": "morgen" },
+        { "id": "causal", "text": "wegen der Arbeit" },
+        { "id": "modal", "text": "mit dem Zug" },
+        { "id": "local", "text": "nach München" }
+      ],
+      "canonicalOrder": ["subject", "verb", "temporal", "causal", "modal", "local"],
+      "acceptedOrders": []
+    },
+    {
+      "id": "satzbau-b1-nebensatz-001",
+      "mode": "satzbau",
+      "level": "B1",
+      "topic": "Nebensatz mit weil",
+      "instruction": "Ordena los bloques y coloca bien el verbo de la subordinada.",
+      "hint": "La oración principal comienza con un complemento temporal; después de weil, busca el final.",
+      "explanation": "El verbo principal ocupa la segunda posición. En la subordinada introducida por weil, brauchen va al final.",
+      "source": {
+        "kind": "leseverstehen",
+        "slug": "im-einkaufszentrum",
+        "url": "/leseverstehen/b1/im-einkaufszentrum/"
+      },
+      "status": "reviewed",
+      "blocks": [
+        { "id": "temporal", "text": "Am Samstag" },
+        { "id": "main-verb", "text": "gehen" },
+        { "id": "main-subject", "text": "Lisa und Tom" },
+        { "id": "destination", "text": "ins Einkaufszentrum," },
+        { "id": "connector", "text": "weil" },
+        { "id": "sub-subject", "text": "sie" },
+        { "id": "object", "text": "neue Kleidung" },
+        { "id": "sub-verb", "text": "brauchen" }
+      ],
+      "canonicalOrder": ["temporal", "main-verb", "main-subject", "destination", "connector", "sub-subject", "object", "sub-verb"],
+      "acceptedOrders": []
+    },
+    {
+      "id": "fehlerjaeger-a2-trennbar-001",
+      "mode": "fehlerjaeger",
+      "level": "A2",
+      "topic": "Trennbare Verben",
+      "instruction": "Encuentra el fragmento incorrecto y elige la corrección.",
+      "hint": "En una oración principal, el prefijo separable no permanece unido al verbo conjugado.",
+      "explanation": "En una oración principal, el verbo conjugado ocupa la segunda posición y el prefijo ab va al final.",
+      "source": {
+        "kind": "blog",
+        "slug": "trennbare-verben-en-aleman",
+        "url": "/f/trennbare-verben-en-aleman/"
+      },
+      "status": "reviewed",
+      "segments": [
+        { "id": "subject", "text": "Der Zug" },
+        { "id": "error", "text": "abfährt" },
+        { "id": "time", "text": "um 8 Uhr." }
+      ],
+      "errorSegmentId": "error",
+      "correctionOptions": [
+        { "id": "correct", "text": "Der Zug fährt um 8 Uhr ab." },
+        { "id": "joined", "text": "Der Zug abfahrt um 8 Uhr." },
+        { "id": "infinitive", "text": "Der Zug abfahren um 8 Uhr." },
+        { "id": "prefix-first", "text": "Ab der Zug fährt um 8 Uhr." }
+      ],
+      "answer": "correct",
+      "correctedSentence": "Der Zug fährt um 8 Uhr ab."
+    },
+    {
+      "id": "fehlerjaeger-b1-nebensatz-001",
+      "mode": "fehlerjaeger",
+      "level": "B1",
+      "topic": "Trennbare Verben im Nebensatz",
+      "instruction": "Encuentra el fragmento incorrecto y elige la corrección.",
+      "hint": "En una subordinada, las dos partes del verbo separable vuelven a unirse.",
+      "explanation": "Después de dass, el verbo separable va unido y al final: aufsteht.",
+      "source": {
+        "kind": "blog",
+        "slug": "trennbare-verben-en-aleman",
+        "url": "/f/trennbare-verben-en-aleman/"
+      },
+      "status": "reviewed",
+      "segments": [
+        { "id": "main", "text": "Ich weiß," },
+        { "id": "connector", "text": "dass" },
+        { "id": "subject-time", "text": "er früh" },
+        { "id": "error", "text": "steht auf." }
+      ],
+      "errorSegmentId": "error",
+      "correctionOptions": [
+        { "id": "correct", "text": "Ich weiß, dass er früh aufsteht." },
+        { "id": "split", "text": "Ich weiß, dass er früh steht auf." },
+        { "id": "infinitive", "text": "Ich weiß, dass er früh aufstehen." },
+        { "id": "v2", "text": "Ich weiß, dass steht er früh auf." }
+      ],
+      "answer": "correct",
+      "correctedSentence": "Ich weiß, dass er früh aufsteht."
+    },
+    {
+      "id": "fehlerjaeger-b1-helfen-dativ-001",
+      "mode": "fehlerjaeger",
+      "level": "B1",
+      "topic": "Relativpronomen im Dativ",
+      "instruction": "Encuentra el fragmento incorrecto y elige la corrección.",
+      "hint": "El verbo helfen no usa Akkusativ.",
+      "explanation": "Helfen rige Dativ. El pronombre relativo masculino en Dativ es dem.",
+      "source": {
+        "kind": "blog",
+        "slug": "relativsaetze-en-aleman",
+        "url": "/f/relativsaetze-en-aleman/"
+      },
+      "status": "reviewed",
+      "segments": [
+        { "id": "antecedent", "text": "Der Kollege," },
+        { "id": "error", "text": "den" },
+        { "id": "clause", "text": "ich geholfen habe," },
+        { "id": "ending", "text": "ist nett." }
+      ],
+      "errorSegmentId": "error",
+      "correctionOptions": [
+        { "id": "correct", "text": "dem" },
+        { "id": "accusative", "text": "den" },
+        { "id": "nominative", "text": "der" },
+        { "id": "genitive", "text": "dessen" }
+      ],
+      "answer": "correct",
+      "correctedSentence": "Der Kollege, dem ich geholfen habe, ist nett."
+    },
+    {
+      "id": "kasus-a2-akkusativ-maskulin-001",
+      "mode": "kasus",
+      "level": "A2",
+      "topic": "Akkusativ maskulin",
+      "instruction": "Completa el hueco con la forma correcta.",
+      "hint": "Pregunta: ¿qué compra Anna? Ese complemento es el objeto directo.",
+      "explanation": "Blumenstrauß es masculino y funciona como objeto directo de kaufen; por eso usamos einen.",
+      "source": {
+        "kind": "sprachbausteine",
+        "slug": "auf-dem-markt",
+        "url": "/recursos/sprachbausteine/b1/auf-dem-markt/"
+      },
+      "status": "reviewed",
+      "promptParts": ["Anna kauft ", " bunten Blumenstrauß."],
+      "options": [
+        { "id": "ein", "text": "ein" },
+        { "id": "einen", "text": "einen" },
+        { "id": "einem", "text": "einem" },
+        { "id": "einer", "text": "einer" }
+      ],
+      "answer": "einen",
+      "reasoningSteps": ["kaufen", "objeto directo", "Akkusativ", "masculino", "einen"]
+    },
+    {
+      "id": "kasus-a2-wechselpraeposition-001",
+      "mode": "kasus",
+      "level": "A2",
+      "topic": "Wechselpräpositionen",
+      "instruction": "Completa el hueco con la forma correcta.",
+      "hint": "Sich setzen describe el cambio de posición hacia un lugar.",
+      "explanation": "El cambio de posición exige Akkusativ con auf. Bank es femenino: auf eine Bank.",
+      "source": {
+        "kind": "blog",
+        "slug": "wo-wohin-en-aleman-complementos-de-lugar",
+        "url": "/f/wo-wohin-en-aleman-complementos-de-lugar/"
+      },
+      "status": "reviewed",
+      "promptParts": ["Sie setzen sich auf ", " Bank."],
+      "options": [
+        { "id": "die", "text": "die" },
+        { "id": "eine", "text": "eine" },
+        { "id": "einer", "text": "einer" },
+        { "id": "einem", "text": "einem" }
+      ],
+      "answer": "eine",
+      "reasoningSteps": ["cambio de posición", "Akkusativ", "femenino", "eine"]
+    },
+    {
+      "id": "kasus-b1-mit-relativpronomen-001",
+      "mode": "kasus",
+      "level": "B1",
+      "topic": "Relativpronomen mit Präposition",
+      "instruction": "Completa el hueco con el pronombre relativo correcto.",
+      "hint": "La preposición mit siempre exige Dativ.",
+      "explanation": "Mit exige Dativ y Freund es masculino; el pronombre relativo correcto es dem.",
+      "source": {
+        "kind": "blog",
+        "slug": "relativsaetze-en-aleman",
+        "url": "/f/relativsaetze-en-aleman/"
+      },
+      "status": "reviewed",
+      "promptParts": ["Der Freund, mit ", " ich gereist bin, heißt Marco."],
+      "options": [
+        { "id": "der", "text": "der" },
+        { "id": "den", "text": "den" },
+        { "id": "dem", "text": "dem" },
+        { "id": "dessen", "text": "dessen" }
+      ],
+      "answer": "dem",
+      "reasoningSteps": ["mit", "Dativ", "antecedente masculino", "dem"]
+    },
+    {
+      "id": "verb-a1-muessen-001",
+      "mode": "verb",
+      "level": "A1",
+      "topic": "Modalverben im Präsens",
+      "instruction": "Elige la forma verbal que completa la frase.",
+      "hint": "El sujeto es ich.",
+      "explanation": "La primera persona singular de müssen en Präsens es muss.",
+      "source": {
+        "kind": "blog",
+        "slug": "verbos-modales-en-aleman",
+        "url": "/f/verbos-modales-en-aleman/"
+      },
+      "status": "reviewed",
+      "infinitive": "müssen",
+      "promptParts": ["Morgen ", " ich früher kommen."],
+      "optionsBySlot": [
+        [
+          { "id": "muss", "text": "muss" },
+          { "id": "musst", "text": "musst" },
+          { "id": "muessen", "text": "müssen" },
+          { "id": "muesst", "text": "müsst" }
+        ]
+      ],
+      "answers": ["muss"]
+    },
+    {
+      "id": "verb-a2-aufmachen-perfekt-001",
+      "mode": "verb",
+      "level": "A2",
+      "topic": "Perfekt mit trennbaren Verben",
+      "instruction": "Elige la forma verbal que completa la frase.",
+      "hint": "En el Partizip II separable, ge aparece entre el prefijo y la raíz.",
+      "explanation": "El Partizip II de aufmachen es aufgemacht: auf + ge + macht.",
+      "source": {
+        "kind": "blog",
+        "slug": "trennbare-verben-en-aleman",
+        "url": "/f/trennbare-verben-en-aleman/"
+      },
+      "status": "reviewed",
+      "infinitive": "aufmachen",
+      "promptParts": ["Er hat das Fenster ", "."],
+      "optionsBySlot": [
+        [
+          { "id": "aufgemacht", "text": "aufgemacht" },
+          { "id": "geaufmacht", "text": "geaufmacht" },
+          { "id": "aufmachen", "text": "aufmachen" },
+          { "id": "aufmacht", "text": "aufmacht" }
+        ]
+      ],
+      "answers": ["aufgemacht"]
+    }
+  ]
+}
