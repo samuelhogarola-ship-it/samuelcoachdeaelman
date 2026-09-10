@@ -7740,6 +7740,204 @@ Dennoch zeigen aktuelle Entwicklungen, dass Gewerkschaften durchaus in der Lage 
       { enunciado: 'Der Text behauptet, die Zukunft der Gewerkschaften sei bereits eindeutig gesichert.', respuesta: false },
     ],
   },
+  {
+    slug: 'meine-woche',
+    nivel: 'A1',
+    titulo: 'Meine Woche',
+    descripcion: 'Lisa erzählt von ihrer Woche und ihren täglichen Aktivitäten.',
+    texto: `Ich heiße Lisa und ich bin zwanzig Jahre alt. Jeden Tag stehe ich um sieben Uhr auf. Am Montag gehe ich zur Arbeit. Am Dienstag und Mittwoch lerne ich Deutsch. Der Unterricht ist um achtzehn Uhr. Meine Lehrerin heißt Frau Berger. Sie ist sehr nett und geduldig.
+
+Am Donnerstag treffe ich meine Freundin Nora. Wir trinken Kaffee und sprechen über die Arbeit. Am Freitag koche ich gern zu Hause. Ich mag Nudeln mit Tomatensoße. Am Wochenende schlafe ich lange. Am Samstag räume ich die Wohnung auf. Am Sonntag rufe ich meine Eltern an. Das ist meine Woche.`,
+    preguntas: [
+      { enunciado: 'Lisa steht jeden Tag um sieben Uhr auf.', respuesta: true },
+      { enunciado: 'Am Montag lernt Lisa Deutsch.', respuesta: false },
+      { enunciado: 'Lisas Lehrerin heißt Frau Berger.', respuesta: true },
+      { enunciado: 'Am Freitag trifft Lisa ihre Freundin Nora.', respuesta: false },
+      { enunciado: 'Am Sonntag ruft Lisa ihre Eltern an.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'am-fruehstueckstisch',
+    nivel: 'A1',
+    titulo: 'Am Frühstückstisch',
+    descripcion: 'Die Familie Schmidt frühstückt zusammen am Sonntagmorgen.',
+    texto: `Die Familie Schmidt sitzt am Sonntagmorgen am Frühstückstisch. Der Vater trinkt Kaffee und liest die Zeitung. Die Mutter isst ein Brötchen mit Marmelade. Die Tochter Emma trinkt Orangensaft. Sie ist acht Jahre alt und mag Milch nicht so gern. Der Sohn Paul isst zwei Eier mit Brot.
+
+Auf dem Tisch stehen Butter, Käse und Honig. Die Familie spricht über den Tag. Emma möchte heute ins Schwimmbad gehen. Paul möchte lieber Fußball spielen. Die Mutter sagt: „Wir machen zuerst einen Spaziergang.“ Der Vater lacht und trinkt noch einen Kaffee. Danach räumen alle den Tisch zusammen auf.`,
+    preguntas: [
+      { enunciado: 'Die Familie frühstückt am Sonntagmorgen.', respuesta: true },
+      { enunciado: 'Emma trinkt gern Milch.', respuesta: false },
+      { enunciado: 'Paul isst zwei Eier mit Brot.', respuesta: true },
+      { enunciado: 'Emma möchte heute Fußball spielen.', respuesta: false },
+      { enunciado: 'Die Familie macht zuerst einen Spaziergang.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'unsere-katze',
+    nivel: 'A1',
+    titulo: 'Unsere Katze',
+    descripcion: 'Tim erzählt von seiner Katze Mimi und ihrem Alltag.',
+    texto: `Wir haben eine Katze. Sie heißt Mimi und ist drei Jahre alt. Mimi ist schwarz und weiß. Sie schläft sehr viel, fast sechzehn Stunden am Tag. Am Morgen frisst sie Katzenfutter aus einer blauen Schüssel. Danach spielt sie gern mit einem kleinen Ball.
+
+Mimi liebt das Sofa im Wohnzimmer. Dort liegt sie oft in der Sonne. Meine Schwester bürstet Mimi jeden Abend. Das mag die Katze sehr. Am Wochenende gehen wir manchmal in den Garten. Mimi läuft dann hinter den Vögeln her, aber sie fängt sie nie. Wir lieben unsere Katze sehr.`,
+    preguntas: [
+      { enunciado: 'Mimi ist eine schwarze und weiße Katze.', respuesta: true },
+      { enunciado: 'Mimi schläft nur vier Stunden am Tag.', respuesta: false },
+      { enunciado: 'Mimi frisst ihr Futter aus einer blauen Schüssel.', respuesta: true },
+      { enunciado: 'Meine Schwester bürstet Mimi nie.', respuesta: false },
+      { enunciado: 'Mimi läuft im Garten hinter Vögeln her.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-brief-an-die-oma',
+    nivel: 'A2',
+    titulo: 'Der Brief an die Oma',
+    descripcion: 'Sophie hat ihrer Oma einen langen Brief über ihr neues Leben geschrieben.',
+    texto: `Sophie hat gestern Abend einen Brief an ihre Oma geschrieben, weil sie sie lange nicht besucht hat. Sie hat erzählt, dass sie eine neue Wohnung in Leipzig gefunden hat. Die Wohnung ist klein, aber sie hat einen schönen Balkon. Sophie hat auch geschrieben, dass sie einen neuen Job in einer Bäckerei angefangen hat.
+
+In dem Brief hat Sophie gefragt, wie es der Oma geht und ob sie bald zu Besuch kommen möchte. Sie hat geschrieben, dass sie im Sommer Urlaub hat und dann gerne ein paar Tage bei der Oma bleiben würde. Am Ende hat sie ein Foto von ihrer neuen Wohnung in den Umschlag gelegt. Die Oma hat sich sehr gefreut, als der Brief angekommen ist.`,
+    preguntas: [
+      { enunciado: 'Sophie hat ihrer Oma geschrieben, weil sie sie lange nicht besucht hat.', respuesta: true },
+      { enunciado: 'Sophie wohnt jetzt in München.', respuesta: false },
+      { enunciado: 'Sophie hat einen neuen Job in einer Bäckerei angefangen.', respuesta: true },
+      { enunciado: 'Sophie hat kein Foto in den Umschlag gelegt.', respuesta: false },
+      { enunciado: 'Die Oma hat sich über den Brief gefreut.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'beim-arzt-im-wartezimmer',
+    nivel: 'A2',
+    titulo: 'Beim Arzt im Wartezimmer',
+    descripcion: 'Markus wartet beim Arzt und erzählt von seinen Halsschmerzen.',
+    texto: `Markus hat seit drei Tagen Halsschmerzen gehabt und ist deshalb zum Arzt gegangen. Im Wartezimmer haben schon viele Patienten gesessen, und er hat fast eine Stunde gewartet. Eine ältere Frau neben ihm hat erzählt, dass sie wegen ihres Rückens gekommen ist. Markus hat eine Zeitschrift gelesen, weil ihm die Zeit sehr lang vorgekommen ist.
+
+Als die Arzthelferin endlich seinen Namen gerufen hat, ist Markus erleichtert gewesen. Der Arzt hat seinen Hals untersucht und gesagt, dass es nur eine leichte Erkältung ist. Er hat Markus Tabletten verschrieben und ihm geraten, viel Tee zu trinken. Wenn die Halsschmerzen nicht besser werden, soll Markus in einer Woche wiederkommen. Markus ist erleichtert nach Hause gegangen.`,
+    preguntas: [
+      { enunciado: 'Markus hatte seit drei Tagen Halsschmerzen.', respuesta: true },
+      { enunciado: 'Im Wartezimmer war niemand außer Markus.', respuesta: false },
+      { enunciado: 'Die ältere Frau ist wegen ihres Knies gekommen.', respuesta: false },
+      { enunciado: 'Der Arzt hat gesagt, es ist nur eine leichte Erkältung.', respuesta: true },
+      { enunciado: 'Markus soll laut Arzt viel Tee trinken.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'ein-wochenende-am-see',
+    nivel: 'A2',
+    titulo: 'Ein Wochenende am See',
+    descripcion: 'Familie Krüger hat ein entspanntes Wochenende an einem See verbracht.',
+    texto: `Familie Krüger ist am Freitagabend zu einem See in der Nähe von München gefahren, weil das Wetter für das Wochenende sehr gut vorhergesagt war. Sie haben ein kleines Zelt aufgebaut und direkt am Ufer übernachtet. Am Samstagmorgen sind die Kinder schwimmen gegangen, während die Eltern Kaffee gekocht haben.
+
+Am Nachmittag hat die Familie einen langen Spaziergang um den See gemacht. Sie haben Enten gefüttert und Fotos gemacht. Als es am Abend kälter geworden ist, haben sie ein Lagerfeuer gemacht und Würstchen gegrillt. Am Sonntag haben sie das Zelt abgebaut, weil sie am Nachmittag wieder zu Hause sein wollten. Alle waren müde, aber sehr zufrieden mit dem Wochenende.`,
+    preguntas: [
+      { enunciado: 'Familie Krüger ist an einen See bei München gefahren.', respuesta: true },
+      { enunciado: 'Sie haben in einem Hotel übernachtet.', respuesta: false },
+      { enunciado: 'Am Samstagmorgen sind die Kinder schwimmen gegangen.', respuesta: true },
+      { enunciado: 'Am Abend hat es zu regnen begonnen.', respuesta: false },
+      { enunciado: 'Am Sonntag haben sie das Zelt abgebaut.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'der-umzug-in-eine-neue-stadt',
+    nivel: 'B1',
+    titulo: 'Der Umzug in eine neue Stadt',
+    descripcion: 'Jonas berichtet, wie er sich nach dem Umzug nach Leipzig eingelebt hat.',
+    texto: `Vor sechs Monaten ist Jonas aus beruflichen Gründen nach Leipzig gezogen, obwohl er die Stadt vorher kaum kannte. Am Anfang ist ihm der Umzug schwergefallen, weil er seine Freunde und seine vertraute Umgebung vermisst hat. Nachdem er in seiner neuen Wohnung angekommen war, hat er zunächst wochenlang niemanden gekannt und sich oft einsam gefühlt.
+
+Trotzdem hat Jonas nicht aufgegeben. Er ist einem Sportverein beigetreten und hat dort schnell neue Kontakte geknüpft. Außerdem hat er an einem Sprachkurs teilgenommen, obwohl er eigentlich schon fließend Deutsch spricht, nur um andere Neuankömmlinge kennenzulernen. Nach ein paar Monaten hatte er einen festen Freundeskreis und fühlte sich in Leipzig richtig zu Hause. Heute sagt er, dass der Umzug die beste Entscheidung seines Lebens war.`,
+    preguntas: [
+      { enunciado: 'Jonas kannte Leipzig schon sehr gut, bevor er umgezogen ist.', respuesta: false },
+      { enunciado: 'Am Anfang hat sich Jonas oft einsam gefühlt.', respuesta: true },
+      { enunciado: 'Jonas ist keinem Verein beigetreten.', respuesta: false },
+      { enunciado: 'Jonas hat an einem Sprachkurs teilgenommen, um neue Leute kennenzulernen.', respuesta: true },
+      { enunciado: 'Jonas bereut heute seinen Umzug nach Leipzig.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-klassenfahrt-nach-hamburg',
+    nivel: 'B1',
+    titulo: 'Die Klassenfahrt nach Hamburg',
+    descripcion: 'Eine Schulklasse erlebt spannende Tage bei einer Klassenfahrt nach Hamburg.',
+    texto: `Die zehnte Klasse des Gymnasiums ist letzte Woche für drei Tage nach Hamburg gefahren. Nachdem die Schüler im Hostel angekommen waren, haben sie zuerst die Zimmer verteilt und die Koffer ausgepackt. Am ersten Abend sind sie gemeinsam an den Hafen gegangen, obwohl es ziemlich windig und kalt war.
+
+Am zweiten Tag hat die Klasse das Miniatur Wunderland besucht, eine riesige Modelleisenbahnanlage, die viele Schüler total begeistert hat. Trotz des vollen Programms hatten einige Schüler noch Energie für einen Ausflug in die Speicherstadt am Abend. Am letzten Tag mussten sie leider schon wieder abreisen, obwohl alle gerne noch geblieben wären. Der Lehrer war zufrieden, weil sich die Klasse während der ganzen Fahrt sehr diszipliniert verhalten hat.`,
+    preguntas: [
+      { enunciado: 'Die Klassenfahrt hat drei Tage gedauert.', respuesta: true },
+      { enunciado: 'Am ersten Abend ist die Klasse ins Kino gegangen.', respuesta: false },
+      { enunciado: 'Das Miniatur Wunderland ist eine Modelleisenbahnanlage.', respuesta: true },
+      { enunciado: 'Alle Schüler wollten am letzten Tag sofort nach Hause fahren.', respuesta: false },
+      { enunciado: 'Der Lehrer war mit dem Verhalten der Klasse zufrieden.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'eine-freundschaft-ueber-grenzen',
+    nivel: 'B1',
+    titulo: 'Eine Freundschaft über Grenzen',
+    descripcion: 'Laura und Amina sind trotz der Entfernung beste Freundinnen geblieben.',
+    texto: `Laura und Amina haben sich vor drei Jahren während eines Austauschprogramms in Berlin kennengelernt. Obwohl Amina nach dem Programm wieder nach Marokko zurückgekehrt ist, ist die Freundschaft der beiden nicht auseinandergegangen. Sie schreiben sich fast jeden Tag Nachrichten und telefonieren regelmäßig über Video, nachdem sie beide von der Arbeit nach Hause gekommen sind.
+
+Letztes Jahr hat Laura Amina in Marrakesch besucht, obwohl die Reise ziemlich teuer war. Die beiden Freundinnen haben zusammen den Markt besucht und stundenlang über ihre Zukunftspläne gesprochen. Obwohl sie in unterschiedlichen Kulturen aufgewachsen sind, verstehen sie sich blind. Amina plant nun, Laura im nächsten Sommer in Deutschland zu besuchen. Beide sind sich sicher, dass ihre Freundschaft ein Leben lang halten wird.`,
+    preguntas: [
+      { enunciado: 'Laura und Amina haben sich in Berlin kennengelernt.', respuesta: true },
+      { enunciado: 'Amina lebt heute noch in Deutschland.', respuesta: false },
+      { enunciado: 'Die beiden telefonieren nie miteinander.', respuesta: false },
+      { enunciado: 'Laura hat Amina letztes Jahr in Marrakesch besucht.', respuesta: true },
+      { enunciado: 'Beide glauben, dass ihre Freundschaft nicht lange halten wird.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'die-vier-tage-woche',
+    nivel: 'B2',
+    titulo: 'Die Vier-Tage-Woche',
+    descripcion: 'Ein Essay über Chancen und Risiken der Vier-Tage-Woche in Deutschland.',
+    texto: `In den vergangenen Jahren ist die Vier-Tage-Woche in Deutschland zunehmend diskutiert worden, nachdem mehrere Pilotprojekte in Unternehmen unterschiedlicher Branchen durchgeführt wurden. Befürworter argumentieren, dass eine verkürzte Arbeitszeit bei vollem Lohnausgleich die Produktivität steigern und die psychische Belastung der Beschäftigten senken würde. In den bisher untersuchten, meist mittelständischen Betrieben wurde tatsächlich eine geringere Krankheitsquote festgestellt.
+
+Kritiker hingegen geben zu bedenken, dass die Vier-Tage-Woche nicht in jeder Branche umsetzbar sei. Im Gesundheitswesen oder im Einzelhandel, wo eine durchgehende Personalpräsenz erforderlich ist, müssten zusätzliche Arbeitskräfte eingestellt werden, was für viele Betriebe finanziell kaum zu stemmen wäre. Zudem wird befürchtet, dass sich die Arbeitsverdichtung an den verbleibenden vier Tagen erhöhen könnte, wodurch der erhoffte Erholungseffekt wieder verloren ginge.
+
+Sollte die Vier-Tage-Woche flächendeckend eingeführt werden, müssten außerdem tarifvertragliche Regelungen angepasst werden, was einen langwierigen politischen Prozess zur Folge hätte. Dennoch zeigen die bislang veröffentlichten Studien ein überwiegend positives Bild: Die Mehrheit der befragten Angestellten gab an, dass sie sich ausgeglichener fühle und nicht mehr zur alten Fünf-Tage-Woche zurückkehren wolle. Ob sich das Modell langfristig durchsetzen wird, bleibt jedoch abzuwarten.`,
+    preguntas: [
+      { enunciado: 'Die Vier-Tage-Woche wird bereits in ganz Deutschland verpflichtend angewendet.', respuesta: false },
+      { enunciado: 'In den untersuchten Betrieben wurde eine geringere Krankheitsquote festgestellt.', respuesta: true },
+      { enunciado: 'Kritiker sehen laut Text keine Probleme bei der Umsetzung im Gesundheitswesen.', respuesta: false },
+      { enunciado: 'Eine flächendeckende Einführung würde tarifvertragliche Anpassungen erfordern.', respuesta: true },
+      { enunciado: 'Die Mehrheit der befragten Angestellten möchte laut Text zur Fünf-Tage-Woche zurückkehren.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'ki-im-unterricht',
+    nivel: 'B2',
+    titulo: 'Künstliche Intelligenz im Unterricht',
+    descripcion: 'Wie KI-Werkzeuge den Schulunterricht verändern könnten und welche Fragen offenbleiben.',
+    texto: `Der Einsatz künstlicher Intelligenz im Schulunterricht wird derzeit an zahlreichen Schulen erprobt, wobei die Meinungen unter Lehrkräften, Eltern und Bildungsexperten deutlich auseinandergehen. Befürworter sehen in KI-gestützten Lernprogrammen die Chance, den Unterricht stärker an die individuellen Bedürfnisse jedes einzelnen Schülers anzupassen. So könnten Aufgaben automatisch an das jeweilige Lerntempo angepasst werden, was im klassischen Frontalunterricht kaum möglich ist.
+
+Gleichzeitig wird vor den Risiken einer übermäßigen Nutzung gewarnt. Wenn Schülerinnen und Schüler zu früh und zu häufig auf KI-Werkzeuge zurückgreifen würden, könnte dies die Entwicklung eigenständigen Denkens beeinträchtigen. Besonders beim Verfassen von Texten wird befürchtet, dass grundlegende Schreibkompetenzen verlorengehen könnten, wenn ein Großteil der Arbeit von einer Software übernommen wird. Zudem müsste sichergestellt werden, dass die verwendeten Programme keine diskriminierenden oder fehlerhaften Inhalte produzieren.
+
+Bildungspolitiker fordern deshalb einheitliche Richtlinien, die den verantwortungsvollen Umgang mit KI im Klassenzimmer regeln sollen. Eine verpflichtende Fortbildung für Lehrkräfte wäre dabei ein erster, sinnvoller Schritt, damit die Technologie sachkundig eingesetzt und nicht unreflektiert übernommen wird. Ob sich künstliche Intelligenz langfristig als Bereicherung oder als Belastung für den Unterricht erweisen wird, hängt maßgeblich davon ab, wie verantwortungsbewusst sie in den kommenden Jahren eingeführt wird.`,
+    preguntas: [
+      { enunciado: 'Alle Lehrkräfte und Eltern sind sich laut Text einig, wie KI im Unterricht eingesetzt werden sollte.', respuesta: false },
+      { enunciado: 'KI-gestützte Programme könnten Aufgaben an das individuelle Lerntempo anpassen.', respuesta: true },
+      { enunciado: 'Kritiker befürchten, dass Schreibkompetenzen durch übermäßige KI-Nutzung verlorengehen könnten.', respuesta: true },
+      { enunciado: 'Der Text fordert, KI-Werkzeuge komplett aus Schulen zu verbannen.', respuesta: false },
+      { enunciado: 'Bildungspolitiker fordern laut Text einheitliche Richtlinien für den Einsatz von KI.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'mietpreisbremse-und-wohnungsnot',
+    nivel: 'B2',
+    titulo: 'Mietpreisbremse und Wohnungsnot',
+    descripcion: 'Ein Blick auf die Wirksamkeit der Mietpreisbremse angesichts der Wohnungsnot in Großstädten.',
+    texto: `In deutschen Großstädten hat sich die Wohnungsnot in den letzten Jahren erheblich verschärft, was vor allem auf das begrenzte Angebot an bezahlbarem Wohnraum zurückzuführen ist. Die 2015 eingeführte Mietpreisbremse, die eine übermäßige Erhöhung der Mieten bei Neuvermietungen verhindern sollte, wird von Experten unterschiedlich bewertet. Während einige Studien zeigen, dass die Mietsteigerungen in betroffenen Gebieten etwas gebremst wurden, weisen andere Untersuchungen auf zahlreiche Umgehungsmöglichkeiten hin.
+
+Vermieter, die höhere Mieten verlangen möchten, könnten beispielsweise auf möblierte Wohnungen ausweichen, für die die Mietpreisbremse nicht in vollem Umfang gilt. Wäre die Gesetzeslücke geschlossen worden, hätten sich vermutlich deutlich mehr Mieterinnen und Mieter auf den gesetzlichen Schutz verlassen können. Stattdessen wird berichtet, dass ein wachsender Anteil des Wohnungsmarktes in Großstädten aus möblierten Kurzzeitmietverhältnissen besteht, die für Normalverdiener kaum erschwinglich sind.
+
+Sozialverbände fordern daher einen massiven Ausbau des sozialen Wohnungsbaus, der aus ihrer Sicht die einzige nachhaltige Lösung des Problems darstelle. Ohne eine deutlich höhere Bautätigkeit, so die Kritiker, werde die Mietpreisbremse allein nicht ausreichen, um bezahlbaren Wohnraum in den gefragtesten Stadtvierteln zu sichern. Die Bundesregierung hat angekündigt, die Regelung zu verlängern, gleichzeitig wird jedoch auch über zusätzliche Fördermaßnahmen für den Neubau diskutiert.`,
+    preguntas: [
+      { enunciado: 'Die Mietpreisbremse wurde im Jahr 2015 eingeführt.', respuesta: true },
+      { enunciado: 'Laut Text gilt die Mietpreisbremse uneingeschränkt auch für möblierte Wohnungen.', respuesta: false },
+      { enunciado: 'Alle Experten sind sich laut Text einig, dass die Mietpreisbremse voll wirksam ist.', respuesta: false },
+      { enunciado: 'Sozialverbände fordern einen Ausbau des sozialen Wohnungsbaus.', respuesta: true },
+      { enunciado: 'Die Bundesregierung plant laut Text, die Mietpreisbremse sofort abzuschaffen.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
