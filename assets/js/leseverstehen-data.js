@@ -7302,6 +7302,228 @@ Würde der Rundfunkbeitrag abgeschafft, müssten die öffentlich-rechtlichen Sen
       { enunciado: 'Experten empfehlen eine sofortige, unüberlegte Abschaffung des Systems.', respuesta: false },
     ],
   },
+  {
+    slug: 'ich-stelle-mich-vor',
+    nivel: 'A1',
+    titulo: 'Ich stelle mich vor',
+    descripcion: 'Lena erzählt kurz etwas über sich, ihre Familie und ihre Hobbys.',
+    texto: `Hallo! Ich heiße Lena. Ich bin vierzehn Jahre alt und komme aus Freiburg. Ich wohne mit meiner Familie in einem kleinen Haus. Meine Mutter heißt Petra, und mein Vater heißt Jonas. Ich habe auch einen kleinen Bruder. Er heißt Tim und ist acht Jahre alt.
+
+Meine Lieblingsfarbe ist Grün, und mein Lieblingstier ist die Katze. Zu Hause habe ich eine Katze. Sie heißt Mimi und schläft sehr viel. In meiner Freizeit spiele ich gern Fußball und lese Bücher. Am Wochenende gehe ich oft mit meinen Freunden ins Schwimmbad.
+
+Meine Schule heißt Goethe-Schule. Ich gehe jeden Tag um acht Uhr in die Schule. Nach der Schule mache ich meine Hausaufgaben und spiele dann mit Tim. Ich finde mein Leben schön und einfach.`,
+    preguntas: [
+      { enunciado: 'Lena ist vierzehn Jahre alt.', respuesta: true },
+      { enunciado: 'Lenas Bruder heißt Jonas.', respuesta: false },
+      { enunciado: 'Lenas Katze heißt Mimi.', respuesta: true },
+      { enunciado: 'Lena spielt in ihrer Freizeit gern Fußball.', respuesta: true },
+      { enunciado: 'Lena geht nach der Schule sofort ins Schwimmbad.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'im-drogeriemarkt',
+    nivel: 'A1',
+    titulo: 'Im Drogeriemarkt',
+    descripcion: 'Sofia kauft mit ihrer Mutter Shampoo und Zahnpasta im Drogeriemarkt.',
+    texto: `Sofia geht mit ihrer Mutter in den Drogeriemarkt. Der Laden ist groß und hell. Sofia braucht eine neue Zahnbürste, und ihre Mutter sucht Shampoo. Es gibt viele Regale mit Seife, Cremes und Duschgel.
+
+„Welche Zahnbürste möchtest du?“, fragt die Mutter. Sofia zeigt auf eine rote Zahnbürste. Die Mutter nimmt auch eine Packung Zahnpasta und ein Shampoo für trockenes Haar. An der Kasse bezahlt die Mutter mit Karte.
+
+Nach dem Einkauf gehen Sofia und ihre Mutter nach Hause. Sofia trägt die kleine Tüte mit der Zahnbürste. Zu Hause packt sie die Sachen ins Badezimmer. Sie freut sich über ihre neue rote Zahnbürste.`,
+    preguntas: [
+      { enunciado: 'Sofia geht allein in den Drogeriemarkt.', respuesta: false },
+      { enunciado: 'Sofia sucht eine neue Zahnbürste.', respuesta: true },
+      { enunciado: 'Die Mutter kauft kein Shampoo.', respuesta: false },
+      { enunciado: 'Sofia wählt eine rote Zahnbürste.', respuesta: true },
+      { enunciado: 'Die Mutter bezahlt mit Karte.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'fotografieren-ist-mein-hobby',
+    nivel: 'A1',
+    titulo: 'Fotografieren ist mein Hobby',
+    descripcion: 'Paul fotografiert gern Tiere und Blumen im Park.',
+    texto: `Paul hat eine kleine Kamera. Fotografieren ist sein Lieblingshobby. Jeden Samstag geht er in den Park und macht Fotos. Er fotografiert Blumen, Vögel und manchmal auch Hunde.
+
+Heute sieht Paul eine bunte Blume und einen kleinen Vogel. Er macht viele Fotos. Ein Junge fragt: „Was fotografierst du?“ Paul antwortet: „Ich fotografiere Blumen und Tiere.“ Der Junge findet die Fotos sehr schön.
+
+Zu Hause zeigt Paul die Fotos seiner Familie. Seine Schwester mag das Foto vom Vogel am meisten. Paul möchte die Fotos in einem Album sammeln. Er ist glücklich mit seinem Hobby.`,
+    preguntas: [
+      { enunciado: 'Paul fotografiert jeden Samstag.', respuesta: true },
+      { enunciado: 'Paul hat eine große Kamera.', respuesta: false },
+      { enunciado: 'Ein Junge findet die Fotos schön.', respuesta: true },
+      { enunciado: 'Pauls Schwester mag kein Foto.', respuesta: false },
+      { enunciado: 'Paul möchte die Fotos in einem Album sammeln.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-zugfahrt-nach-leipzig',
+    nivel: 'A2',
+    titulo: 'Die Zugfahrt nach Leipzig',
+    descripcion: 'Tobias hat eine lange Zugfahrt nach Leipzig gemacht, weil er seine Cousine besuchen wollte.',
+    texto: `Letzten Freitag ist Tobias mit dem Zug nach Leipzig gefahren, weil er seine Cousine Marie besuchen wollte. Er ist früh am Bahnhof angekommen und hat sich einen Kaffee gekauft. Die Fahrt hat fast drei Stunden gedauert, aber Tobias hat ein Buch gelesen, sodass die Zeit schnell vergangen ist.
+
+Als der Zug in Leipzig angekommen ist, hat Marie schon am Bahnsteig gewartet. Sie hat sich sehr gefreut, weil sie sich lange nicht gesehen hatten. Zusammen sind sie in die Altstadt gegangen und haben dort zu Mittag gegessen. Tobias hat gesagt, dass ihm die alten Gebäude sehr gut gefallen haben.
+
+Am Nachmittag sind sie durch einen Park spaziert und haben viel über die Schule geredet. Wenn Tobias das nächste Mal Zeit hat, möchte er wieder nach Leipzig fahren. Am Abend ist er müde, aber zufrieden nach Hause gefahren.`,
+    preguntas: [
+      { enunciado: 'Tobias ist mit dem Auto nach Leipzig gefahren.', respuesta: false },
+      { enunciado: 'Die Zugfahrt hat fast drei Stunden gedauert.', respuesta: true },
+      { enunciado: 'Marie hat am Bahnhof nicht auf Tobias gewartet.', respuesta: false },
+      { enunciado: 'Tobias und Marie sind in die Altstadt gegangen.', respuesta: true },
+      { enunciado: 'Tobias möchte nie wieder nach Leipzig fahren.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'beim-hausarzt-und-in-der-apotheke',
+    nivel: 'A2',
+    titulo: 'Beim Hausarzt und in der Apotheke',
+    descripcion: 'Nina hatte Halsschmerzen und ist deshalb zum Hausarzt und danach in die Apotheke gegangen.',
+    texto: `Nina hatte seit zwei Tagen Halsschmerzen, deshalb ist sie am Montag zum Hausarzt gegangen. Im Wartezimmer hat sie fast zwanzig Minuten gewartet, weil viele Patienten da waren. Der Arzt hat ihren Hals untersucht und gesagt, dass sie eine leichte Erkältung hat.
+
+Der Arzt hat ein Rezept geschrieben, und Nina ist danach in die Apotheke gegangen. Die Apothekerin hat ihr Tabletten und einen Hustensaft gegeben. „Trinken Sie viel Tee, wenn Sie sich schlecht fühlen“, hat die Apothekerin gesagt. Nina hat sich bedankt und ist nach Hause gefahren.
+
+Zu Hause hat sie sich sofort ins Bett gelegt und Tee getrunken. Am nächsten Tag hat sie sich schon etwas besser gefühlt. Sie war froh, dass sie rechtzeitig zum Arzt gegangen war.`,
+    preguntas: [
+      { enunciado: 'Nina hatte Bauchschmerzen.', respuesta: false },
+      { enunciado: 'Nina musste im Wartezimmer lange warten.', respuesta: true },
+      { enunciado: 'Der Arzt hat kein Rezept geschrieben.', respuesta: false },
+      { enunciado: 'Die Apothekerin hat Nina Tabletten gegeben.', respuesta: true },
+      { enunciado: 'Am nächsten Tag hat sich Nina schlechter gefühlt.', respuesta: false },
+    ],
+  },
+  {
+    slug: 'der-laute-nachbar',
+    nivel: 'A2',
+    titulo: 'Der laute Nachbar',
+    descripcion: 'Familie Berger hat sich über den lauten Nachbarn geärgert, bis sie mit ihm gesprochen hat.',
+    texto: `Familie Berger wohnt seit einem Jahr in einer Wohnung in Köln. Ihr Nachbar, Herr Wolf, hört abends oft sehr laute Musik. Letzte Woche hat Frau Berger nicht schlafen können, weil die Musik bis Mitternacht gespielt hat.
+
+Am nächsten Morgen hat Frau Berger an die Tür von Herrn Wolf geklopft. Sie hat ihm ruhig erklärt, dass die Musik zu laut war. Herr Wolf hat sich entschuldigt und gesagt, dass er das nicht gewusst hatte. Er hat versprochen, abends leiser Musik zu hören.
+
+Seitdem ist es in der Nacht viel ruhiger. Manchmal trinken Frau Berger und Herr Wolf sogar zusammen einen Kaffee. Die Familie ist froh, dass sie mit ihm gesprochen hat, anstatt sich nur zu ärgern.`,
+    preguntas: [
+      { enunciado: 'Herr Wolf ist der Nachbar von Familie Berger.', respuesta: true },
+      { enunciado: 'Die Musik war nie zu laut.', respuesta: false },
+      { enunciado: 'Frau Berger hat mit Herrn Wolf gesprochen.', respuesta: true },
+      { enunciado: 'Herr Wolf wollte sich nicht entschuldigen.', respuesta: false },
+      { enunciado: 'Seitdem ist es nachts ruhiger.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-kuendigung-nach-fuenf-jahren',
+    nivel: 'B1',
+    titulo: 'Die Kündigung nach fünf Jahren',
+    descripcion: 'Markus hat nach fünf Jahren in seiner Firma gekündigt, obwohl der Abschied ihm schwerfiel.',
+    texto: `Markus hatte fünf Jahre lang in einer Werbeagentur gearbeitet, bevor er sich entschied zu kündigen. Obwohl er seine Kollegen sehr mochte, fühlte er sich in letzter Zeit nicht mehr motiviert. Er wollte etwas Neues ausprobieren und sich beruflich weiterentwickeln, auch wenn das bedeutete, seine Komfortzone zu verlassen.
+
+Nachdem er mit seiner Chefin gesprochen hatte, reichte er offiziell seine Kündigung ein. Seine Kollegen waren überrascht, aber sie verstanden seine Entscheidung. Trotzdem organisierten sie eine kleine Abschiedsfeier, bei der viele nette Worte gesagt wurden. Markus war gerührt, obwohl er wusste, dass der Abschied richtig war.
+
+In den folgenden Wochen bewarb sich Markus bei mehreren Unternehmen und bekam schließlich ein interessantes Angebot in der IT-Branche. Auch wenn der neue Job eine große Herausforderung darstellte, war er zuversichtlich. Er wusste, dass er die Erfahrung aus den fünf Jahren gut gebrauchen konnte.`,
+    preguntas: [
+      { enunciado: 'Markus hat zehn Jahre in der Werbeagentur gearbeitet.', respuesta: false },
+      { enunciado: 'Markus mochte seine Kollegen nicht.', respuesta: false },
+      { enunciado: 'Die Kollegen haben eine Abschiedsfeier organisiert.', respuesta: true },
+      { enunciado: 'Markus hat sofort einen neuen Job in der IT-Branche gefunden, ohne sich zu bewerben.', respuesta: false },
+      { enunciado: 'Markus war nach der Kündigung zuversichtlich.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'das-strassentheater-am-wochenende',
+    nivel: 'B1',
+    titulo: 'Das Straßentheater am Wochenende',
+    descripcion: 'Eine Theatergruppe hat am Wochenende ein spontanes Straßentheater in der Innenstadt aufgeführt.',
+    texto: `Am Samstagnachmittag versammelte sich eine kleine Menschenmenge in der Fußgängerzone, nachdem eine Theatergruppe angekündigt hatte, dort aufzutreten. Die Schauspieler trugen bunte Kostüme und begannen spontan mit einer lustigen Szene über das Alltagsleben. Obwohl niemand vorher genau wusste, worum es gehen würde, waren die Zuschauer schnell begeistert.
+
+Ein älterer Mann blieb besonders lange stehen und lachte laut über die Witze der Schauspieler. Trotzdem gab es auch ein paar Passanten, die nur kurz stehen blieben und dann weitergingen. Nachdem die Vorstellung geendet hatte, sammelten die Schauspieler Spenden in einem alten Hut.
+
+Viele Zuschauer waren überrascht, wie professionell die Gruppe war, obwohl sie keine bekannten Namen hatten. Am Ende versprachen die Schauspieler, im nächsten Monat wiederzukommen. Die Stadt gewinnt durch solche spontanen Auftritte an Lebendigkeit.`,
+    preguntas: [
+      { enunciado: 'Die Theatergruppe hat in einem Theatersaal gespielt.', respuesta: false },
+      { enunciado: 'Die Zuschauer waren von der Vorstellung begeistert.', respuesta: true },
+      { enunciado: 'Alle Passanten sind lange stehen geblieben.', respuesta: false },
+      { enunciado: 'Die Schauspieler haben nach der Vorstellung Spenden gesammelt.', respuesta: true },
+      { enunciado: 'Die Gruppe möchte im nächsten Monat wiederkommen.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'die-versoehnung-nach-dem-streit',
+    nivel: 'B1',
+    titulo: 'Die Versöhnung nach dem Streit',
+    descripcion: 'Julia und ihre beste Freundin Hanna haben sich nach einem großen Streit endlich wieder versöhnt.',
+    texto: `Julia und Hanna waren seit der Grundschule beste Freundinnen, doch vor drei Wochen hatten sie sich wegen eines Missverständnisses gestritten. Obwohl beide traurig darüber waren, hatte keine von ihnen den ersten Schritt gemacht. Nachdem der Streit einige Zeit gedauert hatte, wurde die Situation für beide immer unangenehmer.
+
+Eines Tages schrieb Julia Hanna eine lange Nachricht, in der sie sich entschuldigte. Sie erklärte, dass sie die Freundschaft vermisste, obwohl sie stolz war und sich das nicht leicht eingestehen konnte. Hanna antwortete sofort und schlug vor, sich im Café zu treffen, um alles zu klären.
+
+Bei dem Treffen sprachen sie offen über ihre Gefühle und verstanden endlich, warum es zu dem Streit gekommen war. Trotz einiger Meinungsverschiedenheiten waren sie sich einig, dass ihre Freundschaft wichtiger war als der Streit. Am Ende umarmten sie sich und lachten über die ganze Situation.`,
+    preguntas: [
+      { enunciado: 'Julia und Hanna kennen sich erst seit einem Jahr.', respuesta: false },
+      { enunciado: 'Der Streit ist wegen eines Missverständnisses entstanden.', respuesta: true },
+      { enunciado: 'Hanna hat als Erste eine Nachricht geschrieben.', respuesta: false },
+      { enunciado: 'Sie haben sich im Café getroffen, um zu reden.', respuesta: true },
+      { enunciado: 'Am Ende der Geschichte sind Julia und Hanna wieder befreundet.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'digitale-teilhabe-im-alter',
+    nivel: 'B2',
+    titulo: 'Digitale Teilhabe im Alter',
+    descripcion: 'Der Text beleuchtet, warum viele ältere Menschen von der Digitalisierung abgehängt werden und was dagegen getan werden könnte.',
+    texto: `Während immer mehr Behördengänge, Bankgeschäfte und Arztterminvereinbarungen online abgewickelt werden, fühlen sich viele ältere Menschen von dieser Entwicklung überfordert. Studien zeigen, dass ein erheblicher Teil der über Siebzigjährigen in Deutschland kein Smartphone besitzt oder es nur selten nutzt. Die zunehmend digitalisierte, auf schnelle Selbstbedienung ausgerichtete Verwaltung stellt für diese Gruppe eine reale Hürde dar.
+
+Wäre die Digitalisierung von Anfang an inklusiver gestaltet worden, hätten viele dieser Probleme vermieden werden können. Kritiker bemängeln, dass Apps und Webseiten häufig ohne Rücksicht auf ältere Nutzer entwickelt werden, die mit kleiner Schrift, komplizierten Menüs und fehlenden Erklärungen konfrontiert sind. Es wäre wichtig, dass barrierefreie und leicht verständliche Alternativen angeboten würden, statt analoge Angebote vollständig abzuschaffen.
+
+In einigen Städten wurden bereits kostenlose Kurse eingerichtet, in denen älteren Menschen der Umgang mit Smartphones und Computern beigebracht wird. Sollten solche Angebote flächendeckend ausgebaut werden, könnte die digitale Kluft zwischen den Generationen deutlich verringert werden. Dennoch bleibt fraglich, ob genug finanzielle Mittel dafür bereitgestellt werden.
+
+Letztlich geht es nicht nur um Technik, sondern um gesellschaftliche Teilhabe. Wenn ältere Menschen von digitalen Prozessen ausgeschlossen blieben, würde dies ihre Selbstständigkeit im Alltag erheblich einschränken. Eine Gesellschaft, die niemanden zurücklassen möchte, müsste daher gezielt in digitale Bildung für alle Altersgruppen investieren.`,
+    preguntas: [
+      { enunciado: 'Laut Text nutzen fast alle über Siebzigjährigen regelmäßig ein Smartphone.', respuesta: false },
+      { enunciado: 'Der Text kritisiert, dass digitale Angebote oft nicht auf ältere Nutzer zugeschnitten sind.', respuesta: true },
+      { enunciado: 'In manchen Städten gibt es bereits kostenlose Kurse für ältere Menschen.', respuesta: true },
+      { enunciado: 'Laut Text ist die Finanzierung solcher Kurse in jedem Fall gesichert.', respuesta: false },
+      { enunciado: 'Der Text plädiert dafür, ältere Menschen stärker in die digitale Gesellschaft einzubinden.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'serielles-bauen-gegen-wohnungsnot',
+    nivel: 'B2',
+    titulo: 'Serielles Bauen gegen die Wohnungsnot',
+    descripcion: 'Der Text diskutiert, ob standardisiertes, serielles Bauen eine Lösung für die angespannte Wohnungssituation in deutschen Großstädten sein könnte.',
+    texto: `Angesichts der anhaltenden Wohnungsnot in vielen deutschen Großstädten wird zunehmend über sogenanntes serielles Bauen diskutiert. Dabei handelt es sich um ein Verfahren, bei dem Wohnungen nach standardisierten Plänen und mit vorgefertigten Bauteilen errichtet werden, was die Bauzeit erheblich verkürzen soll. Befürworter argumentieren, dass auf diese Weise deutlich schneller und kostengünstiger neuer Wohnraum geschaffen werden könnte.
+
+Wenn Kommunen mehr Grundstücke für serielles Bauen zur Verfügung stellen würden, könnten nach Ansicht von Experten innerhalb weniger Jahre Zehntausende zusätzlicher Wohnungen entstehen. Dennoch wird das Verfahren auch kritisiert. Manche Architekten befürchten, dass durch die Standardisierung eintönige, wenig individuell gestaltete Wohnviertel entstehen könnten, die langfristig zu sozialen Problemen führen.
+
+Zudem wird bemängelt, dass bürokratische Genehmigungsverfahren trotz vereinfachter Bauweise weiterhin sehr lange dauern. Wäre die Genehmigungspraxis konsequent vereinfacht worden, hätten bereits deutlich mehr Projekte realisiert werden können. Einige Bundesländer haben inzwischen begonnen, die Vorschriften für serielles Bauen zu lockern, um den Prozess zu beschleunigen.
+
+Ob serielles Bauen die Wohnungskrise tatsächlich lösen kann, bleibt umstritten. Klar ist jedoch, dass ohne eine Kombination aus schnellerem Bauen, mehr verfügbaren Flächen und einer vereinfachten Bürokratie die Wohnungsnot in den kommenden Jahren kaum spürbar gelindert werden dürfte.`,
+    preguntas: [
+      { enunciado: 'Serielles Bauen basiert auf standardisierten Plänen und vorgefertigten Bauteilen.', respuesta: true },
+      { enunciado: 'Laut Text lehnen alle Architekten serielles Bauen strikt ab.', respuesta: false },
+      { enunciado: 'Manche Kritiker befürchten eintönige Wohnviertel durch serielles Bauen.', respuesta: true },
+      { enunciado: 'Die bürokratischen Genehmigungsverfahren sind laut Text bereits vollständig vereinfacht worden.', respuesta: false },
+      { enunciado: 'Der Text sieht serielles Bauen als eine mögliche, aber nicht alleinige Lösung der Wohnungsnot.', respuesta: true },
+    ],
+  },
+  {
+    slug: 'bildungsfoederalismus-in-deutschland',
+    nivel: 'B2',
+    titulo: 'Bildungsföderalismus in Deutschland',
+    descripcion: 'Der Text erörtert Vor- und Nachteile des deutschen Bildungsföderalismus, bei dem jedes Bundesland eigene Lehrpläne und Schulsysteme hat.',
+    texto: `In Deutschland liegt die Bildungspolitik traditionell in der Zuständigkeit der einzelnen Bundesländer, was als Bildungsföderalismus bezeichnet wird. Dadurch entstehen sechzehn unterschiedliche Schulsysteme mit jeweils eigenen Lehrplänen, Prüfungsanforderungen und Ferienregelungen. Befürworter dieses Systems betonen, dass regionale Besonderheiten so besser berücksichtigt werden könnten als durch eine zentrale, bundesweite Regelung.
+
+Kritiker hingegen weisen darauf hin, dass Familien, die innerhalb Deutschlands umziehen, häufig erhebliche Schwierigkeiten haben, weil ihre Kinder in einem völlig anderen Schulsystem zurechtkommen müssen. Ein Schüler, der von Bayern nach Berlin wechselt, könnte beispielsweise mit einem komplett anderen Lehrplan konfrontiert werden, was den Übergang erheblich erschwert. Wäre das Bildungssystem stärker vereinheitlicht worden, ließen sich solche Probleme vermutlich vermeiden.
+
+Auch die Vergleichbarkeit von Abschlüssen wird immer wieder infrage gestellt, da das Abitur in manchen Bundesländern als leichter zu erreichen gilt als in anderen. Es wird diskutiert, ob zumindest zentrale Elemente wie das Abitur bundesweit vereinheitlicht werden sollten, ohne den Ländern jegliche Gestaltungsfreiheit zu nehmen. Ein solcher Kompromiss könnte helfen, allen Schülerinnen und Schülern gleiche Chancen zu bieten.
+
+Trotz aller Kritik dürfte eine vollständige Abschaffung des Bildungsföderalismus politisch kaum durchsetzbar sein, da die Bundesländer nur ungern Kompetenzen abgeben würden. Realistischer erscheint eine schrittweise Annäherung der Systeme, bei der zentrale Standards eingeführt werden, ohne die föderale Struktur grundsätzlich infrage zu stellen.`,
+    preguntas: [
+      { enunciado: 'In Deutschland gibt es ein einheitliches, bundesweites Schulsystem.', respuesta: false },
+      { enunciado: 'Kritiker bemängeln, dass umziehende Familien oft Schwierigkeiten mit unterschiedlichen Schulsystemen haben.', respuesta: true },
+      { enunciado: 'Laut Text gilt das Abitur in allen Bundesländern als gleich schwer.', respuesta: false },
+      { enunciado: 'Der Text schlägt vor, zumindest zentrale Elemente wie das Abitur zu vereinheitlichen.', respuesta: true },
+      { enunciado: 'Laut Text ist eine vollständige Abschaffung des Bildungsföderalismus politisch sehr wahrscheinlich.', respuesta: false },
+    ],
+  },
 ];
 
 // Permite importar desde Node.js (generate-pages.js) sin romper el navegador
