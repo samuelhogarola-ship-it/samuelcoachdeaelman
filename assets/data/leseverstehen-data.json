@@ -4878,5 +4878,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-woche",
+    "nivel": "A1",
+    "titulo": "Meine Woche",
+    "descripcion": "Lisa erzählt, was sie an jedem Tag der Woche macht.",
+    "texto": "Ich heiße Lisa und ich bin zehn Jahre alt. Eine Woche hat sieben Tage. Am Montag gehe ich in die Schule. Am Dienstag habe ich Sportunterricht. Am Mittwoch lerne ich Englisch und Mathe. Der Unterricht macht mir Spaß.\n\nAm Donnerstag spiele ich Klavier. Am Freitag treffe ich meine Freundin Mia. Wir spielen zusammen im Garten. Am Samstag kaufe ich mit meiner Mutter ein. Wir kaufen Brot, Milch und Obst.\n\nAm Sonntag ist kein Schultag. Ich schlafe lange und esse ein großes Frühstück. Am Nachmittag besuchen wir meine Oma. Sie backt einen leckeren Kuchen. Der Sonntag ist mein Lieblingstag.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Montag hat Lisa Sportunterricht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Freitag trifft Lisa ihre Freundin Mia.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Samstag geht Lisa in die Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag besucht Lisa ihre Oma.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "am-wochenende",
+    "nivel": "A1",
+    "titulo": "Am Wochenende",
+    "descripcion": "Paul erzählt, was er am Wochenende gern macht.",
+    "texto": "Ich heiße Paul. Am Wochenende habe ich viel Freizeit. Samstagmorgen schlafe ich lange. Danach frühstücke ich mit meiner Familie. Wir essen Brötchen mit Marmelade und trinken Kakao.\n\nAm Samstagnachmittag spiele ich Fußball mit meinen Freunden. Wir spielen im Park. Meine Schwester Emma malt lieber zu Hause. Sie mag Fußball nicht so gern.\n\nAm Sonntag fahren wir oft mit dem Fahrrad an den See. Dort essen wir ein Picknick. Am Abend sehe ich noch einen Film. Das Wochenende ist immer schön.",
+    "preguntas": [
+      {
+        "enunciado": "Paul schläft am Samstagmorgen lange.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul spielt am Samstagnachmittag Tennis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma spielt gern Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag fahren sie an den See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend sieht Paul einen Film.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-freunde",
+    "nivel": "A1",
+    "titulo": "Meine Freunde",
+    "descripcion": "Tom stellt seine drei besten Freunde vor.",
+    "texto": "Ich heiße Tom und ich habe drei gute Freunde. Mein erster Freund heißt Ben. Er ist zwölf Jahre alt und spielt gern Fußball. Meine Freundin Sara ist elf Jahre alt. Sie malt sehr gern bunte Bilder.\n\nMein dritter Freund heißt Jonas. Er wohnt neben mir. Jonas hat einen Hund. Der Hund heißt Rex und ist sehr freundlich. Wir spielen oft zusammen im Garten.\n\nAm Nachmittag treffen wir uns oft im Park. Ben bringt seinen Fußball mit. Sara zeichnet unter einem Baum. Jonas und ich spielen mit Rex. Meine Freunde sind mir sehr wichtig.",
+    "preguntas": [
+      {
+        "enunciado": "Ben ist zwölf Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sara spielt gern Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hund heißt Rex.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom trifft seine Freunde oft im Park.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "reise-nach-salzburg",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Salzburg",
+    "descripcion": "Julia hat mit ihrer Familie eine Reise nach Salzburg gemacht.",
+    "texto": "Letzten Sommer ist Julia mit ihrer Familie nach Salzburg gefahren. Sie sind mit dem Auto gefahren, weil die Fahrt nicht so lange gedauert hat. Als sie angekommen sind, haben sie zuerst ein Hotel in der Altstadt gesucht. Julia fand die Stadt sofort wunderschön, weil überall alte Häuser und Kirchen standen.\n\nAm nächsten Tag haben sie die Festung Hohensalzburg besucht. Sie sind mit der Seilbahn nach oben gefahren, weil der Weg zu Fuß sehr steil war. Von dort oben hatten sie einen tollen Blick über die ganze Stadt. „Das ist wirklich beeindruckend!“, hat Julias Mutter gesagt. Am Nachmittag haben sie in einem kleinen Café Kaffee und Kuchen gegessen.\n\nAm letzten Tag sind sie durch die Getreidegasse spaziert und haben das Geburtshaus von Mozart besichtigt. Julia hat dort viele Fotos gemacht, weil sie sich später an alles erinnern wollte. Bevor sie nach Hause gefahren sind, haben sie noch typische Mozartkugeln gekauft. Julia war traurig, dass die Reise schon zu Ende war, aber sie freut sich schon auf den nächsten Besuch.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit dem Zug nach Salzburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat ein Hotel in der Altstadt gesucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind zu Fuß auf die Festung Hohensalzburg gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat das Geburtshaus von Mozart besichtigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia war froh, dass die Reise zu Ende war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "beim-optiker",
+    "nivel": "A2",
+    "titulo": "Beim Optiker",
+    "descripcion": "Markus hat gemerkt, dass er eine neue Brille braucht.",
+    "texto": "Markus hat in letzter Zeit oft Kopfschmerzen gehabt, wenn er lange am Computer gearbeitet hat. Er hat auch bemerkt, dass er die Straßenschilder nicht mehr gut lesen konnte. Deshalb hat er einen Termin beim Optiker gemacht.\n\nBeim Optiker hat eine freundliche Frau seine Augen getestet. Sie hat ihm verschiedene Buchstaben gezeigt, und Markus musste sagen, welche er lesen konnte. „Ihre Augen haben sich ein bisschen verändert“, hat die Optikerin erklärt. Sie hat ihm eine neue Brille empfohlen, weil seine alte Brille nicht mehr passend war.\n\nMarkus hat lange nach einem Gestell gesucht, das ihm gefallen hat. Am Ende hat er sich für eine schwarze Brille entschieden. Als er die neue Brille eine Woche später abgeholt hat, konnte er endlich wieder alles scharf sehen. Er war sehr zufrieden und hat sich gefreut, dass die Kopfschmerzen weniger geworden sind.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte Kopfschmerzen, wenn er am Computer gearbeitet hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus konnte die Straßenschilder gut lesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Optikerin hat gesagt, dass sich seine Augen nicht verändert haben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat sich für eine schwarze Brille entschieden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus war unzufrieden mit der neuen Brille.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-laute-nachbar",
+    "nivel": "A2",
+    "titulo": "Der laute Nachbar",
+    "descripcion": "Frau Berger hat sich über ihren neuen Nachbarn geärgert.",
+    "texto": "Frau Berger wohnt seit vielen Jahren in einem ruhigen Mehrfamilienhaus. Vor zwei Monaten ist ein junger Mann in die Wohnung über ihr eingezogen. Seitdem ist es abends oft sehr laut, weil er gern Musik hört und Freunde einlädt.\n\nLetzte Woche konnte Frau Berger nicht schlafen, weil die Musik bis Mitternacht gespielt hat. Am nächsten Morgen ist sie zu ihm gegangen und hat höflich mit ihm gesprochen. Der junge Mann, der Felix heißt, hat sich sofort entschuldigt. Er hat nicht gewusst, dass die Wände so dünn sind.\n\nSeit dem Gespräch ist es viel ruhiger geworden. Felix hat versprochen, dass er nach zweiundzwanzig Uhr keine laute Musik mehr hört. Frau Berger war froh, dass sie das Problem ohne Streit lösen konnte. Jetzt grüßen sich die beiden Nachbarn freundlich, wenn sie sich im Treppenhaus treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger wohnt seit vielen Jahren in dem Haus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der neue Nachbar heißt Felix.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix wollte die Wände absichtlich laut machen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat sich nie mit Felix unterhalten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Gespräch ist es ruhiger geworden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-vorstellungsgespraech",
+    "nivel": "B1",
+    "titulo": "Das Vorstellungsgespräch",
+    "descripcion": "Sophie bereitet sich auf ein wichtiges Vorstellungsgespräch vor.",
+    "texto": "Sophie hat sich seit Wochen auf ihr erstes Vorstellungsgespräch vorbereitet, nachdem sie ihre Bewerbung als Marketingassistentin abgeschickt hatte. Obwohl sie schon viele Informationen über die Firma gesammelt hatte, war sie am Morgen des Gesprächs sehr nervös. Trotzdem zog sie ihr bestes Kleid an und machte sich früh auf den Weg, damit sie nicht zu spät kam.\n\nIm Büro wurde sie freundlich von der Personalchefin empfangen. Nachdem sie sich kurz vorgestellt hatte, stellte die Personalchefin viele Fragen zu ihrer Ausbildung und ihren bisherigen Erfahrungen. Sophie antwortete ruhig, obwohl ihr Herz schnell schlug. Sie erzählte auch von einem Praktikum, während dessen sie viel über soziale Medien gelernt hatte.\n\nAm Ende des Gesprächs durfte Sophie selbst Fragen stellen. Sie fragte nach den Aufgaben und dem Team, in dem sie arbeiten würde. Die Personalchefin lächelte und sagte, dass sie sich in den nächsten Tagen melden würde. Auf dem Heimweg war Sophie erleichtert, obwohl sie immer noch nicht wusste, ob sie den Job bekommen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat sich als Marketingassistentin beworben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie war am Morgen des Gesprächs völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Personalchefin hat Sophie nach ihrer Ausbildung gefragt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie durfte am Ende keine eigenen Fragen stellen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Gespräch wusste Sophie sofort, dass sie den Job bekommen hat.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-austauschschueler",
+    "nivel": "B1",
+    "titulo": "Der Austauschschüler",
+    "descripcion": "Ein japanischer Austauschschüler verbringt ein Schuljahr in Deutschland.",
+    "texto": "Kenji ist ein Austauschschüler aus Japan, der seit September eine deutsche Schule besucht. Obwohl er vor seiner Ankunft nur wenig Deutsch sprechen konnte, hat er sich schnell in der Klasse eingelebt. Nachdem er die ersten Wochen bei einer Gastfamilie in Freiburg verbracht hatte, fühlte er sich schon fast wie zu Hause.\n\nAm Anfang war es für Kenji nicht leicht, dem Unterricht zu folgen, weil viele Wörter noch fremd für ihn waren. Trotzdem gab er nicht auf und lernte jeden Abend fleißig neue Vokabeln. Seine Mitschüler halfen ihm gern, und er freundete sich besonders mit Lukas an, der ihm die deutsche Kultur erklärte. Zusammen unternahmen sie viel, obwohl sie aus so unterschiedlichen Ländern kamen.\n\nNach einigen Monaten konnte Kenji sich schon gut auf Deutsch unterhalten. Er nahm sogar an einem Schulausflug in die Berge teil, bei dem er neue Freunde aus anderen Klassen kennenlernte. Kenji ist froh, dass er sich für diesen Austausch entschieden hat, denn er hat nicht nur eine neue Sprache, sondern auch eine neue Kultur kennengelernt.",
+    "preguntas": [
+      {
+        "enunciado": "Kenji kommt aus Japan.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kenji konnte schon vor seiner Ankunft fließend Deutsch sprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kenji wohnt bei einer Gastfamilie in Freiburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kenji hat sich mit niemandem in der Klasse angefreundet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kenji hat an einem Schulausflug in die Berge teilgenommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wg-leben",
+    "nivel": "B1",
+    "titulo": "Das WG-Leben",
+    "descripcion": "Tim zieht zum Studienbeginn in eine Wohngemeinschaft.",
+    "texto": "Als Tim mit seinem Studium begann, zog er in eine Wohngemeinschaft mit zwei anderen Studenten. Obwohl er vorher immer ein eigenes Zimmer bei seinen Eltern hatte, wollte er unbedingt die Erfahrung machen, mit fremden Menschen zusammenzuleben. Nachdem er seine Sachen eingeräumt hatte, lernte er seine beiden Mitbewohner, Nina und Paul, besser kennen.\n\nAm Anfang gab es kleine Probleme, weil jeder andere Gewohnheiten im Haushalt hatte. Nina räumte immer sofort auf, während Paul die Küche oft chaotisch hinterließ. Trotzdem einigten sie sich schnell auf einen Putzplan, der für alle fair war. Sie kochten außerdem abwechselnd für die ganze WG, was Tim besonders gut gefiel, weil er dadurch viele neue Gerichte kennenlernte.\n\nNach einigen Monaten war das WG-Leben für Tim nicht mehr wegzudenken. Er hatte gelernt, Rücksicht zu nehmen und Kompromisse zu schließen. Obwohl er anfangs skeptisch gewesen war, betrachtet er Nina und Paul mittlerweile als gute Freunde. Für Tim steht fest, dass er dieses Kapitel seines Studiums nie vergessen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hatte vor dem Studium ein eigenes Zimmer bei seinen Eltern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina und Paul hatten von Anfang an die gleichen Gewohnheiten im Haushalt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mitbewohner haben sich auf einen Putzplan geeinigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim mochte es nicht, dass sie abwechselnd kochten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim betrachtet Nina und Paul mittlerweile als Freunde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ueberwachung-am-arbeitsplatz",
+    "nivel": "B2",
+    "titulo": "Überwachung am Arbeitsplatz – Kontrolle im Namen der Effizienz?",
+    "descripcion": "Digitale Überwachungstools verändern die Arbeitswelt und werfen ethische Fragen auf.",
+    "texto": "In immer mehr Unternehmen werden Mitarbeiterinnen und Mitarbeiter mithilfe digitaler Software überwacht, die Tastaturanschläge zählt, Bildschirmzeiten protokolliert und sogar Mausbewegungen analysiert. Befürworter dieser sogenannten Employee-Monitoring-Systeme argumentieren, dass die Produktivität dadurch gesteigert und Missbrauch von Arbeitszeit verhindert werden könne. Kritiker hingegen weisen darauf hin, dass ein ständig überwachter Mensch nicht freier, sondern misstrauischer und gestresster arbeite.\n\nWürde man Beschäftigte offen fragen, ob sie eine solche Kontrolle akzeptieren würden, fiele die Antwort in den meisten Fällen ablehnend aus. Dennoch wird die Überwachung häufig ohne ausreichende Aufklärung eingeführt, was rechtlich in vielen europäischen Ländern eigentlich unzulässig ist. In Deutschland etwa dürfen personenbezogene Daten nur dann erhoben werden, wenn dies durch ein berechtigtes Interesse gerechtfertigt und der Betriebsrat einbezogen worden ist.\n\nBesonders im Homeoffice, das während der Pandemie zum Alltag vieler Angestellter geworden ist, greifen manche Arbeitgeber zu fragwürdigen Mitteln, um die Anwesenheit ihrer Mitarbeitenden zu kontrollieren. Programme, die alle zehn Minuten einen Screenshot des Bildschirms erstellen, werden von Datenschützern scharf kritisiert. Es stellt sich die Frage, ob Vertrauen nicht ein wirksameres Mittel wäre als permanente Kontrolle, um Motivation und Loyalität der Belegschaft zu fördern.\n\nLangfristig könnte ein Übermaß an Überwachung genau das Gegenteil dessen bewirken, was Unternehmen eigentlich erreichen wollen. Studien zeigen, dass überwachte Angestellte häufiger kündigen und seltener eigene Ideen einbringen, weil sie sich nicht als selbstständig denkende Individuen, sondern als kontrollierte Ressourcen fühlen. Sollte sich dieser Trend fortsetzen, müssten Unternehmen langfristig mit einem erheblichen Verlust an Kreativität und Innovationskraft rechnen.",
+    "preguntas": [
+      {
+        "enunciado": "Employee-Monitoring-Systeme protokollieren unter anderem die Bildschirmzeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Beschäftigten würden eine solche Überwachung problemlos akzeptieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Deutschland dürfen personenbezogene Daten ohne jede rechtliche Grundlage erhoben werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Homeoffice setzen manche Arbeitgeber Programme ein, die regelmäßig Screenshots erstellen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zeigen, dass überwachte Mitarbeiter seltener kündigen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "plastikmuell-in-den-ozeanen",
+    "nivel": "B2",
+    "titulo": "Plastikmüll in den Ozeanen – Eine unterschätzte Krise",
+    "descripcion": "Die Vermüllung der Weltmeere durch Plastik gefährdet Ökosysteme und Gesundheit.",
+    "texto": "Jedes Jahr gelangen schätzungsweise acht Millionen Tonnen Plastikmüll in die Weltmeere – eine Menge, die sich einem Laster voller Müll entspricht, der alle paar Minuten ins Meer gekippt wird. Ein Großteil dieses Mülls stammt nicht direkt von Schiffen, sondern gelangt über Flüsse, die durch dicht besiedelte Regionen fließen, ins offene Meer. Besonders problematisch ist Mikroplastik, das durch die Zersetzung größerer Plastikteile entsteht und mittlerweile in nahezu jedem untersuchten Fisch nachgewiesen werden konnte.\n\nWäre die Politik konsequenter, könnten viele dieser Kunststoffe schon vor ihrer Entstehung vermieden werden, etwa durch strengere Vorgaben für Verpackungsindustrien und Einwegprodukte. Zwar wurden in der Europäischen Union bestimmte Einwegplastikartikel wie Trinkhalme und Wattestäbchen bereits verboten, doch Umweltverbände fordern, dass diese Maßnahmen deutlich ausgeweitet werden müssten, um einen spürbaren Effekt zu erzielen. Ohne ein global koordiniertes Abkommen, das auch Länder ohne funktionierende Abfallwirtschaft einbindet, bliebe jede regionale Maßnahme jedoch nur ein Tropfen auf den heißen Stein.\n\nDie Folgen der Vermüllung sind längst nicht mehr nur ein ästhetisches Problem verschmutzter Strände. Meerestiere verwechseln kleine Plastikteile häufig mit Nahrung, was zu inneren Verletzungen und häufig zum Tod führt. Über die Nahrungskette gelangt das Mikroplastik schließlich auch auf die Teller der Menschen, wobei die langfristigen gesundheitlichen Folgen bislang nur unzureichend erforscht sind.\n\nManche Wissenschaftler sehen in innovativen Reinigungsprojekten, bei denen riesige schwimmende Barrieren eingesetzt werden, einen vielversprechenden Ansatz. Andere Experten betonen jedoch, dass es sinnvoller wäre, den Müll gar nicht erst entstehen zu lassen, anstatt ihn nachträglich mühsam wieder einzusammeln. Sollten sich Konsumverhalten und Produktionsweisen nicht grundlegend ändern, würde sich die Menge des Plastikmülls in den Ozeanen einer aktuellen Studie zufolge bis zum Jahr 2050 sogar verdreifachen.",
+    "preguntas": [
+      {
+        "enunciado": "Der größte Teil des Plastikmülls im Meer stammt ausschließlich von Schiffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mikroplastik konnte bereits in vielen untersuchten Fischen nachgewiesen werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die EU hat bereits einige Einwegplastikartikel verboten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Wissenschaftler sind sich einig, dass Reinigungsprojekte die beste Lösung sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut einer Studie könnte sich die Plastikmenge in den Ozeanen bis 2050 verdreifachen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitale-kluft",
+    "nivel": "B2",
+    "titulo": "Die digitale Kluft – Wer bleibt beim Fortschritt zurück?",
+    "descripcion": "Ungleicher Zugang zu digitaler Technik verstärkt soziale Unterschiede in der Gesellschaft.",
+    "texto": "Während ein Teil der Gesellschaft selbstverständlich mit Smartphones, schnellem Internet und digitalen Behördendiensten umgeht, fühlen sich andere Menschen von der fortschreitenden Digitalisierung zunehmend abgehängt. Diese sogenannte digitale Kluft betrifft besonders ältere Menschen, Geringverdiener und Personen, die in ländlichen Regionen ohne ausreichende Internetanbindung leben. Wer keinen Zugang zu digitalen Technologien hat, dem bleiben zunehmend auch gesellschaftliche Teilhabemöglichkeiten verwehrt, die für andere längst selbstverständlich sind.\n\nBesonders deutlich wurde dieses Problem während der Corona-Pandemie, als Schulunterricht und Arbeit plötzlich von zu Hause aus stattfinden mussten. Kinder aus einkommensschwachen Familien, denen kein eigener Laptop zur Verfügung stand, konnten dem Onlineunterricht oft nicht folgen. Hätte man frühzeitig in eine flächendeckende digitale Infrastruktur investiert, wären solche Bildungslücken vermutlich deutlich kleiner ausgefallen.\n\nAuch im Alter wird die Digitalisierung zur Hürde, wenn wichtige Dienstleistungen wie Bankgeschäfte oder Arztbesuche zunehmend nur noch online angeboten werden. Viele ältere Menschen, die mit der neuen Technik nicht aufgewachsen sind, fühlen sich von den ständig wechselnden Apps und Benutzeroberflächen überfordert. Es wird oft vergessen, dass digitale Angebote nur dann wirklich inklusiv sind, wenn sie durch analoge Alternativen ergänzt werden.\n\nUm die digitale Kluft zu verringern, müssten mehrere Maßnahmen gleichzeitig ergriffen werden: der Ausbau schneller Internetverbindungen in ländlichen Gebieten, kostenlose Schulungsangebote für ältere Menschen sowie eine gezielte finanzielle Unterstützung für einkommensschwache Familien. Sollten diese Investitionen ausbleiben, würde sich die soziale Ungleichheit in einer zunehmend digitalisierten Welt weiter vertiefen, anstatt durch den technischen Fortschritt verringert zu werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die digitale Kluft betrifft ausschließlich Menschen in Großstädten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Während der Pandemie konnten manche Kinder ohne Laptop nicht am Onlineunterricht teilnehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle älteren Menschen fühlen sich mit digitalen Diensten sicher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, digitale Angebote durch analoge Alternativen zu ergänzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ohne zusätzliche Investitionen würde sich die soziale Ungleichheit dem Text zufolge verringern.",
+        "respuesta": false
+      }
+    ]
   }
 ]
