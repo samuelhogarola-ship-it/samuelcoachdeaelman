@@ -6386,5 +6386,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "ich-stelle-mich-vor",
+    "nivel": "A1",
+    "titulo": "Ich stelle mich vor",
+    "descripcion": "Paul erzählt kurz etwas über sich, seine Familie und seine Hobbys.",
+    "texto": "Hallo! Ich heiße Paul. Ich bin vierzehn Jahre alt. Ich wohne in Leipzig mit meiner Familie. Meine Mutter heißt Julia. Mein Vater heißt Tom. Ich habe eine kleine Schwester. Sie heißt Mia und ist acht.\n\nIch gehe gern in die Schule. Mathe ist mein Lieblingsfach. Nach der Schule spiele ich Fußball. Meine Freunde spielen auch gern Fußball. Am Wochenende besuche ich meine Oma. Sie wohnt nicht weit von uns.\n\nIch mag Pizza und Spaghetti sehr gern. Gemüse esse ich nicht so gern. Am Abend lese ich ein Buch oder sehe fern. Ich bin glücklich mit meinem Leben.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist vierzehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat keine Geschwister.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul spielt am liebsten Basketball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul besucht am Wochenende seine Oma.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul mag Gemüse sehr gern.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-kaufhaus",
+    "nivel": "A1",
+    "titulo": "Im Kaufhaus",
+    "descripcion": "Sofia kauft mit ihrer Mutter neue Kleidung im Kaufhaus.",
+    "texto": "Sofia geht heute mit ihrer Mutter ins Kaufhaus. Sie brauchen neue Kleidung für den Winter. Das Kaufhaus ist groß und hat viele Etagen. Zuerst gehen sie zur Kinderabteilung.\n\nSofia sieht eine rote Jacke. „Die Jacke gefällt mir sehr\", sagt Sofia. Ihre Mutter findet die Jacke auch schön. Sofia probiert die Jacke an. Sie passt gut. Danach suchen sie noch warme Schuhe. Sofia findet blaue Stiefel. Die Stiefel sind bequem.\n\nAn der Kasse bezahlt die Mutter mit Karte. Sofia trägt die neue Jacke schon nach Hause. Sie freut sich sehr über die neuen Sachen. Zu Hause zeigt sie ihrem Vater die Jacke und die Stiefel.",
+    "preguntas": [
+      {
+        "enunciado": "Sofia geht mit ihrem Vater ins Kaufhaus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofia findet eine rote Jacke schön.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Stiefel sind unbequem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter bezahlt mit Karte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia zeigt ihrer Mutter zu Hause die neuen Sachen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-feierabend",
+    "nivel": "A1",
+    "titulo": "Mein Feierabend",
+    "descripcion": "Herr Berg erzählt, was er nach der Arbeit jeden Tag macht.",
+    "texto": "Herr Berg arbeitet in einem Büro in Frankfurt. Um siebzehn Uhr ist sein Feierabend. Er fährt mit dem Bus nach Hause. Die Fahrt dauert zwanzig Minuten.\n\nZu Hause kocht er meistens Abendessen. Er kocht gern Nudeln oder Reis mit Gemüse. Danach isst er mit seiner Frau am Tisch. Sie sprechen über den Tag. Nach dem Essen spült er das Geschirr.\n\nAm Abend geht Herr Berg oft joggen. Er läuft eine halbe Stunde im Park. Das macht ihm Spaß und hält ihn fit. Später sieht er noch ein bisschen fern und geht früh ins Bett.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Berg fährt mit dem Auto nach Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Berg kocht gern Nudeln oder Reis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er isst allein zu Abend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Berg geht abends joggen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er geht sehr spät ins Bett.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-in-koeln",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende in Köln",
+    "descripcion": "Jana und Tim verbringen ein Wochenende in Köln und besuchen den Dom.",
+    "texto": "Jana und Tim sind am Freitagabend mit dem Zug nach Köln gefahren. Sie haben ein kleines Hotel in der Nähe des Doms gebucht. Weil das Wetter am Samstag sonnig war, sind sie zuerst zum Kölner Dom spaziert. Der Dom war größer, als sie gedacht hatten, und sie sind sogar auf den Turm gestiegen.\n\nAm Nachmittag haben sie einen Spaziergang am Rhein gemacht und in einem kleinen Café einen Kaffee getrunken. „Ich finde es toll, dass die Stadt so viel Geschichte hat\", hat Jana gesagt. Tim hat lieber die vielen Brücken über den Rhein fotografiert. Abends haben sie in einer Brauerei typisches Kölsch probiert und regionale Gerichte gegessen.\n\nAm Sonntag sind sie noch auf den Markt am Rudolfplatz gegangen, bevor sie mit dem Zug zurück nach Düsseldorf gefahren sind. Obwohl das Wochenende kurz war, haben beide viele schöne Erinnerungen mitgenommen.",
+    "preguntas": [
+      {
+        "enunciado": "Jana und Tim sind mit dem Auto nach Köln gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind auf den Turm des Kölner Doms gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Samstag hat es den ganzen Tag geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat die Brücken über den Rhein fotografiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind am Sonntag noch länger in Köln geblieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-postkarte-aus-dem-urlaub",
+    "nivel": "A2",
+    "titulo": "Eine Postkarte aus dem Urlaub",
+    "descripcion": "Marie schreibt ihrer Freundin eine Postkarte aus ihrem Urlaub an der Ostsee.",
+    "texto": "Liebe Katrin,\n\nich bin seit drei Tagen mit meiner Familie an der Ostsee. Wir haben eine kleine Ferienwohnung direkt am Strand gemietet. Das Wetter war bisher wechselhaft, aber heute scheint endlich die Sonne. Gestern sind wir lange am Strand spazieren gegangen und haben Muscheln gesammelt.\n\nWeil mein kleiner Bruder so gern schwimmt, sind wir jeden Tag ins Wasser gegangen, obwohl das Meer noch ziemlich kalt ist. Am Abend haben wir immer frischen Fisch in einem Restaurant am Hafen gegessen. Meine Eltern sagen, dass sie sich hier sehr erholen können.\n\nMorgen wollen wir noch eine Fahrradtour entlang der Küste machen. Ich vermisse dich und erzähle dir alles genau, wenn ich zurück bin.\n\nViele Grüße,\nMarie",
+    "preguntas": [
+      {
+        "enunciado": "Marie ist allein im Urlaub.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie wohnt in einer Ferienwohnung am Strand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Meer ist schon sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Maries Bruder schwimmt gern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie will morgen zu Hause bleiben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "beim-physiotherapeuten",
+    "nivel": "A2",
+    "titulo": "Beim Physiotherapeuten",
+    "descripcion": "Nach einem Sportunfall geht Felix zum ersten Mal zur Physiotherapie.",
+    "texto": "Felix hat sich vor zwei Wochen beim Fußballspielen das Knie verletzt. Der Arzt hat ihm geraten, zur Physiotherapie zu gehen, damit das Knie schneller wieder gesund wird. Heute hat Felix seinen ersten Termin bei der Physiotherapeutin Frau Wagner.\n\nZuerst hat Frau Wagner das Knie genau untersucht und Felix ein paar Fragen gestellt. Danach hat sie ihm einfache Übungen gezeigt, die er auch zu Hause machen soll. „Es tut ein bisschen weh, aber es geht schon besser\", hat Felix nach der ersten Übung gesagt. Frau Wagner hat ihm erklärt, dass die Muskeln um das Knie stärker werden müssen.\n\nNach vierzig Minuten war die Behandlung zu Ende. Felix hat einen neuen Termin für die nächste Woche bekommen. Er hofft, dass er bald wieder Fußball spielen kann, weil sein Team ihn im Training braucht.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat sich beim Schwimmen verletzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Wagner ist Ärztin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix soll die Übungen auch zu Hause machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Behandlung hat vierzig Minuten gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix möchte nie wieder Fußball spielen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-poetry-slam-abend",
+    "nivel": "B1",
+    "titulo": "Ein Poetry-Slam-Abend",
+    "descripcion": "Nora besucht zum ersten Mal einen Poetry-Slam und entdeckt eine neue Leidenschaft.",
+    "texto": "Nora hatte noch nie von einem Poetry-Slam gehört, bis ihre Kollegin sie zu einer Veranstaltung in einem alten Kino einlud. Ein Poetry-Slam ist ein Wettbewerb, bei dem Menschen selbst geschriebene Texte vor Publikum vortragen, und das Publikum entscheidet am Ende, wer gewonnen hat. Obwohl Nora skeptisch war, ließ sie sich überreden und ging mit.\n\nDer Abend begann mit einem jungen Mann, der über seine Kindheit auf dem Land sprach, nachdem er jahrelang in der Großstadt gelebt hatte. Nora war überrascht, wie persönlich und gleichzeitig humorvoll die Texte waren. Eine Frau trug ein Gedicht über die Einsamkeit im Berufsleben vor, das viele im Publikum sichtlich berührte. Zwischen den Auftritten applaudierten die Zuschauer laut, obwohl es keine klassische Bühnenshow war.\n\nAm Ende des Abends stand für Nora fest, dass sie selbst einmal einen eigenen Text schreiben und vortragen möchte. Sie hat sich vorgenommen, in den nächsten Wochen an ihren ersten Zeilen zu arbeiten, auch wenn sie noch etwas Angst vor dem Publikum hat. Ihre Kollegin hat versprochen, sie zum nächsten Slam zu begleiten.",
+    "preguntas": [
+      {
+        "enunciado": "Nora kannte Poetry-Slams schon seit ihrer Kindheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beim Poetry-Slam entscheidet das Publikum, wer gewinnt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der junge Mann sprach über seine Zeit im Ausland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Publikum applaudierte nach den Auftritten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nora hat sofort ihre Angst vor dem Publikum verloren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "berufsorientierung-in-der-schule",
+    "nivel": "B1",
+    "titulo": "Berufsorientierung in der Schule",
+    "descripcion": "Eine Schulklasse nimmt an einer Berufsorientierungswoche teil, um verschiedene Berufe kennenzulernen.",
+    "texto": "An der Gesamtschule in Bielefeld findet jedes Jahr eine Berufsorientierungswoche für die neunten Klassen statt. Die Schülerinnen und Schüler besuchen dabei verschiedene Betriebe in der Region, nachdem sie im Unterricht bereits über eigene Interessen und Stärken gesprochen haben. Ziel ist es, dass die Jugendlichen eine realistischere Vorstellung von der Arbeitswelt bekommen.\n\nLukas hat sich für einen Tag in einer Autowerkstatt entschieden, obwohl er vorher dachte, dass ihn Technik nicht besonders interessiert. Zu seiner Überraschung hat ihm die Arbeit an den Motoren großen Spaß gemacht. Seine Mitschülerin Elif hat dagegen einen Tag im Krankenhaus verbracht und dabei gemerkt, dass sie später gern im Gesundheitswesen arbeiten möchte. Trotzdem war der Tag für sie auch anstrengend, weil sie viele neue Eindrücke verarbeiten musste.\n\nAm Ende der Woche haben die Schülerinnen und Schüler ihre Erfahrungen in der Klasse vorgestellt. Viele haben gemerkt, dass ihre ursprünglichen Berufswünsche sich verändert haben, nachdem sie einen echten Einblick in den Arbeitsalltag bekommen hatten. Die Lehrerin ist überzeugt, dass solche Projekte den Jugendlichen helfen, bessere Entscheidungen für ihre Zukunft zu treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Berufsorientierungswoche findet nur für die Abschlussklasse statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas hat die Arbeit in der Autowerkstatt überraschend gut gefallen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Elif fand ihren Tag im Krankenhaus überhaupt nicht anstrengend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende der Woche berichten die Schüler von ihren Erfahrungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Keiner der Schüler hat seine Meinung über Berufe geändert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kulturschock-im-auslandssemester",
+    "nivel": "B1",
+    "titulo": "Kulturschock im Auslandssemester",
+    "descripcion": "Jonas berichtet von seinen ersten Wochen als Austauschstudent in Südkorea.",
+    "texto": "Jonas ist seit vier Wochen für ein Auslandssemester in Seoul, nachdem er sich monatelang auf diesen Schritt vorbereitet hatte. Obwohl er vorher viel über die koreanische Kultur gelesen hatte, war der Alltag in der ersten Woche für ihn überraschend fremd. Schon die Höflichkeitsregeln im Umgang mit älteren Menschen unterschieden sich stark von dem, was er aus Deutschland kannte.\n\nBesonders das Studentenleben an der Universität hat Jonas überrascht, weil die Studierenden dort deutlich mehr Zeit auf dem Campus verbringen als in Deutschland. Trotzdem hat er schnell Kontakt zu anderen internationalen Studierenden gefunden, mit denen er nun regelmäßig die Stadt erkundet. Auch das Essen war am Anfang eine Herausforderung, weil viele Gerichte sehr scharf sind und Jonas sich erst langsam daran gewöhnen musste.\n\nMittlerweile fühlt sich Jonas in Seoul viel wohler als zu Beginn. Er hat gelernt, dass ein Kulturschock ganz normal ist und mit der Zeit von selbst nachlässt. In seinen Briefen nach Hause schreibt er, dass er die Herausforderung nicht mehr missen möchte, obwohl ihm manchmal die Gewohnheiten aus Deutschland fehlen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist für ein Auslandssemester in Japan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Höflichkeitsregeln in Korea waren für Jonas ungewohnt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Essen in Seoul war für Jonas von Anfang an keine Herausforderung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat schnell Kontakt zu anderen internationalen Studierenden gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fühlt sich in Seoul inzwischen wohler als am Anfang.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitale-nomaden",
+    "nivel": "B2",
+    "titulo": "Digitale Nomaden – Arbeiten von überall?",
+    "descripcion": "Ein Blick auf das Phänomen der digitalen Nomaden und die gesellschaftlichen Folgen dieses Lebensstils.",
+    "texto": "Seit einigen Jahren wächst die Zahl der sogenannten digitalen Nomaden, also jener Menschen, die ihre berufliche Tätigkeit unabhängig von einem festen Ort ausüben und dabei oft monatelang durch verschiedene Länder reisen. Ermöglicht wird dieser Lebensstil vor allem durch die zunehmende Digitalisierung der Arbeitswelt, in der viele Tätigkeiten mittlerweile ausschließlich über das Internet erledigt werden können. Wäre die technische Infrastruktur nicht in den letzten zwei Jahrzehnten so rasant ausgebaut worden, wäre ein solches Modell kaum denkbar gewesen.\n\nBefürworter dieses Lebensstils betonen die neu gewonnene Freiheit, die es ihnen erlaubt, Arbeit und Reisen miteinander zu verbinden, ohne sich dabei an einen klassischen Bürorhythmus halten zu müssen. Gleichzeitig wird jedoch kritisiert, dass digitale Nomaden in beliebten Zielorten wie Bali oder Lissabon die Mietpreise für die lokale Bevölkerung erheblich in die Höhe treiben, was zu wachsenden Spannungen zwischen Einheimischen und Zugezogenen führt. Manche Städte haben inzwischen Regelungen eingeführt, mit denen kurzfristige Vermietungen an Touristen und Nomaden eingeschränkt werden sollen.\n\nAuch aus arbeitsrechtlicher Sicht wirft das Phänomen Fragen auf, die bislang nur unzureichend beantwortet worden sind. Wenn ein Angestellter beispielsweise sechs Monate im Jahr aus einem anderen Land arbeitet, stellt sich die Frage, welches Sozialversicherungssystem in diesem Fall gelten sollte und wo Steuern gezahlt werden müssten. Ohne klare gesetzliche Regelungen bliebe dieses Feld ein rechtliches Grauzonengebiet, in dem sich sowohl Arbeitnehmer als auch Unternehmen nur schwer zurechtfinden könnten.\n\nTrotz dieser ungelösten Probleme dürfte die Zahl der digitalen Nomaden in den kommenden Jahren weiter steigen, zumal immer mehr Unternehmen ihren Angestellten flexible Arbeitsmodelle anbieten. Ob sich dadurch langfristig ein neues, nachhaltigeres Gleichgewicht zwischen individueller Freiheit und gesellschaftlicher Verantwortung einstellen wird, bleibt allerdings abzuwarten.",
+    "preguntas": [
+      {
+        "enunciado": "Digitale Nomaden sind an einen festen Arbeitsort gebunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Digitalisierung hat den Lebensstil der digitalen Nomaden erst ermöglicht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In beliebten Zielorten sinken die Mietpreise durch digitale Nomaden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die arbeitsrechtlichen Fragen rund um digitale Nomaden sind bereits vollständig geklärt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wird erwartet, dass die Zahl der digitalen Nomaden weiter steigt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meinungsfreiheit-im-internet",
+    "nivel": "B2",
+    "titulo": "Meinungsfreiheit im Internet",
+    "descripcion": "Wie weit darf Meinungsfreiheit im Netz gehen, und wo beginnt die Verantwortung der Plattformen?",
+    "texto": "Die Meinungsfreiheit gilt in demokratischen Gesellschaften als eines der höchsten Güter, doch im digitalen Zeitalter wird zunehmend darüber gestritten, wo ihre Grenzen verlaufen sollten. Während früher vor allem Zeitungen und Rundfunkanstalten als Vermittler öffentlicher Meinung fungierten, kann heute nahezu jeder über soziale Netzwerke ein Millionenpublikum erreichen, ohne dass eine redaktionelle Kontrolle stattfindet. Diese Entwicklung wird von manchen als demokratischer Fortschritt gefeiert, von anderen jedoch als gefährliche Entwicklung betrachtet.\n\nKritiker bemängeln vor allem, dass Hassrede und gezielte Falschinformationen sich auf Plattformen wie sozialen Netzwerken deutlich schneller verbreiten würden, wenn diese nicht stärker reguliert würden. In Deutschland wurde deshalb bereits vor Jahren ein Gesetz verabschiedet, das große Plattformen dazu verpflichtet, offensichtlich rechtswidrige Inhalte innerhalb kurzer Fristen zu löschen. Befürworter dieser Regelung argumentieren, dass ohne solche Vorschriften digitale Räume von Hetze und Desinformation überflutet würden.\n\nAndere Stimmen warnen jedoch davor, dass eine zu strenge Regulierung die Meinungsfreiheit selbst gefährden könnte, indem private Unternehmen darüber entscheiden, welche Meinungen sichtbar bleiben und welche gelöscht werden. Wäre es tatsächlich wünschenswert, so fragen Kritiker, dass wenige große Technologiekonzerne über die Grenzen des öffentlichen Diskurses bestimmen? Diese Sorge wird dadurch verstärkt, dass die Kriterien, nach denen Inhalte gelöscht werden, von den Plattformen oft nicht vollständig offengelegt werden.\n\nEin einfaches Patentrezept für dieses Dilemma existiert bislang nicht, und es ist davon auszugehen, dass die Debatte über die richtige Balance zwischen freier Meinungsäußerung und dem Schutz vor schädlichen Inhalten auch in den kommenden Jahren nicht abgeschlossen sein wird.",
+    "preguntas": [
+      {
+        "enunciado": "Früher konnten hauptsächlich Zeitungen und Rundfunkanstalten ein großes Publikum erreichen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Deutschland gibt es kein Gesetz, das Plattformen zum Löschen rechtswidriger Inhalte verpflichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker befürchten, dass private Unternehmen zu viel Macht über den öffentlichen Diskurs bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Plattformen legen offen, nach welchen Kriterien sie Inhalte löschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Debatte über Meinungsfreiheit im Netz gilt bereits als vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "erbschaftssteuer",
+    "nivel": "B2",
+    "titulo": "Erbschaftssteuer – Gerecht oder ungerecht?",
+    "descripcion": "Eine Analyse der gesellschaftlichen Debatte um die Erbschaftssteuer und ihre Rolle bei sozialer Ungleichheit.",
+    "texto": "Kaum ein Steuerthema wird in Deutschland so kontrovers diskutiert wie die Erbschaftssteuer, also jene Abgabe, die beim Übergang von Vermögen nach dem Tod einer Person fällig wird. Während Befürworter einer höheren Besteuerung argumentieren, dass ererbtes Vermögen maßgeblich zur wachsenden sozialen Ungleichheit beitrage, sehen Gegner darin einen unzulässigen Eingriff in bereits versteuertes Eigentum, das rechtmäßig erworben worden sei.\n\nStudien zeigen, dass ein erheblicher Teil des Vermögens in Deutschland nicht durch eigene Leistung, sondern durch Erbschaft erworben wird, was insbesondere jüngeren Generationen ohne familiäres Vermögen den Vermögensaufbau erschwert. Befürworter einer Reform schlagen deshalb vor, hohe Erbschaften stärker zu besteuern, während kleinere Erbschaften, etwa das selbst genutzte Familienhaus, weiterhin verschont bleiben sollten. Würde eine solche Reform tatsächlich umgesetzt, könnten die zusätzlichen Einnahmen beispielsweise in Bildung oder den sozialen Wohnungsbau investiert werden.\n\nGegner der Reform verweisen dagegen häufig auf mittelständische Familienunternehmen, die bei einer zu hohen Besteuerung im Erbfall gezwungen sein könnten, Teile des Betriebs zu verkaufen, um die Steuerlast zu begleichen. Dadurch könnten, so die Befürchtung, Arbeitsplätze gefährdet werden. Kritiker dieser Position halten dagegen, dass bereits heute zahlreiche Ausnahmeregelungen bestünden, die genau solche Fälle berücksichtigen und Unternehmen im Erbfall entlasten würden.\n\nDie politische Auseinandersetzung um die Erbschaftssteuer zeigt exemplarisch, wie schwierig es ist, einen Ausgleich zwischen individuellem Eigentumsrecht und gesellschaftlicher Verteilungsgerechtigkeit zu finden. Solange keine der beiden Seiten bereit ist, von ihrer grundsätzlichen Position abzurücken, dürfte eine grundlegende Reform des Systems auch in absehbarer Zukunft ausbleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Die Erbschaftssteuer wird beim Übergang von Vermögen nach dem Tod fällig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Beteiligten sind sich einig, dass die Erbschaftssteuer sofort abgeschafft werden sollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Großteil des Vermögens in Deutschland wird laut Studien durch eigene Leistung erworben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter einer Reform wollen das selbst genutzte Familienhaus weiterhin verschonen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner der Reform befürchten Gefahren für Arbeitsplätze in Familienunternehmen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
