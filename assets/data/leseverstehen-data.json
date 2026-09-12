@@ -3834,5 +3834,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "bildungsgerechtigkeit",
+    "nivel": "B2",
+    "titulo": "Bildungsgerechtigkeit – Wenn die Herkunft über den Schulerfolg entscheidet",
+    "descripcion": "Studien zeigen, dass der soziale Hintergrund in Deutschland den Bildungserfolg stark beeinflusst. Welche Reformen werden diskutiert?",
+    "texto": "In kaum einem anderen Industrieland hängt der schulische Erfolg so stark von der sozialen Herkunft ab wie in Deutschland. Das zeigen seit Jahren die Ergebnisse internationaler Vergleichsstudien wie PISA. Kinder aus einkommensschwachen oder bildungsfernen Familien erreichen im Durchschnitt deutlich schlechtere Ergebnisse als Gleichaltrige aus privilegierten Verhältnissen – selbst wenn ihre kognitiven Fähigkeiten vergleichbar sind. Bildungsforscher sprechen deshalb von einer strukturellen Ungerechtigkeit, die früh im Leben beginnt und sich durch das gesamte Schulsystem zieht.\n\nEin zentrales Problem sei, so argumentieren Kritiker, die frühe Aufteilung der Schüler auf unterschiedliche Schulformen nach der vierten Klasse. Wäre dieser Übergang später angesetzt, könnten sich die Unterschiede zwischen den Kindern stärker ausgleichen, bevor über ihren weiteren Bildungsweg entschieden wird. In Ländern mit Gesamtschulsystemen, in denen alle Kinder länger gemeinsam lernen, fällt der Einfluss der sozialen Herkunft nachweislich geringer aus.\n\nUm die Chancengleichheit zu verbessern, werden derzeit verschiedene Maßnahmen diskutiert. Dazu zählen eine bessere finanzielle Ausstattung von Schulen in sozial benachteiligten Stadtteilen, mehr Ganztagsangebote sowie eine gezielte Sprachförderung bereits im Kindergarten. Auch multiprofessionelle Teams aus Lehrkräften, Sozialarbeitern und Psychologen sollen helfen, individuelle Startnachteile auszugleichen. Ob diese Reformen ausreichen, um die tief verwurzelten Unterschiede zu beseitigen, bleibt allerdings umstritten – Bildungsgerechtigkeit lässt sich nicht allein durch schulische Maßnahmen herstellen, sondern hängt auch von gesellschaftlichen und wirtschaftlichen Rahmenbedingungen ab.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland hängt der Schulerfolg laut PISA-Studien stark von der sozialen Herkunft ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kinder aus bildungsfernen Familien erzielen im Schnitt bessere Ergebnisse als privilegierte Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker fordern, dass die Aufteilung auf Schulformen später erfolgen sollte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Gesamtschulsystemen ist der Einfluss der sozialen Herkunft besonders stark.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, dass schulische Maßnahmen allein ausreichen, um Bildungsgerechtigkeit herzustellen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "bargeldloses-bezahlen",
+    "nivel": "B2",
+    "titulo": "Bargeldloses Bezahlen – Deutschland auf dem Weg zur Cashless Society?",
+    "descripcion": "Immer mehr Deutsche zahlen mit Karte oder Smartphone. Der Text beleuchtet Vor- und Nachteile des bargeldlosen Bezahlens.",
+    "texto": "Lange galt Deutschland als eines der letzten Bargeldländer Europas. Noch vor zehn Jahren wurde ein Großteil der Einkäufe in bar bezahlt, während in Skandinavien längst Karte und Smartphone dominierten. Inzwischen hat sich das Bild gewandelt: Laut einer Studie der Deutschen Bundesbank wird mittlerweile mehr als die Hälfte aller Zahlungen im Einzelhandel kontaktlos abgewickelt. Beschleunigt wurde dieser Trend durch die Corona-Pandemie, während der viele Geschäfte aus Hygienegründen ausschließlich kartenbasierte Zahlungen akzeptierten.\n\nBefürworter des bargeldlosen Bezahlens verweisen auf die Vorteile: Zahlungen erfolgen schneller, Kassenpersonal muss kein Wechselgeld verwalten, und Transaktionen lassen sich lückenlos nachvollziehen. Für Menschen mit Sehbehinderung kann kontaktloses Bezahlen zudem einfacher sein als das Abzählen von Münzen. Kritiker hingegen befürchten, dass durch den Rückgang des Bargelds die Anonymität beim Bezahlen verloren geht und ärmere sowie ältere Menschen, die seltener über ein Bankkonto oder Smartphone verfügen, ausgeschlossen werden könnten.\n\nSollte Bargeld in einigen Jahren tatsächlich verschwinden, müsste sichergestellt werden, dass niemand vom Zahlungsverkehr ausgeschlossen wird. Verbraucherschützer fordern deshalb, dass das Recht auf Barzahlung gesetzlich verankert bleibt, selbst wenn digitale Zahlungsmethoden künftig dominieren werden. Auch die Europäische Zentralbank betont, dass Bargeld ein wichtiges Zahlungsmittel bleiben solle – nicht zuletzt, weil es im Fall eines technischen Ausfalls als verlässliche Alternative dient.",
+    "preguntas": [
+      {
+        "enunciado": "Deutschland galt lange als eines der bargeldfreundlichsten Länder Europas.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Corona-Pandemie hat den Trend zum bargeldlosen Bezahlen gebremst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Kritikern könnten ältere Menschen durch den Rückgang von Bargeld benachteiligt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Europäische Zentralbank möchte Bargeld komplett abschaffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Für Menschen mit Sehbehinderung kann bargeldloses Bezahlen laut Text einfacher sein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sabbatical-auszeit",
+    "nivel": "B2",
+    "titulo": "Sabbatical – Eine bewusste Auszeit vom Berufsleben",
+    "descripcion": "Immer mehr Arbeitnehmer nehmen sich eine längere Auszeit vom Job. Was steckt hinter dem Trend zum Sabbatical?",
+    "texto": "Ein Sabbatical – eine mehrmonatige, selbst gewählte Auszeit vom Berufsleben – war lange Zeit vor allem Wissenschaftlern und Führungskräften vorbehalten. Inzwischen nehmen jedoch auch immer mehr Angestellte in ganz unterschiedlichen Branchen eine solche Pause in Anspruch. Die Gründe dafür sind vielfältig: Manche wollen eine lang ersehnte Reise unternehmen, andere möchten sich um kranke Angehörige kümmern, ein Buch schreiben oder einfach dem Alltagsstress entkommen, der sie zunehmend erschöpft.\n\nMöglich wird ein Sabbatical meist durch sogenannte Zeitwertkonten, auf die Beschäftigte über mehrere Jahre hinweg Überstunden oder Urlaubstage einzahlen, die sie später am Stück nehmen können. Alternativ vereinbaren manche Arbeitnehmer mit ihrem Arbeitgeber eine unbezahlte Freistellung. Voraussetzung dafür ist in der Regel, dass der Arbeitsplatz für die Dauer der Abwesenheit erhalten bleibt, sodass die Rückkehr in den Beruf gesichert ist.\n\nArbeitspsychologen sehen im Sabbatical durchaus positive Effekte. Wer sich eine längere Auszeit gönne, kehre häufig motivierter und mit neuen Perspektiven in den Beruf zurück, so die Forschung. Allerdings warnen Experten auch davor, das Sabbatical zu idealisieren: Nicht jeder profitiere gleichermaßen von der freien Zeit, und manche Rückkehrer hätten anschließend Schwierigkeiten, sich wieder in den beruflichen Alltag einzufinden. Wichtig sei deshalb, die Auszeit gut zu planen und sich vorab zu überlegen, wie der Wiedereinstieg gestaltet werden solle.",
+    "preguntas": [
+      {
+        "enunciado": "Sabbaticals wurden früher hauptsächlich von Wissenschaftlern und Führungskräften genutzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Zeitwertkonto ermöglicht es, angesparte Überstunden für eine spätere Auszeit zu nutzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bei einer unbezahlten Freistellung verliert man in der Regel automatisch seinen Arbeitsplatz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Arbeitspsychologen profitiert grundsätzlich jeder gleichermaßen von einem Sabbatical.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Menschen nutzen ein Sabbatical, um sich um kranke Angehörige zu kümmern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "co2-steuer",
+    "nivel": "B2",
+    "titulo": "Die CO2-Steuer – Klimaschutz mit Preisschild",
+    "descripcion": "Seit 2021 hat Deutschland einen CO2-Preis für Heizen und Verkehr. Wie wirkt sich die Steuer aus, und wie wird sie diskutiert?",
+    "texto": "Seit 2021 müssen Unternehmen in Deutschland für den Ausstoß von Kohlendioxid im Wärme- und Verkehrssektor einen Preis zahlen, der in der Regel an die Verbraucher weitergegeben wird. Die Idee dahinter ist einfach: Wer fossile Brennstoffe wie Benzin, Diesel, Heizöl oder Erdgas nutzt, soll für die dadurch verursachten Klimaschäden zumindest teilweise aufkommen. Ökonomen bezeichnen dieses Prinzip als „Internalisierung externer Kosten\" – Kosten, die bislang von der Allgemeinheit getragen wurden, sollen künftig stärker bei den Verursachern liegen.\n\nDer CO2-Preis ist seit seiner Einführung schrittweise gestiegen und wird in den kommenden Jahren weiter steigen, sofern die Politik nicht gegensteuert. Befürworter argumentieren, dass ein steigender Preis notwendig sei, damit sich klimafreundliches Verhalten – etwa der Umstieg auf Wärmepumpen oder Elektroautos – langfristig lohne. Kritiker wenden hingegen ein, dass insbesondere Haushalte mit niedrigem Einkommen überproportional belastet würden, da sie einen größeren Teil ihres Einkommens für Energie ausgeben müssten.\n\nUm diesen sozialen Ausgleich herzustellen, wird in Deutschland seit Längerem über ein sogenanntes Klimageld diskutiert. Die Einnahmen aus der CO2-Steuer sollten dabei direkt an die Bürger zurückgezahlt werden, unabhängig davon, wie viel CO2 sie tatsächlich verursachen. Wer wenig Energie verbrauche, würde auf diese Weise sogar finanziell profitieren, während besonders energieintensive Haushalte stärker zur Kasse gebeten würden. Bislang ist die Auszahlung des Klimageldes jedoch immer wieder verschoben worden, was von Umweltverbänden scharf kritisiert wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die CO2-Steuer betrifft in Deutschland nur den Flugverkehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der CO2-Preis ist seit seiner Einführung im Jahr 2021 gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass einkommensschwache Haushalte durch die CO2-Steuer stärker belastet werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Klimageld soll die Einnahmen aus der CO2-Steuer an die Bürger zurückzahlen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Klimageld wird laut Text bereits seit Jahren regelmäßig ausgezahlt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "boulevardjournalismus",
+    "nivel": "B2",
+    "titulo": "Boulevardjournalismus – Zwischen Information und Sensation",
+    "descripcion": "Boulevardmedien erreichen Millionen Leser, stehen aber wegen reißerischer Schlagzeilen in der Kritik. Der Text beleuchtet die Debatte um Sensationsjournalismus.",
+    "texto": "Boulevardzeitungen und -portale gehören zu den meistgelesenen Medien überhaupt. Mit reißerischen Schlagzeilen, Prominentenklatsch und emotional aufgeladenen Geschichten erreichen sie ein Millionenpublikum, das seriösere Zeitungen oft nicht ansprechen. Befürworter argumentieren, Boulevardmedien würden komplizierte Themen verständlich aufbereiten und so auch Menschen erreichen, die sich sonst kaum für Politik oder Gesellschaft interessieren würden.\n\nKritiker hingegen werfen dem Boulevardjournalismus vor, Nachrichten zu verzerren, indem Fakten zugunsten einer packenden Geschichte vereinfacht oder überspitzt dargestellt werden. Besonders umstritten ist die Berichterstattung über Einzelschicksale, bei der die Privatsphäre Betroffener nicht selten verletzt wird. Medienwissenschaftler weisen zudem darauf hin, dass emotionalisierte Schlagzeilen das Vertrauen in den Journalismus insgesamt untergraben könnten, wenn Leser den Eindruck gewinnen, alle Medien würden auf ähnliche Weise berichten.\n\nWürde der Boulevardjournalismus stärker reguliert, ließe sich das Problem jedoch kaum allein durch Gesetze lösen, meinen Experten. Vielmehr komme es auf die Medienkompetenz der Leserschaft an: Wer lerne, Quellen kritisch zu hinterfragen und zwischen seriöser Berichterstattung und Sensationsdarstellung zu unterscheiden, sei weniger anfällig für Manipulation. Einige Verlage haben inzwischen freiwillige Selbstverpflichtungen eingeführt, um einen verantwortungsvolleren Umgang mit sensiblen Themen sicherzustellen – ob diese Maßnahmen ausreichen, bleibt jedoch fraglich.",
+    "preguntas": [
+      {
+        "enunciado": "Boulevardmedien erreichen laut Text nur ein kleines Publikum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker werfen dem Boulevardjournalismus vor, Fakten zu vereinfachen oder zu übertreiben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bei der Berichterstattung über Einzelschicksale wird die Privatsphäre der Betroffenen laut Text immer respektiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienkompetenz der Leser gilt als wichtiger Faktor im Umgang mit Sensationsjournalismus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Verlage haben verbindliche gesetzliche Regeln zur Selbstverpflichtung eingeführt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "genossenschaftliches-wohnen",
+    "nivel": "B2",
+    "titulo": "Genossenschaftliches Wohnen – Eine Antwort auf die Wohnungskrise?",
+    "descripcion": "In vielen deutschen Großstädten setzen Wohnungssuchende auf Genossenschaften. Wie funktioniert dieses Modell, und welche Vorteile bietet es?",
+    "texto": "Angesichts stark steigender Mieten in deutschen Großstädten gewinnt eine alte Wohnform neue Bedeutung: die Wohnungsgenossenschaft. Anders als bei privaten Vermietern zahlen Mitglieder einer Genossenschaft keine reine Miete, sondern erwerben zunächst einen Genossenschaftsanteil, der ihnen ein dauerhaftes Wohnrecht sichert. Da Genossenschaften nicht gewinnorientiert arbeiten, liegen die monatlichen Nutzungsgebühren häufig deutlich unter dem üblichen Mietniveau vergleichbarer Wohnungen.\n\nEin weiterer Vorteil besteht darin, dass Mitglieder Mitspracherecht bei Entscheidungen haben, die ihre Wohnanlage betreffen – von der Gartengestaltung bis zu größeren Sanierungsmaßnahmen. Viele Genossenschaften legen zudem Wert auf Gemeinschaft: Gemeinschaftsräume, gemeinsame Feste und Nachbarschaftshilfe sind keine Seltenheit. Wer einmal Mitglied geworden ist, muss zudem keine Kündigung durch den Vermieter fürchten, solange er sich an die Regeln der Genossenschaft hält.\n\nTrotz dieser Vorteile kann das Modell die Wohnungskrise nicht allein lösen. Die Wartelisten vieler Genossenschaften sind lang, und in gefragten Lagen dauert es oft Jahre, bis eine passende Wohnung frei wird. Zudem erfordert der Beitritt einen Genossenschaftsanteil, der je nach Wohnungsgröße mehrere Tausend Euro kosten kann – eine Summe, die sich nicht jeder leisten kann. Stadtplaner fordern deshalb, dass mehr öffentliche Fördermittel bereitgestellt werden, damit genossenschaftliches Wohnen für eine breitere Bevölkerungsschicht zugänglich wird.",
+    "preguntas": [
+      {
+        "enunciado": "Mitglieder einer Wohnungsgenossenschaft zahlen eine gewöhnliche Miete wie bei privaten Vermietern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wohnungsgenossenschaften arbeiten in der Regel nicht gewinnorientiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mitglieder einer Genossenschaft haben kein Mitspracherecht bei Entscheidungen über ihre Wohnanlage.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Beitritt zu einer Genossenschaft erfordert oft den Kauf eines Genossenschaftsanteils.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text kann genossenschaftliches Wohnen die Wohnungskrise allein vollständig lösen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ki-am-arbeitsplatz",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz am Arbeitsplatz – Jobkiller oder Chance?",
+    "descripcion": "KI-Tools verändern viele Berufe. Der Text untersucht, welche Aufgaben automatisiert werden und was das für Beschäftigte bedeutet.",
+    "texto": "Künstliche Intelligenz hält immer schneller Einzug in deutsche Büros, Fabriken und Dienstleistungsbetriebe. Programme, die Texte verfassen, Daten analysieren oder Kundenanfragen beantworten, übernehmen zunehmend Aufgaben, die bislang von Menschen erledigt wurden. Laut einer Studie des Instituts für Arbeitsmarkt- und Berufsforschung könnten in den kommenden zehn Jahren mehrere Millionen Arbeitsplätze in Deutschland durch den Einsatz von KI wesentlich verändert werden.\n\nOb diese Entwicklung Arbeitsplätze vernichtet oder eher verändert, darüber gehen die Meinungen auseinander. Optimisten verweisen darauf, dass bei früheren technologischen Umbrüchen – etwa der Einführung von Computern – letztlich mehr Arbeitsplätze entstanden als wegfielen, weil neue Berufsfelder entstanden. Skeptiker hingegen befürchten, dass sich diese Erfahrung nicht ohne Weiteres auf die KI übertragen lasse, da diesmal auch qualifizierte Tätigkeiten betroffen seien, die früher als sicher galten.\n\nSicher ist, dass sich die Anforderungen an Arbeitnehmer verändern werden. Wer heute eine Ausbildung beginnt, sollte damit rechnen, sich während des gesamten Berufslebens immer wieder neues Wissen aneignen zu müssen. Gewerkschaften fordern deshalb, dass Unternehmen ihre Beschäftigten aktiv bei der Weiterbildung unterstützen, anstatt sie im Falle einer Automatisierung einfach zu entlassen. Auch die Politik wird zunehmend in die Pflicht genommen, etwa durch eine bessere Absicherung während beruflicher Umbruchphasen.",
+    "preguntas": [
+      {
+        "enunciado": "KI wird laut Text ausschließlich in der Industrie eingesetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut einer Studie könnten Millionen Arbeitsplätze in Deutschland durch KI verändert werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass KI zwangsläufig Arbeitsplätze vernichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Optimisten verweisen auf frühere technologische Umbrüche, bei denen neue Berufsfelder entstanden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gewerkschaften fordern, dass Unternehmen Beschäftigte bei Automatisierung sofort entlassen sollen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "skiurlaub-in-den-alpen",
+    "nivel": "A2",
+    "titulo": "Ein Skiurlaub in den Alpen",
+    "descripcion": "Nina und ihre Familie verbringen eine Woche zum Skifahren in Österreich.",
+    "texto": "Letzten Winter ist Nina mit ihrer Familie in die Alpen gefahren, weil sie schon lange einen Skiurlaub machen wollten. Sie haben eine kleine Ferienwohnung in einem Dorf in Österreich gemietet. Am ersten Tag hat es stark geschneit, deshalb sind sie erst am zweiten Tag auf die Piste gegangen. Ninas kleiner Bruder Paul ist zum ersten Mal Ski gefahren und war am Anfang sehr unsicher.\n\nNach ein paar Stunden im Kurs für Anfänger ist Paul immer sicherer geworden, und am Nachmittag konnte er schon allein die leichte Piste hinunterfahren. Nina und ihre Eltern sind auf eine schwierigere Piste gefahren, weil sie schon Erfahrung im Skifahren hatten. Am Abend haben alle zusammen in einer Hütte gegessen und heiße Schokolade getrunken.\n\nAm letzten Tag des Urlaubs hat die Familie einen Ausflug in die Stadt gemacht, weil das Wetter zu schlecht zum Skifahren war. Sie haben ein kleines Café besucht und Souvenirs gekauft. Nina hat gesagt, dass sie im nächsten Jahr wieder in die Berge fahren möchte, weil ihr der Urlaub so gut gefallen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist im Sommer in die Alpen gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag hat die Familie sofort Ski gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul ist zum ersten Mal Ski gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am letzten Tag ist die Familie in die Stadt gefahren, weil das Wetter schlecht war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina möchte nie wieder in die Berge fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-krankenhaus",
+    "nivel": "A2",
+    "titulo": "Ein Tag im Krankenhaus",
+    "descripcion": "Markus muss wegen einer Verletzung ins Krankenhaus. Wie verläuft sein Tag dort?",
+    "texto": "Letzte Woche ist Markus beim Fußballspielen hingefallen und hat sich das Bein verletzt. Weil die Schmerzen sehr stark waren, hat seine Mutter sofort einen Krankenwagen gerufen. Im Krankenhaus hat ein Arzt das Bein untersucht und gesagt, dass Markus sich das Bein gebrochen hat.\n\nMarkus musste einen Gips bekommen, weil der Knochen sonst nicht richtig heilen kann. Die Krankenschwester war sehr freundlich und hat ihm erklärt, wie lange er den Gips tragen muss. „Du musst sechs Wochen vorsichtig sein\", hat sie gesagt. Markus war traurig, weil er in dieser Zeit nicht Fußball spielen darf.\n\nAm Abend hat seine Familie ihn im Krankenhaus besucht. Sein bester Freund Tim hat ihm eine Karte gemalt, damit er sich besser fühlt. Markus hat sich sehr gefreut und gesagt, dass er bald wieder gesund werden möchte, damit er wieder mit seinen Freunden spielen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat sich beim Fußballspielen verletzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt hat gesagt, dass mit dem Bein alles in Ordnung ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus muss sechs Wochen lang einen Gips tragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus darf während dieser Zeit weiter Fußball spielen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niemand hat Markus im Krankenhaus besucht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "nachbarschaftsfest",
+    "nivel": "A2",
+    "titulo": "Das Nachbarschaftsfest",
+    "descripcion": "Die Nachbarn in der Gartenstraße organisieren gemeinsam ein Sommerfest.",
+    "texto": "Im letzten Sommer haben die Nachbarn in der Gartenstraße ein Fest organisiert, weil sie sich schon lange besser kennenlernen wollten. Frau Berger hat die Idee gehabt, und schnell haben viele Nachbarn mitgemacht. Jede Familie hat etwas zu essen mitgebracht: Salate, Kuchen und gegrilltes Gemüse.\n\nAm Nachmittag haben die Kinder im Garten gespielt, während die Erwachsenen sich unterhalten haben. Herr Klein hat seine Gitarre mitgebracht und ein paar Lieder gespielt. Alle haben mitgesungen, obwohl nicht jeder gut singen konnte. Es war ein sehr fröhlicher Nachmittag.\n\nAm Ende des Festes haben die Nachbarn beschlossen, dass sie das Fest jedes Jahr wiederholen möchten. Frau Berger hat sich sehr gefreut, weil das Fest so gut funktioniert hat. Sie hat gesagt, dass gute Nachbarschaft wichtig ist, damit sich alle in der Straße wohlfühlen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger hatte die Idee für das Nachbarschaftsfest.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat Essen zum Fest mitgebracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Klein hat Gitarre gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder mussten im Haus bleiben, während die Erwachsenen sich unterhalten haben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn möchten das Fest nie wieder organisieren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "brief-an-die-brieffreundin",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Brieffreundin",
+    "descripcion": "Mia schreibt ihrer französischen Brieffreundin Camille einen Brief über ihren Alltag.",
+    "texto": "Liebe Camille, ich hoffe, es geht dir gut. Ich wollte dir schreiben, weil bei uns gerade so viel passiert ist. Letzten Monat bin ich mit meiner Klasse auf Klassenfahrt gefahren. Wir haben eine Jugendherberge in den Bergen besucht, und das Wetter war zum Glück sehr schön.\n\nWir haben viel gewandert und sind auch schwimmen gegangen, weil es einen kleinen See in der Nähe gab. Am Abend haben wir zusammen gekocht und Karten gespielt. Meine beste Freundin Julia war auch dabei, und wir haben sehr viel gelacht. Ich glaube, dass es eine der schönsten Klassenfahrten war, die ich je gemacht habe.\n\nWie geht es dir in Frankreich? Hast du auch schon deine Sommerferien geplant? Ich würde mich sehr freuen, wenn du mich diesen Sommer besuchen könntest, weil ich dir gerne meine Stadt zeigen möchte. Schreib mir bald zurück! Viele Grüße, Mia",
+    "preguntas": [
+      {
+        "enunciado": "Mia schreibt den Brief an ihre Brieffreundin in Frankreich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klassenfahrt fand im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat in einer Jugendherberge in den Bergen übernachtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia ist mit ihrer Klasse nicht schwimmen gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia möchte Camille nicht in ihrer Stadt empfangen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-verregnetes-wochenende",
+    "nivel": "A2",
+    "titulo": "Ein verregnetes Wochenende",
+    "descripcion": "Statt draußen zu wandern, verbringen Jonas und seine Familie ein regnerisches Wochenende drinnen.",
+    "texto": "Jonas und seine Familie wollten am Wochenende eigentlich wandern gehen, aber es hat den ganzen Samstag geregnet. Weil das Wetter so schlecht war, haben sie ihre Pläne geändert und sind zu Hause geblieben. Am Morgen haben sie zusammen ein großes Frühstück gemacht und danach Gesellschaftsspiele gespielt.\n\nAm Nachmittag hat Jonas mit seiner Schwester einen Film angeschaut, weil draußen immer noch der Regen fiel. Ihre Mutter hat einen Kuchen gebacken, und die ganze Wohnung hat nach Schokolade geduftet. Ihr Vater hat währenddessen ein Buch gelesen und sich über die Ruhe gefreut.\n\nAm Sonntag hat es endlich aufgehört zu regnen, und die Sonne kam wieder heraus. Die Familie hat beschlossen, einen kurzen Spaziergang im Park zu machen, obwohl der Boden noch nass war. Jonas hat gesagt, dass ihm der ruhige Samstag zu Hause trotzdem gut gefallen hat, weil er selten Zeit mit seiner Familie zum Spielen findet.",
+    "preguntas": [
+      {
+        "enunciado": "Am Samstag hat die Familie eine lange Wanderung gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wegen des schlechten Wetters ist die Familie zu Hause geblieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter hat am Nachmittag einen Kuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag hat es den ganzen Tag geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas fand den Samstag zu Hause langweilig.",
+        "respuesta": false
+      }
+    ]
   }
 ]
