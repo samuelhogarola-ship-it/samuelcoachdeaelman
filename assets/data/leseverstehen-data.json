@@ -4530,5 +4530,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-zug",
+    "nivel": "A1",
+    "titulo": "Im Zug",
+    "descripcion": "Paul fährt mit dem Zug nach Berlin.",
+    "texto": "Paul steht am Bahnsteig. Der Zug kommt um neun Uhr. Paul hat eine Fahrkarte. Er sucht seinen Platz. Der Platz ist am Fenster.\n\nIm Zug ist es laut. Viele Leute sitzen und lesen. Ein Mann trinkt Kaffee. Eine Frau hört Musik. Paul isst einen Apfel.\n\nNach zwei Stunden ist Paul in Berlin. Er nimmt seinen Koffer. Er lächelt. Die Reise war schön.",
+    "preguntas": [
+      {
+        "enunciado": "Paul fährt mit dem Bus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug kommt um neun Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul sitzt am Fenster.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Mann trinkt Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Reise dauert zwei Stunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-schultasche",
+    "nivel": "A1",
+    "titulo": "Meine Schultasche",
+    "descripcion": "Anna zeigt, was in ihrer Schultasche ist.",
+    "texto": "Anna hat eine neue Schultasche. Die Tasche ist blau und gelb. In der Tasche sind Bücher und Hefte. Anna hat auch einen Bleistift und einen Radiergummi.\n\nJeden Morgen packt Anna die Tasche. Sie nimmt ihr Pausenbrot mit. Sie nimmt auch eine Flasche Wasser mit. Die Tasche ist schwer.\n\nIn der Schule stellt Anna die Tasche neben den Stuhl. Nach der Schule geht sie nach Hause. Die Tasche ist dann leicht. Anna ist müde.",
+    "preguntas": [
+      {
+        "enunciado": "Annas Schultasche ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Tasche sind Bücher.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna packt die Tasche am Abend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna nimmt eine Flasche Wasser mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna ist nach der Schule müde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-lieblingsfarbe",
+    "nivel": "A1",
+    "titulo": "Meine Lieblingsfarbe",
+    "descripcion": "Tom erzählt von seiner Lieblingsfarbe Grün.",
+    "texto": "Tom mag die Farbe Grün. Sein Fahrrad ist grün. Seine Jacke ist auch grün. Tom trägt oft grüne Schuhe.\n\nIm Park sieht Tom viele grüne Bäume. Das Gras ist grün. Tom findet das schön. Seine Schwester mag Rot. Ihr Zimmer ist rot.\n\nAm Wochenende malt Tom ein Bild. Er nimmt grüne Farbe. Das Bild zeigt einen Baum. Tom ist stolz.",
+    "preguntas": [
+      {
+        "enunciado": "Toms Lieblingsfarbe ist Blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Fahrrad ist grün.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Toms Schwester mag auch Grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom malt am Wochenende ein Bild.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Bild zeigt ein Auto.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrschule",
+    "nivel": "A2",
+    "titulo": "Die Fahrschule",
+    "descripcion": "Julia hat mit dem Führerschein angefangen und berichtet von ihrer ersten Fahrstunde.",
+    "texto": "Julia ist achtzehn Jahre alt geworden und hat sich sofort bei einer Fahrschule angemeldet. Sie hat lange auf ihre erste Fahrstunde gewartet, weil alle Termine ausgebucht waren. Endlich hat sie letzten Montag im Auto gesessen.\n\nDer Fahrlehrer hieß Herr Bauer und war sehr geduldig. Julia war nervös, weil sie noch nie gefahren war. Zuerst hat sie das Anfahren geübt, dann ist sie langsam durch die Straßen gefahren. Als ein Fahrrad plötzlich vor ihr auftauchte, hat sie schnell gebremst.\n\nNach der Stunde hat Herr Bauer gesagt, dass Julia gut gefahren ist. Julia war stolz und hat sich schon auf die nächste Fahrstunde gefreut. Sie hofft, dass sie den Führerschein bald bestehen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat lange auf ihre erste Fahrstunde gewartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Fahrlehrer hieß Herr Schmidt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist ruhig gefahren, weil sie schon Erfahrung hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Fahrrad ist plötzlich vor Julia aufgetaucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Bauer war mit Julias Fahrt unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-friseur",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Friseur",
+    "descripcion": "Markus erzählt von seinem Besuch beim Friseur vor einem wichtigen Termin.",
+    "texto": "Markus hatte am nächsten Tag ein wichtiges Vorstellungsgespräch und wollte deshalb zum Friseur gehen. Er hat online einen Termin gebucht, weil er nicht lange warten wollte. Am Nachmittag ist er in den Salon gegangen.\n\nDie Friseurin hat gefragt, wie er die Haare haben möchte. Markus hat gesagt, dass er es kurz und ordentlich mag. Während sie geschnitten hat, haben sie über das Wetter und die Ferien gesprochen. Nach einer halben Stunde war der Haarschnitt fertig.\n\nAls Markus in den Spiegel geschaut hat, hat er sich sehr gefreut. Er sah gepflegt aus und fühlte sich sicherer. Er hat der Friseurin gedankt und ist zufrieden nach Hause gegangen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte am nächsten Tag ein Vorstellungsgespräch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat keinen Termin gebucht und musste lange warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus wollte die Haare lang haben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben über das Wetter gesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus war mit dem Ergebnis unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-freizeitpark",
+    "nivel": "A2",
+    "titulo": "Ein Tag im Freizeitpark",
+    "descripcion": "Familie Berger hat einen Ausflug in den Freizeitpark gemacht.",
+    "texto": "Familie Berger ist am Samstag in einen Freizeitpark gefahren. Die Kinder haben sich schon seit Wochen darauf gefreut, weil sie die große Achterbahn fahren wollten. Als sie angekommen sind, war schon viel los.\n\nZuerst sind sie mit dem Riesenrad gefahren, damit alle einen guten Überblick über den Park bekommen. Danach hat die Familie in einem Restaurant zu Mittag gegessen. Die Kinder haben Pommes bestellt, und die Eltern haben Salat gegessen.\n\nAm Nachmittag sind die Kinder endlich mit der Achterbahn gefahren. Sie haben laut geschrien, weil die Fahrt so schnell war. Am Abend waren alle müde, aber glücklich, und sie sind zufrieden nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger ist am Sonntag in den Park gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder wollten die Achterbahn fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zuerst sind sie mit der Achterbahn gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Eltern haben Pommes bestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend waren alle müde, aber glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digital-detox-im-urlaub",
+    "nivel": "B1",
+    "titulo": "Digital Detox im Urlaub",
+    "descripcion": "Immer mehr Menschen verzichten im Urlaub bewusst auf ihr Smartphone.",
+    "texto": "Nachdem Sabine monatelang im Stress gearbeitet hatte, beschloss sie, ihren Urlaub völlig ohne Smartphone zu verbringen. Obwohl sie zunächst befürchtete, wichtige Nachrichten zu verpassen, ließ sie ihr Handy schon am ersten Tag im Hotelzimmer liegen. Stattdessen nahm sie sich vor, die Berge zu erkunden und ein Buch zu lesen.\n\nIn den ersten Tagen fühlte sich Sabine unruhig, weil sie ständig an ihr Handy denken musste. Trotzdem gewöhnte sie sich schnell an das neue Tempo. Sie bemerkte, dass sie viel bewusster aß, besser schlief und die Natur intensiver wahrnahm. Auch die Gespräche mit anderen Gästen wurden dadurch persönlicher, da niemand ständig auf einen Bildschirm starrte.\n\nAm Ende des Urlaubs war Sabine überzeugt, dass sie auch zu Hause öfter offline sein sollte. Sie hat sich vorgenommen, wenigstens einen Tag pro Woche ohne Handy zu verbringen. Diese Erfahrung hat gezeigt, dass digitale Pausen erholsamer sein können als jeder Wellnessurlaub.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hat ihr Handy während des ganzen Urlaubs benutzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In den ersten Tagen fühlte sich Sabine unruhig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine hat sich nie an das Leben ohne Handy gewöhnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Urlaub will Sabine öfter offline sein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gespräche mit anderen Gästen wurden unpersönlicher.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-vereinsleben-in-deutschland",
+    "nivel": "B1",
+    "titulo": "Das Vereinsleben in Deutschland",
+    "descripcion": "Vereine spielen im deutschen Alltag eine wichtige Rolle für Gemeinschaft und Freizeit.",
+    "texto": "In Deutschland gibt es unzählige Vereine, die sich mit Sport, Musik, Kultur oder Naturschutz beschäftigen. Fast jede Kleinstadt hat mindestens einen Fußballverein, einen Gesangsverein und oft auch eine Freiwillige Feuerwehr. Obwohl viele junge Menschen heute weniger Zeit haben, engagieren sich immer noch Millionen Bürger ehrenamtlich in solchen Vereinen.\n\nThomas ist seit zehn Jahren Mitglied im örtlichen Tennisverein. Nachdem er umgezogen war, suchte er gezielt nach einem Verein, um neue Freunde zu finden. Er sagt, dass der Verein für ihn mehr als nur Sport bedeutet: Man trifft sich regelmäßig, organisiert gemeinsame Feste und hilft sich gegenseitig im Alltag. Trotzdem berichten viele Vereine, dass es schwieriger geworden ist, junge Mitglieder zu gewinnen.\n\nExperten sehen darin ein größeres gesellschaftliches Problem, da das ehrenamtliche Engagement in den letzten Jahren zurückgegangen ist. Viele Vereine hoffen deshalb, durch moderne Angebote wie Online-Anmeldungen oder flexible Trainingszeiten wieder mehr Menschen anzusprechen. Denn ohne engagierte Mitglieder könnten viele Traditionen langfristig verschwinden.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland gibt es nur wenige Vereine.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Thomas ist seit zehn Jahren im Tennisverein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Für Thomas bedeutet der Verein nur Sport.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es fällt vielen Vereinen leicht, junge Mitglieder zu finden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Vereine setzen auf Online-Anmeldungen, um mehr Mitglieder zu gewinnen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-spontane-reise-nach-prag",
+    "nivel": "B1",
+    "titulo": "Eine spontane Reise nach Prag",
+    "descripcion": "Lukas und seine Freundin entscheiden sich kurzfristig für einen Städtetrip nach Prag.",
+    "texto": "Als Lukas am Freitagabend ein günstiges Zugticket nach Prag entdeckte, überlegte er nicht lange. Obwohl er am nächsten Morgen eigentlich hatte ausschlafen wollen, rief er sofort seine Freundin Nina an und fragte, ob sie spontan mitkommen wolle. Nina war zuerst überrascht, sagte aber nach wenigen Minuten begeistert zu.\n\nAm Samstagmorgen packten die beiden schnell einen kleinen Koffer und fuhren zum Bahnhof. Nachdem der Zug pünktlich losgefahren war, genossen sie die Fahrt durch die Landschaft und planten, was sie in Prag alles sehen wollten. In der Stadt angekommen, besichtigten sie die berühmte Karlsbrücke und die Prager Burg, obwohl es den ganzen Tag leicht regnete.\n\nAm Abend saßen sie in einem kleinen Restaurant und aßen typisch tschechische Knödel. Trotz des schlechten Wetters waren beide sich einig, dass spontane Reisen oft die schönsten Erinnerungen schaffen. Am Sonntagabend kehrten sie müde, aber glücklich nach Hause zurück.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas hat die Reise schon vor Wochen geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina wollte zuerst nicht mitkommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Prag hat es den ganzen Tag geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben die Karlsbrücke besichtigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende fanden sie, dass die Reise nicht schön war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-fachkraeftemangel-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Der Fachkräftemangel in Deutschland",
+    "descripcion": "Deutschland kämpft in vielen Branchen mit einem eklatanten Mangel an qualifizierten Arbeitskräften.",
+    "texto": "In zahlreichen deutschen Unternehmen bleiben Stellen monatelang unbesetzt, weil geeignete Bewerber fehlen. Besonders betroffen sind das Handwerk, die Pflege und die IT-Branche, in denen händeringend nach Fachkräften gesucht wird. Der demografische Wandel verschärft dieses Problem zusätzlich, da immer mehr erfahrene Arbeitnehmer in den Ruhestand gehen, ohne dass genügend junge Menschen nachrücken.\n\nWürde man den Fachkräftemangel allein durch höhere Löhne lösen wollen, griffe diese Maßnahme wahrscheinlich zu kurz. Viele Experten sind sich einig, dass auch die Einwanderung qualifizierter Arbeitskräfte erleichtert werden müsste, damit der Bedarf gedeckt werden kann. Gleichzeitig wird gefordert, dass die berufliche Ausbildung attraktiver gestaltet wird, da sich immer mehr Jugendliche für ein Studium statt für eine Lehre entscheiden.\n\nVon der Politik wurden bereits mehrere Gesetze verabschiedet, um die Zuwanderung von Fachkräften aus dem Ausland zu vereinfachen. Kritiker bemängeln jedoch, dass die Verwaltungsprozesse noch immer zu langsam seien und viele Anträge monatelang bearbeitet würden. Wenn diese bürokratischen Hürden nicht bald abgebaut würden, könnte der Fachkräftemangel die deutsche Wirtschaft langfristig ernsthaft schwächen.\n\nManche Unternehmen versuchen deshalb, das Problem selbst in die Hand zu nehmen, indem sie eigene Ausbildungsprogramme anbieten oder gezielt im Ausland um Mitarbeiter werben. Ob solche Einzelmaßnahmen ausreichen, um den wachsenden Bedarf an Fachkräften zu decken, bleibt jedoch fraglich.",
+    "preguntas": [
+      {
+        "enunciado": "Der Fachkräftemangel betrifft in Deutschland vor allem das Handwerk, die Pflege und die IT-Branche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Höhere Löhne allein würden das Problem laut Experten vollständig lösen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Politik hat bisher keine Gesetze zur Erleichterung der Zuwanderung verabschiedet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass Verwaltungsprozesse zu langsam seien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen bieten mittlerweile eigene Ausbildungsprogramme an.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "geschlechtergerechte-sprache",
+    "nivel": "B2",
+    "titulo": "Geschlechtergerechte Sprache",
+    "descripcion": "Die Debatte um das Gendern spaltet die deutsche Gesellschaft in Befürworter und Gegner.",
+    "texto": "Kaum ein sprachliches Thema wird in Deutschland derzeit so hitzig diskutiert wie die geschlechtergerechte Sprache. Befürworter argumentieren, dass durch Formen wie das Gendersternchen oder den Doppelpunkt alle Geschlechter sichtbar gemacht würden, die in der traditionellen, überwiegend männlich geprägten Sprache oft unsichtbar blieben. Studien, die in den letzten Jahren durchgeführt wurden, deuten darauf hin, dass geschlechtergerechte Formulierungen tatsächlich Einfluss darauf haben, welche Berufe sich Kinder für sich selbst vorstellen können.\n\nGegner hingegen kritisieren, dass gegenderte Texte oft schwerer lesbar seien und die Sprache unnötig verkompliziert würden. Manche befürchten zudem, dass eine von oben verordnete Sprachregelung die natürliche Entwicklung der Sprache störe. Wenn das Gendern gesetzlich vorgeschrieben würde, so argumentieren Kritiker, greife der Staat in einen Bereich ein, der eigentlich der gesellschaftlichen Aushandlung überlassen bleiben sollte.\n\nZwischen diesen beiden Positionen gibt es jedoch auch vermittelnde Stimmen, die für einen pragmatischen Umgang mit dem Thema plädieren. Sie schlagen vor, dass in offiziellen Dokumenten neutrale Formulierungen verwendet werden könnten, während im privaten Sprachgebrauch jedem freigestellt bliebe, wie er oder sie sich ausdrückt. Ob sich eine solche Kompromisslösung langfristig durchsetzen wird, ist derzeit jedoch schwer vorherzusagen.\n\nFest steht, dass die Debatte weit über reine Grammatikfragen hinausgeht und tief mit gesellschaftlichen Vorstellungen von Gleichberechtigung verknüpft ist. Solange keine Einigung erzielt wird, dürfte das Thema die deutsche Öffentlichkeit noch lange beschäftigen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Debatte um geschlechtergerechte Sprache wird in Deutschland kaum diskutiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter meinen, dass Gendersternchen alle Geschlechter sichtbarer machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker lehnen jede Form von neutraler Sprache vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Stimmen schlagen einen pragmatischen Kompromiss vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte betrifft laut Text nur grammatische Fragen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-krise-des-lokaljournalismus",
+    "nivel": "B2",
+    "titulo": "Die Krise des Lokaljournalismus",
+    "descripcion": "Immer mehr Lokalzeitungen kämpfen ums Überleben, was Folgen für die Demokratie haben könnte.",
+    "texto": "In zahlreichen deutschen Kleinstädten wurde in den vergangenen Jahren die letzte Lokalredaktion geschlossen, weil sinkende Abonnentenzahlen und wegbrechende Anzeigenerlöse den Zeitungen die finanzielle Grundlage entzogen haben. Für viele Bürgerinnen und Bürger bedeutet dies, dass wichtige Informationen über die eigene Gemeinde, etwa über Gemeinderatssitzungen oder lokale Bauprojekte, kaum noch journalistisch aufbereitet werden.\n\nKritiker warnen, dass diese Entwicklung gefährliche Folgen für die lokale Demokratie haben könnte. Ohne eine kritische, unabhängige Berichterstattung vor Ort, die Missstände aufdeckt und Verantwortliche zur Rechenschaft zieht, könnten Korruption und Vetternwirtschaft leichter unentdeckt bleiben. Wenn niemand mehr über die Arbeit der lokalen Politik berichten würde, sänke zudem das Interesse der Bürger an kommunalen Entscheidungen weiter.\n\nAls Reaktion auf diese Krise wurden in den letzten Jahren verschiedene Modelle erprobt, um den Lokaljournalismus zu retten. Manche Redaktionen setzen inzwischen auf digitale Bezahlmodelle, andere werden durch gemeinnützige Stiftungen finanziert, die unabhängigen Journalismus fördern wollen. Auch ehrenamtlich betriebene Nachrichtenportale, die von engagierten Bürgern gegründet wurden, versuchen zumindest teilweise die entstandene Lücke zu schließen.\n\nOb diese Ansätze ausreichen, um den Niedergang des Lokaljournalismus aufzuhalten, bleibt allerdings ungewiss. Viele Experten fordern deshalb, dass auch der Staat stärker in die Förderung einer vielfältigen Medienlandschaft investieren sollte, damit die demokratische Grundfunktion der Presse auch auf lokaler Ebene erhalten bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "In vielen deutschen Kleinstädten wurden Lokalredaktionen geschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Rückgang des Lokaljournalismus hat laut Kritikern keine Auswirkungen auf die Demokratie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Redaktionen setzen auf digitale Bezahlmodelle, um zu überleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ehrenamtliche Nachrichtenportale spielen im Text überhaupt keine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern, dass sich der Staat stärker in der Medienförderung engagiert.",
+        "respuesta": true
+      }
+    ]
   }
 ]
