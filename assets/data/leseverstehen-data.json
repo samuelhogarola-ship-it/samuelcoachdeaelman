@@ -4182,5 +4182,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-abend",
+    "nivel": "A1",
+    "titulo": "Der Abend",
+    "descripcion": "Familie Berger verbringt gemeinsam den Abend zu Hause.",
+    "texto": "Der Abend beginnt bei Familie Berger um 18 Uhr. Herr Berger kommt von der Arbeit nach Hause. Frau Berger kocht das Abendessen in der Küche. Die Kinder, Tim und Mia, spielen im Wohnzimmer.\n\nUm 19 Uhr isst die Familie zusammen. Sie essen Brot, Käse und Salat. Tim trinkt Milch, und Mia trinkt Wasser. Nach dem Essen räumen die Kinder den Tisch ab.\n\n„Ich möchte noch ein Buch lesen\", sagt Mia nach dem Essen. Tim geht um 20 Uhr ins Bett, aber Mia ist älter und darf bis 21 Uhr aufbleiben. Die Eltern trinken noch einen Tee und sprechen über den Tag. Dann ist es Zeit zu schlafen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Berger kommt um 18 Uhr nach Hause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie isst um 19 Uhr zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim trinkt Wasser zum Abendessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia darf länger aufbleiben als Tim.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eltern gehen sofort nach dem Essen schlafen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-stadt",
+    "nivel": "A1",
+    "titulo": "Meine Stadt",
+    "descripcion": "Paul beschreibt seine kleine Heimatstadt Lindenberg.",
+    "texto": "Ich heiße Paul und wohne in einer kleinen Stadt. Meine Stadt heißt Lindenberg. Sie hat einen Markt, eine Kirche und einen Park. Viele Menschen fahren mit dem Fahrrad, weil die Straßen nicht sehr groß sind.\n\nIn der Mitte der Stadt gibt es viele Geschäfte. Es gibt einen Bäcker, einen Metzger und einen Supermarkt. Am Samstag ist immer Markt auf dem Platz. Dort kaufen die Leute Obst, Gemüse und Blumen.\n\nAm Wochenende gehe ich gern in den Park. Dort spielen Kinder Fußball, und Familien machen ein Picknick. Meine Stadt ist nicht groß, aber sie ist sehr schön. Ich mag mein Zuhause.",
+    "preguntas": [
+      {
+        "enunciado": "Paul wohnt in einer großen Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Stadt heißt Lindenberg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Samstag ist Markt auf dem Platz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt keinen Supermarkt in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul geht am Wochenende gern in den Park.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-in-berlin",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende in Berlin",
+    "descripcion": "Lisa und Tom verbringen ein Wochenende voller Sehenswürdigkeiten in Berlin.",
+    "texto": "Letztes Wochenende sind Lisa und ihr Freund Tom nach Berlin gefahren. Sie haben die Reise mit dem Zug gemacht, weil der Zug schneller war als das Auto. Als sie angekommen sind, haben sie zuerst ihr Hotel in der Nähe vom Alexanderplatz gesucht.\n\nAm Samstag haben sie den Fernsehturm besucht und die Stadt von oben angeschaut. Danach sind sie zum Brandenburger Tor gelaufen und haben viele Fotos gemacht. Weil das Wetter so schön war, haben sie den ganzen Nachmittag im Park verbracht. Am Abend haben sie in einem kleinen Restaurant Currywurst gegessen, weil Tom das unbedingt probieren wollte.\n\nAm Sonntag sind sie in ein Museum gegangen. Lisa wollte eigentlich lieber shoppen gehen, aber sie hat gesagt, dass ihr das Museum auch sehr gut gefallen hat. Am Abend sind sie müde, aber glücklich nach Hause gefahren. Sie haben beschlossen, dass sie im nächsten Jahr wiederkommen möchten.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa und Tom sind mit dem Auto nach Berlin gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben den Fernsehturm besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend haben sie Currywurst gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa wollte lieber ins Museum gehen als shoppen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie möchten im nächsten Jahr wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-am-meer",
+    "nivel": "A2",
+    "titulo": "Ein Tag am Meer",
+    "descripcion": "Familie Krüger verbringt einen Sommertag am Strand, bis das Wetter umschlägt.",
+    "texto": "Im Sommer hat Familie Krüger einen Tag am Meer verbracht. Sie sind früh am Morgen losgefahren, weil sie einen guten Platz am Strand finden wollten. Als sie angekommen sind, haben sie ihre Sachen ausgepackt und ein großes Handtuch auf den Sand gelegt.\n\nDie Kinder sind sofort ins Wasser gelaufen, weil das Wasser an diesem Tag sehr warm war. Der Vater hat mit den Kindern eine Sandburg gebaut, während die Mutter ein Buch gelesen hat. Zum Mittagessen haben sie Sandwiches und Obst gegessen, die sie von zu Hause mitgebracht hatten.\n\nAm Nachmittag ist der Himmel plötzlich grau geworden, und es hat angefangen zu regnen. Weil das Wetter so schlecht wurde, haben sie schnell ihre Sachen gepackt und sind nach Hause gefahren. Am Abend haben alle gesagt, dass sie trotz des Regens einen schönen Tag hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Krüger ist erst am Nachmittag losgefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder sind sofort ins Wasser gelaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater hat ein Buch gelesen, während die Mutter eine Sandburg gebaut hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag hat es angefangen zu regnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie ist trotz des Regens am Strand geblieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-koffer",
+    "nivel": "A2",
+    "titulo": "Der verlorene Koffer",
+    "descripcion": "Herr Wolf verliert auf einer Geschäftsreise seinen Koffer und muss auf ihn warten.",
+    "texto": "Herr Wolf ist letzte Woche nach München geflogen, weil er dort eine Konferenz hatte. Am Flughafen hat er lange auf sein Gepäck gewartet, aber sein Koffer ist nicht gekommen. Er hat sich große Sorgen gemacht, weil alle seine Kleider für die Konferenz in dem Koffer waren.\n\nEr ist zum Schalter der Fluggesellschaft gegangen und hat sein Problem erklärt. „Ihr Koffer ist wahrscheinlich noch in Frankfurt\", sagte die Mitarbeiterin. Sie hat ihm ein Formular gegeben und versprochen, dass sie ihn anrufen würde, sobald der Koffer gefunden wird.\n\nAm nächsten Tag hat die Fluggesellschaft angerufen und gesagt, dass der Koffer angekommen ist. Ein Fahrer hat den Koffer direkt zu seinem Hotel gebracht. Herr Wolf war sehr froh, dass alles gut ausgegangen ist, und er konnte pünktlich zu seiner Konferenz gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Wolf ist nach München gefahren, um Urlaub zu machen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Koffer ist nicht mit ihm angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mitarbeiterin konnte ihm nicht helfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer war in Frankfurt geblieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wolf konnte nicht zur Konferenz gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-schultag-der-tochter",
+    "nivel": "A2",
+    "titulo": "Der erste Schultag der Tochter",
+    "descripcion": "Die kleine Emma erlebt ihren ersten aufregenden Schultag.",
+    "texto": "Am Montag hatte die kleine Emma ihren ersten Schultag. Ihre Eltern waren genauso aufgeregt wie sie. Emma hat eine neue Schultasche und eine bunte Schultüte bekommen, weil das in Deutschland eine schöne Tradition ist.\n\nAm Morgen ist die ganze Familie zur Schule gegangen. Die Lehrerin hat alle Kinder freundlich begrüßt und ihnen die Klassenzimmer gezeigt. Emma war zuerst ein bisschen schüchtern, weil sie noch niemanden kannte. Nach ein paar Minuten hat sie aber schon mit einem anderen Mädchen gesprochen.\n\nAls Emma nach Hause gekommen ist, hat sie ihren Eltern viel erzählt. „Ich habe schon eine neue Freundin gefunden!\", hat sie stolz gesagt. Die Eltern waren sehr froh und haben zur Feier des Tages einen Kuchen gebacken.",
+    "preguntas": [
+      {
+        "enunciado": "Emma hatte am Montag ihren ersten Schultag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma hat keine Schultüte bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin hat die Kinder unfreundlich begrüßt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma hat schnell eine neue Freundin gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eltern waren enttäuscht von dem Tag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-ueber-die-distanz",
+    "nivel": "B1",
+    "titulo": "Freundschaft über die Distanz",
+    "descripcion": "Sarah und Julia halten ihre Freundschaft trotz räumlicher Trennung aufrecht.",
+    "texto": "Sarah und Julia sind seit der Grundschule beste Freundinnen, obwohl sie inzwischen in verschiedenen Städten leben. Nachdem Julia vor drei Jahren für ihr Studium nach Hamburg gezogen war, hatten beide Angst, dass ihre Freundschaft langsam einschlafen würde. Trotzdem haben sie es geschafft, in Kontakt zu bleiben.\n\nJede Woche telefonieren sie mindestens einmal, und sie schreiben sich fast täglich Nachrichten. Obwohl der Alltag beider sehr unterschiedlich geworden ist – Sarah arbeitet inzwischen als Krankenschwester, während Julia noch studiert – finden sie immer Themen, über die sie sprechen können. Nachdem sie sich ein halbes Jahr nicht persönlich gesehen hatten, haben sie sich letzten Monat endlich wiedergetroffen.\n\nDas Wiedersehen war, als hätten sie sich nie getrennt. Sie haben tagelang geredet, gelacht und alte Erinnerungen ausgetauscht. Julia meinte danach, dass echte Freundschaft nicht von der Entfernung abhängt, sondern davon, wie viel Mühe man sich gibt. Beide sind sich sicher, dass ihre Freundschaft auch die nächsten Jahre der Distanz überstehen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah und Julia kennen sich erst seit Kurzem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist wegen ihres Studiums nach Hamburg gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen haben komplett den Kontakt verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah arbeitet als Krankenschwester.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Wiedersehen waren sie sich fremd geworden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag",
+    "descripcion": "Markus meistert nervös, aber erfolgreich seinen ersten Tag im neuen Job.",
+    "texto": "Nachdem Markus monatelang Bewerbungen geschrieben hatte, hat er endlich eine Stelle als Ingenieur gefunden. An seinem ersten Arbeitstag war er sehr nervös, obwohl er sich gut vorbereitet hatte. Er ist extra früh aufgestanden, um pünktlich im Büro zu sein.\n\nSein neuer Chef hat ihn freundlich empfangen und ihm die Kollegen vorgestellt. Trotzdem fühlte sich Markus in den ersten Stunden etwas verloren, weil alles neu für ihn war – die Software, die Abläufe und sogar die Kaffeemaschine. Nachdem eine Kollegin ihm alles genau erklärt hatte, wurde es langsam einfacher.\n\nAm Ende des Tages war Markus erschöpft, aber zufrieden. Obwohl der erste Tag anstrengend war, hat er gemerkt, dass die Atmosphäre im Team sehr angenehm ist. Er ist überzeugt, dass er sich in den nächsten Wochen schnell einleben wird.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat sofort nach dem Studium eine Stelle gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus war an seinem ersten Arbeitstag nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sein Chef hat ihn nicht begrüßt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kollegin hat ihm geholfen, sich einzuleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus fand die Atmosphäre im Team unangenehm.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-schulfest",
+    "nivel": "B1",
+    "titulo": "Das Schulfest",
+    "descripcion": "Die Gustav-Schule feiert ihr jährliches Schulfest mit Spielen, Musik und Theater.",
+    "texto": "Jedes Jahr im Juni veranstaltet die Gustav-Schule ein großes Schulfest, nachdem die Schüler wochenlang dafür geplant und geübt haben. In diesem Jahr haben die Klassen verschiedene Stände organisiert, an denen es Spiele, selbstgebackenen Kuchen und Getränke gab.\n\nObwohl das Wetter am Morgen bewölkt war, kamen viele Eltern, Großeltern und ehemalige Schüler zum Fest. Die Musik-AG hat auf einer kleinen Bühne mehrere Lieder vorgeführt, und die Theatergruppe hat ein kurzes Stück aufgeführt, das viel Applaus bekam. Trotzdem war der beliebteste Programmpunkt der Wettbewerb im Sackhüpfen, an dem sogar einige Lehrer teilgenommen haben.\n\nNachdem das Fest am Abend zu Ende gegangen war, waren alle müde, aber glücklich. Die Schulleiterin bedankte sich bei allen Helfern und kündigte an, dass der Erlös des Festes für neue Bücher in der Schulbibliothek verwendet wird. Viele Schüler freuen sich schon jetzt auf das nächste Schulfest.",
+    "preguntas": [
+      {
+        "enunciado": "Das Schulfest findet jedes Jahr im Dezember statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab Stände mit Spielen und Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des schlechten Wetters kamen nur wenige Besucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auch Lehrer haben beim Sackhüpfen mitgemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Erlös des Festes wird für neue Bücher verwendet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "landflucht",
+    "nivel": "B2",
+    "titulo": "Landflucht – Wenn das Dorf ausstirbt",
+    "descripcion": "Warum ländliche Regionen in Deutschland zunehmend an Bevölkerung verlieren.",
+    "texto": "In vielen ländlichen Regionen Deutschlands schrumpft die Bevölkerung seit Jahrzehnten kontinuierlich. Junge Menschen, die auf dem Land aufgewachsene und mit den Möglichkeiten der Stadt konfrontierte Generation, ziehen zum Studium oder für den ersten Job in die Großstädte und kehren häufig nicht mehr zurück. Zurück bleiben oft ältere Bewohner, deren Dörfer nach und nach ihre Infrastruktur verlieren: Der letzte Bäcker schließt, die Postfiliale wird aufgegeben, und selbst die Buslinie, die früher mehrmals täglich verkehrte, wird eingestellt.\n\nWürde die Politik konsequenter gegensteuern, ließe sich diese Entwicklung zumindest verlangsamen. Einige Kommunen haben bereits reagiert und versuchen, mit vergünstigtem Bauland, schnellerem Internet und flexiblen Arbeitsmodellen junge Familien zurückzugewinnen. Besonders das durch die Pandemie normalisierte Homeoffice hat gezeigt, dass viele Berufe nicht mehr zwingend an einen städtischen Standort gebunden sind. Dennoch bezweifeln Experten, dass solche Maßnahmen ausreichen, um den seit Langem bestehenden Trend umzukehren, ohne dass gleichzeitig in Schulen, Ärzte und kulturelle Angebote investiert wird.\n\nKritiker werfen der Politik vor, das Problem lange unterschätzt zu haben. Wäre frühzeitig in die digitale und medizinische Infrastruktur ländlicher Gebiete investiert worden, hätten viele Dörfer ihre Attraktivität vermutlich nicht in diesem Ausmaß verloren. Andere wiederum argumentieren, dass eine gewisse Konzentration der Bevölkerung in Städten auch ökologisch sinnvoll sei, da kürzere Wege und ein besserer öffentlicher Nahverkehr den CO2-Ausstoß senken könnten. Klar ist jedoch, dass die Entscheidung, ob ein Dorf überlebt oder verschwindet, längst nicht mehr allein von seinen Bewohnern getroffen wird, sondern maßgeblich von politischen Weichenstellungen abhängt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Bevölkerung auf dem Land wächst seit Jahrzehnten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Menschen ziehen oft zum Studium oder Job in die Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In vielen Dörfern schließen Geschäfte und öffentliche Einrichtungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich sicher, dass die aktuellen Maßnahmen ausreichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker sehen in der Konzentration der Städte auch ökologische Vorteile.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "elektromobilitaet",
+    "nivel": "B2",
+    "titulo": "Elektromobilität – Retter des Klimas oder teure Illusion?",
+    "descripcion": "Eine kritische Betrachtung der ökologischen Bilanz von Elektrofahrzeugen.",
+    "texto": "Die Elektromobilität gilt vielen als zentraler Baustein der Verkehrswende, doch die Debatte darüber ist keineswegs so eindeutig, wie es öffentliche Diskussionen oft suggerieren. Befürworter verweisen darauf, dass batteriebetriebene Fahrzeuge im Betrieb keine direkten Abgase ausstoßen und somit zur Verbesserung der Luftqualität in Innenstädten beitragen könnten. Kritiker hingegen bemängeln, dass die ökologische Gesamtbilanz eines Elektroautos maßgeblich davon abhängt, wie der für den Betrieb benötigte Strom erzeugt wird.\n\nBesonders umstritten ist die Herstellung der Batterien, für die seltene Rohstoffe wie Lithium und Kobalt abgebaut werden müssen – häufig unter Bedingungen, die von Menschenrechtsorganisationen scharf kritisiert werden. Würde die gesamte Lieferkette transparenter gestaltet, ließe sich zumindest teilweise nachvollziehen, unter welchen Umständen diese Rohstoffe gewonnen werden. Hinzu kommt die Frage der Ladeinfrastruktur: In vielen ländlichen Regionen fehlen bislang ausreichend Ladesäulen, was die Anschaffung eines Elektroautos für Pendler, die täglich weite Strecken zurücklegen müssen, unattraktiv macht.\n\nDennoch zeigen Studien, dass sich die Klimabilanz von Elektrofahrzeugen im Laufe ihrer Nutzungsdauer meist deutlich verbessert, sobald der anfängliche Mehraufwand bei der Produktion ausgeglichen ist. Hätte die Industrie schon früher in eine nachhaltigere Batterieproduktion investiert, wäre die öffentliche Akzeptanz vermutlich schon heute größer. Ob die Elektromobilität tatsächlich die versprochene Rettung des Klimas darstellt oder lediglich eine teure Übergangslösung ist, wird sich wohl erst in den kommenden Jahrzehnten endgültig zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Experten sind sich einig, dass Elektroautos die Umwelt eindeutig entlasten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Herstellung von Batterien erfordert seltene Rohstoffe wie Lithium und Kobalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In ländlichen Gebieten gibt es bereits ausreichend Ladesäulen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Studien verbessert sich die Klimabilanz von Elektroautos meist über die Nutzungsdauer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu einem eindeutigen abschließenden Urteil über die Elektromobilität.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "generationenkonflikt-im-beruf",
+    "nivel": "B2",
+    "titulo": "Generationenkonflikt im Beruf – Boomer gegen Generation Z",
+    "descripcion": "Wie unterschiedliche Werte verschiedener Generationen den Arbeitsalltag prägen.",
+    "texto": "In vielen deutschen Unternehmen treffen inzwischen bis zu vier Generationen aufeinander, die mit sehr unterschiedlichen Erwartungen an ihren Arbeitsplatz herangehen. Während ältere Kollegen, die ihre gesamte Karriere in einer klar strukturierten Hierarchie verbracht haben, häufig Wert auf Beständigkeit und klare Zuständigkeiten legen, fordern jüngere Beschäftigte zunehmend Flexibilität, Sinnhaftigkeit und eine ausgewogene Work-Life-Balance.\n\nDieser Wertewandel wird von manchen Führungskräften als Bedrohung wahrgenommen, von anderen hingegen als notwendige Modernisierung begrüßt. Würden Unternehmen stärker auf individuelle Bedürfnisse eingehen, ließe sich der oft beschworene Konflikt zwischen den Generationen möglicherweise entschärfen. Tatsächlich zeigen Untersuchungen, dass es weniger um grundsätzlich unvereinbare Werte geht als vielmehr um mangelnde Kommunikation zwischen den Altersgruppen, die sich in ihrer Mediennutzung, ihrem Führungsverständnis und ihrer Art zu arbeiten deutlich unterscheiden.\n\nUm diesem Missverständnis entgegenzuwirken, setzen immer mehr Unternehmen auf sogenanntes Reverse Mentoring, bei dem jüngere Mitarbeiter ihren älteren Kollegen digitale Kompetenzen vermitteln, während diese im Gegenzug ihr über Jahre erworbenes Erfahrungswissen weitergeben. Wäre ein solcher Wissensaustausch von Anfang an fester Bestandteil der Unternehmenskultur gewesen, hätten sich viele der heute diskutierten Spannungen vermutlich gar nicht erst so stark entwickelt. Letztlich scheint es weniger darum zu gehen, welche Generation im Recht ist, sondern darum, wie unterschiedliche Perspektiven gewinnbringend miteinander verbunden werden können.",
+    "preguntas": [
+      {
+        "enunciado": "In deutschen Unternehmen arbeitet meist nur eine Generation zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Beschäftigte legen laut Text besonderen Wert auf Flexibilität und Sinnhaftigkeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Untersuchungen sind die Werte der Generationen grundsätzlich unvereinbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beim Reverse Mentoring vermitteln jüngere Mitarbeiter älteren Kollegen digitale Kompetenzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu dem Schluss, dass eine Generation eindeutig im Recht ist.",
+        "respuesta": false
+      }
+    ]
   }
 ]
