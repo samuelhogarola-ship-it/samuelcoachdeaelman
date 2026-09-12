@@ -4530,5 +4530,1165 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "fruehstueck-am-sonntag",
+    "nivel": "A1",
+    "titulo": "Frühstück am Sonntag",
+    "descripcion": "Familie Neumann frühstückt am Sonntag gemeinsam.",
+    "texto": "Am Sonntag steht Familie Neumann spät auf. Um neun Uhr sind alle in der Küche. Herr Neumann kocht Kaffee, und Frau Neumann macht Tee. Auf dem Tisch stehen Brot, Butter, Käse und Marmelade.\n\nDie Tochter Lea isst ein Brötchen mit Erdbeermarmelade. Ihr Bruder Paul mag lieber Käse. Er trinkt dazu ein Glas Milch. Die Eltern essen Eier und lesen kurz die Zeitung.\n\nNach dem Frühstück räumen Lea und Paul den Tisch ab. Dann möchte die Familie im Wald spazieren gehen. Es regnet nicht, und die Sonne scheint.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie frühstückt um neun Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Neumann kocht Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul isst sein Brötchen mit Käse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder räumen nach dem Essen den Tisch ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie bleibt wegen des Regens zu Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "in-der-bibliothek",
+    "nivel": "A1",
+    "titulo": "In der Bibliothek",
+    "descripcion": "Nora sucht in der Bibliothek Bücher für Schule und Freizeit.",
+    "texto": "Nora geht am Mittwoch nach der Schule in die Bibliothek. Sie muss ein Referat über Tiere halten und sucht ein Buch über Wale. Eine Bibliothekarin zeigt ihr das richtige Regal.\n\nNora findet zwei Tierbücher. Sie darf aber noch drei Bücher ausleihen. Deshalb nimmt sie auch einen Roman und ein Kochbuch für ihren Vater mit. An der Theke zeigt sie ihren Bibliotheksausweis.\n\nDie Bücher muss Nora in vier Wochen zurückbringen. Bevor sie nach Hause fährt, setzt sie sich ans Fenster und liest zehn Minuten in dem Roman. Das Buch gefällt ihr sofort.",
+    "preguntas": [
+      {
+        "enunciado": "Nora besucht die Bibliothek am Mittwoch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Referat handelt von Pflanzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Bibliothekarin hilft Nora.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Kochbuch ist für Noras Mutter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nora liest noch kurz in der Bibliothek.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-rucksack",
+    "nivel": "A1",
+    "titulo": "Der neue Rucksack",
+    "descripcion": "Emil kauft mit seiner Mutter einen Rucksack für die Schule.",
+    "texto": "Emils alter Schulrucksack ist kaputt. Am Freitagnachmittag geht er deshalb mit seiner Mutter in ein Geschäft. Dort gibt es Rucksäcke in vielen Farben und Größen.\n\nEmil probiert zuerst einen roten Rucksack. Er ist schön, aber zu klein. Ein blauer Rucksack hat genug Platz für Bücher, Hefte und die Trinkflasche. Er kostet vierzig Euro.\n\nEmil entscheidet sich für den blauen Rucksack. An der Kasse bekommt seine Mutter fünf Euro Rabatt. Zu Hause packt Emil sofort seine Schulsachen ein. In der kleinen Tasche vorne findet auch sein Schlüssel Platz.",
+    "preguntas": [
+      {
+        "enunciado": "Emils alter Rucksack ist zu klein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emil geht am Freitag einkaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der rote Rucksack bietet genug Platz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter bezahlt weniger als vierzig Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emil legt seinen Schlüssel in die vordere Tasche.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "besuch-bei-oma",
+    "nivel": "A1",
+    "titulo": "Besuch bei Oma",
+    "descripcion": "Mara verbringt einen Nachmittag bei ihrer Großmutter.",
+    "texto": "Mara besucht am Samstag ihre Oma. Sie fährt um elf Uhr mit dem Bus zu ihr. Als Geschenk bringt sie einen kleinen Blumenstrauß mit. Oma freut sich sehr.\n\nZum Mittagessen gibt es Kartoffelsuppe. Danach backen Mara und Oma einen Apfelkuchen. Mara schneidet die Äpfel, und Oma macht den Teig. Der Kuchen muss vierzig Minuten im Ofen bleiben.\n\nAm Nachmittag spielen sie Karten und trinken Tee. Mara erzählt von ihrer Schule. Um sechs Uhr holt ihr Vater sie mit dem Auto ab. Zwei Stücke Kuchen nimmt sie für ihre Eltern mit.",
+    "preguntas": [
+      {
+        "enunciado": "Mara fährt mit dem Zug zu ihrer Oma.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie bringt Blumen mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zum Mittagessen essen sie Apfelkuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mara hilft beim Schneiden der Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Vater holt sie am Abend ab.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-regentag",
+    "nivel": "A1",
+    "titulo": "Ein Regentag",
+    "descripcion": "Noah ändert wegen des Wetters seine Pläne.",
+    "texto": "Am Morgen möchte Noah mit seinem Freund Ben Fußball spielen. Doch draußen regnet es stark, und der Sportplatz ist geschlossen. Ben kommt deshalb zu Noah nach Hause.\n\nZuerst bauen die Jungen im Kinderzimmer eine große Burg. Sie benutzen Stühle, Decken und viele Kissen. Später machen sie in der Küche heiße Schokolade. Noahs Schwester trinkt auch eine Tasse.\n\nAm Nachmittag hört der Regen auf. Die Straßen sind aber noch sehr nass. Noah und Ben ziehen Gummistiefel an und gehen eine halbe Stunde spazieren. Fußball spielen sie erst am nächsten Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Der Sportplatz ist wegen des Regens geschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben bleibt den ganzen Tag zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Jungen bauen eine Burg aus Holz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Noahs Schwester bekommt heiße Schokolade.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag gehen Noah und Ben kurz nach draußen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "auf-dem-spielplatz",
+    "nivel": "A1",
+    "titulo": "Auf dem Spielplatz",
+    "descripcion": "Zwei Geschwister verbringen den Nachmittag auf dem Spielplatz.",
+    "texto": "Nach dem Mittagessen geht Frau Sommer mit ihren Kindern Mia und Leon auf den Spielplatz. Mia nimmt einen roten Ball mit. Leon hat seinen gelben Bagger dabei.\n\nAuf dem Spielplatz sitzt Mia zuerst auf der Schaukel. Danach spielt sie mit zwei anderen Kindern Ball. Leon baut im Sand eine Straße für seinen Bagger. Seine Mutter liest auf einer Bank.\n\nUm halb fünf bekommen die Kinder Hunger. Sie essen Apfelstücke und trinken Wasser. Dann beginnt es zu windig zu werden. Frau Sommer packt die Sachen ein, und alle gehen zu Fuß nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Mia und Leon gehen vor dem Mittagessen auf den Spielplatz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Leon spielt mit einem Bagger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Sommer liest auf einer Bank.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder essen Bananen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie fährt mit dem Bus nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-geburtstagsfeier",
+    "nivel": "A1",
+    "titulo": "Meine Geburtstagsfeier",
+    "descripcion": "Sofia erzählt von ihrer kleinen Geburtstagsfeier.",
+    "texto": "Heute werde ich zehn Jahre alt. Am Nachmittag kommen fünf Freunde zu meiner Geburtstagsfeier. Wir feiern im Garten, denn das Wetter ist warm und sonnig.\n\nMeine Mutter hat einen Schokoladenkuchen gebacken. Auf dem Kuchen stehen zehn Kerzen. Nach dem Essen spielen wir ein Suchspiel. Mein Freund Luis findet den kleinen Schatz hinter einem Baum.\n\nSpäter höre ich Musik mit meinen Gästen. Ich bekomme ein Puzzle, ein Buch und einen grünen Pullover. Um sieben Uhr werden meine Freunde abgeholt. Ich bin müde, aber sehr glücklich. Am besten gefällt mir das gemeinsame Spiel.",
+    "preguntas": [
+      {
+        "enunciado": "Sofia feiert ihren elften Geburtstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fünf Freunde kommen zur Feier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Feier findet im Wohnzimmer statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Luis findet den Schatz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia bekommt unter anderem ein Buch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-weg-zur-arbeit",
+    "nivel": "A1",
+    "titulo": "Der Weg zur Arbeit",
+    "descripcion": "Herr Yilmaz beschreibt seinen täglichen Arbeitsweg.",
+    "texto": "Herr Yilmaz arbeitet in einem Hotel in der Stadtmitte. Seine Arbeit beginnt um acht Uhr. Jeden Morgen verlässt er um Viertel nach sieben seine Wohnung.\n\nZuerst geht er fünf Minuten zur Bushaltestelle. Der Bus kommt meistens um halb acht. Nach sechs Stationen steigt Herr Yilmaz aus. Vom Bus bis zum Hotel sind es noch drei Minuten zu Fuß.\n\nHeute kommt der Bus nicht pünktlich. Herr Yilmaz ruft deshalb seine Kollegin an. Trotzdem erreicht er das Hotel kurz vor acht. Am Abend fährt er oft mit der Straßenbahn zurück, weil sie näher an seinem Haus hält.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Yilmaz arbeitet in einem Restaurant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er geht zu Fuß zur Bushaltestelle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Busfahrt hat sechs Stationen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Heute erreicht er das Hotel nach acht Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend nimmt er manchmal die Straßenbahn.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "schwimmkurs-am-samstag",
+    "nivel": "A1",
+    "titulo": "Samstag im Schwimmbad",
+    "descripcion": "Klara und ihr Bruder verbringen den Vormittag im Schwimmbad.",
+    "texto": "Klara geht am Samstag mit ihrem Bruder Jan ins Schwimmbad. Es öffnet um neun Uhr. Die beiden kommen zehn Minuten später und kaufen ihre Karten am Eingang.\n\nJan schwimmt zuerst zehn Bahnen im großen Becken. Klara kann noch nicht gut schwimmen. Sie übt mit einem Schwimmbrett im kleinen Becken. Ein Schwimmlehrer gibt ihr einen Tipp.\n\nNach einer Stunde machen die Geschwister Pause. Jan kauft zwei Brezeln, und Klara holt Wasser. Um zwölf Uhr fahren sie mit dem Fahrrad nach Hause. Klara möchte bald wiederkommen und weiter üben.",
+    "preguntas": [
+      {
+        "enunciado": "Das Schwimmbad öffnet um zehn Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jan schwimmt im großen Becken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Klara übt ohne Hilfe im tiefen Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Geschwister essen in der Pause Brezeln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie fahren mit dem Fahrrad nach Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-paket-fuer-lena",
+    "nivel": "A1",
+    "titulo": "Ein Paket für Lena",
+    "descripcion": "Lena bekommt ein Paket von ihrer Tante aus Hamburg.",
+    "texto": "Als Lena von der Schule nach Hause kommt, liegt eine Karte im Briefkasten. Der Paketbote war da, aber niemand war zu Hause. Das Paket wartet bei der Nachbarin Frau Braun.\n\nLena klingelt bei Frau Braun und zeigt die Karte. Das Paket ist groß, aber nicht schwer. Es kommt von Lenas Tante aus Hamburg. Zu Hause öffnet Lena es vorsichtig.\n\nIm Paket liegen ein gelber Schal, eine Tüte Bonbons und eine Geburtstagskarte. Lena hat erst nächste Woche Geburtstag. Sie ruft ihre Tante sofort an und bedankt sich. Den Schal probiert sie gleich vor dem Spiegel an.",
+    "preguntas": [
+      {
+        "enunciado": "Das Paket liegt im Briefkasten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Braun hat das Paket angenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Paket ist sehr schwer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lenas Geburtstag ist nächste Woche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena schreibt ihrer Tante eine E-Mail.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "umzug-in-die-neue-wohnung",
+    "nivel": "A2",
+    "titulo": "Umzug in die neue Wohnung",
+    "descripcion": "Mila zieht mit Freunden in ihre erste eigene Wohnung.",
+    "texto": "Am vergangenen Samstag ist Mila in ihre erste eigene Wohnung gezogen. Schon um acht Uhr kamen vier Freunde, um ihr zu helfen. Gemeinsam trugen sie Kartons, einen Tisch und ein kleines Sofa aus der alten Wohnung in den gemieteten Transporter.\n\nIn der neuen Wohnung stellten sie zuerst die Möbel auf. Dabei bemerkte Mila, dass der Kleiderschrank nicht durch die Schlafzimmertür passte. Die Freunde bauten ihn deshalb im Flur auseinander und später im Zimmer wieder auf. Das dauerte länger als geplant.\n\nAm Nachmittag waren alle müde und hungrig. Weil die Küche noch voller Kartons stand, bestellte Mila Pizza. Als Dankeschön schenkte sie jedem Helfer eine kleine Pflanze für den Balkon. Am Abend fand sie zwar ihre Zahnbürste nicht, aber das Wichtigste war geschafft.",
+    "preguntas": [
+      {
+        "enunciado": "Mila ist am Sonntag umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Vier Freunde halfen beim Tragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kleiderschrank passte sofort ins Schlafzimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe kochte gemeinsam in der neuen Küche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mila bedankte sich mit kleinen Pflanzen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fahrradpanne-auf-dem-weg",
+    "nivel": "A2",
+    "titulo": "Eine Fahrradpanne auf dem Weg",
+    "descripcion": "Jonas hat auf dem Arbeitsweg Pech mit seinem Fahrrad.",
+    "texto": "Jonas fährt normalerweise jeden Morgen mit dem Fahrrad zur Arbeit. Gestern hörte er nach ungefähr drei Kilometern plötzlich ein ungewöhnliches Geräusch. Kurz danach war der Hinterreifen platt. Da er kein Werkzeug dabeihatte, konnte er den Reifen nicht selbst reparieren.\n\nJonas schob das Fahrrad bis zur nächsten Bushaltestelle. Der erste Bus war sehr voll, deshalb durfte er das Fahrrad nicht mitnehmen. Beim zweiten Bus hatte er mehr Glück. Er schrieb seinem Chef eine Nachricht und erklärte, warum er später kommen würde.\n\nIn der Mittagspause brachte Jonas das Rad zu einer Werkstatt neben dem Büro. Der Mechaniker fand einen kleinen Nagel im Reifen und reparierte ihn noch am selben Nachmittag. Seitdem nimmt Jonas immer Flickzeug und eine kleine Luftpumpe mit.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas fährt gewöhnlich mit dem Auto zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vorderreifen war kaputt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas konnte in den zweiten Bus einsteigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Nagel hatte den Reifen beschädigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas nimmt jetzt Werkzeug mit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kochabend-mit-freunden",
+    "nivel": "A2",
+    "titulo": "Ein Kochabend mit Freunden",
+    "descripcion": "Drei Freunde kochen gemeinsam ein neues Gericht.",
+    "texto": "Nina, David und Mehmet treffen sich einmal im Monat zum Kochen. Dieses Mal wollte Mehmet ein türkisches Gericht zubereiten. Er schickte den anderen vorher eine Einkaufsliste, damit jeder einige Zutaten mitbringen konnte.\n\nDavid sollte Paprika und Tomaten kaufen, vergaß aber die Tomaten. Zum Glück hatte Nina noch welche zu Hause. Während Mehmet das Gemüse schnitt, bereitete Nina einen Salat zu. David deckte den Tisch und suchte passende Musik aus.\n\nDas Gericht war schärfer als erwartet, weil Mehmet zu viel Chili verwendet hatte. Trotzdem schmeckte es allen sehr gut. Zum Nachtisch gab es Joghurt mit Honig und Nüssen. Die Freunde beschlossen, beim nächsten Treffen ein Rezept aus Davids Heimat auszuprobieren. Vorher musste allerdings jeder beim Aufräumen helfen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Freunde kochen jede Woche zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mehmet hatte die Einkaufsliste geschickt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hatte noch Tomaten zu Hause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Hauptgericht war nicht scharf genug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David soll das nächste Rezept auswählen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-kurs-an-der-volkshochschule",
+    "nivel": "A2",
+    "titulo": "Ein Kurs an der Volkshochschule",
+    "descripcion": "Carla besucht nach der Arbeit einen Fotokurs.",
+    "texto": "Carla interessiert sich schon lange für Fotografie. Deshalb hat sie sich für einen Abendkurs an der Volkshochschule angemeldet. Der Kurs findet sechs Wochen lang jeden Dienstag statt und beginnt um halb sieben.\n\nBeim ersten Termin erklärte die Kursleiterin, wie man Licht und Perspektive besser nutzt. Danach gingen die zwölf Teilnehmer nach draußen und fotografierten Gebäude in der Innenstadt. Carla hatte nur ihr Handy dabei, während die meisten anderen eine große Kamera benutzten. Das war aber kein Problem.\n\nAls Hausaufgabe sollte jeder ein Foto zum Thema „Ruhe in der Stadt“ machen. Carla fotografierte am nächsten Morgen eine leere Bushaltestelle im Nebel. Die Kursleiterin lobte besonders die Stimmung des Bildes. Nun überlegt Carla, später einen Aufbaukurs zu besuchen. Eine teure Kamera möchte sie jedoch noch nicht kaufen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Kurs findet am Dienstagabend statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Gruppe sind zwanzig Personen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carla fotografierte mit ihrem Handy.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Hausaufgabe hatte das Thema Natur.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carla will sofort eine teure Kamera kaufen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "verspaetung-am-bahnhof",
+    "nivel": "A2",
+    "titulo": "Verspätung am Bahnhof",
+    "descripcion": "Eine Zugverspätung verändert Annas Reiseplan.",
+    "texto": "Anna wollte am Freitag ihre Schwester in Köln besuchen. Ihr Zug sollte um 15.10 Uhr abfahren, doch auf der Anzeigetafel stand eine Verspätung von vierzig Minuten. Der Grund war eine technische Störung.\n\nAnna kaufte sich einen Kaffee und wartete auf dem Bahnsteig. Nach einer halben Stunde kam eine neue Durchsage: Der Zug würde heute nur bis Bonn fahren. Anna ging zum Informationsschalter. Dort empfahl ihr ein Mitarbeiter, einen anderen Zug über Düsseldorf zu nehmen.\n\nDiese Verbindung dauerte zwar länger, aber Anna musste nicht umsteigen. Sie informierte ihre Schwester über die neue Ankunftszeit. Statt um halb sechs kam sie kurz nach sieben in Köln an. Ihre Schwester wartete mit einem warmen Abendessen auf sie. Trotz der langen Fahrt war Anna froh, die Reise nicht abgesagt zu haben.",
+    "preguntas": [
+      {
+        "enunciado": "Annas ursprünglicher Zug war pünktlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine technische Störung verursachte die Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna wartete die ganze Zeit am Informationsschalter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die neue Verbindung führte über Düsseldorf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna sagte den Besuch schließlich ab.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wochenmarkt-ohne-plastik",
+    "nivel": "A2",
+    "titulo": "Einkaufen ohne Plastik",
+    "descripcion": "Tobias probiert auf dem Wochenmarkt verpackungsfrei einzukaufen.",
+    "texto": "Tobias möchte im Alltag weniger Plastik benutzen. Am Samstag nahm er deshalb Stoffbeutel, Dosen und leere Gläser mit zum Wochenmarkt. Zuerst kaufte er Äpfel und Kartoffeln. Die Verkäuferin legte alles direkt in seine Beutel.\n\nAn einem Käsestand fragte Tobias, ob er seine eigene Dose verwenden dürfe. Der Verkäufer wog zuerst die leere Dose und füllte dann den Käse hinein. Das funktionierte einfacher, als Tobias gedacht hatte. Nur die Beeren wurden bereits in einer kleinen Plastikschale angeboten, deshalb kaufte er stattdessen Birnen.\n\nZu Hause stellte Tobias fest, dass er fast keine Verpackungen mitgebracht hatte. Der Einkauf war jedoch etwas teurer als im Supermarkt. Trotzdem will er künftig zweimal im Monat auf den Markt gehen. Beim nächsten Besuch möchte er auch Brot und Honig kaufen.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias nahm eigene Behälter mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Obst kam in neue Plastiktüten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verkäufer wog die leere Dose.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias kaufte Beeren in einer Plastikschale.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Markt war günstiger als der Supermarkt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "praktikum-im-tierheim",
+    "nivel": "A2",
+    "titulo": "Praktikum im Tierheim",
+    "descripcion": "Alina sammelt während eines Praktikums Erfahrungen mit Tieren.",
+    "texto": "Alina liebt Tiere und wollte wissen, ob ein Beruf mit Tieren zu ihr passt. In den Herbstferien machte sie deshalb eine Woche lang ein Praktikum im Tierheim. Jeden Morgen begann sie um acht Uhr.\n\nZuerst reinigte Alina die Futternäpfe und half beim Füttern der Katzen. Später durfte sie mit zwei ruhigen Hunden spazieren gehen. Besonders mochte sie den alten Hund Bruno, der wegen seiner kranken Beine nur kurze Wege laufen konnte. Die Arbeit war schön, aber körperlich anstrengend.\n\nAm letzten Tag kam eine Familie, die Bruno kennenlernen wollte. Alina erzählte ihnen, was er brauchte und was er gern machte. Eine Woche später erfuhr sie, dass die Familie ihn aufgenommen hatte. Darüber freute sie sich sehr. Nun möchte Alina sich regelmäßig am Wochenende im Tierheim engagieren.",
+    "preguntas": [
+      {
+        "enunciado": "Das Praktikum dauerte einen Monat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alina half bei den Katzen und Hunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno konnte besonders lange Strecken laufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Familie nahm Bruno später auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alina möchte nicht mehr ins Tierheim zurückkehren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-ueberraschungsparty",
+    "nivel": "A2",
+    "titulo": "Eine Überraschungsparty",
+    "descripcion": "Freunde organisieren heimlich eine Feier für Leon.",
+    "texto": "Leon wurde am Donnerstag dreißig Jahre alt. Seine Freunde wollten ihn überraschen und planten heimlich eine Party. Seine Mitbewohnerin Eva sagte ihm, sie müsse am Abend lange arbeiten. In Wirklichkeit schmückte sie mit den anderen die Wohnung.\n\nDamit Leon nichts bemerkte, lud sein Freund Amir ihn nachmittags ins Kino ein. Während des Films bekam Amir viele Nachrichten, schaute aber nur in der Pause auf sein Handy. Nach dem Kino schlug er vor, noch kurz bei Eva vorbeizugehen.\n\nAls Leon die Wohnung betrat, riefen alle Gäste „Überraschung!“. Leon hatte mit einem ruhigen Abend gerechnet und war zuerst sprachlos. Dann entdeckte er sogar seine Cousine aus Bremen, die extra angereist war. Eva hatte vegetarisches Essen bestellt, weil mehrere Gäste kein Fleisch aßen. Die Feier dauerte bis Mitternacht.",
+    "preguntas": [
+      {
+        "enunciado": "Eva musste am Geburtstag tatsächlich lange arbeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Amir ging mit Leon ins Kino.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Amir las während des ganzen Films Nachrichten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Leons Cousine kam aus Bremen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf der Feier gab es nur Gerichte mit Fleisch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wandertag-mit-umweg",
+    "nivel": "A2",
+    "titulo": "Ein Wandertag mit Umweg",
+    "descripcion": "Eine Wandergruppe nimmt versehentlich den längeren Weg.",
+    "texto": "Eine Gruppe von Kollegen plante für Sonntag eine Wanderung im Mittelgebirge. Am Bahnhof trafen sich acht Personen. Ihre Kollegin Jana hatte die Route auf ihr Handy geladen und wollte die Gruppe führen.\n\nNach einer Stunde zeigte ein Wegweiser nach links, aber Jana schaute nur auf die Karte und ging geradeaus. Erst zwanzig Minuten später bemerkten sie den Fehler. Sie konnten umkehren oder einen längeren Weg über einen Aussichtspunkt nehmen. Weil das Wetter schön war, entschieden sie sich für den Umweg.\n\nVom Aussichtspunkt sahen sie das ganze Tal. Dort machten sie eine Pause und teilten ihre Brote. Durch den längeren Weg erreichten sie das Restaurant erst am späten Nachmittag. Die Küche war noch geöffnet, und alle bestellten etwas Warmes. Am Ende waren sie müder als geplant, aber niemand ärgerte sich über Janas Fehler.",
+    "preguntas": [
+      {
+        "enunciado": "Neun Kollegen nahmen an der Wanderung teil.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana benutzte eine Karte auf ihrem Handy.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe kehrte sofort um.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Umweg führte zu einem Aussichtspunkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Restaurant hatte bereits geschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "handy-im-fundbuero",
+    "nivel": "A2",
+    "titulo": "Das Handy im Fundbüro",
+    "descripcion": "Marek findet sein verlorenes Handy mithilfe einer ehrlichen Finderin wieder.",
+    "texto": "Marek bemerkte am Montagabend, dass sein Handy nicht mehr in seiner Jackentasche war. Zuletzt hatte er es in der Straßenbahn benutzt. Er rief seine Nummer vom Telefon seines Mitbewohners an, aber niemand antwortete.\n\nAm nächsten Morgen fragte Marek beim Fundbüro der Verkehrsbetriebe nach. Dort war noch kein passendes Gerät abgegeben worden. Eine Mitarbeiterin nahm seine Kontaktdaten und eine genaue Beschreibung auf: schwarzes Handy, grüne Hülle und ein Foto von Bergen auf dem Bildschirm.\n\nAm Nachmittag erhielt Marek eine E-Mail. Eine Fahrgästin hatte das Handy beim Fahrer abgegeben. Marek konnte es am nächsten Tag abholen. Er musste seinen Ausweis zeigen und die PIN nennen. Als Dank schrieb er der unbekannten Finderin über das Fundbüro eine Karte. Außerdem speicherte er nun eine Kontaktadresse auf dem Sperrbildschirm.",
+    "preguntas": [
+      {
+        "enunciado": "Marek verlor das Handy vermutlich im Bus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Handy hatte eine grüne Hülle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fundbüro fand das Gerät sofort am Morgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marek musste sich beim Abholen ausweisen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er ergänzte später Kontaktdaten auf dem Sperrbildschirm.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wohngemeinschaft-mit-regeln",
+    "nivel": "B1",
+    "titulo": "Eine Wohngemeinschaft mit Regeln",
+    "descripcion": "Drei Mitbewohner lösen Konflikte mit klaren Absprachen.",
+    "texto": "Seit drei Monaten wohnt Elisa mit Karim und Johanna in einer Wohngemeinschaft. Anfangs genossen alle die lockere Atmosphäre. Bald entstanden jedoch Konflikte: In der Küche stapelte sich Geschirr, der Müll wurde selten weggebracht, und morgens musste häufig jemand vor dem besetzten Bad warten.\n\nElisa schlug deshalb ein gemeinsames Gespräch vor. Zuerst reagierte Karim skeptisch, weil er keine strengen Regeln wollte. Während des Gesprächs wurde aber deutlich, dass alle ähnliche Probleme sahen. Gemeinsam erstellten sie einen wöchentlichen Putzplan. Außerdem vereinbarten sie, Bescheid zu sagen, wenn Gäste übernachten, und zwischen 23 Uhr und 7 Uhr leise zu sein.\n\nNach zwei Wochen funktionierte der Haushalt deutlich besser. Nur der Badezimmerplan erwies sich als unnötig, da unterschiedliche Weckzeiten das Problem bereits lösten. Statt jede Kleinigkeit schriftlich festzuhalten, wollen die drei nun einmal im Monat zusammen essen und offene Fragen besprechen. So bleiben die Absprachen verbindlich, ohne dass sich die Wohnung wie ein Internat anfühlt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mitbewohner hatten von Anfang an einen Putzplan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Karim wollte zunächst keine strengen Regeln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Übernachtungsgäste wurden vollständig verboten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Badezimmerplan war am Ende nicht nötig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Künftig wollen sie regelmäßig miteinander sprechen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ehrenamt-in-der-stadtbibliothek",
+    "nivel": "B1",
+    "titulo": "Ehrenamt in der Stadtbibliothek",
+    "descripcion": "Miriam unterstützt ältere Menschen bei digitalen Fragen.",
+    "texto": "Miriam arbeitet unter der Woche in einem Reisebüro. Seit einigen Monaten engagiert sie sich zusätzlich jeden zweiten Samstag in der Stadtbibliothek. Dort findet eine offene Sprechstunde für Menschen statt, die Hilfe mit Smartphone, Tablet oder Computer benötigen.\n\nViele Besucher möchten lernen, wie sie Fotos verschicken, Fahrkarten online kaufen oder sichere Passwörter erstellen. Miriam löst die Aufgaben nicht einfach für sie, sondern erklärt jeden Schritt und lässt die Teilnehmer ihn selbst wiederholen. Das braucht Geduld, sorgt aber dafür, dass sie sich beim nächsten Mal allein helfen können.\n\nBesonders beeindruckt hat Miriam ein 82-jähriger Teilnehmer. Er wollte Videotelefonie lernen, weil seine Enkelin für ein Jahr nach Kanada gezogen war. Nach mehreren Versuchen gelang der erste Anruf. Seine Freude erinnerte Miriam daran, dass digitale Kenntnisse auch soziale Nähe ermöglichen. Inzwischen lernt sie selbst viel dazu, denn nicht jede Frage lässt sich sofort beantworten. Dann recherchiert sie gemeinsam mit den Besuchern, statt eine Lösung vorzutäuschen.",
+    "preguntas": [
+      {
+        "enunciado": "Miriam arbeitet hauptberuflich in der Bibliothek.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Sprechstunde findet zweimal im Monat statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Miriam erledigt alle digitalen Aufgaben für die Besucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Teilnehmer wollte seine Enkelin per Video anrufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Miriam kennt auf jede Frage sofort eine Antwort.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "digitale-pause-am-wochenende",
+    "nivel": "B1",
+    "titulo": "Digitale Pause am Wochenende",
+    "descripcion": "Eine Familie testet zwei Tage ohne private Bildschirme.",
+    "texto": "Familie Lorenz bemerkte, dass selbst gemeinsame Mahlzeiten ständig durch Nachrichten unterbrochen wurden. Daher schlug die sechzehnjährige Nele überraschend vor, ein Wochenende lang auf private Bildschirme zu verzichten. Handys sollten ausgeschaltet in einer Schublade liegen; nur für Notfälle blieb das Telefon des Vaters erreichbar.\n\nAm Samstag fiel allen die Umstellung schwer. Neles Bruder griff mehrmals automatisch in seine leere Hosentasche, und die Mutter vermisste ihre digitale Einkaufsliste. Nachmittags machte die Familie eine Fahrradtour. Weil niemand Fotos veröffentlichen wollte, achteten sie stärker auf die Umgebung und unterhielten sich mehr als sonst.\n\nAm Sonntag holten sie Brettspiele aus dem Keller und kochten gemeinsam. Trotzdem waren sich am Ende nicht alle einig. Nele fühlte sich erholt, ihr Bruder dagegen von seinen Freunden ausgeschlossen. Als Kompromiss beschlossen sie, künftig nur während der Mahlzeiten und bei gemeinsamen Ausflügen auf Handys zu verzichten. Das Experiment sollte also keine dauerhafte Regel werden, hatte aber ihre Gewohnheiten sichtbar gemacht.",
+    "preguntas": [
+      {
+        "enunciado": "Die Idee zur digitalen Pause kam vom Vater.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Telefon blieb für Notfälle erreichbar.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter vermisste ihre Einkaufsliste auf Papier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Familienmitglieder bewerteten das Experiment gleich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Künftig sollen Mahlzeiten möglichst handyfrei bleiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ausbildung-oder-studium",
+    "nivel": "B1",
+    "titulo": "Ausbildung oder Studium?",
+    "descripcion": "Luis wägt zwei Wege nach dem Schulabschluss ab.",
+    "texto": "Luis macht im Sommer sein Abitur und muss entscheiden, wie es danach weitergeht. Er interessiert sich für Technik und könnte an einer Hochschule Maschinenbau studieren. Gleichzeitig hat ihm ein Praktikum in einem mittelständischen Betrieb so gut gefallen, dass er auch über eine Ausbildung zum Mechatroniker nachdenkt.\n\nSeine Eltern empfehlen das Studium, weil sie sich davon langfristig bessere Karrierechancen versprechen. Luis findet diese Sicht zu einseitig. Während einer Ausbildung würde er sofort praktisch arbeiten, eigenes Geld verdienen und den Berufsalltag kennenlernen. Das Studium böte ihm dagegen mehr theoretisches Wissen und später möglicherweise eine größere Auswahl an Tätigkeiten.\n\nBei einer Berufsmesse erfuhr Luis von einem dualen Studium, das beide Bereiche verbindet. Dafür müsste er sich allerdings früh bei einem Unternehmen bewerben, und der Zeitplan wäre anspruchsvoll. Luis will nun mit Studierenden und Auszubildenden sprechen, bevor er sich entscheidet. Ihm ist klar geworden, dass nicht der angesehenste Weg automatisch der richtige ist, sondern derjenige, der zu seiner Art zu lernen passt.",
+    "preguntas": [
+      {
+        "enunciado": "Luis interessiert sich vor allem für Sprachen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Praktikum beeinflusste seine Überlegungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seine Eltern bevorzugen eine Ausbildung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein duales Studium verbindet Theorie und Praxis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Luis hat seine endgültige Entscheidung bereits getroffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "beschwerde-im-hotel",
+    "nivel": "B1",
+    "titulo": "Eine Beschwerde im Hotel",
+    "descripcion": "Frau Brandt reagiert sachlich auf mehrere Probleme im Hotelzimmer.",
+    "texto": "Frau Brandt hatte für eine Konferenz zwei Nächte in einem Hotel gebucht. Auf der Webseite war ein ruhiges Zimmer mit Schreibtisch und schnellem WLAN versprochen worden. Bei ihrer Ankunft erhielt sie jedoch ein Zimmer direkt neben dem Aufzug. Außerdem funktionierte die Internetverbindung nur selten.\n\nDa sie am Abend eine Präsentation vorbereiten musste, meldete sie die Probleme sofort an der Rezeption. Der Mitarbeiter erklärte zunächst, das Hotel sei vollständig belegt. Frau Brandt blieb freundlich, zeigte aber ihre Buchungsbestätigung und bat um eine konkrete Lösung. Nach einem Telefonat bot man ihr ein kleineres Zimmer auf der Rückseite des Gebäudes an.\n\nDas neue Zimmer war ruhig und das WLAN stabil, allerdings fehlte dort der angekündigte Schreibtisch. Das Hotel stellte deshalb einen zusätzlichen Tisch hinein und übernahm die Kosten für das Frühstück. Frau Brandt akzeptierte den Vorschlag. In ihrer späteren Bewertung erwähnte sie sowohl die ursprünglichen Mängel als auch die professionelle Lösung. Entscheidend war für sie nicht, dass alles fehlerfrei verlief, sondern wie das Personal mit der Beschwerde umging.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Brandt reiste für einen Urlaub an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihr erstes Zimmer lag in der Nähe des Aufzugs.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "An der Rezeption verlangte sie sofort ihr Geld zurück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das zweite Zimmer hatte zunächst keinen Schreibtisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In ihrer Bewertung verschwieg sie die gute Reaktion des Hotels.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "nachhaltig-reisen",
+    "nivel": "B1",
+    "titulo": "Nachhaltiger reisen",
+    "descripcion": "Tarek verändert seine Urlaubsplanung, ohne ganz aufs Reisen zu verzichten.",
+    "texto": "Tarek reist gern und ist bisher häufig für kurze Wochenenden geflogen. Als er seinen persönlichen CO₂-Ausstoß berechnete, überraschte ihn, wie stark die Flüge ins Gewicht fielen. Er wollte deshalb seine Gewohnheiten ändern, ohne vollständig auf neue Orte und Begegnungen zu verzichten.\n\nFür den nächsten Urlaub wählte er eine Region, die er mit dem Nachtzug erreichen konnte. Die Fahrt dauerte länger als ein Flug, ersparte ihm aber eine Hotelnacht. Vor Ort mietete er kein Auto, sondern nutzte Busse und ein Fahrrad. Dadurch musste er genauer planen, entdeckte jedoch kleine Orte, die er sonst wahrscheinlich übersehen hätte.\n\nNicht alles verlief ideal: Ein Anschlussbus fiel aus, und eine Unterkunft war teurer als erwartet. Trotzdem empfand Tarek die langsamere Reise als erholsamer. Künftig möchte er seltener, dafür länger verreisen. Flugreisen schließt er nicht grundsätzlich aus, will sie aber auf Ziele beschränken, für die es keine vernünftige Alternative gibt. Nachhaltigkeit bedeutet für ihn nun nicht Perfektion, sondern bewusstere Entscheidungen.",
+    "preguntas": [
+      {
+        "enunciado": "Tarek hatte schon immer auf Flüge verzichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zugfahrt sparte ihm eine Übernachtung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Vor Ort fuhr er ausschließlich mit einem Mietwagen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Verbindungen funktionierten problemlos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Künftig möchte Tarek weniger oft und länger reisen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "projektwoche-an-der-schule",
+    "nivel": "B1",
+    "titulo": "Projektwoche an der Schule",
+    "descripcion": "Eine Schulklasse verbessert mit einer Projektidee ihren Pausenhof.",
+    "texto": "Während einer Projektwoche sollte die Klasse 9b Ideen für einen attraktiveren Pausenhof entwickeln. Viele Schüler wünschten sich mehr Sitzplätze und Schatten. Andere wollten vor allem zusätzliche Sportangebote. Da das Budget begrenzt war, konnten nicht alle Vorschläge umgesetzt werden.\n\nDie Klasse teilte sich in Gruppen auf. Eine Gruppe befragte Mitschüler und Lehrkräfte, eine zweite ermittelte Preise, und eine dritte zeichnete einen Plan. Die Umfrage zeigte, dass ruhige Bereiche genauso wichtig waren wie Bewegung. Deshalb kombinierten die Jugendlichen mehrere Wünsche: Sie planten mobile Holzbänke, große Pflanzkübel und eine markierte Fläche für Ballspiele.\n\nAm letzten Tag präsentierten sie das Konzept der Schulleitung. Diese lobte die gründliche Vorbereitung, konnte aber nur einen Teil der Kosten übernehmen. Daraufhin organisierten die Schüler einen Spendenlauf. Ein örtlicher Betrieb versprach zusätzlich Material für die Bänke. Bis zur Umsetzung wird es noch dauern, doch die Klasse hat gelernt, dass gute Ideen überzeugender wirken, wenn sie durch Zahlen und die Meinung vieler Menschen gestützt werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse durfte unbegrenzt Geld ausgeben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Gruppe führte eine Umfrage durch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler planten nur neue Sportflächen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schulleitung finanziert das gesamte Projekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Unternehmen will Baumaterial bereitstellen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "arbeiten-im-homeoffice",
+    "nivel": "B1",
+    "titulo": "Arbeiten im Homeoffice",
+    "descripcion": "Sophie sucht nach einer guten Mischung aus Büro und Heimarbeit.",
+    "texto": "Seit ihr Unternehmen flexible Arbeitsorte erlaubt, arbeitet Sophie drei Tage pro Woche zu Hause. Anfangs war sie begeistert: Der Arbeitsweg fiel weg, sie konnte konzentrierter schreiben und in der Mittagspause kleine Aufgaben im Haushalt erledigen. Nach einigen Monaten bemerkte sie jedoch auch Nachteile.\n\nBesonders fehlten ihr spontane Gespräche mit Kollegen. Manche Fragen, die im Büro in zwei Minuten geklärt waren, führten online zu langen Nachrichten. Außerdem arbeitete Sophie abends oft weiter, weil der Laptop ständig sichtbar auf dem Esstisch stand. Sie hatte das Gefühl, nie richtig Feierabend zu haben.\n\nInzwischen fährt sie dienstags und donnerstags bewusst ins Büro, wenn auch die meisten Teammitglieder dort sind. Zu Hause hat sie einen kleinen Arbeitsplatz im Schlafzimmer eingerichtet und räumt den Laptop nach Arbeitsende in einen Schrank. Diese klarere Trennung hilft ihr. Sophie möchte das Homeoffice nicht aufgeben, sieht es aber nicht mehr als Lösung für jeden Arbeitstag. Für sie hängt produktives Arbeiten inzwischen stärker von der Aufgabe als vom Ort ab.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie arbeitet die ganze Woche von zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zu Hause kann sie manche Texte konzentrierter verfassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Online ließen sich alle Fragen schneller klären.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Laptop bleibt jetzt abends auf dem Esstisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie wählt den Arbeitsort auch nach der jeweiligen Aufgabe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-familienrezept",
+    "nivel": "B1",
+    "titulo": "Ein Familienrezept",
+    "descripcion": "Ein altes Rezept bringt drei Generationen in der Küche zusammen.",
+    "texto": "Als ihre Großmutter achtzig Jahre alt wurde, wollte Hannah deren berühmten Pflaumenkuchen backen. Das Rezept stand jedoch nicht in einem Kochbuch. Die Großmutter hatte es von ihrer Mutter gelernt und maß viele Zutaten nach Gefühl ab. Aussagen wie „so viel Mehl, bis der Teig richtig aussieht“ halfen Hannah nur wenig.\n\nDeshalb verabredeten sich Großmutter, Mutter und Enkelin zu einem gemeinsamen Backnachmittag. Hannah wog jede Zutat genau, während ihre Großmutter erklärte, woran man einen gelungenen Hefeteig erkennt. Dabei erzählte sie, dass früher nicht immer genug Butter vorhanden gewesen sei und das Rezept häufig verändert werden musste.\n\nDer erste Kuchen nach der neu notierten Anleitung schmeckte gut, war aber etwas trockener als das Original. Die Großmutter vermutete, dass Hannah zu viel Mehl aufgeschrieben hatte. Gemeinsam korrigierten sie die Menge und ergänzten Hinweise zur Ruhezeit des Teigs. Hannah speicherte das Rezept nicht nur digital, sondern schrieb es auch in ein Heft. Ihr wurde bewusst, dass darin neben Zutaten auch Erinnerungen und praktische Erfahrung weitergegeben werden.",
+    "preguntas": [
+      {
+        "enunciado": "Das Rezept war bereits vollständig aufgeschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Drei Generationen backten gemeinsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Großmutter hatte das Rezept niemals verändert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der erste Versuch war etwas zu trocken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hannah bewahrte das Rezept nur auf dem Computer auf.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "neuanfang-in-einer-fremden-stadt",
+    "nivel": "B1",
+    "titulo": "Neuanfang in einer fremden Stadt",
+    "descripcion": "Daria findet nach einem schwierigen Start Anschluss.",
+    "texto": "Für eine neue Arbeitsstelle zog Daria von Dresden nach Freiburg. Sie freute sich auf die berufliche Chance, kannte dort aber niemanden. In den ersten Wochen bestand ihr Alltag fast nur aus Arbeit und der noch halb leeren Wohnung. Besonders sonntags fühlte sie sich einsam.\n\nEine Kollegin empfahl ihr eine App, über die Menschen gemeinsame Freizeitaktivitäten organisieren. Daria zögerte zunächst, meldete sich dann aber zu einer geführten Radtour an. Die Gruppe war bunt gemischt, und zwei Teilnehmer waren ebenfalls erst vor Kurzem in die Stadt gezogen. Mit ihnen verabredete sie sich später zum Kochen.\n\nZusätzlich trat Daria einem Chor bei. Dort dauerte es länger, bis sie sich zugehörig fühlte, weil viele Mitglieder sich seit Jahren kannten. Sie blieb trotzdem dabei und half schließlich bei der Organisation eines Konzerts. Nach sechs Monaten bezeichnet Daria Freiburg noch nicht als Heimat, aber auch nicht mehr als fremd. Sie hat gelernt, dass neue Kontakte selten von allein entstehen und dass wiederholte Begegnungen wichtiger sind als ein besonders mutiger erster Schritt.",
+    "preguntas": [
+      {
+        "enunciado": "Daria zog wegen ihres Studiums nach Freiburg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sonntage waren für sie anfangs besonders schwierig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie nahm sofort ohne Zweifel an der Radtour teil.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Chor kannte sich ein großer Teil der Mitglieder bereits.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach sechs Monaten fühlt sich die Stadt für Daria völlig fremd an.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "viertagewoche-im-praxistest",
+    "nivel": "B2",
+    "titulo": "Die Viertagewoche im Praxistest",
+    "descripcion": "Ein Unternehmen erprobt kürzere Arbeitszeiten bei gleichem Gehalt.",
+    "texto": "Ein mittelständisches Softwareunternehmen hat sechs Monate lang eine Viertagewoche getestet. Die Beschäftigten arbeiteten 32 statt 40 Stunden, erhielten jedoch weiterhin ihr volles Gehalt. Die Geschäftsführung knüpfte das Experiment an eine Bedingung: Kundenzufriedenheit und Projektergebnisse durften sich nicht verschlechtern.\n\nUm dieses Ziel zu erreichen, wurden Besprechungen verkürzt, interne Berichte vereinfacht und feste Zeiten für konzentriertes Arbeiten eingeführt. Nach Angaben des Unternehmens stieg die Produktivität pro Stunde deutlich, während krankheitsbedingte Ausfälle zurückgingen. Viele Beschäftigte berichteten, sie könnten sich besser erholen und private Verpflichtungen leichter organisieren. Allerdings empfanden einige Teams die vier Arbeitstage als dichter und anstrengender. Besonders der Kundendienst musste Schichten neu verteilen, damit freitags weiterhin jemand erreichbar war.\n\nDie Ergebnisse sprechen somit weder für eine problemlose Universallösung noch gegen das Modell. Tätigkeiten lassen sich unterschiedlich stark verdichten, und nicht jedes Unternehmen kann Prozesse kurzfristig umstellen. Kritiker weisen zudem darauf hin, dass Selbstauskünfte nach einem zeitlich begrenzten Versuch besonders positiv ausfallen könnten. Das Unternehmen will die Regelung dennoch beibehalten und nach einem Jahr erneut prüfen. Entscheidend dürfte sein, ob die höhere Effizienz dauerhaft anhält oder lediglich aus der anfänglichen Motivation entstanden ist.",
+    "preguntas": [
+      {
+        "enunciado": "Während des Versuchs wurde das Gehalt reduziert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Besprechungen wurden als Teil des Experiments verkürzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kundendienst blieb freitags vollständig geschlossen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Beschäftigten empfanden die Arbeitstage als entspannter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Unternehmen plant eine weitere Auswertung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "tourismus-und-lebensqualitaet",
+    "nivel": "B2",
+    "titulo": "Tourismus und Lebensqualität",
+    "descripcion": "Eine beliebte Stadt sucht ein Gleichgewicht zwischen Gästen und Bewohnern.",
+    "texto": "Historische Altstädte profitieren wirtschaftlich vom Tourismus, geraten durch ihren eigenen Erfolg jedoch zunehmend unter Druck. In der fiktiven Stadt Rheinhafen hat sich die Zahl der Übernachtungen innerhalb eines Jahrzehnts verdoppelt. Restaurants, Museen und Einzelhandel erzielen höhere Umsätze, zugleich klagen Einwohner über Lärm, volle Busse und steigende Mieten.\n\nBesonders umstritten sind Ferienwohnungen. Vermieter verdienen mit kurzzeitigen Gästen häufig mehr als mit langfristigen Mietverträgen, wodurch regulärer Wohnraum verloren gehen kann. Die Stadtverwaltung möchte deshalb neue Ferienwohnungen nur noch mit Genehmigung zulassen und Kontrollen verschärfen. Branchenvertreter warnen dagegen, pauschale Beschränkungen träfen auch Familien, die gelegentlich ein Zimmer vermieten, und könnten Arbeitsplätze gefährden.\n\nAndere Maßnahmen setzen nicht auf Verbote, sondern auf Lenkung. Eine höhere Übernachtungsabgabe könnte den öffentlichen Nahverkehr finanzieren, während digitale Besucherinformationen weniger bekannte Viertel und Reisezeiten empfehlen. Doch auch diese Strategie birgt Risiken: Werden bisher ruhige Wohngebiete aktiv beworben, verteilt sich nicht nur der wirtschaftliche Nutzen, sondern auch die Belastung. Nachhaltiger Städtetourismus verlangt daher mehr als steigende Besucherzahlen. Er muss berücksichtigen, ob Menschen dauerhaft gern an einem Ort leben, denn gerade ihre Alltagskultur macht viele Reiseziele attraktiv.",
+    "preguntas": [
+      {
+        "enunciado": "In Rheinhafen sind die Übernachtungszahlen gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ferienwohnungen können langfristigen Wohnraum verdrängen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Verwaltung will jede private Vermietung verbieten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Abgabe könnte den Nahverkehr unterstützen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Verteilung der Besucher hat ausschließlich Vorteile.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "geraete-laenger-nutzen",
+    "nivel": "B2",
+    "titulo": "Ein Recht auf Reparatur",
+    "descripcion": "Neue Regeln sollen langlebigere Geräte fördern, lösen aber nicht jedes Problem.",
+    "texto": "Wenn ein Smartphone oder eine Waschmaschine kurz nach Ablauf der Garantie ausfällt, lohnt sich eine Reparatur finanziell oft kaum. Ersatzteile sind teuer, technische Informationen fehlen oder das Gehäuse lässt sich nur mit Spezialwerkzeug öffnen. Ein gesetzlich gestärktes Recht auf Reparatur soll Hersteller verpflichten, bestimmte Ersatzteile und Anleitungen über mehrere Jahre bereitzustellen.\n\nBefürworter erwarten davon weniger Elektroschrott und einen sparsameren Umgang mit Rohstoffen. Unabhängige Werkstätten könnten mehr Geräte reparieren, während Verbraucher eine echte Alternative zum Neukauf erhielten. Hersteller wenden ein, dass längere Lagerzeiten für Bauteile Kosten verursachen und unsachgemäße Eingriffe Sicherheitsrisiken schaffen könnten. Zudem werden Produkte nicht automatisch repariert, nur weil dies technisch möglich ist: Bleiben Arbeitskosten hoch, entscheidet sich mancher Kunde weiterhin für ein neues Gerät.\n\nWirksam wäre die Regelung daher vor allem als Teil eines größeren Konzepts. Denkbar sind transparente Angaben zur Reparierbarkeit, längere Softwareunterstützung und reduzierte Steuern auf Reparaturleistungen. Gleichzeitig müssten Geräte so konstruiert werden, dass häufig verschleißende Teile ohne Beschädigung austauschbar sind. Das Recht auf Reparatur verschiebt Verantwortung somit nicht allein zu den Produzenten. Politik, Werkstätten und Konsumenten beeinflussen gemeinsam, ob Reparieren wieder selbstverständlich oder lediglich eine gut gemeinte Möglichkeit wird.",
+    "preguntas": [
+      {
+        "enunciado": "Reparaturen sind nach Ablauf der Garantie immer kostenlos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hersteller sollen Ersatzteile länger anbieten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Unabhängige Werkstätten könnten von den Regeln profitieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Technische Reparierbarkeit garantiert eine tatsächliche Reparatur.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text empfiehlt mehrere ergänzende Maßnahmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sprachwandel-durch-soziale-medien",
+    "nivel": "B2",
+    "titulo": "Sprachwandel durch soziale Medien",
+    "descripcion": "Digitale Kommunikation verändert Sprache, ohne sie zwangsläufig zu verschlechtern.",
+    "texto": "Kurze Videos, Chats und Memes verbreiten neue Ausdrücke mit einer Geschwindigkeit, die frühere Generationen kaum kannten. Wörter aus dem Englischen gelangen in den Alltag, Satzzeichen erhalten emotionale Bedeutungen, und Schreibweisen werden bewusst verkürzt. Manche Beobachter sehen darin einen Verfall sprachlicher Fähigkeiten. Andere betrachten diese Entwicklungen als normalen Wandel, der durch digitale Medien lediglich sichtbarer und schneller geworden ist.\n\nTatsächlich schreiben viele Menschen heute häufiger als früher, allerdings in sehr unterschiedlichen Situationen. Eine Nachricht an Freunde folgt anderen Regeln als eine Bewerbung oder wissenschaftliche Arbeit. Problematisch wird nicht die informelle Sprache selbst, sondern fehlende Fähigkeit, zwischen Kontexten zu wechseln. Wer Abkürzungen im Chat kreativ nutzt, kann trotzdem formelle Texte beherrschen; umgekehrt garantiert fehlerfreie Rechtschreibung noch keine verständliche Argumentation.\n\nSchulen stehen deshalb vor einer doppelten Aufgabe. Sie müssen verbindliche Standards vermitteln, sollten aber zugleich erklären, warum Varianten entstehen und welche Wirkung sie entfalten. Würden neue Ausdrucksformen nur verboten, bliebe eine wichtige Lebenswirklichkeit der Lernenden unberücksichtigt. Eine unkritische Übernahme jeder Mode wäre jedoch ebenso wenig hilfreich. Sprachkompetenz zeigt sich letztlich nicht darin, immer gleich zu schreiben, sondern darin, Ton, Wortwahl und Struktur bewusst an Adressaten und Zweck anzupassen.",
+    "preguntas": [
+      {
+        "enunciado": "Neue Ausdrücke verbreiten sich heute besonders langsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Informelle Sprache wird im Text grundsätzlich abgelehnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Entscheidend ist die Fähigkeit zum Wechsel zwischen Kontexten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Korrekte Rechtschreibung garantiert eine gute Argumentation.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Schulen sollen Standards und Sprachwandel thematisieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "urban-gardening",
+    "nivel": "B2",
+    "titulo": "Urban Gardening zwischen Gemeinschaft und Symbolpolitik",
+    "descripcion": "Gemeinschaftsgärten versprechen ökologische und soziale Vorteile in Städten.",
+    "texto": "Auf unbebauten Grundstücken, Dächern und ehemaligen Parkplätzen entstehen in vielen Städten gemeinschaftlich gepflegte Gärten. Dort bauen Anwohner Gemüse an, tauschen Wissen aus und schaffen kleine Lebensräume für Insekten. Befürworter sehen im Urban Gardening eine praktische Antwort auf versiegelte Flächen, soziale Isolation und die große Distanz zwischen Lebensmittelproduktion und Konsum.\n\nDie Erwartungen sollten allerdings realistisch bleiben. Selbst eine Vielzahl städtischer Beete kann den Nahrungsmittelbedarf einer Großstadt nur zu einem geringen Teil decken. Hinzu kommen Nutzungskonflikte: Grundstücke sind teuer, Wasser muss bereitgestellt werden, und freiwilliges Engagement verteilt sich nicht immer gleichmäßig. Manche Projekte verschwinden, sobald Fördermittel auslaufen oder das Gelände bebaut wird. Kritiker sprechen deshalb von ökologischer Symbolpolitik, wenn Kommunen Gemeinschaftsgärten präsentieren, gleichzeitig aber weiterhin große Grünflächen versiegeln.\n\nIhre Bedeutung ausschließlich an der Erntemenge zu messen, greift dennoch zu kurz. Gärten können Nachbarschaften verbinden, Umweltbildung ermöglichen und zeigen, wie Hitzeinseln lokal gemildert werden. Damit solche Projekte mehr als vorübergehende Dekoration sind, brauchen sie langfristige Nutzungsverträge, fachliche Beratung und Zugang für unterschiedliche Bevölkerungsgruppen. Urban Gardening ersetzt keine umfassende Stadtplanung, kann ihr aber konkrete Erfahrungsräume liefern und Bewohner an Entscheidungen über ihr Umfeld beteiligen.",
+    "preguntas": [
+      {
+        "enunciado": "Gemeinschaftsgärten können den gesamten Lebensmittelbedarf decken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Freiwillige Arbeit ist in den Projekten immer gleich verteilt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln mögliche Widersprüche kommunaler Politik.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Nutzen der Gärten besteht nur in ihrer Ernte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Langfristige Verträge können Projekte stabilisieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "personalisierte-werbung",
+    "nivel": "B2",
+    "titulo": "Personalisierte Werbung",
+    "descripcion": "Maßgeschneiderte Anzeigen bewegen sich zwischen Komfort und Überwachung.",
+    "texto": "Onlinewerbung richtet sich längst nicht mehr nur nach dem Inhalt einer besuchten Webseite. Plattformen kombinieren Suchanfragen, Standortdaten, Klickverhalten und vermutete Interessen, um Anzeigen möglichst genau auf einzelne Nutzer zuzuschneiden. Für Unternehmen ist das attraktiv, weil Werbebudgets gezielter eingesetzt werden können. Auch Verbraucher profitieren möglicherweise, wenn sie weniger irrelevante Angebote sehen.\n\nDer Komfort hat jedoch einen Preis. Vielen Menschen ist weder klar, welche Daten gesammelt werden, noch wie weit daraus persönliche Eigenschaften abgeleitet werden. Selbst anonymisierte Datensätze können unter bestimmten Umständen wieder Personen zugeordnet werden. Zudem beeinflusst personalisierte Werbung nicht alle gleich: Wer als besonders kaufbereit gilt, sieht womöglich andere Preise oder häufiger riskante Finanzangebote. Die Grenze zwischen hilfreicher Empfehlung und manipulativer Ansprache bleibt schwer zu bestimmen.\n\nEin wirksamer Schutz darf sich daher nicht in langen Einwilligungsfenstern erschöpfen, die Nutzer ungelesen bestätigen. Notwendig wären verständliche Wahlmöglichkeiten, sparsame Voreinstellungen und Kontrollen der zugrunde liegenden Algorithmen. Gleichzeitig sollte kontextbezogene Werbung als weniger datenintensive Alternative weiterentwickelt werden. Personalisierung ist nicht grundsätzlich schädlich; problematisch wird sie, wenn Informationsvorsprünge einseitig bei Plattformen liegen und Betroffene weder Einblick noch realistische Möglichkeiten zum Widerspruch haben.",
+    "preguntas": [
+      {
+        "enunciado": "Personalisierte Anzeigen beruhen nur auf dem Seiteninhalt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gezieltere Werbung kann Unternehmen Kosten sparen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anonymisierte Daten lassen sich niemals Personen zuordnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text hält lange Einwilligungstexte allein für ausreichend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kontextbezogene Werbung wird als Alternative erwähnt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "pflichtjahr-fuer-junge-menschen",
+    "nivel": "B2",
+    "titulo": "Ein Pflichtjahr für junge Menschen?",
+    "descripcion": "Die Debatte über einen verpflichtenden Gesellschaftsdienst berührt Freiheit und Zusammenhalt.",
+    "texto": "Angesichts fehlender Arbeitskräfte in Pflege, Rettungsdiensten und sozialen Einrichtungen wird regelmäßig ein verpflichtendes Gesellschaftsjahr für junge Erwachsene gefordert. Unterstützer argumentieren, ein solcher Dienst könne den gesellschaftlichen Zusammenhalt stärken, Einblicke in unbekannte Lebenswelten vermitteln und gemeinnützige Organisationen personell entlasten.\n\nGegen den Vorschlag sprechen gewichtige Einwände. Ein Pflichtjahr greift in die persönliche Lebensplanung ein und verzögert Ausbildung oder Studium. Zudem dürfen reguläre Fachkräfte nicht durch niedrig bezahlte junge Menschen ersetzt werden. Ohne qualifizierte Betreuung würden Einsatzstellen möglicherweise mehr Aufwand als Unterstützung erhalten. Auch die Frage der Gerechtigkeit ist offen: Ausnahmen aus gesundheitlichen oder familiären Gründen müssten transparent geregelt sein, und der Dienst müsste für Menschen in ländlichen Regionen ebenso zugänglich sein wie in Städten.\n\nAls Alternative schlagen Kritiker vor, bestehende Freiwilligendienste attraktiver zu machen – etwa durch bessere Bezahlung, Anerkennung für Ausbildung und Studium sowie bezahlbaren Wohnraum am Einsatzort. Dies wäre kostspielig, respektierte aber die Freiwilligkeit. Ob ein verpflichtendes Jahr tatsächlich Solidarität erzeugt, bleibt ohnehin fraglich; erzwungenes Engagement kann ebenso Ablehnung hervorrufen. Die Debatte sollte deshalb nicht nur fragen, wie kurzfristig Personal gewonnen wird, sondern welche Bedingungen langfristig zu gesellschaftlicher Verantwortung motivieren.",
+    "preguntas": [
+      {
+        "enunciado": "Das Pflichtjahr soll ausschließlich im Rettungsdienst stattfinden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Pflicht könnte Bildungswege verzögern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Junge Dienstleistende sollen Fachkräfte ersetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zugang zum Dienst wirft regionale Gerechtigkeitsfragen auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Attraktivere Freiwilligendienste wären nach dem Text kostenlos.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "bibliotheken-der-zukunft",
+    "nivel": "B2",
+    "titulo": "Bibliotheken der Zukunft",
+    "descripcion": "Öffentliche Bibliotheken entwickeln sich von Ausleihorten zu offenen Lernräumen.",
+    "texto": "Da Bücher, Filme und wissenschaftliche Informationen zunehmend digital verfügbar sind, wird gelegentlich das Ende öffentlicher Bibliotheken vorhergesagt. Tatsächlich sinkt in manchen Einrichtungen die Zahl klassischer Ausleihen. Gleichzeitig entstehen dort jedoch neue Angebote: Arbeitsplätze, Sprachcafés, Werkstätten mit technischen Geräten und Beratung zur Bewertung digitaler Quellen.\n\nDiese Entwicklung verändert das berufliche Profil. Bibliotheksmitarbeiter verwalten nicht mehr nur Bestände, sondern moderieren Veranstaltungen, vermitteln Medienkompetenz und unterstützen Menschen beim Zugang zu digitalen Verwaltungsdiensten. Gerade Personen ohne ruhigen Arbeitsplatz, aktuelle Geräte oder ausreichende Sprachkenntnisse profitieren von solchen niedrigschwelligen Angeboten. Damit übernehmen Bibliotheken Aufgaben, die der Markt allein kaum erfüllt.\n\nDer Wandel ist allerdings weder kostenlos noch konfliktfrei. Offene Veranstaltungsflächen können jene stören, die konzentriert lesen möchten, während teure Technik Mittel für Bücher bindet. Bibliotheken müssen daher unterschiedliche Zonen schaffen und ihre Prioritäten gemeinsam mit den Nutzern bestimmen. Ihr Erfolg lässt sich künftig auch nicht allein an Ausleihzahlen messen. Relevant sind ebenso Aufenthaltsqualität, Teilhabe und die Fähigkeit, verlässliche Orientierung in einer unübersichtlichen Informationswelt zu bieten. Die Bibliothek der Zukunft entfernt sich damit vom Buchlager, ohne das Buch überflüssig zu machen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text sagt das sichere Ende aller Bibliotheken voraus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bibliotheken bieten zunehmend auch Medienberatung an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Von neuen Angeboten profitieren nur Menschen mit moderner Technik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Offene Flächen können zu Nutzungskonflikten führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ausleihzahlen reichen künftig als einziges Erfolgskriterium aus.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "lebensmittelverschwendung-im-handel",
+    "nivel": "B2",
+    "titulo": "Lebensmittelverschwendung im Handel",
+    "descripcion": "Zwischen vollen Regalen und weniger Abfall entstehen Zielkonflikte.",
+    "texto": "Supermärkte sollen bis zum Ladenschluss eine große Auswahl frischer Waren anbieten. Genau diese Erwartung trägt jedoch dazu bei, dass Brot, Obst und Fertiggerichte übrig bleiben. Produkte werden außerdem aussortiert, weil Verpackungen beschädigt sind oder ihr Aussehen nicht den gewohnten Standards entspricht, obwohl sie noch einwandfrei verzehrt werden könnten.\n\nViele Händler reduzieren kurz vor Ablauf des Mindesthaltbarkeitsdatums die Preise oder geben Ware an gemeinnützige Organisationen weiter. Digitale Prognosen sollen Bestellungen genauer an Wetter, Wochentag und lokale Nachfrage anpassen. Solche Maßnahmen verringern Überschüsse, beseitigen sie aber nicht vollständig. Spenden erfordern Kühlung, Transport und zuverlässige Abholung; kleinere Initiativen können große Mengen nicht jederzeit übernehmen.\n\nAuch Verbraucher tragen Verantwortung. Wer makellose Regale bis spät am Abend verlangt oder das Mindesthaltbarkeitsdatum mit einem Verfallsdatum verwechselt, verstärkt den Druck auf den Handel. Dennoch wäre es zu einfach, Abfall allein als Summe individueller Entscheidungen zu betrachten. Verkaufsziele, Lieferverträge und gesetzliche Vorgaben prägen das System. Sinnvoll erscheint deshalb eine Kombination aus besserer Planung, flexibleren Qualitätsnormen, Aufklärung und verbindlicher Dokumentation der Abfälle. Erst wenn sichtbar wird, wo welche Mengen entstehen, lassen sich Maßnahmen gezielt bewerten, statt Erfolge nur werbewirksam zu behaupten.",
+    "preguntas": [
+      {
+        "enunciado": "Volle Regale bis Ladenschluss können Überschüsse fördern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beschädigte Verpackungen bedeuten immer verdorbene Lebensmittel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Digitale Prognosen verhindern sämtliche Abfälle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lebensmittelspenden verursachen logistischen Aufwand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text macht ausschließlich Verbraucher verantwortlich.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "anonyme-bewerbungen",
+    "nivel": "B2",
+    "titulo": "Anonyme Bewerbungen",
+    "descripcion": "Bewerbungen ohne persönliche Angaben sollen Vorurteile reduzieren.",
+    "texto": "Bei anonymisierten Bewerbungsverfahren werden Name, Foto, Alter, Geschlecht und teilweise die Adresse zunächst ausgeblendet. Personalverantwortliche sollen Kandidaten in der ersten Auswahlphase ausschließlich nach Qualifikation und Berufserfahrung beurteilen. Studien und Modellversuche deuten darauf hin, dass dadurch manche Gruppen häufiger zu Vorstellungsgesprächen eingeladen werden.\n\nDas Verfahren kann Diskriminierung allerdings nicht vollständig verhindern. Spätestens im Gespräch werden persönliche Merkmale sichtbar, und Vorurteile können die endgültige Entscheidung weiterhin beeinflussen. Außerdem verraten Ausbildungsorte, Sprachkenntnisse oder längere Unterbrechungen im Lebenslauf indirekt Informationen über die Biografie. Kritiker befürchten darüber hinaus zusätzlichen Verwaltungsaufwand, besonders wenn Unterlagen manuell anonymisiert werden müssen.\n\nBefürworter entgegnen, die erste Hürde sei entscheidend: Wer sonst gar keine Einladung erhielte, könne im persönlichen Gespräch zumindest überzeugen. Technische Systeme könnten die Anonymisierung erleichtern, müssten aber sorgfältig geprüft werden, damit sie nicht selbst neue Verzerrungen erzeugen. Anonyme Bewerbungen sind daher weniger als abschließende Lösung denn als diagnostisches Instrument zu verstehen. Wenn sich die Zusammensetzung der eingeladenen Kandidaten deutlich verändert, weist dies auf bisherige Auswahlmuster hin. Dauerhafte Chancengleichheit erfordert zusätzlich geschulte Interviewer, transparente Kriterien und eine regelmäßige Auswertung von Personalentscheidungen.",
+    "preguntas": [
+      {
+        "enunciado": "Anonyme Bewerbungen verbergen in der ersten Phase persönliche Angaben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Verfahren beseitigt jede Form von Diskriminierung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lebensläufe können indirekte biografische Hinweise enthalten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Automatische Systeme sind grundsätzlich frei von Verzerrungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Verfahren kann bestehende Auswahlmuster sichtbar machen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
