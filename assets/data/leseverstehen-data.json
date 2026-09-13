@@ -7430,5 +7430,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-schuhgeschaeft",
+    "nivel": "A1",
+    "titulo": "Im Schuhgeschäft",
+    "descripcion": "Anna kauft neue Schuhe für die Schule.",
+    "texto": "Anna braucht neue Schuhe. Die alten Schuhe sind kaputt. Sie geht mit ihrer Mutter in ein Schuhgeschäft in der Stadt.\n\nIm Geschäft sieht Anna viele Schuhe. Es gibt rote Schuhe, blaue Schuhe und weiße Schuhe. Anna mag die weißen Schuhe. Sie probiert die Schuhe an. Die Schuhe passen gut.\n\nDie Verkäuferin fragt: „Gefallen dir die Schuhe?“ Anna sagt: „Ja, sie sind sehr bequem!“ Die Mutter bezahlt die Schuhe an der Kasse. Anna ist sehr glücklich mit ihren neuen Schuhen.",
+    "preguntas": [
+      {
+        "enunciado": "Anna braucht neue Schuhe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna geht allein in das Geschäft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna mag die weißen Schuhe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schuhe passen nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter bezahlt die Schuhe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-wecker",
+    "nivel": "A1",
+    "titulo": "Mein Wecker",
+    "descripcion": "Tim erzählt, wie sein Wecker jeden Morgen klingelt.",
+    "texto": "Tim hat einen kleinen Wecker. Der Wecker steht auf dem Tisch neben dem Bett. Jeden Morgen um sieben Uhr klingelt der Wecker laut.\n\nTim steht auf und macht den Wecker aus. Er wäscht sich das Gesicht und zieht sich an. Dann isst er ein Brot mit Marmelade. Um Viertel nach sieben trinkt er einen Tee.\n\nAm Wochenende klingelt der Wecker nicht. Tim schläft dann bis neun Uhr. Er findet den Wecker unter der Woche wichtig, aber am Wochenende mag er die Ruhe.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wecker klingelt um sieben Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim isst zuerst Suppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim trinkt morgens einen Tee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Wochenende klingelt der Wecker auch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Wochenende schläft Tim länger.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-obststand",
+    "nivel": "A1",
+    "titulo": "Der Obststand",
+    "descripcion": "Herr Berger kauft frisches Obst auf dem Markt.",
+    "texto": "Herr Berger geht jeden Samstag auf den Markt. Dort gibt es einen kleinen Obststand. Der Obststand hat Äpfel, Bananen und Orangen.\n\nHerr Berger möchte ein Kilo Äpfel und zwei Bananen kaufen. Die Verkäuferin lächelt und packt das Obst in eine Tüte. „Das macht vier Euro“, sagt sie. Herr Berger bezahlt und sagt: „Danke schön!“\n\nZu Hause wäscht Herr Berger die Äpfel. Er isst einen Apfel zum Frühstück. Das Obst vom Markt schmeckt sehr gut und ist frisch.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Berger geht sonntags auf den Markt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Obststand hat Äpfel und Bananen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger kauft drei Kilo Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Obst kostet vier Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger isst einen Apfel zum Frühstück.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-tierarzt",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Tierarzt",
+    "descripcion": "Julia bringt ihre kranke Katze zum Tierarzt.",
+    "texto": "Julias Katze Mimi hat seit zwei Tagen nicht mehr gefressen. Weil Julia sich Sorgen macht, ruft sie beim Tierarzt an und macht einen Termin für den Nachmittag.\n\nIm Wartezimmer sitzen viele Menschen mit ihren Haustieren. Ein Hund bellt laut, und ein kleiner Vogel sitzt ruhig in seinem Käfig. Nach zwanzig Minuten ist Mimi an der Reihe. Der Tierarzt untersucht die Katze vorsichtig und sagt, dass sie eine leichte Erkältung hat. Er gibt Julia Medizin für Mimi mit.\n\nAls Julia nach Hause kommt, gibt sie Mimi die Medizin. Schon am nächsten Tag frisst die Katze wieder normal. Julia ist erleichtert, dass es ihrer Katze bald besser geht.",
+    "preguntas": [
+      {
+        "enunciado": "Mimi hat seit zwei Tagen nichts gefressen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia bringt Mimi am Morgen zum Tierarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Wartezimmer ist niemand außer Julia.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Tierarzt sagt, Mimi hat eine Erkältung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi frisst am nächsten Tag wieder normal.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-verlorener-schluessel",
+    "nivel": "A2",
+    "titulo": "Ein verlorener Schlüssel",
+    "descripcion": "Herr Neumann verliert seinen Wohnungsschlüssel und bekommt Hilfe von der Nachbarin.",
+    "texto": "Als Herr Neumann am Abend nach Hause kam, konnte er seinen Schlüssel nicht finden. Er hatte die Tasche durchsucht, aber der Schlüssel war einfach verschwunden. Weil es schon dunkel und kalt war, wusste er nicht, was er tun sollte.\n\nSeine Nachbarin, Frau Krüger, hörte ihn im Treppenhaus und öffnete ihre Tür. Sie fragte, ob alles in Ordnung sei. Herr Neumann erzählte ihr von dem Problem. Frau Krüger lud ihn zu einem Tee ein, während sie gemeinsam nach einer Lösung suchten. Sie erinnerte sich, dass der Hausmeister einen Ersatzschlüssel hatte.\n\nDer Hausmeister brachte den Ersatzschlüssel schnell vorbei, und Herr Neumann konnte endlich in seine Wohnung. Er bedankte sich herzlich bei Frau Krüger, weil sie ihm so freundlich geholfen hatte. Am nächsten Tag fand er seinen alten Schlüssel übrigens in der Jackentasche.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Neumann findet seinen Schlüssel sofort.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Krüger hört ihn im Treppenhaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Krüger lädt ihn zu einem Tee ein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hausmeister hat keinen Ersatzschlüssel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Neumann findet den alten Schlüssel nie wieder.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-postkarte-aus-den-bergen",
+    "nivel": "A2",
+    "titulo": "Eine Postkarte aus den Bergen",
+    "descripcion": "Sophie schreibt ihrer Familie eine Postkarte von ihrer Wanderreise in den Bergen.",
+    "texto": "Liebe Mama, lieber Papa,\n\nich bin seit drei Tagen in den Bergen und es gefällt mir hier sehr gut. Weil das Wetter so schön war, sind wir gestern fünf Stunden gewandert. Wir haben eine kleine Hütte gefunden, in der wir Suppe gegessen haben. Die Aussicht auf die Berge war einfach wunderschön.\n\nGestern Abend hat es leider stark geregnet, deshalb sind wir früher ins Zimmer gegangen. Trotzdem war der Tag toll, weil wir viele Tiere gesehen haben: Kühe, Ziegen und sogar einen Adler. Wenn das Wetter morgen gut ist, wollen wir noch auf einen höheren Berg steigen.\n\nIch vermisse euch und komme am Sonntag zurück. Bis bald!\n\nEure Sophie",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist am Meer im Urlaub.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie ist fünf Stunden gewandert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend hat es geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat keine Tiere gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie kommt am Sonntag zurück.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-in-der-autowerkstatt",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum in der Autowerkstatt",
+    "descripcion": "Kevin macht ein zweiwöchiges Praktikum in einer Autowerkstatt und lernt den Berufsalltag kennen.",
+    "texto": "Kevin interessiert sich schon lange für Autos, obwohl niemand in seiner Familie diesen Beruf ausübt. Deshalb hat er sich für ein zweiwöchiges Praktikum in einer Autowerkstatt in seiner Nähe entschieden. Am ersten Tag war er nervös, weil er noch nie in einer echten Werkstatt gearbeitet hatte.\n\nNachdem der Meister ihm die wichtigsten Werkzeuge gezeigt hatte, durfte Kevin bei einfachen Arbeiten mithelfen, zum Beispiel beim Reifenwechsel. Obwohl die Arbeit anstrengend war und seine Hände am Abend immer schmutzig waren, machte ihm die Arbeit großen Spaß. Er merkte schnell, dass in diesem Beruf Genauigkeit sehr wichtig ist.\n\nAm Ende des Praktikums sagte der Meister, dass Kevin sich gut angestellt habe und gerne eine Ausbildung bei ihm beginnen könne. Kevin war stolz und überlegt nun ernsthaft, nach der Schule eine Ausbildung zum Kfz-Mechatroniker zu machen.",
+    "preguntas": [
+      {
+        "enunciado": "Kevins Familie arbeitet auch mit Autos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Praktikum dauert zwei Wochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kevin darf am ersten Tag sofort allein arbeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kevin findet die Arbeit langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Meister bietet Kevin eine Ausbildung an.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-theaterprobe",
+    "nivel": "B1",
+    "titulo": "Die Theaterprobe",
+    "descripcion": "Eine Schülertheatergruppe probt trotz vieler Schwierigkeiten für ihre erste Aufführung.",
+    "texto": "Die Theater-AG der Schule probt seit Wochen für ihre erste große Aufführung. Obwohl viele Schüler anfangs skeptisch waren, ob sie ihre Texte überhaupt rechtzeitig lernen würden, haben sich die meisten inzwischen gut eingearbeitet. Nachdem die Lehrerin die Rollen verteilt hatte, begannen die intensiven Proben jeden Dienstag- und Donnerstagnachmittag.\n\nBei der letzten Probe vergaß der Hauptdarsteller plötzlich seinen ganzen Text. Trotzdem blieb die Gruppe ruhig und half ihm, indem sie ihm leise die nächsten Sätze zuflüsterte. Solche Pannen gehören offenbar zum Theateralltag dazu, wie die Lehrerin den Schülern erklärte.\n\nAm Ende der Probe waren alle erschöpft, aber auch zufrieden. Nachdem sie die schwierigste Szene endlich gemeistert hatten, war die Stimmung in der Gruppe deutlich besser. In zwei Wochen findet die Premiere statt, und alle hoffen, dass dann alles klappt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Theater-AG probt nur einmal pro Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Schüler waren von Anfang an begeistert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hauptdarsteller vergisst bei der letzten Probe seinen Text.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe hilft dem Hauptdarsteller.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Premiere ist schon am nächsten Tag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-mit-dem-besten-freund",
+    "nivel": "B1",
+    "titulo": "Der Streit mit dem besten Freund",
+    "descripcion": "Nach einem Streit müssen zwei beste Freunde einen Weg finden, sich wieder zu versöhnen.",
+    "texto": "Lukas und Ben sind seit der Grundschule beste Freunde, obwohl sie sich in vielen Dingen unterscheiden. Letzte Woche kam es jedoch zu einem heftigen Streit, weil Ben ein Treffen mit Lukas kurzfristig abgesagt hatte, um stattdessen mit anderen Freunden ins Kino zu gehen. Lukas fühlte sich zurückgesetzt und sprach danach tagelang nicht mit Ben.\n\nNachdem beide ein paar Tage nicht miteinander geredet hatten, merkten sie, wie sehr ihnen die Freundschaft fehlte. Trotzdem traute sich keiner von beiden, den ersten Schritt zu machen. Erst als ihre gemeinsame Freundin Mia vermittelte, kamen die beiden wieder ins Gespräch.\n\nBei einem langen Spaziergang erklärten sich Lukas und Ben gegenseitig ihre Sichtweise. Ben entschuldigte sich dafür, dass er die Verabredung so kurzfristig abgesagt hatte, und Lukas gab zu, dass er zu schnell beleidigt gewesen war. Am Ende versprachen sich beide, in Zukunft offener miteinander zu reden.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas und Ben kennen sich erst seit Kurzem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben sagt ein Treffen kurzfristig ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas macht sofort den ersten Schritt zur Versöhnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hilft den beiden Freunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende reden die beiden gar nicht mehr miteinander.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-demografische-wandel",
+    "nivel": "B2",
+    "titulo": "Der demografische Wandel – Deutschland wird älter",
+    "descripcion": "Ein Text über die Ursachen und Folgen des demografischen Wandels in Deutschland.",
+    "texto": "Seit Jahrzehnten verändert sich die Altersstruktur der deutschen Bevölkerung grundlegend. Während die Geburtenrate seit den 1970er-Jahren auf einem vergleichsweise niedrigen Niveau verharrt, steigt die durchschnittliche Lebenserwartung kontinuierlich an. Diese Entwicklung, die gemeinhin als demografischer Wandel bezeichnet wird, stellt die sozialen Sicherungssysteme des Landes vor erhebliche Herausforderungen, die von Politik und Gesellschaft zunehmend ernst genommen werden müssen.\n\nBesonders deutlich zeigen sich die Auswirkungen im Rentensystem, das traditionell nach dem sogenannten Umlageverfahren finanziert wird: Die arbeitende Bevölkerung zahlt für die Renten der aktuellen Rentnergeneration. Da jedoch immer weniger Erwerbstätige einer wachsenden Zahl an Rentnern gegenüberstehen, wird vielfach diskutiert, ob das Renteneintrittsalter weiter angehoben oder das System grundlegend reformiert werden sollte. Würde man das System unverändert lassen, müssten künftige Generationen mit deutlich höheren Beiträgen oder niedrigeren Renten rechnen.\n\nGleichzeitig eröffnet der demografische Wandel auch neue Chancen. Ältere Arbeitnehmer verfügen über wertvolle Erfahrung, die in vielen Betrieben händeringend gesucht wird, während der Fachkräftemangel Unternehmen zunehmend dazu zwingt, gezielt in die Aus- und Weiterbildung von Arbeitskräften jeden Alters zu investieren. Experten sind sich weitgehend einig, dass eine erfolgreiche Bewältigung dieser Herausforderung nur gelingen kann, wenn Politik, Wirtschaft und Gesellschaft gemeinsam an nachhaltigen Lösungen arbeiten, anstatt das Problem in die Zukunft zu verschieben.",
+    "preguntas": [
+      {
+        "enunciado": "Die Geburtenrate in Deutschland ist seit den 1970er-Jahren stark gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lebenserwartung in Deutschland steigt kontinuierlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Rentensystem wird nach dem Umlageverfahren finanziert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ältere Arbeitnehmer gelten laut dem Text als wertlos für Unternehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht im demografischen Wandel ausschließlich Probleme, keine Chancen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "insektensterben-ein-stilles-oekodrama",
+    "nivel": "B2",
+    "titulo": "Insektensterben – Ein stilles Ökodrama",
+    "descripcion": "Ein Text über die Ursachen und Folgen des dramatischen Rückgangs der Insektenpopulationen.",
+    "texto": "Während Klimawandel und Plastikmüll regelmäßig für Schlagzeilen sorgen, findet ein anderes ökologisches Drama weitgehend im Verborgenen statt: das massive Insektensterben. Studien deuten darauf hin, dass die Biomasse fliegender Insekten in manchen Regionen Europas in den vergangenen Jahrzehnten um mehr als drei Viertel zurückgegangen ist. Wäre dieser Trend einem größeren, sichtbareren Tier widerfahren, hätte er wohl weitaus mehr öffentliche Aufmerksamkeit erregt.\n\nAls Hauptursachen gelten die intensive Landwirtschaft mit ihrem hohen Pestizideinsatz, der Verlust natürlicher Lebensräume sowie die zunehmende Lichtverschmutzung in Siedlungsgebieten. Insekten spielen jedoch eine unverzichtbare Rolle im Ökosystem: Ohne sie könnten viele Pflanzenarten nicht bestäubt werden, und zahlreiche Vogel- und Fledermausarten würden ihre wichtigste Nahrungsquelle verlieren. Sollte sich der Rückgang ungebremst fortsetzen, wären daher weitreichende Folgen für die gesamte Nahrungskette zu befürchten.\n\nDennoch gibt es Ansätze, die Hoffnung machen. In vielen Städten und Gemeinden werden inzwischen Blühstreifen angelegt, und einige Landwirte setzen verstärkt auf ökologische Anbaumethoden. Umweltverbände fordern jedoch, dass solche Maßnahmen nicht nur freiwillig, sondern verbindlich in der Agrarpolitik verankert werden müssten, damit dem Insektensterben wirksam entgegengewirkt werden kann, bevor es zu spät ist.",
+    "preguntas": [
+      {
+        "enunciado": "Das Insektensterben erhält laut dem Text genauso viel öffentliche Aufmerksamkeit wie der Klimawandel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Biomasse fliegender Insekten ist in manchen Regionen stark zurückgegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pestizide gelten als eine der Hauptursachen des Insektensterbens.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Insekten spielen laut dem Text keine wichtige Rolle für andere Tierarten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Umweltverbände fordern verbindliche Maßnahmen in der Agrarpolitik.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "whistleblower-zwischen-zivilcourage-und-verrat",
+    "nivel": "B2",
+    "titulo": "Whistleblower – Zwischen Zivilcourage und Verrat",
+    "descripcion": "Ein Text über die ethischen und rechtlichen Konflikte rund um Whistleblower in Unternehmen und Behörden.",
+    "texto": "Whistleblower, also Personen, die interne Missstände in Unternehmen oder Behörden öffentlich machen, werden in der öffentlichen Wahrnehmung höchst unterschiedlich bewertet. Während die einen sie als mutige Aufdecker von Korruption, Umweltverschmutzung oder Steuerbetrug feiern, gelten sie den Betroffenen häufig als illoyale Verräter, die dem eigenen Arbeitgeber schweren Schaden zufügen. Diese Ambivalenz spiegelt sich auch in der jahrzehntelangen rechtlichen Grauzone wider, in der sich Whistleblower lange Zeit bewegen mussten.\n\nErst mit der Einführung entsprechender Schutzgesetze auf europäischer Ebene wurde ein rechtlicher Rahmen geschaffen, der Hinweisgeber vor Kündigung und anderen Repressalien bewahren soll. Kritiker bemängeln jedoch, dass die Umsetzung in vielen Unternehmen nur zögerlich erfolgt sei und interne Meldestellen häufig nicht unabhängig genug arbeiteten. Ohne einen wirksamen Schutz, so die Befürchtung vieler Experten, würden sich potenzielle Hinweisgeber auch künftig eher scheuen, Missstände zu melden, aus Angst vor beruflichen und persönlichen Konsequenzen.\n\nGleichzeitig wird debattiert, wo die Grenze zwischen legitimer Aufklärung und dem Verrat schützenswerter Betriebsgeheimnisse verläuft. Während manche Fälle, wie etwa die Aufdeckung großangelegter Steuerhinterziehung, in der Öffentlichkeit kaum umstritten sind, werfen andere Fälle komplexere Fragen auf, wenn etwa auch sensible Daten unbeteiligter Dritter offengelegt werden. Diese Debatte dürfte auch in Zukunft nicht an Brisanz verlieren, da Digitalisierung und globale Vernetzung den Zugang zu internen Informationen stetig erleichtern.",
+    "preguntas": [
+      {
+        "enunciado": "Whistleblower werden in der Gesellschaft einheitlich als Helden angesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt inzwischen europäische Schutzgesetze für Hinweisgeber.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker halten die Umsetzung des Schutzes in Unternehmen für vorbildlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text ist die Grenze zwischen Aufklärung und Geheimnisverrat immer eindeutig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Digitalisierung erleichtert laut dem Text den Zugang zu internen Informationen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
