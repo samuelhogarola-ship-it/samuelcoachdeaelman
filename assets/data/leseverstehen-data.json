@@ -8126,5 +8126,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-blumenladen",
+    "nivel": "A1",
+    "titulo": "Im Blumenladen",
+    "descripcion": "Lena kauft Blumen für ihre Mutter.",
+    "texto": "Lena geht heute in den Blumenladen. Der Laden ist bunt und riecht sehr gut. Viele Blumen stehen in Vasen. Lena sucht Blumen für ihre Mutter. Die Mutter hat morgen Geburtstag.\n\nDie Verkäuferin heißt Frau Bauer. Sie fragt: „Welche Farbe möchtest du?“ Lena mag die Farbe Rosa. Sie zeigt auf die rosa Rosen. Frau Bauer packt fünf Rosen in Papier. Lena bezahlt fünf Euro.\n\nLena geht glücklich nach Hause. Sie trägt die Blumen vorsichtig. Zu Hause versteckt sie die Rosen im Schrank. Morgen früh gibt sie der Mutter die Blumen. Die Mutter wird sich sehr freuen.",
+    "preguntas": [
+      {
+        "enunciado": "Lena kauft Blumen für ihren Vater.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Laden riecht gut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena mag die Farbe Rosa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Bauer packt zehn Rosen ein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena versteckt die Blumen im Schrank.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-strassenbahn",
+    "nivel": "A1",
+    "titulo": "Die Straßenbahn",
+    "descripcion": "Tom fährt zum ersten Mal allein mit der Straßenbahn.",
+    "texto": "Tom ist neun Jahre alt. Heute fährt er zum ersten Mal allein mit der Straßenbahn. Die Straßenbahn ist gelb und laut. Tom wartet an der Haltestelle vor der Schule.\n\nDie Straßenbahn kommt pünktlich. Tom steigt ein und sucht einen Platz am Fenster. Er zeigt sein Ticket der Kontrolleurin. Die Kontrolleurin lächelt und sagt: „Gute Fahrt!“ Tom schaut aus dem Fenster und zählt die Haltestellen.\n\nNach vier Haltestellen steigt Tom aus. Seine Oma wartet schon an der Haltestelle. Sie umarmt ihn und fragt: „War die Fahrt schön?“ Tom nickt und erzählt von der freundlichen Kontrolleurin. Er ist stolz, weil er allein gefahren ist.",
+    "preguntas": [
+      {
+        "enunciado": "Tom ist zehn Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Straßenbahn ist gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom sitzt am Fenster.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom steigt nach zwei Haltestellen aus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma wartet an der Haltestelle.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-spielzeugladen",
+    "nivel": "A1",
+    "titulo": "Im Spielzeugladen",
+    "descripcion": "Paul sucht ein Geschenk für seinen kleinen Bruder.",
+    "texto": "Paul geht mit seinem Vater in den Spielzeugladen. Sein kleiner Bruder Finn hat bald Geburtstag. Paul möchte ein schönes Geschenk finden. Der Laden hat viele Regale mit Spielzeug.\n\nPaul sieht bunte Bauklötze, Autos und Bälle. Finn spielt gern mit Autos. Paul nimmt ein rotes Auto aus dem Regal. Der Vater fragt: „Gefällt dir das Auto?“ Paul nickt und lacht. Sie gehen zur Kasse und bezahlen.\n\nZu Hause packt Paul das Auto in buntes Papier. Er schreibt eine Karte für Finn. Am Geburtstag freut sich Finn sehr über das Auto. Er spielt den ganzen Tag damit. Paul ist auch glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Paul sucht ein Geschenk für seine Schwester.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Laden hat viele Regale mit Spielzeug.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn spielt gern mit Autos.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft einen Ball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn freut sich über das Geschenk.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "reise-nach-leipzig",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Leipzig",
+    "descripcion": "Julia hat ein verlängertes Wochenende in Leipzig verbracht.",
+    "texto": "Julia ist letzte Woche mit dem Zug nach Leipzig gefahren, weil sie die Stadt schon lange besuchen wollte. Sie hat drei Tage dort verbracht und in einem kleinen Hotel in der Nähe des Bahnhofs übernachtet. Am ersten Tag hat sie den Markt und das Rathaus besichtigt. Sie war beeindruckt, dass die Altstadt so viele alte Gebäude hat.\n\nAm zweiten Tag ist Julia in den Zoo gegangen, weil ihr eine Freundin gesagt hatte, dass er zu den schönsten Zoos in Deutschland gehört. Sie hat viele Tiere gesehen und ein paar Fotos gemacht. Danach hat sie in einem Café in der Innenstadt zu Mittag gegessen. Das Essen hat ihr sehr gut geschmeckt.\n\nAm letzten Tag hat Julia noch das Bach-Museum besucht, bevor sie zurück nach Hause gefahren ist. Sie hat gesagt, dass sie die Reise sehr genossen hat. Wenn sie wieder Zeit hat, möchte sie noch einmal nach Leipzig fahren.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit dem Auto nach Leipzig gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat drei Tage in Leipzig verbracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia ist nicht in den Zoo gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Essen im Café hat ihr gut geschmeckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia möchte nie wieder nach Leipzig fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradwerkstatt",
+    "nivel": "A2",
+    "titulo": "In der Fahrradwerkstatt",
+    "descripcion": "Markus bringt sein kaputtes Fahrrad zur Reparatur.",
+    "texto": "Markus ist gestern mit dem Fahrrad zur Arbeit gefahren, als plötzlich die Kette gerissen ist. Er musste das Fahrrad das letzte Stück schieben, weil er nicht mehr fahren konnte. Am Nachmittag hat er das Fahrrad zu einer Werkstatt in seiner Straße gebracht.\n\nDer Mechaniker hat gesagt, dass die Kette und die Bremsen erneuert werden müssen. Markus war überrascht, dass die Reparatur zwei Tage dauern würde. Er hat gefragt, ob er in der Zwischenzeit ein Leihfahrrad bekommen kann. Der Mechaniker hat ihm freundlich ein altes Fahrrad geliehen.\n\nZwei Tage später ist Markus wieder in die Werkstatt gegangen, um sein Fahrrad abzuholen. Er hat sich gefreut, dass alles so schnell repariert worden ist. Wenn er das nächste Mal ein Problem hat, möchte er wieder zu dieser Werkstatt gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist mit dem Bus zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kette von Markus' Fahrrad ist gerissen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Reparatur hat nur einen Tag gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat ein Leihfahrrad bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus war unzufrieden mit der Werkstatt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-hundesitter",
+    "nivel": "A2",
+    "titulo": "Der Hundesitter",
+    "descripcion": "Sophie passt zum ersten Mal auf den Hund ihrer Nachbarin auf.",
+    "texto": "Sophie hat ihrer Nachbarin Frau Weber versprochen, dass sie sich um deren Hund kümmert, während Frau Weber im Urlaub ist. Der Hund heißt Bruno und ist noch sehr jung. Sophie hat sich sehr gefreut, weil sie sich schon lange einen eigenen Hund wünscht.\n\nAm ersten Tag ist Sophie mit Bruno lange spazieren gegangen. Bruno war so aufgeregt, dass er ständig an der Leine gezogen hat. Am Abend hat Sophie ihm Futter gegeben und mit ihm gespielt. Sie hat gemerkt, dass ein Hund viel Zeit und Geduld braucht.\n\nAls Frau Weber aus dem Urlaub zurückgekommen ist, hat sie sich sehr bedankt. Sie hat Sophie erzählt, dass Bruno sie schon vermisst hat. Sophie war stolz, weil alles gut geklappt hat. Sie hofft, dass sie bald wieder auf Bruno aufpassen darf.",
+    "preguntas": [
+      {
+        "enunciado": "Der Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie wünscht sich schon lange einen eigenen Hund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno war am ersten Tag ruhig an der Leine.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat gemerkt, dass ein Hund viel Zeit braucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Weber war unzufrieden mit Sophie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "umzug-ins-ausland",
+    "nivel": "B1",
+    "titulo": "Ein Umzug ins Ausland",
+    "descripcion": "Familie Berger wagt den Schritt, für ein neues Leben nach Kanada auszuwandern.",
+    "texto": "Nachdem Herr Berger ein Jobangebot aus Kanada erhalten hatte, beschloss die ganze Familie, das Land zu verlassen und ein neues Leben zu beginnen. Obwohl die Entscheidung nicht leicht war, überwog am Ende die Vorfreude auf das Abenteuer. Die beiden Kinder mussten ihre Freunde und ihre gewohnte Schule zurücklassen, was ihnen anfangs sehr schwerfiel.\n\nIn den ersten Wochen in Toronto fühlte sich die Familie fremd, obwohl alle sehr freundlich empfangen wurden. Die Sprache war für die Kinder zunächst eine große Herausforderung, da der Unterricht komplett auf Englisch stattfand. Trotzdem gewöhnten sie sich erstaunlich schnell an den neuen Alltag und knüpften bald erste Kontakte in der Nachbarschaft.\n\nNachdem ein halbes Jahr vergangen war, fühlte sich die Familie schon viel wohler. Die Kinder hatten neue Freunde gefunden, und Frau Berger hatte eine Teilzeitstelle in einer Bibliothek angenommen. Rückblickend war die Familie froh, den mutigen Schritt gewagt zu haben, obwohl der Anfang nicht immer einfach gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Berger hat ein Jobangebot aus Kanada bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Entscheidung auszuwandern war für die Familie sehr leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder hatten anfangs Schwierigkeiten mit der englischen Sprache.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie fühlte sich nach einem halben Jahr immer noch völlig fremd.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat eine Teilzeitstelle in einer Bibliothek gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-beim-imker",
+    "nivel": "B1",
+    "titulo": "Ein Tag beim Imker",
+    "descripcion": "Ein Schulpraktikum führt Ben zu einem Imker, der ihm die Arbeit mit Bienen zeigt.",
+    "texto": "Für sein Schulpraktikum hatte sich Ben etwas Ungewöhnliches ausgesucht: Er verbrachte eine Woche bei einem Imker namens Herr Hoffmann. Obwohl Ben anfangs etwas Angst vor den Bienen hatte, war er gleichzeitig sehr neugierig, wie Honig eigentlich entsteht.\n\nAm ersten Tag zog Herr Hoffmann Ben einen Schutzanzug an, bevor sie gemeinsam die Bienenstöcke öffneten. Nachdem Ben die ersten Bienen aus der Nähe gesehen hatte, verlor er langsam seine Angst. Er lernte, dass eine Bienenkönigin bis zu 2000 Eier pro Tag legen kann und dass jedes Volk aus Tausenden Arbeiterinnen besteht.\n\nAm letzten Tag durfte Ben beim Schleudern des Honigs helfen. Obwohl die Arbeit anstrengend war, machte sie ihm großen Spaß. Nachdem er den frischen Honig probiert hatte, war er begeistert von dem intensiven Geschmack. Ben erzählte seinen Mitschülern später, dass dieses Praktikum das spannendste seiner ganzen Schulzeit gewesen sei.",
+    "preguntas": [
+      {
+        "enunciado": "Ben hat sein Praktikum bei einem Bäcker gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben hatte anfangs etwas Angst vor den Bienen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Bienenkönigin legt laut Text keine Eier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben durfte beim Schleudern des Honigs helfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben fand das Praktikum langweilig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-gemeindechor",
+    "nivel": "B1",
+    "titulo": "Der Chor in der Gemeinde",
+    "descripcion": "Eine junge Frau schließt sich dem Gemeindechor an und findet dort neue Freunde.",
+    "texto": "Nachdem Marie in eine neue Stadt gezogen war, kannte sie dort zunächst niemanden. Eine Kollegin schlug ihr vor, dem Gemeindechor beizutreten, obwohl Marie seit Jahren nicht mehr gesungen hatte. Zögernd besuchte sie die nächste Chorprobe und war überrascht, wie herzlich sie aufgenommen wurde.\n\nDer Chor bestand aus etwa dreißig Mitgliedern unterschiedlichen Alters, die sich einmal pro Woche trafen. Obwohl Marie am Anfang unsicher war, ob ihre Stimme gut genug sei, ermutigten die anderen Sänger sie immer wieder. Nachdem sie einige Wochen mitgesungen hatte, fühlte sie sich schon wie ein festes Mitglied der Gruppe.\n\nAls der Chor schließlich ein großes Konzert in der Stadtkirche gab, war Marie zunächst sehr nervös. Trotzdem verlief der Auftritt hervorragend, und das Publikum applaudierte lange. Nach dem Konzert feierte die ganze Gruppe gemeinsam, und Marie wusste, dass sie in der neuen Stadt endlich angekommen war.",
+    "preguntas": [
+      {
+        "enunciado": "Marie kannte in der neuen Stadt schon viele Menschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kollegin hat Marie den Gemeindechor empfohlen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Chor trifft sich nur einmal im Monat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marie war vor dem Konzert sehr nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Konzert ist Marie sofort nach Hause gegangen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "saisonarbeit-in-der-landwirtschaft",
+    "nivel": "B2",
+    "titulo": "Saisonarbeit in der Landwirtschaft",
+    "descripcion": "Ein Blick auf die Abhängigkeit der deutschen Landwirtschaft von ausländischen Erntehelfern.",
+    "texto": "Jedes Jahr im Frühling reisen Zehntausende Saisonarbeiter aus Osteuropa nach Deutschland, um bei der Spargel- und Erdbeerernte zu helfen. Ohne diese Arbeitskräfte, so betonen Landwirte immer wieder, könnte ein Großteil der Ernte gar nicht eingebracht werden. Die Arbeit gilt als körperlich anstrengend und wird häufig nur für einen Mindestlohn verrichtet, weshalb sich kaum inländische Arbeitssuchende dafür interessieren.\n\nIn den vergangenen Jahren ist jedoch verstärkt Kritik an den Arbeitsbedingungen laut geworden. Berichten zufolge würden manche Erntehelfer in überfüllten Unterkünften untergebracht, und Überstunden würden nicht immer korrekt vergütet. Gewerkschaften fordern deshalb strengere Kontrollen und eine verbindliche Mindeststandards-Regelung, die für alle Betriebe gelten müsste. Landwirtschaftsverbände wiederum verweisen darauf, dass die engen Gewinnmargen kaum Spielraum für höhere Löhne ließen.\n\nManche Ökonomen schlagen vor, dass eine stärkere Mechanisierung der Ernte langfristig Abhilfe schaffen könnte. Allerdings wäre eine vollständige Automatisierung bei empfindlichen Früchten wie Erdbeeren technisch bislang kaum umsetzbar. Zudem würde eine solche Umstellung hohe Investitionen erfordern, die vor allem kleinere Betriebe kaum stemmen könnten.\n\nAngesichts dieser Lage bleibt die Landwirtschaft weiterhin auf ausländische Arbeitskräfte angewiesen. Würden die Arbeitsbedingungen spürbar verbessert, ließe sich möglicherweise auch das Interesse einheimischer Arbeitnehmer wieder steigern. Bis dahin bleibt die Debatte zwischen fairen Löhnen und wirtschaftlicher Tragfähigkeit ungelöst.",
+    "preguntas": [
+      {
+        "enunciado": "Ohne ausländische Saisonarbeiter könnte laut Text ein Großteil der Ernte kaum eingebracht werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Arbeitsbedingungen der Erntehelfer wurden in den letzten Jahren nie kritisiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gewerkschaften fordern strengere Kontrollen und verbindliche Mindeststandards.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine vollständige Automatisierung der Erdbeerernte ist laut Text bereits problemlos umsetzbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht die Debatte zwischen Löhnen und Wirtschaftlichkeit als bereits gelöst an.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "sharing-economy",
+    "nivel": "B2",
+    "titulo": "Die Sharing Economy – Teilen statt besitzen",
+    "descripcion": "Eine Analyse des Trends, Güter zu teilen statt sie zu besitzen, und seiner gesellschaftlichen Folgen.",
+    "texto": "Ob Carsharing, Wohnungstausch oder das Ausleihen von Werkzeugen über Nachbarschaftsplattformen – die sogenannte Sharing Economy hat in den letzten Jahren stark an Bedeutung gewonnen. Befürworter argumentieren, dass durch das Teilen von Ressourcen weniger produziert werden müsse und somit wertvolle Rohstoffe geschont würden. Gerade in Großstädten, wo Wohnraum und Parkplätze knapp sind, erfreuen sich entsprechende Angebote wachsender Beliebtheit.\n\nKritiker weisen jedoch darauf hin, dass hinter vielen vermeintlich gemeinschaftlichen Plattformen mittlerweile große, gewinnorientierte Konzerne stünden. Was ursprünglich als solidarisches Modell gedacht war, sei zunehmend kommerzialisiert worden. Zudem würden viele Anbieter, etwa im Bereich der Kurzzeitvermietung von Wohnungen, den ohnehin angespannten Wohnungsmarkt in beliebten Städten zusätzlich verschärfen, da Wohnungen dauerhaft für Touristen statt für Einheimische vermietet würden.\n\nAuch arbeitsrechtliche Fragen werden im Zusammenhang mit der Sharing Economy diskutiert. Viele Menschen, die etwa als Fahrer für Vermittlungsplattformen tätig sind, gelten offiziell als selbstständig und genießen daher keinen klassischen Kündigungsschutz. Sozialverbände fordern, dass solche Beschäftigungsverhältnisse überarbeitet werden müssten, damit grundlegende soziale Absicherungen gewährleistet blieben.\n\nTrotz dieser Kontroversen dürfte die Sharing Economy weiter wachsen, da sie vielen Verbrauchern finanzielle Vorteile und mehr Flexibilität bietet. Ob sich das ursprüngliche Versprechen der Nachhaltigkeit dabei tatsächlich einlösen lässt, hängt jedoch maßgeblich davon ab, wie die Branche künftig reguliert wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die Sharing Economy umfasst laut Text unter anderem Carsharing und Wohnungstausch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen hinter manchen Plattformen mittlerweile große, gewinnorientierte Konzerne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kurzzeitvermietungen entspannen laut Text den Wohnungsmarkt in beliebten Städten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fahrer für Vermittlungsplattformen gelten laut Text oft als selbstständig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text erwartet, dass die Sharing Economy in Zukunft komplett verschwinden wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "aerztemangel-auf-dem-land",
+    "nivel": "B2",
+    "titulo": "Ärztemangel auf dem Land",
+    "descripcion": "Immer mehr ländliche Regionen in Deutschland kämpfen mit einem akuten Mangel an Hausärzten.",
+    "texto": "In vielen ländlichen Regionen Deutschlands wird es zunehmend schwieriger, einen Hausarzt zu finden. Während in den Städten die Ärztedichte oft hoch ist, schließen auf dem Land immer mehr Praxen, ohne dass sich ein Nachfolger findet. Für ältere und weniger mobile Patienten bedeutet dies teilweise stundenlange Anfahrten zum nächsten Arzt.\n\nAls Ursache wird häufig genannt, dass junge Mediziner lieber in Großstädten arbeiten möchten, wo sowohl das kulturelle Angebot als auch die beruflichen Perspektiven vielfältiger seien. Zudem scheuten viele Ärzte das wirtschaftliche Risiko einer eigenen Landarztpraxis, da hier oft höhere Investitionen nötig seien, während gleichzeitig weniger Patienten zur Verfügung stünden. Auch die zunehmende Bürokratie im Gesundheitswesen werde von vielen jungen Medizinern als abschreckend empfunden.\n\nUm dieser Entwicklung entgegenzuwirken, haben einige Bundesländer bereits finanzielle Anreize für Landärzte eingeführt, etwa in Form von Stipendien für Medizinstudierende, die sich verpflichten, später in einer unterversorgten Region zu praktizieren. Andere Regionen setzen verstärkt auf Telemedizin, wodurch zumindest einfache Beratungen ohne persönlichen Praxisbesuch ermöglicht werden sollen. Ob diese Maßnahmen ausreichen würden, um den Ärztemangel spürbar zu lindern, bezweifeln jedoch viele Experten.\n\nLangfristig, so warnen Gesundheitsökonomen, müsste sich die Ausbildung von Ärzten grundlegend verändern, damit mehr Mediziner bereit wären, sich in ländlichen Gebieten niederzulassen. Andernfalls drohe sich die medizinische Versorgung zwischen Stadt und Land immer weiter auseinanderzuentwickeln.",
+    "preguntas": [
+      {
+        "enunciado": "In ländlichen Regionen Deutschlands finden sich laut Text immer weniger Hausärzte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Junge Mediziner bevorzugen laut Text meistens die Arbeit auf dem Land.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Bundesländer bieten Stipendien für Medizinstudierende an, die sich für Landregionen verpflichten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht Telemedizin als vollständigen Ersatz für alle Arztbesuche an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gesundheitsökonomen halten die aktuellen Maßnahmen für zweifellos ausreichend.",
+        "respuesta": false
+      }
+    ]
   }
 ]
