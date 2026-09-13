@@ -6734,5 +6734,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-lieblingsessen",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsessen",
+    "descripcion": "Anna erzählt, was sie gern isst und kocht.",
+    "texto": "Ich heiße Anna. Ich bin zehn Jahre alt. Mein Lieblingsessen ist Spaghetti mit Tomatensoße. Ich esse auch gern Pizza. Aber ich mag keinen Fisch.\n\nAm Sonntag koche ich mit meiner Mutter. Wir machen zusammen einen Kuchen. Der Kuchen schmeckt sehr gut. Meine kleine Schwester isst am liebsten Eis.\n\nZum Frühstück trinke ich Milch. Ich esse ein Brötchen mit Marmelade. Mein Vater trinkt Kaffee. Wir frühstücken jeden Morgen zusammen.",
+    "preguntas": [
+      {
+        "enunciado": "Annas Lieblingsessen ist Spaghetti mit Tomatensoße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna mag Fisch sehr gern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna kocht am Sonntag mit ihrer Mutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Annas Schwester isst am liebsten Suppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna trinkt zum Frühstück Milch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wie-spaet-ist-es",
+    "nivel": "A1",
+    "titulo": "Wie spät ist es?",
+    "descripcion": "Tom lernt die Uhrzeit und seinen Tagesablauf.",
+    "texto": "Tom steht um sieben Uhr auf. Er isst um sieben Uhr dreißig Frühstück. Um acht Uhr geht er zur Schule. Die Schule beginnt um acht Uhr fünfzehn.\n\nUm zwölf Uhr isst Tom zu Mittag. Danach spielt er mit seinen Freunden. Um vier Uhr macht er seine Hausaufgaben. Das dauert eine Stunde.\n\nAm Abend isst die Familie um sechs Uhr. Tom geht um acht Uhr ins Bett. „Gute Nacht“, sagt seine Mutter. Tom schläft schnell ein.",
+    "preguntas": [
+      {
+        "enunciado": "Tom steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schule beginnt um neun Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst um zwölf Uhr zu Mittag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom macht seine Hausaufgaben am Morgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom geht um acht Uhr ins Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenmarkt",
+    "nivel": "A1",
+    "titulo": "Der Wochenmarkt",
+    "descripcion": "Frau Bauer kauft frisches Gemüse auf dem Wochenmarkt.",
+    "texto": "Jeden Mittwoch geht Frau Bauer auf den Wochenmarkt. Der Markt ist auf dem Rathausplatz. Dort gibt es Obst, Gemüse und Blumen.\n\nFrau Bauer kauft rote Tomaten und grüne Gurken. Sie kauft auch Äpfel und Birnen. Ein Mann verkauft frischen Käse. Der Käse riecht gut.\n\nAm Ende kauft Frau Bauer noch bunte Blumen für den Tisch. Sie bezahlt und geht nach Hause. Der Einkauf hat nicht viel gekostet.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Bauer geht jeden Mittwoch auf den Wochenmarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Markt ist im Supermarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Bauer kauft rote Tomaten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf dem Markt gibt es keinen Käse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Bauer kauft am Ende Blumen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-zeltlager",
+    "nivel": "A2",
+    "titulo": "Ein Tag im Zeltlager",
+    "descripcion": "Max erzählt von seinem ersten Tag im Zeltlager mit seiner Klasse.",
+    "texto": "Letzte Woche ist Max mit seiner Klasse ins Zeltlager gefahren. Sie sind mit dem Bus zu einem See gefahren, weil das Lager mitten im Wald liegt. Am ersten Tag haben die Kinder ihre Zelte aufgebaut. Das war nicht einfach, weil es windig war.\n\nAm Abend haben alle zusammen am Lagerfeuer gesessen. Sie haben Lieder gesungen und Stockbrot gebacken. Max hat erzählt, dass er noch nie in einem Zelt geschlafen hat. Seine Freundin Lisa hatte auch ein bisschen Angst, aber die Betreuer haben allen geholfen.\n\nIn der Nacht hat es leider geregnet. Zum Glück waren die Zelte trocken. Am nächsten Morgen sind alle müde, aber glücklich aufgewacht. Max hat gesagt, dass er nächstes Jahr wieder mitfahren möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Max ist mit seiner Klasse ins Zeltlager gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Lager liegt mitten in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend haben die Kinder am Lagerfeuer gesessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Nacht ist die Sonne geschienen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max möchte nächstes Jahr wieder mitfahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wanderung-im-allgaeu",
+    "nivel": "A2",
+    "titulo": "Eine Wanderung im Allgäu",
+    "descripcion": "Familie Berger macht eine anstrengende, aber schöne Bergwanderung.",
+    "texto": "Familie Berger hat letzten Sommer eine Wanderung im Allgäu gemacht. Sie sind früh am Morgen losgegangen, weil der Weg zur Hütte sehr lang war. Der Vater hat den Rucksack mit dem Essen getragen, und die Kinder haben Wasser mitgenommen.\n\nNach drei Stunden sind sie müde geworden, aber die Aussicht auf die Berge war wunderschön. Sie haben eine Pause gemacht und Brote gegessen. Die Mutter hat gesagt, dass sie noch nie so schöne Berge gesehen hat.\n\nAm Nachmittag haben sie endlich die Hütte erreicht. Dort haben sie warme Suppe bestellt und sich ausgeruht. Wenn das Wetter am nächsten Tag gut ist, wollen sie noch einen Gipfel besteigen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger ist im Winter gewandert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater hat den Rucksack getragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat nach drei Stunden eine Pause gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Aussicht auf die Berge hat der Mutter nicht gefallen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie will vielleicht noch einen Gipfel besteigen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ausflug-in-den-kletterpark",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug in den Kletterpark",
+    "descripcion": "Jonas überwindet seine Höhenangst bei einem Ausflug in den Kletterpark.",
+    "texto": "Am Samstag ist Jonas mit seinen Freunden in einen Kletterpark gefahren. Er hatte ein bisschen Angst, weil er noch nie so hoch geklettert ist. Zuerst hat ein Trainer erklärt, wie der Klettergurt funktioniert.\n\nJonas ist zuerst auf dem niedrigsten Parcours geklettert. Seine Freunde haben ihm zugerufen, dass er das gut macht. Nachdem er den ersten Parcours geschafft hatte, hat er sich viel sicherer gefühlt. Er ist sogar auf den höchsten Turm geklettert.\n\nAm Ende des Tages waren alle müde, aber sehr zufrieden. Jonas hat seiner Mutter erzählt, dass er keine Angst mehr vor der Höhe hat. Er möchte bald wieder in den Kletterpark gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist allein in den Kletterpark gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Trainer hat den Klettergurt erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist sofort auf den höchsten Turm geklettert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem ersten Parcours hat sich Jonas sicherer gefühlt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas möchte nicht mehr in den Kletterpark gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-erste-eigene-wohnung",
+    "nivel": "B1",
+    "titulo": "Die erste eigene Wohnung",
+    "descripcion": "Julia zieht zum ersten Mal in eine eigene Wohnung und muss viel organisieren.",
+    "texto": "Nachdem Julia ihr Studium beendet hatte, hat sie endlich eine eigene Wohnung gefunden. Obwohl die Wohnung klein ist, freut sie sich sehr darüber, weil sie zum ersten Mal allein wohnt. In den ersten Wochen musste sie viele Dinge organisieren: einen Internetanschluss anmelden, Möbel kaufen und die Küche einrichten.\n\nTrotzdem war der Umzug nicht immer einfach. Julia hatte keine Waschmaschine und musste ihre Wäsche bei ihrer Mutter waschen. Außerdem hat sie gemerkt, dass das Leben allein teurer ist, als sie gedacht hatte. Strom, Miete und Internet kosten zusammen mehr Geld, als sie erwartet hatte.\n\nMittlerweile hat sich Julia gut eingelebt. Sie hat nette Nachbarn kennengelernt und kocht jeden Abend selbst. Obwohl sie ihre Familie manchmal vermisst, genießt sie ihre Unabhängigkeit sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat die Wohnung vor dem Studium gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia freut sich über ihre neue Wohnung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Leben allein war für Julia günstiger als erwartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat nette Nachbarn kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia vermisst ihre Familie überhaupt nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-auslandspraktikum",
+    "nivel": "B1",
+    "titulo": "Ein Auslandspraktikum",
+    "descripcion": "Felix berichtet von seinem Praktikum in Spanien und den Herausforderungen im Ausland.",
+    "texto": "Felix hat ein sechsmonatiges Praktikum in einer spanischen Firma gemacht. Bevor er nach Barcelona geflogen ist, hatte er große Angst, weil sein Spanisch noch nicht sehr gut war. Nachdem er einige Wochen dort gearbeitet hatte, konnte er sich aber schon viel besser verständigen.\n\nObwohl die Arbeitszeiten in Spanien anders waren als in Deutschland, hat sich Felix schnell daran gewöhnt. Die Mittagspause war viel länger, dafür haben die Kollegen abends später Feierabend gemacht. Trotzdem hat ihm die entspannte Atmosphäre im Büro gut gefallen.\n\nAm Ende des Praktikums war Felix ein bisschen traurig, weil er seine Kollegen und die Stadt liebgewonnen hatte. Er hat beschlossen, dass er nach dem Studium wieder im Ausland arbeiten möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat ein Praktikum in Frankreich gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Vor der Abreise hatte Felix Angst wegen seiner Sprachkenntnisse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Spanien war die Mittagspause kürzer als in Deutschland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat die Atmosphäre im Büro gut gefallen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix möchte nie wieder im Ausland arbeiten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-interkulturelles-fest",
+    "nivel": "B1",
+    "titulo": "Ein interkulturelles Fest",
+    "descripcion": "Eine Schule organisiert ein Fest, bei dem Schüler ihre Kulturen vorstellen.",
+    "texto": "An der Gesamtschule in Hannover haben die Schüler letzten Freitag ein interkulturelles Fest organisiert. Nachdem die Idee im Unterricht entstanden war, haben sich Schüler aus vielen Ländern beteiligt. Jede Gruppe hat einen Stand mit typischem Essen und Musik aus ihrem Heimatland vorbereitet.\n\nObwohl die Vorbereitung viel Arbeit war, hatten alle großen Spaß dabei. Es gab türkische Köstlichkeiten, italienische Pasta und syrisches Gebäck. Die Schüler haben auch traditionelle Tänze aufgeführt, während die Eltern und Lehrer zugeschaut haben.\n\nTrotz des kalten Wetters kamen sehr viele Besucher zu dem Fest. Die Schulleiterin hat gesagt, dass solche Feste wichtig sind, weil sie das Verständnis zwischen den Kulturen fördern. Die Schüler planen bereits, das Fest im nächsten Jahr zu wiederholen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Fest hat an einer Schule in Hannover stattgefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jede Gruppe hat nur Musik vorbereitet, kein Essen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler haben traditionelle Tänze aufgeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des kalten Wetters kamen nur wenige Besucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler wollen das Fest im nächsten Jahr wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mindestlohn-debatte",
+    "nivel": "B2",
+    "titulo": "Der Mindestlohn – Motor oder Bremse der Wirtschaft?",
+    "descripcion": "Ein Blick auf die kontroverse Debatte um Erhöhungen des gesetzlichen Mindestlohns.",
+    "texto": "Seit seiner Einführung im Jahr 2015 wird der gesetzliche Mindestlohn in Deutschland immer wieder kontrovers diskutiert. Befürworter argumentieren, dass ein höherer Mindestlohn notwendig sei, um Beschäftigten ein würdiges Leben zu ermöglichen, während Kritiker befürchten, dass steigende Lohnkosten vor allem kleine Betriebe in wirtschaftliche Schwierigkeiten bringen könnten.\n\nWürde der Mindestlohn deutlich erhöht, so argumentieren Gewerkschaften, könnten viele Beschäftigte in Niedriglohnbranchen endlich von ihrer Arbeit leben, ohne zusätzliche staatliche Unterstützung zu benötigen. Studien, die von verschiedenen Forschungsinstituten durchgeführt wurden, kommen jedoch zu unterschiedlichen Ergebnissen darüber, wie stark sich eine Erhöhung auf die Beschäftigung auswirken würde. Während einige Ökonomen vor einem Abbau von Arbeitsplätzen warnen, verweisen andere darauf, dass in der Vergangenheit ähnliche Befürchtungen sich nicht bewahrheitet hätten.\n\nBesonders betroffen von der Debatte sind Branchen wie die Gastronomie und der Einzelhandel, in denen viele Betriebe mit geringen Gewinnmargen arbeiten. Arbeitgeberverbände fordern deshalb, dass Erhöhungen schrittweise und in enger Abstimmung mit der unabhängigen Mindestlohnkommission erfolgen sollten, anstatt politisch festgelegt zu werden.\n\nLetztlich zeigt die Diskussion, wie schwierig es ist, soziale Gerechtigkeit und wirtschaftliche Stabilität miteinander in Einklang zu bringen. Ein Kompromiss, der von allen Seiten akzeptiert würde, ist bislang nicht in Sicht, sodass das Thema wohl auch in den kommenden Jahren die politische Debatte bestimmen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der gesetzliche Mindestlohn wurde 2015 in Deutschland eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Ökonomen sind sich einig, dass eine Erhöhung Arbeitsplätze vernichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gewerkschaften fordern einen höheren Mindestlohn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Besonders die Gastronomie und der Einzelhandel sind von der Debatte betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt bereits einen Kompromiss, der von allen akzeptiert wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "suchtverhalten-in-sozialen-netzwerken",
+    "nivel": "B2",
+    "titulo": "Suchtverhalten in sozialen Netzwerken",
+    "descripcion": "Warum immer mehr Menschen Schwierigkeiten haben, ihre Nutzung sozialer Medien zu kontrollieren.",
+    "texto": "Immer mehr Wissenschaftler beschäftigen sich mit der Frage, ob exzessive Nutzung sozialer Netzwerke als eigenständige Suchtform betrachtet werden sollte. Auslöser für diese Diskussion sind Studien, in denen gezeigt wurde, dass bestimmte Mechanismen in Apps wie Instagram oder TikTok gezielt darauf ausgelegt sind, die Aufmerksamkeit der Nutzer möglichst lange zu binden.\n\nWürde man Jugendliche fragen, wie viele Stunden sie täglich am Bildschirm verbringen, käme man häufig auf erschreckend hohe Zahlen. Kritiker der Plattformen weisen darauf hin, dass Belohnungssysteme, die auf unvorhersehbaren Benachrichtigungen basieren, ähnliche Reaktionen im Gehirn auslösen könnten wie andere Suchtformen. Betroffene berichten oft, dass sie ihr Handy eigentlich nur kurz nutzen wollten, dann aber Stunden damit verbracht hätten, ohne es zu bemerken.\n\nAuf der anderen Seite betonen einige Experten, dass nicht jede intensive Nutzung gleich pathologisch sei. Viele Jugendliche würden soziale Netzwerke auch sinnvoll nutzen, etwa um sich mit Freunden auszutauschen oder sich politisch zu engagieren. Entscheidend sei vielmehr, ob die Nutzung das Alltagsleben, die schulischen Leistungen oder soziale Beziehungen negativ beeinflusse.\n\nUm problematisches Verhalten frühzeitig zu erkennen, werden inzwischen an vielen Schulen Präventionsprogramme angeboten. Diese sollen Jugendlichen helfen, einen bewussteren Umgang mit digitalen Medien zu entwickeln, ohne ihnen den Zugang komplett zu verwehren.",
+    "preguntas": [
+      {
+        "enunciado": "Manche Wissenschaftler diskutieren, ob übermäßige Social-Media-Nutzung eine Suchtform sein könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern sind Belohnungssysteme in Apps rein zufällig gestaltet und nicht gezielt geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass jede intensive Nutzung pathologisch ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Soziale Netzwerke können auch sinnvoll genutzt werden, etwa für den Austausch mit Freunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "An vielen Schulen gibt es inzwischen Präventionsprogramme zum Thema.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kinderarmut-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Kinderarmut in Deutschland – Ein unterschätztes Problem",
+    "descripcion": "Ein Überblick über Ursachen und Folgen von Kinderarmut in einem der reichsten Länder Europas.",
+    "texto": "Obwohl Deutschland zu den wirtschaftlich stärksten Ländern Europas zählt, wächst ein erheblicher Teil der Kinder in Armut oder in von Armut bedrohten Familien auf. Als arm gelten Haushalte, deren Einkommen deutlich unter dem gesellschaftlichen Durchschnitt liegt, was zur Folge hat, dass betroffene Kinder häufig von gesellschaftlicher Teilhabe ausgeschlossen sind.\n\nZu den Hauptursachen zählen Arbeitslosigkeit, Niedriglöhne sowie das Aufwachsen in Alleinerziehendenhaushalten, in denen ein einziges Einkommen oft nicht ausreicht. Kinder, die in solchen Verhältnissen aufwachsen, hätten laut mehreren Studien schlechtere Chancen auf einen erfolgreichen Bildungsweg, selbst wenn sie ähnliche Fähigkeiten wie ihre Altersgenossen besäßen. Fehlende finanzielle Mittel führen häufig dazu, dass Nachhilfe, Vereinsmitgliedschaften oder sogar Klassenfahrten für die Familien nicht bezahlbar sind.\n\nSozialverbände fordern seit Jahren eine grundlegende Reform der Familienförderung, die unter anderem in Form einer sogenannten Kindergrundsicherung umgesetzt werden sollte. Diese neue Leistung sollte verschiedene bestehende Sozialleistungen bündeln und so bürokratische Hürden abbauen, die momentan viele Familien davon abhalten, ihnen zustehende Unterstützung überhaupt zu beantragen.\n\nKritiker der bisherigen Politik betonen, dass Kinderarmut nicht nur ein individuelles Problem einzelner Familien sei, sondern langfristig auch der gesamten Gesellschaft schade, da ungenutztes Bildungspotenzial verloren gehe. Ohne entschlossenes politisches Handeln, so warnen Experten, werde sich die soziale Spaltung in den kommenden Jahren eher verschärfen als verringern.",
+    "preguntas": [
+      {
+        "enunciado": "Deutschland gehört zu den wirtschaftlich schwächsten Ländern Europas.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alleinerziehendenhaushalte sind besonders häufig von Armut betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kinder aus armen Familien haben laut Studien dieselben Bildungschancen wie andere Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sozialverbände fordern eine Kindergrundsicherung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten erwarten, dass sich die soziale Spaltung ohne politisches Handeln verringert.",
+        "respuesta": false
+      }
+    ]
   }
 ]
