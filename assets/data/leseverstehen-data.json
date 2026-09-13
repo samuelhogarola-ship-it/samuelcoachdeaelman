@@ -7082,5 +7082,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-deutschkurs",
+    "nivel": "A1",
+    "titulo": "Im Deutschkurs",
+    "descripcion": "Maria lernt Deutsch in einem Sprachkurs in Berlin.",
+    "texto": "Maria kommt aus Spanien. Sie lernt Deutsch in Berlin. Der Kurs ist jeden Morgen um neun Uhr. In der Klasse sind zwölf Studenten. Sie kommen aus vielen Ländern.\n\nDie Lehrerin heißt Frau Berg. Sie ist sehr freundlich. Die Studenten lernen neue Wörter. Sie üben auch die Grammatik. Am Ende der Stunde machen sie einen Test.\n\nNach dem Kurs geht Maria oft ins Café. Dort trifft sie ihre Freundin Lena. Sie sprechen zusammen Deutsch. Das hilft Maria sehr viel. Sie lernt gern neue Sprachen.",
+    "preguntas": [
+      {
+        "enunciado": "Maria kommt aus Spanien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kurs beginnt um neun Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Klasse sind zwanzig Studenten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin heißt Frau Berg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Maria geht nach dem Kurs sofort nach Hause und schläft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-kueche",
+    "nivel": "A1",
+    "titulo": "Meine Küche",
+    "descripcion": "Ein Blick in die Küche einer Familie und ihre Essenszeiten.",
+    "texto": "Ich zeige dir meine Küche. Die Küche ist klein, aber schön. Sie hat gelbe Wände. Der Kühlschrank steht neben dem Fenster. Auf dem Tisch stehen Blumen.\n\nJeden Morgen koche ich Kaffee. Ich esse Brot mit Marmelade. Meine Schwester trinkt Tee. Wir frühstücken zusammen um acht Uhr. Das Radio spielt Musik.\n\nAm Abend kochen wir oft Nudeln. Mein Bruder mag Pizza sehr gern. Wir essen zusammen am Tisch. Danach spülen wir das Geschirr. Die Küche ist dann wieder sauber.",
+    "preguntas": [
+      {
+        "enunciado": "Die Küche hat gelbe Wände.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kühlschrank steht neben der Tür.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie frühstückt um acht Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend essen sie nur Suppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Essen spülen sie das Geschirr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-sonntagsspaziergang",
+    "nivel": "A1",
+    "titulo": "Der Sonntagsspaziergang",
+    "descripcion": "Familie Bauer macht am Sonntag einen Spaziergang im Park.",
+    "texto": "Am Sonntag geht Familie Bauer spazieren. Der Park ist nicht weit. Die Sonne scheint, und der Himmel ist blau. Herr Bauer trägt eine Jacke. Die Kinder laufen schnell voraus.\n\nIm Park gibt es einen See. Enten schwimmen auf dem Wasser. Die Kinder werfen Brot für die Enten. Frau Bauer macht Fotos mit ihrem Handy. Ein Hund spielt mit einem Ball.\n\nNach dem Spaziergang gehen sie in ein Café. Sie trinken heiße Schokolade. Die Kinder essen Kuchen. Alle sind müde, aber glücklich. Der Sonntag war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Bauer geht am Sonntag spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es regnet den ganzen Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Park gibt es einen See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder füttern die Enten mit Käse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Spaziergang trinken sie heiße Schokolade.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-in-dresden",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende in Dresden",
+    "descripcion": "Familie Hoffmann verbringt ein Wochenende in Dresden und besichtigt die Stadt.",
+    "texto": "Letztes Wochenende ist Familie Hoffmann nach Dresden gefahren. Sie sind mit dem Zug gereist, weil sie den Verkehr auf der Autobahn vermeiden wollten. Am Samstagmorgen sind sie in Dresden angekommen und haben zuerst die Altstadt besichtigt. Die Kinder haben die Frauenkirche besonders schön gefunden.\n\nAm Nachmittag hat die Familie das Verkehrsmuseum besucht. Der Sohn interessiert sich sehr für alte Autos und Züge. Herr Hoffmann hat erzählt, dass er als Kind auch gern Modellautos gesammelt hat. Nach dem Museum haben sie in einem kleinen Restaurant zu Abend gegessen.\n\nAm Sonntag hat es geregnet, deshalb sind sie in ein Café gegangen. Sie haben Kuchen gegessen und über den Ausflug gesprochen. Sie haben beschlossen, beim nächsten Besuch den Zwinger zu besichtigen. Alle waren mit dem Wochenende sehr zufrieden.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Hoffmann ist mit dem Zug nach Dresden gereist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind am Sonntagmorgen in Dresden angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Sohn interessiert sich für alte Autos und Züge.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag war das Wetter sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat Kuchen im Café gegessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-katze",
+    "nivel": "A2",
+    "titulo": "Die verlorene Katze",
+    "descripcion": "Frau Weber sucht ihre Katze Mimi, die plötzlich verschwunden ist.",
+    "texto": "Am Dienstag hat Frau Weber ihre Katze nicht mehr gefunden. Die Katze heißt Mimi und ist normalerweise sehr brav. Frau Weber hat im ganzen Haus gesucht, aber Mimi war nirgends zu finden. Sie hat sich große Sorgen gemacht, weil Mimi noch nie weggelaufen war.\n\nAm Abend hat Frau Weber ihre Nachbarn gefragt, ob sie die Katze gesehen haben. Herr Klein hat erzählt, dass er eine graue Katze im Garten gesehen hat. Frau Weber ist sofort in den Garten gegangen und hat nach Mimi gerufen. Nach einer Weile hat sie ein leises Miauen gehört.\n\nMimi hat sich unter einem Busch versteckt, weil sie Angst vor dem Gewitter hatte. Frau Weber war sehr erleichtert, als sie ihre Katze endlich gefunden hat. Seitdem lässt sie das Fenster im Wohnzimmer nachts geschlossen. Mimi schläft jetzt wieder ruhig in ihrem Körbchen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Weber hat sich keine Sorgen gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Klein hat eine graue Katze im Garten gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi hatte Angst vor dem Gewitter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Weber lässt das Fenster jetzt immer offen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-nachhilfestunde",
+    "nivel": "A2",
+    "titulo": "Die Nachhilfestunde",
+    "descripcion": "Tom bekommt Nachhilfe in Mathematik und verbessert seine Note.",
+    "texto": "Tom hat in Mathematik schlechte Noten bekommen, deshalb sucht seine Mutter eine Nachhilfelehrerin. Sie hat eine Anzeige gelesen und eine Studentin namens Julia angerufen. Julia kommt jeden Dienstag um vier Uhr zu Tom nach Hause.\n\nIn der ersten Stunde hat Julia gemerkt, dass Tom die Brüche nicht richtig versteht. Sie hat ihm erklärt, wie man Brüche addiert und subtrahiert. Tom hat viele Übungen gemacht, weil er die nächste Klassenarbeit bestehen wollte. Julia war geduldig und hat alles zweimal erklärt.\n\nNach vier Wochen hat Tom eine gute Note geschrieben. Er war sehr stolz auf sich und hat sich bei Julia bedankt. Seine Mutter hat entschieden, dass Tom die Nachhilfe trotzdem weitermacht. Tom findet Mathematik jetzt nicht mehr so schwer.",
+    "preguntas": [
+      {
+        "enunciado": "Tom hatte gute Noten in Mathematik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia kommt jeden Dienstag zu Tom.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom versteht die Brüche sofort ohne Hilfe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach vier Wochen hat Tom eine gute Note geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom hört sofort nach der guten Note mit der Nachhilfe auf.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-nachtschicht-im-krankenhaus",
+    "nivel": "B1",
+    "titulo": "Die Nachtschicht im Krankenhaus",
+    "descripcion": "Sabine arbeitet als Krankenschwester und erzählt vom Leben mit Nachtschichten.",
+    "texto": "Sabine arbeitet als Krankenschwester in einem großen Krankenhaus in Frankfurt. Seit drei Jahren übernimmt sie regelmäßig Nachtschichten, obwohl sie am Anfang große Schwierigkeiten hatte, sich an den ungewöhnlichen Rhythmus zu gewöhnen. Nachdem sie ihre erste Nachtschicht beendet hatte, konnte sie tagelang nicht richtig schlafen. Mittlerweile hat sie sich jedoch an das Leben zwischen Tag und Nacht gewöhnt.\n\nWährend einer typischen Nachtschicht kümmert sich Sabine um zwölf Patienten gleichzeitig. Sie kontrolliert regelmäßig deren Blutdruck und verabreicht Medikamente. Obwohl die Nächte oft ruhig verlaufen, kann sich die Situation innerhalb weniger Minuten ändern, wenn ein Notfall auftritt. Trotzdem bleibt Sabine meistens gelassen, weil sie durch ihre Erfahrung weiß, wie man in solchen Momenten reagieren muss.\n\nNach der Schicht fährt Sabine erschöpft nach Hause und schläft bis zum frühen Nachmittag. Ihre Familie hat sich mit der Zeit an ihre ungewöhnlichen Arbeitszeiten angepasst. Obwohl die Nachtschichten anstrengend sind, verdient Sabine dadurch etwas mehr Geld und mag die ruhige Atmosphäre in den späten Stunden. Sie überlegt trotzdem, in ein paar Jahren wieder in den Tagdienst zu wechseln.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine arbeitet seit drei Jahren regelmäßig in Nachtschichten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang fiel es ihr leicht, sich an die Nachtschichten zu gewöhnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Während der Nachtschicht kümmert sie sich um zwölf Patienten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Notfälle können die Nacht schnell verändern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine möchte für immer in der Nachtschicht bleiben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-sprachtandem",
+    "nivel": "B1",
+    "titulo": "Ein Sprachtandem",
+    "descripcion": "Paul verbessert sein Englisch durch ein Sprachtandem mit einer Studentin aus England.",
+    "texto": "Paul möchte sein Englisch verbessern und hat sich deshalb für ein Sprachtandem an der Universität angemeldet. Dabei trifft er sich regelmäßig mit einer Person, die Englisch als Muttersprache spricht und im Gegenzug Deutsch lernen möchte. Nachdem er sich registriert hatte, wurde ihm eine Partnerin namens Sarah aus England zugeteilt.\n\nBeim ersten Treffen waren beide etwas nervös, obwohl sie sich vorher schon per E-Mail geschrieben hatten. Sie haben sich in einem Café getroffen und abwechselnd auf Deutsch und Englisch gesprochen. Sarah hat Paul geholfen, seine Aussprache zu verbessern, während Paul ihr englische Redewendungen erklärt hat. Trotzdem gab es am Anfang viele Missverständnisse, über die beide herzlich lachen mussten.\n\nNach einigen Monaten sind Paul und Sarah nicht nur Sprachpartner, sondern auch gute Freunde geworden. Sie treffen sich inzwischen jede Woche und sprechen über alles Mögliche, nicht nur über Grammatik. Obwohl das Sprachtandem ursprünglich nur zum Lernen gedacht war, hat es Paul geholfen, die englische Kultur besser zu verstehen. Er empfiehlt das Programm allen seinen Kommilitonen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul lernt Englisch, um besser Fußball zu spielen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah kommt aus England.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim ersten Treffen waren beide sehr entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und Sarah sind mittlerweile Freunde geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sprechen nur über Grammatik.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-umschulung",
+    "nivel": "B1",
+    "titulo": "Die Umschulung",
+    "descripcion": "Markus macht mit vierzig Jahren eine Umschulung zum Elektriker.",
+    "texto": "Markus hat zehn Jahre lang als Verkäufer in einem Elektronikgeschäft gearbeitet, doch nachdem sein Geschäft geschlossen wurde, musste er sich beruflich neu orientieren. Er hat sich entschieden, eine Umschulung zum Elektriker zu machen, obwohl ihm der Neuanfang zunächst Angst gemacht hat. Das Arbeitsamt hat ihm finanziell geholfen, sodass er sich während der Ausbildung keine großen Sorgen um Geld machen musste.\n\nDie Umschulung dauert zwei Jahre und besteht aus theoretischem Unterricht und praktischen Übungen in einer Werkstatt. Anfangs fiel es Markus schwer, wieder wie ein Schüler zu lernen, nachdem er so lange im Berufsleben gestanden hatte. Trotzdem hat er sich schnell an den neuen Alltag gewöhnt und Freundschaften mit den anderen Umschülern geschlossen, die ebenfalls einen beruflichen Neustart wagten.\n\nMittlerweile steht Markus kurz vor seiner Abschlussprüfung und hat bereits ein Jobangebot von einer lokalen Firma erhalten. Obwohl der Weg nicht immer einfach war, ist er froh, den Schritt gewagt zu haben. Er sagt, dass man auch mit vierzig Jahren noch einmal neu anfangen kann, wenn man motiviert ist.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat vorher als Elektriker gearbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Geschäft wurde geschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Umschulung dauert ein Jahr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat schon ein Jobangebot bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus bereut seine Entscheidung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "vereinbarkeit-von-beruf-und-familie",
+    "nivel": "B2",
+    "titulo": "Vereinbarkeit von Beruf und Familie",
+    "descripcion": "Ein Text über die Herausforderungen berufstätiger Eltern in Deutschland.",
+    "texto": "Die Vereinbarkeit von Beruf und Familie gilt in Deutschland nach wie vor als eine der größten Herausforderungen für berufstätige Eltern. Obwohl in den letzten Jahren zahlreiche familienfreundliche Maßnahmen eingeführt wurden, etwa der Rechtsanspruch auf einen Kitaplatz oder flexible Arbeitszeitmodelle, klagen viele Eltern weiterhin über einen enormen organisatorischen Aufwand. Insbesondere Mütter, die häufig einen Großteil der Care-Arbeit übernehmen, sehen sich gezwungen, ihre berufliche Karriere zugunsten der Familie zurückzustellen.\n\nWürde die Gesellschaft die Betreuungsarbeit gerechter zwischen den Partnern aufteilen, könnten viele der bestehenden Probleme deutlich entschärft werden. Studien zeigen, dass Väter zwar zunehmend bereit sind, Elternzeit zu nehmen, dass sie dies jedoch oft nur für wenige Monate tun, während die Hauptverantwortung weiterhin bei den Müttern liegt. Kritiker bemängeln zudem, dass viele Unternehmen Teilzeitmodelle für Führungspositionen noch immer ablehnen, obwohl solche Modelle in anderen Ländern längst erfolgreich praktiziert werden.\n\nSollten Unternehmen künftig verstärkt auf Homeoffice und flexible Arbeitszeiten setzen, wäre eine bessere Balance zwischen Beruf und Familie durchaus realistisch. Bereits jetzt wird in vielen Betrieben über neue Arbeitszeitmodelle diskutiert, die den Bedürfnissen von Familien stärker gerecht werden sollen. Ob diese Maßnahmen jedoch ausreichen, um die strukturellen Probleme zu lösen, bleibt umstritten, zumal auch gesellschaftliche Rollenbilder einen tiefgreifenden Wandel erfordern würden.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland gibt es einen Rechtsanspruch auf einen Kitaplatz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mütter übernehmen laut Text seltener die Care-Arbeit als Väter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Väter nehmen laut Studien meist genauso lange Elternzeit wie Mütter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen lehnen Teilzeit in Führungspositionen ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem sei bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "cybermobbing-unter-jugendlichen",
+    "nivel": "B2",
+    "titulo": "Cybermobbing unter Jugendlichen",
+    "descripcion": "Ein Text über die Ursachen und Folgen von Cybermobbing bei Jugendlichen.",
+    "texto": "Cybermobbing hat sich in den letzten Jahren zu einem ernstzunehmenden gesellschaftlichen Problem entwickelt, das besonders Jugendliche betrifft, die einen Großteil ihres sozialen Lebens in digitalen Netzwerken verbringen. Anders als beim klassischen Mobbing auf dem Schulhof endet die Belästigung beim Cybermobbing nicht mit dem Verlassen der Schule, sondern setzt sich rund um die Uhr über Smartphones und soziale Medien fort. Viele Betroffene berichten, dass die ständige Erreichbarkeit den psychischen Druck erheblich verstärkt.\n\nUntersuchungen zeigen, dass anonyme Profile und die fehlende unmittelbare Konfrontation mit dem Opfer die Hemmschwelle für aggressives Verhalten deutlich senken. Täter, die sich im direkten Gespräch möglicherweise zurückhalten würden, äußern sich online oft wesentlich verletzender, da sie die Reaktionen ihres Gegenübers nicht unmittelbar miterleben. Sollten Plattformbetreiber strengere Regeln durchsetzen und beleidigende Inhalte konsequenter löschen, könnte dies das Problem zumindest teilweise eindämmen.\n\nSchulen und Eltern stehen vor der Aufgabe, Jugendliche für einen verantwortungsvollen Umgang mit digitalen Medien zu sensibilisieren. Präventionsprogramme, die bereits in der Grundschule ansetzen, werden von Experten als besonders wirkungsvoll eingeschätzt, da sie Kindern frühzeitig vermitteln, welche Konsequenzen ihre Worte im Internet haben können. Dennoch bleibt fraglich, ob gesetzliche Regelungen allein ausreichen, um ein Phänomen zu bekämpfen, das tief in gesellschaftlichen Strukturen verwurzelt ist.",
+    "preguntas": [
+      {
+        "enunciado": "Cybermobbing endet laut Text, sobald die Schule vorbei ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anonymität kann die Hemmschwelle für aggressives Verhalten senken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten halten frühe Präventionsprogramme für besonders wirkungsvoll.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, gesetzliche Regelungen allein würden das Problem sicher lösen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Plattformbetreiber könnten durch strengere Regeln das Problem eindämmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "massentierhaltung-und-ihre-folgen",
+    "nivel": "B2",
+    "titulo": "Massentierhaltung und ihre Folgen",
+    "descripcion": "Ein Text über die ethischen und ökologischen Debatten rund um die Massentierhaltung.",
+    "texto": "Die Massentierhaltung steht seit Jahren im Zentrum gesellschaftlicher und politischer Debatten, da sie sowohl ökologische als auch ethische Fragen aufwirft. Kritiker bemängeln, dass Tiere in konventionellen Betrieben oft auf engstem Raum gehalten werden und kaum Zugang zu Auslauf oder natürlichem Verhalten haben. Befürworter der intensiven Tierhaltung argumentieren hingegen, dass nur durch effiziente Produktionsmethoden eine ausreichende und bezahlbare Versorgung der Bevölkerung mit tierischen Produkten gewährleistet werden könne.\n\nNeben dem Tierwohl rückt zunehmend auch der ökologische Fußabdruck der Massentierhaltung in den Fokus. Studien belegen, dass die Produktion von Fleisch erhebliche Mengen an Treibhausgasen verursacht und enorme Flächen für den Anbau von Futtermitteln benötigt werden. Würden Verbraucher ihren Fleischkonsum spürbar reduzieren, ließe sich der ökologische Druck auf Ressourcen wie Wasser und Ackerland deutlich verringern. Gleichzeitig wird befürchtet, dass ein radikaler Wandel der Landwirtschaft zahlreiche Arbeitsplätze in ländlichen Regionen gefährden könnte.\n\nUm einen Ausgleich zwischen wirtschaftlichen Interessen und Tierwohl zu schaffen, werden derzeit verschiedene Modelle diskutiert, etwa eine verpflichtende Tierwohlkennzeichnung oder staatliche Förderprogramme für artgerechtere Haltungsformen. Ob solche Maßnahmen ausreichen, um die tief verwurzelten Probleme der industriellen Landwirtschaft zu lösen, wird von Experten unterschiedlich bewertet. Klar ist jedoch, dass sich sowohl Politik als auch Verbraucher in den kommenden Jahren verstärkt mit diesem Thema auseinandersetzen müssen.",
+    "preguntas": [
+      {
+        "enunciado": "Kritiker der Massentierhaltung bemängeln fehlenden Auslauf für Tiere.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass die vorgeschlagenen Maßnahmen ausreichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fleischproduktion verursacht laut Studien erhebliche Treibhausgase.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein radikaler Wandel der Landwirtschaft hätte laut Text keine Auswirkungen auf Arbeitsplätze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Tierwohlkennzeichnung wird als mögliches Modell diskutiert.",
+        "respuesta": true
+      }
+    ]
   }
 ]
