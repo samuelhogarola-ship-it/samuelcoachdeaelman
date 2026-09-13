@@ -7778,5 +7778,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-tagesablauf",
+    "nivel": "A1",
+    "titulo": "Mein Tagesablauf",
+    "descripcion": "Paul erzählt von seinem typischen Tag.",
+    "texto": "Paul steht jeden Morgen um sieben Uhr auf. Er isst ein Brötchen mit Marmelade und trinkt einen Orangensaft. Danach putzt er seine Zähne und zieht sich an. Um acht Uhr geht er zur Schule. Die Schule ist nicht weit von seinem Haus.\n\nIn der Schule hat Paul viele Fächer. Er mag Mathematik und Sport am liebsten. Um zwölf Uhr isst er mit seinen Freunden in der Kantine. Nach der Schule spielt er oft Fußball im Park.\n\nAm Abend macht Paul seine Hausaufgaben. Dann isst die Familie zusammen zu Abend. Paul liest noch ein bisschen und geht um neun Uhr ins Bett. Er ist jeden Tag sehr müde.",
+    "preguntas": [
+      {
+        "enunciado": "Paul steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trinkt Kaffee zum Frühstück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul mag Mathematik und Sport.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul isst allein in der Kantine.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul geht um neun Uhr ins Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-klassenzimmer",
+    "nivel": "A1",
+    "titulo": "Im Klassenzimmer",
+    "descripcion": "Ein Blick in das Klassenzimmer von Mia.",
+    "texto": "Mia sitzt in ihrem Klassenzimmer. Das Zimmer ist groß und hell. An der Wand hängt eine Landkarte von Deutschland. Vorne steht die Tafel, und die Lehrerin schreibt neue Wörter darauf.\n\nMia sitzt neben ihrer Freundin Lisa. Sie haben Bücher, Hefte und Stifte auf dem Tisch. Heute lernen sie Zahlen und Farben. Die Lehrerin fragt: „Welche Farbe ist das?\" Lisa antwortet: „Das ist blau.\"\n\nNach der Deutschstunde haben die Kinder eine Pause. Sie gehen auf den Schulhof und spielen zusammen. Mia mag ihre Klasse sehr gern. Die Lehrerin ist freundlich und geduldig.",
+    "preguntas": [
+      {
+        "enunciado": "Mia sitzt allein im Klassenzimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "An der Wand hängt eine Landkarte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder lernen heute Zahlen und Farben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa antwortet auf Englisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin ist freundlich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-lieblingstiere",
+    "nivel": "A1",
+    "titulo": "Meine Lieblingstiere",
+    "descripcion": "Tim erzählt, welche Tiere er am liebsten mag.",
+    "texto": "Tim mag Tiere sehr gern. Sein Lieblingstier ist der Elefant. Elefanten sind groß und grau. Sie leben in Afrika und Asien. Tim findet ihre großen Ohren toll.\n\nIm Zoo sieht Tim auch Affen, Löwen und Giraffen. Die Affen klettern schnell auf die Bäume. Die Löwen schlafen viel am Tag. Die Giraffen haben einen langen Hals und fressen Blätter von den Bäumen.\n\nZu Hause hat Tim auch ein Tier: eine Katze. Die Katze heißt Minka und ist schwarz und weiß. Minka schläft gern auf dem Sofa und spielt mit einem Ball. Tim füttert Minka jeden Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Tims Lieblingstier ist der Löwe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elefanten leben in Afrika und Asien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Giraffen im Zoo haben einen kurzen Hals.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat eine Katze zu Hause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka spielt gern mit einem Ball.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-reise-nach-frankfurt",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Frankfurt",
+    "descripcion": "Julia erzählt von ihrer Geschäftsreise nach Frankfurt.",
+    "texto": "Letzte Woche ist Julia für ihre Arbeit nach Frankfurt gefahren. Sie hat den Zug genommen, weil er schneller als das Auto war. Die Fahrt hat fast zwei Stunden gedauert. Im Zug hat Julia ein Buch gelesen und einen Kaffee getrunken.\n\nIn Frankfurt hat Julia an einer Konferenz teilgenommen. Danach hat sie einen Spaziergang durch die Innenstadt gemacht und die Skyline fotografiert. „Ich wusste nicht, dass Frankfurt so viele Wolkenkratzer hat\", hat sie ihrer Freundin geschrieben. Am Abend hat sie in einem kleinen Restaurant gegessen und Apfelwein probiert.\n\nAm nächsten Tag ist Julia müde, aber zufrieden nach Hause gefahren. Sie hat viele neue Kollegen kennengelernt und interessante Gespräche geführt. Wenn sie wieder Zeit hat, möchte sie Frankfurt noch einmal besuchen und mehr von der Stadt sehen.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit dem Auto nach Frankfurt gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat an einer Konferenz teilgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia fand die Wolkenkratzer von Frankfurt überraschend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat am Abend nichts gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia möchte Frankfurt nicht mehr besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-vom-vermieter",
+    "nivel": "A2",
+    "titulo": "Der Brief vom Vermieter",
+    "descripcion": "Familie Berger bekommt einen wichtigen Brief von ihrem Vermieter.",
+    "texto": "Familie Berger hat letzte Woche einen Brief von ihrem Vermieter bekommen. Herr Berger hat den Brief geöffnet und ihn laut vorgelesen. Der Vermieter hat geschrieben, dass er die Miete im nächsten Jahr erhöhen möchte. Frau Berger war darüber nicht sehr glücklich.\n\n„Wir müssen mit dem Vermieter sprechen, weil die Erhöhung sehr hoch ist\", hat Frau Berger gesagt. Am nächsten Tag hat Herr Berger einen Termin mit dem Vermieter vereinbart. Sie haben sich in der Wohnung getroffen und lange über die Miete gesprochen. Der Vermieter hat erklärt, dass er das Dach reparieren lassen musste.\n\nAm Ende haben sich beide Seiten geeinigt. Die Miete steigt ein bisschen, aber weniger als im ersten Brief. Familie Berger ist froh, dass sie eine faire Lösung gefunden haben. Sie bleiben gern in ihrer Wohnung wohnen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Vermieter wollte die Miete senken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger war über die Mieterhöhung nicht glücklich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger hat ein Treffen mit dem Vermieter vereinbart.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vermieter hat das Dach nicht repariert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Familie Berger hat am Ende eine Lösung gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wochenende-im-schrebergarten",
+    "nivel": "A2",
+    "titulo": "Das Wochenende im Schrebergarten",
+    "descripcion": "Herr Klein verbringt ein arbeitsreiches, aber schönes Wochenende in seinem Kleingarten.",
+    "texto": "Herr Klein hat vor zwei Jahren einen kleinen Garten am Stadtrand gemietet. Jedes Wochenende fährt er mit dem Fahrrad dorthin, weil er die frische Luft und die Ruhe liebt. Letzten Samstag hat er dort viel gearbeitet: Er hat Tomaten gepflanzt und das Gras geschnitten.\n\nAm Nachmittag ist seine Nachbarin vorbeigekommen. Sie hat ihm ein paar frische Erdbeeren aus ihrem Garten gebracht. „Das ist wirklich nett von Ihnen!\", hat Herr Klein gesagt und sich sehr gefreut. Die beiden haben zusammen Kaffee getrunken und über ihre Pflanzen gesprochen.\n\nAm Abend war Herr Klein müde, aber zufrieden. Er hat eine kleine Gartenhütte, in der er manchmal übernachtet, wenn das Wetter schön ist. Diesmal ist er aber nach Hause gefahren, weil er am Sonntag früh arbeiten musste.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Klein hat den Garten erst letzte Woche gemietet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Klein fährt jedes Wochenende mit dem Fahrrad in den Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarin hat Herrn Klein Erdbeeren gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Klein hat keine Gartenhütte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Klein ist am Ende des Tages nach Hause gefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-als-stadtfuehrer",
+    "nivel": "B1",
+    "titulo": "Ein Tag als Stadtführer",
+    "descripcion": "Jonas berichtet von seinem ungewöhnlichen Job als Stadtführer in seiner Heimatstadt.",
+    "texto": "Jonas arbeitet seit einem Jahr als Stadtführer in seiner Heimatstadt Regensburg. Obwohl er die Stadt schon sein ganzes Leben kennt, lernt er bei der Vorbereitung jeder Tour immer wieder etwas Neues über ihre Geschichte. Nachdem er sein Studium beendet hatte, wollte er eigentlich einen klassischen Bürojob suchen, doch dann entdeckte er seine Leidenschaft für Stadtführungen.\n\nAn einem typischen Arbeitstag trifft sich Jonas morgens mit einer Gruppe von Touristen am Marktplatz. Er erzählt ihnen von der mittelalterlichen Brücke, den alten Handelshäusern und den kleinen Gassen der Altstadt. Trotzdem versucht er, nicht nur trockene Fakten aufzuzählen, sondern auch lustige Anekdoten einzubauen, damit die Führung unterhaltsam bleibt.\n\nManchmal ist das Wetter schlecht, und die Touristen sind nicht besonders motiviert. Obwohl das seine Arbeit manchmal erschwert, gibt Jonas nicht auf und passt seine Route flexibel an. Am Ende des Tages ist er meistens erschöpft, aber zufrieden, weil er sieht, wie begeistert die Besucher von seiner Stadt sind.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas arbeitet erst seit einer Woche als Stadtführer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas wollte ursprünglich einen klassischen Bürojob machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas erzählt den Touristen nur trockene Fakten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Schlechtes Wetter kann Jonas' Arbeit erschweren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist am Ende des Tages meistens unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fotografie-als-hobby",
+    "nivel": "B1",
+    "titulo": "Die Fotografie als Hobby",
+    "descripcion": "Sarah entdeckt die Fotografie als neue Leidenschaft und stellt ihre Bilder aus.",
+    "texto": "Sarah hat vor drei Jahren angefangen, sich für Fotografie zu interessieren, nachdem ihr Bruder ihr eine alte Kamera geschenkt hatte. Anfangs fotografierte sie nur ihre Familie und ihre Katze, doch mit der Zeit entdeckte sie ihre Liebe zur Straßenfotografie. Obwohl sie nie einen Kurs besucht hat, hat sie sich alles selbst beigebracht.\n\nJedes Wochenende zieht Sarah mit ihrer Kamera durch die Stadt und sucht nach interessanten Motiven. Sie fotografiert Menschen auf dem Markt, alte Gebäude und besondere Lichtstimmungen am Abend. Trotzdem findet sie es manchmal schwierig, Fremde um ein Foto zu bitten, weil sie schüchtern ist. Mit der Zeit ist sie aber selbstbewusster geworden.\n\nVor einem Monat hat eine kleine Galerie in ihrer Stadt Sarahs Fotos ausgestellt. Nachdem die Ausstellung eröffnet worden war, kamen viele Besucher, um ihre Bilder zu sehen. Sarah war überrascht, wie positiv die Reaktionen waren, und plant jetzt schon ihre nächste Ausstellung.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah hat ihre erste Kamera von ihrem Bruder bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah hat einen professionellen Fotokurs besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es fällt Sarah immer leicht, Fremde um ein Foto zu bitten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarahs Fotos wurden in einer Galerie ausgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah plant keine weitere Ausstellung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-schachclub",
+    "nivel": "B1",
+    "titulo": "Der Schachclub",
+    "descripcion": "David findet im örtlichen Schachclub neue Freunde und eine spannende Leidenschaft.",
+    "texto": "David ist vor einem halben Jahr in einen Schachclub eingetreten, nachdem ihn ein Kollege dazu eingeladen hatte. Obwohl er anfangs nur die Grundregeln kannte, hat er schnell Fortschritte gemacht. Jeden Dienstagabend trifft sich der Club in einem kleinen Café, um gemeinsam zu spielen und Strategien zu besprechen.\n\nAm Anfang verlor David fast jede Partie. Trotzdem ließ er sich nicht entmutigen und übte fast jeden Tag am Computer. Nachdem er mehrere Bücher über Schachtaktik gelesen hatte, begann er, seine Gegner öfter zu besiegen. Seine neuen Freunde aus dem Club haben ihm außerdem viele nützliche Tipps gegeben.\n\nLetzten Monat hat David an seinem ersten Turnier teilgenommen. Obwohl er nicht gewonnen hat, war er stolz auf seine Leistung, weil er gegen erfahrene Spieler bestehen konnte. Er freut sich schon auf das nächste Turnier und hofft, dass er dann noch besser abschneidet.",
+    "preguntas": [
+      {
+        "enunciado": "David ist von selbst auf die Idee gekommen, in den Schachclub zu gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang hat David fast jede Partie verloren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David hat aufgegeben, weil er zu oft verloren hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David hat an seinem ersten Turnier gewonnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David freut sich auf das nächste Turnier.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-in-schulen",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz in Schulen",
+    "descripcion": "Ein Text über Chancen und Risiken des KI-Einsatzes im Schulunterricht.",
+    "texto": "Der Einsatz künstlicher Intelligenz im schulischen Unterricht wird zunehmend als eine der zentralen Herausforderungen des Bildungssystems diskutiert. Befürworter argumentieren, dass durch individualisierte, von Algorithmen gesteuerte Lernprogramme jedem Schüler ein maßgeschneidertes Lerntempo ermöglicht werden könnte. Insbesondere leistungsschwächere Schüler, die im klassischen Frontalunterricht oft zurückbleiben, sollen von einer solchen personalisierten Förderung profitieren.\n\nGleichzeitig wird vor den Risiken einer unreflektierten Einführung gewarnt. Kritiker befürchten, dass Schüler, wenn sie zu früh und zu unkontrolliert Zugang zu KI-Werkzeugen erhielten, grundlegende Fähigkeiten wie eigenständiges Schreiben und kritisches Denken verlieren würden. Zudem stellt sich die Frage, wie mit den sensiblen Daten der Schüler umgegangen wird, die bei der Nutzung solcher Programme zwangsläufig gesammelt werden. Ohne strenge Datenschutzstandards, so mahnen Experten, könnte das Vertrauen der Eltern in die Schulen nachhaltig beschädigt werden.\n\nAuch die Rolle der Lehrkräfte müsste in diesem Zusammenhang neu gedacht werden. Statt reiner Wissensvermittler würden Lehrer zunehmend zu Lernbegleitern, die den verantwortungsvollen Umgang mit den neuen Technologien vermitteln. Dafür bräuchte es allerdings umfangreiche Fortbildungen, die bislang in vielen Bundesländern kaum angeboten werden.\n\nLetztlich hängt der Erfolg der Digitalisierung im Klassenzimmer davon ab, ob es gelingt, technologische Innovation mit pädagogischer Verantwortung in Einklang zu bringen. Würde man die Entwicklung allein dem Markt überlassen, bestünde die Gefahr, dass wirtschaftliche Interessen wichtiger würden als das Wohl der Schüler.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter sehen in KI eine Möglichkeit zur individuellen Förderung von Schülern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text gibt es keine Bedenken hinsichtlich des Datenschutzes.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten den Verlust grundlegender Fähigkeiten bei Schülern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Rolle der Lehrkräfte würde sich laut dem Text nicht verändern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht den Markt als alleinigen idealen Akteur für diese Entwicklung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "energiewende-und-buergerbeteiligung",
+    "nivel": "B2",
+    "titulo": "Energiewende und Bürgerbeteiligung",
+    "descripcion": "Ein Text über den Widerstand gegen neue Windkraftanlagen und die Rolle der Bürgerbeteiligung.",
+    "texto": "Die Energiewende gilt als unverzichtbarer Baustein der deutschen Klimapolitik, wird in vielen Regionen jedoch von erheblichem Widerstand vor Ort begleitet. Während der Ausbau von Windkraft- und Solaranlagen auf nationaler Ebene breite Zustimmung findet, formiert sich häufig lokaler Protest, sobald konkrete Bauprojekte in unmittelbarer Nachbarschaft geplant werden. Dieses Phänomen wird in der Forschung als „Nimby-Effekt\" bezeichnet, abgeleitet von der englischen Formulierung „not in my backyard\".\n\nUm diesen Konflikt zu entschärfen, setzen immer mehr Kommunen auf Modelle der Bürgerbeteiligung. Anwohner werden dabei nicht nur informiert, sondern erhalten auch die Möglichkeit, sich finanziell an den Projekten zu beteiligen, etwa durch Bürgerwindparks oder Energiegenossenschaften. Studien deuten darauf hin, dass die Akzeptanz erheblich steigen würde, wenn die Menschen vor Ort direkt von den wirtschaftlichen Vorteilen der Anlagen profitierten, statt lediglich die vermeintlichen Nachteile wie Lärm oder ein verändertes Landschaftsbild zu tragen.\n\nKritiker wenden jedoch ein, dass eine rein finanzielle Beteiligung nicht ausreiche, um tief verwurzelte Vorbehalte auszuräumen. Gerade in strukturschwachen Regionen, in denen der demografische Wandel bereits deutliche Spuren hinterlassen hat, würden viele Bewohner den Ausbau erneuerbarer Energien als weiteren Eingriff von außen empfinden, über den sie kaum Mitspracherecht hätten. Wäre die Planung von Anfang an transparenter gestaltet worden, so argumentieren manche Experten, ließe sich ein Großteil der Konflikte vermeiden.\n\nAngesichts der ambitionierten Klimaziele Deutschlands bleibt die Frage drängend, wie sich Tempo beim Ausbau und demokratische Mitbestimmung miteinander vereinbaren lassen. Ohne eine überzeugende Beteiligungskultur droht die Energiewende an lokalem Widerstand zu scheitern, so warnen zahlreiche Beobachter.",
+    "preguntas": [
+      {
+        "enunciado": "Der Ausbau der Windkraft stößt laut dem Text nie auf lokalen Widerstand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der „Nimby-Effekt\" beschreibt Widerstand gegen Projekte in der eigenen Nachbarschaft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bürgerwindparks sollen die finanzielle Beteiligung der Anwohner ermöglichen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern reicht eine finanzielle Beteiligung allein immer aus, um Widerstände zu beseitigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht keinen Zusammenhang zwischen Beteiligungskultur und dem Erfolg der Energiewende.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "influencer-marketing-und-jugendliche",
+    "nivel": "B2",
+    "titulo": "Influencer-Marketing und Jugendliche",
+    "descripcion": "Ein kritischer Blick auf die Wirkung von Influencer-Werbung auf junge Menschen in sozialen Medien.",
+    "texto": "Influencer-Marketing hat sich in den vergangenen Jahren zu einer der einflussreichsten Werbeformen im digitalen Raum entwickelt. Über soziale Netzwerke erreichen Influencer Millionen junger Menschen, denen Produkte oft nicht als klassische Werbung, sondern als scheinbar authentische Empfehlung präsentiert werden. Gerade weil die Grenze zwischen persönlicher Meinung und bezahlter Werbung häufig verschwimmt, gilt diese Form der Vermarktung als besonders wirkungsvoll.\n\nVerbraucherschützer kritisieren seit Langem, dass viele Werbeinhalte nicht ausreichend als solche gekennzeichnet würden, obwohl entsprechende gesetzliche Vorschriften existieren. Besonders problematisch sei dies bei minderjährigen Zuschauern, die die kommerziellen Absichten hinter einem Beitrag oft nicht durchschauen könnten. Untersuchungen zeigen zudem, dass durch stark inszenierte, häufig unrealistische Lebensstile das Konsumverhalten junger Menschen erheblich beeinflusst wird.\n\nAuf der anderen Seite betonen Vertreter der Branche, dass Influencer-Marketing auch positive Effekte habe. So könnten etwa Aufklärungskampagnen zu Themen wie mentaler Gesundheit oder Nachhaltigkeit eine Zielgruppe erreichen, die von klassischen Medien kaum noch angesprochen werde. Würde man Influencer-Marketing pauschal verbieten, ginge damit auch dieses Potenzial verloren, argumentieren sie.\n\nAngesichts dieser widersprüchlichen Befunde fordern viele Experten eine stärkere Medienkompetenzförderung an Schulen, verbunden mit einer konsequenteren Durchsetzung bestehender Kennzeichnungspflichten. Nur wenn beide Maßnahmen kombiniert würden, ließe sich ein verantwortungsvoller Umgang mit dieser Werbeform langfristig sicherstellen.",
+    "preguntas": [
+      {
+        "enunciado": "Influencer-Marketing wird oft als authentische Empfehlung statt als klassische Werbung wahrgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text werden alle Werbeinhalte immer korrekt gekennzeichnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minderjährige können laut dem Text kommerzielle Absichten stets problemlos erkennen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Influencer-Marketing kann laut dem Text auch für Aufklärungskampagnen genutzt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert unter anderem eine stärkere Medienkompetenzförderung an Schulen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
