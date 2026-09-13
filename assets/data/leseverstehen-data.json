@@ -8474,5 +8474,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "an-der-bushaltestelle",
+    "nivel": "A1",
+    "titulo": "An der Bushaltestelle",
+    "descripcion": "Paul wartet jeden Morgen an der Bushaltestelle auf den Bus zur Schule.",
+    "texto": "Paul steht jeden Morgen an der Bushaltestelle. Er wartet auf den Bus Nummer sieben. Der Bus kommt um Viertel nach sieben. Paul trägt einen blauen Rucksack und eine warme Jacke. Es ist oft kalt am Morgen.\n\nNeben Paul steht Frau Bauer. Sie ist seine Nachbarin und fährt zur Arbeit. „Guten Morgen, Paul!“, sagt Frau Bauer. „Guten Morgen!“, antwortet Paul und lächelt. Sie sprechen kurz über das Wetter. Heute scheint die Sonne, aber es ist windig.\n\nDer Bus kommt pünktlich. Paul steigt ein und setzt sich ans Fenster. Er sieht seine Freunde im Bus und winkt. Nach zehn Minuten hält der Bus vor der Schule. Paul steigt aus und geht ins Klassenzimmer.",
+    "preguntas": [
+      {
+        "enunciado": "Paul wartet auf den Bus Nummer sieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trägt einen roten Rucksack.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Bauer ist Pauls Lehrerin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Heute scheint die Sonne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bus kommt zu spät.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-baumarkt",
+    "nivel": "A1",
+    "titulo": "Im Baumarkt",
+    "descripcion": "Tim geht mit seinem Vater in den Baumarkt und kauft Farbe für sein Zimmer.",
+    "texto": "Tim geht mit seinem Vater in den Baumarkt. Sie brauchen Farbe für Tims Zimmer. Tim möchte sein Zimmer blau streichen. Im Baumarkt gibt es viele Farben: Rot, Grün, Gelb und Blau.\n\nDer Verkäufer zeigt Tim verschiedene Blautöne. Tim wählt ein helles Blau aus. Sein Vater kauft auch Pinsel und Farbrollen. An der Kasse zahlen sie zwanzig Euro. „Das wird schön!“, sagt Tim glücklich.\n\nZu Hause packen Tim und sein Vater die Sachen aus. Sie legen Zeitungen auf den Boden. Am Wochenende streichen sie zusammen das Zimmer. Tim freut sich sehr auf sein neues blaues Zimmer.",
+    "preguntas": [
+      {
+        "enunciado": "Tim möchte sein Zimmer grün streichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verkäufer zeigt Tim Blautöne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tims Vater kauft auch Pinsel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie zahlen fünfzig Euro an der Kasse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim und sein Vater streichen das Zimmer am Wochenende.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-mit-papa",
+    "nivel": "A1",
+    "titulo": "Ein Tag mit Papa",
+    "descripcion": "Lukas verbringt einen schönen Samstag mit seinem Papa.",
+    "texto": "Heute ist Samstag. Lukas hat frei und bleibt zu Hause bei Papa. Am Morgen kochen sie zusammen Pfannkuchen. Lukas mag Pfannkuchen mit Honig. Papa trinkt Kaffee, Lukas trinkt Kakao.\n\nNach dem Frühstück gehen sie in den Park. Lukas fährt mit seinem Fahrrad. Papa läuft neben ihm. Im Park spielen sie Fußball. Ein Hund läuft zu ihnen und bellt fröhlich. Lukas lacht und streichelt den Hund.\n\nAm Nachmittag kaufen sie Eis. Lukas nimmt Schokoladeneis, Papa nimmt Vanilleeis. Sie setzen sich auf eine Bank und essen ihr Eis. „Das war ein toller Tag“, sagt Lukas glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas trinkt am Morgen Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas und Papa spielen Fußball im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Park kommt eine Katze zu ihnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Papa nimmt Schokoladeneis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas findet den Tag toll.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-in-nuernberg",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende in Nürnberg",
+    "descripcion": "Julia hat ein Wochenende in Nürnberg verbracht und die Altstadt entdeckt.",
+    "texto": "Julia ist am Freitagabend mit dem Zug nach Nürnberg gefahren. Sie wollte die Stadt schon lange besuchen, weil ihre Großmutter dort aufgewachsen ist. Am Bahnhof hat sie ein Taxi zu ihrem Hotel in der Altstadt genommen.\n\nAm Samstag ist Julia früh aufgestanden und hat die Nürnberger Burg besichtigt. Von dort oben hatte sie einen wunderbaren Blick über die ganze Stadt. Danach ist sie über den Hauptmarkt gegangen und hat dort Nürnberger Lebkuchen probiert. Sie hat gedacht, dass der Lebkuchen genauso gut schmeckt wie bei ihrer Großmutter zu Hause.\n\nAm Abend hat Julia in einem kleinen Restaurant Nürnberger Bratwürste gegessen. Sie hat mit dem Kellner gesprochen, weil sie mehr über die Geschichte der Stadt erfahren wollte. Am Sonntag ist sie müde, aber zufrieden, nach Hause gefahren. Sie hat sich vorgenommen, bald wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit dem Auto nach Nürnberg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julias Großmutter ist in Nürnberg aufgewachsen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat die Nürnberger Burg besichtigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat den Lebkuchen nicht gemocht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia möchte irgendwann wieder nach Nürnberg fahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-aquarium",
+    "nivel": "A2",
+    "titulo": "Ein Tag im Aquarium",
+    "descripcion": "Familie Berger hat einen Ausflug ins Aquarium gemacht.",
+    "texto": "Am Sonntag ist Familie Berger ins Aquarium gefahren. Die Kinder, Mia und Ben, haben sich schon lange auf diesen Ausflug gefreut. Als sie angekommen sind, haben sie zuerst die Haie gesehen. Ben hat gesagt, dass die Haie ihm ein bisschen Angst gemacht haben.\n\nDanach sind sie zu den bunten Korallenfischen gegangen. Mia hat viele Fotos gemacht, weil die Farben so schön waren. Um zwölf Uhr hat es eine Fütterung der Pinguine gegeben. Die ganze Familie hat gestaunt, wie schnell die Pinguine schwimmen können.\n\nAm Nachmittag haben sie im Café des Aquariums Kuchen gegessen. Mia hat ihrem Vater erzählt, dass sie später auch Meeresbiologin werden möchte. Auf dem Heimweg sind die Kinder eingeschlafen, weil der Tag so aufregend war.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger ist am Sonntag ins Aquarium gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hatte keine Angst vor den Haien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hat viele Fotos von den Korallenfischen gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab keine Fütterung im Aquarium.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia möchte später Meeresbiologin werden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verpasste-zug-nach-bremen",
+    "nivel": "A2",
+    "titulo": "Der verpasste Zug nach Bremen",
+    "descripcion": "Markus hat seinen Zug nach Bremen verpasst und musste seine Pläne ändern.",
+    "texto": "Markus wollte am Morgen nach Bremen fahren, weil er dort einen alten Freund besuchen wollte. Er ist aus dem Haus gegangen, aber der Bus zum Bahnhof hatte Verspätung. Als Markus am Bahnhof angekommen ist, ist sein Zug schon abgefahren.\n\nMarkus war zuerst sehr enttäuscht. Er hat am Schalter gefragt, wann der nächste Zug fährt. Die Frau am Schalter hat gesagt, dass der nächste Zug erst in zwei Stunden fährt. Markus hat seinem Freund eine Nachricht geschrieben und ihm erklärt, dass er später ankommt.\n\nIn der Wartezeit hat Markus einen Kaffee getrunken und in einem Buch gelesen. Als der Zug endlich gekommen ist, hat er einen guten Platz am Fenster gefunden. Sein Freund hat ihn am Bahnhof in Bremen abgeholt, obwohl er zwei Stunden warten musste. Am Ende war es trotzdem ein schöner Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat seinen Zug verpasst, weil der Bus Verspätung hatte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der nächste Zug ist sofort gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat seinem Freund keine Nachricht geschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat in der Wartezeit Kaffee getrunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Freund hat trotz der Verspätung auf Markus gewartet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-segelkurs-am-see",
+    "nivel": "B1",
+    "titulo": "Ein Segelkurs am See",
+    "descripcion": "Felix macht einen Segelkurs am Chiemsee und lernt, mit dem Wind umzugehen.",
+    "texto": "Felix hat sich schon immer für das Segeln interessiert, obwohl er noch nie in einem Boot gesessen hatte. Im Sommer meldete er sich für einen einwöchigen Segelkurs am Chiemsee an. Am ersten Tag erklärte der Kursleiter die wichtigsten Begriffe und zeigte, wie man ein Segelboot startklar macht.\n\nNachdem die Gruppe die Theorie gelernt hatte, ging es endlich aufs Wasser. Felix war anfangs unsicher, weil der Wind stärker war als erwartet. Trotzdem gelang es ihm nach ein paar Versuchen, das Boot ruhig zu steuern. Am dritten Tag kenterte er sogar einmal, aber er ließ sich davon nicht entmutigen und stieg sofort wieder ein.\n\nAm Ende der Woche konnte Felix selbstständig segeln. Er war stolz auf seine Fortschritte, obwohl er zu Beginn gezweifelt hatte, ob er das überhaupt lernen könnte. Der Kursleiter lobte seine schnelle Entwicklung und riet ihm, im nächsten Jahr einen fortgeschrittenen Kurs zu besuchen. Felix nahm sich vor, das Segeln als festes Hobby weiterzuführen.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hatte vor dem Kurs bereits viel Segelerfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Segelkurs dauerte eine Woche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix kenterte einmal mit dem Boot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix gab nach dem Kentern das Segeln auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kursleiter empfahl Felix einen fortgeschrittenen Kurs.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-betriebsausflug",
+    "nivel": "B1",
+    "titulo": "Der Betriebsausflug",
+    "descripcion": "Die Mitarbeiter einer kleinen Firma verbringen einen Tag zusammen bei einem Betriebsausflug.",
+    "texto": "Jedes Jahr im Sommer organisiert die Firma von Sarah einen Betriebsausflug. Dieses Jahr sollte die Gruppe eine Kanutour auf der Isar machen, nachdem im letzten Jahr ein Kochkurs stattgefunden hatte. Viele Kollegen waren zunächst skeptisch, weil sie noch nie in einem Kanu gesessen hatten.\n\nAm Tag des Ausflugs trafen sich alle früh am Fluss. Der Wetterbericht hatte Regen vorhergesagt, trotzdem entschied sich die Chefin, die Tour nicht abzusagen. Zum Glück blieb es den ganzen Vormittag trocken. Sarah teilte sich ein Kanu mit ihrem Kollegen Thomas, mit dem sie sonst selten zusammenarbeitete. Während der Fahrt lernten sie sich viel besser kennen und lachten über kleine Missgeschicke.\n\nNach der Kanutour grillte die Firma am Flussufer. Die Kollegen erzählten sich Geschichten aus dem Arbeitsalltag und tauschten sich über private Themen aus, worüber sie im Büro selten sprachen. Sarah fand, dass solche Ausflüge das Team stärker zusammenbringen, obwohl manche Kollegen anfangs wenig Lust darauf hatten. Am Ende waren sich alle einig, dass es ein gelungener Tag gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Im letzten Jahr fand eine Kanutour statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es regnete während der ganzen Kanutour.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah und Thomas arbeiteten sonst häufig zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Kanutour hat die Firma gegrillt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende fanden die Kollegen den Ausflug gelungen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-beim-zelten-im-regen",
+    "nivel": "B1",
+    "titulo": "Ein Wochenende beim Zelten im Regen",
+    "descripcion": "Eine Gruppe von Freunden zeltet am Wochenende, obwohl das Wetter schlecht ist.",
+    "texto": "Lisa und ihre Freunde hatten schon seit Wochen ein Zeltwochenende am See geplant. Als der Freitag kam, sagte der Wetterbericht starken Regen für das ganze Wochenende voraus. Manche wollten die Tour absagen, aber Lisa überzeugte die Gruppe, trotzdem loszufahren.\n\nAm See angekommen, bauten sie die Zelte schnell auf, bevor der Regen richtig einsetzte. Nachdem alle Zelte standen, kochten sie gemeinsam eine warme Suppe auf einem kleinen Gaskocher. Der Regen trommelte die ganze Nacht auf die Zeltplanen, aber die Gruppe saß trocken und gemütlich zusammen und spielte Kartenspiele.\n\nAm nächsten Morgen hatte sich der Regen gelegt, und die Sonne kam durch die Wolken. Obwohl das Wetter am Anfang schlecht gewesen war, hatten alle eine gute Zeit gehabt. Lisa meinte, dass gerade der Regen die Gruppe enger zusammengebracht hatte. Am Abend fuhren sie mit vielen schönen Erinnerungen nach Hause zurück.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa wollte das Zeltwochenende wegen des Regens absagen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe konnte die Zelte vor dem Regen aufbauen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Nacht regnete es sehr stark.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am nächsten Morgen regnete es weiter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa fand, dass der Regen die Gruppe zusammengebracht hat.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "tierversuche-in-der-forschung",
+    "nivel": "B2",
+    "titulo": "Tierversuche in der Forschung",
+    "descripcion": "Tierversuche in der medizinischen Forschung sind seit Jahrzehnten Gegenstand einer kontroversen Debatte.",
+    "texto": "Tierversuche gehören seit Jahrzehnten zu den umstrittensten Themen der medizinischen Forschung. Befürworter argumentieren, dass viele lebensrettende Medikamente ohne Tierversuche gar nicht hätten entwickelt werden können. Ohne die Erprobung an Tieren, so wird oft betont, müssten neue Wirkstoffe direkt am Menschen getestet werden, was ein erheblich größeres Risiko darstellen würde.\n\nKritiker hingegen weisen darauf hin, dass die Ergebnisse aus Tierversuchen nicht immer auf den Menschen übertragbar seien, da sich der Stoffwechsel verschiedener Spezies teilweise erheblich unterscheide. Zudem wird zunehmend argumentiert, dass es aus ethischer Sicht nicht zu rechtfertigen sei, Tiere leiden zu lassen, nur um menschliche Krankheiten zu erforschen. In den letzten Jahren wurden daher verstärkt alternative Methoden entwickelt, etwa Zellkulturen, Organ-Chips und computergestützte Simulationen, die Tierversuche zumindest teilweise ersetzen sollen.\n\nDennoch räumen selbst viele Wissenschaftler ein, dass ein vollständiger Verzicht auf Tierversuche derzeit kaum realistisch wäre, solange komplexe biologische Prozesse im gesamten Organismus untersucht werden müssen. Würde man sämtliche Tierversuche von heute auf morgen verbieten, könnten nach Einschätzung vieler Forscher wichtige Fortschritte in der Krebs- und Impfstoffforschung erheblich verzögert werden. Die Debatte bleibt daher ein Spannungsfeld zwischen wissenschaftlichem Fortschritt und dem Schutz der Tiere.\n\nIn der Politik wird inzwischen verstärkt gefordert, dass Fördermittel gezielt in die Entwicklung tierversuchsfreier Methoden fließen sollten. Ob es jedoch gelingen wird, Tierversuche in absehbarer Zeit vollständig durch Alternativen zu ersetzen, bleibt unter Experten weiterhin umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter von Tierversuchen sehen darin einen Beitrag zur Entwicklung von Medikamenten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern sind die Ergebnisse von Tierversuchen immer eins zu eins auf Menschen übertragbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alternative Methoden wie Organ-Chips sollen Tierversuche teilweise ersetzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Wissenschaftler halten einen sofortigen vollständigen Verzicht auf Tierversuche für problemlos möglich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Politik fordert unter anderem mehr Fördermittel für tierversuchsfreie Methoden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fast-fashion",
+    "nivel": "B2",
+    "titulo": "Fast Fashion – Der wahre Preis billiger Kleidung",
+    "descripcion": "Fast Fashion verspricht günstige Mode, doch die tatsächlichen Kosten trägt oft die Umwelt und die Arbeiter in den Produktionsländern.",
+    "texto": "Fast Fashion hat die Modeindustrie in den letzten zwei Jahrzehnten grundlegend verändert. Kleidung wird heute in immer kürzeren Zyklen produziert und zu Preisen verkauft, die vor wenigen Jahren noch undenkbar gewesen wären. Für viele Konsumenten bedeutet das, ständig neue Trends erschwinglich mitmachen zu können, ohne dass das eigene Budget dabei stark belastet würde.\n\nHinter den niedrigen Preisen verbergen sich jedoch häufig problematische Produktionsbedingungen. In vielen Fabriken in Asien werden Näherinnen und Näher unter Bedingungen beschäftigt, die von Menschenrechtsorganisationen wiederholt kritisiert worden sind. Löhne, die kaum zum Leben reichen, und lange Arbeitszeiten seien dort keine Ausnahme, sondern eher die Regel. Wäre die Textilindustrie gezwungen, sämtliche externen Kosten – etwa für Umweltverschmutzung und faire Löhne – tatsächlich einzupreisen, müssten die Preise für Kleidung nach Einschätzung vieler Ökonomen deutlich steigen.\n\nAuch ökologisch hinterlässt Fast Fashion tiefe Spuren. Für die Herstellung von Baumwolle wird enorm viel Wasser benötigt, und beim Färben der Stoffe gelangen häufig giftige Chemikalien in Flüsse und Böden. Zudem landet ein erheblicher Teil der Kleidung, die kaum getragen wurde, bereits nach kurzer Zeit im Müll, weil neue Kollektionen die alten schnell verdrängen.\n\nIn den letzten Jahren ist zwar ein wachsendes Bewusstsein für nachhaltige Mode entstanden, dennoch bleibt Fast Fashion für viele Verbraucher attraktiv, solange die Preise so niedrig bleiben. Ob strengere gesetzliche Vorgaben für die Textilbranche eingeführt würden, könnte den Druck auf Hersteller erhöhen, fairere und umweltfreundlichere Produktionsweisen zu wählen. Bislang jedoch fehlt es an verbindlichen internationalen Regelungen, die einen echten Wandel erzwingen könnten.",
+    "preguntas": [
+      {
+        "enunciado": "Fast Fashion zeichnet sich durch kurze Produktionszyklen und niedrige Preise aus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Menschenrechtsorganisationen haben die Arbeitsbedingungen in vielen Textilfabriken kritisiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text benötigt die Baumwollproduktion kaum Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Teil der produzierten Kleidung wird bereits nach kurzer Zeit weggeworfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt bereits verbindliche internationale Gesetze, die Fast Fashion streng regulieren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "lobbyismus-in-der-politik",
+    "nivel": "B2",
+    "titulo": "Lobbyismus in der Politik",
+    "descripcion": "Lobbyismus beeinflusst politische Entscheidungen – die Debatte über Transparenz und demokratische Legitimität hält an.",
+    "texto": "Lobbyismus gehört seit Langem zum politischen Alltag moderner Demokratien. Interessenvertreter aus Wirtschaft, Umweltverbänden und Gewerkschaften versuchen, Einfluss auf Gesetzgebungsprozesse zu nehmen, indem sie Abgeordnete informieren, Studien vorlegen oder direkt das Gespräch mit politischen Entscheidungsträgern suchen. Befürworter argumentieren, dass Lobbyarbeit wichtiges Fachwissen in die Politik trage, das Abgeordnete allein oft nicht besäßen.\n\nKritiker hingegen befürchten, dass finanzstarke Akteure durch Lobbyismus einen unverhältnismäßig großen Einfluss auf politische Entscheidungen ausüben könnten, während schwächer organisierte gesellschaftliche Gruppen kaum Gehör fänden. Besonders umstritten sind Fälle, in denen Gesetzesentwürfe fast wörtlich von Unternehmen formuliert worden sein sollen, bevor sie ins Parlament eingebracht wurden. Wäre die Herkunft solcher Formulierungen von Anfang an offengelegt worden, hätte die Öffentlichkeit möglicherweise anders auf die betreffenden Gesetze reagiert.\n\nIn den letzten Jahren wurde in mehreren Ländern ein sogenanntes Lobbyregister eingeführt, in dem Interessenvertreter und ihre Kontakte zu Regierungsmitgliedern verzeichnet werden müssen. Befürworter solcher Register sehen darin einen wichtigen Schritt zu mehr Transparenz, während Kritiker anmerken, dass viele informelle Kontakte weiterhin unerfasst blieben. Es wird daher gefordert, dass auch Treffen auf niedrigeren Verwaltungsebenen dokumentiert werden müssten, damit ein vollständigeres Bild der tatsächlichen Einflussnahme entstehen könnte.\n\nOb Lobbyismus letztlich die Demokratie bereichert oder untergräbt, hängt maßgeblich davon ab, wie transparent und ausgewogen die Beteiligung unterschiedlicher Interessengruppen gestaltet wird. Ohne strengere Regeln, so warnen viele Politikwissenschaftler, drohe das Vertrauen der Bürger in demokratische Institutionen weiter zu schwinden.",
+    "preguntas": [
+      {
+        "enunciado": "Lobbyismus existiert laut Text nur in autoritären Staaten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter von Lobbyismus sehen darin eine Quelle für Fachwissen in der Politik.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es soll bereits vorgekommen sein, dass Gesetzesentwürfe fast wörtlich von Unternehmen formuliert wurden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lobbyregister erfassen laut Text lückenlos alle informellen Kontakte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Politikwissenschaftler warnen, dass ohne strengere Regeln das Bürgervertrauen schwinden könnte.",
+        "respuesta": true
+      }
+    ]
   }
 ]
