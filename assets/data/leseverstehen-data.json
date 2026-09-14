@@ -10562,5 +10562,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-schreibwarenladen",
+    "nivel": "A1",
+    "titulo": "Im Schreibwarenladen",
+    "descripcion": "Lisa kauft neue Stifte und ein Heft für die Schule.",
+    "texto": "Lisa geht heute in den Schreibwarenladen. Sie braucht neue Stifte für die Schule. Der Laden ist klein, aber sehr bunt. Es gibt viele Farben und viele Hefte.\n\nLisa sucht drei Stifte: einen roten, einen blauen und einen grünen. Sie findet auch ein schönes Heft mit Sternen. Das Heft kostet zwei Euro. Die Verkäuferin ist sehr freundlich. Sie sagt: „Brauchst du auch einen Radiergummi?\" Lisa nickt und kauft noch einen Radiergummi dazu.\n\nZu Hause packt Lisa alles in ihre Schultasche. Sie ist froh, denn morgen beginnt die Schule wieder. Ihre neuen Stifte liegen ordentlich im Mäppchen.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa kauft Stifte für die Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Laden ist sehr groß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa kauft ein Heft mit Sternen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Heft kostet fünf Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa kauft auch einen Radiergummi.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingstag",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingstag",
+    "descripcion": "Tom erzählt, warum der Samstag sein Lieblingstag ist.",
+    "texto": "Tom hat einen Lieblingstag. Das ist der Samstag. Am Samstag muss er nicht zur Schule gehen. Er schläft lange und steht erst um neun Uhr auf.\n\nAm Vormittag spielt Tom Fußball mit seinen Freunden. Danach isst er zu Mittag bei seiner Familie. Seine Mutter kocht Nudeln mit Tomatensoße. Das schmeckt Tom sehr gut. Am Nachmittag besucht er oft seinen Opa. Sie spielen zusammen Karten und trinken Tee.\n\nAm Abend schaut Tom einen Film mit seiner Schwester. Sie essen Popcorn und lachen viel. Tom sagt: „Der Samstag ist der schönste Tag der Woche!\"",
+    "preguntas": [
+      {
+        "enunciado": "Tom mag den Montag am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag geht Tom nicht zur Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom spielt am Vormittag Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Toms Mutter kocht Fisch zum Mittagessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend schaut Tom einen Film mit seiner Schwester.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-eiscafe",
+    "nivel": "A1",
+    "titulo": "Im Eiscafé",
+    "descripcion": "Mia und ihr Bruder gehen im Sommer ins Eiscafé.",
+    "texto": "Im Sommer ist es sehr warm. Mia und ihr Bruder Ben gehen ins Eiscafé. Das Café ist um die Ecke. Vor dem Café stehen viele bunte Stühle.\n\nMia bestellt ein Eis mit Erdbeere und Schokolade. Ben mag Vanille und Zitrone. Der Eisverkäufer lächelt und fragt: „Möchtet ihr auch Sahne?\" Mia sagt Ja, Ben sagt Nein. Sie setzen sich draußen an einen Tisch und essen ihr Eis langsam.\n\nNach dem Eis trinken sie noch Wasser. Die Sonne scheint, und die Vögel singen. Mia und Ben sind glücklich. Sie kommen gern jeden Sommer hierher.",
+    "preguntas": [
+      {
+        "enunciado": "Mia und Ben gehen im Winter ins Eiscafé.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia bestellt ein Eis mit Erdbeere und Schokolade.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben mag Vanille und Zitrone.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide möchten Sahne auf dem Eis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Eis trinken sie Kaffee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-nachtzugfahrt-nach-hamburg",
+    "nivel": "A2",
+    "titulo": "Die Nachtzugfahrt nach Hamburg",
+    "descripcion": "Paul hat zum ersten Mal eine Nachtzugfahrt gemacht und dabei einiges erlebt.",
+    "texto": "Letzte Woche ist Paul zum ersten Mal mit dem Nachtzug nach Hamburg gefahren. Er hat sich sehr darauf gefreut, weil er noch nie in einem Schlafwagen übernachtet hat. Am Bahnhof hat er sein Bett schnell gefunden, denn der Schaffner hat ihm freundlich geholfen.\n\nAm Anfang konnte Paul nicht gut schlafen, weil der Zug ziemlich laut gerattert hat. Später ist er aber trotzdem eingeschlafen. Mitten in der Nacht ist er kurz aufgewacht, als der Zug an einem Bahnhof gehalten hat. Er hat aus dem Fenster geschaut und viele Lichter gesehen. Dann ist er wieder eingeschlafen.\n\nAm Morgen ist Paul müde, aber glücklich in Hamburg angekommen. Er hat gedacht, dass eine Nachtzugfahrt anstrengend sein würde, aber es hat ihm gut gefallen. Wenn er wieder Zeit hat, möchte er die Fahrt bald wiederholen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist mit dem Flugzeug nach Hamburg gereist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul konnte am Anfang der Fahrt nicht gut schlafen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zug ist in der Nacht nirgendwo stehengeblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul ist müde, aber glücklich in Hamburg angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul möchte nie wieder mit dem Nachtzug fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-hno-arzt",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim HNO-Arzt",
+    "descripcion": "Sofie hat Ohrenschmerzen und geht deshalb zum HNO-Arzt.",
+    "texto": "Sofie hat seit zwei Tagen starke Ohrenschmerzen. Weil die Schmerzen nicht besser werden, ruft sie beim HNO-Arzt an und bekommt noch am selben Tag einen Termin. Im Wartezimmer sitzen schon drei andere Patienten, aber Sofie muss nicht lange warten.\n\nDer Arzt schaut sich ihre Ohren genau an. Er sagt, dass sie eine leichte Ohrenentzündung hat. „Das ist wahrscheinlich passiert, weil Sie letzte Woche im See geschwommen sind\", erklärt er. Sofie bekommt Ohrentropfen und soll sie eine Woche lang benutzen. Der Arzt rät ihr auch, in den nächsten Tagen nicht wieder schwimmen zu gehen.\n\nZu Hause nimmt Sofie sofort die Tropfen. Schon am nächsten Tag fühlt sie sich viel besser. Sie ist froh, dass sie so schnell einen Termin bekommen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Sofie hat seit zwei Tagen Ohrenschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie muss zwei Wochen auf einen Termin warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt findet eine leichte Ohrenentzündung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie bekommt Tabletten gegen die Schmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofie fühlt sich am nächsten Tag schon besser.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-missverstaendnis-mit-dem-nachbarn",
+    "nivel": "A2",
+    "titulo": "Das Missverständnis mit dem Nachbarn",
+    "descripcion": "Ein falsch geparktes Auto führt zu einem Streit zwischen Nachbarn, der sich am Ende klärt.",
+    "texto": "Am Samstagmorgen hat Herr Keller ein fremdes Auto vor seiner Garage gefunden. Er hat sich sehr geärgert, weil er sein eigenes Auto nicht herausfahren konnte. Er ist zu seinem Nachbarn Herrn Weiß gegangen, weil er dachte, dass es sein Auto ist.\n\nHerr Weiß hat sofort gesagt, dass das Auto nicht ihm gehört. Die beiden Männer haben sich kurz gestritten, weil Herr Keller ihm nicht geglaubt hat. Dann hat eine andere Nachbarin erklärt, dass ein Besucher aus der Nachbarschaft das Auto dort geparkt hat, weil er einen Termin in der Straße hatte.\n\nHerr Keller hat sich bei Herrn Weiß entschuldigt, nachdem er die Wahrheit erfahren hat. Die beiden haben zusammen gelacht und sind danach wieder gute Nachbarn. Am Abend haben sie sogar zusammen Kaffee getrunken, um sich zu versöhnen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Keller findet ein fremdes Auto vor seiner Garage.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Auto gehört Herrn Weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Männer streiten sich kurz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Besucher hat das Auto dort geparkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Keller und Herr Weiß sprechen nach dem Streit nie wieder miteinander.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-kollege",
+    "nivel": "B1",
+    "titulo": "Der neue Kollege",
+    "descripcion": "Ein neuer Kollege verändert die Stimmung im Büro, obwohl am Anfang nicht alle begeistert sind.",
+    "texto": "Als Markus vor drei Wochen seine neue Stelle in einem kleinen Architekturbüro angetreten hat, war das Team zunächst zurückhaltend. Obwohl alle Kollegen freundlich zu ihm waren, hat sich Markus in den ersten Tagen etwas fremd gefühlt. Er kannte niemanden im Büro und wusste nicht genau, wie die Abläufe funktionierten.\n\nNachdem er sich einige Tage eingearbeitet hatte, begann Markus, sich aktiv an gemeinsamen Projekten zu beteiligen. Trotzdem gab es anfangs kleine Missverständnisse, weil er die internen Programme noch nicht gut kannte. Ein Kollege, Herr Brandt, half ihm geduldig weiter und erklärte ihm die wichtigsten Werkzeuge. Dadurch fühlte sich Markus schon bald sicherer bei seiner Arbeit.\n\nMittlerweile ist Markus fest im Team integriert. Obwohl er am Anfang Zweifel hatte, ob er sich gut einleben würde, hat sich das Team als sehr hilfsbereit erwiesen. Die Kollegen gehen inzwischen regelmäßig gemeinsam essen, und Markus freut sich jeden Morgen auf die Arbeit. Er ist froh, dass er sich für diese Stelle entschieden hat, obwohl der Anfang nicht immer leicht war.",
+    "preguntas": [
+      {
+        "enunciado": "Markus fühlte sich in den ersten Tagen sofort wie zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Brandt hat Markus bei den internen Programmen geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hatte anfangs Zweifel, ob er sich gut einleben würde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Team geht nie gemeinsam essen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus bereut es, die Stelle angenommen zu haben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-in-den-schwarzwald",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt in den Schwarzwald",
+    "descripcion": "Eine Schulklasse verbringt trotz schlechten Wetters eine unvergessliche Woche im Schwarzwald.",
+    "texto": "Die Klasse 9b ist für eine Woche in den Schwarzwald gefahren, um dort eine Jugendherberge zu besuchen und die Natur kennenzulernen. Nachdem die Schüler mit dem Bus angekommen waren, mussten sie zunächst ihre Zimmer beziehen und die Regeln des Hauses kennenlernen. Obwohl viele von einer sonnigen Woche geträumt hatten, regnete es am ersten Tag ununterbrochen.\n\nTrotzdem ließ sich die Klasse die gute Laune nicht verderben. Am zweiten Tag klarte das Wetter auf, und die Gruppe unternahm eine lange Wanderung zu einem Wasserfall. Nachdem sie stundenlang durch den Wald gelaufen waren, waren alle erschöpft, aber begeistert von der schönen Landschaft. Abends saßen die Schüler zusammen am Lagerfeuer und sangen Lieder, obwohl einige schon müde von der Wanderung waren.\n\nAm letzten Abend organisierten die Lehrer eine kleine Abschlussfeier mit Spielen und Musik. Viele Schüler waren traurig, dass die Klassenfahrt schon vorbei war. Obwohl das Wetter am Anfang nicht mitgespielt hatte, war sich am Ende die ganze Klasse einig, dass es eine der schönsten Wochen ihrer Schulzeit gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b fährt für einen Tag in den Schwarzwald.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag regnet es den ganzen Tag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am zweiten Tag machen die Schüler eine Wanderung zu einem Wasserfall.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler sind froh, dass die Klassenfahrt schon nach zwei Tagen endet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend gibt es eine kleine Abschlussfeier.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vereinsfeier-nach-dem-turnier",
+    "nivel": "B1",
+    "titulo": "Die Vereinsfeier nach dem Turnier",
+    "descripcion": "Nach einem spannenden Fußballturnier feiert ein Amateurverein trotz einer Niederlage im Finale gemeinsam.",
+    "texto": "Der SV Grünwald hatte sich monatelang auf das große Amateurturnier vorbereitet. Nachdem die Mannschaft mehrere schwierige Spiele gewonnen hatte, erreichte sie überraschend das Finale. Obwohl viele Spieler nervös waren, spielte das Team konzentriert und kämpferisch bis zur letzten Minute.\n\nAm Ende verlor die Mannschaft das Finale knapp mit einem Tor Unterschied. Trotzdem war die Stimmung im Verein nicht gedrückt, denn alle waren stolz auf die geleistete Arbeit der ganzen Saison. Nachdem der Schiedsrichter das Spiel beendet hatte, gratulierten sich beide Mannschaften gegenseitig auf dem Platz.\n\nAm Abend organisierte der Verein eine große Feier im Vereinsheim. Es gab Musik, Essen und viele Reden, in denen der Trainer die Leistung der Spieler lobte. Obwohl das Team den Pokal nicht gewonnen hatte, waren sich alle einig, dass die gemeinsame Zeit während des Turniers unvergesslich bleiben würde. Manche Spieler sagten sogar, dass die Freundschaften im Team wichtiger seien als der sportliche Erfolg.",
+    "preguntas": [
+      {
+        "enunciado": "Der SV Grünwald gewinnt das Finale des Turniers.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mannschaft verliert das Finale mit einem Tor Unterschied.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Spiel gratulieren sich beide Mannschaften.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verein feiert wegen der Niederlage überhaupt nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Spieler finden die Freundschaften im Team wichtiger als den sportlichen Erfolg.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kurzzeitvermietung-und-wohnungsknappheit",
+    "nivel": "B2",
+    "titulo": "Kurzzeitvermietung und Wohnungsknappheit",
+    "descripcion": "In vielen deutschen Großstädten wird diskutiert, ob Plattformen für Kurzzeitvermietungen die Wohnungsnot verschärfen.",
+    "texto": "In zahlreichen deutschen Großstädten wird seit Jahren über die Auswirkungen von Plattformen für Kurzzeitvermietungen auf den ohnehin angespannten Wohnungsmarkt diskutiert. Während solche Plattformen ursprünglich vor allem für private Untervermietungen während des Urlaubs gedacht waren, werden inzwischen ganze Wohnungen professionell und dauerhaft an Touristen vermietet. Kritiker bemängeln, dass dadurch dem regulären Wohnungsmarkt wertvoller Wohnraum entzogen wird, der eigentlich für langfristig Wohnungssuchende zur Verfügung stehen sollte.\n\nBefürworter der Plattformen argumentieren hingegen, dass viele Vermieter auf die zusätzlichen Einnahmen angewiesen seien, um ihre Wohnung überhaupt finanzieren zu können. Würde man Kurzzeitvermietungen vollständig verbieten, so ihr Argument, verlören zudem zahlreiche Menschen im Tourismussektor ihre wirtschaftliche Grundlage. Zwischen diesen beiden Positionen versuchen Städte wie Berlin und München seit einiger Zeit, mit strengeren Genehmigungspflichten und Obergrenzen für vermietete Tage einen Kompromiss zu finden.\n\nOb solche Regelungen tatsächlich ausreichen, um die angespannte Situation auf dem Wohnungsmarkt zu entschärfen, wird von Experten unterschiedlich bewertet. Manche Stadtplaner sind der Ansicht, dass ohne eine konsequente Kontrolle und empfindliche Strafen bei Verstößen kaum eine spürbare Wirkung zu erwarten sei. Andere wiederum betonen, dass das eigentliche Problem der Wohnungsknappheit nicht durch die Regulierung einzelner Plattformen, sondern nur durch einen deutlich verstärkten Wohnungsbau gelöst werden könne.\n\nSollte sich die Lage auf dem Wohnungsmarkt in den kommenden Jahren nicht entspannen, dürfte der Druck auf die Politik weiter wachsen, sowohl bei der Regulierung von Kurzzeitvermietungen als auch beim Bau neuer, bezahlbarer Wohnungen entschiedener zu handeln.",
+    "preguntas": [
+      {
+        "enunciado": "Plattformen für Kurzzeitvermietungen wurden ursprünglich vor allem für professionelle Dauervermietungen entwickelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen einen Zusammenhang zwischen Kurzzeitvermietungen und fehlendem Wohnraum für langfristig Wohnungssuchende.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass strengere Genehmigungspflichten das Problem vollständig lösen würden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Stadtplaner glauben, dass ohne konsequente Kontrollen kaum eine Wirkung zu erwarten ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text könnte allein durch mehr Wohnungsbau die Wohnungsknappheit gelindert werden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "handyverbot-an-schulen",
+    "nivel": "B2",
+    "titulo": "Handyverbot an Schulen",
+    "descripcion": "Immer mehr Schulen diskutieren ein generelles Handyverbot – die Meinungen dazu gehen weit auseinander.",
+    "texto": "An immer mehr Schulen wird derzeit diskutiert, ob Smartphones während der gesamten Unterrichtszeit verboten werden sollten. Befürworter eines solchen Verbots argumentieren, dass ständige Ablenkungen durch Nachrichten und soziale Netzwerke die Konzentrationsfähigkeit der Schülerinnen und Schüler erheblich beeinträchtigten. Zudem wird auf Studien verwiesen, denen zufolge Klassen mit einem konsequenten Handyverbot bessere schulische Leistungen erzielten als vergleichbare Klassen ohne entsprechende Regelung.\n\nGegner eines pauschalen Verbots wenden hingegen ein, dass Schülerinnen und Schüler den verantwortungsvollen Umgang mit digitalen Geräten erlernen müssten, statt ihn durch ein striktes Verbot zu umgehen. Würde man Smartphones vollständig aus dem Schulalltag verbannen, entginge den Jugendlichen zudem die Möglichkeit, digitale Werkzeuge sinnvoll in den Unterricht einzubinden, etwa bei Recherchen oder digitalen Lernanwendungen. Manche Lehrkräfte berichten außerdem, dass ein generelles Verbot in der Praxis kaum durchsetzbar sei, da Schüler Wege fänden, es zu umgehen.\n\nEinige Bundesländer haben sich bereits für eine gesetzliche Regelung entschieden, nach der private Mobiltelefone während der Unterrichtszeit grundsätzlich weggeschlossen werden müssen. Andere Bundesländer überlassen die Entscheidung weiterhin den einzelnen Schulen, die dann individuelle Hausordnungen erlassen können. Diese uneinheitliche Handhabung wird von manchen Bildungsexperten kritisiert, die sich eine bundesweit einheitliche Regelung wünschen würden.\n\nLosgelöst von der rechtlichen Frage bleibt jedoch unbestritten, dass Schulen einen pädagogischen Umgang mit digitalen Medien vermitteln müssen, der weit über ein einfaches Verbot hinausgeht. Ob ein Handyverbot dabei hilfreich ist oder eher symbolischen Charakter hat, dürfte auch in den kommenden Jahren Gegenstand kontroverser Debatten bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter eines Handyverbots verweisen auf Studien zu besseren schulischen Leistungen ohne Ablenkung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Lehrkräfte sind der Meinung, dass ein Verbot leicht durchsetzbar ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gegner des Verbots befürchten, dass Schüler den sinnvollen Umgang mit digitalen Werkzeugen nicht lernen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In allen Bundesländern gilt bereits eine einheitliche gesetzliche Regelung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht die Debatte über das Handyverbot als bereits abgeschlossen an.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-macht-der-streaming-algorithmen",
+    "nivel": "B2",
+    "titulo": "Die Macht der Streaming-Algorithmen",
+    "descripcion": "Empfehlungsalgorithmen auf Streaming-Plattformen prägen zunehmend, welche Musik und Filme Menschen konsumieren.",
+    "texto": "Ob Musik, Filme oder Serien: Streaming-Plattformen bestimmen mithilfe komplexer Algorithmen zunehmend, welche Inhalte den Nutzerinnen und Nutzern angezeigt werden. Diese Empfehlungssysteme analysieren das bisherige Hör- und Sehverhalten, um Inhalte vorzuschlagen, die den individuellen Vorlieben möglichst genau entsprechen. Kritiker warnen jedoch davor, dass dadurch eine gefährliche kulturelle Verengung entstehen könnte, bei der vor allem bereits erfolgreiche und leicht konsumierbare Werke bevorzugt würden.\n\nBesonders im Musikbereich wird beklagt, dass experimentelle oder nischige Künstlerinnen und Künstler kaum noch eine Chance hätten, von den Algorithmen empfohlen zu werden. Da die Systeme in erster Linie darauf ausgelegt seien, die Nutzer möglichst lange auf der Plattform zu halten, würden risikoreichere und ungewöhnlichere Werke systematisch benachteiligt. Wären die Algorithmen stärker auf kulturelle Vielfalt statt auf reine Nutzerbindung ausgerichtet, so argumentieren manche Kulturwissenschaftler, könnte die Vielfalt des Angebots deutlich zunehmen.\n\nDie Plattformbetreiber selbst weisen solche Vorwürfe größtenteils zurück und verweisen darauf, dass ihre Systeme laufend angepasst würden, um auch unbekannteren Künstlern eine faire Sichtbarkeit zu ermöglichen. Zudem hätten Nutzer weiterhin die Möglichkeit, aktiv nach neuen Inhalten zu suchen, anstatt sich ausschließlich auf automatisierte Empfehlungen zu verlassen. Ob diese Maßnahmen ausreichen, um einer schleichenden kulturellen Vereinheitlichung entgegenzuwirken, bleibt unter Fachleuten umstritten.\n\nLosgelöst von der technischen Debatte stellt sich grundsätzlich die Frage, welchen Einfluss automatisierte Systeme künftig auf unseren kulturellen Geschmack haben sollten. Sollte sich die Abhängigkeit von algorithmischen Empfehlungen weiter verstärken, könnte dies langfristig zu einer spürbaren Homogenisierung dessen führen, was als kulturell relevant wahrgenommen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Streaming-Algorithmen analysieren das bisherige Nutzungsverhalten, um Inhalte zu empfehlen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Algorithmen vor allem experimentelle Werke bevorzugen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Plattformbetreiber weisen die Kritik an ihren Algorithmen größtenteils zurück.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nutzer haben laut Text keine Möglichkeit mehr, selbst aktiv nach neuen Inhalten zu suchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Text herrscht unter Fachleuten völlige Einigkeit über die Wirkung der Maßnahmen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
