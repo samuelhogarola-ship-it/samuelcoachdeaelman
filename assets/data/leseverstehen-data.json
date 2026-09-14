@@ -9170,5 +9170,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-fahrradladen",
+    "nivel": "A1",
+    "titulo": "Im Fahrradladen",
+    "descripcion": "Tom kauft ein neues Fahrrad im Fahrradladen.",
+    "texto": "Tom braucht ein neues Fahrrad. Er geht in den Fahrradladen in der Stadt. Der Verkäufer heißt Herr Weber. Er ist sehr freundlich.\n\n„Ich suche ein Fahrrad für die Stadt\", sagt Tom. Herr Weber zeigt ihm drei Fahrräder. Ein Fahrrad ist blau, ein Fahrrad ist rot und ein Fahrrad ist schwarz. Tom mag die Farbe Rot. Das rote Fahrrad kostet 300 Euro. Tom testet das Fahrrad vor dem Laden. Es fährt sehr gut.\n\nTom kauft das rote Fahrrad. Er bezahlt mit Karte. Herr Weber gibt ihm auch einen Helm. „Ein Helm ist wichtig\", sagt er. Tom bedankt sich und fährt glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Tom kauft ein neues Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer heißt Herr Meyer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom mag die Farbe Blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das rote Fahrrad kostet 300 Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom bekommt keinen Helm.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "zahlen-und-preise",
+    "nivel": "A1",
+    "titulo": "Zahlen und Preise",
+    "descripcion": "Lisa kauft Obst und lernt die Preise auf Deutsch.",
+    "texto": "Lisa geht auf den Markt. Sie kauft Obst und Gemüse. Ein Kilo Äpfel kostet zwei Euro. Eine Banane kostet fünfzig Cent. Lisa kauft drei Bananen und ein Kilo Äpfel.\n\nAn einem anderen Stand gibt es Tomaten. Ein Kilo Tomaten kostet drei Euro. Lisa braucht auch Zwiebeln. Fünf Zwiebeln kosten einen Euro. Die Verkäuferin rechnet alles zusammen. „Das macht zusammen sieben Euro fünfzig\", sagt sie. Lisa bezahlt mit einem Zehn-Euro-Schein.\n\nDie Verkäuferin gibt ihr zwei Euro fünfzig zurück. Lisa zählt das Geld genau. Dann packt sie das Obst und das Gemüse in ihre Tasche. Sie ist zufrieden mit dem Einkauf.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa kauft Obst und Gemüse auf dem Markt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Kilo Äpfel kostet drei Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa kauft fünf Bananen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der ganze Einkauf kostet sieben Euro fünfzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa bezahlt mit einem Zwanzig-Euro-Schein.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "unsere-katze",
+    "nivel": "A1",
+    "titulo": "Unsere Katze",
+    "descripcion": "Die Familie Berger stellt ihre Katze Mimi vor.",
+    "texto": "Die Familie Berger hat eine Katze. Die Katze heißt Mimi. Mimi ist schwarz und weiß. Sie ist noch klein.\n\nMimi schläft sehr viel. Am Tag schläft sie oft zehn Stunden. Sie spielt gern mit einem Ball. Der kleine Sohn Paul spielt jeden Tag mit ihr. Mimi frisst zweimal am Tag. Sie mag Fisch sehr gern. Wasser trinkt sie aus einer kleinen Schüssel.\n\nAbends sitzt Mimi gern auf dem Sofa. Die ganze Familie schaut fern, und Mimi liegt neben ihnen. Paul findet Mimi sehr süß. Die Familie liebt ihre Katze sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Die Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist braun und weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi schläft nur zwei Stunden am Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul spielt jeden Tag mit Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi mag kein Fisch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "brief-an-den-nachbarn",
+    "nivel": "A2",
+    "titulo": "Ein Brief an den Nachbarn",
+    "descripcion": "Frau Klein schreibt ihrem neuen Nachbarn einen freundlichen Brief.",
+    "texto": "Lieber Herr Fischer,\n\nich habe gehört, dass Sie letzte Woche in die Wohnung neben uns eingezogen sind. Ich wollte Ihnen kurz schreiben, weil ich Sie herzlich willkommen heißen möchte. Mein Name ist Sabine Klein, und ich wohne schon seit zehn Jahren in diesem Haus.\n\nAm Samstag habe ich Sie mit vielen Kartons gesehen. Das sieht nach einem anstrengenden Umzug aus! Wenn Sie Hilfe brauchen, können Sie gern bei mir klingeln. Ich kenne die Nachbarschaft sehr gut und kann Ihnen auch Tipps geben, wo man gut einkaufen kann. Letztes Jahr habe ich zum Beispiel einen tollen Bäcker in der Nähe entdeckt.\n\nAm Sonntag findet in unserem Innenhof ein kleines Nachbarschaftsfest statt. Ich würde mich freuen, wenn Sie vorbeikommen. Dort können Sie auch die anderen Nachbarn kennenlernen. Ich hoffe, dass Sie sich schnell bei uns einleben.\n\nHerzliche Grüße,\nSabine Klein",
+    "preguntas": [
+      {
+        "enunciado": "Herr Fischer ist neu in die Nachbarwohnung eingezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine Klein wohnt erst seit einer Woche in dem Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine hat Herrn Fischer beim Umzug mit Kartons gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine kennt keinen guten Bäcker in der Nähe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag gibt es kein Nachbarschaftsfest.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "reise-nach-stuttgart",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Stuttgart",
+    "descripcion": "Jonas erzählt von seiner Zugreise nach Stuttgart.",
+    "texto": "Letzten Monat ist Jonas mit dem Zug nach Stuttgart gefahren. Er wollte seine Cousine besuchen, die dort seit einem Jahr studiert. Die Fahrt hat etwa zwei Stunden gedauert. Jonas hat im Zug ein Buch gelesen und aus dem Fenster geschaut.\n\nAls er in Stuttgart angekommen ist, hat ihn seine Cousine am Bahnhof abgeholt. Zusammen sind sie zuerst zum Schlossplatz gegangen, weil dort gerade ein kleines Straßenfest stattgefunden hat. Es gab Musik, Essen und viele Stände. Am Nachmittag haben sie das Mercedes-Benz-Museum besucht. Jonas fand die alten Autos sehr interessant.\n\nAm Abend hat die Cousine für Jonas gekocht. Sie haben lange über die Universität und über die Familie gesprochen. Jonas hat sich sehr wohl gefühlt, obwohl er die Stadt vorher nicht kannte. Am nächsten Tag ist er wieder mit dem Zug nach Hause gefahren. Er hat versprochen, bald wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist mit dem Auto nach Stuttgart gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zugfahrt hat etwa zwei Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Stuttgart hat ein Straßenfest stattgefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fand das Mercedes-Benz-Museum langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas kannte die Stadt Stuttgart schon sehr gut.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "termin-beim-hautarzt",
+    "nivel": "A2",
+    "titulo": "Ein Termin beim Hautarzt",
+    "descripcion": "Mehmet hat einen Termin beim Hautarzt, weil er einen Ausschlag am Arm hat.",
+    "texto": "Mehmet hat seit ein paar Tagen einen roten Ausschlag am Arm. Weil die Haut juckt, hat er einen Termin beim Hautarzt gemacht. Er ist ein bisschen nervös, weil er noch nie bei diesem Arzt war.\n\nIm Wartezimmer sitzen schon drei andere Patienten. Nach zwanzig Minuten ruft die Arzthelferin seinen Namen. Der Hautarzt, Dr. Sommer, schaut sich den Arm genau an. Er fragt, ob Mehmet neue Kleidung oder eine neue Creme benutzt hat. Mehmet erzählt, dass er vor einer Woche ein neues Waschmittel gekauft hat.\n\nDer Arzt meint, dass das Waschmittel wahrscheinlich der Grund für den Ausschlag ist. Er verschreibt eine Salbe und rät Mehmet, das alte Waschmittel wieder zu benutzen. Wenn der Ausschlag nach einer Woche nicht besser wird, soll Mehmet noch einmal kommen. Mehmet bedankt sich und fühlt sich schon etwas beruhigter.",
+    "preguntas": [
+      {
+        "enunciado": "Mehmet hat Schmerzen im Bein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mehmet war schon oft bei diesem Hautarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt vermutet, dass das neue Waschmittel den Ausschlag verursacht hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mehmet bekommt eine Salbe verschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt sagt, Mehmet soll auf keinen Fall wiederkommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-in-der-neuen-schule",
+    "nivel": "B1",
+    "titulo": "Der erste Tag in der neuen Schule",
+    "descripcion": "Nach dem Umzug in eine neue Stadt beginnt Felix an einer neuen Schule.",
+    "texto": "Nachdem Felix mit seiner Familie in eine neue Stadt gezogen war, musste er auch die Schule wechseln. Am ersten Schultag war er sehr nervös, obwohl seine Eltern versucht hatten, ihn zu beruhigen. Er kannte niemanden in der Klasse, und alle anderen Schüler kannten sich schon seit Jahren.\n\nIn der ersten Pause stand Felix allein auf dem Schulhof, bis ein Mitschüler namens Jonas auf ihn zukam. „Bist du neu hier? Willst du mit uns Fußball spielen?\", fragte Jonas freundlich. Felix war erleichtert und schloss sich der Gruppe an. Trotzdem fühlte er sich am Anfang etwas unsicher, weil er die Regeln der Schule noch nicht kannte. Nach ein paar Stunden hatte er sich aber schon besser eingelebt.\n\nAm Ende des Tages erzählte Felix seinen Eltern, dass der erste Tag gar nicht so schlimm gewesen sei, wie er befürchtet hatte. Er hatte sogar schon zwei neue Freunde gefunden. In den nächsten Wochen freundete sich Felix immer mehr mit seinen neuen Mitschülern an, und die neue Schule fühlte sich langsam wie ein zweites Zuhause an.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist wegen eines Umzugs an eine neue Schule gekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix kannte am ersten Tag schon viele Mitschüler.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat Felix zum Fußballspielen eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix fühlte sich den ganzen Tag über sehr unsicher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des ersten Tages hatte Felix keine neuen Freunde gefunden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wiedersehen-mit-alten-freunden",
+    "nivel": "B1",
+    "titulo": "Ein Wiedersehen mit alten Freunden",
+    "descripcion": "Nach zehn Jahren treffen sich ehemalige Klassenkameraden wieder.",
+    "texto": "Zehn Jahre nachdem sie ihren Schulabschluss gemacht hatten, trafen sich die ehemaligen Klassenkameraden von Nina zu einem Klassentreffen. Nina war zuerst unsicher, ob sie hingehen sollte, weil sie mit vielen von ihnen seit dem Abschluss keinen Kontakt mehr gehabt hatte. Trotzdem entschied sie sich, hinzufahren, weil sie neugierig war, was aus allen geworden war.\n\nAls sie das Restaurant betrat, erkannte sie sofort einige Gesichter, obwohl sich viele ihrer alten Freunde stark verändert hatten. Manche waren mittlerweile verheiratet, andere hatten Kinder oder wohnten inzwischen im Ausland. Nina unterhielt sich lange mit ihrer besten Freundin aus der Schulzeit, Katja, die als Ärztin in Hamburg arbeitete. Es fühlte sich an, als wäre keine Zeit vergangen.\n\nAm Ende des Abends tauschten alle ihre Telefonnummern aus und versprachen, den Kontakt diesmal nicht wieder zu verlieren. Nina fuhr glücklich nach Hause und dachte darüber nach, wie schön es war, alte Freundschaften wiederzubeleben. Sie beschloss, Katja schon in der nächsten Woche zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Klassentreffen fand fünf Jahre nach dem Schulabschluss statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hatte zu allen ehemaligen Mitschülern noch regelmäßigen Kontakt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katja arbeitet als Ärztin in Hamburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Klassenkameraden sahen noch genauso aus wie früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende tauschten die Freunde ihre Telefonnummern aus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-kunstausstellung-in-der-stadthalle",
+    "nivel": "B1",
+    "titulo": "Die Kunstausstellung in der Stadthalle",
+    "descripcion": "Eine lokale Kunstausstellung lockt viele Besucher in die Stadthalle.",
+    "texto": "In der Stadthalle fand am Wochenende eine große Kunstausstellung statt, nachdem monatelang daran gearbeitet worden war. Über zwanzig Künstlerinnen und Künstler aus der Region zeigten ihre Werke: Gemälde, Skulpturen und Fotografien. Obwohl das Wetter an diesem Samstag nicht besonders schön war, kamen viele Besucher, um sich die Ausstellung anzusehen.\n\nSophie, die selbst gern malt, war besonders von den großformatigen Gemälden einer jungen Künstlerin namens Clara beeindruckt. Clara hatte ihre Bilder mit ungewöhnlichen Materialien wie Sand und Stoffresten gestaltet. Sophie sprach lange mit ihr über ihre künstlerische Arbeit, obwohl sie eigentlich nur kurz vorbeischauen wollte. Am Ende kaufte Sophie sogar eines der kleineren Werke für ihre Wohnung.\n\nAm Abend gab es außerdem eine kleine Feier mit Musik und Getränken, zu der alle Künstler und Besucher eingeladen waren. Viele nutzten die Gelegenheit, um sich mit anderen Kunstinteressierten auszutauschen. Trotz des schlechten Wetters war die Ausstellung ein großer Erfolg, und die Organisatoren planen bereits eine ähnliche Veranstaltung für das nächste Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Die Kunstausstellung fand in der Stadthalle statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es waren nur fünf Künstler an der Ausstellung beteiligt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war an diesem Tag sehr schön.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat ein Werk von Clara gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend gab es keine weitere Veranstaltung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "digitale-pruefungen-an-schulen",
+    "nivel": "B2",
+    "titulo": "Digitale Prüfungen an Schulen",
+    "descripcion": "Ein Kommentar zur Einführung digitaler Prüfungen im deutschen Bildungssystem.",
+    "texto": "An immer mehr Schulen in Deutschland werden Prüfungen inzwischen digital durchgeführt, statt sie in der klassischen Form mit Stift und Papier zu schreiben. Befürworter argumentieren, dass digitale Prüfungen zeitgemäßer seien und Schülerinnen und Schüler besser auf eine zunehmend digitalisierte Arbeitswelt vorbereiten würden. Zudem könnten Ergebnisse schneller ausgewertet und individuelles Feedback effizienter gegeben werden.\n\nKritiker hingegen befürchten, dass die technische Ausstattung vieler Schulen nicht ausreiche, um digitale Prüfungen fair und zuverlässig durchzuführen. Sollte es während einer Prüfung zu einem technischen Defekt kommen, wäre nicht immer klar, wie mit den betroffenen Schülerinnen und Schülern umgegangen werden müsste. Auch die Frage der Chancengleichheit wird diskutiert: Nicht jede Familie kann sich ein leistungsfähiges Endgerät leisten, wodurch sozial benachteiligte Kinder benachteiligt werden könnten, wenn die Prüfungsvorbereitung zu Hause am Computer stattfinden müsste.\n\nEin weiterer, häufig diskutierter Aspekt betrifft den Datenschutz. Da bei digitalen Prüfungen sensible Schülerdaten gespeichert und teilweise auf externen Servern verarbeitet werden, fordern Datenschützer strengere gesetzliche Vorgaben. Ohne klare Regelungen, so wird argumentiert, könnte das Vertrauen der Eltern in die neuen Prüfungsformate nachhaltig beschädigt werden.\n\nTrotz dieser Bedenken testen bereits mehrere Bundesländer Pilotprojekte, bei denen digitale Prüfungen in einzelnen Fächern eingeführt wurden. Ob sich das Format langfristig durchsetzen wird, hängt maßgeblich davon ab, ob es gelingt, die technischen und rechtlichen Rahmenbedingungen so zu gestalten, dass alle Schülerinnen und Schüler gleichermaßen davon profitieren können.",
+    "preguntas": [
+      {
+        "enunciado": "Digitale Prüfungen werden bereits an vielen deutschen Schulen erprobt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter digitaler Prüfungen sehen keinen Vorteil bei der Auswertung der Ergebnisse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass nicht alle Schulen technisch ausreichend ausgestattet sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Datenschutz spielt bei der Diskussion um digitale Prüfungen keine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Bundesländer haben digitale Prüfungen bereits flächendeckend eingeführt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mietpreisbremse",
+    "nivel": "B2",
+    "titulo": "Mietpreisbremse: Lösung oder Symbolpolitik?",
+    "descripcion": "Ein Blick auf die umstrittene Wirkung der Mietpreisbremse in deutschen Großstädten.",
+    "texto": "Um den stark steigenden Mieten in deutschen Großstädten entgegenzuwirken, wurde vor einigen Jahren die sogenannte Mietpreisbremse eingeführt. Sie soll verhindern, dass die Miete bei einer Neuvermietung deutlich über der ortsüblichen Vergleichsmiete liegt. In der öffentlichen Debatte wird jedoch kontrovers diskutiert, ob dieses Instrument tatsächlich die gewünschte Wirkung entfaltet oder ob es sich lediglich um Symbolpolitik handelt.\n\nBefürworter der Regelung verweisen darauf, dass ohne die Mietpreisbremse die Mieten in begehrten Stadtteilen noch schneller gestiegen wären. Gäbe es diese gesetzliche Obergrenze nicht, würden sich viele Menschen mit geringem oder mittlerem Einkommen das Wohnen in der Innenstadt schlichtweg nicht mehr leisten können. Auch Mieterverbände fordern, die Regelung weiter zu verschärfen, damit Ausnahmen, etwa bei umfassend sanierten Wohnungen, seltener ausgenutzt werden können.\n\nKritiker hingegen argumentieren, dass die Mietpreisbremse das eigentliche Problem – den Wohnungsmangel – nicht löse, sondern lediglich die Symptome bekämpfe. Wenn Vermieter durch die gedeckelten Mieten weniger Gewinn erzielen könnten, würden sie unter Umständen seltener in die Instandhaltung oder den Neubau von Wohnungen investieren, was langfristig das Angebot sogar verringern könnte. Manche Ökonomen schlagen deshalb vor, stattdessen den sozialen Wohnungsbau massiv auszubauen.\n\nWie stark die Mietpreisbremse tatsächlich zur Entspannung des Wohnungsmarkts beigetragen hat, wird von Wissenschaftlern unterschiedlich bewertet. Einig sind sich die meisten Experten jedoch darin, dass eine einzelne Maßnahme allein die komplexe Wohnungsmarktkrise in deutschen Großstädten nicht lösen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreisbremse soll die Mieten bei einer Neuvermietung begrenzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass die Mietpreisbremse das Wohnungsproblem vollständig gelöst hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Vermieter weniger in Neubau investieren könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mieterverbände fordern, die Mietpreisbremse abzuschaffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Ökonomen schlagen den Ausbau des sozialen Wohnungsbaus vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "algorithmen-und-meinungsbildung",
+    "nivel": "B2",
+    "titulo": "Algorithmen und Meinungsbildung",
+    "descripcion": "Wie soziale Netzwerke durch Algorithmen die öffentliche Meinung beeinflussen.",
+    "texto": "In sozialen Netzwerken bestimmen heute größtenteils Algorithmen, welche Inhalte Nutzerinnen und Nutzern angezeigt werden. Diese Algorithmen wurden ursprünglich entwickelt, um die Nutzungsdauer der Plattformen zu erhöhen, indem sie Beiträge bevorzugen, die besonders viele Reaktionen hervorrufen. Dadurch entsteht jedoch häufig ein verzerrtes Bild der öffentlichen Meinung, da emotional aufgeladene oder polarisierende Inhalte tendenziell stärker verbreitet werden als sachliche Beiträge.\n\nMedienwissenschaftler warnen, dass diese Mechanismen zur Bildung sogenannter Filterblasen beitragen könnten, in denen Nutzer vorwiegend mit Meinungen konfrontiert werden, die ihre eigene Sichtweise bestätigen. Würde man den Algorithmus so verändern, dass auch gegensätzliche Standpunkte gleichberechtigt angezeigt würden, könnte dies zwar theoretisch zu einer ausgewogeneren Debatte führen. In der Praxis wird ein solcher Eingriff jedoch selten umgesetzt, da er dem wirtschaftlichen Interesse der Plattformbetreiber widerspräche.\n\nEin weiteres Problem besteht darin, dass die genaue Funktionsweise vieler Algorithmen von den Unternehmen als Geschäftsgeheimnis behandelt wird. Forscherinnen und Forscher, die die Auswirkungen auf die Meinungsbildung untersuchen möchten, erhalten daher oft nur eingeschränkten Zugang zu den relevanten Daten. Politisch wird deshalb zunehmend gefordert, dass Plattformen zu mehr Transparenz verpflichtet werden sollten, damit unabhängige Studien durchgeführt werden können.\n\nSollte es nicht gelingen, verbindliche Regeln für den Umgang mit solchen Algorithmen zu schaffen, könnte das Vertrauen in demokratische Meinungsbildungsprozesse langfristig weiter untergraben werden. Einige Expertinnen und Experten plädieren daher für eine stärkere Regulierung auf europäischer Ebene, um einheitliche Standards für alle Plattformen zu gewährleisten.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen in sozialen Netzwerken wurden ursprünglich entwickelt, um die Nutzungsdauer zu erhöhen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sachliche Beiträge werden von den Algorithmen meistens stärker bevorzugt als emotionale Inhalte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen können entstehen, wenn Nutzer hauptsächlich ihre eigene Meinung bestätigt sehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Funktionsweise der Algorithmen ist für Forscher meist vollständig frei zugänglich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Experten fordern eine stärkere Regulierung der Plattformen auf europäischer Ebene.",
+        "respuesta": true
+      }
+    ]
   }
 ]
