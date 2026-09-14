@@ -9866,5 +9866,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-moebelgeschaeft",
+    "nivel": "A1",
+    "titulo": "Im Möbelgeschäft",
+    "descripcion": "Anna kauft mit ihrer Mutter einen neuen Schreibtisch.",
+    "texto": "Anna geht mit ihrer Mutter in ein Möbelgeschäft. Sie braucht einen neuen Schreibtisch für ihr Zimmer. Das Geschäft ist sehr groß und hat viele Möbel.\n\nEin Verkäufer zeigt Anna verschiedene Schreibtische. Ein Tisch ist weiß, ein anderer ist braun. Anna mag den weißen Tisch. Er ist nicht zu groß und passt gut in ihr Zimmer.\n\nDie Mutter bezahlt an der Kasse. Der Verkäufer bringt den Tisch zum Auto. Anna freut sich sehr. Sie kann bald an ihrem neuen Schreibtisch lernen.",
+    "preguntas": [
+      {
+        "enunciado": "Anna geht allein ins Möbelgeschäft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna braucht einen neuen Schreibtisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna mag den braunen Tisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter bezahlt an der Kasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer bringt den Tisch mit der Post.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-schwester",
+    "nivel": "A1",
+    "titulo": "Meine Schwester",
+    "descripcion": "Ein Kind erzählt von seiner kleinen Schwester Mia.",
+    "texto": "Ich heiße Paul und habe eine kleine Schwester. Sie heißt Mia und ist fünf Jahre alt. Mia hat lange braune Haare und lacht sehr gern.\n\nMia spielt jeden Tag mit ihren Puppen. Sie malt auch gern bunte Bilder. Am liebsten isst sie Nudeln mit Tomatensauce. Ich helfe ihr manchmal beim Anziehen.\n\nAm Abend liest unsere Mutter Mia eine Geschichte vor. Mia schläft dann schnell ein. Ich mag meine kleine Schwester sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Mia ist die kleine Schwester von Paul.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia ist zehn Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia spielt gern mit Puppen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia isst am liebsten Suppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater liest Mia am Abend eine Geschichte vor.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-musikgeschaeft",
+    "nivel": "A1",
+    "titulo": "Im Musikgeschäft",
+    "descripcion": "Tom möchte eine Gitarre kaufen und probiert Instrumente aus.",
+    "texto": "Tom liebt Musik und möchte eine Gitarre kaufen. Er geht mit seinem Vater in ein Musikgeschäft in der Stadt. Dort gibt es viele Gitarren, Trommeln und Keyboards.\n\nEin Verkäufer zeigt Tom eine kleine rote Gitarre. Tom probiert sie aus und spielt ein einfaches Lied. Die Gitarre klingt sehr schön. Sie kostet nicht viel Geld.\n\nDer Vater kauft die Gitarre für Tom. Tom ist sehr glücklich. Zu Hause übt er jeden Tag eine halbe Stunde.",
+    "preguntas": [
+      {
+        "enunciado": "Tom möchte ein Keyboard kaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom geht mit seinem Vater ins Musikgeschäft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gitarre ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater kauft die Gitarre für Tom.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom übt jeden Tag eine halbe Stunde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "besuch-beim-orthopaeden",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Orthopäden",
+    "descripcion": "Jan hat sich beim Fußball verletzt und muss zum Orthopäden gehen.",
+    "texto": "Jan hat sich letzte Woche beim Fußballspielen das Knie verletzt. Weil die Schmerzen nicht besser geworden sind, hat seine Mutter einen Termin beim Orthopäden gemacht. Am Montag sind sie zusammen in die Praxis gefahren.\n\nDer Arzt hat das Knie genau untersucht und ein Röntgenbild gemacht. Er hat gesagt, dass nichts gebrochen ist. Trotzdem soll Jan zwei Wochen keinen Sport machen und das Bein hochlegen. Jan war traurig, weil er nicht mit seiner Mannschaft trainieren durfte.\n\nNach zwei Wochen ist Jan noch einmal zur Kontrolle gegangen. Der Arzt hat gesagt, dass das Knie wieder gesund ist. Jan hat sich sehr gefreut und ist am nächsten Tag wieder zum Training gegangen.",
+    "preguntas": [
+      {
+        "enunciado": "Jan hat sich beim Schwimmen verletzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat ein Röntgenbild gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jans Knie war gebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jan durfte sofort wieder Fußball spielen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Kontrolle war das Knie wieder gesund.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-der-nachbarn",
+    "nivel": "A2",
+    "titulo": "Der Umzug der Nachbarn",
+    "descripcion": "Familie Bauer erzählt, wie sich ihre alten Nachbarn verabschiedet haben.",
+    "texto": "Letzten Monat sind unsere Nachbarn, Familie Krause, in eine andere Stadt gezogen. Herr Krause hat eine neue Arbeitsstelle in Leipzig bekommen, deshalb musste die Familie umziehen. Wir haben uns gefreut, dass sie uns vorher zu einem Abschiedsfest eingeladen haben.\n\nAm Samstag haben wir den ganzen Nachmittag zusammen im Garten gefeiert. Es gab Kuchen, Salate und kalte Getränke. Die Kinder haben zusammen gespielt, obwohl sie traurig waren, weil sie sich lange nicht mehr sehen werden.\n\nAm Sonntag ist der Umzugswagen gekommen. Wir haben beim Tragen der Kisten geholfen. Zum Abschied haben wir Adressen ausgetauscht, damit wir uns weiter schreiben können.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Krause ist nach Leipzig gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Krause hat seine Arbeit verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Abschiedsfest hat am Sonntag stattgefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben zusammen gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat beim Umzug geholfen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "brief-an-den-onkel",
+    "nivel": "A2",
+    "titulo": "Ein Brief an den Onkel",
+    "descripcion": "Lisa schreibt ihrem Onkel in Kanada einen Brief über ihre Ferien.",
+    "texto": "Lisa hat ihrem Onkel Peter, der vor drei Jahren nach Kanada ausgewandert ist, einen langen Brief geschrieben. Sie hat erzählt, dass sie ihre Sommerferien bei den Großeltern auf dem Land verbracht hat.\n\nIn dem Brief hat Lisa berichtet, dass sie jeden Morgen mit dem Fahrrad zum See gefahren ist. Dort hat sie mit anderen Kindern gebadet und Eis gegessen. Weil das Wetter fast immer schön war, sind sie oft draußen geblieben.\n\nAm Ende des Briefes hat Lisa gefragt, wann ihr Onkel sie wieder besuchen kommt. Sie hat geschrieben, dass sie sich sehr auf ein Wiedersehen freut. Zwei Wochen später hat sie eine Antwort aus Kanada bekommen.",
+    "preguntas": [
+      {
+        "enunciado": "Onkel Peter wohnt in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa hat ihre Ferien in der Stadt verbracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa ist jeden Morgen zum See gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war meistens schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa hat keine Antwort bekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-betriebsrat",
+    "nivel": "B1",
+    "titulo": "Der Betriebsrat und die neuen Arbeitszeiten",
+    "descripcion": "In einer Firma diskutieren Mitarbeiter über flexible Arbeitszeiten.",
+    "texto": "In der Firma, in der Sabine arbeitet, hat der Betriebsrat vorgeschlagen, die Arbeitszeiten flexibler zu gestalten. Nachdem die Geschäftsführung monatelang gezögert hatte, wurde das neue Modell endlich zur Abstimmung gestellt. Viele Mitarbeiter waren begeistert, weil sie sich schon lange mehr Freiheit bei der Zeiteinteilung gewünscht hatten.\n\nObwohl einige ältere Kollegen skeptisch waren, stimmte die Mehrheit für das neue Modell. Ab sofort dürfen die Angestellten zwischen sieben und zehn Uhr mit der Arbeit beginnen, solange sie ihre Stunden erfüllen. Sabine freut sich besonders darüber, weil sie ihren Sohn nun morgens selbst zur Schule bringen kann.\n\nTrotzdem gibt es auch Kritik: Manche befürchten, dass die Zusammenarbeit zwischen den Abteilungen schwieriger wird, wenn nicht mehr alle zur gleichen Zeit im Büro sind. Der Betriebsrat hat deshalb vorgeschlagen, das neue Modell nach einem halben Jahr noch einmal zu bewerten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Betriebsrat hat flexiblere Arbeitszeiten vorgeschlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Mitarbeiter waren sofort begeistert, ohne Zweifel zu haben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Angestellten dürfen jetzt zwischen sieben und zehn Uhr beginnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine ärgert sich über das neue Modell.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt keine Kritik an dem neuen Modell.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-schulball",
+    "nivel": "B1",
+    "titulo": "Die Vorbereitung auf den Schulball",
+    "descripcion": "Eine Schulklasse organisiert gemeinsam ihren Abschlussball.",
+    "texto": "Nachdem die Abiturprüfungen endlich vorbei waren, begann die Klasse von Herrn Weber mit der Planung des Schulballs. Jeder Schüler übernahm eine Aufgabe: Manche kümmerten sich um die Dekoration, andere organisierten die Musik oder das Essen.\n\nObwohl die Zeit knapp war, schafften es die Schüler, in nur drei Wochen alles vorzubereiten. Finanziell wurde der Ball durch einen Kuchenverkauf und Spenden der Eltern unterstützt. Trotzdem mussten einige Schüler zusätzlich Geld sammeln, weil der Saal teurer war als geplant.\n\nAm Abend des Schulballs waren alle aufgeregt. Die Halle war festlich geschmückt, und eine Band spielte bis Mitternacht. Nachdem der letzte Tanz vorbei war, waren sich alle einig, dass sich die viele Arbeit gelohnt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Planung begann vor den Abiturprüfungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jeder Schüler übernahm eine eigene Aufgabe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Ball wurde nur von den Schülern selbst bezahlt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend spielte eine Band bis Mitternacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler fanden am Ende, dass sich die Arbeit nicht gelohnt hat.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-repair-cafe",
+    "nivel": "B1",
+    "titulo": "Ein Nachmittag im Repair-Café",
+    "descripcion": "Markus bringt einen kaputten Toaster zu einem Reparatur-Treffen in seiner Stadt.",
+    "texto": "In Markus' Stadtteil gibt es seit einem Jahr ein Repair-Café, in dem ehrenamtliche Helfer kaputte Geräte reparieren. Nachdem sein alter Toaster nicht mehr funktioniert hatte, beschloss Markus, ihn dorthin zu bringen, anstatt einen neuen zu kaufen.\n\nIm Café trafen sich Menschen jeden Alters, die alle etwas repariert haben wollten. Ein pensionierter Elektriker half Markus dabei, das Problem am Toaster zu finden. Obwohl die Reparatur zunächst kompliziert aussah, war das Kabel am Ende nur locker. Nach zwanzig Minuten funktionierte der Toaster wieder einwandfrei.\n\nMarkus war beeindruckt davon, wie viel Wissen die Helfer hatten und wie freundlich die Atmosphäre war. Er hat beschlossen, beim nächsten Treffen selbst als Helfer mitzumachen, weil er gerne anderen Menschen zeigen möchte, wie man Dinge repariert, statt sie wegzuwerfen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Repair-Café gibt es schon seit zehn Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat seinen kaputten Toaster mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein pensionierter Elektriker hat Markus geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Problem am Toaster war sehr kompliziert zu lösen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus möchte nicht mehr ins Repair-Café gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kinderrechte-in-der-digitalen-welt",
+    "nivel": "B2",
+    "titulo": "Kinderrechte in der digitalen Welt",
+    "descripcion": "Ein Essay über den Schutz von Kindern in sozialen Netzwerken und digitalen Spielen.",
+    "texto": "Kinder wachsen heute in einer Welt auf, in der digitale Medien von klein auf zum Alltag gehören. Während frühere Generationen erst im Jugendalter mit dem Internet in Berührung kamen, nutzen viele Kinder heute bereits im Grundschulalter Tablets, soziale Netzwerke und Online-Spiele. Diese frühe Konfrontation mit der digitalen Welt wirft die Frage auf, wie die Rechte von Kindern in diesem Bereich wirksam geschützt werden können.\n\nKritiker bemängeln, dass viele auf Kinder ausgerichtete Apps und Spiele so gestaltet werden, dass sie möglichst lange Aufmerksamkeit binden, ohne Rücksicht auf pädagogische Aspekte zu nehmen. Persönliche Daten von Kindern würden dabei oft gesammelt und ausgewertet, obwohl die Betroffenen die Konsequenzen eines solchen Umgangs mit ihren Daten gar nicht einschätzen könnten. Wenn strengere Regeln eingeführt würden, müssten Unternehmen ihre Angebote grundlegend überarbeiten.\n\nBefürworter eines stärkeren Kinderschutzes fordern deshalb verpflichtende Altersverifikationen sowie eine Kennzeichnungspflicht für algorithmisch gesteuerte Inhalte, die gezielt an junge Nutzer gerichtet sind. Es wäre wünschenswert, wenn Eltern und Schulen gemeinsam mehr Medienkompetenz vermittelten, damit Kinder lernen, digitale Angebote kritisch zu hinterfragen. Andere hingegen warnen davor, dass zu strenge Vorschriften Kinder von wichtigen digitalen Bildungschancen ausschließen könnten.\n\nLetztlich wird die Debatte zeigen, ob es gelingt, einen Mittelweg zwischen Schutz und Teilhabe zu finden. Klar ist jedoch, dass die digitale Welt für die kommenden Generationen eine ebenso große Verantwortung mit sich bringt wie die reale.",
+    "preguntas": [
+      {
+        "enunciado": "Frühere Generationen kamen bereits im Grundschulalter mit dem Internet in Kontakt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass manche Apps möglichst lange Aufmerksamkeit binden sollen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass strengere Regeln keine Nachteile hätten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter fordern unter anderem verpflichtende Altersverifikationen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte über Kinderrechte im Netz gilt bereits als abgeschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "laermbelastung-in-staedten",
+    "nivel": "B2",
+    "titulo": "Lärmbelastung in Städten – Wenn Ruhe zum Luxus wird",
+    "descripcion": "Ein Artikel über wachsenden Verkehrslärm und seine Folgen für die Gesundheit der Stadtbevölkerung.",
+    "texto": "In vielen europäischen Großstädten hat der Lärmpegel in den letzten Jahrzehnten stetig zugenommen. Verkehr, Baustellen und eine wachsende Bevölkerungsdichte sorgen dafür, dass echte Stille für viele Stadtbewohner zu einem seltenen Gut geworden ist. Studien zeigen, dass dauerhafter Lärm nicht nur als lästig empfunden wird, sondern auch ernsthafte gesundheitliche Folgen haben kann, etwa Schlafstörungen, erhöhten Blutdruck und ein gesteigertes Risiko für Herz-Kreislauf-Erkrankungen.\n\nBesonders betroffen sind Menschen, die in der Nähe stark befahrener Straßen oder Flughäfen wohnen und sich eine teurere, ruhigere Wohnung oft nicht leisten können. Kritiker sprechen deshalb von einer sozialen Dimension des Lärmproblems: Wer wenig verdient, wird überdurchschnittlich häufig lärmbelasteten Wohnlagen zugewiesen, während wohlhabendere Haushalte in ruhigeren Vierteln leben können. Wenn diese Ungleichheit nicht angegangen würde, drohe sich die gesundheitliche Kluft zwischen Arm und Reich weiter zu vertiefen.\n\nAls mögliche Lösungen werden strengere Grenzwerte für den Straßenverkehr, mehr Tempo-30-Zonen sowie eine bessere Schallisolierung bei Neubauten diskutiert. Einige Städte haben bereits begonnen, verkehrsberuhigte Zonen auszuweiten und den Ausbau des Radverkehrs zu fördern, um den motorisierten Verkehr zu reduzieren. Es wird jedoch bezweifelt, ob solche Maßnahmen ausreichen, solange das allgemeine Verkehrsaufkommen weiter steigt.\n\nLangfristig, so betonen Stadtplaner, müsse Ruhe als eine Art öffentliches Gut begriffen werden, das allen Bewohnern gleichermaßen zustehen sollte, unabhängig von ihrem Einkommen. Nur durch ein Zusammenspiel aus Stadtplanung, Verkehrspolitik und Bauvorschriften könne es gelingen, Städte lebenswerter zu gestalten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Lärmpegel in Großstädten ist in den letzten Jahrzehnten gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Dauerhafter Lärm kann laut Studien zu Schlafstörungen führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Einkommensgruppen sind laut Kritikern gleich stark von Lärm betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Städte haben verkehrsberuhigte Zonen ausgeweitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Stadtplaner sehen im Verkehrslärm kein gesellschaftliches Problem.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-rueckkehr-des-vinyls",
+    "nivel": "B2",
+    "titulo": "Die Rückkehr des Vinyls – Nostalgie oder echte Musikkultur?",
+    "descripcion": "Eine Betrachtung des wachsenden Interesses an Schallplatten im Streaming-Zeitalter.",
+    "texto": "Obwohl Musik heute fast ausschließlich über Streaming-Dienste konsumiert wird, erlebt die Schallplatte seit einigen Jahren ein bemerkenswertes Comeback. In vielen Innenstädten eröffnen wieder Plattenläden, und selbst große Handelsketten haben Vinyl-Abteilungen in ihr Sortiment aufgenommen. Für viele überrascht diese Entwicklung, schließlich schien das analoge Format mit dem Aufkommen der CD und später des Streamings endgültig überholt zu sein.\n\nBefürworter der Schallplatte führen häufig den warmen, authentischen Klang als Hauptgrund für ihre Begeisterung an. Zudem wird das bewusste Musikhören betont: Wer eine Platte auflegt, entscheide sich für ein Album als Ganzes, anstatt einzelne Songs beliebig zu überspringen, wie es beim Streaming üblich sei. Auch das haptische Erlebnis – das große Cover, das Auspacken, das vorsichtige Handling der Platte – spiele für viele Fans eine wichtige Rolle, die sich digital kaum ersetzen lasse.\n\nKritiker hingegen sehen in dem Trend vor allem ein Nostalgiephänomen, das von der Musikindustrie geschickt vermarktet werde. Es sei fraglich, ob junge Käufer die Platten tatsächlich abspielten oder sie eher als Sammlerstück und Ausdruck eines bestimmten Lebensstils erwürben. Wäre der Klang wirklich entscheidend, so argumentieren manche, müssten hochwertige digitale Formate ausreichen, die technisch sogar präziser seien als eine Schallplatte.\n\nUnabhängig davon, ob man den Trend als echte kulturelle Rückbesinnung oder als geschicktes Marketing betrachtet, zeigt der Erfolg der Schallplatte, dass viele Menschen im digitalen Zeitalter nach greifbaren, sinnlichen Erfahrungen suchen, die ihnen der Bildschirm allein nicht bieten kann.",
+    "preguntas": [
+      {
+        "enunciado": "Schallplatten sind mittlerweile fast vollständig vom Markt verschwunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter schätzen unter anderem den authentischen Klang der Vinyl-Platten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim Streaming hören laut Text alle Nutzer immer ein ganzes Album am Stück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker vermuten, dass junge Käufer die Platten oft nicht wirklich abspielen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu dem eindeutigen Schluss, dass der Vinyl-Trend reines Marketing ist.",
+        "respuesta": false
+      }
+    ]
   }
 ]
