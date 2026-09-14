@@ -8822,5 +8822,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-baecker",
+    "nivel": "A1",
+    "titulo": "Der Bäcker",
+    "descripcion": "Anna kauft am Morgen Brötchen beim Bäcker.",
+    "texto": "Anna steht früh auf. Sie geht zum Bäcker in der Straße. Der Bäcker heißt Herr Wolf. Er backt jeden Tag frisches Brot.\n\nAnna kauft drei Brötchen und ein Vollkornbrot. Die Brötchen sind warm und riechen gut. Ein Brötchen kostet vierzig Cent. Anna bezahlt und sagt „Danke schön“.\n\nZu Hause isst Anna ein Brötchen mit Butter und Marmelade. Sie trinkt ein Glas Milch dazu. Das Frühstück schmeckt sehr gut.",
+    "preguntas": [
+      {
+        "enunciado": "Anna geht zum Bäcker.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bäcker heißt Herr Meyer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna kauft drei Brötchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Brötchen kostet einen Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna trinkt Kaffee zum Frühstück.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsbuch",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsbuch",
+    "descripcion": "Paul erzählt von seinem Lieblingsbuch über Tiere.",
+    "texto": "Paul liest gern Bücher. Sein Lieblingsbuch heißt „Der kleine Bär“. Das Buch hat viele bunte Bilder. Paul liest es jeden Abend vor dem Schlafen.\n\nIn dem Buch lebt ein kleiner Bär im Wald. Der Bär hat drei Freunde: einen Fuchs, einen Hasen und einen Vogel. Zusammen erleben sie viele Abenteuer.\n\nPaul leiht das Buch oft seiner Schwester Mia. Mia mag die Geschichte auch sehr. Am liebsten liest Paul das Buch mit seinem Papa zusammen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul liest gern Bücher.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Buch heißt „Der kleine Bär“.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bär hat drei Freunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia mag das Buch nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul liest das Buch nie mit seinem Papa.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-zoobesuch",
+    "nivel": "A1",
+    "titulo": "Ein Besuch im Zoo",
+    "descripcion": "Die Familie Berger besucht am Sonntag den Zoo.",
+    "texto": "Am Sonntag fährt die Familie Berger in den Zoo. Der Zoo ist groß und hat viele Tiere. Die Kinder Tim und Lisa sind sehr aufgeregt.\n\nZuerst sehen sie die Elefanten. Die Elefanten sind sehr groß und grau. Dann gehen sie zu den Affen. Die Affen klettern schnell auf die Bäume.\n\nZum Mittagessen isst die Familie Pommes und trinkt Saft. Am Nachmittag sehen sie noch die Löwen. Tim findet die Löwen am schönsten. Lisa mag die Affen lieber.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger fährt am Sonntag in den Zoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder heißen Tim und Lisa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Elefanten sind klein und rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst zu Mittag Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim mag die Löwen am schönsten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "reise-nach-regensburg",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Regensburg",
+    "descripcion": "Familie Hoffmann hat ein Wochenende in Regensburg verbracht.",
+    "texto": "Familie Hoffmann ist am Freitag nach Regensburg gefahren. Sie haben ein kleines Hotel in der Altstadt gebucht, weil sie zu Fuß alles erreichen wollten. Die Altstadt von Regensburg ist sehr alt und hat viele schöne Gassen.\n\nAm Samstag sind sie über die Steinerne Brücke gegangen. Herr Hoffmann hat erzählt, dass die Brücke schon über achthundert Jahre alt ist. Danach haben sie im Dom eine Führung gemacht. Die Kinder fanden die bunten Fenster im Dom besonders schön.\n\nAm Abend haben sie in einem Restaurant am Fluss gegessen. Frau Hoffmann hat gesagt, dass sie bald wieder nach Regensburg fahren möchte, wenn sie Zeit haben. Die Reise war für die ganze Familie ein schönes Erlebnis.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Hoffmann ist nach Regensburg gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben ein Hotel außerhalb der Stadt gebucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Steinerne Brücke ist über achthundert Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder fanden den Dom langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben am Abend an einem Fluss gegessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kindergeburtstag",
+    "nivel": "A2",
+    "titulo": "Ein Kindergeburtstag im Park",
+    "descripcion": "Familie Krüger hat den Geburtstag von Ben im Park gefeiert.",
+    "texto": "Ben ist letzte Woche sieben Jahre alt geworden. Weil das Wetter so schön war, haben seine Eltern den Geburtstag im Park gefeiert. Sie haben Luftballons aufgehängt und einen großen Tisch mit Kuchen aufgebaut.\n\nZehn Kinder aus Bens Klasse sind gekommen. Sie haben zusammen Fußball gespielt und ein Versteckspiel gemacht. Ein Kind hat sich beim Rennen das Knie aufgeschürft, aber es war zum Glück nicht schlimm.\n\nAm Ende der Feier hat Ben seine Geschenke ausgepackt. Er hat sich am meisten über ein neues Fahrrad gefreut. Bens Mutter hat gesagt, dass sie den Geburtstag im nächsten Jahr wieder im Park feiern will, wenn das Wetter mitspielt.",
+    "preguntas": [
+      {
+        "enunciado": "Ben ist acht Jahre alt geworden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Feier war im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zehn Kinder sind zur Feier gekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kein Kind hat sich verletzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben hat sich über ein Fahrrad gefreut.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-regenschirm",
+    "nivel": "A2",
+    "titulo": "Der verlorene Regenschirm",
+    "descripcion": "Frau Lang hat ihren Regenschirm im Bus vergessen.",
+    "texto": "Frau Lang ist gestern mit dem Bus in die Stadt gefahren. Weil es stark geregnet hat, hatte sie ihren neuen Regenschirm dabei. Als sie am Marktplatz ausgestiegen ist, hat sie den Schirm leider im Bus vergessen.\n\nErst zu Hause hat sie gemerkt, dass der Regenschirm fehlt. Sie hat sofort beim Fundbüro angerufen, weil sie den Schirm sehr mochte. Der Mitarbeiter hat gesagt, dass sie es am nächsten Tag noch einmal versuchen soll.\n\nAm nächsten Morgen ist Frau Lang zum Fundbüro gegangen. Zu ihrer Freude war der Regenschirm dort abgegeben worden. Sie war sehr glücklich, dass ein ehrlicher Fahrgast ihn gefunden hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Lang ist mit dem Fahrrad in die Stadt gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat den Regenschirm im Bus vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hat sofort im Bus gemerkt, dass der Schirm fehlt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Regenschirm wurde im Fundbüro abgegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Lang hat ihren Schirm nie wiederbekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarschafts-app",
+    "nivel": "B1",
+    "titulo": "Die Nachbarschafts-App",
+    "descripcion": "Ein Bericht darüber, wie eine App das Zusammenleben in der Nachbarschaft verändert.",
+    "texto": "In vielen Städten nutzen Nachbarn inzwischen eine App, um sich gegenseitig zu helfen. Über die App können Menschen Werkzeuge ausleihen, Einkäufe erledigen oder einfach Fragen zu ihrem Viertel stellen. Obwohl viele Menschen anfangs skeptisch waren, hat sich die App in kurzer Zeit als sehr nützlich erwiesen.\n\nFrau Baumann aus Leipzig hat die App zum ersten Mal genutzt, nachdem ihr Nachbar krank geworden war. Sie hat für ihn eingekauft und ihm Medikamente gebracht. Obwohl sie sich vorher kaum kannten, sind die beiden inzwischen gute Bekannte geworden. Solche Geschichten hört man in letzter Zeit immer öfter.\n\nKritiker weisen allerdings darauf hin, dass nicht jeder Zugang zu einem Smartphone hat. Ältere Menschen ohne Internet bleiben von diesem Angebot oft ausgeschlossen. Trotzdem sind sich die meisten Experten einig, dass digitale Nachbarschaftshilfe eine sinnvolle Ergänzung zum persönlichen Kontakt sein kann.",
+    "preguntas": [
+      {
+        "enunciado": "Über die App können Nachbarn sich gegenseitig helfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Menschen waren von Anfang an begeistert von der App.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Baumann hat für ihren kranken Nachbarn eingekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ältere Menschen ohne Internet haben keine Probleme mit der App.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten halten digitale Nachbarschaftshilfe für sinnvoll.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-als-rettungsschwimmer",
+    "nivel": "B1",
+    "titulo": "Ein Tag als Rettungsschwimmer",
+    "descripcion": "Jonas berichtet von einem ereignisreichen Tag als Rettungsschwimmer im Freibad.",
+    "texto": "Jonas arbeitet seit diesem Sommer als Rettungsschwimmer im Freibad seiner Stadt. Nachdem er im Frühling einen Erste-Hilfe-Kurs gemacht hatte, durfte er die Prüfung für den Rettungsschwimmerausweis ablegen. Er hat die Prüfung bestanden, obwohl er vorher sehr nervös war.\n\nAn einem heißen Samstag war das Freibad besonders voll. Ein kleiner Junge geriet im tiefen Becken plötzlich in Not, weil er zu weit hinausgeschwommen war. Jonas sprang sofort ins Wasser und brachte den Jungen sicher ans Ufer. Die Eltern des Jungen bedankten sich mehrmals bei ihm.\n\nNach diesem Vorfall wurde Jonas von seinem Chef gelobt. Trotzdem war er selbst noch tagelang aufgeregt, wenn er an die Situation dachte. Für ihn steht seitdem fest, dass er auch im nächsten Sommer wieder als Rettungsschwimmer arbeiten möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat im Frühling einen Erste-Hilfe-Kurs gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist bei der Prüfung durchgefallen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Junge geriet im flachen Becken in Not.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat den Jungen gerettet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas möchte nie wieder als Rettungsschwimmer arbeiten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-mitfahrgelegenheit",
+    "nivel": "B1",
+    "titulo": "Die Mitfahrgelegenheit",
+    "descripcion": "Laura erzählt von einer langen Autofahrt mit fremden Mitfahrern.",
+    "texto": "Laura wollte am Wochenende ihre Familie besuchen, hatte aber kein eigenes Auto. Deshalb hat sie im Internet eine Mitfahrgelegenheit gesucht und einen Fahrer gefunden, der in dieselbe Richtung fuhr. Obwohl sie den Fahrer vorher nicht kannte, hat sie sich für die Fahrt entschieden, weil der Preis sehr günstig war.\n\nIm Auto saßen außer Laura noch zwei weitere Mitfahrer. Nachdem sich alle kurz vorgestellt hatten, entstand schnell ein lockeres Gespräch. Sie sprachen über ihre Jobs, ihre Reisen und sogar über ihre Lieblingsmusik. Die vier Stunden Fahrt vergingen dadurch viel schneller, als Laura erwartet hatte.\n\nAls sie am Ziel ankamen, tauschten alle ihre Telefonnummern aus. Obwohl sie sich wahrscheinlich nie wiedersehen werden, war es für Laura eine angenehme Erfahrung. Sie überlegt jetzt, ob sie öfter Mitfahrgelegenheiten nutzen soll, weil es sowohl günstig als auch gesellig ist.",
+    "preguntas": [
+      {
+        "enunciado": "Laura hatte ein eigenes Auto für die Fahrt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Auto saßen insgesamt vier Personen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mitfahrer haben während der Fahrt nicht miteinander gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt hat vier Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura fand die Fahrt unangenehm.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "online-handel-vs-einzelhandel",
+    "nivel": "B2",
+    "titulo": "Online-Handel und stationärer Einzelhandel – Wer gewinnt den Kampf um die Kunden?",
+    "descripcion": "Eine Analyse des Wandels im Einzelhandel durch das Wachstum des Online-Handels.",
+    "texto": "In den vergangenen Jahren hat sich das Einkaufsverhalten vieler Menschen grundlegend verändert. Immer mehr Produkte werden online bestellt, während in zahlreichen Innenstädten Geschäfte schließen müssen. Besonders kleine, inhabergeführte Läden können mit den niedrigen Preisen und der Bequemlichkeit großer Online-Plattformen kaum mithalten.\n\nBefürworter des stationären Handels argumentieren, dass persönliche Beratung und das direkte Einkaufserlebnis nicht durch einen Bildschirm ersetzt werden könnten. Wenn Innenstädte weiter veröden würden, ginge damit auch ein Stück sozialer Begegnungsraum verloren, den Online-Shops nicht bieten können. Manche Städte versuchen daher, mit vergünstigten Mieten oder verkehrsberuhigten Zonen Kunden zurück in die Innenstädte zu locken.\n\nAuf der anderen Seite wird argumentiert, dass der Online-Handel auch neue Chancen eröffne, etwa für kleine Anbieter, die ohne eigenes Ladengeschäft überregional verkaufen können. Ein Modegeschäft aus Münster hat beispielsweise berichtet, dass es nur durch den zusätzlichen Online-Shop wirtschaftlich überleben konnte, nachdem die Umsätze im Laden stark zurückgegangen waren.\n\nOb sich beide Modelle künftig ergänzen oder der stationäre Handel weiter zurückgedrängt wird, bleibt ungewiss. Sicher ist jedoch, dass Innenstädte sich verändern müssen, wenn sie auch in Zukunft attraktiv bleiben sollen. Es wird viel davon abhängen, ob es gelingt, Einkaufen wieder zu einem Erlebnis zu machen, das über den reinen Kauf einer Ware hinausgeht.",
+    "preguntas": [
+      {
+        "enunciado": "Das Einkaufsverhalten hat sich in den letzten Jahren kaum verändert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kleine Läden haben oft Schwierigkeiten, mit Online-Plattformen zu konkurrieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass der stationäre Handel bald verschwinden wird.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Modegeschäft aus Münster konnte dank eines Online-Shops überleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu einem eindeutigen Ergebnis, welches Modell gewinnen wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "suffizienz-statt-wachstum",
+    "nivel": "B2",
+    "titulo": "Suffizienz statt Wachstum – Brauchen wir weniger, um mehr zu haben?",
+    "descripcion": "Ein Text über das Konzept der Suffizienz als Alternative zu ständigem Wirtschaftswachstum.",
+    "texto": "Während die klassische Wirtschaftspolitik seit Jahrzehnten auf stetiges Wachstum setzt, gewinnt ein anderes Konzept zunehmend an Bedeutung: die Suffizienz. Anders als Effizienz, bei der es darum geht, mit weniger Ressourcen dieselbe Leistung zu erzielen, stellt die Suffizienz die grundsätzliche Frage, wie viel Konsum eigentlich nötig ist, um gut zu leben.\n\nAnhänger dieses Ansatzes argumentieren, dass unbegrenztes Wachstum auf einem Planeten mit begrenzten Ressourcen langfristig nicht möglich sei. Wenn jeder Mensch so viel konsumieren würde wie ein durchschnittlicher Bewohner Mitteleuropas, wären mehrere Erden nötig, um den Bedarf zu decken. Suffizienz bedeute deshalb nicht Verzicht im negativen Sinn, sondern eine bewusste Entscheidung für weniger, aber dafür bewussteren Konsum.\n\nKritiker wenden jedoch ein, dass ein solches Umdenken kaum freiwillig geschehen werde, solange wirtschaftlicher Erfolg weiterhin an Wachstumszahlen gemessen werde. Auch stelle sich die Frage, wie soziale Gerechtigkeit gewahrt bleiben könne, wenn insgesamt weniger produziert und konsumiert würde. Ärmere Bevölkerungsgruppen dürften nicht diejenigen sein, die am Ende die Lasten eines solchen Wandels tragen müssten.\n\nTrotz dieser offenen Fragen setzen inzwischen einige Kommunen erste Suffizienzprojekte um, etwa durch Reparaturcafés oder gemeinschaftlich genutzte Werkzeuge. Ob daraus ein gesamtgesellschaftlicher Wandel entstehen kann, wird sich erst in den kommenden Jahrzehnten zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Suffizienz bedeutet dasselbe wie Effizienz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anhänger der Suffizienz meinen, dass unbegrenztes Wachstum auf Dauer nicht möglich ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass ärmere Menschen von einem solchen Wandel benachteiligt werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kommunen haben Suffizienzprojekte bereits vollständig umgesetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, die Frage sei bereits eindeutig beantwortet.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "doomscrolling-und-mentale-gesundheit",
+    "nivel": "B2",
+    "titulo": "Doomscrolling – Wenn Nachrichtenkonsum zur Belastung wird",
+    "descripcion": "Ein Artikel über das Phänomen des Doomscrollings und seine Auswirkungen auf die Psyche.",
+    "texto": "Kaum eine Krise vergeht, ohne dass Millionen Menschen stundenlang schlechte Nachrichten auf ihrem Smartphone verfolgen. Dieses Verhalten wird inzwischen als „Doomscrolling“ bezeichnet: das zwanghafte Weiterscrollen durch negative Schlagzeilen, obwohl man dabei kaum noch neue Informationen erhält. Psychologen beobachten seit einigen Jahren, dass dieses Muster immer mehr Menschen betrifft.\n\nUntersuchungen deuten darauf hin, dass exzessiver Nachrichtenkonsum mit erhöhtem Stress, Schlafproblemen und einem allgemeinen Gefühl der Hilflosigkeit zusammenhängen kann. Wenn Nutzer ständig mit Krisenmeldungen konfrontiert würden, verstärke sich häufig der Eindruck, die Welt bestehe nur noch aus Katastrophen. Dabei würde ein differenzierterer Blick auf die Nachrichtenlage oft ein ausgewogeneres Bild zeichnen.\n\nInteressanterweise wird Doomscrolling von vielen Betroffenen selbst als problematisch empfunden, ohne dass sie ihr Verhalten ändern könnten. Eine Journalistin aus Hamburg berichtete, dass sie sich morgens vornehme, keine Nachrichten mehr vor dem Frühstück zu lesen, dieses Vorhaben aber fast täglich scheitere. Solche Berichte zeigen, wie stark die sozialen Medien und Nachrichten-Apps mittlerweile in den Alltag eingebunden sind.\n\nExperten empfehlen deshalb feste Zeiten für den Nachrichtenkonsum sowie bewusste Pausen ohne Smartphone. Würde dies konsequent umgesetzt, könnte laut mehreren Studien nicht nur der Stresspegel sinken, sondern auch die allgemeine Zufriedenheit steigen. Ob sich dieser Rat im digitalen Alltag durchsetzen lässt, bleibt jedoch fraglich.",
+    "preguntas": [
+      {
+        "enunciado": "Doomscrolling bezeichnet das ständige Lesen negativer Nachrichten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zeigen, dass exzessiver Nachrichtenkonsum keinerlei Auswirkungen auf die Psyche hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Journalistin aus Hamburg schafft es jeden Tag, keine Nachrichten vor dem Frühstück zu lesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten empfehlen feste Zeiten für den Nachrichtenkonsum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem sei bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
   }
 ]
