@@ -9518,5 +9518,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "in-der-apotheke",
+    "nivel": "A1",
+    "titulo": "In der Apotheke",
+    "descripcion": "Lena hat Kopfschmerzen und geht in die Apotheke.",
+    "texto": "Lena hat Kopfschmerzen. Sie geht in die Apotheke in ihrer Straße. Die Apotheke ist blau und weiß. Über der Tür ist ein großes rotes Zeichen.\n\nIn der Apotheke ist eine Frau. Sie heißt Frau Berger und ist die Apothekerin. Lena sagt: „Guten Tag, ich habe Kopfschmerzen. Haben Sie Tabletten?\" Frau Berger nickt und holt eine kleine Packung aus dem Regal.\n\nLena bezahlt drei Euro fünfzig. Frau Berger sagt: „Trinken Sie viel Wasser und ruhen Sie sich aus.\" Lena bedankt sich und geht nach Hause. Zu Hause trinkt sie ein Glas Wasser und legt sich ins Bett.",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat Kopfschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Apotheke ist gelb.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger ist die Apothekerin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena bezahlt zehn Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena geht nach der Apotheke ins Kino.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-kindergarten",
+    "nivel": "A1",
+    "titulo": "Im Kindergarten",
+    "descripcion": "Paul erzählt von einem Tag in seinem Kindergarten.",
+    "texto": "Paul ist vier Jahre alt. Jeden Morgen geht er in den Kindergarten. Seine Erzieherin heißt Frau Klein. Sie ist sehr nett.\n\nIm Kindergarten spielt Paul mit seinen Freunden. Sie bauen einen Turm aus Bausteinen und malen bunte Bilder. Um zwölf Uhr gibt es Mittagessen. Heute gibt es Nudeln mit Tomatensoße. Das schmeckt Paul sehr gut.\n\nAm Nachmittag schlafen die Kinder eine Stunde. Danach spielen sie im Garten. Paul schaukelt gern und rutscht die Rutsche hinunter. Um vier Uhr holt Pauls Mama ihn ab. Paul erzählt ihr vom Turm aus Bausteinen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist vier Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Klein ist Pauls Mutter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt Nudeln mit Tomatensoße zum Mittagessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder schlafen am Vormittag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Papa holt ihn ab.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "waschtag",
+    "nivel": "A1",
+    "titulo": "Waschtag",
+    "descripcion": "Frau Wagner macht am Samstag die Wäsche.",
+    "texto": "Heute ist Samstag, und Frau Wagner macht die Wäsche. Sie sammelt die schmutzigen Kleider aus allen Zimmern. Die Wäsche liegt in einem großen Korb.\n\nFrau Wagner steckt die Kleider in die Waschmaschine. Sie gibt Waschmittel dazu und drückt auf den Knopf. Die Maschine wäscht eine Stunde lang. Danach hängt Frau Wagner die nasse Wäsche auf die Leine im Garten.\n\nDie Sonne scheint, und der Wind weht. Am Abend ist die Wäsche trocken. Frau Wagner faltet die Kleider zusammen und legt sie in den Schrank. Ihre Tochter Mia hilft ihr dabei.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Wagner macht am Samstag die Wäsche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wäsche ist im Kühlschrank.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Waschmaschine wäscht eine Stunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Wagner hängt die Wäsche in die Küche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hilft ihrer Mutter nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-ins-planetarium",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug ins Planetarium",
+    "descripcion": "Eine Schulklasse besucht das Planetarium und lernt viel über das Weltall.",
+    "texto": "Am Samstag ist die Klasse von Herrn Bauer ins Planetarium gefahren, weil sie im Unterricht gerade das Thema Weltall besprechen. Die Schüler waren sehr aufgeregt, denn die meisten von ihnen waren noch nie in einem Planetarium gewesen. Schon am Eingang haben sie ein großes Modell der Sonne gesehen, das fast bis zur Decke reichte.\n\nIm großen Saal haben sich alle in bequeme Sessel gesetzt und nach oben geschaut. Auf der runden Decke sind plötzlich tausende Sterne erschienen. Ein Mitarbeiter hat erklärt, dass man an einem klaren Abend viele dieser Sterne auch mit bloßem Auge sehen kann. Die Schüler haben auch etwas über die Planeten unseres Sonnensystems gelernt und waren besonders von den Ringen des Saturns beeindruckt.\n\nNach der Vorführung durften die Schüler noch Fragen stellen. Lisa hat gefragt, ob es auf dem Mars Leben gibt, und der Mitarbeiter hat gelacht und gesagt, dass Wissenschaftler das noch nicht sicher wissen. Als die Klasse wieder in der Schule ankam, haben viele Kinder erzählt, dass sie jetzt Astronaut werden möchten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist ins Planetarium gefahren, weil sie im Unterricht das Thema Weltall behandeln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Eingang haben die Schüler ein Modell des Mondes gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler haben sich in Sessel gesetzt und nach oben geschaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Mitarbeiter hat gesagt, dass es sicher Leben auf dem Mars gibt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Ausflug wollten einige Kinder Astronaut werden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-autopanne-auf-der-autobahn",
+    "nivel": "A2",
+    "titulo": "Die Autopanne auf der Autobahn",
+    "descripcion": "Familie Hoffmann hat auf dem Weg zur Tante eine Autopanne.",
+    "texto": "Familie Hoffmann ist am Sonntag zu ihrer Tante nach Kassel gefahren. Sie waren erst eine halbe Stunde unterwegs, als plötzlich ein lautes Geräusch aus dem Motor kam. Herr Hoffmann ist sofort auf den Seitenstreifen gefahren, weil das Auto langsamer wurde und Rauch aus der Motorhaube kam.\n\nDie Familie ist ausgestiegen und hat hinter der Leitplanke gewartet, während Herr Hoffmann den Pannendienst angerufen hat. Nach vierzig Minuten ist ein gelbes Auto mit einem großen Kran gekommen. Der Mechaniker hat das Auto untersucht und gesagt, dass ein Schlauch am Motor kaputt war. Zum Glück konnte er den Schaden schnell reparieren.\n\nWeil die Reparatur länger gedauert hat als geplant, ist die Familie erst am Abend bei der Tante angekommen. Die Kinder waren müde, aber die Tante hatte schon ein warmes Abendessen vorbereitet. Herr Hoffmann hat erzählt, dass er froh war, dass niemand verletzt wurde.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Hoffmann wollte zu ihrer Tante nach Kassel fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Auto ist wegen eines Reifenschadens langsamer geworden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Pannendienst ist nach zehn Minuten gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Mechaniker hat den Schaden repariert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie ist pünktlich am Nachmittag angekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-als-babysitter",
+    "nivel": "A2",
+    "titulo": "Ein Tag als Babysitter",
+    "descripcion": "Sophie passt zum ersten Mal auf die kleine Emma auf.",
+    "texto": "Sophie ist siebzehn Jahre alt und passt heute zum ersten Mal auf die kleine Emma auf. Emmas Eltern sind am Abend ins Kino gegangen, und Sophie ist um sechs Uhr bei der Familie angekommen. Emma ist vier Jahre alt und war am Anfang ein bisschen schüchtern.\n\nZuerst haben Sophie und Emma zusammen gespielt und ein Puzzle gemacht. Danach hat Sophie das Abendessen gekocht, weil Emmas Mutter es ihr aufgeschrieben hatte. Es gab Kartoffelbrei mit Würstchen, und Emma hat alles aufgegessen. Nach dem Essen hat Sophie Emma gebadet und ihr ein Buch vorgelesen.\n\nEmma ist um acht Uhr eingeschlafen, aber sie ist mitten in der Nacht aufgewacht, weil sie einen Albtraum hatte. Sophie ist sofort zu ihr gegangen und hat sie beruhigt. Als die Eltern um elf Uhr nach Hause kamen, hat Sophie erzählt, dass alles gut gelaufen ist. Emmas Mutter war sehr dankbar und hat Sophie gefragt, ob sie nächste Woche wiederkommen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie passt zum ersten Mal auf Emma auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma ist sechs Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat Emma vor dem Essen gebadet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma ist in der Nacht wegen eines Albtraums aufgewacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emmas Mutter möchte Sophie nicht mehr einladen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "toepferkurs-am-wochenende",
+    "nivel": "B1",
+    "titulo": "Ein Töpferkurs am Wochenende",
+    "descripcion": "Julia entdeckt beim Töpfern ein neues Hobby für sich.",
+    "texto": "Nachdem Julia monatelang nach einem neuen Hobby gesucht hatte, hat sie sich schließlich für einen Töpferkurs in der Volkshochschule angemeldet. Obwohl sie noch nie zuvor mit Ton gearbeitet hatte, war sie am ersten Kurstag voller Vorfreude. Der Kursleiter, ein erfahrener Keramikmeister namens Herr Novak, hat den Teilnehmern zunächst gezeigt, wie man den Ton richtig knetet, bevor man ihn auf die Töpferscheibe legt.\n\nDie ersten Versuche waren für Julia frustrierend, weil ihre Schale immer wieder in sich zusammenfiel. Trotzdem hat sie nicht aufgegeben und weiter geübt. Nach der dritten Stunde hatte sie endlich den Dreh raus und konnte eine kleine, gleichmäßige Tasse formen. Die anderen Teilnehmer haben sie dafür gelobt, und Julia hat gemerkt, wie stolz sie auf ihr Ergebnis war.\n\nAm Ende des Kurses durften alle ihre fertigen Werke mit nach Hause nehmen, nachdem die Stücke im Brennofen gehärtet worden waren. Julia hat ihre Tasse ihrer Mutter geschenkt, die sich riesig gefreut hat. Obwohl der Kurs anstrengender war, als Julia gedacht hatte, möchte sie im nächsten Semester unbedingt einen Aufbaukurs besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hatte vor dem Kurs schon viel Erfahrung mit Ton.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kursleiter heißt Herr Novak.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julias erste Versuche sind ihr sofort gelungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat ihre Tasse ihrer Mutter geschenkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia möchte keinen weiteren Kurs mehr besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-erste-reise-ohne-eltern",
+    "nivel": "B1",
+    "titulo": "Die erste Reise ohne Eltern",
+    "descripcion": "Tim und sein bester Freund reisen zum ersten Mal ohne ihre Eltern nach Amsterdam.",
+    "texto": "Als Tim sechzehn wurde, hat er seine Eltern gefragt, ob er mit seinem besten Freund Jonas allein nach Amsterdam fahren darf. Obwohl seine Mutter am Anfang skeptisch war, hat sie nach langen Gesprächen schließlich zugestimmt. Tim und Jonas haben monatelang gespart und die Reise sorgfältig geplant, damit nichts schiefgehen konnte.\n\nNachdem sie mit dem Zug angekommen waren, haben die beiden ihre Jugendherberge gesucht und dabei gemerkt, dass die Stadt größer war, als sie gedacht hatten. Trotzdem haben sie sich schnell zurechtgefunden und sind mit dem Fahrrad durch die Straßen gefahren, wie es die meisten Einwohner Amsterdams tun. Sie haben Museen besucht, an einem Kanal ein Eis gegessen und neue Leute aus verschiedenen Ländern kennengelernt.\n\nAm dritten Tag hat Tim sein Portemonnaie verloren, was ihn zunächst sehr erschreckt hat. Zum Glück hatte Jonas noch genug Geld für die restliche Reise, und ein freundlicher Herbergsmitarbeiter hat Tim geholfen, seine Bankkarte sperren zu lassen. Als die beiden nach einer Woche nach Hause zurückkamen, waren sie stolz darauf, dass sie die Reise trotz der kleinen Panne allein gemeistert hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Tims Mutter war sofort mit der Reise einverstanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim und Jonas sind mit dem Zug nach Amsterdam gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Amsterdam sind sie hauptsächlich mit dem Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat unterwegs sein Portemonnaie verloren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden mussten die Reise abbrechen und früher nach Hause fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wettbewerb-im-schulorchester",
+    "nivel": "B1",
+    "titulo": "Der Wettbewerb im Schulorchester",
+    "descripcion": "Nora und ihr Schulorchester bereiten sich auf einen wichtigen Wettbewerb vor.",
+    "texto": "Seit einem Jahr spielt Nora Geige im Schulorchester, und in diesem Frühling nimmt die Gruppe zum ersten Mal an einem regionalen Wettbewerb teil. Obwohl die Proben jeden Dienstag und Donnerstag stattfinden, hat der Dirigent, Herr Albrecht, in den letzten Wochen zusätzliche Termine am Wochenende eingeführt, damit das Stück perfekt klingt.\n\nNachdem das Orchester monatelang an einer schwierigen Sinfonie geübt hatte, war die Aufregung vor dem Wettbewerbstag riesig. Nora hatte sogar Bauchschmerzen, bevor sie auf die Bühne ging, obwohl sie den Part inzwischen im Schlaf spielen konnte. Als die Musik begann, verschwand ihre Nervosität jedoch schnell, und sie konnte sich ganz auf das Zusammenspiel mit den anderen konzentrieren.\n\nAm Ende des Tages hat das Schulorchester den zweiten Platz belegt, was alle überrascht hat, weil viele erfahrenere Schulen ebenfalls teilgenommen hatten. Herr Albrecht war so stolz auf seine Schüler, dass er ihnen spontan eine Pizzaparty organisiert hat. Nora hat beschlossen, dass sie auch im nächsten Jahr wieder beim Wettbewerb mitmachen möchte, trotzdem findet sie, dass sie noch viel üben muss.",
+    "preguntas": [
+      {
+        "enunciado": "Nora spielt seit einem Jahr Geige im Schulorchester.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Proben finden nur einmal pro Woche statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nora war vor dem Auftritt völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Orchester hat den ersten Platz gewonnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Albrecht hat nach dem Wettbewerb eine Pizzaparty organisiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-und-urheberrecht",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz und Urheberrecht",
+    "descripcion": "Generative KI-Systeme stellen das klassische Urheberrecht vor neue Herausforderungen.",
+    "texto": "Seit generative KI-Systeme Texte, Bilder und Musik in beeindruckender Qualität erzeugen können, wird eine grundlegende Frage des Urheberrechts neu aufgeworfen: Wem gehört ein Werk, das von einer Maschine geschaffen wurde? Die meisten dieser Systeme wurden mit riesigen Mengen an Daten trainiert, die aus dem Internet gesammelt wurden – oft ohne dass die ursprünglichen Urheber davon wussten oder ihre Zustimmung gegeben hätten. Künstler und Autoren beklagen deshalb, dass ihre Werke genutzt würden, um Konkurrenzprodukte zu erschaffen, die ihnen wirtschaftlich schaden könnten.\n\nBefürworter der Technologie argumentieren hingegen, dass das Training von KI-Modellen mit dem menschlichen Lernprozess vergleichbar sei: Auch ein Maler lasse sich von den Werken anderer inspirieren, ohne dafür eine Lizenz erwerben zu müssen. Kritiker halten diesen Vergleich jedoch für unzureichend, da eine KI in Sekunden tausende Stile imitieren kann, was einem einzelnen Menschen niemals möglich wäre. Würde man das geltende Urheberrecht unverändert lassen, befürchten viele Kreative, dass ihre wirtschaftliche Existenz langfristig bedroht wäre.\n\nIn der Europäischen Union wird derzeit diskutiert, ob Unternehmen verpflichtet werden sollten, offenzulegen, mit welchen Daten ihre Modelle trainiert wurden. Eine solche Transparenzpflicht würde es Urhebern zumindest ermöglichen, nachzuvollziehen, ob ihre Werke verwendet wurden. Manche Experten schlagen zudem ein Vergütungssystem vor, bei dem Urheber automatisch entschädigt würden, sobald ihre Inhalte für kommerzielle KI-Anwendungen genutzt werden.\n\nOb eine solche Regelung tatsächlich durchsetzbar wäre, bleibt allerdings fraglich, denn die Trainingsdaten stammen häufig von Servern außerhalb Europas. Klar ist jedoch, dass die Debatte weit über technische Fragen hinausgeht: Es geht letztlich darum, wie eine Gesellschaft den Wert menschlicher Kreativität in einer zunehmend automatisierten Welt definieren will.",
+    "preguntas": [
+      {
+        "enunciado": "Generative KI-Systeme wurden ausschließlich mit Daten trainiert, für die eine Lizenz erworben wurde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker halten den Vergleich zwischen KI-Training und menschlichem Lernen für unzureichend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der EU wird über eine Transparenzpflicht für Trainingsdaten diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass eine Vergütungspflicht problemlos durchsetzbar wäre.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die Debatte nur technische Fragen betrifft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "buergerhaushalt-mitbestimmung",
+    "nivel": "B2",
+    "titulo": "Der Bürgerhaushalt – Mitbestimmung auf kommunaler Ebene",
+    "descripcion": "Immer mehr Städte lassen Bürger über einen Teil des öffentlichen Budgets mitentscheiden.",
+    "texto": "In immer mehr deutschen Städten können Bürgerinnen und Bürger mitentscheiden, wofür ein Teil des städtischen Budgets ausgegeben wird. Dieses Verfahren, das als Bürgerhaushalt bezeichnet wird, soll die Distanz zwischen Verwaltung und Bevölkerung verringern und demokratische Teilhabe im Alltag erlebbar machen. Üblicherweise können Einwohner Vorschläge einreichen, über die anschließend online oder auf Versammlungen abgestimmt wird, bevor der Stadtrat die Ergebnisse in den endgültigen Haushalt aufnimmt.\n\nBefürworter des Modells betonen, dass Bürger oft ein genaueres Gespür dafür hätten, welche lokalen Probleme dringend gelöst werden müssten, als es Verwaltungsangestellte aus der Distanz beurteilen könnten. So würden in vielen Städten Projekte wie neue Spielplätze, sicherere Fahrradwege oder Grünflächen finanziert, die sonst möglicherweise nie priorisiert worden wären. Zudem berichten Kommunen, dass die Wahlbeteiligung bei lokalen Themen steige, wenn Bürger unmittelbar über ihr eigenes Wohnumfeld mitbestimmen dürften.\n\nAllerdings wird das Verfahren auch kritisiert. Skeptiker bemängeln, dass sich meist nur eine kleine, ohnehin schon politisch aktive Gruppe an den Abstimmungen beteilige, während die Mehrheit der Bevölkerung außen vor bleibe. Wäre die Beteiligung repräsentativer, so argumentieren manche Politikwissenschaftler, müsste man verpflichtende Losverfahren einführen, bei denen zufällig ausgewählte Bürger eingeladen werden, anstatt sich allein auf Freiwillige zu verlassen. Andere befürchten zudem, dass komplexe Investitionsentscheidungen, etwa im Bereich der Infrastruktur, von Laien kaum sachgerecht bewertet werden könnten.\n\nTrotz dieser Kritik setzen immer mehr Kommunen auf Bürgerhaushalte, weil sie sich davon langfristig mehr Vertrauen in die lokale Politik erhoffen. Ob dieses Vertrauen tatsächlich wächst, lässt sich bislang nur schwer belegen, doch viele Verantwortliche sind überzeugt, dass die direkte Beteiligung der Bevölkerung ein wichtiger Schritt hin zu einer lebendigeren Demokratie sei.",
+    "preguntas": [
+      {
+        "enunciado": "Beim Bürgerhaushalt entscheiden Bürger über einen Teil des städtischen Budgets mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass sich vor allem eine kleine, politisch aktive Gruppe beteiligt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bürger nehmen gleichermaßen und in großer Zahl an den Abstimmungen teil.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Politikwissenschaftler schlagen Losverfahren vor, um die Beteiligung repräsentativer zu machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text zeigt, dass alle Kommunen den Bürgerhaushalt inzwischen wieder abgeschafft haben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "long-covid-und-die-arbeitswelt",
+    "nivel": "B2",
+    "titulo": "Long Covid und die Arbeitswelt",
+    "descripcion": "Long-Covid-Erkrankte stehen im Berufsleben vor besonderen Herausforderungen.",
+    "texto": "Mehrere Jahre nach Beginn der Corona-Pandemie leiden immer noch tausende Menschen in Deutschland an den Folgen einer Long-Covid-Erkrankung. Zu den häufigsten Symptomen zählen extreme Erschöpfung, Konzentrationsstörungen und eine verringerte körperliche Belastbarkeit, die selbst Monate nach der eigentlichen Infektion anhalten können. Für viele Betroffene bedeutet dies, dass sie ihren Beruf nicht mehr in vollem Umfang ausüben können, obwohl sie äußerlich gesund wirken.\n\nBesonders schwierig gestaltet sich die Situation für Arbeitnehmer, deren Erkrankung von Vorgesetzten oder Kollegen nicht ernst genommen wird. Da Long Covid von außen oft unsichtbar bleibt, berichten Betroffene häufig, dass ihnen Faulheit unterstellt werde, wenn sie um reduzierte Arbeitszeiten oder Homeoffice-Regelungen bitten. Arbeitsmediziner fordern deshalb, dass Unternehmen flexiblere Modelle wie ein stufenweises Wiedereingliederungsprogramm anbieten sollten, damit Erkrankte langsam und ohne Überforderung in den Berufsalltag zurückfinden könnten.\n\nAuch die Sozialversicherungssysteme stehen vor neuen Herausforderungen, da die Diagnose Long Covid nicht immer eindeutig gestellt werden kann und die Anerkennung als Berufskrankheit in vielen Fällen noch strittig ist. Ohne eine klare gesetzliche Regelung müssten Betroffene oft langwierige rechtliche Auseinandersetzungen führen, um Unterstützung zu erhalten. Wäre die Forschung zu Long Covid weiter fortgeschritten, ließe sich vermutlich leichter feststellen, welche Behandlungen tatsächlich wirksam sind.\n\nExperten sind sich einig, dass die Arbeitswelt insgesamt lernen muss, besser mit unsichtbaren chronischen Erkrankungen umzugehen. Nur wenn Unternehmen bereit wären, individuelle Lösungen anzubieten, anstatt starr an alten Arbeitszeitmodellen festzuhalten, könnten Betroffene langfristig wieder ein erfülltes Berufsleben führen.",
+    "preguntas": [
+      {
+        "enunciado": "Long Covid ist für Außenstehende meistens sofort sichtbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Betroffene berichten, dass ihnen Faulheit unterstellt wird.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Arbeitsmediziner fordern flexiblere Wiedereingliederungsmodelle für Erkrankte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Anerkennung von Long Covid als Berufskrankheit ist in allen Fällen eindeutig geklärt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text zeigt, dass die Arbeitswelt bereits vollständig auf Long-Covid-Betroffene eingestellt ist.",
+        "respuesta": false
+      }
+    ]
   }
 ]
