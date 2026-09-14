@@ -10214,5 +10214,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-park-mit-der-familie",
+    "nivel": "A1",
+    "titulo": "Im Park mit der Familie",
+    "descripcion": "Die Familie Berger verbringt einen schönen Nachmittag im Park.",
+    "texto": "Die Familie Berger geht am Nachmittag in den Park. Die Sonne scheint, und der Himmel ist blau. Papa trägt einen Ball, und Mama trägt eine Picknickdecke. Die Kinder Lisa und Tom laufen schnell voraus.\n\nIm Park gibt es einen großen Spielplatz. Lisa spielt auf der Schaukel, und Tom klettert auf das Klettergerüst. Mama legt die Decke unter einen Baum. Papa spielt mit dem Ball und wirft ihn zu den Kindern.\n\nNach dem Spielen essen alle zusammen Brote und Äpfel. Die Kinder trinken Wasser, und Mama trinkt einen Tee. „Der Park ist so schön!“, sagt Lisa. Die Familie bleibt bis zum Abend im Park.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger geht am Morgen in den Park.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa spielt auf der Schaukel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Papa legt die Picknickdecke unter einen Baum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst Brote und Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie bleibt nur zehn Minuten im Park.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsspielzeug",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsspielzeug",
+    "descripcion": "Ein Kind erzählt von seinem Lieblingsspielzeug, einem roten Roboter.",
+    "texto": "Ich heiße Paul und ich bin sieben Jahre alt. Mein Lieblingsspielzeug ist ein roter Roboter. Der Roboter heißt Max und er hat blaue Augen. Ich spiele jeden Tag mit Max.\n\nMax kann laufen und er macht lustige Geräusche. Am Abend steht Max auf meinem Regal. Mein Bruder Ben hat auch ein Lieblingsspielzeug. Sein Spielzeug ist ein grünes Auto.\n\nManchmal spielen Ben und ich zusammen. Max und das grüne Auto fahren durch das Zimmer. Das macht uns sehr viel Spaß. Am liebsten spiele ich am Wochenende mit meinem Roboter.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist sieben Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Roboter heißt Max.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max hat grüne Augen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bens Lieblingsspielzeug ist ein Buch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul spielt am liebsten am Wochenende mit Max.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-grosseltern",
+    "nivel": "A1",
+    "titulo": "Meine Großeltern",
+    "descripcion": "Ein Kind stellt seine Großeltern Opa Karl und Oma Erna vor.",
+    "texto": "Meine Großeltern heißen Karl und Erna. Opa Karl ist siebzig Jahre alt, und Oma Erna ist achtundsechzig Jahre alt. Sie wohnen in einem kleinen Haus mit einem großen Garten.\n\nOpa Karl arbeitet gern im Garten. Er pflanzt Tomaten und Blumen. Oma Erna backt sehr gern Kuchen. Ihr Apfelkuchen schmeckt fantastisch. Am Sonntag besuche ich meine Großeltern oft.\n\nWir sitzen zusammen im Garten und essen Kuchen. Opa Karl erzählt lustige Geschichten. Oma Erna zeigt mir die Blumen. Ich liebe meine Großeltern sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Opa Karl ist siebzig Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma Erna ist älter als Opa Karl.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa Karl pflanzt Tomaten im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma Erna backt keinen Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Kind besucht die Großeltern oft am Sonntag.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-reise-nach-bonn",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Bonn",
+    "descripcion": "Julia hat am Wochenende eine Reise nach Bonn gemacht und die Stadt entdeckt.",
+    "texto": "Julia ist am Samstag mit dem Zug nach Bonn gefahren, weil sie die Stadt schon lange besuchen wollte. Die Fahrt hat nur zwei Stunden gedauert. Als sie am Bahnhof angekommen ist, hat die Sonne geschienen, und Julia hat sich sehr gefreut.\n\nZuerst ist Julia zum Rheinufer gegangen und hat dort einen Kaffee getrunken. Danach hat sie das Beethoven-Haus besucht, weil sie Musik sehr mag. Im Museum hat sie viel über den berühmten Komponisten gelernt. Anschließend ist sie durch die Altstadt geschlendert und hat kleine Geschäfte entdeckt.\n\nAm Abend hat Julia in einem netten Restaurant gegessen. Sie hat ihrer Freundin geschrieben, dass Bonn eine wirklich schöne Stadt ist. Wenn sie wieder Zeit hat, möchte sie noch einmal nach Bonn fahren.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit dem Auto nach Bonn gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zugfahrt hat zwei Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat das Beethoven-Haus besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia mag keine Musik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia möchte noch einmal nach Bonn fahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-im-naturkundemuseum",
+    "nivel": "A2",
+    "titulo": "Ein Besuch im Naturkundemuseum",
+    "descripcion": "Tim und seine Schwester haben das Naturkundemuseum besucht und viel über Dinosaurier gelernt.",
+    "texto": "Am Mittwoch haben Tim und seine Schwester Mia das Naturkundemuseum besucht, weil Tim sich sehr für Dinosaurier interessiert. Ihre Mutter hat die Eintrittskarten schon am Morgen gekauft. Als die Kinder das Museum betreten haben, haben sie sofort ein riesiges Skelett gesehen.\n\nEin freundlicher Museumsführer hat den Kindern erklärt, dass die Dinosaurier vor Millionen von Jahren gelebt haben. Mia hat viele Fragen gestellt, weil sie alles genau wissen wollte. Danach haben sie eine Ausstellung über Insekten und eine über Mineralien besucht.\n\nAm Ende des Besuchs haben Tim und Mia im Museumsshop ein Buch über Dinosaurier gekauft. Sie haben ihrem Vater erzählt, dass der Ausflug sehr spannend war. Wenn sie Zeit haben, wollen sie das Museum bald wieder besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Tim interessiert sich für Dinosaurier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben keine Fragen gestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Museumsführer hat den Kindern etwas über Dinosaurier erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben nichts im Museumsshop gekauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ausflug war laut Tim und Mia spannend.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-flug-nach-mallorca",
+    "nivel": "A2",
+    "titulo": "Der Flug nach Mallorca",
+    "descripcion": "Familie Weber ist in den Sommerurlaub nach Mallorca geflogen und hat einige Abenteuer erlebt.",
+    "texto": "Familie Weber ist am Freitag früh zum Flughafen gefahren, weil ihr Flug nach Mallorca um neun Uhr gestartet ist. Die Kinder waren sehr aufgeregt, weil es ihr erster Flug war. Am Flughafen haben sie lange auf das Boarding gewartet.\n\nDer Flug hat fast drei Stunden gedauert. Als das Flugzeug gelandet ist, hat die Sonne schon sehr stark geschienen. Herr Weber hat ein Mietauto abgeholt, und die Familie ist zum Hotel in der Nähe des Strandes gefahren. Die Kinder haben sich gefreut, dass das Hotel einen Pool hatte.\n\nAm nächsten Tag sind sie an den Strand gegangen und haben im Meer gebadet. Frau Weber hat gesagt, dass der Urlaub genau das war, was die Familie gebraucht hat. Wenn das Wetter so schön bleibt, wollen sie jeden Tag zum Strand gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Flug nach Mallorca ist um neun Uhr gestartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es war nicht der erste Flug der Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Hotel hatte keinen Pool.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie ist am Strand baden gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Weber war mit dem Urlaub unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-abend-im-freilichttheater",
+    "nivel": "B1",
+    "titulo": "Ein Abend im Freilichttheater",
+    "descripcion": "Sophie besucht mit Freunden eine Theateraufführung unter freiem Himmel und erlebt einen unvergesslichen Abend.",
+    "texto": "Nachdem Sophie von einem Freilichttheater in ihrer Stadt gehört hatte, beschloss sie, mit ein paar Freunden eine Vorstellung zu besuchen. Obwohl der Wetterbericht Regen angesagt hatte, entschieden sie sich, die Karten trotzdem zu kaufen. Am Abend der Vorstellung war der Himmel zum Glück klar, und die Freunde machten sich voller Vorfreude auf den Weg.\n\nDas Theater befand sich in einem alten Park, in dem die Zuschauer auf Decken und Stühlen saßen. Die Schauspieler führten ein modernes Stück auf, das von einer Familie in einer Großstadt erzählte. Obwohl das Stück ernste Themen behandelte, gab es auch viele komische Momente, die das Publikum zum Lachen brachten. Sophie war besonders von der Bühne beeindruckt, die mitten im Grünen aufgebaut war.\n\nNachdem die Vorstellung zu Ende war, blieben Sophie und ihre Freunde noch lange sitzen und sprachen über das Stück. Trotzdem es schon spät war, wollten sie den Abend nicht beenden und gingen anschließend noch in ein kleines Café. Sophie war sich sicher, dass sie im nächsten Sommer wieder ein Freilichttheater besuchen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wetterbericht hatte für den Abend Regen angesagt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Vorstellung fand in einem Park statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Stück behandelte nur ernste Themen ohne komische Momente.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie und ihre Freunde gingen sofort nach der Vorstellung nach Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie möchte im nächsten Sommer wieder ein Freilichttheater besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "klassenfahrt-an-die-ostsee",
+    "nivel": "B1",
+    "titulo": "Klassenfahrt an die Ostsee",
+    "descripcion": "Eine Schulklasse verbringt eine Woche an der Ostsee und erlebt dabei Höhen und Tiefen.",
+    "texto": "Nachdem die Klasse 9b monatelang für die Klassenfahrt gespart hatte, ging es endlich an die Ostsee. Obwohl die Busfahrt fast sechs Stunden dauerte, war die Stimmung im Bus gut, da alle Schüler sich schon lange auf die Reise gefreut hatten. Am Zielort wartete eine kleine Jugendherberge direkt am Strand auf die Gruppe.\n\nIn den ersten Tagen unternahm die Klasse verschiedene Ausflüge, zum Beispiel eine Wanderung entlang der Steilküste und eine Fahrradtour durch die Dünen. Obwohl das Wetter an einem Tag sehr windig war, entschieden sich die Lehrer, trotzdem einen Strandtag zu organisieren. Einige Schüler bauten Sandburgen, während andere im kalten Wasser badeten.\n\nAm letzten Abend veranstaltete die Klasse ein kleines Lagerfeuer am Strand. Nachdem alle gemeinsam Stockbrot gebacken hatten, erzählten sich die Schüler Geschichten und sangen Lieder. Am nächsten Morgen mussten sie sich leider schon wieder verabschieden, obwohl niemand die schöne Woche beenden wollte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Busfahrt zur Ostsee dauerte nur zwei Stunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse übernachtete in einer Jugendherberge am Strand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse machte keine Wanderung entlang der Küste.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend gab es ein Lagerfeuer am Strand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler wollten die Woche gern beenden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vorbereitung-auf-den-marathon",
+    "nivel": "B1",
+    "titulo": "Die Vorbereitung auf den Marathon",
+    "descripcion": "Markus trainiert monatelang für seinen ersten Marathon und muss dabei viele Herausforderungen meistern.",
+    "texto": "Nachdem Markus sich für seinen ersten Marathon angemeldet hatte, begann er mit einem strengen Trainingsplan. Obwohl er anfangs kaum mehr als fünf Kilometer laufen konnte, steigerte er seine Distanz jede Woche ein wenig. Trotzdem der Winter kalt und dunkel war, stand er jeden Morgen früh auf, um vor der Arbeit zu trainieren.\n\nNach einigen Wochen bemerkte Markus, dass sein Körper immer fitter wurde. Obwohl er sich manchmal müde und entmutigt fühlte, gab er nicht auf, weil er sich das Ziel fest vorgenommen hatte. Seine Freundin unterstützte ihn, indem sie ihn oft beim Laufen begleitete und ihm half, motiviert zu bleiben.\n\nAm Tag des Marathons war Markus sehr nervös, nachdem er monatelang auf dieses Ereignis hingearbeitet hatte. Obwohl seine Beine nach dreißig Kilometern schmerzten, lief er weiter und erreichte schließlich das Ziel. Trotzdem er völlig erschöpft war, fühlte er sich stolzer als je zuvor.",
+    "preguntas": [
+      {
+        "enunciado": "Markus konnte am Anfang problemlos fünfundzwanzig Kilometer laufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus trainierte auch im Winter früh am Morgen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus gab das Training auf, weil er sich zu müde fühlte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Freundin hat ihn beim Training unterstützt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus erreichte das Ziel des Marathons.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitale-verwaltung-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Digitale Verwaltung in Deutschland",
+    "descripcion": "Die Digitalisierung der deutschen Behörden kommt nur langsam voran – ein Blick auf Ursachen und Lösungsvorschläge.",
+    "texto": "In vielen europäischen Ländern können Bürger ihre behördlichen Angelegenheiten längst online erledigen, während in Deutschland immer noch häufig ein persönlicher Termin beim Amt notwendig ist. Diese schleppende Digitalisierung der Verwaltung wird von Wirtschaftsverbänden und Bürgern gleichermaßen kritisiert. Es entsteht der Eindruck, dass ein Land, das für seine technologische Innovationskraft bekannt ist, in diesem Bereich erstaunlich weit zurückliegt.\n\nAls Gründe für diese Verzögerung werden vor allem der föderale Aufbau Deutschlands und die daraus resultierende Zersplitterung der Zuständigkeiten genannt. Da jedes Bundesland und jede Kommune eigene digitale Lösungen entwickelt, entstehen zahlreiche, kaum miteinander kompatible Systeme. Wäre die Verwaltung von Anfang an zentraler organisiert worden, hätten viele Doppelentwicklungen vermieden werden können. Hinzu kommt, dass der Datenschutz in Deutschland traditionell sehr ernst genommen wird, was zusätzliche rechtliche Hürden mit sich bringt.\n\nBefürworter einer schnelleren Digitalisierung argumentieren, dass durch digitale Verfahren nicht nur Zeit, sondern auch erhebliche Kosten eingespart werden könnten. Wenn Anträge künftig vollständig online eingereicht würden, müssten Bürger keine langen Wartezeiten mehr in Kauf nehmen. Gleichzeitig warnen Kritiker davor, dass ältere oder technisch weniger versierte Menschen von rein digitalen Angeboten ausgeschlossen werden könnten, wenn analoge Alternativen vollständig abgeschafft würden.\n\nLetztlich wird die Digitalisierung der Verwaltung als eine der zentralen Zukunftsaufgaben Deutschlands betrachtet. Es wird allgemein anerkannt, dass ohne eine grundlegende Reform der Zuständigkeiten kaum ein spürbarer Fortschritt erzielt werden kann. Ob und wann die vielfach versprochene digitale Verwaltung tatsächlich Realität wird, bleibt daher weiterhin eine offene Frage.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland können die meisten Behördengänge bereits vollständig online erledigt werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der föderale Aufbau Deutschlands wird als ein Grund für die langsame Digitalisierung genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bundesländer nutzen dieselben digitalen Systeme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker fürchten, dass ältere Menschen von rein digitalen Angeboten ausgeschlossen werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text stellt die Digitalisierung der Verwaltung als bereits abgeschlossenes Projekt dar.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-deutschlandticket-und-mobilitaetswende",
+    "nivel": "B2",
+    "titulo": "Das Deutschlandticket und die Mobilitätswende",
+    "descripcion": "Das günstige Nahverkehrsticket soll die Verkehrswende vorantreiben – doch die Finanzierung bleibt umstritten.",
+    "texto": "Mit der Einführung eines bundesweit gültigen, vergünstigten Tickets für den öffentlichen Nahverkehr sollte in Deutschland ein wichtiger Schritt in Richtung Mobilitätswende getan werden. Das Angebot, mit einem einzigen Ticket Busse und Bahnen in ganz Deutschland nutzen zu können, wurde von vielen Pendlern und Umweltverbänden begeistert aufgenommen. Zum ersten Mal musste nicht mehr für jede Region ein eigenes Ticket gekauft werden.\n\nDennoch wird das Modell von verschiedenen Seiten kritisch betrachtet. Kommunen und Verkehrsbetriebe beklagen, dass die zusätzlichen Kosten des vergünstigten Tickets nicht vollständig durch Bund und Länder ausgeglichen würden. Wenn diese Finanzierungslücke nicht dauerhaft geschlossen werden könnte, müssten möglicherweise andere Angebote im Nahverkehr eingeschränkt werden. Zudem wird bemängelt, dass in ländlichen Regionen, in denen kaum Busse und Bahnen verkehren, das günstige Ticket wenig nütze, solange das Angebot selbst nicht ausgebaut werde.\n\nBefürworter entgegnen, dass ohne ein solches Ticket viele Menschen wohl gar nicht erst über einen Umstieg vom Auto auf Bus und Bahn nachdenken würden. Wäre das Ticket teurer oder komplizierter gestaltet, würde es seine Lenkungswirkung vermutlich verfehlen. Studien deuten zudem darauf hin, dass ein spürbarer Teil der Nutzer angibt, seltener das eigene Auto zu benutzen, seit sie das Ticket besitzen.\n\nOb das Ticket langfristig zu einer echten Verkehrswende beitragen kann, hängt daher entscheidend davon ab, ob gleichzeitig in den Ausbau von Schienen- und Busnetzen investiert wird. Ein günstiges Ticket allein, so betonen Experten, könne die strukturellen Probleme des deutschen Nahverkehrs nicht lösen.",
+    "preguntas": [
+      {
+        "enunciado": "Mit dem Deutschlandticket kann man nur in einer Region Busse und Bahnen nutzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kommunen kritisieren, dass die Finanzierung des Tickets nicht vollständig gesichert sei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In ländlichen Regionen mit wenig Nahverkehrsangebot bringt das Ticket allein nur begrenzten Nutzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien nutzt kein einziger Fahrgast das Ticket, um das Auto seltener zu benutzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten sind sich einig, dass das Ticket allein die strukturellen Probleme des Nahverkehrs löst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-freiwillige-feuerwehr-auf-dem-land",
+    "nivel": "B2",
+    "titulo": "Die freiwillige Feuerwehr auf dem Land",
+    "descripcion": "In vielen ländlichen Gemeinden fehlt es an Nachwuchs für die freiwillige Feuerwehr – mit weitreichenden Folgen.",
+    "texto": "In zahlreichen ländlichen Gemeinden Deutschlands wird der Brand- und Katastrophenschutz traditionell von freiwilligen Feuerwehren getragen, da eine hauptberufliche Feuerwehr für kleine Ortschaften kaum finanzierbar wäre. Seit Jahren jedoch klagen viele dieser Wehren über einen zunehmenden Mangel an aktiven Mitgliedern. Während früher ganze Familien über Generationen hinweg der örtlichen Feuerwehr angehörten, wird dieses Engagement von jüngeren Menschen heute seltener übernommen.\n\nAls Ursachen für diesen Rückgang werden mehrere gesellschaftliche Entwicklungen genannt. Viele junge Menschen ziehen aus beruflichen Gründen in die Stadt, wodurch den Dörfern dringend benötigter Nachwuchs fehlt. Gleichzeitig wird beklagt, dass die zeitliche Belastung durch Ausbildung, Übungen und Einsätze mit einem zunehmend flexiblen Arbeitsleben immer schwerer zu vereinbaren sei. Wäre die Vereinbarkeit von Beruf und Ehrenamt besser geregelt, könnten vermutlich deutlich mehr Menschen für die Feuerwehr gewonnen werden.\n\nUm dem Mitgliederschwund entgegenzuwirken, setzen manche Gemeinden auf gezielte Nachwuchsförderung, etwa durch Jugendfeuerwehren, die schon Kinder und Jugendliche für das Ehrenamt begeistern sollen. Andernorts wird diskutiert, ob Arbeitgebern gesetzlich verpflichtende Freistellungen für Feuerwehreinsätze auferlegt werden sollten, damit Mitglieder ohne beruflichen Nachteil ausrücken können. Kritiker solcher Vorschläge geben allerdings zu bedenken, dass insbesondere kleine Unternehmen durch zusätzliche Freistellungspflichten stark belastet würden.\n\nSollte es nicht gelingen, ausreichend Nachwuchs zu gewinnen, müssten in manchen Regionen langfristig benachbarte Wehren zusammengelegt oder die Anfahrtswege im Notfall verlängert werden. Für die betroffenen Dörfer wäre dies gleichbedeutend mit einem Stück verlorener Sicherheit und lokaler Identität.",
+    "preguntas": [
+      {
+        "enunciado": "In vielen deutschen Dörfern gibt es eine hauptberufliche Feuerwehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Mangel an Nachwuchs bei freiwilligen Feuerwehren wird unter anderem mit der Abwanderung junger Menschen in die Stadt erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Gemeinden sind sich einig, dass gesetzliche Freistellungspflichten keine Nachteile hätten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Gemeinden versuchen, mit Jugendfeuerwehren junge Menschen für das Ehrenamt zu gewinnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Mitgliederschwund hätte laut Text keine Auswirkungen auf die Sicherheit der Dörfer.",
+        "respuesta": false
+      }
+    ]
   }
 ]
