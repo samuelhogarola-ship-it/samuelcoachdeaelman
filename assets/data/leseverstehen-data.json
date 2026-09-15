@@ -12302,5 +12302,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-schuhe",
+    "nivel": "A1",
+    "titulo": "Meine Schuhe",
+    "descripcion": "Lisa erzählt von ihren Lieblingsschuhen und geht mit ihrer Mutter einkaufen.",
+    "texto": "Lisa hat viele Schuhe. Sie hat rote Schuhe, blaue Schuhe und weiße Schuhe. Ihre Lieblingsschuhe sind die roten Turnschuhe. Sie trägt sie fast jeden Tag.\n\nHeute geht Lisa mit ihrer Mutter in ein Schuhgeschäft. Sie sucht neue Winterschuhe. Die Verkäuferin zeigt ihr viele Modelle. Lisa probiert drei Paar Schuhe an. Ein Paar ist zu klein, ein Paar ist zu groß. Das dritte Paar passt perfekt.\n\nLisa freut sich über die neuen Schuhe. Sie sind braun und sehr warm. Zu Hause zeigt sie die Schuhe ihrem Bruder. Er findet die Schuhe auch schön.",
+    "preguntas": [
+      {
+        "enunciado": "Lisas Lieblingsschuhe sind rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa geht allein ins Schuhgeschäft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa probiert drei Paar Schuhe an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die neuen Schuhe sind gelb.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisas Bruder findet die Schuhe nicht schön.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-kalender",
+    "nivel": "A1",
+    "titulo": "Der Kalender",
+    "descripcion": "Tom erklärt die Wochentage und Monate mit seinem neuen Kalender.",
+    "texto": "Tom hat einen neuen Kalender für sein Zimmer. Der Kalender hat zwölf Monate. Tom mag den Monat Dezember am liebsten, denn dann ist Weihnachten.\n\nEine Woche hat sieben Tage. Montag ist der erste Schultag. Samstag und Sonntag sind Toms Lieblingstage, denn da hat er keine Schule. Am Samstag spielt er Fußball, und am Sonntag besucht er seine Großeltern.\n\nTom malt jeden Tag ein kleines Bild in seinen Kalender. Im Januar malt er einen Schneemann. Im Juli malt er die Sonne. Seine Mutter findet den Kalender sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Der Kalender hat zwölf Monate.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Toms Lieblingsmonat ist Januar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Woche hat sieben Tage.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom spielt am Sonntag Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Mutter findet den Kalender hässlich.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-sportgeschaeft",
+    "nivel": "A1",
+    "titulo": "Im Sportgeschäft",
+    "descripcion": "Paul kauft mit seinem Vater einen neuen Fußball und neue Sportschuhe.",
+    "texto": "Paul geht mit seinem Vater in ein Sportgeschäft. Paul spielt gern Fußball. Er braucht einen neuen Ball und neue Sportschuhe.\n\nIm Geschäft gibt es viele Bälle. Paul wählt einen blauen Fußball. Der Verkäufer zeigt Paul auch Sportschuhe. Paul probiert die Schuhe an. Sie sind bequem und passen gut.\n\nAn der Kasse bezahlt Pauls Vater den Ball und die Schuhe. Paul ist sehr glücklich. Am Nachmittag spielt er schon mit seinen neuen Sachen im Park.",
+    "preguntas": [
+      {
+        "enunciado": "Paul kauft einen blauen Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul geht allein ins Sportgeschäft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die neuen Schuhe passen nicht gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Vater bezahlt an der Kasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul spielt am Nachmittag im Park.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "besuch-beim-kinderarzt",
+    "nivel": "A2",
+    "titulo": "Besuch beim Kinderarzt",
+    "descripcion": "Frau Meyer geht mit ihrem Sohn Ben zum Kinderarzt, weil er seit zwei Tagen Fieber hat.",
+    "texto": "Ben ist seit zwei Tagen krank. Er hat Fieber und hustet stark. Deshalb hat seine Mutter, Frau Meyer, heute Morgen einen Termin beim Kinderarzt vereinbart. Sie sind pünktlich in der Praxis angekommen, aber sie mussten trotzdem fast eine Stunde im Wartezimmer warten.\n\nDer Kinderarzt, Dr. Hoffmann, hat Ben gründlich untersucht. Er hat die Lunge abgehört und in den Hals geschaut. „Das ist eine einfache Erkältung\", hat er gesagt. „Ben braucht viel Ruhe und sollte genug trinken.\" Frau Meyer war erleichtert, weil sie sich Sorgen gemacht hatte. Der Arzt hat ihr auch einen Hustensaft verschrieben.\n\nAuf dem Heimweg haben sie noch eine Apotheke besucht, um den Hustensaft zu kaufen. Ben freut sich, dass er ein paar Tage nicht in die Schule muss. Frau Meyer hat ihm versprochen, dass sie ihm eine Geschichte vorliest, wenn er brav seine Medizin nimmt.",
+    "preguntas": [
+      {
+        "enunciado": "Ben hat seit zwei Tagen Fieber.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Meyer und Ben mussten nicht warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kinderarzt hat eine schwere Krankheit festgestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat Ben einen Hustensaft verschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben freut sich, dass er nicht zur Schule muss.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-an-die-tante",
+    "nivel": "A2",
+    "titulo": "Der Brief an die Tante",
+    "descripcion": "Sophie schreibt ihrer Tante Ulla einen Brief über ihre Sommerferien an der Ostsee.",
+    "texto": "Liebe Tante Ulla,\n\nvielen Dank für deinen letzten Brief! Ich wollte dir schon lange schreiben, aber ich hatte in den letzten Wochen sehr viel zu tun. Wir sind vor zwei Wochen aus dem Sommerurlaub zurückgekommen. Meine Familie und ich sind an die Ostsee gefahren und haben dort in einer kleinen Ferienwohnung gewohnt.\n\nDas Wetter war leider nicht immer schön, aber wir hatten trotzdem viel Spaß. An einem Tag hat es so stark geregnet, dass wir den ganzen Nachmittag im Zimmer Karten gespielt haben. An den sonnigen Tagen sind wir jeden Morgen an den Strand gegangen und haben im Meer gebadet. Mein kleiner Bruder hat eine riesige Sandburg gebaut, weil er unbedingt einen Preis beim Sandburgwettbewerb gewinnen wollte. Er hat leider nur den dritten Platz gemacht, war aber trotzdem sehr stolz.\n\nIch hoffe, dass es dir gut geht und dass wir uns bald wiedersehen. Vielleicht können wir dich im Herbst besuchen, wenn du Zeit hast. Ich freue mich schon darauf, dir mehr von unserem Urlaub zu erzählen.\n\nViele liebe Grüße\nDeine Sophie",
+    "preguntas": [
+      {
+        "enunciado": "Sophies Familie war an der Ostsee im Urlaub.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war die ganze Zeit sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophies Bruder hat den ersten Platz beim Sandburgwettbewerb gewonnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie möchte ihre Tante im Herbst besuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben an einem Regentag Karten gespielt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-reise-nach-duesseldorf",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Düsseldorf",
+    "descripcion": "Jan und Petra fahren übers Wochenende nach Düsseldorf und besuchen die Altstadt.",
+    "texto": "Jan und Petra sind am Freitagabend mit dem Zug nach Düsseldorf gefahren. Sie wollten das Wochenende in der Stadt verbringen, weil Petra schon lange die berühmte Altstadt sehen wollte. Die Zugfahrt hat etwas länger gedauert, weil der Zug wegen Bauarbeiten Verspätung hatte.\n\nAm Samstag sind sie durch die Altstadt spaziert und haben viele kleine Geschäfte und Cafés entdeckt. Am Abend haben sie in einer traditionellen Brauerei zu Abend gegessen. „Das Altbier hier schmeckt wirklich anders als zu Hause\", hat Jan gesagt. Petra hat ihm zugestimmt und noch ein zweites Glas bestellt. Später sind sie am Rhein spazieren gegangen und haben die Schiffe beobachtet.\n\nAm Sonntag haben sie noch das Kunstmuseum besucht, bevor sie am Nachmittag wieder nach Hause gefahren sind. Beide waren sich einig, dass sie gerne noch einmal nach Düsseldorf zurückkehren möchten, weil ihnen die Stadt so gut gefallen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Jan und Petra sind mit dem Auto nach Düsseldorf gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug hatte wegen Bauarbeiten Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben in einer Brauerei zu Abend gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag sind sie sofort nach Hause gefahren, ohne etwas zu besuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beide möchten gerne wieder nach Düsseldorf zurückkehren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-an-den-bodensee",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt an den Bodensee",
+    "descripcion": "Eine neunte Klasse verbringt drei Tage am Bodensee und erlebt dabei einige Überraschungen.",
+    "texto": "Die 9b ist am Montag früh mit dem Bus zum Bodensee aufgebrochen. Nachdem die Schüler drei Stunden gefahren waren, kamen sie endlich in der Jugendherberge in Lindau an. Obwohl viele müde von der langen Fahrt waren, wollten alle sofort den See erkunden. Die Lehrerin, Frau Keller, hatte für den ersten Tag eine Fahrradtour entlang des Ufers geplant.\n\nAm zweiten Tag machten die Schüler eine Bootsfahrt über den See. Nachdem sie die Insel Mainau besichtigt hatten, waren alle von den bunten Blumen und Gärten begeistert. Trotzdem beschwerten sich einige Schüler über die Hitze, weil die Sonne den ganzen Tag schien. Am Abend organisierte die Klasse ein Lagerfeuer, bei dem sie gemeinsam sangen und Stockbrot machten.\n\nDer letzte Tag begann mit einem kleinen Zwischenfall: Zwei Schüler hatten verschlafen und fast den Bus verpasst. Nachdem alle doch noch rechtzeitig eingestiegen waren, ging die Rückfahrt problemlos vonstatten. Trotz der anstrengenden Tage waren sich alle einig, dass die Klassenfahrt eines der schönsten Erlebnisse des Schuljahres war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist mit dem Zug zum Bodensee gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag machten die Schüler eine Fahrradtour.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Insel Mainau ist für ihre Blumen und Gärten bekannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am letzten Tag haben zwei Schüler den Bus fast verpasst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler fanden die Klassenfahrt langweilig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-jobwechsel",
+    "nivel": "B1",
+    "titulo": "Der Jobwechsel",
+    "descripcion": "Nina wechselt nach fünf Jahren den Arbeitsplatz und muss sich an vieles Neues gewöhnen.",
+    "texto": "Nachdem Nina fünf Jahre lang in derselben Marketingagentur gearbeitet hatte, entschied sie sich, den Job zu wechseln. Obwohl sie ihre Kollegen sehr mochte, fühlte sie sich in ihrer alten Position nicht mehr herausgefordert. Ein befreundeter Kollege hatte ihr von einer freien Stelle in einem größeren Unternehmen erzählt, und nach reiflicher Überlegung bewarb sich Nina dort.\n\nDas Bewerbungsverfahren war anspruchsvoller, als Nina erwartet hatte. Sie musste mehrere Gespräche führen und eine Präsentation vorbereiten. Trotzdem verlief alles gut, und nach drei Wochen erhielt sie die Zusage. Am ersten Arbeitstag im neuen Unternehmen war Nina nervös, obwohl ihre neuen Kollegen sie freundlich empfingen. Vieles war anders organisiert als in ihrer alten Firma, weshalb sie sich in den ersten Wochen häufig verlaufen fühlte.\n\nNachdem einige Monate vergangen waren, hatte sich Nina gut eingelebt. Sie übernahm inzwischen mehr Verantwortung und leitete sogar ein eigenes Projekt. Obwohl der Wechsel anfangs unsicher erschien, ist Nina heute überzeugt, dass es die richtige Entscheidung war.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat fünf Jahre in derselben Agentur gearbeitet, bevor sie wechselte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Bewerbungsverfahren war einfacher, als Nina erwartet hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat drei Wochen auf die Zusage gewartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am neuen Arbeitsplatz fühlte sich Nina sofort völlig sicher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina leitet inzwischen ein eigenes Projekt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-freundschaft-nach-dem-umzug",
+    "nivel": "B1",
+    "titulo": "Die Freundschaft nach dem Umzug",
+    "descripcion": "Als Ben in eine andere Stadt zieht, fragt er sich, ob seine Freundschaft mit Tim bestehen bleibt.",
+    "texto": "Als Bens Familie vor drei Monaten in eine andere Stadt gezogen ist, hat er sich große Sorgen um seine Freundschaft mit Tim gemacht. Die beiden kannten sich seit der Grundschule und hatten fast jeden Tag miteinander verbracht. Nachdem der Umzug feststand, versprachen sich die Jungen, in Kontakt zu bleiben, obwohl sie wussten, dass es nicht einfach werden würde.\n\nIn den ersten Wochen schrieben sie sich fast täglich Nachrichten und telefonierten regelmäßig. Trotzdem merkte Ben, dass es schwieriger wurde, gemeinsame Themen zu finden, weil ihr Alltag sich immer mehr unterschied. Tim erzählte von neuen Erlebnissen mit seinen Klassenkameraden, während Ben sich noch in der neuen Schule zurechtfinden musste.\n\nNachdem einige Monate vergangen waren, beschlossen die beiden, sich in den Herbstferien zu treffen. Als Tim schließlich zu Besuch kam, merkten beide sofort, dass sich an ihrer Freundschaft nichts geändert hatte. Sie verbrachten das ganze Wochenende zusammen und planten bereits das nächste Treffen. Ben war erleichtert, dass die Entfernung ihre Freundschaft nicht zerstört hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Ben und Tim kennen sich erst seit dem Umzug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In den ersten Wochen hatten Ben und Tim regelmäßig Kontakt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben fand es leicht, mit Tim gemeinsame Themen zu finden, weil sich nichts verändert hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat Ben in den Herbstferien besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freundschaft zwischen Ben und Tim ist durch den Umzug zerbrochen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "elektronische-patientenakte",
+    "nivel": "B2",
+    "titulo": "Die elektronische Patientenakte",
+    "descripcion": "Die Einführung der elektronischen Patientenakte in Deutschland bringt Chancen und Risiken mit sich.",
+    "texto": "Seit einigen Jahren wird in Deutschland die elektronische Patientenakte (ePA) eingeführt, die Befunde, Diagnosen, Medikationspläne und Röntgenbilder digital speichern und Ärzten wie Patienten jederzeit zugänglich machen soll. Befürworter sehen darin einen längst überfälligen Schritt in Richtung eines modernen Gesundheitswesens, das bislang stark von Papierakten und Faxgeräten geprägt war. Studien deuten darauf hin, dass unnötige Doppeluntersuchungen und gefährliche Medikamentenwechselwirkungen deutlich reduziert werden könnten, wenn alle behandelnden Ärzte auf dieselben Informationen zugreifen könnten.\n\nGleichzeitig wird die Einführung von erheblicher Skepsis begleitet. Datenschützer warnen davor, dass hochsensible Gesundheitsdaten zentral gespeichert werden und dadurch ein attraktives Ziel für Cyberangriffe darstellen. Kritiker bemängeln zudem, dass viele Patienten kaum verstehen, wem sie welche Daten zugänglich machen, wenn sie der ePA zustimmen. Ärzteverbände wiederum beklagen, dass die technische Umsetzung in vielen Praxen holprig verläuft und zusätzlichen bürokratischen Aufwand verursacht, ohne dass der versprochene Zeitgewinn bislang spürbar wäre.\n\nUm das Vertrauen der Bevölkerung zu gewinnen, wäre es notwendig, dass die Systeme nachweislich sicher sind und dass Patienten jederzeit die volle Kontrolle darüber behalten, welche Daten sie mit wem teilen. Sollte dies gelingen, könnte die ePA langfristig nicht nur die Versorgungsqualität verbessern, sondern auch wertvolle Daten für die medizinische Forschung liefern. Ob dieses Potenzial tatsächlich ausgeschöpft wird, hängt jedoch maßgeblich davon ab, ob es gelingt, die Akzeptanz sowohl bei Ärzten als auch bei Patienten zu erhöhen.",
+    "preguntas": [
+      {
+        "enunciado": "Die elektronische Patientenakte soll Befunde und Medikationspläne digital speichern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Ärzteverbände sind restlos begeistert von der technischen Umsetzung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Datenschützer sehen in der zentralen Speicherung von Gesundheitsdaten ein Sicherheitsrisiko.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist das Vertrauen der Bevölkerung bereits vollständig erreicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die ePA könnte theoretisch auch für die medizinische Forschung nützlich sein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wohnraum-fuer-studierende",
+    "nivel": "B2",
+    "titulo": "Wohnraum für Studierende",
+    "descripcion": "In vielen Universitätsstädten wird bezahlbarer Wohnraum für Studierende immer knapper.",
+    "texto": "In zahlreichen deutschen Universitätsstädten hat sich die Wohnungssuche für Studierende in den letzten Jahren dramatisch verschärft. Während die Zahl der Studienplätze in Städten wie München, Heidelberg oder Freiburg stetig gewachsen ist, wurde der Bau neuer Studentenwohnheime vielerorts vernachlässigt. Die Folge: Wer zum Wintersemester in eine dieser Städte zieht, findet mitunter monatelang kein bezahlbares Zimmer und ist gezwungen, vorübergehend bei Verwandten unterzukommen oder lange Pendelstrecken in Kauf zu nehmen.\n\nBesonders betroffen sind Studierende ohne finanzielle Unterstützung der Eltern, die auf ein günstiges Zimmer im Wohnheim angewiesen wären. Die Wartelisten der örtlichen Studierendenwerke sind jedoch in vielen Städten so lang, dass selbst ein Studienbeginn im dritten oder vierten Semester keine Garantie für einen Wohnheimplatz bietet. Auf dem freien Wohnungsmarkt konkurrieren Studierende zudem mit Berufstätigen und Familien, die häufig ein höheres und stabileres Einkommen nachweisen können, was ihre Chancen bei Vermietern zusätzlich schmälert.\n\nAls Reaktion auf diese Entwicklung setzen einige Städte auf unkonventionelle Lösungen. In sogenannten Mehrgenerationenprojekten vermieten ältere Menschen ein Zimmer in ihrer Wohnung an Studierende, die im Gegenzug im Haushalt helfen oder Gesellschaft leisten. Andere Kommunen fördern den Bau modularer Wohncontainer, die schneller und günstiger errichtet werden können als klassische Wohnheime. Ob solche Ansätze ausreichen, um die strukturelle Wohnungsknappheit spürbar zu lindern, bleibt jedoch umstritten, solange nicht in größerem Umfang neuer Wohnraum entsteht.",
+    "preguntas": [
+      {
+        "enunciado": "In vielen Universitätsstädten wurde der Bau neuer Studentenwohnheime vernachlässigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studierende ohne finanzielle Unterstützung der Eltern haben es besonders leicht, ein Wohnheimzimmer zu bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem freien Wohnungsmarkt konkurrieren Studierende auch mit Berufstätigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mehrgenerationenprojekte vermitteln Zimmer bei älteren Menschen im Austausch für Hilfe im Haushalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist die Wohnungsknappheit für Studierende bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-in-der-schule",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz in der Schule",
+    "descripcion": "Warum Schulen zunehmend den kritischen Umgang mit digitalen Medien vermitteln sollen.",
+    "texto": "Angesichts der Flut an Informationen, denen Jugendliche täglich über soziale Netzwerke ausgesetzt sind, fordern Bildungsexperten schon seit Langem, Medienkompetenz stärker im Schulunterricht zu verankern. Gemeint ist damit nicht nur der technische Umgang mit digitalen Geräten, den viele Schülerinnen und Schüler ohnehin beherrschen, sondern vor allem die Fähigkeit, Quellen kritisch zu bewerten, Falschinformationen zu erkennen und die eigene Mediennutzung zu reflektieren.\n\nUntersuchungen zeigen, dass ein erheblicher Teil der Jugendlichen Schwierigkeiten hat, seriöse von unseriösen Nachrichtenquellen zu unterscheiden. Viele nehmen Inhalte, die in ihrer Timeline erscheinen, ungeprüft als wahr hin, insbesondere wenn diese von Personen stammen, denen sie vertrauen oder folgen. Dies begünstigt die Verbreitung von Verschwörungstheorien und manipulativen Inhalten, deren Reichweite durch Algorithmen zusätzlich verstärkt wird, die vor allem auf emotionale Reaktionen ausgelegt sind.\n\nKritiker der aktuellen Bildungspolitik bemängeln, dass Medienkompetenz bislang oft nur am Rande behandelt wird, obwohl sie fächerübergreifend in den Lehrplan integriert werden müsste. Es fehle zudem an ausreichend geschultem Lehrpersonal, das selbst über fundiertes Wissen im Umgang mit digitalen Medien verfügt. Befürworter einer Reform schlagen vor, verpflichtende Unterrichtseinheiten einzuführen, in denen Schülerinnen und Schüler lernen, Quellen zu überprüfen, Bilder auf Manipulation zu untersuchen und die Funktionsweise von Algorithmen zu verstehen.\n\nSollte es gelingen, Medienkompetenz fest im schulischen Alltag zu verankern, könnte dies langfristig dazu beitragen, dass junge Menschen widerstandsfähiger gegenüber Desinformation werden und verantwortungsbewusster mit digitalen Medien umgehen. Angesichts der wachsenden Bedeutung sozialer Netzwerke für die politische Meinungsbildung erscheint diese Investition vielen Experten als unerlässlich.",
+    "preguntas": [
+      {
+        "enunciado": "Medienkompetenz bezieht sich laut Text nur auf den technischen Umgang mit Geräten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Jugendliche haben Schwierigkeiten, seriöse von unseriösen Quellen zu unterscheiden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Algorithmen sind laut Text häufig auf emotionale Reaktionen ausgelegt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt laut Text bereits ausreichend geschultes Lehrpersonal für Medienkompetenz an allen Schulen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter schlagen verpflichtende Unterrichtseinheiten zur Quellenüberprüfung vor.",
+        "respuesta": true
+      }
+    ]
   }
 ]
