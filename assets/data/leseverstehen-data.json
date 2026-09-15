@@ -11258,5 +11258,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-bruder",
+    "nivel": "A1",
+    "titulo": "Mein Bruder",
+    "descripcion": "Ein kurzer Text über den Bruder und seine Hobbys.",
+    "texto": "Ich heiße Paul und ich habe einen Bruder. Mein Bruder heißt Tim. Er ist zwölf Jahre alt und geht noch zur Schule. Tim hat braune Haare und braune Augen. Er ist sehr sportlich und spielt gern Fußball.\n\nAm Nachmittag spielt Tim oft mit seinen Freunden im Park. Er spielt auch gern Computerspiele. Tim isst gern Pizza und Nudeln, aber er mag kein Gemüse. Am Wochenende gehen wir oft zusammen schwimmen.\n\nTim und ich verstehen uns sehr gut. Wir spielen zusammen und helfen uns bei den Hausaufgaben. Ich bin froh, dass ich einen Bruder habe.",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist der Bruder von Paul.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim ist zwanzig Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim spielt gern Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim isst sehr gern Gemüse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und Tim verstehen sich gut.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "am-kiosk",
+    "nivel": "A1",
+    "titulo": "Am Kiosk",
+    "descripcion": "Lisa kauft eine Zeitschrift und Getränke an einem Kiosk.",
+    "texto": "Lisa geht jeden Morgen an einem Kiosk vorbei. Der Kiosk ist klein, aber er hat viele Sachen. Es gibt Zeitungen, Zeitschriften, Getränke und Süßigkeiten. Lisa kauft heute eine Zeitschrift und eine Flasche Wasser.\n\nAm Kiosk arbeitet Herr Keller. Er ist sehr freundlich und kennt Lisa gut. „Guten Morgen, Lisa! Was möchtest du heute?\", fragt er. Lisa antwortet: „Ich möchte bitte diese Zeitschrift und eine Flasche Wasser.\" Herr Keller gibt ihr die Sachen und Lisa bezahlt drei Euro.\n\nLisa mag den Kiosk, weil er nah an ihrer Wohnung ist. Sie kauft dort oft kleine Dinge für den Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Der Kiosk verkauft nur Zeitungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa kauft eine Zeitschrift und Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Keller arbeitet am Kiosk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa bezahlt zehn Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kiosk ist weit von Lisas Wohnung entfernt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsfilm",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsfilm",
+    "descripcion": "Jonas erzählt kurz von seinem Lieblingsfilm.",
+    "texto": "Jonas sieht gern Filme. Sein Lieblingsfilm heißt „Die Insel der Abenteuer\". Der Film ist spannend und lustig. Jonas sieht den Film schon fünfmal.\n\nIn dem Film reisen drei Freunde auf eine Insel. Sie suchen einen Schatz. Der Film dauert zwei Stunden. Jonas mag die Musik im Film sehr.\n\nAm Freitagabend sieht Jonas oft Filme mit seiner Familie. Sie essen Popcorn und trinken Limonade. Das ist für Jonas ein schöner Abend.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas' Lieblingsfilm heißt „Die Insel der Abenteuer\".",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas sieht den Film zum ersten Mal.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Film suchen die Freunde einen Schatz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Film dauert eine halbe Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas sieht am Freitagabend oft Filme mit seiner Familie.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-tierheim",
+    "nivel": "A2",
+    "titulo": "Der Besuch im Tierheim",
+    "descripcion": "Familie Berger besucht ein Tierheim, weil sie einen Hund adoptieren möchte.",
+    "texto": "Familie Berger hat sich entschieden, einen Hund zu adoptieren. Am Samstag sind sie deshalb zu einem Tierheim in der Nähe gefahren. Als sie ankamen, hat eine Mitarbeiterin sie freundlich begrüßt und ihnen die verschiedenen Hunde gezeigt. Die Kinder waren sehr aufgeregt, weil sie sich schon lange einen Hund gewünscht hatten.\n\nIm Tierheim haben sie einen kleinen braunen Hund gesehen, der ruhig in seiner Box lag. „Dieser Hund heißt Bruno und ist zwei Jahre alt\", hat die Mitarbeiterin erklärt. Bruno ist zu der Familie gekommen und hat sich sofort streicheln lassen. Die Kinder haben laut gejubelt, als die Eltern gesagt haben, dass sie Bruno mitnehmen möchten.\n\nBevor die Familie Bruno mitnehmen durfte, mussten sie noch viele Formulare ausfüllen. Die Mitarbeiterin hat erklärt, dass Bruno regelmäßig zum Tierarzt muss. Am Ende des Tages ist Bruno glücklich mit Familie Berger nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger möchte eine Katze adoptieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder freuen sich sehr auf einen Hund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist ein kleiner brauner Hund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie muss keine Formulare ausfüllen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno fährt am Ende glücklich mit der Familie nach Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verspaetete-lieferung",
+    "nivel": "A2",
+    "titulo": "Die verspätete Lieferung",
+    "descripcion": "Markus wartet auf ein Paket, das leider nicht pünktlich ankommt.",
+    "texto": "Markus hat vor zwei Wochen einen neuen Laptop im Internet bestellt. Der Verkäufer hat gesagt, dass das Paket nach drei Tagen ankommen soll. Markus hat sich sehr gefreut, weil sein alter Laptop kaputt war. Er hat jeden Tag auf den Postboten gewartet, aber das Paket ist nicht gekommen.\n\nNach einer Woche hat Markus den Kundenservice angerufen, weil er wissen wollte, wo sein Paket ist. Die Mitarbeiterin hat erklärt, dass es ein Problem mit dem Lieferdienst gab. „Es tut uns leid, aber die Lieferung hat sich verzögert\", hat sie gesagt. Markus war enttäuscht, aber er hat verstanden, dass es manchmal Probleme gibt.\n\nEndlich, nach zwei Wochen, ist das Paket angekommen. Markus hat sich riesig gefreut, als er den neuen Laptop ausgepackt hat. Er hat sofort seiner Schwester geschrieben, dass der Laptop wunderbar funktioniert.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat einen neuen Laptop bestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Paket ist nach drei Tagen angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat den Kundenservice angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kundenservice konnte das Problem nicht erklären.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende ist Markus mit dem Laptop zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sturm-am-wochenende",
+    "nivel": "A2",
+    "titulo": "Ein Sturm am Wochenende",
+    "descripcion": "Familie Wolf muss ihre Wochenendpläne wegen eines Sturms ändern.",
+    "texto": "Familie Wolf wollte am Samstag einen Ausflug in die Berge machen. Sie hatten schon einen Picknickkorb gepackt und die Wanderschuhe bereitgestellt. Am Freitagabend hat das Radio aber vor einem starken Sturm gewarnt, der über das Wochenende kommen sollte. Frau Wolf hat deshalb entschieden, dass sie zu Hause bleiben.\n\nAm Samstagmorgen hat es tatsächlich stark geregnet und gestürmt. Die Bäume vor dem Haus haben sich im Wind gebogen, und man konnte den Regen laut gegen die Fenster hören. Weil sie nicht wandern konnten, haben die Kinder den Tag mit Brettspielen verbracht. Herr Wolf hat einen Kuchen gebacken, und alle haben zusammen ferngesehen.\n\nAm Sonntag war der Sturm vorbei, und die Sonne ist wieder herausgekommen. Die Familie ist trotzdem noch in den Park in der Nähe gegangen, weil die Kinder unbedingt draußen spielen wollten. Der Ausflug in die Berge wurde auf das nächste Wochenende verschoben.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Wolf wollte am Samstag in die Berge fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Sturm kam schon am Donnerstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag haben die Kinder Brettspiele gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag war das Wetter noch sehr schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ausflug in die Berge wird später nachgeholt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wettbewerb-im-fotoclub",
+    "nivel": "B1",
+    "titulo": "Der Wettbewerb im Fotoclub",
+    "descripcion": "Sophie nimmt an einem Fotowettbewerb ihres lokalen Fotoclubs teil.",
+    "texto": "Sophie ist seit einem Jahr Mitglied im Fotoclub ihrer Stadt und hat sich sehr auf den jährlichen Wettbewerb gefreut. Das Thema in diesem Jahr lautete „Licht und Schatten\", und Sophie hatte schon mehrere Wochen lang überlegt, welches Motiv sie fotografieren wollte. Obwohl sie zunächst unsicher war, entschied sie sich schließlich für ein Foto von der alten Brücke am Stadtrand, das sie bei Sonnenuntergang aufgenommen hatte.\n\nAm Abend des Wettbewerbs waren im Vereinshaus über dreißig Fotos ausgestellt. Die Mitglieder des Clubs gingen von Bild zu Bild und diskutierten über Technik, Komposition und Stimmung. Nachdem alle Fotos betrachtet worden waren, stimmten die Mitglieder geheim ab. Sophie war sehr nervös, denn sie hatte noch nie an einem solchen Wettbewerb teilgenommen.\n\nAls die Ergebnisse verkündet wurden, konnte Sophie es kaum glauben: Ihr Foto von der Brücke hatte den zweiten Platz gewonnen. Trotzdem war sie ein bisschen enttäuscht, dass sie nicht gewonnen hatte. Die anderen Mitglieder gratulierten ihr herzlich, und der Clubleiter ermutigte sie, im nächsten Jahr wieder mitzumachen. Sophie verließ den Abend mit dem Gefühl, dass sich die Arbeit an ihrem Foto gelohnt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist erst seit einer Woche im Fotoclub.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Thema des Wettbewerbs war „Licht und Schatten\".",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat ein Foto von einer Brücke fotografiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie gewinnt den ersten Platz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Clubleiter ermutigt Sophie, wieder teilzunehmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommerjob-am-strand",
+    "nivel": "B1",
+    "titulo": "Ein Sommerjob am Strand",
+    "descripcion": "Felix arbeitet einen Sommer lang in einem Strandcafé an der Ostsee.",
+    "texto": "Felix hatte sich schon im Frühling für einen Sommerjob in einem kleinen Café direkt am Strand beworben. Nachdem er zu einem Vorstellungsgespräch eingeladen worden war, bekam er die Stelle und begann Anfang Juli zu arbeiten. Er servierte Kaffee, Eis und kalte Getränke an Touristen, die den ganzen Tag am Strand verbrachten. Die Arbeit war anstrengend, weil es an heißen Tagen sehr viel zu tun gab, aber Felix mochte die Atmosphäre am Meer.\n\nObwohl er lange Schichten hatte, fand Felix jeden Abend Zeit, um mit seinen Kollegen im Meer zu schwimmen. Er lernte viele interessante Menschen aus verschiedenen Ländern kennen, die ebenfalls im Café arbeiteten. Besonders gut verstand er sich mit einer Kollegin aus Dänemark, mit der er auch nach der Arbeit viel Zeit verbrachte. Trotzdem vermisste er manchmal seine Familie, die weit weg in Bayern wohnte.\n\nAls der Sommer zu Ende ging, musste Felix sich von seinen neuen Freunden verabschieden. Er war traurig, aber auch dankbar für die Erfahrungen, die er gesammelt hatte. Der Sommerjob hatte ihm nicht nur Geld für sein Studium eingebracht, sondern auch gezeigt, wie wichtig es ist, offen für neue Erfahrungen zu sein.",
+    "preguntas": [
+      {
+        "enunciado": "Felix arbeitet im Sommer in einem Café am Strand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix findet die Arbeit langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix lernt Kollegen aus verschiedenen Ländern kennen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix vermisst seine Familie nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Sommerjob gibt Felix wichtige Erfahrungen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-klassentreffen-nach-zehn-jahren",
+    "nivel": "B1",
+    "titulo": "Das Klassentreffen nach zehn Jahren",
+    "descripcion": "Ehemalige Klassenkameraden treffen sich zehn Jahre nach dem Schulabschluss wieder.",
+    "texto": "Zehn Jahre nach dem Abitur organisierte Katrin ein Klassentreffen für ihre alte Schulklasse. Über eine Chatgruppe hatte sie fast alle ehemaligen Mitschüler erreicht, und mehr als zwanzig von ihnen hatten zugesagt. Das Treffen sollte in einem gemütlichen Restaurant in der Innenstadt stattfinden, in dem die Klasse früher oft nach der Schule gesessen hatte.\n\nAls Katrin an diesem Abend die Tür öffnete, erkannte sie viele Gesichter sofort wieder, obwohl sich einige stark verändert hatten. Manche hatten inzwischen studiert, andere eine Ausbildung gemacht, und wieder andere waren schon Eltern geworden. Nachdem sich alle gesetzt hatten, erzählten sie sich gegenseitig, was in den letzten zehn Jahren passiert war. Es gab viel zu lachen, aber auch überraschende Neuigkeiten, zum Beispiel dass zwei ehemalige Klassenkameraden inzwischen geheiratet hatten.\n\nAm Ende des Abends waren sich alle einig, dass es schön war, sich wiederzusehen, obwohl das Leben sie in unterschiedliche Richtungen geführt hatte. Sie beschlossen, sich nicht wieder erst in zehn Jahren zu treffen, sondern die Gruppe weiter zu nutzen, um in Kontakt zu bleiben. Katrin war stolz, dass sie das Treffen organisiert hatte, und freute sich schon auf das nächste Wiedersehen.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin organisiert das Klassentreffen über eine Chatgruppe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur fünf ehemalige Mitschüler kommen zum Treffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige ehemalige Klassenkameraden haben inzwischen geheiratet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Anwesenden haben denselben Beruf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe möchte weiter in Kontakt bleiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-in-der-kunst",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz in der Kunst – Kreativität oder Kopie?",
+    "descripcion": "Ein Essay über die Rolle künstlicher Intelligenz in der zeitgenössischen Kunstszene.",
+    "texto": "In den vergangenen Jahren haben KI-generierte Bilder, Musikstücke und sogar literarische Texte für erhebliches Aufsehen gesorgt. Programme, die auf riesigen Datenmengen trainiert wurden, können mittlerweile Werke erschaffen, die von menschlicher Kunst kaum noch zu unterscheiden sind. Während einige diese Entwicklung als demokratisierende Kraft feiern, die es auch Laien ermöglicht, kreativ tätig zu werden, sehen andere darin eine Bedrohung für die künstlerische Originalität.\n\nBesonders umstritten ist die Frage, ob eine künstliche Intelligenz überhaupt als kreativ bezeichnet werden kann, wenn sie letztlich nur bestehende Werke rekombiniert, die von menschlichen Künstlern geschaffen wurden. Kritiker argumentieren, dass es sich bei den Ergebnissen um eine Form von Plagiat handle, da die Systeme ohne die Zustimmung der ursprünglichen Urheber trainiert würden. Würde man diese Praxis konsequent zu Ende denken, müsste jedes KI-generierte Werk eigentlich als abgeleitetes Produkt gekennzeichnet werden, was die aktuelle Rechtslage jedoch kaum vorsieht.\n\nAuf der anderen Seite betonen Befürworter, dass auch menschliche Künstler seit jeher von früheren Werken inspiriert werden und Einflüsse aufgreifen, ohne dass man ihnen deshalb Plagiat vorwirft. Manche Galerien haben bereits begonnen, KI-Kunst regulär auszustellen, während andere sie strikt ablehnen. Es bleibt abzuwarten, ob sich ein gesellschaftlicher Konsens darüber entwickeln wird, welchen Stellenwert maschinell erzeugte Kunst in Zukunft einnehmen soll, oder ob die Debatte weiterhin so polarisiert bleibt wie heute.",
+    "preguntas": [
+      {
+        "enunciado": "KI-generierte Werke sind mittlerweile kaum noch von menschlicher Kunst zu unterscheiden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker halten KI-Kunst für vollkommen unproblematisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker sehen in KI-Kunst eine Form von Plagiat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die aktuelle Rechtslage verlangt eine klare Kennzeichnung jedes KI-generierten Werks.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Galerien stellen bereits KI-Kunst aus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "freihandel-und-protektionismus",
+    "nivel": "B2",
+    "titulo": "Freihandel und Protektionismus – Wer profitiert vom Welthandel?",
+    "descripcion": "Eine Auseinandersetzung mit den Vor- und Nachteilen von freiem Handel und protektionistischen Maßnahmen.",
+    "texto": "Der internationale Handel gilt seit Jahrzehnten als treibende Kraft für wirtschaftliches Wachstum und Wohlstand. Befürworter des Freihandels argumentieren, dass offene Märkte den Wettbewerb fördern, Preise senken und Ländern erlauben, sich auf jene Produkte zu spezialisieren, die sie am effizientesten herstellen können. In den letzten Jahren mehren sich jedoch die Stimmen, die eine Rückkehr zu protektionistischen Maßnahmen fordern, um heimische Industrien zu schützen.\n\nEin zentrales Argument der Kritiker des Freihandels ist, dass ganze Wirtschaftszweige in wohlhabenden Ländern durch die Konkurrenz aus Niedriglohnländern verdrängt worden seien, was zu Arbeitsplatzverlusten in strukturschwachen Regionen geführt habe. Zudem wird bemängelt, dass multinationale Konzerne von globalen Lieferketten stärker profitieren als kleine und mittelständische Unternehmen, die sich dem internationalen Wettbewerb oft nicht gewachsen sehen. Würden Zölle und Handelsbarrieren wieder eingeführt, so die Befürworter des Protektionismus, könnten heimische Arbeitsplätze gesichert und die Abhängigkeit von einzelnen Handelspartnern verringert werden.\n\nGegner protektionistischer Politik warnen hingegen davor, dass höhere Zölle letztlich von den Verbrauchern getragen würden, da importierte Waren teurer würden. Außerdem bestehe die Gefahr, dass andere Staaten mit Gegenmaßnahmen reagierten, was zu einer Eskalation von Handelskonflikten führen könnte, wie es in der Vergangenheit bereits mehrfach beobachtet wurde. Angesichts der komplexen globalen Verflechtungen scheint es unwahrscheinlich, dass eine einfache Rückkehr zu geschlossenen Märkten die Probleme lösen würde, die durch den globalen Wettbewerb entstanden sind.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter des Freihandels sehen offene Märkte als Motor für Wohlstand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker des Freihandels sind der Meinung, dass niemand durch internationale Konkurrenz benachteiligt wird.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Protektionismus wird von manchen als Mittel zur Sicherung heimischer Arbeitsplätze gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner des Protektionismus befürchten, dass Zölle die Preise für Verbraucher senken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Höhere Zölle können zu Handelskonflikten zwischen Staaten führen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "barrierefreiheit-im-oeffentlichen-raum",
+    "nivel": "B2",
+    "titulo": "Barrierefreiheit im öffentlichen Raum – Inklusion als gesellschaftliche Aufgabe",
+    "descripcion": "Ein Text über die Herausforderungen und Fortschritte bei der Barrierefreiheit in deutschen Städten.",
+    "texto": "Obwohl Barrierefreiheit seit Jahren gesetzlich verankert ist, bleibt sie in vielen deutschen Städten eine unvollständig umgesetzte Vision. Menschen mit Behinderungen berichten immer wieder von Bahnhöfen ohne funktionierende Aufzüge, von Bürgersteigen, die durch parkende Autos blockiert werden, und von öffentlichen Gebäuden, die ohne Rollstuhlrampe kaum zugänglich sind. Dabei betrifft mangelnde Barrierefreiheit längst nicht nur Rollstuhlfahrer, sondern auch Menschen mit Sehbehinderungen, ältere Personen und Eltern mit Kinderwagen.\n\nInsbesondere im ländlichen Raum gestaltet sich die Situation oft schwieriger als in Großstädten, da dort seltener in moderne Infrastruktur investiert wird. Gleichzeitig weisen Verbände darauf hin, dass Barrierefreiheit nicht als kostspielige Zusatzleistung, sondern als grundlegendes Recht verstanden werden müsse, das allen Bürgerinnen und Bürgern gleichermaßen zustehe. Würde man öffentliche Bauprojekte von Anfang an konsequent barrierefrei planen, entstünden langfristig sogar geringere Kosten, als wenn nachträglich umgebaut werden müsse.\n\nErmutigend ist, dass in den letzten Jahren zunehmend digitale Lösungen entwickelt wurden, die Menschen mit Behinderungen den Alltag erleichtern sollen, etwa Apps, die barrierefreie Routen durch die Stadt anzeigen. Dennoch bleibt viel zu tun, bevor von einer wirklich inklusiven Gesellschaft gesprochen werden kann. Kritiker fordern daher verbindlichere gesetzliche Vorgaben und strengere Kontrollen, damit Barrierefreiheit nicht länger vom guten Willen einzelner Kommunen abhängt, sondern als selbstverständlicher Standard etabliert wird.",
+    "preguntas": [
+      {
+        "enunciado": "Barrierefreiheit ist in Deutschland gesetzlich vorgeschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mangelnde Barrierefreiheit betrifft ausschließlich Rollstuhlfahrer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im ländlichen Raum ist die Situation oft schwieriger als in Großstädten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nachträgliche Umbauten sind laut Text günstiger als von Anfang an barrierefrei zu planen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker fordern verbindlichere gesetzliche Vorgaben für Barrierefreiheit.",
+        "respuesta": true
+      }
+    ]
   }
 ]
