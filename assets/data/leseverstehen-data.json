@@ -11954,5 +11954,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-buchladen",
+    "nivel": "A1",
+    "titulo": "Im Buchladen",
+    "descripcion": "Lena kauft ein neues Buch für die Ferien.",
+    "texto": "Lena geht heute in den Buchladen in der Stadt. Sie sucht ein neues Buch für die Ferien. Der Buchladen ist klein, aber sehr gemütlich. Es gibt viele Regale mit Büchern für Kinder und Erwachsene.\n\nDie Verkäuferin fragt: „Suchst du ein bestimmtes Buch?“ Lena antwortet: „Ich mag Geschichten über Tiere.“ Die Verkäuferin zeigt Lena ein Buch über einen kleinen Hund. Lena findet das Buch toll und kauft es sofort.\n\nZu Hause setzt sich Lena auf ihr Bett und liest das erste Kapitel. Das Buch gefällt ihr sehr gut. Sie freut sich schon auf morgen, wenn sie weiterlesen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht in den Buchladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Buchladen ist sehr groß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena mag Geschichten über Autos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Verkäuferin zeigt Lena ein Buch über einen Hund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena liest das Buch zu Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-sportverein",
+    "nivel": "A1",
+    "titulo": "Der Sportverein",
+    "descripcion": "Tom trainiert zweimal die Woche im Sportverein.",
+    "texto": "Tom ist zehn Jahre alt und spielt gern Fußball. Jeden Dienstag und Donnerstag geht er zum Training im Sportverein. Der Verein heißt „TSV Grün-Weiß“ und ist nicht weit von seinem Haus.\n\nIm Training läuft Tom viel und übt das Schießen von Toren. Der Trainer heißt Herr Berger. Er ist nett und geduldig. Nach dem Training trinken die Kinder gemeinsam Wasser und reden über das nächste Spiel.\n\nAm Samstag hat Toms Mannschaft ein Spiel gegen einen anderen Verein. Tom ist aufgeregt und freut sich sehr. Seine Eltern kommen auch zum Spiel und schauen zu.",
+    "preguntas": [
+      {
+        "enunciado": "Tom spielt gern Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom trainiert jeden Montag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Trainer heißt Herr Berger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Training gehen die Kinder sofort nach Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Eltern kommen zum Spiel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-yogakurs",
+    "nivel": "A1",
+    "titulo": "Im Yogakurs",
+    "descripcion": "Frau Weber besucht jede Woche einen Yogakurs im Studio.",
+    "texto": "Frau Weber macht jeden Mittwochabend einen Yogakurs. Der Kurs ist in einem kleinen Studio in der Nähe vom Park. Zehn Personen machen mit.\n\nDie Lehrerin heißt Sabine. Sie zeigt langsame Übungen und spricht ruhig. Frau Weber mag den Kurs, weil sie sich danach entspannt fühlt. Sie legt eine Matte auf den Boden und macht die Übungen mit.\n\nNach dem Kurs trinken die Teilnehmer oft noch Tee zusammen. Sie reden über ihren Tag und lachen viel. Frau Weber geht immer gut gelaunt nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Der Yogakurs ist am Mittwochabend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zwanzig Personen machen den Kurs mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin heißt Sabine.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Weber fühlt sich nach dem Kurs gestresst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Kurs trinken die Teilnehmer manchmal Tee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-wanderung-an-der-mosel",
+    "nivel": "A2",
+    "titulo": "Eine Wanderung an der Mosel",
+    "descripcion": "Julia und Tim machen eine Wanderung durch die Weinberge an der Mosel.",
+    "texto": "Letzten Sommer haben Julia und ihr Bruder Tim eine Wanderung an der Mosel gemacht. Sie sind mit dem Zug bis nach Bernkastel-Kues gefahren und haben dort ihre Wanderschuhe angezogen. Der Weg führte durch Weinberge, und die Aussicht auf den Fluss war wunderschön.\n\nWeil es sehr warm war, haben sie oft Pausen gemacht und viel Wasser getrunken. Am Mittag haben sie sich in einem kleinen Dorf ausgeruht und ein Stück Kuchen gegessen. Tim hat gesagt, dass ihm der Wein aus der Region gut gefällt, aber Julia wollte lieber weiterwandern.\n\nAm Abend sind sie müde, aber zufrieden in ihrer Unterkunft angekommen. Sie haben Fotos von den Weinbergen gemacht und diese später ihren Eltern gezeigt. Beide fanden, dass die Wanderung eines der schönsten Erlebnisse des Sommers war.",
+    "preguntas": [
+      {
+        "enunciado": "Julia und Tim sind mit dem Auto zur Mosel gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Wanderweg führte durch Weinberge.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben keine Pausen gemacht, weil es kühl war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat den Wein aus der Region gemocht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend haben sie Fotos gemacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-termin-beim-kieferorthopaeden",
+    "nivel": "A2",
+    "titulo": "Ein Termin beim Kieferorthopäden",
+    "descripcion": "Max bekommt eine Zahnspange beim Kieferorthopäden.",
+    "texto": "Max ist dreizehn Jahre alt und musste letzte Woche zum Kieferorthopäden gehen, weil seine Zähne nicht ganz gerade stehen. Seine Mutter hat ihn begleitet, da er ein bisschen nervös war. In der Praxis hat die Ärztin zuerst Fotos von seinem Gebiss gemacht.\n\nDanach hat sie erklärt, dass Max eine Zahnspange bekommen soll. Max hatte Angst, dass es wehtun würde, aber die Ärztin hat gesagt, dass es nur am Anfang etwas unangenehm ist. Nachdem sie die Spange eingesetzt hatte, hat Max sich im Spiegel angeschaut und musste ein bisschen lachen.\n\nZu Hause hat er seiner kleinen Schwester von der Zahnspange erzählt. Sie fand die bunten Gummibänder toll und wollte sie sofort anfassen. Max muss die Spange zwei Jahre lang tragen, aber er freut sich schon auf gerade Zähne.",
+    "preguntas": [
+      {
+        "enunciado": "Max ist zum Kieferorthopäden gegangen, weil seine Zähne schief sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max ist allein zur Praxis gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin hat gesagt, dass die Spange nie wehtun wird.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max' Schwester fand die Gummibänder interessant.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max muss die Spange nur einen Monat tragen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-cousine",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Cousine",
+    "descripcion": "Mia schreibt ihrer Cousine Sophie einen Brief über die Neuigkeiten zu Hause.",
+    "texto": "Liebe Sophie,\n\nwie geht es dir? Ich habe lange nichts von dir gehört und wollte dir deshalb schreiben. Bei uns ist viel passiert, seitdem du uns im letzten Sommer besucht hast. Meine Familie ist in eine größere Wohnung umgezogen, weil wir mehr Platz brauchten.\n\nLetzte Woche habe ich in der Schule an einem Theaterprojekt teilgenommen. Wir haben ein kurzes Stück aufgeführt, und meine Eltern waren sehr stolz auf mich. Danach sind wir alle zusammen essen gegangen, um zu feiern.\n\nIch hoffe, dass du und deine Familie bald wieder zu Besuch kommen könnt. Wir könnten zusammen an den See fahren, so wie letztes Jahr. Schreib mir bald zurück und erzähl mir, was bei dir Neues ist!\n\nViele liebe Grüße,\nMia",
+    "preguntas": [
+      {
+        "enunciado": "Mia hat lange nichts von Sophie gehört.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Familie ist in eine kleinere Wohnung gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hat bei einem Theaterprojekt mitgemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Eltern waren enttäuscht von ihr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia möchte, dass Sophie wieder zu Besuch kommt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "jobmesse-an-der-universitaet",
+    "nivel": "B1",
+    "titulo": "Die Jobmesse an der Universität",
+    "descripcion": "Bei einer Jobmesse in Leipzig knüpft eine Studentin wichtige Kontakte.",
+    "texto": "An der Universität Leipzig fand letzte Woche eine große Jobmesse statt, bei der viele Unternehmen ihre Ausbildungs- und Praktikumsplätze vorstellten. Obwohl das Wetter schlecht war, kamen mehrere Hundert Studierende, um sich über ihre Möglichkeiten nach dem Studium zu informieren. Viele hatten sich vorher genau überlegt, welche Firmen für sie interessant sein könnten.\n\nNachdem die Studentin Laura mehrere Gespräche geführt hatte, war sie zunächst enttäuscht, weil die meisten Stellen nicht zu ihrem Fachbereich passten. Trotzdem entdeckte sie am Nachmittag einen Stand einer Softwarefirma, die genau nach jemandem mit ihrem Profil suchte. Sie sprach lange mit einer Personalerin und bekam direkt eine Einladung zu einem Vorstellungsgespräch.\n\nAm Ende des Tages waren die meisten Teilnehmer zufrieden, obwohl nicht jeder sofort ein Angebot erhalten hatte. Viele nahmen zumindest wertvolle Kontakte und Visitenkarten mit nach Hause. Die Veranstalter kündigten bereits an, dass die Jobmesse im nächsten Jahr noch größer werden soll.",
+    "preguntas": [
+      {
+        "enunciado": "Die Jobmesse fand an der Universität Leipzig statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des schlechten Wetters kamen nur wenige Studierende.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura war am Anfang von den Gesprächen enttäuscht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura hat keine Einladung zu einem Vorstellungsgespräch bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Jobmesse soll im nächsten Jahr wieder stattfinden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kurzurlaub-an-der-nordsee",
+    "nivel": "B1",
+    "titulo": "Ein Kurzurlaub an der Nordsee",
+    "descripcion": "Familie Hansen verbringt ein verlängertes Wochenende an der Nordsee.",
+    "texto": "Familie Hansen hatte schon lange keinen gemeinsamen Urlaub mehr gemacht, deshalb beschlossen sie, ein verlängertes Wochenende an die Nordsee zu fahren. Obwohl die Fahrt wegen eines Staus länger dauerte als geplant, kamen sie am späten Nachmittag gut in ihrer Ferienwohnung an. Die Kinder freuten sich riesig, als sie zum ersten Mal das Meer sahen.\n\nAm nächsten Tag wanderten sie bei Ebbe durch das Watt, was den Kindern besonders gut gefiel. Nachdem sie stundenlang nach Muscheln und kleinen Krebsen gesucht hatten, waren alle hungrig und gingen in ein Fischrestaurant am Hafen. Trotz des windigen Wetters saßen sie draußen und genossen den Blick auf die Boote.\n\nAm letzten Abend gingen sie noch einmal an den Strand, um den Sonnenuntergang zu sehen. Die Kinder wollten am liebsten gar nicht mehr nach Hause fahren. Familie Hansen war sich einig, dass sie bald wiederkommen wollten, auch wenn die Anreise etwas anstrengend gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Hansen ist an die Ostsee gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt dauerte wegen eines Staus länger als geplant.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder mochten die Wattwanderung nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben in einem Fischrestaurant am Hafen gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie möchte nie wieder an die Nordsee fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "reise-zur-hochzeit-der-freundin",
+    "nivel": "B1",
+    "titulo": "Die Reise zur Hochzeit einer Freundin",
+    "descripcion": "Carla reist zur Hochzeit ihrer besten Freundin Nina in eine andere Stadt.",
+    "texto": "Als Carla die Einladung zur Hochzeit ihrer besten Freundin Nina erhielt, freute sie sich riesig, obwohl die Feier in einer Stadt stattfand, die mehrere Stunden entfernt lag. Sie buchte sofort einen Zug und ein Hotelzimmer, damit sie rechtzeitig ankommen würde. Nachdem sie ein passendes Kleid gekauft hatte, konnte sie es kaum erwarten, ihre Freundin wiederzusehen.\n\nDie Zugfahrt war lang und anstrengend, weil es unterwegs eine Verspätung gab. Trotzdem kam Carla pünktlich zur Trauung an und war überglücklich, als sie Nina in ihrem Hochzeitskleid sah. Während der Feier hielt Carla eine kleine Rede, in der sie von den vielen gemeinsamen Erinnerungen erzählte, und einige Gäste mussten dabei lachen und weinen zugleich.\n\nAm nächsten Morgen, bevor sie zurückfuhr, trafen sich Carla und Nina noch einmal zum Frühstück. Sie versprachen sich, in Zukunft öfter Zeit füreinander zu finden, auch wenn beide inzwischen in verschiedenen Städten lebten. Für Carla war die Reise trotz der langen Fahrt eine der schönsten Erfahrungen des Jahres.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat geheiratet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Feier fand in Carlas eigener Stadt statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zugfahrt hatte keine Verspätung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carla hat bei der Feier eine Rede gehalten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla und Nina wollen sich in Zukunft weniger sehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "elektroschrott-digitaler-muell",
+    "nivel": "B2",
+    "titulo": "Elektroschrott – Der wachsende Berg an digitalem Müll",
+    "descripcion": "Elektroschrott wächst weltweit; Hersteller und Verbraucher stehen in der Verantwortung.",
+    "texto": "Jedes Jahr werden weltweit Millionen Tonnen an Elektrogeräten weggeworfen, sei es das alte Smartphone, das kaputte Ladekabel oder der ausgediente Laptop. Ein Großteil dieses sogenannten Elektroschrotts wird nicht fachgerecht recycelt, sondern landet auf Deponien oder wird in ärmere Länder exportiert, wo er unter gesundheitsschädlichen Bedingungen zerlegt wird. Kritiker bemängeln, dass die Hersteller zu wenig Verantwortung für die von ihnen produzierten Geräte übernehmen, obwohl gesetzliche Rücknahmepflichten existieren.\n\nEin zentrales Problem sei, wie Umweltverbände betonen, die sogenannte geplante Obsoleszenz: Geräte werden so konstruiert, dass sie nach wenigen Jahren nicht mehr repariert werden können oder ein Software-Update die Leistung künstlich verschlechtert. Würden Hersteller stattdessen auf langlebigere und leichter reparierbare Produkte setzen, könnte die Menge an Elektroschrott deutlich reduziert werden. Tatsächlich zeigen erste Studien, dass ein verlängerter Nutzungszeitraum von nur einem Jahr pro Gerät die weltweite Schrottmenge spürbar senken würde.\n\nDie Europäische Union hat inzwischen reagiert und ein „Recht auf Reparatur“ eingeführt, das Verbraucher dazu ermutigen soll, Geräte reparieren zu lassen, anstatt sie durch neue zu ersetzen. Auch einheitliche Ladekabel für alle mobilen Geräte wurden gesetzlich vorgeschrieben, um unnötigen Elektroschrott zu vermeiden. Ob diese Maßnahmen ausreichen, um das Problem grundlegend zu lösen, bleibt jedoch umstritten, denn der weltweite Konsum elektronischer Geräte wächst weiterhin ungebremst.\n\nManche Experten fordern deshalb, dass Hersteller stärker in die Pflicht genommen werden sollten, etwa durch verpflichtende Rücknahmesysteme und höhere Recyclingquoten. Andere setzen eher auf das Bewusstsein der Verbraucher, die durch bewussteren Konsum und längere Nutzungsdauern selbst zur Lösung beitragen könnten. Klar ist jedenfalls, dass ohne ein Umdenken auf beiden Seiten der Berg an digitalem Müll weiter wachsen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der größte Teil des Elektroschrotts wird fachgerecht recycelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Geplante Obsoleszenz bedeutet, dass Geräte absichtlich eine begrenzte Lebensdauer haben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die EU hat ein Recht auf Reparatur eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Einheitliche Ladekabel wurden gesetzlich verboten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text ist das Problem des Elektroschrotts bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "cybersicherheit-unternehmen-im-visier",
+    "nivel": "B2",
+    "titulo": "Cybersicherheit – Unternehmen im Visier von Hackern",
+    "descripcion": "Cyberangriffe auf Unternehmen nehmen zu, besonders kleine Betriebe sind gefährdet.",
+    "texto": "In den letzten Jahren ist die Zahl der Cyberangriffe auf Unternehmen drastisch gestiegen, wobei besonders kleine und mittelständische Betriebe zunehmend ins Visier von Kriminellen geraten. Anders als große Konzerne verfügen viele dieser Firmen weder über eine eigene IT-Sicherheitsabteilung noch über ausreichende finanzielle Mittel, um sich wirksam zu schützen. Besonders sogenannte Ransomware-Angriffe, bei denen Daten verschlüsselt und erst gegen Lösegeld wieder freigegeben werden, richten enorme wirtschaftliche Schäden an.\n\nWürde ein Unternehmen konsequent in regelmäßige Sicherheitsupdates, Mitarbeiterschulungen und Datensicherungen investieren, ließe sich das Risiko eines erfolgreichen Angriffs deutlich verringern. In der Praxis wird jedoch oft erst gehandelt, nachdem ein Schaden bereits eingetreten ist, was Sicherheitsexperten als „reaktive Kultur“ kritisieren. Hinzu kommt, dass viele Angriffe über vermeintlich harmlose E-Mails erfolgen, die von unaufmerksamen Mitarbeitenden geöffnet werden.\n\nAuf politischer Ebene wird diskutiert, ob Unternehmen zukünftig gesetzlich dazu verpflichtet werden sollten, Mindeststandards bei der Cybersicherheit einzuhalten. Befürworter argumentieren, dass eine solche Regelung insbesondere kleinere Betriebe zu notwendigen Investitionen zwingen würde, die sie sonst aus Kostengründen vermeiden. Gegner hingegen befürchten, dass zusätzliche bürokratische Auflagen gerade jene Unternehmen belasten könnten, die ohnehin schon mit knappen Ressourcen arbeiten.\n\nUnabhängig davon, wie diese Debatte ausgeht, sind sich die meisten Fachleute einig, dass Cybersicherheit künftig kein optionales Extra mehr sein darf, sondern als fester Bestandteil jeder Unternehmensstrategie betrachtet werden muss. Angesichts der wachsenden Digitalisierung nahezu aller Geschäftsprozesse dürfte sich diese Einschätzung in den kommenden Jahren weiter verschärfen.",
+    "preguntas": [
+      {
+        "enunciado": "Vor allem große Konzerne sind laut Text von Cyberangriffen betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bei Ransomware-Angriffen werden Daten verschlüsselt und gegen Lösegeld freigegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Viele Unternehmen investieren laut Text schon präventiv ausreichend in Sicherheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wird diskutiert, ob gesetzliche Mindeststandards für Cybersicherheit eingeführt werden sollten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text halten Fachleute Cybersicherheit für ein unwichtiges Extra.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wasserknappheit-trinkwasser",
+    "nivel": "B2",
+    "titulo": "Wasserknappheit – Wenn das Trinkwasser knapp wird",
+    "descripcion": "Trockene Sommer zeigen, dass auch Deutschland von Wasserknappheit betroffen sein kann.",
+    "texto": "Während Wasserknappheit lange Zeit als ein Problem ferner, trockener Regionen galt, zeigt sich inzwischen auch in Deutschland, dass Trinkwasser keine unbegrenzte Ressource ist. Mehrere trockene Sommer in Folge haben dazu geführt, dass Grundwasserspiegel in einigen Regionen deutlich gesunken sind, was zu Nutzungseinschränkungen wie einem Verbot des Rasensprengens geführt hat. Landwirte klagen zudem über sinkende Erträge, weil die für die Bewässerung benötigten Wassermengen nicht mehr überall verfügbar sind.\n\nBesonders betroffen sind Regionen, in denen Landwirtschaft, Industrie und private Haushalte um dieselben begrenzten Wasserressourcen konkurrieren. Würde der Wasserverbrauch nicht stärker reguliert, könnten Konflikte zwischen diesen Interessengruppen in Zukunft zunehmen, warnen Fachleute. Bereits jetzt wird in manchen Kommunen diskutiert, wem im Falle einer Dürre Vorrang bei der Wasserversorgung eingeräumt werden soll.\n\nAls mögliche Lösungsansätze werden unter anderem eine effizientere Bewässerungstechnik in der Landwirtschaft sowie eine stärkere Nutzung von Regenwasser in Privathaushalten genannt. Auch die Industrie wird zunehmend dazu aufgefordert, Wasser in geschlossenen Kreisläufen wiederzuverwenden, anstatt es nach einmaligem Gebrauch abzuleiten. Kritiker bemängeln jedoch, dass viele dieser Maßnahmen bislang nur freiwillig umgesetzt werden und daher zu langsam vorankommen.\n\nAngesichts des fortschreitenden Klimawandels gehen viele Expertinnen und Experten davon aus, dass sich die Situation in den kommenden Jahrzehnten weiter zuspitzen wird, sofern nicht frühzeitig gegengesteuert wird. Ein bewussterer Umgang mit Wasser, so die einhellige Meinung, werde daher auch in einem wasserreichen Land wie Deutschland künftig unverzichtbar sein.",
+    "preguntas": [
+      {
+        "enunciado": "Wasserknappheit betrifft dem Text zufolge inzwischen auch Deutschland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Grundwasserspiegel sind in einigen Regionen gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Landwirte klagen über sinkende Erträge wegen fehlenden Bewässerungswassers.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind alle Maßnahmen zur Wassereinsparung bereits gesetzlich verpflichtend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten erwarten, dass sich die Lage ohne Gegenmaßnahmen weiter zuspitzt.",
+        "respuesta": true
+      }
+    ]
   }
 ]
