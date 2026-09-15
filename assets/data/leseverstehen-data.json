@@ -10910,5 +10910,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "beim-baecker",
+    "nivel": "A1",
+    "titulo": "Beim Bäcker",
+    "descripcion": "Lisa kauft morgens frisches Brot und Brötchen beim Bäcker.",
+    "texto": "Lisa steht früh auf. Sie geht zum Bäcker in ihrer Straße. Der Bäcker heißt Herr Klein und ist sehr freundlich. Lisa möchte zwei Brötchen und ein Vollkornbrot kaufen. Die Brötchen sind noch warm.\n\n„Guten Morgen, Lisa! Was möchtest du heute?\", fragt Herr Klein. Lisa antwortet: „Zwei Brötchen und ein Brot, bitte.\" Sie bezahlt drei Euro. Herr Klein gibt ihr eine kleine Tüte mit Brot. Lisa sagt „Danke schön\" und geht nach Hause.\n\nZu Hause frühstückt Lisa mit ihrer Familie. Sie essen Brötchen mit Marmelade und trinken Tee. Das Frühstück schmeckt sehr gut.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa geht zum Bäcker in ihrer Straße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bäcker heißt Herr Schmidt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa kauft zwei Brötchen und ein Brot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa bezahlt zehn Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie frühstückt zusammen zu Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unser-neuer-hund",
+    "nivel": "A1",
+    "titulo": "Unser neuer Hund",
+    "descripcion": "Die Familie Bauer kauft einen kleinen Hund und gibt ihm einen Namen.",
+    "texto": "Die Familie Bauer hat einen neuen Hund. Der Hund ist klein und braun. Die Kinder Tim und Mia sind sehr glücklich. Sie geben dem Hund den Namen Bruno.\n\nBruno schläft in einem Korb in der Küche. Jeden Morgen geht Tim mit Bruno spazieren. Mia gibt Bruno sein Futter. Bruno mag Fleisch und Wasser sehr gern. Er spielt auch gern mit einem Ball im Garten.\n\nAm Abend sitzt die ganze Familie im Wohnzimmer. Bruno liegt auf dem Teppich und schläft. Alle finden Bruno sehr süß.",
+    "preguntas": [
+      {
+        "enunciado": "Der neue Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist groß und schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia gibt Bruno sein Futter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno spielt nicht gern im Garten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend liegt Bruno auf dem Teppich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-zoo",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Zoo",
+    "descripcion": "Paul besucht mit seiner Klasse den Zoo und sieht viele Tiere.",
+    "texto": "Paul geht heute mit seiner Klasse in den Zoo. Der Zoo ist sehr groß. Die Kinder sehen Löwen, Elefanten und Affen. Paul mag die Affen am liebsten, weil sie so lustig klettern.\n\nUm zwölf Uhr essen die Kinder ihr Mittagessen im Park. Sie haben Brote und Obst dabei. Danach gehen sie zu den Pinguinen. Die Pinguine schwimmen im Wasser und die Kinder lachen viel.\n\nAm Ende des Tages kauft die Lehrerin für jedes Kind ein Eis. Paul isst ein Schokoladeneis. Der Tag im Zoo war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Paul besucht den Zoo mit seiner Familie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul mag die Affen am liebsten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder essen ihr Mittagessen im Restaurant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Pinguine schwimmen im Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende bekommt jedes Kind ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-schluessel",
+    "nivel": "A2",
+    "titulo": "Der verlorene Schlüssel",
+    "descripcion": "Jonas hat seinen Wohnungsschlüssel verloren und muss ihn suchen.",
+    "texto": "Gestern Abend ist Jonas nach der Arbeit nach Hause gekommen und hat seinen Schlüssel gesucht. Er hat die Taschen von seiner Jacke und seiner Hose durchsucht, aber der Schlüssel war nicht da. Jonas hat sich sehr geärgert, weil es schon spät und kalt war.\n\nEr hat seine Nachbarin, Frau Roth, gefragt, ob sie einen Ersatzschlüssel hat. Zum Glück hatte Frau Roth einen Schlüssel, den Jonas vor einem Jahr bei ihr gelassen hatte. Sie hat ihm den Schlüssel gegeben, und Jonas konnte endlich in seine Wohnung gehen.\n\nAm nächsten Tag hat Jonas den Weg zur Arbeit noch einmal abgelaufen, weil er dachte, dass er den Schlüssel dort verloren hatte. Tatsächlich hat er den Schlüssel neben einer Bank gefunden. Er war sehr erleichtert und hat sich bei Frau Roth mit einem Kuchen bedankt.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat seinen Schlüssel sofort in der Jackentasche gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Roth hatte einen Ersatzschlüssel für Jonas.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas musste die ganze Nacht draußen bleiben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat den Schlüssel neben einer Bank gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat sich bei Frau Roth nicht bedankt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "besuch-beim-zahnarzt",
+    "nivel": "A2",
+    "titulo": "Besuch beim Zahnarzt",
+    "descripcion": "Sofie hat Zahnschmerzen und muss zum Zahnarzt gehen.",
+    "texto": "Sofie hatte seit zwei Tagen starke Zahnschmerzen. Weil der Schmerz immer schlimmer wurde, hat sie einen Termin beim Zahnarzt gemacht. Sie hatte ein bisschen Angst, weil sie den Zahnarzt nicht so gern mag.\n\nIm Wartezimmer hat Sofie eine Zeitschrift gelesen, um ruhiger zu werden. Als die Assistentin ihren Namen gerufen hat, ist Sofie ins Behandlungszimmer gegangen. Der Zahnarzt hat den Zahn genau untersucht und gesagt, dass Sofie ein kleines Loch im Zahn hat. Er hat den Zahn schnell und ohne viele Schmerzen behandelt.\n\nNach der Behandlung hat Sofie sich viel besser gefühlt. Der Zahnarzt hat ihr erklärt, dass sie besser zweimal am Tag die Zähne putzen soll. Sofie hat versprochen, das zu machen, damit sie keine Schmerzen mehr bekommt.",
+    "preguntas": [
+      {
+        "enunciado": "Sofie hatte seit zwei Tagen Zahnschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie geht sehr gern zum Zahnarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zahnarzt findet ein kleines Loch im Zahn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Behandlung war sehr schmerzhaft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofie soll zweimal am Tag die Zähne putzen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fahrradtour-am-fluss",
+    "nivel": "A2",
+    "titulo": "Fahrradtour am Fluss",
+    "descripcion": "Erik und seine Schwester machen eine Fahrradtour entlang des Flusses.",
+    "texto": "Am Sonntag haben Erik und seine Schwester Nina eine Fahrradtour entlang des Flusses gemacht. Sie sind schon um neun Uhr losgefahren, weil das Wetter am Vormittag noch kühl war. Der Weg am Fluss war sehr schön, und sie haben viele Vögel gesehen.\n\nNach einer Stunde haben sie eine Pause gemacht, weil Nina Hunger hatte. Sie haben sich auf eine Bank gesetzt und Brote gegessen, die sie von zu Hause mitgenommen hatten. Danach sind sie weitergefahren, obwohl der Wind stärker geworden ist.\n\nAm Nachmittag sind sie in einem kleinen Dorf angekommen. Dort haben sie ein Eis gekauft und sich ausgeruht. Weil es schon spät wurde, sind sie mit dem Zug nach Hause gefahren und haben ihre Fahrräder mitgenommen.",
+    "preguntas": [
+      {
+        "enunciado": "Erik und Nina sind am Nachmittag losgefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben am Fluss viele Vögel gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hatte während der Tour keinen Hunger.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben in einem Dorf ein Eis gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende sind sie mit dem Zug nach Hause gefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "bewerbung-um-ein-stipendium",
+    "nivel": "B1",
+    "titulo": "Bewerbung um ein Stipendium",
+    "descripcion": "Melanie bewirbt sich um ein Stipendium, um ein Semester im Ausland zu studieren.",
+    "texto": "Melanie studiert im dritten Semester Wirtschaftswissenschaften und möchte gerne ein Auslandssemester in Spanien machen. Weil so ein Aufenthalt viel Geld kostet, hat sie beschlossen, sich um ein Stipendium zu bewerben. Sie hat mehrere Wochen gebraucht, um alle nötigen Unterlagen zusammenzustellen, darunter einen Motivationsbrief und ein Empfehlungsschreiben von ihrer Professorin.\n\nObwohl Melanie sich viel Mühe gegeben hat, war sie sich nicht sicher, ob ihre Bewerbung erfolgreich sein würde, da sich normalerweise sehr viele Studierende bewerben. Nachdem sie die Unterlagen abgeschickt hatte, musste sie mehrere Wochen auf eine Antwort warten. In dieser Zeit hat sie sich schon einmal über die Universität in Spanien informiert und mit ehemaligen Austauschstudenten gesprochen.\n\nSchließlich bekam Melanie die gute Nachricht per E-Mail: Sie hatte das Stipendium bekommen. Trotzdem musste sie sich noch um viele organisatorische Dinge kümmern, etwa um eine Wohnung und die Anerkennung ihrer Kurse. Melanie freut sich riesig auf die neue Erfahrung, obwohl sie auch ein wenig Angst vor der fremden Sprache hat.",
+    "preguntas": [
+      {
+        "enunciado": "Melanie möchte ein Auslandssemester in Spanien machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Melanie hat sich nicht um ein Stipendium beworben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Melanie musste mehrere Wochen auf eine Antwort warten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Melanie hat das Stipendium nicht bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Melanie hat auch nach der Zusage noch organisatorische Aufgaben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streit-mit-dem-mitbewohner",
+    "nivel": "B1",
+    "titulo": "Streit mit dem Mitbewohner",
+    "descripcion": "Tobias und sein Mitbewohner geraten wegen der Hausarbeit in Konflikt.",
+    "texto": "Tobias wohnt seit einem Jahr mit seinem Mitbewohner Felix in einer gemeinsamen Wohnung. Meistens verstehen sich die beiden gut, aber in letzter Zeit gab es immer wieder Streit wegen der Hausarbeit. Tobias findet, dass Felix nie das Geschirr spült, obwohl sie sich eigentlich abwechseln sollten.\n\nNachdem Tobias das Thema mehrmals angesprochen hatte, ohne dass sich etwas änderte, wurde er richtig wütend. Eines Abends hat er Felix direkt darauf angesprochen, und es kam zu einem lauten Streit. Felix meinte, er habe einfach zu viel Stress mit der Arbeit und vergesse deshalb oft die Hausarbeit.\n\nAm nächsten Tag haben sich beide beruhigt und über das Problem in Ruhe gesprochen. Sie haben beschlossen, einen Putzplan zu erstellen, damit klar ist, wer wann für was verantwortlich ist. Obwohl der Streit unangenehm war, hat er dazu geführt, dass die beiden ihre Kommunikation verbessert haben.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias und Felix wohnen seit einem Jahr zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Streit ging um die Wohnungskosten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat gesagt, dass er wegen der Arbeit gestresst ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden haben nie wieder miteinander gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende haben sie einen Putzplan erstellt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sprachaustausch-in-wien",
+    "nivel": "B1",
+    "titulo": "Sprachaustausch in Wien",
+    "descripcion": "Carla nimmt an einem Sprachaustausch in Wien teil und lernt neue Freunde kennen.",
+    "texto": "Carla hat sich entschieden, an einem zweiwöchigen Sprachaustausch in Wien teilzunehmen, um ihr Deutsch zu verbessern. Am ersten Tag war sie ziemlich nervös, weil sie niemanden kannte und sich nicht sicher war, ob ihr Deutsch gut genug ist. Schon nach kurzer Zeit hat sie jedoch andere Teilnehmer aus verschiedenen Ländern kennengelernt.\n\nWährend des Austauschs hat Carla morgens Deutschunterricht gehabt und nachmittags an verschiedenen Aktivitäten teilgenommen, zum Beispiel an einer Stadtführung und einem Kochkurs. Nachdem sie einige Tage in Wien verbracht hatte, fühlte sie sich schon viel sicherer beim Sprechen. Besonders die Gespräche mit ihrer Gastfamilie haben ihr geholfen, alltägliche Ausdrücke zu lernen.\n\nAm Ende des Austauschs war Carla ein bisschen traurig, weil sie ihre neuen Freunde und die Gastfamilie verlassen musste. Trotzdem war sie sehr zufrieden, weil sie ihr Ziel erreicht hatte: Sie konnte jetzt viel flüssiger Deutsch sprechen als vorher. Sie hat versprochen, mit ihren neuen Freunden in Kontakt zu bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Carla nimmt an einem einwöchigen Austausch teil.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carla lernt Teilnehmer aus verschiedenen Ländern kennen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag hatte Carla nur Deutschunterricht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gastfamilie hat Carla geholfen, alltägliche Ausdrücke zu lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla möchte den Kontakt zu ihren neuen Freunden nicht behalten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "debatte-um-autonome-fahrzeuge",
+    "nivel": "B2",
+    "titulo": "Debatte um autonome Fahrzeuge",
+    "descripcion": "Selbstfahrende Autos werfen neue rechtliche und ethische Fragen auf.",
+    "texto": "Autonome Fahrzeuge gelten seit Jahren als eine der vielversprechendsten Entwicklungen der Verkehrstechnologie. Befürworter argumentieren, dass selbstfahrende Autos, sofern sie flächendeckend eingesetzt würden, die Zahl der Verkehrsunfälle erheblich reduzieren könnten, da die meisten Unfälle auf menschliches Fehlverhalten zurückzuführen sind. Zudem könnten Menschen mit eingeschränkter Mobilität durch solche Fahrzeuge deutlich mehr Unabhängigkeit gewinnen.\n\nGleichzeitig wirft die Technologie erhebliche rechtliche und ethische Fragen auf, die bislang nur unzureichend geklärt sind. Wer haftet beispielsweise, wenn ein autonomes Fahrzeug einen Unfall verursacht: der Hersteller, der Softwareentwickler oder der Fahrzeughalter? Auch die Frage, wie ein Fahrzeug in einer unausweichlichen Gefahrensituation entscheiden sollte, wird kontrovers diskutiert. Manche Ethiker fordern, dass solche Entscheidungsalgorithmen von unabhängigen Gremien überprüft werden sollten, bevor sie zugelassen werden.\n\nHinzu kommt die Sorge, dass durch die zunehmende Automatisierung zahlreiche Arbeitsplätze, etwa im Transportgewerbe, wegfallen könnten. Während einige Experten glauben, dass neue Berufsfelder entstehen würden, befürchten andere einen deutlichen Verlust an Beschäftigung für gering qualifizierte Arbeitskräfte. Es bleibt daher fraglich, ob und wie schnell autonome Fahrzeuge in naher Zukunft den Straßenverkehr tatsächlich dominieren werden.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter erwarten durch autonome Fahrzeuge weniger Verkehrsunfälle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Haftungsfrage bei Unfällen ist laut Text bereits vollständig geklärt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Ethiker fordern eine Überprüfung der Entscheidungsalgorithmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass keine Arbeitsplätze verloren gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erklärt, dass autonome Fahrzeuge auch soziale und wirtschaftliche Folgen haben können.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "gentrifizierung-in-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Gentrifizierung in Großstädten",
+    "descripcion": "Steigende Mieten verändern das Gesicht vieler innerstädtischer Viertel.",
+    "texto": "In vielen deutschen Großstädten hat sich das Erscheinungsbild einst einfacher Wohnviertel in den letzten Jahren stark verändert. Alte Fabrikgebäude werden zu modernen Lofts umgebaut, kleine Läden weichen teuren Cafés und Boutiquen, und die Mieten steigen kontinuierlich an. Dieser Prozess, der als Gentrifizierung bezeichnet wird, sorgt in vielen Stadtteilen für hitzige Diskussionen zwischen Alteingesessenen und Neuzugezogenen.\n\nBefürworter der Entwicklung verweisen darauf, dass durch Investitionen die Infrastruktur verbessert und die Kriminalität in manchen Vierteln gesenkt werde. Kritiker hingegen beklagen, dass langjährige Bewohner, die sich die steigenden Mieten nicht mehr leisten können, gezwungen seien, in günstigere Randbezirke umzuziehen. Dadurch gehe nicht nur soziale Durchmischung verloren, sondern auch ein Stück der ursprünglichen Identität des Viertels.\n\nUm dieser Entwicklung entgegenzuwirken, haben einige Städte Maßnahmen wie Mietpreisbremsen oder den Bau von Sozialwohnungen eingeführt. Ob solche Instrumente tatsächlich ausreichen, um die Verdrängung einkommensschwächerer Bevölkerungsgruppen aufzuhalten, wird von Stadtforschern jedoch unterschiedlich bewertet. Sicher scheint nur, dass die Debatte um bezahlbaren Wohnraum in den kommenden Jahren an Bedeutung weiter zunehmen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Gentrifizierung führt laut Text zu steigenden Mieten in innerstädtischen Vierteln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bewohner begrüßen die Gentrifizierung ohne Einschränkungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass langjährige Bewohner verdrängt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text erwähnt keine staatlichen Gegenmaßnahmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Stadtforscher sind sich über die Wirksamkeit der Maßnahmen uneinig.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-klassenzimmer",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Klassenzimmer",
+    "descripcion": "KI-gestützte Lernprogramme verändern den Schulunterricht und werfen neue Fragen auf.",
+    "texto": "Immer mehr Schulen setzen künstliche Intelligenz ein, um den Unterricht individueller zu gestalten. Lernprogramme, die mithilfe von Algorithmen den Wissensstand einzelner Schüler analysieren, sollen Aufgaben passgenau an das jeweilige Lerntempo anpassen. Befürworter dieser Entwicklung argumentieren, dass leistungsschwächere Schüler dadurch gezielter gefördert und leistungsstärkere Schüler stärker gefordert werden könnten.\n\nGleichzeitig äußern Pädagogen und Eltern Bedenken hinsichtlich des Datenschutzes, da für eine präzise Analyse sehr viele persönliche Daten der Kinder gesammelt werden müssten. Kritiker befürchten zudem, dass eine zu starke Abhängigkeit von digitalen Lernprogrammen die soziale Interaktion im Klassenzimmer beeinträchtigen könnte. Wäre der Unterricht ausschließlich auf individualisiertes digitales Lernen ausgerichtet, so warnen manche Experten, gingen wichtige Aspekte des gemeinsamen Lernens verloren.\n\nBefürworter entgegnen, dass künstliche Intelligenz Lehrkräfte keineswegs ersetzen, sondern lediglich als zusätzliches Werkzeug im Unterricht dienen solle. Entscheidend sei, dass Lehrerinnen und Lehrer weiterhin die pädagogische Verantwortung trügen und die Technologie sinnvoll in den Unterricht integrierten. Wie sich der Einsatz von KI im Klassenzimmer langfristig auf die Bildungsqualität auswirken wird, lässt sich derzeit noch nicht abschließend beurteilen.",
+    "preguntas": [
+      {
+        "enunciado": "KI-Lernprogramme sollen Aufgaben an das individuelle Lerntempo anpassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Datenschutz spielt bei der Debatte laut Text keine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten warnen vor einem Verlust sozialer Interaktion im Unterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter meinen, KI solle die Lehrkräfte vollständig ersetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text bewertet die langfristigen Auswirkungen von KI im Unterricht als bereits eindeutig geklärt.",
+        "respuesta": false
+      }
+    ]
   }
 ]
