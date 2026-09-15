@@ -11606,5 +11606,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-lieblingsjahreszeit",
+    "nivel": "A1",
+    "titulo": "Meine Lieblingsjahreszeit",
+    "descripcion": "Julia erzählt, warum der Sommer ihre Lieblingsjahreszeit ist.",
+    "texto": "Ich heiße Julia. Meine Lieblingsjahreszeit ist der Sommer. Im Sommer ist das Wetter warm und sonnig. Ich trage kurze Hosen und ein T-Shirt. Die Tage sind lang und hell.\n\nIm Sommer gehe ich oft ins Schwimmbad. Meine Freunde kommen auch mit. Wir schwimmen und spielen Ball. Danach essen wir ein Eis. Das Eis schmeckt sehr gut.\n\nAm Abend sitzen wir im Garten. Wir hören Musik und lachen viel. Der Sommer ist für mich die schönste Zeit im Jahr. Im Winter bleibe ich lieber zu Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Julias Lieblingsjahreszeit ist der Winter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Sommer trägt Julia kurze Hosen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia geht im Sommer oft ins Schwimmbad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia isst nach dem Schwimmen ein Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia bleibt im Sommer lieber zu Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-elektronikladen",
+    "nivel": "A1",
+    "titulo": "Im Elektronikladen",
+    "descripcion": "Paul kauft sich einen neuen Kopfhörer im Elektronikladen.",
+    "texto": "Paul braucht einen neuen Kopfhörer. Er geht in den Elektronikladen in der Stadt. Der Laden ist groß und hat viele Regale. Paul sieht Handys, Kopfhörer und Lautsprecher.\n\nEin Verkäufer fragt: „Kann ich Ihnen helfen?\" Paul sagt: „Ja, ich suche einen Kopfhörer.\" Der Verkäufer zeigt ihm drei Modelle. Paul testet die Kopfhörer und hört Musik. Der blaue Kopfhörer gefällt ihm am besten. Er kostet dreißig Euro.\n\nPaul bezahlt an der Kasse. Die Verkäuferin packt den Kopfhörer in eine Tüte. Paul ist sehr zufrieden. Zu Hause hört er sofort seine Lieblingsmusik.",
+    "preguntas": [
+      {
+        "enunciado": "Paul sucht einen neuen Kopfhörer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Elektronikladen ist klein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verkäufer zeigt Paul fünf Modelle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der blaue Kopfhörer kostet dreißig Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul ist mit seinem Kauf unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-familienfeier",
+    "nivel": "A1",
+    "titulo": "Die Familienfeier",
+    "descripcion": "Familie Berger feiert Omas achtzigsten Geburtstag.",
+    "texto": "Heute ist eine Familienfeier bei Familie Berger. Oma wird achtzig Jahre alt. Die ganze Familie kommt: die Eltern, die Kinder und die Großeltern. Das Haus ist mit Blumen und Luftballons dekoriert.\n\nAuf dem Tisch stehen viele Speisen. Es gibt Kuchen, Salat und Würstchen. Die Kinder spielen im Garten. Die Erwachsenen sitzen zusammen und reden. Oma freut sich sehr über die vielen Gäste.\n\nAm Nachmittag singt die Familie ein Geburtstagslied. Oma bekommt viele Geschenke. Sie lächelt und dankt allen. Die Feier dauert bis zum Abend. Alle sind glücklich und müde.",
+    "preguntas": [
+      {
+        "enunciado": "Oma wird achtzig Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Feier findet im Restaurant statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt Kuchen auf dem Tisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen im Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma bekommt viele Geschenke.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "reise-nach-heidelberg",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Heidelberg",
+    "descripcion": "Sabine besucht mit dem Zug die Altstadt und das Schloss von Heidelberg.",
+    "texto": "Letzte Woche ist Sabine mit dem Zug nach Heidelberg gefahren. Sie wollte die berühmte Altstadt und das Schloss besuchen. Als sie am Bahnhof ankam, hat sie sich sofort auf den Weg zur Altstadt gemacht. Der Weg war weit, aber die Sonne schien, und Sabine hat die Fahrt trotzdem genossen.\n\nAm Nachmittag ist sie zum Heidelberger Schloss hinaufgestiegen. Von dort oben hatte sie einen wunderschönen Blick auf den Neckar und die Altstadt. Weil so viele Touristen da waren, musste sie lange auf eine Führung warten. Trotzdem hat es sich gelohnt, denn die Führerin hat viel über die Geschichte des Schlosses erzählt.\n\nAm Abend hat Sabine in einem kleinen Restaurant in der Altstadt gegessen. Sie hat mit anderen Reisenden gesprochen und neue Freunde gefunden. Müde, aber glücklich, ist sie spät am Abend nach Hause gefahren. Sie hat beschlossen, im nächsten Jahr wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine ist mit dem Auto nach Heidelberg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine hat das Heidelberger Schloss besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine musste nicht auf die Führung warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Führerin hat über die Geschichte des Schlosses erzählt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine möchte nie wieder nach Heidelberg fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "beim-augenarzt",
+    "nivel": "A2",
+    "titulo": "Beim Augenarzt",
+    "descripcion": "Markus geht wegen Kopfschmerzen zum Augenarzt und braucht eine Brille.",
+    "texto": "Markus hat seit einigen Wochen Kopfschmerzen. Er vermutet, dass seine Augen das Problem sind, und macht deshalb einen Termin beim Augenarzt. Im Wartezimmer sitzen schon mehrere Patienten. Markus muss fast eine halbe Stunde warten, bevor er aufgerufen wird.\n\nDie Ärztin untersucht seine Augen mit verschiedenen Geräten. Sie fragt ihn, ob er oft am Computer arbeitet. Markus antwortet, dass er jeden Tag mehrere Stunden vor dem Bildschirm sitzt. Die Ärztin erklärt ihm, dass seine Augen leicht kurzsichtig sind und er eine Brille braucht.\n\nNach der Untersuchung geht Markus zu einem Optiker in der Nähe. Dort sucht er sich ein Brillengestell aus, das ihm gut gefällt. Der Optiker sagt, dass die Brille in einer Woche fertig sein wird. Markus freut sich schon darauf, ohne Kopfschmerzen zu lesen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat seit Wochen Kopfschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus muss gar nicht warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin stellt fest, dass Markus kurzsichtig ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus arbeitet selten am Computer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die neue Brille ist sofort fertig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wochenende-mit-den-grosseltern",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende mit den Großeltern",
+    "descripcion": "Familie Wolf verbringt ein schönes Wochenende auf dem Land bei den Großeltern.",
+    "texto": "Am Wochenende hat Familie Wolf ihre Großeltern auf dem Land besucht. Die Kinder haben sich riesig gefreut, weil sie den Garten der Großeltern lieben. Als sie ankamen, hat Opa schon den Grill vorbereitet, und Oma hat einen Kuchen gebacken.\n\nAm Samstagnachmittag sind alle zusammen spazieren gegangen. Die Kinder haben Blumen gepflückt und Tiere auf der Wiese beobachtet. Weil das Wetter so schön war, sind sie länger draußen geblieben als geplant. Am Abend haben sie zusammen am Lagerfeuer gesessen und Geschichten erzählt.\n\nAm Sonntag mussten sie leider schon wieder nach Hause fahren. Die Kinder wollten nicht gehen und haben versprochen, bald wiederzukommen. Oma hat ihnen zum Abschied Kekse für die Fahrt mitgegeben. Die ganze Familie war sich einig, dass es ein wunderschönes Wochenende war.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Wolf hat die Großeltern in der Stadt besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa hat den Grill vorbereitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Samstag sind alle spazieren gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder wollten sofort nach Hause fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma hat den Kindern Kekse für die Fahrt mitgegeben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommerkurs-an-der-universitaet",
+    "nivel": "B1",
+    "titulo": "Ein Sommerkurs an der Universität",
+    "descripcion": "Miriam nimmt an einem intensiven Sommerkurs zu nachhaltiger Stadtentwicklung teil.",
+    "texto": "Nachdem Miriam ihr erstes Studienjahr erfolgreich abgeschlossen hatte, entschied sie sich, an einem Sommerkurs an der Universität teilzunehmen. Der Kurs beschäftigte sich mit nachhaltiger Stadtentwicklung, einem Thema, das sie schon lange interessierte. Obwohl der Kurs in den Semesterferien stattfand, meldeten sich über fünfzig Studierende aus verschiedenen Ländern an.\n\nIn den ersten Tagen fiel es Miriam schwer, sich an die intensiven Arbeitszeiten zu gewöhnen. Jeden Morgen gab es Vorlesungen, und am Nachmittag arbeiteten die Studierenden in kleinen Gruppen an eigenen Projekten. Trotzdem gefiel ihr die Atmosphäre, weil alle Teilnehmenden motiviert waren und viele neue Ideen einbrachten. Besonders spannend fand sie die Exkursionen in verschiedene Stadtviertel, bei denen sie reale Beispiele für gelungene und misslungene Stadtplanung sahen.\n\nAm Ende des Kurses präsentierte jede Gruppe ihr eigenes Projekt vor einer Jury aus Professoren und Stadtplanern. Miriams Gruppe hatte ein Konzept für mehr Grünflächen in der Innenstadt entwickelt, das großen Anklang fand. Auch wenn der Kurs anstrengend gewesen war, war sie am Ende froh, teilgenommen zu haben, denn sie hatte nicht nur viel gelernt, sondern auch neue Freundschaften geschlossen.",
+    "preguntas": [
+      {
+        "enunciado": "Miriam hat vor ihrem ersten Studienjahr am Kurs teilgenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kurs behandelte das Thema nachhaltige Stadtentwicklung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag arbeiteten die Studierenden in Gruppen an Projekten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Miriam fand die Exkursionen langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Miriams Gruppe hat ein Konzept für mehr Grünflächen entwickelt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-konzertbesuch-mit-freunden",
+    "nivel": "B1",
+    "titulo": "Ein Konzertbesuch mit Freunden",
+    "descripcion": "Jonas erlebt mit seinen Freunden das Konzert ihrer Lieblingsband.",
+    "texto": "Seit Wochen hatten sich Jonas und seine Freunde auf das Konzert ihrer Lieblingsband gefreut. Obwohl die Karten teuer waren, hatten alle gespart, um dabei sein zu können. Am Tag des Konzerts trafen sie sich schon früh am Nachmittag, um gemeinsam mit dem Zug in die Stadt zu fahren.\n\nVor der Konzerthalle bildete sich eine lange Schlange, weil so viele Menschen einlassen wollten. Nachdem sie endlich hineingelassen worden waren, sicherten sie sich einen guten Platz nahe der Bühne. Als die Band endlich auf die Bühne kam, jubelte das ganze Publikum. Jonas war überwältigt von der Stimmung und den Lichteffekten, obwohl er das Konzert schon aus Videos kannte.\n\nNach dem Konzert waren alle völlig erschöpft, aber glücklich. Sie gingen noch in ein Restaurant in der Nähe, um über den Abend zu sprechen. Jonas war sich sicher, dass er dieses Konzert nie vergessen würde. Seine Freunde stimmten ihm zu und planten schon, sich Karten für die nächste Tour zu sichern.",
+    "preguntas": [
+      {
+        "enunciado": "Die Konzertkarten waren günstig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Vor der Konzerthalle gab es eine lange Schlange.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fand die Stimmung beim Konzert enttäuschend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Konzert gingen die Freunde in ein Restaurant.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde wollen keine Karten für die nächste Tour kaufen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-trainingstag-im-neuen-verein",
+    "nivel": "B1",
+    "titulo": "Der erste Trainingstag im neuen Verein",
+    "descripcion": "Leon tritt nach seinem Umzug einem neuen Fußballverein bei und knüpft Kontakte.",
+    "texto": "Als Leon in eine neue Stadt zog, wollte er schnell neue Kontakte knüpfen. Deshalb meldete er sich bei einem Fußballverein an, obwohl er dort noch niemanden kannte. Am ersten Trainingstag war er ziemlich nervös, weil er nicht wusste, wie die anderen Spieler ihn aufnehmen würden.\n\nDer Trainer stellte ihn der Mannschaft vor, und die Spieler begrüßten ihn freundlich. Nachdem das Aufwärmtraining begonnen hatte, merkte Leon schnell, dass das Niveau höher war, als er erwartet hatte. Trotzdem gab er sein Bestes und versuchte, sich in die Mannschaft einzufügen. Einige Spieler gaben ihm hilfreiche Tipps, wie er sich besser positionieren konnte.\n\nNach dem Training luden ihn zwei Mitspieler ein, mit ihnen etwas trinken zu gehen. Leon freute sich sehr über diese Geste, denn er hatte befürchtet, dass es schwierig werden würde, Anschluss zu finden. Am Ende des Abends war er sich sicher, dass er die richtige Entscheidung getroffen hatte, dem Verein beizutreten.",
+    "preguntas": [
+      {
+        "enunciado": "Leon kannte schon viele Spieler im Verein, bevor er beitrat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Trainer stellte Leon der Mannschaft vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Leon fand das Niveau niedriger als erwartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Spieler gaben Leon Tipps.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Training ging Leon allein nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "digitale-bildung-an-schulen",
+    "nivel": "B2",
+    "titulo": "Digitale Bildung an Schulen – Zwischen Chance und Überforderung",
+    "descripcion": "Ein Text über Chancen und Risiken der Digitalisierung im schulischen Unterricht.",
+    "texto": "Die Digitalisierung des Unterrichts wird seit Jahren als eine der zentralen Herausforderungen des deutschen Bildungssystems diskutiert. Während einige Schulen bereits mit Tablets, interaktiven Whiteboards und digitalen Lernplattformen ausgestattet wurden, hinken andere Einrichtungen aufgrund fehlender finanzieller Mittel und unzureichender Infrastruktur weit hinterher. Kritiker bemängeln, dass die Ausstattung allein nicht ausreiche, wenn Lehrkräfte nicht ausreichend geschult würden, um die neuen Technologien sinnvoll in den Unterricht zu integrieren.\n\nBefürworter der digitalen Bildung argumentieren hingegen, dass digitale Werkzeuge individuelleres Lernen ermöglichen würden. Schülerinnen und Schüler könnten in ihrem eigenen Tempo arbeiten, während Lehrkräfte den Fortschritt einzelner Kinder besser nachvollziehen könnten. Zudem würde der Umgang mit digitalen Medien bereits in der Schule vermittelt, was angesichts einer zunehmend digitalisierten Arbeitswelt als unverzichtbar gilt. Dennoch warnen Bildungsforscher davor, dass eine übermäßige Bildschirmzeit die Konzentrationsfähigkeit von Kindern beeinträchtigen könnte, wenn digitale Medien unreflektiert eingesetzt würden.\n\nUm diesen Herausforderungen zu begegnen, fordern viele Experten ein durchdachtes pädagogisches Konzept, das digitale und analoge Lernmethoden sinnvoll miteinander verbindet. Es reiche nicht aus, Schulen lediglich mit Geräten auszustatten, wenn gleichzeitig keine klare didaktische Strategie verfolgt werde. Nur wenn Investitionen in Technik mit einer Investition in die Qualifizierung der Lehrkräfte einhergingen, könne die digitale Bildung ihr volles Potenzial entfalten.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Schulen in Deutschland sind bereits gleich gut digital ausgestattet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass Lehrkräfte oft nicht ausreichend geschult werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter sehen im digitalen Lernen die Möglichkeit für individuelleres Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Bildungsforschern hat übermäßige Bildschirmzeit keine negativen Auswirkungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern, digitale und analoge Lernmethoden zu verbinden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "co-working-spaces",
+    "nivel": "B2",
+    "titulo": "Co-Working Spaces – Neue Arbeitsformen im Wandel",
+    "descripcion": "Ein Text über die Vor- und Nachteile flexibler Arbeitsplätze in Co-Working Spaces.",
+    "texto": "In den letzten Jahren haben sich Co-Working Spaces in vielen deutschen Großstädten zu einem festen Bestandteil der Arbeitswelt entwickelt. Ursprünglich vor allem von Freiberuflern und Start-up-Gründern genutzt, mieten inzwischen auch etablierte Unternehmen flexible Arbeitsplätze für einzelne Mitarbeitende oder ganze Teams. Befürworter loben die Flexibilität dieser Modelle, da Verträge oft monatlich kündbar sind und somit deutlich weniger Risiko bergen als klassische Büromieten.\n\nGleichzeitig wird jedoch zunehmend kritisiert, dass Co-Working Spaces die Grenzen zwischen Arbeit und Freizeit weiter verwischen. Wer an einem Ort arbeitet, der bewusst wie ein gemütliches Wohnzimmer gestaltet ist, verspüre womöglich weniger Bedürfnis, tatsächlich Feierabend zu machen, argumentieren Kritiker. Zudem seien die Mieten für solche Arbeitsplätze in begehrten Lagen mittlerweile so hoch, dass sich viele Selbstständige mit geringerem Einkommen diese Räume kaum noch leisten könnten – ein Widerspruch zum ursprünglichen Versprechen der Zugänglichkeit für alle.\n\nDennoch scheint der Trend ungebrochen, denn immer mehr Unternehmen entdecken hybride Arbeitsmodelle als Möglichkeit, Bürokosten zu senken und ihren Mitarbeitenden gleichzeitig mehr Flexibilität zu bieten. Ob sich Co-Working Spaces langfristig als sinnvolle Ergänzung oder lediglich als vorübergehender Trend erweisen werden, bleibt abzuwarten. Sicher ist jedoch, dass sie die Art, wie über Arbeit und Arbeitsorte nachgedacht wird, bereits nachhaltig verändert haben.",
+    "preguntas": [
+      {
+        "enunciado": "Co-Working Spaces wurden ursprünglich vor allem von Großkonzernen genutzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Verträge in Co-Working Spaces sind oft monatlich kündbar.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass Co-Working Spaces die Grenzen zwischen Arbeit und Freizeit verwischen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mieten für Co-Working Spaces sind laut Text für alle Selbstständigen gleichermaßen erschwinglich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Immer mehr Unternehmen setzen auf hybride Arbeitsmodelle.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "stadtgruen-und-klimaanpassung",
+    "nivel": "B2",
+    "titulo": "Stadtgrün und Klimaanpassung – Wie Städte sich auf die Zukunft vorbereiten",
+    "descripcion": "Ein Text über Maßnahmen deutscher Städte gegen Hitzewellen und Starkregen.",
+    "texto": "Angesichts immer häufigerer Hitzewellen und Starkregenereignisse rückt die Frage, wie Städte künftig gestaltet werden sollten, zunehmend in den Mittelpunkt der politischen Debatte. Stadtplaner und Klimaforscher sind sich weitgehend einig, dass mehr Grünflächen, Bäume und entsiegelte Böden notwendig wären, um Innenstädte widerstandsfähiger gegen die Folgen des Klimawandels zu machen. Versiegelte Flächen wie Parkplätze und Straßen heizen sich im Sommer stark auf und speichern die Wärme, wodurch sich sogenannte urbane Hitzeinseln bilden.\n\nMehrere deutsche Städte haben bereits begonnen, Pilotprojekte umzusetzen, bei denen graue Flächen in grüne Oasen umgewandelt werden. Dazu zählen begrünte Dächer und Fassaden, kleine Stadtparks sowie sogenannte Schwammstadt-Konzepte, bei denen Regenwasser gezielt aufgefangen und gespeichert wird, anstatt ungenutzt in die Kanalisation abzufließen. Obwohl solche Maßnahmen mit hohen Anfangsinvestitionen verbunden sind, würden sie sich langfristig auszahlen, da sie sowohl die Lebensqualität der Bewohner verbessern als auch Kosten durch Hitzeschäden reduzieren könnten.\n\nKritiker geben allerdings zu bedenken, dass viele dieser Projekte zu langsam umgesetzt würden, während sich die klimatischen Bedingungen bereits jetzt spürbar verschärften. Sie fordern verbindlichere gesetzliche Vorgaben für Neubauprojekte, damit Begrünung nicht länger dem Ermessen einzelner Bauträger überlassen bleibe. Nur mit einer konsequenten und schnelleren Umsetzung, so die einhellige Meinung vieler Experten, könnten Städte auch in Zukunft lebenswert bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Hitzewellen und Starkregen spielen in der Debatte um Stadtplanung keine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Versiegelte Flächen tragen zur Entstehung urbaner Hitzeinseln bei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Schwammstadt-Konzepte speichern Regenwasser gezielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Maßnahmen zur Begrünung verursachen keine Anfangsinvestitionen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker fordern verbindlichere gesetzliche Vorgaben für Neubauprojekte.",
+        "respuesta": true
+      }
+    ]
   }
 ]
