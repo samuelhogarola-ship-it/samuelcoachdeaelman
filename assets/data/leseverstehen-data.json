@@ -14042,5 +14042,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-zirkus",
+    "nivel": "A1",
+    "titulo": "Im Zirkus",
+    "descripcion": "Familie Bauer besucht einen Zirkus in der Stadt.",
+    "texto": "Heute besucht Familie Bauer den Zirkus. Der Zirkus steht auf dem großen Platz. Viele bunte Zelte stehen dort. Lena und Tom sind sehr aufgeregt. Sie kaufen Karten an der Kasse. Die Karten kosten zehn Euro. Dann gehen sie ins große Zelt.\n\nIm Zirkus sitzen viele Kinder und Eltern. Die Musik ist laut und fröhlich. Zuerst kommen drei Clowns in die Manege. Sie machen lustige Tricks. Lena lacht sehr viel. Danach zeigen Artisten ihre Kunststücke. Ein Mann jongliert mit vielen Bällen. Eine Frau tanzt auf einem Seil.\n\nAm Ende zeigen Pferde ihre Kunststücke. Die Kinder klatschen laut. Tom findet die Pferde am schönsten. Nach der Show kaufen sie Popcorn. Die Familie geht glücklich nach Hause. Lena sagt: „Das war ein toller Tag!\"",
+    "preguntas": [
+      {
+        "enunciado": "Familie Bauer besucht den Zirkus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Karten kosten zwanzig Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zuerst kommen Pferde in die Manege.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Mann jongliert mit Bällen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom findet die Clowns am schönsten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsgetraenk",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsgetränk",
+    "descripcion": "Paul erzählt von seinem Lieblingsgetränk und seinem Tag.",
+    "texto": "Ich heiße Paul und ich bin neun Jahre alt. Mein Lieblingsgetränk ist Apfelsaft. Ich trinke jeden Morgen ein Glas Apfelsaft. Meine Schwester Mia trinkt lieber Milch. Meine Mutter trinkt Kaffee zum Frühstück. Mein Vater trinkt Tee.\n\nIn der Schule trinke ich Wasser. Wasser ist gesund und wichtig. Nach der Schule trinke ich oft eine heiße Schokolade. Im Sommer trinke ich gern kalten Eistee. Meine Oma macht leckeren Eistee mit Zitrone.\n\nAm Wochenende gehen wir oft ins Café. Ich bestelle dort immer Apfelsaft mit Sprudel. Mia bestellt eine heiße Schokolade mit Sahne. Das Café hat auch leckeren Kuchen. Wir sind eine glückliche Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Paul trinkt jeden Morgen Apfelsaft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia trinkt lieber Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Schule trinkt Paul Limonade.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul mag kalten Eistee im Sommer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie geht nie ins Café.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-anruf-bei-oma",
+    "nivel": "A1",
+    "titulo": "Ein Anruf bei Oma",
+    "descripcion": "Sophie ruft ihre Oma jeden Sonntag an.",
+    "texto": "Jeden Sonntag ruft Sophie ihre Oma an. Oma wohnt in einer anderen Stadt. Sophie nimmt das Telefon und wählt die Nummer. Oma freut sich immer sehr. Sie sprechen über die Woche.\n\nSophie erzählt von der Schule. Sie hat eine gute Note in Mathe. Oma erzählt von ihrem Garten. Die Blumen blühen schön im Garten. Oma pflanzt auch Tomaten und Salat.\n\nAm Ende singt Oma ein kleines Lied für Sophie. Sophie lacht und singt mit. Sie sagen „Bis bald\" und legen auf. Sophie freut sich schon auf den nächsten Sonntag. Sie liebt ihre Oma sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ruft ihre Oma jeden Montag an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma wohnt in derselben Stadt wie Sophie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat eine gute Note in Mathe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma pflanzt Tomaten in ihrem Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie singt nie mit Oma.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wasserschaden-in-der-wohnung",
+    "nivel": "A2",
+    "titulo": "Der Wasserschaden in der Wohnung",
+    "descripcion": "Familie Keller entdeckt am Wochenende einen Wasserschaden in der Küche.",
+    "texto": "Am Samstagmorgen ist Frau Keller in die Küche gegangen, weil sie Kaffee kochen wollte. Plötzlich hat sie bemerkt, dass der Boden nass war. Unter der Spüle ist Wasser ausgelaufen. Sie hat sofort ihren Mann gerufen, und zusammen haben sie das Wasser abgestellt. Herr Keller hat gesagt, dass die Leitung wahrscheinlich kaputt ist.\n\nDie Familie hat schnell den Hausmeister angerufen, weil sie Angst vor größerem Schaden hatten. Der Hausmeister ist eine Stunde später gekommen und hat die Leitung repariert. Er hat erklärt, dass alte Rohre oft solche Probleme verursachen. Die Kinder haben geholfen, das Wasser mit Handtüchern aufzuwischen. Alle waren froh, dass der Schaden nicht größer war.\n\nAm Nachmittag haben sie die Versicherung informiert, weil ein Teil des Bodens beschädigt war. Ein Mitarbeiter der Versicherung hat versprochen, dass er am Montag vorbeikommt. Frau Keller war erleichtert, dass die Küche noch benutzbar war. Am Abend hat die Familie trotzdem gemeinsam gekocht und gelacht. Der Tag war stressig, aber am Ende ist alles gut ausgegangen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller hat den Wasserschaden am Sonntag entdeckt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wasser ist unter der Spüle ausgelaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hausmeister hat die Leitung nicht reparieren können.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben beim Aufwischen geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat am Abend nicht gekocht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-zum-kuerbisfest",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug zum Kürbisfest",
+    "descripcion": "Jonas und seine Freunde besuchen im Herbst ein Kürbisfest.",
+    "texto": "Im Oktober sind Jonas und seine Freunde zu einem Kürbisfest gefahren. Das Fest hat auf einem großen Bauernhof stattgefunden. Als sie angekommen sind, haben sie Hunderte von Kürbissen in allen Farben gesehen. Jonas war begeistert, weil er noch nie so viele Kürbisse gesehen hatte. Seine Freundin Lea hat sofort ein Foto gemacht.\n\nAuf dem Fest gab es viele Aktivitäten. Die Freunde haben an einem Kürbisschnitzen-Wettbewerb teilgenommen. Jonas hat ein lustiges Gesicht in seinen Kürbis geschnitzt, und Lea hat eine Katze geschnitzt. Danach haben sie warmen Kürbiskuchen probiert, weil sie hungrig waren. Der Kuchen hat allen sehr gut geschmeckt.\n\nAm späten Nachmittag sind sie durch das Maislabyrinth gelaufen. Sie haben sich fast verlaufen, weil der Weg sehr kompliziert war. Nach einer halben Stunde haben sie endlich den Ausgang gefunden. Müde, aber glücklich sind sie am Abend nach Hause gefahren. Jonas hat gesagt, dass er nächstes Jahr wiederkommen möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Das Kürbisfest hat im Oktober stattgefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat eine Katze in seinen Kürbis geschnitzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde haben Kürbiskuchen probiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben das Maislabyrinth sofort gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas möchte nächstes Jahr nicht wiederkommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-streichelzoo",
+    "nivel": "A2",
+    "titulo": "Der Besuch im Streichelzoo",
+    "descripcion": "Familie Vogel verbringt einen Nachmittag im Streichelzoo.",
+    "texto": "Am Sonntag ist Familie Vogel in einen Streichelzoo gefahren, weil die Kinder Tiere sehr mögen. Als sie angekommen sind, haben sie zuerst die Ziegen gefüttert. Die kleine Mila hatte ein bisschen Angst, weil die Ziegen so schnell gelaufen sind. Ihr Bruder Finn hat gelacht und ihr geholfen, das Futter zu halten.\n\nDanach sind sie zu den Kaninchen gegangen. Mila hat ein weißes Kaninchen gestreichelt, und es hat sich ruhig hingesetzt. Finn wollte auch ein Schaf streicheln, aber die Schafe waren gerade beim Fressen. Die Kinder haben viel gelacht, als ein kleines Schwein plötzlich über den Weg gelaufen ist.\n\nZum Schluss haben sie an einem Stand frische Waffeln gekauft, weil alle hungrig geworden waren. Die Eltern haben sich auf eine Bank gesetzt und den Kindern beim Spielen zugeschaut. Mila hat gesagt, dass sie am liebsten jeden Sonntag in den Streichelzoo gehen möchte. Am Abend waren alle müde, aber sehr zufrieden.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Vogel ist am Samstag in den Streichelzoo gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mila hatte zuerst ein bisschen Angst vor den Ziegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn hat ein Schaf gestreichelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein kleines Schwein ist über den Weg gelaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat keine Waffeln gekauft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-weinlese-im-herbst",
+    "nivel": "B1",
+    "titulo": "Die Weinlese im Herbst",
+    "descripcion": "Julia hilft im Herbst bei der Weinlese im Familienweinberg.",
+    "texto": "Jeden Herbst hilft Julia ihrer Familie bei der Weinlese. Obwohl die Arbeit anstrengend ist, freut sie sich jedes Jahr darauf. Nachdem die Trauben reif geworden sind, versammelt sich die ganze Familie früh am Morgen im Weinberg. Julia trägt einen großen Korb und schneidet vorsichtig die Trauben von den Reben. Ihr Großvater, der den Weinberg seit vierzig Jahren bewirtschaftet, erklärt ihr jedes Jahr aufs Neue, welche Trauben schon reif genug sind.\n\nDie Arbeit dauert den ganzen Tag, und die Sonne scheint heiß auf die Hügel. Trotzdem macht die Arbeit allen Spaß, weil die Nachbarn und Freunde ebenfalls mithelfen. In der Mittagspause setzen sich alle unter einen großen Baum und essen gemeinsam Brot, Käse und frisches Obst. Julia genießt diese Momente besonders, da die ganze Dorfgemeinschaft zusammenkommt und Geschichten erzählt. Nachdem die Mittagspause vorbei ist, geht die Arbeit mit neuer Energie weiter.\n\nAm Abend werden die gesammelten Trauben zur Kelter gebracht, wo sie gepresst werden. Obwohl Julia am Ende des Tages völlig erschöpft ist, ist sie stolz auf die harte Arbeit. Ihr Großvater sagt oft, dass der Wein erst durch die gemeinsame Anstrengung seinen besonderen Geschmack bekommt. Die Familie feiert das Ende der Weinlese traditionell mit einem großen Fest im Hof. Julia freut sich schon jetzt auf die nächste Weinlese im kommenden Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hilft nur alle zwei Jahre bei der Weinlese.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julias Großvater bewirtschaftet den Weinberg seit vierzig Jahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn helfen nicht bei der Weinlese mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend werden die Trauben zur Kelter gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie feiert das Ende der Weinlese nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-ums-gruppenprojekt",
+    "nivel": "B1",
+    "titulo": "Der Streit ums Gruppenprojekt",
+    "descripcion": "Eine Schulklasse gerät bei einem Gruppenprojekt in Streit.",
+    "texto": "In der Klasse 10b sollten die Schüler ein Gruppenprojekt über erneuerbare Energien vorbereiten. Nachdem die Gruppen eingeteilt worden waren, begann die Arbeit zunächst gut. Lukas, Mia und Ben hatten sich für das Thema Windkraft entschieden, obwohl keiner von ihnen sich damit besonders gut auskannte. In den ersten Tagen recherchierten sie fleißig und sammelten viele Informationen für die Präsentation.\n\nNach einer Woche kam es jedoch zum Streit, weil Ben kaum noch zu Treffen erschien. Mia war frustriert, da sie den größten Teil der Arbeit allein übernehmen musste. Obwohl Lukas versuchte, zu vermitteln, wurde die Stimmung in der Gruppe immer schlechter. Ben erklärte schließlich, dass er wegen familiärer Probleme keine Zeit gehabt hatte, was die anderen zunächst nicht glauben wollten.\n\nNachdem die Lehrerin von dem Konflikt erfahren hatte, sprach sie mit allen drei Schülern gemeinsam. Trotzdem blieb die Situation angespannt, bis Ben sich ehrlich entschuldigte und anbot, am Wochenende mehr zu arbeiten. Am Ende gelang es der Gruppe, die Präsentation rechtzeitig fertigzustellen. Die Lehrerin lobte die Arbeit, obwohl sie von den Schwierigkeiten wusste. Die drei Schüler verstanden sich danach sogar besser als vorher.",
+    "preguntas": [
+      {
+        "enunciado": "Die Gruppe hat ein Projekt über Solarenergie vorbereitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben ist zu den Treffen kaum noch erschienen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia war zufrieden, dass sie so viel Arbeit übernehmen konnte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin hat mit den drei Schülern gesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe hat die Präsentation nicht rechtzeitig fertiggestellt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-public-viewing-bei-der-fussball-wm",
+    "nivel": "B1",
+    "titulo": "Das Public Viewing bei der Fußball-WM",
+    "descripcion": "Freunde treffen sich zum gemeinsamen Fußballschauen auf dem Marktplatz.",
+    "texto": "Während der Fußball-Weltmeisterschaft trafen sich Tim und seine Freunde regelmäßig zum Public Viewing auf dem Marktplatz. Obwohl das Wetter oft unsicher war, ließen sie sich die Spiele nicht entgehen. Nachdem sie sich einen guten Platz vor der großen Leinwand gesichert hatten, kauften sie sich Pommes und kalte Getränke. Die Stimmung auf dem Platz war jedes Mal ausgelassen und fröhlich.\n\nBeim entscheidenden Spiel gegen die Nachbarländer war der Platz besonders voll. Trotzdem fanden Tim und seine Freunde einen Platz nahe der Bühne. Als die deutsche Mannschaft in der zweiten Halbzeit ein Tor schoss, brach lauter Jubel aus. Nachdem der Schiedsrichter das Spiel abgepfiffen hatte, feierten Hunderte von Menschen gemeinsam auf dem Platz. Fremde Menschen umarmten sich, als hätten sie sich schon lange gekannt.\n\nObwohl das Turnier für die deutsche Mannschaft später nicht mit dem Titel endete, blieb die Erinnerung an diese Abende besonders. Tim erzählte noch Wochen später von der besonderen Atmosphäre auf dem Marktplatz. Seine Freunde waren sich einig, dass solche gemeinsamen Erlebnisse wichtiger waren als der Ausgang des Turniers. Trotzdem hofften alle, dass die Mannschaft bei der nächsten Weltmeisterschaft weiter kommen würde. Sie beschlossen, sich auch beim nächsten großen Turnier wieder zu treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Tim und seine Freunde trafen sich zum Public Viewing im Stadion.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beim entscheidenden Spiel schoss die deutsche Mannschaft ein Tor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Menschen auf dem Platz feierten nach dem Tor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die deutsche Mannschaft gewann das Turnier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim und seine Freunde wollen sich beim nächsten Turnier nicht mehr treffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "green-it-der-oekologische-fussabdruck-der-digitalisierung",
+    "nivel": "B2",
+    "titulo": "Green IT – Der ökologische Fußabdruck der Digitalisierung",
+    "descripcion": "Die Digitalisierung gilt als Fortschritt, doch ihr Energieverbrauch wird zunehmend kritisch betrachtet.",
+    "texto": "Die fortschreitende Digitalisierung wird oft als Lösung für viele gesellschaftliche Probleme dargestellt, dabei wird ihr eigener ökologischer Fußabdruck häufig übersehen. Rechenzentren, die für das Streaming von Videos, das Training von künstlicher Intelligenz und die Speicherung gigantischer Datenmengen benötigt werden, verbrauchen weltweit enorme Mengen an Strom. Studien zufolge könnte der globale Energiebedarf der Informationstechnologie bis zum Jahr 2030 auf einen zweistelligen Prozentsatz des weltweiten Stromverbrauchs ansteigen, sollte sich der derzeitige Trend fortsetzen. Kritiker bemängeln, dass diese Entwicklung im öffentlichen Diskurs kaum thematisiert wird.\n\nEin besonders diskutiertes Beispiel sind große Sprachmodelle, deren Training Unmengen an Energie verschlingt. Wäre man sich der tatsächlichen Umweltkosten bewusst, würde man wohl kritischer über den ständigen Einsatz solcher Technologien nachdenken. Befürworter der Digitalisierung argumentieren dagegen, dass digitale Lösungen an anderer Stelle Ressourcen einsparen könnten, etwa durch weniger Geschäftsreisen oder papierlose Verwaltung. Es stellt sich jedoch die Frage, ob diese Einsparungen den zusätzlichen Energieverbrauch tatsächlich ausgleichen.\n\nAls mögliche Lösung wird zunehmend der Begriff „Green IT\" verwendet, worunter Maßnahmen wie die Nutzung erneuerbarer Energien in Rechenzentren und energieeffizientere Hardware verstanden werden. Einige große Technologiekonzerne haben bereits angekündigt, ihre Rechenzentren klimaneutral betreiben zu wollen. Ob diese Versprechen tatsächlich eingehalten werden, bleibt jedoch häufig schwer nachprüfbar, da entsprechende Daten selten unabhängig überprüft werden. Skeptiker fordern deshalb verbindliche gesetzliche Vorgaben, anstatt sich auf freiwillige Selbstverpflichtungen der Unternehmen zu verlassen.\n\nLetztlich zeigt die Debatte um Green IT, dass technologischer Fortschritt nicht automatisch mit ökologischer Nachhaltigkeit gleichzusetzen ist. Würden Verbraucher und Unternehmen den tatsächlichen Energieverbrauch digitaler Dienste stärker berücksichtigen, könnte dies zu einem bewussteren Umgang mit Technologie führen. Die Herausforderung besteht darin, die Vorteile der Digitalisierung zu nutzen, ohne dabei die ökologischen Kosten zu ignorieren.",
+    "preguntas": [
+      {
+        "enunciado": "Rechenzentren verbrauchen laut Studien kaum Strom.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Energiebedarf der IT-Branche könnte bis 2030 stark ansteigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Training großer Sprachmodelle benötigt viel Energie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Technologiekonzerne haben ihre Klimaneutralität bereits unabhängig nachweisen lassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Skeptiker fordern verbindliche gesetzliche Vorgaben für Green IT.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "bildungsurlaub-ein-recht-auf-weiterbildung",
+    "nivel": "B2",
+    "titulo": "Bildungsurlaub – Ein Recht auf Weiterbildung?",
+    "descripcion": "In vielen Bundesländern haben Arbeitnehmer Anspruch auf bezahlten Bildungsurlaub, doch die Nutzung bleibt gering.",
+    "texto": "In den meisten deutschen Bundesländern haben Arbeitnehmer gesetzlichen Anspruch auf mehrere Tage bezahlten Bildungsurlaub pro Jahr, der für Weiterbildungen genutzt werden kann. Diese Regelung wurde ursprünglich eingeführt, um lebenslanges Lernen zu fördern und Arbeitnehmern die Möglichkeit zu geben, sich unabhängig vom Berufsalltag weiterzuentwickeln. Trotz dieses Rechts nehmen laut aktuellen Erhebungen nur wenige Prozent der Berechtigten den Bildungsurlaub tatsächlich in Anspruch.\n\nAls Gründe für die geringe Nutzung werden verschiedene Faktoren genannt. Viele Arbeitnehmer wüssten laut Umfragen gar nicht, dass ihnen dieser Anspruch überhaupt zusteht. Andere befürchten, dass die Beantragung von Bildungsurlaub bei Vorgesetzten negativ aufgenommen werden könnte, obwohl der Anspruch gesetzlich garantiert ist. Hinzu kommt, dass geeignete Kurse oft schwer zu finden sind oder als wenig relevant für die eigene berufliche Entwicklung wahrgenommen werden.\n\nBefürworter des Bildungsurlaubs argumentieren, dass eine stärkere Nutzung sowohl den Arbeitnehmern als auch den Unternehmen zugutekäme, da besser qualifizierte Mitarbeiter langfristig produktiver seien. Würde der Bildungsurlaub aktiver beworben und mit einem größeren Kursangebot verknüpft, ließe sich die Inanspruchnahme vermutlich deutlich steigern. Kritiker hingegen bezweifeln, dass jede Weiterbildung tatsächlich einen beruflichen Mehrwert bietet, und warnen vor einem Missbrauch der Regelung für private Zwecke.\n\nAngesichts des technologischen Wandels und der damit verbundenen Notwendigkeit ständiger Weiterbildung gewinnt die Debatte um den Bildungsurlaub zunehmend an Bedeutung. Es wird diskutiert, ob die Regelung bundesweit vereinheitlicht und stärker gefördert werden sollte, damit sie ihr ursprüngliches Ziel besser erfüllen kann. Ohne eine bessere Aufklärung der Beschäftigten dürfte das Potenzial dieses Instruments jedoch weiterhin ungenutzt bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "In allen deutschen Bundesländern gelten exakt die gleichen Regeln für Bildungsurlaub.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nur wenige Berechtigte nehmen den Bildungsurlaub tatsächlich in Anspruch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Arbeitnehmer wissen genau, dass ihnen Bildungsurlaub zusteht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter meinen, besser qualifizierte Mitarbeiter seien langfristig produktiver.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keine Gefahr des Missbrauchs der Regelung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "silent-firing-die-stille-verdraengung-am-arbeitsplatz",
+    "nivel": "B2",
+    "titulo": "Silent Firing – Die stille Verdrängung am Arbeitsplatz",
+    "descripcion": "Immer mehr Beschäftigte berichten von einer Praxis, bei der sie unauffällig aus dem Unternehmen gedrängt werden sollen.",
+    "texto": "Während der Begriff „Quiet Quitting\" das bewusste Zurückfahren des eigenen Arbeitseinsatzes durch Beschäftigte beschreibt, bezeichnet „Silent Firing\" die entgegengesetzte Strategie vonseiten der Arbeitgeber. Dabei werden Mitarbeitende, die aus verschiedenen Gründen nicht mehr gewünscht sind, nicht direkt entlassen, sondern durch subtile Maßnahmen zur eigenen Kündigung gedrängt. Zu diesen Maßnahmen zählen etwa das Entziehen von Verantwortung, das Ausschließen von wichtigen Besprechungen oder das systematische Übergehen bei Beförderungen.\n\nBetroffene berichten häufig, dass ihnen zunächst spannende Projekte entzogen und stattdessen monotone Aufgaben zugewiesen werden. In manchen Fällen werden Arbeitsplätze sogar räumlich isoliert, sodass der Kontakt zu Kollegen erschwert wird. Arbeitsrechtsexperten weisen darauf hin, dass solche Praktiken zwar schwer nachweisbar seien, rechtlich jedoch durchaus problematisch werden könnten, sollte sich ein systematisches Muster erkennen lassen. Dennoch scheuen viele Betroffene den Gang vor Gericht, da entsprechende Beweise nur schwer zu erbringen sind.\n\nUnternehmen, die auf Silent Firing zurückgreifen, begründen ihr Vorgehen oft mit dem Wunsch, teure und konfliktreiche Kündigungsverfahren zu vermeiden. Würden stattdessen offene Gespräche über Leistungsprobleme geführt, ließe sich laut Personalexperten in vielen Fällen eine für beide Seiten fairere Lösung finden. Stattdessen entsteht durch die stille Verdrängung häufig ein Klima des Misstrauens, das sich negativ auf die gesamte Belegschaft auswirken kann, da auch andere Mitarbeitende die Praktiken bemerken.\n\nGewerkschaften fordern angesichts dieser Entwicklung eine stärkere gesetzliche Regulierung sowie eine bessere Aufklärung der Beschäftigten über ihre Rechte. Nur wenn Betroffene die subtilen Anzeichen frühzeitig erkennen und dokumentieren, könnten sie sich im Ernstfall wirksam wehren. Die Debatte um Silent Firing verdeutlicht, wie sehr sich die Machtverhältnisse in der modernen Arbeitswelt trotz vermeintlich fortschrittlicher Unternehmenskulturen weiterhin zugunsten der Arbeitgeber verschieben können.",
+    "preguntas": [
+      {
+        "enunciado": "Silent Firing beschreibt, wie Arbeitnehmer ihren Arbeitseinsatz bewusst reduzieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Betroffene von Silent Firing verlieren oft spannende Projekte und erhalten monotone Aufgaben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Solche Praktiken sind laut Experten rechtlich völlig unproblematisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Unternehmen nutzen Silent Firing teils, um teure Kündigungsverfahren zu vermeiden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gewerkschaften fordern keine gesetzliche Regulierung dieser Praxis.",
+        "respuesta": false
+      }
+    ]
   }
 ]
