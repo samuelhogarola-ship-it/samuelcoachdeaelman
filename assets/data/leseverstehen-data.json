@@ -12650,5 +12650,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-klavierunterricht",
+    "nivel": "A1",
+    "titulo": "Der Klavierunterricht",
+    "descripcion": "Anna hat jeden Mittwoch Klavierunterricht.",
+    "texto": "Anna ist neun Jahre alt. Sie hat jeden Mittwoch Klavierunterricht. Ihre Lehrerin heißt Frau Berger. Der Unterricht dauert eine Stunde.\n\nAnna übt jeden Tag zu Hause. Ihr Klavier steht im Wohnzimmer. Sie spielt gern kleine Lieder. Manchmal singt ihr Bruder dazu.\n\nAm Ende des Jahres gibt es ein Konzert. Alle Schüler spielen dort ein Stück. Anna ist ein bisschen nervös. Aber sie freut sich auch sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Anna hat jeden Montag Klavierunterricht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Unterricht dauert eine Stunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna übt nie zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihr Klavier steht im Wohnzimmer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Jahres gibt es ein Konzert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kochkurs",
+    "nivel": "A1",
+    "titulo": "Der Kochkurs",
+    "descripcion": "Paul lernt in einem Kochkurs neue Rezepte.",
+    "texto": "Paul geht jeden Donnerstag zum Kochkurs. Der Kurs ist in der Volkshochschule. Zehn Personen kochen zusammen. Der Lehrer heißt Herr Fischer.\n\nHeute kochen sie eine Gemüsesuppe. Paul schneidet Karotten und Zwiebeln. Seine Nachbarin wäscht den Salat. Die Küche riecht sehr gut.\n\nNach dem Kochen essen alle zusammen. Das Essen schmeckt Paul sehr gut. Er möchte das Rezept zu Hause kochen. Nächste Woche lernen sie einen Nachtisch.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht jeden Freitag zum Kochkurs.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kurs ist in der Volkshochschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zehn Personen kochen zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie kochen heute einen Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul möchte das Rezept zu Hause kochen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-beim-angeln",
+    "nivel": "A1",
+    "titulo": "Ein Tag beim Angeln",
+    "descripcion": "Opa und Tim gehen zusammen an den See.",
+    "texto": "Opa Karl geht gern angeln. Am Samstag nimmt er seinen Enkel Tim mit. Sie fahren früh zum See. Die Sonne scheint schon.\n\nTim hat noch nie geangelt. Opa zeigt ihm die Angel. Sie warten lange und sprechen leise. Nach einer Stunde fängt Tim einen Fisch.\n\nTim ist sehr stolz. Sie packen den Fisch in eine Tasche. Zu Hause kocht Oma den Fisch zum Abendessen. Tim erzählt allen die Geschichte.",
+    "preguntas": [
+      {
+        "enunciado": "Opa Karl geht gern angeln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat schon oft geangelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie fahren am Sonntag zum See.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim fängt einen Fisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma kocht den Fisch zum Abendessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradreparatur",
+    "nivel": "A2",
+    "titulo": "Die Fahrradreparatur",
+    "descripcion": "Markus hat sein kaputtes Fahrrad zur Werkstatt gebracht.",
+    "texto": "Markus ist gestern mit dem Fahrrad zur Arbeit gefahren. Plötzlich hat es komisch geklungen, weil eine Speiche kaputt war. Er ist langsam nach Hause gefahren und hat das Fahrrad genau angeschaut.\n\nAm Abend hat er es zur Fahrradwerkstatt gebracht. Der Mechaniker hat gesagt, dass auch die Bremsen alt sind. Markus hat sich entschieden, beides reparieren zu lassen. Die Reparatur hat zwei Tage gedauert.\n\nAls er das Fahrrad abgeholt hat, war es wie neu. Der Mechaniker hat ihm erklärt, wie er die Kette besser pflegen kann. Markus war froh, dass alles wieder funktioniert hat. Er ist gleich eine kleine Runde gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist mit dem Auto zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Speiche am Fahrrad war kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bremsen waren noch neu.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Reparatur hat zwei Tage gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus war froh, dass alles wieder funktioniert hat.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schwimmkurs-im-sommer",
+    "nivel": "A2",
+    "titulo": "Der Schwimmkurs im Sommer",
+    "descripcion": "Lena hat im Sommer endlich schwimmen gelernt.",
+    "texto": "Lena hatte immer Angst vor dem Wasser. Im Sommer hat sie sich entschieden, einen Schwimmkurs zu machen, weil sie im Urlaub baden wollte. Der Kurs hat dreimal pro Woche stattgefunden.\n\nAm Anfang war es schwer für Lena. Die Trainerin hat ihr gezeigt, wie man richtig atmet. Nach zwei Wochen ist Lena schon ohne Angst ins Wasser gegangen. Sie hat sich sehr gefreut.\n\nAm letzten Kurstag ist Lena zum ersten Mal die ganze Bahn geschwommen. Ihre Eltern haben applaudiert. Wenn sie jetzt an den See fährt, schwimmt sie gerne mit ihren Freunden.",
+    "preguntas": [
+      {
+        "enunciado": "Lena hatte nie Angst vor dem Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kurs hat dreimal pro Woche stattgefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena ist am Anfang sofort ohne Angst geschwommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach zwei Wochen ist Lena ohne Angst ins Wasser gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihre Eltern haben am letzten Kurstag applaudiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "besuch-vom-handwerker",
+    "nivel": "A2",
+    "titulo": "Besuch vom Handwerker",
+    "descripcion": "Familie Roth hat einen Handwerker gerufen, weil die Heizung kaputt war.",
+    "texto": "Familie Roth hat letzte Woche gemerkt, dass die Heizung nicht mehr warm wurde. Frau Roth hat sofort einen Handwerker angerufen, weil es draußen schon kalt war. Der Handwerker ist am nächsten Morgen gekommen.\n\nEr hat die Heizung genau untersucht und ein defektes Teil gefunden. Herr Roth hat gefragt, wie lange die Reparatur dauern wird. Der Handwerker hat gesagt, dass er das Teil sofort im Auto hat.\n\nNach einer Stunde hat die Heizung wieder funktioniert. Die Kinder haben sich gefreut, weil es im Wohnzimmer wieder warm war. Familie Roth hat dem Handwerker sehr gedankt und ihm einen Kaffee angeboten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Heizung von Familie Roth wurde nicht mehr warm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Handwerker ist erst nach einer Woche gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Handwerker hat ein defektes Teil gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Reparatur hat drei Tage gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Familie Roth hat dem Handwerker einen Kaffee angeboten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-au-pair-jahr-in-frankreich",
+    "nivel": "B1",
+    "titulo": "Ein Au-pair-Jahr in Frankreich",
+    "descripcion": "Julia berichtet von ihrem Jahr als Au-pair bei einer Familie in Lyon.",
+    "texto": "Julia hat nach dem Abitur beschlossen, ein Jahr als Au-pair in Frankreich zu verbringen. Obwohl sie kaum Französisch sprach, hat sie sich für eine Familie in Lyon entschieden. Die ersten Wochen waren anstrengend, weil sie fast nichts verstanden hat.\n\nNachdem sie einen Sprachkurs besucht hatte, wurde der Alltag leichter. Sie hat sich um zwei Kinder gekümmert und mit ihnen jeden Tag gespielt. Trotzdem hatte sie manchmal Heimweh und hat lange mit ihrer Familie telefoniert.\n\nAm Ende des Jahres konnte Julia fließend Französisch sprechen. Die Gastfamilie hat sie eingeladen, im nächsten Sommer wiederzukommen. Julia sagt, dass diese Erfahrung ihr Leben verändert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Julia konnte vor der Reise fließend Französisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia war bei einer Familie in Lyon.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Sprachkurs wurde der Alltag leichter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hatte nie Heimweh.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gastfamilie hat Julia für den nächsten Sommer eingeladen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-praktikum-im-ausland",
+    "nivel": "B1",
+    "titulo": "Das Praktikum im Ausland",
+    "descripcion": "Felix macht ein sechswöchiges Praktikum bei einer Firma in Barcelona.",
+    "texto": "Felix studiert Wirtschaft und wollte schon lange internationale Erfahrung sammeln. Deshalb hat er sich für ein Praktikum bei einer Firma in Barcelona beworben. Obwohl er nervös war, hat ihn das Team sehr freundlich empfangen.\n\nIn den ersten Tagen hat er vor allem zugehört und viel gelernt. Nachdem er sich eingearbeitet hatte, durfte er an einem eigenen Projekt arbeiten. Seine Kollegen haben ihm geholfen, wenn er Fragen hatte.\n\nAm Wochenende hat Felix die Stadt erkundet und neue Freunde kennengelernt. Trotzdem hat er auch viel gearbeitet, weil das Projekt wichtig für die Firma war. Nach sechs Wochen ist er mit vielen neuen Erfahrungen nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Felix studiert Medizin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat ein Praktikum in Barcelona gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Team hat ihn unfreundlich empfangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix durfte später an einem eigenen Projekt arbeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Praktikum hat sechs Wochen gedauert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-suche-nach-einer-wg",
+    "nivel": "B1",
+    "titulo": "Die Suche nach einer WG",
+    "descripcion": "Simon sucht ein Zimmer in einer Wohngemeinschaft in seiner neuen Studienstadt.",
+    "texto": "Simon hat einen Studienplatz in Leipzig bekommen und musste deshalb eine Wohnung finden. Da die Mieten hoch waren, hat er sich für die Suche nach einer WG entschieden. Er hat viele Anzeigen im Internet gelesen und einige Nachrichten geschrieben.\n\nNachdem er drei WGs besichtigt hatte, hat ihm eine Wohnung besonders gut gefallen. Die Mitbewohner waren freundlich, obwohl sie ihn erst kurz kannten. Sie haben ihn zum Probewohnen für ein Wochenende eingeladen.\n\nAm Sonntag haben die Mitbewohner gemeinsam entschieden, dass Simon einziehen darf. Er hat sich riesig gefreut, weil die Suche fast zwei Monate gedauert hatte. Eine Woche später ist er mit seinen Kisten eingezogen.",
+    "preguntas": [
+      {
+        "enunciado": "Simon hat einen Studienplatz in München bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon hat sich für die Suche nach einer WG entschieden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat nur eine WG besichtigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mitbewohner haben ihn zum Probewohnen eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wohnungssuche hat fast zwei Monate gedauert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "desinformation-im-zeitalter-der-sozialen-medien",
+    "nivel": "B2",
+    "titulo": "Desinformation im Zeitalter der sozialen Medien",
+    "descripcion": "Ein Blick darauf, wie falsche Nachrichten sich online verbreiten und was dagegen getan wird.",
+    "texto": "In den letzten Jahren hat sich die Verbreitung von Falschinformationen im Internet drastisch beschleunigt. Über soziale Netzwerke werden Nachrichten oft geteilt, bevor ihr Wahrheitsgehalt überprüft werden kann. Besonders emotionale oder aufsehenerregende Inhalte verbreiten sich schneller als sachliche Berichte, da Algorithmen genau solche Beiträge bevorzugt anzeigen.\n\nKritiker weisen darauf hin, dass viele Menschen kaum noch zwischen seriösen Quellen und gezielt gestreuten Falschmeldungen unterscheiden können. Wenn Bildungssysteme mehr Wert auf Medienkompetenz legen würden, könnten junge Menschen Inhalte kritischer hinterfragen. Bisher wird dieses Thema jedoch nur in wenigen Lehrplänen ausreichend behandelt.\n\nEinige Plattformen haben inzwischen Faktenchecks eingeführt, mit denen zweifelhafte Beiträge gekennzeichnet werden. Trotzdem bleibt die Wirkung solcher Maßnahmen begrenzt, weil Falschmeldungen oft schon millionenfach geteilt wurden, bevor sie überprüft werden. Experten fordern deshalb strengere gesetzliche Vorgaben für Betreiber sozialer Netzwerke.\n\nOb eine wirksame Lösung gefunden wird, hängt letztlich von mehreren Akteuren ab: den Plattformen selbst, der Politik und nicht zuletzt den Nutzerinnen und Nutzern, die lernen müssten, Informationen bewusster zu prüfen, bevor sie sie weiterverbreiten.",
+    "preguntas": [
+      {
+        "enunciado": "Emotionale Inhalte verbreiten sich laut Text langsamer als sachliche Berichte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen bevorzugen oft aufsehenerregende Beiträge.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienkompetenz wird bereits in den meisten Lehrplänen ausreichend behandelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Plattformen haben Faktenchecks eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten fordern strengere gesetzliche Vorgaben für soziale Netzwerke.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-gesundheitswesen",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Gesundheitswesen",
+    "descripcion": "Wie KI-Systeme Ärztinnen und Ärzte bei Diagnosen unterstützen können – und welche Risiken damit verbunden sind.",
+    "texto": "Künstliche Intelligenz wird zunehmend in Krankenhäusern eingesetzt, um Ärztinnen und Ärzte bei der Diagnose von Krankheiten zu unterstützen. Bestimmte Programme können beispielsweise Röntgenbilder analysieren und Auffälligkeiten erkennen, die dem menschlichen Auge leicht entgehen würden. Befürworter betonen, dass dadurch Krankheiten früher erkannt und Behandlungen gezielter geplant werden können.\n\nGleichzeitig wird vor den Risiken einer solchen Entwicklung gewarnt. Sollte sich medizinisches Personal zu sehr auf die Einschätzungen der Systeme verlassen, könnte die eigene fachliche Urteilsfähigkeit mit der Zeit abnehmen. Zudem stellt sich die Frage, wer haftet, wenn ein KI-gestütztes System eine falsche Diagnose liefert.\n\nEin weiteres Problem betrifft den Datenschutz, da für das Training solcher Systeme große Mengen sensibler Patientendaten benötigt werden. Diese Daten müssten strengstens geschützt werden, damit sie nicht in falsche Hände geraten. Manche Kliniken setzen deshalb nur anonymisierte Datensätze ein.\n\nTrotz dieser Herausforderungen sind sich viele Experten einig, dass künstliche Intelligenz das Gesundheitswesen langfristig verbessern wird, sofern klare ethische und rechtliche Rahmenbedingungen geschaffen werden.",
+    "preguntas": [
+      {
+        "enunciado": "KI-Programme können laut Text Röntgenbilder analysieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen bei diesem Thema keinerlei Risiken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Frage der Haftung bei falschen Diagnosen wird im Text erwähnt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Für das Training der Systeme werden keine Patientendaten benötigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kliniken setzen anonymisierte Datensätze ein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-rentensystem-der-zukunft",
+    "nivel": "B2",
+    "titulo": "Das Rentensystem der Zukunft",
+    "descripcion": "Warum das deutsche Rentensystem angesichts des demografischen Wandels reformiert werden müsste.",
+    "texto": "Das deutsche Rentensystem basiert traditionell auf dem sogenannten Generationenvertrag: Die arbeitende Bevölkerung finanziert mit ihren Beiträgen die Renten der älteren Generation. Dieses Modell funktionierte lange gut, gerät jedoch zunehmend unter Druck, da die Gesellschaft immer älter wird und gleichzeitig weniger Kinder geboren werden.\n\nWürde sich an diesem Verhältnis nichts ändern, müssten immer weniger Beitragszahler für immer mehr Rentnerinnen und Rentner aufkommen. Manche Ökonomen schlagen deshalb vor, das Renteneintrittsalter schrittweise anzuheben. Andere fordern, dass zusätzlich private und betriebliche Vorsorge stärker gefördert werden sollte.\n\nKritiker solcher Vorschläge weisen darauf hin, dass nicht alle Menschen gleichermaßen in der Lage sind, privat vorzusorgen, insbesondere Geringverdiener. Wenn die Politik ausschließlich auf private Vorsorge setzen würde, könnte die soziale Ungleichheit im Alter weiter zunehmen. Deshalb wird oft ein Mix aus mehreren Maßnahmen gefordert.\n\nWie genau das Rentensystem reformiert werden soll, wird seit Jahren kontrovers diskutiert. Einig sind sich die meisten Beteiligten nur darin, dass ein Weiterso auf Dauer nicht finanzierbar wäre.",
+    "preguntas": [
+      {
+        "enunciado": "Das deutsche Rentensystem basiert auf dem Generationenvertrag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gesellschaft wird laut Text immer jünger.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Ökonomen schlagen ein höheres Renteneintrittsalter vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Menschen können laut Text gleichermaßen privat vorsorgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Über die Reform des Rentensystems besteht seit Jahren völlige Einigkeit.",
+        "respuesta": false
+      }
+    ]
   }
 ]
