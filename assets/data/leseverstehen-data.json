@@ -13346,5 +13346,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "an-der-ampel",
+    "nivel": "A1",
+    "titulo": "An der Ampel",
+    "descripcion": "Tom lernt, wie er sicher die Straße überquert.",
+    "texto": "Tom geht jeden Morgen zur Schule. Er geht immer an der Ampel über die Straße. Die Ampel hat drei Farben: rot, gelb und grün. Bei Rot bleibt Tom stehen. Bei Grün geht er über die Straße.\n\nHeute ist Tom mit seiner kleinen Schwester Lina unterwegs. Lina ist erst vier Jahre alt. Sie hält die Hand von Tom fest. „Warte, Lina! Die Ampel ist noch rot\", sagt Tom. Lina schaut auf die Ampel und wartet brav.\n\nDann wird die Ampel grün. „Jetzt können wir gehen!\", ruft Tom. Die Kinder gehen zusammen über die Straße. Auf der anderen Seite winken sie einem Polizisten zu. Der Polizist lächelt und winkt zurück.",
+    "preguntas": [
+      {
+        "enunciado": "Tom geht jeden Morgen zur Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Ampel hat nur zwei Farben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lina ist Toms kleine Schwester.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder gehen bei Rot über die Straße.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Polizist winkt den Kindern zu.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsspiel",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsspiel",
+    "descripcion": "Ein Kind erzählt von seinem liebsten Brettspiel mit der Familie.",
+    "texto": "Ich heiße Paul und ich bin acht Jahre alt. Mein Lieblingsspiel heißt „Mensch ärgere dich nicht\". Es ist ein Brettspiel mit vier Farben: rot, blau, gelb und grün. Man braucht einen Würfel und viele bunte Figuren.\n\nIch spiele das Spiel oft mit meiner Familie. Meine Mutter spielt gern mit den roten Figuren. Mein Vater nimmt immer die blauen Figuren. Meine Schwester spielt mit Gelb, und ich spiele mit Grün. Wir spielen meistens am Sonntagabend zusammen.\n\nDas Spiel ist einfach, aber sehr lustig. Manchmal gewinne ich, manchmal gewinnt meine Schwester. Am Ende ist das egal. Die ganze Familie lacht viel, und das ist das Wichtigste.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Spiel hat nur zwei Farben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Vater spielt mit den blauen Figuren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie spielt jeden Morgen zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Für Paul ist das Lachen mit der Familie wichtig.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-fruehstueck-bei-uns",
+    "nivel": "A1",
+    "titulo": "Das Frühstück bei uns",
+    "descripcion": "Eine kurze Beschreibung des täglichen Familienfrühstücks.",
+    "texto": "Bei uns zu Hause frühstücken wir jeden Tag zusammen. Um sieben Uhr steht die ganze Familie auf. Meine Mutter macht Kaffee, und mein Vater deckt den Tisch.\n\nIch esse gern ein Brötchen mit Butter und Marmelade. Mein kleiner Bruder mag lieber Cornflakes mit Milch. Meine Mutter trinkt Kaffee, und mein Vater trinkt Tee mit Zitrone. Wir trinken auch Orangensaft.\n\nNach dem Frühstück räumen wir gemeinsam den Tisch ab. Dann gehe ich zur Schule, und meine Eltern fahren zur Arbeit. Das Frühstück mit der Familie ist meine liebste Zeit am Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie frühstückt jeden Tag zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater trinkt Kaffee mit Zitrone.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der kleine Bruder isst gern Cornflakes.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand räumt nach dem Frühstück den Tisch ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Frühstück ist die liebste Zeit des Kindes.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrt-zum-flughafen",
+    "nivel": "A2",
+    "titulo": "Die Fahrt zum Flughafen",
+    "descripcion": "Sabine hat fast ihren Flug verpasst, weil der Bus zu spät kam.",
+    "texto": "Sabine wollte am Freitag nach Barcelona fliegen. Sie hat den Wecker gestellt, weil ihr Flug schon um sieben Uhr morgens war. Leider hat sie verschlafen, weil der Wecker nicht geklingelt hat.\n\nAls sie aufgewacht ist, war es schon halb sechs. Sie hat schnell geduscht und ist sofort zur Bushaltestelle gerannt. Dort hat sie leider erfahren, dass der Bus zehn Minuten Verspätung hatte, weil es an diesem Morgen sehr viel Verkehr gab. Sabine war sehr nervös und hat immer wieder auf die Uhr geschaut.\n\nZum Glück ist sie trotzdem rechtzeitig am Flughafen angekommen, obwohl sie fast die letzte Passagierin war. Am Gate hat sie tief durchgeatmet und sich geschworen, beim nächsten Mal einen zweiten Wecker zu stellen.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine wollte nach Barcelona fliegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wecker hat pünktlich geklingelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bus hatte an diesem Morgen Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine hat ihren Flug verpasst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine will beim nächsten Mal einen zweiten Wecker stellen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-ohne-handy",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende ohne Handy",
+    "descripcion": "Eine Familie probiert aus, wie es ist, ein Wochenende ohne Smartphones zu verbringen.",
+    "texto": "Familie Berger hat sich vorgenommen, ein Wochenende ohne Handys zu verbringen, weil die Eltern gemerkt haben, dass alle zu viel auf den Bildschirm schauen. Am Samstag haben sie die Handys in eine Schublade gelegt und den ganzen Tag draußen verbracht.\n\nZuerst war es für die Kinder schwer, weil sie ihre Spiele und Videos vermisst haben. Nach ein paar Stunden haben sie aber gemerkt, dass es auch ohne Handy Spaß machen kann. Sie sind zusammen Fahrrad gefahren und haben am Nachmittag ein Picknick im Park gemacht.\n\nAm Abend hat die Familie Karten gespielt, während draußen die Sonne unterging. Die Mutter hat gesagt, dass sie das Wochenende wiederholen möchte, wenn alle wieder Zeit haben. Die Kinder waren überrascht, dass ihnen ein Tag ohne Handy so gut gefallen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger hat die Handys weggelegt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder fanden es von Anfang an sehr einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie ist zusammen Fahrrad gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend hat die Familie ferngesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter möchte das Wochenende wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "hilfe-beim-umzug-der-nachbarin",
+    "nivel": "A2",
+    "titulo": "Hilfe beim Umzug der Nachbarin",
+    "descripcion": "Frau Meier hilft ihrer neuen Nachbarin beim Einzug in die Wohnung.",
+    "texto": "Letzte Woche ist eine neue Nachbarin in das Haus von Frau Meier eingezogen. Sie heißt Julia und kommt aus Leipzig. Am Umzugstag hat Frau Meier gesehen, dass Julia viele schwere Kisten allein tragen musste.\n\nFrau Meier hat sofort angeboten zu helfen, weil sie fand, dass niemand allein umziehen sollte. Zusammen haben sie die Kisten in die Wohnung getragen und die Möbel aufgebaut. Julia war sehr dankbar, dass ihr jemand geholfen hat, obwohl sie Frau Meier vorher gar nicht kannte.\n\nNach dem Umzug haben die beiden Frauen Kaffee getrunken und viel gelacht. Julia hat erzählt, dass sie wegen ihrer neuen Arbeit in die Stadt gezogen ist. Am Ende des Nachmittags waren die beiden schon fast Freundinnen.",
+    "preguntas": [
+      {
+        "enunciado": "Julia kommt aus Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Meier wollte Julia nicht helfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Frauen haben die Möbel zusammen aufgebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia kannte Frau Meier schon seit vielen Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist wegen einer neuen Arbeit umgezogen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-abend-in-der-oper",
+    "nivel": "B1",
+    "titulo": "Ein Abend in der Oper",
+    "descripcion": "Markus besucht zum ersten Mal eine Opernvorstellung und ist überrascht, wie sehr sie ihm gefällt.",
+    "texto": "Markus hatte noch nie eine Oper besucht, obwohl seine Kollegin Elena ihn schon oft eingeladen hatte. Als sie ihm zwei Karten für „Die Zauberflöte\" schenkte, konnte er nicht mehr ablehnen. Etwas nervös zog er seinen besten Anzug an und machte sich auf den Weg zum Opernhaus.\n\nZu Beginn fand er die Musik ungewohnt, weil er so etwas noch nie live gehört hatte. Nachdem der erste Akt vorbei war, änderte sich seine Meinung jedoch vollständig. Die Stimmen der Sänger, das Orchester und das prächtige Bühnenbild beeindruckten ihn zutiefst. Trotzdem musste er zugeben, dass er nicht immer verstand, worum es in der Handlung ging.\n\nIn der Pause erklärte ihm Elena die Geschichte, und danach konnte er der Vorstellung viel besser folgen. Am Ende applaudierte das ganze Publikum minutenlang. Auf dem Heimweg sagte Markus, dass dies sicher nicht sein letzter Opernbesuch gewesen sei.",
+    "preguntas": [
+      {
+        "enunciado": "Markus war schon oft in der Oper gewesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elena hat Markus die Karten geschenkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus fand die Musik von Anfang an vertraut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elena hat Markus die Handlung in der Pause erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus möchte nie wieder in die Oper gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-teamsitzung-am-montag",
+    "nivel": "B1",
+    "titulo": "Die Teamsitzung am Montag",
+    "descripcion": "Ein neuer Mitarbeiter erlebt seine erste wöchentliche Teamsitzung und lernt die Arbeitskultur kennen.",
+    "texto": "Jeden Montag um neun Uhr trifft sich das Team von Frau Kaufmann zur wöchentlichen Besprechung. Für Daniel, der erst seit zwei Wochen in der Firma arbeitet, war es die erste Sitzung, an der er wirklich aktiv teilnehmen sollte, nachdem er sich in den ersten Tagen nur eingearbeitet hatte.\n\nObwohl er sehr aufgeregt war, bereitete er sich am Wochenende gut vor. Er notierte sich die wichtigsten Punkte zu seinem ersten Projekt. Während der Sitzung berichtete jeder Kollege kurz über den Stand seiner Aufgaben, und Daniel merkte schnell, dass niemand perfekte Antworten erwartete, sondern ehrliche Rückmeldungen.\n\nAls er an der Reihe war, sprach Daniel zunächst zögernd, wurde aber immer sicherer. Seine Kollegen stellten interessierte Fragen und gaben ihm hilfreiche Tipps. Nach der Sitzung fühlte sich Daniel deutlich wohler im Team, weil er gemerkt hatte, dass alle ihm gegenüber offen und freundlich waren.",
+    "preguntas": [
+      {
+        "enunciado": "Das Team trifft sich jeden Montag um neun Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel arbeitet schon seit einem Jahr in der Firma.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Daniel hat sich am Wochenende auf die Sitzung vorbereitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Sitzung wurden nur perfekte Antworten erwartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Daniel fühlte sich nach der Sitzung wohler im Team.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenmusikfestival",
+    "nivel": "B1",
+    "titulo": "Das Straßenmusikfestival",
+    "descripcion": "In einer kleinen Stadt findet zum ersten Mal ein Straßenmusikfestival statt und begeistert die Bewohner.",
+    "texto": "In der Innenstadt von Marburg fand am vergangenen Wochenende zum ersten Mal ein Straßenmusikfestival statt, nachdem die Stadtverwaltung monatelang daran geplant hatte. Über vierzig Musikerinnen und Musiker aus verschiedenen Ländern spielten an unterschiedlichen Plätzen der Altstadt.\n\nObwohl das Wetter am Samstag zunächst regnerisch war, ließen sich die Zuschauer nicht abschrecken. Viele Familien standen mit Regenschirmen vor den kleinen Bühnen und hörten Gitarrenmusik, Jazz und traditionelle Volkslieder. Ein Straßenkünstler aus Portugal begeisterte das Publikum besonders mit seiner Fado-Musik.\n\nAm Sonntag, als endlich die Sonne schien, kamen noch mehr Besucher in die Stadt. Trotzdem blieb die Atmosphäre entspannt und familiär. Die Organisatoren erklärten am Ende, dass das Festival wegen des großen Erfolgs im nächsten Jahr wiederholt werden soll.",
+    "preguntas": [
+      {
+        "enunciado": "Das Festival fand zum ersten Mal in Marburg statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Samstag schien den ganzen Tag die Sonne.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Straßenkünstler aus Portugal spielte Fado-Musik.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des Regens sind die Zuschauer alle nach Hause gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Festival soll im nächsten Jahr wiederholt werden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-digitale-nachlass",
+    "nivel": "B2",
+    "titulo": "Der digitale Nachlass",
+    "descripcion": "Was mit Online-Konten, Fotos und Profilen geschieht, wenn ein Mensch stirbt, wird zunehmend zu einer gesellschaftlichen Frage.",
+    "texto": "Wenn ein Mensch stirbt, hinterlässt er heute nicht nur Möbel, Dokumente und persönliche Gegenstände, sondern auch einen sogenannten digitalen Nachlass. E-Mail-Konten, soziale Netzwerke, Cloud-Speicher und Streaming-Abonnements bleiben oft bestehen, obwohl der Besitzer nicht mehr am Leben ist. Angehörige stehen dann häufig vor der schwierigen Aufgabe, herauszufinden, welche Konten überhaupt existieren und wie sie gelöscht oder übernommen werden können.\n\nRechtlich wird der digitale Nachlass in Deutschland grundsätzlich wie jeder andere Nachlass behandelt: Er geht auf die Erben über. In der Praxis gestaltet sich der Zugriff jedoch kompliziert, da viele Anbieter aus Datenschutzgründen den Zugang zu Konten verstorbener Nutzer verweigern. Wäre ein einheitliches, europaweites Gesetz vorhanden, ließe sich dieses Problem vermutlich leichter lösen. Bisher müssen Erben oft langwierige Verfahren durchlaufen, bei denen Sterbeurkunden und Erbscheine vorgelegt werden müssen.\n\nExperten empfehlen daher, schon zu Lebzeiten eine sogenannte digitale Vorsorgevollmacht zu erstellen, in der festgelegt wird, was mit den eigenen Online-Konten geschehen soll. Ohne eine solche Regelung könnten wichtige Erinnerungen wie Fotos oder Nachrichten für immer verloren gehen. Gleichzeitig wird diskutiert, ob Plattformen gesetzlich dazu verpflichtet werden sollten, klare und einfache Verfahren für den Umgang mit den Konten Verstorbener anzubieten.",
+    "preguntas": [
+      {
+        "enunciado": "Der digitale Nachlass umfasst nur physische Gegenstände.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Deutschland geht der digitale Nachlass grundsätzlich auf die Erben über.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Anbieter gewähren Erben sofort und problemlos Zugang zu den Konten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten empfehlen, schon zu Lebzeiten eine digitale Vorsorgevollmacht zu erstellen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es wird diskutiert, Plattformen gesetzlich zu klaren Verfahren zu verpflichten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitale-barrierefreiheit",
+    "nivel": "B2",
+    "titulo": "Digitale Barrierefreiheit",
+    "descripcion": "Immer mehr Alltagsdinge finden online statt, doch viele Websites sind für Menschen mit Behinderung kaum nutzbar.",
+    "texto": "Ob Behördengang, Bankgeschäft oder Arzttermin – immer mehr Bereiche des Alltags verlagern sich ins Internet. Für Menschen ohne Einschränkungen mag das bequem erscheinen, doch für viele Menschen mit Behinderung stellt die digitale Welt eine erhebliche Hürde dar. Websites ohne Alternativtexte für Bilder, Formulare, die nicht mit der Tastatur bedient werden können, oder Videos ohne Untertitel schließen einen erheblichen Teil der Bevölkerung faktisch aus.\n\nSeit einigen Jahren verpflichten Gesetze wie das Barrierefreiheitsstärkungsgesetz Unternehmen und Behörden dazu, ihre digitalen Angebote zugänglicher zu gestalten. Kritiker bemängeln jedoch, dass die Umsetzung häufig nur schleppend voranschreitt, weil viele Betriebe die entsprechenden Anpassungen als zusätzlichen Kostenfaktor betrachten. Dabei würde eine barrierefreie Gestaltung nicht nur Menschen mit Behinderung zugutekommen, sondern auch älteren Nutzern oder Personen, die beispielsweise nur eine schlechte Internetverbindung haben.\n\nBefürworter argumentieren, dass digitale Barrierefreiheit von Anfang an mitgedacht werden sollte, anstatt sie nachträglich zu ergänzen. Würden Entwicklerinnen und Entwickler bereits beim Design einer Website die Bedürfnisse aller Nutzergruppen berücksichtigen, entstünden am Ende deutlich geringere Kosten als bei einer späteren Nachbesserung. Langfristig, so die Hoffnung vieler Experten, könnte digitale Barrierefreiheit zum Standard werden, statt eine Ausnahme zu bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Alltagsbereiche verlagern sich ins Internet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Websites sind bereits vollständig barrierefrei gestaltet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Barrierefreiheitsstärkungsgesetz verpflichtet zu zugänglicheren digitalen Angeboten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen die Umsetzung der Gesetze als sehr schnell und erfolgreich an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Barrierefreiheit von Anfang an mitzudenken, könnte langfristig Kosten sparen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "clickbait-und-aufmerksamkeitsoekonomie",
+    "nivel": "B2",
+    "titulo": "Clickbait und Aufmerksamkeitsökonomie",
+    "descripcion": "Reißerische Überschriften sollen um jeden Preis Klicks generieren – auf Kosten von Qualität und Vertrauen.",
+    "texto": "„Das wird Ihr Leben für immer verändern\" oder „Niemand konnte glauben, was dann geschah\" – Überschriften wie diese begegnen Internetnutzern täglich. Diese Form der reißerischen Titelgebung, bekannt als Clickbait, verfolgt ein einziges Ziel: möglichst viele Klicks zu erzeugen, unabhängig davon, ob der eigentliche Inhalt die Erwartungen erfüllt. In einer Medienlandschaft, in der Werbeeinnahmen häufig direkt an Klickzahlen gekoppelt sind, wird Aufmerksamkeit selbst zu einer knappen und wertvollen Ressource.\n\nDiese sogenannte Aufmerksamkeitsökonomie hat weitreichende Folgen für die Medienqualität. Wenn Reichweite wichtiger wird als Genauigkeit, geraten sorgfältig recherchierte Artikel gegenüber emotional aufgeladenen, oft oberflächlichen Beiträgen ins Hintertreffen. Würden Plattformen ihre Algorithmen stärker auf inhaltliche Qualität statt auf Verweildauer ausrichten, ließe sich dieser Trend möglicherweise abschwächen. Bislang jedoch profitieren gerade jene Inhalte, die starke emotionale Reaktionen auslösen, unabhängig davon, ob es sich um Empörung, Neugier oder Überraschung handelt.\n\nManche Verlage haben inzwischen begonnen, sich bewusst von reinem Clickbait zu distanzieren, weil sie langfristig auf das Vertrauen ihrer Leserschaft angewiesen sind. Medienkompetenz spielt dabei eine entscheidende Rolle: Nur wer reißerische Überschriften kritisch hinterfragt, kann der Falle der Aufmerksamkeitsökonomie entgehen. Bildungseinrichtungen fordern deshalb zunehmend, dass der kritische Umgang mit Online-Inhalten fester Bestandteil des Schulunterrichts werden sollte.",
+    "preguntas": [
+      {
+        "enunciado": "Clickbait-Überschriften zielen vor allem darauf ab, viele Klicks zu erzeugen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Werbeeinnahmen sind in vielen Medien unabhängig von den Klickzahlen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emotional aufgeladene Inhalte profitieren oft von der Aufmerksamkeitsökonomie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Verlage setzen weiterhin ausschließlich auf Clickbait.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungseinrichtungen fordern mehr Medienkompetenz im Schulunterricht.",
+        "respuesta": true
+      }
+    ]
   }
 ]
