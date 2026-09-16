@@ -14390,5 +14390,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-schneemann",
+    "nivel": "A1",
+    "titulo": "Der Schneemann",
+    "descripcion": "Lena und Tom bauen im Winter einen Schneemann im Garten.",
+    "texto": "Es schneit. Lena und Tom sind sehr froh. Sie ziehen ihre warmen Jacken an. Sie gehen in den Garten. Der Schnee ist weiß und kalt.\n\nLena macht einen großen Schneeball. Tom macht einen kleinen Schneeball. Sie bauen zusammen einen Schneemann. Der Schneemann hat eine Karotte als Nase. Er hat zwei Knöpfe als Augen. Tom holt einen alten Hut aus dem Haus.\n\nAm Abend trinken Lena und Tom heißen Kakao. Sie schauen aus dem Fenster. Der Schneemann steht noch im Garten. „Er sieht lustig aus\", sagt Lena.",
+    "preguntas": [
+      {
+        "enunciado": "Es schneit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena und Tom bauen einen Schneemann im Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schneemann hat eine Karotte als Nase.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom holt einen Hut aus dem Auto.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und Tom trinken heißen Kakao.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-tierheim",
+    "nivel": "A1",
+    "titulo": "Im Tierheim",
+    "descripcion": "Mia besucht mit ihrer Mutter ein Tierheim und sucht eine Katze.",
+    "texto": "Mia liebt Tiere. Heute geht sie mit ihrer Mutter ins Tierheim. Im Tierheim leben viele Hunde und Katzen. Die Tiere haben kein Zuhause.\n\nEine Frau zeigt Mia die Katzen. Eine kleine, graue Katze schaut Mia an. Mia lächelt. „Diese Katze ist sehr lieb\", sagt die Frau. Mia streichelt die Katze vorsichtig.\n\nMia und ihre Mutter sprechen lange mit der Frau. Am Ende sagt die Mutter: „Wir nehmen die kleine Katze mit nach Hause.\" Mia ist sehr glücklich. Die Katze bekommt einen neuen Namen: Minka.",
+    "preguntas": [
+      {
+        "enunciado": "Mia geht mit ihrem Vater ins Tierheim.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Tierheim leben Hunde und Katzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die graue Katze ist sehr groß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia streichelt die Katze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie nimmt keine Katze mit nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-fussballplatz",
+    "nivel": "A1",
+    "titulo": "Der Fußballplatz",
+    "descripcion": "Ben spielt jeden Samstag mit seinen Freunden Fußball.",
+    "texto": "Ben spielt gern Fußball. Jeden Samstag geht er zum Fußballplatz. Seine Freunde Paul und Jonas sind auch da. Sie tragen bunte T-Shirts.\n\nDie Jungen spielen zwei Stunden Fußball. Ben schießt ein Tor. Seine Freunde jubeln laut. Nach dem Spiel trinken alle Wasser. Sie sind müde, aber glücklich.\n\nAm Abend erzählt Ben seiner Familie vom Spiel. „Ich schieße immer Tore!\", sagt er stolz und lacht. Seine kleine Schwester klatscht. Ben freut sich schon auf den nächsten Samstag.",
+    "preguntas": [
+      {
+        "enunciado": "Ben spielt jeden Sonntag Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und Jonas sind Bens Freunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Jungen tragen bunte T-Shirts.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Spiel sind alle sehr traurig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bens kleine Schwester klatscht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-tag-der-offenen-tuer",
+    "nivel": "A2",
+    "titulo": "Der Tag der offenen Tür",
+    "descripcion": "Familie Krüger besucht die neue Schule ihrer Tochter am Tag der offenen Tür.",
+    "texto": "Am Samstag hat die neue Schule von Lisa einen Tag der offenen Tür veranstaltet. Lisa hat sich sehr gefreut, weil sie ihre zukünftige Klasse kennenlernen wollte. Ihre Eltern sind mit ihr zur Schule gefahren.\n\nIn der Aula haben die Lehrer den Eltern das Schulprogramm erklärt. Lisa hat mit anderen Kindern ein Experiment im Chemieraum gemacht. Sie hat gemerkt, dass die Schule viele interessante Fächer anbietet. Ihre Mutter hat mit der Klassenlehrerin gesprochen und viele Fragen gestellt.\n\nAm Ende des Tages hat die Familie noch die Turnhalle und die Bibliothek besichtigt. Lisa war müde, aber begeistert. „Wenn ich hier zur Schule gehe, werde ich viele neue Freunde finden\", hat sie gesagt. Ihre Eltern haben gelächelt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Schule hat einen Tag der offenen Tür veranstaltet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa ist allein zur Schule gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa hat im Chemieraum ein Experiment gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat die Turnhalle nicht besichtigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa war am Ende des Tages gelangweilt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-seniorenheim",
+    "nivel": "A2",
+    "titulo": "Der Besuch im Seniorenheim",
+    "descripcion": "Jonas besucht mit seiner Schulklasse ein Seniorenheim und lernt Herrn Weber kennen.",
+    "texto": "Letzte Woche hat die Klasse von Jonas ein Seniorenheim besucht. Die Lehrerin hat das Projekt organisiert, weil die Schüler mehr über ältere Menschen lernen sollten. Jonas war zuerst ein bisschen nervös.\n\nIm Seniorenheim hat Jonas einen alten Mann namens Herrn Weber getroffen. Herr Weber hat früher als Bäcker gearbeitet und hat viele Geschichten erzählt. Jonas hat ihm aufmerksam zugehört. Die beiden haben auch zusammen ein Kartenspiel gespielt.\n\nAls Jonas nach Hause gekommen ist, hat er seinen Eltern von Herrn Weber erzählt. „Ich möchte ihn bald wieder besuchen\", hat Jonas gesagt. Seine Mutter war stolz auf ihn.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse hat ein Krankenhaus besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat früher als Bäcker gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas war zuerst gar nicht nervös.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas und Herr Weber haben ein Kartenspiel gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas möchte Herrn Weber nicht wieder besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrt-zum-oktoberfest",
+    "nivel": "A2",
+    "titulo": "Die Fahrt zum Oktoberfest",
+    "descripcion": "Familie Bauer fährt am Wochenende zum Oktoberfest nach München.",
+    "texto": "Am Wochenende ist Familie Bauer mit dem Zug nach München gefahren. Sie wollten das Oktoberfest besuchen, weil die Kinder die bunten Fahrgeschäfte sehen wollten. Der Zug war sehr voll.\n\nAuf dem Oktoberfest haben sie viele Menschen in Tracht gesehen. Die Kinder sind Achterbahn gefahren und haben Lebkuchenherzen gekauft. Der Vater hat eine Bratwurst gegessen, und die Mutter hat Fotos gemacht. Es war windig, aber die Sonne hat geschienen.\n\nAm Abend waren alle müde, aber zufrieden. „Das war ein toller Tag\", hat die Mutter gesagt. Im Zug nach Hause sind die Kinder schnell eingeschlafen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Bauer ist mit dem Auto nach München gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder sind Achterbahn gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater hat keine Bratwurst gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat den ganzen Tag geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder sind im Zug eingeschlafen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-buchmesse-in-leipzig",
+    "nivel": "B1",
+    "titulo": "Die Buchmesse in Leipzig",
+    "descripcion": "Sophie fährt zur Buchmesse nach Leipzig, obwohl sie eigentlich lernen müsste.",
+    "texto": "Sophie ist eine begeisterte Leserin. Obwohl sie eigentlich für eine wichtige Prüfung lernen musste, hat sie sich entschieden, an einem Wochenende zur Buchmesse nach Leipzig zu fahren. Ihre Freundin Nele hatte sie schon lange dazu eingeladen.\n\nNachdem die beiden am Bahnhof angekommen waren, gingen sie direkt zur Messehalle. Dort gab es Hunderte von Verlagen, Lesungen und sogar bekannte Autoren zum Anfassen. Sophie stand über eine Stunde an, um sich ein Buch signieren zu lassen. Trotzdem bereute sie es nicht, denn die Atmosphäre war einzigartig.\n\nAm Sonntagabend kehrte Sophie mit einer vollen Tasche Bücher und wenig Zeit zum Lernen nach Hause zurück. Trotzdem war sie überzeugt, dass sich der Ausflug gelohnt hatte. In der folgenden Woche lernte sie besonders konzentriert, damit sie die verlorene Zeit wieder aufholen konnte.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie musste eigentlich für eine Prüfung lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie ist allein nach Leipzig gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat sich kein Buch signieren lassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie bereute den Ausflug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Buchmesse lernte Sophie besonders konzentriert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-pruefungsvorbereitung",
+    "nivel": "B1",
+    "titulo": "Die Prüfungsvorbereitung",
+    "descripcion": "Felix bereitet sich mit seiner Lerngruppe auf eine schwierige Mathematikprüfung vor.",
+    "texto": "Felix hatte in zwei Wochen eine wichtige Mathematikprüfung. Obwohl er den Stoff im Unterricht eigentlich verstanden hatte, fühlte er sich unsicher. Deshalb beschloss er, sich mit drei Klassenkameraden zu einer Lerngruppe zu treffen.\n\nJeden Nachmittag trafen sie sich in der Bibliothek und übten gemeinsam alte Prüfungsaufgaben. Nachdem sie die ersten Aufgaben gelöst hatten, bemerkten sie, dass ihnen bestimmte Themen noch Schwierigkeiten bereiteten. Ein Mitschüler, der besonders gut in Geometrie war, erklärte den anderen geduldig die schwierigen Formeln.\n\nTrotzdem war Felix am Tag der Prüfung noch nervös. Als er die erste Aufgabe las, merkte er jedoch, dass er alles verstand. Nach der Prüfung war er erleichtert und dankbar für seine Lerngruppe. „Ohne euch hätte ich das nicht geschafft\", sagte er zu seinen Freunden.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hatte in zwei Wochen eine Deutschprüfung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat sich mit einer Lerngruppe getroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben sich jeden Nachmittag im Park getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Mitschüler war besonders gut in Geometrie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix war am Tag der Prüfung überhaupt nicht nervös.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-freundeskreis-nach-dem-abitur",
+    "nivel": "B1",
+    "titulo": "Der Freundeskreis nach dem Abitur",
+    "descripcion": "Nach dem Abitur ziehen Annas Freunde in verschiedene Städte, und die Freundschaft wird auf die Probe gestellt.",
+    "texto": "Nachdem Anna und ihre Freunde das Abitur bestanden hatten, änderte sich vieles. Während einige von ihnen an der Universität in Berlin studierten, zog ein anderer Freund für eine Ausbildung nach Hamburg. Obwohl sie sich vorgenommen hatten, in Kontakt zu bleiben, wurde es im Alltag immer schwieriger.\n\nIn den ersten Monaten schrieben sie sich noch regelmäßig, doch mit der Zeit wurden die Nachrichten seltener. Anna vermisste die gemeinsamen Nachmittage im Park und die langen Gespräche nach der Schule. Trotzdem versuchte sie, die Freundschaften nicht aufzugeben, und organisierte ein Videotelefonat mit der ganzen Gruppe.\n\nAls sich alle nach einem Jahr endlich wiedersahen, war es, als hätte sich nichts verändert. Sie lachten über alte Erinnerungen und planten sofort das nächste Treffen. Anna verstand, dass echte Freundschaft auch Entfernungen überstehen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Annas Freunde sind nach dem Abitur alle in derselben Stadt geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Freund ist für eine Ausbildung nach Hamburg gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde haben sich nie wieder geschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna hat ein Videotelefonat organisiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim Wiedersehen war die Stimmung zwischen den Freunden angespannt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-journalismus",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Journalismus",
+    "descripcion": "Ein Essay über die Chancen und Risiken von KI-generierten Nachrichtenartikeln.",
+    "texto": "Immer mehr Nachrichtenredaktionen setzen künstliche Intelligenz ein, um Artikel automatisch zu generieren. Kurze Meldungen zu Börsenkursen, Sportergebnissen oder Wetterberichten werden inzwischen häufig von Algorithmen verfasst, ohne dass ein Journalist eingreifen muss. Befürworter argumentieren, dass dadurch wertvolle Zeit für aufwendige Recherchen gewonnen werde, die andernfalls für Routinetexte verschwendet würde.\n\nKritiker hingegen warnen, dass die zunehmende Automatisierung die journalistische Qualität gefährden könnte. Wenn Algorithmen Nachrichten allein aus vorhandenen Datenquellen zusammenstellten, bliebe die kritische Einordnung von Ereignissen auf der Strecke. Zudem stelle sich die Frage, wer die Verantwortung trage, falls ein KI-generierter Artikel falsche Informationen verbreite. Manche Experten fordern deshalb, dass jeder automatisch erstellte Text klar gekennzeichnet werden müsse, damit Leser wüssten, woher die Information stamme.\n\nTrotz aller Bedenken lässt sich der Trend kaum aufhalten. Sollten Redaktionen die Technologie verantwortungsvoll einsetzen, könnte künstliche Intelligenz den Journalismus tatsächlich entlasten, ohne seine Glaubwürdigkeit zu untergraben. Ob dies gelingt, hängt jedoch entscheidend davon ab, wie transparent die Verlage mit dem Einsatz solcher Systeme umgehen.",
+    "preguntas": [
+      {
+        "enunciado": "Kurze Meldungen wie Wetterberichte werden manchmal von Algorithmen verfasst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter sehen in der KI-Nutzung keinerlei Vorteile.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass die journalistische Qualität leiden könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass eine Kennzeichnung überflüssig sei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text kommt zu dem Schluss, dass Transparenz für den verantwortungsvollen Einsatz wichtig ist.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "gesetzlicher-anspruch-auf-homeoffice",
+    "nivel": "B2",
+    "titulo": "Gesetzlicher Anspruch auf Homeoffice",
+    "descripcion": "Eine Debatte darüber, ob Arbeitnehmer ein gesetzliches Recht auf Homeoffice erhalten sollten.",
+    "texto": "Seit der Pandemie hat sich Homeoffice in vielen Branchen als selbstverständlicher Bestandteil der Arbeitswelt etabliert. Dennoch gibt es in Deutschland bislang keinen allgemeinen gesetzlichen Anspruch darauf, von zu Hause aus arbeiten zu dürfen. Befürworter eines solchen Rechts argumentieren, dass Arbeitnehmer dadurch mehr Flexibilität gewännen und Familie sowie Beruf leichter vereinbaren könnten.\n\nArbeitgeberverbände hingegen befürchten, dass ein gesetzlich verankerter Anspruch die betriebliche Organisation erheblich erschweren würde. Wenn jeder Beschäftigte unabhängig von seiner Tätigkeit einen Rechtsanspruch geltend machen könnte, müssten viele Unternehmen ihre Arbeitsabläufe grundlegend umstellen. Zudem wird eingewendet, dass nicht alle Berufe für Heimarbeit geeignet seien, etwa in der Produktion oder im Einzelhandel.\n\nPolitiker verschiedener Parteien haben bereits Vorschläge unterbreitet, wie ein Kompromiss aussehen könnte. Ein Modell sieht vor, dass Arbeitnehmer zumindest ein Recht auf eine begründete Ablehnung durch den Arbeitgeber erhalten sollten, ohne dass ein uneingeschränkter Anspruch entstünde. Ob eine solche Regelung tatsächlich verabschiedet wird, bleibt jedoch ungewiss, da die Verhandlungen zwischen Gewerkschaften und Arbeitgebern bislang ins Stocken geraten sind.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland gibt es bereits einen allgemeinen gesetzlichen Anspruch auf Homeoffice.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in Homeoffice eine bessere Vereinbarkeit von Familie und Beruf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Arbeitgeberverbände befürworten uneingeschränkt einen gesetzlichen Anspruch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text sind alle Berufe gleichermaßen für Homeoffice geeignet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein diskutiertes Modell sieht ein Recht auf eine begründete Ablehnung vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lieferkettengesetz-und-globale-verantwortung",
+    "nivel": "B2",
+    "titulo": "Das Lieferkettengesetz und globale Verantwortung",
+    "descripcion": "Ein Artikel über die Auswirkungen von Gesetzen, die Unternehmen für Menschenrechte in ihren Lieferketten verantwortlich machen.",
+    "texto": "In den vergangenen Jahren wurden in mehreren europäischen Ländern Gesetze verabschiedet, die Unternehmen dazu verpflichten, Menschenrechts- und Umweltstandards entlang ihrer gesamten Lieferkette einzuhalten. Damit soll verhindert werden, dass Produkte, die unter ausbeuterischen Bedingungen hergestellt wurden, ungehindert auf den europäischen Markt gelangen. Befürworter sehen darin einen wichtigen Schritt hin zu mehr globaler Gerechtigkeit.\n\nKritiker weisen jedoch darauf hin, dass insbesondere kleine und mittlere Unternehmen durch die neuen Vorschriften überfordert würden. Wenn ein mittelständischer Betrieb Hunderte von Zulieferern in verschiedenen Ländern kontrollieren müsste, wäre der bürokratische Aufwand kaum zu bewältigen, ohne zusätzliches Personal einzustellen. Manche Wirtschaftsvertreter fordern deshalb, dass die Kontrollpflichten auf Großunternehmen beschränkt bleiben sollten.\n\nGleichzeitig berichten Menschenrechtsorganisationen von ersten positiven Effekten: In einigen Zulieferbetrieben seien die Arbeitsbedingungen bereits verbessert worden, nachdem europäische Auftraggeber genauer hingeschaut hätten. Ob sich dieser Trend fortsetzt, hängt davon ab, ob die Gesetze konsequent durchgesetzt werden und ob Unternehmen echte Verantwortung übernehmen, anstatt lediglich formale Berichte zu erstellen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Gesetze verpflichten Unternehmen, Standards in ihrer Lieferkette einzuhalten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Wirtschaftsvertreter lehnen das Gesetz vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kleine und mittlere Unternehmen könnten laut Kritikern durch den bürokratischen Aufwand überfordert sein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Menschenrechtsorganisationen berichten ausschließlich von negativen Effekten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Erfolg der Gesetze hängt laut Text von ihrer konsequenten Durchsetzung ab.",
+        "respuesta": true
+      }
+    ]
   }
 ]
