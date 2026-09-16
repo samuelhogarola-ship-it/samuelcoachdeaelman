@@ -12998,5 +12998,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "beim-friseur",
+    "nivel": "A1",
+    "titulo": "Beim Friseur",
+    "descripcion": "Lena geht zum Friseur und lässt sich die Haare schneiden.",
+    "texto": "Lena hat lange Haare. Heute geht sie zum Friseur. Der Friseursalon ist in der Stadtmitte. Lena setzt sich auf einen Stuhl. Die Friseurin heißt Frau Klein.\n\n„Guten Tag! Was möchten Sie?\", fragt Frau Klein. Lena sagt: „Ich möchte kürzere Haare, bitte.\" Frau Klein wäscht die Haare mit Shampoo. Das Wasser ist warm. Danach schneidet sie die Haare. Lena schaut in den Spiegel.\n\nNach einer halben Stunde ist Lena fertig. Ihre Haare sind jetzt kurz und schön. Sie bezahlt zehn Euro und sagt: „Vielen Dank! Auf Wiedersehen!\" Frau Klein lächelt und winkt.",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat am Anfang kurze Haare.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Friseursalon ist in der Stadtmitte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Klein wäscht Lenas Haare mit Shampoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena bezahlt zwanzig Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena ist am Ende zufrieden mit ihren Haaren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenmarkt-am-morgen",
+    "nivel": "A1",
+    "titulo": "Der Wochenmarkt am Morgen",
+    "descripcion": "Tom kauft am Morgen frisches Obst auf dem Wochenmarkt.",
+    "texto": "Tom steht früh auf. Er geht auf den Wochenmarkt. Der Markt ist jeden Samstag auf dem Platz. Tom kauft Äpfel, Bananen und Karotten.\n\nAn einem Stand gibt es frischen Käse. Tom mag Käse sehr. Er kauft ein Stück Käse für das Frühstück. Eine Frau verkauft auch Blumen. Die Blumen sind rot und gelb.\n\nTom trägt eine Tasche. Die Tasche ist schwer, weil er viel kauft. Er geht nach Hause und macht Frühstück. Das Obst schmeckt frisch und lecker.",
+    "preguntas": [
+      {
+        "enunciado": "Tom geht am Samstag auf den Wochenmarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom kauft nur Bananen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom mag keinen Käse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Blumen sind rot und gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Toms Tasche ist leicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "spaziergang-mit-bruno",
+    "nivel": "A1",
+    "titulo": "Spaziergang mit Bruno",
+    "descripcion": "Julia erzählt von ihrem Hund und ihrem Tagesablauf mit ihm.",
+    "texto": "Julia hat einen Hund. Der Hund heißt Bruno. Bruno ist braun und klein. Jeden Morgen geht Julia mit Bruno spazieren.\n\nBruno mag Bälle. Im Park wirft Julia den Ball, und Bruno läuft schnell. Am Nachmittag schläft Bruno oft auf dem Sofa. Julia gibt ihm Wasser und Futter.\n\nAm Abend spielt die ganze Familie mit Bruno im Garten. Bruno ist glücklich und bellt laut. Julia liebt ihren Hund sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Julias Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist groß und schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia geht abends mit Bruno spazieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno mag Bälle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie spielt am Abend mit Bruno im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-neue-wohnung",
+    "nivel": "A2",
+    "titulo": "Der Umzug in die neue Wohnung",
+    "descripcion": "Familie Berger zieht in eine neue Wohnung und packt viele Kisten.",
+    "texto": "Familie Berger ist letzte Woche umgezogen. Die neue Wohnung ist größer als die alte, weil die Familie jetzt drei Kinder hat. Herr Berger hat einen Transporter gemietet, und seine Freunde haben ihm geholfen, die Möbel zu tragen.\n\nAm Umzugstag war es sehr stressig. Die Kinder haben ihre Spielsachen in Kisten gepackt, und Frau Berger hat die Küche organisiert. Nachdem alle Kisten im neuen Haus waren, haben sie zusammen Pizza bestellt, weil niemand Lust zum Kochen hatte.\n\nJetzt, eine Woche später, ist fast alles ausgepackt. Die Kinder freuen sich über ihre neuen Zimmer, obwohl noch nicht alle Bilder an der Wand hängen. Frau Berger sagt, dass sie die neue Nachbarschaft schon sehr mag.",
+    "preguntas": [
+      {
+        "enunciado": "Die neue Wohnung ist kleiner als die alte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Freunde haben Herrn Berger beim Tragen der Möbel geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Umzugstag haben alle zusammen gekocht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einer Woche ist fast alles ausgepackt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger mag die neue Nachbarschaft nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-freibad",
+    "nivel": "A2",
+    "titulo": "Ein Tag im Freibad",
+    "descripcion": "Paul und seine Freunde verbringen einen heißen Tag im Freibad.",
+    "texto": "Am Samstag war es sehr heiß, deshalb sind Paul und seine Freunde ins Freibad gefahren. Sie sind mit dem Fahrrad gefahren, weil das Freibad nicht weit von zu Hause ist. Als sie ankamen, war es schon sehr voll, weil viele Leute die Sonne genießen wollten.\n\nPaul ist sofort ins Wasser gesprungen, während seine Freundin Mia lieber auf der Wiese in der Sonne gelegen hat. Später haben sie zusammen ein Eis gegessen und über die Ferien gesprochen. Ein Freund von Paul hat erzählt, dass er bald nach Italien fliegt.\n\nAm Abend waren alle müde, weil sie den ganzen Tag geschwommen und gespielt hatten. Trotzdem war es einer der schönsten Tage des Sommers, und sie haben beschlossen, bald wieder ins Freibad zu gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und seine Freunde sind mit dem Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Freibad war sehr voll.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia ist sofort ins Wasser gesprungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Freund von Paul fliegt bald nach Italien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend waren alle voller Energie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-vergessene-wohnungsschluessel",
+    "nivel": "A2",
+    "titulo": "Der vergessene Wohnungsschlüssel",
+    "descripcion": "Sabine verliert ihren Wohnungsschlüssel und muss ihn suchen.",
+    "texto": "Sabine kam gestern spät von der Arbeit nach Hause und wollte die Tür aufschließen. Plötzlich hat sie gemerkt, dass ihr Schlüssel nicht mehr in ihrer Tasche war. Sie hat sich sehr erschrocken, weil es schon dunkel war.\n\nZuerst hat sie in ihrer Handtasche gesucht, aber der Schlüssel war nicht da. Dann hat sie ihre Nachbarin angerufen, weil diese einen Ersatzschlüssel hatte. Die Nachbarin hat ihr sofort geholfen und die Tür geöffnet. Sabine war sehr dankbar.\n\nAm nächsten Morgen hat Sabine den Schlüssel in ihrer Jackentasche gefunden. Sie hatte ihn dort vergessen, ohne es zu merken. Seitdem hängt sie ihren Schlüssel immer an denselben Haken, damit das nicht wieder passiert.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hat ihren Schlüssel in der Handtasche gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarin hatte einen Ersatzschlüssel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine musste die Nacht draußen verbringen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine hat den Schlüssel am nächsten Morgen gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine hängt ihren Schlüssel jetzt immer an denselben Haken.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-mitbewohner",
+    "nivel": "B1",
+    "titulo": "Der neue Mitbewohner",
+    "descripcion": "Felix zieht mit einem neuen Mitbewohner zusammen und muss sich an die Veränderung gewöhnen.",
+    "texto": "Nachdem sein alter Mitbewohner ausgezogen war, musste Felix jemanden Neuen für das freie Zimmer finden. Er hat eine Anzeige online gestellt und innerhalb weniger Tage viele Nachrichten bekommen. Am Ende hat er sich für Jonas entschieden, einen Studenten, der gerade sein Studium in der Stadt begonnen hat.\n\nObwohl die beiden sich vorher nicht kannten, haben sie sich schnell gut verstanden. Jonas ist ordentlich und kocht gerne, was Felix sehr gefällt, da er selbst nicht besonders gerne kocht. Trotzdem gab es am Anfang kleine Konflikte, zum Beispiel darüber, wer wann das Bad benutzen darf, weil beide morgens früh zur Arbeit beziehungsweise zur Uni müssen.\n\nNach ein paar Wochen haben sie gemeinsame Regeln aufgestellt, sodass der Alltag jetzt viel reibungsloser funktioniert. Felix ist froh, dass er nicht länger allein in der Wohnung leben muss, und Jonas fühlt sich in der neuen Stadt schon viel wohler, seitdem er einen festen Mitbewohner hat.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat seine Anzeige in einer Zeitung veröffentlicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat gerade sein Studium in der Stadt begonnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang gab es keinerlei Konflikte zwischen den beiden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden haben gemeinsame Regeln für den Alltag aufgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fühlt sich in der neuen Stadt unwohl.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-theatergruppe",
+    "nivel": "B1",
+    "titulo": "Die Theatergruppe",
+    "descripcion": "Nina tritt einer Theatergruppe bei und bereitet sich auf ihren ersten Auftritt vor.",
+    "texto": "Seit ihrer Kindheit wollte Nina schon einmal auf einer Bühne stehen, hatte sich aber nie getraut, es tatsächlich auszuprobieren. Als eine Kollegin ihr von einer Theatergruppe in der Stadt erzählte, entschloss sie sich spontan, dort mitzumachen, obwohl sie keinerlei Erfahrung als Schauspielerin hatte.\n\nIn den ersten Proben fühlte sich Nina unsicher, weil die anderen Mitglieder schon seit Jahren dabei waren. Nachdem sie jedoch einige Übungen gemeinsam gemacht hatten, wurde sie mutiger und begann, ihre Rolle mit mehr Selbstvertrauen zu spielen. Der Regisseur lobte sie mehrmals dafür, wie schnell sie sich entwickelt hatte.\n\nAm Tag der Premiere war Nina extrem nervös, obwohl sie wochenlang geübt hatte. Trotzdem lief die Vorstellung hervorragend, und das Publikum applaudierte lange. Nach der Aufführung sagte Nina, dass sie nie gedacht hätte, wie viel Freude ihr das Theaterspielen bereiten würde.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hatte schon viel Erfahrung als Schauspielerin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In den ersten Proben fühlte sich Nina sehr sicher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Regisseur lobte Nina für ihre schnelle Entwicklung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Tag der Premiere war Nina überhaupt nicht nervös.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Publikum applaudierte lange nach der Vorstellung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-fahrradunfall",
+    "nivel": "B1",
+    "titulo": "Der Fahrradunfall",
+    "descripcion": "Markus verletzt sich bei einem Fahrradunfall und muss seinen Alltag umstellen.",
+    "texto": "Auf dem Weg zur Arbeit ist Markus letzte Woche mit dem Fahrrad gestürzt, nachdem ein Auto plötzlich die Vorfahrt genommen hatte. Zum Glück konnte er noch rechtzeitig bremsen, sodass er sich nur das Bein verletzte und nicht schwerer verunglückte. Trotzdem musste er ins Krankenhaus gebracht werden, wo die Ärzte einen Verband anlegten.\n\nDa er wegen der Verletzung mehrere Wochen nicht Fahrrad fahren durfte, musste Markus seinen Arbeitsweg komplett umstellen. Anfangs war er frustriert, weil er den Bus nehmen musste, was viel länger dauerte als die gewohnte Fahrradstrecke. Nachdem er sich jedoch daran gewöhnt hatte, nutzte er die Zeit im Bus, um zu lesen, was er vorher nie gemacht hatte.\n\nHeute ist Markus fast wieder vollständig genesen, und er freut sich schon darauf, wieder mit dem Fahrrad fahren zu können. Der Unfall hat ihn allerdings vorsichtiger gemacht, sodass er jetzt immer einen Helm trägt, obwohl er das früher nie für nötig hielt.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist mit dem Auto verunglückt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus musste nach dem Unfall ins Krankenhaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus konnte sofort wieder mit dem Fahrrad fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Bus hat Markus angefangen zu lesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus trägt seit dem Unfall nie einen Helm.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche – Modell der Zukunft?",
+    "descripcion": "Ein Überblick über Chancen und Risiken der Vier-Tage-Woche in der modernen Arbeitswelt.",
+    "texto": "In den letzten Jahren wird in vielen europäischen Ländern über die Einführung einer Vier-Tage-Woche diskutiert. Befürworter argumentieren, dass eine kürzere Arbeitswoche bei vollem Lohnausgleich die Produktivität steigern und gleichzeitig die Zufriedenheit der Beschäftigten erhöhen könnte. Mehrere Pilotprojekte in Unternehmen unterschiedlicher Branchen hätten laut ersten Auswertungen positive Ergebnisse gezeigt.\n\nKritiker geben jedoch zu bedenken, dass sich nicht jede Branche für ein solches Modell eignet. Insbesondere im Gesundheitswesen oder in der Produktion, wo eine kontinuierliche Anwesenheit erforderlich ist, wäre eine Umsetzung mit erheblichen organisatorischen Schwierigkeiten verbunden. Zudem befürchten manche Arbeitgeberverbände, dass die Lohnkosten pro Arbeitsstunde steigen würden, was insbesondere kleinere Unternehmen finanziell belasten könnte.\n\nBefürworter entgegnen, dass durch effizientere Arbeitsprozesse und weniger Krankheitstage die Mehrkosten größtenteils ausgeglichen werden könnten. Studien aus Ländern, die bereits Erfahrungen mit verkürzten Arbeitswochen gesammelt haben, deuten zudem darauf hin, dass die Mitarbeiterbindung steigen würde, wenn Unternehmen ihren Beschäftigten mehr Freizeit ermöglichten.\n\nOb sich die Vier-Tage-Woche flächendeckend durchsetzen wird, bleibt ungewiss. Klar ist jedoch, dass die Debatte über neue Arbeitszeitmodelle die Arbeitswelt der Zukunft nachhaltig prägen dürfte, unabhängig davon, ob sich am Ende eine einheitliche Lösung finden lässt.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Vier-Tage-Woche erwarten eine sinkende Produktivität.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen wäre die Umsetzung laut Text unproblematisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Arbeitgeberverbände befürchten steigende Lohnkosten pro Stunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Befürwortern könnten effizientere Prozesse die Mehrkosten teilweise ausgleichen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu dem eindeutigen Schluss, dass sich die Vier-Tage-Woche sicher durchsetzen wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "landflucht-und-staedtewachstum",
+    "nivel": "B2",
+    "titulo": "Landflucht und Städtewachstum",
+    "descripcion": "Warum immer mehr Menschen vom Land in die Stadt ziehen und welche Folgen das hat.",
+    "texto": "Seit Jahrzehnten lässt sich in Deutschland ein Trend beobachten, der als Landflucht bezeichnet wird: Immer mehr Menschen, insbesondere junge Erwachsene, verlassen ländliche Regionen, um in größeren Städten zu leben und zu arbeiten. Als Hauptgründe werden meist bessere Ausbildungs- und Arbeitsmöglichkeiten sowie ein vielfältigeres kulturelles Angebot genannt.\n\nFür die betroffenen ländlichen Gemeinden hat diese Entwicklung weitreichende Konsequenzen. Schulen und Geschäfte müssen häufig schließen, da schlicht zu wenige Menschen vor Ort bleiben, um sie wirtschaftlich zu tragen. Gleichzeitig altert die verbleibende Bevölkerung zunehmend, was wiederum die medizinische Versorgung erschwert, da sich Ärzte kaum noch in abgelegenen Gebieten niederlassen möchten.\n\nIn den Städten wiederum führt der Zuzug zu einem angespannten Wohnungsmarkt, auf dem die Mieten in den letzten Jahren teilweise drastisch gestiegen sind. Um dem entgegenzuwirken, fordern manche Experten, dass in ländlichen Regionen gezielt in Infrastruktur investiert werden müsste, damit dort attraktive Lebensbedingungen entstehen könnten, die junge Menschen zum Bleiben bewegen würden.\n\nOb solche Maßnahmen ausreichen, um den Trend umzukehren, ist allerdings fraglich. Viele Fachleute sind sich einig, dass ohne eine grundlegende Strukturreform die Kluft zwischen Stadt und Land in den kommenden Jahren eher noch größer werden dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr junge Menschen ziehen vom Land in die Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In ländlichen Gemeinden müssen kaum Schulen oder Geschäfte schließen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ärzte lassen sich zunehmend gerne in abgelegenen Gebieten nieder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In den Städten sind die Mieten in den letzten Jahren gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Fachleute sind sich sicher, dass sich die Kluft zwischen Stadt und Land bald schließen wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "algorithmen-in-sozialen-netzwerken",
+    "nivel": "B2",
+    "titulo": "Algorithmen in sozialen Netzwerken",
+    "descripcion": "Wie personalisierte Algorithmen in sozialen Netzwerken die öffentliche Meinung beeinflussen können.",
+    "texto": "Soziale Netzwerke nutzen Algorithmen, um Nutzerinnen und Nutzern Inhalte anzuzeigen, die ihren bisherigen Interessen entsprechen. Auf den ersten Blick erscheint dies praktisch, da man vor allem Beiträge sieht, die einen tatsächlich interessieren. Kritiker warnen jedoch davor, dass dadurch sogenannte Filterblasen entstehen könnten, in denen Nutzer kaum noch mit abweichenden Meinungen konfrontiert werden.\n\nWenn Menschen überwiegend Inhalte sehen, die ihre bestehenden Ansichten bestätigen, könnte dies langfristig die gesellschaftliche Polarisierung verstärken. Studien deuten darauf hin, dass Beiträge mit starken Emotionen, etwa Empörung oder Angst, von den Algorithmen bevorzugt verbreitet werden, weil sie mehr Interaktionen erzeugen. Dadurch würden gemäßigte oder differenzierte Stimmen tendenziell benachteiligt.\n\nEinige Plattformbetreiber haben inzwischen reagiert und versuchen, durch Anpassungen der Algorithmen eine ausgewogenere Informationsversorgung zu gewährleisten. Ob solche Maßnahmen ausreichen, wird von Fachleuten unterschiedlich beurteilt. Manche fordern, dass die Funktionsweise der Algorithmen transparenter gemacht werden müsste, damit Nutzer besser nachvollziehen könnten, warum ihnen bestimmte Inhalte angezeigt werden.\n\nLetztlich bleibt die Frage, inwieweit private Unternehmen dazu verpflichtet werden sollten, im Interesse der demokratischen Meinungsbildung zu handeln, ein zentraler Streitpunkt in der politischen Debatte über die Regulierung digitaler Plattformen.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen zeigen Nutzern Inhalte, die ihren bisherigen Interessen entsprechen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Filterblasen sorgen dafür, dass Nutzer viele abweichende Meinungen sehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beiträge mit starken Emotionen werden laut Studien seltener verbreitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Plattformbetreiber haben ihre Algorithmen bereits angepasst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frage der Regulierung digitaler Plattformen gilt als vollständig geklärt.",
+        "respuesta": false
+      }
+    ]
   }
 ]
