@@ -13694,5 +13694,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-wintermorgen",
+    "nivel": "A1",
+    "titulo": "Der Wintermorgen",
+    "descripcion": "Anna steht an einem kalten Wintermorgen auf und geht zur Schule.",
+    "texto": "Es ist Winter. Draußen ist es kalt und dunkel. Anna steht um sieben Uhr auf. Sie zieht einen warmen Pullover an.\n\nAnna isst Brot mit Marmelade. Sie trinkt heißen Tee. Danach putzt sie ihre Zähne. Sie packt ihre Schultasche.\n\nDraußen liegt Schnee. Anna zieht Stiefel und eine Mütze an. Sie geht zu Fuß zur Schule. Der Weg ist glatt, aber Anna geht langsam.",
+    "preguntas": [
+      {
+        "enunciado": "Es ist Sommer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna trinkt heißen Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Draußen liegt Schnee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna fährt mit dem Auto zur Schule.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-gemueseladen",
+    "nivel": "A1",
+    "titulo": "Im Gemüseladen",
+    "descripcion": "Frau Berger kauft frisches Gemüse und Obst im Laden.",
+    "texto": "Frau Berger geht in den Gemüseladen. Sie kauft Tomaten, Gurken und Karotten. Die Tomaten sind rot und frisch.\n\nDer Verkäufer heißt Herr Kaya. Er ist sehr freundlich. Frau Berger fragt: „Was kosten die Kartoffeln?“ Herr Kaya antwortet: „Zwei Euro pro Kilo.“\n\nFrau Berger kauft auch Äpfel und Bananen. Sie bezahlt an der Kasse. Dann geht sie nach Hause und kocht eine Suppe.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger kauft Tomaten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer heißt Herr Kaya.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kartoffeln kosten fünf Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger kauft keine Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger kocht eine Suppe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-schultuete",
+    "nivel": "A1",
+    "titulo": "Meine Schultüte",
+    "descripcion": "Lukas hat seinen ersten Schultag und bekommt eine bunte Schultüte.",
+    "texto": "Heute ist ein besonderer Tag. Lukas kommt heute in die Schule. Er ist sechs Jahre alt und sehr aufgeregt.\n\nLukas trägt einen neuen Rucksack. In der Hand hält er eine große Schultüte. Die Schultüte ist bunt und hat Süßigkeiten.\n\nMama und Papa gehen mit Lukas zur Schule. Vor der Tür macht die Familie ein Foto. Lukas lächelt. Er freut sich auf seine neuen Freunde.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas ist sechs Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas hat eine Schultüte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schultüte ist leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas ist traurig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie macht ein Foto.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommerfest-im-verein",
+    "nivel": "A2",
+    "titulo": "Ein Sommerfest im Verein",
+    "descripcion": "Der Sportverein organisiert ein Sommerfest mit Musik, Spielen und Grillessen.",
+    "texto": "Letzten Samstag hat der Sportverein ein großes Sommerfest organisiert. Viele Familien sind gekommen, weil das Wetter sehr schön war. Es gab Musik, Spiele und viel Essen vom Grill.\n\nHerr Wolf hat am Grill gestanden und Würstchen gebraten. Die Kinder haben Fußball gespielt und sind danach schwimmen gegangen, weil es sehr heiß war. Frau Lang hat einen Kuchen mitgebracht, den alle sehr lecker fanden.\n\nAm Abend hat der Verein eine kleine Tombola veranstaltet. Viele Gäste haben Preise gewonnen. Alle waren müde, aber glücklich, als sie nach Hause gegangen sind.",
+    "preguntas": [
+      {
+        "enunciado": "Das Sommerfest war am Sonntag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war schön.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wolf hat Würstchen gegrillt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben nur ferngesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab keine Tombola.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-brieftasche",
+    "nivel": "A2",
+    "titulo": "Die verlorene Brieftasche",
+    "descripcion": "Herr Neumann verliert seine Brieftasche im Bus und meldet sich beim Fundbüro.",
+    "texto": "Herr Neumann hat gestern seine Brieftasche verloren. Er hat sie wahrscheinlich im Bus liegen lassen, als er ausgestiegen ist. Zuerst hat er im ganzen Haus gesucht, aber er hat sie nicht gefunden.\n\nDann ist er zum Fundbüro gegangen und hat den Verlust gemeldet. Die Mitarbeiterin hat seinen Namen und seine Telefonnummer notiert. Sie hat gesagt, dass viele Leute ihre Sachen im Bus vergessen.\n\nAm nächsten Tag hat das Fundbüro angerufen. Ein Fahrgast hatte die Brieftasche gefunden und abgegeben. Herr Neumann war sehr erleichtert, weil sein Ausweis und sein Geld noch darin waren.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Neumann hat seine Brieftasche im Park verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er hat die Brieftasche sofort zu Hause gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er ist zum Fundbüro gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fundbüro hat ihn am nächsten Tag angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sein Geld war weg.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-wanderung-im-harz",
+    "nivel": "A2",
+    "titulo": "Eine Wanderung im Harz",
+    "descripcion": "Familie Richter unternimmt im Herbst eine Wanderung durch den Harz.",
+    "texto": "Im Herbst ist Familie Richter in den Harz gefahren, um dort zu wandern. Sie haben eine Route ausgesucht, die durch einen dichten Wald führt. Das Wetter war kühl, aber trocken.\n\nNach zwei Stunden haben sie eine kleine Berghütte erreicht. Dort haben sie Tee getrunken und belegte Brote gegessen, weil alle hungrig waren. Die Kinder haben Kastanien gesammelt und Fotos von den bunten Blättern gemacht.\n\nAuf dem Rückweg hat es leicht zu regnen begonnen. Die Familie ist schneller gelaufen und hat den Parkplatz gerade noch trocken erreicht. Am Abend waren alle müde, aber sie haben den Ausflug sehr genossen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Richter ist im Sommer gewandert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben eine Berghütte erreicht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben Muscheln gesammelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat auf dem Rückweg geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat den Ausflug nicht genossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-escape-room-mit-freunden",
+    "nivel": "B1",
+    "titulo": "Der Escape Room mit Freunden",
+    "descripcion": "Jonas lädt seine Freunde nach dem Geburtstag zu einem Escape Room ein.",
+    "texto": "Nachdem Jonas seinen Geburtstag gefeiert hatte, wollte er mit seinen Freunden noch etwas Besonderes unternehmen. Er hatte im Internet von einem Escape Room gelesen und beschloss, seine Freunde dorthin einzuladen. Obwohl niemand von ihnen vorher in einem Escape Room gewesen war, waren alle sofort begeistert von der Idee.\n\nAm Samstagabend trafen sich sechs Freunde vor einem alten Lagerhaus, das in einen Escape Room umgebaut worden war. Sie wurden in einen Raum geführt, der wie ein geheimes Labor aussah, und bekamen nur sechzig Minuten Zeit, um alle Rätsel zu lösen. Trotzdem verloren sie nicht die Geduld, sondern arbeiteten von Anfang an als Team zusammen.\n\nNach vierzig Minuten steckten sie bei einem schwierigen Zahlenrätsel fest. Erst als Jonas eine versteckte Botschaft hinter einem Bild entdeckte, konnten sie weitermachen. Schließlich gelang es der Gruppe, die letzte Tür genau drei Minuten vor Ablauf der Zeit zu öffnen. Alle waren stolz auf sich, obwohl die Aufgabe viel schwerer gewesen war, als sie gedacht hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte zuvor schon oft einen Escape Room besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde trafen sich in einem alten Lagerhaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe hatte unbegrenzt Zeit für die Rätsel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas fand eine versteckte Botschaft hinter einem Bild.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe konnte die letzte Tür nicht öffnen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vorstellungsrunde-im-neuen-job",
+    "nivel": "B1",
+    "titulo": "Die Vorstellungsrunde im neuen Job",
+    "descripcion": "Melanie erlebt ihren ersten Arbeitstag und lernt ihr neues Team kennen.",
+    "texto": "Als Melanie ihren ersten Tag in der neuen Firma hatte, war sie sehr nervös, obwohl sie sich gut vorbereitet hatte. Ihr neuer Chef begrüßte sie freundlich und stellte sie dem gesamten Team in einer kurzen Vorstellungsrunde vor. Jeder Kollege erzählte kurz, welche Aufgaben er im Unternehmen übernahm.\n\nNachdem die Vorstellungsrunde beendet war, führte eine Kollegin Melanie durch das Gebäude und zeigte ihr die wichtigsten Räume. Trotzdem fühlte sich Melanie am Anfang etwas verloren, weil es so viele neue Namen und Gesichter gab. Zum Glück setzte sich ein erfahrener Kollege zu ihr in die Mittagspause und beantwortete geduldig ihre Fragen.\n\nAm Ende des Tages war Melanie erschöpft, aber auch erleichtert. Obwohl sie noch nicht alle Namen behalten konnte, hatte sie das Gefühl, gut im Team aufgenommen worden zu sein. Sie freute sich schon auf die nächsten Wochen in ihrem neuen Job.",
+    "preguntas": [
+      {
+        "enunciado": "Melanie war an ihrem ersten Arbeitstag entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Chef stellte Melanie dem Team vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Melanie kannte sofort alle Namen ihrer Kollegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein erfahrener Kollege half ihr in der Mittagspause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Melanie fühlte sich am Ende des Tages schlecht aufgenommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenfest-im-kiez",
+    "nivel": "B1",
+    "titulo": "Das Straßenfest im Kiez",
+    "descripcion": "Die Bewohner eines Berliner Kiezes organisieren jedes Jahr ein Straßenfest.",
+    "texto": "Jedes Jahr im Juni organisieren die Bewohner eines kleinen Berliner Kiezes ein Straßenfest, bei dem die ganze Nachbarschaft zusammenkommt. Nachdem die Straße für den Verkehr gesperrt worden war, bauten die Anwohner gemeinsam Stände auf, an denen selbstgemachtes Essen aus verschiedenen Ländern angeboten wurde. Obwohl die Vorbereitungen viel Arbeit bedeuteten, machten alle mit viel Freude mit.\n\nAuf einer kleinen Bühne traten lokale Musiker auf, während Kinder auf der Straße Fahrrad fuhren und Kreide-Bilder malten. Ein älterer Herr aus dem Nachbarhaus erzählte den jüngeren Bewohnern, wie sich der Kiez in den letzten dreißig Jahren verändert hatte. Trotzdem blieb die Atmosphäre entspannt und familiär, ganz so, wie es die Organisatoren geplant hatten.\n\nAm Abend, nachdem die Bühne abgebaut worden war, saßen viele Nachbarn noch lange zusammen und tauschten Geschichten aus. Für viele war es die einzige Gelegenheit im Jahr, alle Nachbarn persönlich kennenzulernen. Das Straßenfest wurde deshalb schon jetzt für das nächste Jahr fest eingeplant.",
+    "preguntas": [
+      {
+        "enunciado": "Das Straßenfest findet jeden Monat statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Straße wurde für den Verkehr gesperrt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab keine Musik beim Fest.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein älterer Nachbar erzählte von der Vergangenheit des Kiezes.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Fest wird es im nächsten Jahr nicht wiederholt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "stille-kuendigung-quiet-quitting",
+    "nivel": "B2",
+    "titulo": "Stille Kündigung – Quiet Quitting im Berufsleben",
+    "descripcion": "Eine Analyse des Trends, im Job nur noch das Nötigste zu leisten.",
+    "texto": "In den vergangenen Jahren hat sich der Begriff „Quiet Quitting“ in der Arbeitswelt etabliert. Gemeint ist damit kein tatsächlicher Rücktritt vom Job, sondern eine innere Distanzierung: Beschäftigte erledigen nur noch genau das, wofür sie bezahlt werden, und verzichten bewusst auf unbezahlte Überstunden oder freiwilliges Engagement. Kritiker werfen dieser Haltung mangelnden Ehrgeiz vor, während Befürworter sie als überfällige Reaktion auf jahrelange Überlastung betrachten.\n\nUntersucht man die Ursachen genauer, zeigt sich, dass viele Arbeitnehmer schlicht ausgebrannt sind. Wäre die Vergütung fairer gestaltet und würden Überstunden konsequent honoriert, bräuchte es das Konzept des Quiet Quitting möglicherweise gar nicht. Stattdessen wird von vielen Unternehmen erwartet, dass Mitarbeitende ständig erreichbar sind, ohne dass dafür ein finanzieller oder zeitlicher Ausgleich geschaffen wird.\n\nAuf der anderen Seite argumentieren Personalverantwortliche, dass durch diese Entwicklung wichtige Projekte verzögert und Teams zusätzlich belastet würden. Wenn engagierte Kollegen die liegen gebliebene Arbeit übernehmen müssten, entstehe schnell ein Gefühl der Ungerechtigkeit innerhalb des Teams. Manche Firmen haben deshalb begonnen, ihre Unternehmenskultur zu überdenken und flexiblere Arbeitszeitmodelle einzuführen.\n\nLetztlich wird die Debatte um Quiet Quitting wohl so lange geführt werden, bis ein tragfähiges Gleichgewicht zwischen den Erwartungen der Arbeitgeber und den Bedürfnissen der Beschäftigten gefunden worden ist. Ob dieses Gleichgewicht durch gesetzliche Regelungen, bessere Bezahlung oder einen grundlegenden Kulturwandel erreicht wird, bleibt abzuwarten.",
+    "preguntas": [
+      {
+        "enunciado": "Quiet Quitting bedeutet, dass man seinen Job tatsächlich kündigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen in Quiet Quitting mangelnden Ehrgeiz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind alle Arbeitnehmer mit ihrer aktuellen Arbeitsbelastung zufrieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen überdenken wegen dieser Entwicklung ihre Unternehmenskultur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte über Quiet Quitting gilt laut Text bereits als abgeschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "deepfakes-wenn-man-dem-eigenen-auge-nicht-mehr-trauen-kann",
+    "nivel": "B2",
+    "titulo": "Deepfakes – Wenn man dem eigenen Auge nicht mehr trauen kann",
+    "descripcion": "Wie künstliche Intelligenz täuschend echte Fälschungen erschafft und warum das gefährlich ist.",
+    "texto": "Mithilfe künstlicher Intelligenz lassen sich heute Videos erstellen, in denen Personen Dinge sagen oder tun, die in Wirklichkeit nie stattgefunden haben. Diese sogenannten Deepfakes werden mittlerweile so überzeugend produziert, dass selbst Experten sie nicht immer auf den ersten Blick erkennen können. Was vor wenigen Jahren noch aufwendige Spezialsoftware erforderte, kann heute mit frei verfügbaren Programmen erstellt werden.\n\nBesonders besorgniserregend ist, dass Deepfakes zunehmend für Betrug und Desinformation eingesetzt werden. So wurden bereits gefälschte Videos von Politikern verbreitet, in denen diese angeblich Aussagen getroffen hätten, die sie nie gemacht haben. Würde ein solches Video kurz vor einer Wahl veröffentlicht, könnte es erheblichen Einfluss auf die öffentliche Meinung nehmen, bevor eine Richtigstellung überhaupt wahrgenommen wird.\n\nUm dieser Entwicklung zu begegnen, wird derzeit an technischen Erkennungsverfahren gearbeitet, mit denen manipulierte Inhalte automatisch identifiziert werden sollen. Gleichzeitig fordern Medienexperten, dass Nutzerinnen und Nutzer stärker für das Thema sensibilisiert werden, damit Inhalte nicht ungeprüft geglaubt und weiterverbreitet werden. Nur wenn technische Lösungen und Medienkompetenz zusammenwirken, könne der Missbrauch wirksam eingedämmt werden, so die Einschätzung vieler Fachleute.\n\nDennoch bleibt die Herausforderung groß, denn die Technologie zur Erstellung von Deepfakes entwickelt sich schneller als die Methoden zu ihrer Erkennung. Manche Forscher befürchten sogar, dass es in Zukunft grundsätzlich schwieriger werden wird, echte von gefälschten Aufnahmen zu unterscheiden.",
+    "preguntas": [
+      {
+        "enunciado": "Deepfakes können heute nur mit teurer Spezialsoftware erstellt werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wurden bereits gefälschte Videos von Politikern verbreitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind Deepfakes für die Gesellschaft völlig ungefährlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienexperten fordern eine stärkere Sensibilisierung der Nutzer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Erkennung von Deepfakes ist laut Text bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "serielles-bauen-schneller-wohnraum-durch-vorfertigung",
+    "nivel": "B2",
+    "titulo": "Serielles Bauen – Schneller Wohnraum durch Vorfertigung?",
+    "descripcion": "Warum vorgefertigte Wohnmodule als Antwort auf die Wohnungsnot diskutiert werden.",
+    "texto": "Angesichts der anhaltenden Wohnungsnot in vielen deutschen Großstädten setzen Politik und Bauwirtschaft zunehmend auf serielles Bauen. Dabei werden Wohnungen nicht mehr individuell auf der Baustelle errichtet, sondern in standardisierten Modulen in Fabrikhallen vorgefertigt und anschließend vor Ort zusammengesetzt. Befürworter versprechen sich davon deutlich kürzere Bauzeiten und geringere Kosten, was angesichts steigender Mieten dringend benötigt würde.\n\nTatsächlich zeigen erste Pilotprojekte, dass auf diese Weise errichtete Wohnhäuser innerhalb weniger Monate bezugsfertig sein können, während herkömmliche Bauvorhaben oft Jahre in Anspruch nehmen. Wäre die Genehmigung solcher Projekte weniger bürokratisch, könnten vermutlich noch deutlich mehr Wohnungen auf diese Weise entstehen. Kritiker bemängeln jedoch, dass die serielle Bauweise architektonische Vielfalt einschränke und ganze Stadtviertel dadurch eintönig wirken könnten.\n\nEin weiterer Streitpunkt betrifft die Qualität der verwendeten Materialien. Während Befürworter betonen, dass moderne Vorfertigungstechniken hohen Standards entsprächen, äußern manche Bauexperten Zweifel an der langfristigen Haltbarkeit der Module. Zudem wird diskutiert, ob durch die Standardisierung ausreichend auf lokale Gegebenheiten wie Klima oder vorhandene Bausubstanz eingegangen werden kann.\n\nTrotz dieser Bedenken gilt serielles Bauen für viele Kommunen als vielversprechender Baustein, um dem Wohnungsmangel kurzfristig zu begegnen. Ob sich das Verfahren langfristig durchsetzen wird, hängt jedoch maßgeblich davon ab, ob es gelingt, Effizienz und städtebauliche Qualität in Einklang zu bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Beim seriellen Bauen werden Wohnungen komplett individuell auf der Baustelle errichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Serielles Bauen kann laut Text die Bauzeit deutlich verkürzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind von der langfristigen Haltbarkeit der Module überzeugt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Stadtviertel durch serielle Bauweise eintönig werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Serielles Bauen gilt laut Text als vollständig unumstrittene Lösung des Wohnungsproblems.",
+        "respuesta": false
+      }
+    ]
   }
 ]
