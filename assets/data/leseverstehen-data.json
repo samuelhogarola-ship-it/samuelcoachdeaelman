@@ -15782,5 +15782,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "meine-lieblingsmusik",
+    "nivel": "A1",
+    "titulo": "Meine Lieblingsmusik",
+    "descripcion": "Mia erzählt von ihrer Lieblingsmusik und ihrem Gitarrenunterricht.",
+    "texto": "Ich heiße Mia. Ich höre gern Musik. Pop-Musik gefällt mir am besten. Meine Lieblingssängerin kommt aus Deutschland. Ich höre ihre Lieder jeden Tag.\n\nIch spiele auch Gitarre. Der Unterricht ist am Montag. Meine Lehrerin heißt Frau Berg. Sie ist sehr nett. Wir üben zusammen neue Lieder.\n\nAm Wochenende singe ich mit meiner Schwester. Wir haben Spaß dabei. Meine Mutter hört gern zu. Musik macht mich glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Mia hört gern klassische Musik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia spielt Gitarre.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Gitarrenunterricht ist am Montag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berg ist Mias Schwester.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia singt am Wochenende mit ihrer Schwester.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-schulweg",
+    "nivel": "A1",
+    "titulo": "Mein Schulweg",
+    "descripcion": "Tom beschreibt seinen täglichen Weg zur Schule mit dem Fahrrad.",
+    "texto": "Ich heiße Tom. Ich gehe jeden Morgen zur Schule. Der Weg ist nicht weit. Ich fahre mit dem Fahrrad. Die Fahrt dauert zehn Minuten.\n\nZuerst fahre ich durch den Park. Dort sind viele Bäume. Dann fahre ich an der Bäckerei vorbei. Der Duft von frischem Brot ist toll. Danach komme ich an der Schule an.\n\nMeine Freundin Lisa wohnt in der Nähe. Wir fahren oft zusammen. Wir reden über die Schule. Der Schulweg macht mir Spaß.",
+    "preguntas": [
+      {
+        "enunciado": "Toms Schulweg dauert eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom fährt mit dem Fahrrad zur Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom fährt durch den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa wohnt weit weg von Tom.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom und Lisa fahren oft zusammen zur Schule.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingssport",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingssport",
+    "descripcion": "Ben erzählt, warum Fußball sein Lieblingssport ist.",
+    "texto": "Ich heiße Ben. Fußball ist mein Lieblingssport. Ich spiele zweimal in der Woche. Das Training ist im Stadtpark. Mein Trainer heißt Herr Klein.\n\nIn meiner Mannschaft sind zwölf Kinder. Wir tragen rote Trikots. Am Samstag haben wir oft ein Spiel. Meine Eltern kommen gern zum Spiel. Sie sind stolz auf mich.\n\nNach dem Spiel trinken wir Saft. Wir essen auch Kekse. Meine Freunde und ich lachen viel. Fußball macht mir großen Spaß.",
+    "preguntas": [
+      {
+        "enunciado": "Ben spielt einmal in der Woche Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Training ist im Stadtpark.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Bens Mannschaft sind zwölf Kinder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Spiele sind immer am Sonntag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Spiel trinken die Kinder Saft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-aus-der-schule",
+    "nivel": "A2",
+    "titulo": "Der Brief aus der Schule",
+    "descripcion": "Familie Bauer bekommt einen Brief über eine Klassenfahrt an die Ostsee.",
+    "texto": "Am Montag hat Frau Bauer einen Brief aus der Schule bekommen. Ihr Sohn Paul hat den Brief aus dem Ranzen geholt. In dem Brief hat die Lehrerin über eine Klassenfahrt geschrieben. Die Klasse fährt im Mai an die Ostsee. Paul hat sich sehr gefreut, weil er noch nie am Meer war.\n\nFrau Bauer hat den Brief genau gelesen. Sie hat gesehen, dass die Fahrt fünf Tage dauert. Die Eltern müssen bis Freitag antworten. Paul hat seine Mutter gefragt, ob er mitfahren darf. Sie hat sofort Ja gesagt, weil die Fahrt nicht teuer ist.\n\nAm Abend hat Paul seinem Vater von der Klassenfahrt erzählt. Der Vater hat gelacht und gesagt, dass er auch gern mitfahren würde. Die ganze Familie hat sich über die gute Nachricht gefreut.",
+    "preguntas": [
+      {
+        "enunciado": "Der Brief kam von Pauls Lehrerin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse fährt ans Meer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fahrt dauert zehn Tage.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Bauer hat gesagt, dass Paul nicht mitfahren darf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Vater hat sich über die Nachricht gefreut.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-grippe-im-winter",
+    "nivel": "A2",
+    "titulo": "Die Grippe im Winter",
+    "descripcion": "Julia wird im Winter krank und muss zum Arzt gehen.",
+    "texto": "Letzte Woche ist Julia krank geworden. Sie hatte Fieber und starke Kopfschmerzen. Weil das Fieber nicht besser wurde, ist sie zum Arzt gegangen. Der Arzt hat gesagt, dass sie eine Grippe hat. Julia musste im Bett bleiben und viel trinken.\n\nIhre Mutter hat sich um sie gekümmert. Sie hat Tee gekocht und Suppe gemacht. Julia hat drei Tage nicht zur Schule gehen können. Ihre Freundin Nina hat ihr die Hausaufgaben gebracht, weil sie sich Sorgen um Julia gemacht hat.\n\nNach einer Woche ist Julia wieder gesund geworden. Sie war froh, dass sie endlich wieder in die Schule gehen konnte. Der Arzt hat gesagt, dass sie sich noch etwas schonen soll.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hatte Fieber und Kopfschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia ist sofort zur Schule gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat eine Grippe festgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat Julia besucht und die Hausaufgaben gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia war eine Woche krank.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-autofahrt-in-den-urlaub",
+    "nivel": "A2",
+    "titulo": "Die Autofahrt in den Urlaub",
+    "descripcion": "Familie Meyer fährt mit dem Auto in den Sommerurlaub nach Italien.",
+    "texto": "Familie Meyer ist am Samstag früh losgefahren. Sie sind mit dem Auto nach Italien gefahren, weil sie das Meer sehen wollten. Die Fahrt hat neun Stunden gedauert. Die Kinder haben im Auto Musik gehört und Karten gespielt.\n\nAuf der Autobahn hat es einen Stau gegeben. Herr Meyer war etwas ärgerlich, weil sie eine Stunde länger gebraucht haben. An einer Raststätte haben sie eine Pause gemacht und etwas gegessen. Die Kinder haben sich gefreut, dass sie endlich aussteigen konnten.\n\nAm Abend sind sie am Ferienhaus angekommen. Das Meer war ganz in der Nähe. Alle waren müde, aber glücklich. Frau Meyer hat gesagt, dass sich die lange Fahrt gelohnt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Meyer ist mit dem Zug gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf der Autobahn gab es einen Stau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fahrt hat nur drei Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben im Auto Musik gehört.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Ferienhaus liegt weit weg vom Meer.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-strassentheaterfestival",
+    "nivel": "B1",
+    "titulo": "Das Straßentheaterfestival",
+    "descripcion": "In der Altstadt findet ein buntes Straßentheaterfestival mit Künstlern aus ganz Europa statt.",
+    "texto": "Jedes Jahr im Juli verwandelt sich die Altstadt in eine große Bühne. Beim Straßentheaterfestival treten Künstler aus ganz Europa auf, obwohl viele von ihnen keine Gage bekommen. Sie spielen für die Zuschauer auf Plätzen, in Innenhöfen und sogar auf Brücken. Sara, eine junge Studentin, besucht das Festival zum ersten Mal und ist sofort begeistert von der Vielfalt der Darbietungen.\n\nNachdem sie eine Gruppe von Jongleuren gesehen hat, bleibt sie vor einer kleinen Bühne stehen, auf der zwei Schauspieler eine stumme Komödie aufführen. Obwohl kein Wort gesprochen wird, versteht das ganze Publikum die Geschichte und lacht laut. Trotzdem findet Sara die akrobatische Gruppe am beeindruckendsten, die auf einem Hochseil balanciert.\n\nAm Abend, nachdem die letzten Vorstellungen zu Ende gegangen sind, sitzen die Besucher noch lange auf dem Marktplatz zusammen. Die Organisatoren freuen sich über den großen Erfolg, obwohl das Wetter tagsüber nicht besonders gut war. Sara nimmt sich vor, im nächsten Jahr wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Festival findet jedes Jahr im Juli statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Künstler bekommen eine hohe Gage.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sara findet die stumme Komödie langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die akrobatische Gruppe balanciert auf einem Hochseil.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war tagsüber nicht besonders gut, trotzdem war das Festival erfolgreich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-als-teamleiter",
+    "nivel": "B1",
+    "titulo": "Der erste Tag als Teamleiter",
+    "descripcion": "Jonas übernimmt überraschend die Leitung eines Teams und meistert seinen ersten Tag.",
+    "texto": "Jonas arbeitet seit drei Jahren in einer Marketingagentur. Nachdem sein bisheriger Chef die Firma verlassen hat, wurde Jonas überraschend zum Teamleiter befördert. Obwohl er sich über die neue Position freut, ist er am ersten Tag ziemlich nervös. Er muss nun ein Team leiten, in dem einige Kollegen älter und erfahrener sind als er.\n\nIn der ersten Teambesprechung erklärt Jonas seine Ideen für die nächsten Projekte. Trotzdem stellt eine Kollegin kritische Fragen, weil sie mit einigen Entscheidungen nicht einverstanden ist. Jonas bleibt ruhig und hört sich ihre Argumente an. Nachdem er ihre Bedenken ernst genommen hat, findet das Team gemeinsam eine Lösung.\n\nAm Ende des Tages ist Jonas erschöpft, aber zufrieden. Obwohl der erste Tag anstrengend war, hat er das Gefühl, dass ihm das Team vertraut. Er weiß, dass er noch viel lernen muss, freut sich aber auf die neue Aufgabe.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas wurde befördert, nachdem sein Chef die Firma verlassen hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fühlt sich am ersten Tag völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kollegin stellt kritische Fragen in der Teambesprechung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ignoriert die Bedenken seiner Kollegin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Tages ist Jonas zufrieden, obwohl er müde ist.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-freundschaft-trotz-unterschiedlicher-interessen",
+    "nivel": "B1",
+    "titulo": "Die Freundschaft trotz unterschiedlicher Interessen",
+    "descripcion": "Zwei Freunde mit ganz verschiedenen Hobbys bleiben trotzdem eng verbunden.",
+    "texto": "Felix und Timo sind seit der Grundschule befreundet, obwohl sie ganz unterschiedliche Interessen haben. Felix interessiert sich für Computerspiele und verbringt seine Freizeit meistens vor dem Bildschirm. Timo dagegen liebt den Sport und geht jeden Tag joggen oder zum Fußballtraining. Trotzdem verstehen sich die beiden sehr gut und treffen sich fast jede Woche.\n\nNachdem Timo einmal versucht hat, Felix zum Joggen zu überreden, hat Felix im Gegenzug Timo zu einem Computerspiel eingeladen. Beide haben gemerkt, dass es Spaß macht, die Hobbys des anderen kennenzulernen, obwohl keiner von ihnen das neue Hobby wirklich übernommen hat. Sie haben stattdessen gelernt, die Unterschiede zu akzeptieren.\n\nHeute, viele Jahre später, sind Felix und Timo immer noch beste Freunde. Nachdem sie beide studiert haben, wohnen sie sogar in derselben Stadt. Trotzdem finden sie manchmal wenig Zeit füreinander, weil ihre Jobs viel Energie kosten. Aber sie wissen, dass ihre Freundschaft stark genug ist, um jede Herausforderung zu überstehen.",
+    "preguntas": [
+      {
+        "enunciado": "Felix und Timo haben die gleichen Hobbys.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Timo hat Felix einmal zum Joggen eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat sein Interesse an Computerspielen komplett aufgegeben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix und Timo wohnen heute in derselben Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden haben nie Probleme, Zeit füreinander zu finden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "elektronische-wahlen-und-digitale-demokratie",
+    "nivel": "B2",
+    "titulo": "Elektronische Wahlen und digitale Demokratie",
+    "descripcion": "Eine Analyse der Debatte über Online-Wahlen als Mittel zur Stärkung der Demokratie.",
+    "texto": "In immer mehr Ländern wird diskutiert, ob Wahlen künftig auch elektronisch, etwa über das Internet, durchgeführt werden sollten. Befürworter argumentieren, dass die Wahlbeteiligung dadurch gesteigert werden könnte, da besonders jüngere Menschen und im Ausland lebende Staatsbürger leichter an Abstimmungen teilnehmen würden. Wäre die Stimmabgabe per Smartphone möglich, müssten die Wähler keine langen Wege zum Wahllokal mehr in Kauf nehmen.\n\nKritiker hingegen weisen auf erhebliche Sicherheitsrisiken hin. Würden Wahlsysteme über das Internet betrieben, könnten sie theoretisch von Hackern manipuliert werden, was das Vertrauen in demokratische Prozesse nachhaltig beschädigen würde. Zudem wird von Datenschutzexperten befürchtet, dass die Anonymität der Wähler bei einer digitalen, leicht nachvollziehbaren Stimmabgabe nicht mehr vollständig gewährleistet werden könnte.\n\nIn Estland, einem Land mit langjähriger Erfahrung in der digitalen Verwaltung, werden bereits seit Jahren Online-Wahlen angeboten. Dort wird das System regelmäßig von unabhängigen Experten überprüft, um Manipulationen auszuschließen. Andere Länder zögern jedoch, diesem Beispiel zu folgen, weil sie befürchten, dass die technische Infrastruktur nicht ausreichend abgesichert werden könnte.\n\nSollte es gelingen, ein wirklich sicheres System zu entwickeln, könnten elektronische Wahlen langfristig zu einer lebendigeren Demokratie beitragen. Bis dahin bleibt die Frage, wie viel Vertrauen man der Technik bei einer so grundlegenden demokratischen Aufgabe entgegenbringen sollte, weiterhin umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter glauben, dass elektronische Wahlen die Wahlbeteiligung erhöhen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keine Sicherheitsrisiken bei Online-Wahlen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Estland bietet bereits seit Jahren Online-Wahlen an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Länder haben sich bereits für elektronische Wahlen entschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text zeigt, dass die Debatte über elektronische Wahlen noch nicht abgeschlossen ist.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "borkenkaefer-und-waldsterben",
+    "nivel": "B2",
+    "titulo": "Borkenkäfer und das neue Waldsterben",
+    "descripcion": "Der Klimawandel begünstigt die Ausbreitung des Borkenkäfers und bedroht deutsche Wälder.",
+    "texto": "Deutsche Wälder, die einst als widerstandsfähige Ökosysteme galten, leiden zunehmend unter den Folgen des Klimawandels. Besonders die Fichte, ein in vielen Regionen weitverbreiteter Nadelbaum, wird durch anhaltende Trockenheit stark geschwächt. Geschwächte Bäume können sich kaum noch gegen den Borkenkäfer wehren, ein kleines Insekt, das sich unter der Rinde einnistet und den Baum von innen zerstört.\n\nWürde es in den kommenden Jahren wieder ausreichend regnen, könnten sich viele Waldgebiete erholen. Da die Sommer jedoch immer trockener werden, breitet sich der Käfer rasant aus. In manchen Regionen mussten bereits ganze Waldflächen abgeholzt werden, weil die Bäume abgestorben waren. Förster berichten, dass sie kaum hinterherkommen, die befallenen Bäume rechtzeitig zu entfernen.\n\nUm dem Problem zu begegnen, wird von vielen Experten ein Umbau der Wälder gefordert. Anstelle von Monokulturen, die besonders anfällig für Schädlinge sind, sollten Mischwälder mit unterschiedlichen, klimaresistenteren Baumarten gepflanzt werden. Solche Wälder könnten sich als widerstandsfähiger gegen zukünftige Trockenperioden erweisen, auch wenn ein solcher Umbau Jahrzehnte dauern würde.\n\nUmweltverbände fordern zudem, dass mehr finanzielle Mittel für die Aufforstung bereitgestellt werden. Ohne eine langfristige Strategie, so warnen sie, könnten große Teile der deutschen Wälder in wenigen Jahrzehnten unwiederbringlich verloren gehen. Die Politik steht damit vor der Aufgabe, kurzfristige wirtschaftliche Interessen mit dem langfristigen Schutz der Wälder in Einklang zu bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Fichte kommt in vielen Regionen Deutschlands vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Borkenkäfer profitiert von geschwächten, trockenen Bäumen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten empfehlen den Anbau von Monokulturen, um die Wälder zu retten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Umbau der Wälder zu Mischwäldern würde nur wenige Jahre dauern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Umweltverbände fordern mehr finanzielle Mittel für die Aufforstung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "tempo-30-in-staedten",
+    "nivel": "B2",
+    "titulo": "Tempo 30 in Städten – eine Debatte",
+    "descripcion": "Viele deutsche Städte diskutieren über ein generelles Tempolimit von 30 km/h.",
+    "texto": "In zahlreichen deutschen Städten wird derzeit heftig darüber gestritten, ob innerorts flächendeckend Tempo 30 eingeführt werden sollte. Befürworter argumentieren, dass die Zahl der schweren Verkehrsunfälle deutlich gesenkt werden könnte, wenn Fahrzeuge langsamer unterwegs wären. Zudem würde durch ein niedrigeres Tempo auch der Lärmpegel in den ohnehin schon stark belasteten Innenstädten reduziert.\n\nGegner des Vorhabens, darunter viele Pendler und Wirtschaftsverbände, befürchten hingegen, dass sich die Fahrzeiten erheblich verlängern würden. Müssten Autofahrer und Lieferdienste durchgehend langsamer fahren, könnte dies laut einigen Unternehmern zu höheren Kosten und Lieferverzögerungen führen. Auch der öffentliche Nahverkehr, so wird kritisiert, könnte durch niedrigere Geschwindigkeiten unpünktlicher werden.\n\nMehrere Städte haben Tempo 30 bereits versuchsweise auf einzelnen Straßen eingeführt, wobei die bisherigen Ergebnisse von Verkehrsforschern als überwiegend positiv bewertet werden. In den betroffenen Gebieten wurde eine spürbare Abnahme der Unfallzahlen festgestellt, ohne dass sich der Verkehr insgesamt wesentlich verlangsamt hätte. Diese Erkenntnisse werden von Befürwortern als starkes Argument für eine flächendeckende Einführung angeführt.\n\nTrotz dieser Erfolge bleibt die endgültige Entscheidung vielerorts eine politische Frage, die stark von lokalen Mehrheitsverhältnissen abhängt. Sollte sich Tempo 30 langfristig durchsetzen, müsste auch die Straßenverkehrsordnung auf Bundesebene entsprechend angepasst werden, was zusätzliche rechtliche Hürden mit sich bringen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter von Tempo 30 erwarten weniger schwere Unfälle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner befürchten längere Fahrzeiten für Autofahrer und Lieferdienste.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In den Testgebieten ist die Zahl der Unfälle laut Text gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine flächendeckende Einführung von Tempo 30 würde auch Änderungen der Straßenverkehrsordnung erfordern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text zeigt, dass in dieser Frage bereits eine bundesweit einheitliche Entscheidung getroffen wurde.",
+        "respuesta": false
+      }
+    ]
   }
 ]
