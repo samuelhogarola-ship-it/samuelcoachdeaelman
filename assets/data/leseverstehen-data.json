@@ -15434,5 +15434,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "die-neue-katze",
+    "nivel": "A1",
+    "titulo": "Die neue Katze",
+    "descripcion": "Lena bekommt eine neue Katze und lernt sie kennen.",
+    "texto": "Lena wohnt in einer kleinen Wohnung. Sie hat eine neue Katze. Die Katze heißt Mimi. Mimi ist schwarz und weiß. Sie ist noch klein.\n\nMimi schläft viel. Sie spielt gern mit einem Ball. Lena gibt Mimi jeden Tag Futter und Wasser. Am Abend sitzt Mimi auf dem Sofa.\n\nLenas Bruder Tom mag Mimi auch. Er sagt: „Mimi ist sehr süß!“ Lena lacht und streichelt die Katze. Tom ist Lenas Bruder.",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat eine neue Katze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Katze heißt Bella.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi ist schwarz und weiß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi spielt nicht gern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom ist Lenas Bruder.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-supermarkt-an-der-kasse",
+    "nivel": "A1",
+    "titulo": "Im Supermarkt an der Kasse",
+    "descripcion": "Paul kauft Lebensmittel und bezahlt an der Kasse.",
+    "texto": "Paul geht am Samstag in den Supermarkt. Er kauft Brot, Milch und Äpfel. Der Supermarkt ist groß und hell.\n\nAn der Kasse wartet Paul in einer Schlange. Die Kassiererin lächelt und sagt: „Guten Tag!“ Paul legt seine Sachen auf das Band. Er bezahlt mit Karte.\n\nDanach packt Paul die Einkäufe in eine Tasche. Er geht nach Hause und kocht das Mittagessen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht am Samstag einkaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er kauft Fleisch und Käse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kassiererin sagt „Guten Tag“.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul bezahlt mit Karte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kocht das Frühstück.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-kleine-hund-im-park",
+    "nivel": "A1",
+    "titulo": "Der kleine Hund im Park",
+    "descripcion": "Emma spielt mit ihrem Hund im Park.",
+    "texto": "Emma hat einen kleinen Hund. Er heißt Bruno. Bruno ist braun und sehr aktiv. Jeden Morgen geht Emma mit Bruno in den Park.\n\nIm Park läuft Bruno schnell. Er spielt mit einem Stock. Emma wirft den Stock und Bruno bringt ihn zurück. Andere Kinder streicheln Bruno auch.\n\nNach dem Spaziergang trinkt Bruno Wasser. Emma gibt ihm auch ein Leckerli. Bruno ist müde und schläft am Nachmittag.",
+    "preguntas": [
+      {
+        "enunciado": "Emmas Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno spielt mit einem Ball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno trinkt Wasser nach dem Spaziergang.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno schläft am Morgen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-platte-fahrradreifen",
+    "nivel": "A2",
+    "titulo": "Der platte Fahrradreifen",
+    "descripcion": "Markus hat auf dem Weg zur Arbeit einen platten Reifen bekommen.",
+    "texto": "Markus ist gestern mit dem Fahrrad zur Arbeit gefahren. Nach zehn Minuten hat er gemerkt, dass sein Hinterreifen platt war. Er ist abgestiegen und hat den Reifen kontrolliert.\n\nWeil er kein Flickzeug dabei hatte, hat er einen Freund angerufen. Sein Freund Jonas ist mit dem Auto gekommen und hat ihn abgeholt. Zusammen haben sie das Fahrrad in eine Werkstatt gebracht.\n\nDer Mechaniker hat den Reifen schnell repariert. Markus war froh, dass alles so gut geklappt hat. Am nächsten Tag ist er wieder mit dem Fahrrad zur Arbeit gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist mit dem Bus zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hinterreifen von Markus war platt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hatte Flickzeug dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat Markus mit dem Auto abgeholt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Mechaniker konnte den Reifen nicht reparieren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-verspaetete-bahn",
+    "nivel": "A2",
+    "titulo": "Die verspätete Bahn",
+    "descripcion": "Sophie hat wegen einer Zugverspätung ihren Termin fast verpasst.",
+    "texto": "Sophie wollte am Montag nach Hamburg fahren. Sie ist früh aufgestanden und zum Bahnhof gegangen. Als sie auf dem Bahnsteig gewartet hat, hat sie eine Durchsage gehört.\n\nDie Bahn hatte vierzig Minuten Verspätung, weil es eine Störung an der Strecke gab. Sophie war nervös, weil sie um zehn Uhr einen wichtigen Termin hatte. Sie hat ihre Kollegin angerufen und Bescheid gesagt.\n\nZum Glück ist die Bahn dann doch noch pünktlich genug angekommen. Sophie hat ein Taxi genommen und ist rechtzeitig zum Termin gekommen. Am Abend hat sie erleichtert zu Hause erzählt, wie stressig der Tag war.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie wollte nach München fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bahn hatte vierzig Minuten Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hatte keinen Termin an diesem Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat ein Taxi genommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie ist zu spät zum Termin gekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-geschenk-fuer-die-nachbarin",
+    "nivel": "A2",
+    "titulo": "Ein Geschenk für die Nachbarin",
+    "descripcion": "Anna organisiert ein Geschenk zum Geburtstag ihrer Nachbarin.",
+    "texto": "Annas Nachbarin Frau Berger hat bald Geburtstag. Anna hat beschlossen, ihr eine Freude zu machen. Sie ist in die Stadt gefahren und hat einen schönen Blumenstrauß gekauft.\n\nWeil Frau Berger gern Kuchen isst, hat Anna auch einen Apfelkuchen gebacken. Am Geburtstag hat Anna an der Tür geklingelt. Frau Berger hat sich sehr gefreut, als sie die Blumen und den Kuchen gesehen hat.\n\nDie beiden haben zusammen Kaffee getrunken und über das Leben in der Nachbarschaft gesprochen. Frau Berger hat gesagt, dass sie sehr glücklich über so eine nette Nachbarin ist.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger ist Annas Nachbarin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna hat einen Kuchen gekauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna hat Blumen mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger mag keinen Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden haben zusammen Tee getrunken.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meinungsverschiedenheiten-in-der-wg",
+    "nivel": "B1",
+    "titulo": "Meinungsverschiedenheiten in der WG",
+    "descripcion": "Drei Mitbewohner müssen lernen, Konflikte im Alltag zu lösen.",
+    "texto": "Seit einem Jahr wohnt Klara mit zwei anderen Studenten in einer Wohngemeinschaft. Am Anfang lief alles harmonisch, doch nach einigen Monaten häuften sich kleine Streitigkeiten. Es ging meistens um den Abwasch, die Küche oder laute Musik am späten Abend.\n\nObwohl Klara die beiden anderen mochte, ärgerte sie sich oft über die Unordnung im gemeinsamen Bad. Trotzdem wollte sie keinen großen Streit anfangen, weil sie die WG eigentlich sehr schätzte. Nachdem sich die Situation weiter zugespitzt hatte, schlug sie ein gemeinsames Gespräch vor.\n\nBei diesem Gespräch sprachen alle drei offen über ihre Erwartungen. Sie erstellten gemeinsam einen Putzplan und legten feste Ruhezeiten fest. Seitdem läuft das Zusammenleben deutlich entspannter, obwohl es natürlich weiterhin kleine Meinungsverschiedenheiten gibt.",
+    "preguntas": [
+      {
+        "enunciado": "Klara wohnt seit einem Jahr in der WG.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang gab es sofort große Konflikte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Streitigkeiten gingen oft um den Abwasch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Klara wollte sofort ausziehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Gespräch wurde ein Putzplan erstellt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-woche-ohne-handy",
+    "nivel": "B1",
+    "titulo": "Die Woche ohne Handy",
+    "descripcion": "Ein Jugendlicher berichtet über seine Erfahrungen bei einem digitalen Detox.",
+    "texto": "Niklas nutzt sein Handy normalerweise mehrere Stunden am Tag. Als seine Schule ein Projekt zum Thema „digitale Balance“ startete, entschied er sich, eine Woche lang komplett auf sein Smartphone zu verzichten. Am ersten Tag fühlte er sich unruhig, weil ihm die ständigen Benachrichtigungen fehlten.\n\nNachdem die ersten zwei Tage vergangen waren, gewöhnte sich Niklas langsam an die neue Situation. Er las mehr Bücher und traf sich häufiger persönlich mit Freunden. Obwohl er anfangs skeptisch war, bemerkte er, dass er nachts besser schlief und sich tagsüber konzentrierter fühlte.\n\nAm Ende der Woche war Niklas überrascht, wie sehr sich sein Alltag verändert hatte. Trotzdem wollte er nicht komplett auf sein Handy verzichten, sondern es bewusster nutzen. Seine Eltern waren stolz auf seine Erfahrung und unterstützten ihn dabei, neue Gewohnheiten beizubehalten.",
+    "preguntas": [
+      {
+        "enunciado": "Niklas hat eine Woche lang auf sein Handy verzichtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am ersten Tag fühlte er sich sofort entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas hat in der Woche mehr Bücher gelesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er schlief in dieser Woche schlechter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas wollte sein Handy danach komplett wegwerfen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ehrenamtliche-arbeit-im-tierheim",
+    "nivel": "B1",
+    "titulo": "Ehrenamtliche Arbeit im Tierheim",
+    "descripcion": "Ein Rentner engagiert sich freiwillig in einem örtlichen Tierheim.",
+    "texto": "Herr Krause ist seit Kurzem im Ruhestand und suchte nach einer sinnvollen Beschäftigung. Nachdem er von einem Freund von einem örtlichen Tierheim gehört hatte, meldete er sich dort als freiwilliger Helfer. Zweimal pro Woche geht er nun morgens hin, um mit den Hunden spazieren zu gehen.\n\nObwohl die Arbeit körperlich anstrengend ist, macht sie ihm große Freude. Er kümmert sich besonders um ältere Hunde, die schwerer zu vermitteln sind. Trotzdem bleibt er optimistisch und hofft, dass jedes Tier irgendwann ein neues Zuhause findet.\n\nDie Mitarbeiter des Tierheims schätzen sein Engagement sehr. Nachdem Herr Krause mehrere Monate dort gearbeitet hatte, übernahm er sogar die Betreuung neuer Freiwilliger. Er sagt, dass ihm die Arbeit mehr gegeben hat, als er erwartet hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Krause ist im Ruhestand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hilft jeden Tag im Tierheim.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er kümmert sich besonders um ältere Hunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Arbeit macht ihm keine Freude.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er betreut inzwischen neue Freiwillige.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-drohnenlieferung-der-zukunft",
+    "nivel": "B2",
+    "titulo": "Die Drohnenlieferung der Zukunft",
+    "descripcion": "Ein Blick auf die Chancen und Risiken automatisierter Lieferdrohnen in Städten.",
+    "texto": "In zahlreichen Großstädten wird derzeit getestet, ob Pakete künftig per Drohne ausgeliefert werden könnten. Befürworter argumentieren, dass dadurch der Lieferverkehr in den ohnehin überlasteten Innenstädten erheblich reduziert würde. Zudem könnten entlegene Gebiete, die von klassischen Zustelldiensten nur schwer erreicht werden, deutlich schneller versorgt werden.\n\nKritiker hingegen weisen darauf hin, dass eine flächendeckende Einführung von Lieferdrohnen erhebliche Risiken mit sich brächte. Sollten Tausende Drohnen gleichzeitig über den Dächern der Städte fliegen, müsste der Luftraum völlig neu reguliert werden. Auch der Lärm, der von den kleinen Fluggeräten verursacht wird, dürfte von vielen Anwohnern als störend empfunden werden.\n\nEin weiterer, oft unterschätzter Aspekt betrifft den Datenschutz. Da Drohnen mit Kameras ausgestattet sind, um sicher navigieren zu können, entstehen bei jedem Flug Bilddaten, die theoretisch auch private Gärten oder Fenster erfassen. Wäre eine strenge gesetzliche Regelung nicht vorhanden, könnten diese Daten missbräuchlich verwendet werden.\n\nTrotz aller offenen Fragen sind sich Experten einig, dass sich die Technologie in den kommenden Jahren weiterentwickeln wird. Ob Drohnen tatsächlich zum alltäglichen Stadtbild gehören werden, hängt letztlich davon ab, ob es gelingt, Sicherheit, Datenschutz und gesellschaftliche Akzeptanz miteinander in Einklang zu bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Drohnenlieferungen könnten den Lieferverkehr in Innenstädten reduzieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten lehnen die Technologie vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Lärm von Lieferdrohnen wird von manchen Anwohnern als störend empfunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Drohnen benötigen keine Kameras für die Navigation.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Datenschutz spielt bei Lieferdrohnen keine Rolle.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "steigende-mieten-in-der-innenstadt",
+    "nivel": "B2",
+    "titulo": "Steigende Mieten in der Innenstadt",
+    "descripcion": "Eine Analyse der Ursachen und Folgen explodierender Mietpreise in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten sind die Mieten in den vergangenen Jahren deutlich stärker gestiegen als die Einkommen. Besonders in zentralen Lagen, die von einer guten Infrastruktur und kurzen Wegen profitieren, können sich immer weniger Menschen mit durchschnittlichem Einkommen eine Wohnung leisten. Wäre das Angebot an Wohnraum größer, würden die Preise vermutlich langsamer steigen.\n\nEin zentraler Grund für die Entwicklung liegt darin, dass in den letzten Jahrzehnten zu wenig sozialer Wohnungsbau betrieben wurde. Gleichzeitig ziehen weiterhin viele Menschen aus ländlichen Regionen in die Städte, weil dort mehr Arbeitsplätze und Bildungsangebote vorhanden sind. Diese Nachfrage trifft auf ein begrenztes Angebot, was zwangsläufig zu höheren Preisen führt.\n\nManche Städte haben deshalb eine Mietpreisbremse eingeführt, durch die die Erhöhung bestehender Mieten begrenzt werden soll. Kritiker bemängeln jedoch, dass dadurch Investitionen in neuen Wohnraum gebremst würden, da sich der Bau neuer Wohnungen für Investoren weniger lohne. Befürworter entgegnen, dass ohne eine solche Regelung noch mehr Familien aus ihren angestammten Vierteln verdrängt würden.\n\nLangfristig sind sich die meisten Fachleute einig, dass nur ein deutlicher Ausbau des Wohnungsangebots die Situation entspannen könnte. Sollte dies nicht gelingen, dürfte sich die soziale Spaltung zwischen Innenstadt und Randgebieten in den kommenden Jahren weiter verschärfen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten sind in vielen Großstädten stärker gestiegen als die Einkommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es wurde in den letzten Jahrzehnten sehr viel sozialer Wohnungsbau betrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Städte haben eine Mietpreisbremse eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker der Mietpreisbremse befürchten geringere Investitionen in neuen Wohnraum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Fachleute sind sich einig, dass die Mietpreisbremse das einzige nötige Mittel ist.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-lehrermangel-und-seine-folgen",
+    "nivel": "B2",
+    "titulo": "Der Lehrermangel und seine Folgen",
+    "descripcion": "Ein Überblick über die Ursachen des Lehrermangels und mögliche Lösungsansätze.",
+    "texto": "An vielen Schulen in Deutschland fehlen inzwischen so viele Lehrkräfte, dass der reguläre Unterricht kaum noch gewährleistet werden kann. Besonders betroffen sind Fächer wie Mathematik, Physik und Musik, für die sich in den letzten Jahren immer weniger Studierende entschieden haben. Sollte sich an dieser Entwicklung nichts ändern, würden zahlreiche Schüler künftig noch häufiger Unterrichtsausfall erleben.\n\nAls Ursachen werden von Bildungsforschern mehrere Faktoren genannt. Zum einen gehen in den kommenden Jahren viele erfahrene Lehrkräfte in den Ruhestand, ohne dass ausreichend Nachwuchs zur Verfügung stünde. Zum anderen empfinden viele junge Menschen den Lehrerberuf als wenig attraktiv, da er mit hoher Arbeitsbelastung und vergleichsweise geringer gesellschaftlicher Anerkennung verbunden sei.\n\nUm dem Mangel entgegenzuwirken, werden derzeit verschiedene Maßnahmen diskutiert. Einige Bundesländer setzen auf Quereinsteiger, die nach einer verkürzten Ausbildung direkt unterrichten dürfen, was von Gewerkschaften jedoch kritisch gesehen wird. Andere fordern höhere Gehälter und kleinere Klassen, um den Beruf wieder attraktiver zu machen.\n\nWürde es gelingen, die Arbeitsbedingungen spürbar zu verbessern, könnten langfristig wieder mehr junge Menschen für den Lehrerberuf gewonnen werden. Bis dahin müssen sich Schulen jedoch weiterhin mit provisorischen Lösungen wie größeren Klassen oder fachfremdem Unterricht behelfen.",
+    "preguntas": [
+      {
+        "enunciado": "An vielen Schulen fehlen ausreichend Lehrkräfte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Besonders viele Studierende entscheiden sich für Fächer wie Mathematik und Physik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Bundesländer setzen auf Quereinsteiger als Lehrkräfte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Lehrerberuf gilt bei jungen Menschen aktuell als sehr attraktiv.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Gewerkschaften begrüßen den Einsatz von Quereinsteigern uneingeschränkt.",
+        "respuesta": false
+      }
+    ]
   }
 ]
