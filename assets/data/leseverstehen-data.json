@@ -16478,5 +16478,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "meine-geschwister",
+    "nivel": "A1",
+    "titulo": "Meine Geschwister",
+    "descripcion": "Ein Kind stellt seine Geschwister vor.",
+    "texto": "Ich heiße Paul. Ich habe zwei Geschwister. Meine Schwester heißt Lina. Sie ist zwölf Jahre alt. Mein Bruder heißt Max. Er ist sechs Jahre alt.\n\nLina spielt gern Gitarre. Max spielt gern mit Autos. Ich spiele gern Fußball. Am Wochenende spielen wir oft zusammen im Garten.\n\nAbends essen wir zusammen. Wir sprechen über die Schule und über Sport. Ich mag meine Geschwister sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hat zwei Geschwister.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lina ist sechs Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max spielt gern mit Autos.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul spielt gern Gitarre.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst abends zusammen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-familienfoto",
+    "nivel": "A1",
+    "titulo": "Das Familienfoto",
+    "descripcion": "Eine Familie macht ein Foto im Park.",
+    "texto": "Am Sonntag geht die Familie Berger in den Park. Die Sonne scheint. Alle tragen schöne Kleidung. Sie wollen ein Familienfoto machen.\n\nDer Vater stellt die Kamera auf. Die Mutter hält das Baby. Die Kinder stehen vorne und lächeln. „Bitte lächelt alle!“, sagt der Vater. Klick! Das Foto ist fertig.\n\nNach dem Foto essen sie ein Eis. Das Foto kommt später an die Wand im Wohnzimmer.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie geht am Montag in den Park.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle tragen schöne Kleidung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter hält das Baby.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Foto essen sie Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Foto kommt an die Wand im Wohnzimmer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour",
+    "nivel": "A1",
+    "titulo": "Die Fahrradtour",
+    "descripcion": "Zwei Freunde machen eine Fahrradtour am Fluss.",
+    "texto": "Tim und Jonas fahren gern Fahrrad. Am Samstag fahren sie zusammen am Fluss entlang. Das Wetter ist schön und die Vögel singen.\n\nNach einer Stunde machen sie eine Pause. Sie trinken Wasser und essen ein Brot. „Das ist ein schöner Tag“, sagt Tim. Jonas lacht und nickt.\n\nAm Nachmittag fahren sie wieder nach Hause. Sie sind müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Tim und Jonas fahren am Samstag Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie fahren durch den Wald.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie machen nach einer Stunde eine Pause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie trinken Kaffee in der Pause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende sind sie müde, aber glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-arztbesuch-wegen-erkaeltung",
+    "nivel": "A2",
+    "titulo": "Der Arztbesuch wegen Erkältung",
+    "descripcion": "Eine Frau geht zum Arzt, weil sie erkältet ist.",
+    "texto": "Frau Klein ist seit drei Tagen krank. Sie hat Husten und Kopfschmerzen. Weil das Fieber nicht besser wird, ruft sie beim Arzt an und macht einen Termin.\n\nIm Wartezimmer sitzen viele Patienten. Nach zwanzig Minuten ist Frau Klein an der Reihe. Der Arzt untersucht sie und sagt, dass sie eine starke Erkältung hat. Er schreibt ein Rezept für Tabletten und rät ihr, viel zu trinken und sich auszuruhen.\n\nAls Frau Klein nach Hause kommt, legt sie sich sofort ins Bett. Am nächsten Tag fühlt sie sich schon ein bisschen besser.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Klein ist seit einer Woche krank.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat Husten und Kopfschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt sagt, dass sie eine starke Erkältung hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt rät ihr, viel Sport zu machen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am nächsten Tag fühlt sie sich etwas besser.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarschaftsfeier",
+    "nivel": "A2",
+    "titulo": "Die Nachbarschaftsfeier",
+    "descripcion": "Die Nachbarn organisieren ein gemeinsames Sommerfest.",
+    "texto": "In der Bergstraße haben die Nachbarn beschlossen, ein Sommerfest zu feiern. Jede Familie sollte etwas zu essen mitbringen, weil niemand allein kochen wollte. Herr Schulz hat einen Grill aufgebaut, und Frau Meier hat Tische und Stühle organisiert.\n\nAm Samstagnachmittag kamen fast alle Nachbarn auf die Straße. Die Kinder haben zusammen gespielt, während die Erwachsenen sich unterhalten haben. Es gab Salate, Kuchen und gegrilltes Gemüse. Weil das Wetter so gut war, blieben viele bis spät in den Abend.\n\nAm Ende waren alle sehr zufrieden. Sie haben beschlossen, dass sie das Fest im nächsten Jahr wiederholen wollen.",
+    "preguntas": [
+      {
+        "enunciado": "Jede Familie sollte etwas zu essen mitbringen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Schulz hat die Tische organisiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben zusammen gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fest fand am Sonntagmorgen statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn wollen das Fest nächstes Jahr wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-am-meer",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende am Meer",
+    "descripcion": "Eine Familie fährt für ein Wochenende an die Nordsee.",
+    "texto": "Familie Hoffmann ist am Freitagabend an die Nordsee gefahren, weil sie ein ruhiges Wochenende verbringen wollte. Die Fahrt hat drei Stunden gedauert. Als sie ankamen, war es schon dunkel, deshalb sind sie direkt ins Hotel gegangen.\n\nAm Samstag sind sie früh aufgestanden und an den Strand gegangen. Die Kinder haben eine Sandburg gebaut, während die Eltern spazieren gegangen sind. Am Nachmittag hat es leider geregnet, sodass sie ins Café gegangen sind und heißen Kakao getrunken haben.\n\nAm Sonntag war das Wetter wieder besser. Bevor sie nach Hause gefahren sind, haben sie noch ein letztes Mal den Strand besucht.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist am Samstagabend gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt hat drei Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben eine Sandburg gebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Samstagnachmittag hat die Sonne geschienen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag haben sie den Strand noch einmal besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-eine-neue-stadt",
+    "nivel": "B1",
+    "titulo": "Der Umzug in eine neue Stadt",
+    "descripcion": "Ein junger Mann berichtet über seinen Umzug und die ersten Wochen in einer fremden Stadt.",
+    "texto": "Als Daniel vor zwei Monaten aus beruflichen Gründen nach Leipzig gezogen ist, kannte er dort niemanden. Obwohl er sich auf die neue Stelle gefreut hat, war ihm der Gedanke, in einer fremden Stadt neu anzufangen, nicht ganz geheuer. Die ersten Wochen verbrachte er hauptsächlich mit dem Einrichten seiner Wohnung und dem Erledigen von Behördengängen.\n\nNachdem er sich langsam eingelebt hatte, beschloss er, einem Sportverein beizutreten, um neue Leute kennenzulernen. Trotz anfänglicher Unsicherheit fand er schnell Anschluss an eine Gruppe, die regelmäßig zusammen joggte. Durch die gemeinsamen Läufe entstanden nach und nach echte Freundschaften, und Daniel begann, sich in seiner neuen Umgebung wohlzufühlen.\n\nHeute, einige Monate später, sagt Daniel, dass der Umzug die beste Entscheidung seines Lebens war. Er hat gelernt, dass es sich lohnt, aus der Komfortzone herauszutreten, auch wenn der Anfang manchmal schwierig erscheint.",
+    "preguntas": [
+      {
+        "enunciado": "Daniel ist aus privaten Gründen umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In den ersten Wochen hat er sich um seine Wohnung gekümmert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er ist einem Sportverein beigetreten, um Leute kennenzulernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat im Verein keine neuen Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Daniel bereut den Umzug heute.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-kulturnacht-in-der-stadt",
+    "nivel": "B1",
+    "titulo": "Die Kulturnacht in der Stadt",
+    "descripcion": "Eine junge Frau erzählt von ihrem Besuch der jährlichen Kulturnacht.",
+    "texto": "Jedes Jahr im Herbst findet in Katharinas Heimatstadt die sogenannte Kulturnacht statt, bei der Museen, Theater und Galerien bis spät in die Nacht geöffnet bleiben. Obwohl sie in den vergangenen Jahren nie Zeit gefunden hatte, hinzugehen, nahm sie sich diesmal fest vor, den Abend mit Freunden zu verbringen.\n\nNachdem sich die Gruppe am Marktplatz getroffen hatte, besuchten sie zunächst eine Ausstellung mit moderner Fotografie. Anschließend gingen sie in ein kleines Theater, in dem eine Straßenkünstlergruppe eine improvisierte Vorstellung gab. Trotz des kühlen Wetters blieben viele Besucher bis Mitternacht draußen, um die Lichtinstallationen in der Altstadt zu bewundern.\n\nAm Ende des Abends war Katharina begeistert davon, wie viele kulturelle Angebote ihre Stadt eigentlich hat. Sie nahm sich vor, im nächsten Jahr wieder dabei zu sein.",
+    "preguntas": [
+      {
+        "enunciado": "Die Kulturnacht findet jedes Jahr im Frühling statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katharina hat den Abend mit Freunden verbracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe hat eine Fotoausstellung besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des kalten Wetters sind alle früh nach Hause gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katharina möchte im nächsten Jahr wieder teilnehmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-job-im-homeoffice",
+    "nivel": "B1",
+    "titulo": "Der neue Job im Homeoffice",
+    "descripcion": "Ein Angestellter berichtet über seine Erfahrungen mit der Arbeit von zu Hause aus.",
+    "texto": "Seit drei Monaten arbeitet Markus vollständig im Homeoffice, nachdem seine Firma auf ein flexibles Arbeitsmodell umgestellt hat. Zu Beginn genoss er die Freiheit, seinen Tag selbst einzuteilen, und war froh, den täglichen Weg zur Arbeit nicht mehr auf sich nehmen zu müssen.\n\nMit der Zeit bemerkte er jedoch, dass ihm der persönliche Kontakt zu seinen Kollegen fehlte. Obwohl regelmäßige Videokonferenzen stattfanden, war die Kommunikation nicht dieselbe wie im Büro. Außerdem fiel es ihm zunehmend schwer, Arbeit und Freizeit klar voneinander zu trennen, da sein Schreibtisch im Wohnzimmer stand.\n\nUm dieses Problem zu lösen, richtete sich Markus schließlich ein separates Arbeitszimmer ein und legte feste Arbeitszeiten fest. Seitdem fühlt er sich deutlich ausgeglichener und kann Beruf und Privatleben besser miteinander vereinbaren.",
+    "preguntas": [
+      {
+        "enunciado": "Markus arbeitet seit drei Monaten im Homeoffice.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang mochte er die Freiheit, seinen Tag selbst zu planen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der persönliche Kontakt zu den Kollegen hat ihm nicht gefehlt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Schreibtisch stand ursprünglich im Wohnzimmer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat kein Problem gelöst und arbeitet weiterhin unorganisiert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "work-life-balance-in-der-modernen-arbeitswelt",
+    "nivel": "B2",
+    "titulo": "Work-Life-Balance in der modernen Arbeitswelt",
+    "descripcion": "Ein Überblick über die Debatte um Vereinbarkeit von Beruf und Privatleben in Deutschland.",
+    "texto": "In den letzten Jahren ist der Begriff der Work-Life-Balance zu einem zentralen Thema in der öffentlichen Diskussion geworden. Immer mehr Arbeitnehmerinnen und Arbeitnehmer fordern flexible Arbeitszeiten und die Möglichkeit, ihren Beruf mit familiären Verpflichtungen zu vereinbaren. Kritiker weisen jedoch darauf hin, dass eine ständige Erreichbarkeit, die durch mobile Endgeräte ermöglicht wird, die vermeintlichen Vorteile der Flexibilität häufig zunichtemacht.\n\nBefürworter einer strikteren Trennung von Arbeit und Freizeit argumentieren, dass Erholungsphasen unerlässlich seien, um langfristig produktiv und gesund zu bleiben. Sollte die Grenze zwischen beiden Bereichen weiter verschwimmen, drohe eine Zunahme stressbedingter Erkrankungen, wie zahlreiche Studien bereits nahelegen. Manche Unternehmen haben deshalb begonnen, Regelungen einzuführen, nach denen E-Mails außerhalb der Arbeitszeit nicht mehr beantwortet werden müssen.\n\nGleichzeitig wird jedoch bemängelt, dass solche Maßnahmen oft nur symbolischen Charakter hätten, solange sich an der grundsätzlichen Arbeitskultur nichts ändere. Es bleibt daher fraglich, ob gesetzliche Vorgaben allein ausreichen würden, um eine tatsächliche Verbesserung der Situation herbeizuführen, oder ob nicht vielmehr ein grundlegendes Umdenken in den Unternehmen selbst erforderlich wäre.",
+    "preguntas": [
+      {
+        "enunciado": "Die Work-Life-Balance ist in den letzten Jahren kaum ein Thema gewesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen in ständiger Erreichbarkeit ein Problem der Flexibilität.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Erholungsphasen gelten laut Studien als unwichtig für die Gesundheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen haben Regelungen zu E-Mails außerhalb der Arbeitszeit eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text stellt infrage, ob gesetzliche Vorgaben allein genügen würden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-innenstaedte",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Innenstädte",
+    "descripcion": "Eine Auseinandersetzung mit dem Wandel deutscher Innenstädte durch Online-Handel und Leerstand.",
+    "texto": "Deutsche Innenstädte stehen seit einigen Jahren vor einer tiefgreifenden Veränderung. Während früher zahlreiche Einzelhandelsgeschäfte das Stadtbild prägten, sind heute vielerorts leerstehende Ladenlokale zu beobachten. Als Hauptursache wird häufig der stetig wachsende Online-Handel genannt, durch den viele Kunden ihre Einkäufe zunehmend von zu Hause aus erledigen, anstatt die Geschäfte vor Ort zu besuchen.\n\nStadtplaner und Kommunalpolitiker diskutieren daher intensiv darüber, wie Innenstädte auch künftig attraktiv gestaltet werden könnten. Ein häufig genannter Vorschlag besteht darin, leerstehende Flächen in Wohnraum umzuwandeln oder für kulturelle Zwecke wie Ausstellungen und Veranstaltungen zu nutzen. Auf diese Weise soll verhindert werden, dass Innenstädte nach Ladenschluss veröden und lediglich als Verkehrsknotenpunkte fungieren.\n\nOb diese Konzepte tatsächlich erfolgreich umgesetzt werden können, hängt jedoch maßgeblich von der Zusammenarbeit zwischen Immobilieneigentümern, Stadtverwaltungen und Anwohnern ab. Ohne eine koordinierte Strategie, so warnen Experten, drohe vielen mittelgroßen Städten ein schleichender Bedeutungsverlust ihrer Zentren.",
+    "preguntas": [
+      {
+        "enunciado": "Leerstehende Ladenlokale sind in deutschen Innenstädten kaum zu finden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der wachsende Online-Handel gilt als eine Hauptursache für den Leerstand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Vorschlag ist, leere Flächen in Wohnraum umzuwandeln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass keine Zusammenarbeit nötig ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ohne koordinierte Strategie drohe ein Bedeutungsverlust der Innenstädte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "datenschutz-im-digitalen-alltag",
+    "nivel": "B2",
+    "titulo": "Datenschutz im digitalen Alltag",
+    "descripcion": "Ein Beitrag über die wachsende Bedeutung des Datenschutzes im Zeitalter der Digitalisierung.",
+    "texto": "Mit der zunehmenden Digitalisierung nahezu aller Lebensbereiche rückt die Frage des Datenschutzes immer stärker in den Vordergrund des öffentlichen Interesses. Nutzerinnen und Nutzer digitaler Dienste hinterlassen täglich eine Vielzahl an Spuren, die von Unternehmen ausgewertet werden, um personalisierte Werbung zu schalten oder Nutzerverhalten vorherzusagen. Während einige diese Entwicklung als notwendigen Preis für den Komfort digitaler Angebote betrachten, sehen andere darin eine erhebliche Bedrohung der persönlichen Freiheit.\n\nBesonders kontrovers diskutiert wird die Frage, inwieweit staatliche Institutionen auf gesammelte Daten zugreifen dürfen sollten, etwa zur Aufklärung von Straftaten. Befürworter strengerer Kontrollen argumentieren, dass ohne wirksame Regulierung ein umfassendes Profil jedes Einzelnen erstellt werden könnte, ohne dass dieser dem jemals zugestimmt hätte. Gegner betonen hingegen, dass übermäßige Beschränkungen die technologische Entwicklung hemmen und wirtschaftliche Nachteile mit sich bringen würden.\n\nAngesichts dieser gegensätzlichen Positionen bleibt es eine der zentralen Herausforderungen unserer Zeit, einen Ausgleich zwischen individueller Privatsphäre und den Anforderungen einer zunehmend vernetzten Gesellschaft zu finden. Es wird sich zeigen, ob zukünftige Gesetze diesem Anspruch gerecht werden können.",
+    "preguntas": [
+      {
+        "enunciado": "Digitale Dienste sammeln keine Daten über das Nutzerverhalten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Menschen sehen im Datensammeln eine Bedrohung der persönlichen Freiheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zugriff staatlicher Institutionen auf Daten wird kontrovers diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Beteiligten sind sich in dieser Debatte vollkommen einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht die Balance zwischen Privatsphäre und Vernetzung als zentrale Herausforderung.",
+        "respuesta": true
+      }
+    ]
   }
 ]
