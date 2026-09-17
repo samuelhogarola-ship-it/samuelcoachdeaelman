@@ -15086,5 +15086,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-sportunterricht",
+    "nivel": "A1",
+    "titulo": "Der Sportunterricht",
+    "descripcion": "Tom erzählt von seinem Sportunterricht in der Schule.",
+    "texto": "Ich heiße Tom und ich bin neun Jahre alt. Jeden Dienstag habe ich Sportunterricht in der Schule. Der Unterricht beginnt um zehn Uhr. Wir laufen zuerst eine Runde im Schulhof. Danach spielen wir oft Fußball oder Basketball. Meine Lehrerin heißt Frau Berg. Sie ist sehr nett und geduldig.\n\nMein Lieblingsspiel ist Völkerball. Ich spiele gern mit meinen Freunden. Mein bester Freund Ben ist sehr schnell. Er gewinnt oft. Nach dem Sport sind wir müde, aber glücklich. Wir trinken viel Wasser und essen einen Apfel.\n\nAm Ende der Stunde räumen wir die Bälle auf. Dann gehen wir zurück ins Klassenzimmer. Ich mag den Sportunterricht sehr. Er macht mir viel Spaß.",
+    "preguntas": [
+      {
+        "enunciado": "Tom hat jeden Dienstag Sportunterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Unterricht beginnt um acht Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Lieblingsspiel ist Völkerball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben ist sehr langsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Sport sind die Kinder traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-puppe",
+    "nivel": "A1",
+    "titulo": "Meine Puppe",
+    "descripcion": "Sofia beschreibt ihre Lieblingspuppe.",
+    "texto": "Ich heiße Sofia und ich bin sieben Jahre alt. Meine Puppe heißt Lina. Sie hat lange braune Haare und blaue Augen. Lina trägt ein rotes Kleid und weiße Schuhe. Ich spiele jeden Tag mit ihr.\n\nLina schläft in einem kleinen Bett neben meinem Bett. Am Morgen wecke ich sie auf. Wir frühstücken zusammen. Dann ziehe ich Lina neue Kleider an. Manchmal bringe ich sie mit in den Kindergarten.\n\nMeine Oma hat mir Lina zum Geburtstag geschenkt. Ich liebe meine Puppe sehr. Sie ist mein bestes Spielzeug.",
+    "preguntas": [
+      {
+        "enunciado": "Sofia ist sieben Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Linas Kleid ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lina schläft neben Sofias Bett.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia zieht Lina nie neue Kleider an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofias Oma hat ihr die Puppe geschenkt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "am-nachmittag",
+    "nivel": "A1",
+    "titulo": "Am Nachmittag",
+    "descripcion": "Paul erzählt, was er jeden Nachmittag macht.",
+    "texto": "Die Schule ist um ein Uhr zu Ende. Ich gehe zu Fuß nach Hause. Zu Hause esse ich zuerst zu Mittag. Meine Mutter kocht oft Nudeln oder Reis. Das schmeckt mir gut.\n\nNach dem Essen mache ich meine Hausaufgaben. Das dauert ungefähr eine Stunde. Danach spiele ich draußen mit meinen Freunden. Wir fahren Fahrrad oder spielen Fußball im Park. Um sechs Uhr gehe ich nach Hause.\n\nAm Abend esse ich mit meiner Familie zu Abend. Wir sprechen über den Tag. Dann sehe ich noch ein bisschen fern. Um acht Uhr gehe ich ins Bett.",
+    "preguntas": [
+      {
+        "enunciado": "Die Schule endet um ein Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul fährt mit dem Bus nach Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul macht zuerst Hausaufgaben und isst danach zu Mittag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul spielt mit seinen Freunden im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul geht um zehn Uhr ins Bett.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-verpasste-verabredung",
+    "nivel": "A2",
+    "titulo": "Die verpasste Verabredung",
+    "descripcion": "Julia hat sich mit ihrer Freundin verabredet, aber etwas ist schiefgegangen.",
+    "texto": "Julia hatte sich am Samstag mit ihrer Freundin Nina im Café verabredet. Sie wollten sich um vier Uhr treffen, weil Nina ihr von ihrer neuen Wohnung erzählen wollte. Julia ist aber zu spät aufgestanden, weil ihr Wecker nicht geklingelt hat. Als sie endlich aufgewacht ist, war es schon halb fünf.\n\nJulia hat sofort ihr Handy genommen und Nina angerufen. Leider hat Nina nicht abgehoben, weil sie schon im Café gesessen und auf Julia gewartet hat. Julia ist schnell losgefahren, aber sie hat den Bus verpasst. Deshalb ist sie zu Fuß zum Café gelaufen. Nach zwanzig Minuten ist sie endlich angekommen, aber Nina war schon nach Hause gegangen.\n\nAm Abend hat Julia Nina eine Nachricht geschrieben und sich entschuldigt. Nina war zuerst ein bisschen sauer, aber sie hat die Entschuldigung akzeptiert. Sie haben sich für den nächsten Tag ein neues Treffen ausgemacht. Diesmal hat Julia zwei Wecker gestellt, damit das nicht wieder passiert.",
+    "preguntas": [
+      {
+        "enunciado": "Julia und Nina wollten sich um vier Uhr treffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia ist pünktlich aufgewacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat Julias Anruf sofort angenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist zu Fuß zum Café gelaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina wollte sich nicht wieder mit Julia treffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-sturz-auf-dem-spielplatz",
+    "nivel": "A2",
+    "titulo": "Der Sturz auf dem Spielplatz",
+    "descripcion": "Ein Kind fällt beim Spielen vom Klettergerüst und muss zum Arzt.",
+    "texto": "Am Nachmittag ist Leon mit seiner Mutter auf den Spielplatz gegangen. Er ist sofort zum Klettergerüst gelaufen, weil das sein Lieblingsspielgerät ist. Seine Mutter hat auf einer Bank gesessen und ein Buch gelesen. Plötzlich ist Leon von der obersten Sprosse gefallen und auf den Boden geknallt.\n\nLeon hat laut geweint, und seine Mutter ist sofort zu ihm gerannt. Sein Arm war rot und geschwollen, deshalb ist sie mit ihm ins Krankenhaus gefahren. Dort hat ein Arzt den Arm untersucht und geröntgt. Zum Glück war der Arm nicht gebrochen, sondern nur geprellt. Der Arzt hat gesagt, dass Leon ein paar Tage vorsichtig sein soll.\n\nZu Hause hat Leon einen Verband um den Arm bekommen. Er durfte trotzdem fernsehen und hat sich schnell besser gefühlt. Am nächsten Tag wollte er schon wieder auf den Spielplatz gehen, aber seine Mutter hat gesagt, dass er noch warten muss, bis der Arm ganz geheilt ist.",
+    "preguntas": [
+      {
+        "enunciado": "Leon ist vom Klettergerüst gefallen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Leons Mutter hat nicht bemerkt, dass er gefallen ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat festgestellt, dass Leons Arm gebrochen war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Leon musste ins Krankenhaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Leon durfte am nächsten Tag sofort wieder auf den Spielplatz.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsueberraschung-fuer-papa",
+    "nivel": "A2",
+    "titulo": "Die Geburtstagsüberraschung für Papa",
+    "descripcion": "Die Kinder planen heimlich eine Überraschung für den Geburtstag ihres Vaters.",
+    "texto": "Papas Geburtstag war am Sonntag, und die Kinder wollten ihm eine Überraschung machen. Weil ihre Mutter ihnen geholfen hat, konnten sie den Plan geheim halten. Am Samstagabend haben sie einen Kuchen gebacken, während Papa im Garten gearbeitet hat. Die Küche war danach voller Mehl, aber der Kuchen ist gut geworden.\n\nAm Sonntagmorgen sind alle sehr früh aufgestanden. Die Kinder haben Luftballons aufgeblasen und ein großes Plakat gemalt. Als Papa endlich aufgewacht ist, hat er sofort die Dekoration im Wohnzimmer gesehen. Er hat sich sehr gefreut und ein bisschen geweint, weil er so gerührt war. Die ganze Familie hat zusammen gefrühstückt und den Kuchen gegessen.\n\nAm Nachmittag sind auch die Großeltern gekommen, weil die Kinder sie eingeladen hatten. Sie haben zusammen im Garten gesessen und Kaffee getrunken. Papa hat gesagt, dass es sein schönster Geburtstag war. Die Kinder waren sehr stolz, dass ihre Überraschung so gut geklappt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Papas Geburtstag war am Sonntag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben den Kuchen gekauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Papa hat die Dekoration nicht bemerkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Großeltern sind am Nachmittag gekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Papa fand den Geburtstag nicht schön.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-nach-lissabon",
+    "nivel": "B1",
+    "titulo": "Die Reise nach Lissabon",
+    "descripcion": "Marie und Tobias verbringen ein verlängertes Wochenende in der portugiesischen Hauptstadt.",
+    "texto": "Marie und Tobias hatten schon lange davon geträumt, Lissabon zu besuchen, und nachdem sie günstige Flüge gefunden hatten, haben sie sich kurzerhand für ein verlängertes Wochenende entschieden. Obwohl der Flug sehr früh am Morgen ging, waren beide zu aufgeregt, um vorher richtig zu schlafen. Als sie in Lissabon gelandet sind, hat sie sofort die warme Luft und das besondere Licht der Stadt begeistert.\n\nAm ersten Tag sind sie mit der berühmten Straßenbahn Linie 28 durch die engen Gassen der Altstadt gefahren, obwohl die Bahn so voll war, dass sie fast keinen Platz zum Stehen fanden. Nachdem sie den Aussichtspunkt Miradouro da Graça erreicht hatten, haben sie den Sonnenuntergang über den roten Dächern bewundert. Trotzdem beide sehr müde vom Vortag waren, sind sie abends noch in ein kleines Restaurant gegangen, um traditionelles Fado zu hören.\n\nAm letzten Tag haben sie einen Ausflug nach Sintra gemacht, wo sie die farbenfrohen Paläste besichtigt haben. Obwohl es den ganzen Tag geregnet hat, ließen sie sich die Laune nicht verderben. Auf dem Rückflug waren beide sich einig, dass sie unbedingt wiederkommen wollten, denn drei Tage hatten nicht ausgereicht, um die ganze Stadt kennenzulernen.",
+    "preguntas": [
+      {
+        "enunciado": "Marie und Tobias sind für ein verlängertes Wochenende nach Lissabon gereist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Flug ging am späten Abend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Straßenbahn Linie 28 war leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Tag hat es in Sintra geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide fanden, dass drei Tage genug waren, um die Stadt kennenzulernen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vereinsgruendung",
+    "nivel": "B1",
+    "titulo": "Die Vereinsgründung",
+    "descripcion": "Eine Gruppe von Freunden gründet einen neuen Verein für urbanes Gärtnern.",
+    "texto": "Seit Jahren hatten sich Clara und ihre Freunde darüber geärgert, dass es in ihrem Stadtteil keinen Ort gab, an dem man gemeinsam gärtnern konnte. Nachdem sie monatelang darüber diskutiert hatten, beschlossen sie schließlich, selbst aktiv zu werden und einen Verein zu gründen. Obwohl keiner von ihnen Erfahrung mit Vereinsgründungen hatte, ließen sie sich von der Bürokratie nicht abschrecken.\n\nZuerst mussten sie eine Satzung schreiben und mindestens sieben Mitglieder finden, bevor der Verein offiziell registriert werden konnte. Trotzdem sich viele Nachbarn zunächst skeptisch zeigten, gelang es der Gruppe, innerhalb weniger Wochen genügend Unterstützer zu gewinnen. Nachdem die Stadt ihnen ein kleines Grundstück zur Verfügung gestellt hatte, begannen die Mitglieder sofort damit, Beete anzulegen und Werkzeug zu organisieren.\n\nHeute, ein Jahr später, hat der Verein über vierzig Mitglieder, obwohl er ursprünglich viel kleiner geplant war. Jeden Samstag treffen sich die Nachbarn, um gemeinsam zu pflanzen, zu ernten und sich auszutauschen. Clara ist stolz darauf, dass aus einer einfachen Idee eine feste Gemeinschaft geworden ist, die den ganzen Stadtteil verändert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Clara und ihre Freunde haben einen Gartenverein gegründet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Gründungsmitglieder hatten schon Erfahrung mit Vereinsgründungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Stadt hat der Gruppe kein Grundstück gegeben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verein hat heute über vierzig Mitglieder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn treffen sich nie zum gemeinsamen Gärtnern.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-musicalbesuch-in-hamburg",
+    "nivel": "B1",
+    "titulo": "Der Musicalbesuch in Hamburg",
+    "descripcion": "Zwei Freundinnen fahren nach Hamburg, um ein berühmtes Musical zu sehen.",
+    "texto": "Schon seit Monaten hatten sich Katharina und Lea auf ihren Ausflug nach Hamburg gefreut, denn sie hatten Karten für ein bekanntes Musical im Theater an der Elbe gekauft. Nachdem sie mit dem Zug angereist waren, checkten sie zunächst in ihrem Hotel ein und machten anschließend einen Spaziergang durch die Speicherstadt. Obwohl das Wetter grau und windig war, ließen sie sich die Vorfreude auf den Abend nicht nehmen.\n\nAm Abend zog Katharina ein elegantes Kleid an, während Lea sich für einen schicken Anzug entschied. Im Theater angekommen, waren beide beeindruckt von der riesigen Bühne, die direkt am Wasser lag. Nachdem die Show begonnen hatte, verstummte das Publikum sofort, obwohl es zuvor noch sehr laut und aufgeregt gewesen war. Die Musik, die Kostüme und die Bühnenbilder begeisterten die beiden Freundinnen so sehr, dass sie in der Pause kaum sprechen konnten.\n\nNach der Vorstellung liefen sie noch lange an der Elbe entlang und sprachen über ihre Lieblingsszenen. Obwohl der Ausflug nur zwei Tage dauerte, war er für beide unvergesslich. Auf der Heimfahrt im Zug beschlossen sie, im nächsten Jahr ein weiteres Musical in einer anderen Stadt zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Katharina und Lea sind mit dem Auto nach Hamburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hatten Karten für ein Musical gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war sonnig und warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Theater lag direkt am Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen wollen nie wieder ein Musical besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "cannabis-legalisierung-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Cannabis-Legalisierung in Deutschland",
+    "descripcion": "Ein Blick auf die Kontroversen rund um die teilweise Legalisierung von Cannabis.",
+    "texto": "Als die teilweise Legalisierung von Cannabis in Deutschland beschlossen wurde, löste dies eine hitzige gesellschaftliche Debatte aus, die bis heute anhält. Befürworter argumentieren, der Schwarzmarkt könnte durch eine kontrollierte Abgabe zurückgedrängt werden, wodurch gestrecktes und gesundheitsschädliches Cannabis vom Markt verschwinden würde. Zudem, so wird häufig betont, sollten Konsumenten nicht länger kriminalisiert werden, obwohl der Konsum selbst kaum größere gesellschaftliche Schäden verursache als der von Alkohol.\n\nKritiker hingegen befürchten, dass durch die Legalisierung ein falsches Signal gesendet werde, insbesondere an Jugendliche, deren Gehirnentwicklung durch Cannabiskonsum nachweislich beeinträchtigt werden kann. Wäre die Droge weniger stigmatisiert, so ihre Sorge, würde der Konsum insgesamt steigen, selbst wenn feste Altersgrenzen gesetzlich verankert wurden. Auch Ärzteverbände äußerten sich gespalten: Während manche die neuen Regelungen als überfällige Modernisierung begrüßten, warnten andere davor, dass Präventionsprogramme nicht ausreichend finanziert worden seien.\n\nMittlerweile zeigen erste Erhebungen ein gemischtes Bild. Zwar ist die Zahl der Strafverfahren wegen Cannabisbesitzes deutlich zurückgegangen, gleichzeitig berichten Anbauvereine jedoch von bürokratischen Hürden, die eine legale Versorgung erschweren. Ob sich die Hoffnungen der Befürworter erfüllen oder die Befürchtungen der Kritiker bewahrheiten werden, lässt sich erst in einigen Jahren mit belastbaren Daten beurteilen. Fest steht jedoch, dass kaum eine andere Reform der letzten Jahre die deutsche Öffentlichkeit derart gespalten hat.",
+    "preguntas": [
+      {
+        "enunciado": "Die Legalisierung von Cannabis hat in Deutschland zu einer kontroversen Debatte geführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter der Legalisierung wollen den Schwarzmarkt stärken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten negative Auswirkungen auf Jugendliche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahl der Strafverfahren wegen Cannabisbesitzes ist gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anbauvereine berichten von bürokratischen Hürden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-die-wehrpflicht",
+    "nivel": "B2",
+    "titulo": "Die Debatte um die Wehrpflicht",
+    "descripcion": "In Deutschland wird kontrovers über eine mögliche Rückkehr der Wehrpflicht diskutiert.",
+    "texto": "Nachdem die allgemeine Wehrpflicht in Deutschland vor über einem Jahrzehnt ausgesetzt worden war, wird angesichts veränderter sicherheitspolitischer Rahmenbedingungen zunehmend darüber diskutiert, ob sie in einer neuen Form wieder eingeführt werden sollte. Befürworter argumentieren, dass die Bundeswehr dringend mehr Personal benötige, um ihren Verpflichtungen im Bündnis nachkommen zu können, und dass ein verpflichtender Dienst überdies das gesellschaftliche Zusammengehörigkeitsgefühl stärken könnte, das durch zunehmende Individualisierung geschwächt worden sei.\n\nGegner der Wiedereinführung wenden ein, dass ein verpflichtender Dienst massiv in die persönliche Freiheit junger Menschen eingreifen würde und zudem organisatorisch kaum zu bewältigen sei, da weder ausreichend Kasernen noch Ausbilder zur Verfügung stünden. Sollte die Wehrpflicht tatsächlich reaktiviert werden, müssten zunächst enorme Summen in die Infrastruktur investiert werden, bevor überhaupt an eine sinnvolle Ausbildung zu denken wäre. Manche Experten schlagen deshalb ein alternatives Gesellschaftsjahr vor, das sowohl im militärischen als auch im sozialen Bereich abgeleistet werden könnte.\n\nUmfragen zeigen, dass die Bevölkerung in dieser Frage tief gespalten ist. Während ältere Generationen der verpflichtenden Variante mehrheitlich zustimmen, lehnt die Mehrheit der jüngeren Befragten einen erzwungenen Dienst ab und würde ein freiwilliges Modell bevorzugen. Welche Lösung am Ende politisch durchsetzbar sein wird, hängt nicht zuletzt davon ab, wie sich die sicherheitspolitische Lage in den kommenden Jahren weiterentwickelt.",
+    "preguntas": [
+      {
+        "enunciado": "Die allgemeine Wehrpflicht wurde vor über zehn Jahren ausgesetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter einer neuen Wehrpflicht sehen keinen Personalmangel bei der Bundeswehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gegner verweisen auf fehlende Kasernen und Ausbilder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten lehnen ein Gesellschaftsjahr als Alternative ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Befragte bevorzugen laut Umfragen mehrheitlich ein freiwilliges Modell.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "tempolimit-auf-autobahnen",
+    "nivel": "B2",
+    "titulo": "Tempolimit auf Autobahnen",
+    "descripcion": "Seit Jahrzehnten wird in Deutschland über ein generelles Tempolimit auf Autobahnen gestritten.",
+    "texto": "Kaum ein verkehrspolitisches Thema wird in Deutschland so leidenschaftlich diskutiert wie die Frage, ob auf Autobahnen ein generelles Tempolimit eingeführt werden sollte. Befürworter verweisen darauf, dass durch eine Geschwindigkeitsbegrenzung nicht nur die Zahl schwerer Unfälle gesenkt, sondern auch der CO2-Ausstoß spürbar reduziert werden könnte. Studien legen nahe, dass bereits ein Limit von 130 Kilometern pro Stunde erhebliche Einsparungen bewirken würde, ohne dass die Mobilität der Bevölkerung wesentlich eingeschränkt werden müsste.\n\nGegner des Tempolimits hingegen betonen, dass die freie Fahrt auf deutschen Autobahnen international als Alleinstellungsmerkmal gelte und tief in der automobilen Identität des Landes verwurzelt sei. Würde ein Limit eingeführt, so ihre Befürchtung, käme dies einem symbolischen Eingriff in die individuelle Freiheit gleich, dessen tatsächlicher Nutzen ohnehin überschätzt werde. Zudem argumentieren sie, dass moderne Fahrzeuge längst mit Assistenzsystemen ausgestattet seien, die das Unfallrisiko auch ohne staatliche Vorgaben deutlich verringerten.\n\nInteressant ist, dass Deutschland mittlerweile fast das einzige Land in Europa ist, in dem noch keine generelle Höchstgeschwindigkeit gilt. Auf über der Hälfte des Autobahnnetzes bestehen zwar bereits streckenbezogene Limits, ein flächendeckendes Tempolimit wurde jedoch bislang stets von politischen Mehrheiten verhindert. Ob sich diese Situation angesichts wachsenden Drucks durch Klimaschutzziele in absehbarer Zeit ändern wird, bleibt vorerst offen.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter eines Tempolimits argumentieren mit weniger Unfällen und geringerem CO2-Ausstoß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner des Tempolimits sehen darin keinen Eingriff in die persönliche Freiheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem gesamten deutschen Autobahnnetz gilt bereits ein generelles Tempolimit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Deutschland gehört zu den letzten Ländern Europas ohne generelle Höchstgeschwindigkeit auf Autobahnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf mehr als der Hälfte des Autobahnnetzes gibt es bereits streckenbezogene Limits.",
+        "respuesta": true
+      }
+    ]
   }
 ]
