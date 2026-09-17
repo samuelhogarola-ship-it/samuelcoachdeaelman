@@ -14738,5 +14738,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-drogeriemarkt",
+    "nivel": "A1",
+    "titulo": "Im Drogeriemarkt",
+    "descripcion": "Lisa kauft Shampoo und Zahnpasta im Drogeriemarkt.",
+    "texto": "Lisa geht heute in den Drogeriemarkt. Der Laden ist groß und hell. Sie braucht Shampoo und Seife. Auch Zahnpasta steht auf ihrer Liste. Lisa nimmt einen kleinen Einkaufskorb.\n\nIm Regal sieht Lisa viele Shampoo-Flaschen. Eine Flasche ist blau, eine andere ist grün. Lisa mag die grüne Flasche. Sie nimmt auch eine rote Zahnpasta. Eine Seife riecht nach Lavendel. Lisa findet den Duft sehr schön.\n\nAn der Kasse zahlt Lisa mit ihrer Karte. Die Verkäuferin lächelt und sagt „Vielen Dank\". Lisa packt alles in ihre Tasche. Dann geht sie glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa geht in den Drogeriemarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa kauft nur Zahnpasta.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Seife riecht nach Lavendel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa zahlt mit Bargeld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa nimmt die grüne Shampoo-Flasche.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-stundenplan",
+    "nivel": "A1",
+    "titulo": "Der Stundenplan",
+    "descripcion": "Tim erzählt von seinem Stundenplan in der Schule.",
+    "texto": "Tim ist zehn Jahre alt. Er geht jeden Tag zur Schule. Am Montag hat er Mathe und Deutsch. Am Dienstag hat er Sport und Musik. Tim mag den Sportunterricht sehr gern.\n\nDer Unterricht beginnt um acht Uhr. Die erste Pause ist um zehn Uhr. In der Pause isst Tim ein Brot und einen Apfel. Seine Freunde spielen mit ihm Fußball auf dem Schulhof.\n\nAm Mittwoch hat Tim Kunst und Englisch. Er malt gern bunte Bilder. Um dreizehn Uhr ist die Schule zu Ende. Dann geht Tim mit dem Bus nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Unterricht beginnt um neun Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim isst in der Pause ein Brot und einen Apfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim mag den Sportunterricht nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Mittwoch hat Tim Kunst und Englisch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-tiergeschaeft",
+    "nivel": "A1",
+    "titulo": "Im Tiergeschäft",
+    "descripcion": "Familie Berger kauft Futter für ihre Katze im Tiergeschäft.",
+    "texto": "Familie Berger hat eine Katze. Die Katze heißt Mimi. Heute fahren sie ins Tiergeschäft. Sie brauchen Futter und ein neues Spielzeug.\n\nIm Laden gibt es viele Regale. Ein Regal hat Futter für Katzen und Hunde. Ein anderes Regal hat bunte Spielzeuge. Die Tochter Emma sucht eine kleine Maus aus Stoff. Der Vater nimmt zwei Dosen Katzenfutter.\n\nAn der Kasse kostet alles fünfzehn Euro. Emma bezahlt mit ihrem Taschengeld. Zu Hause spielt Mimi sofort mit der neuen Maus. Die ganze Familie freut sich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Familie Berger kauft ein Spielzeug für einen Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma bezahlt mit der Kreditkarte ihrer Mutter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater kauft zwei Dosen Katzenfutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alles kostet fünfzehn Euro.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reparatur-beim-mechaniker",
+    "nivel": "A2",
+    "titulo": "Die Reparatur beim Mechaniker",
+    "descripcion": "Herr Bauer hat ein Problem mit seinem Auto und bringt es in die Werkstatt.",
+    "texto": "Am Montagmorgen ist das Auto von Herrn Bauer nicht angesprungen. Er hat den Schlüssel mehrmals gedreht, aber der Motor hat nur komische Geräusche gemacht. Weil er zur Arbeit fahren musste, hat er schnell ein Taxi gerufen. Am Nachmittag hat er das Auto zu einer Werkstatt in der Nähe abschleppen lassen.\n\nDer Mechaniker hat das Auto genau untersucht. Er hat gesagt, dass die Batterie kaputt ist. Herr Bauer war überrascht, weil er die Batterie erst vor zwei Jahren gewechselt hatte. Der Mechaniker hat erklärt, dass alte Batterien im Winter oft Probleme machen. Er hat eine neue Batterie eingebaut und das Auto getestet.\n\nAm Abend konnte Herr Bauer sein Auto wieder abholen. Die Reparatur hat ungefähr hundert Euro gekostet. Wenn er das nächste Mal ein Problem hat, will er die Werkstatt früher anrufen. Er ist froh, dass alles so schnell geklappt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Das Auto von Herrn Bauer ist am Montagmorgen nicht angesprungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Bauer ist mit dem Fahrrad zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Mechaniker hat festgestellt, dass die Batterie kaputt war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Bauer hatte die Batterie erst vor einer Woche gewechselt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Reparatur hat ungefähr hundert Euro gekostet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-vergessene-geburtstagsgeschenk",
+    "nivel": "A2",
+    "titulo": "Das vergessene Geburtstagsgeschenk",
+    "descripcion": "Julia merkt, dass sie das Geschenk für die Geburtstagsfeier ihrer Freundin vergessen hat.",
+    "texto": "Julia ist am Samstagabend zur Geburtstagsfeier ihrer Freundin Nina gegangen. Als sie vor der Tür stand, hat sie plötzlich gemerkt, dass sie das Geschenk zu Hause vergessen hat. Sie war sehr aufgeregt, weil die Party schon begonnen hatte und alle Gäste mit Geschenken angekommen sind.\n\nJulia hat kurz überlegt, was sie tun soll. Sie hat ihren Bruder angerufen und ihn gebeten, das Geschenk vorbeizubringen. Zum Glück hat er sofort Zeit gehabt und ist mit dem Fahrrad losgefahren. In der Zwischenzeit hat Julia Nina gratuliert und ihr erzählt, dass eine Überraschung noch kommt.\n\nNach zwanzig Minuten ist Julias Bruder mit dem Geschenk angekommen. Nina hat sich riesig gefreut, als sie das Buch ausgepackt hat, das sie sich schon lange gewünscht hatte. Julia war erleichtert, dass am Ende alles gut ausgegangen ist. Sie hat versprochen, beim nächsten Mal eine Liste zu schreiben, damit sie nichts mehr vergisst.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat das Geschenk zu Hause vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia ist sofort wieder nach Hause gefahren, um das Geschenk zu holen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julias Bruder ist mit dem Auto losgefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat sich über das Buch gefreut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia will beim nächsten Mal eine Liste schreiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-in-die-therme",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug in die Therme",
+    "descripcion": "Sabine und ihr Mann verbringen einen entspannten Tag in einer Therme.",
+    "texto": "Sabine und ihr Mann Jonas haben am Sonntag einen Ausflug in eine Therme gemacht. Sie haben sich schon lange auf diesen Tag gefreut, weil sie beide viel gearbeitet hatten und Erholung brauchten. Als sie angekommen sind, haben sie sich zuerst umgezogen und sind dann direkt ins warme Wasser gegangen.\n\nIn der Therme gab es mehrere Becken mit unterschiedlicher Temperatur. Jonas ist zuerst in die Sauna gegangen, während Sabine im Außenbecken geschwommen ist. Später haben sie sich zusammen in ein ruhiges Becken mit Blick auf die Berge gesetzt. Sabine hat erzählt, dass sie sich noch nie so entspannt gefühlt hat.\n\nAm Nachmittag haben sie im Restaurant der Therme zu Mittag gegessen. Jonas hat einen Salat bestellt, und Sabine hat sich für eine Suppe entschieden. Bevor sie nach Hause gefahren sind, haben sie noch eine Massage gebucht. Beide waren sich einig, dass sie bald wiederkommen möchten.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine und Jonas sind am Sonntag in die Therme gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist zuerst ins Außenbecken gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine hat gesagt, dass sie sich noch nie so entspannt gefühlt hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben zu Hause zu Mittag gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben vor der Heimfahrt eine Massage gebucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-mitgliedschaft-im-buchclub",
+    "nivel": "B1",
+    "titulo": "Die Mitgliedschaft im Buchclub",
+    "descripcion": "Katrin tritt einem Buchclub bei und lernt dort neue Freunde kennen.",
+    "texto": "Katrin hat sich schon immer für Bücher interessiert, obwohl sie in den letzten Jahren wegen der Arbeit kaum Zeit zum Lesen gefunden hatte. Nachdem eine Kollegin ihr von einem Buchclub in der Stadtbibliothek erzählt hatte, beschloss Katrin, einfach mal vorbeizuschauen. Sie war ein wenig nervös, weil sie niemanden aus der Gruppe kannte.\n\nBeim ersten Treffen saßen etwa zehn Personen im Kreis und diskutierten über einen Roman, den Katrin noch nicht gelesen hatte. Trotzdem fühlte sie sich schnell willkommen, denn die anderen Mitglieder haben ihr geduldig die Handlung erklärt. In den folgenden Wochen hat Katrin das Buch nachgeholt und war beim nächsten Treffen gut vorbereitet.\n\nMittlerweile trifft sich Katrin jeden ersten Donnerstag im Monat mit dem Buchclub. Obwohl die Diskussionen manchmal hitzig werden, genießt sie den Austausch über verschiedene Meinungen. Sie hat sogar zwei neue Freundinnen gefunden, mit denen sie sich auch außerhalb des Buchclubs trifft. Katrin ist überzeugt, dass der Buchclub ihr Leben bereichert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin hatte wegen der Arbeit wenig Zeit zum Lesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin war schon lange Mitglied im Buchclub, als ihre Kollegin ihr davon erzählte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beim ersten Treffen hatte Katrin das besprochene Buch schon gelesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrin trifft sich jeden ersten Donnerstag im Monat mit dem Buchclub.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin hat durch den Buchclub neue Freundinnen gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-studienbeginn-an-der-uni",
+    "nivel": "B1",
+    "titulo": "Der Studienbeginn an der Uni",
+    "descripcion": "Felix zieht in eine neue Stadt, um dort sein Studium zu beginnen.",
+    "texto": "Felix ist im September in eine neue Stadt gezogen, weil er dort sein Studium der Biologie beginnen wollte. Obwohl er sich auf das neue Leben gefreut hat, war ihm beim Einzug in sein kleines Zimmer im Studentenwohnheim auch etwas mulmig zumute. Er kannte niemanden in der Stadt und musste sich erst zurechtfinden.\n\nIn der ersten Woche gab es an der Universität eine Orientierungsveranstaltung für alle neuen Studierenden. Nachdem Felix dort mehrere Stunden verbracht hatte, kannte er sich auf dem Campus schon viel besser aus. Er hat auch einige Kommilitonen kennengelernt, mit denen er später zusammen in die Vorlesungen gegangen ist. Trotzdem fühlte er sich in den ersten Tagen manchmal einsam, weil ihm seine Familie und seine alten Freunde fehlten.\n\nNach einigen Wochen hat sich Felix an sein neues Leben gewöhnt. Er ist einem Sportverein beigetreten und hat dort weitere Leute kennengelernt. Obwohl das Studium anspruchsvoller ist, als er gedacht hatte, kommt er gut mit dem Lernstoff zurecht. Felix ist froh, dass er den Schritt in die neue Stadt gewagt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist im September in eine neue Stadt gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix kannte schon viele Leute in der neuen Stadt, bevor er umgezogen ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "An der Universität gab es eine Orientierungsveranstaltung für neue Studierende.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat sich in den ersten Tagen nie einsam gefühlt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix ist einem Sportverein beigetreten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-quereinstieg-in-einen-neuen-beruf",
+    "nivel": "B1",
+    "titulo": "Der Quereinstieg in einen neuen Beruf",
+    "descripcion": "Markus wechselt nach zehn Jahren als Ingenieur in den Lehrerberuf.",
+    "texto": "Markus hat zehn Jahre lang als Ingenieur in einem großen Unternehmen gearbeitet, obwohl ihm der Beruf schon lange keine Freude mehr bereitet hat. Nachdem er lange darüber nachgedacht hatte, entschied er sich für einen mutigen Schritt: Er wollte Lehrer werden. Viele seiner Kollegen konnten diese Entscheidung nicht verstehen, weil Markus eine sichere und gut bezahlte Stelle aufgegeben hat.\n\nDer Weg in den neuen Beruf war nicht einfach. Markus musste zunächst ein berufsbegleitendes Studium absolvieren, während er weiterhin Geld verdienen wollte. Trotzdem hat er die Herausforderung angenommen und abends und am Wochenende gelernt. Nachdem er die ersten Praktika an Schulen gemacht hatte, war er sich sicher, dass er die richtige Entscheidung getroffen hat.\n\nHeute unterrichtet Markus Mathematik und Physik an einer Gesamtschule. Obwohl er inzwischen deutlich weniger verdient als früher, ist er zufriedener als je zuvor. Er sagt, dass ihm die Arbeit mit den Jugendlichen viel mehr Sinn gibt als seine frühere Tätigkeit. Markus rät anderen, die mit ihrem Beruf unzufrieden sind, ebenfalls über einen Neuanfang nachzudenken.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat zehn Jahre als Ingenieur gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kollegen von Markus haben seine Entscheidung sofort verstanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus musste ein berufsbegleitendes Studium absolvieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus verdient als Lehrer mehr Geld als früher als Ingenieur.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus unterrichtet heute Mathematik und Physik.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "obdachlosigkeit-in-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Obdachlosigkeit in Großstädten",
+    "descripcion": "Ein Blick auf die wachsende Zahl obdachloser Menschen in deutschen Großstädten und mögliche Lösungsansätze.",
+    "texto": "In den vergangenen Jahren ist die Zahl der Menschen, die auf der Straße leben, in vielen deutschen Großstädten spürbar gestiegen. Sozialverbände schätzen, dass bundesweit mehrere Hunderttausend Menschen ohne festen Wohnsitz sind, wobei die tatsächliche Zahl vermutlich noch höher liegt, da viele Betroffene nicht offiziell erfasst werden. Als Hauptursachen gelten steigende Mieten, ein knapper werdender Wohnungsmarkt sowie persönliche Schicksalsschläge wie Jobverlust, Trennung oder Krankheit.\n\nWäre ausreichend bezahlbarer Wohnraum vorhanden, könnten viele Fälle von Obdachlosigkeit vermutlich verhindert werden. Stattdessen konkurrieren einkommensschwache Haushalte mit zahlungskräftigeren Mietern um die wenigen freien Wohnungen, die auf dem Markt angeboten werden. In manchen Städten wurden bereits sogenannte Housing-First-Programme eingeführt, bei denen Betroffenen zunächst eine eigene Wohnung vermittelt wird, bevor weitere Unterstützung, etwa bei der Jobsuche oder bei gesundheitlichen Problemen, geboten wird.\n\nKritiker bemängeln jedoch, dass solche Programme oft unterfinanziert seien und nur einem kleinen Teil der Betroffenen helfen könnten. Zudem werde das Problem in der öffentlichen Debatte häufig auf individuelles Versagen reduziert, obwohl strukturelle Ursachen wie die Wohnungspolitik eine ebenso große Rolle spielten. Sozialarbeiter fordern deshalb, dass mehr in den sozialen Wohnungsbau investiert wird, damit langfristig weniger Menschen in die Obdachlosigkeit rutschen.\n\nOhne ein Umdenken in der Wohnungspolitik, so warnen Experten, werde sich die Lage in den kommenden Jahren eher verschärfen als entspannen. Es brauche ein Zusammenspiel aus mehr Sozialwohnungen, besserer Prävention und einer stärkeren Enttabuisierung des Themas in der Gesellschaft, damit Betroffene nicht weiter an den Rand gedrängt würden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zahl obdachloser Menschen ist in deutschen Großstädten in den letzten Jahren gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle obdachlosen Menschen in Deutschland werden offiziell erfasst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bei Housing-First-Programmen bekommen Betroffene zuerst eine Wohnung, bevor weitere Hilfe angeboten wird.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen die Wohnungspolitik als völlig unwichtige Ursache für Obdachlosigkeit an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten warnen, dass sich die Lage ohne Umdenken eher verschärfen wird.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "gesichtserkennung-im-oeffentlichen-raum",
+    "nivel": "B2",
+    "titulo": "Gesichtserkennung im öffentlichen Raum",
+    "descripcion": "Eine Auseinandersetzung mit dem Einsatz von Gesichtserkennungstechnologie an öffentlichen Plätzen und den damit verbundenen Risiken.",
+    "texto": "Immer mehr Städte weltweit testen den Einsatz von Kameras, die mithilfe künstlicher Intelligenz Gesichter automatisch erkennen und mit Datenbanken abgleichen können. Befürworter argumentieren, dass eine solche, flächendeckend installierte Überwachungstechnologie dazu beitragen könnte, Straftaten schneller aufzuklären und gesuchte Personen zu identifizieren. In einigen deutschen Bahnhöfen wurden bereits Pilotprojekte durchgeführt, bei denen die Technologie unter kontrollierten Bedingungen getestet wurde.\n\nDatenschützer und Bürgerrechtsorganisationen sehen die Entwicklung dagegen mit großer Sorge. Würde Gesichtserkennung flächendeckend eingesetzt, wäre es kaum noch möglich, sich anonym im öffentlichen Raum zu bewegen, ohne dass Bewegungsprofile erstellt werden könnten. Zudem weisen Studien darauf hin, dass viele Systeme bei Menschen mit dunklerer Hautfarbe oder bei Frauen fehleranfälliger seien, was zu falschen Verdächtigungen führen könnte.\n\nAuf europäischer Ebene wird derzeit diskutiert, ob und unter welchen Bedingungen biometrische Überwachung im öffentlichen Raum erlaubt sein soll. Während einige Staaten für strenge Verbote plädieren, wollen andere die Technologie zumindest für die Verfolgung schwerer Straftaten zulassen. Ein vollständiges Verbot, so argumentieren manche Sicherheitsbehörden, würde wichtige Ermittlungsinstrumente unnötig einschränken.\n\nLetztlich stellt sich die grundsätzliche Frage, wie viel Sicherheit eine Gesellschaft auf Kosten der Privatsphäre bereit ist zu akzeptieren. Kritiker warnen, dass einmal etablierte Überwachungsstrukturen nur schwer wieder rückgängig gemacht werden könnten, selbst wenn sich die politischen Mehrheiten später ändern sollten.",
+    "preguntas": [
+      {
+        "enunciado": "Gesichtserkennungstechnologie gleicht Gesichter mithilfe künstlicher Intelligenz mit Datenbanken ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Datenschützer befürworten den flächendeckenden Einsatz von Gesichtserkennung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen, dass manche Systeme bei Frauen und Menschen mit dunklerer Hautfarbe fehleranfälliger sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf europäischer Ebene sind sich alle Staaten einig, dass biometrische Überwachung komplett verboten werden sollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker meinen, dass einmal etablierte Überwachungsstrukturen leicht wieder abgeschafft werden könnten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "abschaffung-der-schulnoten",
+    "nivel": "B2",
+    "titulo": "Abschaffung der Schulnoten",
+    "descripcion": "Eine Debatte darüber, ob traditionelle Schulnoten durch alternative Bewertungsformen ersetzt werden sollten.",
+    "texto": "In der Bildungspolitik wird seit Jahren darüber diskutiert, ob das klassische Notensystem noch zeitgemäß ist. Befürworter einer Reform argumentieren, dass Ziffernnoten den individuellen Lernfortschritt eines Kindes nur unzureichend abbildeten und stattdessen vor allem Druck und Angst erzeugten. Einige Schulen in Deutschland haben deshalb bereits alternative Bewertungsformen eingeführt, bei denen Schülerinnen und Schüler ausführliches schriftliches Feedback statt einer einzelnen Zahl erhalten.\n\nWürde man Noten vollständig abschaffen, so argumentieren Kritiker dieser Idee, ginge damit auch ein wichtiges Orientierungsinstrument verloren, das Eltern, Schülern und späteren Arbeitgebern eine schnelle Einschätzung der Leistung ermögliche. Zudem sei es fraglich, wie ein notenfreies System bei der Vergabe von Studienplätzen, die häufig über den Notendurchschnitt vergeben werden, fair gestaltet werden könnte.\n\nBefürworter alternativer Bewertungsformen entgegnen, dass detailliertes Feedback den Lernprozess viel besser unterstütze als eine bloße Zahl. In Ländern wie Finnland, wo Schülerinnen und Schüler erst ab einem höheren Alter benotet werden, schneiden die Jugendlichen in internationalen Vergleichsstudien regelmäßig gut ab. Dies wird von Reformbefürwortern häufig als Beleg dafür angeführt, dass ein späterer Beginn der Notengebung dem Lernerfolg nicht schade.\n\nOb sich ein notenfreies System in Deutschland flächendeckend durchsetzen wird, bleibt jedoch ungewiss, da eine solche Umstellung tiefgreifende Veränderungen im gesamten Bildungssystem erfordern würde. Solange keine bundesweit einheitliche Lösung gefunden ist, werden vermutlich weiterhin einzelne Schulen im Rahmen von Modellprojekten mit alternativen Bewertungsformen experimentieren.",
+    "preguntas": [
+      {
+        "enunciado": "Manche Schulen in Deutschland haben bereits alternative Bewertungsformen eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker der Notenabschaffung befürchten, dass ein wichtiges Orientierungsinstrument verloren ginge.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Finnland werden Schülerinnen und Schüler schon sehr früh benotet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studienplätze werden nie über den Notendurchschnitt vergeben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es ist sicher, dass sich ein notenfreies System in ganz Deutschland durchsetzen wird.",
+        "respuesta": false
+      }
+    ]
   }
 ]
