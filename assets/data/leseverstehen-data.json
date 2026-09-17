@@ -16130,5 +16130,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-vater",
+    "nivel": "A1",
+    "titulo": "Mein Vater",
+    "descripcion": "Ein kurzer Text über den Vater und seinen Alltag.",
+    "texto": "Mein Vater heißt Thomas. Er ist 45 Jahre alt und arbeitet als Lehrer. Er steht jeden Morgen um sechs Uhr auf. Zuerst trinkt er einen Kaffee, dann liest er die Zeitung. Um sieben Uhr fährt er mit dem Auto zur Schule.\n\nMein Vater mag Fußball und Musik. Am Wochenende spielt er oft Fußball mit seinen Freunden. Abends hört er gerne klassische Musik. Er kocht auch sehr gern und macht am Sonntag immer ein großes Mittagessen für die ganze Familie.\n\nIch finde meinen Vater sehr lustig. Er erzählt immer lustige Geschichten aus der Schule. Wir spielen zusammen Schach, und er hilft mir bei den Hausaufgaben.",
+    "preguntas": [
+      {
+        "enunciado": "Mein Vater ist Lehrer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mein Vater steht um acht Uhr auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mein Vater mag keine Musik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag kocht mein Vater für die Familie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mein Vater und ich spielen zusammen Schach.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-tanzkurs",
+    "nivel": "A1",
+    "titulo": "Im Tanzkurs",
+    "descripcion": "Julia besucht jeden Dienstag einen Tanzkurs.",
+    "texto": "Julia geht jeden Dienstagabend in einen Tanzkurs. Der Kurs beginnt um 19 Uhr in einem Tanzstudio in der Stadt. Julia lernt dort Salsa. Sie trägt bequeme Schuhe und ein leichtes Kleid.\n\nDer Tanzlehrer heißt Carlos. Er ist sehr geduldig und erklärt die Schritte langsam. Julia tanzt oft mit ihrer Freundin Sofia. Zusammen üben sie die neuen Schritte. Nach dem Kurs sind alle müde, aber glücklich.\n\nJulia mag den Tanzkurs sehr. Sie sagt: „Tanzen macht mir viel Spaß, und ich lerne viele neue Leute kennen.\" Am Ende des Kurses trinken die Teilnehmer oft noch zusammen etwas.",
+    "preguntas": [
+      {
+        "enunciado": "Julia geht jeden Montag zum Tanzkurs.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia lernt Salsa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Tanzlehrer heißt Carlos.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia tanzt immer allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia findet den Kurs langweilig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "am-see",
+    "nivel": "A1",
+    "titulo": "Am See",
+    "descripcion": "Eine Familie verbringt einen schönen Tag am See.",
+    "texto": "Am Samstag fährt die Familie Berger an einen See. Der See liegt nicht weit von ihrem Haus. Die Sonne scheint, und der Himmel ist blau. Die Kinder freuen sich sehr auf den Ausflug.\n\nAm See schwimmen die Kinder im Wasser. Die Mutter liest ein Buch, und der Vater grillt Würstchen. Alle sind hungrig und essen gerne. Danach spielen die Kinder mit einem Ball am Ufer.\n\nAm Abend packen sie ihre Sachen zusammen. Die Kinder sind müde, aber sehr zufrieden. „Das war ein toller Tag\", sagt die Mutter. Sie fahren glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie fährt an einen See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es regnet den ganzen Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater grillt Würstchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen nicht mit einem Ball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie ist am Ende des Tages zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-reise-nach-freiburg",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Freiburg",
+    "descripcion": "Nina hat ein verlängertes Wochenende in Freiburg verbracht.",
+    "texto": "Letzten Monat ist Nina nach Freiburg gefahren, weil sie die Stadt schon lange besuchen wollte. Sie ist mit dem Zug gefahren und hat drei Stunden gebraucht. Als sie angekommen ist, hat sie sich zuerst ein kleines Hotel in der Altstadt gesucht.\n\nAm ersten Tag hat Nina das berühmte Münster besucht und ist danach durch die kleinen Gassen spaziert. Sie hat viele „Bächle\" gesehen, die kleinen Wasserkanäle, die durch die Stadt fließen. Weil das Wetter so schön war, hat sie den Nachmittag in einem Café am Marktplatz verbracht.\n\nAm zweiten Tag ist Nina mit der Seilbahn auf den Schauinsland gefahren. Von dort oben hatte sie einen wunderschönen Blick über den Schwarzwald. Obwohl sie nur zwei Tage Zeit hatte, war sie am Ende sehr zufrieden mit ihrer Reise.",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist mit dem Auto nach Freiburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat in der Altstadt ein Hotel gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bächle sind kleine Wasserkanäle in Freiburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina ist nicht auf den Schauinsland gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina war am Ende der Reise unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-legoland",
+    "nivel": "A2",
+    "titulo": "Ein Tag im Legoland",
+    "descripcion": "Familie Wagner hat einen aufregenden Tag im Legoland verbracht.",
+    "texto": "Am Wochenende ist Familie Wagner ins Legoland gefahren, weil die Kinder das Thema seit Wochen gewünscht hatten. Sie sind früh am Morgen losgefahren, damit sie den ganzen Tag im Park verbringen konnten. Als sie angekommen sind, haben sie zuerst eine Achterbahn ausprobiert.\n\nDie Kinder waren total begeistert von den bunten Figuren aus Lego. Sie haben viele Fotos gemacht und sind mit verschiedenen Fahrgeschäften gefahren. Weil es sehr heiß war, hat die Familie in der Mittagspause viel Wasser getrunken und im Schatten gegessen. Am Nachmittag haben sie eine Show mit Lego-Rittern gesehen.\n\nAm Abend waren alle sehr müde, aber die Kinder wollten immer noch nicht nach Hause fahren. „Das war der schönste Tag des Sommers\", hat der kleine Tim gesagt. Die Eltern haben versprochen, nächstes Jahr wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Wagner ist am Abend losgefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben eine Achterbahn ausprobiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es war an diesem Tag sehr kalt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag haben sie eine Show gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eltern wollen nicht mehr ins Legoland fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-logopaeden",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Logopäden",
+    "descripcion": "Der kleine Ben geht zum ersten Mal zur Sprachtherapie.",
+    "texto": "Ben ist fünf Jahre alt und hat Probleme beim Sprechen. Deshalb hat seine Mutter einen Termin bei einer Logopädin gemacht. Ben war ein bisschen nervös, weil er nicht wusste, was ihn erwartet. Seine Mutter hat ihm erklärt, dass die Logopädin ihm beim Sprechen helfen kann.\n\nAls sie in der Praxis angekommen sind, hat die Logopädin, Frau Klein, Ben freundlich begrüßt. Sie haben zusammen Bilder angeschaut und Wörter geübt. Ben hat gemerkt, dass die Übungen sogar Spaß gemacht haben. Nachdem die erste Stunde vorbei war, hat Frau Klein der Mutter erklärt, wie sie zu Hause weiterüben können.\n\nBen freut sich schon auf den nächsten Termin. „Die Übungen waren wie ein Spiel\", hat er seiner Mutter erzählt. Seine Mutter ist froh, dass ihr Sohn keine Angst mehr vor der Therapie hat.",
+    "preguntas": [
+      {
+        "enunciado": "Ben ist fünf Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hatte vor dem Termin keine Angst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Logopädin heißt Frau Klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben fand die Übungen langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben freut sich auf den nächsten Termin.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-elternabend-in-der-schule",
+    "nivel": "B1",
+    "titulo": "Der Elternabend in der Schule",
+    "descripcion": "Die Eltern einer sechsten Klasse treffen sich zum Elternabend.",
+    "texto": "Einmal im Halbjahr findet an der Schule von Leon ein Elternabend statt, bei dem die Klassenlehrerin über wichtige Themen informiert. Obwohl viele Eltern nach der Arbeit müde sind, kommen fast alle, weil ihnen die Entwicklung ihrer Kinder wichtig ist. Frau Hoffmann, die Klassenlehrerin, begrüßt die Eltern und stellt zunächst das Programm des kommenden Halbjahres vor.\n\nNachdem sie über die anstehende Klassenfahrt gesprochen hat, kommt es zu einer lebhaften Diskussion über die Hausaufgabenmenge. Einige Eltern finden, dass ihre Kinder zu viele Hausaufgaben bekommen, während andere der Meinung sind, dass mehr Übung nötig sei. Trotzdem einigen sich alle am Ende darauf, dass Qualität wichtiger ist als Quantität.\n\nZum Schluss des Abends sprechen die Eltern noch informell miteinander und tauschen Erfahrungen aus dem Familienalltag aus. Viele finden es hilfreich, andere Eltern kennenzulernen, deren Kinder ähnliche Herausforderungen haben. Frau Hoffmann ist zufrieden, weil der Abend trotz einiger Meinungsverschiedenheiten konstruktiv verlaufen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Der Elternabend findet einmal im Halbjahr statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Eltern sind sich sofort über die Hausaufgaben einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klassenlehrerin heißt Frau Hoffmann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Abends verlassen die Eltern sofort den Raum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Hoffmann ist mit dem Verlauf des Abends zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-firmenjubilaeum",
+    "nivel": "B1",
+    "titulo": "Das Firmenjubiläum",
+    "descripcion": "Ein mittelständisches Unternehmen feiert sein 25-jähriges Bestehen.",
+    "texto": "Die Firma, bei der Sabine seit zehn Jahren arbeitet, feiert in diesem Jahr ihr 25-jähriges Bestehen. Nachdem die Geschäftsführung monatelang geplant hatte, findet die Feier schließlich in einer alten Fabrikhalle statt, die extra für diesen Anlass dekoriert wurde. Obwohl Sabine anfangs skeptisch war, ob sich der Aufwand lohnt, ist sie am Ende begeistert von der Organisation.\n\nWährend der Feier hält der Geschäftsführer eine Rede über die Geschichte des Unternehmens und bedankt sich bei den langjährigen Mitarbeitern. Danach gibt es ein Buffet und Live-Musik, sodass die Kollegen aus verschiedenen Abteilungen miteinander ins Gespräch kommen. Sabine trifft dabei einen ehemaligen Kollegen wieder, mit dem sie vor Jahren zusammengearbeitet hat.\n\nGegen Ende des Abends überreicht die Firma jedem Mitarbeiter ein kleines Geschenk als Dankeschön. Sabine findet es schön, dass das Unternehmen trotz seines Wachstums noch immer familiär wirkt. Sie geht mit dem Gefühl nach Hause, dass sie stolz sein kann, Teil dieses Teams zu sein.",
+    "preguntas": [
+      {
+        "enunciado": "Die Firma feiert ihr 25-jähriges Bestehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Feier findet in einem Restaurant statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine trifft bei der Feier einen ehemaligen Kollegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende bekommt niemand ein Geschenk.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine ist stolz, Teil des Teams zu sein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-lange-nacht-der-museen",
+    "nivel": "B1",
+    "titulo": "Die Lange Nacht der Museen",
+    "descripcion": "Zwei Freundinnen erkunden bei der Langen Nacht der Museen die Stadt.",
+    "texto": "Einmal im Jahr öffnen in vielen deutschen Städten die Museen bis spät in die Nacht ihre Türen. Mara und Elif haben sich schon lange auf dieses Ereignis gefreut, weil sie mit einem einzigen Ticket viele verschiedene Ausstellungen besuchen können. Nachdem sie sich am Bahnhof getroffen haben, kaufen sie ihre Tickets und planen ihre Route.\n\nZuerst besuchen sie ein naturkundliches Museum, in dem gerade eine Sonderausstellung über Dinosaurier zu sehen ist. Obwohl es dort sehr voll ist, gefällt ihnen die Ausstellung sehr gut. Danach nehmen sie den Shuttlebus zu einem Kunstmuseum, wo eine Fotografin über ihre Arbeit spricht. Mara ist besonders von den Schwarz-Weiß-Fotos beeindruckt.\n\nGegen Mitternacht sind beide erschöpft, aber glücklich über den Abend. Trotzdem beschließen sie, noch ein letztes Museum zu besuchen, bevor sie nach Hause fahren. „Ich wusste gar nicht, dass unsere Stadt so viele interessante Museen hat\", sagt Elif auf dem Heimweg.",
+    "preguntas": [
+      {
+        "enunciado": "Die Lange Nacht der Museen findet einmal im Jahr statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mara und Elif brauchen für jedes Museum ein neues Ticket.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im naturkundlichen Museum gibt es eine Ausstellung über Dinosaurier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mara interessiert sich nicht für die Fotografien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Abends fahren sie sofort nach dem zweiten Museum nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wahlrecht-ab-16",
+    "nivel": "B2",
+    "titulo": "Wahlrecht ab 16 – Mehr Mitbestimmung für Jugendliche?",
+    "descripcion": "Ein Blick auf die Debatte, ob das Wahlalter in Deutschland gesenkt werden sollte.",
+    "texto": "Seit einigen Jahren wird in Deutschland intensiv darüber diskutiert, ob das Wahlalter bei Bundestagswahlen von 18 auf 16 Jahre gesenkt werden sollte. Befürworter argumentieren, dass junge Menschen von politischen Entscheidungen, etwa in der Klima- oder Bildungspolitik, besonders stark betroffen seien und deshalb auch mitbestimmen sollten. Würde das Wahlrecht gesenkt, könnten Jugendliche schon früher ein Bewusstsein für demokratische Prozesse entwickeln, so die Hoffnung vieler Politikwissenschaftler.\n\nKritiker hingegen bezweifeln, dass 16-Jährige bereits über die notwendige politische Reife verfügen, um komplexe Sachverhalte ausreichend zu beurteilen. Sie verweisen darauf, dass mit dem Wahlrecht auch andere Rechte und Pflichten verknüpft seien, etwa die volle strafrechtliche Verantwortung, die erst mit 18 Jahren einsetzt. Zudem wird befürchtet, dass Jugendliche eher durch soziale Medien beeinflusst würden als durch eine fundierte Auseinandersetzung mit politischen Programmen.\n\nAuf kommunaler Ebene und bei einigen Landtagswahlen wurde das Wahlalter in manchen Bundesländern bereits gesenkt, sodass erste Erfahrungen vorliegen. Studien zeigen, dass jüngere Wähler ihr Wahlrecht keineswegs unüberlegter nutzen als ältere Generationen. Ob diese Erfahrungen auch auf Bundesebene übertragen werden, bleibt jedoch eine politische Entscheidung, die kontrovers diskutiert wird und wohl noch einige Zeit ungelöst bleiben dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland liegt das Wahlalter bei Bundestagswahlen aktuell bei 18 Jahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter meinen, junge Menschen seien von Politik kaum betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker verweisen auf die fehlende volle strafrechtliche Verantwortung bei 16-Jährigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In keinem Bundesland wurde das Wahlalter bisher gesenkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen, dass jüngere Wähler ihr Wahlrecht unüberlegter nutzen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "gig-economy-plattformarbeit",
+    "nivel": "B2",
+    "titulo": "Gig Economy und Plattformarbeit – Flexibilität um jeden Preis?",
+    "descripcion": "Eine Analyse der Chancen und Risiken der wachsenden Plattformarbeit.",
+    "texto": "Immer mehr Menschen verdienen ihren Lebensunterhalt über digitale Plattformen, die Fahrdienste, Essenslieferungen oder kleinere Aufträge vermitteln. Diese sogenannte Gig Economy wird von vielen als Ausdruck moderner Arbeitsflexibilität gefeiert, da sich Arbeitszeiten frei einteilen lassen und der Einstieg meist unkompliziert ist. Für Studierende oder Menschen, die neben einem anderen Job etwas hinzuverdienen möchten, scheint dieses Modell auf den ersten Blick attraktiv zu sein.\n\nBei genauerer Betrachtung zeigt sich jedoch, dass die vermeintliche Freiheit mit erheblichen Nachteilen erkauft wird. Viele Plattformarbeiter gelten rechtlich als Selbstständige, wodurch ihnen Absicherungen wie Krankenversicherung, bezahlter Urlaub oder eine Altersvorsorge fehlen, die Angestellte selbstverständlich in Anspruch nehmen können. Hinzu kommt, dass die Bezahlung oft von Algorithmen gesteuert wird, deren Kriterien für die Arbeitenden kaum nachvollziehbar sind, was zu einem Gefühl der Ohnmacht gegenüber der Plattform führen kann.\n\nIn mehreren europäischen Ländern wird deshalb diskutiert, wie Plattformarbeiter besser geschützt werden könnten, ohne dass die Flexibilität, die viele an diesem Modell schätzen, vollständig verloren geht. Ein möglicher Ansatz wäre die Einführung eines Zwischenstatus, der einige Arbeitnehmerrechte gewährt, ohne die Arbeitenden vollständig in ein klassisches Anstellungsverhältnis zu zwingen. Bis eine solche Lösung gesetzlich verankert wird, bleibt die Gig Economy ein Feld, in dem wirtschaftliche Effizienz und soziale Gerechtigkeit in einem ungelösten Spannungsverhältnis stehen.",
+    "preguntas": [
+      {
+        "enunciado": "In der Gig Economy vermitteln digitale Plattformen unter anderem Fahrdienste und Lieferungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Plattformarbeiter gelten meist rechtlich als fest angestellte Mitarbeiter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bezahlung wird häufig durch Algorithmen bestimmt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Plattformarbeiter haben in der Regel Anspruch auf bezahlten Urlaub wie Angestellte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Europa gibt es keinerlei Diskussion über einen besseren Schutz von Plattformarbeitern.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "waldbrandrisiko-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Waldbrandrisiko in Deutschland – Der Wald in Gefahr",
+    "descripcion": "Warum Waldbrände in Deutschland durch den Klimawandel zu einem wachsenden Problem werden.",
+    "texto": "Lange Zeit galten Waldbrände in Deutschland vor allem als ein Problem südeuropäischer Länder, das mit dem heimischen Wald wenig zu tun hatte. Diese Einschätzung hat sich in den vergangenen Jahren jedoch grundlegend geändert, seitdem auch deutsche Wälder zunehmend von langen Trockenperioden und Hitzewellen betroffen sind. Besonders in den brandenburgischen und sächsischen Kiefernwäldern, deren Bäume aufgrund monotoner Bepflanzung besonders anfällig sind, kommt es immer häufiger zu größeren Bränden.\n\nExperten weisen darauf hin, dass nicht nur der Klimawandel, sondern auch die Struktur vieler deutscher Wälder zur steigenden Brandgefahr beiträgt. Monokulturen aus schnell wachsenden Nadelbäumen, die im 20. Jahrhundert aus wirtschaftlichen Gründen angepflanzt wurden, trocknen deutlich schneller aus als naturnahe Mischwälder mit Laubbäumen. Sollten diese Wälder nicht in den kommenden Jahrzehnten umgebaut werden, dürfte sich das Risiko weiter erhöhen, wie zahlreiche Forstwissenschaftler warnen.\n\nAls Reaktion auf diese Entwicklung investieren einige Bundesländer inzwischen in modernere Löschtechnik, etwa in Löschflugzeuge und Drohnen zur frühzeitigen Branderkennung. Gleichzeitig setzen Forstbehörden verstärkt auf den Umbau der Wälder hin zu klimaresistenteren Mischbeständen, auch wenn dieser Prozess Jahrzehnte dauern wird. Ohne eine konsequente Kombination aus Prävention, technischer Ausstattung und langfristigem Waldumbau, so die einhellige Meinung von Fachleuten, würde sich die Situation in den kommenden trockenen Sommern eher verschärfen als entspannen.",
+    "preguntas": [
+      {
+        "enunciado": "Waldbrände wurden früher vor allem als Problem Südeuropas wahrgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Brandenburgische Kiefernwälder gelten als besonders widerstandsfähig gegen Feuer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Monokulturen aus Nadelbäumen trocknen schneller aus als Mischwälder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Einige Bundesländer investieren in Löschflugzeuge und Drohnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten erwarten, dass sich das Waldbrandrisiko ohne Maßnahmen von selbst verringert.",
+        "respuesta": false
+      }
+    ]
   }
 ]
