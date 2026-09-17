@@ -6019,6 +6019,20 @@ body:not(.premium-page):not(.home-page) .footer-bottom {
   }
 }
 
+@media (min-width: 641px) and (max-width: 860px) {
+  .home-hero-copy {
+    padding-right: clamp(240px, 34vw, 280px);
+  }
+
+  .home-hero-copy h1 {
+    font-size: clamp(3rem, 8vw, 4rem);
+  }
+
+  .home-hero-photo {
+    width: min(34%, 260px);
+  }
+}
+
 @media (max-width: 640px) {
   .home-hero {
     background:
