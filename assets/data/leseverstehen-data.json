@@ -17870,5 +17870,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-mutter",
+    "nivel": "A1",
+    "titulo": "Meine Mutter",
+    "descripcion": "Ein Kind beschreibt seine Mutter und ihren Tag.",
+    "texto": "Meine Mutter heißt Claudia. Sie ist vierzig Jahre alt. Sie arbeitet in einer Bäckerei. Jeden Morgen steht sie früh auf. Sie macht Kaffee und Brot für die Familie.\n\nMeine Mutter hat braune Haare und blaue Augen. Sie ist sehr freundlich. Am Nachmittag kocht sie das Abendessen. Ich helfe ihr gerne in der Küche.\n\nAm Wochenende macht meine Mutter keine Arbeit. Sie liest ein Buch oder geht spazieren. Ich liebe meine Mutter sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mutter heißt Claudia.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie arbeitet in einer Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat braune Haare.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Kind hilft nie in der Küche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Wochenende arbeitet sie nicht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-herbst",
+    "nivel": "A1",
+    "titulo": "Der Herbst",
+    "descripcion": "Ein kurzer Text über den Herbst und seine Farben.",
+    "texto": "Der Herbst ist eine Jahreszeit. Im Herbst werden die Blätter gelb, rot und braun. Die Tage sind kürzer und die Nächte länger. Es ist oft windig und kühl.\n\nIm Garten sammeln wir Äpfel und Kürbisse. Die Kinder spielen gerne mit den bunten Blättern. Manchmal regnet es viel im Herbst.\n\nIch trage im Herbst eine Jacke und eine Mütze. Mein Lieblingsgetränk im Herbst ist heißer Tee.",
+    "preguntas": [
+      {
+        "enunciado": "Im Herbst werden die Blätter bunt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tage werden im Herbst länger.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Garten sammelt man Äpfel und Kürbisse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es ist im Herbst immer sehr heiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Lieblingsgetränk ist heißer Tee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-schreibtisch",
+    "nivel": "A1",
+    "titulo": "Mein Schreibtisch",
+    "descripcion": "Ein Kind beschreibt seinen Schreibtisch und was darauf liegt.",
+    "texto": "Ich habe einen Schreibtisch in meinem Zimmer. Der Schreibtisch ist braun und nicht sehr groß. Auf dem Schreibtisch liegen meine Bücher und ein Bleistift.\n\nLinks steht eine kleine Lampe. Rechts liegt mein Heft für die Schule. In der Schublade sind Stifte, ein Radiergummi und ein Lineal.\n\nIch sitze jeden Tag an meinem Schreibtisch und mache meine Hausaufgaben. Danach räume ich den Schreibtisch auf.",
+    "preguntas": [
+      {
+        "enunciado": "Der Schreibtisch ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem Schreibtisch liegen Bücher.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Links steht eine kleine Lampe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Schublade ist nur ein Buch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Kind macht dort Hausaufgaben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungsbesichtigung",
+    "nivel": "A2",
+    "titulo": "Die Wohnungsbesichtigung",
+    "descripcion": "Ein Paar besichtigt eine neue Wohnung und muss sich entscheiden.",
+    "texto": "Letzte Woche haben Mira und Paul eine Wohnung besichtigt. Sie haben schon lange nach einer neuen Wohnung gesucht, weil ihre alte Wohnung zu klein war. Die neue Wohnung hatte zwei Zimmer, eine Küche und einen kleinen Balkon.\n\nDer Vermieter hat ihnen alles gezeigt. Er hat erklärt, dass die Miete dreihundert Euro pro Monat kostet. Mira fand die Wohnung schön, aber Paul dachte, dass die Küche zu klein war. Sie haben lange diskutiert.\n\nAm Ende haben sie sich für die Wohnung entschieden, weil der Balkon so groß war. Nächste Woche unterschreiben sie den Mietvertrag.",
+    "preguntas": [
+      {
+        "enunciado": "Mira und Paul haben eine Wohnung besichtigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die alte Wohnung war zu groß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Miete kostet dreihundert Euro im Monat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul fand die Küche perfekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben sich für die Wohnung entschieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-mit-der-vermieterin",
+    "nivel": "A2",
+    "titulo": "Der Streit mit der Vermieterin",
+    "descripcion": "Ein Mieter hat Probleme mit seiner Vermieterin wegen der Heizung.",
+    "texto": "Herr Bauer wohnt seit drei Jahren in einer Wohnung in Leipzig. Im Winter war die Heizung kaputt, und in der Wohnung war es sehr kalt. Er hat seine Vermieterin sofort angerufen, aber sie hat nicht reagiert.\n\nNach zwei Wochen hat Herr Bauer einen Brief geschrieben, weil er die Situation nicht mehr aushalten konnte. In dem Brief hat er erklärt, dass er ohne Heizung nicht leben kann. Die Vermieterin war böse, weil sie den Brief bekommen hat.\n\nSchließlich hat sie einen Handwerker geschickt. Die Heizung wurde repariert, und Herr Bauer war froh, dass es endlich wieder warm war.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Bauer wohnt in Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Heizung hat im Sommer nicht funktioniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Vermieterin hat sofort reagiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Bauer hat einen Brief geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende wurde die Heizung repariert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-kurpark",
+    "nivel": "A2",
+    "titulo": "Ein Tag im Kurpark",
+    "descripcion": "Eine Familie verbringt einen entspannten Tag im Kurpark.",
+    "texto": "Am Sonntag ist Familie Weber in den Kurpark gefahren, weil das Wetter so schön war. Der Kurpark liegt außerhalb der Stadt und hat viele Bäume und einen kleinen See.\n\nDie Kinder sind auf dem Spielplatz gespielt, während die Eltern auf einer Bank gesessen und ein Buch gelesen haben. Später haben sie ein Picknick gemacht und Kuchen gegessen. Es war so ruhig, dass sie fast eingeschlafen sind.\n\nAm Abend sind sie müde, aber zufrieden nach Hause gefahren. Sie haben beschlossen, öfter in den Kurpark zu fahren.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Weber ist am Sonntag in den Kurpark gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kurpark liegt mitten in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben auf dem Spielplatz gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben kein Picknick gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie will öfter in den Kurpark fahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vorbereitung-auf-eine-sprachpruefung",
+    "nivel": "B1",
+    "titulo": "Die Vorbereitung auf eine Sprachprüfung",
+    "descripcion": "Ein Student bereitet sich intensiv auf eine wichtige Deutschprüfung vor.",
+    "texto": "Tomás lernt seit zwei Jahren Deutsch und möchte bald die Prüfung auf dem Niveau B2 ablegen. Obwohl er schon viel Wortschatz kennt, hat er immer noch Angst vor dem mündlichen Teil der Prüfung. Deshalb übt er jeden Tag mit einem Sprachpartner.\n\nNachdem er drei Monate lang jeden Abend eine Stunde gelernt hatte, fühlte er sich sicherer. Trotzdem war er am Tag der Prüfung sehr nervös. Er musste einen Text hören, einen Aufsatz schreiben und ein Gespräch führen.\n\nAls das Ergebnis endlich kam, konnte Tomás es kaum glauben: Er hatte bestanden! Er war stolz auf sich, weil er trotz aller Zweifel durchgehalten hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Tomás lernt seit zwei Jahren Deutsch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat keine Angst vor dem mündlichen Teil.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er hat drei Monate lang jeden Abend gelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Prüfungstag war er völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tomás hat die Prüfung bestanden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-des-studienfachs",
+    "nivel": "B1",
+    "titulo": "Der Wechsel des Studienfachs",
+    "descripcion": "Eine Studentin entscheidet sich, ihr Studienfach zu wechseln.",
+    "texto": "Julia hat vor zwei Jahren angefangen, Chemie zu studieren, weil ihre Eltern es ihr empfohlen hatten. Nachdem sie mehrere Prüfungen nicht bestanden hatte, merkte sie, dass sie das Fach eigentlich nicht mochte. Trotzdem hatte sie lange Angst, etwas zu ändern.\n\nSchließlich sprach sie mit einer Studienberaterin, die ihr half, über ihre Interessen nachzudenken. Julia entdeckte, dass sie sich schon immer für Psychologie interessiert hatte. Obwohl der Wechsel viel Papierkram bedeutete, entschied sie sich mutig dafür.\n\nHeute studiert Julia im dritten Semester Psychologie und ist viel glücklicher. Sie sagt, dass der Wechsel die beste Entscheidung ihres Lebens war.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat zuerst Chemie studiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hat alle Prüfungen sofort bestanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Studienberaterin hat ihr geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wechsel bedeutete keinen Papierkram.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist heute glücklicher als vorher.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-zu-einem-filmfestival",
+    "nivel": "B1",
+    "titulo": "Die Reise zu einem Filmfestival",
+    "descripcion": "Zwei Freunde reisen zu einem bekannten Filmfestival und erleben einiges.",
+    "texto": "Marco und Sina interessieren sich sehr für Filme, deshalb sind sie zusammen zu einem Filmfestival in Berlin gereist. Sie hatten sich schon Wochen vorher Karten für mehrere Filme gekauft, weil die Vorstellungen sehr schnell ausverkauft waren.\n\nAm ersten Tag sahen sie einen Dokumentarfilm über den Klimawandel, der sie sehr beeindruckte. Nachdem der Film zu Ende war, diskutierten sie stundenlang darüber. Am zweiten Tag trafen sie sogar zufällig einen bekannten Regisseur, mit dem sie ein Foto machen durften.\n\nObwohl das Festival anstrengend war, weil sie jeden Tag mehrere Filme sahen, war es eine unvergessliche Erfahrung. Sie planen bereits, nächstes Jahr wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Marco und Sina sind zu einem Filmfestival gereist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben die Karten erst am Festivaltag gekauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Dokumentarfilm handelte vom Klimawandel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben keinen Regisseur getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie wollen nächstes Jahr wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kernenergie-comeback",
+    "nivel": "B2",
+    "titulo": "Kernenergie – Comeback einer umstrittenen Technologie",
+    "descripcion": "Ein Essay über die neue Debatte um Kernenergie in Europa.",
+    "texto": "Lange Zeit galt die Kernenergie in vielen europäischen Ländern als Auslaufmodell. Nach Reaktorunfällen wie in Tschernobyl und Fukushima wurden zahlreiche Kraftwerke abgeschaltet, und die öffentliche Meinung war überwiegend ablehnend. Angesichts der Klimakrise und steigender Energiepreise wird die Technologie jedoch von manchen Politikern wieder als mögliche Lösung diskutiert.\n\nBefürworter argumentieren, dass Kernkraftwerke im Vergleich zu fossilen Kraftwerken kaum CO2 ausstoßen und somit einen wichtigen Beitrag zum Klimaschutz leisten könnten. Kritiker hingegen verweisen auf die ungelöste Frage der Endlagerung radioaktiven Abfalls sowie auf die enormen Baukosten neuer Anlagen, die sich oft über Jahrzehnte hinziehen. Würde man stattdessen in erneuerbare Energien investieren, ließe sich das Geld möglicherweise effizienter einsetzen.\n\nDie Debatte zeigt, wie schwierig es ist, kurzfristige Versorgungssicherheit mit langfristiger Nachhaltigkeit in Einklang zu bringen. Eine endgültige Lösung ist derzeit nicht in Sicht, und die Meinungen innerhalb der EU gehen weiterhin stark auseinander.",
+    "preguntas": [
+      {
+        "enunciado": "Nach Fukushima wurden viele Kraftwerke abgeschaltet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kernenergie wird derzeit nirgendwo mehr diskutiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter betonen den geringen CO2-Ausstoß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frage der Endlagerung gilt als vollständig gelöst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Innerhalb der EU herrscht Einigkeit über das Thema.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "recht-auf-vergessenwerden",
+    "nivel": "B2",
+    "titulo": "Das Recht auf Vergessenwerden im Internet",
+    "descripcion": "Ein Text über das umstrittene digitale Recht, persönliche Daten löschen zu lassen.",
+    "texto": "Im digitalen Zeitalter bleiben Informationen oft für immer im Internet sichtbar, selbst wenn sie längst veraltet oder für die betroffene Person unangenehm sind. Das sogenannte Recht auf Vergessenwerden erlaubt es Nutzern in der Europäischen Union, unter bestimmten Voraussetzungen zu verlangen, dass Suchmaschinen bestimmte Links zu ihrer Person entfernen.\n\nBefürworter sehen darin einen wichtigen Schutz der Privatsphäre, der es Menschen ermöglicht, sich von Fehlern der Vergangenheit zu distanzieren. Wenn beispielsweise ein Bericht über eine Jugendsünde jahrelang bei jeder Suche erscheint, könne dies das berufliche und private Leben erheblich beeinträchtigen. Journalisten und Meinungsfreiheitsorganisationen hingegen warnen, dass dieses Recht missbraucht werden könnte, um unbequeme, aber wahre Berichterstattung verschwinden zu lassen.\n\nGerichte müssen daher in jedem Einzelfall abwägen, ob das öffentliche Interesse an einer Information schwerer wiegt als das Interesse der betroffenen Person an deren Löschung. Diese Abwägung bleibt eine der komplexesten Herausforderungen des modernen Datenschutzrechts.",
+    "preguntas": [
+      {
+        "enunciado": "Das Recht auf Vergessenwerden existiert nur außerhalb der EU.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es erlaubt, bestimmte Suchmaschinenlinks entfernen zu lassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten einen möglichen Missbrauch des Rechts.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gerichte entscheiden immer automatisch zugunsten der Löschung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Abwägung zwischen öffentlichem Interesse und Privatsphäre gilt als einfach.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "trinkgeld-debatte",
+    "nivel": "B2",
+    "titulo": "Trinkgeld – Zwischen Wertschätzung und Ausbeutung",
+    "descripcion": "Eine Analyse der Trinkgeldkultur und ihrer Rolle in der Gastronomie.",
+    "texto": "In vielen Ländern gehört Trinkgeld selbstverständlich zum Restaurantbesuch dazu, doch die Höhe und die Erwartungen unterscheiden sich stark. Während in manchen Kulturen ein kleines Trinkgeld als höflich gilt, wird es andernorts fast als Pflicht angesehen, ohne die Bedienung kaum ein angemessenes Einkommen erzielen könnte.\n\nKritiker dieser Praxis argumentieren, dass Trinkgeld letztlich ein Vorwand sei, mit dem Arbeitgeber niedrige Löhne rechtfertigen. Wenn das Einkommen eines Angestellten von der Laune und Großzügigkeit der Gäste abhängt, entstehe eine unsichere und oft ungerechte Situation, die insbesondere Frauen und Minderheiten benachteiligen könne. Befürworter hingegen betonen, dass Trinkgeld eine direkte Form der Wertschätzung für guten Service darstelle und den Angestellten einen Anreiz biete, sich besonders anzustrengen.\n\nEinige Restaurants experimentieren mittlerweile mit einem Servicezuschlag, der fest in die Rechnung eingerechnet wird, um dieses System zu ersetzen. Ob sich ein solches Modell langfristig durchsetzen wird, bleibt jedoch fraglich, da es sowohl bei Gästen als auch beim Personal auf gemischte Reaktionen stößt.",
+    "preguntas": [
+      {
+        "enunciado": "Trinkgeldhöhe und Erwartungen sind weltweit einheitlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen im Trinkgeld einen Vorwand für niedrige Löhne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter betonen die Wertschätzung durch Trinkgeld.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kein Restaurant experimentiert mit einem festen Servicezuschlag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Servicezuschlag-Modell stößt auf gemischte Reaktionen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
