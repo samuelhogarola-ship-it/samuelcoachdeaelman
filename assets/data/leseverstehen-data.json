@@ -17174,5 +17174,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "die-eisdiele",
+    "nivel": "A1",
+    "titulo": "Die Eisdiele",
+    "descripcion": "Lisa und ihr kleiner Bruder gehen im Sommer in die Eisdiele.",
+    "texto": "Es ist Sommer und die Sonne scheint. Lisa und ihr kleiner Bruder Tom gehen zur Eisdiele. Die Eisdiele ist um die Ecke. Dort gibt es viele Sorten Eis: Schokolade, Erdbeere, Vanille und Zitrone.\n\nLisa nimmt zwei Kugeln Schokolade. Tom mag Erdbeere und Vanille. Sie setzen sich auf eine Bank vor der Eisdiele. „Das Eis ist sehr lecker\", sagt Tom. Lisa lacht und isst schnell, weil das Eis in der Sonne schmilzt.\n\nNach dem Eis gehen Lisa und Tom zum Spielplatz. Sie spielen dort eine Stunde. Dann gehen sie zusammen nach Hause. Es war ein schöner Nachmittag.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa und Tom gehen im Winter in die Eisdiele.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Eisdiele gibt es viele Eissorten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom nimmt Erdbeere und Vanille.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie essen das Eis im Auto.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Eis gehen sie zum Spielplatz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schulhof-in-der-pause",
+    "nivel": "A1",
+    "titulo": "Der Schulhof in der Pause",
+    "descripcion": "In der Pause spielen die Kinder auf dem Schulhof.",
+    "texto": "Die Pause beginnt und alle Kinder laufen auf den Schulhof. Der Schulhof ist groß und hat einen Ball, eine Schaukel und eine Bank. Paul und seine Freunde spielen Fußball. Mia sitzt mit ihrer Freundin auf der Bank und isst einen Apfel.\n\n„Kommst du mit zur Schaukel?\", fragt Mia. Ihre Freundin nickt und beide gehen zur Schaukel. Paul schießt ein Tor und alle Kinder jubeln. Die Pause macht allen sehr viel Spaß.\n\nNach zehn Minuten klingelt es. Die Kinder gehen zurück ins Klassenzimmer. Der Unterricht beginnt wieder.",
+    "preguntas": [
+      {
+        "enunciado": "Der Schulhof hat einen Ball und eine Schaukel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul spielt in der Pause Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia isst eine Banane.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Pause dauert eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Pause beginnt der Unterricht wieder.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vogelfuetterung-im-winter",
+    "nivel": "A1",
+    "titulo": "Die Vogelfütterung im Winter",
+    "descripcion": "Im Winter füttert Familie Berger die Vögel im Garten.",
+    "texto": "Im Winter ist es kalt und die Vögel finden wenig Futter. Familie Berger hat ein Vogelhaus im Garten. Jeden Morgen füllt der kleine Ben das Vogelhaus mit Körnern. Die Vögel kommen schnell und picken das Futter.\n\n„Schau, ein roter Vogel!\", ruft Ben und zeigt auf einen Rotkehlchen. Seine Schwester Emma bringt auch Wasser für die Vögel. Sie stellen eine kleine Schale neben das Vogelhaus.\n\nJeden Tag beobachten Ben und Emma die Vögel vom Fenster aus. Sie zählen, wie viele Vögel kommen. Heute sind es sieben Vögel. Das macht ihnen großen Spaß.",
+    "preguntas": [
+      {
+        "enunciado": "Im Winter finden die Vögel viel Futter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben füllt jeden Morgen das Vogelhaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma bringt Wasser für die Vögel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder beobachten die Vögel vom Balkon.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Heute kommen sieben Vögel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-abend-im-freilichtkino",
+    "nivel": "A2",
+    "titulo": "Ein Abend im Freilichtkino",
+    "descripcion": "Nina und ihre Freunde besuchen im Sommer ein Freilichtkino im Park.",
+    "texto": "Letzten Freitag hat Nina mit ihren Freunden das Freilichtkino im Stadtpark besucht. Weil das Wetter warm und trocken war, sind viele Menschen gekommen. Nina und ihre Freunde haben Decken mitgebracht und sich auf die Wiese gesetzt.\n\nDer Film hat um halb neun begonnen, als es langsam dunkel wurde. Es war eine romantische Komödie, und alle haben viel gelacht. In der Pause haben sie Popcorn und Getränke an einem kleinen Stand gekauft. Nina fand die Atmosphäre besonders schön, weil man den Sternenhimmel über der Leinwand sehen konnte.\n\nNach dem Film sind sie noch ein bisschen im Park geblieben und haben über die Geschichte gesprochen. „Das war viel schöner als ein normales Kino\", hat Nina gesagt. Ihre Freunde haben sofort zugestimmt, und sie haben beschlossen, im nächsten Sommer wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Wetter war kalt und regnerisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina und ihre Freunde haben Decken mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Film war ein Actionfilm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Pause haben sie Popcorn gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie wollen im nächsten Sommer wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-wanderung-im-odenwald",
+    "nivel": "A2",
+    "titulo": "Eine Wanderung im Odenwald",
+    "descripcion": "Familie Weber macht am Wochenende eine Wanderung im Odenwald.",
+    "texto": "Am Samstag ist Familie Weber früh aufgestanden, weil sie eine Wanderung im Odenwald geplant hatten. Sie sind mit dem Auto bis zu einem kleinen Dorf gefahren und haben dort den Wanderweg gesucht. Der Weg führte durch einen dichten Wald und an einem alten Schloss vorbei.\n\nNach zwei Stunden haben sie eine Pause an einem Bach gemacht und ihr mitgebrachtes Brot gegessen. Die Kinder haben Steine gesammelt und im Wasser gespielt, während die Eltern sich ausgeruht haben. Weil der Himmel plötzlich grau wurde, sind sie schneller weitergegangen.\n\nAls sie zum Auto zurückkamen, hat es leicht zu regnen begonnen. „Wir hatten Glück mit dem Timing\", hat Herr Weber gelacht. Alle waren müde, aber zufrieden mit dem schönen Ausflug in der Natur.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist mit dem Zug gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Wanderweg führte an einem alten Schloss vorbei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben im Bach gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Himmel blieb den ganzen Tag blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Als sie zum Auto kamen, hat es geregnet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-sonnenbrille-im-urlaub",
+    "nivel": "A2",
+    "titulo": "Die verlorene Sonnenbrille im Urlaub",
+    "descripcion": "Im Urlaub am Meer verliert Jonas seine Sonnenbrille und sucht sie überall.",
+    "texto": "Jonas war mit seiner Familie im Urlaub an der Adria. Am dritten Tag hat er bemerkt, dass seine Sonnenbrille weg war. Er hat sie beim Frühstück noch auf dem Tisch liegen gehabt, aber danach war sie plötzlich verschwunden.\n\nWeil die Sonnenbrille ein Geschenk von seinem Opa war, wollte Jonas sie unbedingt wiederfinden. Er ist zurück zum Strand gegangen und hat im Sand gesucht. Er hat auch das Hotelpersonal gefragt, ob jemand eine Sonnenbrille gefunden hat. Am Nachmittag hat eine Kellnerin die Brille im Strandrestaurant gefunden, wo Jonas sie beim Mittagessen vergessen hatte.\n\n„Ich bin so froh, dass ich sie wiederhabe\", hat Jonas erleichtert gesagt. Seine Eltern haben sich gefreut, dass die Geschichte gut ausgegangen ist. Den Rest des Urlaubs hat Jonas besser auf seine Sachen aufgepasst.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas war mit seiner Familie in den Bergen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Sonnenbrille war ein Geschenk von seinem Opa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat die Brille beim Frühstück verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kellnerin hat die Brille gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat danach besser auf seine Sachen aufgepasst.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-reise-zu-verwandten-in-kanada",
+    "nivel": "B1",
+    "titulo": "Eine Reise zu Verwandten in Kanada",
+    "descripcion": "Lukas besucht zum ersten Mal seine Verwandten in Kanada und erlebt ein anderes Leben.",
+    "texto": "Lukas hatte seine Cousine Sarah, die in Kanada lebt, noch nie persönlich getroffen, obwohl sie seit Jahren regelmäßig geschrieben hatten. Als seine Eltern ihm eine Reise nach Vancouver schenkten, konnte er es kaum glauben. Nachdem er zehn Stunden geflogen war, wartete Sarah bereits mit einem Schild am Flughafen auf ihn.\n\nDie ersten Tage waren für Lukas ungewohnt, weil vieles anders war als zu Hause. Die Häuser waren aus Holz gebaut, die Entfernungen waren riesig, und selbst kleine Wege legte man mit dem Auto zurück. Trotzdem fühlte er sich schnell wohl, weil die Familie ihn herzlich aufnahm und ihm die Stadt zeigte. Besonders beeindruckt war er von den Bergen, die man direkt aus der Innenstadt sehen konnte.\n\nAm letzten Abend saßen alle zusammen am Feuer im Garten, und Lukas erzählte von seinem Leben in Deutschland. Er merkte, dass er trotz der Entfernung eine enge Verbindung zu seiner Familie spürte. Beim Abschied versprach er, bald wiederzukommen, und Sarah plante schon ihren Gegenbesuch für das nächste Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas hatte Sarah vor der Reise schon oft persönlich getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah wartete mit einem Schild am Flughafen auf ihn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Vancouver legte man kleine Wege meistens zu Fuß zurück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas war beeindruckt von den Bergen bei der Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah plante keinen Gegenbesuch in Deutschland.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-vom-gymnasium-zur-gesamtschule",
+    "nivel": "B1",
+    "titulo": "Der Wechsel vom Gymnasium zur Gesamtschule",
+    "descripcion": "Marie wechselt mitten im Schuljahr vom Gymnasium zur Gesamtschule und muss sich neu einleben.",
+    "texto": "Marie besuchte seit der fünften Klasse ein Gymnasium, obwohl sie sich dort nie richtig wohlgefühlt hatte. Der Druck war groß, und sie hatte kaum Zeit für ihre Hobbys. Nachdem sie lange mit ihren Eltern gesprochen hatte, entschieden sie sich gemeinsam für einen Wechsel zur Gesamtschule in ihrer Stadt.\n\nDer erste Tag an der neuen Schule war aufregend, weil alles anders organisiert war. Die Klassen waren gemischter, und der Unterricht fand oft in Projektform statt. Obwohl Marie anfangs niemanden kannte, fand sie schnell Anschluss, weil eine Mitschülerin sie in der Pause ansprach. Gemeinsam gingen sie in die Cafeteria und tauschten sich über ihre alten Schulen aus.\n\nNach ein paar Wochen merkte Marie, dass sie sich an der Gesamtschule viel entspannter fühlte. Sie hatte wieder Zeit für ihr Hobby, das Klavierspielen, und ihre Noten wurden sogar besser. Trotzdem vermisste sie manchmal ihre alten Freunde vom Gymnasium und traf sich weiterhin regelmäßig mit ihnen.",
+    "preguntas": [
+      {
+        "enunciado": "Marie fühlte sich am Gymnasium immer sehr wohl.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie entschied gemeinsam über den Schulwechsel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "An der Gesamtschule fand der Unterricht oft in Projektform statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie fand an der neuen Schule keine neuen Kontakte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marie traf sich nach dem Wechsel nie wieder mit ihren alten Freunden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vorbereitung-auf-einen-triathlon",
+    "nivel": "B1",
+    "titulo": "Die Vorbereitung auf einen Triathlon",
+    "descripcion": "Tobias trainiert monatelang für seinen ersten Triathlon und lernt dabei viel über Disziplin.",
+    "texto": "Tobias hatte sich vorgenommen, an seinem ersten Triathlon teilzunehmen, obwohl er vorher noch nie eine solche Distanz geschwommen war. Er meldete sich für einen Kurs im Schwimmbad an und begann, dreimal pro Woche zu trainieren. Nachdem er die ersten Trainingseinheiten überstanden hatte, merkte er, dass ihm vor allem das Radfahren schwerfiel.\n\nIm Laufe der Monate stellte er sich einen genauen Trainingsplan zusammen, der Schwimmen, Radfahren und Laufen kombinierte. Trotzdem gab es Tage, an denen er am liebsten aufgegeben hätte, weil der Muskelkater und die Müdigkeit zu groß waren. Sein bester Freund motivierte ihn immer wieder und begleitete ihn bei einigen Läufen, was Tobias sehr half.\n\nAm Tag des Wettkampfs war Tobias nervös, aber auch stolz auf seine Vorbereitung. Nachdem er das Ziel erreicht hatte, umarmte er seinen Freund und konnte sein Glück kaum fassen. Er wusste, dass er nicht die schnellste Zeit erreicht hatte, aber die monatelange Disziplin hatte sich für ihn trotzdem gelohnt.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias war vor dem Training bereits ein erfahrener Schwimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Radfahren fiel Tobias besonders schwer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sein bester Freund half ihm bei der Motivation.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias hat den Wettkampf ohne jede Nervosität begonnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hatte am Ende die schnellste Zeit des Wettkampfs.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "veganismus-ethischer-fortschritt-oder-lifestyle-trend",
+    "nivel": "B2",
+    "titulo": "Veganismus – Ethischer Fortschritt oder Lifestyle-Trend?",
+    "descripcion": "Ein Blick auf die gesellschaftliche Debatte um pflanzliche Ernährung, ihre Motive und Widersprüche.",
+    "texto": "Immer mehr Menschen in Deutschland verzichten bewusst auf tierische Produkte. Während vegane Ernährung vor zwei Jahrzehnten noch als Randerscheinung galt, wäre es heute kaum vorstellbar, dass ein Supermarkt kein pflanzliches Sortiment anbietet. Befürworter argumentieren, dass der Verzicht auf Fleisch, Milch und Eier nicht nur dem Tierwohl diene, sondern auch einen wichtigen Beitrag zum Klimaschutz leiste, da die Tierhaltung für einen erheblichen Anteil der globalen Treibhausgasemissionen verantwortlich gemacht wird.\n\nKritiker hingegen weisen darauf hin, dass Veganismus zunehmend kommerzialisiert werde und der ursprüngliche ethische Anspruch dabei verloren gehe. Hochverarbeitete Fleischersatzprodukte, die in Plastik verpackt und über weite Strecken transportiert würden, seien ökologisch keineswegs automatisch überlegen, selbst wenn sie ohne tierische Zutaten hergestellt würden. Manche Ernährungswissenschaftler betonen zudem, dass eine rein pflanzliche Ernährung nur dann gesundheitlich unbedenklich sei, wenn sie gut geplant und gegebenenfalls durch Nahrungsergänzungsmittel wie Vitamin B12 ergänzt werde.\n\nUnabhängig von der individuellen Entscheidung zeigt sich, dass die Debatte längst über die reine Ernährungsfrage hinausgeht. Sie berührt grundsätzliche Fragen nach Konsumverhalten, gesellschaftlicher Verantwortung und dem Verhältnis des Menschen zu Tieren. Ob Veganismus tatsächlich einen nachhaltigen Wandel bewirken kann oder lediglich ein vorübergehender Trend bleibt, dürfte sich erst in den kommenden Jahrzehnten zeigen, wenn sich abzeichnet, ob aus einer Nische tatsächlich ein Massenphänomen geworden ist.",
+    "preguntas": [
+      {
+        "enunciado": "Vegane Ernährung galt vor zwanzig Jahren bereits als weit verbreitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen im Veganismus auch einen Beitrag zum Klimaschutz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker halten alle veganen Fertigprodukte automatisch für ökologisch überlegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Ernährungswissenschaftler empfehlen bei rein pflanzlicher Ernährung Nahrungsergänzungsmittel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist die Debatte bereits eindeutig entschieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "elterngeld-fuer-vaeter-gleichberechtigung-in-der-familie",
+    "nivel": "B2",
+    "titulo": "Elterngeld für Väter – Gleichberechtigung in der Familie",
+    "descripcion": "Eine Analyse darüber, warum immer noch wenige Väter Elternzeit nehmen und was sich ändern müsste.",
+    "texto": "Obwohl das Elterngeld in Deutschland seit über fünfzehn Jahren auch Vätern die Möglichkeit gibt, sich aktiv an der Betreuung ihrer Kinder zu beteiligen, nehmen nach wie vor deutlich mehr Mütter als Väter längere Elternzeiten in Anspruch. Väter beschränken sich häufig auf die sogenannten „Partnermonate\", die meist nur zwei Monate umfassen, während Mütter oft über ein Jahr zu Hause bleiben. Diese Verteilung hat langfristige Folgen für die berufliche Entwicklung beider Elternteile.\n\nExperten führen mehrere Gründe für dieses Ungleichgewicht an. Zum einen verdienen Männer in vielen Partnerschaften nach wie vor mehr als Frauen, sodass ein längerer Ausfall des väterlichen Einkommens finanziell schwerer wiegt. Zum anderen bestehe in vielen Unternehmen noch immer eine Kultur, in der Väter, die eine längere Auszeit nehmen wollten, mit Unverständnis oder sogar beruflichen Nachteilen rechnen müssten. Befürworter einer Reform fordern deshalb, dass ein größerer Anteil des Elterngeldes verpflichtend für Väter reserviert werden sollte, wie es in einigen skandinavischen Ländern bereits praktiziert wird.\n\nGegner einer solchen Regelung warnen jedoch davor, Familien staatlich zu bevormunden, und plädieren stattdessen für mehr Wahlfreiheit. Sie argumentieren, dass jede Familie selbst am besten entscheiden könne, wie sie die Kinderbetreuung organisiere. Klar ist jedoch, dass sich an der aktuellen Verteilung nur dann etwas ändern dürfte, wenn sowohl gesetzliche Anreize als auch ein gesellschaftliches Umdenken in den Unternehmen zusammenkämen.",
+    "preguntas": [
+      {
+        "enunciado": "Väter nehmen im Durchschnitt genauso lange Elternzeit wie Mütter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Grund für das Ungleichgewicht ist laut Text das oft höhere Einkommen der Männer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In einigen skandinavischen Ländern wird bereits ein Teil des Elterngeldes für Väter reserviert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten im Text lehnen eine feste Väterquote beim Elterngeld ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, dass Unternehmenskultur keinen Einfluss auf die Entscheidung von Vätern hat.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wearables-und-selbstoptimierung-der-vermessene-mensch",
+    "nivel": "B2",
+    "titulo": "Wearables und Selbstoptimierung – Der vermessene Mensch",
+    "descripcion": "Ein Beitrag über Fitnessarmbänder, Gesundheits-Apps und den Trend zur permanenten Selbstvermessung.",
+    "texto": "Millionen Menschen tragen mittlerweile Smartwatches oder Fitnessarmbänder, die den Puls, die Schlafqualität und die täglichen Schritte aufzeichnen. Was ursprünglich vor allem von Sportlern genutzt wurde, ist längst im Alltag der breiten Bevölkerung angekommen. Die Hersteller versprechen, dass ein besseres Verständnis des eigenen Körpers zu einem gesünderen Lebensstil führe, und tatsächlich berichten viele Nutzer, dass sie sich durch die ständige Rückmeldung motivierter fühlten, sich mehr zu bewegen.\n\nKritische Stimmen weisen jedoch darauf hin, dass die permanente Selbstvermessung auch negative Folgen haben könne. Wenn jede Nacht in Schlafphasen zerlegt und jeder Schritt gezählt werde, entstehe bei manchen Menschen ein Gefühl des ständigen Leistungsdrucks, das paradoxerweise zu mehr statt weniger Stress führe. Psychologen sprechen in diesem Zusammenhang von einer Ökonomisierung des Körpers, bei der Gesundheit zu einer messbaren Kennzahl werde, die es zu optimieren gelte, anstatt sie als selbstverständlichen Teil des Lebens zu betrachten.\n\nEin weiterer Aspekt betrifft den Umgang mit den gesammelten Daten. Da Gesundheitsdaten zu den sensibelsten persönlichen Informationen zählen, wird immer wieder gefordert, dass Hersteller strengere Datenschutzstandards einhalten müssten. Ob die Vorteile der Selbstvermessung ihre Risiken tatsächlich überwiegen, hängt letztlich davon ab, ob es gelingt, die Technologie so zu gestalten, dass sie den Menschen unterstützt, ohne ihn dem Diktat der Zahlen zu unterwerfen.",
+    "preguntas": [
+      {
+        "enunciado": "Wearables wurden ursprünglich vor allem von Sportlern genutzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text berichten alle Nutzer ausschließlich von negativen Erfahrungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Psychologen sehen in der Selbstvermessung eine Ökonomisierung des Körpers.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gesundheitsdaten gelten im Text als besonders unproblematisch für den Datenschutz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text kommt zu einem eindeutigen, abschließenden Urteil über Wearables.",
+        "respuesta": false
+      }
+    ]
   }
 ]
