@@ -17522,5 +17522,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-sonntagmorgen",
+    "nivel": "A1",
+    "titulo": "Der Sonntagmorgen",
+    "descripcion": "Lena erzählt, was sie jeden Sonntagmorgen macht.",
+    "texto": "Lena steht am Sonntag spät auf. Sie schläft bis neun Uhr. Danach macht sie Frühstück für die Familie.\n\nEs gibt Brötchen, Marmelade und Kaffee. Lenas Bruder trinkt Kakao. Die Familie sitzt lange am Tisch und spricht.\n\nNach dem Frühstück geht Lena mit dem Hund spazieren. Der Park ist ruhig und grün. Am Nachmittag liest sie ein Buch auf dem Sofa.",
+    "preguntas": [
+      {
+        "enunciado": "Lena steht am Sonntag sehr früh auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt Brötchen und Marmelade zum Frühstück.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas Bruder trinkt Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena geht mit dem Hund spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag liest Lena ein Buch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-katze-meiner-nachbarin",
+    "nivel": "A1",
+    "titulo": "Die Katze meiner Nachbarin",
+    "descripcion": "Ein kurzer Text über eine freundliche Katze.",
+    "texto": "Meine Nachbarin heißt Frau Berger. Sie hat eine Katze. Die Katze heißt Mimi und ist grau und weiß.\n\nMimi sitzt oft vor der Tür. Sie schläft gern in der Sonne. Jeden Morgen kommt Mimi in unseren Garten.\n\nIch gebe Mimi manchmal Milch. Meine Schwester spielt gern mit ihr. Mimi ist sehr freundlich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Nachbarin heißt Frau Berger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Katze heißt Bella.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi schläft gern in der Sonne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi kommt nie in den Garten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Katze ist sehr freundlich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenendeinkauf",
+    "nivel": "A1",
+    "titulo": "Der Wochenendeinkauf",
+    "descripcion": "Paul kauft am Samstag Lebensmittel für die Woche ein.",
+    "texto": "Paul geht am Samstag einkaufen. Er nimmt eine Einkaufsliste mit. Auf der Liste stehen Brot, Käse, Äpfel und Milch.\n\nDer Supermarkt ist groß. Paul sucht das Gemüse und legt Tomaten und Karotten in den Wagen. An der Kasse bezahlt er mit Karte.\n\nZu Hause räumt Paul die Sachen in den Kühlschrank. Er kocht abends eine Suppe mit dem Gemüse.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht am Sonntag einkaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf der Liste steht Brot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft keine Tomaten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul bezahlt mit Karte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kocht abends eine Suppe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-zahnarztbesuch",
+    "nivel": "A2",
+    "titulo": "Der Zahnarztbesuch",
+    "descripcion": "Tim hat Zahnschmerzen und muss zum Zahnarzt gehen.",
+    "texto": "Tim hatte seit zwei Tagen Zahnschmerzen. Er hat lange gewartet, weil er Angst vor dem Zahnarzt hatte. Dann hat seine Mutter einen Termin gemacht.\n\nIn der Praxis hat die Zahnärztin den Zahn genau angeschaut. Sie hat gesagt, dass ein kleines Loch im Zahn ist. Tim hat sich sehr ruhig gefühlt, weil die Ärztin freundlich war.\n\nNach der Behandlung hatte Tim keine Schmerzen mehr. Er hat sich gefreut, dass alles so schnell gegangen ist. Jetzt putzt er seine Zähne jeden Abend besonders gründlich.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hatte seit einer Woche Zahnschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hatte Angst vor dem Zahnarzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahnärztin hat ein Loch im Zahn gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Behandlung hatte Tim noch Schmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim putzt jetzt seine Zähne gründlicher.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradpanne",
+    "nivel": "A2",
+    "titulo": "Die Fahrradpanne",
+    "descripcion": "Auf dem Weg zur Arbeit hat Julia eine Panne mit dem Fahrrad.",
+    "texto": "Julia ist am Morgen mit dem Fahrrad zur Arbeit gefahren. Plötzlich hat es einen lauten Knall gegeben, weil ein Reifen kaputt war. Julia ist erschrocken, aber ihr ist nichts passiert.\n\nSie hat ihr Fahrrad neben die Straße geschoben, weil sie den Reifen nicht selbst reparieren konnte. Ein netter Mann hat angehalten und ihr geholfen. Zusammen haben sie den Reifen gewechselt.\n\nJulia ist am Ende doch pünktlich zur Arbeit gekommen. Sie hat sich beim Mann bedankt und wollte ihm einen Kaffee kaufen, aber er musste schnell weiterfahren. Abends hat Julia das Fahrrad zur Reparatur gebracht.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit dem Bus zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Reifen von Julias Fahrrad ist kaputtgegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat den Reifen ganz allein repariert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist zu spät zur Arbeit gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Abends hat Julia das Fahrrad zur Reparatur gebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-oma",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Oma",
+    "descripcion": "Mira schreibt ihrer Oma einen Brief über die Ferien.",
+    "texto": "Liebe Oma, ich habe dir lange nicht geschrieben, weil die Schule sehr anstrengend war. Jetzt sind endlich Ferien, und ich habe viel Zeit zum Schreiben.\n\nIn den Ferien sind wir zwei Wochen bei Tante Rita gewesen. Wir haben viel gebadet und sind jeden Tag an den See gegangen. Papa hat sogar gelernt, wie man Fisch angelt.\n\nIch hoffe, dass du bald zu Besuch kommst. Wenn du kommst, zeige ich dir meine Fotos vom See. Ganz liebe Grüße, deine Mira.",
+    "preguntas": [
+      {
+        "enunciado": "Mira hat der Oma lange nicht geschrieben, weil sie krank war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie war bei Tante Rita.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind jeden Tag an den See gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Papa kann schon lange angeln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mira will der Oma Fotos zeigen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-sommerpraktikum",
+    "nivel": "B1",
+    "titulo": "Das Sommerpraktikum",
+    "descripcion": "Ein Student berichtet von seinem ersten Praktikum in einer Werbeagentur.",
+    "texto": "Nachdem Felix sein zweites Studienjahr beendet hatte, wollte er endlich praktische Erfahrung sammeln. Obwohl er sich bei mehreren Firmen beworben hatte, bekam er nur eine Antwort: eine kleine Werbeagentur in seiner Heimatstadt. Trotzdem war er von Anfang an begeistert, weil ihn die Arbeit mit Texten und Bildern schon immer interessiert hatte.\n\nIn den ersten Wochen musste Felix vor allem einfache Aufgaben erledigen, etwa Präsentationen vorbereiten oder Kundentermine organisieren. Nachdem er gezeigt hatte, dass er zuverlässig arbeitet, durfte er an einem echten Projekt mitwirken. Er entwickelte gemeinsam mit einer Kollegin einen Slogan für ein lokales Café, obwohl er anfangs unsicher war, ob seine Ideen gut genug seien.\n\nAm Ende des Praktikums war Felix stolz, dass sein Slogan tatsächlich verwendet wurde. Trotzdem war ihm klar, dass er noch viel lernen musste, um wirklich professionell zu arbeiten. Die Agentur bot ihm an, im nächsten Sommer wiederzukommen, und Felix sagte sofort zu.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat das Praktikum nach dem ersten Studienjahr gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix bekam von mehreren Firmen eine Zusage.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix durfte an einem echten Projekt mitarbeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix' Slogan wurde am Ende tatsächlich verwendet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix lehnte das Angebot ab, im nächsten Sommer wiederzukommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-renovierung-der-wohnung",
+    "nivel": "B1",
+    "titulo": "Die Renovierung der Wohnung",
+    "descripcion": "Ein Ehepaar renoviert seine alte Wohnung und lernt dabei viel über Geduld.",
+    "texto": "Als Markus und Sabine ihre neue Wohnung besichtigten, wussten sie sofort, dass viel Arbeit auf sie zukommen würde. Die Wände waren alt und rissig, und der Boden musste komplett erneuert werden. Trotzdem verliebten sie sich sofort in die hohen Decken und die große Terrasse.\n\nNachdem sie eingezogen waren, begannen die beiden jedes Wochenende zu renovieren. Obwohl sie vorher kaum Erfahrung mit Handwerksarbeiten hatten, lernten sie schnell, wie man tapeziert und streicht. Manchmal dauerte eine einfache Aufgabe viel länger als geplant, weil unerwartete Probleme auftauchten, etwa alte Leitungen hinter der Wand.\n\nNach drei Monaten war die Wohnung endlich fertig. Markus und Sabine luden ihre Freunde zu einer kleinen Feier ein, um das Ergebnis zu zeigen. Alle waren beeindruckt, wie viel sich verändert hatte, und niemand konnte glauben, dass das Paar die Arbeit fast allein geschafft hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Wohnung war schon beim Einzug perfekt renoviert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus und Sabine hatten vorher viel Erfahrung mit Handwerksarbeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alte Leitungen sorgten für zusätzliche Probleme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Renovierung dauerte insgesamt drei Monate.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde waren von dem Ergebnis nicht beeindruckt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-im-internetzeitalter",
+    "nivel": "B1",
+    "titulo": "Freundschaft im Internetzeitalter",
+    "descripcion": "Zwei Freunde bleiben trotz großer Entfernung über soziale Medien in Kontakt.",
+    "texto": "Anna und Leyla waren seit der Grundschule beste Freundinnen, bis Leylas Familie nach Australien zog. Obwohl die Entfernung riesig war, wollten die beiden ihre Freundschaft nicht aufgeben. Also beschlossen sie, regelmäßig über Videoanrufe in Kontakt zu bleiben.\n\nAm Anfang war es schwierig, weil die Zeitverschiebung ihre Gespräche kompliziert machte. Nachdem sie jedoch feste Zeiten vereinbart hatten, klappte es viel besser. Sie erzählten sich von der Schule, von neuen Freunden und von kleinen Alltagsproblemen, als wären sie nie getrennt gewesen.\n\nZwei Jahre später besuchte Anna Leyla endlich in Australien. Obwohl sie sich so lange nicht persönlich gesehen hatten, fühlte es sich an, als hätten sie sich nie getrennt. Beide waren überzeugt, dass echte Freundschaft auch über große Entfernungen bestehen kann, wenn man sich wirklich bemüht.",
+    "preguntas": [
+      {
+        "enunciado": "Anna und Leyla kennen sich erst seit Kurzem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Leylas Familie ist nach Australien gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zeitverschiebung war anfangs kein Problem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna hat Leyla später in Australien besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide glauben, dass Entfernung Freundschaften automatisch zerstört.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-alltag",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Alltag",
+    "descripcion": "Ein Essay über die wachsende Bedeutung künstlicher Intelligenz im täglichen Leben.",
+    "texto": "Künstliche Intelligenz ist längst kein Zukunftsthema mehr, sondern ein fester Bestandteil des Alltags. Sprachassistenten, personalisierte Empfehlungen und automatisierte Übersetzungen werden von vielen Menschen ganz selbstverständlich genutzt, ohne dass ihnen bewusst wäre, welche komplexen Algorithmen dahinterstecken. Befürworter betonen, dass diese Technologien enorme Zeitersparnisse ermöglichen und Aufgaben übernehmen, die früher viel Mühe gekostet hätten.\n\nKritiker weisen hingegen darauf hin, dass mit der zunehmenden Automatisierung auch erhebliche Risiken verbunden seien. Wenn Entscheidungen, etwa bei Kreditvergaben oder Bewerbungsverfahren, zunehmend von Algorithmen getroffen würden, bestehe die Gefahr, dass bestehende Vorurteile verstärkt statt beseitigt werden. Zudem wird häufig kritisiert, dass die Funktionsweise vieler Systeme selbst für Fachleute kaum nachvollziehbar sei, was die Kontrolle erschwere.\n\nUm diesen Herausforderungen zu begegnen, fordern zahlreiche Experten strengere gesetzliche Regelungen. Dabei sollte nicht nur der Schutz persönlicher Daten im Mittelpunkt stehen, sondern auch die Transparenz der eingesetzten Systeme. Nur wenn Nutzerinnen und Nutzer nachvollziehen können, wie eine Entscheidung zustande kommt, lässt sich das Vertrauen in künstliche Intelligenz langfristig sichern.",
+    "preguntas": [
+      {
+        "enunciado": "Künstliche Intelligenz wird im Text als reines Zukunftsthema beschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen vor allem eine Zeitersparnis durch KI.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Algorithmen Vorurteile verstärken könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist die Funktionsweise vieler KI-Systeme für alle leicht verständlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern im Text strengere gesetzliche Regelungen für KI.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-fachkraeftemangel",
+    "nivel": "B2",
+    "titulo": "Der Fachkräftemangel",
+    "descripcion": "Eine Analyse der Ursachen und möglichen Lösungen des Fachkräftemangels in Deutschland.",
+    "texto": "In zahlreichen Branchen Deutschlands, insbesondere im Handwerk, in der Pflege und in technischen Berufen, fehlt es zunehmend an qualifizierten Arbeitskräften. Diese Entwicklung, die als Fachkräftemangel bezeichnet wird, hat vielfältige Ursachen: der demografische Wandel, ein anhaltender Trend zum Studium anstelle einer Berufsausbildung sowie unattraktive Arbeitsbedingungen in bestimmten Sektoren werden häufig genannt.\n\nUm dem entgegenzuwirken, wird immer wieder eine Reform des Bildungssystems gefordert. Berufliche Ausbildungen sollten gesellschaftlich stärker anerkannt und finanziell besser gefördert werden, damit sie als gleichwertige Alternative zum Studium wahrgenommen werden. Gleichzeitig plädieren viele Ökonomen dafür, die Zuwanderung qualifizierter Arbeitskräfte aus dem Ausland zu erleichtern, indem bürokratische Hürden abgebaut werden.\n\nDennoch bleibt umstritten, ob solche Maßnahmen ausreichen würden, um das Problem kurzfristig zu lösen. Manche Experten sind der Ansicht, dass strukturelle Veränderungen, etwa eine bessere Vereinbarkeit von Familie und Beruf oder attraktivere Löhne, ebenso notwendig seien, damit mehr Menschen überhaupt bereit sind, in den betroffenen Branchen zu arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Fachkräftemangel betrifft laut Text vor allem das Handwerk und die Pflege.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der demografische Wandel wird als eine mögliche Ursache genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert, berufliche Ausbildungen gesellschaftlich abzuwerten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Ökonomen wollen die Zuwanderung qualifizierter Arbeitskräfte erleichtern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind sich alle Experten einig, dass die genannten Maßnahmen völlig ausreichen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mobilitaetswende-in-der-stadt",
+    "nivel": "B2",
+    "titulo": "Mobilitätswende in der Stadt",
+    "descripcion": "Ein Diskussionstext über den Umbau städtischer Verkehrssysteme hin zu nachhaltiger Mobilität.",
+    "texto": "Viele deutsche Städte stehen derzeit vor der Herausforderung, ihre Verkehrssysteme grundlegend umzugestalten. Während der motorisierte Individualverkehr über Jahrzehnte im Mittelpunkt der Stadtplanung stand, wird zunehmend gefordert, dass Fußgänger, Radfahrende und der öffentliche Nahverkehr stärker berücksichtigt werden. Diese sogenannte Mobilitätswende soll dazu beitragen, Lärm und Luftverschmutzung zu reduzieren sowie die Lebensqualität in den Innenstädten zu verbessern.\n\nBefürworter der Mobilitätswende argumentieren, dass breitere Radwege und ausgebaute Bus- und Bahnlinien langfristig zu weniger Staus führen würden, da mehr Menschen auf das Auto verzichten könnten. Zudem verweisen sie auf Städte, in denen ähnliche Maßnahmen bereits erfolgreich umgesetzt wurden. Gegner hingegen befürchten, dass eine Reduzierung von Parkplätzen den lokalen Handel schädigen und Pendler aus dem Umland benachteiligen könnte, die auf das Auto angewiesen seien.\n\nOb die Mobilitätswende gelingt, hängt letztlich davon ab, ob es gelingt, unterschiedliche Interessen miteinander zu vereinbaren. Ein Verkehrssystem, das sowohl ökologisch nachhaltig als auch sozial gerecht ist, müsste demnach schrittweise eingeführt werden, begleitet von Investitionen in Alternativen, die für alle Bevölkerungsgruppen zugänglich sind.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mobilitätswende betrifft nur den öffentlichen Nahverkehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Ziel der Mobilitätswende ist die Reduzierung von Lärm und Luftverschmutzung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter erwarten langfristig weniger Staus durch die Maßnahmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner sehen keine Nachteile für den lokalen Handel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text sollen bei der Umsetzung unterschiedliche Interessen berücksichtigt werden.",
+        "respuesta": true
+      }
+    ]
   }
 ]
