@@ -18218,5 +18218,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-restaurant-am-abend",
+    "nivel": "A1",
+    "titulo": "Ein Abendessen im Restaurant",
+    "descripcion": "Die Familie Berger geht am Freitagabend in ein Restaurant essen.",
+    "texto": "Die Familie Berger geht am Freitag in ein Restaurant. Das Restaurant heißt „Zur Post\". Es ist in der Stadtmitte. Der Vater trägt ein blaues Hemd. Die Mutter trägt ein rotes Kleid. Die Kinder freuen sich sehr.\n\nDer Kellner bringt die Speisekarte. Die Mutter bestellt einen Salat. Der Vater möchte ein Schnitzel. Die Kinder essen gern Pommes. Alle trinken Wasser oder Saft. Das Essen schmeckt sehr gut.\n\nNach dem Essen kommt der Nachtisch. Die Kinder bekommen Eis. Der Vater trinkt einen Kaffee. Die Familie ist glücklich und satt. Sie bezahlen und gehen nach Hause. Es war ein schöner Abend.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger geht am Freitag ins Restaurant.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Restaurant heißt „Zum Löwen\".",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater bestellt ein Schnitzel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder essen keine Pommes.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zum Nachtisch bekommen die Kinder Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-schwimmbad",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Schwimmbad",
+    "descripcion": "Tim und seine Schwester verbringen einen heißen Tag im Schwimmbad.",
+    "texto": "Es ist heiß. Tim und seine Schwester Mia gehen ins Schwimmbad. Sie packen Handtücher und Badesachen ein. Das Schwimmbad ist nicht weit von zu Hause. Sie fahren mit dem Fahrrad dorthin.\n\nIm Schwimmbad gibt es ein großes Becken. Es gibt auch eine Rutsche. Mia rutscht dreimal die Rutsche hinunter. Tim schwimmt lieber im großen Becken. Die Sonne scheint den ganzen Tag.\n\nZu Mittag essen sie ein Eis am Kiosk. Danach spielen sie Ball im Wasser. Am Abend sind beide sehr müde. Sie fahren zufrieden nach Hause. Es war ein toller Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Tim und Mia gehen zu Fuß ins Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Schwimmbad gibt es eine Rutsche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim rutscht lieber die Rutsche hinunter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie essen ein Eis am Kiosk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend sind sie nicht müde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-zimmerpflanzen",
+    "nivel": "A1",
+    "titulo": "Meine Zimmerpflanzen",
+    "descripcion": "Sofia erzählt von ihren Zimmerpflanzen und wie sie sich um sie kümmert.",
+    "texto": "Sofia hat viele Zimmerpflanzen. Sie stehen auf dem Fensterbrett. Eine Pflanze ist grün und groß. Eine andere Pflanze hat rote Blüten. Sofia mag ihre Pflanzen sehr.\n\nJeden Morgen gießt Sofia die Pflanzen. Sie braucht dafür eine kleine Kanne. Die Pflanzen brauchen auch viel Licht. Deshalb stehen sie am Fenster. Sofia putzt manchmal die Blätter.\n\nAm Wochenende kauft Sofia oft eine neue Pflanze. Ihre Mutter hilft ihr dabei. Zusammen gehen sie in den Gartenmarkt. Sofia freut sich über jede neue Pflanze. Ihr Zimmer ist jetzt sehr grün.",
+    "preguntas": [
+      {
+        "enunciado": "Sofias Pflanzen stehen auf dem Fensterbrett.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia gießt die Pflanzen nur einmal pro Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Pflanzen brauchen viel Licht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia kauft nie neue Pflanzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofias Zimmer ist jetzt sehr grün.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-reise-nach-bremen",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Bremen",
+    "descripcion": "Familie Voss hat am Wochenende eine Reise nach Bremen gemacht und die Stadt entdeckt.",
+    "texto": "Familie Voss hat letztes Wochenende eine Reise nach Bremen gemacht. Sie sind früh am Samstagmorgen mit dem Zug losgefahren. Die Kinder haben sich sehr gefreut, weil sie die berühmten Bremer Stadtmusikanten sehen wollten. Nach zwei Stunden Fahrt sind sie in Bremen angekommen.\n\nZuerst haben sie die Statue der Stadtmusikanten besucht. Die Kinder haben die Beine des Esels berührt, weil das angeblich Glück bringt. Danach sind sie durch die Altstadt spaziert und haben das Rathaus fotografiert. Zu Mittag haben sie in einem kleinen Restaurant gegessen.\n\nAm Nachmittag haben sie das Schnoorviertel besucht, wo es viele kleine Geschäfte gibt. Die Mutter hat ein Geschenk für die Großmutter gekauft. Als es dunkel wurde, sind sie müde, aber zufrieden zum Bahnhof zurückgegangen. Alle waren sich einig, dass es ein wunderbarer Ausflug war.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Voss ist mit dem Auto nach Bremen gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben die Bremer Stadtmusikanten sehen wollen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben zuerst das Schnoorviertel besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter hat ein Geschenk für die Großmutter gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie war mit dem Ausflug unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "besuch-bei-der-tante",
+    "nivel": "A2",
+    "titulo": "Besuch bei der Tante",
+    "descripcion": "Nina besucht ihre Tante auf dem Land und erlebt einen ruhigen, schönen Tag.",
+    "texto": "Nina ist am Samstag zu ihrer Tante Rosa gefahren. Ihre Tante wohnt auf dem Land, weit weg von der Stadt. Nina hat sich sehr auf den Besuch gefreut, weil sie ihre Tante lange nicht gesehen hatte. Sie ist mit dem Bus gefahren, weil es keinen Zug dorthin gibt.\n\nAls Nina angekommen ist, hat Tante Rosa schon Kuchen gebacken. Sie haben zusammen im Garten gesessen und Kaffee getrunken. Tante Rosa hat viele Hühner und einen Hund namens Bruno. Nina hat den Hühnern Futter gegeben und mit Bruno gespielt.\n\nAm Nachmittag sind sie gemeinsam spazieren gegangen. Tante Rosa hat Nina viele Geschichten aus ihrer Kindheit erzählt. Bevor Nina zurückgefahren ist, hat sie versprochen, bald wiederzukommen. Der Besuch hat ihr sehr gut gefallen.",
+    "preguntas": [
+      {
+        "enunciado": "Ninas Tante wohnt in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina ist mit dem Zug zu ihrer Tante gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Rosa hat Kuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat mit dem Hund Bruno gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat versprochen, nie wiederzukommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-beim-camping",
+    "nivel": "A2",
+    "titulo": "Ein Tag beim Camping",
+    "descripcion": "Jonas und seine Freunde haben ein Wochenende auf einem Campingplatz verbracht.",
+    "texto": "Jonas ist mit drei Freunden auf einen Campingplatz gefahren. Sie haben ihre Zelte am Freitagabend aufgebaut. Weil es schon spät war, haben sie schnell ein Lagerfeuer gemacht. Alle haben Würstchen über dem Feuer gegrillt.\n\nAm nächsten Morgen sind sie an einem See schwimmen gegangen. Das Wasser war kalt, aber die Sonne hat geschienen. Nachmittags haben sie eine Wanderung um den See gemacht. Ein Freund hat unterwegs seine Sonnenbrille verloren.\n\nAm Abend haben sie Karten gespielt und viel gelacht. Es hat leider in der Nacht angefangen zu regnen. Trotzdem haben alle gut geschlafen, weil die Zelte wasserdicht waren. Am Sonntag sind sie müde, aber glücklich nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist allein zum Campingplatz gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben am Freitagabend die Zelte aufgebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wasser im See war sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Freund hat seine Sonnenbrille verloren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat in der Nacht geregnet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-schultheaterstueck",
+    "nivel": "B1",
+    "titulo": "Das Schultheaterstück",
+    "descripcion": "Eine Schulklasse bereitet trotz vieler Schwierigkeiten ein Theaterstück für das Schulfest vor.",
+    "texto": "Die Klasse 9b probt seit Wochen für das Theaterstück beim Schulfest. Obwohl viele Schüler zunächst wenig Lust hatten, wurde die Begeisterung von Woche zu Woche größer. Die Deutschlehrerin Frau Berg hat das Stück selbst geschrieben, weil sie ein Theaterstück über Freundschaft und Zusammenhalt erzählen wollte. Nachdem die Rollen verteilt worden waren, begannen die ersten Proben im Musikraum.\n\nDie Vorbereitungen liefen nicht immer reibungslos. Ein Schüler vergaß ständig seinen Text, und die Kulissen waren zunächst viel zu klein für die Bühne. Trotzdem gaben die Schüler nicht auf und übten auch nach dem Unterricht weiter. Besonders die Hauptdarstellerin Lea investierte viel Zeit, obwohl sie eigentlich für eine wichtige Mathearbeit lernen musste.\n\nAm Tag der Aufführung war die Aula bis auf den letzten Platz gefüllt. Nachdem der Vorhang aufgegangen war, spielte die Klasse konzentriert und mit sichtlicher Freude. Am Ende gab es lauten Applaus, und selbst die Lehrerin hatte Tränen in den Augen. Die Schüler waren stolz, dass sich die ganze Arbeit gelohnt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b probt für ein Theaterstück.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler hatten von Anfang an große Lust auf das Projekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kulissen waren von Anfang an perfekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea musste eigentlich für eine Mathearbeit lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Aufführung war ein Misserfolg.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vereinsmeisterschaft-im-tennis",
+    "nivel": "B1",
+    "titulo": "Die Vereinsmeisterschaft im Tennis",
+    "descripcion": "Ein junger Tennisspieler nimmt zum ersten Mal an der Vereinsmeisterschaft teil.",
+    "texto": "Paul spielt seit drei Jahren Tennis in seinem örtlichen Verein. In diesem Sommer hat er sich zum ersten Mal für die Vereinsmeisterschaft angemeldet. Obwohl er vor dem Turnier sehr nervös war, hat er sich intensiv vorbereitet und jeden Tag trainiert. Sein Trainer hat ihm geraten, ruhig zu bleiben und sich auf jeden Ballwechsel zu konzentrieren.\n\nDas erste Spiel gegen einen älteren Spieler verlief schwierig, weil dieser viel Erfahrung hatte. Trotzdem kämpfte Paul bis zum letzten Punkt und gewann schließlich knapp in drei Sätzen. Nachdem er das nächste Spiel ebenfalls gewonnen hatte, stand er überraschend im Finale. Seine Familie und Freunde kamen extra, um ihn anzufeuern.\n\nIm Finale traf Paul auf den Titelverteidiger des Vereins. Das Spiel war sehr knapp, und beide Spieler kämpften bis zur letzten Minute. Obwohl Paul am Ende verlor, war er mit seiner Leistung sehr zufrieden. Der Trainer lobte ihn für seinen Kampfgeist und ermutigte ihn, im nächsten Jahr wieder anzutreten.",
+    "preguntas": [
+      {
+        "enunciado": "Paul spielt seit drei Jahren Tennis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul war vor dem Turnier völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das erste Spiel hat Paul verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hat das Finale erreicht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat die Vereinsmeisterschaft gewonnen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-filmdreh-in-der-nachbarschaft",
+    "nivel": "B1",
+    "titulo": "Der Filmdreh in der Nachbarschaft",
+    "descripcion": "Ein Filmteam dreht eine Szene in der Straße von Julia, und die ganze Nachbarschaft ist begeistert.",
+    "texto": "Eines Morgens wachte Julia auf und sah viele große Lastwagen vor ihrem Haus. Ein Filmteam hatte die ganze Straße für einen Drehtag gesperrt. Nachdem sie mit ihrer Nachbarin gesprochen hatte, erfuhr Julia, dass eine bekannte Serie hier eine Szene drehen sollte. Obwohl es sehr früh war, standen schon viele Schaulustige am Straßenrand.\n\nDen ganzen Vormittag über liefen Techniker mit Kabeln und Kameras umher. Trotzdem blieb die Stimmung in der Nachbarschaft entspannt und fröhlich. Julia erkannte sogar einen bekannten Schauspieler, der zwischen den Aufnahmen freundlich mit den Nachbarn sprach. Ein Kollege des Filmteams erklärte den Kindern, wie eine Filmkamera funktioniert.\n\nAm Nachmittag war der Dreh endlich fertig, nachdem die Szene mehrmals wiederholt worden war. Die Nachbarn räumten gemeinsam die Stühle und Tische auf, die sie zum Zuschauen mitgebracht hatten. Julia war begeistert von diesem ungewöhnlichen Tag und freute sich schon darauf, die Serie im Fernsehen zu sehen. Für die ganze Straße war es ein unvergessliches Erlebnis.",
+    "preguntas": [
+      {
+        "enunciado": "Julia sah morgens Lastwagen vor ihrem Haus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Filmteam drehte eine Werbung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarschaft war während des Drehs schlecht gelaunt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia erkannte einen bekannten Schauspieler.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Szene wurde nur einmal gedreht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mikroplastik-im-alltag",
+    "nivel": "B2",
+    "titulo": "Mikroplastik im Alltag – Eine unsichtbare Gefahr",
+    "descripcion": "Ein Blick auf die Verbreitung von Mikroplastik in Alltagsprodukten und dessen mögliche Folgen für Mensch und Umwelt.",
+    "texto": "Mikroplastik, also winzige Kunststoffpartikel von weniger als fünf Millimetern Größe, findet sich mittlerweile nahezu überall: in Kosmetikprodukten, in Kleidung aus synthetischen Fasern, aber auch in Trinkwasser und sogar in menschlichem Blut. Während die Öffentlichkeit lange Zeit vor allem den sichtbaren Plastikmüll in den Ozeanen wahrnahm, rückt zunehmend die unsichtbare, aber weitverbreitete Belastung durch diese mikroskopisch kleinen Partikel in den Fokus der Forschung.\n\nBesonders problematisch ist, dass Mikroplastik kaum abgebaut werden kann und sich in der Nahrungskette anreichert. Würde man sämtliche Quellen konsequent reduzieren, ließe sich die Belastung langfristig deutlich senken, doch bislang fehlt es an einheitlichen gesetzlichen Regelungen. Viele der betroffenen Produkte, deren Herstellung seit Jahrzehnten auf synthetischen Materialien beruht, werden weiterhin ohne ausreichende Kennzeichnung verkauft.\n\nWissenschaftler warnen, dass die langfristigen gesundheitlichen Folgen für den Menschen noch nicht abschließend erforscht seien. Sollten sich die bisherigen Verdachtsmomente bestätigen, müsste die Industrie grundlegend umdenken und alternative Materialien entwickeln. Erste Ansätze, etwa biologisch abbaubare Fasern oder strengere Filtersysteme in Waschmaschinen, werden bereits erprobt, wobei ihre Wirksamkeit im großen Maßstab noch nicht bewiesen ist.\n\nVerbraucherschützer fordern daher verbindliche Grenzwerte und eine verpflichtende Kennzeichnung mikroplastikhaltiger Produkte. Nur durch ein Zusammenspiel aus politischem Handeln, industrieller Innovation und einem bewussteren Konsumverhalten könnte die Belastung nachhaltig verringert werden. Bis dahin bleibt Mikroplastik eine schwer greifbare, aber allgegenwärtige Herausforderung unserer Zeit.",
+    "preguntas": [
+      {
+        "enunciado": "Mikroplastik ist ausschließlich in den Ozeanen zu finden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mikroplastik kann sich in der Nahrungskette anreichern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt bereits einheitliche gesetzliche Regelungen für Mikroplastik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die langfristigen gesundheitlichen Folgen sind vollständig erforscht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Verbraucherschützer fordern verbindliche Grenzwerte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "werbeverbot-fuer-ungesunde-lebensmittel",
+    "nivel": "B2",
+    "titulo": "Werbeverbot für ungesunde Lebensmittel – Schutz oder Bevormundung?",
+    "descripcion": "Die Debatte um ein Werbeverbot für ungesunde Lebensmittel, das vor allem Kinder schützen soll.",
+    "texto": "In vielen Ländern wird derzeit diskutiert, ob Werbung für stark zucker-, fett- oder salzhaltige Lebensmittel gesetzlich eingeschränkt werden sollte, insbesondere wenn sie sich an Kinder richtet. Befürworter eines solchen Verbots argumentieren, dass Kinder besonders anfällig für Werbebotschaften seien und dass ein Verbot einen wichtigen Beitrag zur Bekämpfung von Übergewicht im Kindesalter leisten könnte.\n\nKritiker hingegen befürchten, dass ein Werbeverbot in die unternehmerische Freiheit eingreife und letztlich wenig bewirke, solange die Ernährungsgewohnheiten in den Familien selbst nicht verändert würden. Sie verweisen darauf, dass Kinder auch über soziale Medien und Influencer mit Werbung konfrontiert würden, die von einem klassischen Werbeverbot gar nicht erfasst werde.\n\nStudien aus Ländern, in denen bereits strengere Regeln gelten, zeigen gemischte Ergebnisse. Während in manchen Regionen ein leichter Rückgang des Konsums ungesunder Snacks beobachtet wurde, blieb der Effekt andernorts gering. Befürworter argumentieren dennoch, dass selbst kleine Veränderungen langfristig positive Auswirkungen auf die öffentliche Gesundheit hätten, wenn sie mit weiteren Maßnahmen kombiniert würden.\n\nLetztlich bleibt die Frage offen, ob ein Werbeverbot allein ausreichen würde, um das Ernährungsverhalten nachhaltig zu verändern, oder ob es lediglich ein symbolisches Signal wäre. Viele Experten plädieren daher für einen umfassenderen Ansatz, der Bildung, Kennzeichnung und Werberegulierung miteinander verbindet.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter des Werbeverbots wollen vor allem Kinder schützen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keinerlei Probleme bei einem Werbeverbot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen in allen Ländern denselben eindeutigen Erfolg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kinder werden auch über soziale Medien mit Werbung konfrontiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten fordern häufig einen umfassenderen Ansatz statt nur ein Verbot.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "zeitumstellung-sinn-oder-unsinn",
+    "nivel": "B2",
+    "titulo": "Die Zeitumstellung – Sinnvoll oder überholt?",
+    "descripcion": "Eine Betrachtung der jährlichen Zeitumstellung und der Debatte über ihre Abschaffung.",
+    "texto": "Zweimal im Jahr wird in vielen europäischen Ländern die Uhr umgestellt, um vermeintlich Energie zu sparen und das Tageslicht besser zu nutzen. Diese Praxis, die ursprünglich während der Ölkrise der 1970er-Jahre eingeführt wurde, steht seit Jahren in der Kritik, da ihr eigentlicher Nutzen zunehmend infrage gestellt wird.\n\nZahlreiche Studien deuten darauf hin, dass die erwarteten Energieeinsparungen kaum messbar seien und dass die Zeitumstellung stattdessen negative Auswirkungen auf die Gesundheit habe. Insbesondere in den Tagen nach der Umstellung würden vermehrt Schlafstörungen, Konzentrationsschwierigkeiten und sogar ein erhöhtes Risiko für Herz-Kreislauf-Erkrankungen beobachtet, was von Medizinern als ernstzunehmendes Problem eingestuft wird.\n\nDie Europäische Union hatte bereits vor einigen Jahren beschlossen, die Zeitumstellung grundsätzlich abzuschaffen, wobei die konkrete Umsetzung bislang an unterschiedlichen nationalen Interessen scheiterte. Würde jedes Land eigenständig entscheiden, ob es dauerhaft die Sommer- oder die Winterzeit beibehält, könnte dies zu einem unübersichtlichen Flickenteppich unterschiedlicher Zeitzonen innerhalb Europas führen.\n\nBefürworter der Abschaffung hoffen dennoch, dass sich die Mitgliedstaaten in absehbarer Zeit auf eine einheitliche Lösung einigen werden. Bis dahin bleibt die Zeitumstellung ein wiederkehrendes Thema, das jedes halbe Jahr aufs Neue Diskussionen über Sinn und Unsinn dieser jahrzehntealten Praxis auslöst.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zeitumstellung wurde ursprünglich eingeführt, um Energie zu sparen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien belegen eindeutig hohe Energieeinsparungen durch die Zeitumstellung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Zeitumstellung werden häufiger Schlafstörungen beobachtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die EU hat die Abschaffung bereits vollständig und einheitlich umgesetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zeitumstellung ist ein wiederkehrendes Diskussionsthema.",
+        "respuesta": true
+      }
+    ]
   }
 ]
