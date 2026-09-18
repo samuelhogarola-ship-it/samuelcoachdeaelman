@@ -16826,5 +16826,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-erste-schultag",
+    "nivel": "A1",
+    "titulo": "Der erste Schultag",
+    "descripcion": "Emma erzählt von ihrem ersten Tag in der neuen Schule.",
+    "texto": "Emma ist sieben Jahre alt. Heute ist ihr erster Schultag. Sie trägt einen blauen Rucksack und eine rote Jacke. Emma ist ein bisschen nervös, aber auch froh.\n\nIn der Klasse sind zwanzig Kinder. Die Lehrerin heißt Frau Berg. Sie ist freundlich und lächelt viel. Emma sitzt neben einem Jungen. Er heißt Ben. Ben hat auch einen blauen Rucksack.\n\nIn der Pause spielen Emma und Ben zusammen. Sie essen ein Butterbrot und einen Apfel. Nach der Schule holt Emmas Mutter sie ab. Emma erzählt viel über ihren Tag. Sie freut sich schon auf morgen.",
+    "preguntas": [
+      {
+        "enunciado": "Emma ist sieben Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma trägt einen grünen Rucksack.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin heißt Frau Berg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma spielt in der Pause allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emmas Mutter holt sie nach der Schule ab.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-park",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Park",
+    "descripcion": "Paul und sein Hund verbringen einen schönen Nachmittag im Park.",
+    "texto": "Paul geht am Nachmittag in den Park. Er nimmt seinen Hund Bruno mit. Bruno ist klein und braun. Er läuft sehr schnell.\n\nIm Park spielt Paul mit einem Ball. Bruno holt den Ball immer zurück. Danach sitzt Paul auf einer Bank. Er trinkt Wasser und isst eine Banane. Bruno trinkt auch Wasser aus einer Schale.\n\nSpäter trifft Paul seinen Freund Tim. Tim hat auch einen Hund. Die zwei Hunde spielen zusammen. Paul und Tim reden und lachen. Am Abend gehen sie nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht am Morgen in den Park.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist klein und braun.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul isst im Park eine Banane.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat keinen Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die zwei Hunde spielen zusammen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-hobbys-am-wochenende",
+    "nivel": "A1",
+    "titulo": "Meine Hobbys am Wochenende",
+    "descripcion": "Sofia beschreibt, was sie am Samstag und Sonntag gern macht.",
+    "texto": "Sofia hat viele Hobbys. Am Samstag spielt sie Gitarre. Sie lernt schon seit einem Jahr. Sofia mag auch Lieder singen.\n\nAm Sonntag geht Sofia gern schwimmen. Das Schwimmbad ist nicht weit von ihrem Haus. Nach dem Schwimmen trinkt sie heißen Kakao. Sofia mag Kakao sehr gern.\n\nAm Abend liest Sofia ein Buch. Ihr Lieblingsbuch heißt „Die kleine Hexe\". Sofia findet Wochenenden sehr schön. Sie hat nie Langeweile.",
+    "preguntas": [
+      {
+        "enunciado": "Sofia spielt am Samstag Gitarre.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia lernt seit einem Monat Gitarre.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Schwimmbad ist weit weg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofia trinkt nach dem Schwimmen Kakao.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia hat am Wochenende Langeweile.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenmarkt-am-sonntag",
+    "nivel": "A2",
+    "titulo": "Der Wochenmarkt am Sonntag",
+    "descripcion": "Familie Weber besucht am Sonntag einen kleinen Wochenmarkt in ihrer Stadt.",
+    "texto": "Familie Weber ist am Sonntagmorgen zum Wochenmarkt gegangen, weil sie frisches Obst und Gemüse kaufen wollte. Der Markt war schon um neun Uhr sehr voll, denn viele Leute wollten die besten Produkte bekommen. Herr Weber hat Kartoffeln und Zwiebeln gekauft, während Frau Weber Äpfel und Birnen ausgesucht hat.\n\nIhre Tochter Lena hat an einem Stand frischen Honig probiert und fand ihn sehr lecker. „Können wir ein Glas Honig kaufen?\", hat sie gefragt. Ihre Eltern haben ja gesagt, und Lena hat sich sehr gefreut. Danach sind sie zu einem Stand mit Käse gegangen, weil Herr Weber gern verschiedene Käsesorten probiert.\n\nNach dem Einkaufen haben sie sich in ein Café gesetzt und einen Kuchen gegessen. Sie haben über die Woche gesprochen und Pläne für die nächsten Tage gemacht. Am Ende sind sie mit vollen Taschen und guter Laune nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist am Samstag zum Markt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat Kartoffeln und Zwiebeln gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena mochte den Honig nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber probiert gern verschiedene Käsesorten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind ohne Einkäufe nach Hause gefahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-nachbarin",
+    "nivel": "A2",
+    "titulo": "Die neue Nachbarin",
+    "descripcion": "Herr Fischer lernt seine neue Nachbarin kennen und hilft ihr beim Umzug.",
+    "texto": "Letzte Woche ist eine neue Nachbarin in das Haus neben Herrn Fischer gezogen. Sie heißt Frau Klein und kommt aus Leipzig. Herr Fischer hat gesehen, dass sie viele schwere Kisten tragen musste, deshalb hat er ihr geholfen.\n\nFrau Klein hat sich sehr gefreut, weil sie niemanden in der Stadt kannte. Sie haben zusammen Kaffee getrunken und über ihr Leben gesprochen. Frau Klein hat erzählt, dass sie eine neue Stelle als Krankenschwester im Krankenhaus gefunden hat.\n\nAm Wochenende hat Herr Fischer Frau Klein zu einem Grillfest eingeladen, damit sie andere Nachbarn kennenlernen konnte. Frau Klein hat die Einladung gern angenommen. Sie hat gesagt, dass sie sich in der neuen Nachbarschaft schon wohlfühlt.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Klein kommt aus München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer hilft Frau Klein mit den Kisten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Klein kannte schon viele Leute in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Klein arbeitet als Krankenschwester.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Klein lehnt die Einladung zum Grillfest ab.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-dem-urlaub",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus dem Urlaub",
+    "descripcion": "Julia schreibt ihrer Freundin einen Brief über ihren Urlaub an der Ostsee.",
+    "texto": "Liebe Nina,\n\nich bin seit drei Tagen mit meiner Familie an der Ostsee, und es gefällt mir hier sehr gut. Wir haben eine kleine Wohnung direkt am Strand gemietet, deshalb können wir jeden Morgen im Meer schwimmen, bevor die Sonne zu heiß wird.\n\nGestern sind wir mit dem Fahrrad in eine kleine Stadt gefahren, weil dort ein Fischmarkt stattgefunden hat. Wir haben frischen Fisch gegessen und Souvenirs gekauft. Mein Bruder hat sich ein T-Shirt mit einem Leuchtturm gekauft, weil er Leuchttürme so interessant findet.\n\nMorgen wollen wir eine Bootstour machen, wenn das Wetter gut bleibt. Ich hoffe, dass es nicht regnet. Ich schreibe dir bald wieder und erzähle mehr. Viele Grüße von der Ostsee,\nJulia",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit ihrer Familie an der Ostsee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wohnung liegt weit weg vom Strand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind mit dem Fahrrad zu einem Fischmarkt gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julias Bruder kauft sich eine Sonnenbrille.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia möchte morgen eine Bootstour machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-nach-hamburg",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Hamburg",
+    "descripcion": "Eine zehnte Klasse fährt drei Tage nach Hamburg und erlebt dort viel Neues.",
+    "texto": "Nachdem die Schüler der Klasse 10b monatelang auf diesen Moment gewartet hatten, war es endlich so weit: Die Klassenfahrt nach Hamburg begann. Obwohl einige Schüler noch nie so lange von zu Hause weg gewesen waren, freuten sich alle riesig auf die drei Tage in der Hansestadt.\n\nAm ersten Tag besuchten sie die Speicherstadt und das Miniatur Wunderland, trotzdem blieb genug Zeit für einen Spaziergang entlang der Elbe. Am Abend sahen sie sich die beleuchteten Hafenanlagen an, was besonders die Fotografen unter ihnen begeisterte. Herr Neumann, der Klassenlehrer, achtete darauf, dass alle pünktlich zur Jugendherberge zurückkehrten.\n\nAm zweiten Tag machten sie eine Hafenrundfahrt, obwohl das Wetter zunächst regnerisch war. Später klarte der Himmel auf, sodass sie den Fischmarkt in Ruhe erkunden konnten. Manche Schüler kauften kleine Souvenirs für ihre Familien, während andere lieber ihr Taschengeld sparten.\n\nAls die Klassenfahrt am dritten Tag zu Ende ging, waren viele Schüler ein wenig traurig, obwohl sie sich auch auf ihr eigenes Bett zu Hause freuten. Herr Neumann war zufrieden, weil die Fahrt ohne größere Probleme verlaufen war und die Klasse enger zusammengewachsen war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 10b fährt für eine Woche nach Hamburg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag besuchen sie das Miniatur Wunderland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Hafenrundfahrt findet bei durchgehend schönem Wetter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Schüler kaufen Souvenirs auf dem Fischmarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Neumann ist mit dem Verlauf der Klassenfahrt zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-grosstadt",
+    "nivel": "B1",
+    "titulo": "Der Umzug in die Großstadt",
+    "descripcion": "Markus zieht vom Dorf in die Großstadt und muss sich an ein neues Leben gewöhnen.",
+    "texto": "Markus hat sein ganzes Leben in einem kleinen Dorf verbracht, in dem jeder jeden kannte. Nachdem er sein Studium abgeschlossen hatte, bekam er ein Jobangebot in einer großen Stadt und entschied sich, obwohl es ihm schwerfiel, seine Heimat zu verlassen.\n\nDie ersten Wochen in der Großstadt waren nicht leicht. Markus fühlte sich einsam, weil er niemanden kannte, und der Lärm der Straßen störte ihn nachts beim Schlafen. Trotzdem gab er nicht auf und versuchte, neue Kontakte zu knüpfen, indem er einem Sportverein beitrat.\n\nNach einigen Monaten lernte Markus durch den Verein mehrere nette Leute kennen, mit denen er sich regelmäßig traf. Er entdeckte auch, dass die Stadt viele kulturelle Angebote hatte, die es in seinem Dorf nie gegeben hatte, wie Theater, Konzerte und internationale Restaurants.\n\nHeute, ein Jahr später, fühlt sich Markus in der Großstadt zu Hause, obwohl er sein Dorf immer noch regelmäßig besucht. Er hat gelernt, dass ein Umzug zunächst schwierig sein kann, sich aber lohnt, wenn man offen für neue Erfahrungen bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist in einer Großstadt aufgewachsen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In den ersten Wochen fühlte sich Markus einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus gibt schnell auf und zieht zurück ins Dorf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Durch den Sportverein lernt Markus neue Leute kennen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus besucht sein Dorf nie wieder.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-im-buero",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum im Büro",
+    "descripcion": "Sarah berichtet über ihre Erfahrungen während eines vierwöchigen Praktikums.",
+    "texto": "Sarah hatte sich schon lange auf ihr Praktikum in einer Marketingagentur gefreut, obwohl sie am ersten Tag ziemlich aufgeregt war. Sie wusste nicht genau, was sie erwartete, und fragte sich, ob sie den Aufgaben gewachsen sein würde.\n\nSchon am ersten Tag lernte sie mehrere Kollegen kennen, die sich viel Zeit nahmen, um ihr die wichtigsten Abläufe zu erklären. Nachdem sie sich an den Arbeitsplatz gewöhnt hatte, bekam sie eigene kleine Projekte, zum Beispiel die Planung eines Social-Media-Beitrags für einen Kunden.\n\nIn der dritten Woche durfte Sarah sogar an einem Meeting mit einem wichtigen Kunden teilnehmen, was sie sehr stolz machte. Sie merkte, dass Teamarbeit im Büroalltag eine große Rolle spielt und dass man auch aus Fehlern lernen darf, solange man offen darüber spricht.\n\nAm Ende des Praktikums war Sarah überzeugt, dass sie später gern im Marketingbereich arbeiten möchte. Sie bedankte sich bei ihren Kollegen und nahm viele wertvolle Erfahrungen für ihre Zukunft mit.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah macht ein Praktikum in einer Anwaltskanzlei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag ist Sarah aufgeregt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah bekommt während des Praktikums keine eigenen Aufgaben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah nimmt an einem Meeting mit einem Kunden teil.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Praktikum möchte Sarah nicht im Marketing arbeiten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungskrise-in-den-staedten",
+    "nivel": "B2",
+    "titulo": "Die Wohnungskrise in den Städten",
+    "descripcion": "Ein Blick auf die Ursachen und möglichen Lösungen der Wohnungsnot in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten hat sich in den letzten Jahren eine angespannte Situation auf dem Wohnungsmarkt entwickelt, die von Experten zunehmend als Krise bezeichnet wird. Die Mieten sind vielerorts derart gestiegen, dass selbst Menschen mit einem durchschnittlichen Einkommen kaum noch bezahlbaren Wohnraum finden. Besonders betroffen sind junge Familien, Studierende und Alleinerziehende, die auf kleinere, günstigere Wohnungen angewiesen wären, welche jedoch zunehmend rar geworden sind.\n\nAls Hauptursachen gelten der anhaltende Zuzug in die Städte, ein seit Jahren unzureichendes Neubauvolumen sowie steigende Baukosten, die durch strengere energetische Vorgaben zusätzlich verschärft werden. Würde deutlich mehr sozialer Wohnungsbau gefördert, ließe sich der Druck auf den Markt zumindest teilweise lindern, doch bislang scheitern viele Projekte an bürokratischen Hürden und fehlenden Fördermitteln.\n\nKritiker bemängeln zudem, dass private Investoren, die auf hohe Renditen abzielen, den Wohnungsmarkt stark beeinflussen und dadurch die Mietpreise zusätzlich in die Höhe treiben. Mieterverbände fordern deshalb strengere Regulierungen, etwa eine wirksamere Mietpreisbremse, während Immobilienverbände argumentieren, dass zu starke Eingriffe den dringend benötigten Neubau eher verhindern als fördern würden.\n\nAngesichts dieser gegensätzlichen Positionen bleibt die Wohnungskrise ein zentrales politisches Streitthema. Ob und wie schnell sich die Situation entspannt, wird maßgeblich davon abhängen, ob es gelingt, Neubau, Regulierung und soziale Gerechtigkeit in Einklang zu bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text sind vor allem Menschen mit sehr hohem Einkommen von der Wohnungsnot betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Steigende Baukosten gelten als eine der Ursachen der Wohnungskrise.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Neubauprojekte für sozialen Wohnungsbau werden problemlos umgesetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mieterverbände fordern strengere Regulierungen des Marktes.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text herrscht Einigkeit darüber, wie die Krise gelöst werden sollte.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-im-schulunterricht",
+    "nivel": "B2",
+    "titulo": "Digitalisierung im Schulunterricht",
+    "descripcion": "Chancen und Herausforderungen des Einsatzes digitaler Medien im deutschen Schulsystem.",
+    "texto": "Die Digitalisierung des Schulunterrichts wird seit Jahren als eines der zentralen Zukunftsthemen des deutschen Bildungssystems diskutiert. Während einige Schulen bereits mit Tablets, interaktiven Whiteboards und digitalen Lernplattformen arbeiten, hinken andere Einrichtungen aufgrund fehlender finanzieller Mittel und unzureichender technischer Infrastruktur deutlich hinterher.\n\nBefürworter der Digitalisierung betonen, dass digitale Werkzeuge individuelles Lernen erleichtern könnten, indem sie es Schülerinnen und Schülern ermöglichen, in ihrem eigenen Tempo zu arbeiten. Zudem ließen sich komplexe Sachverhalte durch interaktive Materialien anschaulicher vermitteln, als es mit klassischen Lehrbüchern möglich wäre. Auch die Vorbereitung auf eine zunehmend digitalisierte Arbeitswelt spreche für einen stärkeren Einsatz digitaler Medien.\n\nKritiker hingegen warnen davor, dass eine übermäßige Nutzung digitaler Geräte die Konzentrationsfähigkeit beeinträchtigen und soziale Interaktion im Klassenzimmer verringern könnte. Zudem müssten Lehrkräfte umfassend fortgebildet werden, damit digitale Medien sinnvoll und nicht nur als Selbstzweck eingesetzt werden. Ohne eine durchdachte pädagogische Strategie, so die Sorge, würde die Digitalisierung eher zu einer zusätzlichen Belastung als zu einer echten Verbesserung des Unterrichts führen.\n\nLetztlich scheint klar, dass weder eine vollständige Ablehnung noch eine unreflektierte Begeisterung für digitale Medien zielführend ist. Vielmehr bedarf es einer ausgewogenen Strategie, bei der Technik den Unterricht sinnvoll ergänzt, ohne bewährte pädagogische Prinzipien zu verdrängen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Schulen in Deutschland verfügen bereits über die gleiche digitale Ausstattung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen im individuellen Lerntempo einen Vorteil der Digitalisierung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten unter anderem eine geringere soziale Interaktion im Unterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text benötigen Lehrkräfte keine zusätzliche Fortbildung für digitale Medien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text plädiert für eine ausgewogene Strategie im Umgang mit digitalen Medien.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-und-verantwortung",
+    "nivel": "B2",
+    "titulo": "Klimapolitik und Verantwortung",
+    "descripcion": "Eine Auseinandersetzung mit der Frage, wer die Hauptverantwortung für den Klimaschutz trägt.",
+    "texto": "In der öffentlichen Debatte über Klimapolitik wird immer wieder die Frage gestellt, wer die Hauptverantwortung für den Klimaschutz tragen sollte: der einzelne Bürger, die Wirtschaft oder der Staat. Während manche argumentieren, dass individuelles Verhalten wie Verzicht auf Flugreisen oder Fleischkonsum entscheidend sei, verweisen andere darauf, dass ein Großteil der Emissionen auf industrielle Prozesse zurückzuführen ist, die von einzelnen Konsumenten kaum beeinflusst werden können.\n\nBefürworter einer stärkeren staatlichen Regulierung fordern, dass die Politik verbindliche Rahmenbedingungen schaffen müsse, etwa durch eine höhere CO2-Bepreisung oder strengere Emissionsgrenzwerte für Unternehmen. Nur so ließe sich sicherstellen, dass Klimaschutz nicht allein von der Bereitschaft Einzelner abhängt, sondern strukturell verankert wird. Wäre die Politik konsequenter, so das Argument, würden auch Unternehmen schneller in klimafreundliche Technologien investieren.\n\nGleichzeitig wird betont, dass individuelles Handeln keineswegs bedeutungslos sei, da es gesellschaftliche Normen verändern und politischen Druck erzeugen könne. Wenn immer mehr Menschen nachhaltiger leben würden, entstünde ein gesellschaftliches Klima, in dem auch Politik und Wirtschaft schwerer an ambitionierten Klimazielen vorbeikämen.\n\nLetztendlich scheint eine Kombination aus individueller Verantwortung, unternehmerischem Umdenken und entschlossener Politik notwendig zu sein, um die Klimaziele tatsächlich zu erreichen. Die Verantwortung allein auf eine Ebene abzuwälzen, würde der Komplexität des Problems kaum gerecht werden.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text sind ausschließlich einzelne Bürger für den Klimaschutz verantwortlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Befürworter fordern eine höhere CO2-Bepreisung für Unternehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, individuelles Handeln habe keinerlei Einfluss auf die Gesellschaft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gesellschaftlicher Druck kann laut dem Text politische Entscheidungen beeinflussen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu dem Schluss, dass nur eine Ebene die Verantwortung tragen sollte.",
+        "respuesta": false
+      }
+    ]
   }
 ]
