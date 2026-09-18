@@ -18566,5 +18566,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-geburtstag-meines-bruders",
+    "nivel": "A1",
+    "titulo": "Der Geburtstag meines Bruders",
+    "descripcion": "Tom feiert seinen Geburtstag mit der ganzen Familie.",
+    "texto": "Heute hat mein Bruder Tom Geburtstag. Er wird zehn Jahre alt. Die ganze Familie kommt zu Besuch. Oma und Opa bringen ein großes Geschenk mit. Meine Mutter backt einen Schokoladenkuchen. Der Kuchen riecht sehr gut.\n\nAm Nachmittag singen wir „Zum Geburtstag viel Glück\". Tom bläst zehn Kerzen aus. Er lächelt und ist sehr glücklich. Dann öffnet er seine Geschenke. Er bekommt ein neues Fahrrad. Das Fahrrad ist blau und rot.\n\nNach dem Kuchen spielen wir im Garten. Tom fährt sofort mit seinem neuen Fahrrad. Am Abend essen wir Pizza zusammen. Es ist ein schöner Tag für die ganze Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Tom wird zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie kommt nicht zu Besuch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Mutter backt einen Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom bekommt ein neues Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend essen sie Nudeln.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-zoo",
+    "nivel": "A1",
+    "titulo": "Der Besuch im Zoo",
+    "descripcion": "Lena besucht mit ihrer Klasse den Zoo und sieht viele Tiere.",
+    "texto": "Heute fährt Lena mit ihrer Klasse in den Zoo. Der Bus fährt um acht Uhr los. Alle Kinder sind sehr aufgeregt. Im Zoo sehen sie viele Tiere. Zuerst besuchen sie die Elefanten. Die Elefanten sind sehr groß.\n\nDanach gehen sie zu den Affen. Die Affen klettern schnell auf die Bäume. Ein Affe isst eine Banane. Lena lacht und macht ein Foto. Später sehen die Kinder die Löwen. Die Löwen schlafen in der Sonne.\n\nZum Mittagessen essen alle Kinder Brote im Park. Danach besuchen sie noch die Pinguine. Die Pinguine schwimmen im Wasser. Am Nachmittag fährt der Bus zurück zur Schule. Lena erzählt ihrer Mutter von dem schönen Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Lena fährt mit dem Zug in den Zoo.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Elefanten sind sehr groß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Affe isst eine Banane.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Löwen spielen im Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag fährt der Bus zurück zur Schule.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingstier",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingstier",
+    "descripcion": "Ein Kind beschreibt sein Lieblingstier, den Hund, und seinen Alltag mit ihm.",
+    "texto": "Mein Lieblingstier ist der Hund. Mein Hund heißt Bruno. Bruno ist braun und weiß. Er ist noch jung und sehr verspielt. Jeden Morgen gehe ich mit ihm spazieren.\n\nBruno mag Bälle sehr gern. Im Park werfe ich den Ball, und Bruno läuft schnell. Er bringt den Ball immer zurück. Nach dem Spielen trinkt er viel Wasser. Am Nachmittag schläft Bruno gern auf dem Sofa.\n\nMeine Familie liebt Bruno sehr. Meine Schwester füttert ihn jeden Abend. Wir gehen oft zusammen mit Bruno spazieren. Bruno ist unser bester Freund.",
+    "preguntas": [
+      {
+        "enunciado": "Das Lieblingstier ist eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist braun und weiß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno mag keine Bälle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno trinkt nach dem Spielen Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schwester füttert Bruno jeden Abend.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-autopanne-im-urlaub",
+    "nivel": "A2",
+    "titulo": "Die Autopanne im Urlaub",
+    "descripcion": "Familie Schmidt hat im Urlaub eine Autopanne und muss unerwartet Hilfe suchen.",
+    "texto": "Familie Schmidt ist letzten Sommer nach Italien gefahren. Nach drei Stunden Fahrt ist plötzlich das Auto stehen geblieben, weil der Motor überhitzt war. Herr Schmidt ist ausgestiegen und hat unter die Motorhaube geschaut. Er hat schnell gemerkt, dass er das Problem nicht allein lösen kann.\n\nFrau Schmidt hat den Abschleppdienst angerufen, während die Kinder im Auto gewartet haben. Es hat fast eine Stunde gedauert, bis der Abschleppwagen gekommen ist. Der Mechaniker hat gesagt, dass die Kühlflüssigkeit ausgelaufen war. Zum Glück hat er das Auto direkt vor Ort reparieren können.\n\nWeil die Reparatur länger gedauert hat, sind sie erst am Abend im Hotel angekommen. Die Kinder waren müde, aber froh, dass die Reise endlich weiterging. Am nächsten Tag hat die Familie über das Abenteuer gelacht und ist glücklich am Meer angekommen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Schmidt ist nach Frankreich gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Auto ist stehen geblieben, weil der Motor überhitzt war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Schmidt hat das Problem sofort allein gelöst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Mechaniker hat das Auto vor Ort repariert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie ist noch am selben Nachmittag am Meer angekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-im-freibad",
+    "nivel": "A2",
+    "titulo": "Ein Besuch im Freibad",
+    "descripcion": "Julia und ihre Freunde verbringen einen heißen Sommertag im Freibad.",
+    "texto": "Julia ist am Samstag mit ihren Freunden ins Freibad gegangen, weil es sehr heiß war. Sie haben sich Liegestühle gesucht und ihre Handtücher ausgebreitet. Danach sind sie sofort ins Wasser gesprungen. Das Wasser war angenehm kühl.\n\nAm Sprungturm haben viele Kinder gewartet, weil dort besonders viel los war. Julia hatte zuerst Angst, aber ihre Freundin hat ihr Mut gemacht. Schließlich ist sie mutig gesprungen und alle haben applaudiert. Danach haben sie zusammen Wasserball gespielt.\n\nAm Nachmittag haben sie Pommes und Eis am Kiosk gekauft, weil sie großen Hunger hatten. Sie haben sich in die Sonne gelegt und über den Sommer gesprochen. Als es kühler wurde, sind sie glücklich nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist allein ins Freibad gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sprungturm war wenig los.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hatte zuerst Angst vor dem Sprung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben zusammen Wasserball gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind schon am Vormittag nach Hause gefahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-koffer-am-flughafen",
+    "nivel": "A2",
+    "titulo": "Der verlorene Koffer am Flughafen",
+    "descripcion": "Markus verliert bei seiner Ankunft am Flughafen seinen Koffer und muss ihn suchen.",
+    "texto": "Markus ist letzte Woche nach Spanien geflogen, um seine Familie zu besuchen. Als er am Flughafen angekommen ist, hat er lange auf das Gepäckband gewartet. Nach einer halben Stunde waren fast alle Koffer weg, aber sein Koffer war nicht dabei.\n\nMarkus ist zum Servicebüro gegangen, weil er sich Sorgen gemacht hat. Die Mitarbeiterin hat gesagt, dass der Koffer vielleicht in einem anderen Flugzeug geblieben ist. Sie hat ein Formular ausgefüllt und Markus versprochen, dass er informiert wird, sobald der Koffer gefunden ist.\n\nZwei Tage später hat die Fluggesellschaft angerufen und gesagt, dass der Koffer angekommen ist. Ein Fahrer hat den Koffer direkt zu Markus' Hotel gebracht. Markus war sehr erleichtert, dass am Ende alles gut ausgegangen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist nach Spanien gereist, um zu arbeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Koffer war nicht auf dem Gepäckband.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat sich keine Sorgen gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fluggesellschaft hat nach zwei Tagen angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus musste den Koffer selbst am Flughafen abholen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-im-neuen-job",
+    "nivel": "B1",
+    "titulo": "Der erste Tag im neuen Job",
+    "descripcion": "Sophie berichtet von ihrem aufregenden ersten Arbeitstag in einer neuen Firma.",
+    "texto": "Sophie hatte lange auf diesen Tag gewartet: ihren ersten Arbeitstag in der neuen Firma. Obwohl sie in der Nacht davor kaum geschlafen hatte, war sie voller Energie und Vorfreude. Schon am Eingang wurde sie von einer freundlichen Kollegin begrüßt, die ihr den Weg zu ihrem Schreibtisch zeigte.\n\nNachdem sie sich kurz vorgestellt hatte, bekam Sophie eine Führung durch das ganze Gebäude. Sie lernte viele neue Gesichter kennen und musste sich unzählige Namen merken. Trotzdem fühlte sie sich schon nach kurzer Zeit gut aufgenommen, weil das Team sehr hilfsbereit war. Am Mittag aßen alle gemeinsam in der Kantine, und Sophie konnte in entspannter Atmosphäre erste Gespräche führen.\n\nAm Nachmittag bekam sie ihre ersten Aufgaben und einen Mentor zugeteilt, der ihr bei Fragen zur Seite stand. Obwohl vieles neu und ungewohnt war, ging Sophie am Abend mit einem guten Gefühl nach Hause. Sie war sich sicher, dass sie sich in der neuen Firma bald wohlfühlen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hatte in der Nacht vor ihrem ersten Arbeitstag gut geschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kollegin hat Sophie am Eingang begrüßt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie musste sich keine neuen Namen merken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Team war laut Sophie sehr hilfsbereit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie ging mit einem schlechten Gefühl nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-im-kletterpark",
+    "nivel": "B1",
+    "titulo": "Ein Wochenende im Kletterpark",
+    "descripcion": "Eine Gruppe von Freunden verbringt ein aufregendes Wochenende in einem Hochseilgarten.",
+    "texto": "Am Wochenende sind Lisa und ihre Freunde in einen Kletterpark gefahren, den sie schon lange besuchen wollten. Obwohl Lisa Höhenangst hatte, wollte sie sich der Herausforderung stellen. Nachdem sie den Sicherheitsgurt angelegt hatten, erklärte ein Trainer die wichtigsten Regeln für den Parcours.\n\nDer erste Parcours war noch niedrig und einfach, doch mit jeder Runde wurde es schwieriger. Trotzdem gab Lisa nicht auf, denn ihre Freunde feuerten sie bei jedem Schritt an. Als sie den höchsten Parcours erreichte, zitterten ihre Hände, aber sie schaffte es bis zum Ende.\n\nNachdem alle den Kletterpark verlassen hatten, waren sich die Freunde einig, dass es ein unvergesslicher Tag gewesen war. Obwohl ihre Arme am nächsten Tag stark schmerzten, planten sie bereits den nächsten Ausflug. Lisa war besonders stolz, weil sie ihre Angst überwunden hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa hatte keine Angst vor Höhen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Trainer hat die Regeln erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der erste Parcours war der schwierigste.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa hat den höchsten Parcours geschafft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde wollen keinen weiteren Ausflug machen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vorbereitung-auf-den-stadtlauf",
+    "nivel": "B1",
+    "titulo": "Die Vorbereitung auf den Stadtlauf",
+    "descripcion": "Jonas trainiert wochenlang für seinen ersten Stadtlauf und kämpft mit Zweifeln.",
+    "texto": "Jonas hatte sich entschieden, am jährlichen Stadtlauf teilzunehmen, obwohl er noch nie zuvor eine so lange Strecke gelaufen war. Um sich vorzubereiten, trainierte er dreimal pro Woche im Park in der Nähe seiner Wohnung. Anfangs fiel ihm das Laufen schwer, und er musste nach wenigen Minuten immer wieder Pausen einlegen.\n\nNachdem er einige Wochen trainiert hatte, bemerkte Jonas, dass er länger und schneller laufen konnte. Trotzdem hatte er kurz vor dem Wettkampf Zweifel, ob seine Kondition ausreichen würde. Ein Freund, der schon mehrmals am Stadtlauf teilgenommen hatte, gab ihm wertvolle Tipps zur richtigen Atmung und zum Tempo.\n\nAm Tag des Laufs war Jonas nervös, aber auch aufgeregt. Obwohl die letzten Kilometer sehr anstrengend waren, gab er nicht auf und überquerte schließlich die Ziellinie. Er war überglücklich, weil er sein Ziel trotz aller Zweifel erreicht hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas war vor dem Stadtlauf schon ein erfahrener Langstreckenläufer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas trainierte dreimal pro Woche im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte kurz vor dem Wettkampf keine Zweifel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Freund gab ihm Tipps zur Atmung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat die Ziellinie nicht erreicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "lebensmittelverschwendung-ein-unterschaetztes-problem",
+    "nivel": "B2",
+    "titulo": "Lebensmittelverschwendung – Ein unterschätztes Problem",
+    "descripcion": "Eine Analyse der Ursachen und Folgen von Lebensmittelverschwendung in Deutschland.",
+    "texto": "In Deutschland werden jährlich Millionen Tonnen Lebensmittel weggeworfen, obwohl ein Großteil davon noch genießbar wäre. Ein erheblicher Anteil dieser Verschwendung entsteht bereits in privaten Haushalten, wo abgelaufene Mindesthaltbarkeitsdaten häufig mit tatsächlichem Verderb verwechselt werden. Viele Verbraucher würden weniger wegwerfen, wenn sie besser über die Bedeutung dieser Daten informiert wären.\n\nDoch nicht nur Privathaushalte tragen zu diesem Problem bei. Auch im Handel werden große Mengen an Obst und Gemüse aussortiert, weil sie optisch nicht den Erwartungen der Kunden entsprechen. Krumme Gurken oder kleine Äpfel werden oft gar nicht erst in die Regale gestellt, obwohl sie geschmacklich völlig einwandfrei wären. Kritiker fordern daher, dass strengere Vorgaben zur Verwertung überschüssiger Lebensmittel eingeführt werden sollten.\n\nInitiativen wie „Too Good To Go\" versuchen, dieser Entwicklung entgegenzuwirken, indem überschüssige Lebensmittel aus Restaurants und Bäckereien zu reduzierten Preisen angeboten werden. Sollten solche Projekte stärker gefördert werden, könnte ein spürbarer Rückgang der Verschwendung erzielt werden. Dennoch bleibt fraglich, ob freiwillige Initiativen allein ausreichen, um das Problem grundlegend zu lösen.\n\nExperten sind sich einig, dass ein Umdenken auf mehreren Ebenen notwendig wäre, um Lebensmittelverschwendung nachhaltig zu reduzieren. Neben gesetzlichen Maßnahmen müsste auch das Bewusstsein der Verbraucher gestärkt werden. Nur wenn Politik, Handel und Gesellschaft gemeinsam handeln, könnte dieses unterschätzte Problem wirksam bekämpft werden.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland wird kaum ein Lebensmittel weggeworfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Verbraucher verwechseln das Mindesthaltbarkeitsdatum mit dem tatsächlichen Verderb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Krummes Gemüse wird im Handel grundsätzlich bevorzugt verkauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Initiativen wie „Too Good To Go\" bieten überschüssige Lebensmittel günstiger an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten sind sich einig, dass allein der Handel für das Problem verantwortlich ist.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-utopie-oder-zukunftsmodell",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche – Utopie oder Zukunftsmodell?",
+    "descripcion": "Eine Auseinandersetzung mit Chancen und Risiken der Vier-Tage-Woche in der modernen Arbeitswelt.",
+    "texto": "Die Idee der Vier-Tage-Woche gewinnt in den letzten Jahren zunehmend an Bedeutung, insbesondere seit mehrere Unternehmen entsprechende Pilotprojekte durchgeführt haben. Dabei wird die reguläre Arbeitszeit auf vier Tage verteilt, ohne dass das Gehalt der Beschäftigten gekürzt wird. Befürworter argumentieren, dass Mitarbeitende produktiver arbeiten würden, wenn ihnen mehr Zeit zur Erholung zur Verfügung stünde.\n\nTatsächlich zeigen erste Studien, dass viele Beschäftigte weniger gestresst wirken und ihre Konzentration steigt, wenn sie einen zusätzlichen freien Tag erhalten. Zugleich wird jedoch kritisch angemerkt, dass sich dieses Modell nicht in jeder Branche gleichermaßen umsetzen ließe. Während es in der Büroarbeit relativ unkompliziert eingeführt werden könnte, wäre die Umsetzung im Gesundheitswesen oder in der Produktion deutlich schwieriger, da dort eine durchgehende Besetzung notwendig ist.\n\nSkeptiker befürchten zudem, dass durch die verkürzte Arbeitswoche der Druck auf die verbleibenden Arbeitstage steigen könnte. Wenn Beschäftigte dasselbe Arbeitspensum in weniger Zeit bewältigen müssten, bestünde die Gefahr, dass Stress und Erschöpfung langfristig zunehmen würden, anstatt zu sinken. Es wird daher gefordert, dass Arbeitgeber realistische Ziele setzen, bevor ein solches Modell flächendeckend eingeführt wird.\n\nOb sich die Vier-Tage-Woche langfristig durchsetzen wird, bleibt ungewiss. Sicher ist jedoch, dass die Debatte über flexiblere Arbeitszeitmodelle die Arbeitswelt der Zukunft entscheidend prägen wird, unabhängig davon, welches konkrete Modell sich am Ende als praktikabel erweist.",
+    "preguntas": [
+      {
+        "enunciado": "Bei der Vier-Tage-Woche wird das Gehalt üblicherweise gekürzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Erste Studien zeigen, dass viele Beschäftigte weniger gestresst wirken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Umsetzung im Gesundheitswesen gilt als besonders einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Skeptiker befürchten steigenden Druck an den verbleibenden Arbeitstagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es ist bereits sicher, dass sich die Vier-Tage-Woche durchsetzen wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "anonymitaet-im-internet-freiheit-oder-gefahr",
+    "nivel": "B2",
+    "titulo": "Anonymität im Internet – Freiheit oder Gefahr?",
+    "descripcion": "Ein Beitrag über die Vor- und Nachteile anonymer Kommunikation im digitalen Raum.",
+    "texto": "Die Möglichkeit, sich im Internet anonym zu äußern, wird seit Jahren kontrovers diskutiert. Befürworter betonen, dass Anonymität es Menschen ermögliche, sich frei zu äußern, ohne berufliche oder soziale Konsequenzen befürchten zu müssen. Besonders in autoritären Staaten könnte anonyme Kommunikation dazu beitragen, dass Missstände öffentlich gemacht werden, ohne dass die Betroffenen persönliche Nachteile erleiden.\n\nGleichzeitig wird jedoch kritisiert, dass genau diese Anonymität von manchen Nutzern missbraucht wird, um Beleidigungen, Drohungen oder Falschinformationen zu verbreiten. Da Verfasser solcher Beiträge kaum identifiziert werden können, bleiben viele derartige Vergehen ohne rechtliche Konsequenzen. Betroffene von Hassrede berichten häufig, dass sie sich hilflos fühlten, weil eine Anzeige gegen unbekannte Täter kaum Erfolgsaussichten hätte.\n\nEinige Experten schlagen daher vor, dass eine Klarnamenpflicht auf sozialen Netzwerken eingeführt werden sollte, um die Verantwortlichkeit der Nutzer zu erhöhen. Andere wiederum warnen, dass eine solche Pflicht die Meinungsfreiheit erheblich einschränken würde und insbesondere schutzbedürftige Gruppen gefährden könnte. Würde man die Anonymität vollständig abschaffen, bestünde zudem das Risiko, dass sich weniger Menschen trauen würden, Missstände öffentlich anzusprechen.\n\nLetztlich handelt es sich um einen Balanceakt zwischen dem Schutz der Meinungsfreiheit und der Verhinderung von Missbrauch. Eine allgemeingültige Lösung, die allen Interessen gerecht würde, scheint bislang nicht in Sicht zu sein.",
+    "preguntas": [
+      {
+        "enunciado": "Anonymität im Internet wird von allen Seiten unkritisch positiv bewertet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anonyme Kommunikation kann in autoritären Staaten helfen, Missstände öffentlich zu machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Verfasser anonymer Hassrede werden meist problemlos identifiziert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Experten schlagen eine Klarnamenpflicht auf sozialen Netzwerken vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt bereits eine allgemeingültige Lösung, die alle Interessen berücksichtigt.",
+        "respuesta": false
+      }
+    ]
   }
 ]
