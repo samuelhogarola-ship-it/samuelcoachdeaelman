@@ -20306,5 +20306,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-fruehling",
+    "nivel": "A1",
+    "titulo": "Der Frühling",
+    "descripcion": "Anna erzählt von ihrem Garten im Frühling.",
+    "texto": "Es ist Frühling. Die Sonne scheint. Die Vögel singen laut. Anna geht in den Garten. Die Blumen sind bunt. Sie sieht rote Tulpen und gelbe Tulpen. Die Luft ist warm.\n\nAnna pflanzt neue Blumen. Sie trägt eine grüne Gießkanne. Das Wasser ist kalt. Der Hund spielt im Gras. Er ist braun und klein. Anna lacht viel.\n\nAm Nachmittag kommt ihre Oma. Sie trinken Tee im Garten. Die Oma mag die Tulpen sehr. „Der Garten ist wunderschön“, sagt sie. Anna ist glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Es ist Winter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Blumen sind bunt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna hat eine grüne Gießkanne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund ist schwarz und groß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma trinkt Tee im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-taschengeld",
+    "nivel": "A1",
+    "titulo": "Mein Taschengeld",
+    "descripcion": "Ein Kind erzählt, wie es sein Taschengeld bekommt und ausgibt.",
+    "texto": "Ich heiße Paul. Ich bin neun Jahre alt. Jeden Sonntag bekomme ich Taschengeld. Ich bekomme fünf Euro. Meine Mutter gibt mir das Geld.\n\nIch spare das Geld in einer Box. Die Box ist rot. Manchmal kaufe ich Süßigkeiten. Manchmal kaufe ich ein kleines Buch. Ich mag Bücher über Tiere.\n\nHeute gehe ich mit Papa in den Laden. Ich kaufe einen Ball. Der Ball kostet vier Euro. Ich habe noch einen Euro. Das ist mein Taschengeld.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist neun Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul bekommt jeden Montag Taschengeld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Box ist rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft nur Süßigkeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ball kostet vier Euro.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unsere-strasse",
+    "nivel": "A1",
+    "titulo": "Unsere Straße",
+    "descripcion": "Ein Kind beschreibt die Straße, in der es wohnt.",
+    "texto": "Ich wohne in der Blumenstraße. Die Straße ist lang. Viele Häuser sind bunt. Unser Haus ist gelb. Es hat einen kleinen Garten.\n\nNeben uns wohnt Herr Klein. Er hat eine Katze. Die Katze heißt Mimi. Gegenüber wohnt die Familie Bauer. Sie haben drei Kinder.\n\nAm Ende der Straße ist ein Spielplatz. Dort spiele ich mit meinen Freunden. Wir spielen Fußball und Verstecken. Die Straße ist ruhig und schön.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie wohnt in der Blumenstraße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Haus ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Klein hat einen Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie Bauer hat drei Kinder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende der Straße ist ein Spielplatz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-drucker-im-buero",
+    "nivel": "A2",
+    "titulo": "Der neue Drucker im Büro",
+    "descripcion": "Im Büro gibt es Probleme mit dem neuen Drucker.",
+    "texto": "Letzte Woche hat die Firma einen neuen Drucker gekauft, weil der alte Drucker kaputt war. Der neue Drucker war teuer, aber sehr modern. Am ersten Tag hat niemand gewusst, wie er funktioniert.\n\nHerr Bergmann hat versucht, ein Dokument zu drucken, aber der Drucker hat nicht reagiert. Er hat den Techniker angerufen, weil er das Problem nicht allein lösen konnte. Der Techniker ist schnell gekommen und hat den Drucker repariert.\n\nJetzt funktioniert der Drucker gut. Alle Kollegen sind froh, dass es keine Probleme mehr gibt. Frau Weiss hat gesagt: „Wenn wir Hilfe brauchen, rufen wir sofort den Techniker an.“ Seitdem läuft die Arbeit im Büro viel besser.",
+    "preguntas": [
+      {
+        "enunciado": "Die Firma hat einen neuen Drucker gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der neue Drucker war billig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Bergmann konnte das Problem sofort allein lösen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Techniker hat den Drucker repariert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Drucker funktioniert jetzt schlecht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-ohne-plan",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende ohne Plan",
+    "descripcion": "Julia erzählt von einem spontanen Wochenende ohne feste Pläne.",
+    "texto": "Am Freitagabend hatte Julia keine Pläne für das Wochenende. Das war ungewöhnlich, weil sie normalerweise immer etwas organisiert. Sie hat beschlossen, einfach spontan zu sein.\n\nAm Samstagmorgen ist sie lange im Bett geblieben, weil sie müde war. Dann hat sie gefrühstückt und ist spazieren gegangen. Am Nachmittag hat sie eine Freundin getroffen, die zufällig auch keine Pläne hatte. Sie sind zusammen ins Kino gegangen.\n\nAm Sonntag hat Julia im Park gelesen, weil das Wetter schön war. Sie hat gemerkt, dass ein Wochenende ohne Plan auch sehr schön sein kann. Wenn sie wieder Zeit hat, möchte sie das öfter machen.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hatte am Freitag schon feste Pläne fürs Wochenende.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist am Samstag früh aufgestanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat am Samstag eine Freundin getroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind zusammen ins Museum gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia fand das Wochenende ohne Plan schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-email-von-der-sprachschule",
+    "nivel": "A2",
+    "titulo": "Eine E-Mail von der Sprachschule",
+    "descripcion": "Marco bekommt eine wichtige E-Mail über seinen Deutschkurs.",
+    "texto": "Marco hat sich vor zwei Monaten für einen Deutschkurs angemeldet. Gestern hat er eine E-Mail von der Sprachschule bekommen. In der E-Mail stand, dass der Kurs eine Woche später beginnt.\n\nMarco war zuerst enttäuscht, weil er sich schon auf den Kurs gefreut hatte. Aber dann hat er verstanden, dass die Schule mehr Zeit für die Organisation braucht. Er hat der Sprachschule geantwortet und um Informationen zum neuen Termin gebeten.\n\nAm Abend hat Marco seinen Freunden erzählt, dass der Kurs später beginnt. Sie haben gesagt, wenn er noch Zeit hat, könnte er mit ihnen wandern gehen. Marco fand die Idee gut und hat sich sehr gefreut.",
+    "preguntas": [
+      {
+        "enunciado": "Marco hat sich vor zwei Monaten für den Kurs angemeldet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kurs beginnt früher als geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marco war zuerst enttäuscht über die Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marco hat der Sprachschule nicht geantwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marco geht mit seinen Freunden wandern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-erste-eigene-band",
+    "nivel": "B1",
+    "titulo": "Die erste eigene Band",
+    "descripcion": "Drei Freunde gründen trotz vieler Zweifel ihre erste eigene Band.",
+    "texto": "Simon spielt seit vielen Jahren Gitarre, obwohl er nie professionellen Unterricht hatte. Zusammen mit seinen Freunden Tim und Laura hat er beschlossen, eine eigene Band zu gründen. Anfangs hatten sie kaum Ahnung, wie man zusammen probt, trotzdem trafen sie sich jeden Freitag im Keller von Tims Eltern.\n\nNachdem sie mehrere Wochen geübt hatten, klang ihre Musik schon viel besser. Obwohl es oft Streit über die Liedauswahl gab, blieben die drei Freunde zusammen und lernten, Kompromisse zu finden. Laura schrieb die Texte, während Tim und Simon sich um die Melodien kümmerten.\n\nAls ein kleines Café in der Stadt einen Auftritt für lokale Bands suchte, meldeten sie sich sofort an, obwohl sie noch nie vor Publikum gespielt hatten. Der Auftritt war ein voller Erfolg, und viele Zuschauer applaudierten begeistert. Seitdem träumen die drei davon, eines Tages ein eigenes Album aufzunehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Simon hatte professionellen Gitarrenunterricht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Band traf sich jeden Freitag zum Proben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab nie Streit über die Liedauswahl.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura war für die Melodien zuständig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Auftritt im Café war erfolgreich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kochwettbewerb-in-der-stadt",
+    "nivel": "B1",
+    "titulo": "Der Kochwettbewerb in der Stadt",
+    "descripcion": "Ein junger Koch nimmt an einem städtischen Kochwettbewerb teil.",
+    "texto": "David arbeitet seit zwei Jahren als Koch in einem kleinen Restaurant. Obwohl er noch relativ unerfahren ist, wollte er unbedingt am jährlichen Kochwettbewerb seiner Stadt teilnehmen. Viele erfahrene Köche hatten sich schon angemeldet, trotzdem gab David nicht auf.\n\nNachdem er wochenlang neue Rezepte ausprobiert hatte, entschied er sich für ein Gericht mit regionalem Gemüse und Fisch. Am Tag des Wettbewerbs war er sehr nervös, obwohl er sich gut vorbereitet fühlte. Die Jury bestand aus drei bekannten Köchen der Region.\n\nAls die Ergebnisse verkündet wurden, konnte David es kaum glauben: Er hatte den zweiten Platz gewonnen. Trotzdem war er überglücklich, denn er hatte nie mit einer Platzierung gerechnet. Nach dem Wettbewerb bekam er sogar ein Jobangebot von einem größeren Restaurant.",
+    "preguntas": [
+      {
+        "enunciado": "David arbeitet seit zehn Jahren als Koch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David hat sich für den Kochwettbewerb angemeldet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David hat ein Gericht mit Fleisch und Reis gekocht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David hat den ersten Platz gewonnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David hat nach dem Wettbewerb ein Jobangebot bekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-praktikum-bei-der-zeitung",
+    "nivel": "B1",
+    "titulo": "Das Praktikum bei der Zeitung",
+    "descripcion": "Eine Studentin macht ein Praktikum bei einer lokalen Zeitung.",
+    "texto": "Nele studiert Journalismus und hat sich lange für ein Praktikum bei der Lokalzeitung ihrer Stadt beworben. Nachdem sie mehrere Absagen bekommen hatte, war sie überrascht, als die Redaktion sie schließlich einlud. Obwohl sie sehr aufgeregt war, freute sie sich riesig auf die neue Erfahrung.\n\nIn den ersten Tagen durfte Nele nur kleine Artikel schreiben, trotzdem lernte sie viel über die Arbeit in einer Redaktion. Sie begleitete erfahrene Journalisten zu Interviews und half bei der Recherche. Nachdem sie einen Bericht über ein lokales Stadtfest geschrieben hatte, wurde ihr Artikel sogar auf der ersten Seite veröffentlicht.\n\nAm Ende des Praktikums war Nele stolz auf ihre Entwicklung, obwohl der Weg dorthin nicht immer leicht gewesen war. Der Chefredakteur bot ihr an, auch in den Semesterferien weiterzuarbeiten. Nele nahm das Angebot dankbar an, weil sie gemerkt hatte, dass Journalismus wirklich ihre Leidenschaft ist.",
+    "preguntas": [
+      {
+        "enunciado": "Nele hat sofort eine Zusage für das Praktikum bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nele durfte von Anfang an nur große Artikel schreiben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Neles Artikel über das Stadtfest wurde auf der ersten Seite veröffentlicht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Chefredakteur bot Nele eine Weiterarbeit an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nele hat das Angebot abgelehnt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "steueroasen-und-globale-gerechtigkeit",
+    "nivel": "B2",
+    "titulo": "Steueroasen und globale Gerechtigkeit",
+    "descripcion": "Ein Blick auf die Debatte um Steuervermeidung und internationale Steuergerechtigkeit.",
+    "texto": "Jedes Jahr gehen Staaten weltweit schätzungsweise hunderte Milliarden Euro an Steuereinnahmen verloren, weil multinationale Konzerne und vermögende Privatpersonen ihre Gewinne in sogenannte Steueroasen verschieben. Diese Länder locken mit besonders niedrigen Steuersätzen und diskreten Regeln, wodurch Kapital angezogen wird, das eigentlich in den Herkunftsländern versteuert werden müsste. Kritiker argumentieren, dass dadurch öffentliche Ausgaben für Bildung, Gesundheit und Infrastruktur gekürzt werden müssen.\n\nWürde eine globale Mindeststeuer konsequent umgesetzt, könnten viele dieser Verluste vermieden werden. In den letzten Jahren wurde bereits ein internationales Abkommen über eine solche Mindestbesteuerung verhandelt, das von über hundertdreißig Staaten unterstützt wird. Dennoch bleibt die praktische Umsetzung schwierig, da einzelne Länder weiterhin eigene Interessen verfolgen und Ausnahmeregelungen fordern.\n\nBefürworter einer strengeren Regulierung betonen, dass Steuergerechtigkeit eine Grundvoraussetzung für funktionierende Demokratien sei. Wenn Konzerne ihren fairen Anteil an Steuern zahlten, stünden den Staaten mehr Mittel zur Verfügung, um soziale Ungleichheit zu bekämpfen. Gegner hingegen warnen davor, dass zu hohe Steuersätze Investitionen ins Ausland verdrängen könnten, was letztlich Arbeitsplätze kosten würde.\n\nDie Debatte zeigt, wie eng wirtschaftliche und ethische Fragen miteinander verknüpft sind. Solange keine verbindliche globale Lösung gefunden wird, dürfte das Thema Steuervermeidung ein zentraler Streitpunkt der internationalen Politik bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Steueroasen locken mit besonders hohen Steuersätzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen einen Zusammenhang zwischen Steuervermeidung und gekürzten öffentlichen Ausgaben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Über hundertdreißig Staaten unterstützen das Abkommen zur globalen Mindeststeuer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die praktische Umsetzung der Mindeststeuer gilt als völlig unproblematisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text ist die Debatte um Steuergerechtigkeit bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "tierwohlkennzeichnung-im-supermarkt",
+    "nivel": "B2",
+    "titulo": "Tierwohlkennzeichnung im Supermarkt",
+    "descripcion": "Die Diskussion um verpflichtende Kennzeichnungen für Tierwohl auf Lebensmitteln.",
+    "texto": "Seit einigen Jahren wird in Deutschland intensiv über eine verpflichtende Tierwohlkennzeichnung auf Fleischprodukten diskutiert. Verbraucher sollen dadurch auf einen Blick erkennen können, unter welchen Bedingungen ein Tier gehalten wurde, bevor es zu Lebensmitteln verarbeitet wurde. Befürworter argumentieren, dass eine solche Kennzeichnung mehr Transparenz schaffen und bewussteres Einkaufen fördern würde.\n\nKritiker geben jedoch zu bedenken, dass eine verpflichtende Kennzeichnung allein nicht ausreiche, um die Haltungsbedingungen tatsächlich zu verbessern. Sie fordern zusätzlich finanzielle Unterstützung für Landwirte, die in bessere Ställe investieren müssten. Ohne eine solche Förderung, so wird argumentiert, könnten sich viele kleinere Betriebe die notwendigen Umbauten schlicht nicht leisten.\n\nWäre die Kennzeichnung verpflichtend und einheitlich geregelt, könnten Verbraucher leichter vergleichen und gezielter einkaufen. Studien deuten jedoch darauf hin, dass viele Menschen trotz vorhandener Informationen weiterhin zum günstigsten Produkt greifen, weil der Preis oft eine größere Rolle spielt als das Tierwohl. Diese Diskrepanz zwischen Anspruch und tatsächlichem Kaufverhalten wird in der Forschung als „Attitude-Behavior-Gap“ bezeichnet.\n\nOb die geplante Kennzeichnung tatsächlich zu besseren Haltungsbedingungen führt, wird sich erst in den kommenden Jahren zeigen. Klar ist jedoch, dass eine nachhaltige Veränderung nur gelingen kann, wenn Politik, Landwirtschaft und Verbraucher gemeinsam Verantwortung übernehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Tierwohlkennzeichnung soll Verbrauchern mehr Transparenz beim Einkauf bieten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind gegen jede Form von Kennzeichnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Landwirte könnten sich Umbauten ohne finanzielle Förderung nicht leisten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text kaufen alle Verbraucher trotz höherer Preise automatisch tierwohlgerechte Produkte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die „Attitude-Behavior-Gap“ beschreibt die Kluft zwischen Anspruch und tatsächlichem Verhalten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nudging-in-der-politik",
+    "nivel": "B2",
+    "titulo": "Nudging in der Politik",
+    "descripcion": "Wie sanfte Anstöße das Verhalten von Bürgerinnen und Bürgern beeinflussen sollen.",
+    "texto": "Unter dem Begriff „Nudging“ versteht man politische Maßnahmen, die Menschen durch kleine, gezielte Anstöße zu einem bestimmten Verhalten bewegen sollen, ohne dabei Verbote oder finanzielle Anreize einzusetzen. Ein klassisches Beispiel ist die Organspende: Wird die Zustimmung zur Organspende als Standardoption vorausgesetzt, steigt die Spenderquote deutlich, verglichen mit Ländern, in denen man sich aktiv eintragen muss.\n\nBefürworter des Nudging-Ansatzes betonen, dass dadurch gesellschaftlich erwünschtes Verhalten gefördert werden könne, ohne die individuelle Freiheit einzuschränken. Man spricht in diesem Zusammenhang auch von „liberalem Paternalismus“, da den Menschen zwar ein sanfter Anstoß gegeben wird, sie sich aber weiterhin frei dagegen entscheiden können.\n\nKritiker hingegen werfen der Politik vor, mit Nudging manipulativ auf das Verhalten der Bürger einzuwirken, ohne dass diese sich der Beeinflussung überhaupt bewusst seien. Wenn Entscheidungen unbewusst gelenkt würden, sei dies mit demokratischen Grundprinzipien wie Transparenz und Selbstbestimmung nur schwer vereinbar. Manche fordern deshalb, dass jede Form von Nudging offengelegt werden müsse.\n\nTrotz dieser Kontroverse wird Nudging inzwischen in vielen Bereichen eingesetzt, von der Steuererklärung bis zum Energiesparen. Ob sich die Methode langfristig als wirksames und ethisch vertretbares Instrument der Politik etabliert, bleibt eine offene Frage, die sowohl Wissenschaft als auch Gesellschaft weiter beschäftigen dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Nudging setzt vor allem auf Verbote und finanzielle Strafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bei der Organspende kann eine Standardoption die Spenderquote erhöhen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter nennen den Ansatz auch „liberalen Paternalismus“.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen bei Nudging keinerlei Konflikt mit demokratischen Prinzipien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nudging wird laut Text ausschließlich im Gesundheitsbereich eingesetzt.",
+        "respuesta": false
+      }
+    ]
   }
 ]
