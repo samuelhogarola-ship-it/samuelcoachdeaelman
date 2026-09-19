@@ -20654,5 +20654,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-copyshop",
+    "nivel": "A1",
+    "titulo": "Im Copyshop",
+    "descripcion": "Lena druckt und kopiert Dokumente für die Schule.",
+    "texto": "Lena braucht Kopien für die Schule. Sie geht zum Copyshop in der Stadt. Der Copyshop ist neben der Bäckerei.\n\nDer Mann im Copyshop heißt Herr Berger. Lena sagt: „Ich brauche zehn Kopien, bitte.“ Herr Berger nimmt das Blatt und druckt die Kopien. Er fragt: „Farbig oder schwarz-weiß?“ Lena antwortet: „Schwarz-weiß, bitte. Das ist billiger.“\n\nDie Kopien kosten zwei Euro. Lena bezahlt und packt die Blätter in ihre Tasche. Sie sagt „Danke schön“ und geht schnell zur Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Der Copyshop ist neben der Bäckerei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena braucht zwanzig Kopien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Berger arbeitet im Copyshop.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena möchte farbige Kopien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kopien kosten zwei Euro.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-kaninchen",
+    "nivel": "A1",
+    "titulo": "Mein Kaninchen",
+    "descripcion": "Paul erzählt von seinem Kaninchen und seiner täglichen Pflege.",
+    "texto": "Paul hat ein Kaninchen. Das Kaninchen heißt Flocke und ist weiß und braun. Flocke wohnt in einem Käfig im Garten.\n\nJeden Morgen füttert Paul das Kaninchen. Flocke isst gern Karotten und Salat. Am Nachmittag spielt Paul mit Flocke im Garten. Das Kaninchen läuft schnell und springt hoch.\n\nAbends bringt Paul Flocke zurück in den Käfig. Er sagt: „Gute Nacht, Flocke!“ Paul liebt sein Kaninchen sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Das Kaninchen heißt Flocke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flocke wohnt im Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Flocke isst gern Karotten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul spielt nie mit Flocke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul liebt sein Kaninchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-waescheleine-im-hof",
+    "nivel": "A1",
+    "titulo": "Die Wäscheleine im Hof",
+    "descripcion": "Frau Winter hängt jeden Samstag ihre Wäsche im Hinterhof auf.",
+    "texto": "Frau Winter wohnt in einem alten Haus. Hinter dem Haus ist ein kleiner Hof. Dort hängt eine Wäscheleine.\n\nJeden Samstag wäscht Frau Winter ihre Kleidung. Danach trägt sie den Wäschekorb in den Hof. Sie hängt Hemden, Socken und Handtücher an die Leine. Die Sonne scheint, und die Wäsche trocknet schnell.\n\nIhr Nachbar Herr Klein hat auch eine Wäscheleine. Manchmal sprechen sie im Hof und trinken zusammen einen Kaffee. Am Abend nimmt Frau Winter die trockene Wäsche wieder ins Haus.",
+    "preguntas": [
+      {
+        "enunciado": "Die Wäscheleine ist im Hof.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Winter wäscht jeden Sonntag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hängt Hemden und Handtücher auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Klein hat keine Wäscheleine.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend holt sie die Wäsche ins Haus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wg-suche",
+    "nivel": "A2",
+    "titulo": "Die WG-Suche",
+    "descripcion": "Tim sucht ein Zimmer in einer Wohngemeinschaft und besucht mehrere WGs.",
+    "texto": "Tim hat sein Studium in Leipzig begonnen und braucht ein Zimmer. Er hat viele Anzeigen gelesen, weil die Zimmer in der Stadt sehr gefragt sind. Am Montag hat er eine WG besucht, aber das Zimmer war zu klein und zu teuer.\n\nAm Mittwoch hat Tim eine andere WG angerufen. Die Studentin Nora hat ihm erklärt, dass drei Personen in der Wohnung leben. Tim ist zur Besichtigung gekommen und hat die Küche und das Wohnzimmer gesehen. Ihm hat die WG sehr gut gefallen, weil sie hell und ruhig war.\n\nAm Freitag hat Nora angerufen und gesagt, dass Tim das Zimmer bekommt. Tim hat sich sehr gefreut, denn er wollte nicht mehr bei seinen Eltern wohnen. Nächste Woche zieht er in die neue WG ein.",
+    "preguntas": [
+      {
+        "enunciado": "Tim studiert in Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das erste Zimmer war groß und billig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der zweiten WG leben drei Personen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat das Zimmer nicht bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim freut sich über die neue WG.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-faehre-nach-helgoland",
+    "nivel": "A2",
+    "titulo": "Die Fähre nach Helgoland",
+    "descripcion": "Eine Familie fährt mit der Fähre zur Insel Helgoland und erlebt raues Wetter.",
+    "texto": "Familie Meyer hat einen Ausflug nach Helgoland geplant. Sie sind früh am Morgen zum Hafen in Cuxhaven gefahren, weil die Fähre um neun Uhr abgefahren ist. Die Kinder waren sehr aufgeregt, denn sie waren noch nie auf einer Insel gewesen.\n\nAuf dem Meer war das Wasser unruhig, weil der Wind stark geblasen hat. Die kleine Tochter hat sich nicht gut gefühlt und musste sich hinlegen. Nach zwei Stunden ist die Fähre endlich in Helgoland angekommen. Die Familie ist ausgestiegen und hat die roten Felsen der Insel bewundert.\n\nAuf der Insel haben sie frischen Fisch gegessen und einen Spaziergang gemacht. Am Nachmittag sind sie mit der Fähre zurückgefahren. Diesmal war das Meer ruhiger, und alle haben die Rückfahrt genossen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Fähre ist in Cuxhaven abgefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Meer war völlig ruhig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tochter hat sich hinlegen müssen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie ist nicht auf die Insel gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Rückfahrt war ruhiger als die Hinfahrt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-nacht-im-baumhaushotel",
+    "nivel": "A2",
+    "titulo": "Eine Nacht im Baumhaushotel",
+    "descripcion": "Ein Paar verbringt eine ungewöhnliche Nacht in einem Baumhaus im Wald.",
+    "texto": "Julia und Marco haben eine Nacht im Baumhaushotel im Schwarzwald gebucht, weil sie etwas Besonderes erleben wollten. Das Baumhaus stand hoch zwischen den Bäumen, und man musste über eine Holztreppe hinaufsteigen. Als sie angekommen sind, hat der Besitzer ihnen alles gezeigt.\n\nAm Abend haben sie auf der kleinen Terrasse gesessen und den Sonnenuntergang beobachtet. Es war sehr still im Wald, nur die Vögel haben gesungen. In der Nacht hat es leicht geregnet, und der Regen hat auf das Holzdach getrommelt.\n\nAm nächsten Morgen sind Julia und Marco früh aufgewacht, weil das Licht durch die großen Fenster geschienen hat. Sie haben gefrühstückt und dann noch einen Spaziergang durch den Wald gemacht, bevor sie nach Hause gefahren sind.",
+    "preguntas": [
+      {
+        "enunciado": "Das Baumhaus steht im Schwarzwald.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Man kommt mit dem Aufzug zum Baumhaus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend haben sie den Sonnenuntergang gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Nacht war es sehr laut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Morgen sind sie im Wald spazieren gegangen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schulwechsel",
+    "nivel": "B1",
+    "titulo": "Der Schulwechsel",
+    "descripcion": "Eine Schülerin muss nach einem Umzug an einer neuen Schule von vorn beginnen.",
+    "texto": "Als Mias Familie nach Leipzig umgezogen ist, musste sie mitten im Schuljahr die Schule wechseln. Obwohl sie sich auf die neue Stadt gefreut hatte, war ihr vor dem ersten Schultag mulmig zumute. Sie kannte niemanden in der Klasse und wusste nicht, wie die Lehrer und Mitschüler sein würden.\n\nAm ersten Tag hat die Klassenlehrerin Mia freundlich vorgestellt, und ein Mädchen namens Lotta hat sich neben sie gesetzt. Trotzdem fühlte sich Mia in den ersten Wochen fremd, weil die anderen sich schon lange kannten und eigene Gruppen gebildet hatten. Nachdem sie jedoch bei einem Gruppenprojekt mit Lotta zusammengearbeitet hatte, wurden die beiden schnell Freundinnen.\n\nMit der Zeit lernte Mia auch andere Mitschüler kennen und fand ihren Platz in der Klasse. Heute, ein halbes Jahr später, sagt sie, dass der Schulwechsel zwar schwierig war, sich aber am Ende gelohnt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Mia ist mitten im Schuljahr umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia freute sich sofort auf den ersten Schultag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lotta hat sich neben Mia gesetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia fühlte sich von Anfang an wie zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende hat sich der Schulwechsel gelohnt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "schueleraustausch-in-frankreich",
+    "nivel": "B1",
+    "titulo": "Schüleraustausch in Frankreich",
+    "descripcion": "Ein Jugendlicher verbringt drei Wochen bei einer Gastfamilie in Frankreich und überwindet seine Unsicherheit.",
+    "texto": "Ben hat sich für einen Schüleraustausch nach Frankreich entschieden, obwohl sein Französisch noch nicht besonders gut war. Bei der Ankunft in Lyon war er nervös, weil die Gastfamilie ihn am Bahnhof abholen sollte und er die Familie nur von Fotos kannte. Zum Glück haben ihn die Eltern und ihr Sohn Antoine herzlich empfangen.\n\nIn den ersten Tagen verstand Ben nur wenig, wenn die Familie schnell sprach. Trotzdem hat er sich bemüht, jeden Abend ein paar neue Wörter zu lernen, und Antoine hat ihm dabei geholfen. Nachdem die beiden gemeinsam zur Schule gegangen waren, wurde Ben von den Mitschülern immer besser verstanden.\n\nAm Ende der drei Wochen konnte Ben schon einfache Gespräche auf Französisch führen. Er war traurig, als er sich von der Gastfamilie verabschieden musste, versprach aber, im nächsten Jahr wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Ben konnte am Anfang schon sehr gut Französisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gastfamilie hat Ben am Bahnhof abgeholt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Antoine hat Ben beim Lernen geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hat nach drei Wochen kein Wort Französisch verstanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben möchte im nächsten Jahr wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "strassenmusik-als-nebenjob",
+    "nivel": "B1",
+    "titulo": "Straßenmusik als Nebenjob",
+    "descripcion": "Ein Student verdient sich mit Gitarrenspiel in der Fußgängerzone etwas Geld dazu.",
+    "texto": "Neben seinem Studium spielt Felix regelmäßig Gitarre in der Fußgängerzone, um sich etwas Geld dazuzuverdienen. Anfangs war es ihm unangenehm, vor fremden Menschen zu singen, obwohl er zu Hause schon lange Gitarre spielte. Nachdem er jedoch die ersten Münzen in seinem Gitarrenkoffer gesehen hatte, wuchs sein Selbstvertrauen.\n\nMit der Zeit hat Felix gelernt, welche Lieder den Passanten besonders gefallen. Trotzdem gibt es auch schlechte Tage, an denen kaum jemand stehen bleibt oder das Wetter zu schlecht zum Spielen ist. An guten Tagen verdient er jedoch genug, um seine Miete etwas leichter bezahlen zu können.\n\nFür Felix ist die Straßenmusik längst mehr als nur ein Nebenjob geworden. Er sagt, dass ihm der direkte Kontakt zum Publikum mehr Freude bereitet als jedes andere Konzert im geschlossenen Raum.",
+    "preguntas": [
+      {
+        "enunciado": "Felix spielt in der Fußgängerzone Gitarre.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang war ihm das Spielen vor Menschen unangenehm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix verdient an jedem Tag gleich viel Geld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Schlechtes Wetter hat keinen Einfluss auf sein Geschäft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix mag den direkten Kontakt zum Publikum.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lichtverschmutzung-in-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Lichtverschmutzung in Großstädten",
+    "descripcion": "Ein Text über die Auswirkungen künstlicher Beleuchtung auf Mensch, Tier und Nachthimmel.",
+    "texto": "In den meisten deutschen Großstädten ist es nachts kaum noch dunkel. Straßenlaternen, Leuchtreklamen und beleuchtete Fassaden sorgen dafür, dass der natürliche Wechsel von Tag und Nacht zunehmend verschwindet. Was lange als reines Sicherheitsmerkmal galt, wird von Wissenschaftlern inzwischen kritisch betrachtet, denn die sogenannte Lichtverschmutzung hat weitreichende Folgen.\n\nBesonders betroffen ist die Tierwelt. Zugvögel, die sich eigentlich am Sternenlicht orientieren, werden durch die künstliche Beleuchtung der Städte in die Irre geführt und verenden häufig an beleuchteten Hochhäusern. Auch nachtaktive Insekten, deren Bestand ohnehin bedroht ist, werden von Lichtquellen angezogen, bis sie vor Erschöpfung sterben. Selbst der menschliche Schlaf-Wach-Rhythmus wird durch die permanente Helligkeit gestört, was laut Studien zu Schlafstörungen führen kann.\n\nUm dem entgegenzuwirken, fordern Umweltverbände, dass Städte auf gerichtete und gedimmte Beleuchtung umsteigen sollten, statt den gesamten Straßenraum gleichmäßig anzustrahlen. Einige Kommunen haben bereits begonnen, ihre Beleuchtung nachts zu reduzieren, wobei stets abgewogen werden muss, inwiefern dadurch das subjektive Sicherheitsgefühl der Bürger beeinträchtigt werden könnte. Kritiker bezweifeln jedoch, dass weniger Licht tatsächlich zu mehr Kriminalität führen würde, wie es oft behauptet wird.",
+    "preguntas": [
+      {
+        "enunciado": "In deutschen Großstädten wird es nachts kaum noch dunkel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zugvögel orientieren sich problemlos trotz der künstlichen Beleuchtung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nachtaktive Insekten werden von Lichtquellen angezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der menschliche Schlaf wird von der Beleuchtung nicht beeinflusst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kommunen reduzieren bereits ihre nächtliche Beleuchtung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "numerus-clausus-und-chancengleichheit",
+    "nivel": "B2",
+    "titulo": "Numerus Clausus und Chancengleichheit",
+    "descripcion": "Eine Auseinandersetzung mit der Frage, ob der Numerus Clausus gerechte Studienplätze vergibt.",
+    "texto": "Seit Jahrzehnten entscheidet in Deutschland vor allem die Abiturnote darüber, wer einen Studienplatz in einem beliebten Fach wie Medizin oder Psychologie bekommt. Dieses System, der sogenannte Numerus Clausus, sollte ursprünglich dafür sorgen, dass die Studienplätze fair und nach Leistung vergeben werden. Kritiker bemängeln jedoch, dass die Abiturnote allein wenig über die Eignung für einen Studiengang oder Beruf aussagt.\n\nBefürworter des Systems argumentieren, dass es zumindest ein objektives und schwer manipulierbares Kriterium darstellt, das nicht von der sozialen Herkunft abhängt. Dem wird entgegengehalten, dass Schülerinnen und Schüler aus bildungsnahen Familien häufig bessere Noten erzielen, weil sie zu Hause mehr Unterstützung erhalten, während andere trotz vergleichbarer Fähigkeiten benachteiligt werden. Damit würde der Numerus Clausus indirekt bestehende soziale Ungleichheiten verstärken, statt sie auszugleichen.\n\nAls Alternative werden zunehmend Auswahlverfahren diskutiert, die neben der Note auch Motivationsschreiben, Aufnahmetests oder praktische Erfahrungen berücksichtigen. Solche Verfahren seien zwar aufwendiger in der Durchführung, könnten aber ein realistischeres Bild der Bewerberinnen und Bewerber liefern. Ob eine Reform des Systems tatsächlich zu mehr Chancengleichheit führen würde, bleibt unter Bildungsforschern umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Numerus Clausus basiert vor allem auf der Abiturnote.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass die Abiturnote die Eignung perfekt widerspiegelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen im Numerus Clausus eine Verstärkung sozialer Ungleichheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alternative Auswahlverfahren werden in dem Text nicht erwähnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wirkung einer Reform ist unter Bildungsforschern umstritten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "rentenreform-wie-sicher-ist-die-rente",
+    "nivel": "B2",
+    "titulo": "Rentenreform – Wie sicher ist die Rente?",
+    "descripcion": "Ein Blick auf die Herausforderungen des deutschen Rentensystems angesichts einer alternden Gesellschaft.",
+    "texto": "Das deutsche Rentensystem beruht auf dem sogenannten Generationenvertrag: Die aktuell arbeitende Bevölkerung finanziert durch ihre Beiträge die Renten der heutigen Rentnergeneration. Dieses Modell funktionierte über Jahrzehnte gut, gerät jedoch zunehmend unter Druck, da immer weniger Erwerbstätige für immer mehr Rentner aufkommen müssen. Politiker verschiedener Parteien streiten seit Langem darüber, wie das System zukunftsfähig gemacht werden kann.\n\nEinige Reformvorschläge sehen vor, das Renteneintrittsalter weiter zu erhöhen, damit die Menschen länger in das System einzahlen, bevor sie Leistungen beziehen. Andere plädieren dafür, die Beiträge zu erhöhen oder zusätzliche Steuermittel einzusetzen, um die Finanzierungslücke zu schließen. Wieder andere fordern eine kapitalgedeckte Zusatzrente nach skandinavischem Vorbild, bei der ein Teil der Beiträge am Kapitalmarkt angelegt würde, was allerdings mit höheren Risiken verbunden wäre.\n\nJede dieser Maßnahmen hätte spürbare Folgen für unterschiedliche Bevölkerungsgruppen, weshalb eine Einigung politisch schwierig bleibt. Während jüngere Generationen befürchten, im Alter kaum noch eine auskömmliche Rente zu erhalten, wollen ältere Menschen ihre bereits erworbenen Ansprüche nicht gefährdet sehen. Ohne eine grundlegende Reform, so warnen Ökonomen, werde sich die Finanzierungslücke in den kommenden Jahrzehnten weiter vergrößern.",
+    "preguntas": [
+      {
+        "enunciado": "Das deutsche Rentensystem basiert auf dem Generationenvertrag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt immer mehr Erwerbstätige im Vergleich zu Rentnern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Erhöhung des Renteneintrittsalters wird als möglicher Reformvorschlag genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle politischen Parteien sind sich über die richtige Reform vollkommen einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ökonomen warnen vor einer wachsenden Finanzierungslücke ohne Reform.",
+        "respuesta": true
+      }
+    ]
   }
 ]
