@@ -19610,5 +19610,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-geburtstag-meiner-schwester",
+    "nivel": "A1",
+    "titulo": "Der Geburtstag meiner Schwester",
+    "descripcion": "Paul erzählt vom Geburtstag seiner Schwester Emma. Ein einfacher A1-Text mit Zahlen und Familienwörtern.",
+    "texto": "Meine Schwester heißt Emma. Heute hat sie Geburtstag. Emma wird neun Jahre alt. Sie ist sehr glücklich.\n\nWir feiern am Nachmittag. Oma und Opa kommen zu Besuch. Mama backt einen Schokoladenkuchen. Der Kuchen hat neun Kerzen.\n\nEmma bekommt viele Geschenke. Sie bekommt ein Buch und eine Puppe. Papa schenkt ihr ein Fahrrad. Emma ist sehr froh und lacht viel.",
+    "preguntas": [
+      {
+        "enunciado": "Emma wird neun Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie feiert am Vormittag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mama backt einen Apfelkuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma bekommt ein Fahrrad von Papa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma ist traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-farben-meines-zimmers",
+    "nivel": "A1",
+    "titulo": "Die Farben meines Zimmers",
+    "descripcion": "Ein Kind beschreibt sein Zimmer und die Farben der Möbel. Wortschatz zu Farben auf A1-Niveau.",
+    "texto": "Mein Zimmer ist klein, aber schön. Die Wand ist blau. Mein Bett ist weiß und die Decke ist gelb. Ich mag mein Zimmer sehr.\n\nAuf dem Boden liegt ein grüner Teppich. Der Schreibtisch ist braun und der Stuhl ist rot. An der Wand hängt ein Bild von einem Hund.\n\nIm Regal stehen meine Bücher. Sie haben viele Farben: rot, gelb, grün und blau. Am Abend mache ich das Licht an und lese ein Buch.",
+    "preguntas": [
+      {
+        "enunciado": "Die Wand im Zimmer ist blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Bett ist schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Teppich auf dem Boden ist grün.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "An der Wand hängt ein Bild von einer Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend liest das Kind ein Buch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-zum-see",
+    "nivel": "A1",
+    "titulo": "Der Ausflug zum See",
+    "descripcion": "Familie Berger macht einen Ausflug an den See. Kurzer A1-Text über einen Freizeittag.",
+    "texto": "Am Sonntag fährt Familie Berger an den See. Die Sonne scheint und der Himmel ist blau. Die Kinder Lena und Finn freuen sich sehr.\n\nAm See schwimmen Lena und Finn im Wasser. Papa liest ein Buch auf der Wiese. Mama macht Fotos von den Enten. Die Familie isst Brote und trinkt Tee.\n\nAm Nachmittag spielen die Kinder Ball. Finn findet einen schönen Stein. Um sechs Uhr fahren sie nach Hause. Alle sind müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie fährt am Montag an den See.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und Finn schwimmen im Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mama liest ein Buch auf der Wiese.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn findet einen schönen Stein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie fährt um zwölf Uhr nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-an-die-freundin-in-spanien",
+    "nivel": "A2",
+    "titulo": "Der Brief an die Freundin in Spanien",
+    "descripcion": "Nina schreibt ihrer spanischen Freundin Carmen einen Brief über ihr Leben in Deutschland.",
+    "texto": "Liebe Carmen,\n\nwie geht es dir? Ich hoffe, du hast schöne Ferien in Valencia. Bei mir in Leipzig ist im Moment viel los. Letzte Woche habe ich meinen Führerschein gemacht, weil ich endlich mit dem Auto zur Arbeit fahren möchte. Es war nicht einfach, aber ich habe die Prüfung beim ersten Mal bestanden. Danach haben meine Eltern mit mir gefeiert und wir sind essen gegangen.\n\nAußerdem habe ich vor zwei Wochen einen neuen Job in einer Bibliothek angefangen. Die Arbeit macht mir Spaß, weil ich dort viele interessante Bücher lese und nette Kollegen kenne. Wenn ich Zeit habe, gehe ich abends joggen oder treffe Freunde im Café.\n\nIch würde dich gerne wieder besuchen, vielleicht im nächsten Sommer. Schreib mir bald zurück und erzähl mir, was bei dir passiert ist.\n\nViele Grüße\nDeine Nina",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat vor kurzem ihren Führerschein gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat die Fahrprüfung erst beim zweiten Mal bestanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina arbeitet seit zwei Wochen in einer Bibliothek.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina findet ihre neuen Kollegen unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina möchte Carmen im nächsten Sommer besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-spaziergang-im-herbst",
+    "nivel": "A2",
+    "titulo": "Ein Spaziergang im Herbst",
+    "descripcion": "Tobias und sein Hund machen einen Spaziergang durch den herbstlichen Wald.",
+    "texto": "Es ist ein kalter Oktobermorgen, aber die Sonne scheint. Tobias zieht seine warme Jacke an und geht mit seinem Hund Bruno in den Wald. Die Blätter der Bäume sind gelb, orange und rot, und der Boden ist voll mit Laub. Tobias mag diese Jahreszeit besonders gern, weil die Farben so schön sind.\n\nUnterwegs trifft er seine Nachbarin Frau Hoffmann, die auch mit ihrem Hund spazieren geht. Sie unterhalten sich kurz über das Wetter und laufen dann ein Stück zusammen. Bruno und der Hund von Frau Hoffmann spielen fröhlich im Laub. Tobias sammelt ein paar bunte Blätter und Kastanien für seine Tochter, weil sie damit gerne bastelt.\n\nNach einer Stunde sind Tobias und Bruno wieder zu Hause. Tobias macht sich einen heißen Tee, weil ihm kalt geworden ist. Er denkt, dass ein Spaziergang im Herbst der beste Weg ist, um den Kopf frei zu bekommen.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias geht im Sommer mit Bruno spazieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias mag den Herbst wegen der bunten Farben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Hoffmann geht ohne Hund spazieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias sammelt Blätter und Kastanien für seine Tochter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Spaziergang trinkt Tobias einen heißen Tee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-missgeschick-beim-kochen",
+    "nivel": "A2",
+    "titulo": "Ein Missgeschick beim Kochen",
+    "descripcion": "Sven möchte für seine Gäste ein besonderes Essen kochen, aber es geht etwas schief.",
+    "texto": "Sven hat seine Freunde zum Abendessen eingeladen, weil er ihnen ein neues Rezept zeigen möchte. Er hat im Internet ein Rezept für Lasagne gefunden und alle Zutaten im Supermarkt gekauft. Am Nachmittag beginnt er mit dem Kochen, obwohl er noch nie zuvor Lasagne gemacht hat.\n\nZuerst schneidet er die Zwiebeln und brät das Fleisch an. Dann kocht er die Tomatensoße, aber er vergisst, den Herd kleiner zu stellen, und die Soße brennt an. Sven merkt es zu spät, weil er in der Zwischenzeit den Tisch gedeckt hat. Die Küche riecht nach verbranntem Essen, und er muss die Fenster öffnen.\n\nAls seine Freunde ankommen, erzählt er ihnen lachend, was passiert ist. Zum Glück hat er genug Zutaten für eine zweite Soße gekauft, deshalb kann er noch rechtzeitig eine neue Lasagne backen. Am Ende schmeckt das Essen allen sehr gut, und alle lachen über das kleine Missgeschick.",
+    "preguntas": [
+      {
+        "enunciado": "Sven hat schon oft Lasagne gekocht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tomatensoße brennt an, weil der Herd zu heiß war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sven muss das Abendessen absagen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sven hat genug Zutaten für eine zweite Soße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende schmeckt das Essen den Gästen gut.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-konflikt-mit-dem-chef",
+    "nivel": "B1",
+    "titulo": "Der Konflikt mit dem Chef",
+    "descripcion": "Julia hat Streit mit ihrem Chef, weil sie mit einer neuen Arbeitsaufgabe nicht einverstanden ist.",
+    "texto": "Julia arbeitet seit drei Jahren als Grafikdesignerin in einer mittelgroßen Werbeagentur in Köln. Bisher hat sie ihre Arbeit immer gern gemacht, obwohl der Zeitdruck manchmal groß war. Vor zwei Wochen hat ihr Chef, Herr Neumann, ihr jedoch ein zusätzliches Projekt gegeben, ohne vorher mit ihr zu sprechen. Julia soll nun gleichzeitig zwei große Kunden betreuen, was in der vereinbarten Zeit kaum machbar ist.\n\nAls Julia ihrem Chef erklärt, dass sie die Arbeit nicht allein schaffen kann, reagiert er zunächst ungeduldig und meint, sie solle sich einfach besser organisieren. Julia fühlt sich nicht ernst genommen, denn sie hat bereits mehrmals auf ihre hohe Arbeitsbelastung hingewiesen. Trotzdem bleibt sie ruhig und schlägt vor, dass ein Kollege sie bei einem der beiden Projekte unterstützt.\n\nNachdem Julia ihre Argumente noch einmal klar und sachlich vorgebracht hat, denkt Herr Neumann über die Situation nach. Am nächsten Tag ruft er sie zu einem Gespräch und stimmt ihrem Vorschlag zu. Julia ist erleichtert, dass der Konflikt gelöst werden konnte, ohne dass die Zusammenarbeit im Team darunter gelitten hat.",
+    "preguntas": [
+      {
+        "enunciado": "Julia arbeitet seit drei Jahren in der Werbeagentur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Neumann hat vorher mit Julia über das neue Projekt gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia fühlt sich von ihrem Chef ernst genommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia schlägt vor, dass ein Kollege sie unterstützt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Neumann lehnt Julias Vorschlag endgültig ab.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-organisation-eines-klassentreffens",
+    "nivel": "B1",
+    "titulo": "Die Organisation eines Klassentreffens",
+    "descripcion": "Markus organisiert ein Klassentreffen zehn Jahre nach dem Schulabschluss und stößt dabei auf einige Herausforderungen.",
+    "texto": "Markus hat vor einigen Monaten die Idee gehabt, ein Klassentreffen zu organisieren, weil er seine alten Schulfreunde nach zehn Jahren gerne wiedersehen möchte. Zuerst sucht er über soziale Netzwerke nach den Kontaktdaten seiner ehemaligen Mitschüler, was sich als schwieriger herausstellt, als er gedacht hatte. Einige haben ihren Namen geändert, andere sind ins Ausland gezogen und schwer zu erreichen.\n\nNachdem Markus endlich fast alle gefunden hat, erstellt er eine Gruppe im Internet, in der alle über das Treffen diskutieren können. Obwohl die meisten Klassenkameraden begeistert reagieren, gibt es auch Streit über das passende Datum und den Veranstaltungsort. Manche wollen ein einfaches Treffen im Café, andere wünschen sich eine größere Feier mit Musik und Essen. Markus versucht, zwischen den unterschiedlichen Wünschen zu vermitteln, und schlägt schließlich einen Kompromiss vor: ein gemütliches Abendessen in einem Restaurant mit anschließender Party in einer Bar.\n\nAm Tag des Treffens sind alle sehr aufgeregt. Trotz der anfänglichen Organisationsprobleme wird der Abend ein voller Erfolg, und viele alte Freundschaften werden wiederbelebt. Markus ist stolz darauf, dass er das Treffen trotz aller Schwierigkeiten organisiert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Markus möchte seine Schulfreunde nach zehn Jahren wiedersehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es ist einfach, alle Kontaktdaten der ehemaligen Mitschüler zu finden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Klassenkameraden sind sich sofort über Datum und Ort einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus schlägt einen Kompromiss zwischen den verschiedenen Wünschen vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Klassentreffen wird am Ende ein Misserfolg.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-wegen-der-neuen-arbeit",
+    "nivel": "B1",
+    "titulo": "Der Umzug wegen der neuen Arbeit",
+    "descripcion": "Katharina bekommt ein Jobangebot in einer anderen Stadt und muss sich entscheiden, ob sie umzieht.",
+    "texto": "Katharina arbeitet seit vier Jahren als Ingenieurin in Dortmund, doch vor kurzem hat sie ein attraktives Jobangebot von einer Firma in München bekommen. Die neue Stelle bietet ein besseres Gehalt und spannendere Projekte, allerdings müsste Katharina ihre Heimatstadt und ihre Familie verlassen. Diese Entscheidung fällt ihr besonders schwer, weil sie in Dortmund einen großen Freundeskreis hat und ihre Eltern regelmäßig besucht.\n\nNachdem sie mehrere Wochen über die Entscheidung nachgedacht hat, spricht Katharina mit ihren Eltern und Freunden über ihre Zweifel. Obwohl ihre Eltern den Umzug nicht einfach finden, unterstützen sie ihre Tochter und raten ihr, die berufliche Chance zu nutzen. Ihre beste Freundin Anja verspricht, sie oft zu besuchen und in Kontakt zu bleiben.\n\nSchließlich entscheidet sich Katharina für den Umzug nach München. Sie kündigt ihre Wohnung in Dortmund und sucht online nach einer neuen Bleibe. Der Abschied von ihrer alten Wohnung und ihren Nachbarn fällt ihr schwer, aber sie freut sich gleichzeitig auf das neue Kapitel in ihrem Leben. Nach dem Umzug ruft sie ihre Eltern jede Woche an, damit die Entfernung die Familie nicht zu sehr trennt.",
+    "preguntas": [
+      {
+        "enunciado": "Katharina arbeitet aktuell in München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die neue Stelle bietet ein besseres Gehalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katharinas Eltern sind gegen den Umzug und unterstützen sie nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anja verspricht, Katharina oft zu besuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Umzug ruft Katharina ihre Eltern nie an.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umgang-mit-psychischer-gesundheit-am-arbeitsplatz",
+    "nivel": "B2",
+    "titulo": "Der Umgang mit psychischer Gesundheit am Arbeitsplatz",
+    "descripcion": "Ein Text über die wachsende Bedeutung psychischer Gesundheit in Unternehmen und die Herausforderungen, offen darüber zu sprechen.",
+    "texto": "Psychische Erkrankungen zählen inzwischen zu den häufigsten Gründen für Fehlzeiten am Arbeitsplatz, wie aktuelle Studien der Krankenkassen zeigen. Burnout, Angststörungen und Depressionen betreffen längst nicht mehr nur Einzelfälle, sondern werden zunehmend als gesamtgesellschaftliches Problem wahrgenommen. Dennoch wird in vielen Unternehmen noch immer geschwiegen, wenn Mitarbeitende unter psychischer Belastung leiden – aus Angst vor Stigmatisierung oder beruflichen Nachteilen.\n\nExperten fordern deshalb, dass Führungskräfte stärker für das Thema sensibilisiert werden. Würden Vorgesetzte frühzeitig erkennen, wenn ein Mitarbeiter überlastet ist, ließen sich viele langfristige Ausfälle vermeiden. Einige Firmen haben bereits reagiert und bieten anonyme Beratungsangebote, flexible Arbeitszeiten oder sogenannte „Mental Health Days\" an, an denen Beschäftigte sich ohne Angabe von Gründen freinehmen können. Kritiker bemängeln jedoch, dass solche Maßnahmen oft nur symbolischen Charakter hätten, solange sich an der eigentlichen Ursache – etwa chronischer Überlastung durch Personalmangel – nichts ändere.\n\nBesonders deutlich wird das Problem in Branchen mit hohem Leistungsdruck, wie dem Gesundheitswesen oder der IT-Branche. Dort berichten Beschäftigte häufig von einem Gefühl der ständigen Erreichbarkeit, das durch digitale Kommunikationsmittel noch verstärkt werde. Manche Arbeitnehmer trauen sich kaum, ihren Urlaub tatsächlich zu nehmen, da sie befürchten, als weniger belastbar zu gelten.\n\nEine nachhaltige Verbesserung der Situation würde voraussetzen, dass psychische Gesundheit nicht länger als individuelles Problem, sondern als strukturelle Aufgabe der Unternehmenskultur begriffen wird. Nur wenn offen über Belastungen gesprochen werden kann, ohne dass daraus berufliche Nachteile entstehen, lässt sich langfristig verhindern, dass immer mehr Menschen an den Anforderungen der modernen Arbeitswelt scheitern.",
+    "preguntas": [
+      {
+        "enunciado": "Psychische Erkrankungen gehören laut Text zu den häufigsten Gründen für Fehlzeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In den meisten Unternehmen wird offen über psychische Belastung gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Firmen bieten sogenannte „Mental Health Days\" an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern lösen solche Maßnahmen automatisch das Problem des Personalmangels.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text fordert, psychische Gesundheit als strukturelle Aufgabe der Unternehmenskultur zu betrachten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umgang-mit-desinformation-im-netz",
+    "nivel": "B2",
+    "titulo": "Der Umgang mit Desinformation im Netz",
+    "descripcion": "Ein Text über die Verbreitung von Falschinformationen im Internet und mögliche Strategien dagegen.",
+    "texto": "Falschinformationen verbreiten sich in sozialen Netzwerken oft schneller als überprüfte Fakten, da emotionale und provokante Inhalte besonders häufig geteilt werden. Studien zeigen, dass Falschmeldungen im Durchschnitt sechsmal schneller verbreitet werden als korrekte Nachrichten. Dieses Phänomen stellt Gesellschaften weltweit vor große Herausforderungen, da Desinformation das Vertrauen in demokratische Institutionen untergraben kann.\n\nBesonders problematisch ist, dass viele Nutzer Inhalte teilen, ohne deren Wahrheitsgehalt zu überprüfen. Algorithmen sozialer Plattformen verstärken dieses Verhalten zusätzlich, indem sie Beiträge bevorzugt anzeigen, die viele Reaktionen hervorrufen – unabhängig davon, ob diese Reaktionen auf Empörung oder Zustimmung beruhen. Wäre die Faktenprüfung stärker in die Plattformen integriert, könnten viele Falschmeldungen frühzeitig als solche gekennzeichnet werden, bevor sie sich unkontrolliert verbreiten.\n\nAls Reaktion auf dieses Problem wurden in den letzten Jahren zahlreiche unabhängige Faktencheck-Organisationen gegründet, die verdächtige Meldungen überprüfen und richtigstellen. Gleichzeitig wird immer wieder gefordert, Medienkompetenz bereits in der Schule zu vermitteln, damit junge Menschen lernen, Quellen kritisch zu hinterfragen. Kritiker geben jedoch zu bedenken, dass Bildungsmaßnahmen allein nicht ausreichen, solange die wirtschaftlichen Anreize der Plattformen weiterhin auf maximale Aufmerksamkeit statt auf Wahrheitsgehalt ausgerichtet sind.\n\nLetztlich wird deutlich, dass die Bekämpfung von Desinformation eine gemeinsame Aufgabe von Politik, Bildungseinrichtungen und Technologieunternehmen darstellt. Nur durch ein Zusammenspiel aus technischer Regulierung, journalistischer Sorgfalt und kritischem Denken der Nutzer lässt sich das Vertrauen in verlässliche Informationen langfristig stärken.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text verbreiten sich Falschmeldungen langsamer als korrekte Nachrichten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen sozialer Plattformen können die Verbreitung von Desinformation verstärken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es wurden unabhängige Faktencheck-Organisationen gegründet, um Falschmeldungen zu überprüfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sind der Meinung, dass Bildung allein das Problem vollständig löst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht die Bekämpfung von Desinformation als Aufgabe mehrerer Akteure.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-das-bedingungslose-grundeinkommen",
+    "nivel": "B2",
+    "titulo": "Die Debatte um das bedingungslose Grundeinkommen",
+    "descripcion": "Ein Text über die gesellschaftliche Diskussion rund um das bedingungslose Grundeinkommen und seine möglichen Folgen.",
+    "texto": "Die Idee eines bedingungslosen Grundeinkommens wird seit Jahren in Deutschland und anderen europäischen Ländern kontrovers diskutiert. Befürworter argumentieren, dass ein monatlicher Betrag, den jeder Bürger unabhängig von seiner Erwerbstätigkeit erhält, die Existenzangst vieler Menschen verringern und mehr Freiheit bei der Berufswahl ermöglichen würde. Wer finanziell abgesichert wäre, könnte sich beispielsweise leichter für eine schlecht bezahlte, aber gesellschaftlich wichtige Tätigkeit entscheiden, ohne existenzielle Sorgen zu haben.\n\nKritiker hingegen befürchten, dass ein bedingungsloses Grundeinkommen die Motivation zur Erwerbsarbeit verringern und dadurch die Finanzierung des Sozialsystems gefährden könnte. Sie verweisen zudem auf die enormen Kosten, die ein solches Modell verursachen würde, sollte es flächendeckend eingeführt werden. Berechnungen zufolge müssten entweder Steuern erheblich erhöht oder andere Sozialleistungen gekürzt werden, um die Finanzierung sicherzustellen.\n\nUm die tatsächlichen Auswirkungen besser einschätzen zu können, wurden in mehreren Ländern Pilotprojekte durchgeführt, bei denen ausgewählte Teilnehmer über einen begrenzten Zeitraum ein Grundeinkommen erhielten. Die Ergebnisse dieser Studien fielen gemischt aus: Während einige Teilnehmer berichteten, weniger gestresst zu sein und sich beruflich neu orientiert zu haben, zeigte sich bei anderen kaum eine Veränderung ihres Arbeitsverhaltens.\n\nOb ein bedingungsloses Grundeinkommen tatsächlich eingeführt werden sollte, bleibt somit eine offene Frage, die weit über wirtschaftliche Aspekte hinausgeht. Letztlich geht es auch um ein grundsätzliches Verständnis davon, welchen Wert Arbeit in einer Gesellschaft haben sollte und wie sozialer Zusammenhalt in Zukunft gestaltet werden kann.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter des Grundeinkommens sehen darin eine Möglichkeit, Existenzangst zu verringern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass die Motivation zur Erwerbsarbeit sinken könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Finanzierung eines Grundeinkommens würde laut Text keine zusätzlichen Kosten verursachen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ergebnisse der Pilotprojekte fielen eindeutig und einheitlich aus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text stellt die Einführung eines Grundeinkommens als eine bereits entschiedene Frage dar.",
+        "respuesta": false
+      }
+    ]
   }
 ]
