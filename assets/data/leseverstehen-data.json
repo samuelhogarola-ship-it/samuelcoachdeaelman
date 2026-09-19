@@ -18914,5 +18914,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "die-weihnachtsbaeckerei",
+    "nivel": "A1",
+    "titulo": "Die Weihnachtsbäckerei",
+    "descripcion": "Lena backt mit ihrer Mutter Plätzchen für Weihnachten.",
+    "texto": "Es ist Dezember. Lena und ihre Mutter backen Plätzchen in der Küche. Auf dem Tisch liegen Mehl, Zucker und Butter. Lena knetet den Teig mit den Händen.\n\n„Ich mag Sterne am liebsten“, sagt Lena. Sie nimmt eine Form und drückt sie in den Teig. Ihre Mutter macht Plätzchen in Form von Herzen. Der Ofen ist schon warm.\n\nNach zehn Minuten sind die Plätzchen fertig. Sie riechen süß. Lena streut Zucker über die Plätzchen. Am Abend isst die ganze Familie die Plätzchen zusammen. Der Vater trinkt Tee dazu. Alle sind glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lena backt mit ihrer Mutter Plätzchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena mag Herzen am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem Tisch liegen Mehl, Zucker und Butter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Plätzchen brauchen eine Stunde im Ofen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst die Plätzchen zusammen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-tante",
+    "nivel": "A1",
+    "titulo": "Meine Tante",
+    "descripcion": "Ich erzähle von meiner Tante und ihrem Besuch bei uns.",
+    "texto": "Meine Tante heißt Julia. Sie wohnt in Hamburg und arbeitet als Lehrerin. Einmal im Monat besucht sie uns. Sie kommt immer mit dem Zug.\n\nMeine Tante ist sehr lustig. Sie spielt gern Karten mit mir und meinem Bruder. Am Wochenende kocht sie oft Pasta für die ganze Familie. Ihre Pasta schmeckt sehr gut.\n\nAm Sonntag fährt meine Tante wieder nach Hamburg zurück. Ich bin dann immer ein bisschen traurig. Aber ich weiß, sie kommt bald wieder. Ich freue mich schon auf ihren nächsten Besuch.",
+    "preguntas": [
+      {
+        "enunciado": "Die Tante heißt Julia.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie wohnt in Berlin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie arbeitet als Lehrerin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie kommt mit dem Auto.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie kocht am Wochenende Pasta.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-jahrmarkt",
+    "nivel": "A1",
+    "titulo": "Der Jahrmarkt",
+    "descripcion": "Tim und seine Freunde besuchen den Jahrmarkt in ihrer Stadt.",
+    "texto": "Im September kommt der Jahrmarkt in unsere Stadt. Tim geht mit zwei Freunden dorthin. Es gibt viele bunte Lichter und laute Musik.\n\nZuerst fahren die Kinder Karussell. Danach essen sie Zuckerwatte. Tim mag auch die Achterbahn sehr gern, aber sie ist ihm ein bisschen zu schnell. Seine Freundin Mia lacht viel.\n\nAm Ende des Abends kauft Tim noch eine Bratwurst. Die Kinder sind müde, aber glücklich. Sie freuen sich schon auf den nächsten Jahrmarkt im nächsten Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Jahrmarkt kommt im September in die Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim geht allein zum Jahrmarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder essen Zuckerwatte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim findet die Achterbahn langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim kauft am Ende eine Bratwurst.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-reise-nach-luebeck",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Lübeck",
+    "descripcion": "Familie Berger verbringt ein Wochenende in der Hansestadt Lübeck.",
+    "texto": "Familie Berger ist am Freitag nach Lübeck gefahren. Sie haben ein kleines Hotel in der Altstadt gebucht, weil sie zu Fuß alles erreichen wollten. Die Fahrt mit dem Zug hat drei Stunden gedauert.\n\nAm Samstag haben sie das berühmte Holstentor besucht und sind durch die kleinen Gassen der Altstadt spaziert. Herr Berger hat für die Kinder Marzipan gekauft, denn Lübeck ist für seine Marzipanprodukte bekannt. Am Nachmittag hat die Familie eine Bootstour auf der Trave gemacht.\n\nAm Sonntag war das Wetter leider schlecht, deshalb sind sie ins Museum gegangen. Trotz des Regens hat allen der Ausflug sehr gut gefallen. Am Abend sind sie müde, aber zufrieden nach Hause zurückgefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger ist mit dem Auto nach Lübeck gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben ein Hotel in der Altstadt gebucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger hat Marzipan für die Kinder gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag war das Wetter sehr sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ausflug hat der Familie gut gefallen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wasserrohrbruch-in-der-kueche",
+    "nivel": "A2",
+    "titulo": "Der Wasserrohrbruch in der Küche",
+    "descripcion": "Frau Kaiser entdeckt einen Wasserschaden in ihrer Küche und ruft den Klempner an.",
+    "texto": "Am Montagmorgen ist Frau Kaiser in die Küche gegangen und hat sofort einen nassen Boden bemerkt. Unter der Spüle ist Wasser herausgelaufen. Sie hat schnell den Haupthahn zugedreht, damit nichts mehr passiert.\n\nDanach hat sie einen Klempner angerufen. Er ist schon am selben Tag gekommen, weil es dringend war. Der Klempner hat das kaputte Rohr gefunden und es innerhalb von zwei Stunden repariert. Frau Kaiser war froh, dass er so schnell Zeit hatte.\n\nAm Nachmittag hat sie die Küche geputzt, weil überall Wasser war. Ihr Nachbar hat ihr dabei geholfen, die nassen Schränke auszuräumen. Am Abend war die Küche wieder trocken und sauber.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Kaiser hat den Wasserschaden am Montagmorgen bemerkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hat sofort den Haupthahn zugedreht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Klempner konnte erst am nächsten Tag kommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Klempner hat drei Tage für die Reparatur gebraucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Nachbar hat Frau Kaiser beim Putzen geholfen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-bei-den-cousins",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei den Cousins",
+    "descripcion": "Paul verbringt ein Wochenende bei seinen Cousins auf dem Land.",
+    "texto": "Paul ist am Freitagnachmittag zu seinen Cousins gefahren. Sie wohnen auf einem Bauernhof außerhalb der Stadt. Paul freut sich immer sehr auf diese Besuche, weil es dort so viele Tiere gibt.\n\nAm Samstag haben Paul und seine Cousins die Kühe gefüttert und sind mit den Fahrrädern durch die Felder gefahren. Am Abend haben sie zusammen am Lagerfeuer gesessen und Stockbrot gemacht. Paul hat erzählt, dass er das jedes Mal am liebsten mag.\n\nAm Sonntag mussten sie leider schon wieder Abschied nehmen, weil Paul zurück in die Stadt musste. Er hat versprochen, bald wiederzukommen. Seine Cousins haben ihm zum Abschied einen Korb mit frischen Eiern geschenkt.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Cousins wohnen in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und seine Cousins haben die Kühe gefüttert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend haben sie Stockbrot am Lagerfeuer gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul ist eine ganze Woche geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Cousins haben Paul einen Korb mit Eiern geschenkt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-erasmus-zeit-in-spanien",
+    "nivel": "B1",
+    "titulo": "Die Erasmus-Zeit in Spanien",
+    "descripcion": "Eine Studentin berichtet von ihren Erfahrungen während eines Auslandssemesters in Spanien.",
+    "texto": "Als Hannah nach Sevilla kam, um dort ein Semester zu studieren, kannte sie niemanden in der Stadt. Obwohl sie schon einige Jahre Spanisch gelernt hatte, fiel es ihr anfangs schwer, dem schnellen Andalusischen der Einheimischen zu folgen. Nachdem sie sich in der Erasmus-Gruppe an der Universität ein paar neue Freunde gefunden hatte, wurde alles leichter.\n\nMit der Zeit gewöhnte sich Hannah an das Leben in Spanien. Sie lernte, dass man abends viel später isst als in Deutschland, und sie begann, selbst um zehn Uhr zu Tapas zu gehen. Trotzdem vermisste sie manchmal ihre Familie und rief jede Woche zu Hause an, um ihr vom Alltag zu erzählen.\n\nAm Ende des Semesters fiel ihr der Abschied schwer, obwohl sie sich am Anfang so einsam gefühlt hatte. Sie hatte nicht nur ihre Sprachkenntnisse verbessert, sondern auch gelernt, sich in einer fremden Kultur zurechtzufinden. Heute sagt Hannah, dass diese Erfahrung sie selbstständiger gemacht hat.",
+    "preguntas": [
+      {
+        "enunciado": "Hannah kannte in Sevilla schon viele Leute, bevor sie ankam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang fiel es Hannah schwer, das Andalusische zu verstehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Spanien isst man laut dem Text meistens früher als in Deutschland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hannah hat regelmäßig mit ihrer Familie telefoniert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Semesters fiel Hannah der Abschied leicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-weiterbildung-am-wochenende",
+    "nivel": "B1",
+    "titulo": "Die Weiterbildung am Wochenende",
+    "descripcion": "Markus entscheidet sich für eine berufliche Weiterbildung, die er neben der Arbeit macht.",
+    "texto": "Markus arbeitet seit fünf Jahren als Bürokaufmann, doch er wollte sich schon lange beruflich weiterentwickeln. Deshalb meldete er sich für eine Weiterbildung im Bereich Projektmanagement an, die samstags stattfindet. Sein Chef unterstützte die Entscheidung, weil das Unternehmen von den neuen Kenntnissen profitieren würde.\n\nDie ersten Wochenenden waren anstrengend, da Markus nach einer vollen Arbeitswoche kaum Energie für den Unterricht hatte. Nachdem er sich jedoch an den neuen Rhythmus gewöhnt hatte, machte ihm das Lernen sogar Spaß. Besonders die praktischen Übungen mit anderen Teilnehmern gefielen ihm gut.\n\nNach sechs Monaten schloss Markus die Weiterbildung mit einem Zertifikat ab. Obwohl er viele Wochenenden geopfert hatte, bereute er die Entscheidung nicht. Kurz darauf übernahm er in seiner Firma die Leitung eines kleinen Projekts.",
+    "preguntas": [
+      {
+        "enunciado": "Markus arbeitet als Bürokaufmann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Weiterbildung findet unter der Woche abends statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Chef war gegen die Weiterbildung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat die Weiterbildung nach sechs Monaten abgeschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Weiterbildung hat Markus mehr Verantwortung im Job übernommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-freundschaft-mit-dem-neuen-kollegen",
+    "nivel": "B1",
+    "titulo": "Die Freundschaft mit dem neuen Kollegen",
+    "descripcion": "Am neuen Arbeitsplatz entwickelt sich langsam eine Freundschaft zwischen zwei Kollegen.",
+    "texto": "Als Felix seine neue Stelle in der Marketingabteilung antrat, saß ihm am ersten Tag ein Kollege namens David gegenüber. Anfangs sprachen die beiden nur über die Arbeit, doch nach ein paar Wochen entdeckten sie, dass sie beide gerne joggen gehen. Seitdem trafen sie sich regelmäßig nach der Arbeit zum Laufen im Park.\n\nMit der Zeit wurde aus der kollegialen Beziehung eine echte Freundschaft. Sie aßen gemeinsam zu Mittag, tauschten sich über private Themen aus und halfen sich gegenseitig bei schwierigen Projekten. Obwohl beide sehr unterschiedliche Charaktere hatten, verstanden sie sich blendend.\n\nAls Felix ein Jahr später in eine andere Abteilung wechselte, blieb die Freundschaft trotzdem bestehen. Die beiden verabredeten sich weiterhin zum Joggen und tauschten sich regelmäßig aus. Felix war froh, dass er durch die Arbeit einen so guten Freund gefunden hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Felix und David haben von Anfang an über private Themen gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beide gehen gerne joggen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden haben sich nie zusammen zum Mittagessen getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach Felix' Wechsel in eine andere Abteilung brach der Kontakt ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix ist froh über die Freundschaft mit David.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fleischsteuer-klimaschutz",
+    "nivel": "B2",
+    "titulo": "Fleischsteuer – Klimaschutz auf dem Teller?",
+    "descripcion": "Eine Analyse der Debatte um eine höhere Besteuerung von Fleischprodukten aus Klimaschutzgründen.",
+    "texto": "Seit Jahren wird in Deutschland über eine höhere Besteuerung von Fleisch diskutiert. Befürworter einer sogenannten Fleischsteuer argumentieren, dass die derzeit niedrige Mehrwertsteuer auf tierische Produkte die tatsächlichen ökologischen Kosten der Tierhaltung nicht widerspiegelt. Wäre der Preis für Fleisch höher, würde dies, so die Annahme, den Konsum senken und damit auch den Ausstoß von Treibhausgasen reduzieren, die bei der Massentierhaltung entstehen.\n\nKritiker hingegen befürchten, dass eine solche Steuer vor allem einkommensschwache Haushalte treffen würde, für die Fleisch oft eine der günstigsten Proteinquellen darstellt. Sie plädieren stattdessen für eine gezielte Förderung pflanzlicher Alternativen, anstatt Konsumenten durch höhere Preise zu bestrafen. Zudem wird angezweifelt, ob eine Steuer allein tatsächlich zu einer nachhaltigen Verhaltensänderung führen würde, wenn nicht gleichzeitig günstige und attraktive Alternativen zur Verfügung stünden.\n\nAndere europäische Länder haben bereits erste Schritte in diese Richtung unternommen, indem sie die Mehrwertsteuer auf Fleisch an die von anderen Lebensmitteln angeglichen haben. Ob Deutschland diesem Beispiel folgen wird, bleibt politisch umstritten. Klar ist jedoch, dass die Landwirtschaft für einen erheblichen Teil der nationalen Treibhausgasemissionen verantwortlich ist, weshalb das Thema auf der politischen Agenda bleiben dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Fleischsteuer glauben, dass niedrigere Fleischpreise den Klimaschutz fördern würden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass die Steuer vor allem einkommensschwache Haushalte belasten würde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind der Meinung, dass eine Steuer allein das Verhalten der Menschen sicher ändern würde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige europäische Länder haben die Mehrwertsteuer auf Fleisch bereits angepasst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Landwirtschaft spielt laut Text keine wichtige Rolle bei den Treibhausgasemissionen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "elternzeit-fuer-selbststaendige",
+    "nivel": "B2",
+    "titulo": "Elternzeit für Selbstständige – Eine Gerechtigkeitsfrage?",
+    "descripcion": "Der Text beleuchtet, warum Selbstständige in Deutschland bei der Elternzeit oft benachteiligt sind.",
+    "texto": "Während angestellte Eltern in Deutschland gesetzlich abgesicherte Elternzeit sowie Elterngeld beanspruchen können, sieht die Situation für Selbstständige deutlich anders aus. Zwar haben auch sie grundsätzlich Anspruch auf Elterngeld, doch die praktische Umsetzung gestaltet sich oft schwierig, da viele während der Babypause weiterhin Aufträge betreuen müssen, um ihre Kundenbeziehungen nicht zu verlieren.\n\nBesonders betroffen sind Freiberufler und Kleinunternehmer, deren Einkommen unmittelbar von ihrer eigenen Arbeitsleistung abhängt. Anders als bei Angestellten gibt es für sie keinen Arbeitgeber, der die Stelle in der Zwischenzeit besetzt oder Vertretung organisiert. Wer sich als Selbstständiger für eine längere Auszeit entscheidet, riskiert daher nicht selten den Verlust wichtiger Kunden und muss sich nach der Rückkehr eine neue Auftragslage aufbauen.\n\nSozialpolitische Experten fordern deshalb, dass der Staat bessere Rahmenbedingungen schaffen sollte, etwa durch flexiblere Regelungen beim Elterngeldbezug oder durch finanzielle Unterstützung bei der Organisation einer Vertretung. Andernfalls, so die Kritik, würden gerade Frauen in selbstständigen Berufen vor die Wahl gestellt, entweder ihre berufliche Existenz oder eine längere Zeit mit dem Kind zu opfern – eine Entscheidung, die Angestellte in dieser Form nicht treffen müssen.",
+    "preguntas": [
+      {
+        "enunciado": "Selbstständige haben in Deutschland grundsätzlich keinen Anspruch auf Elterngeld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Für Selbstständige ist es oft schwierig, während der Elternzeit keine Aufträge zu betreuen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Selbstständige haben laut Text einen Arbeitgeber, der ihre Stelle während der Elternzeit besetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern bessere Rahmenbedingungen für selbstständige Eltern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text stehen Angestellte vor genau denselben Herausforderungen wie Selbstständige.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ganztagsschule-chancengleichheit",
+    "nivel": "B2",
+    "titulo": "Ganztagsschule – Mehr Chancengleichheit durch längere Schulzeiten?",
+    "descripcion": "Der Text diskutiert, ob der Ausbau von Ganztagsschulen zu mehr Bildungsgerechtigkeit führen kann.",
+    "texto": "Ab dem Schuljahr 2026 haben Grundschulkinder in Deutschland einen Rechtsanspruch auf eine ganztägige Betreuung. Befürworter dieser Reform sehen darin einen wichtigen Schritt zu mehr Chancengleichheit, da Kinder aus bildungsfernen oder einkommensschwachen Familien in der Schule zusätzliche Unterstützung erhalten können, die ihnen zu Hause möglicherweise fehlt. Zudem würden Eltern, insbesondere Mütter, dadurch entlastet und könnten leichter einer Vollzeitbeschäftigung nachgehen.\n\nAllerdings weisen Kritiker darauf hin, dass viele Schulen für diesen Ausbau weder über ausreichend Personal noch über die notwendige Infrastruktur verfügen. Ohne zusätzliche Lehrkräfte und pädagogische Fachkräfte drohe die Ganztagsbetreuung zu einer reinen Verwahrung der Kinder zu werden, anstatt tatsächlich individuelle Förderung zu bieten. Gerade in ländlichen Regionen fehle es zudem an geeigneten Räumlichkeiten und an Fachpersonal, das bereit sei, in Teilzeit oder befristet zu arbeiten.\n\nBildungsforscher betonen, dass der Erfolg der Reform maßgeblich davon abhänge, wie die zusätzliche Zeit inhaltlich gestaltet werde. Werde sie sinnvoll für Förderunterricht, Hausaufgabenbetreuung und kreative Angebote genutzt, könnten tatsächlich Bildungsunterschiede verringert werden. Werde die Zeit hingegen nur notdürftig überbrückt, drohe die Reform ihr eigentliches Ziel deutlich zu verfehlen.",
+    "preguntas": [
+      {
+        "enunciado": "Ab 2026 haben Grundschulkinder in Deutschland einen Rechtsanspruch auf Ganztagsbetreuung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter der Reform erwarten, dass sie zu mehr Chancengleichheit beiträgt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sind der Meinung, dass alle Schulen bereits ausreichend Personal für die Ganztagsbetreuung haben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text gibt es in ländlichen Regionen genug Fachpersonal für die Ganztagsbetreuung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsforscher meinen, der Erfolg der Reform hänge nicht von der inhaltlichen Gestaltung ab.",
+        "respuesta": false
+      }
+    ]
   }
 ]
