@@ -19262,5 +19262,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-terrarium",
+    "nivel": "A1",
+    "titulo": "Mein Terrarium",
+    "descripcion": "Ein Mädchen erzählt von ihrem Terrarium mit einer Schildkröte.",
+    "texto": "Ich heiße Mia. Ich habe ein Terrarium. In dem Terrarium lebt eine Schildkröte. Sie heißt Emma. Emma ist zehn Jahre alt.\n\nDas Terrarium steht in meinem Zimmer. Es ist groß und hat viele Pflanzen. Emma frisst Salat und Tomaten. Sie trinkt auch Wasser. Jeden Tag putze ich das Terrarium.\n\nMeine Freunde mögen Emma sehr. Sie kommen oft zu Besuch. Wir schauen zusammen zu, wie Emma langsam läuft. Emma ist mein Lieblingstier.",
+    "preguntas": [
+      {
+        "enunciado": "Mia hat eine Schildkröte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schildkröte heißt Lena.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Terrarium steht in der Küche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma frisst Salat und Tomaten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Freunde mögen Emma nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-recyclinghof",
+    "nivel": "A1",
+    "titulo": "Der Recyclinghof",
+    "descripcion": "Herr Bauer bringt seinen Müll zum Recyclinghof.",
+    "texto": "Herr Bauer wohnt in einem Haus. Er hat viel Müll. Heute fährt er zum Recyclinghof. Der Recyclinghof ist nicht weit.\n\nAm Recyclinghof gibt es viele Container. Ein Container ist für Papier. Ein Container ist für Glas. Ein Container ist für Metall. Herr Bauer sortiert seinen Müll.\n\nEin Mann arbeitet am Recyclinghof. Er hilft Herrn Bauer. Herr Bauer sagt „Danke“. Dann fährt er nach Hause. Die Arbeit ist fertig. Herr Bauer ist froh.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Bauer fährt zum Recyclinghof.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt nur einen Container.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Container ist für Papier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand arbeitet am Recyclinghof.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Bauer ist am Ende traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-mittagspause",
+    "nivel": "A1",
+    "titulo": "Meine Mittagspause",
+    "descripcion": "Tom erzählt, was er in seiner Mittagspause macht.",
+    "texto": "Ich heiße Tom. Ich arbeite in einem Büro. Um zwölf Uhr habe ich Mittagspause. Die Pause dauert eine Stunde.\n\nIn der Pause esse ich mein Essen. Ich habe oft ein Brot dabei. Manchmal kaufe ich eine Suppe. Danach trinke ich einen Kaffee. Ich sitze gern im Park.\n\nNach der Pause gehe ich zurück ins Büro. Ich arbeite bis siebzehn Uhr. Die Mittagspause ist meine liebste Zeit am Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Toms Mittagspause dauert eine Stunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom isst nie ein Brot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom trinkt einen Kaffee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom sitzt gern im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom arbeitet bis neun Uhr abends.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-podologen",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Podologen",
+    "descripcion": "Frau Keller hat einen Termin beim Podologen, weil ihr Fuß schmerzt.",
+    "texto": "Frau Keller hat seit einer Woche Schmerzen am Fuß. Sie hat einen Termin beim Podologen gemacht, weil der Schmerz nicht besser geworden ist. Der Termin ist am Dienstagnachmittag.\n\nIm Wartezimmer hat sie eine Zeitschrift gelesen. Nach zehn Minuten hat die Podologin sie aufgerufen. Sie hat den Fuß genau untersucht und gesagt, dass ein Nagel falsch gewachsen ist. Die Behandlung hat nicht lange gedauert.\n\nDanach hat Frau Keller sich viel besser gefühlt. Die Podologin hat ihr Tipps für die Fußpflege gegeben. Frau Keller hat einen neuen Termin in vier Wochen vereinbart, damit sie ihren Fuß gut pflegt. Wenn der Schmerz zurückkommt, ruft sie sofort an.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller hat Schmerzen am Fuß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie ist ohne Termin einfach hingegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Nagel ist falsch gewachsen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Behandlung hat mehrere Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Keller hat einen neuen Termin vereinbart.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-reise-nach-erfurt",
+    "nivel": "A2",
+    "titulo": "Eine Reise nach Erfurt",
+    "descripcion": "Familie Vogel hat ein Wochenende in Erfurt verbracht.",
+    "texto": "Familie Vogel hat ein Wochenende in Erfurt verbracht. Sie sind am Freitagabend mit dem Auto losgefahren. Nach drei Stunden sind sie in der Altstadt angekommen.\n\nAm Samstag haben sie die Krämerbrücke besucht. Diese Brücke ist berühmt, weil dort viele kleine Läden stehen. Die Kinder haben Souvenirs gekauft. Danach sind sie zum Dom gegangen und haben die alte Kirche bewundert.\n\nAm Abend haben sie in einem kleinen Restaurant gegessen. Der Vater hat gesagt, dass ihm die Stadt sehr gut gefallen hat. Am Sonntag sind sie müde, aber zufrieden nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Vogel ist mit dem Zug gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Krämerbrücke hat viele kleine Läden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben den Dom nicht besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater hat die Stadt nicht gemocht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag sind sie nach Hause gefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-gemeinschaftsgarten-mit-den-nachbarn",
+    "nivel": "A2",
+    "titulo": "Der Gemeinschaftsgarten mit den Nachbarn",
+    "descripcion": "Die Nachbarn haben zusammen einen Gemeinschaftsgarten angelegt.",
+    "texto": "Im letzten Frühling haben die Nachbarn aus der Marktstraße einen Gemeinschaftsgarten angelegt. Sie haben eine leere Fläche hinter dem Haus gefunden und dort Beete gebaut. Jede Familie durfte ein Beet pflegen.\n\nFrau Ott hat Tomaten und Kräuter gepflanzt. Herr Wagner hat Kartoffeln angebaut, weil er gern kocht. Die Kinder haben Sonnenblumen gesät und jeden Tag gegossen. Wenn es geregnet hat, mussten sie nicht gießen.\n\nIm Sommer haben alle gemeinsam geerntet. Sie haben ein kleines Fest gefeiert und das Gemüse zusammen gegessen. Die Nachbarn haben sich gefreut, dass der Garten so gut gewachsen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Der Gemeinschaftsgarten liegt hinter dem Haus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wagner hat Tomaten gepflanzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben Sonnenblumen gesät.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat im Sommer geerntet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn haben ein Fest gefeiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-abschlussfeier-der-berufsschule",
+    "nivel": "B1",
+    "titulo": "Die Abschlussfeier der Berufsschule",
+    "descripcion": "Nach drei Jahren Ausbildung feiert Jonas seinen Abschluss an der Berufsschule.",
+    "texto": "Nachdem Jonas drei Jahre lang seine Ausbildung zum Elektroniker absolviert hatte, stand endlich die Abschlussfeier an. Obwohl er in den letzten Wochen vor der Prüfung sehr nervös gewesen war, hatte er am Ende alle Prüfungen bestanden.\n\nDie Feier fand in der Aula der Berufsschule statt. Die Lehrer hielten Reden und lobten die Leistungen der Absolventen. Jonas' Eltern waren gekommen, obwohl sie eigentlich arbeiten mussten, weil sie diesen wichtigen Tag nicht verpassen wollten. Nach der offiziellen Zeremonie gab es Sekt und kleine Häppchen im Foyer.\n\nTrotzdem war Jonas ein wenig traurig, denn er wusste, dass er seine Mitschüler nun seltener sehen würde. Viele von ihnen hatten bereits einen Job in einer anderen Stadt gefunden. Am Ende des Abends versprachen sich alle, in Kontakt zu bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat eine Ausbildung zum Elektroniker gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist bei der Prüfung durchgefallen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Feier fand in der Aula statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas' Eltern konnten nicht kommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Mitschüler bleiben in derselben Stadt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-strassenkunstwoche",
+    "nivel": "B1",
+    "titulo": "Die Straßenkunstwoche in der Stadt",
+    "descripcion": "Eine Woche lang verwandeln Künstler die Innenstadt in eine Freiluftgalerie.",
+    "texto": "Jedes Jahr im Juni findet in der Innenstadt die Straßenkunstwoche statt. Obwohl das Wetter oft unsicher ist, kommen Künstler aus dem ganzen Land, um ihre Werke zu zeigen. In diesem Jahr haben sich mehr als vierzig Künstler angemeldet.\n\nAuf dem Marktplatz malten mehrere Künstler große Bilder direkt auf den Asphalt. Andere bauten Skulpturen aus Holz und Metall auf. Nachdem die Werke fertig waren, konnten Besucher durch die Straßen spazieren und alles bewundern. Viele Familien nutzten die Gelegenheit, um selbst ein kleines Bild zu malen.\n\nAm letzten Abend organisierten die Veranstalter eine Preisverleihung. Trotz des kühlen Wetters kamen hunderte Zuschauer, um die Gewinner zu sehen. Die Stadt plant bereits, die Straßenkunstwoche im nächsten Jahr zu wiederholen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Straßenkunstwoche findet im Juni statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur zehn Künstler haben sich angemeldet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Künstler haben auf dem Asphalt gemalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab keine Preisverleihung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Stadt möchte die Veranstaltung wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ueberstunden-im-neuen-job",
+    "nivel": "B1",
+    "titulo": "Überstunden im neuen Job",
+    "descripcion": "Sophie merkt, dass ihr neuer Job mehr Überstunden bedeutet als erwartet.",
+    "texto": "Sophie hat vor zwei Monaten eine neue Stelle in einer Werbeagentur angetreten. Obwohl sie sich auf die neue Herausforderung gefreut hatte, war sie überrascht, wie viele Überstunden von ihr erwartet wurden. Fast jeden Abend blieb sie länger als geplant.\n\nNachdem sie mehrere Wochen lang spät nach Hause gekommen war, beschloss sie, mit ihrem Chef zu sprechen. Sie erklärte ihm, dass die vielen Überstunden ihre Gesundheit belasteten. Der Chef zeigte Verständnis und versprach, die Arbeit im Team besser zu verteilen.\n\nSeitdem hat sich die Situation etwas verbessert. Sophie muss zwar immer noch gelegentlich länger bleiben, trotzdem fühlt sie sich insgesamt weniger gestresst. Sie ist froh, dass sie das Problem angesprochen hat, anstatt es einfach hinzunehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie arbeitet seit zwei Monaten in der neuen Agentur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie musste nie länger bleiben als geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat mit ihrem Chef gesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Chef wollte nichts an der Situation ändern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie fühlt sich jetzt weniger gestresst.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mikrowohnen-tiny-houses",
+    "nivel": "B2",
+    "titulo": "Mikrowohnen und Tiny Houses – Eine Antwort auf die Wohnungsnot?",
+    "descripcion": "Immer mehr Menschen ziehen in winzige Häuser – ein Trend zwischen Idealismus und Notlösung.",
+    "texto": "Angesichts steigender Mieten in nahezu allen deutschen Großstädten wird das sogenannte Mikrowohnen zunehmend als mögliche Lösung diskutiert. Tiny Houses, also winzige, meist mobile Häuser mit einer Wohnfläche von 15 bis 30 Quadratmetern, versprechen bezahlbaren Wohnraum, ohne dabei auf ein Eigenheim verzichten zu müssen. Befürworter argumentieren, dass durch den geringeren Materialverbrauch auch die Umwelt geschont werde.\n\nKritiker weisen jedoch darauf hin, dass Tiny Houses aufgrund strenger Bauvorschriften in vielen Kommunen gar nicht ohne Weiteres aufgestellt werden dürften. Zudem sei fraglich, ob ein derart reduzierter Lebensstil, der von den Bewohnern häufig romantisiert werde, tatsächlich massentauglich sei. Für Familien mit Kindern etwa erscheine ein Tiny House kaum praktikabel, während es für Alleinstehende durchaus attraktiv sein könne.\n\nSollte sich das Konzept dennoch weiterverbreiten, müssten Städte ihre Bauordnungen entsprechend anpassen und eigene Flächen für Tiny-House-Siedlungen ausweisen. Einige Kommunen haben bereits erste Pilotprojekte gestartet, bei denen kleine Siedlungen mit gemeinschaftlich genutzten Räumen entstanden sind. Ob Mikrowohnen jedoch die eigentliche Wohnungskrise lösen kann oder lediglich eine Nische für eine kleine, meist gut situierte Gruppe bleibt, wird sich erst in den kommenden Jahren zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Tiny Houses haben meist eine Wohnfläche von 15 bis 30 Quadratmetern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kommunen erlauben Tiny Houses ohne Einschränkungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker halten den Lebensstil für uneingeschränkt massentauglich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Kommunen haben bereits Pilotprojekte gestartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem der Wohnungskrise sei bereits gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "algorithmische-preisdiskriminierung",
+    "nivel": "B2",
+    "titulo": "Algorithmische Preisdiskriminierung – Wenn der Preis vom Kunden abhängt",
+    "descripcion": "Immer häufiger berechnen Online-Shops individuelle Preise – ein Blick auf eine umstrittene Praxis.",
+    "texto": "Wer online einkauft, geht meist davon aus, dass alle Kunden denselben Preis für ein Produkt zahlen. Tatsächlich werden Preise auf vielen Plattformen jedoch zunehmend individuell berechnet – auf Basis von Standort, Gerätetyp, Browserverlauf oder sogar der Uhrzeit des Besuchs. Diese Praxis, die als algorithmische Preisdiskriminierung bezeichnet wird, beruht auf komplexen Algorithmen, die in Echtzeit auswerten, wie viel ein bestimmter Nutzer bereit wäre zu zahlen.\n\nBefürworter dieser Methode argumentieren, dass dynamische Preise letztlich effizientere Märkte schaffen würden, da Angebot und Nachfrage präziser abgebildet werden könnten. Verbraucherschützer hingegen warnen davor, dass eine solche Praxis strukturell benachteiligte Gruppen zusätzlich benachteiligen könnte, wenn beispielsweise Nutzer mit älteren Geräten oder aus ärmeren Regionen systematisch höhere Preise angezeigt bekämen. Ein weiteres Problem bestehe darin, dass die zugrunde liegenden Algorithmen selten offengelegt würden, wodurch eine unabhängige Überprüfung kaum möglich sei.\n\nRechtlich bewegt sich algorithmische Preisdiskriminierung bislang in einer Grauzone. Während offene Diskriminierung aufgrund von Herkunft oder Geschlecht verboten ist, lässt sich eine indirekte Benachteiligung durch scheinbar neutrale Datenpunkte nur schwer nachweisen. Verbraucherverbände fordern deshalb strengere Transparenzpflichten, damit Nutzer nachvollziehen können, wie ein angezeigter Preis zustande gekommen ist. Ohne eine solche Regulierung, so die Befürchtung, könnte das Vertrauen in den Online-Handel langfristig Schaden nehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Bei algorithmischer Preisdiskriminierung zahlen alle Kunden denselben Preis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Preise können vom Standort oder Gerätetyp abhängen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Verbraucherschützer sehen bei dieser Praxis keine Risiken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmische Preisdiskriminierung ist rechtlich eindeutig verboten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Verbraucherverbände fordern mehr Transparenz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkonzentration-und-meinungsvielfalt",
+    "nivel": "B2",
+    "titulo": "Medienkonzentration und Meinungsvielfalt",
+    "descripcion": "Wenn wenige Konzerne viele Medien besitzen, gerät die Vielfalt der Meinungen unter Druck.",
+    "texto": "In den vergangenen Jahrzehnten hat sich die Medienlandschaft in vielen Ländern stark verändert. Zahlreiche Zeitungen, Radiosender und Fernsehkanäle, die früher unabhängig voneinander agierten, gehören heute wenigen großen Medienkonzernen. Diese Entwicklung, die als Medienkonzentration bezeichnet wird, wirft die Frage auf, ob dadurch die Vielfalt der öffentlichen Meinungsbildung gefährdet werden könnte.\n\nKritiker argumentieren, dass eine geringe Anzahl von Eigentümern zwangsläufig zu einer Verengung der veröffentlichten Perspektiven führe. Wenn ein Konzern zugleich mehrere reichweitenstarke Medien kontrolliere, bestehe die Gefahr, dass unliebsame Themen verschwiegen oder redaktionelle Entscheidungen im Sinne wirtschaftlicher Interessen getroffen würden. Befürworter der Konzentration entgegnen hingegen, dass größere Medienhäuser durch Skaleneffekte finanziell stabiler seien und dadurch überhaupt erst aufwendigen, unabhängigen Journalismus finanzieren könnten.\n\nUm einer übermäßigen Konzentration entgegenzuwirken, wurden in vielen Ländern Kartellbehörden und Medienaufsichten eingerichtet, deren Aufgabe es ist, Fusionen im Medienbereich kritisch zu prüfen. Dennoch gelingt es Konzernen häufig, durch komplexe Beteiligungsstrukturen die gesetzlichen Vorgaben zu umgehen. Wäre die Regulierung strenger, ließe sich die Konzentration möglicherweise begrenzen – allerdings müsste dafür auch der politische Wille vorhanden sein, gegen mächtige wirtschaftliche Interessen vorzugehen.\n\nSollte sich der Trend zur Medienkonzentration fortsetzen, könnte dies langfristig das Vertrauen der Bevölkerung in unabhängige Berichterstattung untergraben. Gleichzeitig gewinnen alternative, oft kleinere Medien und unabhängige Online-Formate an Bedeutung, da sie von Lesern zunehmend als Gegengewicht wahrgenommen werden.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Medien gehören wenigen großen Konzernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen in der Medienkonzentration keine Gefahr für die Meinungsvielfalt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kartellbehörden prüfen Fusionen im Medienbereich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Konzerne können gesetzliche Vorgaben nie umgehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kleinere und unabhängige Medien gewinnen an Bedeutung.",
+        "respuesta": true
+      }
+    ]
   }
 ]
