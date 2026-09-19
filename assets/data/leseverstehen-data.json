@@ -19958,5 +19958,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "meine-familie-am-sonntag",
+    "nivel": "A1",
+    "titulo": "Meine Familie am Sonntag",
+    "descripcion": "Lena erzählt, was ihre Familie jeden Sonntag zusammen macht.",
+    "texto": "Ich heiße Lena und ich bin zwölf Jahre alt. Am Sonntag ist meine ganze Familie zu Hause. Mein Vater kocht das Frühstück. Meine Mutter deckt den Tisch. Wir essen Brötchen, Marmelade und Eier. Danach trinken wir Kaffee und Kakao.\n\nNach dem Frühstück gehen wir oft spazieren. Mein kleiner Bruder Tom fährt Fahrrad. Unser Hund Bello läuft neben uns. Am Nachmittag spielen wir Karten oder sehen einen Film. Meine Oma kommt manchmal zu Besuch. Sie bringt immer Kuchen mit. Der Sonntag ist mein Lieblingstag.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist zwölf Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter kocht das Frühstück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie geht nach dem Frühstück spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom ist Lenas große Schwester.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma bringt Kuchen mit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ich-kaufe-ein-neues-fahrrad",
+    "nivel": "A1",
+    "titulo": "Ich kaufe ein neues Fahrrad",
+    "descripcion": "Paul geht in ein Fahrradgeschäft und kauft ein neues Fahrrad.",
+    "texto": "Paul braucht ein neues Fahrrad. Sein altes Fahrrad ist kaputt. Er geht in ein Fahrradgeschäft in der Stadt. Der Verkäufer heißt Herr Klein. Er zeigt Paul viele Fahrräder. Es gibt rote, blaue und grüne Fahrräder.\n\nPaul mag das blaue Fahrrad. Es hat einen großen Korb und eine Klingel. Das Fahrrad kostet zweihundert Euro. Paul zahlt mit seiner Karte. Herr Klein gibt ihm auch einen Helm dazu. Paul ist sehr glücklich. Er fährt sofort mit dem neuen Fahrrad nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls altes Fahrrad funktioniert noch gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verkäufer heißt Herr Klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft ein rotes Fahrrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fahrrad hat eine Klingel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul bezahlt bar.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-cafe-mit-freunden",
+    "nivel": "A1",
+    "titulo": "Im Café mit Freunden",
+    "descripcion": "Julia trifft ihre Freunde im Café und bestellt einen Kuchen.",
+    "texto": "Julia trifft ihre Freunde Mia und Ben im Café. Das Café ist klein und gemütlich. Sie setzen sich an einen Tisch am Fenster. Die Kellnerin bringt die Speisekarte. Julia bestellt einen Tee und ein Stück Schokoladenkuchen. Mia trinkt einen Kaffee. Ben mag lieber eine heiße Schokolade.\n\nDie Freunde reden und lachen viel. Sie sprechen über die Schule und über Musik. Der Kuchen schmeckt sehr gut. Nach einer Stunde bezahlen sie und gehen nach Hause. Julia sagt: „Das war ein schöner Nachmittag!“",
+    "preguntas": [
+      {
+        "enunciado": "Julia trifft ihre Freunde im Café.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben trinkt einen Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sitzen an einem Tisch am Fenster.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen schmeckt nicht gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde reden über die Schule.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "termin-beim-augenarzt",
+    "nivel": "A2",
+    "titulo": "Termin beim Augenarzt",
+    "descripcion": "Markus hat einen Termin beim Augenarzt, weil er schlecht sieht.",
+    "texto": "Markus hat seit einigen Wochen Kopfschmerzen gehabt. Er hat auch bemerkt, dass er die Schrift auf seinem Handy schlecht lesen kann. Deshalb hat er einen Termin beim Augenarzt gemacht. Am Montag ist er in die Praxis gegangen. Die Arzthelferin hat ihn freundlich begrüßt und hat ihn ins Wartezimmer geschickt.\n\nDer Augenarzt hat Markus verschiedene Buchstaben gezeigt. Markus musste sagen, welche Buchstaben er erkennen konnte. „Sie brauchen eine Brille“, hat der Arzt gesagt. Markus war ein bisschen überrascht, weil er noch nie eine Brille getragen hat. Der Arzt hat ihm ein Rezept gegeben. Am nächsten Tag ist Markus zum Optiker gegangen und hat eine neue Brille bestellt.\n\nNach zwei Wochen hat Markus die Brille abgeholt. Er war froh, dass er wieder gut sehen konnte. Seine Kopfschmerzen sind auch verschwunden.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte Kopfschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus konnte die Schrift auf seinem Handy gut lesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat gesagt, dass Markus eine Brille braucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hatte schon vorher eine Brille.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der neuen Brille sind die Kopfschmerzen verschwunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-paket-aus-der-heimat",
+    "nivel": "A2",
+    "titulo": "Ein Paket aus der Heimat",
+    "descripcion": "Sofia lebt in Deutschland und bekommt ein Paket von ihrer Familie aus Spanien.",
+    "texto": "Sofia ist vor sechs Monaten aus Spanien nach Deutschland gezogen. Sie studiert an der Universität in Leipzig. Manchmal vermisst sie ihre Familie und das Essen aus ihrer Heimat. Letzte Woche hat der Briefträger ein großes Paket gebracht. Es war von ihrer Mutter geschickt worden.\n\nSofia hat das Paket sofort geöffnet, weil sie so neugierig war. Darin waren Oliven, Käse und ein Foto von ihrer Familie. Es gab auch einen Brief, in dem ihre Mutter geschrieben hat, dass alle sie sehr vermissen. Sofia hat vor Freude geweint, weil das Paket sie so glücklich gemacht hat.\n\nAm Abend hat Sofia ihre neuen Freunde eingeladen. Sie haben zusammen die spanischen Spezialitäten gegessen. Ihre Freunde haben den Käse sehr lecker gefunden. Sofia hat ihrer Mutter danach eine lange Nachricht geschrieben.",
+    "preguntas": [
+      {
+        "enunciado": "Sofia kommt aus Portugal.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofia studiert in Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Paket war von ihrem Vater geschickt worden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Paket waren Oliven und Käse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia hat das Paket alleine gegessen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wochenende-in-den-bergen",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende in den Bergen",
+    "descripcion": "Familie Weber fährt am Wochenende in die Berge und wandert.",
+    "texto": "Familie Weber ist am Freitagabend in die Berge gefahren. Sie haben eine kleine Hütte gemietet, weil sie gerne wandern gehen. Am Samstagmorgen sind sie früh aufgestanden und haben einen langen Wanderweg gewählt. Das Wetter war sonnig, aber es war auch ziemlich kalt.\n\nNach drei Stunden Wanderung haben sie eine Pause gemacht und ein Picknick gegessen. Die Kinder haben Steine gesammelt und sind einen kleinen Bach entlanggelaufen. Als sie den Gipfel erreicht haben, waren alle sehr stolz. Die Aussicht war wunderschön, und sie haben viele Fotos gemacht.\n\nAm Abend waren alle müde, aber glücklich. Sie haben in der Hütte ein warmes Abendessen gekocht und früh geschlafen. Am Sonntag sind sie wieder nach Hause gefahren, weil die Kinder am Montag zur Schule mussten.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Weber ist in ein Hotel gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag war das Wetter sonnig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat den Gipfel nicht erreicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben Steine gesammelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie ist am Montag nach Hause gefahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "neue-freunde-im-sportverein",
+    "nivel": "B1",
+    "titulo": "Neue Freunde im Sportverein",
+    "descripcion": "Jonas zieht in eine neue Stadt und findet über einen Sportverein neue Freunde.",
+    "texto": "Als Jonas vor drei Monaten nach München gezogen ist, kannte er dort niemanden. Obwohl er anfangs sehr schüchtern war, beschloss er, einem Fußballverein beizutreten, um neue Leute kennenzulernen. Nachdem er sich beim Verein angemeldet hatte, wurde er sofort zu einem Training eingeladen. Er war nervös, weil er die anderen Spieler nicht kannte, trotzdem ging er hin.\n\nBeim ersten Training lief es nicht besonders gut. Jonas machte einige Fehler, aber die anderen Spieler halfen ihm freundlich weiter. Nach dem Training luden sie ihn ein, mit ihnen etwas trinken zu gehen. Jonas war überrascht, wie offen und herzlich die Gruppe war. Er merkte, dass er sich schnell wohlfühlte, obwohl er die Stadt noch nicht gut kannte.\n\nIn den folgenden Wochen wurde Jonas ein festes Mitglied der Mannschaft. Er trainierte zweimal pro Woche und nahm an den Spielen am Wochenende teil. Seine neuen Freunde zeigten ihm die Stadt und stellten ihn ihren anderen Bekannten vor. Heute, drei Monate später, fühlt sich Jonas in München fast wie zu Hause, und er ist froh, dass er sich damals getraut hat, zum Training zu gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas kannte in München schon viele Leute, bevor er dem Verein beitrat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas ist trotz seiner Nervosität zum Training gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim ersten Training hat Jonas keine Fehler gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die anderen Spieler haben Jonas nach dem Training eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas trainiert nur einmal pro Woche.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-an-die-ostsee",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt an die Ostsee",
+    "descripcion": "Eine Schulklasse verbringt eine Woche an der Ostsee und erlebt viele Abenteuer.",
+    "texto": "Die Klasse 9b ist für eine Woche an die Ostsee gefahren. Die Schüler waren sehr aufgeregt, weil es ihre erste große Klassenfahrt ohne Eltern war. Nachdem sie fünf Stunden im Bus gesessen hatten, kamen sie endlich in der Jugendherberge an. Das Wetter war leider nicht so gut, wie sie gehofft hatten, aber die Stimmung war trotzdem gut.\n\nAm zweiten Tag machten sie trotz des starken Windes einen Ausflug an den Strand. Einige Schüler wollten unbedingt im Meer schwimmen, obwohl das Wasser noch ziemlich kalt war. Der Lehrer, Herr Fischer, erlaubte es nur kurz, weil er sich um die Sicherheit der Gruppe sorgte. Abends spielten die Schüler Gesellschaftsspiele und erzählten sich Geschichten, bis die Betreuer sie ins Bett schickten.\n\nAm letzten Tag besuchten sie ein Schifffahrtsmuseum und lernten viel über die Geschichte der Ostseeschifffahrt. Nachdem die Woche vorbei war, waren viele Schüler traurig, dass sie wieder nach Hause mussten. Die Klassenfahrt hatte die Klasse enger zusammengebracht, und einige Freundschaften waren stärker geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Es war die erste Klassenfahrt der Schüler ohne Eltern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war während der ganzen Woche perfekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer hat den Schülern erlaubt, lange im Meer zu schwimmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat ein Schifffahrtsmuseum besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Viele Schüler waren traurig, dass die Klassenfahrt zu Ende war.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-erster-tag-in-der-neuen-firma",
+    "nivel": "B1",
+    "titulo": "Mein erster Tag in der neuen Firma",
+    "descripcion": "Laura berichtet von ihrem ersten Arbeitstag in einem neuen Unternehmen.",
+    "texto": "Laura hatte lange auf diesen Tag gewartet: ihr erster Arbeitstag in der neuen Firma. Obwohl sie schon einige Jahre Berufserfahrung hatte, war sie am Morgen sehr nervös. Nachdem sie sich an der Rezeption gemeldet hatte, wurde sie von ihrer neuen Chefin, Frau Bergmann, freundlich begrüßt.\n\nFrau Bergmann zeigte Laura das ganze Büro und stellte sie den Kollegen vor. Obwohl Laura sich viele Namen nicht sofort merken konnte, versuchte sie, freundlich und aufmerksam zu sein. Am Vormittag musste sie viele Formulare ausfüllen und ein Einführungsvideo über die Firma ansehen. Trotzdem fand sie die Zeit, mit ihrer Tischnachbarin Julia ein paar Worte zu wechseln.\n\nAm Nachmittag durfte Laura schon an einem kleinen Projekt mitarbeiten. Sie war froh, dass die Kollegen sehr hilfsbereit waren und ihr geduldig alle Fragen beantworteten. Als sie abends nach Hause fuhr, war sie müde, aber zufrieden. Sie hatte das Gefühl, dass sie sich in der neuen Firma gut einleben würde.",
+    "preguntas": [
+      {
+        "enunciado": "Laura hatte vorher keine Berufserfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Bergmann hat Laura den Kollegen vorgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura musste am Vormittag keine Formulare ausfüllen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura durfte am Nachmittag an einem Projekt mitarbeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura war am Abend enttäuscht von ihrem ersten Tag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "fachkraeftemangel-im-gesundheitswesen",
+    "nivel": "B2",
+    "titulo": "Fachkräftemangel im Gesundheitswesen",
+    "descripcion": "Der Text beleuchtet die Ursachen und möglichen Lösungen des Personalmangels in Kliniken und Pflegeeinrichtungen.",
+    "texto": "Der Mangel an qualifiziertem Personal im Gesundheitswesen hat sich in den vergangenen Jahren zu einem der drängendsten Probleme Deutschlands entwickelt. Krankenhäuser und Pflegeeinrichtungen berichten von unbesetzten Stellen, während gleichzeitig die Zahl der pflegebedürftigen Menschen aufgrund des demografischen Wandels stetig steigt. Viele Experten sind der Ansicht, dass sich die Situation ohne grundlegende Reformen in den kommenden Jahren weiter verschärfen wird.\n\nEin zentrales Problem liegt in den Arbeitsbedingungen, die von vielen Beschäftigten als belastend empfunden werden. Pflegekräfte klagen über Überstunden, Zeitdruck und eine unzureichende Bezahlung im Verhältnis zur Verantwortung, die ihnen übertragen wird. Es wird häufig argumentiert, dass eine bessere Bezahlung allein nicht ausreichen würde, um mehr Menschen für den Beruf zu gewinnen. Vielmehr müssten auch die Arbeitszeiten flexibler gestaltet und die Personalschlüssel verbessert werden, damit der Beruf wieder attraktiver würde.\n\nVerschiedene Lösungsansätze werden derzeit diskutiert. Zum einen wird über eine gezielte Anwerbung von Fachkräften aus dem Ausland gesprochen, wobei die Anerkennung ausländischer Abschlüsse oft ein bürokratisches Hindernis darstellt. Zum anderen setzen einige Kliniken bereits auf digitale Lösungen, mit denen administrative Aufgaben reduziert werden sollen, sodass sich das Personal stärker auf die direkte Patientenversorgung konzentrieren könnte. Kritiker geben jedoch zu bedenken, dass Technik den persönlichen Kontakt zwischen Pflegekraft und Patient niemals vollständig ersetzen könne.\n\nSollte der Fachkräftemangel nicht wirksam bekämpft werden, drohen langfristig Versorgungsengpässe, die vor allem ländliche Regionen hart treffen würden. Politik, Krankenkassen und Arbeitgeber stehen daher vor der Aufgabe, gemeinsam Lösungen zu entwickeln, die sowohl die Qualität der Versorgung sichern als auch die Arbeitsbedingungen der Beschäftigten spürbar verbessern.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zahl der pflegebedürftigen Menschen nimmt laut Text ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Pflegekräfte beklagen Überstunden und Zeitdruck.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text würde eine bessere Bezahlung allein das Problem vollständig lösen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Anerkennung ausländischer Abschlüsse wird als unproblematisch beschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Digitale Lösungen sollen laut Text administrative Aufgaben reduzieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streaming-dienste-und-der-wandel-der-medien",
+    "nivel": "B2",
+    "titulo": "Streamingdienste und der Wandel der Medien",
+    "descripcion": "Der Artikel analysiert, wie Streamingplattformen das klassische Fernsehen und die Medienlandschaft verändert haben.",
+    "texto": "In den letzten zehn Jahren hat sich die Art, wie Menschen Filme und Serien konsumieren, grundlegend verändert. Während früher das lineare Fernsehen mit festen Sendezeiten dominierte, entscheiden sich heute immer mehr Zuschauer für Streamingdienste, die es ermöglichen, Inhalte jederzeit und überall abzurufen. Diese Entwicklung hat weitreichende Folgen für die gesamte Medienbranche, von den Produktionsfirmen bis hin zu den klassischen Fernsehsendern.\n\nBefürworter der Streamingdienste heben hervor, dass die Vielfalt an Inhalten enorm zugenommen habe und dass Nischenproduktionen, die im klassischen Fernsehen kaum eine Chance gehabt hätten, nun ein Publikum finden könnten. Zudem würden die Plattformen große Summen in eigene Produktionen investieren, wodurch neue kreative Freiräume entstünden. Kritiker weisen jedoch darauf hin, dass die Algorithmen der Anbieter bestimmen, welche Inhalte den Nutzern angezeigt werden, was zu einer gewissen Vereinheitlichung des Geschmacks führen könnte.\n\nEin weiterer viel diskutierter Aspekt ist die Frage der Arbeitsbedingungen in der Filmbranche. Während die Streaminganbieter höhere Produktionsbudgets zur Verfügung stellen, würden gleichzeitig kürzere Produktionszyklen und ein erhöhter Wettbewerbsdruck entstehen, wie Branchenvertreter berichten. Es wird zudem befürchtet, dass klassische Fernsehsender, die sich diese Investitionen nicht leisten können, mittelfristig an Bedeutung verlieren könnten, sofern sie sich nicht neu positionieren.\n\nOb sich das klassische Fernsehen langfristig neben den Streamingdiensten behaupten kann, bleibt ungewiss. Viele Sender haben bereits reagiert, indem sie eigene Mediatheken und Streamingangebote entwickelt haben, um mit der veränderten Mediennutzung Schritt zu halten. Fest steht jedoch, dass sich die Grenzen zwischen klassischem Fernsehen und digitalen Plattformen zunehmend auflösen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text nutzen heute mehr Menschen lineares Fernsehen als Streamingdienste.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass Algorithmen den Geschmack der Nutzer vereinheitlichen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Streaminganbieter investieren laut Text nicht in eigene Produktionen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Fernsehsender haben eigene Mediatheken entwickelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass das klassische Fernsehen sicher verschwinden wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "chatbots-im-schulunterricht",
+    "nivel": "B2",
+    "titulo": "Chatbots im Schulunterricht",
+    "descripcion": "Der Text diskutiert Chancen und Risiken des Einsatzes von KI-Chatbots im Unterricht.",
+    "texto": "Seit der Einführung leistungsfähiger KI-Chatbots wird in Schulen intensiv darüber diskutiert, welchen Platz diese Technologie im Unterricht einnehmen sollte. Während einige Lehrkräfte die Werkzeuge bereits gezielt einsetzen, um Schülerinnen und Schülern individuelles Feedback zu geben, lehnen andere den Einsatz grundsätzlich ab, weil sie befürchten, dass grundlegende Kompetenzen verloren gehen könnten.\n\nBefürworter argumentieren, dass Chatbots den Unterricht sinnvoll ergänzen könnten, indem sie beispielsweise beim Verfassen von Texten unterstützen oder komplizierte Sachverhalte verständlich erklären. Schülerinnen und Schüler, die sich im regulären Unterricht nicht trauten, Fragen zu stellen, würden von einem Chatbot geduldig und ohne Zeitdruck Antworten erhalten. Zudem könnten Lehrkräfte entlastet werden, wenn Routineaufgaben wie das Erstellen von Übungsblättern teilweise automatisiert würden.\n\nGleichzeitig warnen Kritiker vor erheblichen Risiken. Es bestehe die Gefahr, dass Schülerinnen und Schüler Hausaufgaben einfach von einem Chatbot erledigen ließen, anstatt selbst zu lernen, was langfristig das eigenständige Denken schwächen könnte. Außerdem sei nicht immer gewährleistet, dass die von den Chatbots gelieferten Informationen korrekt seien, sodass eine kritische Prüfung der Ergebnisse unerlässlich bleibe. Datenschutzrechtliche Fragen, etwa welche Daten von den Anbietern gespeichert werden, würden ebenfalls häufig zu kurz kommen.\n\nViele Bildungsexperten plädieren deshalb für einen reflektierten Umgang mit der neuen Technologie. Anstatt Chatbots pauschal zu verbieten oder unkritisch zuzulassen, sollten Schulen klare Regeln entwickeln und den kompetenten Umgang mit KI aktiv vermitteln. Nur so könne verhindert werden, dass der Einsatz von Chatbots die Bildungsungleichheit zwischen Schulen mit unterschiedlichen Ressourcen weiter vergrößert.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Lehrkräfte lehnen den Einsatz von Chatbots im Unterricht ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter meinen, Chatbots könnten schüchternen Schülern helfen, Fragen zu stellen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keine Gefahr darin, dass Schüler Hausaufgaben vom Chatbot erledigen lassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text sind die Informationen von Chatbots immer korrekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten empfehlen einen reflektierten Umgang mit Chatbots statt eines pauschalen Verbots.",
+        "respuesta": true
+      }
+    ]
   }
 ]
