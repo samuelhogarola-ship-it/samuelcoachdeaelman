@@ -21350,5 +21350,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-fahrstuhl-ist-kaputt",
+    "nivel": "A1",
+    "titulo": "Der Fahrstuhl ist kaputt",
+    "descripcion": "Frau Berger wohnt im fünften Stock und der Fahrstuhl funktioniert nicht.",
+    "texto": "Frau Berger wohnt im fünften Stock. Heute ist der Fahrstuhl kaputt. Ein Schild hängt an der Tür: „Der Fahrstuhl ist außer Betrieb.\" Frau Berger seufzt und nimmt ihre Taschen. Sie geht langsam die Treppe hoch. Auf jedem Stock macht sie eine Pause.\n\nIm dritten Stock trifft sie ihren Nachbarn Herrn Klein. Er trägt einen schweren Koffer. „Guten Tag, Frau Berger! Der Fahrstuhl ist wieder kaputt\", sagt er. „Ja, das ist schon das zweite Mal diese Woche\", antwortet sie. Zusammen gehen sie die letzten Stufen hoch. Herr Klein hilft ihr mit einer Tasche.\n\nOben angekommen ist Frau Berger müde. Sie trinkt ein Glas Wasser und setzt sich auf ihr Sofa. Morgen kommt der Techniker und repariert den Fahrstuhl. Frau Berger hofft, dass er schnell wieder funktioniert.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger wohnt im fünften Stock.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Fahrstuhl funktioniert normal.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Klein trägt einen schweren Koffer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger geht allein die ganze Treppe hoch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Techniker repariert den Fahrstuhl heute Abend.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-neue-brille",
+    "nivel": "A1",
+    "titulo": "Meine neue Brille",
+    "descripcion": "Lukas kauft eine neue Brille beim Optiker und wählt ein Modell aus.",
+    "texto": "Lukas braucht eine neue Brille. Seine alte Brille ist zu klein und kaputt. Er geht mit seiner Mutter in ein Geschäft für Brillen. Dort gibt es viele Brillen in verschiedenen Farben und Formen. Lukas mag Brillen in Blau und Schwarz.\n\nEine Verkäuferin zeigt ihm drei Modelle. Er probiert jede Brille vor dem Spiegel. Die erste Brille ist zu groß, die zweite ist zu bunt. Die dritte Brille gefällt ihm sehr gut. Sie ist schwarz und leicht. „Diese Brille ist perfekt\", sagt Lukas glücklich.\n\nSeine Mutter bezahlt die Brille an der Kasse. In einer Woche ist die neue Brille fertig. Lukas freut sich schon sehr darauf. Dann kann er wieder gut sehen und die Tafel in der Schule lesen.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas' alte Brille ist kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas mag keine Brillen in Blau oder Schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die dritte Brille gefällt Lukas am besten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas bekommt die neue Brille sofort.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas will mit der Brille die Tafel besser sehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kiosk-an-der-ecke",
+    "nivel": "A1",
+    "titulo": "Der Kiosk an der Ecke",
+    "descripcion": "Jeden Morgen kauft Herr Novak eine Zeitung und einen Kaffee am Kiosk.",
+    "texto": "An der Ecke von Herrn Novaks Straße steht ein kleiner Kiosk. Jeden Morgen geht er dorthin. Er kauft eine Zeitung und einen Kaffee. Der Verkäufer heißt Ali und kennt Herrn Novak schon lange. „Guten Morgen! Die übliche Zeitung?\", fragt Ali freundlich.\n\nAm Kiosk gibt es auch Zeitschriften, Süßigkeiten und Getränke. Kinder kaufen dort gern Bonbons. Herr Novak trinkt seinen Kaffee direkt vor dem Kiosk und liest die wichtigsten Nachrichten. Danach geht er zur Arbeit.\n\nHeute ist der Kaffee besonders heiß. Herr Novak wartet ein paar Minuten und redet mit Ali über das Wetter. Dann verabschiedet er sich und geht schnell zur Bushaltestelle. Der Bus kommt in fünf Minuten.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Novak kauft jeden Morgen eine Zeitung am Kiosk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer heißt Max.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Kiosk gibt es keine Süßigkeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Novak trinkt seinen Kaffee zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bus kommt in fünf Minuten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kaputte-fernseher",
+    "nivel": "A2",
+    "titulo": "Der kaputte Fernseher",
+    "descripcion": "Familie Wagner hat Probleme mit dem Fernseher und ruft einen Techniker an.",
+    "texto": "Gestern Abend wollte Familie Wagner einen Film schauen, aber der Fernseher ging nicht mehr an. Herr Wagner hat den Stecker kontrolliert und den Fernseher mehrmals ein- und ausgeschaltet, weil er dachte, dass das Problem so einfach zu lösen sei. Leider hat nichts funktioniert. Die Kinder waren sehr enttäuscht, weil sie sich schon lange auf den Filmabend gefreut hatten.\n\nFrau Wagner hat im Internet nach einer Reparaturfirma gesucht und einen Techniker angerufen. Er sagte, dass er erst am nächsten Tag kommen könne. Die Familie hat sich deshalb entschieden, stattdessen Karten zu spielen. Am Ende hatten alle trotzdem einen schönen Abend, obwohl der Fernseher nicht funktioniert hat.\n\nAm nächsten Morgen ist der Techniker gekommen und hat den Fehler schnell gefunden. Ein Kabel war lose. Er hat es repariert, und der Fernseher hat sofort wieder funktioniert. Die Kinder waren erleichtert, dass sie am Abend endlich ihren Film schauen konnten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Fernseher ist am Wochenende kaputtgegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Wagner hat sofort einen Techniker angerufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat stattdessen Karten gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Techniker ist noch am selben Abend gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein loses Kabel war das Problem.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-optiker",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Optiker",
+    "descripcion": "Sabine bemerkt, dass sie schlechter sieht, und geht deshalb zum Optiker.",
+    "texto": "Seit ein paar Wochen hat Sabine bemerkt, dass sie die Schilder auf der Straße nicht mehr gut lesen kann. Weil ihr das Sorgen machte, hat sie einen Termin beim Optiker vereinbart. Am Tag des Termins ist sie etwas nervös in das Geschäft gegangen, weil sie noch nie eine Sehtest gemacht hatte.\n\nDer Optiker hat zuerst einen Sehtest durchgeführt. Sabine musste Buchstaben auf einer Tafel lesen, die immer kleiner wurden. Danach hat der Optiker ihr erklärt, dass sie tatsächlich eine leichte Kurzsichtigkeit hat. Er hat ihr mehrere Brillengestelle gezeigt, und sie hat sich für ein einfaches, silbernes Modell entschieden, weil es gut zu ihrem Gesicht gepasst hat.\n\nEine Woche später hat Sabine ihre neue Brille abgeholt. Als sie zum ersten Mal damit auf die Straße gegangen ist, konnte sie plötzlich alles viel schärfer sehen. Sie war überrascht, wie sehr sich ihre Sicht verbessert hatte, und ärgerte sich, dass sie nicht früher zum Optiker gegangen war.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine konnte Schilder auf der Straße nicht mehr gut lesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine war schon oft beim Optiker.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Optiker stellt eine leichte Kurzsichtigkeit fest.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine wählt ein buntes Brillengestell.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der neuen Brille sieht Sabine viel schärfer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-vom-finanzamt",
+    "nivel": "A2",
+    "titulo": "Der Brief vom Finanzamt",
+    "descripcion": "Thomas bekommt einen offiziellen Brief und ist zunächst unsicher, was er tun soll.",
+    "texto": "Als Thomas letzte Woche nach Hause kam, fand er einen Brief vom Finanzamt in seinem Briefkasten. Er hat sich erschrocken, weil er dachte, dass er etwas falsch gemacht hätte. Mit zitternden Händen hat er den Umschlag geöffnet und den Brief gelesen.\n\nEs stellte sich heraus, dass das Finanzamt nur ein paar Dokumente von ihm brauchte, weil seine Steuererklärung nicht vollständig war. Thomas war erleichtert, dass es kein größeres Problem war. Trotzdem wusste er nicht genau, welche Dokumente er suchen sollte, deshalb hat er seinen Vater angerufen, der sich mit solchen Sachen gut auskennt.\n\nSein Vater hat ihm erklärt, dass er nur eine Kopie seines Gehaltsnachweises und eine Bestätigung seiner Miete schicken müsse. Thomas hat die Dokumente am nächsten Tag zusammengesucht und per Post an das Finanzamt geschickt. Zwei Wochen später hat er eine Bestätigung bekommen, dass alles in Ordnung war.",
+    "preguntas": [
+      {
+        "enunciado": "Thomas hat sich über den Brief gefreut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Finanzamt brauchte zusätzliche Dokumente.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Thomas wusste sofort, welche Dokumente er schicken musste.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Vater hat ihm geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Thomas hat nie eine Antwort vom Finanzamt bekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vorbereitung-auf-die-pruefung",
+    "nivel": "B1",
+    "titulo": "Die Vorbereitung auf die Prüfung",
+    "descripcion": "Jana bereitet sich intensiv auf ihre Abschlussprüfung vor, obwohl sie unter Zeitdruck steht.",
+    "texto": "Jana hat in drei Wochen ihre wichtigste Prüfung im Studium. Obwohl sie schon seit Monaten wusste, dass dieser Termin kommen würde, hat sie erst vor Kurzem angefangen, sich richtig vorzubereiten. Nachdem sie sich einen genauen Lernplan erstellt hatte, fühlte sie sich etwas ruhiger, denn vorher hatte sie das Gefühl gehabt, den Überblick zu verlieren.\n\nTrotzdem war es nicht einfach, sich jeden Tag zu motivieren. Manchmal saß sie stundenlang vor ihren Büchern, ohne wirklich etwas zu behalten. Ihre Mitbewohnerin hat ihr vorgeschlagen, in einer Lerngruppe zu arbeiten, weil man dort Fragen gemeinsam klären und sich gegenseitig motivieren kann. Nachdem Jana das erste Mal an einem Gruppentreffen teilgenommen hatte, merkte sie sofort, dass ihr diese Methode half.\n\nIn der letzten Woche vor der Prüfung hat Jana kaum noch etwas anderes gemacht, außer zu lernen. Am Abend vor der Prüfung war sie zwar müde, aber auch zuversichtlich. Als sie am nächsten Tag den Prüfungsraum betrat, fühlte sie sich, trotz ihrer Nervosität, gut vorbereitet.",
+    "preguntas": [
+      {
+        "enunciado": "Jana hat sofort mit dem Lernen angefangen, als sie vom Prüfungstermin erfuhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Lernplan hilft Jana, sich ruhiger zu fühlen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana lernt lieber allein und lehnt jede Lerngruppe ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lerngruppe hilft Jana beim Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Tag der Prüfung fühlt sich Jana überhaupt nicht vorbereitet.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-ehrenamt-in-der-fluechtlingshilfe",
+    "nivel": "B1",
+    "titulo": "Das Ehrenamt in der Flüchtlingshilfe",
+    "descripcion": "Markus engagiert sich ehrenamtlich für geflüchtete Menschen und lernt dabei viel über sich selbst.",
+    "texto": "Seit einem halben Jahr engagiert sich Markus ehrenamtlich in einer Organisation, die geflüchteten Familien hilft. Zweimal pro Woche geht er nach der Arbeit in ein Beratungszentrum und unterstützt die Menschen dort beim Ausfüllen von Formularen und beim Deutschlernen. Obwohl er anfangs unsicher war, ob er der Aufgabe gewachsen sei, hat er schnell gemerkt, wie dankbar die Familien für seine Hilfe sind.\n\nBesonders eine Begegnung ist ihm in Erinnerung geblieben. Nachdem er einer jungen Familie aus Syrien mehrere Wochen lang bei bürokratischen Angelegenheiten geholfen hatte, luden sie ihn zum Essen ein. Obwohl die Sprache zwischen ihnen anfangs eine große Hürde war, verstanden sie sich immer besser, und Markus lernte sogar ein paar Wörter Arabisch.\n\nMarkus sagt, dass ihm die ehrenamtliche Arbeit eine neue Perspektive auf sein eigenes Leben gegeben hat. Er ist dankbarer für Dinge geworden, die er früher als selbstverständlich angesehen hatte. Trotz des zusätzlichen Zeitaufwands neben seiner Arbeit möchte er das Ehrenamt auf keinen Fall aufgeben.",
+    "preguntas": [
+      {
+        "enunciado": "Markus arbeitet in einer Organisation für Flüchtlingshilfe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus war von Anfang an völlig sicher, dass er helfen könne.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine syrische Familie hat Markus zum Essen eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat kein einziges arabisches Wort gelernt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus möchte das Ehrenamt bald beenden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-wg",
+    "nivel": "B1",
+    "titulo": "Der Umzug in die WG",
+    "descripcion": "Felix zieht nach der Schule in eine Wohngemeinschaft und muss sich an das neue Leben gewöhnen.",
+    "texto": "Nachdem Felix sein Abitur gemacht hatte, ist er zum ersten Mal von zu Hause ausgezogen. Er hat ein Zimmer in einer Wohngemeinschaft mit zwei anderen Studierenden gefunden. Obwohl er sich sehr auf die neue Freiheit gefreut hatte, war der erste Abend in der WG seltsam, weil alles noch fremd war.\n\nIn den ersten Wochen musste sich Felix an viele neue Dinge gewöhnen. Er hatte vorher nie selbst gekocht oder eingekauft, und plötzlich musste er sich um alles kümmern. Seine Mitbewohner, Lea und Tobias, haben ihm geduldig gezeigt, wie man einen Putzplan organisiert und die Kosten für Lebensmittel gerecht aufteilt. Nachdem die ersten Missverständnisse geklärt waren, hat sich ein guter Rhythmus entwickelt.\n\nHeute, ein Jahr später, fühlt sich Felix in der WG richtig zu Hause. Er hat gelernt, Kompromisse einzugehen, und schätzt die Gesellschaft seiner Mitbewohner besonders an einsamen Abenden. Trotzdem vermisst er manchmal die Ruhe seines alten Zimmers bei seinen Eltern.",
+    "preguntas": [
+      {
+        "enunciado": "Felix zieht direkt nach dem Abitur in eine WG.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix konnte schon vorher sehr gut kochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea und Tobias helfen Felix beim Organisieren des Alltags.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach einem Jahr fühlt sich Felix in der WG immer noch fremd.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix vermisst manchmal die Ruhe bei seinen Eltern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-strukturwandel-in-der-industrie",
+    "nivel": "B2",
+    "titulo": "Der Strukturwandel in der Industrie",
+    "descripcion": "Wie der wirtschaftliche Wandel traditionelle Industrieregionen vor neue Herausforderungen stellt.",
+    "texto": "In vielen Regionen, die einst vom Bergbau oder der Schwerindustrie geprägt waren, vollzieht sich seit Jahrzehnten ein tiefgreifender Strukturwandel. Zahlreiche Arbeitsplätze, die früher als sicher galten, sind durch Automatisierung und die Verlagerung der Produktion ins Ausland verloren gegangen. Betroffen sind vor allem ältere Arbeitnehmer, deren Fähigkeiten in der neuen, technologiegetriebenen Wirtschaft oft nicht mehr gefragt sind.\n\nUm diesem Wandel entgegenzuwirken, werden in den betroffenen Regionen erhebliche Summen in Umschulungsprogramme und die Ansiedlung neuer Unternehmen investiert. Kritiker bemängeln jedoch, dass diese Maßnahmen häufig zu spät kommen und die neu geschaffenen Arbeitsplätze selten die gleiche soziale Absicherung bieten wie die früheren Industriejobs. Würde stärker in Bildung und Infrastruktur investiert werden, ließe sich der Übergang möglicherweise sozialverträglicher gestalten.\n\nGleichzeitig entstehen in einigen ehemaligen Industriestädten interessante neue Ansätze: Alte Fabrikgebäude werden zu Kreativzentren umgebaut, und Start-ups siedeln sich dort an, wo früher Schwerindustrie dominierte. Ob dieser Wandel langfristig ausreicht, um den Wohlstand der Region zu sichern, bleibt jedoch eine offene Frage, die von Ökonomen kontrovers diskutiert wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der Strukturwandel betrifft vor allem ehemalige Industrieregionen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Automatisierung hat laut Text keinen Einfluss auf den Arbeitsmarkt gehabt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sind der Meinung, dass die Umschulungsprogramme immer rechtzeitig kommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche alten Fabrikgebäude werden heute als Kreativzentren genutzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text präsentiert eine eindeutige, abschließende Antwort auf die Zukunft der Regionen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-macht-der-algorithmen",
+    "nivel": "B2",
+    "titulo": "Die Macht der Algorithmen",
+    "descripcion": "Ein Blick darauf, wie Algorithmen in sozialen Netzwerken unsere Wahrnehmung der Welt beeinflussen.",
+    "texto": "Kaum jemand hinterfragt noch, warum bestimmte Inhalte in sozialen Netzwerken angezeigt werden und andere nicht. Dahinter stecken komplexe Algorithmen, die entscheiden, welche Beiträge, Nachrichten und Werbeanzeigen einem Nutzer präsentiert werden. Diese Systeme sind so konzipiert, dass sie die Aufmerksamkeit der Nutzer möglichst lange binden, wodurch häufig emotional aufgeladene oder polarisierende Inhalte bevorzugt angezeigt werden.\n\nDiese Mechanismen haben weitreichende gesellschaftliche Folgen, die von vielen Wissenschaftlern kritisch untersucht werden. Wenn Nutzer vorwiegend Inhalte sehen, die ihre bestehenden Meinungen bestätigen, entstehen sogenannte Filterblasen, in denen abweichende Perspektiven kaum noch wahrgenommen werden. Sollte diese Entwicklung nicht durch mehr Transparenz und Regulierung eingedämmt werden, könnte die gesellschaftliche Spaltung, vor der viele Experten warnen, weiter zunehmen.\n\nEinige Plattformbetreiber haben bereits reagiert und bieten Nutzern die Möglichkeit, den Algorithmus teilweise zu beeinflussen oder chronologische Zeitleisten zu wählen. Ob diese Maßnahmen ausreichen, um die beschriebenen Probleme wirksam zu bekämpfen, wird von Medienforschern jedoch bezweifelt, da die zugrunde liegenden wirtschaftlichen Anreize der Plattformen unverändert bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen entscheiden mit, welche Inhalte Nutzer in sozialen Netzwerken sehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beschriebenen Algorithmen bevorzugen besonders neutrale, unauffällige Inhalte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen entstehen, wenn Nutzer vor allem bestätigende Inhalte sehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kein einziger Plattformbetreiber hat bisher auf die Kritik reagiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienforscher sind sich sicher, dass die bisherigen Maßnahmen das Problem vollständig lösen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-in-der-medizin",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz in der Medizin",
+    "descripcion": "Wie KI-Systeme die medizinische Diagnostik verändern und welche ethischen Fragen dabei entstehen.",
+    "texto": "In der medizinischen Diagnostik werden zunehmend Systeme künstlicher Intelligenz eingesetzt, um Ärztinnen und Ärzte bei der Auswertung von Röntgenbildern, Laborwerten und Patientendaten zu unterstützen. Studien zeigen, dass solche Systeme bestimmte Erkrankungen, etwa Hautkrebs oder Lungenveränderungen, mit einer Genauigkeit erkennen können, die der von erfahrenen Fachärzten kaum nachsteht. Befürworter betonen, dass dadurch Diagnosen schneller gestellt und Fehler reduziert werden könnten.\n\nDennoch werfen diese Entwicklungen zahlreiche ethische und rechtliche Fragen auf, die bislang nur unzureichend geklärt sind. Wer haftet beispielsweise, wenn ein von einem Algorithmus unterstütztes System eine falsche Diagnose liefert? Zudem wird kritisiert, dass viele dieser Systeme mit Daten trainiert wurden, die bestimmte Bevölkerungsgruppen nur unzureichend abbilden, wodurch die Diagnosegenauigkeit bei diesen Gruppen geringer ausfallen könnte.\n\nWürden diese Systeme ausschließlich als unterstützendes Werkzeug und nicht als Ersatz für die ärztliche Beurteilung eingesetzt, ließen sich viele der genannten Risiken vermutlich verringern. Die meisten Experten sind sich einig, dass die letzte Entscheidung in der Diagnostik weiterhin bei Menschen liegen sollte, auch wenn die technischen Möglichkeiten stetig wachsen.",
+    "preguntas": [
+      {
+        "enunciado": "KI-Systeme werden bereits zur Unterstützung bei medizinischen Diagnosen eingesetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien erkennen manche KI-Systeme bestimmte Erkrankungen sehr genau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frage der Haftung bei Fehldiagnosen ist laut Text vollständig geklärt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Trainingsdaten der Systeme bilden sämtliche Bevölkerungsgruppen gleich gut ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die meisten Experten meinen, dass die endgültige Entscheidung bei Menschen bleiben sollte.",
+        "respuesta": true
+      }
+    ]
   }
 ]
