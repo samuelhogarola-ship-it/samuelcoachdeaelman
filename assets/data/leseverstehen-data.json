@@ -22046,5 +22046,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "die-kaffeepause",
+    "nivel": "A1",
+    "titulo": "Die Kaffeepause",
+    "descripcion": "Anna macht am Vormittag eine kurze Kaffeepause im Büro.",
+    "texto": "Anna arbeitet in einem Büro in Köln. Um zehn Uhr macht sie eine Pause. Sie trinkt gern Kaffee mit Milch. Ihre Kollegin Petra trinkt Tee.\n\nDie Pause dauert nur zehn Minuten. Anna und Petra sitzen in der Küche. Sie sprechen über das Wochenende. Petra sagt: „Ich fahre am Samstag zu meiner Schwester.“ Anna lacht und antwortet: „Das ist schön!“\n\nNach der Pause gehen beide zurück an die Arbeit. Anna trinkt noch einen Schluck Kaffee. Dann beginnt sie wieder mit ihrem Computer zu arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Anna arbeitet in einem Büro in Köln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna trinkt gern Tee mit Milch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Pause dauert zehn Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Petra fährt am Samstag zu ihrem Bruder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Pause arbeiten beide weiter.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-spaziergang-mit-dem-hund",
+    "nivel": "A1",
+    "titulo": "Der Spaziergang mit dem Hund",
+    "descripcion": "Markus geht jeden Morgen mit seinem Hund im Park spazieren.",
+    "texto": "Markus hat einen Hund. Der Hund heißt Bruno. Jeden Morgen gehen sie zusammen in den Park. Bruno ist braun und sehr aktiv.\n\nIm Park trifft Markus oft seinen Nachbarn Peter. Peter hat auch einen Hund. Die beiden Hunde spielen gern zusammen. Markus und Peter reden über das Wetter.\n\nNach dem Spaziergang geht Markus nach Hause. Er gibt Bruno Wasser und Futter. Dann frühstückt Markus und trinkt einen Kaffee.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus geht abends spazieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Peter hat auch einen Hund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Spaziergang frühstückt Markus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-neues-handy",
+    "nivel": "A1",
+    "titulo": "Mein neues Handy",
+    "descripcion": "Lisa kauft ein neues Handy und zeigt es ihrer Familie.",
+    "texto": "Lisa braucht ein neues Handy. Ihr altes Handy ist kaputt. Sie geht in ein Geschäft in der Stadt. Der Verkäufer zeigt ihr viele Modelle.\n\nLisa wählt ein schwarzes Handy. Es ist nicht zu teuer. Sie bezahlt an der Kasse und ist glücklich. Zu Hause zeigt sie das Handy ihrer Familie.\n\nIhr Bruder findet das Handy sehr modern. Ihre Mutter fragt: „Ist es teuer?“ Lisa antwortet: „Nein, es kostet nicht viel.“ Am Abend lädt Lisa alle Kontakte auf das neue Handy.",
+    "preguntas": [
+      {
+        "enunciado": "Lisas altes Handy ist kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa kauft ein rotes Handy.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa bezahlt an der Kasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihre Mutter findet das Handy zu teuer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend lädt Lisa ihre Kontakte auf das Handy.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zugfahrt-nach-hamburg",
+    "nivel": "A2",
+    "titulo": "Die Zugfahrt nach Hamburg",
+    "descripcion": "Tobias erzählt von seiner Zugfahrt nach Hamburg und einer kleinen Verspätung.",
+    "texto": "Letzte Woche ist Tobias mit dem Zug nach Hamburg gefahren. Er wollte seine Tante besuchen, weil sie Geburtstag hatte. Die Fahrt hat fast fünf Stunden gedauert.\n\nAm Anfang ist alles gut gelaufen. Aber nach zwei Stunden hatte der Zug eine Verspätung, weil es ein technisches Problem gab. Tobias hat sich keine Sorgen gemacht, denn er hatte ein Buch dabei. Er hat gelesen und aus dem Fenster geschaut.\n\nAls er endlich in Hamburg angekommen ist, hat seine Tante schon am Bahnhof gewartet. Sie hat sich sehr gefreut, dass er trotz der Verspätung gekommen ist. Zusammen sind sie nach Hause gefahren und haben den Abend gemütlich verbracht.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias ist mit dem Bus nach Hamburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er wollte seine Tante besuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zug hatte keine Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hat während der Fahrt gelesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seine Tante hat am Bahnhof gewartet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-bei-den-grosseltern",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei den Großeltern",
+    "descripcion": "Julia verbringt ein Wochenende auf dem Land bei ihren Großeltern.",
+    "texto": "Julia hat das Wochenende bei ihren Großeltern auf dem Land verbracht. Sie ist am Freitagabend mit dem Auto ihres Vaters dorthin gefahren. Ihre Großeltern haben sich sehr gefreut, weil sie Julia lange nicht gesehen hatten.\n\nAm Samstag hat Julia ihrem Großvater im Garten geholfen. Sie haben zusammen Äpfel gepflückt, obwohl es ein bisschen kalt war. Danach hat ihre Großmutter einen Kuchen gebacken, und alle haben ihn mit Kaffee gegessen.\n\nAm Sonntag ist Julia früh aufgewacht, weil die Vögel im Garten so laut gesungen haben. Sie hat noch einen langen Spaziergang mit ihrer Großmutter gemacht, bevor sie am Nachmittag wieder nach Hause gefahren ist.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit dem Zug zu ihren Großeltern gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag hat sie im Garten geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Großmutter hat einen Kuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag ist Julia lange im Bett geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist am Nachmittag zurückgefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schulausflug-ans-meer",
+    "nivel": "A2",
+    "titulo": "Der Schulausflug ans Meer",
+    "descripcion": "Eine Schulklasse fährt für einen Tag ans Meer und erlebt viele Abenteuer.",
+    "texto": "Die Klasse 7b ist letzten Freitag ans Meer gefahren. Alle Schüler waren sehr aufgeregt, weil sie noch nie zusammen einen Ausflug gemacht hatten. Der Bus ist um sieben Uhr morgens losgefahren.\n\nAm Meer haben die Schüler zuerst am Strand gespielt. Danach hat der Lehrer erklärt, wie das Wetter das Meer beeinflusst. Einige Kinder haben Muscheln gesammelt, während andere im flachen Wasser gelaufen sind, obwohl das Wasser kalt war.\n\nAm Nachmittag haben alle zusammen Fisch mit Pommes gegessen. Bevor sie wieder in den Bus gestiegen sind, haben die Schüler noch Fotos gemacht. Auf der Rückfahrt haben viele im Bus geschlafen, weil der Tag so anstrengend war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 7b ist mit dem Zug gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler haben am Strand gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Lehrer hat nichts über das Wetter erzählt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag haben alle Fisch mit Pommes gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf der Rückfahrt waren alle Schüler wach.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-betriebsfeier",
+    "nivel": "B1",
+    "titulo": "Die Betriebsfeier",
+    "descripcion": "Ein Angestellter berichtet über die jährliche Betriebsfeier seiner Firma.",
+    "texto": "Jedes Jahr im Dezember organisiert die Firma von Herrn Weber eine große Betriebsfeier. Obwohl er sich vorher nicht besonders darauf gefreut hatte, entschied er sich, dieses Jahr aktiv mitzuhelfen. Nachdem er den Kollegen aus der Buchhaltung geholfen hatte, die Tische zu dekorieren, fühlte er sich viel wohler im Team.\n\nWährend der Feier hielt der Geschäftsführer eine Rede über die Erfolge des Jahres. Trotzdem war die Stimmung im Saal eher locker, denn die meisten Mitarbeiter kannten sich schon lange. Herr Weber unterhielt sich mit Kollegen, mit denen er sonst kaum sprach, weil sie in einer anderen Abteilung arbeiteten.\n\nAm Ende des Abends waren sich alle einig, dass die Feier ein voller Erfolg gewesen war. Nachdem die Musik aufgehört hatte, halfen einige Mitarbeiter noch beim Aufräumen. Herr Weber ging zufrieden nach Hause, obwohl er am nächsten Morgen früh aufstehen musste.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber hat sich von Anfang an sehr auf die Feier gefreut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er hat geholfen, die Tische zu dekorieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Geschäftsführer hat keine Rede gehalten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat mit Kollegen aus anderen Abteilungen gesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Feier ist niemand geblieben, um aufzuräumen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-sprachkurs-im-ausland",
+    "nivel": "B1",
+    "titulo": "Der Sprachkurs im Ausland",
+    "descripcion": "Eine Studentin berichtet von ihren Erfahrungen bei einem Sprachkurs in Spanien.",
+    "texto": "Nachdem Sarah zwei Jahre lang Spanisch an der Universität gelernt hatte, beschloss sie, einen Sprachkurs in Madrid zu machen. Obwohl sie zunächst etwas Angst hatte, allein in ein fremdes Land zu reisen, freute sie sich auch sehr auf das Abenteuer.\n\nIn Madrid wohnte sie bei einer Gastfamilie, die sehr freundlich war. Am Anfang fiel es ihr schwer, alles zu verstehen, weil die Menschen dort sehr schnell sprachen. Nachdem sie sich jedoch an den Akzent gewöhnt hatte, wurde es von Tag zu Tag einfacher.\n\nWährend des Kurses lernte Sarah viele andere internationale Studenten kennen. Trotz der sprachlichen Herausforderungen verbrachten sie zusammen viel Zeit und besuchten gemeinsam die Stadt. Am Ende des Monats konnte Sarah viel besser Spanisch sprechen als vorher, und sie war traurig, wieder abreisen zu müssen.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah hatte vorher noch nie Spanisch gelernt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie wohnte bei einer Gastfamilie in Madrid.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang verstand sie alles ohne Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah lernte andere internationale Studenten kennen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie war froh, am Ende des Monats abzureisen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-unerwartete-freundschaft",
+    "nivel": "B1",
+    "titulo": "Eine unerwartete Freundschaft",
+    "descripcion": "Zwei sehr unterschiedliche Nachbarn entwickeln im Laufe der Zeit eine enge Freundschaft.",
+    "texto": "Herr Braun war schon über siebzig Jahre alt, als der junge Student Felix in die Wohnung neben ihm einzog. Obwohl die beiden auf den ersten Blick nicht viel gemeinsam hatten, begannen sie sich langsam kennenzulernen. Nachdem Felix eines Tages seinen Schlüssel vergessen hatte, half ihm Herr Braun spontan aus.\n\nSeitdem trafen sie sich fast jeden Abend auf einen Kaffee. Herr Braun erzählte Felix von seinem Leben und seiner Arbeit als Lehrer, während Felix von seinem Studium und seinen Zukunftsplänen berichtete. Trotz des großen Altersunterschieds verstanden sie sich immer besser.\n\nAls Felix nach dem Studium in eine andere Stadt ziehen musste, war Herr Braun sehr traurig, obwohl er sich für seinen jungen Freund freute. Die beiden blieben in Kontakt und besuchten sich weiterhin regelmäßig, denn ihre Freundschaft war ihnen inzwischen sehr wichtig geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist neben Herrn Braun eingezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden haben sich nie richtig kennengelernt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Braun hat als Lehrer gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix ist für immer in der Stadt geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Umzug haben sie sich weiterhin besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fridays-for-future-und-die-klimapolitik",
+    "nivel": "B2",
+    "titulo": "Fridays for Future und die Klimapolitik",
+    "descripcion": "Ein Text über die Bewegung Fridays for Future und ihren Einfluss auf die deutsche Klimapolitik.",
+    "texto": "Seit einigen Jahren gehen jeden Freitag Schülerinnen und Schüler in vielen deutschen Städten auf die Straße, um für mehr Klimaschutz zu demonstrieren. Diese Bewegung, die unter dem Namen Fridays for Future bekannt geworden ist, hat es geschafft, das Thema Klimapolitik stärker in den öffentlichen Diskurs zu rücken, als es zuvor der Fall gewesen war. Während einige Politiker die Anliegen der jungen Aktivisten ernst nehmen, werfen andere ihnen vor, die wirtschaftlichen Konsequenzen ihrer Forderungen nicht ausreichend zu bedenken.\n\nKritiker bemängeln zudem, dass viele Beschlüsse, die im Namen des Klimaschutzes gefasst würden, letztlich zu langsam umgesetzt werden. Wäre die Politik konsequenter, so argumentieren sie, könnten die Klimaziele deutlich schneller erreicht werden. Befürworter der Bewegung entgegnen, dass gerade der öffentliche Druck notwendig sei, damit überhaupt Veränderungen angestoßen würden, da sich sonst kaum etwas bewegen würde.\n\nUnabhängig davon, wie man zu den einzelnen Forderungen steht, lässt sich nicht bestreiten, dass die Bewegung eine ganze Generation politisch geprägt hat. Viele junge Menschen, die früher kaum Interesse an Politik zeigten, engagieren sich heute aktiv für Umweltthemen. Ob dieser Wandel langfristig zu einer grundlegend anderen Klimapolitik führen wird, bleibt jedoch abzuwarten.",
+    "preguntas": [
+      {
+        "enunciado": "Fridays for Future hat das Thema Klimapolitik stärker in die Öffentlichkeit gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Politiker unterstützen die Bewegung uneingeschränkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker meinen, viele Beschlüsse würden zu langsam umgesetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Befürworter halten öffentlichen Druck für überflüssig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bewegung hat viele junge Menschen politisch geprägt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-krise-der-lokalzeitungen",
+    "nivel": "B2",
+    "titulo": "Die Krise der Lokalzeitungen",
+    "descripcion": "Ein Text über den Niedergang lokaler Zeitungen und seine Folgen für die Demokratie.",
+    "texto": "In den letzten Jahrzehnten ist die Zahl der Lokalzeitungen in Deutschland kontinuierlich zurückgegangen. Viele kleinere Redaktionen mussten schließen oder wurden von größeren Verlagshäusern übernommen, wodurch die journalistische Vielfalt in vielen Regionen erheblich abgenommen hat. Während früher fast jede Stadt ihre eigene Zeitung hatte, wird heute vielerorts nur noch überregional berichtet.\n\nDiese Entwicklung wird von Medienwissenschaftlern mit Sorge betrachtet, da lokale Berichterstattung eine wichtige Kontrollfunktion für die Demokratie erfüllt. Würden weniger Journalisten über kommunalpolitische Entscheidungen berichten, bliebe vieles, was in Rathäusern und Gemeinderäten beschlossen wird, der Öffentlichkeit verborgen. Zudem sinkt das Interesse jüngerer Leser an gedruckten Zeitungen, da diese ihre Informationen zunehmend über soziale Medien beziehen, in denen lokale Themen kaum vorkommen.\n\nEinige Verlage versuchen, dieser Entwicklung entgegenzuwirken, indem sie digitale Angebote schaffen, die speziell auf lokale Nachrichten ausgerichtet sind. Ob solche Modelle langfristig finanziell tragfähig sind, bleibt allerdings fraglich, denn viele Leser sind nicht bereit, für Online-Inhalte zu bezahlen. Ohne eine nachhaltige Finanzierung dürfte sich die Krise der Lokalzeitungen in den kommenden Jahren eher noch verschärfen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zahl der Lokalzeitungen ist in den letzten Jahrzehnten gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienwissenschaftler sehen die Entwicklung mit Sorge.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lokale Berichterstattung hat eine Kontrollfunktion für die Demokratie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jüngere Leser interessieren sich zunehmend für gedruckte Zeitungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Finanzierung digitaler lokaler Angebote ist gesichert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "dialekte-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Dialekte im digitalen Zeitalter",
+    "descripcion": "Ein Text darüber, wie sich deutsche Dialekte durch die Digitalisierung verändern.",
+    "texto": "Deutsche Dialekte galten lange Zeit als aussterbende Sprachformen, die vor allem von älteren Generationen in ländlichen Gebieten gesprochen wurden. In den vergangenen Jahren lässt sich jedoch eine überraschende Entwicklung beobachten: Durch soziale Medien und digitale Kommunikation erleben viele Dialekte eine Art Wiederbelebung, die vor wenigen Jahren kaum vorstellbar gewesen wäre.\n\nBesonders junge Menschen verwenden Dialektausdrücke bewusst in Textnachrichten, Kommentaren oder kurzen Videos, um ihre regionale Identität zu betonen. Während der klassische Dialekt im Alltag oft als weniger prestigeträchtig galt, wird er im digitalen Raum zunehmend als Ausdruck von Authentizität und Originalität wahrgenommen. Sprachwissenschaftler weisen darauf hin, dass diese Entwicklung nicht bedeutet, dass Dialekte in ihrer ursprünglichen Form erhalten bleiben, sondern dass sich vielmehr neue, hybride Sprachformen herausbilden.\n\nGleichzeitig bleibt die Sorge bestehen, dass echte, tief verwurzelte Dialekte weiterhin verschwinden könnten, da die neuen Formen häufig nur einzelne Wörter oder Redewendungen übernehmen, ohne die eigentliche Grammatik und Aussprache zu bewahren. Ob die digitale Verbreitung von Dialektelementen langfristig zu ihrem Erhalt beiträgt oder lediglich eine oberflächliche Modeerscheinung darstellt, wird unter Experten weiterhin kontrovers diskutiert.",
+    "preguntas": [
+      {
+        "enunciado": "Dialekte wurden früher hauptsächlich mit älteren Generationen assoziiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Soziale Medien haben zu einer Art Wiederbelebung von Dialekten geführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Junge Menschen vermeiden Dialektausdrücke in digitalen Nachrichten vollständig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sprachwissenschaftler sind sich einig, dass Dialekte in ihrer ursprünglichen Form vollständig erhalten bleiben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Unter Experten wird kontrovers diskutiert, ob dies eine Modeerscheinung ist.",
+        "respuesta": true
+      }
+    ]
   }
 ]
