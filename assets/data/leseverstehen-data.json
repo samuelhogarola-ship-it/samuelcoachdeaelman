@@ -22742,5 +22742,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "ein-tag-am-see",
+    "nivel": "A1",
+    "titulo": "Ein Tag am See",
+    "descripcion": "Lisa und ihre Familie verbringen einen Tag am See.",
+    "texto": "Die Familie Berger fährt am Sonntag zum See. Die Sonne scheint und der Himmel ist blau. Lisa trägt einen roten Badeanzug. Ihr Bruder Tom trägt eine blaue Hose. Die Mutter packt Brote, Äpfel und Wasser in eine Tasche. Der Vater nimmt den Ball mit.\n\nAm See spielen Lisa und Tom im Wasser. Das Wasser ist kalt, aber schön. Die Mutter liegt auf einer Decke und liest ein Buch. Der Vater schwimmt langsam im See. Um zwölf Uhr essen sie zusammen. Lisa isst ein Brot mit Käse. Tom trinkt Wasser und isst einen Apfel.\n\nAm Nachmittag spielen sie Ball am Strand. Es macht viel Spaß. Am Abend fahren sie müde nach Hause. Lisa sagt: „Das war ein toller Tag!“ Tom lacht und nickt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger fährt am Sonntag zum See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa trägt eine blaue Hose.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter liest ein Buch am See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie essen um zwölf Uhr zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend spielen sie noch lange im Wasser.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-fahrradausflug",
+    "nivel": "A1",
+    "titulo": "Der Fahrradausflug",
+    "descripcion": "Paul und sein Freund Ben machen einen Ausflug mit dem Fahrrad.",
+    "texto": "Paul hat ein neues Fahrrad. Es ist grün und sehr schnell. Am Samstag ruft er seinen Freund Ben an. „Hast du Lust auf einen Fahrradausflug?“, fragt Paul. Ben sagt: „Ja, gerne!“\n\nAm Morgen treffen sich Paul und Ben am Park. Sie fahren zusammen durch den Wald. Die Vögel singen und die Luft ist frisch. Nach einer Stunde machen sie eine Pause. Sie trinken Wasser und essen ein paar Kekse. Ben hat auch eine Banane dabei.\n\nAm Nachmittag fahren sie zu einem kleinen See. Dort essen sie ein Eis und schauen den Enten zu. Paul macht ein Foto vom See. Um vier Uhr fahren sie wieder nach Hause. Beide sind müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hat ein neues, grünes Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hat keine Lust auf den Ausflug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie fahren zusammen durch einen Wald.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am See essen sie kein Eis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Um vier Uhr fahren sie nach Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-picknick-im-garten",
+    "nivel": "A1",
+    "titulo": "Ein Picknick im Garten",
+    "descripcion": "Die Familie Klein macht ein Picknick im eigenen Garten.",
+    "texto": "Es ist Sonntag und die Sonne scheint. Frau Klein sagt: „Wir machen heute ein Picknick im Garten!“ Die Kinder Mia und Finn freuen sich sehr. Sie holen eine Decke und legen sie ins Gras.\n\nHerr Klein bringt Brot, Käse und Trauben. Mia trägt einen Krug mit Apfelsaft. Finn holt Teller und Gläser aus der Küche. Alle setzen sich auf die Decke und essen zusammen. Der Hund Bruno liegt neben Finn und wartet auf ein Stück Käse.\n\nNach dem Essen spielen Mia und Finn im Garten. Sie werfen einen Ball und lachen viel. Frau Klein und Herr Klein trinken Kaffee und reden. Am Abend ist der Garten still, und alle sind zufrieden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie macht ein Picknick im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Klein bringt Pizza mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia trägt einen Krug mit Apfelsaft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Essen schlafen die Kinder sofort ein.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-beim-arzt",
+    "nivel": "A2",
+    "titulo": "Ein Besuch beim Arzt",
+    "descripcion": "Sofia hat Halsschmerzen und geht mit ihrer Mutter zum Arzt.",
+    "texto": "Sofia ist seit zwei Tagen krank. Sie hat Halsschmerzen und fühlt sich schwach. Weil das Fieber nicht besser wird, ruft ihre Mutter beim Arzt an und macht einen Termin. Am Morgen sind sie zusammen zur Praxis gegangen.\n\nIm Wartezimmer haben viele Leute gesessen. Nach zwanzig Minuten hat die Ärztin Sofia aufgerufen. Sie hat Sofias Hals und Ohren untersucht und gesagt, dass Sofia eine leichte Grippe hat. Die Ärztin hat ihr Tabletten verschrieben und erklärt, dass Sofia viel trinken und sich ausruhen soll.\n\nAuf dem Weg nach Hause sind sie in die Apotheke gegangen und haben die Medikamente gekauft. Sofia ist ins Bett gegangen und hat den ganzen Nachmittag geschlafen. Wenn sie sich nächste Woche besser fühlt, darf sie wieder zur Schule gehen. Ihre Mutter hat ihr Tee mit Honig gemacht.",
+    "preguntas": [
+      {
+        "enunciado": "Sofia ist seit zwei Tagen krank.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Ärztin hat gesagt, dass Sofia gesund ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Wartezimmer hat niemand gesessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofia und ihre Mutter sind in die Apotheke gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia hat am Nachmittag geschlafen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarin-aus-spanien",
+    "nivel": "A2",
+    "titulo": "Die Nachbarin aus Spanien",
+    "descripcion": "Familie Wagner lernt ihre neue Nachbarin aus Spanien kennen.",
+    "texto": "Letzte Woche ist eine neue Nachbarin in das Haus nebenan eingezogen. Sie heißt Carmen und kommt aus Spanien. Weil Herr Wagner gerade im Garten gearbeitet hat, hat er sie zuerst gesehen und freundlich gegrüßt.\n\nAm Wochenende hat Carmen an der Tür geklingelt und eine kleine Torte mitgebracht. Sie hat erzählt, dass sie wegen ihrer neuen Arbeit nach Deutschland gezogen ist. Frau Wagner hat sie zum Kaffee eingeladen, und sie haben lange über Spanien und Deutschland gesprochen. Carmen hat gesagt, dass sie das deutsche Brot sehr mag, aber die spanische Sonne vermisst.\n\nSeitdem treffen sich die Familien oft im Garten. Wenn das Wetter schön ist, grillen sie zusammen. Carmen hat den Wagners auch gezeigt, wie man eine spanische Paella kocht. Die Kinder von Herrn und Frau Wagner haben schon ein paar spanische Wörter von Carmen gelernt.",
+    "preguntas": [
+      {
+        "enunciado": "Carmen kommt aus Spanien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wagner hat Carmen zuerst im Supermarkt getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carmen hat eine Torte mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carmen vermisst die spanische Sonne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familien treffen sich nie zusammen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-den-ferien",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus den Ferien",
+    "descripcion": "Julia schreibt ihrer besten Freundin einen Brief aus dem Urlaub an der Ostsee.",
+    "texto": "Liebe Nina,\n\nich bin jetzt seit drei Tagen mit meiner Familie an der Ostsee. Wir haben ein kleines Hotel in der Nähe vom Strand gefunden. Weil das Wetter so schön war, sind wir jeden Tag schwimmen gegangen. Gestern haben wir sogar Fahrrad gefahren und sind bis zum nächsten Dorf gekommen.\n\nAm Abend haben wir in einem Restaurant frischen Fisch gegessen. Es hat sehr gut geschmeckt! Mein kleiner Bruder hat am Strand eine große Sandburg gebaut, und ich habe viele Muscheln gesammelt. Ich habe auch neue Freunde kennengelernt, weil wir alle im selben Hotel wohnen.\n\nIch hoffe, dass es dir gut geht. Wenn ich zurück bin, erzähle ich dir alles genauer. Nächste Woche fahren wir wieder nach Hause, aber ich möchte am liebsten hierbleiben!\n\nViele Grüße,\nJulia",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit ihrer Familie an der Nordsee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind jeden Tag schwimmen gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julias Bruder hat eine Sandburg gebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat keine neuen Freunde kennengelernt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia möchte am liebsten noch länger in den Ferien bleiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nachdem-die-pruefung-vorbei-war",
+    "nivel": "B1",
+    "titulo": "Nachdem die Prüfung vorbei war",
+    "descripcion": "Lukas erzählt, wie er sich nach einer wichtigen Mathematikprüfung gefühlt hat.",
+    "texto": "Lukas hatte wochenlang für seine Mathematikprüfung gelernt. Obwohl er sich gut vorbereitet fühlte, war er am Morgen der Prüfung sehr nervös. Nachdem er die Aufgaben gelesen hatte, wurde er ruhiger, weil sie ihm bekannt vorkamen. Trotzdem brauchte er die ganze Zeit, um alle Fragen zu beantworten.\n\nNachdem die Prüfung vorbei war, traf sich Lukas mit seinen Klassenkameraden vor der Schule. Alle diskutierten über die Aufgaben und verglichen ihre Antworten. Manche waren sich sicher, dass sie gut abgeschnitten hatten, während andere sich Sorgen machten. Lukas wusste nicht genau, wie er die letzte Aufgabe gelöst hatte, aber er versuchte, nicht mehr daran zu denken.\n\nAm Nachmittag ging Lukas mit seinen Freunden ins Kino, um sich abzulenken. Obwohl er immer noch an die Prüfung dachte, half ihm der Film, sich zu entspannen. Zwei Wochen später bekam er die Note zurück: eine Zwei. Er war erleichtert und stolz auf sich, denn all die Arbeit hatte sich gelohnt.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas hatte wochenlang für die Prüfung gelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er war am Morgen der Prüfung völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Prüfung ging Lukas sofort allein nach Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas ging mit Freunden ins Kino.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas bekam eine schlechte Note zurück.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-meiner-besten-freundin",
+    "nivel": "B1",
+    "titulo": "Der Umzug meiner besten Freundin",
+    "descripcion": "Eine junge Frau erzählt, wie ihre beste Freundin wegen eines neuen Jobs nach München gezogen ist.",
+    "texto": "Meine beste Freundin Elena und ich kennen uns schon seit der Grundschule. Wir haben fast alles zusammen gemacht, obwohl wir sehr unterschiedliche Persönlichkeiten haben. Vor ein paar Monaten hat Elena mir erzählt, dass sie wegen eines neuen Jobs nach München ziehen wird. Zuerst konnte ich es kaum glauben.\n\nNachdem sie mir die Neuigkeit erzählt hatte, haben wir viel über die Zukunft gesprochen. Elena war aufgeregt über die neue Stelle, aber gleichzeitig traurig, weil sie ihre Heimatstadt verlassen musste. Trotzdem war ihr klar, dass diese Chance zu gut war, um sie zu verpassen. Wir haben beschlossen, uns so oft wie möglich zu besuchen und jede Woche zu telefonieren.\n\nAm Tag des Umzugs haben wir zusammen ihre letzten Kisten gepackt und uns lange umarmt. Obwohl die Entfernung zwischen uns jetzt größer ist, hat sich unsere Freundschaft nicht verändert. Letzten Monat habe ich Elena in München besucht, und wir haben festgestellt, dass wir uns genauso gut verstehen wie früher.",
+    "preguntas": [
+      {
+        "enunciado": "Elena und die Erzählerin kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Elena zieht wegen der Liebe nach München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elena war nur glücklich über den Umzug und gar nicht traurig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben beschlossen, sich regelmäßig zu treffen und zu telefonieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freundschaft hat sich nach dem Umzug verschlechtert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-jugendkulturfestival",
+    "nivel": "B1",
+    "titulo": "Das Jugendkulturfestival",
+    "descripcion": "Eine Schulklasse besucht ein Kulturfestival für junge Menschen in ihrer Stadt.",
+    "texto": "Jedes Jahr im Sommer findet in der Stadt ein Jugendkulturfestival statt, bei dem junge Künstler ihre Musik, Kunst und Tanzstücke zeigen können. Dieses Jahr hat die Klasse von Frau Richter beschlossen, das Festival gemeinsam zu besuchen, nachdem sie im Unterricht über moderne Kunst gesprochen hatten.\n\nAuf dem Festivalgelände gab es viele verschiedene Bühnen. Obwohl das Wetter am Morgen regnerisch war, kamen trotzdem hunderte Besucher. Die Schüler sahen sich zuerst eine Tanzgruppe an, die einen modernen Hip-Hop-Tanz aufführte. Danach besuchten sie eine Ausstellung mit Gemälden von jungen Künstlern aus der Region. Ein Mitschüler, Tim, war besonders beeindruckt von einem Graffiti-Workshop, bei dem man selbst eine Wand bemalen konnte.\n\nAm Ende des Tages versammelten sich alle vor der Hauptbühne, um ein Konzert einer lokalen Band zu hören. Obwohl viele Schüler müde waren, blieben sie bis zum Schluss, weil die Musik so mitreißend war. Frau Richter war froh, dass ihre Klasse einen so kreativen und lehrreichen Tag erlebt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Das Jugendkulturfestival findet im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wegen des Regens kamen nur sehr wenige Besucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler sahen eine Hip-Hop-Tanzgruppe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim war vom Graffiti-Workshop beeindruckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler gingen vor dem Konzert nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "bildungsreform-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Bildungsreform in Deutschland",
+    "descripcion": "Ein Kommentar zu den aktuellen Debatten über die Reform des deutschen Bildungssystems.",
+    "texto": "Seit Jahren wird in Deutschland über eine grundlegende Reform des Bildungssystems diskutiert. Kritiker bemängeln, dass die föderale Struktur, bei der jedes Bundesland seine eigenen Lehrpläne und Prüfungsstandards festlegt, zu einer erheblichen Ungleichheit zwischen den Regionen führe. Ein Schüler, der von Bayern nach Berlin umzieht, müsse sich demnach nicht nur an eine neue Schule, sondern auch an ein völlig anderes Lernsystem gewöhnen, was viele Experten als untragbar bezeichnen.\n\nBefürworter einer bundesweit einheitlichen Bildungspolitik argumentieren, dass gleiche Bildungschancen für alle Kinder geschaffen werden müssten, unabhängig davon, in welchem Bundesland sie aufwachsen. Wenn man die Lehrpläne vereinheitlichen würde, so ihre Überzeugung, ließe sich die soziale Ungleichheit im Bildungssystem deutlich verringern. Gegner hingegen befürchten, dass eine zentrale Steuerung die Vielfalt und die Anpassungsfähigkeit an regionale Besonderheiten zerstören würde.\n\nEin weiterer viel diskutierter Punkt betrifft die Digitalisierung der Schulen. Obwohl in den letzten Jahren erhebliche Summen in digitale Ausstattung investiert wurden, klagen viele Lehrkräfte weiterhin über veraltete Geräte und mangelnde Fortbildung. Es wird zunehmend gefordert, dass Lehrer verpflichtend in digitalen Unterrichtsmethoden geschult werden sollten, damit der Unterricht den Anforderungen des 21. Jahrhunderts gerecht werden kann.\n\nAm Ende bleibt die Frage, ob eine solche Reform politisch überhaupt durchsetzbar wäre. Da Bildungspolitik in der Verantwortung der Bundesländer liegt, müssten diese ihre Zuständigkeiten teilweise abgeben, was von vielen Landesregierungen abgelehnt wird. Solange keine Einigung erzielt wird, bleibt das deutsche Bildungssystem in seiner jetzigen, uneinheitlichen Form bestehen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Bundesländer haben denselben Lehrplan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter einer Reform wollen gleiche Bildungschancen für alle Kinder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Digitalisierung der Schulen gilt laut Text als vollständig abgeschlossen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Landesregierungen wollen ihre Zuständigkeiten nicht abgeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Textes wird eine endgültige Lösung präsentiert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-homeoffice-und-die-work-life-balance",
+    "nivel": "B2",
+    "titulo": "Das Homeoffice und die Work-Life-Balance",
+    "descripcion": "Eine Analyse darüber, wie sich Homeoffice auf die Vereinbarkeit von Beruf und Privatleben auswirkt.",
+    "texto": "Seitdem viele Unternehmen ihren Angestellten die Möglichkeit bieten, von zu Hause aus zu arbeiten, wird intensiv über die Auswirkungen des Homeoffice auf die Work-Life-Balance diskutiert. Für zahlreiche Arbeitnehmer, die sich früher täglich durch überfüllte öffentliche Verkehrsmittel quälen mussten, bedeutet der Wegfall des Arbeitswegs eine spürbare Entlastung. Studien zeigen, dass die gewonnene Zeit häufig für Familie, Sport oder Erholung genutzt wird.\n\nGleichzeitig weisen Experten darauf hin, dass die vermeintlichen Vorteile des Homeoffice auch erhebliche Risiken bergen. Wenn die räumliche Trennung zwischen Arbeitsplatz und Privatleben wegfällt, falle es vielen Menschen schwer, klare Grenzen zu ziehen. Es wird berichtet, dass manche Angestellte auch abends und am Wochenende E-Mails beantworten, weil der Laptop stets griffbereit auf dem Schreibtisch liegt. Diese ständige Erreichbarkeit könnte, so die Befürchtung mancher Psychologen, langfristig zu Erschöpfung und Burnout führen.\n\nEin weiterer, oft übersehener Aspekt betrifft die soziale Isolation. Kollegiale Gespräche, die früher in der Kaffeeküche stattfanden, werden im Homeoffice durch kurze Chatnachrichten ersetzt, was von vielen als weniger bereichernd empfunden wird. Manche Unternehmen versuchen deshalb, durch regelmäßige Präsenztage im Büro einen Ausgleich zu schaffen, damit der persönliche Kontakt nicht vollständig verloren geht.\n\nWäre es also wünschenswert, vollständig zur klassischen Büroarbeit zurückzukehren? Die meisten Fachleute würden dies verneinen. Vielmehr scheint ein hybrides Modell, das die Vorteile beider Arbeitsformen kombiniert, die aussichtsreichste Lösung zu sein, um sowohl die Produktivität als auch das Wohlbefinden der Beschäftigten langfristig zu sichern.",
+    "preguntas": [
+      {
+        "enunciado": "Homeoffice bedeutet für viele Arbeitnehmer weniger Zeit im Verkehr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text gibt es keine Risiken, die mit dem Homeoffice verbunden sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Angestellte beantworten auch abends noch E-Mails.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Soziale Kontakte zu Kollegen werden im Homeoffice als genauso bereichernd empfunden wie im Büro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die meisten Experten befürworten laut Text ein hybrides Arbeitsmodell.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "soziale-medien-und-ihre-folgen",
+    "nivel": "B2",
+    "titulo": "Soziale Medien und ihre Folgen",
+    "descripcion": "Ein kritischer Blick auf den Einfluss sozialer Medien auf die Gesellschaft.",
+    "texto": "Kaum ein Phänomen hat die Kommunikation der letzten zwei Jahrzehnte so stark verändert wie die sozialen Medien. Plattformen, auf denen täglich Milliarden Nachrichten, Bilder und Videos geteilt werden, sind aus dem Alltag vieler Menschen nicht mehr wegzudenken. Befürworter betonen, dass diese Netzwerke es ermöglichen, unabhängig von geografischen Grenzen miteinander in Kontakt zu bleiben und sich über aktuelle Themen zu informieren.\n\nDennoch mehren sich die kritischen Stimmen. Untersuchungen deuten darauf hin, dass der exzessive Konsum sozialer Medien mit erhöhten Raten von Angstzuständen und Depressionen bei Jugendlichen korreliert. Wenn junge Menschen ihr eigenes Leben ständig mit den sorgfältig inszenierten Darstellungen anderer vergleichen würden, entstünde häufig ein verzerrtes Selbstbild, das langfristig das psychische Wohlbefinden beeinträchtigen könne. Hinzu kommt, dass Algorithmen, die auf maximale Nutzerbindung ausgelegt sind, gezielt Inhalte ausspielen, die starke emotionale Reaktionen hervorrufen.\n\nEin weiteres zentrales Problem stellt die Verbreitung von Falschinformationen dar. Da Inhalte in sozialen Netzwerken oft ungeprüft geteilt werden, können sich Gerüchte und Falschmeldungen innerhalb weniger Stunden rasant verbreiten. Es wird zunehmend gefordert, dass Betreiber solcher Plattformen stärker in die Verantwortung genommen werden sollten, etwa durch die verpflichtende Kennzeichnung von unbestätigten Informationen.\n\nAngesichts dieser Herausforderungen stellt sich die Frage, wie ein verantwortungsvoller Umgang mit sozialen Medien aussehen könnte. Viele Experten plädieren für eine verbesserte Medienkompetenz, die bereits in der Schule vermittelt werden sollte, damit junge Menschen lernen, Inhalte kritisch zu hinterfragen, anstatt sie unreflektiert zu übernehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Medien spielen im Alltag der meisten Menschen keine Rolle mehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien deuten auf einen Zusammenhang zwischen exzessiver Nutzung sozialer Medien und psychischen Problemen hin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Algorithmen sind laut Text darauf ausgelegt, die Nutzerbindung zu maximieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Falschinformationen verbreiten sich in sozialen Netzwerken laut Text nur sehr langsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern eine bessere Medienkompetenz schon in der Schule.",
+        "respuesta": true
+      }
+    ]
   }
 ]
