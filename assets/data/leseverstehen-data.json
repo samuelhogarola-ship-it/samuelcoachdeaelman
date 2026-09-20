@@ -21002,5 +21002,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-flohmarkt-am-sonntag",
+    "nivel": "A1",
+    "titulo": "Der Flohmarkt am Sonntag",
+    "descripcion": "Lena und ihr Bruder verkaufen alte Spielsachen auf dem Flohmarkt.",
+    "texto": "Lena steht früh auf. Heute ist Sonntag und auf dem Marktplatz ist ein Flohmarkt. Sie packt alte Bücher, ein Fahrrad und viele Spielsachen in eine Tasche. Ihr Bruder Tom hilft ihr. Sie fahren zusammen mit dem Auto zum Marktplatz.\n\nAm Marktplatz bauen sie einen kleinen Tisch auf. Sie legen alle Sachen auf den Tisch. Ein Junge kommt und fragt: „Wie viel kostet das Fahrrad?“ Lena antwortet: „Das Fahrrad kostet zehn Euro.“ Der Junge kauft das Fahrrad. Tom verkauft zwei Bücher für drei Euro.\n\nAm Nachmittag sind fast alle Sachen verkauft. Lena und Tom sind sehr glücklich. Sie kaufen sich ein Eis mit dem Geld. Dann fahren sie müde, aber zufrieden, nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Der Flohmarkt ist am Montag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena verkauft Spielsachen mit ihrem Bruder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad kostet zehn Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand kauft etwas von Lena und Tom.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende kaufen sie sich ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsparty",
+    "nivel": "A1",
+    "titulo": "Die Geburtstagsparty",
+    "descripcion": "Mia feiert ihren siebten Geburtstag mit Familie und Freunden.",
+    "texto": "Mia wird heute sieben Jahre alt. Ihre Mutter backt einen großen Schokoladenkuchen. Ihr Vater hängt bunte Luftballons im Wohnzimmer auf. Mia trägt ein rotes Kleid und ist sehr aufgeregt.\n\nAm Nachmittag kommen ihre Freunde. Jedes Kind bringt ein Geschenk mit. Lisa schenkt ihr ein Buch. Tim schenkt ihr einen Ball. Alle Kinder singen ein Geburtstagslied. Dann isst Mia ein Stück Kuchen mit sieben Kerzen.\n\nNach dem Kuchen spielen die Kinder im Garten. Sie spielen Verstecken und lachen viel. Am Abend sind alle müde. Mia sagt: „Das war die schönste Party!“",
+    "preguntas": [
+      {
+        "enunciado": "Mia wird sieben Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Vater backt den Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa schenkt Mia einen Ball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder singen ein Geburtstagslied.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Kuchen spielen die Kinder im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-in-der-bäckerei",
+    "nivel": "A1",
+    "titulo": "Ein Tag in der Bäckerei",
+    "descripcion": "Frau Schmidt arbeitet morgens in ihrer kleinen Bäckerei.",
+    "texto": "Frau Schmidt hat eine kleine Bäckerei. Sie steht jeden Morgen um vier Uhr auf. Zuerst backt sie Brötchen und Brot. Der Ofen ist heiß und die Bäckerei riecht sehr gut.\n\nUm sieben Uhr öffnet sie den Laden. Viele Kunden kommen und kaufen Brot, Brötchen und Kuchen. Ein alter Mann kauft jeden Tag zwei Brötchen und einen Kaffee. Eine Frau kauft einen Geburtstagskuchen für ihre Tochter.\n\nAm Mittag ist Frau Schmidt müde, aber zufrieden. Sie isst ein Stück Kuchen und trinkt Tee. Am Nachmittag räumt sie den Laden auf und schließt um sechs Uhr.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Schmidt steht um vier Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie backt nur Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Laden öffnet um sieben Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand kauft etwas in der Bäckerei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Laden schließt um sechs Uhr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verspätete-zug",
+    "nivel": "A2",
+    "titulo": "Der verspätete Zug",
+    "descripcion": "Frau Weber verpasst wegen einer Zugverspätung fast ein wichtiges Meeting.",
+    "texto": "Frau Weber ist am Bahnhof angekommen, um nach Köln zu fahren. Sie wollte pünktlich sein, weil sie um zehn Uhr ein wichtiges Meeting hatte. Als sie auf den Bahnsteig kam, hat eine Durchsage gesagt, dass der Zug eine Stunde Verspätung hat.\n\nFrau Weber war sehr nervös, weil sie ihre Kollegen nicht warten lassen wollte. Sie hat sofort ihr Handy genommen und ihren Chef angerufen. Er hat gesagt, dass sie sich keine Sorgen machen soll, weil das Meeting auch später beginnen kann. Danach hat sie sich in ein Café gesetzt und einen Kaffee getrunken.\n\nAls der Zug endlich gekommen ist, war Frau Weber erleichtert. Sie ist eine Stunde später als geplant in Köln angekommen, aber das Meeting hat trotzdem gut funktioniert. Am Abend hat sie ihrem Mann von diesem stressigen Tag erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Weber wollte nach München fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug hatte eine Stunde Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Chef war sehr wütend am Telefon.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber hat im Café Kaffee getrunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Meeting konnte nicht stattfinden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-beim-tierarzt",
+    "nivel": "A2",
+    "titulo": "Ein Besuch beim Tierarzt",
+    "descripcion": "Tobias bringt seine kranke Katze zum Tierarzt.",
+    "texto": "Tobias hat bemerkt, dass seine Katze Mimi seit zwei Tagen nichts mehr gefressen hat. Weil er sich große Sorgen gemacht hat, hat er sofort einen Termin beim Tierarzt vereinbart. Er hat Mimi vorsichtig in eine Transportbox gesetzt und ist mit dem Bus zur Praxis gefahren.\n\nIm Wartezimmer saßen noch andere Tierbesitzer mit ihren Hunden und Katzen. Als Tobias endlich an der Reihe war, hat die Tierärztin Mimi genau untersucht. Sie hat gesagt, dass Mimi wahrscheinlich etwas Falsches gefressen hat und dass sie eine Spritze bekommen muss. Tobias war erleichtert, dass es nichts Schlimmes war.\n\nZwei Tage später hat Mimi wieder normal gefressen. Tobias war sehr froh, dass er so schnell zum Tierarzt gegangen ist. Seitdem passt er noch besser auf, was seine Katze im Garten frisst.",
+    "preguntas": [
+      {
+        "enunciado": "Mimi ist ein Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi hat zwei Tage nichts gefressen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias ist zu Fuß zur Praxis gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tierärztin hat Mimi eine Spritze gegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi hat danach nie wieder gefressen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-fahrradunfall-im-park",
+    "nivel": "A2",
+    "titulo": "Der Fahrradunfall im Park",
+    "descripcion": "Felix stürzt beim Radfahren im Park, aber alles geht gut aus.",
+    "texto": "Felix ist am Samstag mit seinem neuen Fahrrad in den Park gefahren. Weil der Weg nass war, ist er plötzlich ausgerutscht und hingefallen. Ein Spaziergänger hat den Sturz gesehen und ist sofort zu ihm gelaufen, um zu helfen.\n\nFelix hatte eine kleine Wunde am Knie, aber sonst war ihm nichts passiert. Der Spaziergänger hat ihm ein Taschentuch gegeben und gefragt, ob er einen Krankenwagen rufen soll. Felix hat gesagt, dass das nicht nötig ist, weil er nur eine kleine Verletzung hat.\n\nZu Hause hat seine Mutter das Knie sauber gemacht und ein Pflaster daraufgeklebt. Sie hat gesagt, dass er beim nächsten Mal vorsichtiger fahren soll, wenn der Weg nass ist. Felix hat versprochen, dass er in Zukunft langsamer fahren wird.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist mit dem Auto in den Park gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Weg im Park war nass.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Spaziergänger hat Felix geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix musste ins Krankenhaus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Mutter hat das Knie sauber gemacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-nach-koeln",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Köln",
+    "descripcion": "Eine neunte Klasse verbringt drei Tage auf Klassenfahrt in Köln.",
+    "texto": "Die neunte Klasse des Goethe-Gymnasiums fuhr im Frühling für drei Tage nach Köln. Nachdem die Schüler wochenlang auf diesen Ausflug gewartet hatten, war die Aufregung im Bus riesig. Obwohl die Fahrt fast vier Stunden dauerte, verging die Zeit schnell, weil alle Musik hörten und Karten spielten.\n\nAm ersten Tag besichtigten sie den Kölner Dom, nachdem sie ihre Koffer in der Jugendherberge abgestellt hatten. Trotzdem viele Schüler müde von der langen Fahrt waren, wollten sie unbedingt bis ganz nach oben auf den Turm steigen. Am zweiten Tag besuchten sie ein Schokoladenmuseum, was besonders bei den jüngeren Schülern großen Anklang fand.\n\nAm letzten Abend organisierten die Lehrer ein gemeinsames Grillfest im Garten der Jugendherberge. Obwohl es am Ende regnete, ließen sich die Schüler die gute Laune nicht verderben. Nachdem sie am nächsten Morgen zurück nach Hause gefahren waren, waren sich alle einig, dass die Klassenfahrt unvergesslich gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klassenfahrt dauerte eine Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Busfahrt dauerte fast vier Stunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am ersten Tag besichtigten sie den Kölner Dom.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand wollte auf den Turm des Doms steigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend schien die ganze Zeit die Sonne.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-über-die-jahre",
+    "nivel": "B1",
+    "titulo": "Freundschaft über die Jahre",
+    "descripcion": "Zwei Freunde bleiben trotz Entfernung und unterschiedlicher Wege verbunden.",
+    "texto": "Sophie und Mira sind seit der Grundschule beste Freundinnen. Obwohl sie nach dem Abitur in verschiedene Städte gezogen sind, um zu studieren, haben sie den Kontakt nie verloren. Nachdem Sophie nach München und Mira nach Hamburg gezogen war, schrieben sie sich fast jede Woche Nachrichten.\n\nTrotz der Entfernung versuchten die beiden, sich mindestens zweimal im Jahr zu treffen. Einmal reiste Sophie an einem Wochenende nach Hamburg, obwohl sie eigentlich für eine Prüfung lernen musste. Mira war so gerührt, dass sie beschloss, ihre Freundin bald wieder zu besuchen.\n\nHeute, viele Jahre später, leben beide in unterschiedlichen Ländern, doch ihre Freundschaft ist genauso stark wie früher. Sie sind sich sicher, dass wahre Freundschaft keine Entfernung kennt, solange man sich immer wieder Zeit füreinander nimmt.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie und Mira kennen sich erst seit der Universität.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Abitur sind beide in dieselbe Stadt gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben sich regelmäßig Nachrichten geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie ist einmal für ein Wochenende nach Hamburg gereist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Heute haben sie keinen Kontakt mehr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-schulfest-organisieren",
+    "nivel": "B1",
+    "titulo": "Das Schulfest organisieren",
+    "descripcion": "Eine Schulklasse plant gemeinsam ein großes Schulfest.",
+    "texto": "In der zehnten Klasse bekamen die Schüler die Aufgabe, ein Schulfest zu organisieren. Nachdem der Lehrer die Idee vorgestellt hatte, waren zunächst nicht alle begeistert, weil sie befürchteten, dass die Arbeit zu viel Zeit kosten würde. Trotzdem entschieden sie sich gemeinsam, das Projekt anzugehen.\n\nDie Klasse teilte sich in Gruppen auf: Eine Gruppe kümmerte sich um die Dekoration, eine andere um das Essen und eine dritte um die Musik. Obwohl es am Anfang einige Missverständnisse gab, arbeiteten die Schüler nach ein paar Treffen sehr gut zusammen. Nachdem die Einladungen verschickt worden waren, wurde die Vorfreude im ganzen Klassenraum spürbar.\n\nAm Tag des Festes kamen fast alle Eltern und viele Lehrer. Die Schüler waren stolz, weil sie sahen, wie gut ihre Arbeit angekommen war. Am Ende waren sich alle einig, dass sich die Mühe wirklich gelohnt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Der Lehrer hat das Schulfest allein organisiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anfangs waren nicht alle Schüler begeistert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse hat sich in verschiedene Gruppen aufgeteilt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es kamen kaum Eltern zum Fest.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende fanden die Schüler die Arbeit nicht lohnenswert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-arbeit",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Arbeit",
+    "descripcion": "Ein Blick darauf, wie sich Homeoffice und Digitalisierung auf die Arbeitswelt auswirken.",
+    "texto": "In den letzten Jahren hat sich die Arbeitswelt grundlegend verändert. Während früher die Anwesenheit im Büro als selbstverständlich galt, wird heute in vielen Branchen zunehmend von zu Hause aus gearbeitet. Diese Entwicklung, die durch die fortschreitende Digitalisierung erst ermöglicht wurde, stellt Unternehmen vor neue Herausforderungen, etwa wenn es darum geht, Teams zu führen, ohne sich täglich persönlich zu begegnen.\n\nBefürworter des Homeoffice argumentieren, dass flexible Arbeitszeiten die Vereinbarkeit von Familie und Beruf erleichtern würden und dass Mitarbeiter, die selbstbestimmt arbeiten könnten, oft produktiver seien. Kritiker hingegen befürchten, dass der persönliche Austausch zwischen Kollegen verloren gehen könnte, wenn man sich nur noch über Bildschirme sieht. Zudem wird diskutiert, ob junge Berufseinsteiger im Homeoffice ausreichend gefördert werden können, wenn ihnen erfahrene Mentoren fehlen.\n\nEs wird sich zeigen, wie sich die Arbeitswelt der Zukunft tatsächlich gestalten wird. Vieles deutet jedoch darauf hin, dass ein hybrides Modell, bei dem Homeoffice und Büroarbeit kombiniert werden, sich langfristig durchsetzen wird. Damit dies gelingt, müssten sowohl Unternehmen als auch Angestellte bereit sein, neue Formen der Zusammenarbeit zu erlernen.",
+    "preguntas": [
+      {
+        "enunciado": "Früher war die Büroanwesenheit meist selbstverständlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker des Homeoffice sind Befürworter davon.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche befürchten, dass der persönliche Austausch leidet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Junge Berufseinsteiger könnten im Homeoffice weniger Förderung erhalten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schließt aus, dass sich ein hybrides Modell durchsetzt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "lebensmittelverschwendung-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Lebensmittelverschwendung in Deutschland",
+    "descripcion": "Ein Artikel über die Ursachen und möglichen Lösungen der Lebensmittelverschwendung.",
+    "texto": "Jedes Jahr landen in Deutschland Millionen Tonnen genießbarer Lebensmittel im Müll, obwohl sie noch problemlos hätten verzehrt werden können. Ein erheblicher Teil dieser Verschwendung entsteht bereits in privaten Haushalten, wo häufig zu große Mengen eingekauft werden, die anschließend nicht rechtzeitig verbraucht werden. Hinzu kommt, dass viele Verbraucher das Mindesthaltbarkeitsdatum mit einem tatsächlichen Verfallsdatum verwechseln und Lebensmittel wegwerfen, die eigentlich noch bedenkenlos gegessen werden könnten.\n\nAuch der Handel trägt zu diesem Problem bei, da Supermärkte häufig Waren aussortieren, die optisch nicht mehr perfekt aussehen, obwohl deren Qualität unverändert ist. Initiativen wie „Foodsharing“, bei denen überschüssige Lebensmittel kostenlos weitergegeben werden, versuchen, dieser Entwicklung entgegenzuwirken. Kritiker bemängeln jedoch, dass solche freiwilligen Projekte allein nicht ausreichen würden, um das strukturelle Problem grundlegend zu lösen.\n\nManche Politiker fordern deshalb gesetzliche Vorgaben, die Supermärkte dazu verpflichten würden, unverkaufte, aber noch genießbare Lebensmittel an soziale Einrichtungen zu spenden, anstatt sie zu vernichten. Ob eine solche Regelung tatsächlich eingeführt wird, ist derzeit noch offen. Klar scheint jedoch, dass ohne ein Umdenken sowohl bei Verbrauchern als auch im Handel die Verschwendung kaum spürbar reduziert werden kann.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland wird laut Text kein Essen weggeworfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Verbraucher verwechseln das Mindesthaltbarkeitsdatum mit dem Verfallsdatum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Supermärkte sortieren manchmal Waren aus, die nur optisch nicht perfekt sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker halten Foodsharing-Initiativen für eine vollständige Lösung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem sei bereits gesetzlich vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wohnungsnot-in-den-städten",
+    "nivel": "B2",
+    "titulo": "Wohnungsnot in den Städten",
+    "descripcion": "Eine Analyse der steigenden Mietpreise und ihrer Folgen für junge Menschen.",
+    "texto": "In vielen deutschen Großstädten ist es für junge Menschen kaum noch möglich, eine bezahlbare Wohnung zu finden. Die Mietpreise sind in den letzten zehn Jahren so stark gestiegen, dass ein großer Teil des Einkommens allein für die Miete aufgewendet werden muss. Besonders betroffen sind Studierende und Berufseinsteiger, die oft noch über kein hohes Gehalt verfügen.\n\nExperten führen die steigenden Preise auf mehrere Faktoren zurück: Zum einen wird in vielen Städten zu wenig gebaut, obwohl die Nachfrage stetig wächst. Zum anderen investieren zunehmend Kapitalgesellschaften in Wohnraum, wodurch Wohnungen häufiger als Kapitalanlage denn als Lebensraum betrachtet werden. Würde mehr in sozialen Wohnungsbau investiert, könnte die Situation zumindest teilweise entschärft werden.\n\nPolitiker diskutieren seit Jahren über mögliche Lösungen, etwa eine strengere Mietpreisbremse oder staatliche Förderprogramme für den Wohnungsbau. Kritiker solcher Maßnahmen argumentieren jedoch, dass zu starke Regulierungen private Investoren abschrecken und den Wohnungsbau dadurch sogar verlangsamen könnten. Eine einfache Lösung für dieses komplexe Problem scheint es bislang nicht zu geben.",
+    "preguntas": [
+      {
+        "enunciado": "In deutschen Großstädten sind bezahlbare Wohnungen leicht zu finden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studierende und Berufseinsteiger sind von der Wohnungsnot besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Grund für steigende Preise ist zu geringer Wohnungsbau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kapitalgesellschaften spielen laut Text keine Rolle auf dem Wohnungsmarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text präsentiert eine einfache, unumstrittene Lösung für das Problem.",
+        "respuesta": false
+      }
+    ]
   }
 ]
