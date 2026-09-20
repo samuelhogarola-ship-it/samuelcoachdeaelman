@@ -21698,5 +21698,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "unser-haustier",
+    "nivel": "A1",
+    "titulo": "Unser Haustier",
+    "descripcion": "Lena erzählt kurz über ihren Hund Bello und seinen Tagesablauf.",
+    "texto": "Lena hat einen Hund. Er heißt Bello. Bello ist braun und klein. Er wohnt mit Lena und ihrer Familie in einem Haus mit Garten.\n\nJeden Morgen füttert Lena den Hund. Bello frisst Fleisch und Reis. Danach gehen sie zusammen im Park spazieren. Bello läuft gern und spielt mit einem Ball. Am Nachmittag schläft er oft auf dem Sofa.\n\nLenas Bruder heißt Tom. Tom mag Katzen mehr als Hunde. Aber er spielt trotzdem gern mit Bello. Die ganze Familie liebt das Haustier sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bello ist braun und klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello frisst nur Reis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und Bello gehen im Park spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom mag keine Tiere.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-badezimmer-am-morgen",
+    "nivel": "A1",
+    "titulo": "Mein Badezimmer am Morgen",
+    "descripcion": "Paul beschreibt seine morgendliche Routine im Badezimmer.",
+    "texto": "Paul steht jeden Morgen um sieben Uhr auf. Zuerst geht er ins Badezimmer. Er wäscht sein Gesicht mit Wasser und Seife. Dann putzt er die Zähne mit seiner blauen Zahnbürste.\n\nNach dem Zähneputzen kämmt Paul seine Haare. Er schaut in den Spiegel und lächelt. Das Badezimmer ist klein, aber sauber. Es gibt ein Fenster mit Blick auf den Garten.\n\nZum Schluss zieht Paul sich an. Er trägt heute ein rotes T-Shirt und eine blaue Hose. Dann geht er in die Küche und frühstückt mit seiner Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Paul steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul putzt zuerst die Zähne und wäscht dann das Gesicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Zahnbürste ist blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Badezimmer hat kein Fenster.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul frühstückt mit seiner Familie.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wir-spielen-karten",
+    "nivel": "A1",
+    "titulo": "Wir spielen Karten",
+    "descripcion": "Eine Familie spielt am Abend gemeinsam ein Kartenspiel.",
+    "texto": "Am Abend sitzt die Familie Meyer am Tisch. Die Mutter, der Vater und die zwei Kinder spielen zusammen Karten. Das Spiel heißt „Mau-Mau\" und macht allen viel Spaß.\n\nJeder Spieler bekommt sieben Karten. Der kleine Sohn Finn kann noch nicht gut zählen, aber seine Schwester Mia hilft ihm. Die Familie lacht viel und trinkt heißen Tee dazu.\n\nNach einer Stunde gewinnt Mia das Spiel. Finn ist ein bisschen traurig, aber dann sagt der Vater: „Morgen spielen wir wieder!\" Alle freuen sich schon auf den nächsten Abend.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Meyer spielt Karten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jeder Spieler bekommt fünf Karten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hilft ihrem Bruder Finn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie trinkt Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn gewinnt das Spiel.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-von-der-oma",
+    "nivel": "A2",
+    "titulo": "Der Brief von der Oma",
+    "descripcion": "Julia freut sich über einen handgeschriebenen Brief ihrer Großmutter.",
+    "texto": "Letzte Woche hat Julia einen Brief bekommen. Der Brief war von ihrer Oma, die auf dem Land wohnt. Julia hat sich sehr gefreut, weil sie normalerweise nur Nachrichten auf dem Handy bekommt.\n\nIn dem Brief hat die Oma erzählt, dass sie im Garten viele Tomaten geerntet hat. Sie hat auch geschrieben, dass sie Julia bald besuchen möchte. Julia hat sofort geantwortet und einen eigenen Brief geschrieben, weil sie ihrer Oma eine Freude machen wollte.\n\nAm Wochenende hat Julia den Brief zur Post gebracht. Sie hat gedacht, dass es schön ist, wenn Menschen sich noch richtige Briefe schreiben. Sie hat sich vorgenommen, öfter Briefe zu schreiben, auch an ihre Freunde.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat einen Brief von ihrer Oma bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma wohnt in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma hat Tomaten im Garten geerntet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat der Oma nicht geantwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia möchte öfter Briefe schreiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-in-die-berge",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug in die Berge",
+    "descripcion": "Markus und seine Freunde machen eine Wanderung in den Alpen.",
+    "texto": "Am Samstag sind Markus und seine Freunde in die Berge gefahren. Sie wollten wandern, weil das Wetter sehr schön war. Um acht Uhr morgens haben sie am Parkplatz geparkt und sind losgegangen.\n\nDer Weg war lang und manchmal steil. Nach zwei Stunden haben sie eine Pause gemacht, weil alle müde waren. Sie haben Brote gegessen und Wasser getrunken. Markus hat gesagt, dass die Aussicht von oben bestimmt fantastisch sein wird.\n\nAls sie endlich oben angekommen sind, haben sie die Berge und Täler gesehen. Alle waren sehr glücklich, dass sie den Weg geschafft hatten. Auf dem Rückweg haben sie in einer kleinen Hütte übernachtet, weil es schon dunkel geworden war.",
+    "preguntas": [
+      {
+        "enunciado": "Markus und seine Freunde sind am Sonntag gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben nach zwei Stunden eine Pause gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Aussicht von oben war schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle waren glücklich, als sie oben ankamen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind direkt nach Hause gefahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-anruf-bei-der-nachbarin",
+    "nivel": "A2",
+    "titulo": "Ein Anruf bei der Nachbarin",
+    "descripcion": "Herr Braun ruft seine Nachbarin an, weil er ihre Katze im Garten gesehen hat.",
+    "texto": "Herr Braun hat gestern Nachmittag eine Katze in seinem Garten gesehen. Er hat gedacht, dass die Katze seiner Nachbarin Frau Wolf gehört. Deshalb hat er sie angerufen, weil er sich Sorgen gemacht hat.\n\nFrau Wolf hat sich sehr gefreut, dass Herr Braun angerufen hat. Sie hat erzählt, dass ihre Katze oft ausbüxt, wenn das Fenster offen ist. Sie ist sofort zu Herrn Braun gekommen und hat ihre Katze abgeholt.\n\nAls Dank hat Frau Wolf Herrn Braun einen Kuchen gebacken. Seitdem sprechen die beiden Nachbarn öfter miteinander. Herr Braun findet es schön, dass er jetzt eine gute Nachbarin hat.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Braun hat einen Hund im Garten gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Wolf war böse, weil Herr Braun angerufen hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Katze büxt manchmal aus, wenn das Fenster offen ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Wolf hat für Herrn Braun einen Kuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn sprechen seitdem nie mehr miteinander.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "umzug-in-die-hauptstadt",
+    "nivel": "B1",
+    "titulo": "Umzug in die Hauptstadt",
+    "descripcion": "Sophie zieht für ihr Studium nach Berlin und muss sich an das neue Leben gewöhnen.",
+    "texto": "Sophie ist vor drei Monaten von einer kleinen Stadt nach Berlin gezogen, um dort zu studieren. Obwohl sie sich auf das neue Leben gefreut hat, war der Anfang nicht leicht. Die Wohnung war klein, die Straßen waren laut, und sie kannte niemanden in der ganzen Stadt.\n\nNachdem sie ihre ersten Vorlesungen besucht hatte, lernte Sophie einige Kommilitonen kennen. Trotzdem fühlte sie sich in den ersten Wochen oft einsam, weil sie ihre Familie und alten Freunde vermisste. Am Wochenende telefonierte sie regelmäßig mit ihrer Mutter, was ihr sehr half.\n\nMit der Zeit gewöhnte sich Sophie an das Leben in der Großstadt. Sie entdeckte gemütliche Cafés, interessante Museen und einen Park, in dem sie joggen ging. Heute sagt sie, dass der Umzug zwar schwierig war, sich aber gelohnt hat, weil sie inzwischen viele neue Freunde gefunden hat.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist wegen einer neuen Arbeit nach Berlin gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Anfang in Berlin war für Sophie leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat sich in den ersten Wochen manchmal einsam gefühlt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie telefonierte am Wochenende mit ihrer Mutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie bereut heute, dass sie umgezogen ist.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-abend-im-theater",
+    "nivel": "B1",
+    "titulo": "Ein Abend im Theater",
+    "descripcion": "Tobias besucht zum ersten Mal ein Theaterstück und ist von der Erfahrung überrascht.",
+    "texto": "Tobias war noch nie im Theater gewesen, obwohl er schon dreißig Jahre alt war. Als ihn ein Kollege zu einer Vorstellung einlud, zögerte er zuerst, weil er dachte, dass Theater langweilig sei. Trotzdem entschied er sich, mitzugehen.\n\nDas Stück, das sie gesehen haben, handelte von einer Familie, die nach dem Tod des Vaters ihr altes Haus verkaufen musste. Nachdem der erste Akt vorbei war, war Tobias überrascht, wie spannend die Geschichte war. Die Schauspieler spielten so überzeugend, dass er die Zeit völlig vergaß.\n\nAm Ende der Vorstellung applaudierte das Publikum lange. Tobias erzählte seinem Kollegen, dass er den Abend sehr genossen hatte, obwohl er anfangs skeptisch gewesen war. Seitdem geht er regelmäßig ins Theater und empfiehlt es auch seinen Freunden.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias war schon oft im Theater gewesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias wollte zuerst nicht ins Theater gehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Theaterstück handelte von einer Reise nach Italien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias fand die Schauspieler überzeugend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias geht seitdem nie wieder ins Theater.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-neue-praktikum",
+    "nivel": "B1",
+    "titulo": "Das neue Praktikum",
+    "descripcion": "Laura beginnt ein Praktikum in einer Werbeagentur und lernt den Arbeitsalltag kennen.",
+    "texto": "Laura hat letzten Monat ein Praktikum in einer Werbeagentur begonnen. Obwohl sie vorher noch nie in einem Büro gearbeitet hatte, war sie sehr motiviert, alles zu lernen. Am ersten Tag stellte ihr Chef sie dem ganzen Team vor.\n\nIn den ersten Wochen musste Laura viele kleine Aufgaben erledigen, zum Beispiel E-Mails schreiben und Termine organisieren. Nachdem sie sich an die Arbeit gewöhnt hatte, durfte sie auch bei größeren Projekten mithelfen. Besonders interessant fand sie die Arbeit mit den Kunden, obwohl das manchmal stressig war.\n\nAm Ende des Praktikums sagte ihr Chef, dass er mit ihrer Arbeit sehr zufrieden war. Er fragte, ob sie Interesse an einer festen Stelle habe. Laura freute sich riesig über dieses Angebot und beschloss, es anzunehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Laura hatte vorher schon viel Bürerfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura musste am Anfang nur einfache Aufgaben machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura fand die Arbeit mit Kunden langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Chef war am Ende unzufrieden mit Laura.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura bekommt ein Angebot für eine feste Stelle.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nachhaltige-mobilitaet-in-staedten",
+    "nivel": "B2",
+    "titulo": "Nachhaltige Mobilität in Städten",
+    "descripcion": "Ein Blick auf Maßnahmen für umweltfreundlichere Fortbewegung in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten wird intensiv über nachhaltige Mobilität diskutiert. Angesichts steigender CO2-Emissionen und zunehmender Verkehrsstaus fordern Umweltverbände, dass der private Autoverkehr deutlich reduziert wird. Stattdessen sollen Fahrräder, Busse und Bahnen stärker gefördert werden, damit sich die Luftqualität in den Innenstädten verbessert.\n\nEinige Städte haben bereits erste Schritte unternommen. So wurden in Berlin und Hamburg zusätzliche Fahrradwege gebaut, die von den Bewohnern gut angenommen werden. Gleichzeitig wird diskutiert, ob eine City-Maut eingeführt werden sollte, wodurch Autofahrer, die in die Innenstadt fahren, zusätzlich zur Kasse gebeten würden. Befürworter argumentieren, dass dadurch weniger Autos in den Zentren unterwegs wären, während Kritiker befürchten, dass vor allem einkommensschwache Pendler benachteiligt würden.\n\nWürde man den öffentlichen Nahverkehr deutlich ausbauen und gleichzeitig günstiger gestalten, könnten wahrscheinlich mehr Menschen zum Umstieg bewegt werden. Experten sind sich einig, dass eine echte Verkehrswende nur gelingen kann, wenn Politik, Wirtschaft und Bevölkerung gemeinsam an einem Strang ziehen. Andernfalls bleibt die nachhaltige Mobilität ein Ziel, das in weiter Ferne liegt.",
+    "preguntas": [
+      {
+        "enunciado": "Umweltverbände fordern mehr privaten Autoverkehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Berlin und Hamburg wurden zusätzliche Fahrradwege gebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle sind sich einig, dass eine City-Maut nur Vorteile hätte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein günstigerer öffentlicher Nahverkehr könnte mehr Menschen zum Umstieg bewegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Experten kann die Verkehrswende allein durch die Politik gelingen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "achtsamkeit-im-berufsalltag",
+    "nivel": "B2",
+    "titulo": "Achtsamkeit im Berufsalltag",
+    "descripcion": "Immer mehr Unternehmen setzen auf Achtsamkeitstraining, um Stress am Arbeitsplatz zu reduzieren.",
+    "texto": "In den letzten Jahren hat das Thema Achtsamkeit zunehmend Einzug in die Arbeitswelt gehalten. Viele Unternehmen bieten ihren Mitarbeitenden mittlerweile Kurse an, in denen Techniken wie Meditation und bewusstes Atmen vermittelt werden. Ziel ist es, den wachsenden Stress, der durch hohe Arbeitsbelastung und ständige Erreichbarkeit entsteht, zu reduzieren.\n\nBefürworter dieser Programme betonen, dass achtsamere Mitarbeiter konzentrierter arbeiten und seltener krankheitsbedingt ausfallen. Studien deuten darauf hin, dass regelmäßige Achtsamkeitsübungen tatsächlich dazu beitragen können, dass Beschäftigte weniger unter Burnout leiden. Kritiker hingegen wenden ein, dass solche Angebote oft nur oberflächlich seien und die eigentlichen Ursachen des Stresses, wie unrealistische Zeitpläne oder mangelnde Wertschätzung, nicht beseitigt würden.\n\nWenn Unternehmen es tatsächlich ernst meinten mit dem Wohlbefinden ihrer Mitarbeitenden, müssten sie strukturelle Veränderungen vornehmen, anstatt lediglich einen Kurs anzubieten. Andernfalls bestünde die Gefahr, dass Achtsamkeit zu einer bloßen Marketingstrategie verkommt, die den Druck auf den Einzelnen abwälzt, anstatt die Arbeitsbedingungen grundlegend zu verbessern.",
+    "preguntas": [
+      {
+        "enunciado": "Achtsamkeitskurse sind in der Arbeitswelt seltener geworden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ziel der Kurse ist es, den Stress der Mitarbeitenden zu reduzieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut manchen Studien können Achtsamkeitsübungen Burnout vorbeugen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker meinen, die Kurse würden alle Ursachen des Stresses beseitigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, dass Unternehmen nur Kurse anbieten sollten, ohne etwas zu verändern.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "tablets-im-klassenzimmer",
+    "nivel": "B2",
+    "titulo": "Tablets im Klassenzimmer",
+    "descripcion": "Der Einsatz digitaler Endgeräte im Unterricht wird kontrovers diskutiert.",
+    "texto": "Seit einigen Jahren werden an deutschen Schulen zunehmend Tablets im Unterricht eingesetzt. Befürworter argumentieren, dass digitale Endgeräte den Unterricht abwechslungsreicher gestalten und Schülern ermöglichen, individuell in ihrem eigenen Tempo zu lernen. Zudem seien Tablets ein wichtiges Mittel, um Kinder frühzeitig an den kompetenten Umgang mit digitalen Medien heranzuführen.\n\nGleichzeitig gibt es erhebliche Bedenken. Manche Lehrkräfte berichten, dass Schüler sich durch die Geräte leichter ablenken lassen, anstatt sich auf den Lernstoff zu konzentrieren. Es wird zudem befürchtet, dass die klassischen Kulturtechniken wie Handschrift und konzentriertes Lesen vernachlässigt werden könnten, wenn der Unterricht zu stark auf Bildschirme ausgerichtet wird. Hinzu kommt, dass nicht alle Schulen über die nötige technische Ausstattung und geschultes Personal verfügen, wodurch die Bildungschancen ungleich verteilt würden.\n\nWürde man Tablets sinnvoll in ein durchdachtes pädagogisches Konzept einbetten, anstatt sie unreflektiert einzusetzen, ließen sich viele der genannten Risiken vermutlich verringern. Entscheidend wäre, dass Lehrkräfte ausreichend fortgebildet werden und dass digitale Medien den herkömmlichen Unterricht ergänzen, statt ihn vollständig zu ersetzen.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter meinen, Tablets ermöglichten individuelleres Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Lehrkräfte sind begeistert vom Einsatz der Tablets.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Handschrift und Lesen vernachlässigt werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schulen verfügen über die gleiche technische Ausstattung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, digitale Medien den Unterricht ergänzen zu lassen statt ihn zu ersetzen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
