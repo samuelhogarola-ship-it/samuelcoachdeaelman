@@ -22394,5 +22394,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-hamster",
+    "nivel": "A1",
+    "titulo": "Mein Hamster",
+    "descripcion": "Ein Kind erzählt von seinem kleinen Hamster.",
+    "texto": "Ich habe einen Hamster. Er heißt Keks. Keks ist klein und braun. Er wohnt in einem Käfig in meinem Zimmer. Der Käfig ist groß und hat ein Rad.\n\nJeden Tag gebe ich Keks Futter. Er mag Körner und kleine Stücke Apfel. Er trinkt auch Wasser aus einer Flasche. Am Abend läuft Keks gern im Rad. Das Rad macht manchmal Geräusche.\n\nAm Wochenende darf Keks aus dem Käfig kommen. Ich spiele dann mit ihm auf dem Teppich. Meine Schwester mag Keks auch. Sie sagt: „Keks ist so süß!“ Ich liebe meinen Hamster sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Hamster heißt Keks.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Keks ist groß und schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Keks mag Körner und Apfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Keks darf nie aus dem Käfig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schwester mag den Hamster auch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-hausaufgaben",
+    "nivel": "A1",
+    "titulo": "Die Hausaufgaben",
+    "descripcion": "Ein Schüler macht am Nachmittag seine Hausaufgaben.",
+    "texto": "Am Nachmittag mache ich meine Hausaufgaben. Ich sitze an meinem Schreibtisch. Zuerst mache ich Mathe. Mathe ist nicht einfach, aber ich übe jeden Tag.\n\nDanach lese ich ein Buch für Deutsch. Das Buch ist spannend. Ich schreibe auch fünf neue Wörter in mein Heft. Mein kleiner Bruder spielt neben mir, aber ich bleibe ruhig und arbeite weiter.\n\nNach einer Stunde bin ich fertig. Meine Mutter fragt: „Hast du alles gemacht?“ Ich antworte: „Ja, alles ist fertig!“ Dann darf ich draußen spielen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Schüler macht die Hausaufgaben am Morgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er macht zuerst Mathe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er liest auch ein Buch für Deutsch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bruder hilft ihm bei den Hausaufgaben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach den Hausaufgaben darf er draußen spielen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-waschsalon",
+    "nivel": "A1",
+    "titulo": "Im Waschsalon",
+    "descripcion": "Eine Frau wäscht ihre Wäsche in einem Waschsalon.",
+    "texto": "Frau Berger hat keine Waschmaschine zu Hause. Deshalb geht sie in den Waschsalon. Der Waschsalon ist in ihrer Straße. Dort stehen viele große Waschmaschinen.\n\nFrau Berger legt ihre Wäsche in eine Maschine. Sie gibt Geld in den Automaten. Die Maschine wäscht die Wäsche dreißig Minuten. Frau Berger wartet und liest eine Zeitschrift.\n\nNach dem Waschen legt sie die Wäsche in den Trockner. Der Trockner ist schnell. Danach faltet Frau Berger alles und geht nach Hause. Der Waschsalon ist praktisch für sie.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger hat eine Waschmaschine zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Waschsalon ist in ihrer Straße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Maschine wäscht zwei Stunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger liest eine Zeitschrift, während sie wartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie benutzt auch einen Trockner.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-einladung-zur-hochzeit",
+    "nivel": "A2",
+    "titulo": "Die Einladung zur Hochzeit",
+    "descripcion": "Julia bekommt eine Einladung zur Hochzeit ihres Cousins.",
+    "texto": "Letzte Woche hat Julia Post bekommen. Es war eine Einladung zur Hochzeit ihres Cousins Max. Die Hochzeit findet im Juni statt, weil das Wetter dann meistens schön ist. Julia hat sich sehr gefreut, weil sie Max lange nicht gesehen hat.\n\nSofort hat Julia im Kalender nachgeschaut, ob sie an diesem Tag frei hat. Zum Glück hatte sie keine Pläne. Sie hat auch überlegt, was sie anziehen soll. Ihre beste Freundin hat gesagt, dass ein blaues Kleid perfekt wäre.\n\nJulia hat auch ein Geschenk gekauft. Sie hat eine schöne Vase gefunden, weil Max und seine Freundin gerne Blumen mögen. Jetzt freut sich Julia auf die Feier und auf das Wiedersehen mit der Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat eine Einladung zur Hochzeit ihres Cousins bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Hochzeit findet im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hatte an diesem Tag schon andere Pläne.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihre Freundin hat ihr bei der Kleidung geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat kein Geschenk gekauft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-kurze-stromausfall",
+    "nivel": "A2",
+    "titulo": "Der kurze Stromausfall",
+    "descripcion": "Ein plötzlicher Stromausfall bringt Abwechslung in einen Abend.",
+    "texto": "Am Dienstagabend saß Familie Roth beim Essen, als plötzlich das Licht ausging. Der Strom war weg. Zuerst dachten sie, dass nur ihre Wohnung betroffen ist, aber auch die Straße war dunkel.\n\nHerr Roth hat schnell Kerzen geholt, weil es im Zimmer ganz dunkel war. Die Kinder fanden das lustig und haben mit Taschenlampen gespielt. Frau Roth hat im Radio gehört, dass ein Kabel kaputt war.\n\nNach zwei Stunden kam der Strom wieder zurück. Die Familie hat gelacht, weil der Abend trotzdem schön war. Am Ende haben sie gesagt, dass ein Stromausfall auch mal etwas Gutes haben kann.",
+    "preguntas": [
+      {
+        "enunciado": "Der Stromausfall passierte am Morgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nur die Wohnung von Familie Roth war betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Roth hat Kerzen geholt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein kaputtes Kabel war der Grund für den Stromausfall.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Strom kam nach zwei Stunden zurück.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarschaftsbuecherei",
+    "nivel": "A2",
+    "titulo": "Die Nachbarschaftsbücherei",
+    "descripcion": "In der Straße steht ein kleines Bücherregal für alle Nachbarn.",
+    "texto": "In Toms Straße steht seit einem Monat ein kleines Holzregal. Es ist eine Nachbarschaftsbücherei. Jeder darf dort ein Buch mitnehmen oder ein Buch hineinstellen. Tom findet die Idee toll, weil er gerne liest.\n\nLetzten Samstag hat Tom drei alte Bücher gebracht, die er schon gelesen hat. Er hat auch ein neues Buch mitgenommen, weil der Titel spannend klang. Eine Nachbarin hat ihm erzählt, dass sie das Regal selbst gebaut hat.\n\nJetzt geht Tom fast jede Woche zur Bücherei, obwohl sie nur zwei Minuten von seiner Wohnung entfernt ist. Er hat schon viele neue Bücher entdeckt und auch seine Nachbarn besser kennengelernt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Nachbarschaftsbücherei ist ein Holzregal in der Straße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Man darf dort nichts mitnehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom hat drei alte Bücher gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bücherei ist weit von Toms Wohnung entfernt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom hat durch die Bücherei seine Nachbarn besser kennengelernt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schulsanitaetsdienst",
+    "nivel": "B1",
+    "titulo": "Der Schulsanitätsdienst",
+    "descripcion": "Ein Jugendlicher berichtet über seine Arbeit im Schulsanitätsdienst.",
+    "texto": "Seit einem Jahr ist Felix Mitglied im Schulsanitätsdienst. Das ist eine Gruppe von Schülern, die bei kleinen Unfällen in der Schule helfen. Obwohl Felix zuerst unsicher war, ob er die Aufgabe schafft, hat er sich schnell an die Verantwortung gewöhnt.\n\nIn einem Kurs hat er gelernt, wie man Wunden versorgt und was man bei einer Ohnmacht tun muss. Nachdem er die Ausbildung abgeschlossen hatte, durfte er während der Pausen im Sanitätsraum Dienst haben. Meistens geht es um kleine Verletzungen wie Schürfwunden, aber manchmal muss auch der Rettungsdienst gerufen werden.\n\nTrotzdem findet Felix die Arbeit sinnvoll, weil er anderen helfen kann. Seine Mitschüler respektieren ihn dafür, und einige überlegen jetzt auch, dem Schulsanitätsdienst beizutreten. Felix hofft, dass er nach der Schule vielleicht sogar eine Ausbildung im Gesundheitswesen macht.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist seit einem Jahr im Schulsanitätsdienst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er war von Anfang an ganz sicher, dass er die Aufgabe schafft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er hat gelernt, wie man Wunden versorgt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es geht immer nur um schwere Notfälle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Mitschüler wollen jetzt auch mitmachen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-in-die-teilzeit",
+    "nivel": "B1",
+    "titulo": "Der Wechsel in die Teilzeit",
+    "descripcion": "Eine Angestellte entscheidet sich, weniger zu arbeiten.",
+    "texto": "Nachdem Sabine zehn Jahre lang Vollzeit gearbeitet hatte, hat sie sich entschieden, ihre Stunden zu reduzieren. Sie wollte mehr Zeit für sich selbst und ihre Familie haben. Obwohl ihr Chef zuerst skeptisch war, hat er dem Wechsel schließlich zugestimmt.\n\nSeit drei Monaten arbeitet Sabine nur noch vier Tage pro Woche. Am Anfang war es schwierig, ihre Aufgaben in weniger Zeit zu schaffen. Trotzdem hat sie gelernt, besser zu planen und unwichtige Aufgaben zu delegieren.\n\nHeute ist Sabine mit ihrer Entscheidung zufrieden, obwohl sie natürlich weniger verdient. Sie sagt: „Die zusätzliche Zeit ist mir wichtiger als das Geld.“ Viele Kollegen fragen sie, wie sie die Teilzeit organisiert hat, weil sie das auch gerne ausprobieren würden.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hat zehn Jahre Vollzeit gearbeitet, bevor sie gewechselt hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Chef war sofort begeistert von der Idee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine arbeitet jetzt vier Tage pro Woche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang war alles einfach für sie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine bereut ihre Entscheidung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-lesenacht-in-der-schule",
+    "nivel": "B1",
+    "titulo": "Die Lesenacht in der Schule",
+    "descripcion": "Eine Klasse verbringt eine Nacht mit Büchern in der Schule.",
+    "texto": "Einmal im Jahr organisiert die Grundschule von Emma eine Lesenacht. Die Kinder dürfen mit Schlafsäcken in der Schule übernachten und die ganze Nacht lesen. Emma war zuerst nervös, weil sie noch nie ohne ihre Eltern geschlafen hatte.\n\nNachdem die Lehrerin allen Kindern eine Geschichte vorgelesen hatte, durften sie sich in kleinen Gruppen selbst Bücher aussuchen. Manche Kinder haben mit Taschenlampen unter der Decke gelesen, während andere zusammen über die Geschichten gesprochen haben.\n\nObwohl es spät wurde, wollte niemand schlafen gehen. Am nächsten Morgen gab es ein gemeinsames Frühstück, und alle Kinder haben von ihren Lieblingsbüchern erzählt. Emma fand die Lesenacht so schön, dass sie sich schon auf das nächste Jahr freut.",
+    "preguntas": [
+      {
+        "enunciado": "Die Lesenacht findet einmal im Jahr statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma war völlig entspannt, weil sie das schon oft gemacht hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder durften sich Bücher selbst aussuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kinder wollten früh schlafen gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am nächsten Morgen gab es ein gemeinsames Frühstück.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "personalmangel-in-kitas",
+    "nivel": "B2",
+    "titulo": "Personalmangel in Kitas – Wenn Betreuung zum Luxus wird",
+    "descripcion": "Der Fachkräftemangel in Kindertagesstätten belastet Familien und Erzieher gleichermaßen.",
+    "texto": "In vielen deutschen Städten wird es für Eltern immer schwieriger, einen Kitaplatz für ihr Kind zu finden. Der Grund dafür liegt nicht nur an fehlenden Gebäuden, sondern vor allem am Mangel an ausgebildeten Erzieherinnen und Erziehern. Ohne genügend Personal dürfen Gruppen aus rechtlichen Gründen nicht geöffnet werden, selbst wenn es freie Plätze gäbe.\n\nErzieherinnen berichten von einem enormen Arbeitsdruck: Wenn Kolleginnen krank werden, müssten die verbleibenden Fachkräfte oft doppelt so viele Kinder betreuen, als es der Betreuungsschlüssel eigentlich erlaubt. Kritiker fordern deshalb, dass der Beruf attraktiver gemacht wird, etwa durch bessere Bezahlung und geringere Gruppengrößen. Andernfalls, so warnen Fachverbände, würde sich der Mangel in den kommenden Jahren weiter verschärfen.\n\nFür berufstätige Eltern hat die Situation weitreichende Folgen. Manche müssen ihre Arbeitszeit reduzieren oder ganz auf eine Betreuung verzichten, was besonders Frauen in ihrer beruflichen Entwicklung benachteiligt. Politiker diskutieren daher über kurzfristige Maßnahmen wie Quereinstiegsprogramme, wobei Experten betonen, dass eine schnelle Ausbildung die pädagogische Qualität nicht gefährden dürfe. Langfristig sei ohne strukturelle Reformen keine echte Verbesserung zu erwarten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Mangel an Kitaplätzen liegt nur an fehlenden Gebäuden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gruppen dürfen ohne ausreichend Personal nicht geöffnet werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Erzieherinnen berichten von hohem Arbeitsdruck bei Krankheitsfällen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Situation betrifft vor allem Männer in ihrer Karriere.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten warnen davor, dass eine schnelle Ausbildung die Qualität gefährden könnte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "recht-auf-unerreichbarkeit",
+    "nivel": "B2",
+    "titulo": "Das Recht auf Unerreichbarkeit – Grenzen im digitalen Arbeitsleben",
+    "descripcion": "Sollten Arbeitnehmer gesetzlich das Recht bekommen, nach Feierabend nicht erreichbar sein zu müssen?",
+    "texto": "Smartphones und E-Mails haben die Arbeitswelt verändert: Viele Beschäftigte beantworten dienstliche Nachrichten auch abends, am Wochenende oder im Urlaub. Studien zeigen, dass ständige Erreichbarkeit Stress erzeugt und die Erholung verhindert. Deshalb fordern Gewerkschaften seit Jahren ein gesetzlich verankertes Recht auf Unerreichbarkeit, wie es in Frankreich bereits existiert.\n\nBefürworter argumentieren, dass klare Regeln notwendig seien, damit die Grenze zwischen Arbeit und Privatleben nicht vollständig verschwindet. Wäre ein solches Gesetz eingeführt, müssten Unternehmen verbindliche Zeiten festlegen, in denen keine dienstliche Kommunikation erwartet wird. Kritiker halten dagegen, dass starre Regeln der Realität vieler Branchen nicht gerecht würden, etwa in internationalen Teams mit unterschiedlichen Zeitzonen.\n\nEinige Unternehmen haben bereits eigene Lösungen eingeführt, ohne auf eine gesetzliche Vorgabe zu warten. So werden E-Mail-Server außerhalb der Arbeitszeiten teilweise abgeschaltet oder Nachrichten erst am nächsten Morgen zugestellt. Ob eine bundesweite gesetzliche Regelung sinnvoll wäre, bleibt umstritten, doch Experten sind sich einig, dass das Thema angesichts der wachsenden Belastung durch digitale Kommunikation nicht länger ignoriert werden sollte.",
+    "preguntas": [
+      {
+        "enunciado": "Ständige Erreichbarkeit kann laut Studien Stress erzeugen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Frankreich gibt es bereits ein Recht auf Unerreichbarkeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind gegen jede Form von Regelung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen schalten E-Mail-Server außerhalb der Arbeitszeit ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Thema gilt unter Experten als unwichtig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "waermepumpenpflicht",
+    "nivel": "B2",
+    "titulo": "Die Wärmepumpenpflicht – Klimaschutz im Heizungskeller",
+    "descripcion": "Die geplante Umstellung auf klimafreundliche Heizungen sorgt für hitzige Debatten.",
+    "texto": "Um die Klimaziele zu erreichen, sollen fossile Heizungen in Deutschland schrittweise durch klimafreundliche Alternativen wie Wärmepumpen ersetzt werden. Das entsprechende Gesetz sieht vor, dass neue Heizungen künftig zu einem erheblichen Anteil mit erneuerbaren Energien betrieben werden müssen. Für viele Hausbesitzer bedeutet das erhebliche Investitionen, selbst wenn der Staat einen Teil der Kosten durch Förderprogramme übernimmt.\n\nBefürworter des Gesetzes verweisen darauf, dass der Gebäudesektor für einen großen Teil der CO2-Emissionen verantwortlich sei und ohne verbindliche Regeln keine ausreichende Reduktion erreicht würde. Gegner hingegen kritisieren, dass die Umsetzung zu schnell erfolge und insbesondere Menschen mit geringerem Einkommen finanziell überfordere. Auch Handwerksbetriebe warnen, dass es an Fachkräften fehle, um die enorme Zahl an Heizungen rechtzeitig auszutauschen.\n\nAls Reaktion auf die Kritik wurden die ursprünglichen Fristen mehrfach angepasst, damit sich Eigentümer und Handwerksbetriebe besser vorbereiten können. Dennoch bleibt umstritten, ob die Wärmepumpe für jedes Gebäude die richtige Lösung ist, da ältere, schlecht gedämmte Häuser oft zusätzliche Maßnahmen benötigen würden. Klar ist jedoch, dass die Wärmewende ohne gesellschaftliche Akzeptanz kaum gelingen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Das Gesetz betrifft ausschließlich alte Heizungen, die bereits ersetzt wurden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Staat übernimmt laut Text einen Teil der Kosten durch Förderprogramme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner kritisieren vor allem die finanzielle Belastung ärmerer Haushalte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Handwerksbetriebe haben laut Text genug Fachkräfte für die Umstellung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die ursprünglichen Fristen wurden nie verändert.",
+        "respuesta": false
+      }
+    ]
   }
 ]
