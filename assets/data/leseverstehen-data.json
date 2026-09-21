@@ -24134,5 +24134,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-hamster-heisst-keks",
+    "nivel": "A1",
+    "titulo": "Mein Hamster heißt Keks",
+    "descripcion": "Lisa stellt ihren kleinen Hamster und seinen Alltag vor.",
+    "texto": "Lisa hat einen Hamster. Er heißt Keks. Keks ist klein und braun. Er wohnt in einem Käfig im Kinderzimmer. Der Käfig ist groß und hat ein Rad.\n\nKeks schläft am Tag. In der Nacht ist er wach. Er läuft gern im Rad. Er isst Körner, Möhren und ein bisschen Obst. Lisa gibt ihm jeden Abend frisches Wasser.\n\nAm Wochenende putzt Lisa den Käfig. Das macht sie gern. Danach spielt sie mit Keks. Sie hält ihn vorsichtig in der Hand. Keks ist ihr bestes Haustier.",
+    "preguntas": [
+      {
+        "enunciado": "Keks ist ein Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Keks ist klein und braun.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Keks schläft in der Nacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa gibt Keks jeden Abend Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa putzt den Käfig nie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-neuer-rucksack",
+    "nivel": "A1",
+    "titulo": "Mein neuer Rucksack",
+    "descripcion": "Paul freut sich über seinen neuen Schulrucksack.",
+    "texto": "Paul hat einen neuen Rucksack. Der Rucksack ist blau und grün. Er ist nicht zu groß und nicht zu klein. Paul trägt ihn jeden Tag zur Schule.\n\nIn dem Rucksack sind seine Bücher, ein Heft und ein Federmäppchen. Er hat auch eine Trinkflasche und ein kleines Brot dabei. Der Rucksack hat viele Taschen. Eine Tasche ist für das Handy.\n\nPaul mag seinen Rucksack sehr. Er zeigt ihn seinen Freunden in der Schule. „Der Rucksack ist wirklich praktisch\", sagt sein Freund Ben. Paul lacht und nickt.",
+    "preguntas": [
+      {
+        "enunciado": "Der Rucksack ist blau und grün.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trägt den Rucksack nur am Wochenende.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Rucksack sind Bücher und ein Heft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Rucksack hat keine Taschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben findet den Rucksack praktisch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-fahrrad-von-tom",
+    "nivel": "A1",
+    "titulo": "Das Fahrrad von Tom",
+    "descripcion": "Tom fährt jeden Tag mit seinem roten Fahrrad zur Arbeit.",
+    "texto": "Tom hat ein rotes Fahrrad. Er fährt jeden Morgen damit zur Arbeit. Die Fahrt dauert zwanzig Minuten. Tom findet das Fahrrad besser als den Bus.\n\nDas Fahrrad hat eine Klingel und ein Licht. Tom trägt immer einen Helm. Im Sommer fährt er gern durch den Park. Im Winter ist es kalt, aber Tom fährt trotzdem.\n\nAm Abend parkt Tom sein Fahrrad vor dem Haus. Er schließt es immer ab. „Mein Fahrrad ist mir wichtig\", sagt Tom zu seinem Nachbarn. Der Nachbar hat auch ein Fahrrad.",
+    "preguntas": [
+      {
+        "enunciado": "Toms Fahrrad ist rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fahrt zur Arbeit dauert eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom trägt immer einen Helm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom fährt nur im Sommer Fahrrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom schließt sein Fahrrad ab.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-beim-zahnarzt",
+    "nivel": "A2",
+    "titulo": "Ein Besuch beim Zahnarzt",
+    "descripcion": "Julia hatte Zahnschmerzen und musste zum Zahnarzt gehen.",
+    "texto": "Julia hatte seit zwei Tagen Zahnschmerzen. Weil der Schmerz immer schlimmer wurde, hat sie einen Termin beim Zahnarzt gemacht. Sie war ein bisschen nervös, weil sie den Zahnarzt nicht so gern mag.\n\nIm Wartezimmer hat sie eine Zeitschrift gelesen, bis ihr Name aufgerufen wurde. Die Zahnärztin hat ihren Zahn genau untersucht und gesagt, dass ein kleines Loch das Problem war. Sie hat den Zahn schnell und vorsichtig behandelt. Julia hatte fast keine Angst mehr, weil die Zahnärztin sehr freundlich war.\n\nNach der Behandlung hat Julia noch Tipps für die Zahnpflege bekommen. „Putzen Sie Ihre Zähne zweimal am Tag und benutzen Sie Zahnseide\", hat die Zahnärztin gesagt. Julia hat sich bedankt und einen neuen Termin in sechs Monaten vereinbart.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hatte drei Wochen lang Zahnschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia war vor dem Termin ein bisschen nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahnärztin hat kein Problem gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin war freundlich zu Julia.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat einen neuen Termin vereinbart.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-am-see",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour am See",
+    "descripcion": "Markus und seine Schwester haben am Wochenende eine Fahrradtour gemacht.",
+    "texto": "Am Samstag sind Markus und seine Schwester Nina mit dem Fahrrad zum See gefahren. Sie sind früh aufgestanden, weil sie das schöne Wetter nutzen wollten. Der Weg zum See war ungefähr zehn Kilometer lang.\n\nUnterwegs haben sie an einem kleinen Café angehalten und einen Kaffee getrunken. Nina hat gesagt, dass sie schon müde ist, aber sie sind trotzdem weitergefahren. Am See angekommen, haben sie ihre Fahrräder abgestellt und sich ins Gras gesetzt. Sie haben ein Picknick gemacht und dem Wasser zugeschaut.\n\nAls es am Nachmittag windig wurde, sind sie wieder nach Hause gefahren. Nina war zwar erschöpft, aber sie hat gesagt, dass es ein toller Tag war. Markus hat schon geplant, dass sie die Tour im nächsten Monat wiederholen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus und Nina sind zu Fuß zum See gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben unterwegs einen Kaffee getrunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am See haben sie ein Picknick gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind bei Regen zum See gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus will die Tour wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-regenschirm-im-bus",
+    "nivel": "A2",
+    "titulo": "Der Regenschirm im Bus",
+    "descripcion": "Frau Berger hat ihren Regenschirm im Bus vergessen und sucht ihn.",
+    "texto": "Frau Berger ist gestern mit dem Bus in die Stadt gefahren, weil es stark geregnet hat. Als sie ausgestiegen ist, hat sie ihren Regenschirm auf dem Sitz liegen lassen. Erst zu Hause hat sie gemerkt, dass der Schirm fehlt.\n\nSie hat sich geärgert, weil der Schirm ein Geschenk von ihrer Tochter war. Am nächsten Tag ist sie zum Fundbüro der Busgesellschaft gegangen und hat nach dem Schirm gefragt. Der Mitarbeiter hat gesagt, dass jemand einen roten Regenschirm abgegeben hat.\n\nFrau Berger war sehr froh, dass es wirklich ihr Schirm war. Sie hat sich beim Mitarbeiter bedankt und beschlossen, in Zukunft besser aufzupassen. Seitdem prüft sie immer, ob sie alles dabei hat, bevor sie aus dem Bus aussteigt.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger ist mit dem Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat den Schirm sofort im Bus bemerkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schirm war ein Geschenk von ihrer Tochter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Fundbüro hat sie ihren Schirm gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger passt jetzt besser auf ihre Sachen auf.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-nach-hamburg",
+    "nivel": "B1",
+    "titulo": "Der Umzug nach Hamburg",
+    "descripcion": "Sabine erzählt, wie sie sich nach ihrem Umzug in Hamburg eingelebt hat.",
+    "texto": "Vor drei Monaten ist Sabine aus einer kleinen Stadt nach Hamburg gezogen, weil sie dort eine neue Stelle als Grafikdesignerin gefunden hat. Obwohl sie sich auf das neue Leben gefreut hat, war der Anfang nicht leicht. Sie kannte niemanden in der Stadt, und die Wohnungssuche hatte viel Zeit gekostet.\n\nNachdem sie endlich eine passende Wohnung im Stadtteil Eimsbüttel gefunden hatte, begann Sabine, die Stadt zu erkunden. Sie hat regelmäßig lange Spaziergänge an der Alster gemacht und dabei die Ruhe genossen, obwohl der Verkehr in manchen Vierteln sehr laut sein kann. Über eine Sportgruppe hat sie schließlich neue Leute kennengelernt, mit denen sie sich inzwischen regelmäßig trifft.\n\nHeute fühlt sich Sabine in Hamburg fast wie zu Hause. Trotzdem vermisst sie manchmal die vertraute Umgebung ihrer alten Heimatstadt. Sie sagt, dass ein Umzug zwar anstrengend ist, sich aber lohnt, wenn man offen für Neues bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine ist wegen einer neuen Stelle nach Hamburg gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wohnungssuche war schnell und einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine hat durch eine Sportgruppe neue Leute kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine vermisst ihre alte Heimatstadt nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine findet, dass sich ein Umzug lohnen kann.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-im-museum",
+    "nivel": "B1",
+    "titulo": "Ein Wochenende im Museum",
+    "descripcion": "Eine Gruppe von Freunden verbringt ein Wochenende mit Museumsbesuchen in Dresden.",
+    "texto": "Eine Gruppe von vier Freunden hat beschlossen, ein Wochenende in Dresden zu verbringen, um die berühmten Museen der Stadt zu besichtigen. Schon am ersten Tag besuchten sie die Gemäldegalerie Alte Meister, obwohl einer der Freunde eigentlich kein großes Interesse an klassischer Kunst hatte. Am Ende war er trotzdem beeindruckt von den detailreichen Gemälden.\n\nAm zweiten Tag ging es weiter zum Militärhistorischen Museum, das durch seine moderne Architektur auffällt. Nachdem sie die Ausstellung über mehrere Stunden erkundet hatten, diskutierten die Freunde angeregt über die gezeigten Themen. Manche Ausstellungsstücke hatten sie sehr nachdenklich gemacht, obwohl das Museum auch unterhaltsame Bereiche bot.\n\nAm Abend saßen sie in einem gemütlichen Restaurant in der Altstadt und sprachen über ihre Eindrücke. Alle waren sich einig, dass sich die Reise gelohnt hatte, und sie planten bereits, im nächsten Jahr eine weitere Stadt mit interessanten Museen zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Freunde haben ein Wochenende in München verbracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einer der Freunde hatte zunächst wenig Interesse an klassischer Kunst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Militärhistorische Museum hat eine moderne Architektur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde haben das Museum nach wenigen Minuten verlassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde planen eine weitere Museumsreise.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-trotz-entfernung",
+    "nivel": "B1",
+    "titulo": "Freundschaft trotz Entfernung",
+    "descripcion": "Zwei beste Freundinnen halten ihre Freundschaft auch nach dem Umzug einer von ihnen aufrecht.",
+    "texto": "Lena und Hannah sind seit der Grundschule beste Freundinnen. Vor einem Jahr ist Hannah jedoch aus beruflichen Gründen nach Wien gezogen, während Lena in Köln geblieben ist. Obwohl die beiden sich seitdem nicht mehr so oft sehen können, haben sie einen Weg gefunden, in Kontakt zu bleiben.\n\nJeden Sonntagabend telefonieren sie miteinander und erzählen sich, was in der vergangenen Woche passiert ist. Nachdem Hannah sich in Wien eingelebt hatte, hat sie Lena sogar schon zweimal besucht. Trotzdem vermissen beide die spontanen Treffen, die früher selbstverständlich waren.\n\nUm die Entfernung ein wenig auszugleichen, planen Lena und Hannah gemeinsame Reisen, auf die sie sich beide freuen. Sie sind überzeugt, dass wahre Freundschaft auch dann bestehen bleibt, wenn man nicht in derselben Stadt lebt. Für die beiden ist klar, dass regelmäßiger Kontakt der wichtigste Grund für den Erfolg ihrer Freundschaft ist.",
+    "preguntas": [
+      {
+        "enunciado": "Lena und Hannah kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hannah ist nach Wien gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden telefonieren jeden Sonntagabend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hannah hat Lena noch nie besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beide glauben, dass Entfernung ihre Freundschaft nicht zerstört.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "gentrifizierung-in-deutschen-staedten",
+    "nivel": "B2",
+    "titulo": "Gentrifizierung in deutschen Städten",
+    "descripcion": "Steigende Mieten verändern das Gesicht vieler deutscher Innenstadtviertel grundlegend.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich in den vergangenen Jahren ein Prozess vollzogen, der als Gentrifizierung bezeichnet wird: Einst günstige, oft von Arbeiterfamilien geprägte Viertel werden zunehmend von einer wohlhabenderen Bevölkerungsschicht bewohnt, nachdem umfassende Sanierungen die Wohnqualität erheblich verbessert haben. Während solche Investitionen den baulichen Zustand der Häuser sichtbar aufwerten, führen sie gleichzeitig zu drastisch steigenden Mieten, die für viele langjährige Bewohner kaum noch zu bezahlen sind.\n\nBesonders betroffen sind Viertel, die zuvor als wenig attraktiv galten, dann aber von Künstlern und Kreativen entdeckt wurden. Sobald sich dort Cafés, Galerien und alternative Projekte ansiedeln, steigt die Attraktivität des Stadtteils rapide, was wiederum Investoren anzieht. Kritiker bemängeln, dass die ursprüngliche Bewohnerschaft dadurch verdrängt wird, obwohl gerade sie den besonderen Charakter des Viertels geprägt hatte.\n\nUm dieser Entwicklung entgegenzuwirken, diskutieren Stadtverwaltungen verschiedene Instrumente, etwa Mietpreisbremsen oder den Erhalt von Sozialwohnungen. Würden solche Maßnahmen konsequent umgesetzt, ließe sich die Verdrängung angestammter Bewohner vermutlich verlangsamen. Dennoch bleibt fraglich, ob politische Eingriffe ausreichen, um die Marktkräfte in begehrten Innenstadtlagen dauerhaft auszubremsen.",
+    "preguntas": [
+      {
+        "enunciado": "Gentrifizierung bedeutet, dass Mieten in beliebten Vierteln oft steigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sanierungen führen laut Text nie zu höheren Mieten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Künstler und Kreative können zur Aufwertung eines Viertels beitragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen bei der Gentrifizierung keinerlei Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mietpreisbremsen werden als mögliches Instrument diskutiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz im digitalen Zeitalter",
+    "descripcion": "Angesichts der Informationsflut im Internet wird Medienkompetenz zu einer entscheidenden Fähigkeit.",
+    "texto": "Im digitalen Zeitalter sind Menschen täglich mit einer enormen Menge an Informationen konfrontiert, deren Wahrheitsgehalt sich nicht immer leicht überprüfen lässt. Während früher wenige etablierte Medien die öffentliche Meinung prägten, kann heute nahezu jeder über soziale Netzwerke Inhalte verbreiten, ohne dass eine redaktionelle Prüfung stattfindet. Diese Entwicklung hat einerseits die Meinungsvielfalt gefördert, andererseits aber auch die Verbreitung von Falschinformationen erheblich erleichtert.\n\nExperten fordern deshalb, dass Medienkompetenz bereits in der Schule systematisch vermittelt wird, damit junge Menschen lernen, Quellen kritisch zu hinterfragen und Falschmeldungen zu erkennen. Wenn Schülerinnen und Schüler frühzeitig üben würden, Nachrichten zu überprüfen, wären sie im Erwachsenenalter besser gegen Manipulation gewappnet. Bislang wird dieses Thema jedoch in vielen Lehrplänen nur am Rande behandelt.\n\nAuch Erwachsene sind von dieser Problematik betroffen, da algorithmische Filter dazu neigen, Nutzern vor allem Inhalte zu zeigen, die bereits bestehende Meinungen bestätigen. Dadurch entstehen sogenannte Filterblasen, die den Zugang zu abweichenden Perspektiven erschweren. Um diesem Effekt entgegenzuwirken, wird empfohlen, bewusst unterschiedliche Quellen zu konsultieren, obwohl dies im Alltag oft zusätzlichen Aufwand bedeutet.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Netzwerke prüfen alle Inhalte redaktionell, bevor sie veröffentlicht werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern mehr Medienkompetenz-Unterricht an Schulen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienkompetenz wird laut Text bereits überall umfassend unterrichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmische Filter können zu Filterblasen führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text empfiehlt, bewusst unterschiedliche Quellen zu nutzen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vereinbarkeit-von-beruf-und-familie",
+    "nivel": "B2",
+    "titulo": "Die Vereinbarkeit von Beruf und Familie",
+    "descripcion": "Viele Eltern kämpfen damit, berufliche Anforderungen und familiäre Verantwortung in Einklang zu bringen.",
+    "texto": "Die Vereinbarkeit von Beruf und Familie gilt seit Jahren als eine der größten Herausforderungen für berufstätige Eltern in Deutschland. Obwohl der Ausbau von Kinderbetreuungsangeboten in den letzten Jahren spürbare Fortschritte gebracht hat, klagen viele Eltern weiterhin über mangelnde Flexibilität seitens ihrer Arbeitgeber. Insbesondere Mütter reduzieren nach der Geburt eines Kindes häufig ihre Arbeitszeit, was sich langfristig negativ auf ihre Karrierechancen und ihre Rente auswirken kann.\n\nUnternehmen, die flexible Arbeitszeitmodelle und Homeoffice-Möglichkeiten anbieten, werden von Beschäftigten zunehmend bevorzugt, da solche Regelungen den Alltag erheblich erleichtern. Würden mehr Betriebe konsequent auf familienfreundliche Strukturen setzen, könnten vermutlich auch mehr Väter in Elternzeit gehen, ohne berufliche Nachteile befürchten zu müssen. Bislang nehmen jedoch nur wenige Väter diese Möglichkeit in vollem Umfang wahr, obwohl gesetzliche Regelungen dies grundsätzlich ermöglichen.\n\nExperten sehen in einer gerechteren Aufteilung der familiären Aufgaben einen zentralen Schlüssel zur Lösung des Problems. Solange traditionelle Rollenbilder den Alltag vieler Familien prägen, dürfte sich an der ungleichen Verteilung jedoch nur langsam etwas ändern. Politische Maßnahmen allein, so betonen Fachleute, reichten nicht aus, wenn nicht gleichzeitig ein gesellschaftliches Umdenken stattfinde.",
+    "preguntas": [
+      {
+        "enunciado": "Die Kinderbetreuung in Deutschland hat sich laut Text in den letzten Jahren nicht verändert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mütter reduzieren nach der Geburt oft ihre Arbeitszeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flexible Arbeitszeitmodelle werden von Beschäftigten geschätzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die meisten Väter nehmen die volle Elternzeit in Anspruch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten halten politische Maßnahmen allein für ausreichend.",
+        "respuesta": false
+      }
+    ]
   }
 ]
