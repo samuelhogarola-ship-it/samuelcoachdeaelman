@@ -23438,5 +23438,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-zoo-mit-papa",
+    "nivel": "A1",
+    "titulo": "Im Zoo mit Papa",
+    "descripcion": "Paul besucht mit seinem Vater den Zoo und sieht viele Tiere.",
+    "texto": "Paul ist sechs Jahre alt. Heute geht er mit seinem Papa in den Zoo. Sie kaufen zwei Karten am Eingang. Paul ist sehr glücklich.\n\nZuerst sehen sie die Löwen. Die Löwen schlafen in der Sonne. Dann gehen sie zu den Affen. Die Affen klettern schnell auf die Bäume. Paul lacht viel.\n\nAm Ende besuchen sie die Pinguine. Die Pinguine schwimmen im Wasser. Paul findet die Pinguine super. Zum Schluss kaufen sie ein Eis und fahren nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht mit seiner Mutter in den Zoo.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Löwen schlafen in der Sonne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Affen klettern auf die Bäume.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Pinguine fliegen hoch in der Luft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende kaufen sie ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-woche-im-ueberblick",
+    "nivel": "A1",
+    "titulo": "Meine Woche im Überblick",
+    "descripcion": "Sofie erzählt kurz, was sie an jedem Wochentag macht.",
+    "texto": "Sofie hat eine feste Woche. Am Montag geht sie zur Schule. Am Dienstag hat sie Klavierunterricht. Am Mittwoch spielt sie Fußball mit Freunden.\n\nAm Donnerstag lernt Sofie für einen Test. Am Freitag geht sie mit ihrer Mutter einkaufen. Sie kaufen Brot, Milch und Obst.\n\nAm Wochenende ist keine Schule. Am Samstag besucht Sofie ihre Oma. Am Sonntag bleibt die Familie zu Hause und kocht zusammen. Sofie mag ihre Woche.",
+    "preguntas": [
+      {
+        "enunciado": "Sofie hat am Dienstag Klavierunterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie spielt am Mittwoch Tennis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Freitag geht Sofie mit ihrer Mutter einkaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Samstag ist Sofie in der Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag kocht die Familie zusammen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-neue-fahrrad",
+    "nivel": "A1",
+    "titulo": "Das neue Fahrrad",
+    "descripcion": "Ben bekommt ein neues Fahrrad und lernt schnell fahren.",
+    "texto": "Ben ist acht Jahre alt. Zum Geburtstag bekommt er ein neues Fahrrad. Das Fahrrad ist blau und rot. Ben freut sich sehr.\n\nAm Samstag übt Ben mit seinem Vater im Park. Zuerst ist es schwer. Ben fällt einmal hin, aber es tut nicht weh. Sein Vater hilft ihm.\n\nNach einer Stunde kann Ben gut fahren. Er fährt schnell und lacht viel. Am Abend erzählt er seiner Schwester von dem neuen Fahrrad. Sie möchte auch ein Fahrrad haben.",
+    "preguntas": [
+      {
+        "enunciado": "Ben bekommt das Fahrrad zum Geburtstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad ist grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben übt im Park mit seiner Mutter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben fällt einmal vom Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bens Schwester möchte auch ein Fahrrad.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-sprachkurs-in-berlin",
+    "nivel": "A2",
+    "titulo": "Der Sprachkurs in Berlin",
+    "descripcion": "Elena aus Spanien hat einen Deutschkurs in Berlin besucht und erzählt von ihren Erfahrungen.",
+    "texto": "Elena kommt aus Spanien und ist letzten Monat nach Berlin gekommen. Sie hat einen Deutschkurs an einer Sprachschule besucht, weil sie für ihr Studium besser Deutsch sprechen wollte. Der Kurs hat vier Wochen gedauert und jeden Tag von neun bis dreizehn Uhr stattgefunden.\n\nAm Anfang war es schwierig für Elena, weil die Grammatik kompliziert war. Sie hat viele neue Wörter gelernt und jeden Abend Hausaufgaben gemacht. Ihre Lehrerin hat gesagt, dass Elena sehr fleißig ist. In der Klasse waren Studenten aus vielen verschiedenen Ländern, zum Beispiel aus Italien, Japan und Brasilien.\n\nAm letzten Tag hat die Schule eine kleine Feier organisiert. Alle Studenten haben Essen aus ihrem Heimatland mitgebracht. Elena hat spanische Tortilla gemacht, und alle haben sie sehr lecker gefunden. Sie hat viele neue Freunde gefunden und möchte nächstes Jahr wieder nach Berlin kommen.",
+    "preguntas": [
+      {
+        "enunciado": "Elena kommt aus Portugal.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Deutschkurs hat vier Wochen gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Elena fand die Grammatik am Anfang einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Klasse waren nur deutsche Studenten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elena hat bei der Feier spanische Tortilla mitgebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schluesseldienst-am-abend",
+    "nivel": "A2",
+    "titulo": "Der Schlüsseldienst am Abend",
+    "descripcion": "Tobias hat sich abends aus seiner Wohnung ausgesperrt und musste einen Schlüsseldienst rufen.",
+    "texto": "Am Freitagabend ist Tobias von der Arbeit nach Hause gekommen. Er hat seine Tasche abgestellt und ist noch einmal zum Müllcontainer gegangen, weil er den Müll rausbringen wollte. Als die Tür hinter ihm zugefallen ist, hat er gemerkt, dass er seinen Schlüssel in der Wohnung vergessen hat.\n\nZuerst hat Tobias bei seiner Nachbarin geklingelt, aber sie war nicht zu Hause. Deshalb hat er im Internet einen Schlüsseldienst gesucht und angerufen. Der Mann am Telefon hat gesagt, dass er in dreißig Minuten kommen kann. Tobias hat draußen im Treppenhaus gewartet, weil es kalt war.\n\nDer Schlüsseldienst ist pünktlich gekommen und hat die Tür schnell geöffnet. Tobias musste fünfzig Euro bezahlen, weil es schon spät am Abend war. Er war trotzdem froh, dass er wieder in seine Wohnung konnte. Am nächsten Tag hat er sich einen Ersatzschlüssel für die Nachbarin gemacht.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias hat sich am Morgen ausgesperrt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tür ist zugefallen, als Tobias den Müll rausgebracht hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarin war zu Hause und hat Tobias sofort geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schlüsseldienst hat die Tür geöffnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias musste nichts bezahlen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-am-flughafen",
+    "nivel": "A2",
+    "titulo": "Ein Tag am Flughafen",
+    "descripcion": "Familie Weber holt die Großeltern vom Flughafen ab und erlebt einen aufregenden Tag.",
+    "texto": "Familie Weber ist heute früh aufgestanden, weil sie die Großeltern vom Flughafen abholen wollte. Die Großeltern sind aus Kanada zu Besuch gekommen und haben lange nicht mehr in Deutschland gelebt. Die Kinder, Mia und Paul, waren sehr aufgeregt und haben ein Schild mit „Willkommen“ gemalt.\n\nAm Flughafen war es sehr voll, weil viele Flugzeuge gleichzeitig gelandet sind. Die Familie hat fast eine Stunde gewartet, weil der Flug aus Kanada Verspätung hatte. Als die Großeltern endlich durch die Tür gekommen sind, haben sich alle sehr gefreut und umarmt.\n\nAuf dem Weg nach Hause haben sie in einem Restaurant zu Mittag gegessen, weil alle hungrig waren. Die Großeltern haben von ihrer langen Reise erzählt und wie schön es ist, die Familie wiederzusehen. Am Abend haben sie zusammen alte Fotos angeschaut und viel gelacht.",
+    "preguntas": [
+      {
+        "enunciado": "Die Großeltern kommen aus Australien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben ein Willkommensschild gemalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Flug hatte keine Verspätung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat unterwegs zu Mittag gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend haben sie alte Fotos angeschaut.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vereinsfahrt-nach-hamburg",
+    "nivel": "B1",
+    "titulo": "Die Vereinsfahrt nach Hamburg",
+    "descripcion": "Ein Sportverein organisiert eine gemeinsame Fahrt nach Hamburg, obwohl nicht alles nach Plan verläuft.",
+    "texto": "Jedes Jahr organisiert der Fußballverein von Timo eine Vereinsfahrt, und dieses Jahr wurde Hamburg als Ziel ausgewählt. Nachdem die Anmeldungen abgeschlossen waren, stellte sich heraus, dass fast dreißig Mitglieder mitfahren wollten, obwohl der Bus eigentlich nur für fünfundzwanzig Personen Platz bot. Der Vorstand musste deshalb kurzfristig einen größeren Bus organisieren.\n\nDie Fahrt begann früh am Samstagmorgen. Obwohl das Wetter zunächst regnerisch war, besserte es sich, sobald sie Hamburg erreichten. Die Gruppe besichtigte zuerst die Speicherstadt und anschließend den Hafen, wo sie eine Bootstour unternahmen. Timo war besonders von der Elbphilharmonie beeindruckt, obwohl er vorher skeptisch gewesen war, ob sich der Umweg wirklich lohnen würde.\n\nAm Nachmittag verlor die Gruppe leider einen Mitspieler aus den Augen, der sich in der Innenstadt verlaufen hatte. Nachdem er sich telefonisch gemeldet hatte, konnte er am vereinbarten Treffpunkt wieder zur Gruppe stoßen. Trotz dieses kleinen Zwischenfalls war sich am Ende alle einig, dass es ein gelungener Ausflug war, und viele schlugen vor, im nächsten Jahr wieder gemeinsam zu verreisen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bus hatte von Anfang an genug Plätze für alle Mitglieder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter blieb den ganzen Tag über schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Timo war von der Elbphilharmonie beeindruckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Mitspieler hat sich in der Innenstadt verlaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende wollte niemand mehr eine gemeinsame Fahrt machen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-erste-woche-im-buero",
+    "nivel": "B1",
+    "titulo": "Die erste Woche im Büro",
+    "descripcion": "Nora berichtet von ihrer ersten Arbeitswoche in einem neuen Unternehmen und den Herausforderungen des Berufslebens.",
+    "texto": "Nachdem Nora ihr Studium abgeschlossen hatte, begann sie ihre erste Stelle als Projektassistentin in einer mittelgroßen Firma. Obwohl sie sich auf den neuen Job gefreut hatte, war sie am ersten Tag ziemlich nervös, weil sie niemanden im Büro kannte. Ihre Kollegen empfingen sie jedoch freundlich und zeigten ihr die wichtigsten Abläufe.\n\nIn den ersten Tagen musste Nora viele neue Programme lernen, mit denen sie vorher noch nie gearbeitet hatte. Trotzdem gab sie sich große Mühe, alles schnell zu verstehen, und stellte immer wieder Fragen, wenn ihr etwas unklar war. Nachdem sie ein Meeting mit dem gesamten Team miterlebt hatte, merkte sie, dass die Kommunikation im Büro sehr offen und direkt war.\n\nAm Ende der Woche war Nora erschöpft, aber auch zufrieden. Sie hatte das Gefühl, schon einiges gelernt zu haben, obwohl noch vieles neu und ungewohnt war. Ihr Chef lobte sie für ihre schnelle Einarbeitung und sagte, dass sie sich gut ins Team eingefügt habe. Nora freute sich schon auf die kommenden Wochen, in denen sie mehr Verantwortung übernehmen sollte.",
+    "preguntas": [
+      {
+        "enunciado": "Nora war am ersten Tag völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen haben Nora freundlich empfangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nora hat keine Fragen gestellt, obwohl ihr Dinge unklar waren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende der Woche war Nora zufrieden mit ihrem Start.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Chef war unzufrieden mit ihrer Einarbeitung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-open-air-konzert-im-park",
+    "nivel": "B1",
+    "titulo": "Das Open-Air-Konzert im Park",
+    "descripcion": "Freunde besuchen ein Sommerkonzert im Stadtpark, obwohl das Wetter unsicher ist.",
+    "texto": "Jeden Sommer findet in der Stadt ein großes Open-Air-Konzert statt, bei dem lokale Bands im Stadtpark auftreten. Lena und ihre Freunde hatten sich schon Wochen vorher auf das Ereignis gefreut, obwohl der Wetterbericht Regen vorhergesagt hatte. Trotzdem beschlossen sie, wie geplant hinzugehen und packten Regenschirme und wasserdichte Jacken ein.\n\nAls sie im Park ankamen, waren bereits viele Leute da, die auf Decken saßen und picknickten. Nachdem die erste Band ihr Set beendet hatte, begann es tatsächlich leicht zu regnen, doch niemand schien sich davon stören zu lassen. Die Stimmung blieb ausgelassen, und viele Zuschauer tanzten sogar im Regen weiter, während die Musik immer lauter wurde.\n\nGegen Abend hörte der Regen auf, und ein schöner Sonnenuntergang sorgte für eine besondere Atmosphäre. Die letzte Band, die auf der Bühne stand, war so beliebt, dass das Publikum lautstark eine Zugabe forderte. Lena und ihre Freunde waren sich einig, dass es trotz des schlechten Wetters einer der schönsten Abende des Sommers gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wetterbericht hatte sonniges Wetter vorhergesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und ihre Freunde blieben trotz der Regenvorhersage zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat während des Konzerts tatsächlich geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend gab es einen schönen Sonnenuntergang.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Publikum wollte keine Zugabe hören.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-der-oeffentlichen-verwaltung",
+    "nivel": "B2",
+    "titulo": "Digitalisierung der öffentlichen Verwaltung",
+    "descripcion": "Ein Überblick über die Chancen und Hindernisse bei der Digitalisierung deutscher Behörden.",
+    "texto": "Während in vielen europäischen Ländern Behördengänge längst online erledigt werden können, hinkt Deutschland in Sachen digitaler Verwaltung nach wie vor hinterher. Ob es um die Beantragung eines Personalausweises, die Ummeldung des Wohnsitzes oder die Kfz-Zulassung geht – in vielen Kommunen ist nach wie vor ein persönliches Erscheinen erforderlich, was von Bürgerinnen und Bürgern zunehmend als zeitraubend und unzeitgemäß empfunden wird.\n\nDabei wäre eine umfassende Digitalisierung durchaus mit erheblichen Vorteilen verbunden. Studien zufolge könnten sowohl Verwaltungsangestellte als auch Antragsteller erheblich Zeit sparen, wenn Formulare digital ausgefüllt und Dokumente automatisch zwischen Behörden ausgetauscht würden. Kritiker bemängeln jedoch, dass viele der bisherigen Digitalisierungsprojekte an veralteter IT-Infrastruktur, fehlendem Fachpersonal und einem Flickenteppich unterschiedlicher Systeme in Bund, Ländern und Kommunen scheitern.\n\nBefürworter einer schnelleren Digitalisierung argumentieren, dass ohne einheitliche Standards und ausreichende Investitionen keine spürbare Verbesserung erzielt werden könne. Sollte es gelingen, sämtliche Verwaltungsvorgänge zu vereinheitlichen und über eine zentrale Plattform zugänglich zu machen, würde dies nicht nur den Verwaltungsaufwand verringern, sondern auch das Vertrauen der Bevölkerung in die Effizienz des Staates stärken. Ob dieses Ziel innerhalb der kommenden Jahre erreicht werden kann, bleibt allerdings fraglich, da bisherige Reformversuche wiederholt hinter den Erwartungen zurückgeblieben sind.",
+    "preguntas": [
+      {
+        "enunciado": "Deutschland gilt im europäischen Vergleich als Vorreiter bei der digitalen Verwaltung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In vielen Kommunen ist für Behördengänge weiterhin persönliches Erscheinen nötig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text scheitern Digitalisierungsprojekte unter anderem an veralteter IT-Infrastruktur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass einheitliche Standards für den Erfolg unwichtig seien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text stellt sicher fest, dass die vollständige Digitalisierung in den nächsten Jahren gelingen wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "medienbildung-fuer-jugendliche",
+    "nivel": "B2",
+    "titulo": "Medienbildung für Jugendliche",
+    "descripcion": "Warum ein kritischer Umgang mit sozialen Medien und Nachrichten heute zu den zentralen Bildungszielen zählen sollte.",
+    "texto": "Angesichts der wachsenden Bedeutung sozialer Netzwerke stellt sich zunehmend die Frage, ob Schulen ausreichend darauf vorbereiten, dass Jugendliche verantwortungsvoll mit digitalen Medien umgehen. Viele Bildungsexperten sind der Ansicht, dass Medienkompetenz mittlerweile ebenso wichtig sei wie Lesen, Schreiben und Rechnen, da ein Großteil der Informationsaufnahme junger Menschen über Bildschirme erfolgt.\n\nEin zentrales Problem besteht darin, dass Falschinformationen sich in sozialen Netzwerken rasant verbreiten können, ohne dass die Nutzer die Quellen ausreichend hinterfragen. Würde man Schülerinnen und Schülern frühzeitig beibringen, Quellen kritisch zu prüfen und Manipulationstechniken zu erkennen, ließe sich vermutlich verhindern, dass Desinformation unwidersprochen geglaubt wird. Bislang wird dieses Thema jedoch nur an wenigen Schulen systematisch unterrichtet, was Kritiker als gravierendes Versäumnis der Bildungspolitik bezeichnen.\n\nBefürworter einer verpflichtenden Medienbildung schlagen vor, dass entsprechende Lerninhalte fest im Lehrplan verankert werden sollten, anstatt sie einzelnen engagierten Lehrkräften zu überlassen. Gleichzeitig wird betont, dass auch Eltern in die Verantwortung genommen werden müssten, da Medienerziehung nicht allein Aufgabe der Schule sein könne. Nur durch ein Zusammenspiel von Schule, Elternhaus und Politik lasse sich langfristig eine Generation heranbilden, die digitale Medien souverän und kritisch nutzt.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text halten viele Bildungsexperten Medienkompetenz für unwichtig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Falschinformationen können sich in sozialen Netzwerken schnell verbreiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienbildung wird laut Text bereits an den meisten Schulen systematisch unterrichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter schlagen vor, Medienbildung fest im Lehrplan zu verankern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht die Verantwortung für Medienerziehung ausschließlich bei der Schule.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "individuelle-verantwortung-im-klimaschutz",
+    "nivel": "B2",
+    "titulo": "Individuelle Verantwortung im Klimaschutz",
+    "descripcion": "Eine Auseinandersetzung mit der Frage, ob der Klimawandel vor allem durch individuelles Verhalten oder durch politische Maßnahmen bekämpft werden sollte.",
+    "texto": "In der öffentlichen Debatte über den Klimawandel wird immer wieder gestritten, ob es in erster Linie am Einzelnen liegt, seinen ökologischen Fußabdruck zu reduzieren, oder ob strukturelle politische Maßnahmen entscheidender wären. Während manche argumentieren, dass jeder durch bewussten Konsum, Verzicht auf Flugreisen und eine Reduktion des Fleischkonsums einen Beitrag leisten könne, weisen andere darauf hin, dass ein Großteil der Emissionen von einer relativ kleinen Zahl großer Unternehmen verursacht wird.\n\nKritiker der reinen Individualisierung von Verantwortung bemängeln, dass die Konzentration auf persönliches Verhalten von den eigentlichen strukturellen Ursachen ablenke. Wenn beispielsweise die Energieversorgung weiterhin überwiegend auf fossilen Brennstoffen beruht, könnten selbst konsequente Verbraucher ihren CO2-Ausstoß nur begrenzt senken. Aus dieser Perspektive müsste der Staat durch verbindliche Gesetze, etwa im Bereich erneuerbarer Energien und Verkehrspolitik, weitaus konsequenter eingreifen, als dies bislang der Fall ist.\n\nAndererseits betonen Befürworter individueller Verantwortung, dass gesellschaftlicher Wandel häufig von unten beginne und politische Maßnahmen erst dann durchsetzbar seien, wenn ein entsprechendes gesellschaftliches Bewusstsein vorhanden sei. Ohne den Druck einer informierten und engagierten Bevölkerung, so ihr Argument, würden Politik und Wirtschaft kaum von sich aus ambitionierte Klimaziele verfolgen. Letztlich scheint vieles dafür zu sprechen, dass weder individuelles Handeln noch politische Regulierung allein ausreichen, sondern dass beide Ebenen zusammenwirken müssten, um den Klimawandel wirksam zu bekämpfen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text sind sich alle einig, dass nur individuelles Verhalten den Klimawandel stoppen kann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Großteil der Emissionen wird von relativ wenigen großen Unternehmen verursacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker der Individualisierung fordern verbindlichere staatliche Gesetze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter individueller Verantwortung meinen, gesellschaftlicher Druck sei für politische Veränderungen unwichtig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text kommt zu dem Schluss, dass individuelles Handeln und politische Regulierung zusammenwirken müssen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
