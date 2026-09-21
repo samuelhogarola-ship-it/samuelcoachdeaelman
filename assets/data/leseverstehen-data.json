@@ -24830,5 +24830,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-sonntagsausflug",
+    "nivel": "A1",
+    "titulo": "Der Sonntagsausflug",
+    "descripcion": "Eine Familie macht am Sonntag einen Ausflug in den Wald.",
+    "texto": "Am Sonntag steht die Familie Berger früh auf. Die Sonne scheint und der Himmel ist blau. Mama packt Brote, Äpfel und Wasser in eine Tasche. Papa nimmt den Ball und die Decke mit.\n\nDie Familie fährt mit dem Auto in den Wald. Dort ist es ruhig und grün. Die Kinder Lena und Finn laufen zwischen den Bäumen. Sie sammeln Steine und bunte Blätter. Der Hund Bello läuft schnell hinter einem Vogel her.\n\nUm zwölf Uhr isst die Familie auf der Decke. Das Brot schmeckt gut. Danach spielen alle zusammen Ball. Am Abend sind alle müde, aber glücklich. Lena sagt: „Das war ein schöner Tag!“",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger macht den Ausflug am Sonntag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Himmel ist grau und es regnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder heißen Lena und Finn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie isst im Auto.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Tages ist die Familie glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-fahrkartenautomat",
+    "nivel": "A1",
+    "titulo": "Der Fahrkartenautomat",
+    "descripcion": "Anna kauft zum ersten Mal allein eine Fahrkarte am Automaten.",
+    "texto": "Anna steht am Bahnhof vor dem Fahrkartenautomaten. Sie möchte zur Schule fahren. Der Automat hat einen großen Bildschirm mit vielen Knöpfen. Anna ist ein bisschen nervös, denn sie kauft die Karte heute zum ersten Mal allein.\n\nSie drückt auf „Einzelfahrt“ und wählt ihre Haltestelle aus. Der Automat zeigt den Preis: zwei Euro fünfzig. Anna steckt eine Münze und einen Schein in den Automaten. Die Fahrkarte kommt aus dem Automaten heraus.\n\nAnna nimmt die Karte und das Wechselgeld. Sie lächelt und geht zum Bus. Jetzt weiß sie, wie der Automat funktioniert. Morgen kauft sie die Karte wieder allein.",
+    "preguntas": [
+      {
+        "enunciado": "Anna kauft eine Fahrkarte für den Zug zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Automat hat einen Bildschirm mit Knöpfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fahrkarte kostet zwei Euro fünfzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna bezahlt nur mit einem Schein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna weiß am Ende, wie der Automat funktioniert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarskatze",
+    "nivel": "A1",
+    "titulo": "Die Nachbarskatze",
+    "descripcion": "Ein Junge kümmert sich eine Woche lang um die Katze seiner Nachbarin.",
+    "texto": "Frau Klein wohnt neben Tim. Sie hat eine kleine, graue Katze. Die Katze heißt Mimi. Frau Klein fährt für eine Woche zu ihrer Tochter. Tim soll auf Mimi aufpassen.\n\nJeden Morgen geht Tim zu Frau Kleins Wohnung. Er gibt Mimi Futter und frisches Wasser. Mimi mag Tim sehr gern. Sie schläft oft auf seinem Schoß und schnurrt laut.\n\nAm Freitag kommt Frau Klein wieder nach Hause. Sie dankt Tim und gibt ihm zehn Euro. Tim ist stolz. Er sagt: „Mimi ist eine tolle Katze. Ich passe gern wieder auf sie auf.“",
+    "preguntas": [
+      {
+        "enunciado": "Die Katze von Frau Klein heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Klein fährt für einen Monat weg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim gibt der Katze jeden Morgen Futter und Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi mag Tim nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim bekommt zehn Euro von Frau Klein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schwimmbadbesuch-im-sommer",
+    "nivel": "A2",
+    "titulo": "Der Schwimmbadbesuch im Sommer",
+    "descripcion": "Zwei Freunde verbringen einen heißen Sommertag im Freibad, doch nicht alles läuft glatt.",
+    "texto": "Letzten Samstag sind Paul und Jonas ins Freibad gefahren, weil es sehr heiß war. Sie sind mit dem Fahrrad gefahren und haben ihre Badesachen und ein Handtuch mitgenommen. Am Eingang haben sie lange warten müssen, denn viele Leute wollten auch schwimmen gehen.\n\nIm Wasser haben die beiden Freunde um die Wette geschwommen und Ball gespielt. Später sind sie von der Rutsche gerutscht, obwohl Jonas zuerst ein wenig Angst hatte. Danach haben sie sich in der Sonne ausgeruht und ein Eis gekauft.\n\nAm Nachmittag hat Paul bemerkt, dass sein Handtuch weg war. Zum Glück hat es ein anderer Junge gefunden und zurückgebracht. Paul war sehr erleichtert und hat sich freundlich bedankt. Am Abend sind beide müde, aber zufrieden nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und Jonas sind mit dem Bus ins Freibad gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Eingang mussten sie lange warten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte zuerst keine Angst vor der Rutsche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Handtuch war plötzlich verschwunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende sind sie unzufrieden nach Hause gegangen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-nach-wien",
+    "nivel": "A2",
+    "titulo": "Die Reise nach Wien",
+    "descripcion": "Eine Studentin erzählt von ihrer ersten Zugreise nach Wien.",
+    "texto": "Sophie hat schon lange davon geträumt, Wien zu besuchen. Im April hat sie endlich ein Zugticket gekauft, weil ihre Semesterferien begonnen haben. Die Fahrt hat fast sechs Stunden gedauert, aber Sophie hat die Zeit genutzt, um ein Buch zu lesen und aus dem Fenster zu schauen.\n\nIn Wien hat sie zuerst ein kleines Hostel in der Nähe des Stadtzentrums gesucht. Dort hat sie ein nettes Zimmer mit Blick auf einen Park bekommen. Am nächsten Tag ist sie zum Schloss Schönbrunn gegangen und hat dort viele Fotos gemacht. Sie war beeindruckt, wie groß der Garten war.\n\nAm dritten Tag hat es leider den ganzen Tag geregnet. Deshalb ist Sophie in ein Museum gegangen, statt draußen spazieren zu gehen. Trotzdem hat ihr die Reise sehr gut gefallen, und sie plant schon den nächsten Besuch in Österreich.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist mit dem Flugzeug nach Wien gereist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zugfahrt hat fast sechs Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat in einem teuren Hotel im Stadtzentrum übernachtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat das Schloss Schönbrunn besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am dritten Tag hat die Sonne den ganzen Tag geschienen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-von-der-brieffreundin",
+    "nivel": "A2",
+    "titulo": "Der Brief von der Brieffreundin",
+    "descripcion": "Marie bekommt einen Brief von ihrer Brieffreundin aus Frankreich und antwortet ihr.",
+    "texto": "Marie hat eine Brieffreundin in Frankreich. Sie heißt Camille und schreibt ihr seit zwei Jahren regelmäßig Briefe. Letzte Woche hat Marie einen langen Brief bekommen, weil Camille von ihrem Urlaub am Meer erzählen wollte.\n\nIn dem Brief hat Camille geschrieben, dass sie mit ihrer Familie zwei Wochen in der Bretagne war. Sie hat viel gebadet und ist mit ihrem Vater segeln gegangen. Außerdem hat sie erzählt, dass das Wetter oft windig war, aber die Sonne trotzdem oft geschienen hat.\n\nMarie hat sich sehr über den Brief gefreut und sofort geantwortet. Sie hat von ihrer eigenen Sommerferienreise berichtet und ein Foto von ihrem Hund beigelegt. Beide Freundinnen hoffen, dass sie sich bald einmal persönlich treffen können.",
+    "preguntas": [
+      {
+        "enunciado": "Marie und Camille schreiben sich seit zwei Jahren Briefe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Camille hat ihren Urlaub in den Bergen verbracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Camille ist mit ihrem Vater segeln gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie hat den Brief nicht beantwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marie hat ein Foto von ihrem Hund mitgeschickt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-die-hausordnung",
+    "nivel": "B1",
+    "titulo": "Der Streit um die Hausordnung",
+    "descripcion": "In einem Mehrfamilienhaus entsteht Streit über die Regeln für die Mülltrennung und Ruhezeiten.",
+    "texto": "In dem Mehrfamilienhaus, in dem Familie Novak wohnt, gibt es seit einigen Wochen Ärger. Ein neuer Nachbar aus dem zweiten Stock hält sich nicht an die Hausordnung, obwohl diese am Eingang deutlich ausgehängt ist. Er trennt seinen Müll nicht richtig und spielt abends häufig laute Musik, was viele Bewohner stört.\n\nNachdem sich mehrere Nachbarn beim Hausmeister beschwert hatten, wurde eine Hausversammlung organisiert. Dort sollte über die Probleme gesprochen werden. Frau Novak war zunächst skeptisch, ob ein Gespräch überhaupt etwas bringen würde, doch sie entschied sich trotzdem teilzunehmen.\n\nBei der Versammlung erklärte der neue Nachbar, dass er die Regeln einfach nicht gekannt habe, weil ihm niemand die Hausordnung erklärt hatte. Nachdem alle Missverständnisse geklärt worden waren, versprach er, sich künftig an die Ruhezeiten zu halten und den Müll korrekt zu trennen. Seitdem ist es im Haus deutlich ruhiger geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Der neue Nachbar wohnt im Erdgeschoss.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mehrere Bewohner haben sich beim Hausmeister beschwert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Novak wollte auf keinen Fall zur Hausversammlung gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der neue Nachbar kannte die Hausordnung nicht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Versammlung ist es im Haus lauter geworden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-in-der-zeitung",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum in der Zeitung",
+    "descripcion": "Ein Schüler berichtet von seinen Erfahrungen während eines zweiwöchigen Praktikums bei einer Lokalzeitung.",
+    "texto": "Als Jakob sein Schulpraktikum bei der Lokalzeitung begann, war er zunächst ziemlich aufgeregt. Er wusste nicht genau, was ihn erwarten würde, obwohl er sich schon lange für den Journalismus interessierte. Am ersten Tag durfte er der Redaktion bei einer Besprechung zuhören und lernte, wie ein Artikel entsteht.\n\nIn den folgenden Tagen begleitete er eine Journalistin zu verschiedenen Terminen, unter anderem zu einem Interview mit dem Bürgermeister. Anfangs traute sich Jakob kaum, eigene Fragen zu stellen, doch nachdem er ein paar Tipps von seiner Kollegin bekommen hatte, wurde er mutiger. Am Ende der ersten Woche durfte er sogar einen kurzen Artikel über ein Schulfest schreiben.\n\nObwohl das Praktikum anstrengend war, hat es Jakob sehr viel Spaß gemacht. Er hat gelernt, dass Journalismus mehr Geduld und Recherche erfordert, als er zunächst dachte. Nach den zwei Wochen war er sich sicher, dass er später gerne in diesem Bereich arbeiten möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Jakob war am ersten Tag überhaupt nicht aufgeregt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jakob durfte eine Journalistin zu einem Interview mit dem Bürgermeister begleiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jakob traute sich von Anfang an, viele eigene Fragen zu stellen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende der ersten Woche schrieb Jakob einen eigenen Artikel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Praktikum möchte Jakob nie wieder im Journalismus arbeiten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-im-cafe",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag im Café",
+    "descripcion": "Eine junge Frau beginnt ihren ersten Job in einem kleinen Café und muss sich an viele neue Aufgaben gewöhnen.",
+    "texto": "Lisa hatte lange nach einem Nebenjob neben dem Studium gesucht und war sehr froh, als sie eine Stelle in einem kleinen Café in der Innenstadt bekam. Am ersten Arbeitstag war sie nervös, obwohl der Besitzer, Herr Fischer, sehr freundlich war und ihr alles genau erklärte.\n\nZunächst musste Lisa lernen, wie die Kaffeemaschine funktionierte, was ihr anfangs schwerfiel. Nachdem sie mehrmals den Milchschaum verschüttet hatte, half ihr eine Kollegin geduldig weiter. Im Laufe des Tages wurde Lisa immer sicherer und konnte schließlich sogar komplizierte Bestellungen ohne Probleme aufnehmen.\n\nGegen Abend, als das Café schon fast leer war, bedankte sich Herr Fischer bei Lisa für ihren Einsatz. Er sagte, dass sie sich für eine Anfängerin bemerkenswert gut angestellt habe. Erschöpft, aber zufrieden, machte sich Lisa auf den Heimweg und freute sich schon auf ihre nächste Schicht.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa bekommt eine Stelle in einem großen Restaurant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer erklärt Lisa alles freundlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa beherrscht die Kaffeemaschine sofort ohne Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Tages lobt Herr Fischer Lisa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa freut sich nicht auf ihre nächste Schicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-fachkraeftemangel-im-gesundheitswesen",
+    "nivel": "B2",
+    "titulo": "Der Fachkräftemangel im Gesundheitswesen",
+    "descripcion": "Der Text beleuchtet die Ursachen und möglichen Lösungen des Personalmangels in Pflege und Medizin.",
+    "texto": "In den vergangenen Jahren hat sich der Fachkräftemangel im Gesundheitswesen in Deutschland deutlich verschärft. Insbesondere in der Pflege fehlen zahlreiche Arbeitskräfte, was zu einer erheblichen Mehrbelastung des vorhandenen Personals führt. Viele Beschäftigte klagen über Überstunden, Zeitdruck und eine sinkende Arbeitsqualität, die sich letztlich auch auf die Versorgung der Patientinnen und Patienten auswirkt.\n\nExperten führen die Entwicklung auf mehrere Faktoren zurück. Zum einen sei die demografische Alterung der Gesellschaft ein zentraler Grund, da immer mehr ältere Menschen pflegebedürftig würden, während gleichzeitig weniger junge Menschen in Pflegeberufe einstiegen. Zum anderen würden die Arbeitsbedingungen, insbesondere die Bezahlung und die Schichtarbeit, von vielen als wenig attraktiv empfunden. Würde sich an diesen Rahmenbedingungen nichts ändern, so warnen Fachverbände, könnte sich die Situation in den kommenden Jahren weiter zuspitzen.\n\nUm dem Mangel entgegenzuwirken, werden derzeit verschiedene Maßnahmen diskutiert. Neben einer besseren Bezahlung und flexibleren Arbeitszeiten wird auch die gezielte Anwerbung ausländischer Fachkräfte als möglicher Lösungsansatz genannt. Kritiker geben jedoch zu bedenken, dass eine reine Anwerbung von Personal aus dem Ausland die strukturellen Probleme des Systems nicht grundlegend löse, sondern lediglich Symptome bekämpfe. Eine nachhaltige Reform des Gesundheitswesens sei daher unumgänglich, wenn die Versorgung langfristig gesichert werden solle.",
+    "preguntas": [
+      {
+        "enunciado": "Der Fachkräftemangel im Gesundheitswesen hat sich in den letzten Jahren verschärft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text arbeiten in der Pflege aktuell zu viele Menschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die demografische Alterung wird als ein Grund für den Mangel genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten halten die Anwerbung ausländischer Fachkräfte für die einzig sinnvolle Lösung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker meinen, dass eine reine Anwerbung von Personal die strukturellen Probleme nicht löst.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-bildungswesen",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Bildungswesen",
+    "descripcion": "Der Text diskutiert Chancen und Risiken des Einsatzes von künstlicher Intelligenz in Schulen und Universitäten.",
+    "texto": "Der Einsatz künstlicher Intelligenz im Bildungswesen wird derzeit in Deutschland kontrovers diskutiert. Während einige Bildungsexperten in KI-gestützten Lernprogrammen eine große Chance sehen, individuelles Lernen zu fördern, warnen andere vor einer schleichenden Abhängigkeit von Technologien, deren Funktionsweise viele Nutzerinnen und Nutzer kaum durchschauen.\n\nBefürworter argumentieren, dass adaptive Lernsysteme den Unterricht erheblich bereichern könnten, indem sie sich automatisch an das individuelle Lerntempo der Schülerinnen und Schüler anpassen. Auf diese Weise könnten Lehrkräfte entlastet werden, da administrative Aufgaben wie die Korrektur von Tests teilweise von der Software übernommen würden. Gäbe es mehr Zeit für die persönliche Betreuung, so die Hoffnung, würde sich auch die Qualität des Unterrichts insgesamt verbessern.\n\nKritiker hingegen befürchten, dass durch den verstärkten Einsatz von KI-Werkzeugen wichtige Kompetenzen wie eigenständiges Denken und kritische Recherche vernachlässigt werden könnten. Zudem wird bemängelt, dass viele Lernprogramme von privaten Unternehmen entwickelt werden, wodurch sensible Schülerdaten in die Hände Dritter gelangen könnten. Es bleibt daher eine zentrale Aufgabe der Bildungspolitik, klare rechtliche und pädagogische Rahmenbedingungen zu schaffen, damit die Vorteile der Technologie genutzt werden können, ohne dass grundlegende Bildungsziele aus dem Blick geraten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Einsatz von KI im Bildungswesen wird in Deutschland einheitlich positiv bewertet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter meinen, adaptive Lernsysteme könnten sich an das individuelle Lerntempo anpassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Befürwortern könnten Lehrkräfte durch KI-Systeme entlastet werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keinerlei Risiken für die Schülerdaten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text fordert klare rechtliche und pädagogische Rahmenbedingungen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-das-tempolimit",
+    "nivel": "B2",
+    "titulo": "Die Debatte um das Tempolimit",
+    "descripcion": "Der Text stellt die unterschiedlichen Positionen in der deutschen Debatte über ein generelles Tempolimit auf Autobahnen dar.",
+    "texto": "Kaum ein verkehrspolitisches Thema wird in Deutschland so leidenschaftlich diskutiert wie die Frage nach einem generellen Tempolimit auf Autobahnen. Während in fast allen europäischen Nachbarländern längst eine Höchstgeschwindigkeit gilt, ist Deutschland eines der wenigen Länder, in denen auf weiten Streckenabschnitten weiterhin unbegrenzt schnell gefahren werden darf.\n\nBefürworter eines Tempolimits verweisen vor allem auf Aspekte der Verkehrssicherheit und des Klimaschutzes. Studien zeigten, dass ein Tempolimit von 130 Kilometer pro Stunde nicht nur die Zahl schwerer Unfälle reduzieren, sondern auch den Ausstoß von Treibhausgasen spürbar senken könnte. Würde ein solches Limit eingeführt, so argumentieren sie, ließe sich zudem der Verkehrsfluss gleichmäßiger gestalten, was wiederum Staus verringern würde.\n\nGegner eines Tempolimits hingegen betonen die individuelle Freiheit der Autofahrerinnen und Autofahrer und bezweifeln, dass die Einsparungen beim Klimaschutz tatsächlich so bedeutend wären, wie es die Befürworter darstellten. Sie verweisen zudem auf die hohe Sicherheit deutscher Autobahnen im internationalen Vergleich, obwohl Kritiker einwenden, dass dies vor allem an anderen Faktoren wie der guten Straßeninfrastruktur liege. Trotz jahrelanger Diskussion konnte bislang keine politische Mehrheit für eine verbindliche Regelung gefunden werden, sodass die Debatte wohl auch in Zukunft anhalten wird.",
+    "preguntas": [
+      {
+        "enunciado": "Deutschland gehört zu den wenigen europäischen Ländern ohne generelles Tempolimit auf Autobahnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter eines Tempolimits argumentieren unter anderem mit dem Klimaschutz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text würde ein Tempolimit die Zahl der Staus erhöhen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gegner eines Tempolimits betonen vor allem die individuelle Freiheit der Autofahrer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Textes wurde bereits eine verbindliche gesetzliche Regelung beschlossen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
