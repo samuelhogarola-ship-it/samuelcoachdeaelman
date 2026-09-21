@@ -23786,5 +23786,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "die-zahnspange",
+    "nivel": "A1",
+    "titulo": "Die Zahnspange",
+    "descripcion": "Lena bekommt eine Zahnspange und erzählt von ihrem Tag beim Zahnarzt.",
+    "texto": "Lena ist zehn Jahre alt. Heute geht sie zum Zahnarzt. Sie hat schiefe Zähne. Der Zahnarzt heißt Herr Busch. Er ist sehr nett.\n\nHerr Busch schaut in Lenas Mund. Er sagt: „Du brauchst eine Zahnspange.“ Lena hat ein bisschen Angst. Die Zahnärztin macht ein Foto von den Zähnen. Dann bekommt Lena eine bunte Zahnspange. Sie ist blau und grün.\n\nAm Anfang tut die Zahnspange ein wenig weh. Lena isst nur weiches Brot. Nach zwei Tagen geht es ihr besser. Ihre Freundin Mia hat auch eine Zahnspange. Die beiden Mädchen lachen viel zusammen.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zahnarzt heißt Herr Klein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena bekommt eine blaue und grüne Zahnspange.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahnspange tut am Anfang nie weh.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hat auch eine Zahnspange.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-adventskalender",
+    "nivel": "A1",
+    "titulo": "Der Adventskalender",
+    "descripcion": "Tim öffnet jeden Tag ein Türchen von seinem Adventskalender.",
+    "texto": "Es ist Dezember. Tim hat einen Adventskalender. Der Kalender hat 24 Türchen. Jeden Morgen öffnet Tim ein Türchen. Hinter jedem Türchen ist ein kleines Bild.\n\nHeute ist der fünfte Dezember. Tim öffnet das Türchen Nummer fünf. Dort ist ein kleiner Stern. Tim freut sich sehr. Seine Schwester Nina hat auch einen Adventskalender. In ihrem Kalender ist Schokolade.\n\nDie Familie sitzt oft zusammen am Tisch. Die Mutter macht heißen Tee. Der Vater erzählt eine Geschichte. Tim und Nina warten schon auf Weihnachten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Adventskalender hat 24 Türchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim öffnet jeden Abend ein Türchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hinter Türchen Nummer fünf ist ein Stern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ninas Kalender hat keine Schokolade.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie sitzt oft zusammen am Tisch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "drachen-steigen-lassen",
+    "nivel": "A1",
+    "titulo": "Drachen steigen lassen",
+    "descripcion": "Paul und sein Vater lassen im Herbst einen Drachen steigen.",
+    "texto": "Es ist Herbst. Der Wind ist stark. Paul hat einen neuen Drachen. Der Drachen ist rot und gelb. Paul geht mit seinem Vater auf eine große Wiese.\n\nAuf der Wiese ist viel Platz. Paul hält die Schnur fest. Sein Vater hilft ihm. Der Drachen fliegt langsam in die Luft. Dann fliegt er sehr hoch. Paul lacht laut.\n\nAndere Kinder sind auch auf der Wiese. Sie haben auch Drachen. Ein Junge hat einen Drachen in Form eines Fisches. Paul und sein Vater bleiben zwei Stunden auf der Wiese. Danach gehen sie nach Hause und trinken heißen Kakao.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Drachen ist rot und gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul lässt den Drachen im Sommer steigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater hilft Paul.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf der Wiese sind keine anderen Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul trinkt danach heißen Kakao.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrprüfung",
+    "nivel": "A2",
+    "titulo": "Die Fahrprüfung",
+    "descripcion": "Sophie hat große Angst vor ihrer praktischen Fahrprüfung.",
+    "texto": "Sophie ist achtzehn Jahre alt und hat seit einem halben Jahr Fahrstunden genommen. Heute ist der Tag der praktischen Fahrprüfung. Sie hat kaum geschlafen, weil sie so nervös war. Ihr Fahrlehrer sagt: „Du schaffst das, du bist gut vorbereitet.“\n\nDie Prüfung beginnt am Vormittag. Ein Prüfer setzt sich neben Sophie ins Auto. Zuerst muss sie einparken, dann fährt sie durch die Innenstadt. An einer Ampel wird sie ein bisschen unsicher, aber sie bleibt ruhig. Nach dreißig Minuten ist die Prüfung zu Ende.\n\nDer Prüfer lächelt und sagt: „Herzlichen Glückwunsch, Sie haben bestanden!“ Sophie kann es kaum glauben. Sie ruft sofort ihre Eltern an. Am Abend feiert die ganze Familie mit einer Pizza. Sophie freut sich, weil sie jetzt endlich alleine fahren darf.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hatte vor der Prüfung keine Angst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie muss zuerst einparken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie besteht die Prüfung nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Prüfung dauert dreißig Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend feiert die Familie mit einer Pizza.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "reklamation-im-restaurant",
+    "nivel": "A2",
+    "titulo": "Reklamation im Restaurant",
+    "descripcion": "Herr Weber bekommt im Restaurant das falsche Essen und beschwert sich freundlich.",
+    "texto": "Herr Weber geht mit seiner Frau in ein neues Restaurant in der Stadt. Sie haben Fisch mit Gemüse bestellt, weil sie das auf der Karte gesehen haben. Nach zwanzig Minuten bringt der Kellner das Essen. Aber es ist nicht Fisch, sondern Hähnchen.\n\nHerr Weber ist überrascht und sagt höflich zum Kellner: „Entschuldigung, wir haben Fisch bestellt, nicht Hähnchen.“ Der Kellner entschuldigt sich sofort. Er nimmt die Teller mit und bringt nach zehn Minuten das richtige Essen. Als Entschuldigung bekommt das Ehepaar ein Glas Wein gratis.\n\nHerr Weber und seine Frau sind am Ende zufrieden, weil der Kellner freundlich reagiert hat. Sie sagen, dass sie sicher wiederkommen werden. Als sie nach Hause gehen, erzählen sie ihrer Tochter von dem kleinen Missverständnis.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber und seine Frau bestellen Fisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kellner bringt sofort das richtige Essen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber beschwert sich sehr laut und unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Ehepaar bekommt ein Glas Wein gratis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende sind Herr Weber und seine Frau zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wg-zimmer",
+    "nivel": "A2",
+    "titulo": "Das WG-Zimmer",
+    "descripcion": "Jonas zieht für sein Studium in eine Wohngemeinschaft.",
+    "texto": "Jonas hat einen Studienplatz in Leipzig bekommen. Weil die Mieten in der Stadt hoch sind, sucht er ein Zimmer in einer Wohngemeinschaft. Nach vielen Anrufen findet er eine WG mit zwei anderen Studenten, Marie und Ben. Er besucht die Wohnung und findet das Zimmer sehr schön.\n\nAm ersten Tag hilft Marie ihm beim Tragen der Kisten. Ben kocht am Abend Nudeln für alle drei. Sie sprechen lange über ihr Studium und ihre Hobbys. Jonas merkt, dass er dort schnell Freunde finden wird.\n\nIn den nächsten Wochen lernt Jonas, dass man in einer WG Rücksicht nehmen muss. Er räumt die Küche auf, obwohl er müde ist, weil auch die anderen sauber machen. Nach einem Monat fühlt er sich in der WG wie zu Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas studiert in Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas findet sofort eine eigene Wohnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben kocht am ersten Abend Nudeln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der WG muss niemand Rücksicht nehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einem Monat fühlt sich Jonas wie zu Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streit-unter-freunden",
+    "nivel": "B1",
+    "titulo": "Streit unter Freunden",
+    "descripcion": "Zwei beste Freundinnen streiten sich wegen eines Missverständnisses und finden wieder zueinander.",
+    "texto": "Anna und Lisa sind seit der Grundschule beste Freundinnen. Vor zwei Wochen haben sie sich zum ersten Mal richtig gestritten. Lisa hatte versprochen, mit Anna ins Kino zu gehen, ist aber stattdessen mit anderen Freunden ausgegangen, ohne Bescheid zu geben. Anna war sehr enttäuscht, obwohl sie eigentlich nicht so nachtragend ist.\n\nNachdem Anna tagelang nicht mit Lisa gesprochen hatte, schrieb Lisa ihr endlich eine lange Nachricht. Sie erklärte, dass sie es nicht böse gemeint hatte und dass ihr Handy an dem Abend kaputt war. Trotzdem hätte sie sich früher melden sollen, das gab sie zu. Anna war erst noch skeptisch, aber die ehrlichen Worte haben sie überzeugt.\n\nAm Wochenende haben sich die beiden getroffen und lange geredet. Sie haben gemerkt, dass Kommunikation in einer Freundschaft besonders wichtig ist. Seitdem rufen sie sich öfter an, bevor sie Pläne ändern. Der Streit hat ihre Freundschaft am Ende sogar gestärkt.",
+    "preguntas": [
+      {
+        "enunciado": "Anna und Lisa kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa ist ohne Bescheid zu geben mit anderen Freunden ausgegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna hat sofort mit Lisa gesprochen und ihr verziehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisas Handy war an dem Abend kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Streit hat die Freundschaft am Ende zerstört.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-jugendherberge-am-meer",
+    "nivel": "B1",
+    "titulo": "Die Jugendherberge am Meer",
+    "descripcion": "Eine Klasse verbringt eine Woche in einer Jugendherberge an der Nordsee.",
+    "texto": "Die 9. Klasse der Realschule Bremen fährt für eine Woche an die Nordsee. Sie wohnen in einer Jugendherberge direkt am Strand. Obwohl das Wetter am ersten Tag regnerisch ist, sind alle Schüler gut gelaunt, weil sie sich schon lange auf die Fahrt gefreut haben.\n\nIn der Jugendherberge teilen sich jeweils vier Schüler ein Zimmer. Nachdem sie ihre Koffer ausgepackt haben, gehen sie gemeinsam zum Wattenmeer und lernen dort viel über die Tiere und Pflanzen der Küste. Am Abend spielen sie Gesellschaftsspiele im Gemeinschaftsraum, während der Wind draußen stark bläst.\n\nAn den folgenden Tagen wird das Wetter besser, sodass die Klasse eine Fahrradtour entlang der Küste machen kann. Trotzdem bleibt der Ausflug zum Wattenmeer für viele der Höhepunkt der Woche. Am letzten Abend sitzen alle zusammen am Lagerfeuer und erzählen sich Geschichten. Viele Schüler sagen, dass sie diese Woche nie vergessen werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse fährt an die Nordsee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jeder Schüler hat ein eigenes Zimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag regnet es.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse macht keine Fahrradtour.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend sitzen alle am Lagerfeuer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "schüleraustausch-in-irland",
+    "nivel": "B1",
+    "titulo": "Schüleraustausch in Irland",
+    "descripcion": "Felix verbringt drei Monate bei einer Gastfamilie in Irland und lernt eine neue Kultur kennen.",
+    "texto": "Felix ist sechzehn Jahre alt und nimmt an einem Schüleraustausch nach Irland teil. Er wohnt bei einer Gastfamilie in einer kleinen Stadt in der Nähe von Dublin. Am Anfang fällt es ihm schwer, weil alle sehr schnell Englisch sprechen und er vieles nicht versteht.\n\nNachdem er sich einige Wochen eingelebt hat, fühlt sich Felix in der Gastfamilie immer wohler. Die Gastmutter kocht jeden Sonntag ein traditionelles irisches Gericht, und Felix hilft ihr dabei in der Küche. In der Schule findet er schnell Anschluss, obwohl der Unterricht anders organisiert ist als in Deutschland.\n\nAm Wochenende unternimmt die Gastfamilie oft Ausflüge an die Küste. Felix ist von der grünen Landschaft und den hohen Klippen beeindruckt. Als der Austausch nach drei Monaten zu Ende geht, fällt ihm der Abschied sehr schwer. Er verspricht, die Familie bald wieder zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Felix macht einen Schüleraustausch in Irland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang versteht Felix alles problemlos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gastmutter kocht jeden Sonntag ein irisches Gericht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gastfamilie unternimmt nie Ausflüge.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Abschied fällt Felix leicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "gendergerechte-sprache",
+    "nivel": "B2",
+    "titulo": "Gendergerechte Sprache – Notwendigkeit oder Symbolpolitik?",
+    "descripcion": "Die Debatte um gendergerechte Sprache spaltet die deutsche Gesellschaft.",
+    "texto": "Kaum ein sprachliches Thema wird in Deutschland so kontrovers diskutiert wie die gendergerechte Sprache. Befürworter argumentieren, dass Sprache die Wahrnehmung von Realität mitprägt und dass Frauen sowie nicht-binäre Personen durch geschlechtsneutrale oder doppelte Formen sichtbarer gemacht werden. Formen wie das Gendersternchen oder der Doppelpunkt seien daher ein wichtiger Schritt hin zu mehr Gleichberechtigung.\n\nKritiker hingegen bemängeln, dass gegenderte Texte den Lesefluss stören und die Sprache unnötig verkompliziert würden. Manche befürchten zudem, dass es sich um reine Symbolpolitik handle, die strukturelle Probleme wie die Lohnungleichheit nicht löse. Besonders in Schulen und Behörden wird darüber gestritten, ob gendergerechte Sprache verpflichtend eingeführt werden sollte oder ob sie freiwillig bleiben muss.\n\nWürde man gendergerechte Sprache flächendeckend vorschreiben, müssten zahlreiche Institutionen ihre Kommunikationsrichtlinien anpassen, was mit erheblichem Aufwand verbunden wäre. Trotzdem zeigen Umfragen, dass sich die Sprache in den letzten Jahren bereits schrittweise verändert hat, unabhängig von offiziellen Vorschriften. Es bleibt abzuwarten, ob sich langfristig eine einheitliche Regelung durchsetzen wird oder ob die Vielfalt der Schreibweisen bestehen bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Das Thema gendergerechte Sprache wird in Deutschland kontrovers diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Befürworter und Kritiker sind sich vollkommen einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker sehen in gendergerechter Sprache reine Symbolpolitik.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine flächendeckende Vorschrift wäre ohne jeden Aufwand umsetzbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Umfragen zeigen, dass sich die Sprache bereits schrittweise verändert hat.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-filterblase-im-internet",
+    "nivel": "B2",
+    "titulo": "Die Filterblase im Internet",
+    "descripcion": "Algorithmen zeigen Nutzern vor allem Inhalte, die ihre eigene Meinung bestätigen.",
+    "texto": "Soziale Netzwerke und Suchmaschinen nutzen Algorithmen, um Inhalte auszuwählen, die für den jeweiligen Nutzer besonders relevant erscheinen. Dabei entsteht häufig eine sogenannte Filterblase: Nutzer bekommen vor allem Beiträge angezeigt, die ihre bestehenden Meinungen bestätigen, während gegensätzliche Perspektiven kaum noch sichtbar sind. Dadurch könnte der Eindruck entstehen, dass die eigene Ansicht von einer breiten Mehrheit geteilt wird, obwohl dies in Wirklichkeit gar nicht der Fall sein muss.\n\nExperten warnen, dass Filterblasen die gesellschaftliche Polarisierung verstärken könnten, weil der Austausch zwischen unterschiedlichen Meinungsgruppen seltener stattfindet. Wenn Menschen kaum noch mit widersprechenden Argumenten konfrontiert werden, fällt es ihnen schwerer, die eigene Position kritisch zu hinterfragen. Besonders in politischen Debatten wird dieser Effekt als problematisch betrachtet, da er zu einer zunehmenden Spaltung der öffentlichen Meinung beitragen kann.\n\nUm dem entgegenzuwirken, fordern manche Medienexperten, dass Plattformen transparenter machen sollten, nach welchen Kriterien Inhalte ausgespielt werden. Auch die Medienkompetenz der Nutzer selbst spielt eine entscheidende Rolle: Wer sich der Mechanismen bewusst ist, kann gezielt nach anderen Quellen und Perspektiven suchen. Ob dies jedoch ausreicht, um die Wirkung von Filterblasen wirksam zu begrenzen, wird in der Forschung weiterhin kontrovers diskutiert.",
+    "preguntas": [
+      {
+        "enunciado": "Filterblasen entstehen durch Algorithmen sozialer Netzwerke und Suchmaschinen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In einer Filterblase sieht man vor allem gegensätzliche Meinungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten sehen einen Zusammenhang zwischen Filterblasen und gesellschaftlicher Polarisierung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienkompetenz spielt bei diesem Thema keine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wirkung von Filterblasen wird in der Forschung weiterhin diskutiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einsamkeit-in-der-großstadt",
+    "nivel": "B2",
+    "titulo": "Einsamkeit in der Großstadt",
+    "descripcion": "Obwohl Millionen Menschen dicht beieinander leben, fühlen sich viele Großstädter einsam.",
+    "texto": "Paradoxerweise gehört Einsamkeit zu den am schnellsten wachsenden gesellschaftlichen Problemen gerade in Großstädten, wo Millionen Menschen auf engstem Raum zusammenleben. Studien zeigen, dass insbesondere junge Berufstätige, die aus beruflichen Gründen in eine fremde Stadt gezogen sind, häufig über fehlende soziale Kontakte klagen. Der stressige Arbeitsalltag lässt oft wenig Zeit, um neue Freundschaften aufzubauen, obwohl die Stadt zahlreiche Freizeitangebote bereithält.\n\nAuch die zunehmende Digitalisierung des Alltags wird als Ursache diskutiert. Wenn Einkäufe online erledigt und Gespräche über Messenger geführt werden, sinkt die Zahl der zufälligen sozialen Begegnungen, die früher etwa beim Bäcker oder im Treppenhaus stattfanden. Manche Soziologen sprechen deshalb von einer „Anonymität der Massen“, die das Gefühl der Isolation trotz räumlicher Nähe verstärkt.\n\nUm der Einsamkeit entgegenzuwirken, entstehen in vielen Städten inzwischen Nachbarschaftsinitiativen und Gemeinschaftsprojekte, die gezielt Begegnungsräume schaffen. Wären solche Angebote flächendeckend verfügbar, könnten sie vermutlich vielen Menschen helfen, wieder Anschluss zu finden. Dennoch bleibt Einsamkeit ein Thema, das gesellschaftlich noch zu wenig Beachtung findet, obwohl es erhebliche Folgen für die psychische Gesundheit haben kann.",
+    "preguntas": [
+      {
+        "enunciado": "Einsamkeit ist nur ein Problem auf dem Land, nicht in der Großstadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Berufstätige klagen laut Studien häufig über fehlende soziale Kontakte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Digitalisierung wird als eine mögliche Ursache für Einsamkeit diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In vielen Städten gibt es keinerlei Initiativen gegen Einsamkeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einsamkeit kann erhebliche Folgen für die psychische Gesundheit haben.",
+        "respuesta": true
+      }
+    ]
   }
 ]
