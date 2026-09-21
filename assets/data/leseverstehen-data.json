@@ -24482,5 +24482,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-lieblingsobst",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsobst",
+    "descripcion": "Lisa erzählt, welches Obst sie am liebsten isst.",
+    "texto": "Ich heiße Lisa. Ich esse gern Obst. Mein Lieblingsobst ist der Apfel. Äpfel sind rot oder grün. Sie schmecken süß und ein bisschen sauer. Ich esse jeden Tag einen Apfel zum Frühstück.\n\nMeine Schwester mag Bananen. Bananen sind gelb und weich. Sie isst eine Banane nach der Schule. Unsere Mutter kauft das Obst jede Woche auf dem Markt. Der Markt ist nicht weit von unserem Haus.\n\nAm Wochenende essen wir oft Obstsalat. Wir nehmen Äpfel, Bananen und Trauben. Das schmeckt sehr lecker. Obst ist gesund, und wir essen es gern.",
+    "preguntas": [
+      {
+        "enunciado": "Lisas Lieblingsobst ist der Apfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa isst nie Obst zum Frühstück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schwester mag Bananen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie kauft das Obst im Supermarkt in einer anderen Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Wochenende essen sie oft Obstsalat.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-geburtstagsgeschenk",
+    "nivel": "A1",
+    "titulo": "Ein Geburtstagsgeschenk",
+    "descripcion": "Mia sucht ein Geschenk für ihren Bruder.",
+    "texto": "Mia hat einen Bruder. Er heißt Jonas. Nächste Woche hat Jonas Geburtstag. Er wird zehn Jahre alt. Mia möchte ein schönes Geschenk für ihn kaufen.\n\nMia geht mit ihrer Mutter in ein Spielzeuggeschäft. Jonas mag Fußball sehr gern. Im Geschäft sehen sie einen bunten Fußball. Mia findet den Ball toll und kauft ihn für Jonas.\n\nAm Geburtstag ist Jonas sehr glücklich. Er sagt: „Danke, Mia! Der Ball ist super!\" Die ganze Familie feiert zusammen. Es gibt Kuchen und Limonade. Alle singen ein Geburtstagslied für Jonas.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist Mias Bruder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas wird zwölf Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia kauft einen Fußball für Jonas.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas mag den Ball nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Geburtstag gibt es Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wir-kochen-zusammen",
+    "nivel": "A1",
+    "titulo": "Wir kochen zusammen",
+    "descripcion": "Familie Berger kocht am Sonntag gemeinsam das Mittagessen.",
+    "texto": "Am Sonntag kocht die Familie Berger immer zusammen. Der Vater schneidet die Kartoffeln, und die Mutter wäscht das Gemüse. Die Kinder Lena und Finn helfen auch in der Küche.\n\nHeute kochen sie Nudeln mit Tomatensoße. Lena rührt die Soße im Topf. Finn deckt den Tisch mit Tellern und Gabeln. Das Essen riecht sehr gut, und alle haben Hunger.\n\nUm ein Uhr ist das Essen fertig. Die Familie setzt sich an den Tisch und isst zusammen. Lena sagt: „Das Essen schmeckt super!\" Nach dem Essen räumen alle die Küche auf.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger kocht am Sonntag zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Heute kochen sie Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn deckt den Tisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur die Eltern helfen in der Küche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Essen räumen alle die Küche auf.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-flohmarkt-am-samstag",
+    "nivel": "A2",
+    "titulo": "Der Flohmarkt am Samstag",
+    "descripcion": "Nina verkauft alte Sachen auf einem Flohmarkt.",
+    "texto": "Am Samstag ist Nina früh aufgestanden, weil sie einen Stand auf dem Flohmarkt hatte. Sie hat alte Bücher, Spielzeug und Kleidung mitgebracht, die sie nicht mehr braucht. Ihr Freund Tobias hat ihr geholfen, den Tisch aufzubauen.\n\nViele Leute sind an ihrem Stand vorbeigekommen. Eine Frau hat drei Bücher gekauft, weil sie gern liest. Ein Junge hat sich für ein altes Auto aus Holz interessiert, das Nina als Kind bekommen hatte. Nina hat es ihm günstig verkauft, weil sie sich gefreut hat, dass ein Kind damit spielen wird.\n\nAm Ende des Tages hatte Nina fast alles verkauft. Sie hat sich mit dem Geld ein Eis gekauft und war sehr zufrieden. „Nächstes Jahr mache ich das wieder\", hat sie zu Tobias gesagt.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hatte einen Stand auf dem Flohmarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias hat Nina nicht geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Frau hat Bücher gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina wollte das Holzauto nicht verkaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat am Ende fast alles verkauft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-anruf-beim-arzt",
+    "nivel": "A2",
+    "titulo": "Ein Anruf beim Arzt",
+    "descripcion": "Herr Klein ruft die Arztpraxis an, weil er sich krank fühlt.",
+    "texto": "Herr Klein ist seit gestern erkältet und hat Halsschmerzen. Deshalb hat er heute Morgen in der Arztpraxis angerufen, um einen Termin zu bekommen. Die Sprechstundenhilfe hat gesagt, dass er um vierzehn Uhr vorbeikommen kann.\n\nIm Wartezimmer hat Herr Klein nicht lange gewartet, weil nicht viele Patienten da waren. Die Ärztin hat ihn untersucht und festgestellt, dass er eine leichte Erkältung hat. Sie hat ihm geraten, viel Tee zu trinken und sich zu Hause auszuruhen. Außerdem hat sie ihm ein Rezept für Halstabletten gegeben.\n\nAuf dem Weg nach Hause ist Herr Klein noch in die Apotheke gegangen, weil er die Tabletten sofort holen wollte. Danach hat er sich ins Bett gelegt und einen Tee getrunken. Er hofft, dass er in ein paar Tagen wieder gesund ist.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Klein hat Halsschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Klein musste sehr lange im Wartezimmer warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin hat eine leichte Erkältung festgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Klein soll wenig trinken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Klein ist nach dem Arztbesuch in die Apotheke gegangen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-verlorenes-handy",
+    "nivel": "A2",
+    "titulo": "Ein verlorenes Handy",
+    "descripcion": "Sofie verliert ihr Handy im Bus und findet es dank einer netten Frau wieder.",
+    "texto": "Gestern ist Sofie mit dem Bus zur Arbeit gefahren. Als sie ausgestiegen ist, hat sie ihr Handy auf dem Sitz vergessen. Erst am Nachmittag hat sie bemerkt, dass das Handy nicht in ihrer Tasche war.\n\nSofie hat sich große Sorgen gemacht, weil auf dem Handy viele wichtige Fotos gespeichert waren. Sie hat sofort das Busunternehmen angerufen und gefragt, ob jemand ein Handy gefunden hat. Die Mitarbeiterin hat gesagt, dass eine Frau das Handy abgegeben hat, nachdem sie es im Bus gefunden hatte.\n\nAm nächsten Tag ist Sofie zum Fundbüro gegangen und hat ihr Handy glücklich wieder abgeholt. Sie hat sich sehr gefreut und der Frau, die es gefunden hatte, eine kleine Dankeskarte geschrieben. Seitdem passt Sofie viel besser auf ihre Sachen auf.",
+    "preguntas": [
+      {
+        "enunciado": "Sofie hat ihr Handy im Bus vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie hat das Handy sofort in ihrer Tasche gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Frau hat das Handy im Bus gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie hat ihr Handy nie wiederbekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofie hat eine Dankeskarte geschrieben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "neu-in-der-grossstadt",
+    "nivel": "B1",
+    "titulo": "Neu in der Großstadt",
+    "descripcion": "Markus zieht vom Dorf in die Großstadt und muss sich an ein neues Leben gewöhnen.",
+    "texto": "Markus ist vor zwei Monaten von seinem kleinen Heimatdorf nach München gezogen, weil er dort eine neue Arbeitsstelle gefunden hat. Am Anfang fiel ihm der Wechsel sehr schwer, denn er kannte niemanden in der Stadt und vermisste die Ruhe des Dorflebens. Nachdem er die ersten Wochen hauptsächlich zu Hause verbracht hatte, entschied er sich, aktiver zu werden.\n\nEr trat einem Sportverein bei, obwohl er anfangs Angst hatte, dass die anderen Mitglieder ihn nicht akzeptieren würden. Diese Sorge stellte sich jedoch als unbegründet heraus, denn die Leute im Verein waren sehr offen und freundlich. Durch das Training lernte Markus schnell neue Freunde kennen, mit denen er sich regelmäßig auch außerhalb des Sports traf. Trotzdem gab es Momente, in denen er sich nach der vertrauten Umgebung seines Dorfes sehnte.\n\nMittlerweile hat sich Markus gut in München eingelebt. Er genießt das kulturelle Angebot der Stadt, das ihm auf dem Land nie zur Verfügung stand, und besucht regelmäßig Konzerte und Ausstellungen. Nachdem er lange gezögert hatte, hat er kürzlich sogar seine Eltern eingeladen, ihn zu besuchen und seine neue Heimat kennenzulernen. Er ist überzeugt, dass der Umzug trotz aller Schwierigkeiten die richtige Entscheidung war.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist wegen einer neuen Arbeitsstelle nach München gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus fühlte sich von Anfang an in München wohl.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Sportverein wurde Markus freundlich aufgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat seine Eltern nie zu Besuch eingeladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus findet, dass der Umzug eine richtige Entscheidung war.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-ungewoehnliche-freundschaft",
+    "nivel": "B1",
+    "titulo": "Eine ungewöhnliche Freundschaft",
+    "descripcion": "Ein junger Mann und sein älterer Nachbar entwickeln über die Jahre eine besondere Freundschaft.",
+    "texto": "Als Felix vor fünf Jahren in seine erste eigene Wohnung zog, lernte er seinen Nachbarn Herrn Weber kennen, einen pensionierten Lehrer, der schon über siebzig Jahre alt war. Obwohl die beiden auf den ersten Blick kaum etwas gemeinsam hatten, begannen sie sich regelmäßig zu unterhalten, wenn sie sich im Treppenhaus trafen.\n\nNachdem Herr Weber einmal krank geworden war und einige Tage nicht aus dem Haus konnte, kaufte Felix für ihn ein und brachte ihm jeden Abend eine warme Mahlzeit vorbei. Von diesem Moment an entwickelte sich zwischen den beiden eine echte Freundschaft. Herr Weber erzählte Felix viele spannende Geschichten aus seiner Jugend, während Felix ihm half, mit dem Computer umzugehen und Videoanrufe mit seiner Enkelin zu machen.\n\nHeute, mehrere Jahre später, verbringen die beiden regelmäßig Zeit miteinander, obwohl der Altersunterschied groß ist. Felix sagt, dass er von Herrn Weber mehr über das Leben gelernt hat als aus jedem Buch. Herr Weber wiederum freut sich, dass er durch die Freundschaft nicht mehr so einsam ist wie früher. Beide sind sich sicher, dass wahre Freundschaft keine Frage des Alters ist.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber war früher Lehrer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix und Herr Weber hatten von Anfang an viel gemeinsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat Herrn Weber während seiner Krankheit geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber hat Felix beigebracht, wie man einen Computer benutzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beide glauben, dass Freundschaft keine Frage des Alters ist.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "erfahrungen-beim-schueleraustausch",
+    "nivel": "B1",
+    "titulo": "Erfahrungen beim Schüleraustausch",
+    "descripcion": "Laura verbringt drei Monate bei einer Gastfamilie in Frankreich und lernt dabei viel über sich selbst.",
+    "texto": "Laura hat sich schon lange gewünscht, einmal für längere Zeit im Ausland zu leben. Nachdem ihre Schule ein Austauschprogramm mit einer Partnerschule in Lyon angeboten hatte, bewarb sie sich sofort, obwohl ihre Eltern zunächst Bedenken hatten, ihre fünfzehnjährige Tochter so weit wegziehen zu lassen. Am Ende überzeugte Laura sie jedoch mit ihrer Begeisterung.\n\nDie ersten Wochen bei der Gastfamilie waren nicht leicht, denn Laura verstand vieles nicht, weil ihre Französischkenntnisse noch nicht so gut waren. Nachdem sie sich jedoch an den Alltag gewöhnt hatte, fiel ihr das Sprechen immer leichter. Besonders die gemeinsamen Abendessen mit der Gastfamilie halfen ihr dabei, neue Wörter zu lernen und über kulturelle Unterschiede zu sprechen. Obwohl sie ihre Familie und Freunde in Deutschland vermisste, wollte sie am Ende der drei Monate eigentlich gar nicht mehr zurückfahren.\n\nHeute, ein Jahr später, schreibt Laura ihrer Gastfamilie noch regelmäßig Nachrichten und plant bereits einen weiteren Besuch. Sie ist überzeugt, dass der Austausch sie selbstbewusster gemacht hat und dass sie durch die neue Sprache auch eine neue Sichtweise auf die Welt gewonnen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Laura hat drei Monate in Lyon verbracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lauras Eltern waren von Anfang an vollkommen begeistert von der Idee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura fiel das Sprechen mit der Zeit leichter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura wollte am Ende sofort nach Deutschland zurückfahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura schreibt ihrer Gastfamilie auch heute noch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungsnot-in-deutschen-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Die Wohnungsnot in deutschen Großstädten",
+    "descripcion": "Steigende Mieten und knapper Wohnraum stellen viele Menschen in deutschen Großstädten vor große Herausforderungen.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Suche nach bezahlbarem Wohnraum in den letzten Jahren zu einem der drängendsten sozialen Probleme entwickelt. Während die Mieten in Metropolen wie München, Berlin und Frankfurt kontinuierlich steigen, hält der Neubau von Wohnungen mit der wachsenden Nachfrage kaum Schritt. Besonders betroffen sind Menschen mit geringem Einkommen, die zunehmend an den Stadtrand oder in umliegende Gemeinden verdrängt werden.\n\nAls Ursachen für die Wohnungsnot werden von Experten mehrere Faktoren genannt. Zum einen sei die Zahl der Neubauten seit Jahren zu gering, um den Bedarf zu decken, zum anderen hätten spekulative Investitionen in Immobilien die Preise zusätzlich in die Höhe getrieben. Sollten keine wirksamen Gegenmaßnahmen ergriffen werden, könnte sich die Situation in den kommenden Jahren weiter verschärfen, warnen Wohnungsbaugesellschaften und Sozialverbände gleichermaßen.\n\nAls mögliche Lösungsansätze werden unter anderem eine strengere Mietpreisbremse, staatlich geförderter sozialer Wohnungsbau sowie die Umnutzung leerstehender Gebäude diskutiert. Kritiker wenden allerdings ein, dass solche Maßnahmen allein nicht ausreichen würden, solange gleichzeitig nicht genügend neue Wohnungen gebaut würden. Es bleibt daher abzuwarten, ob die von der Politik angekündigten Reformen tatsächlich dazu beitragen können, bezahlbaren Wohnraum langfristig zu sichern.",
+    "preguntas": [
+      {
+        "enunciado": "In vielen deutschen Großstädten steigen die Mieten seit Jahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Neubau von Wohnungen hält problemlos mit der Nachfrage Schritt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Menschen mit geringem Einkommen werden häufig an den Stadtrand verdrängt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Spekulative Investitionen spielen laut Text keine Rolle bei den steigenden Preisen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker glauben, dass eine Mietpreisbremse allein nicht ausreicht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-in-der-digitalen-gesellschaft",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz in der digitalen Gesellschaft",
+    "descripcion": "Angesichts der Flut an Informationen im Internet wird Medienkompetenz zu einer zentralen gesellschaftlichen Aufgabe.",
+    "texto": "Mit der rasanten Verbreitung sozialer Medien und Online-Nachrichtenportale hat sich die Art und Weise, wie Menschen Informationen konsumieren, grundlegend verändert. Während früher wenige etablierte Zeitungen und Sender die öffentliche Meinung prägten, kann heute nahezu jeder Inhalte im Internet veröffentlichen, ohne dass diese vorher redaktionell geprüft werden. Diese Entwicklung hat zwar die Meinungsvielfalt erhöht, gleichzeitig aber auch die Verbreitung von Falschinformationen erheblich erleichtert.\n\nVor diesem Hintergrund gewinnt die sogenannte Medienkompetenz zunehmend an Bedeutung. Damit ist die Fähigkeit gemeint, Quellen kritisch zu bewerten, Falschmeldungen zu erkennen und zwischen fundierten Berichten und reiner Meinungsmache zu unterscheiden. Bildungsexperten fordern daher, dass Medienkompetenz bereits in der Schule systematisch vermittelt werden sollte, damit junge Menschen frühzeitig lernen, mit der Informationsflut verantwortungsvoll umzugehen.\n\nDennoch reicht schulische Bildung allein vermutlich nicht aus, um das Problem vollständig zu lösen. Auch die Betreiber sozialer Netzwerke stünden in der Verantwortung, transparenter zu machen, nach welchen Kriterien Inhalte angezeigt werden, und wirksamere Maßnahmen gegen die Verbreitung von Desinformation zu ergreifen. Sollte dies weiterhin ausbleiben, könnte das Vertrauen vieler Menschen in digitale Medien langfristig weiter sinken, was wiederum negative Folgen für den gesellschaftlichen Zusammenhalt hätte.",
+    "preguntas": [
+      {
+        "enunciado": "Früher prägten vor allem etablierte Zeitungen und Sender die öffentliche Meinung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Internet werden alle veröffentlichten Inhalte vorher redaktionell geprüft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienkompetenz bedeutet unter anderem, Quellen kritisch zu bewerten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text reicht schulische Bildung allein sicher aus, um das Problem zu lösen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern, dass Medienkompetenz schon in der Schule vermittelt wird.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-chancen-und-risiken",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche: Chancen und Risiken",
+    "descripcion": "Immer mehr Unternehmen experimentieren mit der Vier-Tage-Woche, während die gesellschaftliche Debatte über ihre Folgen anhält.",
+    "texto": "In den vergangenen Jahren haben zahlreiche Unternehmen in Deutschland und anderen europäischen Ländern begonnen, die Vier-Tage-Woche testweise einzuführen. Befürworter argumentieren, dass eine verkürzte Arbeitszeit bei vollem Lohnausgleich die Produktivität der Beschäftigten steigern und gleichzeitig deren Wohlbefinden verbessern könne. Erste Pilotprojekte scheinen diese These zu bestätigen, da viele teilnehmende Firmen von einer geringeren Fehlzeitenquote und einer höheren Mitarbeiterzufriedenheit berichten.\n\nGleichzeitig äußern Kritiker erhebliche Bedenken gegenüber einer flächendeckenden Einführung des Modells. Insbesondere in Branchen mit Fachkräftemangel, etwa im Gesundheitswesen oder im Handwerk, sei es fraglich, ob die gleiche Arbeitsmenge tatsächlich in vier statt fünf Tagen bewältigt werden könne, ohne dass sich der Druck auf die Beschäftigten erhöhe. Würde man das Modell ohne ausreichende Anpassung der Arbeitsprozesse einführen, bestünde zudem die Gefahr, dass sich Arbeit lediglich verdichtet, statt tatsächlich reduziert zu werden.\n\nOb sich die Vier-Tage-Woche langfristig durchsetzen wird, hängt daher maßgeblich davon ab, wie flexibel einzelne Branchen auf das Modell reagieren können. Arbeitsmarktforscher betonen, dass pauschale Lösungen selten allen Beschäftigtengruppen gerecht würden und dass stattdessen branchenspezifische Konzepte entwickelt werden müssten. Klar scheint jedoch zu sein, dass die Debatte über flexiblere Arbeitszeitmodelle die Arbeitswelt der Zukunft nachhaltig prägen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Einige Unternehmen haben die Vier-Tage-Woche bereits testweise eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Erste Pilotprojekte berichten ausschließlich von negativen Ergebnissen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker äußern Bedenken vor allem in Branchen mit Fachkräftemangel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind sich alle Experten einig, dass eine pauschale Lösung für alle Branchen ideal wäre.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Arbeitsmarktforscher halten branchenspezifische Konzepte für sinnvoll.",
+        "respuesta": true
+      }
+    ]
   }
 ]
