@@ -23090,5 +23090,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-schulranzen",
+    "nivel": "A1",
+    "titulo": "Der Schulranzen",
+    "descripcion": "Lena kauft einen neuen Schulranzen für die Schule.",
+    "texto": "Lena ist acht Jahre alt. Sie geht in die dritte Klasse. Ihr alter Schulranzen ist kaputt. Heute gehen Lena und ihre Mutter in ein Geschäft.\n\nIm Geschäft gibt es viele Schulranzen. Ein Ranzen ist blau, ein anderer ist rosa. Lena mag den blauen Ranzen mit einem Stern. Der Ranzen kostet vierzig Euro. Lenas Mutter bezahlt an der Kasse.\n\nZu Hause packt Lena ihre Bücher in den neuen Ranzen. Sie ist sehr glücklich. Morgen geht sie mit dem neuen Ranzen in die Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas alter Schulranzen ist neu.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der blaue Ranzen hat einen Stern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Ranzen kostet zwanzig Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena packt ihre Bücher in den neuen Ranzen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-schulkantine",
+    "nivel": "A1",
+    "titulo": "Die Schulkantine",
+    "descripcion": "Paul isst zum ersten Mal in der Schulkantine.",
+    "texto": "Paul ist in der fünften Klasse. Heute isst er zum ersten Mal in der Schulkantine. Die Kantine ist groß und laut. Viele Kinder stehen in einer Schlange.\n\nPaul nimmt ein Tablett. Es gibt Nudeln mit Tomatensoße, Salat und Wasser. Paul mag Nudeln sehr gern. Er setzt sich neben seinen Freund Tim. Sie sprechen über den Sportunterricht.\n\nNach dem Essen bringt Paul das Tablett zurück. Das Essen war lecker. Paul möchte morgen wieder in der Kantine essen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul isst heute zum ersten Mal in der Kantine.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kantine ist klein und leise.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt Nudeln mit Tomatensoße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul isst neben seiner Lehrerin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul möchte morgen wieder in der Kantine essen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wecker-klingelt",
+    "nivel": "A1",
+    "titulo": "Der Wecker klingelt",
+    "descripcion": "Jonas beschreibt seinen Morgen, wenn der Wecker klingelt.",
+    "texto": "Der Wecker klingelt um sechs Uhr. Jonas steht auf und geht ins Bad. Er putzt sich die Zähne und wäscht sein Gesicht. Danach zieht er sich schnell an.\n\nIn der Küche macht Jonas sein Frühstück. Er isst ein Brot mit Käse und trinkt einen Orangensaft. Seine kleine Schwester schläft noch. Jonas packt seine Tasche für die Schule.\n\nUm sieben Uhr fährt Jonas mit dem Fahrrad zur Schule. Die Sonne scheint. Jonas kommt pünktlich in der Schule an.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wecker klingelt um sieben Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas putzt sich die Zähne im Bad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas trinkt Kaffee zum Frühstück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas fährt mit dem Fahrrad zur Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas kommt pünktlich in der Schule an.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-geldboerse",
+    "nivel": "A2",
+    "titulo": "Die verlorene Geldbörse",
+    "descripcion": "Frau Berger hat ihre Geldbörse verloren und sucht sie überall.",
+    "texto": "Frau Berger ist gestern in die Stadt gefahren, weil sie neue Schuhe kaufen wollte. Als sie nach Hause gekommen ist, hat sie ihre Geldbörse nicht mehr gefunden. Sie hat sofort in ihrer Tasche gesucht, aber die Geldbörse war weg.\n\nFrau Berger ist zurück in die Stadt gefahren und hat in jedem Geschäft gefragt. Im dritten Geschäft hat eine Verkäuferin gesagt, dass jemand eine Geldbörse abgegeben hat. Frau Berger war sehr erleichtert, als sie ihre Geldbörse gesehen hat.\n\nAm Abend hat Frau Berger der Verkäuferin einen Blumenstrauß gebracht, weil sie sich bedanken wollte. Seitdem passt sie besser auf ihre Sachen auf.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger ist in die Stadt gefahren, um Schuhe zu kaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger hat ihre Geldbörse sofort zu Hause gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Verkäuferin hat gesagt, dass jemand eine Geldbörse abgegeben hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger war traurig, als sie ihre Geldbörse gesehen hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat der Verkäuferin einen Blumenstrauß gebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-nach-berlin",
+    "nivel": "A2",
+    "titulo": "Die Klassenfahrt nach Berlin",
+    "descripcion": "Eine Schulklasse berichtet von ihrer Klassenfahrt nach Berlin.",
+    "texto": "Die Klasse 9b ist letzte Woche nach Berlin gefahren. Die Schüler waren sehr aufgeregt, weil sie noch nie in der Hauptstadt gewesen waren. Sie sind mit dem Zug gefahren und haben in einer Jugendherberge übernachtet.\n\nAm ersten Tag haben sie den Reichstag besucht. Der Lehrer hat erklärt, dass das Gebäude eine lange Geschichte hat. Am zweiten Tag sind sie zum Brandenburger Tor gegangen und haben viele Fotos gemacht. Abends haben sie zusammen gekocht und Karten gespielt.\n\nAls die Klasse wieder zu Hause angekommen ist, haben alle von der Reise erzählt. Viele Schüler sagen, dass Berlin ihre Lieblingsstadt geworden ist.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b ist mit dem Bus nach Berlin gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler haben in einer Jugendherberge übernachtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am ersten Tag haben sie den Reichstag besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler haben abends im Hotel ferngesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Für viele Schüler ist Berlin die Lieblingsstadt geworden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-fundbuero",
+    "nivel": "A2",
+    "titulo": "Das Fundbüro",
+    "descripcion": "Markus hat seinen Regenschirm verloren und geht zum Fundbüro.",
+    "texto": "Markus hat gestern in der Straßenbahn seinen Regenschirm vergessen. Als er zu Hause angekommen ist, hat er gemerkt, dass der Schirm fehlt. Er war ärgerlich, weil der Schirm ein Geschenk von seiner Mutter war.\n\nAm nächsten Morgen ist Markus zum Fundbüro gegangen. Dort hat ein Mitarbeiter gefragt, wie der Schirm aussieht. Markus hat gesagt, dass der Schirm rot und weiß ist. Der Mitarbeiter hat im Regal gesucht und den Schirm gefunden.\n\nMarkus hat sich sehr gefreut, dass er den Schirm zurückbekommen hat. Er hat dem Mitarbeiter gedankt und ist glücklich nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat seinen Regenschirm im Bus vergessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schirm war ein Geschenk von seiner Mutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus ist noch am selben Abend zum Fundbüro gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Mitarbeiter hat den Schirm im Regal gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat sich nicht gefreut, dass er den Schirm zurückbekommen hat.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-konflikt-am-arbeitsplatz",
+    "nivel": "B1",
+    "titulo": "Der Konflikt am Arbeitsplatz",
+    "descripcion": "Zwei Kollegen geraten wegen eines Projekts in Streit und finden eine Lösung.",
+    "texto": "Sabine und Markus arbeiten seit zwei Jahren im selben Team. Obwohl sie sich meistens gut verstehen, kam es letzte Woche zu einem Streit. Sabine hatte einen Vorschlag für ein neues Projekt gemacht, doch Markus fand die Idee zu riskant und widersprach ihr vor dem ganzen Team.\n\nNachdem der Streit begonnen hatte, wurde die Stimmung im Büro immer angespannter. Trotzdem wollten beide eine Lösung finden, weil das Projekt wichtig für die Firma war. Sie verabredeten sich zu einem Gespräch unter vier Augen.\n\nBei dem Gespräch erklärte Markus, dass er nur Angst vor finanziellen Verlusten gehabt hatte. Sabine verstand seine Sorge und passte den Plan an. Am Ende waren beide zufrieden, und das Team konnte das Projekt gemeinsam starten.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine und Markus verstehen sich normalerweise gut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus fand Sabines Idee sofort sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Streit wurde die Stimmung entspannter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hatte Angst vor finanziellen Verlusten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende konnte das Team das Projekt nicht starten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vorbereitung-auf-den-fuehrerschein",
+    "nivel": "B1",
+    "titulo": "Die Vorbereitung auf den Führerschein",
+    "descripcion": "Nina bereitet sich auf ihre Führerscheinprüfung vor und überwindet ihre Nervosität.",
+    "texto": "Nina hat vor drei Monaten mit der Fahrschule begonnen. Obwohl sie am Anfang sehr nervös war, hat sie schnell gelernt, das Auto sicher zu steuern. Jede Woche hatte sie zwei Fahrstunden und musste außerdem für die Theorieprüfung lernen.\n\nNachdem sie die Theorieprüfung bestanden hatte, konzentrierte sich Nina ganz auf die praktische Prüfung. Ihr Fahrlehrer sagte ihr, dass sie ruhiger fahren sollte. Trotzdem machte sie sich große Sorgen, weil viele ihrer Freunde bei der ersten Prüfung durchgefallen waren.\n\nAm Tag der Prüfung war Nina aufgeregt, aber sie erinnerte sich an die Ratschläge ihres Fahrlehrers. Sie fuhr konzentriert und machte keine großen Fehler. Am Ende gratulierte ihr die Prüferin und Nina hatte endlich ihren Führerschein.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat vor drei Monaten mit der Fahrschule begonnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina musste nur für die praktische Prüfung lernen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat die Theorieprüfung bestanden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina war am Tag der Prüfung völlig ruhig und hatte keine Sorgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat die praktische Prüfung nicht bestanden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-freiwillige-soziale-jahr",
+    "nivel": "B1",
+    "titulo": "Das Freiwillige Soziale Jahr",
+    "descripcion": "Tobias berichtet von seinen Erfahrungen während des Freiwilligen Sozialen Jahres.",
+    "texto": "Nach dem Abitur wusste Tobias nicht genau, was er studieren wollte. Deshalb entschied er sich für ein Freiwilliges Soziales Jahr in einem Krankenhaus. Obwohl seine Eltern zuerst skeptisch waren, unterstützten sie ihn schließlich bei seiner Entscheidung.\n\nIn den ersten Wochen war die Arbeit für Tobias anstrengend, weil er viele neue Aufgaben lernen musste. Er half den Pflegekräften bei einfachen Tätigkeiten und sprach oft mit den Patienten. Nachdem er sich eingelebt hatte, fühlte er sich immer sicherer in seiner Rolle.\n\nAm Ende des Jahres war Tobias froh, diese Erfahrung gemacht zu haben. Er hatte gelernt, Verantwortung zu übernehmen und mit schwierigen Situationen umzugehen. Deshalb entschied er sich, im nächsten Jahr Medizin zu studieren.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias wusste nach dem Abitur sofort, was er studieren wollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hat sein Freiwilliges Soziales Jahr in einem Krankenhaus gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Arbeit war von Anfang an leicht für Tobias.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hat gelernt, Verantwortung zu übernehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias entschied sich, Medizin zu studieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "konsumkritik-in-der-wegwerfgesellschaft",
+    "nivel": "B2",
+    "titulo": "Konsumkritik in der Wegwerfgesellschaft",
+    "descripcion": "Ein Text über die Kritik am übermäßigen Konsum und mögliche Alternativen.",
+    "texto": "In den letzten Jahrzehnten hat sich in westlichen Industrieländern eine Kultur des ständigen Konsums entwickelt, die von Kritikern zunehmend als Wegwerfgesellschaft bezeichnet wird. Produkte werden oft nicht mehr repariert, sondern durch neue ersetzt, sobald sie kleine Mängel aufweisen oder ein neueres Modell auf den Markt kommt. Dieses Verhalten wird durch eine Industrie befördert, die auf kurze Produktlebenszyklen setzt.\n\nKritiker argumentieren, dass diese Entwicklung nicht nur ökologische, sondern auch soziale Folgen hat. Wenn Konsumenten ihr Glück zunehmend an materiellen Besitz koppeln, würde dies, so die These, zu einer ständigen Unzufriedenheit führen, da immer neue Produkte begehrt werden. Zudem wird bemängelt, dass viele der günstig produzierten Waren unter fragwürdigen Arbeitsbedingungen hergestellt werden.\n\nAls Gegenbewegung ist in den vergangenen Jahren ein wachsendes Bewusstsein für nachhaltigen Konsum entstanden. Immer mehr Menschen entscheiden sich bewusst für gebrauchte Produkte, Reparaturcafés oder Tauschbörsen. Sollte sich dieser Trend fortsetzen, könnte langfristig ein Umdenken in der gesamten Produktionskette angestoßen werden.\n\nDennoch bleibt fraglich, ob individuelles Konsumverhalten allein ausreicht, um die strukturellen Probleme der Wegwerfgesellschaft zu lösen. Viele Experten fordern daher zusätzlich politische Maßnahmen, etwa gesetzlich vorgeschriebene Mindestgarantiezeiten für elektronische Geräte.",
+    "preguntas": [
+      {
+        "enunciado": "In der Wegwerfgesellschaft werden Produkte oft schnell durch neue ersetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen bei der Wegwerfgesellschaft nur ökologische, keine sozialen Folgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Reparaturcafés und Tauschbörsen sind Beispiele für nachhaltigen Konsum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind der Meinung, dass individuelles Konsumverhalten allein ausreicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten fordern gesetzliche Mindestgarantiezeiten für elektronische Geräte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "plattformoekonomie-und-ihre-schattenseiten",
+    "nivel": "B2",
+    "titulo": "Plattformökonomie und ihre Schattenseiten",
+    "descripcion": "Der Text beleuchtet Chancen und Probleme digitaler Vermittlungsplattformen.",
+    "texto": "Digitale Plattformen, die Dienstleister und Kunden direkt miteinander verbinden, haben in den vergangenen Jahren zahlreiche Branchen verändert. Ob Essenslieferung, Personentransport oder Übernachtungsvermittlung – die sogenannte Plattformökonomie verspricht Flexibilität und niedrige Preise für Konsumenten. Gleichzeitig wird sie zunehmend von Wissenschaftlern und Gewerkschaften kritisch betrachtet.\n\nEin zentraler Kritikpunkt betrifft die Arbeitsbedingungen der Menschen, die für diese Plattformen tätig sind. Viele von ihnen gelten rechtlich als selbstständig, obwohl ihre Arbeitszeiten und Aufträge faktisch von den Algorithmen der jeweiligen Plattform bestimmt werden. Dadurch entfallen wichtige Schutzrechte wie bezahlter Urlaub oder Kündigungsschutz, die Angestellten sonst zustehen würden.\n\nZudem wird kritisiert, dass ein Großteil der erwirtschafteten Gewinne bei den Plattformbetreibern verbleibt, während die eigentlichen Dienstleister oft nur einen geringen Anteil erhalten. Wäre die Verteilung gerechter geregelt, könnten viele der prekären Arbeitsverhältnisse vermieden werden, so die Argumentation von Arbeitsrechtlern.\n\nIn mehreren europäischen Ländern wird inzwischen über eine gesetzliche Neueinstufung von Plattformbeschäftigten diskutiert. Eine solche Reform würde bedeuten, dass Plattformen ihren Mitarbeitenden mehr soziale Absicherung bieten müssten, was wiederum die Geschäftsmodelle der Unternehmen grundlegend verändern könnte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Plattformökonomie hat nur die Übernachtungsbranche verändert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Plattformbeschäftigte gelten rechtlich als selbstständig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Arbeitszeiten vieler Plattformbeschäftigter werden von Algorithmen bestimmt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern erhalten die Dienstleister meist den größten Teil der Gewinne.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In einigen europäischen Ländern wird über eine gesetzliche Neueinstufung diskutiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "generationengerechtigkeit-in-der-rentenpolitik",
+    "nivel": "B2",
+    "titulo": "Generationengerechtigkeit in der Rentenpolitik",
+    "descripcion": "Ein Text über den Konflikt zwischen jüngeren und älteren Generationen in der Rentendebatte.",
+    "texto": "Die Frage, wie das Rentensystem angesichts einer alternden Gesellschaft langfristig finanziert werden kann, gehört zu den zentralen sozialpolitischen Debatten in Deutschland. Da immer weniger Erwerbstätige für eine wachsende Zahl von Rentnern aufkommen müssen, wird zunehmend über das Prinzip der Generationengerechtigkeit diskutiert.\n\nVertreter jüngerer Generationen bemängeln, dass sie durch steigende Beiträge stärker belastet würden, ohne dass ihnen im Alter ein vergleichbares Rentenniveau garantiert werden könne. Sie fordern daher Reformen, die eine gerechtere Verteilung der finanziellen Lasten zwischen den Generationen ermöglichen würden, etwa durch eine stärkere kapitalgedeckte Altersvorsorge.\n\nDemgegenüber verweisen Vertreter älterer Generationen darauf, dass sie jahrzehntelang in das umlagefinanzierte System eingezahlt haben und sich nun auf verlässliche Zusagen verlassen können müssten. Würde das Rentenniveau gesenkt, wären insbesondere Menschen mit niedrigen Einkommen von Altersarmut bedroht, so ihre Argumentation.\n\nAngesichts dieser gegensätzlichen Positionen erscheint eine Reform, die von allen Generationen als gerecht empfunden wird, kaum realisierbar. Dennoch sind sich die meisten Experten einig, dass ohne strukturelle Anpassungen des Systems langfristig weder eine stabile Finanzierung noch ein angemessenes Rentenniveau gesichert werden kann.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zahl der Erwerbstätigen im Verhältnis zu den Rentnern wächst stetig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Generationen fordern teilweise eine stärkere kapitalgedeckte Altersvorsorge.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ältere Generationen befürchten bei sinkendem Rentenniveau eine steigende Altersarmut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass keine strukturellen Anpassungen nötig sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Reform, die alle Generationen zufriedenstellt, gilt als leicht umsetzbar.",
+        "respuesta": false
+      }
+    ]
   }
 ]
