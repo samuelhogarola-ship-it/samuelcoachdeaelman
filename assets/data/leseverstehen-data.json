@@ -25874,5 +25874,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-katze",
+    "nivel": "A1",
+    "titulo": "Meine Katze",
+    "descripcion": "Anna erzählt von ihrer Katze Mimi.",
+    "texto": "Ich heiße Anna. Ich habe eine Katze. Sie heißt Mimi. Mimi ist schwarz und weiß. Sie ist sehr klein.\n\nMimi schläft viel. Sie schläft auf dem Sofa. Am Morgen isst sie Fisch. Sie trinkt auch Milch. Mimi spielt gern mit einem Ball.\n\nAm Abend sitzt Mimi auf meinem Bett. Ich streichle sie. Mimi ist mein bester Freund. Ich liebe meine Katze sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Anna hat eine Katze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist groß und braun.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi isst am Morgen Fisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi schläft nie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-blaue-rucksack",
+    "nivel": "A1",
+    "titulo": "Der blaue Rucksack",
+    "descripcion": "Tom kauft einen neuen Rucksack für die Schule.",
+    "texto": "Tom braucht einen neuen Rucksack. Er geht mit seiner Mutter ins Geschäft. Im Geschäft gibt es viele Rucksäcke. Tom mag den blauen Rucksack.\n\nDer blaue Rucksack kostet zwanzig Euro. Er hat drei Fächer. Tom packt seine Bücher hinein. Er packt auch einen Stift und ein Heft hinein.\n\nTom ist sehr glücklich. Er trägt den Rucksack zur Schule. Seine Freunde finden den Rucksack schön. Tom sagt: „Der Rucksack ist toll!“",
+    "preguntas": [
+      {
+        "enunciado": "Tom braucht einen neuen Rucksack.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Rucksack ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Rucksack kostet zwanzig Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Rucksack hat drei Fächer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Toms Freunde finden den Rucksack hässlich.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-geburtstagskuchen",
+    "nivel": "A1",
+    "titulo": "Der Geburtstagskuchen",
+    "descripcion": "Die Familie backt einen Kuchen für Lisas Geburtstag.",
+    "texto": "Heute hat Lisa Geburtstag. Sie wird acht Jahre alt. Die Familie backt einen Kuchen. Der Kuchen ist braun. Er hat Schokolade.\n\nMama mischt die Eier und das Mehl. Papa macht die Schokolade warm. Lisa darf den Kuchen probieren. Der Kuchen schmeckt sehr gut.\n\nAm Abend kommen die Gäste. Sie singen ein Lied. Lisa bekommt viele Geschenke. Sie isst ein großes Stück Kuchen. Lisa lacht viel.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen hat keine Schokolade.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Papa macht die Schokolade warm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa bekommt keine Geschenke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa isst ein Stück Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-missgeschick-im-supermarkt",
+    "nivel": "A2",
+    "titulo": "Das Missgeschick im Supermarkt",
+    "descripcion": "Markus erlebt ein peinliches Missgeschick beim Einkaufen.",
+    "texto": "Gestern ist Markus in den Supermarkt gegangen, weil er Milch und Brot kaufen wollte. Er hat einen Einkaufswagen genommen und ist durch die Gänge gelaufen. Plötzlich ist eine Dose Tomaten aus seinem Wagen gefallen.\n\nDie Dose ist auf den Boden gerollt und hat ein Glas Marmelade umgestoßen. Das Glas ist kaputtgegangen. Markus hat sich sehr geschämt, weil viele Leute geschaut haben. Eine Verkäuferin hat ihm geholfen, die Scherben wegzuräumen.\n\nMarkus hat sich entschuldigt und hat die Marmelade bezahlt. Danach hat er schnell seine Sachen eingepackt. Wenn er das nächste Mal einkaufen geht, will er vorsichtiger sein. Er hat zu seiner Frau gesagt, dass der Tag sehr peinlich war.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist in den Supermarkt gegangen, um Milch und Brot zu kaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Dose Tomaten ist aus seinem Wagen gefallen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nichts ist kaputtgegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Verkäuferin hat Markus geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus fand den Tag lustig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wanderung-im-schwarzwald",
+    "nivel": "A2",
+    "titulo": "Die Wanderung im Schwarzwald",
+    "descripcion": "Eine Familie macht eine Wanderung im Schwarzwald und trifft auf Regen.",
+    "texto": "Am Samstag ist die Familie Weber in den Schwarzwald gefahren. Sie haben eine Wanderung geplant, weil das Wetter schön sein sollte. Am Morgen hat die Sonne geschienen, und alle waren fröhlich.\n\nNach zwei Stunden hat es plötzlich angefangen zu regnen. Die Familie hatte keine Regenjacken dabei. Sie sind schnell unter einen großen Baum gelaufen. Der Vater hat gesagt, dass sie eine Pause machen sollten, bis der Regen aufhört.\n\nNach einer halben Stunde hat der Regen aufgehört. Die Familie ist weitergewandert und hat einen schönen Wasserfall gefunden. Am Abend waren alle müde, aber glücklich. Die Kinder haben erzählt, dass es der beste Ausflug des Jahres war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Weber ist in den Schwarzwald gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat den ganzen Tag geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hatte Regenjacken dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat einen Wasserfall gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder fanden den Ausflug schlecht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-mit-hindernissen",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug mit Hindernissen",
+    "descripcion": "Eine Klasse fährt mit dem Bus zum Zoo, aber es passiert viel Unerwartetes.",
+    "texto": "Letzte Woche ist die Klasse 6b mit dem Bus zum Zoo gefahren. Alle Schüler haben sich sehr gefreut, weil sie die Elefanten sehen wollten. Der Bus ist aber im Stau stehen geblieben.\n\nNach einer Stunde ist der Bus endlich am Zoo angekommen. Die Lehrerin hat gesagt, dass sie sich beeilen müssten. Die Kinder sind schnell zu den Elefanten gelaufen. Dort haben sie auch Affen und Giraffen gesehen.\n\nAm Nachmittag hat es angefangen zu regnen, und alle sind nass geworden. Trotzdem war der Ausflug ein großer Erfolg. Als die Schüler nach Hause gekommen sind, haben sie ihren Eltern viel erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 6b ist mit dem Zug zum Zoo gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bus ist im Stau stehen geblieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben keine Tiere gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag hat es geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Ausflug war kein Erfolg.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-schueleraustausch-in-frankreich",
+    "nivel": "B1",
+    "titulo": "Der Schüleraustausch in Frankreich",
+    "descripcion": "Jonas berichtet von seinen Erfahrungen während eines Schüleraustauschs in Frankreich.",
+    "texto": "Jonas hat sich schon lange auf seinen Schüleraustausch in Frankreich gefreut. Nachdem er drei Monate lang Französisch gelernt hatte, ist er endlich nach Lyon geflogen. Dort hat ihn eine Gastfamilie am Flughafen abgeholt und herzlich willkommen geheißen.\n\nIn den ersten Tagen war Jonas sehr unsicher, obwohl seine Gastfamilie sehr freundlich war. Er hatte Angst, Fehler zu machen, wenn er Französisch sprach. Trotzdem hat er sich schnell an den Alltag gewöhnt und neue Freunde in der Schule gefunden.\n\nAm Ende des Austauschs war Jonas traurig, dass er wieder nach Hause fliegen musste. Er hatte viel gelernt, obwohl der Anfang schwer gewesen war. Heute schreibt er seiner Gastfamilie regelmäßig E-Mails und plant schon den nächsten Besuch in Frankreich.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist nach Lyon geflogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte in den ersten Tagen keine Unsicherheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat in der Schule neue Freunde gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas war froh, den Austausch zu beenden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas schreibt seiner Gastfamilie E-Mails.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "umzug-in-eine-fremde-stadt",
+    "nivel": "B1",
+    "titulo": "Umzug in eine fremde Stadt",
+    "descripcion": "Sarah zieht wegen eines neuen Jobs in eine fremde Stadt und muss sich neu orientieren.",
+    "texto": "Sarah hat vor zwei Monaten eine neue Arbeitsstelle in Hamburg bekommen. Obwohl sie ihr ganzes Leben in München verbracht hatte, hat sie sich entschieden, umzuziehen. Der Abschied von ihren Freunden ist ihr sehr schwergefallen.\n\nNachdem sie in Hamburg angekommen war, kannte sie zunächst niemanden. Trotzdem hat sie versucht, positiv zu bleiben, und ist jedes Wochenende durch die Stadt spaziert. Nach und nach hat sie Kollegen kennengelernt, die sie zu einem Sportverein eingeladen haben.\n\nHeute fühlt sich Sarah in Hamburg fast wie zu Hause, obwohl sie ihre alte Stadt manchmal vermisst. Sie hat gelernt, dass ein Neuanfang zwar schwierig sein kann, aber auch viele neue Möglichkeiten bringt. Ihre Freunde aus München besuchen sie inzwischen regelmäßig.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah ist wegen eines neuen Jobs nach Hamburg gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah kannte sofort viele Leute in Hamburg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kollegen haben Sarah zu einem Sportverein eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah vermisst München nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Freunde aus München besuchen Sarah manchmal.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenfest-im-sommer",
+    "nivel": "B1",
+    "titulo": "Das Straßenfest im Sommer",
+    "descripcion": "Eine Nachbarschaft organisiert gemeinsam ein Straßenfest, trotz anfänglicher Schwierigkeiten.",
+    "texto": "Jedes Jahr im Juli organisieren die Nachbarn in der Lindenstraße ein großes Straßenfest. Dieses Jahr sollte das Fest größer werden als sonst, nachdem viele neue Familien in die Straße gezogen waren. Die Organisation war jedoch nicht einfach.\n\nZuerst konnten sich die Nachbarn nicht einigen, wo die Tische und Stände aufgebaut werden sollten. Obwohl es am Anfang viel Diskussion gab, haben sie schließlich einen guten Kompromiss gefunden. Jede Familie hat etwas zu essen mitgebracht, und ein Nachbar hat sogar Musik organisiert.\n\nAm Tag des Festes schien die Sonne, und die ganze Straße war voller Menschen. Trotz der anfänglichen Probleme war das Fest ein großer Erfolg. Die Nachbarn haben beschlossen, das Fest im nächsten Jahr wieder zu veranstalten.",
+    "preguntas": [
+      {
+        "enunciado": "Das Straßenfest findet jedes Jahr im Juli statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Organisation war von Anfang an einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jede Familie hat etwas zu essen mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Tag des Festes hat es geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn wollen das Fest nächstes Jahr wieder machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wohnungsmarkt-in-der-grossstadt",
+    "nivel": "B2",
+    "titulo": "Der Wohnungsmarkt in der Großstadt",
+    "descripcion": "Eine Analyse der angespannten Wohnungssituation in deutschen Großstädten und möglicher Lösungen.",
+    "texto": "In vielen deutschen Großstädten hat sich der Wohnungsmarkt in den letzten Jahren dramatisch zugespitzt. Die Mieten, die in Städten wie Berlin, München und Hamburg ohnehin schon hoch waren, sind weiter gestiegen, während das Angebot an bezahlbarem Wohnraum kaum mit der wachsenden Nachfrage Schritt halten konnte. Immer mehr Menschen, die auf der Suche nach einer Wohnung sind, berichten von aussichtslosen Besichtigungsterminen, bei denen sich Dutzende Bewerber um eine einzige Wohnung bemühen.\n\nWenn die Politik nicht entschlossener handeln würde, könnte sich die Lage in den kommenden Jahren weiter verschärfen, warnen Experten. Einige Städte haben bereits Mietpreisbremsen eingeführt, die jedoch von Kritikern als unzureichend bezeichnet werden. Es wird zudem diskutiert, ob der soziale Wohnungsbau stärker gefördert werden sollte, um Menschen mit geringerem Einkommen zu entlasten.\n\nBefürworter eines freieren Marktes argumentieren dagegen, dass staatliche Eingriffe die Investitionsbereitschaft privater Bauunternehmen verringern würden. Sie sind der Meinung, dass mehr Neubauten die Lage langfristig entspannen könnten, wenn bürokratische Hürden abgebaut würden. Kritiker halten dem entgegen, dass allein der Markt das Problem nicht lösen könne, da Wohnraum als Grundbedürfnis nicht vollständig den Marktkräften überlassen werden dürfe.\n\nLetztlich zeigt die Debatte, wie komplex das Thema ist. Eine Lösung, die sowohl Investoren als auch Mieter zufriedenstellt, wurde bisher nicht gefunden, obwohl zahlreiche Vorschläge diskutiert werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sind in den letzten Jahren gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Angebot an bezahlbarem Wohnraum konnte problemlos mit der Nachfrage Schritt halten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Städte haben Mietpreisbremsen eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich über die Lösung des Problems einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter eines freieren Marktes wollen mehr staatliche Eingriffe.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "medienkritik-in-der-digitalen-welt",
+    "nivel": "B2",
+    "titulo": "Medienkritik in der digitalen Welt",
+    "descripcion": "Ein Text über die Herausforderungen des Journalismus im Zeitalter der sozialen Medien.",
+    "texto": "Die Art und Weise, wie Nachrichten heute konsumiert werden, hat sich durch die sozialen Medien grundlegend verändert. Während früher Zeitungen und das Fernsehen die wichtigsten Informationsquellen waren, informieren sich heute viele Menschen vor allem über Plattformen, auf denen Inhalte in Sekundenschnelle geteilt werden können. Dieser Wandel hat sowohl Chancen als auch erhebliche Risiken mit sich gebracht.\n\nEinerseits ermöglichen soziale Medien, dass Informationen schneller und breiter verbreitet werden als je zuvor. Ereignisse, die früher erst nach Stunden bekannt wurden, werden heute in Echtzeit dokumentiert. Andererseits wird zunehmend kritisiert, dass die Geschwindigkeit, mit der Nachrichten verbreitet werden, oft zulasten der Sorgfalt geht. Falschmeldungen, die absichtlich oder aus Unachtsamkeit verbreitet werden, können sich rasant ausbreiten, bevor sie überhaupt überprüft werden können.\n\nManche Experten fordern deshalb, dass Plattformbetreiber stärker in die Verantwortung genommen werden sollten. Wenn Falschinformationen konsequenter gekennzeichnet würden, könnte das Vertrauen der Nutzer in verlässliche Quellen gestärkt werden. Gleichzeitig wird jedoch befürchtet, dass zu strenge Kontrollen die Meinungsfreiheit einschränken könnten, was in einer demokratischen Gesellschaft problematisch wäre.\n\nAm Ende bleibt die Frage, wie ein Gleichgewicht zwischen freier Meinungsäußerung und verantwortungsvollem Journalismus erreicht werden kann, eine der zentralen Herausforderungen unserer Zeit.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Medien haben die Art der Nachrichtenverbreitung verändert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Falschmeldungen können sich schnell verbreiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind gegen jegliche Kontrolle von Plattformen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zu strenge Kontrollen könnten die Meinungsfreiheit einschränken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Thema wird als bereits vollständig gelöst beschrieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "generationenkonflikt-am-arbeitsplatz",
+    "nivel": "B2",
+    "titulo": "Generationenkonflikt am Arbeitsplatz",
+    "descripcion": "Ein Blick auf die unterschiedlichen Erwartungen verschiedener Generationen im modernen Berufsleben.",
+    "texto": "In vielen Unternehmen treffen heute mehrere Generationen aufeinander, deren Vorstellungen von Arbeit teilweise stark voneinander abweichen. Während ältere Arbeitnehmer, die häufig noch nach traditionellen Karrieremodellen streben, Wert auf Beständigkeit und klare Hierarchien legen, wünschen sich jüngere Beschäftigte oft mehr Flexibilität und eine bessere Vereinbarkeit von Beruf und Privatleben.\n\nDiese unterschiedlichen Erwartungen führen nicht selten zu Spannungen. Ältere Kollegen empfinden es manchmal als respektlos, wenn jüngere Mitarbeiter Homeoffice oder flexible Arbeitszeiten einfordern, obwohl solche Regelungen inzwischen weit verbreitet sind. Jüngere Angestellte wiederum werfen älteren Kollegen vor, an überholten Strukturen festzuhalten, die den modernen Anforderungen nicht mehr gerecht würden.\n\nPersonalverantwortliche stehen deshalb vor der Herausforderung, ein Arbeitsumfeld zu schaffen, das den Bedürfnissen aller Generationen gerecht wird. Es wird diskutiert, ob flexible Modelle, die individuell angepasst werden könnten, eine Lösung darstellen würden. Wenn Unternehmen es schafften, von den unterschiedlichen Stärken jeder Generation zu profitieren, könnte dies langfristig sogar einen Wettbewerbsvorteil bedeuten.\n\nStudien zeigen jedoch, dass ein respektvoller Dialog zwischen den Generationen entscheidend ist, damit Vorurteile abgebaut werden können. Nur wenn beide Seiten bereit sind, voneinander zu lernen, kann aus dem vermeintlichen Konflikt eine produktive Zusammenarbeit entstehen.",
+    "preguntas": [
+      {
+        "enunciado": "Ältere und jüngere Arbeitnehmer haben oft unterschiedliche Erwartungen an die Arbeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jüngere Beschäftigte wünschen sich meist weniger Flexibilität.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Homeoffice und flexible Arbeitszeiten sind inzwischen weit verbreitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt laut Text keinerlei Spannungen zwischen den Generationen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein respektvoller Dialog zwischen den Generationen wird als wichtig beschrieben.",
+        "respuesta": true
+      }
+    ]
   }
 ]
