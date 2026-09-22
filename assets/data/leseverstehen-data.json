@@ -26222,5 +26222,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-katze-mimi",
+    "nivel": "A1",
+    "titulo": "Meine Katze Mimi",
+    "descripcion": "Lisa erzählt von ihrer Katze Mimi und ihrem Tag.",
+    "texto": "Lisa hat eine Katze. Die Katze heißt Mimi. Mimi ist schwarz und weiß. Sie ist drei Jahre alt. Mimi schläft sehr viel. Am Morgen isst sie Futter aus einer Schüssel. Danach spielt sie mit einem Ball.\n\nLisa liebt ihre Katze sehr. Jeden Tag streichelt sie Mimi. Mimi mag das sehr. Am Nachmittag sitzt Mimi gern am Fenster. Sie schaut die Vögel im Garten an. Manchmal miaut sie laut.\n\nAm Abend liegt Mimi auf dem Sofa. Lisa liest ein Buch. Mimi schläft neben ihr ein. Das ist ihr Lieblingsplatz. Lisa findet ihre Katze sehr lieb.",
+    "preguntas": [
+      {
+        "enunciado": "Mimi ist eine Katze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist zehn Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi isst ihr Futter aus einer Schüssel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi sitzt am Nachmittag gern am Fenster.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend spielt Mimi im Garten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-flohmarkt-im-park",
+    "nivel": "A1",
+    "titulo": "Der Flohmarkt im Park",
+    "descripcion": "Tom und Nina verkaufen alte Sachen auf einem Flohmarkt.",
+    "texto": "Am Samstag ist ein Flohmarkt im Park. Tom und Nina haben einen Tisch. Sie verkaufen alte Bücher und Spielzeug. Auch ein paar Tassen liegen auf dem Tisch. Viele Leute kommen und schauen die Sachen an.\n\nEine Frau kauft ein rotes Buch für zwei Euro. Ein Kind mag einen kleinen Roboter. Der Roboter kostet fünf Euro. Nina gibt dem Kind auch eine Tüte dazu. Tom freut sich über die Kunden. Die Sonne scheint, und viele Familien sind im Park.\n\nAm Ende des Tages haben Tom und Nina viel Geld verdient. Sie kaufen sich ein Eis. Danach räumen sie den Tisch auf. Der Flohmarkt war ein toller Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Der Flohmarkt ist am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom und Nina verkaufen neue Autos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Frau kauft ein rotes Buch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Roboter kostet zehn Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom und Nina kaufen sich am Ende ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-neues-zimmer",
+    "nivel": "A1",
+    "titulo": "Mein neues Zimmer",
+    "descripcion": "Paul beschreibt sein neues Zimmer in der neuen Wohnung.",
+    "texto": "Paul wohnt jetzt in einer neuen Wohnung. Er hat ein neues Zimmer. Das Zimmer ist groß und hell. An der Wand steht ein Bett. Neben dem Bett gibt es einen Schreibtisch. Auf dem Schreibtisch liegen Bücher und Stifte.\n\nDas Zimmer hat auch ein großes Fenster. Von dort sieht Paul einen Baum im Garten. An der anderen Wand hängt ein Poster von seiner Lieblingsband. Paul hat auch einen Schrank für seine Kleider. Der Schrank ist blau.\n\nAm Abend liegt Paul auf seinem Bett und hört Musik. Er ist froh über sein neues Zimmer. Bald kommen seine Freunde zu Besuch. Sie wollen das neue Zimmer sehen.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Zimmer ist klein und dunkel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Neben dem Bett steht ein Schreibtisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul sieht einen Baum aus dem Fenster.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schrank ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend hört Paul Musik.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-nachbar-mit-dem-hund",
+    "nivel": "A2",
+    "titulo": "Der Nachbar mit dem Hund",
+    "descripcion": "Julia lernt ihren neuen Nachbarn und seinen Hund kennen.",
+    "texto": "Julia ist letzte Woche in eine neue Wohnung gezogen. Am ersten Tag hat sie ihren Nachbarn Herrn Weber getroffen. Er hat einen großen braunen Hund, der Bruno heißt. Julia hatte ein bisschen Angst, weil der Hund so groß war. Herr Weber hat gelacht und gesagt, dass Bruno sehr freundlich ist.\n\nAm nächsten Tag ist Julia im Treppenhaus wieder auf Bruno getroffen. Diesmal hat sie den Hund vorsichtig gestreichelt. Bruno hat sich gefreut und mit dem Schwanz gewedelt. Seitdem gehen Julia und Herr Weber manchmal zusammen mit Bruno spazieren, wenn das Wetter schön ist. Julia hat gemerkt, dass sie keine Angst mehr vor Hunden hat.\n\nLetzten Sonntag hat Julia sogar auf Bruno aufgepasst, weil Herr Weber verreist war. Sie hat ihm Futter gegeben und ist mit ihm im Park gelaufen. Julia hat sich sehr gefreut, dass sie so einen netten Nachbarn gefunden hat.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist letzte Woche umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hatte am Anfang Angst vor dem Hund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia und Herr Weber gehen nie zusammen spazieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat am Sonntag auf Bruno aufgepasst.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-dem-ausland",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus dem Ausland",
+    "descripcion": "Sophie bekommt einen Brief von ihrer Freundin aus Australien.",
+    "texto": "Sophie hat gestern einen Brief bekommen. Der Brief kam aus Australien, weil ihre Freundin Emma dort seit drei Monaten lebt. Emma hat geschrieben, dass sie eine neue Arbeit in Sydney gefunden hat. Sie hat auch erzählt, dass das Wetter dort im Moment sehr warm ist, obwohl in Deutschland Winter ist.\n\nIn dem Brief hat Emma auch Fotos vom Strand geschickt. Sophie hat sich sehr gefreut, als sie die Bilder gesehen hat. Emma hat geschrieben, dass sie Sophie sehr vermisst und dass sie sie bald besuchen möchte. Sophie hat sofort geantwortet und ihrer Freundin von ihrem Alltag in Deutschland erzählt.\n\nSophie hat sich vorgenommen, Emma im nächsten Sommer in Australien zu besuchen, wenn sie genug Geld gespart hat. Sie hat schon angefangen, für die Reise zu sparen. Beide Freundinnen freuen sich sehr auf das Wiedersehen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Brief kam aus Australien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma lebt schon seit zehn Jahren in Sydney.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Deutschland ist im Moment Winter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma hat keine Fotos geschickt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie möchte Emma nächsten Sommer besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wochenendreise-ans-meer",
+    "nivel": "A2",
+    "titulo": "Die Wochenendreise ans Meer",
+    "descripcion": "Familie Klein fährt am Wochenende an die Ostsee.",
+    "texto": "Familie Klein ist am Freitagabend an die Ostsee gefahren. Sie haben ein kleines Hotel in der Nähe des Strandes gebucht. Die Kinder haben sich sehr gefreut, weil sie schon lange nicht mehr am Meer waren. Am Samstagmorgen sind sie früh aufgestanden und direkt zum Strand gegangen.\n\nAm Strand haben die Kinder eine große Sandburg gebaut, während die Eltern spazieren gegangen sind. Später hat die Familie zusammen im Meer gebadet, obwohl das Wasser noch etwas kalt war. Am Abend haben sie in einem Fischrestaurant gegessen und frischen Fisch probiert.\n\nAm Sonntag sind sie noch einmal zum Strand gegangen, bevor sie zurück nach Hause gefahren sind. Die Kinder haben Muscheln gesammelt, damit sie sich an das Wochenende erinnern können. Die ganze Familie war sich einig, dass es ein wunderschönes Wochenende war.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Klein ist an die Ostsee gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben keine Sandburg gebaut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wasser im Meer war sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend haben sie in einem Fischrestaurant gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben Muscheln gesammelt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schulausflug-ins-museum",
+    "nivel": "B1",
+    "titulo": "Der Schulausflug ins Museum",
+    "descripcion": "Eine Klasse besucht ein naturhistorisches Museum und erlebt einen spannenden Tag.",
+    "texto": "Am Dienstag hat die Klasse 9b einen Ausflug ins naturhistorische Museum gemacht. Obwohl viele Schüler morgens noch müde waren, war die Stimmung im Bus schnell fröhlich. Nachdem sie im Museum angekommen waren, teilte die Lehrerin die Klasse in kleine Gruppen ein, damit jede Gruppe die Ausstellung in ihrem eigenen Tempo erkunden konnte.\n\nBesonders beeindruckt waren die Schüler von der Dinosaurier-Ausstellung, in der ein riesiges Skelett stand. Ein Museumsführer erklärte, wie die Forscher solche Knochen finden und zusammensetzen. Einige Schüler stellten viele Fragen, weil sie das Thema faszinierend fanden, während andere lieber die interaktiven Bildschirme ausprobierten.\n\nTrotz des vollen Programms hatten die Schüler am Ende noch Zeit für den Museumsshop, wo einige kleine Souvenirs kauften. Nachdem sie den ganzen Tag durch die Ausstellungen gelaufen waren, waren alle ziemlich erschöpft, aber zufrieden mit dem Ausflug. Auf der Rückfahrt im Bus schlief sogar die halbe Klasse ein.",
+    "preguntas": [
+      {
+        "enunciado": "Der Ausflug fand am Dienstag statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse hat ein Kunstmuseum besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler waren von der Dinosaurier-Ausstellung beeindruckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand durfte im Museumsshop etwas kaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf der Rückfahrt waren viele Schüler müde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-erste-praktikum",
+    "nivel": "B1",
+    "titulo": "Das erste Praktikum",
+    "descripcion": "Jonas macht sein erstes Praktikum in einer Werbeagentur und lernt viel Neues.",
+    "texto": "Jonas hat vor zwei Wochen sein erstes Praktikum in einer Werbeagentur begonnen. Am ersten Tag war er sehr nervös, obwohl seine Kollegen ihn freundlich empfangen haben. Nachdem er sich an seinem Schreibtisch eingerichtet hatte, bekam er von seiner Chefin gleich seine erste kleine Aufgabe.\n\nIn den ersten Tagen musste Jonas hauptsächlich zuschauen und Notizen machen, weil er die Arbeitsabläufe der Agentur noch nicht kannte. Trotzdem durfte er schon bald bei einem echten Projekt mitarbeiten. Er sollte Ideen für die Werbung eines neuen Getränks sammeln. Obwohl seine erste Idee von seinem Team nicht sofort akzeptiert wurde, gab er nicht auf und arbeitete sie weiter aus.\n\nAm Ende der zweiten Woche präsentierte Jonas seine überarbeitete Idee vor dem ganzen Team. Nachdem alle applaudiert hatten, wusste Jonas, dass er auf dem richtigen Weg war. Er hat gemerkt, dass ihm die Arbeit in der Werbebranche wirklich Spaß macht, und überlegt jetzt, später genau in diesem Bereich zu arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas macht sein Praktikum in einer Werbeagentur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am ersten Tag war Jonas völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas durfte von Anfang an alleine Projekte leiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat eine Idee für die Werbung eines Getränks entwickelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat entschieden, dass ihm die Werbebranche gefällt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wg-erfahrung",
+    "nivel": "B1",
+    "titulo": "Die WG-Erfahrung",
+    "descripcion": "Katrin zieht in eine Wohngemeinschaft und muss sich an das Leben mit Mitbewohnern gewöhnen.",
+    "texto": "Nachdem Katrin ihr Studium begonnen hatte, ist sie in eine Wohngemeinschaft mit drei anderen Studenten gezogen. Am Anfang war es ungewohnt, sich eine Küche und ein Bad zu teilen, obwohl sie sich schon vorher auf das WG-Leben gefreut hatte. In den ersten Wochen musste sich Katrin daran gewöhnen, dass die Küche nicht immer aufgeräumt war, wenn sie nach Hause kam.\n\nTrotzdem hat sich Katrin schnell mit ihren Mitbewohnern verstanden. Sie haben gemeinsam einen Putzplan erstellt, damit jeder für bestimmte Aufgaben verantwortlich ist. Nachdem der Plan eingeführt wurde, gab es deutlich weniger Streit über die Hausarbeit. Am Wochenende kochen die Mitbewohner oft zusammen und laden manchmal Freunde zum Essen ein.\n\nHeute, ein Jahr später, kann sich Katrin ein Leben ohne ihre WG kaum noch vorstellen. Obwohl es am Anfang schwierig war, ist sie sehr dankbar, dass sie diese Erfahrung gemacht hat. Sie hat nicht nur gelernt, Kompromisse zu schließen, sondern auch enge Freundschaften geschlossen.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin wohnt allein in einer kleinen Wohnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang musste sich Katrin an das Leben in der WG gewöhnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mitbewohner haben nie einen Putzplan gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Einführung des Putzplans gab es weniger Streit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin hat in der WG enge Freundschaften geschlossen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-des-wohnens",
+    "nivel": "B2",
+    "titulo": "Die Zukunft des Wohnens",
+    "descripcion": "Ein Essay über mögliche Lösungen für die Wohnungsknappheit in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten hat sich die Wohnungsknappheit in den letzten Jahren erheblich verschärft. Immer mehr Menschen ziehen in urbane Zentren, während der Wohnungsbau mit dieser Entwicklung nicht Schritt halten kann. Die Folge sind stetig steigende Mieten, die vor allem für Menschen mit geringem Einkommen kaum noch zu bezahlen sind. Experten, die sich seit Jahren mit dieser Problematik beschäftigen, warnen davor, dass sich die soziale Spaltung in den Städten weiter vertiefen könnte, wenn keine wirksamen Maßnahmen ergriffen werden.\n\nAls mögliche Lösung wird häufig der genossenschaftliche Wohnungsbau genannt, bei dem Wohnraum nicht gewinnorientiert, sondern gemeinschaftlich verwaltet wird. Wäre es möglich, mehr solcher Projekte zu fördern, könnten dadurch langfristig bezahlbare Mietpreise gesichert werden. Auch eine strengere Mietpreisbremse wird diskutiert, obwohl Kritiker einwenden, dass eine solche Regelung Investitionen in neuen Wohnraum eher verhindern würde, statt sie zu fördern.\n\nEinige Städte experimentieren bereits mit alternativen Wohnformen, etwa mit modularen Häusern, die schnell gebaut werden können, oder mit der Umwandlung leerstehender Bürogebäude in Wohnraum. Sollten diese Ansätze sich als erfolgreich erweisen, könnten sie als Vorbild für andere Regionen dienen. Letztlich wird jedoch betont, dass die Wohnungsfrage nur gelöst werden kann, wenn Politik, Wirtschaft und Zivilgesellschaft gemeinsam an tragfähigen Konzepten arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Wohnungsknappheit in deutschen Großstädten hat sich in den letzten Jahren verschärft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wohnungsbau kann mit dem Zuzug in die Städte gut Schritt halten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Genossenschaftlicher Wohnungsbau wird als mögliche Lösung genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind sich einig, dass die Mietpreisbremse nur Vorteile hätte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Städte wandeln leerstehende Bürogebäude in Wohnraum um.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-klimawandel-und-die-landwirtschaft",
+    "nivel": "B2",
+    "titulo": "Der Klimawandel und die Landwirtschaft",
+    "descripcion": "Wie sich veränderte Klimabedingungen auf die deutsche Landwirtschaft auswirken und welche Anpassungen nötig sind.",
+    "texto": "Die zunehmende Zahl an Hitzeperioden und die immer unregelmäßiger auftretenden Niederschläge stellen die deutsche Landwirtschaft vor erhebliche Herausforderungen. Landwirte, deren Existenz seit Generationen von verlässlichen Wetterbedingungen abhängt, berichten zunehmend von Ernteausfällen, die durch lange Trockenperioden verursacht werden. Gleichzeitig führen plötzliche Starkregenereignisse dazu, dass Felder überflutet werden und Böden erodieren.\n\nUm diesen Entwicklungen zu begegnen, wird zunehmend auf klimaresistentere Pflanzensorten gesetzt, die auch unter widrigen Bedingungen zuverlässige Erträge liefern sollen. Würden mehr Landwirte auf solche Sorten umsteigen, könnten die wirtschaftlichen Risiken deutlich verringert werden. Zudem wird diskutiert, ob eine Umstellung auf Bewässerungssysteme, die Wasser effizienter nutzen, langfristig sinnvoll wäre, obwohl die Anschaffungskosten für viele kleinere Betriebe kaum zu stemmen sind.\n\nKritiker bemängeln, dass die bisherige Agrarpolitik zu wenig auf diese Herausforderungen eingehe. Es wird gefordert, dass Fördermittel gezielter eingesetzt werden sollten, damit besonders kleine und mittelständische Betriebe bei der notwendigen Umstellung unterstützt werden können. Nur durch ein Zusammenspiel von Forschung, Politik und den Landwirten selbst könne die Landwirtschaft, wie viele Experten betonen, langfristig an die neuen klimatischen Bedingungen angepasst werden.",
+    "preguntas": [
+      {
+        "enunciado": "Der Klimawandel stellt die deutsche Landwirtschaft vor große Herausforderungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Trockenperioden führen laut Text zu höheren Ernteerträgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Klimaresistentere Pflanzensorten könnten die wirtschaftlichen Risiken verringern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bewässerungssysteme sind für alle kleineren Betriebe problemlos finanzierbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker fordern eine gezieltere Verteilung der Fördermittel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-macht-der-sozialen-medien",
+    "nivel": "B2",
+    "titulo": "Die Macht der sozialen Medien",
+    "descripcion": "Eine kritische Betrachtung des Einflusses sozialer Netzwerke auf die öffentliche Meinungsbildung.",
+    "texto": "Soziale Netzwerke haben die Art, wie Informationen verbreitet und Meinungen gebildet werden, grundlegend verändert. Nachrichten, die früher ausschließlich von etablierten Redaktionen geprüft und veröffentlicht wurden, können heute innerhalb von Sekunden von jedem Nutzer geteilt werden, ohne dass eine inhaltliche Kontrolle stattfindet. Diese Entwicklung wird von Medienwissenschaftlern zunehmend kritisch beobachtet, da sich Falschinformationen dadurch besonders schnell verbreiten können.\n\nBesonders problematisch sei, so wird argumentiert, dass Algorithmen bevorzugt Inhalte anzeigen, die starke Emotionen auslösen, weil solche Beiträge häufiger geklickt und geteilt werden. Dadurch entstehe eine sogenannte Filterblase, in der Nutzer vor allem mit Meinungen konfrontiert werden, die ihre eigene Weltsicht bestätigen. Wäre es möglich, die Algorithmen transparenter zu gestalten, könnte dies laut Experten dazu beitragen, dass Nutzer ein ausgewogeneres Bild der Realität erhalten.\n\nGleichzeitig wird betont, dass soziale Medien auch positive gesellschaftliche Funktionen erfüllen können, etwa indem sie marginalisierten Gruppen eine Stimme verleihen oder politische Bewegungen unterstützen, die sonst kaum Beachtung fänden. Es bleibt daher eine zentrale Aufgabe der Medienbildung, Nutzer dazu zu befähigen, Quellen kritisch zu hinterfragen, damit die Vorteile sozialer Netzwerke genutzt werden können, ohne dass ihre Risiken die öffentliche Debatte dominieren.",
+    "preguntas": [
+      {
+        "enunciado": "Inhalte in sozialen Netzwerken werden laut Text immer von Redaktionen geprüft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen bevorzugen oft Inhalte, die starke Emotionen auslösen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die sogenannte Filterblase sorgt dafür, dass Nutzer viele gegensätzliche Meinungen sehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Soziale Medien können auch marginalisierten Gruppen eine Stimme geben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienbildung soll Nutzer dazu befähigen, Quellen kritisch zu hinterfragen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
