@@ -25526,5 +25526,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-obstsalat",
+    "nivel": "A1",
+    "titulo": "Der Obstsalat",
+    "descripcion": "Lena macht mit ihrem kleinen Bruder einen Obstsalat.",
+    "texto": "Lena ist zehn Jahre alt. Heute macht sie mit ihrem kleinen Bruder Tom einen Obstsalat. Sie brauchen einen Apfel, eine Banane, eine Orange und ein paar Trauben. Tom wäscht das Obst im Waschbecken. Lena schneidet den Apfel und die Banane in kleine Stücke.\n\n„Pass auf, das Messer ist scharf!\", sagt Lena zu Tom. Tom lacht und gibt ihr die Trauben. Zusammen tun sie das Obst in eine große Schüssel. Zum Schluss gibt Lena etwas Zitronensaft über den Salat, damit die Bananen nicht braun werden.\n\nAm Nachmittag essen Lena, Tom und ihre Eltern den Obstsalat im Garten. Der Salat schmeckt süß und frisch. Tom möchte den Obstsalat jetzt jede Woche machen.",
+    "preguntas": [
+      {
+        "enunciado": "Lena macht den Obstsalat allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom wäscht das Obst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena benutzt kein Messer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie essen den Obstsalat im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom möchte nie wieder Obstsalat machen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-neue-wasserflasche",
+    "nivel": "A1",
+    "titulo": "Meine neue Wasserflasche",
+    "descripcion": "Paul erzählt von seiner neuen Wasserflasche für die Schule.",
+    "texto": "Ich heiße Paul und gehe in die dritte Klasse. Gestern habe ich eine neue Wasserflasche bekommen. Sie ist blau und hat einen Löwen darauf. Die Flasche ist nicht groß, aber sie ist praktisch für die Schule.\n\nJeden Morgen fülle ich die Flasche mit Wasser. Ich trinke oft Wasser, besonders in der Sportstunde. Meine Freundin Mia hat auch eine neue Flasche. Ihre Flasche ist rosa und hat Sterne. Wir vergleichen unsere Flaschen in der Pause und trinken zusammen.\n\nMeine Mutter sagt, Wasser trinken ist wichtig und gesund. Ich trinke jetzt mehr Wasser als früher und weniger Limonade.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Wasserflasche ist blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Flasche hat einen Fisch darauf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul trinkt in der Sportstunde Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Flasche ist auch blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul trinkt jetzt mehr Limonade als vorher.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-kuchen-fuer-oma",
+    "nivel": "A1",
+    "titulo": "Der Kuchen für Oma",
+    "descripcion": "Julia backt mit ihrem Vater einen Kuchen für den Geburtstag der Oma.",
+    "texto": "Morgen hat Oma Geburtstag. Julia und ihr Vater backen heute einen Kuchen für sie. Sie brauchen Mehl, Zucker, Eier und Butter. Julia mischt die Zutaten in einer großen Schüssel.\n\n„Der Kuchen muss eine Stunde im Ofen bleiben\", sagt Vater. Julia wartet in der Küche und riecht schon den süßen Duft. Nach einer Stunde ist der Kuchen fertig. Er ist braun und riecht sehr gut. Julia schreibt mit Zuckerguss „Alles Gute\" auf den Kuchen.\n\nAm nächsten Tag bringen Julia und ihr Vater den Kuchen zu Oma. Oma freut sich sehr und lacht. Die ganze Familie isst zusammen ein Stück Kuchen und trinkt Kaffee.",
+    "preguntas": [
+      {
+        "enunciado": "Julia backt den Kuchen allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kuchen ist für den Geburtstag von Oma.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen bleibt zwei Stunden im Ofen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia schreibt etwas mit Zuckerguss auf den Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma freut sich nicht über den Kuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-kaputte-fahrradreifen",
+    "nivel": "A2",
+    "titulo": "Der kaputte Fahrradreifen",
+    "descripcion": "Tobias bekommt auf dem Weg zur Arbeit einen platten Reifen.",
+    "texto": "Tobias ist heute Morgen mit dem Fahrrad zur Arbeit gefahren, weil das Wetter so schön war. Nach zehn Minuten hat er ein komisches Geräusch gehört und ist langsamer geworden. Als er angehalten hat, hat er gesehen, dass der Hinterreifen platt war.\n\nTobias hatte keine Zeit, das Rad selbst zu reparieren, weil er wichtige Termine hatte. Deshalb hat er das Fahrrad an einem Baum angeschlossen und ist zu Fuß zur nächsten Bushaltestelle gegangen. Der Bus ist zum Glück pünktlich gekommen, sodass Tobias trotzdem rechtzeitig im Büro war.\n\nAm Abend ist er mit seinem Kollegen Ben zurück zum Fahrrad gegangen. Ben hat ihm gezeigt, wie man einen neuen Schlauch einbaut. Es hat nur zwanzig Minuten gedauert, und danach konnte Tobias endlich nach Hause fahren.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias ist mit dem Auto zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vorderreifen von Tobias' Fahrrad war platt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hat das Fahrrad sofort selbst repariert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias ist mit dem Bus ins Büro gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hat Tobias am Abend geholfen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-bei-der-tante",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei der Tante",
+    "descripcion": "Sophie verbringt ein Wochenende auf dem Land bei ihrer Tante Rita.",
+    "texto": "Sophie hat letztes Wochenende ihre Tante Rita besucht, die auf einem Bauernhof auf dem Land wohnt. Sie ist am Freitagabend mit dem Zug gefahren, weil der Bahnhof ganz in der Nähe vom Hof liegt. Tante Rita hat sie schon mit einer Tasse warmem Tee erwartet.\n\nAm Samstag sind sie zusammen früh aufgestanden, um die Tiere zu füttern. Sophie hat noch nie Hühner gefüttert, deshalb war sie am Anfang etwas unsicher. Später hat sie mit ihrer Tante frisches Brot gebacken und ist mit den Hunden im Wald spazieren gegangen. Obwohl es geregnet hat, hat Sophie den Spaziergang sehr genossen.\n\nAm Sonntag musste Sophie leider schon wieder nach Hause fahren. Sie war ein bisschen traurig, weil sie sich auf dem Hof so wohl gefühlt hat. Tante Rita hat ihr versprochen, dass sie bald wiederkommen darf, vielleicht schon in den nächsten Ferien.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist mit dem Auto zu ihrer Tante gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Rita wohnt auf einem Bauernhof.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat schon oft Hühner gefüttert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Spaziergang im Wald ist wegen des Regens ausgefallen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie darf ihre Tante in den nächsten Ferien wieder besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verpasste-strassenbahn",
+    "nivel": "A2",
+    "titulo": "Die verpasste Straßenbahn",
+    "descripcion": "Markus verpasst die Straßenbahn und kommt zu spät zu einem wichtigen Termin.",
+    "texto": "Markus hatte gestern einen wichtigen Termin beim Arzt um neun Uhr. Er ist rechtzeitig aus dem Haus gegangen, aber an der Haltestelle ist ihm plötzlich eingefallen, dass er seinen Geldbeutel vergessen hatte. Er ist schnell zurück in die Wohnung gelaufen und hat den Geldbeutel geholt.\n\nAls er wieder an der Haltestelle angekommen ist, ist die Straßenbahn schon losgefahren. Weil die nächste Bahn erst in fünfzehn Minuten kam, wusste Markus, dass er zu spät kommen würde. Er hat seiner Ärztin schnell eine Nachricht geschrieben, um Bescheid zu geben.\n\nDie Ärztin hat geantwortet, dass es kein Problem sei und er einfach zum nächsten freien Termin kommen könne. Markus war erleichtert und hat sich vorgenommen, in Zukunft früher aus dem Haus zu gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte einen Termin beim Zahnarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat seinen Geldbeutel vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Straßenbahn hat auf Markus gewartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat der Ärztin eine Nachricht geschickt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Ärztin war böse auf Markus.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-sprachaustausch-mit-frankreich",
+    "nivel": "B1",
+    "titulo": "Der Sprachaustausch mit Frankreich",
+    "descripcion": "Eine Schulklasse nimmt an einem Austauschprogramm mit einer Partnerschule in Lyon teil.",
+    "texto": "Seit drei Jahren pflegt die Realschule in Freiburg eine Partnerschaft mit einer Schule in Lyon. Jedes Jahr im Frühling reist eine Gruppe von Schülerinnen und Schülern für zwei Wochen nach Frankreich, und im Herbst kommen die französischen Austauschschüler nach Deutschland. Nachdem die Schüler wochenlang Briefe und Nachrichten ausgetauscht hatten, freuten sich alle sehr auf das persönliche Treffen.\n\nFür die sechzehnjährige Hannah war es der erste Auslandsaufenthalt ohne ihre Eltern. Obwohl sie anfangs etwas nervös war, gewöhnte sie sich schnell an das Leben bei ihrer Gastfamilie. Sie besuchte gemeinsam mit ihrer Austauschpartnerin Camille den Unterricht, probierte typisch französisches Essen und verbesserte nebenbei ihr Französisch erheblich. Trotzdem vermisste sie manchmal die vertraute Umgebung zu Hause.\n\nAm Ende des Aufenthalts waren sich alle Beteiligten einig, dass der Austausch mehr gebracht hatte als jeder Sprachkurs. Die Schüler hatten nicht nur ihre Sprachkenntnisse verbessert, sondern auch neue Freundschaften geschlossen, die über die Grenzen hinweg bestehen bleiben sollten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Partnerschule liegt in Paris.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Herbst besuchen die französischen Schüler Deutschland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hannah war schon oft ohne ihre Eltern im Ausland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hannah hat während des Austauschs ihr Französisch verbessert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende fanden die Schüler, der Austausch habe wenig gebracht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-nachbarschaftsfest-im-hinterhof",
+    "nivel": "B1",
+    "titulo": "Das Nachbarschaftsfest im Hinterhof",
+    "descripcion": "Die Bewohner eines Mietshauses organisieren gemeinsam ein Fest im Hinterhof.",
+    "texto": "In dem alten Mietshaus in der Bergstraße kannten sich die Nachbarn lange Zeit kaum, obwohl viele schon seit Jahren dort wohnten. Das änderte sich, als Frau Kessler aus dem zweiten Stock die Idee hatte, ein Fest im Hinterhof zu organisieren. Sie hängte einen Zettel im Treppenhaus auf und bat alle Bewohner, etwas zum Essen mitzubringen.\n\nZu ihrer Überraschung meldeten sich fast alle Parteien im Haus. Nachdem die Termine abgestimmt worden waren, stellten die Nachbarn am Samstagnachmittag Tische und Stühle in den Hof. Es gab türkische Böreks, italienische Pasta und deutschen Kartoffelsalat. Die Kinder spielten zusammen im Hof, während die Erwachsenen sich unterhielten und einander endlich richtig kennenlernten.\n\nAm Ende des Abends waren sich alle einig, dass so ein Fest jedes Jahr stattfinden sollte. Herr Novak aus dem Erdgeschoss schlug sogar vor, eine kleine Nachbarschaftsgruppe zu gründen, um sich künftig gegenseitig zu helfen, etwa beim Blumengießen im Urlaub oder bei kleinen Reparaturen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Nachbarn kannten sich vorher schon alle gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Kessler hatte die Idee für das Fest.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur wenige Bewohner haben beim Fest mitgemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beim Fest gab es Essen aus verschiedenen Ländern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Novak wollte keine weiteren Treffen der Nachbarn.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-kollege-aus-japan",
+    "nivel": "B1",
+    "titulo": "Der neue Kollege aus Japan",
+    "descripcion": "Ein neuer Mitarbeiter aus Japan bringt frischen Wind in ein deutsches Büro.",
+    "texto": "Als Kenji vor zwei Monaten seine neue Stelle in einem Ingenieurbüro in Stuttgart antrat, war er der erste Kollege aus Japan in der Firma. Anfangs fiel es ihm schwer, sich an den direkten Kommunikationsstil seiner deutschen Kollegen zu gewöhnen, weil man in Japan meist zurückhaltender miteinander spricht. Nachdem er einige Wochen im Team gearbeitet hatte, fühlte er sich jedoch zunehmend wohler.\n\nSeine Kollegin Miriam bemerkte schnell, dass Kenji viele interessante Ideen mitbrachte, die im Team bisher nicht üblich waren. So führte er beispielsweise kurze, tägliche Besprechungen ein, in denen jeder kurz von seinen Aufgaben berichtete. Obwohl manche Kollegen anfangs skeptisch waren, stellte sich diese Methode bald als sehr hilfreich heraus.\n\nMittlerweile hat sich Kenji gut in das Team integriert und wird von allen geschätzt. Er organisiert regelmäßig ein gemeinsames Mittagessen, bei dem die Kollegen typisch japanische Gerichte probieren können. Dadurch ist nicht nur die Zusammenarbeit besser geworden, sondern auch das Verständnis füreinander gewachsen.",
+    "preguntas": [
+      {
+        "enunciado": "Kenji arbeitet seit zwei Jahren in der Firma.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kenji musste sich zuerst an den direkten Kommunikationsstil gewöhnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kenji hat die täglichen Besprechungen eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kollegen fanden die neue Methode sofort gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kenji organisiert kein gemeinsames Mittagessen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-glaeserne-mensch-datenschutz-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Der gläserne Mensch im digitalen Zeitalter",
+    "descripcion": "Ein Essay über die zunehmende Datensammlung und ihre Folgen für die Privatsphäre.",
+    "texto": "Kaum ein Tag vergeht, an dem nicht neue Daten über uns gesammelt werden: beim Einkaufen mit der Kundenkarte, beim Surfen im Internet oder beim Tragen einer Smartwatch, die den eigenen Herzschlag misst. Kritiker sprechen bereits vom „gläsernen Menschen\", dessen Verhalten, Vorlieben und sogar Gesundheitszustand von Unternehmen und Behörden lückenlos nachvollzogen werden können. Befürworter hingegen betonen, dass personalisierte Dienste erst durch diese Datensammlung möglich würden und den Alltag vieler Menschen erleichterten.\n\nBesonders brisant wird die Debatte, wenn es um sensible Bereiche wie Gesundheit oder politische Meinungen geht. Würden solche Informationen in falsche Hände geraten, könnten sie missbraucht werden, etwa um Menschen gezielt zu manipulieren oder zu diskriminieren. Manche Experten fordern daher strengere Gesetze, die Unternehmen dazu verpflichten würden, deutlich transparenter mit den gesammelten Daten umzugehen, als es bisher der Fall ist.\n\nGleichzeitig wird immer wieder betont, dass auch die Nutzer selbst Verantwortung tragen. Wer seine Daten bewusster preisgibt und Einstellungen zur Privatsphäre aktiv nutzt, könnte einen Teil seiner Kontrolle zurückgewinnen. Ob dies jedoch ausreicht, um dem wachsenden Datenhunger der digitalen Wirtschaft wirksam zu begegnen, bleibt bislang eine offene Frage, die Politik, Wirtschaft und Gesellschaft gemeinsam beantworten müssen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text behauptet, es würden heutzutage kaum Daten über Menschen gesammelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in der Datensammlung auch Vorteile für den Alltag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sensible Daten wie Gesundheitsinformationen gelten als besonders unproblematisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten fordern strengere Gesetze für mehr Transparenz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text tragen ausschließlich Unternehmen Verantwortung für den Datenschutz.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vereinbarkeit-von-familie-und-karriere",
+    "nivel": "B2",
+    "titulo": "Die Vereinbarkeit von Familie und Karriere",
+    "descripcion": "Eine Analyse darüber, wie berufstätige Eltern in Deutschland Familie und Beruf verbinden.",
+    "texto": "Die Frage, wie sich Familie und Karriere miteinander vereinbaren lassen, beschäftigt in Deutschland seit Jahren nicht nur einzelne Familien, sondern auch Politik und Wirtschaft. Während früher häufig ein Elternteil, meist die Mutter, für längere Zeit ganz auf eine Berufstätigkeit verzichtete, streben heute immer mehr Paare eine partnerschaftliche Aufteilung von Erwerbsarbeit und Familienaufgaben an. Diese Entwicklung wird durch gesetzliche Regelungen wie das Elterngeld unterstützt, das es beiden Elternteilen ermöglichen soll, sich zeitweise stärker um den Nachwuchs zu kümmern.\n\nDennoch zeigen Studien, dass die tatsächliche Umsetzung dieses Ideals in der Praxis oft an strukturellen Hürden scheitert. So fehlt es vielerorts an ausreichenden und flexiblen Betreuungsplätzen, sodass Eltern gezwungen sind, ihre Arbeitszeiten stark einzuschränken. Hinzu kommt, dass in vielen Unternehmen Vollzeitstellen nach wie vor als Voraussetzung für Führungspositionen gelten, wodurch Teilzeitbeschäftigte, die überwiegend Frauen sind, in ihrer beruflichen Entwicklung benachteiligt werden.\n\nUm diesem Dilemma zu begegnen, würden flexiblere Arbeitszeitmodelle, ein flächendeckender Ausbau der Kinderbetreuung sowie ein Umdenken in den Unternehmenskulturen erforderlich sein. Nur wenn Väter und Mütter gleichermaßen die Möglichkeit hätten, Beruf und Familie zu verbinden, ließe sich die angestrebte Gleichberechtigung tatsächlich verwirklichen, anstatt lediglich auf dem Papier zu bestehen.",
+    "preguntas": [
+      {
+        "enunciado": "Früher hat meist ein Elternteil längere Zeit auf Erwerbsarbeit verzichtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Elterngeld soll beide Elternteile bei der Kinderbetreuung unterstützen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text gibt es überall ausreichend flexible Betreuungsplätze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Teilzeitbeschäftigte werden im Text als beruflich benachteiligt beschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht die Gleichberechtigung bereits vollständig verwirklicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "stille-als-luxus-in-einer-lauten-gesellschaft",
+    "nivel": "B2",
+    "titulo": "Stille als Luxus in einer lauten Gesellschaft",
+    "descripcion": "Ein Nachdenken darüber, warum Ruhe und Stille in der modernen Gesellschaft immer seltener werden.",
+    "texto": "In einer Welt, in der ständig Benachrichtigungen aufleuchten, Verkehr rauscht und Bildschirme flimmern, wird Stille zunehmend zu einem knappen Gut. Wissenschaftler weisen darauf hin, dass permanente akustische und digitale Reize nicht nur die Konzentrationsfähigkeit beeinträchtigen, sondern auch das allgemeine Stressniveau erhöhen können. Wer sich bewusst Momente der Ruhe gönnt, so heißt es, fördere nicht nur die eigene Gesundheit, sondern auch die Kreativität.\n\nInteressanterweise wird Stille inzwischen regelrecht vermarktet: Schweigeretreats, Wellnesshotels ohne WLAN und spezielle Ruheabteile in Zügen erfreuen sich wachsender Beliebtheit, obwohl sie oft kostspielig sind. Kritiker merken an, dass ausgerechnet jene, die im Alltag am stärksten dem Lärm und der digitalen Reizüberflutung ausgesetzt sind, sich diesen kostbaren Luxus am wenigsten leisten könnten. Stille drohe somit zu einem Privileg zu werden, das nicht allen gleichermaßen zugänglich sei.\n\nAngesichts dieser Entwicklung stellt sich die Frage, ob Ruhe nicht eigentlich als öffentliches Gut betrachtet werden sollte, das allen zusteht, unabhängig von Einkommen oder Wohnort. Städteplaner und Architekten fordern deshalb zunehmend, ruhige Rückzugsorte in öffentlichen Räumen wie Parks und Bibliotheken zu schaffen, damit nicht nur wohlhabende Menschen von den positiven Wirkungen der Stille profitieren.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text behauptet, Stille sei heute leicht und für alle verfügbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wissenschaftler bringen ständigen Lärm mit erhöhtem Stress in Verbindung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Schweigeretreats und Ruheabteile werden im Text als unbeliebt beschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen die Gefahr, dass Stille zu einem Privileg wird.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert mehr ruhige Orte in öffentlichen Räumen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
