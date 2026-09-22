@@ -26918,5 +26918,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-zimmer-aufraeumen",
+    "nivel": "A1",
+    "titulo": "Ich räume mein Zimmer auf",
+    "descripcion": "Ein Kind räumt am Samstag sein Zimmer auf.",
+    "texto": "Heute ist Samstag. Ich räume mein Zimmer auf. Meine Bücher liegen auf dem Boden. Ich stelle sie ins Regal. Meine Kleidung liegt auf dem Bett. Ich lege sie in den Schrank.\n\nMeine Mutter hilft mir. Sie wischt den Tisch. Ich sauge den Boden. Das Zimmer ist jetzt sauber. Es riecht frisch und schön.\n\nAm Ende sind wir müde. Wir trinken Tee in der Küche. Mein Zimmer ist ordentlich. Ich bin sehr zufrieden.",
+    "preguntas": [
+      {
+        "enunciado": "Das Kind räumt am Samstag auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bücher liegen im Regal.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter hilft beim Aufräumen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Zimmer bleibt schmutzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie trinken am Ende Tee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-busfahrt-zur-schule",
+    "nivel": "A1",
+    "titulo": "Die Busfahrt zur Schule",
+    "descripcion": "Ein Junge fährt jeden Morgen mit dem Bus zur Schule.",
+    "texto": "Jeden Morgen fahre ich mit dem Bus zur Schule. Der Bus kommt um sieben Uhr. Ich warte an der Haltestelle. Meine Freundin Lisa wartet auch dort.\n\nIm Bus sitzen wir zusammen. Wir sprechen über die Hausaufgaben. Der Bus ist oft voll. Manchmal stehe ich.\n\nDie Fahrt dauert zwanzig Minuten. Dann kommen wir an der Schule an. Wir gehen schnell ins Klassenzimmer. Der Unterricht beginnt um acht Uhr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bus kommt um sieben Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa wartet nicht an der Haltestelle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt dauert zwanzig Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Unterricht beginnt um neun Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sprechen im Bus über die Hausaufgaben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-regentag",
+    "nivel": "A1",
+    "titulo": "Der Regentag",
+    "descripcion": "An einem regnerischen Tag bleibt eine Familie zu Hause.",
+    "texto": "Heute regnet es viel. Wir bleiben zu Hause. Mein Bruder spielt mit den Bauklötzen. Ich male ein Bild.\n\nMeine Mutter macht warmen Kakao. Wir sitzen alle am Tisch. Der Kakao schmeckt sehr gut. Draußen ist es kalt und grau.\n\nAm Nachmittag hört der Regen auf. Die Sonne kommt heraus. Wir gehen kurz in den Garten. Alles ist noch nass.",
+    "preguntas": [
+      {
+        "enunciado": "Es regnet heute viel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bruder liest ein Buch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter macht Kakao.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Sonne kommt am Morgen heraus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag gehen sie in den Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-picknick-im-garten",
+    "nivel": "A2",
+    "titulo": "Das Picknick im Garten",
+    "descripcion": "Eine Familie hat ein Picknick im Garten geplant, aber es kommt anders.",
+    "texto": "Am Sonntag haben wir ein Picknick im Garten geplant, weil das Wetter so schön war. Meine Mutter hat Brötchen geschmiert, und mein Vater hat den Grill vorbereitet. Wir haben eine Decke auf den Rasen gelegt.\n\nPlötzlich ist der Himmel dunkel geworden. Es hat angefangen zu regnen, genau als wir das Essen ausgepackt haben. Wir haben schnell alles ins Haus getragen und in der Küche weitergegessen.\n\nObwohl das Picknick nicht so verlaufen ist wie geplant, haben wir viel gelacht. Mein Vater hat gesagt, dass ein Picknick in der Küche auch schön sein kann. Am Ende war es trotzdem ein toller Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie wollte im Garten picknicken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter ist den ganzen Tag sonnig geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat während des Auspackens angefangen zu regnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben das Essen weggeworfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende war es trotzdem ein schöner Tag.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-rucksack",
+    "nivel": "A2",
+    "titulo": "Der verlorene Rucksack",
+    "descripcion": "Ein Schüler verliert seinen Rucksack auf dem Heimweg und findet ihn wieder.",
+    "texto": "Gestern habe ich meinen Rucksack verloren, als ich von der Schule nach Hause gegangen bin. Ich habe ihn wahrscheinlich im Bus liegen lassen, weil ich mit meinem Freund telefoniert habe. Zu Hause habe ich gemerkt, dass etwas fehlt.\n\nMeine Eltern waren besorgt, weil meine Hausaufgaben im Rucksack waren. Wir haben beim Busunternehmen angerufen und gefragt, ob jemand einen Rucksack gefunden hat. Der Mann am Telefon hat gesagt, dass wir am nächsten Tag vorbeikommen sollen.\n\nAm nächsten Morgen sind wir zum Fundbüro gefahren. Der Rucksack war tatsächlich dort, und nichts hat gefehlt. Ich war sehr erleichtert und habe versprochen, in Zukunft besser aufzupassen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Schüler hat den Rucksack im Bus vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eltern waren nicht besorgt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben beim Busunternehmen angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Rucksack war für immer verschwunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende war nichts aus dem Rucksack verschwunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-buecherei-in-der-stadt",
+    "nivel": "A2",
+    "titulo": "Die Bücherei in der Stadt",
+    "descripcion": "Eine Frau entdeckt die neue Stadtbücherei und wird regelmäßige Besucherin.",
+    "texto": "Letzte Woche habe ich die neue Bücherei in der Stadt besucht, weil eine Kollegin sie mir empfohlen hat. Das Gebäude ist modern und hat viele große Fenster. Drinnen gibt es Tausende von Büchern und auch gemütliche Sessel zum Lesen.\n\nIch habe mir einen Bibliotheksausweis geholt und drei Bücher ausgeliehen. Die Bibliothekarin war sehr freundlich und hat mir gezeigt, wo die Romane stehen. Ich habe auch erfahren, dass es dort jeden Donnerstag eine Lesegruppe gibt.\n\nSeitdem gehe ich jede Woche in die Bücherei, weil ich die ruhige Atmosphäre liebe. Manchmal treffe ich dort auch Freunde. Die Bücherei ist für mich ein neuer Lieblingsort geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Eine Kollegin hat die Bücherei empfohlen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Gebäude ist alt und dunkel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Frau hat drei Bücher ausgeliehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt keine Lesegruppe in der Bücherei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bücherei ist ein neuer Lieblingsort für sie geworden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-vereinsausflug-ans-meer",
+    "nivel": "B1",
+    "titulo": "Der Vereinsausflug ans Meer",
+    "descripcion": "Ein Sportverein organisiert einen Ausflug ans Meer, der trotz Problemen gelingt.",
+    "texto": "Jedes Jahr organisiert unser Sportverein einen gemeinsamen Ausflug, und dieses Mal sollte es an die Nordsee gehen. Nachdem die Anmeldungen abgeschlossen waren, stellte sich heraus, dass der gebuchte Bus eine Panne hatte. Der Vereinsvorsitzende musste kurzfristig einen Ersatzbus organisieren.\n\nObwohl die Abfahrt sich um zwei Stunden verzögerte, blieb die Stimmung gut. Die Mitglieder haben gesungen und Karten gespielt, während sie warteten. Als der Bus endlich losfuhr, war die Vorfreude auf das Meer umso größer.\n\nAn der Küste angekommen, hat die Gruppe trotz des kühlen Windes gebadet und ein Lagerfeuer gemacht. Viele sagten hinterher, dass die verspätete Abfahrt die Erinnerung an den Tag sogar besonders gemacht habe. Der Vorstand plant bereits den nächsten Ausflug für das kommende Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Ausflug sollte an die Nordsee gehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bus hatte keine Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Abfahrt hat sich verzögert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mitglieder haben schlechte Laune gehabt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vorstand plant bereits einen neuen Ausflug.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-in-der-wohngemeinschaft",
+    "nivel": "B1",
+    "titulo": "Der Streit in der Wohngemeinschaft",
+    "descripcion": "Drei Mitbewohner lösen einen Konflikt über den Haushalt in ihrer WG.",
+    "texto": "Seit einigen Wochen gab es in unserer Wohngemeinschaft immer wieder Streit über den Haushalt. Obwohl wir einen Putzplan hatten, hielt sich nicht jeder daran. Besonders die Küche war oft ein Chaos, was zu ständigen Diskussionen führte.\n\nNachdem sich die Situation über Monate zugespitzt hatte, haben wir uns zu einem klärenden Gespräch getroffen. Jeder durfte sagen, was ihn störte, ohne unterbrochen zu werden. Dabei stellte sich heraus, dass zwei von uns beruflich sehr eingespannt waren und deshalb wenig Zeit für den Haushalt hatten.\n\nWir haben schließlich einen neuen Plan erstellt, der die Arbeitszeiten aller berücksichtigt. Trotzdem war es nicht einfach, alte Gewohnheiten zu ändern. Heute funktioniert das Zusammenleben aber deutlich besser als vorher.",
+    "preguntas": [
+      {
+        "enunciado": "Es gab Streit über den Haushalt in der WG.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle haben sich immer an den Putzplan gehalten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben ein klärendes Gespräch geführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand war beruflich eingespannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Zusammenleben funktioniert heute besser als vorher.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-medienpraktikum",
+    "nivel": "B1",
+    "titulo": "Das Medienpraktikum",
+    "descripcion": "Ein Student sammelt bei einem Praktikum in einer Zeitungsredaktion wichtige Erfahrungen.",
+    "texto": "Während der Semesterferien habe ich ein vierwöchiges Praktikum bei einer lokalen Zeitung gemacht. Nachdem ich mich beworben hatte, wurde ich zu einem Gespräch eingeladen und kurz darauf angenommen. Am ersten Tag war ich sehr aufgeregt, weil ich noch nie in einer Redaktion gearbeitet hatte.\n\nMeine Aufgaben bestanden darin, kleine Artikel zu recherchieren und Interviews zu begleiten. Obwohl die Arbeit manchmal stressig war, hat mir das Schreiben großen Spaß gemacht. Besonders spannend fand ich die tägliche Redaktionssitzung, bei der über die wichtigsten Themen diskutiert wurde.\n\nAm Ende des Praktikums durfte ich sogar einen eigenen kurzen Artikel veröffentlichen. Meine Kollegen haben mir viel Feedback gegeben und mich ermutigt, weiter zu schreiben. Dieses Praktikum hat meine Entscheidung bestärkt, später als Journalist zu arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Das Praktikum hat vier Wochen gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Student hatte schon vorher in einer Redaktion gearbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er hat Interviews begleitet und Artikel recherchiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er durfte keinen eigenen Artikel veröffentlichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Praktikum hat seine Berufswahl bestärkt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-elterngeldreform",
+    "nivel": "B2",
+    "titulo": "Die Elterngeldreform",
+    "descripcion": "Eine geplante Reform des Elterngeldes löst eine Debatte über Familie und Beruf aus.",
+    "texto": "Die geplante Reform des Elterngeldes hat in den vergangenen Wochen für erhebliche Diskussionen gesorgt. Während die Regierung argumentiert, dass die Neuregelung mehr Väter zur Teilnahme an der Kinderbetreuung motivieren würde, befürchten Kritiker, dass insbesondere Familien mit geringem Einkommen finanziell benachteiligt würden. Es wird vorgeschlagen, die Bezugsdauer für Paare zu kürzen, die das Elterngeld gleichzeitig beziehen.\n\nBefürworter der Reform verweisen darauf, dass in vielen europäischen Nachbarländern eine partnerschaftlichere Aufteilung der Elternzeit längst üblich sei. Wenn Väter stärker in die Verantwortung genommen würden, so das Argument, könnte dies langfristig auch die Karrierechancen von Müttern verbessern. Zudem wird betont, dass eine ausgewogenere Aufteilung der Betreuungszeit dem gesellschaftlichen Wandel entspreche.\n\nDennoch bleibt die Umsetzung umstritten. Familienverbände fordern, dass etwaige Einschnitte durch zusätzliche Unterstützungsangebote wie flexiblere Arbeitszeitmodelle ausgeglichen werden müssten. Sollte die Reform ohne begleitende Maßnahmen beschlossen werden, könnte sie nach Ansicht vieler Experten ihr eigentliches Ziel verfehlen und stattdessen zu neuen sozialen Spannungen führen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Reform soll mehr Väter zur Kinderbetreuung motivieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind mit der Reform vollkommen einverstanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In manchen Nachbarländern ist eine partnerschaftliche Elternzeit bereits üblich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Familienverbände lehnen jede zusätzliche Unterstützung ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ohne begleitende Maßnahmen könnte die Reform ihr Ziel verfehlen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "bildungsgerechtigkeit-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Bildungsgerechtigkeit in Deutschland",
+    "descripcion": "Studien zeigen, dass der Bildungserfolg in Deutschland stark von der sozialen Herkunft abhängt.",
+    "texto": "Seit Jahren wird in Deutschland über die mangelnde Bildungsgerechtigkeit diskutiert. Zahlreiche Studien belegen, dass der schulische Erfolg von Kindern nach wie vor stark von der sozialen Herkunft ihrer Familien abhängt. Kinder aus bildungsfernen Haushalten haben demnach deutlich geringere Chancen, ein Gymnasium zu besuchen oder ein Studium aufzunehmen, selbst wenn ihre Leistungen vergleichbar sind.\n\nAls Ursache wird häufig das dreigliedrige Schulsystem genannt, das Schüler bereits im Alter von zehn Jahren auf unterschiedliche Bildungswege verteilt. Kritiker argumentieren, dass diese frühe Selektion bestehende Ungleichheiten eher verstärke, als sie auszugleichen. Wäre die Aufteilung später, könnten mehr Kinder ihr tatsächliches Potenzial entfalten, so die Annahme vieler Bildungsforscher.\n\nAls mögliche Lösung werden gebundene Ganztagsschulen vorgeschlagen, in denen Hausaufgaben und individuelle Förderung in den Schulalltag integriert würden. Auf diese Weise sollten Nachteile, die durch die häusliche Situation entstehen, zumindest teilweise ausgeglichen werden. Ob eine solche Reform allerdings ausreichend finanziert und flächendeckend umgesetzt werden könnte, bleibt bislang offen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bildungserfolg hängt laut Studien von der sozialen Herkunft ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kinder haben unabhängig von ihrer Herkunft dieselben Chancen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das dreigliedrige Schulsystem selektiert Schüler bereits früh.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ganztagsschulen werden als mögliche Lösung ausgeschlossen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Finanzierung einer solchen Reform ist noch ungeklärt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-lokalen-medien",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der lokalen Medien",
+    "descripcion": "Regionale Zeitungen kämpfen ums Überleben, während digitale Alternativen an Bedeutung gewinnen.",
+    "texto": "Immer mehr lokale Zeitungen in Deutschland stehen vor der Frage, ob sie ihren Betrieb angesichts sinkender Abonnentenzahlen aufrechterhalten können. Während früher fast jeder Haushalt eine regionale Tageszeitung abonnierte, informieren sich jüngere Generationen zunehmend über soziale Netzwerke und Online-Portale. Diese Entwicklung stellt insbesondere kleinere Verlage vor erhebliche wirtschaftliche Herausforderungen.\n\nManche Experten befürchten, dass mit dem Verschwinden lokaler Redaktionen auch die kritische Berichterstattung über kommunale Politik verloren gehen könnte. Wenn niemand mehr Gemeinderatssitzungen oder Gerichtsverhandlungen vor Ort beobachte, würde wichtiges Wissen über das lokale Geschehen verschwinden, so die Sorge. Es entstünden dadurch sogenannte Nachrichtenwüsten, in denen kaum noch unabhängige Informationen verfügbar seien.\n\nAls Gegenmaßnahme setzen einige Verlage auf digitale Bezahlmodelle und gemeinnützige Finanzierungsformen. Auch staatliche Förderprogramme werden diskutiert, um den Fortbestand des Lokaljournalismus zu sichern. Ob diese Maßnahmen ausreichen würden, um die Vielfalt der lokalen Medienlandschaft langfristig zu erhalten, wird von Fachleuten unterschiedlich bewertet.",
+    "preguntas": [
+      {
+        "enunciado": "Die Abonnentenzahlen lokaler Zeitungen sinken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jüngere Generationen informieren sich hauptsächlich über gedruckte Zeitungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten befürchten das Entstehen von Nachrichtenwüsten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es werden keinerlei Gegenmaßnahmen diskutiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fachleute bewerten die Wirksamkeit der Maßnahmen unterschiedlich.",
+        "respuesta": true
+      }
+    ]
   }
 ]
