@@ -25178,5 +25178,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "unsere-familie-am-sonntag",
+    "nivel": "A1",
+    "titulo": "Unsere Familie am Sonntag",
+    "descripcion": "Eine Familie verbringt einen gemütlichen Sonntag zusammen.",
+    "texto": "Am Sonntag ist die ganze Familie zu Hause. Mama kocht ein großes Frühstück. Es gibt Brötchen, Marmelade und Kaffee. Papa liest die Zeitung am Tisch. Die Kinder, Lisa und Tom, essen Müsli mit Milch.\n\nNach dem Frühstück räumen alle zusammen auf. Dann gehen sie in den Garten. Die Sonne scheint, und der Himmel ist blau. Lisa spielt mit dem Ball. Tom hilft Papa im Garten. Sie pflanzen Blumen und gießen die Pflanzen.\n\nAm Nachmittag besucht die Oma die Familie. Sie bringt einen Kuchen mit. Alle trinken Kaffee und essen Kuchen zusammen. Am Abend ist die Familie müde, aber glücklich. Sie freuen sich schon auf den nächsten Sonntag.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie isst am Sonntag zusammen Frühstück.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Papa kocht das Frühstück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder heißen Lisa und Tom.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag kommt der Opa zu Besuch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie ist am Abend traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-in-den-park",
+    "nivel": "A1",
+    "titulo": "Der Ausflug in den Park",
+    "descripcion": "Familie Meyer macht ein Picknick im Park.",
+    "texto": "Heute ist Samstag, und die Familie Meyer macht einen Ausflug in den Park. Die Sonne scheint, und es ist warm. Frau Meyer packt eine Tasche mit Brot, Käse und Äpfeln. Herr Meyer nimmt den Fußball mit.\n\nIm Park gibt es viele Bäume und eine große Wiese. Die Kinder, Paul und Mia, laufen sofort zur Wiese und spielen Fußball. Frau Meyer breitet eine Decke unter einem Baum aus. Herr Meyer liest ein Buch und trinkt Wasser.\n\nUm zwölf Uhr essen alle zusammen das Picknick. Das Brot schmeckt sehr gut. Nach dem Essen füttern die Kinder die Enten am See. Am Nachmittag fahren sie mit dem Fahrrad nach Hause. Der Ausflug war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Meyer geht am Samstag in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es regnet den ganzen Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und Mia spielen Fußball auf der Wiese.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Meyer schwimmt im See.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie füttert die Enten nach dem Essen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-katze-und-ich",
+    "nivel": "A1",
+    "titulo": "Meine Katze und ich",
+    "descripcion": "Sophie erzählt von ihrer Katze Mimi.",
+    "texto": "Ich heiße Sophie und ich habe eine Katze. Meine Katze heißt Mimi. Mimi ist klein und schwarz-weiß. Sie schläft sehr viel, fast zwölf Stunden am Tag. Am liebsten schläft sie auf meinem Bett.\n\nJeden Morgen füttere ich Mimi. Sie mag Fisch und Milch sehr gern. Nach dem Essen spielt Mimi mit einem Ball. Sie läuft schnell durch die Wohnung. Manchmal klettert sie auf den Schrank.\n\nAm Abend sitze ich mit Mimi auf dem Sofa. Ich lese ein Buch, und Mimi schläft neben mir. Ich liebe meine Katze sehr. Sie ist meine beste Freundin.",
+    "preguntas": [
+      {
+        "enunciado": "Sophies Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist braun und weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi schläft nur zwei Stunden am Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi mag Fisch und Milch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie liest am Abend ein Buch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "brief-an-die-beste-freundin",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die beste Freundin",
+    "descripcion": "Anna schreibt ihrer Freundin Julia von einem Ausflug ans Meer.",
+    "texto": "Liebe Julia,\n\nich habe dir lange nicht geschrieben, weil ich sehr beschäftigt war. Letzte Woche bin ich mit meiner Familie ans Meer gefahren. Wir haben ein kleines Hotel in der Nähe des Strandes gefunden. Das Wetter war leider nicht immer schön, aber wir haben trotzdem viel Spaß gehabt.\n\nAm ersten Tag sind wir lange am Strand spazieren gegangen. Meine kleine Schwester hat Muscheln gesammelt, und mein Vater hat versucht zu angeln, aber er hat nichts gefangen. Wir haben alle sehr gelacht, weil ein Fisch seine Angel kaputt gemacht hat. Abends haben wir in einem Restaurant frischen Fisch gegessen.\n\nIch vermisse dich sehr und möchte dir bald von unserem Ausflug erzählen. Vielleicht können wir uns nächste Woche treffen, wenn du Zeit hast? Ich freue mich schon darauf, dich wiederzusehen.\n\nViele Grüße,\nAnna",
+    "preguntas": [
+      {
+        "enunciado": "Anna ist mit ihrer Familie ans Meer gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war die ganze Zeit sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Annas Vater hat einen großen Fisch gefangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Annas Schwester hat Muscheln gesammelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna möchte Julia nächste Woche treffen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fahrradtour-am-wochenende",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour am Wochenende",
+    "descripcion": "Ben und Tim machen eine Fahrradtour an den Fluss.",
+    "texto": "Am letzten Samstag sind Ben und sein Freund Tim mit dem Fahrrad an den Fluss gefahren. Sie sind früh morgens gestartet, weil sie das schöne Wetter nutzen wollten. Die Tour war ungefähr dreißig Kilometer lang und führte durch einen Wald und mehrere kleine Dörfer.\n\nNach zwei Stunden haben sie eine Pause gemacht, weil Tim Hunger hatte. Sie haben sich an einen See gesetzt und die Brote gegessen, die Bens Mutter vorbereitet hatte. Plötzlich hat es angefangen zu regnen, und die beiden mussten sich unter einem Baum verstecken. Zum Glück hat der Regen nach zehn Minuten wieder aufgehört.\n\nAm Nachmittag sind sie müde, aber zufrieden nach Hause gekommen. Ben hat seiner Mutter erzählt, dass die Tour anstrengend, aber sehr schön war. Tim hat gesagt, dass er nächstes Wochenende wieder mitkommen möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Ben und Tim sind mit dem Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrradtour war ungefähr dreißig Kilometer lang.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat während der Tour nicht geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden haben am See eine Pause gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim möchte nächstes Wochenende wieder Fahrrad fahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-beim-nachbarn",
+    "nivel": "A2",
+    "titulo": "Ein Besuch beim Nachbarn",
+    "descripcion": "Herr Wagner besucht seine Nachbarn zum Kaffee.",
+    "texto": "Herr Wagner wohnt seit zwei Jahren neben Familie Schulz. Letzten Dienstag hat es an der Tür geklingelt, und Herr Wagner stand mit einem Kuchen vor der Tür. Er hatte Geburtstag und wollte seinen Nachbarn eine Freude machen.\n\nFrau Schulz hat sich sehr gefreut, weil sie Herrn Wagner noch nicht gut kannte. Sie hat ihn zum Kaffee eingeladen, und sie haben lange über das Leben in der Straße gesprochen. Herr Wagner hat erzählt, dass er früher als Lehrer gearbeitet hat und jetzt seinen Ruhestand genießt.\n\nAm Ende des Besuchs hat Frau Schulz vorgeschlagen, dass die Nachbarn ein kleines Straßenfest organisieren. Herr Wagner fand die Idee toll und hat sofort zugesagt zu helfen. Seitdem treffen sich die Nachbarn öfter und kennen sich viel besser.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Wagner hat Geburtstag und bringt einen Kuchen mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Schulz kannte Herrn Wagner schon sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Wagner hat früher als Arzt gearbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Schulz schlägt ein Straßenfest vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn treffen sich seitdem seltener.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-kollegin",
+    "nivel": "B1",
+    "titulo": "Die neue Kollegin",
+    "descripcion": "Sarah beginnt einen neuen Job und lernt ihre Kollegin Nina kennen.",
+    "texto": "Seit letztem Monat arbeitet Sarah in einer neuen Firma. Am ersten Tag war sie sehr nervös, obwohl sie schon viele Jahre Berufserfahrung hatte. Nachdem sie ihren Schreibtisch gefunden hatte, stellte sich ihr Chef vor und zeigte ihr die wichtigsten Räume im Büro.\n\nIn der ersten Woche fiel es Sarah schwer, sich an die neuen Kollegen zu gewöhnen, weil jeder sein eigenes Tempo und seine eigenen Gewohnheiten hatte. Trotzdem versuchte sie, offen und freundlich zu sein. Besonders ihre Kollegin Nina half ihr oft, wenn sie Fragen zu den Computerprogrammen hatte. Die beiden verstanden sich von Anfang an gut, obwohl sie sehr unterschiedliche Persönlichkeiten hatten.\n\nNach ein paar Wochen fühlte sich Sarah endlich richtig integriert. Sie wurde sogar zu einem gemeinsamen Abendessen mit dem Team eingeladen. Obwohl der Anfang schwierig gewesen war, war Sarah nun froh, dass sie den Job angenommen hatte. Sie merkte, dass sich Geduld und Offenheit am Ende immer auszahlen.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah hatte vor ihrem neuen Job keine Berufserfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat Sarah oft bei Computerfragen geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah und Nina haben sehr ähnliche Persönlichkeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah wurde zu einem Teamessen eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah bereut es am Ende, den Job angenommen zu haben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-austauschschueler-aus-spanien",
+    "nivel": "B1",
+    "titulo": "Der Austauschschüler aus Spanien",
+    "descripcion": "Diego verbringt ein Austauschjahr in Bayern und lernt sich einzugewöhnen.",
+    "texto": "Diego ist sechzehn Jahre alt und kommt für ein halbes Jahr als Austauschschüler nach Deutschland. Er wohnt bei einer Gastfamilie in einer kleinen Stadt in Bayern. Obwohl er vorher schon drei Jahre Deutsch in der Schule gelernt hatte, fiel es ihm am Anfang schwer, alles zu verstehen, weil die Leute in Bayern einen besonderen Dialekt sprechen.\n\nNachdem Diego einige Wochen in der neuen Schule war, gewöhnte er sich langsam an den Alltag. Er fand schnell Freunde, die ihm halfen, die Sprache besser zu lernen. Am meisten überraschte ihn, dass die Schule in Deutschland anders organisiert ist als in Spanien. Der Unterricht beginnt früher, und die Schüler wechseln ständig die Klassenräume.\n\nTrotz anfänglicher Schwierigkeiten fühlte sich Diego nach einigen Monaten wie zu Hause. Seine Gastfamilie zeigte ihm die schönsten Orte der Region, und er nahm sogar an einem Fußballverein teil. Als sein Austauschjahr zu Ende ging, war Diego traurig, weil er seine neuen Freunde und die Gastfamilie sehr vermissen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Diego bleibt für ein ganzes Jahr in Deutschland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Diego hatte vor seiner Ankunft noch nie Deutsch gelernt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler in Deutschland wechseln oft die Klassenräume.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Diego spielt in Deutschland in einem Fußballverein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Diego freut sich, dass sein Austauschjahr endet.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wanderwochenende-in-den-alpen",
+    "nivel": "B1",
+    "titulo": "Ein Wanderwochenende in den Alpen",
+    "descripcion": "Lukas und Emma wandern trotz schlechter Wettervorhersage in den Alpen.",
+    "texto": "Letztes Wochenende sind Lukas und seine Schwester Emma in die Alpen gefahren, um zu wandern. Nachdem sie früh am Morgen losgefahren waren, erreichten sie den Ausgangspunkt der Wanderung gegen neun Uhr. Obwohl der Wetterbericht Regen vorhergesagt hatte, entschieden sie sich, die Tour trotzdem zu beginnen.\n\nDer Weg führte zunächst durch einen dichten Wald und wurde später steiler und felsiger. Emma hatte anfangs Schwierigkeiten mit dem Tempo, aber Lukas ermutigte sie immer wieder. Nach etwa drei Stunden erreichten sie eine Berghütte, in der sie eine warme Suppe aßen und sich ausruhten. Von dort aus hatten sie einen atemberaubenden Blick auf das Tal.\n\nAuf dem Rückweg begann es tatsächlich zu regnen, sodass beide völlig durchnässt am Auto ankamen. Trotzdem waren sie sich einig, dass es ein unvergesslicher Tag gewesen war. Sie beschlossen, im nächsten Jahr eine noch längere Wanderung zu planen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wetterbericht hatte gutes Wetter vorhergesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma hatte am Anfang Schwierigkeiten mit dem Tempo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie erreichen nach drei Stunden eine Berghütte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf dem Rückweg bleibt es trocken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas und Emma möchten im nächsten Jahr eine längere Wanderung machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-in-der-diskussion",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche in der Diskussion",
+    "descripcion": "Die Chancen und Risiken der Vier-Tage-Woche werden gesellschaftlich diskutiert.",
+    "texto": "In den letzten Jahren wird die Vier-Tage-Woche in Deutschland zunehmend diskutiert. Befürworter argumentieren, dass die Produktivität der Angestellten steigen würde, wenn die Arbeitszeit reduziert und gleichzeitig das Gehalt beibehalten würde. Studien aus mehreren europäischen Ländern haben gezeigt, dass Mitarbeitende, die weniger Stunden arbeiten, oft konzentrierter und motivierter sind.\n\nKritiker hingegen befürchten, dass ein solches Modell nicht in allen Branchen umgesetzt werden könnte. Besonders im Gesundheitswesen und im Handwerk, wo Personal ohnehin knapp ist, wäre eine Verkürzung der Arbeitszeit kaum realisierbar, ohne dass zusätzliches Personal eingestellt werden müsste. Zudem wird häufig argumentiert, dass kleinere Unternehmen finanziell stärker belastet würden als große Konzerne, die es sich eher leisten könnten, in neue Arbeitsmodelle zu investieren.\n\nMehrere Pilotprojekte, die in den vergangenen Jahren durchgeführt wurden, lieferten jedoch überwiegend positive Ergebnisse. In vielen der teilnehmenden Unternehmen wurde berichtet, dass sowohl die Zufriedenheit als auch die Effizienz der Belegschaft gestiegen sei. Dennoch bleibt offen, ob sich dieses Modell langfristig auf die gesamte Wirtschaft übertragen ließe, ohne dass strukturelle Nachteile entstünden.\n\nOb die Vier-Tage-Woche sich in Deutschland durchsetzen wird, hängt letztlich davon ab, wie flexibel Unternehmen und Politik auf die veränderten Erwartungen der Arbeitnehmer reagieren. Klar ist jedoch, dass die Debatte über neue Arbeitszeitmodelle in den kommenden Jahren weiter an Bedeutung gewinnen dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Vier-Tage-Woche glauben, dass die Produktivität steigen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Branchen könnten die Vier-Tage-Woche laut den Kritikern problemlos einführen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen wird ein Personalmangel als Problem genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die durchgeführten Pilotprojekte lieferten überwiegend negative Ergebnisse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es ist noch unklar, ob sich das Modell langfristig auf die ganze Wirtschaft übertragen lässt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fast-fashion-und-ihre-folgen",
+    "nivel": "B2",
+    "titulo": "Fast Fashion und ihre Folgen",
+    "descripcion": "Ein Blick auf die ökologischen und sozialen Kosten der schnellen Modeindustrie.",
+    "texto": "Fast Fashion bezeichnet ein Geschäftsmodell, bei dem Kleidung in extrem kurzen Zyklen produziert und zu niedrigen Preisen verkauft wird. Während Verbraucher von den günstigen Preisen und der ständig wechselnden Auswahl profitieren, werden die ökologischen und sozialen Kosten dieses Systems oft verdrängt. Wenn die tatsächlichen Produktionskosten – einschließlich Umweltverschmutzung und Ausbeutung von Arbeiterinnen – berücksichtigt würden, wären viele der angebotenen Kleidungsstücke erheblich teurer.\n\nEin zentrales Problem ist der enorme Wasserverbrauch bei der Textilproduktion, insbesondere bei der Herstellung von Baumwolle. Zudem werden in vielen Fabriken in Asien Arbeiterinnen unter Bedingungen beschäftigt, die in Europa längst verboten wären. Obwohl zahlreiche Modeunternehmen inzwischen behaupten, nachhaltiger produzieren zu wollen, zeigen Untersuchungen, dass sich an den grundlegenden Produktionsstrukturen bislang kaum etwas geändert hat.\n\nIn den letzten Jahren ist jedoch ein wachsendes Bewusstsein für die Problematik entstanden. Immer mehr Konsumentinnen und Konsumenten setzen auf Secondhand-Kleidung oder achten beim Kauf auf Siegel, die faire Produktionsbedingungen garantieren sollen. Kritiker weisen jedoch darauf hin, dass individuelles Konsumverhalten allein nicht ausreiche, um das Problem zu lösen, solange keine strengeren gesetzlichen Regelungen eingeführt würden.\n\nSollte die Politik striktere Vorschriften für die Textilindustrie erlassen, könnte sich das Geschäftsmodell der Fast Fashion grundlegend verändern. Bis dahin bleibt es vor allem den Verbraucherinnen und Verbrauchern überlassen, durch ihr Kaufverhalten ein Zeichen zu setzen.",
+    "preguntas": [
+      {
+        "enunciado": "Fast Fashion bedeutet, dass Kleidung in langen Produktionszyklen hergestellt wird.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Textilproduktion verbraucht laut dem Text sehr viel Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Modeunternehmen haben ihre Produktionsstrukturen bereits grundlegend verändert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Immer mehr Menschen kaufen Secondhand-Kleidung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker meinen, individuelles Konsumverhalten allein reiche aus, um das Problem zu lösen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ki-im-bewerbungsprozess",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Bewerbungsprozess",
+    "descripcion": "Chancen und Risiken des Einsatzes von KI bei der Personalauswahl.",
+    "texto": "Immer mehr Unternehmen setzen künstliche Intelligenz ein, um Bewerbungsprozesse effizienter zu gestalten. Algorithmen sollen dabei helfen, aus einer großen Anzahl von Bewerbungen die geeignetsten Kandidatinnen und Kandidaten auszuwählen. Befürworter argumentieren, dass dadurch Zeit gespart und menschliche Vorurteile reduziert werden könnten, da die Software angeblich objektiver urteile als ein Mensch.\n\nAllerdings mehren sich kritische Stimmen, die darauf hinweisen, dass die verwendeten Algorithmen keineswegs neutral seien. Da sie mit historischen Daten trainiert werden, übernehmen sie häufig bestehende Vorurteile, etwa in Bezug auf Geschlecht oder Herkunft. Wäre ein Unternehmen in der Vergangenheit vorwiegend männliche Bewerber, könnte die KI unbewusst lernen, weibliche Bewerbungen schlechter zu bewerten, selbst wenn dies von den Entwicklern nicht beabsichtigt wurde.\n\nEin weiteres Problem besteht in der mangelnden Transparenz vieler Systeme. Bewerberinnen und Bewerber erfahren oft nicht, nach welchen Kriterien sie bewertet wurden, was es schwierig macht, eine mögliche Diskriminierung nachzuweisen. Datenschutzexperten fordern daher, dass Unternehmen verpflichtet werden sollten, die Funktionsweise ihrer Algorithmen offenzulegen, bevor diese im Bewerbungsprozess eingesetzt werden dürfen.\n\nTrotz dieser Bedenken wird erwartet, dass der Einsatz von KI im Personalwesen in den kommenden Jahren weiter zunehmen wird. Ob es gelingt, dabei sowohl Effizienz als auch Fairness zu gewährleisten, wird maßgeblich davon abhängen, wie streng die gesetzlichen Rahmenbedingungen gestaltet werden.",
+    "preguntas": [
+      {
+        "enunciado": "Künstliche Intelligenz wird eingesetzt, um Bewerbungsprozesse zu beschleunigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern sind die verwendeten Algorithmen vollkommen neutral.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Algorithmus kann bestehende Vorurteile aus den Trainingsdaten übernehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bewerberinnen und Bewerber erfahren laut Text meistens genau, nach welchen Kriterien sie bewertet werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wird erwartet, dass der Einsatz von KI im Personalwesen künftig abnehmen wird.",
+        "respuesta": false
+      }
+    ]
   }
 ]
