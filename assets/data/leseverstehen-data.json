@@ -26570,5 +26570,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-neues-fahrrad",
+    "nivel": "A1",
+    "titulo": "Mein neues Fahrrad",
+    "descripcion": "Tom bekommt ein neues Fahrrad und fährt damit zur Schule.",
+    "texto": "Tom ist zehn Jahre alt. Er bekommt ein neues Fahrrad zum Geburtstag. Das Fahrrad ist blau und hat einen großen Korb. Tom ist sehr glücklich.\n\nJeden Morgen fährt Tom mit dem Fahrrad zur Schule. Die Schule ist nicht weit. Die Fahrt dauert nur zehn Minuten. Tom trägt immer einen Helm. Der Helm ist wichtig für die Sicherheit.\n\nAm Wochenende fährt Tom mit seinem Vater im Park. Sie fahren zusammen um den See. Danach essen sie ein Eis. Tom liebt sein neues Fahrrad.",
+    "preguntas": [
+      {
+        "enunciado": "Tom ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt zur Schule dauert zehn Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom trägt keinen Helm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom fährt am Wochenende mit seinem Vater im Park.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-deutschstunde",
+    "nivel": "A1",
+    "titulo": "Die Deutschstunde",
+    "descripcion": "Anna lernt in der Deutschstunde neue Wörter.",
+    "texto": "Anna geht jeden Dienstag zur Deutschstunde. Der Unterricht beginnt um vier Uhr. Die Lehrerin heißt Frau Klein. Sie ist sehr freundlich.\n\nIn der Stunde lernen die Schüler neue Wörter. Heute lernen sie die Farben. Rot, blau, grün und gelb. Anna schreibt die Wörter in ihr Heft. Danach singen alle ein Lied auf Deutsch.\n\nNach der Stunde spricht Anna mit ihrer Freundin Lisa. Sie üben zusammen die neuen Wörter. Anna findet Deutsch nicht schwer. Sie lernt gern neue Sprachen.",
+    "preguntas": [
+      {
+        "enunciado": "Anna geht jeden Montag zur Deutschstunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin heißt Frau Klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler lernen heute die Zahlen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna schreibt die Wörter in ihr Heft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna findet Deutsch sehr schwer.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-schulranzen",
+    "nivel": "A1",
+    "titulo": "Mein Schulranzen",
+    "descripcion": "Max zeigt, was in seinem Schulranzen ist.",
+    "texto": "Max ist acht Jahre alt und geht in die zweite Klasse. Jeden Morgen packt er seinen Schulranzen. Der Ranzen ist grün und hat viele Taschen.\n\nIn dem Ranzen sind ein Buch, ein Heft und ein Federmäppchen. Im Federmäppchen sind Stifte, ein Lineal und ein Radiergummi. Max hat auch eine Trinkflasche und ein Pausenbrot dabei.\n\nAm Montag ist der Ranzen sehr schwer, weil Max viele Bücher braucht. Am Freitag ist er leichter. Max mag seinen Schulranzen. Er trägt ihn jeden Tag mit Freude zur Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Max ist acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schulranzen ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Federmäppchen sind Stifte und ein Lineal.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max hat kein Pausenbrot dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Freitag ist der Ranzen schwerer als am Montag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reparatur-des-fahrrads",
+    "nivel": "A2",
+    "titulo": "Die Reparatur des Fahrrads",
+    "descripcion": "Jonas hat einen Platten und bringt sein Fahrrad in die Werkstatt.",
+    "texto": "Jonas ist gestern mit dem Fahrrad zur Arbeit gefahren. Auf halbem Weg hat er gemerkt, dass der Reifen platt war. Er ist ausgestiegen und hat den Schaden angeschaut. Ein spitzer Nagel steckte im Reifen.\n\nWeil er den Reifen nicht selbst reparieren konnte, hat er das Fahrrad zur nächsten Werkstatt geschoben. Der Mechaniker hat sich das Rad angesehen und gesagt, dass die Reparatur eine halbe Stunde dauert. Jonas hat in einem Café gewartet und einen Kaffee getrunken.\n\nNach der Reparatur hat er das Fahrrad abgeholt und ist zufrieden nach Hause gefahren. Er hat sich vorgenommen, ab jetzt öfter die Reifen zu kontrollieren. Wenn er das nächste Mal einen Nagel sieht, will er sofort anhalten.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat einen platten Reifen gehabt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat den Reifen selbst repariert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Reparatur hat eine halbe Stunde gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist zu Fuß nach Hause gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas will die Reifen öfter kontrollieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-freibad",
+    "nivel": "A2",
+    "titulo": "Der Besuch im Freibad",
+    "descripcion": "Familie Berger verbringt einen heißen Tag im Freibad.",
+    "texto": "Am Samstag ist es sehr heiß gewesen, deshalb ist Familie Berger ins Freibad gefahren. Die Kinder haben sich sehr gefreut, weil sie schon lange nicht mehr schwimmen waren. Sie haben eine Picknickdecke, Obst und Getränke mitgenommen.\n\nIm Freibad haben die Kinder im Wasser gespielt und sind von der Rutsche gesprungen. Die Eltern haben sich in die Sonne gelegt und ein Buch gelesen. Am Nachmittag hat es plötzlich angefangen zu regnen, und alle sind schnell unter ein Dach gelaufen.\n\nWeil der Regen nicht aufgehört hat, ist die Familie früher als geplant nach Hause gefahren. Trotzdem haben alle gesagt, dass es ein schöner Tag war. Sie wollen bald wieder ins Freibad gehen, wenn das Wetter wieder gut ist.",
+    "preguntas": [
+      {
+        "enunciado": "Es war ein kalter Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder sind von der Rutsche gesprungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag hat es zu regnen angefangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie ist erst spät abends nach Hause gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle fanden den Tag schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-zum-flughafen",
+    "nivel": "A2",
+    "titulo": "Der Ausflug zum Flughafen",
+    "descripcion": "Eine Schulklasse besucht den Flughafen und beobachtet die Flugzeuge.",
+    "texto": "Letzte Woche ist die Klasse 6b mit dem Bus zum Flughafen gefahren. Die Schüler haben sich sehr gefreut, weil sie noch nie einen Flughafen von innen gesehen haben. Ein Mitarbeiter hat ihnen erklärt, wie die Koffer kontrolliert werden.\n\nDanach sind alle auf eine Aussichtsterrasse gegangen. Von dort haben sie gesehen, wie die Flugzeuge gestartet und gelandet sind. Ein Schüler hat gefragt, wie schwer ein großes Flugzeug ist. Der Mitarbeiter hat gelacht und gesagt, dass es mehrere hundert Tonnen wiegen kann.\n\nAm Ende des Ausflugs haben die Schüler noch ein Museum über die Geschichte der Luftfahrt besucht. Alle haben gesagt, dass der Ausflug sehr interessant war. Die Lehrerin hat versprochen, dass sie im nächsten Jahr wieder einen Ausflug machen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist mit dem Zug zum Flughafen gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler waren vorher noch nie in einem Flughafen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Von der Aussichtsterrasse haben sie die Flugzeuge gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Mitarbeiter wusste nicht, wie schwer ein Flugzeug ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende haben sie ein Museum besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-theaterauffuehrung-der-schule",
+    "nivel": "B1",
+    "titulo": "Die Theateraufführung der Schule",
+    "descripcion": "Die Theater-AG probt monatelang für die große Aufführung am Schuljahresende.",
+    "texto": "Seit September probte die Theater-AG der Gesamtschule für ihr großes Stück, das am letzten Schultag aufgeführt werden sollte. Obwohl viele Schüler nebenbei noch für Prüfungen lernen mussten, nahmen die meisten die Proben sehr ernst. Zweimal pro Woche trafen sie sich nach dem Unterricht in der Aula.\n\nNachdem die Bühnenbilder fertig gemalt und die Kostüme genäht waren, begannen die Generalproben. Dabei lief nicht alles perfekt: Ein Schüler vergaß seinen Text, und die Musik setzte einmal zu früh ein. Trotzdem blieb die Lehrerin, die die Gruppe leitete, zuversichtlich und ermutigte alle weiterzumachen.\n\nAm Abend der Aufführung war die Aula bis auf den letzten Platz gefüllt. Die Schüler spielten mit so viel Energie, dass das Publikum am Ende lange applaudierte. Für viele war es der stolzeste Moment ihrer Schulzeit, obwohl die Wochen davor anstrengend gewesen waren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Theater-AG probte seit September.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Proben fanden jeden Tag statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bei der Generalprobe lief alles fehlerfrei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Aula war am Abend der Aufführung fast leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Publikum applaudierte am Ende lange.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-vereinsfest-der-nachbarschaft",
+    "nivel": "B1",
+    "titulo": "Das Vereinsfest der Nachbarschaft",
+    "descripcion": "Ein Straßenfest bringt alte und neue Nachbarn zusammen.",
+    "texto": "Jedes Jahr im Juni organisiert der Nachbarschaftsverein ein Straßenfest, bei dem alle Anwohner eingeladen sind. Diesmal übernahm Familie Steiner, die erst vor einem Jahr in die Straße gezogen war, zum ersten Mal die Organisation. Sie hatten sich vorher etwas unsicher gefühlt, weil sie noch nicht alle Nachbarn kannten.\n\nNachdem die Einladungen verteilt worden waren, begannen die Vorbereitungen: Tische wurden aufgestellt, Grillrost und Lautsprecher organisiert. Obwohl es am Morgen des Festes geregnet hatte, klarte der Himmel am Nachmittag pünktlich auf. Viele Nachbarn brachten selbstgebackenen Kuchen oder Salate mit.\n\nAm Abend saßen alle zusammen, redeten und lachten, obwohl sich einige vorher kaum gegrüßt hatten. Für Familie Steiner war es ein guter Weg, die Nachbarschaft endlich richtig kennenzulernen. Trotzdem war sie danach froh, dass die Organisation vorbei war und sie sich ausruhen konnte.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Steiner wohnt schon seit zehn Jahren in der Straße.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Vor dem Fest hat es geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag blieb der Himmel weiterhin bedeckt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Nachbarn haben etwas zu essen mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Familie Steiner fand die Organisation überhaupt nicht anstrengend.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wettbewerb-der-schulband",
+    "nivel": "B1",
+    "titulo": "Der Wettbewerb der Schulband",
+    "descripcion": "Eine Schulband bereitet sich auf einen regionalen Musikwettbewerb vor.",
+    "texto": "Die Schulband des Goethe-Gymnasiums hatte sich für den regionalen Musikwettbewerb angemeldet, nachdem sie beim Schulfest im Frühling besonders gut angekommen war. Fünf Schüler übten seitdem jede Woche zwei Stunden im Musikraum, obwohl ihre Zeit wegen der bevorstehenden Klausuren eigentlich knapp war.\n\nDer Bandleader, ein Schüler aus der elften Klasse, schrieb sogar ein eigenes Lied für den Auftritt. Anfangs klang das Stück noch chaotisch, doch nachdem sie es wochenlang verfeinert hatten, klang es überraschend professionell. Der Musiklehrer half ihnen dabei, den richtigen Rhythmus zu finden.\n\nAm Tag des Wettbewerbs war die Band sehr nervös, trotzdem spielten sie ihr Lied ohne größere Fehler. Sie gewannen zwar nicht den ersten Platz, bekamen aber einen Sonderpreis für die beste eigene Komposition. Alle waren stolz, obwohl sie sich insgeheim mehr erhofft hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Band hat sich nach dem Schulfest für den Wettbewerb angemeldet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler übten nur einmal im Monat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bandleader hat ein eigenes Lied geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Wettbewerbstag spielte die Band mit vielen Fehlern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Band hat den ersten Platz gewonnen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "soziale-medien-und-die-wahrheit",
+    "nivel": "B2",
+    "titulo": "Soziale Medien und die Wahrheit",
+    "descripcion": "Ein Essay über die Rolle sozialer Medien bei der Verbreitung von Fehlinformationen.",
+    "texto": "In den vergangenen Jahren ist immer deutlicher geworden, dass soziale Medien nicht nur ein Ort des Austauschs, sondern zunehmend auch ein Nährboden für Falschinformationen sind. Algorithmen, die Inhalte nach Aufmerksamkeit statt nach Wahrheitsgehalt sortieren, begünstigen Beiträge, die Emotionen auslösen – unabhängig davon, ob sie korrekt sind. Kritiker argumentieren, dass dadurch ein verzerrtes Bild der Realität entsteht, das schwer zu korrigieren ist, sobald es sich einmal verbreitet hat.\n\nWürde man die Plattformen stärker regulieren, ließe sich die Verbreitung von Falschmeldungen vermutlich verlangsamen, doch zugleich wird befürchtet, dass eine zu strenge Kontrolle die Meinungsfreiheit einschränken könnte. Diese Abwägung zwischen Schutz und Freiheit wird von Politikern, Wissenschaftlern und Nutzern höchst unterschiedlich bewertet. Manche Plattformen haben bereits Faktencheck-Systeme eingeführt, bei denen fragwürdige Beiträge von unabhängigen Organisationen überprüft werden.\n\nDennoch bleibt fraglich, ob technische Lösungen allein ausreichen. Wenn Nutzer nicht lernten, Quellen kritisch zu hinterfragen, würden auch die besten Algorithmen wenig bewirken. Deshalb fordern viele Bildungsexperten, dass Medienkompetenz bereits in der Schule stärker vermittelt werden sollte, damit junge Menschen befähigt werden, Informationen selbstständig einzuordnen und nicht jeder Nachricht blind zu vertrauen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text sortieren Algorithmen Inhalte in erster Linie nach Wahrheitsgehalt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine stärkere Regulierung der Plattformen wird von allen gleich bewertet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Plattformen haben Faktencheck-Systeme eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht technische Lösungen allein als ausreichend an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern mehr Medienkompetenz in der Schule.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-der-stille-in-einer-lauten-welt",
+    "nivel": "B2",
+    "titulo": "Der Wert der Stille in einer lauten Welt",
+    "descripcion": "Eine Betrachtung darüber, warum Stille in der modernen Gesellschaft zur Seltenheit geworden ist.",
+    "texto": "Kaum ein Moment des Alltags bleibt heute noch unberührt von akustischen Reizen: Benachrichtigungstöne, Verkehrslärm und Hintergrundmusik in Geschäften begleiten die meisten Menschen von morgens bis abends. Wissenschaftler weisen darauf hin, dass permanente Geräuschkulissen das Nervensystem belasten und die Fähigkeit zur Konzentration beeinträchtigen können. Dennoch wird Stille in vielen Gesellschaften kaum noch aktiv gesucht, sondern eher als unangenehm empfunden.\n\nInteressanterweise zeigen Studien, dass Menschen, die regelmäßig Phasen der Stille erleben, häufig kreativer und ausgeglichener sind. Würden mehr Arbeitgeber ruhige Rückzugsräume anbieten, könnten Angestellte vermutlich produktiver arbeiten und seltener unter Stress leiden. Einige Unternehmen haben bereits sogenannte Ruheräume eingerichtet, in denen elektronische Geräte verboten sind.\n\nAuch im öffentlichen Raum gibt es erste Ansätze, der Lautstärke entgegenzuwirken: In manchen Städten werden stille Zonen ausgewiesen, in denen Verkehrslärm reduziert wird. Kritiker wenden jedoch ein, dass solche Maßnahmen nur oberflächlich wirken, solange sich die grundsätzliche Erwartung, ständig erreichbar zu sein, nicht ändert. Wäre die digitale Dauerpräsenz weniger selbstverständlich, ließe sich echte Stille vermutlich leichter wiederfinden.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text sind die meisten Menschen heute kaum von Geräuschen umgeben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wissenschaftler sehen keinen Zusammenhang zwischen Lärm und Konzentration.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen haben Ruheräume ohne elektronische Geräte eingerichtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In manchen Städten gibt es bereits stille Zonen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker halten stille Zonen für eine vollständige Lösung des Problems.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "nachhaltiger-konsum-zwischen-anspruch-und-wirklichkeit",
+    "nivel": "B2",
+    "titulo": "Nachhaltiger Konsum – zwischen Anspruch und Wirklichkeit",
+    "descripcion": "Eine Analyse der Kluft zwischen dem Wunsch nach Nachhaltigkeit und dem tatsächlichen Kaufverhalten.",
+    "texto": "Umfragen zeigen immer wieder, dass ein großer Teil der Verbraucher Nachhaltigkeit für wichtig hält und bereit wäre, umweltfreundlichere Produkte zu kaufen. Betrachtet man jedoch das tatsächliche Kaufverhalten, klafft zwischen Anspruch und Wirklichkeit häufig eine erhebliche Lücke. Viele Menschen greifen im Geschäft dennoch zum günstigeren, weniger nachhaltigen Produkt, obwohl sie sich zuvor anders geäußert hatten.\n\nErklärt wird dieses Phänomen unter anderem damit, dass nachhaltige Produkte oft teurer sind und nicht jeder Haushalt sich den Mehrpreis leisten kann oder will. Hinzu kommt, dass Informationen über die tatsächliche Umweltbilanz eines Produkts für Laien oft schwer zu durchschauen sind. Würden Hersteller verpflichtet, ökologische Kennzahlen einheitlich und verständlich anzugeben, könnten Verbraucher vermutlich fundiertere Entscheidungen treffen.\n\nManche Unternehmen versuchen bereits, diesem Problem mit sogenannten Nachhaltigkeitssiegeln zu begegnen, deren Aussagekraft allerdings uneinheitlich ist, da die Kriterien der Zertifizierungen stark variieren. Verbraucherschützer fordern daher strengere gesetzliche Vorgaben, damit Siegel nicht bloß als Marketinginstrument missbraucht werden. Ohne verbindliche Standards, so die Kritik, bleibe nachhaltiger Konsum letztlich eine Frage des individuellen Vertrauens statt gesicherter Fakten.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Umfragen halten die meisten Verbraucher Nachhaltigkeit für unwichtig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zwischen dem geäußerten Anspruch und dem tatsächlichen Kaufverhalten besteht oft eine Lücke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nachhaltige Produkte sind laut Text meist günstiger als konventionelle Produkte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kriterien der Nachhaltigkeitssiegel sind laut Text einheitlich geregelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Verbraucherschützer fordern strengere gesetzliche Vorgaben.",
+        "respuesta": true
+      }
+    ]
   }
 ]
