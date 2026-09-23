@@ -28658,5 +28658,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-fahrrad-ist-kaputt",
+    "nivel": "A1",
+    "titulo": "Mein Fahrrad ist kaputt",
+    "descripcion": "Paul erzählt, warum sein Fahrrad kaputt ist und wie er zur Arbeit kommt.",
+    "texto": "Paul fährt jeden Tag mit dem Fahrrad zur Arbeit. Heute ist das Fahrrad kaputt. Ein Reifen ist platt. Paul ist traurig, denn er mag das Fahrrad sehr.\n\nPaul nimmt heute den Bus. Der Bus fährt um acht Uhr. Paul steht an der Haltestelle und wartet. Eine Frau steht auch da. Sie heißt Julia und wohnt in seiner Straße. Sie sprechen kurz über das Wetter.\n\nAm Abend bringt Paul das Fahrrad zum Fahrradladen. Der Mann im Laden repariert den Reifen. Das kostet zehn Euro. Paul ist froh, denn morgen fährt er wieder mit dem Fahrrad.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Fahrrad hat einen platten Reifen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul fährt heute mit dem Auto zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia wohnt in Pauls Straße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Reparatur kostet zwanzig Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul bringt das Fahrrad zum Fahrradladen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-bus-zur-arbeit",
+    "nivel": "A1",
+    "titulo": "Im Bus zur Arbeit",
+    "descripcion": "Sara fährt jeden Morgen mit dem Bus zur Arbeit und beschreibt ihre Route.",
+    "texto": "Sara steht jeden Morgen um sechs Uhr auf. Sie trinkt einen Kaffee und isst ein Brötchen. Dann geht sie zur Bushaltestelle. Der Bus kommt um sieben Uhr.\n\nDer Bus ist oft voll. Sara sitzt oder steht, das ist unterschiedlich. Die Fahrt dauert zwanzig Minuten. Sara sieht aus dem Fenster und hört Musik. Sie mag diese ruhige Zeit am Morgen.\n\nUm halb acht kommt Sara im Büro an. Sie arbeitet in einer Bank. Ihre Kollegen sind nett. Nach der Arbeit fährt sie wieder mit dem Bus nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Sara steht um sechs Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sara fährt mit dem Auto zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Busfahrt dauert zwanzig Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sara arbeitet in einer Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sara hört im Bus oft Musik.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-drei-katzen",
+    "nivel": "A1",
+    "titulo": "Meine drei Katzen",
+    "descripcion": "Tom stellt seine drei Katzen vor und erzählt, was sie gern machen.",
+    "texto": "Tom hat drei Katzen. Sie heißen Mimi, Charlie und Luna. Mimi ist schwarz, Charlie ist weiß, und Luna ist grau. Die Katzen wohnen bei Tom in einer kleinen Wohnung.\n\nMimi schläft sehr viel. Charlie spielt gern mit einem Ball. Luna sitzt am liebsten am Fenster und schaut nach draußen. Jeden Morgen füttert Tom die Katzen um sieben Uhr.\n\nAm Abend sitzen alle drei Katzen auf dem Sofa neben Tom. Er liest ein Buch, und die Katzen schlafen. Tom liebt seine Katzen sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Tom hat drei Katzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Charlie ist schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Luna sitzt gern am Fenster.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom füttert die Katzen um neun Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend sitzen die Katzen auf dem Sofa.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-regenschirm-im-zug",
+    "nivel": "A2",
+    "titulo": "Der Regenschirm im Zug",
+    "descripcion": "Nina hat ihren Regenschirm im Zug vergessen und muss ihn wiederfinden.",
+    "texto": "Nina ist gestern mit dem Zug nach München gefahren. Es hat den ganzen Tag geregnet, deshalb hatte sie einen roten Regenschirm dabei. Als sie am Bahnhof ausgestiegen ist, hat sie den Schirm im Zug vergessen. Erst zu Hause hat sie bemerkt, dass er fehlte.\n\nNina hat sofort das Fundbüro angerufen, weil sie den Schirm sehr mochte. Die Frau am Telefon hat gesagt, dass sie am nächsten Tag vorbeikommen soll. Nina war nervös, denn sie wusste nicht, ob jemand den Schirm mitgenommen hatte.\n\nAm nächsten Morgen ist Nina zum Fundbüro gegangen. Der Mann dort hat tatsächlich einen roten Regenschirm gefunden. Nina hat sich sehr gefreut und dem Mann gedankt. Seitdem passt sie besser auf ihre Sachen auf, wenn sie mit dem Zug fährt.",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist mit dem Bus nach München gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat ihren Regenschirm im Zug vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat sofort im Zug bemerkt, dass der Schirm fehlt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fundbüro hat den Regenschirm gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina war nicht nervös, weil ihr der Schirm egal war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-nach-salzburg",
+    "nivel": "A2",
+    "titulo": "Die Reise nach Salzburg",
+    "descripcion": "Familie Berger erzählt von ihrem Wochenendausflug nach Salzburg.",
+    "texto": "Familie Berger ist am Freitag nach Salzburg gefahren, weil sie die Altstadt und die Berge sehen wollte. Sie sind mit dem Auto gefahren und haben ein kleines Hotel in der Nähe des Flusses gebucht. Die Kinder haben sich sehr gefreut, denn sie waren noch nie in Österreich gewesen.\n\nAm Samstag haben sie die Festung Hohensalzburg besucht. Von oben hatten sie einen tollen Blick über die Stadt. Danach sind sie durch die kleinen Gassen der Altstadt gelaufen und haben in einem Café Kuchen gegessen. Herr Berger hat viele Fotos gemacht, weil ihm die Architektur gut gefallen hat.\n\nAm Sonntag, bevor sie nach Hause gefahren sind, haben sie noch den Mirabellgarten besucht. Die Kinder haben dort im Gras gespielt, während die Eltern sich ausgeruht haben. Alle waren müde, aber glücklich, als sie am Abend wieder zu Hause ankamen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger ist mit dem Zug nach Salzburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder waren schon oft in Österreich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben die Festung Hohensalzburg besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger hat viele Fotos gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben den Mirabellgarten nicht besucht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-verpasste-zugverbindung",
+    "nivel": "A2",
+    "titulo": "Die verpasste Zugverbindung",
+    "descripcion": "Markus verpasst seinen Anschlusszug und muss seine Reisepläne ändern.",
+    "texto": "Markus ist am Freitagnachmittag von Köln nach Dresden gefahren, weil er dort seinen Bruder besuchen wollte. Der erste Zug hatte fünfzehn Minuten Verspätung, deshalb hat Markus seinen Anschlusszug in Leipzig verpasst. Er stand auf dem Bahnsteig und wusste zuerst nicht, was er tun sollte.\n\nEine Mitarbeiterin der Bahn hat ihm erklärt, dass der nächste Zug erst in zwei Stunden fährt. Markus war enttäuscht, aber er hat beschlossen, die Zeit sinnvoll zu nutzen. Er hat sich in ein Café am Bahnhof gesetzt und seinem Bruder geschrieben, dass er später ankommt. Sein Bruder hat verstanden, weil so etwas öfter passiert.\n\nAls der neue Zug endlich kam, hat Markus einen ruhigen Platz am Fenster gefunden. Er hat ein Buch gelesen und die Landschaft beobachtet. Am Abend ist er müde, aber zufrieden in Dresden angekommen. Sein Bruder hat ihn am Bahnhof abgeholt, und sie sind zusammen essen gegangen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist von Köln nach Dresden gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat seinen Anschlusszug in Leipzig verpasst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der nächste Zug ist sofort gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat im Café am Bahnhof gewartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sein Bruder war böse, weil Markus zu spät kam.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-studentenstadt",
+    "nivel": "B1",
+    "titulo": "Der Umzug in die Studentenstadt",
+    "descripcion": "Jasmin zieht für ihr Studium in eine neue Stadt und muss sich an vieles gewöhnen.",
+    "texto": "Jasmin hat gerade ihr Abitur gemacht und beginnt im Herbst ein Studium in Leipzig. Obwohl sie ihre Heimatstadt und ihre Familie sehr mag, hat sie sich entschieden, in eine eigene Wohnung zu ziehen. Der Umzug war anstrengend, denn sie musste viele Kisten packen und wichtige Entscheidungen treffen, welche Möbel sie mitnehmen wollte.\n\nIn den ersten Wochen fühlte sich Jasmin oft einsam, weil sie noch niemanden kannte. Trotzdem hat sie sich nicht entmutigen lassen und ist zu verschiedenen Veranstaltungen für Erstsemester gegangen. Dort hat sie schnell neue Kontakte geknüpft und sogar eine gute Freundin gefunden, mit der sie inzwischen fast jeden Tag zusammen lernt.\n\nNachdem sich Jasmin an den neuen Alltag gewöhnt hatte, begann sie, die Stadt richtig zu genießen. Sie entdeckte gemütliche Cafés, einen schönen Park in der Nähe ihrer Wohnung und einen Wochenmarkt, auf dem sie samstags frisches Gemüse kauft. Heute ist sie froh, dass sie den Mut hatte, diesen großen Schritt zu wagen.",
+    "preguntas": [
+      {
+        "enunciado": "Jasmin studiert in ihrer Heimatstadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Umzug war für Jasmin anstrengend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jasmin fühlte sich am Anfang manchmal einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jasmin hat keine neuen Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jasmin kauft samstags auf einem Wochenmarkt ein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ungewoehnliches-praktikum",
+    "nivel": "B1",
+    "titulo": "Ein ungewöhnliches Praktikum",
+    "descripcion": "Daniel macht ein Praktikum in einem Tierpark und lernt eine ganz neue Welt kennen.",
+    "texto": "Daniel wollte schon immer wissen, wie ein Tag hinter den Kulissen eines Tierparks aussieht. Deshalb hat er sich für ein sechswöchiges Praktikum beworben, obwohl seine Freunde eher ein Praktikum in einem Büro erwartet hatten. Am ersten Tag musste er sich um die Fütterung der Elefanten kümmern, was ihn zunächst etwas nervös machte.\n\nMit der Zeit hat Daniel gelernt, wie viel Verantwortung die Tierpfleger tragen. Er half bei der Reinigung der Gehege, beobachtete das Verhalten der Tiere und schrieb Berichte für die Biologen. Nachdem er einige Wochen dort gearbeitet hatte, durfte er sogar bei einer tierärztlichen Untersuchung dabei sein.\n\nObwohl die Arbeit manchmal anstrengend und schmutzig war, hat Daniel das Praktikum sehr genossen. Am Ende war er überzeugt, dass er später beruflich mit Tieren arbeiten möchte. Seine Freunde waren überrascht, wie sehr sich seine Pläne für die Zukunft verändert hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Daniel hat ein Praktikum in einem Büro gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag hat Daniel die Elefanten gefüttert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel durfte bei einer tierärztlichen Untersuchung dabei sein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel fand die Arbeit langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Praktikum möchte Daniel mit Tieren arbeiten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-ins-gebirge",
+    "nivel": "B1",
+    "titulo": "Der Ausflug ins Gebirge",
+    "descripcion": "Eine Gruppe von Freunden plant eine Wanderung, doch das Wetter macht ihnen einen Strich durch die Rechnung.",
+    "texto": "Lukas und seine Freunde hatten seit Wochen eine Wanderung in den Alpen geplant. Sie wollten früh morgens starten, um den Gipfel noch vor dem Mittag zu erreichen. Nachdem sie alle Ausrüstung gepackt hatten, machten sie sich bei strahlendem Sonnenschein auf den Weg.\n\nNach etwa zwei Stunden zogen plötzlich dunkle Wolken auf, obwohl der Wetterbericht für den ganzen Tag gutes Wetter vorhergesagt hatte. Es begann heftig zu regnen, und der Weg wurde rutschig. Die Gruppe musste entscheiden, ob sie weitergehen oder umkehren sollte. Trotzdem wollte niemand die Wanderung einfach so aufgeben.\n\nSchließlich entschieden sie sich, in einer kleinen Berghütte Schutz zu suchen, bis der Regen aufhörte. Dort trafen sie andere Wanderer und tauschten Geschichten aus. Als der Himmel sich wieder aufklarte, setzten sie ihre Tour fort und erreichten den Gipfel kurz vor Sonnenuntergang. Der Ausblick entschädigte sie für alle Mühen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Gruppe wollte früh morgens starten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wetterbericht hatte Regen vorhergesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe ist sofort umgekehrt, als es zu regnen begann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben in einer Berghütte Schutz gesucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben den Gipfel nicht erreicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-den-wohnungsmarkt",
+    "nivel": "B2",
+    "titulo": "Die Debatte um den Wohnungsmarkt",
+    "descripcion": "Ein Kommentar über die angespannte Lage auf dem Wohnungsmarkt in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten ist bezahlbarer Wohnraum längst zu einem knappen Gut geworden. Während die Mieten in Ballungsräumen wie München, Berlin oder Hamburg seit Jahren stetig steigen, wächst gleichzeitig die Zahl der Menschen, die auf der Suche nach einer bezahlbaren Wohnung sind. Kritiker bemängeln, dass zu wenig neuer Wohnraum geschaffen werde, obwohl die Nachfrage stetig zunimmt.\n\nBefürworter einer stärkeren Regulierung fordern, dass Mietpreisbremsen konsequenter durchgesetzt und mehr Sozialwohnungen gebaut werden müssten. Sie argumentieren, dass Wohnen ein Grundbedürfnis sei und nicht allein den Marktkräften überlassen werden dürfe. Gegner dieser Position wenden hingegen ein, dass zu strenge Regulierungen Investoren abschrecken und so den Bau neuer Wohnungen zusätzlich verlangsamen würden.\n\nWürde man beide Perspektiven ernst nehmen, ließe sich vermutlich ein Kompromiss finden, der sowohl den Bau neuer Wohnungen fördert als auch sozial schwächere Haushalte schützt. Ohne eine langfristige und durchdachte Strategie, die von Politik, Wirtschaft und Zivilgesellschaft gemeinsam getragen wird, dürfte sich die Lage auf dem Wohnungsmarkt jedoch kaum entspannen.",
+    "preguntas": [
+      {
+        "enunciado": "In deutschen Großstädten sinken die Mieten seit Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass zu wenig neuer Wohnraum entsteht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass Regulierung keine Nachteile hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter einer Regulierung fordern mehr Sozialwohnungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, beide Perspektiven zu kombinieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-an-schulen",
+    "nivel": "B2",
+    "titulo": "Digitalisierung an Schulen",
+    "descripcion": "Ein Artikel über Chancen und Herausforderungen der digitalen Bildung in deutschen Schulen.",
+    "texto": "Die Digitalisierung des Schulunterrichts wird in Deutschland seit Jahren diskutiert, doch die Umsetzung verläuft von Bundesland zu Bundesland sehr unterschiedlich. Während manche Schulen bereits mit Tablets, interaktiven Whiteboards und digitalen Lernplattformen arbeiten, kämpfen andere noch mit veralteter technischer Ausstattung und langsamem Internet. Diese Ungleichheit sorgt dafür, dass Schülerinnen und Schüler je nach Wohnort sehr unterschiedliche Voraussetzungen haben.\n\nBefürworter der Digitalisierung betonen, dass digitale Werkzeuge individuelles Lernen ermöglichen und Schülerinnen und Schüler besser auf eine zunehmend digitale Arbeitswelt vorbereiten würden. Zudem könnten Lehrkräfte mithilfe digitaler Plattformen den Lernfortschritt genauer verfolgen. Kritiker hingegen warnen davor, dass eine übermäßige Bildschirmzeit die Konzentrationsfähigkeit beeinträchtigen und soziale Kompetenzen vernachlässigt werden könnten, wenn der persönliche Austausch im Unterricht zu kurz kommt.\n\nExperten sind sich weitgehend einig, dass es nicht allein um die Anschaffung neuer Geräte gehen sollte. Vielmehr müssten Lehrkräfte umfassend fortgebildet werden, damit digitale Medien sinnvoll in den Unterricht integriert werden können. Andernfalls bestünde die Gefahr, dass teure Technik ungenutzt in den Klassenzimmern steht, ohne dass sich der Unterricht wirklich verbessert.",
+    "preguntas": [
+      {
+        "enunciado": "Die Digitalisierung läuft in allen Bundesländern gleich schnell ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen Vorteile für individuelles Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten negative Folgen für soziale Kompetenzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text reicht die Anschaffung neuer Geräte allein aus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fortbildungen für Lehrkräfte werden als wichtig angesehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-im-zeitalter-der-desinformation",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz im Zeitalter der Desinformation",
+    "descripcion": "Ein Essay darüber, warum kritisches Denken im Umgang mit Nachrichten heute wichtiger denn je ist.",
+    "texto": "Noch nie war es so einfach, Informationen zu verbreiten, wie im digitalen Zeitalter. Gleichzeitig ist es dadurch auch nie so leicht gewesen, Falschmeldungen und Gerüchte in Umlauf zu bringen. Soziale Netzwerke sorgen dafür, dass sich Nachrichten in Sekundenschnelle verbreiten können, ohne dass ihr Wahrheitsgehalt zuvor überprüft würde. Diese Entwicklung stellt Gesellschaften vor eine grundlegende Herausforderung: Wie lässt sich zwischen seriösen und unseriösen Quellen unterscheiden?\n\nManche Experten argumentieren, dass Medienkompetenz bereits in der Schule vermittelt werden sollte, damit junge Menschen lernen, Quellen kritisch zu hinterfragen und Informationen zu überprüfen, bevor sie sie weiterverbreiten. Wäre Medienbildung fest im Lehrplan verankert, könnten künftige Generationen besser zwischen fundierten Berichten und gezielter Manipulation unterscheiden. Andere weisen darauf hin, dass auch Erwachsene regelmäßig geschult werden müssten, da Desinformation längst nicht nur ein Problem der jüngeren Generation sei.\n\nLetztlich zeigt sich, dass technische Lösungen allein, wie automatisierte Faktenchecks, das Problem nicht vollständig lösen können. Erst wenn Menschen selbst in der Lage sind, Informationen kritisch einzuordnen, kann der Verbreitung von Desinformation wirksam begegnet werden. Dies erfordert eine gesamtgesellschaftliche Anstrengung, die weit über einzelne Bildungsmaßnahmen hinausgeht.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Netzwerke verlangsamen die Verbreitung von Nachrichten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten fordern, Medienkompetenz in der Schule zu vermitteln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text betrifft Desinformation ausschließlich junge Menschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Automatisierte Faktenchecks allein lösen das Problem laut Text nicht vollständig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert eine gesamtgesellschaftliche Anstrengung.",
+        "respuesta": true
+      }
+    ]
   }
 ]
