@@ -27614,5 +27614,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-vergessene-regenschirm",
+    "nivel": "A1",
+    "titulo": "Der vergessene Regenschirm",
+    "descripcion": "Lisa vergisst ihren Regenschirm im Bus und muss im Regen laufen.",
+    "texto": "Lisa steht an der Bushaltestelle. Es regnet stark. Sie hat einen roten Regenschirm. Der Bus kommt und Lisa steigt schnell ein. Sie setzt sich neben ein Fenster und liest ein Buch. An ihrer Haltestelle steigt sie schnell aus.\n\nZu Hause sucht Lisa ihren Regenschirm. Sie findet ihn nicht. „Wo ist mein Regenschirm?\", fragt sie sich. Der Regenschirm ist noch im Bus! Lisa ist traurig, denn es regnet immer noch sehr stark.\n\nAm nächsten Tag geht Lisa zum Busbüro. Eine Frau dort hat viele Regenschirme. „Ist das Ihr Regenschirm?\", fragt die Frau und zeigt einen roten Regenschirm. Lisa ist sehr glücklich und sagt: „Ja, danke schön!\"",
+    "preguntas": [
+      {
+        "enunciado": "Lisa hat einen roten Regenschirm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa vergisst ihr Buch im Bus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zu Hause findet Lisa ihren Regenschirm sofort.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa geht zum Busbüro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frau im Busbüro hat keinen Regenschirm für Lisa.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-schwimmbad-am-nachmittag",
+    "nivel": "A1",
+    "titulo": "Im Schwimmbad am Nachmittag",
+    "descripcion": "Nina und ihr Bruder verbringen einen Nachmittag im Freibad.",
+    "texto": "Nina und ihr Bruder Felix gehen heute ins Schwimmbad. Die Sonne scheint und es ist sehr warm. Nina packt ein Handtuch, eine Sonnencreme und eine Flasche Wasser in ihre Tasche. Felix nimmt seinen Ball mit.\n\nIm Schwimmbad schwimmen Nina und Felix zusammen im großen Becken. Danach spielen sie mit dem Ball im Wasser. Um zwölf Uhr essen sie ein Butterbrot und trinken Wasser. Die Sonne ist sehr stark, deshalb sitzen sie auch im Schatten unter einem Baum.\n\nAm Nachmittag rutschen Nina und Felix noch von der großen Wasserrutsche. Das macht großen Spaß. Um vier Uhr fahren sie müde und glücklich nach Hause. „Das war ein toller Tag!\", sagt Nina.",
+    "preguntas": [
+      {
+        "enunciado": "Nina und Felix gehen ins Schwimmbad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es regnet den ganzen Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie essen um zwölf Uhr ein Butterbrot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat keinen Ball dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina und Felix rutschen auf der Wasserrutsche.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einkaufen-im-supermarkt",
+    "nivel": "A1",
+    "titulo": "Einkaufen im Supermarkt",
+    "descripcion": "Paul kauft Lebensmittel für das Abendessen ein.",
+    "texto": "Paul geht heute in den Supermarkt. Er braucht Brot, Milch und Äpfel. Der Supermarkt ist groß und hat viele Regale. Paul nimmt einen Einkaufswagen und geht durch die Gänge.\n\nZuerst kauft Paul frisches Brot. Dann geht er zur Milch und nimmt zwei Flaschen. Danach sucht er rote Äpfel und legt fünf Stück in den Wagen. An der Kasse bezahlt Paul mit Karte. Die Kassiererin sagt: „Auf Wiedersehen und einen schönen Tag!\"\n\nZu Hause packt Paul die Sachen in den Kühlschrank. Er kocht Abendessen für seine Familie. Alle essen zusammen und finden das Essen sehr lecker.",
+    "preguntas": [
+      {
+        "enunciado": "Paul kauft Brot, Milch und Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft grüne Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul bezahlt mit Karte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kocht nichts zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst zusammen zu Abend.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-stadt",
+    "nivel": "A2",
+    "titulo": "Der Umzug in die Stadt",
+    "descripcion": "Familie Schmidt ist vom Dorf in die Großstadt gezogen.",
+    "texto": "Letzten Monat ist Familie Schmidt vom Dorf nach Hamburg gezogen. Der Vater hat dort eine neue Arbeitsstelle gefunden, weil seine alte Firma geschlossen hat. Die Kinder, Lena und Jonas, waren am Anfang traurig, weil sie ihre Freunde im Dorf zurücklassen mussten.\n\nIn Hamburg haben sie eine neue Wohnung in der Nähe der Schule gemietet. Am ersten Schultag hatte Lena Angst, aber ihre neue Klassenlehrerin war sehr freundlich. Nach der Schule hat Jonas einen Jungen aus seiner Klasse kennengelernt, und die beiden sind schnell Freunde geworden. Sie haben zusammen Fußball gespielt und über ihre Hobbys gesprochen.\n\nNach ein paar Wochen haben sich Lena und Jonas gut eingelebt. Sie besuchen jetzt einen Sportverein in der Stadt und haben schon viele neue Freunde gefunden. Die Eltern sind froh, dass der Umzug so gut geklappt hat, obwohl es am Anfang nicht leicht war.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Schmidt ist nach Hamburg gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater hat seine alte Arbeitsstelle behalten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena hatte am ersten Schultag Angst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat in der neuen Schule keine Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder sind jetzt in einem Sportverein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-verspaetete-flugzeug",
+    "nivel": "A2",
+    "titulo": "Das verspätete Flugzeug",
+    "descripcion": "Herr Weber muss wegen einer Flugverspätung stundenlang am Flughafen warten.",
+    "texto": "Herr Weber ist am Flughafen, weil er nach München fliegen möchte. Er hat seinen Koffer schon abgegeben und wartet am Gate. Plötzlich hört er eine Durchsage: Sein Flug hat zwei Stunden Verspätung, weil es in München ein Gewitter gibt.\n\nHerr Weber ist zuerst ärgerlich, aber dann setzt er sich in ein Café und bestellt einen Kaffee. Er liest eine Zeitung und schreibt seiner Frau eine Nachricht, dass er später ankommt. Neben ihm sitzt eine Frau, die auch auf denselben Flug wartet. Sie unterhalten sich über ihre Reisepläne, und die Zeit vergeht schneller, als Herr Weber gedacht hatte.\n\nNach zwei Stunden können die Passagiere endlich einsteigen. Der Flug verläuft ruhig, und Herr Weber kommt am Abend müde, aber sicher in München an. Seine Frau holt ihn vom Flughafen ab, weil sie sich schon Sorgen gemacht hat.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber möchte nach München fliegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Flug hat keine Verspätung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber trinkt einen Kaffee im Café.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber spricht mit niemandem am Flughafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Frau holt ihn vom Flughafen ab.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "beim-arzt-in-der-sprechstunde",
+    "nivel": "A2",
+    "titulo": "Beim Arzt in der Sprechstunde",
+    "descripcion": "Markus geht mit Halsschmerzen zum Arzt und bekommt Medizin.",
+    "texto": "Markus ist seit zwei Tagen krank. Er hat Halsschmerzen und ein bisschen Fieber. Weil es ihm immer schlechter geht, hat er einen Termin beim Arzt gemacht. Im Wartezimmer hat er fast eine halbe Stunde gewartet, bis die Arzthelferin seinen Namen gerufen hat.\n\nDer Arzt hat Markus untersucht und seinen Hals angeschaut. „Sie haben eine leichte Erkältung\", hat der Arzt gesagt. „Trinken Sie viel Tee und ruhen Sie sich aus.\" Der Arzt hat ihm auch Tabletten gegen die Halsschmerzen verschrieben. Markus musste die Tabletten dreimal am Tag nehmen.\n\nNach einer Woche ist Markus wieder gesund geworden. Er ist froh, dass er rechtzeitig zum Arzt gegangen ist, denn sonst wäre die Erkältung vielleicht schlimmer geworden. Jetzt kann er wieder normal arbeiten und Sport treiben.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat Halsschmerzen und Fieber.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus musste im Wartezimmer nicht warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt sagt, Markus hat eine leichte Erkältung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus muss die Tabletten nur einmal am Tag nehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einer Woche ist Markus wieder gesund.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-nach-muenchen",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach München",
+    "descripcion": "Eine Schulklasse verbringt drei Tage in München und erlebt viel Neues.",
+    "texto": "Die Klasse 9b ist letzte Woche für drei Tage nach München gefahren. Obwohl viele Schüler noch nie in einer so großen Stadt waren, haben sie sich schnell zurechtgefunden. Am ersten Tag haben sie das Deutsche Museum besucht, wo sie viel über Technik und Wissenschaft gelernt haben. Trotzdem waren einige Schüler am Ende des Tages sehr müde, weil das Museum riesig ist.\n\nAm zweiten Tag ist die Klasse mit der U-Bahn ins Stadtzentrum gefahren. Nachdem sie den Marienplatz besichtigt hatten, sind sie zum Englischen Garten gegangen und haben dort ein Picknick gemacht. Ein paar Schüler haben sogar im Eisbach gebadet, obwohl das Wasser eiskalt war. Die Lehrerin hat den Schülern viel über die Geschichte der Stadt erzählt, und alle haben aufmerksam zugehört.\n\nAm letzten Abend haben die Schüler in der Jugendherberge eine kleine Abschiedsparty gefeiert. Viele waren traurig, dass die Reise schon zu Ende war, denn sie hatten in den drei Tagen viel Spaß miteinander gehabt. Auf der Rückfahrt im Zug haben die meisten Schüler geschlafen, weil sie von den vielen Erlebnissen erschöpft waren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b war drei Tage in München.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am ersten Tag haben die Schüler den Englischen Garten besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Schüler sind im Eisbach geschwommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am letzten Abend gab es keine Feier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf der Rückfahrt waren viele Schüler müde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-trotz-der-entfernung",
+    "nivel": "B1",
+    "titulo": "Freundschaft trotz der Entfernung",
+    "descripcion": "Zwei Freunde bleiben verbunden, obwohl sie in verschiedenen Städten leben.",
+    "texto": "Julia und Ben sind seit der Grundschule beste Freunde, obwohl sie jetzt in unterschiedlichen Städten wohnen. Nachdem Ben vor zwei Jahren wegen seines Studiums nach Köln gezogen war, hatten beide Angst, dass ihre Freundschaft darunter leiden könnte. Trotzdem haben sie einen Weg gefunden, in Kontakt zu bleiben.\n\nJeden Sonntag telefonieren Julia und Ben mindestens eine Stunde lang miteinander. Sie erzählen sich, was in der vergangenen Woche passiert ist, und geben sich gegenseitig Ratschläge, wenn einer von ihnen ein Problem hat. Außerdem besuchen sie sich, so oft es ihr Zeitplan erlaubt, meistens einmal im Monat. Wenn Julia nach Köln fährt, unternehmen sie gemeinsam etwas, zum Beispiel gehen sie ins Kino oder erkunden neue Cafés in der Stadt.\n\nObwohl die Entfernung zwischen ihnen manchmal schwierig ist, sind sich beide sicher, dass ihre Freundschaft stark genug ist, um das zu überstehen. Julia sagt oft, dass wahre Freundschaft nicht von der Entfernung abhängt, sondern davon, wie viel Mühe man sich gibt. Ben stimmt ihr voll und ganz zu und freut sich schon auf ihren nächsten Besuch.",
+    "preguntas": [
+      {
+        "enunciado": "Julia und Ben kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben ist wegen einer neuen Arbeit nach Köln gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia und Ben telefonieren jeden Sonntag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freunde besuchen sich nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia glaubt, dass Freundschaft von Mühe abhängt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-neues-hobby-entdecken",
+    "nivel": "B1",
+    "titulo": "Ein neues Hobby entdecken",
+    "descripcion": "Katrin beginnt mit dem Töpfern und findet eine neue Leidenschaft.",
+    "texto": "Katrin hat sich schon lange gelangweilt, wenn sie abends nach der Arbeit nach Hause kam, obwohl sie eigentlich einen anstrengenden Job hat. Deshalb hat sie sich vor zwei Monaten entschieden, einen Töpferkurs an der Volkshochschule zu besuchen. Nachdem sie sich angemeldet hatte, war sie zunächst etwas nervös, weil sie noch nie mit Ton gearbeitet hatte.\n\nIn der ersten Stunde hat der Kursleiter den Teilnehmern gezeigt, wie man eine einfache Schale formt. Katrins erste Versuche sind nicht besonders gut gelungen, trotzdem hat sie viel Spaß dabei gehabt. Mit der Zeit ist sie immer geschickter geworden, und nach ein paar Wochen konnte sie schon kleine Tassen und Vasen herstellen. Ihre Kollegen waren überrascht, als sie ihnen eine selbstgemachte Tasse geschenkt hat.\n\nHeute geht Katrin jede Woche zum Töpfern, und dieses Hobby ist für sie zu einem wichtigen Ausgleich zum stressigen Berufsalltag geworden. Sie sagt, dass sie beim Arbeiten mit Ton völlig abschalten kann und danach viel entspannter ist. Nachdem sie so viel Freude an der Kunst gefunden hat, überlegt sie sogar, ihre Stücke auf einem kleinen Markt zu verkaufen.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin hat sich vor zwei Monaten für einen Töpferkurs angemeldet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin hatte schon viel Erfahrung mit Ton, bevor sie den Kurs begann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrins erste Versuche sind sofort perfekt gelungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrin hat ihren Kollegen eine selbstgemachte Tasse geschenkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin denkt darüber nach, ihre Stücke zu verkaufen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-und-eigenverantwortung",
+    "nivel": "B2",
+    "titulo": "Klimapolitik und Eigenverantwortung",
+    "descripcion": "Ein Kommentar über das Spannungsfeld zwischen staatlicher Klimapolitik und individuellem Verhalten.",
+    "texto": "In der öffentlichen Debatte über den Klimaschutz wird häufig darüber gestritten, ob die Verantwortung in erster Linie bei der Politik oder beim einzelnen Bürger liegen sollte. Während die einen argumentieren, dass ohne einschneidende gesetzliche Regelungen kaum eine spürbare Reduktion der Treibhausgasemissionen erreicht werden könne, betonen andere, dass individuelles Verhalten, etwa beim Konsum oder bei der Mobilität, ebenfalls einen erheblichen Unterschied machen würde.\n\nBefürworter strengerer politischer Maßnahmen weisen darauf hin, dass freiwillige Verhaltensänderungen allein nicht ausreichen würden, um die international vereinbarten Klimaziele zu erreichen. Sie fordern etwa eine konsequentere Bepreisung von CO2-Emissionen sowie einen beschleunigten Ausbau erneuerbarer Energien. Ohne verbindliche Vorgaben, so ihr Argument, würden wirtschaftliche Interessen häufig über den langfristigen Schutz des Klimas gestellt werden. Andererseits wird eingewandt, dass rein staatliche Eingriffe ohne die Unterstützung der Bevölkerung kaum durchsetzbar wären und zudem das Gefühl der Ohnmacht bei vielen Bürgern verstärken könnten.\n\nLetztlich dürfte eine Kombination aus beidem notwendig sein: Wirksame politische Rahmenbedingungen, die klare Anreize setzen, könnten mit einem gestiegenen Bewusstsein der Bevölkerung einhergehen, sodass nachhaltiges Verhalten nicht als Verzicht, sondern als selbstverständlicher Teil des Alltags wahrgenommen würde. Nur wenn beide Ebenen zusammenwirkten, ließe sich die Klimakrise langfristig wirksam bekämpfen, ohne dass einzelne Gruppen die gesamte Last der Veränderung allein tragen müssten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text beschreibt eine Debatte über Politik versus individuelle Verantwortung beim Klimaschutz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten im Text sind sich einig, dass nur der Staat verantwortlich ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter strengerer Politik fordern unter anderem eine Bepreisung von CO2.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass staatliche Eingriffe ohne Bevölkerungsunterstützung leicht durchsetzbar wären.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt eine Kombination aus Politik und individuellem Verhalten vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wohnungsnot-in-deutschen-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Wohnungsnot in deutschen Großstädten",
+    "descripcion": "Ein Artikel analysiert die Ursachen und möglichen Lösungen der Wohnungskrise.",
+    "texto": "In vielen deutschen Großstädten hat sich die Situation auf dem Wohnungsmarkt in den letzten Jahren erheblich verschärft. Während die Mieten kontinuierlich steigen, wird gleichzeitig zu wenig neuer Wohnraum geschaffen, um die wachsende Nachfrage zu decken. Experten sind sich weitgehend einig, dass diese Entwicklung auf ein Zusammenspiel mehrerer Faktoren zurückzuführen ist, darunter der anhaltende Zuzug in die Städte, hohe Baukosten und ein Mangel an verfügbaren Grundstücken.\n\nUm dieser Krise entgegenzuwirken, werden von der Politik verschiedene Maßnahmen diskutiert. So wird beispielsweise gefordert, dass mehr sozialer Wohnungsbau gefördert werden müsse, damit auch einkommensschwächere Haushalte bezahlbaren Wohnraum finden könnten. Gleichzeitig wird argumentiert, dass bürokratische Hürden beim Bauen abgebaut werden sollten, damit neue Wohnprojekte schneller realisiert werden können. Kritiker wenden jedoch ein, dass eine reine Erhöhung des Angebots allein nicht ausreichen werde, solange spekulative Investitionen den Markt weiter verzerrten.\n\nWäre es möglich, innovative Wohnformen wie Mehrgenerationenhäuser oder genossenschaftliches Wohnen stärker zu fördern, könnte dies langfristig zu einer Entspannung der Lage beitragen. Gleichzeitig müsste jedoch auch über eine gerechtere Verteilung des vorhandenen Wohnraums nachgedacht werden. Ohne ein koordiniertes Vorgehen von Politik, Wirtschaft und Zivilgesellschaft wird sich die Wohnungsnot in den kommenden Jahren vermutlich weiter verschärfen, was insbesondere für einkommensschwache Familien gravierende Folgen haben dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten steigen laut dem Text kontinuierlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text nennt nur einen einzigen Grund für die Wohnungsnot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche fordern mehr Förderung für sozialen Wohnungsbau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern reicht ein größeres Angebot allein aus, um das Problem zu lösen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erwähnt genossenschaftliches Wohnen als mögliche Lösung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "bildungsreform-und-chancengleichheit",
+    "nivel": "B2",
+    "titulo": "Bildungsreform und Chancengleichheit",
+    "descripcion": "Ein Artikel über die Debatte, wie das Bildungssystem gerechter gestaltet werden könnte.",
+    "texto": "Trotz zahlreicher Reformversuche der vergangenen Jahrzehnte hängt der Bildungserfolg von Kindern in Deutschland nach wie vor stark von der sozialen Herkunft ihrer Familien ab. Studien belegen immer wieder, dass Kinder aus bildungsfernen oder einkommensschwachen Haushalten seltener ein Gymnasium besuchen und seltener ein Studium abschließen als Kinder aus privilegierteren Verhältnissen. Diese Ungleichheit wird von Bildungsforschern als eines der größten ungelösten Probleme des deutschen Schulsystems bezeichnet.\n\nAls mögliche Ursachen werden unter anderem die frühe Aufteilung der Schülerinnen und Schüler auf unterschiedliche Schulformen sowie ein Mangel an individueller Förderung genannt. Befürworter einer umfassenden Reform plädieren dafür, dass gemeinsames Lernen bis zu einem späteren Zeitpunkt beibehalten werden sollte, damit Kinder unabhängig von ihrer Herkunft die gleichen Chancen erhielten. Zudem wird gefordert, dass mehr Ressourcen in Schulen investiert werden müssten, die in sozial benachteiligten Stadtteilen liegen, damit dort kleinere Klassen und zusätzliche Förderangebote ermöglicht werden könnten.\n\nKritiker eines solchen Ansatzes wenden hingegen ein, dass eine spätere Aufteilung nicht zwangsläufig zu mehr Gerechtigkeit führen würde, sofern nicht gleichzeitig auch die Qualität des Unterrichts verbessert werde. Manche schlagen deshalb vor, verstärkt in die Ausbildung von Lehrkräften zu investieren und digitale Lernmittel gezielter einzusetzen, damit individuelle Förderung leichter umgesetzt werden könnte. Einig sind sich jedoch die meisten Experten darin, dass ohne grundlegende strukturelle Veränderungen die Chancengleichheit im Bildungssystem kaum verbessert werden dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bildungserfolg hängt laut dem Text stark von der sozialen Herkunft ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die soziale Herkunft keinen Einfluss auf den Schulerfolg hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Befürworter fordern gemeinsames Lernen bis zu einem späteren Zeitpunkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten im Text lehnen mehr Investitionen in Lehrerausbildung ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die meisten Experten halten strukturelle Veränderungen für notwendig.",
+        "respuesta": true
+      }
+    ]
   }
 ]
