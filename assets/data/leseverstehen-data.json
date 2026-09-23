@@ -27962,5 +27962,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-tierpark-besuch",
+    "nivel": "A1",
+    "titulo": "Der Tierpark",
+    "descripcion": "Lena besucht mit ihrer Klasse den Tierpark.",
+    "texto": "Lena geht mit ihrer Klasse in den Tierpark. Der Tierpark ist sehr groß. Die Kinder sehen viele Tiere.\n\nZuerst besuchen sie die Affen. Die Affen klettern auf den Bäumen. Lena lacht laut.\n\nDanach sehen sie die Elefanten. Die Elefanten sind sehr groß. Am Ende kaufen die Kinder ein Eis.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht mit ihrer Familie in den Tierpark.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Tierpark ist sehr groß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder sehen zuerst die Affen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Elefanten sind sehr klein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende kaufen die Kinder ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-sommerfest-im-kindergarten",
+    "nivel": "A1",
+    "titulo": "Das Sommerfest im Kindergarten",
+    "descripcion": "Der Kindergarten von Ben feiert ein buntes Sommerfest.",
+    "texto": "Der Kindergarten feiert heute ein Sommerfest. Viele Eltern kommen zu Besuch. Das Wetter ist warm und sonnig.\n\nBen spielt mit seinen Freunden im Garten. Es gibt einen Luftballon-Stand und eine Hüpfburg. Bens Mutter kauft ihm ein Stück Wassermelone.\n\nAm Nachmittag singen die Kinder ein Lied für die Eltern. Alle klatschen laut. Ben ist sehr stolz.",
+    "preguntas": [
+      {
+        "enunciado": "Der Kindergarten feiert ein Winterfest.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter ist warm und sonnig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt eine Hüpfburg im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben isst ein Stück Apfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder singen ein Lied für die Eltern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsfeier-von-mia",
+    "nivel": "A1",
+    "titulo": "Die Geburtstagsfeier von Mia",
+    "descripcion": "Mia feiert ihren achten Geburtstag mit Freunden.",
+    "texto": "Mia wird heute acht Jahre alt. Sie feiert ihren Geburtstag mit Freunden. Die Wohnung ist bunt dekoriert.\n\nMias Mutter backt einen Schokoladenkuchen. Die Freunde bringen Geschenke mit. Alle singen ein Geburtstagslied.\n\nNach dem Kuchen spielen die Kinder im Garten. Sie spielen Verstecken und lachen viel. Mia ist sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Mia wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Mutter backt einen Apfelkuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde bringen keine Geschenke mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder spielen im Garten Verstecken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia ist traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-zahnarzt",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Zahnarzt",
+    "descripcion": "Paul hatte Zahnschmerzen und musste zum Zahnarzt gehen.",
+    "texto": "Paul hatte seit zwei Tagen starke Zahnschmerzen. Weil der Schmerz immer schlimmer wurde, hat seine Mutter einen Termin beim Zahnarzt gemacht. Paul hatte etwas Angst, weil er noch nie beim Zahnarzt war.\n\nIn der Praxis hat die Zahnärztin Pauls Zähne genau untersucht. Sie hat gesagt, dass ein Zahn behandelt werden muss. Paul hat sich hingesetzt und tief durchgeatmet.\n\nDie Behandlung hat nicht wehgetan, wie Paul erwartet hatte. Danach hat die Zahnärztin ihm erklärt, dass er zweimal am Tag die Zähne putzen soll. Paul war froh, dass alles vorbei war.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hatte eine Woche lang Zahnschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Mutter hat einen Termin beim Zahnarzt gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul war vorher schon oft beim Zahnarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Behandlung hat wehgetan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin hat Paul erklärt, dass er die Zähne putzen soll.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarin-von-nebenan",
+    "nivel": "A2",
+    "titulo": "Die Nachbarin von nebenan",
+    "descripcion": "Frau Berger lernt ihre neue Nachbarin kennen.",
+    "texto": "Frau Berger wohnt schon zehn Jahre in ihrer Wohnung. Letzte Woche ist eine neue Nachbarin eingezogen. Sie heißt Frau Klein und kommt aus Hamburg.\n\nAls Frau Berger die Treppe hochgegangen ist, hat sie Frau Klein getroffen. Die beiden haben sich lange unterhalten, weil sie viele gemeinsame Interessen haben. Frau Klein hat erzählt, dass sie gern kocht und Gitarre spielt.\n\nAm nächsten Tag hat Frau Berger ihre neue Nachbarin zum Kaffee eingeladen. Frau Klein hat sich sehr gefreut. Seitdem treffen sich die beiden Frauen jede Woche.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Klein kommt aus München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Frauen haben sich auf der Treppe getroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Klein spielt gern Klavier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat Frau Klein zum Kaffee eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frauen treffen sich nie wieder.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-in-den-freizeitpark",
+    "nivel": "A2",
+    "titulo": "Der Ausflug in den Freizeitpark",
+    "descripcion": "Jonas und seine Schwester verbringen einen Tag im Freizeitpark.",
+    "texto": "Jonas ist am Samstag mit seiner Schwester in den Freizeitpark gefahren. Sie sind schon früh am Morgen losgefahren, weil sie lange Schlangen vermeiden wollten. Als sie angekommen sind, war der Park fast leer.\n\nZuerst sind sie mit der Achterbahn gefahren. Jonas hatte etwas Angst, aber seine Schwester hat gesagt, dass es total sicher ist. Danach haben sie ein Eis gegessen und sind noch mit dem Riesenrad gefahren.\n\nAm Abend waren beide sehr müde, aber glücklich. Jonas hat gesagt, dass es der schönste Tag des Sommers war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist allein in den Freizeitpark gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind früh am Morgen losgefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte keine Angst vor der Achterbahn.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben Eis gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fand den Tag langweilig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "sophies-erster-arbeitstag",
+    "nivel": "B1",
+    "titulo": "Sophies erster Arbeitstag",
+    "descripcion": "Sophie berichtet von ihrem ersten Tag in der neuen Firma.",
+    "texto": "Sophie war sehr aufgeregt, als sie am Montagmorgen zu ihrem ersten Arbeitstag aufgebrochen ist. Obwohl sie die Firma schon beim Bewerbungsgespräch besucht hatte, fühlte sich alles neu und fremd an. Nachdem sie sich bei der Empfangsdame gemeldet hatte, wurde sie direkt zu ihrem neuen Team gebracht.\n\nDie Kollegen waren freundlich und haben ihr geholfen, sich zurechtzufinden. Trotzdem hatte Sophie am Anfang Schwierigkeiten, sich alle Namen zu merken. Am Mittag hat sie mit dem Team zusammen gegessen und dabei viel über die Arbeit erfahren.\n\nAm Ende des Tages war Sophie erschöpft, aber zufrieden. Sie hat gemerkt, dass sie sich die richtige Firma ausgesucht hat, obwohl der erste Tag anstrengend war.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie war am ersten Arbeitstag ruhig und gelassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hatte die Firma vorher noch nie besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen waren unfreundlich zu ihr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat Schwierigkeiten gehabt, sich die Namen zu merken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Tages war Sophie zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "felix-erste-nachtschicht",
+    "nivel": "B1",
+    "titulo": "Felix' erste Nachtschicht",
+    "descripcion": "Ein junger Pfleger erlebt seine erste Nachtschicht.",
+    "texto": "Felix arbeitet seit drei Monaten als Krankenpfleger, doch seine erste Nachtschicht stand ihm noch bevor. Obwohl er sich gut vorbereitet hatte, war er nervös, als er um zehn Uhr abends die Station betrat. Die Kollegin, die ihn einarbeitete, erklärte ihm ruhig alle wichtigen Aufgaben.\n\nIn der Nacht wurde es hektischer, als erwartet. Nachdem ein Patient plötzlich Hilfe brauchte, musste Felix schnell reagieren. Trotzdem blieb er ruhig und handelte genau so, wie er es gelernt hatte.\n\nAm Morgen, als die Schicht endete, war Felix müde, aber stolz auf sich. Er hatte bewiesen, dass er auch in stressigen Situationen einen klaren Kopf behält.",
+    "preguntas": [
+      {
+        "enunciado": "Felix arbeitet seit einem Jahr als Krankenpfleger.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix war vor seiner ersten Nachtschicht nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nacht verlief ruhig und ohne Zwischenfälle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix ist in der stressigen Situation ruhig geblieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix war am Morgen enttäuscht von sich selbst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-versoehnung-nach-dem-streit",
+    "nivel": "B1",
+    "titulo": "Die Versöhnung nach dem Streit",
+    "descripcion": "Zwei beste Freunde finden nach einem Streit wieder zueinander.",
+    "texto": "Anna und Julia waren seit der Grundschule beste Freundinnen, doch letzte Woche hatten sie einen heftigen Streit. Obwohl beide wussten, dass die Freundschaft wichtig war, sprachen sie tagelang nicht miteinander. Jede von ihnen wartete darauf, dass die andere den ersten Schritt macht.\n\nNachdem Anna eine Nachricht von Julia bekommen hatte, in der sie sich entschuldigte, war Anna erleichtert. Trotzdem war es nicht leicht, wieder normal miteinander zu reden. Die beiden trafen sich in einem Café, um alles zu klären.\n\nAm Ende des Gesprächs haben sich Anna und Julia fest umarmt. Sie haben verstanden, dass eine gute Freundschaft auch Streit überstehen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Anna und Julia kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden haben nach dem Streit tagelang nicht miteinander gesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat sich nie bei Anna entschuldigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden haben sich in einem Café getroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende ist die Freundschaft zerbrochen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "debatte-um-die-vier-tage-woche",
+    "nivel": "B2",
+    "titulo": "Debatte um die Vier-Tage-Woche",
+    "descripcion": "Eine Analyse der Debatte um die Vier-Tage-Woche in Deutschland.",
+    "texto": "In den letzten Jahren wird in Deutschland verstärkt über die Einführung einer Vier-Tage-Woche diskutiert. Befürworter argumentieren, dass Arbeitnehmer bei gleichem Lohn produktiver arbeiten würden, wenn ihnen ein zusätzlicher freier Tag zur Verfügung stünde. Mehrere Pilotprojekte, die in verschiedenen Branchen durchgeführt wurden, hätten laut ersten Auswertungen positive Ergebnisse gezeigt.\n\nKritiker hingegen weisen darauf hin, dass eine pauschale Verkürzung der Arbeitszeit nicht in jeder Branche umsetzbar sei. Besonders im Gesundheitswesen und im Handwerk, wo ohnehin ein Fachkräftemangel herrscht, würde die Vier-Tage-Woche zusätzlichen Druck erzeugen. Es stellt sich daher die Frage, ob ein einheitliches Modell überhaupt sinnvoll wäre.\n\nSollte die Vier-Tage-Woche flächendeckend eingeführt werden, müssten viele Unternehmen ihre Arbeitsprozesse grundlegend überdenken. Manche Ökonomen sind der Ansicht, dass eine schrittweise Einführung, begleitet von wissenschaftlicher Untersuchung, der sinnvollste Weg wäre, um langfristige Auswirkungen realistisch einschätzen zu können.",
+    "preguntas": [
+      {
+        "enunciado": "Die Vier-Tage-Woche wird in Deutschland aktuell diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Pilotprojekte zur Vier-Tage-Woche haben ausschließlich negative Ergebnisse gezeigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen besonders im Gesundheitswesen und Handwerk Probleme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text ist ein einheitliches Modell für alle Branchen unumstritten sinnvoll.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Ökonomen befürworten eine schrittweise Einführung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ki-gestuetztes-lernen-in-der-schule",
+    "nivel": "B2",
+    "titulo": "KI-gestütztes Lernen in der Schule",
+    "descripcion": "Welche Chancen und Risiken der Einsatz von KI in Schulen mit sich bringt.",
+    "texto": "Der Einsatz künstlicher Intelligenz im Unterricht wird an deutschen Schulen zunehmend diskutiert. Befürworter betonen, dass individualisiertes Lernen, das durch KI-gestützte Programme ermöglicht wird, den unterschiedlichen Bedürfnissen der Schüler besser gerecht werden könnte als der klassische Frontalunterricht. Lehrkräfte, die von administrativen Aufgaben entlastet würden, hätten zudem mehr Zeit für die persönliche Betreuung.\n\nGleichzeitig warnen viele Pädagogen vor den Risiken einer unreflektierten Nutzung. Wenn Schüler zu früh und zu stark auf KI-Werkzeuge zurückgreifen würden, könnte dies das eigenständige Denken beeinträchtigen. Auch Fragen des Datenschutzes, die bei der Nutzung solcher Programme entstehen, sind bislang nicht abschließend geklärt.\n\nEs wäre daher ratsam, klare pädagogische Konzepte zu entwickeln, bevor KI-Anwendungen flächendeckend an Schulen eingeführt werden. Nur so könnte sichergestellt werden, dass die Technologie den Lernprozess wirklich unterstützt, anstatt ihn zu ersetzen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Einsatz von KI im Unterricht wird kontrovers diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Befürwortern könnte KI individualisiertes Lernen ermöglichen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Pädagogen sehen ausschließlich Vorteile in der Nutzung von KI.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Datenschutzfragen im Zusammenhang mit KI gelten laut Text als vollständig geklärt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text empfiehlt, klare pädagogische Konzepte zu entwickeln.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "landflucht-und-ihre-folgen",
+    "nivel": "B2",
+    "titulo": "Landflucht und ihre Folgen",
+    "descripcion": "Warum viele junge Menschen vom Land in die Stadt ziehen und was das für ländliche Regionen bedeutet.",
+    "texto": "Seit Jahrzehnten ziehen junge Menschen aus ländlichen Regionen in die großen Städte, um dort zu studieren oder zu arbeiten. Dieses Phänomen, das als Landflucht bezeichnet wird, hat für viele Dörfer und Kleinstädte weitreichende Folgen. Geschäfte, Schulen und Arztpraxen, die früher das dörfliche Leben prägten, müssen zunehmend schließen, weil die Nachfrage fehlt.\n\nWenn die Infrastruktur einer Region schrumpft, wird sie für junge Familien noch unattraktiver, wodurch sich die Abwanderung weiter verstärkt. Einige Gemeinden versuchen daher, mit gezielten Förderprogrammen gegenzusteuern. Dazu gehören etwa vergünstigte Baugrundstücke oder der Ausbau schneller Internetverbindungen, die das Arbeiten im Homeoffice erleichtern sollen.\n\nOb diese Maßnahmen ausreichen, um den Trend umzukehren, bleibt fraglich. Experten sind sich einig, dass es einer Kombination aus wirtschaftlicher Förderung und kultureller Attraktivität bedürfte, damit ländliche Regionen für junge Menschen wieder eine echte Alternative zur Stadt darstellen könnten.",
+    "preguntas": [
+      {
+        "enunciado": "Landflucht beschreibt den Zuzug junger Menschen aufs Land.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Durch Landflucht müssen manche Geschäfte und Arztpraxen schließen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine schrumpfende Infrastruktur macht eine Region für Familien attraktiver.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Gemeinden bieten vergünstigte Baugrundstücke an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Experten reicht wirtschaftliche Förderung allein sicher aus.",
+        "respuesta": false
+      }
+    ]
   }
 ]
