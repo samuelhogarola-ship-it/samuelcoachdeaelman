@@ -28310,5 +28310,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-fahrstuhl-stecken",
+    "nivel": "A1",
+    "titulo": "Im Fahrstuhl stecken",
+    "descripcion": "Lisa steckt mit einem Nachbarn im Fahrstuhl fest.",
+    "texto": "Lisa wohnt im fünften Stock. Jeden Morgen fährt sie mit dem Fahrstuhl nach unten. Heute ist der Fahrstuhl sehr alt und langsam. Lisa steigt ein und drückt den Knopf. Plötzlich bleibt der Fahrstuhl stehen. Das Licht wird dunkel. Lisa hat ein bisschen Angst.\n\nEin Nachbar heißt Herr Paul. Er ist auch im Fahrstuhl. „Keine Sorge\", sagt Herr Paul. „Ich rufe den Hausmeister an.\" Er hat sein Handy dabei. Lisa und Herr Paul warten zusammen. Sie sprechen über das Wetter und über ihre Arbeit. Die Zeit vergeht langsam, aber sie sind nicht allein.\n\nNach zwanzig Minuten kommt der Hausmeister. Er öffnet die Tür von außen. Lisa und Herr Paul sind froh. Sie gehen zusammen die Treppe hinunter. „Das war aufregend!\", sagt Lisa und lacht. Ab morgen nimmt sie lieber die Treppe.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa wohnt im fünften Stock.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Fahrstuhl ist neu und schnell.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Paul ruft den Hausmeister an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa ist ganz allein im Fahrstuhl.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa möchte ab morgen die Treppe nehmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-brille",
+    "nivel": "A1",
+    "titulo": "Die neue Brille",
+    "descripcion": "Tom kauft seine erste Brille beim Optiker.",
+    "texto": "Tom ist zehn Jahre alt. Er sieht die Tafel in der Schule nicht gut. Seine Lehrerin sagt: „Tom, geh bitte zum Augenarzt.\" Toms Mutter macht einen Termin. Der Augenarzt testet Toms Augen. Tom braucht eine Brille.\n\nAm Samstag gehen Tom und seine Mutter zum Optiker. Der Laden hat viele bunte Brillen. Tom probiert eine rote Brille, eine blaue Brille und eine schwarze Brille. „Welche findest du am schönsten?\", fragt die Mutter. Tom lacht und sagt: „Die blaue Brille ist super!\" Die Verkäuferin misst Toms Gesicht genau.\n\nNach einer Woche ist die Brille fertig. Tom setzt sie auf und sieht plötzlich alles klar. Die Buchstaben in seinem Buch sind scharf und deutlich. In der Schule sieht er die Tafel jetzt gut. Seine Freunde finden die neue Brille cool. Tom ist sehr stolz.",
+    "preguntas": [
+      {
+        "enunciado": "Tom sieht die Tafel in der Schule schlecht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom braucht keine Brille.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom wählt eine blaue Brille.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Brille ist sofort fertig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Freunde finden die Brille cool.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kaffee-oder-tee-am-morgen",
+    "nivel": "A1",
+    "titulo": "Kaffee oder Tee am Morgen",
+    "descripcion": "Familie Berger spricht über ihre Lieblingsgetränke beim Frühstück.",
+    "texto": "Die Familie Berger frühstückt jeden Morgen zusammen. Der Vater trinkt immer Kaffee mit Milch. Die Mutter mag lieber Tee mit Zitrone. Die Tochter Mia trinkt Kakao, und der Sohn Ben trinkt Orangensaft. Jeder in der Familie hat ein Lieblingsgetränk.\n\nAm Tisch liegen Brötchen, Butter und Marmelade. Mia isst gern Marmelade mit Erdbeeren. Ben mag Nutella auf seinem Brötchen. Der Vater liest die Zeitung und trinkt seinen Kaffee langsam. Die Mutter erzählt von ihrem Tag im Büro. Das Frühstück dauert nicht lange, denn alle müssen zur Arbeit oder zur Schule.\n\nUm acht Uhr steht die Familie auf. Mia und Ben nehmen ihre Schultaschen. Der Vater fährt mit dem Auto zur Arbeit. Die Mutter geht zu Fuß zum Bahnhof. Alle sagen „Tschüss\" und „Bis später\". Am Abend trifft sich die Familie wieder zum Abendessen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Vater trinkt Tee mit Zitrone.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia trinkt Kakao.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben mag Nutella auf seinem Brötchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie frühstückt nur am Wochenende zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter geht zu Fuß zum Bahnhof.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-schluessel-am-bahnhof",
+    "nivel": "A2",
+    "titulo": "Der verlorene Schlüssel am Bahnhof",
+    "descripcion": "Jonas hat seinen Wohnungsschlüssel am Bahnhof verloren und musste ihn suchen.",
+    "texto": "Jonas ist gestern mit dem Zug nach Hamburg gefahren. Als er am Bahnhof angekommen ist, hat er seine Tasche geöffnet, weil er seinen Ausweis suchen wollte. Dabei ist ihm der Wohnungsschlüssel aus der Tasche gefallen, ohne dass er es bemerkt hat. Erst zu Hause hat Jonas gemerkt, dass der Schlüssel weg war. Er hat sofort seine Freundin angerufen und ihr erzählt, was passiert ist.\n\nJonas ist gleich zurück zum Bahnhof gefahren, weil er hoffte, den Schlüssel noch zu finden. Am Fundbüro hat er gefragt, ob jemand einen Schlüssel abgegeben hat. Die Frau am Schalter hat gesagt, dass noch nichts angekommen sei. Jonas war sehr besorgt, denn er hatte auch seinen Autoschlüssel am selben Ring. Er hat beschlossen, noch einmal den Weg vom Gleis bis zum Ausgang abzulaufen.\n\nPlötzlich hat er den Schlüssel neben einer Bank gefunden. Ein älterer Herr hatte ihn dort liegen sehen und wollte ihn gerade zum Fundbüro bringen. Jonas hat sich sehr gefreut und dem Mann herzlich gedankt. Als er nach Hause kam, hat er seiner Freundin die gute Nachricht erzählt. Seitdem trägt er seinen Schlüssel immer in einer kleinen Innentasche.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat den Schlüssel im Zug verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat seine Freundin sofort angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Fundbüro war der Schlüssel schon abgegeben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein älterer Herr hat den Schlüssel gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas trägt seinen Schlüssel jetzt in einer Innentasche.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-babysitter-abend",
+    "nivel": "A2",
+    "titulo": "Der Babysitter-Abend",
+    "descripcion": "Sophie passt zum ersten Mal auf die Kinder der Nachbarn auf.",
+    "texto": "Sophie ist siebzehn Jahre alt und hat letzte Woche zum ersten Mal gebabysittet. Die Nachbarn, Familie Krüger, haben sie gefragt, weil sie ins Kino gehen wollten. Sophie hat sich sehr gefreut, obwohl sie ein bisschen nervös war. Sie hatte noch nie auf zwei kleine Kinder aufgepasst.\n\nAm Abend ist Sophie um sechs Uhr zu den Krügers gekommen. Die Kinder, Lena und Paul, haben zuerst zusammen gespielt und dann gemeinsam Abendbrot gegessen. Danach hat Sophie ihnen eine Geschichte vorgelesen, weil Paul unbedingt ein Buch über Dinosaurier hören wollte. Lena wollte lieber Zähne putzen und schnell ins Bett gehen, denn sie war schon müde.\n\nUm halb neun sind beide Kinder eingeschlafen. Sophie hat noch ein bisschen ferngesehen, bis die Eltern zurückgekommen sind. Frau Krüger hat sich sehr bedankt und gesagt, dass die Kinder Sophie sehr gemocht haben. Sophie hat etwas Geld verdient und war stolz auf sich. Sie hofft, dass die Krügers sie bald wieder fragen.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat vorher schon oft gebabysittet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder heißen Lena und Paul.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul wollte eine Geschichte über Dinosaurier hören.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder sind erst um Mitternacht eingeschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Krüger hat sich bei Sophie bedankt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-panne-mit-dem-auto",
+    "nivel": "A2",
+    "titulo": "Die Panne mit dem Auto",
+    "descripcion": "Herr Wolf hatte auf dem Weg zur Arbeit eine Autopanne.",
+    "texto": "Herr Wolf ist am Montagmorgen wie immer mit dem Auto zur Arbeit gefahren. Nach ein paar Kilometern hat der Motor plötzlich komische Geräusche gemacht. Kurz danach ist das Auto einfach stehen geblieben, weil der Motor überhitzt war. Herr Wolf hat sich sehr geärgert, weil er wichtige Termine hatte.\n\nEr hat den Pannendienst angerufen und erklärt, wo genau das Auto stand. Der Mechaniker hat gesagt, dass er in dreißig Minuten kommen würde. Herr Wolf hat seine Kollegin angerufen, damit sie den wichtigen Termin verschiebt. Während er wartete, hat er sich auf eine Leitplanke gesetzt und in seinem Handy die Nachrichten gelesen.\n\nDer Mechaniker ist pünktlich gekommen und hat das Problem schnell gefunden. Der Kühlschlauch war kaputt, deshalb war der Motor zu heiß geworden. Der Mechaniker hat den Schlauch repariert, und Herr Wolf konnte weiterfahren. Er ist eine Stunde zu spät zur Arbeit gekommen, aber seine Kollegen hatten Verständnis dafür. Am Abend hat er das Auto in die Werkstatt gebracht, damit es genau geprüft wird.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Wolf hatte die Panne auf dem Weg nach Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Motor ist überhitzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wolf konnte den Termin nicht verschieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kühlschlauch war das Problem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wolf ist pünktlich zur Arbeit gekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-vereinswechsel-im-sportverein",
+    "nivel": "B1",
+    "titulo": "Der Vereinswechsel im Sportverein",
+    "descripcion": "Niklas wechselt nach vielen Jahren den Fußballverein und muss sich neu orientieren.",
+    "texto": "Niklas hat zehn Jahre lang bei seinem alten Fußballverein gespielt. Obwohl er dort viele Freunde hatte, entschied er sich vor kurzem, den Verein zu wechseln. Der neue Verein trainiert professioneller, und Niklas hoffte, dass er dort bessere Chancen hätte, in einer höheren Liga zu spielen. Trotzdem fiel ihm der Abschied schwer, denn seine alten Mannschaftskameraden waren wie eine zweite Familie für ihn geworden.\n\nNachdem er die Entscheidung getroffen hatte, musste Niklas sich beim neuen Verein vorstellen. Beim ersten Training war er sehr nervös, weil die anderen Spieler ihn nicht kannten und schon lange zusammen spielten. Der Trainer bemerkte seine Unsicherheit und stellte ihn der Mannschaft ausführlich vor. Langsam gewöhnte sich Niklas an die neuen Trainingsmethoden, die deutlich anspruchsvoller waren als beim alten Verein.\n\nNach ein paar Wochen fühlte sich Niklas schon viel wohler. Er hatte mittlerweile ein gutes Verhältnis zu zwei Mitspielern aufgebaut, mit denen er auch außerhalb des Trainings etwas unternahm. Sein altes Team lud ihn trotzdem regelmäßig zu Feiern ein, sodass die Freundschaften nicht verloren gingen. Niklas ist überzeugt, dass der Wechsel die richtige Entscheidung war, auch wenn der Anfang nicht leicht gewesen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Niklas hat nur ein Jahr beim alten Verein gespielt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas wollte im neuen Verein bessere Chancen haben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Abschied vom alten Verein fiel Niklas leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Trainer hat Niklas der Mannschaft vorgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niklas hat den Kontakt zu seinem alten Team komplett verloren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-erste-wohnungsbesichtigung",
+    "nivel": "B1",
+    "titulo": "Die erste Wohnungsbesichtigung",
+    "descripcion": "Julia besichtigt zum ersten Mal allein eine Wohnung und sammelt dabei wichtige Erfahrungen.",
+    "texto": "Julia zieht bald in eine andere Stadt, weil sie dort eine neue Arbeitsstelle angenommen hat. Deshalb musste sie sich auf die Suche nach einer passenden Wohnung machen. Nachdem sie wochenlang Anzeigen im Internet durchsucht hatte, fand sie endlich eine Zweizimmerwohnung, die ihr gefiel. Obwohl sie noch nie allein eine Besichtigung gemacht hatte, meldete sie sich sofort beim Vermieter an.\n\nAm Tag der Besichtigung war Julia ziemlich aufgeregt. Sie hatte eine Liste mit Fragen vorbereitet, weil sie nichts Wichtiges vergessen wollte. Sie fragte den Vermieter nach den Nebenkosten, nach der Isolierung der Fenster und danach, ob Haustiere erlaubt seien. Der Vermieter beantwortete alle Fragen geduldig und zeigte ihr auch den Keller sowie den gemeinsamen Garten.\n\nNachdem Julia die Wohnung genau angeschaut hatte, war sie sich sicher, dass sie einziehen wollte. Die Wohnung war hell, ruhig gelegen und nicht weit von ihrer neuen Arbeitsstelle entfernt. Sie unterschrieb den Mietvertrag noch in derselben Woche. Ihre Eltern halfen ihr später beim Umzug, und Julia war stolz, dass sie die ganze Wohnungssuche allein organisiert hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Julia zieht wegen einer neuen Arbeitsstelle um.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hatte schon oft allein Wohnungen besichtigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vermieter wollte Julias Fragen nicht beantworten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wohnung liegt nicht weit von Julias neuer Arbeit entfernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat den Mietvertrag erst nach Monaten unterschrieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-in-einer-baeckerei",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum in einer Bäckerei",
+    "descripcion": "Emre macht ein zweiwöchiges Praktikum in einer traditionellen Bäckerei und lernt das Handwerk kennen.",
+    "texto": "Emre interessiert sich schon lange für das Bäckerhandwerk, deshalb hat er sich für ein zweiwöchiges Praktikum in einer kleinen Bäckerei beworben. Am ersten Tag musste er bereits um vier Uhr morgens aufstehen, was ihm anfangs sehr schwerfiel. Der Bäckermeister erklärte ihm geduldig, wie der Teig für das Brot vorbereitet wird und worauf man beim Backen achten muss.\n\nNachdem Emre die ersten Tage vor allem zugeschaut hatte, durfte er bald selbst Brötchen formen. Obwohl seine ersten Versuche nicht besonders gleichmäßig aussahen, lobte ihn der Meister für seinen Einsatz. Mit der Zeit wurde Emre schneller und sicherer, sodass er am Ende der ersten Woche schon eigenständig kleinere Aufgaben übernehmen konnte. Besonders gut gefiel ihm der Moment, wenn frisches Brot aus dem Ofen kam und die ganze Backstube nach warmem Gebäck roch.\n\nAm letzten Tag des Praktikums durfte Emre sogar eine eigene Brotsorte ausprobieren, die er mit Sonnenblumenkernen verfeinerte. Der Bäckermeister war von dem Ergebnis überrascht und bot ihm an, nach der Schule eine Ausbildung im Betrieb zu beginnen. Emre freute sich sehr über das Angebot und überlegt nun ernsthaft, Bäcker zu werden. Das Praktikum hat ihm gezeigt, dass harte Arbeit auch viel Freude bereiten kann.",
+    "preguntas": [
+      {
+        "enunciado": "Emre musste am ersten Tag erst um acht Uhr aufstehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bäckermeister hat Emre geduldig alles erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emres erste Brötchen sahen von Anfang an perfekt aus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emre durfte am letzten Tag eine eigene Brotsorte ausprobieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bäckermeister hat Emre eine Ausbildung angeboten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-tempolimit-auf-autobahnen",
+    "nivel": "B2",
+    "titulo": "Die Debatte um ein Tempolimit auf Autobahnen",
+    "descripcion": "Ein gesellschaftlicher Diskurs über die Einführung eines allgemeinen Tempolimits in Deutschland.",
+    "texto": "Seit Jahrzehnten wird in Deutschland kontrovers diskutiert, ob auf den Autobahnen ein generelles Tempolimit eingeführt werden sollte. Während die meisten europäischen Länder längst eine Höchstgeschwindigkeit vorschreiben, gilt Deutschland als eines der letzten Länder, in denen auf vielen Streckenabschnitten unbegrenzt schnell gefahren werden darf. Befürworter eines Tempolimits argumentieren, dass dadurch nicht nur die Zahl schwerer Unfälle gesenkt, sondern auch erhebliche Mengen an CO2 eingespart würden.\n\nGegner des Vorhabens hingegen betonen, dass ein Tempolimit die individuelle Freiheit der Autofahrer einschränke und ohnehin nur einen geringen Effekt auf den Klimaschutz hätte. Zudem wird häufig angeführt, dass die deutsche Automobilindustrie eng mit dem Image schneller, leistungsstarker Fahrzeuge verbunden sei und ein Tempolimit dieses Image beschädigen könnte. Studien, auf die sich beide Seiten berufen, kommen je nach Berechnungsgrundlage zu unterschiedlichen Ergebnissen, was die Debatte zusätzlich verkompliziert.\n\nSollte ein Tempolimit tatsächlich eingeführt werden, müsste die Politik zunächst klären, welche Höchstgeschwindigkeit sinnvoll wäre und wie eine solche Regelung kontrolliert werden könnte. Viele Expertinnen und Experten sind sich einig, dass ein Tempolimit von 130 Kilometern pro Stunde ein sinnvoller Kompromiss zwischen Sicherheit, Umweltschutz und individueller Mobilität wäre. Trotzdem bleibt das Thema politisch heikel, da es tief in gesellschaftliche Vorstellungen von Freiheit und Selbstbestimmung eingreift. Es ist daher wahrscheinlich, dass die Debatte auch in den kommenden Jahren nicht abreißen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Deutschland hat bereits seit Jahrzehnten ein generelles Tempolimit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter eines Tempolimits verweisen unter anderem auf den Klimaschutz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Studien zu diesem Thema kommen zum gleichen Ergebnis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Expertinnen und Experten halten 130 km/h für einen sinnvollen Kompromiss.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Thema gilt in der Politik als völlig unumstritten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "einsamkeit-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Einsamkeit im digitalen Zeitalter",
+    "descripcion": "Ein Essay über den paradoxen Zusammenhang zwischen digitaler Vernetzung und zunehmender Einsamkeit.",
+    "texto": "Obwohl die Menschen heute so vernetzt sind wie nie zuvor, klagen immer mehr Menschen über ein Gefühl der Einsamkeit. Soziale Netzwerke, Messenger-Dienste und Videotelefonie ermöglichen es, jederzeit mit anderen in Kontakt zu treten, dennoch scheint die gefühlte Nähe zu anderen Menschen abzunehmen. Soziologinnen und Soziologen sprechen in diesem Zusammenhang von einem Paradox der digitalen Vernetzung: Je mehr Kontakte online gepflegt werden, desto oberflächlicher werden sie oft erlebt.\n\nEin möglicher Grund dafür liegt darin, dass digitale Kommunikation zwischenmenschliche Nähe nur bedingt ersetzen kann. Während ein persönliches Gespräch Mimik, Gestik und Tonfall vermittelt, reduziert sich die Kommunikation in sozialen Medien häufig auf kurze Textnachrichten oder oberflächliche Kommentare. Hinzu kommt, dass Nutzerinnen und Nutzer in sozialen Netzwerken meist nur ausgewählte, positive Ausschnitte ihres Lebens präsentieren, wodurch bei anderen der Eindruck entstehen kann, alle außer einem selbst führten ein erfülltes Leben. Dieser Vergleich mit vermeintlich perfekten Leben kann das Gefühl der Isolation zusätzlich verstärken.\n\nUm dieser Entwicklung entgegenzuwirken, würden viele Expertinnen und Experten empfehlen, bewusster mit digitalen Medien umzugehen und reale Begegnungen aktiv zu suchen. Wäre es beispielsweise möglich, feste Zeiten ohne Bildschirm einzuplanen, könnten dadurch mehr Gelegenheiten für echte zwischenmenschliche Nähe entstehen. Auch Gemeinschaftsprojekte, Vereine und Nachbarschaftsinitiativen werden zunehmend als Gegenmittel zur digitalen Isolation diskutiert. Letztlich zeigt sich, dass technischer Fortschritt allein keine Garantie für soziales Wohlbefinden darstellt.",
+    "preguntas": [
+      {
+        "enunciado": "Trotz zunehmender Vernetzung berichten viele Menschen von Einsamkeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Digitale Kommunikation vermittelt laut Text genauso viel Nähe wie persönliche Gespräche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In sozialen Netzwerken zeigen Nutzerinnen und Nutzer meist nur positive Ausschnitte ihres Lebens.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text empfiehlt, digitale Medien komplett zu meiden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Vereine und Nachbarschaftsinitiativen werden als mögliches Gegenmittel genannt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-des-konsumverhaltens",
+    "nivel": "B2",
+    "titulo": "Der Wandel des Konsumverhaltens",
+    "descripcion": "Eine Analyse darüber, wie sich Kaufgewohnheiten durch Nachhaltigkeitsbewusstsein und Onlinehandel verändert haben.",
+    "texto": "In den letzten Jahren hat sich das Konsumverhalten vieler Menschen in Deutschland spürbar verändert. Während früher vor allem Preis und Verfügbarkeit über eine Kaufentscheidung bestimmten, spielen heute zunehmend Fragen der Nachhaltigkeit und der sozialen Verantwortung eine Rolle. Immer mehr Verbraucherinnen und Verbraucher achten darauf, unter welchen Bedingungen ein Produkt hergestellt wurde und welchen ökologischen Fußabdruck es hinterlässt. Dieser Wertewandel wird sowohl von jüngeren als auch von älteren Generationen zunehmend mitgetragen.\n\nGleichzeitig hat der Onlinehandel den Konsum grundlegend verändert. Produkte, die früher mühsam in mehreren Geschäften gesucht werden mussten, können heute innerhalb weniger Minuten bestellt und oft schon am nächsten Tag geliefert werden. Diese Bequemlichkeit hat jedoch auch Schattenseiten: Kritikerinnen und Kritiker weisen darauf hin, dass durch häufige Retouren und lange Lieferketten zusätzliche Umweltbelastungen entstehen, die dem eigentlichen Wunsch nach mehr Nachhaltigkeit widersprechen. Es entsteht somit ein Spannungsfeld zwischen bequemem Konsum und ökologischem Anspruch.\n\nUm diesem Widerspruch zu begegnen, setzen manche Unternehmen inzwischen auf transparente Lieferketten und regionale Produktion, während andere versuchen, durch Second-Hand-Plattformen und Reparaturdienste eine Alternative zum ständigen Neukauf zu bieten. Sollten sich diese Modelle weiter durchsetzen, könnte sich das Konsumverhalten in Zukunft noch stärker verändern. Ob dieser Wandel jedoch ausreicht, um die ökologischen Herausforderungen des Massenkonsums grundlegend zu lösen, bleibt eine offene Frage, die Wirtschaft, Politik und Gesellschaft gleichermaßen betrifft.",
+    "preguntas": [
+      {
+        "enunciado": "Früher spielte vor allem der Preis eine entscheidende Rolle beim Kauf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Onlinehandel hat den Konsum kaum verändert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Häufige Retouren können laut Text zusätzliche Umweltbelastungen verursachen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen setzen inzwischen ausschließlich auf regionale Produktion.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text betrachtet die Frage nach einer vollständigen Lösung des Problems als offen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
