@@ -27266,5 +27266,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-familie-stellt-sich-vor",
+    "nivel": "A1",
+    "titulo": "Meine Familie stellt sich vor",
+    "descripcion": "Lena beschreibt kurz ihre Familie und ihre Wohnung.",
+    "texto": "Ich heiße Lena und ich bin zehn Jahre alt. Meine Familie ist nicht groß. Ich habe einen Bruder und eine Schwester. Mein Bruder heißt Tim und meine Schwester heißt Mia. Wir wohnen in einem kleinen Haus mit einem Garten.\n\nMeine Mutter heißt Julia und arbeitet in einer Schule. Mein Vater heißt Peter und arbeitet in einer Bäckerei. Am Morgen backt er Brot und Brötchen. Ich esse gern Brötchen mit Marmelade zum Frühstück.\n\nAm Wochenende spielen wir oft im Garten. Tim spielt Fußball und Mia malt Bilder. Ich lese gern Bücher. Unser Hund heißt Bruno und er spielt auch mit uns. Wir sind eine glückliche Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat zwei Geschwister.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas Vater arbeitet in einer Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie wohnt in einem großen Haus ohne Garten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena isst gern Brötchen mit Marmelade.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund der Familie heißt Bruno.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenmarkt-am-samstag",
+    "nivel": "A1",
+    "titulo": "Der Wochenmarkt am Samstag",
+    "descripcion": "Paul geht mit seiner Mutter auf den Wochenmarkt.",
+    "texto": "Jeden Samstag geht Paul mit seiner Mutter auf den Wochenmarkt. Der Markt ist in der Stadtmitte. Dort gibt es viel Obst und Gemüse. Paul mag Äpfel und Bananen sehr gern.\n\nSeine Mutter kauft Kartoffeln, Karotten und Zwiebeln. An einem Stand gibt es auch Käse und Eier. Paul möchte gelben Käse kaufen. Er kostet zwei Euro. Die Mutter sagt: „Ja, das ist okay.\"\n\nNach dem Einkauf trinken sie einen Saft an einem kleinen Café. Der Saft ist orange und süß. Paul ist glücklich. Der Wochenmarkt ist sein Lieblingsort am Samstag.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht sonntags auf den Markt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul mag Äpfel und Bananen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter kauft nur Obst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Käse kostet zwei Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trinkt am Ende Kaffee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsessen-zum-fruehstueck",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsessen zum Frühstück",
+    "descripcion": "Sofia erzählt, was sie jeden Morgen gerne isst und trinkt.",
+    "texto": "Ich heiße Sofia und ich stehe jeden Tag um sieben Uhr auf. Zum Frühstück esse ich gern Müsli mit Milch und frischen Erdbeeren. Manchmal esse ich auch ein Ei und ein Stück Brot mit Butter.\n\nIch trinke ein Glas Orangensaft und danach eine Tasse Tee. Mein Bruder trinkt lieber Kaffee, aber ich finde Kaffee zu bitter. Meine Familie frühstückt immer zusammen am Tisch in der Küche.\n\nNach dem Frühstück putze ich meine Zähne und gehe zur Schule. Die Schule beginnt um acht Uhr. Ich mag mein Frühstück, weil es mir Energie für den Tag gibt.",
+    "preguntas": [
+      {
+        "enunciado": "Sofia steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia isst zum Frühstück nur Schokolade.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofia trinkt lieber Kaffee als Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie frühstückt zusammen in der Küche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schule beginnt um neun Uhr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-von-meiner-brieffreundin",
+    "nivel": "A2",
+    "titulo": "Der Brief von meiner Brieffreundin",
+    "descripcion": "Nora hat einen Brief von ihrer Brieffreundin aus Österreich bekommen.",
+    "texto": "Letzte Woche hat Nora einen Brief von ihrer Brieffreundin Klara aus Österreich bekommen. Klara hat geschrieben, dass sie im Sommer nach Deutschland kommen möchte, weil sie Nora endlich persönlich kennenlernen will. Nora hat sich sehr gefreut, denn die beiden schreiben sich schon seit zwei Jahren Briefe.\n\nIn dem Brief hat Klara auch erzählt, dass sie letztes Jahr mit ihrer Familie in den Bergen gewandert ist. Sie hat viele Fotos von den Alpen gemacht und einige davon in den Brief gelegt. Nora hat die Fotos angeschaut und fand die Landschaft wunderschön. Sie hat sofort geantwortet und geschrieben, dass Klara bei ihr wohnen kann, wenn sie zu Besuch kommt.\n\nNora hat ihrer Mutter von dem Plan erzählt. Ihre Mutter war begeistert und hat gesagt, dass sie Klara herzlich willkommen heißen. Nora zählt jetzt die Tage bis zum Sommer, weil sie sich so sehr auf den Besuch freut.",
+    "preguntas": [
+      {
+        "enunciado": "Klara kommt aus der Schweiz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nora und Klara schreiben sich seit zwei Jahren Briefe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Klara ist letztes Jahr in den Bergen gewandert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nora findet die Fotos langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Noras Mutter ist gegen den Besuch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "beim-hautarzt",
+    "nivel": "A2",
+    "titulo": "Beim Hautarzt",
+    "descripcion": "Jonas hat einen Ausschlag am Arm und geht deshalb zum Hautarzt.",
+    "texto": "Jonas hat seit ein paar Tagen einen roten Ausschlag am Arm bemerkt. Er hat zuerst gedacht, dass es nicht schlimm ist, aber der Ausschlag ist größer geworden. Deshalb hat er gestern einen Termin beim Hautarzt gemacht.\n\nIn der Praxis hat die Ärztin seinen Arm genau untersucht und ein paar Fragen gestellt. Sie hat gefragt, ob er neue Seife oder Creme benutzt hat. Jonas hat geantwortet, dass er tatsächlich eine neue Handcreme gekauft hat. Die Ärztin hat erklärt, dass er wahrscheinlich allergisch auf einen Stoff in der Creme reagiert.\n\nSie hat ihm eine Salbe gegen die Allergie verschrieben und gesagt, dass er die neue Creme nicht mehr benutzen soll. Nach drei Tagen ist der Ausschlag schon viel kleiner geworden. Jonas ist froh, dass er zum Arzt gegangen ist, weil das Problem jetzt fast verschwunden ist.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte einen Ausschlag am Bein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas ist zum Hautarzt gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Ärztin vermutet eine Allergie gegen eine neue Creme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Ärztin sagt, Jonas soll die Creme weiter benutzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach drei Tagen war der Ausschlag kleiner.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-an-der-nordsee",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende an der Nordsee",
+    "descripcion": "Tim und seine Familie haben ein Wochenende an der Nordsee verbracht.",
+    "texto": "Am letzten Wochenende ist Tim mit seinen Eltern an die Nordsee gefahren. Sie haben ein kleines Ferienhaus in der Nähe des Strandes gemietet, weil sie noch nie dort waren. Die Fahrt hat ungefähr drei Stunden gedauert, aber Tim hat die Zeit im Auto nicht als lang empfunden, weil er Musik gehört hat.\n\nAm Samstag sind sie früh aufgestanden und zum Strand gegangen. Das Wetter war windig, aber die Sonne hat trotzdem geschienen. Tim hat mit seinem Vater eine lange Strecke am Wasser entlang gespielt, während seine Mutter Muscheln gesammelt hat. Am Nachmittag haben sie in einem kleinen Restaurant frischen Fisch gegessen, weil das Restaurant direkt am Hafen lag.\n\nAm Sonntag sind sie noch auf eine kleine Insel gefahren, bevor sie am Abend wieder nach Hause gefahren sind. Tim hat seiner besten Freundin viele Fotos vom Meer geschickt. Er hat gesagt, dass er bald wieder an die Nordsee fahren möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist mit seinen Eltern an die Nordsee gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat in einem Hotel übernachtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag war das Wetter windig, aber sonnig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben am Sonntag keine Insel besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim möchte nie wieder an die Nordsee fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-schulausflug-in-die-berge",
+    "nivel": "B1",
+    "titulo": "Ein Schulausflug in die Berge",
+    "descripcion": "Eine Klasse macht trotz schlechtem Wetter einen Ausflug in die Berge.",
+    "texto": "Die Klasse 9b hatte lange auf den Schulausflug in die Berge gewartet. Obwohl der Wetterbericht für den Tag Regen angekündigt hatte, wollte niemand den Ausflug verschieben. Also machten sich die Schüler früh am Morgen mit dem Bus auf den Weg, begleitet von zwei Lehrern und einem erfahrenen Bergführer.\n\nAls der Bus in den Bergen ankam, regnete es tatsächlich leicht, doch die Stimmung blieb gut. Nachdem alle ihre Regenjacken angezogen hatten, begann die Wanderung zu einer Berghütte. Der Weg war teilweise steil und rutschig, trotzdem schafften es alle Schüler, ohne größere Probleme oben anzukommen. In der Hütte konnten sie sich aufwärmen und eine warme Suppe essen, während draußen der Regen langsam aufhörte.\n\nAm Nachmittag kam sogar die Sonne heraus, und die Schüler genossen den Ausblick auf das Tal. Einige machten Fotos, andere spielten Karten oder unterhielten sich über die Wanderung. Auf dem Rückweg waren sich alle einig, dass der Ausflug trotz des schlechten Starts ein voller Erfolg gewesen war. Viele sagten, dass sie am liebsten gleich wieder in die Berge fahren würden.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wetterbericht hatte Sonnenschein angekündigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat den Ausflug wegen des Wetters verschoben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Bergführer hat die Klasse begleitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Berghütte haben die Schüler eine warme Suppe gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Tages waren alle Schüler enttäuscht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-eine-andere-stadt",
+    "nivel": "B1",
+    "titulo": "Der Umzug in eine andere Stadt",
+    "descripcion": "Felix zieht wegen eines neuen Jobs in eine unbekannte Stadt.",
+    "texto": "Felix hatte fünf Jahre lang in derselben Stadt gelebt, als er eine neue Stelle in einer anderen Region des Landes bekam. Obwohl er sich über die Beförderung freute, fiel ihm der Gedanke an den Umzug nicht leicht. Er musste seine Wohnung kündigen, neue Möbel besorgen und sich von seinen Freunden verabschieden.\n\nNachdem er in der neuen Stadt angekommen war, fühlte er sich zunächst einsam, weil er dort niemanden kannte. Trotzdem versuchte er, offen auf andere Menschen zuzugehen. Er meldete sich bei einem Sportverein an und lernte dort schnell einige nette Leute kennen. Auch seine neuen Kollegen luden ihn regelmäßig zum Mittagessen ein, was ihm half, sich schneller einzuleben.\n\nNach ein paar Monaten hatte Felix bereits einen festen Freundeskreis in der neuen Stadt gefunden. Er entdeckte gemütliche Cafés, schöne Parks und interessante Museen, die er vorher nicht gekannt hatte. Rückblickend war er froh, dass er sich trotz seiner anfänglichen Zweifel für den Umzug entschieden hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist wegen einer neuen Arbeitsstelle umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix fiel der Umzug von Anfang an sehr leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat sich in der neuen Stadt einem Sportverein angeschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seine neuen Kollegen haben ihn nie eingeladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix bereut am Ende seine Entscheidung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-ueber-grenzen-hinweg",
+    "nivel": "B1",
+    "titulo": "Freundschaft über Grenzen hinweg",
+    "descripcion": "Zwei Freundinnen aus verschiedenen Ländern halten ihre Freundschaft trotz der Entfernung aufrecht.",
+    "texto": "Emma und Yasmin haben sich vor drei Jahren während eines Sprachkurses in Berlin kennengelernt. Obwohl Emma aus Kanada und Yasmin aus Marokko kommt, verstanden sie sich von Anfang an sehr gut. Nachdem der Kurs beendet war, kehrten beide in ihre Heimatländer zurück, doch ihre Freundschaft endete nicht.\n\nSeitdem schreiben sie sich fast jeden Tag Nachrichten und telefonieren einmal pro Woche über Video. Obwohl die Zeitverschiebung manchmal ein Problem ist, finden sie immer eine passende Zeit für ihre Gespräche. Sie erzählen sich gegenseitig von ihrem Alltag, ihren Sorgen und ihren Erfolgen, als ob sie im selben Land leben würden.\n\nLetztes Jahr besuchte Yasmin Emma in Kanada, und beide verbrachten zwei unvergessliche Wochen zusammen. Trotzdem freuen sie sich schon auf ihr nächstes Treffen, das für den kommenden Sommer geplant ist. Ihre Freundschaft zeigt, dass Entfernung kein Hindernis sein muss, wenn man wirklich verbunden ist.",
+    "preguntas": [
+      {
+        "enunciado": "Emma und Yasmin haben sich in Berlin kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Yasmin kommt aus Kanada.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Freundinnen haben seit dem Sprachkurs keinen Kontakt mehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Yasmin hat Emma letztes Jahr in Kanada besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie planen kein weiteres Treffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungsnot-in-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Die Wohnungsnot in Großstädten",
+    "descripcion": "Eine Analyse der steigenden Mietpreise und ihrer Folgen für junge Menschen in deutschen Großstädten.",
+    "texto": "In den letzten Jahren hat sich die Situation auf dem Wohnungsmarkt vieler deutscher Großstädte drastisch verschärft. Die Mietpreise sind in Städten wie München, Berlin und Hamburg so stark gestiegen, dass sich immer mehr Menschen, insbesondere Studierende und Berufseinsteiger, kaum noch eine eigene Wohnung leisten können. Während früher eine einzelne Anzeige für eine Wohnung wenige Bewerbungen erhielt, konkurrieren heute oft mehrere Hundert Interessenten um eine einzige Wohnung.\n\nAls Hauptursache für diese Entwicklung wird häufig das Missverhältnis zwischen Angebot und Nachfrage genannt. Es würden schlicht zu wenige neue Wohnungen gebaut, um mit dem Bevölkerungswachstum in den Ballungsräumen Schritt zu halten. Hinzu kommt, dass viele Investoren lieber in hochpreisige Neubauten investieren, da sich damit höhere Gewinne erzielen lassen, während bezahlbarer Wohnraum vernachlässigt wird. Kritiker fordern deshalb, dass der Staat stärker eingreifen und den sozialen Wohnungsbau massiv fördern sollte.\n\nWäre die Politik bereit, konsequente Maßnahmen wie eine strengere Mietpreisbremse oder höhere Investitionen in genossenschaftliches Wohnen umzusetzen, könnte die Lage sich mittelfristig verbessern. Bis dahin bleibt vielen jungen Menschen jedoch nichts anderes übrig, als entweder in Wohngemeinschaften zu leben, lange Pendelstrecken in Kauf zu nehmen oder ganz aus den Großstädten wegzuziehen. Die Wohnungsnot wird daher zunehmend als eines der drängendsten sozialen Probleme unserer Zeit wahrgenommen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Grund für die Wohnungsnot ist, dass zu wenige neue Wohnungen gebaut werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Investoren bauen laut dem Text vor allem bezahlbaren Wohnraum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker fordern eine stärkere staatliche Förderung des sozialen Wohnungsbaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text beschreibt die Wohnungsnot als ein unwichtiges Randthema.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "work-life-balance-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Work-Life-Balance im digitalen Zeitalter",
+    "descripcion": "Wie ständige Erreichbarkeit die Grenze zwischen Arbeit und Freizeit verschwimmen lässt.",
+    "texto": "Die zunehmende Digitalisierung der Arbeitswelt hat den Alltag vieler Berufstätiger grundlegend verändert. Smartphones und Laptops ermöglichen es, praktisch von überall aus zu arbeiten, was einerseits mehr Flexibilität bietet, andererseits jedoch dazu führt, dass die Grenze zwischen Arbeit und Freizeit zunehmend verschwimmt. Viele Angestellte berichten, dass sie auch nach Feierabend E-Mails checken oder auf Nachrichten von Kollegen reagieren, obwohl sie eigentlich abschalten möchten.\n\nUntersuchungen zeigen, dass diese ständige Erreichbarkeit langfristig zu erhöhtem Stress und in manchen Fällen sogar zu Burnout führen kann. Wenn Mitarbeiter das Gefühl haben, niemals wirklich frei zu sein, leidet nicht nur ihre psychische Gesundheit, sondern häufig auch ihre Produktivität. Manche Unternehmen haben deshalb begonnen, klare Regeln einzuführen, etwa indem E-Mail-Server außerhalb der Arbeitszeiten deaktiviert werden oder Mitarbeitende ausdrücklich dazu ermutigt werden, ihr Diensthandy abends beiseitezulegen.\n\nWäre es möglich, dass jeder Einzelne stärker auf klare Grenzen achtet, könnte die digitale Belastung deutlich reduziert werden. Experten empfehlen unter anderem feste Arbeitszeiten, bewusste Pausen ohne Bildschirme sowie offene Gespräche mit Vorgesetzten über realistische Erwartungen. Letztlich hängt eine gesunde Work-Life-Balance sowohl von den Rahmenbedingungen der Unternehmen als auch von der persönlichen Disziplin jedes Einzelnen ab.",
+    "preguntas": [
+      {
+        "enunciado": "Digitale Geräte machen es unmöglich, von unterwegs zu arbeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text verschwimmt durch die Digitalisierung die Grenze zwischen Arbeit und Freizeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ständige Erreichbarkeit kann laut Untersuchungen zu Burnout führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen im Text lehnen es ab, Regeln für die Erreichbarkeit einzuführen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten empfehlen unter anderem feste Arbeitszeiten und bewusste Pausen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkritik-im-zeitalter-der-sozialen-netzwerke",
+    "nivel": "B2",
+    "titulo": "Medienkritik im Zeitalter der sozialen Netzwerke",
+    "descripcion": "Ein Blick auf die Herausforderungen der Nachrichtenbewertung in Zeiten von Social Media.",
+    "texto": "Soziale Netzwerke haben die Art und Weise, wie Nachrichten konsumiert und verbreitet werden, in den vergangenen Jahren grundlegend verändert. Während früher etablierte Zeitungen und Fernsehsender als zentrale Informationsquellen galten, informieren sich heute viele Menschen vor allem über Plattformen wie Instagram, TikTok oder X. Diese Entwicklung bringt zwar mehr Meinungsvielfalt mit sich, birgt aber auch erhebliche Risiken, da Informationen oft ungeprüft und ohne journalistische Sorgfalt weiterverbreitet werden.\n\nEin zentrales Problem besteht darin, dass Algorithmen häufig solche Inhalte bevorzugen, die starke Emotionen auslösen, unabhängig davon, ob sie inhaltlich korrekt sind. Dadurch können Falschmeldungen sich rasant verbreiten, bevor sie überhaupt von Faktenprüfern widerlegt werden können. Besonders jüngere Nutzer, die einen Großteil ihrer Informationen über soziale Medien beziehen, laufen Gefahr, verzerrte oder einseitige Darstellungen der Realität für bare Münze zu nehmen.\n\nUm dieser Entwicklung entgegenzuwirken, fordern viele Bildungsexperten, dass Medienkompetenz stärker in den Lehrplänen verankert werden sollte, damit Schülerinnen und Schüler lernen, Quellen kritisch zu hinterfragen. Würden mehr Menschen lernen, zwischen seriösem Journalismus und reiner Meinungsmache zu unterscheiden, ließe sich die Verbreitung von Desinformation deutlich eindämmen. Bis dahin bleibt es jedoch in erster Linie die Aufgabe jedes Einzelnen, Nachrichten aus sozialen Netzwerken stets kritisch zu hinterfragen.",
+    "preguntas": [
+      {
+        "enunciado": "Früher galten Zeitungen und Fernsehsender als zentrale Informationsquellen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text werden Informationen in sozialen Netzwerken immer sorgfältig geprüft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen bevorzugen oft Inhalte, die starke Emotionen auslösen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sagt, dass jüngere Nutzer nie von Falschmeldungen betroffen sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern mehr Medienkompetenz in den Lehrplänen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
