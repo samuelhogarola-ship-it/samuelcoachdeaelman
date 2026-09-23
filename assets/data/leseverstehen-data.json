@@ -29006,5 +29006,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-blaue-pullover",
+    "nivel": "A1",
+    "titulo": "Der blaue Pullover",
+    "descripcion": "Tom kauft einen neuen Pullover für den Winter.",
+    "texto": "Tom geht heute in die Stadt. Er braucht einen neuen Pullover für den Winter. Im Geschäft sieht er viele Farben: rot, grün, gelb und blau. Tom mag die Farbe Blau sehr gern.\n\nEr nimmt einen blauen Pullover und geht zur Kabine. Der Pullover ist weich und warm. Tom schaut in den Spiegel. „Der Pullover gefällt mir!“, sagt er. Der Pullover kostet zwanzig Euro. Das ist nicht teuer.\n\nTom bezahlt an der Kasse und geht glücklich nach Hause. Zu Hause zeigt er den Pullover seiner Schwester. Sie findet die Farbe auch sehr schön. Am Abend trägt Tom seinen neuen Pullover.",
+    "preguntas": [
+      {
+        "enunciado": "Tom kauft einen Pullover für den Sommer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom mag die Farbe Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Pullover ist zu teuer für Tom.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom bezahlt an der Kasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Toms Schwester findet die Farbe nicht schön.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-wecker-klingelt",
+    "nivel": "A1",
+    "titulo": "Mein Wecker klingelt",
+    "descripcion": "Ein Junge beschreibt seinen Morgen von Aufstehen bis Schule.",
+    "texto": "Jeden Morgen klingelt mein Wecker um sechs Uhr. Ich stehe schnell auf und gehe ins Bad. Ich putze meine Zähne und wasche mein Gesicht. Danach ziehe ich mich an.\n\nIn der Küche esse ich Brot mit Marmelade und trinke ein Glas Milch. Meine Mutter macht Kaffee für sich. Mein kleiner Bruder trinkt Kakao. Um sieben Uhr packe ich meine Schultasche.\n\nIch fahre mit dem Fahrrad zur Schule. Der Weg dauert zehn Minuten. Die Schule beginnt um acht Uhr. Ich mag meine Klasse und meine Lehrerin sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wecker klingelt um sechs Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Junge isst Reis zum Frühstück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bruder trinkt Kakao.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Junge fährt mit dem Bus zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schule beginnt um acht Uhr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-geburtstag-von-lena",
+    "nivel": "A1",
+    "titulo": "Der Geburtstag von Lena",
+    "descripcion": "Lena feiert ihren siebten Geburtstag mit Familie und Freunden.",
+    "texto": "Heute hat Lena Geburtstag. Sie wird sieben Jahre alt. Ihre Mutter backt einen Schokoladenkuchen mit sieben Kerzen. Lena ist sehr aufgeregt.\n\nAm Nachmittag kommen ihre Freunde. Sie bringen bunte Geschenke mit. Lena bekommt ein neues Buch, einen Ball und eine Puppe. Alle Kinder singen ein Geburtstagslied. Lena bläst die Kerzen aus.\n\nNach dem Kuchen spielen die Kinder im Garten. Sie spielen Fußball und lachen viel. Am Abend ist Lena müde, aber sehr glücklich. Es war ein schöner Tag für sie.",
+    "preguntas": [
+      {
+        "enunciado": "Lena wird sieben Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter backt einen Apfelkuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena bekommt ein Buch geschenkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen im Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena ist am Abend traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zugfahrt-nach-muenchen",
+    "nivel": "A2",
+    "titulo": "Die Zugfahrt nach München",
+    "descripcion": "Paul erzählt von seiner Zugreise nach München und einem kleinen Problem unterwegs.",
+    "texto": "Letzte Woche ist Paul mit dem Zug nach München gefahren. Er wollte seine alten Freunde besuchen, weil er sie lange nicht gesehen hatte. Der Zug ist um acht Uhr morgens in Frankfurt abgefahren.\n\nWährend der Fahrt hat Paul ein Buch gelesen und Kaffee getrunken. Nach zwei Stunden ist der Zug plötzlich stehen geblieben. Es gab ein technisches Problem, und alle Passagiere mussten eine Stunde warten. Paul war etwas nervös, weil er dachte, dass er seinen Anschlusszug verpassen würde.\n\nZum Glück ist der Zug dann weitergefahren, und Paul ist rechtzeitig in München angekommen. Seine Freunde haben ihn am Bahnhof abgeholt. Sie waren sehr froh, dass sie sich endlich wiedersehen konnten. Am Abend haben sie zusammen in einem gemütlichen Restaurant gegessen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist mit dem Auto nach München gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug hatte unterwegs ein technisches Problem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat seinen Anschlusszug verpasst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Freunde haben ihn am Bahnhof abgeholt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend sind sie sofort nach Hause gegangen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarin-aus-italien",
+    "nivel": "A2",
+    "titulo": "Die Nachbarin aus Italien",
+    "descripcion": "Eine neue Nachbarin zieht ein und lernt die Familie nebenan kennen.",
+    "texto": "Vor einem Monat ist eine neue Nachbarin bei uns eingezogen. Sie heißt Giulia und kommt aus Italien. Am ersten Tag hat sie an unsere Tür geklopft, weil sie sich vorstellen wollte. Meine Mutter hat sie sofort zum Kaffee eingeladen.\n\nGiulia hat uns erzählt, dass sie wegen ihrer neuen Arbeit nach Deutschland gezogen ist. Sie arbeitet als Ärztin in einem Krankenhaus in der Nähe. Am Anfang war es für sie schwierig, weil sie die Sprache noch nicht so gut konnte. Trotzdem hat sie schnell Deutsch gelernt und neue Freunde gefunden.\n\nLetzten Sonntag hat Giulia uns zu einem italienischen Abendessen eingeladen. Sie hat Pasta und Tiramisu gekocht, und alles hat fantastisch geschmeckt. Wir haben uns sehr gefreut, dass wir jetzt eine so nette Nachbarin haben.",
+    "preguntas": [
+      {
+        "enunciado": "Giulia kommt aus Spanien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Giulia arbeitet als Ärztin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Giulia konnte am Anfang schon perfekt Deutsch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Giulia hat die Familie zum Abendessen eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim Abendessen gab es Pasta und Tiramisu.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-erkaeltung-im-winter",
+    "nivel": "A2",
+    "titulo": "Die Erkältung im Winter",
+    "descripcion": "Markus wird im Winter krank und muss zum Arzt gehen.",
+    "texto": "Letzten Winter ist Markus krank geworden. Er hatte Halsschmerzen, Husten und Fieber. Weil es ihm immer schlechter ging, ist er zum Arzt gegangen. Der Arzt hat gesagt, dass Markus eine starke Erkältung hat.\n\nDer Arzt hat ihm Medikamente verschrieben und empfohlen, viel zu trinken und sich auszuruhen. Markus ist drei Tage zu Hause geblieben und hat nicht gearbeitet. Er hat viel Tee getrunken und ist früh ins Bett gegangen. Seine Kollegin hat ihm sogar Suppe vorbeigebracht, weil sie wusste, dass er allein wohnt.\n\nNach einer Woche hat sich Markus wieder gesund gefühlt. Er war froh, dass er wieder zur Arbeit gehen konnte. Diese Erfahrung hat ihm gezeigt, wie wichtig es ist, sich im Winter warm anzuziehen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte im Sommer eine Erkältung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat Markus Medikamente verschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus ist sofort wieder zur Arbeit gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kollegin hat ihm Suppe gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach einer Woche fühlte sich Markus wieder gesund.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-abschlussfeier-der-schule",
+    "nivel": "B1",
+    "titulo": "Die Abschlussfeier der Schule",
+    "descripcion": "Eine Schülerin blickt auf die Abschlussfeier ihrer Klasse zurück, obwohl der Abschied schwerfällt.",
+    "texto": "Nach zwölf Jahren Schule fand endlich die Abschlussfeier statt, obwohl viele Schüler nicht glauben konnten, dass diese Zeit schon vorbei war. Die Aula war festlich geschmückt, und alle Familien saßen gespannt in den Reihen. Die Klassenlehrerin hielt eine bewegende Rede über die vergangenen Jahre und die Herausforderungen, die die Klasse gemeinsam gemeistert hatte.\n\nAls die Zeugnisse verteilt wurden, herrschte eine Mischung aus Freude und Wehmut im Raum. Manche Schüler weinten vor Rührung, andere lachten und umarmten sich. Obwohl die Abschlussprüfungen anstrengend gewesen waren, überwog am Ende die Erleichterung. Nachdem die letzte Rede gehalten worden war, warfen die Schüler traditionell ihre Mützen in die Luft.\n\nAm Abend feierte die Klasse noch gemeinsam in einem gemieteten Saal. Trotzdem war allen bewusst, dass sich ihre Wege bald trennen würden, da einige zum Studium in andere Städte ziehen wollten. Diese Erkenntnis machte den Abend besonders emotional, aber auch unvergesslich für alle Beteiligten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Abschlussfeier fand in der Aula statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klassenlehrerin hielt keine Rede.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Schüler waren nur traurig und niemand freute sich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler warfen ihre Mützen in die Luft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Feier bleiben alle Schüler in derselben Stadt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-neuen-buero",
+    "nivel": "B1",
+    "titulo": "Ein Tag im neuen Büro",
+    "descripcion": "Sophie beschreibt ihren ersten Arbeitstag in einer neuen Firma und ihre gemischten Gefühle.",
+    "texto": "Sophie hatte lange auf diesen Tag gewartet, denn heute begann ihre neue Stelle in einem mittelständischen Unternehmen. Obwohl sie sich gut vorbereitet hatte, war sie am Morgen sehr nervös. Als sie das Bürogebäude betrat, wurde sie freundlich von ihrer neuen Kollegin empfangen, die ihr sofort einen Kaffee anbot.\n\nWährend des Vormittags lernte Sophie ihre Aufgaben kennen und wurde in verschiedene Projekte eingeführt. Nachdem sie das Team kennengelernt hatte, fühlte sie sich schon etwas wohler. Trotzdem gab es viele neue Informationen, die sie sich merken musste, und am Nachmittag war sie ziemlich erschöpft. Ihr Chef erklärte ihr geduldig die wichtigsten Abläufe im Büro.\n\nAm Ende des Tages war Sophie zwar müde, aber auch zufrieden. Sie hatte das Gefühl, dass sie sich in diesem Team gut zurechtfinden würde, obwohl noch vieles unbekannt war. Auf dem Nachhauseweg dachte sie voller Vorfreude an die kommenden Wochen in ihrer neuen Position.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie begann heute eine neue Stelle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie war am Morgen völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kollegin hat ihr einen Kaffee angeboten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie fühlte sich am Ende des Tages unzufrieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Chef erklärte ihr die wichtigsten Abläufe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nachdem-der-sturm-vorbei-war",
+    "nivel": "B1",
+    "titulo": "Nachdem der Sturm vorbei war",
+    "descripcion": "Ein Dorf hilft sich gegenseitig, nachdem ein heftiger Sturm große Schäden verursacht hat.",
+    "texto": "In der vergangenen Nacht zog ein heftiger Sturm über das kleine Dorf hinweg. Bäume wurden entwurzelt, und einige Dächer wurden beschädigt, obwohl die Bewohner sich so gut wie möglich vorbereitet hatten. Am nächsten Morgen sah die Hauptstraße aus wie ein Trümmerfeld, und viele Menschen konnten kaum glauben, wie stark der Sturm gewesen war.\n\nNachdem sich der erste Schock gelegt hatte, begannen die Nachbarn sofort damit, sich gegenseitig zu helfen. Herr Berger, der Besitzer des Dorfladens, öffnete sein Geschäft früher als sonst, damit die Menschen Werkzeug und Baumaterial kaufen konnten. Trotzdem dauerte es mehrere Tage, bis die größten Schäden beseitigt waren, denn es gab einfach zu viel zu tun.\n\nAm Ende der Woche organisierte die Dorfgemeinschaft ein gemeinsames Essen, um sich für die Hilfe zu bedanken. Viele Bewohner erzählten, dass sie sich durch diese schwierige Zeit noch enger mit ihren Nachbarn verbunden fühlten. Der Sturm hatte zwar große Schäden angerichtet, aber auch gezeigt, wie stark der Zusammenhalt im Dorf war.",
+    "preguntas": [
+      {
+        "enunciado": "Der Sturm zerstörte nur wenige Bäume.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Berger öffnete seinen Laden früher als sonst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schäden waren nach einem Tag vollständig beseitigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende der Woche gab es ein gemeinsames Essen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bewohner fühlten sich nach dem Sturm weniger verbunden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-und-ihre-grenzen",
+    "nivel": "B2",
+    "titulo": "Klimapolitik und ihre Grenzen",
+    "descripcion": "Ein Essay diskutiert, warum ambitionierte Klimaziele in der politischen Praxis oft scheitern.",
+    "texto": "Seit Jahren wird in Deutschland intensiv über eine ambitionierte Klimapolitik diskutiert, doch die Umsetzung konkreter Maßnahmen gestaltet sich häufig schwieriger, als es die politischen Ankündigungen vermuten lassen. Während einerseits gefordert wird, dass fossile Energieträger schneller ersetzt werden sollten, wird andererseits immer wieder auf die wirtschaftlichen und sozialen Folgen solcher Maßnahmen verwiesen. Diese Spannung zwischen ökologischer Notwendigkeit und ökonomischer Machbarkeit prägt die gesamte Debatte.\n\nBesonders deutlich wird dieses Dilemma am Beispiel der Verkehrswende. Würde man den motorisierten Individualverkehr drastisch einschränken, ließen sich zwar erhebliche Mengen an Treibhausgasen einsparen, gleichzeitig müsste jedoch ein leistungsfähiger öffentlicher Nahverkehr geschaffen werden, der bislang in vielen ländlichen Regionen schlichtweg fehlt. Kritiker bemängeln zudem, dass viele Klimaschutzmaßnahmen vor allem einkommensschwache Haushalte belasten, während wohlhabendere Bürger die zusätzlichen Kosten leichter tragen können.\n\nUm diesen Zielkonflikt aufzulösen, müsste die Politik nach Ansicht vieler Expertinnen und Experten sozial gerechtere Instrumente entwickeln, beispielsweise eine Rückverteilung der CO2-Abgabe an die Bevölkerung. Andernfalls droht die Akzeptanz für den Klimaschutz weiter zu sinken, was wiederum die dringend notwendige Transformation der Gesellschaft gefährden würde. Es bleibt daher fraglich, ob die derzeitigen politischen Maßnahmen ausreichen, um die gesetzten Klimaziele tatsächlich zu erreichen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Umsetzung der Klimapolitik gilt als unproblematisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Verkehrswende wird im Text als Beispiel für das Dilemma genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern belasten viele Klimaschutzmaßnahmen vor allem einkommensschwache Haushalte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In allen ländlichen Regionen gibt es bereits einen sehr guten öffentlichen Nahverkehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text kommt zu dem eindeutigen Schluss, dass die Klimaziele sicher erreicht werden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-bildungsauftrag-der-schulen-im-wandel",
+    "nivel": "B2",
+    "titulo": "Der Bildungsauftrag der Schulen im Wandel",
+    "descripcion": "Der Artikel beleuchtet, wie sich die Aufgaben von Schulen angesichts gesellschaftlicher Veränderungen wandeln.",
+    "texto": "Schulen standen lange Zeit vor allem im Dienst der Wissensvermittlung, doch angesichts tiefgreifender gesellschaftlicher Veränderungen wird zunehmend diskutiert, welche Aufgaben ihnen darüber hinaus zukommen sollten. Neben klassischen Fächern wie Mathematik oder Deutsch wird immer häufiger gefordert, dass auch Medienkompetenz, kritisches Denken und soziale Fähigkeiten systematisch vermittelt werden. Diese Erweiterung des Bildungsauftrags stellt viele Schulen vor erhebliche organisatorische und personelle Herausforderungen.\n\nEin zentrales Problem besteht darin, dass die notwendigen Ressourcen häufig nicht in ausreichendem Maße bereitgestellt werden, obwohl die politischen Erwartungen an die Schulen stetig wachsen. Lehrkräfte beklagen, dass ihnen sowohl die Zeit als auch die technische Ausstattung fehle, um digitale Lerninhalte angemessen zu vermitteln. Gäbe es mehr finanzielle Unterstützung, könnten viele der geforderten Reformen deutlich schneller umgesetzt werden, doch bislang bleibt die Finanzierung ein wesentliches Hindernis.\n\nBefürworter einer umfassenden Bildungsreform argumentieren, dass nur eine grundlegende Neuausrichtung des Schulsystems die junge Generation ausreichend auf die Anforderungen einer zunehmend digitalisierten und komplexen Welt vorbereiten könne. Kritiker hingegen warnen davor, die traditionellen Kernkompetenzen wie Lesen und Rechnen zugunsten neuer Fächer zu vernachlässigen. Der Ausgang dieser Debatte wird maßgeblich darüber entscheiden, wie das Bildungssystem in den kommenden Jahrzehnten gestaltet sein wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text behauptet, dass Schulen sich nie verändern müssen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienkompetenz wird als mögliche neue Aufgabe der Schulen genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text fehlt es Lehrkräften manchmal an technischer Ausstattung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind sich einig, dass Lesen und Rechnen unwichtig geworden sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Finanzierung wird im Text als unproblematisch beschrieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-bezahlbaren-wohnraum",
+    "nivel": "B2",
+    "titulo": "Die Debatte um bezahlbaren Wohnraum",
+    "descripcion": "Der Text untersucht die Ursachen der Wohnungsnot in deutschen Großstädten und mögliche Lösungsansätze.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Suche nach bezahlbarem Wohnraum in den vergangenen Jahren zu einem der drängendsten sozialen Probleme entwickelt. Während die Mieten in Ballungsräumen wie München, Berlin oder Hamburg kontinuierlich steigen, wachsen die Einkommen vieler Haushalte deutlich langsamer, sodass immer mehr Menschen einen erheblichen Teil ihres Gehalts für die Miete aufwenden müssen. Besonders betroffen sind Studierende, Alleinerziehende und Rentner, deren finanzieller Spielraum ohnehin begrenzt ist.\n\nAls Hauptursache für diese Entwicklung wird häufig der anhaltende Zuzug in die Städte genannt, der einem viel zu geringen Neubau von Wohnungen gegenübersteht. Wäre in den vergangenen Jahrzehnten konsequenter in sozialen Wohnungsbau investiert worden, ließe sich die heutige Situation vermutlich deutlich entspannter gestalten. Stattdessen wurde ein Großteil des Wohnungsbestands privatisiert, wodurch Städte und Gemeinden kaum noch Einfluss auf die Mietpreisgestaltung nehmen können.\n\nAls mögliche Lösungen werden derzeit verschiedene Maßnahmen diskutiert, etwa eine Verschärfung der Mietpreisbremse, verstärkte Investitionen in den sozialen Wohnungsbau sowie steuerliche Anreize für private Bauherren. Ob diese Maßnahmen tatsächlich ausreichen werden, um die Wohnungsnot in absehbarer Zeit zu lindern, bleibt jedoch umstritten, zumal strukturelle Probleme wie der Fachkräftemangel im Baugewerbe zusätzlich erschweren, dass ausreichend neuer Wohnraum entsteht.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studierende und Rentner gehören laut Text zu den besonders betroffenen Gruppen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text nennt den geringen Neubau als eine der Hauptursachen der Wohnungsnot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text wurde in den letzten Jahrzehnten konsequent in sozialen Wohnungsbau investiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text stellt fest, dass alle vorgeschlagenen Maßnahmen die Wohnungsnot sicher lösen werden.",
+        "respuesta": false
+      }
+    ]
   }
 ]
