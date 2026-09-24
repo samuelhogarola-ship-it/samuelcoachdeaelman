@@ -30746,5 +30746,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "ein-tag-im-zirkus",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Zirkus",
+    "descripcion": "Lena und ihr kleiner Bruder besuchen einen Zirkus in ihrer Stadt.",
+    "texto": "Lena ist acht Jahre alt. Heute geht sie mit ihrem kleinen Bruder Tom in den Zirkus. Der Zirkus ist auf einer großen Wiese. Das Zelt ist bunt: rot, gelb und blau. Lena und Tom kaufen zwei Karten und suchen ihre Plätze. Die Plätze sind ganz vorne.\n\nZuerst kommen drei Clowns. Sie tanzen und singen ein lustiges Lied. Tom lacht sehr laut. Dann kommen die Pferde. Sie laufen im Kreis und die Kinder klatschen. Danach zeigt ein Mann einen Trick mit vielen Bällen. Er wirft die Bälle sehr hoch.\n\nAm Ende bekommen Lena und Tom eine Tüte Popcorn. Sie sind sehr glücklich. „Das war toll!“, sagt Tom. „Ja“, antwortet Lena, „nächstes Jahr kommen wir wieder.“",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zirkus ist in einem Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zuerst kommen drei Clowns.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Pferde laufen im Kreis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom ist am Ende traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-sprachkurs",
+    "nivel": "A1",
+    "titulo": "Der Sprachkurs",
+    "descripcion": "Ana beginnt einen Deutschkurs in einer Sprachschule.",
+    "texto": "Ana kommt aus Spanien. Sie wohnt jetzt in München und lernt Deutsch. Jeden Montag und Mittwoch geht sie in die Sprachschule. Der Kurs beginnt um neun Uhr. In der Klasse sind zwölf Studenten aus verschiedenen Ländern.\n\nDie Lehrerin heißt Frau Berger. Sie ist sehr freundlich und spricht langsam. Zuerst lernen die Studenten Zahlen und Farben. Dann üben sie kurze Sätze. Ana schreibt viele neue Wörter in ihr Heft.\n\nNach dem Kurs trinkt Ana oft einen Kaffee mit ihrer Freundin Mei. Sie sprechen zusammen Deutsch. „Der Kurs ist schwer, aber ich lerne jeden Tag mehr“, sagt Ana.",
+    "preguntas": [
+      {
+        "enunciado": "Ana lernt Deutsch in München.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kurs findet jeden Tag statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Klasse sind zwölf Studenten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin spricht sehr schnell.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ana trinkt nach dem Kurs oft Kaffee mit Mei.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-auf-dem-bauernhof",
+    "nivel": "A1",
+    "titulo": "Ein Tag auf dem Bauernhof",
+    "descripcion": "Die Familie Weber besucht einen Bauernhof auf dem Land.",
+    "texto": "Am Samstag fährt die Familie Weber auf einen Bauernhof. Der Bauernhof liegt auf dem Land, nicht weit von der Stadt. Die Kinder Paul und Mia freuen sich sehr. Auf dem Hof gibt es Kühe, Hühner und zwei Pferde.\n\nPaul füttert die Hühner mit Körnern. Mia streichelt eine kleine Kuh. Der Bauer zeigt den Kindern, wie man Eier sammelt. Das macht großen Spaß. Danach trinken alle frische Milch und essen Brot mit Butter.\n\nAm Nachmittag machen sie einen Spaziergang durch die Felder. Die Sonne scheint und die Vögel singen. „Ich möchte auch einen Bauernhof haben“, sagt Mia. Die Familie fährt am Abend müde, aber glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bauernhof liegt in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem Hof gibt es Kühe und Hühner.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul streichelt eine kleine Kuh.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie trinkt frische Milch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend ist die Familie sehr traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-auf-dem-land",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende auf dem Land",
+    "descripcion": "Jonas hat ein Wochenende bei seinen Großeltern auf dem Land verbracht.",
+    "texto": "Jonas hat letztes Wochenende seine Großeltern besucht. Sie wohnen in einem kleinen Dorf, weit weg von der Großstadt. Weil das Wetter sehr schön war, sind sie viel spazieren gegangen. Am Samstagmorgen hat Jonas seinem Opa im Garten geholfen. Sie haben Tomaten und Kartoffeln geerntet.\n\nAm Nachmittag hat die Oma einen Kuchen gebacken, und alle haben zusammen Kaffee getrunken. Jonas hat erzählt, dass er in der Stadt viel Stress mit der Arbeit hat. Deshalb war er froh, dass er ein paar ruhige Tage auf dem Land verbringen konnte.\n\nAm Sonntag sind sie mit dem Fahrrad zu einem See gefahren. Dort haben sie gepicknickt und sind sogar geschwommen, obwohl das Wasser noch etwas kalt war. Am Abend ist Jonas mit dem Zug zurück in die Stadt gefahren. Er hat sich vorgenommen, seine Großeltern bald wieder zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat seine Großeltern in der Großstadt besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat im Garten geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma hat einen Kuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wasser im See war sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas ist am Abend mit dem Zug zurückgefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streit-unter-nachbarn",
+    "nivel": "A2",
+    "titulo": "Streit unter Nachbarn",
+    "descripcion": "Herr Klein und seine Nachbarin streiten wegen lauter Musik.",
+    "texto": "Herr Klein wohnt seit zehn Jahren in einem Mehrfamilienhaus. Letzte Woche hat er sich über seine neue Nachbarin geärgert, weil sie fast jeden Abend laute Musik gehört hat. Zuerst hat er nichts gesagt, aber nach ein paar Tagen konnte er nicht mehr schlafen.\n\nDeshalb hat er an ihre Tür geklopft und höflich gefragt, ob sie die Musik leiser machen könnte. Die Nachbarin, Frau Schulz, hat sich entschuldigt. Sie wusste nicht, dass man die Musik so gut hören konnte. Sie hat erklärt, dass sie gerade umgezogen ist und noch keine Vorhänge oder Teppiche hat.\n\nAm nächsten Tag hat Frau Schulz Kopfhörer gekauft. Seitdem ist es im Haus wieder ruhig. Herr Klein war froh, dass er das Problem so einfach lösen konnte, weil er eigentlich keinen Streit wollte.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Klein wohnt seit zehn Jahren im selben Haus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Klein hat sofort die Polizei gerufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Schulz hat sich entschuldigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Schulz ist schon seit vielen Jahren dort wohnhaft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende ist es im Haus wieder ruhig.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-vereinssport",
+    "nivel": "A2",
+    "titulo": "Der Vereinssport",
+    "descripcion": "Felix erzählt, warum er einem Fußballverein beigetreten ist.",
+    "texto": "Felix hat sich vor zwei Monaten einem Fußballverein angeschlossen. Er wollte neue Freunde finden, weil er erst vor Kurzem in die Stadt gezogen ist. Zuerst war er nervös, weil er niemanden im Team kannte.\n\nBeim ersten Training hat der Trainer alle Spieler vorgestellt. Danach haben sie zusammen trainiert und ein kleines Spiel gemacht. Felix hat schnell gemerkt, dass die anderen Spieler sehr nett sind. Wenn er einen Fehler gemacht hat, haben sie ihm geholfen statt ihn auszulachen.\n\nNach dem Training gehen die Spieler oft noch zusammen etwas trinken. So hat Felix in kurzer Zeit mehrere neue Freunde gefunden. Er sagt, dass der Vereinssport nicht nur gut für die Gesundheit ist, sondern auch für das soziale Leben.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist neu in der Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix kannte vorher schon alle Spieler.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die anderen Spieler waren unfreundlich zu ihm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Training treffen sich die Spieler manchmal noch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat durch den Verein neue Freunde gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "freiwilligenarbeit-im-tierheim",
+    "nivel": "B1",
+    "titulo": "Freiwilligenarbeit im Tierheim",
+    "descripcion": "Sophie berichtet über ihre ehrenamtliche Arbeit in einem Tierheim.",
+    "texto": "Seit einem halben Jahr arbeitet Sophie jeden Samstag ehrenamtlich in einem Tierheim am Rande der Stadt. Sie kümmert sich vor allem um Hunde, die schon lange auf ein neues Zuhause warten. Nachdem sie zufällig einen Bericht über das Tierheim gelesen hatte, entschied sie sich spontan, dort anzurufen und ihre Hilfe anzubieten.\n\nAm Anfang war die Arbeit nicht einfach, obwohl Sophie schon immer Tiere gemocht hat. Manche Hunde waren ängstlich und misstrauisch, weil sie schlechte Erfahrungen gemacht hatten. Trotzdem gab Sophie nicht auf und gewann nach und nach das Vertrauen der Tiere. Sie geht mit ihnen spazieren, spielt mit ihnen und hilft beim Füttern.\n\nBesonders schön findet Sophie den Moment, in dem ein Hund endlich eine neue Familie findet. Vor Kurzem wurde einer ihrer Lieblingshunde, ein alter Mischling namens Bruno, von einem älteren Ehepaar adoptiert. Obwohl sie sich für Bruno freute, musste sie auch ein wenig weinen, weil sie sich sehr an ihn gewöhnt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie arbeitet jeden Samstag im Tierheim.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie wurde von einer Freundin zur Arbeit im Tierheim überredet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Hunde waren von Anfang an zutraulich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno wurde von einem älteren Ehepaar adoptiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie war beim Abschied von Bruno völlig gleichgültig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "elternzeit-und-karriere",
+    "nivel": "B1",
+    "titulo": "Elternzeit und Karriere",
+    "descripcion": "Markus erzählt, wie er Elternzeit genommen hat und was sich dadurch verändert hat.",
+    "texto": "Als seine Tochter geboren wurde, entschied sich Markus, sechs Monate Elternzeit zu nehmen. Viele Kollegen waren überrascht, weil in seiner Firma nur wenige Männer diese Möglichkeit nutzen. Markus selbst hatte zunächst auch Zweifel, ob es für seine Karriere von Nachteil sein könnte, obwohl er sich sehr auf die Zeit mit seinem Kind freute.\n\nWährend der Elternzeit übernahm er den größten Teil der Betreuung, während seine Partnerin wieder arbeiten ging. Anfangs war der Alltag anstrengend, weil er sich an die neue Routine gewöhnen musste. Nachdem er sich jedoch eingelebt hatte, genoss er die Zeit sehr und lernte seine Tochter viel besser kennen.\n\nAls Markus nach sechs Monaten wieder ins Büro zurückkehrte, hatte sich einiges verändert. Er war geduldiger geworden und konnte Aufgaben besser priorisieren. Trotz anfänglicher Bedenken hatte die Elternzeit seiner Karriere nicht geschadet – im Gegenteil, sein Chef lobte seine neue Gelassenheit im Umgang mit stressigen Situationen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat ein Jahr Elternzeit genommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In seiner Firma nehmen viele Männer Elternzeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Während der Elternzeit hat seine Partnerin gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus fand den Anfang der Elternzeit sofort einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Chef lobte seine neue Gelassenheit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-an-eine-neue-schule",
+    "nivel": "B1",
+    "titulo": "Der Wechsel an eine neue Schule",
+    "descripcion": "Lukas berichtet, wie er sich nach dem Umzug an einer neuen Schule eingelebt hat.",
+    "texto": "Nachdem Lukas' Familie in eine andere Stadt gezogen war, musste er mitten im Schuljahr die Schule wechseln. Am ersten Tag fühlte er sich sehr unsicher, weil er niemanden kannte und alle anderen Schüler schon seit Jahren befreundet waren. Obwohl er sonst eher schüchtern ist, versuchte er, mutig zu sein und auf andere zuzugehen.\n\nIn der Pause setzte sich ein Junge namens Ben neben ihn und fragte, ob er mitspielen wolle. Von diesem Moment an ging es Lukas besser. Trotzdem dauerte es einige Wochen, bis er sich wirklich zugehörig fühlte, weil jede Klasse ihre eigenen Regeln und Gewohnheiten hat.\n\nHeute, ein halbes Jahr später, hat Lukas mehrere gute Freunde gefunden und nimmt sogar an der Theater-AG teil. Rückblickend sagt er, dass der Wechsel am Anfang zwar schwierig war, ihn aber auch selbstbewusster gemacht hat, weil er gelernt hat, mit neuen Situationen umzugehen.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas ist am Ende des Schuljahres umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag fühlte sich Lukas unsicher.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hat Lukas ignoriert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas nimmt an der Theater-AG teil.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas findet, dass ihn der Wechsel selbstbewusster gemacht hat.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-glaeserne-buerger",
+    "nivel": "B2",
+    "titulo": "Der gläserne Bürger – Überwachung im digitalen Zeitalter",
+    "descripcion": "Ein Text über die zunehmende digitale Überwachung und ihre gesellschaftlichen Folgen.",
+    "texto": "Kaum ein Thema wird in der öffentlichen Debatte so kontrovers diskutiert wie die zunehmende Überwachung im digitalen Zeitalter. Ob durch Kameras im öffentlichen Raum, die Auswertung von Bewegungsdaten auf dem Smartphone oder die Speicherung von Suchanfragen im Internet – nahezu jeder Schritt der Bürgerinnen und Bürger hinterlässt heute digitale Spuren. Während Befürworter argumentieren, dass diese Maßnahmen der Kriminalitätsbekämpfung und der öffentlichen Sicherheit dienten, warnen Kritiker vor einem schleichenden Verlust der Privatsphäre.\n\nBesonders brisant wird die Debatte, wenn private Unternehmen ins Spiel kommen. Viele Konzerne sammeln Nutzerdaten, um personalisierte Werbung zu schalten, wobei den Betroffenen oft nicht bewusst ist, in welchem Umfang ihre Informationen weiterverarbeitet werden. Würde man diese Datenmengen konsequent zusammenführen, ließe sich ein nahezu lückenloses Profil jedes Einzelnen erstellen – von Konsumgewohnheiten bis hin zu politischen Überzeugungen.\n\nAngesichts dieser Entwicklung fordern Datenschützer strengere gesetzliche Regelungen sowie eine höhere Transparenz seitens der Unternehmen und Behörden. Gleichzeitig wird betont, dass auch die Bürger selbst eine Mitverantwortung tragen, indem sie bewusster mit ihren eigenen Daten umgehen. Letztlich stellt sich die grundlegende Frage, wie viel Sicherheit eine Gesellschaft bereit ist, mit dem Verlust an Freiheit und Privatsphäre zu erkaufen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Thema Überwachung wird in der Öffentlichkeit einheitlich bewertet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in der Überwachung einen Beitrag zur Sicherheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Private Unternehmen sammeln laut Text keine Nutzerdaten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Datenschützer fordern strengere gesetzliche Regelungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht keine Verantwortung bei den Bürgern selbst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-in-der-arbeitswelt",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz in der Arbeitswelt",
+    "descripcion": "Ein Text über die Chancen und Risiken künstlicher Intelligenz für den Arbeitsmarkt.",
+    "texto": "Künstliche Intelligenz verändert die Arbeitswelt in einem Tempo, das noch vor wenigen Jahren kaum vorstellbar gewesen wäre. Algorithmen übernehmen inzwischen nicht nur repetitive, standardisierte Aufgaben, sondern auch komplexere Tätigkeiten, die früher ausschließlich hochqualifizierten Fachkräften vorbehalten waren. Diese Entwicklung wirft die Frage auf, welche Berufe in Zukunft überhaupt noch von Menschen ausgeübt werden.\n\nBefürworter der Technologie betonen, dass durch den Einsatz von künstlicher Intelligenz monotone und belastende Arbeiten wegfallen könnten, sodass sich Beschäftigte verstärkt kreativen und zwischenmenschlichen Aufgaben widmen könnten. Wären ausreichend Weiterbildungs- und Umschulungsprogramme vorhanden, ließe sich der Strukturwandel möglicherweise sozial verträglich gestalten. Kritiker hingegen befürchten, dass gerade Menschen mit geringerer Qualifikation von der Automatisierung überproportional betroffen sein würden und kaum eine reelle Chance auf Umschulung hätten.\n\nHinzu kommt eine ethische Dimension: Sollten Maschinen tatsächlich in der Lage sein, Personalentscheidungen zu treffen oder medizinische Diagnosen zu stellen, müsste geklärt werden, wer im Falle eines Fehlers die Verantwortung trägt. Es bleibt daher eine der zentralen gesellschaftlichen Aufgaben der kommenden Jahre, den technologischen Fortschritt so zu gestalten, dass er nicht zulasten der sozialen Gerechtigkeit geht.",
+    "preguntas": [
+      {
+        "enunciado": "Künstliche Intelligenz übernimmt laut Text nur einfache Aufgaben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen Chancen für kreativere Tätigkeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten Nachteile für gering qualifizierte Menschen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behandelt keine ethischen Fragen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der technologische Fortschritt wird im Text als unproblematisch dargestellt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "landflucht-und-der-wandel-des-laendlichen-raums",
+    "nivel": "B2",
+    "titulo": "Landflucht und der Wandel des ländlichen Raums",
+    "descripcion": "Ein Text über die Abwanderung junger Menschen aus ländlichen Regionen und deren Folgen.",
+    "texto": "Seit Jahrzehnten ziehen vor allem junge, gut ausgebildete Menschen aus ländlichen Regionen in die großen Städte, um dort bessere Bildungs- und Berufschancen wahrzunehmen. Diese sogenannte Landflucht hat für viele Dörfer und Kleinstädte weitreichende Folgen: Schulen und Geschäfte schließen, während gleichzeitig der Anteil älterer Menschen an der Bevölkerung stetig steigt.\n\nDie Gründe für die Abwanderung sind vielfältig. Neben dem Mangel an Arbeitsplätzen im ländlichen Raum spielt auch die unzureichende Verkehrsanbindung eine wichtige Rolle. Obwohl viele Regionen landschaftlich reizvoll sind, fehlt es oft an schnellem Internet, kulturellen Angeboten und medizinischer Versorgung. Selbst wenn junge Menschen grundsätzlich gerne auf dem Land leben würden, entscheiden sie sich häufig aus pragmatischen Gründen für die Stadt.\n\nUm dieser Entwicklung entgegenzuwirken, setzen manche Kommunen auf innovative Konzepte wie geförderte Coworking-Spaces oder verbesserte digitale Infrastruktur, damit auch im Homeoffice gearbeitet werden kann. Ob solche Maßnahmen ausreichen, um den Trend umzukehren, bleibt jedoch fraglich, solange strukturelle Unterschiede zwischen Stadt und Land nicht grundlegend angegangen werden.",
+    "preguntas": [
+      {
+        "enunciado": "Vor allem ältere Menschen verlassen laut Text das Land.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Landflucht führt dazu, dass Schulen und Geschäfte schließen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Verkehrsanbindung wird im Text als vorbildlich beschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kommunen fördern Coworking-Spaces, um gegenzusteuern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem sei bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
   }
 ]
