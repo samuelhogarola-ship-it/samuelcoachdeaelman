@@ -30398,5 +30398,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "die-katze-von-nebenan",
+    "nivel": "A1",
+    "titulo": "Die Katze von nebenan",
+    "descripcion": "Emma freundet sich mit der Katze ihrer Nachbarn an.",
+    "texto": "Emma wohnt in einem Haus mit einem Garten. Neben ihrem Haus wohnt Familie Bauer. Familie Bauer hat eine Katze. Die Katze heißt Minka. Minka ist grau und weiß. Sie hat grüne Augen.\n\nJeden Nachmittag kommt Minka in Emmas Garten. Emma gibt der Katze Milch. Minka trinkt die Milch langsam. Danach schläft sie in der Sonne. Emma streichelt Minka sehr gern. Minka schnurrt laut.\n\nAm Wochenende spielt Emma mit Minka. Sie hat einen kleinen Ball für die Katze. Minka läuft dem Ball hinterher. Emma lacht viel. Sie freut sich jeden Tag auf Minka. Minka ist wie eine Freundin für Emma.",
+    "preguntas": [
+      {
+        "enunciado": "Minka gehört Familie Bauer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka hat blaue Augen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma gibt Minka Milch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka kommt nie in Emmas Garten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma spielt am Wochenende mit Minka.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "am-fruehstueckstisch",
+    "nivel": "A1",
+    "titulo": "Am Frühstückstisch",
+    "descripcion": "Die Familie Schmidt frühstückt zusammen am Sonntagmorgen.",
+    "texto": "Am Sonntag frühstückt die Familie Schmidt immer zusammen. Der Tisch ist bunt gedeckt. Es gibt Brötchen, Butter und Marmelade. Der Vater trinkt Kaffee. Die Mutter trinkt Tee.\n\nDie Kinder heißen Ben und Lisa. Ben isst gern Müsli mit Milch. Lisa mag lieber ein Ei zum Frühstück. Auf dem Tisch stehen auch Orangensaft und frisches Obst. Alle essen langsam und sprechen über die Woche.\n\nNach dem Frühstück räumen die Kinder den Tisch ab. Ben trägt die Teller in die Küche. Lisa wäscht die Tassen. Danach gehen sie zusammen spazieren. Das Wetter ist heute sonnig und warm.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie frühstückt am Sonntag zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben mag lieber ein Ei zum Frühstück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater trinkt Kaffee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Frühstück gehen sie ins Kino.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa wäscht die Tassen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-hobby-ist-schwimmen",
+    "nivel": "A1",
+    "titulo": "Mein Hobby ist Schwimmen",
+    "descripcion": "Felix erzählt von seinem Hobby und seinem Trainingsplan.",
+    "texto": "Ich heiße Felix und ich bin zwölf Jahre alt. Mein Hobby ist Schwimmen. Ich schwimme dreimal in der Woche. Das Schwimmbad ist nicht weit von meinem Haus. Ich fahre mit dem Fahrrad dorthin.\n\nAm Montag und Mittwoch trainiere ich mit meinem Verein. Am Samstag schwimme ich mit meinem Vater. Mein Lieblingsstil ist Rückenschwimmen. Meine Schwester schwimmt nicht gern. Sie spielt lieber Tennis.\n\nNach dem Training bin ich müde, aber glücklich. Ich trinke viel Wasser und esse einen Snack. Im Sommer möchte ich an einem Wettkampf teilnehmen. Mein Trainer sagt, ich schwimme sehr schnell.",
+    "preguntas": [
+      {
+        "enunciado": "Felix schwimmt jeden Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Schwimmbad ist weit weg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix' Lieblingsstil ist Rückenschwimmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schwester spielt gern Tennis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix möchte im Sommer an einem Wettkampf teilnehmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-verregneter-samstag-mit-oma",
+    "nivel": "A2",
+    "titulo": "Ein verregneter Samstag mit Oma",
+    "descripcion": "Marie verbringt einen regnerischen Samstag bei ihrer Großmutter.",
+    "texto": "Am Samstag hat es den ganzen Tag geregnet. Marie wollte eigentlich mit ihren Freundinnen im Park spielen, aber das war wegen des Regens nicht möglich. Deshalb hat sie beschlossen, ihre Oma zu besuchen, weil sie sich dort nie langweilt.\n\nOma hat sich sehr gefreut, als Marie angekommen ist. Sie haben zusammen einen Kuchen gebacken und dabei alte Fotos angeschaut. Oma hat Marie erzählt, dass sie früher auch bei Regen draußen gespielt hat, wenn ihre Mutter es erlaubt hat.\n\nAm Nachmittag haben sie ein Kartenspiel gespielt, und Marie hat sogar zweimal gewonnen. Als der Regen am Abend aufgehört hat, sind sie noch kurz spazieren gegangen. Marie hat gedacht, dass ein verregneter Tag manchmal genauso schön sein kann wie ein sonniger.",
+    "preguntas": [
+      {
+        "enunciado": "Marie hat den Samstag im Park mit ihren Freundinnen verbracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marie und ihre Oma haben zusammen einen Kuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma hat als Kind nie bei Regen draußen gespielt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marie hat beim Kartenspiel zweimal gewonnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend hat es noch stärker geregnet.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-beste-freundin",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die beste Freundin",
+    "descripcion": "Laura schreibt ihrer Freundin einen Brief über ihren Umzug.",
+    "texto": "Liebe Sophie, ich hoffe, es geht dir gut! Ich wollte dir schreiben, weil ich dir eine wichtige Neuigkeit erzählen muss. Meine Familie ist letzten Monat nach Hamburg umgezogen. Am Anfang war ich traurig, weil ich meine Freunde in München vermisst habe.\n\nInzwischen habe ich mich gut eingelebt. Ich habe schon zwei neue Freundinnen in meiner Klasse gefunden. Letzte Woche sind wir zusammen an die Elbe gefahren und haben dort ein Picknick gemacht. Das Wetter war schön, und wir haben viel gelacht.\n\nIch hoffe, dass du mich bald besuchen kannst. Wenn du kommst, zeige ich dir die ganze Stadt. Schreib mir bald zurück und erzähl mir, was bei dir Neues passiert ist. Ich vermisse dich sehr!\n\nLiebe Grüße,\nLaura",
+    "preguntas": [
+      {
+        "enunciado": "Lauras Familie ist nach Hamburg umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura war am Anfang sehr glücklich über den Umzug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura hat noch keine neuen Freundinnen gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura und ihre Freundinnen haben ein Picknick an der Elbe gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura möchte, dass Sophie sie besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neuen-nachbarn",
+    "nivel": "A2",
+    "titulo": "Die neuen Nachbarn",
+    "descripcion": "Herr Weber lernt seine neuen Nachbarn kennen.",
+    "texto": "Letzte Woche sind neue Nachbarn in das Haus neben Herrn Weber eingezogen. Er hat den ganzen Tag Möbelwagen und viele Kisten gesehen. Herr Weber wollte höflich sein, deshalb ist er am Nachmittag zu ihnen gegangen, um sich vorzustellen.\n\nDie neue Familie heißt Familie Krüger. Sie haben zwei Kinder und einen Hund. Herr Weber hat ihnen einen Kuchen mitgebracht, weil er dachte, dass sie nach dem Umzug hungrig sein könnten. Frau Krüger hat sich sehr gefreut und hat ihn zu einem Kaffee eingeladen.\n\nSie haben lange über das Viertel gesprochen. Herr Weber hat erklärt, wo der nächste Supermarkt und die Bushaltestelle sind. Als er nach Hause gegangen ist, war er froh, dass er nette neue Nachbarn hat. Er hofft, dass sie bald zusammen grillen können.",
+    "preguntas": [
+      {
+        "enunciado": "Die neuen Nachbarn heißen Familie Krüger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Familie Krüger hat drei Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat den Nachbarn einen Kuchen mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Krüger hat Herrn Weber nicht eingeladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hofft, bald mit den Nachbarn zu grillen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "praktikum-in-einer-anwaltskanzlei",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum in einer Anwaltskanzlei",
+    "descripcion": "Sarah berichtet von ihren Erfahrungen während eines dreiwöchigen Praktikums.",
+    "texto": "Sarah hat sich schon lange für den Beruf der Anwältin interessiert, obwohl sie nicht genau wusste, wie der Arbeitsalltag aussieht. Deshalb hat sie sich für ein dreiwöchiges Praktikum in einer kleinen Anwaltskanzlei beworben. Nachdem sie die Zusage bekommen hatte, war sie gleichzeitig aufgeregt und nervös.\n\nAm ersten Tag durfte sie bei einer Besprechung dabei sein, obwohl sie zunächst nur zuhören sollte. Die Anwälte haben ihr geduldig erklärt, wie ein Gerichtsverfahren abläuft. Trotzdem war vieles neu für sie, und sie musste sich viele Notizen machen, um nichts zu vergessen.\n\nIm Laufe der Wochen durfte Sarah auch kleinere Aufgaben übernehmen, nachdem die Anwälte gemerkt hatten, wie zuverlässig sie arbeitet. Sie hat Dokumente sortiert und an Recherchen mitgearbeitet. Am Ende des Praktikums war sie sich sicher, dass sie diesen Beruf später wirklich ausüben möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah hat ein Praktikum in einem Krankenhaus gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah durfte am ersten Tag bei einer Besprechung dabei sein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah wusste von Anfang an alles über Gerichtsverfahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah hat im Laufe der Wochen kleinere Aufgaben übernommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende war Sarah sich sicher, dass sie den Beruf nicht ausüben möchte.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-unvergesslicher-schulausflug",
+    "nivel": "B1",
+    "titulo": "Ein unvergesslicher Schulausflug",
+    "descripcion": "Die Klasse 9b unternimmt einen Ausflug in die Berge, der nicht wie geplant verläuft.",
+    "texto": "Die Klasse 9b hatte sich schon seit Wochen auf den Ausflug in die Berge gefreut. Nachdem der Bus die Schüler am frühen Morgen abgeholt hatte, war die Stimmung ausgezeichnet. Obwohl der Wetterbericht Regen vorhergesagt hatte, hofften alle auf einen sonnigen Tag.\n\nLeider hat sich der Wetterbericht als richtig erwiesen: Kurz nach der Ankunft begann es stark zu regnen. Trotzdem beschloss die Lehrerin, die geplante Wanderung nicht abzusagen, sondern eine kürzere Route zu wählen. Die Schüler zogen ihre Regenjacken an und machten sich, obwohl einige murrten, gemeinsam auf den Weg.\n\nNachdem sie eine kleine Berghütte erreicht hatten, konnten sich alle aufwärmen und heißen Kakao trinken. Am Ende erzählten viele Schüler, dass der Ausflug trotz des schlechten Wetters einer der schönsten des Jahres gewesen sei. Manchmal werden gerade die unerwarteten Momente zu den besten Erinnerungen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b ist ans Meer gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Wetterbericht hatte Regen vorhergesagt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin hat die Wanderung komplett abgesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler haben eine Berghütte erreicht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende fanden die Schüler den Ausflug schrecklich.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-auf-distanz",
+    "nivel": "B1",
+    "titulo": "Freundschaft auf Distanz",
+    "descripcion": "Julia und Merve pflegen ihre Freundschaft, obwohl sie in verschiedenen Ländern leben.",
+    "texto": "Julia und Merve sind seit der Grundschule beste Freundinnen. Vor zwei Jahren ist Merves Familie jedoch nach Istanbul gezogen, weil ihr Vater dort eine neue Stelle bekommen hatte. Obwohl die beiden Freundinnen nun Tausende Kilometer voneinander entfernt leben, ist ihre Freundschaft genauso stark geblieben wie früher.\n\nJeden Sonntag telefonieren sie über Video und erzählen sich, was in der vergangenen Woche passiert ist. Nachdem Merve ihr Abitur bestanden hatte, ist sie für zwei Wochen zu Julia gereist, um den Sommer gemeinsam zu verbringen. Trotzdem sind Momente wie dieser selten, weil die Reise teuer und lang ist.\n\nJulia sagt, dass Entfernung eine Freundschaft nicht zerstören muss, solange man sich wirklich Mühe gibt. Beide planen bereits ihr nächstes Treffen, obwohl sie noch nicht wissen, wann genau es stattfinden wird. Für sie zählt vor allem, dass sie füreinander da sind, egal wie weit sie voneinander entfernt wohnen.",
+    "preguntas": [
+      {
+        "enunciado": "Merve ist nach Istanbul gezogen, weil ihr Vater dort arbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia und Merve telefonieren nie miteinander.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Merve hat Julia nach dem Abitur besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden treffen sich jede Woche persönlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia glaubt, dass Entfernung eine Freundschaft automatisch zerstört.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungskrise-in-deutschen-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Die Wohnungskrise in deutschen Großstädten",
+    "descripcion": "Ein Essay über die Ursachen und möglichen Lösungen der angespannten Wohnungsmärkte.",
+    "texto": "In vielen deutschen Großstädten ist bezahlbarer Wohnraum längst zu einem knappen Gut geworden. Die Mieten steigen seit Jahren schneller als die Löhne, sodass sich immer mehr Menschen den Wohnort ihrer Wahl nicht mehr leisten können. Besonders betroffen sind junge Familien, Studierende und Geringverdiener, die zunehmend an den Stadtrand oder ins Umland verdrängt werden.\n\nAls Ursachen werden verschiedene Faktoren genannt. Zum einen wurde in den vergangenen Jahrzehnten zu wenig neuer Wohnraum gebaut, obwohl die Bevölkerung in den Ballungsräumen stetig gewachsen ist. Zum anderen wird ein erheblicher Teil der Wohnungen inzwischen als Kapitalanlage gekauft, wodurch sie dem Mietmarkt entzogen werden. Kritiker argumentieren, dass strengere Regulierungen nötig wären, um Spekulation einzudämmen.\n\nWäre der soziale Wohnungsbau in den letzten Jahren stärker gefördert worden, gäbe es heute vermutlich deutlich mehr bezahlbare Wohnungen. Einige Städte experimentieren inzwischen mit Mietpreisbremsen und kommunalen Bauprogrammen, doch die Wirkung dieser Maßnahmen wird von Experten unterschiedlich bewertet. Manche fordern zudem, dass leerstehende Gebäude schneller für Wohnzwecke umgenutzt werden sollten.\n\nLetztlich zeigt sich, dass die Wohnungskrise kein Problem ist, das sich kurzfristig lösen lässt. Sie erfordert langfristige politische Strategien, die Bauwirtschaft, Stadtplanung und soziale Gerechtigkeit miteinander verbinden. Ohne ein entschlossenes Handeln der Politik dürfte sich die Situation in den kommenden Jahren eher verschärfen als entspannen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Familien und Studierende sind von der Wohnungskrise besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text wurde in den letzten Jahrzehnten genug neuer Wohnraum gebaut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Wohnungen werden als Kapitalanlage gekauft und dem Mietmarkt entzogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die Wohnungskrise lasse sich kurzfristig lösen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-zwischen-anspruch-und-wirklichkeit",
+    "nivel": "B2",
+    "titulo": "Klimapolitik zwischen Anspruch und Wirklichkeit",
+    "descripcion": "Ein Kommentar über die Diskrepanz zwischen politischen Klimazielen und ihrer tatsächlichen Umsetzung.",
+    "texto": "Kaum ein politisches Thema wird so kontrovers diskutiert wie der Klimaschutz. Regierungen weltweit haben sich ambitionierte Ziele gesetzt, um die Erderwärmung auf ein erträgliches Maß zu begrenzen. Zwischen den offiziellen Zusagen und der tatsächlichen Umsetzung klafft jedoch häufig eine erhebliche Lücke.\n\nKritiker bemängeln, dass viele Maßnahmen zu zögerlich umgesetzt werden, obwohl der wissenschaftliche Konsens über die Dringlichkeit des Problems seit Jahrzehnten eindeutig ist. Würden die vereinbarten Klimaziele tatsächlich konsequent verfolgt, müsste der Ausbau erneuerbarer Energien deutlich schneller vorangetrieben werden, als es derzeit der Fall ist. Zudem wird beanstandet, dass wirtschaftliche Interessen bei politischen Entscheidungen häufig stärker gewichtet werden als langfristige ökologische Notwendigkeiten.\n\nBefürworter der aktuellen Politik verweisen hingegen darauf, dass ein zu schneller Wandel soziale Verwerfungen mit sich bringen könnte, etwa in Regionen, deren Wirtschaft stark von fossilen Industrien abhängt. Ein ausgewogener Übergang, so ihr Argument, sei notwendig, damit Klimapolitik gesellschaftlich akzeptiert werde und nicht zu Widerstand führe.\n\nLetztlich wird sich zeigen müssen, ob es gelingt, ökologische Notwendigkeit und soziale Verträglichkeit miteinander zu vereinbaren. Sollte dieser Balanceakt misslingen, drohen sowohl ökologische als auch gesellschaftliche Krisen, deren Folgen weit über die Klimapolitik hinausreichen würden.",
+    "preguntas": [
+      {
+        "enunciado": "Zwischen politischen Klimazielen und ihrer Umsetzung besteht laut Text keine Lücke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker fordern einen schnelleren Ausbau erneuerbarer Energien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der wissenschaftliche Konsens über die Dringlichkeit des Klimaschutzes ist laut Text neu.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter der aktuellen Politik warnen vor sozialen Verwerfungen durch einen zu schnellen Wandel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die Klimapolitik sei bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "bildungsreform-chancen-und-herausforderungen",
+    "nivel": "B2",
+    "titulo": "Bildungsreform: Chancen und Herausforderungen",
+    "descripcion": "Ein Beitrag über die Debatte um notwendige Reformen im deutschen Schulsystem.",
+    "texto": "Das deutsche Bildungssystem steht seit Jahren in der Kritik. Internationale Vergleichsstudien zeigen immer wieder, dass die Leistungen deutscher Schülerinnen und Schüler in zentralen Fächern wie Mathematik und Lesekompetenz hinter denen anderer Länder zurückbleiben. Gleichzeitig wird beklagt, dass der Bildungserfolg in Deutschland nach wie vor stark von der sozialen Herkunft der Familien abhängt.\n\nReformbefürworter fordern unter anderem eine bessere individuelle Förderung, kleinere Klassen und eine stärkere Digitalisierung des Unterrichts. Würde in mehr Lehrkräfte und moderne Lernmittel investiert, ließe sich die Qualität des Unterrichts nach Ansicht vieler Experten deutlich verbessern. Zudem wird gefordert, dass Lehrpläne stärker an praktischen Fähigkeiten wie kritischem Denken und Problemlösung ausgerichtet werden sollten, anstatt sich auf reines Faktenwissen zu konzentrieren.\n\nKritiker der bisherigen Reformbemühungen bemängeln jedoch, dass viele Maßnahmen nur halbherzig umgesetzt worden seien. Obwohl zusätzliche finanzielle Mittel bereitgestellt wurden, fehlt es vielerorts weiterhin an qualifiziertem Lehrpersonal. Zudem wird kritisiert, dass Reformen oft von Bundesland zu Bundesland unterschiedlich gestaltet werden, was zu einem uneinheitlichen Bildungssystem führt.\n\nEinigkeit besteht darüber, dass eine echte Bildungsreform Zeit, politischen Willen und ausreichende finanzielle Mittel erfordert. Nur wenn diese Faktoren zusammenkommen, kann das Bildungssystem langfristig gerechter und leistungsfähiger werden. Bis dahin bleibt die Debatte über den richtigen Weg kontrovers.",
+    "preguntas": [
+      {
+        "enunciado": "Deutsche Schülerinnen und Schüler schneiden in internationalen Vergleichsstudien stets am besten ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bildungserfolg hängt in Deutschland laut Text stark von der sozialen Herkunft ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Reformbefürworter fordern unter anderem kleinere Klassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text wurde bereits ausreichend qualifiziertes Lehrpersonal eingestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsreformen werden in allen Bundesländern einheitlich umgesetzt.",
+        "respuesta": false
+      }
+    ]
   }
 ]
