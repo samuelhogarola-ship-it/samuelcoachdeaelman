@@ -29354,5 +29354,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-nagelstudio",
+    "nivel": "A1",
+    "titulo": "Im Nagelstudio",
+    "descripcion": "Lena geht zum ersten Mal in ein Nagelstudio und wählt eine Farbe.",
+    "texto": "Lena geht heute in ein Nagelstudio. Es ist ihr erster Besuch. Das Studio ist klein und sauber. Eine Frau begrüßt sie freundlich. „Guten Tag! Möchten Sie Ihre Nägel lackieren lassen?\", fragt sie. Lena sagt: „Ja, bitte. Ich möchte die Farbe Rot.\"\n\nDie Frau wäscht zuerst Lenas Hände. Dann feilt sie die Nägel. Das dauert nicht lange. Lena schaut auf ihr Handy und wartet ruhig. Danach malt die Frau die Nägel rot. Die Farbe trocknet schnell unter einer Lampe.\n\nNach dreißig Minuten sind die Nägel fertig. Lena ist sehr glücklich. Sie bezahlt zehn Euro und sagt „Danke schön!\". Sie möchte bald wiederkommen, vielleicht mit einer blauen Farbe.",
+    "preguntas": [
+      {
+        "enunciado": "Lena war schon oft im Nagelstudio.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena wählt die Farbe Rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frau feilt zuerst die Nägel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nägel trocknen unter einer Lampe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena bezahlt zwanzig Euro.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-wochenplan",
+    "nivel": "A1",
+    "titulo": "Mein Wochenplan",
+    "descripcion": "Tom erzählt, was er an jedem Tag der Woche macht.",
+    "texto": "Ich heiße Tom und ich habe einen festen Wochenplan. Am Montag gehe ich zur Schule und spiele danach Fußball. Am Dienstag habe ich Musikunterricht. Ich lerne Gitarre. Am Mittwoch treffe ich meine Freunde im Park.\n\nAm Donnerstag helfe ich meiner Mutter im Garten. Wir pflanzen Blumen und Gemüse. Am Freitag gehe ich schwimmen. Das Wasser im Schwimmbad ist immer warm. Am Wochenende schlafe ich lange und esse ein großes Frühstück.\n\nAm Samstag besuche ich oft meine Großeltern. Wir spielen Karten und trinken Tee. Am Sonntag bleibe ich zu Hause und lese ein Buch. Mein Wochenplan ist voll, aber ich bin sehr zufrieden.",
+    "preguntas": [
+      {
+        "enunciado": "Tom spielt am Montag Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom lernt am Dienstag Klavier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Donnerstag hilft Tom im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom geht am Freitag schwimmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom besucht seine Großeltern nie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-goldfisch",
+    "nivel": "A1",
+    "titulo": "Mein Goldfisch",
+    "descripcion": "Paul stellt seinen Goldfisch Flossi vor und beschreibt seinen Alltag.",
+    "texto": "Ich habe einen Goldfisch. Er heißt Flossi und lebt in einem großen Glas auf meinem Tisch. Flossi ist orange und schwimmt den ganzen Tag im Kreis. Er hat keine Zähne und keine Beine, nur eine Flosse.\n\nJeden Morgen gebe ich Flossi Futter. Das Futter sind kleine Flocken. Flossi schwimmt schnell zur Oberfläche und frisst alles. Einmal in der Woche putze ich sein Glas mit frischem Wasser. Das Wasser muss nicht zu kalt und nicht zu warm sein.\n\nFlossi ist ein ruhiges Haustier. Er macht keinen Lärm und braucht keinen Spaziergang. Meine kleine Schwester schaut jeden Tag gern zu, wie er im Wasser schwimmt.",
+    "preguntas": [
+      {
+        "enunciado": "Flossi ist ein Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Flossi ist orange.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul füttert Flossi jeden Morgen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flossi braucht einen Spaziergang.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Schwester mag Flossi nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-auf-dem-bauernhof",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende auf dem Bauernhof",
+    "descripcion": "Familie Berger verbringt ein Wochenende auf einem Bauernhof auf dem Land.",
+    "texto": "Familie Berger hat das Wochenende auf einem Bauernhof verbracht, weil die Kinder unbedingt Tiere sehen wollten. Der Bauernhof liegt weit außerhalb der Stadt, zwischen grünen Wiesen und Wäldern. Als sie ankamen, hat der Bauer sie herzlich begrüßt und ihnen die Kühe, Schweine und Hühner gezeigt.\n\nAm Samstag sind die Kinder früh aufgestanden, weil sie beim Melken der Kühe helfen durften. Das war für sie ein besonderes Erlebnis, denn sie hatten das noch nie gemacht. Danach haben sie Eier von den Hühnern gesammelt und im Garten frisches Gemüse geerntet. Am Nachmittag hat die Bäuerin gezeigt, wie man Brot backt.\n\nAm Abend haben alle zusammen am Lagerfeuer gesessen und Würstchen gegrillt. Die Kinder waren so müde, dass sie schnell eingeschlafen sind. Am Sonntagmorgen wollten sie eigentlich nicht mehr abreisen, weil es ihnen auf dem Bauernhof so gut gefallen hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bauernhof liegt mitten in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder durften beim Melken helfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag hat die Bäuerin Brot gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend haben sie im Restaurant gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder wollten am Sonntag gern bleiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verpasste-bahn",
+    "nivel": "A2",
+    "titulo": "Die verpasste Bahn",
+    "descripcion": "Jonas verpasst seine Bahn zur Arbeit und muss einen neuen Plan finden.",
+    "texto": "Jonas ist heute Morgen zu spät aufgewacht, weil sein Wecker nicht geklingelt hat. Er ist schnell aus dem Bett gesprungen und hat sich angezogen, ohne zu frühstücken. Als er zum Bahnhof gerannt ist, hat er die Bahn leider gerade noch verpasst. Die Türen sind direkt vor seiner Nase zugegangen.\n\nJonas war sehr frustriert, weil die nächste Bahn erst in zwanzig Minuten gefahren ist. Er hat seinem Chef geschrieben, dass er später kommt. Während er gewartet hat, hat er sich einen Kaffee gekauft und ist ruhiger geworden. Ein älterer Mann neben ihm hat gesagt, dass auch er oft seine Bahn verpasst.\n\nAls die nächste Bahn endlich gekommen ist, hat Jonas einen Sitzplatz gefunden und ein Buch gelesen. Obwohl er zu spät im Büro angekommen ist, hat sein Chef nichts gesagt. Am Abend hat Jonas sich einen zweiten Wecker gestellt, damit das nicht wieder passiert.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat verschlafen, weil der Wecker nicht geklingelt hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat vor der Bahnfahrt in Ruhe gefrühstückt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die nächste Bahn ist sofort gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Chef von Jonas war sehr wütend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas stellt sich am Abend einen zweiten Wecker.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-naehkurs-im-gemeindezentrum",
+    "nivel": "A2",
+    "titulo": "Der Nähkurs im Gemeindezentrum",
+    "descripcion": "Frau Hofmann besucht zum ersten Mal einen Nähkurs in ihrer Nachbarschaft.",
+    "texto": "Frau Hofmann hat letzte Woche einen Zettel im Gemeindezentrum gesehen, auf dem ein Nähkurs angekündigt wurde. Weil sie schon lange nähen lernen wollte, hat sie sich sofort angemeldet. Am Samstag ist sie zum ersten Termin gegangen und war ein bisschen nervös, weil sie niemanden dort kannte.\n\nDie Kursleiterin hat allen Teilnehmern gezeigt, wie man eine Nähmaschine benutzt. Frau Hofmann hat sich neben eine nette Frau aus der Nachbarschaft gesetzt, und sie haben sich schnell angefreundet. Zusammen haben sie versucht, ein kleines Kissen zu nähen. Das war schwieriger, als es aussah, weil der Faden immer wieder gerissen ist.\n\nAm Ende des Kurses hatte Frau Hofmann trotzdem ein fertiges Kissen in der Hand. Sie war stolz auf sich, obwohl es nicht perfekt aussah. Sie hat beschlossen, jeden Samstag zum Kurs zu gehen, weil es ihr großen Spaß gemacht hat.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Hofmann hat den Kurs im Internet gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Hofmann kannte am Anfang niemanden im Kurs.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Faden ist beim Nähen mehrmals gerissen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Hofmann hat kein fertiges Kissen bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Hofmann möchte weiter zum Kurs gehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-im-ausland",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum im Ausland",
+    "descripcion": "Simon berichtet von seinem dreimonatigen Praktikum in einem Unternehmen in Lissabon.",
+    "texto": "Simon hat sich schon während des Studiums für ein Praktikum im Ausland interessiert, obwohl er zunächst Zweifel hatte, ob er das allein schaffen würde. Nachdem er sich bei mehreren Firmen beworben hatte, bekam er schließlich eine Zusage von einem Marketingunternehmen in Lissabon. Drei Monate lang sollte er dort im Team für soziale Medien mitarbeiten.\n\nDie ersten Wochen waren nicht leicht, denn Simon musste sich an eine neue Sprache, eine fremde Stadt und ungewohnte Arbeitszeiten gewöhnen. Trotzdem hat er sich schnell eingelebt, weil seine Kollegen sehr hilfsbereit waren. Nachdem er ein paar portugiesische Wörter gelernt hatte, fühlte er sich im Büro immer wohler. Am Wochenende hat er die Stadt erkundet und viele neue Freundschaften geschlossen.\n\nAls das Praktikum zu Ende war, wollte Simon eigentlich gar nicht mehr zurückfliegen. Er hatte nicht nur wichtige berufliche Erfahrungen gesammelt, sondern auch gelernt, selbstständiger zu leben. Heute rät er allen Studierenden, ein Praktikum im Ausland zu machen, obwohl es am Anfang beängstigend erscheinen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Simon hatte von Anfang an keine Zweifel am Auslandspraktikum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon hat drei Monate in Lissabon gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simons Kollegen waren wenig hilfsbereit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon hat am Wochenende die Stadt erkundet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon rät anderen Studierenden von einem Auslandspraktikum ab.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-renovierung-der-alten-wohnung",
+    "nivel": "B1",
+    "titulo": "Die Renovierung der alten Wohnung",
+    "descripcion": "Familie Vogel renoviert eine alte Wohnung im Zentrum von Leipzig.",
+    "texto": "Familie Vogel hat vor einigen Monaten eine alte Wohnung im Zentrum von Leipzig gekauft, obwohl die Wohnung in einem sehr schlechten Zustand war. Die Wände waren rissig, die Böden alt, und die Küche stammte noch aus den achtziger Jahren. Trotzdem hat sich die Familie in die hohen Decken und die großen Fenster verliebt.\n\nDie Renovierung hat viel länger gedauert, als sie geplant hatten. Nachdem die Handwerker die alten Böden entfernt hatten, entdeckten sie darunter beschädigte Rohre, die zuerst repariert werden mussten. Herr Vogel wollte die Arbeiten eigentlich selbst erledigen, doch schnell wurde klar, dass er professionelle Hilfe brauchte. Seine Frau kümmerte sich währenddessen um die Farben und Möbel für die neuen Räume.\n\nNach sechs Monaten harter Arbeit war die Wohnung endlich fertig. Obwohl der Umbau teurer war als erwartet, sind die Vogels sehr zufrieden mit dem Ergebnis. Die alte Wohnung wirkt jetzt hell und modern, und die Familie freut sich schon auf die erste Einweihungsparty mit Freunden und Nachbarn.",
+    "preguntas": [
+      {
+        "enunciado": "Die Wohnung war beim Kauf in einem sehr guten Zustand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Unter den alten Böden fanden die Handwerker beschädigte Rohre.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Vogel hat die gesamte Renovierung allein geschafft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Renovierung hat weniger als einen Monat gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie plant eine Einweihungsparty.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-vereinsleben-im-dorf",
+    "nivel": "B1",
+    "titulo": "Das Vereinsleben im Dorf",
+    "descripcion": "Markus engagiert sich im örtlichen Fußballverein und entdeckt den Wert der Gemeinschaft.",
+    "texto": "Als Markus vor zwei Jahren in ein kleines Dorf gezogen ist, kannte er dort niemanden. Er fühlte sich anfangs einsam, obwohl die Landschaft rund um das Dorf wunderschön war. Ein Nachbar erzählte ihm eines Tages vom örtlichen Fußballverein und lud ihn ein, einfach mal beim Training vorbeizuschauen.\n\nAnfangs war Markus unsicher, weil er lange nicht mehr Fußball gespielt hatte. Nachdem er jedoch einmal mitgemacht hatte, wollte er nicht mehr aufhören. Die anderen Spieler waren freundlich, und nach dem Training saßen alle zusammen in der Vereinskneipe und redeten über das Dorfleben. So lernte Markus innerhalb weniger Wochen viele Menschen kennen.\n\nHeute ist Markus nicht nur Spieler, sondern auch im Vorstand des Vereins aktiv. Er organisiert das jährliche Dorffest und hilft bei der Jugendarbeit mit. Obwohl er früher dachte, dass Vereine altmodisch seien, hat er inzwischen verstanden, wie wichtig sie für den Zusammenhalt in einem Dorf sind.",
+    "preguntas": [
+      {
+        "enunciado": "Markus kannte schon viele Leute, als er ins Dorf zog.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Nachbar hat Markus zum Fußballverein eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus wollte nach dem ersten Training nicht mehr weitermachen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus ist heute auch im Vorstand des Vereins tätig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hält Vereine für unwichtig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-strukturwandel-im-ruhrgebiet",
+    "nivel": "B2",
+    "titulo": "Der Strukturwandel im Ruhrgebiet",
+    "descripcion": "Ein Blick auf den wirtschaftlichen und gesellschaftlichen Wandel einer ehemaligen Industrieregion.",
+    "texto": "Das Ruhrgebiet war über ein Jahrhundert lang das industrielle Herz Deutschlands, geprägt von Kohlebergwerken und Stahlwerken, die Millionen Menschen Arbeit gaben. Seit der Schließung der letzten Zeche im Jahr 2018 hat sich die Region jedoch grundlegend verändert. Wo früher Fördertürme den Himmel dominierten, entstehen heute Universitäten, Technologieparks und Kulturzentren, die der Region ein völlig neues Gesicht geben sollen.\n\nDieser Strukturwandel wird von der Politik zwar als Erfolgsgeschichte präsentiert, doch die Realität vor Ort ist komplexer, als es offizielle Statistiken vermuten lassen. Zahlreiche ehemalige Bergarbeiter mussten sich beruflich völlig neu orientieren, was ihnen nicht immer gelang, während gleichzeitig neue, oft akademisch geprägte Arbeitsplätze entstanden, für die den früheren Industriearbeitern häufig die Qualifikation fehlte. In manchen Städten des Ruhrgebiets ist die Arbeitslosigkeit deshalb bis heute höher als im bundesweiten Durchschnitt.\n\nDennoch gibt es auch positive Entwicklungen, die nicht übersehen werden sollten. Ehemalige Industrieanlagen wie die Zeche Zollverein wurden zu beliebten Kulturdenkmälern umgebaut, die jährlich Millionen Besucher anziehen. Junge Menschen, die in der Region aufgewachsen sind, gründen zunehmend eigene Unternehmen in den Bereichen IT und erneuerbare Energien. Ob es dem Ruhrgebiet gelingt, seine Identität als einstige Industrieregion mit einer nachhaltigen Zukunft zu verbinden, wird sich erst in den kommenden Jahrzehnten vollständig zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Die letzte Zeche im Ruhrgebiet wurde 2018 geschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle ehemaligen Bergarbeiter fanden sofort eine neue passende Stelle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Arbeitslosigkeit liegt in manchen Städten des Ruhrgebiets über dem Bundesdurchschnitt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zeche Zollverein wurde abgerissen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Menschen gründen in der Region zunehmend eigene Unternehmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-private-altersvorsorge-und-ihre-herausforderungen",
+    "nivel": "B2",
+    "titulo": "Die private Altersvorsorge und ihre Herausforderungen",
+    "descripcion": "Ein Text über die Grenzen des gesetzlichen Rentensystems und die wachsende Bedeutung privater Vorsorge.",
+    "texto": "Angesichts des demografischen Wandels wird in Deutschland seit Jahren diskutiert, ob das gesetzliche Rentensystem allein noch ausreicht, um einen angemessenen Lebensstandard im Alter zu sichern. Da immer weniger Erwerbstätige für immer mehr Rentner aufkommen müssen, raten Experten zunehmend dazu, zusätzlich privat vorzusorgen. Viele junge Menschen wüssten jedoch nicht, wie sie dieses komplexe Thema angehen sollten, wenn man sie danach fragt.\n\nEin zentrales Problem besteht darin, dass private Altersvorsorge Geld voraussetzt, das nicht jeder übrighat. Wer ein niedriges Einkommen bezieht oder in prekären Arbeitsverhältnissen beschäftigt ist, kann kaum regelmäßig sparen, selbst wenn er die Notwendigkeit durchaus erkennt. Kritiker bemängeln deshalb, dass private Vorsorge soziale Ungleichheit eher verstärkt, als sie auszugleichen, da wohlhabendere Bürger deutlich mehr Kapital anlegen können als Geringverdiener. Wäre die gesetzliche Rente von vornherein höher, bräuchte es diese zusätzliche individuelle Anstrengung in geringerem Maße.\n\nGleichzeitig verweisen Befürworter der privaten Vorsorge darauf, dass ausschließlich staatliche Lösungen angesichts der demografischen Entwicklung langfristig kaum finanzierbar wären. Sie plädieren für eine Kombination aus gesetzlicher, betrieblicher und privater Vorsorge, damit das Risiko auf mehrere Säulen verteilt wird. Ob diese sogenannte Drei-Säulen-Strategie tatsächlich für alle Bevölkerungsgruppen gleichermaßen funktioniert, bleibt allerdings umstritten und wird die politische Debatte in den kommenden Jahren weiter prägen.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Erwerbstätige müssen für immer weniger Rentner aufkommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Menschen mit niedrigem Einkommen können oft nur schwer privat vorsorgen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen in der privaten Vorsorge eine mögliche Ursache für mehr soziale Ungleichheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter der privaten Vorsorge lehnen jede staatliche Beteiligung strikt ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Drei-Säulen-Strategie gilt im Text als vollkommen unumstritten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-die-fachkraefteeinwanderung",
+    "nivel": "B2",
+    "titulo": "Die Debatte um die Fachkräfteeinwanderung",
+    "descripcion": "Deutschland sucht qualifizierte Arbeitskräfte aus dem Ausland – ein kontroverses gesellschaftliches Thema.",
+    "texto": "In zahlreichen Branchen Deutschlands, von der Pflege über das Handwerk bis zur Informationstechnologie, fehlen inzwischen so viele qualifizierte Arbeitskräfte, dass Unternehmen ihre Aufträge teilweise nicht mehr erfüllen können. Um diesem Mangel entgegenzuwirken, hat die Bundesregierung die gesetzlichen Regelungen zur Fachkräfteeinwanderung in den vergangenen Jahren mehrfach reformiert und vereinfacht. Menschen aus Nicht-EU-Ländern sollen es dadurch leichter haben, in Deutschland zu arbeiten, sofern sie über eine anerkannte Qualifikation verfügen.\n\nBefürworter dieser Politik argumentieren, dass ohne ausländische Fachkräfte ganze Wirtschaftszweige zusammenbrechen würden, während gleichzeitig immer mehr ältere Arbeitnehmer in Rente gehen. Zudem verweisen sie darauf, dass viele Unternehmen dringend Auszubildende und Ingenieure suchen, die auf dem inländischen Arbeitsmarkt kaum zu finden seien. Kritiker hingegen bezweifeln, dass eine erleichterte Einwanderung allein das Problem löst, solange die Anerkennung ausländischer Abschlüsse weiterhin so bürokratisch und langwierig verläuft wie bisher.\n\nBesonders umstritten ist außerdem die Frage, wie gut Deutschland tatsächlich darauf vorbereitet ist, neu ankommende Fachkräfte gesellschaftlich zu integrieren. Ohne ausreichende Sprachkurse, bezahlbaren Wohnraum und eine offene Willkommenskultur, so warnen Experten, werde selbst die großzügigste Gesetzesreform wenig bewirken. Ob es Deutschland gelingt, sowohl die rechtlichen als auch die praktischen Hürden abzubauen, dürfte langfristig darüber entscheiden, wie erfolgreich die Fachkräfteeinwanderung tatsächlich sein wird.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland fehlen laut Text qualifizierte Arbeitskräfte in mehreren Branchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bundesregierung hat die Regeln zur Fachkräfteeinwanderung in den letzten Jahren erschwert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln vor allem die langwierige Anerkennung ausländischer Abschlüsse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Experten reicht eine Gesetzesreform allein aus, ohne Sprachkurse oder Wohnraum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text stellt die gesellschaftliche Integration als unwichtiges Thema dar.",
+        "respuesta": false
+      }
+    ]
   }
 ]
