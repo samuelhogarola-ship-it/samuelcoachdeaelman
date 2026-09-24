@@ -30050,5 +30050,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-hobby-schwimmen",
+    "nivel": "A1",
+    "titulo": "Mein Hobby ist Schwimmen",
+    "descripcion": "Lena erzählt über ihr Lieblingshobby.",
+    "texto": "Ich heiße Lena und ich bin zehn Jahre alt. Mein Hobby ist Schwimmen. Ich schwimme jeden Dienstag und jeden Freitag im Schwimmbad. Das Schwimmbad ist nicht weit von meinem Haus.\n\nMeine beste Freundin heißt Mia. Sie schwimmt auch sehr gern. Wir schwimmen oft zusammen. Nach dem Schwimmen trinken wir warmen Kakao. Der Kakao schmeckt sehr gut.\n\nAm Wochenende gehe ich mit meiner Familie zum See. Mein Vater schwimmt auch gern, aber meine Mutter schwimmt nicht so oft. Sie liest lieber ein Buch. Ich finde Schwimmen toll, weil es Spaß macht.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena schwimmt jeden Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia ist Lenas beste Freundin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Schwimmen trinken sie Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lenas Mutter liest lieber ein Buch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-supermarkt-am-samstag",
+    "nivel": "A1",
+    "titulo": "Im Supermarkt am Samstag",
+    "descripcion": "Paul kauft am Samstag Essen für die Familie ein.",
+    "texto": "Paul geht am Samstag in den Supermarkt. Er braucht Brot, Milch und Äpfel. Der Supermarkt ist groß und hat viele Regale.\n\nPaul nimmt einen Einkaufswagen und geht durch die Gänge. Zuerst kauft er das Brot. Dann sucht er die Milch. Die Milch ist im Kühlregal. Danach kauft er rote Äpfel, weil seine Kinder Äpfel sehr mögen.\n\nAn der Kasse bezahlt Paul mit Karte. Die Verkäuferin sagt: „Einen schönen Tag noch!“ Paul geht mit den Einkaufstaschen nach Hause. Zu Hause freut sich seine Familie über das frische Brot.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht am Sonntag einkaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul kauft Brot, Milch und Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Milch steht im Kühlregal.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pauls Kinder mögen keine Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul bezahlt an der Kasse mit Karte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-bei-meiner-oma",
+    "nivel": "A1",
+    "titulo": "Ein Tag bei meiner Oma",
+    "descripcion": "Tim beschreibt einen typischen Tag bei seiner Großmutter.",
+    "texto": "Jeden Mittwoch bin ich bei meiner Oma. Ich stehe früh auf und fahre mit dem Bus zu ihr. Meine Oma wohnt in einem kleinen Haus mit einem Garten.\n\nZuerst frühstücken wir zusammen. Wir essen Brötchen mit Marmelade und trinken Tee. Danach arbeiten wir im Garten. Meine Oma hat Tomaten und Blumen im Garten. Ich helfe ihr beim Gießen.\n\nAm Nachmittag spielen wir Karten oder sie erzählt mir Geschichten von früher. Ich mag die Zeit bei meiner Oma sehr. Am Abend bringt mein Vater mich wieder nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist jeden Mittwoch bei seiner Oma.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tims Oma wohnt in einer großen Stadtwohnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie trinken zum Frühstück Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Garten wachsen Tomaten und Blumen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag spielen sie manchmal Karten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-skiausflug",
+    "nivel": "A2",
+    "titulo": "Der Skiausflug",
+    "descripcion": "Eine Schulklasse fährt für ein Wochenende in die Berge zum Skifahren.",
+    "texto": "Letzten Winter ist unsere Klasse für ein Wochenende in die Berge gefahren. Wir sind mit dem Bus früh am Morgen losgefahren, weil die Fahrt fast vier Stunden gedauert hat. Als wir angekommen sind, hat es stark geschneit.\n\nAm ersten Tag haben wir das Skifahren gelernt. Ich war noch nie zuvor auf Skiern gestanden, deshalb bin ich oft hingefallen. Mein Freund Jonas hat mir geholfen, weil er schon Erfahrung hatte. Am Abend haben wir zusammen in der Hütte gegessen und Karten gespielt.\n\nAm zweiten Tag hat die Sonne geschienen, und wir sind viel besser Ski gefahren als am Tag davor. Die Lehrerin hat gesagt, dass wir großen Fortschritt gemacht haben. Obwohl ich müde war, war es das schönste Wochenende des Jahres.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist mit dem Zug gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bei der Ankunft hat es geschneit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Erzähler konnte schon sehr gut Ski fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am zweiten Tag hat die Sonne geschienen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Erzähler fand das Wochenende langweilig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-termin-beim-zahnarzt",
+    "nivel": "A2",
+    "titulo": "Der Termin beim Zahnarzt",
+    "descripcion": "Sabine berichtet von ihrem Besuch beim Zahnarzt und ihrer Angst davor.",
+    "texto": "Sabine hatte seit zwei Wochen Zahnschmerzen, aber sie hat sich nicht getraut, zum Zahnarzt zu gehen, weil sie Angst hatte. Schließlich hat ihre Schwester sie überredet, einen Termin zu machen.\n\nAm Tag des Termins war Sabine sehr nervös. Im Wartezimmer hat sie eine Zeitschrift gelesen, um sich abzulenken. Als die Arzthelferin ihren Namen gerufen hat, ist Sabines Herz schnell geschlagen. Der Zahnarzt hat den Zahn untersucht und gesagt, dass er nur eine kleine Füllung machen muss.\n\nDie Behandlung hat nicht wehgetan, weil der Zahnarzt sehr vorsichtig war. Nachdem alles fertig war, hat Sabine erleichtert aufgeatmet. Sie hat verstanden, dass ihre Angst unnötig war, und will jetzt regelmäßig zur Kontrolle gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hatte seit zwei Wochen Zahnschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine ist sofort ohne Angst zum Zahnarzt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zahnarzt musste eine große Operation machen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Behandlung hat sehr wehgetan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine will jetzt regelmäßig zur Kontrolle gehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-hamburg",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus Hamburg",
+    "descripcion": "Anna schreibt ihrer Freundin einen Brief über ihr neues Leben in Hamburg.",
+    "texto": "Liebe Katrin,\n\nich hoffe, es geht dir gut! Ich wollte dir schreiben, weil ich seit einem Monat in Hamburg wohne. Die Stadt ist wunderschön, und ich habe schon viele interessante Orte besucht, zum Beispiel den Hafen und die Speicherstadt.\n\nAm Anfang war es nicht leicht, weil ich niemanden kannte und mich einsam gefühlt habe. Zum Glück habe ich in meinem neuen Job nette Kollegen kennengelernt. Letzte Woche sind wir zusammen ins Kino gegangen, und das hat viel Spaß gemacht.\n\nDas Wetter hier ist oft regnerisch, aber das stört mich nicht so sehr. Ich vermisse dich und unsere Stadt, deshalb hoffe ich, dass du mich bald besuchen kannst.\n\nViele liebe Grüße\nAnna",
+    "preguntas": [
+      {
+        "enunciado": "Anna wohnt seit einem Jahr in Hamburg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna hat den Hafen und die Speicherstadt besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang hat sich Anna einsam gefühlt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Annas Kollegen sind unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna möchte, dass Katrin sie besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest",
+    "descripcion": "Eine junge Frau erlebt das jährliche Stadtfest ihrer Heimatstadt und trifft dort alte Bekannte wieder.",
+    "texto": "Jedes Jahr im Sommer findet in meiner Heimatstadt das große Stadtfest statt, auf das sich die ganze Region freut. Obwohl ich mittlerweile in einer anderen Stadt studiere, versuche ich immer, an diesem Wochenende nach Hause zu fahren. Dieses Jahr war das Fest besonders schön, weil das Wetter mitgespielt hat und die Straßen bunt geschmückt waren.\n\nAuf dem Marktplatz gab es Musik, Essstände und ein kleines Feuerwerk am Abend. Nachdem ich einen Rundgang gemacht hatte, traf ich zufällig meine alte Schulfreundin Petra, die ich seit über drei Jahren nicht gesehen hatte. Wir haben stundenlang geredet, obwohl wir uns eigentlich nur kurz begrüßen wollten. Es war schön zu merken, dass sich zwischen uns trotz der langen Zeit nichts verändert hatte.\n\nAm Ende des Abends saßen wir gemeinsam am Fluss und schauten dem Feuerwerk zu. Solche Momente erinnern mich daran, wie wichtig es ist, die eigenen Wurzeln nicht zu vergessen, egal wohin einen das Leben führt.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest findet jedes Jahr im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Erzählerin studiert inzwischen in einer anderen Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hat Petra seit über drei Jahren nicht gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen hatten sich nichts mehr zu sagen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend gab es ein kleines Feuerwerk.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-monat-in-der-neuen-stadt",
+    "nivel": "B1",
+    "titulo": "Der erste Monat in der neuen Stadt",
+    "descripcion": "Ein junger Mann berichtet über die Herausforderungen und kleinen Erfolge seines ersten Monats nach dem Umzug in eine fremde Stadt.",
+    "texto": "Vor einem Monat bin ich beruflich nach Leipzig gezogen, obwohl ich vorher noch nie in dieser Stadt gewesen war. Am Anfang fühlte ich mich ziemlich verloren, weil ich weder die Straßen noch irgendwelche Menschen kannte. Jeden Abend saß ich allein in meiner neuen Wohnung und fragte mich, ob der Umzug wirklich die richtige Entscheidung gewesen war.\n\nNachdem ich einige Wochen vergeblich versucht hatte, Anschluss zu finden, entschied ich mich, einem Sportverein beizutreten. Dort lernte ich schnell nette Leute kennen, die mir die Stadt zeigten und mir Tipps für gute Restaurants gaben. Trotzdem dauerte es eine Weile, bis ich mich wirklich zu Hause fühlte.\n\nMittlerweile kenne ich die wichtigsten Buslinien, meinen Lieblingsbäcker und sogar ein paar Abkürzungen durch die Altstadt. Ich habe gemerkt, dass Geduld der wichtigste Faktor ist, wenn man in einer neuen Stadt ankommt. Heute bin ich froh, dass ich damals nicht aufgegeben habe.",
+    "preguntas": [
+      {
+        "enunciado": "Der Erzähler kannte Leipzig schon gut, bevor er umgezogen ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang fühlte er sich verloren und einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er trat einem Sportverein bei, um Leute kennenzulernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er fühlte sich sofort in der ersten Woche zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende bereut er, dass er nicht aufgegeben hat.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wie-aus-nachbarn-freunde-wurden",
+    "nivel": "B1",
+    "titulo": "Wie aus Nachbarn Freunde wurden",
+    "descripcion": "Eine ältere Dame erzählt, wie eine zufällige Begegnung mit ihrem neuen Nachbarn zu einer festen Freundschaft wurde.",
+    "texto": "Als Herr Berger vor zwei Jahren in die Wohnung neben mir einzog, dachte ich zunächst, wir würden uns höchstens im Treppenhaus grüßen. Er war neu in der Stadt und wirkte am Anfang etwas zurückhaltend, weshalb ich mich nicht traute, ihn näher kennenzulernen.\n\nEines Abends jedoch klingelte er an meiner Tür, weil er sich in seiner Wohnung ausgesperrt hatte und auf den Schlüsseldienst warten musste. Ich lud ihn auf einen Tee ein, und wir unterhielten uns stundenlang über unsere Familien, unsere Hobbys und unsere Erfahrungen in der Stadt. Nachdem wir gemerkt hatten, dass wir viele gemeinsame Interessen hatten, trafen wir uns immer öfter.\n\nHeute, zwei Jahre später, gehen wir jeden Sonntag zusammen spazieren und helfen uns gegenseitig im Alltag. Obwohl unsere Freundschaft durch einen Zufall entstanden ist, ist sie mittlerweile eine der wichtigsten in meinem Leben geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Berger und die Erzählerin wurden sofort beste Freunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Berger klingelte, weil er sich ausgesperrt hatte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden entdeckten gemeinsame Interessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sprechen heute kaum noch miteinander.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie gehen jeden Sonntag zusammen spazieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-vier-tage-woche",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Vier-Tage-Woche",
+    "descripcion": "Der Text beleuchtet die Chancen und Risiken der Vier-Tage-Woche als Modell für die Arbeitswelt der Zukunft.",
+    "texto": "In den letzten Jahren ist die Vier-Tage-Woche zu einem der meistdiskutierten Themen der Arbeitswelt geworden. Immer mehr Unternehmen testen Modelle, bei denen die Arbeitszeit auf vier Tage verkürzt wird, ohne dass das Gehalt der Beschäftigten sinkt. Befürworter argumentieren, dass eine kürzere Arbeitswoche nicht nur die Lebensqualität verbessere, sondern auch die Produktivität steigern könne, da ausgeruhte Mitarbeiter konzentrierter arbeiteten.\n\nKritiker hingegen wenden ein, dass sich ein solches Modell nicht auf alle Branchen übertragen lasse. Während es in der Verwaltung oder in kreativen Berufen relativ leicht umsetzbar wäre, stelle sich in der Pflege, im Handwerk oder im Einzelhandel die Frage, wer die entstehenden Lücken schließen solle. Zudem befürchten manche Ökonomen, dass ein flächendeckender Wechsel zur Vier-Tage-Woche in bestimmten Sektoren zu einem Fachkräftemangel führen würde, der ohnehin schon spürbar ist.\n\nWürde man das Modell dennoch verbindlich einführen, müssten gleichzeitig Arbeitsprozesse grundlegend überdacht werden. Es reicht nicht aus, lediglich einen Tag zu streichen, ohne die Arbeitsorganisation anzupassen. Studien aus Ländern, die Pilotprojekte durchgeführt haben, deuten jedoch darauf hin, dass sich viele Bedenken in der Praxis nicht bestätigt haben und dass sowohl Arbeitgeber als auch Beschäftigte von einer sorgfältig geplanten Umstellung profitieren könnten.",
+    "preguntas": [
+      {
+        "enunciado": "Bei der Vier-Tage-Woche soll das Gehalt trotz kürzerer Arbeitszeit gleich bleiben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker halten das Modell für alle Branchen gleich gut umsetzbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Pflege stellt sich die Frage, wer entstehende Lücken schließen soll.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text reicht es aus, einfach nur einen Arbeitstag zu streichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien aus Pilotprojekten haben alle Bedenken vollständig bestätigt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-einsatz-von-chatbots-in-schulen",
+    "nivel": "B2",
+    "titulo": "Der Einsatz von Chatbots in Schulen",
+    "descripcion": "Der Artikel diskutiert kontrovers, welche Rolle KI-gestützte Chatbots im schulischen Unterricht künftig spielen sollten.",
+    "texto": "Seit der breiten Verfügbarkeit leistungsfähiger Sprachmodelle stellt sich für viele Schulen die Frage, wie mit Chatbots im Unterricht umgegangen werden soll. Während einige Lehrkräfte befürchten, dass Schülerinnen und Schüler ihre Hausaufgaben künftig einfach von einer künstlichen Intelligenz erledigen lassen, sehen andere in der Technologie eine Chance, individuelles Lernen zu fördern, das im klassischen Frontalunterricht kaum möglich wäre.\n\nBefürworter verweisen darauf, dass ein Chatbot geduldig auf jede noch so einfache Frage eingehen könne, ohne dass sich ein Schüler dabei vor der Klasse bloßgestellt fühlen müsse. Auch könnten leistungsschwächere Kinder von zusätzlichen Erklärungen profitieren, während besonders begabte Schüler mit anspruchsvolleren Aufgaben gefordert würden. Gleichzeitig wird jedoch bezweifelt, ob die Antworten der Systeme immer inhaltlich korrekt sind und ob Kinder in einem jungen Alter überhaupt fähig sind, maschinell erzeugte Informationen kritisch zu hinterfragen.\n\nAus diesem Grund fordern viele Bildungsexperten, dass der Umgang mit solchen Werkzeugen selbst zum Unterrichtsgegenstand gemacht werden müsse, anstatt sie entweder komplett zu verbieten oder unreflektiert einzusetzen. Nur wenn Schülerinnen und Schüler lernten, die Grenzen und Schwächen künstlicher Intelligenz zu verstehen, könnten sie langfristig von deren Vorteilen profitieren, ohne von ihr abhängig zu werden.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Lehrkräfte lehnen den Einsatz von Chatbots im Unterricht ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen eine Chance für individuelleres Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text sind die Antworten von Chatbots immer inhaltlich korrekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern, den kritischen Umgang mit KI zu unterrichten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text empfiehlt, Chatbots vollständig aus Schulen zu verbannen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-stille-rueckzug-aus-den-sozialen-medien",
+    "nivel": "B2",
+    "titulo": "Der stille Rückzug aus den sozialen Medien",
+    "descripcion": "Der Text untersucht, warum sich immer mehr junge Menschen bewusst von sozialen Netzwerken abwenden, und was das für die Gesellschaft bedeutet.",
+    "texto": "Während soziale Netzwerke lange Zeit als unverzichtbarer Bestandteil des Alltags junger Menschen galten, lässt sich in den letzten Jahren ein gegenläufiger Trend beobachten. Immer mehr Jugendliche und junge Erwachsene löschen ihre Accounts oder reduzieren ihre Nutzung erheblich, ein Phänomen, das inzwischen unter dem Begriff „digitaler Minimalismus“ diskutiert wird. Als Gründe werden häufig das Gefühl ständiger Vergleichbarkeit, die Angst, etwas zu verpassen, sowie eine allgemeine Erschöpfung durch die Informationsflut genannt.\n\nBesonders bemerkenswert ist, dass dieser Rückzug nicht selten von denjenigen ausgeht, die mit sozialen Medien aufgewachsen sind und deren negative Auswirkungen am eigenen Leib erfahren haben. Manche berichten, dass sie sich erst nach der Löschung ihrer Profile bewusst wurden, wie viel Zeit sie zuvor mit dem bloßen Scrollen verbracht hatten, ohne dass ihnen dies inhaltlich etwas gebracht hätte. Andere wiederum betonen, dass ihnen der soziale Druck, ein möglichst perfektes Leben zu präsentieren, zunehmend zur Last geworden sei.\n\nOb dieser Trend tatsächlich eine dauerhafte gesellschaftliche Veränderung einleitet oder lediglich eine vorübergehende Gegenbewegung darstellt, lässt sich derzeit noch nicht abschließend beurteilen. Fest steht jedoch, dass die Debatte um einen bewussteren Umgang mit digitalen Medien mittlerweile auch in Schulen und Unternehmen angekommen ist, wo zunehmend über digitale Auszeiten und Regeln für die Bildschirmnutzung nachgedacht wird.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr junge Menschen nutzen soziale Medien stärker als früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Begriff „digitaler Minimalismus“ wird im Text erwähnt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Viele, die sich zurückziehen, sind mit sozialen Medien aufgewachsen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, der Trend sei mit Sicherheit dauerhaft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Thema digitale Auszeiten wird auch in Schulen diskutiert.",
+        "respuesta": true
+      }
+    ]
   }
 ]
