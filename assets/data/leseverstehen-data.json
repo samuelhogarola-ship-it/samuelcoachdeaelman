@@ -31094,5 +31094,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "wir-kaufen-ein-fahrrad",
+    "nivel": "A1",
+    "titulo": "Wir kaufen ein Fahrrad",
+    "descripcion": "Lena und ihr Vater kaufen ein neues Fahrrad.",
+    "texto": "Lena braucht ein neues Fahrrad. Ihr altes Fahrrad ist kaputt. Am Samstag gehen Lena und ihr Vater in den Fahrradladen.\n\nIm Laden gibt es viele Fahrräder. Es gibt rote, blaue und grüne Fahrräder. Lena mag die Farbe Blau. Sie testet ein blaues Fahrrad. Das Fahrrad ist genau richtig für sie.\n\nDer Verkäufer ist sehr nett. Er hilft Lena und ihrem Vater. Das Fahrrad kostet 250 Euro. Lenas Vater bezahlt das Fahrrad. Lena ist sehr glücklich. Am Sonntag fährt sie mit ihren Freunden im Park.",
+    "preguntas": [
+      {
+        "enunciado": "Lenas altes Fahrrad ist kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena kauft am Montag ein Fahrrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena mag die Farbe Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad kostet 250 Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena fährt allein im Park.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-in-den-zoo",
+    "nivel": "A1",
+    "titulo": "Der Ausflug in den Zoo",
+    "descripcion": "Die Klasse von Tim besucht den Zoo.",
+    "texto": "Tim geht heute mit seiner Klasse in den Zoo. Der Bus fährt um neun Uhr los. Alle Kinder sind sehr aufgeregt.\n\nIm Zoo sehen sie viele Tiere. Sie sehen Löwen, Affen und Elefanten. Tim mag die Affen am liebsten. Die Affen klettern auf die Bäume. Ein Affe isst eine Banane.\n\nZum Mittagessen isst die Klasse Brote im Park. Danach kaufen die Kinder Postkarten. Um vier Uhr fahren sie mit dem Bus zurück zur Schule. Tim erzählt seiner Mutter vom Ausflug.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bus fährt um neun Uhr los.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim mag die Löwen am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Affe isst eine Banane.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse isst zu Mittag im Restaurant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder fahren um vier Uhr zurück.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsueberraschung",
+    "nivel": "A1",
+    "titulo": "Die Geburtstagsüberraschung",
+    "descripcion": "Die Familie plant eine Überraschung für Opa.",
+    "texto": "Opa hat morgen Geburtstag. Er wird 70 Jahre alt. Die Familie plant eine Überraschung. Alle helfen mit.\n\nOma backt einen Kuchen. Der Kuchen ist mit Schokolade. Die Kinder malen ein Bild für Opa. Papa kauft bunte Luftballons. Mama schreibt eine Karte.\n\nAm Geburtstag kommt die ganze Familie zusammen. Opa öffnet die Tür und ist sehr überrascht. „Das ist wunderbar!“, sagt Opa. Alle singen ein Geburtstagslied. Opa isst ein großes Stück Kuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Opa wird 70 Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma backt einen Kuchen mit Erdbeeren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder malen ein Bild für Opa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Papa schreibt eine Karte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie singt ein Geburtstagslied.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrt-mit-dem-nachtzug",
+    "nivel": "A2",
+    "titulo": "Die Fahrt mit dem Nachtzug",
+    "descripcion": "Markus hat zum ersten Mal eine Nachtzugfahrt gemacht.",
+    "texto": "Markus ist letzte Woche mit dem Nachtzug nach Wien gefahren. Er hat sich sehr darauf gefreut, weil er noch nie in einem Nachtzug geschlafen hat. Am Bahnhof hat er sein Bett im Schlafwagen gesucht.\n\nDas Abteil war klein, aber gemütlich. Markus hat mit zwei anderen Reisenden gesprochen, bevor er eingeschlafen ist. In der Nacht ist der Zug ziemlich laut gewesen, deshalb hat Markus nicht gut geschlafen. Trotzdem hat er die Fahrt spannend gefunden.\n\nAm nächsten Morgen ist der Zug pünktlich in Wien angekommen. Markus hat gefrühstückt und ist dann durch die Stadt spaziert. Er hat entschieden, dass er bald wieder mit dem Nachtzug reisen möchte, weil er Zeit und Geld spart.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist mit dem Nachtzug nach Wien gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat schon oft in einem Nachtzug geschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat in der Nacht sehr gut geschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug ist pünktlich in Wien angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus möchte nie wieder mit dem Nachtzug reisen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-kaputte-waschmaschine",
+    "nivel": "A2",
+    "titulo": "Die kaputte Waschmaschine",
+    "descripcion": "Familie Berger muss eine neue Waschmaschine kaufen.",
+    "texto": "Letzten Dienstag ist die Waschmaschine von Familie Berger kaputtgegangen. Frau Berger hat die Wäsche gestartet, aber die Maschine hat komische Geräusche gemacht. Danach ist kein Wasser mehr abgelaufen.\n\nHerr Berger hat einen Techniker angerufen, weil er die Maschine nicht selbst reparieren konnte. Der Techniker ist am nächsten Tag gekommen und hat die Maschine untersucht. Er hat gesagt, dass sich die Reparatur nicht lohnt, weil die Maschine schon zwölf Jahre alt ist.\n\nDeshalb ist die Familie in ein Geschäft gefahren und hat eine neue Waschmaschine gekauft. Die neue Maschine ist leiser und spart mehr Strom. Frau Berger ist froh, dass sie bald wieder zu Hause waschen kann, ohne in den Waschsalon zu gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Waschmaschine ist an einem Dienstag kaputtgegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger hat die Maschine selbst repariert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Techniker hat die Reparatur empfohlen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat eine neue Waschmaschine gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die neue Maschine spart mehr Strom.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-spaziergang-im-regen",
+    "nivel": "A2",
+    "titulo": "Der Spaziergang im Regen",
+    "descripcion": "Julia und ihr Hund machen einen Spaziergang trotz schlechten Wetters.",
+    "texto": "Am Sonntagmorgen hat es stark geregnet, aber Julia musste trotzdem mit ihrem Hund Bruno spazieren gehen. Sie hat eine Regenjacke angezogen und einen Regenschirm mitgenommen, weil sie nicht nass werden wollte.\n\nIm Park war fast niemand, weil das Wetter so schlecht war. Bruno hat den Regen aber geliebt und ist durch jede Pfütze gesprungen. Julia hat gelacht, obwohl ihre Schuhe schon nass geworden sind.\n\nNach einer Stunde sind sie nach Hause zurückgekommen. Julia hat Bruno mit einem Handtuch abgetrocknet und sich einen heißen Tee gemacht. Sie hat gedacht, dass ein Spaziergang im Regen auch schön sein kann, wenn man gute Laune hat.",
+    "preguntas": [
+      {
+        "enunciado": "Am Sonntag hat die Sonne geschienen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat einen Regenschirm mitgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Park war voller Menschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist durch die Pfützen gesprungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat sich nach dem Spaziergang einen Tee gemacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geschichte-meiner-grosseltern",
+    "nivel": "B1",
+    "titulo": "Die Geschichte meiner Großeltern",
+    "descripcion": "Eine Enkelin erzählt, wie sich ihre Großeltern kennengelernt haben.",
+    "texto": "Meine Großmutter erzählt gerne, wie sie meinen Großvater kennengelernt hat. Nachdem sie 1968 in eine neue Stadt gezogen war, hat sie in einer kleinen Bäckerei gearbeitet. Mein Großvater kam damals fast jeden Morgen vorbei, obwohl er eigentlich in einem anderen Viertel wohnte.\n\nZuerst hat meine Großmutter gedacht, dass er nur wegen des Brotes kommt. Erst nach ein paar Wochen hat sie gemerkt, dass er sich für sie interessiert. Nachdem er sie mehrmals zum Kaffee eingeladen hatte, hat sie schließlich zugesagt. Von da an haben sie sich fast täglich getroffen, obwohl beide viel arbeiten mussten.\n\nHeute, mehr als fünfzig Jahre später, lachen sie noch immer über diese Zeit. Meine Großmutter sagt, dass sie damals nicht geahnt hat, wie wichtig dieser kleine Bäckereiladen für ihr ganzes Leben werden würde. Für mich ist diese Geschichte ein schönes Beispiel dafür, dass sich Geduld oft lohnt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Großmutter hat in einer Bäckerei gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Großvater wohnte im selben Viertel wie die Bäckerei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Großmutter hat sofort verstanden, dass er sich für sie interessiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Großeltern kennen sich seit über fünfzig Jahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Enkelin findet die Geschichte langweilig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-trotz-distanz",
+    "nivel": "B1",
+    "titulo": "Freundschaft trotz Distanz",
+    "descripcion": "Zwei Freundinnen bleiben in Kontakt, obwohl sie in verschiedenen Ländern leben.",
+    "texto": "Als Sofia vor drei Jahren nach Kanada ausgewandert ist, hatten sie und ihre beste Freundin Nina große Angst, den Kontakt zu verlieren. Trotzdem haben sie sich vorgenommen, ihre Freundschaft nicht einschlafen zu lassen, obwohl sie plötzlich sechs Zeitzonen voneinander getrennt waren.\n\nAm Anfang haben sie sich jede Woche geschrieben. Nachdem sie gemerkt hatten, dass Nachrichten allein nicht genug sind, haben sie feste Videoanrufe eingeführt. Jeden zweiten Sonntag telefonieren sie mindestens eine Stunde, egal wie unterschiedlich ihr Alltag geworden ist.\n\nLetztes Jahr ist Nina Sofia sogar in Kanada besuchen gefahren, obwohl der Flug teuer und lang war. Beide sagen, dass die Distanz ihre Freundschaft nicht geschwächt, sondern auf eine gewisse Weise sogar gestärkt hat, weil sie sich die gemeinsame Zeit heute viel bewusster nehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Sofia ist vor drei Jahren nach Kanada gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen haben schnell den Kontakt verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie telefonieren jeden zweiten Sonntag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat Sofia noch nie in Kanada besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beide finden, dass die Freundschaft durch die Distanz gelitten hat.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-radtour-entlang-der-elbe",
+    "nivel": "B1",
+    "titulo": "Die Radtour entlang der Elbe",
+    "descripcion": "Eine Gruppe von Freunden plant eine mehrtägige Radtour.",
+    "texto": "Im Sommer haben sich vier Freunde entschieden, eine mehrtägige Radtour entlang der Elbe zu machen. Sie wollten von Dresden bis Hamburg fahren, obwohl keiner von ihnen vorher eine so lange Strecke mit dem Fahrrad zurückgelegt hatte.\n\nAm ersten Tag lief alles gut, nachdem sie ihre Fahrräder und das Gepäck sorgfältig vorbereitet hatten. Am zweiten Tag hat es jedoch den ganzen Tag geregnet, sodass sie nass und müde in einer kleinen Pension ankamen. Trotzdem wollte niemand die Tour abbrechen, weil die Landschaft entlang des Flusses einfach zu schön war.\n\nNach sieben Tagen haben sie schließlich Hamburg erreicht. Alle waren erschöpft, aber stolz auf ihre Leistung. Sie erzählen heute noch gerne von dieser Reise, besonders von dem Abend, an dem sie ihr Zelt bei Sonnenuntergang direkt am Flussufer aufgebaut haben.",
+    "preguntas": [
+      {
+        "enunciado": "Die Freunde sind von Hamburg nach Dresden gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am zweiten Tag hat es geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe hat die Tour wegen des Regens abgebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Radtour hat sieben Tage gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde haben einmal ihr Zelt direkt am Flussufer aufgebaut.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "overtourism-in-beliebten-reisezielen",
+    "nivel": "B2",
+    "titulo": "Overtourism in beliebten Reisezielen",
+    "descripcion": "Ein Text über die Folgen des Massentourismus in europäischen Städten.",
+    "texto": "In den letzten Jahren ist in zahlreichen europäischen Städten ein Phänomen zu beobachten, das unter dem Begriff „Overtourism“ zusammengefasst wird. Orte wie Venedig, Barcelona oder Dubrovnik werden mittlerweile von so vielen Touristinnen und Touristen besucht, dass die Lebensqualität der einheimischen Bevölkerung erheblich beeinträchtigt wird. Enge Gassen sind verstopft, Mietpreise steigen, weil Wohnungen zunehmend an Feriengäste statt an Anwohner vermietet werden, und traditionelle Geschäfte weichen zunehmend Souvenirläden.\n\nKritiker argumentieren, dass diese Entwicklung nicht allein den Reisenden anzulasten sei, sondern vor allem den Kommunen, die jahrzehntelang auf ungebremstes Wachstum gesetzt hätten, ohne die ökologischen und sozialen Kosten ausreichend zu berücksichtigen. Wäre frühzeitig in eine nachhaltigere Tourismuspolitik investiert worden, ließe sich das heutige Ausmaß der Probleme möglicherweise verhindern.\n\nAls Reaktion haben einige Städte begonnen, Maßnahmen zu ergreifen: In Venedig wird inzwischen an bestimmten Tagen eine Eintrittsgebühr für Tagesbesucher erhoben, und in Amsterdam wurde die Werbung für Kurzreisen an bestimmte Zielgruppen eingeschränkt. Ob solche Schritte ausreichen, um das strukturelle Problem zu lösen, oder ob grundlegendere Veränderungen im globalen Reiseverhalten nötig wären, bleibt unter Expertinnen und Experten umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Begriff Overtourism beschreibt die negativen Folgen des Massentourismus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern liegt die Verantwortung ausschließlich bei den Reisenden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Venedig wird an bestimmten Tagen eine Eintrittsgebühr für Tagesgäste erhoben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Amsterdam hat jegliche Werbung für Reisen komplett verboten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Unter Fachleuten herrscht Einigkeit darüber, dass die bisherigen Maßnahmen ausreichen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "gendergerechte-sprache-in-der-gesellschaft",
+    "nivel": "B2",
+    "titulo": "Gendergerechte Sprache in der Gesellschaft",
+    "descripcion": "Eine Auseinandersetzung mit den Argumenten für und gegen gendergerechte Sprache.",
+    "texto": "Kaum ein sprachliches Thema wird in Deutschland derzeit so kontrovers diskutiert wie die gendergerechte Sprache. Befürworterinnen und Befürworter argumentieren, dass Sprache die gesellschaftliche Wirklichkeit sowohl widerspiegelt als auch mitgestaltet. Wenn ausschließlich männliche Formen verwendet würden, würden Frauen und nicht-binäre Personen sprachlich unsichtbar gemacht, selbst wenn dies nicht immer beabsichtigt sei.\n\nGegnerinnen und Gegner wenden dagegen ein, dass gegenderte Formulierungen den Lesefluss erschwerten und die Sprache unnötig verkomplizierten. Manche befürchten zudem, dass eine von oben verordnete Sprachregelung die natürliche Entwicklung der Sprache störe. Studien zu diesem Thema kommen zu unterschiedlichen Ergebnissen, was die Debatte zusätzlich anheizt, da sich beide Seiten auf wissenschaftliche Untersuchungen berufen.\n\nInteressant ist, dass sich in der Praxis längst ein pragmatischer Mittelweg herausgebildet hat: Viele Institutionen verwenden neutrale Formulierungen wie „Studierende“ oder „Mitarbeitende“, ohne auf Sonderzeichen wie den Genderstern zurückzugreifen. Ob sich eine einheitliche Lösung durchsetzen wird oder ob die Vielfalt der Schreibweisen bestehen bleibt, lässt sich derzeit nicht vorhersagen.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter gendergerechter Sprache meinen, Sprache beeinflusse die gesellschaftliche Wahrnehmung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Studien zu diesem Thema kommen zum gleichen Ergebnis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker befürchten, dass die natürliche Sprachentwicklung gestört wird.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Praxis wird ausschließlich der Genderstern verwendet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ausgang der Debatte ist laut Text bereits eindeutig entschieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "automatisierung-und-arbeitsmarkt-der-zukunft",
+    "nivel": "B2",
+    "titulo": "Automatisierung und der Arbeitsmarkt der Zukunft",
+    "descripcion": "Ein Blick auf die Chancen und Risiken der Automatisierung für die Arbeitswelt.",
+    "texto": "Die fortschreitende Automatisierung industrieller und administrativer Prozesse verändert den Arbeitsmarkt grundlegend. Aufgaben, die früher zwingend menschliche Arbeitskraft erforderten, werden zunehmend von Maschinen und Algorithmen übernommen. Während einige Ökonominnen und Ökonomen darin vor allem eine Bedrohung für bestehende Arbeitsplätze sehen, betonen andere, dass durch technologischen Wandel historisch gesehen stets auch neue Berufsfelder entstanden seien.\n\nBesonders betroffen sind Tätigkeiten, die aus klar definierten, sich wiederholenden Arbeitsschritten bestehen, etwa in der Fertigung oder in der Datenverarbeitung. Wäre die Politik besser auf diesen Wandel vorbereitet gewesen, hätten Umschulungsprogramme bereits früher etabliert werden können, statt erst jetzt, wo der Handlungsdruck spürbar zugenommen hat. Kritiker bemängeln, dass Weiterbildungsangebote oft zu langsam an die tatsächlichen Anforderungen des Marktes angepasst würden.\n\nFür die kommenden Jahre wird erwartet, dass insbesondere Fähigkeiten wie Kreativität, zwischenmenschliche Kommunikation und komplexes Problemlösen an Bedeutung gewinnen werden, da diese von Maschinen bislang nur eingeschränkt übernommen werden können. Ob es gelingt, die entstehenden Verwerfungen sozial abzufedern, wird maßgeblich darüber entscheiden, wie diese technologische Transformation gesellschaftlich bewertet werden wird.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text ist die Automatisierung ausschließlich eine Bedrohung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Besonders betroffen sind sich wiederholende Tätigkeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker loben die Geschwindigkeit der Weiterbildungsangebote.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fähigkeiten wie Kreativität und Kommunikation sollen an Bedeutung gewinnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die sozialen Folgen der Automatisierung seien bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
   }
 ]
