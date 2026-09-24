@@ -29702,5 +29702,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "lenas-familie-in-vier-personen",
+    "nivel": "A1",
+    "titulo": "Lenas Familie",
+    "descripcion": "Lena stellt ihre Familie vor und erzählt von ihrem Alltag.",
+    "texto": "Hallo! Ich heiße Lena. Ich bin zehn Jahre alt und komme aus Deutschland. Meine Familie ist nicht groß. Wir sind vier Personen: meine Mutter, mein Vater, mein Bruder und ich.\n\nMeine Mutter heißt Anna. Sie ist Lehrerin und arbeitet in einer Schule. Mein Vater heißt Paul. Er arbeitet in einem Büro. Mein Bruder heißt Tom. Er ist acht Jahre alt und geht auch zur Schule.\n\nAm Wochenende kochen wir zusammen. Wir essen gern Nudeln und Salat. Danach spielen wir Karten oder gehen spazieren. Ich liebe meine Familie sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat einen Bruder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie besteht aus fünf Personen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Annas Beruf ist Lehrerin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul arbeitet in einer Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Wochenende spielt die Familie nie zusammen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "max-und-die-fuenf-aepfel",
+    "nivel": "A1",
+    "titulo": "Max und die fünf Äpfel",
+    "descripcion": "Max kauft mit seiner Mutter im Supermarkt ein.",
+    "texto": "Max geht mit seiner Mutter in den Supermarkt. Sie brauchen Brot, Milch und Äpfel. Der Supermarkt ist groß und hat viele Regale.\n\nMax nimmt einen Einkaufswagen. Seine Mutter sucht das Brot. Max findet die Äpfel und legt fünf Äpfel in den Wagen. Dann gehen sie zur Milch. Die Milch ist im Kühlregal.\n\nAn der Kasse bezahlt die Mutter mit Karte. Max trägt die Tasche nach Hause. Zu Hause isst er einen Apfel. Er schmeckt sehr gut.",
+    "preguntas": [
+      {
+        "enunciado": "Max geht allein in den Supermarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie kaufen Brot, Milch und Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max legt fünf Äpfel in den Wagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter bezahlt mit Bargeld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max trägt die Tasche nach Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sofias-picknick-im-park",
+    "nivel": "A1",
+    "titulo": "Sofias Picknick im Park",
+    "descripcion": "Sofia verbringt einen sonnigen Tag im Park mit ihren Freunden.",
+    "texto": "Heute scheint die Sonne. Sofia geht mit ihren Freunden in den Park. Der Park ist grün und hat viele Bäume.\n\nDie Freunde spielen Fußball. Danach essen sie ein Picknick: Brot, Käse und Trauben. Sofia trinkt Wasser. Ein Hund läuft vorbei und spielt mit den Kindern.\n\nAm Abend geht Sofia nach Hause. Sie ist müde, aber glücklich. Der Tag im Park war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Es regnet den ganzen Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofia spielt mit ihren Freunden Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim Picknick essen sie Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Hund spielt mit den Kindern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia ist am Abend traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "herr-bauers-verlorener-koffer",
+    "nivel": "A2",
+    "titulo": "Herr Bauers verlorener Koffer",
+    "descripcion": "Herr Bauer verliert seinen Koffer auf einer Flugreise und muss ihn wiederfinden.",
+    "texto": "Herr Bauer ist gestern nach München geflogen. Als er am Flughafen ankam, hat er lange auf sein Gepäck gewartet. Sein Koffer war aber nicht da. Er ist zum Schalter gegangen, weil er den Koffer nicht gefunden hat.\n\nDie Mitarbeiterin hat seinen Namen und seine Adresse notiert. Sie hat gesagt, dass der Koffer wahrscheinlich noch in Frankfurt ist. Herr Bauer war ein bisschen ärgerlich, aber er ist trotzdem ins Hotel gefahren.\n\nAm nächsten Tag hat ihn die Fluggesellschaft angerufen. Der Koffer ist mit dem nächsten Flug gekommen. Ein Fahrer hat ihn direkt zum Hotel gebracht. Herr Bauer war sehr froh, dass alles gut ausgegangen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Bauer ist nach Hamburg geflogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Koffer ist am Flughafen nicht angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mitarbeiterin hat seinen Namen notiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Koffer ist für immer verschwunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Fahrer hat den Koffer zum Hotel gebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "julias-erster-zahnarzttermin",
+    "nivel": "A2",
+    "titulo": "Julias erster Zahnarzttermin",
+    "descripcion": "Julia hat Zahnschmerzen und geht zum ersten Mal seit Jahren zum Zahnarzt.",
+    "texto": "Julia hatte seit drei Tagen starke Zahnschmerzen. Sie hat lange keinen Termin gemacht, weil sie Angst vor dem Zahnarzt hatte. Am Montag hat sie endlich angerufen und einen Termin bekommen.\n\nIm Wartezimmer war sie sehr nervös. Als die Ärztin ihren Namen gerufen hat, ist Julia langsam ins Behandlungszimmer gegangen. Die Zahnärztin hat den Zahn untersucht und gesagt, dass ein kleines Loch das Problem war.\n\nDie Behandlung hat nur zwanzig Minuten gedauert. Julia hatte keine Schmerzen mehr. Danach war sie erleichtert und hat sich vorgenommen, öfter zur Kontrolle zu gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hatte seit einer Woche Zahnschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hatte keine Angst vor dem Zahnarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin hat ein kleines Loch gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Behandlung hat den ganzen Tag gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Behandlung war Julia erleichtert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-der-schweiz",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus der Schweiz",
+    "descripcion": "Markus bekommt einen Brief von seiner Cousine, die in der Schweiz lebt.",
+    "texto": "Markus hat letzte Woche einen Brief bekommen. Der Brief war von seiner Cousine Nina, die vor zwei Jahren in die Schweiz gezogen ist. Sie hat geschrieben, dass sie in Zürich lebt und dort als Krankenschwester arbeitet.\n\nIn dem Brief hat Nina erzählt, dass das Leben in der Schweiz teuer, aber auch schön ist. Sie wandert gern in den Bergen und hat viele neue Freunde gefunden. Außerdem hat sie geschrieben, dass sie Markus im Sommer besuchen möchte.\n\nMarkus hat sich sehr über den Brief gefreut. Er hat sofort geantwortet und Nina eingeladen, bei ihm zu wohnen, wenn sie kommt. Er freut sich schon auf ihren Besuch.",
+    "preguntas": [
+      {
+        "enunciado": "Nina lebt seit zwei Jahren in der Schweiz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina arbeitet als Lehrerin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina wandert gern in den Bergen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat sich nicht über den Brief gefreut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina möchte Markus im Winter besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "familie-weber-zieht-nach-leipzig",
+    "nivel": "B1",
+    "titulo": "Familie Weber zieht nach Leipzig",
+    "descripcion": "Familie Weber zieht aus beruflichen Gründen in eine neue Stadt und muss sich dort neu einleben.",
+    "texto": "Nachdem Herr Weber eine neue Arbeitsstelle in Leipzig gefunden hatte, musste die ganze Familie umziehen. Obwohl alle sehr an ihrer alten Wohnung hingen, waren sie sich einig, dass diese Chance zu gut war, um sie zu verpassen. Die Kinder mussten die Schule wechseln, was ihnen anfangs schwerfiel.\n\nIn den ersten Wochen fühlten sich die Kinder einsam, weil sie noch niemanden kannten. Trotzdem gaben sie nicht auf und versuchten, neue Kontakte zu knüpfen. In der Schule lernte die Tochter schnell ein paar Mitschülerinnen kennen, mit denen sie sich gut verstand. Der Sohn schloss sich einer Fußballmannschaft an, nachdem er im Park ein paar Jungen aus der Nachbarschaft getroffen hatte.\n\nNach einigen Monaten fühlte sich die Familie in Leipzig richtig zu Hause. Sie hatten neue Freunde gefunden und entdeckten immer wieder schöne Orte in der Stadt. Rückblickend war der Umzug zwar schwierig, aber am Ende hat er sich gelohnt.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber hat eine neue Arbeitsstelle in Leipzig gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie zog ohne Grund um.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder fühlten sich in den ersten Wochen einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Sohn fand keine neuen Freunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende bereute die Familie den Umzug nicht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "klasse-9b-faehrt-nach-berlin",
+    "nivel": "B1",
+    "titulo": "Die Klasse 9b fährt nach Berlin",
+    "descripcion": "Eine Schulklasse verbringt drei Tage in Berlin und erlebt dort viele Abenteuer.",
+    "texto": "Endlich war es so weit: Die Klasse 9b fuhr für drei Tage nach Berlin. Obwohl die Busfahrt lang und anstrengend war, konnte die Vorfreude der Schüler nichts trüben. Als sie in der Jugendherberge ankamen, teilten sie sich schnell die Zimmer auf.\n\nAm ersten Tag besuchten sie den Bundestag und das Brandenburger Tor. Nachdem sie den ganzen Vormittag zu Fuß unterwegs gewesen waren, machten sie am Nachmittag eine Pause im Tiergarten. Abends gingen einige Schüler noch in die Stadt, um Souvenirs zu kaufen, während andere lieber in der Herberge blieben.\n\nAm letzten Tag besuchten sie ein Museum, bevor sie mit dem Bus zurückfuhren. Trotz der Müdigkeit waren sich alle einig, dass die Klassenfahrt ein unvergessliches Erlebnis war. Viele Schüler sagten, dass sie Berlin gerne noch einmal besuchen würden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b blieb eine Woche in Berlin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie besuchten den Bundestag und das Brandenburger Tor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler blieben am Abend in der Jugendherberge.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Tag besuchten sie ein Museum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler fanden die Klassenfahrt unvergesslich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lisa-und-hannah-bleiben-freundinnen",
+    "nivel": "B1",
+    "titulo": "Lisa und Hannah bleiben Freundinnen",
+    "descripcion": "Zwei beste Freundinnen versuchen, ihre Freundschaft zu pflegen, nachdem eine von ihnen weggezogen ist.",
+    "texto": "Lisa und Hannah waren seit der Grundschule beste Freundinnen. Als Hannahs Familie nach Hamburg zog, hatten beide Angst, dass ihre Freundschaft darunter leiden würde. Obwohl sie nun 400 Kilometer voneinander entfernt lebten, wollten sie den Kontakt nicht verlieren.\n\nSie schrieben sich fast jeden Tag Nachrichten und telefonierten regelmäßig per Video. Wenn es die Zeit erlaubte, planten sie gemeinsame Filmabende, bei denen sie denselben Film gleichzeitig ansahen. Dadurch fühlten sie sich trotz der Entfernung immer noch nah beieinander.\n\nIn den Sommerferien besuchte Lisa Hannah schließlich in Hamburg. Es war, als hätten sie sich nie getrennt gehabt. Beide erkannten, dass wahre Freundschaft auch große Entfernungen überstehen kann, solange man sich Mühe gibt.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa und Hannah kennen sich erst seit Kurzem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hannah ist nach Hamburg gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen verloren schnell den Kontakt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie planten gemeinsame Filmabende.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa besuchte Hannah in den Sommerferien.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wohnungsknappheit-in-deutschen-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Wohnungsknappheit in deutschen Großstädten",
+    "descripcion": "Ein Blick auf die Ursachen und möglichen Lösungen der wachsenden Wohnungsknappheit in deutschen Großstädten.",
+    "texto": "In den vergangenen Jahren hat sich die Wohnungssituation in vielen deutschen Großstädten drastisch verschärft. Während die Mieten in Metropolen wie München, Berlin und Hamburg stetig steigen, wächst gleichzeitig die Zahl der Menschen, die dort leben möchten. Experten sind sich einig, dass vor allem der fehlende Neubau bezahlbaren Wohnraums für diese Entwicklung verantwortlich ist.\n\nWenn man die Ursachen genauer betrachtet, fällt auf, dass hohe Baukosten und komplizierte Genehmigungsverfahren den Bau neuer Wohnungen erheblich verlangsamen. Hinzu kommt, dass viele Investoren lieber in hochpreisige Immobilien investieren, da sich damit höhere Gewinne erzielen lassen. Dadurch werden Menschen mit mittlerem oder niedrigem Einkommen zunehmend aus den Innenstädten verdrängt.\n\nUm dieser Entwicklung entgegenzuwirken, fordern Politiker und Sozialverbände unterschiedliche Maßnahmen. Manche schlagen vor, dass der soziale Wohnungsbau stärker gefördert werden müsse, während andere für eine strengere Mietpreisbremse plädieren. Wäre es möglich, beide Ansätze zu kombinieren, könnte dies langfristig zu einer Entspannung des Wohnungsmarktes führen. Bis dahin bleibt die Wohnungsfrage jedoch eines der drängendsten sozialen Probleme in Deutschland.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sinken seit einigen Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fehlender Neubau bezahlbaren Wohnraums gilt als eine Hauptursache der Krise.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hohe Baukosten und Genehmigungsverfahren verlangsamen den Wohnungsbau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Investoren bevorzugen ausschließlich günstigen Wohnraum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Politiker sind sich vollkommen einig über die Lösung der Krise.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "medienkritik-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Medienkritik im digitalen Zeitalter",
+    "descripcion": "Ein Essay über die Herausforderungen des kritischen Umgangs mit Nachrichten in Zeiten sozialer Medien.",
+    "texto": "Mit der rasanten Verbreitung sozialer Medien hat sich die Art, wie Menschen Nachrichten konsumieren, grundlegend verändert. Während früher wenige etablierte Zeitungen und Sender die öffentliche Meinung prägten, werden Informationen heute über unzählige Kanäle verbreitet, deren Glaubwürdigkeit nicht immer gewährleistet ist. Diese Entwicklung stellt sowohl Chancen als auch erhebliche Risiken dar.\n\nEinerseits ermöglichen soziale Netzwerke, dass Bürger schneller und direkter an gesellschaftlichen Debatten teilnehmen können, was demokratische Prozesse theoretisch stärken könnte. Andererseits werden Falschinformationen und stark vereinfachte Darstellungen komplexer Sachverhalte immer häufiger verbreitet, ohne dass sie ausreichend überprüft würden. Besonders problematisch ist, dass Algorithmen dazu neigen, Nutzern vor allem Inhalte zu zeigen, die ihre bestehenden Meinungen bestätigen, wodurch sogenannte Filterblasen entstehen.\n\nUm dieser Entwicklung entgegenzuwirken, müsste die Medienkompetenz der Bevölkerung deutlich gestärkt werden. Wenn Schulen und Bildungseinrichtungen den kritischen Umgang mit digitalen Quellen stärker fördern würden, könnten künftige Generationen besser zwischen seriösen und unseriösen Informationen unterscheiden. Bis eine solche Bildungsreform flächendeckend umgesetzt wird, bleibt es jedoch in der Verantwortung jedes Einzelnen, Nachrichten kritisch zu hinterfragen, bevor er sie weiterverbreitet.",
+    "preguntas": [
+      {
+        "enunciado": "Früher prägten hauptsächlich wenige etablierte Medien die öffentliche Meinung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Soziale Medien bergen laut Text keinerlei Risiken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen können zur Entstehung von Filterblasen beitragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert eine Stärkung der Medienkompetenz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist die Bildungsreform bereits vollständig umgesetzt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "work-life-balance-im-homeoffice",
+    "nivel": "B2",
+    "titulo": "Work-Life-Balance im Homeoffice",
+    "descripcion": "Eine Auseinandersetzung mit den Vor- und Nachteilen des Homeoffice für die Vereinbarkeit von Beruf und Privatleben.",
+    "texto": "Seit einigen Jahren arbeiten immer mehr Menschen zumindest teilweise von zu Hause aus. Was zunächst als vorübergehende Notlösung begann, hat sich für viele Unternehmen und Angestellte zu einer festen Arbeitsform entwickelt. Befürworter loben vor allem die gewonnene Flexibilität, die es ermögliche, Beruf und Privatleben besser miteinander zu vereinbaren.\n\nAllerdings zeigt sich zunehmend, dass diese Flexibilität auch ihre Schattenseiten hat. Viele Beschäftigte berichten, dass die Grenze zwischen Arbeits- und Freizeit im Homeoffice zunehmend verschwimmt. Obwohl sie theoretisch früher Feierabend machen könnten, arbeiten manche sogar länger, weil die räumliche Trennung zwischen Büro und Wohnung fehlt. Hinzu kommt, dass der soziale Austausch mit Kollegen, der im Büroalltag oft beiläufig stattfindet, im Homeoffice weitgehend wegfällt, was von manchen als belastend empfunden wird.\n\nDamit das Homeoffice tatsächlich zu einer besseren Work-Life-Balance beiträgt, wären klare Regeln notwendig, etwa feste Arbeitszeiten und bewusste Pausen. Würden Unternehmen ihre Angestellten stärker dabei unterstützen, solche Grenzen einzuhalten, könnte das Homeoffice sein volles Potenzial entfalten. Andernfalls besteht die Gefahr, dass aus vermeintlicher Freiheit auf Dauer eine ständige Erreichbarkeit und Überlastung wird.",
+    "preguntas": [
+      {
+        "enunciado": "Homeoffice hat sich für viele zu einer dauerhaften Arbeitsform entwickelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text hat Homeoffice ausschließlich Vorteile.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Beschäftigte arbeiten im Homeoffice sogar länger als im Büro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der soziale Austausch mit Kollegen bleibt im Homeoffice meist unverändert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Klare Regeln könnten helfen, die Vorteile des Homeoffice besser zu nutzen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
