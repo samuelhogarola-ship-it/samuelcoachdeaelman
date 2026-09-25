@@ -31790,5 +31790,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-wellensittich",
+    "nivel": "A1",
+    "titulo": "Mein Wellensittich",
+    "descripcion": "Finn erzählt von seinem Haustier, einem kleinen Wellensittich namens Pieps.",
+    "texto": "Ich heiße Finn und ich habe einen Wellensittich. Er heißt Pieps und ist grün und gelb. Pieps wohnt in einem großen Käfig in meinem Zimmer. Jeden Morgen gebe ich ihm Wasser und Körner.\n\nPieps singt sehr gern. Am Nachmittag lasse ich ihn manchmal aus dem Käfig fliegen. Er fliegt durch mein Zimmer und landet auf meiner Schulter. Meine Schwester mag Pieps auch sehr. Sie spielt oft mit ihm.\n\nAbends decke ich den Käfig mit einem Tuch zu. Dann schläft Pieps ruhig die ganze Nacht. Ich liebe meinen kleinen Vogel sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Finns Wellensittich heißt Pieps.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pieps ist blau und weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn gibt Pieps jeden Morgen Wasser und Körner.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schwester mag Pieps nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Abends deckt Finn den Käfig mit einem Tuch zu.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kleidertausch-mit-lena",
+    "nivel": "A1",
+    "titulo": "Der Kleidertausch mit Lena",
+    "descripcion": "Sophie und ihre Freundin Lena tauschen an einem Nachmittag ihre alten Kleider.",
+    "texto": "Sophie hat viele Kleider, die ihr nicht mehr passen. Ihre Freundin Lena hat das gleiche Problem. Deshalb treffen sich die beiden am Samstag zum Kleidertausch. Sie bringen Taschen voller T-Shirts, Hosen und Röcke mit.\n\nSie legen alle Kleider auf den Boden im Wohnzimmer. Sophie probiert eine blaue Jacke von Lena an. Die Jacke passt sehr gut. Lena nimmt dafür ein rotes Kleid von Sophie. Beide Mädchen freuen sich über die neuen Kleidungsstücke.\n\nAm Ende haben Sophie und Lena viele „neue\" Sachen zum Anziehen. Sie müssen kein Geld ausgeben. Die beiden finden den Kleidertausch super und planen schon den nächsten Termin.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie und Lena treffen sich am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie kaufen neue Kleider im Geschäft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die blaue Jacke passt Sophie gut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena nimmt ein grünes Kleid von Sophie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mädchen wollen den Kleidertausch wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ostern-bei-meiner-familie",
+    "nivel": "A1",
+    "titulo": "Ostern bei meiner Familie",
+    "descripcion": "Emma beschreibt, wie ihre Familie jedes Jahr Ostern im Garten der Großeltern feiert.",
+    "texto": "Ich heiße Emma und ich mag Ostern sehr gern. Jedes Jahr fahren wir zu meinen Großeltern aufs Land. Der Garten dort ist groß und hat viele Bäume. Am Ostersonntag suchen mein Bruder und ich bunte Eier im Gras.\n\nMeine Oma kocht ein großes Frühstück mit Eiern, Brot und Marmelade. Mein Opa versteckt die Ostereier immer sehr gut. Manchmal finden wir ein Ei erst nach einer Stunde. Das macht viel Spaß und wir lachen zusammen.\n\nAm Nachmittag spielen wir Fußball im Garten. Meine Eltern trinken Kaffee und sprechen mit den Großeltern. Ostern bei meiner Familie ist immer ein schöner Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Emma feiert Ostern bei ihren Großeltern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Garten der Großeltern ist klein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma und ihr Bruder suchen Ostereier im Gras.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie finden alle Eier sofort.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag spielen sie Fußball.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-beim-kanufahren",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende beim Kanufahren",
+    "descripcion": "Paul und sein Cousin verbringen ein Wochenende mit einer Kanutour auf der Mosel.",
+    "texto": "Letztes Wochenende ist Paul mit seinem Cousin Jonas zur Mosel gefahren, weil sie schon lange eine Kanutour machen wollten. Sie haben ein Kanu bei einer kleinen Firma am Fluss geliehen und sind früh am Morgen gestartet. Das Wetter war zum Glück sonnig, obwohl der Wetterbericht Regen vorhergesagt hatte.\n\nAuf dem Fluss haben sie viele schöne Dörfer und Weinberge gesehen. Manchmal war das Wasser ruhig, aber an einer Stelle sind sie fast umgekippt, weil die Strömung dort stärker war. Jonas hat gelacht und gesagt, dass es das aufregendste Erlebnis des Tages war. Mittags haben sie am Ufer angehalten und ihr Picknick gegessen, das Pauls Mutter vorbereitet hatte.\n\nAm Abend waren beide sehr müde, aber glücklich. Sie haben beschlossen, dass sie die Kanutour im nächsten Sommer wiederholen möchten. Paul hat sogar überlegt, sich ein eigenes Kanu zu kaufen, weil ihm der Ausflug so gut gefallen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und Jonas sind an den Rhein gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war den ganzen Tag sonnig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Kanu ist einmal fast umgekippt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben unterwegs kein Picknick gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul denkt darüber nach, ein eigenes Kanu zu kaufen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-balkongarten-des-nachbarn",
+    "nivel": "A2",
+    "titulo": "Der Balkongarten des Nachbarn",
+    "descripcion": "Frau Schmidt entdeckt, dass ihr Nachbar auf seinem kleinen Balkon Gemüse anbaut.",
+    "texto": "Frau Schmidt wohnt seit zehn Jahren im dritten Stock eines Mehrfamilienhauses. Vor kurzem hat sie bemerkt, dass ihr neuer Nachbar Herr Kaya auf seinem Balkon Tomaten und Kräuter anbaut, obwohl der Balkon nicht besonders groß ist. Sie war neugierig, weil sie selbst schon lange einen kleinen Garten wollte.\n\nEines Tages hat sie Herrn Kaya angesprochen, als er die Pflanzen gegossen hat. Er hat ihr erklärt, dass er die Töpfe aus alten Eimern gebaut hat, weil richtige Blumentöpfe zu teuer waren. Frau Schmidt war beeindruckt und hat gefragt, ob er ihr helfen könnte, ihren eigenen Balkon zu bepflanzen. Herr Kaya hat sofort zugestimmt und ihr sogar ein paar Basilikumpflanzen geschenkt.\n\nSeitdem treffen sich die beiden Nachbarn oft, um über ihre Pflanzen zu sprechen. Frau Schmidt hat inzwischen auch Radieschen und Erdbeeren gepflanzt. Sie ist froh, dass sie durch den Balkongarten einen neuen Freund gefunden hat.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Schmidt wohnt im Erdgeschoss.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Kaya baut Tomaten und Kräuter auf seinem Balkon an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Kaya hat teure Blumentöpfe gekauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Kaya hat Frau Schmidt Basilikumpflanzen geschenkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Schmidt und Herr Kaya sprechen nie miteinander.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "foodsharing-in-unserer-strasse",
+    "nivel": "A2",
+    "titulo": "Foodsharing in unserer Straße",
+    "descripcion": "Die Nachbarschaft organisiert einen öffentlichen Kühlschrank gegen Lebensmittelverschwendung.",
+    "texto": "In unserer Straße haben ein paar Nachbarn letzten Monat einen öffentlichen Kühlschrank aufgestellt, weil sie etwas gegen die Lebensmittelverschwendung tun wollten. Jeder kann dort Essen hineinstellen, das er nicht mehr braucht, und andere Leute können es kostenlos mitnehmen. Am Anfang war ich skeptisch, weil ich dachte, dass niemand den Kühlschrank benutzen würde.\n\nNach ein paar Wochen habe ich aber gemerkt, dass das Projekt sehr gut funktioniert. Fast jeden Tag steht frisches Brot, Obst oder Gemüse im Kühlschrank. Eine Nachbarin hat sogar Marmelade eingekocht und dort abgestellt, obwohl sie das für Fremde eigentlich nie gemacht hätte. Ein älterer Herr aus dem Nachbarhaus hat erzählt, dass er jetzt regelmäßig etwas mitnimmt, weil er wenig Geld hat.\n\nSeit es den Kühlschrank gibt, kennen sich die Nachbarn viel besser als vorher. Wir treffen uns oft davor und reden ein bisschen, wenn wir Essen bringen oder holen. Ich finde es schön, dass so ein einfaches Projekt die ganze Straße verändert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Der Kühlschrank wurde gegen Lebensmittelverschwendung aufgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur bestimmte Personen dürfen den Kühlschrank benutzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einigen Wochen funktioniert das Projekt gut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand aus der Nachbarschaft nutzt den Kühlschrank.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn kennen sich seit dem Projekt besser.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-im-toepferkurs",
+    "nivel": "B1",
+    "titulo": "Der erste Tag im Töpferkurs",
+    "descripcion": "Miriam meldet sich zu einem Töpferkurs an, obwohl sie noch nie mit Ton gearbeitet hat.",
+    "texto": "Miriam hatte sich schon lange für einen Töpferkurs interessiert, traute sich aber nicht, sich anzumelden, weil sie befürchtete, kein Talent für Handwerk zu haben. Nachdem eine Kollegin ihr von einem Kurs im Kulturzentrum erzählt hatte, entschied sie sich schließlich, es einfach auszuprobieren. Am ersten Abend war sie überrascht, wie viele unterschiedliche Menschen im Kurs saßen, von Studierenden bis zu Rentnern.\n\nDer Kursleiter erklärte geduldig, wie man den Ton auf der Töpferscheibe zentriert, bevor man mit dem eigentlichen Formen beginnt. Obwohl Miriams erster Versuch schnell in sich zusammenfiel, ließ sie sich nicht entmutigen und probierte es einfach noch einmal. Nachdem sie den Dreh endlich verstanden hatte, gelang ihr eine kleine, etwas schiefe Schale, auf die sie trotzdem sehr stolz war.\n\nAm Ende des Abends tauschte sie sich mit den anderen Teilnehmern über ihre Erfahrungen aus, und sie merkte, dass fast alle mit ähnlichen Schwierigkeiten gekämpft hatten. Diese Erkenntnis machte ihr Mut, weiterzumachen. Sie beschloss, den ganzen Kurs zu besuchen und freute sich schon auf die nächste Sitzung.",
+    "preguntas": [
+      {
+        "enunciado": "Miriam hatte schon Erfahrung mit Töpfern, bevor der Kurs begann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kollegin hat Miriam von dem Kurs erzählt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Kurs saßen nur junge Studierende.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Miriams erste Schale ist ihr sofort perfekt gelungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Miriam möchte den Kurs weiter besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "skateboard-fahren-mit-dreissig",
+    "nivel": "B1",
+    "titulo": "Skateboard fahren mit dreißig",
+    "descripcion": "David lernt mit dreißig Jahren Skateboarden und findet dabei neue Freunde.",
+    "texto": "Als David an seinem dreißigsten Geburtstag ein Skateboard geschenkt bekam, hielt er das zunächst für einen Scherz. Er hatte als Kind nie Skateboard gefahren und war überzeugt, dass er dafür inzwischen zu alt sei. Trotzdem nahm er das Board mit in den Park, nachdem ihn seine jüngere Schwester dazu überredet hatte.\n\nIn den ersten Wochen fiel er häufiger hin, als ihm lieb war, und musste sich sogar einmal das Knie verbinden lassen. Obwohl seine Fortschritte langsam waren, gab er nicht auf, weil ihm das Gefühl auf dem Board immer mehr Spaß machte. Nach und nach lernte er ein paar Jugendliche kennen, die regelmäßig in der Skatehalle trainierten und ihm geduldig Tricks zeigten.\n\nHeute, ein Jahr später, fährt David jedes Wochenende zur Skatehalle und gehört mittlerweile fest zur Gruppe. Seine Kollegen im Büro können kaum glauben, dass ihr eher ruhiger Kollege in seiner Freizeit Skateboard fährt. David selbst findet es faszinierend, dass er in seinem Alter noch etwas völlig Neues gelernt hat, und ermutigt jetzt auch andere, es einfach auszuprobieren.",
+    "preguntas": [
+      {
+        "enunciado": "David ist als Kind viel Skateboard gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Schwester hat ihn zum Skaten überredet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David hat sich beim Skaten nie verletzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er hat in der Skatehalle neue Bekannte kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David fährt heute nicht mehr Skateboard.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-imkerei-meines-grossvaters",
+    "nivel": "B1",
+    "titulo": "Die Imkerei meines Großvaters",
+    "descripcion": "Ein Enkel erinnert sich daran, wie er von seinem Großvater das Imkern gelernt hat.",
+    "texto": "Mein Großvater hat sein ganzes Leben lang Bienen gehalten, und als Kind durfte ich ihn oft zu seinen Bienenstöcken im Garten begleiten. Anfangs hatte ich große Angst vor den Bienen, obwohl mein Großvater immer wieder betonte, dass sie einen in Ruhe ließen, solange man selbst ruhig blieb. Nachdem er mir gezeigt hatte, wie man sich richtig verhält, verschwand meine Angst nach und nach.\n\nJeden Sommer halfen wir zusammen beim Schleudern des Honigs, was für mich immer der spannendste Teil des Jahres war. Mein Großvater erklärte mir geduldig, warum die Bienen für die Natur so wichtig sind, obwohl ich als Kind vieles davon noch nicht richtig verstand. Trotzdem blieb mir sein Wissen im Gedächtnis, und ich begann mich später auch in der Schule für Umweltthemen zu interessieren.\n\nAls mein Großvater vor zwei Jahren gestorben ist, habe ich beschlossen, seine Bienenstöcke zu übernehmen, anstatt sie zu verkaufen. Am Anfang war es schwierig, weil mir viel praktisches Wissen fehlte, aber Nachbarn aus dem Imkerverein haben mir geholfen. Heute fühle ich mich meinem Großvater besonders nah, wenn ich im Garten zwischen den Bienenstöcken stehe.",
+    "preguntas": [
+      {
+        "enunciado": "Der Enkel hatte als Kind keine Angst vor den Bienen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben jeden Sommer gemeinsam Honig geschleudert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Großvater hat dem Enkel nichts über Bienen erklärt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Enkel hat die Bienenstöcke nach dem Tod des Großvaters verkauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mitglieder des Imkervereins haben dem Enkel geholfen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "reparieren-statt-wegwerfen",
+    "nivel": "B2",
+    "titulo": "Reparieren statt Wegwerfen – Die Idee der Kreislaufwirtschaft",
+    "descripcion": "Ein Beitrag über das Konzept der Kreislaufwirtschaft als Alternative zur Wegwerfgesellschaft.",
+    "texto": "Angesichts wachsender Müllberge und begrenzter Rohstoffe gewinnt das Konzept der Kreislaufwirtschaft zunehmend an Bedeutung. Im Gegensatz zum bisher vorherrschenden linearen Wirtschaftsmodell, bei dem Produkte hergestellt, genutzt und schließlich entsorgt werden, zielt die Kreislaufwirtschaft darauf ab, Materialien möglichst lange im Wirtschaftskreislauf zu halten. Produkte sollen demnach so gestaltet werden, dass sie repariert, wiederverwendet oder recycelt werden können, anstatt bereits nach kurzer Nutzungsdauer im Müll zu landen.\n\nEin zentrales Hindernis auf dem Weg zu einer echten Kreislaufwirtschaft ist die sogenannte geplante Obsoleszenz, bei der Hersteller Produkte bewusst so konstruieren, dass sie nach einer bestimmten Zeit unbrauchbar werden. Verbraucherschützer kritisieren seit Jahren, dass viele Geräte kaum noch repariert werden könnten, da Ersatzteile fehlten oder Reparaturen unverhältnismäßig teuer seien. Wäre es hingegen gesetzlich vorgeschrieben, dass Hersteller langlebigere und leichter reparierbare Produkte anbieten müssten, ließe sich die Menge an Elektroschrott vermutlich erheblich reduzieren.\n\nInzwischen haben einige europäische Länder erste Schritte in diese Richtung unternommen, etwa durch die Einführung eines Rechts auf Reparatur. Zudem entstehen in vielen Städten sogenannte Reparaturinitiativen, in denen Freiwillige Bürgerinnen und Bürgern dabei helfen, defekte Gegenstände selbst instand zu setzen. Ob diese Ansätze ausreichen werden, um den Übergang zu einer echten Kreislaufwirtschaft zu vollziehen, bleibt jedoch abzuwarten, zumal auch ein grundlegender Wandel im Konsumverhalten der Bevölkerung notwendig wäre.",
+    "preguntas": [
+      {
+        "enunciado": "Die Kreislaufwirtschaft zielt darauf ab, Materialien länger zu nutzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Geplante Obsoleszenz bedeutet, dass Produkte absichtlich schnell kaputtgehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind Ersatzteile für viele Geräte immer leicht erhältlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kein europäisches Land hat bisher ein Recht auf Reparatur eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, dass sich das Konsumverhalten nicht ändern müsse.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "gendergerechte-sprache-in-medien-und-behoerden",
+    "nivel": "B2",
+    "titulo": "Gendergerechte Sprache in Medien und Behörden",
+    "descripcion": "Eine Auseinandersetzung mit der kontroversen Debatte um geschlechtergerechte Sprache im Deutschen.",
+    "texto": "Kaum ein sprachpolitisches Thema wird in Deutschland derzeit so kontrovers diskutiert wie die Frage nach gendergerechter Sprache. Während Befürworter argumentieren, dass Formulierungen wie das generische Maskulinum Frauen und nicht-binäre Personen sprachlich unsichtbar machten, sehen Kritiker in Gendersternchen und Doppelpunkten einen unnötigen Eingriff in gewachsene Sprachstrukturen. Zwischen diesen beiden Positionen hat sich in den letzten Jahren ein Graben aufgetan, der weit über sprachliche Fragen hinausgeht und häufig gesellschaftspolitisch aufgeladen wird.\n\nMehrere öffentlich-rechtliche Rundfunkanstalten sowie zahlreiche Behörden haben interne Richtlinien eingeführt, die eine geschlechtergerechte Formulierung empfehlen, ohne sie jedoch verpflichtend vorzuschreiben. Befürworter dieser Regelungen verweisen auf Studien, denen zufolge geschlechtergerechte Sprache tatsächlich dazu beitrage, dass sich mehr Frauen in bestimmten Berufsfeldern angesprochen fühlten. Gegner hingegen bemängeln, dass Gendersternchen die Lesbarkeit von Texten erschwerten und dass die Sprache nicht von oben verordnet werden dürfe, sondern sich organisch entwickeln solle.\n\nAngesichts dieser tief verwurzelten Meinungsverschiedenheiten erscheint eine schnelle Einigung unwahrscheinlich. Sprachwissenschaftler weisen zudem darauf hin, dass sich Sprache historisch betrachtet ohnehin ständig verändert habe, unabhängig davon, ob solche Veränderungen von offizieller Seite gefördert oder abgelehnt würden. Letztlich dürfte die Zukunft der gendergerechten Sprache weniger von Verordnungen als vielmehr davon abhängen, welche Formulierungen sich im alltäglichen Sprachgebrauch der Bevölkerung tatsächlich durchsetzen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Sprachwissenschaftler sind sich über gendergerechte Sprache einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen im Gendersternchen einen Eingriff in die Sprache.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Öffentlich-rechtliche Sender haben gendergerechte Sprache in einigen Fällen verpflichtend gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Studien deuten darauf hin, dass sich mehr Frauen angesprochen fühlen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text erwartet eine schnelle und einfache Lösung der Debatte.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "bildung-fuer-nachhaltige-entwicklung",
+    "nivel": "B2",
+    "titulo": "Bildung für nachhaltige Entwicklung",
+    "descripcion": "Ein Artikel darüber, wie Schulen Umwelt- und Nachhaltigkeitsthemen stärker in den Unterricht integrieren könnten.",
+    "texto": "Angesichts der zunehmenden Dringlichkeit ökologischer Herausforderungen wird seit einigen Jahren verstärkt gefordert, dass Umwelt- und Nachhaltigkeitsthemen fester Bestandteil schulischer Lehrpläne werden sollten. Bislang würden solche Themen, so die Kritik vieler Bildungsforscher, meist nur am Rande behandelt, etwa in einzelnen Projekttagen, anstatt fächerübergreifend und kontinuierlich vermittelt zu werden. Befürworter einer sogenannten Bildung für nachhaltige Entwicklung argumentieren, dass Schülerinnen und Schüler frühzeitig lernen müssten, komplexe ökologische und soziale Zusammenhänge zu verstehen, um später verantwortungsbewusste Entscheidungen treffen zu können.\n\nEinige Bundesländer haben bereits begonnen, entsprechende Inhalte in ihre Lehrpläne aufzunehmen, wobei die konkrete Umsetzung stark variiert. Während manche Schulen eigene Nachhaltigkeitsfächer eingeführt haben, beschränken sich andere weiterhin auf punktuelle Aktionen wie Müllsammeltage oder Exkursionen. Lehrkräfte berichten zudem, dass ihnen häufig die notwendige Fortbildung fehle, um komplexe Themen wie den Klimawandel oder globale Lieferketten fundiert im Unterricht zu vermitteln. Ohne eine entsprechende Qualifizierung der Lehrkräfte dürfte sich der gewünschte Effekt kaum in vollem Umfang entfalten.\n\nKritiker geben allerdings zu bedenken, dass die Lehrpläne bereits jetzt überfrachtet seien und dass zusätzliche Inhalte zulasten anderer wichtiger Fächer gehen könnten. Befürworter entgegnen, dass Nachhaltigkeit kein zusätzliches Fach neben anderen sein müsse, sondern als Querschnittsthema in bestehende Fächer wie Biologie, Erdkunde oder Wirtschaft integriert werden könne. Ob sich dieser Ansatz flächendeckend durchsetzen wird, hängt letztlich davon ab, ob Politik und Schulen bereit sind, die notwendigen personellen und finanziellen Ressourcen bereitzustellen.",
+    "preguntas": [
+      {
+        "enunciado": "Nachhaltigkeitsthemen werden laut Text bereits seit Langem umfassend unterrichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Umsetzung von Bildung für nachhaltige Entwicklung variiert zwischen den Bundesländern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lehrkräfte fühlen sich für die Vermittlung solcher Themen oft gut ausgebildet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker befürchten eine Überfrachtung der Lehrpläne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, Nachhaltigkeit als eigenständiges Fach völlig getrennt von anderen Fächern zu unterrichten.",
+        "respuesta": false
+      }
+    ]
   }
 ]
