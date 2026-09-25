@@ -33182,5 +33182,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-schwimmbad-im-sommer",
+    "nivel": "A1",
+    "titulo": "Im Schwimmbad im Sommer",
+    "descripcion": "Lena und Tom gehen im Sommer ins Schwimmbad.",
+    "texto": "Es ist Sommer. Die Sonne scheint. Lena und Tom gehen ins Schwimmbad. Sie packen Handtücher und Badesachen ein. Das Schwimmbad ist nicht weit von zu Hause.\n\nIm Schwimmbad gibt es ein großes Becken. Es gibt auch ein Kinderbecken. Tom schwimmt gern im großen Becken. Lena spielt lieber im Kinderbecken. Nach dem Schwimmen kaufen sie ein Eis.\n\nAm Abend sind Lena und Tom müde. Sie essen zu Abend und gehen früh ins Bett. Der Tag im Schwimmbad war schön.",
+    "preguntas": [
+      {
+        "enunciado": "Lena und Tom gehen im Winter ins Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Schwimmbad ist nicht weit von zu Hause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom schwimmt gern im Kinderbecken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Schwimmen kaufen sie ein Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend sind Lena und Tom nicht müde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-kaninchen-fritz",
+    "nivel": "A1",
+    "titulo": "Mein Kaninchen Fritz",
+    "descripcion": "Anna erzählt von ihrem Kaninchen Fritz.",
+    "texto": "Anna hat ein Kaninchen. Es heißt Fritz. Fritz ist weiß und braun. Er wohnt in einem Käfig im Garten. Jeden Tag füttert Anna ihn.\n\nFritz frisst gern Karotten und Salat. Er trinkt auch viel Wasser. Am Nachmittag darf Fritz im Garten laufen. Er hüpft schnell über das Gras.\n\nAnna liebt ihr Kaninchen sehr. Sie streichelt Fritz jeden Tag. Am Wochenende putzt sie den Käfig. Fritz ist ihr bester Freund.",
+    "preguntas": [
+      {
+        "enunciado": "Fritz ist ein Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fritz ist weiß und braun.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fritz frisst gern Karotten und Salat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fritz darf nie im Garten laufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna putzt den Käfig am Wochenende.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-obst-und-gemueseladen",
+    "nivel": "A1",
+    "titulo": "Der Obst- und Gemüseladen",
+    "descripcion": "Frau Berger kauft frisches Obst und Gemüse im Laden.",
+    "texto": "Frau Berger geht jeden Freitag zum Obst- und Gemüseladen. Der Laden ist in der Nähe vom Markt. Dort gibt es Äpfel, Bananen und Tomaten.\n\nDer Verkäufer heißt Herr Klein. Er ist sehr freundlich. Frau Berger kauft heute Kartoffeln, Zwiebeln und ein Kilo Äpfel. Sie bezahlt an der Kasse.\n\nZu Hause kocht Frau Berger eine Suppe mit dem Gemüse. Die Suppe schmeckt sehr gut. Am nächsten Freitag geht sie wieder zum Laden.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger geht jeden Montag zum Laden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Laden ist in der Nähe vom Markt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer heißt Herr Klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger kauft nur Bananen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger kocht eine Suppe mit dem Gemüse.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-in-die-berge",
+    "nivel": "A2",
+    "titulo": "Der Ausflug in die Berge",
+    "descripcion": "Eine Familie hat einen Ausflug in die Berge gemacht.",
+    "texto": "Am Samstag ist die Familie Wagner früh aufgestanden, weil sie einen Ausflug in die Berge geplant hatte. Sie sind mit dem Auto losgefahren und haben nach zwei Stunden den Parkplatz am Wanderweg erreicht. Das Wetter war sonnig und kühl.\n\nDie Wanderung hat vier Stunden gedauert. Unterwegs haben sie eine Pause gemacht und Brote gegessen. Die Kinder haben sich gefreut, dass sie einen Wasserfall gesehen haben. Der Vater hat viele Fotos gemacht.\n\nAm Nachmittag sind sie müde, aber glücklich nach Hause gefahren. Die Mutter hat gesagt, dass sie den Ausflug bald wiederholen wollen. Alle waren sich einig, dass es ein toller Tag war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist mit dem Zug in die Berge gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wanderung hat vier Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben keinen Wasserfall gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater hat viele Fotos gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter will den Ausflug nie wiederholen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-party-bei-freunden",
+    "nivel": "A2",
+    "titulo": "Die Party bei Freunden",
+    "descripcion": "Julia erzählt von einer Geburtstagsparty bei ihren Freunden.",
+    "texto": "Letzten Samstag hat Julia eine Geburtstagsparty bei ihren Freunden gefeiert. Sie hat ein Geschenk gekauft, weil ihre Freundin Mira Geburtstag hatte. Die Party hat um sieben Uhr abends begonnen.\n\nEs gab viel Musik und leckeres Essen. Julia hat mit ihren Freunden getanzt und viel gelacht. Sie war froh, dass so viele Gäste gekommen sind. Um Mitternacht haben alle einen Kuchen gegessen.\n\nAls Julia nach Hause gegangen ist, war es schon sehr spät. Sie hat ihrer Mutter erzählt, dass die Party wunderschön war. Am nächsten Tag war sie müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat die Party bei sich zu Hause gefeiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mira hatte Geburtstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab keine Musik auf der Party.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Um Mitternacht haben alle einen Kuchen gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia war am nächsten Tag traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-abgesagte-verabredung",
+    "nivel": "A2",
+    "titulo": "Die abgesagte Verabredung",
+    "descripcion": "Max hat sich mit einem Freund verabredet, aber es kam anders.",
+    "texto": "Max hatte sich am Mittwoch mit seinem Freund Paul verabredet. Sie wollten zusammen ins Kino gehen. Am Morgen hat Paul angerufen und gesagt, dass er krank geworden ist.\n\nMax war traurig, weil er sich sehr auf den Film gefreut hatte. Trotzdem hat er Verständnis gezeigt und Paul gute Besserung gewünscht. Er hat den Nachmittag stattdessen mit seiner Schwester verbracht.\n\nAm Wochenende ist Paul wieder gesund geworden. Die beiden Freunde haben die Verabredung nachgeholt und sind ins Kino gegangen. Der Film hat ihnen sehr gut gefallen.",
+    "preguntas": [
+      {
+        "enunciado": "Max und Paul wollten ins Schwimmbad gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul ist krank geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max war nicht traurig über die Absage.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max hat den Nachmittag mit seiner Schwester verbracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde sind nie ins Kino gegangen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-kunst-des-zeitmanagements",
+    "nivel": "B1",
+    "titulo": "Die Kunst des Zeitmanagements",
+    "descripcion": "Ein Bericht darüber, wie gutes Zeitmanagement den Alltag erleichtern kann.",
+    "texto": "Viele Menschen fühlen sich im Alltag gestresst, obwohl sie eigentlich genug Zeit für ihre Aufgaben hätten. Das Problem liegt oft nicht an der fehlenden Zeit, sondern an einer schlechten Organisation. Wer seine Aufgaben nicht plant, verliert schnell den Überblick.\n\nNachdem Experten jahrelang Studien zum Thema Zeitmanagement durchgeführt hatten, kamen sie zu einem klaren Ergebnis: Wer Prioritäten setzt, arbeitet effizienter. Es hilft, jeden Morgen eine Liste mit den wichtigsten Aufgaben zu schreiben. Trotzdem sollte man auch Pausen einplanen, denn ohne Erholung sinkt die Konzentration.\n\nEin weiterer Tipp ist, störende Ablenkungen wie das Handy während der Arbeitszeit auszuschalten. Wer diese Methoden ausprobiert, wird schnell merken, dass sich der Stress verringert. So bleibt am Ende des Tages sogar Zeit für Hobbys und Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Gestresste Menschen haben laut Text immer zu wenig Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten empfehlen, Prioritäten zu setzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pausen sind laut Text unwichtig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ablenkungen wie das Handy sollten während der Arbeit ausgeschaltet werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gutes Zeitmanagement lässt keine Zeit für Hobbys.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-theatergruppe-der-schule",
+    "nivel": "B1",
+    "titulo": "Die Theatergruppe der Schule",
+    "descripcion": "Schüler bereiten ein Theaterstück für das Schulfest vor.",
+    "texto": "An der Gesamtschule in Münster hat sich vor drei Monaten eine Theatergruppe gegründet. Obwohl viele Schüler zunächst schüchtern waren, meldeten sich schließlich über zwanzig Kinder an. Die Gruppe probt jeden Dienstag und Donnerstag in der Aula.\n\nNachdem die Schüler ein passendes Stück ausgewählt hatten, begannen die Proben mit voller Energie. Der Lehrer Herr Fischer leitet die Gruppe und hilft bei den Kostümen. Trotzdem übernehmen die Schüler die meisten Aufgaben selbst, von der Bühnendekoration bis zur Musik.\n\nBeim Schulfest im Juni wird die Gruppe ihr Stück endlich aufführen. Alle sind aufgeregt, aber auch stolz auf die harte Arbeit. Die Eltern und Lehrer freuen sich schon auf die Vorstellung.",
+    "preguntas": [
+      {
+        "enunciado": "Die Theatergruppe wurde vor drei Monaten gegründet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur fünf Schüler haben sich angemeldet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe probt jeden Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer leitet die Theatergruppe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Aufführung findet beim Schulfest im Juni statt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-unter-geschwistern",
+    "nivel": "B1",
+    "titulo": "Der Streit unter Geschwistern",
+    "descripcion": "Zwei Geschwister streiten sich, versöhnen sich aber wieder.",
+    "texto": "Lukas und seine Schwester Nina hatten sich schon lange nicht mehr gestritten, doch letzte Woche kam es zum Streit. Nina hatte Lukas' Lieblingsjacke ohne zu fragen ausgeliehen und sie beim Regen schmutzig gemacht. Obwohl Nina sich sofort entschuldigte, war Lukas zuerst sehr wütend.\n\nNachdem beide einen Tag lang nicht miteinander gesprochen hatten, suchte Nina das Gespräch. Sie erklärte, dass sie es nicht böse gemeint hatte und bot an, die Jacke reinigen zu lassen. Trotzdem brauchte Lukas noch etwas Zeit, um wieder ruhig zu werden.\n\nAm Ende haben sich die Geschwister versöhnt und gemeinsam die Jacke gewaschen. Seitdem fragt Nina immer, bevor sie sich etwas von Lukas ausleiht. Der Streit hat ihre Beziehung am Ende sogar gestärkt.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat Lukas' Jacke ohne zu fragen ausgeliehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas war sofort nicht mehr böse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat das Gespräch mit Lukas gesucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Geschwister haben sich nie versöhnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina fragt jetzt immer, bevor sie sich etwas ausleiht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "konsumkritik-in-der-modeindustrie",
+    "nivel": "B2",
+    "titulo": "Konsumkritik in der Modeindustrie",
+    "descripcion": "Eine kritische Betrachtung der Fast-Fashion-Industrie und ihrer Folgen.",
+    "texto": "Die Modeindustrie hat sich in den letzten Jahrzehnten grundlegend verändert. Während früher Kleidungsstücke über Jahre hinweg getragen wurden, werden sie heute oft schon nach wenigen Wochen aussortiert. Dieses Phänomen, bekannt als „Fast Fashion“, wird von Kritikern zunehmend infrage gestellt, da es enorme Mengen an Textilabfall produziert.\n\nWürden Konsumenten stärker auf die Herkunft ihrer Kleidung achten, könnte sich die Situation verbessern. Viele Kleidungsstücke werden unter fragwürdigen Arbeitsbedingungen in Billiglohnländern hergestellt, wo Arbeiterinnen und Arbeiter oft nur einen Bruchteil eines existenzsichernden Lohns erhalten. Obwohl einige Unternehmen inzwischen nachhaltigere Produktionsweisen einführen, bleibt der Großteil der Branche von schnellen, billigen Kollektionen geprägt.\n\nUmweltschützer fordern seit Jahren, dass strengere gesetzliche Regelungen eingeführt werden, um die ökologischen und sozialen Kosten der Modeindustrie zu senken. Sollte es gelingen, Verbraucher stärker zu sensibilisieren, könnte langfristig ein Umdenken stattfinden. Bis dahin bleibt es jedem Einzelnen überlassen, bewusster einzukaufen und Kleidung länger zu nutzen.\n\nKritiker betonen jedoch, dass individuelles Konsumverhalten allein nicht ausreicht. Erst wenn strukturelle Veränderungen in der gesamten Lieferkette vorgenommen würden, ließe sich das Problem nachhaltig lösen. Die Debatte darüber, wer die Verantwortung trägt, wird die Gesellschaft wohl noch lange beschäftigen.",
+    "preguntas": [
+      {
+        "enunciado": "Fast Fashion bedeutet, dass Kleidung über Jahre getragen wird.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Kleidungsstücke werden unter fragwürdigen Arbeitsbedingungen hergestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen der Modeindustrie produzieren bereits nachhaltig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Umweltschützer fordern strengere gesetzliche Regelungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern reicht individuelles Konsumverhalten allein aus, um das Problem zu lösen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-fachkraeftemangel-und-seine-folgen",
+    "nivel": "B2",
+    "titulo": "Der Fachkräftemangel und seine Folgen",
+    "descripcion": "Eine Analyse der Ursachen und Auswirkungen des Fachkräftemangels in Deutschland.",
+    "texto": "In vielen Branchen Deutschlands, von der Pflege bis zum Handwerk, wird seit Jahren über einen zunehmenden Fachkräftemangel geklagt. Unternehmen berichten, dass offene Stellen monatelang nicht besetzt werden können, weil qualifizierte Bewerber fehlen. Dieser Mangel wird von Experten auf mehrere Ursachen zurückgeführt, darunter der demografische Wandel und eine unzureichende Ausbildungsförderung.\n\nWürde die Politik stärker in berufliche Bildung investieren, ließe sich der Mangel möglicherweise langfristig lindern. Bislang wurden jedoch nur vereinzelte Maßnahmen ergriffen, die von Wirtschaftsverbänden als unzureichend kritisiert werden. Gleichzeitig wird diskutiert, ob eine erleichterte Zuwanderung qualifizierter Arbeitskräfte aus dem Ausland eine sinnvolle Lösung wäre.\n\nDie Folgen des Fachkräftemangels sind bereits spürbar: In Krankenhäusern müssen Betten geschlossen werden, weil das Pflegepersonal fehlt, und Handwerksbetriebe müssen Aufträge ablehnen. Sollte sich an dieser Situation nichts ändern, könnten die wirtschaftlichen Folgen für Deutschland erheblich sein.\n\nManche Ökonomen schlagen vor, dass auch die Arbeitsbedingungen in betroffenen Branchen verbessert werden müssten, damit mehr Menschen diese Berufe überhaupt in Betracht ziehen. Nur durch ein Zusammenspiel verschiedener Maßnahmen, so die einhellige Meinung, könne der Fachkräftemangel wirksam bekämpft werden.",
+    "preguntas": [
+      {
+        "enunciado": "Der Fachkräftemangel betrifft nur die IT-Branche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der demografische Wandel gilt als eine Ursache des Fachkräftemangels.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Politik hat laut Text bereits ausreichend in berufliche Bildung investiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Krankenhäusern mussten wegen fehlenden Pflegepersonals Betten geschlossen werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ökonomen schlagen vor, die Arbeitsbedingungen zu verbessern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-ethik-der-genforschung",
+    "nivel": "B2",
+    "titulo": "Die Ethik der Genforschung",
+    "descripcion": "Ein Überblick über die ethischen Fragen, die moderne Genforschung aufwirft.",
+    "texto": "Die Fortschritte in der Genforschung eröffnen medizinische Möglichkeiten, die vor wenigen Jahrzehnten noch undenkbar gewesen wären. Mithilfe von Genscheren wie CRISPR können mittlerweile gezielt Erbkrankheiten behandelt werden. Gleichzeitig werfen diese neuen Techniken tiefgreifende ethische Fragen auf, mit denen sich Wissenschaftler, Politiker und die Gesellschaft insgesamt auseinandersetzen müssen.\n\nBefürworter argumentieren, dass es unverantwortlich wäre, auf Behandlungsmethoden zu verzichten, die schweres Leid verhindern könnten. Kritiker hingegen warnen davor, dass Eingriffe in das menschliche Erbgut missbraucht werden könnten, etwa um sogenannte „Designerbabys“ mit bestimmten äußeren Merkmalen zu erschaffen. Diese Sorge wird von zahlreichen Ethikräten geteilt, die strenge Regeln fordern.\n\nSollte die Forschung ohne klare gesetzliche Grenzen fortgesetzt werden, könnten laut Kritikern gesellschaftliche Ungleichheiten verstärkt werden, da sich nur wohlhabende Familien solche Eingriffe leisten könnten. In Deutschland ist die Genforschung am Menschen daher gesetzlich streng reguliert, während andere Länder liberalere Regelungen haben.\n\nDie Debatte zeigt, wie schwierig es ist, wissenschaftlichen Fortschritt und ethische Verantwortung miteinander in Einklang zu bringen. Es wird erwartet, dass internationale Vereinbarungen in Zukunft eine wichtigere Rolle spielen werden, um einheitliche Standards zu schaffen.",
+    "preguntas": [
+      {
+        "enunciado": "CRISPR ist eine Methode, mit der gezielt Erbkrankheiten behandelt werden können.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Wissenschaftler sind sich einig, dass es keine ethischen Bedenken gibt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten den Missbrauch von Genforschung für „Designerbabys“.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Deutschland ist die Genforschung am Menschen gesetzlich streng reguliert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind sich alle Länder bei den Regelungen zur Genforschung einig.",
+        "respuesta": false
+      }
+    ]
   }
 ]
