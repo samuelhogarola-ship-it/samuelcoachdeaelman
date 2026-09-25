@@ -32834,5 +32834,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-flughafen",
+    "nivel": "A1",
+    "titulo": "Im Flughafen",
+    "descripcion": "Lena wartet am Flughafen auf ihre Freundin aus Spanien.",
+    "texto": "Lena ist am Flughafen. Sie wartet auf ihre Freundin Carla. Carla kommt aus Spanien. Der Flug ist um 14 Uhr. Lena hat ein Schild in der Hand. Auf dem Schild steht „Carla\".\n\nDer Flughafen ist groß und laut. Viele Menschen laufen hin und her. Lena trinkt einen Kaffee und schaut auf die Uhr. Endlich kommt Carla mit ihrem Koffer. „Hallo Lena! Schön, dich zu sehen!\", sagt Carla und lacht. Die beiden umarmen sich.\n\nLena und Carla gehen zum Auto. Sie fahren zusammen in die Stadt. Carla bleibt eine Woche bei Lena. Sie freuen sich beide sehr auf die Zeit zusammen.",
+    "preguntas": [
+      {
+        "enunciado": "Lena wartet am Flughafen auf Carla.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla kommt aus Frankreich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena hat ein Schild mit dem Namen „Carla\".",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla bleibt zwei Wochen bei Lena.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und Carla fahren mit dem Auto in die Stadt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-tierpark",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Tierpark",
+    "descripcion": "Tom und seine kleine Schwester besuchen den Tierpark und sehen viele Tiere.",
+    "texto": "Tom geht heute mit seiner Schwester Mia in den Tierpark. Mia ist erst fünf Jahre alt und sehr aufgeregt. Am Eingang kaufen sie zwei Tickets. Der Tierpark ist groß und hat viele Tiere.\n\nZuerst sehen sie die Elefanten. Die Elefanten sind sehr groß und grau. Dann gehen Tom und Mia zu den Affen. Die Affen springen von Ast zu Ast. Mia lacht laut. Danach essen sie ein Eis und trinken Wasser. Es ist ein warmer Tag.\n\nAm Ende besuchen sie noch die Pinguine. Die Pinguine schwimmen schnell im Wasser. Mia möchte auch schwimmen wie ein Pinguin. Tom und Mia sind sehr müde, aber glücklich. Sie fahren mit dem Bus nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Mia ist fünf Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom und Mia sehen zuerst die Pinguine.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Affen springen von Ast zu Ast.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom und Mia essen kein Eis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende fahren sie mit dem Bus nach Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-familie-und-ich",
+    "nivel": "A1",
+    "titulo": "Meine Familie und ich",
+    "descripcion": "Paul stellt seine Familie vor: seine Eltern, seine Schwester und den Hund.",
+    "texto": "Ich heiße Paul und bin zehn Jahre alt. Ich wohne mit meiner Familie in einem kleinen Haus. Meine Mutter heißt Sabine und mein Vater heißt Jonas. Ich habe auch eine Schwester. Sie heißt Emma und ist sieben Jahre alt.\n\nMeine Mutter arbeitet in einer Bäckerei. Mein Vater arbeitet als Lehrer. Emma geht in die zweite Klasse und ich gehe in die vierte Klasse. Wir haben auch einen Hund. Er heißt Bruno und ist braun und weiß.\n\nAm Wochenende spielen wir oft zusammen im Garten. Bruno spielt gern mit dem Ball. Emma malt gern Bilder, und ich spiele gern Fußball. Unsere Familie ist klein, aber wir sind sehr glücklich zusammen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma ist älter als Paul.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Mutter arbeitet in einer Bäckerei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat keine Haustiere.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul spielt gern Fußball.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "hilfe-vom-nachbarn",
+    "nivel": "A2",
+    "titulo": "Hilfe vom Nachbarn",
+    "descripcion": "Herr Weber hat sich das Bein gebrochen, und seine Nachbarin hilft ihm im Alltag.",
+    "texto": "Herr Weber ist letzte Woche gestürzt und hat sich das Bein gebrochen. Jetzt kann er nicht gut laufen und braucht Hilfe im Alltag. Seine Nachbarin Frau Klein hat das gehört und ist sofort zu ihm gegangen, weil sie ihm helfen wollte.\n\nSeit dem Unfall geht Frau Klein jeden Tag für Herrn Weber einkaufen. Sie hat auch seine Post geholt und den Müll rausgebracht. Herr Weber war sehr dankbar, dass jemand an ihn gedacht hat. „Ohne Sie wäre es sehr schwer für mich gewesen\", hat er gesagt.\n\nGestern hat Frau Klein sogar für Herrn Weber gekocht, weil er selbst nicht in die Küche gehen konnte. Die beiden haben zusammen gegessen und viel geredet. Herr Weber hofft, dass sein Bein bald wieder gesund wird, aber er freut sich auch über die neue Freundschaft mit seiner Nachbarin.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber hat sich den Arm gebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Klein geht für Herrn Weber einkaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber wollte keine Hilfe von seiner Nachbarin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Klein hat für Herrn Weber gekocht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber und Frau Klein haben zusammen gegessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-arztbesuch-am-montag",
+    "nivel": "A2",
+    "titulo": "Der Arztbesuch am Montag",
+    "descripcion": "Julia hat seit Tagen Kopfschmerzen und geht deshalb zum Arzt.",
+    "texto": "Julia hatte seit drei Tagen starke Kopfschmerzen. Weil die Schmerzen nicht besser wurden, hat sie am Montag einen Termin beim Arzt gemacht. Sie ist um neun Uhr in die Praxis gegangen und musste zuerst im Wartezimmer sitzen.\n\nDer Arzt hat Julia viele Fragen gestellt. Er wollte wissen, ob sie genug geschlafen hat und ob sie viel Wasser trinkt. Julia hat erzählt, dass sie in den letzten Tagen sehr wenig geschlafen hat, weil sie viel für die Prüfung gelernt hat. Der Arzt hat gesagt, dass die Kopfschmerzen wahrscheinlich vom Stress kommen.\n\nEr hat Julia geraten, mehr Pausen zu machen und früher ins Bett zu gehen. Julia hat versprochen, seinen Rat zu befolgen. Nach dem Arztbesuch ist sie nach Hause gegangen und hat sich sofort hingelegt. Am nächsten Tag ging es ihr schon viel besser.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hatte seit drei Tagen Kopfschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia ist am Sonntag zum Arzt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt denkt, dass der Stress die Ursache ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat in den letzten Tagen viel geschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am nächsten Tag ging es Julia besser.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-von-lisa",
+    "nivel": "A2",
+    "titulo": "Der Brief von Lisa",
+    "descripcion": "Lisa schreibt ihrer Freundin einen Brief über ihre Reise nach Österreich.",
+    "texto": "Liebe Sonja,\n\nich hoffe, es geht dir gut! Ich schreibe dir aus Österreich, weil ich hier gerade Urlaub mache. Letzte Woche bin ich mit dem Zug nach Salzburg gefahren. Die Fahrt hat fast sechs Stunden gedauert, aber die Landschaft war wunderschön.\n\nIn Salzburg habe ich viele alte Gebäude besucht und bin durch die kleinen Gassen der Altstadt spaziert. Am zweiten Tag bin ich in die Berge gefahren, weil ich wandern wollte. Das Wetter war leider nicht so gut, aber ich hatte trotzdem viel Spaß. Ich habe auch neue Leute kennengelernt, die aus Italien kommen.\n\nNächste Woche fahre ich nach Wien, um meine Reise fortzusetzen. Ich werde dir bestimmt wieder schreiben, wenn ich dort angekommen bin. Ich hoffe, wir können bald zusammen Kaffee trinken, wenn ich zurück bin!\n\nViele Grüße,\nLisa",
+    "preguntas": [
+      {
+        "enunciado": "Lisa macht gerade Urlaub in Österreich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa ist mit dem Flugzeug nach Salzburg gereist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Salzburg hat Lisa alte Gebäude besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter in den Bergen war sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa fährt als Nächstes nach Wien.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-job-in-der-firma",
+    "nivel": "B1",
+    "titulo": "Der neue Job in der Firma",
+    "descripcion": "Markus beginnt eine neue Stelle und muss sich an viele neue Aufgaben gewöhnen.",
+    "texto": "Markus hat vor zwei Wochen eine neue Stelle in einer großen Firma angefangen. Obwohl er sich auf den neuen Job gefreut hat, war der erste Tag ziemlich stressig. Er musste viele neue Kollegen kennenlernen und sich gleichzeitig mit den Computersystemen der Firma vertraut machen.\n\nIn den ersten Tagen hatte Markus das Gefühl, dass er zu wenig wusste, um seine Aufgaben richtig zu erledigen. Nachdem er jedoch an einer Einführungsschulung teilgenommen hatte, fühlte er sich deutlich sicherer. Seine Kollegin Anja half ihm außerdem geduldig bei allen Fragen, sodass er sich schnell besser zurechtfand.\n\nTrotzdem gibt es noch einige Herausforderungen, an die sich Markus gewöhnen muss. Die Firma arbeitet in vielen Projekten mit internationalen Teams zusammen, weshalb Markus regelmäßig englische E-Mails schreiben muss. Er nimmt sich vor, sein Englisch in den kommenden Monaten zu verbessern, damit er im Job noch erfolgreicher wird.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat vor zwei Wochen die neue Stelle angefangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der erste Arbeitstag war völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Einführungsschulung hat Markus mehr Sicherheit gegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anja wollte Markus nicht helfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus möchte sein Englisch verbessern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-freundschaft-ueber-die-jahre",
+    "nivel": "B1",
+    "titulo": "Die Freundschaft über die Jahre",
+    "descripcion": "Zwei Freunde aus der Schulzeit treffen sich nach vielen Jahren wieder.",
+    "texto": "Simon und Felix waren in der Schulzeit die besten Freunde. Nachdem sie beide die Schule beendet hatten, sind sie in verschiedene Städte gezogen, um zu studieren. Obwohl sie sich lange nicht persönlich gesehen hatten, haben sie regelmäßig geschrieben und telefoniert.\n\nLetzten Monat hat Felix Simon endlich besucht, nachdem sie sich fast fünf Jahre nicht gesehen hatten. Beide waren zunächst etwas nervös, weil sich so viel verändert hatte. Simon arbeitet inzwischen als Ingenieur, während Felix eine eigene Firma gegründet hat. Trotzdem war es, als hätten sie sich erst gestern gesehen.\n\nSie verbrachten das ganze Wochenende damit, alte Erinnerungen auszutauschen und über ihre aktuellen Pläne zu sprechen. Am Ende des Besuchs waren beide sich sicher, dass ihre Freundschaft die Jahre und die Entfernung überstanden hatte. Sie versprachen sich, sich nun öfter zu treffen, anstatt so lange zu warten.",
+    "preguntas": [
+      {
+        "enunciado": "Simon und Felix waren in der Schulzeit befreundet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden haben sich nach der Schule nie wieder kontaktiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat eine eigene Firma gegründet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Treffen war für beide völlig ohne Nervosität.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie wollen sich in Zukunft öfter treffen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fotoausstellung-in-der-stadt",
+    "nivel": "B1",
+    "titulo": "Die Fotoausstellung in der Stadt",
+    "descripcion": "Eine junge Fotografin stellt zum ersten Mal ihre Bilder in einer Galerie aus.",
+    "texto": "Nina ist Fotografin und hat jahrelang davon geträumt, ihre eigenen Bilder in einer Galerie auszustellen. Nachdem sie sich bei mehreren Galerien beworben hatte, bekam sie endlich die Zusage für eine kleine Ausstellung im Stadtzentrum. Obwohl sie sehr aufgeregt war, freute sie sich riesig über die Chance.\n\nFür die Ausstellung wählte Nina zwanzig Fotos aus, die sie in den letzten drei Jahren aufgenommen hatte. Die meisten Bilder zeigen Menschen aus ihrer Heimatstadt bei alltäglichen Momenten. Nachdem die Galerie geöffnet hatte, kamen erstaunlich viele Besucher, um sich die Fotos anzusehen.\n\nViele Gäste lobten die Ausstellung und fragten Nina nach ihrer Arbeitsweise. Trotz ihrer anfänglichen Nervosität genoss Nina den Abend sehr und beantwortete geduldig alle Fragen. Am Ende des Abends hatte sie sogar schon Anfragen für weitere Projekte erhalten, worüber sie sich riesig freute.",
+    "preguntas": [
+      {
+        "enunciado": "Nina bekam sofort eine Zusage von der ersten Galerie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina wählte zwanzig Fotos für die Ausstellung aus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fotos zeigen hauptsächlich Landschaften aus den Bergen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Besucher kamen zur Ausstellung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat am Ende Anfragen für weitere Projekte erhalten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-mietpreisbremse",
+    "nivel": "B2",
+    "titulo": "Die Mietpreisbremse und ihre Grenzen",
+    "descripcion": "Ein Text über die Mietpreisbremse in Deutschland und die Debatte um ihre Wirksamkeit.",
+    "texto": "In vielen deutschen Großstädten sind die Mietpreise in den letzten Jahren stark gestiegen. Als Reaktion darauf wurde die sogenannte Mietpreisbremse eingeführt, die verhindern soll, dass Vermieter bei Neuvermietungen die ortsübliche Vergleichsmiete um mehr als zehn Prozent überschreiten. Ziel dieser Regelung ist es, bezahlbaren Wohnraum insbesondere in stark nachgefragten Stadtteilen zu erhalten.\n\nKritiker der Mietpreisbremse bemängeln jedoch, dass das Gesetz in der Praxis nur begrenzt wirksam sei. Zahlreiche Ausnahmen, etwa für Neubauten oder umfassend sanierte Wohnungen, würden dazu führen, dass ein großer Teil des Wohnungsmarkts gar nicht von der Regelung erfasst werde. Zudem wird kritisiert, dass Mieter ihre Rechte oft nur schwer durchsetzen können, da sie überhöhte Mieten aktiv beim Vermieter rügen müssen.\n\nBefürworter der Mietpreisbremse argumentieren dagegen, dass die Regelung zumindest den Anstieg der Mieten verlangsamt habe, auch wenn sie das grundlegende Problem des Wohnungsmangels nicht lösen könne. Würde man gleichzeitig mehr in den sozialen Wohnungsbau investieren, ließe sich die Situation auf dem Wohnungsmarkt langfristig deutlich verbessern. Die Debatte darüber, welche Maßnahmen tatsächlich zu bezahlbarem Wohnraum führen, hält in der deutschen Politik bis heute an.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreisbremse soll starke Mieterhöhungen bei Neuvermietungen begrenzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text gibt es keinerlei Ausnahmen von der Mietpreisbremse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass Mieter ihre Rechte oft schwer durchsetzen können.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter meinen, die Regelung löse den Wohnungsmangel vollständig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erwähnt sozialen Wohnungsbau als mögliche zusätzliche Maßnahme.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-lehrermangel",
+    "nivel": "B2",
+    "titulo": "Der Lehrermangel an deutschen Schulen",
+    "descripcion": "Ein Überblick über die Ursachen des Lehrermangels in Deutschland und mögliche Lösungsansätze.",
+    "texto": "Seit Jahren klagen deutsche Schulen über einen zunehmenden Mangel an qualifizierten Lehrkräften. Besonders betroffen sind Grundschulen sowie Schulen in ländlichen Regionen, wo es oft schwierig ist, offene Stellen überhaupt zu besetzen. Als Ursachen werden unter anderem der demografische Wandel, eine unzureichende Zahl an Studienplätzen sowie die hohe Arbeitsbelastung im Lehrerberuf genannt.\n\nDie Folgen des Lehrermangels sind vielfältig: Klassen werden größer, Unterricht fällt aus, und bestehende Lehrkräfte müssen zusätzliche Stunden übernehmen. Dies wiederum erhöht die Belastung der verbliebenen Lehrerinnen und Lehrer, was die Attraktivität des Berufs weiter verringert. Kritiker sprechen deshalb von einem Teufelskreis, der ohne strukturelle Reformen kaum zu durchbrechen sei.\n\nUm dem Mangel entgegenzuwirken, schlagen Experten verschiedene Maßnahmen vor. Dazu zählen unter anderem höhere Gehälter für Lehrkräfte in besonders gefragten Fächern, mehr Unterstützung durch Verwaltungspersonal sowie eine Reform der Lehrerausbildung. Würden solche Reformen konsequent umgesetzt, könnte der Lehrerberuf langfristig wieder attraktiver werden. Bislang jedoch mangelt es vielerorts noch am politischen Willen, die notwendigen Veränderungen tatsächlich umzusetzen.",
+    "preguntas": [
+      {
+        "enunciado": "Besonders Grundschulen und ländliche Regionen sind vom Lehrermangel betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text nennt die hohe Arbeitsbelastung als eine mögliche Ursache.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text werden die Klassen durch den Lehrermangel kleiner.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten schlagen unter anderem höhere Gehälter als Lösung vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die notwendigen Reformen seien bereits überall umgesetzt worden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-work-life-balance-debatte",
+    "nivel": "B2",
+    "titulo": "Die Work-Life-Balance-Debatte",
+    "descripcion": "Ein Text über den gesellschaftlichen Wandel im Verständnis von Arbeit und Freizeit.",
+    "texto": "In den letzten Jahren hat sich das Verständnis vieler Arbeitnehmer von einer ausgewogenen Work-Life-Balance grundlegend gewandelt. Während frühere Generationen häufig bereit waren, berufliche Verpflichtungen über persönliche Bedürfnisse zu stellen, legen jüngere Arbeitnehmer zunehmend Wert darauf, Beruf und Privatleben klar voneinander zu trennen. Diese Entwicklung wird von manchen Unternehmen begrüßt, von anderen jedoch kritisch betrachtet.\n\nBefürworter der neuen Einstellung argumentieren, dass eine bessere Balance zwischen Arbeit und Freizeit langfristig zu zufriedeneren und produktiveren Mitarbeitern führe. Studien deuten darauf hin, dass Beschäftigte, die ausreichend Erholungszeit haben, seltener unter Burnout leiden und dem Unternehmen länger treu bleiben. Aus diesem Grund haben einige Firmen flexible Arbeitszeitmodelle sowie die Möglichkeit zum Homeoffice eingeführt.\n\nKritiker hingegen befürchten, dass eine zu starke Betonung der Work-Life-Balance die Leistungsbereitschaft und den wirtschaftlichen Erfolg von Unternehmen gefährden könnte. Sie weisen darauf hin, dass in bestimmten Branchen, etwa im Gesundheitswesen, eine strikte Trennung zwischen Arbeit und Freizeit ohnehin kaum realistisch sei. Trotz dieser Bedenken deutet vieles darauf hin, dass sich das Thema Work-Life-Balance als fester Bestandteil moderner Arbeitskultur etablieren wird, selbst wenn die konkrete Umsetzung von Branche zu Branche unterschiedlich ausfallen dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Jüngere Arbeitnehmer legen laut Text zunehmend Wert auf eine klare Trennung von Beruf und Privatleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen begrüßen diese Entwicklung ohne jegliche Kritik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien deuten darauf hin, dass erholte Beschäftigte seltener unter Burnout leiden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen in manchen Branchen keine realistische Trennung von Arbeit und Freizeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Thema Work-Life-Balance werde bald völlig bedeutungslos.",
+        "respuesta": false
+      }
+    ]
   }
 ]
