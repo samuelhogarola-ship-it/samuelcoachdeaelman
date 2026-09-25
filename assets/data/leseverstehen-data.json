@@ -32138,5 +32138,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-freibad",
+    "nivel": "A1",
+    "titulo": "Im Freibad",
+    "descripcion": "Lisa und ihr Bruder gehen im Sommer ins Freibad.",
+    "texto": "Es ist Sommer und die Sonne scheint. Lisa und ihr Bruder Tom gehen ins Freibad. Sie packen ihre Badesachen in eine Tasche. Die Straßenbahn fährt direkt zum Freibad. Im Freibad gibt es ein großes Schwimmbecken. Viele Kinder spielen und lachen im Wasser.\n\nLisa kauft ein Eis am Kiosk. Das Eis ist grün und schmeckt nach Minze. Tom springt vom Sprungbrett ins Wasser. Danach liegen beide auf ihren Handtüchern in der Sonne. Sie hören Musik und essen Chips.\n\nAm Nachmittag wird der Himmel dunkel. Es beginnt zu regnen. Lisa und Tom packen schnell ihre Sachen ein. Sie laufen zur Straßenbahn und fahren nach Hause. Zu Hause trinken sie warmen Tee.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa und Tom gehen im Winter ins Freibad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie fahren mit der Straßenbahn zum Freibad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa kauft ein Eis am Kiosk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom springt nicht ins Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag beginnt es zu regnen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsparty-fuer-oma",
+    "nivel": "A1",
+    "titulo": "Die Geburtstagsparty für Oma",
+    "descripcion": "Die Familie plant eine Überraschungsparty für Omas Geburtstag.",
+    "texto": "Oma wird morgen achtzig Jahre alt. Die ganze Familie plant eine Überraschungsparty. Mama backt einen großen Schokoladenkuchen. Papa kauft bunte Luftballons und eine Torte mit Kerzen. Die Kinder malen ein großes Geburtstagsplakat.\n\nAm Nachmittag kommen die Gäste. Onkel Peter bringt Blumen mit. Tante Julia bringt ein Geschenk mit. Alle verstecken sich hinter dem Sofa. Als Oma die Tür öffnet, rufen alle laut „Überraschung!\". Oma lacht und weint gleichzeitig vor Freude.\n\nDie Familie singt ein Geburtstagslied. Oma bläst die Kerzen aus und wünscht sich etwas. Danach isst die Familie Kuchen und trinkt Kaffee. Am Abend tanzen alle zusammen im Wohnzimmer. Es ist ein sehr schöner Tag für Oma.",
+    "preguntas": [
+      {
+        "enunciado": "Oma wird achtzig Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mama backt eine Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder malen ein Geburtstagsplakat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma weiß schon vorher von der Party.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie tanzt am Abend zusammen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-buecherei",
+    "nivel": "A1",
+    "titulo": "In der Bücherei",
+    "descripcion": "Paul geht jede Woche in die Bücherei und leiht Bücher aus.",
+    "texto": "Paul liebt Bücher. Jeden Samstag geht er in die Bücherei. Die Bücherei ist groß und sehr ruhig. Paul sucht Bücher über Tiere und Abenteuer. Er findet ein Buch über Löwen in Afrika.\n\nAn der Theke arbeitet Frau Berg. Sie kennt Paul schon lange. „Wie viele Bücher möchtest du heute?\", fragt sie. Paul nimmt drei Bücher mit. Er zeigt seinen Bibliotheksausweis. Frau Berg stempelt die Bücher.\n\nZu Hause liest Paul jeden Abend ein Kapitel. Sein Hund Bruno liegt neben ihm. Nach zwei Wochen bringt Paul die Bücher zurück. Dann leiht er sich wieder neue Bücher aus. Die Bücherei ist Pauls Lieblingsort in der Stadt.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht jeden Samstag in die Bücherei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul mag keine Bücher über Tiere.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berg arbeitet an der Theke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul nimmt fünf Bücher mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Hund heißt Bruno.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenmarkt-im-dorf",
+    "nivel": "A2",
+    "titulo": "Der Wochenmarkt im Dorf",
+    "descripcion": "Frau Keller erzählt, wie sie jeden Mittwoch auf dem Dorfmarkt einkauft.",
+    "texto": "Frau Keller ist gestern zum Wochenmarkt in ihrem Dorf gegangen. Sie hat frisches Gemüse und Eier gekauft, weil sie am Abend Gäste eingeladen hatte. Der Markt findet jeden Mittwoch auf dem Dorfplatz statt. Viele Bauern aus der Umgebung verkaufen dort ihre Produkte.\n\nAm Stand von Herrn Fischer hat Frau Keller Kartoffeln und Zwiebeln gekauft. „Wenn Sie noch Äpfel brauchen, gehen Sie zum Stand nebenan\", hat er ihr gesagt. Frau Keller ist zu diesem Stand gegangen und hat einen Korb Äpfel mitgenommen. Sie hat auch mit ihrer Nachbarin gesprochen, die zufällig auch auf dem Markt war.\n\nNachdem sie eingekauft hatte, ist Frau Keller nach Hause gegangen und hat sofort mit dem Kochen begonnen. Sie hat erzählt, dass ihr Sohn und seine Familie zum Abendessen kommen. Am Ende des Abends waren alle sehr zufrieden mit dem Essen vom Markt.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller ist am Montag zum Markt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat Gemüse gekauft, weil Gäste kommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wochenmarkt findet jeden Mittwoch statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller hat keine Äpfel gekauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihr Sohn kommt mit seiner Familie zum Abendessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-wohnung-in-hamburg",
+    "nivel": "A2",
+    "titulo": "Die neue Wohnung in Hamburg",
+    "descripcion": "Sven schreibt seiner Freundin einen Brief über seine neue Wohnung in Hamburg.",
+    "texto": "Liebe Nina,\n\nich bin letzte Woche endlich nach Hamburg umgezogen. Die neue Wohnung liegt in der Nähe vom Hafen, und ich kann von meinem Fenster aus die Schiffe sehen. Am Anfang war der Umzug ziemlich stressig, weil ich viele Kartons tragen musste. Zum Glück haben mir zwei Freunde geholfen.\n\nMeine neue Nachbarin heißt Frau Hoffmann. Sie hat mir gleich am ersten Tag einen Kuchen gebracht, weil sie mich willkommen heißen wollte. Wir haben lange über die Stadt gesprochen, und sie hat mir viele Tipps für gute Restaurants gegeben. Ich glaube, dass ich mich hier schnell wohlfühlen werde.\n\nWenn du im Sommer Zeit hast, kannst du mich gerne besuchen. Ich habe schon ein Gästezimmer eingerichtet. Wir könnten zusammen an der Alster spazieren gehen und die Speicherstadt besichtigen. Ich freue mich schon sehr auf deinen Besuch.\n\nViele Grüße\nSven",
+    "preguntas": [
+      {
+        "enunciado": "Sven ist nach München umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zwei Freunde haben ihm beim Umzug geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Hoffmann hat Sven einen Kuchen gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sven hat kein Gästezimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sven lädt Nina zu einem Besuch im Sommer ein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarschaftshilfe",
+    "nivel": "A2",
+    "titulo": "Die Nachbarschaftshilfe",
+    "descripcion": "Herr Wolf berichtet, wie die Nachbarn in seiner Straße sich gegenseitig helfen.",
+    "texto": "In der Straße von Herrn Wolf haben die Nachbarn vor einem Jahr eine kleine Nachbarschaftshilfe gegründet. Sie helfen sich gegenseitig, wenn jemand krank ist oder Hilfe beim Einkaufen braucht. Herr Wolf ist über siebzig Jahre alt und kann nicht mehr so gut laufen.\n\nLetzte Woche hat Frau Schulz, seine junge Nachbarin, für ihn eingekauft, weil er sich nicht wohlgefühlt hat. Sie hat ihm auch beim Aufräumen im Garten geholfen. Im Gegenzug passt Herr Wolf oft auf die Katze von Frau Schulz auf, wenn sie verreist. „Ich bin sehr dankbar, dass es solche Nachbarn gibt\", hat Herr Wolf gesagt.\n\nDie Nachbarschaftshilfe trifft sich einmal im Monat zum Kaffeetrinken. Dort besprechen sie, wer welche Hilfe braucht. Viele Nachbarn finden, dass das Zusammenleben dadurch viel schöner geworden ist. Auch neue Bewohner der Straße werden schnell in die Gruppe eingeladen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Wolf ist über siebzig Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Schulz hat für Herrn Wolf eingekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wolf hilft niemandem in der Nachbarschaft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe trifft sich nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Neue Bewohner werden in die Gruppe eingeladen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-nach-wien",
+    "nivel": "B1",
+    "titulo": "Der Umzug nach Wien",
+    "descripcion": "Katrin erzählt, wie sie trotz anfänglicher Zweifel in Wien Fuß gefasst hat.",
+    "texto": "Obwohl Katrin ihr ganzes Leben in einer kleinen Stadt verbracht hatte, entschied sie sich vor sechs Monaten, nach Wien zu ziehen. Der neue Job in einer internationalen Firma reizte sie sehr, auch wenn sie wusste, dass der Anfang nicht leicht werden würde. In den ersten Wochen fühlte sie sich einsam, weil sie niemanden in der Stadt kannte.\n\nNachdem sie einen Sprachkurs für Wiener Dialekt besucht hatte, lernte Katrin nach und nach Kolleginnen und Kollegen kennen. Trotzdem dauerte es einige Zeit, bis sie sich richtig zu Hause fühlte. Am Wochenende erkundete sie die Stadt und entdeckte kleine Kaffeehäuser, in denen sie stundenlang lesen konnte. Besonders die Museen und die Musik in Wien beeindruckten sie.\n\nHeute, ein halbes Jahr später, hat Katrin einen festen Freundeskreis gefunden. Obwohl sie ihre alte Heimat manchmal vermisst, würde sie die Entscheidung, nach Wien zu ziehen, jederzeit wieder treffen. Sie plant sogar, ihre Eltern zu Weihnachten in ihre neue Wohnung einzuladen, damit sie die Stadt auch kennenlernen können.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin hat schon immer in Wien gewohnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In den ersten Wochen fühlte sich Katrin einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin hat keinen Sprachkurs besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrin hat mittlerweile einen festen Freundeskreis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin bereut ihre Entscheidung völlig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-vereinsleben",
+    "nivel": "B1",
+    "titulo": "Das Vereinsleben in der Kleinstadt",
+    "descripcion": "Ein Bericht darüber, wie ein Fußballverein das soziale Leben in einer Kleinstadt prägt.",
+    "texto": "In vielen deutschen Kleinstädten spielt das Vereinsleben eine wichtige Rolle für den Zusammenhalt der Bewohner. In Bergheim beispielsweise ist der örtliche Fußballverein seit über fünfzig Jahren ein fester Bestandteil des sozialen Lebens. Obwohl die Stadt nur wenige tausend Einwohner hat, sind mehr als dreihundert Mitglieder im Verein aktiv.\n\nNachdem der Verein vor einigen Jahren finanzielle Schwierigkeiten hatte, organisierten die Mitglieder ein großes Sommerfest, um Geld zu sammeln. Trotzdem der Erfolg zunächst ungewiss war, kamen am Ende mehr Besucher als erwartet. Seitdem findet das Fest jedes Jahr statt und ist zu einem wichtigen Termin für die ganze Stadt geworden. Viele Familien nutzen die Gelegenheit, um alte Freunde zu treffen.\n\nDer Vereinsvorsitzende betont immer wieder, dass es beim Verein nicht nur um Fußball gehe, sondern auch um Gemeinschaft. Jugendliche, die sonst wenig Kontakt zueinander hätten, lernen sich beim Training kennen. Auch ältere Mitglieder engagieren sich weiterhin, etwa als Trainer oder Betreuer der Jugendmannschaften. So bleibt der Verein trotz gesellschaftlicher Veränderungen ein wichtiger Treffpunkt.",
+    "preguntas": [
+      {
+        "enunciado": "Der Fußballverein in Bergheim existiert erst seit wenigen Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verein hatte finanzielle Schwierigkeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Sommerfest wurde nach dem ersten Mal nicht wiederholt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Vorsitzenden geht es beim Verein auch um Gemeinschaft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ältere Mitglieder engagieren sich weiterhin als Trainer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wg-in-leipzig",
+    "nivel": "B1",
+    "titulo": "Die WG in Leipzig",
+    "descripcion": "Drei Studenten berichten über ihr Leben in einer Wohngemeinschaft in Leipzig.",
+    "texto": "Als Jonas, Mira und Paul vor einem Jahr beschlossen, zusammen eine Wohngemeinschaft in Leipzig zu gründen, kannten sie sich noch kaum. Obwohl sie sehr unterschiedliche Charaktere haben, verstehen sie sich mittlerweile ausgezeichnet. Jonas studiert Medizin und ist selten zu Hause, während Mira als Grafikdesignerin oft von zu Hause aus arbeitet.\n\nNachdem es in den ersten Monaten häufig Streit über die Küche und den Abwasch gab, führten die drei einen Putzplan ein. Trotzdem war es nicht immer einfach, sich an die neuen Regeln zu halten. Mit der Zeit entwickelten sie jedoch feste Gewohnheiten, etwa ein gemeinsames Abendessen jeden Sonntag. Diese Mahlzeit ist inzwischen zu einem wichtigen Ritual geworden.\n\nHeute sagen alle drei, dass sie ohne die WG in dieser schwierigen Studienzeit viel einsamer wären. Obwohl das Zusammenleben manchmal Kompromisse erfordert, überwiegen für sie die Vorteile deutlich. Paul plant sogar, nach seinem Abschluss weiterhin mit den beiden anderen zusammenzuwohnen, solange es möglich ist.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas, Mira und Paul kannten sich schon lange, bevor sie zusammenzogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab anfangs Streit über Küche und Abwasch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die drei haben keinen Putzplan eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das gemeinsame Sonntagsessen ist ein wichtiges Ritual geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul möchte nach dem Studium sofort ausziehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "digitale-ueberwachung-am-arbeitsplatz",
+    "nivel": "B2",
+    "titulo": "Digitale Überwachung am Arbeitsplatz",
+    "descripcion": "Ein Artikel über die zunehmende digitale Kontrolle von Angestellten und die damit verbundenen ethischen Fragen.",
+    "texto": "In den vergangenen Jahren hat die digitale Überwachung am Arbeitsplatz erheblich zugenommen, was von Arbeitnehmervertretern zunehmend kritisch beobachtet wird. Immer mehr Unternehmen setzen Software ein, mit der die Aktivität der Mitarbeiter am Computer erfasst werden kann, etwa welche Programme genutzt oder wie viele Tastenanschläge pro Stunde gemacht werden. Befürworter argumentieren, dass solche Systeme die Produktivität steigern und Missbrauch verhindern würden, während Kritiker vor einem Klima des Misstrauens warnen.\n\nWäre eine solche Überwachung tatsächlich notwendig, um die Effizienz eines Unternehmens zu sichern, so müsste dies zumindest durch klare gesetzliche Regelungen begleitet werden, fordern Datenschützer. In Deutschland ist die heimliche Überwachung von Angestellten grundsätzlich untersagt, dennoch bewegen sich viele Softwarelösungen in einer rechtlichen Grauzone. Arbeitsrechtler weisen darauf hin, dass Beschäftigte, deren Bildschirmaktivität permanent protokolliert wird, häufiger unter Stress und vermindertem Wohlbefinden litten, wie mehrere Studien gezeigt hätten.\n\nGewerkschaften fordern deshalb, dass Betriebsräte bei der Einführung solcher Systeme stärker einbezogen werden müssten. Nur wenn Transparenz gegenüber den Beschäftigten hergestellt und deren Zustimmung eingeholt werde, könne digitale Überwachung überhaupt als legitim gelten, so die Position vieler Experten. Andernfalls drohe langfristig ein Vertrauensverlust, der sich negativ auf die gesamte Unternehmenskultur auswirken könnte. Die Debatte zeigt exemplarisch, wie technologischer Fortschritt und arbeitsrechtlicher Schutz in einem ständigen Spannungsverhältnis zueinanderstehen.",
+    "preguntas": [
+      {
+        "enunciado": "Die digitale Überwachung am Arbeitsplatz hat in den letzten Jahren abgenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in der Überwachung einen möglichen Produktivitätsgewinn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Heimliche Überwachung von Angestellten ist in Deutschland grundsätzlich erlaubt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien deuten laut Text auf erhöhten Stress bei überwachten Beschäftigten hin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gewerkschaften lehnen jede Form der Mitbestimmung der Betriebsräte in dieser Frage ab.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungskrise-in-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Die Wohnungskrise in Großstädten",
+    "descripcion": "Ein Kommentar zu den Ursachen und möglichen Lösungen der angespannten Wohnungsmärkte in deutschen Großstädten.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Lage auf dem Wohnungsmarkt in den letzten Jahren drastisch zugespitzt. Während die Mieten in Metropolen wie München, Berlin oder Hamburg kontinuierlich steigen, wird gleichzeitig zu wenig neuer Wohnraum geschaffen, um die wachsende Nachfrage zu decken. Besonders Menschen mit niedrigem oder mittlerem Einkommen sehen sich zunehmend gezwungen, in weiter entfernte Stadtteile oder sogar ins Umland zu ziehen, wo die Mieten noch bezahlbar sind.\n\nSollte sich an dieser Entwicklung nichts ändern, würden Städte langfristig ihre soziale Durchmischung verlieren, warnen Stadtplaner. Es wird vielfach gefordert, dass der soziale Wohnungsbau massiv ausgeweitet werden müsse, damit auch einkommensschwächere Haushalte in zentralen Lagen wohnen bleiben könnten. Gleichzeitig wird kritisiert, dass Bauvorschriften und langwierige Genehmigungsverfahren neue Bauprojekte erheblich verzögerten, wodurch dringend benötigter Wohnraum erst mit großer Verspätung entstehe.\n\nEinige Experten schlagen vor, leerstehende Gewerbeimmobilien in Wohnraum umzuwandeln, um kurzfristig Entlastung zu schaffen. Andere plädieren dafür, dass Investoren stärker reguliert werden sollten, um spekulativen Leerstand zu verhindern. Klar ist jedoch, dass ohne ein koordiniertes Zusammenspiel von Politik, Bauwirtschaft und Kommunen die Wohnungskrise in den kommenden Jahren kaum gelöst werden dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sind laut Text in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Menschen mit niedrigem Einkommen ziehen häufiger ins Umland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Stadtplaner sehen keine Gefahr für die soziale Durchmischung der Städte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Langwierige Genehmigungsverfahren verzögern laut Text neue Bauprojekte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass nur eine einzige Maßnahme die Krise lösen kann.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-und-verkehrswende",
+    "nivel": "B2",
+    "titulo": "Klimapolitik und Verkehrswende",
+    "descripcion": "Ein Artikel über die Herausforderungen der Verkehrswende im Rahmen der deutschen Klimapolitik.",
+    "texto": "Die Verkehrswende gilt als eines der zentralen Elemente der deutschen Klimapolitik, da der Verkehrssektor für einen erheblichen Anteil der CO2-Emissionen verantwortlich ist. Um die selbstgesteckten Klimaziele zu erreichen, müsste der Ausstoß von Treibhausgasen im Verkehr in den kommenden Jahren drastisch reduziert werden. Bislang ist es jedoch kaum gelungen, die Emissionen in diesem Bereich nennenswert zu senken, was Klimaexperten mit wachsender Sorge beobachten.\n\nAls zentrale Maßnahmen werden der Ausbau des öffentlichen Nahverkehrs sowie die Förderung von Elektromobilität diskutiert. Wäre der öffentliche Nahverkehr flächendeckend attraktiver und günstiger gestaltet, würden vermutlich deutlich mehr Menschen auf das eigene Auto verzichten, so die Einschätzung vieler Verkehrsforscher. Kritiker bemängeln jedoch, dass insbesondere im ländlichen Raum bislang kaum ausreichende Alternativen zum privaten Pkw geschaffen worden seien, wodurch viele Menschen weiterhin auf das Auto angewiesen blieben.\n\nAuch die Debatte über ein generelles Tempolimit auf Autobahnen wird immer wieder aufgegriffen, obwohl bislang keine politische Mehrheit dafür zustande gekommen ist. Befürworter verweisen auf Studien, denen zufolge ein Tempolimit spürbar zur Reduktion der Emissionen beitragen könnte, ohne dass dafür hohe Investitionen nötig wären. Ob die notwendigen Maßnahmen rechtzeitig umgesetzt werden, um die Klimaziele im Verkehrssektor noch zu erreichen, bleibt indes höchst ungewiss.",
+    "preguntas": [
+      {
+        "enunciado": "Der Verkehrssektor spielt laut Text keine wichtige Rolle für die CO2-Emissionen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bisher konnten die Emissionen im Verkehr kaum spürbar gesenkt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im ländlichen Raum gibt es laut Kritikern ausreichende Alternativen zum Auto.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Tempolimit auf Autobahnen ist bereits politisch beschlossen worden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter eines Tempolimits verweisen auf mögliche Emissionsreduktionen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
