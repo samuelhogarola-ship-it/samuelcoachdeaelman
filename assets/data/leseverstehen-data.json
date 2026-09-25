@@ -31442,5 +31442,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-zoo-mit-der-schulklasse",
+    "nivel": "A1",
+    "titulo": "Im Zoo mit der Schulklasse",
+    "descripcion": "Lisa besucht mit ihrer Klasse den Zoo und sieht viele Tiere.",
+    "texto": "Lisa geht heute mit ihrer Klasse in den Zoo. Der Bus fährt um neun Uhr los. Alle Kinder sind sehr aufgeregt. Im Zoo gibt es Löwen, Affen und Elefanten. Lisa mag die Affen am liebsten. Sie klettern schnell auf die Bäume.\n\nDie Lehrerin heißt Frau Koch. Sie zeigt den Kindern die Pinguine. Die Pinguine schwimmen im Wasser. Ein Junge namens Ben füttert die Enten mit Brot. Das ist eigentlich verboten, und Frau Koch sagt: „Nein, Ben, das dürfen wir nicht!\" Ben hört sofort auf.\n\nAm Mittag essen alle Kinder ihr Pausenbrot auf einer Wiese. Danach kaufen sie ein Eis am Kiosk. Lisa nimmt ein Erdbeereis. Um vier Uhr fährt der Bus zurück zur Schule. Lisa ist müde, aber sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa fährt mit dem Bus in den Zoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa mag die Löwen am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben füttert die Enten mit Brot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder essen im Restaurant zu Mittag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa isst ein Erdbeereis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-schulranzen",
+    "nivel": "A1",
+    "titulo": "Der neue Schulranzen",
+    "descripcion": "Tim bekommt einen neuen Schulranzen und ist sehr stolz.",
+    "texto": "Tim ist sechs Jahre alt und kommt bald in die Schule. Seine Mutter kauft ihm einen neuen Schulranzen. Der Ranzen ist blau und hat einen Roboter darauf. Tim findet den Ranzen toll. Er trägt ihn sofort im Haus herum.\n\nIn den Ranzen packt Tim seine Sachen: einen Stift, ein Heft und eine Schere. Sein Vater legt noch eine Trinkflasche dazu. Tim ist sehr stolz und zeigt den Ranzen seiner kleinen Schwester Mia. Mia ist erst drei Jahre alt und findet den Roboter auch schön.\n\nAm Abend legt Tim den Ranzen neben sein Bett. Er kann kaum schlafen, weil er so aufgeregt ist. Morgen ist sein erster Schultag. Seine Mutter sagt: „Schlaf gut, morgen wird ein schöner Tag!\"",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist sechs Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schulranzen ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim packt eine Trinkflasche selbst ein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia ist Tims kleine Schwester.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim schläft sofort ruhig ein.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-fussballspiel-am-sonntag",
+    "nivel": "A1",
+    "titulo": "Das Fußballspiel am Sonntag",
+    "descripcion": "Paul spielt am Sonntag mit seinen Freunden Fußball im Park.",
+    "texto": "Paul spielt gern Fußball. Jeden Sonntag trifft er sich mit seinen Freunden im Park. Sie spielen von zehn Uhr bis zwölf Uhr. Paul spielt meistens im Tor. Sein bester Freund Nico schießt viele Tore.\n\nHeute ist das Wetter sonnig und warm. Die Jungen bringen Wasser und ein paar Äpfel mit. Nach dem Spiel sind alle sehr durstig. „Das Spiel war super!\", ruft Nico. Paul lacht und trinkt sein Wasser schnell aus.\n\nAm Ende zählen sie die Tore. Paul hat drei Tore gehalten. Alle Kinder sind zufrieden und gehen glücklich nach Hause. Paul freut sich schon auf den nächsten Sonntag.",
+    "preguntas": [
+      {
+        "enunciado": "Paul spielt jeden Sonntag Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul schießt die meisten Tore.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter ist heute regnerisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Jungen bringen Wasser mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hält drei Tore.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-fahrradunfall-vor-der-schule",
+    "nivel": "A2",
+    "titulo": "Der Fahrradunfall vor der Schule",
+    "descripcion": "Jonas hatte einen kleinen Fahrradunfall auf dem Weg zur Schule.",
+    "texto": "Jonas ist gestern mit dem Fahrrad zur Schule gefahren, weil das Wetter so schön war. Kurz vor dem Schultor ist ein Hund auf die Straße gelaufen, und Jonas musste plötzlich bremsen. Dabei ist er vom Fahrrad gefallen und hat sich das Knie aufgeschürft. Ein Nachbar, der gerade vorbeiging, hat ihm sofort geholfen und ihn zur Schulkrankenschwester gebracht.\n\nDie Krankenschwester hat die Wunde gereinigt und ein Pflaster daraufgeklebt. Jonas hatte zum Glück keine ernsten Verletzungen, obwohl das Knie noch ein paar Tage wehgetan hat. Seine Eltern sind mittags in die Schule gekommen, weil die Lehrerin sie angerufen hatte. Sie waren froh, dass nichts Schlimmeres passiert war.\n\nAm nächsten Tag hat Jonas erzählt, dass er beim Fahrradfahren jetzt viel vorsichtiger sein will. Er hat sich einen neuen Helm gewünscht, weil der alte schon kaputt war. Seine Eltern haben ihm versprochen, dass sie am Wochenende zusammen einen neuen Helm kaufen gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist mit dem Bus zur Schule gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Hund ist auf die Straße gelaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte schwere Verletzungen am Arm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin hat die Eltern angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas will sich keinen neuen Helm kaufen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-buchungsbestaetigung-per-email",
+    "nivel": "A2",
+    "titulo": "Die Buchungsbestätigung per E-Mail",
+    "descripcion": "Frau Berger wartet auf die Bestätigung ihrer Hotelbuchung.",
+    "texto": "Frau Berger hat vor einer Woche ein Hotelzimmer für ihren Urlaub in Österreich gebucht. Sie hat online bezahlt und erwartet, dass sie eine Bestätigung per E-Mail bekommt. Als nach drei Tagen keine E-Mail angekommen ist, hat sie sich ein bisschen Sorgen gemacht, weil sie nicht wusste, ob die Buchung geklappt hat.\n\nSie hat deshalb beim Hotel angerufen. Die Dame am Telefon hat gesagt, dass die Buchung tatsächlich im System war, dass aber die E-Mail-Adresse falsch eingegeben wurde. Frau Berger hat ihre richtige Adresse noch einmal genannt, und wenig später ist die Bestätigung endlich in ihrem Postfach angekommen.\n\nSie war sehr erleichtert, weil sie schon dachte, dass sie ihr Zimmer verloren hätte. Jetzt freut sie sich auf den Urlaub und hat sogar noch einen Ausflug zu einem See gebucht. Sie hat gelernt, dass es wichtig ist, die E-Mail-Adresse bei Buchungen genau zu prüfen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger hat ein Zimmer in Österreich gebucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bestätigung kam sofort nach der Buchung an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die E-Mail-Adresse war falsch eingegeben worden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger hat ihr Zimmer verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat auch einen Ausflug zu einem See gebucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-vergessene-portemonnaie",
+    "nivel": "A2",
+    "titulo": "Das vergessene Portemonnaie",
+    "descripcion": "Herr Klein bemerkt im Supermarkt, dass er sein Portemonnaie vergessen hat.",
+    "texto": "Herr Klein ist am Samstagvormittag einkaufen gegangen, weil der Kühlschrank fast leer war. Er hat einen vollen Einkaufswagen an die Kasse gebracht, aber als er bezahlen wollte, hat er gemerkt, dass sein Portemonnaie nicht in seiner Jackentasche war. Er hat es zu Hause auf dem Küchentisch liegen lassen.\n\nDie Kassiererin hat freundlich gewartet, während Herr Klein überlegt hat, was er tun soll. Zum Glück wohnt seine Nachbarin, Frau Schulz, nicht weit vom Supermarkt entfernt. Er hat sie angerufen, und sie hat ihm sofort etwas Geld geliehen, damit er einkaufen konnte. Herr Klein war sehr dankbar und hat versprochen, ihr das Geld am Abend zurückzugeben.\n\nAls er später zu Hause war, hat er das Portemonnaie sofort in seine Tasche gelegt, damit ihm das nicht noch einmal passiert. Er hat auch beschlossen, immer eine kleine Notfall-Karte im Auto zu lassen, falls er wieder etwas vergisst.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Klein hat sein Portemonnaie im Auto vergessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kassiererin war unfreundlich und ungeduldig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Schulz hat ihm Geld geliehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Klein wollte ihr das Geld nicht zurückgeben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er will eine Notfall-Karte im Auto lassen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vereinsgruendung-im-dorf",
+    "nivel": "B1",
+    "titulo": "Die Vereinsgründung im Dorf",
+    "descripcion": "Die Bewohner eines kleinen Dorfes gründen einen neuen Kulturverein.",
+    "texto": "In dem kleinen Dorf Lindenau gab es lange Zeit keinen Ort, an dem sich die Bewohner regelmäßig treffen konnten, obwohl viele Menschen sich das schon lange gewünscht hatten. Deshalb haben sich einige engagierte Nachbarn zusammengesetzt und beschlossen, einen Kulturverein zu gründen. Ziel war es, gemeinsame Veranstaltungen wie Konzerte, Theaterabende und Feste zu organisieren, die das Dorfleben wieder beleben sollten.\n\nDie Gründungsversammlung fand im Gemeindesaal statt, und obwohl nur etwa zwanzig Personen erwartet wurden, kamen über sechzig Interessierte. Nachdem die Satzung vorgestellt worden war, wurde ein Vorstand gewählt. Frau Meier, die früher als Lehrerin gearbeitet hatte, übernahm den Vorsitz. Trotzdem gab es auch kritische Stimmen, die befürchteten, dass die Organisation zu viel Zeit kosten würde.\n\nEin Jahr später zeigt sich, dass sich die Mühe gelohnt hat. Der Verein hat bereits drei erfolgreiche Veranstaltungen organisiert, und immer mehr junge Familien nehmen daran teil. Nachdem das erste Sommerfest so gut angekommen war, planen die Mitglieder nun bereits das nächste große Projekt: einen Dorfmarkt mit regionalen Produkten.",
+    "preguntas": [
+      {
+        "enunciado": "Im Dorf gab es vorher schon viele Vereine.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zur Gründungsversammlung kamen mehr Leute als erwartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Meier war früher als Lehrerin tätig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bewohner waren sofort begeistert, ohne Kritik zu äußern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verein plant nun einen Dorfmarkt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-austauschschueler-aus-japan",
+    "nivel": "B1",
+    "titulo": "Der Austauschschüler aus Japan",
+    "descripcion": "Kenji verbringt ein Schuljahr bei einer Gastfamilie in Deutschland.",
+    "texto": "Kenji kommt aus Osaka und verbringt ein ganzes Schuljahr bei einer Gastfamilie in einer kleinen Stadt in Bayern. Obwohl er vor der Abreise schon zwei Jahre Deutsch gelernt hatte, war er anfangs sehr nervös, weil er befürchtete, die Sprache im Alltag nicht gut genug zu verstehen. Nachdem er die ersten Wochen bei seiner Gastfamilie verbracht hatte, wurde er jedoch schnell selbstbewusster.\n\nSeine Gasteltern, Familie Wagner, haben ihm geholfen, sich an das neue Leben zu gewöhnen. Besonders das Schulsystem war für Kenji ganz anders als in Japan, denn die Schüler durften viel offener ihre Meinung äußern. Trotzdem fand er manche Fächer, wie Geschichte und Mathematik, sehr ähnlich zu dem, was er aus Japan kannte. In seiner Freizeit hat er sich einem Fußballverein angeschlossen, wodurch er schnell neue Freunde fand.\n\nAm Ende des Schuljahres war Kenji traurig, dass er wieder nach Hause fliegen musste, obwohl er sich auch auf seine Familie in Japan freute. Er hat versprochen, seine deutschen Freunde bald wieder zu besuchen, und plant bereits, im nächsten Sommer für einige Wochen zurückzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Kenji hatte vor der Abreise noch nie Deutsch gelernt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Familie Wagner ist Kenjis Gastfamilie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kenji fand alle Schulfächer völlig anders als in Japan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kenji ist in Deutschland einem Fußballverein beigetreten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kenji möchte nie wieder nach Deutschland zurückkehren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-ehrenamtliche-engagement-im-tierheim",
+    "nivel": "B1",
+    "titulo": "Das ehrenamtliche Engagement im Tierheim",
+    "descripcion": "Julia arbeitet nach der Schule freiwillig in einem örtlichen Tierheim.",
+    "texto": "Julia geht seit einem halben Jahr regelmäßig in das Tierheim ihrer Stadt, um dort ehrenamtlich zu helfen. Nachdem sie im Internet über die Situation vieler ausgesetzter Tiere gelesen hatte, wollte sie unbedingt selbst etwas tun, anstatt nur zuzusehen. Zweimal pro Woche geht sie nach der Schule dorthin, um die Hunde spazieren zu führen und die Käfige der Katzen zu reinigen.\n\nAnfangs fiel es ihr schwer, weil manche Tiere sehr ängstlich waren und ihr nicht vertrauten. Nachdem sie jedoch mehr Erfahrung gesammelt hatte, gelang es ihr, auch mit scheuen Tieren geduldig umzugehen. Besonders ein alter Hund namens Bruno liegt ihr am Herzen, obwohl er schon seit über einem Jahr im Tierheim lebt und noch kein neues Zuhause gefunden hat.\n\nJulias Eltern waren zunächst skeptisch, weil sie befürchteten, dass die Arbeit zu viel Zeit von der Schule wegnehmen würde. Inzwischen unterstützen sie ihre Tochter jedoch voll und ganz, denn sie haben gesehen, wie verantwortungsbewusst Julia geworden ist. Julia hofft, dass Bruno bald von einer liebevollen Familie adoptiert wird.",
+    "preguntas": [
+      {
+        "enunciado": "Julia arbeitet im Tierheim, weil sie dazu gezwungen wurde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia geht zweimal pro Woche ins Tierheim.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Tiere haben Julia sofort vertraut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno hat schon seit über einem Jahr kein neues Zuhause gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julias Eltern sind heute gegen ihr Engagement.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-im-mittelstand",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche im Mittelstand",
+    "descripcion": "Kleine und mittlere Unternehmen experimentieren zunehmend mit der Vier-Tage-Woche.",
+    "texto": "Während große Konzerne die Vier-Tage-Woche oft nur in Pilotprojekten testen, wagen immer mehr mittelständische Unternehmen den vollständigen Umstieg. Ein Maschinenbauunternehmen aus Baden-Württemberg hat vor zwei Jahren beschlossen, die Arbeitszeit bei vollem Lohnausgleich zu reduzieren, nachdem die Geschäftsführung wiederholt Schwierigkeiten hatte, offene Stellen zu besetzen. Wäre die Maßnahme gescheitert, hätte man sie nach einer Testphase wieder rückgängig gemacht – stattdessen berichtet das Unternehmen von einer deutlich gestiegenen Mitarbeiterzufriedenheit.\n\nKritiker wenden jedoch ein, dass sich ein solches Modell nicht ohne Weiteres auf jede Branche übertragen lasse. Insbesondere in Betrieben, in denen Kundenkontakt und Erreichbarkeit eine zentrale Rolle spielen, seien die Herausforderungen deutlich größer als in der Produktion. Es wird zudem argumentiert, dass die notwendige Verdichtung der Arbeit in vier statt fünf Tagen langfristig zu höherem Stress führen könnte, wenn die Prozesse nicht grundlegend überarbeitet würden.\n\nDennoch zeigen mehrere Studien, dass Unternehmen, die das Modell sorgfältig einführen, häufig sowohl die Produktivität steigern als auch die Fluktuation senken können. Ökonomen weisen darauf hin, dass gerade in Zeiten des Fachkräftemangels flexible Arbeitszeitmodelle zu einem entscheidenden Wettbewerbsvorteil werden könnten. Ob sich die Vier-Tage-Woche im deutschen Mittelstand langfristig durchsetzt, wird sich erst in den kommenden Jahren zeigen, wenn mehr belastbare Langzeitdaten vorliegen.",
+    "preguntas": [
+      {
+        "enunciado": "Nur große Konzerne testen die Vier-Tage-Woche in Deutschland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das erwähnte Maschinenbauunternehmen berichtet von gestiegener Zufriedenheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker halten das Modell in jeder Branche für problemlos übertragbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen, dass eine sorgfältige Einführung Produktivität steigern kann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu einem eindeutigen, abschließenden Urteil über das Modell.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-ueberwachung-am-arbeitsplatz-durch-software",
+    "nivel": "B2",
+    "titulo": "Die Überwachung am Arbeitsplatz durch Software",
+    "descripcion": "Immer mehr Unternehmen setzen digitale Werkzeuge zur Kontrolle ihrer Mitarbeitenden ein.",
+    "texto": "In den letzten Jahren hat sich die Zahl der Unternehmen, die spezielle Software zur Überwachung ihrer Angestellten einsetzen, deutlich erhöht, vor allem im Zusammenhang mit dem gestiegenen Anteil an Homeoffice-Tätigkeiten. Solche Programme können unter anderem erfassen, wie lange eine Person aktiv am Bildschirm arbeitet, welche Anwendungen geöffnet sind oder wie oft die Maus bewegt wird. Befürworter argumentieren, dass dadurch Produktivität objektiv gemessen und Missbrauch von Vertrauensarbeitszeit verhindert werden könne.\n\nDatenschützer und Gewerkschaften sehen diese Entwicklung hingegen sehr kritisch. Sie weisen darauf hin, dass eine derart lückenlose Kontrolle nicht nur die Privatsphäre der Beschäftigten verletze, sondern auch zu erheblichem psychischem Druck führen könne. Würde jede Minute der Arbeitszeit protokolliert, entstünde ein Klima des permanenten Misstrauens, das langfristig eher schade als nütze. Zudem wird argumentiert, dass eine derart einseitige Erfassung von Aktivität nichts über die tatsächliche Qualität der geleisteten Arbeit aussage.\n\nRechtlich ist die Situation in Deutschland uneindeutig geregelt und wird von Arbeitsgerichten unterschiedlich beurteilt. Während einige Überwachungsmaßnahmen als zulässig gelten, sofern der Betriebsrat zustimmt, werden andere als unverhältnismäßiger Eingriff in die Persönlichkeitsrechte eingestuft. Experten fordern deshalb eine klarere gesetzliche Regelung, die sowohl die berechtigten Interessen der Arbeitgeber als auch den Schutz der Beschäftigten angemessen berücksichtigt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Überwachungssoftware wird vor allem im Zusammenhang mit Homeoffice eingesetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gewerkschaften begrüßen die lückenlose Kontrolle ausnahmslos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten ein Klima des permanenten Misstrauens.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die rechtliche Lage in Deutschland ist eindeutig und einheitlich geregelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern eine klarere gesetzliche Regelung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-pflegenotstand-in-krankenhaeusern",
+    "nivel": "B2",
+    "titulo": "Der Pflegenotstand in Krankenhäusern",
+    "descripcion": "Der Mangel an Pflegekräften stellt deutsche Krankenhäuser vor große Herausforderungen.",
+    "texto": "Seit Jahren klagen deutsche Krankenhäuser über einen eklatanten Mangel an qualifiziertem Pflegepersonal, der sich in den vergangenen Jahren noch verschärft hat. Viele Stationen können nur deshalb aufrechterhalten werden, weil Pflegekräfte regelmäßig Überstunden leisten, was wiederum zu einer hohen Belastung und in manchen Fällen zu vorzeitigen Berufsausstiegen führt. Wäre die Personaldecke ausreichend, ließen sich viele der aktuellen Probleme im Klinikalltag vermeiden.\n\nAls Ursachen werden unter anderem die anspruchsvollen Arbeitsbedingungen, die vergleichsweise niedrige Bezahlung sowie der geringe gesellschaftliche Stellenwert des Pflegeberufs genannt. Hinzu kommt, dass durch den demografischen Wandel die Zahl der pflegebedürftigen Menschen kontinuierlich steigt, während gleichzeitig immer mehr erfahrene Pflegekräfte in den Ruhestand gehen. Politisch wurden zwar bereits verschiedene Maßnahmen ergriffen, etwa eine Reform der Ausbildungsvergütung, doch Experten bezweifeln, dass diese allein ausreichen, um den Personalmangel spürbar zu lindern.\n\nEinige Krankenhäuser versuchen inzwischen, Pflegekräfte aus dem Ausland anzuwerben, was jedoch mit bürokratischen Hürden und sprachlichen Herausforderungen verbunden ist. Andere setzen auf eine bessere Digitalisierung der Verwaltungsprozesse, damit sich das Pflegepersonal stärker auf die eigentliche Patientenversorgung konzentrieren kann. Ob diese Maßnahmen ausreichen, um den Pflegenotstand nachhaltig zu beheben, bleibt angesichts der demografischen Entwicklung weiterhin ungewiss.",
+    "preguntas": [
+      {
+        "enunciado": "Der Pflegekräftemangel hat sich in den letzten Jahren verringert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Überstunden führen bei manchen Pflegekräften zu vorzeitigen Berufsausstiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der demografische Wandel spielt laut Text keine Rolle für den Personalmangel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Krankenhäuser werben Pflegekräfte im Ausland an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem sei bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
   }
 ]
