@@ -32486,5 +32486,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-erster-schultag",
+    "nivel": "A1",
+    "titulo": "Mein erster Schultag",
+    "descripcion": "Emma erzählt von ihrem ersten Tag in der Schule.",
+    "texto": "Heute ist mein erster Schultag. Ich heiße Emma und ich bin sechs Jahre alt. Ich trage ein neues Kleid und rote Schuhe. Meine Mutter bringt mich zur Schule. Ich habe eine bunte Schultüte in der Hand.\n\nIn der Klasse sitzen viele Kinder. Die Lehrerin heißt Frau Berg. Sie ist freundlich und lächelt viel. Wir lernen die Buchstaben A, B und C. Neben mir sitzt ein Junge. Er heißt Tim und wir werden schnell Freunde.\n\nIn der Pause spielen wir im Schulhof. Ich esse einen Apfel und trinke Wasser. Am Ende des Tages bin ich müde, aber sehr glücklich. Ich freue mich schon auf morgen.",
+    "preguntas": [
+      {
+        "enunciado": "Emma ist sechs Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin heißt Frau Berg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma lernt in der Schule Kochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim sitzt neben Emma.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma ist am Ende des Tages traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-bei-der-tante",
+    "nivel": "A1",
+    "titulo": "Ein Besuch bei der Tante",
+    "descripcion": "Ben besucht seine Tante Rita auf dem Land.",
+    "texto": "Am Wochenende besucht Ben seine Tante Rita. Sie wohnt auf dem Land, weit weg von der Stadt. Tante Rita hat einen großen Garten mit vielen Blumen. Sie hat auch drei Hühner und einen Hund.\n\nBen hilft seiner Tante im Garten. Sie pflanzen zusammen Tomaten und Karotten. Der Hund heißt Bello und spielt gern mit Ben. Am Mittag isst die Familie Suppe und frisches Brot. Tante Rita backt das Brot selbst.\n\nAm Nachmittag trinken sie Tee und essen Kuchen. Ben mag den Kuchen von Tante Rita sehr gern. Am Abend fährt Ben mit seinen Eltern wieder nach Hause. Er winkt Tante Rita zum Abschied.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Rita wohnt in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Rita hat einen Garten mit Blumen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund heißt Bello.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben mag den Kuchen von Tante Rita nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben hilft seiner Tante im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wir-backen-einen-kuchen",
+    "nivel": "A1",
+    "titulo": "Wir backen einen Kuchen",
+    "descripcion": "Julia backt mit ihrem Vater einen Geburtstagskuchen für die Mutter.",
+    "texto": "Morgen hat Julias Mutter Geburtstag. Julia und ihr Vater wollen einen Kuchen backen. Sie kaufen Mehl, Zucker, Eier und Butter. Der Kuchen soll ein Schokoladenkuchen sein, weil die Mutter Schokolade liebt.\n\nIn der Küche mischt Julia die Eier mit dem Zucker. Ihr Vater gibt das Mehl dazu. Zusammen rühren sie den Teig. Der Teig sieht braun und lecker aus. Julia darf die Schokolade in kleine Stücke schneiden.\n\nNach einer Stunde ist der Kuchen fertig. Er riecht sehr gut. Julia und ihr Vater dekorieren den Kuchen mit roten Kirschen. Am nächsten Tag ist die Mutter sehr überrascht und freut sich sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Julias Mutter hat morgen Geburtstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie backen einen Erdbeerkuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia darf die Schokolade schneiden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen ist nach zehn Minuten fertig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter freut sich über den Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verpasste-zug",
+    "nivel": "A2",
+    "titulo": "Der verpasste Zug",
+    "descripcion": "Tobias hat seinen Zug verpasst und musste einen neuen Plan finden.",
+    "texto": "Tobias wollte am Freitagmorgen mit dem Zug nach Köln fahren, weil er dort ein wichtiges Vorstellungsgespräch hatte. Er ist leider zu spät aufgewacht, weil sein Wecker nicht geklingelt hatte. Als er am Bahnhof ankam, ist der Zug schon abgefahren.\n\nTobias war sehr nervös, weil das Gespräch um zehn Uhr beginnen sollte. Er ist sofort zum Schalter gelaufen und hat nach dem nächsten Zug gefragt. Die Dame am Schalter hat ihm gesagt, dass in zwanzig Minuten ein weiterer Zug fährt. Tobias hat schnell ein neues Ticket gekauft und ist in den Zug eingestiegen.\n\nWährend der Fahrt hat er seinem zukünftigen Chef eine Nachricht geschrieben, dass er sich verspäten wird. Zum Glück ist er nur zehn Minuten zu spät zum Gespräch gekommen. Der Personalchef hat Verständnis gezeigt, und das Gespräch ist trotzdem sehr gut verlaufen.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias wollte nach Berlin fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hat verschlafen, weil sein Wecker nicht geklingelt hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der nächste Zug ist erst am Abend gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hat seinem Chef eine Nachricht geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Gespräch ist schlecht verlaufen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-suche-nach-einer-wohnung",
+    "nivel": "A2",
+    "titulo": "Die Suche nach einer Wohnung",
+    "descripcion": "Laura hat mehrere Wochen nach einer passenden Wohnung in Leipzig gesucht.",
+    "texto": "Laura hat vor zwei Monaten beschlossen, nach Leipzig zu ziehen, weil sie dort einen neuen Job gefunden hat. Die Wohnungssuche war jedoch schwieriger, als sie gedacht hatte. Sie hat viele Anzeigen im Internet gelesen und mehrere E-Mails an Vermieter geschickt, aber oft keine Antwort bekommen.\n\nNachdem sie fünf Wohnungen besichtigt hatte, hat Laura endlich eine passende Wohnung gefunden. Sie liegt im Stadtteil Connewitz und hat zwei Zimmer, eine kleine Küche und einen Balkon. Der Vermieter war sehr freundlich, obwohl er zuerst viele Fragen gestellt hat. Laura hat sich sofort in die Wohnung verliebt, weil sie hell und ruhig ist.\n\nLetzte Woche hat Laura den Mietvertrag unterschrieben. Sie freut sich schon darauf, in die neue Wohnung einzuziehen, auch wenn sie noch viele Kartons packen muss. Ihre Freunde haben versprochen, ihr beim Umzug zu helfen.",
+    "preguntas": [
+      {
+        "enunciado": "Laura ist nach Leipzig gezogen, weil sie dort studieren wollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wohnungssuche war für Laura sehr einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die neue Wohnung liegt im Stadtteil Connewitz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura hat den Mietvertrag noch nicht unterschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lauras Freunde wollen ihr beim Umzug helfen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-im-krankenhaus",
+    "nivel": "A2",
+    "titulo": "Ein Besuch im Krankenhaus",
+    "descripcion": "Sarah besucht ihren Opa, der sich nach einem Sturz im Krankenhaus erholt.",
+    "texto": "Sarahs Opa ist letzte Woche gestürzt und hat sich das Bein gebrochen. Deshalb liegt er jetzt im Krankenhaus. Sarah war sehr besorgt, als ihre Mutter ihr davon erzählt hat, und wollte ihn so schnell wie möglich besuchen.\n\nAm Samstag ist Sarah mit ihrer Mutter ins Krankenhaus gefahren. Sie haben Blumen und eine Zeitschrift mitgebracht, weil der Opa gerne liest. Als sie das Zimmer betreten haben, hat der Opa gelächelt, obwohl sein Bein noch stark geschwollen war. Er hat erzählt, dass er bald wieder nach Hause darf, wenn die Ärzte zufrieden sind.\n\nSarah hat ihrem Opa ein Bild gemalt, das sie extra für ihn vorbereitet hatte. Der Opa hat sich sehr gefreut und das Bild neben sein Bett gestellt. Bevor sie gegangen sind, hat Sarah versprochen, ihn bald wieder zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Sarahs Opa hat sich den Arm gebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah und ihre Mutter haben Blumen mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Opa war schlecht gelaunt, als sie ankamen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah hat ihrem Opa ein Bild gemalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Opa darf nie wieder nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-klassenfahrt-nach-wien",
+    "nivel": "B1",
+    "titulo": "Eine Klassenfahrt nach Wien",
+    "descripcion": "Die Klasse von Herrn Weber fährt für eine Woche nach Wien und erlebt dort viel Neues.",
+    "texto": "Die zehnte Klasse von Herrn Weber ist für eine Woche nach Wien gefahren, um dort die Geschichte und Kultur Österreichs kennenzulernen. Obwohl einige Schüler zunächst wenig Interesse an einer Klassenfahrt mit vielen Museumsbesuchen hatten, änderte sich ihre Meinung schnell, nachdem sie die beeindruckende Architektur der Stadt gesehen hatten.\n\nAm zweiten Tag besuchten sie das Schloss Schönbrunn, wo ein Stadtführer ihnen viel über die Geschichte der Habsburger erzählte. Trotzdem war der Besuch im Prater, einem großen Vergnügungspark, für viele Schüler das eigentliche Highlight der Reise. Nachdem sie mit dem Riesenrad gefahren waren, gingen sie gemeinsam essen und probierten typisch österreichische Gerichte wie Wiener Schnitzel und Apfelstrudel.\n\nAm letzten Abend saßen alle zusammen und sprachen über ihre Erlebnisse. Herr Weber war überrascht, wie sehr sich die Einstellung der Schüler gegenüber der Reise verändert hatte. Obwohl die Fahrt anstrengend gewesen war, waren sich am Ende alle einig, dass sie sehr viel gelernt und Spaß gehabt hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist für einen Tag nach Wien gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler waren von Anfang an begeistert von der Reise.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben das Schloss Schönbrunn besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Prater war für viele Schüler das Highlight der Reise.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende fanden die Schüler die Reise nicht lohnenswert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-im-buero",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag im Büro",
+    "descripcion": "David berichtet von seinem ersten Arbeitstag in einer neuen Firma.",
+    "texto": "Nachdem David monatelang nach einer Stelle gesucht hatte, hat er endlich einen Job bei einer mittelständischen Firma bekommen. Am ersten Arbeitstag war er sehr aufgeregt, obwohl er sich gut vorbereitet hatte. Er ist eine halbe Stunde früher gekommen, weil er nicht zu spät zu seinem ersten Meeting kommen wollte.\n\nSeine neue Chefin hat ihn den anderen Kollegen vorgestellt, und alle waren sehr freundlich zu ihm. Trotzdem fühlte sich David am Anfang etwas überfordert, weil er viele neue Namen und Prozesse lernen musste. Ein erfahrener Kollege hat sich angeboten, ihm in den ersten Wochen zu helfen, was David sehr geholfen hat.\n\nAm Ende des Tages war David erschöpft, aber zufrieden. Er hat gemerkt, dass die Atmosphäre im Büro angenehm ist und dass er sich schnell einleben wird. Auf dem Heimweg hat er seiner Familie erzählt, dass er sich auf die kommenden Wochen freut.",
+    "preguntas": [
+      {
+        "enunciado": "David hat sofort nach der Schule diesen Job bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David kam eine halbe Stunde zu spät zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Kollege hat angeboten, David zu helfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David fand die Atmosphäre im Büro unangenehm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David freut sich auf die kommenden Wochen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wiedersehen-nach-zehn-jahren",
+    "nivel": "B1",
+    "titulo": "Das Wiedersehen nach zehn Jahren",
+    "descripcion": "Ehemalige Klassenkameraden treffen sich nach zehn Jahren zu einem Klassentreffen.",
+    "texto": "Nach zehn Jahren hat die ehemalige Klasse 10b beschlossen, sich zu einem Klassentreffen zu verabreden. Viele der ehemaligen Mitschüler hatten sich seit dem Schulabschluss aus den Augen verloren, weil sie in verschiedene Städte gezogen waren, um zu studieren oder zu arbeiten. Trotzdem waren fast alle bereit, für dieses besondere Ereignis anzureisen.\n\nAls sich die Gruppe im alten Klassenzimmer traf, war die Stimmung zunächst etwas ungewohnt, da sich viele kaum wiedererkannten. Nachdem jedoch die ersten Geschichten ausgetauscht worden waren, kehrte schnell die vertraute Atmosphäre von früher zurück. Manche erzählten von ihrer Karriere, andere von ihrer eigenen Familie, die sie inzwischen gegründet hatten.\n\nAm Ende des Abends waren sich alle einig, dass sie sich nicht wieder zehn Jahre Zeit lassen wollten, bis zum nächsten Treffen. Obwohl das Leben sie in unterschiedliche Richtungen geführt hatte, verband sie immer noch die gemeinsame Schulzeit.",
+    "preguntas": [
+      {
+        "enunciado": "Das Klassentreffen fand nach fünf Jahren statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele ehemalige Mitschüler waren in andere Städte gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Stimmung war von Anfang an sehr vertraut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende wollten sie erst in zwanzig Jahren wieder treffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die gemeinsame Schulzeit verbindet die ehemaligen Klassenkameraden noch immer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-elektromobilitaet",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Elektromobilität",
+    "descripcion": "Ein Überblick über Chancen und Herausforderungen der Elektromobilität in Deutschland.",
+    "texto": "Die Elektromobilität gilt seit einigen Jahren als zentraler Baustein der Verkehrswende in Deutschland. Zahlreiche Automobilhersteller haben ihre Produktion umgestellt, um verstärkt Elektrofahrzeuge anzubieten, während die Bundesregierung durch Förderprogramme versucht, den Umstieg für Verbraucher attraktiver zu gestalten. Dennoch verläuft die Entwicklung nicht so reibungslos, wie es sich viele Befürworter erhofft hatten.\n\nEin zentrales Hindernis bleibt die unzureichende Ladeinfrastruktur, besonders in ländlichen Regionen, in denen öffentliche Ladesäulen nach wie vor selten anzutreffen sind. Würde flächendeckend in den Ausbau der Infrastruktur investiert, könnte die Akzeptanz von Elektrofahrzeugen vermutlich deutlich steigen. Hinzu kommt, dass die Anschaffungskosten für viele Haushalte weiterhin eine erhebliche finanzielle Hürde darstellen, auch wenn staatliche Kaufprämien einen Teil der Mehrkosten ausgleichen sollen.\n\nKritiker weisen zudem darauf hin, dass die Umweltbilanz von Elektrofahrzeugen entscheidend von der Herkunft des verwendeten Stroms abhängt. Wird der benötigte Strom überwiegend aus fossilen Energieträgern erzeugt, relativiert sich der ökologische Vorteil gegenüber klassischen Verbrennungsmotoren erheblich. Dennoch sind sich die meisten Experten einig, dass an der Elektromobilität als langfristiger Lösung kaum ein Weg vorbeiführt, sofern sie mit einem konsequenten Ausbau erneuerbarer Energien einhergeht.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Automobilhersteller lehnen die Produktion von Elektrofahrzeugen ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ladeinfrastruktur ist besonders in ländlichen Regionen oft unzureichend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Anschaffungskosten stellen für viele Haushalte keine finanzielle Hürde dar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Umweltbilanz von Elektrofahrzeugen hängt von der Herkunft des Stroms ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die meisten Experten halten die Elektromobilität für eine unwichtige Entwicklung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-einfluss-von-algorithmen-auf-unsere-entscheidungen",
+    "nivel": "B2",
+    "titulo": "Der Einfluss von Algorithmen auf unsere Entscheidungen",
+    "descripcion": "Eine kritische Betrachtung darüber, wie Algorithmen unser Verhalten und unsere Meinungsbildung beeinflussen.",
+    "texto": "Kaum ein Aspekt des digitalen Alltags ist so unsichtbar und zugleich so wirkungsvoll wie der Einfluss von Algorithmen auf unsere Entscheidungen. Ob bei der Auswahl von Nachrichten, Produkten oder potenziellen Partnern auf Dating-Plattformen, in nahezu allen Bereichen des Lebens bestimmen mittlerweile automatisierte Systeme mit, welche Informationen uns überhaupt angezeigt werden.\n\nProblematisch wird dies vor allem dann, wenn Nutzer sich der Funktionsweise dieser Systeme nicht bewusst sind. Würden mehr Menschen verstehen, nach welchen Kriterien Algorithmen Inhalte auswählen, könnten sie deren Empfehlungen kritischer hinterfragen. Stattdessen entsteht häufig der Eindruck, dass die präsentierten Inhalte neutral und objektiv seien, obwohl sie in Wirklichkeit auf wirtschaftlichen Interessen der jeweiligen Plattform beruhen.\n\nBesonders diskutiert wird in diesem Zusammenhang das Phänomen der sogenannten Filterblase, bei der Nutzer vorwiegend mit Inhalten konfrontiert werden, die ihre bestehenden Ansichten bestätigen. Dadurch könnte langfristig eine gesellschaftliche Polarisierung begünstigt werden, da unterschiedliche Perspektiven seltener aufeinandertreffen. Um dem entgegenzuwirken, fordern manche Experten, dass Plattformbetreiber zu größerer Transparenz hinsichtlich der verwendeten Algorithmen verpflichtet werden sollten.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen spielen laut dem Text keine Rolle bei der Auswahl von Nachrichten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Nutzer sind sich der Funktionsweise von Algorithmen nicht bewusst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die präsentierten Inhalte beruhen laut dem Text ausschließlich auf neutralen Kriterien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Filterblase kann laut dem Text zu gesellschaftlicher Polarisierung beitragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten fordern im Text weniger Transparenz bei Algorithmen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-die-vier-tage-woche",
+    "nivel": "B2",
+    "titulo": "Die Debatte um die Vier-Tage-Woche",
+    "descripcion": "Eine Auseinandersetzung mit den Argumenten für und gegen die Einführung der Vier-Tage-Woche.",
+    "texto": "In den letzten Jahren hat die Diskussion um die Einführung einer Vier-Tage-Woche in Deutschland deutlich an Fahrt gewonnen. Mehrere Unternehmen haben in Pilotprojekten getestet, wie sich eine Reduzierung der Arbeitszeit bei gleichbleibendem Gehalt auf die Produktivität und Zufriedenheit ihrer Mitarbeiter auswirkt. Die bisherigen Ergebnisse fallen überwiegend positiv aus, was Befürworter des Modells in ihrer Position bestärkt.\n\nBefürworter argumentieren, dass eine kürzere Arbeitswoche nicht zwangsläufig mit einem Produktivitätsverlust einhergehen müsse. Vielmehr könnten Mitarbeiter, die über mehr Erholungszeit verfügten, konzentrierter und motivierter arbeiten. Würde die Vier-Tage-Woche flächendeckend eingeführt, ließe sich zudem die Vereinbarkeit von Beruf und Familie erheblich verbessern, was insbesondere für Eltern kleiner Kinder von Vorteil wäre.\n\nGegner des Modells geben hingegen zu bedenken, dass sich eine solche Regelung nicht in allen Branchen gleichermaßen umsetzen lässt. Besonders in Berufen mit unmittelbarem Kundenkontakt, etwa im Gesundheitswesen oder im Einzelhandel, sei eine Reduzierung der Arbeitszeit ohne zusätzliches Personal kaum realisierbar. Es bleibt daher abzuwarten, ob sich die Vier-Tage-Woche langfristig als flächendeckendes Modell durchsetzen wird oder auf einzelne Branchen beschränkt bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Die bisherigen Pilotprojekte zur Vier-Tage-Woche fielen überwiegend negativ aus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter glauben, dass mehr Erholungszeit zu konzentrierterem Arbeiten führen kann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner des Modells sehen keine Probleme bei der Umsetzung in allen Branchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen wird die Umsetzung als besonders schwierig eingeschätzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu dem eindeutigen Schluss, dass sich die Vier-Tage-Woche sicher durchsetzen wird.",
+        "respuesta": false
+      }
+    ]
   }
 ]
