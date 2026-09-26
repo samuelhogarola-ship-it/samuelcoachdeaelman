@@ -33530,5 +33530,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-cafe-mit-oma",
+    "nivel": "A1",
+    "titulo": "Im Café mit Oma",
+    "descripcion": "Anna trinkt mit ihrer Oma einen Kakao im Café.",
+    "texto": "Anna geht am Samstag mit ihrer Oma ins Café. Das Café ist klein und gemütlich. Sie setzen sich an einen Tisch am Fenster.\n\nAnna bestellt einen Kakao mit Sahne. Ihre Oma trinkt einen Kaffee und isst ein Stück Kuchen. Der Kuchen schmeckt sehr gut.\n\n„Der Kakao ist lecker“, sagt Anna. Die Oma lacht und bestellt noch ein Stück Kuchen für Anna. Sie bleiben eine Stunde im Café und reden viel.",
+    "preguntas": [
+      {
+        "enunciado": "Anna geht mit ihrer Mutter ins Café.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Café ist klein und gemütlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna trinkt einen Kakao mit Sahne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma isst keinen Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna und ihre Oma bleiben eine Stunde im Café.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-zimmer-zu-hause",
+    "nivel": "A1",
+    "titulo": "Mein Zimmer zu Hause",
+    "descripcion": "Paul beschreibt sein Zimmer und seine Lieblingssachen.",
+    "texto": "Mein Zimmer ist nicht groß, aber ich mag es sehr. Das Bett steht neben dem Fenster. Der Schreibtisch ist braun und steht an der Wand.\n\nAuf dem Schreibtisch liegen meine Bücher und ein Foto von meinem Hund. An der Wand hängt ein Poster von meinem Lieblingsfußballer. Der Teppich auf dem Boden ist blau.\n\nIch räume mein Zimmer jeden Samstag auf. Danach spiele ich gern mit meinen Freunden im Zimmer. Mein Zimmer ist mein Lieblingsort im Haus.",
+    "preguntas": [
+      {
+        "enunciado": "Das Bett steht neben der Tür.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schreibtisch ist braun.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf dem Schreibtisch liegt ein Foto vom Hund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Teppich ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul räumt sein Zimmer jeden Samstag auf.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-abendspaziergang-mit-dem-hund",
+    "nivel": "A1",
+    "titulo": "Der Abendspaziergang mit dem Hund",
+    "descripcion": "Tim geht jeden Morgen mit seinem Hund Bruno spazieren.",
+    "texto": "Tim hat einen Hund. Der Hund heißt Bruno. Jeden Morgen geht Tim mit Bruno spazieren.\n\nSie gehen zusammen in den Park. Bruno läuft schnell und spielt mit einem Ball. Tim wirft den Ball, und Bruno holt ihn zurück.\n\nNach dem Spaziergang trinkt Bruno Wasser. Tim gibt ihm auch etwas Futter. Bruno ist müde und schläft dann auf seinem Kissen.",
+    "preguntas": [
+      {
+        "enunciado": "Tims Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim geht nur am Abend mit Bruno spazieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie gehen in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno spielt mit einer Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno schläft nach dem Spaziergang.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-koffer-im-urlaub",
+    "nivel": "A2",
+    "titulo": "Der verlorene Koffer im Urlaub",
+    "descripcion": "Frau Berger hat ihren Koffer am Flughafen verloren.",
+    "texto": "Frau Berger ist letzte Woche nach Spanien geflogen. Als sie am Flughafen angekommen ist, hat sie lange auf ihren Koffer gewartet. Der Koffer ist aber nicht gekommen.\n\nSie ist zum Schalter gegangen und hat den Verlust gemeldet. Der Mitarbeiter hat gesagt, dass der Koffer vielleicht noch in Deutschland ist. Frau Berger war sehr traurig, weil ihre Kleidung im Koffer war.\n\nZwei Tage später hat sie einen Anruf bekommen. Die Fluggesellschaft hat den Koffer gefunden und ihn ins Hotel gebracht. Frau Berger hat sich sehr gefreut, dass alles wieder in Ordnung war.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger ist nach Spanien geflogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Koffer ist sofort am Flughafen angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat den Verlust beim Schalter gemeldet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger war froh, dass der Koffer weg war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fluggesellschaft hat den Koffer ins Hotel gebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "zwei-tage-auf-dem-bauernhof",
+    "nivel": "A2",
+    "titulo": "Zwei Tage auf dem Bauernhof",
+    "descripcion": "Die Familie Neumann hat ein Wochenende auf einem Bauernhof verbracht.",
+    "texto": "Die Familie Neumann hat das Wochenende auf einem Bauernhof verbracht. Die Kinder waren sehr aufgeregt, weil sie noch nie Kühe und Schweine gesehen hatten.\n\nAm Samstag haben sie dem Bauern beim Melken geholfen. Danach sind sie mit den Pferden spazieren geritten. Am Abend haben alle zusammen am Lagerfeuer gesessen und Lieder gesungen.\n\nAm Sonntag hat es geregnet, deshalb sind sie im Stall geblieben. Die Kinder haben den Tieren Futter gegeben. Als sie nach Hause gefahren sind, waren alle müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Neumann war auf einem Bauernhof.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder hatten schon oft Kühe gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag haben sie dem Bauern beim Melken geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag war das Wetter sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie war müde, aber glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-am-fluss",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour am Fluss",
+    "descripcion": "Jonas und Mia machen eine Fahrradtour entlang des Flusses.",
+    "texto": "Jonas und Mia haben am Sonntag eine Fahrradtour gemacht. Sie sind am Fluss entlanggefahren, weil der Weg dort schön flach ist.\n\nNach einer Stunde haben sie an einem kleinen See angehalten. Dort haben sie ihr Picknick gegessen und ein bisschen geschwommen. Das Wasser war kalt, aber es hat ihnen Spaß gemacht.\n\nAuf dem Rückweg ist Mias Fahrrad kaputtgegangen. Zum Glück hat ein anderer Radfahrer ihnen geholfen. Am Ende sind sie spät, aber zufrieden nach Hause gekommen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas und Mia sind am Fluss entlanggefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Weg am Fluss ist sehr steil.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben an einem See ein Picknick gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf dem Rückweg ist nichts passiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein anderer Radfahrer hat ihnen geholfen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-nach-leipzig",
+    "nivel": "B1",
+    "titulo": "Der Umzug nach Leipzig",
+    "descripcion": "Familie Hoffmann zieht wegen eines neuen Jobs in eine andere Stadt um.",
+    "texto": "Als Herr Hoffmann eine neue Stelle in Leipzig bekam, musste die ganze Familie umziehen. Obwohl die Kinder zuerst traurig waren, weil sie ihre Freunde verlassen mussten, freuten sie sich später auf das neue Abenteuer.\n\nDer Umzug selbst war anstrengend. Nachdem alle Kartons gepackt waren, brauchte die Familie einen ganzen Tag, um die neue Wohnung einzurichten. Trotzdem blieb die Stimmung gut, weil die Nachbarn sofort sehr freundlich waren und beim Tragen halfen.\n\nIn den ersten Wochen mussten sich die Kinder an die neue Schule gewöhnen. Es war nicht immer leicht, neue Freunde zu finden, aber nach einem Monat hatten sie schon eine kleine Gruppe von Klassenkameraden. Heute sagt die Familie, dass der Umzug die richtige Entscheidung war.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Hoffmann bekam eine neue Stelle in Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder waren von Anfang an begeistert vom Umzug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn haben der Familie beim Tragen geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder hatten sofort viele neue Freunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie bereut den Umzug heute.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenfest-in-unserer-nachbarschaft",
+    "nivel": "B1",
+    "titulo": "Das Straßenfest in unserer Nachbarschaft",
+    "descripcion": "Die Nachbarschaft organisiert ein großes Straßenfest.",
+    "texto": "Jedes Jahr im Juli organisieren die Bewohner unserer Straße ein gemeinsames Fest. In diesem Jahr sollte es besonders groß werden, deshalb trafen sich die Nachbarn schon Wochen vorher zur Planung.\n\nAm Tag des Festes wurden Tische und Bänke aufgestellt, obwohl der Wetterbericht Regen vorhergesagt hatte. Zum Glück blieb es trocken, und immer mehr Leute kamen mit selbstgemachtem Essen und Getränken. Ein Nachbar spielte Gitarre, während die Kinder auf der Straße Fußball spielten.\n\nNachdem die Sonne untergegangen war, wurden Lichterketten angezündet, und das Fest dauerte bis spät in die Nacht. Viele Nachbarn sagten hinterher, dass sie sich noch nie so gut kennengelernt hatten. Alle waren sich einig: Im nächsten Jahr soll das Fest wieder stattfinden.",
+    "preguntas": [
+      {
+        "enunciado": "Das Straßenfest findet jedes Jahr im Juli statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wetterbericht hatte Sonne vorhergesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat während des Festes stark geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben auf der Straße Fußball gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn wollen das Fest im nächsten Jahr nicht wiederholen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-bewerbung-um-ein-praktikum",
+    "nivel": "B1",
+    "titulo": "Die Bewerbung um ein Praktikum",
+    "descripcion": "Lukas bewirbt sich um ein Praktikum in einer Werbeagentur.",
+    "texto": "Lukas wollte schon lange Erfahrung in einer Werbeagentur sammeln. Deshalb schrieb er nach den Sommerferien mehrere Bewerbungen an verschiedene Firmen in seiner Stadt.\n\nNachdem er zwei Wochen lang keine Antwort erhalten hatte, wurde er langsam ungeduldig. Trotzdem gab er die Hoffnung nicht auf und rief bei einer Agentur direkt an. Der Personalchef war von seiner Initiative beeindruckt und lud ihn zu einem Gespräch ein.\n\nDas Vorstellungsgespräch verlief besser, als Lukas erwartet hatte. Obwohl er nervös war, konnte er alle Fragen gut beantworten. Eine Woche später bekam er die Zusage und begann kurz darauf sein erstes Praktikum.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas wollte Erfahrung in einer Werbeagentur sammeln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat sofort nach der ersten Bewerbung eine Antwort bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas hat bei einer Agentur direkt angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Vorstellungsgespräch verlief schlechter, als er erwartet hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas hat die Zusage für das Praktikum bekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-der-innenstaedte",
+    "nivel": "B2",
+    "titulo": "Der Wandel der Innenstädte",
+    "descripcion": "Ein Text über den Wandel der Innenstädte durch den Online-Handel.",
+    "texto": "Seit Jahren klagen Einzelhändler in deutschen Innenstädten über sinkende Kundenzahlen. Viele Geschäfte mussten schließen, weil immer mehr Menschen ihre Einkäufe online erledigen. Leerstehende Ladenlokale prägen inzwischen das Bild vieler Fußgängerzonen, was wiederum die Attraktivität der Innenstädte weiter verringert.\n\nStadtplaner diskutieren deshalb intensiv darüber, wie Innenstädte neu belebt werden könnten. Einige Experten schlagen vor, leerstehende Geschäfte in Wohnraum umzuwandeln, während andere für mehr kulturelle Angebote wie Veranstaltungen und Märkte plädieren. Würde man beide Ansätze kombinieren, könnten Innenstädte zu Orten werden, an denen Wohnen, Kultur und Handel nebeneinander bestehen.\n\nKritiker geben jedoch zu bedenken, dass solche Umbauten viel Zeit und Geld kosten. Ohne finanzielle Unterstützung durch die Kommunen sei ein grundlegender Wandel kaum zu schaffen, betonen sie. Dennoch sind sich die meisten Beteiligten einig, dass ein „Weiter so“ keine Option mehr ist, wenn die Innenstädte langfristig lebendig bleiben sollen.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Menschen kaufen online statt in Geschäften ein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Leerstehende Ladenlokale machen die Innenstädte attraktiver.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Stadtplaner sind sich einig, dass nur Wohnraum die Lösung ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Umbauten der Innenstädte kosten laut Kritikern viel Zeit und Geld.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die meisten Beteiligten glauben, dass sich nichts ändern muss.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-schulunterricht",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Schulunterricht",
+    "descripcion": "Ein Text über Chancen und Risiken von KI im Schulunterricht.",
+    "texto": "Künstliche Intelligenz hält zunehmend Einzug in deutsche Klassenzimmer. Lehrkräfte nutzen KI-gestützte Programme, um Übungsaufgaben individuell an das Lernniveau der Schüler anzupassen. Befürworter argumentieren, dass dadurch jedes Kind in seinem eigenen Tempo lernen könne, was im klassischen Frontalunterricht kaum möglich sei.\n\nGleichzeitig wächst die Sorge, dass Schülerinnen und Schüler wichtige Fähigkeiten verlieren könnten, wenn sie sich zu sehr auf KI-Werkzeuge verlassen. Besonders beim Verfassen von Texten stellt sich die Frage, ob noch eigenständig geschrieben wird oder ob Aufgaben einfach von einer KI erledigt werden. Manche Lehrer fordern deshalb, dass mündliche Prüfungen wieder mehr Gewicht bekommen sollten.\n\nBildungsexperten sind sich einig, dass ein verantwortungsvoller Umgang mit KI erlernt werden muss, statt die Technologie zu verbieten. Würden Schulen den Einsatz von KI komplett untersagen, verpassten sie die Chance, Schüler auf eine Arbeitswelt vorzubereiten, in der solche Werkzeuge längst selbstverständlich sind. Entscheidend sei daher, klare Regeln zu entwickeln, anstatt vor der Entwicklung die Augen zu verschließen.",
+    "preguntas": [
+      {
+        "enunciado": "KI-Programme passen Übungsaufgaben an das Lernniveau der Schüler an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Lehrkräfte lehnen den Einsatz von KI im Unterricht ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Lehrer fordern mehr Gewicht für mündliche Prüfungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bildungsexperten wollen KI an Schulen komplett verbieten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text sollten klare Regeln für den Einsatz von KI entwickelt werden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-der-pressefreiheit",
+    "nivel": "B2",
+    "titulo": "Der Wert der Pressefreiheit",
+    "descripcion": "Ein Text über die Bedeutung unabhängiger Medien für die Demokratie.",
+    "texto": "Eine freie Presse gilt als eine der wichtigsten Säulen einer Demokratie. Nur wenn Journalisten unabhängig recherchieren und kritisch berichten können, ohne staatliche Zensur fürchten zu müssen, können Bürgerinnen und Bürger sich ein eigenständiges Bild von politischen Entscheidungen machen. In vielen Ländern der Welt wird dieses Recht jedoch zunehmend eingeschränkt.\n\nAuch in etablierten Demokratien mehren sich die Herausforderungen. Durch wirtschaftlichen Druck werden immer mehr Lokalredaktionen geschlossen, wodurch ganze Regionen ohne unabhängige Berichterstattung zurückbleiben. Hinzu kommt, dass Falschinformationen sich über soziale Netzwerke rasant verbreiten, was das Vertrauen in seriösen Journalismus zusätzlich untergräbt.\n\nUm die Pressefreiheit zu stärken, fordern Medienexperten unter anderem eine bessere finanzielle Förderung des öffentlich-rechtlichen Rundfunks sowie strengere Regeln gegen die Verbreitung von Desinformation. Sollte es nicht gelingen, das Vertrauen der Bevölkerung in unabhängige Medien zurückzugewinnen, könnte dies langfristig die demokratische Meinungsbildung insgesamt gefährden. Deshalb betonen viele Experten, dass der Schutz der Pressefreiheit eine gesamtgesellschaftliche Aufgabe sei.",
+    "preguntas": [
+      {
+        "enunciado": "Eine freie Presse gilt als wichtige Säule der Demokratie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In allen Ländern der Welt ist die Pressefreiheit uneingeschränkt gesichert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wirtschaftlicher Druck führt teilweise zur Schließung von Lokalredaktionen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Falschinformationen verbreiten sich laut Text nur sehr langsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienexperten fordern unter anderem eine bessere Förderung des öffentlich-rechtlichen Rundfunks.",
+        "respuesta": true
+      }
+    ]
   }
 ]
