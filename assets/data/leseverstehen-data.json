@@ -34226,5 +34226,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "in-der-baeckerei",
+    "nivel": "A1",
+    "titulo": "In der Bäckerei",
+    "descripcion": "Anna kauft am Morgen Brötchen und Kuchen in der Bäckerei.",
+    "texto": "Anna geht jeden Morgen in die Bäckerei. Die Bäckerei ist neben ihrem Haus. Sie kauft dort frisches Brot und Brötchen. Heute möchte sie auch ein Stück Kuchen kaufen.\n\nDie Verkäuferin fragt: „Was möchten Sie?“ Anna antwortet: „Ich möchte drei Brötchen und ein Stück Apfelkuchen, bitte.“ Die Verkäuferin packt alles in eine Tüte. Anna bezahlt vier Euro.\n\nZu Hause deckt Anna den Tisch. Sie isst ein Brötchen mit Butter und Marmelade. Der Kuchen schmeckt sehr gut. Anna trinkt dazu eine Tasse Tee.",
+    "preguntas": [
+      {
+        "enunciado": "Die Bäckerei ist weit von Annas Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna kauft Brötchen und Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna bezahlt vier Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna isst den Kuchen in der Bäckerei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna trinkt Tee zu Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wetter-heute",
+    "nivel": "A1",
+    "titulo": "Das Wetter heute",
+    "descripcion": "Paul schaut aus dem Fenster und entscheidet, was er heute anzieht.",
+    "texto": "Paul steht auf und schaut aus dem Fenster. Der Himmel ist grau. Es regnet ein bisschen. Paul braucht heute eine Jacke und einen Regenschirm.\n\nEr zieht eine warme Hose und einen Pullover an. Dann nimmt er seinen Regenschirm aus dem Schrank. Seine Schwester Lisa sagt: „Nimm auch eine Mütze mit. Es ist kalt!“ Paul nimmt die Mütze.\n\nAuf dem Weg zur Arbeit regnet es stark. Paul ist froh, dass er den Regenschirm dabei hat. Am Abend hört der Regen auf. Die Sonne scheint kurz, bevor die Nacht kommt.",
+    "preguntas": [
+      {
+        "enunciado": "Der Himmel ist heute blau und sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul nimmt einen Regenschirm mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa sagt, Paul soll keine Mütze tragen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es regnet stark auf dem Weg zur Arbeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend scheint kurz die Sonne.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "party-fuer-lena",
+    "nivel": "A1",
+    "titulo": "Party für Lena",
+    "descripcion": "Die Familie organisiert eine kleine Geburtstagsfeier für Lena.",
+    "texto": "Lena wird heute acht Jahre alt. Ihre Mutter backt einen Schokoladenkuchen. Ihr Vater kauft bunte Luftballons. Die Wohnung sieht sehr festlich aus.\n\nAm Nachmittag kommen Lenas Freunde. Sie bringen kleine Geschenke mit. Alle singen zusammen ein Geburtstagslied. Lena freut sich sehr und lacht viel.\n\nNach dem Kuchen spielen die Kinder im Garten. Sie spielen Fußball und Verstecken. Am Abend sind alle Kinder müde, aber glücklich. Lena sagt: „Das war die beste Party!“",
+    "preguntas": [
+      {
+        "enunciado": "Lena wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater backt den Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lenas Freunde bringen Geschenke mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen nur drinnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena findet die Party sehr gut.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-pass",
+    "nivel": "A2",
+    "titulo": "Der verlorene Pass",
+    "descripcion": "Auf einer Reise nach Spanien verliert Markus seinen Reisepass.",
+    "texto": "Markus ist letzte Woche nach Spanien geflogen. Am Flughafen hat er seinen Koffer und seine Tasche kontrolliert. Als er im Hotel ankam, hat er seinen Reisepass gesucht, aber er hat ihn nicht gefunden. Markus war sehr nervös, weil er ohne Pass nicht zurückfliegen konnte.\n\nEr hat sofort die Polizei angerufen und alles erklärt. Die Polizistin hat gesagt, dass er zum deutschen Konsulat gehen soll. Markus ist am nächsten Tag zum Konsulat gefahren. Dort hat er ein Formular ausgefüllt und ein neues Foto gemacht.\n\nNach zwei Tagen hat Markus einen neuen Reisepass bekommen. Er war sehr erleichtert. Am Ende der Reise hat er seinen alten Pass im Koffer gefunden. Er hatte ihn die ganze Zeit übersehen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist nach Spanien geflogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat seinen Pass sofort im Hotel gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Polizistin hat ihm geraten, zum Konsulat zu gehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat keinen neuen Pass bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende hat Markus den alten Pass im Koffer gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "besuch-im-krankenhaus",
+    "nivel": "A2",
+    "titulo": "Besuch im Krankenhaus",
+    "descripcion": "Frau Weber besucht ihren kranken Nachbarn im Krankenhaus.",
+    "texto": "Herr Fischer, der Nachbar von Frau Weber, ist letzte Woche gestürzt und hat sich das Bein gebrochen. Er liegt seitdem im Krankenhaus. Frau Weber hat gehört, dass es ihm nicht gut geht, deshalb hat sie beschlossen, ihn zu besuchen.\n\nSie hat Blumen und ein Buch gekauft, weil sie wusste, dass Herr Fischer gern liest. Im Krankenhaus hat sie lange mit ihm gesprochen. Herr Fischer hat erzählt, dass die Ärzte zufrieden mit seinem Bein sind. Wenn alles gut geht, darf er in zwei Wochen nach Hause.\n\nFrau Weber hat versprochen, wieder vorbeizukommen. Herr Fischer hat sich sehr über den Besuch gefreut. Er hat gesagt, dass die Zeit im Krankenhaus lang und langweilig ist, aber Besuche helfen ihm sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Fischer hat sich den Arm gebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber bringt Blumen und ein Buch mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Ärzte sind unzufrieden mit dem Bein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer darf vielleicht in zwei Wochen nach Hause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Fischer freut sich nicht über den Besuch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-postkarte-aus-italien",
+    "nivel": "A2",
+    "titulo": "Eine Postkarte aus Italien",
+    "descripcion": "Julia schreibt ihrer Freundin eine Postkarte während ihres Urlaubs.",
+    "texto": "Liebe Sabine,\n\nich bin seit drei Tagen in Italien und es gefällt mir hier sehr gut. Ich habe schon viele schöne Orte gesehen, weil das Wetter jeden Tag sonnig war. Gestern bin ich zum Meer gegangen und habe dort lange geschwommen.\n\nDas Essen hier ist wirklich lecker. Ich habe Pizza und Pasta probiert und beides hat mir gut geschmeckt. Meine Familie und ich haben auch einen alten Markt besucht, wo wir frisches Obst gekauft haben. Am Abend sind wir immer in ein kleines Restaurant gegangen.\n\nMorgen fahren wir zurück nach Deutschland. Ich bin ein bisschen traurig, weil der Urlaub so schnell vorbei ist. Wenn ich wieder zu Hause bin, erzähle ich dir mehr.\n\nViele Grüße,\nJulia",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist seit drei Tagen in Italien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war die ganze Zeit schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat Pizza und Pasta probiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat keinen Markt besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist ein bisschen traurig, weil der Urlaub endet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-ausbildung-beginnt",
+    "nivel": "B1",
+    "titulo": "Die Ausbildung beginnt",
+    "descripcion": "Kevin beginnt seine Ausbildung als Elektriker und muss sich an den neuen Alltag gewöhnen.",
+    "texto": "Kevin hat vor einer Woche seine Ausbildung als Elektriker begonnen. Obwohl er sich sehr auf den ersten Tag gefreut hatte, war er auch ziemlich aufgeregt. Der Betrieb ist groß und die Arbeit ist anders, als er es sich vorgestellt hat. Trotzdem gefällt ihm die praktische Arbeit sehr gut.\n\nNachdem er die ersten Grundlagen gelernt hatte, durfte Kevin schon bei einer echten Baustelle mithelfen. Sein Ausbilder hat ihm gezeigt, wie man Kabel richtig verlegt und worauf man bei der Sicherheit achten muss. Kevin merkt, dass Theorie und Praxis oft unterschiedlich sind, obwohl er in der Berufsschule schon viel gelernt hat.\n\nAm Ende der ersten Woche war Kevin müde, aber zufrieden. Er hat neue Kollegen kennengelernt, die ihm bei Fragen immer geholfen haben. Kevin ist überzeugt, dass er den richtigen Beruf gewählt hat, auch wenn der Anfang nicht immer leicht war.",
+    "preguntas": [
+      {
+        "enunciado": "Kevin macht eine Ausbildung als Elektriker.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kevin war am ersten Tag überhaupt nicht aufgeregt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kevin durfte schon bei einer echten Baustelle mithelfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Theorie und Praxis sind für Kevin genau gleich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende der Woche war Kevin zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "umzug-nach-leipzig",
+    "nivel": "B1",
+    "titulo": "Umzug nach Leipzig",
+    "descripcion": "Familie Schneider zieht aus beruflichen Gründen von München nach Leipzig um.",
+    "texto": "Familie Schneider hat lange in München gewohnt, aber vor Kurzem musste sie nach Leipzig umziehen, weil der Vater dort eine neue Arbeitsstelle bekommen hat. Obwohl alle Familienmitglieder München sehr mochten, war allen klar, dass die neue Stelle eine große Chance war.\n\nDer Umzug selbst war anstrengend. Nachdem sie alle Möbel gepackt hatten, mussten sie noch die alte Wohnung putzen und die neue Wohnung einrichten. Die Kinder mussten sich außerdem an eine neue Schule gewöhnen, was ihnen anfangs schwerfiel. Trotzdem haben sie schnell neue Freunde gefunden.\n\nHeute, einige Monate später, fühlt sich die Familie in Leipzig schon fast zu Hause. Die Stadt ist kleiner als München, aber die Schneiders finden sie lebendig und interessant. Sie besuchen regelmäßig Konzerte und Ausstellungen und haben ihre Entscheidung nie bereut.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Schneider ist von Leipzig nach München gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater hat in Leipzig eine neue Arbeitsstelle bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Umzug war für die Familie ganz einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben schnell neue Freunde gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie bereut ihre Entscheidung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ehrenamtliche-arbeit",
+    "nivel": "B1",
+    "titulo": "Ehrenamtliche Arbeit",
+    "descripcion": "Sarah engagiert sich freiwillig in einem Tierheim und findet dort neue Erfüllung.",
+    "texto": "Sarah arbeitet seit einem Jahr freiwillig in einem Tierheim in ihrer Stadt. Sie geht jeden Samstag dorthin, obwohl sie unter der Woche einen anstrengenden Vollzeitjob hat. Für sie ist die Arbeit im Tierheim ein wichtiger Ausgleich zum stressigen Alltag.\n\nIm Tierheim kümmert sich Sarah vor allem um Hunde, die auf eine neue Familie warten. Sie geht mit ihnen spazieren, spielt mit ihnen und hilft bei der Fütterung. Nachdem sie einige Wochen dort gearbeitet hatte, hat sie gemerkt, dass ihr die Arbeit sehr viel Freude bereitet.\n\nObwohl die ehrenamtliche Arbeit keinen finanziellen Lohn bringt, fühlt sich Sarah dadurch nützlich und zufrieden. Sie hat auch neue Freunde unter den anderen Freiwilligen gefunden. Trotzdem denkt sie manchmal, dass sie gerne mehr Zeit für das Tierheim hätte.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah arbeitet freiwillig in einem Tierheim.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah geht nur einmal im Monat ins Tierheim.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah kümmert sich vor allem um Hunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die ehrenamtliche Arbeit bringt Sarah viel Geld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah hat neue Freunde im Tierheim gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einfluss-der-sozialen-netzwerke",
+    "nivel": "B2",
+    "titulo": "Einfluss der sozialen Netzwerke",
+    "descripcion": "Ein Essay über die gesellschaftlichen Auswirkungen sozialer Netzwerke auf Meinungsbildung und Selbstbild.",
+    "texto": "Soziale Netzwerke haben in den letzten Jahren einen enormen Einfluss auf die öffentliche Meinungsbildung gewonnen. Nachrichten, die früher ausschließlich von etablierten Medienhäusern verbreitet wurden, werden heute innerhalb weniger Minuten von Millionen Nutzern geteilt und kommentiert. Dabei wird häufig übersehen, dass viele dieser Inhalte weder überprüft noch durch journalistische Standards abgesichert sind.\n\nBesonders problematisch wird diese Entwicklung dann, wenn Algorithmen genutzt werden, um Inhalte gezielt an bestimmte Nutzergruppen auszuspielen. Es wird argumentiert, dass dadurch sogenannte Filterblasen entstehen, in denen Nutzer vorwiegend mit Meinungen konfrontiert werden, die ihrer eigenen Weltanschauung entsprechen. Wenn diese Entwicklung nicht durch Bildung und kritisches Denken ausgeglichen würde, könnte die gesellschaftliche Polarisierung weiter zunehmen.\n\nHinzu kommt, dass soziale Netzwerke auch das Selbstbild vieler, insbesondere junger, Nutzer beeinflussen. Studien zeigen, dass ein ständiger Vergleich mit scheinbar perfekten Leben anderer Nutzer zu Unzufriedenheit und psychischem Druck führen kann. Es stellt sich die Frage, ob eine stärkere Regulierung dieser Plattformen notwendig wäre, um sowohl die Meinungsvielfalt als auch das Wohlbefinden der Nutzer zu schützen. Klar ist jedenfalls, dass ein rein technischer Umgang mit dem Problem nicht ausreichen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Netzwerke haben laut Text kaum Einfluss auf die Meinungsbildung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele geteilte Inhalte werden nicht journalistisch überprüft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Algorithmen können zur Entstehung von Filterblasen beitragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, soziale Netzwerke hätten keinen Einfluss auf das Selbstbild junger Menschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sagt, ein rein technischer Umgang mit dem Problem würde ausreichen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "home-office-und-erschoepfung",
+    "nivel": "B2",
+    "titulo": "Homeoffice und Erschöpfung",
+    "descripcion": "Ein Text über die Schattenseiten der Arbeit im Homeoffice und die Grenzen zwischen Beruf und Privatleben.",
+    "texto": "Seit einigen Jahren arbeiten immer mehr Menschen ganz oder teilweise von zu Hause aus. Während zu Beginn vor allem die Vorteile dieser Entwicklung betont wurden – etwa die eingesparte Pendelzeit und die flexiblere Zeiteinteilung –, mehren sich inzwischen kritische Stimmen. Zahlreiche Studien deuten darauf hin, dass die Grenze zwischen Arbeit und Privatleben zunehmend verschwimmt.\n\nBesonders auffällig ist, dass viele Beschäftigte im Homeoffice deutlich länger arbeiten, als es ihr Arbeitsvertrag vorsieht, obwohl sie eigentlich mehr Freizeit erwartet hatten. Häufig wird berichtet, dass E-Mails auch am Abend oder am Wochenende beantwortet werden, wodurch echte Erholungsphasen kaum noch stattfinden. Wenn Unternehmen dieser Entwicklung nicht aktiv entgegenwirken würden, könnte die Zahl der Erschöpfungserkrankungen weiter steigen.\n\nExperten fordern deshalb klarere Regeln, etwa ein Recht auf Nichterreichbarkeit außerhalb der Arbeitszeiten. Zudem wird diskutiert, ob Unternehmen verpflichtet werden sollten, ihre Beschäftigten stärker beim Zeitmanagement zu unterstützen. Ohne solche Maßnahmen bliebe das Homeoffice zwar bequem, würde aber langfristig die Gesundheit vieler Beschäftigter gefährden.",
+    "preguntas": [
+      {
+        "enunciado": "Anfangs wurden vor allem die Vorteile des Homeoffice betont.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text arbeiten viele Menschen im Homeoffice weniger als vertraglich vorgesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Beschäftigte beantworten auch am Wochenende E-Mails.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten fordern ein Recht auf Nichterreichbarkeit außerhalb der Arbeitszeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Homeoffice gefährde die Gesundheit unter keinen Umständen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "urbanes-gaertnern",
+    "nivel": "B2",
+    "titulo": "Urbanes Gärtnern",
+    "descripcion": "Ein Überblick über urbane Gärten als Antwort auf Umweltprobleme und fehlende Grünflächen in Städten.",
+    "texto": "In vielen Großstädten entstehen seit einigen Jahren sogenannte urbane Gärten, in denen Anwohner gemeinsam Gemüse, Kräuter und Blumen anbauen. Diese Projekte werden häufig auf brachliegenden Flächen realisiert, die zuvor ungenutzt waren. Damit soll nicht nur mehr Grün in die Stadt gebracht, sondern auch das Gemeinschaftsgefühl der Nachbarschaft gestärkt werden.\n\nBefürworter argumentieren, dass urbanes Gärtnern gleich mehrere Probleme adressiert. Zum einen wird durch die zusätzlichen Grünflächen ein Beitrag zur Verbesserung des Stadtklimas geleistet, da Pflanzen Feinstaub binden und für kühlere Temperaturen sorgen. Zum anderen lernen viele Teilnehmer, woher ihre Lebensmittel eigentlich kommen, was in einer zunehmend anonymisierten Konsumgesellschaft nicht selbstverständlich ist.\n\nDennoch wird auch Kritik geäußert. Manche Stadtplaner bemängeln, dass urbane Gärten oft nur vorübergehend geduldet werden, weil die Flächen später für Bauprojekte genutzt werden sollen. Ohne eine langfristige rechtliche Absicherung, so wird argumentiert, blieben viele dieser Initiativen unsicher und könnten jederzeit wieder verschwinden. Es wird deshalb gefordert, dass Städte urbanes Gärtnern stärker in ihre Stadtplanung einbeziehen sollten, anstatt es lediglich als Zwischennutzung zu betrachten.",
+    "preguntas": [
+      {
+        "enunciado": "Urbane Gärten entstehen meist auf ungenutzten Flächen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter sagen, urbanes Gärtnern habe keinen Einfluss auf das Stadtklima.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Teilnehmer lernen oft mehr darüber, woher ihre Lebensmittel kommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche Stadtplaner kritisieren, dass die Flächen oft nur vorübergehend genutzt werden dürfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert, urbanes Gärtnern komplett aus der Stadtplanung auszuschließen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
