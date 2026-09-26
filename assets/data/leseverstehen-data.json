@@ -33878,5 +33878,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "toms-neues-fahrrad",
+    "nivel": "A1",
+    "titulo": "Toms neues Fahrrad",
+    "descripcion": "Tom bekommt ein neues Fahrrad und lernt die Straßenregeln.",
+    "texto": "Tom ist neun Jahre alt und wohnt in einem kleinen Dorf. Heute ist ein besonderer Tag, denn Tom bekommt ein neues Fahrrad. Das Fahrrad ist blau und hat eine goldene Klingel. Tom freut sich sehr und lächelt den ganzen Tag.\n\nAm Nachmittag geht Tom mit seinem Vater in den Park. Sein Vater erklärt die wichtigsten Regeln. „Du fährst immer rechts\", sagt der Vater. „Und du hältst an der Ampel.\" Tom hört gut zu und übt langsam auf dem Weg. Zuerst ist er ein bisschen unsicher, aber dann fährt er immer besser.\n\nNach einer Stunde kann Tom schon sehr sicher fahren. Er fährt um die Bäume herum und hält bei jedem Stoppschild. Sein Vater ist stolz auf ihn. Zu Hause erzählt Tom seiner Mutter alles über den Nachmittag. Sie isst mit ihm zusammen Abendbrot und Tom freut sich auf morgen.",
+    "preguntas": [
+      {
+        "enunciado": "Tom bekommt ein neues Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Vater übt mit ihm im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom kann am Anfang schon perfekt fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom erzählt seiner Mutter von dem Nachmittag.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-katze-heisst-mimi",
+    "nivel": "A1",
+    "titulo": "Meine Katze heißt Mimi",
+    "descripcion": "Lena stellt ihre Katze Mimi und deren Tagesablauf vor.",
+    "texto": "Lena hat eine Katze. Die Katze heißt Mimi und ist drei Jahre alt. Mimi ist schwarz und weiß und hat grüne Augen. Sie schläft sehr viel, fast zwölf Stunden am Tag.\n\nJeden Morgen füttert Lena ihre Katze. Mimi isst gern Fisch und trinkt Milch aus einer kleinen Schale. Nach dem Essen spielt Mimi mit einem roten Ball. Sie läuft schnell durch die Wohnung und springt auf das Sofa.\n\nAm Abend sitzt Mimi gern auf Lenas Bett. Lena liest ein Buch, und Mimi schläft neben ihr ein. Lena mag ihre Katze sehr. Für Lena ist Mimi wie eine kleine Freundin.",
+    "preguntas": [
+      {
+        "enunciado": "Mimi ist eine Katze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist fünf Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi trinkt Milch aus einer Schale.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi spielt mit einem grünen Ball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi schläft am Abend neben Lena.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einkaufen-fuer-das-wochenende",
+    "nivel": "A1",
+    "titulo": "Einkaufen für das Wochenende",
+    "descripcion": "Familie Berger kauft am Freitag Lebensmittel für das Wochenende.",
+    "texto": "Am Freitag geht Familie Berger einkaufen. Frau Berger schreibt eine Liste: Brot, Milch, Eier und Obst. Ihr Sohn Felix hilft ihr im Supermarkt. Er trägt den Einkaufskorb und sucht die Äpfel.\n\nIm Supermarkt ist viel los. Viele Leute kaufen auch für das Wochenende ein. Felix findet die Äpfel und legt fünf Stück in den Korb. Frau Berger kauft auch Käse und Wurst für das Frühstück. An der Kasse bezahlt sie mit ihrer Karte.\n\nZu Hause packt Felix die Tüten aus. Er stellt die Milch in den Kühlschrank und legt das Obst auf den Tisch. Am Samstag frühstückt die ganze Familie zusammen. Alle sind glücklich und das Essen schmeckt gut.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger geht am Freitag einkaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hilft seiner Mutter im Supermarkt nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix kauft fünf Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger bezahlt mit Bargeld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie frühstückt am Samstag zusammen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-nachricht-von-der-oma",
+    "nivel": "A2",
+    "titulo": "Eine Nachricht von der Oma",
+    "descripcion": "Paula bekommt eine Sprachnachricht von ihrer Oma und ruft sie zurück.",
+    "texto": "Gestern Abend hat Paula ihr Handy angeschaut und eine Nachricht von ihrer Oma gefunden. Die Oma hat eine Sprachnachricht geschickt, weil sie Paula lange nicht gesehen hat. In der Nachricht hat sie gefragt, ob Paula sie am Wochenende besuchen kann.\n\nPaula hat sich sehr gefreut, denn sie hat ihre Oma schon vermisst. Sie hat sofort zurückgerufen, und die beiden haben lange telefoniert. Die Oma hat erzählt, dass sie einen neuen Garten angelegt hat und dort Tomaten und Kräuter pflanzt. Paula hat versprochen, dass sie am Samstag mit dem Zug kommt.\n\nAm Samstag ist Paula früh aufgestanden und hat einen Kuchen gebacken. Die Fahrt zur Oma hat eine Stunde gedauert. Als sie angekommen ist, hat die Oma sich riesig gefreut. Sie haben zusammen Kaffee getrunken und im Garten gesessen, obwohl es ein bisschen kalt war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Oma hat Paula eine Sprachnachricht geschickt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula hat die Nachricht ignoriert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma hat einen neuen Garten angelegt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula ist mit dem Auto zur Oma gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula und ihre Oma haben im Garten Kaffee getrunken.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-nachbar-aus-italien",
+    "nivel": "A2",
+    "titulo": "Der neue Nachbar aus Italien",
+    "descripcion": "Herr Wagner lernt seinen neuen Nachbarn Marco aus Italien kennen.",
+    "texto": "Letzte Woche ist ein neuer Nachbar in das Haus von Herrn Wagner eingezogen. Der Nachbar heißt Marco und kommt aus Italien. Er ist wegen seiner Arbeit nach Deutschland gezogen, weil seine Firma eine neue Filiale eröffnet hat.\n\nAm ersten Tag hat Herr Wagner Marco im Treppenhaus getroffen und ihn zum Kaffee eingeladen. Marco hat sich sehr gefreut, weil er noch niemanden in der Stadt kannte. Die beiden haben über Italien gesprochen, und Marco hat erzählt, dass er aus einer kleinen Stadt in der Nähe von Rom kommt. Er hat auch gesagt, dass er das deutsche Wetter noch etwas kalt findet.\n\nSeitdem treffen sich Herr Wagner und Marco fast jede Woche. Marco hat sogar begonnen, Deutsch zu lernen, obwohl er anfangs sehr schüchtern war. Herr Wagner hilft ihm gern, weil er findet, dass gute Nachbarschaft wichtig ist. Beide sind froh, dass sie sich kennengelernt haben.",
+    "preguntas": [
+      {
+        "enunciado": "Marco kommt aus Spanien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marco ist wegen der Arbeit nach Deutschland gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wagner lädt Marco zum Kaffee ein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marco findet das deutsche Wetter sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marco hat begonnen, Deutsch zu lernen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrpruefung",
+    "nivel": "A2",
+    "titulo": "Die Fahrprüfung",
+    "descripcion": "Jonas ist vor seiner Fahrprüfung sehr nervös, aber am Ende klappt alles gut.",
+    "texto": "Jonas hat seit sechs Monaten Fahrstunden genommen, weil er endlich seinen Führerschein machen wollte. Heute ist der große Tag: die praktische Fahrprüfung. Schon am Morgen war er sehr nervös und hat kaum gefrühstückt.\n\nAls er zur Fahrschule gekommen ist, hat der Prüfer ihn freundlich begrüßt. Sie sind zusammen in das Auto gestiegen, und Jonas musste durch die Stadt fahren. Er hat an jeder Kreuzung genau geschaut und ist vorsichtig gefahren. Einmal hat er fast einen Fehler gemacht, weil er das Verkehrsschild übersehen hat, aber er hat schnell reagiert und richtig reagiert.\n\nNach dreißig Minuten war die Prüfung zu Ende. Der Prüfer hat Jonas gratuliert, weil er bestanden hat. Jonas konnte es kaum glauben und hat sofort seine Eltern angerufen. Am Abend hat die ganze Familie zusammen gefeiert, obwohl Jonas immer noch ein bisschen aufgeregt war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat vor der Prüfung ruhig gefrühstückt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas musste in der Prüfung durch die Stadt fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat ein Verkehrsschild übersehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat die Prüfung nicht bestanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat am Abend gefeiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wettbewerb-in-der-musikschule",
+    "nivel": "B1",
+    "titulo": "Der Wettbewerb in der Musikschule",
+    "descripcion": "Eine junge Geigerin bereitet sich auf einen wichtigen Wettbewerb vor, obwohl sie sehr unsicher ist.",
+    "texto": "Sophie besucht seit acht Jahren die städtische Musikschule und spielt Geige. Obwohl sie schon viele kleine Konzerte gegeben hat, ist der Wettbewerb, an dem sie in zwei Wochen teilnehmen soll, etwas ganz anderes. Es handelt sich um einen regionalen Wettbewerb, bei dem junge Musiker aus der ganzen Region gegeneinander antreten. Ihre Lehrerin hat sie ermutigt, sich anzumelden, doch Sophie zweifelt trotzdem an sich selbst.\n\nJeden Tag übt sie mindestens zwei Stunden, nachdem sie aus der Schule gekommen ist. Manchmal ist sie so frustriert, dass sie am liebsten aufhören würde, weil eine bestimmte Passage einfach nicht gelingen will. Trotzdem gibt sie nicht auf, denn sie weiß, dass harte Arbeit sich am Ende auszahlt. Ihre Eltern unterstützen sie, indem sie ihr zuhören und sie loben, auch wenn noch nicht alles perfekt klingt.\n\nAm Tag des Wettbewerbs ist Sophie so aufgeregt, dass ihre Hände zittern. Nachdem sie die Bühne betreten hat, konzentriert sie sich jedoch nur noch auf die Musik und vergisst ihre Nervosität. Ihr Auftritt gelingt besser, als sie erwartet hatte, und obwohl sie nicht den ersten Platz gewinnt, ist sie sehr stolz auf sich. Die Erfahrung hat ihr gezeigt, dass sich Mut und Übung wirklich lohnen.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie spielt seit acht Jahren Geige.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie ist von Anfang an völlig selbstsicher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie übt jeden Tag nach der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophies Eltern zeigen kein Interesse an ihrem Hobby.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie gewinnt am Ende den ersten Platz.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wiedereroeffnung-des-alten-kinos",
+    "nivel": "B1",
+    "titulo": "Die Wiedereröffnung des alten Kinos",
+    "descripcion": "Ein historisches Kino in der Innenstadt wird nach jahrelanger Schließung wiedereröffnet.",
+    "texto": "In der Innenstadt von Görlitz stand jahrelang ein altes Kino leer, nachdem es wegen sinkender Besucherzahlen schließen musste. Viele Bewohner der Stadt haben die Schließung bedauert, weil das Gebäude seit den 1920er-Jahren zur Geschichte der Stadt gehört. Trotzdem schien lange Zeit unklar, was aus dem Kino werden sollte.\n\nVor zwei Jahren hat sich eine Gruppe engagierter Bürger zusammengeschlossen, um das Kino zu retten. Sie haben Spenden gesammelt und mit der Stadtverwaltung verhandelt, obwohl viele Menschen anfangs skeptisch waren. Nachdem genug Geld zusammengekommen war, konnte die Renovierung endlich beginnen. Die alten Sitze wurden restauriert, und die Fassade bekam ihre ursprüngliche Farbe zurück.\n\nLetzte Woche wurde das Kino feierlich wiedereröffnet. Hunderte Menschen kamen zur Eröffnungsfeier, obwohl es an diesem Abend stark regnete. Der Bürgermeister hielt eine Rede und bedankte sich bei allen freiwilligen Helfern. Seitdem ist das Kino wieder ein beliebter Treffpunkt für Jung und Alt, und viele hoffen, dass es diesmal dauerhaft bestehen bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Das Kino musste wegen sinkender Besucherzahlen schließen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand in der Stadt wollte das Kino retten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Renovierung konnte erst nach einer Spendensammlung beginnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eröffnungsfeier fand bei schönem Wetter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bürgermeister bedankte sich bei den freiwilligen Helfern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-jahr-im-ausland-studieren",
+    "nivel": "B1",
+    "titulo": "Ein Jahr im Ausland studieren",
+    "descripcion": "Ein Student berichtet von seinen Erfahrungen während eines Auslandsjahres in Schweden.",
+    "texto": "Nachdem Jakob zwei Semester an seiner Heimatuniversität studiert hatte, entschied er sich, ein Jahr in Schweden zu verbringen. Er hatte lange überlegt, ob er diesen Schritt wagen sollte, weil er seine Familie und Freunde vermissen würde. Trotzdem wollte er die Gelegenheit nutzen, eine neue Kultur kennenzulernen und seine Englischkenntnisse zu verbessern.\n\nIn den ersten Wochen fühlte sich Jakob etwas einsam, obwohl er in einem Studentenwohnheim mit vielen internationalen Studierenden lebte. Die Sprache war anfangs eine Herausforderung, und das schwedische Universitätssystem unterschied sich stark von dem, was er gewohnt war. Nachdem er sich jedoch einer Studiengruppe angeschlossen hatte, wurde alles einfacher. Er lernte schnell neue Freunde kennen und begann, das Leben in Schweden zu genießen.\n\nAm Ende des Jahres war Jakob überrascht, wie sehr er sich verändert hatte. Er war selbstständiger geworden und hatte gelernt, mit unbekannten Situationen umzugehen. Obwohl er sich anfangs gegen das Auslandsjahr entscheiden wollte, betrachtet er es rückblickend als eine der besten Entscheidungen seines Lebens.",
+    "preguntas": [
+      {
+        "enunciado": "Jakob ist direkt nach dem Abitur nach Schweden gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jakob fühlte sich in den ersten Wochen einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das schwedische Universitätssystem war genau wie zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jakob schloss sich einer Studiengruppe an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jakob bereut am Ende seine Entscheidung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ueberwachung-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Überwachung im digitalen Zeitalter",
+    "descripcion": "Ein Blick auf die wachsende digitale Überwachung und die Debatte um Datenschutz und Sicherheit.",
+    "texto": "Kaum ein Thema wird in modernen Gesellschaften so kontrovers diskutiert wie die zunehmende digitale Überwachung. Kameras in öffentlichen Räumen, Gesichtserkennungssoftware und die Auswertung persönlicher Daten durch Unternehmen und Behörden sind längst Teil des Alltags geworden. Befürworter argumentieren, dass diese Technologien zur Kriminalitätsbekämpfung beitragen und die öffentliche Sicherheit erhöhen würden. Kritiker hingegen warnen davor, dass eine lückenlose Überwachung die Grundrechte der Bürger einschränken könnte.\n\nBesonders umstritten ist der Einsatz biometrischer Erkennungssysteme, die es ermöglichen würden, Personen in Echtzeit zu identifizieren. Würde eine solche Technologie flächendeckend eingeführt, entstünde ein Überwachungsapparat, der in seiner Reichweite historisch beispiellos wäre. Datenschützer betonen, dass Bürger, deren Bewegungen ständig erfasst würden, ihr Verhalten unbewusst anpassen könnten, was letztlich die Meinungsfreiheit gefährde. Diese Sorge wird von zahlreichen Studien gestützt, die zeigen, dass Überwachung das Verhalten von Menschen messbar verändert.\n\nAuf der anderen Seite verweisen Sicherheitsbehörden auf konkrete Fälle, in denen Überwachungstechnologie zur Aufklärung schwerer Verbrechen beigetragen hat. Sie fordern, dass gesetzliche Regelungen an die technologische Entwicklung angepasst werden müssten, damit Ermittlungsbehörden effektiv arbeiten könnten. Zwischen diesen Positionen bewegt sich die Politik, die versucht, einen Kompromiss zu finden, der sowohl Sicherheit als auch Freiheitsrechte berücksichtigt. Ob dieser Balanceakt gelingen wird, bleibt eine der zentralen Fragen unserer Zeit.",
+    "preguntas": [
+      {
+        "enunciado": "Digitale Überwachung ist ein unumstrittenes Thema.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in Überwachungstechnologien einen Beitrag zur Sicherheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Biometrische Erkennungssysteme gelten als völlig unumstritten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen, dass Überwachung das Verhalten von Menschen verändern kann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Politik hat das Thema bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-und-arbeitsplaetze",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz und Arbeitsplätze",
+    "descripcion": "Eine Auseinandersetzung mit den Chancen und Risiken, die künstliche Intelligenz für den Arbeitsmarkt mit sich bringt.",
+    "texto": "Die rasante Entwicklung künstlicher Intelligenz hat in den vergangenen Jahren zu grundlegenden Veränderungen auf dem Arbeitsmarkt geführt. Aufgaben, die früher ausschließlich von Menschen erledigt wurden, können mittlerweile von intelligenten Systemen übernommen werden, sei es in der Buchhaltung, im Kundenservice oder sogar in kreativen Bereichen. Während einige Ökonomen befürchten, dass dadurch zahlreiche Arbeitsplätze verloren gehen könnten, betonen andere, dass gleichzeitig neue Berufsfelder entstehen würden, die es heute noch gar nicht gibt.\n\nBesonders betroffen von diesem Wandel sind Branchen, in denen repetitive Tätigkeiten dominieren. Beschäftigte, deren Aufgaben leicht automatisiert werden könnten, sehen sich mit der Sorge konfrontiert, in absehbarer Zeit ersetzt zu werden. Gewerkschaften fordern deshalb, dass Unternehmen in die Weiterbildung ihrer Mitarbeiter investieren sollten, damit diese für neue, komplexere Aufgaben qualifiziert werden könnten. Ohne eine solche Umschulung, so die Befürchtung, würde eine erhebliche Zahl an Arbeitnehmern dauerhaft vom Arbeitsmarkt ausgeschlossen bleiben.\n\nGleichzeitig weisen Befürworter der Technologie darauf hin, dass historische Umbrüche, etwa die Industrialisierung, zunächst ähnliche Ängste ausgelöst hätten, letztlich jedoch zu mehr Wohlstand geführt hätten. Entscheidend sei, wie Politik und Gesellschaft mit dem Wandel umgingen. Würden rechtzeitig Bildungsprogramme und soziale Absicherungen geschaffen, ließe sich der Übergang deutlich abfedern. Klar ist jedoch, dass sich niemand der Frage entziehen kann, wie die Arbeitswelt von morgen aussehen soll.",
+    "preguntas": [
+      {
+        "enunciado": "Künstliche Intelligenz hat keinen Einfluss auf den Arbeitsmarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Repetitive Tätigkeiten gelten als besonders anfällig für Automatisierung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gewerkschaften fordern mehr Investitionen in Weiterbildung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Ökonomen sind sich einig, dass nur Arbeitsplätze verloren gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Historische Umbrüche haben laut Text nie Ängste ausgelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-plastikflut-in-den-meeren",
+    "nivel": "B2",
+    "titulo": "Die Plastikflut in den Meeren",
+    "descripcion": "Ein Text über die wachsende Vermüllung der Ozeane und mögliche Lösungsansätze.",
+    "texto": "Jedes Jahr gelangen Millionen Tonnen Plastikmüll in die Weltmeere, wo sie sich zu riesigen Müllstrudeln zusammenballen oder auf den Meeresgrund sinken. Besonders problematisch ist, dass Kunststoff nur sehr langsam abgebaut wird und sich stattdessen in immer kleinere Partikel zersetzt, sogenanntes Mikroplastik. Dieses gelangt über die Nahrungskette schließlich auch in den menschlichen Körper, was gesundheitliche Folgen haben könnte, die bislang nur unzureichend erforscht sind.\n\nUmweltorganisationen fordern seit Jahren strengere Regelungen für die Herstellung und Entsorgung von Kunststoffprodukten. Würden Einwegverpackungen konsequent verboten und durch nachhaltige Alternativen ersetzt, ließe sich die Menge des neu entstehenden Mülls erheblich reduzieren. Kritiker wenden jedoch ein, dass solche Verbote allein nicht ausreichten, solange in vielen Ländern geeignete Recyclingsysteme fehlten. Ohne eine funktionierende Infrastruktur zur Abfallverwertung, so ihr Argument, würde sich das grundlegende Problem lediglich verlagern, nicht aber lösen.\n\nInzwischen haben mehrere Initiativen begonnen, technologische Lösungen zu entwickeln, etwa schwimmende Barrieren, die Plastikmüll aus Flüssen abfangen sollen, bevor er die Ozeane erreicht. Obwohl solche Projekte vielversprechend erscheinen, betonen Experten, dass technische Innovationen allein die Plastikflut nicht stoppen könnten. Notwendig sei vielmehr ein grundlegendes Umdenken im Konsumverhalten, verbunden mit politischem Willen auf globaler Ebene, damit die Meere langfristig geschützt werden könnten.",
+    "preguntas": [
+      {
+        "enunciado": "Plastikmüll baut sich sehr schnell vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mikroplastik kann über die Nahrungskette in den menschlichen Körper gelangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Umweltorganisationen fordern strengere Regelungen für Kunststoffprodukte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass technische Lösungen allein ausreichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht keinen Zusammenhang zwischen Konsumverhalten und Plastikmüll.",
+        "respuesta": false
+      }
+    ]
   }
 ]
