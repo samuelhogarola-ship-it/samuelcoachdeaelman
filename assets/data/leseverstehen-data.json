@@ -34574,5 +34574,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "die-bunten-luftballons",
+    "nivel": "A1",
+    "titulo": "Die bunten Luftballons",
+    "descripcion": "Lena feiert ihren Geburtstag mit bunten Luftballons und einem Kuchen.",
+    "texto": "Heute ist Lenas Geburtstag. Lena ist sechs Jahre alt. Die Wohnung ist bunt. Es gibt rote, gelbe und blaue Luftballons. Lena lacht und spielt mit ihrem Bruder Tom.\n\nDie Mutter bringt einen großen Kuchen. Der Kuchen ist braun und süß. Auf dem Kuchen sind sechs Kerzen. Lena pustet die Kerzen aus. Alle Gäste singen ein Lied.\n\nNach dem Kuchen spielen die Kinder im Garten. Sie werfen einen Ball und lachen viel. Lena sagt: „Das ist mein schönster Geburtstag!“",
+    "preguntas": [
+      {
+        "enunciado": "Lena wird sechs Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Luftballons sind nur rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kuchen hat sechs Kerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena ist traurig an ihrem Geburtstag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-katze-meiner-schwester",
+    "nivel": "A1",
+    "titulo": "Die Katze meiner Schwester",
+    "descripcion": "Anna hat eine Katze namens Mimi, die sie jeden Tag füttert.",
+    "texto": "Meine Schwester Anna hat eine Katze. Die Katze heißt Mimi. Mimi ist weiß und schwarz. Sie schläft viel und isst gern Fisch.\n\nJeden Morgen füttert Anna die Katze. Mimi trinkt Milch aus einer kleinen Schüssel. Danach spielt sie mit einem Ball im Wohnzimmer.\n\nAbends sitzt Mimi auf dem Sofa. Sie schnurrt laut. Anna sagt: „Mimi ist meine beste Freundin.“",
+    "preguntas": [
+      {
+        "enunciado": "Die Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist nur schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi isst gern Fisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna füttert die Katze nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi schnurrt abends auf dem Sofa.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-schuhe-sind-neu",
+    "nivel": "A1",
+    "titulo": "Meine Schuhe sind neu",
+    "descripcion": "Paul kauft mit seiner Mutter ein neues Paar Schuhe.",
+    "texto": "Paul braucht neue Schuhe. Er geht mit seiner Mutter in ein Geschäft. Im Geschäft gibt es viele Schuhe: rote, blaue und schwarze.\n\nPaul probiert drei Paar Schuhe an. Die blauen Schuhe sind zu klein. Die schwarzen Schuhe sind zu groß. Die roten Schuhe passen gut.\n\nDie Mutter bezahlt die Schuhe an der Kasse. Paul ist sehr glücklich. Er trägt die neuen Schuhe sofort.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht allein ins Geschäft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die blauen Schuhe sind zu klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft die schwarzen Schuhe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die roten Schuhe passen gut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul ist glücklich über die neuen Schuhe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-bei-der-tante",
+    "nivel": "A2",
+    "titulo": "Der Besuch bei der Tante",
+    "descripcion": "Marie und ihr Bruder besuchen am Samstag ihre Tante in der Stadt.",
+    "texto": "Am Samstag haben Marie und ihr Bruder ihre Tante besucht. Sie sind mit dem Bus in die Stadt gefahren, weil die Tante keine Zeit hatte, sie abzuholen. Die Tante hat sich sehr gefreut, als die Kinder angekommen sind.\n\nSie haben zusammen Kuchen gegessen und über die Schule gesprochen. Marie hat erzählt, dass sie eine neue Lehrerin hat. Der Bruder hat von seinem Fußballspiel berichtet, das er am Freitag gewonnen hat.\n\nAm Abend haben die Kinder die Tante umarmt und sind nach Hause gefahren. Sie waren müde, aber glücklich. Die Tante hat versprochen, dass sie sie bald wieder besucht.",
+    "preguntas": [
+      {
+        "enunciado": "Marie und ihr Bruder sind zu Fuß zur Tante gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tante hat sich über den Besuch gefreut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie hat eine neue Lehrerin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bruder hat sein Fußballspiel verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder waren am Abend müde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-brille",
+    "nivel": "A2",
+    "titulo": "Die verlorene Brille",
+    "descripcion": "Herr Weber verliert seine Brille und seine Frau findet sie wieder.",
+    "texto": "Herr Weber hat gestern seine Brille verloren. Er hat überall gesucht, aber er hat sie nicht gefunden. Zuerst hat er in der Küche gesucht, dann im Wohnzimmer und im Schlafzimmer.\n\nSeine Frau hat ihm geholfen, weil er ohne Brille nicht lesen kann. Nach einer Stunde hat sie die Brille unter dem Sofa gefunden. Herr Weber war sehr erleichtert und hat sich bei seiner Frau bedankt.\n\nAm Abend hat er erzählt, dass er die Brille vor zwei Tagen beim Fernsehen verloren hat. Jetzt legt er die Brille immer auf den Tisch, damit das nicht wieder passiert.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber hat seine Brille sofort gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Frau hat ihm bei der Suche geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Brille lag unter dem Bett.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber kann ohne Brille nicht lesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er legt die Brille jetzt immer auf den Tisch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-mit-dem-nachtzug",
+    "nivel": "A2",
+    "titulo": "Die Reise mit dem Nachtzug",
+    "descripcion": "Familie Schmidt reist mit dem Nachtzug nach Wien.",
+    "texto": "Letzten Monat ist Familie Schmidt mit dem Nachtzug nach Wien gefahren. Die Kinder waren sehr aufgeregt, weil sie noch nie in einem Nachtzug geschlafen hatten. Der Zug ist um 22 Uhr abgefahren.\n\nIm Zug hatten sie ein kleines Abteil mit vier Betten. Die Mutter hat den Kindern eine Geschichte vorgelesen, bevor alle eingeschlafen sind. Der Vater hat aus dem Fenster die Lichter der Städte beobachtet.\n\nAm Morgen sind sie in Wien angekommen. Alle waren müde, aber die Reise hat ihnen viel Spaß gemacht. Die Kinder haben gesagt, dass sie bald wieder mit dem Nachtzug reisen wollen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist mit dem Flugzeug gereist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug ist um 22 Uhr abgefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder hatten schon oft im Nachtzug geschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter hat den Kindern eine Geschichte vorgelesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie ist in Wien angekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-vereinswechsel-im-sportclub",
+    "nivel": "B1",
+    "titulo": "Der Vereinswechsel im Sportclub",
+    "descripcion": "Jonas entscheidet sich nach Problemen mit dem neuen Trainer für einen Vereinswechsel.",
+    "texto": "Jonas spielt seit acht Jahren Fußball im selben Verein, obwohl er in letzter Zeit immer unzufriedener mit dem Training war. Nachdem der neue Trainer übernommen hatte, änderte sich die Atmosphäre im Team völlig. Viele Spieler fühlten sich nicht mehr wohl, weil die Trainingseinheiten zu streng und unpersönlich geworden waren.\n\nTrotzdem fiel Jonas die Entscheidung, den Verein zu wechseln, nicht leicht. Er hatte dort viele Freunde gefunden und gute Erinnerungen an zahlreiche Turniere. Nach langem Überlegen entschied er sich schließlich für einen Wechsel zu einem kleineren Club in der Nachbarschaft, der mehr Wert auf Spaß als auf Leistung legt.\n\nIm neuen Verein fühlte sich Jonas schon nach wenigen Wochen besser aufgehoben. Die Mitspieler waren freundlich, und der Trainer nahm sich Zeit für jeden Einzelnen. Obwohl er seine alten Freunde manchmal vermisst, bereut Jonas seine Entscheidung nicht.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas spielte schon lange im selben Verein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der neue Trainer sorgte für eine entspannte Atmosphäre.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas wechselte sofort und ohne Zweifel den Verein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im neuen Verein fühlte sich Jonas schnell wohl.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas bereut seine Entscheidung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-eine-wg",
+    "nivel": "B1",
+    "titulo": "Der Umzug in eine WG",
+    "descripcion": "Lisa zieht nach dem Abitur in eine Wohngemeinschaft und lernt, selbstständig zu leben.",
+    "texto": "Nach dem Abitur zog Lisa von zu Hause aus, um mit zwei Freundinnen in einer Wohngemeinschaft zu leben. Obwohl sie sich sehr auf die neue Freiheit freute, war der Abschied von ihren Eltern schwerer, als sie erwartet hatte. In der ersten Woche musste sie sich erst daran gewöhnen, dass niemand mehr für sie kochte oder die Wäsche wusch.\n\nNachdem die drei jungen Frauen einen Haushaltsplan erstellt hatten, lief das Zusammenleben deutlich besser. Jede war für bestimmte Aufgaben verantwortlich, und es gab seltener Streit über Geschirr oder Unordnung. Trotzdem kam es manchmal zu kleinen Konflikten, wenn jemand laut Musik hörte, während die anderen lernen wollten.\n\nInsgesamt genoss Lisa das Leben in der WG sehr. Sie lernte, selbstständiger zu werden, und schätzte die Gesellschaft ihrer Mitbewohnerinnen besonders in stressigen Prüfungsphasen. Rückblickend war der Umzug für sie ein wichtiger Schritt ins Erwachsenenleben.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa zog nach dem Abitur in eine WG.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Abschied von den Eltern fiel ihr leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Haushaltsplan verbesserte das Zusammenleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der WG gab es niemals Konflikte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa bereut den Umzug in die WG.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-rueckkehr-aus-dem-auslandsjahr",
+    "nivel": "B1",
+    "titulo": "Die Rückkehr aus dem Auslandsjahr",
+    "descripcion": "Felix kehrt nach einem Jahr in Kanada zurück und muss sich wieder an Deutschland gewöhnen.",
+    "texto": "Nachdem Felix ein ganzes Jahr in Kanada verbracht hatte, fiel ihm die Rückkehr nach Deutschland schwerer, als er gedacht hatte. Er hatte sich im Ausland neue Freunde und Gewohnheiten aufgebaut und vermisste nach wenigen Tagen schon das Leben dort, obwohl er sich auf seine Familie gefreut hatte.\n\nSeine alten Freunde hatten sich in der Zwischenzeit verändert, und manche Gespräche fühlten sich fremd an. Trotzdem erkannte Felix bald, dass echte Freundschaften die Entfernung und die Zeit überstanden hatten. Mit einigen traf er sich schon in der ersten Woche wieder, als wäre nichts gewesen.\n\nNach einigen Wochen gelang es ihm, die Erfahrungen aus Kanada in seinen Alltag zu integrieren. Er berichtete in der Schule von seinem Austauschjahr und blieb über soziale Medien mit seinen kanadischen Freunden in Kontakt. Rückblickend war das Jahr im Ausland die wichtigste Erfahrung seines Lebens.",
+    "preguntas": [
+      {
+        "enunciado": "Felix war ein Jahr in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Rückkehr fiel ihm leichter als erwartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Freundschaften waren nach der Rückkehr zerbrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix blieb über soziale Medien mit kanadischen Freunden in Kontakt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix bereut sein Austauschjahr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "scheinselbststaendigkeit-und-arbeitsrecht",
+    "nivel": "B2",
+    "titulo": "Scheinselbstständigkeit und Arbeitsrecht",
+    "descripcion": "Eine Analyse der rechtlichen und sozialen Probleme der Scheinselbstständigkeit in Deutschland.",
+    "texto": "In den letzten Jahren ist die Zahl der sogenannten Scheinselbstständigen, die formal als freie Mitarbeiter beschäftigt werden, obwohl sie faktisch wie festangestellte Arbeitnehmer in ein Unternehmen eingebunden sind, erheblich gestiegen. Besonders in der IT-Branche und im Kurierwesen wird diese Praxis häufig genutzt, um Sozialabgaben und Kündigungsschutz zu umgehen. Kritiker bemängeln, dass dadurch grundlegende arbeitsrechtliche Standards unterlaufen würden.\n\nWürde die Rechtslage konsequenter durchgesetzt, müssten viele Unternehmen ihre Beschäftigten regulär anstellen und entsprechende Sozialversicherungsbeiträge abführen. Allerdings gestaltet sich die Abgrenzung zwischen echter Selbstständigkeit und Scheinselbstständigkeit in der Praxis oft schwierig, da die Kriterien – etwa die Weisungsgebundenheit oder die wirtschaftliche Abhängigkeit – nicht immer eindeutig zu bewerten sind. Betroffene Arbeitnehmer scheuen zudem häufig den Konflikt mit ihrem Auftraggeber, aus Angst, zukünftige Aufträge zu verlieren.\n\nExperten fordern daher klarere gesetzliche Regelungen sowie eine verstärkte Kontrolle durch die Deutsche Rentenversicherung. Nur so könne, so die Befürworter einer Reform, verhindert werden, dass prekäre Beschäftigungsverhältnisse weiter zunehmen und die soziale Absicherung einer wachsenden Zahl von Erwerbstätigen gefährdet wird.",
+    "preguntas": [
+      {
+        "enunciado": "Scheinselbstständigkeit tritt besonders häufig in der Landwirtschaft auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Durch Scheinselbstständigkeit können Unternehmen Sozialabgaben umgehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Abgrenzung zwischen echter und Scheinselbstständigkeit ist immer eindeutig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Betroffene Arbeitnehmer fürchten manchmal, Aufträge zu verlieren, wenn sie sich beschweren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten fordern weniger Kontrolle durch die Rentenversicherung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-der-kuenstlichen-intelligenz-im-journalismus",
+    "nivel": "B2",
+    "titulo": "Die Rolle der künstlichen Intelligenz im Journalismus",
+    "descripcion": "Wie künstliche Intelligenz den Journalismus verändert und welche Risiken damit verbunden sind.",
+    "texto": "Die zunehmende Verbreitung künstlicher Intelligenz hat den Journalismus in den letzten Jahren tiefgreifend verändert. Algorithmen, die große Datenmengen in kurzer Zeit auswerten können, werden mittlerweile zur automatisierten Erstellung von Wetterberichten, Börsenmeldungen und Sportresultaten eingesetzt. Befürworter argumentieren, dass Journalisten dadurch mehr Zeit für investigative Recherchen und komplexe Analysen gewinnen würden.\n\nGleichzeitig wächst die Sorge, dass durch den Einsatz von KI-generierten Texten die journalistische Sorgfaltspflicht vernachlässigt werden könnte. Wenn Nachrichtenredaktionen zunehmend auf automatisierte Systeme vertrauten, bestünde die Gefahr, dass Fehlinformationen oder verzerrte Darstellungen unbemerkt verbreitet würden. Zudem stellt sich die Frage, wer die Verantwortung trägt, wenn ein von einer Maschine verfasster Artikel falsche oder irreführende Informationen enthält.\n\nViele Medienhäuser haben deshalb begonnen, Richtlinien für den Einsatz künstlicher Intelligenz zu entwickeln, die eine Kennzeichnung automatisiert erstellter Inhalte vorschreiben. Ob sich diese Selbstverpflichtung langfristig als ausreichend erweist oder ob eine gesetzliche Regulierung notwendig wird, bleibt umstritten unter Medienexperten und Politikern gleichermaßen.",
+    "preguntas": [
+      {
+        "enunciado": "KI wird bereits für Wetterberichte und Börsenmeldungen genutzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Journalisten lehnen den Einsatz von KI vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es besteht die Sorge, dass Fehlinformationen durch KI unbemerkt verbreitet werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Medienhäuser haben bereits gesetzliche Regulierungen eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Frage der Verantwortung bei KI-Fehlern ist bereits vollständig geklärt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "gentrifizierung-und-stadtentwicklung",
+    "nivel": "B2",
+    "titulo": "Gentrifizierung und Stadtentwicklung",
+    "descripcion": "Ein Blick auf die Ursachen und Folgen der Gentrifizierung in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten hat sich in den vergangenen zwei Jahrzehnten ein Prozess vollzogen, der gemeinhin als Gentrifizierung bezeichnet wird: ursprünglich einfache, oft von Arbeiterfamilien bewohnte Stadtviertel werden durch Sanierungen und steigende Mieten zunehmend für wohlhabendere Bevölkerungsschichten attraktiv. Die langjährigen Bewohner, die sich die höheren Mieten nicht mehr leisten können, sind häufig gezwungen, in günstigere, meist am Stadtrand liegende Viertel umzuziehen.\n\nBefürworter der Stadtentwicklung verweisen darauf, dass durch Investitionen die Infrastruktur verbessert und die Lebensqualität in den betroffenen Vierteln insgesamt gesteigert werde. Kritiker hingegen bemängeln, dass dabei die soziale Durchmischung verloren gehe und gewachsene Nachbarschaftsstrukturen zerstört würden. Wäre eine konsequentere Mietpreisbindung eingeführt worden, hätten sich diese Entwicklungen, so argumentieren viele Stadtsoziologen, deutlich abmildern lassen.\n\nAngesichts dieser Problematik fordern zivilgesellschaftliche Initiativen in mehreren Städten strengere Regulierungen, etwa durch Mietpreisbremsen oder den verstärkten Bau von Sozialwohnungen. Ob solche Maßnahmen ausreichen, um die Verdrängung einkommensschwacher Haushalte aufzuhalten, wird von Experten weiterhin kontrovers diskutiert.",
+    "preguntas": [
+      {
+        "enunciado": "Gentrifizierung betrifft meist einfache, günstige Stadtviertel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bewohner profitieren gleichermaßen von der Gentrifizierung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln den Verlust sozialer Durchmischung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine strengere Mietpreisbindung wird von manchen Stadtsoziologen als möglicher Lösungsansatz gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es besteht völlige Einigkeit darüber, dass die vorgeschlagenen Maßnahmen ausreichen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
