@@ -13705,6 +13705,586 @@ const TEXTOS = [
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "beim-baecker",
+    "nivel": "A1",
+    "titulo": "Beim Bäcker",
+    "descripcion": "Ein Besuch in einer kleinen Bäckerei am Morgen.",
+    "texto": "Jeden Morgen geht Frau Schneider zum Bäcker. Die Bäckerei heißt „Goldkruste“ und ist in ihrer Straße. Sie kauft dort immer frische Brötchen und manchmal auch ein Stück Kuchen.\n\nHerr Meier arbeitet in der Bäckerei. Er steht jeden Tag um vier Uhr auf und backt Brot, Brötchen und Croissants. Die Kunden mögen besonders das Vollkornbrot. Es ist dunkel und sehr lecker.\n\nFrau Schneider bestellt heute drei Brötchen, ein Vollkornbrot und zwei Stücke Apfelkuchen. Der Apfelkuchen ist für ihre Kinder. Sie bezahlt fünf Euro und zwanzig Cent. Herr Meier sagt: „Einen schönen Tag noch!“ Frau Schneider antwortet: „Danke, Ihnen auch!“ Dann geht sie nach Hause und frühstückt mit ihrer Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Schneider geht jeden Morgen zum Bäcker.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bäckerei heißt „Sonnenschein“.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Meier steht um vier Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Apfelkuchen ist für Frau Schneiders Kollegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kunden mögen das Vollkornbrot besonders gern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-postamt",
+    "nivel": "A1",
+    "titulo": "Das Postamt",
+    "descripcion": "Leon schickt ein Paket an seine Großmutter.",
+    "texto": "Leon geht heute zum Postamt. Er möchte ein Paket an seine Großmutter schicken. Seine Großmutter wohnt in Hamburg. Im Paket sind ein Buch und Schokolade.\n\nIm Postamt wartet Leon in der Schlange. Vor ihm stehen drei Personen. Eine Frau kauft Briefmarken. Ein Mann holt ein Paket ab. Dann ist Leon an der Reihe.\n\nDie Frau am Schalter fragt: „Wohin soll das Paket?“ Leon sagt: „Nach Hamburg.“ Sie wiegt das Paket. Der Versand kostet vier Euro neunzig. Leon bezahlt und bekommt eine Quittung. Die Frau sagt: „Das Paket kommt in zwei Tagen an.“ Leon freut sich. Seine Großmutter mag Schokolade sehr gern.",
+    "preguntas": [
+      {
+        "enunciado": "Leon schickt ein Paket an seine Großmutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seine Großmutter wohnt in München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Paket sind ein Buch und Schokolade.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Leon ist sofort an der Reihe, ohne zu warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Frau am Schalter sagt, dass das Paket in zwei Tagen ankommt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-campingurlaub",
+    "nivel": "A2",
+    "titulo": "Der Campingurlaub",
+    "descripcion": "Eine Familie verbringt ihren Urlaub auf einem Campingplatz am See.",
+    "texto": "Letzten Sommer hat Familie Weber einen Campingurlaub am Bodensee gemacht. Sie sind am Freitagmorgen mit dem Auto losgefahren. Die Fahrt hat drei Stunden gedauert. Die Kinder, Mia und Jonas, waren sehr aufgeregt.\n\nAuf dem Campingplatz haben sie zuerst das Zelt aufgebaut. Das war nicht einfach, weil der Wind stark geweht hat. Danach sind sie zum See gegangen und haben gebadet. Das Wasser war kalt, aber die Kinder haben trotzdem viel Spaß gehabt.\n\nAm Abend hat der Vater ein Lagerfeuer gemacht. Die Familie hat Würstchen gegrillt und Marshmallows geröstet. Mia hat Gitarre gespielt und alle haben zusammen gesungen. Jonas hat gesagt: „Das ist der beste Urlaub!“ Am nächsten Tag haben sie eine Wanderung gemacht und viele Schmetterlinge gesehen. Nach fünf Tagen sind sie müde, aber glücklich nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Weber hat am Bodensee gecampt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fahrt zum Campingplatz hat fünf Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater hat am Abend ein Lagerfeuer gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat am Lagerfeuer Gitarre gespielt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Campingurlaub hat fünf Tage gedauert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "taschengeld",
+    "nivel": "A2",
+    "titulo": "Taschengeld",
+    "descripcion": "Zwei Geschwister lernen, mit ihrem Taschengeld umzugehen.",
+    "texto": "Emma und Luis bekommen seit Januar Taschengeld von ihren Eltern. Emma ist zwölf Jahre alt und bekommt zwanzig Euro im Monat. Luis ist neun und bekommt zehn Euro. Ihre Eltern haben gesagt, dass sie damit lernen sollen, mit Geld umzugehen.\n\nEmma hat sich ein Sparschwein gekauft und spart jeden Monat fünf Euro. Sie möchte sich im Sommer neue Kopfhörer kaufen. Letzten Monat hat sie außerdem ein Buch gekauft und ein Geburtstagsgeschenk für ihre Freundin gekauft.\n\nLuis hat sein Taschengeld im ersten Monat sofort für Süßigkeiten ausgegeben. Danach hatte er kein Geld mehr und war traurig. Seine Mutter hat mit ihm gesprochen und einen Plan gemacht. Jetzt teilt Luis sein Geld in drei Teile: Sparen, Ausgeben und Verschenken. Im letzten Monat hat er seiner Oma Blumen gekauft. Er war sehr stolz darauf.",
+    "preguntas": [
+      {
+        "enunciado": "Emma bekommt zwanzig Euro Taschengeld im Monat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Luis bekommt genauso viel Taschengeld wie Emma.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma spart jeden Monat fünf Euro für Kopfhörer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Luis hat von Anfang an gut mit seinem Geld umgehen können.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Luis hat seiner Oma Blumen von seinem Taschengeld gekauft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "jugendherbergen-in-deutschland",
+    "nivel": "B1",
+    "titulo": "Jugendherbergen in Deutschland",
+    "descripcion": "Über die Geschichte und Bedeutung der deutschen Jugendherbergen.",
+    "texto": "Jugendherbergen bieten einfache Unterkünfte für Menschen, die auf Reisen sind. Besonders Schulklassen und Jugendgruppen übernachten dort gern. Auch Familien und Erwachsene können diese Häuser nutzen. Wer mit einer Gruppe reist, sollte rechtzeitig reservieren und sich über die Regeln des Hauses informieren.\n\nFrüher gehörten große Schlafräume und gemeinsame Badezimmer zum Alltag in vielen Jugendherbergen. Heute sind die Häuser unterschiedlich ausgestattet. Manche bieten Zimmer mit eigenem Bad, andere haben weiterhin Gemeinschaftsbäder. Häufig gibt es einen Aufenthaltsraum, in dem Gäste spielen, lesen oder miteinander sprechen können. Auch das Frühstück und gemeinsame Mahlzeiten gehören in vielen Häusern zum Angebot.\n\nDie Übernachtung kann günstiger sein als in einem Hotel. Das hängt jedoch vom Ort, vom Zimmer und von der Reisezeit ab. Deshalb lohnt es sich, vor der Buchung die Preise zu vergleichen. Schulklassen müssen außerdem prüfen, ob genügend Zimmer für die ganze Gruppe frei sind.\n\nFür viele Gäste ist nicht nur der Preis wichtig. Sie möchten Menschen kennenlernen und gemeinsam etwas unternehmen. Andere wünschen sich vor allem Ruhe. Damit sich alle wohlfühlen, sollten die Gäste Rücksicht nehmen und sich an die vereinbarten Ruhezeiten halten.",
+    "preguntas": [
+      {
+        "enunciado": "Nur Jugendliche unter 18 Jahren können Jugendherbergen nutzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Jugendherbergen haben Zimmer mit eigenem Bad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Übernachtung ist immer günstiger als in jedem Hotel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Schulklassen sollten prüfen, ob genügend Zimmer frei sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gäste sollen auf die Ruhezeiten achten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "schlafprobleme-bei-jugendlichen",
+    "nivel": "B1",
+    "titulo": "Schlafprobleme bei Jugendlichen",
+    "descripcion": "Eine Schulklasse spricht über Schlafgewohnheiten und probiert kleine Veränderungen aus.",
+    "texto": "In Leas Klasse sprechen die Jugendlichen im Unterricht über ihren Schlaf. Einige erzählen, dass sie abends lange wach bleiben. Am nächsten Morgen sind sie müde und können sich nur schwer auf die Aufgaben konzentrieren. Lea kennt das Problem: Wenn ihr Handy neben dem Bett liegt, liest sie oft noch Nachrichten, obwohl sie eigentlich schlafen möchte.\n\nDie Klasse sammelt deshalb Ideen für einen ruhigeren Abend. Ein Schüler schlägt vor, das Handy außerhalb des Schlafzimmers aufzuladen. Eine andere Schülerin liest vor dem Schlafengehen ein Buch. Die Lehrerin erklärt, dass die Jugendlichen verschiedene Gewohnheiten ausprobieren und ihre Erfahrungen vergleichen können.\n\nLea entscheidet sich für einen kleinen Versuch. Eine Woche lang legt sie ihr Handy nach dem Abendessen in die Küche. Sie verpasst dadurch manchmal den letzten Austausch in der Klassengruppe. Dafür kommt sie früher zur Ruhe. Nach einigen Tagen berichtet sie, dass sie morgens leichter aufsteht.\n\nNicht alle machen dieselbe Erfahrung. Paul muss abends manchmal auf seine kleine Schwester aufpassen und kann deshalb nicht immer früh ins Bett gehen. Die Klasse merkt, dass nicht nur das Handy eine Rolle spielt. Sie möchte das Thema später noch einmal besprechen.",
+    "preguntas": [
+      {
+        "enunciado": "Lea liest im Bett manchmal Nachrichten, obwohl sie schlafen möchte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin verlangt, dass alle Jugendlichen dieselbe Gewohnheit übernehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea lädt ihr Handy während des Versuchs neben ihrem Bett auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea berichtet nach einigen Tagen, dass sie leichter aufsteht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul passt abends manchmal auf seine kleine Schwester auf.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "altersarmut-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Altersarmut in Deutschland",
+    "descripcion": "Ursachen, Ausmaß und mögliche Lösungen für die wachsende Altersarmut.",
+    "texto": "Wer im Alter nur wenig Einkommen hat, muss bei steigenden Ausgaben besonders sorgfältig planen. Eine niedrige Rente kann verschiedene Ursachen haben. Dazu zählen lange Phasen mit geringen Löhnen sowie Unterbrechungen der Erwerbstätigkeit. Auch die Höhe der Wohnkosten beeinflusst, wie viel Geld am Monatsende übrig bleibt.\n\nFrauen verfügen im Durchschnitt über niedrigere Alterseinkünfte als Männer. Der sogenannte Gender Pension Gap beschreibt diesen Unterschied. Er ist jedoch nicht mit einer Armutsquote gleichzusetzen: Ob ein Mensch von Armut bedroht ist, hängt auch von weiteren Einkünften und seiner Haushaltslage ab. Eine niedrige eigene Rente allein beschreibt die finanzielle Situation daher noch nicht vollständig.\n\nEin Instrument zur Unterstützung ist der Grundrentenzuschlag. Ob ein Anspruch besteht, prüft die Rentenversicherung automatisch; ein gesonderter Antrag auf diesen Zuschlag ist nicht erforderlich. Trotzdem ist damit nicht jede Form von Altersarmut gelöst, denn die Leistung ist an bestimmte Voraussetzungen gebunden.\n\nBei der Diskussion über langfristige Lösungen stehen deshalb mehrere Fragen im Mittelpunkt. Wie lassen sich niedrige Löhne vermeiden? Wie können Menschen Beruf und Pflege besser miteinander vereinbaren? Und wie bleibt bezahlbarer Wohnraum zugänglich? Private Vorsorge kann eine Ergänzung sein, setzt aber voraus, dass während des Erwerbslebens überhaupt Geld zum Sparen vorhanden ist. Wer kaum finanziellen Spielraum hat, kann solche Rücklagen nur schwer aufbauen.",
+    "preguntas": [
+      {
+        "enunciado": "Unterbrechungen der Erwerbstätigkeit können zu einer niedrigen Rente beitragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Gender Pension Gap ist laut Text eine Armutsquote.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Haushaltslage spielt für die finanzielle Situation im Alter eine Rolle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Für den Grundrentenzuschlag muss man einen gesonderten Antrag stellen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Private Vorsorge setzt finanziellen Spielraum zum Sparen voraus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "buergerbeteiligung-und-demokratie",
+    "nivel": "B2",
+    "titulo": "Bürgerbeteiligung und Demokratie",
+    "descripcion": "Wie Bürgerräte und partizipative Verfahren die Demokratie stärken können.",
+    "texto": "Wenn eine Stadt über ihre Zukunft entscheidet, können unterschiedliche Interessen aufeinanderprallen. Während einige Einwohner mehr Parkplätze fordern, wünschen sich andere zusätzliche Grünflächen. Ein Bürgerrat kann dabei helfen, Argumente zu sammeln und mögliche Kompromisse zu entwickeln. Er soll gewählte politische Gremien ergänzen und ersetzt deren Verantwortung nicht.\n\nFür einen solchen Rat können Bürgerinnen und Bürger nach dem Zufallsprinzip eingeladen werden. Damit nicht nur besonders engagierte Personen teilnehmen, braucht es verständliche Informationen und Bedingungen, die eine Teilnahme erleichtern. Dazu können barrierefreie Räume, passende Termine und Unterstützung bei der Kinderbetreuung gehören. Eine Einladung allein garantiert noch keine vielfältige Beteiligung.\n\nWährend der Beratungen hören die Teilnehmenden Fachleute an und diskutieren unterschiedliche Vorschläge. Anschließend formulieren sie Empfehlungen. Befürworter sehen darin eine Chance, auch Erfahrungen aus dem Alltag stärker zu berücksichtigen. Kritiker weisen hingegen darauf hin, dass die Auswahl der Fachleute und die Formulierung der Fragen das Ergebnis beeinflussen können.\n\nEntscheidend ist deshalb, dass das Verfahren transparent bleibt. Bereits zu Beginn sollte geklärt werden, wer am Ende entscheidet und wie mit den Empfehlungen umgegangen wird. Werden Vorschläge abgelehnt, sollten die zuständigen Stellen ihre Gründe nachvollziehbar erklären. Sonst kann eine Beteiligung, die Vertrauen schaffen sollte, zusätzliche Enttäuschung auslösen. Ein Bürgerrat ist daher kein automatisches Erfolgsrezept, sondern ein Verfahren, dessen Qualität von seiner konkreten Gestaltung abhängt.",
+    "preguntas": [
+      {
+        "enunciado": "Ein Bürgerrat soll die Verantwortung gewählter Gremien ersetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Passende Termine und Kinderbetreuung können die Teilnahme erleichtern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Einladung garantiert laut Text bereits eine vielfältige Beteiligung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Auswahl der Fachleute kann laut Kritikern das Ergebnis beeinflussen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die zuständigen Stellen sollten die Ablehnung von Vorschlägen erklären.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenplan",
+    "nivel": "A1",
+    "titulo": "Der Wochenplan",
+    "descripcion": "Paul zeigt seinen Wochenplan mit Schule, Sport und Hobbys.",
+    "texto": "Paul hat einen Wochenplan für die Schule. Montags hat er Mathe und Deutsch. Dienstags hat er Sport und Musik. Er mag Sport sehr gern.\n\nAm Mittwoch geht Paul zum Fußballtraining. Am Donnerstag lernt er Englisch mit seiner Schwester. Am Freitagnachmittag hat er frei und spielt mit Freunden. Er ist froh, wenn das Wochenende kommt.\n\nAm Samstag hilft Paul seiner Mutter im Garten. Am Sonntag besucht die Familie die Großeltern. Paul isst gern Kuchen bei Oma. Danach spielt er mit seinem Cousin.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hat montags Sport und Musik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul geht mittwochs zum Fußballtraining.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Freitagnachmittag hat Paul Unterricht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag besucht die Familie die Großeltern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul isst gern Kuchen bei Oma.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-sprachkurs",
+    "nivel": "A2",
+    "titulo": "Der Sprachkurs",
+    "descripcion": "Elif hat an der Volkshochschule einen Deutschkurs besucht und neue Freunde gefunden.",
+    "texto": "Elif ist vor einem Jahr nach Deutschland gezogen. Weil sie noch nicht gut Deutsch sprechen konnte, hat sie sich an der Volkshochschule für einen Sprachkurs angemeldet. Der Kurs hat zweimal pro Woche stattgefunden.\n\nAm Anfang war es schwer, weil viele Wörter neu für Elif waren. Ihre Lehrerin war sehr geduldig und ihr oft geholfen. Nach ein paar Monaten konnte Elif schon kurze Gespräche führen. Sie hat auch neue Freunde im Kurs kennengelernt, zum Beispiel Marco aus Italien.\n\nAm Ende des Kurses hat es eine kleine Prüfung gegeben. Elif hat sich sehr gefreut, dass sie die Prüfung bestanden hat. Jetzt spricht sie fast jeden Tag Deutsch bei der Arbeit. Sie ist stolz auf ihre Fortschritte.",
+    "preguntas": [
+      {
+        "enunciado": "Elif konnte schon vor dem Kurs sehr gut Deutsch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Sprachkurs hat einmal pro Monat stattgefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elif hat im Kurs einen neuen Freund namens Marco kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Elif hat die Abschlussprüfung nicht bestanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elif spricht jetzt oft Deutsch bei der Arbeit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-familientreffen",
+    "nivel": "A2",
+    "titulo": "Das Familientreffen",
+    "descripcion": "Die Familie Berger hat sich nach langer Zeit zu einem großen Familientreffen versammelt.",
+    "texto": "Am Samstag hat die Familie Berger ein großes Familientreffen organisiert, weil die Großmutter neunzig Jahre alt geworden ist. Verwandte aus ganz Deutschland sind angereist, sogar der Onkel aus Hamburg ist gekommen. Alle haben sich sehr gefreut, sich nach so langer Zeit wiederzusehen.\n\nEs gab ein großes Buffet mit Salaten, Kuchen und gegrilltem Fleisch. Die Kinder haben im Garten gespielt, während die Erwachsenen sich unterhalten haben. Weil das Wetter so schön war, konnten alle draußen sitzen und die Sonne genießen.\n\nAm Abend hat die Großmutter eine kleine Rede gehalten und sich bei allen bedankt. Danach haben alle zusammen ein Foto gemacht. Die Familie hat beschlossen, dass sie sich jedes Jahr wieder treffen möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Das Familientreffen war für den achtzigsten Geburtstag der Großmutter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Onkel aus Hamburg ist zum Treffen gekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Familientreffen hat wegen schlechten Wetters drinnen stattgefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Großmutter hat am Abend eine Rede gehalten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie will sich nie wieder treffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-schueleraustausch",
+    "nivel": "B1",
+    "titulo": "Der Schüleraustausch",
+    "descripcion": "Jonas verbringt drei Monate bei einer Gastfamilie in Frankreich und lernt eine neue Kultur kennen.",
+    "texto": "Jonas hatte schon lange davon geträumt, einmal im Ausland zu leben, und im letzten Schuljahr hat sich endlich die Gelegenheit dazu ergeben. Obwohl er anfangs große Angst hatte, sich in einer fremden Familie nicht wohlzufühlen, hat er sich für einen Schüleraustausch nach Frankreich entschieden. Nachdem er drei Monate bei seiner Gastfamilie in Lyon verbracht hatte, konnte er kaum glauben, wie schnell die Zeit vergangen war.\n\nIn den ersten Wochen fiel es Jonas schwer, dem schnellen Französisch seiner Gastgeschwister zu folgen, doch er gab nicht auf. Deshalb übte er fleißig und sprach jeden Abend mit ihnen über die Schule, das Essen und die Unterschiede zwischen Deutschland und Frankreich. Mit der Zeit verbesserte sich sein Französisch deutlich, und er begann sogar, in seinen Träumen Französisch zu sprechen.\n\nAls der Austausch zu Ende ging, fiel Jonas der Abschied sehr schwer. Er hatte enge Freundschaften geschlossen und eine Kultur kennengelernt, die ihm vorher fremd gewesen war. Zurück in Deutschland erzählt er allen begeistert von seinen Erlebnissen und plant bereits, seine Gastfamilie im nächsten Sommer zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte von Anfang an keine Angst vor dem Austausch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat drei Monate bei einer Gastfamilie in Lyon verbracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sein Französisch hat sich während des Aufenthalts nicht verbessert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas fiel der Abschied von der Gastfamilie leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas möchte seine Gastfamilie im nächsten Sommer wieder besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-wohngemeinschaft",
+    "nivel": "B1",
+    "titulo": "Die neue Wohngemeinschaft",
+    "descripcion": "Miriam zieht für ihr Studium in eine Wohngemeinschaft mit drei anderen Studierenden.",
+    "texto": "Nachdem Miriam einen Studienplatz in München bekommen hatte, musste sie sich schnell um eine Wohnung kümmern. Weil die Mieten in der Stadt sehr hoch sind, entschied sie sich für eine Wohngemeinschaft mit drei anderen Studierenden. Obwohl sie noch nie mit fremden Menschen zusammengewohnt hatte, war sie neugierig auf das neue Leben.\n\nIn den ersten Tagen war es ungewohnt, sich die Küche und das Badezimmer zu teilen. Trotzdem gewöhnte sich Miriam schnell an den Alltag in der WG, zumal ihre Mitbewohner sehr freundlich und hilfsbereit waren. Gemeinsam kochten sie oft am Abend und tauschten sich über ihre Vorlesungen aus. Damit niemand zu viel Arbeit hatte, schrieben sie einen Plan für das Putzen. Jede Woche übernahm eine andere Person das Badezimmer.\n\nNach ein paar Monaten fühlte sich Miriam in der Wohngemeinschaft richtig zu Hause. Sie hatte gute Freunde gefunden, mit denen sie nicht nur wohnte, sondern auch ihre Freizeit verbrachte. Rückblickend war der Umzug in die WG eine der besten Entscheidungen ihres Studiums.",
+    "preguntas": [
+      {
+        "enunciado": "Miriam hat sich für ein eigenes Apartment entschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mieten in München waren laut Text sehr niedrig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Miriams Mitbewohner waren freundlich und hilfsbereit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Miriam hat sich nie an das Leben in der WG gewöhnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Miriam verbringt auch ihre Freizeit mit ihren Mitbewohnern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenfest-im-viertel",
+    "nivel": "B1",
+    "titulo": "Das Straßenfest im Viertel",
+    "descripcion": "Die Nachbarschaft organisiert ein buntes Straßenfest mit Musik, Essen und Ständen.",
+    "texto": "Jedes Jahr im Sommer organisieren die Bewohner des Viertels ein großes Straßenfest, nachdem sie sich im Frühling zu einem Planungstreffen versammelt haben. Obwohl die Organisation viel Arbeit bedeutet, machen alle gerne mit, weil das Fest die Nachbarschaft näher zusammenbringt. In diesem Jahr wurde die Straße extra für den Verkehr gesperrt.\n\nAn zahlreichen Ständen gab es Speisen aus verschiedenen Ländern, denn viele Familien im Viertel haben unterschiedliche kulturelle Wurzeln. Trotz des wechselhaften Wetters kamen viele Besucher, und am Nachmittag spielte sogar eine lokale Band auf einer kleinen Bühne. Kinder konnten sich schminken lassen und an Spielen teilnehmen. Eine Nachbarin erklärte den Gästen, an welchen Ständen sie mitmachen konnten. Wer neu im Viertel war, kam so leicht mit anderen Menschen ins Gespräch.\n\nAm Abend, nachdem die Musik verstummt war, halfen viele Bewohner gemeinsam beim Aufräumen. Alle waren sich einig, dass das Fest ein voller Erfolg gewesen war. Schon jetzt freuen sich viele auf das nächste Straßenfest im kommenden Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Das Straßenfest wird jedes Jahr im Winter organisiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Für das Fest wurde die Straße gesperrt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "An den Ständen gab es nur deutsches Essen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wegen des schlechten Wetters kamen keine Besucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Fest haben die Bewohner gemeinsam aufgeräumt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-mietpreisbremse",
+    "nivel": "B2",
+    "titulo": "Die Mietpreisbremse",
+    "descripcion": "Eine Kursgruppe diskutiert unterschiedliche Perspektiven auf Mietbegrenzungen.",
+    "texto": "Im Deutschkurs bereitet eine Gruppe eine Diskussion über bezahlbares Wohnen vor. Auf dem Arbeitsblatt steht das Wort „Mietpreisbremse“. Die Teilnehmenden sollen zunächst überlegen, welche Ziele eine Begrenzung von Mieten verfolgen könnte. Konkrete gesetzliche Regeln behandelt die Gruppe dabei noch nicht, denn dafür müsste sie aktuelle Informationen prüfen.\n\nNora übernimmt die Rolle einer Wohnungssuchenden. Sie argumentiert, dass Menschen mit niedrigem Einkommen auch in der Nähe ihres Arbeitsplatzes wohnen können sollten. Wenn Mieten bei jedem Umzug stark steigen, werde ein Wohnungswechsel für viele zu einem finanziellen Risiko. Eine Begrenzung könne den Betroffenen deshalb mehr Sicherheit geben.\n\nFelix vertritt in der Übung die Perspektive eines Vermieters. Er fragt, wie notwendige Reparaturen bezahlt werden sollen und welche Anreize für zusätzliche Wohnungen bestehen. Nora entgegnet, dass Mieterschutz und die Förderung von Wohnungsbau gemeinsam betrachtet werden müssten. Eine einzelne Maßnahme könne nicht sämtliche Schwierigkeiten lösen.\n\nAm Ende sammelt die Gruppe Fragen, die während der Diskussion offen geblieben sind. Welche Wohnungen wären von einer Regelung betroffen? Welche Ausnahmen gäbe es? Und woran ließe sich erkennen, ob die Maßnahme tatsächlich hilft? Die Lehrerin lobt, dass niemand eine einfache Lösung verspricht. Bevor die Gruppe ein abschließendes Urteil formuliert, möchte sie unterschiedliche Quellen vergleichen und dabei zwischen politischen Forderungen und geltendem Recht unterscheiden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Gruppe prüft zu Beginn bereits sämtliche aktuellen gesetzlichen Regeln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nora betont die finanzielle Sicherheit von Wohnungssuchenden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix fragt nach der Finanzierung notwendiger Reparaturen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nora hält eine einzelne Maßnahme für ausreichend, um alle Probleme zu lösen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Vor ihrem abschließenden Urteil möchte die Gruppe Quellen vergleichen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "rentensystem-und-demografischer-wandel",
+    "nivel": "B2",
+    "titulo": "Rentensystem und demografischer Wandel",
+    "descripcion": "Eine Schulklasse untersucht mit einem vereinfachten Modell die Verteilung zwischen Generationen.",
+    "texto": "Bei einem Projekttag beschäftigt sich eine Schulklasse mit dem Verhältnis zwischen den Generationen. Die Lehrerin stellt ein vereinfachtes Modell vor: Die arbeitenden Mitglieder einer Gemeinschaft zahlen Beiträge in eine gemeinsame Kasse, aus der die älteren Mitglieder regelmäßige Zahlungen erhalten. Anschließend verändert sie die Bedingungen des Modells, damit die Klasse mögliche Konflikte untersuchen kann.\n\nIn der ersten Runde zahlen zwanzig Personen Beiträge ein, während zehn Personen Geld erhalten. In der zweiten Runde gibt es bei unveränderten Beiträgen weniger Einzahlende, aber mehr Empfänger. Die Klasse erkennt, dass unter diesen Annahmen nicht mehr dieselbe Summe für jede ältere Person zur Verfügung steht.\n\nNun sollen die Jugendlichen verschiedene Vorschläge entwickeln. Eine Gruppe möchte die Beiträge erhöhen. Eine andere schlägt vor, zusätzliche Einnahmequellen zu suchen. Ein Schüler fragt, ob ein längeres Arbeitsleben helfen könnte. Seine Mitschülerin wendet ein, dass Menschen in körperlich belastenden Berufen möglicherweise andere Bedingungen benötigen.\n\nZum Abschluss vergleicht die Klasse die Folgen der Vorschläge. Jede Lösung würde bestimmte Gruppen stärker belasten oder zusätzliche Mittel erfordern. Die Lehrerin betont, dass das Modell reale Rentensysteme nur teilweise abbildet. Es fehlen beispielsweise Unterschiede bei Löhnen und Erwerbsverläufen. Gerade deshalb sollen die Jugendlichen ihre Ergebnisse nicht als fertiges Reformprogramm verstehen, sondern als Ausgangspunkt für weitere Fragen über eine faire Verteilung.",
+    "preguntas": [
+      {
+        "enunciado": "Die gemeinsame Kasse erhält im Modell Beiträge von arbeitenden Mitgliedern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der zweiten Runde bleibt die Zahl der Einzahlenden unverändert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Gruppe schlägt zusätzliche Einnahmequellen vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Jugendlichen halten längeres Arbeiten für jede Berufsgruppe gleichermaßen einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin erklärt, dass das Modell die Wirklichkeit nur teilweise abbildet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "cybermobbing-und-digitale-verantwortung",
+    "nivel": "B2",
+    "titulo": "Cybermobbing und digitale Verantwortung",
+    "descripcion": "Eine Klasse übernimmt Verantwortung, nachdem ein Schüler online angegriffen wurde.",
+    "texto": "Als in der Klassengruppe ein bearbeitetes Foto von Deniz auftaucht, halten einige Jugendliche es zunächst für einen harmlosen Scherz. Unter dem Bild sammeln sich jedoch beleidigende Kommentare. Deniz verlässt die Gruppe und möchte am nächsten Morgen nicht zur Schule gehen. Seine Freundin Mira merkt, dass die Situation für ihn deutlich belastender ist, als andere wahrhaben wollen.\n\nMira spricht Deniz persönlich an und fragt, welche Unterstützung er möchte. Gemeinsam wenden sie sich an eine Vertrauenslehrerin. Diese nimmt die Schilderung ernst und bespricht mit Deniz die nächsten Schritte. Sie macht deutlich, dass er nicht dafür verantwortlich ist, die Angriffe allein zu beenden.\n\nIn einer späteren Unterrichtsstunde diskutiert die Klasse über digitale Verantwortung. Dabei geht es nicht nur um die Person, die das Foto zuerst veröffentlicht hat. Auch das Weiterleiten und zustimmende Kommentare können dazu beitragen, dass eine Demütigung mehr Menschen erreicht. Einige Jugendliche erkennen, dass ihr Schweigen von anderen als Zustimmung verstanden wurde.\n\nDie Klasse vereinbart, verletzende Inhalte nicht weiterzuverbreiten und Betroffene aktiv zu unterstützen. Gleichzeitig soll klar sein, an wen sich Schülerinnen und Schüler bei Problemen wenden können. Die Lehrerin warnt davor, eine einzige Gesprächsrunde bereits als Lösung zu betrachten. Ob sich das Verhalten dauerhaft verändert, möchte sie in den kommenden Wochen gemeinsam mit der Klasse überprüfen.",
+    "preguntas": [
+      {
+        "enunciado": "Unter dem bearbeiteten Foto erscheinen beleidigende Kommentare.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Deniz empfindet die Situation als harmlosen Scherz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mira fragt Deniz, welche Unterstützung er möchte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse beschließt, verletzende Bilder möglichst oft weiterzuleiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin möchte die Entwicklung in den kommenden Wochen überprüfen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitale-kluft-zwischen-generationen",
+    "nivel": "B2",
+    "titulo": "Digitale Kluft zwischen den Generationen",
+    "descripcion": "Ein Stadtteilzentrum verbessert seine digitale Anmeldung und erhält persönliche Hilfe.",
+    "texto": "Im Stadtteilzentrum soll die Anmeldung für Veranstaltungen künftig über ein neues Onlineformular erfolgen. Bei der Vorstellung meldet sich Frau Winter zu Wort. Sie nutzt zwar ein Smartphone, findet aber die Schrift auf der Webseite zu klein und versteht einige Schaltflächen nicht. Ihr Nachbar hat ein anderes Problem: Er besitzt keinen eigenen Internetzugang und möchte weiterhin persönlich einen Platz reservieren können.\n\nDie Leiterin hatte zunächst angenommen, dass eine digitale Anmeldung für alle bequemer wäre. Nun erkennt sie, dass unterschiedliche Bedürfnisse berücksichtigt werden müssen. Gemeinsam mit einem ehrenamtlichen Team organisiert sie deshalb einen Nachmittag, an dem Interessierte das Formular ausprobieren und Schwierigkeiten beschreiben können.\n\nDabei zeigt sich, dass das Alter allein wenig über die Fähigkeiten aussagt. Ein älterer Teilnehmer hilft anderen beim Umgang mit dem Browser, während eine jüngere Besucherin Unterstützung beim Ausfüllen benötigt. Manche Unsicherheiten hängen mit fehlender Übung zusammen, andere mit der Gestaltung der Webseite.\n\nDas Team vergrößert die Schrift und formuliert die Hinweise verständlicher. Außerdem bleibt die Anmeldung am Empfang möglich. Frau Winter begrüßt diese Entscheidung, weil niemand zur Nutzung eines bestimmten Geräts gezwungen wird. Für die Leiterin steht am Ende fest: Digitale Angebote erleichtern den Zugang nur dann, wenn ihre Gestaltung überprüft wird und Menschen bei Bedarf Unterstützung erhalten. Technischer Fortschritt allein garantiert noch keine Teilhabe.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Winter hat Schwierigkeiten mit der Schriftgröße und einigen Schaltflächen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Nachbar besitzt einen eigenen Internetzugang.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bei dem Treffen hilft ein älterer Teilnehmer anderen mit dem Browser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Stadtteilzentrum schafft die persönliche Anmeldung vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Team überarbeitet Schriftgröße und Hinweise auf der Webseite.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lisas-lieblingsfarben",
+    "nivel": "A1",
+    "titulo": "Lisas Lieblingsfarben",
+    "descripcion": "Lisa erzählt von ihren Lieblingsfarben und ihrer Kleidung.",
+    "texto": "Lisa mag viele Farben. Ihre Lieblingsfarbe ist Blau. Sie hat ein blaues Fahrrad und eine blaue Tasche. Ihr Zimmer ist auch blau. Blau macht sie glücklich.\n\nIhr Bruder Tom mag Grün. Er hat ein grünes T-Shirt und grüne Schuhe. Er sagt: „Grün ist die Farbe der Natur.“ Die Geschwister streiten manchmal über Farben. Aber sie lachen auch viel zusammen.\n\nAm Wochenende kaufen Lisa und Tom neue Kleidung. Lisa findet ein blaues Kleid. Tom findet eine grüne Jacke. Die Mutter kauft für sich ein rotes Halstuch. Alle sind zufrieden mit ihren Farben.",
+    "preguntas": [
+      {
+        "enunciado": "Lisas Lieblingsfarbe ist Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom mag am liebsten die Farbe Rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa hat ein blaues Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Geschwister kaufen am Wochenende neue Kleidung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter kauft eine grüne Jacke.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "sabines-verlorener-schluessel",
+    "nivel": "A2",
+    "titulo": "Sabines verlorener Schlüssel",
+    "descripcion": "Sabine hat ihren Wohnungsschlüssel verloren und musste einen Schlüsseldienst rufen.",
+    "texto": "Gestern Abend ist Sabine nach Hause gekommen und hat gemerkt, dass sie ihren Schlüssel nicht mehr hatte. Sie hat ihre Tasche durchsucht, aber der Schlüssel war nicht da. Weil es schon dunkel war, hat sie sich Sorgen gemacht.\n\nSabine hat ihre Nachbarin Frau Berger angerufen und gefragt, ob sie einen Ersatzschlüssel hatte. Leider hatte Frau Berger keinen Schlüssel für Sabines Wohnung. Deshalb hat Sabine einen Schlüsseldienst gerufen. Der Mann vom Schlüsseldienst ist nach dreißig Minuten gekommen und hat die Tür schnell geöffnet.\n\nSpäter hat Sabine ihren Schlüssel doch noch gefunden. Er war in ihrer Jackentasche. Sie hat gelacht, weil sie so lange gesucht hatte. Seitdem legt sie den Schlüssel immer an denselben Platz.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hat ihren Schlüssel sofort in der Tasche gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine hat ihre Nachbarin um Hilfe gebeten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger hatte einen Ersatzschlüssel für Sabines Wohnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schlüsseldienst hat die Tür geöffnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine hat den Schlüssel am Ende in ihrer Jackentasche gefunden.",
+        "respuesta": true
+      }
+    ]
   }
 ];
 

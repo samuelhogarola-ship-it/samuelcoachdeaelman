@@ -29,4 +29,12 @@ export default [
       "no-console": "off",
     },
   },
+  {
+    // First-party browser modules must parse on the oldest supported iOS 13.
+    files: ["assets/js/**/*.js", "assets/js/**/*.mjs"],
+    languageOptions: {
+      ecmaVersion: 2019,
+      sourceType: "module",
+    },
+  },
 ];
