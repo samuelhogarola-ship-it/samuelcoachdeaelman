@@ -1,5 +1,13 @@
 # NEXT
 
+## Avance revisable — 2026-10-05
+
+- 20 lecturas revisadas recuperadas de #104/#105: 491 en total; 60 nuevas páginas ES/DE/EN.
+- Corrección de callbacks del login y validación ES2019 para módulos propios en CI.
+- 225 Sprachbausteine publicados preservados mediante `assets/data/sprachbausteine-published.json`; los borradores automáticos necesitan revisión editorial antes de incorporarse a esa fuente.
+- Auditoría de las seis PR abiertas (#86, #88, #97, #103, #104, #105): `docs/recovery/2026-10-05-school-content-review.md`. No fusionadas ni desplegadas por esta tarea.
+- Bloqueo de producción reconfirmado: `hocdlmxzghwymamientc.supabase.co` devuelve NXDOMAIN. Restaurar/verificar el proyecto existente antes de validar cuentas reales; no sustituirlo por otro proyecto.
+
 ## PRs abiertos
 
 - **PR #86** — `codex/professional-audit-fixes`: SEO multilingüe de Málaga y producto de exámenes B1/B2
@@ -33,7 +41,7 @@ Orden obligatorio:
 - **Privacidad legal**: sustituir el borrador tras revisión legal y documentar Chatbase, Supabase, Resend y Cloudflare.
 - **Consentimiento Chatbase**: bloquearlo hasta consentimiento o retirarlo.
 - **Cabeceras**: añadir HSTS, CSP con nonce/hash, `frame-ancestors`, Referrer Policy y Permissions Policy tras inventariar scripts externos.
-- **iOS 13**: retirar sintaxis incompatible de `assets/js/auth.js` y convertir la regla en check de CI.
+- **iOS 13**: sintaxis propia corregida y gate ES2019 implementado en la rama de revisión del 2026-10-05. Queda pendiente la validación real de APIs y SDK remoto en los dispositivos soportados.
 - **studio-panel**: admin de Vokabel-World (imKontext) y sección Fuengirola — PRs pendientes en web-fuengirola
 - **Migraciones WF-Studio**: clientes Angel, Indira, Sofia → migrar auth a apps-users
 

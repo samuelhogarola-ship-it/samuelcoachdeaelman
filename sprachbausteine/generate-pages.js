@@ -961,7 +961,9 @@ function buildTypeAssignments() {
 
 const TYPE_ASSIGNMENTS = buildTypeAssignments();
 
-function buildExercises() {
+// Draft creation is deliberately separate from publication. Adding readings
+// must not reassign existing exercise types, answers, or saved gap identities.
+function buildDraftExercises() {
   return TEXTOS.map((text) => {
     const tipo = TYPE_ASSIGNMENTS[text.nivel][text.slug];
     const gapCount = getGapCount(text.nivel);
@@ -1307,6 +1309,10 @@ function updateSitemap(exercises) {
   fs.writeFileSync(sitemapPath, sitemap);
 }
 
+function buildExercises() {
+  return JSON.parse(fs.readFileSync(path.join(ROOT_DIR, "assets/data/sprachbausteine-published.json"), "utf8"));
+}
+
 function generate() {
   const exercises = buildExercises();
   writeDataFile(exercises);
@@ -1377,4 +1383,4 @@ if (require.main === module) {
   process.exit(0);
 }
 
-module.exports = { generate };
+module.exports = { generate, buildExercises, buildDraftExercises };

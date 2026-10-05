@@ -151,7 +151,7 @@ function updatePremiumBlocks(user) {
 // ── Init ───────────────────────────────────────────────────────────────────────
 
 function applyAuthState(user) {
-  window.__samuelUser = user ?? null  // accesible desde scripts no-módulo
+  window.__samuelUser = user == null ? null : user  // accesible desde scripts no-módulo
   updateNav(user)
   updatePremiumBlocks(user)
 }
@@ -193,12 +193,16 @@ export async function finishAuthSessionFromUrl() {
   const hashParams = new URLSearchParams(url.hash.startsWith('#') ? url.hash.slice(1) : '')
   const type = url.searchParams.get('type') || hashParams.get('type') || ''
   const isRecovery = url.searchParams.get('reset') === '1' || type === 'recovery'
-  const errorDescription = url.searchParams.get('error_description') || hashParams.get('error_description')
+  const errorDescription =
+    url.searchParams.get('error_description') || hashParams.get('error_description') ||
+    url.searchParams.get('error_code') || hashParams.get('error_code') ||
+    url.searchParams.get('error') || hashParams.get('error')
 
   if (errorDescription) {
     cleanupAuthUrl()
     return {
-      error: new Error(decodeURIComponent(errorDescription.replace(/\+/g, ' '))),
+      // URLSearchParams has already decoded the value, including literal % and +.
+      error: new Error(errorDescription),
       isRecovery,
       session: null,
     }
@@ -214,23 +218,23 @@ export async function finishAuthSessionFromUrl() {
   if (code) {
     const { data, error } = await supabase.auth.exchangeCodeForSession(code)
     cleanupAuthUrl()
-    return { error, isRecovery, session: data?.session ?? null }
+    return { error, isRecovery, session: data == null || data.session == null ? null : data.session }
   }
 
   if (tokenHash && type) {
     const { data, error } = await supabase.auth.verifyOtp({ token_hash: tokenHash, type })
     cleanupAuthUrl()
-    return { error, isRecovery, session: data?.session ?? null }
+    return { error, isRecovery, session: data == null || data.session == null ? null : data.session }
   }
 
   if (hasHashSession) {
     const { data, error } = await supabase.auth.getSession()
     cleanupAuthUrl()
-    return { error: error ?? null, isRecovery, session: data?.session ?? null }
+    return { error: error == null ? null : error, isRecovery, session: data == null || data.session == null ? null : data.session }
   }
 
   const { data, error } = await supabase.auth.getSession()
-  return { error: error ?? null, isRecovery, session: data?.session ?? null }
+  return { error: error == null ? null : error, isRecovery, session: data == null || data.session == null ? null : data.session }
 }
 
 export async function getUser() {
@@ -287,7 +291,7 @@ export async function redeemPremiumCode(code) {
     p_code: cleaned,
   })
 
-  return { ok: data === true && !error, error: error ?? null }
+  return { ok: data === true && !error, error: error == null ? null : error }
 }
 
 export async function requirePremium(redirectTo = location.pathname) {
