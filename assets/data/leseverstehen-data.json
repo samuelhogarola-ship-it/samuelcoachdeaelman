@@ -35966,5 +35966,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-apfelkuchen-von-mama",
+    "nivel": "A1",
+    "titulo": "Der Apfelkuchen von Mama",
+    "descripcion": "Lena backt mit ihrer Mutter einen Apfelkuchen für den Geburtstag.",
+    "texto": "Lena ist acht Jahre alt. Heute backt sie mit ihrer Mutter einen Apfelkuchen. Der Kuchen ist für den Geburtstag von Opa. Lena wäscht die Äpfel und ihre Mutter schneidet sie klein.\n\nIn der Küche riecht es nach Zimt und Zucker. Lena mischt die Butter, die Eier und das Mehl in einer großen Schüssel. Ihre Mutter sagt: „Pass auf, der Teig ist klebrig!“ Lena lacht und hat Mehl auf der Nase.\n\nNach einer Stunde ist der Kuchen fertig. Er ist braun und duftet herrlich. Lena und ihre Mutter bringen den Kuchen zu Opa. Opa freut sich sehr und isst gleich zwei Stücke.",
+    "preguntas": [
+      {
+        "enunciado": "Lena backt den Kuchen mit ihrem Vater.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kuchen ist ein Apfelkuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen ist für den Geburtstag von Opa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena hat Zucker auf der Nase.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa isst zwei Stücke von dem Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-haustier-der-wellensittich",
+    "nivel": "A1",
+    "titulo": "Mein Haustier, der Wellensittich",
+    "descripcion": "Tom erzählt von seinem kleinen Vogel namens Kiwi.",
+    "texto": "Tom hat einen Wellensittich. Der Vogel heißt Kiwi und ist grün und gelb. Kiwi wohnt in einem großen Käfig im Wohnzimmer. Jeden Morgen füttert Tom den Vogel mit Körnern und frischem Obst.\n\nKiwi kann ein paar Wörter sprechen. Er sagt oft „Hallo“ und „Tom“. Tom spielt gern mit seinem Vogel. Manchmal fliegt Kiwi durch das ganze Zimmer und landet auf Toms Schulter.\n\nAm Abend macht Tom den Käfig sauber und gibt Kiwi frisches Wasser. Dann deckt er den Käfig mit einem Tuch zu. Kiwi schläft die ganze Nacht ruhig.",
+    "preguntas": [
+      {
+        "enunciado": "Kiwi ist eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kiwi ist grün und gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom füttert Kiwi nur einmal pro Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kiwi kann ein paar Wörter sprechen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom deckt den Käfig am Abend zu.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einkaufen-im-bioladen",
+    "nivel": "A1",
+    "titulo": "Einkaufen im Bioladen",
+    "descripcion": "Frau Berger kauft frisches Gemüse und Brot in einem Bioladen.",
+    "texto": "Frau Berger geht jeden Freitag in den Bioladen. Der Laden ist klein, aber es gibt viele frische Sachen. Sie kauft Karotten, Äpfel und ein Vollkornbrot. Das Gemüse kommt von einem Bauernhof in der Nähe.\n\nIm Laden gibt es auch Milch und Eier von glücklichen Hühnern. Frau Berger mag die freundliche Verkäuferin. Die Verkäuferin kennt alle Kunden mit Namen und gibt immer Tipps für neue Rezepte.\n\nAm Ende kauft Frau Berger noch Honig für ihren Tee. Sie bezahlt an der Kasse und packt alles in ihre Tasche. Dann fährt sie mit dem Fahrrad nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger geht jeden Montag in den Bioladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Gemüse kommt von einem Bauernhof in der Nähe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Laden gibt es keine Eier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger kauft Honig für ihren Tee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger fährt mit dem Auto nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-verspaetete-bahn-nach-muenchen",
+    "nivel": "A2",
+    "titulo": "Die verspätete Bahn nach München",
+    "descripcion": "Jonas erlebt eine lange Zugverspätung auf dem Weg nach München.",
+    "texto": "Jonas wollte am Samstag mit dem Zug nach München fahren, weil er dort seine Schwester besuchen wollte. Er ist früh zum Bahnhof gegangen, weil er den Zug nicht verpassen wollte. Auf der Anzeigetafel stand plötzlich: „Verspätung von 90 Minuten“.\n\nJonas hat sich sehr geärgert, weil er schon eine Verabredung für den Mittag hatte. Er hat seine Schwester angerufen und ihr Bescheid gesagt, dass er später kommt. Am Bahnhof hat er einen Kaffee getrunken und ein Buch gelesen, um die Zeit zu überbrücken.\n\nAls der Zug endlich kam, war er sehr voll. Jonas musste im Gang stehen, weil alle Plätze besetzt waren. Trotzdem war er froh, dass er am Ende sicher in München angekommen ist. Seine Schwester hat ihn lachend am Bahnhof abgeholt.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas wollte nach Hamburg fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug hatte eine Verspätung von 90 Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat seine Schwester nicht informiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Zug waren noch viele freie Plätze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas ist am Ende sicher in München angekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarin-aus-polen",
+    "nivel": "A2",
+    "titulo": "Die Nachbarin aus Polen",
+    "descripcion": "Herr Meier lernt seine neue Nachbarin Ewa kennen und freut sich über die Freundschaft.",
+    "texto": "Vor zwei Monaten ist eine neue Familie in das Haus nebenan eingezogen. Herr Meier hat die Nachbarin, Ewa, zuerst nur kurz gegrüßt, weil er schüchtern war. Eines Tages hat Ewa an seine Tür geklopft, weil sie etwas Mehl zum Backen brauchte.\n\nHerr Meier hat ihr gern geholfen, und sie haben sich lange im Treppenhaus unterhalten. Ewa kommt aus Polen und hat erzählt, dass sie dort Lehrerin war. Herr Meier war fasziniert, weil er selbst gern Sprachen lernt.\n\nSeitdem trinken die beiden fast jede Woche zusammen Tee. Ewa hat ihm sogar ein paar polnische Wörter beigebracht. Herr Meier ist glücklich, dass er eine so freundliche Nachbarin hat.",
+    "preguntas": [
+      {
+        "enunciado": "Die neue Familie ist vor zwei Jahren eingezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ewa hat Mehl zum Backen gebraucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ewa kommt aus Polen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Meier interessiert sich nicht für Sprachen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ewa hat Herrn Meier polnische Wörter beigebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-in-den-bergen",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende in den Bergen",
+    "descripcion": "Familie Hofer verbringt ein entspanntes Wochenende in einer Berghütte.",
+    "texto": "Familie Hofer ist am Freitagabend in die Berge gefahren, weil sie eine Pause vom Alltag brauchten. Sie haben eine kleine Hütte gemietet, die mitten im Wald liegt. Es gab kein Internet und kein Fernsehen, nur Ruhe und frische Luft.\n\nAm Samstag sind sie früh aufgestanden und zu einem See gewandert. Der Weg war steil, aber die Kinder haben nicht geklagt, weil die Aussicht so schön war. Am See haben sie ein Picknick gemacht und sind sogar kurz geschwommen, obwohl das Wasser kalt war.\n\nAbends haben sie in der Hütte ein Feuer gemacht und Kartoffeln gebraten. Alle waren müde, aber zufrieden. Herr Hofer hat gesagt, dass sie das nächste Mal unbedingt wiederkommen sollten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist am Montag in die Berge gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Hütte gab es kein Internet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben sich über den steilen Weg beschwert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat am See ein Picknick gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Hofer möchte nie wieder in die Berge fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-schulpraktikum-in-der-baeckerei",
+    "nivel": "B1",
+    "titulo": "Das Schulpraktikum in der Bäckerei",
+    "descripcion": "Niklas macht ein zweiwöchiges Praktikum in einer traditionellen Bäckerei.",
+    "texto": "Niklas musste für die Schule ein zweiwöchiges Praktikum absolvieren und hat sich für eine kleine Bäckerei in seiner Nachbarschaft entschieden. Obwohl er anfangs dachte, dass die Arbeit einfach sei, merkte er schon am ersten Tag, wie viel Geschick das Backen erfordert. Er musste um vier Uhr morgens aufstehen, nachdem er sich die ganze Woche kaum daran gewöhnen konnte.\n\nDer Bäckermeister zeigte ihm, wie man Teig knetet und wie wichtig die richtige Temperatur für das Brot ist. Nachdem Niklas einige Male Fehler gemacht hatte, zum Beispiel zu viel Mehl verwendet, begann er langsam, ein Gefühl für die Mengen zu entwickeln. Trotzdem war er erstaunt, wie körperlich anstrengend der Beruf wirklich ist.\n\nAm Ende des Praktikums durfte Niklas zum ersten Mal allein ein Blech Brötchen backen. Obwohl die Brötchen nicht perfekt aussahen, war er sehr stolz auf sein Ergebnis. Er erzählte seinen Eltern begeistert, dass er sich vorstellen könnte, später eine Ausbildung zum Bäcker zu machen.",
+    "preguntas": [
+      {
+        "enunciado": "Niklas macht sein Praktikum in einem Supermarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas musste sehr früh aufstehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niklas hat beim Backen nie Fehler gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende durfte Niklas allein Brötchen backen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niklas kann sich eine Ausbildung zum Bäcker vorstellen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "umzug-wegen-der-neuen-arbeitsstelle",
+    "nivel": "B1",
+    "titulo": "Umzug wegen der neuen Arbeitsstelle",
+    "descripcion": "Sophie zieht wegen einer neuen Arbeitsstelle in eine fremde Stadt und muss sich dort einleben.",
+    "texto": "Sophie hat vor einem Monat eine neue Arbeitsstelle in Leipzig angenommen, obwohl sie ihre vertraute Umgebung in Köln sehr mochte. Nachdem sie die Zusage erhalten hatte, musste sie innerhalb von wenigen Wochen eine neue Wohnung finden und ihren gesamten Haushalt organisieren. Der Umzug war stressig, trotzdem war Sophie überzeugt, dass sich die Veränderung lohnen würde.\n\nIn Leipzig kannte sie zunächst niemanden, was ihr am Anfang schwerfiel. Sie verbrachte die Abende oft allein in ihrer neuen Wohnung, nachdem sie den ganzen Tag im Büro gearbeitet hatte. Obwohl die Kollegen freundlich waren, dauerte es einige Zeit, bis sie sich wirklich zugehörig fühlte.\n\nMit der Zeit lernte Sophie durch einen Sportverein neue Leute kennen und fand sogar eine gute Freundin. Nachdem sie sich eingelebt hatte, merkte sie, dass der Umzug trotz aller Schwierigkeiten eine gute Entscheidung gewesen war. Heute kann sie sich ein Leben ohne ihre neue Stadt kaum noch vorstellen.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist von Köln nach Leipzig gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie fand sofort viele Freunde in der neuen Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat durch einen Sportverein neue Leute kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kollegen in Leipzig waren unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie bereut den Umzug am Ende der Geschichte.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest-nach-der-pandemie",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest nach der Pandemie",
+    "descripcion": "Eine Kleinstadt feiert ihr erstes großes Stadtfest nach mehreren Jahren Pause.",
+    "texto": "Nachdem das Stadtfest mehrere Jahre lang wegen der Pandemie abgesagt worden war, konnte es in diesem Sommer endlich wieder stattfinden. Die Bewohner der kleinen Stadt freuten sich riesig, obwohl die Organisatoren im Vorfeld viele Sorgen hatten, dass nicht genug Besucher kommen würden. Am Ende kamen jedoch mehr Menschen als jemals zuvor.\n\nAuf dem Marktplatz gab es Musik, Essen aus verschiedenen Ländern und einen großen Kunsthandwerksmarkt. Besonders die Kinder genossen die Fahrgeschäfte, während die Erwachsenen sich an den Ständen unterhielten, die sie so lange vermisst hatten. Obwohl das Wetter am Nachmittag etwas regnerisch wurde, blieb die Stimmung ausgezeichnet.\n\nAm Abend trafen sich viele alte Freunde wieder, nachdem sie sich jahrelang nicht gesehen hatten. Die Bürgermeisterin sagte in ihrer Rede, dass das Fest zeige, wie wichtig Gemeinschaft nach einer so schwierigen Zeit sei. Viele Bewohner waren sich einig, dass dieses Stadtfest unvergesslich bleiben würde.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest fand jedes Jahr ohne Unterbrechung statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es kamen mehr Besucher als erwartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf dem Fest gab es keine Musik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag wurde das Wetter etwas regnerisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bürgermeisterin hat keine Rede gehalten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reform-des-bildungssystems-debatte",
+    "nivel": "B2",
+    "titulo": "Die Debatte um eine Reform des Bildungssystems",
+    "descripcion": "Experten diskutieren, ob das deutsche Schulsystem grundlegend reformiert werden sollte.",
+    "texto": "Seit Jahren wird in Deutschland intensiv darüber diskutiert, ob das Bildungssystem grundlegend reformiert werden müsste, um den Anforderungen einer zunehmend digitalisierten Gesellschaft gerecht zu werden. Kritiker bemängeln, dass der Unterricht in vielen Schulen noch immer auf veralteten Methoden basiere, während digitale Kompetenzen kaum systematisch vermittelt würden. Befürworter des bestehenden Systems hingegen argumentieren, dass bewährte pädagogische Prinzipien nicht vorschnell aufgegeben werden sollten, nur weil neue Technologien verfügbar seien.\n\nBesonders umstritten ist die Frage, inwiefern das traditionelle Notensystem durch alternative Bewertungsformen ersetzt werden sollte. Wäre es sinnvoller, individuelle Lernfortschritte stärker zu berücksichtigen, anstatt Schüler ausschließlich anhand standardisierter Tests zu vergleichen? Manche Bildungsforscher sind überzeugt, dass ein solcher Wandel die Motivation der Lernenden erheblich steigern könnte, während andere befürchten, dass dadurch wichtige Vergleichsmaßstäbe verloren gingen.\n\nHinzu kommt die chronische Unterfinanzierung vieler Schulen, die von Lehrerverbänden seit Langem kritisiert wird. Ohne ausreichende Investitionen in Gebäude, Ausstattung und Personal, so die Warnung, könnten selbst die besten reformpädagogischen Konzepte kaum umgesetzt werden. Es bleibt daher fraglich, ob die angekündigten Reformvorhaben der Politik tatsächlich zu den notwendigen strukturellen Veränderungen führen werden.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Experten sind sich über die notwendige Reform einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln veraltete Unterrichtsmethoden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frage nach alternativen Bewertungsformen ist unumstritten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lehrerverbände kritisieren die chronische Unterfinanzierung der Schulen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die Reform bereits erfolgreich abgeschlossen wurde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "desinformation-in-sozialen-netzwerken",
+    "nivel": "B2",
+    "titulo": "Desinformation in sozialen Netzwerken",
+    "descripcion": "Ein Blick auf die Herausforderungen, die Falschinformationen im Internet für die Gesellschaft mit sich bringen.",
+    "texto": "In den letzten Jahren ist die Verbreitung von Desinformation in sozialen Netzwerken zu einem der zentralen gesellschaftlichen Probleme geworden. Studien zeigen, dass falsche Nachrichten häufig schneller verbreitet werden als korrekte Informationen, da sie oft emotionaler formuliert sind und stärkere Reaktionen hervorrufen. Besonders problematisch sei, dass viele Nutzer Inhalte teilen würden, ohne deren Wahrheitsgehalt zuvor zu überprüfen.\n\nWürde man die Verantwortung ausschließlich bei den einzelnen Nutzern suchen, griffe man jedoch zu kurz. Die Algorithmen der großen Plattformen sind so konzipiert, dass sie Inhalte bevorzugen, die besonders viel Aufmerksamkeit erzeugen, unabhängig davon, ob diese Inhalte sachlich korrekt sind. Dadurch entstehe ein System, in dem reißerische und polarisierende Beiträge systematisch begünstigt würden, während differenzierte Analysen kaum Beachtung fänden.\n\nUm diesem Problem entgegenzuwirken, fordern viele Medienexperten strengere Regulierungen für die Betreiber sozialer Netzwerke sowie eine verstärkte Förderung von Medienkompetenz an Schulen. Nur wenn Menschen frühzeitig lernten, Quellen kritisch zu hinterfragen, könnte langfristig verhindert werden, dass Desinformation das Vertrauen in demokratische Institutionen weiter untergräbt. Ob solche Maßnahmen jedoch ausreichen werden, bleibt angesichts der rasanten technologischen Entwicklung weiterhin ungewiss.",
+    "preguntas": [
+      {
+        "enunciado": "Falsche Nachrichten verbreiten sich laut Studien langsamer als korrekte Informationen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Algorithmen der Plattformen bevorzugen Inhalte mit viel Aufmerksamkeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht die Verantwortung ausschließlich bei den einzelnen Nutzern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienexperten fordern mehr Medienkompetenz an Schulen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem sei bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-krise-des-mietmarkts-in-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Die Krise des Mietmarkts in Großstädten",
+    "descripcion": "Eine Analyse der steigenden Mietpreise in deutschen Großstädten und ihrer sozialen Folgen.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Lage auf dem Wohnungsmarkt in den vergangenen Jahren erheblich verschärft. Während die Nachfrage nach bezahlbarem Wohnraum stetig steigt, wird in vielen Innenstädten kaum noch neuer Wohnraum geschaffen, der für durchschnittliche Haushalte erschwinglich wäre. Dies führt dazu, dass vor allem Familien mit geringem Einkommen zunehmend in die Randbezirke oder sogar ins Umland verdrängt werden.\n\nWürde die Politik konsequenter in den sozialen Wohnungsbau investieren, ließe sich die Situation nach Ansicht vieler Fachleute deutlich entschärfen. Stattdessen wird in der öffentlichen Debatte oft über Mietpreisbremsen diskutiert, deren Wirksamkeit von Ökonomen allerdings unterschiedlich bewertet wird. Manche Experten argumentieren, dass solche Regulierungen zwar kurzfristig Mieter schützten, langfristig jedoch Investitionen in neuen Wohnraum hemmten.\n\nHinzu kommt, dass spekulative Investments von institutionellen Anlegern den Druck auf dem Markt weiter erhöhen, da zunehmend mehr Wohnungen nicht als Lebensraum, sondern als reines Anlageobjekt betrachtet werden. Sozialverbände warnen davor, dass diese Entwicklung die soziale Durchmischung der Städte gefährde. Ohne ein koordiniertes Zusammenwirken von Bund, Ländern und Kommunen, so die einhellige Einschätzung vieler Beobachter, werde sich die angespannte Lage auf dem Wohnungsmarkt in absehbarer Zeit kaum entspannen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Nachfrage nach bezahlbarem Wohnraum sinkt laut Text.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Familien mit geringem Einkommen werden oft in Randbezirke verdrängt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Ökonomen bewerten Mietpreisbremsen gleich positiv.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Spekulative Investments erhöhen laut Text den Druck auf dem Wohnungsmarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die Wohnungskrise sei bereits gelöst.",
+        "respuesta": false
+      }
+    ]
   }
 ]
