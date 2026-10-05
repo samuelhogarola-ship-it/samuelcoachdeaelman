@@ -34922,5 +34922,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "ein-blumenstrauss-fuer-mama",
+    "nivel": "A1",
+    "titulo": "Ein Blumenstrauß für Mama",
+    "descripcion": "Lena kauft Blumen für ihre Mutter zum Muttertag.",
+    "texto": "Heute ist Muttertag. Lena geht in den Blumenladen. Der Laden ist klein und bunt. Es gibt rote Rosen, gelbe Tulpen und weiße Lilien.\n\nLena schaut sich lange um. Sie mag die gelben Tulpen am liebsten. Die Verkäuferin fragt: „Welche Blumen möchtest du?\" Lena sagt: „Ich nehme fünf gelbe Tulpen, bitte.\" Die Blumen kosten acht Euro. Lena bezahlt und bekommt ein grünes Band dazu.\n\nZu Hause gibt Lena ihrer Mutter die Blumen. Ihre Mutter lacht und ist sehr glücklich. Sie stellt die Tulpen in eine Vase auf den Tisch. Die ganze Familie trinkt zusammen Tee und isst Kuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Lena kauft Blumen für ihre Mutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Laden gibt es nur rote Rosen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena nimmt fünf gelbe Tulpen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Blumen kosten zwanzig Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie trinkt zusammen Tee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-montagmorgen",
+    "nivel": "A1",
+    "titulo": "Der Montagmorgen",
+    "descripcion": "Tom beschreibt seinen typischen Montagmorgen vor der Arbeit.",
+    "texto": "Tom steht jeden Montag um sechs Uhr auf. Er putzt sich die Zähne und duscht schnell. Dann macht er Kaffee und isst ein Brot mit Käse.\n\nUm sieben Uhr zieht Tom seine Jacke an und nimmt seine Tasche. Er fährt mit dem Fahrrad zur Arbeit. Der Weg dauert zwanzig Minuten. Auf dem Weg kauft er manchmal eine Zeitung am Kiosk.\n\nUm halb acht kommt Tom im Büro an. Er trinkt noch einen Kaffee und spricht kurz mit seinen Kollegen. Dann beginnt sein Arbeitstag. Tom mag den Montagmorgen, weil die Woche frisch anfängt.",
+    "preguntas": [
+      {
+        "enunciado": "Tom steht um sechs Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom isst morgens nichts.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom fährt mit dem Auto zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Weg zur Arbeit dauert zwanzig Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom kommt um halb acht im Büro an.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "joggen-im-park",
+    "nivel": "A1",
+    "titulo": "Joggen im Park",
+    "descripcion": "Paul erzählt von seinem Hobby, dem Joggen im Park.",
+    "texto": "Paul joggt jeden Tag im Park. Er steht früh auf und zieht seine Sportschuhe an. Der Park ist groß und grün. Es gibt viele Bäume und einen kleinen See.\n\nPaul läuft immer die gleiche Strecke. Sie ist drei Kilometer lang. Er braucht dafür zwanzig Minuten. Nach dem Laufen trinkt er viel Wasser und macht ein paar Übungen.\n\nIm Park trifft Paul oft andere Läufer. Sie grüßen sich freundlich. Manchmal läuft Paul mit seinem Freund Markus. Dann sprechen sie über Fußball und die Schule. Paul findet Joggen sehr gesund und macht es gern.",
+    "preguntas": [
+      {
+        "enunciado": "Paul joggt jeden Tag im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Park hat keine Bäume.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Strecke ist drei Kilometer lang.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trinkt nach dem Laufen keinen Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul läuft manchmal mit seinem Freund Markus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-in-der-stadtbuecherei",
+    "nivel": "A2",
+    "titulo": "Der Besuch in der Stadtbücherei",
+    "descripcion": "Julia hat ein Buch zurückgebracht und ist überrascht, wie modern die Bücherei geworden ist.",
+    "texto": "Julia ist am Samstag in die Stadtbücherei gegangen, weil sie ein Buch zurückbringen musste. Sie war schon lange nicht mehr dort gewesen und war sehr überrascht. Die Bücherei hat jetzt neue Computer, bequeme Sessel und sogar einen kleinen Kaffeeautomaten.\n\nAn der Theke hat Julia mit einer freundlichen Mitarbeiterin gesprochen. Die Mitarbeiterin hat erklärt, dass man jetzt auch E-Books ausleihen kann, wenn man eine kostenlose App benutzt. Julia fand das praktisch, weil sie oft im Zug liest und keine schweren Bücher tragen möchte.\n\nNachdem Julia ihr altes Buch abgegeben hatte, hat sie sich zwei neue Romane ausgesucht. Sie hat sich außerdem für einen Lesekreis angemeldet, der jeden zweiten Donnerstag stattfindet. Julia freut sich schon darauf, andere Leser kennenzulernen und über Bücher zu sprechen.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist in die Bücherei gegangen, um ein Buch zurückzubringen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bücherei hat sich seit Julias letztem Besuch nicht verändert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Man kann jetzt E-Books mit einer App ausleihen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat kein neues Buch mitgenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat sich für einen Lesekreis angemeldet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrt-mit-dem-fernbus",
+    "nivel": "A2",
+    "titulo": "Die Fahrt mit dem Fernbus",
+    "descripcion": "Markus erzählt von seiner langen, aber günstigen Busreise nach Köln.",
+    "texto": "Markus ist letzte Woche mit dem Fernbus nach Köln gefahren, weil die Zugtickets ihm zu teuer waren. Die Fahrt hat fast sechs Stunden gedauert, aber das Ticket hat nur fünfzehn Euro gekostet. Markus fand das ein gutes Angebot.\n\nIm Bus hat er neben einer jungen Frau gesessen, die aus Spanien kam. Sie haben sich lange unterhalten, weil beide gern reisen. Markus hat erzählt, dass er seine Großmutter in Köln besuchen wollte. Die Frau hat von ihrer Reise durch Deutschland berichtet.\n\nAls der Bus endlich in Köln angekommen ist, war Markus müde, aber zufrieden. Seine Großmutter hat ihn am Busbahnhof abgeholt. Sie hat gelacht, als Markus gesagt hat, dass er die Busfahrt trotzdem schön fand, weil er so ein nettes Gespräch geführt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist mit dem Zug nach Köln gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Busticket hat nur fünfzehn Euro gekostet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat sich mit einer Frau aus Spanien unterhalten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus wollte seinen Bruder in Köln besuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus fand die Busfahrt trotz der langen Zeit schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-mehrgenerationenhaus-in-unserer-strasse",
+    "nivel": "A2",
+    "titulo": "Das Mehrgenerationenhaus in unserer Straße",
+    "descripcion": "Frau Keller berichtet, wie ein neues Mehrgenerationenhaus das Leben in der Nachbarschaft verändert hat.",
+    "texto": "In unserer Straße ist vor einem Jahr ein Mehrgenerationenhaus eröffnet worden. Dort wohnen junge Familien, ältere Menschen und auch ein paar Studenten zusammen unter einem Dach. Frau Keller, meine Nachbarin, ist dort eingezogen, weil sie seit dem Tod ihres Mannes nicht mehr allein wohnen wollte.\n\nFrau Keller hat mir erzählt, dass das Zusammenleben am Anfang etwas ungewohnt war. Aber schon nach ein paar Wochen hat sie gemerkt, dass es ihr gutgetan hat. Die jungen Familien im Haus helfen ihr beim Einkaufen, wenn sie krank ist, und sie passt manchmal auf die Kinder auf, wenn die Eltern arbeiten müssen.\n\nLetzte Woche hat das Haus ein Sommerfest organisiert, zu dem alle Nachbarn eingeladen waren. Es gab Musik, Essen und viele Gespräche im Garten. Frau Keller sagt, dass sie sich seit ihrem Umzug viel weniger einsam fühlt.",
+    "preguntas": [
+      {
+        "enunciado": "Im Mehrgenerationenhaus wohnen nur ältere Menschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Keller ist eingezogen, weil sie nicht mehr allein wohnen wollte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Zusammenleben war von Anfang an perfekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die jungen Familien helfen Frau Keller beim Einkaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller fühlt sich seit dem Umzug einsamer.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-in-eine-neue-abteilung",
+    "nivel": "B1",
+    "titulo": "Der Wechsel in eine neue Abteilung",
+    "descripcion": "Sandra berichtet über ihren Wechsel in eine neue Abteilung und die Herausforderungen am Anfang.",
+    "texto": "Sandra arbeitet seit fünf Jahren in einem mittelgroßen Unternehmen. Vor zwei Monaten hat sie sich entschieden, in eine andere Abteilung zu wechseln, obwohl ihre Kollegen in der alten Abteilung sie dazu überreden wollten zu bleiben. Sie wollte etwas Neues lernen und sich beruflich weiterentwickeln.\n\nDer Anfang war nicht leicht. Sandra musste viele neue Programme lernen und die Arbeitsweise ihrer neuen Kollegen verstehen. Nachdem sie die ersten Wochen überstanden hatte, fühlte sie sich jedoch immer sicherer. Trotzdem gab es Momente, in denen sie an ihrer Entscheidung zweifelte, besonders wenn ein Projekt nicht so lief, wie sie es sich vorgestellt hatte.\n\nHeute, zwei Monate später, ist Sandra froh über ihren Schritt. Sie hat neue Fähigkeiten erworben und arbeitet mit Menschen zusammen, die sie inspirieren. Ihr Chef hat ihr sogar schon mehr Verantwortung gegeben, weil er von ihrer schnellen Einarbeitung beeindruckt war. Sandra rät jedem, der unzufrieden ist, offen für Veränderungen zu bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Sandra hat vor zwei Monaten die Abteilung gewechselt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihre Kollegen wollten, dass sie die Abteilung wechselt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Anfang in der neuen Abteilung war sehr einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sandra hat manchmal an ihrer Entscheidung gezweifelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Chef hat ihr mehr Verantwortung gegeben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-mentoring-programm-fuer-neue-kollegen",
+    "nivel": "B1",
+    "titulo": "Ein Mentoring-Programm für neue Kollegen",
+    "descripcion": "Daniel erzählt, wie ihm ein Mentoring-Programm half, sich in der neuen Firma einzuleben.",
+    "texto": "Als Daniel vor drei Monaten in seiner neuen Firma angefangen hat, war er sehr nervös. Er kannte niemanden und wusste nicht genau, wie die internen Abläufe funktionierten. Glücklicherweise hat die Firma ein Mentoring-Programm für neue Mitarbeiter eingeführt, bei dem jeder einen erfahrenen Kollegen als Ansprechpartner bekommt.\n\nDaniels Mentorin heißt Frau Brandt und arbeitet schon seit zehn Jahren in der Firma. Obwohl sie selbst sehr viel zu tun hatte, hat sie sich jede Woche Zeit genommen, um mit Daniel zu sprechen. Sie hat ihm erklärt, wie man am besten mit schwierigen Kunden umgeht und welche Kollegen man bei Fragen ansprechen kann.\n\nNachdem die ersten beiden Monate vergangen waren, fühlte sich Daniel schon viel wohler. Er hat sogar begonnen, anderen neuen Mitarbeitern zu helfen, so wie Frau Brandt es bei ihm getan hatte. Daniel ist überzeugt, dass solche Programme jeder Firma helfen würden, denn sie stärken den Zusammenhalt und erleichtern den Einstieg erheblich.",
+    "preguntas": [
+      {
+        "enunciado": "Daniel war am Anfang sehr selbstsicher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Firma hat ein Mentoring-Programm für neue Mitarbeiter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Brandt hatte keine Zeit für Daniel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach zwei Monaten fühlte sich Daniel wohler.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel findet, dass Mentoring-Programme nicht hilfreich sind.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-entscheidung-fuer-ein-auslandssemester",
+    "nivel": "B1",
+    "titulo": "Die Entscheidung für ein Auslandssemester",
+    "descripcion": "Nina beschreibt, wie sie sich trotz vieler Zweifel für ein Auslandssemester in Schweden entschieden hat.",
+    "texto": "Nina studiert im fünften Semester Betriebswirtschaft und musste sich entscheiden, ob sie ein Auslandssemester machen wollte. Obwohl ihre Eltern anfangs besorgt waren, weil Schweden so weit weg ist, hat Nina sich schließlich für die Universität in Uppsala entschieden. Sie wollte unbedingt eine andere Kultur kennenlernen und ihr Englisch verbessern.\n\nDie Vorbereitung war aufwendiger, als Nina erwartet hatte. Sie musste viele Formulare ausfüllen, ein Stipendium beantragen und eine Wohnung in Uppsala finden. Nachdem sie all diese Aufgaben erledigt hatte, blieb ihr kaum Zeit, sich auf den eigentlichen Umzug zu freuen.\n\nAls Nina schließlich in Schweden ankam, fühlte sie sich zunächst einsam, weil sie niemanden kannte. Trotzdem hat sie schnell neue Freunde gefunden, vor allem durch die Orientierungswoche für internationale Studenten. Heute, nach drei Monaten, sagt Nina, dass das Auslandssemester die beste Entscheidung ihres Studiums war.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat sich für ein Auslandssemester in Frankreich entschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ninas Eltern waren am Anfang besorgt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Vorbereitung war schneller erledigt, als Nina dachte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina fühlte sich zu Beginn in Schweden einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina bereut ihre Entscheidung für das Auslandssemester.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "carsharing-als-teil-der-urbanen-mobilitaetswende",
+    "nivel": "B2",
+    "titulo": "Carsharing als Teil der urbanen Mobilitätswende",
+    "descripcion": "Eine Analyse, wie Carsharing-Angebote den Autobesitz in Städten verändern und welche Grenzen sie haben.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich Carsharing in den letzten Jahren von einem Nischenangebot zu einem festen Bestandteil der urbanen Mobilität entwickelt. Anbieter stellen Fahrzeuge zur Verfügung, die über eine App gebucht und flexibel genutzt werden können, ohne dass die Nutzer ein eigenes Auto besitzen müssen. Befürworter argumentieren, dass dadurch weniger Autos benötigt würden und somit wertvoller Stadtraum frei werden könnte, der sonst für Parkplätze genutzt wird.\n\nTatsächlich zeigen Studien, dass ein geteiltes Fahrzeug im Durchschnitt mehrere Privatwagen ersetzen kann, da es von verschiedenen Personen zu unterschiedlichen Zeiten genutzt wird. Zudem würden Nutzer, die regelmäßig auf Carsharing zurückgreifen, ihr Mobilitätsverhalten insgesamt bewusster gestalten und häufiger auf öffentliche Verkehrsmittel oder das Fahrrad umsteigen, wenn ein Auto nicht zwingend notwendig sei.\n\nDennoch wird auch Kritik geäußert. Skeptiker bemängeln, dass Carsharing-Angebote bislang vor allem in gut situierten innerstädtischen Vierteln verfügbar seien, während Randgebiete und ländliche Regionen kaum profitierten. Außerdem müsste die Ladeinfrastruktur für elektrische Carsharing-Flotten erheblich ausgebaut werden, damit das Modell tatsächlich zu einer nachhaltigeren Mobilität beitragen könnte. Ohne eine stärkere politische Förderung, so wird argumentiert, bliebe Carsharing ein städtisches Phänomen für eine privilegierte Minderheit.",
+    "preguntas": [
+      {
+        "enunciado": "Carsharing wird in dem Text als reines Nischenangebot ohne Bedeutung beschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein geteiltes Fahrzeug kann laut Studien mehrere Privatwagen ersetzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nutzer von Carsharing steigen laut Text häufiger auf Fahrrad oder öffentliche Verkehrsmittel um.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Skeptiker sagen, dass Carsharing überall gleich gut verfügbar sei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text fordert keine politische Förderung für Carsharing.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "vertical-farming-landwirtschaft-der-zukunft",
+    "nivel": "B2",
+    "titulo": "Vertical Farming – Landwirtschaft der Zukunft?",
+    "descripcion": "Ein Blick auf Vertical Farming als mögliche Antwort auf den steigenden Flächenbedarf der Landwirtschaft.",
+    "texto": "Angesichts einer wachsenden Weltbevölkerung und begrenzter Anbauflächen wird Vertical Farming zunehmend als vielversprechende Alternative zur klassischen Landwirtschaft diskutiert. Bei dieser Methode werden Pflanzen in mehreren übereinander angeordneten Ebenen angebaut, häufig in geschlossenen Gebäuden mit künstlicher Beleuchtung und computergesteuerter Nährstoffversorgung. Befürworter heben hervor, dass auf diese Weise auch mitten in Großstädten Lebensmittel produziert werden könnten, wodurch lange Transportwege entfielen.\n\nEin weiterer Vorteil, der häufig genannt wird, ist der deutlich geringere Wasserverbrauch gegenüber dem konventionellen Feldanbau, da das Wasser in geschlossenen Systemen wiederverwendet wird. Außerdem seien die Ernten weitgehend unabhängig von Wetterbedingungen, sodass eine ganzjährige Produktion gewährleistet werden könnte, ohne dass Schädlinge oder Dürreperioden die Erträge gefährdeten.\n\nKritiker weisen jedoch darauf hin, dass der enorme Energiebedarf für Beleuchtung und Klimatisierung ein erhebliches Problem darstelle, sofern der Strom nicht aus erneuerbaren Quellen stamme. Zudem seien die Investitionskosten für solche Anlagen so hoch, dass sich Vertical Farming bislang nur für bestimmte, besonders wertvolle Pflanzen wie Kräuter oder Salate rechne. Ob sich das Konzept auch für Grundnahrungsmittel wie Getreide durchsetzen ließe, werde von Experten weiterhin skeptisch beurteilt.",
+    "preguntas": [
+      {
+        "enunciado": "Vertical Farming funktioniert ausschließlich auf großen Feldern im Freien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sagen, dass lange Transportwege entfallen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wasserverbrauch soll laut Text geringer sein als beim konventionellen Anbau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen im hohen Energiebedarf kein Problem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten sind sich laut Text sicher, dass Vertical Farming auch für Getreide geeignet ist.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "patchworkfamilien-im-gesellschaftlichen-wandel",
+    "nivel": "B2",
+    "titulo": "Patchworkfamilien im gesellschaftlichen Wandel",
+    "descripcion": "Eine Betrachtung darüber, wie sich Patchworkfamilien in der deutschen Gesellschaft etabliert haben und welche Herausforderungen bestehen.",
+    "texto": "Die klassische Kernfamilie aus verheirateten Eltern und ihren leiblichen Kindern ist längst nicht mehr die einzige Familienform in Deutschland. Immer häufiger entstehen sogenannte Patchworkfamilien, in denen Partner mit Kindern aus früheren Beziehungen zusammenziehen und so neue, komplexere Familienstrukturen bilden. Soziologen sehen in dieser Entwicklung einen Ausdruck gesellschaftlichen Wandels, bei dem individuelle Lebensentwürfe zunehmend an Bedeutung gewinnen.\n\nBefürworter dieser Familienform betonen, dass Kinder in Patchworkfamilien lernen könnten, Konflikte zu lösen und sich an unterschiedliche Lebensumstände anzupassen, was ihnen im späteren Leben zugutekäme. Zudem würde das erweiterte familiäre Netzwerk, bestehend aus mehreren Bezugspersonen, den Kindern zusätzliche emotionale Unterstützung bieten können.\n\nGleichzeitig weisen Experten darauf hin, dass der Zusammenschluss zweier Familien nicht ohne Spannungen verlaufe. Besonders in der Anfangsphase müssten sich alle Beteiligten, einschließlich leiblicher und neuer Geschwister, in ungewohnte Rollen einfinden, was häufig zu Loyalitätskonflikten führe. Rechtlich gesehen bestünden außerdem Unsicherheiten, etwa wenn es um das Sorgerecht oder Erbfragen gehe, da das deutsche Familienrecht bislang kaum auf diese Konstellationen zugeschnitten sei. Daher fordern manche Fachleute eine Reform, die den veränderten Familienrealitäten besser gerecht würde.",
+    "preguntas": [
+      {
+        "enunciado": "Die Kernfamilie ist laut Text noch immer die einzige existierende Familienform.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sagen, Kinder in Patchworkfamilien könnten lernen, sich anzupassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zusammenschluss zweier Familien verläuft laut Experten immer spannungsfrei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das deutsche Familienrecht ist laut Text bereits vollständig an Patchworkfamilien angepasst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Fachleute fordern eine Reform des Familienrechts.",
+        "respuesta": true
+      }
+    ]
   }
 ]
