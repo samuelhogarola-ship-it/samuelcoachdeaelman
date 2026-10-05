@@ -35618,5 +35618,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-wetterbericht",
+    "nivel": "A1",
+    "titulo": "Der Wetterbericht",
+    "descripcion": "Lisa hört den Wetterbericht im Radio und plant ihren Tag.",
+    "texto": "Lisa wacht früh auf. Sie hört Radio. Der Wetterbericht sagt: Heute ist es sonnig. Die Temperatur ist warm. Lisa freut sich. Sie möchte heute im Park spazieren gehen. Sie zieht eine leichte Jacke an und nimmt eine Wasserflasche mit.\n\nAm Nachmittag wird es ein bisschen windig. Lisa sieht die Wolken am Himmel. Sie denkt: „Vielleicht regnet es später.\" Sie nimmt einen Regenschirm mit, nur zur Sicherheit. Im Park trifft sie ihre Freundin Mara. Sie setzen sich auf eine Bank und essen ein Eis.\n\nAm Abend regnet es wirklich ein bisschen. Lisa und Mara laufen schnell nach Hause. Lisa ist froh, dass sie den Regenschirm mitgenommen hat. Sie trinkt zu Hause einen warmen Tee und liest ein Buch.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa hört den Wetterbericht im Fernsehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Morgen ist das Wetter sonnig und warm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa geht allein in den Park, ohne Freunde zu treffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend regnet es ein wenig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa trinkt zu Hause einen warmen Tee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-geburtstagsgeschenk-finden",
+    "nivel": "A1",
+    "titulo": "Ein Geburtstagsgeschenk finden",
+    "descripcion": "Tom sucht ein Geschenk für den Geburtstag seiner Schwester.",
+    "texto": "Toms Schwester Emma hat nächste Woche Geburtstag. Tom möchte ein schönes Geschenk kaufen. Er geht in die Stadt und schaut in viele Geschäfte. Emma mag Bücher und Musik sehr gern. Tom sucht zuerst in einer Buchhandlung.\n\nIn der Buchhandlung findet Tom ein Buch über Reisen. Emma reist gern und spricht oft über andere Länder. Tom denkt: „Das Buch ist perfekt!\" Er kauft auch eine bunte Postkarte dazu. Danach geht er in ein Musikgeschäft und kauft eine CD von Emmas Lieblingsband.\n\nAm Abend packt Tom die Geschenke schön ein. Er schreibt eine Karte mit lieben Worten. Am nächsten Tag ist Emma sehr glücklich über die Geschenke. Sie umarmt Tom und sagt: „Danke, das ist wirklich toll!\"",
+    "preguntas": [
+      {
+        "enunciado": "Emma hat heute Geburtstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom kauft ein Buch über Reisen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma mag keine Bücher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom kauft auch eine CD für Emma.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma ist am Ende traurig über die Geschenke.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-busfahrt-zur-arbeit",
+    "nivel": "A1",
+    "titulo": "Die Busfahrt zur Arbeit",
+    "descripcion": "Paul fährt jeden Morgen mit dem Bus zur Arbeit und erlebt etwas Besonderes.",
+    "texto": "Paul steht jeden Morgen um sechs Uhr auf. Er isst schnell ein Frühstück und geht zur Bushaltestelle. Der Bus kommt meistens pünktlich. Paul fährt jeden Tag zwanzig Minuten mit dem Bus zur Arbeit. Er sitzt gern am Fenster und schaut die Straßen an.\n\nHeute ist der Bus sehr voll. Paul findet keinen Sitzplatz und steht in der Mitte. Eine alte Frau steigt ein. Paul steht sofort auf und bietet ihr seinen Platz an. Die Frau lächelt und sagt: „Vielen Dank, junger Mann!\" Paul fühlt sich gut.\n\nAn der nächsten Haltestelle steigt Pauls Kollege Jonas ein. Sie reden über die Arbeit und lachen zusammen. Die Busfahrt macht heute viel Spaß. Paul kommt pünktlich im Büro an und beginnt seinen Arbeitstag.",
+    "preguntas": [
+      {
+        "enunciado": "Paul fährt mit dem Auto zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bus ist heute sehr voll.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul gibt der alten Frau seinen Sitzplatz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist Pauls Bruder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul kommt zu spät ins Büro.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-eine-neue-wohnung",
+    "nivel": "A2",
+    "titulo": "Der Umzug in eine neue Wohnung",
+    "descripcion": "Familie Berger ist in eine neue Wohnung umgezogen und musste sich an vieles gewöhnen.",
+    "texto": "Letzten Monat ist Familie Berger in eine neue Wohnung umgezogen, weil die alte Wohnung zu klein geworden ist. Herr Berger hat viele Kisten gepackt, und seine Frau hat die Möbel organisiert. Die Kinder, Lena und Tim, haben ihre Zimmer selbst eingerichtet. Der Umzug hat den ganzen Tag gedauert, und am Abend waren alle sehr müde.\n\nIn der neuen Wohnung gibt es einen größeren Garten, und die Kinder haben sich sehr darüber gefreut. Lena hat sofort gesagt, dass sie dort ein Baumhaus bauen möchte. Tim hat lieber die neue Nachbarschaft erkundet und hat schon zwei neue Freunde kennengelernt. Herr Berger hat bemerkt, dass die neue Wohnung näher an seiner Arbeit liegt, deshalb muss er nicht mehr so früh aufstehen.\n\nAm ersten Wochenende haben die Nachbarn die Familie zu Kaffee und Kuchen eingeladen. Frau Berger hat sich sehr darüber gefreut, weil sie schnell neue Kontakte knüpfen wollte. Die Familie ist froh, dass der Umzug trotz der Anstrengung gut geklappt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger ist umgezogen, weil die alte Wohnung zu klein war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben den Umzug überhaupt nicht gemocht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die neue Wohnung hat einen größeren Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger muss jetzt früher aufstehen als vorher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn haben die Familie zu Kaffee und Kuchen eingeladen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-schulprojekt-ueber-recycling",
+    "nivel": "A2",
+    "titulo": "Das Schulprojekt über Recycling",
+    "descripcion": "Eine Schulklasse hat ein Projekt über Recycling vorbereitet und vorgestellt.",
+    "texto": "In der Schule von Nina hat die Klasse ein Projekt über Recycling gemacht. Die Schüler haben zuerst gelernt, dass Müll richtig getrennt werden muss, damit er wiederverwertet werden kann. Der Lehrer hat erklärt, dass Papier, Glas und Plastik in verschiedene Tonnen gehören. Die Klasse hat auch einen Ausflug zu einem Recyclingzentrum gemacht.\n\nIm Recyclingzentrum haben die Schüler gesehen, wie alte Flaschen zu neuem Glas verarbeitet werden. Nina war überrascht, dass so viel Müll jeden Tag ankommt. Ein Mitarbeiter hat erklärt, dass viele Menschen immer noch nicht richtig trennen, obwohl es wichtig für die Umwelt ist. Die Klasse hat viele Fragen gestellt und interessante Antworten bekommen.\n\nAm Ende des Projekts haben die Schüler ein Plakat gemacht und es in der Schule aufgehängt. Sie haben anderen Schülern erklärt, wie man Müll richtig trennt. Nina hat gesagt, dass sie jetzt zu Hause auch besser auf das Recycling achtet, weil sie viel gelernt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse hat ein Projekt über Recycling gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Lehrer hat gesagt, dass man Müll nicht trennen muss.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler haben ein Recyclingzentrum besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Recyclingzentrum kommt nur sehr wenig Müll an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina achtet jetzt zu Hause mehr auf Recycling.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-vereinswechsel",
+    "nivel": "A2",
+    "titulo": "Der Vereinswechsel",
+    "descripcion": "Markus hat seinen Fußballverein gewechselt und musste sich an ein neues Team gewöhnen.",
+    "texto": "Markus hat seit fünf Jahren in einem Fußballverein gespielt, aber letzten Sommer hat er den Verein gewechselt. Er wollte wechseln, weil der neue Verein näher an seinem Haus liegt und ein besseres Training anbietet. Am Anfang war es nicht leicht, weil Markus niemanden im neuen Team gekannt hat.\n\nIn der ersten Woche hat der Trainer Markus den anderen Spielern vorgestellt. Ein Spieler namens Felix hat sich sofort mit Markus angefreundet, und sie haben zusammen trainiert. Markus hat bemerkt, dass das neue Team sehr freundlich ist, obwohl die Spieler am Anfang etwas schüchtern gewirkt haben. Nach ein paar Wochen hat Markus sich schon viel wohler gefühlt.\n\nBeim ersten Spiel für den neuen Verein hat Markus ein Tor geschossen, und das ganze Team hat ihn gefeiert. Markus war sehr stolz und hat gemerkt, dass der Wechsel eine gute Entscheidung war. Seine Eltern waren auch im Stadion und haben sich sehr gefreut.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat den Verein gewechselt, weil er keine Lust mehr auf Fußball hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat sich mit Markus angefreundet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat sich im neuen Team von Anfang an sehr unwohl gefühlt und ist unglücklich geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat beim ersten Spiel für den neuen Verein ein Tor geschossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus' Eltern waren nicht im Stadion.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest-in-der-kleinstadt",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest in der Kleinstadt",
+    "descripcion": "Eine Kleinstadt bereitet sich auf ihr jährliches Stadtfest vor, obwohl das Wetter unsicher ist.",
+    "texto": "Jedes Jahr im Sommer findet in der Kleinstadt Lindenau ein großes Stadtfest statt, zu dem Menschen aus der ganzen Region kommen. Nachdem die Organisatoren monatelang geplant hatten, war in diesem Jahr lange unklar, ob das Fest überhaupt stattfinden könnte, da heftige Regenfälle vorausgesagt wurden. Trotzdem entschied sich das Organisationsteam, das Fest wie geplant durchzuführen, weil bereits viele Stände reserviert worden waren.\n\nAm Morgen des Festes war der Himmel noch bewölkt, obwohl die Sonne gegen Mittag langsam zum Vorschein kam. Die Besucher strömten in Scharen auf den Marktplatz, wo zahlreiche Essensstände, Livemusik und ein kleiner Jahrmarkt für Kinder aufgebaut worden waren. Nachdem die Bürgermeisterin eine kurze Rede gehalten hatte, eröffnete sie das Fest offiziell, und die Blaskapelle begann zu spielen.\n\nObwohl am Nachmittag ein kurzer Schauer die Besucher kurzzeitig unter die Zeltdächer trieb, ließ sich die Stimmung dadurch nicht verderben. Viele Einwohner lobten später, dass das Fest trotz der Wetterprobleme ein voller Erfolg gewesen sei. Die Organisatoren kündigten bereits an, dass sie im nächsten Jahr noch mehr Programmpunkte planen wollen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest findet jedes Jahr im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Organisatoren haben das Fest wegen des schlechten Wetters abgesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bürgermeisterin hat das Fest mit einer Rede eröffnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag gab es einen kurzen Regenschauer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Besucher waren wegen des Regens den ganzen Tag schlecht gelaunt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-berufseinstieg-nach-dem-studium",
+    "nivel": "B1",
+    "titulo": "Der Berufseinstieg nach dem Studium",
+    "descripcion": "Julia berichtet von den Herausforderungen und Erfahrungen ihres ersten Jahres im Berufsleben.",
+    "texto": "Nachdem Julia ihr Studium der Betriebswirtschaft abgeschlossen hatte, stand sie vor der Frage, wie der Einstieg ins Berufsleben gelingen könnte. Obwohl sie während des Studiums bereits mehrere Praktika absolviert hatte, fühlte sie sich zu Beginn ihrer ersten festen Stelle unsicher, da die Verantwortung plötzlich viel größer war als erwartet.\n\nIn den ersten Wochen musste Julia sich an einen völlig neuen Tagesablauf gewöhnen. Trotzdem gelang es ihr relativ schnell, sich in das Team einzufinden, weil ihre Kollegen sehr hilfsbereit waren und ihr geduldig alle Abläufe erklärten. Nachdem sie ihr erstes eigenes Projekt erfolgreich abgeschlossen hatte, wuchs ihr Selbstvertrauen deutlich, und sie begann, auch schwierigere Aufgaben zu übernehmen.\n\nIm Rückblick sagt Julia, dass der Berufseinstieg zwar anstrengend gewesen sei, sie aber vieles gelernt habe, was ihr im Studium nie vermittelt wurde. Besonders betont sie, wie wichtig es war, Fragen zu stellen, obwohl sie manchmal Angst hatte, inkompetent zu wirken. Heute rät sie anderen Absolventen, sich nicht von anfänglichen Unsicherheiten entmutigen zu lassen.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hatte vor ihrer ersten Stelle noch nie ein Praktikum gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia fühlte sich am Anfang ihrer Stelle sehr unsicher.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihre Kollegen waren wenig hilfsbereit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach ihrem ersten erfolgreichen Projekt wuchs ihr Selbstvertrauen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia rät anderen Absolventen, bei Unsicherheiten sofort zu kündigen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-rueckkehr-der-handwerksberufe",
+    "nivel": "B1",
+    "titulo": "Die Rückkehr der Handwerksberufe",
+    "descripcion": "Immer mehr junge Menschen entscheiden sich wieder für eine Ausbildung im Handwerk statt für ein Studium.",
+    "texto": "In den letzten Jahren haben sich immer mehr junge Menschen für eine Ausbildung im Handwerk entschieden, obwohl viele von ihnen auch die Möglichkeit gehabt hätten, zu studieren. Nachdem jahrelang vor allem akademische Berufe als erstrebenswert galten, scheint sich dieser Trend nun langsam zu verändern. Handwerksbetriebe berichten, dass die Zahl der Bewerbungen für Ausbildungsplätze wieder steigt.\n\nEin Grund dafür ist, dass viele junge Menschen nach praktischer, sichtbarer Arbeit suchen, trotzdem treffen viele von ihnen diese Entscheidung nicht leichtfertig. Tim, ein neunzehnjähriger Auszubildender, erzählt, dass er sich bewusst gegen ein Studium entschieden hat, weil er lieber direkt mit seinen Händen arbeiten wollte. Nachdem er einige Betriebe besichtigt hatte, entschied er sich für eine Ausbildung als Tischler.\n\nExperten vermuten, dass der Fachkräftemangel im Handwerk diese Entwicklung zusätzlich begünstigt, da viele Betriebe inzwischen deutlich bessere Löhne und Aufstiegschancen anbieten als früher. Obwohl das Handwerk noch immer mit einem veralteten Image zu kämpfen hat, gewinnt es bei jungen Menschen zunehmend an Attraktivität. Viele Betriebe hoffen nun, dass sich dieser positive Trend in den kommenden Jahren fortsetzt.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr junge Menschen entscheiden sich für eine Ausbildung im Handwerk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat sich für ein Studium statt einer Ausbildung entschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim macht eine Ausbildung als Tischler.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Fachkräftemangel spielt laut Experten keine Rolle bei dieser Entwicklung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Handwerk hat laut Text inzwischen bei jungen Menschen gar kein Interesse mehr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ambivalenz-der-selbstoptimierung",
+    "nivel": "B2",
+    "titulo": "Die Ambivalenz der Selbstoptimierung",
+    "descripcion": "Der Text beleuchtet kritisch, warum der gesellschaftliche Trend zur permanenten Selbstoptimierung sowohl Chancen als auch Risiken birgt.",
+    "texto": "Der Wunsch, sich selbst stetig zu verbessern, ist längst zu einem prägenden Merkmal der modernen Gesellschaft geworden. Ob durch Fitness-Apps, die den eigenen Schlaf und die tägliche Schrittzahl überwachen, oder durch Selbsthilfebücher, die zur ständigen Weiterentwicklung der eigenen Persönlichkeit anregen sollen, der Druck, das eigene Leben zu perfektionieren, wird von zahlreichen Produkten und Dienstleistungen befeuert. Befürworter argumentieren, dass diese Entwicklung den Einzelnen befähige, ein gesünderes und erfüllteres Leben zu führen.\n\nKritiker hingegen wenden ein, dass diese allgegenwärtige Optimierungslogik auch erhebliche Schattenseiten mit sich bringe. Würde man jeden Aspekt des eigenen Daseins einer ständigen Leistungsmessung unterziehen, bestünde die Gefahr, dass selbst Erholung und Freizeit zu einer weiteren Form von Arbeit würden. Viele Menschen, die sich diesem Druck ausgesetzt sehen, berichten von einem wachsenden Gefühl der Erschöpfung, obwohl sie objektiv betrachtet produktiver und gesünder leben als zuvor.\n\nHinzu kommt, dass die in sozialen Medien verbreiteten Bilder eines scheinbar makellosen Lebens von vielen Menschen als unerreichbarer Maßstab wahrgenommen werden. Wäre es möglich, diesen Vergleich zu vermeiden, könnte der Druck zur Selbstoptimierung deutlich gemindert werden. Stattdessen wird jedoch häufig ein Gefühl der eigenen Unzulänglichkeit erzeugt, das paradoxerweise genau jene Unzufriedenheit verstärkt, die durch Selbstoptimierung ursprünglich beseitigt werden sollte.\n\nLetztlich wird in der Debatte zunehmend gefordert, dass ein gesunder Umgang mit Selbstoptimierung gefunden werden müsse, bei dem persönliches Wachstum nicht zum Zwang verkommt. Ein bewussterer Umgang mit digitalen Vergleichsmaßstäben könnte dabei ebenso hilfreich sein wie die gesellschaftliche Anerkennung, dass Unvollkommenheit ein natürlicher Bestandteil des menschlichen Lebens ist.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text wird der Trend zur Selbstoptimierung ausschließlich durch persönliche Entscheidungen angetrieben, ohne kommerziellen Einfluss.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass auch Erholung zu einer Form von Leistung werden könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text erwähnt, dass Menschen trotz objektiv gesünderer Lebensweise Erschöpfung empfinden können.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Soziale Medien werden im Text als hilfreich beschrieben, um realistische Vergleichsmaßstäbe zu setzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text fordert abschließend einen bewussteren Umgang mit Selbstoptimierung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-der-stille-in-einer-lauten-gesellschaft",
+    "nivel": "B2",
+    "titulo": "Der Wert der Stille in einer lauten Gesellschaft",
+    "descripcion": "Der Text diskutiert, weshalb Stille in einer zunehmend lauten und reizüberfluteten Welt an Bedeutung gewinnt.",
+    "texto": "In einer Gesellschaft, die von permanenter akustischer und visueller Reizüberflutung geprägt ist, gewinnt die bewusste Suche nach Stille zunehmend an Bedeutung. Ständige Benachrichtigungen, Hintergrundmusik in öffentlichen Räumen und die allgegenwärtige Erreichbarkeit über mobile Endgeräte tragen dazu bei, dass viele Menschen kaum noch Momente wirklicher Ruhe erleben. Wissenschaftler weisen darauf hin, dass dieser Zustand nicht folgenlos bleibe, sondern langfristig zu erhöhter Reizbarkeit und verminderter Konzentrationsfähigkeit führen könne.\n\nInteressanterweise wird Stille in bestimmten gesellschaftlichen Kontexten mittlerweile sogar kommerzialisiert, etwa durch kostenpflichtige Meditationsapps oder spezielle Schweigeretreats, die gezielt für Berufstätige angeboten werden, die unter dem Druck ständiger Erreichbarkeit stehen. Dass ausgerechnet etwas so Elementares wie Stille zu einem knappen und käuflichen Gut werden könnte, erscheint vielen Beobachtern paradox, zumal sie noch vor wenigen Generationen ein selbstverständlicher Bestandteil des Alltags gewesen sei.\n\nBefürworter einer bewussten Entschleunigung argumentieren, dass regelmäßige Phasen der Stille nicht als Luxus, sondern als notwendige Voraussetzung für psychische Gesundheit betrachtet werden sollten. Würden Unternehmen und Bildungseinrichtungen entsprechende Rückzugsräume systematisch einplanen, ließe sich die Belastung durch permanente Reizüberflutung spürbar reduzieren. Bislang jedoch wird dieser Bedarf in den meisten Institutionen kaum berücksichtigt, obwohl das Bewusstsein für dessen Dringlichkeit stetig wächst.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text behauptet, dass Reizüberflutung keine Auswirkungen auf die Konzentrationsfähigkeit habe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Stille wird im Text als zunehmend kommerzialisiertes Gut beschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text war Stille noch vor wenigen Generationen etwas Ungewöhnliches.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, dass Unternehmen bewusst Rückzugsräume einplanen sollten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text berücksichtigen die meisten Institutionen diesen Bedarf bereits ausreichend.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "generationengerechtigkeit-und-rentensystem",
+    "nivel": "B2",
+    "titulo": "Generationengerechtigkeit und das Rentensystem",
+    "descripcion": "Der Text erörtert, inwiefern das bestehende Rentensystem den Ansprüchen an Generationengerechtigkeit noch gerecht wird.",
+    "texto": "Angesichts des demografischen Wandels wird zunehmend infrage gestellt, ob das bestehende Rentensystem den Grundsätzen der Generationengerechtigkeit noch gerecht werden kann. Da die Lebenserwartung kontinuierlich steigt und gleichzeitig immer weniger Erwerbstätige einer wachsenden Zahl von Rentenempfängern gegenüberstehen, sehen sich jüngere Generationen mit einer finanziellen Belastung konfrontiert, die vor einigen Jahrzehnten in diesem Ausmaß kaum vorstellbar gewesen wäre.\n\nBefürworter einer Reform argumentieren, dass das derzeitige, überwiegend umlagefinanzierte System grundlegend überdacht werden müsse, damit es auch künftigen Generationen noch eine verlässliche Absicherung im Alter bieten könne. Würde man ausschließlich am bisherigen Modell festhalten, bestünde die Gefahr, dass die Beitragssätze für jüngere Arbeitnehmer in einem Maße steigen müssten, das gesellschaftlich kaum vermittelbar wäre. Einige Experten schlagen daher vor, ergänzend kapitalgedeckte Vorsorgemodelle zu stärken, bei denen bereits während des Erwerbslebens individuell vorgesorgt wird.\n\nGegner weitreichender Reformen wenden hingegen ein, dass eine zu starke Verlagerung hin zu privater, kapitalgedeckter Vorsorge insbesondere Geringverdiener benachteiligen würde, da ihnen schlicht die finanziellen Mittel fehlten, um ausreichend vorzusorgen. Zudem sei das bestehende System historisch gewachsen und habe sich über Jahrzehnte als vergleichsweise stabil erwiesen, selbst wenn es derzeit unter erheblichem Anpassungsdruck stehe.\n\nLetztlich wird in der politischen Debatte zunehmend betont, dass eine Lösung gefunden werden müsse, die weder die ältere noch die jüngere Generation einseitig benachteiligt. Ein ausgewogener Mix aus gesetzlicher, betrieblicher und privater Vorsorge wird von vielen Beobachtern als der vielversprechendste, wenn auch politisch schwer durchsetzbare, Weg betrachtet.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text stellt infrage, ob das Rentensystem generationengerecht ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text steigt die Zahl der Erwerbstätigen im Verhältnis zu den Rentenempfängern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Experten schlagen vor, kapitalgedeckte Vorsorgemodelle zu stärken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner von Reformen befürchten, dass private Vorsorge Geringverdiener benachteiligen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu dem Schluss, dass ausschließlich die ältere Generation Opfer bringen sollte.",
+        "respuesta": false
+      }
+    ]
   }
 ]
