@@ -35270,5 +35270,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-schildkroete-frieda",
+    "nivel": "A1",
+    "titulo": "Meine Schildkröte Frieda",
+    "descripcion": "Nils erzählt von seiner Schildkröte Frieda und wie er sich um sie kümmert.",
+    "texto": "Ich heiße Nils und ich habe eine Schildkröte. Meine Schildkröte heißt Frieda. Frieda ist grün und nicht sehr schnell. Sie wohnt in einem Terrarium in meinem Zimmer.\n\nJeden Tag gebe ich Frieda Salat und Tomaten. Frieda frisst langsam, aber gern. Am Wochenende putze ich das Terrarium. Das ist nicht immer lustig, aber wichtig für Frieda.\n\nAm liebsten sitze ich abends vor dem Terrarium und schaue Frieda zu. Sie ist ruhig und freundlich. Ich mag meine Schildkröte sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Nils' Schildkröte heißt Frieda.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frieda ist sehr schnell.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nils gibt Frieda jeden Tag Salat und Tomaten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nils putzt das Terrarium nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nils schaut abends gern Frieda zu.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wochenende-von-tim",
+    "nivel": "A1",
+    "titulo": "Das Wochenende von Tim",
+    "descripcion": "Tim beschreibt, was er am Samstag und Sonntag macht.",
+    "texto": "Tim ist zehn Jahre alt. Am Samstag steht er spät auf. Er frühstückt mit seiner Familie. Danach spielt er Fußball mit seinem Bruder im Park.\n\nAm Nachmittag besucht Tim seine Oma. Seine Oma backt einen Kuchen. Der Kuchen schmeckt sehr gut. Tim trinkt Saft und isst zwei Stück Kuchen.\n\nAm Sonntag bleibt Tim zu Hause. Er malt ein Bild und liest ein Buch. Am Abend sieht die Familie einen Film zusammen.",
+    "preguntas": [
+      {
+        "enunciado": "Tim steht am Samstag früh auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim spielt Fußball im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tims Oma backt einen Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim isst keinen Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag sieht die Familie einen Film.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "auf-dem-flohmarkt-mit-opa",
+    "nivel": "A1",
+    "titulo": "Auf dem Flohmarkt mit Opa",
+    "descripcion": "Emma besucht mit ihrem Opa einen Flohmarkt und findet dort ein altes Spielzeug.",
+    "texto": "Emma geht am Samstag mit ihrem Opa auf den Flohmarkt. Dort gibt es viele Tische mit alten Sachen. Emma sieht Bücher, Tassen und Spielzeug.\n\nAn einem Tisch findet Emma ein altes Holzauto. Das Auto ist rot und hat vier Räder. Emma fragt: „Opa, kostet das Auto viel Geld?\" Opa lacht und kauft das Auto für Emma.\n\nZu Hause spielt Emma den ganzen Nachmittag mit ihrem neuen Auto. Sie stellt es abends auf ihr Regal. Emma freut sich sehr über das Geschenk von Opa.",
+    "preguntas": [
+      {
+        "enunciado": "Emma geht mit ihrer Mutter auf den Flohmarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem Flohmarkt gibt es Bücher, Tassen und Spielzeug.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma findet ein altes Holzauto.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Auto ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma spielt zu Hause nicht mit dem Auto.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-freundin",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Freundin",
+    "descripcion": "Julia schreibt ihrer Freundin einen Brief über ihren Umzug in eine neue Stadt.",
+    "texto": "Liebe Sofie,\n\nich habe dir lange nicht geschrieben, weil ich sehr beschäftigt war. Vor zwei Monaten bin ich mit meiner Familie nach Leipzig gezogen. Am Anfang habe ich die Stadt nicht gekannt, aber jetzt gefällt es mir hier sehr gut. Ich habe schon ein paar neue Freunde gefunden, weil meine Nachbarin mich zu einer Geburtstagsparty eingeladen hat.\n\nLetzte Woche habe ich eine neue Schule besucht. Die Lehrer sind freundlich, und der Unterricht macht Spaß. Nur der Weg zur Schule ist ziemlich weit, deshalb fahre ich jeden Tag mit dem Fahrrad. Wenn das Wetter schlecht ist, nehme ich den Bus.\n\nIch hoffe, dass du mich bald besuchen kannst. Dann zeige ich dir die Stadt und wir können zusammen ins Kino gehen. Schreib mir bald zurück!\n\nViele Grüße,\nJulia",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist vor zwei Monaten nach Leipzig gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat noch keine neuen Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarin hat Julia zu einer Party eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia findet den Unterricht langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia fährt bei schlechtem Wetter mit dem Bus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "beim-zahnarzt-in-freiburg",
+    "nivel": "A2",
+    "titulo": "Beim Zahnarzt in Freiburg",
+    "descripcion": "Nora hat seit Tagen Zahnschmerzen und geht deshalb zum ersten Mal zu einem neuen Zahnarzt in Freiburg.",
+    "texto": "Nora hat seit drei Tagen starke Zahnschmerzen. Weil die Schmerzen immer schlimmer wurden, hat sie gestern bei einer neuen Zahnarztpraxis in Freiburg angerufen. Die Empfangsdame hat ihr sofort einen Termin für den Vormittag gegeben.\n\nIm Wartezimmer hat Nora ein wenig Angst gehabt, weil sie den Zahnarzt noch nicht kannte. Als die Assistentin ihren Namen aufgerufen hat, ist sie zusammen mit ihr in das Behandlungszimmer gegangen. Der Zahnarzt hat den Zahn genau untersucht und gesagt, dass eine kleine Karies der Grund für die Schmerzen sei. „Das können wir heute noch behandeln\", hat er freundlich erklärt.\n\nNach der Behandlung hat Nora kaum noch Schmerzen gehabt. Der Zahnarzt hat ihr geraten, zwei Tage lang keine harten Lebensmittel zu essen. Nora war sehr zufrieden, weil die Behandlung schneller gegangen ist, als sie gedacht hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Nora hat seit einer Woche Zahnschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nora bekommt einen Termin für den Vormittag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nora kannte den Zahnarzt schon sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine kleine Karies ist der Grund für die Schmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zahnarzt rät Nora, sofort harte Lebensmittel zu essen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-mitbewohnerin-aus-norwegen",
+    "nivel": "A2",
+    "titulo": "Die neue Mitbewohnerin aus Norwegen",
+    "descripcion": "Jonas bekommt eine neue Mitbewohnerin aus Norwegen und lernt mit ihr das Zusammenleben in einer WG.",
+    "texto": "Vor zwei Wochen ist Ingrid aus Norwegen in Jonas' Wohngemeinschaft eingezogen. Jonas war zuerst etwas unsicher, weil er noch nie mit einer Person aus einem anderen Land zusammengelebt hatte. Am ersten Abend haben sie gemeinsam gekocht, weil Ingrid ein typisch norwegisches Gericht zeigen wollte.\n\n„In Norwegen essen wir oft Fisch mit Kartoffeln\", hat Ingrid erklärt, während sie den Lachs in die Pfanne gelegt hat. Jonas hat ihr geholfen, die Kartoffeln zu schneiden, obwohl er mit dem Rezept nicht vertraut war. Nach dem Essen haben sie lange über ihre Länder gesprochen, weil beide neugierig auf die Kultur des anderen waren.\n\nSeitdem teilen sich Jonas und Ingrid jede Woche die Hausarbeit und kochen abwechselnd. Jonas findet es spannend, dass er durch Ingrid viel über Norwegen gelernt hat. Er glaubt, dass das Zusammenleben in der WG durch die neue Mitbewohnerin viel interessanter geworden ist.",
+    "preguntas": [
+      {
+        "enunciado": "Ingrid kommt aus Schweden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas und Ingrid kochen am ersten Abend gemeinsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Norwegen isst man laut Ingrid oft Fisch mit Kartoffeln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas und Ingrid sprechen nicht über ihre Länder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas findet das Zusammenleben mit Ingrid langweilig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "schulaustausch-in-lyon",
+    "nivel": "B1",
+    "titulo": "Schulaustausch in Lyon",
+    "descripcion": "Eine deutsche Schulklasse nimmt an einem einwöchigen Schulaustausch in der französischen Stadt Lyon teil.",
+    "texto": "Nachdem die Klasse 10a seit Monaten Französisch gelernt hatte, durfte sie endlich am Schulaustausch mit einer Partnerschule in Lyon teilnehmen. Obwohl einige Schüler Angst hatten, sich auf Französisch zu verständigen, freuten sich die meisten auf die fremde Kultur und die französischen Gastfamilien. Herr Weber, der die Fahrt organisiert hatte, betonte, wie wichtig es sei, offen auf die neuen Mitschüler zuzugehen.\n\nAm dritten Tag besuchten die deutschen Schüler gemeinsam mit ihren französischen Austauschpartnern die Altstadt von Lyon. Obwohl die Kommunikation anfangs schwierig war, verständigten sich die Jugendlichen nach und nach immer besser, indem sie Gesten und einfache Sätze benutzten. Einige Schüler, die zunächst schüchtern gewesen waren, freundeten sich schnell mit ihren Austauschpartnern an und tauschten sogar ihre Handynummern aus.\n\nAm letzten Abend organisierte die Partnerschule ein gemeinsames Abschiedsfest, bei dem typische französische Spezialitäten serviert wurden. Nachdem alle zusammen gegessen und getanzt hatten, fiel vielen Schülern der Abschied schwer. Auf der Heimfahrt im Bus waren sich die meisten einig, dass sie den Austausch nicht missen möchten und ihre neuen Freunde bald wiedersehen wollen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 10a hat vor der Fahrt schon länger Französisch gelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler hatten von Anfang an keine Angst vor der französischen Sprache.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die deutschen Schüler besuchen gemeinsam mit den Austauschpartnern die Altstadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kommunikation funktionierte von Anfang an perfekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beim Abschied waren die Schüler froh, dass der Austausch vorbei war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "praktikum-bei-einer-zeitung-in-koeln",
+    "nivel": "B1",
+    "titulo": "Praktikum bei einer Zeitung in Köln",
+    "descripcion": "Lara berichtet von ihrem ersten Tag als Praktikantin in der Redaktion einer Kölner Tageszeitung.",
+    "texto": "Lara war am Sonntagabend sehr aufgeregt, weil sie am nächsten Morgen ihr erstes Praktikum bei einer Tageszeitung in Köln begann. Obwohl sie sich im Bewerbungsgespräch selbstbewusst gezeigt hatte, fragte sie sich plötzlich, ob sie den journalistischen Anforderungen gerecht werden könnte. Sie legte ihre Unterlagen bereits am Abend bereit, damit am Morgen nichts vergessen würde.\n\nAls sie in der Redaktion ankam, wurde sie von einem erfahrenen Redakteur freundlich empfangen, der ihr sofort die Räumlichkeiten zeigte. Nachdem sie ihren Arbeitsplatz eingerichtet hatte, stellte er ihr die restlichen Kollegen vor. Lara war erleichtert, dass die Stimmung in der Redaktion so locker war, obwohl sie zuvor eine formellere Atmosphäre erwartet hatte. In der Mittagspause aß das ganze Team gemeinsam, was ihr half, schnell Kontakte zu knüpfen.\n\nAm Nachmittag bekam Lara die Aufgabe, einen kurzen Artikel über ein lokales Ereignis zu recherchieren, was sie zunächst überforderte. Da sie sich jedoch traute, Fragen zu stellen, konnte ihr eine erfahrene Kollegin schnell weiterhelfen. Am Ende des Tages war Lara erschöpft, aber auch stolz, weil sie ihren ersten Artikel fertiggestellt hatte. Sie war überzeugt, dass sich das Praktikum lohnen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Lara war vor ihrem ersten Praktikumstag völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein erfahrener Redakteur hat Lara freundlich empfangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Redaktion herrschte eine sehr formelle Atmosphäre.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lara hat sich nicht getraut, Fragen zu stellen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Tages war Lara stolz auf ihren ersten Artikel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "briefe-zwischen-zwei-kontinenten",
+    "nivel": "B1",
+    "titulo": "Briefe zwischen zwei Kontinenten",
+    "descripcion": "Pia und ihre Brieffreundin Aylin halten ihre Freundschaft über Briefe zwischen Deutschland und Kanada aufrecht.",
+    "texto": "Pia und Aylin wurden vor vier Jahren über ein Schulprojekt zu Brieffreundinnen, obwohl sie sich noch nie persönlich getroffen haben. Nachdem Aylins Familie nach Kanada ausgewandert war, befürchtete Pia zunächst, dass der Kontakt mit der Zeit einschlafen würde. Trotzdem beschlossen beide, sich regelmäßig Briefe zu schreiben, anstatt nur kurze Nachrichten über das Handy auszutauschen.\n\nEinmal im Monat schreibt Pia einen langen Brief, in dem sie von ihrem Alltag in Deutschland erzählt, obwohl das Schreiben eines richtigen Briefes viel Zeit kostet. Aylin antwortet meistens schon nach zwei Wochen und berichtet von ihrem Leben in Kanada, das sich stark von Pias Alltag unterscheidet. Beide sagen, dass sie das Warten auf die Antwort besonders spannend finden, weil es anders sei als eine sofortige Nachricht im Internet.\n\nEinmal im Jahr, meistens im Sommer, besucht Pia Aylin in Kanada oder Aylin kommt nach Deutschland. Obwohl der Flug lang und teuer ist, sagen beide, dass sich die Reise jedes Mal lohnt. Pia erklärt, dass sie durch die Briefe gelernt habe, ihre Gedanken viel genauer zu formulieren, als sie es beim schnellen Schreiben einer Nachricht tun würde.",
+    "preguntas": [
+      {
+        "enunciado": "Pia und Aylin kennen sich erst seit wenigen Monaten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Aylins Familie ist nach Kanada ausgewandert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pia und Aylin schreiben sich nur kurze Nachrichten über das Handy.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einmal im Jahr besuchen sich Pia und Aylin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pia findet, dass Briefe sie nichts gelehrt haben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-und-die-arbeitswelt-von-morgen",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz und die Arbeitswelt von morgen",
+    "descripcion": "Eine Analyse darüber, wie Digitalisierung und künstliche Intelligenz die Arbeitswelt grundlegend verändern könnten.",
+    "texto": "Die fortschreitende Digitalisierung stellt die Arbeitswelt vor tiefgreifende Herausforderungen. Immer mehr Tätigkeiten, die früher ausschließlich von Menschen ausgeführt wurden, könnten künftig durch automatisierte Systeme und künstliche Intelligenz übernommen werden. Experten sind sich uneinig darüber, ob diese Entwicklung langfristig zu einem Verlust oder vielmehr zu einer Verschiebung von Arbeitsplätzen führen wird.\n\nBefürworter der Digitalisierung argumentieren, dass repetitive und körperlich belastende Aufgaben zunehmend von Maschinen übernommen würden, wodurch den Beschäftigten mehr Zeit für kreative und anspruchsvolle Tätigkeiten bliebe. Zudem könnten durch den Einsatz neuer Technologien gänzlich neue Berufsfelder entstehen, die es heute noch gar nicht gibt. Diese Entwicklung würde, so die Befürworter, zu einer höheren Produktivität und letztlich auch zu einem gesteigerten Wohlstand führen.\n\nKritiker hingegen warnen vor den sozialen Folgen eines solchen Wandels. Sollten ganze Berufsgruppen durch Automatisierung überflüssig werden, bestünde die Gefahr, dass insbesondere gering qualifizierte Arbeitskräfte den Anschluss verlören. Es wird daher gefordert, dass Politik und Unternehmen gemeinsam in Weiterbildungsprogramme investieren, damit Arbeitnehmer rechtzeitig auf die veränderten Anforderungen vorbereitet werden könnten. Andernfalls drohe eine Vertiefung der sozialen Ungleichheit, die sich negativ auf den gesellschaftlichen Zusammenhalt auswirken könnte.\n\nLetztlich hängt die Bewertung dieser Entwicklung stark davon ab, wie verantwortungsvoll mit den neuen technologischen Möglichkeiten umgegangen wird. Nur wenn es gelingt, den digitalen Wandel sozial gerecht zu gestalten, könnte die Arbeitswelt der Zukunft sowohl produktiver als auch menschenwürdiger werden.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text sind sich alle Experten über die Folgen der Digitalisierung einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter glauben, dass Maschinen repetitive Aufgaben übernehmen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass gering qualifizierte Arbeitskräfte benachteiligt werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird behauptet, dass keine Weiterbildung notwendig sei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schließt mit der Aussage, dass der Wandel verantwortungsvoll gestaltet werden sollte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-angespannte-wohnungsmarkt-in-metropolen",
+    "nivel": "B2",
+    "titulo": "Der angespannte Wohnungsmarkt in den Metropolen",
+    "descripcion": "Der Text beleuchtet die Ursachen und möglichen Lösungsansätze für den angespannten Wohnungsmarkt in deutschen Metropolen.",
+    "texto": "In vielen deutschen Großstädten hat sich die Lage auf dem Wohnungsmarkt in den letzten Jahren drastisch zugespitzt. Während die Mieten in Metropolen wie München, Berlin und Hamburg stetig steigen, wächst gleichzeitig das Angebot an bezahlbarem Wohnraum nur langsam. Diese Entwicklung trifft besonders einkommensschwache Haushalte und junge Menschen, die sich auf der Suche nach einer eigenen Wohnung zunehmend schwerer tun.\n\nAls Hauptursache für die Wohnungsnot gilt vor allem der anhaltende Zuzug in die Städte, der durch das Arbeitsplatzangebot und die infrastrukturellen Vorteile urbaner Zentren begünstigt wird. Gleichzeitig wurde in den vergangenen Jahrzehnten zu wenig in den sozialen Wohnungsbau investiert, sodass das Angebot mit der steigenden Nachfrage nicht Schritt halten konnte. Experten weisen zudem darauf hin, dass spekulative Investitionen in Immobilien die Preise zusätzlich in die Höhe getrieben hätten.\n\nUm der Wohnungsnot entgegenzuwirken, werden derzeit verschiedene Maßnahmen diskutiert. Manche Politiker fordern eine strengere Mietpreisbremse, damit Vermieter die Mieten nicht beliebig erhöhen können. Andere schlagen vor, den Bau neuer Sozialwohnungen massiv zu fördern, auch wenn dies erhebliche öffentliche Investitionen erfordern würde. Wieder andere plädieren dafür, leerstehende Gebäude umzuwidmen, um kurzfristig zusätzlichen Wohnraum zu schaffen.\n\nOb diese Maßnahmen ausreichen werden, um die Situation grundlegend zu verbessern, bleibt jedoch fraglich. Klar ist, dass ohne ein koordiniertes Vorgehen von Bund, Ländern und Kommunen die Wohnungsnot in den kommenden Jahren voraussichtlich weiter zunehmen würde, was langfristig auch den sozialen Frieden in den betroffenen Städten gefährden könnte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Besonders einkommensschwache Haushalte sind von der Wohnungsnot betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text wurde in der Vergangenheit ausreichend in sozialen Wohnungsbau investiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Politiker fordern eine strengere Mietpreisbremse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die Wohnungsnot sei bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-als-gesellschaftliche-aufgabe",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz als gesellschaftliche Aufgabe",
+    "descripcion": "Der Text untersucht, warum Medienkompetenz in Zeiten von Desinformation und sozialen Netzwerken immer wichtiger wird.",
+    "texto": "In einer Zeit, in der Informationen über soziale Netzwerke und Onlineplattformen rasend schnell verbreitet werden, gewinnt die Fähigkeit, Nachrichten kritisch zu bewerten, zunehmend an Bedeutung. Gleichzeitig wird es für den Einzelnen immer schwieriger, zwischen seriösen Quellen und bewusst gestreuten Falschinformationen zu unterscheiden, da täuschend echt wirkende Inhalte mittlerweile mit geringem Aufwand erstellt werden können.\n\nBesonders problematisch erscheint dabei, dass Algorithmen dazu neigen, Nutzern vorwiegend Inhalte anzuzeigen, die ihrer bisherigen Meinung entsprechen. Dadurch entstehen sogenannte Filterblasen, innerhalb derer alternative Sichtweisen kaum noch wahrgenommen werden. Wer sich ausschließlich in solchen Blasen bewegt, läuft Gefahr, ein verzerrtes Bild der Realität zu entwickeln, was wiederum gesellschaftliche Polarisierung begünstigen könnte.\n\nUm dieser Entwicklung entgegenzuwirken, wird gefordert, dass Medienkompetenz bereits in der Schule systematisch vermittelt werden sollte. Schülerinnen und Schüler müssten lernen, Quellen zu überprüfen, Manipulationstechniken zu erkennen und eigene Urteile unabhängig von vorgefertigten Meinungen zu bilden. Einige Bildungsexperten schlagen vor, dass entsprechende Unterrichtseinheiten verpflichtend in den Lehrplan integriert werden sollten, damit künftige Generationen besser auf die Herausforderungen der digitalen Informationsflut vorbereitet wären.\n\nLetztlich wird Medienkompetenz zunehmend als gesamtgesellschaftliche Aufgabe betrachtet, die nicht allein den Bildungseinrichtungen überlassen werden könne. Auch Plattformbetreiber, Journalisten und die Politik stünden in der Verantwortung, zu einem informierten und mündigen Umgang mit Medien beizutragen.",
+    "preguntas": [
+      {
+        "enunciado": "Es wird laut Text immer leichter, seriöse Quellen von Falschinformationen zu unterscheiden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen entstehen, weil Algorithmen bevorzugt ähnliche Inhalte anzeigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, Medienkompetenz systematisch in der Schule zu vermitteln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text liegt die Verantwortung für Medienkompetenz ausschließlich bei den Schulen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht keinen Zusammenhang zwischen Filterblasen und gesellschaftlicher Polarisierung.",
+        "respuesta": false
+      }
+    ]
   }
 ]
