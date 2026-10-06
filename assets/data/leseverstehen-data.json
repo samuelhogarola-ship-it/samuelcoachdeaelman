@@ -36662,5 +36662,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-markt-am-samstag",
+    "nivel": "A1",
+    "titulo": "Der Markt am Samstag",
+    "descripcion": "Lena kauft am Samstag frisches Obst und Gemüse auf dem Markt.",
+    "texto": "Jeden Samstag geht Lena auf den Markt. Der Markt ist groß und bunt. Es gibt viele Stände mit Obst, Gemüse und Blumen.\n\nLena kauft Äpfel, Tomaten und Brot. Ein Verkäufer sagt: „Die Äpfel sind heute sehr süß.“ Lena lacht und kauft ein Kilo Äpfel. Sie bezahlt fünf Euro.\n\nNach dem Markt trinkt Lena einen Kaffee in einem kleinen Café. Sie ist zufrieden. Der Markt am Samstag ist ihr liebster Moment der Woche.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht jeden Samstag auf den Markt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf dem Markt gibt es nur Blumen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena kauft Äpfel, Tomaten und Brot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Kilo Äpfel kostet zehn Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Markt trinkt Lena einen Kaffee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-familie-im-park",
+    "nivel": "A1",
+    "titulo": "Meine Familie im Park",
+    "descripcion": "Eine Familie verbringt einen sonnigen Sonntag zusammen im Park.",
+    "texto": "Am Sonntag geht meine Familie in den Park. Meine Mutter macht Sandwiches. Mein Vater bringt einen Ball mit. Mein kleiner Bruder spielt gern Fußball.\n\nIm Park sitzen wir auf einer Decke. Wir essen und sprechen. Die Sonne scheint, und der Himmel ist blau. Mein Bruder läuft mit dem Hund.\n\nAm Nachmittag spielen wir alle zusammen Fußball. Es ist sehr lustig. Ich liebe die Sonntage mit meiner Familie im Park.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie geht am Montag in den Park.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter macht Sandwiches.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bruder mag kein Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie sitzt auf einer Decke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag spielen alle zusammen Fußball.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unser-haustier-der-hund",
+    "nivel": "A1",
+    "titulo": "Unser Haustier, der Hund",
+    "descripcion": "Max erzählt von seinem Hund Bruno und ihrem gemeinsamen Alltag.",
+    "texto": "Ich heiße Max. Ich habe einen Hund. Er heißt Bruno und ist braun und weiß. Bruno ist sehr lieb.\n\nJeden Morgen gehe ich mit Bruno spazieren. Wir gehen zum Park. Bruno läuft schnell und spielt mit anderen Hunden. Danach trinkt er Wasser aus seiner Schüssel.\n\nAm Abend schläft Bruno neben meinem Bett. Er ist mein bester Freund. Meine Familie liebt Bruno sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Max hat eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist braun und weiß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max geht jeden Morgen mit Bruno spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno spielt nicht mit anderen Hunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno schläft am Abend neben Max' Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-an-die-oma",
+    "nivel": "A2",
+    "titulo": "Der Brief an die Oma",
+    "descripcion": "Paula schreibt ihrer Oma einen Brief über ihr neues Schuljahr.",
+    "texto": "Liebe Oma, ich habe dir lange nicht geschrieben, weil ich sehr viel in der Schule zu tun hatte. Letzte Woche haben wir eine Prüfung in Mathematik gehabt, und ich habe eine gute Note bekommen.\n\nAm Wochenende bin ich mit meinen Eltern ans Meer gefahren. Wir sind zwei Stunden mit dem Auto gefahren. Als wir angekommen sind, hat es leider geregnet. Trotzdem haben wir am Strand einen Spaziergang gemacht und ein Eis gegessen.\n\nIch hoffe, dass es dir gut geht. Nächsten Monat besuche ich dich, wenn ich Ferien habe. Ich freue mich schon sehr darauf. Viele liebe Grüße, Paula.",
+    "preguntas": [
+      {
+        "enunciado": "Paula hat ihrer Oma lange nicht geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula hat eine schlechte Note in Mathematik bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie ist mit dem Zug ans Meer gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Strand hat es geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula besucht ihre Oma nächsten Monat.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-am-see",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende am See",
+    "descripcion": "Tobias erzählt, wie er mit Freunden ein Wochenende am See verbracht hat.",
+    "texto": "Am Freitag sind Tobias und seine Freunde zu einem See gefahren. Sie haben ein kleines Zelt mitgebracht, weil sie dort übernachten wollten. Als sie angekommen sind, haben sie zuerst das Zelt aufgebaut.\n\nAm Samstag haben sie im See gebadet und sind mit einem Boot gefahren. Am Abend haben sie ein Lagerfeuer gemacht und Würstchen gegrillt. Tobias hat gesagt, dass es der schönste Abend des Sommers war.\n\nAm Sonntag haben sie das Zelt abgebaut, obwohl sie noch gerne länger geblieben wären. Auf der Rückfahrt haben alle über das tolle Wochenende gesprochen.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias ist allein zum See gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde haben ein Zelt aufgebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Samstag sind sie nicht im See geschwommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend haben sie ein Lagerfeuer gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind am Montag zurückgefahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-arzt",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Arzt",
+    "descripcion": "Sabine hat Halsschmerzen und geht deshalb zum Arzt.",
+    "texto": "Sabine hat seit drei Tagen Halsschmerzen gehabt. Weil es nicht besser wurde, hat sie einen Termin beim Arzt gemacht. Im Wartezimmer hat sie fast eine halbe Stunde gewartet.\n\nDer Arzt hat ihren Hals und ihre Ohren untersucht. Er hat gesagt, dass sie eine leichte Erkältung hat. Sabine hat gefragt, ob sie Medikamente braucht. Der Arzt hat ihr Tee und Ruhe empfohlen, aber auch Tabletten gegen die Schmerzen verschrieben.\n\nNach dem Besuch ist Sabine in die Apotheke gegangen. Sie hat die Tabletten gekauft und ist dann nach Hause gefahren, um sich auszuruhen. Zwei Tage später hat sie sich schon viel besser gefühlt.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hatte seit einer Woche Halsschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine hat lange im Wartezimmer gewartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt hat eine schwere Krankheit festgestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat Tee, Ruhe und Tabletten empfohlen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine ist direkt nach Hause gegangen, ohne etwas zu kaufen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-schulausflug-nach-wien",
+    "nivel": "B1",
+    "titulo": "Der Schulausflug nach Wien",
+    "descripcion": "Eine Klasse unternimmt einen mehrtägigen Ausflug in die österreichische Hauptstadt.",
+    "texto": "Nachdem die Klasse monatelang Geld für den Ausflug gesammelt hatte, fuhr sie endlich nach Wien. Die Fahrt mit dem Bus dauerte fast sechs Stunden, doch die Schüler waren trotzdem voller Energie, als sie ankamen.\n\nAm ersten Tag besuchten sie das Schloss Schönbrunn, obwohl das Wetter nicht besonders gut war. Der Lehrer erklärte die Geschichte der Habsburger, während die Gruppe durch die prächtigen Gärten spazierte. Am Abend probierten alle ein traditionelles Wiener Schnitzel, was den meisten sehr gut gefiel.\n\nAm letzten Tag, nachdem sie das Naturhistorische Museum besichtigt hatten, blieb noch Zeit für einen kurzen Einkaufsbummel. Obwohl die Reise anstrengend war, sagten fast alle Schüler, dass sie Wien bald wieder besuchen möchten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse hat lange Geld für den Ausflug gesammelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Busfahrt dauerte nur eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler besuchten das Schloss Schönbrunn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand wollte ein Wiener Schnitzel probieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Tag blieb noch Zeit zum Einkaufen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-im-neuen-buero",
+    "nivel": "B1",
+    "titulo": "Der erste Tag im neuen Büro",
+    "descripcion": "Jonas berichtet über seine Eindrücke und Erfahrungen am ersten Arbeitstag.",
+    "texto": "Jonas war an seinem ersten Arbeitstag ziemlich nervös, obwohl er sich gut vorbereitet hatte. Schon am Eingang wurde er von einer Kollegin freundlich empfangen, die ihn durch das ganze Gebäude führte.\n\nNachdem er seinen Schreibtisch gefunden hatte, lernte er die wichtigsten Programme kennen, mit denen das Team täglich arbeitet. Sein neuer Chef erklärte ihm die Aufgaben des Teams und stellte ihm die Kollegen vor. Trotzdem fühlte sich Jonas am Anfang etwas überfordert, weil so viele neue Informationen auf einmal kamen.\n\nAm Nachmittag aß er mit seinen neuen Kollegen in der Kantine. Dabei merkte er, dass die Atmosphäre im Büro sehr angenehm war. Als er abends nach Hause fuhr, war er erschöpft, aber zufrieden mit seinem ersten Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas war an seinem ersten Tag völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kollegin hat ihn durch das Gebäude geführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas kannte von Anfang an alle Programme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er hat mit Kollegen in der Kantine gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend war Jonas unzufrieden mit seinem Tag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-theaterfestival-in-der-altstadt",
+    "nivel": "B1",
+    "titulo": "Das Theaterfestival in der Altstadt",
+    "descripcion": "Eine Kleinstadt veranstaltet jedes Jahr ein beliebtes Theaterfestival.",
+    "texto": "Jeden Sommer verwandelt sich die Altstadt in eine große Bühne, nachdem die Vorbereitungen für das Theaterfestival monatelang gedauert haben. Schauspielgruppen aus der ganzen Region kommen zusammen, um auf den Plätzen und in den Gassen ihre Stücke aufzuführen.\n\nObwohl das Festival vor zehn Jahren nur klein begann, zieht es heute Tausende von Besuchern an. Viele Familien setzen sich auf Decken vor die improvisierten Bühnen, während Straßenmusiker zwischen den Vorstellungen spielen. Trotzdem bleibt der Eintritt für die meisten Aufführungen kostenlos, was das Fest besonders beliebt macht.\n\nAm letzten Abend des Festivals findet traditionell eine große Abschlussvorstellung statt, nachdem die Organisatoren den ganzen Tag über die Bühnen vorbereitet haben. Die Bewohner sagen, dass dieses Fest der Höhepunkt des ganzen Jahres in ihrer Stadt ist.",
+    "preguntas": [
+      {
+        "enunciado": "Das Festival findet jeden Sommer in der Altstadt statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur eine einzige Schauspielgruppe nimmt am Festival teil.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Festival zieht heute Tausende von Besuchern an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Eintritt zu den meisten Aufführungen kostet viel Geld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend gibt es eine große Abschlussvorstellung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wohnungsmarkt-in-der-stadt",
+    "nivel": "B2",
+    "titulo": "Der Wohnungsmarkt in der Stadt",
+    "descripcion": "Eine Analyse der steigenden Mietpreise und ihrer Folgen für die Stadtbewohner.",
+    "texto": "In zahlreichen deutschen Großstädten ist der Wohnungsmarkt in den letzten Jahren zu einem der dringendsten gesellschaftlichen Probleme geworden. Während die Mietpreise kontinuierlich steigen, wächst das Angebot an bezahlbarem Wohnraum nur langsam. Viele junge Familien und Studierende, die auf der Suche nach einer Wohnung sind, werden dadurch vor erhebliche Herausforderungen gestellt.\n\nWürde die Politik entschiedener handeln, könnte die Lage deutlich entspannt werden. Experten fordern seit langem, dass mehr sozialer Wohnungsbau gefördert wird und dass bestehende Gesetze zur Mietpreisbremse konsequenter durchgesetzt werden. Es wird zudem diskutiert, ob Investoren, die Wohnraum lediglich als Kapitalanlage nutzen, stärker reguliert werden sollten.\n\nAuf der anderen Seite argumentieren manche Ökonomen, dass strengere Regulierungen potenzielle Bauherren abschrecken und somit das Angebot zusätzlich verknappen könnten. Es bleibt daher umstritten, welche Maßnahmen tatsächlich zu einer nachhaltigen Entlastung des Wohnungsmarktes führen würden.\n\nUnabhängig von der politischen Ausrichtung sind sich die meisten Beobachter jedoch einig, dass ohne entschlossenes Handeln die soziale Spaltung in den Städten weiter zunehmen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wohnungsmarkt gilt als eines der dringendsten Probleme in Großstädten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Angebot an bezahlbarem Wohnraum wächst sehr schnell.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern mehr sozialen Wohnungsbau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Ökonomen sind sich einig, dass strengere Regulierung keine Nachteile hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die meisten Beobachter sehen die Gefahr wachsender sozialer Spaltung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkritik-im-zeitalter-der-digitalisierung",
+    "nivel": "B2",
+    "titulo": "Medienkritik im Zeitalter der Digitalisierung",
+    "descripcion": "Ein Essay über die Herausforderungen des kritischen Medienkonsums in der digitalen Welt.",
+    "texto": "Die rasante Digitalisierung hat die Art, wie Informationen verbreitet und konsumiert werden, grundlegend verändert. Während früher wenige etablierte Zeitungen und Sender die öffentliche Meinung prägten, wird heute ein Großteil der Nachrichten über soziale Netzwerke verbreitet, in denen jeder zum Produzenten von Inhalten werden kann. Diese Entwicklung wird von vielen Beobachtern sowohl als Chance als auch als erhebliches Risiko betrachtet.\n\nAuf der einen Seite ermöglicht die Digitalisierung einen pluralistischeren Diskurs, in dem Stimmen gehört werden, die früher kaum eine Plattform gefunden hätten. Auf der anderen Seite wird beklagt, dass Falschinformationen sich durch Algorithmen, die auf Interaktion statt auf Wahrheitsgehalt optimiert sind, besonders schnell verbreiten. Wäre die Medienkompetenz in der Bevölkerung stärker ausgeprägt, könnten solche Falschmeldungen leichter erkannt und entlarvt werden.\n\nZahlreiche Bildungsinitiativen versuchen deshalb, bereits in Schulen ein kritisches Bewusstsein für digitale Medien zu vermitteln. Dabei wird den Schülerinnen und Schülern beigebracht, Quellen zu überprüfen und zwischen seriösem Journalismus und reiner Meinungsmache zu unterscheiden.\n\nLetztlich bleibt die Frage, inwiefern eine umfassende Medienbildung allein ausreicht, um der Komplexität der digitalen Informationsflut gerecht zu werden, oder ob zusätzlich eine stärkere Regulierung der Plattformen notwendig wäre.",
+    "preguntas": [
+      {
+        "enunciado": "Früher prägten vor allem etablierte Zeitungen und Sender die öffentliche Meinung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Digitalisierung hat keinen Einfluss auf die Verbreitung von Nachrichten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen sind häufig auf Interaktion statt auf Wahrheitsgehalt optimiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass Bildungsinitiativen überflüssig sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Schulen wird teilweise versucht, kritisches Medienbewusstsein zu vermitteln.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-gleichgewicht-zwischen-beruf-und-privatleben",
+    "nivel": "B2",
+    "titulo": "Das Gleichgewicht zwischen Beruf und Privatleben",
+    "descripcion": "Eine Auseinandersetzung mit den Herausforderungen der Work-Life-Balance in der modernen Arbeitswelt.",
+    "texto": "In der modernen Arbeitswelt, die zunehmend von ständiger Erreichbarkeit und digitaler Vernetzung geprägt ist, gewinnt das Thema der Vereinbarkeit von Beruf und Privatleben immer mehr an Bedeutung. Viele Arbeitnehmer berichten, dass die Grenzen zwischen Arbeits- und Freizeit zunehmend verschwimmen, was langfristig zu Erschöpfung und sogenanntem Burnout führen kann.\n\nUnternehmen, die flexible Arbeitszeitmodelle und Homeoffice-Möglichkeiten anbieten, werden von vielen Beschäftigten als attraktiver wahrgenommen. Dennoch zeigt sich, dass flexible Arbeitsmodelle nicht automatisch zu einer besseren Balance führen, wenn Mitarbeitende sich trotz offizieller Feierabendzeiten verpflichtet fühlen, ständig auf E-Mails und Nachrichten zu reagieren. Würden Unternehmen klarere Regeln für die Erreichbarkeit außerhalb der Arbeitszeit einführen, könnte dieses Problem erheblich gemildert werden.\n\nGleichzeitig wird diskutiert, inwieweit die Verantwortung allein bei den Arbeitgebern liegen sollte oder ob nicht auch jeder Einzelne lernen müsste, bewusster mit der eigenen Zeit umzugehen. Psychologen betonen, dass ein gesundes Gleichgewicht letztlich nur erreicht werden kann, wenn strukturelle Veränderungen und individuelles Verhalten zusammenwirken.\n\nAngesichts dieser komplexen Zusammenhänge bleibt die Vereinbarkeit von Beruf und Privatleben eines der zentralen Themen, mit denen sich Gesellschaft und Wirtschaft in den kommenden Jahren intensiv auseinandersetzen müssen.",
+    "preguntas": [
+      {
+        "enunciado": "Ständige Erreichbarkeit kann die Grenzen zwischen Arbeit und Freizeit verwischen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flexible Arbeitszeitmodelle garantieren automatisch eine bessere Work-Life-Balance.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Klarere Regeln zur Erreichbarkeit könnten das Problem mildern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Psychologen sagen, dass allein strukturelle Veränderungen ausreichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Vereinbarkeit von Beruf und Privatleben bleibt ein zentrales gesellschaftliches Thema.",
+        "respuesta": true
+      }
+    ]
   }
 ]
