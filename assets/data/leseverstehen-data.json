@@ -37706,5 +37706,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-supermarkt-einkauf",
+    "nivel": "A1",
+    "titulo": "Im Supermarkt",
+    "descripcion": "Anna kauft Lebensmittel für die Familie ein.",
+    "texto": "Anna geht am Samstag in den Supermarkt. Sie braucht Brot, Milch und Käse. Ihre Mutter schreibt ihr einen Einkaufszettel. Anna nimmt einen Einkaufswagen und geht durch die Gänge.\n\nIm Supermarkt gibt es viel Obst und Gemüse. Anna kauft Äpfel, Bananen und Tomaten. Sie mag Äpfel sehr gern. An der Kasse bezahlt sie mit ihrer Karte. Die Verkäuferin sagt: „Einen schönen Tag noch!“\n\nZu Hause packt Anna die Tüten aus. Ihre Mutter freut sich über die frischen Lebensmittel. Am Abend kochen sie zusammen eine Suppe. Das Essen schmeckt sehr gut.",
+    "preguntas": [
+      {
+        "enunciado": "Anna kauft am Samstag im Supermarkt ein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna braucht Brot, Milch und Käse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna kauft keine Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna bezahlt an der Kasse mit Bargeld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna und ihre Mutter kochen am Abend eine Suppe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-woche-im-sommer",
+    "nivel": "A1",
+    "titulo": "Meine Woche im Sommer",
+    "descripcion": "Paul erzählt, was er in einer Sommerwoche macht.",
+    "texto": "Paul hat im Sommer keine Schule. Er steht jeden Tag spät auf. Am Montag spielt er Fußball mit seinen Freunden. Am Dienstag fährt er mit dem Fahrrad zum Fluss.\n\nAm Mittwoch besucht Paul seine Oma. Sie backen zusammen einen Kuchen. Der Kuchen schmeckt lecker. Am Donnerstag geht Paul mit seiner Familie ins Schwimmbad. Das Wasser ist warm und schön.\n\nAm Wochenende bleibt Paul zu Hause. Er liest ein Buch und hört Musik. Am Abend isst die Familie zusammen im Garten. Paul findet den Sommer toll.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht im Sommer jeden Tag in die Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Montag spielt Paul Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul und seine Oma backen zusammen einen Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wasser im Schwimmbad ist kalt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Wochenende bleibt Paul zu Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-geburtstag-von-lisa",
+    "nivel": "A1",
+    "titulo": "Der Geburtstag von Lisa",
+    "descripcion": "Lisa feiert ihren achten Geburtstag mit Familie und Freunden.",
+    "texto": "Lisa wird heute acht Jahre alt. Ihre Mutter backt einen Schokoladenkuchen. Ihr Vater kauft bunte Luftballons. Am Nachmittag kommen Lisas Freunde zur Party.\n\nDie Kinder spielen im Garten. Sie singen „Happy Birthday“ für Lisa. Lisa bekommt viele Geschenke: ein Buch, einen Ball und eine neue Puppe. Sie freut sich sehr über die Geschenke.\n\nAm Ende der Party isst jeder ein Stück Kuchen. Lisa sagt: „Danke für die schöne Feier!“ Alle Kinder lachen und tanzen zusammen. Es ist ein toller Tag für Lisa.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa wird heute acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihre Mutter backt einen Apfelkuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisas Freunde kommen am Nachmittag zur Party.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa bekommt keine Geschenke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder singen „Happy Birthday“ für Lisa.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-in-den-dolomiten",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende in den Dolomiten",
+    "descripcion": "Eine Familie berichtet von einem Wanderausflug in den Bergen.",
+    "texto": "Letztes Wochenende ist Familie Berger in die Dolomiten gefahren. Sie haben ein kleines Hotel in den Bergen gebucht, weil sie die Natur genießen wollten. Am Samstagmorgen sind sie früh aufgestanden und haben eine lange Wanderung gemacht.\n\nDer Weg war steil, aber die Aussicht war wunderschön. Als sie den Gipfel erreicht haben, haben sie ein Picknick gemacht. Die Kinder haben Fotos von den Bergen gemacht, weil sie die Erinnerung behalten wollten. Am Nachmittag ist es leider stark bewölkt geworden, deshalb sind sie früher zurückgegangen.\n\nAm Abend haben sie in einem kleinen Restaurant gegessen. Der Vater hat gesagt, dass er das Essen sehr lecker fand. Am Sonntag sind sie müde, aber glücklich nach Hause gefahren. Alle waren sich einig, dass sie bald wiederkommen möchten.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger ist ans Meer gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben am Samstagmorgen eine lange Wanderung gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Weg zum Gipfel war flach und einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag ist es bewölkt geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie möchte nie wieder in die Berge fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-nachbarin-aus-japan",
+    "nivel": "A2",
+    "titulo": "Die neue Nachbarin aus Japan",
+    "descripcion": "Markus lernt seine neue Nachbarin kennen, die aus Japan nach Deutschland gezogen ist.",
+    "texto": "Vor zwei Wochen ist eine neue Familie in das Haus neben Markus eingezogen. Die Tochter heißt Yuki und kommt aus Japan. Markus hat sich gefreut, weil er noch nie jemanden aus Japan kennengelernt hat.\n\nAm Wochenende hat Markus Yuki zu einem Kaffee eingeladen. Sie haben lange über ihre Länder gesprochen. Yuki hat erzählt, dass das Essen in Deutschland ganz anders schmeckt als in Japan. Markus hat erklärt, dass er gern deutsches Brot isst, weil es so viele verschiedene Sorten gibt.\n\nNachdem sie sich besser kennengelernt hatten, haben sie beschlossen, zusammen einen Sprachkurs zu besuchen. Yuki möchte ihr Deutsch verbessern, und Markus interessiert sich für Japanisch. Beide freuen sich schon auf den nächsten Kurs.",
+    "preguntas": [
+      {
+        "enunciado": "Yuki kommt aus Japan.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Yuki ist schon seit einem Jahr Markus' Nachbarin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus und Yuki haben sich bei einem Kaffee getroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Yuki findet, dass das Essen in Deutschland genauso schmeckt wie in Japan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus und Yuki wollen zusammen einen Sprachkurs besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-spanien",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus Spanien",
+    "descripcion": "Sofia schreibt ihrer Freundin einen Brief über ihren Urlaub in Spanien.",
+    "texto": "Liebe Mira,\n\nich bin jetzt seit einer Woche mit meiner Familie in Spanien. Wir haben ein kleines Apartment am Meer gemietet, weil wir jeden Tag schwimmen gehen wollten. Das Wetter ist herrlich, und die Sonne scheint fast immer.\n\nGestern sind wir in die Stadt gefahren und haben den Markt besucht. Dort haben wir frisches Obst und leckeren Käse gekauft. Meine kleine Schwester hat sich gefreut, weil sie zum ersten Mal Paella probiert hat. Sie fand das Essen so gut, dass sie gleich eine zweite Portion bestellt hat.\n\nMorgen wollen wir einen Ausflug in die Berge machen, wenn das Wetter gut bleibt. Ich vermisse dich und erzähle dir alles, wenn ich wieder zu Hause bin.\n\nViele Grüße,\nSofia",
+    "preguntas": [
+      {
+        "enunciado": "Sofia ist mit ihrer Familie in Spanien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie wohnt in einem Hotel in den Bergen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofias Schwester hat zum ersten Mal Paella probiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter in Spanien ist meistens schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofia plant, morgen einen Ausflug in die Berge zu machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-umzug-nach-dresden",
+    "nivel": "B1",
+    "titulo": "Mein Umzug nach Dresden",
+    "descripcion": "Ein junger Mann berichtet, wie er sich nach dem Umzug in eine neue Stadt eingelebt hat.",
+    "texto": "Vor drei Monaten bin ich aus beruflichen Gründen von München nach Dresden gezogen. Obwohl ich die neue Stadt zunächst fremd fand, habe ich mich schnell an das Leben hier gewöhnt. Nachdem ich die ersten Wochen hauptsächlich mit dem Einrichten meiner Wohnung verbracht hatte, begann ich, die Umgebung zu erkunden.\n\nAm Anfang fiel es mir schwer, neue Kontakte zu knüpfen, da ich niemanden in der Stadt kannte. Trotzdem habe ich mich entschlossen, einem Sportverein beizutreten, um Leute kennenzulernen. Dort habe ich bereits einige Freunde gefunden, mit denen ich inzwischen regelmäßig etwas unternehme. Außerdem habe ich festgestellt, dass die Dresdner Altstadt mit ihrer Architektur wirklich beeindruckend ist.\n\nMittlerweile fühle ich mich in Dresden richtig zu Hause, obwohl ich meine alten Freunde aus München natürlich vermisse. Nachdem ich so viel Neues entdeckt habe, bin ich froh, dass ich den Mut zum Umzug gefunden habe. Ich kann jedem empfehlen, sich auf ein Abenteuer wie dieses einzulassen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Autor ist aus beruflichen Gründen nach Dresden gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er fand die Stadt von Anfang an überhaupt nicht fremd.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er ist einem Sportverein beigetreten, um neue Leute kennenzulernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er findet die Dresdner Altstadt uninteressant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er bereut inzwischen seinen Umzug nach Dresden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-trotz-grosser-entfernung",
+    "nivel": "B1",
+    "titulo": "Freundschaft trotz großer Entfernung",
+    "descripcion": "Zwei Freunde erzählen, wie sie ihre Freundschaft über Kontinente hinweg aufrechterhalten.",
+    "texto": "Lea und Tom sind seit der Grundschule beste Freunde, obwohl sie heute Tausende Kilometer voneinander entfernt leben. Nachdem Tom vor zwei Jahren nach Kanada ausgewandert war, hatten beide Angst, dass ihre Freundschaft darunter leiden könnte. Trotzdem haben sie einen Weg gefunden, in Kontakt zu bleiben.\n\nJeden Sonntag telefonieren sie über Video, egal wie unterschiedlich ihre Zeitzonen sind. Obwohl das manchmal bedeutet, dass einer von beiden sehr früh aufstehen muss, nehmen sie sich diese Zeit immer. Außerdem schreiben sie sich fast täglich kurze Nachrichten, um sich über den Alltag auf dem Laufenden zu halten.\n\nLetztes Jahr hat Lea Tom in Kanada besucht, nachdem sie lange dafür gespart hatte. Die beiden waren sich einig, dass es sich angefühlt hat, als wären sie nie getrennt gewesen. Diese Erfahrung hat ihnen gezeigt, dass echte Freundschaft auch große Entfernungen überstehen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Lea und Tom kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom ist vor zwei Jahren nach Kanada ausgewandert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden telefonieren nie miteinander.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea hat Tom letztes Jahr in Kanada besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide glauben, dass Freundschaft große Entfernungen überstehen kann.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-im-krankenhaus",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum im Krankenhaus",
+    "descripcion": "Eine Schülerin berichtet von ihren Erfahrungen während eines Praktikums im Krankenhaus.",
+    "texto": "Im Rahmen ihres Schulpraktikums hat Nina zwei Wochen in einem Krankenhaus verbracht. Obwohl sie zu Beginn etwas nervös war, hat sie sich schnell in das Team der Krankenschwestern eingefunden. Nachdem sie am ersten Tag hauptsächlich zugeschaut hatte, durfte sie später bei einfacheren Aufgaben mithelfen.\n\nBesonders beeindruckt hat Nina, wie geduldig das Personal mit den Patienten umgeht, obwohl der Arbeitsalltag oft stressig ist. Sie hat gelernt, wie wichtig Teamarbeit in einem Krankenhaus ist, da eine einzige Person niemals alle Aufgaben allein bewältigen könnte. Trotzdem gab es auch schwierige Momente, etwa als ein Patient schlechte Nachrichten erhielt.\n\nAm Ende des Praktikums war sich Nina sicher, dass sie später im Gesundheitswesen arbeiten möchte. Nachdem sie diese Erfahrung gemacht hatte, hat sie sich sogar schon über ein Pflegestudium informiert. Ihre Lehrerin war von Ninas Bericht sehr beeindruckt.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat ihr Praktikum in einer Schule gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina war zu Beginn des Praktikums etwas nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina durfte am ersten Tag sofort allein operieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat gelernt, wie wichtig Teamarbeit im Krankenhaus ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina möchte später sicher nicht im Gesundheitswesen arbeiten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungsnot-in-den-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Die Wohnungsnot in den Großstädten",
+    "descripcion": "Ein Artikel über die Ursachen und möglichen Lösungen der Wohnungsknappheit in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten hat sich die Suche nach einer bezahlbaren Wohnung in den letzten Jahren zu einem der dringendsten gesellschaftlichen Probleme entwickelt. Während die Mieten in begehrten Stadtvierteln stetig steigen, wird gleichzeitig zu wenig neuer, bezahlbarer Wohnraum geschaffen. Experten weisen darauf hin, dass vor allem einkommensschwächere Haushalte und Studierende von dieser Entwicklung besonders hart getroffen würden.\n\nAls eine der Hauptursachen wird häufig die seit Jahren unzureichende Bautätigkeit genannt, die durch komplizierte Genehmigungsverfahren und einen Mangel an verfügbaren Grundstücken zusätzlich erschwert wird. Würde der Staat stärker in den sozialen Wohnungsbau investieren, so argumentieren viele Stadtplaner, könnte der Druck auf dem ohnehin angespannten Wohnungsmarkt zumindest teilweise gemildert werden. Stattdessen werde ein Großteil des Neubaus im hochpreisigen Segment realisiert, das sich die meisten Menschen gar nicht leisten könnten.\n\nManche Kommunen haben bereits begonnen, strengere Mietpreisbremsen einzuführen, deren Wirksamkeit von Fachleuten jedoch unterschiedlich bewertet wird. Kritiker befürchten, dass solche Regulierungen Investoren abschrecken und den Neubau weiter verlangsamen könnten, während Befürworter betonen, dass ohne derartige Maßnahmen die soziale Spaltung in den Städten weiter zunehmen würde. Eine nachhaltige Lösung, so die einhellige Meinung vieler Experten, könne letztlich nur durch ein Zusammenspiel von öffentlicher Förderung und privater Investition erreicht werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in begehrten Stadtvierteln steigen laut Text stetig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Experten sind einkommensschwächere Haushalte von der Wohnungsnot kaum betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Komplizierte Genehmigungsverfahren werden als eine Ursache der unzureichenden Bautätigkeit genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass Mietpreisbremsen völlig wirkungslos sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten sehen eine Lösung im Zusammenspiel von öffentlicher Förderung und privater Investition.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-der-stadtverwaltung",
+    "nivel": "B2",
+    "titulo": "Digitalisierung der Stadtverwaltung",
+    "descripcion": "Ein Beitrag über Chancen und Hindernisse bei der digitalen Modernisierung deutscher Behörden.",
+    "texto": "Während in vielen europäischen Nachbarländern Behördengänge längst vollständig online erledigt werden können, hinkt die Digitalisierung der öffentlichen Verwaltung in Deutschland nach Ansicht zahlreicher Experten noch immer deutlich hinterher. Viele Anträge müssten weiterhin persönlich bei einem Amt eingereicht werden, was insbesondere für berufstätige Bürgerinnen und Bürger eine erhebliche Belastung darstelle.\n\nAls Gründe für diese schleppende Entwicklung werden unter anderem veraltete technische Infrastrukturen, ein Mangel an IT-Fachkräften innerhalb der Verwaltung sowie eine föderale Struktur genannt, in der jede Kommune eigene digitale Lösungen entwickeln müsse, anstatt einheitliche Standards zu nutzen. Würden Bund, Länder und Kommunen stärker zusammenarbeiten, so argumentieren viele Fachleute, ließen sich Ressourcen effizienter einsetzen und Doppelentwicklungen vermeiden.\n\nGleichzeitig wird betont, dass die Digitalisierung nicht nur technische, sondern auch soziale Herausforderungen mit sich bringt. Ältere Menschen oder Personen ohne ausreichende digitale Kompetenzen dürften von rein digitalen Angeboten nicht ausgeschlossen werden, weshalb analoge Alternativen weiterhin bereitgestellt werden müssten. Nur wenn es gelinge, Effizienz und soziale Teilhabe miteinander zu vereinen, könne die Digitalisierung der Verwaltung als Erfolg gewertet werden.",
+    "preguntas": [
+      {
+        "enunciado": "In vielen europäischen Nachbarländern können Behördengänge bereits vollständig online erledigt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Digitalisierung der Verwaltung in Deutschland gilt laut Text als vorbildlich und fortschrittlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Mangel an IT-Fachkräften wird als eine der Ursachen genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert, ältere Menschen von digitalen Angeboten komplett auszuschließen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text sollten analoge Alternativen weiterhin bereitgestellt werden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "work-life-balance-im-modernen-arbeitsleben",
+    "nivel": "B2",
+    "titulo": "Work-Life-Balance im modernen Arbeitsleben",
+    "descripcion": "Eine Analyse darüber, wie sich das Verhältnis von Arbeit und Freizeit in den letzten Jahren verändert hat.",
+    "texto": "Der Begriff Work-Life-Balance beschreibt das Bestreben, berufliche Anforderungen und privates Leben in ein ausgewogenes Verhältnis zu bringen. In den letzten Jahren ist dieses Thema zunehmend in den Mittelpunkt gesellschaftlicher Debatten gerückt, da immer mehr Arbeitnehmerinnen und Arbeitnehmer über Erschöpfung und ständige Erreichbarkeit klagen. Besonders durch die Verbreitung mobiler Endgeräte wird erwartet, dass Mitarbeitende auch außerhalb der eigentlichen Arbeitszeit auf E-Mails reagieren.\n\nZahlreiche Unternehmen haben als Reaktion darauf flexible Arbeitsmodelle eingeführt, bei denen Beschäftigte ihre Arbeitszeit und ihren Arbeitsort selbst bestimmen können. Würde eine solche Flexibilität konsequenter umgesetzt, könnten laut arbeitspsychologischer Forschung sowohl die Zufriedenheit als auch die Produktivität der Belegschaft gesteigert werden. Kritiker geben jedoch zu bedenken, dass die Grenze zwischen Arbeit und Freizeit dadurch zunehmend verschwimme, was langfristig ebenfalls zu Erschöpfung führen könne.\n\nHinzu kommt, dass eine ausgewogene Work-Life-Balance nicht allein von individuellen Entscheidungen abhänge, sondern maßgeblich durch strukturelle Rahmenbedingungen beeinflusst werde, etwa durch gesetzliche Regelungen zur Erreichbarkeit außerhalb der Arbeitszeit. Ohne eine solche Unterstützung von Seiten der Unternehmen und des Gesetzgebers, so die Befürchtung vieler Experten, bleibe das Ziel einer gesunden Balance für viele Beschäftigte unerreichbar.",
+    "preguntas": [
+      {
+        "enunciado": "Work-Life-Balance beschreibt das Bestreben, Beruf und Privatleben in ein ausgewogenes Verhältnis zu bringen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text klagen immer weniger Arbeitnehmer über ständige Erreichbarkeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen haben flexible Arbeitsmodelle eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen in flexiblen Arbeitsmodellen keine Nachteile.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Experten hängt eine gesunde Work-Life-Balance auch von strukturellen Rahmenbedingungen ab.",
+        "respuesta": true
+      }
+    ]
   }
 ]
