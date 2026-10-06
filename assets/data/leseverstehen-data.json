@@ -36314,5 +36314,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "toms-neuer-fahrradhelm",
+    "nivel": "A1",
+    "titulo": "Toms neuer Fahrradhelm",
+    "descripcion": "Tom bekommt einen neuen Fahrradhelm und ist sehr glücklich.",
+    "texto": "Tom hat einen neuen Fahrradhelm. Der Helm ist blau und gelb. Tom findet die Farben sehr schön. Er trägt den Helm jeden Tag. Die Mutter kauft den Helm im Fahrradladen. Der Helm ist nicht teuer. Tom ist sehr stolz auf seinen Helm.\n\nAm Morgen fährt Tom mit dem Fahrrad zur Schule. Er trägt immer seinen Helm. Der Weg zur Schule ist kurz. Tom fährt durch den Park. Im Park sieht er viele Vögel. Die Vögel singen laut. Tom lächelt und fährt weiter.\n\nNach der Schule spielt Tom mit seinem Freund Paul. Paul hat auch ein Fahrrad. Aber Paul hat keinen Helm. Tom sagt: „Ein Helm ist wichtig!“ Paul hört zu. Am nächsten Tag kauft Paul auch einen Helm. Jetzt tragen beide Freunde einen Helm.",
+    "preguntas": [
+      {
+        "enunciado": "Tom hat einen neuen Fahrradhelm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Helm ist rot und grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom fährt mit dem Fahrrad zur Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat schon am ersten Tag einen Helm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende tragen beide Freunde einen Helm.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-zum-schwimmbad",
+    "nivel": "A1",
+    "titulo": "Der Ausflug zum Schwimmbad",
+    "descripcion": "Eine Familie macht am Wochenende einen Ausflug zum Schwimmbad.",
+    "texto": "Am Samstag fährt die Familie Müller zum Schwimmbad. Das Schwimmbad ist groß und bunt. Es gibt eine lange Wasserrutsche. Die Kinder Lena und Jan freuen sich sehr. Der Vater trägt die Tasche mit den Handtüchern. Die Mutter hat Obst und Wasser dabei.\n\nIm Schwimmbad schwimmt Lena mit ihrem Vater. Jan spielt lieber mit dem Ball im flachen Wasser. Die Wasserrutsche ist sehr hoch. Jan hat ein bisschen Angst. Lena ruft: „Komm, es macht Spaß!“ Jan rutscht zweimal und lacht laut.\n\nAm Nachmittag essen alle zusammen ein Eis. Lena nimmt Schokoladeneis. Jan möchte Erdbeereis. Die Mutter ist müde, aber glücklich. Die Familie bleibt bis zum Abend im Schwimmbad. Dann fahren sie müde nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Müller fährt am Sonntag zum Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt eine Wasserrutsche im Schwimmbad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jan hat zuerst keine Angst vor der Rutsche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena isst Schokoladeneis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie fährt sofort nach dem Schwimmen nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-supermarkt-mit-mama",
+    "nivel": "A1",
+    "titulo": "Im Supermarkt mit Mama",
+    "descripcion": "Ein Kind begleitet seine Mutter beim Einkaufen im Supermarkt.",
+    "texto": "Mia geht mit ihrer Mama in den Supermarkt. Sie brauchen Brot, Milch und Äpfel. Mia schiebt den kleinen Einkaufswagen. Der Wagen ist rot. Mama liest die Einkaufsliste. Mia sucht die Äpfel im Regal.\n\nIm Supermarkt gibt es viele Regale. Mia mag die Abteilung mit den Süßigkeiten. Sie fragt: „Dürfen wir Schokolade kaufen?“ Mama sagt: „Nur ein kleines Stück.“ Mia freut sich und nimmt eine Tafel Schokolade. Dann gehen sie zur Kasse.\n\nAn der Kasse wartet eine lange Schlange. Mia hilft Mama, die Sachen auf das Band zu legen. Die Verkäuferin lächelt und sagt: „Das macht zwölf Euro.“ Mama bezahlt mit Karte. Zusammen tragen sie die Taschen nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Mia geht allein in den Supermarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mama kauft Brot, Milch und Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia darf eine ganze Kiste Schokolade kaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "An der Kasse ist keine Schlange.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mama bezahlt mit Karte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-vergessene-schluessel-im-hotel",
+    "nivel": "A2",
+    "titulo": "Der vergessene Schlüssel im Hotel",
+    "descripcion": "Herr Weber hat seinen Zimmerschlüssel im Hotel vergessen und muss ihn suchen.",
+    "texto": "Herr Weber ist letzte Woche nach München gereist, weil er dort eine Konferenz besucht hat. Er hat in einem kleinen Hotel in der Nähe des Bahnhofs gewohnt. Am ersten Abend ist er müde ins Bett gegangen, ohne den Schlüssel richtig wegzulegen. Am nächsten Morgen hat er lange gesucht, aber der Schlüssel war nicht da.\n\nHerr Weber hat die Rezeption angerufen, weil er keinen Ersatzschlüssel hatte. Die Mitarbeiterin an der Rezeption hat gesagt, dass sie gleich kommen würde. Sie hat die Tür mit einem Generalschlüssel geöffnet. Herr Weber hat sich entschuldigt und erklärt, dass er den Schlüssel vielleicht im Restaurant verloren hat.\n\nAls er ins Restaurant gegangen ist, hat der Kellner den Schlüssel tatsächlich gefunden. Er hatte ihn unter dem Tisch entdeckt, nachdem Herr Weber am Abend dort gegessen hatte. Herr Weber war sehr erleichtert und hat dem Kellner als Dank fünf Euro gegeben. Am Abend hat er seiner Frau die ganze Geschichte am Telefon erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber ist nach München gereist, um eine Konferenz zu besuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat den Schlüssel sofort am Morgen gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Rezeption hat die Tür mit einem Generalschlüssel geöffnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schlüssel war die ganze Zeit in seinem Zimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat dem Kellner Geld gegeben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-praktikum-in-der-tierklinik",
+    "nivel": "A2",
+    "titulo": "Mein Praktikum in der Tierklinik",
+    "descripcion": "Eine Schülerin berichtet von ihrem zweiwöchigen Praktikum in einer Tierklinik.",
+    "texto": "Letzten Monat habe ich ein zweiwöchiges Praktikum in einer Tierklinik gemacht. Ich habe mich für diesen Praktikumsplatz entschieden, weil ich später Tierärztin werden möchte. Am ersten Tag war ich sehr nervös, aber die Tierärztin hat mir alles ruhig erklärt. Ich durfte den Tieren beim Warten helfen und ihnen Wasser geben.\n\nIn der zweiten Woche habe ich bei einer kleinen Operation zugeschaut. Ein Hund hatte sich das Bein verletzt, weil er von der Treppe gefallen war. Die Tierärztin hat das Bein geröntgt und dann vorsichtig verbunden. Ich habe gelernt, dass man mit ängstlichen Tieren sehr geduldig sein muss.\n\nAm letzten Tag hat die ganze Klinik mir gedankt, weil ich fleißig geholfen habe. Die Tierärztin hat gesagt, dass ich gut mit den Tieren umgehen kann. Ich habe mich sehr gefreut und bin jetzt noch sicherer, dass ich diesen Beruf lernen möchte. Meine Eltern waren auch sehr stolz auf mich.",
+    "preguntas": [
+      {
+        "enunciado": "Das Praktikum hat drei Wochen gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schülerin möchte später Tierärztin werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund hat sich das Bein verletzt, weil er gesprungen ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schülerin hat bei einer Operation zugeschaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tierärztin war mit der Schülerin unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-besuch-bei-den-neuen-nachbarn",
+    "nivel": "A2",
+    "titulo": "Der erste Besuch bei den neuen Nachbarn",
+    "descripcion": "Eine Familie zieht in ein neues Haus und besucht ihre neuen Nachbarn.",
+    "texto": "Als die Familie Schmidt letzten Monat in ihr neues Haus gezogen ist, haben sie noch niemanden in der Straße gekannt. Die Mutter hat vorgeschlagen, dass sie die Nachbarn besuchen, weil sie sich schnell willkommen fühlen wollte. Sie haben einen Kuchen gebacken und sind zum Haus nebenan gegangen.\n\nDie Nachbarn, Herr und Frau Keller, haben sich sehr gefreut, als sie die Familie Schmidt an der Tür gesehen haben. Sie haben sie sofort zum Kaffee eingeladen. Herr Keller hat erzählt, dass er schon seit zwanzig Jahren in diesem Haus wohnt. Frau Keller hat gefragt, ob die Kinder sich schon in der neuen Schule eingelebt haben.\n\nNachdem sie zwei Stunden zusammen geredet hatten, sind die Schmidts nach Hause gegangen. Die Kinder waren glücklich, weil die Nachbarskinder genauso alt waren wie sie. Am nächsten Wochenende haben beide Familien zusammen im Garten gegrillt. Seitdem sind sie gute Freunde geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Schmidt hat die Nachbarn schon vorher gekannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat einen Kuchen für die Nachbarn gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Keller wohnt erst seit einem Jahr in dem Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarskinder waren viel jünger als die Schmidt-Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Familien haben zusammen gegrillt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-erste-vorstellung-im-jugendtheater",
+    "nivel": "B1",
+    "titulo": "Die erste Vorstellung im Jugendtheater",
+    "descripcion": "Eine Jugendliche berichtet von ihrer ersten Theaterrolle und der Aufregung davor.",
+    "texto": "Seit drei Monaten probt Hannah mit der Jugendtheatergruppe ihrer Stadt für ein neues Stück. Obwohl sie noch nie zuvor auf einer Bühne gestanden hatte, hat sie sich für eine der Hauptrollen entschieden. Die Proben fanden zweimal pro Woche statt, und der Regisseur war sehr geduldig mit den jungen Schauspielern.\n\nIn der letzten Woche vor der Premiere wurde Hannah immer nervöser. Nachdem sie ihren Text tausendmal geübt hatte, konnte sie trotzdem nicht ruhig schlafen. Ihre Eltern versuchten, sie zu beruhigen, indem sie ihr erzählten, wie stolz sie schon jetzt auf sie waren. Am Abend vor der Premiere hat die ganze Gruppe die wichtigsten Szenen noch einmal durchgesprochen.\n\nAm Tag der Premiere war der Saal voll, obwohl das Theater eigentlich nur kleine Stücke zeigt. Hannah hatte große Angst, ihren Text zu vergessen, doch sobald das Licht anging, verschwand die Nervosität fast völlig. Nach der Vorstellung bekam die ganze Gruppe langen Applaus. Hannah war überglücklich und beschloss, weiterhin Theater zu spielen, obwohl sie vorher gedacht hatte, es sei nur ein einmaliges Erlebnis.",
+    "preguntas": [
+      {
+        "enunciado": "Hannah hatte schon vor diesem Stück viel Bühnenerfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Proben fanden zweimal pro Woche statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hannah konnte vor der Premiere ohne Probleme schlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Theatersaal war bei der Premiere leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hannah möchte nach der Premiere weiter Theater spielen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-brieffreundschaft-wird-real",
+    "nivel": "B1",
+    "titulo": "Eine Brieffreundschaft wird real",
+    "descripcion": "Zwei Jugendliche, die sich jahrelang nur Briefe geschrieben haben, treffen sich endlich persönlich.",
+    "texto": "Seit ihrem zwölften Lebensjahr schreibt Clara regelmäßig Briefe an eine Brieffreundin in Frankreich. Die beiden hatten sich über ein Schulprojekt kennengelernt, obwohl keine von ihnen die Sprache der anderen besonders gut sprach. Trotzdem haben sie über die Jahre eine enge Freundschaft aufgebaut, indem sie sich gegenseitig von ihrem Alltag erzählten.\n\nNachdem sie sich fünf Jahre lang nur geschrieben hatten, beschlossen Clara und ihre Freundin Léa, sich endlich persönlich zu treffen. Claras Eltern waren zunächst etwas besorgt, obwohl sie wussten, wie wichtig diese Freundschaft für ihre Tochter war. Schließlich organisierten sie eine Reise nach Lyon, wo Léa mit ihrer Familie lebte.\n\nAls Clara am Bahnhof ankam, erkannte sie Léa sofort, obwohl sie sich noch nie persönlich gesehen hatten. Die beiden umarmten sich lange und konnten es kaum glauben, dass sie endlich zusammen waren. Während der Woche in Lyon zeigte Léa ihrer Freundin die Stadt, und beide merkten, dass ihre Freundschaft genauso stark war wie in den Briefen. Nachdem Clara wieder nach Hause gefahren war, schrieben sie sich weiterhin, planten aber schon das nächste Treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Clara und Léa haben sich durch ein Schulprojekt kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden haben sich schon nach einem Jahr persönlich getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Claras Eltern hatten anfangs keine Bedenken wegen der Reise.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara hat Léa am Bahnhof sofort erkannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Treffen haben die beiden aufgehört, sich zu schreiben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommerpraktikum-in-einer-zeitungsredaktion",
+    "nivel": "B1",
+    "titulo": "Ein Sommerpraktikum in einer Zeitungsredaktion",
+    "descripcion": "Ein Schüler sammelt während eines Sommerpraktikums erste Erfahrungen im Journalismus.",
+    "texto": "Felix hat sich schon lange für Journalismus interessiert, deshalb hat er sich für ein dreiwöchiges Praktikum bei der Lokalzeitung seiner Stadt beworben. Obwohl er zunächst dachte, dass er nur Kaffee kochen und Papiere sortieren müsste, war die Arbeit viel interessanter als erwartet. Schon am zweiten Tag durfte er eine Redakteurin zu einem Termin begleiten.\n\nNachdem Felix bei mehreren Terminen zugehört hatte, bekam er die Aufgabe, selbst einen kurzen Artikel über ein Schulfest zu schreiben. Er war zunächst unsicher, trotzdem setzte er sich mit viel Eifer an die Arbeit. Seine Betreuerin half ihm dabei, den Text zu verbessern, und erklärte ihm, worauf es bei einer guten Überschrift ankommt.\n\nAls der Artikel schließlich in der Zeitung gedruckt wurde, konnte Felix es kaum glauben. Obwohl es nur ein kleiner Text auf Seite zwölf war, war er unglaublich stolz darauf. Seine Mitschüler lasen den Artikel und gratulierten ihm. Nach diesem Erlebnis ist sich Felix sicher, dass er nach der Schule Journalismus studieren möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat sich für ein einwöchiges Praktikum beworben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix durfte schon am zweiten Tag eine Redakteurin begleiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat überhaupt keinen eigenen Text geschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Artikel von Felix wurde tatsächlich gedruckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix möchte nach diesem Praktikum kein Journalismus studieren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-fachkraeftemangel-im-handwerk",
+    "nivel": "B2",
+    "titulo": "Der Fachkräftemangel im Handwerk",
+    "descripcion": "Eine Analyse der Ursachen und möglichen Lösungen des Fachkräftemangels im deutschen Handwerk.",
+    "texto": "Seit Jahren klagen Handwerksbetriebe in Deutschland über einen zunehmenden Mangel an qualifizierten Fachkräften. Insbesondere in Berufen wie Elektrotechnik, Sanitärinstallation und Zimmerei finden viele Betriebe kaum noch geeignete Auszubildende. Dies liegt unter anderem daran, dass handwerkliche Berufe bei jungen Menschen oft als weniger attraktiv gelten als ein akademisches Studium, obwohl die Verdienstmöglichkeiten im Handwerk in vielen Fällen durchaus konkurrenzfähig sind.\n\nWürde die Gesellschaft handwerkliche Berufe stärker wertschätzen, ließe sich der Fachkräftemangel nach Ansicht vieler Innungen deutlich lindern. Einige Handwerkskammern fordern deshalb, dass bereits in der Schule mehr über die Vorteile einer Ausbildung informiert werden sollte, anstatt den Fokus fast ausschließlich auf das Abitur und ein anschließendes Studium zu legen. Zudem wird diskutiert, ob finanzielle Anreize, wie etwa eine höhere Ausbildungsvergütung, junge Menschen stärker für diese Berufe begeistern könnten.\n\nEin weiterer, oft übersehener Faktor ist die demografische Entwicklung: Viele erfahrene Handwerker, die seit Jahrzehnten in ihren Betrieben arbeiten, gehen in den kommenden Jahren in den Ruhestand, ohne dass ausreichend Nachwuchs ausgebildet wird. Sollte dieser Trend nicht gestoppt werden, könnten ganze Regionen in Deutschland von einem erheblichen Mangel an Handwerksleistungen betroffen sein. Experten warnen, dass dies langfristig sowohl private Haushalte als auch die Bauwirtschaft stark belasten würde.",
+    "preguntas": [
+      {
+        "enunciado": "Der Fachkräftemangel betrifft laut Text vor allem akademische Berufe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Handwerkliche Berufe gelten bei vielen jungen Menschen als weniger attraktiv.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, mehr über Ausbildungsvorteile in der Schule zu informieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text gibt es keinen Zusammenhang zwischen dem demografischen Wandel und dem Fachkräftemangel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten sehen keine negativen Folgen für die Bauwirtschaft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "lautlose-vereinsamung-in-der-digitalen-gesellschaft",
+    "nivel": "B2",
+    "titulo": "Lautlose Vereinsamung in der digitalen Gesellschaft",
+    "descripcion": "Ein Blick auf das Paradox zunehmender digitaler Vernetzung und wachsender sozialer Isolation.",
+    "texto": "Obwohl die Menschen heute über soziale Netzwerke, Messenger-Dienste und Videotelefonie enger miteinander vernetzt zu sein scheinen als je zuvor, berichten zahlreiche Studien von einem gleichzeitigen Anstieg des Gefühls der Einsamkeit, besonders unter jungen Erwachsenen. Dieses scheinbare Paradox wird von Soziologen zunehmend untersucht, da es weitreichende Folgen für die psychische Gesundheit einer ganzen Generation haben könnte.\n\nEine mögliche Erklärung liegt darin, dass digitale Kontakte zwar zahlreich, aber oft oberflächlich sind. Während früher ein enger Freundeskreis gepflegt wurde, mit dem man regelmäßig persönlich Zeit verbrachte, wird heute vielfach nur noch über kurze Nachrichten kommuniziert. Würde mehr Wert auf echte, zeitintensive Begegnungen gelegt, so argumentieren manche Experten, könnte das Gefühl der Verbundenheit deutlich gestärkt werden.\n\nHinzu kommt, dass in vielen sozialen Medien ein verzerrtes Bild des Alltags anderer Menschen gezeigt wird, was bei den Betrachtenden das Gefühl erzeugen kann, mit dem eigenen Leben allein zu sein. Es wird zunehmend gefordert, dass Schulen und Jugendeinrichtungen Programme anbieten, die einen bewussteren Umgang mit digitalen Medien vermitteln. Ohne eine solche Medienbildung, so die Befürchtung vieler Fachleute, werde sich die Kluft zwischen scheinbarer Vernetzung und tatsächlicher Verbindung weiter vertiefen.\n\nDennoch betonen einige Forscher, dass digitale Medien nicht grundsätzlich negativ zu bewerten seien. Vielmehr komme es darauf an, wie bewusst und reflektiert sie genutzt würden. Menschen, die digitale Kommunikation gezielt zur Ergänzung persönlicher Treffen einsetzen, berichten demnach seltener von Einsamkeitsgefühlen als jene, die ausschließlich online kommunizieren.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text sinkt die Einsamkeit, obwohl digitale Vernetzung zunimmt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Digitale Kontakte werden im Text oft als oberflächlich beschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert mehr Medienbildung an Schulen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Forscher bewerten digitale Medien laut Text ausschließlich negativ.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Menschen, die digitale Kommunikation nur ergänzend nutzen, berichten laut Text häufiger von Einsamkeit.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-der-wissenschaft-in-der-oeffentlichen-debatte",
+    "nivel": "B2",
+    "titulo": "Die Rolle der Wissenschaft in der öffentlichen Debatte",
+    "descripcion": "Eine Betrachtung darüber, wie wissenschaftliche Erkenntnisse in gesellschaftlichen Diskussionen wahrgenommen werden.",
+    "texto": "In Zeiten komplexer globaler Herausforderungen wie dem Klimawandel oder neuen Pandemien wird der Wissenschaft eine zentrale Rolle in der öffentlichen Meinungsbildung zugeschrieben. Gleichzeitig zeigt sich jedoch, dass wissenschaftliche Erkenntnisse in gesellschaftlichen Debatten zunehmend infrage gestellt werden, selbst wenn sie durch umfangreiche Studien und breite fachliche Übereinstimmung gestützt werden. Dieses Spannungsverhältnis zwischen fachlicher Expertise und öffentlichem Vertrauen beschäftigt Forscher verschiedener Disziplinen.\n\nEin zentrales Problem besteht darin, dass wissenschaftliche Aussagen, die stets mit gewissen Unsicherheiten behaftet sind, in der öffentlichen Kommunikation oft vereinfacht oder verzerrt dargestellt werden. Würden komplexe Zusammenhänge verständlicher und zugleich präziser vermittelt, könnte nach Ansicht vieler Wissenschaftskommunikatoren das Vertrauen in fundierte Erkenntnisse gestärkt werden. Stattdessen werden einzelne Studien in sozialen Medien häufig aus dem Zusammenhang gerissen und für politische Zwecke instrumentalisiert.\n\nHinzu kommt, dass in einer durch Algorithmen gesteuerten Medienlandschaft reißerische oder vereinfachte Behauptungen oft mehr Aufmerksamkeit erhalten als nuancierte, wissenschaftlich fundierte Darstellungen. Sollte diesem Trend nicht aktiv entgegengewirkt werden, etwa durch eine gezielte Förderung von Wissenschaftsjournalismus, könnte das gesellschaftliche Vertrauen in evidenzbasierte Entscheidungen langfristig weiter sinken. Viele Hochschulen haben daher begonnen, ihre Forschenden gezielt in verständlicher Kommunikation zu schulen.\n\nAbschließend betonen zahlreiche Experten, dass eine rein technokratische Entscheidungsfindung, bei der wissenschaftliche Erkenntnisse ohne gesellschaftliche Diskussion einfach umgesetzt würden, ebenfalls problematisch wäre. Vielmehr brauche es einen Dialog, in dem wissenschaftliche Fakten und gesellschaftliche Werte gemeinsam abgewogen werden, damit Entscheidungen sowohl fachlich fundiert als auch demokratisch legitimiert sind.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text behauptet, wissenschaftliche Erkenntnisse würden in der Gesellschaft nie infrage gestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wissenschaftliche Aussagen werden laut Text manchmal vereinfacht oder verzerrt dargestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Algorithmengesteuerte Medien bevorzugen laut Text oft reißerische Behauptungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert eine rein technokratische Entscheidungsfindung ohne gesellschaftlichen Dialog.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text haben alle Hochschulen die Schulung ihrer Forschenden bereits abgeschlossen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
