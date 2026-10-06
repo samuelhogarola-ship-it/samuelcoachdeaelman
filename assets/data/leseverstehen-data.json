@@ -37358,5 +37358,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-neuer-pullover",
+    "nivel": "A1",
+    "titulo": "Mein neuer Pullover",
+    "descripcion": "Lisa kauft einen neuen blauen Pullover und zeigt ihn ihrer Freundin Mia.",
+    "texto": "Lisa kauft einen neuen Pullover. Der Pullover ist blau und warm. Lisa mag die Farbe Blau sehr. Der Pullover kostet zwanzig Euro. Das ist nicht teuer.\n\nLisa trägt den Pullover in der Schule. Ihre Freundin Mia findet den Pullover schön. „Wo kaufst du den Pullover?“, fragt Mia. Lisa sagt: „Im Kaufhaus in der Stadt.“ Mia möchte auch einen Pullover kaufen.\n\nAm Nachmittag gehen Lisa und Mia zusammen ins Kaufhaus. Mia kauft einen roten Pullover. Die zwei Mädchen sind glücklich. Sie tragen ihre neuen Pullover am nächsten Tag in der Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Der Pullover von Lisa ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa mag die Farbe Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Pullover kostet zwanzig Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia findet den Pullover nicht schön.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia kauft auch einen Pullover.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-picknick-im-park",
+    "nivel": "A1",
+    "titulo": "Das Picknick im Park",
+    "descripcion": "Die Familie Berger macht am Sonntag ein Picknick im Park.",
+    "texto": "Am Sonntag macht die Familie Berger ein Picknick im Park. Die Sonne scheint und der Himmel ist blau. Die Mutter packt Brot, Käse und Obst in eine Tasche. Der Vater nimmt eine Decke mit.\n\nIm Park suchen sie einen schönen Platz unter einem Baum. Die Kinder, Tom und Lea, spielen mit einem Ball. Der Hund der Familie läuft fröhlich herum. „Das Essen ist fertig!“, ruft die Mutter. Alle setzen sich auf die Decke und essen zusammen.\n\nNach dem Essen trinken sie Tee aus einer Thermoskanne. Tom isst einen Apfel und Lea isst eine Banane. Der Hund bekommt auch ein Stück Brot. Am Abend gehen sie müde, aber glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie macht das Picknick am Montag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater bringt eine Decke mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder heißen Tom und Lea.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund bekommt kein Essen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie trinkt Tee nach dem Essen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-zum-zoo",
+    "nivel": "A1",
+    "titulo": "Der Ausflug zum Zoo",
+    "descripcion": "Die Klasse 3b besucht den Zoo und sieht Elefanten, Affen und Löwen.",
+    "texto": "Heute besucht die Klasse 3b den Zoo. Die Kinder sind sehr aufgeregt. Zuerst sehen sie die Elefanten. Die Elefanten sind groß und grau. Dann gehen sie zu den Affen. Die Affen klettern schnell auf die Bäume.\n\nDer Lehrer, Herr Klein, zeigt den Kindern auch die Löwen. „Die Löwen schlafen viel“, sagt er. Die Kinder lachen, weil ein Löwe laut gähnt. Danach essen alle zusammen ihr Mittagessen auf einer Bank.\n\nAm Ende des Tages kaufen viele Kinder ein kleines Geschenk im Zoo-Shop. Mia kauft einen Plüschaffen. Paul kauft eine Postkarte mit einem Elefanten. Alle finden den Ausflug toll und wollen bald wiederkommen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 3b besucht den Zoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Affen klettern langsam auf die Bäume.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Lehrer heißt Herr Klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder essen ihr Mittagessen im Bus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia kauft einen Plüschaffen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarin-zieht-um",
+    "nivel": "A2",
+    "titulo": "Die Nachbarin zieht um",
+    "descripcion": "Frau Schulz zieht nach zehn Jahren in eine andere Stadt um, weil sie dort eine neue Arbeit gefunden hat.",
+    "texto": "Frau Schulz hat zehn Jahre lang neben uns gewohnt. Letzte Woche ist sie in eine andere Stadt umgezogen, weil sie dort eine neue Arbeit gefunden hat. Wir haben ihr beim Packen geholfen und viele Kisten in den Umzugswagen getragen.\n\nAm Umzugstag war Frau Schulz ein bisschen traurig, weil sie die Nachbarschaft sehr mochte. Sie hat gesagt, dass sie uns besuchen wird, wenn sie Zeit hat. Meine Mutter hat ihr einen Kuchen gebacken, und wir haben uns alle zum Abschied umarmt.\n\nJetzt wohnt eine junge Familie in der Wohnung von Frau Schulz. Wir haben sie noch nicht richtig kennengelernt, aber sie scheinen freundlich zu sein. Vielleicht laden wir sie bald zum Kaffee ein, wenn sie fertig mit dem Einräumen sind.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Schulz hat fünf Jahre neben uns gewohnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Schulz ist umgezogen, weil sie eine neue Arbeit gefunden hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat Frau Schulz beim Packen geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Schulz hat versprochen, uns zu besuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der alten Wohnung von Frau Schulz wohnt jetzt niemand.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-schreck-im-schwimmbad",
+    "nivel": "A2",
+    "titulo": "Ein Schreck im Schwimmbad",
+    "descripcion": "Tim verletzt sich beim Springen vom Sprungturm im Schwimmbad und muss ins Krankenhaus.",
+    "texto": "Am Samstag ist Tim mit seinen Eltern ins Schwimmbad gegangen. Er wollte vom hohen Sprungturm springen, obwohl seine Mutter das nicht wollte. Als er gesprungen ist, hat er sich beim Aufprall den Arm verletzt.\n\nSofort ist ein Rettungsschwimmer gekommen und hat Tim geholfen. Seine Eltern waren sehr besorgt, weil Tim vor Schmerzen geweint hat. Sie sind schnell mit ihm ins Krankenhaus gefahren, damit ein Arzt den Arm untersuchen konnte.\n\nDer Arzt hat gesagt, dass der Arm nur verstaucht ist und nicht gebrochen. Tim musste trotzdem eine Woche lang einen Verband tragen. Seitdem hört er besser auf seine Mutter, wenn sie ihn vor etwas warnt.",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist vom niedrigen Sprungturm gesprungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tims Mutter wollte, dass er vom Turm springt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Rettungsschwimmer hat Tim geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt hat gesagt, dass der Arm gebrochen ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim musste einen Verband tragen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-reise-in-die-alpen",
+    "nivel": "A2",
+    "titulo": "Eine Reise in die Alpen",
+    "descripcion": "Familie Hofer verbringt ihren Sommerurlaub wandernd in einer Hütte in den Alpen.",
+    "texto": "Letzten Sommer ist Familie Hofer in die Alpen gefahren, weil sie wandern und die Berge sehen wollte. Sie haben eine kleine Hütte gemietet, die mitten im Wald lag. Am ersten Tag sind sie zu einem See gewandert und haben dort gepicknickt.\n\nAm zweiten Tag hat es stark geregnet, sodass sie den ganzen Tag in der Hütte geblieben sind. Die Kinder haben Karten gespielt, während die Eltern Bücher gelesen haben. Am Abend hat die Sonne wieder geschienen, und alle waren froh darüber.\n\nAm letzten Tag sind sie auf einen kleinen Berg gestiegen. Von oben konnten sie das ganze Tal sehen. Die Mutter hat gesagt, dass dies der schönste Moment der Reise war. Müde, aber zufrieden sind sie am Abend nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Hofer ist im Winter in die Alpen gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben ein Hotel in der Stadt gebucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am zweiten Tag hat es geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben am Regentag Karten gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Von dem Berg aus konnten sie das Tal nicht sehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest-im-sommer",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest im Sommer",
+    "descripcion": "Trotz einer Baustelle findet das jährliche Stadtfest mit Musik, Ständen und Feuerwerk statt.",
+    "texto": "Jedes Jahr im Juli findet in unserer Kleinstadt ein großes Stadtfest statt, das die Einwohner mit viel Vorfreude erwarten. Nachdem die Organisatoren monatelang geplant hatten, konnte das Fest dieses Jahr endlich wieder stattfinden, obwohl es wegen der Baustelle auf dem Marktplatz einige Herausforderungen gab. Zahlreiche Stände mit regionalen Spezialitäten, Kunsthandwerk und Live-Musik zogen Besucher aus der ganzen Umgebung an.\n\nBesonders beliebt war in diesem Jahr der Auftritt einer lokalen Band, die trotz des schlechten Wetters am Nachmittag bis spät in die Nacht spielte. Viele Jugendliche tanzten vor der Bühne, während ältere Besucher lieber an den Tischen saßen und sich unterhielten. Ein Höhepunkt war das Feuerwerk am späten Abend, das den Himmel über der Stadt in bunten Farben erleuchtete.\n\nAm nächsten Morgen räumten freiwillige Helfer gemeinsam den Marktplatz auf, nachdem das Fest offiziell beendet worden war. Trotz der Erschöpfung waren sich alle einig, dass sich die Mühe gelohnt hatte. Die Stadtverwaltung kündigte bereits an, dass das Fest im nächsten Jahr noch größer werden solle.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest findet jedes Jahr im Juli statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen der Baustelle musste das Fest komplett abgesagt werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Band spielte trotz schlechten Wetters bis spät in die Nacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab kein Feuerwerk beim Fest.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Freiwillige Helfer haben am nächsten Morgen aufgeräumt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-ungewoehnliche-buerofreundschaft",
+    "nivel": "B1",
+    "titulo": "Eine ungewöhnliche Bürofreundschaft",
+    "descripcion": "Hannah entdeckt, dass sie mit ihrem anfangs streng wirkenden Chef eine gemeinsame Leidenschaft für Musik teilt.",
+    "texto": "Als Hannah vor zwei Jahren ihre neue Stelle in einem großen Unternehmen antrat, hätte sie nie erwartet, dass ausgerechnet ihr Chef zu einem ihrer engsten Freunde werden würde. Herr Weber, der Leiter der Abteilung, wirkte zunächst streng und distanziert, obwohl er sich im Umgang mit den Mitarbeitern eigentlich sehr fair verhielt.\n\nNachdem die beiden an einem gemeinsamen Projekt gearbeitet hatten, entdeckten sie, dass sie dieselbe Leidenschaft für klassische Musik teilten. Sie begannen, sich nach der Arbeit über Konzerte zu unterhalten, und gingen schließlich gemeinsam zu einem Konzert in der Stadthalle. Trotzdem machte sich Hannah zunächst Sorgen, dass eine Freundschaft mit ihrem Vorgesetzten unprofessionell wirken könnte.\n\nMit der Zeit merkte sie jedoch, dass Herr Weber die Grenze zwischen Beruf und Privatleben stets respektierte. Im Büro blieb er weiterhin ihr Chef, während sie außerhalb der Arbeit über ganz andere Themen sprachen. Heute ist Hannah überzeugt, dass diese ungewöhnliche Freundschaft ihr gezeigt hat, dass echte Verbindungen manchmal dort entstehen, wo man sie am wenigsten erwartet.",
+    "preguntas": [
+      {
+        "enunciado": "Hannah hat sofort erwartet, mit ihrem Chef befreundet zu sein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber wirkte zunächst streng, obwohl er fair war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden teilen eine Leidenschaft für klassische Musik.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hannah hatte nie Bedenken wegen der Freundschaft mit ihrem Chef.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber vermischt im Büro Beruf und Privatleben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-schulwechsel-nach-dem-umzug",
+    "nivel": "B1",
+    "titulo": "Der Schulwechsel nach dem Umzug",
+    "descripcion": "Jonas muss nach einem Umzug die Schule wechseln und findet trotz anfänglicher Unsicherheit neue Freunde.",
+    "texto": "Nachdem Jonas mit seiner Familie in eine andere Stadt gezogen war, musste er die Schule wechseln und sich an eine völlig neue Umgebung gewöhnen. Obwohl er sich zunächst sehr unsicher fühlte, versuchte er am ersten Tag, möglichst offen auf seine neuen Mitschüler zuzugehen.\n\nIn der Pause sprach ihn ein Junge namens Felix an, der ihm anbot, mit ihm und seinen Freunden zusammen zu essen. Trotzdem dauerte es noch einige Wochen, bis sich Jonas wirklich wohl in der neuen Klasse fühlte. Besonders der Sportunterricht half ihm dabei, schnell Anschluss zu finden, da er im Fußball sehr talentiert war.\n\nNachdem das erste Schulhalbjahr vergangen war, hatte Jonas bereits eine feste Gruppe von Freunden gefunden. Rückblickend erzählt er, dass der Umzug zwar am Anfang schwierig gewesen sei, er aber froh darüber ist, wie alles sich entwickelt hat. Seine Eltern sind stolz darauf, wie gut er sich an die Veränderung angepasst hat.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas musste wegen des Umzugs die Schule wechseln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fühlte sich am ersten Tag sehr sicher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat Jonas eingeladen, mit ihm zu essen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte keine Fähigkeiten im Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Halbjahres hatte Jonas neue Freunde gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-zwischen-wunsch-und-wirklichkeit",
+    "nivel": "B2",
+    "titulo": "Klimapolitik zwischen Wunsch und Wirklichkeit",
+    "descripcion": "Ein Essay über die Kluft zwischen ambitionierten Klimazielen und der politischen Umsetzung.",
+    "texto": "Die Klimapolitik vieler Länder steht seit Jahren im Spannungsfeld zwischen ambitionierten Zielen und der politischen Realität. Während auf internationalen Gipfeln regelmäßig betont wird, dass die Erderwärmung auf unter zwei Grad begrenzt werden müsse, zeigen die tatsächlich umgesetzten Maßnahmen oft ein anderes Bild. Kritiker bemängeln, dass viele Beschlüsse zwar verkündet, jedoch nur unzureichend in konkrete Gesetze umgesetzt würden.\n\nBesonders umstritten ist die Frage, wer die Kosten der ökologischen Transformation tragen soll. Während Umweltverbände fordern, dass vor allem große Industrieunternehmen stärker zur Verantwortung gezogen werden sollten, argumentieren Wirtschaftsvertreter, dass zu strenge Vorgaben Arbeitsplätze gefährden würden. Es wird häufig betont, dass eine sozial gerechte Umsetzung der Klimapolitik nötig sei, damit nicht vor allem einkommensschwächere Haushalte belastet werden.\n\nWürde die Politik entschlossener handeln, könnten viele der gesteckten Klimaziele durchaus erreicht werden, so argumentieren zahlreiche Wissenschaftler. Stattdessen werde oft auf freiwillige Selbstverpflichtungen der Industrie gesetzt, deren Wirksamkeit von Experten zunehmend angezweifelt wird. Ohne verbindlichere Regelungen, so die Befürchtung vieler Forscher, drohe die internationale Gemeinschaft, die eigenen Klimaziele deutlich zu verfehlen.",
+    "preguntas": [
+      {
+        "enunciado": "Auf internationalen Gipfeln wird oft betont, dass die Erderwärmung begrenzt werden müsse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Beschlüsse werden laut Kritikern vollständig in Gesetze umgesetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Umweltverbände und Wirtschaftsvertreter sind sich in der Kostenfrage einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Wissenschaftler glauben, dass die Klimaziele bei entschlossenerem Handeln erreichbar wären.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Freiwillige Selbstverpflichtungen der Industrie werden von allen Experten als wirksam angesehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-als-schluesselqualifikation",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz als Schlüsselqualifikation",
+    "descripcion": "Ein Artikel über die wachsende Bedeutung kritischer Medienkompetenz in Schule und Gesellschaft.",
+    "texto": "In einer Welt, in der Informationen über soziale Netzwerke, Nachrichtenportale und Messenger-Dienste in Sekundenschnelle verbreitet werden, gilt Medienkompetenz zunehmend als eine der wichtigsten Fähigkeiten des 21. Jahrhunderts. Es wird vielfach argumentiert, dass Schulen stärker darauf vorbereiten müssten, Quellen kritisch zu hinterfragen und Falschinformationen zu erkennen, bevor sie unreflektiert weiterverbreitet werden.\n\nStudien zeigen, dass vor allem jüngere Nutzer häufig Schwierigkeiten haben, zwischen seriösen Nachrichten und bewusst manipulierten Inhalten zu unterscheiden. Wäre Medienkompetenz fest im Lehrplan verankert, so argumentieren Bildungsexperten, könnten junge Menschen besser dafür sensibilisiert werden, wie Algorithmen ihre Wahrnehmung der Welt beeinflussen. Stattdessen werde dieses Thema in vielen Bildungssystemen bislang nur am Rande behandelt.\n\nHinzu kommt, dass auch Erwachsene keineswegs immun gegen Desinformation sind, wie zahlreiche Untersuchungen belegen. Gerade in Krisenzeiten, in denen Unsicherheit und Angst verbreitet sind, würden Falschmeldungen besonders schnell geteilt werden, ohne dass ihre Richtigkeit zuvor überprüft worden wäre. Daher fordern Experten, dass Medienkompetenz nicht nur in Schulen, sondern auch durch öffentliche Kampagnen für Erwachsene gefördert werden sollte.",
+    "preguntas": [
+      {
+        "enunciado": "Medienkompetenz wird als eine der wichtigsten Fähigkeiten des 21. Jahrhunderts beschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien haben jüngere Nutzer selten Probleme, manipulierte Inhalte zu erkennen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern, Medienkompetenz fest im Lehrplan zu verankern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Erwachsene sind laut dem Text vollständig immun gegen Desinformation.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern Kampagnen zur Medienkompetenz nur für Schulkinder, nicht für Erwachsene.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-einfuehrung-der-vier-tage-woche",
+    "nivel": "B2",
+    "titulo": "Die Einführung der Vier-Tage-Woche",
+    "descripcion": "Ein Beitrag über Chancen und Herausforderungen der Vier-Tage-Woche in verschiedenen Branchen.",
+    "texto": "Immer mehr Unternehmen experimentieren mit der Vier-Tage-Woche, bei der die Arbeitszeit auf vier Tage verteilt wird, ohne dass das Gehalt gekürzt wird. Befürworter argumentieren, dass die Produktivität der Mitarbeiter dadurch nicht sinke, sondern in vielen Fällen sogar steige, da ausgeruhte Angestellte konzentrierter arbeiten würden. Zudem wird betont, dass ein zusätzlicher freier Tag die Vereinbarkeit von Beruf und Familie erheblich verbessern könnte.\n\nKritiker hingegen geben zu bedenken, dass sich ein solches Modell nicht ohne Weiteres auf alle Branchen übertragen lasse. Während es in der Verwaltung oder im Dienstleistungssektor vergleichsweise einfach umgesetzt werden könnte, stelle sich die Frage, wie etwa in der Pflege oder im Einzelhandel verfahren werden solle, wo durchgehende Besetzung notwendig sei. Es wird außerdem befürchtet, dass der Druck, dieselbe Arbeitsmenge in weniger Zeit zu bewältigen, den Stress der Mitarbeiter letztlich erhöhen könnte.\n\nDennoch zeigen erste Pilotprojekte in mehreren europäischen Ländern ermutigende Ergebnisse: Die Zufriedenheit der Beschäftigten sei gestiegen, während die Fehlzeiten deutlich zurückgegangen seien. Ob sich die Vier-Tage-Woche langfristig als Standardmodell durchsetzen wird, bleibt jedoch abzuwarten, da weitergehende Studien über mehrere Jahre notwendig wären, um verlässliche Aussagen treffen zu können.",
+    "preguntas": [
+      {
+        "enunciado": "Bei der Vier-Tage-Woche wird laut Text üblicherweise das Gehalt gekürzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter argumentieren, dass ausgeruhte Mitarbeiter konzentrierter arbeiten könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern lässt sich das Modell problemlos auf alle Branchen übertragen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Erste Pilotprojekte zeigen, dass die Zufriedenheit der Beschäftigten gestiegen ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die Vier-Tage-Woche sich bereits endgültig als Standard etabliert hat.",
+        "respuesta": false
+      }
+    ]
   }
 ]
