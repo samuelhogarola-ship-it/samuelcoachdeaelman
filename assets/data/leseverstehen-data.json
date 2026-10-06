@@ -37010,5 +37010,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "einkaufen-am-samstag",
+    "nivel": "A1",
+    "titulo": "Einkaufen am Samstag",
+    "descripcion": "Lena kauft am Samstag frisches Obst und Gemüse auf dem Markt.",
+    "texto": "Lena steht früh auf. Es ist Samstag. Sie geht mit ihrer Tasche zum Markt. Der Markt ist in der Nähe von ihrem Haus.\n\nAuf dem Markt gibt es viel Obst und Gemüse. Lena kauft Äpfel, Tomaten und Brot. Ein Apfel kostet fünfzig Cent. Lena fragt: „Haben Sie auch Käse?“ Der Verkäufer sagt: „Ja, hier ist guter Käse.“\n\nLena bezahlt und geht nach Hause. Zu Hause kocht sie eine Suppe mit dem Gemüse. Die Suppe ist lecker. Danach ruft sie ihre Freundin an und erzählt vom Markt.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht am Samstag zum Markt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Markt ist weit weg von ihrem Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Apfel kostet fünfzig Cent.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena kauft keinen Käse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena kocht zu Hause eine Suppe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-tag",
+    "nivel": "A1",
+    "titulo": "Mein Tag",
+    "descripcion": "Paul beschreibt seinen typischen Tagesablauf von morgens bis abends.",
+    "texto": "Paul steht jeden Tag um sieben Uhr auf. Er wäscht sich und frühstückt mit seiner Familie. Zum Frühstück trinkt er Tee und isst ein Brötchen.\n\nUm acht Uhr fährt Paul mit dem Fahrrad zur Schule. Die Schule beginnt um halb neun. In der Pause spielt er mit seinen Freunden Fußball. Nach der Schule macht Paul seine Hausaufgaben.\n\nAm Abend isst die Familie zusammen. Danach liest Paul ein Buch oder spielt Gitarre. Um neun Uhr geht er ins Bett. Paul mag seinen Tag sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Paul steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul fährt mit dem Bus zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schule beginnt um halb neun.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul macht nach der Schule keine Hausaufgaben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul geht um neun Uhr ins Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ich-gehe-gern-schwimmen",
+    "nivel": "A1",
+    "titulo": "Ich gehe gern schwimmen",
+    "descripcion": "Mia erzählt, warum Schwimmen ihr liebstes Hobby ist.",
+    "texto": "Mia hat ein Lieblingshobby: Schwimmen. Zweimal pro Woche geht sie ins Schwimmbad. Das Schwimmbad ist groß und hat warmes Wasser.\n\nMia schwimmt gern mit ihrer Schwester. Sie lachen viel im Wasser. Nach dem Schwimmen trinken beide einen Kakao im Café. Der Kakao ist warm und süß.\n\nIm Sommer schwimmt Mia auch im See. Der See ist nicht weit von ihrem Dorf. Mia sagt: „Schwimmen macht mich glücklich.“",
+    "preguntas": [
+      {
+        "enunciado": "Mias Lieblingshobby ist Schwimmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia geht jeden Tag ins Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia schwimmt mit ihrer Schwester.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Schwimmen trinken sie Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Sommer schwimmt Mia auch im See.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-arztbesuch",
+    "nivel": "A2",
+    "titulo": "Der Arztbesuch",
+    "descripcion": "Tim hat Halsschmerzen und geht deshalb zum Arzt.",
+    "texto": "Tim ist seit zwei Tagen krank. Er hat Halsschmerzen und etwas Fieber. Weil er sich schlecht fühlt, ruft seine Mutter beim Arzt an und macht einen Termin.\n\nAm Nachmittag sind sie in der Praxis. Die Ärztin untersucht Tims Hals und sagt: „Das ist nur eine leichte Erkältung.“ Sie hat ihm Tabletten und Tee empfohlen. Tim hat gefragt, ob er morgen in die Schule gehen darf, aber die Ärztin hat gesagt, dass er noch zwei Tage zu Hause bleiben soll.\n\nAls Tim nach Hause gekommen ist, hat er sofort den Tee getrunken. Seine Mutter hat ihm eine Suppe gekocht. Am Abend hat Tim sich schon viel besser gefühlt.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hat seit zwei Tagen Halsschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim geht allein zur Arztpraxis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin sagt, dass es eine leichte Erkältung ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim darf am nächsten Tag sofort in die Schule gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tims Mutter kocht ihm eine Suppe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-meine-oma",
+    "nivel": "A2",
+    "titulo": "Ein Brief an meine Oma",
+    "descripcion": "Sophie schreibt ihrer Großmutter einen Brief über die Sommerferien.",
+    "texto": "Liebe Oma, ich hoffe, dass es dir gut geht. Ich wollte dir schreiben, weil ich dir von meinen Sommerferien erzählen möchte. Wir sind mit dem Zug an die Ostsee gefahren und haben dort eine kleine Ferienwohnung gemietet.\n\nAm Strand haben wir jeden Tag Sandburgen gebaut und sind im Meer geschwommen. Wenn das Wetter schlecht war, haben wir Karten gespielt oder Bücher gelesen. Einmal haben wir auch einen alten Leuchtturm besucht, der sehr hoch war.\n\nIch freue mich schon, dir die Fotos zu zeigen, wenn wir uns im September sehen. Bis dahin wünsche ich dir alles Gute. Viele liebe Grüße, deine Sophie.",
+    "preguntas": [
+      {
+        "enunciado": "Sophies Familie ist mit dem Auto an die Ostsee gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben eine Ferienwohnung gemietet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bei schlechtem Wetter haben sie Karten gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben keinen Leuchtturm besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie zeigt ihrer Oma die Fotos im September.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wochenende-am-see",
+    "nivel": "A2",
+    "titulo": "Das Wochenende am See",
+    "descripcion": "Familie Weber verbringt ein entspanntes Wochenende an einem See.",
+    "texto": "Familie Weber ist am Freitagabend zu einem See gefahren, weil sie dort ein Wochenende verbringen wollten. Sie haben ein kleines Zelt aufgebaut und ein Lagerfeuer gemacht. Die Kinder waren sehr aufgeregt, weil sie noch nie gezeltet hatten.\n\nAm Samstagmorgen sind sie früh aufgestanden und haben im See gebadet. Das Wasser war kalt, aber die Sonne hat geschienen. Nachdem sie gebadet hatten, haben sie am Ufer gefrühstückt und sind mit dem Boot gefahren.\n\nAm Abend haben sie Würstchen gegrillt und Lieder gesungen. Herr Weber hat gesagt: „Das war ein perfektes Wochenende.“ Am Sonntag sind sie müde, aber glücklich nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Weber ist am Freitagabend zum See gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder hatten schon oft gezeltet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag war das Wasser im See sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind mit dem Boot gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag sind sie glücklich nach Hause gefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "neu-in-der-stadt",
+    "nivel": "B1",
+    "titulo": "Neu in der Stadt",
+    "descripcion": "Jonas zieht wegen seiner Ausbildung in eine fremde Stadt und muss sich dort einleben.",
+    "texto": "Jonas ist vor drei Monaten nach Leipzig gezogen, obwohl er seine Heimatstadt sehr geliebt hat. Der Grund für den Umzug war seine Ausbildung bei einer großen Firma. Am Anfang kannte er niemanden und fühlte sich oft einsam, trotzdem wollte er sich nicht entmutigen lassen.\n\nNachdem er einige Wochen in Leipzig gewohnt hatte, meldete er sich in einem Sportverein an. Dort lernte er schnell neue Leute kennen, mit denen er regelmäßig Volleyball spielte. Außerdem entdeckte er ein gemütliches Café in seiner Nähe, in dem er oft seine Hausaufgaben für die Ausbildung erledigte.\n\nHeute fühlt sich Jonas in Leipzig richtig wohl. Er hat einige gute Freunde gefunden und kennt die Stadt inzwischen sehr gut. Obwohl er seine Familie manchmal vermisst, bereut er den Umzug nicht. Er sagt oft: „Man muss sich nur trauen, etwas Neues zu beginnen.“",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist wegen seiner Ausbildung nach Leipzig gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas kannte von Anfang an viele Leute in Leipzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat sich in einem Sportverein angemeldet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas findet in Leipzig kein gemütliches Café.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas bereut den Umzug nach Leipzig nicht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unsere-klassenfahrt-nach-hamburg",
+    "nivel": "B1",
+    "titulo": "Unsere Klassenfahrt nach Hamburg",
+    "descripcion": "Eine Schulklasse erlebt auf ihrer Klassenfahrt nach Hamburg spannende Abenteuer.",
+    "texto": "Letzte Woche ist unsere Klasse für vier Tage nach Hamburg gefahren. Wir haben in einer Jugendherberge in der Nähe des Hafens gewohnt. Obwohl die Zimmer klein waren, hat uns die Unterkunft gut gefallen, weil man vom Fenster aus die Schiffe sehen konnte.\n\nAm zweiten Tag haben wir eine Hafenrundfahrt gemacht. Danach sind wir ins Miniatur Wunderland gegangen, ein Museum mit winzigen Modellstädten. Nachdem wir dort mehrere Stunden verbracht hatten, waren alle total begeistert von den Details der kleinen Figuren.\n\nAm letzten Abend hat unser Lehrer ein kleines Abschlussfest organisiert. Trotzdem waren viele von uns traurig, weil die Fahrt schon zu Ende war. Auf der Heimfahrt im Bus haben wir über die schönsten Momente gesprochen und uns vorgenommen, bald wieder nach Hamburg zu fahren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist für vier Tage nach Hamburg gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler haben in einem Hotel im Stadtzentrum gewohnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat eine Hafenrundfahrt gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Miniatur Wunderland gab es keine Modellstädte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend gab es ein kleines Abschlussfest.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-freundschaft-die-bleibt",
+    "nivel": "B1",
+    "titulo": "Eine Freundschaft, die bleibt",
+    "descripcion": "Zwei Freunde bleiben trotz großer Entfernung über die Jahre eng verbunden.",
+    "texto": "Clara und Anna kennen sich seit der Grundschule, obwohl sie heute in verschiedenen Städten leben. Nachdem Anna vor fünf Jahren nach München gezogen war, hatten beide Angst, den Kontakt zu verlieren. Trotzdem haben sie es geschafft, ihre Freundschaft lebendig zu halten.\n\nJeden Sonntag telefonieren die beiden mindestens eine Stunde lang. Sie erzählen sich von ihrem Alltag, von Problemen bei der Arbeit und von kleinen Freuden. Außerdem besuchen sie sich mehrmals im Jahr, obwohl die Zugfahrt ziemlich lang und oft teuer ist.\n\nLetzten Monat hat Clara gesagt: „Egal, wie weit wir voneinander entfernt wohnen, unsere Freundschaft wird immer stark bleiben.“ Anna hat zugestimmt und ihr versprochen, dass sie bald wieder zu Besuch kommen wird. Beide sind sich sicher, dass echte Freundschaft keine Entfernung kennt.",
+    "preguntas": [
+      {
+        "enunciado": "Clara und Anna kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide Freundinnen leben in derselben Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie telefonieren jeden Sonntag miteinander.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie besuchen sich nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara glaubt, dass ihre Freundschaft stark bleiben wird.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungskrise-in-den-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Die Wohnungskrise in den Großstädten",
+    "descripcion": "Eine Analyse der steigenden Mietpreise und ihrer Folgen für junge Menschen in deutschen Großstädten.",
+    "texto": "In den letzten Jahren sind die Mietpreise in vielen deutschen Großstädten so stark gestiegen, dass es für junge Menschen und Familien mit niedrigem Einkommen zunehmend schwierig wird, eine bezahlbare Wohnung zu finden. Während früher eine Zweizimmerwohnung in zentraler Lage für viele erschwinglich war, müssten heute oft mehr als die Hälfte des monatlichen Einkommens für die Miete aufgewendet werden.\n\nExperten sind sich uneinig darüber, wie das Problem gelöst werden könnte. Manche fordern, dass der soziale Wohnungsbau deutlich ausgeweitet werden sollte, damit mehr bezahlbare Wohnungen entstehen. Andere argumentieren, dass strengere Mietpreisbremsen eingeführt werden müssten, um Vermieter daran zu hindern, die Preise beliebig zu erhöhen. Wieder andere meinen, dass das eigentliche Problem der Mangel an Bauland sei, der durch bürokratische Hürden verursacht werde.\n\nWenn die Politik nicht bald wirksame Maßnahmen ergreifen würde, könnten sich die sozialen Spannungen in den betroffenen Städten weiter verschärfen. Schon jetzt ziehen immer mehr Menschen aus den Innenstädten in das Umland, weil sie sich die steigenden Mieten nicht mehr leisten können. Diese Entwicklung, die von vielen Stadtplanern mit Sorge beobachtet wird, verändert das soziale Gefüge der Großstädte nachhaltig.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten fordern einen Ausbau des sozialen Wohnungsbaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, wie das Problem gelöst werden sollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein genannter Grund für die Krise ist der Mangel an Bauland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Immer mehr Menschen ziehen aus dem Umland in die Innenstädte.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "bildung-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Bildung im digitalen Zeitalter",
+    "descripcion": "Der Artikel beleuchtet, wie digitale Technologien das deutsche Schulsystem verändern und welche Herausforderungen damit verbunden sind.",
+    "texto": "Die Digitalisierung hat in den letzten Jahren nahezu alle Bereiche des Lebens erfasst, und auch das Bildungssystem bleibt davon nicht unberührt. Viele Schulen wurden mittlerweile mit interaktiven Tafeln und Tablets ausgestattet, sodass der Unterricht zunehmend digital gestaltet werden kann. Dennoch zeigen Studien, dass die technische Ausstattung allein nicht ausreicht, um den Lernerfolg der Schüler nachhaltig zu verbessern.\n\nBefürworter der Digitalisierung argumentieren, dass digitale Medien individuelleres Lernen ermöglichen würden, da Schüler in ihrem eigenen Tempo arbeiten könnten. Kritiker hingegen bemängeln, dass die sozialen Kompetenzen vernachlässigt werden könnten, wenn der persönliche Kontakt zwischen Lehrern und Schülern durch Bildschirme ersetzt wird. Zudem wird häufig diskutiert, ob Lehrkräfte ausreichend geschult werden, um digitale Werkzeuge sinnvoll einzusetzen.\n\nEin weiteres zentrales Problem ist die soziale Ungleichheit, die durch die Digitalisierung verstärkt werden könnte. Kinder aus einkommensschwachen Familien verfügen oft nicht über die notwendige technische Ausstattung zu Hause, wodurch sie im digitalen Unterricht benachteiligt werden. Es wird daher gefordert, dass der Staat mehr in die Chancengleichheit investiert, damit alle Schüler unabhängig von ihrer Herkunft gleiche Bildungschancen erhalten.",
+    "preguntas": [
+      {
+        "enunciado": "Viele Schulen wurden mit interaktiven Tafeln und Tablets ausgestattet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien reicht technische Ausstattung allein für besseren Lernerfolg aus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten eine Vernachlässigung der sozialen Kompetenzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kinder haben zu Hause die gleiche technische Ausstattung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wird gefordert, dass der Staat mehr in Chancengleichheit investiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-balance-zwischen-arbeit-und-leben",
+    "nivel": "B2",
+    "titulo": "Die Balance zwischen Arbeit und Leben",
+    "descripcion": "Ein Essay über die wachsende Bedeutung der Work-Life-Balance und die Herausforderungen flexibler Arbeitsmodelle.",
+    "texto": "In den vergangenen Jahren hat sich die Vorstellung davon, wie ein erfülltes Berufsleben aussehen sollte, grundlegend gewandelt. Während früher vor allem Status und Gehalt im Vordergrund standen, wird heute zunehmend Wert auf eine ausgewogene Balance zwischen Arbeit und Privatleben gelegt. Diese Entwicklung wurde nicht zuletzt durch die verbreitete Einführung von Homeoffice und flexiblen Arbeitszeiten beschleunigt.\n\nBefürworter dieser neuen Arbeitsmodelle betonen, dass Mitarbeiter, die ihre Arbeitszeit selbst einteilen könnten, produktiver und zufriedener wären. Es wird argumentiert, dass durch den Wegfall des täglichen Pendelns wertvolle Zeit gewonnen werde, die für Familie, Hobbys oder Erholung genutzt werden könne. Gleichzeitig weisen Kritiker darauf hin, dass die Grenze zwischen Berufs- und Privatleben zunehmend verschwimme, wenn Arbeit jederzeit von überall erledigt werden könne.\n\nBesonders problematisch erscheint vielen Experten die ständige Erreichbarkeit, die durch Smartphones und digitale Kommunikationsmittel ermöglicht wird. Wenn Arbeitnehmer das Gefühl hätten, auch nach Feierabend auf E-Mails reagieren zu müssen, könnte dies langfristig zu Erschöpfung und Stress führen. Deshalb fordern immer mehr Stimmen, dass Unternehmen klare Regeln für die Erreichbarkeit außerhalb der Arbeitszeit einführen sollten, damit eine echte Erholung überhaupt möglich wird.",
+    "preguntas": [
+      {
+        "enunciado": "Früher standen vor allem Status und Gehalt im Vordergrund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Homeoffice und flexible Arbeitszeiten haben die Entwicklung gebremst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker warnen vor einer Vermischung von Berufs- und Privatleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ständige Erreichbarkeit wird von allen Experten als unproblematisch angesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche fordern klare Regeln für die Erreichbarkeit außerhalb der Arbeitszeit.",
+        "respuesta": true
+      }
+    ]
   }
 ]
