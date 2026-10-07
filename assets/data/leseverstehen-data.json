@@ -39446,5 +39446,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "farben-im-kleiderschrank",
+    "nivel": "A1",
+    "titulo": "Farben im Kleiderschrank",
+    "descripcion": "Tim beschreibt seine Kleidung und ihre Farben.",
+    "texto": "Tim hat viele Kleidungsstücke. Er hat eine blaue Jacke und eine rote Mütze. Seine Schuhe sind schwarz.\n\nAm Montag trägt Tim eine grüne Hose und ein weißes T-Shirt. Am Freitag trägt er gern seine gelbe Jacke. Seine Schwester sagt: „Deine Jacke ist sehr schön!“\n\nTim mag bunte Kleidung. Seine Lieblingsfarbe ist Blau. Er trägt oft blaue Kleidung in der Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Tims Mütze ist rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tims Schuhe sind weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Montag trägt Tim eine grüne Hose.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tims Lieblingsfarbe ist Gelb.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim mag bunte Kleidung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-in-der-kueche",
+    "nivel": "A1",
+    "titulo": "Ein Tag in der Küche",
+    "descripcion": "Oma Erika kocht mit ihrer Enkelin eine einfache Suppe.",
+    "texto": "Heute kocht Oma Erika mit ihrer Enkelin Mia. Sie machen eine Gemüsesuppe. Mia schneidet Karotten und Kartoffeln.\n\nOma Erika gibt Wasser und Salz in den Topf. Die Suppe kocht eine Stunde. Es riecht sehr gut in der Küche. Mia fragt: „Ist die Suppe schon fertig?“\n\nNach einer Stunde essen Oma Erika und Mia die Suppe zusammen. Die Suppe ist warm und lecker. Mia möchte jeden Samstag mit Oma kochen.",
+    "preguntas": [
+      {
+        "enunciado": "Oma Erika kocht mit Mia eine Gemüsesuppe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia schneidet Äpfel und Birnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Suppe kocht eine Stunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Suppe schmeckt nicht gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia möchte jeden Samstag mit Oma kochen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kleine-zoobesuch",
+    "nivel": "A1",
+    "titulo": "Der kleine Zoobesuch",
+    "descripcion": "Paul besucht mit seiner Klasse den Zoo und sieht viele Tiere.",
+    "texto": "Pauls Klasse fährt heute in den Zoo. Alle Kinder sind froh. Im Zoo sehen sie Elefanten, Affen und Löwen.\n\nPaul mag die Affen am meisten. Die Affen springen und klettern schnell. Ein Mädchen ruft: „Schau mal, der Affe isst eine Banane!“ Die Kinder lachen.\n\nAm Ende des Tages kauft die Lehrerin Eis für alle Kinder. Paul isst Schokoladeneis. Der Zoobesuch war ein schöner Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Klasse fährt in den Zoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Zoo gibt es keine Affen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul mag die Affen am meisten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin kauft Pizza für alle Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul isst Schokoladeneis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reifenpanne-auf-dem-weg-zur-arbeit",
+    "nivel": "A2",
+    "titulo": "Die Reifenpanne auf dem Weg zur Arbeit",
+    "descripcion": "Jonas hat eine Reifenpanne und bringt sein Fahrrad zur Werkstatt.",
+    "texto": "Gestern ist Jonas mit dem Fahrrad zur Arbeit gefahren. Plötzlich hatte er eine Reifenpanne. Er musste das Fahrrad bis zur nächsten Werkstatt schieben, weil er keinen Ersatzschlauch dabei hatte.\n\nIn der Werkstatt hat der Mechaniker den Reifen schnell repariert. Er hat gesagt, dass der Schlauch schon sehr alt war. Jonas war froh, dass die Reparatur nur zwanzig Minuten gedauert hat.\n\nAm Abend hat Jonas seiner Frau erzählt, was passiert ist. Sie hat gelacht und gesagt, dass er jetzt immer einen Ersatzschlauch mitnehmen sollte. Jonas hat ihr versprochen, das zu tun.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte eine Reifenpanne auf dem Weg zur Arbeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte einen Ersatzschlauch dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Mechaniker hat den Reifen schnell repariert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Reparatur hat drei Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat seiner Frau von der Reifenpanne erzählt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reklamation-beim-online-shop",
+    "nivel": "A2",
+    "titulo": "Die Reklamation beim Online-Shop",
+    "descripcion": "Frau Martens schickt einen defekten Kopfhörer zurück und schreibt eine Reklamation.",
+    "texto": "Frau Martens hat letzte Woche einen neuen Kopfhörer im Internet bestellt. Als das Paket ankam, hat sie den Kopfhörer sofort ausprobiert. Leider hat er nicht richtig funktioniert, weil ein Kabel beschädigt war.\n\nSie hat deshalb eine E-Mail an den Online-Shop geschrieben und das Problem beschrieben. Der Kundenservice hat schnell geantwortet und sich für den Fehler entschuldigt. Sie haben Frau Martens gebeten, den Kopfhörer zurückzuschicken.\n\nNach einer Woche hat Frau Martens ihr Geld zurückbekommen. Sie war zufrieden, weil der Kundenservice so freundlich und hilfsbereit war. Beim nächsten Einkauf möchte sie wieder bei diesem Shop bestellen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Martens hat einen Kopfhörer im Internet bestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kopfhörer hat sofort perfekt funktioniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat eine E-Mail an den Online-Shop geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kundenservice hat nicht geantwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Martens hat ihr Geld zurückbekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-bei-der-tieraerztin",
+    "nivel": "A2",
+    "titulo": "Ein Besuch bei der Tierärztin",
+    "descripcion": "Herr Koch bringt seine kranke Katze zur Tierärztin.",
+    "texto": "Herr Kochs Katze Mimi hat seit zwei Tagen nicht mehr richtig gefressen. Herr Koch hat sich Sorgen gemacht und einen Termin bei der Tierärztin vereinbart. Am nächsten Morgen ist er mit Mimi in die Praxis gefahren.\n\nDie Tierärztin hat Mimi gründlich untersucht, weil sie die Ursache finden wollte. Danach hat sie gesagt, dass Mimi nur eine leichte Erkältung hat. Herr Koch war erleichtert, als er das gehört hat.\n\nDie Tierärztin hat Mimi Medizin gegeben und Herrn Koch erklärt, wie er sie zu Hause pflegen soll. Nach ein paar Tagen hat Mimi wieder normal gefressen und gespielt. Herr Koch war sehr dankbar für die gute Betreuung.",
+    "preguntas": [
+      {
+        "enunciado": "Mimi hat seit zwei Tagen nicht mehr richtig gefressen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Koch hat sich keine Sorgen gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tierärztin hat Mimi gründlich untersucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi hatte eine schwere Krankheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach ein paar Tagen hat Mimi wieder normal gefressen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-austausch-in-frankreich",
+    "nivel": "B1",
+    "titulo": "Der Austausch in Frankreich",
+    "descripcion": "Eine Schülerin berichtet von ihren Erfahrungen während eines Schüleraustauschs in Frankreich.",
+    "texto": "Letztes Jahr habe ich an einem Schüleraustausch in Frankreich teilgenommen, obwohl ich damals nur wenig Französisch sprechen konnte. Am Anfang war es schwierig, weil ich meine Gastfamilie kaum verstanden habe. Trotzdem haben mich alle sehr freundlich aufgenommen.\n\nNachdem ich ein paar Wochen dort gewohnt hatte, habe ich mich viel sicherer gefühlt. Ich habe in der Schule neue Freunde gefunden und bin mit ihnen oft nach dem Unterricht in die Stadt gegangen. Wir haben zusammen Hausaufgaben gemacht und über unsere Kulturen gesprochen.\n\nAm Ende des Austauschs fiel mir der Abschied sehr schwer. Obwohl ich am Anfang Angst hatte, war diese Erfahrung eine der schönsten meines Lebens. Ich schreibe meiner Gastfamilie bis heute regelmäßig.",
+    "preguntas": [
+      {
+        "enunciado": "Die Schülerin konnte am Anfang sehr gut Französisch sprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gastfamilie hat sie freundlich aufgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hat in der Schule keine neuen Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Abschied fiel ihr schwer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie schreibt ihrer Gastfamilie bis heute.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-renovierung-der-altbauwohnung",
+    "nivel": "B1",
+    "titulo": "Die Renovierung der Altbauwohnung",
+    "descripcion": "Ein Paar renoviert seine alte Wohnung und stößt dabei auf unerwartete Probleme.",
+    "texto": "Markus und Sabine haben vor zwei Monaten eine Altbauwohnung gekauft. Sie wollten die Wohnung selbst renovieren, obwohl beide keine Erfahrung mit solchen Arbeiten hatten. Zuerst haben sie die alten Tapeten entfernt und die Wände neu gestrichen.\n\nNachdem sie den Boden im Wohnzimmer entfernt hatten, haben sie ein großes Problem entdeckt: Die Wasserleitungen waren sehr alt und teilweise beschädigt. Trotzdem haben sie nicht aufgegeben und einen Installateur beauftragt, der die Leitungen ausgetauscht hat.\n\nDie Renovierung hat am Ende viel länger gedauert als geplant, und die Kosten sind deutlich gestiegen. Trotz aller Schwierigkeiten sind Markus und Sabine stolz auf ihre neue Wohnung, weil sie fast alles mit eigenen Händen geschaffen haben.",
+    "preguntas": [
+      {
+        "enunciado": "Markus und Sabine haben eine neue Wohnung gebaut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben zuerst die alten Tapeten entfernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wasserleitungen waren in perfektem Zustand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Installateur hat die Leitungen ausgetauscht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Renovierung hat weniger gekostet als geplant.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-jubilaeum-des-sportvereins",
+    "nivel": "B1",
+    "titulo": "Das Jubiläum des Sportvereins",
+    "descripcion": "Ein Dorf feiert das hundertjährige Bestehen seines Sportvereins mit einem großen Fest.",
+    "texto": "In diesem Jahr feiert der Sportverein unseres Dorfes sein hundertjähriges Bestehen. Nachdem die Mitglieder monatelang geplant hatten, fand endlich das große Jubiläumsfest statt. Trotz des schlechten Wetters am Morgen kamen viele Menschen aus der ganzen Region.\n\nAuf dem Sportplatz gab es verschiedene Wettkämpfe, an denen sowohl Kinder als auch ältere Menschen teilnehmen konnten. Besonders beliebt war das Fußballturnier zwischen ehemaligen und aktuellen Spielern. Obwohl die ehemaligen Spieler schon lange nicht mehr trainiert hatten, haben sie überraschend gut gespielt.\n\nAm Abend wurde ein Festzelt aufgebaut, in dem die Vereinsmitglieder gemeinsam feierten. Der Vorsitzende hielt eine bewegende Rede über die Geschichte des Vereins. Viele waren sich einig, dass dieses Fest noch lange in Erinnerung bleiben wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der Sportverein feiert sein fünfzigjähriges Bestehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wegen des schlechten Wetters kamen keine Besucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab ein Fußballturnier zwischen ehemaligen und aktuellen Spielern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die ehemaligen Spieler haben überraschend gut gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend hielt der Vorsitzende eine Rede.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-berufsalltag",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Berufsalltag",
+    "descripcion": "Der Text beleuchtet, wie künstliche Intelligenz zunehmend den Arbeitsalltag verändert und welche Chancen und Risiken damit verbunden sind.",
+    "texto": "Künstliche Intelligenz hat in den letzten Jahren zunehmend Einzug in den Berufsalltag vieler Menschen gehalten. Während früher vor allem repetitive Tätigkeiten automatisiert wurden, übernehmen heute intelligente Systeme auch komplexere Aufgaben wie die Analyse großer Datenmengen oder die Unterstützung bei kreativen Prozessen. Viele Unternehmen setzen deshalb verstärkt auf entsprechende Technologien, um wettbewerbsfähig zu bleiben.\n\nBefürworter argumentieren, dass künstliche Intelligenz den Menschen von monotonen Aufgaben entlasten könnte, sodass mehr Zeit für anspruchsvollere und kreativere Tätigkeiten bliebe. Kritiker hingegen warnen davor, dass zahlreiche Arbeitsplätze verschwinden könnten, wenn Maschinen immer mehr Aufgaben übernehmen, die bisher von Menschen erledigt wurden. Besonders betroffen wären demnach Berufe, deren Tätigkeiten sich leicht standardisieren lassen.\n\nUm die Auswirkungen dieser Entwicklung abzumildern, fordern Experten umfassende Weiterbildungsprogramme, mit denen Arbeitnehmer auf neue Anforderungen vorbereitet werden könnten. Würde man frühzeitig in entsprechende Qualifizierungsmaßnahmen investieren, ließe sich der Übergang zu einer stärker digitalisierten Arbeitswelt möglicherweise deutlich erleichtern. Letztlich hängt der gesellschaftliche Umgang mit dieser Technologie maßgeblich davon ab, wie politische und wirtschaftliche Akteure die kommenden Jahre gestalten.",
+    "preguntas": [
+      {
+        "enunciado": "Künstliche Intelligenz wird nur für repetitive Tätigkeiten eingesetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen die Chance, Menschen von monotonen Aufgaben zu entlasten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten den Verlust von Arbeitsplätzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten lehnen Weiterbildungsprogramme grundsätzlich ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der gesellschaftliche Umgang mit der Technologie hängt von politischen und wirtschaftlichen Entscheidungen ab.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lobbyismus-und-seine-rolle-in-der-politik",
+    "nivel": "B2",
+    "titulo": "Lobbyismus und seine Rolle in der Politik",
+    "descripcion": "Der Text beleuchtet, wie Interessenverbände politische Entscheidungen beeinflussen und welche Risiken damit verbunden sind.",
+    "texto": "In modernen Demokratien versuchen zahlreiche Interessenverbände, Einfluss auf politische Entscheidungsprozesse zu nehmen. Dieser sogenannte Lobbyismus wird von manchen als notwendiger Bestandteil demokratischer Willensbildung betrachtet, da Experten und Branchenvertreter wichtiges Fachwissen in die Gesetzgebung einbringen könnten. Andere sehen darin jedoch eine Gefahr für die Chancengleichheit, weil finanzstarke Akteure deutlich mehr Möglichkeiten hätten, ihre Interessen durchzusetzen, als kleinere Organisationen oder einzelne Bürger.\n\nBefürworter einer stärkeren Regulierung fordern deshalb ein verpflichtendes Lobbyregister, in dem sämtliche Kontakte zwischen Politikern und Interessenvertretern dokumentiert würden. Dadurch könnte die Öffentlichkeit nachvollziehen, welche Akteure auf welche Gesetzesvorhaben Einfluss genommen hätten. Kritiker eines solchen Registers wenden jedoch ein, dass zu strenge Regeln den notwendigen Austausch zwischen Politik und Wirtschaft erschweren könnten.\n\nLetztlich wird die Debatte über Lobbyismus voraussichtlich so lange andauern, wie unterschiedliche gesellschaftliche Gruppen widersprüchliche Interessen verfolgen. Würde man Transparenzregeln konsequent umsetzen, ließe sich das Vertrauen der Bürger in demokratische Institutionen womöglich stärken. Ob dies tatsächlich gelingt, hängt jedoch maßgeblich von der politischen Bereitschaft ab, entsprechende Reformen auch gegen den Widerstand mächtiger Interessengruppen durchzusetzen.",
+    "preguntas": [
+      {
+        "enunciado": "Lobbyismus wird von allen gesellschaftlichen Gruppen gleich bewertet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in Lobbyismus die Möglichkeit, Fachwissen einzubringen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten eine Gefährdung der Chancengleichheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind für ein verpflichtendes Lobbyregister.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Debatte über Lobbyismus hängt mit widersprüchlichen Interessen gesellschaftlicher Gruppen zusammen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-laengere-ladenoeffnungszeiten",
+    "nivel": "B2",
+    "titulo": "Die Debatte um längere Ladenöffnungszeiten",
+    "descripcion": "Der Text stellt die unterschiedlichen Positionen zur Verlängerung der Ladenöffnungszeiten in Deutschland dar.",
+    "texto": "In regelmäßigen Abständen wird in Deutschland über eine Lockerung der gesetzlichen Ladenöffnungszeiten diskutiert. Während Einzelhandelsverbände seit Jahren längere Öffnungszeiten fordern, um mit dem Online-Handel konkurrieren zu können, lehnen Gewerkschaften und kirchliche Organisationen eine solche Reform größtenteils ab. Sie argumentieren, dass eine weitere Ausweitung der Öffnungszeiten zulasten der Angestellten gehen würde, deren Arbeitsbelastung bereits jetzt hoch sei.\n\nBefürworter einer Liberalisierung verweisen darauf, dass flexiblere Öffnungszeiten den stationären Handel attraktiver machen und somit Arbeitsplätze in den Innenstädten sichern könnten. Zudem hätten Berufstätige, die während der regulären Geschäftszeiten arbeiten, dadurch mehr Gelegenheit, in Ruhe einzukaufen. Gegner hingegen betonen, dass die soziale Bedeutung des freien Sonntags nicht unterschätzt werden dürfe, da dieser Tag traditionell der Erholung und dem Familienleben vorbehalten sei.\n\nMehrere Gerichte haben sich bereits mit der Frage befasst, ob einzelne Ausnahmeregelungen für verkaufsoffene Sonntage rechtlich zulässig seien. Sollten Städte und Gemeinden künftig mehr Spielraum bei der Gestaltung ihrer Öffnungszeiten erhalten, müsste zugleich sichergestellt werden, dass die Interessen der Beschäftigten ausreichend berücksichtigt würden. Eine endgültige Lösung, die alle beteiligten Gruppen zufriedenstellt, ist bislang nicht in Sicht.",
+    "preguntas": [
+      {
+        "enunciado": "Einzelhandelsverbände fordern seit Jahren längere Öffnungszeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gewerkschaften unterstützen die Verlängerung der Öffnungszeiten uneingeschränkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in flexibleren Öffnungszeiten eine Chance für den stationären Handel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der freie Sonntag spielt laut Gegnern keine soziale Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gerichte haben sich bereits mit verkaufsoffenen Sonntagen befasst.",
+        "respuesta": true
+      }
+    ]
   }
 ]
