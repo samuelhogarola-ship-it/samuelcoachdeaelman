@@ -38054,5 +38054,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-neue-fernseher-von-herrn-bauer",
+    "nivel": "A1",
+    "titulo": "Der neue Fernseher von Herrn Bauer",
+    "descripcion": "Herr Bauer kauft einen neuen Fernseher für sein Wohnzimmer.",
+    "texto": "Herr Bauer ist 60 Jahre alt. Er wohnt in einer kleinen Wohnung in Köln. Sein alter Fernseher ist kaputt. Deshalb geht er in ein Elektrogeschäft.\n\nIm Geschäft sieht er viele Fernseher. Sie sind groß und modern. Ein Verkäufer hilft ihm. Herr Bauer fragt: „Welcher Fernseher ist nicht so teuer?“ Der Verkäufer zeigt ihm ein schönes Modell. Herr Bauer kauft den Fernseher. Er ist sehr glücklich.\n\nZu Hause stellt er den neuen Fernseher ins Wohnzimmer. Am Abend schaut er einen Film. Der Fernseher ist sehr gut. Herr Bauer sagt: „Das war ein guter Kauf!“",
+    "preguntas": [
+      {
+        "enunciado": "Herr Bauer ist 60 Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Bauer wohnt in Berlin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein alter Fernseher ist kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Verkäufer hilft Herrn Bauer nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Bauer ist mit dem Kauf zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mittagessen-bei-oma-gerda",
+    "nivel": "A1",
+    "titulo": "Mittagessen bei Oma Gerda",
+    "descripcion": "Die Familie isst am Sonntag zusammen bei Oma Gerda.",
+    "texto": "Jeden Sonntag isst die Familie bei Oma Gerda. Oma Gerda kocht sehr gut. Heute gibt es Suppe, Kartoffeln und Fleisch.\n\nDie Kinder lieben das Essen von Oma Gerda. Sie sitzen am großen Tisch und reden viel. Der kleine Tom sagt: „Die Suppe schmeckt super!“ Oma Gerda lacht und gibt ihm noch mehr.\n\nNach dem Essen trinken alle Kaffee und essen Kuchen. Die Kinder spielen im Garten. Oma Gerda ist froh, dass die Familie bei ihr ist.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie isst jeden Sonntag bei Oma Gerda.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma Gerda kocht heute nur Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom mag die Suppe nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Essen gibt es Kaffee und Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen nach dem Essen im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-spaziergang-mit-dem-hund-rex",
+    "nivel": "A1",
+    "titulo": "Ein Spaziergang mit Rex",
+    "descripcion": "Lena geht mit ihrem Hund Rex im Park spazieren.",
+    "texto": "Lena hat einen Hund. Er heißt Rex. Rex ist braun und sehr lieb. Jeden Morgen geht Lena mit Rex im Park spazieren.\n\nIm Park gibt es viele Bäume und einen kleinen See. Rex läuft schnell und spielt mit einem Ball. Lena wirft den Ball, und Rex bringt ihn zurück. Das macht beiden viel Spaß.\n\nNach dem Spaziergang trinkt Rex Wasser. Lena setzt sich auf eine Bank. Sie ist müde, aber glücklich. Rex liegt neben ihr und schläft ein.",
+    "preguntas": [
+      {
+        "enunciado": "Rex ist der Hund von Lena.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Rex ist schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Park gibt es einen See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Rex mag den Ball nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Spaziergang schläft Rex ein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-nach-potsdam",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour nach Potsdam",
+    "descripcion": "Markus und seine Freundin machen eine Fahrradtour von Berlin nach Potsdam.",
+    "texto": "Am Samstag sind Markus und seine Freundin Nina mit dem Fahrrad von Berlin nach Potsdam gefahren. Sie sind früh aufgestanden, weil der Weg ziemlich lang war. Das Wetter war sonnig, und sie haben sich sehr gefreut.\n\nUnterwegs haben sie an einem See eine Pause gemacht. Sie haben Brote gegessen und Fotos gemacht. Nina hat gesagt, dass die Landschaft wirklich schön ist. Nach der Pause sind sie weitergefahren, obwohl ihre Beine schon müde waren.\n\nAm Nachmittag sind sie endlich in Potsdam angekommen. Sie haben das berühmte Schloss besucht und sind durch den Park spaziert. Danach haben sie den Zug zurück nach Berlin genommen, weil sie zu müde zum Radfahren waren.",
+    "preguntas": [
+      {
+        "enunciado": "Markus und Nina sind mit dem Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war sonnig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben an einem See eine Pause gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben das Schloss in Potsdam nicht besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind mit dem Zug zurückgefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-abend-im-kino-mit-freunden",
+    "nivel": "A2",
+    "titulo": "Ein Abend im Kino mit Freunden",
+    "descripcion": "Julia trifft ihre Freunde, um einen neuen Film im Kino zu sehen.",
+    "texto": "Am Freitagabend hat Julia ihre Freunde getroffen, weil ein neuer Film gestartet ist. Sie haben sich vor dem Kino getroffen und zusammen Karten gekauft. Danach sind sie in den Saal gegangen und haben sich gute Plätze gesucht.\n\nDer Film war spannend, obwohl er fast drei Stunden gedauert hat. In der Pause hat jemand Popcorn und Getränke gekauft. Julia hat gesagt, dass sie den Hauptdarsteller sehr gut findet. Ihre Freundin Mia hat das anders gesehen und über die Geschichte diskutiert.\n\nNach dem Film sind sie noch in ein Café gegangen. Dort haben sie über den Film gesprochen und viel gelacht. Julia ist erst spät nach Hause gekommen, weil der Abend so schön war.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat ihre Freunde am Freitagabend getroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Film hat nur eine Stunde gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Pause hat niemand etwas gekauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hat die gleiche Meinung wie Julia gehabt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Film sind sie in ein Café gegangen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-geburtstagskuchen-fuer-paul",
+    "nivel": "A2",
+    "titulo": "Der Geburtstagskuchen für Paul",
+    "descripcion": "Sabine backt einen Kuchen für den Geburtstag ihres Sohnes Paul.",
+    "texto": "Sabine hat gestern einen Kuchen gebacken, weil ihr Sohn Paul heute Geburtstag hat. Sie ist früh aufgestanden und hat alle Zutaten vorbereitet. Der Kuchen sollte eine Überraschung sein, deshalb hat sie leise in der Küche gearbeitet.\n\nAls der Kuchen fertig war, hat Sabine ihn mit Schokolade und Erdbeeren dekoriert. Sie hat sich sehr viel Mühe gegeben, weil Paul Schokolade über alles liebt. Am Nachmittag sind die Großeltern gekommen, und alle haben zusammen gewartet.\n\nAls Paul den Kuchen gesehen hat, hat er sich riesig gefreut. Er hat gesagt, dass es der schönste Kuchen ist, den er je bekommen hat. Die ganze Familie hat zusammen gesungen und den Kuchen gegessen.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hat den Kuchen für Paul gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul mag keine Schokolade.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Großeltern sind nicht gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hat sich über den Kuchen gefreut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat zusammen gesungen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-des-arbeitsplatzes-nach-zehn-jahren",
+    "nivel": "B1",
+    "titulo": "Der Wechsel des Arbeitsplatzes nach zehn Jahren",
+    "descripcion": "Markus wagt nach zehn Jahren im selben Betrieb einen beruflichen Neuanfang.",
+    "texto": "Markus hat zehn Jahre lang als Mechaniker in derselben Werkstatt gearbeitet. Obwohl ihm die Arbeit nie wirklich Freude gemacht hat, ist er geblieben, weil er Angst vor Veränderungen hatte. Nachdem ein Freund ihm von einer offenen Stelle in einer größeren Firma erzählt hatte, begann er jedoch, über einen Wechsel nachzudenken.\n\nTrotzdem fiel ihm die Entscheidung nicht leicht. Er hatte sich an seine Kollegen gewöhnt, und der neue Arbeitsplatz lag weit außerhalb der Stadt. Nachdem er mehrere Nächte über die Vor- und Nachteile nachgedacht hatte, entschied er sich schließlich, die Bewerbung abzuschicken.\n\nZu seiner Überraschung wurde er schon nach dem ersten Gespräch eingestellt. Der neue Job bietet ihm bessere Aufstiegschancen und ein höheres Gehalt, obwohl der Weg zur Arbeit jetzt länger dauert. Heute ist Markus froh, dass er den Mut gefunden hat, etwas Neues zu wagen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat zehn Jahre in derselben Werkstatt gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Arbeit hat ihm immer große Freude gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Freund hat ihm von einer offenen Stelle erzählt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat sich die Entscheidung leicht gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der neue Job bietet ihm bessere Aufstiegschancen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommerjob-auf-dem-bauernhof-meiner-tante",
+    "nivel": "B1",
+    "titulo": "Ein Sommerjob auf dem Bauernhof meiner Tante",
+    "descripcion": "Eine Studentin berichtet von ihrem Sommerjob auf dem Hof ihrer Tante.",
+    "texto": "Letzten Sommer habe ich auf dem Bauernhof meiner Tante gearbeitet, weil ich etwas Geld für mein Studium verdienen wollte. Jeden Morgen bin ich um fünf Uhr aufgestanden, um die Tiere zu versorgen, obwohl das anfangs sehr anstrengend war. Nachdem ich mich an den Rhythmus gewöhnt hatte, hat mir die Arbeit sogar Spaß gemacht.\n\nBesonders die Arbeit mit den Kühen und den Hühnern hat mich fasziniert, obwohl ich vorher keine Erfahrung mit Tieren hatte. Meine Tante hat mir viel über das Leben auf dem Land erklärt, und ich habe gelernt, wie wichtig harte Arbeit für einen Bauernhof ist. Nachdem ein Gewitter einmal das Dach der Scheune beschädigt hatte, mussten wir sogar gemeinsam reparieren.\n\nAm Ende des Sommers war ich traurig, dass ich zurück in die Stadt musste. Die Zeit auf dem Hof hat mir gezeigt, dass ich auch mit meinen Händen arbeiten kann. Nächstes Jahr möchte ich wieder zurückkommen, obwohl das Studium dann wichtiger wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die Erzählerin hat auf dem Hof ihrer Tante gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie musste nicht früh aufstehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hatte vorher viel Erfahrung mit Tieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Gewitter hat das Dach der Scheune beschädigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie möchte nächstes Jahr wieder zurückkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-chor-im-dorfverein",
+    "nivel": "B1",
+    "titulo": "Der neue Chor im Dorfverein",
+    "descripcion": "Im Dorf wird ein neuer Chor gegründet, der die Gemeinschaft stärken soll.",
+    "texto": "Im kleinen Dorf Hainbach gibt es seit kurzem einen neuen Chor, der von einer Gruppe engagierter Einwohner gegründet wurde. Nachdem der alte Gesangsverein vor einigen Jahren aufgelöst worden war, fehlte den Menschen im Dorf ein gemeinsames musikalisches Projekt. Trotzdem hat es lange gedauert, bis sich genug Freiwillige gefunden haben.\n\nDer Chor trifft sich jeden Mittwochabend in der alten Dorfschule, die extra für die Proben renoviert wurde. Obwohl viele Mitglieder noch nie zuvor in einem Chor gesungen hatten, sind sie mit großer Begeisterung dabei. Die Chorleiterin, eine pensionierte Musiklehrerin, bringt ihnen geduldig neue Lieder bei.\n\nSchon nach wenigen Monaten hat der Chor sein erstes Konzert beim Dorffest gegeben. Die Zuschauer waren begeistert, obwohl einige Töne nicht perfekt waren. Nachdem der Auftritt so gut ankam, planen die Mitglieder bereits weitere Konzerte für das kommende Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Chor wurde von Einwohnern des Dorfes gegründet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der alte Gesangsverein existiert noch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Chor trifft sich in der alten Dorfschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Mitglieder hatten schon vorher Chorerfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zuschauer beim Dorffest waren begeistert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-plastikverzicht-im-alltag",
+    "nivel": "B2",
+    "titulo": "Der Plastikverzicht im Alltag",
+    "descripcion": "Eine Analyse darüber, wie realistisch ein plastikfreier Alltag in modernen Gesellschaften ist.",
+    "texto": "Immer mehr Menschen versuchen, in ihrem Alltag auf Plastik zu verzichten, da die Umweltfolgen von Kunststoffmüll zunehmend ins öffentliche Bewusstsein rücken. Dennoch zeigt sich bei näherer Betrachtung, dass ein vollständiger Verzicht kaum umsetzbar wäre, ohne dass weite Bereiche des täglichen Lebens grundlegend umgestaltet werden müssten. Viele Produkte, die ohne Plastikverpackung angeboten werden, sind zudem deutlich teurer, wodurch ein nachhaltiger Lebensstil oft denjenigen vorbehalten bleibt, die es sich finanziell leisten können.\n\nBefürworter eines bewussteren Konsums argumentieren, dass bereits kleine Veränderungen – etwa der Einsatz von Mehrwegbehältern oder der Kauf unverpackter Lebensmittel – einen erheblichen Unterschied machen könnten, wenn sie von einer breiten Masse übernommen würden. Kritiker hingegen wenden ein, dass die individuelle Verantwortung überbewertet werde, während die eigentlichen Verursacher der Plastikkrise, nämlich große Konzerne und mangelhafte Recyclingsysteme, kaum zur Rechenschaft gezogen würden. Es stellt sich somit die Frage, ob persönlicher Verzicht ohne strukturelle Reformen überhaupt einen nennenswerten Effekt haben kann.\n\nSollten Politik und Wirtschaft nicht bald wirksame Maßnahmen ergreifen, würde die Verantwortung weiterhin einseitig auf die Verbraucher abgewälzt werden, was langfristig zu Frustration und Resignation führen könnte. Eine Kombination aus individuellem Engagement und gesetzlichen Vorgaben, etwa strengeren Verpackungsvorschriften, erscheint daher als der vielversprechendste Weg, um die Plastikflut tatsächlich einzudämmen.",
+    "preguntas": [
+      {
+        "enunciado": "Ein vollständiger Plastikverzicht wäre laut dem Text problemlos umsetzbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Plastikfreie Produkte sind oft teurer als herkömmliche Produkte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker meinen, die individuelle Verantwortung werde überbewertet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht große Konzerne als völlig unbeteiligt an der Plastikkrise.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt eine Kombination aus individuellem Engagement und gesetzlichen Vorgaben vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-im-betrieb",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche im Betrieb",
+    "descripcion": "Ein Diskussionsbeitrag über Chancen und Risiken der Vier-Tage-Woche in deutschen Unternehmen.",
+    "texto": "Die Vier-Tage-Woche wird in Deutschland zunehmend als mögliche Antwort auf den Wandel der Arbeitswelt diskutiert. Während einige Unternehmen bereits Pilotprojekte gestartet haben, bei denen die Arbeitszeit bei gleichem Lohn reduziert wurde, bleiben andere Branchen skeptisch, ob ein solches Modell überhaupt praktikabel wäre. Befürworter verweisen darauf, dass Mitarbeiter, die weniger arbeiten müssen, erholter und motivierter seien, was sich positiv auf die Produktivität auswirke.\n\nWürde die Vier-Tage-Woche flächendeckend eingeführt, müssten viele Betriebe ihre Arbeitsabläufe grundlegend überdenken, da nicht jede Tätigkeit gleich effizient verdichtet werden kann. In der Pflege oder im Einzelhandel etwa, wo eine durchgehende Besetzung erforderlich ist, wäre eine Umstellung deutlich komplizierter als in der Verwaltung. Zudem wird befürchtet, dass der Druck, dieselbe Arbeitsmenge in weniger Zeit zu bewältigen, den Stress der Beschäftigten eher erhöhen als verringern könnte.\n\nDennoch zeigen erste Studien aus anderen Ländern, dass die Krankheitstage sinken und die Zufriedenheit der Mitarbeiter steigt, sobald das Modell sorgfältig umgesetzt wird. Es bleibt daher eine offene Frage, ob die Vier-Tage-Woche tatsächlich zum neuen Standard werden könnte oder ob sie nur für bestimmte Branchen geeignet bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Alle deutschen Unternehmen haben die Vier-Tage-Woche bereits eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter glauben, dass erholte Mitarbeiter produktiver sein könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Pflege wäre die Umstellung laut Text besonders einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche fürchten, dass der Arbeitsdruck durch die Umstellung steigen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Erste Studien zeigen sinkende Krankheitstage bei sorgfältiger Umsetzung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "biometrische-ueberwachung-im-oeffentlichen-raum",
+    "nivel": "B2",
+    "titulo": "Biometrische Überwachung im öffentlichen Raum",
+    "descripcion": "Ein Beitrag über die gesellschaftlichen Folgen von Gesichtserkennung und biometrischer Überwachung.",
+    "texto": "In zahlreichen Städten weltweit werden mittlerweile Kameras eingesetzt, die mithilfe biometrischer Erkennungssysteme Personen im öffentlichen Raum identifizieren können. Während Befürworter solcher Technologien betonen, dass dadurch Straftaten schneller aufgeklärt und potenzielle Gefahren frühzeitig erkannt werden könnten, warnen Datenschutzexperten vor den weitreichenden Konsequenzen einer lückenlosen Überwachung. Insbesondere die Frage, wer letztlich Zugriff auf die gesammelten Daten erhält, wird in der öffentlichen Debatte häufig vernachlässigt.\n\nWürde eine solche Überwachung flächendeckend eingeführt, bestünde die Gefahr, dass sich Bürger in ihrem Verhalten zunehmend eingeschränkt fühlten, selbst wenn sie sich keiner Straftat schuldig gemacht hätten. Dieses Phänomen, das in der Forschung als „Chilling Effect“ bezeichnet wird, könnte dazu führen, dass Menschen auf die Teilnahme an Demonstrationen oder anderen öffentlichen Versammlungen verzichten, aus Angst, dabei erfasst und gespeichert zu werden. Zudem besteht das Risiko, dass fehlerhafte Erkennungssysteme bestimmte Bevölkerungsgruppen überproportional häufig fälschlich verdächtigen.\n\nAngesichts dieser Bedenken fordern viele Bürgerrechtsorganisationen strengere gesetzliche Regelungen, die den Einsatz biometrischer Überwachung auf klar definierte Ausnahmefälle beschränken sollten. Nur durch eine transparente gesellschaftliche Debatte und wirksame Kontrollmechanismen lässt sich verhindern, dass der technologische Fortschritt zulasten der individuellen Freiheit geht.",
+    "preguntas": [
+      {
+        "enunciado": "Biometrische Überwachung wird laut Text nur in einer einzigen Stadt eingesetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter argumentieren, dass Straftaten schneller aufgeklärt werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der sogenannte „Chilling Effect“ beschreibt verstärktes öffentliches Engagement.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fehlerhafte Erkennungssysteme können bestimmte Gruppen überproportional betreffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bürgerrechtsorganisationen fordern strengere gesetzliche Regelungen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
