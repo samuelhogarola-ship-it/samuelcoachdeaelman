@@ -38750,5 +38750,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-baeckerladen",
+    "nivel": "A1",
+    "titulo": "Im Bäckerladen",
+    "descripcion": "Tom kauft am Morgen Brot und Brötchen beim Bäcker.",
+    "texto": "Tom steht früh auf. Er geht zum Bäckerladen in seiner Straße. Der Laden ist klein, aber sehr gemütlich. Die Bäckerin heißt Frau Weber. Sie kennt Tom gut.\n\n„Guten Morgen, Tom!“, sagt Frau Weber. „Was möchtest du heute?“ Tom lächelt und antwortet: „Zwei Brötchen und ein Vollkornbrot, bitte.“ Frau Weber packt das Brot in eine Tüte. Tom bezahlt drei Euro.\n\nZu Hause isst Tom ein Brötchen mit Butter und Marmelade. Er trinkt dazu einen Kaffee. Das Frühstück schmeckt sehr gut. Tom freut sich schon auf morgen.",
+    "preguntas": [
+      {
+        "enunciado": "Tom geht abends zum Bäcker.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bäckerin heißt Frau Weber.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom kauft nur ein Brötchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom bezahlt drei Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom trinkt zum Frühstück Tee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-sonntagmorgen",
+    "nivel": "A1",
+    "titulo": "Mein Sonntagmorgen",
+    "descripcion": "Eine Beschreibung eines ruhigen Sonntagmorgens zu Hause.",
+    "texto": "Am Sonntag stehe ich spät auf. Ich schlafe gern lange. Um neun Uhr wache ich auf und bleibe noch im Bett. Draußen scheint die Sonne.\n\nDann stehe ich auf und mache Frühstück. Ich esse Müsli mit Milch und Obst. Dazu trinke ich einen Orangensaft. Mein Vater liest die Zeitung. Meine Schwester hört Musik.\n\nNach dem Frühstück gehe ich mit dem Hund spazieren. Der Park ist nicht weit. Dort treffe ich oft meine Freunde. Der Sonntagmorgen ist mein Lieblingsmoment der Woche.",
+    "preguntas": [
+      {
+        "enunciado": "Die Person steht am Sonntag sehr früh auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zum Frühstück gibt es Müsli mit Milch und Obst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater hört Musik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Frühstück geht die Person mit dem Hund spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Park ist sehr weit weg.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-schulweg",
+    "nivel": "A1",
+    "titulo": "Der Schulweg",
+    "descripcion": "Ein Kind erzählt, wie es jeden Tag zur Schule kommt.",
+    "texto": "Ich heiße Mia und gehe in die vierte Klasse. Mein Schulweg ist nicht lang. Ich wohne nur zehn Minuten von der Schule entfernt. Jeden Morgen gehe ich zu Fuß.\n\nAuf dem Weg treffe ich meine Freundin Lea. Wir laufen zusammen durch den Park. Im Park gibt es viele Bäume und einen kleinen Teich. Manchmal sehen wir Enten.\n\nAn der Ampel warten wir immer. Das ist wichtig für die Sicherheit. Um Viertel vor acht kommen wir an der Schule an. Der Unterricht beginnt um acht Uhr.",
+    "preguntas": [
+      {
+        "enunciado": "Mia geht in die vierte Klasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia fährt mit dem Bus zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia läuft mit Lea durch den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "An der Ampel laufen sie schnell über die Straße.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Unterricht beginnt um acht Uhr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-verlorener-koffer-am-flughafen",
+    "nivel": "A2",
+    "titulo": "Ein verlorener Koffer am Flughafen",
+    "descripcion": "Nach einem Flug nach München ist ein Koffer nicht angekommen.",
+    "texto": "Letzte Woche ist Herr Schulz nach München geflogen. Der Flug ist gut gelandet, aber am Gepäckband hat er lange gewartet. Sein Koffer ist nicht gekommen. Herr Schulz war sehr überrascht, weil er noch nie einen Koffer verloren hat.\n\nEr ist zum Serviceschalter gegangen und hat sein Problem erklärt. Die Mitarbeiterin hat seinen Namen und seine Adresse notiert. Sie hat gesagt, dass der Koffer wahrscheinlich noch in Hamburg ist. Herr Schulz war ein bisschen ärgerlich, aber er ist trotzdem ruhig geblieben.\n\nAm nächsten Tag hat ihn die Fluggesellschaft angerufen. Der Koffer war gefunden worden und wurde direkt zu seinem Hotel gebracht. Herr Schulz hat sich sehr gefreut, dass alles gut ausgegangen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Schulz ist nach München geflogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sein Koffer ist sofort am Gepäckband angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mitarbeiterin hat seine Daten notiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Koffer war für immer verschwunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer wurde zu seinem Hotel gebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fieber-am-wochenende",
+    "nivel": "A2",
+    "titulo": "Fieber am Wochenende",
+    "descripcion": "Eine Studentin bekommt am Samstag hohes Fieber und muss zum Notdienst.",
+    "texto": "Am Samstagmorgen ist Anna mit starken Kopfschmerzen aufgewacht. Sie hat Fieber gemessen und hatte fast 39 Grad. Weil ihr Hausarzt am Wochenende nicht geöffnet hat, ist sie zum ärztlichen Notdienst gefahren.\n\nIm Wartezimmer hat sie fast eine Stunde gewartet. Viele andere Patienten waren auch dort. Als der Arzt sie endlich untersucht hat, hat er gesagt, dass es eine starke Grippe ist. Er hat ihr Medikamente verschrieben und empfohlen, viel zu trinken und im Bett zu bleiben.\n\nAnna ist nach Hause gefahren und hat sich sofort hingelegt. Ihre Mitbewohnerin hat ihr Tee gekocht und eingekauft. Nach drei Tagen im Bett hat sich Anna endlich besser gefühlt.",
+    "preguntas": [
+      {
+        "enunciado": "Anna hatte am Samstag leichte Kopfschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihr Hausarzt hatte am Wochenende geöffnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Wartezimmer waren viele Patienten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt hat eine starke Grippe festgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna hat sich nach einem Tag wieder gut gefühlt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-handballspiel-am-samstag",
+    "nivel": "A2",
+    "titulo": "Das Handballspiel am Samstag",
+    "descripcion": "Jonas erlebt mit seiner Mannschaft ein spannendes Handballspiel.",
+    "texto": "Am Samstag hat Jonas mit seiner Handballmannschaft gegen eine Mannschaft aus der Nachbarstadt gespielt. Das Spiel war sehr wichtig, weil es um den ersten Platz der Liga ging. Viele Zuschauer sind in die Halle gekommen.\n\nIn der ersten Halbzeit hat Jonas zwei Tore geschossen. Seine Mannschaft hat zur Pause mit zwölf zu zehn geführt. In der zweiten Halbzeit ist das Spiel spannender geworden, weil die andere Mannschaft stark aufgeholt hat.\n\nKurz vor Schluss hat Jonas noch ein wichtiges Tor erzielt. Am Ende hat seine Mannschaft mit einem Tor Unterschied gewonnen. Alle Spieler haben sich sehr gefreut und sind danach gemeinsam essen gegangen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas spielt Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der ersten Halbzeit hat Jonas zwei Tore geschossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zur Pause stand es unentschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die andere Mannschaft hat in der zweiten Halbzeit aufgeholt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas' Mannschaft hat das Spiel verloren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-konzert-in-der-alten-fabrikhalle",
+    "nivel": "B1",
+    "titulo": "Das Konzert in der alten Fabrikhalle",
+    "descripcion": "Eine ehemalige Fabrik wird zum Veranstaltungsort für ein besonderes Konzert.",
+    "texto": "In der alten Fabrikhalle am Stadtrand fand am Freitagabend ein ungewöhnliches Konzert statt. Die Halle war früher eine Textilfabrik, die vor zwanzig Jahren geschlossen wurde. Obwohl das Gebäude seit Jahren leer stand, hat eine Künstlergruppe es für kulturelle Veranstaltungen wiederentdeckt.\n\nAls die Band die Bühne betrat, wurde es im Publikum sofort still. Die Akustik in der Halle war erstaunlich gut, obwohl das Gebäude nie für Konzerte gebaut worden war. Nachdem die ersten Lieder gespielt worden waren, begannen die Zuschauer zu tanzen. Viele waren überrascht, wie besonders die Atmosphäre an diesem ungewöhnlichen Ort war.\n\nTrotzdem gab es auch kritische Stimmen. Einige Anwohner beschwerten sich über den Lärm, der bis spät in die Nacht zu hören war. Die Organisatoren versprachen, bei zukünftigen Konzerten früher aufzuhören. Dennoch war sich die Mehrheit der Besucher einig, dass solche Veranstaltungen der Stadt neues kulturelles Leben bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Fabrikhalle war früher eine Textilfabrik.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Halle wurde speziell für Konzerte gebaut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zuschauer begannen nach den ersten Liedern zu tanzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Anwohner waren mit dem Konzert vollkommen zufrieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Organisatoren wollen bei künftigen Konzerten früher aufhören.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-job-in-der-werbeagentur",
+    "nivel": "B1",
+    "titulo": "Der neue Job in der Werbeagentur",
+    "descripcion": "Nach dem Studium beginnt Sophie eine neue Stelle in einer Werbeagentur.",
+    "texto": "Sophie hatte gerade ihr Studium der Kommunikationswissenschaft abgeschlossen, als sie die Stelle in der Werbeagentur bekam. Obwohl sie keine Berufserfahrung hatte, überzeugte sie die Chefin mit ihrer Kreativität im Vorstellungsgespräch. Am ersten Arbeitstag war Sophie sehr aufgeregt.\n\nNachdem sie ihren Schreibtisch eingerichtet hatte, lernte sie ihre neuen Kollegen kennen. Das Team arbeitete an einer großen Kampagne für ein Sportunternehmen. Sophie musste sich schnell in die neuen Aufgaben einarbeiten, obwohl vieles für sie noch unbekannt war. Ihre Kollegen halfen ihr geduldig bei den ersten Projekten.\n\nNach ein paar Monaten durfte Sophie bereits eigene Ideen für Werbeanzeigen präsentieren. Trotz anfänglicher Unsicherheit wuchs ihr Selbstvertrauen von Woche zu Woche. Heute leitet sie sogar kleinere Projekte selbstständig und freut sich jeden Tag über ihre Entscheidung, in dieser Branche zu arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hatte vor dem neuen Job viel Berufserfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Team arbeitete an einer Kampagne für ein Sportunternehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie bekam von ihren Kollegen keine Hilfe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach ein paar Monaten durfte Sophie eigene Ideen präsentieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie bereut heute ihre Entscheidung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wiedersehensfeier-nach-zwanzig-jahren",
+    "nivel": "B1",
+    "titulo": "Die Wiedersehensfeier nach zwanzig Jahren",
+    "descripcion": "Ehemalige Klassenkameraden treffen sich nach zwanzig Jahren zu einem Klassentreffen.",
+    "texto": "Zwanzig Jahre nachdem sie ihre Schule verlassen hatten, trafen sich die ehemaligen Klassenkameraden zum ersten Mal wieder. Viele hatten sich seit dem Abschlussball nicht mehr gesehen, obwohl sie früher jeden Tag zusammen waren. Die Organisation des Treffens hatte Monate gedauert, weil einige Mitschüler ins Ausland gezogen waren.\n\nAls die ersten Gäste in der alten Turnhalle ankamen, war die Stimmung zunächst etwas unsicher. Niemand wusste genau, wie die anderen sich verändert hatten. Nachdem die ersten Gespräche begonnen hatten, verschwand die Nervosität schnell. Man erinnerte sich gemeinsam an lustige und peinliche Momente aus der Schulzeit.\n\nObwohl manche Mitschüler ganz andere Lebenswege eingeschlagen hatten, fühlte es sich an, als wäre keine Zeit vergangen. Am Ende des Abends versprachen alle, sich nicht wieder zwanzig Jahre warten zu lassen. Trotzdem weiß niemand genau, ob das nächste Treffen wirklich bald stattfinden wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klassenkameraden trafen sich jedes Jahr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Organisation des Treffens dauerte mehrere Monate.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zu Beginn war die Stimmung sofort locker und entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gäste erinnerten sich an Momente aus der Schulzeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende waren sich alle sicher, wann das nächste Treffen stattfindet.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-personalmangel-in-der-altenpflege",
+    "nivel": "B2",
+    "titulo": "Der Personalmangel in der Altenpflege",
+    "descripcion": "Ein Blick auf die Ursachen und möglichen Lösungen des Pflegekräftemangels.",
+    "texto": "In den Pflegeheimen und ambulanten Diensten Deutschlands fehlen zunehmend Fachkräfte, die sich um pflegebedürftige Menschen kümmern können. Während die Zahl der älteren Menschen stetig wächst, sinkt gleichzeitig die Zahl derjenigen, die bereit sind, diesen anspruchsvollen Beruf zu ergreifen. Würde sich an den Arbeitsbedingungen nichts ändern, könnte sich diese Entwicklung in den kommenden Jahren noch verschärfen.\n\nAls Hauptursachen werden häufig die niedrige Bezahlung und die hohe körperliche sowie psychische Belastung genannt. Viele Pflegekräfte berichten von Überstunden, die kaum ausgeglichen werden, sowie von Personalschlüsseln, die als unzureichend empfunden werden. Es wird vermutet, dass sich die Situation erst dann nachhaltig verbessern wird, wenn strukturelle Reformen umgesetzt werden, anstatt nur einzelne Symptome zu behandeln.\n\nExperten schlagen verschiedene Maßnahmen vor, um den Beruf attraktiver zu gestalten. Dazu gehören höhere Gehälter, verbindliche Personaluntergrenzen und eine bessere gesellschaftliche Anerkennung der Pflegeberufe. Sollten diese Reformen tatsächlich umgesetzt werden, könnte der Pflegeberuf wieder mehr junge Menschen anziehen. Ohne entschlossenes politisches Handeln jedoch, so warnen Fachleute, werde sich der Mangel in den kommenden Jahrzehnten weiter zuspitzen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zahl älterer Menschen nimmt laut Text ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niedrige Bezahlung wird als eine Ursache des Personalmangels genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind alle Pflegekräfte mit ihrem Personalschlüssel zufrieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten schlagen unter anderem höhere Gehälter vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fachleute erwarten, dass sich der Mangel ohne politisches Handeln von selbst löst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-des-stationaeren-einzelhandels",
+    "nivel": "B2",
+    "titulo": "Die Zukunft des stationären Einzelhandels",
+    "descripcion": "Wie Innenstadtgeschäfte auf die wachsende Konkurrenz durch den Online-Handel reagieren.",
+    "texto": "Immer mehr Geschäfte in deutschen Innenstädten kämpfen ums Überleben, seit der Online-Handel in den vergangenen Jahren rasant gewachsen ist. Viele Kundinnen und Kunden bestellen Produkte bequem von zu Hause aus, wodurch traditionelle Ladengeschäfte zunehmend an Bedeutung verlieren. Manche Innenstädte wirken inzwischen wie ausgestorben, da zahlreiche Geschäfte dauerhaft geschlossen wurden.\n\nDennoch gibt es Einzelhändler, die sich erfolgreich an die veränderten Bedingungen angepasst haben. Einige setzen auf ein besonderes Einkaufserlebnis, das online nicht geboten werden kann, etwa persönliche Beratung oder exklusive Veranstaltungen. Andere Geschäfte wiederum kombinieren einen physischen Laden mit einem eigenen Online-Shop, sodass Kundinnen und Kunden flexibel wählen können, wie sie einkaufen möchten.\n\nStädteplaner diskutieren zudem, wie Innenstädte attraktiver gestaltet werden könnten, damit Menschen überhaupt wieder einen Grund haben, dorthin zu gehen. Würden mehr Grünflächen, kulturelle Angebote und Wohnraum in die Innenstädte integriert, könnten diese zu lebendigen Orten werden, die weit über den reinen Einkauf hinausgehen. Ob diese Konzepte den Rückgang des stationären Handels tatsächlich aufhalten können, bleibt jedoch ungewiss.",
+    "preguntas": [
+      {
+        "enunciado": "Der Online-Handel ist laut Text in den letzten Jahren gewachsen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Innenstadtgeschäfte in Deutschland schließen derzeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Einzelhändler setzen auf persönliche Beratung als Vorteil gegenüber dem Online-Handel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Städteplaner haben bereits eine sichere Lösung für das Problem gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Geschäfte kombinieren einen physischen Laden mit einem Online-Shop.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "soziale-medien-und-die-oeffentliche-meinungsbildung",
+    "nivel": "B2",
+    "titulo": "Soziale Medien und die öffentliche Meinungsbildung",
+    "descripcion": "Eine kritische Betrachtung des Einflusses sozialer Netzwerke auf gesellschaftliche Debatten.",
+    "texto": "Soziale Netzwerke haben die Art und Weise, wie gesellschaftliche Debatten geführt werden, grundlegend verändert. Während früher vor allem Zeitungen und das Fernsehen die öffentliche Meinung prägten, werden Informationen heute häufig über Plattformen verbreitet, deren Algorithmen bestimmen, welche Inhalte besonders viele Menschen erreichen. Dadurch entstehen sogenannte Filterblasen, in denen Nutzerinnen und Nutzer vor allem mit Meinungen konfrontiert werden, die ihre eigene Sichtweise bestätigen.\n\nKritiker bemängeln, dass auf diese Weise differenzierte Debatten erschwert werden, da komplexe Themen oft auf kurze, emotional aufgeladene Beiträge reduziert werden. Würden Nutzerinnen und Nutzer stärker für diese Mechanismen sensibilisiert, könnten sie bewusster mit den Inhalten umgehen, die ihnen angezeigt werden. Bislang jedoch wird Medienkompetenz an vielen Schulen nur unzureichend vermittelt.\n\nGleichzeitig wird betont, dass soziale Medien auch positive Effekte haben können, etwa indem sie Menschen eine Stimme geben, die in traditionellen Medien kaum gehört würden. Es stellt sich daher die Frage, wie eine Balance gefunden werden kann, bei der die Vorteile sozialer Netzwerke genutzt werden, ohne dass die gesellschaftliche Debattenkultur dauerhaft Schaden nimmt. Eine einfache Antwort darauf gibt es bislang nicht.",
+    "preguntas": [
+      {
+        "enunciado": "Früher prägten vor allem Zeitungen und Fernsehen die öffentliche Meinung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Filterblasen sorgen dafür, dass Nutzer vor allem abweichende Meinungen sehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text wird Medienkompetenz an den meisten Schulen bereits ausreichend vermittelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Soziale Medien können laut Text auch Menschen eine Stimme geben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text bietet eine klare und einfache Lösung für das Problem.",
+        "respuesta": false
+      }
+    ]
   }
 ]
