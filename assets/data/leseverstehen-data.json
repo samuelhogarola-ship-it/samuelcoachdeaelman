@@ -38402,5 +38402,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-erster-arbeitstag",
+    "nivel": "A1",
+    "titulo": "Mein erster Arbeitstag",
+    "descripcion": "Lisa erzählt von ihrem ersten Tag im neuen Büro.",
+    "texto": "Lisa ist 20 Jahre alt. Heute ist ihr erster Arbeitstag. Sie steht früh auf und frühstückt schnell. Sie trinkt Kaffee und isst ein Brot mit Käse.\n\nIm Büro lernt Lisa viele neue Kollegen kennen. Ihr Chef heißt Herr Becker. Er ist sehr freundlich. Er sagt: „Willkommen im Team, Lisa!“ Lisa lächelt und sagt: „Danke, ich freue mich sehr.“\n\nAm Mittag isst Lisa mit zwei Kolleginnen in der Kantine. Sie essen Suppe und Salat. Am Abend ist Lisa müde, aber auch glücklich. Der erste Tag war gut.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa ist 20 Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa trinkt am Morgen Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Chef heißt Herr Becker.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa isst mittags allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa ist am Abend glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-fahrradladen",
+    "nivel": "A1",
+    "titulo": "Der Fahrradladen",
+    "descripcion": "Tom kauft ein neues Fahrrad in der Stadt.",
+    "texto": "Tom braucht ein neues Fahrrad. Er geht in den Fahrradladen in der Hauptstraße. Der Verkäufer heißt Herr Klein. Er zeigt Tom viele Fahrräder.\n\nTom mag ein rotes Fahrrad. Es kostet 250 Euro. Tom fragt: „Haben Sie auch einen Helm?“ Herr Klein antwortet: „Ja, der Helm kostet 30 Euro.“ Tom kauft das Fahrrad und den Helm.\n\nZu Hause fährt Tom sofort eine Runde. Das Fahrrad ist schnell und bequem. Tom ist sehr zufrieden mit seinem neuen Fahrrad.",
+    "preguntas": [
+      {
+        "enunciado": "Tom kauft ein neues Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer heißt Herr Klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad kostet 150 Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom kauft keinen Helm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom ist mit dem Fahrrad zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagstorte",
+    "nivel": "A1",
+    "titulo": "Die Geburtstagstorte",
+    "descripcion": "Oma backt eine Torte für den Geburtstag von Paul.",
+    "texto": "Paul hat morgen Geburtstag. Er wird acht Jahre alt. Seine Oma backt eine Schokoladentorte. Sie braucht Mehl, Zucker, Eier und Schokolade.\n\nPaul hilft seiner Oma in der Küche. Er mischt den Teig und ist sehr vorsichtig. Die Torte riecht sehr gut. Oma sagt: „Die Torte muss jetzt eine Stunde im Ofen backen.“\n\nAm nächsten Tag kommen Pauls Freunde zur Feier. Alle singen ein Geburtstagslied. Paul ist sehr froh. Die Torte schmeckt allen sehr gut.",
+    "preguntas": [
+      {
+        "enunciado": "Paul wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma backt einen Apfelkuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hilft beim Backen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Torte backt zwei Minuten im Ofen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde singen ein Geburtstagslied.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-wohnung",
+    "nivel": "A2",
+    "titulo": "Die neue Wohnung",
+    "descripcion": "Anna ist in eine neue Wohnung umgezogen und berichtet davon.",
+    "texto": "Letzte Woche ist Anna in eine neue Wohnung umgezogen. Die Wohnung ist größer als ihre alte und hat einen schönen Balkon. Sie hat drei Tage gebraucht, um alle Kartons auszupacken, weil sie sehr viele Bücher hat.\n\nIhre neuen Nachbarn haben ihr geholfen, die Möbel zu tragen. Danach haben sie zusammen Kaffee getrunken und über das Viertel gesprochen. Anna hat erfahren, dass es gleich um die Ecke einen Supermarkt und einen Park gibt.\n\nAm Abend hat Anna ihrer Mutter erzählt, dass sie sehr glücklich mit der neuen Wohnung ist. Sie findet es schön, dass sie endlich mehr Platz hat, obwohl die Miete etwas höher ist.",
+    "preguntas": [
+      {
+        "enunciado": "Anna ist vor einem Monat umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die neue Wohnung hat einen Balkon.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn haben ihr beim Umzug geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Nähe gibt es keinen Supermarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Miete ist niedriger als vorher.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-sprachkurs-in-wien",
+    "nivel": "A2",
+    "titulo": "Der Sprachkurs in Wien",
+    "descripcion": "Marco berichtet über seinen Deutschkurs in Wien.",
+    "texto": "Marco kommt aus Italien und hat letzten Monat einen Deutschkurs in Wien begonnen. Er wollte Deutsch lernen, weil er in Österreich arbeiten möchte. Der Kurs findet jeden Morgen von neun bis zwölf Uhr statt.\n\nAm Anfang war es schwer, weil die Grammatik sehr kompliziert ist. Trotzdem hat Marco jeden Tag geübt und viele neue Wörter gelernt. Seine Lehrerin hat gesagt, dass er große Fortschritte gemacht hat.\n\nNach dem Unterricht trifft sich Marco oft mit anderen Kursteilnehmern. Sie gehen zusammen in ein Café und sprechen Deutsch, wenn sie Zeit haben. Marco ist froh, dass er schon neue Freunde in Wien gefunden hat.",
+    "preguntas": [
+      {
+        "enunciado": "Marco kommt aus Spanien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kurs findet am Morgen statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marco fand die Grammatik am Anfang leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin bemerkt seine Fortschritte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marco trifft sich mit anderen Kursteilnehmern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-dorfbibliothek",
+    "nivel": "A2",
+    "titulo": "Die Dorfbibliothek",
+    "descripcion": "Ein kleines Dorf eröffnet nach langer Zeit wieder eine Bibliothek.",
+    "texto": "In dem kleinen Dorf Hohenberg gab es viele Jahre keine Bibliothek mehr. Die Bewohner haben sich darüber beschwert, weil besonders die Kinder gern Bücher lesen wollten. Deshalb hat die Gemeinde letztes Jahr beschlossen, eine neue Bibliothek zu bauen.\n\nLetzten Samstag wurde die Bibliothek endlich eröffnet. Viele Familien sind gekommen, obwohl es stark geregnet hat. Der Bürgermeister hat eine kurze Rede gehalten und allen Helfern gedankt.\n\nDie Kinder waren besonders begeistert, weil es eine große Ecke mit Comics und Bilderbüchern gibt. Eine Mutter hat gesagt, dass sie sehr dankbar ist, dass es jetzt wieder einen Ort zum Lesen im Dorf gibt.",
+    "preguntas": [
+      {
+        "enunciado": "In Hohenberg gab es lange keine Bibliothek.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gemeinde wollte keine neue Bibliothek bauen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Eröffnung war an einem Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt keine Comics in der Bibliothek.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bürgermeister hat eine Rede gehalten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-nach-berlin",
+    "nivel": "B1",
+    "titulo": "Der Umzug nach Berlin",
+    "descripcion": "Sven zieht aus beruflichen Gründen von München nach Berlin um.",
+    "texto": "Nachdem Sven ein neues Jobangebot in Berlin erhalten hatte, musste er sich innerhalb weniger Wochen entscheiden, ob er seine Heimatstadt München verlassen wollte. Obwohl er seine Familie und Freunde sehr vermissen würde, entschied er sich schließlich für den Umzug, weil die neue Stelle seiner Karriere einen großen Schritt nach vorn bringen sollte.\n\nDie ersten Wochen in Berlin waren nicht einfach. Sven musste eine Wohnung finden, was sich als schwieriger herausstellte als erwartet, da der Wohnungsmarkt sehr umkämpft ist. Trotzdem fand er nach intensiver Suche eine kleine, aber gemütliche Wohnung in Kreuzberg.\n\nMit der Zeit gewöhnte sich Sven an das Leben in der Hauptstadt. Er lernte neue Kollegen kennen und entdeckte, dass Berlin viel kulturelle Vielfalt zu bieten hat. Heute sagt er, dass der Umzug zwar anstrengend war, er ihn aber nicht bereut, da er sowohl beruflich als auch persönlich daran gewachsen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Sven hat den Job in Berlin sofort abgelehnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Wohnungsmarkt in Berlin war einfach zu durchschauen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sven hat schließlich eine Wohnung in Kreuzberg gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sven bereut den Umzug nach Berlin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Berlin bietet laut Sven viel kulturelle Vielfalt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-vereinsausflug",
+    "nivel": "B1",
+    "titulo": "Der Vereinsausflug",
+    "descripcion": "Ein Sportverein organisiert einen gemeinsamen Ausflug in die Berge.",
+    "texto": "Jedes Jahr organisiert der örtliche Sportverein einen gemeinsamen Ausflug für seine Mitglieder. Dieses Jahr wurde entschieden, in die Berge zu fahren, obwohl einige ältere Mitglieder zunächst skeptisch waren, ob die Wanderung zu anstrengend sein könnte.\n\nNachdem der Vorstand eine leichtere Route ausgewählt hatte, meldeten sich fast alle Mitglieder für die Fahrt an. Am Tag des Ausflugs trafen sich über vierzig Personen schon früh am Morgen am Vereinsheim, um gemeinsam mit dem Bus loszufahren.\n\nWährend der Wanderung genossen alle die frische Luft und die wunderschöne Landschaft, und trotz einiger kurzer Regenschauer blieb die Stimmung ausgezeichnet. Am Abend waren sich alle einig, dass es einer der gelungensten Ausflüge der letzten Jahre gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Der Ausflug ging dieses Jahr ans Meer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige ältere Mitglieder waren zunächst unsicher.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fast niemand hat sich für den Ausflug angemeldet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab während der Wanderung kurze Regenschauer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende waren alle mit dem Ausflug zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "zwei-freundinnen-zwei-kontinente",
+    "nivel": "B1",
+    "titulo": "Freundschaft trotz Entfernung",
+    "descripcion": "Zwei Freundinnen pflegen ihre Freundschaft, obwohl sie in verschiedenen Ländern leben.",
+    "texto": "Mara und Julia sind seit der Schulzeit beste Freundinnen. Nachdem Julia vor zwei Jahren nach Kanada gezogen war, um dort zu studieren, befürchteten beide, dass die Entfernung ihre Freundschaft belasten könnte. Trotzdem haben sie einen Weg gefunden, in Kontakt zu bleiben.\n\nJeden Sonntag telefonieren die beiden mindestens eine Stunde lang über Video, obwohl die Zeitverschiebung manchmal eine Herausforderung ist. Sie erzählen sich gegenseitig, was in ihrem Alltag passiert ist, und teilen auch kleine Sorgen und Freuden miteinander.\n\nLetzten Sommer konnte Mara ihre Freundin schließlich in Kanada besuchen. Beide waren überrascht, wie vertraut sich alles anfühlte, obwohl sie sich fast zwei Jahre lang nicht persönlich gesehen hatten. Dieser Besuch hat ihnen gezeigt, dass echte Freundschaft auch große Entfernungen überstehen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Mara und Julia kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist nach Kanada gezogen, um zu studieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen telefonieren nie miteinander.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mara hat Julia letzten Sommer in Kanada besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Besuch hat gezeigt, dass die Freundschaft stark bleibt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungskrise",
+    "nivel": "B2",
+    "titulo": "Die Wohnungskrise in den Großstädten",
+    "descripcion": "Ein Blick auf die Ursachen und möglichen Lösungen der Wohnungsknappheit.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Lage auf dem Wohnungsmarkt in den vergangenen Jahren erheblich verschärft. Während die Mieten kontinuierlich steigen, wird bezahlbarer Wohnraum zunehmend knapper, sodass viele Menschen mit geringem oder mittlerem Einkommen kaum noch eine geeignete Wohnung finden können. Experten führen dies vor allem auf den anhaltenden Zuzug in urbane Gebiete sowie auf einen über Jahre hinweg unzureichenden Neubau zurück.\n\nUm der Krise entgegenzuwirken, würden viele Stadtplaner eine stärkere staatliche Regulierung begrüßen, etwa durch eine konsequentere Mietpreisbremse oder gezielte Förderprogramme für den sozialen Wohnungsbau. Gleichzeitig wird jedoch argumentiert, dass übermäßige Regulierung private Investoren abschrecken und somit den Neubau zusätzlich verlangsamen könnte, was die Situation langfristig eher verschlimmern würde als verbessern.\n\nEinige Kommunen experimentieren bereits mit alternativen Ansätzen, wie etwa der Umwandlung leerstehender Bürogebäude in Wohnraum oder der Förderung genossenschaftlicher Wohnprojekte. Ob diese Maßnahmen ausreichen, um die strukturellen Probleme des Wohnungsmarkts tatsächlich zu lösen, bleibt allerdings umstritten, da ein nachhaltiger Wandel vermutlich nur durch ein Zusammenspiel mehrerer politischer und wirtschaftlicher Maßnahmen erreicht werden könnte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Grund für die Krise ist der starke Zuzug in Städte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass mehr Regulierung nur Vorteile bringt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kommunen wandeln leere Bürogebäude in Wohnraum um.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lösung der Wohnungskrise gilt als einfach und unumstritten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-im-alltag",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz im digitalen Alltag",
+    "descripcion": "Warum ein kritischer Umgang mit Nachrichten und sozialen Medien immer wichtiger wird.",
+    "texto": "Angesichts der Flut an Informationen, die täglich über soziale Netzwerke und Onlineportale verbreitet wird, gewinnt die Fähigkeit, Quellen kritisch zu hinterfragen, zunehmend an Bedeutung. Viele Falschmeldungen verbreiten sich mittlerweile schneller als fundierte Berichte, was insbesondere dann problematisch wird, wenn gesellschaftlich relevante Themen betroffen sind.\n\nBildungsexperten fordern deshalb, dass Medienkompetenz bereits in der Schule systematisch vermittelt werden sollte, damit Schülerinnen und Schüler lernen, zwischen seriösen und unseriösen Quellen zu unterscheiden. Würde dieses Thema stärker im Lehrplan verankert, könnten junge Menschen besser auf die Herausforderungen einer zunehmend digitalisierten Öffentlichkeit vorbereitet werden.\n\nKritiker wenden jedoch ein, dass die Verantwortung nicht allein bei den Nutzern liegen dürfe, sondern auch die Plattformbetreiber stärker in die Pflicht genommen werden müssten. Nur durch ein Zusammenspiel aus individueller Medienkompetenz, politischer Regulierung und technischer Transparenz, so die Argumentation, lasse sich der wachsenden Desinformation im digitalen Raum wirksam begegnen.",
+    "preguntas": [
+      {
+        "enunciado": "Falschmeldungen verbreiten sich laut dem Text immer langsamer als korrekte Berichte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern mehr Medienkompetenz in der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird vorgeschlagen, Medienkompetenz stärker im Lehrplan zu verankern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker meinen, nur die Nutzer seien für Desinformation verantwortlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, Plattformbetreiber stärker in die Pflicht zu nehmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "zwischen-buero-und-wohnzimmer",
+    "nivel": "B2",
+    "titulo": "Work-Life-Balance im Homeoffice",
+    "descripcion": "Chancen und Risiken der zunehmenden Verbreitung von Heimarbeit.",
+    "texto": "Seit mehrere Unternehmen ihren Mitarbeitenden die Möglichkeit eingeräumt haben, dauerhaft im Homeoffice zu arbeiten, wird intensiv darüber diskutiert, welche Auswirkungen diese Entwicklung auf die Work-Life-Balance hat. Befürworter betonen, dass durch den Wegfall des Arbeitswegs wertvolle Zeit gewonnen werde, die stattdessen der Familie oder persönlichen Interessen gewidmet werden könne.\n\nGleichzeitig weisen zahlreiche Studien darauf hin, dass die Grenze zwischen Berufs- und Privatleben im Homeoffice zunehmend verschwimmt. Viele Beschäftigte berichten, dass sie sich schwerer abgrenzen können und selbst am Feierabend weiterhin erreichbar bleiben, obwohl dies eigentlich gegen ihre eigenen Vorsätze verstößt. Würden klare Regeln für die Erreichbarkeit fehlen, könnte dies langfristig zu einer erhöhten psychischen Belastung führen.\n\nUm diesem Risiko vorzubeugen, setzen manche Unternehmen inzwischen auf verbindliche Richtlinien, die beispielsweise feste Arbeitszeiten oder eine klare Trennung der Kommunikationskanäle vorschreiben. Ob solche Maßnahmen ausreichen, um eine gesunde Balance zu gewährleisten, hängt letztlich jedoch stark von der individuellen Selbstdisziplin jeder einzelnen Person ab.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter des Homeoffice schätzen die gewonnene Zeit durch den Wegfall des Arbeitswegs.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien bleibt die Grenze zwischen Beruf und Privatleben im Homeoffice immer klar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Beschäftigte bleiben auch nach Feierabend erreichbar.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kein Unternehmen hat bisher Richtlinien für das Homeoffice eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht die individuelle Selbstdisziplin als wichtigen Faktor.",
+        "respuesta": true
+      }
+    ]
   }
 ]
