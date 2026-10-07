@@ -39098,5 +39098,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "fasching-in-der-schule",
+    "nivel": "A1",
+    "titulo": "Fasching in der Schule",
+    "descripcion": "Die Kinder feiern Fasching und tragen bunte Kostüme.",
+    "texto": "Heute ist Fasching. Alle Kinder tragen Kostüme in der Schule. Lena ist eine Prinzessin. Ihr Kleid ist rosa und weiß. Max ist ein Pirat. Er hat einen schwarzen Hut und ein Schwert aus Papier.\n\nDie Klasse feiert zusammen. Es gibt Luftschlangen und Musik. Die Lehrerin trägt eine bunte Clownsnase. Die Kinder tanzen und singen. Alle lachen viel.\n\nZum Schluss gibt es Kuchen und Saft. Lena sagt: „Fasching ist mein Lieblingstag!“ Max nickt und isst ein Stück Kuchen. Die Kinder sind sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist eine Prinzessin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max trägt ein rosa Kleid.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin trägt eine Clownsnase.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder essen nur Saft, keinen Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fasching ist Lenas Lieblingstag.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "silvester-bei-oma-und-opa",
+    "nivel": "A1",
+    "titulo": "Silvester bei Oma und Opa",
+    "descripcion": "Die Familie feiert Silvester zusammen im Haus der Großeltern.",
+    "texto": "Am 31. Dezember fährt die Familie zu Oma und Opa. Es ist Silvester. Oma kocht Suppe und Omas Suppe schmeckt sehr gut. Opa deckt den Tisch mit vielen Tellern.\n\nUm Mitternacht gehen alle vor das Haus. Der Himmel ist dunkel. Dann sehen sie Feuerwerk. Es ist bunt: rot, grün und gelb. Die Kinder zählen: „Zehn, neun, acht, sieben...“ Alle rufen: „Frohes neues Jahr!“\n\nDanach trinken alle heißen Kakao. Oma sagt: „Das neue Jahr wird schön.“ Die Kinder sind müde, aber sehr froh. Sie schlafen bei Oma und Opa.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie feiert Silvester bei Oma und Opa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa kocht die Suppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Feuerwerk ist nur grau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder zählen vor dem Feuerwerk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach Mitternacht trinken alle heißen Kakao.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-meerschweinchen",
+    "nivel": "A1",
+    "titulo": "Mein Meerschweinchen",
+    "descripcion": "Ein Kind erzählt von seinem kleinen Haustier.",
+    "texto": "Ich habe ein Meerschweinchen. Es heißt Fluffy. Fluffy ist braun und weiß. Es wohnt in einem großen Käfig in meinem Zimmer.\n\nJeden Tag gebe ich Fluffy Futter. Es isst gern Salat und Karotten. Fluffy trinkt auch viel Wasser. Am Nachmittag spiele ich mit ihm im Garten.\n\nFluffy ist sehr lieb. Es macht lustige Geräusche, wenn es Hunger hat. Meine Schwester mag Fluffy auch. Wir füttern es zusammen jeden Abend.",
+    "preguntas": [
+      {
+        "enunciado": "Das Meerschweinchen heißt Fluffy.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fluffy ist schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fluffy isst gern Salat und Karotten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Kind spielt nie mit Fluffy.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schwester mag Fluffy auch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eislaufen-auf-dem-see",
+    "nivel": "A2",
+    "titulo": "Eislaufen auf dem zugefrorenen See",
+    "descripcion": "Eine Gruppe von Freunden geht im Winter Schlittschuhlaufen.",
+    "texto": "Letzten Samstag war es sehr kalt und der kleine See im Park war zugefroren. Paul hat seine Freunde angerufen, weil er zusammen Schlittschuhlaufen gehen wollte. Alle haben zugestimmt und sich am Nachmittag am See getroffen.\n\nAnna konnte gut Schlittschuhlaufen, aber Tim ist am Anfang oft hingefallen. Er hat gelacht und gesagt: „Das macht nichts, ich übe einfach weiter!“ Nach einer Stunde konnte er schon viel besser fahren. Die Freunde haben auch kleine Spiele auf dem Eis gespielt.\n\nAls die Sonne untergegangen ist, wurde es sehr kalt. Deshalb sind alle in ein Café gegangen und haben heißen Tee getrunken. Paul hat gesagt, dass er das nächste Wochenende wieder Eislaufen gehen möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Der See im Park war zugefroren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim konnte von Anfang an perfekt Schlittschuhlaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde haben auch Spiele auf dem Eis gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Eislaufen sind alle sofort nach Hause gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul möchte wieder Eislaufen gehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-impfung-beim-hausarzt",
+    "nivel": "A2",
+    "titulo": "Die Impfung beim Hausarzt",
+    "descripcion": "Eine Frau geht zum Hausarzt, um sich gegen die Grippe impfen zu lassen.",
+    "texto": "Frau Berger hat gestern einen Termin bei ihrem Hausarzt gehabt, weil sie sich gegen die Grippe impfen lassen wollte. Im Wartezimmer hat sie eine Zeitschrift gelesen und auf ihren Namen gewartet. Nach zwanzig Minuten hat die Arzthelferin sie ins Sprechzimmer gerufen.\n\nDer Arzt hat gefragt, ob sie gesund ist und keine Erkältung hat. Frau Berger hat gesagt, dass es ihr gut geht. Danach hat der Arzt die Impfung schnell gegeben. Es hat nur ein bisschen wehgetan.\n\nNach der Impfung musste Frau Berger noch fünfzehn Minuten im Wartezimmer sitzen, weil der Arzt das bei jedem Patienten so macht. Sie hat sich gut gefühlt und ist dann nach Hause gefahren. Der Arzt hat gesagt, dass sie jetzt bis zum Frühling geschützt ist.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger wollte sich gegen die Grippe impfen lassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie musste nicht warten und wurde sofort behandelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat vor der Impfung gefragt, ob sie gesund ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Impfung hat sehr lange gedauert und stark wehgetan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Impfung ist sie direkt nach Hause gefahren, ohne zu warten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kinderbetreuung-am-wochenende",
+    "nivel": "A2",
+    "titulo": "Die Kinderbetreuung am Wochenende",
+    "descripcion": "Die Großeltern passen am Wochenende auf ihre Enkelkinder auf.",
+    "texto": "Am Samstagmorgen haben Herr und Frau Keller ihre beiden Enkelkinder abgeholt, weil die Eltern arbeiten mussten. Die Kinder haben sich sehr gefreut, weil sie gern bei den Großeltern sind. Frau Keller hat Pfannkuchen gemacht und alle haben zusammen gefrühstückt.\n\nAm Nachmittag sind sie in den Park gegangen und haben dort Fußball gespielt. Der kleine Enkel ist einmal hingefallen, aber er hat sich nicht verletzt. Herr Keller hat ihm geholfen und sie haben weitergespielt.\n\nAm Abend haben die Eltern die Kinder wieder abgeholt. Die Enkelkinder haben erzählt, dass der Tag sehr schön war. Frau Keller hat gesagt, dass sie die Kinder bald wieder betreuen möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Eltern mussten am Samstag arbeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller hat Suppe zum Frühstück gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag haben sie im Park Fußball gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der kleine Enkel hat sich beim Hinfallen stark verletzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder fanden den Tag bei den Großeltern schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-faschingsumzug-in-koeln",
+    "nivel": "B1",
+    "titulo": "Der Faschingsumzug in Köln",
+    "descripcion": "Eine Studentin erlebt zum ersten Mal den berühmten Faschingsumzug in Köln.",
+    "texto": "Sophie studiert seit einem Jahr in Köln, obwohl sie ursprünglich aus einer kleinen Stadt im Norden kommt. Als der Rosenmontag näher kam, erzählten ihr die Kölner Freunde begeistert vom großen Faschingsumzug, den sie noch nie gesehen hatte. Deshalb beschloss sie, selbst ein Kostüm anzuziehen und mitzufeiern.\n\nAm Morgen des Umzugs war die Innenstadt bereits voller Menschen, obwohl es noch früh war. Nachdem die ersten Wagen vorbeigefahren waren, warfen die Leute auf den Wagen bunte Süßigkeiten und kleine Blumen in die Menge. Sophie fing begeistert mehrere Hände voll Süßigkeiten, während um sie herum Musik spielte und alle fröhlich sangen.\n\nTrotzdem war sie am Abend erschöpft, weil der Tag so lang und laut gewesen war. Sie schrieb ihrer Familie, dass sie den Kölner Karneval nun endlich verstehe: Es geht nicht nur um Kostüme, sondern um eine ganze Stadt, die gemeinsam feiert. Im nächsten Jahr will sie unbedingt wieder dabei sein.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie kommt ursprünglich aus Köln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hatte den Faschingsumzug vorher noch nie gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim Umzug wurden Süßigkeiten und Blumen in die Menge geworfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie fand den Tag langweilig und ist früh nach Hause gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie möchte im nächsten Jahr wieder beim Karneval dabei sein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "notenstress-vor-dem-abschluss",
+    "nivel": "B1",
+    "titulo": "Notenstress vor dem Abschluss",
+    "descripcion": "Ein Schüler kämpft kurz vor dem Abschluss mit dem Druck guter Noten.",
+    "texto": "Felix geht in die zwölfte Klasse und steht kurz vor seinem Abschluss. In den letzten Wochen hat er kaum noch geschlafen, weil er sich ständig Sorgen um seine Noten macht. Obwohl er eigentlich ein guter Schüler ist, hat ihn die Angst vor der letzten Mathearbeit fast krank gemacht.\n\nSeine beste Freundin Mia hat bemerkt, dass er immer gestresster wirkte, und hat ihn deshalb zu einem Spaziergang eingeladen. Nachdem sie eine Stunde über seine Sorgen gesprochen hatten, fühlte sich Felix schon etwas besser. Mia erklärte ihm, dass eine einzige Note nicht sein ganzes Leben bestimmt, auch wenn es sich im Moment so anfühlt.\n\nAm Tag der Prüfung war Felix zwar immer noch nervös, aber ruhiger als vorher. Er erinnerte sich an die Worte seiner Freundin und konzentrierte sich auf jede Aufgabe einzeln. Als er später erfuhr, dass er eine gute Note bekommen hatte, war er vor allem dankbar für Mias Unterstützung.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat vor der letzten Mathearbeit kaum geschlafen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia hat Felix' Stress nicht bemerkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia und Felix haben über seine Sorgen gesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Prüfungstag war Felix völlig entspannt und ohne Nervosität.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix war am Ende dankbar für Mias Unterstützung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "dorfleben-oder-stadtleben",
+    "nivel": "B1",
+    "titulo": "Dorfleben oder Stadtleben?",
+    "descripcion": "Eine junge Frau überlegt, ob sie aus ihrem Dorf in die Großstadt ziehen soll.",
+    "texto": "Julia ist in einem kleinen Dorf mit nur dreihundert Einwohnern aufgewachsen, obwohl sie schon lange von einem Leben in der Großstadt träumt. In ihrem Dorf kennt jeder jeden, und die Nachbarn helfen sich gegenseitig, wenn es nötig ist. Trotzdem fühlt sich Julia manchmal eingeengt, weil es dort wenig Kultur und kaum Jobmöglichkeiten gibt.\n\nAls ihr eine Firma in München ein Praktikum anbot, musste sie sich entscheiden. Nachdem sie lange mit ihren Eltern gesprochen hatte, beschloss sie, es zu wagen. Sie zog in eine kleine Wohnung in der Stadt, obwohl ihr am Anfang alles fremd und laut erschien.\n\nNach einigen Monaten hat sich Julia an das Stadtleben gewöhnt, vermisst aber trotzdem die Ruhe ihres Dorfes. Deshalb fährt sie jeden zweiten Monat zurück, um ihre Familie zu besuchen. Sie sagt, dass sie beide Welten braucht: die Energie der Stadt und die Geborgenheit des Dorfes.",
+    "preguntas": [
+      {
+        "enunciado": "Julias Dorf hat mehr als zehntausend Einwohner.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia fühlte sich im Dorf manchmal eingeengt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hat das Praktikumsangebot sofort und ohne Nachdenken abgelehnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Umzug vermisst Julia manchmal die Ruhe des Dorfes.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie besucht ihre Familie nie wieder.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-pisa-studie-und-das-deutsche-schulsystem",
+    "nivel": "B2",
+    "titulo": "Die PISA-Studie und das deutsche Schulsystem",
+    "descripcion": "Die PISA-Ergebnisse lösen eine Debatte über Reformen im deutschen Bildungssystem aus.",
+    "texto": "Als die neuesten Ergebnisse der PISA-Studie veröffentlicht wurden, war die Reaktion in der deutschen Öffentlichkeit deutlich: Die Lesekompetenz vieler Jugendlicher habe sich in den letzten Jahren erheblich verschlechtert. Bildungsexperten diskutieren seitdem intensiv darüber, welche Reformen notwendig wären, um diesem Trend entgegenzuwirken, wobei die Meinungen stark voneinander abweichen.\n\nEinige Pädagogen argumentieren, dass kleinere Klassen und eine bessere individuelle Förderung entscheidend wären, während andere behaupten, das eigentliche Problem liege in der sozialen Ungleichheit, die durch die Schule nicht ausgeglichen, sondern eher verstärkt werde. Wäre es möglich, beide Ansätze gleichzeitig zu verfolgen, könnte dies langfristig zu spürbaren Verbesserungen führen. Bisher wurden jedoch nur vereinzelt Pilotprojekte an einzelnen Schulen durchgeführt.\n\nKritiker werfen der Politik vor, zu langsam auf die Ergebnisse zu reagieren, obwohl das Thema seit Jahrzehnten bekannt ist. Zudem wird bemängelt, dass die Digitalisierung an vielen Schulen nur unzureichend umgesetzt worden sei, wodurch Schüler aus ärmeren Familien zusätzlich benachteiligt würden. Ob die angekündigten Reformen tatsächlich greifen werden, bleibt vorerst ungewiss, zumal strukturelle Veränderungen im Bildungssystem traditionell nur sehr langsam vorangehen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut der PISA-Studie hat sich die Lesekompetenz vieler Jugendlicher verschlechtert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bildungsexperten sind sich vollkommen einig über die richtige Lösung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Pädagogen sehen die soziale Ungleichheit als zentrales Problem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Digitalisierung wurde laut Kritikern an allen Schulen bereits perfekt umgesetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Strukturelle Veränderungen im Bildungssystem geschehen laut dem Text meist sehr langsam.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausbau-der-windkraft-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Der Ausbau der Windkraft in Deutschland",
+    "descripcion": "Der geplante Ausbau der Windkraft trifft auf Zustimmung und Widerstand zugleich.",
+    "texto": "Um die Klimaziele zu erreichen, soll die Windkraft in Deutschland in den kommenden Jahren deutlich ausgebaut werden. Befürworter argumentieren, dass ohne einen massiven Zubau an Windrädern die Energiewende kaum gelingen könne, da fossile Kraftwerke schrittweise abgeschaltet werden müssten. Gleichzeitig wird betont, dass Windenergie mittlerweile zu den günstigsten Stromquellen überhaupt zähle.\n\nIn vielen ländlichen Regionen stößt der geplante Ausbau jedoch auf erheblichen Widerstand. Anwohner beklagen, dass die Windräder das Landschaftsbild zerstören und durch die ständigen Geräusche ihre Lebensqualität beeinträchtigt werde. Außerdem wird kritisiert, dass bestimmte Vogelarten durch die Rotoren gefährdet seien, ein Argument, das von Umweltverbänden unterschiedlich bewertet wird.\n\nWürde man alle Einwände einzeln berücksichtigen, bliebe am Ende kaum ein geeigneter Standort übrig, so argumentieren Vertreter der Energiewirtschaft. Dennoch wird mittlerweile versucht, die betroffenen Gemeinden stärker in die Planung einzubeziehen und ihnen finanzielle Beteiligungen anzubieten. Ob dadurch die Akzeptanz tatsächlich steigt, wird sich erst in den nächsten Jahren zeigen, wenn die ersten neuen Windparks tatsächlich errichtet worden sind.",
+    "preguntas": [
+      {
+        "enunciado": "Windenergie gehört laut Text zu den teuersten Stromquellen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In ländlichen Regionen gibt es erheblichen Widerstand gegen den Ausbau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Umweltverbände bewerten die Gefährdung von Vögeln völlig identisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gemeinden sollen stärker in die Planung einbezogen werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es ist bereits sicher, dass die Akzeptanz dadurch sofort steigen wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "smartphone-sucht-bei-jugendlichen",
+    "nivel": "B2",
+    "titulo": "Smartphone-Sucht bei Jugendlichen",
+    "descripcion": "Experten warnen vor den Folgen übermäßiger Smartphone-Nutzung bei jungen Menschen.",
+    "texto": "Immer mehr Jugendliche verbringen nach Angaben von Studien mehrere Stunden täglich am Smartphone, was bei vielen Eltern und Pädagogen zunehmend Sorge auslöst. Psychologen weisen darauf hin, dass eine übermäßige Nutzung sozialer Medien nicht nur die Konzentrationsfähigkeit beeinträchtigen könne, sondern auch das Risiko für Angstzustände und depressive Verstimmungen erhöhe. Dennoch wird betont, dass nicht das Smartphone selbst das Problem sei, sondern vielmehr die Art seiner Nutzung.\n\nManche Schulen haben inzwischen reagiert und ein generelles Handyverbot während der Unterrichtszeit eingeführt, wodurch sich laut einigen Lehrkräften das soziale Miteinander in den Pausen deutlich verbessert habe. Kritiker dieser Maßnahme wenden jedoch ein, dass ein Verbot allein das eigentliche Problem nicht löse, da die Jugendlichen außerhalb der Schule ohnehin unbegrenzten Zugang zu ihren Geräten hätten. Wäre es also sinnvoller, Medienkompetenz von klein auf gezielt zu vermitteln, anstatt lediglich Verbote auszusprechen?\n\nEltern berichten zudem, dass Diskussionen über Bildschirmzeit zu Hause häufig zu Konflikten führten, zumal viele Jugendliche das Smartphone auch für schulische Zwecke benötigten. Einige Familien haben deshalb gemeinsame Regeln eingeführt, etwa feste Zeiten ohne Bildschirme am Esstisch. Ob solche Maßnahmen langfristig wirken, lässt sich bislang jedoch nur schwer wissenschaftlich belegen, weil die Forschung zu diesem noch relativ jungen Phänomen längst nicht abgeschlossen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Psychologen kann übermäßige Smartphone-Nutzung die Konzentrationsfähigkeit beeinträchtigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass das Smartphone selbst das einzige Problem ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Schulen haben ein Handyverbot während des Unterrichts eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker meinen, ein Verbot allein löse das Problem vollständig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Forschung zu diesem Thema ist laut Text bereits vollständig abgeschlossen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
