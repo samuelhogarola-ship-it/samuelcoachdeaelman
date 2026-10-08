@@ -41534,5 +41534,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-morgen-bei-familie-klein",
+    "nivel": "A1",
+    "titulo": "Der Morgen bei Familie Klein",
+    "descripcion": "Ein ganz normaler Morgen in der Familie Klein.",
+    "texto": "Die Familie Klein wohnt in einem kleinen Haus in Köln. Herr Klein steht um sechs Uhr auf. Frau Klein macht das Frühstück. Es gibt Brot, Käse und Marmelade.\n\nDie Kinder heißen Lisa und Tom. Lisa ist neun Jahre alt. Tom ist sieben Jahre alt. Sie trinken Milch und essen ein Ei. Lisa sagt: „Ich mag kein Ei.“ Die Mutter lacht und gibt ihr mehr Brot.\n\nUm acht Uhr gehen die Kinder zur Schule. Der Vater fährt mit dem Auto zur Arbeit. Die Mutter bleibt zu Hause und putzt die Wohnung. Am Abend isst die Familie zusammen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Klein wohnt in Köln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Klein steht um acht Uhr auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa ist neun Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa mag Eier sehr gern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater fährt mit dem Auto zur Arbeit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-wohnung-vorstellen",
+    "nivel": "A1",
+    "titulo": "Meine Wohnung",
+    "descripcion": "Mara beschreibt ihre neue Wohnung in einfachen Sätzen.",
+    "texto": "Ich heiße Mara und wohne in Berlin. Meine Wohnung ist klein, aber schön. Sie hat ein Wohnzimmer, eine Küche, ein Schlafzimmer und ein Bad.\n\nIm Wohnzimmer steht ein blaues Sofa. Auf dem Tisch liegen Bücher und eine Lampe. Die Küche ist gelb. Dort kocht meine Mutter oft Nudeln mit Tomatensoße.\n\nMein Schlafzimmer ist klein, aber gemütlich. Ich habe ein Bett, einen Schrank und viele Poster an der Wand. Ich mag meine Wohnung sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Mara wohnt in Berlin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wohnung hat drei Zimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Wohnzimmer steht ein blaues Sofa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Küche ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mara mag ihre Wohnung nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-freund-aus-spanien",
+    "nivel": "A1",
+    "titulo": "Mein Freund aus Spanien",
+    "descripcion": "Paul erzählt von seinem neuen Freund Diego.",
+    "texto": "Paul hat einen neuen Freund. Er heißt Diego und kommt aus Spanien. Diego ist 12 Jahre alt, so wie Paul. Er spricht Spanisch und ein bisschen Deutsch.\n\nDiego mag Fußball und Pizza. Er spielt jeden Tag im Park mit Paul. Am Wochenende essen sie zusammen Pizza bei Paul zu Hause. Diego sagt oft: „Das ist lecker!“\n\nPaul lernt jetzt Spanisch. Diego lernt Deutsch. Sie helfen sich gegenseitig. Die beiden Jungen sind sehr gute Freunde.",
+    "preguntas": [
+      {
+        "enunciado": "Diego kommt aus Spanien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Diego ist älter als Paul.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Diego mag Fußball und Pizza.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie essen nie zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul lernt jetzt Spanisch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-am-bodensee",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende am Bodensee",
+    "descripcion": "Jonas erzählt von einem Ausflug mit seiner Familie an den Bodensee.",
+    "texto": "Letztes Wochenende ist Jonas mit seiner Familie an den Bodensee gefahren. Sie sind früh aufgestanden, weil die Fahrt drei Stunden gedauert hat. Als sie ankamen, hat die Sonne geschienen und das Wasser war blau.\n\nAm Nachmittag sind sie mit einem kleinen Boot gefahren. Jonas hatte ein bisschen Angst, aber sein Vater hat ihm gezeigt, dass das Boot sicher ist. Danach haben sie ein Eis gegessen und sind am Ufer spazieren gegangen. Seine Schwester hat Muscheln gesammelt, obwohl es dort gar keine echten Muscheln gab.\n\nAm Abend haben sie in einem kleinen Restaurant gegessen. Jonas hat Fisch bestellt, weil er das noch nie probiert hatte. Es hat ihm sehr gut geschmeckt. Am Sonntag sind sie müde, aber glücklich nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist an den Bodensee gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fahrt hat nur eine Stunde gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hatte keine Angst vor dem Boot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schwester hat Muscheln gesammelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat am Abend Fisch gegessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-dem-ferienlager",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus dem Ferienlager",
+    "descripcion": "Sophie schreibt ihren Eltern einen Brief aus dem Ferienlager.",
+    "texto": "Liebe Mama, lieber Papa,\n\nich bin jetzt seit drei Tagen im Ferienlager. Am Anfang war ich ein bisschen traurig, weil ich euch vermisst habe. Jetzt geht es mir aber viel besser, weil ich schon neue Freunde gefunden habe.\n\nGestern haben wir eine Wanderung gemacht und sind an einem See gewesen. Wir haben dort gebadet, obwohl das Wasser ziemlich kalt war. Am Abend haben wir am Lagerfeuer gesessen und Lieder gesungen. Die Betreuerin hat gesagt, dass wir morgen einen Ausflug in die Stadt machen.\n\nIch hoffe, dass es euch gut geht. Ich freue mich schon, euch am Freitag wiederzusehen.\n\nViele Grüße,\nSophie",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist seit drei Tagen im Ferienlager.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie war von Anfang an sehr glücklich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wasser im See war warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben am Lagerfeuer Lieder gesungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie kommt am Montag nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-krankenhaus",
+    "nivel": "A2",
+    "titulo": "Der Besuch im Krankenhaus",
+    "descripcion": "Markus besucht seinen Opa im Krankenhaus.",
+    "texto": "Am Samstag ist Markus mit seiner Mutter ins Krankenhaus gefahren, weil sein Opa sich das Bein gebrochen hat. Opa ist vor einer Woche von der Leiter gefallen, als er die Fenster putzen wollte.\n\nIm Krankenhaus hat Markus seinen Opa in einem Zimmer mit drei Betten gefunden. Opa hat gelächelt, obwohl er Schmerzen hatte. Er hat erzählt, dass die Operation gut verlaufen ist und dass er in zwei Wochen wieder nach Hause darf.\n\nMarkus hat seinem Opa Blumen und ein Buch mitgebracht. Sie haben zusammen gelacht und über alte Geschichten gesprochen. Als es Zeit war zu gehen, hat Markus versprochen, dass er bald wiederkommt.",
+    "preguntas": [
+      {
+        "enunciado": "Opas Bein ist gebrochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa ist von der Leiter gefallen, weil er Obst pflücken wollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa hatte keine Schmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa darf schon morgen nach Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat Blumen und ein Buch mitgebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-praktikum-in-berlin",
+    "nivel": "B1",
+    "titulo": "Mein Praktikum in Berlin",
+    "descripcion": "Lea berichtet über ihr dreimonatiges Praktikum in einer Berliner Agentur.",
+    "texto": "Nachdem Lea ihr Abitur gemacht hatte, wollte sie praktische Erfahrungen sammeln, bevor sie mit dem Studium beginnt. Sie hat sich bei einer Werbeagentur in Berlin beworben und wurde für ein dreimonatiges Praktikum angenommen. Am Anfang war sie sehr nervös, obwohl sie sich gut vorbereitet hatte.\n\nIn den ersten Wochen musste Lea viele einfache Aufgaben erledigen, zum Beispiel Kaffee kochen oder Dokumente kopieren. Mit der Zeit bekam sie jedoch verantwortungsvollere Projekte, nachdem ihre Chefin gesehen hatte, wie motiviert sie war. Besonders gut gefiel ihr die Arbeit an einer Werbekampagne für ein kleines Café in Kreuzberg.\n\nTrotzdem war das Praktikum nicht immer einfach. Die Arbeitszeiten waren lang, und manchmal musste Lea auch am Wochenende arbeiten. Am Ende war sie aber sehr zufrieden, weil sie viel gelernt hatte und ihr die Agentur sogar einen Teilzeitjob neben dem Studium angeboten hat.",
+    "preguntas": [
+      {
+        "enunciado": "Lea hat ihr Praktikum vor dem Abitur gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Praktikum hat drei Monate gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea musste am Anfang nur anspruchsvolle Projekte übernehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea hat an einer Kampagne für ein Café gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Agentur hat ihr am Ende keinen Job angeboten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-buehnenprobe-im-theaterverein",
+    "nivel": "B1",
+    "titulo": "Die Bühnenprobe im Theaterverein",
+    "descripcion": "Felix berichtet von einer aufregenden Probe kurz vor der Theaterpremiere.",
+    "texto": "Felix spielt seit zwei Jahren in einem Theaterverein in seiner Stadt. Nachdem die Gruppe monatelang geprobt hatte, stand nun die letzte Probe vor der Premiere an. Alle waren nervös, obwohl sie das Stück schon fast perfekt kannten.\n\nWährend der Probe vergaß die Hauptdarstellerin plötzlich ihren Text. Trotzdem blieb sie ruhig und improvisierte so geschickt, dass niemand im Publikum den Fehler bemerkt hätte. Der Regisseur war beeindruckt und lobte die ganze Gruppe für ihre Professionalität.\n\nNach der Probe saßen alle zusammen und besprachen die letzten Details. Felix war erleichtert, nachdem er seine schwierigste Szene endlich fehlerfrei gespielt hatte. Am nächsten Abend sollte die Premiere stattfinden, und alle freuten sich darauf, obwohl sie auch ein bisschen Angst hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Felix spielt seit zwei Jahren im Theaterverein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe hat nur eine Woche geprobt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Hauptdarstellerin hat ihren Text vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Regisseur war unzufrieden mit der Gruppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Premiere war schon am selben Abend.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-musikfestival-am-fluss",
+    "nivel": "B1",
+    "titulo": "Das Musikfestival am Fluss",
+    "descripcion": "Nina erzählt von einem Wochenende auf einem Musikfestival.",
+    "texto": "Im August ist Nina mit ihren Freunden zu einem Musikfestival an einem Fluss gefahren. Sie hatten die Tickets schon Monate vorher gekauft, weil die Karten jedes Jahr sehr schnell ausverkauft sind. Obwohl das Wetter am ersten Tag regnerisch war, hatten alle gute Laune.\n\nAm zweiten Tag wurde es sonnig, und die Freunde verbrachten den Nachmittag am Fluss, bevor das Hauptkonzert begann. Nachdem die bekannteste Band der Welt die Bühne betreten hatte, sangen tausende Menschen gemeinsam die Lieder. Nina war so begeistert, dass sie beschloss, nächstes Jahr wiederzukommen.\n\nAm letzten Abend saßen sie noch lange am Lagerfeuer und erzählten sich Geschichten. Trotzdem mussten sie früh aufstehen, um ihr Zelt abzubauen und den Zug zurück nach Hause zu erreichen. Für Nina war es das beste Festival, das sie je besucht hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat die Tickets erst kurz vor dem Festival gekauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag hat es geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am zweiten Tag blieb das Wetter schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina möchte nächstes Jahr nicht wiederkommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend saßen sie am Lagerfeuer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "klimaschutz-und-individuelle-verantwortung",
+    "nivel": "B2",
+    "titulo": "Klimaschutz und individuelle Verantwortung",
+    "descripcion": "Ein Essay über die Frage, wie viel Verantwortung der Einzelne beim Klimaschutz trägt.",
+    "texto": "In der öffentlichen Debatte über den Klimawandel wird immer wieder die Frage gestellt, ob individuelles Verhalten – etwa der Verzicht auf Flugreisen oder Fleisch – tatsächlich einen relevanten Beitrag zum Klimaschutz leisten kann, oder ob strukturelle Veränderungen in Politik und Wirtschaft entscheidender wären. Kritiker individueller Lösungsansätze argumentieren, dass die eigentlichen Verursacher der Klimakrise große Konzerne und ein auf fossile Energien ausgerichtetes Wirtschaftssystem seien, weshalb der Fokus auf persönlichen Konsum von den eigentlichen Verantwortlichen ablenke.\n\nBefürworter individueller Verantwortung entgegnen, dass gesellschaftlicher Wandel selten ausschließlich von oben verordnet wird, sondern häufig erst durch ein verändertes Konsumverhalten der Bevölkerung politischen Druck erzeugt, der wiederum Gesetzesänderungen ermöglicht. Würde beispielsweise die Nachfrage nach Flugreisen drastisch sinken, müssten Fluggesellschaften und Regierungen entsprechend reagieren. Zudem wird argumentiert, dass individuelles Handeln eine moralische Vorbildfunktion habe, auch wenn der quantitative Effekt auf die globalen Emissionen gering erscheinen mag.\n\nLetztlich dürfte die Wahrheit zwischen beiden Positionen liegen: Ohne ambitionierte politische Rahmenbedingungen – etwa eine wirksame CO2-Steuer oder den beschleunigten Ausbau erneuerbarer Energien – wird der Klimawandel kaum in dem nötigen Tempo gebremst werden können. Gleichzeitig wäre es naiv anzunehmen, dass solche politischen Maßnahmen ohne gesellschaftliche Unterstützung durchsetzbar wären. Individuelles und strukturelles Handeln schließen sich also nicht aus, sondern bedingen sich gegenseitig.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text sind sich alle einig, dass nur individuelles Verhalten den Klimawandel stoppen kann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker meinen, dass der Fokus auf persönlichen Konsum von den eigentlichen Verantwortlichen ablenken könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter individueller Verantwortung glauben, dass verändertes Konsumverhalten politischen Druck erzeugen kann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass politische Maßnahmen allein ausreichen, ohne gesellschaftliche Unterstützung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text kommt zu dem Schluss, dass sich individuelles und strukturelles Handeln gegenseitig bedingen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-die-vermoegenssteuer",
+    "nivel": "B2",
+    "titulo": "Der Streit um die Vermögenssteuer",
+    "descripcion": "Eine Analyse der Debatte über die Wiedereinführung einer Vermögenssteuer in Deutschland.",
+    "texto": "Seit Jahren wird in Deutschland wiederholt diskutiert, ob eine Vermögenssteuer wieder eingeführt werden sollte, nachdem sie 1997 aus verfassungsrechtlichen Gründen ausgesetzt wurde. Befürworter argumentieren, dass die Vermögensungleichheit in Deutschland besonders ausgeprägt sei und eine solche Steuer dazu beitragen könnte, öffentliche Investitionen in Bildung, Infrastruktur und sozialen Wohnungsbau zu finanzieren, ohne dass dafür neue Schulden aufgenommen werden müssten.\n\nGegner der Vermögenssteuer befürchten hingegen, dass insbesondere mittelständische Unternehmen, deren Vermögen oft in Betriebskapital gebunden ist, unverhältnismäßig stark belastet würden. Sie verweisen darauf, dass Unternehmen gezwungen sein könnten, Kapital aus dem Betrieb abzuziehen, um die Steuer zu bezahlen, was wiederum Investitionen und Arbeitsplätze gefährden würde. Zudem wird kritisiert, dass die administrative Umsetzung – insbesondere die Bewertung von Immobilien und Unternehmensanteilen – äußerst aufwendig und streitanfällig wäre.\n\nEine mögliche Kompromisslösung, die in der politischen Diskussion immer wieder vorgeschlagen wird, wäre eine Vermögenssteuer mit hohen Freibeträgen, die ausschließlich sehr große Vermögen betreffen würde. Ob eine solche Reform tatsächlich umgesetzt wird, hängt letztlich von den politischen Mehrheitsverhältnissen ab, die sich je nach Wahlergebnis verändern können. Fest steht jedoch, dass die Debatte angesichts wachsender sozialer Ungleichheit kaum an Brisanz verlieren dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Vermögenssteuer wurde 1997 in Deutschland eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in der Vermögenssteuer eine Möglichkeit, öffentliche Investitionen zu finanzieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner befürchten, dass vor allem Großkonzerne finanziell überfordert wären.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die administrative Umsetzung der Steuer wird im Text als einfach beschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine mögliche Kompromisslösung wäre eine Vermögenssteuer mit hohen Freibeträgen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-und-arbeitsmarkt",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz und der Arbeitsmarkt",
+    "descripcion": "Ein Überblick über die Chancen und Risiken der künstlichen Intelligenz für die Zukunft der Arbeit.",
+    "texto": "Die rasante Entwicklung künstlicher Intelligenz hat in den letzten Jahren zu einer intensiven gesellschaftlichen Debatte darüber geführt, welche Auswirkungen diese Technologie auf den Arbeitsmarkt haben wird. Während manche Experten befürchten, dass zahlreiche Berufe, insbesondere solche mit repetitiven oder leicht standardisierbaren Aufgaben, mittelfristig überflüssig werden könnten, verweisen andere darauf, dass technologischer Wandel historisch gesehen stets auch neue Berufsfelder geschaffen hat.\n\nBesonders betroffen von der Automatisierung dürften Tätigkeiten im Kundenservice, in der Buchhaltung und in Teilen der Produktion sein, da hier bereits heute leistungsfähige KI-Systeme eingesetzt werden, die menschliche Arbeitskräfte zumindest teilweise ersetzen können. Gleichzeitig entstehen neue Arbeitsplätze in Bereichen wie der Entwicklung, Wartung und ethischen Kontrolle solcher Systeme, auch wenn diese Stellen in der Regel andere Qualifikationen erfordern als die wegfallenden Tätigkeiten.\n\nUm diesem Strukturwandel gerecht zu werden, fordern viele Bildungsexperten eine grundlegende Reform der beruflichen Weiterbildung, damit Arbeitnehmerinnen und Arbeitnehmer frühzeitig auf veränderte Anforderungen vorbereitet werden können. Sollte dies nicht gelingen, könnte sich die soziale Ungleichheit zwischen gut ausgebildeten Fachkräften und gering qualifizierten Arbeitskräften weiter verschärfen. Die Politik steht somit vor der Aufgabe, technologischen Fortschritt zu ermöglichen, ohne dabei große Teile der Bevölkerung abzuhängen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Experten sind sich einig, dass künstliche Intelligenz nur Arbeitsplätze vernichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tätigkeiten im Kundenservice gelten als besonders von Automatisierung betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass durch KI keine neuen Arbeitsplätze entstehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern eine Reform der beruflichen Weiterbildung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text besteht keine Gefahr einer wachsenden sozialen Ungleichheit.",
+        "respuesta": false
+      }
+    ]
   }
 ]
