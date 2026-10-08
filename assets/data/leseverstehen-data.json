@@ -40142,5 +40142,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "hallo-ich-heisse-lisa",
+    "nivel": "A1",
+    "titulo": "Hallo, ich heiße Lisa",
+    "descripcion": "Lisa stellt sich, ihre Familie und ihre Hobbys vor.",
+    "texto": "Hallo! Ich heiße Lisa. Ich bin vierzehn Jahre alt und komme aus Dresden. Ich habe eine Schwester und einen Bruder. Meine Schwester heißt Mia, und mein Bruder heißt Tim. Wir wohnen mit unseren Eltern in einem kleinen Haus.\n\nMein Lieblingsessen ist Pizza mit Käse. Ich trinke gern Apfelsaft. Jeden Morgen esse ich ein Brot mit Marmelade. In der Schule mag ich Englisch und Sport. Mathe ist für mich schwer.\n\nAm Nachmittag spiele ich oft Fußball mit Tim. Mia malt gern Bilder. Am Wochenende gehen wir manchmal ins Kino. „Welcher Film läuft heute?\", fragt Mia immer. Ich finde unsere Familie sehr lustig.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa kommt aus Dresden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa hat zwei Brüder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisas Lieblingsessen ist Pizza mit Käse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mathe ist für Lisa einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia malt gern Bilder.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einkaufen-fuer-das-picknick",
+    "nivel": "A1",
+    "titulo": "Einkaufen für das Picknick",
+    "descripcion": "Paul und Jana kaufen Lebensmittel für ein Picknick im Park.",
+    "texto": "Paul und Jana planen ein Picknick im Park. Sie gehen zusammen in den Supermarkt. Paul kauft Brot, Käse und Tomaten. Jana sucht Äpfel und Bananen. Sie brauchen auch Wasser und Saft.\n\nAn der Kasse bezahlt Jana. Die Einkäufe kosten zwölf Euro. „Haben wir alles?\", fragt Paul. Jana schaut in die Tasche und sagt: „Ja, wir haben Brot, Obst und Getränke.\" Sie packen alles in einen Rucksack.\n\nIm Park suchen sie einen schönen Platz unter einem Baum. Sie legen eine Decke auf das Gras und essen gemeinsam. Die Sonne scheint, und die Vögel singen. Nach dem Essen spielen sie noch ein bisschen Ball. Es ist ein schöner Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und Jana gehen in den Supermarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft nur Getränke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Einkäufe kosten zwölf Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie essen im Supermarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Essen spielen sie Ball.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-hobby-ist-malen",
+    "nivel": "A1",
+    "titulo": "Mein Hobby ist Malen",
+    "descripcion": "Sofie erzählt, warum sie gern malt und was sie malt.",
+    "texto": "Ich heiße Sofie und mein Hobby ist Malen. Jeden Tag male ich für eine Stunde. Ich male Blumen, Tiere und manchmal auch meine Familie. Meine Farben sind rot, gelb und blau.\n\nIn meinem Zimmer habe ich viele Bilder an der Wand. Mein Lieblingsbild zeigt einen gelben Hund. Meine Mutter sagt: „Das Bild ist sehr schön!\" Meine Oma hat mir die Farben zum Geburtstag geschenkt.\n\nAm Samstag male ich oft mit meiner Freundin Lena. Wir sitzen am Tisch und malen zusammen. Danach zeigen wir unsere Bilder den Eltern. Malen macht mich sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Sofies Hobby ist Malen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofie malt nur am Sonntag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofies Lieblingsbild zeigt einen gelben Hund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma hat Sofie die Farben geschenkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena malt nie mit Sofie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenendausflug-in-den-bergen",
+    "nivel": "A2",
+    "titulo": "Der Wochenendausflug in den Bergen",
+    "descripcion": "Tobias und seine Freunde haben am Wochenende eine Wanderung in den Alpen gemacht.",
+    "texto": "Letztes Wochenende ist Tobias mit zwei Freunden in die Berge gefahren. Sie haben früh am Samstag ihre Rucksäcke gepackt und sind mit dem Auto losgefahren. Die Fahrt hat fast drei Stunden gedauert, weil es auf der Autobahn einen Stau gab. Trotzdem waren alle gut gelaunt.\n\nAm Berg haben sie eine lange Wanderung gemacht. Der Weg war steil, und die Sonne hat stark geschienen. Nach zwei Stunden haben sie eine Pause gemacht und ihre Brote gegessen. „Die Aussicht ist wirklich fantastisch!\", hat Tobias gerufen, als sie oben angekommen sind. Von dort konnten sie das ganze Tal sehen.\n\nAm Abend haben sie in einer kleinen Hütte geschlafen. Es war kalt, aber sehr gemütlich. Am Sonntag sind sie langsam zurückgewandert und dann nach Hause gefahren. Tobias war müde, aber sehr zufrieden mit dem Ausflug.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias ist allein in die Berge gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Autofahrt hat fast drei Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wanderweg war flach und einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben in einer Hütte geschlafen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias war am Ende unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-termin-beim-hausarzt",
+    "nivel": "A2",
+    "titulo": "Der Termin beim Hausarzt",
+    "descripcion": "Katrin fühlt sich krank und geht deshalb zum Hausarzt.",
+    "texto": "Katrin hatte seit drei Tagen Kopfschmerzen und Husten. Weil es nicht besser wurde, hat sie einen Termin bei ihrem Hausarzt gemacht. Am Morgen ist sie mit dem Bus in die Praxis gefahren und hat im Wartezimmer gewartet.\n\nDer Arzt hat ihre Temperatur gemessen und ihr ein paar Fragen gestellt. „Haben Sie auch Halsschmerzen?\", hat er gefragt. Katrin hat geantwortet, dass ihr Hals auch ein bisschen weh tut. Der Arzt hat gesagt, dass sie wahrscheinlich eine leichte Grippe hat. Er hat ihr Medikamente aufgeschrieben und empfohlen, viel zu trinken und sich auszuruhen.\n\nNach dem Termin ist Katrin zur Apotheke gegangen und hat die Medikamente abgeholt. Sie ist dann direkt nach Hause gefahren und hat sich ins Bett gelegt. Am nächsten Tag hat sie sich schon viel besser gefühlt. Nach einer Woche war sie wieder ganz gesund.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin hatte Kopfschmerzen und Husten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin ist zu Fuß in die Praxis gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat eine leichte Grippe diagnostiziert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin hat die Medikamente im Krankenhaus abgeholt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einer Woche war Katrin wieder gesund.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-nachbarin-aus-spanien",
+    "nivel": "A2",
+    "titulo": "Die neue Nachbarin aus Spanien",
+    "descripcion": "Eine neue Nachbarin aus Spanien zieht in das Haus von Herrn Weber.",
+    "texto": "Letzten Monat ist eine neue Nachbarin in das Haus gegenüber eingezogen. Sie heißt Carmen und kommt aus Spanien. Herr Weber hat ihr beim Tragen der Kisten geholfen, weil der Umzug sehr anstrengend war. Carmen hat sich sehr gefreut und ihn zu einem Kaffee eingeladen.\n\nBeim Kaffee haben sie viel erzählt. Carmen hat gesagt, dass sie wegen eines neuen Jobs nach Deutschland gekommen ist. Sie arbeitet jetzt als Ingenieurin in einer Firma in der Stadt. Herr Weber hat ihr erklärt, wo der nächste Supermarkt und die Post sind. Carmen fand das sehr hilfreich, weil sie die Stadt noch nicht gut kennt.\n\nSeitdem treffen sich die beiden manchmal im Garten. Carmen bringt oft spanisches Gebäck mit, und Herr Weber zeigt ihr deutsche Rezepte. Die ganze Straße findet die neue Nachbarin sehr freundlich.",
+    "preguntas": [
+      {
+        "enunciado": "Carmen kommt aus Spanien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carmen ist wegen der Familie nach Deutschland gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carmen arbeitet als Ingenieurin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber hat ihr nicht geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carmen bringt manchmal spanisches Gebäck mit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-an-die-nordsee",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt an die Nordsee",
+    "descripcion": "Eine Schulklasse verbringt drei Tage an der Nordsee, obwohl das Wetter nicht mitspielt.",
+    "texto": "Die zehnte Klasse des Gymnasiums ist für drei Tage an die Nordsee gefahren. Obwohl die Wettervorhersage schlecht war, hatten sich alle Schüler sehr auf die Fahrt gefreut. Schon im Bus war die Stimmung ausgelassen, und die Lehrerin musste mehrmals um Ruhe bitten.\n\nAm ersten Tag regnete es stark, sodass die Gruppe stattdessen ein Museum über die Geschichte der Küste besuchte. Nachdem der Regen am zweiten Tag aufgehört hatte, konnten die Schüler endlich am Strand spazieren gehen und Wattwürmer suchen. Einige wagten sich sogar ins kalte Wasser, obwohl die Temperatur kaum über fünfzehn Grad lag. Am Abend saßen alle zusammen in der Jugendherberge und spielten Karten.\n\nAm letzten Tag gab es eine Wattwanderung mit einem erfahrenen Führer. Er erklärte den Schülern, welche Tiere im Watt leben und warum dieses Ökosystem so wichtig ist. Trotzdem war vielen die Fahrt zu kurz, und sie wollten eigentlich noch bleiben. Auf der Heimfahrt waren die meisten Schüler müde, aber sehr zufrieden mit der Klassenfahrt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klassenfahrt dauerte drei Tage.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am ersten Tag war das Wetter sonnig und warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am zweiten Tag gingen die Schüler an den Strand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wattwanderung fand ohne Führer statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler waren auf der Heimfahrt zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-freundschaft-ueber-die-jahre",
+    "nivel": "B1",
+    "titulo": "Eine Freundschaft über die Jahre",
+    "descripcion": "Nina und Paula sind seit der Grundschule befreundet, obwohl sie heute in verschiedenen Städten leben.",
+    "texto": "Nina und Paula kennen sich schon seit der ersten Klasse. Obwohl die beiden sehr unterschiedliche Charaktere haben, verstehen sie sich seit über zwanzig Jahren ausgezeichnet. Nina ist ruhig und organisiert, während Paula spontan und abenteuerlustig ist. Trotzdem ergänzen sich die beiden Freundinnen sehr gut.\n\nNachdem Paula für ihr Studium nach München gezogen war, blieb der Kontakt trotz der Entfernung eng. Sie schrieben sich jede Woche lange Nachrichten und riefen sich am Wochenende an. Als Nina schwierige Zeiten im Beruf durchmachte, war Paula sofort für sie da, obwohl sie selbst viel zu tun hatte. Diese Unterstützung hat die Freundschaft noch gestärkt.\n\nHeute wohnen beide in unterschiedlichen Bundesländern, treffen sich aber mindestens zweimal im Jahr. Bei diesen Besuchen erinnern sie sich oft an gemeinsame Erlebnisse aus der Kindheit. Nina sagt, dass eine echte Freundschaft Zeit und Entfernung überwinden kann. Paula stimmt ihr zu und freut sich schon auf das nächste Treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Nina und Paula kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula ist für ihr Studium nach München gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kontakt zwischen den Freundinnen brach nach dem Umzug ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula hat Nina in schwierigen Zeiten unterstützt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden treffen sich heute nie mehr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-jazzfestival-in-der-stadt",
+    "nivel": "B1",
+    "titulo": "Das Jazzfestival in der Stadt",
+    "descripcion": "Ein jährliches Jazzfestival zieht Musiker und Besucher aus ganz Europa in die Stadt.",
+    "texto": "Jedes Jahr im Sommer findet in der Stadt ein großes Jazzfestival statt, das Musiker aus ganz Europa anzieht. Nachdem das Festival vor zehn Jahren klein begonnen hatte, ist es inzwischen zu einem der wichtigsten Kulturereignisse der Region geworden. Auf mehreren Bühnen in der Innenstadt treten Bands aus verschiedenen Ländern auf, und der Eintritt ist für viele Konzerte kostenlos.\n\nDieses Jahr war besonders viel los, obwohl es an einem Abend heftig regnete. Die Organisatoren mussten das Konzert auf der Hauptbühne kurzfristig in eine Halle verlegen. Trotzdem kamen fast alle Besucher, und die Stimmung war genauso gut wie draußen. Viele Fans sagten später, dass der Regen die Erinnerung an das Festival nur noch besonderer gemacht habe.\n\nNeben der Musik gibt es auf dem Festival auch Stände mit Essen aus aller Welt und einen Markt mit Schallplatten. Für viele Einwohner ist das Festival mittlerweile ein fester Termin im Kalender. Nachdem die letzten Töne verklungen waren, freuten sich schon alle auf das nächste Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Das Jazzfestival findet jedes Jahr im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Festival zieht Musiker aus ganz Europa an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des Regens musste ein Konzert in eine Halle verlegt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Besucher blieben wegen des Regens zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem Festival gibt es auch Essen und einen Schallplattenmarkt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-mangel-an-bezahlbarem-wohnraum",
+    "nivel": "B2",
+    "titulo": "Der Mangel an bezahlbarem Wohnraum",
+    "descripcion": "Eine Analyse der Ursachen und möglichen Lösungen der Wohnungsknappheit in deutschen Städten.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich der Mangel an bezahlbarem Wohnraum in den letzten Jahren zu einem der dringendsten gesellschaftlichen Probleme entwickelt. Während die Mieten in Metropolen wie München, Hamburg und Frankfurt stetig steigen, stagnieren die Einkommen vieler Haushalte. Besonders betroffen sind junge Familien und Studierende, die kaum eine Wohnung finden, die ihrem Budget entspricht. Würde der Staat nicht eingreifen, befürchten Experten eine weitere Verschärfung der Situation.\n\nAls Hauptursachen werden von Fachleuten mehrere Faktoren genannt: eine zu geringe Bautätigkeit, gestiegene Baukosten sowie eine starke Zuwanderung in die urbanen Zentren. Hinzu kommt, dass viele Wohnungen von privaten Investoren aufgekauft und anschließend zu deutlich höheren Preisen vermietet werden. Kritiker bemängeln, dass die bisherigen politischen Maßnahmen, etwa die Mietpreisbremse, nicht ausreichend durchgesetzt worden seien, um den Anstieg der Mieten wirksam zu begrenzen.\n\nAls mögliche Lösungsansätze werden der verstärkte Bau von Sozialwohnungen, eine Reform des Mietrechts sowie steuerliche Anreize für den Wohnungsbau diskutiert. Manche Städte haben bereits begonnen, kommunale Wohnungsbaugesellschaften zu stärken, um dem freien Markt entgegenzuwirken. Ob diese Maßnahmen ausreichen werden, um die Wohnungsnot langfristig zu lindern, bleibt jedoch umstritten. Fest steht, dass ohne ein koordiniertes Handeln von Politik, Wirtschaft und Gesellschaft keine nachhaltige Verbesserung zu erwarten ist.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sinken seit Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Besonders junge Familien und Studierende sind vom Wohnungsmangel betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine zu geringe Bautätigkeit gilt als eine der Hauptursachen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mietpreisbremse wurde laut Kritikern konsequent durchgesetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Städte stärken kommunale Wohnungsbaugesellschaften.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-der-verwaltung-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Digitalisierung der Verwaltung in Deutschland",
+    "descripcion": "Warum die Digitalisierung der öffentlichen Verwaltung in Deutschland nur langsam voranschreitet.",
+    "texto": "Im internationalen Vergleich gilt die deutsche Verwaltung als besonders zögerlich, wenn es um die Digitalisierung ihrer Dienstleistungen geht. Während in anderen europäischen Ländern längst zahlreiche Behördengänge vollständig online erledigt werden können, müssen Bürgerinnen und Bürger in Deutschland für viele Anträge nach wie vor persönlich erscheinen. Dieser Zustand wird von Wirtschaft und Zivilgesellschaft zunehmend kritisiert, da er als Hemmnis für Effizienz und Innovation betrachtet wird.\n\nAls Gründe für diese Verzögerung werden unter anderem die föderale Struktur Deutschlands sowie unzureichende Investitionen in die technische Infrastruktur genannt. Jede Kommune und jedes Bundesland verwaltet eigene Systeme, wodurch eine einheitliche digitale Lösung erheblich erschwert wird. Zudem fehlt es vielerorts an ausreichend qualifiziertem Personal, das die Umstellung auf digitale Prozesse begleiten könnte. Wäre die Zusammenarbeit zwischen Bund, Ländern und Kommunen enger koordiniert, ließe sich der Fortschritt vermutlich erheblich beschleunigen.\n\nUm diesem Rückstand zu begegnen, wurde das sogenannte Onlinezugangsgesetz verabschiedet, das Behörden zur Digitalisierung ihrer Leistungen verpflichtet. Dennoch wird die Umsetzung von vielen Beobachtern als zu langsam und zu bürokratisch beschrieben. Bürger, die bereits digitale Verwaltungen aus dem Ausland kennen, äußern häufig Unverständnis über den schleppenden Fortschritt. Ob es gelingt, die gesetzten Ziele in absehbarer Zeit zu erreichen, wird von Experten weiterhin skeptisch beurteilt.",
+    "preguntas": [
+      {
+        "enunciado": "Deutschland gilt im internationalen Vergleich als Vorreiter der Verwaltungsdigitalisierung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die föderale Struktur Deutschlands erschwert eine einheitliche digitale Lösung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt in Deutschland überall genügend qualifiziertes Personal für die Digitalisierung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Onlinezugangsgesetz verpflichtet Behörden zur Digitalisierung ihrer Leistungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten beurteilen die Umsetzung der Digitalisierung überwiegend optimistisch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-als-modell-der-zukunft",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche als Modell der Zukunft",
+    "descripcion": "Immer mehr Unternehmen experimentieren mit der Vier-Tage-Woche – mit unterschiedlichen Ergebnissen.",
+    "texto": "Die Vier-Tage-Woche wird derzeit in zahlreichen Ländern als mögliches Arbeitsmodell der Zukunft diskutiert. Befürworter argumentieren, dass eine verkürzte Arbeitszeit bei gleichem Lohn die Produktivität steigern und gleichzeitig die psychische Gesundheit der Beschäftigten verbessern könne. Mehrere Pilotprojekte, insbesondere in Großbritannien und Island, hätten gezeigt, dass Arbeitnehmer bei weniger Arbeitstagen nicht weniger, sondern teilweise sogar effizienter arbeiteten.\n\nKritiker hingegen bezweifeln, dass sich dieses Modell auf alle Branchen übertragen lässt. In Bereichen wie der Pflege, dem Handwerk oder der Gastronomie, in denen physische Präsenz unerlässlich ist, wäre eine Verkürzung der Arbeitszeit ohne zusätzliches Personal kaum realisierbar. Zudem wird befürchtet, dass kleinere Unternehmen, die über geringere finanzielle Reserven verfügen, die Mehrkosten für zusätzliche Mitarbeiter nicht stemmen könnten. Würde die Vier-Tage-Woche flächendeckend eingeführt, müssten demnach viele Betriebe grundlegend umstrukturiert werden.\n\nDennoch zeigen Umfragen, dass sich ein Großteil der Arbeitnehmer eine Reduzierung der Arbeitszeit wünscht, selbst wenn dies gewisse organisatorische Herausforderungen mit sich bringt. Einige deutsche Unternehmen haben bereits begonnen, eigene Pilotprojekte durchzuführen, um herauszufinden, ob sich das Modell auch hierzulande bewähren würde. Ob die Vier-Tage-Woche langfristig zum Standard wird, lässt sich derzeit noch nicht abschließend beurteilen. Klar ist jedoch, dass die Debatte über die Zukunft der Arbeit durch dieses Thema maßgeblich geprägt wird.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Vier-Tage-Woche sehen keine Vorteile für die Gesundheit der Beschäftigten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pilotprojekte in Großbritannien und Island zeigten teilweise höhere Effizienz bei weniger Arbeitstagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker halten das Modell für alle Branchen, einschließlich der Pflege, problemlos umsetzbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kleinere Unternehmen könnten laut Kritikern Schwierigkeiten mit den Mehrkosten haben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Umfragen wünscht sich kaum ein Arbeitnehmer eine Verkürzung der Arbeitszeit.",
+        "respuesta": false
+      }
+    ]
   }
 ]
