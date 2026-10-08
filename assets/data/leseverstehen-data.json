@@ -41186,5 +41186,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-woche-im-fitnessstudio",
+    "nivel": "A1",
+    "titulo": "Meine Woche im Fitnessstudio",
+    "descripcion": "Lukas erzählt von seinem Sport-Plan für die Woche.",
+    "texto": "Lukas geht gern ins Fitnessstudio. Er trainiert dreimal in der Woche. Am Montag macht er Krafttraining. Am Mittwoch läuft er zwanzig Minuten auf dem Laufband. Am Freitag macht er Yoga mit seiner Freundin Nina.\n\nNach dem Training trinkt Lukas immer viel Wasser. Er isst auch gesund. Er mag Äpfel, Bananen und Joghurt. Sein Trainer heißt Peter. Peter ist sehr freundlich und hilft Lukas bei den Übungen.\n\nAm Wochenende macht Lukas keine Pause. Er geht spazieren oder fährt Fahrrad im Park. Lukas sagt: „Sport macht mich glücklich.\" Seine Familie findet das toll.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas trainiert dreimal in der Woche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Montag macht Lukas Yoga.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas isst nach dem Training nichts.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Peter ist Lukas' Trainer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Wochenende sitzt Lukas nur zu Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "tims-neues-fahrrad",
+    "nivel": "A1",
+    "titulo": "Tims neues Fahrrad",
+    "descripcion": "Tim bekommt zum Geburtstag ein neues Fahrrad.",
+    "texto": "Tim hat heute Geburtstag. Er ist zehn Jahre alt. Seine Eltern schenken ihm ein neues Fahrrad. Das Fahrrad ist blau und rot. Tim freut sich sehr.\n\nNach dem Frühstück fährt Tim mit seinem Vater in den Park. Der Park ist groß und grün. Tim fährt schnell und lacht viel. Sein Vater ruft: „Pass auf die Bäume auf!\" Tim bremst und fährt langsamer.\n\nAm Abend feiert Tim mit seiner Familie. Es gibt einen Schokoladenkuchen. Tims Schwester Lea singt ein Geburtstagslied. Tim ist sehr müde, aber auch sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Tim wird heute zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim bekommt ein grünes Fahrrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim fährt mit seiner Mutter in den Park.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend gibt es einen Schokoladenkuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea ist Tims Schwester.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "samstag-auf-dem-spielplatz",
+    "nivel": "A1",
+    "titulo": "Samstag auf dem Spielplatz",
+    "descripcion": "Mia und ihr kleiner Bruder spielen am Samstag draußen.",
+    "texto": "Heute ist Samstag. Mia geht mit ihrem kleinen Bruder Jonas auf den Spielplatz. Die Sonne scheint, und der Himmel ist blau. Jonas ist fünf Jahre alt und liebt die Schaukel.\n\nMia spielt mit anderen Kindern Fußball. Jonas schaukelt hoch und ruft: „Schau mal, Mia!\" Später bauen beide zusammen eine Sandburg. Die Sandburg ist sehr groß und hat einen Turm.\n\nUm zwölf Uhr holt ihre Mutter sie ab. Sie essen zusammen ein Eis. Mia nimmt Erdbeereis, und Jonas nimmt Schokoladeneis. Beide sind müde, aber sehr zufrieden.",
+    "preguntas": [
+      {
+        "enunciado": "Mia geht mit ihrer Schwester auf den Spielplatz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas liebt die Schaukel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia spielt mit anderen Kindern Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Sandburg hat keinen Turm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas nimmt Schokoladeneis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-meine-schwester",
+    "nivel": "A2",
+    "titulo": "Ein Brief an meine Schwester",
+    "descripcion": "Clara schreibt ihrer Schwester einen Brief über ihr neues Leben in München.",
+    "texto": "Liebe Johanna,\n\nich hoffe, es geht dir gut! Ich bin jetzt seit drei Monaten in München, und ich habe schon viel erlebt. Zuerst war es schwer, weil ich niemanden kannte. Ich habe mich oft einsam gefühlt, aber das hat sich zum Glück geändert. Letzte Woche habe ich eine neue Freundin kennengelernt. Sie heißt Petra und wohnt im selben Haus wie ich.\n\nAm Wochenende sind Petra und ich in den Englischen Garten gegangen. Wir haben ein Picknick gemacht und sind mit dem Fahrrad gefahren. Es hat so viel Spaß gemacht, dass wir das jetzt jede Woche machen wollen. Ich habe auch meinen neuen Job in einem Café begonnen. Die Arbeit ist anstrengend, aber die Kollegen sind sehr nett.\n\nIch vermisse dich und unsere Familie sehr. Wenn du Zeit hast, komm doch bitte im Sommer zu Besuch! Ich würde dir gerne die Stadt zeigen.\n\nViele liebe Grüße,\nClara",
+    "preguntas": [
+      {
+        "enunciado": "Clara ist seit drei Monaten in München.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara hat sich am Anfang nicht einsam gefühlt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Petra wohnt im selben Haus wie Clara.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara arbeitet in einer Bibliothek.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara lädt Johanna für den Sommer ein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-erster-besuch-beim-hausarzt",
+    "nivel": "A2",
+    "titulo": "Mein erster Besuch beim Hausarzt",
+    "descripcion": "Daniel geht zum ersten Mal zu einem neuen Hausarzt in seiner Stadt.",
+    "texto": "Letzte Woche ist Daniel in eine neue Stadt gezogen, weil er dort eine bessere Arbeitsstelle gefunden hat. Da er sich seit ein paar Tagen krank fühlte, hat er einen Termin bei einem Hausarzt gemacht. Er hatte Kopfschmerzen und war sehr müde.\n\nDie Praxis war klein, aber sehr sauber. Die Ärztin, Frau Dr. Berger, hat ihn freundlich begrüßt. Sie hat seinen Blutdruck gemessen und ihm viele Fragen gestellt. Daniel hat erzählt, dass er in den letzten Wochen viel Stress hatte. Die Ärztin hat gesagt, dass er sich mehr ausruhen soll.\n\nAm Ende hat Frau Dr. Berger ihm eine Tablette gegen die Kopfschmerzen gegeben. Sie hat auch gesagt, dass er wiederkommen soll, wenn es ihm nicht besser geht. Daniel war erleichtert, dass es nichts Schlimmes war. Er hat sich sofort besser gefühlt, als er aus der Praxis kam.",
+    "preguntas": [
+      {
+        "enunciado": "Daniel ist wegen der Arbeit umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel hatte Bauchschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Praxis von Frau Dr. Berger war groß und schmutzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin empfiehlt Daniel, sich mehr auszuruhen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel bekommt eine Tablette gegen die Kopfschmerzen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-laute-nachbar-im-dritten-stock",
+    "nivel": "A2",
+    "titulo": "Der laute Nachbar im dritten Stock",
+    "descripcion": "Frau Keller beschwert sich über ihren neuen Nachbarn, der laute Musik hört.",
+    "texto": "Frau Keller wohnt seit zehn Jahren in ihrer Wohnung im zweiten Stock. Vor einem Monat ist ein neuer Mieter in die Wohnung über ihr gezogen. Er heißt Markus und ist Musikstudent. Seitdem hat Frau Keller oft Probleme, weil Markus abends sehr laut Musik spielt.\n\nAm Dienstag konnte Frau Keller nicht schlafen, weil Markus bis Mitternacht Gitarre gespielt hat. Sie war so wütend, dass sie am nächsten Morgen an seine Tür geklopft hat. „Es tut mir sehr leid\", hat Markus gesagt. „Ich wusste nicht, dass man die Musik so gut hört.\" Er hat versprochen, ab sofort Kopfhörer zu benutzen.\n\nSeit diesem Gespräch ist es viel ruhiger im Haus. Frau Keller und Markus grüßen sich jetzt freundlich im Treppenhaus. Manchmal trinken sie sogar zusammen einen Kaffee. Frau Keller findet, dass ein kurzes Gespräch oft mehr hilft als eine Beschwerde beim Hausmeister.",
+    "preguntas": [
+      {
+        "enunciado": "Markus wohnt unter Frau Keller.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus ist Musikstudent.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller konnte am Dienstag nicht schlafen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus wollte sich nicht ändern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Keller und Markus trinken manchmal zusammen Kaffee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-theaterbesuch-mit-freunden",
+    "nivel": "B1",
+    "titulo": "Ein Theaterbesuch mit Freunden",
+    "descripcion": "Eine Gruppe von Freunden besucht gemeinsam ein Theaterstück in Hamburg.",
+    "texto": "Obwohl Sven eigentlich kein großer Theaterfan ist, hat er sich überreden lassen, mit seinen Freunden Julia und Ben eine Vorstellung im Hamburger Schauspielhaus zu besuchen. Das Stück, eine moderne Version von Goethes „Faust\", wurde seit Wochen in der Zeitung besprochen, und viele Kritiker waren begeistert. Nachdem sie die Karten online gekauft hatten, trafen sie sich eine Stunde vor Beginn in einem Café in der Nähe des Theaters.\n\nAls die Vorstellung begann, war Sven zunächst skeptisch, da er mit einer langweiligen, altmodischen Aufführung gerechnet hatte. Trotzdem wurde er schon nach wenigen Minuten von der ungewöhnlichen Inszenierung gefesselt. Die Schauspieler trugen moderne Kostüme, und die Bühne wurde mit Videoprojektionen beleuchtet, was eine völlig neue Atmosphäre schuf. Julia, die das Stück schon in der Schule gelesen hatte, war überrascht, wie aktuell die alten Themen wirkten.\n\nNach der Vorstellung diskutierten die drei Freunde noch lange über die Bedeutung des Stücks. Ben meinte, dass Theater heute viel mutiger sein müsse, um junge Menschen anzusprechen. Sven musste zugeben, dass er den Abend sehr genossen hatte, obwohl er zuvor wenig Interesse gezeigt hatte. Am Ende versprachen sie sich, bald wieder gemeinsam ins Theater zu gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Sven war von Anfang an ein großer Theaterfan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde haben eine moderne Version von Goethes „Faust\" gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bühne wurde mit Videoprojektionen beleuchtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia kannte das Stück vorher nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sven bereut es, dass er mitgegangen ist.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-erster-tag-im-neuen-job",
+    "nivel": "B1",
+    "titulo": "Mein erster Tag im neuen Job",
+    "descripcion": "Fabian berichtet von seinem aufregenden ersten Arbeitstag in einem Ingenieurbüro.",
+    "texto": "Nachdem Fabian monatelang Bewerbungen geschrieben hatte, bekam er endlich eine Zusage von einem Ingenieurbüro in Stuttgart. Am ersten Arbeitstag war er so nervös, dass er schon um sechs Uhr morgens aufgewacht ist, obwohl die Arbeit erst um neun Uhr begann. Er zog seinen besten Anzug an und machte sich viel zu früh auf den Weg ins Büro.\n\nAls er ankam, wurde er von seiner neuen Chefin, Frau Vogel, sehr herzlich begrüßt. Sie stellte ihm das Team vor und zeigte ihm seinen Arbeitsplatz, der direkt am Fenster lag. Obwohl die vielen neuen Namen und Gesichter am Anfang verwirrend waren, fühlte sich Fabian schnell willkommen. Seine Kollegen erklärten ihm geduldig die wichtigsten Projekte und luden ihn zum gemeinsamen Mittagessen ein.\n\nAm Nachmittag musste Fabian seine erste kleine Aufgabe erledigen: die Analyse eines technischen Berichts. Obwohl die Aufgabe nicht besonders schwierig war, machte ihn die Verantwortung zunächst unsicher. Trotzdem schaffte er es, den Bericht fristgerecht abzugeben, und seine Chefin lobte seine sorgfältige Arbeit. Am Abend war Fabian erschöpft, aber auch sehr zufrieden mit seinem ersten Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Fabian arbeitet jetzt in einem Ingenieurbüro in München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fabian war am Morgen sehr nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Vogel ist Fabians neue Chefin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kollegen haben Fabian ignoriert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fabian gibt den Bericht nicht rechtzeitig ab.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-nach-wien",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Wien",
+    "descripcion": "Eine Schulklasse aus Köln verbringt eine ereignisreiche Woche in Wien.",
+    "texto": "Nachdem die Klasse 10b monatelang auf diesen Moment gewartet hatte, fuhr sie endlich für eine Woche nach Wien. Die Schüler waren alle sehr aufgeregt, obwohl einige von ihnen auch ein wenig Angst vor der langen Busfahrt hatten. Ihr Lehrer, Herr Krämer, hatte ein straffes Programm geplant, das Museumsbesuche, eine Stadtführung und sogar einen Ausflug in den Prater umfasste.\n\nAm zweiten Tag besuchten sie das Schloss Schönbrunn, das die Schüler mit seinen riesigen Gärten beeindruckte. Lena, eine der Schülerinnen, erzählte begeistert, dass sie noch nie ein so prunkvolles Gebäude gesehen hatte. Nachdem sie durch die Gärten spaziert waren, hatten alle etwas Zeit zur freien Verfügung, die die meisten nutzten, um Souvenirs zu kaufen.\n\nDer Höhepunkt der Reise war jedoch der Besuch im Prater, wo die Schüler mit dem berühmten Riesenrad fuhren. Obwohl manche Schüler Höhenangst hatten, wagten sie sich trotzdem in die Gondel. Am letzten Abend saßen alle zusammen in einem Gasthaus und sprachen über ihre Lieblingsmomente der Reise. Viele waren sich einig, dass diese Klassenfahrt eine der schönsten Erfahrungen ihrer Schulzeit gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 10b ist nach Wien gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Krämer hatte kein Programm geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler haben das Schloss Schönbrunn besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand wollte mit dem Riesenrad fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend waren alle zusammen in einem Gasthaus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wird-die-bildung-gerecht-reformiert",
+    "nivel": "B2",
+    "titulo": "Wird die Bildung gerecht reformiert?",
+    "descripcion": "Eine kritische Betrachtung der aktuellen Debatte um Bildungsreformen in Deutschland.",
+    "texto": "Seit Jahren wird in Deutschland über eine umfassende Reform des Bildungssystems diskutiert, ohne dass bislang entscheidende Fortschritte erzielt worden wären. Kritiker bemängeln, dass die Chancengleichheit zwischen Kindern aus unterschiedlichen sozialen Schichten noch immer nicht gewährleistet sei. Studien zeigen immer wieder, dass der Bildungserfolg eines Kindes in Deutschland stärker als in vielen anderen Ländern von der sozialen Herkunft der Eltern abhängt. Wäre das Schulsystem tatsächlich gerecht, so argumentieren Bildungsforscher, müsste der familiäre Hintergrund eine weitaus geringere Rolle spielen.\n\nEin zentraler Streitpunkt ist das föderale System, in dem jedes Bundesland eigene Bildungsstandards festlegt. Befürworter dieser Struktur betonen, dass regionale Unterschiede dadurch besser berücksichtigt werden könnten. Gegner hingegen weisen darauf hin, dass dadurch eine bundesweite Vergleichbarkeit der Abschlüsse erschwert werde. Würde man ein einheitliches, bundesweites Curriculum einführen, könnten Schüler leichter zwischen Bundesländern wechseln, ohne benachteiligt zu werden. Allerdings müsste dafür die traditionelle Bildungshoheit der Länder eingeschränkt werden, was politisch kaum durchsetzbar erscheint.\n\nAuch die Digitalisierung der Schulen wird seit der Pandemie intensiver diskutiert. Obwohl erhebliche Summen in die technische Ausstattung investiert wurden, klagen viele Lehrkräfte weiterhin über fehlende Fortbildungen und unzureichende Unterstützung bei der Umsetzung digitaler Konzepte. Es bleibt daher fraglich, ob die bisherigen Maßnahmen ausreichen werden, um das Bildungssystem tatsächlich gerechter und zukunftsfähiger zu gestalten. Eine echte Reform würde wohl nicht nur finanzielle Mittel, sondern auch den politischen Willen voraussetzen, strukturelle Ungleichheiten konsequent anzugehen.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland hängt der Bildungserfolg stark von der sozialen Herkunft ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bundesländer haben identische Bildungsstandards.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein einheitliches Curriculum würde den Wechsel zwischen Bundesländern erleichtern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrkräfte sind mit der digitalen Fortbildung vollständig zufrieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die Bildungsreform bereits abgeschlossen ist.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wenn-die-arbeit-das-leben-bestimmt",
+    "nivel": "B2",
+    "titulo": "Wenn die Arbeit das Leben bestimmt",
+    "descripcion": "Ein Essay über die zunehmende Entgrenzung von Beruf und Privatleben in der modernen Arbeitswelt.",
+    "texto": "In den letzten Jahrzehnten hat sich die Grenze zwischen Berufs- und Privatleben zunehmend verschoben. Durch die Verbreitung von Smartphones und mobilem Internet wird von vielen Arbeitnehmern erwartet, auch außerhalb der regulären Arbeitszeiten erreichbar zu sein. Diese ständige Erreichbarkeit wird von Arbeitgebern häufig als Zeichen von Engagement interpretiert, während sie von vielen Beschäftigten als erheblicher Stressfaktor empfunden wird. Wäre die Arbeitszeit klarer begrenzt, könnten viele psychische Belastungen vermutlich vermieden werden.\n\nBesonders in der sogenannten Wissensarbeit wird häufig argumentiert, dass Produktivität nicht mehr an feste Arbeitszeiten gebunden sei. Diese Flexibilität wird von manchen Beschäftigten geschätzt, da sie ihnen erlaubt, Arbeit und familiäre Verpflichtungen individueller zu organisieren. Allerdings zeigt sich in der Praxis oft, dass die vermeintliche Freiheit in eine Form der Selbstausbeutung mündet, bei der Pausen und Erholungszeiten zunehmend vernachlässigt werden. Untersuchungen zur Work-Life-Balance deuten darauf hin, dass ein Mangel an klaren Grenzen langfristig zu Erschöpfung und sinkender Lebensqualität führen kann.\n\nAls mögliche Lösung wird in einigen Ländern bereits das „Recht auf Unerreichbarkeit\" diskutiert, das Beschäftigten erlauben soll, außerhalb der Arbeitszeit nicht kontaktiert zu werden, ohne dass ihnen daraus Nachteile entstehen. Würde eine solche Regelung flächendeckend eingeführt, müssten Unternehmen ihre internen Kommunikationsstrukturen grundlegend überdenken. Letztlich bleibt die Frage, ob eine gesetzliche Regelung allein ausreicht, oder ob nicht auch ein grundlegender Wandel der Unternehmenskultur notwendig wäre, damit Arbeit und Leben wieder in ein gesünderes Gleichgewicht gebracht werden können.",
+    "preguntas": [
+      {
+        "enunciado": "Smartphones haben die ständige Erreichbarkeit von Arbeitnehmern erleichtert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Arbeitgeber lehnen ständige Erreichbarkeit grundsätzlich ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Flexible Arbeitszeiten führen laut Text immer zu mehr Erholung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das „Recht auf Unerreichbarkeit\" wird in manchen Ländern diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, dass auch die Unternehmenskultur sich ändern müsste.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "social-media-und-die-wahrheit",
+    "nivel": "B2",
+    "titulo": "Social Media und die Wahrheit",
+    "descripcion": "Eine medienkritische Analyse darüber, wie soziale Netzwerke unsere Wahrnehmung der Realität verändern.",
+    "texto": "Soziale Netzwerke prägen heute maßgeblich, wie Nachrichten verbreitet und wahrgenommen werden. Während früher Informationen vorwiegend von professionellen Redaktionen geprüft und veröffentlicht wurden, können heute Inhalte ohne jede Kontrolle innerhalb von Sekunden ein Millionenpublikum erreichen. Dadurch entsteht eine Situation, in der zwischen verlässlichen Quellen und bewusst irreführenden Inhalten oft kaum unterschieden werden kann. Besonders problematisch wird dies, wenn emotional aufgeladene, aber inhaltlich falsche Beiträge schneller geteilt werden als sachliche Richtigstellungen.\n\nAlgorithmen, die bestimmen, welche Inhalte Nutzern angezeigt werden, verstärken dieses Phänomen zusätzlich. Da sie in erster Linie darauf ausgelegt sind, die Verweildauer der Nutzer zu maximieren, werden bevorzugt polarisierende oder emotional ansprechende Inhalte angezeigt, unabhängig davon, ob diese der Wahrheit entsprechen. Wäre das Hauptziel der Plattformen tatsächlich eine ausgewogene Information der Nutzer, müssten die Algorithmen grundlegend anders gestaltet werden. Stattdessen entstehen sogenannte Filterblasen, in denen Nutzer überwiegend mit Meinungen konfrontiert werden, die ihre eigenen Ansichten bestätigen.\n\nUm dieser Entwicklung entgegenzuwirken, fordern Medienexperten eine stärkere Förderung von Medienkompetenz, insbesondere bei jungen Menschen, die stark durch soziale Netzwerke sozialisiert werden. Nur wenn Nutzer lernen, Quellen kritisch zu hinterfragen und Inhalte zu überprüfen, bevor sie geteilt werden, kann die Verbreitung von Fehlinformationen wirksam eingeschränkt werden. Ob eine solche Bildungsoffensive allein ausreicht, um der strukturellen Problematik der Plattformen zu begegnen, bleibt jedoch fraglich.",
+    "preguntas": [
+      {
+        "enunciado": "Früher wurden Nachrichten vorwiegend von professionellen Redaktionen geprüft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Algorithmen zeigen Nutzern bevorzugt sachliche und neutrale Inhalte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen entstehen, weil Nutzer überwiegend bestätigende Meinungen sehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienexperten lehnen eine stärkere Medienkompetenz ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, dass das Problem bereits vollständig gelöst ist.",
+        "respuesta": false
+      }
+    ]
   }
 ]
