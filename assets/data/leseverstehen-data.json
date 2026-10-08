@@ -39794,5 +39794,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "ein-geburtstag-im-park",
+    "nivel": "A1",
+    "titulo": "Ein Geburtstag im Park",
+    "descripcion": "Lena feiert ihren Geburtstag mit ihrer Familie im Park.",
+    "texto": "Heute hat Lena Geburtstag. Sie wird acht Jahre alt. Die Familie feiert im Park, weil das Wetter sehr schön ist. Lenas Mutter bringt einen Kuchen mit Schokolade. Lenas Vater bringt Getränke und Obst.\n\nLena spielt mit ihren Freunden Ball. Ihre Oma sitzt auf einer Bank und lächelt. Ihr kleiner Bruder Tim isst schon ein Stück Kuchen. „Der Kuchen ist sehr lecker!\", sagt Tim. Alle Kinder singen ein Geburtstagslied für Lena.\n\nAm Ende bekommt Lena viele Geschenke. Sie öffnet eine bunte Tasche und findet ein neues Buch. Lena ist sehr glücklich und umarmt ihre Mutter.",
+    "preguntas": [
+      {
+        "enunciado": "Lena wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie feiert zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim isst ein Stück Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena bekommt keine Geschenke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena ist am Ende glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-haustier-der-hamster",
+    "nivel": "A1",
+    "titulo": "Mein Haustier, der Hamster",
+    "descripcion": "Paul erzählt von seinem kleinen Hamster namens Keks.",
+    "texto": "Paul hat einen kleinen Hamster. Der Hamster heißt Keks. Keks ist braun und sehr klein. Er wohnt in einem Käfig im Zimmer von Paul.\n\nJeden Tag gibt Paul dem Hamster Futter und Wasser. Keks isst gern Nüsse und Karotten. Am Abend läuft Keks gern in seinem Laufrad. Das Laufrad macht ein leises Geräusch.\n\nPaul putzt den Käfig einmal pro Woche. Danach spielt er mit Keks. Paul mag seinen Hamster sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Hamster heißt Keks.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Keks ist weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Keks isst gern Nüsse und Karotten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul putzt den Käfig nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul mag seinen Hamster.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-spaziergang-im-winter",
+    "nivel": "A1",
+    "titulo": "Ein Spaziergang im Winter",
+    "descripcion": "Familie Weber macht im Winter einen Spaziergang im Schnee.",
+    "texto": "Es ist Winter und es liegt viel Schnee. Familie Weber macht einen Spaziergang im Wald. Die Kinder tragen warme Jacken, Mützen und Handschuhe.\n\nDer kleine Jonas macht einen Schneemann. Seine Schwester Mia wirft Schneebälle. Der Hund der Familie läuft fröhlich durch den Schnee. Alle lachen viel.\n\nNach dem Spaziergang trinken sie heiße Schokolade zu Hause. Die Mutter kocht eine warme Suppe. Jonas sagt: „Der Winter ist meine Lieblingsjahreszeit!\"",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie macht einen Spaziergang im Sommer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas macht einen Schneemann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund bleibt zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie trinkt heiße Schokolade.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas mag den Winter.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-an-der-elbe",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour an der Elbe",
+    "descripcion": "Katrin und Oliver machen eine Fahrradtour entlang der Elbe.",
+    "texto": "Am Samstag haben Katrin und Oliver eine Fahrradtour entlang der Elbe gemacht. Sie sind früh aufgestanden, weil sie den ganzen Tag unterwegs sein wollten. Das Wetter war sonnig, aber nicht zu heiß.\n\nNach zwei Stunden haben sie eine Pause gemacht, weil Oliver Hunger hatte. Sie haben sich an einem kleinen Café gesetzt und etwas gegessen. Katrin hat erzählt, dass sie diese Strecke schon einmal mit ihrer Familie gefahren ist. Danach sind sie weitergefahren, bis sie ein kleines Dorf erreicht haben.\n\nAm Abend waren beide sehr müde, aber zufrieden. Oliver hat gesagt, dass er die Tour bald wiederholen möchte, wenn das Wetter wieder so schön ist. Katrin hat ihm zugestimmt und vorgeschlagen, nächstes Mal ein Picknick mitzunehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin und Oliver sind spät aufgestanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben eine Pause gemacht, weil Oliver Hunger hatte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin ist diese Strecke zum ersten Mal gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben ein kleines Dorf erreicht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oliver möchte die Tour nicht wiederholen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-nach-stuttgart",
+    "nivel": "A2",
+    "titulo": "Der Umzug nach Stuttgart",
+    "descripcion": "Familie Schmidt zieht in eine neue Wohnung um und braucht Hilfe von Freunden.",
+    "texto": "Letzte Woche ist Familie Schmidt in eine neue Wohnung umgezogen. Sie haben viele Kartons gepackt, weil sie seit zehn Jahren in der alten Wohnung gewohnt haben. Zwei Freunde haben ihnen beim Tragen der Möbel geholfen.\n\nDer Umzug war anstrengend, weil die neue Wohnung im vierten Stock liegt und es keinen Aufzug gibt. Herr Schmidt hat gesagt, dass er froh ist, dass die Freunde gekommen sind. Frau Schmidt hat für alle Pizza bestellt, nachdem die Möbel endlich in der Wohnung standen.\n\nAm Abend haben sie zusammen gegessen und über die neue Nachbarschaft gesprochen. Die Kinder haben sich schon über ihre neuen Zimmer gefreut. Herr Schmidt hofft, dass sie sich bald an die neue Umgebung gewöhnen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Schmidt ist letzte Woche umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die neue Wohnung hat einen Aufzug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niemand hat der Familie beim Umzug geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Schmidt hat Pizza bestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder freuen sich nicht über ihre neuen Zimmer.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-den-onkel-in-kanada",
+    "nivel": "A2",
+    "titulo": "Ein Brief an den Onkel in Kanada",
+    "descripcion": "Sophie schreibt ihrem Onkel in Kanada einen Brief über ihr neues Schuljahr.",
+    "texto": "Lieber Onkel Peter, ich wollte dir schreiben, weil ich dich lange nicht gesehen habe. Das neue Schuljahr hat letzten Monat angefangen, und ich habe schon viele neue Fächer. Mathematik finde ich schwer, aber Englisch macht mir viel Spaß.\n\nLetzte Woche sind wir mit der Klasse ins Museum gefahren. Wir haben dort alte Bilder und Skulpturen gesehen. Meine Lehrerin hat gesagt, dass wir bald einen Aufsatz über den Besuch schreiben müssen. Ich freue mich darauf, weil ich gern schreibe.\n\nIch hoffe, dass du mich bald besuchen kannst, wenn du Zeit hast. Papa sagt, dass du uns vielleicht im Dezember aus Kanada besuchen wirst. Ich vermisse dich sehr. Viele liebe Grüße, Sophie.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat ihren Onkel lange nicht gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie findet Englisch schwer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse ist ins Museum gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie muss keinen Aufsatz schreiben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie vermisst ihren Onkel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-hilfsverein-im-wohnblock",
+    "nivel": "B1",
+    "titulo": "Der Hilfsverein im Wohnblock",
+    "descripcion": "In einem Mehrfamilienhaus gründen die Bewohner einen kleinen Hilfsverein.",
+    "texto": "In einem großen Mehrfamilienhaus in Leipzig haben die Bewohner vor einem Jahr einen kleinen Hilfsverein gegründet. Obwohl sich viele Nachbarn vorher kaum kannten, wollten sie einander im Alltag unterstützen. Seitdem helfen sich die Bewohner regelmäßig beim Einkaufen, bei der Kinderbetreuung oder bei kleinen Reparaturen.\n\nFrau Bauer, eine ältere Dame im dritten Stock, erzählt, dass sie früher oft allein war, weil ihre Kinder weit weg wohnen. Nachdem die Nachbarschaftshilfe gegründet wurde, besucht sie jede Woche jemand aus dem Haus. Trotzdem bleibt die Gruppe offen für neue Mitglieder, und jeder kann entscheiden, wie viel Zeit er einbringen möchte.\n\nDie Organisatorin der Gruppe, eine junge Studentin namens Lea, sagt, dass das Projekt mittlerweile viel größer geworden ist, als sie am Anfang erwartet hatte. Sie organisiert regelmäßige Treffen, bei denen sich die Nachbarn austauschen können. Viele Bewohner finden, dass sich das Zusammenleben im Haus seit der Gründung deutlich verbessert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Die Nachbarn kannten sich vorher sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Bauer wohnt im dritten Stock.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe ist geschlossen für neue Mitglieder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea organisiert regelmäßige Treffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Zusammenleben hat sich verschlechtert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-in-einer-redaktion",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum in einer Redaktion",
+    "descripcion": "Tobias berichtet von seinem Praktikum bei einer regionalen Zeitung.",
+    "texto": "Tobias hat vor Kurzem ein dreiwöchiges Praktikum bei einer regionalen Zeitung begonnen. Obwohl er vorher wenig Erfahrung im Journalismus hatte, wollte er unbedingt wissen, wie die Arbeit in einer Redaktion wirklich aussieht. Schon am ersten Tag durfte er bei einer Konferenz zuhören, in der die Themen für die nächste Ausgabe besprochen wurden.\n\nNachdem er einige Wochen in der Redaktion verbracht hatte, bekam Tobias die Aufgabe, selbst einen kleinen Artikel über ein lokales Festival zu schreiben. Er war zunächst sehr nervös, trotzdem hat ihm sein Mentor geholfen, den Text zu verbessern. Am Ende war Tobias stolz, seinen eigenen Namen unter dem Artikel in der gedruckten Zeitung zu sehen.\n\nRückblickend sagt Tobias, dass das Praktikum anstrengender war, als er gedacht hatte, weil die Deadlines oft sehr kurz waren. Trotzdem hat ihm die Arbeit so gut gefallen, dass er überlegt, nach dem Studium im Journalismus zu arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias hatte vorher viel Erfahrung im Journalismus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias durfte bei einer Konferenz zuhören.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias hat keinen eigenen Artikel geschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Mentor hat ihm beim Text geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias fand das Praktikum entspannter als erwartet.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-dorffest-nach-der-pause",
+    "nivel": "B1",
+    "titulo": "Das Dorffest nach der Pause",
+    "descripcion": "Nach zwei Jahren ohne Veranstaltung organisiert ein Dorf wieder sein traditionelles Sommerfest.",
+    "texto": "Nachdem das traditionelle Sommerfest zwei Jahre lang nicht stattfinden konnte, haben die Bewohner eines kleinen Dorfes in Bayern beschlossen, es in diesem Jahr wieder zu organisieren. Obwohl viele Vereinsmitglieder zunächst skeptisch waren, ob genug Helfer zur Verfügung stehen würden, meldeten sich am Ende mehr Freiwillige, als erwartet.\n\nDer Bürgermeister erklärte, dass das Fest für die Gemeinschaft im Dorf sehr wichtig sei, weil es die Menschen zusammenbringe. Trotzdem mussten die Organisatoren einige neue Regeln einführen, die es vorher nicht gegeben hatte. Am Tag des Festes kamen schließlich mehr Besucher als in den Jahren vor der Pause.\n\nViele ältere Bewohner erzählten, dass sie das Fest besonders vermisst hatten, nachdem es so lange nicht gefeiert werden konnte. Die jüngeren Dorfbewohner freuten sich vor allem über die Livemusik am Abend. Am Ende waren sich alle einig, dass das Fest im nächsten Jahr wieder stattfinden sollte.",
+    "preguntas": [
+      {
+        "enunciado": "Das Sommerfest fand zwei Jahre lang nicht statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es meldeten sich weniger Freiwillige als erwartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bürgermeister hält das Fest für unwichtig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es kamen mehr Besucher als in den Vorjahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle wollen, dass das Fest im nächsten Jahr wieder stattfindet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "arbeitszeitverkuerzung-chancen-und-risiken",
+    "nivel": "B2",
+    "titulo": "Arbeitszeitverkürzung: Chancen und Risiken",
+    "descripcion": "Eine Diskussion über Vor- und Nachteile einer verkürzten Arbeitswoche in deutschen Unternehmen.",
+    "texto": "In den vergangenen Jahren wird in Deutschland zunehmend über die Einführung einer Vier-Tage-Woche diskutiert. Befürworter argumentieren, dass die Produktivität der Beschäftigten nicht automatisch sinke, wenn die Arbeitszeit reduziert werde, sondern dass viele Mitarbeiter in kürzerer Zeit ebenso effizient arbeiten könnten. Mehrere Pilotprojekte, die in verschiedenen Branchen durchgeführt wurden, hätten gezeigt, dass sich sowohl die Zufriedenheit der Angestellten als auch deren Konzentration verbessert hätten.\n\nKritiker hingegen weisen darauf hin, dass eine pauschale Einführung der Vier-Tage-Woche nicht für alle Wirtschaftsbereiche geeignet sei. Besonders in Berufen mit Personalmangel, etwa im Gesundheitswesen oder im Handwerk, könnte eine Verkürzung der Arbeitszeit zu zusätzlichen Engpässen führen, sofern nicht gleichzeitig neue Arbeitskräfte gewonnen würden. Zudem wird befürchtet, dass kleinere Unternehmen, die über weniger finanzielle Reserven verfügen, von einer solchen Reform überproportional belastet werden könnten.\n\nDennoch zeigen Umfragen, dass ein erheblicher Teil der Arbeitnehmer eine Vier-Tage-Woche begrüßen würde, selbst wenn dies mit gewissen Einschränkungen beim Gehalt verbunden wäre. Ob sich dieses Modell langfristig durchsetzen wird, hängt letztlich davon ab, inwiefern es gelingt, die Interessen von Unternehmen und Beschäftigten in Einklang zu bringen. Viele Experten sind sich einig, dass die Debatte angesichts des gesellschaftlichen Wandels in der Arbeitswelt noch lange nicht abgeschlossen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter glauben, dass die Produktivität automatisch sinkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pilotprojekte zeigten eine höhere Zufriedenheit der Angestellten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker halten das Modell für alle Branchen gleich geeignet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen könnten zusätzliche Engpässe entstehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte über die Vier-Tage-Woche ist bereits abgeschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "fake-news-und-ihre-verbreitung-im-internet",
+    "nivel": "B2",
+    "titulo": "Fake News und ihre Verbreitung im Internet",
+    "descripcion": "Ein Blick auf die Verbreitung von Falschinformationen und mögliche Gegenmaßnahmen.",
+    "texto": "Die Verbreitung von Desinformation über soziale Netzwerke gilt mittlerweile als eine der zentralen Herausforderungen demokratischer Gesellschaften. Algorithmen, die darauf ausgelegt sind, die Verweildauer der Nutzer zu maximieren, begünstigen häufig emotional aufgeladene oder polarisierende Inhalte, wodurch sich Falschinformationen oft schneller verbreiten als sorgfältig recherchierte Berichte. Studien legen nahe, dass selbst nachträglich widerlegte Falschmeldungen in der Wahrnehmung vieler Nutzer weiterhin Spuren hinterlassen.\n\nUm dieser Entwicklung zu begegnen, setzen manche Plattformen auf sogenannte Fact-Checking-Programme, bei denen unabhängige Organisationen fragwürdige Inhalte überprüfen. Dennoch wird kritisiert, dass solche Maßnahmen oft zu langsam greifen, da Inhalte sich innerhalb weniger Stunden massenhaft verbreiten können, bevor eine Überprüfung überhaupt abgeschlossen wurde. Wäre es möglich, Falschinformationen bereits vor der Veröffentlichung zuverlässig zu erkennen, ließe sich ihre Wirkung erheblich eindämmen, doch ein solches System existiert bislang nicht.\n\nViele Medienwissenschaftler betonen deshalb, dass technische Lösungen allein nicht ausreichen würden, um das Problem zu lösen. Stattdessen plädieren sie dafür, die Medienkompetenz der Bevölkerung systematisch zu stärken, damit Nutzer selbst in der Lage sind, Quellen kritisch zu bewerten. Ob eine solche Bildungsoffensive tatsächlich ausreichen würde, das Vertrauen in verlässliche Informationen wiederherzustellen, bleibt allerdings umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen begünstigen oft emotional aufgeladene Inhalte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Widerlegte Falschmeldungen hinterlassen laut Studien keine Spuren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fact-Checking-Programme reagieren laut Kritikern manchmal zu langsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es existiert bereits ein zuverlässiges System zur Erkennung vor der Veröffentlichung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienwissenschaftler fordern eine Stärkung der Medienkompetenz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reform-der-gesetzlichen-rentenversicherung",
+    "nivel": "B2",
+    "titulo": "Die Reform der gesetzlichen Rentenversicherung",
+    "descripcion": "Ein Beitrag über die Debatte zur Zukunftsfähigkeit des deutschen Rentensystems.",
+    "texto": "Angesichts des demografischen Wandels wird in Deutschland seit Jahren darüber diskutiert, wie das Rentensystem langfristig gerecht und finanzierbar gestaltet werden kann. Da die Zahl der Erwerbstätigen im Verhältnis zu den Rentnern kontinuierlich sinkt, stehen künftige Generationen vor der Frage, ob das bisherige Umlageverfahren, bei dem die Beiträge der Erwerbstätigen direkt die Renten der heutigen Rentner finanzieren, auf Dauer tragfähig bleibt.\n\nBefürworter einer Reform argumentieren, dass ohne strukturelle Anpassungen – etwa eine schrittweise Anhebung des Renteneintrittsalters oder eine stärkere kapitalgedeckte Vorsorge – jüngere Generationen unverhältnismäßig belastet würden. Gegner solcher Vorschläge wenden ein, dass eine Erhöhung des Renteneintrittsalters insbesondere Berufe mit körperlich anstrengender Arbeit benachteiligen würde, in denen viele Beschäftigte ohnehin nicht bis zum regulären Alter arbeiten könnten.\n\nManche Ökonomen schlagen deshalb vor, das System grundlegend zu überdenken, anstatt lediglich einzelne Parameter zu verändern. Würde beispielsweise ein Mischmodell eingeführt, das gesetzliche, betriebliche und private Vorsorge stärker miteinander verzahnt, ließe sich die Last möglicherweise gleichmäßiger auf mehrere Schultern verteilen. Unabhängig davon, welcher Ansatz letztlich gewählt wird, sind sich die meisten Experten einig, dass ein Festhalten am gegenwärtigen System ohne Anpassungen langfristig nicht realistisch erscheint.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zahl der Erwerbstätigen im Verhältnis zu Rentnern steigt kontinuierlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beim Umlageverfahren finanzieren die Beiträge der Erwerbstätigen die heutigen Renten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Ökonomen sind gegen jede Veränderung des Rentensystems.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gegner der Reform befürchten Nachteile für körperlich anstrengende Berufe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die meisten Experten halten das aktuelle System ohne Anpassungen für zukunftsfähig.",
+        "respuesta": false
+      }
+    ]
   }
 ]
