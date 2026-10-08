@@ -40490,5 +40490,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "lenas-neues-fahrrad",
+    "nivel": "A1",
+    "titulo": "Der Fahrradladen",
+    "descripcion": "Lena kauft ein neues Fahrrad für die Schule.",
+    "texto": "Lena ist zehn Jahre alt. Sie braucht ein neues Fahrrad für die Schule. Am Samstag geht sie mit ihrem Vater in den Fahrradladen.\n\nDer Verkäufer zeigt ihr viele Fahrräder. Lena mag das blaue Fahrrad. Es ist nicht zu groß und nicht zu klein. „Das Fahrrad passt gut zu dir“, sagt der Verkäufer.\n\nLenas Vater bezahlt das Fahrrad. Lena ist sehr froh. Jetzt fährt sie jeden Tag mit dem Fahrrad zur Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena geht allein in den Laden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena mag das blaue Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad ist zu groß für Lena.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena fährt jetzt mit dem Fahrrad zur Schule.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "toms-tag-im-zoo",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Zoo",
+    "descripcion": "Tom besucht mit seiner Klasse den Zoo.",
+    "texto": "Tom geht mit seiner Klasse in den Zoo. Die Kinder sehen Löwen, Affen und Elefanten. Tom mag die Affen am meisten.\n\nUm zwölf Uhr essen die Kinder ihr Mittagessen im Park. Sie essen Brote und Äpfel. Danach gehen sie zu den Pinguinen.\n\nAm Ende des Tages kauft Tom eine Postkarte mit einem Elefanten. Er schreibt die Karte an seine Oma. Der Tag im Zoo war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Tom geht allein in den Zoo.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom mag die Affen am meisten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder essen im Restaurant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder sehen auch Pinguine.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom kauft eine Postkarte für seine Oma.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "paulas-kleine-wohnung",
+    "nivel": "A1",
+    "titulo": "Meine Wohnung",
+    "descripcion": "Paula beschreibt ihre kleine Wohnung in der Stadt.",
+    "texto": "Paula wohnt in einer kleinen Wohnung in der Stadt. Die Wohnung hat ein Zimmer, eine Küche und ein Bad. Das Zimmer ist gelb.\n\nIn der Küche steht ein kleiner Tisch. Paula kocht dort jeden Abend. Sie kocht gern Nudeln mit Tomatensoße.\n\nAm Wochenende putzt Paula die Wohnung. Danach liest sie ein Buch auf dem Sofa. Paula mag ihre Wohnung sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Paula wohnt auf dem Land.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wohnung hat ein Zimmer, eine Küche und ein Bad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula kocht nie zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula kocht gern Nudeln mit Tomatensoße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Wochenende liest Paula ein Buch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "verlorener-schluessel",
+    "nivel": "A2",
+    "titulo": "Der verlorene Schlüssel",
+    "descripcion": "Martin hat seinen Hausschlüssel verloren und sucht ihn überall.",
+    "texto": "Gestern hat Martin seinen Hausschlüssel verloren. Er ist von der Arbeit gekommen und hat den Schlüssel nicht gefunden. Martin war sehr nervös, weil es schon dunkel war.\n\nEr hat seine Tasche durchsucht, aber der Schlüssel war nicht da. Dann hat er seine Nachbarin gefragt, ob sie einen Ersatzschlüssel hat. Die Nachbarin hat gesagt: „Ja, ich habe einen Schlüssel von deiner Mutter bekommen.“\n\nMartin war sehr froh. Er hat die Wohnung geöffnet und ist endlich hineingegangen. Später hat er den Schlüssel in seiner Jackentasche gefunden.",
+    "preguntas": [
+      {
+        "enunciado": "Martin hat seinen Schlüssel in der Arbeit vergessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Martin war nervös, weil es dunkel war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarin hatte keinen Ersatzschlüssel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Martin konnte die Wohnung mit dem Schlüssel der Nachbarin öffnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schlüssel war die ganze Zeit in der Küche.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "sophies-erster-zahnarztbesuch",
+    "nivel": "A2",
+    "titulo": "Besuch beim Zahnarzt",
+    "descripcion": "Sophie hat Zahnschmerzen und geht zum ersten Mal allein zum Zahnarzt.",
+    "texto": "Sophie hat seit zwei Tagen Zahnschmerzen gehabt. Weil der Schmerz immer stärker wurde, hat sie einen Termin beim Zahnarzt gemacht. Es war das erste Mal, dass sie allein zum Zahnarzt gegangen ist.\n\nIm Wartezimmer war Sophie ein bisschen nervös. Als der Zahnarzt sie untersucht hat, hat er gesagt, dass ein Zahn kaputt ist. Er hat den Zahn schnell repariert, und Sophie hat fast keinen Schmerz gespürt.\n\nNachdem die Behandlung fertig war, hat der Zahnarzt gesagt, dass Sophie jeden Tag die Zähne putzen soll. Sophie war erleichtert, dass alles so gut gelaufen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hatte schon eine Woche Zahnschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es war das erste Mal, dass Sophie allein zum Zahnarzt ging.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie war im Wartezimmer völlig ruhig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zahnarzt hat einen kaputten Zahn gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hatte während der Behandlung starke Schmerzen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "annas-brief-vom-meer",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus dem Urlaub",
+    "descripcion": "Anna schreibt ihrer Freundin einen Brief über ihren Urlaub am Meer.",
+    "texto": "Liebe Clara,\n\nich bin seit drei Tagen am Meer und es ist wunderschön hier. Ich bin jeden Morgen schwimmen gegangen, weil das Wasser so warm war. Gestern habe ich auch einen langen Spaziergang am Strand gemacht.\n\nAm Abend habe ich in einem kleinen Restaurant gegessen. Der Fisch war sehr lecker, und ich habe mit den Kellnern Spanisch gesprochen. Obwohl mein Spanisch nicht perfekt ist, haben sie mich gut verstanden.\n\nMorgen fahre ich wieder nach Hause. Ich hoffe, dass wir uns bald treffen können, damit ich dir alle Fotos zeigen kann.\n\nViele Grüße,\nAnna",
+    "preguntas": [
+      {
+        "enunciado": "Anna ist seit einer Woche am Meer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna ist jeden Morgen schwimmen gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna hat zu Hause gekocht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna hat im Restaurant Spanisch gesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna fährt erst in einer Woche nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-grossstadt",
+    "nivel": "B1",
+    "titulo": "Der Umzug in die Großstadt",
+    "descripcion": "Jonas zieht vom Dorf in eine Großstadt und muss sich an ein neues Leben gewöhnen.",
+    "texto": "Jonas ist in einem kleinen Dorf aufgewachsen, in dem jeder jeden kannte. Nachdem er sein Studium begonnen hatte, musste er in eine Großstadt ziehen, obwohl er sich eigentlich nicht von seiner Familie trennen wollte. Die ersten Wochen in der neuen Wohnung waren schwierig, weil alles so fremd und laut war.\n\nTrotzdem hat sich Jonas langsam an das Leben in der Stadt gewöhnt. Er hat Freunde in seinem Studiengang gefunden und entdeckt, dass es viele Cafés und Parks gibt, die er gern besucht. Besonders die U-Bahn hat ihn am Anfang überrascht, weil er so etwas aus seinem Dorf nicht kannte.\n\nHeute, ein Jahr später, fühlt sich Jonas in der Stadt viel wohler. Er vermisst zwar manchmal die Ruhe des Dorfes, aber er genießt auch die Möglichkeiten, die ihm die Großstadt bietet. Am Wochenende fährt er oft nach Hause, um seine Familie zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist in einer Großstadt aufgewachsen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas wollte sich eigentlich nicht von seiner Familie trennen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die ersten Wochen in der Stadt waren für Jonas einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat Freunde in seinem Studiengang gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fährt nie zurück in sein Dorf.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-der-10b-nach-berlin",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Berlin",
+    "descripcion": "Eine Schulklasse erlebt auf einer Klassenfahrt nach Berlin unerwartete Abenteuer.",
+    "texto": "Die zehnte Klasse des Goethe-Gymnasiums ist für eine Woche nach Berlin gefahren. Nachdem die Schüler im Hostel angekommen waren, haben sie sofort einen Stadtplan bekommen und die ersten Sehenswürdigkeiten besucht. Besonders das Brandenburger Tor hat alle beeindruckt.\n\nAm zweiten Tag wollte die Klasse das Pergamonmuseum besuchen, obwohl der Wetterbericht starken Regen vorhergesagt hatte. Tatsächlich hat es den ganzen Tag geregnet, aber die Schüler haben die Ausstellungen trotzdem mit großem Interesse angeschaut. Einige Mitschüler haben sich sogar vorgenommen, später Geschichte zu studieren.\n\nAm letzten Abend hat die Klasse ein Abschlussessen in einem typischen Berliner Restaurant gemacht. Der Lehrer hat eine kurze Rede gehalten und sich bei allen für ihr gutes Verhalten bedankt. Als die Klasse am nächsten Tag nach Hause fuhr, waren viele Schüler traurig, dass die Reise schon vorbei war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist für einen Tag nach Berlin gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Brandenburger Tor hat die Schüler beeindruckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am zweiten Tag war das Wetter sonnig und warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Schüler wollen später Geschichte studieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler waren froh, dass die Reise zu Ende war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mia-und-felix-freunde-ueber-ozeane",
+    "nivel": "B1",
+    "titulo": "Freundschaft trotz Entfernung",
+    "descripcion": "Zwei Freunde bleiben in Kontakt, obwohl sie in unterschiedlichen Ländern leben.",
+    "texto": "Mia und Felix waren seit der Grundschule beste Freunde. Nachdem Felix mit seiner Familie nach Kanada gezogen war, hatten beide Angst, dass ihre Freundschaft nicht weiter bestehen würde. Trotzdem haben sie sich entschieden, regelmäßig zu schreiben und zu telefonieren.\n\nAm Anfang war es schwierig, weil der Zeitunterschied zwischen Deutschland und Kanada groß war. Obwohl sie sich oft erst spät am Abend schreiben konnten, haben beide die Mühe nicht aufgegeben. Mia hat Felix sogar Pakete mit deutschen Süßigkeiten geschickt, worüber er sich jedes Mal sehr gefreut hat.\n\nNach zwei Jahren hat Mia endlich genug Geld gespart, um Felix in Kanada zu besuchen. Als sie sich am Flughafen wiedersahen, war es, als wären sie nie getrennt gewesen. Diese Erfahrung hat beiden gezeigt, dass wahre Freundschaft auch große Entfernungen überstehen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Mia und Felix kennen sich erst seit der Universität.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix ist mit seiner Familie nach Kanada gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zeitunterschied hat den Kontakt leicht gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hat Felix Pakete mit deutschen Süßigkeiten geschickt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia hat Felix nie in Kanada besucht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "automatisierung-und-die-zukunft-der-arbeit",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Arbeit",
+    "descripcion": "Ein Essay über die Veränderungen der Arbeitswelt durch Automatisierung und neue Arbeitsmodelle.",
+    "texto": "Die Arbeitswelt befindet sich in einem tiefgreifenden Wandel, der durch die fortschreitende Automatisierung und den Einsatz künstlicher Intelligenz entscheidend vorangetrieben wird. Zahlreiche Tätigkeiten, die früher ausschließlich von Menschen ausgeführt wurden, könnten in den kommenden Jahrzehnten von Maschinen übernommen werden. Diese Entwicklung wirft sowohl wirtschaftliche als auch gesellschaftliche Fragen auf, die bislang nur unzureichend beantwortet wurden.\n\nBefürworter der Automatisierung argumentieren, dass Routineaufgaben effizienter erledigt werden könnten, wenn sie Maschinen überlassen würden, sodass Menschen sich kreativeren und anspruchsvolleren Aufgaben zuwenden könnten. Kritiker hingegen befürchten, dass ganze Berufsgruppen verschwinden würden, ohne dass gleichzeitig ausreichend neue Arbeitsplätze entstünden. Besonders betroffen wären Branchen, in denen standardisierte Abläufe dominieren, etwa die Logistik oder einfache Verwaltungstätigkeiten.\n\nUm diesen Umbruch sozial verträglich zu gestalten, müsste die Politik frühzeitig in Umschulungsprogramme und lebenslanges Lernen investieren. Würde man die Weiterbildung vernachlässigen, bestünde die Gefahr einer wachsenden sozialen Ungleichheit. Letztlich hängt es davon ab, ob Technologie als Werkzeug zur Entlastung der Arbeitnehmer verstanden wird oder lediglich als Mittel zur Kostensenkung eingesetzt wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text behauptet, die Arbeitswelt verändere sich kaum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter der Automatisierung sehen Vorteile für kreative Tätigkeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern entstehen durch Automatisierung immer genug neue Arbeitsplätze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Besonders Branchen mit standardisierten Abläufen wären von Automatisierung betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, Weiterbildung zu vernachlässigen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "filterblasen-und-medienkritik",
+    "nivel": "B2",
+    "titulo": "Medienkritik im digitalen Zeitalter",
+    "descripcion": "Ein Artikel untersucht, wie soziale Medien die öffentliche Meinungsbildung beeinflussen.",
+    "texto": "In den letzten Jahren hat sich die Art, wie Menschen Nachrichten konsumieren, grundlegend verändert. Während früher Zeitungen und das Fernsehen die wichtigsten Informationsquellen waren, werden heute viele Meinungen über soziale Netzwerke gebildet. Diese Entwicklung hat dazu geführt, dass Informationen schneller verbreitet werden, wobei gleichzeitig die Qualität der Inhalte oft zu kurz kommt.\n\nEin zentrales Problem besteht darin, dass Algorithmen Nutzern vor allem Inhalte zeigen, die ihrer bisherigen Meinung entsprechen. Dadurch entstehen sogenannte Filterblasen, in denen abweichende Perspektiven kaum wahrgenommen werden. Wäre die Vielfalt der Informationsquellen größer, würde dies vermutlich zu einer ausgewogeneren öffentlichen Debatte beitragen.\n\nManche Experten fordern deshalb, dass Plattformen stärker reguliert werden sollten, damit Falschinformationen schneller erkannt und entfernt werden können. Andere wiederum warnen davor, dass eine zu strenge Regulierung die Meinungsfreiheit einschränken könnte. Letztlich bleibt die Frage offen, wie eine Balance zwischen freier Meinungsäußerung und verantwortungsvollem Umgang mit Informationen erreicht werden kann.",
+    "preguntas": [
+      {
+        "enunciado": "Früher waren Zeitungen und Fernsehen die wichtigsten Informationsquellen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die Qualität der Inhalte habe sich verbessert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen entstehen, weil Algorithmen vor allem bestätigende Inhalte zeigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass Plattformen nicht reguliert werden sollten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text stellt die Frage nach einer Balance zwischen Meinungsfreiheit und Verantwortung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wohnungsnot-in-deutschen-staedten",
+    "nivel": "B2",
+    "titulo": "Wohnungsnot in deutschen Städten",
+    "descripcion": "Der Text analysiert die Ursachen und Folgen der steigenden Mietpreise in Großstädten.",
+    "texto": "In vielen deutschen Großstädten ist bezahlbarer Wohnraum zu einem knappen Gut geworden. Während die Nachfrage nach Wohnungen seit Jahren kontinuierlich steigt, hält das Angebot an neuem Wohnraum nicht annähernd Schritt. Dies hat zur Folge, dass die Mietpreise insbesondere in Ballungsräumen wie München, Berlin oder Hamburg in einem Ausmaß gestiegen sind, das viele Haushalte mit mittlerem Einkommen überfordert.\n\nAls Hauptursache wird häufig der Mangel an Neubauten genannt, der unter anderem auf strenge Bauvorschriften und einen Mangel an verfügbaren Grundstücken zurückzuführen ist. Hinzu kommt, dass Investoren oft lieber in hochpreisige Eigentumswohnungen investieren, da sich damit höhere Gewinne erzielen lassen, als in sozial geförderten Wohnraum. Würde der Staat stärker in den sozialen Wohnungsbau investieren, ließe sich der Druck auf dem Mietmarkt vermutlich spürbar verringern.\n\nManche Städte haben bereits versucht, mit einer Mietpreisbremse gegenzusteuern, deren Wirksamkeit jedoch von Experten unterschiedlich bewertet wird. Kritiker bemängeln, dass solche Maßnahmen das grundlegende Problem des Wohnungsmangels nicht lösten, sondern lediglich die Symptome abmildern würden. Es bleibt daher fraglich, ob kurzfristige politische Eingriffe ausreichen, um die strukturelle Wohnungsnot langfristig zu beheben.",
+    "preguntas": [
+      {
+        "enunciado": "Das Angebot an Wohnraum wächst laut Text schneller als die Nachfrage.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mietpreise sind besonders in Großstädten wie München und Berlin stark gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Strenge Bauvorschriften werden als eine Ursache des Wohnungsmangels genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Investoren bevorzugen laut Text meist sozial geförderten Wohnraum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass die Mietpreisbremse das Problem vollständig löst.",
+        "respuesta": false
+      }
+    ]
   }
 ]
