@@ -40838,5 +40838,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-schwimmbad-mit-lena",
+    "nivel": "A1",
+    "titulo": "Im Schwimmbad mit Lena",
+    "descripcion": "Lena geht mit ihrer Freundin ins Schwimmbad und hat viel Spaß.",
+    "texto": "Lena ist acht Jahre alt. Heute ist Samstag und die Sonne scheint. Lena geht mit ihrer Freundin Mia ins Schwimmbad. Sie packt ihre Tasche: ein Handtuch, eine Badehose, Sonnencreme und einen Ball. Die Mädchen fahren mit dem Fahrrad zum Schwimmbad.\n\nIm Schwimmbad ist viel los. Viele Kinder spielen im Wasser. Lena und Mia schwimmen zusammen und spielen mit dem Ball. Danach essen sie ein Eis. Das Eis ist süß und kalt. „Das Eis ist lecker!\", sagt Mia. Lena lacht und isst ihr Eis schnell auf.\n\nAm Nachmittag sind die Mädchen müde. Sie legen sich auf ihre Handtücher und ruhen sich aus. Lenas Mutter holt sie um vier Uhr ab. Lena ist glücklich und möchte nächste Woche wieder ins Schwimmbad gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht mit ihrer Freundin Mia ins Schwimmbad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mädchen fahren mit dem Auto zum Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und Mia essen ein Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas Mutter holt sie um zwei Uhr ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena möchte nächste Woche wieder ins Schwimmbad gehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsobst-ist-die-mango",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsobst ist die Mango",
+    "descripcion": "Paul erzählt, warum die Mango sein Lieblingsobst ist.",
+    "texto": "Ich heiße Paul und ich mag Obst sehr gern. Mein Lieblingsobst ist die Mango. Die Mango ist gelb und orange. Sie schmeckt süß und saftig. Ich esse jeden Morgen ein Stück Mango zum Frühstück.\n\nAuf dem Markt kauft meine Mutter oft Mangos, Bananen und Äpfel. Ich helfe ihr beim Einkaufen. Mangos sind nicht billig, aber meine Familie kauft sie trotzdem gern. Meine kleine Schwester mag Bananen lieber als Mangos.\n\nAm Wochenende machen wir manchmal einen Mango-Saft. Das ist sehr lecker und gesund. Mein Vater trinkt den Saft auch gern. Für mich ist die Mango das beste Obst der Welt.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Lieblingsobst ist die Mango.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul isst jeden Morgen eine Banane.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hilft seiner Mutter beim Einkaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pauls Schwester mag Mangos lieber als Bananen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie macht am Wochenende manchmal Mango-Saft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-familie-am-sonntag",
+    "nivel": "A1",
+    "titulo": "Die Familie am Sonntag",
+    "descripcion": "Eine Familie beschreibt ihren typischen Sonntag zusammen.",
+    "texto": "Am Sonntag schläft unsere Familie länger. Mein Vater macht Kaffee, und meine Mutter macht Brötchen warm. Wir essen zusammen am Tisch und sprechen über die Woche. Mein kleiner Bruder trinkt Kakao und isst Marmelade mit Brot.\n\nNach dem Frühstück gehen wir oft in den Park. Dort spielen wir Fußball oder fahren Fahrrad. Manchmal besuchen wir die Großeltern. Die Großmutter kocht dann gerne eine Suppe für uns alle.\n\nAm Abend sehen wir zusammen einen Film. Wir essen Popcorn und trinken Tee. Der Sonntag ist mein Lieblingstag, weil die ganze Familie zusammen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie schläft am Sonntag länger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der kleine Bruder trinkt Kaffee zum Frühstück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Frühstück geht die Familie oft in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie besucht nie die Großeltern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend sehen sie zusammen einen Film.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-schluessel-im-treppenhaus",
+    "nivel": "A2",
+    "titulo": "Der verlorene Schlüssel im Treppenhaus",
+    "descripcion": "Thomas hat seinen Schlüssel verloren und sucht ihn im ganzen Haus.",
+    "texto": "Gestern Abend ist Thomas nach der Arbeit nach Hause gekommen. Er hat in seine Tasche gegriffen, aber der Schlüssel war nicht da. Thomas hat sich sehr aufgeregt, weil er den Schlüssel wirklich brauchte. Er ist noch einmal zum Bus zurückgegangen, aber dort war nichts zu finden.\n\nDanach hat er im Treppenhaus gesucht, weil er dort morgens vielleicht etwas verloren hatte. Er hat jede Stufe genau angeschaut, aber der Schlüssel war nirgendwo. Zum Glück hat seine Nachbarin Frau Berger ihn gesehen und gefragt, ob sie helfen kann. Sie hat ihm erzählt, dass sie am Morgen einen Schlüssel neben der Tür gefunden hatte.\n\nThomas war sehr erleichtert, als Frau Berger ihm den Schlüssel zurückgab. Er hat sich herzlich bedankt und ihr später einen Kuchen gebacken. Seitdem hängt Thomas seinen Schlüssel immer an einen Haken neben der Tür, damit er ihn nicht wieder verliert.",
+    "preguntas": [
+      {
+        "enunciado": "Thomas hat seinen Schlüssel in der Tasche gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Thomas ist zum Bus zurückgegangen, um zu suchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger hat den Schlüssel am Morgen gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Thomas war wütend auf seine Nachbarin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Thomas hängt seinen Schlüssel jetzt an einen Haken.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-nachricht-von-oma-gerda",
+    "nivel": "A2",
+    "titulo": "Eine Nachricht von Oma Gerda",
+    "descripcion": "Oma Gerda schreibt ihrer Enkelin einen Brief über ihr Leben auf dem Land.",
+    "texto": "Liebe Sophie, ich hoffe, dass es dir und deiner Familie gut geht. Hier auf dem Land ist im Moment alles ruhig. Letzte Woche habe ich im Garten viele Äpfel gepflückt, weil der Baum dieses Jahr so viele Früchte trägt. Ich habe daraus schon drei Gläser Apfelmarmelade gemacht.\n\nMein Nachbar Herr Krause hat mir erzählt, dass er bald in die Stadt ziehen möchte, weil seine Tochter dort wohnt. Ich finde das schade, denn wir unterhalten uns oft über den Gartenzaun. Wenn das Wetter schön ist, gehe ich jeden Tag spazieren und besuche manchmal meine alte Freundin Erika im Dorf.\n\nIch würde mich sehr freuen, wenn du mich bald besuchen könntest. Dein Zimmer ist immer bereit, und ich habe schon einen Kuchen für dich gebacken. Schreib mir bitte, wann du Zeit hast. Viele liebe Grüße, deine Oma Gerda.",
+    "preguntas": [
+      {
+        "enunciado": "Oma Gerda wohnt auf dem Land.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma Gerda hat keine Äpfel geerntet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Krause möchte in die Stadt ziehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma Gerda geht nie spazieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma Gerda hat schon einen Kuchen für Sophie gebacken.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-zahnarzt-in-der-stadtmitte",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Zahnarzt in der Stadtmitte",
+    "descripcion": "Markus hat Angst vor dem Zahnarztbesuch, aber alles geht gut.",
+    "texto": "Markus hatte seit zwei Tagen Zahnschmerzen und musste deshalb zum Zahnarzt in der Stadtmitte gehen. Er hatte ein bisschen Angst, weil er den Zahnarzt nicht oft besucht. Seine Frau hat ihn begleitet, damit er sich sicherer fühlt. Im Wartezimmer hat Markus ein Magazin gelesen, um ruhig zu bleiben.\n\nAls die Zahnärztin ihn untersucht hat, hat sie gesagt, dass ein kleines Loch im Zahn die Ursache für die Schmerzen war. Sie hat den Zahn sofort behandelt, weil Markus noch am selben Tag Zeit hatte. Die Behandlung hat nur zwanzig Minuten gedauert, und Markus hat fast keinen Schmerz gespürt, obwohl er das befürchtet hatte.\n\nNach der Behandlung hat die Zahnärztin ihm erklärt, wie er seine Zähne besser pflegen soll. Markus war froh, dass alles so schnell vorbei war, und hat sich einen neuen Termin für die Kontrolle in sechs Monaten geben lassen. Auf dem Weg nach Hause hat er seiner Frau gesagt, dass die Angst umsonst war.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte seit zwei Tagen Zahnschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus ist allein zum Zahnarzt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin hat ein Loch im Zahn gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Behandlung hat mehrere Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat einen neuen Termin für eine Kontrolle bekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-nach-koeln-im-herbst",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Köln im Herbst",
+    "descripcion": "Eine Schulklasse erlebt auf ihrer Klassenfahrt nach Köln unerwartete Abenteuer.",
+    "texto": "Im Herbst ist die Klasse 9b drei Tage lang nach Köln gefahren, um die Stadt und ihre Geschichte besser kennenzulernen. Obwohl das Wetter am ersten Tag regnerisch war, besuchten die Schüler trotzdem den berühmten Kölner Dom und waren von der Größe des Gebäudes beeindruckt. Der Lehrer, Herr Winkler, erklärte ihnen viel über die Baugeschichte, nachdem sie die vielen Stufen zum Turm hinaufgestiegen waren.\n\nAm zweiten Tag organisierte die Klasse einen Besuch im Schokoladenmuseum, was vor allem bei den jüngeren Schülern großen Spaß machte. Trotzdem gab es auch einen kleinen Zwischenfall: Zwei Schüler verliefen sich kurz in der Altstadt, fanden aber schnell wieder zur Gruppe zurück, nachdem sie einen Stadtplan benutzt hatten. Am Abend saßen alle zusammen am Rhein und sprachen über ihre Eindrücke des Tages.\n\nAm letzten Tag, bevor die Klasse wieder abreiste, machten sie noch eine kurze Bootstour auf dem Rhein. Viele Schüler waren sich einig, dass die Klassenfahrt trotz des schlechten Wetters eine der schönsten Erfahrungen des Schuljahres war. Herr Winkler war besonders froh, dass am Ende niemand verletzt wurde und alle pünktlich zum Bus zurückkamen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b ist für drei Tage nach Köln gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am ersten Tag schien die ganze Zeit die Sonne.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse besuchte das Schokoladenmuseum am zweiten Tag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die zwei Schüler, die sich verliefen, blieben für immer getrennt von der Gruppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Tag machte die Klasse eine Bootstour auf dem Rhein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-freundschaft-im-sportverein",
+    "nivel": "B1",
+    "titulo": "Die neue Freundschaft im Sportverein",
+    "descripcion": "Jonas findet im Sportverein einen neuen Freund, obwohl sie sehr unterschiedlich sind.",
+    "texto": "Jonas ist vor zwei Monaten in einen neuen Sportverein eingetreten, nachdem er wegen der Arbeit in eine andere Stadt gezogen war. Anfangs fühlte er sich dort fremd, weil er niemanden kannte und sich die anderen Mitglieder schon lange gegenseitig vertrauten. Trotzdem entschied er sich, regelmäßig zum Training zu kommen, in der Hoffnung, neue Leute kennenzulernen.\n\nBeim dritten Training lernte Jonas einen Mann namens Felix kennen, der ebenfalls noch neu war. Obwohl die beiden auf den ersten Blick sehr unterschiedlich wirkten – Jonas war ruhig und zurückhaltend, während Felix sehr gesprächig war – verstanden sie sich sofort gut. Nachdem sie einige Male zusammen trainiert hatten, begannen sie auch, sich außerhalb des Vereins zu treffen.\n\nMit der Zeit wurde aus der sportlichen Bekanntschaft eine echte Freundschaft. Jonas erzählte später seiner Familie, dass er ohne den Sportverein wahrscheinlich nie jemanden wie Felix getroffen hätte. Beide planen inzwischen, gemeinsam an einem Laufwettbewerb teilzunehmen, obwohl keiner von ihnen bisher viel Erfahrung mit solchen Wettkämpfen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist dem Sportverein wegen eines Umzugs beigetreten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas kannte von Anfang an viele Leute im Verein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix war ebenfalls neu im Sportverein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas und Felix trafen sich nur beim Training und sonst nirgendwo.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas und Felix planen, gemeinsam an einem Laufwettbewerb teilzunehmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-im-neuen-job-bei-einer-softwarefirma",
+    "nivel": "B1",
+    "titulo": "Der erste Tag im neuen Job bei einer Softwarefirma",
+    "descripcion": "Clara ist nervös vor ihrem ersten Arbeitstag, doch ihre Kollegen helfen ihr.",
+    "texto": "Clara hatte lange auf diesen Tag gewartet, trotzdem war sie am Morgen ihres ersten Arbeitstages sehr nervös. Sie sollte als Programmiererin bei einer kleinen Softwarefirma anfangen, nachdem sie monatelang Bewerbungen geschrieben hatte. Auf dem Weg zur Arbeit überlegte sie sich immer wieder, ob sie wirklich gut genug für die Stelle sei.\n\nAls sie im Büro ankam, wurde sie freundlich von ihrem neuen Team begrüßt. Ihr Kollege Markus zeigte ihr den Arbeitsplatz und erklärte ihr, wie das Projekt organisiert war, an dem sie bald mitarbeiten sollte. Obwohl Clara am Anfang viele Fragen hatte, fühlte sie sich schnell wohler, weil niemand ungeduldig wirkte.\n\nAm Nachmittag nahm Clara an ihrem ersten Teammeeting teil, in dem die aktuellen Aufgaben besprochen wurden. Sie verstand nicht alles sofort, aber ihre Chefin versicherte ihr, dass das völlig normal sei. Am Ende des Tages war Clara erschöpft, aber zufrieden, weil sie merkte, dass sie sich in diesem Team gut aufgehoben fühlte.",
+    "preguntas": [
+      {
+        "enunciado": "Clara war am Morgen ihres ersten Arbeitstages sehr nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara arbeitet als Programmiererin bei einer großen Bank.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat Clara den Arbeitsplatz gezeigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara verstand im Teammeeting sofort alles ohne Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara fühlte sich am Ende des Tages im Team gut aufgehoben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-vier-tage-woche-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Vier-Tage-Woche in Deutschland",
+    "descripcion": "Der Text diskutiert Chancen und Risiken der Vier-Tage-Woche für deutsche Unternehmen.",
+    "texto": "In den letzten Jahren ist die Vier-Tage-Woche zu einem viel diskutierten Thema in der deutschen Arbeitswelt geworden. Befürworter argumentieren, dass eine verkürzte Arbeitszeit bei vollem Lohnausgleich die Produktivität der Mitarbeitenden steigern könnte, da ausgeruhte Angestellte konzentrierter arbeiten würden. Mehrere Pilotprojekte in Unternehmen unterschiedlicher Branchen hätten bereits gezeigt, dass sich Krankheitstage reduzieren und die Mitarbeiterzufriedenheit erhöhen ließe, wenn die Arbeitszeit sinnvoll umstrukturiert würde.\n\nKritiker hingegen weisen darauf hin, dass ein solches Modell nicht für alle Branchen gleichermaßen umsetzbar sei. Insbesondere in Berufen mit Personalmangel, etwa in der Pflege oder im Handwerk, wäre eine Reduzierung der Arbeitszeit ohne zusätzliches Personal kaum zu bewältigen. Es wird befürchtet, dass kleinere Betriebe, die sich zusätzliche Angestellte nicht leisten können, im Wettbewerb benachteiligt würden, wenn größere Konzerne die Vier-Tage-Woche flächendeckend einführen könnten.\n\nSollte die Politik entscheiden, gesetzliche Rahmenbedingungen für eine generelle Arbeitszeitverkürzung zu schaffen, müsste gleichzeitig berücksichtigt werden, wie unterschiedliche Branchen davon betroffen wären. Viele Ökonomen plädieren deshalb für eine schrittweise und branchenspezifische Einführung, statt eine einheitliche Regelung für die gesamte Wirtschaft vorzuschreiben. Ob sich die Vier-Tage-Woche langfristig durchsetzen wird, bleibt daher eine offene Frage, die stark von den Erfahrungen der aktuellen Modellprojekte abhängen dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Vier-Tage-Woche erwarten eine höhere Produktivität.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist die Vier-Tage-Woche in allen Branchen problemlos umsetzbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Pflegebereich wird ein Personalmangel als Hindernis genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kleinere Betriebe hätten laut Text keine Nachteile gegenüber großen Konzernen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Ökonomen befürworten eine schrittweise, branchenspezifische Einführung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-in-zeiten-von-desinformation",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz in Zeiten von Desinformation",
+    "descripcion": "Der Artikel beleuchtet, warum Medienkompetenz heute wichtiger denn je ist.",
+    "texto": "Angesichts der rasant wachsenden Menge an Informationen, die täglich über soziale Netzwerke verbreitet wird, gewinnt die Fähigkeit, Quellen kritisch zu hinterfragen, zunehmend an Bedeutung. Während früher wenige etablierte Medien den öffentlichen Diskurs prägten, kann heute im Grunde jeder Inhalte veröffentlichen, ohne dass deren Wahrheitsgehalt vorher überprüft wird. Dies hat zur Folge, dass sich Falschinformationen oft schneller verbreiten als faktenbasierte Richtigstellungen.\n\nBesonders problematisch wird diese Entwicklung dort, wo komplexe gesellschaftliche Themen vereinfacht oder bewusst verzerrt dargestellt werden, um Emotionen zu wecken. Studien legen nahe, dass Inhalte, die Empörung oder Angst auslösen, in sozialen Netzwerken deutlich häufiger geteilt werden als nüchterne, sachliche Berichte. Würde die Bevölkerung stärker darin geschult, Quellen zu prüfen und Inhalte kritisch einzuordnen, ließe sich die Verbreitung von Desinformation vermutlich erheblich eindämmen.\n\nAus diesem Grund fordern zahlreiche Bildungsexperten, dass Medienkompetenz schon in der Schule systematisch vermittelt werden sollte, anstatt sie dem Zufall zu überlassen. Einige Bundesländer haben bereits begonnen, entsprechende Unterrichtseinheiten einzuführen, in denen Schülerinnen und Schüler lernen, Quellen zu vergleichen und Manipulationstechniken zu erkennen. Ob solche Maßnahmen ausreichen, um der Herausforderung der digitalen Desinformation langfristig zu begegnen, wird sich jedoch erst in den kommenden Jahren zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text kann heute fast jeder Inhalte veröffentlichen, ohne dass sie geprüft werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Falschinformationen verbreiten sich dem Text zufolge langsamer als Richtigstellungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Inhalte, die Emotionen wie Angst auslösen, werden laut Studien häufiger geteilt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bundesländer haben bereits ein einheitliches Programm zur Medienkompetenz eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern, Medienkompetenz systematisch in der Schule zu vermitteln.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-verpflichtende-elternzeit",
+    "nivel": "B2",
+    "titulo": "Die Debatte um verpflichtende Elternzeit",
+    "descripcion": "Der Text untersucht Argumente für und gegen eine gesetzlich verpflichtende Elternzeit für Väter.",
+    "texto": "In der gesellschaftlichen Debatte um eine gerechtere Verteilung von Familienarbeit wird zunehmend diskutiert, ob Väter gesetzlich zu einer bestimmten Mindestdauer an Elternzeit verpflichtet werden sollten. Befürworter einer solchen Regelung argumentieren, dass sich dadurch traditionelle Rollenbilder langfristig auflösen ließen, da Väter auf diese Weise stärker in die frühe Kinderbetreuung eingebunden würden. Zudem könnten Mütter schneller in den Beruf zurückkehren, wenn die Betreuung gleichmäßiger zwischen den Elternteilen aufgeteilt wäre.\n\nGegner des Vorschlags wenden jedoch ein, dass eine staatliche Verpflichtung in die private Lebensgestaltung der Familien eingreife und individuelle Entscheidungen missachte. Sie führen an, dass manche Familien aus finanziellen oder beruflichen Gründen andere Lösungen bevorzugten und dass eine einheitliche Regelung diesen unterschiedlichen Lebenssituationen nicht gerecht werden könne. Außerdem wird befürchtet, dass kleine Unternehmen, die auf bestimmte Mitarbeiter angewiesen sind, durch eine verpflichtende Elternzeit vor organisatorische Schwierigkeiten gestellt würden.\n\nSkandinavische Länder, die bereits seit Jahren verpflichtende Vätermonate eingeführt haben, werden in der Debatte häufig als Vorbild genannt. Dort hätten sich sowohl die Beteiligung der Väter an der Kindererziehung als auch die Erwerbsquote der Mütter deutlich erhöht, wie mehrere Studien zeigen. Dennoch bleibt umstritten, ob sich diese Ergebnisse ohne Weiteres auf die deutsche Arbeitsmarktstruktur übertragen ließen, die sich in vielen Punkten von den skandinavischen Modellen unterscheidet.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter hoffen, dass traditionelle Rollenbilder durch die Regelung aufgelöst werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner des Vorschlags sehen keine Probleme mit staatlichem Eingriff in die Familienplanung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kleine Unternehmen könnten laut Text organisatorische Schwierigkeiten bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In skandinavischen Ländern gibt es noch keine verpflichtenden Vätermonate.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sagt, dass die Übertragbarkeit der skandinavischen Ergebnisse auf Deutschland umstritten bleibt.",
+        "respuesta": true
+      }
+    ]
   }
 ]
