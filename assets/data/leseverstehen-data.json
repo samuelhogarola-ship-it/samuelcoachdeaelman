@@ -42578,5 +42578,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-tierladen",
+    "nivel": "A1",
+    "titulo": "Im Tierladen",
+    "descripcion": "Nina geht mit ihrem Vater in den Tierladen und sucht einen Fisch.",
+    "texto": "Nina geht mit ihrem Vater in den Tierladen. Sie möchte einen Fisch für ihr Aquarium kaufen. Im Laden gibt es viele Tiere: Fische, Vögel und kleine Hasen. Nina schaut lange auf die bunten Fische.\n\nEin Verkäufer hilft Nina und ihrem Vater. Er zeigt ihnen einen kleinen, orangen Fisch. Nina mag den Fisch sehr und sagt: „Dieser Fisch ist perfekt!\" Ihr Vater kauft auch Futter für den Fisch.\n\nZu Hause setzt Nina den Fisch ins Aquarium. Der Fisch schwimmt schnell hin und her. Nina gibt ihm einen Namen: Felix. Sie ist sehr glücklich mit ihrem neuen Haustier.",
+    "preguntas": [
+      {
+        "enunciado": "Nina geht mit ihrer Mutter in den Tierladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Tierladen gibt es auch Vögel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina kauft einen blauen Fisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihr Vater kauft auch Futter für den Fisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina nennt den Fisch Felix.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unsere-katze-minka",
+    "nivel": "A1",
+    "titulo": "Unsere Katze Minka",
+    "descripcion": "Die Familie Berger stellt ihre Katze Minka vor.",
+    "texto": "Die Familie Berger hat eine Katze. Sie heißt Minka und ist zwei Jahre alt. Minka ist schwarz und weiß. Sie schläft gern auf dem Sofa im Wohnzimmer.\n\nAm Morgen isst Minka ihr Futter in der Küche. Danach spielt sie mit einem kleinen Ball. Die Kinder, Lea und Finn, spielen oft mit Minka. Minka mag die Kinder sehr.\n\nAm Abend sitzt Minka gern am Fenster. Sie schaut auf die Straße und beobachtet die Vögel. Die Familie Berger liebt ihre Katze Minka sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Minka ist eine Katze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka ist drei Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka schläft gern auf dem Sofa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea und Finn spielen nie mit Minka.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka sitzt am Abend gern am Fenster.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-schnee",
+    "nivel": "A1",
+    "titulo": "Der erste Schnee",
+    "descripcion": "Emma sieht im Winter den ersten Schnee und baut einen Schneemann.",
+    "texto": "Es ist Winter und es schneit zum ersten Mal. Emma schaut aus dem Fenster und sieht den weißen Schnee. Sie ist sehr glücklich und ruft: „Es schneit!\"\n\nEmma zieht schnell ihre Jacke und ihre Mütze an. Sie geht mit ihrem Bruder Max in den Garten. Zusammen bauen sie einen Schneemann. Der Schneemann hat eine Nase aus einer Karotte.\n\nNach dem Spielen trinken Emma und Max heißen Kakao in der Küche. Ihre Mutter macht auch Kekse. Der erste Schneetag war ein wunderschöner Tag für die ganze Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Es ist Sommer in der Geschichte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma freut sich über den Schnee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma baut den Schneemann allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schneemann hat eine Nase aus einer Karotte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma und Max trinken heißen Kakao.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-handyvertrag",
+    "nivel": "A2",
+    "titulo": "Der Handyvertrag",
+    "descripcion": "Tobias möchte seinen alten Handyvertrag kündigen und einen neuen abschließen.",
+    "texto": "Tobias hat seit vielen Jahren denselben Handyvertrag, aber er ist damit nicht mehr zufrieden, weil er zu wenig Internet im Monat hat. Deshalb ist er in ein Geschäft gegangen, um sich zu informieren. Der Verkäufer hat ihm mehrere Tarife gezeigt und erklärt, dass ein neuer Vertrag günstiger wäre.\n\nTobias hat sich die Angebote genau angeschaut, weil er nicht zu viel Geld ausgeben wollte. Nachdem er lange überlegt hatte, hat er sich für einen Tarif mit mehr Internet entschieden. Der Verkäufer hat ihm erklärt, dass die Kündigung des alten Vertrags automatisch passiert, sobald der neue Vertrag beginnt.\n\nZu Hause hat Tobias seiner Freundin von dem neuen Vertrag erzählt. Sie hat sich gefreut, weil sie jetzt öfter Videos mit ihm teilen kann, ohne dass das Internet zu langsam wird. Tobias ist froh, dass er sich endlich um das Problem gekümmert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias war mit seinem alten Vertrag sehr zufrieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias ist in ein Geschäft gegangen, um sich zu informieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias hat sich sofort für den ersten Tarif entschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der alte Vertrag endet automatisch, wenn der neue beginnt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias' Freundin ärgert sich über den neuen Vertrag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reparatur-der-waschmaschine",
+    "nivel": "A2",
+    "titulo": "Die Reparatur der Waschmaschine",
+    "descripcion": "Herr Keller muss einen Techniker rufen, weil seine Waschmaschine kaputt ist.",
+    "texto": "Herr Keller wollte am Samstagmorgen seine Wäsche waschen, aber die Waschmaschine hat nicht funktioniert. Er hat mehrmals versucht, das Programm zu starten, aber die Maschine hat sich nicht bewegt. Deshalb hat er einen Techniker angerufen, der am Nachmittag vorbeikommen sollte.\n\nDer Techniker ist pünktlich gekommen und hat die Waschmaschine genau untersucht. Er hat erklärt, dass ein kleines Teil kaputt war, weil die Maschine schon sehr alt ist. Herr Keller hat gefragt, ob sich die Reparatur überhaupt lohnt, weil er auch eine neue Maschine kaufen könnte.\n\nDer Techniker hat gesagt, dass die Reparatur günstiger ist als eine neue Waschmaschine. Herr Keller hat sich deshalb für die Reparatur entschieden. Am Abend hat die Maschine wieder normal funktioniert, und Herr Keller konnte endlich seine Wäsche waschen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Waschmaschine hat am Samstag normal funktioniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Keller hat einen Techniker angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Techniker ist nicht gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Reparatur war teurer als eine neue Waschmaschine.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend konnte Herr Keller seine Wäsche waschen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-missverstaendnis-im-restaurant",
+    "nivel": "A2",
+    "titulo": "Das Missverständnis im Restaurant",
+    "descripcion": "Beim Abendessen kommt es zu einer Verwechslung der Bestellung.",
+    "texto": "Laura und ihr Freund Ben sind in ein neues Restaurant gegangen, weil sie es schon lange ausprobieren wollten. Sie haben beide Fisch bestellt, aber der Kellner hat sich die Bestellung nicht richtig notiert. Nach zwanzig Minuten hat er ihnen stattdessen zwei Teller mit Nudeln gebracht.\n\nLaura wollte zuerst nichts sagen, weil sie den Kellner nicht ärgern wollte. Ben hat jedoch freundlich erklärt, dass sie Fisch bestellt hatten. Der Kellner hat sich entschuldigt und erklärt, dass er die Bestellung mit einem anderen Tisch verwechselt hatte.\n\nNach kurzer Zeit hat der Kellner den richtigen Fisch gebracht, und als Entschuldigung hat das Restaurant ihnen auch ein Dessert geschenkt. Laura und Ben haben darüber gelacht und fanden das Essen am Ende sehr lecker. Sie haben beschlossen, bald wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Laura und Ben haben Fisch bestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kellner hat sofort die richtige Bestellung gebracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben hat dem Kellner von dem Fehler erzählt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Restaurant hat ihnen kein Dessert geschenkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura und Ben wollen nicht mehr in das Restaurant gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-kollegin-aus-polen",
+    "nivel": "B1",
+    "titulo": "Die neue Kollegin aus Polen",
+    "descripcion": "Im Büro beginnt eine neue Kollegin, und das Team lernt sie kennen.",
+    "texto": "Seit letzter Woche arbeitet Agnieszka im Büro von Markus, nachdem sie vor einigen Monaten aus Polen nach Deutschland gezogen war. Obwohl sie schon gut Deutsch sprach, war sie am Anfang etwas unsicher, weil sie die Abläufe im Büro noch nicht kannte. Markus hat sich deshalb bereit erklärt, ihr in den ersten Wochen zu helfen.\n\nWährend der Mittagspause hat Agnieszka von ihrem Leben in Polen erzählt und davon, wie unterschiedlich manche Dinge in Deutschland organisiert sind. Die Kollegen fanden es spannend, mehr über ihre Kultur zu erfahren, und stellten viele Fragen. Trotzdem fiel es Agnieszka manchmal schwer, bestimmte Redewendungen zu verstehen, die ihre Kollegen im Gespräch benutzten.\n\nNach einigen Wochen fühlte sich Agnieszka deutlich wohler im Team, nachdem sie an mehreren gemeinsamen Projekten mitgearbeitet hatte. Markus war beeindruckt davon, wie schnell sie sich an die neuen Aufgaben gewöhnt hatte. Am Ende des Monats lud das ganze Team Agnieszka zu einem gemeinsamen Abendessen ein, um sie offiziell willkommen zu heißen.",
+    "preguntas": [
+      {
+        "enunciado": "Agnieszka arbeitet schon seit Jahren im selben Büro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hilft Agnieszka in den ersten Wochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Agnieszka versteht von Anfang an alle Redewendungen ihrer Kollegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Agnieszka arbeitet an gemeinsamen Projekten mit dem Team.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Team lädt Agnieszka nie zu einem gemeinsamen Essen ein.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-im-praktikum",
+    "nivel": "B1",
+    "titulo": "Der erste Tag im Praktikum",
+    "descripcion": "Tim beginnt sein Praktikum in einer Werbeagentur und erlebt einen aufregenden Tag.",
+    "texto": "Tim war schon seit Tagen nervös, weil heute sein erster Tag im Praktikum bei einer Werbeagentur begann. Obwohl er sich gut vorbereitet hatte, wusste er nicht genau, was ihn erwarten würde. Als er morgens im Büro ankam, wurde er freundlich von seiner Chefin begrüßt, die ihm sofort das ganze Team vorstellte.\n\nNachdem Tim seinen Arbeitsplatz gezeigt bekommen hatte, durfte er bei einem Meeting über ein neues Werbeprojekt dabei sein. Zunächst verstand er nicht alle Fachbegriffe, die seine Kollegen benutzten, traute sich aber trotzdem, Fragen zu stellen. Seine Kollegen erklärten ihm geduldig, worum es in dem Projekt ging, und Tim fand die Arbeit von Minute zu Minute interessanter.\n\nAm Nachmittag durfte Tim bereits erste eigene Ideen für eine Anzeige vorschlagen, obwohl er eigentlich nur zuschauen sollte. Seine Chefin lobte seine Kreativität und ermutigte ihn, auch in den nächsten Wochen aktiv mitzuarbeiten. Als Tim abends nach Hause fuhr, war er müde, aber sehr zufrieden mit seinem ersten Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Tim war vor seinem ersten Praktikumstag völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Chefin begrüßt Tim freundlich und stellt ihm das Team vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim versteht von Anfang an alle Fachbegriffe im Meeting.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim darf am Nachmittag eigene Ideen vorschlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim ist am Ende des Tages unzufrieden mit seinem Praktikum.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-mit-dem-mitbewohner",
+    "nivel": "B1",
+    "titulo": "Der Streit mit dem Mitbewohner",
+    "descripcion": "Zwischen zwei Mitbewohnern kommt es wegen der Hausarbeit zu Spannungen.",
+    "texto": "Seit einigen Wochen ärgert sich Julia darüber, dass ihr Mitbewohner Tom nie den Abwasch macht, obwohl sie sich klar abgesprochen hatten, die Hausarbeit zu teilen. Zunächst hat Julia nichts gesagt, weil sie keinen Streit wollte, aber die schmutzigen Teller haben sich in der Küche immer weiter gestapelt. Irgendwann konnte sie ihren Ärger nicht mehr zurückhalten.\n\nAls Tom eines Abends nach Hause kam, hat Julia ihm offen gesagt, dass sie mit der Situation nicht mehr zufrieden war. Tom war zunächst überrascht, weil er gar nicht bemerkt hatte, wie sehr Julia das gestört hat. Nachdem sie beide ruhig miteinander gesprochen hatten, erklärte Tom, dass er in letzter Zeit sehr viel Stress in der Arbeit gehabt hatte.\n\nAm Ende haben Julia und Tom einen neuen Plan für die Hausarbeit aufgestellt, nachdem sie eingesehen hatten, dass klare Regeln wichtig sind. Obwohl der Streit unangenehm war, half er beiden, offener miteinander zu kommunizieren. Seitdem läuft das Zusammenleben in der Wohngemeinschaft deutlich besser.",
+    "preguntas": [
+      {
+        "enunciado": "Tom macht regelmäßig den Abwasch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia spricht Tom sofort auf das Problem an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom hatte in letzter Zeit viel Stress in der Arbeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia und Tom stellen am Ende einen neuen Plan für die Hausarbeit auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Streit läuft das Zusammenleben schlechter als vorher.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-vegane-ernaehrung",
+    "nivel": "B2",
+    "titulo": "Die Debatte um vegane Ernährung",
+    "descripcion": "Ein Kommentar beleuchtet die gesellschaftliche Diskussion über pflanzliche Ernährung.",
+    "texto": "In den letzten Jahren hat sich die Debatte um vegane Ernährung von einem Nischenthema zu einem zentralen Bestandteil des gesellschaftlichen Diskurses entwickelt. Während Befürworter betonen, dass der Verzicht auf tierische Produkte sowohl dem Klimaschutz als auch dem Tierwohl zugutekomme, warnen Kritiker davor, pflanzliche Ernährung pauschal als die einzig richtige Lösung darzustellen. Diese Polarisierung erschwert es zunehmend, sachliche Argumente von ideologisch gefärbten Positionen zu unterscheiden.\n\nBesonders kontrovers wird diskutiert, inwiefern eine vollständig vegane Ernährung tatsächlich für alle Bevölkerungsgruppen geeignet wäre. Ernährungswissenschaftler weisen darauf hin, dass eine ausgewogene pflanzliche Ernährung zwar grundsätzlich möglich sei, jedoch ein gewisses Maß an Wissen über Nährstoffe voraussetze, das nicht jeder Mensch ohne Weiteres habe. Gäbe es keine entsprechende Aufklärung, bestünde die Gefahr, dass Mangelerscheinungen auftreten, die sich langfristig negativ auf die Gesundheit auswirken könnten.\n\nGleichzeitig verändert sich der Lebensmittelmarkt rasant, da immer mehr Unternehmen pflanzliche Alternativen zu klassischen tierischen Produkten anbieten. Dies hat dazu geführt, dass veganes Essen inzwischen auch außerhalb spezialisierter Geschäfte leicht erhältlich ist. Ob diese Entwicklung langfristig zu einem grundlegenden Wandel der Esskultur führen wird oder ob vegane Ernährung eine Nische unter vielen bleibt, lässt sich heute noch nicht abschließend beurteilen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text ist die Debatte um vegane Ernährung heute weniger relevant als früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter veganer Ernährung nennen Klimaschutz und Tierwohl als Argumente.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ernährungswissenschaftler sagen, dass vegane Ernährung ohne Wissen über Nährstoffe risikofrei ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Immer mehr Unternehmen bieten pflanzliche Alternativen an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet eindeutig, dass vegane Ernährung bald zur Norm werden wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-und-individuelle-verantwortung",
+    "nivel": "B2",
+    "titulo": "Klimapolitik und individuelle Verantwortung",
+    "descripcion": "Ein Essay fragt, ob Klimaschutz vor allem Sache des Einzelnen oder der Politik ist.",
+    "texto": "In der öffentlichen Debatte über den Klimawandel wird häufig diskutiert, ob die Verantwortung für wirksamen Klimaschutz in erster Linie bei einzelnen Bürgern oder bei politischen Institutionen liegt. Während manche argumentieren, dass jeder Einzelne durch bewussten Konsum und einen sparsamen Lebensstil einen entscheidenden Beitrag leisten könne, verweisen andere darauf, dass individuelles Verhalten angesichts der globalen Dimension des Problems kaum ins Gewicht falle.\n\nKritiker dieser individualisierten Sichtweise bemängeln, dass sie von der eigentlichen Verantwortung großer Industriekonzerne ablenke, die für einen erheblichen Teil der weltweiten Emissionen verantwortlich seien. Wären politische Rahmenbedingungen nicht grundlegend verändert worden, so ihr Argument, würde selbst das vorbildlichste individuelle Verhalten kaum ausreichen, um die gesteckten Klimaziele zu erreichen. Demnach müsse die Politik verbindliche Regeln für Unternehmen schaffen, anstatt die Verantwortung allein auf die Konsumenten abzuwälzen.\n\nAndere Stimmen betonen hingegen, dass gesellschaftlicher Wandel selten allein von oben verordnet werden könne, sondern auch von einer veränderten Nachfrage der Verbraucher abhänge. Letztlich scheint es wenig sinnvoll, individuelle und politische Verantwortung gegeneinander auszuspielen. Vielmehr dürfte ein wirksamer Klimaschutz nur gelingen, wenn persönliches Engagement und entschlossene politische Maßnahmen zusammenwirken.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text sind sich alle Experten einig, dass nur Einzelpersonen für den Klimaschutz verantwortlich sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass die individualisierte Sichtweise von der Verantwortung der Industrie ablenkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass politische Regeln für Unternehmen überflüssig seien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Stimmen betonen, dass die Nachfrage der Verbraucher auch eine Rolle spielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu dem Schluss, dass individuelles und politisches Handeln zusammenwirken sollten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-generationenkonflikt-in-der-arbeitswelt",
+    "nivel": "B2",
+    "titulo": "Der Generationenkonflikt in der Arbeitswelt",
+    "descripcion": "Ein Artikel untersucht die unterschiedlichen Erwartungen verschiedener Generationen im Berufsleben.",
+    "texto": "In vielen Unternehmen treffen heute mehrere Generationen mit sehr unterschiedlichen Vorstellungen von Arbeit aufeinander. Während ältere Beschäftigte häufig Wert auf Loyalität gegenüber dem Arbeitgeber und langfristige Anstellungsverhältnisse legen, wünschen sich jüngere Mitarbeitende zunehmend Flexibilität und eine klare Trennung zwischen Beruf und Privatleben. Diese unterschiedlichen Prioritäten führen nicht selten zu Missverständnissen zwischen den Generationen.\n\nBesonders deutlich zeigt sich dieser Konflikt in der Diskussion um Homeoffice und flexible Arbeitszeiten. Jüngere Angestellte empfinden starre Bürozeiten oft als überholt und fordern mehr Selbstbestimmung darüber, wann und wo sie arbeiten. Ältere Führungskräfte hingegen befürchten mitunter, dass ohne physische Präsenz im Büro der Teamgeist und die informelle Kommunikation leiden könnten. Wäre keine der beiden Seiten bereit, von ihrer Position abzurücken, drohten solche Spannungen langfristig die Zusammenarbeit zu belasten.\n\nUm diesen Konflikt zu entschärfen, setzen immer mehr Unternehmen auf einen offenen Dialog zwischen den Generationen, etwa durch sogenanntes Reverse Mentoring, bei dem jüngere Mitarbeitende ihr Wissen über digitale Werkzeuge an ältere Kollegen weitergeben. Umgekehrt profitieren jüngere Beschäftigte von der Erfahrung ihrer älteren Kollegen in Fragen der Berufsstrategie. Letztlich zeigt sich, dass der Generationenkonflikt nicht zwangsläufig ein Hindernis sein muss, sondern bei richtigem Umgang auch als Chance für gegenseitiges Lernen verstanden werden kann.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text legen ältere Beschäftigte oft Wert auf langfristige Anstellungsverhältnisse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jüngere Mitarbeitende wünschen sich laut Text vor allem starre Bürozeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Führungskräfte befürchten, dass Homeoffice den Teamgeist beeinträchtigen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim Reverse Mentoring geben ältere Mitarbeitende ihr Wissen über digitale Werkzeuge weiter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht den Generationenkonflikt ausschließlich als Problem ohne jede Chance.",
+        "respuesta": false
+      }
+    ]
   }
 ]
