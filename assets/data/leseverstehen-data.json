@@ -42230,5 +42230,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-haustier-der-hund",
+    "nivel": "A1",
+    "titulo": "Mein Haustier, der Hund",
+    "descripcion": "Lisa erzählt kurz über ihren Hund und seinen Tag.",
+    "texto": "Ich heiße Lisa. Ich habe einen Hund. Er heißt Bruno. Bruno ist braun und klein.\n\nJeden Morgen gehe ich mit Bruno in den Park. Dort spielt er mit einem Ball. Danach isst er sein Futter und trinkt Wasser.\n\nAm Abend schläft Bruno neben meinem Bett. Ich liebe meinen Hund sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Lisas Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist groß und schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa geht mit Bruno in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno trinkt keine Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno schläft neben Lisas Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenmarkt-am-samstagmorgen",
+    "nivel": "A1",
+    "titulo": "Der Markt am Samstag",
+    "descripcion": "Eine Familie kauft am Samstag frisches Obst und Gemüse auf dem Markt.",
+    "texto": "Am Samstag gehen Herr und Frau Weber auf den Markt. Sie kaufen Äpfel, Tomaten und Brot. Das Obst ist frisch und bunt.\n\nAn einem Stand kaufen sie auch Käse und Eier. Die Verkäuferin ist freundlich. Sie sagt: „Guten Tag, was möchten Sie kaufen?“\n\nNach dem Einkauf trinken sie einen Kaffee in einem kleinen Café. Der Markt ist sehr voll heute.",
+    "preguntas": [
+      {
+        "enunciado": "Herr und Frau Weber gehen am Sonntag auf den Markt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie kaufen Äpfel und Tomaten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Verkäuferin ist unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie trinken nach dem Einkauf einen Kaffee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Markt ist leer.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-neuer-pullover",
+    "nivel": "A1",
+    "titulo": "Ein neuer Pullover",
+    "descripcion": "Tom kauft im Geschäft einen neuen blauen Pullover.",
+    "texto": "Tom braucht einen neuen Pullover. Er geht in ein Geschäft in der Stadt. Dort sieht er viele Farben: rot, grün, gelb und blau.\n\nTom mag die Farbe Blau am meisten. Er probiert den Pullover an. Er passt gut. Der Pullover kostet zwanzig Euro.\n\nTom bezahlt an der Kasse und geht glücklich nach Hause. Er trägt den Pullover schon am nächsten Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Tom kauft eine neue Hose.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Geschäft gibt es viele Farben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom mag die Farbe Rot am meisten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Pullover kostet zwanzig Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom ist am Ende traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "sabines-umzug-mit-freunden",
+    "nivel": "A2",
+    "titulo": "Der Umzug in die neue Wohnung",
+    "descripcion": "Sabine berichtet, wie sie mit Freunden in eine neue Wohnung umgezogen ist.",
+    "texto": "Letzten Monat ist Sabine in eine neue Wohnung umgezogen. Sie hat lange nach einer passenden Wohnung gesucht, weil die Mieten in der Stadt sehr hoch sind. Endlich hat sie eine schöne Wohnung in der Nähe des Parks gefunden.\n\nAm Umzugstag haben ihr drei Freunde geholfen. Sie haben Kisten getragen und Möbel aufgebaut. Weil es viel zu tun gab, haben sie erst am Abend eine Pause gemacht und Pizza bestellt.\n\nSabine war müde, aber sehr zufrieden. Sie hat gesagt, dass die neue Wohnung viel heller ist als die alte.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine ist vor einer Woche umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mieten in der Stadt sind sehr hoch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat Sabine beim Umzug geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde haben am Abend Pizza bestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine findet die neue Wohnung dunkler als die alte.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mias-brief-vom-schulausflug",
+    "nivel": "A2",
+    "titulo": "Der Brief an die Oma",
+    "descripcion": "Ein Mädchen schreibt ihrer Oma einen Brief über die Schule und den Urlaub.",
+    "texto": "Liebe Oma, ich schreibe dir diesen Brief, weil ich dir von meinem Schulausflug erzählen möchte. Wir sind letzte Woche in den Zoo gefahren und haben viele Tiere gesehen.\n\nIch war sehr glücklich, als ich die Elefanten gesehen habe. Mein Lehrer hat gesagt, dass wir im Sommer wieder einen Ausflug machen. Ich hoffe, dass wir dann ans Meer fahren.\n\nIch freue mich schon auf die Ferien, wenn ich dich wieder besuchen kann. Viele Grüße, deine Mia.",
+    "preguntas": [
+      {
+        "enunciado": "Mia schreibt ihrer Oma einen Brief.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse ist ins Museum gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hat Elefanten im Zoo gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der nächste Ausflug soll in den Winter sein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia freut sich auf die Ferien.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-nachbar-aus-spanien",
+    "nivel": "A2",
+    "titulo": "Der neue Nachbar aus Spanien",
+    "descripcion": "Ein neuer Nachbar aus Spanien zieht ein und lernt die Hausgemeinschaft kennen.",
+    "texto": "Im dritten Stock ist vor zwei Wochen ein neuer Nachbar eingezogen. Er heißt Carlos und kommt aus Spanien. Weil er noch nicht viele Leute kennt, hat er die anderen Bewohner zu einem kleinen Fest eingeladen.\n\nAlle Nachbarn sind gekommen und haben spanisches Essen probiert, das Carlos gekocht hat. Sie haben zusammen gelacht und über ihre Länder gesprochen. Frau Müller hat gesagt, dass sie sich sehr über den netten neuen Nachbarn freut.\n\nAm Ende des Abends hat Carlos erzählt, dass er in Deutschland arbeiten wird, weil er hier eine gute Stelle gefunden hat.",
+    "preguntas": [
+      {
+        "enunciado": "Carlos kommt aus Italien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carlos hat die Nachbarn zu einem Fest eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand ist zum Fest gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Müller freut sich über den neuen Nachbarn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carlos wird in Spanien arbeiten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "jonas-umzug-in-eine-fremde-stadt",
+    "nivel": "B1",
+    "titulo": "Der Umzug in eine andere Stadt",
+    "descripcion": "Jonas erzählt, wie schwer ihm der Umzug in eine fremde Stadt gefallen ist und wie er sich eingelebt hat.",
+    "texto": "Als Jonas vor einem Jahr aus beruflichen Gründen in eine andere Stadt ziehen musste, fiel ihm der Abschied von seinen Freunden sehr schwer. Obwohl er die neue Stelle spannend fand, hatte er Angst, in der fremden Stadt niemanden zu kennen.\n\nIn den ersten Wochen fühlte er sich oft einsam, trotzdem versuchte er, aktiv zu bleiben. Nachdem er einem Sportverein beigetreten war, lernte er schnell neue Leute kennen. Mit der Zeit entstanden echte Freundschaften, die ihm halfen, sich in der neuen Umgebung wohlzufühlen.\n\nHeute, ein Jahr später, sagt Jonas, dass der Umzug die beste Entscheidung seines Lebens war, obwohl er am Anfang sehr schwierig erschien. Er rät jedem, der vor einem ähnlichen Schritt steht, offen auf andere Menschen zuzugehen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist aus privaten Gründen umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas fühlte sich in den ersten Wochen einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er ist keinem Verein beigetreten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Durch den Sportverein hat er neue Freunde gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas bereut den Umzug heute noch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-berufsleben",
+    "nivel": "B1",
+    "titulo": "Ein Tag im Berufsleben",
+    "descripcion": "Ein Bericht über den typischen Arbeitstag einer jungen Krankenpflegerin.",
+    "texto": "Anna arbeitet seit zwei Jahren als Krankenpflegerin in einem großen Krankenhaus. Ihr Arbeitstag beginnt früh am Morgen, nachdem sie den Bericht der Nachtschicht gelesen hat. Obwohl die Arbeit körperlich und psychisch anstrengend ist, macht sie ihr viel Freude, weil sie Menschen in schwierigen Situationen helfen kann.\n\nAn einem typischen Tag betreut Anna mehrere Patienten gleichzeitig. Sie misst den Blutdruck, verteilt Medikamente und spricht mit den Familien der Patienten. Trotzdem findet sie es wichtig, sich auch Zeit für ein freundliches Gespräch zu nehmen, da das den Patienten oft mehr hilft als jede Behandlung.\n\nAm Ende ihrer Schicht ist Anna meist erschöpft, aber zufrieden. Sie sagt, dass sie ihren Beruf trotz der Herausforderungen nie bereut hat, weil sie jeden Tag das Gefühl hat, etwas Sinnvolles zu tun.",
+    "preguntas": [
+      {
+        "enunciado": "Anna arbeitet seit zwei Jahren als Krankenpflegerin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna findet ihre Arbeit nicht anstrengend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie spricht nie mit den Familien der Patienten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna nimmt sich Zeit für freundliche Gespräche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna bereut ihren Beruf.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest-in-lindenau",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest im Sommer",
+    "descripcion": "Eine Kleinstadt organisiert ein großes Stadtfest, obwohl das Wetter unsicher ist.",
+    "texto": "Jedes Jahr im Juli veranstaltet die Kleinstadt Lindenau ein großes Stadtfest. Obwohl die Wettervorhersage in diesem Jahr Regen angekündigt hatte, entschieden sich die Organisatoren, das Fest trotzdem stattfinden zu lassen.\n\nNachdem die ersten Stände aufgebaut waren, kamen immer mehr Besucher auf den Marktplatz. Es gab Musik, regionales Essen und ein Programm für Kinder. Viele Vereine der Stadt beteiligten sich, obwohl die Vorbereitung viel Zeit gekostet hatte.\n\nAm Abend, nachdem die Sonne doch noch herausgekommen war, feierten hunderte Menschen bis spät in die Nacht. Der Bürgermeister sagte, dass das Fest trotz der anfänglichen Sorgen ein großer Erfolg gewesen sei.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest findet jedes Jahr im Dezember statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wettervorhersage hatte Regen angekündigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab kein Programm für Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend kam die Sonne noch heraus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bürgermeister nannte das Fest einen Misserfolg.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-arbeit-im-homeoffice",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Arbeit im Homeoffice",
+    "descripcion": "Eine Analyse darüber, wie das Homeoffice die Arbeitswelt und das gesellschaftliche Miteinander verändert.",
+    "texto": "Seit einigen Jahren hat sich das Homeoffice von einer Ausnahme zu einer festen Säule der modernen Arbeitswelt entwickelt. Viele Unternehmen, die früher auf Anwesenheit im Büro bestanden hätten, bieten ihren Mitarbeitenden heute flexible Arbeitsmodelle an. Befürworter argumentieren, dass dadurch nicht nur die Produktivität gesteigert, sondern auch die Vereinbarkeit von Beruf und Familie erheblich verbessert werde.\n\nGleichzeitig mehren sich jedoch kritische Stimmen, die vor den sozialen Folgen dieser Entwicklung warnen. Wenn der persönliche Kontakt zu Kolleginnen und Kollegen dauerhaft fehlte, könnte dies, so wird befürchtet, zu einer schleichenden Vereinsamung führen. Zudem wird diskutiert, ob durch das Homeoffice bestehende Ungleichheiten verstärkt werden, da nicht jeder Beruf sich für die Arbeit von zu Hause eignet.\n\nExperten sind sich einig, dass eine Rückkehr zum reinen Büroalltag kaum wahrscheinlich ist. Stattdessen wird vermutet, dass sich hybride Modelle durchsetzen werden, bei denen Präsenzzeiten und Homeoffice-Tage kombiniert werden. Ob dies tatsächlich zu mehr Zufriedenheit führt, müsste jedoch durch weitere Studien untersucht werden, bevor endgültige Schlüsse gezogen werden können.",
+    "preguntas": [
+      {
+        "enunciado": "Homeoffice war früher die Ausnahme und ist heute weit verbreitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten lehnen das Homeoffice vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten eine mögliche Vereinsamung durch fehlenden Kontakt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jeder Beruf eignet sich gleich gut für die Arbeit von zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hybride Modelle, die Büro und Homeoffice kombinieren, werden als wahrscheinlich angesehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "bildungsgerechtigkeit-und-digitale-kluft",
+    "nivel": "B2",
+    "titulo": "Bildungsgerechtigkeit und digitale Kluft",
+    "descripcion": "Ein Artikel über die Ungleichheiten im Bildungssystem, die durch digitale Lernmittel entstehen können.",
+    "texto": "Die Digitalisierung des Bildungswesens wird oft als Chance beschrieben, Lerninhalte individueller und zugänglicher zu gestalten. Tatsächlich ermöglichen digitale Plattformen es Schülerinnen und Schülern, in ihrem eigenen Tempo zu lernen und auf eine Vielzahl von Materialien zuzugreifen, die in einem herkömmlichen Unterricht kaum verfügbar wären.\n\nAllerdings zeigt sich zunehmend, dass diese Entwicklung auch neue Formen der Ungleichheit hervorbringen kann. Kinder aus Familien mit geringerem Einkommen haben häufig keinen Zugang zu einem eigenen Computer oder einer stabilen Internetverbindung, was zur Folge hat, dass sie beim digitalen Lernen benachteiligt werden. Diese sogenannte digitale Kluft betrifft nicht nur die technische Ausstattung, sondern auch die Fähigkeit, digitale Medien kompetent zu nutzen.\n\nUm dieser Entwicklung entgegenzuwirken, müsste in die technische Ausstattung von Schulen und einkommensschwachen Haushalten investiert werden. Würden Schulen zudem verpflichtet, digitale Kompetenzen systematisch zu vermitteln, könnte langfristig verhindert werden, dass die soziale Herkunft über den Bildungserfolg entscheidet.",
+    "preguntas": [
+      {
+        "enunciado": "Digitale Lernmittel gelten grundsätzlich als Chance für individuelleres Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Familien haben den gleichen Zugang zu Computern und Internet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die digitale Kluft betrifft nur die technische Ausstattung, nicht die Kompetenz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Investitionen in Schulen und Haushalte werden als möglicher Lösungsweg genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert, dass Schulen digitale Kompetenzen vermitteln sollten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkritik-in-zeiten-der-informationsflut",
+    "nivel": "B2",
+    "titulo": "Medienkritik in Zeiten der Informationsflut",
+    "descripcion": "Eine Betrachtung darüber, wie die ständige Verfügbarkeit von Nachrichten die kritische Urteilsfähigkeit beeinflusst.",
+    "texto": "Noch nie zuvor hatten Menschen Zugang zu einer derart großen Menge an Informationen wie heute. Nachrichtenportale, soziale Netzwerke und Messenger-Dienste liefern permanent neue Inhalte, wodurch der Eindruck entstehen kann, stets bestens informiert zu sein. Kritiker weisen jedoch darauf hin, dass die schiere Menge an Information nicht automatisch mit einem besseren Verständnis der Welt einhergehe.\n\nIm Gegenteil wird häufig beobachtet, dass komplexe Sachverhalte auf plakative Schlagzeilen reduziert werden, um in der kurzen Aufmerksamkeitsspanne der Nutzer wahrgenommen zu werden. Dadurch entsteht die Gefahr, dass differenzierte Betrachtungen, die eigentlich notwendig wären, zunehmend verschwinden. Hinzu kommt, dass Algorithmen, die Inhalte nach Vorlieben der Nutzer sortieren, dazu beitragen können, dass vor allem jene Meinungen verstärkt werden, die der eigenen Weltanschauung bereits entsprechen.\n\nViele Medienwissenschaftler fordern deshalb, dass Medienkompetenz stärker in Schulen vermittelt werden sollte, damit junge Menschen lernen, Quellen zu hinterfragen und zwischen seriösem Journalismus und Falschinformationen zu unterscheiden. Nur wenn Rezipienten in der Lage wären, Informationen kritisch einzuordnen, ließe sich der negativen Wirkung der Informationsflut wirksam entgegentreten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text behauptet, mehr Information führe automatisch zu besserem Verständnis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Komplexe Themen werden laut Text oft auf plakative Schlagzeilen reduziert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Algorithmen können laut Text bestehende Meinungen verstärken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienwissenschaftler lehnen Medienkompetenz in Schulen ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht kritisches Hinterfragen von Quellen als wichtige Fähigkeit an.",
+        "respuesta": true
+      }
+    ]
   }
 ]
