@@ -2,7 +2,7 @@
 
 Fecha de desarrollo y actualización: 2026-10-05 09:25 (Asia/Makassar, UTC+08:00).
 Base revisada: main c481984c2a811cb5c3f5dc90b54a8103307052fe.
-Estado: desarrollado en rama de revisión; no fusionado ni publicado.
+Estado actualizado el 2026-10-07: desarrollado y fusionado mediante PR #106; publicación pendiente.
 
 ## Resultado
 
@@ -25,7 +25,7 @@ brace-expansion se actualiza de 5.0.9 a 5.0.12 dentro del rango de la dependenci
 | [104](https://github.com/samuelhogarola-ship-it/samuelcoachdeaelman/pull/104) | Rama antigua con 1.443 archivos. Reutiliza dos slugs publicados para historias diferentes y mueve las originales a nuevos slugs. Recuperación selectiva preservando los originales; no integrar toda la rama. |
 | [105](https://github.com/samuelhogarola-ship-it/samuelcoachdeaelman/pull/105) | Se recuperan ocho lecturas revisadas. Su descripción no corresponde al banco cloze real: los ocho nuevos son derivados de las mismas lecturas. Evitar sustituir el corpus actual por su versión antigua. |
 
-Las PR originales permanecen abiertas. No se ha fusionado ni desplegado ninguna.
+Las PR originales permanecen abiertas. La recuperación selectiva se fusionó mediante la PR #106; ninguna de las PR antiguas se integró y no se ha desplegado este lote.
 
 ## Revisión editorial
 
@@ -46,4 +46,4 @@ En los textos B1 se sustituyen generalizaciones no sustentadas por situaciones c
 
 La escuela sigue pendiente de restaurar/verificar el backend de autenticación, validar las migraciones del runbook crítico y definir roles/retención antes de trasladar informes de alumnos a almacenamiento compartido.
 
-Registro WF-Studio: pendiente de acceso y lectura de verificación. Enlaces de revisión y registro se añadirán cuando existan; no hay despliegue nuevo de producción.
+Registro WF-Studio: pendiente de sesión administrativa y lectura de verificación. Evidencia de integración: https://github.com/samuelhogarola-ship-it/samuelcoachdeaelman/pull/106. No hay despliegue nuevo de producción.
