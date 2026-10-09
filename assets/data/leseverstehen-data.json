@@ -42926,5 +42926,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-hund-von-nebenan",
+    "nivel": "A1",
+    "titulo": "Der Hund von nebenan",
+    "descripcion": "Paul lernt den neuen Hund seiner Nachbarn kennen.",
+    "texto": "Paul wohnt in einem Haus mit vielen Nachbarn. Die Familie Berger wohnt direkt nebenan. Sie haben einen neuen Hund. Der Hund heißt Bruno und ist noch klein. Bruno hat braunes Fell und große Ohren. Paul mag Hunde sehr gern.\n\nJeden Nachmittag geht Paul in den Garten. Dort spielt er oft mit Bruno. Bruno läuft schnell und bringt einen Ball zurück. „Bruno, hol den Ball!\", ruft Paul. Der Hund freut sich und springt herum. Frau Berger lacht und gibt Paul einen Keks für Bruno.\n\nAm Wochenende darf Paul mit Bruno spazieren gehen. Sie gehen zusammen in den Park. Dort treffen sie andere Hunde und ihre Besitzer. Paul ist sehr glücklich und wünscht sich auch einen Hund.",
+    "preguntas": [
+      {
+        "enunciado": "Bruno ist ein alter Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno hat braunes Fell.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul spielt jeden Nachmittag mit Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul mag keine Hunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und Bruno gehen am Wochenende in den Park.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsessen-pizza",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsessen ist Pizza",
+    "descripcion": "Jonas erzählt, warum Pizza sein Lieblingsessen ist.",
+    "texto": "Ich heiße Jonas und ich bin zehn Jahre alt. Mein Lieblingsessen ist Pizza. Ich esse Pizza am liebsten mit Käse und Tomaten. Manchmal nehme ich auch Pilze dazu. Meine Mutter macht die Pizza selbst. Das Rezept ist nicht schwer.\n\nAm Freitagabend kocht meine Familie immer zusammen. Mein Vater macht den Teig, und ich lege den Käse auf die Pizza. Meine kleine Schwester mag lieber Pizza mit Schinken. „Mmh, das riecht gut!\", sagt mein Vater, wenn die Pizza im Ofen ist.\n\nNach dem Essen trinken wir alle einen Saft und sprechen über die Woche. Ich finde, der Pizzaabend ist der schönste Moment der Woche.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas mag am liebsten Pasta.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie kocht am Freitagabend zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas' Vater macht den Teig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schwester mag Pizza mit Pilzen am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Essen trinkt die Familie Saft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-an-den-see",
+    "nivel": "A1",
+    "titulo": "Ein Ausflug an den See",
+    "descripcion": "Mia und ihre Familie machen einen Ausflug an den See.",
+    "texto": "Am Samstag fährt Mia mit ihrer Familie an den See. Die Sonne scheint, und der Himmel ist blau. Mia packt einen Ball und ein Handtuch ein. Ihr Bruder Tom nimmt sein Fahrrad mit.\n\nAm See gibt es viel Platz zum Spielen. Mia schwimmt im Wasser, und Tom fährt am Ufer mit dem Fahrrad. Die Mutter liegt auf einer Decke und liest ein Buch. Der Vater macht ein Picknick mit Brot, Käse und Obst. „Das Wasser ist warm!\", ruft Mia fröhlich.\n\nAm Abend sind alle müde, aber glücklich. Sie packen ihre Sachen und fahren nach Hause. Mia freut sich schon auf den nächsten Ausflug an den See.",
+    "preguntas": [
+      {
+        "enunciado": "Es regnet am Samstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom fährt Fahrrad am Ufer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter schwimmt im See.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater macht ein Picknick.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie ist am Abend sehr müde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-nachbar-hilft",
+    "nivel": "A2",
+    "titulo": "Der Nachbar hilft",
+    "descripcion": "Herr Weber hilft seiner Nachbarin beim Umzug der Möbel.",
+    "texto": "Frau Klein ist letzte Woche in eine neue Wohnung gezogen. Sie hat viele schwere Kisten und einen großen Schrank. Allein konnte sie den Schrank nicht tragen. Deshalb hat sie ihren Nachbarn, Herrn Weber, um Hilfe gebeten.\n\nHerr Weber kam sofort, weil er wusste, dass Umzüge sehr anstrengend sind. Zusammen haben sie den Schrank durch die Tür getragen. Danach haben sie noch die Kisten in die Küche gebracht. „Vielen Dank, ohne Sie hätte ich das nicht geschafft\", sagte Frau Klein. Herr Weber lächelte und meinte, dass gute Nachbarn sich immer helfen sollten.\n\nNachdem die Arbeit fertig war, hat Frau Klein Kaffee gekocht, und sie haben zusammen auf dem Balkon gesessen. Seitdem sind die beiden gute Freunde geworden und treffen sich oft zum Kaffee.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Klein ist vor einem Monat umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat ihr beim Tragen des Schranks geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Klein konnte den Schrank allein tragen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Arbeit haben sie Kaffee getrunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden sind seitdem keine Freunde mehr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-ueberraschung-im-briefkasten",
+    "nivel": "A2",
+    "titulo": "Eine Überraschung im Briefkasten",
+    "descripcion": "Laura findet einen unerwarteten Brief von ihrer Freundin.",
+    "texto": "Als Laura am Montag nach der Arbeit nach Hause kam, hat sie wie immer ihren Briefkasten geöffnet. Normalerweise findet sie dort nur Rechnungen oder Werbung. Diesmal lag aber ein bunter Umschlag darin. Der Brief war von ihrer alten Freundin Sophie, die seit zwei Jahren in Kanada lebt.\n\nLaura hat sich sehr gefreut, weil sie Sophie lange nicht gesehen hatte. Im Brief hat Sophie erzählt, dass sie im Sommer nach Deutschland zurückkommt. Sie schrieb auch, dass sie sich sehr auf ein Wiedersehen freut. „Ich kann es kaum glauben!\", dachte Laura und musste sofort lächeln.\n\nAm Abend hat Laura ihrer Mutter von dem Brief erzählt. Beide haben beschlossen, eine kleine Willkommensfeier für Sophie zu planen, wenn sie wieder in der Stadt ist.",
+    "preguntas": [
+      {
+        "enunciado": "Laura findet normalerweise nur Rechnungen im Briefkasten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Brief war von ihrem Bruder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie lebt seit zwei Jahren in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie bleibt für immer in Kanada.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura plant eine Feier für Sophie.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-arztbesuch-im-winter",
+    "nivel": "A2",
+    "titulo": "Der Arztbesuch im Winter",
+    "descripcion": "Tobias hat sich erkältet und geht deshalb zum Arzt.",
+    "texto": "Letzten Winter ist Tobias sehr krank geworden. Er hatte Husten, Fieber und starke Kopfschmerzen. Weil es ihm immer schlechter ging, hat seine Mutter einen Termin beim Arzt gemacht. Tobias wollte nicht gehen, weil er Angst vor Spritzen hatte.\n\nIm Wartezimmer saßen viele andere Patienten, die auch erkältet waren. Als Tobias endlich an der Reihe war, hat der Arzt seine Lunge und seinen Hals untersucht. „Das ist nur eine starke Grippe\", sagte der Arzt freundlich. „Du brauchst keine Spritze, nur Medikamente und viel Ruhe.\" Tobias war erleichtert, dass alles nicht so schlimm war.\n\nNachdem er eine Woche im Bett geblieben war, ging es ihm viel besser. Seine Mutter hat ihm jeden Tag heißen Tee mit Honig gekocht. Am Ende der Woche konnte Tobias wieder zur Schule gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias hatte im Sommer Husten und Fieber.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hatte Angst vor Spritzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt hat ihm eine Spritze gegeben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias musste eine Woche im Bett bleiben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende der Woche konnte er nicht zur Schule gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-job",
+    "nivel": "B1",
+    "titulo": "Der neue Job",
+    "descripcion": "Nina beginnt eine neue Stelle in einer fremden Stadt und muss sich anpassen.",
+    "texto": "Nina hat vor zwei Monaten eine neue Stelle in München angenommen, obwohl sie dafür ihre Heimatstadt verlassen musste. Am Anfang war alles fremd: ihre Kollegen, das Büro und sogar die Sprache, die dort gesprochen wurde, klang für sie etwas anders als zu Hause. Trotzdem hat sie sich vorgenommen, positiv zu bleiben und sich schnell einzuleben.\n\nIn der ersten Woche hatte sie Schwierigkeiten, sich an die neuen Aufgaben zu gewöhnen. Nachdem sie jedoch an mehreren Teammeetings teilgenommen hatte, verstand sie die Abläufe besser. Ihre Chefin erklärte ihr geduldig, wie das Projektmanagement-System funktionierte, und ihre Kollegen luden sie regelmäßig zum Mittagessen ein. Obwohl Nina manchmal Heimweh hatte, fühlte sie sich zunehmend wohler.\n\nHeute, nach zwei Monaten, hat Nina schon einige Freunde im Büro gefunden. Sie hat erkannt, dass Veränderungen am Anfang schwierig sind, sich aber langfristig lohnen können. Am Wochenende erkundet sie inzwischen gerne die Stadt und entdeckt immer neue Lieblingsorte.",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist nach München gezogen, um dort zu arbeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang fühlte sich alles vertraut an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ninas Chefin hat ihr geholfen, die Abläufe zu verstehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hatte nie Heimweh.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach zwei Monaten hat Nina schon Freunde gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-stadtfuehrung",
+    "nivel": "B1",
+    "titulo": "Die Stadtführung",
+    "descripcion": "Eine Schulklasse nimmt an einer Stadtführung durch die Altstadt teil.",
+    "texto": "Die Klasse 9b hat im Rahmen eines Geschichtsprojekts eine Stadtführung durch die Altstadt gebucht. Obwohl einige Schüler zunächst wenig Interesse zeigten, änderte sich ihre Meinung schnell, als der Stadtführer spannende Geschichten über alte Gebäude erzählte. Er zeigte ihnen zum Beispiel ein Rathaus, das im Mittelalter erbaut wurde und während eines Krieges fast zerstört worden war.\n\nNachdem die Gruppe durch enge Gassen gegangen war, erreichten sie einen alten Marktplatz. Dort erklärte der Führer, wie sich das Stadtleben im Laufe der Jahrhunderte verändert hat. Die Schüler stellten viele Fragen, und manche machten sogar Notizen für ihren Geschichtsbericht. Trotz des kalten Wetters blieb die Stimmung in der Gruppe gut.\n\nAm Ende der Führung waren sich alle einig, dass der Ausflug lehrreicher war, als sie erwartet hatten. Die Lehrerin war zufrieden, weil die Schüler viel über die Geschichte ihrer Stadt gelernt hatten, und plante bereits einen weiteren Ausflug für das nächste Schuljahr.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Schüler waren von Anfang an begeistert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Rathaus wurde im Mittelalter erbaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe ist durch enge Gassen gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler stellten keine Fragen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin plant einen weiteren Ausflug.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-freundschaft-testet",
+    "nivel": "B1",
+    "titulo": "Die Freundschaft testet",
+    "descripcion": "Zwei beste Freunde geraten in einen Streit und müssen die Beziehung neu bewerten.",
+    "texto": "Jan und Felix sind seit der Grundschule beste Freunde, obwohl sie sehr unterschiedliche Persönlichkeiten haben. Jan ist ruhig und vorsichtig, während Felix impulsiv und spontan handelt. Diese Unterschiede haben über die Jahre meistens gut funktioniert, doch letzte Woche kam es zu einem ernsten Streit.\n\nFelix hatte ohne Jan zu fragen eine wichtige Entscheidung für ihr gemeinsames Projekt getroffen. Jan fühlte sich übergangen und war enttäuscht, dass sein Freund nicht mit ihm gesprochen hatte. Nachdem beide mehrere Tage nicht miteinander geredet hatten, rief Felix schließlich an, um sich zu entschuldigen. „Ich hätte dich vorher fragen sollen\", gab er zu.\n\nTrotzdem war es nicht einfach, das Vertrauen sofort wiederherzustellen. Die beiden beschlossen, sich zu treffen und offen über ihre Gefühle zu sprechen. Am Ende verstanden sie, dass eine ehrliche Freundschaft auch Konflikte überstehen kann, solange man miteinander kommuniziert.",
+    "preguntas": [
+      {
+        "enunciado": "Jan und Felix kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide haben die gleiche Persönlichkeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat eine Entscheidung ohne Jan getroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jan hat sich sofort nach dem Streit entschuldigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende sprechen die beiden offen über ihre Gefühle.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungsnot-in-der-stadt",
+    "nivel": "B2",
+    "titulo": "Die Wohnungsnot in der Stadt",
+    "descripcion": "Eine Analyse der steigenden Mietpreise und ihrer Folgen für junge Menschen in Großstädten.",
+    "texto": "In vielen deutschen Großstädten hat sich die Wohnungssuche in den letzten Jahren zu einer echten Herausforderung entwickelt. Während das Angebot an bezahlbaren Wohnungen stetig sinkt, steigen die Mietpreise kontinuierlich an. Besonders junge Menschen und Studierende sind davon betroffen, da ihnen oft die finanziellen Mittel fehlen, um mit wohlhabenderen Mietinteressenten zu konkurrieren. Wenn diese Entwicklung nicht gebremst würde, könnten ganze Stadtviertel ihre soziale Vielfalt verlieren.\n\nExperten führen die Wohnungsnot auf mehrere Ursachen zurück: einerseits wird in vielen Städten zu wenig neuer Wohnraum gebaut, andererseits werden bestehende Wohnungen zunehmend in teure Eigentumswohnungen umgewandelt. Zudem würden kurzfristige Vermietungen an Touristen zusätzlichen Druck auf den Markt ausüben, da dadurch dauerhafter Wohnraum entzogen wird. Kritiker argumentieren, dass strengere gesetzliche Regelungen nötig wären, um diesem Trend entgegenzuwirken.\n\nPolitiker diskutieren derzeit verschiedene Lösungsansätze, etwa eine verschärfte Mietpreisbremse oder staatlich geförderten Wohnungsbau. Ob diese Maßnahmen jedoch ausreichen würden, um die Lage spürbar zu verbessern, bleibt umstritten. Fest steht, dass ohne entschlossenes Handeln die soziale Spaltung in den Städten weiter zunehmen dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise in Großstädten sinken seit Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Menschen und Studierende sind besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Grund für die Wohnungsnot ist der Mangel an Neubauten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kurzfristige Vermietungen an Touristen entlasten den Wohnungsmarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die politischen Lösungsansätze gelten als völlig unumstritten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-medienkonsum",
+    "nivel": "B2",
+    "titulo": "Der Medienkonsum und seine Folgen",
+    "descripcion": "Eine kritische Betrachtung darüber, wie digitale Medien die Gesellschaft verändern.",
+    "texto": "Der tägliche Medienkonsum hat sich in den letzten Jahrzehnten grundlegend verändert. Während früher Zeitungen und das Fernsehen die wichtigsten Informationsquellen waren, werden heute Nachrichten überwiegend über soziale Netzwerke und Nachrichten-Apps konsumiert. Diese Entwicklung hätte vor zwanzig Jahren kaum jemand vorausgesehen, und sie bringt sowohl Chancen als auch erhebliche Risiken mit sich.\n\nEinerseits ermöglicht die digitale Vernetzung einen schnellen und globalen Informationsaustausch, der früher undenkbar gewesen wäre. Andererseits wird zunehmend kritisiert, dass Algorithmen den Nutzern vor allem Inhalte zeigen, die ihre bestehenden Meinungen bestätigen. Dadurch könnte eine gesellschaftliche Polarisierung entstehen, bei der unterschiedliche Standpunkte kaum noch aufeinandertreffen. Wissenschaftler warnen zudem vor der Verbreitung von Falschinformationen, die sich in sozialen Netzwerken besonders schnell verbreiten würden.\n\nUm diesen Herausforderungen zu begegnen, fordern viele Bildungsexperten, dass Medienkompetenz bereits in der Schule intensiver vermittelt werden sollte. Wenn Schülerinnen und Schüler lernten, Quellen kritisch zu hinterfragen, könnten sie besser zwischen seriösen und unseriösen Informationen unterscheiden. Letztlich hängt die Zukunft einer informierten Gesellschaft maßgeblich davon ab, wie verantwortungsbewusst mit digitalen Medien umgegangen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Früher waren Zeitungen und Fernsehen die wichtigsten Informationsquellen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Algorithmen zeigen Nutzern ausschließlich neutrale Inhalte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Soziale Netzwerke können zur Verbreitung von Falschinformationen beitragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bildungsexperten fordern weniger Medienkompetenzunterricht in Schulen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein verantwortungsvoller Umgang mit Medien gilt als wichtig für die Gesellschaft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-work-life-balance",
+    "nivel": "B2",
+    "titulo": "Die Work-Life-Balance im Wandel",
+    "descripcion": "Eine Auseinandersetzung mit der veränderten Bedeutung von Arbeit und Freizeit in der modernen Arbeitswelt.",
+    "texto": "In der modernen Arbeitswelt gewinnt das Konzept der Work-Life-Balance zunehmend an Bedeutung. Während frühere Generationen oft bereit waren, berufliche Verpflichtungen über persönliche Interessen zu stellen, legen viele jüngere Arbeitnehmer heute großen Wert darauf, Beruf und Privatleben in Einklang zu bringen. Diese Entwicklung wird sowohl von Arbeitgebern als auch von Gesellschaftsforschern aufmerksam beobachtet.\n\nUnternehmen, die flexible Arbeitszeiten oder Homeoffice-Möglichkeiten anbieten, könnten dadurch einen entscheidenden Vorteil im Wettbewerb um qualifizierte Fachkräfte erlangen. Gleichzeitig wird jedoch kritisiert, dass die ständige Erreichbarkeit durch Smartphones und E-Mails die Grenze zwischen Arbeit und Freizeit zunehmend verschwimmen lässt. Wenn Angestellte auch nach Feierabend ständig erreichbar wären, könnte dies langfristig zu Erschöpfung und sogar zu einem Burnout führen.\n\nEinige Experten schlagen deshalb vor, dass gesetzliche Regelungen geschaffen werden sollten, um ein „Recht auf Unerreichbarkeit\" zu garantieren. Andere betonen hingegen, dass eine ausgewogene Work-Life-Balance letztlich eine individuelle Verantwortung sei, die durch persönliche Grenzsetzung erreicht werden müsse. Unabhängig davon, welcher Ansatz verfolgt wird, scheint klar, dass sich die Vorstellung von einem erfüllten Berufsleben in den kommenden Jahren weiter wandeln wird.",
+    "preguntas": [
+      {
+        "enunciado": "Jüngere Arbeitnehmer legen oft Wert auf eine Balance zwischen Beruf und Privatleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flexible Arbeitszeiten könnten Unternehmen einen Vorteil bei Fachkräften bringen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ständige Erreichbarkeit wird im Text ausschließlich positiv bewertet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass gesetzliche Regelungen notwendig sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Vorstellung von einem erfüllten Berufsleben wird sich laut Text vermutlich weiter verändern.",
+        "respuesta": true
+      }
+    ]
   }
 ]
