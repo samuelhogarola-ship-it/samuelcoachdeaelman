@@ -41882,5 +41882,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-geburtstag-von-opa-karl",
+    "nivel": "A1",
+    "titulo": "Der Geburtstag von Opa Karl",
+    "descripcion": "Die Familie feiert den Geburtstag von Opa Karl mit Kuchen und Geschenken.",
+    "texto": "Heute ist der Geburtstag von Opa Karl. Er wird siebzig Jahre alt. Die ganze Familie kommt zu Besuch. Oma Rosa backt einen großen Schokoladenkuchen. Die Kuchen ist braun und süß.\n\nLisa und Max bringen Blumen mit. Die Blumen sind gelb und rot. Papa bringt eine Flasche Wein. Mama schenkt Opa Karl ein neues Buch. Opa Karl ist sehr glücklich. Er sagt: „Danke, das ist ein schöner Tag!“\n\nAm Abend essen alle zusammen Kuchen. Die Kinder trinken Saft. Die Erwachsenen trinken Kaffee. Opa Karl singt ein altes Lied. Alle lachen und klatschen. Es ist ein toller Geburtstag.",
+    "preguntas": [
+      {
+        "enunciado": "Opa Karl wird siebzig Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma Rosa backt einen Apfelkuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa und Max bringen Blumen mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mama schenkt Opa Karl eine Flasche Wein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend singt Opa Karl ein Lied.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-bunter-regenschirm",
+    "nivel": "A1",
+    "titulo": "Mein bunter Regenschirm",
+    "descripcion": "Ein Kind erzählt von seinem neuen, bunten Regenschirm.",
+    "texto": "Ich habe einen neuen Regenschirm. Er ist bunt. Er ist rot, gelb und blau. Mein Regenschirm ist groß und schön. Ich mag ihn sehr.\n\nHeute regnet es. Ich nehme meinen Regenschirm mit zur Schule. Meine Schwester hat keinen Regenschirm. Sie wird nass. Ich helfe ihr. Wir gehen zusammen unter meinem Regenschirm.\n\nNach der Schule hört der Regen auf. Die Sonne kommt wieder. Ich mache meinen Regenschirm zu. Zu Hause stelle ich ihn in die Ecke. Morgen nehme ich ihn wieder mit, wenn es regnet.",
+    "preguntas": [
+      {
+        "enunciado": "Der Regenschirm ist nur blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Heute regnet es.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schwester hat auch einen Regenschirm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie gehen zusammen unter dem Regenschirm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Schule regnet es noch stärker.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-am-kiosk",
+    "nivel": "A1",
+    "titulo": "Ein Tag am Kiosk",
+    "descripcion": "Ben kauft am Kiosk Zeitschriften, Süßigkeiten und ein Getränk.",
+    "texto": "Ben geht jeden Samstag zum Kiosk an der Ecke. Der Kiosk ist klein, aber er hat viele Dinge. Es gibt Zeitschriften, Süßigkeiten und Getränke.\n\nHeute kauft Ben eine Fußballzeitschrift. Sie kostet drei Euro. Er kauft auch Schokolade und eine Flasche Apfelsaft. Der Mann am Kiosk heißt Herr Petrov. Er ist sehr freundlich. Er sagt: „Hallo Ben, wie geht es dir?“\n\nBen antwortet: „Mir geht es gut, danke!“ Er bezahlt und geht nach Hause. Zu Hause liest er die Zeitschrift und isst die Schokolade. Es war ein schöner Samstagmorgen.",
+    "preguntas": [
+      {
+        "enunciado": "Ben geht jeden Samstag zum Kiosk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kiosk verkauft nur Getränke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben kauft eine Fußballzeitschrift.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Mann am Kiosk heißt Herr Müller.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben liest die Zeitschrift zu Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-entlaufene-hamster",
+    "nivel": "A2",
+    "titulo": "Der entlaufene Hamster",
+    "descripcion": "Nils sucht seinen Hamster, der aus dem Käfig entlaufen ist.",
+    "texto": "Nils hatte gestern Abend den Käfig seines Hamsters nicht richtig zugemacht. Als er heute Morgen aufwachte, war der Käfig leer. Der Hamster war verschwunden! Nils bekam einen Schreck, weil er seinen Hamster sehr lieb hat.\n\nEr suchte überall im Zimmer: unter dem Bett, hinter dem Schrank und sogar in seinen Schuhen. Seine Schwester Mia half ihm, weil sie wusste, dass Hamster sich gerne in dunklen Ecken verstecken. Nach einer Stunde fanden sie den Hamster endlich hinter dem Bücherregal. Er hatte sich dort ein kleines Nest aus Papier gebaut.\n\nNils war so erleichtert, dass er fast geweint hätte. Er nahm den Hamster vorsichtig in die Hand und brachte ihn zurück in den Käfig. Diesmal kontrollierte er die Tür zweimal, bevor er das Licht ausmachte.",
+    "preguntas": [
+      {
+        "enunciado": "Der Hamster war aus dem Käfig entlaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nils suchte den Hamster allein, ohne Hilfe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia half, weil sie wusste, wo Hamster sich verstecken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hamster war in der Küche versteckt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nils kontrollierte die Käfigtür am Ende zweimal.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-stau-auf-der-fahrt-zur-hochzeit",
+    "nivel": "A2",
+    "titulo": "Der Stau auf der Fahrt zur Hochzeit",
+    "descripcion": "Familie Berger steht im Stau und kommt fast zu spät zur Hochzeit.",
+    "texto": "Familie Berger wollte am Samstag zur Hochzeit von Tante Sabine fahren. Sie sind früh losgefahren, weil die Fahrt zwei Stunden dauern sollte. Doch nach einer halben Stunde standen sie plötzlich im Stau auf der Autobahn.\n\nHerr Berger wurde nervös, weil die Feier schon in einer Stunde beginnen sollte. Frau Berger schaute auf ihr Handy und sah, dass es einen Unfall weiter vorne gegeben hatte. Die Kinder fragten immer wieder: „Wann kommen wir endlich an?“ Niemand wusste eine genaue Antwort.\n\nNach fast einer Stunde im Stau konnten sie endlich weiterfahren. Sie kamen zwanzig Minuten zu spät zur Kirche, aber die Trauung hatte glücklicherweise noch nicht angefangen. Tante Sabine lachte nur und sagte, dass ein bisschen Chaos zu jeder guten Hochzeit gehöre.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger ist zu spät losgefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Stau wurde durch einen Unfall verursacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder waren während der Fahrt ruhig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie kam zwanzig Minuten zu spät an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Trauung hatte schon begonnen, als sie ankamen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-email-an-den-vermieter",
+    "nivel": "A2",
+    "titulo": "Eine E-Mail an den Vermieter",
+    "descripcion": "Frau Keller schreibt ihrem Vermieter eine E-Mail, weil die Heizung kaputt ist.",
+    "texto": "Frau Keller wohnt seit drei Jahren in ihrer Wohnung. Letzte Woche ist die Heizung in ihrem Wohnzimmer kaputt gegangen. Weil es draußen schon kalt war, beschloss sie, ihrem Vermieter sofort eine E-Mail zu schreiben.\n\nIn der E-Mail erklärte sie, dass die Heizung keine Wärme mehr produzierte, obwohl sie den Thermostat mehrmals verstellt hatte. Sie schrieb auch, dass sie und ihre Kinder in der Wohnung frieren. Der Vermieter, Herr Schmidt, antwortete noch am selben Tag und versprach, einen Handwerker zu schicken.\n\nZwei Tage später kam der Handwerker und reparierte die Heizung. Er sagte, dass ein kleines Teil kaputt gewesen sei. Frau Keller war erleichtert, dass alles so schnell gelöst wurde, und bedankte sich bei Herrn Schmidt per E-Mail.",
+    "preguntas": [
+      {
+        "enunciado": "Die Heizung im Wohnzimmer war kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller hat sofort angerufen, nicht geschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vermieter heißt Herr Schmidt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Handwerker kam noch am selben Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Keller bedankte sich am Ende bei Herrn Schmidt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandertag-im-schwarzwald",
+    "nivel": "B1",
+    "titulo": "Der Wandertag im Schwarzwald",
+    "descripcion": "Eine Schulklasse verbringt einen Wandertag im Schwarzwald, obwohl das Wetter wechselhaft ist.",
+    "texto": "Die Klasse 9b hatte sich seit Wochen auf den Wandertag im Schwarzwald gefreut. Obwohl der Wetterbericht Regen angesagt hatte, beschlossen die Lehrer, die Wanderung nicht abzusagen. Alle Schüler trafen sich früh am Morgen am Ausgangspunkt des Wanderwegs.\n\nNachdem die Gruppe die ersten Kilometer zurückgelegt hatte, begann es tatsächlich zu regnen. Trotzdem blieb die Stimmung gut, weil die meisten Schüler Regenjacken mitgebracht hatten. Unterwegs entdeckten sie einen kleinen Wasserfall und machten dort eine Pause, um Fotos zu machen und ihr Picknick zu essen.\n\nAls sie am Nachmittag den Gipfel erreichten, klarte der Himmel plötzlich auf, und sie konnten einen wunderschönen Blick über das Tal genießen. Obwohl der Tag anstrengend gewesen war, waren alle sich einig, dass es einer der schönsten Wandertage war, den die Klasse je erlebt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wetterbericht hatte Sonnenschein angesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrer sagten die Wanderung trotz des Wetterberichts nicht ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Unterwegs entdeckte die Gruppe einen Wasserfall.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Gipfel regnete es noch stärker als zuvor.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler fanden den Tag insgesamt sehr schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-buchpraesentation-in-der-bibliothek",
+    "nivel": "B1",
+    "titulo": "Die Buchpräsentation in der Bibliothek",
+    "descripcion": "Eine junge Autorin stellt ihr erstes Buch in der Stadtbibliothek vor.",
+    "texto": "Die Stadtbibliothek hatte zu einer besonderen Veranstaltung eingeladen: Die junge Autorin Hanna Vogel sollte ihr erstes Buch vorstellen. Nachdem sie jahrelang an ihrem Roman gearbeitet hatte, war es ihr endlich gelungen, einen Verlag zu finden.\n\nObwohl Hanna vor der Veranstaltung sehr nervös war, begann sie ruhig zu erzählen, wie die Idee zu ihrem Buch entstanden war. Sie las einen kurzen Abschnitt aus dem ersten Kapitel vor, während das Publikum gespannt zuhörte. Danach beantwortete sie Fragen der Zuschauer, die wissen wollten, wie lange das Schreiben gedauert hatte und ob es eine Fortsetzung geben würde.\n\nNach der Veranstaltung bildete sich eine lange Schlange, weil viele Besucher ihr Buch signieren lassen wollten. Hanna war überwältigt von dem großen Interesse und bedankte sich mehrmals bei der Bibliothek für die Organisation des Abends.",
+    "preguntas": [
+      {
+        "enunciado": "Hanna Vogel stellte ihr zweites Buch vor.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hanna war vor der Veranstaltung nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie las einen Abschnitt aus dem ersten Kapitel vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Lesung stellte niemand Fragen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Besucher wollten ihr Buch signieren lassen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-den-parkplatz",
+    "nivel": "B1",
+    "titulo": "Der Streit um den Parkplatz",
+    "descripcion": "Zwei Nachbarn geraten in einen langwierigen Streit um einen Parkplatz vor dem Haus.",
+    "texto": "Herr Lange und Frau Winter wohnen seit Jahren im selben Mehrfamilienhaus. Obwohl es im Hof genug Platz für mehrere Autos gibt, streiten sich die beiden regelmäßig um denselben Parkplatz direkt vor dem Eingang.\n\nNachdem Herr Lange eines Abends seinen Wagen wie gewohnt dort abgestellt hatte, fand er am nächsten Morgen einen Zettel an seiner Windschutzscheibe. Frau Winter hatte geschrieben, dass dieser Platz schon immer ihrer gewesen sei. Herr Lange ärgerte sich sehr, obwohl er wusste, dass es offiziell keine festen Parkplätze gab.\n\nErst nachdem der Hausverwalter eingeschaltet wurde, einigten sich beide auf eine Lösung: Sie wechselten sich nun wochenweise mit dem Parkplatz ab. Trotzdem grüßten sich die beiden Nachbarn seitdem nur noch knapp, wenn sie sich im Treppenhaus begegneten.",
+    "preguntas": [
+      {
+        "enunciado": "Im Hof gibt es keinen Platz für mehrere Autos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Winter hinterließ einen Zettel an der Windschutzscheibe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab offiziell feste Parkplätze für jeden Mieter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hausverwalter half bei der Lösung des Streits.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seit der Einigung sind die Nachbarn wieder sehr freundlich zueinander.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-innenstaedte-ohne-autos",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Innenstädte ohne Autos",
+    "descripcion": "Immer mehr deutsche Städte diskutieren über autofreie Innenstädte und deren Folgen.",
+    "texto": "In zahlreichen deutschen Großstädten wird derzeit intensiv darüber diskutiert, wie Innenstädte künftig vom motorisierten Individualverkehr befreit werden könnten. Befürworter argumentieren, dass autofreie Zonen nicht nur die Luftqualität verbessern, sondern auch den öffentlichen Raum für Fußgänger, Radfahrer und Gastronomie zurückgewinnen würden. Studien aus Städten, die solche Maßnahmen bereits umgesetzt haben, legen nahe, dass der Einzelhandel langfristig sogar profitieren könnte, da sich mehr Menschen gerne in verkehrsberuhigten Bereichen aufhalten.\n\nKritiker hingegen warnen davor, dass ein vollständiges Verbot privater Fahrzeuge in der Innenstadt insbesondere für ältere Menschen und Personen mit eingeschränkter Mobilität eine erhebliche Hürde darstellen würde. Zudem befürchten viele Geschäftsinhaber, dass Kunden ausblieben, wenn sie ihre Einkäufe nicht mehr direkt vor dem Laden abladen könnten. Es wird daher häufig gefordert, dass alternative Mobilitätsangebote wie Shuttle-Dienste oder zusätzliche Parkhäuser am Stadtrand geschaffen werden müssten, bevor eine Innenstadt gänzlich autofrei gestaltet werden könnte.\n\nEinige Städte setzen inzwischen auf schrittweise Lösungen, bei denen bestimmte Straßenzüge nur zu festen Zeiten für den Verkehr gesperrt werden. Ob sich dieses Modell langfristig durchsetzt oder ob radikalere Maßnahmen notwendig sind, um die Klimaziele im Verkehrssektor zu erreichen, bleibt Gegenstand hitziger politischer Debatten.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter autofreier Innenstädte verweisen unter anderem auf eine bessere Luftqualität.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zeigen, dass der Einzelhandel in verkehrsberuhigten Zonen immer verliert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten Nachteile für Menschen mit eingeschränkter Mobilität.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Städte haben sich bereits für eine vollständig autofreie Innenstadt entschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Städte sperren Straßen nur zu bestimmten Zeiten für den Verkehr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-ein-verbot-von-einwegplastik",
+    "nivel": "B2",
+    "titulo": "Die Debatte um ein Verbot von Einwegplastik",
+    "descripcion": "Die Europäische Union diskutiert strengere Regeln gegen Einwegplastik und deren Auswirkungen auf Wirtschaft und Umwelt.",
+    "texto": "Die zunehmende Vermüllung von Meeren und Landschaften durch Einwegplastik hat in den vergangenen Jahren zu einer intensiven politischen Debatte geführt. Während einige Produkte wie Plastikstrohhalme und Einwegbesteck in der Europäischen Union bereits verboten wurden, wird derzeit diskutiert, ob weitere Verbote notwendig wären, um die Plastikflut wirksam einzudämmen. Umweltverbände fordern, dass auch Verpackungen für Obst und Gemüse sowie Einweggeschirr in der Gastronomie stärker reglementiert werden sollten.\n\nVertreter der Verpackungsindustrie hingegen warnen davor, dass ein zu striktes Verbot ohne geeignete Alternativen zu höheren Kosten für Verbraucher und zu Wettbewerbsnachteilen für europäische Unternehmen führen könnte. Sie argumentieren, dass recyclingfähige oder biologisch abbaubare Materialien zwar grundsätzlich wünschenswert seien, in der Praxis jedoch noch nicht in ausreichender Qualität und Menge zur Verfügung stünden. Würde die Industrie gezwungen, innerhalb kurzer Zeit vollständig umzustellen, wären erhebliche wirtschaftliche Schäden kaum zu vermeiden.\n\nWissenschaftler betonen indes, dass ohne konsequente politische Maßnahmen die Menge an Plastikmüll in den Weltmeeren weiter zunehmen werde, mit gravierenden Folgen für die Tierwelt und letztlich auch für die menschliche Gesundheit. Es bleibt daher abzuwarten, ob die Politik einen Mittelweg finden wird, der sowohl ökologische als auch wirtschaftliche Interessen angemessen berücksichtigt.",
+    "preguntas": [
+      {
+        "enunciado": "Plastikstrohhalme und Einwegbesteck sind in der EU bereits verboten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Umweltverbände fordern weniger strenge Regeln für Einwegplastik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Verpackungsindustrie warnt vor höheren Kosten durch zu strikte Verbote.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text stehen bereits ausreichend viele biologisch abbaubare Alternativen zur Verfügung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wissenschaftler warnen vor Folgen für die Tierwelt, wenn die Plastikmenge weiter steigt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ethik-und-kuenstliche-intelligenz-in-der-medizin",
+    "nivel": "B2",
+    "titulo": "Ethik und künstliche Intelligenz in der Medizin",
+    "descripcion": "Der Einsatz künstlicher Intelligenz in der medizinischen Diagnostik wirft neue ethische Fragen auf.",
+    "texto": "Künstliche Intelligenz hält zunehmend Einzug in die medizinische Diagnostik, wo sie beispielsweise bei der Auswertung von Röntgenbildern oder der Früherkennung von Krankheiten eingesetzt wird. Befürworter dieser Entwicklung verweisen darauf, dass entsprechend trainierte Algorithmen in manchen Fällen bereits präzisere und schnellere Diagnosen liefern könnten als erfahrene Ärzte, wodurch wertvolle Zeit bei der Behandlung schwerer Erkrankungen gewonnen würde.\n\nGleichzeitig werfen diese technologischen Fortschritte grundlegende ethische Fragen auf. Sollte eine Maschine überhaupt eine Diagnose stellen dürfen, ohne dass ein Mensch die letzte Entscheidung trifft? Kritiker befürchten, dass eine zu starke Abhängigkeit von algorithmischen Systemen dazu führen könnte, dass Ärzte ihre eigene klinische Urteilsfähigkeit vernachlässigten. Zudem bestehe die Gefahr, dass Algorithmen, die mit unvollständigen oder verzerrten Daten trainiert wurden, bestimmte Patientengruppen systematisch benachteiligten.\n\nHinzu kommt die Frage der Verantwortung: Wer haftet, wenn eine KI-gestützte Diagnose falsch ist und ein Patient dadurch zu Schaden kommt? Während einige Experten fordern, dass klare gesetzliche Rahmenbedingungen geschaffen werden müssten, bevor solche Systeme flächendeckend eingesetzt werden dürften, plädieren andere dafür, die Technologie schrittweise und unter ärztlicher Aufsicht einzuführen, um von ihren Vorteilen möglichst schnell profitieren zu können.",
+    "preguntas": [
+      {
+        "enunciado": "Künstliche Intelligenz wird unter anderem bei der Auswertung von Röntgenbildern eingesetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text gibt es bei der KI-Diagnostik keine ethischen Bedenken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Ärzte ihre eigene Urteilsfähigkeit vernachlässigen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Verzerrte Trainingsdaten können laut dem Text bestimmte Patientengruppen benachteiligen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frage der Haftung bei Fehldiagnosen wird im Text nicht erwähnt.",
+        "respuesta": false
+      }
+    ]
   }
 ]
