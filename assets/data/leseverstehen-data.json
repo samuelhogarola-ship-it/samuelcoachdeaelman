@@ -43970,5 +43970,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "ich-lerne-kochen",
+    "nivel": "A1",
+    "titulo": "Ich lerne kochen",
+    "descripcion": "Lisa lernt jeden Tag ein neues Gericht und übt in der Küche.",
+    "texto": "Lisa ist zwanzig Jahre alt. Sie wohnt in einer kleinen Wohnung in Köln. Jeden Abend kocht sie ihr Abendessen selbst. Sie findet Kochen sehr interessant. Ihre Mutter zeigt ihr viele Rezepte.\n\nHeute kocht Lisa Nudeln mit Tomatensauce. Sie schneidet Zwiebeln und Knoblauch. Dann brät sie das Gemüse in der Pfanne. Die Küche riecht sehr gut. Lisa ist stolz auf ihr Essen.\n\n„Das schmeckt super!\", sagt ihr Freund Tom. Er isst gern bei Lisa. Lisa lacht und gibt ihm noch mehr Nudeln. Am Wochenende möchte sie einen Kuchen backen. Sie sucht schon ein einfaches Rezept im Internet.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa wohnt in Köln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa kocht nie selbst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Heute kocht Lisa Nudeln mit Tomatensauce.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom mag das Essen nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa möchte am Wochenende einen Kuchen backen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-zum-see",
+    "nivel": "A1",
+    "titulo": "Ein Ausflug zum See",
+    "descripcion": "Die Familie Berger verbringt einen sonnigen Tag am See.",
+    "texto": "Die Familie Berger macht heute einen Ausflug. Sie fahren mit dem Auto zu einem See. Die Sonne scheint, und der Himmel ist blau. Die Kinder freuen sich sehr auf den Tag.\n\nAm See packen sie eine Decke und einen Picknickkorb aus. Der Vater schwimmt im kalten Wasser. Die Mutter liest ein Buch unter einem Baum. Die Kinder spielen mit einem Ball am Ufer.\n\n„Das Wasser ist aber kalt!\", ruft der Vater und lacht. Zum Mittagessen gibt es Brote und frisches Obst. Nach dem Essen fahren alle mit dem Fahrrad um den See. Am Abend sind alle müde, aber sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger fährt mit dem Zug zum See.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Sonne scheint am Tag des Ausflugs.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater schwimmt im Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen nicht am See.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend sind alle müde und glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ferien-auf-dem-bauernhof",
+    "nivel": "A1",
+    "titulo": "Ferien auf dem Bauernhof",
+    "descripcion": "Paul verbringt eine Woche Ferien auf dem Bauernhof seiner Großeltern.",
+    "texto": "Paul ist neun Jahre alt. In den Sommerferien besucht er seine Großeltern. Sie haben einen Bauernhof auf dem Land. Paul mag die Tiere auf dem Hof sehr.\n\nJeden Morgen steht Paul früh auf. Er hilft seinem Opa im Stall. Zusammen füttern sie die Hühner und die Kühe. Danach sammelt Paul frische Eier im Hühnerhaus.\n\n„Die Eier sind noch warm!\", ruft Paul und lacht. Seine Oma backt daraus einen leckeren Kuchen. Am Nachmittag spielt Paul mit den Katzen im Garten. Abends ist er müde, aber sehr zufrieden mit seinem Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Paul besucht seine Großeltern im Winter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bauernhof gehört Pauls Großeltern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul füttert die Hühner und die Kühe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul mag die Tiere auf dem Hof nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Oma backt einen Kuchen mit den Eiern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-augenarzt",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Augenarzt",
+    "descripcion": "Sabine hat einen Termin beim Augenarzt, weil sie schlechter sieht.",
+    "texto": "Sabine hat in letzter Zeit Probleme beim Lesen gehabt. Die Buchstaben auf ihrem Handy sind ihr verschwommen erschienen. Deshalb hat sie einen Termin beim Augenarzt gemacht. Sie war ein bisschen nervös, weil sie noch nie eine Brille getragen hat.\n\nIn der Praxis hat die Ärztin zuerst viele Fragen gestellt. Dann hat Sabine verschiedene Buchstaben auf einer Tafel lesen müssen. Die Untersuchung hat fast eine halbe Stunde gedauert. Am Ende hat die Ärztin gesagt, dass Sabine eine leichte Sehschwäche hat.\n\n„Das ist kein Problem\", hat die Ärztin erklärt. „Mit einer Brille sehen Sie wieder ganz klar.\" Sabine hat sich danach ein paar Brillengestelle im Laden angeschaut. Sie hat ein rotes Gestell ausgewählt, weil es ihr am besten gefallen hat. Wenn die Brille fertig ist, holt sie sie nächste Woche ab.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hatte Probleme beim Lesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine hat schon seit Jahren eine Brille getragen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Untersuchung hat nur fünf Minuten gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin hat eine leichte Sehschwäche festgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine hat ein rotes Brillengestell ausgewählt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-missverstaendnis-im-bus",
+    "nivel": "A2",
+    "titulo": "Das Missverständnis im Bus",
+    "descripcion": "Jonas hat im Bus seinen Nachbarn getroffen, aber es gab ein Missverständnis.",
+    "texto": "Jonas ist am Montagmorgen wie immer mit dem Bus zur Arbeit gefahren. Neben ihm hat plötzlich sein Nachbar Herr Keller gesessen. Jonas hat sich sehr gefreut, weil er Herrn Keller lange nicht gesehen hat. Sie haben kurz über das Wetter gesprochen.\n\nDann hat Herr Keller gefragt, ob Jonas seine Paketsendung angenommen hat. Jonas hat das Paket aber nicht bekommen und war sehr überrascht. Herr Keller war ziemlich verärgert, weil er dachte, dass Jonas das Paket vergessen hat. Es ist zu einem kleinen Streit gekommen.\n\n„Ich habe wirklich kein Paket gesehen\", hat Jonas ruhig erklärt. Später haben sie herausgefunden, dass der Postbote das Paket beim falschen Nachbarn abgegeben hat. Herr Keller hat sich für sein Misstrauen entschuldigt. Am Ende haben beide über das Missverständnis gelacht.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist mit dem Auto zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Keller ist Jonas' Nachbar.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat das Paket von Herrn Keller angenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Postbote hat das Paket beim falschen Nachbarn abgegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende haben Jonas und Herr Keller gestritten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-nach-hamburg-mit-dem-zug",
+    "nivel": "A2",
+    "titulo": "Die Reise nach Hamburg mit dem Zug",
+    "descripcion": "Nina fährt am Wochenende mit dem Zug nach Hamburg, um ihre Schwester zu besuchen.",
+    "texto": "Nina hat am Freitagabend ihre Koffer gepackt, weil sie am Samstag nach Hamburg fahren wollte. Ihre Schwester wohnt seit einem Jahr dort und hat sie oft eingeladen. Die Zugfahrt von München nach Hamburg dauert ungefähr sechs Stunden.\n\nAm Bahnhof hat Nina zuerst den falschen Zug gefunden, weil die Anzeigetafel kaputt war. Zum Glück hat ein freundlicher Schaffner ihr geholfen. Während der Fahrt hat sie ein Buch gelesen und aus dem Fenster geschaut. Die Landschaft hat ihr sehr gut gefallen.\n\n„Endlich bist du da!\", hat ihre Schwester am Bahnhof gerufen. Die beiden haben sich lange umarmt. Am Wochenende sind sie zusammen durch die Stadt spaziert und haben den Hafen besucht. Nina hat beschlossen, dass sie Hamburg öfter besuchen möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist mit dem Flugzeug nach Hamburg gereist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zugfahrt dauert ungefähr sechs Stunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Bahnhof hat alles sofort perfekt funktioniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ninas Schwester hat sie am Bahnhof abgeholt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina möchte Hamburg nie wieder besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-praktikant-in-der-firma",
+    "nivel": "B1",
+    "titulo": "Der Praktikant in der Firma",
+    "descripcion": "Felix beginnt ein Praktikum in einer Werbeagentur und muss sich an viele neue Aufgaben gewöhnen.",
+    "texto": "Felix hat gerade sein Abitur gemacht und möchte vor dem Studium praktische Erfahrungen sammeln. Deshalb hat er ein dreimonatiges Praktikum in einer Werbeagentur in München begonnen. Obwohl er am ersten Tag sehr nervös war, haben ihn die Kollegen freundlich begrüßt. Nachdem er seinen Arbeitsplatz eingerichtet hatte, bekam er direkt seine erste Aufgabe.\n\nIn den ersten Wochen musste Felix viele Texte korrigieren und an Besprechungen teilnehmen. Trotzdem fühlte er sich manchmal überfordert, weil die Fachbegriffe für ihn neu waren. Sein Mentor erklärte ihm geduldig die wichtigsten Abläufe der Agentur. Mit der Zeit gewöhnte sich Felix an das Arbeitstempo und fühlte sich sicherer.\n\nNach einem Monat durfte Felix zum ersten Mal selbst ein kleines Projekt betreuen, obwohl er noch wenig Erfahrung hatte. Er war stolz, als sein Vorschlag vom Kunden gelobt wurde. Am Ende des Praktikums hat ihm die Agentur sogar eine spätere Festanstellung angeboten. Felix überlegt nun, ob er das Angebot nach seinem Studium annehmen soll.",
+    "preguntas": [
+      {
+        "enunciado": "Felix macht ein Praktikum, nachdem er sein Studium abgeschlossen hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag haben die Kollegen Felix freundlich begrüßt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix fand die Fachbegriffe von Anfang an sehr einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix durfte nach einem Monat ein kleines Projekt betreuen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Agentur hat Felix eine Festanstellung angeboten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-schulfest-im-juni",
+    "nivel": "B1",
+    "titulo": "Das Schulfest im Juni",
+    "descripcion": "Die Schülerinnen und Schüler organisieren gemeinsam das traditionelle Schulfest.",
+    "texto": "Jedes Jahr im Juni findet an der Gesamtschule Lindenberg ein großes Schulfest statt. Obwohl die Vorbereitungen viel Zeit brauchen, freuen sich die Schüler jedes Jahr darauf. Die zehnte Klasse organisiert einen Verkaufsstand mit selbstgebackenem Kuchen. Die Lehrer helfen bei der Planung, überlassen den Schülern aber die meisten Entscheidungen.\n\nIn diesem Jahr hat die Schülervertretung ein Musikprogramm organisiert, nachdem viele Schüler sich eine Live-Band gewünscht hatten. Trotz des schlechten Wetters am Morgen ist am Nachmittag die Sonne herausgekommen. Auf dem Schulhof standen bunte Stände mit Spielen, Essen und Getränken. Viele Eltern sind ebenfalls gekommen, um das Fest zu unterstützen.\n\nAm Abend hat die Band auf einer kleinen Bühne gespielt, und viele Schüler haben getanzt. Die Lehrer waren überrascht, wie viel Geld die Klassen für einen guten Zweck gesammelt hatten. Nachdem das Fest zu Ende war, haben alle gemeinsam aufgeräumt. Die Schulleiterin hat angekündigt, dass das Fest im nächsten Jahr noch größer werden soll.",
+    "preguntas": [
+      {
+        "enunciado": "Das Schulfest findet jedes Jahr im Dezember statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die zehnte Klasse verkauft selbstgebackenen Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Morgen war das Wetter die ganze Zeit schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend hat eine Band auf einer Bühne gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Fest hat niemand aufgeräumt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wiedervereinigung-alter-schulfreunde",
+    "nivel": "B1",
+    "titulo": "Die Wiedervereinigung alter Schulfreunde",
+    "descripcion": "Nach zwanzig Jahren treffen sich ehemalige Klassenkameraden zu einem Klassentreffen.",
+    "texto": "Vor zwanzig Jahren haben Katrin und ihre Klassenkameraden gemeinsam Abitur gemacht. Seitdem haben sich die meisten aus den Augen verloren, obwohl einige über soziale Medien in Kontakt geblieben sind. Eine ehemalige Mitschülerin hat die Idee gehabt, ein großes Klassentreffen zu organisieren. Nachdem sie alle Adressen gesammelt hatte, hat sie Einladungen verschickt.\n\nAm Abend des Treffens war Katrin sehr nervös, weil sie nicht wusste, wie sich die anderen verändert hatten. Trotzdem erkannte sie fast jeden sofort wieder, sobald sie den Raum betrat. Viele erzählten begeistert von ihrem Beruf, ihrer Familie und ihren Reisen. Ein alter Freund, den Katrin seit der Schulzeit nicht gesehen hatte, lebt inzwischen in Kanada.\n\n„Es fühlt sich an, als wäre keine Zeit vergangen!\", rief einer der ehemaligen Mitschüler. Die Gruppe hat bis spät in die Nacht gemeinsam gelacht und alte Geschichten ausgetauscht. Nachdem der Abend zu Ende war, haben sie beschlossen, sich nicht wieder zwanzig Jahre warten zu lassen. Sie planen bereits ein nächstes Treffen in zwei Jahren.",
+    "preguntas": [
+      {
+        "enunciado": "Das Klassentreffen findet fünf Jahre nach dem Abitur statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle ehemaligen Mitschüler haben seit der Schulzeit regelmäßig Kontakt gehabt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrin erkennt die meisten ehemaligen Mitschüler sofort wieder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein ehemaliger Mitschüler lebt jetzt in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe plant, erst in zwanzig Jahren wieder ein Treffen zu machen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-mietendeckel-und-seine-folgen",
+    "nivel": "B2",
+    "titulo": "Der Mietendeckel und seine Folgen",
+    "descripcion": "Eine Analyse der Debatte über staatliche Mietobergrenzen in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten sind die Mietpreise in den letzten Jahren stark gestiegen, sodass sich zahlreiche Haushalte kaum noch eine Wohnung in zentraler Lage leisten können. Als Reaktion auf diese Entwicklung wurde in einigen Bundesländern über die Einführung eines sogenannten Mietendeckels diskutiert, durch den die Mieten für einen bestimmten Zeitraum gesetzlich begrenzt werden sollten. Befürworter argumentieren, dass ohne eine solche Regulierung einkommensschwache Familien zunehmend aus den Innenstädten verdrängt würden.\n\nKritiker hingegen wenden ein, dass ein Mietendeckel den ohnehin knappen Wohnraum nicht vergrößere, sondern lediglich die Symptome des Problems bekämpfe. Sie befürchten, dass private Investoren, wenn die Rendite sinke, weniger in den Bau neuer Wohnungen investieren würden. Tatsächlich zeigen Studien aus Städten, in denen ein Mietendeckel bereits eingeführt wurde, ein gemischtes Bild: Während die Bestandsmieten kurzfristig stabilisiert wurden, verringerte sich gleichzeitig das Angebot an verfügbaren Wohnungen.\n\nWäre der Wohnungsmarkt stärker reguliert, könnten kurzfristig mehr Menschen von günstigen Mieten profitieren, so die Befürworter einer solchen Politik. Langfristig jedoch müsste zusätzlich massiv in den sozialen Wohnungsbau investiert werden, damit das strukturelle Problem des Wohnraummangels tatsächlich gelöst werden kann. Ohne begleitende Maßnahmen, wie es viele Ökonomen betonen, bliebe ein Mietendeckel lediglich eine kurzfristige Linderung, die das eigentliche Problem nicht beseitigt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise sind in vielen deutschen Großstädten in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter des Mietendeckels wollen einkommensschwache Familien schützen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Investitionen in neue Wohnungen zurückgehen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zeigen ein eindeutig positives Ergebnis ohne jegliche Nachteile.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Ökonomen halten den sozialen Wohnungsbau für überflüssig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice-und-die-grenzen-der-erreichbarkeit",
+    "nivel": "B2",
+    "titulo": "Homeoffice und die Grenzen der Erreichbarkeit",
+    "descripcion": "Ein Essay über die Herausforderungen der ständigen Erreichbarkeit im Homeoffice.",
+    "texto": "Seit der Pandemie hat sich das Homeoffice in vielen Branchen als feste Arbeitsform etabliert, wodurch sich die Grenze zwischen Berufs- und Privatleben für zahlreiche Arbeitnehmer zunehmend verwischt hat. Während früher der Feierabend meist mit dem Verlassen des Büros begann, erwarten manche Arbeitgeber heute, dass Mitarbeiter auch abends oder am Wochenende erreichbar sind. Diese ständige Verfügbarkeit, die oft unausgesprochen vorausgesetzt wird, führt bei vielen Beschäftigten zu wachsendem Stress.\n\nArbeitspsychologen weisen darauf hin, dass regelmäßige Erholungsphasen notwendig seien, damit Beschäftigte langfristig leistungsfähig bleiben könnten. Würde ein Unternehmen klare Regeln zur Erreichbarkeit einführen, ließe sich die Belastung für die Mitarbeiter deutlich verringern, so die Experten. Einige Firmen haben bereits sogenannte E-Mail-Verbote nach Feierabend eingeführt, bei denen Nachrichten außerhalb der Arbeitszeit automatisch verzögert zugestellt werden.\n\nTrotzdem bleibt die Umsetzung solcher Regeln in der Praxis schwierig, da viele Beschäftigte selbst Schwierigkeiten haben, abzuschalten, obwohl sie formal nicht erreichbar sein müssten. Manche Mitarbeiter empfinden Homeoffice gerade deshalb als entgrenzend, weil die räumliche Trennung zwischen Arbeitsplatz und Wohnung fehlt. Ein ausgewogenes Modell, bei dem feste Arbeitszeiten mit flexiblen Elementen kombiniert werden, könnte beiden Seiten gerecht werden, ohne die Vorteile des Homeoffice vollständig aufzugeben.",
+    "preguntas": [
+      {
+        "enunciado": "Im Homeoffice ist die Grenze zwischen Arbeit und Freizeit für viele klarer geworden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Arbeitgeber erwarten, dass Mitarbeiter auch am Wochenende erreichbar sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen haben bereits feste Regeln zur Erreichbarkeit eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Firmen verzögern E-Mails, die außerhalb der Arbeitszeit gesendet werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text haben alle Beschäftigten keine Probleme, nach der Arbeit abzuschalten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "soziale-medien-und-die-jugend",
+    "nivel": "B2",
+    "titulo": "Soziale Medien und die Jugend",
+    "descripcion": "Eine kritische Betrachtung des Einflusses sozialer Medien auf Jugendliche.",
+    "texto": "Soziale Medien sind aus dem Alltag vieler Jugendlicher nicht mehr wegzudenken und prägen zunehmend ihre Kommunikation, ihr Selbstbild und ihre Freizeitgestaltung. Plattformen, deren Inhalte speziell auf eine möglichst lange Nutzungsdauer ausgerichtet sind, werden von Kritikern zunehmend als problematisch angesehen. Besonders Jugendliche, die sich noch in einer prägenden Entwicklungsphase befinden, gelten als besonders empfänglich für die Mechanismen dieser Plattformen.\n\nStudien deuten darauf hin, dass ein übermäßiger Konsum sozialer Medien mit einem erhöhten Risiko für Angstzustände und ein vermindertes Selbstwertgefühl einhergehen könne. Dies werde unter anderem dadurch verstärkt, dass in sozialen Netzwerken häufig ein verzerrtes, idealisiertes Bild des Lebens anderer präsentiert werde. Gleichzeitig betonen manche Forscher jedoch, dass soziale Medien auch positive Effekte haben könnten, etwa indem sie Jugendlichen den Austausch mit Gleichgesinnten ermöglichten.\n\nWenn Eltern und Schulen gemeinsam einen bewussteren Umgang mit digitalen Medien fördern würden, könnten Jugendliche besser lernen, zwischen nützlicher Nutzung und schädlichem Konsum zu unterscheiden, so fordern viele Pädagogen. Einige Länder diskutieren bereits gesetzliche Altersgrenzen für bestimmte Plattformen, wobei die Wirksamkeit solcher Maßnahmen von Experten unterschiedlich bewertet wird. Letztlich scheint ein ausgewogener Umgang, der sowohl Chancen als auch Risiken berücksichtigt, notwendiger zu sein als ein vollständiges Verbot.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Medien spielen im Alltag vieler Jugendlicher kaum eine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Plattformen sind darauf ausgelegt, die Nutzungsdauer zu maximieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien kann übermäßiger Konsum sozialer Medien mit Angstzuständen zusammenhängen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Forscher sind sich einig, dass soziale Medien ausschließlich negative Effekte haben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Länder diskutieren über gesetzliche Altersgrenzen für bestimmte Plattformen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
