@@ -46,9 +46,9 @@ test("generated page builds finish by deduplicating the sitemap", async () => {
 test("deduplication keeps the stable owner and merges current metadata", () => {
   const source = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.com/shared/</loc><lastmod>2026-01-01</lastmod></url>
+  <url><loc>https://example.com/shared/</loc><lastmod>2026-01-01T01:00:00+02:00</lastmod></url>
   <url><loc>https://example.com/unique/</loc></url>
-  <url><loc>https://example.com/shared/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://example.com/shared/</loc><lastmod>2026-01-01T00:30:00Z</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://example.com/shared/</loc></url>
 </urlset>`;
   const result = dedupeSitemap(source);
@@ -56,12 +56,12 @@ test("deduplication keeps the stable owner and merges current metadata", () => {
 
   assert.equal(result.removed, 2);
   assert.equal(result.unique, 2);
-  assert.match(result.xml, /<lastmod>2026-01-01<\/lastmod>/);
+  assert.match(result.xml, /<lastmod>2026-01-01T00:30:00Z<\/lastmod>/);
   assert.match(result.xml, /<changefreq>monthly<\/changefreq>/);
   assert.match(result.xml, /<priority>0\.8<\/priority>/);
   assert.match(
     result.xml,
-    /<loc>https:\/\/example\.com\/shared\/<\/loc>\s*<lastmod>2026-01-01<\/lastmod>\s*<changefreq>monthly<\/changefreq>\s*<priority>0\.8<\/priority>/,
+    /<loc>https:\/\/example\.com\/shared\/<\/loc>\s*<lastmod>2026-01-01T00:30:00Z<\/lastmod>\s*<changefreq>monthly<\/changefreq>\s*<priority>0\.8<\/priority>/,
   );
   assert.match(result.xml, /https:\/\/example\.com\/unique\//);
   assert.equal(secondPass.removed, 0);

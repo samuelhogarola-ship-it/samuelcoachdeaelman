@@ -2,6 +2,14 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+/**
+ * Return a sitemap with one entry per location while merging valid metadata.
+ * The first entry keeps ownership and later entries supply current frequency
+ * and priority values; the chronologically latest lastmod value wins.
+ *
+ * @param {string} source Complete sitemap XML.
+ * @returns {{xml: string, removed: number, unique: number}} Deduplicated XML and counts.
+ */
 export function dedupeSitemap(source) {
   if (!source.includes("<urlset") || !source.includes("</urlset>")) {
     throw new Error("sitemap.xml must contain a complete <urlset> document.");
@@ -45,11 +53,19 @@ export function dedupeSitemap(source) {
     const lastModifiedValues = entries
       .map((entry) => entry.block.match(/<lastmod>([^<]+)<\/lastmod>/))
       .filter(Boolean)
-      .map((match) => match[1].trim())
-      .sort();
+      .map((match) => match[1].trim());
 
     if (lastModifiedValues.length > 0) {
-      metadata.lastmod = lastModifiedValues[lastModifiedValues.length - 1];
+      metadata.lastmod = lastModifiedValues.reduce((latest, candidate) => {
+        const candidateTime = Date.parse(candidate);
+        const latestTime = Date.parse(latest);
+
+        if (Number.isNaN(candidateTime) || Number.isNaN(latestTime)) {
+          throw new Error(`Invalid sitemap lastmod value for ${location}.`);
+        }
+
+        return candidateTime >= latestTime ? candidate : latest;
+      });
     }
 
     for (const tag of ["lastmod", "changefreq", "priority"]) {
