@@ -44666,5 +44666,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-fundbuero",
+    "nivel": "A1",
+    "titulo": "Im Fundbüro",
+    "descripcion": "Lukas verliert seinen Rucksack im Bus und sucht ihn im Fundbüro.",
+    "texto": "Lukas verliert seinen Rucksack im Bus. Er ist sehr traurig. Im Rucksack sind sein Buch, sein Handy und seine Schlüssel. Lukas geht zum Fundbüro. Das Fundbüro ist in der Stadtmitte. Eine Frau arbeitet dort. Sie heißt Frau Klein.\n\nFrau Klein fragt: „Wie sieht der Rucksack aus?“ Lukas antwortet: „Er ist blau und klein.“ Frau Klein sucht im Regal. Sie findet einen blauen Rucksack. „Ist das dein Rucksack?“, fragt sie. Lukas schaut genau hin. „Ja, das ist mein Rucksack!“, ruft er froh.\n\nLukas öffnet den Rucksack. Alles ist noch da. Er bedankt sich bei Frau Klein. Sie lächelt und sagt: „Pass gut auf deine Sachen auf!“ Lukas geht glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas verliert seinen Rucksack im Zug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Rucksack sind ein Buch, ein Handy und Schlüssel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fundbüro ist in der Stadtmitte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Klein findet keinen Rucksack.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas ist am Ende traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-regnerischer-sonntag",
+    "nivel": "A1",
+    "titulo": "Ein regnerischer Sonntag",
+    "descripcion": "Mia und ihre Familie verbringen einen regnerischen Sonntag zu Hause.",
+    "texto": "Es regnet den ganzen Sonntag. Mia bleibt zu Hause. Sie trinkt heißen Tee und liest ein Buch. Ihr Bruder Tom spielt mit Bauklötzen auf dem Boden. Die Mutter kocht eine Suppe in der Küche. Der Vater sitzt am Fenster und schaut dem Regen zu.\n\nAm Nachmittag backen Mia und ihre Mutter einen Kuchen. Der Kuchen riecht sehr gut. Tom darf die Schüssel auslecken. Die ganze Familie isst zusammen den warmen Kuchen. Danach spielen sie ein Kartenspiel am Tisch.\n\nAm Abend hört der Regen auf. Die Sonne kommt kurz heraus. Mia schaut aus dem Fenster und sieht einen Regenbogen. „Schau mal, ein Regenbogen!“, ruft sie. Die ganze Familie kommt ans Fenster und schaut zu.",
+    "preguntas": [
+      {
+        "enunciado": "Es regnet den ganzen Sonntag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom liest den ganzen Tag ein Buch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie backt am Morgen einen Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend sieht Mia einen Regenbogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie spielt kein Spiel zusammen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zahlen-im-alltag",
+    "nivel": "A1",
+    "titulo": "Die Zahlen im Alltag",
+    "descripcion": "Paul übt die Zahlen beim Zählen zu Hause und beim Einkaufen.",
+    "texto": "Paul lernt die Zahlen auf Deutsch. Er zählt seine Finger: eins, zwei, drei, vier, fünf. Dann zählt er die Stühle in der Küche: Es gibt vier Stühle. Im Kühlschrank sind drei Äpfel und zwei Flaschen Milch.\n\nPaul geht mit seiner Mutter einkaufen. An der Kasse kostet das Brot zwei Euro. Die Milch kostet einen Euro fünfzig. Paul zahlt mit einem Fünf-Euro-Schein. Er bekommt Geld zurück. Zu Hause zählt er sein restliches Geld noch einmal.\n\nAm Abend übt Paul die Zahlen bis zwanzig. Seine Schwester hilft ihm dabei. Sie spielen ein Zahlenspiel mit Karten. Paul findet das Spiel lustig und möchte morgen weiterüben.",
+    "preguntas": [
+      {
+        "enunciado": "Paul zählt seine Finger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Kühlschrank sind fünf Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Brot kostet zwei Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul zahlt mit einem Zehn-Euro-Schein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Schwester hilft ihm beim Zahlenlernen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "beim-arzt-mit-fieber",
+    "nivel": "A2",
+    "titulo": "Beim Arzt mit Fieber",
+    "descripcion": "Sven hat hohes Fieber und geht mit seiner Mutter zum Arzt.",
+    "texto": "Sven ist seit zwei Tagen krank. Er hat hohes Fieber bekommen und musste im Bett bleiben. Weil das Fieber nicht gesunken ist, hat seine Mutter einen Termin beim Arzt gemacht. Am Morgen sind sie gemeinsam in die Praxis gefahren.\n\nDer Arzt hat Sven gründlich untersucht. Er hat seine Temperatur gemessen und in den Hals geschaut. „Du hast eine Erkältung“, hat der Arzt gesagt. „Du musst viel trinken und dich ausruhen, damit du schnell gesund wirst.“ Er hat Sven auch ein Medikament gegen das Fieber aufgeschrieben.\n\nZu Hause hat Svens Mutter sofort Tee gekocht. Sven hat das Medikament genommen und ist früh ins Bett gegangen. Am nächsten Tag ist das Fieber schon gesunken. Sven war froh, dass es ihm bald besserging. Er hat beschlossen, dass er mit seinen Freunden ins Schwimmbad geht, wenn er wieder ganz gesund ist.",
+    "preguntas": [
+      {
+        "enunciado": "Sven war eine Woche krank.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat gesagt, Sven hat eine Erkältung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sven musste ins Krankenhaus gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fieber ist am nächsten Tag gesunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sven möchte nach der Genesung ins Kino gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-brieffreundin",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Brieffreundin",
+    "descripcion": "Lena schreibt ihrer Brieffreundin Clara von ihrer Reise ans Meer.",
+    "texto": "Liebe Clara,\n\nich hoffe, dass es dir gut geht! Ich wollte dir erzählen, was ich letzte Woche erlebt habe. Meine Familie und ich sind ans Meer gefahren, weil wir ein paar freie Tage hatten. Wir haben ein kleines Hotel direkt am Strand gefunden.\n\nAm ersten Tag haben wir lange Spaziergänge am Strand gemacht und Muscheln gesammelt. Mein Bruder hat sogar einen Drachen steigen lassen, obwohl der Wind nicht sehr stark war. Abends haben wir in einem Fischrestaurant gegessen. Das Essen hat mir sehr gut geschmeckt, auch wenn ich normalerweise keinen Fisch mag.\n\nAm letzten Tag hat es leider geregnet, deshalb sind wir ins Museum gegangen. Trotzdem war die Reise wunderschön. Ich hoffe, dass du mir bald schreibst, was du in den Ferien gemacht hast.\n\nViele liebe Grüße,\nLena",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist mit ihrer Familie ans Meer gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bruder hat keinen Drachen steigen lassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben in einem Fischrestaurant gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am letzten Tag war das Wetter sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena mag normalerweise sehr gerne Fisch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-ans-meer",
+    "nivel": "A2",
+    "titulo": "Der Ausflug ans Meer",
+    "descripcion": "Jonas fährt mit Freunden an die Nordsee, doch das Wetter spielt nicht mit.",
+    "texto": "Am Samstag ist Jonas mit seinen Freunden an die Nordsee gefahren. Sie sind früh mit dem Zug losgefahren, weil die Fahrt mehrere Stunden gedauert hat. Als sie angekommen sind, hat die Sonne schon geschienen und alle haben sich sehr gefreut.\n\nAm Strand haben sie zuerst ein Picknick gemacht und sind dann barfuß durch den Sand gelaufen. Jonas hat einen alten Leuchtturm besichtigt, weil er sich schon lange dafür interessiert hat. Seine Freundin Nina hat Fotos von den Möwen gemacht, die über dem Wasser geflogen sind.\n\nAm Nachmittag ist das Wetter leider schlechter geworden, und es hat angefangen zu regnen. Die Gruppe ist schnell in ein Café gegangen und hat dort heißen Kakao getrunken. Obwohl der Ausflug kürzer war als geplant, hat allen der Tag sehr gut gefallen. Auf der Rückfahrt im Zug haben sie schon über den nächsten Ausflug gesprochen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist mit dem Auto an die Nordsee gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat einen Leuchtturm besichtigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat Fotos von Möwen gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag ist das Wetter besser geworden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ausflug hat niemandem gefallen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "konflikt-im-buero",
+    "nivel": "B1",
+    "titulo": "Konflikt im Büro",
+    "descripcion": "Zwei Kollegen geraten bei einem Projekt aneinander, bis die Teamleiterin vermittelt.",
+    "texto": "Seit einigen Wochen gibt es Spannungen im Team von Frau Bergmann. Zwei Kollegen, Markus und Julia, sind sich bei einem wichtigen Projekt nicht einig geworden. Markus wollte das Projekt schnell und pragmatisch umsetzen, während Julia auf eine gründlichere Planung bestanden hat. Obwohl beide gute Argumente hatten, konnten sie sich zunächst nicht einigen.\n\nNachdem der Streit mehrere Tage angedauert hatte, bat die Teamleiterin beide zu einem gemeinsamen Gespräch. Sie hörte sich die Sichtweisen von Markus und Julia an und schlug einen Kompromiss vor: Das Projekt sollte in zwei Phasen aufgeteilt werden, eine schnelle Testphase und eine anschließende sorgfältige Ausarbeitung. Trotzdem war es nicht einfach, die beiden Kollegen von diesem Weg zu überzeugen.\n\nLetztendlich stimmten Markus und Julia dem Vorschlag zu, nachdem sie eingesehen hatten, dass beide Ansätze ihre Berechtigung hatten. Seitdem arbeiten sie wieder besser zusammen und respektieren die unterschiedlichen Arbeitsweisen des anderen. Die Teamleiterin war erleichtert, dass der Konflikt gelöst werden konnte, ohne dass jemand im Team das Gefühl hatte, verloren zu haben.",
+    "preguntas": [
+      {
+        "enunciado": "Markus und Julia waren sich sofort einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Teamleiterin hat ein gemeinsames Gespräch vorgeschlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kompromiss sah eine einzige Projektphase vor.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende haben Markus und Julia dem Vorschlag zugestimmt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Gespräch war die Zusammenarbeit schlechter als vorher.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vereinsfeier-im-dorf",
+    "nivel": "B1",
+    "titulo": "Die Vereinsfeier im Dorf",
+    "descripcion": "Der Sportverein von Lindenbach feiert sein fünfzigjähriges Bestehen trotz schlechten Wetters.",
+    "texto": "Jedes Jahr im Sommer veranstaltet der Sportverein von Lindenbach ein großes Dorffest. In diesem Jahr war die Vorbereitung besonders aufwendig, weil der Verein sein fünfzigjähriges Bestehen feiern wollte. Die Mitglieder trafen sich wochenlang, um Zelte aufzubauen, Tische zu organisieren und ein buntes Programm zu planen.\n\nAm Tag der Feier kamen trotz des unsicheren Wetters viele Dorfbewohner zusammen. Nachdem der Bürgermeister eine kurze Rede gehalten hatte, begann das Programm mit Musik und Tanzvorführungen der Kinder. Besonders beliebt war der Wettbewerb im Sackhüpfen, an dem sowohl junge als auch ältere Dorfbewohner teilnahmen. Obwohl einige zunächst skeptisch waren, machten am Ende fast alle mit.\n\nGegen Abend zog ein Gewitter auf, sodass die Feier kurzzeitig unter die großen Zelte verlegt werden musste. Trotzdem ließen sich die Gäste die gute Laune nicht nehmen und feierten bis spät in die Nacht. Viele waren sich einig, dass es eines der schönsten Dorffeste der letzten Jahre gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Der Verein feierte sein fünfzigjähriges Bestehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Feier wurde wegen des Wetters ganz abgesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bürgermeister hielt eine Rede.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sackhüpfen nahmen nur Kinder teil.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gäste feierten trotz des Gewitters weiter.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-erste-praktikum-im-ausland",
+    "nivel": "B1",
+    "titulo": "Das erste Praktikum im Ausland",
+    "descripcion": "Hannah meistert die Herausforderungen ihres ersten Auslandspraktikums in Barcelona.",
+    "texto": "Als Hannah die Zusage für ein Praktikum in Barcelona erhielt, konnte sie ihr Glück kaum fassen. Sie hatte sich monatelang bei verschiedenen Unternehmen beworben, nachdem sie beschlossen hatte, nach dem Studium praktische Auslandserfahrung zu sammeln. Obwohl sie nur wenig Spanisch sprach, wollte sie die Herausforderung annehmen.\n\nDie ersten Wochen in der neuen Stadt waren nicht einfach. Hannah musste sich an die fremde Sprache, die andere Arbeitskultur und das warme Klima gewöhnen. Nachdem sie sich jedoch mit ihren Kollegen angefreundet hatte, fühlte sie sich zunehmend wohler. Ihre Kollegen halfen ihr geduldig, wenn sie etwas nicht verstand, und luden sie oft zum Mittagessen ein.\n\nNach drei Monaten hatte Hannah nicht nur ihre Spanischkenntnisse deutlich verbessert, sondern auch wertvolle berufliche Erfahrungen gesammelt. Obwohl ihr der Abschied von Barcelona schwerfiel, war sie überzeugt, dass sich die Entscheidung für das Praktikum gelohnt hatte. Sie plant bereits, eines Tages wieder nach Spanien zurückzukehren.",
+    "preguntas": [
+      {
+        "enunciado": "Hannah sprach vor dem Praktikum fließend Spanisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die ersten Wochen in Barcelona waren für Hannah einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen halfen Hannah, sich einzuleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Praktikum hatte Hannah ihre Spanischkenntnisse verbessert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hannah möchte nie wieder nach Spanien zurückkehren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungskrise-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Die Wohnungskrise in Deutschland",
+    "descripcion": "Steigende Mieten und fehlender Wohnraum stellen deutsche Großstädte vor große Herausforderungen.",
+    "texto": "In vielen deutschen Großstädten hat sich die Wohnungssuche in den vergangenen Jahren zu einer der größten Herausforderungen für Mieterinnen und Mieter entwickelt. Während die Mieten in Metropolen wie München, Berlin und Hamburg stetig steigen, wird der Neubau bezahlbarer Wohnungen durch hohe Baukosten, strenge Vorschriften und einen Mangel an verfügbaren Grundstücken erheblich gebremst. Besonders betroffen sind Studierende, Alleinerziehende und Menschen mit niedrigem Einkommen, die kaum noch eine geeignete Wohnung finden.\n\nExperten diskutieren seit Längerem, welche Maßnahmen ergriffen werden könnten, um die angespannte Lage zu entschärfen. Manche fordern eine strengere Mietpreisbremse, die konsequenter durchgesetzt werden müsste, während andere argumentieren, dass vor allem mehr Wohnraum geschaffen werden sollte. Würde der Staat stärker in den sozialen Wohnungsbau investieren, so argumentieren Befürworter dieser Position, könnte langfristig mehr bezahlbarer Wohnraum geschaffen werden, ohne private Investitionen zu verdrängen.\n\nKritiker wenden jedoch ein, dass eine zu starke Regulierung des Marktes private Investoren abschrecken und somit den Wohnungsbau zusätzlich verlangsamen könnte. Sie plädieren stattdessen für eine Vereinfachung der Bauvorschriften, damit Bauprojekte schneller und kostengünstiger umgesetzt werden können. Es bleibt umstritten, welcher Ansatz tatsächlich zu einer spürbaren Entspannung des angespannten Wohnungsmarktes führen würde.\n\nUnabhängig davon, welche politischen Maßnahmen letztlich ergriffen werden, sind sich die meisten Beobachter einig, dass schnelles Handeln notwendig wäre, um eine weitere Verschärfung der Situation zu verhindern. Andernfalls droht vielen Menschen in den betroffenen Städten eine zunehmende Verdrängung in weniger zentrale und oft schlechter angebundene Stadtteile.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studierende und Menschen mit niedrigem Einkommen sind von der Wohnungskrise besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass mehr Regulierung die einzige Lösung ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass starke Regulierung Investoren abschrecken könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text besteht kein Handlungsbedarf, da sich die Lage von selbst verbessert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-und-fake-news",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz und Fake News",
+    "descripcion": "Wie Bildung, Regulierung und Journalismus gemeinsam gegen Falschinformationen wirken könnten.",
+    "texto": "In Zeiten sozialer Medien verbreiten sich Falschinformationen schneller als je zuvor. Eine Nachricht, die ursprünglich erfunden wurde, kann innerhalb weniger Stunden millionenfach geteilt werden, bevor sie überhaupt von unabhängigen Stellen überprüft werden konnte. Dies stellt Gesellschaften vor die Herausforderung, wie ein verantwortungsvoller Umgang mit Informationen gefördert werden kann, ohne die Meinungsfreiheit einzuschränken.\n\nBildungsexperten fordern deshalb, dass Medienkompetenz bereits in der Schule stärker vermittelt werden sollte. Schülerinnen und Schüler müssten lernen, Quellen kritisch zu hinterfragen und zwischen seriösem Journalismus und gezielter Desinformation zu unterscheiden. Wäre diese Fähigkeit flächendeckend vorhanden, könnten viele Falschmeldungen bereits im Keim erstickt werden, bevor sie sich weiter verbreiten.\n\nGleichzeitig wird diskutiert, inwiefern soziale Netzwerke selbst in die Pflicht genommen werden sollten. Einige fordern, dass Plattformen stärker reguliert und zur Kennzeichnung fragwürdiger Inhalte verpflichtet werden müssten. Andere wiederum warnen davor, dass eine zu strenge Kontrolle durch private Unternehmen oder den Staat selbst zu einem Instrument der Zensur werden könnte.\n\nLetztlich scheint eine Kombination aus Bildung, technischer Regulierung und journalistischer Sorgfalt notwendig zu sein, um der Verbreitung von Fake News wirksam zu begegnen. Ob diese Maßnahmen ausreichen würden, um das Vertrauen der Öffentlichkeit in verlässliche Informationsquellen langfristig zu stärken, bleibt jedoch eine offene Frage.",
+    "preguntas": [
+      {
+        "enunciado": "Falschinformationen verbreiten sich laut dem Text langsamer als früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern mehr Medienkompetenz schon in der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass soziale Netzwerke nicht reguliert werden sollten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker befürchten, dass strenge Regulierung zur Zensur führen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, Fake News seien bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ueberwachung-im-oeffentlichen-raum",
+    "nivel": "B2",
+    "titulo": "Überwachung im öffentlichen Raum",
+    "descripcion": "Die Debatte um Videoüberwachung und Gesichtserkennung zwischen Sicherheit und Bürgerrechten.",
+    "texto": "Die zunehmende Verbreitung von Überwachungskameras im öffentlichen Raum wird in Deutschland seit Jahren kontrovers diskutiert. Befürworter argumentieren, dass durch eine lückenlose Videoüberwachung Straftaten schneller aufgeklärt und möglicherweise sogar verhindert werden könnten. Insbesondere an stark frequentierten Orten wie Bahnhöfen und belebten Plätzen wird ihrer Meinung nach ein höheres Sicherheitsgefühl geschaffen.\n\nKritiker hingegen warnen vor den Risiken einer immer engmaschigeren Überwachung. Sie befürchten, dass persönliche Freiheiten zunehmend eingeschränkt würden, wenn Bürgerinnen und Bürger sich permanent beobachtet fühlten. Zudem stelle sich die Frage, wer Zugriff auf die gesammelten Daten habe und wie lange diese gespeichert werden dürften. Würden diese Daten missbraucht oder unzureichend geschützt, könnte dies schwerwiegende Folgen für die Privatsphäre der Betroffenen haben.\n\nZusätzlich wird debattiert, inwieweit der Einsatz von künstlicher Intelligenz zur automatischen Gesichtserkennung erlaubt sein sollte. Während einige Städte bereits Pilotprojekte mit solcher Technologie getestet haben, lehnen Datenschützer eine flächendeckende Gesichtserkennung strikt ab. Sie argumentieren, dass eine solche Technologie zu einer Gesellschaft führen könnte, in der jede Bewegung des Einzelnen nachverfolgbar wäre.\n\nLetztlich muss eine Balance gefunden werden zwischen dem berechtigten Sicherheitsbedürfnis der Bevölkerung und dem Schutz grundlegender Bürgerrechte. Wie diese Balance konkret aussehen sollte, bleibt eine der zentralen gesellschaftspolitischen Fragen der kommenden Jahre.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Videoüberwachung glauben, dass Straftaten dadurch schneller aufgeklärt werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker haben keine Bedenken bezüglich der Privatsphäre.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Datenschützer befürworten eine flächendeckende Gesichtserkennung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text thematisiert die Debatte um künstliche Intelligenz zur Gesichtserkennung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text ist die Frage der Überwachung bereits endgültig gelöst.",
+        "respuesta": false
+      }
+    ]
   }
 ]
