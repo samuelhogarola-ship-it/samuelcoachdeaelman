@@ -44318,5 +44318,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "beim-friseur-neue-frisur",
+    "nivel": "A1",
+    "titulo": "Beim Friseur",
+    "descripcion": "Lena geht zum Friseur und bekommt eine neue Frisur.",
+    "texto": "Lena hat lange Haare. Die Haare sind oft im Weg. Heute geht Lena zum Friseur.\n\nDer Friseur heißt Paul. Paul fragt: „Was möchtest du?“ Lena sagt: „Ich möchte kurze Haare.“ Paul schneidet die Haare langsam. Lena sieht in den Spiegel.\n\nNach einer Stunde ist die Frisur fertig. Lena lächelt. Die neuen Haare sind kurz und modern. Lena ist sehr glücklich und sagt: „Danke, Paul!“",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat am Anfang kurze Haare.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Friseur heißt Paul.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena möchte lange Haare.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Frisur ist nach einer Stunde fertig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena ist am Ende traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-wellensittich-piept",
+    "nivel": "A1",
+    "titulo": "Mein Wellensittich piept",
+    "descripcion": "Tom erzählt von seinem kleinen Vogel zu Hause.",
+    "texto": "Tom hat einen Vogel. Der Vogel heißt Bruno. Bruno ist klein und grün. Bruno wohnt in einem Käfig im Wohnzimmer.\n\nJeden Morgen piept Bruno laut. Tom gibt Bruno Wasser und Körner. Bruno trinkt und isst gern. Am Nachmittag fliegt Bruno durch das Zimmer.\n\nTom spielt oft mit Bruno. Bruno sitzt auf Toms Finger. Tom findet seinen Vogel sehr lustig und liebt ihn sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Vogel heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist groß und blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno wohnt in der Küche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno isst Körner.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom spielt nie mit Bruno.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ich-putze-mein-zimmer-am-samstag",
+    "nivel": "A1",
+    "titulo": "Ich putze mein Zimmer",
+    "descripcion": "Mia räumt am Samstag ihr Zimmer auf und putzt es.",
+    "texto": "Am Samstag putzt Mia ihr Zimmer. Zuerst räumt sie die Bücher in das Regal. Dann macht sie das Bett.\n\nMia staubt den Tisch ab. Sie wischt auch den Boden. Die Mutter hilft ein bisschen. Zusammen arbeiten sie schnell.\n\nNach einer Stunde ist das Zimmer sauber und ordentlich. Mia ist stolz. Sie hört Musik und liest ein Buch auf ihrem Bett.",
+    "preguntas": [
+      {
+        "enunciado": "Mia putzt ihr Zimmer am Sonntag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zuerst räumt Mia die Bücher ins Regal.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter hilft Mia.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Zimmer ist am Ende schmutzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia liest ein Buch auf ihrem Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-apothekenbesuch-am-morgen",
+    "nivel": "A2",
+    "titulo": "Der Apothekenbesuch am Morgen",
+    "descripcion": "Herr Weber holt am Morgen Medikamente aus der Apotheke.",
+    "texto": "Herr Weber ist seit zwei Tagen krank. Er hat Husten und Kopfschmerzen. Weil es ihm schlecht geht, ist er am Morgen zur Apotheke gegangen.\n\nIn der Apotheke hat die Apothekerin gefragt, welche Symptome er hat. Herr Weber hat erklärt, dass er auch Fieber hat. Die Apothekerin hat ihm Tabletten und einen Hustensaft empfohlen. Sie hat gesagt, dass er viel trinken und sich ausruhen soll.\n\nHerr Weber hat die Medikamente gekauft und ist nach Hause gegangen. Dort hat er sofort eine Tablette genommen und sich ins Bett gelegt. Am Abend hat er sich schon ein bisschen besser gefühlt.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber ist seit einer Woche krank.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat Husten und Kopfschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Apothekerin hat ihm nichts empfohlen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber soll viel trinken und sich ausruhen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend fühlt sich Herr Weber schlechter.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-schwimmbad-mit-oma",
+    "nivel": "A2",
+    "titulo": "Ein Tag im Schwimmbad mit Oma",
+    "descripcion": "Sophie verbringt einen Tag im Schwimmbad mit ihrer Oma.",
+    "texto": "Am Samstag ist Sophie mit ihrer Oma ins Schwimmbad gefahren. Weil das Wetter sehr warm war, waren viele Leute dort. Sophie und ihre Oma haben Handtücher und Sonnencreme mitgebracht.\n\nSophie ist sofort ins Wasser gesprungen und hat lange geschwommen. Ihre Oma ist lieber am Rand geblieben, weil sie nicht so gut schwimmen kann. Trotzdem hat sie Sophie zugewinkt und fotografiert.\n\nAm Nachmittag haben beide ein Eis gegessen. Sophie hat erzählt, dass sie nächstes Jahr einen Schwimmkurs machen möchte. Die Oma hat gelacht und gesagt, dass sie dann stolz auf sie sein wird.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie und ihre Oma sind ins Schwimmbad gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war kalt und regnerisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma schwimmt lieber weit hinaus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beide essen am Nachmittag ein Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie möchte nie einen Schwimmkurs machen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-koffer-in-der-tuerkei",
+    "nivel": "A2",
+    "titulo": "Der verlorene Koffer in der Türkei",
+    "descripcion": "Familie Hoffmann verliert ihren Koffer während des Urlaubs in der Türkei.",
+    "texto": "Familie Hoffmann ist vor zwei Wochen in die Türkei geflogen. Als sie am Flughafen angekommen sind, haben sie bemerkt, dass ein Koffer fehlt. Weil der Koffer wichtige Kleidung enthielt, waren alle sehr besorgt.\n\nHerr Hoffmann hat sofort einen Mitarbeiter der Fluggesellschaft gefragt. Der Mitarbeiter hat ein Formular ausgefüllt und gesagt, dass der Koffer in zwei Tagen gefunden werden soll. Die Familie ist dann müde ins Hotel gefahren.\n\nAm nächsten Tag hat das Hotel angerufen: Der Koffer war endlich angekommen! Die Familie war sehr erleichtert und hat den Rest des Urlaubs ohne Probleme genossen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Hoffmann ist nach Spanien geflogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Flughafen hat ein Koffer gefehlt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Hoffmann hat nichts gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer ist am nächsten Tag angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie war am Ende enttäuscht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-gesangswettbewerb-in-der-schule",
+    "nivel": "B1",
+    "titulo": "Der Gesangswettbewerb in der Schule",
+    "descripcion": "Eine Schülerin bereitet sich auf einen Gesangswettbewerb vor und überwindet ihre Nervosität.",
+    "texto": "Jana singt seit Jahren im Schulchor, obwohl sie sich vor großen Auftritten immer sehr nervös fühlt. Als ihre Lehrerin einen Gesangswettbewerb ankündigte, überlegte Jana lange, ob sie teilnehmen sollte. Nachdem ihre Freunde sie ermutigt hatten, meldete sie sich schließlich an.\n\nIn den Wochen vor dem Wettbewerb übte Jana jeden Tag, obwohl die Vorbereitung anstrengend war. Sie wählte ein Lied, das ihr besonders viel bedeutete. Trotzdem hatte sie am Abend vor dem Auftritt kaum geschlafen, weil sie so aufgeregt war.\n\nAls Jana auf der Bühne stand, zitterten ihre Hände. Nachdem die ersten Töne gesungen waren, wurde sie ruhiger und konzentrierte sich nur noch auf die Musik. Am Ende bekam sie großen Applaus, und obwohl sie nicht den ersten Platz gewann, war sie stolz auf sich selbst.",
+    "preguntas": [
+      {
+        "enunciado": "Jana singt seit Jahren im Schulchor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana meldet sich sofort ohne Zweifel an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana übt jeden Tag vor dem Wettbewerb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana schläft vor dem Auftritt sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana gewinnt den ersten Platz.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-renovierung-der-dachwohnung",
+    "nivel": "B1",
+    "titulo": "Die Renovierung der Dachwohnung",
+    "descripcion": "Ein junges Paar renoviert eine alte Dachwohnung und stößt auf unerwartete Probleme.",
+    "texto": "Lisa und Martin hatten vor einem Jahr eine alte Dachwohnung gekauft, obwohl das Dach schon sehr renovierungsbedürftig war. Nachdem sie die ersten Pläne gezeichnet hatten, begannen sie mit den Arbeiten an den Wänden und Böden. Sie wollten die Wohnung vor allem heller und moderner gestalten.\n\nWährend der Renovierung entdeckten sie jedoch alte Wasserschäden unter dem Dach, die vorher niemand gesehen hatte. Obwohl dieses Problem viel zusätzliches Geld kostete, entschieden sie sich, es sofort zu reparieren. Ein Handwerker half ihnen dabei, nachdem er die Schäden genau untersucht hatte.\n\nNach mehreren anstrengenden Monaten war die Wohnung endlich fertig. Trotz aller Schwierigkeiten waren Lisa und Martin sehr zufrieden mit dem Ergebnis. Sie luden ihre Familie zu einer kleinen Feier ein, um die neue Wohnung gemeinsam zu genießen.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa und Martin kaufen ein neues Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Während der Renovierung finden sie Wasserschäden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie reparieren die Schäden nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Handwerker hilft bei der Reparatur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende sind sie unzufrieden mit der Wohnung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-jahr-als-austauschschueler-in-kanada",
+    "nivel": "B1",
+    "titulo": "Ein Jahr als Austauschschüler in Kanada",
+    "descripcion": "Ein Schüler erzählt von seinen Erfahrungen während eines Austauschjahres in Kanada.",
+    "texto": "Felix verbrachte ein ganzes Schuljahr in Kanada, obwohl er vorher noch nie so lange von seiner Familie getrennt gewesen war. Am Anfang fiel es ihm schwer, sich an die neue Sprache und die fremde Kultur zu gewöhnen. Nachdem er jedoch eine Gastfamilie gefunden hatte, die ihn herzlich aufnahm, fühlte er sich schnell wohler.\n\nIn der Schule musste Felix viele neue Fächer lernen, trotzdem machte ihm der Unterricht großen Spaß. Er freundete sich mit Mitschülern aus verschiedenen Ländern an und entdeckte dadurch neue Perspektiven. Besonders die Wochenenden, an denen die Familie Ausflüge in die Natur unternahm, blieben ihm in Erinnerung.\n\nAls das Austauschjahr zu Ende ging, fiel Felix der Abschied sehr schwer. Nachdem er wieder zu Hause angekommen war, vermisste er seine Gastfamilie und seine neuen Freunde sehr. Trotzdem war er froh, diese wichtige Erfahrung gemacht zu haben.",
+    "preguntas": [
+      {
+        "enunciado": "Felix verbringt ein Jahr in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Anfang fällt es ihm leicht, sich anzupassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix findet eine freundliche Gastfamilie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix freundet sich mit niemandem an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Abschied fällt Felix leicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-kuerzere-arbeitszeiten",
+    "nivel": "B2",
+    "titulo": "Die Debatte um kürzere Arbeitszeiten",
+    "descripcion": "Eine Analyse der gesellschaftlichen Diskussion über kürzere Arbeitszeiten und ihre möglichen Folgen.",
+    "texto": "In den letzten Jahren ist die Forderung nach kürzeren Arbeitszeiten zu einem zentralen Thema der gesellschaftlichen Debatte geworden. Befürworter argumentieren, dass eine Reduzierung der wöchentlichen Arbeitsstunden die Produktivität steigern und gleichzeitig die psychische Gesundheit der Beschäftigten verbessern würde. Würde man die Arbeitszeit verkürzen, so ihre Annahme, hätten Arbeitnehmer mehr Zeit für Familie, Erholung und persönliche Weiterentwicklung.\n\nKritiker hingegen warnen vor den wirtschaftlichen Risiken eines solchen Schrittes. Sie befürchten, dass kleinere Unternehmen, die ohnehin unter einem erheblichen Kostendruck stehen, zusätzlich belastet würden. Außerdem wird argumentiert, dass bestimmte Branchen, in denen ein akuter Fachkräftemangel herrscht, von kürzeren Arbeitszeiten besonders betroffen wären, da die Nachfrage nach Dienstleistungen dadurch kaum gedeckt werden könnte.\n\nPilotprojekte in verschiedenen Ländern haben bisher gezeigt, dass eine Verkürzung der Arbeitszeit, verbunden mit gleichbleibendem Lohn, in vielen Fällen zu höherer Zufriedenheit und sogar zu stabiler Produktivität geführt hat. Trotzdem bleibt umstritten, ob diese Modelle auf alle Wirtschaftszweige übertragen werden könnten. Eine endgültige politische Entscheidung steht in den meisten Ländern noch aus, während die öffentliche Diskussion weitergeht.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter sehen in kürzeren Arbeitszeiten nur Nachteile.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten wirtschaftliche Belastungen für kleine Unternehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Fachkräftemangel wird in dem Text erwähnt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pilotprojekte zeigen durchgehend negative Ergebnisse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine endgültige politische Entscheidung ist in den meisten Ländern bereits gefallen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-in-der-schule-von-morgen",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz in der Schule von morgen",
+    "descripcion": "Ein Blick auf die Chancen und Risiken künstlicher Intelligenz im schulischen Unterricht.",
+    "texto": "Die Diskussion um den Einsatz künstlicher Intelligenz im Unterricht hat in den vergangenen Jahren erheblich an Bedeutung gewonnen. Befürworter betonen, dass individualisierte Lernprogramme, die auf künstlicher Intelligenz basieren, es ermöglichen würden, auf die unterschiedlichen Bedürfnisse einzelner Schüler einzugehen. Besonders in großen Klassen, in denen Lehrkräfte oft überlastet sind, könnten solche Programme eine sinnvolle Unterstützung darstellen.\n\nGleichzeitig wird jedoch vor den Risiken gewarnt, die mit einer zunehmenden Digitalisierung des Unterrichts einhergehen. Kritiker weisen darauf hin, dass der zwischenmenschliche Kontakt, der für die soziale Entwicklung von Kindern unerlässlich ist, durch eine stärkere Nutzung digitaler Werkzeuge vernachlässigt werden könnte. Außerdem stellt sich die Frage, inwieweit die Privatsphäre der Schüler geschützt werden kann, wenn umfangreiche Lerndaten gesammelt und ausgewertet werden.\n\nViele Bildungsexperten fordern deshalb einen ausgewogenen Ansatz, bei dem künstliche Intelligenz als ergänzendes Werkzeug eingesetzt wird, ohne die Rolle der Lehrkraft zu ersetzen. Würde man diesen Mittelweg konsequent verfolgen, könnten die Vorteile der neuen Technologien genutzt werden, ohne dass wesentliche pädagogische Grundsätze aufgegeben werden müssten. Wie genau dieser Ausgleich in der Praxis gelingen soll, wird jedoch weiterhin kontrovers diskutiert.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter sehen in individualisierten Lernprogrammen eine mögliche Unterstützung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker machen sich keine Sorgen um den zwischenmenschlichen Kontakt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Privatsphäre der Schüler wird im Text als Problem angesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bildungsexperten fordern, die Lehrkraft komplett zu ersetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text beschreibt die Diskussion als vollständig abgeschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-fachkraeftemangel-im-handwerksbetrieb",
+    "nivel": "B2",
+    "titulo": "Der Fachkräftemangel im Handwerksbetrieb",
+    "descripcion": "Eine Betrachtung der Ursachen und Folgen des Fachkräftemangels in deutschen Handwerksbetrieben.",
+    "texto": "Der Mangel an qualifizierten Fachkräften stellt viele Handwerksbetriebe in Deutschland vor erhebliche Herausforderungen. Immer weniger junge Menschen entscheiden sich für eine Ausbildung im handwerklichen Bereich, obwohl gerade hier langfristig sichere Arbeitsplätze geboten werden. Stattdessen bevorzugen viele Schulabsolventen ein Studium, das gesellschaftlich oft als prestigeträchtiger wahrgenommen wird.\n\nDiese Entwicklung hat zur Folge, dass zahlreiche Betriebe Aufträge ablehnen müssen, weil schlicht das notwendige Personal fehlt. Besonders betroffen sind Branchen wie das Sanitär- und Elektrohandwerk, in denen die Nachfrage nach Dienstleistungen stetig steigt, während das Angebot an ausgebildeten Fachkräften zurückgeht. Hinzu kommt, dass viele erfahrene Handwerker in den kommenden Jahren in den Ruhestand gehen werden, ohne dass ausreichend Nachwuchs zur Verfügung steht.\n\nUm dieser Entwicklung entgegenzuwirken, fordern Verbände eine stärkere gesellschaftliche Anerkennung handwerklicher Berufe sowie attraktivere Ausbildungsbedingungen. Würden Schulen und Eltern handwerkliche Laufbahnen gleichwertig neben akademischen Wegen präsentieren, könnte dies langfristig dazu beitragen, mehr junge Menschen für das Handwerk zu gewinnen. Bis eine solche Veränderung spürbare Wirkung zeigt, dürfte jedoch noch einige Zeit vergehen.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr junge Menschen entscheiden sich für eine Ausbildung im Handwerk.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Betriebe müssen Aufträge ablehnen, weil Personal fehlt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Sanitär- und Elektrohandwerk ist besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt genügend Nachwuchs für die bald ausscheidenden Handwerker.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erwartet eine sofortige Lösung des Problems.",
+        "respuesta": false
+      }
+    ]
   }
 ]
