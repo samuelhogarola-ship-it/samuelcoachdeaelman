@@ -1,7 +1,7 @@
 const { test, expect } = require("@playwright/test");
 
 const staticPages = [
-  { path: "/", heading: /aprende alemán de verdad/i, hasAppsWidget: false },
+  { path: "/", heading: /clases de alemán online desde fuengirola/i, hasAppsWidget: false },
   { path: "/servicios/", heading: /servicios de alemán online/i, hasAppsWidget: false },
   { path: "/sobre-mi/", heading: /sobre mí/i, hasAppsWidget: false },
   { path: "/metodologia/", heading: /metodología/i, hasAppsWidget: false },
