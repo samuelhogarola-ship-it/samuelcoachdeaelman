@@ -43622,5 +43622,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-neues-fahrrad-vom-flohmarkt",
+    "nivel": "A1",
+    "titulo": "Mein neues Fahrrad vom Flohmarkt",
+    "descripcion": "Lukas kauft ein gebrauchtes Fahrrad auf dem Flohmarkt und freut sich sehr.",
+    "texto": "Lukas ist zehn Jahre alt. Er wohnt in einer kleinen Stadt. Am Samstag geht er mit seinem Vater zum Flohmarkt. Dort gibt es viele alte Sachen: Bücher, Spielzeug und auch Fahrräder.\n\nLukas sieht ein rotes Fahrrad. Es ist nicht neu, aber es sieht gut aus. Der Preis ist fünfzehn Euro. Lukas fragt: „Papa, kaufst du mir das Fahrrad?\" Sein Vater lacht und sagt: „Ja, das ist ein guter Preis.\"\n\nZu Hause putzt Lukas das Fahrrad. Er ist sehr glücklich. Jetzt fährt er jeden Tag mit seinem neuen Fahrrad zur Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas geht allein zum Flohmarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fahrrad ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fahrrad kostet fünfzehn Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas fährt jetzt mit dem Fahrrad zur Schule.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-pause-in-der-schule",
+    "nivel": "A1",
+    "titulo": "Die Pause in der Schule",
+    "descripcion": "Eine kurze Beschreibung der Pause von Mia und ihren Freunden in der Schule.",
+    "texto": "Mia geht in die vierte Klasse. Nach zwei Stunden hat sie Pause. Die Pause dauert zwanzig Minuten. Mia isst ein Brot und trinkt Wasser.\n\nIn der Pause spielt Mia mit ihren Freunden im Schulhof. Sie spielen oft Fangen oder Ball. Ihr bester Freund heißt Paul. Er mag Fußball sehr.\n\nNach der Pause gehen alle Kinder wieder ins Klassenzimmer. Die Lehrerin sagt: „Setzt euch bitte hin!\" Dann beginnt der Matheunterricht.",
+    "preguntas": [
+      {
+        "enunciado": "Mia geht in die vierte Klasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Pause dauert eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia trinkt in der Pause Milch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul ist Mias bester Freund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Pause haben die Kinder Matheunterricht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "zahlen-im-alltag",
+    "nivel": "A1",
+    "titulo": "Zahlen im Alltag",
+    "descripcion": "Anna erzählt, wie wichtig Zahlen in ihrem täglichen Leben sind.",
+    "texto": "Anna benutzt jeden Tag Zahlen. Sie steht um sieben Uhr auf. Um acht Uhr beginnt die Schule. Anna hat fünf Fächer am Tag.\n\nIn der Pause kauft Anna manchmal einen Apfel. Ein Apfel kostet fünfzig Cent. Sie hat drei Euro in ihrem Portemonnaie. Das ist genug für drei Äpfel.\n\nAm Abend telefoniert Anna mit ihrer Oma. Die Telefonnummer der Oma hat zehn Zahlen. Anna kennt die Nummer gut und ruft oft an.",
+    "preguntas": [
+      {
+        "enunciado": "Anna steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna hat zehn Fächer am Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Apfel kostet fünfzig Cent.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna hat kein Geld in ihrem Portemonnaie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna telefoniert am Abend mit ihrer Oma.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-zahnarzttermin-am-montag",
+    "nivel": "A2",
+    "titulo": "Der Zahnarzttermin am Montag",
+    "descripcion": "Tobias berichtet von seinem Besuch beim Zahnarzt und seiner anfänglichen Angst.",
+    "texto": "Am Montag hatte Tobias einen Termin beim Zahnarzt. Er hatte seit Tagen Angst, weil er starke Zahnschmerzen hatte. Schon als Kind hat er sich vor dem Zahnarzt gefürchtet.\n\nAls er in die Praxis kam, war er sehr nervös. Die Zahnärztin hat ihn aber freundlich begrüßt und gesagt: „Keine Sorge, das tut nicht weh.\" Sie hat den Zahn untersucht und festgestellt, dass ein kleines Loch die Schmerzen verursacht hat.\n\nNachdem die Zahnärztin den Zahn behandelt hatte, fühlte sich Tobias viel besser. Er war erstaunt, dass die Behandlung so schnell und schmerzlos war. Jetzt hat er keine Angst mehr vor dem nächsten Termin.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias hatte den Termin am Montag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias hatte keine Angst vor dem Zahnarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin war unfreundlich zu Tobias.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein kleines Loch hat die Schmerzen verursacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias hat nach der Behandlung weiterhin große Angst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-den-brieffreund",
+    "nivel": "A2",
+    "titulo": "Ein Brief an den Brieffreund",
+    "descripcion": "Sophie schreibt ihrem Brieffreund in Frankreich einen Brief über ihren Sommer.",
+    "texto": "Liebe Pierre, wie geht es dir? Ich hoffe, dass es dir und deiner Familie gut geht. Bei mir ist viel passiert, seit ich dir zuletzt geschrieben habe.\n\nIm Juli bin ich mit meinen Eltern nach Österreich gefahren. Wir haben dort in den Bergen gewandert, weil mein Vater das Wandern sehr liebt. Am Anfang war ich müde, aber nach ein paar Tagen hat es mir richtig Spaß gemacht. Wir haben auch einen See besucht und sind geschwommen.\n\nJetzt bin ich wieder zu Hause und freue mich auf die Schule. Erzähl mir doch auch, was du im Sommer gemacht hast. Ich hoffe, du besuchst mich bald in Deutschland! Viele Grüße, Sophie",
+    "preguntas": [
+      {
+        "enunciado": "Sophie schreibt einen Brief an ihre Freundin in Spanien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie ist im Juli nach Österreich gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophies Vater liebt das Wandern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat keinen See besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie freut sich auf die Schule.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-ankunft-am-flughafen",
+    "nivel": "A2",
+    "titulo": "Die Ankunft am Flughafen",
+    "descripcion": "Familie Weber kommt nach einem langen Flug am Flughafen in München an.",
+    "texto": "Familie Weber ist nach einem langen Urlaub in Spanien wieder zurück in Deutschland. Der Flug hat sich verspätet, weil es in Barcelona stark geregnet hat. Deshalb sind alle sehr müde, als das Flugzeug endlich in München landet.\n\nAm Flughafen müssen sie lange auf ihre Koffer warten. Die kleine Tochter Lena ist ungeduldig und fragt immer wieder: „Wann kommen wir endlich nach Hause?\" Ihre Mutter erklärt ihr, dass das Warten manchmal dazu gehört, wenn man reist.\n\nAls sie endlich ihre Koffer gefunden haben, nehmen sie ein Taxi nach Hause. Obwohl die Reise anstrengend war, freuen sich alle schon auf das nächste Abenteuer im Urlaub.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Weber kommt aus Spanien zurück.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Flug war pünktlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Flugzeug landet in München.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena ist sehr geduldig beim Warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie fährt mit dem Bus nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-in-die-berge",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt in die Berge",
+    "descripcion": "Eine Schulklasse verbringt eine Woche in den Bergen und erlebt dabei viele Abenteuer.",
+    "texto": "Die zehnte Klasse des Gymnasiums ist für eine Woche in die Berge gefahren. Obwohl viele Schüler zunächst skeptisch waren, weil sie lieber ans Meer gefahren wären, änderte sich ihre Meinung schon am ersten Tag. Die frische Luft und die beeindruckende Landschaft begeisterten fast alle.\n\nNachdem die Klasse im Jugendgästehaus angekommen war, machten sie eine erste kleine Wanderung. Trotz der Anstrengung erreichten alle gemeinsam den Gipfel und genossen die Aussicht. Am Abend saßen sie zusammen am Lagerfeuer und erzählten sich Geschichten, während der Lehrer Gitarre spielte.\n\nAm letzten Tag der Fahrt waren viele Schüler traurig, dass die Woche schon vorbei war. Sie hatten nicht nur die Natur kennengelernt, sondern auch neue Freundschaften geschlossen. Die Klassenfahrt wird allen lange in Erinnerung bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist für eine Woche in die Berge gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler wollten von Anfang an in die Berge fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat den Gipfel nicht erreicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend saßen die Schüler am Lagerfeuer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am letzten Tag waren alle Schüler froh, dass die Fahrt vorbei war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-von-berlin-nach-muenchen",
+    "nivel": "B1",
+    "titulo": "Der Umzug von Berlin nach München",
+    "descripcion": "Jonas erzählt, wie schwer ihm der Umzug von Berlin nach München gefallen ist.",
+    "texto": "Jonas hat sein ganzes Leben in Berlin verbracht, bis seine Firma ihn vor einem Jahr nach München versetzt hat. Obwohl er sich über die neue Stelle gefreut hat, fiel ihm der Abschied von seinen Freunden und seiner vertrauten Umgebung sehr schwer.\n\nIn den ersten Wochen in München fühlte sich Jonas einsam, weil er niemanden kannte. Trotzdem gab er nicht auf und meldete sich in einem Sportverein an, um neue Leute kennenzulernen. Nachdem er einige Monate dort trainiert hatte, fand er endlich Anschluss und schloss sogar enge Freundschaften.\n\nHeute, ein Jahr später, fühlt sich Jonas in München fast wie zu Hause. Er vermisst Berlin zwar immer noch manchmal, besonders seine alten Freunde, aber er ist froh, dass er den Mut hatte, den Umzug zu wagen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist wegen seiner Firma nach München gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Abschied von Berlin fiel Jonas leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas fühlte sich in den ersten Wochen in München einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat sich in keinem Verein angemeldet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas vermisst Berlin manchmal.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommerjob-im-biergarten",
+    "nivel": "B1",
+    "titulo": "Ein Sommerjob im Biergarten",
+    "descripcion": "Laura arbeitet im Sommer als Kellnerin in einem Biergarten und sammelt dabei neue Erfahrungen.",
+    "texto": "Laura hat sich entschieden, in den Sommerferien als Kellnerin in einem Biergarten zu arbeiten. Sie wollte ihr eigenes Geld verdienen, um sich eine Reise nach Italien leisten zu können. Obwohl die Arbeit anstrengend war, hat sie viel Spaß dabei gehabt.\n\nAn den heißen Sommerabenden war der Biergarten immer voll, sodass Laura kaum eine Pause hatte. Nachdem sie sich an das Tempo gewöhnt hatte, lief die Arbeit jedoch viel leichter. Sie lernte, wie man mit schwierigen Gästen umgeht und wie wichtig Teamarbeit in der Gastronomie ist.\n\nAm Ende des Sommers hatte Laura nicht nur genug Geld für ihre Reise gespart, sondern auch viele neue Fähigkeiten erworben. Sie überlegt nun, auch im nächsten Sommer wieder dort zu arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Laura hat in den Sommerferien in einem Biergarten gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura wollte Geld für eine Reise nach Italien sparen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Biergarten war an den Sommerabenden meist leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura hatte von Anfang an keine Probleme mit dem Arbeitstempo.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura möchte im nächsten Sommer nicht mehr dort arbeiten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-das-homeoffice",
+    "nivel": "B2",
+    "titulo": "Die Debatte um das Homeoffice",
+    "descripcion": "Eine kritische Betrachtung der Vor- und Nachteile von Homeoffice im modernen Arbeitsleben.",
+    "texto": "Seit der Pandemie hat sich das Homeoffice in vielen Branchen als feste Arbeitsform etabliert. Während Arbeitnehmer die gewonnene Flexibilität und die eingesparte Pendelzeit schätzen, äußern manche Arbeitgeber Bedenken hinsichtlich der Produktivität und des Teamgefühls. Es wird zunehmend diskutiert, ob eine Rückkehr ins Büro notwendig wäre, um die Unternehmenskultur zu bewahren.\n\nBefürworter des Homeoffice argumentieren, dass die Arbeitsqualität nicht zwingend vom Arbeitsort abhänge, sondern vielmehr von klaren Zielvereinbarungen und Vertrauen zwischen Führungskräften und Mitarbeitern. Würde man Mitarbeitern mehr Eigenverantwortung übertragen, ließe sich ihrer Meinung nach auch im Homeoffice eine hohe Leistung erzielen. Kritiker hingegen befürchten, dass der informelle Austausch, der oft zu kreativen Lösungen führt, im digitalen Raum verloren geht.\n\nAngesichts dieser gegensätzlichen Positionen setzen immer mehr Unternehmen auf hybride Modelle, bei denen Mitarbeiter sowohl im Büro als auch von zu Hause arbeiten können. Ob sich diese Kompromisslösung langfristig durchsetzen wird, bleibt abzuwarten, zumal sich die Erwartungen der jüngeren Generation an die Arbeitswelt stetig verändern.",
+    "preguntas": [
+      {
+        "enunciado": "Das Homeoffice hat sich seit der Pandemie in vielen Branchen etabliert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Arbeitgeber begrüßen das Homeoffice ohne Bedenken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter des Homeoffice betonen die Bedeutung von Vertrauen und klaren Zielen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass informeller Austausch im Homeoffice verloren geht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text setzen immer weniger Unternehmen auf hybride Modelle.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-in-der-digitalen-welt",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz in der digitalen Welt",
+    "descripcion": "Eine Auseinandersetzung mit der wachsenden Bedeutung von Medienkompetenz angesichts von Falschinformationen.",
+    "texto": "In einer Zeit, in der Informationen über soziale Netzwerke rasend schnell verbreitet werden, gewinnt die Fähigkeit, Quellen kritisch zu hinterfragen, zunehmend an Bedeutung. Viele Jugendliche beziehen ihre Nachrichten mittlerweile fast ausschließlich aus kurzen Videos oder Beiträgen, deren Wahrheitsgehalt selten überprüft wird. Dadurch entsteht die Gefahr, dass Falschinformationen sich schneller verbreiten als korrigierende Fakten.\n\nBildungsexperten fordern deshalb, dass Medienkompetenz als fester Bestandteil des Schulunterrichts verankert wird. Würden Schüler frühzeitig lernen, zwischen seriösen und unseriösen Quellen zu unterscheiden, wären sie besser auf die Herausforderungen der digitalen Welt vorbereitet. Einige Schulen haben bereits entsprechende Projekte eingeführt, bei denen Schüler lernen, Nachrichten selbst zu recherchieren und zu überprüfen.\n\nDennoch bleibt die Umsetzung in der Praxis schwierig, da viele Lehrkräfte selbst nicht ausreichend geschult sind, um dieses komplexe Thema angemessen zu vermitteln. Ohne eine umfassende Investition in die Lehrerausbildung wird es kaum gelingen, die Medienkompetenz der jungen Generation nachhaltig zu stärken.",
+    "preguntas": [
+      {
+        "enunciado": "Viele Jugendliche informieren sich hauptsächlich über kurze Videos.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Falschinformationen verbreiten sich laut Text langsamer als korrigierende Fakten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern mehr Medienkompetenz im Schulunterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schulen haben bereits erfolgreiche Projekte zur Medienkompetenz umgesetzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Lehrkräfte sind laut Text ausreichend für dieses Thema geschult.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-bezahlbaren-wohnraum",
+    "nivel": "B2",
+    "titulo": "Der Streit um bezahlbaren Wohnraum",
+    "descripcion": "Eine Analyse der Ursachen und möglichen Lösungen der Wohnraumkrise in deutschen Großstädten.",
+    "texto": "In zahlreichen deutschen Großstädten ist bezahlbarer Wohnraum längst zu einem knappen Gut geworden. Die Mieten steigen seit Jahren kontinuierlich, während das Angebot an neuen Wohnungen mit der wachsenden Nachfrage kaum Schritt halten kann. Besonders betroffen sind Menschen mit geringem Einkommen, die zunehmend aus den Innenstädten in die Randgebiete verdrängt werden.\n\nPolitiker diskutieren seit langem über mögliche Lösungsansätze. Während einige eine strengere Mietpreisbremse fordern, plädieren andere dafür, den Bau neuer Wohnungen durch weniger Bürokratie zu beschleunigen. Würde man beide Maßnahmen kombinieren, so argumentieren manche Experten, ließe sich der Druck auf dem Wohnungsmarkt zumindest teilweise verringern. Kritiker wenden jedoch ein, dass eine zu strenge Regulierung Investoren abschrecken und somit den Wohnungsbau zusätzlich bremsen könnte.\n\nAngesichts der Komplexität des Problems wird deutlich, dass einfache Lösungen kaum ausreichen werden. Vielmehr bedarf es eines Zusammenspiels aus sozialem Wohnungsbau, gezielter Förderung und einer langfristigen Stadtplanung, um bezahlbaren Wohnraum für alle Bevölkerungsschichten zu sichern.",
+    "preguntas": [
+      {
+        "enunciado": "Bezahlbarer Wohnraum ist in vielen deutschen Großstädten knapp geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Angebot an neuen Wohnungen übersteigt die Nachfrage deutlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Menschen mit geringem Einkommen werden oft in Randgebiete verdrängt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass eine strengere Mietpreisbremse allein das Problem löst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text braucht es ein Zusammenspiel verschiedener Maßnahmen, um das Problem zu lösen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
