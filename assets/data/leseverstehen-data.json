@@ -45014,5 +45014,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-blumenladen-am-markt",
+    "nivel": "A1",
+    "titulo": "Im Blumenladen am Markt",
+    "descripcion": "Lisa arbeitet in einem kleinen Blumenladen und verkauft bunte Blumen.",
+    "texto": "Lisa arbeitet in einem Blumenladen. Der Laden ist klein und bunt. Jeden Morgen räumt Lisa die Blumen ein. Sie mag rote Rosen sehr gern. Die Kunden kaufen oft bunte Sträuße.\n\nHeute kommt eine Frau in den Laden. Sie sucht Blumen für einen Geburtstag. Lisa zeigt ihr gelbe Tulpen und weiße Lilien. Die Frau wählt zehn gelbe Tulpen. Lisa packt die Blumen schön ein.\n\nAm Abend schließt Lisa den Laden. Sie gießt noch schnell die Pflanzen. Dann geht sie müde nach Hause. Morgen öffnet der Laden wieder um neun Uhr.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa arbeitet in einem Blumenladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Blumenladen ist sehr groß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Frau kauft gelbe Tulpen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa mag keine Rosen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Laden öffnet morgen um neun Uhr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-montagmorgen",
+    "nivel": "A1",
+    "titulo": "Mein Montagmorgen",
+    "descripcion": "Paul erzählt, wie sein Montagmorgen vor der Schule abläuft.",
+    "texto": "Ich heiße Paul und stehe immer früh auf. Am Montag klingelt mein Wecker um sechs Uhr. Zuerst dusche ich und putze meine Zähne. Dann esse ich Brot mit Marmelade. Meine Mutter macht mir immer einen Tee.\n\nUm sieben Uhr packe ich meine Schultasche. Ich nehme meine Bücher und mein Pausenbrot mit. Mein Bus kommt um halb acht. Die Fahrt zur Schule dauert zwanzig Minuten. In der Schule treffe ich meine Freunde.\n\nAm Montag habe ich Mathe, Deutsch und Sport. Mathe ist mein Lieblingsfach. Nach der Schule spiele ich oft Fußball. Am Abend bin ich immer müde.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Wecker klingelt am Montag um sechs Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul isst morgens nur Obst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Busfahrt dauert zwanzig Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pauls Lieblingsfach ist Sport.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Schule spielt Paul oft Fußball.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "zahlen-und-farben",
+    "nivel": "A1",
+    "titulo": "Zahlen und Farben",
+    "descripcion": "Zwei Geschwister spielen zusammen ein Spiel mit Zahlen und Farben.",
+    "texto": "Mein kleiner Bruder lernt gerade die Zahlen. Er zählt von eins bis zehn. Auch die Farben findet er sehr spannend. Seine Lieblingsfarbe ist Grün. Meine Lieblingsfarbe ist Blau.\n\nWir spielen oft ein Farbspiel zusammen. Ich zeige eine Karte, und er sagt die Farbe. Rote Karten sind einfach für ihn. Gelbe und orange Karten verwechselt er manchmal. Dann lachen wir beide viel.\n\nAm Ende zählen wir unsere Karten. Mein Bruder hat sieben rote Karten. Ich habe fünf blaue Karten. Er ist stolz, denn er hat mehr Karten. Danach räumen wir die Karten zusammen auf.",
+    "preguntas": [
+      {
+        "enunciado": "Die Lieblingsfarbe meines Bruders ist Grün.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mein Bruder verwechselt nie Farben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ich habe sieben rote Karten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wir spielen ein Farbspiel zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende haben wir keine Karten gezählt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrt-nach-hamburg",
+    "nivel": "A2",
+    "titulo": "Die Fahrt nach Hamburg",
+    "descripcion": "Zwei Freundinnen machen einen Tagesausflug nach Hamburg und besichtigen die Stadt.",
+    "texto": "Letzte Woche bin ich mit meiner Freundin Clara nach Hamburg gefahren. Wir haben den Zug um acht Uhr morgens genommen, weil die Fahrt fast drei Stunden gedauert hat. Clara hat sich sehr gefreut, weil sie den Hafen schon lange besuchen wollte. Am Hauptbahnhof haben wir zuerst einen Kaffee getrunken.\n\nDanach sind wir zur Speicherstadt gelaufen und haben die alten Lagerhäuser fotografiert. Clara hat gesagt, dass ihr die roten Backsteinhäuser besonders gut gefallen. Wir haben auch eine Hafenrundfahrt gemacht und viele große Schiffe gesehen. Als es angefangen hat zu regnen, haben wir uns in ein kleines Café gesetzt.\n\nAm Abend haben wir Fisch in einem Restaurant am Hafen gegessen. Clara hat erzählt, dass sie nächstes Jahr wieder nach Hamburg fahren möchte. Wenn das Wetter besser ist, wollen wir auch die Elbphilharmonie besuchen. Müde, aber glücklich sind wir spät abends nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Clara und ich sind mit dem Auto nach Hamburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zugfahrt hat fast drei Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat während der Reise nicht geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara möchte nächstes Jahr wieder nach Hamburg fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben die Elbphilharmonie schon besucht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-von-oma",
+    "nivel": "A2",
+    "titulo": "Ein Brief von Oma",
+    "descripcion": "Eine Enkelin bekommt einen Brief von ihrer Oma und antwortet ihr.",
+    "texto": "Letzten Mittwoch habe ich einen Brief von meiner Oma bekommen. Sie lebt auf dem Land und schreibt mir oft, weil sie keinen Computer benutzen möchte. In dem Brief hat sie erzählt, dass ihr Garten dieses Jahr sehr viele Tomaten trägt. Außerdem hat sie geschrieben, dass sie mich im Sommer gern besuchen möchte.\n\nIch habe mich sehr über den Brief gefreut und habe sofort geantwortet. Ich habe ihr erzählt, dass ich eine neue Arbeit gefunden habe. Auch habe ich geschrieben, dass meine Wohnung jetzt größer ist. Oma hat sich bestimmt gefreut, als sie meinen Brief gelesen hat.\n\nAm Wochenende habe ich den Brief zur Post gebracht. Wenn Oma meinen Brief bekommt, ruft sie mich sicher gleich an. Briefe schreiben finde ich schön, weil man sich mehr Zeit zum Nachdenken nimmt.",
+    "preguntas": [
+      {
+        "enunciado": "Omas Garten trägt dieses Jahr viele Tomaten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma benutzt gern einen Computer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ich habe nicht auf den Brief geantwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ich habe eine neue Arbeit gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ich habe den Brief per E-Mail geschickt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-nachbar-aus-polen",
+    "nivel": "A2",
+    "titulo": "Der neue Nachbar aus Kanada",
+    "descripcion": "Ein neuer Nachbar zieht ein und wird schnell in die Nachbarschaft eingeladen.",
+    "texto": "Vor zwei Wochen ist ein neuer Nachbar in unser Haus eingezogen. Er heißt Tom und kommt aus Kanada. Am ersten Tag hat er an unsere Tür geklopft, weil er sich vorstellen wollte. Meine Mutter hat ihn zu einem Kaffee eingeladen.\n\nTom hat erzählt, dass er für ein Jahr in Deutschland arbeitet. Er hat auch gesagt, dass er noch nicht viele Leute in der Stadt kennt. Deshalb haben wir ihn am Samstag zu unserer Geburtstagsfeier eingeladen. Er hat sich sehr gefreut und hat sofort zugesagt.\n\nAuf der Feier hat Tom viele neue Leute kennengelernt. Er hat sogar ein paar Wörter auf Deutsch gelernt, obwohl er erst kurz hier ist. Wenn er mehr Deutsch lernt, kann er sich besser mit den Nachbarn unterhalten. Wir freuen uns, dass wir jetzt einen netten Nachbarn haben.",
+    "preguntas": [
+      {
+        "enunciado": "Tom kommt aus Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom kennt schon sehr viele Leute in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom wurde zu einer Geburtstagsfeier eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom hat auf der Feier kein Deutsch gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom arbeitet für ein Jahr in Deutschland.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "julias-umzug-nach-leipzig",
+    "nivel": "B1",
+    "titulo": "Julias Umzug nach Leipzig",
+    "descripcion": "Julia zieht nach dem Studium für ihre erste Stelle nach Leipzig um.",
+    "texto": "Nachdem Julia ihr Studium abgeschlossen hatte, bekam sie eine Stelle in Leipzig und musste innerhalb von vier Wochen umziehen. Obwohl sie ihre Heimatstadt sehr liebte, freute sie sich auch auf den Neuanfang. Ihre Eltern halfen ihr beim Packen der Kisten, und ihre Freunde organisierten eine kleine Abschiedsfeier.\n\nAm Anfang fiel es Julia schwer, sich in Leipzig zurechtzufinden, weil sie die Stadt kaum kannte. Trotzdem erkundete sie jeden Tag ein neues Viertel und machte lange Spaziergänge durch die Straßen. Nach einigen Wochen lernte sie durch einen Sprachkurs mehrere Leute kennen, mit denen sie sich regelmäßig traf. Diese neuen Kontakte halfen ihr sehr, sich weniger allein zu fühlen.\n\nMittlerweile fühlt sich Julia in Leipzig fast wie zu Hause. Obwohl sie ihre alten Freunde noch oft vermisst, hat sie inzwischen auch hier echte Freundschaften geschlossen. Sie ist überzeugt, dass der Umzug am Ende die richtige Entscheidung war, auch wenn er ihr zu Beginn nicht leichtgefallen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist nach Leipzig umgezogen, weil sie dort eine Stelle bekommen hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia kannte Leipzig schon sehr gut, bevor sie dorthin zog.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niemand hat Julia beim Umzug geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat durch einen Sprachkurs neue Leute kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia bereut inzwischen ihre Entscheidung, umzuziehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-der-klasse-9b",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt der Klasse 9b",
+    "descripcion": "Die Klasse 9b fährt für vier Tage nach München und erlebt viele neue Dinge.",
+    "texto": "Letzten Monat machte die Klasse 9b eine Klassenfahrt nach München. Obwohl einige Schüler zuerst skeptisch waren, freuten sich am Ende alle auf die vier Tage in Bayern. Nachdem der Bus früh morgens losgefahren war, kamen die Schüler erst am späten Nachmittag in der Jugendherberge an.\n\nAm zweiten Tag besuchten sie das Deutsche Museum, obwohl der Himmel grau und der Wind kalt war. Trotz des schlechten Wetters hatten alle viel Spaß, weil es im Museum so viel zu entdecken gab. Nachdem sie das Museum verlassen hatten, gingen sie noch gemeinsam über den Viktualienmarkt und probierten dort bayerische Spezialitäten.\n\nAm letzten Abend saßen alle zusammen und sprachen über ihre Lieblingsmomente der Reise. Viele Schüler waren sich einig, dass die Klassenfahrt eine der schönsten Erfahrungen ihrer Schulzeit war. Obwohl die Heimfahrt lang und anstrengend war, kehrten alle mit vielen neuen Erinnerungen zurück.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klassenfahrt dauerte vier Tage.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler waren von Anfang an begeistert von der Reise.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Deutsche Museum wurde bei schönem Wetter besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler haben den Viktualienmarkt besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Heimfahrt war kurz und angenehm.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-freundschaft-auf-die-probe-gestellt",
+    "nivel": "B1",
+    "titulo": "Eine Freundschaft auf die Probe gestellt",
+    "descripcion": "Zwei beste Freunde streiten sich, finden aber wieder zueinander.",
+    "texto": "Lukas und Sven sind seit der Grundschule beste Freunde, obwohl sie sich in vielen Dingen unterscheiden. Nachdem Sven vor einem Jahr in eine andere Stadt gezogen war, wurde der Kontakt zwischen den beiden seltener. Trotzdem schrieben sie sich weiterhin regelmäßig Nachrichten und riefen sich am Wochenende an.\n\nVor Kurzem kam es jedoch zu einem Streit, nachdem Lukas ein wichtiges Treffen vergessen hatte. Sven war sehr enttäuscht, weil er sich extra einen freien Tag genommen hatte. Obwohl Lukas sich sofort entschuldigte, dauerte es einige Tage, bis sich die Situation wieder beruhigte.\n\nSchließlich trafen sich die beiden persönlich und sprachen offen über ihre Gefühle. Nachdem sie alles geklärt hatten, merkten sie, dass ihre Freundschaft stärker war als der Streit. Obwohl die Entfernung zwischen ihren Städten bleibt, sind sich beide sicher, dass ihre Freundschaft auch in Zukunft halten wird.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas und Sven kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sven ist vor einem Jahr umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Streit entstand, weil Sven ein Treffen vergessen hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Gespräch fühlten sich beide ihrer Freundschaft sicherer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden haben seit dem Streit nie wieder miteinander gesprochen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-im-test",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche im Test",
+    "descripcion": "Die gesellschaftliche Debatte um Chancen und Risiken einer Vier-Tage-Woche.",
+    "texto": "In den letzten Jahren wird in Deutschland zunehmend über die Einführung einer Vier-Tage-Woche diskutiert. Befürworter argumentieren, dass die Produktivität der Beschäftigten steigen würde, wenn ihnen mehr Zeit für Erholung zur Verfügung stünde. Zudem wird betont, dass eine kürzere Arbeitswoche die Vereinbarkeit von Beruf und Familie erheblich verbessern könnte. In mehreren Pilotprojekten, die bereits in verschiedenen Unternehmen durchgeführt wurden, zeigte sich, dass die Mitarbeiterzufriedenheit deutlich zunahm, ohne dass die Ergebnisse der Unternehmen darunter litten.\n\nGegner der Reform hingegen geben zu bedenken, dass nicht jede Branche gleich von einer Verkürzung der Arbeitszeit profitieren könnte. Besonders in Bereichen wie der Pflege oder dem Handwerk, in denen ohnehin ein erheblicher Personalmangel herrscht, wäre es kaum möglich, die gleiche Arbeitsleistung in weniger Tagen zu erbringen. Es wird außerdem befürchtet, dass Unternehmen gezwungen wären, zusätzliches Personal einzustellen, was wiederum zu höheren Kosten führen würde.\n\nTrotz dieser Bedenken wird die Vier-Tage-Woche von vielen Expertinnen und Experten als ein mögliches Modell der Zukunft angesehen. Sollte sich das Konzept in weiteren Studien bewähren, könnte es langfristig in zahlreichen Branchen eingeführt werden. Letztlich bleibt abzuwarten, ob sich die Vorteile für Arbeitnehmer und Arbeitgeber tatsächlich gleichermaßen realisieren lassen, oder ob die strukturellen Unterschiede zwischen den Branchen eine einheitliche Lösung verhindern werden.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Vier-Tage-Woche glauben, dass die Produktivität steigen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text profitieren alle Branchen gleichermaßen von einer Vier-Tage-Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Pilotprojekten ist die Mitarbeiterzufriedenheit gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gegner befürchten höhere Kosten durch zusätzliches Personal.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die Frage sei bereits endgültig geklärt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "knappheit-an-bezahlbarem-wohnraum",
+    "nivel": "B2",
+    "titulo": "Knappheit an bezahlbarem Wohnraum",
+    "descripcion": "Ursachen und mögliche Lösungen der Wohnungsnot in deutschen Großstädten.",
+    "texto": "Die Wohnungsnot in deutschen Großstädten hat sich in den vergangenen Jahren erheblich verschärft. Insbesondere in Metropolen wie München, Berlin und Hamburg steigen die Mietpreise kontinuierlich, während das Angebot an bezahlbarem Wohnraum kaum mit der wachsenden Nachfrage Schritt halten kann. Viele junge Familien und Studierende sehen sich gezwungen, in Randgebiete oder ländliche Regionen umzuziehen, obwohl sie eigentlich lieber in der Stadt bleiben würden.\n\nAls Ursache für diese Entwicklung wird häufig der jahrzehntelange Mangel an Neubauten genannt. Hätten Städte und Bund rechtzeitig in den sozialen Wohnungsbau investiert, wäre die heutige Situation vermutlich deutlich entspannter. Zudem wird kritisiert, dass bürokratische Hürden den Bau neuer Wohnungen erheblich verzögern würden, selbst wenn ausreichend Investoren vorhanden wären. Auch spekulative Käufe von Immobilien durch internationale Anleger tragen, laut mehreren Studien, zur Verknappung bezahlbaren Wohnraums bei.\n\nUm der Wohnungsnot entgegenzuwirken, werden derzeit verschiedene Maßnahmen diskutiert. Eine strengere Mietpreisbremse könnte beispielsweise verhindern, dass Mieten weiter ungebremst steigen. Gleichzeitig fordern Experten, dass Genehmigungsverfahren für Neubauten beschleunigt werden sollten, damit schneller zusätzlicher Wohnraum geschaffen werden kann. Ob diese Maßnahmen ausreichen würden, um die angespannte Lage in den kommenden Jahren tatsächlich zu entschärfen, bleibt jedoch fraglich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise in deutschen Großstädten sinken seit einigen Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele junge Familien ziehen wegen der hohen Mieten in Randgebiete.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text gibt es keinen Zusammenhang zwischen Neubaumangel und Wohnungsnot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern schnellere Genehmigungsverfahren für Neubauten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem sei bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-an-deutschen-schulen",
+    "nivel": "B2",
+    "titulo": "Digitalisierung an deutschen Schulen",
+    "descripcion": "Chancen und Risiken der zunehmenden Digitalisierung im deutschen Bildungssystem.",
+    "texto": "Die Digitalisierung verändert das deutsche Bildungssystem in einem Tempo, das vor wenigen Jahren noch kaum vorstellbar gewesen wäre. Immer mehr Schulen setzen auf digitale Endgeräte, interaktive Whiteboards und Lernplattformen, die den Unterricht ergänzen oder teilweise ersetzen sollen. Befürworter dieser Entwicklung argumentieren, dass Schülerinnen und Schüler dadurch individueller gefördert werden könnten, da digitale Programme den Lernfortschritt jedes Einzelnen präziser erfassen.\n\nGleichzeitig mehren sich jedoch kritische Stimmen, die vor den Risiken einer übermäßigen Digitalisierung warnen. Sollten Schulen zu stark auf Bildschirme setzen, könnten wichtige Kompetenzen wie Handschrift oder konzentriertes Lesen vernachlässigt werden. Zudem wird bemängelt, dass nicht alle Familien über die notwendige technische Ausstattung verfügen, wodurch soziale Ungleichheiten eher verstärkt als verringert würden. Lehrkräfte berichten außerdem, dass sie oft unzureichend auf den Einsatz neuer Technologien vorbereitet worden seien.\n\nUm diesen Herausforderungen zu begegnen, müsste die Lehrerausbildung grundlegend reformiert werden, damit angehende Lehrkräfte den sinnvollen Einsatz digitaler Werkzeuge von Anfang an lernen. Darüber hinaus wird gefordert, dass Schulen flächendeckend mit schnellem Internet und moderner Technik ausgestattet werden, um Chancengleichheit zu gewährleisten. Nur wenn Digitalisierung als Ergänzung und nicht als Ersatz traditioneller Lernmethoden verstanden wird, könnte sie das Bildungssystem tatsächlich nachhaltig verbessern.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Schulen nutzen digitale Endgeräte im Unterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass soziale Ungleichheiten durch Digitalisierung verringert werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Familien verfügen laut dem Text über die gleiche technische Ausstattung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text fordert eine Reform der Lehrerausbildung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Digitalisierung sollte laut dem Text traditionelle Lernmethoden vollständig ersetzen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
