@@ -43274,5 +43274,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-wasserball-im-freibad",
+    "nivel": "A1",
+    "titulo": "Der Wasserball im Freibad",
+    "descripcion": "Lena und Tom spielen Wasserball im Freibad.",
+    "texto": "Lena und Tom gehen am Samstag ins Freibad. Das Wasser ist warm und blau. Viele Kinder sind da. Lena hat einen roten Wasserball. Tom wirft den Ball zu Lena. Lena lacht und wirft den Ball zurück.\n\nNach dem Spiel essen sie ein Eis. Lena nimmt Erdbeereis. Tom nimmt Schokoladeneis. Das Eis ist sehr lecker. Die Sonne scheint, und es ist sehr warm.\n\nAm Abend fahren Lena und Tom mit dem Fahrrad nach Hause. Sie sind müde, aber glücklich. „Das war ein schöner Tag\", sagt Lena. Tom nickt und lächelt.",
+    "preguntas": [
+      {
+        "enunciado": "Lena und Tom gehen ins Freibad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wasserball ist grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst Schokoladeneis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es regnet im Freibad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und Tom fahren mit dem Bus nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-zoobesuch-mit-tante-rosa",
+    "nivel": "A1",
+    "titulo": "Der Zoobesuch mit Tante Rosa",
+    "descripcion": "Finn besucht mit Tante Rosa den Zoo und sieht viele Tiere.",
+    "texto": "Finn besucht heute den Zoo mit Tante Rosa. Zuerst sehen sie die Elefanten. Die Elefanten sind sehr groß und grau. Dann gehen sie zu den Affen. Die Affen springen von Ast zu Ast.\n\nFinn mag die Giraffen am meisten. Die Giraffen haben einen langen Hals. Tante Rosa kauft Finn ein Buch über Tiere. Finn freut sich sehr.\n\nZum Mittagessen gehen sie in ein Café im Zoo. Finn isst eine Currywurst mit Pommes. Tante Rosa trinkt einen Kaffee. Danach fahren sie mit dem Bus nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Finn besucht den Zoo mit Tante Rosa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Affen sind im Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn mag die Giraffen am meisten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tante Rosa kauft Finn ein Spielzeugauto.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn und Tante Rosa essen im Zoo.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-apfelkuchen-von-oma-liesel",
+    "nivel": "A1",
+    "titulo": "Der Apfelkuchen von Oma Liesel",
+    "descripcion": "Oma Liesel backt mit ihrer Enkelin einen Apfelkuchen.",
+    "texto": "Oma Liesel backt heute einen Apfelkuchen. Ihre Enkelin Mia hilft ihr in der Küche. Mia schneidet die Äpfel in kleine Stücke. Oma Liesel mischt Mehl, Zucker und Eier.\n\nDer Kuchen kommt für eine Stunde in den Ofen. Die Küche riecht nach Zimt und Äpfeln. Mia deckt den Tisch für den Kaffee. Sie stellt Teller und Tassen auf den Tisch.\n\nNach einer Stunde ist der Kuchen fertig. Oma Liesel schneidet ein Stück für Mia. Der Kuchen ist warm und süß. „Der Kuchen schmeckt super\", sagt Mia. Oma Liesel freut sich.",
+    "preguntas": [
+      {
+        "enunciado": "Oma Liesel backt einen Apfelkuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia schneidet die Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen kommt für zwei Stunden in den Ofen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Küche riecht nach Fisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia findet den Kuchen lecker.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-handtasche-im-zug",
+    "nivel": "A2",
+    "titulo": "Die verlorene Handtasche im Zug",
+    "descripcion": "Frau Berger hat ihre Handtasche im Zug verloren und sucht sie.",
+    "texto": "Frau Berger ist gestern mit dem Zug nach Hamburg gefahren. Als sie ausgestiegen ist, hat sie bemerkt, dass ihre Handtasche fehlt. Sie hat die Tasche wahrscheinlich unter dem Sitz vergessen, weil sie am Telefon telefoniert hat. Sofort ist sie zum Schalter der Bahn gegangen und hat den Verlust gemeldet.\n\nDer Mitarbeiter hat ihr gesagt, dass sie Glück haben könnte, wenn jemand die Tasche gefunden hat. Er hat ihre Telefonnummer aufgeschrieben und versprochen, sich zu melden. Frau Berger war sehr nervös, weil sich ihr Ausweis und ihr Portemonnaie in der Tasche befunden haben.\n\nAm nächsten Tag hat die Bahn angerufen. Ein Schaffner hatte die Tasche gefunden und im Fundbüro abgegeben. Frau Berger ist sofort zum Bahnhof gefahren und hat die Tasche abgeholt. Sie war sehr erleichtert und hat sich beim Schaffner bedankt.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger ist mit dem Bus nach Hamburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat ihre Handtasche im Zug vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Mitarbeiter am Schalter konnte ihr nicht helfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ausweis von Frau Berger war in der Handtasche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger hat die Tasche nie wiedergefunden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-zum-skiclub",
+    "nivel": "A2",
+    "titulo": "Der Ausflug zum Skiclub",
+    "descripcion": "Jonas fährt mit seinem Skiclub in die Berge und lernt neue Tricks.",
+    "texto": "Jonas ist am Wochenende mit seinem Skiclub in die Alpen gefahren. Die Gruppe ist früh am Morgen losgefahren, weil die Fahrt mehrere Stunden gedauert hat. Als sie angekommen sind, hat es stark geschneit, und alle haben sich sehr gefreut.\n\nDer Trainer hat den Kindern gezeigt, wie man schneller und sicherer fährt. Jonas hat zuerst Angst gehabt, dass er stürzt. Nachdem er ein paar Mal geübt hatte, ist er viel sicherer geworden. Am Nachmittag haben alle zusammen heiße Schokolade in der Hütte getrunken.\n\nAm Abend sind sie müde, aber zufrieden nach Hause gefahren. Jonas hat seinen Eltern erzählt, dass er endlich eine schwarze Piste geschafft hat. Seine Eltern waren sehr stolz auf ihn und haben ihm gratuliert.",
+    "preguntas": [
+      {
+        "enunciado": "Der Skiclub ist am Wochenende in die Alpen gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat beim Ankommen nicht geschneit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hatte am Anfang keine Angst vor dem Sturz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe hat heiße Schokolade getrunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat eine schwarze Piste geschafft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reparatur-des-fahrradreifens",
+    "nivel": "A2",
+    "titulo": "Die Reparatur des Fahrradreifens",
+    "descripcion": "Paul hat einen Platten am Fahrrad und muss den Reifen reparieren.",
+    "texto": "Paul ist auf dem Weg zur Arbeit gefahren, als sein Fahrradreifen plötzlich platt geworden ist. Er hat einen lauten Knall gehört und ist sofort angehalten. Weil er in der Nähe eines Fahrradladens war, hat er das Rad dorthin geschoben.\n\nDer Verkäufer hat gesagt, dass ein kleiner Nagel im Reifen gesteckt hat. Er hat den Schlauch gewechselt und das Rad kontrolliert. Paul hat gewartet und währenddessen einen Kaffee im Laden getrunken. Nach zwanzig Minuten war die Reparatur fertig.\n\nPaul war froh, dass er trotzdem nicht zu spät zur Arbeit gekommen ist. Er hat dem Verkäufer gedankt und ist weitergefahren. Am Abend hat er seiner Kollegin die Geschichte erzählt, und sie haben beide gelacht.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist mit dem Auto zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Nagel hat den Reifen beschädigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer konnte das Rad nicht reparieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hat im Laden gewartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul ist zu spät zur Arbeit gekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-gruendung-des-lesevereins",
+    "nivel": "B1",
+    "titulo": "Die Gründung des Lesevereins",
+    "descripcion": "Eine Gruppe von Nachbarn gründet einen Leseverein in ihrer Straße.",
+    "texto": "Seit einigen Monaten trafen sich mehrere Nachbarn in der Marienstraße regelmäßig, um über Bücher zu sprechen. Obwohl die Treffen zunächst informell in jemandes Wohnzimmer stattfanden, wuchs die Gruppe schnell, sodass bald ein größerer Raum gesucht werden musste. Nachdem die Gemeinde einen Raum im Nachbarschaftszentrum zur Verfügung gestellt hatte, beschlossen die Mitglieder, einen offiziellen Verein zu gründen.\n\nDie Gründung war nicht ganz einfach, denn es mussten eine Satzung geschrieben und ein Vorstand gewählt werden. Trotzdem ließen sich die Nachbarn nicht entmutigen und organisierten innerhalb von wenigen Wochen die nötigen Unterlagen. Frau Hoffmann, die seit Jahren in der Straße wohnt, wurde zur ersten Vorsitzenden gewählt.\n\nHeute zählt der Leseverein über dreißig Mitglieder, die sich einmal im Monat treffen. Sie diskutieren nicht nur über Romane, sondern organisieren auch Lesungen mit lokalen Autoren. Viele Mitglieder sagen, dass der Verein ihr Leben in der Nachbarschaft deutlich bereichert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Die Treffen fanden am Anfang in einem Wohnzimmer statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gemeinde hat keinen Raum für den Verein zur Verfügung gestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gründung des Vereins war ohne Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Hoffmann wurde zur ersten Vorsitzenden gewählt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Leseverein organisiert auch Lesungen mit Autoren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-stipendium-fuer-das-auslandsjahr",
+    "nivel": "B1",
+    "titulo": "Das Stipendium für das Auslandsjahr",
+    "descripcion": "Sarah bewirbt sich um ein Stipendium für ein Studienjahr in Kanada.",
+    "texto": "Sarah studiert im vierten Semester Wirtschaftswissenschaften und träumt schon lange davon, ein Jahr im Ausland zu studieren. Nachdem sie sich intensiv über verschiedene Programme informiert hatte, entschied sie sich für ein Austauschjahr in Kanada. Obwohl die Bewerbung sehr aufwendig war, gab Sarah nicht auf und reichte alle Unterlagen rechtzeitig ein.\n\nFür das Stipendium musste sie einen Motivationsbrief schreiben und ein Empfehlungsschreiben von einem Professor organisieren. Außerdem verlangte die Stiftung einen Nachweis über gute Englischkenntnisse. Trotz der vielen Anforderungen blieb Sarah optimistisch, denn ihre Noten waren sehr gut.\n\nNach mehreren Wochen des Wartens erhielt Sarah endlich eine E-Mail von der Stiftung. Sie hatte das Stipendium bekommen und konnte es kaum glauben. Ihre Familie war stolz auf sie, und Sarah begann sofort, ihre Reise nach Kanada zu planen.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah studiert Medizin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah hat sich für ein Austauschjahr in Kanada entschieden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Für das Stipendium brauchte Sarah keinen Motivationsbrief.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah hat das Stipendium nicht bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarahs Familie war stolz auf sie.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-die-gartenhecke",
+    "nivel": "B1",
+    "titulo": "Der Streit um die Gartenhecke",
+    "descripcion": "Zwei Nachbarn streiten sich über die Höhe einer Gartenhecke.",
+    "texto": "Herr Weber und Frau Krause sind seit Jahren Nachbarn, doch seit einigen Wochen gibt es Spannungen zwischen ihnen. Der Grund dafür ist eine Hecke, die zwischen ihren Gärten wächst. Obwohl die Hecke früher kein Problem war, ist sie inzwischen so hoch geworden, dass sie Frau Krauses Garten komplett verschattet.\n\nNachdem Frau Krause mehrmals höflich gebeten hatte, die Hecke zu schneiden, reagierte Herr Weber zunächst gar nicht. Trotzdem wollte Frau Krause die Sache nicht vor Gericht bringen und versuchte es noch einmal mit einem persönlichen Gespräch. Sie erklärte ihm, dass ihre Tomaten im Garten wegen des fehlenden Lichts kaum noch wachsen.\n\nSchließlich zeigte sich Herr Weber einsichtig, nachdem er verstanden hatte, wie sehr die Hecke seine Nachbarin störte. Er schnitt die Hecke am folgenden Wochenende auf eine angemessene Höhe. Seitdem ist das Verhältnis zwischen den beiden Nachbarn wieder deutlich besser.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber und Frau Krause streiten sich über eine Hecke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Hecke war schon immer sehr niedrig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Krause hat sofort einen Anwalt eingeschaltet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Krauses Tomaten wachsen wegen des fehlenden Lichts schlecht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber hat die Hecke am Ende geschnitten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reform-der-rentenversicherung",
+    "nivel": "B2",
+    "titulo": "Die Reform der Rentenversicherung",
+    "descripcion": "Eine Analyse der geplanten Reform des Rentensystems und ihrer Folgen für verschiedene Generationen.",
+    "texto": "Angesichts der demografischen Entwicklung wird in vielen europäischen Ländern intensiv über eine Reform der Rentenversicherung diskutiert. Da die Lebenserwartung stetig steigt und gleichzeitig weniger Kinder geboren werden, könnte das bisherige Umlagesystem, bei dem die arbeitende Bevölkerung die Renten der älteren Generation finanziert, langfristig nicht mehr tragfähig sein. Politiker verschiedener Parteien streiten darüber, ob das Renteneintrittsalter angehoben oder ob zusätzliche private Vorsorgemodelle gefördert werden sollten.\n\nBefürworter einer Anhebung des Renteneintrittsalters argumentieren, dass die Menschen heute länger gesund blieben und deshalb auch länger arbeiten könnten, ohne dass ihre Lebensqualität darunter leiden würde. Kritiker hingegen wenden ein, dass eine solche Maßnahme vor allem Berufstätige in körperlich anstrengenden Branchen benachteiligen würde, da diese häufig schon früher gesundheitliche Probleme entwickelten. Wenn das Renteneintrittsalter einheitlich angehoben würde, entstünde somit eine soziale Ungleichheit zwischen verschiedenen Berufsgruppen.\n\nEine mögliche Alternative wäre ein flexibleres System, bei dem der Zeitpunkt des Renteneintritts individuell an die jeweilige Berufsbiografie angepasst werden könnte. Ob eine solche Reform tatsächlich umgesetzt wird, bleibt jedoch ungewiss, da sie sowohl finanziell aufwendig als auch politisch schwer durchsetzbar wäre. Fest steht nur, dass die derzeitige Debatte zeigt, wie dringend eine langfristige Lösung gefunden werden muss.",
+    "preguntas": [
+      {
+        "enunciado": "Die Lebenserwartung sinkt in vielen europäischen Ländern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beim Umlagesystem finanziert die arbeitende Bevölkerung die Renten der Älteren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Politiker sind sich einig, wie die Reform aussehen soll.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass körperlich anstrengende Berufe benachteiligt werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird eine endgültige Lösung der Rentenfrage präsentiert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-einfluss-sozialer-netzwerke-auf-wahlen",
+    "nivel": "B2",
+    "titulo": "Der Einfluss sozialer Netzwerke auf Wahlen",
+    "descripcion": "Eine kritische Betrachtung der Rolle sozialer Medien im politischen Meinungsbildungsprozess.",
+    "texto": "In den letzten Jahren ist der Einfluss sozialer Netzwerke auf politische Wahlen zu einem zentralen Thema gesellschaftlicher Debatten geworden. Plattformen wie Instagram, TikTok oder X werden längst nicht mehr nur zur privaten Kommunikation genutzt, sondern auch gezielt für politische Kampagnen eingesetzt. Durch Algorithmen, die Inhalte nach Interessen der Nutzer sortieren, entstehen sogenannte Filterblasen, in denen gegensätzliche Meinungen kaum noch wahrgenommen werden.\n\nBesonders problematisch erscheint vielen Experten die Verbreitung von Falschinformationen, die sich über soziale Netzwerke oft schneller verbreiten als über klassische Medien. Wäre es möglich, solche Inhalte frühzeitig zu erkennen und zu kennzeichnen, könnte dies die Meinungsbildung der Wähler erheblich beeinflussen. Tatsächlich werden in mehreren Ländern bereits Gesetze diskutiert, die Plattformbetreiber stärker in die Verantwortung nehmen sollen.\n\nGleichzeitig betonen Befürworter sozialer Medien, dass diese auch demokratische Vorteile böten, da sie jungen Menschen eine Stimme gäben, die in traditionellen Medien oft überhört werde. Ob die Vorteile die Risiken letztlich überwiegen, lässt sich pauschal nicht beantworten, zumal die Auswirkungen je nach politischem Kontext stark variieren. Klar ist jedoch, dass eine Regulierung dieser Plattformen in absehbarer Zeit kaum zu vermeiden sein wird.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Netzwerke werden im Text nur als Kommunikationsmittel beschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen entstehen durch Algorithmen, die Inhalte nach Interessen sortieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Falschinformationen verbreiten sich laut Text langsamer über soziale Medien als über klassische Medien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In einigen Ländern werden Gesetze zur Regulierung der Plattformen diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind sich alle Experten einig, dass soziale Medien nur negative Folgen haben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-mangel-an-pflegekraeften",
+    "nivel": "B2",
+    "titulo": "Der Mangel an Pflegekräften",
+    "descripcion": "Eine Auseinandersetzung mit den Ursachen und möglichen Lösungen des Pflegekräftemangels in Deutschland.",
+    "texto": "Der Mangel an qualifizierten Pflegekräften zählt zu den drängendsten Problemen des deutschen Gesundheitssystems. Obwohl die Zahl der pflegebedürftigen Menschen aufgrund der alternden Bevölkerung stetig zunimmt, sinkt die Zahl der Personen, die sich für eine Ausbildung in der Pflege entscheiden. Viele junge Menschen scheuen den Beruf, da er körperlich wie psychisch stark belastend ist und die Bezahlung oft als unzureichend empfunden wird.\n\nUm dem Mangel entgegenzuwirken, wurden in den vergangenen Jahren verschiedene Maßnahmen ergriffen. So wurde beispielsweise die Ausbildungsvergütung erhöht, und es wurden Programme zur Anwerbung von Pflegekräften aus dem Ausland ins Leben gerufen. Dennoch bleibt fraglich, ob diese Maßnahmen ausreichen werden, um den künftigen Bedarf zu decken, zumal auch andere europäische Länder mit ähnlichen Problemen konfrontiert sind und ebenfalls um ausländische Fachkräfte konkurrieren.\n\nExperten fordern deshalb tiefergehende strukturelle Veränderungen, etwa eine bessere Digitalisierung der Pflegedokumentation, damit mehr Zeit für die eigentliche Betreuung der Patienten bliebe. Würde zudem die gesellschaftliche Wertschätzung für den Pflegeberuf steigen, könnte dies langfristig ebenfalls dazu beitragen, mehr Menschen für diesen wichtigen Beruf zu gewinnen. Ohne entschlossenes Handeln droht sich die Situation in den kommenden Jahren jedoch weiter zu verschärfen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zahl der pflegebedürftigen Menschen nimmt ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele junge Menschen empfinden die Bezahlung in der Pflege als unzureichend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es wurden bereits Maßnahmen ergriffen, um Pflegekräfte aus dem Ausland anzuwerben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text konkurrieren keine anderen Länder um ausländische Pflegekräfte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern unter anderem eine bessere Digitalisierung der Pflegedokumentation.",
+        "respuesta": true
+      }
+    ]
   }
 ]
