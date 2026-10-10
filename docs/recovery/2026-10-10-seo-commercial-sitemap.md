@@ -5,7 +5,7 @@
 **Proyecto:** web y plataforma de la escuela de alemán
 
 **Fecha de entrega:** 2026-10-10 16:26 WITA (Asia/Makassar)
-**Última actualización:** 2026-10-10 16:28 WITA (Asia/Makassar)
+**Última actualización:** 2026-10-10 16:36 WITA (Asia/Makassar)
 
 ## Estado de los hitos
 
@@ -37,6 +37,33 @@
 - Enlaces internos: 2.351 HTML comprobados, sin roturas.
 - Foto original conservada con SHA-256 `30af8f35b4dd65f7083e3ad151cada14c0c52df549a90676e0d0d84310e00c62`.
 - Sitemap antes/después: mismo conjunto de 2.307 URLs; segunda generación con hash idéntico.
+
+### Reproducción de las métricas del sitemap
+
+El artefacto de entrada es `sitemap.xml` en el padre de la fusión #109 (`23f38d5baf5aea2c830a51f1a3059d19d7e9d919`) y el de salida es el archivo fusionado en `2670540ad1ade7bb358ecde72ccb23b6af955cdf`. Desde el código fusionado, la comprobación fue:
+
+```console
+$ git show 2670540ad1ade7bb358ecde72ccb23b6af955cdf^:sitemap.xml | rg -c '<loc>'
+2775
+$ git show 2670540ad1ade7bb358ecde72ccb23b6af955cdf^:sitemap.xml | rg '<loc>' | sort | uniq | wc -l
+2307
+$ git show 2670540ad1ade7bb358ecde72ccb23b6af955cdf^:sitemap.xml | rg -c '<lastmod>'
+549
+$ node scripts/dedupe-sitemap.mjs
+Sitemap: 2307 URLs únicas; 0 duplicados eliminados.
+$ node --test tests/unit/sitemap-integrity.test.mjs
+# tests 3
+# pass 3
+# fail 0
+$ shasum -a 256 sitemap.xml
+8600074b1fc3c8d4b07a74678fa4f1b09a97940c22ef5cd7ccf98be48692f5fc  sitemap.xml
+$ rg -c '<loc>' sitemap.xml
+2307
+$ rg -c '<lastmod>' sitemap.xml
+549
+```
+
+Así se obtienen las 468 entradas duplicadas eliminadas (`2.775 - 2.307`), con 2.307 ubicaciones únicas antes y después y 549 fechas `lastmod` conservadas.
 
 ## Producción y pendientes
 
