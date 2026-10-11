@@ -45710,5 +45710,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-besuch-im-zirkus",
+    "nivel": "A1",
+    "titulo": "Der Besuch im Zirkus",
+    "descripcion": "Max besucht mit seiner Familie einen Zirkus in der Stadt.",
+    "texto": "Heute ist ein besonderer Tag. Max geht mit seinen Eltern in den Zirkus. Das große Zelt ist bunt und hoch. Viele Kinder sitzen schon auf den Stühlen.\n\nIm Zirkus gibt es Clowns, Jongleure und Pferde. Ein Clown macht lustige Witze. Max lacht sehr viel. Dann kommen zwei Pferde in den Ring. Sie tanzen zur Musik.\n\nNach der Show kauft Max ein Eis. Er ist müde, aber sehr glücklich. Der Zirkus war ein toller Ausflug.",
+    "preguntas": [
+      {
+        "enunciado": "Max geht allein in den Zirkus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Zirkuszelt ist bunt und hoch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Zirkus gibt es keine Tiere.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max lacht über den Clown.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Show kauft Max ein Buch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-zum-bauernhofladen",
+    "nivel": "A1",
+    "titulo": "Ein Ausflug zum Bauernhofladen",
+    "descripcion": "Mia und ihre Mutter kaufen frisches Gemüse auf einem Bauernhof.",
+    "texto": "Mia fährt mit ihrer Mutter zu einem Bauernhof. Dort gibt es einen kleinen Laden. Im Laden gibt es Eier, Milch und viel Gemüse.\n\nMia sieht Hühner und Kühe auf dem Hof. Die Hühner laufen frei herum. Mia möchte ein Ei mitnehmen. Ihre Mutter kauft Karotten, Kartoffeln und einen großen Kürbis.\n\nZu Hause kocht die Mutter eine Gemüsesuppe. Die Suppe schmeckt sehr gut. Mia sagt: „Das Gemüse vom Bauernhof ist das beste!\"",
+    "preguntas": [
+      {
+        "enunciado": "Mia fährt allein zum Bauernhof.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Laden gibt es Eier und Milch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia sieht keine Tiere auf dem Hof.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter kauft einen Kürbis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gemüsesuppe schmeckt schlecht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-kleine-garten",
+    "nivel": "A1",
+    "titulo": "Der kleine Garten",
+    "descripcion": "Opa Karl zeigt seinem Enkel seinen Garten.",
+    "texto": "Opa Karl hat einen kleinen Garten hinter seinem Haus. Dort wachsen Tomaten, Blumen und ein Apfelbaum. Sein Enkel Ben hilft ihm oft.\n\nJeden Morgen gießt Ben die Blumen mit Wasser. Opa Karl pflückt die roten Tomaten. Ben isst gern eine Tomate direkt vom Strauch. Sie schmeckt süß und frisch.\n\nAm Nachmittag sitzen Opa und Ben unter dem Apfelbaum. Sie trinken Limonade und reden über die Pflanzen. Ben findet den Garten von Opa wunderschön.",
+    "preguntas": [
+      {
+        "enunciado": "Opa Karls Garten ist sehr groß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Garten wachsen Tomaten und Blumen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben gießt die Blumen nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben isst gern eine Tomate vom Strauch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa und Ben sitzen unter einem Birnbaum.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-nach-wien-mit-dem-bus",
+    "nivel": "A2",
+    "titulo": "Die Reise nach Wien mit dem Bus",
+    "descripcion": "Familie Weber fährt mit dem Bus nach Wien und erlebt eine lange, aber schöne Reise.",
+    "texto": "Familie Weber hat eine Busreise nach Wien gebucht, weil Flugtickets zu teuer waren. Die Fahrt hat fast acht Stunden gedauert, aber die Kinder haben sich nicht gelangweilt, weil sie Spiele und Bücher mitgenommen hatten.\n\nAls sie endlich in Wien angekommen sind, waren alle müde, aber auch aufgeregt. Sie haben zuerst das Hotel gesucht und dann sind sie in die Innenstadt gegangen. Dort haben sie den berühmten Stephansdom besichtigt und ein original Wiener Schnitzel probiert. Herr Weber hat gesagt, dass die lange Busfahrt sich definitiv gelohnt hat.\n\nAm nächsten Tag haben sie einen Ausflug zum Schloss Schönbrunn gemacht. Die Kinder waren begeistert von dem großen Garten. Obwohl die Rückfahrt wieder sehr lang war, hat die ganze Familie die Reise als unvergesslich beschrieben.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Weber ist mit dem Flugzeug nach Wien gereist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Busfahrt hat ungefähr acht Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben sich während der Fahrt sehr gelangweilt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat den Stephansdom besichtigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie fand die Reise nicht lohnenswert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-interview-fuer-die-schulzeitung",
+    "nivel": "A2",
+    "titulo": "Ein Interview für die Schulzeitung",
+    "descripcion": "Tim interviewt seinen Sportlehrer für die Schulzeitung.",
+    "texto": "Tim schreibt für die Schulzeitung und wollte ein Interview mit seinem Sportlehrer machen. Zuerst war er nervös, weil er noch nie ein Interview gemacht hatte. Trotzdem hat er sich gut vorbereitet und viele Fragen aufgeschrieben.\n\nIm Interview hat der Lehrer erzählt, dass er früher selbst Fußball in einem großen Verein gespielt hat. Er hat erklärt, dass Sport wichtig ist, weil er nicht nur den Körper, sondern auch den Kopf fit hält. Tim hat gefragt, ob der Lehrer auch mal verloren hat. Der Lehrer hat gelacht und gesagt, dass er viele Spiele verloren hat, aber immer weitergemacht hat.\n\nNach dem Interview hat Tim den Artikel geschrieben. Seine Mitschüler haben den Artikel sehr interessant gefunden, weil sie ihren Lehrer vorher nicht so gut gekannt hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Tim war vor dem Interview sehr entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Sportlehrer hat früher Fußball gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Lehrer meint, Sport sei nur gut für den Körper.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Lehrer hat nie ein Spiel verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mitschüler fanden den Artikel interessant.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarschaftshilfe-im-dorf",
+    "nivel": "A2",
+    "titulo": "Die Nachbarschaftshilfe im Dorf",
+    "descripcion": "Die Bewohner eines kleinen Dorfes organisieren eine Hilfsaktion für eine ältere Nachbarin.",
+    "texto": "Frau Hoffmann ist 82 Jahre alt und wohnt allein in einem kleinen Dorf. Nachdem sie sich das Bein gebrochen hatte, konnte sie nicht mehr allein einkaufen gehen. Ihre Nachbarin hat deshalb eine kleine Hilfsgruppe organisiert.\n\nJeden Dienstag bringt jemand aus dem Dorf Frau Hoffmann Lebensmittel. Am Donnerstag kommt ein Nachbarsjunge und hilft ihr im Garten, weil sie das selbst nicht mehr machen kann. Frau Hoffmann war am Anfang überrascht, dass so viele Menschen ihr helfen wollten.\n\nMittlerweile trifft sich die ganze Gruppe einmal im Monat bei Frau Hoffmann zum Kaffee. Sie sagt, dass sie sich dank der Hilfe nicht mehr so einsam fühlt. Das ganze Dorf ist stolz auf diese Gemeinschaftsaktion.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Hoffmann ist 82 Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Hoffmann konnte nach ihrem Beinbruch problemlos einkaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niemand im Dorf wollte Frau Hoffmann helfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Nachbarsjunge hilft ihr im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Hoffmann fühlt sich seit der Hilfe einsamer.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-praktikum-in-der-bibliothek",
+    "nivel": "B1",
+    "titulo": "Das Praktikum in der Bibliothek",
+    "descripcion": "Jonas macht ein Schulpraktikum in der Stadtbibliothek und entdeckt dabei eine neue Leidenschaft.",
+    "texto": "Jonas hatte sich eigentlich ein Praktikum in einer Autowerkstatt gewünscht, bekam jedoch nur einen Platz in der Stadtbibliothek. Zunächst war er enttäuscht, weil er sich das Lesen von Büchern nicht besonders spannend vorstellen konnte.\n\nSchon am ersten Tag merkte er jedoch, dass die Arbeit in der Bibliothek vielfältiger war, als er gedacht hatte. Er half beim Sortieren der Bücher, organisierte eine Leseecke für Kinder und lernte, wie man Veranstaltungen plant. Nachdem er eine Woche dort gearbeitet hatte, fragte ihn seine Chefin, ob er bei der Vorbereitung einer Lesung mithelfen wollte. Obwohl er zunächst unsicher war, sagte er zu.\n\nAm Ende des Praktikums war Jonas selbst überrascht, wie viel ihm die Arbeit gefallen hatte. Er überlegt jetzt, später vielleicht sogar Bibliothekswissenschaft zu studieren. Seine Eltern können es kaum glauben, dass aus der anfänglichen Enttäuschung so viel Begeisterung geworden ist.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas wollte ursprünglich ein Praktikum in einer Autowerkstatt machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fand die Arbeit in der Bibliothek von Anfang an langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat beim Sortieren der Bücher geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat sich geweigert, bei der Lesung mitzuhelfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas denkt darüber nach, Bibliothekswissenschaft zu studieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wg-mit-drei-studenten",
+    "nivel": "B1",
+    "titulo": "Die WG mit drei Studenten",
+    "descripcion": "Drei Studenten ziehen zusammen in eine Wohngemeinschaft und müssen lernen, sich zu organisieren.",
+    "texto": "Als Clara, Felix und Noah beschlossen, zusammen in eine Wohngemeinschaft zu ziehen, waren sie alle voller Vorfreude. Niemand von ihnen hatte vorher in einer WG gelebt, und schnell merkten sie, dass das gemeinsame Wohnen nicht immer einfach ist.\n\nIn den ersten Wochen gab es häufig Streit über den Haushalt, weil keiner so richtig wusste, wer wann putzen sollte. Nachdem die Küche einmal drei Tage lang unaufgeräumt geblieben war, beschlossen sie, einen Putzplan zu erstellen. Seitdem läuft das Zusammenleben deutlich besser, obwohl es natürlich immer noch kleine Meinungsverschiedenheiten gibt.\n\nTrotz der anfänglichen Schwierigkeiten sind sich die drei einig, dass sie die Entscheidung, zusammenzuziehen, nicht bereuen. Sie kochen oft gemeinsam, schauen zusammen Filme und unterstützen sich gegenseitig bei Prüfungen. Für sie ist die WG mittlerweile viel mehr als nur eine Wohnung – sie ist wie eine kleine Familie geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Clara, Felix und Noah hatten vorher schon Erfahrung mit WGs.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In den ersten Wochen gab es Streit über den Haushalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die drei haben nie einen Putzplan erstellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die drei kochen manchmal gemeinsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die drei bereuen ihre Entscheidung, zusammenzuziehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wettbewerb-der-schulbands",
+    "nivel": "B1",
+    "titulo": "Der Wettbewerb der Schulbands",
+    "descripcion": "Mehrere Schulbands treten bei einem regionalen Wettbewerb gegeneinander an.",
+    "texto": "Jedes Jahr veranstaltet die Musikschule einen Wettbewerb, bei dem Schulbands aus der ganzen Region gegeneinander antreten. Lukas, der Sänger einer kleinen Band, war dieses Jahr zum ersten Mal dabei und ziemlich nervös, weil seine Band noch nie vor so vielen Leuten aufgetreten war.\n\nNachdem die Band monatelang geprobt hatte, fühlten sich die Mitglieder eigentlich gut vorbereitet. Trotzdem passierte während des Auftritts ein kleines Missgeschick: Der Gitarrist vergaß für einen Moment den Text eines Liedes. Obwohl das Publikum es kaum bemerkte, war die Band danach sehr angespannt.\n\nAm Ende des Abends wurden die Gewinner bekanntgegeben, und Lukas' Band belegte überraschend den zweiten Platz. Die Band war überglücklich, obwohl sie nicht gewonnen hatte, denn für sie war schon die Teilnahme ein großer Erfolg. Lukas sagte später, dass er jetzt noch mehr Lust habe, weiter Musik zu machen.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas war schon oft vor großem Publikum aufgetreten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Band hatte monatelang geprobt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Während des Auftritts lief alles perfekt, ohne jedes Missgeschick.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas' Band hat den Wettbewerb gewonnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas möchte nach dem Wettbewerb weiter Musik machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-tierversuche",
+    "nivel": "B2",
+    "titulo": "Die Debatte um Tierversuche",
+    "descripcion": "Eine Auseinandersetzung mit den ethischen Fragen rund um Tierversuche in der medizinischen Forschung.",
+    "texto": "Die Frage, ob Tierversuche in der medizinischen Forschung weiterhin erlaubt sein sollten, beschäftigt Wissenschaft und Gesellschaft seit Jahrzehnten. Befürworter argumentieren, dass viele lebensrettende Medikamente ohne vorherige Tests an Tieren niemals hätten entwickelt werden können. Ohne diese Versuche, so wird oft betont, wäre der medizinische Fortschritt der letzten hundert Jahre kaum denkbar gewesen.\n\nGegner hingegen weisen darauf hin, dass Tiere bei solchen Versuchen häufig erheblichem Leid ausgesetzt werden, obwohl die Ergebnisse nicht immer eins zu eins auf den Menschen übertragbar seien. Sie fordern, dass verstärkt in alternative Methoden investiert werde, etwa in computergestützte Simulationen oder Zellkulturen, die zunehmend als ebenso aussagekräftig gelten. Würden solche Alternativen flächendeckend eingesetzt, ließe sich die Zahl der Tierversuche nach Ansicht vieler Experten deutlich reduzieren.\n\nZwischen diesen beiden Positionen bewegt sich die aktuelle Gesetzgebung, die Tierversuche nur unter strengen Auflagen erlaubt und gleichzeitig die Forschung an Alternativmethoden fördert. Eine vollständige Lösung des ethischen Dilemmas scheint jedoch kaum in Sicht, solange nicht alle Forschungsfragen auch ohne Tierversuche beantwortet werden können.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter von Tierversuchen sehen keinen Zusammenhang mit medizinischem Fortschritt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gegner von Tierversuchen kritisieren das Leid, dem Tiere ausgesetzt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alternative Methoden wie Zellkulturen werden im Text nicht erwähnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die aktuelle Gesetzgebung verbietet Tierversuche vollständig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Forschung an Alternativmethoden wird derzeit gefördert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-generationenkonflikt-am-arbeitsplatz",
+    "nivel": "B2",
+    "titulo": "Der Generationenkonflikt am Arbeitsplatz",
+    "descripcion": "Unterschiedliche Erwartungen von Jung und Alt sorgen in vielen Unternehmen für Spannungen.",
+    "texto": "In vielen deutschen Unternehmen treffen derzeit bis zu vier verschiedene Generationen von Mitarbeitenden aufeinander, von denen jede mit unterschiedlichen Erwartungen an die Arbeitswelt herangewachsen ist. Während ältere Beschäftigte oft Wert auf Stabilität, klare Hierarchien und langjährige Betriebszugehörigkeit legen, wünschen sich jüngere Mitarbeitende zunehmend Flexibilität, sinnstiftende Aufgaben und eine ausgewogene Work-Life-Balance.\n\nDiese unterschiedlichen Vorstellungen führen nicht selten zu Missverständnissen. Ältere Führungskräfte empfinden den Wunsch junger Angestellter nach Homeoffice oder reduzierten Arbeitszeiten manchmal als mangelndes Engagement, während Jüngere wiederum kritisieren, dass starre Strukturen ihrer Meinung nach nicht mehr zeitgemäß seien. Würden Unternehmen stärker auf einen offenen Dialog zwischen den Generationen setzen, ließen sich solche Konflikte jedoch häufig entschärfen, bevor sie eskalieren.\n\nEinige Firmen haben bereits begonnen, generationengemischte Teams gezielt zu fördern, damit Erfahrungswissen und neue Ideen voneinander profitieren können. Experten sind sich weitgehend einig, dass Unternehmen, die diesen Wandel aktiv gestalten, langfristig wettbewerbsfähiger bleiben, als jene, die an überholten Strukturen festhalten.",
+    "preguntas": [
+      {
+        "enunciado": "In vielen Unternehmen treffen derzeit nur zwei Generationen aufeinander.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ältere Beschäftigte legen laut Text häufig Wert auf Stabilität.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jüngere Mitarbeitende lehnen laut Text jede Form von Flexibilität ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen fördern gezielt generationengemischte Teams.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten raten Unternehmen, an überholten Strukturen festzuhalten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-landwirtschaft",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Landwirtschaft",
+    "descripcion": "Wie technologische Innovationen und der Klimawandel die Landwirtschaft grundlegend verändern.",
+    "texto": "Die Landwirtschaft steht derzeit vor tiefgreifenden Veränderungen, die sowohl durch technologische Innovationen als auch durch die Folgen des Klimawandels vorangetrieben werden. Immer mehr Betriebe setzen auf Präzisionslandwirtschaft, bei der Sensoren und Satellitendaten genutzt werden, um Felder gezielter zu bewässern und zu düngen. Dadurch könnte der Ressourcenverbrauch deutlich gesenkt werden, ohne dass die Erträge sinken müssten.\n\nGleichzeitig stellen veränderte Witterungsbedingungen viele Landwirte vor neue Herausforderungen. Dürreperioden und Starkregen, die früher als Ausnahme galten, treten inzwischen deutlich häufiger auf. Wäre es möglich, robustere Pflanzensorten großflächig anzubauen, könnten sich viele Betriebe besser an diese Bedingungen anpassen. Bislang jedoch scheitert eine schnellere Umstellung oft an hohen Kosten und bürokratischen Hürden.\n\nKritiker merken an, dass trotz aller technologischen Fortschritte die Grundprobleme der industriellen Landwirtschaft, etwa der hohe Flächenverbrauch oder der Einsatz von Pestiziden, bislang kaum gelöst wurden. Befürworter hingegen betonen, dass ohne Innovationen eine ausreichende Versorgung der wachsenden Weltbevölkerung kaum zu gewährleisten sei. Welcher Weg sich langfristig durchsetzen wird, bleibt bislang offen.",
+    "preguntas": [
+      {
+        "enunciado": "Präzisionslandwirtschaft nutzt unter anderem Satellitendaten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Dürreperioden und Starkregen treten laut Text seltener auf als früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine schnellere technologische Umstellung wird laut Text oft durch hohe Kosten erschwert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen alle Grundprobleme der industriellen Landwirtschaft bereits als gelöst an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text stellt eindeutig fest, welcher Weg sich langfristig durchsetzen wird.",
+        "respuesta": false
+      }
+    ]
   }
 ]
