@@ -46058,5 +46058,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-spielzeuggeschaeft",
+    "nivel": "A1",
+    "titulo": "Im Spielzeuggeschäft",
+    "descripcion": "Lena geht mit ihrem Vater in ein Spielzeuggeschäft und sucht ein Geschenk.",
+    "texto": "Lena ist sechs Jahre alt. Heute geht sie mit ihrem Vater in ein Spielzeuggeschäft. Das Geschäft ist groß und bunt. Es gibt viele Puppen, Autos und Bälle. Lena sucht ein Geschenk für ihren Freund Tim.\n\nTim mag Dinosaurier sehr. Lena findet einen großen grünen Dinosaurier aus Plastik. „Papa, schau mal! Das ist perfekt!\", ruft Lena. Ihr Vater lächelt und nimmt den Dinosaurier. Er kostet zehn Euro. Das ist nicht zu teuer.\n\nAn der Kasse bezahlt der Vater das Geschenk. Lena ist sehr glücklich. Sie packt den Dinosaurier in eine bunte Tüte. Morgen hat Tim Geburtstag, und Lena freut sich schon auf die Party.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist mit ihrer Mutter im Spielzeuggeschäft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim mag Dinosaurier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Dinosaurier ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater bezahlt das Geschenk an der Kasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat heute Geburtstag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-jahreszeiten",
+    "nivel": "A1",
+    "titulo": "Die Jahreszeiten",
+    "descripcion": "Ein kurzer Text über die vier Jahreszeiten und was Paul in jeder Jahreszeit macht.",
+    "texto": "Es gibt vier Jahreszeiten: Frühling, Sommer, Herbst und Winter. Im Frühling werden die Blumen bunt. Die Sonne scheint oft, und die Vögel singen. Paul geht im Frühling gern im Park spazieren.\n\nIm Sommer ist es warm und sonnig. Paul schwimmt gern im See. Im Herbst werden die Blätter gelb und braun. Paul sammelt Kastanien mit seiner Schwester. Im Winter ist es kalt, und es schneit oft.\n\nIm Winter baut Paul mit seinem Hund einen Schneemann. Danach trinkt er heißen Kakao. Paul mag alle Jahreszeiten, aber der Winter ist seine liebste Jahreszeit.",
+    "preguntas": [
+      {
+        "enunciado": "Es gibt vier Jahreszeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul schwimmt im Winter im See.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Herbst werden die Blätter gelb und braun.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul baut im Sommer einen Schneemann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Winter ist Pauls liebste Jahreszeit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-weihnachtsbaum",
+    "nivel": "A1",
+    "titulo": "Der Weihnachtsbaum",
+    "descripcion": "Die Familie Berger kauft und schmückt zusammen den Weihnachtsbaum.",
+    "texto": "Es ist Dezember, und die Familie Berger kauft einen Weihnachtsbaum. Der Vater sucht einen großen, grünen Baum. Die Mutter mag kleine Bäume lieber. Am Ende wählen sie einen mittelgroßen Baum.\n\nZu Hause schmücken alle zusammen den Baum. Die Tochter Mia hängt rote Kugeln an die Zweige. Der Sohn Ben hängt eine goldene Kette um den Baum. Die Mutter stellt eine Kerze auf den Tisch. Der Vater hängt einen Stern auf die Spitze des Baumes.\n\nAm Abend sitzt die Familie zusammen und trinkt Tee. Der Baum sieht wunderschön aus. Mia und Ben singen ein Weihnachtslied. Alle freuen sich sehr auf Weihnachten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger kauft im Dezember einen Weihnachtsbaum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater wählt einen sehr kleinen Baum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hängt rote Kugeln an den Baum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Stern liegt unter dem Baum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend singen Mia und Ben ein Weihnachtslied.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-ans-meer",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug ans Meer",
+    "descripcion": "Familie Wagner hat einen Tagesausflug an die Ostsee gemacht und dabei einiges erlebt.",
+    "texto": "Am letzten Samstag ist Familie Wagner mit dem Auto an die Ostsee gefahren. Sie sind früh aufgestanden, weil die Fahrt fast drei Stunden gedauert hat. Als sie am Strand ankamen, war das Wetter schon sehr schön. Die Kinder sind sofort ins Wasser gelaufen, obwohl es noch ziemlich kalt war.\n\nDer Vater hat eine Sandburg mit den Kindern gebaut, während die Mutter ein Picknick vorbereitet hat. Sie haben belegte Brote, Obst und kalten Tee mitgebracht. Nachdem sie gegessen hatten, sind alle am Strand spazieren gegangen und haben Muscheln gesammelt. Plötzlich hat es angefangen zu regnen, und die Familie musste schnell ihre Sachen packen.\n\nAuf dem Rückweg haben sie in einem kleinen Restaurant angehalten, weil alle hungrig waren. Dort haben sie frischen Fisch gegessen und über den schönen Tag gesprochen. Obwohl der Regen den Ausflug beendet hat, war es für alle ein unvergesslicher Tag am Meer.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist mit dem Zug an die Ostsee gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder sind sofort ins Wasser gelaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter hat die Sandburg gebaut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Strand haben sie Muscheln gesammelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf dem Rückweg sind sie direkt nach Hause gefahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-regnerisches-wochenende",
+    "nivel": "A2",
+    "titulo": "Ein regnerisches Wochenende",
+    "descripcion": "Jonas hatte geplant, mit Freunden Fußball zu spielen, aber das Wetter hat seine Pläne geändert.",
+    "texto": "Jonas hatte für das Wochenende viele Pläne. Er wollte mit seinen Freunden auf dem Sportplatz Fußball spielen, weil sie sich schon lange nicht mehr gesehen hatten. Am Samstagmorgen hat es aber stark geregnet, und das Spiel musste abgesagt werden. Jonas war zuerst sehr enttäuscht.\n\nStatt Fußball zu spielen, hat Jonas beschlossen, sein Zimmer aufzuräumen. Dabei hat er alte Fotos gefunden, die er mit seinen Großeltern gemacht hatte. Am Nachmittag hat seine Schwester angerufen und gefragt, ob er Lust auf einen Spieleabend hätte. Jonas hat sich gefreut, weil er seine Schwester lange nicht gesehen hatte.\n\nAm Abend sind seine Schwester und zwei Freunde zu Besuch gekommen. Sie haben zusammen Pizza bestellt und mehrere Brettspiele gespielt. Obwohl das Wetter schlecht war, hatte Jonas am Ende doch noch einen schönen Tag. Er hat gemerkt, dass man auch an regnerischen Tagen viel Spaß haben kann.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas wollte mit Freunden Fußball spielen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fußballspiel hat trotz des Regens stattgefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat beim Aufräumen alte Fotos gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seine Schwester hat ihn nicht angerufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend haben sie zusammen Brettspiele gespielt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-geburtstagsbrief",
+    "nivel": "A2",
+    "titulo": "Der Geburtstagsbrief",
+    "descripcion": "Sophie schreibt ihrer besten Freundin einen Brief zum Geburtstag, weil sie nicht persönlich kommen kann.",
+    "texto": "Sophie wohnt seit einem Jahr in München, weil sie dort eine neue Stelle gefunden hat. Ihre beste Freundin Laura feiert nächste Woche Geburtstag, aber Sophie kann nicht zur Feier kommen, weil sie zu viel Arbeit hat. Deshalb hat sie entschieden, Laura einen langen Brief zu schreiben.\n\nIn dem Brief hat Sophie erzählt, wie sehr sie Laura vermisst und wie gern sie sich an ihre gemeinsame Schulzeit erinnert. Sie hat auch geschrieben, dass sie im nächsten Monat nach Hause kommen wird, weil sie Urlaub hat. Außerdem hat Sophie ein altes Foto von ihnen beiden in den Brief gelegt, das sie beim Aufräumen gefunden hatte.\n\nAls Laura den Brief bekommen hat, musste sie vor Freude weinen. Sie hat Sophie sofort angerufen, um sich zu bedanken. Beide haben lange telefoniert und sich gefreut, dass sie sich bald wiedersehen werden.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie wohnt jetzt in München.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie kommt persönlich zu Lauras Geburtstagsfeier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat ein Foto in den Brief gelegt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura war nicht glücklich über den Brief.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie und Laura telefonieren nach dem Brief lange.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-job-in-einer-anderen-stadt",
+    "nivel": "B1",
+    "titulo": "Der neue Job in einer anderen Stadt",
+    "descripcion": "Markus zieht für eine neue Stelle nach Leipzig und muss sich an viele Veränderungen gewöhnen.",
+    "texto": "Nachdem Markus drei Jahre in einem kleinen Büro in seiner Heimatstadt gearbeitet hatte, bekam er das Angebot, bei einer größeren Firma in Leipzig zu arbeiten. Obwohl ihm der Abschied von Familie und Freunden schwerfiel, entschied er sich, die Chance zu ergreifen. Trotzdem war ihm klar, dass der Neuanfang nicht einfach werden würde.\n\nIn den ersten Wochen in Leipzig fühlte sich Markus oft einsam, weil er niemanden kannte und sich an die neue Umgebung gewöhnen musste. Nachdem er einen Sprachkurs für seine Kollegen aus dem Ausland besucht hatte, lernte er endlich ein paar Leute kennen, mit denen er sich regelmäßig traf. Obwohl die Arbeit anspruchsvoll war, gefiel ihm das neue Team sehr gut.\n\nNach einigen Monaten hatte sich Markus gut eingelebt. Er hatte eine gemütliche Wohnung gefunden und neue Freunde gewonnen. Trotzdem vermisste er manchmal seine alte Stadt, besonders wenn er an die gemeinsamen Abende mit seinen alten Freunden dachte. Insgesamt war er aber froh, den Schritt gewagt zu haben, weil er dadurch viel über sich selbst gelernt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat vorher zehn Jahre in Leipzig gearbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Abschied von Familie und Freunden fiel Markus leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat durch einen Sprachkurs neue Leute kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat sich nach einigen Monaten gut eingelebt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus vermisst seine alte Stadt überhaupt nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-jazzkonzert",
+    "nivel": "B1",
+    "titulo": "Das Jazzkonzert",
+    "descripcion": "Clara besucht zum ersten Mal ein Jazzkonzert und entdeckt eine neue Leidenschaft für Musik.",
+    "texto": "Clara hatte sich bisher nie besonders für Jazz interessiert, obwohl ihr Vater schon seit Jahren begeisterter Jazzfan war. Als er sie einlud, mit ihm ein Konzert in einem kleinen Club in der Innenstadt zu besuchen, sagte sie trotzdem zu, weil sie ihm eine Freude machen wollte. Sie erwartete einen eher ruhigen und unspektakulären Abend.\n\nNachdem das erste Stück begonnen hatte, änderte sich Claras Meinung schnell. Die Musiker spielten mit so viel Energie und Gefühl, dass sie völlig überrascht war. Obwohl sie die komplizierten Rhythmen zunächst kaum verstand, spürte sie, wie die Musik sie mitriss. Der Pianist improvisierte lange Soli, und das Publikum applaudierte begeistert nach jedem Stück.\n\nAm Ende des Abends war Clara so begeistert, dass sie beschloss, selbst ein Instrument zu lernen. Sie kaufte sich noch in derselben Woche eine gebrauchte Trompete und meldete sich für einen Kurs an. Ihr Vater freute sich sehr darüber, dass seine Tochter nun seine Leidenschaft für den Jazz teilte.",
+    "preguntas": [
+      {
+        "enunciado": "Clara war schon immer eine große Jazzfan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara und ihr Vater besuchen das Konzert in einem kleinen Club.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara verstand von Anfang an alle Rhythmen perfekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara beschließt am Ende, ein Instrument zu lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Vater ist enttäuscht über Claras neue Leidenschaft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-buchclub-runde",
+    "nivel": "B1",
+    "titulo": "Die Buchclub-Runde",
+    "descripcion": "Eine Gruppe von Nachbarn trifft sich regelmäßig, um über Bücher zu sprechen, und wird zu guten Freunden.",
+    "texto": "Vor zwei Jahren hat Frau Hoffmann in ihrem Wohnblock einen Zettel aufgehängt, auf dem sie nach Nachbarn suchte, die gerne lesen. Obwohl sie zunächst nur mit zwei oder drei Antworten gerechnet hatte, meldeten sich am Ende acht Personen. Seitdem trifft sich die Gruppe einmal im Monat in einem der Wohnzimmer, um über ein gemeinsam gelesenes Buch zu diskutieren.\n\nAnfangs kannten sich die Teilnehmer kaum, obwohl sie schon seit Jahren im selben Haus wohnten. Nachdem sie mehrmals zusammengekommen waren, entstanden jedoch echte Freundschaften. Man sprach nicht nur über Literatur, sondern auch über das eigene Leben, über Sorgen und Erfolge. Trotzdem blieb das Buch immer der Ausgangspunkt jedes Treffens.\n\nHeute ist der Buchclub für viele der wichtigste soziale Termin im Monat. Einige Mitglieder sagen, dass sie durch die Runde gelernt haben, Bücher zu lesen, die sie allein nie ausgewählt hätten. Außerdem hat die Gruppe das ganze Haus verändert, weil sich die Nachbarn jetzt auch im Alltag häufiger grüßen und helfen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Hoffmann hat einen Zettel im Wohnblock aufgehängt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es meldeten sich sofort über zwanzig Personen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Teilnehmer sprechen nur über Literatur und sonst über nichts.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Durch den Buchclub sind echte Freundschaften entstanden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn grüßen sich im Alltag jetzt häufiger.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "schulreform-und-ihre-grenzen",
+    "nivel": "B2",
+    "titulo": "Schulreform und ihre Grenzen",
+    "descripcion": "Ein Blick auf die Debatte um die Reform des deutschen Schulsystems und die Grenzen politischer Veränderungen.",
+    "texto": "Seit Jahren wird in Deutschland über eine grundlegende Reform des Schulsystems diskutiert. Kritiker bemängeln, dass das bestehende System die soziale Ungleichheit verstärke, da Kinder aus bildungsfernen Familien seltener auf ein Gymnasium wechselten als Kinder aus akademischen Haushalten. Befürworter einer Reform fordern daher ein längeres gemeinsames Lernen aller Schüler, bevor eine Aufteilung in verschiedene Schultypen erfolgt.\n\nWürde man jedoch ein einheitliches Schulsystem einführen, müssten zahlreiche strukturelle Probleme gelöst werden. Lehrkräfte müssten umfassend fortgebildet werden, und es müssten mehr Mittel für kleinere Klassen und individuelle Förderung bereitgestellt werden. Ohne diese Investitionen bliebe eine Reform wirkungslos, da das Problem nicht im Namen der Schulform, sondern in der tatsächlichen Unterstützung der Schüler liegt. Zudem wird von Experten betont, dass eine Reform nicht von heute auf morgen umgesetzt werden könne, sondern Jahrzehnte benötige, um ihre volle Wirkung zu entfalten.\n\nHinzu kommt, dass Bildungspolitik in Deutschland Ländersache ist, wodurch jede der sechzehn Bundesländer ein eigenes Schulsystem betreibt. Eine bundesweit einheitliche Reform würde daher einen politischen Kompromiss erfordern, der angesichts unterschiedlicher Interessen kaum erreichbar scheint. Solange dieser föderale Flickenteppich bestehen bleibt, werden Reformbemühungen wohl auch in Zukunft an ihre Grenzen stoßen, selbst wenn der gesellschaftliche Wunsch nach mehr Chancengleichheit unbestritten ist.",
+    "preguntas": [
+      {
+        "enunciado": "Kritiker sehen im bestehenden Schulsystem eine Verstärkung sozialer Ungleichheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Reform wäre laut Experten ohne zusätzliche Mittel vollkommen ausreichend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungspolitik ist in Deutschland eine rein bundesstaatliche Angelegenheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jedes der sechzehn Bundesländer hat ein eigenes Schulsystem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass eine Reform innerhalb weniger Monate wirken würde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-der-arbeitswelt-durch-ki",
+    "nivel": "B2",
+    "titulo": "Der Wandel der Arbeitswelt durch Künstliche Intelligenz",
+    "descripcion": "Eine Auseinandersetzung mit den Chancen und Risiken, die der Einsatz von KI für die Arbeitswelt mit sich bringt.",
+    "texto": "Kaum ein Thema wird in der aktuellen Wirtschaftsdebatte so kontrovers diskutiert wie der Einfluss künstlicher Intelligenz auf die Arbeitswelt. Während manche Experten prophezeien, dass ganze Berufsgruppen durch automatisierte Systeme überflüssig werden könnten, betonen andere, dass neue Technologien stets auch neue Berufsfelder geschaffen hätten. Fest steht, dass sich die Anforderungen an Arbeitnehmer in den kommenden Jahren erheblich verändern werden.\n\nBesonders betroffen seien, so die Prognosen, Tätigkeiten, die aus wiederholbaren und klar definierten Aufgaben bestehen, etwa in der Buchhaltung oder im Kundenservice. Wäre es möglich, diese Aufgaben vollständig zu automatisieren, könnten Unternehmen zwar erhebliche Kosten einsparen, doch zugleich entstünde ein gesellschaftliches Problem: Wie sollen Millionen von Arbeitnehmern weiterbeschäftigt werden, deren Tätigkeit von Maschinen übernommen wird? Viele Ökonomen plädieren deshalb für eine Ausweitung der beruflichen Weiterbildung, die von Staat und Unternehmen gemeinsam finanziert werden müsste.\n\nGleichzeitig wird befürchtet, dass die Vorteile der Digitalisierung ungleich verteilt werden könnten. Hochqualifizierte Fachkräfte, die mit den neuen Technologien arbeiten, würden voraussichtlich von höheren Gehältern profitieren, während gering qualifizierte Arbeitskräfte das Risiko trügen, ihren Arbeitsplatz zu verlieren. Um dieser Entwicklung entgegenzuwirken, wird von politischer Seite diskutiert, ob nicht auch über neue Formen der sozialen Absicherung nachgedacht werden müsste, etwa über ein bedingungsloses Grundeinkommen oder eine Robotersteuer.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Experten sind sich einig, dass KI nur Arbeitsplätze vernichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Besonders wiederholbare, klar definierte Tätigkeiten gelten als gefährdet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt eine Ausweitung der beruflichen Weiterbildung vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text profitieren gering qualifizierte Arbeitskräfte am meisten von der Digitalisierung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein bedingungsloses Grundeinkommen wird als mögliche politische Antwort erwähnt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "pflegekrise-im-gesundheitswesen",
+    "nivel": "B2",
+    "titulo": "Pflegekrise im Gesundheitswesen",
+    "descripcion": "Ein Beitrag über den Fachkräftemangel in der Pflege und mögliche Lösungsansätze für die Zukunft.",
+    "texto": "Der Pflegebereich in Deutschland steht seit Jahren vor einer zunehmenden Belastung. Angesichts einer alternden Gesellschaft steigt die Zahl der pflegebedürftigen Menschen stetig, während zugleich immer weniger junge Menschen den Beruf der Pflegekraft ergreifen wollen. Viele Pflegekräfte berichten von Überstunden, geringer Bezahlung und einem Arbeitsklima, das von ständigem Zeitdruck geprägt ist, sodass zahlreiche Fachkräfte den Beruf frühzeitig wieder verlassen.\n\nWürde man die Arbeitsbedingungen in der Pflege grundlegend verbessern, ließe sich der Fachkräftemangel langfristig vermutlich abmildern. Experten fordern deshalb höhere Gehälter, eine bessere Personalbemessung in den Einrichtungen sowie mehr gesellschaftliche Anerkennung für diesen Beruf. Ohne solche Reformen, so die Befürchtung vieler Fachleute, werde sich die Lage in den kommenden Jahrzehnten weiter verschärfen, da immer mehr Pflegekräfte in den Ruhestand gehen, ohne ausreichend ersetzt zu werden.\n\nAls eine mögliche Lösung wird häufig die gezielte Anwerbung von Pflegekräften aus dem Ausland genannt. Zwar konnte dadurch bereits ein Teil des Mangels ausgeglichen werden, dennoch bleibt diese Strategie umstritten, da sie in den Herkunftsländern mitunter selbst zu einem Mangel an Pflegepersonal führt. Zusätzlich wird diskutiert, inwieweit digitale Technologien, etwa Pflegeroboter oder digitale Dokumentationssysteme, die Pflegekräfte spürbar entlasten könnten, ohne dabei die menschliche Zuwendung in der Pflege zu ersetzen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zahl der pflegebedürftigen Menschen nimmt laut Text ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Pflegekräfte berichten von Überstunden und Zeitdruck.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten fordern unter anderem höhere Gehälter in der Pflege.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Anwerbung von Pflegekräften aus dem Ausland gilt im Text als völlig unumstritten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Digitale Technologien sollen die menschliche Zuwendung in der Pflege vollständig ersetzen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
