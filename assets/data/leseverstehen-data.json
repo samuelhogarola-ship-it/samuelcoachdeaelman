@@ -46754,5 +46754,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-obstkorb-zu-hause",
+    "nivel": "A1",
+    "titulo": "Der Obstkorb zu Hause",
+    "descripcion": "Ein Obstkorb in der Küche und was alles drin ist.",
+    "texto": "In unserer Küche steht ein großer Obstkorb. Der Korb ist aus Holz und braun. Jeden Tag kauft meine Mutter frisches Obst.\n\nIm Korb liegen Äpfel, Bananen und Orangen. Die Äpfel sind rot und grün. Die Bananen sind gelb. Ich esse jeden Morgen eine Banane zum Frühstück.\n\nMein kleiner Bruder mag Äpfel am liebsten. Er isst zwei Äpfel pro Tag. Am Wochenende kaufen wir zusammen neues Obst auf dem Markt.",
+    "preguntas": [
+      {
+        "enunciado": "Der Obstkorb steht im Wohnzimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Korb liegen Äpfel, Bananen und Orangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bananen sind gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bruder mag Bananen am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie kaufen am Wochenende neues Obst.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "briefmarken-sammeln",
+    "nivel": "A1",
+    "titulo": "Briefmarken sammeln",
+    "descripcion": "Ein Junge erzählt von seinem Hobby, Briefmarken zu sammeln.",
+    "texto": "Ich heiße Jonas und ich sammle Briefmarken. Das ist mein Hobby seit zwei Jahren. Ich habe schon über hundert Briefmarken.\n\nMeine Briefmarken kommen aus vielen Ländern. Ich habe Briefmarken aus Deutschland, Österreich und der Schweiz. Mein Opa schickt mir oft Briefe mit alten Marken.\n\nIch ordne die Briefmarken in einem Album. Jede Marke hat ihren eigenen Platz. Am Sonntag zeige ich mein Album meinem Freund Paul.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas sammelt seit zwei Jahren Briefmarken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat nur zehn Briefmarken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Briefmarken kommen nur aus Deutschland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Opa schickt Jonas Briefe mit Marken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas zeigt sein Album am Sonntag Paul.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "laternenfest-im-herbst",
+    "nivel": "A1",
+    "titulo": "Das Laternenfest im Herbst",
+    "descripcion": "Kinder basteln Laternen und feiern ein Herbstfest.",
+    "texto": "Im Herbst basteln wir in der Schule Laternen. Meine Laterne ist gelb und hat einen Stern. Wir malen die Laternen mit vielen Farben.\n\nAm Abend gehen wir mit den Laternen durch die Straße. Alle Kinder singen ein Lied. Die Eltern laufen auch mit und machen Fotos.\n\nNach dem Spaziergang gibt es warmen Tee und Kekse. Ich finde das Laternenfest sehr schön. Nächstes Jahr möchte ich eine neue Laterne basteln.",
+    "preguntas": [
+      {
+        "enunciado": "Die Laterne ist gelb und hat einen Stern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder basteln die Laternen im Sommer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend singen die Kinder ein Lied.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eltern bleiben zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Spaziergang gibt es Tee und Kekse.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-auf-dem-campingplatz",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende auf dem Campingplatz",
+    "descripcion": "Eine Familie verbringt ein Wochenende auf einem Campingplatz am See.",
+    "texto": "Letztes Wochenende sind wir auf einen Campingplatz am See gefahren. Wir haben unser Zelt direkt am Wasser aufgebaut, weil wir morgens schwimmen wollten. Das Wetter war zum Glück sonnig und warm.\n\nAm Samstagabend haben wir ein Lagerfeuer gemacht und Würstchen gegrillt. Mein Vater hat Gitarre gespielt, und wir haben zusammen gesungen. Die Nachbarn vom Nebenzelt haben uns Marshmallows gebracht, weil sie so freundlich waren.\n\nAm Sonntag hat es leider angefangen zu regnen, deshalb sind wir früher nach Hause gefahren. Trotzdem war es ein schönes Wochenende. Wir haben schon beschlossen, dass wir im Sommer wiederkommen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Zelt stand direkt am Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war am Samstag schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater hat am Lagerfeuer Gitarre gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn waren unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind wegen des Regens früher gefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-lieferdienst-in-unserer-strasse",
+    "nivel": "A2",
+    "titulo": "Der Lieferdienst in unserer Straße",
+    "descripcion": "Ein Nachbar berichtet, wie sich die Lieferungen in seiner Straße verändert haben.",
+    "texto": "Seit ein paar Monaten kommt fast jeden Tag ein Lieferdienst in unsere Straße. Viele Nachbarn bestellen ihr Essen online, weil das bequem und schnell ist. Früher sind wir immer selbst einkaufen gegangen.\n\nLetzte Woche habe ich den Fahrer gefragt, wie sein Arbeitstag aussieht. Er hat erzählt, dass er oft zwölf Stunden arbeitet, weil so viele Bestellungen kommen. Das hat mich überrascht, weil ich das nicht wusste.\n\nMeine Nachbarin findet die Lieferdienste praktisch, aber sie macht sich Sorgen um die Fahrer. Deshalb gibt sie ihnen manchmal ein Trinkgeld oder ein kühles Getränk. Ich finde das eine sehr nette Idee.",
+    "preguntas": [
+      {
+        "enunciado": "Früher sind die Nachbarn selbst einkaufen gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Fahrer arbeitet nur zwei Stunden pro Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Erzähler wusste schon vorher, wie lang der Fahrer arbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarin macht sich Sorgen um die Fahrer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarin gibt den Fahrern manchmal etwas zu trinken.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kurzarbeit-in-der-fabrik",
+    "nivel": "A2",
+    "titulo": "Kurzarbeit in der Fabrik",
+    "descripcion": "Ein Arbeiter erzählt, wie seine Firma wegen weniger Aufträgen Kurzarbeit eingeführt hat.",
+    "texto": "Letzten Monat hat meine Firma Kurzarbeit eingeführt, weil es weniger Aufträge gab. Das bedeutet, dass ich nur noch drei Tage pro Woche arbeite. Am Anfang hatte ich Angst, dass ich meinen Job verlieren könnte.\n\nMein Chef hat uns erklärt, dass die Kurzarbeit die Jobs sichern soll. Ich bekomme weniger Gehalt, aber der Staat zahlt einen Teil dazu. Das hat mich beruhigt, weil ich dachte, es wäre viel schlimmer.\n\nAn den freien Tagen helfe ich jetzt meiner Schwester im Garten. Außerdem lerne ich Englisch, weil ich schon lange keine Zeit dafür hatte. Ich hoffe, dass die Firma bald wieder mehr Aufträge bekommt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Firma hat mehr Aufträge bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er arbeitet jetzt nur drei Tage pro Woche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Staat zahlt einen Teil des Gehalts dazu.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat an den freien Tagen keine Zeit für Hobbys.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er lernt in seiner freien Zeit Englisch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-stolpersteine-in-unserer-stadt",
+    "nivel": "B1",
+    "titulo": "Die Stolpersteine in unserer Stadt",
+    "descripcion": "Eine Schulklasse beschäftigt sich mit den Stolpersteinen zur Erinnerung an NS-Opfer.",
+    "texto": "Vor der Schule meiner Tochter liegen mehrere kleine Messingsteine im Gehweg. Das sind sogenannte Stolpersteine, die an Menschen erinnern, die während der Zeit des Nationalsozialismus verfolgt wurden. Auf jedem Stein stehen der Name, das Geburtsjahr und das Schicksal der Person.\n\nObwohl die Steine schon seit Jahren dort liegen, sind sie vielen Schülern nicht aufgefallen. Deshalb hat die Lehrerin ein Projekt gestartet, bei dem die Kinder die Geschichten hinter den Steinen recherchieren. Nachdem sie die alten Dokumente im Stadtarchiv gelesen hatten, waren viele Schüler sehr bewegt.\n\nAm Ende des Projekts haben die Kinder die Steine gemeinsam poliert, damit die Namen wieder gut lesbar sind. Meine Tochter hat erzählt, dass sie jetzt jeden Tag an diese Menschen denkt, wenn sie zur Schule geht. Trotzdem findet sie es wichtig, dass noch mehr Leute über die Geschichte hinter den Steinen sprechen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Stolpersteine liegen vor der Schule der Tochter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf den Steinen steht nur der Name der Person.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Allen Schülern waren die Steine schon lange bekannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben Dokumente im Stadtarchiv gelesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Projekts haben die Kinder die Steine poliert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-buergerinitiative-gegen-den-verkehrslaerm",
+    "nivel": "B1",
+    "titulo": "Die Bürgerinitiative gegen den Verkehrslärm",
+    "descripcion": "Anwohner gründen eine Bürgerinitiative, um gegen Lärm auf einer stark befahrenen Straße vorzugehen.",
+    "texto": "Seit der Eröffnung der neuen Umgehungsstraße fahren viel mehr Autos durch unsere Wohnstraße, obwohl die Straße eigentlich dafür gebaut wurde, den Verkehr zu reduzieren. Nachdem sich mehrere Nachbarn über den Lärm beschwert hatten, haben wir eine Bürgerinitiative gegründet. Unser Ziel war es, die Stadtverwaltung auf das Problem aufmerksam zu machen.\n\nWir haben zuerst eine Unterschriftenliste organisiert und Lärmmessungen durchgeführt. Die Ergebnisse haben gezeigt, dass der Lärmpegel die erlaubten Grenzwerte deutlich überschreitet. Trotzdem hat die Verwaltung zunächst gezögert, etwas zu unternehmen, weil eine Lösung viel Geld kosten würde.\n\nNach monatelangem Engagement hat der Stadtrat schließlich beschlossen, Tempo 30 einzuführen und einen Lärmschutzwall zu bauen. Viele Anwohner sind erleichtert, auch wenn die Bauarbeiten noch dauern werden. Für uns war dieses Projekt ein gutes Beispiel dafür, wie wichtig bürgerschaftliches Engagement sein kann.",
+    "preguntas": [
+      {
+        "enunciado": "Die Umgehungsstraße hat den Verkehr in der Wohnstraße verringert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn haben eine Bürgerinitiative gegründet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lärmmessungen lagen unter den erlaubten Grenzwerten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Verwaltung hat sofort und ohne Zögern reagiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Stadtrat hat Tempo 30 und einen Lärmschutzwall beschlossen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mundart-und-hochdeutsch-im-alltag",
+    "nivel": "B1",
+    "titulo": "Mundart und Hochdeutsch im Alltag",
+    "descripcion": "Ein junger Mann berichtet, wie er zwischen Dialekt und Hochdeutsch wechselt.",
+    "texto": "Ich bin in einem kleinen Dorf in Bayern aufgewachsen, wo fast alle Leute Dialekt sprechen. Zu Hause und mit meinen Freunden rede ich bis heute bayerisch, obwohl viele Wörter für Außenstehende schwer zu verstehen sind. Meine Großmutter spricht sogar fast nur Mundart.\n\nAls ich zum Studium in eine andere Stadt gezogen bin, musste ich mich an das Hochdeutsche gewöhnen, weil meine Kommilitonen aus ganz Deutschland kamen. Am Anfang war das ungewohnt, nachdem ich mein ganzes Leben Dialekt gesprochen hatte. Mit der Zeit habe ich aber gelernt, zwischen beiden Sprachformen hin und her zu wechseln.\n\nHeute finde ich es spannend, dass ich zwei Varianten meiner Muttersprache beherrsche. Trotzdem ärgert es mich manchmal, wenn Leute den Dialekt als unhöflich oder ungebildet bezeichnen. Für mich gehört die Mundart zu meiner Identität, auch wenn ich im Beruf fast immer Hochdeutsch spreche.",
+    "preguntas": [
+      {
+        "enunciado": "Der Erzähler ist in einer Großstadt aufgewachsen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zu Hause spricht er bayerischen Dialekt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er musste sich beim Studium an das Hochdeutsche gewöhnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er findet, dass die Mundart nicht zu seiner Identität gehört.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Beruf spricht er meistens Hochdeutsch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-strukturwandel-im-bienensterben",
+    "nivel": "B2",
+    "titulo": "Das Bienensterben – Eine unterschätzte Gefahr",
+    "descripcion": "Ein Essay über die Ursachen und Folgen des weltweiten Bienensterbens.",
+    "texto": "In den letzten Jahrzehnten ist die Zahl der Bienenvölker in vielen Regionen der Welt dramatisch zurückgegangen, obwohl Bienen für die Bestäubung von etwa einem Drittel aller Nahrungsmittelpflanzen verantwortlich sind. Zu den Hauptursachen dieses Phänomens zählen der massive Einsatz von Pestiziden, der Verlust artenreicher Lebensräume sowie die Ausbreitung der Varroamilbe, eines Parasiten, der gezielt Bienenvölker schwächt. Würde das Bienensterben ungebremst weitergehen, hätte dies gravierende Folgen für die globale Nahrungsmittelversorgung.\n\nManche Imkerverbände fordern deshalb ein strengeres Verbot bestimmter Pestizidgruppen, während Vertreter der Landwirtschaft argumentieren, dass ein pauschales Verbot die Ernteerträge erheblich senken würde. Es stellt sich also die Frage, ob eine Lösung gefunden werden kann, die sowohl dem Artenschutz als auch den wirtschaftlichen Interessen der Landwirte gerecht wird. Einige Expertinnen schlagen vor, dass gezielt geförderte Blühstreifen an Feldrändern einen wichtigen Beitrag leisten könnten, ohne dass die Landwirtschaft grundlegend umgestellt werden müsste.\n\nAuch private Haushalte könnten einen Unterschied machen, indem sie in ihren Gärten heimische, bienenfreundliche Pflanzen anbauen würden, anstatt reine Zierpflanzen zu bevorzugen. Letztlich zeigt die Debatte um das Bienensterben exemplarisch, wie eng ökologische und wirtschaftliche Fragen miteinander verknüpft sind. Ohne ein Umdenken auf mehreren Ebenen dürfte es schwierig werden, diesen stillen, aber folgenreichen Verlust aufzuhalten.",
+    "preguntas": [
+      {
+        "enunciado": "Bienen bestäuben etwa ein Drittel aller Nahrungsmittelpflanzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Varroamilbe gilt als eine der Ursachen für das Bienensterben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Landwirtschaftsvertreter unterstützen ein pauschales Pestizidverbot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Blühstreifen werden als möglicher Beitrag zur Lösung genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht keinen Zusammenhang zwischen Ökologie und Wirtschaft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kurzarbeit-als-wirtschaftspolitisches-instrument",
+    "nivel": "B2",
+    "titulo": "Kurzarbeit als wirtschaftspolitisches Instrument",
+    "descripcion": "Eine Analyse über Nutzen und Grenzen der Kurzarbeit in wirtschaftlichen Krisenzeiten.",
+    "texto": "Immer wieder wird die Kurzarbeit als zentrales Instrument gelobt, mit dem Unternehmen in wirtschaftlich schwierigen Zeiten Entlassungen vermeiden können. Durch die Kurzarbeit wird die Arbeitszeit vorübergehend reduziert, während der Staat einen Teil des entstandenen Lohnausfalls übernimmt. Befürworter argumentieren, dass dadurch wertvolles Fachwissen in den Unternehmen erhalten bleibt, das im Falle einer Entlassungswelle unwiederbringlich verloren gehen würde.\n\nKritiker wenden jedoch ein, dass Kurzarbeit auch dazu genutzt werden könne, strukturell unrentable Arbeitsplätze künstlich am Leben zu erhalten, anstatt den notwendigen wirtschaftlichen Wandel zuzulassen. Wäre die Kurzarbeit zeitlich nicht begrenzt, so das Argument, würden notwendige Anpassungsprozesse in der Wirtschaft unnötig verzögert. Zudem wird bemängelt, dass die finanzielle Belastung für die Allgemeinheit erheblich sei, wenn Kurzarbeitergeld über Jahre hinweg gezahlt werden müsse.\n\nTrotz dieser Kritik hat sich die Kurzarbeit in mehreren Krisen, etwa während der Finanzkrise 2008 und der Corona-Pandemie, als wirksames Mittel erwiesen, um einen sprunghaften Anstieg der Arbeitslosigkeit zu verhindern. Entscheidend dürfte sein, dass die Maßnahme stets zeitlich befristet und zielgerichtet eingesetzt wird, damit sie nicht zu einer dauerhaften Subventionierung unproduktiver Strukturen wird. Die Balance zwischen kurzfristiger Stabilisierung und langfristiger wirtschaftlicher Erneuerung bleibt dabei eine ständige Herausforderung für die Politik.",
+    "preguntas": [
+      {
+        "enunciado": "Bei Kurzarbeit übernimmt der Staat einen Teil des Lohnausfalls.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Kurzarbeit unrentable Arbeitsplätze künstlich erhalten kann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, Kurzarbeit habe in der Finanzkrise 2008 nicht funktioniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text sollte Kurzarbeit zeitlich befristet eingesetzt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht in der Kurzarbeit keine politische Herausforderung mehr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "fahrradkuriere-im-schatten-der-plattformen",
+    "nivel": "B2",
+    "titulo": "Fahrradkuriere im Schatten der Plattformen",
+    "descripcion": "Eine Betrachtung der Arbeitsbedingungen von Essenslieferanten in deutschen Großstädten.",
+    "texto": "In den Innenstädten deutscher Großstädte gehören Fahrradkuriere mit auffällig bunten Lieferrucksäcken längst zum alltäglichen Straßenbild. Was auf den ersten Blick wie ein moderner, flexibler Nebenjob wirkt, entpuppt sich bei genauerer Betrachtung häufig als prekäres Beschäftigungsverhältnis, das von Zeitdruck, Unfallrisiken und geringer sozialer Absicherung geprägt ist. Viele der überwiegend jungen Beschäftigten werden über Subunternehmen angestellt, wodurch die eigentlichen Lieferplattformen rechtlich kaum zur Verantwortung gezogen werden können.\n\nBefürworter des Systems verweisen gern auf die hohe Flexibilität, die diese Arbeit insbesondere Studierenden und Menschen mit unregelmäßigem Zeitbudget biete. Kritische Stimmen entgegnen jedoch, dass diese vermeintliche Freiheit teuer bezahlt werde, da die Bezahlung pro Lieferung erfolge und somit jede Pause unmittelbar den Verdienst schmälere. Würden die Kuriere stattdessen fest angestellt und nach Stunden bezahlt, ließe sich das finanzielle Risiko wesentlich gerechter zwischen Unternehmen und Beschäftigten verteilen.\n\nIn den letzten Jahren haben sich einige Kuriere zu Betriebsräten zusammengeschlossen, um bessere Arbeitsbedingungen zu erkämpfen, was von den Plattformen bislang nur zögerlich akzeptiert wird. Arbeitsrechtlerinnen fordern zudem eine gesetzliche Klarstellung, nach der Plattformbeschäftigte grundsätzlich als Angestellte und nicht als Scheinselbstständige gelten sollten. Ob und wie schnell sich diese Forderungen politisch durchsetzen lassen, dürfte maßgeblich davon abhängen, wie stark der öffentliche Druck auf die Unternehmen in den kommenden Jahren wächst.",
+    "preguntas": [
+      {
+        "enunciado": "Fahrradkuriere werden oft über Subunternehmen angestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist die Arbeit als Kurier frei von jedem Risiko.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sagen, dass Pausen den Verdienst der Kuriere verringern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Plattformen akzeptieren Betriebsräte sofort und ohne Zögern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Arbeitsrechtlerinnen fordern, Plattformbeschäftigte als Angestellte einzustufen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
