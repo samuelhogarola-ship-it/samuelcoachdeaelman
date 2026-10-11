@@ -47102,5 +47102,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-regenschirm-geht-verloren",
+    "nivel": "A1",
+    "titulo": "Der Regenschirm geht verloren",
+    "descripcion": "Lukas verliert seinen Regenschirm im Bus.",
+    "texto": "Lukas fährt jeden Tag mit dem Bus zur Schule. Heute regnet es stark. Lukas nimmt seinen roten Regenschirm mit.\n\nIm Bus ist es voll. Lukas setzt sich neben eine alte Frau. Er stellt den Regenschirm neben seinen Sitz. An der Haltestelle steigt er schnell aus.\n\nZu Hause merkt Lukas: Der Regenschirm ist nicht da! Er ruft seine Mutter an. Sie sagt: „Frag im Bus-Büro.“ Am nächsten Tag findet Lukas den Regenschirm im Bus-Büro. Er ist sehr froh.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas fährt mit dem Fahrrad zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Regenschirm ist rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bus ist leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas verliert den Regenschirm im Bus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas findet den Regenschirm nicht wieder.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-schulweg-zu-fuss",
+    "nivel": "A1",
+    "titulo": "Mein Schulweg zu Fuß",
+    "descripcion": "Mia erzählt, wie sie jeden Morgen zur Schule geht.",
+    "texto": "Mia wohnt nicht weit von der Schule. Sie geht jeden Morgen zu Fuß. Der Weg dauert fünfzehn Minuten.\n\nZuerst geht Mia durch den Park. Dort sieht sie oft Vögel und Eichhörnchen. Dann geht sie über die Brücke. Von der Brücke sieht man den Fluss.\n\nMias beste Freundin Lena wohnt auch in der Nähe. Die zwei Mädchen treffen sich an der Brücke. Zusammen gehen sie die letzten Minuten zur Schule. Mia mag ihren Schulweg sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Mia fährt mit dem Auto zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schulweg dauert fünfzehn Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia geht durch einen Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena wohnt weit weg von Mia.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia und Lena treffen sich an der Brücke.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-fruehstueck-am-wochenende",
+    "nivel": "A1",
+    "titulo": "Das Frühstück am Wochenende",
+    "descripcion": "Die Familie Berger frühstückt am Samstag zusammen.",
+    "texto": "Am Samstag steht die Familie Berger spät auf. Herr Berger macht frischen Kaffee. Frau Berger backt Brötchen im Ofen.\n\nDie Kinder, Paul und Anna, decken den Tisch. Es gibt Butter, Marmelade und Käse. Paul trinkt gern Kakao. Anna mag lieber Orangensaft.\n\nNach dem Frühstück räumen alle zusammen auf. Dann spielen Paul und Anna im Garten. Die Eltern lesen die Zeitung. Das Wochenende beginnt schön.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie frühstückt am Montag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger backt Brötchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trinkt lieber Orangensaft als Kakao.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder heißen Paul und Anna.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Frühstück räumt niemand auf.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-schluessel-im-park",
+    "nivel": "A2",
+    "titulo": "Der verlorene Schlüssel im Park",
+    "descripcion": "Jonas hat seinen Hausschlüssel im Park verloren und musste ihn suchen.",
+    "texto": "Jonas ist am Nachmittag mit seinem Hund im Park spazieren gegangen. Weil das Wetter schön war, ist er länger geblieben als geplant. Als er nach Hause kommen wollte, hat er bemerkt, dass sein Hausschlüssel nicht mehr in der Tasche war.\n\nJonas hat Panik bekommen, weil er allein wohnt und keinen zweiten Schlüssel hat. Er ist den ganzen Weg zurückgelaufen, den er mit dem Hund gegangen war. Nach zwanzig Minuten hat er den Schlüssel endlich gefunden – er lag neben einer Bank im Gras.\n\nAm Abend hat Jonas seiner Schwester von dem Erlebnis erzählt. Sie hat gelacht und gesagt, dass er sich jetzt einen Ersatzschlüssel machen lassen sollte. Jonas hat ihr versprochen, das am nächsten Tag zu erledigen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist mit seiner Katze im Park gewesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat seinen Hausschlüssel verloren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte sofort einen zweiten Schlüssel zur Hand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat den Schlüssel neben einer Bank gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas wollte nie einen Ersatzschlüssel machen lassen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "besuch-bei-der-tante-im-krankenhaus",
+    "nivel": "A2",
+    "titulo": "Besuch bei der Tante im Krankenhaus",
+    "descripcion": "Sophie besucht ihre Tante, die nach einer Operation im Krankenhaus liegt.",
+    "texto": "Sophies Tante Renate hatte letzte Woche eine Operation am Knie. Seitdem liegt sie im Krankenhaus und kann noch nicht gut gehen. Sophie hat beschlossen, sie am Sonntag zu besuchen.\n\nSie hat Blumen und ein Buch mitgebracht, weil ihre Tante gern liest. Als Sophie ins Zimmer gekommen ist, hat Tante Renate sich sehr gefreut. Die beiden haben lange über die Familie gesprochen und sogar ein bisschen gelacht.\n\nBevor Sophie gegangen ist, hat der Arzt gesagt, dass Tante Renate in zwei Tagen nach Hause darf. Das hat alle sehr glücklich gemacht. Sophie hat versprochen, ihrer Tante beim Einkaufen zu helfen, wenn sie wieder zu Hause ist.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Renate hatte eine Operation am Arm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat ihre Tante am Montag besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat Blumen und ein Buch mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt hat gesagt, dass die Tante bald nach Hause darf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie will ihrer Tante nicht helfen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-entlang-der-donau",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour entlang der Donau",
+    "descripcion": "Tim und seine Freunde machen eine Fahrradtour entlang der Donau.",
+    "texto": "Tim hat mit zwei Freunden eine Fahrradtour entlang der Donau geplant. Sie sind früh am Morgen gestartet, weil sie vor der großen Hitze viele Kilometer schaffen wollten. Der Weg entlang des Flusses war flach und gut markiert.\n\nNach zwei Stunden haben sie in einem kleinen Dorf Pause gemacht. Dort haben sie Kuchen gegessen und Kaffee getrunken. Einer der Freunde hat gesagt, dass seine Beine schon müde waren, aber die anderen haben ihn motiviert weiterzufahren.\n\nAm Nachmittag sind sie an einem See angekommen und haben dort gebadet. Es war ein perfekter Tag, obwohl die letzten Kilometer ziemlich anstrengend waren. Tim hat gesagt, dass er diese Tour im nächsten Jahr wiederholen möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Freunde sind spät am Abend gestartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Weg entlang der Donau war flach.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben in einem Dorf Pause gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag haben sie in einem See gebadet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim möchte die Tour nie wieder machen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-schueleraustausch-mit-frankreich",
+    "nivel": "B1",
+    "titulo": "Der Schüleraustausch mit Frankreich",
+    "descripcion": "Eine Schülerin berichtet über ihre Erfahrungen beim Austausch mit einer französischen Partnerschule.",
+    "texto": "Nachdem Clara monatelang auf die Zusage gewartet hatte, konnte sie endlich am Schüleraustausch mit einer Partnerschule in Lyon teilnehmen. Obwohl sie vor der Abreise sehr nervös war, freute sie sich darauf, eine Woche bei einer französischen Gastfamilie zu verbringen und ihre Französischkenntnisse zu verbessern.\n\nDie ersten Tage waren nicht einfach, da Clara nicht alles verstand, was am Esstisch gesprochen wurde. Trotzdem gab sie nicht auf und fragte höflich nach, wenn ihr ein Wort fehlte. Mit der Zeit lernte sie viele neue Ausdrücke und fühlte sich immer sicherer im Gespräch mit ihrer Gastschwester.\n\nAm letzten Abend organisierte die Gastfamilie ein kleines Abschiedsessen. Clara war gerührt, weil alle ihr Fortschritte lobten, obwohl sie selbst dachte, sie habe noch viel zu lernen. Nach ihrer Rückkehr erzählte sie allen in der Klasse, wie sehr der Austausch ihr Selbstvertrauen gestärkt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Clara hat am Austausch mit einer Schule in Paris teilgenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara war vor der Abreise überhaupt nicht nervös.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara hat am Anfang nicht alles verstanden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara hat sofort aufgegeben, als es schwierig wurde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gastfamilie hat ein Abschiedsessen organisiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-entscheidung-vegetarisch-zu-leben",
+    "nivel": "B1",
+    "titulo": "Die Entscheidung, vegetarisch zu leben",
+    "descripcion": "Markus erzählt, warum er beschlossen hat, auf Fleisch zu verzichten.",
+    "texto": "Markus hat sich schon lange mit dem Thema Ernährung beschäftigt, bevor er die Entscheidung traf, kein Fleisch mehr zu essen. Nachdem er eine Dokumentation über Massentierhaltung gesehen hatte, wollte er seinen Alltag bewusster gestalten. Obwohl seine Familie zuerst skeptisch reagierte, unterstützte sie ihn schließlich bei seinem Vorhaben.\n\nAm Anfang war es nicht leicht, neue Rezepte zu finden, die ihm wirklich schmeckten. Trotzdem probierte Markus jede Woche ein neues vegetarisches Gericht aus und tauschte sich mit Freunden aus, die ähnliche Erfahrungen gemacht hatten. Mit der Zeit entdeckte er, dass vegetarisches Kochen viel kreativer sein kann, als er zunächst gedacht hatte.\n\nHeute, ein Jahr nachdem er die Entscheidung getroffen hat, fühlt sich Markus fitter und energiegeladener. Er gibt zu, dass er manchmal noch den Geschmack von gegrilltem Fleisch vermisst, doch bereut seine Entscheidung nicht. Für ihn war der Verzicht ein wichtiger Schritt in Richtung eines bewussteren Lebensstils.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat sofort beschlossen, Vegetarier zu werden, ohne nachzudenken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Dokumentation über Massentierhaltung hat Markus beeinflusst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat Markus von Anfang an voll unterstützt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat nie neue Rezepte ausprobiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus fühlt sich heute fitter als vorher.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ehrenamtliche-arbeit-im-seniorenheim",
+    "nivel": "B1",
+    "titulo": "Ehrenamtliche Arbeit im Seniorenheim",
+    "descripcion": "Ein Jugendlicher berichtet über seine Erfahrungen als Freiwilliger in einem Seniorenheim.",
+    "texto": "Seit einem halben Jahr verbringt Felix jeden Mittwochnachmittag im Seniorenheim seiner Stadt. Nachdem er sich zunächst nur aus schulischen Gründen für ein Praktikum gemeldet hatte, blieb er freiwillig dabei, weil ihm die Arbeit mit den älteren Menschen gefiel.\n\nAnfangs wusste Felix nicht genau, worüber er mit den Bewohnern sprechen sollte. Trotzdem gewöhnte er sich schnell an den Alltag im Heim und half beim Vorlesen, bei Spielenachmittagen und manchmal auch beim Spazierengehen. Besonders gern hörte er den Geschichten von Frau Weber zu, die ihm oft von ihrer Jugend erzählte.\n\nObwohl manche seiner Freunde die ehrenamtliche Arbeit für ungewöhnlich hielten, ist Felix überzeugt, dass er dabei viel über Geduld und Respekt gelernt hat. Er plant, auch nach dem Schulabschluss weiter im Heim zu helfen, da ihm die Begegnungen mit den Senioren inzwischen sehr wichtig geworden sind.",
+    "preguntas": [
+      {
+        "enunciado": "Felix arbeitet jeden Tag im Seniorenheim.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat die Arbeit zunächst nur für die Schule begonnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix wusste von Anfang an genau, worüber er sprechen sollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber erzählt Felix von ihrer Jugend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix möchte nach der Schule nie wieder ins Heim gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "debatte-bedingungsloses-grundeinkommen-deutschland",
+    "nivel": "B2",
+    "titulo": "Die Debatte um das bedingungslose Grundeinkommen in Deutschland",
+    "descripcion": "Ein Überblick über die gesellschaftliche Diskussion rund um ein bedingungsloses Grundeinkommen.",
+    "texto": "Seit Jahren wird in Deutschland darüber diskutiert, ob ein bedingungsloses Grundeinkommen eingeführt werden sollte. Befürworter argumentieren, dass jedem Bürger unabhängig von seiner Erwerbstätigkeit ein monatlicher Betrag ausgezahlt werden müsste, um existenzielle Sorgen zu beseitigen und mehr Zeit für Familie, Bildung oder ehrenamtliches Engagement zu schaffen. Kritiker hingegen befürchten, dass ein solches System die Arbeitsmotivation untergraben und den Sozialstaat finanziell überlasten würde.\n\nWäre das Grundeinkommen tatsächlich bedingungslos, müssten bisherige Sozialleistungen grundlegend reformiert werden. Mehrere Modellprojekte, die in den letzten Jahren durchgeführt wurden, zeigten gemischte Ergebnisse: Manche Teilnehmer berichteten von mehr Lebenszufriedenheit, während andere kaum Veränderungen in ihrem Erwerbsverhalten feststellten. Diese Studien werden von Ökonomen unterschiedlich interpretiert, je nachdem, welche politische Position sie vertreten.\n\nBesonders umstritten bleibt die Frage der Finanzierung. Würde man das Grundeinkommen durch höhere Steuern finanzieren, müssten vor allem Besserverdienende stärker belastet werden, was von konservativen Parteien weitgehend abgelehnt wird. Gleichzeitig wird argumentiert, dass durch den Wegfall bürokratischer Prüfverfahren erhebliche Verwaltungskosten eingespart werden könnten.\n\nTrotz der anhaltenden Kontroverse zeigen Umfragen, dass ein wachsender Teil der Bevölkerung dem Konzept grundsätzlich offen gegenübersteht. Ob es jedoch in absehbarer Zeit zu einer flächendeckenden Einführung kommen wird, bleibt angesichts der ungeklärten Finanzierungsfragen und der politischen Widerstände äußerst fraglich.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Befürworter und Kritiker sind sich bei diesem Thema einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Modellprojekte zum Grundeinkommen zeigten einheitlich positive Ergebnisse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Finanzierung des Grundeinkommens ist ein umstrittener Punkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Konservative Parteien lehnen höhere Steuern für Besserverdienende meist ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Umfragen lehnt die Mehrheit der Bevölkerung das Konzept vollständig ab.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "videoueberwachung-im-oeffentlichen-raum",
+    "nivel": "B2",
+    "titulo": "Videoüberwachung im öffentlichen Raum",
+    "descripcion": "Eine Auseinandersetzung mit den Chancen und Risiken von Kameras an öffentlichen Plätzen.",
+    "texto": "In vielen deutschen Städten wird derzeit darüber diskutiert, ob mehr öffentliche Plätze mit Videokameras ausgestattet werden sollten. Befürworter argumentieren, dass durch eine verstärkte Überwachung Straftaten leichter aufgeklärt und potenzielle Täter abgeschreckt werden könnten. Insbesondere an Bahnhöfen und belebten Einkaufsstraßen wird die Installation zusätzlicher Kameras von Polizeigewerkschaften seit Langem gefordert.\n\nKritiker wenden jedoch ein, dass durch eine lückenlose Überwachung die Privatsphäre der Bürger erheblich eingeschränkt würde. Wenn jeder öffentliche Schritt aufgezeichnet werden würde, entstünde ein Gefühl permanenter Beobachtung, das langfristig das Vertrauen in den Staat beschädigen könnte. Datenschutzexperten weisen zudem darauf hin, dass gespeicherte Aufnahmen missbraucht werden könnten, sollten sie in falsche Hände geraten.\n\nInteressant ist, dass wissenschaftliche Studien zur tatsächlichen Wirkung von Videoüberwachung kein eindeutiges Bild liefern. Während in manchen Städten ein Rückgang bestimmter Delikte festgestellt wurde, verlagerte sich die Kriminalität in anderen Fällen lediglich in unüberwachte Bereiche. Es stellt sich daher die Frage, ob die erhoffte abschreckende Wirkung tatsächlich erzielt wird oder ob andere Maßnahmen, etwa eine bessere Straßenbeleuchtung, ähnlich wirksam wären.\n\nLetztlich müsste eine Entscheidung über den Ausbau der Videoüberwachung sorgfältig zwischen Sicherheitsinteressen und dem Schutz der Privatsphäre abgewogen werden. Eine Gesellschaft, die bereit wäre, ihre Freiheit vollständig der Sicherheit unterzuordnen, würde nach Ansicht vieler Experten einen gefährlichen Präzedenzfall schaffen.",
+    "preguntas": [
+      {
+        "enunciado": "Polizeigewerkschaften fordern seit Langem mehr Kameras an Bahnhöfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker der Videoüberwachung sind auch gegen jede Art von Sicherheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zur Wirkung von Videoüberwachung liefern ein völlig eindeutiges Ergebnis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Datenschutzexperten warnen vor einem möglichen Missbrauch der Aufnahmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, Sicherheitsinteressen und Privatsphäre sorgfältig abzuwägen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-sterben-der-lokalzeitungen",
+    "nivel": "B2",
+    "titulo": "Das Sterben der Lokalzeitungen",
+    "descripcion": "Eine Betrachtung über den Rückgang der lokalen Presse und seine Folgen für die Demokratie.",
+    "texto": "In den letzten zwei Jahrzehnten mussten zahlreiche Lokalzeitungen in Deutschland ihren Betrieb einstellen oder wurden von größeren Verlagen übernommen. Während früher nahezu jede Kleinstadt über eine eigene Redaktion verfügte, die über Gemeinderatssitzungen und lokale Ereignisse berichtete, wird diese Berichterstattung heute oft von wenigen überregionalen Redaktionen übernommen, die mehrere Regionen gleichzeitig abdecken.\n\nAls Hauptursache gilt der wirtschaftliche Druck durch sinkende Anzeigeneinnahmen, die früher einen Großteil der Finanzierung ausmachten. Nachdem Online-Plattformen den Werbemarkt zunehmend dominiert hatten, verloren klassische Zeitungen einen wichtigen Teil ihrer Einnahmequellen. Hinzu kommt, dass jüngere Leser immer seltener bereit sind, für journalistische Inhalte zu bezahlen, obwohl viele von ihnen durchaus an lokalen Themen interessiert wären.\n\nDie Folgen dieses Rückgangs werden von Medienforschern als besorgniserregend eingeschätzt. Wenn es in einer Region keine unabhängige lokale Berichterstattung mehr gäbe, bliebe die Arbeit kommunaler Politiker weitgehend unbeobachtet, was die demokratische Kontrolle erheblich schwächen würde. Einige Experten befürchten sogar, dass sich dadurch Fehlinformationen leichter verbreiten könnten, da seriöse Quellen fehlen.\n\nAls mögliche Lösung werden derzeit gemeinnützige Finanzierungsmodelle sowie staatliche Förderprogramme diskutiert. Ob solche Maßnahmen jedoch ausreichen würden, um die journalistische Vielfalt auf lokaler Ebene langfristig zu sichern, bleibt unter Experten weiterhin umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Früher hatte fast jede Kleinstadt eine eigene Zeitungsredaktion.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sinkende Anzeigeneinnahmen gelten als Hauptursache für das Zeitungssterben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jüngere Leser zahlen heute mehr für journalistische Inhalte als früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienforscher sehen den Rückgang der Lokalpresse unproblematisch für die Demokratie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gemeinnützige Finanzierungsmodelle werden als mögliche Lösung diskutiert.",
+        "respuesta": true
+      }
+    ]
   }
 ]
