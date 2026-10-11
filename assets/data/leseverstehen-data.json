@@ -45362,5 +45362,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-geburtstag-von-oma",
+    "nivel": "A1",
+    "titulo": "Der Geburtstag von Oma",
+    "descripcion": "Die Familie feiert den Geburtstag der Oma mit Kuchen und Geschenken.",
+    "texto": "Heute hat Oma Geburtstag. Sie wird siebzig Jahre alt. Die ganze Familie kommt zu Besuch. Mama backt einen Schokoladenkuchen. Papa kauft bunte Blumen. Die Kinder malen eine Karte.\n\nAm Nachmittag sitzen alle am Tisch. Oma trägt ein rotes Kleid. Sie lächelt und sagt: „Vielen Dank für die schöne Feier!“ Die Kinder singen ein Lied. Dann isst die Familie Kuchen und trinkt Tee.\n\nOma öffnet ihre Geschenke. Sie bekommt ein Buch und eine warme Jacke. Am Abend ist Oma sehr glücklich. Sie sagt: „Das war ein toller Tag.“",
+    "preguntas": [
+      {
+        "enunciado": "Oma wird siebzig Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mama backt einen Apfelkuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder malen eine Karte für Oma.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma trägt ein blaues Kleid.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma bekommt ein Buch und eine Jacke.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-im-zirkus",
+    "nivel": "A1",
+    "titulo": "Ein Besuch im Zirkus",
+    "descripcion": "Eine Familie besucht den Zirkus in der Stadt und sieht viele Tiere und Artisten.",
+    "texto": "Am Samstag geht die Familie Weber in den Zirkus. Der Zirkus ist groß und bunt. Vor dem Zelt stehen viele Menschen. Die Kinder sind sehr aufgeregt. Sie kaufen Eis und Popcorn.\n\nIm Zirkus sehen sie Clowns, Pferde und einen Elefanten. Die Clowns machen lustige Späße. Ein Mann läuft auf einem Seil. Die Kinder klatschen laut. Der kleine Tim ruft: „Das ist super!“\n\nNach der Show kaufen sie einen bunten Luftballon. Die Familie ist müde, aber glücklich. Alle sagen: „Das war ein toller Abend!“",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Weber geht am Samstag in den Zirkus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Zirkus gibt es keine Tiere.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Mann läuft auf einem Seil.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder sind traurig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Show kaufen sie einen Luftballon.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-in-den-tierpark",
+    "nivel": "A1",
+    "titulo": "Der Ausflug in den Tierpark",
+    "descripcion": "Eine Schulklasse besucht den Tierpark und lernt viele Tiere kennen.",
+    "texto": "Die Klasse 2b macht heute einen Ausflug. Sie fahren mit dem Bus in den Tierpark. Die Lehrerin heißt Frau Klein. Die Kinder tragen ihre Rucksäcke und sind sehr froh.\n\nIm Tierpark sehen die Kinder Affen, Zebras und Löwen. Die Affen klettern auf Bäume. Ein Zebra steht ruhig im Gras. Die Kinder essen ihr Picknick auf einer Wiese. Sie trinken Saft und essen Brot.\n\nAm Ende des Tages kaufen alle eine Postkarte. Die Kinder sind müde, aber sie lachen viel. Der Ausflug war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 2b fährt mit dem Zug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Tierpark sehen die Kinder Affen und Zebras.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin heißt Frau Klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder essen ihr Picknick im Bus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende kaufen die Kinder eine Postkarte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verpasste-zugfahrt",
+    "nivel": "A2",
+    "titulo": "Die verpasste Zugfahrt",
+    "descripcion": "Markus verschläft und verpasst seinen Zug nach Hamburg.",
+    "texto": "Markus wollte am Montag nach Hamburg fahren, weil er dort einen wichtigen Termin hatte. Er hat seinen Wecker gestellt, aber er hat ihn nicht gehört. Als er aufgewacht ist, war es schon halb acht.\n\nMarkus ist schnell aus dem Bett gesprungen und hat sich angezogen. Er ist zum Bahnhof gerannt, aber der Zug war schon weg. Er war sehr nervös und hat seine Kollegin angerufen. Sie hat gesagt: „Keine Sorge, der nächste Zug fährt in einer Stunde.“\n\nMarkus hat sich einen Kaffee gekauft und auf dem Bahnsteig gewartet. Obwohl er zu spät zum Termin gekommen ist, hat alles gut geklappt. Seine Kollegen haben Verständnis gehabt, und der Termin war trotzdem erfolgreich.",
+    "preguntas": [
+      {
+        "enunciado": "Markus wollte nach Hamburg fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus ist pünktlich aufgewacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat den Zug noch erreicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat seine Kollegin angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Termin war am Ende ein Misserfolg.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-mit-dem-nachbarn",
+    "nivel": "A2",
+    "titulo": "Der Streit mit dem Nachbarn",
+    "descripcion": "Frau Bauer ärgert sich über den lauten Hund ihres Nachbarn.",
+    "texto": "Frau Bauer wohnt seit zehn Jahren in ihrer Wohnung. Seit ein paar Wochen hat sie einen neuen Nachbarn, Herrn Fischer. Herr Fischer hat einen großen Hund, der oft nachts bellt. Frau Bauer konnte deshalb nicht gut schlafen.\n\nEines Abends hat Frau Bauer an die Tür von Herrn Fischer geklopft, weil sie sich beschweren wollte. Sie hat gesagt: „Ihr Hund bellt jede Nacht. Ich kann nicht schlafen!“ Herr Fischer war überrascht, weil er das Problem nicht bemerkt hatte.\n\nHerr Fischer hat sich entschuldigt und versprochen, mit dem Hund zu sprechen. Seitdem bellt der Hund nachts nicht mehr so oft. Frau Bauer und Herr Fischer sind jetzt sogar freundliche Nachbarn geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Bauer wohnt erst seit einer Woche in der Wohnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hund von Herrn Fischer bellt oft nachts.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Bauer hat sich bei Herrn Fischer beschwert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Fischer wusste schon vorher von dem Problem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende sind die beiden freundliche Nachbarn.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-museum-fuer-kinder",
+    "nivel": "A2",
+    "titulo": "Der Besuch im Museum für Kinder",
+    "descripcion": "Eine Mutter besucht mit ihren Kindern ein interaktives Kindermuseum.",
+    "texto": "Am Sonntag ist Frau Hoffmann mit ihren beiden Kindern in ein Kindermuseum gegangen. Die Kinder hatten sich schon lange darauf gefreut, weil sie dort viele Dinge selbst ausprobieren konnten.\n\nIm Museum haben die Kinder mit Wasser experimentiert und ein kleines Haus aus Holz gebaut. Der Sohn, Paul, hat gesagt: „Das ist viel besser als ein normales Museum, weil wir hier alles berühren dürfen!“ Die Tochter, Lena, hat lieber im Kunstraum gemalt.\n\nNach drei Stunden waren alle müde, aber zufrieden. Frau Hoffmann hat erzählt, dass sie bald wiederkommen wollen, weil es den Kindern so gut gefallen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Hoffmann ist allein ins Museum gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder durften im Museum viele Dinge berühren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena hat lieber mit Wasser experimentiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Besuch hat drei Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie möchte nie wieder ins Museum gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-im-neuen-job",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag im neuen Job",
+    "descripcion": "Julia beginnt ihren ersten Arbeitstag in einer neuen Firma und ist sehr nervös.",
+    "texto": "Julia hat lange nach einer neuen Stelle gesucht, und nachdem sie mehrere Vorstellungsgespräche hatte, hat sie endlich einen Job als Marketingassistentin bekommen. Am ersten Arbeitstag war sie sehr nervös, obwohl sie sich gut vorbereitet hatte.\n\nAls Julia ins Büro kam, wurde sie freundlich von ihrer neuen Chefin begrüßt. Sie bekam einen eigenen Schreibtisch und lernte ihre Kollegen kennen. Trotzdem fühlte sie sich zunächst unsicher, weil alles neu und unbekannt war. Nachdem sie an einem Teammeeting teilgenommen hatte, fühlte sie sich schon etwas wohler.\n\nAm Ende des Tages war Julia erschöpft, aber zufrieden. Sie hat ihrer besten Freundin geschrieben: „Es war anstrengend, aber die Kollegen sind wirklich nett. Ich glaube, ich werde mich hier gut einleben.“",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat sofort beim ersten Vorstellungsgespräch den Job bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia war am ersten Arbeitstag nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat Julia im Büro begrüßt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat an einem Teammeeting teilgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend war Julia unzufrieden mit ihrem neuen Job.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-entscheidung-fuer-ein-auslandsjahr",
+    "nivel": "B1",
+    "titulo": "Die Entscheidung für ein Auslandsjahr",
+    "descripcion": "Ein Schüler überlegt, ob er ein Jahr im Ausland verbringen soll, und spricht mit seinen Eltern darüber.",
+    "texto": "Felix ist siebzehn Jahre alt und überlegt schon seit Monaten, ob er nach dem nächsten Schuljahr ein Auslandsjahr machen soll. Seine beste Freundin hat bereits ein Jahr in Kanada verbracht und erzählt oft begeistert davon. Trotzdem hat Felix auch Angst, seine Freunde und seine Familie für so lange Zeit zu verlassen.\n\nAls er mit seinen Eltern darüber sprach, waren sie zunächst skeptisch, weil ein Auslandsjahr teuer ist und Felix ein Schuljahr verpassen würde. Nachdem sie jedoch mehrere Informationsabende besucht hatten, änderten sie langsam ihre Meinung. Sein Vater sagte: „Obwohl es nicht einfach wird, könnte diese Erfahrung dir sehr viel für dein Leben bringen.“\n\nAm Ende hat sich Felix entschieden, ein halbes Jahr nach Australien zu gehen. Er freut sich auf die neue Erfahrung, obwohl er weiß, dass es manchmal auch schwierig werden wird.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat sich die Entscheidung schnell und ohne Nachdenken überlegt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beste Freundin von Felix war schon in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eltern von Felix waren von Anfang an begeistert von der Idee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat sich für ein halbes Jahr in Australien entschieden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix glaubt, dass alles im Ausland einfach sein wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-dorffest-im-sommer",
+    "nivel": "B1",
+    "titulo": "Das Dorffest im Sommer",
+    "descripcion": "Ein kleines Dorf organisiert sein jährliches Sommerfest trotz schlechter Wettervorhersage.",
+    "texto": "Jeden Sommer organisiert das Dorf Lindenthal ein großes Fest auf dem Marktplatz. In diesem Jahr war die Wettervorhersage allerdings nicht gut, und viele Bewohner befürchteten, dass das Fest wegen Regen abgesagt werden müsste. Trotzdem beschloss der Organisationsausschuss, an der Veranstaltung festzuhalten.\n\nNachdem die Helfer große Zelte aufgebaut hatten, konnte das Fest wie geplant beginnen. Es gab Musik, regionale Spezialitäten und Spiele für die Kinder. Obwohl es am Nachmittag tatsächlich kurz regnete, blieben die meisten Gäste unter den Zelten und feierten einfach weiter.\n\nAm Abend waren sich alle einig, dass das Fest trotz des schlechten Wetters ein großer Erfolg war. Der Bürgermeister sagte: „Es zeigt, dass unsere Dorfgemeinschaft zusammenhält, egal was passiert.“",
+    "preguntas": [
+      {
+        "enunciado": "Das Dorffest findet jedes Jahr im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wettervorhersage war für das Fest ungünstig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fest wurde wegen des Wetters komplett abgesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag hat es tatsächlich kurz geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bürgermeister war am Ende enttäuscht vom Fest.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-einfluss-sozialer-medien-auf-die-jugend",
+    "nivel": "B2",
+    "titulo": "Der Einfluss sozialer Medien auf die Jugend",
+    "descripcion": "Eine kritische Betrachtung darüber, wie soziale Medien das Selbstbild und Verhalten junger Menschen prägen.",
+    "texto": "Soziale Medien sind heute aus dem Alltag vieler Jugendlicher kaum noch wegzudenken. Plattformen wie Instagram oder TikTok werden nicht nur zur Unterhaltung genutzt, sondern prägen zunehmend auch das Selbstbild junger Menschen. Studien zeigen, dass insbesondere die ständige Verfügbarkeit scheinbar perfekter Körper- und Lebensbilder bei vielen Jugendlichen zu einem verzerrten Selbstwertgefühl führen kann.\n\nWährend Befürworter argumentieren, dass soziale Medien jungen Menschen auch neue Möglichkeiten zur Selbstentfaltung und zum Austausch mit Gleichgesinnten böten, warnen Kritiker vor den Risiken exzessiver Nutzung. Wenn der Vergleich mit scheinbar makellosen Lebensstilen zur Gewohnheit wird, könnten psychische Probleme wie Angstzustände oder depressive Verstimmungen begünstigt werden. Es wäre daher wichtig, dass Eltern und Schulen gemeinsam einen verantwortungsvollen Umgang mit digitalen Medien vermitteln.\n\nLetztlich hängt die Wirkung sozialer Medien stark davon ab, wie reflektiert sie genutzt werden. Würde mehr Medienkompetenz bereits in der Schule vermittelt, könnten viele der genannten Risiken wahrscheinlich deutlich reduziert werden, ohne dass junge Menschen vollständig auf die Vorteile digitaler Vernetzung verzichten müssten.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Medien spielen im Leben vieler Jugendlicher kaum eine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen einen möglichen Zusammenhang zwischen sozialen Medien und verzerrtem Selbstwertgefühl.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker und Befürworter sind sich in der Debatte vollkommen einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Übermäßiger Vergleich mit perfekten Lebensbildern kann psychische Probleme begünstigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, mehr Medienkompetenz in der Schule zu vermitteln.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nachhaltigkeit-im-alltag-mode-als-problem",
+    "nivel": "B2",
+    "titulo": "Nachhaltigkeit im Alltag: Mode als Problem",
+    "descripcion": "Ein Text über die ökologischen Folgen der Fast-Fashion-Industrie und mögliche Alternativen.",
+    "texto": "Die globale Modeindustrie gehört zu den umweltschädlichsten Wirtschaftszweigen der Welt. Durch sogenannte Fast Fashion werden Kleidungsstücke in immer kürzeren Zyklen produziert, verkauft und wieder entsorgt. Dabei wird häufig übersehen, welch enormer Ressourcenverbrauch an Wasser, Energie und Rohstoffen hinter der Herstellung einzelner Kleidungsstücke steht.\n\nObwohl mittlerweile viele Konsumenten über diese Problematik informiert sind, wird nachhaltige Mode von einem Großteil der Käufer immer noch als zu teuer wahrgenommen. Hinzu kommt, dass Second-Hand-Kleidung von manchen Menschen weiterhin als wenig attraktiv angesehen wird, obwohl sich das Angebot in den letzten Jahren deutlich verbessert hat. Würden mehr Verbraucher bewusster konsumieren, könnte die Nachfrage nach billig produzierter Kleidung langfristig sinken.\n\nEinige Unternehmen haben bereits begonnen, auf recycelte Materialien und faire Produktionsbedingungen zu setzen. Dennoch bleibt fraglich, ob solche Initiativen ausreichen, um die strukturellen Probleme der Branche grundlegend zu lösen, solange der Preisdruck in der Industrie weiterhin so hoch bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Modeindustrie gilt als einer der umweltfreundlichsten Wirtschaftszweige.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fast Fashion führt zu kurzen Produktions- und Konsumzyklen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Konsumenten halten nachhaltige Mode für günstig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Angebot an Second-Hand-Kleidung hat sich in den letzten Jahren verbessert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die strukturellen Probleme der Branche bereits vollständig gelöst sind.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-der-privatsphaere-im-netz",
+    "nivel": "B2",
+    "titulo": "Der Wert der Privatsphäre im Netz",
+    "descripcion": "Eine Auseinandersetzung mit der Frage, wie viel persönliche Daten wir im digitalen Alltag preisgeben sollten.",
+    "texto": "In einer zunehmend digitalisierten Welt werden täglich riesige Mengen persönlicher Daten gesammelt, ausgewertet und weiterverkauft. Viele Nutzer akzeptieren Nutzungsbedingungen, ohne sie genau zu lesen, und geben damit häufig mehr Informationen über sich preis, als ihnen bewusst ist. Datenschutzexperten warnen seit Jahren davor, dass dieser sorglose Umgang mit persönlichen Daten langfristig gravierende Folgen haben könnte.\n\nBefürworter personalisierter Werbung argumentieren hingegen, dass die Auswertung von Nutzerdaten auch Vorteile biete, etwa relevantere Werbeanzeigen oder individuell zugeschnittene Dienstleistungen. Wäre es jedoch möglich, ähnliche Vorteile auch mit weniger invasiven Methoden zu erreichen, müsste die aktuelle Praxis vieler Unternehmen grundsätzlich hinterfragt werden. Zudem wird kritisiert, dass gesammelte Daten theoretisch auch missbraucht werden könnten, etwa durch Überwachung oder Diskriminierung bestimmter Gruppen.\n\nLetztlich stellt sich die Frage, inwieweit der Einzelne überhaupt noch Kontrolle über seine eigenen Daten behalten kann, wenn die technischen Möglichkeiten der Datenerfassung stetig zunehmen. Eine stärkere Regulierung durch den Gesetzgeber könnte dazu beitragen, dass die Privatsphäre der Nutzer besser geschützt wird, ohne die Vorteile der Digitalisierung vollständig aufzugeben.",
+    "preguntas": [
+      {
+        "enunciado": "Im digitalen Alltag werden kaum persönliche Daten gesammelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Nutzer lesen Nutzungsbedingungen nicht genau, bevor sie diese akzeptieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter personalisierter Werbung sehen darin ausschließlich Nachteile.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erwähnt die Gefahr eines möglichen Missbrauchs gesammelter Daten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, dass stärkere Regulierung die Privatsphäre besser schützen könnte.",
+        "respuesta": true
+      }
+    ]
   }
 ]
