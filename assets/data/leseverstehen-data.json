@@ -46406,5 +46406,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "das-fahrrad-als-geschenk",
+    "nivel": "A1",
+    "titulo": "Das Fahrrad als Geschenk",
+    "descripcion": "Lukas bekommt ein neues Fahrrad zum Geburtstag.",
+    "texto": "Lukas hat heute Geburtstag. Er ist neun Jahre alt. Seine Eltern haben ein großes Geschenk. Es ist rot und steht im Garten. Lukas läuft schnell nach draußen. „Ein Fahrrad!“, ruft er laut. Das Fahrrad hat zwei Räder und eine Klingel. Lukas ist sehr glücklich.\n\nAm Nachmittag fährt Lukas mit seinem Vater Rad. Sie fahren durch den Park. Die Sonne scheint und die Vögel singen. Lukas trägt einen Helm. Das ist wichtig für die Sicherheit. Nach einer Stunde sind beide müde. Sie fahren langsam nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas wird neun Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Geschenk ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas bekommt ein Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas trägt keinen Helm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas und sein Vater fahren durch den Park.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsfeier",
+    "nivel": "A1",
+    "titulo": "Die Geburtstagsfeier",
+    "descripcion": "Anna feiert ihren Geburtstag mit Freunden.",
+    "texto": "Anna wird heute acht Jahre alt. Ihre Mutter backt einen Kuchen. Der Kuchen ist braun und süß. Viele Kinder kommen zur Feier. Sie bringen Geschenke mit. Anna trägt ein schönes Kleid.\n\nDie Kinder spielen im Garten. Sie singen ein Geburtstagslied. Anna bläst die Kerzen aus. Alle klatschen und lachen. Zum Essen gibt es Kuchen und Limonade. Am Abend ist Anna sehr müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Anna wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen ist grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder spielen im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder trinken Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna ist am Abend glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-busfahrt",
+    "nivel": "A1",
+    "titulo": "Die Busfahrt zur Schule",
+    "descripcion": "Tom fährt jeden Morgen mit dem Bus zur Schule.",
+    "texto": "Tom steht jeden Morgen um sechs Uhr auf. Er isst schnell sein Frühstück. Dann geht er zur Bushaltestelle. Der Bus kommt um sieben Uhr. Tom steigt ein und setzt sich ans Fenster.\n\nDie Fahrt dauert zwanzig Minuten. Tom sieht Häuser, Bäume und Autos. Im Bus sind viele andere Kinder. Sie reden und lachen zusammen. Um Viertel vor acht ist Tom in der Schule. Der Unterricht beginnt um acht Uhr.",
+    "preguntas": [
+      {
+        "enunciado": "Tom steht um sechs Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom fährt mit dem Auto zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Busfahrt dauert zwanzig Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom ist allein im Bus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Unterricht beginnt um acht Uhr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reklamation",
+    "nivel": "A2",
+    "titulo": "Die Reklamation im Geschäft",
+    "descripcion": "Frau Berger bringt einen kaputten Mixer zurück ins Geschäft.",
+    "texto": "Frau Berger hat letzte Woche einen neuen Mixer gekauft. Gestern hat sie den Mixer benutzt, weil sie eine Suppe machen wollte. Nach wenigen Minuten ist der Mixer kaputt gegangen. Frau Berger war sehr ärgerlich, weil der Mixer teuer war.\n\nHeute ist sie zurück ins Geschäft gegangen. Sie hat dem Verkäufer erklärt, dass der Mixer nicht funktioniert. Der Verkäufer hat sich den Mixer angeschaut und ihr geglaubt. Er hat gesagt, dass sie einen neuen Mixer bekommt. Frau Berger hat sich bedankt und ist zufrieden nach Hause gegangen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger hat einen Mixer gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Mixer hat gut funktioniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger ist ins Geschäft zurückgegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer hat ihr nicht geglaubt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger bekommt einen neuen Mixer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kaputte-waschmaschine",
+    "nivel": "A2",
+    "titulo": "Die kaputte Waschmaschine",
+    "descripcion": "Herr Keller ruft einen Techniker, weil seine Waschmaschine nicht mehr funktioniert.",
+    "texto": "Herr Keller hat am Montag seine Waschmaschine angemacht, aber sie hat nicht funktioniert. Das Wasser ist nicht abgelaufen und die Wäsche war noch nass. Er war besorgt, weil er viel Wäsche waschen musste.\n\nEr hat einen Techniker angerufen und das Problem erklärt. Der Techniker ist erst am nächsten Tag gekommen. Er hat gesagt, dass ein kleines Teil kaputt war. Nach einer Stunde hat er die Waschmaschine repariert. Am Ende hat die Waschmaschine wieder gut funktioniert, und Herr Keller war froh.",
+    "preguntas": [
+      {
+        "enunciado": "Die Waschmaschine hat am Montag funktioniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Keller hat einen Techniker angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Techniker ist sofort am selben Tag gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein kleines Teil war kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende hat die Waschmaschine wieder funktioniert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wasserschaden",
+    "nivel": "A2",
+    "titulo": "Der Wasserschaden in der Wohnung",
+    "descripcion": "Familie Hoffmann entdeckt einen Wasserschaden in ihrer Küche.",
+    "texto": "Letzten Samstag hat Familie Hoffmann einen Wasserschaden in der Küche entdeckt. Das Wasser ist aus einem alten Rohr gekommen. Der Boden war nass und die Wand war feucht. Die Familie hat sich große Sorgen gemacht.\n\nSie haben sofort den Vermieter angerufen, weil das Problem schnell gelöst werden musste. Der Vermieter hat einen Klempner geschickt. Der Klempner hat das Rohr repariert und den Boden getrocknet. Nachdem die Arbeit fertig war, konnte die Familie wieder normal kochen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wasserschaden war im Badezimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat den Vermieter angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Klempner hat das Rohr repariert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie musste in ein Hotel ziehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Reparatur konnte die Familie wieder kochen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "arbeitszeiterfassung",
+    "nivel": "B1",
+    "titulo": "Arbeitszeiterfassung – Segen oder Kontrolle?",
+    "descripcion": "Viele Unternehmen führen neue Systeme zur Arbeitszeiterfassung ein.",
+    "texto": "Seit einigen Jahren müssen immer mehr Unternehmen in Deutschland die Arbeitszeit ihrer Angestellten genau erfassen. Ein Gericht hat entschieden, dass Firmen dokumentieren müssen, wann ihre Mitarbeiter beginnen und wann sie aufhören zu arbeiten. Für manche Arbeitnehmer bedeutet das mehr Sicherheit, weil Überstunden besser sichtbar werden.\n\nAndere Angestellte sehen die neue Regel kritisch. Sie fühlen sich kontrolliert, obwohl sie ihre Arbeit flexibel gestalten möchten. Besonders in kreativen Berufen, wo Ideen nicht immer zwischen neun und siebzehn Uhr entstehen, wirkt die strenge Zeiterfassung wie ein Rückschritt. Trotzdem sagen Experten, dass klare Regeln auch vor Ausbeutung schützen können.\n\nViele Firmen suchen deshalb nach einem Mittelweg. Sie nutzen digitale Apps, mit denen die Mitarbeiter ihre Zeit selbst eintragen können, ohne dass ständige Kontrolle entsteht. Nachdem die ersten Erfahrungen gesammelt wurden, zeigt sich, dass Vertrauen und Transparenz zusammen funktionieren können.",
+    "preguntas": [
+      {
+        "enunciado": "Ein Gericht hat die Pflicht zur Arbeitszeiterfassung bestätigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Angestellten freuen sich uneingeschränkt über die neue Regel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In kreativen Berufen finden manche die Zeiterfassung unpassend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten sagen, klare Regeln schützen niemanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Firmen nutzen digitale Apps zur Zeiterfassung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "stadtgaerten",
+    "nivel": "B1",
+    "titulo": "Stadtgärten – Grüne Oasen für die Gemeinschaft",
+    "descripcion": "Gemeinschaftsgärten verändern das Leben in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten entstehen immer mehr Gemeinschaftsgärten. Nachbarn pflanzen dort gemeinsam Gemüse, Kräuter und Blumen, obwohl sie oft keinen eigenen Garten besitzen. Die Idee ist einfach: Jeder darf mitmachen und sich um ein Stück Erde kümmern.\n\nFür viele Menschen sind diese Gärten mehr als nur ein Ort zum Pflanzen. Sie treffen dort Nachbarn, die sie vorher kaum kannten, und tauschen Tipps zum Gärtnern aus. Nachdem die Corona-Pandemie viele Menschen isoliert hatte, wurden solche Treffpunkte besonders wichtig für das soziale Leben.\n\nTrotz des Erfolgs gibt es auch Herausforderungen. Manche Städte haben zu wenig freie Flächen, und die Gärten müssen oft um ihren Platz kämpfen. Dennoch wächst die Bewegung weiter, weil immer mehr Menschen den Wert von Gemeinschaft und Natur in der Stadt erkennen.",
+    "preguntas": [
+      {
+        "enunciado": "In Gemeinschaftsgärten darf nur eine Familie pflanzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gärten helfen Nachbarn, sich kennenzulernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Während der Pandemie wurden solche Orte unwichtiger.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Städte haben wenig Platz für neue Gärten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bewegung der Gemeinschaftsgärten wächst weiter.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streit-mit-dem-vermieter",
+    "nivel": "B1",
+    "titulo": "Streit mit dem Vermieter",
+    "descripcion": "Ein Mieter und sein Vermieter streiten über die Nebenkosten.",
+    "texto": "Markus wohnt seit drei Jahren in einer kleinen Wohnung in Leipzig. Als die neue Nebenkostenabrechnung kam, war er schockiert, obwohl er mit höheren Kosten gerechnet hatte. Die Heizkosten waren fast doppelt so hoch wie im letzten Jahr.\n\nMarkus hat sofort seinen Vermieter kontaktiert, weil er die Rechnung nicht verstanden hat. Der Vermieter erklärte, dass die Energiepreise stark gestiegen seien und sich dadurch auch die Kosten für die Mieter erhöht hätten. Markus war trotzdem nicht ganz zufrieden mit der Erklärung.\n\nNachdem er sich bei einem Mieterverein beraten ließ, verstand er die Abrechnung besser. Ein Berater prüfte die Dokumente und fand sogar einen kleinen Fehler. Am Ende bekam Markus einen Teil des Geldes zurück, und der Streit mit dem Vermieter konnte friedlich gelöst werden.",
+    "preguntas": [
+      {
+        "enunciado": "Markus wohnt seit drei Jahren in Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Heizkosten sind gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat sich an einen Mieterverein gewandt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Berater hat keinen Fehler gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat am Ende etwas Geld zurückbekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mietpreisbremse-und-wohnungsnot",
+    "nivel": "B2",
+    "titulo": "Die Mietpreisbremse – Lösung oder Symptombekämpfung?",
+    "descripcion": "Die Wohnungsnot in deutschen Großstädten wird seit Jahren diskutiert.",
+    "texto": "In nahezu allen deutschen Großstädten ist bezahlbarer Wohnraum zu einem der drängendsten gesellschaftlichen Probleme geworden. Die sogenannte Mietpreisbremse, die eigentlich verhindern sollte, dass Mieten bei Neuvermietungen willkürlich in die Höhe getrieben werden, wird von vielen Experten als unzureichend kritisiert. Zwar wurde das Gesetz in den vergangenen Jahren mehrfach verschärft, doch die Mieten in begehrten Stadtvierteln steigen weiterhin kontinuierlich an.\n\nKritiker argumentieren, dass das eigentliche Problem nicht die Höhe der Mieten, sondern der chronische Mangel an neu gebautem Wohnraum sei. Würde deutlich mehr gebaut, so ihr Argument, würde sich der Markt von selbst entspannen und die Mieten würden sinken. Befürworter der Mietpreisbremse halten dem entgegen, dass ohne regulatorische Eingriffe sozial schwächere Haushalte längst aus den Innenstädten verdrängt worden wären.\n\nHinzu kommt, dass viele Investitionen in den Wohnungsbau durch gestiegene Baukosten und Zinsen erschwert werden, was wiederum dazu führt, dass selbst geplante Bauprojekte verzögert oder ganz gestrichen werden. Eine nachhaltige Lösung der Wohnungsnot müsste daher, so die einhellige Meinung vieler Stadtplaner, mehrere Maßnahmen gleichzeitig kombinieren: mehr sozialen Wohnungsbau, vereinfachte Genehmigungsverfahren und eine gezielte Förderung energieeffizienter Sanierungen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreisbremse wird von allen Experten uneingeschränkt gelobt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen den Mangel an Neubauten als zentrales Problem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gestiegene Baukosten erleichtern neue Bauprojekte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter der Mietpreisbremse fürchten eine Verdrängung ärmerer Haushalte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Stadtplaner fordern eine Kombination mehrerer Maßnahmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "generationenkonflikt-im-buero",
+    "nivel": "B2",
+    "titulo": "Generationenkonflikt im Büro – Wenn Arbeitswelten kollidieren",
+    "descripcion": "Unterschiedliche Generationen prallen zunehmend in der modernen Arbeitswelt aufeinander.",
+    "texto": "In vielen Unternehmen arbeiten heute bis zu vier Generationen unter einem Dach zusammen, von erfahrenen Babyboomern bis hin zu jungen Mitgliedern der Generation Z. Während ältere Arbeitnehmer häufig Wert auf Präsenz im Büro und klare Hierarchien legen, fordert die junge Generation flexible Arbeitszeiten, Homeoffice und eine Unternehmenskultur, die stärker auf Sinnhaftigkeit als auf reine Leistung ausgerichtet ist.\n\nDiese unterschiedlichen Erwartungen führen nicht selten zu Missverständnissen. Manche Führungskräfte beklagen, jüngere Angestellte seien weniger loyal und würden Stellen wechseln, sobald sich eine bessere Gelegenheit biete. Umgekehrt wird den älteren Generationen vorgeworfen, Veränderungen gegenüber zu misstrauisch zu sein, obwohl gerade digitale Kompetenzen zunehmend über den wirtschaftlichen Erfolg eines Unternehmens entscheiden.\n\nExperten schlagen vor, dass Unternehmen gezielt generationsübergreifende Teams bilden sollten, in denen Wissen und Perspektiven ausgetauscht werden könnten. Würde dieser Austausch systematisch gefördert, ließen sich viele Konflikte vermeiden, da sich beide Seiten stärker aufeinander einstellen würden. Letztlich, so die einhellige Meinung vieler Personalverantwortlicher, profitieren Unternehmen am meisten davon, wenn Erfahrung und Innovationskraft miteinander verbunden werden, anstatt gegeneinander ausgespielt zu werden.",
+    "preguntas": [
+      {
+        "enunciado": "In vielen Unternehmen arbeiten nur zwei Generationen zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Arbeitnehmer fordern oft mehr Flexibilität.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Führungskräfte sind mit jüngeren Angestellten vollkommen zufrieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten empfehlen generationsübergreifende Teams.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Personalverantwortliche sehen keinen Vorteil in der Kombination von Erfahrung und Innovation.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "sprachverlust-der-migrantenkinder",
+    "nivel": "B2",
+    "titulo": "Sprachverlust bei Kindern mit Migrationshintergrund",
+    "descripcion": "Warum viele Kinder mit Migrationshintergrund ihre Herkunftssprache verlieren.",
+    "texto": "In Einwanderungsfamilien wird häufig beobachtet, dass Kinder im Laufe ihrer schulischen Ausbildung zunehmend die Sprache ihrer Eltern verlernen, obwohl diese zu Hause ursprünglich gesprochen wurde. Linguisten bezeichnen dieses Phänomen als Sprachverlust oder „language attrition“ und führen es vor allem auf den starken gesellschaftlichen Druck zurück, sich an die Mehrheitssprache anzupassen.\n\nDabei wird oft übersehen, welchen Wert die Mehrsprachigkeit für die kognitive Entwicklung eines Kindes haben könnte. Würden Herkunftssprachen stärker gefördert, anstatt als Hindernis für die Integration betrachtet zu werden, könnten viele Kinder von einem größeren Wortschatz und einem besseren Verständnis kultureller Zusammenhänge profitieren. Stattdessen wird in vielen Schulen nach wie vor ausschließlich die Landessprache gefördert.\n\nEinige Bundesländer haben in den letzten Jahren begonnen, zweisprachigen Unterricht anzubieten, bei dem Fächer sowohl in der Landessprache als auch in der Herkunftssprache unterrichtet werden. Erste Studien deuten darauf hin, dass Kinder, die an solchen Programmen teilnehmen, nicht nur ihre Herkunftssprache besser beherrschen, sondern auch in der Landessprache keine Nachteile erfahren. Dennoch bleibt zweisprachiger Unterricht in Deutschland bislang die Ausnahme statt die Regel.",
+    "preguntas": [
+      {
+        "enunciado": "Sprachverlust tritt häufig bei Kindern mit Migrationshintergrund auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mehrsprachigkeit wird von Linguisten als Hindernis für die kognitive Entwicklung angesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Bundesländer bieten zweisprachigen Unterricht an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zeigen, dass zweisprachiger Unterricht die Landessprache negativ beeinflusst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zweisprachiger Unterricht ist in Deutschland die Regel.",
+        "respuesta": false
+      }
+    ]
   }
 ]
