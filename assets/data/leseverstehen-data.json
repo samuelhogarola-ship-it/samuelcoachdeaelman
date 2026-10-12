@@ -48842,5 +48842,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-gelber-regenschirm",
+    "nivel": "A1",
+    "titulo": "Mein gelber Regenschirm",
+    "descripcion": "Ein Mädchen erzählt von ihrem Regenschirm und dem Wetter.",
+    "texto": "Ich heiße Lena. Ich habe einen gelben Regenschirm. Der Regenschirm ist sehr groß. Im Herbst regnet es oft. Ich nehme meinen Regenschirm jeden Tag mit.\n\nHeute ist der Himmel grau. Es regnet stark. Ich gehe zur Schule. Meine Freundin Mia hat keinen Regenschirm. Ich teile meinen Regenschirm mit ihr.\n\nMia sagt: „Danke, Lena! Du bist sehr nett.“ Wir laufen zusammen zur Schule. Unsere Schuhe sind nass. Aber wir sind glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat einen gelben Regenschirm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Regenschirm ist sehr klein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Herbst regnet es oft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia hat auch einen Regenschirm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und Mia sind traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-blauer-rucksack",
+    "nivel": "A1",
+    "titulo": "Mein blauer Rucksack",
+    "descripcion": "Ein Junge beschreibt seinen Schulrucksack und seinen Schulalltag.",
+    "texto": "Ich heiße Paul. Ich bin neun Jahre alt. Mein Rucksack ist blau. In meinem Rucksack sind Bücher, Hefte und ein Apfel.\n\nJeden Morgen stehe ich um sieben Uhr auf. Ich esse Brot mit Marmelade. Dann packe ich meinen Rucksack. Ich gehe zu Fuß zur Schule.\n\nIn der Schule treffe ich meine Freunde. Wir lernen Mathematik und Deutsch. Nach der Schule spiele ich Fußball. Mein Rucksack bleibt zu Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Rucksack ist blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul ist zehn Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul isst morgens Brot mit Marmelade.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul fährt mit dem Auto zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul spielt nach der Schule Fußball.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wir-kaufen-eis",
+    "nivel": "A1",
+    "titulo": "Wir kaufen Eis",
+    "descripcion": "Eine Familie geht im Sommer Eis essen.",
+    "texto": "Es ist Sommer. Die Sonne scheint. Meine Familie und ich gehen in die Stadt. Wir kaufen Eis bei einem kleinen Eisladen.\n\nMeine Mutter nimmt Erdbeereis. Mein Vater nimmt Schokoladeneis. Ich nehme Vanilleeis mit Schokostreuseln. Meine kleine Schwester nimmt Zitroneneis.\n\nWir sitzen auf einer Bank im Park. Das Eis ist sehr lecker. Ein Hund kommt zu uns. Er möchte auch Eis. Aber Hunde essen kein Eis.",
+    "preguntas": [
+      {
+        "enunciado": "Es ist Winter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie kauft Eis in der Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater nimmt Schokoladeneis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie essen das Eis im Auto.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hund bekommt auch Eis.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-beim-bauern",
+    "nivel": "A2",
+    "titulo": "Ein Tag beim Bauern",
+    "descripcion": "Eine Schulklasse besucht einen Bauernhof und lernt viel über das Leben dort.",
+    "texto": "Letzte Woche hat unsere Klasse einen Bauernhof besucht. Wir sind früh mit dem Bus losgefahren, weil die Fahrt lange gedauert hat. Der Bauer hat uns herzlich begrüßt und uns seine Tiere gezeigt.\n\nZuerst haben wir die Kühe gesehen. Der Bauer hat erklärt, dass die Kühe jeden Tag gemolken werden müssen. Danach haben wir die Hühner gefüttert. Ein Mädchen hatte Angst, weil ein Hahn sehr laut gekräht hat.\n\nAm Ende haben wir frische Milch probiert. Sie hat anders geschmeckt als die Milch aus dem Supermarkt. Wenn wir Zeit haben, möchten wir den Bauernhof im Frühling noch einmal besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist mit dem Zug gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bauer hat die Kinder herzlich begrüßt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kühe müssen jeden Tag gemolken werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kinder hatten Angst vor den Kühen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben frische Milch probiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-schlüssel",
+    "nivel": "A2",
+    "titulo": "Der verlorene Schlüssel",
+    "descripcion": "Ein Mann hat seinen Hausschlüssel verloren und sucht ihn überall.",
+    "texto": "Gestern Abend ist Herr Weber nach Hause gekommen und hat seinen Schlüssel gesucht. Er hat die Tasche durchsucht, aber der Schlüssel war nicht da. Er hat sich sehr aufgeregt, weil es schon dunkel war.\n\nHerr Weber ist noch einmal zum Bahnhof gelaufen, weil er dort zuletzt den Schlüssel benutzt hatte. Ein netter Mann hat ihm gesagt, dass er einen Schlüssel beim Zeitungskiosk gefunden hat. Herr Weber ist sofort dorthin gegangen.\n\nDer Kioskbesitzer hat den Schlüssel aufbewahrt. Herr Weber hat sich sehr gefreut und hat ihm gedankt. Wenn man etwas verliert, sollte man ruhig bleiben und die Wege noch einmal ablaufen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber hat seine Geldbörse verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber war ruhig, als er den Schlüssel nicht fand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schlüssel lag beim Zeitungskiosk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber hat den Schlüssel nie wiedergefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Mann hat Herrn Weber einen Hinweis gegeben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-spaziergang-mit-dem-hund",
+    "nivel": "A2",
+    "titulo": "Ein Spaziergang mit dem Hund",
+    "descripcion": "Eine Frau erzählt von einem besonderen Spaziergang mit ihrem Hund im Park.",
+    "texto": "Am Sonntagmorgen ist Frau Klein mit ihrem Hund Bruno in den Park gegangen. Sie hat ihn mitgenommen, weil das Wetter so schön war. Bruno ist sehr verspielt und liebt es, im Park zu laufen.\n\nPlötzlich hat Bruno einen Ball gesehen, der unter einer Bank lag. Er ist so schnell gelaufen, dass Frau Klein ihn fast nicht mehr gesehen hat. Ein kleiner Junge hat gefragt, ob Bruno mit ihm spielen darf.\n\nFrau Klein hat erlaubt, dass die beiden zusammen spielen. Der Junge hat sich sehr gefreut, weil er selbst keinen Hund hat. Nach einer Stunde sind alle müde nach Hause gegangen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Klein ist mit ihrem Hund im Wald spazieren gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno hat einen Ball unter einer Bank gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Junge hatte selbst einen Hund zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Klein hat dem Jungen erlaubt, mit Bruno zu spielen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand war müde nach dem Spaziergang.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-nach-wien-im-herbst",
+    "nivel": "B1",
+    "titulo": "Die Reise nach Wien im Herbst",
+    "descripcion": "Eine Studentin berichtet über ihre erste Reise nach Wien und ihre Eindrücke von der Stadt.",
+    "texto": "Nachdem Sophie ihre Prüfungen bestanden hatte, beschloss sie, sich eine kleine Belohnung zu gönnen. Sie buchte eine Zugfahrkarte nach Wien, obwohl sie noch nie allein verreist war. Die Vorstellung, eine fremde Stadt zu entdecken, machte sie zugleich nervös und aufgeregt.\n\nIn Wien angekommen, besuchte sie zuerst den Stephansdom und war von der Architektur beeindruckt. Obwohl das Wetter an diesem Tag ziemlich kühl war, verbrachte sie Stunden damit, durch die engen Gassen der Altstadt zu schlendern. Trotzdem fühlte sie sich nicht einsam, denn sie lernte in einem Café eine andere Reisende kennen.\n\nAm letzten Abend gingen die beiden gemeinsam in die Oper, nachdem sie günstige Stehplatzkarten ergattert hatten. Sophie kehrte mit vielen neuen Eindrücken nach Hause zurück und war sich sicher, dass dies nicht ihre letzte Reise nach Wien gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist nach Wien gefahren, bevor sie ihre Prüfungen bestanden hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie war schon oft allein verreist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat den Stephansdom besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie fühlte sich in Wien völlig einsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie und ihre neue Bekannte sind in die Oper gegangen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-austauschschüler-aus-frankreich",
+    "nivel": "B1",
+    "titulo": "Der Austauschschüler aus Frankreich",
+    "descripcion": "Ein französischer Schüler berichtet über seine Erfahrungen während eines Schulaustauschs in Deutschland.",
+    "texto": "Als Lucas erfuhr, dass er für drei Monate bei einer deutschen Gastfamilie wohnen würde, war er sowohl begeistert als auch ein wenig ängstlich. Obwohl er schon mehrere Jahre Deutsch gelernt hatte, hatte er Angst, die Alltagssprache nicht zu verstehen.\n\nIn den ersten Wochen fiel es ihm schwer, dem schnellen Tempo der Gespräche zu folgen. Trotzdem gab er nicht auf und bat seine Gastfamilie immer wieder, langsamer zu sprechen. Nachdem er sich an den Akzent gewöhnt hatte, fing er an, mit seinen Mitschülern Witze zu machen.\n\nAm Ende seines Aufenthalts konnte Lucas fließend über Alltagsthemen sprechen, obwohl er anfangs daran gezweifelt hatte. Er sagte seinen neuen Freunden, dass er auf jeden Fall zurückkommen wolle, sobald es seine Zeit erlaube.",
+    "preguntas": [
+      {
+        "enunciado": "Lucas wusste von Anfang an alles über die deutsche Alltagssprache.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lucas hat seine Gastfamilie gebeten, langsamer zu sprechen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lucas hat sofort perfekt Deutsch gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lucas konnte am Ende fließend über Alltagsthemen sprechen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lucas wollte nie wieder nach Deutschland zurückkommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-bewerbung-um-ein-stipendium",
+    "nivel": "B1",
+    "titulo": "Die Bewerbung um ein Stipendium",
+    "descripcion": "Ein junger Mann bewirbt sich um ein Auslandsstipendium und erzählt von seinem Weg dorthin.",
+    "texto": "Markus wollte schon immer ein Semester im Ausland studieren, obwohl ihm das Geld dafür fehlte. Nachdem er von einem Stipendienprogramm gehört hatte, entschied er sich, eine Bewerbung zu schreiben. Er verbrachte viele Abende damit, seinen Lebenslauf und sein Motivationsschreiben zu verbessern.\n\nDie Konkurrenz war groß, denn über hundert Studenten hatten sich um die wenigen Plätze beworben. Trotzdem ließ sich Markus nicht entmutigen und bereitete sich sorgfältig auf das Auswahlgespräch vor. Während des Gesprächs stellte man ihm viele kritische Fragen zu seinen Zukunftsplänen.\n\nZwei Wochen später erhielt Markus eine E-Mail, in der ihm mitgeteilt wurde, dass er das Stipendium bekommen hatte. Nachdem er die Nachricht gelesen hatte, rief er sofort seine Eltern an, um die gute Nachricht zu teilen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte genug Geld, um ohne Stipendium ins Ausland zu gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat sich nicht um das Stipendium beworben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Über hundert Studenten haben sich beworben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat das Auswahlgespräch nicht gut vorbereitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat das Stipendium bekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "überwachung-und-datenschutz-im-alltag",
+    "nivel": "B2",
+    "titulo": "Überwachung und Datenschutz im Alltag",
+    "descripcion": "Ein Essay über die zunehmende digitale Überwachung und ihre Folgen für die Privatsphäre.",
+    "texto": "In den letzten Jahren ist die digitale Überwachung im Alltag erheblich zugenommen, ohne dass sich die meisten Menschen dessen vollständig bewusst wären. Smartphones, Smartwatches und vernetzte Haushaltsgeräte sammeln fortlaufend Daten, die anschließend von Unternehmen ausgewertet werden. Kritiker bemängeln, dass diese Datensammlung häufig ohne wirkliche Zustimmung der Nutzer erfolgt, da komplizierte Nutzungsbedingungen selten gründlich gelesen werden.\n\nBefürworter der Technologie argumentieren hingegen, dass eine gewisse Überwachung notwendig sei, um die öffentliche Sicherheit zu gewährleisten und personalisierte Dienstleistungen anbieten zu können. Würde man auf solche Systeme vollständig verzichten, müsste man gleichzeitig auf viele Annehmlichkeiten des modernen Lebens verzichten, etwa auf intelligente Verkehrssteuerung oder maßgeschneiderte Gesundheitsangebote.\n\nDennoch wird zunehmend gefordert, dass strengere gesetzliche Regelungen eingeführt werden sollten, um die Privatsphäre der Bürger besser zu schützen. Experten schlagen vor, dass Unternehmen verpflichtet werden sollten, ihre Datenschutzrichtlinien verständlicher zu formulieren. Nur wenn Transparenz und Kontrolle miteinander verbunden würden, könnte das Vertrauen der Gesellschaft in digitale Technologien langfristig erhalten werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die digitale Überwachung hat in den letzten Jahren abgenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Nutzer lesen die Nutzungsbedingungen nur selten gründlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten lehnen jede Form von Datensammlung vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Befürworter sehen Vorteile wie intelligente Verkehrssteuerung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es werden strengere gesetzliche Regelungen zum Datenschutz gefordert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nachhaltiger-konsum-als-lebensstil",
+    "nivel": "B2",
+    "titulo": "Nachhaltiger Konsum als Lebensstil",
+    "descripcion": "Eine Analyse darüber, wie nachhaltiger Konsum zunehmend den Alltag vieler Menschen prägt.",
+    "texto": "Nachhaltiger Konsum hat sich in den vergangenen Jahren von einer Randerscheinung zu einem gesellschaftlich breit diskutierten Lebensstil entwickelt. Immer mehr Verbraucher achten darauf, woher ihre Produkte stammen und unter welchen Bedingungen sie hergestellt wurden. Dabei spielt die Frage eine zentrale Rolle, ob ein Produkt tatsächlich notwendig ist oder ob es sich lediglich um einen kurzfristigen Konsumreiz handelt.\n\nGleichzeitig wird kritisiert, dass nachhaltiger Konsum oft nur denjenigen vorbehalten sei, die sich höhere Preise leisten könnten. Wenn Bio-Produkte und fair gehandelte Waren deutlich teurer wären als konventionelle Alternativen, würde ein großer Teil der Bevölkerung von diesem Lebensstil ausgeschlossen bleiben. Diese soziale Ungleichheit wird von vielen Experten als eines der größten Hindernisse auf dem Weg zu einer nachhaltigeren Gesellschaft angesehen.\n\nDennoch zeigen Studien, dass selbst kleine Verhaltensänderungen, wie der Verzicht auf Einwegplastik oder der bewusste Griff zu regionalen Produkten, einen messbaren Unterschied bewirken können. Es wird daher gefordert, dass Politik und Wirtschaft gemeinsam Anreize schaffen sollten, damit nachhaltiger Konsum nicht länger ein Privileg bleibt, sondern für alle gesellschaftlichen Schichten zugänglich wird.",
+    "preguntas": [
+      {
+        "enunciado": "Nachhaltiger Konsum war schon immer ein gesellschaftlicher Massentrend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten kritisieren, dass nachhaltiger Konsum oft teurer ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kleine Verhaltensänderungen haben laut Studien keinen messbaren Effekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Soziale Ungleichheit wird als Hindernis für nachhaltigen Konsum gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es wird gefordert, dass nachhaltiger Konsum für alle zugänglich wird.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-ein-tempolimit",
+    "nivel": "B2",
+    "titulo": "Die Debatte um ein Tempolimit",
+    "descripcion": "Ein Text über die anhaltende gesellschaftliche Debatte um ein allgemeines Tempolimit auf Autobahnen.",
+    "texto": "Kaum ein verkehrspolitisches Thema wird in Deutschland so leidenschaftlich diskutiert wie die Frage, ob ein generelles Tempolimit auf Autobahnen eingeführt werden sollte. Befürworter argumentieren, dass dadurch nicht nur die Zahl der schweren Unfälle gesenkt, sondern auch der CO2-Ausstoß erheblich reduziert werden könnte. Studien aus Nachbarländern, in denen bereits ein Tempolimit gilt, würden diese These stützen.\n\nGegner hingegen betonen, dass die freie Fahrt auf der Autobahn seit Jahrzehnten als Symbol persönlicher Freiheit gelte und daher nicht angetastet werden dürfe. Sie argumentieren zudem, dass moderne Fahrzeuge technisch so ausgereift seien, dass hohe Geschwindigkeiten nicht automatisch mit erhöhter Unfallgefahr gleichzusetzen seien. Würde man ein Tempolimit einführen, befürchten sie außerdem negative Auswirkungen auf die deutsche Automobilindustrie, die international auch für ihre schnellen Fahrzeuge bekannt sei.\n\nObwohl die Debatte seit Jahren immer wieder aufflammt, konnte bislang keine politische Mehrheit für eine Reform gefunden werden. Viele Beobachter vermuten, dass sich an diesem Zustand erst dann etwas ändern wird, wenn der gesellschaftliche Druck durch Klimaschutzbewegungen weiter zunimmt. Bis dahin bleibt das Tempolimit eines der umstrittensten Themen der deutschen Verkehrspolitik.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland gilt bereits seit langer Zeit ein generelles Tempolimit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen einen möglichen Nutzen für den Klimaschutz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner verbinden die freie Fahrt mit persönlicher Freiheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt bereits eine klare politische Mehrheit für ein Tempolimit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Debatte um das Tempolimit ist seit Jahren beendet.",
+        "respuesta": false
+      }
+    ]
   }
 ]
