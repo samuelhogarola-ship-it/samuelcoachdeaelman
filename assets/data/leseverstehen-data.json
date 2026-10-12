@@ -48146,5 +48146,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-verlorene-zahn",
+    "nivel": "A1",
+    "titulo": "Der verlorene Zahn",
+    "descripcion": "Emma verliert ihren ersten Zahn und ist sehr stolz darauf.",
+    "texto": "Emma ist sechs Jahre alt. Heute isst sie einen Apfel und plötzlich wackelt ein Zahn. Sie läuft schnell zur Mutter. „Mama, mein Zahn ist locker!\", ruft sie.\n\nAm Abend fällt der Zahn beim Zähneputzen heraus. Emma ist nicht traurig, sie ist sehr stolz. Sie legt den Zahn unter das Kissen. Ihr Bruder sagt: „Die Zahnfee kommt in der Nacht.\"\n\nAm Morgen findet Emma eine kleine Münze unter dem Kissen. Sie freut sich sehr und zeigt die Münze ihren Eltern.",
+    "preguntas": [
+      {
+        "enunciado": "Emma ist sechs Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zahn wackelt, als Emma einen Apfel isst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma ist sehr traurig, als der Zahn herausfällt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma legt den Zahn unter das Bett.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Morgen findet Emma eine Münze unter dem Kissen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-brille-fuer-opa",
+    "nivel": "A1",
+    "titulo": "Die neue Brille für Opa",
+    "descripcion": "Opa kauft sich eine neue Brille, weil er schlecht sieht.",
+    "texto": "Opa Heinz liest gern Zeitung. Aber in letzter Zeit sieht er die Buchstaben nicht gut. Deshalb geht er zum Optiker. Der Optiker testet seine Augen.\n\nOpa Heinz braucht eine neue Brille. Er probiert viele Brillen an. Am Ende wählt er eine Brille mit braunem Rahmen. Die Brille gefällt ihm sehr gut.\n\nZu Hause liest Opa Heinz die Zeitung mit der neuen Brille. „Jetzt sehe ich alles ganz klar\", sagt er glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Opa Heinz liest gern Zeitung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa Heinz geht zum Arzt und nicht zum Optiker.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa Heinz braucht eine neue Brille.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er wählt eine Brille mit grünem Rahmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mit der neuen Brille sieht Opa Heinz alles klar.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-neuer-schulranzen",
+    "nivel": "A1",
+    "titulo": "Mein neuer Schulranzen",
+    "descripcion": "Jonas bekommt einen neuen Schulranzen und packt ihn für die Schule.",
+    "texto": "Jonas ist sieben Jahre alt. Heute bekommt er einen neuen Schulranzen. Der Ranzen ist blau und hat einen Löwen darauf. Jonas findet ihn toll.\n\nEr packt ein Buch, einen Stift und eine Dose mit Obst in den Ranzen. Seine Mutter hilft ihm beim Packen. „Vergiss die Trinkflasche nicht\", sagt sie. Jonas legt die Flasche auch in den Ranzen.\n\nAm nächsten Morgen geht Jonas mit dem neuen Ranzen zur Schule. Er ist sehr stolz.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist sieben Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der neue Ranzen ist rot und hat einen Hund darauf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas packt ein Buch und einen Stift in den Ranzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter hilft Jonas nicht beim Packen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas ist am Morgen sehr stolz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-an-den-stausee",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour an den Stausee",
+    "descripcion": "Paul und seine Schwester machen eine lange Fahrradtour, die nicht ganz wie geplant verläuft.",
+    "texto": "Am Samstag sind Paul und seine Schwester Lisa mit dem Fahrrad an den Stausee gefahren. Die Strecke war ungefähr fünfzehn Kilometer lang. Weil das Wetter sehr schön war, haben sie sich sehr auf den Ausflug gefreut.\n\nNach zehn Kilometern ist Lisas Fahrradreifen plötzlich platt gewesen. Weil sie kein Reparaturset dabei hatten, mussten sie den Rest des Weges zu Fuß gehen und das Fahrrad schieben. Das hat viel Zeit gekostet und beide waren müde.\n\nAls sie endlich am Stausee angekommen sind, haben sie sich trotzdem gefreut. Sie haben im See gebadet und ihr Picknick gegessen. Auf dem Rückweg hat ihnen ein freundlicher Mann geholfen, den Reifen zu reparieren.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und Lisa sind mit dem Auto zum Stausee gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Strecke war ungefähr fünfzehn Kilometer lang.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisas Fahrradreifen ist nach zehn Kilometern platt gewesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hatten ein Reparaturset dabei und haben den Reifen sofort reparieren können.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem Rückweg hat ihnen niemand geholfen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-zahnarzt-ohne-angst",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Zahnarzt ohne Angst",
+    "descripcion": "Tobias hat großen Respekt vor dem Zahnarztbesuch, doch am Ende verläuft alles gut.",
+    "texto": "Tobias hatte seit Wochen Angst vor dem Termin beim Zahnarzt. Weil er seit zwei Jahren nicht mehr dort gewesen war, hat seine Mutter einen Termin für ihn gemacht. Er hat sich die ganze Woche Sorgen gemacht.\n\nAls er im Wartezimmer gesessen hat, hat sein Herz schnell geschlagen. Die Zahnärztin hat jedoch ruhig mit ihm gesprochen und ihm alles genau erklärt, bevor sie etwas gemacht hat. Dadurch hat sich Tobias schnell entspannt.\n\nNach der Untersuchung hat die Zahnärztin gesagt, dass seine Zähne gesund sind. Tobias war sehr erleichtert und hat gemerkt, dass er sich unnötig Sorgen gemacht hat. Beim nächsten Termin wird er keine Angst mehr haben.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias war in den letzten zwei Jahren nicht beim Zahnarzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias hatte vor dem Termin keine Angst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin hat ruhig mit Tobias gesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahnärztin hat festgestellt, dass Tobias kranke Zähne hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias war nach der Untersuchung erleichtert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verspaetete-lieferung-vom-online-shop",
+    "nivel": "A2",
+    "titulo": "Die verspätete Lieferung vom Online-Shop",
+    "descripcion": "Frau Brandt wartet auf ein wichtiges Geschenk, das viel später als geplant ankommt.",
+    "texto": "Frau Brandt hat vor zwei Wochen eine Kaffeemaschine für den Geburtstag ihres Mannes bestellt. Die Lieferung sollte eigentlich nach drei Tagen kommen. Weil der Geburtstag schon am Freitag war, hat sie sich keine Sorgen gemacht.\n\nAls das Paket am Donnerstag noch nicht angekommen war, hat sie den Kundenservice angerufen. Der Mitarbeiter hat erklärt, dass es ein Problem mit dem Lager gegeben hat. Frau Brandt war sehr enttäuscht, weil sie kein anderes Geschenk hatte.\n\nAm Freitagmorgen, kurz vor der Feier, hat endlich der Postbote geklingelt. Frau Brandt war erleichtert und hat das Paket schnell versteckt. Ihr Mann hat sich am Abend sehr über die Kaffeemaschine gefreut.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Brandt hat eine Kaffeemaschine bestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lieferung ist nach drei Tagen wie geplant angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kundenservice hat ein Problem mit dem Lager erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Brandt hatte noch ein anderes Geschenk für ihren Mann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Paket ist nie angekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-studentenwohnung",
+    "nivel": "B1",
+    "titulo": "Der Umzug in die Studentenwohnung",
+    "descripcion": "Eine junge Studentin zieht zum ersten Mal von zu Hause aus und muss sich an das eigenständige Leben gewöhnen.",
+    "texto": "Als Julia zum Studium in eine andere Stadt zog, war es das erste Mal, dass sie nicht mehr bei ihren Eltern wohnte. Obwohl sie sich sehr auf die Unabhängigkeit gefreut hatte, merkte sie schnell, dass vieles anstrengender war als erwartet. Niemand erinnerte sie mehr daran, einzukaufen oder die Wäsche zu waschen.\n\nNachdem sie in den ersten Wochen mehrmals vergessen hatte, rechtzeitig Essen zu kaufen, begann sie, sich einen festen Wochenplan für Einkäufe und Haushalt zu erstellen. Trotzdem fühlte sie sich manchmal einsam, weil ihre neuen Mitbewohner selten zu Hause waren. Sie beschloss daher, sich einem Sportverein in der Nähe anzuschließen, um neue Leute kennenzulernen.\n\nNach einigen Monaten hatte sich Julia gut eingelebt. Sie hatte gelernt, ihren Alltag selbstständig zu organisieren, und durch den Sportverein neue Freunde gefunden. Rückblickend war sie stolz darauf, wie sehr sie sich verändert hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Julia wohnte vor dem Umzug bei ihren Eltern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia fand das selbstständige Leben von Anfang an ganz einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat sich einen Wochenplan für Einkäufe und Haushalt erstellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihre Mitbewohner waren immer zu Hause, deshalb fühlte sie sich nie einsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Durch den Sportverein hat Julia neue Freunde gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vorbereitung-auf-das-vorstellungsgespraech",
+    "nivel": "B1",
+    "titulo": "Die Vorbereitung auf das Vorstellungsgespräch",
+    "descripcion": "Ein Berufseinsteiger bereitet sich nervös auf sein erstes wichtiges Vorstellungsgespräch vor.",
+    "texto": "Nachdem David seine Ausbildung abgeschlossen hatte, bewarb er sich bei mehreren Firmen. Als endlich eine Einladung zu einem Vorstellungsgespräch kam, war er gleichzeitig aufgeregt und nervös. Da es sein erstes richtiges Gespräch war, wusste er nicht genau, was ihn erwarten würde.\n\nSeine ältere Schwester, die bereits mehrere Jahre Berufserfahrung hatte, übte mit ihm typische Fragen. Obwohl David zunächst dachte, dass dies übertrieben sei, merkte er schnell, wie hilfreich die Übung war. Er lernte, ruhig zu antworten und seine Stärken klar zu benennen, statt sich zu verhaspeln.\n\nAm Tag des Gesprächs war David deutlich entspannter, als er es sich vorgestellt hatte. Die Personalchefin lobte seine klaren Antworten und seine gute Vorbereitung. Eine Woche später erhielt David die Zusage für die Stelle und war sehr erleichtert, dass sich die Mühe gelohnt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "David bewarb sich nach seiner Ausbildung bei mehreren Firmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David hatte schon viele Vorstellungsgespräche hinter sich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Davids Schwester hat mit ihm typische Fragen geübt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David fand die Übung von Anfang an sehr hilfreich und nicht übertrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David hat eine Woche später die Zusage für die Stelle erhalten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-in-die-vierte-klasse",
+    "nivel": "B1",
+    "titulo": "Der Wechsel in die vierte Klasse",
+    "descripcion": "Ein Schüler berichtet, wie er sich nach einem Umzug an seiner neuen Schule zurechtfinden muss.",
+    "texto": "Als Tims Familie in eine andere Stadt zog, musste er mitten im Schuljahr die Schule wechseln. Obwohl er sich auf neue Mitschüler freute, hatte er auch Angst, dass er sich in der neuen Klasse nicht wohlfühlen würde. Die ersten Tage waren tatsächlich schwierig, weil er niemanden kannte.\n\nNachdem die Lehrerin ihn jedoch neben einen Jungen namens Ben gesetzt hatte, änderte sich vieles. Ben zeigte ihm die Schule und stellte ihn den anderen Kindern vor. Trotzdem brauchte Tim einige Wochen, bis er sich richtig zugehörig fühlte.\n\nAm Ende des Schuljahres war Tim fest in der Klasse integriert und hatte mehrere gute Freunde gefunden. Rückblickend war er dankbar, dass Ben ihm am Anfang so sehr geholfen hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Tim musste die Schule am Ende des Schuljahres wechseln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die ersten Tage an der neuen Schule waren für Tim schwierig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hat Tim die Schule gezeigt und ihn vorgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim fühlte sich sofort am ersten Tag zugehörig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Schuljahres hatte Tim keine Freunde gefunden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-abschaffung-von-plastiktueten-im-supermarkt",
+    "nivel": "B2",
+    "titulo": "Die Abschaffung von Plastiktüten im Supermarkt",
+    "descripcion": "Ein Beitrag über die Auswirkungen des Plastiktütenverbots im Einzelhandel auf Verbraucherverhalten und Umwelt.",
+    "texto": "Seit mehreren Jahren ist der Verkauf von dünnen Plastiktüten in deutschen Supermärkten weitgehend verboten. Ziel dieser Maßnahme war es, den enormen Verbrauch von Einwegplastik zu verringern und damit die Umweltbelastung durch nicht abbaubaren Müll zu reduzieren. Studien zeigen, dass der Verbrauch von Plastiktüten tatsächlich deutlich zurückgegangen ist, seit Verbraucherinnen und Verbraucher stattdessen auf Stoffbeutel oder Papiertüten zurückgreifen.\n\nAllerdings weisen Kritiker darauf hin, dass die ökologische Bilanz der Alternativen nicht immer eindeutig positiv ausfällt. Die Herstellung von Stoffbeuteln benötige erhebliche Mengen an Wasser und Energie, sodass ein Stoffbeutel ökologisch gesehen erst nach vielfacher Wiederverwendung sinnvoller sei als eine einzelne Plastiktüte. Es stelle sich daher die Frage, ob Verbraucherinnen und Verbraucher ausreichend über den tatsächlichen Nutzen der verschiedenen Alternativen informiert würden.\n\nUnabhängig von dieser Debatte scheint das Verbot jedoch einen wichtigen gesellschaftlichen Effekt gehabt zu haben: Es hat das Bewusstsein vieler Menschen für die Problematik von Einwegplastik insgesamt geschärft. Dieses gestiegene Bewusstsein könnte sich langfristig auch auf andere Bereiche des Konsumverhaltens auswirken, selbst wenn die unmittelbare ökologische Wirkung des Verbots begrenzt bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Der Verkauf dünner Plastiktüten ist in deutschen Supermärkten weitgehend verboten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verbrauch von Plastiktüten ist laut Studien deutlich zurückgegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern ist die ökologische Bilanz von Stoffbeuteln eindeutig und uneingeschränkt positiv.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Stoffbeutel muss laut Text mehrfach verwendet werden, um ökologisch sinnvoll zu sein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Verbot habe keinerlei gesellschaftlichen Effekt gehabt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mental-load-und-die-unsichtbare-arbeit-im-haushalt",
+    "nivel": "B2",
+    "titulo": "Mental Load und die unsichtbare Arbeit im Haushalt",
+    "descripcion": "Ein Beitrag über das Konzept des Mental Load und seine ungleiche Verteilung zwischen Partnerinnen und Partnern.",
+    "texto": "In den letzten Jahren hat der Begriff „Mental Load\" zunehmend Eingang in gesellschaftliche Debatten über Familie und Partnerschaft gefunden. Gemeint ist damit die geistige Vorarbeit, die notwendig ist, um einen Haushalt zu organisieren, etwa das Merken von Arztterminen, das Planen von Einkäufen oder das Mitdenken an Geburtstage. Untersuchungen zeigen, dass diese unsichtbare Arbeit auch in Partnerschaften, die sich die sichtbaren Aufgaben wie Kochen oder Putzen gleichmäßig aufteilen, überwiegend von Frauen übernommen wird.\n\nDas Problematische daran sei, so Expertinnen und Experten, dass Mental Load kaum wahrgenommen werde, solange alles reibungslos funktioniere. Erst wenn etwas vergessen werde, falle die damit verbundene Arbeit überhaupt auf. Dadurch entstehe der Eindruck, als sei die Organisation des Alltags von selbst geschehen, obwohl tatsächlich ständige, oft unbewusste Denkarbeit dahinterstecke, die wiederum zu Erschöpfung führen könne, wenn sie dauerhaft von nur einer Person getragen werde.\n\nUm diese Ungleichheit zu verringern, empfehlen Fachleute, Zuständigkeiten innerhalb der Partnerschaft nicht nur bei einzelnen Aufgaben, sondern auch bei deren Planung und Organisation bewusst aufzuteilen. Nur wenn beide Partner gleichermaßen für das Mitdenken verantwortlich seien, könne die mentale Last tatsächlich gerecht verteilt werden, anstatt lediglich die ausführende Arbeit neu zu organisieren.",
+    "preguntas": [
+      {
+        "enunciado": "Mental Load bezeichnet die geistige Vorarbeit bei der Organisation des Haushalts.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Untersuchungen übernehmen überwiegend Männer den Mental Load in Partnerschaften.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mental Load wird laut Text besonders sichtbar, wenn alles reibungslos funktioniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Dauerhafter Mental Load kann laut Text zu Erschöpfung führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fachleute empfehlen, auch die Planung und Organisation von Aufgaben bewusst aufzuteilen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einsamkeit-in-der-grossstadt",
+    "nivel": "B2",
+    "titulo": "Einsamkeit in der Großstadt",
+    "descripcion": "Ein Text über das Paradox, dass sich viele Menschen trotz großer Bevölkerungsdichte in Großstädten einsam fühlen.",
+    "texto": "Obwohl Großstädte wie Berlin, Hamburg oder München zu den bevölkerungsreichsten Orten Deutschlands zählen, berichten immer mehr ihrer Bewohnerinnen und Bewohner von Gefühlen der Einsamkeit. Dieses scheinbare Paradox lässt sich unter anderem damit erklären, dass anonyme Nachbarschaften und häufige Umzüge es erschweren, tragfähige soziale Netzwerke aufzubauen. Wer ständig von neuen Mitbewohnerinnen oder Nachbarn umgeben ist, hat selten die Gelegenheit, tiefere Beziehungen zu pflegen.\n\nHinzu kommt, dass die Arbeitswelt vieler Großstadtbewohner von langen Pendelzeiten und hoher beruflicher Mobilität geprägt wird, wodurch wenig Zeit für soziale Kontakte außerhalb des Berufslebens bleibt. Es wäre daher zu einfach, Einsamkeit lediglich als individuelles Problem zu betrachten, das durch mehr Eigeninitiative gelöst werden könnte. Vielmehr müsste die Stadtplanung selbst stärker berücksichtigen, wie öffentliche Räume und Nachbarschaftstreffs gestaltet werden könnten, damit zufällige Begegnungen überhaupt erst möglich werden.\n\nEinige Städte haben bereits reagiert und fördern den Bau von Gemeinschaftsgärten sowie offenen Nachbarschaftszentren, in denen sich Menschen unabhängig von Alter oder Herkunft treffen können. Ob solche Maßnahmen ausreichen, um das wachsende Gefühl der Isolation nachhaltig zu verringern, wird sich jedoch erst in den kommenden Jahren zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text fühlen sich immer weniger Menschen in Großstädten einsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Häufige Umzüge erschweren den Aufbau tragfähiger sozialer Netzwerke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lange Pendelzeiten lassen laut Text mehr Zeit für soziale Kontakte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, dass Stadtplanung öffentliche Räume für Begegnungen gestalten sollte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Einige Städte fördern bereits Gemeinschaftsgärten und Nachbarschaftszentren.",
+        "respuesta": true
+      }
+    ]
   }
 ]
