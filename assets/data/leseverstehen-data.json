@@ -47798,5 +47798,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "das-geburtstagsgeschenk-fuer-den-bruder",
+    "nivel": "A1",
+    "titulo": "Das Geburtstagsgeschenk für den Bruder",
+    "descripcion": "Lisa sucht ein Geschenk für den Geburtstag ihres Bruders.",
+    "texto": "Lisa hat einen Bruder. Er heißt Paul. Paul hat am Samstag Geburtstag. Lisa geht in die Stadt und sucht ein Geschenk. Sie sieht einen Laden mit Spielzeug. Im Laden gibt es Bälle, Bücher und Autos.\n\nLisa fragt die Verkäuferin: „Was mögen Jungen in seinem Alter?\" Die Verkäuferin zeigt ihr ein rotes Fahrrad. Paul mag Fahrräder sehr. Lisa findet das Fahrrad schön, aber es ist teuer. Sie hat nicht genug Geld. Lisa kauft stattdessen ein Buch über Autos und eine kleine Schokolade.\n\nAm Samstag kommt die ganze Familie. Paul öffnet sein Geschenk und lacht. „Danke, Lisa! Das Buch ist super!\", sagt er. Die Familie isst Kuchen und singt ein Geburtstagslied. Paul ist sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist der Bruder von Lisa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa kauft ein rotes Fahrrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa kauft ein Buch über Autos.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat am Sonntag Geburtstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "picknick-im-garten",
+    "nivel": "A1",
+    "titulo": "Picknick im Garten",
+    "descripcion": "Die Familie Hoffmann macht ein Picknick im eigenen Garten.",
+    "texto": "Die Familie Hoffmann hat einen großen Garten. Am Sonntag ist das Wetter schön, und die Sonne scheint. Die Mutter macht Sandwiches mit Käse und Schinken. Der Vater bringt eine Decke und legt sie auf das Gras.\n\nDie Kinder, Tim und Mia, holen Äpfel und Trauben aus der Küche. Sie trinken auch Orangensaft. Die Familie sitzt zusammen auf der Decke und isst. Der Hund spielt mit einem Ball neben ihnen. Mia wirft den Ball, und der Hund läuft schnell.\n\nNach dem Essen spielen Tim und Mia im Garten. Sie malen Bilder mit bunten Kreiden auf den Boden. Die Eltern trinken Kaffee und lesen eine Zeitung. Am Abend ist die Familie müde, aber sehr zufrieden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Hoffmann macht ein Picknick im Park.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter macht Sandwiches mit Käse und Schinken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder heißen Tim und Mia.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund spielt mit einem Ball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eltern trinken Tee nach dem Essen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-stundenplan-in-der-schule",
+    "nivel": "A1",
+    "titulo": "Mein Stundenplan in der Schule",
+    "descripcion": "Ben erzählt von seinem Stundenplan und seinen Lieblingsfächern.",
+    "texto": "Ben ist zehn Jahre alt und geht in die vierte Klasse. Er hat jeden Tag fünf Stunden Schule. Am Montag hat er Mathe, Deutsch und Sport. Mathe ist sein Lieblingsfach, weil er gerne rechnet. Sport macht ihm auch viel Spaß.\n\nAm Dienstag hat Ben Kunst und Musik. In Kunst malt er gerne bunte Bilder. In Musik singt die Klasse Lieder und spielt auf der Flöte. Am Mittwoch hat er Englisch und Erdkunde. Englisch findet er ein bisschen schwer, aber die Lehrerin ist sehr nett.\n\nNach der Schule geht Ben nach Hause und macht seine Hausaufgaben. Danach spielt er mit seinem Freund Fußball im Hof. Am liebsten hat er den Freitag, denn am Nachmittag hat er frei.",
+    "preguntas": [
+      {
+        "enunciado": "Ben geht in die vierte Klasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mathe ist Bens Lieblingsfach.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Dienstag hat Ben Englisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben findet Englisch sehr leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Schule macht Ben zuerst Hausaufgaben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-stau-auf-der-autobahn-im-urlaub",
+    "nivel": "A2",
+    "titulo": "Der Stau auf der Autobahn im Urlaub",
+    "descripcion": "Familie Berger steht im Stau auf dem Weg in den Urlaub.",
+    "texto": "Familie Berger ist früh am Morgen losgefahren, weil sie in den Urlaub nach Österreich fahren wollte. Nach zwei Stunden auf der Autobahn ist der Verkehr plötzlich stehen geblieben. Es gab einen Unfall, und die Polizei hat eine Spur gesperrt. Der Vater hat geseufzt und gesagt: „Das kann ja heiter werden.\"\n\nDie Kinder haben im Auto gewartet und gefragt, wann sie endlich ankommen. Die Mutter hat ein Spiel vorgeschlagen, weil sie wusste, dass die Kinder sonst ungeduldig werden. Sie haben zusammen Autokennzeichen gesucht und gezählt. Nach fast zwei Stunden hat sich der Stau endlich aufgelöst, und die Familie konnte weiterfahren.\n\nAls sie am Abend in der Ferienwohnung angekommen sind, waren alle müde, aber auch froh. Der Vater hat erzählt, dass er noch nie einen so langen Stau erlebt hat. Die Kinder haben trotzdem gelacht, weil das Spiel im Auto sehr lustig war. Am nächsten Tag haben sie den Stress vom Vortag schon vergessen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger fährt nach Italien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab einen Unfall auf der Autobahn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter hat ein Spiel für die Kinder vorgeschlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Stau hat nur zehn Minuten gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie kommt am Abend in der Ferienwohnung an.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-bei-der-tieraerztin",
+    "nivel": "A2",
+    "titulo": "Der Besuch bei der Tierärztin",
+    "descripcion": "Jonas bringt seine kranke Katze zur Tierärztin.",
+    "texto": "Jonas hat eine Katze namens Mimi. Seit zwei Tagen hat Mimi nicht mehr richtig gegessen, und Jonas hat sich große Sorgen gemacht. Deshalb hat er einen Termin bei der Tierärztin vereinbart und ist am Nachmittag mit Mimi in die Praxis gefahren. Im Wartezimmer saßen noch zwei andere Tierbesitzer mit ihren Hunden.\n\nDie Tierärztin hat Mimi gründlich untersucht und gesagt, dass die Katze wahrscheinlich etwas Falsches gegessen hat. Sie hat Jonas erklärt, dass er Mimi ein paar Tage nur leichtes Futter geben soll, weil der Magen sich erst erholen muss. Jonas war erleichtert, dass es nichts Ernstes war. Er hat der Tierärztin viele Fragen gestellt, weil er wissen wollte, wie er Mimi am besten helfen kann.\n\nZu Hause hat Jonas sofort das neue Futter vorbereitet. Mimi hat zuerst gezögert, aber nach ein paar Stunden hat sie doch etwas gegessen. Am nächsten Tag ging es ihr schon viel besser, und Jonas war sehr froh, dass er den Termin nicht verschoben hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat einen Hund namens Mimi.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi hat zwei Tage nicht richtig gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tierärztin findet eine ernste Krankheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas soll Mimi leichtes Futter geben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am nächsten Tag geht es Mimi besser.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-einladung-zur-nachbarschaftsgrillparty",
+    "nivel": "A2",
+    "titulo": "Die Einladung zur Nachbarschaftsgrillparty",
+    "descripcion": "Herr Schmidt lädt seine Nachbarn zu einer Grillparty im Hinterhof ein.",
+    "texto": "Herr Schmidt wohnt seit zehn Jahren in demselben Haus, aber er kennt seine Nachbarn kaum. Weil der Sommer dieses Jahr besonders schön ist, hat er eine Idee gehabt: Er hat kleine Einladungskarten geschrieben und sie in alle Briefkästen gesteckt. Darauf stand, dass am Samstag eine Grillparty im Hinterhof stattfindet und dass jeder willkommen ist.\n\nAm Samstag sind viele Nachbarn gekommen, obwohl einige am Anfang etwas schüchtern waren. Jeder hat etwas mitgebracht: Salate, Brot, Getränke und sogar einen selbstgebackenen Kuchen. Herr Schmidt hat den Grill angemacht, und nach kurzer Zeit hat es überall nach gegrilltem Fleisch und Gemüse geduftet. Die Kinder aus dem Haus haben zusammen im Hof gespielt, während die Erwachsenen sich unterhalten haben.\n\nAm Ende des Abends haben alle gesagt, dass es ein sehr schöner Nachmittag war. Frau Weber aus dem dritten Stock hat vorgeschlagen, dass sie das jedes Jahr wiederholen sollten. Herr Schmidt war glücklich, weil er endlich seine Nachbarn besser kennengelernt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Schmidt kennt seine Nachbarn schon sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Grillparty findet im Hinterhof statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand bringt etwas zum Essen mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder spielen zusammen im Hof.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Weber möchte die Party jedes Jahr wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-konflikt-mit-der-neuen-mitbewohnerin",
+    "nivel": "B1",
+    "titulo": "Der Konflikt mit der neuen Mitbewohnerin",
+    "descripcion": "Nach dem Einzug einer neuen Mitbewohnerin entsteht Spannung in der Wohngemeinschaft.",
+    "texto": "Seit drei Wochen wohnt Carla in der Wohngemeinschaft mit Tobias und Nele. Obwohl der Einzug anfangs reibungslos verlaufen ist, gibt es inzwischen immer wieder kleine Streitigkeiten. Carla steht spät auf und hört laute Musik, während Tobias früh zur Arbeit muss und Ruhe braucht. Nele versucht meistens zu vermitteln, aber auch sie ist langsam genervt, weil das Geschirr oft tagelang in der Küche stehen bleibt.\n\nNachdem Tobias Carla mehrmals freundlich darauf angesprochen hat, ohne dass sich etwas geändert hat, beschließt die Wohngemeinschaft, ein gemeinsames Gespräch zu führen. Trotzdem ist die Atmosphäre beim ersten Treffen angespannt, denn Carla fühlt sich ungerecht behandelt und wirft den anderen vor, sie hätten sie von Anfang an nicht richtig willkommen geheißen. Erst als Nele vorschlägt, einen festen Putzplan einzuführen, entspannt sich die Lage etwas.\n\nIn den folgenden Wochen hält sich jeder besser an die vereinbarten Regeln, obwohl es nicht immer perfekt klappt. Carla gewöhnt sich langsam an die Gewohnheiten der anderen, und auch Tobias gibt zu, dass er am Anfang vielleicht zu wenig Verständnis gezeigt hat. Am Ende sind alle drei zufrieden, dass sie den Konflikt gemeinsam gelöst haben, anstatt ihn einfach zu ignorieren.",
+    "preguntas": [
+      {
+        "enunciado": "Carla wohnt seit drei Wochen in der Wohngemeinschaft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias braucht morgens keine Ruhe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wohngemeinschaft führt ein gemeinsames Gespräch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim ersten Treffen ist die Stimmung sofort entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende lösen die drei den Konflikt gemeinsam.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-projektwoche-im-segelclub",
+    "nivel": "B1",
+    "titulo": "Die Projektwoche im Segelclub",
+    "descripcion": "Eine Schulklasse verbringt ihre Projektwoche in einem Segelclub am See.",
+    "texto": "Die Klasse 9b verbringt ihre Projektwoche in einem Segelclub an einem großen See. Nachdem die Schüler am Montag angekommen sind, haben sie zunächst eine Einführung in die Sicherheitsregeln bekommen, bevor sie überhaupt ein Boot betreten durften. Viele waren zuerst unsicher, weil kaum jemand vorher schon einmal gesegelt war, aber die Trainer haben alles geduldig erklärt.\n\nObwohl das Wetter am zweiten Tag ziemlich windig war, durften die Schüler zum ersten Mal selbst ein kleines Segelboot steuern. Max und seine Partnerin Lina haben es geschafft, trotz einiger Anfängerfehler sicher zum Ufer zurückzukehren, während andere Gruppen kurzzeitig kentern mussten. Niemand wurde verletzt, aber alle waren danach nass und mussten sich umziehen.\n\nAm letzten Tag der Projektwoche fand ein kleiner Wettkampf zwischen den Gruppen statt. Obwohl die Klasse am Anfang eher skeptisch gegenüber dem Thema Segeln war, waren am Ende alle begeistert und wollten den Sport gerne weiter ausprobieren. Die Lehrerin war stolz darauf, wie sehr sich die Schüler als Team entwickelt hatten, nachdem sie die ganze Woche zusammen verbracht hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b verbringt die Projektwoche in den Bergen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Vor dem ersten Bootsfahren gibt es eine Sicherheitseinführung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler hatten vorher schon Segelerfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max und Lina kentern mit ihrem Boot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende der Woche sind die Schüler vom Segeln begeistert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-im-grossraumbuero",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag im Großraumbüro",
+    "descripcion": "Felix beginnt seinen ersten Job in einem modernen Großraumbüro.",
+    "texto": "Felix hat gerade sein Studium abgeschlossen und beginnt heute seinen ersten richtigen Job in einem großen Unternehmen. Als er das Bürogebäude betritt, ist er überrascht, wie offen und modern alles aussieht: Statt einzelner Büros gibt es ein riesiges Großraumbüro mit vielen Schreibtischen, an denen die Mitarbeiter nebeneinander arbeiten. Zunächst fühlt er sich etwas überfordert, weil überall Gespräche und Telefonate zu hören sind.\n\nSeine neue Kollegin Sabine zeigt ihm, wie das Team arbeitet, nachdem sie ihn freundlich begrüßt hat. Sie erklärt, dass es zwar manchmal laut ist, dass aber auch schnelle Absprachen möglich sind, weil man sich einfach kurz umdrehen und eine Frage stellen kann. Trotzdem bemerkt Felix schon am ersten Tag, dass er sich schwer konzentrieren kann, wenn gleichzeitig mehrere Leute telefonieren.\n\nAm Nachmittag entdeckt Felix einen ruhigen Rückzugsraum, den die Firma für konzentriertes Arbeiten eingerichtet hat. Dort kann er sich zurückziehen, wenn er ungestört arbeiten möchte. Nachdem er diesen Raum gefunden hat, fühlt er sich deutlich wohler und denkt, dass er sich an die neue Arbeitsumgebung gewöhnen kann, obwohl sie ganz anders ist als das ruhige Lesen in der Bibliothek während seines Studiums.",
+    "preguntas": [
+      {
+        "enunciado": "Felix beginnt seinen ersten Job nach dem Studium.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Büro gibt es nur kleine Einzelbüros.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine erklärt Felix, wie das Team arbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix findet es sofort leicht, sich zu konzentrieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt einen ruhigen Rückzugsraum in der Firma.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-ein-verbot-von-einwegplastik-in-supermaerkten",
+    "nivel": "B2",
+    "titulo": "Der Streit um ein Verbot von Einwegplastik in Supermärkten",
+    "descripcion": "Eine geplante Regelung zum Verbot von Einwegplastik löst eine Debatte zwischen Handel und Umweltverbänden aus.",
+    "texto": "Seit Monaten wird in der Öffentlichkeit darüber diskutiert, ob Supermärkte dazu verpflichtet werden sollten, auf Einwegplastikverpackungen für Obst und Gemüse vollständig zu verzichten. Umweltverbände fordern ein striktes Verbot, da jährlich tausende Tonnen Plastikmüll allein durch unnötig verpackte Lebensmittel entstünden. Sie argumentieren, dass Obst und Gemüse ohnehin oft eine natürliche Schale besitzen und daher gar keine zusätzliche Verpackung benötigt würde.\n\nVertreter des Einzelhandels hingegen weisen darauf hin, dass eine solche Regelung erhebliche logistische Probleme mit sich bringen würde. Ohne Verpackung könnten empfindliche Produkte schneller verderben, was wiederum zu mehr Lebensmittelverschwendung führen würde. Zudem müssten viele Filialen ihre gesamte Logistik umstellen, was mit hohen Kosten verbunden wäre, die am Ende häufig an die Kundinnen und Kunden weitergegeben würden. Einige Unternehmen haben deshalb vorgeschlagen, stattdessen auf biologisch abbaubare Verpackungen umzusteigen, anstatt vollständig auf Verpackung zu verzichten.\n\nKritiker dieses Kompromisses bezweifeln jedoch, dass biologisch abbaubare Materialien tatsächlich eine nachhaltige Lösung darstellen, da diese unter realen Bedingungen oft nicht schnell genug zerfallen würden. Wissenschaftlerinnen und Wissenschaftler betonen, dass letztlich nur eine deutliche Reduzierung des Gesamtverbrauchs an Verpackungsmaterial wirksam gegen die Plastikflut helfen könne. Ob und in welcher Form ein gesetzliches Verbot eingeführt wird, soll in den kommenden Monaten von einer politischen Kommission entschieden werden, die Vertreter beider Seiten anhören will.\n\nFür Verbraucherinnen und Verbraucher bleibt die Debatte bislang abstrakt, auch wenn viele im Alltag bereits bewusster einkaufen. Umfragen zeigen, dass eine Mehrheit der Bevölkerung weniger Plastik im Supermarkt begrüßen würde, selbst wenn dies bedeuten sollte, dass manche Produkte künftig anders aussehen oder geringfügig teurer werden. Wie stark sich dieser Wunsch tatsächlich in politischen Entscheidungen niederschlagen wird, bleibt vorerst offen.",
+    "preguntas": [
+      {
+        "enunciado": "Umweltverbände fordern ein Verbot von Einwegplastik für Obst und Gemüse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Einzelhandel sieht bei einem Verbot keine logistischen Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Unternehmen schlagen biologisch abbaubare Verpackungen als Alternative vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Wissenschaftlerinnen und Wissenschaftler halten biologisch abbaubare Materialien für die beste Lösung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Mehrheit der Bevölkerung würde laut Umfragen weniger Plastik im Supermarkt begrüßen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "algorithmen-und-ihre-macht-ueber-unsere-meinungsbildung",
+    "nivel": "B2",
+    "titulo": "Algorithmen und ihre Macht über unsere Meinungsbildung",
+    "descripcion": "Ein Beitrag untersucht, wie Empfehlungsalgorithmen die öffentliche Meinung beeinflussen können.",
+    "texto": "Kaum jemand hinterfragt noch, warum ausgerechnet dieser Beitrag und nicht ein anderer im eigenen Nachrichten-Feed erscheint. Dahinter stehen komplexe Algorithmen, die anhand des bisherigen Verhaltens vorhersagen, welche Inhalte eine Person am wahrscheinlichsten anklicken würde. Da diese Systeme in erster Linie darauf trainiert sind, die Verweildauer der Nutzerinnen und Nutzer zu maximieren, werden emotional aufwühlende oder polarisierende Inhalte häufig stärker ausgespielt als ausgewogene Berichterstattung.\n\nKritiker warnen, dass auf diese Weise sogenannte Filterblasen entstünden, in denen Menschen vorwiegend mit Meinungen konfrontiert würden, die ihre eigenen Ansichten bestätigen. Wenn ständig dieselbe Perspektive verstärkt wird, könnte dies dazu führen, dass gesellschaftliche Gräben tiefer würden, weil der Kontakt mit abweichenden Positionen zunehmend seltener stattfände. Befürworter der Plattformen entgegnen hingegen, dass Nutzerinnen und Nutzer selbst entscheiden könnten, welchen Quellen sie folgen, und dass die Verantwortung nicht allein bei den Algorithmen liege.\n\nManche Forscherinnen und Forscher schlagen vor, dass Plattformen verpflichtet werden sollten, ihre Empfehlungssysteme transparenter zu gestalten, damit nachvollzogen werden könnte, nach welchen Kriterien Inhalte ausgewählt werden. Andere fordern sogar, dass Nutzerinnen und Nutzer die Möglichkeit erhalten sollten, zwischen einem algorithmisch sortierten und einem chronologischen Feed zu wählen. Ob eine solche Regulierung tatsächlich die Qualität der öffentlichen Debatte verbessern würde, lässt sich jedoch schwer vorhersagen, da auch ein chronologischer Feed nicht automatisch vor einseitiger Information schützt.\n\nLetztlich bleibt die Frage, wie viel Verantwortung technischen Systemen übertragen werden darf, ohne dass die Meinungsbildung der Gesellschaft zu stark von wenigen großen Unternehmen gesteuert wird. Während einige für strengere gesetzliche Vorgaben plädieren, befürchten andere, dass zu viel staatliche Einmischung die Meinungsfreiheit einschränken könnte. Die Debatte dürfte in den kommenden Jahren weiter an Bedeutung gewinnen, je mehr Menschen ihre Informationen über soziale Netzwerke beziehen.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen entscheiden mit, welche Inhalte im Nachrichten-Feed erscheinen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Systeme sind vor allem darauf ausgelegt, die Verweildauer zu maximieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keine Gefahr von sogenannten Filterblasen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Forscherinnen und Forscher lehnen einen chronologischen Feed grundsätzlich ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche schlagen mehr Transparenz bei Empfehlungssystemen vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "landflucht-und-der-strukturwandel-laendlicher-regionen",
+    "nivel": "B2",
+    "titulo": "Landflucht und der Strukturwandel ländlicher Regionen",
+    "descripcion": "Ein Artikel beschreibt, wie junge Menschen vom Land in die Städte ziehen und welche Folgen das für die Dörfer hat.",
+    "texto": "Seit Jahrzehnten verzeichnen viele ländliche Regionen in Deutschland einen stetigen Bevölkerungsrückgang, da vor allem junge Menschen in die Städte ziehen, sobald sie eine weiterführende Ausbildung oder ein Studium beginnen. Zurück bleiben oft ältere Bewohnerinnen und Bewohner, während Schulen, Geschäfte und Arztpraxen mangels Nachfrage schließen müssen. Dieser Prozess, der gemeinhin als Landflucht bezeichnet wird, verstärkt sich dadurch, dass mit jeder schließenden Einrichtung das Dorf für junge Familien noch unattraktiver wird.\n\nObwohl manche Gemeinden versuchen, mit günstigem Bauland oder finanziellen Anreizen junge Menschen zum Bleiben oder Zurückkehren zu bewegen, zeigen solche Maßnahmen häufig nur begrenzte Wirkung, solange es an attraktiven Arbeitsplätzen fehlt. Die Digitalisierung könnte diesem Trend theoretisch entgegenwirken, da immer mehr Berufe im Homeoffice ausgeübt werden könnten, vorausgesetzt, dass eine stabile Internetverbindung vorhanden wäre. In vielen abgelegenen Regionen ist der Breitbandausbau jedoch nach wie vor unzureichend, sodass genau diese Chance bislang kaum genutzt werden kann.\n\nExpertinnen und Experten weisen zudem darauf hin, dass der Strukturwandel nicht nur wirtschaftliche, sondern auch soziale Folgen hat. Wenn sich Vereine auflösen und das dörfliche Gemeinschaftsleben schwindet, geht häufig auch ein Stück kultureller Identität verloren, das sich nur schwer wiederherstellen lässt. Einige Dörfer versuchen deshalb, mit kreativen Projekten wie gemeinschaftlich betriebenen Dorfläden oder Mehrgenerationenhäusern gegenzusteuern, auch wenn solche Initiativen meist auf ehrenamtlichem Engagement beruhen und finanziell fragil bleiben.\n\nOb es gelingen wird, den Strukturwandel ländlicher Regionen aufzuhalten oder zumindest abzumildern, hängt wohl maßgeblich davon ab, wie konsequent Politik und Wirtschaft in Infrastruktur und digitale Anbindung investieren. Ohne eine spürbare Verbesserung der Lebensbedingungen auf dem Land dürfte sich der Trend zur Stadt in den kommenden Jahren kaum umkehren lassen, selbst wenn einzelne Regionen durch besondere Initiativen vorübergehend positive Entwicklungen verzeichnen.",
+    "preguntas": [
+      {
+        "enunciado": "Vor allem junge Menschen ziehen für Ausbildung oder Studium in die Städte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In den betroffenen Dörfern schließen oft Schulen und Geschäfte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Breitbandausbau ist in den abgelegenen Regionen bereits überall ausreichend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Strukturwandel hat laut dem Text nur wirtschaftliche Folgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Dörfer versuchen, mit Dorfläden oder Mehrgenerationenhäusern gegenzusteuern.",
+        "respuesta": true
+      }
+    ]
   }
 ]
