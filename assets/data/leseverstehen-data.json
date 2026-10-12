@@ -48494,5 +48494,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-rote-regenschirm-im-bus",
+    "nivel": "A1",
+    "titulo": "Der rote Regenschirm im Bus",
+    "descripcion": "Lena vergisst ihren Regenschirm im Bus und sucht ihn am nächsten Tag.",
+    "texto": "Lena fährt jeden Morgen mit dem Bus zur Arbeit. Heute regnet es stark, und sie hat einen roten Regenschirm. Der Bus ist voll, und Lena steht ganz hinten. An ihrer Haltestelle steigt sie schnell aus. Sie vergisst ihren roten Regenschirm auf dem Sitz.\n\nAm Abend merkt Lena, dass der Regenschirm fehlt. Sie ist traurig, denn der Schirm war ein Geschenk von ihrer Mutter. Am nächsten Tag geht sie zum Busbüro und fragt nach dem Schirm. Die Frau im Büro sucht in einer großen Kiste. „Ist das Ihr Schirm?“, fragt sie und zeigt einen roten Regenschirm. Lena freut sich sehr.\n\nSie bedankt sich bei der Frau und nimmt den Schirm mit nach Hause. Jetzt passt Lena besser auf ihre Sachen auf. Sie legt den Schirm immer direkt in ihre Tasche.",
+    "preguntas": [
+      {
+        "enunciado": "Lena fährt mit dem Auto zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena vergisst ihren Regenschirm im Bus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Regenschirm ist ein Geschenk von ihrer Mutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena findet den Schirm nicht wieder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena legt den Schirm jetzt immer in ihre Tasche.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "opas-alte-briefmarkensammlung",
+    "nivel": "A1",
+    "titulo": "Opas alte Briefmarkensammlung",
+    "descripcion": "Paul entdeckt die alte Briefmarkensammlung seines Opas und hört spannende Geschichten.",
+    "texto": "Paul besucht am Sonntag seinen Opa. Sie trinken Tee und reden über die Familie. Dann holt Opa eine alte Kiste aus dem Schrank. In der Kiste sind viele bunte Briefmarken aus vielen Ländern.\n\n„Diese Marke ist aus Italien, und diese ist aus Japan“, sagt Opa und zeigt auf die Bilder. Paul findet die Briefmarken sehr schön. Er fragt: „Woher hast du so viele Marken, Opa?“ Opa lacht und antwortet: „Ich sammle sie schon seit vierzig Jahren!“\n\nPaul möchte auch Briefmarken sammeln. Opa schenkt ihm zehn Marken für den Anfang. Paul ist sehr glücklich und legt die Marken vorsichtig in eine kleine Box.",
+    "preguntas": [
+      {
+        "enunciado": "Paul besucht seinen Opa am Sonntag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa zeigt Paul alte Fotos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Briefmarken kommen aus verschiedenen Ländern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa sammelt seit zehn Jahren Briefmarken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul bekommt zehn Briefmarken von Opa.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "picknick-im-stadtpark-am-mittwoch",
+    "nivel": "A1",
+    "titulo": "Picknick im Stadtpark am Mittwoch",
+    "descripcion": "Mia und ihre Freunde machen am Mittwoch ein Picknick im Stadtpark.",
+    "texto": "Mia hat am Mittwoch keine Schule. Sie trifft ihre Freunde Tim und Sara im Stadtpark. Jeder bringt etwas zu essen mit. Mia bringt Brot und Käse, Tim bringt Obst, und Sara bringt Kekse.\n\nSie legen eine Decke auf das Gras und essen zusammen. Die Sonne scheint, und es ist warm. Nach dem Essen spielen sie Ball im Park. Später kaufen sie ein Eis an einem kleinen Stand.\n\n„Das war ein schöner Tag“, sagt Mia am Abend. Sie fahren mit dem Fahrrad nach Hause und freuen sich schon auf das nächste Picknick.",
+    "preguntas": [
+      {
+        "enunciado": "Mia hat am Mittwoch Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sara bringt Kekse zum Picknick mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie essen im Restaurant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Essen spielen sie Ball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie fahren mit dem Bus nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-kaputte-heizung-in-der-wg",
+    "nivel": "A2",
+    "titulo": "Die kaputte Heizung in der WG",
+    "descripcion": "In einer Studenten-WG geht im Winter die Heizung kaputt, und die Mitbewohner müssen schnell handeln.",
+    "texto": "Jonas wohnt mit zwei Mitbewohnern in einer WG in Leipzig. An einem kalten Morgen im Januar ist die Heizung kaputt. Es ist eiskalt in der Wohnung, und alle tragen Pullover und dicke Socken. Jonas hat sofort den Vermieter angerufen, weil er wusste, dass die Reparatur dringend war.\n\nDer Vermieter hat gesagt, dass ein Handwerker erst am nächsten Tag kommen kann. Deshalb haben die Mitbewohner einen kleinen Heizstrahler aus dem Keller geholt. Sie haben sich im Wohnzimmer versammelt, weil dort die Luft am wärmsten war. Abends haben sie heißen Tee getrunken und Decken benutzt, um warm zu bleiben.\n\nAm nächsten Tag ist der Handwerker gekommen und hat die Heizung repariert. Er hat erklärt, dass ein altes Ventil das Problem war. Die Mitbewohner waren sehr froh, dass die Wohnung endlich wieder warm wurde. Jonas hat seinen Eltern von dem kalten Abenteuer erzählt, und sie haben gelacht.",
+    "preguntas": [
+      {
+        "enunciado": "Die Heizung geht im Sommer kaputt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas ruft sofort den Vermieter an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Handwerker kommt noch am selben Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mitbewohner benutzen einen Heizstrahler.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein altes Ventil war das Problem.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-geburtstagsgeschenk-fuer-den-cousin",
+    "nivel": "A2",
+    "titulo": "Ein Geburtstagsgeschenk für den Cousin",
+    "descripcion": "Nina sucht ein passendes Geschenk für den zehnten Geburtstag ihres Cousins.",
+    "texto": "Nina hat erfahren, dass ihr Cousin Felix nächste Woche zehn Jahre alt wird. Sie wollte ihm ein besonderes Geschenk kaufen, weil sie ihn sehr mag. Zuerst ist sie in ein Spielzeuggeschäft gegangen, aber dort hat sie nichts Passendes gefunden. Die Verkäuferin hat ihr viele Spielzeuge gezeigt, doch keines hat Nina gefallen.\n\nDanach hat Nina ihre Tante angerufen, weil sie wissen wollte, was Felix sich wünscht. Die Tante hat erzählt, dass Felix sich für Dinosaurier interessiert. Nina ist deshalb in eine Buchhandlung gegangen und hat ein großes Buch über Dinosaurier gekauft. Sie hat das Buch auch noch bunt eingepackt.\n\nAm Geburtstag hat Felix das Geschenk geöffnet und sich riesig gefreut. „Das ist genau das Buch, das ich wollte!“, hat er gerufen. Nina war glücklich, dass sie das richtige Geschenk gefunden hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Felix wird zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina findet sofort im Spielzeuggeschäft ein Geschenk.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tante erzählt, dass Felix Dinosaurier mag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina kauft ein Fußballtrikot für Felix.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix freut sich sehr über das Geschenk.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verpasste-zugverbindung-in-hannover",
+    "nivel": "A2",
+    "titulo": "Die verpasste Zugverbindung in Hannover",
+    "descripcion": "Herr Weber verpasst seinen Anschlusszug in Hannover und muss einen neuen Plan finden.",
+    "texto": "Herr Weber ist mit dem Zug von Köln nach Hannover gefahren, weil er dort einen Anschlusszug nach Hamburg nehmen wollte. Leider hatte der erste Zug zehn Minuten Verspätung, und Herr Weber hat seinen Anschlusszug knapp verpasst. Er ist auf dem Bahnsteig angekommen, als der Zug nach Hamburg schon abgefahren ist.\n\nHerr Weber war zuerst ärgerlich, aber dann ist er ruhig zum Informationsschalter gegangen. Die Mitarbeiterin dort hat gesagt, dass der nächste Zug erst in zwei Stunden fährt. Deshalb hat Herr Weber die Zeit genutzt und ist in ein Café am Bahnhof gegangen. Dort hat er einen Kaffee getrunken und seine E-Mails gelesen.\n\nAls der neue Zug endlich kam, ist Herr Weber eingestiegen und nach Hamburg gefahren. Er ist zwei Stunden später als geplant angekommen, aber seine Kollegen haben verstanden, weil Verspätungen bei der Bahn oft passieren. Am Abend hat er seiner Frau von dem stressigen Tag erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber fährt von Hamburg nach Köln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der erste Zug hat Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber verpasst seinen Anschlusszug in Hannover.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der nächste Zug fährt sofort nach fünf Minuten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber trinkt einen Kaffee im Bahnhofscafé.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-volontariat-bei-der-lokalzeitung",
+    "nivel": "B1",
+    "titulo": "Das Volontariat bei der Lokalzeitung",
+    "descripcion": "Jan beginnt ein Volontariat bei einer Lokalzeitung und lernt den Alltag im Journalismus kennen.",
+    "texto": "Jan hat nach seinem Studium ein Volontariat bei der Lokalzeitung seiner Heimatstadt begonnen. Obwohl er vorher nur wenig journalistische Erfahrung hatte, war er sehr motiviert, den Beruf von Grund auf zu lernen. In den ersten Wochen durfte er kleine Artikel über Vereinsfeiern und Schulveranstaltungen schreiben. Sein Mentor, ein erfahrener Redakteur, hat ihm viele wertvolle Tipps zum Schreiben gegeben.\n\nNachdem Jan einige Monate bei der Zeitung gearbeitet hatte, bekam er die Aufgabe, über ein wichtiges Stadtratstreffen zu berichten. Er war zunächst nervös, weil das Thema komplizierter war als seine bisherigen Artikel. Trotzdem hat er sich gut vorbereitet, mehrere Politiker interviewt und am Ende einen ausführlichen Bericht geschrieben. Sein Chefredakteur war von der Qualität des Artikels beeindruckt.\n\nHeute, ein Jahr später, schreibt Jan regelmäßig über wichtige Themen in der Stadt. Er hat gelernt, dass guter Journalismus viel Geduld und gründliche Recherche erfordert. Außerdem schätzt er die Verantwortung, die mit diesem Beruf verbunden ist, weil seine Artikel die Meinung vieler Leser beeinflussen können.",
+    "preguntas": [
+      {
+        "enunciado": "Jan hatte vor dem Volontariat viel journalistische Erfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In den ersten Wochen schreibt Jan über Vereinsfeiern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jan berichtet über ein Stadtratstreffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Chefredakteur ist mit dem Artikel unzufrieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jan findet, dass guter Journalismus Geduld braucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-renovierung-der-alten-dachgeschosswohnung",
+    "nivel": "B1",
+    "titulo": "Die Renovierung der alten Dachgeschosswohnung",
+    "descripcion": "Ein junges Paar renoviert eine alte Dachgeschosswohnung und stößt dabei auf unerwartete Probleme.",
+    "texto": "Katrin und Markus haben vor einem Jahr eine alte Dachgeschosswohnung in einem historischen Gebäude gekauft. Die Wohnung war günstig, weil sie seit vielen Jahren nicht mehr renoviert worden war. Nachdem sie eingezogen waren, begannen sie sofort mit den Renovierungsarbeiten, obwohl beide keine Erfahrung mit solchen Projekten hatten.\n\nWährend der Arbeiten entdeckten sie unter dem alten Teppich wunderschöne Holzdielen, die seit Jahrzehnten versteckt gewesen waren. Diese Entdeckung hat sie sehr gefreut, weil sie ursprünglich einen neuen Bodenbelag kaufen wollten. Allerdings fanden sie auch Probleme mit dem Dach, durch das bei Regen Wasser eindrang. Diese Reparatur hat deutlich mehr Zeit und Geld gekostet als geplant.\n\nNach mehreren anstrengenden Monaten war die Wohnung endlich fertig. Trotzdem waren Katrin und Markus zufrieden, weil das Ergebnis ihre Erwartungen übertroffen hatte. Die alten Holzdielen und die neu reparierte Decke machten die Wohnung zu einem besonderen Zuhause. Sie erzählen heute gerne von den Herausforderungen des Projekts.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin und Markus kaufen eine neu renovierte Wohnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Unter dem Teppich finden sie alte Holzdielen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Dach hat keine Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Reparatur kostet mehr Zeit als geplant.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende sind beide mit dem Ergebnis zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-die-hausordnung-im-mehrfamilienhaus",
+    "nivel": "B1",
+    "titulo": "Der Streit um die Hausordnung im Mehrfamilienhaus",
+    "descripcion": "In einem Mehrfamilienhaus entsteht ein Streit zwischen den Nachbarn über die Regeln der Hausordnung.",
+    "texto": "In einem Mehrfamilienhaus in Dresden gibt es seit einigen Wochen Streit zwischen den Bewohnern. Der Grund ist die Hausordnung, die regelt, wann die Waschmaschinen im Keller benutzt werden dürfen. Einige Mieter, die abends arbeiten, möchten die Maschinen auch nach zweiundzwanzig Uhr nutzen, während andere Bewohner auf ihre Nachtruhe bestehen.\n\nObwohl die Hausverwaltung mehrmals vermittelt hat, konnten sich die Nachbarn lange nicht einigen. Herr Fischer, ein älterer Bewohner im zweiten Stock, beschwerte sich regelmäßig über den Lärm der Maschinen. Frau Keller, die im Erdgeschoss wohnt und spät nach Hause kommt, verstand diese Beschwerden nicht, weil sie glaubte, ihre Bedürfnisse seien genauso wichtig.\n\nNachdem die Hausverwaltung eine Versammlung organisiert hatte, einigten sich die Bewohner schließlich auf einen Kompromiss: Die Waschmaschinen dürfen jetzt bis einundzwanzig Uhr benutzt werden, und wer später waschen möchte, bekommt einen leiseren Trockner im Nebenraum. Seitdem ist der Streit im Haus beigelegt, und die Nachbarn grüßen sich wieder freundlich.",
+    "preguntas": [
+      {
+        "enunciado": "Der Streit handelt von der Nutzung der Waschmaschinen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bewohner sind von Anfang an einer Meinung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer beschwert sich über den Lärm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Hausverwaltung organisiert keine Versammlung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende finden die Nachbarn einen Kompromiss.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-gesellschaftliche-druck-durch-staendige-erreichbarkeit",
+    "nivel": "B2",
+    "titulo": "Der gesellschaftliche Druck durch ständige Erreichbarkeit",
+    "descripcion": "Ein Essay untersucht, wie die ständige digitale Erreichbarkeit den Alltag und die psychische Gesundheit beeinflusst.",
+    "texto": "In den letzten Jahren hat sich die Erwartung etabliert, dass Berufstätige nahezu jederzeit per E-Mail oder Messenger erreichbar sein müssten. Diese Entwicklung, die eng mit der zunehmenden Digitalisierung der Arbeitswelt verbunden ist, wird von vielen Arbeitspsychologen kritisch betrachtet. Sie argumentieren, dass die Grenze zwischen Berufs- und Privatleben zunehmend verschwimmt, wodurch viele Beschäftigte kaum noch zur Ruhe kommen. Würde man konsequent auf feste Erreichbarkeitszeiten verzichten, so die Befürworter einer Reform, ließe sich die psychische Belastung vieler Arbeitnehmer deutlich reduzieren.\n\nBesonders betroffen sind Berufsgruppen, in denen eine schnelle Reaktion als Zeichen von Engagement gilt. Obwohl zahlreiche Studien belegen, dass permanente Erreichbarkeit die Konzentrationsfähigkeit und die Schlafqualität beeinträchtigt, hat sich an den Erwartungen in vielen Unternehmen bislang wenig geändert. Kritiker weisen zudem darauf hin, dass Mitarbeitende, die bewusst offline bleiben, nicht selten als weniger engagiert wahrgenommen werden, obwohl ihre tatsächliche Leistung dadurch keineswegs gemindert wird.\n\nEinige Unternehmen haben inzwischen begonnen, gegenzusteuern, indem sie beispielsweise E-Mail-Server außerhalb der Arbeitszeiten automatisch abschalten lassen. Solche Maßnahmen würden, wenn sie flächendeckend umgesetzt würden, möglicherweise zu einer spürbaren Entlastung der Belegschaft führen. Dennoch bleibt fraglich, ob ein kultureller Wandel allein durch technische Lösungen erreicht werden kann, solange die zugrunde liegende Erwartungshaltung an permanente Verfügbarkeit nicht grundsätzlich infrage gestellt wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die Grenze zwischen Berufs- und Privatleben wird laut Text klarer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen, dass permanente Erreichbarkeit die Schlafqualität beeinträchtigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mitarbeitende, die offline bleiben, werden manchmal als weniger engagiert angesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen haben die Erreichbarkeitserwartungen bereits abgeschafft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht technische Lösungen allein als ausreichend für einen kulturellen Wandel.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "scheinselbststaendigkeit-in-der-gig-economy",
+    "nivel": "B2",
+    "titulo": "Scheinselbstständigkeit in der Gig-Economy",
+    "descripcion": "Der Text beleuchtet die rechtlichen und sozialen Probleme der Scheinselbstständigkeit bei Plattformarbeitern.",
+    "texto": "Mit dem Wachstum der sogenannten Gig-Economy, in der Dienstleistungen über digitale Plattformen vermittelt werden, ist in Deutschland eine kontroverse Debatte über Scheinselbstständigkeit entstanden. Viele Fahrer von Lieferdiensten oder Fahrer von Mitfahrplattformen arbeiten offiziell als Selbstständige, obwohl sie faktisch wie festangestellte Mitarbeiter in die Arbeitsorganisation des jeweiligen Unternehmens eingebunden sind. Kritiker bemängeln, dass diese Konstruktion es Unternehmen erlaube, Sozialabgaben und arbeitsrechtliche Verpflichtungen zu umgehen.\n\nSollten Gerichte vermehrt feststellen, dass eine solche Scheinselbstständigkeit vorliegt, müssten die betroffenen Plattformen ihre Beschäftigten nachträglich sozialversichern und könnten mit empfindlichen Nachzahlungen konfrontiert werden. Genau aus diesem Grund versuchen manche Unternehmen, ihre Vertragsmodelle so zu gestalten, dass eine arbeitsrechtliche Einordnung als abhängige Beschäftigung möglichst vermieden wird. Gewerkschaften fordern hingegen klare gesetzliche Regelungen, die den Status von Plattformarbeitern eindeutig definieren.\n\nAuf europäischer Ebene wird bereits an einer Richtlinie gearbeitet, die Plattformbeschäftigte besser schützen soll, indem bestimmte Kriterien automatisch auf ein Beschäftigungsverhältnis hindeuten würden. Würde diese Richtlinie vollständig umgesetzt, hätte dies weitreichende Folgen für zahlreiche Plattformunternehmen, deren Geschäftsmodell bislang stark auf flexible, aber rechtlich ungesicherte Arbeitsverhältnisse ausgerichtet ist. Befürworter der Reform betonen, dass soziale Absicherung nicht von der Wahl der Arbeitsplattform abhängen dürfe.",
+    "preguntas": [
+      {
+        "enunciado": "Scheinselbstständigkeit tritt häufig bei Plattformarbeitern in der Gig-Economy auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker meinen, Unternehmen würden durch Scheinselbstständigkeit Sozialabgaben umgehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gewerkschaften fordern weniger gesetzliche Regelungen für Plattformarbeiter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf europäischer Ebene gibt es keine Initiative zu diesem Thema.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die geplante Richtlinie soll Plattformbeschäftigte besser schützen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-des-lokaljournalismus-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Der Wandel des Lokaljournalismus im digitalen Zeitalter",
+    "descripcion": "Der Artikel analysiert, wie sinkende Abonnentenzahlen und digitale Konkurrenz den Lokaljournalismus verändern.",
+    "texto": "Lokale Zeitungen, die früher als unverzichtbare Informationsquelle für Städte und Gemeinden galten, stehen heute vor existenziellen Herausforderungen. Sinkende Abonnentenzahlen und der Rückgang der Werbeeinnahmen, die größtenteils an große digitale Plattformen abgewandert sind, haben zahlreiche Lokalredaktionen gezwungen, Personal abzubauen oder ganz zu schließen. Diese Entwicklung wird von Medienforschern besonders kritisch gesehen, da gerade der Lokaljournalismus eine wichtige Kontrollfunktion gegenüber kommunalen Entscheidungsträgern erfüllt.\n\nObwohl einige Verlage versucht haben, durch digitale Abonnementmodelle neue Einnahmequellen zu erschließen, gelingt es bislang nur wenigen, damit die entstandenen finanziellen Lücken vollständig zu schließen. Nachdem mehrere Studien gezeigt hatten, dass in sogenannten „Nachrichtenwüsten“ ohne lokale Berichterstattung die Wahlbeteiligung sinkt und das Vertrauen in demokratische Institutionen abnimmt, wird vermehrt über staatliche Fördermodelle diskutiert. Befürworter solcher Modelle argumentieren, dass unabhängiger Journalismus auf lokaler Ebene eine Art demokratische Infrastruktur darstelle, die nicht allein dem freien Markt überlassen werden dürfe.\n\nGegner einer staatlichen Förderung befürchten hingegen, dass finanzielle Abhängigkeit vom Staat die journalistische Unabhängigkeit gefährden könnte. Sie schlagen stattdessen gemeinnützige Stiftungsmodelle vor, die bereits in einigen Regionen erprobt werden. Unabhängig davon, welches Modell sich letztlich durchsetzt, scheint klar, dass der klassische Lokaljournalismus ohne strukturelle Veränderungen in seiner bisherigen Form kaum überleben wird.",
+    "preguntas": [
+      {
+        "enunciado": "Lokale Zeitungen verzeichnen laut Text steigende Abonnentenzahlen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Werbeeinnahmen sind größtenteils zu digitalen Plattformen abgewandert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nachrichtenwüsten hängen laut Studien mit sinkender Wahlbeteiligung zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind für eine staatliche Förderung des Lokaljournalismus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gemeinnützige Stiftungsmodelle werden im Text als eine mögliche Alternative genannt.",
+        "respuesta": true
+      }
+    ]
   }
 ]
