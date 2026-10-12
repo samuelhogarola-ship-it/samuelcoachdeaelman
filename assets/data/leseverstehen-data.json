@@ -47450,5 +47450,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-schildkroete-lina",
+    "nivel": "A1",
+    "titulo": "Meine Schildkröte Lina",
+    "descripcion": "Jan erzählt von seiner Schildkröte Lina und ihrem ruhigen Leben im Terrarium.",
+    "texto": "Jan hat eine Schildkröte. Sie heißt Lina. Lina ist grün und klein. Sie wohnt in einem Terrarium im Wohnzimmer. Jeden Tag gibt Jan ihr Salat und Gurke zu essen.\n\nLina ist sehr langsam. Sie läuft gern über die Steine im Terrarium. Manchmal versteckt sie sich unter einem Blatt. Jans kleine Schwester mag Lina auch sehr. Sie schaut der Schildkröte gern beim Essen zu.\n\nAm Wochenende putzt Jan das Terrarium. Er macht das Wasser sauber und legt frisches Gras hinein. Lina ist dann immer ein bisschen aufgeregt, aber danach schläft sie ruhig in ihrer Ecke.",
+    "preguntas": [
+      {
+        "enunciado": "Lina ist ein Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lina isst Salat und Gurke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lina läuft sehr schnell.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jans Schwester mag Lina auch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jan putzt das Terrarium am Wochenende.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-strassenbahnfahrt-zur-schule",
+    "nivel": "A1",
+    "titulo": "Die Straßenbahnfahrt zur Schule",
+    "descripcion": "Emma fährt jeden Morgen mit der Straßenbahn zur Schule und erzählt von ihrem Weg.",
+    "texto": "Emma wohnt nicht nah an ihrer Schule. Jeden Morgen fährt sie mit der Straßenbahn. Die Fahrt dauert fünfzehn Minuten. Emma sitzt gern am Fenster und schaut auf die Straße.\n\nAn der dritten Haltestelle steigt ihr Freund Leon ein. Sie sitzen dann zusammen und reden über die Hausaufgaben. Manchmal essen sie auch einen Apfel in der Straßenbahn. Die Straßenbahn ist am Morgen oft voll mit Schülern.\n\nUm acht Uhr kommt die Straßenbahn an der Schule an. Emma und Leon laufen schnell zum Klassenzimmer. Der Unterricht beginnt pünktlich um acht Uhr fünfzehn.",
+    "preguntas": [
+      {
+        "enunciado": "Emma fährt mit dem Fahrrad zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt dauert fünfzehn Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Leon steigt an der dritten Haltestelle ein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Straßenbahn ist am Morgen leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Unterricht beginnt um acht Uhr fünfzehn.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einkaufen-fuer-die-party",
+    "nivel": "A1",
+    "titulo": "Einkaufen für die Party",
+    "descripcion": "Tim kauft Essen und Getränke für seine Geburtstagsparty.",
+    "texto": "Tim hat morgen Geburtstag. Heute geht er in den Supermarkt. Er braucht Kuchen, Saft und Chips für die Party. Tim nimmt einen Einkaufswagen und sucht die Sachen.\n\nIm Supermarkt kostet der Kuchen fünf Euro. Der Saft kostet zwei Euro. Tim kauft auch rote Äpfel und gelbe Bananen. An der Kasse bezahlt er mit seinem Geld. Die Verkäuferin lächelt und sagt: „Viel Spaß auf der Party!\"\n\nZu Hause packt Tim alles auf den Tisch. Er freut sich auf die Party mit seinen Freunden. Morgen kommen fünf Kinder zu Besuch.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hat heute Geburtstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kuchen kostet fünf Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim kauft keine Früchte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim bezahlt an der Kasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Morgen kommen fünf Kinder zu Besuch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-dachgeschosswohnung",
+    "nivel": "A2",
+    "titulo": "Der Umzug in die Dachgeschosswohnung",
+    "descripcion": "Nora zieht in eine kleine Dachgeschosswohnung und muss sich an die vielen Treppen gewöhnen.",
+    "texto": "Letzten Monat ist Nora in eine neue Wohnung gezogen. Es ist eine Dachgeschosswohnung mit einem schrägen Dach und einem kleinen Fenster. Sie hat sich für diese Wohnung entschieden, weil sie von dort einen tollen Blick über die Stadt hat.\n\nAm Anfang war der Umzug anstrengend, weil die Wohnung im fünften Stock liegt und es keinen Aufzug gibt. Nora und ihre Freunde haben alle Möbel die Treppen hinauftragen müssen. Nach ein paar Stunden waren alle müde, aber auch stolz, dass sie es geschafft hatten. Zum Dank hat Nora Pizza für alle bestellt.\n\nJetzt, nach einem Monat, hat sich Nora gut eingelebt. Sie findet die vielen Treppen zwar immer noch anstrengend, aber die Aussicht vom Fenster macht alles wieder gut. Ihre Nachbarn sind freundlich, und sie hat schon ein paar neue Leute im Haus kennengelernt.",
+    "preguntas": [
+      {
+        "enunciado": "Nora ist vor einem Jahr umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wohnung liegt im fünften Stock.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt einen Aufzug im Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nora hat Pizza für ihre Freunde bestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nora findet die Aussicht nicht schön.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-bei-der-patentante",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei der Patentante",
+    "descripcion": "Finn verbringt ein Wochenende bei seiner Patentante auf dem Land und lernt, Brot zu backen.",
+    "texto": "Finn hat das Wochenende bei seiner Patentante Rosa verbracht, weil seine Eltern verreist sind. Rosa wohnt auf dem Land in einem kleinen Haus mit einem großen Garten. Finn war ein bisschen nervös, weil er Rosa nicht so oft sieht.\n\nAm Samstagmorgen hat Rosa Finn gezeigt, wie man Brot backt. Zuerst haben sie den Teig geknetet, und dann mussten sie eine Stunde warten, bis der Teig aufgegangen war. Finn hat sich sehr gefreut, als das Brot fertig aus dem Ofen kam, weil es wunderbar roch. Danach haben sie zusammen im Garten Äpfel gepflückt, die Rosa für einen Kuchen verwenden wollte.\n\nAm Sonntagabend musste Finn leider schon wieder zurückfahren. Er hat Rosa versprochen, dass er sie bald wieder besucht, weil ihm das Wochenende so gut gefallen hat. Rosa hat ihm ein frisches Brot für die Heimfahrt mitgegeben.",
+    "preguntas": [
+      {
+        "enunciado": "Finns Eltern sind verreist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Rosa wohnt in der Großstadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn und Rosa haben zusammen Brot gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben keine Äpfel gepflückt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn hat versprochen, Rosa bald wieder zu besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reparatur-des-alten-fahrrads",
+    "nivel": "A2",
+    "titulo": "Die Reparatur des alten Fahrrads",
+    "descripcion": "Oskar repariert mit seinem Onkel ein altes Fahrrad, das er auf dem Dachboden gefunden hat.",
+    "texto": "Oskar hat auf dem Dachboden seiner Großeltern ein altes Fahrrad gefunden. Es war sehr staubig und hatte einen platten Reifen, aber Oskar wollte es trotzdem reparieren. Er hat seinen Onkel gefragt, ob er ihm dabei helfen kann, weil sein Onkel sich gut mit Fahrrädern auskennt.\n\nAm Samstag haben sie gemeinsam in der Garage angefangen zu arbeiten. Zuerst haben sie das Fahrrad gründlich gereinigt, weil es jahrelang nicht benutzt worden war. Danach haben sie einen neuen Schlauch für den Reifen gekauft und die Bremsen überprüft, die auch nicht mehr richtig funktioniert haben. Die Arbeit hat den ganzen Nachmittag gedauert, aber Oskar hat viel über Fahrräder gelernt.\n\nAm Abend konnte Oskar endlich eine Runde um den Block fahren. Er war sehr stolz, weil das Fahrrad jetzt wie neu aussah. Sein Onkel hat gesagt, dass Oskar jetzt auch kleine Reparaturen allein machen könnte.",
+    "preguntas": [
+      {
+        "enunciado": "Oskar hat das Fahrrad im Keller gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fahrrad hatte einen platten Reifen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oskar hat die Arbeit allein gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben die Bremsen überprüft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend konnte Oskar nicht Fahrrad fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-an-eine-neue-schule-in-leipzig",
+    "nivel": "B1",
+    "titulo": "Der Wechsel an eine neue Schule in Leipzig",
+    "descripcion": "Paula wechselt wegen des Umzugs ihrer Familie auf eine neue Schule in Leipzig und muss sich neu einleben.",
+    "texto": "Als Paulas Familie nach Leipzig gezogen ist, musste sie mitten im Schuljahr die Schule wechseln. Obwohl sie sich sehr auf die neue Stadt gefreut hatte, war ihr vor dem ersten Schultag an der neuen Schule etwas unwohl, weil sie niemanden kannte. Nachdem sie morgens lange vor dem Spiegel gestanden hatte, ist sie schließlich doch pünktlich losgefahren.\n\nIn der neuen Klasse wurde sie freundlicher aufgenommen, als sie erwartet hatte. Eine Mitschülerin namens Hanna hat sich neben sie gesetzt und ihr in der Pause die wichtigsten Räume der Schule gezeigt. Trotzdem fühlte sich Paula in den ersten Wochen oft fremd, weil die Lehrer einen anderen Unterrichtsstil hatten, an den sie sich erst gewöhnen musste. Nachdem einige Wochen vergangen waren, hat sie sich jedoch immer besser zurechtgefunden.\n\nHeute, drei Monate später, hat Paula schon einen festen Freundeskreis und fühlt sich in Leipzig richtig zu Hause. Sie sagt, dass der Schulwechsel am Anfang schwer war, dass er ihr aber auch gezeigt hat, wie anpassungsfähig sie eigentlich ist.",
+    "preguntas": [
+      {
+        "enunciado": "Paula ist am Ende des Schuljahres umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula kannte vor dem ersten Tag niemanden an der neuen Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hanna hat Paula in der Pause geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula hat sich sofort an den neuen Unterrichtsstil gewöhnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach drei Monaten fühlt sich Paula in Leipzig zu Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-ehrenamt-im-stadtarchiv",
+    "nivel": "B1",
+    "titulo": "Das Ehrenamt im Stadtarchiv",
+    "descripcion": "Herr Weber engagiert sich im Ruhestand ehrenamtlich im Stadtarchiv und entdeckt dabei alte Fotografien.",
+    "texto": "Nachdem Herr Weber in den Ruhestand gegangen war, hat er sich entschieden, ehrenamtlich im Stadtarchiv zu arbeiten. Er hatte schon immer Interesse an der Geschichte seiner Stadt, aber während seines Berufslebens als Ingenieur hatte er nie Zeit dafür gefunden. Zweimal pro Woche hilft er nun dabei, alte Dokumente zu ordnen und zu digitalisieren.\n\nBesonders begeistert war Herr Weber, als er in einer alten Kiste Fotografien aus den 1920er-Jahren entdeckte, die noch niemand katalogisiert hatte. Obwohl die Bilder teilweise beschädigt waren, konnte man darauf das Stadtzentrum erkennen, bevor es im Krieg zerstört worden war. Zusammen mit einer jungen Archivarin hat er die Fotos sorgfältig gereinigt und beschriftet, damit zukünftige Besucher sie betrachten können.\n\nMittlerweile hat Herr Weber auch angefangen, kleine Führungen für Schulklassen zu geben, die das Archiv besuchen. Er erzählt gerne von den Entdeckungen, die er gemacht hat, und freut sich, dass junge Menschen sich für die Geschichte ihrer Stadt interessieren. Für ihn ist das Ehrenamt zu einem wichtigen Teil seines Alltags geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber arbeitet noch als Ingenieur.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hilft zweimal pro Woche im Stadtarchiv.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat Fotografien aus den 1920er-Jahren entdeckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fotos waren alle in perfektem Zustand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber gibt keine Führungen für Schulklassen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-teilnahme-am-chorwettbewerb",
+    "nivel": "B1",
+    "titulo": "Die Teilnahme am Chorwettbewerb",
+    "descripcion": "Ein Schulchor bereitet sich monatelang auf einen regionalen Wettbewerb vor und erlebt dabei Höhen und Tiefen.",
+    "texto": "Der Schulchor des Gymnasiums hat sich entschieden, an einem regionalen Chorwettbewerb teilzunehmen, nachdem die Musiklehrerin Frau Berg die Idee vorgeschlagen hatte. Die Schüler waren zunächst unsicher, ob sie gegen erfahrene Chöre aus anderen Schulen überhaupt eine Chance hätten, doch Frau Berg hat sie ermutigt, es einfach zu versuchen.\n\nIn den folgenden Monaten haben sie zweimal pro Woche geprobt, obwohl das für viele Schüler neben den Hausaufgaben stressig war. Besonders schwierig war ein mehrstimmiges Lied, das mehrmals komplett neu eingeübt werden musste, weil die Stimmen nicht zusammenpassten. Trotzdem haben die Schüler nicht aufgegeben, und nachdem sie das Lied endlich beherrschten, war die Stimmung im Chor deutlich besser.\n\nAm Tag des Wettbewerbs waren alle nervös, aber auch aufgeregt. Obwohl sie nicht den ersten Platz gewonnen haben, hat die Jury ihre Leistung sehr gelobt, und der Chor hat den dritten Platz erreicht. Für die Schüler war vor allem wichtig, dass sie als Gruppe zusammengewachsen waren und stolz auf das Erreichte sein konnten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Idee zum Wettbewerb kam von einem Schüler.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Chor hat zweimal pro Woche geprobt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das mehrstimmige Lied war von Anfang an einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Chor hat den ersten Platz gewonnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Jury hat die Leistung des Chores gelobt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-der-innenstaedte-durch-den-onlinehandel",
+    "nivel": "B2",
+    "titulo": "Der Wandel der Innenstädte durch den Onlinehandel",
+    "descripcion": "Der Text untersucht, wie der wachsende Onlinehandel die Innenstädte verändert und welche Gegenstrategien diskutiert werden.",
+    "texto": "In den vergangenen Jahren hat sich das Einkaufsverhalten vieler Menschen grundlegend gewandelt. Immer mehr Kunden bestellen Kleidung, Elektronik und sogar Lebensmittel bequem von zu Hause aus, während der stationäre Einzelhandel in den Innenstädten zunehmend unter Druck gerät. Zahlreiche kleine Fachgeschäfte, die den jahrzehntelangen Wandel der Konsumgewohnheiten bislang überstanden hatten, mussten in den letzten Jahren endgültig schließen, weil sie mit den niedrigen Preisen und der Bequemlichkeit großer Onlineplattformen kaum konkurrieren können.\n\nDie Folgen dieser Entwicklung sind in vielen Städten deutlich sichtbar: Leerstehende Ladenflächen prägen mittlerweile ganze Straßenzüge, was wiederum die Attraktivität der Innenstädte als Treffpunkt und Einkaufsort weiter verringert. Stadtplaner und Händlerverbände warnen davor, dass dieser Trend langfristig zu einer Verödung der Zentren führen könnte, wenn keine Gegenmaßnahmen ergriffen werden. Einige Kommunen reagieren bereits, indem sie leerstehende Flächen vergünstigt an Kulturprojekte oder Start-ups vermieten, um neues Leben in die betroffenen Straßen zu bringen.\n\nAndere Städte setzen auf ein verändertes Einkaufserlebnis, das über den reinen Kauf von Waren hinausgeht, etwa durch Veranstaltungen, Gastronomie und Freizeitangebote, die online nicht ersetzt werden können. Kritiker solcher Maßnahmen bezweifeln jedoch, dass derartige Konzepte ausreichen, um den strukturellen Wandel aufzuhalten, solange die grundlegenden Kostenvorteile des Onlinehandels bestehen bleiben. Letztlich wird sich erst in den kommenden Jahren zeigen, ob es den Innenstädten gelingt, sich neu zu erfinden, oder ob der Onlinehandel ihre traditionelle Rolle dauerhaft verändert.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Menschen bestellen ihre Einkäufe online.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Fachgeschäfte in den Innenstädten profitieren vom Onlinehandel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Leerstehende Ladenflächen sind in vielen Innenstädten sichtbar.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche Kommunen vermieten leerstehende Flächen an Kulturprojekte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind überzeugt, dass neue Einkaufserlebnisse den Wandel vollständig aufhalten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-den-mindestlohn",
+    "nivel": "B2",
+    "titulo": "Die Debatte um den Mindestlohn",
+    "descripcion": "Eine Analyse der wirtschaftlichen und sozialen Argumente für und gegen eine Erhöhung des Mindestlohns.",
+    "texto": "Die Debatte um eine Erhöhung des gesetzlichen Mindestlohns wird in Deutschland seit Jahren mit großer Intensität geführt. Befürworter argumentieren, dass ein höherer Mindestlohn notwendig sei, damit Vollzeitbeschäftigte von ihrem Einkommen angemessen leben können, ohne auf zusätzliche staatliche Unterstützung angewiesen zu sein. Angesichts steigender Mieten und Lebenshaltungskosten sei eine Anpassung längst überfällig, so die Gewerkschaften.\n\nArbeitgeberverbände hingegen warnen davor, dass eine zu starke Erhöhung insbesondere kleine und mittelständische Unternehmen finanziell überfordern könnte. Es wird befürchtet, dass Betriebe gezwungen wären, Arbeitsplätze abzubauen oder Stellen zu automatisieren, um die höheren Lohnkosten auszugleichen. Besonders in strukturschwachen Regionen, in denen die Lohnkosten im Verhältnis zu den Umsätzen ohnehin schon hoch seien, könnte dies zu einer Welle von Insolvenzen führen, wie manche Ökonomen betonen.\n\nStudien zu diesem Thema kommen zu unterschiedlichen Ergebnissen, je nachdem, welche Annahmen den Berechnungen zugrunde gelegt werden. Einige Untersuchungen zeigen, dass moderate Erhöhungen kaum negative Beschäftigungseffekte hatten, während andere vor erheblichen Risiken für bestimmte Branchen warnen. Angesichts dieser widersprüchlichen Befunde bleibt die Politik gefordert, einen Mittelweg zu finden, der sowohl die Lebensqualität der Arbeitnehmer verbessert als auch die wirtschaftliche Stabilität der Unternehmen nicht gefährdet.",
+    "preguntas": [
+      {
+        "enunciado": "Gewerkschaften fordern seit Jahren eine Erhöhung des Mindestlohns.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Arbeitgeberverbände befürworten uneingeschränkt jede Erhöhung des Mindestlohns.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Ökonomen befürchten eine Welle von Insolvenzen in strukturschwachen Regionen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Studien kommen zu demselben Ergebnis über die Beschäftigungseffekte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Politik muss laut Text einen Mittelweg finden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nachhaltiger-konsum-und-greenwashing",
+    "nivel": "B2",
+    "titulo": "Nachhaltiger Konsum und Greenwashing",
+    "descripcion": "Der Text untersucht, wie Unternehmen mit vermeintlich grünen Produkten werben und wie Verbraucher dies erkennen können.",
+    "texto": "Immer mehr Konsumenten achten beim Einkaufen darauf, ob ein Produkt nachhaltig produziert wurde. Unternehmen haben diesen Trend längst erkannt und bewerben ihre Waren zunehmend mit Begriffen wie „umweltfreundlich\", „klimaneutral\" oder „nachhaltig\", ohne dass diese Aussagen immer durch unabhängige Prüfungen belegt werden. Dieses Phänomen, das als Greenwashing bezeichnet wird, täuscht Verbrauchern ein ökologisches Engagement vor, das in Wirklichkeit oft nur oberflächlich oder gar nicht vorhanden ist.\n\nBesonders problematisch wird es, wenn Unternehmen einzelne nachhaltige Maßnahmen, etwa eine recycelbare Verpackung, in den Vordergrund stellen, während die eigentliche Produktion weiterhin erhebliche Umweltschäden verursacht. Verbraucherschützer kritisieren, dass es für Laien kaum möglich sei, zwischen echten Nachhaltigkeitsbemühungen und reiner Marketingstrategie zu unterscheiden, solange es keine einheitlichen und verbindlichen Kennzeichnungsstandards gebe. Die Europäische Union arbeitet deshalb an strengeren Richtlinien, die vage Umweltversprechen künftig verbieten sollen, sofern sie nicht mit belastbaren Daten untermauert werden.\n\nFür Verbraucher, die tatsächlich nachhaltig konsumieren möchten, empfehlen Experten, sich nicht allein auf Werbeaussagen zu verlassen, sondern auf unabhängige Siegel und Zertifikate zu achten. Zudem sei es sinnvoll, grundsätzlich weniger, aber dafür bewusster zu konsumieren, anstatt sich von vermeintlich grünen Produkten zu häufigeren Käufen verleiten zu lassen. Letztlich könne echte Nachhaltigkeit nur erreicht werden, wenn sowohl Unternehmen als auch Verbraucher ihr Verhalten grundlegend überdenken.",
+    "preguntas": [
+      {
+        "enunciado": "Greenwashing bedeutet, dass Unternehmen ihr Umweltengagement übertrieben oder falsch darstellen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Nachhaltigkeitsversprechen von Unternehmen werden unabhängig geprüft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die EU plant strengere Richtlinien gegen vage Umweltversprechen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten empfehlen, sich ausschließlich auf Werbeaussagen zu verlassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Echte Nachhaltigkeit erfordert laut Text auch ein Umdenken der Verbraucher.",
+        "respuesta": true
+      }
+    ]
   }
 ]
