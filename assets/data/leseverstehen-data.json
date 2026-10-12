@@ -49190,5 +49190,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "das-schwimmbad-im-sommer",
+    "nivel": "A1",
+    "titulo": "Das Schwimmbad im Sommer",
+    "descripcion": "Max und seine Schwester gehen im Sommer ins Schwimmbad.",
+    "texto": "Es ist Sommer und die Sonne scheint. Max und seine Schwester Lea gehen ins Schwimmbad. Sie haben ihre Badesachen und ein Handtuch dabei. Das Wasser ist warm und blau.\n\nMax schwimmt gern im großen Becken. Lea spielt lieber im kleinen Becken mit einem Ball. Nach dem Schwimmen essen beide ein Eis. Das Eis ist süß und kalt.\n\nAm Abend sind Max und Lea müde. Sie erzählen der Mutter vom Schwimmbad. Die Mutter lacht und sagt: „Morgen gehen wir wieder!“ Max und Lea freuen sich sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Max und Lea gehen im Winter ins Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wasser im Schwimmbad ist warm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea schwimmt im großen Becken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Schwimmen essen sie ein Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter will morgen nicht ins Schwimmbad gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-neuer-fussball",
+    "nivel": "A1",
+    "titulo": "Mein neuer Fußball",
+    "descripcion": "Tom bekommt einen neuen Fußball und spielt mit seinen Freunden.",
+    "texto": "Tom hat einen neuen Fußball. Der Ball ist rot und weiß. Tom spielt jeden Tag im Park mit seinen Freunden. Er schießt gern Tore.\n\nHeute spielen Tom und seine Freunde ein Spiel. Tom ist im Team mit Paul. Sie spielen gegen Anna und Ben. Das Spiel ist lustig und laut.\n\nAm Ende gewinnt das Team von Tom. Alle Kinder sind froh. Tom sagt: „Morgen spielen wir wieder!“ Dann gehen alle nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Toms Fußball ist grün und gelb.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom spielt jeden Tag im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom ist im Team mit Anna.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Spiel ist leise.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Team gewinnt das Spiel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einkaufen-mit-mama",
+    "nivel": "A1",
+    "titulo": "Einkaufen mit Mama",
+    "descripcion": "Lisa geht mit ihrer Mutter einkaufen und hilft im Supermarkt.",
+    "texto": "Lisa geht mit ihrer Mutter in den Supermarkt. Sie brauchen Brot, Milch und Äpfel. Lisa trägt den kleinen Einkaufskorb.\n\nIm Supermarkt sucht Lisa die Äpfel. Die Äpfel sind rot und grün. Lisa nimmt fünf rote Äpfel. Die Mutter kauft auch Käse und Eier.\n\nAn der Kasse zahlt die Mutter. Lisa hilft und packt die Tüten. Zu Hause räumt Lisa das Brot und die Milch in die Küche. Die Mutter sagt: „Danke, Lisa!“",
+    "preguntas": [
+      {
+        "enunciado": "Lisa geht mit ihrem Vater einkaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie kaufen Brot, Milch und Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa nimmt zehn rote Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter kauft auch Käse und Eier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa hilft nicht beim Einpacken.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-busfahrt-nach-hamburg",
+    "nivel": "A2",
+    "titulo": "Die Busfahrt nach Hamburg",
+    "descripcion": "Jonas ist mit dem Bus nach Hamburg gefahren und hat die Stadt besucht.",
+    "texto": "Letzte Woche ist Jonas mit dem Bus nach Hamburg gefahren. Er wollte den Hafen besuchen, weil er Schiffe sehr mag. Die Fahrt hat vier Stunden gedauert. Im Bus hat Jonas ein Buch gelesen und Musik gehört.\n\nAls Jonas in Hamburg angekommen ist, hat er zuerst den Hafen besucht. Dort hat er viele große Schiffe gesehen. Danach ist er in die Speicherstadt gegangen und hat Fotos gemacht. Weil das Wetter so schön war, ist er auch am Wasser spazieren gegangen.\n\nAm Abend hat Jonas seiner Familie erzählt, dass er einen tollen Tag hatte. Er hat gesagt, dass er bald wieder nach Hamburg fahren möchte. Seine Eltern haben sich sehr gefreut.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist mit dem Zug nach Hamburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt hat vier Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat in Hamburg keine Schiffe gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas ist in die Speicherstadt gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas möchte nie wieder nach Hamburg fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-fuer-die-oma-zum-geburtstag",
+    "nivel": "A2",
+    "titulo": "Der Brief für die Oma zum Geburtstag",
+    "descripcion": "Nina hat ihrer Oma einen Geburtstagsbrief geschrieben, weil sie nicht zu Besuch kommen konnte.",
+    "texto": "Ninas Oma hatte letzten Sonntag Geburtstag. Nina konnte nicht zu Besuch kommen, weil sie krank war. Deshalb hat sie einen langen Brief geschrieben. Sie hat der Oma erzählt, dass sie sie sehr vermisst.\n\nIn dem Brief hat Nina auch ein Foto von ihrem Hund geschickt. Sie hat geschrieben, dass der Hund jetzt schon ein Jahr alt ist. Außerdem hat sie der Oma versprochen, dass sie sie bald besuchen wird, wenn sie wieder gesund ist.\n\nDie Oma hat sich sehr über den Brief gefreut. Sie hat sofort zurückgeschrieben und bedankt sich für die lieben Worte. Nina war glücklich, als sie die Antwort gelesen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Ninas Oma hatte am Montag Geburtstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina konnte nicht kommen, weil sie krank war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat kein Foto geschickt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma hat sich nicht über den Brief gefreut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma hat sofort zurückgeschrieben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-zum-baggersee",
+    "nivel": "A2",
+    "titulo": "Der Ausflug zum Baggersee",
+    "descripcion": "Familie Weber ist am Wochenende zum Baggersee gefahren und hat dort gegrillt.",
+    "texto": "Am Samstag ist Familie Weber zum Baggersee gefahren. Sie haben ihre Fahrräder und einen Grill mitgenommen. Weil das Wetter sonnig war, waren viele Leute am See.\n\nHerr Weber hat den Grill angemacht und Würstchen gegrillt. Die Kinder sind ins Wasser gesprungen und haben lange gebadet. Frau Weber hat am Ufer ein Buch gelesen, weil sie nicht so gern schwimmt.\n\nAm Nachmittag hat es plötzlich geregnet. Die Familie hat schnell alles eingepackt und ist nach Hause gefahren. Obwohl der Regen den Tag kurz gemacht hat, haben alle gesagt, dass es ein schöner Ausflug war.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Weber ist zum Meer gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat Würstchen gegrillt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Weber ist viel geschwommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag hat es geschneit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle fanden den Ausflug schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-nach-ruegen",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Rügen",
+    "descripcion": "Eine Schulklasse verbringt eine Woche auf der Insel Rügen und erlebt dabei Höhen und Tiefen.",
+    "texto": "Die Klasse 9b ist für eine Woche nach Rügen gefahren. Nachdem sie im Jugendgästehaus angekommen waren, haben die Schüler sofort ihre Zimmer bezogen und die Insel erkundet. Obwohl das Wetter am ersten Tag regnerisch war, hat die Gruppe trotzdem einen langen Spaziergang am Kreidefelsen gemacht.\n\nIn den folgenden Tagen stand ein buntes Programm auf dem Plan: ein Besuch im Ozeaneum, eine Fahrradtour entlang der Küste und ein Lagerfeuer am Strand. Manche Schüler hatten Heimweh, trotzdem wollte am Ende niemand die Insel vorzeitig verlassen. Die Lehrerin war überrascht, wie schnell sich die Klasse zu einer echten Gemeinschaft entwickelt hatte.\n\nAm letzten Abend saßen alle zusammen und erzählten sich Geschichten von der Woche. Nachdem die Koffer gepackt waren, fiel der Abschied vielen schwer. Die Klassenfahrt wird den Schülern sicher lange in Erinnerung bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b war zwei Wochen auf Rügen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag war das Wetter sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe hat trotz des Regens einen Spaziergang gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand wollte früher abreisen, obwohl manche Heimweh hatten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Abschied fiel den Schülern leicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-job-bei-der-werbeagentur-media-plus",
+    "nivel": "B1",
+    "titulo": "Der neue Job bei der Werbeagentur Media Plus",
+    "descripcion": "Sophie beginnt eine neue Stelle in einer Werbeagentur und muss sich an das hektische Arbeitsleben gewöhnen.",
+    "texto": "Sophie hat vor zwei Monaten eine Stelle bei der Werbeagentur Media Plus angenommen. Obwohl sie vorher noch nie in diesem Bereich gearbeitet hatte, wollte sie die Herausforderung unbedingt annehmen. Nachdem die ersten Wochen vergangen waren, merkte sie, wie schnell und hektisch der Alltag in einer Agentur sein kann.\n\nJeden Tag muss Sophie mit mehreren Kunden telefonieren und gleichzeitig an Präsentationen arbeiten. Trotzdem gefällt ihr die kreative Atmosphäre im Büro sehr gut. Besonders die Zusammenarbeit mit den Designern macht ihr Spaß, obwohl die Deadlines oft sehr knapp sind.\n\nNachdem Sophie ihr erstes großes Projekt erfolgreich abgeschlossen hatte, bekam sie viel Lob von ihrem Chef. Sie ist froh, dass sie den Jobwechsel gewagt hat, auch wenn der Einstieg nicht immer leicht war.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie arbeitet seit zwei Jahren bei Media Plus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hatte schon vorher Erfahrung in der Werbebranche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie mag die kreative Atmosphäre im Büro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Deadlines in der Agentur sind meistens locker.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophies Chef hat sie nach dem ersten Projekt gelobt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wiedersehen-mit-der-alten-freundin-nach-zehn-jahren",
+    "nivel": "B1",
+    "titulo": "Das Wiedersehen mit der alten Freundin nach zehn Jahren",
+    "descripcion": "Zwei Freundinnen treffen sich nach zehn Jahren zufällig wieder und erinnern sich an ihre Schulzeit.",
+    "texto": "Petra stand an der Supermarktkasse, als sie plötzlich eine vertraute Stimme hörte. Es war Carla, ihre beste Freundin aus der Schulzeit, die sie seit zehn Jahren nicht mehr gesehen hatte. Nachdem beide sich kurz angeschaut hatten, fielen sie sich lachend in die Arme.\n\nObwohl so viel Zeit vergangen war, fühlte sich das Gespräch sofort vertraut an. Sie setzten sich in ein nahes Café und erzählten sich stundenlang von ihrem Leben. Carla war nach dem Abitur ins Ausland gezogen, trotzdem hatte sie ihre alte Heimatstadt nie ganz vergessen.\n\nNachdem sie Telefonnummern ausgetauscht hatten, versprachen sich die beiden, sich öfter zu treffen. Petra konnte es kaum glauben, wie schön es war, die alte Freundschaft wiederzubeleben. Beide freuten sich schon auf das nächste Treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Petra und Carla haben sich im Park getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden hatten sich seit zehn Jahren nicht gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Gespräch fühlte sich fremd und unangenehm an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carla ist nach dem Abitur ins Ausland gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden wollen sich nie wieder treffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-die-vier-tage-woche-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Die Debatte um die Vier-Tage-Woche in Deutschland",
+    "descripcion": "Ein Überblick über die gesellschaftliche Diskussion um die Einführung der Vier-Tage-Woche und ihre möglichen Folgen.",
+    "texto": "In den letzten Jahren wird in Deutschland zunehmend über die Einführung einer Vier-Tage-Woche diskutiert. Befürworter argumentieren, dass die Produktivität der Beschäftigten steigen würde, wenn ihnen mehr Freizeit zur Erholung zur Verfügung stünde. Zahlreiche Pilotprojekte, die in verschiedenen Unternehmen durchgeführt wurden, hätten gezeigt, dass sich die Arbeitsleistung trotz kürzerer Arbeitszeit kaum verschlechtert habe.\n\nKritiker hingegen weisen darauf hin, dass eine flächendeckende Verkürzung der Arbeitszeit angesichts des bestehenden Fachkräftemangels kaum realistisch sei. Besonders in Branchen wie der Pflege oder dem Handwerk, in denen ohnehin schon Personal fehlt, könnte eine solche Reform zu erheblichen Engpässen führen. Zudem müssten viele Unternehmen ihre Arbeitsprozesse grundlegend umstrukturieren, was mit erheblichen Kosten verbunden wäre.\n\nBefürworter entgegnen, dass langfristig sowohl die Zufriedenheit der Mitarbeitenden als auch die Bindung an das Unternehmen gestärkt würde, wodurch wiederum Fachkräfte leichter gehalten werden könnten. Ob sich die Vier-Tage-Woche in Deutschland durchsetzen wird, bleibt vorerst offen. Sicher ist jedoch, dass das Thema die Arbeitswelt der kommenden Jahre weiterhin prägen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die Vier-Tage-Woche wird in Deutschland kaum diskutiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pilotprojekte haben gezeigt, dass die Arbeitsleistung trotz kürzerer Arbeitszeit kaum gesunken ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker halten eine flächendeckende Arbeitszeitverkürzung angesichts des Fachkräftemangels für unproblematisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Umstrukturierung der Arbeitsprozesse wäre für Unternehmen kostenlos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter glauben, dass die Mitarbeiterbindung durch die Reform gestärkt werden könnte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-fachkraeftemangel-in-der-pflegebranche",
+    "nivel": "B2",
+    "titulo": "Der Fachkräftemangel in der Pflegebranche",
+    "descripcion": "Der Text beleuchtet die Ursachen und möglichen Lösungsansätze für den anhaltenden Personalmangel in der Pflege.",
+    "texto": "Seit Jahren wird in Deutschland über den gravierenden Fachkräftemangel in der Pflegebranche gesprochen, ohne dass bislang eine durchgreifende Lösung gefunden worden wäre. Viele Pflegekräfte verlassen den Beruf frühzeitig, weil die Arbeitsbelastung als zu hoch empfunden wird und die Bezahlung in keinem angemessenen Verhältnis zur Verantwortung stehe, die täglich getragen werden muss.\n\nExperten schlagen vor, dass die Gehälter in der Pflege deutlich angehoben werden sollten, damit der Beruf für junge Menschen wieder attraktiver würde. Darüber hinaus wird diskutiert, ob durch eine verstärkte Digitalisierung administrativer Aufgaben mehr Zeit für die eigentliche Pflege am Menschen geschaffen werden könnte. Auch die Anwerbung ausländischer Fachkräfte wird von der Politik als möglicher Ausweg genannt, obwohl die Anerkennung ausländischer Abschlüsse oft mit bürokratischen Hürden verbunden ist.\n\nSollten keine wirksamen Maßnahmen ergriffen werden, befürchten Fachleute, dass sich die Versorgungslage in den kommenden Jahren weiter verschärfen würde. Angesichts der demografischen Entwicklung, bei der die Zahl pflegebedürftiger Menschen stetig zunimmt, gilt das Problem als eine der größten gesellschaftlichen Herausforderungen der Zukunft.",
+    "preguntas": [
+      {
+        "enunciado": "Der Fachkräftemangel in der Pflege ist bereits vollständig gelöst worden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Pflegekräfte verlassen den Beruf, weil sie die Arbeitsbelastung als zu hoch empfinden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten lehnen eine Gehaltserhöhung in der Pflege grundsätzlich ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Anerkennung ausländischer Abschlüsse ist völlig unbürokratisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahl pflegebedürftiger Menschen nimmt laut Text stetig zu.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ki-im-klassenzimmer",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Klassenzimmer",
+    "descripcion": "Der Text diskutiert Chancen und Risiken des Einsatzes von künstlicher Intelligenz im schulischen Unterricht.",
+    "texto": "Der Einsatz künstlicher Intelligenz im schulischen Unterricht wird derzeit kontrovers diskutiert. Befürworter sind der Ansicht, dass Lernprogramme, die auf KI basieren, individuell auf die Bedürfnisse einzelner Schüler eingehen könnten, wodurch der Unterricht insgesamt effektiver gestaltet würde. Aufgaben, die früher von Lehrkräften mühsam korrigiert werden mussten, könnten durch automatisierte Systeme in kürzester Zeit ausgewertet werden.\n\nKritiker warnen jedoch davor, dass eine zu starke Abhängigkeit von KI-Systemen die Entwicklung eigenständigen Denkens bei Schülern beeinträchtigen könnte. Wenn Hausaufgaben zunehmend mithilfe von Chatbots erledigt würden, bestünde die Gefahr, dass grundlegende Kompetenzen wie das selbstständige Schreiben oder kritische Hinterfragen von Informationen verkümmerten. Außerdem wird befürchtet, dass durch den Einsatz solcher Technologien sensible Daten von Minderjährigen gesammelt und möglicherweise missbräuchlich verwendet werden könnten.\n\nUm diesen Risiken zu begegnen, fordern viele Bildungsexperten, dass klare rechtliche Rahmenbedingungen geschaffen werden müssten, bevor KI-Anwendungen flächendeckend in Schulen eingeführt werden. Nur wenn Lehrkräfte entsprechend fortgebildet würden und ein verantwortungsvoller Umgang mit der Technologie vermittelt werde, könne das Potenzial der künstlichen Intelligenz sinnvoll genutzt werden, ohne die Schüler zu gefährden.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter glauben, dass KI-Lernprogramme individuell auf Schüler eingehen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern fördert eine starke KI-Nutzung automatisch das eigenständige Denken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt keine Bedenken hinsichtlich des Datenschutzes von Minderjährigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern klare rechtliche Rahmenbedingungen vor einer flächendeckenden Einführung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sagt, dass alle Lehrkräfte bereits ausreichend fortgebildet sind.",
+        "respuesta": false
+      }
+    ]
   }
 ]
