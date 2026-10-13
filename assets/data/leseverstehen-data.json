@@ -50234,5 +50234,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "lieblingsfarbe-gelb",
+    "nivel": "A1",
+    "titulo": "Meine Lieblingsfarbe",
+    "descripcion": "Lena erzählt, warum Gelb ihre Lieblingsfarbe ist.",
+    "texto": "Lena ist acht Jahre alt. Ihre Lieblingsfarbe ist Gelb. Sie hat ein gelbes Fahrrad und eine gelbe Tasche. Ihr Zimmer hat auch gelbe Vorhänge. Lena mag die Sonne, und die Sonne ist gelb.\n\nIhr Bruder Tim mag Blau. Er hat ein blaues T-Shirt und blaue Schuhe. „Blau ist die Farbe vom Himmel\", sagt Tim. Lena lacht und sagt: „Aber Gelb ist viel schöner!\"\n\nAm Wochenende malen Lena und Tim ein Bild zusammen. Lena malt eine gelbe Sonne. Tim malt einen blauen Himmel. Am Ende sind beide Farben auf dem Bild, und das Bild ist sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Lenas Lieblingsfarbe ist Gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena hat ein blaues Fahrrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim mag die Farbe Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena und Tim malen nie zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende hat das Bild zwei Farben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-mit-oma-und-opa",
+    "nivel": "A1",
+    "titulo": "Ein Tag mit Oma und Opa",
+    "descripcion": "Paul verbringt einen Samstag bei seinen Großeltern.",
+    "texto": "Paul besucht am Samstag seine Oma und seinen Opa. Sie wohnen in einem kleinen Haus mit Garten. Im Garten gibt es Blumen, Tomaten und einen Apfelbaum. Paul hilft Opa beim Gießen der Blumen.\n\nOma backt einen Kuchen für Paul. Der Kuchen ist mit Äpfeln aus dem Garten. Paul isst zwei Stück Kuchen und trinkt ein Glas Milch. Danach spielt er mit dem Ball im Garten.\n\nAm Abend liest Opa eine Geschichte vor. Paul hört gern zu. Er findet den Tag bei Oma und Opa sehr schön. Er möchte bald wieder kommen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul besucht Oma und Opa am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Garten gibt es keine Bäume.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma backt einen Apfelkuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trinkt einen Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa liest am Abend eine Geschichte vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "montag-in-der-schule",
+    "nivel": "A1",
+    "titulo": "Montag in der Schule",
+    "descripcion": "Jonas erzählt, wie sein Montag in der Schule aussieht.",
+    "texto": "Jonas steht am Montag um sieben Uhr auf. Er isst ein Brot mit Käse und trinkt Kakao. Dann packt er seine Schultasche und geht zur Schule.\n\nIn der Schule hat Jonas Mathe, Deutsch und Sport. Mathe ist sein Lieblingsfach. In der Pause spielt er mit seinen Freunden Fußball auf dem Schulhof. Das Wetter ist sonnig und warm.\n\nNach der Schule geht Jonas nach Hause. Er macht seine Hausaufgaben und spielt dann mit seinem Hund. Am Abend isst die ganze Familie zusammen Abendessen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas trinkt am Morgen Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mathe ist Jonas' Lieblingsfach.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Pause spielt Jonas allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas macht nach der Schule Hausaufgaben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kochkurs-am-wochenende",
+    "nivel": "A2",
+    "titulo": "Der Kochkurs am Wochenende",
+    "descripcion": "Sabine hat an einem Wochenende einen italienischen Kochkurs besucht.",
+    "texto": "Sabine hat letztes Wochenende an einem Kochkurs teilgenommen, weil sie gern italienisch kocht. Der Kurs hat in einer kleinen Küche in der Innenstadt stattgefunden. Zusammen mit acht anderen Teilnehmern hat sie frische Pasta gemacht und eine Tomatensoße gekocht.\n\nDer Kursleiter, ein Italiener aus Neapel, hat erklärt, dass man für gute Pasta nur wenige Zutaten braucht: Mehl, Eier und ein bisschen Salz. Sabine war überrascht, dass die Herstellung so einfach war, obwohl das Ergebnis sehr lecker geschmeckt hat. Am Ende des Kurses haben alle zusammen gegessen und über ihre Lieblingsgerichte gesprochen.\n\nNach dem Kurs hat Sabine die Pasta-Rezepte zu Hause ausprobiert. Ihre Familie hat das Essen so sehr gemocht, dass sie den Kochkurs weiterempfohlen hat. Sie plant schon den nächsten Kurs, weil sie auch gern lernen möchte, wie man Risotto kocht.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hat an einem italienischen Kochkurs teilgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kurs hat in Sabines eigener Wohnung stattgefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kursleiter kommt aus Neapel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Für die Pasta braucht man viele verschiedene Zutaten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabines Familie hat das Essen gemocht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ausflug-in-den-freizeitpark",
+    "nivel": "A2",
+    "titulo": "Ausflug in den Freizeitpark",
+    "descripcion": "Eine Familie verbringt einen aufregenden Tag in einem Freizeitpark.",
+    "texto": "Familie Brandt ist am Sonntag in einen Freizeitpark gefahren, weil die Kinder schon lange eine Achterbahn fahren wollten. Die Fahrt hat ungefähr eine Stunde gedauert, und als sie angekommen sind, war der Park schon ziemlich voll. Trotzdem haben sie einen Parkplatz in der Nähe gefunden.\n\nDie Kinder sind sofort zur großen Achterbahn gelaufen, obwohl die Wartezeit fast vierzig Minuten betragen hat. Die Eltern haben lieber eine ruhigere Fahrt mit dem Riesenrad gemacht und dabei einen schönen Blick über den ganzen Park gehabt. Zum Mittagessen hat die Familie Pommes und Burger gegessen, weil sie nach den vielen Fahrten großen Hunger hatten.\n\nAm Nachmittag hat es leicht geregnet, aber das hat die Stimmung nicht verschlechtert. Die Kinder haben trotzdem noch zwei weitere Fahrgeschäfte ausprobiert. Am Abend war die ganze Familie müde, aber alle waren sich einig, dass es ein wunderschöner Tag gewesen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist am Sonntag in den Freizeitpark gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Park war an diesem Tag fast leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Eltern sind mit dem Riesenrad gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat zum Mittagessen Salat gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend waren alle müde, aber zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nachbarin-zieht-ein",
+    "nivel": "A2",
+    "titulo": "Eine neue Nachbarin zieht ein",
+    "descripcion": "Herr Weber lernt seine neue Nachbarin kennen, die aus Portugal kommt.",
+    "texto": "Letzte Woche ist eine neue Nachbarin in die Wohnung neben Herrn Weber eingezogen. Sie heißt Marta und kommt aus Portugal. Herr Weber hat gehört, wie die Umzugswagen vor dem Haus geparkt haben, und ist nach draußen gegangen, um zu helfen.\n\nMarta hat sich gefreut, weil sie noch niemanden in der Stadt kannte. Sie hat erzählt, dass sie wegen ihrer neuen Arbeit umgezogen ist. Herr Weber hat ihr erklärt, wo der nächste Supermarkt ist und wie der Müll getrennt wird. Marta hat sich bedankt und gesagt, dass sie bald eine kleine Einweihungsfeier machen möchte.\n\nAm Wochenende hat Marta tatsächlich alle Nachbarn zum Kaffee eingeladen. Herr Weber hat portugiesischen Kuchen probiert, den Marta selbst gebacken hat. Er war so lecker, dass er gleich nach dem Rezept gefragt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Marta kommt aus Spanien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat Marta beim Umzug geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marta ist wegen einer neuen Arbeit umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marta kannte schon alle Nachbarn vorher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat den portugiesischen Kuchen probiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schueleraustausch-nach-lyon",
+    "nivel": "B1",
+    "titulo": "Der Schüleraustausch nach Lyon",
+    "descripcion": "Eine Schülerin berichtet über ihre Erfahrungen während eines Austauschs in Frankreich.",
+    "texto": "Nachdem Hannah monatelang Französisch gelernt hatte, hat sie sich entschieden, an einem Schüleraustausch nach Lyon teilzunehmen. Obwohl sie vor der Abreise sehr nervös war, hat sie sich schnell in ihrer Gastfamilie wohlgefühlt. Die Gastmutter, Madame Lefèvre, hat sie herzlich empfangen und ihr gezeigt, wie das Leben in einer französischen Familie aussieht.\n\nIn der Schule in Lyon war vieles anders als in Deutschland. Der Unterricht hat früher begonnen, und die Pausen waren kürzer. Trotzdem hat Hannah schnell Freunde gefunden, weil die anderen Schüler sehr offen waren. Nachdem sie einige Wochen dort verbracht hatte, konnte sie sich schon viel besser auf Französisch verständigen als am Anfang.\n\nAm Ende des Austauschs fiel der Abschied schwer, obwohl Hannah wusste, dass sie ihre neuen Freunde wiedersehen würde. Sie hat sich vorgenommen, auch im nächsten Jahr wieder nach Frankreich zu fahren. Der Austausch hat ihr gezeigt, wie wichtig es ist, offen für neue Kulturen zu sein.",
+    "preguntas": [
+      {
+        "enunciado": "Hannah hat vor der Abreise lange Französisch gelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hannah hat sich bei ihrer Gastfamilie nicht wohlgefühlt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Unterricht in Lyon hat später begonnen als in Deutschland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hannah konnte am Ende besser Französisch sprechen als am Anfang.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hannah möchte im nächsten Jahr wieder nach Frankreich fahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ehrenamtlich-im-tierheim-helfen",
+    "nivel": "B1",
+    "titulo": "Ehrenamtlich im Tierheim helfen",
+    "descripcion": "Markus erzählt, warum er trotz vollem Terminkalender regelmäßig im Tierheim hilft.",
+    "texto": "Markus arbeitet Vollzeit als Ingenieur, verbringt aber trotzdem jeden Samstag ein paar Stunden im örtlichen Tierheim. Nachdem er vor zwei Jahren einen Zeitungsartikel über die Arbeit des Tierheims gelesen hatte, hat er sich spontan als Helfer gemeldet. Seitdem geht er regelmäßig mit den Hunden spazieren und hilft bei der Reinigung der Gehege.\n\nObwohl die Arbeit anstrengend ist, sagt Markus, dass sie ihm viel Freude bereitet. Besonders schön findet er es, wenn ein Tier nach langer Zeit im Heim endlich ein neues Zuhause findet. Trotzdem gibt es auch traurige Momente, zum Beispiel wenn kranke oder alte Tiere nicht vermittelt werden können.\n\nMarkus hofft, dass sich in Zukunft mehr Menschen für ehrenamtliche Arbeit entscheiden, weil Tierheime oft zu wenig Personal haben. Er selbst möchte auf jeden Fall weitermachen, auch wenn sein Terminkalender manchmal sehr voll ist. Für ihn ist die Zeit im Tierheim ein wichtiger Ausgleich zum stressigen Arbeitsalltag.",
+    "preguntas": [
+      {
+        "enunciado": "Markus arbeitet Vollzeit im Tierheim.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hilft dort, seit er einen Zeitungsartikel gelesen hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus findet die Arbeit nie anstrengend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt auch traurige Momente im Tierheim.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus möchte mit der ehrenamtlichen Arbeit aufhören.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "umzug-in-die-erste-eigene-wohnung",
+    "nivel": "B1",
+    "titulo": "Umzug in die erste eigene Wohnung",
+    "descripcion": "Tim zieht nach dem Schulabschluss in seine erste eigene Wohnung.",
+    "texto": "Nachdem Tim seinen Schulabschluss gemacht hatte, hat er sich entschieden, in seine erste eigene Wohnung zu ziehen. Die Wohnung ist zwar klein, liegt aber praktisch in der Nähe seiner neuen Arbeitsstelle. Obwohl seine Eltern anfangs besorgt waren, haben sie ihn beim Umzug tatkräftig unterstützt.\n\nDie ersten Wochen in der eigenen Wohnung waren für Tim eine große Umstellung. Er musste lernen, selbst einzukaufen, zu kochen und die Wohnung sauber zu halten. Nachdem er einige Male vergessen hatte, die Miete pünktlich zu überweisen, hat er sich eine Erinnerung im Handy eingestellt, damit so etwas nicht wieder passiert.\n\nTrotz der anfänglichen Schwierigkeiten genießt Tim die Freiheit, die das eigenständige Wohnen mit sich bringt. Er kann nun selbst entscheiden, wann er aufsteht und was er isst, ohne auf andere Rücksicht nehmen zu müssen. Rückblickend sagt er, dass der Umzug ihm geholfen hat, schneller erwachsen zu werden.",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist nach dem Schulabschluss ausgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wohnung liegt weit entfernt von Tims Arbeitsstelle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tims Eltern haben ihm beim Umzug geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat von Anfang an immer pünktlich die Miete überwiesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim bereut den Umzug in die eigene Wohnung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "debatte-um-das-grundeinkommen",
+    "nivel": "B2",
+    "titulo": "Die Debatte um ein bedingungsloses Grundeinkommen",
+    "descripcion": "Ein Beitrag untersucht die Argumente für und gegen ein bedingungsloses Grundeinkommen.",
+    "texto": "Die Idee eines bedingungslosen Grundeinkommens wird in Deutschland seit Jahren kontrovers diskutiert. Befürworter argumentieren, dass ein garantiertes Einkommen, das unabhängig von Erwerbstätigkeit ausgezahlt würde, die soziale Absicherung grundlegend verbessern und bürokratische Hürden abbauen könnte. Gerade angesichts der zunehmenden Automatisierung vieler Arbeitsplätze wird betont, dass ein solches Modell langfristig notwendig werden könnte, um gesellschaftliche Stabilität zu gewährleisten.\n\nKritiker hingegen bezweifeln, dass ein bedingungsloses Grundeinkommen finanzierbar wäre, ohne dass gleichzeitig andere Sozialleistungen stark gekürzt werden müssten. Zudem wird befürchtet, dass die Erwerbsbeteiligung sinken könnte, wenn Menschen auch ohne Arbeit ein ausreichendes Einkommen erhielten. Mehrere Pilotprojekte, die in den letzten Jahren durchgeführt wurden, haben bislang keine eindeutigen Ergebnisse geliefert, was die Debatte zusätzlich erschwert.\n\nUnabhängig davon, wie man zu dem Konzept steht, zeigt die anhaltende Diskussion, dass grundlegende Fragen zur Zukunft der Arbeit und des Sozialstaats neu verhandelt werden müssen. Sollte sich die Arbeitswelt durch Digitalisierung und künstliche Intelligenz weiter wandeln, würde vermutlich auch der Druck wachsen, alternative Sicherungssysteme ernsthafter zu prüfen. Die Debatte dürfte daher in den kommenden Jahren kaum an Relevanz verlieren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Debatte um das Grundeinkommen wird in Deutschland schon seit Jahren geführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter sehen im Grundeinkommen keinen Zusammenhang mit der Automatisierung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten eine sinkende Erwerbsbeteiligung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle durchgeführten Pilotprojekte haben eindeutige Ergebnisse geliefert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text geht davon aus, dass die Debatte an Relevanz verlieren wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ki-im-bildungswesen",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Bildungswesen",
+    "descripcion": "Der Beitrag beleuchtet Chancen und Risiken des Einsatzes von KI-Werkzeugen an Schulen.",
+    "texto": "Der Einsatz künstlicher Intelligenz im Bildungswesen wird zunehmend diskutiert, seit KI-gestützte Werkzeuge immer leistungsfähiger und zugänglicher geworden sind. Befürworter heben hervor, dass solche Systeme individualisiertes Lernen ermöglichen könnten, indem sie sich an das Tempo und die Bedürfnisse einzelner Schüler anpassen. Zudem könnten Lehrkräfte entlastet werden, da administrative Aufgaben wie die Korrektur einfacher Aufgaben von Algorithmen übernommen werden könnten.\n\nGleichzeitig wird vor den Risiken eines unreflektierten Einsatzes gewarnt. Es wird befürchtet, dass Schüler, die sich zu stark auf KI-Werkzeuge verlassen, grundlegende Kompetenzen wie eigenständiges Schreiben oder kritisches Denken nicht ausreichend entwickeln könnten. Darüber hinaus stellt sich die Frage, wie mit den sensiblen Daten umgegangen wird, die bei der Nutzung solcher Systeme anfallen, und ob Bildungseinrichtungen über ausreichende Mittel verfügen, um sie angemessen zu schützen.\n\nExperten sind sich weitgehend einig, dass es nicht darum gehen sollte, KI-Werkzeuge vollständig abzulehnen oder unkritisch zu übernehmen. Vielmehr müsste ein verantwortungsvoller Umgang entwickelt werden, bei dem Lehrkräfte entsprechend geschult würden, damit die Technologie den Unterricht sinnvoll ergänzt, anstatt ihn zu ersetzen. Nur so ließe sich das Potenzial der neuen Werkzeuge nutzen, ohne wesentliche pädagogische Prinzipien zu gefährden.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter sehen in KI-Werkzeugen eine Möglichkeit für individualisiertes Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text gibt es keine Risiken beim Einsatz von KI im Unterricht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wird befürchtet, dass Schüler weniger eigenständig denken könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frage des Datenschutzes wird im Text nicht erwähnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten plädieren eher für einen verantwortungsvollen als für einen unkritischen Umgang mit KI.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "pflegekraeftemangel-im-krankenhaus",
+    "nivel": "B2",
+    "titulo": "Der Pflegekräftemangel im Krankenhaus",
+    "descripcion": "Ein Beitrag analysiert die Ursachen und Folgen des Fachkräftemangels in der Pflege.",
+    "texto": "Der Mangel an qualifiziertem Pflegepersonal stellt deutsche Krankenhäuser vor erhebliche Herausforderungen. Immer mehr Pflegekräfte verlassen ihren Beruf vorzeitig, was unter anderem auf die hohe körperliche und psychische Belastung sowie auf vergleichsweise geringe Löhne zurückgeführt wird. Gleichzeitig steigt aufgrund der demografischen Entwicklung der Bedarf an pflegerischer Versorgung kontinuierlich an, sodass sich die Situation in den kommenden Jahren weiter zuspitzen dürfte.\n\nUm dem entgegenzuwirken, würden Experten eine Reihe struktureller Reformen für notwendig halten. Diskutiert werden unter anderem verbindliche Personaluntergrenzen, die sicherstellen sollen, dass auf jeder Station ausreichend Personal eingesetzt wird, sowie eine deutliche Verbesserung der Gehälter. Auch die Anwerbung ausländischer Fachkräfte wird als mögliche Lösung betrachtet, wobei dabei bürokratische Hürden bei der Anerkennung ausländischer Abschlüsse abgebaut werden müssten.\n\nKritiker bemängeln jedoch, dass bisherige Reformversuche häufig zu halbherzig umgesetzt worden seien, um eine nachhaltige Verbesserung der Arbeitsbedingungen zu bewirken. Ohne tiefgreifende Veränderungen, so die Befürchtung, werde sich der Fachkräftemangel in der Pflege weiter verschärfen und damit auch die Qualität der Patientenversorgung gefährden. Die Politik stehe daher vor der Aufgabe, entschlossener zu handeln, als dies bislang geschehen sei.",
+    "preguntas": [
+      {
+        "enunciado": "Viele Pflegekräfte verlassen ihren Beruf wegen hoher Belastung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bedarf an pflegerischer Versorgung sinkt laut dem Text.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Verbindliche Personaluntergrenzen werden als mögliche Maßnahme diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Anwerbung ausländischer Fachkräfte wird im Text nicht erwähnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker halten bisherige Reformversuche für ausreichend.",
+        "respuesta": false
+      }
+    ]
   }
 ]
