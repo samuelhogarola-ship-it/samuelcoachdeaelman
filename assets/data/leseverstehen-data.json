@@ -50930,5 +50930,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "paul-kauft-brot-beim-baecker",
+    "nivel": "A1",
+    "titulo": "Paul kauft Brot beim Bäcker",
+    "descripcion": "Paul geht morgens zum Bäcker und kauft Brot und Brötchen.",
+    "texto": "Paul steht früh auf. Er geht jeden Morgen zum Bäcker. Der Bäcker ist in der Nähe von seinem Haus. Paul kauft dort Brot und Brötchen für seine Familie.\n\nIm Laden ist es warm und es riecht gut. Die Verkäuferin lächelt und fragt: „Was möchtest du heute?“ Paul antwortet: „Ich möchte zwei Brötchen und ein Brot, bitte.“ Er bezahlt drei Euro.\n\nDanach geht Paul nach Hause. Seine Mutter macht Kaffee. Die ganze Familie isst zusammen Frühstück. Das Brot vom Bäcker schmeckt immer sehr gut.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht zum Bäcker.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft nur Milch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Verkäuferin lächelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul bezahlt zehn Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst zusammen Frühstück.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lena-und-ihre-drei-katzen",
+    "nivel": "A1",
+    "titulo": "Lena und ihre drei Katzen",
+    "descripcion": "Lena lebt mit drei Katzen zusammen und erzählt von ihrem Alltag.",
+    "texto": "Lena hat drei Katzen. Die Katzen heißen Mimi, Lotte und Felix. Mimi ist schwarz, Lotte ist weiß und Felix ist grau. Alle drei Katzen schlafen gern auf dem Sofa.\n\nJeden Morgen füttert Lena die Katzen. Sie gibt ihnen Wasser und Futter. Danach spielt sie zehn Minuten mit Felix, weil er sehr aktiv ist. Mimi und Lotte sind ruhiger.\n\nAm Abend sitzt Lena mit ihren Katzen auf dem Sofa und liest ein Buch. Die Katzen sind für Lena wie eine kleine Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat drei Katzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix ist schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena füttert die Katzen jeden Morgen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist sehr aktiv.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena liest abends mit den Katzen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-geburtstag-im-garten",
+    "nivel": "A1",
+    "titulo": "Ein Geburtstag im Garten",
+    "descripcion": "Tom feiert seinen Geburtstag mit seiner Familie im Garten.",
+    "texto": "Tom wird heute acht Jahre alt. Die Familie feiert seinen Geburtstag im Garten. Die Sonne scheint und der Garten ist bunt dekoriert.\n\nTom bekommt viele Geschenke. Er bekommt ein Fahrrad, ein Buch und einen Fußball. Seine Schwester schenkt ihm eine Geburtstagskarte. Alle singen ein Lied für Tom.\n\nZum Mittagessen gibt es Kuchen und Limonade. Die Kinder spielen im Garten und lachen viel. Tom sagt: „Das ist der schönste Tag!“",
+    "preguntas": [
+      {
+        "enunciado": "Tom wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Party ist im Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom bekommt ein Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt kein Essen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder spielen im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "jonas-verpasst-den-letzten-zug",
+    "nivel": "A2",
+    "titulo": "Jonas verpasst den letzten Zug",
+    "descripcion": "Jonas kommt zu spät zum Bahnhof und muss eine Lösung finden.",
+    "texto": "Jonas war bei einem Konzert in einer anderen Stadt. Als das Konzert zu Ende war, ist er schnell zum Bahnhof gelaufen, weil er den letzten Zug erreichen wollte. Leider ist er zu spät gekommen, und der Zug ist schon abgefahren.\n\nJonas war sehr frustriert. Er hat auf dem Bahnhof gewartet und überlegt, was er tun soll. Zuerst hat er seine Eltern angerufen, aber sie konnten ihn nicht abholen, weil sie zu weit weg wohnten. Dann hat er im Internet ein günstiges Hotel in der Nähe gefunden.\n\nAm nächsten Morgen ist Jonas mit dem ersten Zug nach Hause gefahren. Er war müde, aber er hat aus der Situation gelernt: Jetzt plant er immer mehr Zeit für den Rückweg.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas war bei einem Konzert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat den letzten Zug erreicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Eltern haben ihn sofort abgeholt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat ein Hotel gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er ist am nächsten Morgen nach Hause gefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-schwimmbad-mit-opa",
+    "nivel": "A2",
+    "titulo": "Der Besuch im Schwimmbad mit Opa",
+    "descripcion": "Ein Enkel verbringt einen Sommertag mit seinem Opa im Schwimmbad.",
+    "texto": "Letzten Samstag ist Felix mit seinem Opa ins Schwimmbad gefahren, weil das Wetter sehr warm war. Sie sind mit dem Bus gefahren, weil Opa nicht gern mit dem Auto fährt. Im Schwimmbad gab es viele Menschen, aber sie haben trotzdem einen Platz am Wasser gefunden.\n\nFelix ist viel geschwommen, und Opa hat am Rand des Becken gesessen und zugeschaut. Nach einer Stunde hat Opa gesagt, dass er auch schwimmen möchte. Felix hat sich gefreut, weil Opa das selten macht. Sie sind zusammen ins Wasser gesprungen und haben viel gelacht.\n\nAm Ende des Tages haben sie ein Eis gekauft und sind müde, aber glücklich, nach Hause gefahren. Felix hat seiner Mutter erzählt, dass es der beste Tag des Sommers war.",
+    "preguntas": [
+      {
+        "enunciado": "Felix und Opa sind mit dem Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Schwimmbad war leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa hat auch im Wasser geschwommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben am Ende ein Eis gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix war nicht glücklich.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-ansichtskarte-vom-skiurlaub",
+    "nivel": "A2",
+    "titulo": "Eine Ansichtskarte vom Skiurlaub",
+    "descripcion": "Clara schreibt ihrer Freundin eine Ansichtskarte aus den österreichischen Alpen.",
+    "texto": "Liebe Sofie,\n\nich bin seit drei Tagen mit meiner Familie in den österreichischen Alpen. Wir wohnen in einer kleinen Hütte und machen jeden Tag Skiurlaub. Gestern bin ich zum ersten Mal richtig schnell Ski gefahren, weil mein Vater mir viel geholfen hat.\n\nAm Abend ist es hier sehr kalt, aber im Haus ist es gemütlich warm. Wir trinken oft heiße Schokolade und erzählen Geschichten. Obwohl ich am ersten Tag oft gestürzt bin, macht mir das Skifahren jetzt sehr viel Spaß.\n\nIch hoffe, dass es dir gut geht. Nächste Woche bin ich wieder zu Hause und erzähle dir alles.\n\nViele Grüße,\nClara",
+    "preguntas": [
+      {
+        "enunciado": "Clara ist in den österreichischen Alpen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara fährt zum ersten Mal in ihrem Leben Ski.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Haus ist es gemütlich warm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara ist am ersten Tag nie gestürzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara bleibt für immer in den Alpen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "annas-erstes-jahr-an-der-neuen-schule",
+    "nivel": "B1",
+    "titulo": "Annas erstes Jahr an der neuen Schule",
+    "descripcion": "Anna berichtet, wie sie sich nach dem Umzug an einer neuen Schule eingelebt hat.",
+    "texto": "Als Anna mit ihrer Familie in eine andere Stadt gezogen ist, musste sie an einer völlig neuen Schule anfangen. In den ersten Wochen kannte sie niemanden, und obwohl die anderen Schüler freundlich waren, fühlte sie sich oft einsam. Sie vermisste ihre alten Freunde und fragte sich, ob sie sich jemals wirklich wohlfühlen würde.\n\nNachdem sie dem Theaterclub der Schule beigetreten war, änderte sich vieles. Dort lernte sie Mia kennen, die genauso schüchtern war wie sie selbst am Anfang. Die beiden übten gemeinsam für ein Stück und wurden trotz ihrer unterschiedlichen Interessen schnell gute Freundinnen. Durch den Club fand Anna auch Zugang zu anderen Gruppen in der Schule.\n\nHeute, ein Jahr später, gehört Anna zu den beliebtesten Schülerinnen ihrer Klasse. Sie erinnert sich noch gut an die schwierigen ersten Wochen, ist aber stolz darauf, dass sie nicht aufgegeben hat. Ihr Rat an andere Neuankömmlinge lautet: Man sollte sich einer Gruppe anschließen, auch wenn man am Anfang Angst hat.",
+    "preguntas": [
+      {
+        "enunciado": "Anna ist mit ihrer Familie umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna fühlte sich von Anfang an sehr wohl.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna hat Mia im Theaterclub kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna und Mia wurden keine Freundinnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna rät anderen, sich einer Gruppe anzuschließen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-konflikt-im-mehrfamilienhaus-wegen-des-gartens",
+    "nivel": "B1",
+    "titulo": "Der Konflikt im Mehrfamilienhaus wegen des Gartens",
+    "descripcion": "Die Bewohner eines Mehrfamilienhauses streiten über die Nutzung des gemeinsamen Gartens.",
+    "texto": "In dem Mehrfamilienhaus, in dem Familie Berger wohnt, gibt es einen gemeinsamen Garten, den alle Bewohner nutzen dürfen. Seit einigen Monaten gibt es jedoch Streit, weil manche Nachbarn den Garten regelmäßig für private Grillabende reservieren, obwohl eigentlich alle ein Recht darauf haben. Andere Bewohner beschweren sich, dass sie den Garten dadurch kaum nutzen können.\n\nNachdem sich die Situation immer weiter zugespitzt hatte, lud die Hausverwaltung alle Bewohner zu einem Treffen ein. Dort diskutierten die Nachbarn lange und manchmal auch laut. Trotzdem konnten sich am Ende die meisten auf einen Kompromiss einigen: Es wurde ein Plan erstellt, nach dem jede Wohnung an einem bestimmten Wochenende den Garten exklusiv nutzen darf.\n\nSeit dieser Vereinbarung ist es im Haus deutlich ruhiger geworden. Zwar sind nicht alle vollständig zufrieden, aber die klare Regelung hat die ständigen Konflikte beendet. Frau Berger meint, dass offene Gespräche am Ende immer besser funktionieren als heimlicher Ärger.",
+    "preguntas": [
+      {
+        "enunciado": "Der Garten gehört nur einer Familie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Bewohner haben den Garten oft privat reserviert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Hausverwaltung hat ein Treffen organisiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn konnten sich auf keinen Kompromiss einigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Vereinbarung ist es ruhiger im Haus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-jubilaeum-des-kulturvereins",
+    "nivel": "B1",
+    "titulo": "Das Jubiläum des Kulturvereins",
+    "descripcion": "Ein kleiner Kulturverein feiert sein zwanzigjähriges Bestehen mit einem Fest.",
+    "texto": "Der Kulturverein „Brückenbau“ feiert in diesem Jahr sein zwanzigjähriges Bestehen. Der Verein wurde ursprünglich gegründet, um Konzerte und Lesungen in der Kleinstadt zu organisieren, da es dort vorher kaum kulturelle Angebote gab. Inzwischen hat sich der Verein zu einem festen Bestandteil des örtlichen Lebens entwickelt.\n\nFür das Jubiläum planen die Mitglieder ein großes Fest auf dem Marktplatz. Es wird ein Theaterstück aufgeführt, das speziell für diesen Anlass geschrieben wurde, nachdem mehrere Vereinsmitglieder monatelang daran gearbeitet hatten. Außerdem sollen ehemalige Mitwirkende eingeladen werden, die den Verein in den letzten zwanzig Jahren mitgeprägt haben.\n\nObwohl die Vorbereitung viel Arbeit bedeutet hat, sind die Organisatoren zuversichtlich, dass das Fest ein großer Erfolg wird. Der Vorsitzende erklärt, dass der Verein ohne das Engagement der vielen freiwilligen Helfer niemals so lange bestanden hätte.",
+    "preguntas": [
+      {
+        "enunciado": "Der Kulturverein feiert sein zehnjähriges Bestehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verein wollte kulturelle Angebote in die Stadt bringen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Für das Jubiläum wird ein neues Theaterstück aufgeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ehemalige Mitwirkende werden nicht eingeladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verein lebt vom Engagement freiwilliger Helfer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-das-lieferkettengesetz",
+    "nivel": "B2",
+    "titulo": "Die Debatte um das Lieferkettengesetz",
+    "descripcion": "Gesetze zur Verantwortung von Unternehmen für ihre globalen Lieferketten werden kontrovers diskutiert.",
+    "texto": "In den letzten Jahren wurde in mehreren europäischen Ländern über sogenannte Lieferkettengesetze diskutiert, die Unternehmen dazu verpflichten sollen, Menschenrechts- und Umweltstandards entlang ihrer gesamten Lieferkette einzuhalten. Befürworter argumentieren, dass Konzerne, die von günstiger Produktion im Ausland profitieren, auch für die Bedingungen verantwortlich gemacht werden müssten, unter denen diese Güter hergestellt werden. Ohne eine solche Regelung, so die Befürworter, würden ausbeuterische Praktiken weiterhin stillschweigend geduldet.\n\nKritiker hingegen wenden ein, dass vor allem kleine und mittelständische Unternehmen durch die neuen Dokumentationspflichten übermäßig belastet würden. Wenn ein Betrieb Hunderte von Zulieferern in verschiedenen Ländern kontrollieren müsste, sei dies kaum praktikabel, ohne dass enorme zusätzliche Kosten entstünden. Manche Wirtschaftsverbände fordern deshalb, dass die Gesetze nur für sehr große Konzerne gelten sollten, während kleinere Firmen entlastet werden müssten.\n\nWürde man das Gesetz vollständig abschaffen, bestünde die Gefahr, dass international erzielte Fortschritte beim Schutz von Arbeiterinnen und Arbeitern wieder verloren gingen. Gleichzeitig wird jedoch zunehmend diskutiert, wie die Regelungen so gestaltet werden könnten, dass sie wirksam sind, ohne die Wettbewerbsfähigkeit kleinerer Unternehmen unnötig zu gefährden. Diese Debatte zeigt, wie schwierig es ist, globale Gerechtigkeit und wirtschaftliche Realität miteinander in Einklang zu bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Lieferkettengesetze betreffen die Produktionsbedingungen im Ausland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker lehnen jede Form von Regulierung grundsätzlich ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kleine Unternehmen befürchten einen hohen bürokratischen Aufwand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt Vorschläge, nur große Konzerne stärker zu verpflichten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird die Debatte als einfach und eindeutig gelöst beschrieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-personalmangel-in-handwerksbetrieben",
+    "nivel": "B2",
+    "titulo": "Der Personalmangel in Handwerksbetrieben",
+    "descripcion": "Immer mehr Handwerksbetriebe können offene Stellen nicht mehr besetzen, mit weitreichenden Folgen.",
+    "texto": "Handwerksbetriebe in vielen Regionen klagen seit Jahren über einen zunehmenden Mangel an qualifiziertem Personal. Während früher eine Ausbildung im Handwerk als solide Grundlage für ein sicheres Berufsleben galt, entscheiden sich heute deutlich weniger junge Menschen für diesen Weg. Stattdessen streben viele ein Studium an, selbst wenn ihre Interessen und Fähigkeiten eigentlich besser zu einem praktischen Beruf passen würden.\n\nDie Folgen dieses Mangels sind inzwischen deutlich spürbar: Kunden müssen teilweise monatelang auf einen Handwerkertermin warten, und manche Betriebe lehnen neue Aufträge ab, weil ihnen schlicht die Arbeitskräfte fehlen. Besonders betroffen sind Berufe wie Dachdecker oder Installateur, die als körperlich anstrengend gelten und bei jungen Menschen daher an Attraktivität verloren haben. Hinzu kommt, dass viele erfahrene Handwerksmeister in den kommenden Jahren in den Ruhestand gehen werden, ohne dass genügend Nachwuchs bereitsteht, um sie zu ersetzen.\n\nUm diesem Trend entgegenzuwirken, fordern Handwerksverbände unter anderem höhere Löhne, bessere Arbeitsbedingungen und eine stärkere gesellschaftliche Wertschätzung praktischer Berufe. Es wird zudem diskutiert, ob das Schulsystem handwerkliche Ausbildungswege wieder sichtbarer machen sollte, anstatt sie gegenüber einem Studium als weniger erstrebenswert darzustellen. Sollte sich an dieser Entwicklung nichts ändern, dürfte sich der Mangel an Fachkräften in den kommenden Jahren noch weiter verschärfen.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr junge Menschen entscheiden sich für eine Handwerksausbildung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kunden müssen teilweise lange auf Handwerkertermine warten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Berufe wie Dachdecker gelten als körperlich wenig anstrengend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele erfahrene Handwerksmeister gehen bald in den Ruhestand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Handwerksverbände fordern unter anderem höhere Löhne.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice-und-die-einsamkeit-im-beruf",
+    "nivel": "B2",
+    "titulo": "Homeoffice und die Einsamkeit im Beruf",
+    "descripcion": "Die Vorteile des Homeoffice werden zunehmend durch Berichte über soziale Isolation relativiert.",
+    "texto": "Seit mehrere Unternehmen ihren Angestellten erlauben, dauerhaft von zu Hause aus zu arbeiten, wird das Homeoffice meist als Errungenschaft gefeiert, die Pendelzeiten verkürzt und eine bessere Vereinbarkeit von Beruf und Privatleben ermöglicht. Zahlreiche Beschäftigte berichten tatsächlich, dass sie seither konzentrierter arbeiten können und mehr Zeit für ihre Familie haben. Gleichzeitig mehren sich jedoch Stimmen, die auf eine weniger beachtete Kehrseite dieser Entwicklung hinweisen.\n\nImmer mehr Arbeitnehmerinnen und Arbeitnehmer klagen über ein Gefühl der Isolation, das entsteht, wenn der informelle Austausch mit Kolleginnen und Kollegen fast vollständig wegfällt. Während früher spontane Gespräche in der Kaffeeküche oder gemeinsame Mittagspausen den Arbeitsalltag strukturierten, bleibt im Homeoffice oft nur die rein funktionale Kommunikation in Videokonferenzen übrig. Studien deuten darauf hin, dass besonders junge Berufseinsteiger, die kaum Gelegenheit hatten, persönliche Beziehungen zu ihrem Team aufzubauen, unter dieser Entwicklung leiden.\n\nManche Unternehmen reagieren inzwischen darauf, indem sie hybride Modelle einführen, bei denen einige Tage im Büro verpflichtend bleiben. Ob dadurch das Problem tatsächlich gelöst werden kann, wird allerdings kontrovers diskutiert, da auch während der Bürotage nicht automatisch ein echtes Gemeinschaftsgefühl entsteht. Letztlich wird deutlich, dass die Zukunft der Arbeit nicht allein eine Frage des Arbeitsortes ist, sondern vor allem davon abhängt, wie Unternehmen soziale Bindungen innerhalb ihrer Teams bewusst gestalten.",
+    "preguntas": [
+      {
+        "enunciado": "Das Homeoffice wird im Text ausschließlich positiv dargestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Beschäftigte berichten von einem Gefühl der Isolation.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Vor allem junge Berufseinsteiger sind von der Isolation betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen lehnen hybride Arbeitsmodelle vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text löst sich das Problem allein durch Bürotage.",
+        "respuesta": false
+      }
+    ]
   }
 ]
