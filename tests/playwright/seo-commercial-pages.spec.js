@@ -15,6 +15,16 @@ const pages = [
     path: "/preparacion-telc-online/",
     heading: /preparación telc online/i,
     title: /preparación telc online/i
+  },
+  {
+    path: "/servicios/",
+    heading: /servicios de alemán online/i,
+    title: /clases de alemán online en fuengirola/i
+  },
+  {
+    path: "/clases-aleman-malaga/",
+    heading: /clases de alemán en málaga/i,
+    title: /clases de alemán en málaga/i
   }
 ];
 
@@ -51,6 +61,45 @@ test.describe("SEO commercial pages", () => {
     const joinedStructuredData = structuredData.join(" ");
     expect(joinedStructuredData).not.toContain("aggregateRating");
     expect(joinedStructuredData).toContain('"priceRange": "30–40 EUR por hora"');
+  });
+
+  test("academy pages describe local and online coverage without implying extra locations", async ({ page }) => {
+    const expectedAreas = [
+      "Fuengirola",
+      "Málaga",
+      "Marbella",
+      "Benalmádena",
+      "Arroyo de la Miel",
+      "Andalucía",
+      "Madrid",
+      "Barcelona",
+      "Berlín",
+      "Múnich"
+    ];
+
+    for (const path of ["/", "/servicios/", "/clases-aleman-malaga/"]) {
+      await page.goto(path);
+
+      const structuredData = await page.locator('script[type="application/ld+json"]').allTextContents();
+      const parsed = structuredData.flatMap((entry) => {
+        const data = JSON.parse(entry);
+        return Array.isArray(data["@graph"]) ? data["@graph"] : [data];
+      });
+      const business = parsed.find((entry) => {
+        const types = Array.isArray(entry["@type"]) ? entry["@type"] : [entry["@type"]];
+        return types.includes("LocalBusiness");
+      });
+
+      expect(business.address.addressLocality).toBe("Fuengirola");
+      expect(business.areaServed).toEqual(expect.arrayContaining(expectedAreas));
+    }
+
+    await page.goto("/servicios/#cobertura-online");
+    const coverage = page.locator("#cobertura-online");
+    await expect(coverage).toContainText(/Fuengirola.*Costa del Sol/is);
+    await expect(coverage).toContainText(/Málaga.*Benalmádena.*Arroyo de la Miel.*Marbella/is);
+    await expect(coverage).toContainText(/Madrid.*Barcelona.*Berlín.*Múnich/is);
+    await expect(coverage).toContainText(/online/i);
   });
 
   test("commercial pages publish the approved prices and matching offers", async ({ page }) => {
