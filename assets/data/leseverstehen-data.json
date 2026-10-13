@@ -49538,5 +49538,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-schwimmunterricht",
+    "nivel": "A1",
+    "titulo": "Im Schwimmunterricht",
+    "descripcion": "Lena hat heute ihre erste Schwimmstunde im Freibad.",
+    "texto": "Lena ist acht Jahre alt. Heute hat sie ihre erste Schwimmstunde. Das Schwimmbad ist groß und blau. Viele Kinder sind auch da.\n\nDer Schwimmlehrer heißt Herr Berg. Er ist freundlich und geduldig. „Zuerst üben wir die Arme“, sagt er. Lena hört gut zu. Sie trägt eine rote Badekappe und eine blaue Schwimmbrille. Das Wasser ist warm und klar.\n\nNach der Stunde ist Lena müde, aber glücklich. Sie isst ein Brot und trinkt Wasser. „Ich komme nächste Woche wieder“, sagt sie zu ihrer Mutter. Ihre Mutter lächelt und packt die Tasche.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist heute zum ersten Mal im Schwimmunterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schwimmlehrer heißt Herr Klein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena trägt eine rote Badekappe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Stunde isst Lena ein Brot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena möchte nicht mehr zum Schwimmunterricht gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-tierheim",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Tierheim",
+    "descripcion": "Paul hilft am Samstag im Tierheim und füttert die Hunde und Katzen.",
+    "texto": "Paul ist zwölf Jahre alt und liebt Tiere. Jeden Samstag hilft er im Tierheim. Das Tierheim ist nicht weit von seinem Haus.\n\nAm Morgen füttert Paul die Hunde. Er gibt ihnen Wasser und Futter. Dann putzt er die Käfige der Katzen. Die Katzen sind oft scheu, aber eine kleine schwarze Katze mag Paul besonders. Sie heißt Mimi. „Du bist sehr lieb, Mimi“, sagt Paul und streichelt sie.\n\nAm Nachmittag spielt Paul mit den Hunden im Garten. Ein Hund heißt Bello und liebt den Ball. Paul wirft den Ball, und Bello läuft schnell. Um vier Uhr geht Paul nach Hause. Er ist müde, aber er freut sich schon auf den nächsten Samstag.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hilft jeden Sonntag im Tierheim.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul füttert am Morgen die Hunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die kleine schwarze Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello mag keinen Ball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul spielt am Nachmittag mit den Hunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-naehladen",
+    "nivel": "A1",
+    "titulo": "Im Nähladen",
+    "descripcion": "Frau Kaiser kauft bunte Knöpfe und Stoff für ein neues Kleid.",
+    "texto": "Frau Kaiser geht heute in den Nähladen in der Stadt. Sie möchte ein neues Kleid nähen. Der Laden ist klein, aber sehr bunt.\n\nIm Laden gibt es viele Stoffe: rot, blau, gelb und grün. Frau Kaiser wählt einen gelben Stoff mit kleinen Blumen. Sie braucht auch Knöpfe. Die Verkäuferin zeigt ihr eine Box mit weißen und roten Knöpfen. „Die roten Knöpfe sind schön“, sagt Frau Kaiser. Sie kauft fünf rote Knöpfe und zwei Meter Stoff.\n\nAn der Kasse bezahlt Frau Kaiser zwanzig Euro. Die Verkäuferin packt alles in eine Tüte. Frau Kaiser freut sich auf ihr neues Kleid. Zu Hause legt sie den Stoff auf den Tisch und beginnt sofort zu arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Kaiser kauft einen blauen Stoff.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Laden gibt es viele Farben von Stoff.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Kaiser kauft fünf rote Knöpfe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie bezahlt fünfzig Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zu Hause beginnt Frau Kaiser sofort zu arbeiten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-ins-studentenwohnheim",
+    "nivel": "A2",
+    "titulo": "Der Umzug ins Studentenwohnheim",
+    "descripcion": "Tim ist von zu Hause ausgezogen und hat sein neues Zimmer im Studentenwohnheim bezogen.",
+    "texto": "Tim hat letzte Woche sein Studium begonnen und ist in ein Studentenwohnheim gezogen. Er hat viele Kisten gepackt und mit dem Auto seines Vaters transportiert. Das Zimmer war klein, aber Tim hat sich sofort wohlgefühlt, weil es ein großes Fenster hatte.\n\nAm ersten Tag hat Tim seine Möbel aufgebaut und seine Bücher ins Regal gestellt. Danach hat er seine Nachbarin kennengelernt. Sie heißt Jule und wohnt im Zimmer nebenan. „Willkommen im Wohnheim!“, hat sie gesagt und ihm einen Kaffee angeboten. Tim hat sich sehr gefreut, weil er noch niemanden in der Stadt kannte.\n\nAm Abend hat Tim seinen Eltern eine Nachricht geschrieben und erzählt, dass alles gut gelaufen ist. Er hat geschrieben, dass das Zimmer gemütlich ist und dass Jule sehr nett ist. Obwohl er seine Familie vermisst hat, war er froh über den neuen Anfang.",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist mit dem Zug ins Wohnheim gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tims Zimmer hat ein großes Fenster.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jule wohnt im Zimmer neben Tim.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat seine Nachbarin nicht kennengelernt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat seinen Eltern am Abend geschrieben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-ohne-handy",
+    "nivel": "A2",
+    "titulo": "Ein Tag ohne Handy",
+    "descripcion": "Sophie hat ihr Handy verloren und musste einen ganzen Tag ohne Internet verbringen.",
+    "texto": "Am Samstagmorgen hat Sophie ihr Handy nicht gefunden. Sie hat überall gesucht, in der Küche, im Bad und unter dem Bett, aber das Handy war weg. Zuerst war sie nervös, weil sie dachte, dass sie wichtige Nachrichten verpassen würde.\n\nOhne Handy musste Sophie den Tag anders planen. Sie hat einen Stadtplan aus Papier benutzt, um zum Markt zu gehen. Dort hat sie ihre Freundin Mara getroffen, die sie sonst nur über Nachrichten kontaktiert hat. Sie haben zusammen einen Kaffee getrunken und lange geredet. „Das war schön, mal wieder richtig zu reden“, hat Mara gesagt.\n\nAm Abend hat Sophie ihr Handy endlich gefunden – es war in ihrer Jackentasche. Trotzdem hat sie gemerkt, dass der Tag ohne Handy ruhiger war. Sie hat beschlossen, einmal pro Woche einen Tag ohne Handy zu machen, weil ihr das gutgetan hat.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat ihr Handy im Garten gesucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat einen Papierstadtplan benutzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat ihre Freundin Mara nicht getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Handy war in ihrer Jackentasche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie möchte öfter einen Tag ohne Handy machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-buecherei-um-die-ecke",
+    "nivel": "A2",
+    "titulo": "Die Bücherei um die Ecke",
+    "descripcion": "Herr Vogel entdeckt die kleine Bücherei in seiner neuen Nachbarschaft und findet dort neue Freunde.",
+    "texto": "Herr Vogel ist vor zwei Monaten in eine neue Wohnung gezogen. Er kannte in der Nachbarschaft noch niemanden und hat sich oft einsam gefühlt. Eines Tages ist er an einer kleinen Bücherei um die Ecke vorbeigegangen und hat beschlossen hineinzugehen.\n\nIn der Bücherei hat ihn eine ältere Frau namens Frau Lindner begrüßt. Sie hat ihm gezeigt, wo die Krimis stehen, weil Herr Vogel gern Krimis liest. Er hat sich ein Buch ausgeliehen und sich in eine Ecke zum Lesen gesetzt. Nach einer Stunde hat er mit zwei anderen Lesern gesprochen, die auch regelmäßig kommen. Sie haben ihm erzählt, dass es jeden Donnerstag einen Lesekreis gibt.\n\nSeitdem geht Herr Vogel jede Woche in die Bücherei. Er hat dort mehrere nette Leute kennengelernt und fühlt sich in der neuen Nachbarschaft nicht mehr allein. Weil er nun Freunde hat, gefällt ihm das Leben in der neuen Stadt viel besser.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Vogel wohnt schon seit vielen Jahren in der Nachbarschaft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Vogel liest gern Krimis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Bücherei gibt es keinen Lesekreis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Vogel hat in der Bücherei neue Leute kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Vogel fühlt sich immer noch einsam.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-in-berlin",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum in Berlin",
+    "descripcion": "Jonas macht ein dreimonatiges Praktikum in einer Berliner Firma und muss sich an das Arbeitsleben gewöhnen.",
+    "texto": "Jonas hat vor einem Monat ein Praktikum bei einer Softwarefirma in Berlin begonnen. Obwohl er schon mehrere Praktika gemacht hatte, war der Start in der neuen Firma anstrengend, weil alles größer und schneller war, als er erwartet hatte. In den ersten Tagen musste er viele neue Programme lernen und sich an die vielen englischen Fachbegriffe gewöhnen.\n\nNachdem er sich an den Arbeitsrhythmus gewöhnt hatte, fühlte sich Jonas immer sicherer. Seine Kollegen waren hilfsbereit und erklärten ihm geduldig, wie die Projekte organisiert waren. Besonders sein Mentor, Herr Richter, nahm sich viel Zeit für ihn und gab ihm regelmäßig Feedback. Trotzdem gab es auch schwierige Momente: Einmal hatte Jonas einen Fehler im Code übersehen, der fast das ganze Projekt verzögert hätte. Zum Glück konnte das Team den Fehler rechtzeitig beheben.\n\nAm Ende des Praktikums war Jonas stolz auf das, was er gelernt hatte. Er hatte nicht nur technisches Wissen gewonnen, sondern auch gelernt, im Team zu arbeiten und mit Druck umzugehen. Obwohl das Praktikum manchmal stressig war, würde er es jederzeit wieder machen, weil er dabei so viel Erfahrung gesammelt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas macht sein erstes Praktikum überhaupt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas musste sich an viele englische Fachbegriffe gewöhnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sein Mentor heißt Herr Richter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat während des Praktikums nie einen Fehler gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende war Jonas stolz auf seine Erfahrungen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kulturschock-im-austauschjahr",
+    "nivel": "B1",
+    "titulo": "Kulturschock im Austauschjahr",
+    "descripcion": "Mia verbringt ein Austauschjahr in Kanada und muss sich an eine völlig neue Kultur gewöhnen.",
+    "texto": "Mia ist seit drei Monaten in Kanada, wo sie ein Austauschjahr an einer High School macht. Zuerst war sie begeistert von der neuen Umgebung, aber nach einigen Wochen bemerkte sie, wie anders alles war. Die Gastfamilie aß zu anderen Zeiten als ihre eigene Familie, und auch die Schule funktionierte völlig anders, als sie es gewohnt war.\n\nBesonders schwierig fand Mia es, neue Freunde zu finden, obwohl ihre Mitschüler freundlich waren. Nachdem sie sich einer Theatergruppe an der Schule angeschlossen hatte, wurde es leichter. Dort lernte sie Emma kennen, die ihr half, sich in der neuen Kultur zurechtzufinden. „Am Anfang ist alles fremd, aber das gibt sich“, sagte Emma einmal zu ihr.\n\nMittlerweile fühlt sich Mia in Kanada viel wohler. Trotzdem vermisst sie manchmal ihre Familie und ihre alten Freunde in Deutschland. Sie hat gelernt, dass ein Kulturschock normal ist und dass es Zeit braucht, sich an eine neue Kultur zu gewöhnen. Wenn sie zurück nach Deutschland fliegt, wird sie die Erfahrungen aus Kanada nie vergessen.",
+    "preguntas": [
+      {
+        "enunciado": "Mia ist seit drei Monaten in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia fand es von Anfang an leicht, neue Freunde zu finden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma hat Mia geholfen, sich einzuleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia vermisst ihre Familie überhaupt nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hat gelernt, dass ein Kulturschock normal ist.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "neue-freunde-im-sprachkurs",
+    "nivel": "B1",
+    "titulo": "Neue Freunde im Sprachkurs",
+    "descripcion": "In einem Deutschkurs in München lernen Menschen aus verschiedenen Ländern einander kennen und schließen Freundschaft.",
+    "texto": "Carlos ist vor zwei Monaten aus Spanien nach München gezogen und besucht seitdem einen Deutschkurs an der Volkshochschule. Im Kurs sitzen Menschen aus vielen verschiedenen Ländern: aus der Türkei, aus Brasilien und aus Japan. Am Anfang war es für Carlos schwierig, sich auf Deutsch zu unterhalten, obwohl er schon einige Grundlagen kannte.\n\nNachdem die Gruppe mehrere Wochen zusammen gelernt hatte, entstand eine echte Freundschaft zwischen den Teilnehmern. Besonders mit Hiroshi aus Japan verstand sich Carlos gut, weil beide gern über Fußball sprachen. Sie verabredeten sich oft nach dem Unterricht, um gemeinsam zu üben und dabei auch Deutsch in echten Gesprächen anzuwenden. „Wenn man zusammen lacht, lernt man schneller“, meinte Hiroshi einmal.\n\nAm Ende des Kurses organisierten die Teilnehmer ein kleines Fest, bei dem jeder ein typisches Gericht aus seinem Heimatland mitbrachte. Obwohl der Kurs vorbei war, blieben die neuen Freunde in Kontakt. Carlos war überrascht, wie viel er nicht nur über die deutsche Sprache, sondern auch über andere Kulturen gelernt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Carlos kommt ursprünglich aus Brasilien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Sprachkurs sitzen Menschen aus verschiedenen Ländern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carlos und Hiroshi mochten beide Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Kurs hatten die Teilnehmer keinen Kontakt mehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende organisierten die Teilnehmer ein gemeinsames Fest.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-debatte",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche-Debatte",
+    "descripcion": "Ein Essay über die gesellschaftliche Debatte zur Einführung der Vier-Tage-Woche in Deutschland.",
+    "texto": "In den letzten Jahren wird in Deutschland zunehmend über die Einführung einer Vier-Tage-Woche diskutiert. Befürworter argumentieren, dass die Produktivität der Beschäftigten steigen würde, wenn die Arbeitszeit bei vollem Lohnausgleich reduziert würde. Studien aus mehreren Pilotprojekten in Großbritannien und Island haben gezeigt, dass viele Unternehmen trotz kürzerer Arbeitszeit ähnliche oder sogar bessere Ergebnisse erzielen konnten. Dies wird häufig damit erklärt, dass erholte Mitarbeiter konzentrierter arbeiten und weniger häufig krankheitsbedingt ausfallen.\n\nKritiker hingegen geben zu bedenken, dass eine pauschale Einführung der Vier-Tage-Woche nicht für alle Branchen geeignet sei. In Berufen, die auf physische Anwesenheit angewiesen sind, etwa im Gesundheitswesen oder in der Pflege, könnte eine verkürzte Arbeitswoche zu zusätzlichem Personalmangel führen, sofern nicht gleichzeitig neue Arbeitskräfte eingestellt würden. Es wird außerdem argumentiert, dass kleinere Betriebe, die ohnehin unter einem Fachkräftemangel leiden, von einer verkürzten Arbeitszeit besonders betroffen wären.\n\nTrotz dieser Bedenken experimentieren immer mehr deutsche Unternehmen freiwillig mit flexibleren Arbeitszeitmodellen. Dabei zeigt sich, dass eine Vier-Tage-Woche nicht zwangsläufig bedeuten muss, dass weniger gearbeitet wird; vielmehr wird oft die gleiche Arbeitszeit auf vier statt fünf Tage verteilt. Wäre eine solche Regelung gesetzlich vorgeschrieben, müssten viele Arbeitsprozesse grundlegend neu organisiert werden, was insbesondere für traditionelle Industrien eine erhebliche Herausforderung darstellen würde.\n\nLetztlich bleibt die Frage, ob die Vier-Tage-Woche eine realistische Zukunftsvision oder lediglich ein Trend für privilegierte Branchen ist, umstritten. Sicher ist jedoch, dass die Debatte das traditionelle Verständnis von Arbeit und Leistung in Frage stellt und Unternehmen sowie Politik dazu zwingt, über neue Modelle nachzudenken.",
+    "preguntas": [
+      {
+        "enunciado": "Pilotprojekte in Großbritannien und Island zeigten ausschließlich negative Ergebnisse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass die Vier-Tage-Woche nicht für alle Branchen geeignet ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Gesundheitswesen könnte eine verkürzte Arbeitswoche zu Personalmangel führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass bereits alle deutschen Unternehmen die Vier-Tage-Woche eingeführt haben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text wird die Vier-Tage-Woche in der Gesellschaft einheitlich positiv bewertet.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "bildungsreform-und-digitalisierung",
+    "nivel": "B2",
+    "titulo": "Bildungsreform und Digitalisierung",
+    "descripcion": "Ein Kommentar zur Diskussion über die digitale Ausstattung deutscher Schulen und die nötigen Reformen im Bildungssystem.",
+    "texto": "Die Digitalisierung der Schulen gilt seit Jahren als eines der dringendsten Reformvorhaben im deutschen Bildungssystem. Obwohl mit dem sogenannten Digitalpakt bereits erhebliche finanzielle Mittel bereitgestellt wurden, klagen viele Schulen nach wie vor über unzureichende technische Ausstattung. Lehrkräfte berichten, dass Tablets und interaktive Whiteboards zwar angeschafft wurden, es jedoch häufig an geschultem Personal fehlt, das diese Geräte sinnvoll in den Unterricht einbinden könnte.\n\nHinzu kommt, dass die Lehrerausbildung bislang kaum an die neuen Anforderungen angepasst wurde. Während in anderen Ländern digitale Kompetenzen längst fester Bestandteil des Lehramtsstudiums sind, werden sie in Deutschland oft nur in freiwilligen Zusatzkursen vermittelt. Kritiker bemängeln, dass auf diese Weise ein Flickenteppich entstehe: An manchen Schulen wird bereits mit modernen Lernplattformen gearbeitet, während an anderen weiterhin fast ausschließlich mit Kreide und Tafel unterrichtet wird.\n\nBefürworter einer umfassenden Reform argumentieren, dass es nicht ausreiche, lediglich Geräte zu verteilen. Vielmehr müsse das gesamte pädagogische Konzept überdacht werden, damit digitale Medien tatsächlich zu einem besseren Lernerfolg beitragen könnten. Würde die Digitalisierung konsequent in die Lehrpläne integriert, so argumentieren sie, könnten Schülerinnen und Schüler frühzeitig lernen, verantwortungsvoll mit digitalen Werkzeugen umzugehen, anstatt diese lediglich privat und unreflektiert zu nutzen.\n\nOb die anstehende Bildungsreform diesen Ansprüchen gerecht werden kann, bleibt abzuwarten. Klar ist jedoch, dass ohne eine grundlegende Investition in die Ausbildung der Lehrkräfte selbst die modernste technische Ausstattung wenig bewirken wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der Digitalpakt hat laut Text bereits alle Probleme der Schuldigitalisierung gelöst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Schulen berichten von fehlendem geschultem Personal für digitale Geräte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Digitale Kompetenzen sind in Deutschland bereits fester Bestandteil des Lehramtsstudiums.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sprechen von einem „Flickenteppich“ bei der Digitalisierung der Schulen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text reicht es aus, nur Geräte an Schulen zu verteilen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vertrauenskrise-der-medien",
+    "nivel": "B2",
+    "titulo": "Die Vertrauenskrise der Medien",
+    "descripcion": "Eine Analyse darüber, warum das Vertrauen in klassische Medien sinkt und welche Rolle soziale Netzwerke dabei spielen.",
+    "texto": "In den letzten Jahren ist das Vertrauen vieler Bürgerinnen und Bürger in klassische Medien wie Zeitungen, Rundfunk und Fernsehen spürbar zurückgegangen. Laut mehreren Studien glaubt ein wachsender Teil der Bevölkerung, dass Nachrichtenredaktionen bestimmte Themen bewusst verschweigen oder einseitig darstellen würden. Diese Wahrnehmung wird von Medienwissenschaftlern jedoch häufig als verzerrt bezeichnet, da seriöse Redaktionen in der Regel strengen journalistischen Standards unterliegen, die regelmäßig überprüft werden.\n\nEin wesentlicher Faktor für diese Entwicklung sind soziale Netzwerke, in denen Falschmeldungen und stark zugespitzte Meinungsbeiträge oft schneller verbreitet werden als sorgfältig recherchierte Berichte. Da Algorithmen tendenziell jene Inhalte bevorzugen, die starke emotionale Reaktionen hervorrufen, würden reißerische Überschriften gegenüber nuancierten Analysen begünstigt, selbst wenn Letztere inhaltlich fundierter wären. Nutzerinnen und Nutzer, die sich überwiegend über solche Plattformen informieren, entwickeln dadurch mitunter ein verzerrtes Bild der tatsächlichen Berichterstattung etablierter Medien.\n\nHinzu kommt, dass einige politische Akteure gezielt das Misstrauen gegenüber den sogenannten „Mainstream-Medien“ schüren, um eigene, teils unbelegte Behauptungen glaubwürdiger erscheinen zu lassen. Dadurch entsteht eine paradoxe Situation: Ausgerechnet jene Informationsquellen, die am wenigsten journalistischen Kontrollmechanismen unterliegen, genießen bei einem Teil der Bevölkerung größeres Vertrauen als etablierte Redaktionen, obwohl Letztere nachweislich häufiger Fakten überprüfen lassen.\n\nMedienexperten plädieren daher für eine Stärkung der Medienkompetenz bereits in der Schule. Wenn junge Menschen frühzeitig lernten, Quellen kritisch zu bewerten und Falschinformationen zu erkennen, könnte dies langfristig dazu beitragen, das Vertrauen in eine pluralistische, aber zugleich verantwortungsvolle Medienlandschaft wiederherzustellen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text ist das Vertrauen in klassische Medien in den letzten Jahren gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Soziale Netzwerke begünstigen laut Text oft emotional aufgeladene Inhalte gegenüber nuancierten Analysen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienwissenschaftler halten die Wahrnehmung einer bewussten Einseitigkeit grundsätzlich für vollkommen zutreffend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche politische Akteure schüren gezielt Misstrauen gegenüber etablierten Medien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, Medienkompetenz stärker in der Schule zu fördern.",
+        "respuesta": true
+      }
+    ]
   }
 ]
