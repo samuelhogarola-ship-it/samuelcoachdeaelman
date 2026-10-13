@@ -50582,5 +50582,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "lukas-spielt-tischtennis-im-verein",
+    "nivel": "A1",
+    "titulo": "Lukas spielt Tischtennis im Verein",
+    "descripcion": "Lukas trainiert im Tischtennisverein und spielt sein erstes kleines Turnier.",
+    "texto": "Lukas ist zehn Jahre alt. Er spielt gern Tischtennis. Jeden Dienstag geht er zum Verein. Der Verein ist in seiner Stadt. Lukas hat einen guten Freund dort. Er heißt Paul. Sie spielen oft zusammen.\n\nIm Verein gibt es viele Tische. Die Trainerin heißt Frau Berger. Sie ist sehr freundlich. Lukas lernt neue Schläge. Er übt den Aufschlag. Das Training dauert eine Stunde. Danach trinkt Lukas Wasser.\n\nAm Samstag ist ein kleines Turnier. Lukas ist nervös. Paul sagt: „Du schaffst das!\" Lukas gewinnt zwei Spiele. Er ist sehr glücklich. Nach dem Turnier isst die Familie Pizza.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas spielt gern Tischtennis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas geht jeden Montag zum Verein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Trainerin heißt Frau Berger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas gewinnt beim Turnier kein Spiel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Turnier isst die Familie Pizza.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "miras-neues-fahrrad-vom-nachbarn",
+    "nivel": "A1",
+    "titulo": "Miras neues Fahrrad vom Nachbarn",
+    "descripcion": "Mira bekommt von ihrem Nachbarn ein gebrauchtes Fahrrad und freut sich sehr.",
+    "texto": "Mira ist acht Jahre alt. Ihr altes Fahrrad ist kaputt. Der Nachbar Herr Krause hat ein Fahrrad. Es ist blau und klein. Er fragt: „Möchtest du es haben?\" Mira freut sich sehr.\n\nMira putzt das Fahrrad. Sie findet eine Glocke am Lenker. Die Glocke klingt sehr schön. Mira fährt jeden Tag zur Schule. Ihre Mutter ist auch froh.\n\nAm Sonntag fährt Mira mit Papa im Park. Sie fahren zusammen eine Stunde. Danach essen sie ein Eis. Mira sagt: „Das Fahrrad ist super!\" Sie bedankt sich beim Nachbarn.",
+    "preguntas": [
+      {
+        "enunciado": "Mira ist acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad vom Nachbarn ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mira findet eine Glocke am Lenker.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mira fährt nie mit dem Fahrrad zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag essen Mira und Papa ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-picknick-am-flussufer-mit-oma",
+    "nivel": "A1",
+    "titulo": "Ein Picknick am Flussufer mit Oma",
+    "descripcion": "Lena und ihre Oma machen ein Picknick am Fluss und erleben einen schönen Tag.",
+    "texto": "Oma Helga liebt die Natur. Am Sonntag plant sie ein Picknick. Sie packt Brot, Käse und Äpfel ein. Ihre Enkelin Lena hilft ihr. Sie fahren mit dem Bus zum Fluss.\n\nAm Flussufer ist es ruhig. Sie legen eine Decke auf das Gras. Enten schwimmen im Wasser. Lena wirft kleine Steine ins Wasser. Oma Helga erzählt eine alte Geschichte.\n\nNach dem Essen spielen sie ein Spiel. Lena malt ein Bild vom Fluss. Am Abend fahren sie wieder nach Hause. Lena sagt: „Das war ein schöner Tag!\" Oma Helga lächelt froh.",
+    "preguntas": [
+      {
+        "enunciado": "Oma Helga liebt die Natur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie fahren mit dem Auto zum Fluss.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Flussufer schwimmen Enten im Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena malt kein Bild.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena findet den Tag schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-bei-der-tante-in-freiburg",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei der Tante in Freiburg",
+    "descripcion": "Sophie besucht ihre Tante in Freiburg und entdeckt die berühmten Bächle der Stadt.",
+    "texto": "Letztes Wochenende ist Sophie zu ihrer Tante nach Freiburg gefahren. Sie hat den Zug genommen, weil die Fahrt mit dem Auto zu teuer war. Die Tante hat sie am Bahnhof abgeholt. Sie haben sich lange nicht gesehen und sich gleich umarmt.\n\nAm Samstag sind sie durch die Altstadt spaziert. Die Tante hat erzählt, dass Freiburg eine der sonnigsten Städte Deutschlands ist. Sie haben kleine Bäche gesehen, die „Bächle\" genannt werden. Sophie hat ein Eis gekauft und ist fast in ein Bächle gefallen. Beide haben darüber gelacht.\n\nAm Abend hat die Tante ein typisches Gericht aus dem Schwarzwald gekocht. Sie haben zusammen am Tisch gesessen und über die Familie gesprochen. Als Sophie am Sonntag abgefahren ist, hat sie versprochen, bald wiederzukommen. Die Tante hat sich sehr gefreut.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist mit dem Zug nach Freiburg gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tante hat Sophie nicht am Bahnhof abgeholt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Freiburg gibt es kleine Bäche, die „Bächle\" heißen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie ist tatsächlich ins Wasser gefallen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat versprochen, bald wiederzukommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "tims-vergessener-regenschirm-im-bus",
+    "nivel": "A2",
+    "titulo": "Tims vergessener Regenschirm im Bus",
+    "descripcion": "Tim vergisst seinen Regenschirm im Bus und findet ihn mit Hilfe des Fundbüros wieder.",
+    "texto": "Tim ist am Montag mit dem Bus zur Arbeit gefahren. Es hat stark geregnet, deshalb hatte er seinen roten Regenschirm dabei. Als er ausgestiegen ist, hat er den Schirm leider im Bus vergessen. Erst am Nachmittag ist ihm das aufgefallen.\n\nTim hat sofort beim Busunternehmen angerufen, weil er den Schirm von seinem Vater geschenkt bekommen hatte. Die Mitarbeiterin hat gesagt, dass er im Fundbüro vorbeikommen soll. Tim ist nach der Arbeit direkt dorthin gefahren. Er war sehr nervös, ob der Schirm noch da ist.\n\nIm Fundbüro hat ein freundlicher Mann den roten Regenschirm gefunden. Tim hat sich riesig gefreut und sich herzlich bedankt. Von diesem Tag an hat er immer einen zweiten Schirm im Rucksack. So kann es nicht mehr passieren, dass er einen Schirm verliert.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hat seinen Regenschirm im Zug vergessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat am Montag stark geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat den Schirm von seinem Vater geschenkt bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Fundbüro hat niemand den Schirm gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat jetzt immer einen zweiten Schirm im Rucksack.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-missverstaendnis-im-hotel-in-salzburg",
+    "nivel": "A2",
+    "titulo": "Ein Missverständnis im Hotel in Salzburg",
+    "descripcion": "Familie Weber erlebt bei der Ankunft im Hotel in Salzburg ein Zimmer-Missverständnis.",
+    "texto": "Familie Weber ist nach Salzburg gefahren, um dort Urlaub zu machen. Sie hatten ein Zimmer mit Blick auf die Berge reserviert. Als sie angekommen sind, hat die Rezeptionistin ihnen ein kleines Zimmer ohne Fensterblick gegeben. Herr Weber war ziemlich verärgert, weil das nicht die Buchung war.\n\nEr hat der Rezeptionistin die Bestätigungsmail gezeigt, die er vor der Reise erhalten hatte. Es hat sich herausgestellt, dass es einen Fehler im Computersystem gab. Die Rezeptionistin hat sich entschuldigt und sofort ein neues Zimmer gesucht. Nach zwanzig Minuten haben sie endlich das richtige Zimmer bekommen.\n\nDas neue Zimmer hatte tatsächlich einen wunderschönen Blick auf die Berge. Frau Weber hat gesagt, dass sich das Warten gelohnt hat. Am nächsten Morgen haben sie vom Balkon aus den Sonnenaufgang beobachtet. Der Urlaub ist trotz des Missverständnisses sehr schön geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Weber hat ein Zimmer ohne Fensterblick reserviert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber war verärgert, weil das Zimmer nicht der Buchung entsprach.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Problem lag an einem Fehler im Computersystem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat nie ein anderes Zimmer bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am nächsten Morgen haben sie den Sonnenaufgang vom Balkon gesehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-erstes-vorstellungsgespraech-als-praktikant",
+    "nivel": "B1",
+    "titulo": "Mein erstes Vorstellungsgespräch als Praktikant",
+    "descripcion": "Jonas berichtet von seinem nervösen, aber erfolgreichen Vorstellungsgespräch bei einer Werbeagentur.",
+    "texto": "Nachdem Jonas monatelang Bewerbungen geschrieben hatte, bekam er endlich eine Einladung zu einem Vorstellungsgespräch. Das Unternehmen war eine kleine Werbeagentur in der Innenstadt, bei der er ein Praktikum machen wollte. Obwohl er sich gut vorbereitet hatte, war er am Morgen des Gesprächs furchtbar nervös. Er wiederholte im Bus noch einmal alle Antworten, die er sich überlegt hatte.\n\nIm Büro empfing ihn eine freundliche Personalleiterin, die ihm sofort einen Kaffee anbot. Sie stellte Fragen zu seinen Stärken und fragte, warum er sich ausgerechnet für diese Agentur interessiere. Jonas erzählte von seinem Praktikum in der Schulzeitung und davon, wie viel Spaß ihm das Schreiben mache. Trotzdem merkte er, dass seine Stimme am Anfang etwas zitterte.\n\nNach etwa dreißig Minuten war das Gespräch zu Ende, und die Personalleiterin bedankte sich für sein Interesse. Eine Woche später rief sie an und teilte ihm mit, dass er den Praktikumsplatz bekommen habe. Jonas konnte sein Glück kaum fassen und rief sofort seine Eltern an. Er wusste, dass diese Erfahrung ihm für zukünftige Bewerbungsgespräche sehr helfen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas bewarb sich bei einer kleinen Werbeagentur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas war am Morgen des Gesprächs völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Personalleiterin bot Jonas einen Kaffee an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas bekam den Praktikumsplatz nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas rief nach der guten Nachricht sofort seine Eltern an.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-open-air-kino-im-park",
+    "nivel": "B1",
+    "titulo": "Das Open-Air-Kino im Park",
+    "descripcion": "Lisa und ihre Freunde verbringen einen lauen Sommerabend im Open-Air-Kino des Stadtparks.",
+    "texto": "Im Sommer verwandelt sich der Stadtpark jedes Jahr in ein Open-Air-Kino. Obwohl die Plätze auf Decken und Klappstühlen nicht besonders bequem sind, kommen jedes Mal Hunderte von Besuchern. Lisa und ihre Freunde gehen seit drei Jahren gemeinsam dorthin, nachdem eine Freundin sie zum ersten Mal mitgenommen hatte. Dieses Jahr haben sie sich entschieden, schon zwei Stunden vor Beginn einen Platz zu sichern.\n\nTrotz der frühen Ankunft war der beste Platz vor der Leinwand schon besetzt. Die Gruppe breitete trotzdem ihre Decken etwas weiter hinten aus und packte Snacks und Limonade aus. Als die Sonne langsam untergegangen war, begann der Film, und alle wurden still. Es handelte sich um eine romantische Komödie, die Lisa schon lange sehen wollte.\n\nNachdem der Film zu Ende war, applaudierten die Zuschauer, obwohl niemand im Kinosaal saß. Die Freunde blieben noch eine Weile sitzen und sprachen über die Geschichte des Films. Auf dem Heimweg beschlossen sie, im nächsten Jahr wieder zu kommen und vielleicht sogar früher aufzubrechen. Für Lisa war es einer der schönsten Abende des Sommers.",
+    "preguntas": [
+      {
+        "enunciado": "Das Open-Air-Kino findet im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde bekamen trotz früher Ankunft nicht den besten Platz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der gezeigte Film war eine romantische Komödie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Film applaudierte niemand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde wollen im nächsten Jahr wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-mit-dem-zimmerkollegen-wegen-der-lautstaerke",
+    "nivel": "B1",
+    "titulo": "Der Streit mit dem Zimmerkollegen wegen der Lautstärke",
+    "descripcion": "Felix und sein neuer WG-Mitbewohner Ben lösen einen Konflikt wegen lauter Musik in der Nacht.",
+    "texto": "Als Felix in die Studenten-WG einzog, freute er sich sehr auf das Leben mit seinem neuen Zimmerkollegen Ben. Die ersten Wochen verliefen harmonisch, obwohl die beiden sehr unterschiedliche Tagesabläufe hatten. Felix stand früh auf und ging gern zeitig schlafen, während Ben oft erst spätabends richtig aktiv wurde. Nachdem Ben mehrmals bis tief in die Nacht laut Musik gehört hatte, konnte Felix kaum noch schlafen.\n\nEines Abends beschloss Felix, das Problem direkt anzusprechen, obwohl er Angst vor einem Streit hatte. Er erklärte Ben ruhig, dass die laute Musik ihn beim Schlafen störe und er am nächsten Tag für die Uni fit sein müsse. Ben reagierte zunächst etwas verteidigend, zeigte sich aber trotzdem verständnisvoll. Gemeinsam überlegten sie, wie sie beide zufrieden sein könnten.\n\nSie einigten sich darauf, dass Ben nach zweiundzwanzig Uhr Kopfhörer benutzen würde. Außerdem kaufte Felix sich Ohrstöpsel für besonders unruhige Nächte. Nachdem die neue Regel ein paar Wochen funktioniert hatte, verbesserte sich die Stimmung in der WG deutlich. Die beiden wurden sogar gute Freunde und planten gemeinsame Ausflüge am Wochenende.",
+    "preguntas": [
+      {
+        "enunciado": "Felix und Ben hatten von Anfang an die gleichen Tagesabläufe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hatte Angst, das Problem anzusprechen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben zeigte sich am Ende überhaupt nicht verständnisvoll.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben sollte nach zweiundzwanzig Uhr Kopfhörer benutzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende wurden Felix und Ben gute Freunde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "elterngeld-und-die-vereinbarkeit-von-familie-und-beruf",
+    "nivel": "B2",
+    "titulo": "Elterngeld und die Vereinbarkeit von Familie und Beruf",
+    "descripcion": "Ein Beitrag diskutiert, ob das deutsche Elterngeld Familie und Beruf wirklich gerecht vereinbart.",
+    "texto": "Das Elterngeld wurde in Deutschland eingeführt, um Eltern nach der Geburt eines Kindes finanziell zu unterstützen und ihnen mehr Zeit für die Familie zu ermöglichen. Während der ersten Monate erhalten Mütter und Väter, die ihre Erwerbstätigkeit unterbrechen oder reduzieren, einen Teil ihres bisherigen Einkommens ersetzt. Befürworter betonen, dass diese Regelung entscheidend dazu beigetragen habe, dass sich mehr Väter aktiv an der Kinderbetreuung beteiligen. Dennoch zeigen Studien, dass nach wie vor überwiegend Mütter die längere Elternzeit in Anspruch nehmen.\n\nKritiker bemängeln, dass das derzeitige System insbesondere Frauen in traditionelle Rollenmuster dränge, da das Elterngeld nach dem letzten Nettoeinkommen berechnet werde und so bestehende Lohnunterschiede verstärke. Wäre die Höhe des Elterngeldes unabhängiger vom vorherigen Gehalt, könnten sich laut Experten auch Väter mit geringerem Einkommen eher für eine längere Auszeit entscheiden. Zudem wird diskutiert, ob zusätzliche sogenannte Partnermonate, die ausschließlich von Vätern genommen werden könnten, eine gerechtere Verteilung der Betreuungszeit fördern würden.\n\nArbeitgeberverbände geben hingegen zu bedenken, dass längere Ausfallzeiten in kleinen und mittleren Unternehmen organisatorisch kaum zu bewältigen seien, insbesondere in Branchen mit Fachkräftemangel. Es wird daher gefordert, dass flexible Arbeitszeitmodelle und eine bessere Kinderbetreuungsinfrastruktur die Elterngeldreform begleiten müssten, damit berufliche und familiäre Verpflichtungen tatsächlich miteinander vereinbart werden können. Ohne eine solche begleitende Infrastruktur, so die Befürchtung, bleibe jede Reform des Elterngeldes nur ein halber Schritt.",
+    "preguntas": [
+      {
+        "enunciado": "Das Elterngeld soll Eltern nach der Geburt finanziell unterstützen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien nehmen überwiegend Väter die längere Elternzeit in Anspruch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass das Elterngeld bestehende Lohnunterschiede verstärken könne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Arbeitgeberverbände sehen bei längeren Ausfallzeiten keine organisatorischen Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine bessere Kinderbetreuungsinfrastruktur wird als notwendige Ergänzung genannt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "soziale-medien-und-die-psychische-gesundheit-jugendlicher",
+    "nivel": "B2",
+    "titulo": "Soziale Medien und die psychische Gesundheit Jugendlicher",
+    "descripcion": "Der Text beleuchtet kontroverse Positionen zum Einfluss sozialer Medien auf Jugendliche.",
+    "texto": "In den letzten Jahren wird zunehmend diskutiert, welchen Einfluss soziale Medien auf die psychische Gesundheit von Jugendlichen haben. Mehrere Studien legen nahe, dass ein übermäßiger Konsum von Plattformen, auf denen ständig idealisierte Lebensbilder präsentiert werden, mit erhöhten Raten von Angstzuständen und Depressionen einhergehen könnte. Besonders betroffen seien demnach Mädchen im Teenageralter, die sich häufiger mit den vermeintlich perfekten Körpern und Leben anderer Nutzerinnen vergleichen würden.\n\nBefürworter einer stärkeren Regulierung fordern, dass Plattformbetreiber verpflichtet werden sollten, wirksamere Altersverifikationen einzuführen und algorithmische Inhalte für Minderjährige anzupassen. Es wird argumentiert, dass die derzeitigen Algorithmen, die auf maximale Nutzungsdauer ausgelegt seien, junge Menschen in eine Abhängigkeit trieben, die kaum durchbrochen werden könne. Wenn Eltern und Schulen gemeinsam Medienkompetenz vermitteln würden, ließe sich dieser Entwicklung nach Ansicht vieler Experten zumindest teilweise entgegenwirken.\n\nAndere Stimmen warnen jedoch davor, die Verantwortung allein den Plattformen zuzuschieben, da auch gesellschaftliche Faktoren wie Leistungsdruck und soziale Isolation eine erhebliche Rolle spielten. Zudem sei die Forschungslage keineswegs eindeutig, denn einige Untersuchungen würden auch positive Effekte feststellen, etwa wenn soziale Medien Jugendlichen helfen, Gleichgesinnte zu finden. Letztlich bleibe die Frage, wie ein ausgewogener Umgang mit digitalen Medien aussehen könnte, eine der zentralen Herausforderungen unserer Zeit.",
+    "preguntas": [
+      {
+        "enunciado": "Studien legen nahe, dass übermäßiger Social-Media-Konsum mit erhöhten Angstzuständen zusammenhängen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text sind vor allem ältere Männer von diesem Problem betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige fordern eine wirksamere Altersverifikation durch Plattformbetreiber.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass soziale Medien ausschließlich negative Effekte haben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erwähnt, dass soziale Medien auch helfen können, Gleichgesinnte zu finden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-diskussion-um-laengere-ladenoeffnungszeiten-am-sonntag",
+    "nivel": "B2",
+    "titulo": "Die Diskussion um längere Ladenöffnungszeiten am Sonntag",
+    "descripcion": "Ein Beitrag stellt die gegensätzlichen Positionen zur Sonntagsöffnung des Einzelhandels vor.",
+    "texto": "In Deutschland wird immer wieder darüber diskutiert, ob die Geschäfte auch am Sonntag regulär öffnen dürfen sollten. Während in den meisten Branchen striktes Sonntagsarbeitsverbot gilt, fordern Teile des Einzelhandels seit Jahren eine Lockerung dieser Regelung, um mit dem boomenden Onlinehandel konkurrieren zu können. Befürworter argumentieren, dass Kunden heutzutage rund um die Uhr einkaufen wollten und stationäre Geschäfte ohne flexiblere Öffnungszeiten langfristig benachteiligt würden.\n\nGewerkschaften und Kirchenvertreter lehnen eine generelle Öffnung am Sonntag hingegen entschieden ab. Sie betonen, dass der arbeitsfreie Sonntag ein wichtiges kulturelles und soziales Gut sei, das Familien und Gemeinschaften einen gemeinsamen Ruhetag ermögliche. Würde dieser Schutz aufgehoben, so die Befürchtung, gerieten Beschäftigte im Einzelhandel zunehmend unter Druck, auch an Sonntagen regelmäßig zu arbeiten, ohne dass sie dafür angemessen entschädigt würden.\n\nEinige Kommunen haben als Kompromiss sogenannte verkaufsoffene Sonntage eingeführt, die nur an wenigen Terminen im Jahr und meist im Zusammenhang mit einem besonderen Anlass stattfinden dürfen. Kritiker halten diese Lösung jedoch für unzureichend, da sie weder den Einzelhändlern ausreichende Planungssicherheit biete noch das grundsätzliche Dilemma löse. Ob und wie die Ladenöffnungszeiten künftig reformiert werden, bleibt daher ein politisch umkämpftes Thema, bei dem wirtschaftliche Interessen und der Schutz der Arbeitnehmer gegeneinander abgewogen werden müssen.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland gilt in den meisten Branchen ein striktes Sonntagsarbeitsverbot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gewerkschaften und Kirchenvertreter befürworten eine generelle Sonntagsöffnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter argumentieren mit der Konkurrenz durch den Onlinehandel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Verkaufsoffene Sonntage dürfen laut Text beliebig oft stattfinden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Reform der Ladenöffnungszeiten bleibt ein politisch umkämpftes Thema.",
+        "respuesta": true
+      }
+    ]
   }
 ]
