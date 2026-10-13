@@ -51278,5 +51278,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-fahrradkurier",
+    "nivel": "A1",
+    "titulo": "Der Fahrradkurier",
+    "descripcion": "Tom arbeitet als Fahrradkurier in Hamburg und liefert Pakete.",
+    "texto": "Tom ist 22 Jahre alt und wohnt in Hamburg. Er arbeitet als Fahrradkurier. Jeden Morgen steht er um sechs Uhr auf und frühstückt schnell. Dann fährt er mit seinem Fahrrad zur Firma. Dort bekommt er eine Liste mit Adressen.\n\nTom fährt den ganzen Tag durch die Stadt. Er bringt Pakete zu Büros und zu Wohnungen. Die Arbeit ist anstrengend, aber Tom mag die frische Luft. Am Mittag isst er ein Brot im Park. Danach fährt er weiter.\n\nAm Abend ist Tom müde. Er duscht und kocht Nudeln mit Tomatensoße. Dann sitzt er auf dem Sofa und liest ein Buch. Um halb elf geht er ins Bett.",
+    "preguntas": [
+      {
+        "enunciado": "Tom arbeitet als Fahrradkurier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom steht um acht Uhr auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom bringt Pakete mit dem Auto.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst mittags ein Brot im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom geht am Abend sofort ins Bett.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-haustiere",
+    "nivel": "A1",
+    "titulo": "Meine Haustiere",
+    "descripcion": "Lisa erzählt kurz über ihre zwei Haustiere, eine Katze und einen Hamster.",
+    "texto": "Lisa hat zwei Haustiere. Sie hat eine Katze und einen Hamster. Die Katze heißt Mimi und ist schwarz und weiß. Der Hamster heißt Fritz und ist klein und braun.\n\nMimi schläft sehr viel. Sie liegt gern auf dem Sofa. Lisa gibt Mimi jeden Morgen Futter. Fritz lebt in einem Käfig in Lisas Zimmer. Er läuft gern im Rad und isst Körner und Karotten.\n\nAm Wochenende spielt Lisa mit Mimi. Sie wirft einen kleinen Ball, und Mimi läuft hinterher. Lisa putzt auch den Käfig von Fritz. Sie liebt ihre beiden Tiere sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa hat eine Katze und einen Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fritz ist ein Hamster.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fritz läuft gern im Rad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa putzt den Käfig nie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-beim-friseur",
+    "nivel": "A1",
+    "titulo": "Ein Besuch beim Friseur",
+    "descripcion": "Paul geht zum Friseur und lässt sich die Haare schneiden.",
+    "texto": "Paul hat lange Haare. Er findet das nicht gut und geht zum Friseur. Der Friseursalon ist in der Nähe von seiner Wohnung. Paul macht einen Termin für vierzehn Uhr.\n\nIm Salon begrüßt die Friseurin Paul freundlich. Sie fragt: „Wie möchten Sie Ihre Haare?\" Paul antwortet: „Kurz und einfach, bitte.\" Die Friseurin wäscht zuerst seine Haare. Dann schneidet sie die Haare mit einer Schere.\n\nNach dreißig Minuten ist Paul fertig. Er schaut in den Spiegel und lächelt. Die neuen Haare gefallen ihm sehr gut. Paul bezahlt und sagt „Danke schön\". Dann geht er glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hat kurze Haare am Anfang der Geschichte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul macht einen Termin beim Friseur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Friseurin schneidet die Haare mit einem Messer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul ist mit den neuen Haaren zufrieden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul bezahlt nicht für den Haarschnitt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-erste-fahrstunde",
+    "nivel": "A2",
+    "titulo": "Die erste Fahrstunde",
+    "descripcion": "Markus hat seine erste Fahrstunde und ist zu Beginn sehr nervös.",
+    "texto": "Markus ist achtzehn Jahre alt und hat gestern seine erste Fahrstunde gehabt. Er war schon seit Tagen nervös, weil er noch nie ein Auto gefahren hatte. Der Fahrlehrer, Herr Klein, hat ihn am Übungsplatz getroffen und ihm zuerst die wichtigsten Knöpfe im Auto erklärt.\n\nAm Anfang hat Markus Probleme gehabt, weil er die Kupplung und die Bremse verwechselt hat. Das Auto ist deshalb mehrmals stehen geblieben. Herr Klein hat ihm geduldig geholfen und gesagt, dass das ganz normal sei. Nachdem Markus das ein paar Mal geübt hatte, hat es langsam besser funktioniert.\n\nAm Ende der Stunde konnte Markus schon eine kleine Runde über den Übungsplatz fahren, ohne dass der Motor ausging. Er war sehr stolz auf sich, obwohl seine Hände noch zitterten. „Beim nächsten Mal fahren wir schon auf der Straße\", hat Herr Klein gesagt. Markus freut sich jetzt schon auf die nächste Fahrstunde.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte vor der Fahrstunde schon oft ein Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat am Anfang die Kupplung und die Bremse verwechselt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Motor ist am Ende der Stunde sofort ausgegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus konnte am Ende eine kleine Runde fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat keine Lust auf die nächste Fahrstunde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-online-vorstellungsgespraech",
+    "nivel": "A2",
+    "titulo": "Das Online-Vorstellungsgespräch",
+    "descripcion": "Sophie hat ihr erstes Vorstellungsgespräch per Videoanruf und ist davor sehr aufgeregt.",
+    "texto": "Sophie hat sich für einen Teilzeitjob in einem Büro beworben und wurde zu einem Vorstellungsgespräch eingeladen. Weil die Firma nicht in ihrer Stadt liegt, sollte das Gespräch per Videoanruf stattfinden. Sophie war sehr aufgeregt, weil sie noch nie ein Online-Vorstellungsgespräch hatte.\n\nAm Tag des Gesprächs hat sie sich schön angezogen und ihren Laptop auf den Schreibtisch gestellt. Kurz bevor das Gespräch begann, ist die Internetverbindung kurz ausgefallen, und Sophie hatte große Angst, dass sie zu spät kommen würde. Zum Glück hat die Verbindung nach ein paar Minuten wieder funktioniert.\n\nDie Personalchefin war sehr freundlich und hat Sophie viele Fragen über ihre Erfahrungen gestellt. Sophie hat ruhig geantwortet, obwohl ihre Hände am Anfang gezittert haben. Am Ende des Gesprächs hat die Personalchefin gesagt, dass sie sich in den nächsten Tagen melden wird. Sophie war froh, dass alles gut gelaufen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat sich für einen Teilzeitjob beworben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Vorstellungsgespräch fand direkt in der Firma statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Internetverbindung ist während des Gesprächs kurz ausgefallen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Internetverbindung ist kurz vor dem Gespräch ausgefallen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Personalchefin wollte sich nach dem Gespräch nicht mehr melden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-kaputte-wasserhahn",
+    "nivel": "A2",
+    "titulo": "Der kaputte Wasserhahn",
+    "descripcion": "In Ninas Küche tropft plötzlich der Wasserhahn, und sie muss einen Klempner rufen.",
+    "texto": "Nina hat letzten Mittwoch gemerkt, dass der Wasserhahn in ihrer Küche tropft. Zuerst hat sie das Problem nicht so wichtig gefunden, aber nach zwei Tagen ist das Tropfen viel schlimmer geworden. Deshalb hat sie beschlossen, einen Klempner anzurufen.\n\nDer Klempner konnte erst am Freitag kommen, weil er viel zu tun hatte. In der Zwischenzeit hat Nina einen Eimer unter den Wasserhahn gestellt, damit kein Wasser auf den Boden tropft. Das war nicht sehr praktisch, aber es hat geholfen.\n\nAm Freitag hat der Klempner den Wasserhahn genau untersucht und gesagt, dass eine kleine Dichtung kaputt war. Die Reparatur hat nur zwanzig Minuten gedauert und war nicht teuer. Nina war sehr erleichtert, dass das Problem so schnell gelöst wurde, und sie konnte endlich wieder normal in ihrer Küche kochen.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat den Wasserhahn sofort reparieren lassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Klempner konnte erst am Freitag kommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat einen Eimer unter den Wasserhahn gestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Reparatur hat mehrere Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Dichtung war das Problem am Wasserhahn.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wettbewerb-im-schulchor",
+    "nivel": "B1",
+    "titulo": "Der Wettbewerb im Schulchor",
+    "descripcion": "Der Schulchor des Goethe-Gymnasiums bereitet sich auf einen regionalen Gesangswettbewerb vor.",
+    "texto": "Der Schulchor des Goethe-Gymnasiums probt seit drei Wochen für einen regionalen Gesangswettbewerb. Obwohl alle Mitglieder sehr motiviert sind, läuft nicht alles reibungslos. Zwei Tage vor dem Wettbewerb hat die Solosängerin Clara plötzlich ihre Stimme verloren, und die ganze Gruppe musste das Lied ohne sie üben.\n\nDie Chorleiterin, Frau Brandt, hat versucht, die Gruppe zu beruhigen, obwohl sie selbst nervös war. „Wir haben noch genug Zeit, um alles anzupassen\", hat sie gesagt, nachdem die Probe beendet war. Trotzdem haben sich einige Schüler Sorgen gemacht, dass der Auftritt nicht gut werden würde.\n\nAm Abend vor dem Wettbewerb hat die Gruppe eine letzte Probe gemacht. Diesmal hat alles viel besser funktioniert, weil Clara ihre Stimme wiedergefunden hatte. Sie hat ihr Solo ohne Fehler gesungen, und die anderen Mitglieder haben applaudiert. Am nächsten Tag war der Auftritt schließlich ein großer Erfolg, und die Eltern waren sehr stolz auf ihre Kinder.",
+    "preguntas": [
+      {
+        "enunciado": "Der Chor probt seit drei Wochen für den Wettbewerb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara hat ihre Stimme kurz vor dem Wettbewerb verloren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Brandt war überhaupt nicht nervös.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die letzte Probe vor dem Wettbewerb lief schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Auftritt war am Ende kein Erfolg.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "nachhilfe-fuer-den-nachbarsjungen",
+    "nivel": "B1",
+    "titulo": "Nachhilfe für den Nachbarsjungen",
+    "descripcion": "Jonas gibt dem Sohn seiner Nachbarin regelmäßig Nachhilfe in Mathematik.",
+    "texto": "Seit einem Monat gibt Jonas dem Sohn seiner Nachbarin, Tim, zweimal pro Woche Nachhilfe in Mathematik. Nachdem Tims Mutter ihn beim Treppenhaus angesprochen und um Hilfe gebeten hatte, wollte Jonas gern helfen, weil er selbst in der Schule immer gut in Mathematik war. Jeden Dienstag und Donnerstag kommt Tim nun nach der Schule zu Jonas in die Wohnung.\n\nAm Anfang war es schwierig, weil Tim die Bruchrechnung überhaupt nicht verstanden hat. Obwohl Jonas geduldig erklärt hat, hat Tim oft die Übungen falsch gemacht. Erst nachdem sie die gleichen Aufgaben mehrmals zusammen geübt hatten, wurde es für Tim langsam einfacher.\n\nLetzte Woche hat Tim eine Mathearbeit zurückbekommen und eine deutlich bessere Note geschrieben als sonst. Er ist sofort zu Jonas gelaufen, um ihm die Note zu zeigen. „Ohne deine Hilfe hätte ich das nie geschafft\", hat Tim gesagt. Jonas war sehr stolz auf seinen Schüler und freut sich schon auf die nächste Nachhilfestunde.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas gibt Tim Nachhilfe in Mathematik.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tims Mutter hat Jonas um Hilfe gebeten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat die Bruchrechnung sofort verstanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat eine schlechtere Note geschrieben als sonst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas freut sich nicht auf die nächste Nachhilfestunde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "pauls-erste-eigene-wohnung-in-koeln",
+    "nivel": "B1",
+    "titulo": "Pauls erste eigene Wohnung in Köln",
+    "descripcion": "Paul zieht nach dem Studium nach Köln in seine erste eigene Wohnung und muss sich an das selbstständige Leben gewöhnen.",
+    "texto": "Nachdem Paul sein Studium abgeschlossen hatte, ist er für seine erste Arbeitsstelle nach Köln gezogen. Vorher hat er immer bei seinen Eltern gewohnt, deshalb war dieser Schritt eine große Veränderung für ihn. Die Wohnung ist klein, aber Paul findet sie gemütlich und liebt es, sie nach seinem eigenen Geschmack einzurichten.\n\nIn den ersten Wochen musste sich Paul an viele neue Aufgaben gewöhnen. Er musste selbst kochen, einkaufen und putzen, obwohl er das vorher kaum gemacht hatte. Manchmal fühlte er sich überfordert, besonders als der Kühlschrank kaputt ging und er nicht wusste, wen er anrufen sollte.\n\nTrotz dieser Schwierigkeiten genießt Paul seine neue Unabhängigkeit sehr. Er kann jetzt entscheiden, wann er isst, wann er schläft und wen er einlädt. Seine Eltern besuchen ihn regelmäßig, und Paul ist stolz, ihnen seine Wohnung zu zeigen. „Es war am Anfang schwer, aber jetzt möchte ich nie wieder zurückziehen\", hat er seinem besten Freund erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist für seine erste Arbeitsstelle nach Köln gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul musste lernen, selbst zu kochen und zu putzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kühlschrank ist einmal kaputt gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul genießt seine Unabhängigkeit nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Eltern besuchen ihn nie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "chatbots-im-kundenservice",
+    "nivel": "B2",
+    "titulo": "Chatbots im Kundenservice",
+    "descripcion": "Ein Blick darauf, wie Unternehmen zunehmend Chatbots im Kundenservice einsetzen und welche Fragen sich daraus ergeben.",
+    "texto": "Immer mehr Unternehmen setzen im Kundenservice auf automatisierte Chatbots, die Anfragen rund um die Uhr beantworten können. Während Befürworter betonen, dass diese Systeme Wartezeiten verkürzen und einfache Probleme sofort lösen, warnen Kritiker davor, dass komplexere Anliegen häufig nicht ausreichend bearbeitet würden. Viele Kunden berichten, dass sie sich von unpersönlichen Standardantworten frustriert fühlen, besonders wenn ihr eigentliches Problem nicht gelöst wird.\n\nEin besonders kontrovers diskutierter Aspekt ist die Frage, inwiefern menschliche Mitarbeiter im Kundenservice durch solche Systeme ersetzt werden könnten. Viele Unternehmen betonen zwar, dass Chatbots lediglich eine Entlastung für einfache Anfragen darstellen sollen, während komplizierte Fälle weiterhin von Menschen bearbeitet würden. Verbraucherschützer befürchten jedoch, dass langfristig immer mehr Stellen im Kundenservice abgebaut werden könnten, sobald die Technologie ausgereift genug ist.\n\nDarüber hinaus stellt sich die Frage, wie transparent Unternehmen mit dem Einsatz dieser Systeme umgehen sollten. Wäre es nicht sinnvoller, Kunden von Anfang an klar darauf hinzuweisen, dass sie mit einem automatisierten System kommunizieren, anstatt den Eindruck eines menschlichen Gesprächspartners zu erwecken? Diese Frage wird in Verbraucherschutzkreisen zunehmend diskutiert, wobei bislang keine einheitliche gesetzliche Regelung existiert. Es bleibt abzuwarten, wie sich das Verhältnis zwischen technologischer Effizienz und Kundenzufriedenheit in den kommenden Jahren entwickeln wird.",
+    "preguntas": [
+      {
+        "enunciado": "Chatbots im Kundenservice können Anfragen rund um die Uhr beantworten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kunden sind mit den Antworten von Chatbots vollkommen zufrieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Verbraucherschützer befürchten einen möglichen Stellenabbau im Kundenservice.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird behauptet, dass es bereits eine einheitliche gesetzliche Regelung gibt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Text wird vorgeschlagen, Kunden klar auf den Einsatz automatisierter Systeme hinzuweisen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-der-stille",
+    "nivel": "B2",
+    "titulo": "Der Wert der Stille",
+    "descripcion": "Eine Reflexion darüber, wie Lärm und permanente Erreichbarkeit das moderne Leben beeinflussen und warum Stille zunehmend geschätzt wird.",
+    "texto": "In einer Gesellschaft, die von ständiger Erreichbarkeit und permanenter Informationsflut geprägt ist, wird Stille zu einem seltenen und wertvollen Gut. Immer mehr Menschen berichten, dass sie sich von Benachrichtigungen, Verkehrslärm und der allgegenwärtigen digitalen Kommunikation überfordert fühlen. Studien deuten darauf hin, dass dieser konstante Reizüberfluss nicht nur die Konzentrationsfähigkeit beeinträchtigt, sondern auch zu erhöhtem Stress und Schlafstörungen führen kann.\n\nAls Reaktion auf diese Entwicklung suchen viele Menschen bewusst nach Momenten der Ruhe. Sogenannte „Digital Detox\"-Programme, bei denen Teilnehmer für einige Tage auf Smartphones und Internet verzichten, erfreuen sich wachsender Beliebtheit. Auch Meditationskurse und Achtsamkeitsübungen werden zunehmend nachgefragt, was zeigt, dass ein wachsendes Bedürfnis nach innerer Ruhe besteht, selbst wenn dieses Bedürfnis paradoxerweise oft wieder durch Apps befriedigt werden soll.\n\nEs stellt sich jedoch die Frage, ob individuelle Maßnahmen allein ausreichen, um das Problem nachhaltig zu lösen. Wäre es nicht notwendig, dass auch Städte und Arbeitgeber mehr Verantwortung übernehmen, indem beispielsweise ruhige öffentliche Räume geschaffen oder klare Grenzen für die Erreichbarkeit außerhalb der Arbeitszeit festgelegt würden? Ohne solche strukturellen Veränderungen bliebe die Suche nach Stille letztlich eine individuelle Aufgabe, die nicht jeder gleich gut bewältigen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Stille wird im Text als zunehmend wertvolles Gut beschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien hat der ständige Reizüberfluss keine negativen Folgen für die Gesundheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Digital-Detox-Programme verzeichnen eine wachsende Nachfrage.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass individuelle Maßnahmen das Problem allein sicher lösen können.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Text wird vorgeschlagen, dass auch Städte und Arbeitgeber Verantwortung übernehmen sollten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "zwischen-tradition-und-moderne",
+    "nivel": "B2",
+    "titulo": "Zwischen Tradition und Moderne",
+    "descripcion": "Ein Essay darüber, wie Handwerksbetriebe in deutschsprachigen Ländern zwischen traditionellen Methoden und moderner Technik balancieren müssen.",
+    "texto": "Handwerksbetriebe in deutschsprachigen Ländern stehen vor einer besonderen Herausforderung: Sie müssen jahrhundertealte Traditionen bewahren und sich gleichzeitig an eine zunehmend digitalisierte Wirtschaft anpassen. Während früher vor allem handwerkliches Geschick und jahrelange Erfahrung zählten, werden heute auch digitale Kompetenzen vorausgesetzt, etwa im Umgang mit computergesteuerten Maschinen oder bei der Vermarktung über soziale Medien.\n\nViele kleine Betriebe, die seit Generationen von einer Familie geführt werden, sehen sich gezwungen, ihre Geschäftsmodelle zu überdenken. Ein Tischlermeister aus Bayern berichtet beispielsweise, dass er ohne eine eigene Website heutzutage kaum noch neue Kunden gewinnen würde, obwohl die eigentliche handwerkliche Arbeit sich kaum verändert habe. Gleichzeitig befürchten manche Handwerksmeister, dass durch die zunehmende Automatisierung wichtige traditionelle Fertigkeiten verloren gehen könnten, wenn sie nicht mehr an junge Auszubildende weitergegeben werden.\n\nDennoch zeigt sich, dass Tradition und Innovation sich nicht grundsätzlich ausschließen müssen. Zahlreiche Betriebe haben erfolgreich einen Mittelweg gefunden, indem sie klassische Techniken mit modernen Werkzeugen kombinieren, ohne dabei die Qualität oder den persönlichen Charakter ihrer Produkte zu verlieren. Ob dieser Balanceakt auf lange Sicht gelingt, hängt wesentlich davon ab, ob es gelingt, genügend junge Menschen für eine handwerkliche Ausbildung zu begeistern, da der Fachkräftemangel in vielen Branchen bereits deutlich spürbar ist.",
+    "preguntas": [
+      {
+        "enunciado": "Handwerksbetriebe müssen sich laut Text an eine digitalisierte Wirtschaft anpassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Tischlermeister aus Bayern gewinnt problemlos neue Kunden ohne eigene Website.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Handwerksmeister befürchten, dass traditionelle Fertigkeiten verloren gehen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird behauptet, dass Tradition und Innovation sich grundsätzlich ausschließen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Fachkräftemangel wird im Text als bereits spürbares Problem beschrieben.",
+        "respuesta": true
+      }
+    ]
   }
 ]
