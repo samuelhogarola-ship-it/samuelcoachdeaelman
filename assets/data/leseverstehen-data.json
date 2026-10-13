@@ -49886,5 +49886,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-lieblingsfarbe-ist-blau",
+    "nivel": "A1",
+    "titulo": "Meine Lieblingsfarbe ist Blau",
+    "descripcion": "Lena erzählt über ihre Lieblingsfarbe und ihre Sachen.",
+    "texto": "Ich heiße Lena. Meine Lieblingsfarbe ist Blau. Mein Fahrrad ist blau. Meine Tasche ist auch blau. Ich trage oft ein blaues T-Shirt.\n\nMeine Schwester heißt Mia. Ihre Lieblingsfarbe ist Rot. Ihr Pullover ist rot. Ihre Schuhe sind auch rot. Mia mag Rot sehr gern.\n\nUnser Zimmer hat gelbe Wände. Das ist nicht meine Lieblingsfarbe, aber es ist schön. Am Wochenende malen Mia und ich oft Bilder. Ich male mit Blau, und Mia malt mit Rot.",
+    "preguntas": [
+      {
+        "enunciado": "Lenas Lieblingsfarbe ist Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas Fahrrad ist grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mias Lieblingsfarbe ist Rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Zimmer hat blaue Wände.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und Mia malen am Wochenende Bilder.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "montags-gehe-ich-schwimmen",
+    "nivel": "A1",
+    "titulo": "Montags gehe ich schwimmen",
+    "descripcion": "Tom beschreibt seine Woche und seine Aktivitäten.",
+    "texto": "Ich heiße Tom. Montags gehe ich schwimmen. Das Schwimmbad ist nicht weit von meinem Haus. Ich schwimme gern und bleibe eine Stunde dort.\n\nDienstags spiele ich Fußball mit meinen Freunden. Mittwochs lerne ich Englisch in der Schule. Am Donnerstag besuche ich meine Oma. Sie kocht immer Suppe für mich.\n\nAm Freitag habe ich keine Schule. Dann spiele ich Gitarre und höre Musik. Am Wochenende schlafe ich lange und treffe meine Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Tom geht montags schwimmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom spielt dienstags Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom lernt mittwochs Spanisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Oma kocht immer Suppe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom hat am Freitag Schule.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wir-kochen-spaghetti",
+    "nivel": "A1",
+    "titulo": "Wir kochen Spaghetti",
+    "descripcion": "Paul und seine Mutter kochen zusammen Spaghetti zum Abendessen.",
+    "texto": "Heute kochen Paul und seine Mutter Spaghetti. Sie brauchen Nudeln, Tomaten und Käse. Paul wäscht die Tomaten, und seine Mutter schneidet die Zwiebeln.\n\nDas Wasser kocht. Paul gibt die Nudeln in den Topf. Seine Mutter macht die Tomatensoße. Es riecht sehr gut in der Küche. „Das Essen ist bald fertig\", sagt die Mutter.\n\nNach zehn Minuten ist das Essen fertig. Paul deckt den Tisch. Die Familie isst zusammen und findet die Spaghetti sehr lecker. Paul möchte auch morgen kochen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und seine Mutter kochen Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul wäscht die Tomaten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter macht die Tomatensoße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Essen ist nach einer Stunde fertig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst zusammen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-fahrkarte",
+    "nivel": "A2",
+    "titulo": "Die verlorene Fahrkarte",
+    "descripcion": "Julia verliert ihre Zugfahrkarte und muss eine Lösung finden.",
+    "texto": "Julia ist am Bahnhof und möchte mit dem Zug nach Hamburg fahren. Sie hat die Fahrkarte gestern online gekauft und ausgedruckt. Als der Zug kommt, sucht sie die Fahrkarte in ihrer Tasche, aber sie findet sie nicht. Julia wird nervös, weil der Zug in zwei Minuten abfährt.\n\nSie steigt trotzdem ein und sucht weiter in ihrem Rucksack. Plötzlich kommt der Schaffner. Julia erklärt ihm, dass sie die Fahrkarte verloren hat. Der Schaffner ist freundlich und sagt, dass sie die Bestätigungs-E-Mail auf ihrem Handy zeigen kann. Julia öffnet schnell ihre E-Mails und findet die Bestätigung.\n\nDer Schaffner prüft die E-Mail und ist zufrieden. Julia ist sehr erleichtert, dass sie keine neue Fahrkarte kaufen musste. Während der Fahrt denkt sie, dass sie nächstes Mal die Fahrkarte besser aufbewahren wird. Als sie in Hamburg ankommt, ruft sie ihre Freundin an und erzählt ihr die ganze Geschichte.",
+    "preguntas": [
+      {
+        "enunciado": "Julia fährt mit dem Zug nach Hamburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia findet ihre Fahrkarte sofort in der Tasche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schaffner ist unfreundlich zu Julia.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia zeigt dem Schaffner die Bestätigungs-E-Mail.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia muss eine neue Fahrkarte kaufen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-im-tierpark",
+    "nivel": "A2",
+    "titulo": "Ein Besuch im Tierpark",
+    "descripcion": "Familie Schmidt verbringt einen Tag im Tierpark und erlebt viele Tiere.",
+    "texto": "Am Sonntag hat Familie Schmidt den Tierpark besucht, weil die Kinder schon lange Elefanten sehen wollten. Sie sind früh aufgestanden und mit dem Bus gefahren. Als sie am Tierpark ankamen, war es noch nicht sehr voll, und sie konnten die Tiere gut sehen.\n\nZuerst haben sie die Affen beobachtet, die lustig durch die Bäume geklettert sind. Danach sind sie zu den Elefanten gegangen. Die Kinder waren begeistert, obwohl sie ein bisschen Angst hatten, als ein Elefant so nah an den Zaun kam. Mittags haben sie Pommes gegessen und sich auf einer Bank ausgeruht.\n\nAm Nachmittag haben sie noch die Löwen und die Giraffen besucht. Die Tochter hat gesagt, dass die Giraffen ihre Lieblingstiere sind, weil sie so hohe Hälse haben. Am Abend sind alle müde, aber glücklich nach Hause gefahren und haben Fotos angeschaut.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Schmidt ist am Samstag in den Tierpark gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder wollten schon lange Elefanten sehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Affen sind durch die Bäume geklettert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tochter mag Löwen am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie ist müde, aber glücklich nach Hause gefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-postkarte-aus-italien",
+    "nivel": "A2",
+    "titulo": "Die Postkarte aus Italien",
+    "descripcion": "Markus schreibt seiner Familie eine Postkarte während seines Urlaubs in Italien.",
+    "texto": "Markus ist seit drei Tagen in Italien und hat schon viele schöne Orte besucht. Er hat beschlossen, seiner Familie eine Postkarte zu schreiben, weil er ihnen von seinem Urlaub erzählen möchte. Er kauft eine Postkarte mit einem Bild von Venedig und setzt sich in ein kleines Café.\n\n„Liebe Familie\", schreibt Markus, „Italien ist wunderschön! Ich habe gestern eine Gondel-Fahrt gemacht und viel Pizza gegessen. Das Wetter ist sehr warm, und die Leute sind sehr freundlich.\" Er erzählt auch, dass er ein Museum besucht hat, obwohl er eigentlich keine Museen mag. Am Ende schreibt er, dass er sich schon auf das Wiedersehen freut.\n\nNachdem Markus die Postkarte fertig geschrieben hat, geht er zur Post und schickt sie ab. Er weiß, dass die Postkarte wahrscheinlich erst nach seiner Rückkehr ankommt, aber das findet er lustig. Seine Familie wird sich sicher freuen, wenn sie die Postkarte liest.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist seit einer Woche in Italien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus schickt eine Postkarte mit einem Bild von Venedig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat eine Gondel-Fahrt gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus mag Museen sehr gern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Postkarte kommt sicher vor Markus zu Hause an.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-unerwartete-freundschaft-im-zug",
+    "nivel": "B1",
+    "titulo": "Eine unerwartete Freundschaft im Zug",
+    "descripcion": "Zwei fremde Reisende kommen während einer langen Zugfahrt ins Gespräch und werden Freunde.",
+    "texto": "Simone saß allein in einem Zugabteil und hatte sich auf eine ruhige, sechsstündige Fahrt nach Köln eingestellt. Kurz vor der Abfahrt setzte sich ein älterer Mann namens Herr Weber auf den Platz gegenüber. Obwohl Simone eigentlich lieber lesen wollte, kam schnell ein Gespräch zustande, nachdem Herr Weber sie nach der Uhrzeit gefragt hatte.\n\nIm Laufe der Fahrt erzählte Herr Weber von seiner Jugend in Köln und von den vielen Veränderungen, die er in der Stadt erlebt hatte. Simone, die zum ersten Mal nach Köln reiste, hörte gespannt zu und stellte viele Fragen. Trotzdem der Altersunterschied zwischen den beiden groß war, fühlten sich die Gespräche natürlich und leicht an. Sie sprachen über Musik, Reisen und sogar über ihre Familien.\n\nAls der Zug schließlich in Köln ankam, tauschten Simone und Herr Weber ihre Telefonnummern aus, weil beide die Unterhaltung nicht vergessen wollten. Simone war selbst überrascht, wie sehr sie sich auf dieser kurzen Reise mit einem Fremden verbunden fühlte. Ein paar Wochen später schrieben sie sich tatsächlich wieder und planten, sich bei einem Kaffee zu treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Simone wollte ursprünglich die ganze Fahrt allein verbringen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber ist in Köln aufgewachsen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simone und Herr Weber sprechen während der Fahrt kaum miteinander.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simone war schon oft in Köln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simone und Herr Weber tauschen am Ende ihre Telefonnummern aus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-ueberraschende-wiedersehen",
+    "nivel": "B1",
+    "titulo": "Das überraschende Wiedersehen",
+    "descripcion": "Nach vielen Jahren treffen sich zwei ehemalige Schulfreunde zufällig in einer fremden Stadt wieder.",
+    "texto": "Felix war beruflich nach Leipzig gereist, eine Stadt, in der er noch nie gewesen war. Nachdem er sein Hotel gefunden hatte, beschloss er, einen Spaziergang durch die Innenstadt zu machen, obwohl er nach der langen Zugfahrt eigentlich müde war. Vor einem kleinen Buchladen blieb er stehen, um ein Buch im Schaufenster zu betrachten.\n\nPlötzlich hörte er eine vertraute Stimme hinter sich. Es war Katrin, seine beste Freundin aus der Grundschule, die er seit über fünfzehn Jahren nicht mehr gesehen hatte. Beide konnten es zunächst kaum glauben, dass sie sich ausgerechnet hier wiederbegegneten. Katrin erklärte, dass sie vor fünf Jahren nach Leipzig gezogen war, um dort zu studieren, und inzwischen als Lehrerin arbeitete.\n\nSie setzten sich in ein nahegelegenes Café und redeten stundenlang über ihre vergangenen Jahre. Obwohl ihr Leben sich sehr unterschiedlich entwickelt hatte, merkten beide schnell, dass die alte Freundschaft noch genauso stark war wie früher. Am Ende des Abends versprachen sie sich, den Kontakt diesmal nicht wieder zu verlieren.",
+    "preguntas": [
+      {
+        "enunciado": "Felix war schon oft in Leipzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix und Katrin treffen sich vor einem Buchladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin und Felix kennen sich aus der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin lebt seit kurzer Zeit in Leipzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende verlieren Felix und Katrin wieder den Kontakt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommer-ohne-internet",
+    "nivel": "B1",
+    "titulo": "Ein Sommer ohne Internet",
+    "descripcion": "Eine Jugendliche berichtet von ihren Erfahrungen, als sie einen ganzen Sommer ohne Internet verbrachte.",
+    "texto": "Letzten Sommer entschied sich Hanna, zwei Monate lang auf das Internet zu verzichten, nachdem sie einen Artikel über digitale Entgiftung gelesen hatte. Zuerst fiel es ihr sehr schwer, weil sie gewohnt war, ständig ihr Handy zu benutzen. Trotzdem wollte sie das Experiment durchziehen, um zu sehen, wie sich ihr Alltag dadurch verändern würde.\n\nIn den ersten Tagen fühlte sich Hanna oft gelangweilt und unsicher, was sie mit ihrer freien Zeit anfangen sollte. Nach einer Woche begann sie jedoch, wieder mehr zu lesen und lange Spaziergänge in der Natur zu machen. Obwohl sie manchmal wichtige Nachrichten von Freunden verpasste, merkte sie, dass sie sich insgesamt ruhiger und konzentrierter fühlte.\n\nAm Ende des Sommers war Hanna überrascht, wie viel sie in dieser Zeit gelernt hatte, sowohl über sich selbst als auch über ihre Umgebung. Sie beschloss, auch nach dem Experiment ihre Handyzeit deutlich zu reduzieren. Ihre Freunde bemerkten, dass Hanna seitdem entspannter und aufmerksamer wirkte, wenn sie Zeit miteinander verbrachten.",
+    "preguntas": [
+      {
+        "enunciado": "Hanna verzichtet einen ganzen Sommer auf Internet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hanna findet das Experiment von Anfang an leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hanna macht in dieser Zeit mehr Spaziergänge in der Natur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Hanna verpasst nie Nachrichten von Freunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Sommer nutzt Hanna ihr Handy genauso viel wie vorher.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "soziale-medien-und-die-einsamkeit",
+    "nivel": "B2",
+    "titulo": "Soziale Medien und die Einsamkeit",
+    "descripcion": "Ein Essay untersucht den Zusammenhang zwischen sozialen Medien und dem Gefühl der Einsamkeit in der modernen Gesellschaft.",
+    "texto": "Obwohl soziale Medien ursprünglich entwickelt wurden, um Menschen miteinander zu verbinden, deuten zahlreiche Studien darauf hin, dass ihre intensive Nutzung paradoxerweise mit einem erhöhten Gefühl der Einsamkeit einhergehen kann. Besonders bei jüngeren Nutzern wird häufig beobachtet, dass der ständige Vergleich mit scheinbar perfekten Lebensläufen anderer zu Unzufriedenheit und sozialer Isolation führt. Die sorgfältig inszenierten Bilder, die in den Netzwerken geteilt werden, vermitteln oft ein verzerrtes Bild der Realität, dem sich viele Nutzer unbewusst ausgesetzt sehen.\n\nGleichzeitig wird in der Forschung diskutiert, ob nicht die Art der Nutzung entscheidender ist als die Nutzung selbst. Während passives Scrollen, bei dem Inhalte lediglich konsumiert werden, mit negativen psychischen Auswirkungen in Verbindung gebracht wird, kann eine aktive, zielgerichtete Kommunikation durchaus positive Effekte auf das Wohlbefinden haben. Wenn soziale Medien dazu genutzt würden, bestehende Beziehungen zu vertiefen, anstatt sie durch oberflächliche Interaktionen zu ersetzen, könnte die Technologie ihrem ursprünglichen Zweck tatsächlich gerecht werden.\n\nDennoch bleibt die Frage offen, inwiefern die Plattformen selbst für dieses Phänomen verantwortlich gemacht werden sollten. Kritiker argumentieren, dass die Algorithmen bewusst so gestaltet seien, dass sie die Verweildauer der Nutzer maximieren, selbst wenn dadurch Einsamkeitsgefühle verstärkt würden. Eine stärkere Regulierung sowie eine bewusstere Mediennutzung könnten langfristig dazu beitragen, dass soziale Netzwerke wieder stärker ihrem eigentlichen Ziel dienen, nämlich echte zwischenmenschliche Verbindungen zu fördern, statt sie zu untergraben.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Medien führen laut dem Text bei manchen Nutzern zu mehr Einsamkeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text ist die Art der Nutzung für die psychischen Auswirkungen unwichtig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Aktive, zielgerichtete Kommunikation kann das Wohlbefinden positiv beeinflussen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass alle Forscher sich einig sind, dass Plattformen allein schuld sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine bewusstere Mediennutzung könnte laut dem Text helfen, echte Verbindungen zu fördern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-das-homeschooling",
+    "nivel": "B2",
+    "titulo": "Die Debatte um das Homeschooling",
+    "descripcion": "Eine Analyse der gesellschaftlichen Diskussion über häusliches Lernen als Alternative zum klassischen Schulsystem.",
+    "texto": "In den letzten Jahren hat sich in zahlreichen Ländern eine kontroverse Debatte über die Vor- und Nachteile des Homeschoolings entwickelt. Befürworter argumentieren, dass ein individuelles Lernumfeld es Kindern ermögliche, sich in ihrem eigenen Tempo zu entwickeln, ohne dem Leistungsdruck eines standardisierten Lehrplans ausgesetzt zu sein. Zudem wird betont, dass Eltern dadurch stärker in den Bildungsprozess ihrer Kinder eingebunden würden, was sich positiv auf die familiäre Beziehung auswirken könne.\n\nKritiker hingegen weisen darauf hin, dass Kindern, die zu Hause unterrichtet werden, wichtige soziale Erfahrungen fehlten, die normalerweise im schulischen Umfeld gesammelt würden. Ohne den regelmäßigen Kontakt zu Gleichaltrigen, so wird argumentiert, könnten sich Kinder schwerer in Gruppenstrukturen einfügen, sobald sie später in das Berufsleben eintreten. Darüber hinaus wird angemerkt, dass nicht alle Eltern über die notwendige pädagogische Qualifikation verfügten, um einen umfassenden Lehrplan angemessen zu vermitteln, selbst wenn sie dies mit großem Engagement versuchten.\n\nAngesichts dieser gegensätzlichen Positionen fordern einige Bildungsexperten einen Mittelweg, bei dem Elemente des Homeschoolings in das reguläre Schulsystem integriert würden, etwa durch flexiblere Lehrpläne oder zusätzliche digitale Lernangebote. Ob eine solche Reform tatsächlich umgesetzt werden könnte, hängt jedoch stark von politischen und finanziellen Rahmenbedingungen ab, die sich von Land zu Land erheblich unterscheiden. Die Debatte dürfte daher in absehbarer Zukunft kaum an Aktualität verlieren.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter des Homeschoolings betonen das individuelle Lerntempo der Kinder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keine Nachteile beim Fehlen sozialer Erfahrungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text verfügen alle Eltern über ausreichende pädagogische Qualifikationen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Bildungsexperten schlagen einen Mittelweg zwischen beiden Systemen vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sagt, dass die Debatte bald beendet sein wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-der-nachbarschaftshilfe",
+    "nivel": "B2",
+    "titulo": "Der Wert der Nachbarschaftshilfe in Großstädten",
+    "descripcion": "Ein Beitrag beleuchtet, wie gegenseitige Nachbarschaftshilfe der Anonymität des städtischen Lebens entgegenwirken kann.",
+    "texto": "In vielen Großstädten wird seit Jahren ein zunehmender Verlust des Gemeinschaftsgefühls beklagt, der oft mit der wachsenden Anonymität des urbanen Lebens in Verbindung gebracht wird. Während frühere Generationen häufig enge Beziehungen zu ihren direkten Nachbarn pflegten, scheinen solche Verbindungen in modernen Wohnvierteln zunehmend zu verschwinden. Gerade in großen Mehrfamilienhäusern, in denen viele Bewohner einander kaum kennen, wird diese Entwicklung besonders deutlich.\n\nAls Reaktion auf diesen Trend sind in den letzten Jahren zahlreiche Initiativen entstanden, die gezielt die Nachbarschaftshilfe fördern sollen. Online-Plattformen, über die Bewohner Hilfe anbieten oder anfragen können, erfreuen sich wachsender Beliebtheit, da sie es ermöglichen, unkompliziert Kontakt zu Menschen in unmittelbarer Nähe aufzunehmen. Ob es sich um das Ausleihen von Werkzeugen, die Betreuung von Haustieren während des Urlaubs oder die Unterstützung älterer Nachbarn im Alltag handelt, solche Netzwerke tragen dazu bei, dass wieder stärker aufeinander geachtet wird.\n\nDennoch bleibt fragwürdig, inwieweit digitale Plattformen allein ausreichen, um ein nachhaltiges Gemeinschaftsgefühl zu schaffen, das sich nicht nur auf punktuelle Hilfeleistungen beschränkt. Experten betonen, dass regelmäßige persönliche Begegnungen, etwa durch Nachbarschaftsfeste oder gemeinsame Projekte im Wohnumfeld, notwendig seien, damit aus anfänglicher Hilfsbereitschaft echte zwischenmenschliche Bindungen entstehen könnten. Nur wenn beide Ansätze kombiniert würden, ließe sich der schleichende Verlust der nachbarschaftlichen Gemeinschaft in Großstädten langfristig aufhalten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text beschreibt einen zunehmenden Verlust des Gemeinschaftsgefühls in Großstädten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frühere Generationen hatten laut dem Text meist keine Beziehung zu ihren Nachbarn.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Online-Plattformen für Nachbarschaftshilfe erfreuen sich wachsender Beliebtheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text reichen digitale Plattformen allein zweifellos aus, um Gemeinschaft zu schaffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten halten persönliche Begegnungen für wichtig, um echte Bindungen zu schaffen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
