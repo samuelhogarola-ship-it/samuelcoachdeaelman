@@ -41,6 +41,11 @@ document.querySelector("#imageUpload").addEventListener("change", uploadImages);
 document.querySelector("#saveImageMeta").addEventListener("click", saveSelectedImageMeta);
 document.querySelector("#setFeaturedImage").addEventListener("click", setSelectedImageAsFeatured);
 search.addEventListener("input", renderPostList);
+postList.addEventListener("click", (event) => {
+  const card = event.target.closest(".post-card");
+  if (!card) return;
+  loadPost(card.dataset.slug);
+});
 fields.body.addEventListener("input", renderPreview);
 fields.title.addEventListener("input", () => {
   currentTitle.textContent = fields.title.value || "Nuevo post";
@@ -57,11 +62,15 @@ document.querySelector("#insertImage").addEventListener("click", insertSelectedI
 loadPosts();
 
 async function loadPosts() {
-  const data = await api("/api/posts");
-  state.posts = data.posts;
-  renderPostList();
-  if (state.posts[0]) await loadPost(state.posts[0].slug);
-  else newPost();
+  try {
+    const data = await api("/api/posts");
+    state.posts = data.posts;
+    renderPostList();
+    if (state.posts[0]) await loadPost(state.posts[0].slug);
+    else newPost();
+  } catch (error) {
+    statusText.textContent = error.message;
+  }
 }
 
 function renderPostList() {
@@ -71,20 +80,27 @@ function renderPostList() {
     const button = document.createElement("button");
     button.type = "button";
     button.className = `post-card${post.slug === state.activeSlug ? " is-active" : ""}`;
+    button.dataset.slug = post.slug;
     button.innerHTML = `<strong>${escapeHtml(post.title)}</strong><span>${escapeHtml(post.slug)} · ${post.words} palabras · ${post.images.length} imagenes</span>`;
-    button.addEventListener("click", () => loadPost(post.slug));
     postList.append(button);
   }
 }
 
 async function loadPost(slug) {
-  const post = await api(`/api/posts/${slug}`);
-  state.activeSlug = post.slug;
-  fillForm(post);
-  renderImages(post.images);
-  renderPostList();
-  renderPreview();
-  statusText.textContent = "Post cargado";
+  if (!slug) return;
+  statusText.textContent = "Cargando post...";
+  try {
+    const post = await api(`/api/posts/${slug}`);
+    state.activeSlug = post.slug;
+    fillForm(post);
+    renderImages(post.images);
+    renderPostList();
+    renderPreview();
+    statusText.textContent = `Post cargado: ${post.slug}`;
+    document.querySelector(".editor").scrollTo({ top: 0, behavior: "smooth" });
+  } catch (error) {
+    statusText.textContent = `No se pudo abrir ${slug}: ${error.message}`;
+  }
 }
 
 function newPost() {
