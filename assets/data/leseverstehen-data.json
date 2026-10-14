@@ -53018,5 +53018,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "meine-geburtstagsparty",
+    "nivel": "A1",
+    "titulo": "Meine Geburtstagsparty",
+    "descripcion": "Lisa erzählt von ihrer Geburtstagsparty mit Freunden und Familie.",
+    "texto": "Ich heiße Lisa und ich werde heute neun Jahre alt. Meine Mama backt einen Kuchen mit Schokolade. Mein Papa kauft Luftballons in vielen Farben. Rot, blau und gelb sind meine Lieblingsfarben. Wir dekorieren das Wohnzimmer mit den Ballons.\n\nAm Nachmittag kommen meine Freunde. Sie bringen Geschenke mit. Mein Freund Tom gibt mir ein Buch. Meine Freundin Mia gibt mir einen Ball. Wir spielen zusammen im Garten. Dann essen wir den Kuchen und singen ein Geburtstagslied.\n\nAm Abend bin ich sehr müde, aber ich bin auch sehr glücklich. Es war ein schöner Tag. Ich danke meiner Familie und meinen Freunden für die Party.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa wird neun Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisas Mama backt einen Kuchen mit Vanille.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Papa kauft Luftballons.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom gibt Lisa einen Ball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend ist Lisa glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unser-neues-haustier",
+    "nivel": "A1",
+    "titulo": "Unser neues Haustier",
+    "descripcion": "Die Familie Berger kauft eine kleine Katze für die Kinder.",
+    "texto": "Die Familie Berger hat ein neues Haustier. Es ist eine kleine Katze. Die Katze ist weiß und schwarz. Die Kinder, Paul und Emma, sind sehr froh. Sie geben der Katze den Namen Mimi.\n\nMimi schläft viel und spielt gern mit einem Ball. Paul füttert die Katze jeden Morgen. Emma putzt die Schüssel von Mimi. Am Abend sitzt Mimi auf dem Sofa und schläft. Die Familie liebt ihre neue Katze sehr.\n\nAm Wochenende kauft die Familie noch ein Spielzeug für Mimi. Die Katze ist jetzt ein wichtiges Mitglied der Familie Berger.",
+    "preguntas": [
+      {
+        "enunciado": "Die Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist braun und weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul füttert die Katze jeden Morgen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie mag die Katze nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie kauft am Wochenende ein Spielzeug.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-beim-schwimmbad",
+    "nivel": "A1",
+    "titulo": "Ein Tag beim Schwimmbad",
+    "descripcion": "Jonas verbringt einen heißen Sommertag mit seiner Schwester im Schwimmbad.",
+    "texto": "Heute ist es sehr heiß. Jonas und seine Schwester Lena gehen zum Schwimmbad. Sie packen Handtücher und Badesachen in eine Tasche. Mama gibt ihnen auch ein Brot und eine Flasche Wasser.\n\nIm Schwimmbad schwimmen Jonas und Lena im großen Becken. Das Wasser ist kalt und frisch. Danach spielen sie mit einem Ball im Wasser. Viele Kinder sind auch im Schwimmbad. Lena isst ein Eis und Jonas trinkt eine Limonade.\n\nAm Nachmittag sind beide müde. Sie fahren mit dem Fahrrad nach Hause. Es war ein schöner Tag im Schwimmbad.",
+    "preguntas": [
+      {
+        "enunciado": "Es ist heute sehr heiß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas und Lena gehen ins Kino.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wasser im Becken ist kalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena isst ein Brötchen im Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie fahren mit dem Fahrrad nach Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-tierpark",
+    "nivel": "A2",
+    "titulo": "Der Besuch im Tierpark",
+    "descripcion": "Familie Hofmann hat einen Ausflug in den Tierpark gemacht und viele Tiere gesehen.",
+    "texto": "Am Sonntag hat Familie Hofmann einen Ausflug in den Tierpark gemacht. Die Kinder haben sich schon seit Tagen darauf gefreut, weil sie gern Tiere beobachten. Zuerst sind sie zu den Elefanten gegangen, die gerade gebadet haben. Danach haben sie die Affen gesehen, die lustig von Baum zu Baum gesprungen sind.\n\nAls es Mittag war, haben sie sich auf eine Bank gesetzt und Brote gegessen, die Mama vorbereitet hatte. Der kleine Max hat gefragt, ob sie auch die Löwen besuchen können, weil er sie am liebsten mag. Obwohl die Löwen gerade geschlafen haben, war Max trotzdem begeistert, als er sie von Nahem gesehen hat.\n\nAm Ende des Tages haben alle gesagt, dass es ein toller Ausflug war. Sie sind müde, aber glücklich nach Hause gefahren. Die Kinder haben versprochen, dass sie den Tierpark im nächsten Jahr wieder besuchen möchten.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Hofmann war am Sonntag im Tierpark.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben zuerst die Löwen besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben Brote zum Mittagessen gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max mag die Affen am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie war am Ende des Tages müde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-woche-ohne-handy",
+    "nivel": "A2",
+    "titulo": "Eine Woche ohne Handy",
+    "descripcion": "Sarah berichtet, wie sie eine Woche ohne ihr Handy verbracht hat.",
+    "texto": "Letzte Woche hat Sarah beschlossen, eine Woche ohne ihr Handy zu leben, weil sie gemerkt hat, dass sie zu viel Zeit damit verbracht hat. Am ersten Tag war es sehr schwer, weil sie sich oft gefragt hat, was ihre Freunde gerade machen. Sie hat ihr Handy in eine Schublade gelegt und nicht mehr angeschaut.\n\nNach ein paar Tagen hat Sarah gemerkt, dass sie viel mehr Zeit für andere Dinge hatte. Sie hat mehr gelesen und ist jeden Abend spazieren gegangen. Außerdem hat sie wieder angefangen, Briefe an ihre Oma zu schreiben, was sie schon lange nicht mehr gemacht hatte. Ihre Familie hat sich gefreut, dass Sarah beim Abendessen mehr erzählt hat, anstatt auf ihr Handy zu schauen.\n\nAm Ende der Woche hat Sarah ihr Handy wieder benutzt, aber sie hat beschlossen, es seltener zu benutzen als vorher. Sie hat gesagt, dass diese Woche ihr gezeigt hat, wie wichtig es ist, manchmal offline zu sein.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah hat eine Woche ohne Handy verbracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der erste Tag war für Sarah sehr einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah hat wieder Briefe an ihre Oma geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihre Familie war traurig, dass sie mehr erzählt hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah will ihr Handy jetzt seltener benutzen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-bei-den-grosseltern-am-sonntag",
+    "nivel": "A2",
+    "titulo": "Der Besuch bei den Großeltern am Sonntag",
+    "descripcion": "Tim und seine Eltern besuchen die Großeltern auf dem Land und erleben einen schönen Tag.",
+    "texto": "Am Sonntag sind Tim und seine Eltern zu den Großeltern aufs Land gefahren. Die Fahrt hat fast zwei Stunden gedauert, aber Tim hat sich nicht gelangweilt, weil er im Auto ein Buch gelesen hat. Als sie angekommen sind, hat Oma schon den Tisch für das Mittagessen gedeckt.\n\nNach dem Essen ist Tim mit seinem Opa in den Garten gegangen, weil er die Hühner füttern wollte. Opa hat ihm erklärt, dass die Hühner jeden Tag frisches Wasser und Körner brauchen. Tim hat auch geholfen, Äpfel von den Bäumen zu pflücken, obwohl er dabei ein bisschen schmutzig geworden ist.\n\nAm Abend, bevor sie nach Hause gefahren sind, hat Oma ihnen einen selbstgebackenen Kuchen mitgegeben. Tim hat sich sehr gefreut und seinen Großeltern versprochen, dass er sie bald wieder besuchen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die Fahrt zu den Großeltern hat zwei Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat sich im Auto gelangweilt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat mit Opa die Hühner gefüttert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim ist beim Äpfelpflücken sauber geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma hat ihnen einen Kuchen mitgegeben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-vereinssport-am-wochenende",
+    "nivel": "B1",
+    "titulo": "Vereinssport am Wochenende",
+    "descripcion": "Immer mehr Menschen engagieren sich in Sportvereinen, obwohl der Alltag oft wenig Zeit dafür lässt.",
+    "texto": "Jeden Samstagmorgen trifft sich eine Gruppe von Nachbarn auf dem Sportplatz, um gemeinsam Fußball zu spielen. Obwohl die meisten von ihnen während der Woche beruflich stark eingespannt sind, nehmen sie sich diese Zeit, weil ihnen der Sport und die Gemeinschaft im Verein sehr wichtig sind. Nachdem sie sich vor einigen Jahren zufällig im Park kennengelernt hatten, haben sie beschlossen, einen eigenen kleinen Verein zu gründen.\n\nTrotzdem ist es nicht immer leicht, genügend Spieler für jedes Training zu finden, da Familie und Arbeit oft Vorrang haben. Manche Mitglieder bringen inzwischen ihre Kinder mit, die am Spielfeldrand zuschauen oder selbst ein kleines Training bekommen. Dadurch ist aus dem ursprünglichen Fußballtreffen mittlerweile ein richtiges Gemeinschaftsprojekt geworden, das mehrere Generationen miteinander verbindet.\n\nAm Ende jedes Trainings setzen sich alle gemeinsam auf eine Bank und besprechen, wie es im nächsten Jahr weitergehen soll. Viele hoffen, dass der Verein wächst und irgendwann auch an kleinen Turnieren in der Region teilnehmen kann. Für die meisten ist der sportliche Erfolg dabei aber weniger wichtig als das Gefühl, Teil einer festen Gemeinschaft zu sein.",
+    "preguntas": [
+      {
+        "enunciado": "Die Gruppe trifft sich jeden Samstagmorgen zum Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Mitglieder haben während der Woche viel Freizeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es ist immer einfach, genügend Spieler zu finden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Mitglieder bringen ihre Kinder zum Training mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Für viele ist die Gemeinschaft wichtiger als der sportliche Erfolg.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-jugendorchester",
+    "nivel": "B1",
+    "titulo": "Das Jugendorchester",
+    "descripcion": "Ein Jugendorchester bereitet sich auf sein wichtigstes Konzert des Jahres vor und meistert dabei einige Herausforderungen.",
+    "texto": "Das städtische Jugendorchester probt seit Wochen für sein großes Jahreskonzert, das in der historischen Stadthalle stattfinden soll. Nachdem der bisherige Dirigent überraschend die Stadt verlassen hatte, musste eine neue Leiterin gefunden werden, die das Orchester kurzfristig übernehmen konnte. Obwohl die Umstellung am Anfang schwierig war, haben sich die jungen Musiker schnell an die neue Arbeitsweise gewöhnt.\n\nBesonders die Streichergruppe hatte zunächst Probleme mit einem neuen, sehr anspruchsvollen Stück, weil die Noten ungewöhnlich schnelle Passagen enthielten. Trotzdem haben die Jugendlichen viele Extrastunden investiert, um die Stücke sicher zu beherrschen. Einige Eltern haben sogar angeboten, zusätzliche Proberäume zu organisieren, damit die kleineren Gruppen getrennt üben können.\n\nAm Abend des Konzerts war die Stadthalle bis auf den letzten Platz gefüllt. Nachdem das letzte Stück verklungen war, erhielten die jungen Musiker einen langen Applaus, der ihnen zeigte, wie sehr sich die harte Arbeit gelohnt hatte. Für viele von ihnen war es der schönste Moment ihrer bisherigen musikalischen Laufbahn.",
+    "preguntas": [
+      {
+        "enunciado": "Das Jugendorchester bereitet sich auf sein Jahreskonzert vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der alte Dirigent leitet das Orchester weiterhin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Streichergruppe hatte Schwierigkeiten mit einem neuen Stück.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eltern haben sich nicht um zusätzliche Proberäume bemüht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Konzert war gut besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-organisation-eines-flohmarkts",
+    "nivel": "B1",
+    "titulo": "Die Organisation eines Flohmarkts",
+    "descripcion": "Eine Nachbarschaft organisiert gemeinsam einen Flohmarkt, um alte Dinge weiterzugeben und sich besser kennenzulernen.",
+    "texto": "In der Siedlung am Stadtrand haben sich mehrere Nachbarn zusammengetan, um einen gemeinsamen Flohmarkt zu organisieren. Die Idee dazu kam von Frau Krüger, die schon lange fand, dass viele Familien zu viele ungenutzte Dinge im Keller horten. Nachdem sie die Idee in der Nachbarschaftsgruppe vorgeschlagen hatte, meldeten sich innerhalb kurzer Zeit über zwanzig Haushalte an.\n\nObwohl die Organisation anfangs chaotisch wirkte, fand sich schnell eine kleine Gruppe, die sich um die wichtigsten Aufgaben kümmerte. Jemand organisierte Tische und Stellplätze, andere kümmerten sich um die Werbung im Viertel. Trotzdem gab es kurz vor dem Termin noch einige Probleme, weil das Wetter unsicher war und niemand genau wusste, ob der Flohmarkt überhaupt stattfinden könnte.\n\nAm Tag des Flohmarkts schien schließlich die Sonne, und viele Besucher aus der ganzen Stadt kamen vorbei. Die Nachbarn haben nicht nur ihre alten Sachen verkauft, sondern sich auch gegenseitig besser kennengelernt. Am Ende des Tages war klar, dass der Flohmarkt im nächsten Jahr wiederholt werden soll.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Krüger hatte die Idee zum Flohmarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur wenige Haushalte wollten mitmachen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Organisation war von Anfang an perfekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Tag des Flohmarkts schien die Sonne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn haben sich dabei besser kennengelernt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vereinbarkeit-von-familie-und-beruf",
+    "nivel": "B2",
+    "titulo": "Die Vereinbarkeit von Familie und Beruf",
+    "descripcion": "Viele Eltern stehen vor der Herausforderung, berufliche Ambitionen mit familiären Verpflichtungen in Einklang zu bringen.",
+    "texto": "Die Frage, wie sich Familie und Beruf sinnvoll vereinbaren lassen, beschäftigt in Deutschland nicht nur Eltern, sondern zunehmend auch Arbeitgeber und Politiker. Während früher vor allem Mütter ihre Karriere für die Kindererziehung zurückstellten, erwarten heute viele Paare, dass beide Partner sowohl beruflich erfolgreich sein als auch Verantwortung in der Familie übernehmen können. Diese veränderten Erwartungen stellen bestehende Arbeitsstrukturen zunehmend infrage.\n\nUnternehmen, die flexible Arbeitszeiten oder Homeoffice-Modelle anbieten, würden von vielen Fachkräften als attraktiver wahrgenommen, selbst wenn das Gehalt woanders etwas höher ausfiele. Dennoch klagen zahlreiche Eltern darüber, dass selbst flexible Regelungen wenig nützten, solange die grundsätzliche Erwartungshaltung bestehe, jederzeit erreichbar zu sein. Kritiker bemängeln außerdem, dass Kinderbetreuungsangebote in vielen Regionen nach wie vor unzureichend ausgebaut seien, was berufstätige Eltern zusätzlich belaste.\n\nExperten schlagen vor, dass eine wirkliche Verbesserung nur erreicht werden könnte, wenn sich sowohl gesellschaftliche Rollenbilder als auch betriebliche Strukturen grundlegend wandelten. Solange Teilzeitarbeit vor allem von Frauen übernommen werde und Männer kaum Elternzeit nähmen, bliebe die Vereinbarkeit von Familie und Beruf ein ungleich verteiltes Problem. Eine nachhaltige Lösung müsste daher weit über einzelne Unternehmensmaßnahmen hinausgehen und auch kulturelle Vorstellungen von Erwerbsarbeit und Fürsorge verändern.",
+    "preguntas": [
+      {
+        "enunciado": "Früher haben vor allem Mütter ihre Karriere für die Familie zurückgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flexible Arbeitszeiten lösen laut Eltern automatisch alle Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kinderbetreuungsangebote sind überall in Deutschland ausreichend ausgebaut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern einen Wandel gesellschaftlicher Rollenbilder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Teilzeitarbeit wird überwiegend von Männern übernommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-mindestlohn-debatte-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Die Debatte um den Mindestlohn",
+    "descripcion": "Die Höhe des gesetzlichen Mindestlohns wird in Deutschland regelmäßig kontrovers diskutiert.",
+    "texto": "Kaum ein wirtschaftspolitisches Thema wird in Deutschland so regelmäßig und so leidenschaftlich diskutiert wie die Frage, wie hoch der gesetzliche Mindestlohn sein sollte. Befürworter einer deutlichen Erhöhung argumentieren, dass viele Beschäftigte trotz Vollzeitarbeit kaum genug verdienten, um ihren Lebensunterhalt angemessen zu bestreiten. Gerade angesichts steigender Mieten und Lebenshaltungskosten sei eine Anpassung längst überfällig.\n\nArbeitgeberverbände hingegen warnen davor, dass eine zu starke Erhöhung insbesondere kleinere Unternehmen finanziell überfordern könnte. Würden die Lohnkosten zu schnell steigen, müssten manche Betriebe Stellen abbauen oder könnten gezwungen sein, ganz aufzugeben, so die Befürchtung. Wirtschaftswissenschaftler sind sich uneinig darüber, wie stark dieser Effekt tatsächlich ausfallen würde, da frühere Erhöhungen des Mindestlohns bislang keine dramatischen Beschäftigungseinbrüche verursacht hätten.\n\nGewerkschaften fordern derweil, dass der Mindestlohn regelmäßig und unabhängig von politischen Verhandlungen an die Lebenshaltungskosten angepasst werden sollte. Nur so könne verhindert werden, dass Niedriglohnbeschäftigte dauerhaft von der allgemeinen Einkommensentwicklung abgekoppelt blieben. Ob sich Politik, Arbeitgeber und Gewerkschaften in absehbarer Zeit auf ein gemeinsames Modell verständigen werden, bleibt allerdings ungewiss.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter fordern eine deutliche Erhöhung des Mindestlohns.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Arbeitgeberverbände befürworten uneingeschränkt eine schnelle Erhöhung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frühere Mindestlohnerhöhungen führten laut Text zu dramatischen Beschäftigungseinbrüchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gewerkschaften wollen eine regelmäßige Anpassung des Mindestlohns.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt bereits eine endgültige Einigung zwischen allen Seiten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-herausforderungen-der-landflucht",
+    "nivel": "B2",
+    "titulo": "Die Herausforderungen der Landflucht",
+    "descripcion": "Immer mehr junge Menschen verlassen ländliche Regionen, was weitreichende Folgen für Dörfer und Kleinstädte hat.",
+    "texto": "Seit Jahrzehnten lässt sich in vielen ländlichen Regionen Deutschlands ein ähnlicher Trend beobachten: Junge Menschen ziehen zum Studium oder wegen besserer Arbeitsmöglichkeiten in die Städte, während ihre Heimatdörfer zunehmend überaltern. Diese Entwicklung, die gemeinhin als Landflucht bezeichnet wird, stellt viele Gemeinden vor erhebliche Probleme, da ihnen sowohl Steuereinnahmen als auch dringend benötigte Fachkräfte fehlen.\n\nBesonders betroffen sind Regionen, in denen weder eine gute Verkehrsanbindung noch ein schnelles Internet vorhanden sind, wodurch sich dort kaum neue Unternehmen ansiedeln lassen. Infolgedessen schließen immer mehr Geschäfte, Arztpraxen und Schulen, was das Leben vor Ort zusätzlich erschwert und den Trend weiter verstärkt. Manche Dorfgemeinschaften versuchen dieser Entwicklung entgegenzuwirken, indem sie Leerstand kreativ nutzen oder gezielt junge Familien mit günstigem Wohnraum anzulocken versuchen.\n\nOb solche lokalen Initiativen ausreichen, um die strukturellen Nachteile ländlicher Regionen auszugleichen, wird von Experten unterschiedlich bewertet. Einige fordern stattdessen umfassende staatliche Investitionen in Infrastruktur und digitale Netze, ohne die sich der Rückstand gegenüber den Großstädten kaum verringern ließe. Andere wiederum betonen, dass auch ein Umdenken in der Bevölkerung notwendig wäre, damit das Leben auf dem Land wieder als attraktive Alternative wahrgenommen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Junge Menschen ziehen oft wegen Studium oder Arbeit in die Städte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ländliche Gemeinden profitieren finanziell stark von der Landflucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fehlende Verkehrsanbindung und Internet erschweren die Ansiedlung neuer Unternehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Dorfgemeinschaften haben die Landflucht bereits vollständig gestoppt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten fordern staatliche Investitionen in Infrastruktur.",
+        "respuesta": true
+      }
+    ]
   }
 ]
