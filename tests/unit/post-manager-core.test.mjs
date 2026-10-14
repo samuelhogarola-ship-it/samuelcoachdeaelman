@@ -128,10 +128,39 @@ test("lista y abre posts HTML existentes sin markdown fuente", async () => {
     assert.equal(posts[0].source, "generated-html");
     assert.equal(posts[0].slug, "post-html-existente");
     assert.equal(posts[0].status, "html-heredado");
+    assert.equal(posts[0].images[0].url, "https://example.com/cover.webp");
+    assert.equal(posts[0].images[0].isFeatured, true);
+    assert.equal(posts[0].images[0].canDelete, false);
 
     const post = await readPost(root, "post-html-existente");
     assert.equal(post.source, "generated-html");
     assert.match(post.body, /Texto \*\*importante\*\*/);
+    assert.equal(post.images[0].file, "cover.webp");
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test("normaliza imagenes destacadas del dominio propio a rutas locales", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "post-manager-featured-"));
+  try {
+    await mkdir(path.join(root, "f", "post-con-imagen"), { recursive: true });
+    await writeFile(
+      path.join(root, "f", "post-con-imagen", "index.html"),
+      `<!doctype html>
+      <html lang="es">
+        <head>
+          <title>Post con imagen | Samuel Coach de Alemán</title>
+          <meta property="og:image" content="https://www.samuelcoachdealeman.com/assets/img/og-posts/cover.webp">
+        </head>
+        <body><article><h1>Post con imagen</h1><p>Texto.</p></article></body>
+      </html>`,
+      "utf8",
+    );
+
+    const post = await readPost(root, "post-con-imagen");
+    assert.equal(post.images[0].url, "/assets/img/og-posts/cover.webp");
+    assert.equal(post.images[0].source, "featured");
   } finally {
     await rm(root, { recursive: true, force: true });
   }

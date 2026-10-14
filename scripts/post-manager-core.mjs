@@ -112,7 +112,7 @@ export async function listPosts(rootDir) {
     const content = await readFile(filePath, "utf8");
     const { meta, body } = parsePostMarkdown(content);
     const slug = meta.slug || file.replace(/\.md$/, "");
-    const images = await listPostImages(rootDir, slug);
+    const images = await collectPostImages(rootDir, slug, meta.image, meta.title || slug);
     seenSlugs.add(slug);
     posts.push({
       slug,
@@ -150,7 +150,7 @@ export async function readPost(rootDir, slug) {
     file: fileName,
     meta: { ...meta, slug: meta.slug || slug },
     body,
-    images: await listPostImages(rootDir, meta.slug || slug),
+    images: await collectPostImages(rootDir, meta.slug || slug, meta.image, meta.title || slug),
   };
 }
 
@@ -194,6 +194,8 @@ export async function listPostImages(rootDir, slug) {
       alt: metadata[file]?.alt || "",
       description: metadata[file]?.description || "",
       isFeatured: metadata[file]?.isFeatured || false,
+      canDelete: true,
+      source: "local",
     });
   }
 
@@ -326,7 +328,7 @@ async function listGeneratedPosts(rootDir) {
         level: meta.level,
         status: "html-heredado",
         words: htmlToText(extractArticleHtml(html)).split(/\s+/).filter(Boolean).length,
-        images: await listPostImages(rootDir, slug),
+        images: await collectPostImages(rootDir, slug, meta.image, meta.title),
       });
     } catch (error) {
       if (error.code !== "ENOENT") throw error;
@@ -358,8 +360,53 @@ async function readGeneratedPost(rootDir, slug) {
       status: "html-heredado",
     },
     body,
-    images: await listPostImages(rootDir, slug),
+    images: await collectPostImages(rootDir, slug, meta.image, meta.title),
   };
+}
+
+async function collectPostImages(rootDir, slug, featuredImage, title = "") {
+  const images = await listPostImages(rootDir, slug);
+  const featured = normalizeFeaturedImage(slug, featuredImage, title);
+  if (!featured) return images;
+
+  let hasFeatured = false;
+  for (const image of images) {
+    const isFeatured = isSameImageReference(image, featured);
+    image.isFeatured = image.isFeatured || isFeatured;
+    hasFeatured ||= isFeatured;
+  }
+
+  return hasFeatured ? images : [featured, ...images];
+}
+
+function normalizeFeaturedImage(slug, value, title = "") {
+  const raw = String(value || "").trim();
+  if (!raw) return null;
+
+  let url = raw;
+  try {
+    const parsed = new URL(raw);
+    if (parsed.hostname === "www.samuelcoachdealeman.com" || parsed.hostname === "samuelcoachdealeman.com") {
+      url = parsed.pathname;
+    }
+  } catch {
+    if (raw.startsWith("img/")) url = `/f/${slug}/${raw}`;
+  }
+
+  return {
+    file: path.basename(url) || "imagen-principal",
+    url,
+    bytes: 0,
+    alt: title,
+    description: "Imagen principal del post",
+    isFeatured: true,
+    canDelete: false,
+    source: "featured",
+  };
+}
+
+function isSameImageReference(image, featured) {
+  return image.url === featured.url || image.file === featured.file || featured.url.endsWith(`/img/${image.file}`);
 }
 
 function extractGeneratedMeta(html, slug) {
