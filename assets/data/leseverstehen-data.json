@@ -52322,5 +52322,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-kino-mit-papa",
+    "nivel": "A1",
+    "titulo": "Im Kino mit Papa",
+    "descripcion": "Lena geht am Samstag mit ihrem Vater ins Kino.",
+    "texto": "Lena ist acht Jahre alt. Am Samstag geht sie mit ihrem Papa ins Kino. Sie kaufen zwei Karten für einen Zeichentrickfilm. Der Film beginnt um vier Uhr.\n\nVor dem Kino kaufen sie Popcorn und eine Flasche Wasser. Lena mag das süße Popcorn sehr gerne. Papa trinkt einen Kaffee. Sie suchen ihre Plätze in Reihe fünf.\n\nDer Film ist lustig und bunt. Lena lacht viel. Nach dem Film sagt sie: „Der Film war toll, Papa!\" Sie gehen zusammen nach Hause und essen Pizza zum Abendessen.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht am Samstag mit ihrem Papa ins Kino.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Film beginnt um sechs Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena mag das Popcorn gerne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Papa trinkt einen Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Kino essen sie Pizza.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-neues-fahrrad-zum-geburtstag",
+    "nivel": "A1",
+    "titulo": "Mein neues Fahrrad zum Geburtstag",
+    "descripcion": "Tom bekommt zum Geburtstag ein neues Fahrrad und fährt im Park.",
+    "texto": "Tom hat heute Geburtstag. Er wird zehn Jahre alt. Seine Eltern schenken ihm ein neues Fahrrad. Das Fahrrad ist blau und hat eine Klingel.\n\nTom freut sich sehr. Er fährt sofort mit dem Fahrrad in den Park. Der Park ist groß und hat viele Bäume. Tom fährt schnell und ruft: „Das macht Spaß!\"\n\nAm Nachmittag kommen seine Freunde. Sie spielen zusammen im Garten und essen Kuchen. Tom zeigt seinen Freunden das neue Fahrrad. Alle finden es sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Tom wird zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom fährt mit dem Fahrrad in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Park hat keine Bäume.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Freunde essen Kuchen mit ihm.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-obstkorb-in-der-kueche",
+    "nivel": "A1",
+    "titulo": "Der Obstkorb in der Küche",
+    "descripcion": "Familie Müller hat jeden Tag frisches Obst in der Küche.",
+    "texto": "In der Küche von Familie Müller steht ein großer Obstkorb. Dort liegen Äpfel, Bananen und Orangen. Die Kinder essen jeden Morgen eine Banane zum Frühstück.\n\nAm Mittwoch kauft Frau Müller neue Trauben auf dem Markt. Sie wäscht die Trauben und legt sie in den Korb. Die Kinder mögen die Trauben sehr gerne.\n\nAm Abend isst die Familie zusammen einen Apfel als Nachtisch. Der Obstkorb ist nie leer, denn Frau Müller kauft jede Woche neues Obst.",
+    "preguntas": [
+      {
+        "enunciado": "In der Küche steht ein Obstkorb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder essen morgens Schokolade.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Müller kauft Trauben auf dem Markt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder mögen keine Trauben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Müller kauft jede Woche neues Obst.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-zugfahrkarte",
+    "nivel": "A2",
+    "titulo": "Die verlorene Zugfahrkarte",
+    "descripcion": "Jonas verliert seine Fahrkarte am Bahnhof und muss sie suchen.",
+    "texto": "Jonas wollte am Montag mit dem Zug nach Köln fahren. Er ist früh zum Bahnhof gekommen, weil er den Zug nicht verpassen wollte. Als er am Bahnsteig stand, suchte er seine Fahrkarte in der Tasche, aber sie war nicht da.\n\nJonas ist sehr nervös geworden, weil der Zug schon in zehn Minuten kommen sollte. Er hat seine ganze Tasche durchsucht und ist noch einmal zum Kiosk zurückgelaufen, wo er einen Kaffee gekauft hatte. Dort hat die Verkäuferin die Fahrkarte gefunden, die auf dem Boden lag.\n\nJonas hat sich sehr gefreut und der Verkäuferin gedankt. Er ist pünktlich zum Bahnsteig zurückgekommen und in den Zug eingestiegen. Während der Fahrt hat er die Fahrkarte in seine Jackentasche gesteckt, damit er sie nicht wieder verliert.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas wollte nach Köln fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat seine Fahrkarte sofort in der Tasche gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Verkäuferin am Kiosk hat die Fahrkarte gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat den Zug verpasst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas steckt die Fahrkarte in die Jackentasche.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-beim-tierarzt-mit-der-katze",
+    "nivel": "A2",
+    "titulo": "Ein Besuch beim Tierarzt mit der Katze",
+    "descripcion": "Sabine bringt ihre kranke Katze zum Tierarzt.",
+    "texto": "Sabines Katze Mimi hat seit zwei Tagen nicht mehr gegessen. Sabine hat sich Sorgen gemacht, weil Mimi sonst immer hungrig ist. Deshalb hat sie am Dienstag einen Termin beim Tierarzt gemacht.\n\nIn der Praxis hat der Tierarzt Mimi genau untersucht. Er hat gesagt, dass die Katze eine kleine Infektion hat. Sabine war erleichtert, als sie gehört hat, dass es nicht schlimm ist. Der Tierarzt hat Mimi eine Spritze gegeben und Medizin für zu Hause mitgegeben.\n\nAls Sabine mit Mimi nach Hause gekommen ist, hat die Katze sofort wieder etwas gefressen. Sabine war sehr froh, dass es Mimi schon nach wenigen Stunden besser ging. Sie hat beschlossen, in Zukunft öfter zum Tierarzt zu gehen, wenn Mimi sich seltsam verhält.",
+    "preguntas": [
+      {
+        "enunciado": "Mimi hat zwei Tage nicht gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine hat sich keine Sorgen gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Tierarzt hat eine schwere Krankheit festgestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi hat nach der Behandlung wieder gefressen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine will in Zukunft öfter zum Tierarzt gehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-regenschirm-im-bus-vergessen",
+    "nivel": "A2",
+    "titulo": "Der Regenschirm im Bus vergessen",
+    "descripcion": "Peter vergisst seinen Regenschirm im Bus und sucht ihn im Fundbüro.",
+    "texto": "Peter ist am Morgen mit dem Bus zur Arbeit gefahren. Es hat stark geregnet, deshalb hatte er seinen roten Regenschirm dabei. Als er an seiner Haltestelle ausgestiegen ist, hat er den Schirm im Bus vergessen.\n\nErst am Abend hat Peter bemerkt, dass der Regenschirm fehlt. Er hat sich geärgert, weil er den Schirm von seiner Großmutter geschenkt bekommen hatte. Am nächsten Tag ist er zum Fundbüro der Stadt gegangen, um zu fragen, ob jemand den Schirm abgegeben hat.\n\nIm Fundbüro hat eine Mitarbeiterin in einer Liste nachgeschaut. Sie hat gesagt, dass ein roter Regenschirm tatsächlich gefunden wurde. Peter war sehr froh und hat den Schirm sofort mitgenommen. Seitdem passt er besser auf seine Sachen auf, wenn er mit dem Bus fährt.",
+    "preguntas": [
+      {
+        "enunciado": "Peter ist mit dem Fahrrad zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Peter hat den Regenschirm im Bus vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Peter hat den Schirm sofort am Morgen vermisst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Fundbüro wurde der Regenschirm gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Peter passt jetzt besser auf seine Sachen auf.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-im-grossraumbuero",
+    "nivel": "B1",
+    "titulo": "Der erste Tag im Großraumbüro",
+    "descripcion": "Nina beginnt einen neuen Job und muss sich an das offene Büro gewöhnen.",
+    "texto": "Nina hat vor einer Woche ihre neue Stelle in einem großen Unternehmen angenommen. Obwohl sie sich auf den neuen Job gefreut hat, war sie am ersten Tag ziemlich nervös. Das Unternehmen arbeitet in einem Großraumbüro, in dem mehr als fünfzig Menschen zusammen an langen Tischen sitzen.\n\nNachdem Nina sich an ihrem Schreibtisch eingerichtet hatte, bemerkte sie, wie laut es im Büro war. Telefone klingelten, Kollegen unterhielten sich, und überall liefen Menschen hin und her. Trotzdem versuchte sie, sich auf ihre erste Aufgabe zu konzentrieren, denn ihr Chef hatte ihr bereits ein kleines Projekt gegeben.\n\nAm Ende des Tages sprach Nina mit einer Kollegin über die Geräuschkulisse im Büro. Die Kollegin erklärte ihr, dass man sich mit der Zeit daran gewöhnt und dass es Kopfhörer gibt, die man benutzen kann, um sich besser zu konzentrieren. Nina fühlte sich erleichtert und beschloss, am nächsten Tag ihre eigenen Kopfhörer mitzubringen.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat ihre neue Stelle vor einem Monat angenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Büro ist ein Großraumbüro mit vielen Mitarbeitern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Büro war es sehr ruhig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kollegin erklärt Nina, dass man sich an den Lärm gewöhnen kann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina will am nächsten Tag Kopfhörer mitbringen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommerfest-in-der-nachbarschaft",
+    "nivel": "B1",
+    "titulo": "Ein Sommerfest in der Nachbarschaft",
+    "descripcion": "Die Bewohner einer Straße organisieren gemeinsam ein Sommerfest.",
+    "texto": "In der Lindenstraße wohnen viele Familien, die sich schon lange kennen, obwohl sie sich im Alltag selten treffen. Deshalb hat Frau Bergmann vorgeschlagen, ein Sommerfest für die ganze Nachbarschaft zu organisieren. Die Idee kam bei den Nachbarn gut an, und schnell fanden sich mehrere Helfer.\n\nNachdem alle Termine abgestimmt waren, trafen sich die Nachbarn an einem Samstag im Juli auf dem gemeinsamen Hof. Jeder brachte etwas zu essen mit: Salate, Kuchen und gegrilltes Gemüse standen auf den Tischen. Trotz des wechselhaften Wetters blieb es den ganzen Nachmittag trocken, und die Stimmung war sehr fröhlich.\n\nDie Kinder spielten zusammen im Garten, während die Erwachsenen sich bei einem Glas Limonade unterhielten. Am Abend waren sich alle einig, dass das Fest ein voller Erfolg war. Sie beschlossen, das Sommerfest im nächsten Jahr zu wiederholen, damit die Nachbarschaft noch enger zusammenwächst.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Bergmann hat das Sommerfest vorgeschlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand wollte beim Fest mithelfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fest fand im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben im Garten gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn wollen das Fest nächstes Jahr wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-entscheidung-fuer-ein-semester-im-ausland",
+    "nivel": "B1",
+    "titulo": "Die Entscheidung für ein Semester im Ausland",
+    "descripcion": "Eine Studentin überlegt lange, ob sie ein Auslandssemester machen soll.",
+    "texto": "Carla studiert im vierten Semester Wirtschaftswissenschaften und überlegt schon seit Monaten, ob sie ein Semester im Ausland verbringen soll. Obwohl sie Spanien sehr gerne besuchen würde, hatte sie Angst, ihre Freunde und ihre Familie für so lange Zeit nicht zu sehen.\n\nNachdem Carla mit mehreren Kommilitonen gesprochen hatte, die bereits im Ausland studiert hatten, änderte sich ihre Meinung. Alle berichteten von positiven Erfahrungen und neuen Freundschaften. Trotzdem musste Carla noch viele organisatorische Dinge klären, zum Beispiel die Anerkennung der Kurse und die Finanzierung der Reise.\n\nSchließlich entschied sich Carla, sich für ein Semester an einer Universität in Barcelona zu bewerben. Sie füllte alle Formulare aus und schickte ihre Bewerbung rechtzeitig ab. Als sie die Zusage bekam, war sie überglücklich und begann sofort, ihre Spanischkenntnisse zu verbessern.",
+    "preguntas": [
+      {
+        "enunciado": "Carla studiert Wirtschaftswissenschaften.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla hatte von Anfang an keine Zweifel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kommilitonen haben Carla von ihren negativen Erfahrungen erzählt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carla bewirbt sich für ein Semester in Barcelona.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Zusage beginnt Carla, Spanisch zu lernen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-ueber-ein-tempolimit",
+    "nivel": "B2",
+    "titulo": "Die Debatte über ein Tempolimit auf Autobahnen",
+    "descripcion": "Ein gesellschaftlicher Blick auf die Diskussion um ein generelles Tempolimit in Deutschland.",
+    "texto": "Kaum ein verkehrspolitisches Thema wird in Deutschland so leidenschaftlich diskutiert wie die Frage, ob auf Autobahnen ein generelles Tempolimit eingeführt werden sollte. Befürworter argumentieren, dass durch eine Geschwindigkeitsbegrenzung jährlich erhebliche Mengen an CO2 eingespart und zugleich die Zahl schwerer Unfälle reduziert werden könnten. Gegner hingegen betonen, dass die individuelle Freiheit der Autofahrer eingeschränkt würde und dass ein Tempolimit die Verkehrssicherheit kaum messbar verbessere.\n\nWürde ein Tempolimit eingeführt, müsste die gesamte Verkehrsinfrastruktur entsprechend angepasst werden, da Beschilderungen und Kontrollsysteme überarbeitet werden müssten. Zudem wird oft darauf hingewiesen, dass Deutschland zu den wenigen Industrieländern gehört, in denen auf einem Teil der Autobahnen noch keine generelle Geschwindigkeitsbegrenzung gilt. Kritiker dieser Sonderstellung sehen darin ein Symbol für eine veraltete Verkehrspolitik, während Befürworter der freien Fahrt die Autobahn als wichtigen Teil der deutschen Identität betrachten.\n\nIn den vergangenen Jahren wurde das Thema immer wieder im Bundestag behandelt, ohne dass eine endgültige Entscheidung getroffen wurde. Studien, die von unterschiedlichen Interessengruppen in Auftrag gegeben wurden, kommen je nach Auftraggeber zu widersprüchlichen Ergebnissen. Es bleibt daher abzuwarten, ob und wann sich die Politik auf eine gemeinsame Linie einigen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Die Debatte über ein Tempolimit wird in Deutschland sehr kontrovers geführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Befürworter und Gegner sind sich bei diesem Thema einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Tempolimit könnte laut Befürwortern CO2-Emissionen reduzieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Deutschland hat als eines der ersten Länder ein generelles Tempolimit eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bundestag hat sich bereits endgültig für ein Tempolimit entschieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ki-gestuetzte-lernprogramme-an-schulen",
+    "nivel": "B2",
+    "titulo": "KI-gestützte Lernprogramme an Schulen",
+    "descripcion": "Eine Auseinandersetzung mit Chancen und Risiken künstlicher Intelligenz im Schulunterricht.",
+    "texto": "Immer mehr Schulen setzen auf KI-gestützte Lernprogramme, die den Unterricht individueller gestalten sollen. Diese Programme analysieren den Lernfortschritt jedes einzelnen Schülers und schlagen passende Übungen vor, sodass schwächere Schüler gezielter gefördert und stärkere Schüler zusätzlich gefordert werden können. Befürworter sehen darin eine Chance, die Bildungsgerechtigkeit zu verbessern, da jedes Kind in seinem eigenen Tempo lernen kann.\n\nGleichzeitig werden jedoch auch kritische Stimmen laut. Sollten Schulen ihren Unterricht zu stark von Algorithmen abhängig machen, bestünde die Gefahr, dass Lehrkräfte ihre pädagogische Verantwortung zunehmend an die Technik abgeben. Außerdem stellt sich die Frage, was mit den gesammelten Daten der Schüler geschieht und wie deren Privatsphäre geschützt werden kann. Datenschützer fordern deshalb strenge Regeln für den Einsatz solcher Systeme im Bildungsbereich.\n\nNicht zuletzt wird diskutiert, ob durch den verstärkten Einsatz von KI im Klassenzimmer wichtige soziale Kompetenzen vernachlässigt werden könnten, da ein Teil der direkten Interaktion zwischen Lehrenden und Lernenden durch digitale Programme ersetzt wird. Bildungsexperten plädieren deshalb dafür, KI als Ergänzung und nicht als Ersatz für menschliche Lehrkräfte zu betrachten, damit die Vorteile der neuen Technologie genutzt werden können, ohne den persönlichen Kontakt im Unterricht zu verlieren.",
+    "preguntas": [
+      {
+        "enunciado": "KI-gestützte Lernprogramme analysieren den individuellen Lernfortschritt der Schüler.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten lehnen den Einsatz von KI an Schulen vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Lehrkräfte zu viel Verantwortung an die Technik abgeben könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Datenschutz spielt bei dieser Diskussion keine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten empfehlen, KI als Ergänzung zur menschlichen Lehrkraft zu sehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-der-innenstaedte-durch-online-handel",
+    "nivel": "B2",
+    "titulo": "Der Wandel der Innenstädte durch den Online-Handel",
+    "descripcion": "Wie der zunehmende Online-Handel das Gesicht deutscher Innenstädte verändert.",
+    "texto": "In vielen deutschen Innenstädten stehen immer mehr Ladenlokale leer, während der Online-Handel kontinuierlich wächst. Diese Entwicklung, die sich bereits seit Jahren abzeichnet, wurde durch veränderte Konsumgewohnheiten zusätzlich beschleunigt. Kundinnen und Kunden bestellen Kleidung, Elektronik und sogar Lebensmittel zunehmend bequem von zu Hause aus, anstatt dafür in die Stadt zu fahren.\n\nFür den traditionellen Einzelhandel bedeutet dieser Wandel eine erhebliche Herausforderung, zumal viele kleine Geschäfte mit den niedrigeren Preisen großer Online-Plattformen kaum mithalten können. Stadtplaner und Wirtschaftsverbände diskutieren deshalb intensiv darüber, wie Innenstädte attraktiv bleiben könnten, obwohl der klassische Einkauf an Bedeutung verliert. Vorgeschlagen werden unter anderem mehr kulturelle Angebote, begrünte Plätze und ein stärkerer Fokus auf Gastronomie und Erlebnisse, die online nicht ersetzt werden können.\n\nManche Städte haben bereits begonnen, leerstehende Geschäfte in Wohnraum oder Gemeinschaftsräume umzuwandeln, um der Verödung der Zentren entgegenzuwirken. Ob solche Maßnahmen ausreichen, um die Innenstädte langfristig zu beleben, bleibt umstritten. Fest steht jedoch, dass sich das Bild der deutschen Innenstadt in den kommenden Jahren weiter wandeln wird, da sich die Gewohnheiten der Verbraucher kaum zurückdrehen lassen.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Ladenlokale in Innenstädten stehen leer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Online-Handel hat in den letzten Jahren an Bedeutung verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kleine Geschäfte haben es oft schwer, mit den Preisen großer Online-Plattformen zu konkurrieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche Städte wandeln leere Geschäfte in Wohnraum um.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten sind sich vollkommen sicher, dass sich die Konsumgewohnheiten bald zurückentwickeln.",
+        "respuesta": false
+      }
+    ]
   }
 ]
