@@ -51626,5 +51626,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-morgen-vor-der-schule",
+    "nivel": "A1",
+    "titulo": "Mein Morgen vor der Schule",
+    "descripcion": "Finn erzählt, wie sein Morgen vor der Schule abläuft.",
+    "texto": "Finn steht jeden Morgen um sieben Uhr auf. Zuerst putzt er seine Zähne. Dann isst er ein Brot mit Käse und trinkt ein Glas Milch.\n\nDanach zieht er seine Schuhe an und packt seine Schultasche. Er nimmt sein Buch, einen Stift und sein Pausenbrot mit. Um acht Uhr geht er mit seiner Schwester zur Schule.\n\n„Hast du alles?“, fragt die Mutter. „Ja, ich habe alles!“, ruft Finn und läuft schnell aus der Tür.",
+    "preguntas": [
+      {
+        "enunciado": "Finn steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn trinkt ein Glas Saft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn packt seine Schultasche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn geht allein zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn ruft: „Ich habe alles!“",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-woche-im-kalender",
+    "nivel": "A1",
+    "titulo": "Meine Woche",
+    "descripcion": "Sophie erzählt, was sie jeden Tag der Woche macht.",
+    "texto": "Sophie hat einen bunten Kalender. Jeden Tag macht sie etwas anderes. Am Montag geht sie zur Schule. Am Dienstag spielt sie Fußball mit ihrem Bruder.\n\nAm Mittwoch lernt sie Englisch. Am Donnerstag besucht sie ihre Oma. Am Freitag geht sie mit Freunden ins Kino. Am Wochenende bleibt sie zu Hause und liest ein Buch.\n\nSophie sagt: „Meine Woche ist immer bunt und schön.“",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat einen bunten Kalender.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Montag spielt sie Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Donnerstag besucht sie ihre Oma.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Freitag bleibt sie zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie liest am Wochenende ein Buch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lisas-geburtstagsfeier",
+    "nivel": "A1",
+    "titulo": "Lisas Geburtstagsfeier",
+    "descripcion": "Lisa wird acht Jahre alt und feiert mit ihrer Familie.",
+    "texto": "Lisa wird heute acht Jahre alt. Ihre Familie feiert mit ihr. Die Mutter backt einen Schokoladenkuchen. Der Vater kauft bunte Luftballons.\n\nLisas Freunde kommen um drei Uhr. Alle singen ein Geburtstagslied. Lisa bekommt viele Geschenke: ein Buch, eine Puppe und ein Fahrrad. Sie freut sich sehr.\n\nAm Abend sagt Lisa: „Das war die schönste Feier!“ Die Familie lacht und isst noch ein Stück Kuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater backt den Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa bekommt ein Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde kommen um sechs Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst Kuchen am Abend.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zugverspaetung-nach-berlin",
+    "nivel": "A2",
+    "titulo": "Die Zugverspätung nach Berlin",
+    "descripcion": "Frau Schmidt kommt wegen einer Zugverspätung zu spät zu einem wichtigen Termin.",
+    "texto": "Frau Schmidt wollte früh morgens mit dem Zug nach Berlin fahren, weil sie dort einen wichtigen Termin hatte. Am Bahnhof hat sie erfahren, dass der Zug eine Stunde Verspätung hat. Sie war sehr nervös, weil der Termin schon um zehn Uhr beginnen sollte.\n\nWährend der Wartezeit hat sie ihren Kollegen angerufen und ihm von der Verspätung erzählt. Er hat gesagt, dass sie sich keine Sorgen machen soll, weil der Termin notfalls verschoben werden kann. Das hat Frau Schmidt ein bisschen beruhigt.\n\nAls der Zug endlich gekommen ist, ist Frau Schmidt schnell eingestiegen. Sie ist zwar eine Stunde zu spät angekommen, aber der Termin hat trotzdem gut geklappt, weil ihr Kollege schon alles organisiert hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Schmidt wollte nach Berlin fliegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug hatte eine Stunde Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hat ihren Kollegen angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Termin konnte nicht verschoben werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Schmidt ist am Ende gar nicht angekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-deutschkurs-am-abend",
+    "nivel": "A2",
+    "titulo": "Der Deutschkurs am Abend",
+    "descripcion": "Elena besucht nach der Arbeit einen Deutschkurs und lernt neue Wörter.",
+    "texto": "Elena arbeitet tagsüber in einem Büro und besucht abends einen Deutschkurs. Weil sie noch nicht lange in Deutschland lebt, möchte sie ihre Sprache verbessern. Der Kurs findet zweimal pro Woche statt, immer von achtzehn bis zwanzig Uhr.\n\nGestern hat die Lehrerin neue Wörter über das Thema Einkaufen erklärt. Elena hat fleißig mitgeschrieben, weil sie die Wörter für ihre Arbeit braucht. Nach dem Unterricht hat sie mit einer Mitschülerin noch zusammen gelernt.\n\nElena ist manchmal müde nach einem langen Arbeitstag, aber sie geht trotzdem gern zum Kurs. Sie sagt, dass sie schon viel mehr versteht als vor drei Monaten.",
+    "preguntas": [
+      {
+        "enunciado": "Elena arbeitet abends in einem Büro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kurs findet zweimal pro Woche statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin hat Wörter über das Thema Einkaufen erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Elena lernt nie mit anderen Mitschülern zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elena versteht jetzt mehr als vor drei Monaten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streit-mit-der-vermieterin-wegen-der-heizung",
+    "nivel": "A2",
+    "titulo": "Streit mit der Vermieterin wegen der Heizung",
+    "descripcion": "Herr Dogan hat Probleme mit seiner Heizung und spricht mit der Vermieterin.",
+    "texto": "Herr Dogan wohnt seit einem Jahr in einer kleinen Wohnung. Im Winter hat seine Heizung plötzlich nicht mehr funktioniert. Weil es sehr kalt war, hat er sofort seine Vermieterin angerufen.\n\nDie Vermieterin hat zuerst gesagt, dass sie keine Zeit hat, einen Handwerker zu schicken. Herr Dogan war ärgerlich, weil er schon zwei Nächte ohne Heizung geschlafen hatte. Er hat ihr erklärt, dass das nicht erlaubt ist.\n\nAm nächsten Tag ist ein Handwerker gekommen und hat die Heizung repariert. Die Vermieterin hat sich am Ende bei Herrn Dogan entschuldigt. Seitdem funktioniert die Heizung wieder gut.",
+    "preguntas": [
+      {
+        "enunciado": "Die Heizung hat im Sommer nicht funktioniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Dogan hat die Vermieterin angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Vermieterin hat sofort einen Handwerker geschickt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Handwerker hat die Heizung repariert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Heizung funktioniert seitdem wieder.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streit-zwischen-alten-freunden-nach-dem-umzug",
+    "nivel": "B1",
+    "titulo": "Streit zwischen alten Freunden nach dem Umzug",
+    "descripcion": "Zwei beste Freunde streiten sich, nachdem einer von ihnen in eine andere Stadt gezogen ist.",
+    "texto": "Tim und Oliver sind seit der Grundschule beste Freunde. Nachdem Oliver aus beruflichen Gründen in eine andere Stadt gezogen war, haben sie sich nur noch selten gesehen. Obwohl beide am Anfang versprochen hatten, in Kontakt zu bleiben, wurde es im Alltag immer schwieriger.\n\nAls Tim Oliver zu seinem Geburtstag einlud, konnte Oliver wegen der Arbeit nicht kommen. Tim war sehr enttäuscht und dachte, dass ihm die Freundschaft nicht mehr wichtig sei. Es kam zu einem großen Streit, nachdem Tim ihm das in einer Nachricht geschrieben hatte.\n\nNach ein paar Tagen hat Oliver angerufen und sich erklärt. Er hat gesagt, dass die neue Arbeit ihn im Moment stark belastet, die Freundschaft ihm aber immer noch sehr wichtig ist. Obwohl der Streit beide verletzt hatte, haben sie sich am Ende wieder versöhnt.",
+    "preguntas": [
+      {
+        "enunciado": "Tim und Oliver kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oliver ist wegen der Liebe umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oliver konnte zum Geburtstag kommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab einen Streit zwischen den Freunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende haben sie sich nicht versöhnt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "vom-dorf-in-die-grossstadt",
+    "nivel": "B1",
+    "titulo": "Vom Dorf in die Großstadt",
+    "descripcion": "Julia zieht von einem kleinen Dorf nach Hamburg und muss sich an das neue Leben gewöhnen.",
+    "texto": "Julia ist in einem kleinen Dorf aufgewachsen, in dem jeder jeden kannte. Nachdem sie ihr Studium beendet hatte, bekam sie eine Stelle in Hamburg und musste umziehen. Obwohl sie sich auf das neue Abenteuer freute, hatte sie auch Angst vor der fremden, lauten Stadt.\n\nIn den ersten Wochen fühlte sich Julia sehr einsam, weil sie niemanden kannte. Trotzdem hat sie sich entschieden, in einen Sportverein einzutreten, um neue Leute kennenzulernen. Dort hat sie schnell Freunde gefunden, mit denen sie samstags joggen geht.\n\nHeute, nach einem Jahr in Hamburg, vermisst Julia ihr Dorf manchmal, besonders die Ruhe und die Natur. Dennoch sagt sie, dass sie die Großstadt mit ihren vielen Möglichkeiten inzwischen sehr schätzt.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist in einer Großstadt aufgewachsen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie zieht nach Hamburg wegen einer Arbeitsstelle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia fühlt sich am Anfang sofort wohl.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie findet im Sportverein neue Freunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia vermisst ihr Dorf überhaupt nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-sommerfest-der-firma",
+    "nivel": "B1",
+    "titulo": "Das Sommerfest der Firma",
+    "descripcion": "Eine Firma organisiert ein Sommerfest, um die Mitarbeiter besser kennenzulernen.",
+    "texto": "Jedes Jahr im Juli organisiert die Firma von Herrn Krüger ein großes Sommerfest für alle Mitarbeiter. Obwohl die Vorbereitung viel Arbeit bedeutet, freuen sich alle darauf, weil es eine gute Gelegenheit ist, Kollegen aus anderen Abteilungen kennenzulernen.\n\nDieses Jahr hat das Team, nachdem es lange diskutiert hatte, beschlossen, das Fest in einem Park am Fluss zu feiern. Es gab Grillfleisch, Salate und kalte Getränke für alle. Am Nachmittag haben die Mitarbeiter ein Fußballturnier organisiert, und obwohl niemand ein Profi war, hatten alle viel Spaß.\n\nAm Abend hat der Chef eine kurze Rede gehalten und sich bei allen für die gute Arbeit im letzten Jahr bedankt. Viele Mitarbeiter sagten, dass solche Feste das Betriebsklima deutlich verbessern.",
+    "preguntas": [
+      {
+        "enunciado": "Das Sommerfest findet jedes Jahr im Juli statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fest findet in einem Restaurant statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt ein Fußballturnier am Nachmittag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Chef hält keine Rede.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Mitarbeiter finden, dass das Fest das Betriebsklima verbessert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-im-vergleich",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche",
+    "descripcion": "Ein Blick auf die Debatte um die Vier-Tage-Woche und ihre Auswirkungen auf die Arbeitswelt.",
+    "texto": "Seit einigen Jahren wird in vielen Ländern intensiv über die Einführung der Vier-Tage-Woche diskutiert. Mehrere Pilotprojekte haben gezeigt, dass Mitarbeiter, die bei vollem Lohn einen Tag weniger arbeiteten, nicht nur zufriedener, sondern teilweise sogar produktiver waren als zuvor. Befürworter argumentieren, dass kürzere Arbeitszeiten zu weniger Stress und einer besseren Vereinbarkeit von Beruf und Privatleben führten.\n\nDennoch bleibt die Umsetzung in der Praxis schwierig, besonders in Branchen, in denen durchgehende Anwesenheit erforderlich ist, etwa im Gesundheitswesen oder im Einzelhandel. Wäre die Vier-Tage-Woche flächendeckend eingeführt, müssten viele Unternehmen ihre Arbeitsabläufe grundlegend neu organisieren. Kritiker geben zudem zu bedenken, dass ein genereller Produktivitätsgewinn nicht für alle Berufsgruppen nachgewiesen werden könnte.\n\nTrotz dieser offenen Fragen experimentieren immer mehr Firmen mit flexibleren Modellen. Sollte sich die Vier-Tage-Woche langfristig durchsetzen, könnte dies das Verständnis von Arbeit und Freizeit grundlegend verändern. Entscheidend wird sein, ob sich die bisherigen positiven Ergebnisse auch in größeren und vielfältigeren Betrieben bestätigen lassen.",
+    "preguntas": [
+      {
+        "enunciado": "Pilotprojekte zeigten ausschließlich negative Ergebnisse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Umsetzung ist in allen Branchen gleich einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen Vorteile für die Work-Life-Balance.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker zweifeln an einem allgemeinen Produktivitätsgewinn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Immer mehr Firmen testen flexiblere Arbeitsmodelle.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mieten-in-den-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Mieten in den Großstädten",
+    "descripcion": "Eine Betrachtung der steigenden Mietpreise in deutschen Großstädten und möglicher Lösungsansätze.",
+    "texto": "In den vergangenen Jahren sind die Mietpreise in vielen deutschen Großstädten stark gestiegen, was für zahlreiche Haushalte zu einer erheblichen finanziellen Belastung geworden ist. Besonders betroffen sind junge Familien und Studierende, die oft mehrere Monate suchen müssen, bevor eine bezahlbare Wohnung gefunden wird. Experten führen diese Entwicklung vor allem auf den Mangel an Neubauten sowie auf die wachsende Nachfrage in urbanen Zentren zurück.\n\nAls mögliche Lösung wird häufig eine strengere Mietpreisbremse diskutiert, durch die Vermieter daran gehindert würden, die Mieten beliebig zu erhöhen. Gegner dieser Maßnahme argumentieren jedoch, dass dadurch Investitionen in neue Wohnungen unattraktiver würden, was die Wohnungsknappheit langfristig sogar verschärfen könnte. Andere Stimmen fordern stattdessen, dass der soziale Wohnungsbau deutlich stärker gefördert werden müsste.\n\nUnabhängig davon, welcher Lösungsansatz letztlich verfolgt wird, sind sich die meisten Beobachter einig, dass ohne entschlossenes politisches Handeln die Wohnsituation in den Großstädten weiterhin angespannt bleiben wird. Es bedarf eines Zusammenspiels aus mehr Wohnraum, gezielter Förderung und einer ausgewogenen Mietregulierung, damit bezahlbarer Wohnraum auch künftig für breite Bevölkerungsschichten zugänglich bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Besonders junge Familien und Studierende sind betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten lehnen die Mietpreisbremse ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche fordern mehr Förderung für sozialen Wohnungsbau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die meisten Beobachter halten politisches Handeln für nötig.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kommunale-klimaschutzprojekte",
+    "nivel": "B2",
+    "titulo": "Kommunale Klimaschutzprojekte",
+    "descripcion": "Eine Betrachtung darüber, wie Städte und Gemeinden den Klimaschutz vor Ort umsetzen.",
+    "texto": "Während die nationale Klimapolitik oft im Mittelpunkt der öffentlichen Debatte steht, gewinnen kommunale Klimaschutzprojekte zunehmend an Bedeutung. Viele Städte und Gemeinden haben in den letzten Jahren eigene Klimaschutzkonzepte entwickelt, durch die beispielsweise öffentliche Gebäude energetisch saniert oder Radwege ausgebaut werden sollen. Befürworter argumentieren, dass lokale Maßnahmen besonders wirksam seien, weil sie direkt auf die Bedürfnisse der jeweiligen Region abgestimmt werden könnten.\n\nAllerdings stehen viele Kommunen vor erheblichen finanziellen und personellen Engpässen, sodass ambitionierte Projekte häufig nur verzögert umgesetzt werden können. Es wird zudem kritisiert, dass Fördergelder des Bundes oft kompliziert beantragt werden müssten, was besonders kleinere Gemeinden benachteilige. Wären die Antragsverfahren einfacher gestaltet, könnten wahrscheinlich deutlich mehr Projekte realisiert werden.\n\nTrotz dieser Hürden setzen sich immer mehr Bürgermeister und Gemeinderäte aktiv für den lokalen Klimaschutz ein, auch weil der Druck durch die eigene Bevölkerung wächst. Langfristig, so sind sich viele Experten einig, könnten gerade die kommunale Ebene und das Engagement vor Ort entscheidend dazu beitragen, die nationalen Klimaziele überhaupt erreichbar zu machen.",
+    "preguntas": [
+      {
+        "enunciado": "Kommunale Klimaschutzprojekte gewinnen an Bedeutung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kommunen haben unbegrenzte finanzielle Mittel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten kritisieren komplizierte Förderanträge.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kleinere Gemeinden werden durch das System eher begünstigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Experten sehen die kommunale Ebene als wichtig für die Klimaziele an.",
+        "respuesta": true
+      }
+    ]
   }
 ]
