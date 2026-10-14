@@ -91,7 +91,10 @@ async function serveStatic(urlPath, res) {
 
   try {
     const body = await readFile(targetPath);
-    res.writeHead(200, { "Content-Type": contentTypes[path.extname(targetPath)] || "application/octet-stream" });
+    res.writeHead(200, {
+      "Cache-Control": "no-store",
+      "Content-Type": contentTypes[path.extname(targetPath)] || "application/octet-stream",
+    });
     res.end(body);
   } catch (error) {
     if (error.code === "ENOENT") {
