@@ -52,8 +52,8 @@
         <section class="workspace">
           <div class="writing-pane">
             <div class="view-tabs" aria-label="Vistas del editor">
-              <button class="is-active" data-view="write" type="button">Editar</button>
-              <button data-view="preview" type="button">Vista estándar</button>
+              <button class="is-active" data-view="preview" type="button">Vista estándar</button>
+              <button data-view="write" type="button">Editar</button>
               <button data-view="html" type="button">HTML</button>
             </div>
             <div class="toolbar" aria-label="Formato">
@@ -66,8 +66,8 @@
               <button data-wrap="[|](https://)" data-placeholder="texto" type="button">Link</button>
               <button id="insertImage" type="button">Imagen</button>
             </div>
-            <textarea id="body" class="body-editor" spellcheck="true"></textarea>
-            <article id="mainPreview" class="main-preview" hidden></article>
+            <textarea id="body" class="body-editor" spellcheck="true" hidden></textarea>
+            <article id="mainPreview" class="main-preview"></article>
             <pre id="htmlView" class="html-view" hidden></pre>
           </div>
 

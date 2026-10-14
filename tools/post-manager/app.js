@@ -274,20 +274,37 @@ function renderPreview() {
 }
 
 function markdownPreview(markdown) {
-  return escapeHtml(markdown)
+  const lines = escapeHtml(markdown)
+    .replace(/\r\n?/g, "\n")
+    .replace(/^[ \t]{2,}/gm, "")
+    .replace(/^# (.*)$/gm, "<h1>$1</h1>")
     .replace(/^### (.*)$/gm, "<h3>$1</h3>")
     .replace(/^## (.*)$/gm, "<h2>$1</h2>")
-    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-    .replace(/\*(.*?)\*/g, "<em>$1</em>")
+    .replace(/&lt;br\s*\/?&gt;/gi, "<br>")
+    .replace(/&lt;\/?(strong|b)&gt;/gi, (tag) => tag.replaceAll("&lt;", "<").replaceAll("&gt;", ">").replace(/^<b/i, "<strong").replace(/^<\/b/i, "</strong"))
+    .replace(/&lt;\/?(em|i)&gt;/gi, (tag) => tag.replaceAll("&lt;", "<").replaceAll("&gt;", ">").replace(/^<i/i, "<em").replace(/^<\/i/i, "</em"))
+    .replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, '<img src="$2" alt="$1">')
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer">$1</a>')
+    .replace(/\*\*([^*\n]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*([^*\n]+)\*/g, "<em>$1</em>")
+    .replace(/`([^`\n]+)`/g, "<code>$1</code>")
+    .replace(/&lt;p class=&quot;blog-text-lg&quot;&gt;([\s\S]*?)&lt;\/p&gt;/g, '<p class="blog-text-lg">$1</p>')
+    .replace(/&lt;[^&]+?&gt;/g, "");
+
+  return lines
     .split(/\n{2,}/)
     .map((block) => {
       const trimmed = block.trim();
       if (!trimmed) return "";
-      if (trimmed.startsWith("<h")) return trimmed;
+      const headingMatch = trimmed.match(/^(<h[123]>.*?<\/h[123]>)(?:\n+([\s\S]+))?$/);
+      if (headingMatch) {
+        const [, heading, rest] = headingMatch;
+        return rest ? `${heading}<p>${rest.trim().replace(/\n/g, "<br>")}</p>` : heading;
+      }
+      if (/^<(p|img)\b/.test(trimmed)) return trimmed;
       if (trimmed.startsWith("- ")) {
         return `<ul>${trimmed.split("\n").map((line) => `<li>${line.replace(/^- /, "")}</li>`).join("")}</ul>`;
       }
-      if (/^&lt;.+&gt;/.test(trimmed)) return trimmed.replaceAll("&lt;", "<").replaceAll("&gt;", ">");
       return `<p>${trimmed.replace(/\n/g, "<br>")}</p>`;
     })
     .join("");
