@@ -52322,5 +52322,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "das-puzzle-mit-tausend-teilen",
+    "nivel": "A1",
+    "titulo": "Das Puzzle mit tausend Teilen",
+    "descripcion": "Emma und ihr Opa bauen gemeinsam ein großes Puzzle am Wochenende.",
+    "texto": "Emma besucht am Sonntag ihren Opa. Auf dem Tisch liegt ein neues Puzzle. Das Puzzle hat tausend Teile. Es zeigt ein Bild vom Meer.\n\nEmma und Opa sortieren zuerst die Randteile. Opa sagt: „Wir fangen immer mit dem Rand an.“ Emma sucht die blauen Teile für den Himmel. Nach einer Stunde ist der Rand fertig.\n\nAm Nachmittag essen sie Kuchen und puzzeln weiter. Am Abend ist das Puzzle noch nicht fertig. Emma sagt: „Das machen wir nächsten Sonntag zusammen fertig.“",
+    "preguntas": [
+      {
+        "enunciado": "Das Puzzle hat tausend Teile.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Puzzle zeigt einen Wald.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma sucht die blauen Teile für den Himmel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Puzzle ist am Abend fertig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma und Opa essen Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wir-malen-ein-regenbogenbild",
+    "nivel": "A1",
+    "titulo": "Wir malen ein Regenbogenbild",
+    "descripcion": "Die Kinder in der Kita malen zusammen ein buntes Regenbogenbild.",
+    "texto": "In der Kita malen die Kinder heute ein Regenbogenbild. Jedes Kind bekommt Papier und viele bunte Stifte. Die Erzieherin zeigt, wie man einen Regenbogen malt.\n\nLea malt den Regenbogen rot, orange und gelb. Finn malt grün, blau und lila. Unter dem Regenbogen malen alle Kinder eine grüne Wiese. Ein Junge fragt: „Darf ich auch eine Sonne malen?“ Die Erzieherin sagt: „Ja, natürlich!“\n\nAm Ende hängen alle Bilder an der Wand im Flur. Die Eltern sehen die Bilder am Abend und freuen sich sehr. Lea ist stolz auf ihr Regenbogenbild.",
+    "preguntas": [
+      {
+        "enunciado": "Die Kinder malen einen Regenbogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea malt den Regenbogen nur schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Unter dem Regenbogen ist eine grüne Wiese.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Erzieherin verbietet, eine Sonne zu malen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bilder hängen im Flur.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-laternenumzug-im-november",
+    "nivel": "A1",
+    "titulo": "Der Laternenumzug im November",
+    "descripcion": "Jonas geht mit seiner selbstgebastelten Laterne beim Laternenumzug mit.",
+    "texto": "Im November ist es in Jonas' Stadt Tradition: Es gibt einen Laternenumzug. Jonas bastelt mit seiner Mutter eine Laterne aus Papier. Die Laterne hat die Form eines Sterns.\n\nAm Abend treffen sich viele Kinder vor der Schule. Jede Laterne leuchtet schön im Dunkeln. Die Kinder singen Lieder und gehen langsam durch die Straßen. Jonas sagt: „Meine Laterne ist die schönste!“\n\nNach dem Umzug gibt es auf dem Schulhof heißen Tee und Kekse. Jonas trifft seine Freunde und zeigt ihnen seine Laterne. Alle Kinder sind glücklich und müde.",
+    "preguntas": [
+      {
+        "enunciado": "Der Laternenumzug ist im November.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas bastelt die Laterne allein, ohne Hilfe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Laterne hat die Form eines Sterns.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder singen während des Umzugs Lieder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Umzug gibt es Pizza.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-verschobene-zugfahrt",
+    "nivel": "A2",
+    "titulo": "Die verschobene Zugfahrt",
+    "descripcion": "Herr Winter muss wegen eines Streiks seine Zugfahrt zur Konferenz verschieben.",
+    "texto": "Herr Winter wollte am Montagmorgen mit dem Zug nach München fahren, weil dort eine wichtige Konferenz stattfand. Als er am Bahnhof ankam, hat er erfahren, dass die Zugführer streiken. Fast alle Züge waren deshalb gestrichen.\n\nEr hat sofort seine Kollegin angerufen und erklärt, dass er wahrscheinlich nicht pünktlich kommen wird. Die Kollegin hat gesagt: „Keine Sorge, ich halte dich auf dem Laufenden, falls sich etwas ändert.“ Herr Winter hat dann versucht, einen Platz im Fernbus zu bekommen.\n\nDer Bus war zwar voll, aber er hat noch einen Platz bekommen. Er ist zwar vier Stunden später als geplant angekommen, konnte aber trotzdem noch am Nachmittag an der Konferenz teilnehmen. Er war froh, dass er eine Alternative gefunden hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Winter wollte nach Hamburg fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zugführer streiken an diesem Tag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Winter bekommt sofort einen Zug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Winter fährt stattdessen mit dem Fernbus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er verpasst die Konferenz komplett.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradreparatur-in-der-werkstatt",
+    "nivel": "A2",
+    "titulo": "Die Fahrradreparatur in der Werkstatt",
+    "descripcion": "Julia bringt ihr kaputtes Fahrrad zur Reparatur und muss länger als gedacht warten.",
+    "texto": "Julias Fahrrad hatte seit ein paar Tagen ein Problem mit der Kette. Weil sie damit nicht mehr sicher fahren wollte, hat sie das Fahrrad zu einer Werkstatt gebracht. Der Mechaniker hat sich das Fahrrad genau angeschaut.\n\nEr hat gesagt, dass nicht nur die Kette, sondern auch die Bremsen kaputt sind. Julia war überrascht, weil sie das nicht bemerkt hatte. Der Mechaniker hat erklärt: „Das dauert leider etwas länger, weil wir erst ein Ersatzteil bestellen müssen.“\n\nJulia musste deshalb drei Tage auf ihr Fahrrad warten. Sie ist in dieser Zeit mit dem Bus zur Arbeit gefahren, obwohl das viel länger gedauert hat. Als sie das Fahrrad endlich abholen konnte, war es wie neu.",
+    "preguntas": [
+      {
+        "enunciado": "Julias Fahrrad hat ein Problem mit der Kette.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur die Kette ist kaputt, sonst nichts.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia muss drei Tage auf das Fahrrad warten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia fährt in dieser Zeit mit dem Auto zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende ist das Fahrrad wie neu.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-anruf-vom-alten-schulfreund",
+    "nivel": "A2",
+    "titulo": "Der Anruf vom alten Schulfreund",
+    "descripcion": "Peter bekommt nach vielen Jahren einen überraschenden Anruf von seinem alten Schulfreund Tobias.",
+    "texto": "Peter saß gerade beim Abendessen, als sein Telefon klingelte. Eine fremde Nummer rief ihn an. Als er abgehoben hat, hat er sofort die Stimme seines alten Schulfreunds Tobias erkannt, den er seit zehn Jahren nicht mehr gesehen hatte.\n\nTobias hat erzählt, dass er zufällig in die Stadt gezogen ist, weil er einen neuen Job gefunden hat. Er hat gefragt, ob Peter Lust hat, sich am Wochenende auf einen Kaffee zu treffen. Peter hat sich sehr gefreut und sofort zugesagt.\n\nAm Samstag haben sich die beiden in einem kleinen Café getroffen. Sie haben stundenlang über die alten Schulzeiten gesprochen, obwohl sich beide anfangs etwas fremd gefühlt haben. Am Ende haben sie sich versprochen, sich jetzt öfter zu treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Peter erkennt die Stimme sofort nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias und Peter kennen sich seit der Schulzeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias ist wegen eines neuen Jobs in die Stadt gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Peter lehnt das Treffen ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden sprechen über die alten Schulzeiten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reparatur-der-kirchturmuhr",
+    "nivel": "B1",
+    "titulo": "Die Reparatur der Kirchturmuhr",
+    "descripcion": "Nachdem die alte Kirchturmuhr jahrelang stillstand, wird sie in einem kleinen Ort endlich wieder repariert.",
+    "texto": "Seit über zehn Jahren zeigte die Uhr am Kirchturm von Lindental immer dieselbe Zeit, weil ein wichtiges Zahnrad im Uhrwerk kaputt war. Niemand im Ort hatte sich getraut, die teure Reparatur zu bezahlen, obwohl sich viele Bewohner immer wieder darüber beschwert hatten. Nachdem eine junge Handwerkerin sich für das Projekt begeisterte, änderte sich die Situation.\n\nSie hatte sich auf die Restaurierung historischer Uhrwerke spezialisiert und bot an, das fehlende Ersatzteil selbst anzufertigen. Zusammen mit zwei freiwilligen Helfern kletterte sie wochenlang auf den Turm, um das alte Uhrwerk Stück für Stück zu untersuchen. Trotz einiger technischer Rückschläge gaben die drei nicht auf.\n\nAls die Uhr nach monatelanger Arbeit schließlich wieder die richtige Zeit zeigte, versammelten sich fast alle Bewohner des Ortes auf dem Marktplatz. Ein älterer Mann sagte gerührt: „Ich dachte nicht, dass ich das noch erleben würde.“ Seitdem schlägt die Kirchturmuhr wieder jede volle Stunde, so wie es früher einmal war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Kirchturmuhr stand über zehn Jahre lang still.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein großes Unternehmen finanziert die Reparatur.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Handwerkerin spezialisiert sich auf historische Uhrwerke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Reparatur dauert nur wenige Tage.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende versammeln sich die Bewohner auf dem Marktplatz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-letzte-buchhandlung-im-ort",
+    "nivel": "B1",
+    "titulo": "Die letzte Buchhandlung im Ort",
+    "descripcion": "Als die letzte Buchhandlung des Dorfes schließen soll, setzen sich die Bewohner gemeinsam für ihren Erhalt ein.",
+    "texto": "Frau Albrecht führte seit fast dreißig Jahren die einzige Buchhandlung im Dorf, obwohl der Umsatz in den letzten Jahren immer weiter zurückgegangen war. Nachdem sie bekannt gegeben hatte, dass sie das Geschäft aus finanziellen Gründen schließen muss, waren viele Bewohner schockiert. Für manche war die Buchhandlung nicht nur ein Geschäft, sondern ein wichtiger Treffpunkt im Ort.\n\nEine Gruppe von Nachbarn beschloss daraufhin, sich für den Erhalt der Buchhandlung einzusetzen. Sie organisierten Lesungen und einen kleinen Flohmarkt, um zusätzliches Geld zu sammeln. Außerdem schlugen sie vor, dass Frau Albrecht neben Büchern auch Kaffee und selbst gebackenen Kuchen verkaufen könnte, um mehr Kunden anzuziehen.\n\nNachdem die Aktion in der regionalen Zeitung erwähnt wurde, kamen plötzlich viele neue Kunden aus den umliegenden Dörfern. Obwohl die Zukunft weiterhin nicht ganz sicher ist, konnte die Schließung zumindest vorerst verhindert werden. Frau Albrecht sagt heute: „Ohne die Hilfe der Nachbarn hätte ich längst aufgegeben.“",
+    "preguntas": [
+      {
+        "enunciado": "Frau Albrecht führt die Buchhandlung seit fast dreißig Jahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Umsatz der Buchhandlung ist in den letzten Jahren gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn organisieren Lesungen und einen Flohmarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Durch die Aktion kommen keine neuen Kunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schließung wird zumindest vorerst verhindert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommer-in-der-dorfbuecherei",
+    "nivel": "B1",
+    "titulo": "Ein Sommer in der Dorfbücherei",
+    "descripcion": "Die Studentin Mira arbeitet einen Sommer lang als Aushilfe in der kleinen Dorfbücherei und entdeckt eine neue Leidenschaft.",
+    "texto": "Mira hatte sich für den Sommer einen Nebenjob in der Dorfbücherei gesucht, weil sie Geld für ihr Studium sparen wollte. Zu Beginn fand sie die Arbeit eher langweilig, da nur wenige Besucher an einem normalen Wochentag vorbeikamen. Nachdem sie jedoch angefangen hatte, die Bücher nach Themen neu zu sortieren, veränderte sich ihre Einstellung völlig.\n\nBesonders die Kinder, die jeden Mittwoch zur Vorlesestunde kamen, bereiteten ihr große Freude. Mira begann, selbst kleine Geschichten für die Kinder vorzubereiten, obwohl das nicht Teil ihrer eigentlichen Aufgabe war. Die Leiterin der Bücherei lobte ihr Engagement und sagte: „Du hast ein echtes Talent dafür, Geschichten lebendig zu erzählen.“\n\nAm Ende des Sommers hatte sich die Zahl der Besucher deutlich erhöht, weil sich die Vorlesestunden im Dorf herumgesprochen hatten. Mira entschied sich, auch während des Studiums gelegentlich in der Bücherei zu helfen. Sie sagt heute: „Dieser Sommer hat mir gezeigt, was ich wirklich machen möchte.“",
+    "preguntas": [
+      {
+        "enunciado": "Mira sucht den Nebenjob, weil sie Geld für ihr Studium sparen will.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Arbeit gefällt ihr von Anfang an sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Vorlesestunde findet jeden Mittwoch statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahl der Besucher sinkt bis zum Ende des Sommers.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mira möchte weiterhin gelegentlich in der Bücherei helfen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streaminganbieter-und-der-wandel-des-fernsehens",
+    "nivel": "B2",
+    "titulo": "Streaminganbieter und der Wandel des Fernsehens",
+    "descripcion": "Eine Betrachtung darüber, wie Streamingdienste das klassische Fernsehen verändert haben und welche Folgen das für die Medienlandschaft hat.",
+    "texto": "Die Art und Weise, wie Menschen heute Filme und Serien konsumieren, hat sich in den letzten zwei Jahrzehnten grundlegend gewandelt. Während früher feste Sendezeiten im klassischen Fernsehen den Alltag vieler Haushalte strukturierten, ermöglichen Streaminganbieter heute, Inhalte jederzeit und in beliebiger Reihenfolge anzusehen. Diese Entwicklung wird von vielen als großer Gewinn an Flexibilität wahrgenommen.\n\nAllerdings hat dieser Wandel auch erhebliche Auswirkungen auf die traditionellen Fernsehsender, deren Zuschauerzahlen seit Jahren kontinuierlich zurückgehen. Um konkurrenzfähig zu bleiben, investieren viele Sender inzwischen selbst in eigene Streamingplattformen, wobei nicht alle Angebote wirtschaftlich erfolgreich sind. Kritiker bemängeln außerdem, dass die wachsende Zahl unterschiedlicher Anbieter die Kosten für Verbraucher insgesamt eher erhöht als senkt.\n\nEin weiterer Kritikpunkt betrifft die Algorithmen, nach denen Streaminganbieter Inhalte empfehlen. Da diese Systeme in erster Linie darauf ausgelegt sind, die Nutzer möglichst lange auf der Plattform zu halten, würden seltener auch anspruchsvollere oder weniger bekannte Produktionen vorgeschlagen. Medienwissenschaftler warnen deshalb davor, dass die kulturelle Vielfalt des Angebots langfristig leiden könnte.\n\nTrotz dieser Kritik ist davon auszugehen, dass Streaminganbieter die Mediennutzung auch in Zukunft maßgeblich bestimmen werden. Entscheidend wird sein, ob es gelingt, wirtschaftliche Interessen und eine vielfältige, qualitativ hochwertige Programmgestaltung in Einklang zu bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Streaminganbieter ermöglichen es, Inhalte jederzeit anzusehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zuschauerzahlen klassischer Sender steigen seit Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle eigenen Streamingangebote der Sender sind wirtschaftlich erfolgreich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen sollen Nutzer möglichst lange auf der Plattform halten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienwissenschaftler sehen keine Gefahr für die kulturelle Vielfalt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-ein-rauchverbot-in-aussenbereichen",
+    "nivel": "B2",
+    "titulo": "Die Debatte um ein Rauchverbot in Außenbereichen",
+    "descripcion": "Eine Darstellung der Argumente für und gegen ein erweitertes Rauchverbot auf öffentlichen Plätzen und in Außenbereichen von Restaurants.",
+    "texto": "Nachdem das Rauchen in geschlossenen öffentlichen Räumen in den meisten Ländern längst verboten ist, wird nun zunehmend diskutiert, ob ein ähnliches Verbot auch für bestimmte Außenbereiche sinnvoll wäre. Befürworter eines solchen Verbots verweisen vor allem auf den Schutz von Kindern und Nichtrauchern, die auf Spielplätzen oder in Außenbereichen von Restaurants häufig mit Zigarettenrauch konfrontiert werden.\n\nGegner des Vorschlags argumentieren hingegen, dass ein derart weitreichendes Verbot in die persönliche Freiheit der Bürger eingreife, ohne dass der gesundheitliche Nutzen im Freien wissenschaftlich eindeutig belegt sei. Zudem befürchten Gastronomen, dass ein Rauchverbot auf Terrassen zu wirtschaftlichen Einbußen führen könnte, da ein Teil der Kundschaft dadurch möglicherweise ausbleiben würde.\n\nIn einigen Städten wurden bereits erste Modellversuche gestartet, bei denen das Rauchen auf ausgewählten öffentlichen Plätzen untersagt wurde. Die bisherigen Erfahrungen fallen gemischt aus: Während sich viele Anwohner über die spürbar sauberere Luft freuen, beklagen manche Gewerbetreibende einen Rückgang der Besucherzahlen in den betroffenen Bereichen.\n\nOb sich ein flächendeckendes Rauchverbot in Außenbereichen durchsetzen wird, bleibt derzeit offen. Klar ist jedoch, dass die Debatte angesichts wachsender Sensibilität für Gesundheitsthemen in den kommenden Jahren eher an Bedeutung gewinnen als verlieren dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Rauchen in geschlossenen öffentlichen Räumen ist in den meisten Ländern verboten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Gegner des Vorschlags sind selbst Nichtraucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gastronomen befürchten wirtschaftliche Einbußen durch ein Rauchverbot auf Terrassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die bisherigen Modellversuche fallen eindeutig nur positiv aus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Debatte dürfte in den kommenden Jahren eher an Bedeutung gewinnen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "containern-zwischen-notwehr-und-diebstahl",
+    "nivel": "B2",
+    "titulo": "Containern: Zwischen Notwehr und Diebstahl",
+    "descripcion": "Das sogenannte Containern, das Mitnehmen weggeworfener, aber noch essbarer Lebensmittel, sorgt in Deutschland immer wieder für rechtliche und moralische Debatten.",
+    "texto": "Jede Nacht landen in Deutschland tonnenweise Lebensmittel in den Containern von Supermärkten, obwohl viele davon noch völlig genießbar wären. Einige Menschen, die sogenannten „Containerer“, holen sich diese Lebensmittel gezielt aus den Müllbehältern, um gegen die Verschwendung zu protestieren oder einfach, um Geld zu sparen. Rechtlich gilt diese Praxis in Deutschland jedoch lange als Diebstahl, da die Lebensmittel formal weiterhin dem Supermarkt gehören, selbst wenn sie bereits entsorgt wurden.\n\nBefürworter des Containerns argumentieren, dass es absurd sei, Menschen zu bestrafen, die lediglich verhindern wollen, dass genießbare Lebensmittel sinnlos vernichtet werden. Sie fordern, dass der Gesetzgeber die rechtliche Grauzone endlich beseitigt und das Containern ausdrücklich erlaubt. Supermarktketten hingegen verweisen häufig auf Haftungsfragen, falls jemand durch verdorbene Lebensmittel krank werden sollte, die aus ihrem Müll entnommen wurden.\n\nIn den letzten Jahren wurde in einigen Bundesländern diskutiert, ob Verstöße gegen das Verbot künftig nicht mehr strafrechtlich verfolgt werden sollten. Gleichzeitig setzen manche Supermärkte zunehmend auf Kooperationen mit sozialen Einrichtungen, an die überschüssige Lebensmittel direkt weitergegeben werden, anstatt sie einfach zu entsorgen. Dadurch könnte das eigentliche Problem der Verschwendung angegangen werden, ohne dass Einzelpersonen rechtliche Risiken eingehen müssten.\n\nOb sich eine bundesweite Regelung durchsetzen wird, ist derzeit noch offen. Klar ist jedoch, dass die Debatte um das Containern eng mit grundsätzlicheren Fragen zur Lebensmittelverschwendung und zum Umgang mit Ressourcen in einer Wohlstandsgesellschaft verknüpft ist.",
+    "preguntas": [
+      {
+        "enunciado": "Containern bedeutet, weggeworfene, aber noch essbare Lebensmittel mitzunehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Containern ist in Deutschland rechtlich eindeutig und uneingeschränkt erlaubt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Supermärkte verweisen oft auf mögliche Haftungsfragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt keine Kooperationen zwischen Supermärkten und sozialen Einrichtungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Debatte hängt mit dem Thema Lebensmittelverschwendung zusammen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
