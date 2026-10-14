@@ -52670,5 +52670,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "ein-heisser-tag-im-freibad",
+    "nivel": "A1",
+    "titulo": "Ein heißer Tag im Freibad",
+    "descripcion": "Lisa und ihr kleiner Bruder verbringen einen heißen Tag im Schwimmbad.",
+    "texto": "Heute ist es sehr heiß. Lisa und ihr kleiner Bruder Tim gehen ins Schwimmbad. Sie packen Handtücher, Badesachen und eine Flasche Wasser ein. Das Schwimmbad ist nicht weit von ihrem Haus. Sie fahren mit dem Fahrrad.\n\nIm Schwimmbad gibt es ein großes Becken und ein kleines Becken für Kinder. Tim spielt im kleinen Becken mit einem Ball. Lisa schwimmt im großen Becken. Die Sonne ist stark, deshalb tragen beide eine Mütze. Nach dem Schwimmen essen sie ein Eis.\n\n„Das Eis ist lecker\", sagt Tim. Lisa lacht und isst auch ihr Eis. Am Abend sind beide müde, aber glücklich. Sie fahren zusammen nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa und Tim gehen ins Schwimmbad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie fahren mit dem Bus zum Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim spielt im großen Becken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Schwimmen essen sie ein Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend sind beide traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "warum-ich-den-winter-mag",
+    "nivel": "A1",
+    "titulo": "Warum ich den Winter mag",
+    "descripcion": "Paul erzählt, warum der Winter seine Lieblingsjahreszeit ist.",
+    "texto": "Ich heiße Paul und meine Lieblingsjahreszeit ist der Winter. Im Winter ist es kalt und oft liegt Schnee. Ich mag Schnee sehr gern. Meine Familie und ich bauen oft einen Schneemann im Garten.\n\nAm Wochenende fahre ich mit meinem Vater Schlitten. Das macht großen Spaß. Danach trinken wir zu Hause heißen Kakao. Meine Mutter macht den Kakao immer mit viel Sahne. Ich trage im Winter eine warme Jacke, eine Mütze und Handschuhe.\n\nMeine Schwester mag den Sommer lieber, weil sie gern schwimmt. Ich finde den Sommer auch schön, aber der Winter ist für mich am schönsten.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Lieblingsjahreszeit ist der Winter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul baut im Garten einen Schneemann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul fährt mit seiner Mutter Schlitten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Schwester mag den Sommer lieber.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trinkt im Winter kalten Tee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-hund-ohne-halsband-im-stadtpark",
+    "nivel": "A1",
+    "titulo": "Ein Hund ohne Halsband im Stadtpark",
+    "descripcion": "Emma findet im Park einen kleinen Hund und sucht seinen Besitzer.",
+    "texto": "Emma geht jeden Tag mit ihrer Mutter in den Park. Heute sieht sie dort einen kleinen braunen Hund. Der Hund ist allein und hat kein Halsband. Emma hat Angst, dass der Hund seinen Besitzer verloren hat.\n\n„Mama, wir müssen dem Hund helfen\", sagt Emma. Ihre Mutter nickt und sie fragen andere Leute im Park. Eine Frau kennt den Hund. Er heißt Bruno und wohnt in der Straße neben dem Park. Bruno ist von zu Hause weggelaufen.\n\nEmma bringt Bruno zu seinem Haus. Der Besitzer ist sehr froh und dankt Emma. Emma streichelt Bruno zum Abschied. Sie ist glücklich, dass sie geholfen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Emma findet im Park einen kleinen Hund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund trägt ein Halsband mit Namen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niemand im Park kennt den Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma bringt Bruno zu seinem Haus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-neuer-friseur-fuer-martina",
+    "nivel": "A2",
+    "titulo": "Ein neuer Friseur für Martina",
+    "descripcion": "Martina hat einen Termin beim Friseur, aber es läuft nicht ganz wie geplant.",
+    "texto": "Martina hatte seit drei Monaten keinen Termin beim Friseur, weil sie sehr viel Arbeit hatte. Letzten Freitag hat sie endlich einen Termin gemacht. Sie wollte ihre Haare etwas kürzer schneiden lassen, weil der Sommer sehr heiß war.\n\nAls sie beim Friseursalon ankam, war der Friseur leider krank geworden. Eine neue Kollegin hat die Kunden übernommen. Martina war zuerst etwas unsicher, weil sie die Frau nicht kannte. Die Friseurin hat ihr aber genau erklärt, was sie machen wollte, und Martina hat sich entschieden, ihr zu vertrauen.\n\nAm Ende war Martina sehr zufrieden mit dem Ergebnis. „Das sieht wirklich toll aus!\", hat sie gesagt, als sie in den Spiegel geschaut hat. Sie hat der neuen Friseurin ein großes Trinkgeld gegeben und einen weiteren Termin für den nächsten Monat gemacht.",
+    "preguntas": [
+      {
+        "enunciado": "Martina war drei Monate nicht beim Friseur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr üblicher Friseur hat sie wie geplant bedient.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Martina war zuerst unsicher wegen der neuen Friseurin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Martina war am Ende unzufrieden mit den Haaren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Martina hat einen neuen Termin für den nächsten Monat gemacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-koffer-der-in-frankfurt-blieb",
+    "nivel": "A2",
+    "titulo": "Der Koffer, der in Frankfurt blieb",
+    "descripcion": "Nach einem Flug nach München kann Felix seinen Koffer nicht finden.",
+    "texto": "Felix ist nach München geflogen, um seine Großeltern zu besuchen. Nach der Landung ist er zum Gepäckband gegangen, aber sein Koffer ist nicht gekommen. Zuerst dachte er, dass er einfach warten müsste, weil manche Koffer etwas später kommen.\n\nNachdem fast alle Koffer vom Band verschwunden waren, ist Felix zu einem Schalter gegangen und hat den Verlust gemeldet. Die Mitarbeiterin hat gesagt, dass der Koffer wahrscheinlich noch im Flughafen von Frankfurt steht, weil er dort umgeladen werden musste. Felix war ziemlich genervt, weil in dem Koffer alle seine Kleidung war.\n\nAm nächsten Tag hat ihn die Fluggesellschaft angerufen und mitgeteilt, dass der Koffer gefunden wurde. Ein Kurier hat ihn noch am selben Abend zu den Großeltern gebracht. Felix war erleichtert und hat sich bei allen bedankt, obwohl die ganze Sache ihn einen Tag Zeit gekostet hat.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist nach München geflogen, um seine Großeltern zu besuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sein Koffer war sofort am Gepäckband.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer ist in Frankfurt geblieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat den Koffer nie wiedergefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Kurier hat den Koffer zu den Großeltern gebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streit-mit-dem-nachbarn-ueber-den-gartenzaun",
+    "nivel": "A2",
+    "titulo": "Streit mit dem Nachbarn über den Gartenzaun",
+    "descripcion": "Herr Weber und sein Nachbar streiten sich über einen alten Gartenzaun.",
+    "texto": "Herr Weber wohnt seit zwanzig Jahren in seinem Haus. Letzten Monat ist der alte Gartenzaun zwischen seinem Grundstück und dem Grundstück von Herrn Fischer umgefallen, weil ein starker Sturm über die Stadt gezogen ist. Beide Nachbarn waren sich nicht einig, wer den neuen Zaun bezahlen sollte.\n\nHerr Weber meinte, dass der Zaun eigentlich Herrn Fischer gehörte, weil er auf dessen Grundstück stand. Herr Fischer war anderer Meinung und hat gesagt, dass der Zaun schon immer gemeinsam genutzt wurde. Weil keiner nachgeben wollte, haben sie wochenlang kaum miteinander gesprochen.\n\nSchließlich hat die Tochter von Herrn Weber vorgeschlagen, dass beide Familien die Kosten teilen. Die beiden Männer haben lange überlegt, aber am Ende haben sie zugestimmt. Der neue Zaun wurde letzte Woche gebaut, und seitdem reden die Nachbarn wieder freundlich miteinander.",
+    "preguntas": [
+      {
+        "enunciado": "Der alte Zaun ist wegen eines Sturms umgefallen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide Nachbarn waren sofort einer Meinung über die Kosten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn haben wochenlang kaum miteinander gesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Webers Tochter hatte keine Idee für eine Lösung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende haben die Familien die Kosten geteilt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-praktikum-in-der-zeitungsredaktion",
+    "nivel": "B1",
+    "titulo": "Das Praktikum in der Zeitungsredaktion",
+    "descripcion": "Jana macht ein Praktikum bei einer lokalen Zeitung und lernt den Redaktionsalltag kennen.",
+    "texto": "Jana hat schon immer gern geschrieben, deshalb hat sie sich für ein Praktikum bei der Lokalzeitung ihrer Stadt entschieden. Am ersten Tag war sie sehr nervös, obwohl alle Kollegen sehr freundlich zu ihr waren. Der Redaktionsleiter hat ihr erklärt, wie der Arbeitsablauf in einer Zeitung funktioniert, von der Themenfindung bis zum Druck.\n\nIn den ersten Wochen durfte Jana vor allem kleine Artikel über lokale Veranstaltungen schreiben, nachdem sie bei mehreren Terminen zugehört hatte. Obwohl ihr manche Themen zunächst langweilig erschienen, merkte sie schnell, dass selbst ein kleiner Artikel viel Arbeit bedeutet. Sie musste recherchieren, Menschen interviewen und ihre Texte mehrmals überarbeiten.\n\nGegen Ende des Praktikums bekam Jana die Chance, über ein größeres Thema zu schreiben: die Renovierung des alten Stadttheaters. Trotzdem war sie überrascht, wie viel Verantwortung ihr die Redaktion schon nach wenigen Wochen gegeben hat. Nachdem ihr Artikel veröffentlicht wurde, war sie sehr stolz und überlegte, ob sie Journalismus studieren sollte.",
+    "preguntas": [
+      {
+        "enunciado": "Jana macht ein Praktikum bei einer Lokalzeitung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am ersten Tag war Jana vollkommen entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana durfte von Anfang an nur über das Stadttheater schreiben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana musste für ihre Artikel recherchieren und Interviews führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Praktikum denkt Jana über ein Journalismus-Studium nach.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "freunde-bleiben-auch-mit-distanz",
+    "nivel": "B1",
+    "titulo": "Freunde bleiben, auch mit Distanz",
+    "descripcion": "Tom und Sven sind seit der Schulzeit befreundet, obwohl sie heute in verschiedenen Städten leben.",
+    "texto": "Tom und Sven kennen sich seit der Grundschule. Nachdem sie beide das Abitur gemacht hatten, ist Tom zum Studieren nach Hamburg gezogen, während Sven in ihrer Heimatstadt geblieben ist, um eine Ausbildung zu machen. Viele dachten, dass ihre Freundschaft mit der Zeit einschlafen würde, weil die beiden Städte weit voneinander entfernt liegen.\n\nObwohl sie sich nur noch selten sehen, telefonieren Tom und Sven fast jede Woche miteinander. Sie erzählen sich von ihrem Alltag, ihren Problemen und kleinen Erfolgen. Trotzdem vermissen beide die Zeit, in der sie sich jeden Tag in der Schule getroffen haben. Einmal im Jahr planen sie deshalb eine gemeinsame Reise, bei der sie sich mehrere Tage sehen können.\n\nLetztes Jahr sind sie zusammen nach Italien gefahren, nachdem Sven lange dafür gespart hatte. Während der Reise haben sie festgestellt, dass sich an ihrer Freundschaft trotz der Entfernung nichts verändert hat. Sie konnten genauso offen miteinander reden wie früher. Beide sind überzeugt, dass eine echte Freundschaft auch große Entfernungen überstehen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Tom und Sven kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide sind nach dem Abitur in derselben Stadt geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom und Sven telefonieren fast nie miteinander.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einmal im Jahr machen sie eine gemeinsame Reise.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Italienreise war ihre Freundschaft genauso stark wie vorher.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-klassenfahrt-zum-bauernhof",
+    "nivel": "B1",
+    "titulo": "Eine Klassenfahrt zum Bauernhof",
+    "descripcion": "Eine Schulklasse verbringt ein Wochenende auf einem Bauernhof und lernt das Landleben kennen.",
+    "texto": "Die Klasse 8b ist am Freitagnachmittag zu einem Bauernhof gefahren, nachdem die Lehrerin die Fahrt schon seit Monaten geplant hatte. Viele Schüler hatten noch nie auf einem Bauernhof übernachtet und waren entsprechend aufgeregt. Der Bauer hat ihnen gleich am Anfang gezeigt, wie man Kühe füttert und Eier von den Hühnern sammelt.\n\nObwohl manche Schüler sich zunächst vor den Tieren fürchteten, gewöhnten sie sich schnell an den Umgang mit ihnen. Am Samstagmorgen mussten alle früh aufstehen, weil auf einem Bauernhof schon ab sechs Uhr gearbeitet wird. Nachdem sie beim Melken der Kühe geholfen hatten, durften sie frische Milch probieren, was einigen Schülern anfangs seltsam vorkam.\n\nAm Abend saßen alle zusammen am Lagerfeuer und sprachen über ihre Erlebnisse. Trotzdem vermissten einige Schüler ihr Handy, weil es auf dem Bauernhof kaum Internetempfang gab. Am Ende waren sich fast alle einig, dass das Wochenende eine wertvolle Erfahrung war, die ihren Alltag deutlich bereichert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 8b hat ein Wochenende auf einem Bauernhof verbracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler hatten schon oft auf einem Bauernhof übernachtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag mussten die Schüler sehr früh aufstehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf dem Bauernhof gab es sehr schnelles Internet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende fanden fast alle das Wochenende wertvoll.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice-und-die-grenzen-zwischen-arbeit-und-privatleben",
+    "nivel": "B2",
+    "titulo": "Homeoffice und die Grenzen zwischen Arbeit und Privatleben",
+    "descripcion": "Seit der Verbreitung des Homeoffice verschwimmen für viele Beschäftigte die Grenzen zwischen Beruf und Privatleben.",
+    "texto": "Seit immer mehr Unternehmen ihren Beschäftigten ermöglichen, von zu Hause aus zu arbeiten, hat sich der Arbeitsalltag vieler Menschen grundlegend verändert. Während das Homeoffice anfangs vor allem als Befreiung von langen Arbeitswegen und starren Bürozeiten gefeiert wurde, zeigt sich zunehmend, dass damit auch neue Herausforderungen verbunden sind. Besonders die klare Trennung zwischen Arbeits- und Privatleben, die früher durch den Weg zum Büro automatisch entstand, fällt vielen Beschäftigten im Homeoffice schwer.\n\nStudien deuten darauf hin, dass Menschen, die von zu Hause arbeiten, häufig länger arbeiten als vertraglich vereinbart, ohne dass ihnen dies bewusst wird. Wenn der Schreibtisch nur wenige Schritte vom Wohnzimmer entfernt steht, wird es verlockend, abends noch schnell eine E-Mail zu beantworten oder am Wochenende kurz ins System zu schauen. Kritiker bemängeln, dass Arbeitgeber von dieser Entwicklung profitieren würden, ohne dass sie entsprechend kompensiert werde.\n\nGleichzeitig würde eine strikte Rückkehr zur reinen Präsenzpflicht von vielen Beschäftigten als Rückschritt wahrgenommen werden, da das Homeoffice auch erhebliche Vorteile bei der Vereinbarkeit von Familie und Beruf bietet. Arbeitsrechtler fordern deshalb klarere gesetzliche Regelungen, etwa ein verbindliches Recht auf Nichterreichbarkeit außerhalb der Arbeitszeiten. Nur so könnte verhindert werden, dass die neu gewonnene Flexibilität letztlich zu einer dauerhaften Überlastung der Beschäftigten führt.\n\nOb sich eine solche Regelung politisch durchsetzen lässt, bleibt bislang offen. Fest steht jedoch, dass die Debatte über das Homeoffice weit über die reine Frage des Arbeitsortes hinausgeht und grundsätzliche Fragen zum Verhältnis von Arbeit und Leben in einer digitalisierten Gesellschaft berührt.",
+    "preguntas": [
+      {
+        "enunciado": "Das Homeoffice wurde anfangs vor allem positiv wahrgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Homeoffice ist die Trennung von Arbeit und Privatleben für alle besonders leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien deuten darauf hin, dass im Homeoffice oft länger gearbeitet wird.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine strikte Rückkehr zur Präsenzpflicht würde von allen begrüßt werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Arbeitsrechtler fordern unter anderem ein Recht auf Nichterreichbarkeit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ki-werkzeuge-im-schulunterricht",
+    "nivel": "B2",
+    "titulo": "KI-Werkzeuge im Schulunterricht",
+    "descripcion": "Der Einsatz von KI-Werkzeugen in Schulen wird zwischen Lehrkräften und Bildungsexperten kontrovers diskutiert.",
+    "texto": "Kaum ein Thema hat die Bildungsdebatte in den letzten Jahren so stark geprägt wie der Einsatz künstlicher Intelligenz im Unterricht. Während einige Lehrkräfte befürchten, dass Schülerinnen und Schüler durch KI-Werkzeuge das eigenständige Denken verlernen könnten, sehen andere darin eine Chance, den Unterricht individueller zu gestalten. Befürworter argumentieren, dass KI-gestützte Programme es ermöglichen würden, auf das Lerntempo jedes einzelnen Schülers einzugehen, was in einer klassischen Klasse mit dreißig Kindern kaum zu leisten sei.\n\nBesonders umstritten ist die Frage, wie mit Hausaufgaben umgegangen werden soll, die mithilfe von KI-Programmen erstellt wurden. Manche Schulen haben bereits Richtlinien eingeführt, die den Einsatz solcher Werkzeuge bei bestimmten Aufgaben ausdrücklich verbieten, während andere Schulen den verantwortungsvollen Umgang mit KI sogar aktiv im Unterricht vermitteln. Kritiker dieser zweiten Herangehensweise geben zu bedenken, dass dadurch bestehende Bildungsunterschiede verschärft werden könnten, wenn nicht alle Schulen über die gleichen technischen Ressourcen verfügen.\n\nHinzu kommt die Sorge, dass persönliche Daten von Schülerinnen und Schülern durch den Einsatz kommerzieller KI-Anbieter in falsche Hände geraten könnten. Datenschutzexperten fordern deshalb, dass Schulen ausschließlich Programme nutzen sollten, deren Datenverarbeitung transparent nachvollziehbar ist. Andernfalls bestehe die Gefahr, dass sensible Informationen über Minderjährige ohne ausreichende Kontrolle gespeichert und ausgewertet würden.\n\nTrotz aller Bedenken sind sich die meisten Experten einig, dass sich Schulen dem Thema nicht länger entziehen können. Entscheidend werde sein, ob es gelingt, klare pädagogische Konzepte zu entwickeln, die den sinnvollen Einsatz von KI fördern, ohne dabei grundlegende Kompetenzen wie kritisches Denken und eigenständiges Schreiben zu vernachlässigen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Lehrkräfte sind sich einig, dass KI im Unterricht nur Vorteile bringt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in KI eine Chance für individuelleren Unterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche Schulen haben Richtlinien zum Umgang mit KI eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Datenschutzexperten haben keine Bedenken bezüglich der Daten von Schülern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die meisten Experten meinen, Schulen könnten das Thema KI ignorieren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "gentrifizierung-in-deutschen-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Gentrifizierung in deutschen Großstädten",
+    "descripcion": "In vielen deutschen Großstädten verändern steigende Mieten und Modernisierungen ganze Stadtviertel, was zu Verdrängung langjähriger Bewohner führt.",
+    "texto": "In zahlreichen deutschen Großstädten lässt sich seit Jahren ein ähnliches Muster beobachten: Ehemals wenig attraktive Stadtviertel werden von einer wachsenden Zahl junger, oft gut verdienender Menschen entdeckt, woraufhin Cafés, Boutiquen und renovierte Altbauwohnungen entstehen. Was zunächst wie eine positive Entwicklung erscheinen mag, hat für viele langjährige Bewohner weitreichende Konsequenzen, da die steigenden Mieten sie zunehmend aus ihren angestammten Vierteln verdrängen.\n\nBesonders betroffen sind Menschen mit geringem Einkommen, die sich die neuen Mietpreise schlicht nicht mehr leisten können, selbst wenn ihr Mietvertrag ursprünglich zu deutlich günstigeren Konditionen abgeschlossen worden war. Sobald Vermieter umfassende Modernisierungen durchführen lassen, dürfen die entstandenen Kosten teilweise auf die Miete umgelegt werden, was in manchen Fällen zu Mieterhöhungen führt, die kaum noch zu bezahlen sind. Mieterverbände kritisieren, dass dieses Vorgehen gezielt genutzt werde, um unerwünschte Mieter aus ihren Wohnungen zu drängen.\n\nStädte wie Berlin, Hamburg und München haben in der Vergangenheit versucht, dieser Entwicklung mit Instrumenten wie der Mietpreisbremse oder Milieuschutzsatzungen entgegenzuwirken. Ob derartige Maßnahmen wirksam wären, ist unter Experten jedoch umstritten, da sie oft nur Teile der Problematik adressierten und durch rechtliche Schlupflöcher umgangen werden könnten. Investoren wiederum argumentieren, dass ohne eine gewisse Rendite kaum jemand bereit wäre, in den stark sanierungsbedürftigen Wohnungsbestand zu investieren.\n\nLetztlich bleibt die Frage, wie sich lebendige, gemischte Stadtviertel erhalten lassen, ohne dass einkommensschwache Bevölkerungsgruppen systematisch an den Stadtrand gedrängt werden, eine der zentralen Herausforderungen der deutschen Stadtentwicklungspolitik. Eine einfache Lösung, auf die sich alle Beteiligten einigen könnten, ist bislang nicht in Sicht.",
+    "preguntas": [
+      {
+        "enunciado": "Gentrifizierung führt oft zur Verdrängung langjähriger Bewohner.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Mieter profitieren gleichermaßen von Modernisierungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mieterverbände sehen Modernisierungen unkritisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Städte haben Instrumente wie die Mietpreisbremse eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt bereits eine Lösung, auf die sich alle Beteiligten einig sind.",
+        "respuesta": false
+      }
+    ]
   }
 ]
