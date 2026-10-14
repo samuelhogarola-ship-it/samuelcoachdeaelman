@@ -15,7 +15,9 @@
     "test:e2e:smoke": "playwright test tests/playwright/resources-preview.spec.js --reporter=line",
     "test:e2e": "playwright test",
     "test:e2e:headed": "playwright test --headed",
-    "test:e2e:ui": "playwright test --ui"
+    "test:e2e:ui": "playwright test --ui",
+    "posts:manage": "node scripts/post-manager-server.mjs",
+    "test:posts": "node --test tests/unit/post-manager-core.test.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
