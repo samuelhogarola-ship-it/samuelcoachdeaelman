@@ -168,15 +168,19 @@ function renderImages(images) {
   for (const image of images) {
     const item = document.createElement("div");
     item.className = `image-item${image.file === state.selectedImage ? " is-selected" : ""}`;
-    item.innerHTML = `<img src="${image.url}" alt=""><span><strong>${escapeHtml(image.file)}</strong>${image.isFeatured ? "<small>Principal</small>" : ""}</span><button class="delete-image" type="button">Borrar</button>`;
+    const deleteButton = image.canDelete === false ? "" : "<button class=\"delete-image\" type=\"button\">Borrar</button>";
+    item.innerHTML = `<img src="${image.url}" alt=""><span><strong>${escapeHtml(image.file)}</strong>${image.isFeatured ? "<small>Principal</small>" : ""}</span>${deleteButton}`;
     item.addEventListener("click", (event) => {
       if (event.target.closest(".delete-image")) return;
       selectImage(image.file);
     });
-    item.querySelector(".delete-image").addEventListener("click", async () => {
-      await api(`/api/posts/${state.activeSlug}/images/${encodeURIComponent(image.file)}`, { method: "DELETE" });
-      await loadPost(state.activeSlug);
-    });
+    const deleteImageButton = item.querySelector(".delete-image");
+    if (deleteImageButton) {
+      deleteImageButton.addEventListener("click", async () => {
+        await api(`/api/posts/${state.activeSlug}/images/${encodeURIComponent(image.file)}`, { method: "DELETE" });
+        await loadPost(state.activeSlug);
+      });
+    }
     imageList.append(item);
   }
 
@@ -301,6 +305,11 @@ function renderSelectedImageMeta() {
 async function saveSelectedImageMeta() {
   const image = state.activeImages.find((item) => item.file === state.selectedImage);
   if (!image) return;
+  if (image.canDelete === false) {
+    fields.image.value = image.url;
+    statusText.textContent = "La imagen principal heredada ya esta asociada al post";
+    return;
+  }
   await api(`/api/posts/${state.activeSlug}/images/${encodeURIComponent(image.file)}`, {
     method: "PUT",
     body: {
@@ -316,6 +325,11 @@ async function saveSelectedImageMeta() {
 async function setSelectedImageAsFeatured() {
   const image = state.activeImages.find((item) => item.file === state.selectedImage);
   if (!image) return;
+  if (image.canDelete === false) {
+    fields.image.value = image.url;
+    statusText.textContent = "La imagen principal heredada ya esta marcada";
+    return;
+  }
   await api(`/api/posts/${state.activeSlug}/images/${encodeURIComponent(image.file)}`, {
     method: "PUT",
     body: {
