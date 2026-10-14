@@ -51974,5 +51974,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-ausflug-zum-bauernhof",
+    "nivel": "A1",
+    "titulo": "Der Ausflug zum Bauernhof",
+    "descripcion": "Die Klasse besucht einen Bauernhof und sieht viele Tiere.",
+    "texto": "Die Klasse 2b fährt zum Bauernhof. Der Bauernhof liegt auf dem Land. Die Kinder sind sehr aufgeregt. Der Bauer heißt Herr Schmidt. Er trägt eine grüne Jacke und Gummistiefel.\n\nAuf dem Bauernhof gibt es viele Tiere. Die Kühe stehen auf der Wiese. Die Hühner laufen im Hof herum. Ein kleines Schwein liegt im Stroh. Die Kinder füttern die Ziegen mit Gras. Alle Kinder lachen und haben Spaß.\n\nAm Ende trinken die Kinder frische Milch. Die Milch kommt direkt von den Kühen. Herr Schmidt zeigt den Kindern auch den Trecker. Die Kinder dürfen auf dem Trecker sitzen. Der Ausflug ist ein toller Tag für alle.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 2b besucht einen Bauernhof.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bauer heißt Herr Schmidt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kühe schlafen im Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder füttern die Ziegen mit Gras.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder dürfen nicht auf dem Trecker sitzen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-fussballspiel-am-samstag",
+    "nivel": "A1",
+    "titulo": "Das Fußballspiel am Samstag",
+    "descripcion": "Max spielt am Samstag ein wichtiges Fußballspiel mit seinem Team.",
+    "texto": "Max spielt Fußball im Verein. Das Spiel ist am Samstag. Max trägt ein rotes Trikot. Die Nummer auf seinem Trikot ist sieben. Seine Familie kommt auch zum Spiel.\n\nDas Spiel beginnt um zehn Uhr. Viele Zuschauer stehen am Rand vom Platz. Max läuft schnell über den Platz. In der ersten Halbzeit schießt Max ein Tor. Seine Mannschaft führt eins zu null.\n\nNach dem Spiel gewinnt das Team drei zu eins. Alle Spieler sind sehr glücklich. Der Trainer gibt jedem Spieler ein High-Five. Max bekommt von seinem Vater ein Eis. Das ist ein perfekter Samstag für Max.",
+    "preguntas": [
+      {
+        "enunciado": "Max spielt Fußball im Verein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Spiel beginnt um zwölf Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max schießt in der ersten Halbzeit ein Tor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mannschaft verliert das Spiel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max bekommt nach dem Spiel ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-spaziergang-im-park-mit-dem-hund",
+    "nivel": "A1",
+    "titulo": "Der Spaziergang im Park mit dem Hund",
+    "descripcion": "Finn geht mit seinem Hund Bello jeden Nachmittag in den Park.",
+    "texto": "Finn hat einen Hund. Der Hund heißt Bello. Bello ist braun und klein. Jeden Nachmittag geht Finn mit Bello in den Park. Der Park ist nicht weit von seinem Haus.\n\nIm Park gibt es einen großen See. Bello schwimmt gerne im See. Finn wirft einen Ball. Bello läuft schnell zum Ball. Andere Hunde spielen auch im Park. Bello spielt gerne mit den anderen Hunden.\n\nNach dem Spaziergang ist Bello müde. Finn gibt Bello Wasser und Futter. Dann schläft Bello auf seiner Decke. Finn macht seine Hausaufgaben. Am nächsten Tag gehen sie wieder in den Park.",
+    "preguntas": [
+      {
+        "enunciado": "Finns Hund heißt Bello.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello ist groß und schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Park gibt es einen See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello schwimmt nicht gerne im Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Spaziergang schläft Bello.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "besuch-bei-der-zahnaerztin",
+    "nivel": "A2",
+    "titulo": "Ein Besuch bei der Zahnärztin",
+    "descripcion": "Jonas hatte Zahnschmerzen und ist deshalb zur Zahnärztin gegangen.",
+    "texto": "Jonas hat seit zwei Tagen Zahnschmerzen gehabt. Weil der Schmerz immer stärker wurde, hat seine Mutter einen Termin bei der Zahnärztin gemacht. Jonas hatte ein bisschen Angst, weil er noch nie beim Zahnarzt gewesen war.\n\nIm Wartezimmer hat Jonas eine Zeitschrift gelesen, um sich abzulenken. Als er endlich aufgerufen wurde, hat die Zahnärztin seine Zähne genau untersucht. Sie hat gesagt, dass er ein kleines Loch in einem Backenzahn hat. Die Behandlung hat nicht lange gedauert und hat auch nicht wehgetan.\n\nNachdem die Zahnärztin den Zahn repariert hatte, hat sie Jonas erklärt, dass er öfter Zähne putzen soll. Jonas hat versprochen, dass er jeden Abend nach dem Essen die Zähne putzt. Zu Hause hat seine Mutter ihn gelobt, weil er so tapfer war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte seit zwei Tagen Zahnschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas war schon oft beim Zahnarzt gewesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin hat ein Loch in einem Backenzahn gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Behandlung hat sehr lange gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat versprochen, öfter die Zähne zu putzen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-der-besten-freundin",
+    "nivel": "A2",
+    "titulo": "Der Umzug der besten Freundin",
+    "descripcion": "Sophies beste Freundin ist in eine andere Stadt gezogen.",
+    "texto": "Sophie und Mia sind seit der Grundschule beste Freundinnen. Letzten Monat hat Mias Familie beschlossen, nach Hamburg zu ziehen, weil ihr Vater dort eine neue Arbeit gefunden hat. Sophie war sehr traurig, als sie die Nachricht gehört hat.\n\nAm Tag des Umzugs haben die Mädchen sich lange umarmt. Sophie hat Mia ein Fotoalbum geschenkt, das Bilder von ihren gemeinsamen Jahren zeigt. Mia hat versprochen, dass sie jede Woche schreiben wird. Beide Mädchen haben geweint, aber auch gelacht, wenn sie an die schönen Erinnerungen gedacht haben.\n\nSeit dem Umzug haben Sophie und Mia jeden Sonntag telefoniert. Im Sommer hat Sophie ihre Freundin in Hamburg besucht. Obwohl sie jetzt weit voneinander wohnen, ist ihre Freundschaft genauso stark wie vorher geblieben.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie und Mia sind seit der Grundschule Freundinnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Familie ist nach München gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat Mia ein Fotoalbum geschenkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mädchen haben nach dem Umzug nie wieder telefoniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat Mia im Sommer in Hamburg besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsueberraschung-fuer-oma",
+    "nivel": "A2",
+    "titulo": "Die Geburtstagsüberraschung für Oma",
+    "descripcion": "Die ganze Familie hat heimlich eine Überraschungsparty für Oma geplant.",
+    "texto": "Omas achtzigster Geburtstag stand kurz bevor, und die ganze Familie hat eine Überraschungsparty geplant. Weil Oma nichts wissen sollte, haben alle sehr leise telefoniert und sich heimlich im Garten von Tante Birgit getroffen.\n\nAm Tag der Feier hat Opa Oma zu einem angeblichen Spaziergang eingeladen, während die anderen alles vorbereitet haben. Als Oma die Gartentür geöffnet hat, haben plötzlich alle „Überraschung!“ gerufen. Oma war so gerührt, dass sie fast geweint hat. Sie hat gesagt, dass dies ihr schönster Geburtstag war.\n\nNachdem alle Gäste gratuliert hatten, hat die Familie zusammen Kuchen gegessen und alte Fotos angeschaut. Oma hat sich bei jedem bedankt, weil die Party so viel Mühe gekostet hat. Am Abend ist die ganze Familie noch lange im Garten geblieben.",
+    "preguntas": [
+      {
+        "enunciado": "Oma wird achtzig Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Party fand in Omas eigenem Garten statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa hat Oma zu einem Spaziergang eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma hat die Überraschung schon vorher erraten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat zusammen Kuchen gegessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-auslandssemester",
+    "nivel": "B1",
+    "titulo": "Die Entscheidung für ein Auslandssemester",
+    "descripcion": "Felix überlegt, ob er ein Semester seines Studiums im Ausland verbringen soll.",
+    "texto": "Felix studiert im vierten Semester Betriebswirtschaft und steht vor einer wichtigen Entscheidung. Seine Universität bietet ein Austauschprogramm mit einer Hochschule in Barcelona an, und mehrere Freunde haben ihm empfohlen, sich zu bewerben. Obwohl Felix sich über die Erfahrung freut, macht er sich auch Sorgen um die Sprache, denn sein Spanisch ist noch nicht sehr gut.\n\nNachdem er mit seinen Eltern und seiner Studienberaterin gesprochen hatte, entschied sich Felix schließlich für die Bewerbung. Trotzdem blieb die Unsicherheit, ob er die Kurse auf Spanisch verstehen würde. Um sich vorzubereiten, meldete er sich für einen Intensivkurs an der Volkshochschule an und lernte jeden Abend eine Stunde lang neue Vokabeln.\n\nAls die Zusage schließlich kam, war Felix überglücklich, obwohl die Vorfreude auch mit etwas Angst gemischt war. Er weiß, dass das Leben in einer neuen Stadt am Anfang nicht einfach sein wird. Trotzdem ist er überzeugt, dass die Erfahrung ihn persönlich und beruflich weiterbringen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Felix studiert Betriebswirtschaft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Universität bietet ein Austauschprogramm mit einer Hochschule in Lissabon an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix spricht bereits perfekt Spanisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat sich für einen Intensivkurs an der Volkshochschule angemeldet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat die Zusage für das Austauschprogramm erhalten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streit-wegen-ueberstunden",
+    "nivel": "B1",
+    "titulo": "Streit mit dem Chef wegen der Überstunden",
+    "descripcion": "Laura ärgert sich, weil sie in den letzten Wochen zu viele Überstunden machen musste.",
+    "texto": "Laura arbeitet seit zwei Jahren als Projektmanagerin in einer mittelständischen Firma. In den letzten Wochen musste sie fast jeden Tag bis nach acht Uhr abends im Büro bleiben, obwohl ihr Arbeitsvertrag nur achtunddreißig Stunden pro Woche vorsieht. Nachdem sie mehrmals vergeblich versucht hatte, ihre Aufgaben pünktlich zu erledigen, beschloss sie, mit ihrem Chef zu sprechen.\n\nIm Gespräch erklärte Laura ruhig, dass die vielen Überstunden sie erschöpften und dass sie kaum noch Zeit für ihre Familie hatte. Ihr Chef zeigte sich zunächst überrascht, denn er hatte die Situation offenbar nicht so ernst genommen. Trotzdem versprach er, die Arbeitsverteilung im Team zu überprüfen und einen zusätzlichen Kollegen einzustellen.\n\nObwohl sich die Situation nicht sofort änderte, fühlte sich Laura nach dem Gespräch deutlich besser, weil sie das Problem endlich angesprochen hatte. Zwei Wochen später begann tatsächlich ein neuer Mitarbeiter im Team, und Lauras Arbeitslast wurde spürbar leichter. Sie war froh, dass sie den Mut gefunden hatte, offen mit ihrem Chef zu reden.",
+    "preguntas": [
+      {
+        "enunciado": "Laura arbeitet als Projektmanagerin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lauras Arbeitsvertrag sieht vierzig Stunden pro Woche vor.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura hat sich entschieden, nie mit ihrem Chef zu sprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Chef hat versprochen, einen zusätzlichen Kollegen einzustellen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zwei Wochen später begann ein neuer Mitarbeiter im Team.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wiedersehen-alter-schulfreunde",
+    "nivel": "B1",
+    "titulo": "Das Wiedersehen alter Schulfreunde",
+    "descripcion": "Nach zwanzig Jahren treffen sich ehemalige Klassenkameraden zu einem Klassentreffen.",
+    "texto": "Zwanzig Jahre nach dem Schulabschluss organisierte Nina ein Klassentreffen für ihre ehemalige Klasse. Über eine Chatgruppe im Internet gelang es ihr, fast alle früheren Mitschüler zu finden, obwohl einige von ihnen inzwischen in anderen Ländern lebten. Die meisten reagierten begeistert auf die Einladung.\n\nAm Abend des Treffens erkannten sich manche Freunde zunächst kaum wieder, weil sich ihr Aussehen stark verändert hatte. Nachdem die erste Aufregung vorbei war, erzählten alle von ihrem Leben: manche hatten Familien gegründet, andere waren beruflich weit gereist. Trotz der langen Zeit fühlte es sich an, als wären sie nie getrennt gewesen.\n\nAm Ende des Abends beschlossen die ehemaligen Klassenkameraden, sich nicht noch einmal zwanzig Jahre warten zu lassen. Sie gründeten eine neue Gruppe im Internet, um in Kontakt zu bleiben, und planten bereits ein weiteres Treffen für das nächste Jahr. Nina war besonders glücklich, weil ihre Idee so viele alte Freundschaften wiederbelebt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Das Klassentreffen fand zehn Jahre nach dem Schulabschluss statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat fast alle ehemaligen Mitschüler über eine Chatgruppe gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Freunde erkannten sich sofort ohne Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klassenkameraden planten ein weiteres Treffen für das nächste Jahr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina war enttäuscht über den Abend.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-trend-zum-minimalismus",
+    "nivel": "B2",
+    "titulo": "Der Trend zum Minimalismus",
+    "descripcion": "Immer mehr Menschen entscheiden sich bewusst für weniger Besitz und mehr Einfachheit.",
+    "texto": "In den letzten Jahren hat sich der Minimalismus von einer Nischenbewegung zu einem gesellschaftlichen Trend entwickelt. Immer mehr Menschen trennen sich bewusst von Gegenständen, die sie nicht wirklich benötigen, und beschränken sich auf wenige, dafür hochwertige Besitztümer. Befürworter argumentieren, dass weniger Besitz zu mehr geistiger Klarheit und innerer Ruhe führe.\n\nKritiker weisen jedoch darauf hin, dass der Minimalismus oft als Lifestyle vermarktet werde, der sich vor allem wohlhabendere Schichten leisten könnten. Wer wenig Geld habe, könne sich schließlich nicht einfach teure, langlebige Produkte kaufen, selbst wenn dies langfristig günstiger wäre. Zudem werde häufig übersehen, dass radikaler Minimalismus auch zu Konsumdruck in die andere Richtung führen könne, etwa wenn ständig neue, besonders minimalistisch gestaltete Produkte gekauft werden müssten.\n\nDennoch sprechen viele Studien dafür, dass ein bewussterer Umgang mit Konsum sowohl der Umwelt als auch dem individuellen Wohlbefinden zugutekommen würde. Würden mehr Menschen ihren Besitz hinterfragen, könnten Ressourcen geschont und Müllmengen reduziert werden. Es wäre daher wünschenswert, wenn der Minimalismus nicht nur als ästhetischer Trend, sondern als nachhaltige Lebensweise verstanden würde.\n\nLetztlich zeigt die Debatte, dass es beim Minimalismus weniger um die Zahl der Besitztümer geht als um die Frage, welchen Stellenwert materielle Dinge im eigenen Leben einnehmen sollen. Eine pauschale Antwort darauf gibt es nicht, da die persönlichen Bedürfnisse und finanziellen Möglichkeiten der Menschen sehr unterschiedlich sind.",
+    "preguntas": [
+      {
+        "enunciado": "Der Minimalismus hat sich zu einem gesellschaftlichen Trend entwickelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind sich einig, dass Minimalismus nur Vorteile bringt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Kritikern können sich vor allem wohlhabendere Menschen den minimalistischen Lifestyle leisten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zeigen, dass bewussterer Konsum der Umwelt schaden würde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Debatte zeigt, dass es beim Minimalismus um den Stellenwert materieller Dinge geht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lebensmittelverschwendung-im-einzelhandel",
+    "nivel": "B2",
+    "titulo": "Lebensmittelverschwendung im Einzelhandel",
+    "descripcion": "Supermärkte entsorgen täglich große Mengen an Lebensmitteln, die noch genießbar wären.",
+    "texto": "Jedes Jahr werden in Deutschland Millionen Tonnen Lebensmittel weggeworfen, ein erheblicher Teil davon bereits im Einzelhandel. Brot, Obst und Gemüse, die optisch nicht mehr perfekt aussehen oder deren Mindesthaltbarkeitsdatum sich dem Ende nähert, werden häufig entsorgt, obwohl sie problemlos verzehrt werden könnten. Verbraucherverbände kritisieren seit Jahren, dass hier enormes Potenzial verschwendet werde.\n\nAls Reaktion auf diese Kritik haben manche Supermärkte begonnen, mit Organisationen wie den Tafeln zusammenzuarbeiten, die überschüssige Lebensmittel an Bedürftige verteilen. Zudem wurden in einigen Filialen spezielle Regale eingerichtet, in denen Produkte kurz vor Ablauf des Haltbarkeitsdatums vergünstigt verkauft werden. Diese Maßnahmen würden, wenn sie flächendeckend umgesetzt würden, die Verschwendung erheblich reduzieren können.\n\nDennoch bleibt die Umsetzung uneinheitlich, da viele Filialen aus Haftungsgründen oder aus Angst vor Imageschäden lieber auf Nummer sicher gehen und Lebensmittel vorsorglich entsorgen, anstatt sie weiterzugeben. Kritiker fordern deshalb gesetzliche Vorgaben, die den Einzelhandel verpflichten würden, noch genießbare Lebensmittel verbindlich an soziale Einrichtungen abzugeben, anstatt sie im Müll zu entsorgen.\n\nVerbraucher könnten ebenfalls einen Beitrag leisten, indem sie beim Einkauf weniger wählerisch wären und auch Obst mit kleinen Schönheitsfehlern kauften. Nur wenn Handel, Politik und Konsumenten gemeinsam handelten, ließe sich das Problem der Lebensmittelverschwendung langfristig lösen.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland werden jedes Jahr Millionen Tonnen Lebensmittel weggeworfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Supermärkte entsorgen ausschließlich Lebensmittel, die nicht mehr genießbar sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Supermärkte arbeiten mit Organisationen wie den Tafeln zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt bereits einheitliche gesetzliche Vorgaben, die den Einzelhandel zur Abgabe von Lebensmitteln verpflichten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Verbraucher könnten durch weniger wählerisches Einkaufsverhalten einen Beitrag leisten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-des-bargelds",
+    "nivel": "B2",
+    "titulo": "Die Zukunft des Bargelds",
+    "descripcion": "Während immer mehr Menschen digital bezahlen, wird über die Zukunft des Bargelds diskutiert.",
+    "texto": "In vielen Ländern wird zunehmend bargeldlos bezahlt, sei es per Karte, Smartphone oder Smartwatch. Befürworter dieser Entwicklung argumentieren, dass digitale Zahlungen schneller, hygienischer und besser nachvollziehbar seien als Bargeldtransaktionen. Insbesondere in der Corona-Pandemie habe sich gezeigt, wie praktisch kontaktloses Bezahlen sein könne.\n\nGleichzeitig warnen Datenschützer davor, dass eine vollständig bargeldlose Gesellschaft die Privatsphäre der Bürger gefährden würde. Würde jede Zahlung digital erfasst, ließe sich daraus ein detailliertes Profil des Konsumverhaltens jeder einzelnen Person erstellen. Zudem wären ältere Menschen und Personen ohne Bankkonto von bestimmten Zahlungsmöglichkeiten ausgeschlossen, was zu neuen sozialen Ungleichheiten führen könnte.\n\nAuch wirtschaftliche Argumente sprechen gegen eine vollständige Abschaffung des Bargelds. Bargeld funktioniert auch bei einem Stromausfall oder einer Störung der digitalen Infrastruktur, während elektronische Zahlungssysteme in solchen Fällen vollständig ausfallen würden. Aus diesem Grund fordern manche Ökonomen, dass Bargeld als Rückfalloption gesetzlich garantiert bleiben sollte, selbst wenn die meisten Zahlungen künftig digital abgewickelt werden.\n\nEs ist daher wahrscheinlich, dass Bargeld in absehbarer Zeit nicht vollständig verschwinden wird, auch wenn sein Anteil am Zahlungsverkehr weiter sinken dürfte. Die Debatte zeigt, dass es letztlich um eine Abwägung zwischen Bequemlichkeit, Sicherheit und dem Schutz der Privatsphäre geht, bei der unterschiedliche gesellschaftliche Gruppen unterschiedliche Prioritäten setzen.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Menschen bezahlen bargeldlos.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Datenschützer befürworten uneingeschränkt eine vollständig bargeldlose Gesellschaft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bargeld funktioniert auch bei einem Stromausfall.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text wird Bargeld in absehbarer Zeit vollständig verschwinden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Ökonomen fordern, dass Bargeld gesetzlich garantiert bleiben sollte.",
+        "respuesta": true
+      }
+    ]
   }
 ]
