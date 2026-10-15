@@ -54062,5 +54062,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "ein-geschenk-fuer-den-bruder",
+    "nivel": "A1",
+    "titulo": "Ein Geschenk für den Bruder",
+    "descripcion": "Lisa kauft ein Geschenk für ihren Bruder in einem Buchladen.",
+    "texto": "Lisa geht am Samstag in einen Buchladen in der Stadt. Sie sucht ein Geschenk für ihren Bruder Tom. Tom liebt Tiere und Abenteuer. Der Buchladen ist klein, aber sehr gemütlich. Es gibt viele Bücher in Regalen.\n\nEine Verkäuferin fragt: „Kann ich Ihnen helfen?\" Lisa sagt: „Ja, ich suche ein Buch über Tiere für meinen Bruder. Er ist zehn Jahre alt.\" Die Verkäuferin zeigt ihr ein Buch über Löwen und Elefanten. Lisa findet das Buch toll und kauft es sofort. Es kostet nur zwölf Euro.\n\nZu Hause packt Lisa das Buch schön ein. Tom hat morgen Geburtstag. Lisa freut sich sehr auf die Feier. Sie denkt: „Tom wird das Buch bestimmt lieben!\"",
+    "preguntas": [
+      {
+        "enunciado": "Lisa sucht ein Geschenk für ihre Schwester.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom mag Tiere und Abenteuer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa kauft ein Buch über Autos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Buch kostet zwölf Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom hat am nächsten Tag Geburtstag.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-farbe-des-regenschirms",
+    "nivel": "A1",
+    "titulo": "Die Farbe des Regenschirms",
+    "descripcion": "Paul erzählt, warum sein gelber Regenschirm sein Lieblingsgegenstand ist.",
+    "texto": "Paul ist neun Jahre alt und hat einen gelben Regenschirm. Er mag diesen Regenschirm sehr. Wenn es regnet, nimmt Paul immer seinen gelben Regenschirm mit. Er sagt: „Gelb ist eine fröhliche Farbe, auch wenn der Himmel grau ist.\"\n\nIn der Schule erzählt Paul seinen Freunden von seinem Regenschirm. Seine Freundin Mia hat einen roten Regenschirm. Sie sagt: „Rot ist meine Lieblingsfarbe, weil Rot stark aussieht.\" Paul und Mia lachen, weil ihre Regenschirme so unterschiedlich sind.\n\nAm Montag regnet es sehr stark. Paul nimmt seinen gelben Regenschirm und geht zur Schule. Mia nimmt ihren roten Regenschirm. Beide kommen trocken in der Schule an und sind sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Regenschirm ist gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Regenschirm ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia mag die Farbe Rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Montag ist das Wetter sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und Mia kommen trocken in der Schule an.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wecker-klingelt-zu-frueh",
+    "nivel": "A1",
+    "titulo": "Der Wecker klingelt zu früh",
+    "descripcion": "Sophies Morgenroutine an einem ganz normalen Schultag.",
+    "texto": "Um sechs Uhr klingelt der Wecker. Sophie steht auf und geht ins Bad. Sie putzt sich die Zähne und wäscht ihr Gesicht. Danach zieht sie sich an. Sie trägt eine Jeans und einen gelben Pullover.\n\nIn der Küche isst Sophie ein Brot mit Marmelade. Sie trinkt auch ein Glas Milch. Ihre Mutter macht Kaffee und fragt: „Hast du deine Schultasche fertig?\" Sophie antwortet: „Ja, Mama, alles ist fertig.\" Um halb acht geht Sophie aus dem Haus.\n\nSie läuft zur Bushaltestelle und wartet auf den Bus. Der Bus kommt um Viertel vor acht. Sophie steigt ein und fährt zur Schule. Die Schule beginnt um acht Uhr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wecker klingelt um sechs Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie trägt einen roten Pullover.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie trinkt ein Glas Milch zum Frühstück.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie fährt mit dem Auto zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schule beginnt um acht Uhr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verschwundene-katze",
+    "nivel": "A2",
+    "titulo": "Die verschwundene Katze",
+    "descripcion": "Jonas sucht seine Katze, die seit zwei Tagen nicht mehr nach Hause gekommen ist.",
+    "texto": "Vor zwei Tagen ist Jonas' Katze Minka nicht nach Hause gekommen. Normalerweise wartet Minka jeden Abend vor der Haustür, aber diesmal ist sie einfach nicht erschienen. Jonas hat sich große Sorgen gemacht, weil Minka noch nie so lange weg geblieben ist.\n\nEr ist durch die ganze Nachbarschaft gelaufen und hat nach Minka gerufen. Zuerst hat er im Garten und unter den Autos gesucht, weil Katzen sich dort gerne versteckt haben. Dann hat er bei seiner Nachbarin Frau Berger geklingelt, weil sie öfter Katzen in ihrem Garten gesehen hat. Frau Berger hat ihm erzählt, dass sie Minka am Morgen auf einem Baum gesehen hat.\n\nJonas ist sofort zu dem Baum gelaufen und hat Minka tatsächlich dort gefunden. Die Katze hatte Angst und wollte nicht herunterklettern. Nachdem Jonas eine Leiter geholt hatte, konnte er Minka endlich retten. Zu Hause hat Minka sofort etwas gegessen und sich dann schlafen gelegt.",
+    "preguntas": [
+      {
+        "enunciado": "Minka ist seit zwei Tagen verschwunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat sich keine Sorgen um seine Katze gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat Minka auf einem Baum gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas konnte Minka ohne Hilfe vom Baum holen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka hat zu Hause sofort etwas gegessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-nachbar-aus-hamburg",
+    "nivel": "A2",
+    "titulo": "Der neue Nachbar aus Hamburg",
+    "descripcion": "Ein neuer Nachbar zieht in die Wohnung unter Herrn Weber ein.",
+    "texto": "Letzte Woche ist ein neuer Nachbar in die Wohnung unter Herrn Weber eingezogen. Herr Weber hat die ganze Woche beobachtet, wie Möbelwagen kamen und gingen. Er war neugierig, weil die Wohnung schon lange leer gestanden hat.\n\nAls der Umzug fertig war, hat Herr Weber geklingelt, um sich vorzustellen. Der neue Nachbar heißt Herr Lindner und kommt aus Hamburg, weil er in dieser Stadt eine neue Arbeitsstelle gefunden hat. Herr Weber hat ihm einen Kuchen mitgebracht, und die beiden haben lange im Treppenhaus gesprochen. Herr Lindner hat erzählt, dass er die Stadt noch nicht gut kennt.\n\nSeitdem treffen sich Herr Weber und Herr Lindner oft zum Kaffee. Herr Weber hat ihm gezeigt, wo der beste Supermarkt und die nächste Bushaltestelle sind. Herr Weber ist froh, dass er einen so freundlichen neuen Nachbarn hat.",
+    "preguntas": [
+      {
+        "enunciado": "Der neue Nachbar heißt Herr Lindner.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Lindner kommt aus München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat sich zuerst vorgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Lindner kennt die Stadt schon sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber und Herr Lindner treffen sich seitdem oft zum Kaffee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-schulpraktikum",
+    "nivel": "B1",
+    "titulo": "Das Schulpraktikum",
+    "descripcion": "Niklas macht ein zweiwöchiges Praktikum in einer Tierarztpraxis.",
+    "texto": "Niklas, ein Schüler der neunten Klasse, hat sich schon lange auf sein Schulpraktikum gefreut. Obwohl viele seiner Klassenkameraden ein Praktikum in einem Büro oder Geschäft machen, hat sich Niklas für eine Tierarztpraxis entschieden, weil er Tiere liebt und später vielleicht Tierarzt werden möchte. Am ersten Tag war er sehr nervös, trotzdem hat ihn das Team der Praxis freundlich willkommen geheißen.\n\nIn den zwei Wochen hat Niklas viele neue Dinge gelernt. Nachdem er den Tierärzten bei einfachen Untersuchungen zugeschaut hatte, durfte er auch kleine Aufgaben selbst übernehmen, etwa Tiere wiegen oder Käfige sauber machen. Besonders beeindruckt hat ihn eine Operation an einem verletzten Hund, obwohl ihm dabei zunächst etwas unwohl war. Die Tierärztin hat ihm geduldig erklärt, warum bestimmte Schritte notwendig sind.\n\nAm Ende des Praktikums war Niklas sich sicher, dass er in diese Richtung weitergehen möchte. Er hat einen Bericht für die Schule geschrieben, in dem er beschreibt, was er alles erlebt und gelernt hat. Seine Lehrerin war von seinem Engagement sehr beeindruckt und hat ihm vorgeschlagen, sich nach der Schule für ein Studium der Veterinärmedizin zu bewerben.",
+    "preguntas": [
+      {
+        "enunciado": "Niklas hat sein Praktikum in einem Büro gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas war am ersten Tag nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niklas durfte während des Praktikums nur zuschauen und nichts selbst tun.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Operation an einem Hund hat Niklas besonders beeindruckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin hat Niklas ein Studium der Veterinärmedizin vorgeschlagen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-england",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus England",
+    "descripcion": "Clara bekommt einen Brief von ihrer Freundin aus London.",
+    "texto": "Clara hat letzte Woche einen Brief von ihrer englischen Freundin Emma bekommen. Emma wohnt in London und hat Clara vor zwei Jahren bei einem Austauschprogramm kennengelernt. In dem Brief hat Emma erzählt, dass sie im Sommer nach Deutschland kommen möchte, weil sie Clara besuchen will.\n\nClara hat sich sehr gefreut, als sie den Brief gelesen hat. Sie hat sofort geantwortet und geschrieben, dass Emma bei ihr wohnen kann. Clara hat auch vorgeschlagen, dass sie gemeinsam nach Berlin fahren, wenn Emma da ist. Emma hat die Stadt noch nie besucht, obwohl sie schon viel darüber gehört hat.\n\nClaras Eltern haben auch zugestimmt, dass Emma für zwei Wochen bei ihnen bleiben darf. Clara plant jetzt schon den Besuch und hat eine Liste mit Ausflügen geschrieben. Sie hofft, dass das Wetter im Sommer schön wird, damit sie viel draußen unternehmen können.",
+    "preguntas": [
+      {
+        "enunciado": "Emma wohnt in Paris.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara und Emma haben sich bei einem Austauschprogramm kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara will nicht, dass Emma bei ihr wohnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma hat Berlin noch nie besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Claras Eltern erlauben Emma, zwei Wochen zu bleiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schulwettbewerb",
+    "nivel": "B1",
+    "titulo": "Der Schulwettbewerb",
+    "descripcion": "Eine Klasse bereitet sich auf einen landesweiten Wissenschaftswettbewerb vor.",
+    "texto": "Als Frau Hoffmann ihrer Klasse erzählte, dass sie an einem landesweiten Wissenschaftswettbewerb teilnehmen könnten, waren die Schüler zunächst unsicher, obwohl das Thema sie eigentlich interessierte. Nachdem sich eine Gruppe von fünf Schülern bereit erklärt hatte, ein Projekt über erneuerbare Energien zu entwickeln, begannen die wochenlangen Vorbereitungen. Trotzdem hatten sie am Anfang kaum eine Vorstellung davon, wie aufwendig ein solches Projekt wirklich werden würde.\n\nIn den folgenden Wochen haben die Schüler ein kleines Modell gebaut, das zeigt, wie Solarenergie und Windkraft zusammen genutzt werden können. Nachdem erste Versuche gescheitert waren, mussten sie ihr Modell mehrmals überarbeiten. Obwohl einige im Team zwischendurch die Motivation verloren hatten, hat die Gruppe immer wieder neue Lösungen gefunden. Frau Hoffmann hat sie dabei unterstützt, ohne ihnen die Arbeit komplett abzunehmen.\n\nBeim Wettbewerb selbst waren alle sehr nervös, trotzdem hat die Präsentation reibungslos funktioniert. Die Jury war von der Idee und der sorgfältigen Umsetzung beeindruckt, und die Gruppe belegte am Ende den zweiten Platz. Die Schüler waren stolz auf ihre Leistung und beschlossen, im nächsten Jahr wieder teilzunehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Schüler waren von Anfang an begeistert von der Teilnahme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Projekt der Gruppe handelt von erneuerbaren Energien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die ersten Versuche mit dem Modell waren sofort erfolgreich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Hoffmann hat die gesamte Arbeit für die Schüler übernommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe hat beim Wettbewerb den zweiten Platz belegt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streit-mit-dem-nachbarn",
+    "nivel": "B1",
+    "titulo": "Streit mit dem Nachbarn",
+    "descripcion": "Ein Konflikt wegen lauter Musik führt am Ende zu einer überraschenden Freundschaft.",
+    "texto": "Seit Herr Fischer in die Wohnung über ihm eingezogen war, hatte sich Herr Albrecht immer wieder über laute Musik am späten Abend beschwert. Obwohl er mehrmals an die Decke geklopft hatte, änderte sich an der Situation zunächst nichts. Nachdem der Streit sich über Wochen hingezogen hatte, beschloss Herr Albrecht schließlich, persönlich bei seinem Nachbarn zu klingeln, anstatt sich weiter nur zu ärgern.\n\nAls Herr Fischer die Tür öffnete, war er überrascht, wie ruhig und sachlich Herr Albrecht das Gespräch begann. Er erklärte, dass er wegen der Musik oft schlecht schlafen könne, obwohl er Verständnis dafür habe, dass Herr Fischer gerne Musik höre. Herr Fischer entschuldigte sich und erzählte, dass er selbst Musiker sei und oft bis spät in die Nacht übe, weil er tagsüber arbeiten müsse. Nachdem beide ihre Sichtweisen ausgetauscht hatten, einigten sie sich darauf, dass Herr Fischer ab zweiundzwanzig Uhr nur noch mit Kopfhörern spielen würde.\n\nIn den Wochen danach hat sich der Konflikt nicht nur gelöst, sondern die beiden haben sich sogar angefreundet. Herr Albrecht hat entdeckt, dass er klassische Gitarrenmusik eigentlich sehr mag, und besucht inzwischen regelmäßig kleine Konzerte, die Herr Fischer in der Nachbarschaft gibt. Was als Streit begann, ist zu einer unerwarteten Freundschaft geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Albrecht hat sich über laute Musik am späten Abend beschwert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Fischer war von Anfang an unhöflich zu Herrn Albrecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer ist Musiker und übt oft spät in der Nacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden konnten sich nicht auf eine Lösung einigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende sind Herr Albrecht und Herr Fischer Freunde geworden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungssuche",
+    "nivel": "B2",
+    "titulo": "Die Wohnungssuche",
+    "descripcion": "Ein Essay über die Herausforderungen auf dem angespannten Wohnungsmarkt deutscher Großstädte.",
+    "texto": "In vielen deutschen Großstädten ist die Suche nach einer bezahlbaren Wohnung zu einer der größten Herausforderungen des städtischen Alltags geworden. Während die Mietpreise in den letzten Jahren kontinuierlich gestiegen sind, ist das Angebot an verfügbaren Wohnungen vielerorts kaum gewachsen. Kritiker argumentieren, dass diese Entwicklung besonders Menschen mit niedrigem oder mittlerem Einkommen zunehmend aus den Innenstädten verdränge. Wäre in den vergangenen Jahrzehnten konsequenter in den sozialen Wohnungsbau investiert worden, wäre die heutige Lage auf dem Wohnungsmarkt womöglich deutlich entspannter.\n\nDennoch zeigen einige Städte, dass eine aktive Wohnungspolitik durchaus Wirkung zeigen kann. Dort, wo Kommunen eigene Wohnungsgesellschaften stärken und strengere Mietpreisregulierungen einführen, wird zumindest ein weiterer drastischer Anstieg der Mieten verlangsamt, auch wenn das grundsätzliche Problem der Wohnungsknappheit damit nicht gelöst wird. Zunehmend werden auch alternative Wohnformen wie Genossenschaftsprojekte oder Mehrgenerationenhäuser diskutiert, durch die Wohnraum effizienter genutzt werden könnte. Befürworter solcher Modelle betonen, dass dadurch nicht nur Kosten gesenkt, sondern auch soziale Gemeinschaft gefördert werde.\n\nOb diese Ansätze ausreichen, um den Wohnungsmarkt langfristig zu entspannen, bleibt jedoch fragwürdig. Manche Experten fordern weitergehende Maßnahmen, etwa eine stärkere Besteuerung von Leerstand oder eine Begrenzung des Zukaufs von Wohnraum durch große Investmentgesellschaften. Andere warnen davor, dass zu strikte Regulierungen private Investitionen in den Wohnungsbau abschrecken könnten. Unbestritten ist jedoch, dass sich an der Wohnungssituation in den kommenden Jahren etwas Grundlegendes ändern muss.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text sind die Mietpreise in deutschen Großstädten in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text nennt niedrigeres Einkommen als einen Faktor, der von steigenden Mieten besonders betroffen ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Städte setzen laut Text dieselben wohnungspolitischen Maßnahmen um.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Genossenschaftsprojekte werden im Text als eine mögliche alternative Wohnform erwähnt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass sich an der Wohnungssituation nichts mehr ändern muss.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ernaehrung-und-gesellschaft",
+    "nivel": "B2",
+    "titulo": "Ernährung und Gesellschaft",
+    "descripcion": "Ein Blick auf den gesellschaftlichen Wandel der Essgewohnheiten und seine Folgen.",
+    "texto": "Die Art, wie Menschen in Deutschland essen, hat sich in den letzten Jahrzehnten grundlegend verändert. Während früher das gemeinsame Mittagessen in der Familie als selbstverständlich galt, wird heute aufgrund veränderter Arbeitszeiten und Lebensstile häufig allein oder unterwegs gegessen. Zugleich wird zunehmend diskutiert, welche Verantwortung der Einzelne und welche der Staat bei der Ernährung der Bevölkerung trägt. Wenn die Politik beispielsweise eine Zuckersteuer einführen würde, könnte dies den Konsum ungesunder Produkte spürbar senken, so argumentieren manche Gesundheitsexperten.\n\nGleichzeitig gewinnt die Frage nach der Nachhaltigkeit von Ernährung immer mehr an Bedeutung. Produkte, die unter fragwürdigen Bedingungen hergestellt werden, stehen zunehmend in der Kritik, während pflanzliche Alternativen zu Fleisch- und Milchprodukten stark an Beliebtheit gewinnen. Es wird vielfach behauptet, dass eine Ernährungswende notwendig sei, um den Herausforderungen des Klimawandels zu begegnen. Dennoch wird von anderen eingewandt, dass eine vollständige Umstellung der Essgewohnheiten für viele Menschen aus finanziellen oder kulturellen Gründen kaum realistisch sei.\n\nLetztlich zeigt sich, dass Ernährung längst nicht mehr nur eine private Angelegenheit ist, sondern zu einem zentralen gesellschaftlichen Thema geworden ist. Es bleibt abzuwarten, inwieweit politische Maßnahmen tatsächlich umgesetzt werden und ob sich die Essgewohnheiten der Bevölkerung dadurch nachhaltig verändern lassen. Klar ist jedoch, dass die Debatte über gesunde und nachhaltige Ernährung in den kommenden Jahren noch an Intensität gewinnen dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Früher galt das gemeinsame Mittagessen in der Familie als selbstverständlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird behauptet, dass niemand über die Verantwortung des Staates bei der Ernährung diskutiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pflanzliche Alternativen zu Fleisch gewinnen laut Text an Beliebtheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind sich alle einig, dass eine vollständige Ernährungsumstellung für jeden leicht umsetzbar ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text beschreibt Ernährung als ein zentrales gesellschaftliches Thema.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-arbeitsalltag",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Arbeitsalltag",
+    "descripcion": "Eine Analyse darüber, wie KI-Systeme den Arbeitsmarkt und einzelne Berufsbilder verändern.",
+    "texto": "Kaum ein Thema wird in der aktuellen Arbeitswelt so intensiv diskutiert wie der Einfluss künstlicher Intelligenz auf Berufsbilder und Arbeitsabläufe. Während einige Branchen bereits grundlegend von automatisierten Systemen durchdrungen werden, zeigen sich andere Bereiche noch zurückhaltend gegenüber dieser Entwicklung. Befürworter argumentieren, dass repetitive und zeitaufwendige Aufgaben durch KI-gestützte Werkzeuge erheblich effizienter erledigt werden könnten, wodurch den Beschäftigten mehr Raum für kreative und strategische Tätigkeiten bliebe.\n\nKritiker hingegen weisen darauf hin, dass mit der zunehmenden Automatisierung auch erhebliche Risiken verbunden seien. Sollten ganze Berufsgruppen durch intelligente Systeme ersetzt werden, müsste die Gesellschaft Antworten darauf finden, wie die davon betroffenen Menschen beruflich neu orientiert werden könnten. Es wird vielfach gefordert, dass Weiterbildungsprogramme ausgebaut werden müssten, damit Arbeitnehmer frühzeitig auf die veränderten Anforderungen vorbereitet werden. Andernfalls drohe eine Vertiefung sozialer Ungleichheiten zwischen jenen, die von der Technologie profitieren, und jenen, die ihren Arbeitsplatz verlieren.\n\nUnabhängig davon, wie die Entwicklung konkret verlaufen wird, scheint klar zu sein, dass sich der Arbeitsmarkt in den kommenden Jahren tiefgreifend verändern wird. Entscheidend wird sein, ob es gelingt, die Chancen der neuen Technologien zu nutzen, ohne dabei die sozialen Folgen für die Beschäftigten aus den Augen zu verlieren. Eine rein technologiegetriebene Debatte, so betonen viele Experten, greife an dieser Stelle zu kurz.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text wird der Einfluss von KI auf die Arbeitswelt kaum diskutiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter meinen, KI könne repetitive Aufgaben effizienter erledigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keine Risiken in der zunehmenden Automatisierung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Text wird gefordert, Weiterbildungsprogramme auszubauen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass sich der Arbeitsmarkt in Zukunft kaum verändern wird.",
+        "respuesta": false
+      }
+    ]
   }
 ]
