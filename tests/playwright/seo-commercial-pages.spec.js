@@ -74,7 +74,8 @@ test.describe("SEO commercial pages", () => {
       "Madrid",
       "Barcelona",
       "Berlín",
-      "Múnich"
+      "Múnich",
+      "Australia"
     ];
 
     for (const path of ["/", "/servicios/", "/clases-aleman-malaga/"]) {
@@ -99,6 +100,7 @@ test.describe("SEO commercial pages", () => {
     await expect(coverage).toContainText(/Fuengirola.*Costa del Sol/is);
     await expect(coverage).toContainText(/Málaga.*Benalmádena.*Arroyo de la Miel.*Marbella/is);
     await expect(coverage).toContainText(/Madrid.*Barcelona.*Berlín.*Múnich/is);
+    await expect(coverage).toContainText(/Australia/i);
     await expect(coverage).toContainText(/online/i);
   });
 
