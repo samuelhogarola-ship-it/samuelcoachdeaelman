@@ -54758,5 +54758,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "im-eiscafe-mit-papa",
+    "nivel": "A1",
+    "titulo": "Im Eiscafé mit Papa",
+    "descripcion": "Lena geht mit ihrem Papa ins Eiscafé und wählt ihre Lieblingssorte.",
+    "texto": "Es ist Samstag und die Sonne scheint. Lena geht mit ihrem Papa ins Eiscafé. Das Café ist in der Nähe vom Park. Lena ist fünf Jahre alt und mag Eis sehr gern.\n\nDer Kellner bringt die Eiskarte. Lena schaut lange und sagt: „Ich möchte ein Eis mit Schokolade und Erdbeere.“ Papa nimmt ein Eis mit Vanille. Das Eis ist kalt und süß. Lena isst langsam und lacht viel.\n\nNach dem Eis trinken sie noch Wasser. Dann gehen sie zusammen in den Park. Lena spielt dort mit einem Ball. Papa sitzt auf einer Bank und liest eine Zeitung. Es ist ein schöner Nachmittag für beide.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht mit ihrer Mama ins Eiscafé.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena nimmt ein Eis mit Schokolade und Erdbeere.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Papa trinkt Kaffee im Café.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Eis gehen sie in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena spielt im Park mit einem Hund.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-pausenbrot",
+    "nivel": "A1",
+    "titulo": "Mein Pausenbrot",
+    "descripcion": "Tim erzählt, was er jeden Morgen für die Schule vorbereitet.",
+    "texto": "Ich heiße Tim und gehe jeden Tag in die Schule. Jeden Morgen mache ich mein Pausenbrot selbst. Ich nehme Brot, Butter und Käse. Manchmal lege ich auch eine Scheibe Tomate dazu.\n\nIn meine Tasche packe ich auch einen Apfel und eine Flasche Wasser. In der Schule esse ich das Brot in der Pause mit meinen Freunden. Wir sitzen zusammen auf dem Schulhof und sprechen über den Unterricht.\n\nMein bester Freund Jonas hat immer ein Brot mit Marmelade. Er teilt manchmal sein Brot mit mir, und ich gebe ihm ein Stück Apfel. Nach der Pause gehen wir wieder ins Klassenzimmer.",
+    "preguntas": [
+      {
+        "enunciado": "Tim macht sein Pausenbrot jeden Morgen selbst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim legt Schinken auf sein Brot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim packt auch einen Apfel in seine Tasche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas isst in der Pause nichts.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim und Jonas essen zusammen auf dem Schulhof.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-spaziergang-mit-dem-hund-am-abend",
+    "nivel": "A1",
+    "titulo": "Der Spaziergang mit dem Hund am Abend",
+    "descripcion": "Frau Berger geht mit ihrem Hund Bruno jeden Abend spazieren.",
+    "texto": "Frau Berger hat einen Hund. Er heißt Bruno und ist braun und klein. Jeden Abend gehen sie zusammen spazieren. Sie gehen durch die Straße und dann in den kleinen Park.\n\nBruno läuft schnell und schnüffelt an den Bäumen. Frau Berger trägt eine Tasche mit Wasser für den Hund. Im Park trifft sie oft ihre Nachbarin Frau Klein mit ihrem Hund. Die beiden Hunde spielen zusammen.\n\nNach dem Spaziergang gehen Frau Berger und Bruno nach Hause. Bruno bekommt Wasser und etwas Futter. Dann schläft er auf seinem Platz neben dem Sofa. Frau Berger trinkt noch einen Tee.",
+    "preguntas": [
+      {
+        "enunciado": "Bruno ist ein großer schwarzer Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger geht jeden Abend mit Bruno spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Park trifft Frau Berger ihre Nachbarin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die zwei Hunde spielen nicht zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno schläft nach dem Spaziergang auf dem Bett.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-verpasste-bahn-nach-muenchen",
+    "nivel": "A2",
+    "titulo": "Die verpasste Bahn nach München",
+    "descripcion": "Sabine verpasst ihren Zug und muss ihre Reisepläne ändern.",
+    "texto": "Sabine wollte am Freitagmorgen mit dem Zug nach München fahren, weil sie dort ihre Schwester besuchen wollte. Sie ist aber zu spät aus dem Haus gegangen und hat den Bus zum Bahnhof verpasst. Deshalb ist sie erst fünf Minuten nach der Abfahrt am Gleis angekommen.\n\nAm Bahnhof hat sie sofort am Schalter gefragt, wann der nächste Zug fährt. Die Mitarbeiterin hat ihr gesagt, dass der nächste Zug erst in zwei Stunden fährt. Sabine war sehr enttäuscht, weil sie ihre Schwester schon um die Mittagszeit treffen wollte. Sie hat ihre Schwester angerufen und erklärt, dass sie später kommt.\n\nWährend sie gewartet hat, hat Sabine einen Kaffee getrunken und ein Buch gelesen. Als der Zug endlich gekommen ist, hat sie einen guten Platz am Fenster gefunden. Am Nachmittag ist sie in München angekommen, und ihre Schwester hat sie fröhlich am Bahnhof abgeholt.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hat den Bus zum Bahnhof verpasst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der nächste Zug ist sofort gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine hat ihre Schwester angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine ist am Morgen in München angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schwester hat Sabine am Bahnhof abgeholt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-zum-weihnachtsmarkt",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug zum Weihnachtsmarkt",
+    "descripcion": "Familie Weber besucht gemeinsam den Weihnachtsmarkt in ihrer Stadt.",
+    "texto": "Letzten Samstag ist Familie Weber zum Weihnachtsmarkt in der Innenstadt gegangen. Es war kalt, deshalb haben alle warme Jacken und Mützen getragen. Die Kinder haben sich sehr gefreut, weil sie schon lange auf das Riesenrad gewartet haben.\n\nAm Markt haben sie zuerst heißen Kakao getrunken, weil es draußen eisig kalt war. Danach sind sie an vielen Ständen vorbeigegangen und haben kleine Geschenke für die Familie gekauft. Der Vater hat gesagt, dass er die gebrannten Mandeln am liebsten mag, und die Mutter hat ein paar Kerzen gekauft.\n\nAls es dunkel wurde, haben alle Lichter am Markt angefangen zu leuchten. Die Kinder sind mit dem Riesenrad gefahren und haben von oben die ganze Stadt gesehen. Zum Schluss sind sie müde, aber glücklich nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist im Sommer zum Weihnachtsmarkt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben auf das Riesenrad gewartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Markt hat niemand etwas Warmes getrunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater mag die gebrannten Mandeln am liebsten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder sind nicht mit dem Riesenrad gefahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradpanne-auf-dem-weg-zur-arbeit",
+    "nivel": "A2",
+    "titulo": "Die Fahrradpanne auf dem Weg zur Arbeit",
+    "descripcion": "Jonas hat eine Reifenpanne und kommt deshalb spät ins Büro.",
+    "texto": "Jonas fährt jeden Tag mit dem Fahrrad zur Arbeit, weil er findet, dass Radfahren gesund und schnell ist. Letzten Dienstag ist er wie immer um halb acht losgefahren. Mitten auf der Brücke ist plötzlich sein Vorderreifen platt gegangen.\n\nEr ist abgestiegen und hat gesehen, dass eine Glasscherbe im Reifen steckt. Weil er kein Reparaturset dabei hatte, musste er das Fahrrad die restliche Strecke schieben. Er hat seinem Chef eine Nachricht geschrieben und erklärt, dass er sich verspätet, weil sein Fahrrad kaputt ist.\n\nIm Büro angekommen, war Jonas außer Atem, aber seine Kollegen haben verständnisvoll reagiert. Nach der Arbeit ist er direkt zu einer Fahrradwerkstatt gegangen, damit der Reifen noch am selben Tag repariert wird. Seitdem trägt er immer ein kleines Reparaturset in seiner Tasche.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas fährt normalerweise mit dem Bus zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vorderreifen von Jonas ist auf der Brücke platt gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte ein Reparaturset dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen haben sich über die Verspätung geärgert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas trägt seitdem immer ein Reparaturset bei sich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-eine-neue-stadt-fuer-das-studium",
+    "nivel": "B1",
+    "titulo": "Der Umzug in eine neue Stadt für das Studium",
+    "descripcion": "Marie zieht für ihr Studium in eine fremde Stadt und muss sich dort neu orientieren.",
+    "texto": "Marie hat ihr Abitur gemacht und sich entschieden, Medizin zu studieren. Obwohl sie ihre Heimatstadt sehr mag, musste sie für das Studium in eine größere Stadt ziehen, weil es dort keine passende Universität gibt. Der Abschied von ihrer Familie fiel ihr nicht leicht, trotzdem war sie auch gespannt auf das neue Leben.\n\nIn der ersten Woche hat Marie sich zunächst in ihrer neuen Wohngemeinschaft eingerichtet. Nachdem sie ihre Sachen ausgepackt hatte, hat sie sich die Universität und die nähere Umgebung angeschaut. Anfangs fühlte sie sich etwas einsam, weil sie dort noch niemanden kannte, doch das änderte sich schnell, als sie andere Erstsemesterstudierende in einem Einführungsseminar traf.\n\nMittlerweile hat sich Marie gut eingelebt. Sie hat neue Freunde gefunden, mit denen sie gemeinsam für Prüfungen lernt und auch in ihrer Freizeit etwas unternimmt. Obwohl sie ihre Familie oft vermisst, besucht sie sie regelmäßig an den Wochenenden und erzählt begeistert von ihrem neuen Leben.",
+    "preguntas": [
+      {
+        "enunciado": "Marie ist für ihr Studium in eine größere Stadt gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Abschied von der Familie war für Marie völlig problemlos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der ersten Woche hat Marie sofort viele Freunde gehabt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marie hat im Einführungsseminar andere Erstsemesterstudierende getroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie besucht ihre Familie nie mehr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-nach-dresden",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Dresden",
+    "descripcion": "Eine Schulklasse verbringt drei Tage in Dresden und besucht wichtige Sehenswürdigkeiten.",
+    "texto": "Die Klasse 9b ist für drei Tage nach Dresden gefahren, nachdem die Lehrerin die Fahrt schon Monate vorher geplant hatte. Die Schülerinnen und Schüler waren sehr aufgeregt, weil es die erste große Klassenfahrt ohne Eltern war. Trotz des langen Anfahrtswegs war die Stimmung im Bus von Anfang an gut.\n\nAm ersten Tag haben sie die Frauenkirche besichtigt und viel über die Geschichte der Stadt gelernt. Nachdem sie durch die barocke Altstadt gegangen waren, haben sie in einem kleinen Café zu Mittag gegessen. Am zweiten Tag stand ein Besuch im Verkehrsmuseum auf dem Programm, das vielen besonders gut gefallen hat, obwohl einige Schüler lieber ins Museum für Technik gegangen wären.\n\nAm letzten Abend hat die Klasse gemeinsam an der Elbe gegrillt und über die Erlebnisse der Reise gesprochen. Viele waren sich einig, dass sie gerne noch länger geblieben wären. Auf der Rückfahrt im Bus haben fast alle geschlafen, weil die drei Tage sehr anstrengend, aber auch sehr schön waren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b ist für eine Woche nach Dresden gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag haben sie die Frauenkirche besichtigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler wollten lieber ins Verkehrsmuseum als ins Technikmuseum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend hat die Klasse an der Elbe gegrillt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf der Rückfahrt war niemand müde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-ungewoehnliche-freundschaft-im-buero",
+    "nivel": "B1",
+    "titulo": "Eine ungewöhnliche Freundschaft im Büro",
+    "descripcion": "Zwei sehr unterschiedliche Kollegen entwickeln trotz ihrer Gegensätze eine enge Freundschaft.",
+    "texto": "Paul und Hendrik arbeiten seit zwei Jahren im selben Großraumbüro, obwohl sie zunächst kaum etwas gemeinsam hatten. Paul ist ruhig und ordentlich, während Hendrik eher chaotisch und redefreudig ist. Nachdem sie mehrmals im selben Projekt zusammenarbeiten mussten, haben sie sich langsam besser kennengelernt.\n\nAls Hendrik einmal eine wichtige Deadline fast verpasst hätte, hat Paul ihm spontan geholfen, obwohl es nicht seine Aufgabe war. Seitdem essen die beiden fast jeden Tag gemeinsam Mittag und tauschen sich über Arbeit und Privates aus. Obwohl ihre Persönlichkeiten so unterschiedlich sind, ergänzen sie sich bei der Arbeit sehr gut.\n\nMittlerweile sind die beiden auch außerhalb der Arbeit befreundet und unternehmen gelegentlich am Wochenende etwas zusammen. Ihre Kollegen wundern sich manchmal über diese Freundschaft, da die beiden auf den ersten Blick so verschieden wirken. Paul und Hendrik selbst finden gerade diese Unterschiede spannend, weil sie dadurch viel voneinander lernen können.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und Hendrik hatten von Anfang an viel gemeinsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hat Hendrik geholfen, als dieser eine Deadline fast verpasst hätte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden essen nie zusammen Mittag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und Hendrik unternehmen auch am Wochenende manchmal etwas zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kollegen finden die Freundschaft völlig normal und erwähnen sie nie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-fachkraeftemangel-in-der-pflege",
+    "nivel": "B2",
+    "titulo": "Der Fachkräftemangel in der Pflege",
+    "descripcion": "Eine Analyse der Ursachen und möglichen Lösungen des Personalmangels im Pflegesektor.",
+    "texto": "Der Fachkräftemangel in der Pflege zählt seit Jahren zu den dringendsten Problemen des deutschen Gesundheitssystems. Obwohl die Zahl der pflegebedürftigen Menschen aufgrund der demografischen Entwicklung stetig steigt, fehlt es gleichzeitig an ausreichend qualifiziertem Personal, um diese Versorgung sicherzustellen. Viele Einrichtungen berichten, dass offene Stellen monatelang nicht besetzt werden können, was die verbleibenden Mitarbeitenden zusätzlich belastet.\n\nAls zentrale Ursache wird häufig die unzureichende Bezahlung im Verhältnis zur körperlichen und psychischen Belastung des Berufs genannt. Hinzu kommt, dass Schichtdienste und Wochenendarbeit die Vereinbarkeit von Beruf und Familie erschweren, wodurch der Beruf für viele junge Menschen unattraktiv erscheint. Würde die Politik spürbare Verbesserungen bei Gehalt und Arbeitsbedingungen umsetzen, könnte dies langfristig dazu beitragen, mehr Menschen für den Pflegeberuf zu gewinnen.\n\nUm dem Mangel kurzfristig entgegenzuwirken, setzen manche Kliniken auf die Anwerbung ausländischer Pflegekräfte, deren Qualifikationen jedoch oft erst aufwendig anerkannt werden müssen. Kritiker bemängeln zudem, dass strukturelle Reformen des Gesundheitssystems bislang zu langsam vorangetrieben werden. Ohne tiefgreifende Veränderungen, so die Einschätzung vieler Experten, werde sich die Situation in den kommenden Jahren eher verschärfen als verbessern.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zahl der pflegebedürftigen Menschen sinkt laut Text stetig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Offene Stellen in der Pflege können oft monatelang nicht besetzt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bezahlung wird als eine zentrale Ursache des Fachkräftemangels genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Schichtdienste erleichtern laut Text die Vereinbarkeit von Beruf und Familie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten gehen davon aus, dass sich die Situation ohne Reformen automatisch verbessert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-ein-bedingungsloses-grundeinkommen",
+    "nivel": "B2",
+    "titulo": "Die Debatte um ein bedingungsloses Grundeinkommen",
+    "descripcion": "Befürworter und Kritiker diskutieren über Chancen und Risiken eines bedingungslosen Grundeinkommens.",
+    "texto": "Die Idee eines bedingungslosen Grundeinkommens wird in Deutschland seit Jahren intensiv diskutiert, ohne dass sich Politik und Gesellschaft auf eine gemeinsame Position einigen konnten. Befürworter argumentieren, dass ein garantiertes Einkommen existenzielle Ängste nehmen und Menschen die Freiheit geben würde, sich beruflich neu zu orientieren, ohne von finanzieller Not getrieben zu werden. Besonders in Zeiten zunehmender Automatisierung wird das Grundeinkommen von manchen als notwendige Antwort auf den Wegfall traditioneller Arbeitsplätze betrachtet.\n\nKritiker hingegen bezweifeln, dass ein bedingungsloses Grundeinkommen finanzierbar wäre, ohne das bestehende Steuer- und Sozialsystem grundlegend umzubauen. Sie befürchten zudem, dass der Anreiz zur Erwerbsarbeit sinken könnte, wenn das Einkommen unabhängig von der tatsächlichen Beschäftigung ausgezahlt wird. Studien und Pilotprojekte, die in den letzten Jahren durchgeführt wurden, liefern bislang kein einheitliches Bild, da die Ergebnisse je nach Ausgestaltung und untersuchter Gruppe stark variieren.\n\nSollte sich die Politik langfristig für ein Grundeinkommen entscheiden, müsste zunächst geklärt werden, wie hoch die Zahlung ausfallen und wie sie finanziert werden sollte. Manche Expertinnen und Experten schlagen vor, bestehende Sozialleistungen schrittweise in ein neues System zu überführen, während andere für ein ergänzendes Modell neben dem bisherigen Sozialstaat plädieren. Angesichts der Komplexität des Themas ist in absehbarer Zeit keine schnelle politische Entscheidung zu erwarten.",
+    "preguntas": [
+      {
+        "enunciado": "Politik und Gesellschaft haben sich bereits auf eine gemeinsame Position zum Grundeinkommen geeinigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen im Grundeinkommen eine Möglichkeit, existenzielle Ängste zu verringern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten sinkende Anreize zur Erwerbsarbeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die bisherigen Studien zum Grundeinkommen liefern ein völlig einheitliches Bild.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text ist eine schnelle politische Entscheidung in dieser Frage zu erwarten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "oeffentlicher-raum-und-die-privatisierung-der-innenstaedte",
+    "nivel": "B2",
+    "titulo": "Öffentlicher Raum und die Privatisierung der Innenstädte",
+    "descripcion": "Ein Blick auf die zunehmende Privatisierung öffentlicher Plätze in deutschen Großstädten.",
+    "texto": "In vielen deutschen Innenstädten lässt sich seit einiger Zeit ein Trend beobachten, der von Stadtplanern und Bürgerinitiativen zunehmend kritisch beobachtet wird: die schrittweise Privatisierung ehemals öffentlicher Plätze. Einkaufszentren, die auf privatem Grund errichtet wurden, übernehmen immer häufiger die Funktion klassischer Marktplätze, wodurch das Hausrecht nicht mehr bei der Kommune, sondern bei privaten Betreibern liegt. Diese Entwicklung wirft grundlegende Fragen darüber auf, wem der städtische Raum eigentlich gehören sollte.\n\nBefürworter solcher Projekte verweisen häufig auf die gepflegte Infrastruktur und die erhöhte Sicherheit, die durch private Sicherheitsdienste gewährleistet werde. Kritiker wenden jedoch ein, dass dadurch bestimmte Gruppen, etwa Obdachlose oder Jugendliche, gezielt von diesen Flächen ausgeschlossen würden, obwohl es sich dem äußeren Anschein nach um öffentlich zugängliche Orte handele. Würden diese Flächen weiterhin von der Stadt verwaltet, wäre ein gleichberechtigter Zugang für alle Bürger rechtlich klarer geregelt.\n\nAngesichts knapper kommunaler Haushalte argumentieren manche Verantwortliche, dass private Investitionen notwendig seien, um die Innenstädte überhaupt attraktiv zu halten. Stadtforscher mahnen jedoch, dass langfristig ein Gleichgewicht zwischen wirtschaftlichen Interessen und dem Erhalt echter öffentlicher Räume gefunden werden müsse. Andernfalls drohe eine Entwicklung, bei der die Innenstadt zunehmend einem kommerziell gesteuerten Raum ähnelt, statt ein Ort der Begegnung für alle zu bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr ehemals öffentliche Plätze werden laut Text privatisiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf privatisierten Flächen liegt das Hausrecht weiterhin bei der Kommune.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass bestimmte Gruppen von privatisierten Flächen ausgeschlossen werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Verantwortlichen lehnen private Investitionen in Innenstädte grundsätzlich ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Stadtforscher fordern ein Gleichgewicht zwischen wirtschaftlichen Interessen und öffentlichem Raum.",
+        "respuesta": true
+      }
+    ]
   }
 ]
