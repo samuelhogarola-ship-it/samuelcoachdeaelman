@@ -53366,5 +53366,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "eishockey-im-winter",
+    "nivel": "A1",
+    "titulo": "Eishockey im Winter",
+    "descripcion": "Mika spielt im Winter mit seinen Freunden Eishockey auf dem See.",
+    "texto": "Mika ist zehn Jahre alt. Im Winter ist der See bei seinem Haus zugefroren. Mika und seine Freunde spielen dort Eishockey. Sie haben Schlittschuhe und einen Schläger.\n\nAm Samstag treffen sich fünf Freunde am See. Sie bilden zwei Teams. Mika schießt ein Tor. Seine Freunde rufen: „Super, Mika!“ Alle haben viel Spaß.\n\nNach dem Spiel trinken sie heißen Kakao. Mika ist müde, aber glücklich. Er möchte morgen wieder Eishockey spielen.",
+    "preguntas": [
+      {
+        "enunciado": "Mika ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Sommer ist der See zugefroren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mika und seine Freunde spielen Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mika schießt ein Tor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Spiel trinken sie heißen Kakao.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fruehstueck-bei-familie-vogel",
+    "nivel": "A1",
+    "titulo": "Frühstück bei Familie Vogel",
+    "descripcion": "Die Familie Vogel frühstückt jeden Morgen zusammen am Tisch.",
+    "texto": "Die Familie Vogel frühstückt jeden Morgen zusammen. Der Vater macht Kaffee. Die Mutter schneidet Brot und Obst. Die Kinder trinken Milch und essen Müsli.\n\nAm Tisch sprechen sie über den Tag. Die Tochter sagt: „Heute habe ich Sport in der Schule.“ Der Sohn isst schnell, weil der Bus um acht Uhr kommt. Alle sind pünktlich fertig.\n\nNach dem Frühstück räumen die Kinder den Tisch ab. Die Familie Vogel findet das gemeinsame Frühstück sehr wichtig. Es ist ein schöner Start in den Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Vogel frühstückt zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater macht Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tochter hat heute Sport in der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bus kommt um neun Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder räumen den Tisch ab.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "tom-lernt-jonglieren",
+    "nivel": "A1",
+    "titulo": "Tom lernt Jonglieren",
+    "descripcion": "Tom übt jeden Tag im Garten, um das Jonglieren zu lernen.",
+    "texto": "Tom ist neun Jahre alt. Er möchte jonglieren lernen. Er hat drei bunte Bälle. Jeden Tag übt er im Garten.\n\nAm Anfang fallen die Bälle oft auf den Boden. Tom ist nicht traurig, er übt weiter. Nach zwei Wochen kann er schon zwei Bälle jonglieren. Seine kleine Schwester schaut gerne zu.\n\nNach einem Monat kann Tom endlich mit drei Bällen jonglieren. Er zeigt es seinen Eltern. Sie klatschen und sagen: „Toll gemacht, Tom!“ Tom ist sehr stolz.",
+    "preguntas": [
+      {
+        "enunciado": "Tom hat drei bunte Bälle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom übt im Wohnzimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bälle fallen am Anfang oft auf den Boden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach einer Woche kann Tom mit drei Bällen jonglieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Eltern sind stolz auf Tom.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-leuchtturm-an-der-kueste",
+    "nivel": "A2",
+    "titulo": "Der Leuchtturm an der Küste",
+    "descripcion": "Mira besucht während ihres Urlaubs an der Nordsee einen alten Leuchtturm.",
+    "texto": "Mira hat letzten Sommer Urlaub an der Nordsee gemacht. In der Nähe ihres Hotels stand ein alter Leuchtturm. Weil sie neugierig war, ist sie eines Tages hinaufgestiegen.\n\nDer Leuchtturm hatte über zweihundert Stufen. Mira musste eine Pause machen, weil sie außer Atem war. Oben angekommen, hat sie eine wunderbare Aussicht auf das Meer gehabt. Sie hat gesagt: „Das hat sich wirklich gelohnt!“\n\nNachdem sie wieder unten war, hat sie in einem kleinen Museum etwas über die Geschichte des Leuchtturms gelernt. Mira fand den Ausflug sehr spannend und hat viele Fotos gemacht.",
+    "preguntas": [
+      {
+        "enunciado": "Mira hat Urlaub in den Bergen gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Leuchtturm hatte über zweihundert Stufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mira ist nicht hinaufgestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oben hatte sie eine schöne Aussicht auf das Meer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mira hat nichts über die Geschichte des Leuchtturms gelernt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-auf-dem-hausboot",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende auf dem Hausboot",
+    "descripcion": "Lukas und seine Familie verbringen ein Wochenende auf einem gemieteten Hausboot.",
+    "texto": "Lukas hat mit seiner Familie ein Hausboot für das Wochenende gemietet, weil sein Vater schon lange etwas Neues erleben wollte. Am Freitagabend sind sie losgefahren und haben auf dem Fluss angelegt.\n\nAm Samstag haben sie gefischt und sind geschwommen. Lukas hat gesagt: „Ich habe noch nie auf einem Boot geschlafen!“ Nachdem die Sonne untergegangen war, haben sie am Deck gegrillt und Geschichten erzählt.\n\nAm Sonntag mussten sie das Boot leider schon zurückbringen. Lukas war ein bisschen traurig, weil das Wochenende so schnell vorbei war. Trotzdem hat die ganze Familie das Abenteuer sehr genossen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie hat ein Haus am Fluss gemietet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind am Freitagabend losgefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas hat schon oft auf einem Boot geschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben am Deck gegrillt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas war froh, dass das Wochenende vorbei war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-faehre-nach-ruegen",
+    "nivel": "A2",
+    "titulo": "Die Fähre nach Rügen",
+    "descripcion": "Eine Familie fährt mit der Fähre zur Insel Rügen und erlebt eine stürmische Überfahrt.",
+    "texto": "Die Familie Schulz wollte letzten Herbst die Insel Rügen besuchen. Weil das Auto nicht über die Brücke durfte, mussten sie die Fähre nehmen. Der Vater hatte die Tickets schon online gekauft.\n\nWährend der Überfahrt wurde das Meer plötzlich unruhig, weil ein starker Wind aufgekommen war. Die kleine Tochter hatte etwas Angst, aber die Mutter hat sie beruhigt. Nach vierzig Minuten war die Fähre endlich im Hafen angekommen.\n\nAuf Rügen haben sie die berühmten Kreidefelsen besichtigt. Obwohl die Überfahrt stürmisch war, hat der Familie der Ausflug sehr gut gefallen. Sie wollen die Insel im nächsten Jahr wieder besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist über eine Brücke nach Rügen gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Während der Überfahrt wurde das Meer unruhig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tochter hatte überhaupt keine Angst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fähre brauchte vierzig Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie möchte Rügen nie wieder besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-schachturnier-in-der-schule",
+    "nivel": "B1",
+    "titulo": "Das Schachturnier in der Schule",
+    "descripcion": "Eine Schule veranstaltet ein Schachturnier, bei dem ein schüchterner Schüler überraschend erfolgreich ist.",
+    "texto": "An der Gesamtschule in Lemgo fand letzten Monat ein Schachturnier statt, an dem Schüler aus allen Klassenstufen teilnehmen konnten. Simon, ein eher zurückhaltender Neuntklässler, hatte sich angemeldet, obwohl er noch nie an einem echten Turnier gespielt hatte.\n\nNachdem die ersten Runden gespielt worden waren, stellte sich heraus, dass Simon überraschend gut spielte. Er gewann gegen mehrere ältere Schüler, die eigentlich als Favoriten galten. Seine Mitschüler konnten es kaum glauben, dass der stille Simon plötzlich im Finale stand.\n\nIm Finale spielte Simon gegen die Schulmeisterin aus der zwölften Klasse. Obwohl das Spiel über zwei Stunden dauerte, gewann am Ende Simon knapp. Seitdem wird er von vielen Mitschülern bewundert, und er selbst sagt, dass ihm das Turnier mehr Selbstvertrauen gegeben hat.",
+    "preguntas": [
+      {
+        "enunciado": "Das Schachturnier fand an einer Universität statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon hatte vorher schon oft an Turnieren teilgenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon gewann gegen mehrere ältere Schüler.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Finale dauerte über zwei Stunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon hat das Finale verloren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-foerster-im-nationalpark",
+    "nivel": "B1",
+    "titulo": "Der Förster im Nationalpark",
+    "descripcion": "Ein junger Förster berichtet von seiner Arbeit im Nationalpark und den Herausforderungen durch den Klimawandel.",
+    "texto": "Markus arbeitet seit drei Jahren als Förster in einem Nationalpark im Harz. Nachdem er eine Ausbildung zum Forstwirt abgeschlossen hatte, bekam er direkt eine feste Stelle. Seine Arbeit besteht darin, den Wald zu beobachten und seltene Tierarten zu schützen.\n\nIn den letzten Jahren hat sich die Arbeit allerdings verändert, weil immer mehr Bäume durch Trockenheit und Borkenkäfer absterben. Obwohl Markus den Wald liebt, macht ihm diese Entwicklung oft Sorgen. Er erklärt Besuchern geduldig, warum manche Bereiche des Parks gerade nicht zugänglich sind.\n\nTrotz der schwierigen Umstände glaubt Markus fest daran, dass sich der Wald mit der Zeit erholen kann, wenn genug neue Bäume gepflanzt werden. Deshalb organisiert er regelmäßig Pflanzaktionen, an denen auch Schulklassen teilnehmen dürfen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus arbeitet seit zehn Jahren als Förster.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus schützt im Nationalpark seltene Tierarten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bäume sterben wegen zu viel Regen ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus macht sich Sorgen um den Wald.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus organisiert Pflanzaktionen mit Schulklassen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-sternwarte-auf-dem-berg",
+    "nivel": "B1",
+    "titulo": "Die Sternwarte auf dem Berg",
+    "descripcion": "Eine Schulklasse besucht eine Sternwarte und entdeckt ihre Begeisterung für die Astronomie.",
+    "texto": "Die Klasse 8b hat letzte Woche einen Ausflug zu einer Sternwarte auf einem Berg gemacht. Nachdem die Schüler mit dem Bus eine Stunde gefahren waren, erwartete sie oben ein großes Teleskop. Der Astronom erklärte geduldig, wie das Teleskop funktioniert.\n\nAls es dunkel wurde, durften die Schüler durch das Teleskop schauen. Viele waren begeistert, als sie die Ringe des Saturns sahen. Ein Schüler namens Felix sagte: „Das ist das Beeindruckendste, was ich je gesehen habe!“ Obwohl es draußen sehr kalt war, wollte niemand zu früh gehen.\n\nAm Ende des Besuchs bekam jeder Schüler eine kleine Sternkarte als Geschenk. Mehrere Schüler, darunter auch Felix, überlegen seitdem, später einmal Astronomie zu studieren. Die Lehrerin war froh, dass der Ausflug ein so großes Interesse geweckt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 8b ist mit dem Zug gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler durften durch ein Teleskop schauen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix fand den Besuch langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es war draußen sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jeder Schüler bekam eine kleine Sternkarte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streuobstwiesen-und-ihre-oekologische-bedeutung",
+    "nivel": "B2",
+    "titulo": "Streuobstwiesen und ihre ökologische Bedeutung",
+    "descripcion": "Eine Betrachtung darüber, warum traditionelle Streuobstwiesen für die Artenvielfalt in Deutschland immer wichtiger werden.",
+    "texto": "Streuobstwiesen gehören zu den artenreichsten Lebensräumen Mitteleuropas, gelten jedoch zugleich als eine der am stärksten gefährdeten Kulturlandschaften. Auf diesen traditionell bewirtschafteten Flächen wachsen hochstämmige Obstbäume verschiedener, oft alter Sorten, zwischen denen sich Wiesen erstrecken, die selten gemäht werden. Diese Struktur bietet zahlreichen Insekten, Vögeln und Kleintieren einen wertvollen Lebensraum, der in intensiv genutzten Agrarlandschaften kaum noch zu finden ist.\n\nIn den vergangenen Jahrzehnten ist die Fläche der Streuobstwiesen in Deutschland drastisch zurückgegangen, da viele Landwirte auf intensivere und wirtschaftlich rentablere Anbauformen umgestiegen sind. Wären die alten Obstsorten nicht durch Vereine und ehrenamtliche Initiativen bewahrt worden, wäre ein erheblicher Teil der genetischen Vielfalt vermutlich bereits verloren gegangen. Zunehmend erkennen jedoch auch Kommunen und Naturschutzverbände, welchen Wert diese Flächen für den Erhalt der Biodiversität besitzen.\n\nUm Streuobstwiesen langfristig zu erhalten, werden inzwischen verschiedene Förderprogramme angeboten, durch die Landwirte für die aufwendige Pflege der Flächen finanziell unterstützt werden. Dennoch bleibt die Bewirtschaftung im Vergleich zu konventioneller Landwirtschaft wenig attraktiv, sodass ohne ein verstärktes gesellschaftliches Engagement viele dieser wertvollen Flächen auch künftig verschwinden könnten.",
+    "preguntas": [
+      {
+        "enunciado": "Streuobstwiesen gelten als eine der artenärmsten Landschaften Mitteleuropas.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fläche der Streuobstwiesen ist in den letzten Jahrzehnten stark zurückgegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Vereine und ehrenamtliche Initiativen haben keinen Einfluss auf den Erhalt alter Obstsorten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt Förderprogramme zur Unterstützung der Streuobstwiesen-Pflege.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bewirtschaftung von Streuobstwiesen ist wirtschaftlich attraktiver als konventionelle Landwirtschaft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "schrebergaerten-im-wandel-der-zeit",
+    "nivel": "B2",
+    "titulo": "Schrebergärten im Wandel der Zeit",
+    "descripcion": "Wie sich die Bedeutung von Schrebergärten in deutschen Städten von der Nachkriegszeit bis heute verändert hat.",
+    "texto": "Schrebergärten, auch Kleingärten genannt, entstanden ursprünglich im 19. Jahrhundert, um ärmeren Stadtbewohnern den Anbau von Obst und Gemüse zu ermöglichen. Vor allem in der Nachkriegszeit spielten sie eine wichtige Rolle bei der Selbstversorgung vieler Familien, die auf diese Weise ihre knappen Lebensmittelvorräte ergänzen konnten.\n\nIn den letzten Jahren hat sich die Bedeutung der Schrebergärten jedoch deutlich gewandelt. Während früher vor allem die landwirtschaftliche Nutzung im Vordergrund stand, suchen heute viele jüngere Stadtbewohner in den Gärten vor allem einen Rückzugsort vom hektischen Alltag. Besonders in Großstädten, in denen Wohnraum und private Grünflächen knapp geworden sind, erleben Kleingärten derzeit einen regelrechten Boom unter jungen Familien.\n\nGleichzeitig stehen viele Kleingartenanlagen unter Druck, da wachsende Städte zunehmend Flächen für neuen Wohnungsbau benötigen. Sollten Kommunen diesen Flächen keinen besonderen Schutz zusichern, könnte ein bedeutender Teil der grünen Infrastruktur in den nächsten Jahren verschwinden. Befürworter argumentieren hingegen, dass Schrebergärten gerade angesichts der Klimaerwärmung als städtische Grünflächen unverzichtbar seien.",
+    "preguntas": [
+      {
+        "enunciado": "Schrebergärten entstanden erst in den letzten zehn Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Nachkriegszeit halfen Schrebergärten bei der Selbstversorgung vieler Familien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Heute interessieren sich vor allem ältere Menschen für Kleingärten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Kleingartenanlagen stehen wegen des Wohnungsbaus unter Druck.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter sehen in Schrebergärten keinen Nutzen für das Stadtklima.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "imkerei-als-hobby-und-oekologische-bedeutung",
+    "nivel": "B2",
+    "titulo": "Imkerei als Hobby und ihre ökologische Bedeutung",
+    "descripcion": "Warum sich immer mehr Stadtbewohner der Hobby-Imkerei widmen und welche Rolle Bienen für das Ökosystem spielen.",
+    "texto": "In den letzten Jahren hat sich die Imkerei als Hobby zunehmender Beliebtheit erfreut, besonders unter jüngeren Menschen in Großstädten. Während die Imkerei früher vor allem auf dem Land betrieben wurde, haben mittlerweile viele Städte eigene Hobby-Imkervereine, deren Bienenstöcke auf Dächern oder in Gemeinschaftsgärten stehen.\n\nDieser Trend lässt sich unter anderem durch das wachsende Bewusstsein für den dramatischen Rückgang der Bienenpopulationen erklären. Da Bienen für die Bestäubung zahlreicher Pflanzenarten unverzichtbar sind, hätte ihr weiteres Verschwinden gravierende Folgen für die Landwirtschaft und die gesamte Nahrungskette. Viele Hobby-Imker sehen sich daher nicht nur als Honigproduzenten, sondern auch als aktive Beitragende zum Naturschutz.\n\nAllerdings weisen Experten darauf hin, dass unsachgemäß betriebene Hobby-Imkerei auch negative Folgen haben kann, etwa wenn zu viele Bienenstöcke auf engem Raum zu einer Konkurrenz um Nahrung mit Wildbienen führen. Es wird daher empfohlen, dass angehende Imker sich vor dem Start gründlich schulen lassen, damit ihr Engagement dem Ökosystem tatsächlich zugutekommt, anstatt es zusätzlich zu belasten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Imkerei als Hobby wird immer unpopulärer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bienen sind für die Bestäubung vieler Pflanzenarten wichtig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sehen Hobby-Imkerei ausschließlich positiv.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zu viele Bienenstöcke können zu Konkurrenz mit Wildbienen führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es wird empfohlen, dass sich angehende Imker vorher schulen lassen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
