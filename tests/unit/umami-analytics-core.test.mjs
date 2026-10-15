@@ -184,9 +184,19 @@ test('repeated and mixed bootstrap execution fetches config and installs tracker
 test('every shipped HTML analytics entry reaches the configured Umami tracker', async () => {
   for (const file of await collectHtmlFiles()) {
     const html = await readFile(file, 'utf8');
-    const entries = [...html.matchAll(/<script\b[^>]*src=["']([^"']*(?:google|umami)-analytics-core\.js)["'][^>]*>/g)]
+    const entries = [...html.matchAll(/<script\b[^>]*src=["']([^"']*(?:google|umami)-analytics-core\.js(?:\?[^"']*)?)["'][^>]*>/g)]
       .map(match => new URL(match[1], 'https://samuelcoachdealeman.com/' + path.relative(projectRoot, file)).pathname);
     const result = await runPageAnalytics(entries);
     assert.equal(result.scripts.filter(s => s.dataset.websiteId === 'cb401ab9-2a3d-4fee-9856-6914cd77cb30').length, 1, path.relative(projectRoot, file));
+  }
+});
+
+
+test('all legacy HTML references bypass previously cached Google loaders', async () => {
+  for (const file of await collectHtmlFiles()) {
+    const html = await readFile(file, 'utf8');
+    for (const match of html.matchAll(/src=["']([^"']*google-analytics-core\.js[^"']*)["']/g)) {
+      assert.equal(new URL(match[1], 'https://samuelcoachdealeman.com/').searchParams.get('v'), 'umami-20261015', file);
+    }
   }
 });

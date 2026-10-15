@@ -171,7 +171,7 @@ function generateHtmlPage(slug, frontmatter, htmlContent) {
     <p>&copy; 2026 Samuel Coach de Alemán. <a href="/">Inicio</a></p>
   </footer>
 
-  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script defer src="/assets/js/google-analytics-core.js?v=umami-20261015"></script>
   <script defer src="/assets/js/cookie-banner-core.js"></script>
 </body>
 </html>`;
