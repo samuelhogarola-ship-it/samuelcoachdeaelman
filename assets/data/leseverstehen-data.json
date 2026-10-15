@@ -55106,5 +55106,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "lena-und-tim-im-schwimmbad",
+    "nivel": "A1",
+    "titulo": "Lena und Tim im Schwimmbad",
+    "descripcion": "Lena geht mit ihrem Bruder ins Schwimmbad.",
+    "texto": "Heute ist Samstag. Lena geht mit ihrem Bruder Tim ins Schwimmbad. Sie packen ihre Badesachen in eine Tasche. Lena nimmt ein blaues Handtuch und Tim nimmt ein grünes Handtuch mit.\n\nIm Schwimmbad ist viel los. Viele Kinder spielen im Wasser. Lena schwimmt gern und springt vom kleinen Sprungbrett. Tim mag das Wasser nicht so sehr. Er sitzt lieber am Beckenrand und isst ein Eis. „Komm doch ins Wasser!“, ruft Lena. Tim lacht und schüttelt den Kopf.\n\nNach zwei Stunden sind sie müde und hungrig. Sie gehen zum Kiosk und kaufen eine Portion Pommes. Dann fahren sie mit dem Fahrrad nach Hause. Lena ist glücklich. Das Schwimmbad macht ihr immer viel Spaß.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht allein ins Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim nimmt ein grünes Handtuch mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim springt vom Sprungbrett.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie kaufen am Ende Pommes am Kiosk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie fahren mit dem Bus nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "paul-und-sein-hund-bruno",
+    "nivel": "A1",
+    "titulo": "Paul und sein Hund Bruno",
+    "descripcion": "Paul erzählt von seinem Hund Bruno.",
+    "texto": "Ich heiße Paul und ich habe einen Hund. Mein Hund heißt Bruno. Bruno ist braun und sehr groß. Er ist drei Jahre alt und sehr lieb.\n\nJeden Morgen gehe ich mit Bruno im Park spazieren. Bruno liebt es, den Ball zu holen. Er läuft sehr schnell und bringt den Ball immer zurück. Am Nachmittag schläft Bruno gern auf dem Sofa. Meine Mutter mag das nicht so gern, aber Bruno ist einfach zu süß.\n\nAm Wochenende fahren wir oft zum See. Bruno schwimmt sehr gern im Wasser. Danach ist er immer nass und müde. Ich liebe meinen Hund sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Bruno ist eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist drei Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul geht morgens mit Bruno spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno schläft gern im Garten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno schwimmt gern im See.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenmarkt-am-dienstag",
+    "nivel": "A1",
+    "titulo": "Der Wochenmarkt am Dienstag",
+    "descripcion": "Frau Keller kauft dienstags frisches Obst und Gemüse.",
+    "texto": "Frau Keller wohnt in einer kleinen Stadt. Jeden Dienstag geht sie auf den Wochenmarkt. Dort kauft sie Obst, Gemüse und Käse. Der Markt ist in der Nähe vom Rathaus.\n\nHeute kauft Frau Keller Äpfel, Karotten und ein Stück Käse. Sie spricht mit dem Verkäufer. „Guten Tag! Haben Sie auch Trauben?“, fragt sie. Der Verkäufer nickt und gibt ihr eine Tüte Trauben. Frau Keller bezahlt und sagt „Danke schön“.\n\nAuf dem Weg nach Hause trifft sie ihre Nachbarin. Sie reden kurz über das Wetter. Dann geht Frau Keller nach Hause und kocht ein Mittagessen mit dem frischen Gemüse.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller geht jeden Montag auf den Markt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Markt ist in der Nähe vom Rathaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller kauft keinen Käse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verkäufer hat Trauben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller trifft ihre Nachbarin auf dem Markt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "markus-und-der-verlorene-wohnungsschluessel",
+    "nivel": "A2",
+    "titulo": "Markus und der verlorene Wohnungsschlüssel",
+    "descripcion": "Markus hat seinen Wohnungsschlüssel verloren und sucht ihn überall.",
+    "texto": "Gestern Abend ist Markus nach Hause gekommen und hat gemerkt, dass er seinen Schlüssel verloren hat. Er hat in seiner Tasche gesucht, aber der Schlüssel war weg. Markus war sehr nervös, weil er nicht in seine Wohnung konnte.\n\nZuerst hat er seine Nachbarin gefragt, ob sie einen Ersatzschlüssel hat. Leider hatte sie keinen. Dann hat Markus im Büro angerufen, weil er dachte, dass der Schlüssel dort liegen geblieben ist. Sein Kollege hat im Büro nachgeschaut, aber den Schlüssel nicht gefunden. Markus wurde immer unruhiger, denn es war schon spät und kalt draußen.\n\nAm Ende hat er sich erinnert, dass er am Nachmittag im Supermarkt war. Er ist zurückgefahren und hat tatsächlich seinen Schlüssel an der Kasse gefunden. Die Verkäuferin hatte ihn aufbewahrt. Markus war sehr erleichtert und hat sich herzlich bedankt.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat seinen Schlüssel im Büro gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarin hatte keinen Ersatzschlüssel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus war ruhig und entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus war am Nachmittag im Supermarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Verkäuferin hat den Schlüssel aufbewahrt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-der-ferne",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus der Ferne",
+    "descripcion": "Julia schreibt ihrer Freundin einen Brief über ihr Auslandsjahr.",
+    "texto": "Liebe Sabine, ich hoffe, es geht dir gut! Ich bin jetzt seit drei Monaten in Irland und lebe bei einer Gastfamilie. Am Anfang war es schwer, weil ich die Sprache noch nicht so gut verstanden habe. Aber jetzt fühle ich mich viel sicherer.\n\nLetzte Woche habe ich meine Gastfamilie besser kennengelernt. Wir sind zusammen an die Küste gefahren und haben dort gewandert. Das Wetter war windig, aber die Landschaft war wunderschön. Ich habe viele Fotos gemacht, weil ich dir alles zeigen möchte, wenn ich zurückkomme.\n\nObwohl ich manchmal Heimweh habe, bin ich froh, dass ich diese Erfahrung mache. Nächste Woche beginnt mein Sprachkurs an der Universität, und ich freue mich schon darauf, neue Leute kennenzulernen. Ich schreibe dir bald wieder. Alles Liebe, Julia",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist seit drei Monaten in Irland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat am Anfang die Sprache sofort perfekt verstanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist mit ihrer Gastfamilie an die Küste gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat niemals Heimweh.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia beginnt bald einen Sprachkurs an der Universität.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "tobias-hat-angst-vorm-zahnarzt",
+    "nivel": "A2",
+    "titulo": "Tobias hat Angst vorm Zahnarzt",
+    "descripcion": "Tobias hat Zahnschmerzen und muss zum Zahnarzt gehen.",
+    "texto": "Tobias hatte seit zwei Tagen Zahnschmerzen. Er wollte nicht zum Zahnarzt gehen, weil er Angst hatte. Aber die Schmerzen wurden immer schlimmer, deshalb hat er einen Termin vereinbart.\n\nIm Wartezimmer hat Tobias sich sehr nervös gefühlt. Als die Sprechstundenhilfe seinen Namen gerufen hat, ist sein Herz schneller geschlagen. Der Zahnarzt hat seinen Zahn untersucht und gesagt, dass ein kleines Loch im Zahn war. Er hat den Zahn schnell und vorsichtig behandelt, und Tobias hat fast nichts gespürt.\n\nNach der Behandlung war Tobias erleichtert, dass es nicht so schlimm war, wie er gedacht hatte. Der Zahnarzt hat ihm geraten, zweimal am Tag die Zähne zu putzen und weniger Süßigkeiten zu essen. Tobias hat versprochen, diesen Rat zu befolgen.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias hatte eine Woche lang Zahnschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hatte Angst vor dem Zahnarzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zahnarzt hat ein Loch im Zahn gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Behandlung hat sehr wehgetan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zahnarzt hat Tobias geraten, mehr Süßigkeiten zu essen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "katrins-umzug-nach-leipzig",
+    "nivel": "B1",
+    "titulo": "Katrins Umzug nach Leipzig",
+    "descripcion": "Katrin zieht für einen neuen Job in eine fremde Stadt um.",
+    "texto": "Katrin hatte lange in derselben Stadt gelebt, bevor sie sich entschied, für einen neuen Job nach Leipzig umzuziehen. Obwohl sie sich auf die neue Stelle freute, fiel ihr der Abschied von Freunden und Familie schwer. Nachdem sie ihre Wohnung gekündigt hatte, begann die stressige Phase des Packens und Organisierens.\n\nIn Leipzig angekommen, fühlte sich Katrin zunächst fremd und ein wenig einsam. Trotzdem versuchte sie, offen auf neue Menschen zuzugehen. Sie meldete sich bei einem Sportverein an und lernte dort schnell nette Leute kennen. Nachdem sie ein paar Wochen in der Stadt gewohnt hatte, begann sie, ihre neue Umgebung richtig zu schätzen. Die Cafés, Parks und die lebendige Kulturszene gefielen ihr immer besser.\n\nHeute, ein Jahr später, kann sich Katrin ein Leben ohne Leipzig kaum noch vorstellen. Sie hat enge Freundschaften geschlossen und fühlt sich in ihrem Job wohl. Manchmal denkt sie noch an ihre alte Stadt zurück, aber sie bereut ihre Entscheidung nicht. Der Umzug war eine Herausforderung, doch er hat sich für sie gelohnt.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin ist wegen eines neuen Jobs nach Leipzig gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Abschied von Familie und Freunden fiel ihr leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrin hat sich in Leipzig sofort zu Hause gefühlt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrin ist einem Sportverein beigetreten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin bereut heute ihre Entscheidung umzuziehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zehnte-klasse-faehrt-an-die-elbe",
+    "nivel": "B1",
+    "titulo": "Die zehnte Klasse fährt an die Elbe",
+    "descripcion": "Eine Schulklasse verbringt eine Woche in Hamburg und erlebt viele Abenteuer.",
+    "texto": "Die zehnte Klasse der Gesamtschule Birkenweg fuhr für eine Woche nach Hamburg. Die Schüler waren aufgeregt, obwohl einige von ihnen noch nie so lange von zu Hause weg gewesen waren. Nachdem sie im Jugendhostel angekommen waren, bezogen sie ihre Zimmer und erkundeten anschließend gemeinsam die Umgebung.\n\nAm zweiten Tag besuchten sie den Hafen und machten eine Bootstour durch die Speicherstadt. Trotz des regnerischen Wetters waren alle begeistert von den beeindruckenden Backsteingebäuden. Am Abend organisierte die Lehrerin einen Spieleabend, bei dem sich die Klasse besser kennenlernte. Einige Schüler, die sich vorher kaum unterhalten hatten, wurden während der Reise gute Freunde.\n\nAm letzten Tag besuchten sie noch das Miniatur Wunderland, bevor sie die Heimreise antraten. Nachdem sie müde, aber glücklich zu Hause ankamen, waren sich alle einig: Diese Klassenfahrt würden sie nie vergessen. Viele Schüler erzählten noch wochenlang von ihren Erlebnissen in Hamburg.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist eine Woche in Hamburg geblieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter während der Bootstour war sonnig und warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler haben in einem Hotel übernachtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Schüler sind während der Reise Freunde geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse hat das Miniatur Wunderland besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mara-und-elif-eine-freundschaft-ueber-grenzen-hinweg",
+    "nivel": "B1",
+    "titulo": "Mara und Elif: eine Freundschaft über Grenzen hinweg",
+    "descripcion": "Zwei beste Freundinnen bleiben trotz großer Distanz eng verbunden.",
+    "texto": "Mara und Elif kennen sich seit der Grundschule und waren jahrelang unzertrennlich. Nachdem Elif mit ihrer Familie nach Istanbul gezogen war, befürchteten beide, dass ihre Freundschaft darunter leiden würde. Trotzdem beschlossen sie, regelmäßig in Kontakt zu bleiben, egal wie groß die Entfernung war.\n\nSie schreiben sich fast täglich Nachrichten und telefonieren jedes Wochenende per Video. Obwohl sich ihr Alltag sehr unterscheidet, finden sie immer Themen, über die sie stundenlang reden können. Einmal im Jahr versuchen sie außerdem, sich persönlich zu treffen, entweder in Deutschland oder in der Türkei. Diese Besuche sind für beide die schönsten Momente des Jahres.\n\nNachdem nun fünf Jahre vergangen sind, ist ihre Freundschaft stärker als je zuvor. Mara sagt oft, dass die Entfernung ihre Beziehung sogar vertieft hat, weil sie lernen mussten, Zeit füreinander bewusst zu schätzen. Beide sind überzeugt, dass echte Freundschaft keine geografischen Grenzen kennt.",
+    "preguntas": [
+      {
+        "enunciado": "Mara und Elif kennen sich erst seit Kurzem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elif ist mit ihrer Familie nach Istanbul gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen haben jeden Kontakt abgebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie treffen sich einmal im Jahr persönlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mara findet, dass die Entfernung ihre Freundschaft geschwächt hat.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "innenstaedte-zwischen-leerstand-und-neuanfang",
+    "nivel": "B2",
+    "titulo": "Innenstädte zwischen Leerstand und Neuanfang",
+    "descripcion": "Ein Essay über den Wandel deutscher Innenstädte durch Online-Handel und Leerstand.",
+    "texto": "Seit Jahren klagen Einzelhändler in deutschen Innenstädten über sinkende Umsätze und zunehmenden Leerstand. Während früher Fußgängerzonen von kleinen Fachgeschäften geprägt waren, dominieren heute vielerorts Filialketten, Dönerbuden und leerstehende Schaufenster das Stadtbild. Diese Entwicklung wird häufig auf den boomenden Online-Handel zurückgeführt, der es Verbrauchern ermöglicht, bequem von zu Hause aus einzukaufen, ohne dabei auf Beratung oder Erlebnis verzichten zu müssen.\n\nStadtplaner und Wirtschaftsexperten sind sich jedoch einig, dass der Online-Handel nicht allein für den Niedergang der Innenstädte verantwortlich gemacht werden kann. Vielmehr spielen auch steigende Mieten, mangelnde Parkmöglichkeiten und ein unattraktives öffentliches Umfeld eine entscheidende Rolle. Es wird daher zunehmend gefordert, dass Innenstädte neu gedacht werden müssten – weg von reinen Konsumorten, hin zu Räumen, in denen Wohnen, Arbeiten, Kultur und Freizeit miteinander verbunden werden.\n\nEinige Städte haben bereits begonnen, leerstehende Geschäfte in Kulturzentren, Coworking-Spaces oder Wohnraum umzuwandeln. Kritiker bemängeln allerdings, dass solche Maßnahmen oft zu langsam umgesetzt würden und dass es an einer langfristigen, koordinierten Stadtentwicklungsstrategie mangele. Ob es gelingt, die Innenstädte auf diese Weise wiederzubeleben, wird sich erst in den kommenden Jahren zeigen. Fest steht jedoch, dass ein bloßes Festhalten am traditionellen Einzelhandelsmodell langfristig keine tragfähige Lösung darstellt.",
+    "preguntas": [
+      {
+        "enunciado": "Der Leerstand in Innenstädten wird ausschließlich dem Online-Handel zugeschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Steigende Mieten werden als Mitursache für den Niedergang genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Einige Städte wandeln leerstehende Geschäfte in Coworking-Spaces um.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sind der Meinung, dass die Maßnahmen zu schnell umgesetzt werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, am traditionellen Einzelhandelsmodell festzuhalten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "vier-tage-woche-als-arbeitsmodell",
+    "nivel": "B2",
+    "titulo": "Vier-Tage-Woche als Arbeitsmodell",
+    "descripcion": "Eine Diskussion über Vor- und Nachteile der Vier-Tage-Woche in Unternehmen.",
+    "texto": "In den letzten Jahren hat die Vier-Tage-Woche als Arbeitszeitmodell zunehmend an Popularität gewonnen. Immer mehr Unternehmen testen, ob sich die Arbeitszeit bei vollem Lohnausgleich auf vier Tage verkürzen lässt, ohne dass die Produktivität darunter leidet. Befürworter argumentieren, dass Beschäftigte konzentrierter arbeiten würden, wenn sie wüssten, dass ihnen ein zusätzlicher freier Tag zur Erholung zur Verfügung steht.\n\nZahlreiche Pilotprojekte, insbesondere in Großbritannien und Island, haben gezeigt, dass die Produktivität in vielen Fällen sogar gestiegen ist, während Krankheitstage und Fluktuation zurückgegangen sind. Dennoch wäre es verfehlt, die Vier-Tage-Woche als universelle Lösung zu betrachten. Kritiker weisen darauf hin, dass sich das Modell nicht ohne Weiteres auf Branchen mit Personalmangel, etwa im Gesundheits- oder Pflegebereich, übertragen lasse, da dort schlicht nicht genügend Fachkräfte zur Verfügung stünden, um die Arbeit auf weniger Tage zu verteilen.\n\nWürde die Vier-Tage-Woche flächendeckend eingeführt, müssten viele Unternehmen ihre Arbeitsprozesse grundlegend überdenken und stärker auf Effizienz setzen. Befürworter sehen darin jedoch eine Chance, verkrustete Strukturen aufzubrechen und die Vereinbarkeit von Beruf und Privatleben nachhaltig zu verbessern. Ob sich das Modell langfristig durchsetzt, hängt letztlich davon ab, ob es gelingt, wirtschaftliche Effizienz und das Wohlbefinden der Beschäftigten in Einklang zu bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Bei der Vier-Tage-Woche wird üblicherweise auch der Lohn um ein Viertel gekürzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In manchen Pilotprojekten ist die Produktivität gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Modell passe für alle Branchen gleichermaßen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Pflegebereich wird die Einführung durch Personalmangel erschwert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Befürwortern könnte das Modell die Vereinbarkeit von Beruf und Privatleben verbessern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sollte-medienkompetenz-ein-schulfach-werden",
+    "nivel": "B2",
+    "titulo": "Sollte Medienkompetenz ein Schulfach werden?",
+    "descripcion": "Ein Beitrag zur Debatte, ob Schulen stärker auf digitale Medienkompetenz setzen sollten.",
+    "texto": "Angesichts der rasant fortschreitenden Digitalisierung wird immer häufiger gefordert, dass Medienkompetenz als eigenständiges Unterrichtsfach in deutschen Schulen etabliert werden sollte. Befürworter dieser Forderung argumentieren, dass Kinder und Jugendliche heutzutage täglich mit einer Flut von Informationen konfrontiert würden, ohne gelernt zu haben, diese kritisch zu bewerten. Gerade im Zeitalter von Desinformation und manipulierten Inhalten sei es entscheidend, dass junge Menschen lernten, Quellen zu hinterfragen und Falschinformationen zu erkennen.\n\nGegner eines eigenen Unterrichtsfachs wenden hingegen ein, dass die Lehrpläne bereits überfrachtet seien und Medienkompetenz stattdessen fächerübergreifend vermittelt werden könnte. Zudem fehle es vielen Schulen schlicht an der notwendigen technischen Ausstattung sowie an Lehrkräften, die entsprechend fortgebildet worden seien. Selbst wenn ein neues Fach eingeführt würde, stellte sich die Frage, wer es unterrichten sollte, wenn die Lehrerausbildung diesen Bereich bislang kaum berücksichtigt.\n\nUnabhängig davon, wie die Debatte letztlich ausgeht, scheint Einigkeit darüber zu bestehen, dass Schulen ihrer Verantwortung in diesem Bereich bisher nicht ausreichend gerecht geworden sind. Würde man Medienkompetenz konsequent und systematisch in den Schulalltag integrieren, könnte dies langfristig dazu beitragen, eine Generation heranzubilden, die digitalen Herausforderungen selbstbewusster begegnet. Entscheidend wird sein, ob Politik und Bildungsinstitutionen bereit sind, die dafür notwendigen Ressourcen bereitzustellen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Experten sind sich einig, dass Medienkompetenz kein wichtiges Thema ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in Desinformation einen Grund für mehr Medienkompetenz in der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner eines eigenen Fachs verweisen auf bereits überfüllte Lehrpläne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, alle Schulen seien bereits technisch optimal ausgestattet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht die Schulen bislang als ihrer Verantwortung in diesem Bereich gerecht geworden an.",
+        "respuesta": false
+      }
+    ]
   }
 ]
