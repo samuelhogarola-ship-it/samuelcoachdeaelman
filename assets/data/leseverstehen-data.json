@@ -53714,5 +53714,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "tims-erster-schultag-im-herbst",
+    "nivel": "A1",
+    "titulo": "Tims erster Schultag",
+    "descripcion": "Tim geht zum ersten Mal in die Schule und lernt neue Freunde kennen.",
+    "texto": "Tim ist sechs Jahre alt. Heute ist sein erster Schultag. Er trägt einen neuen Schulranzen. Der Ranzen ist blau und grün. Tims Mutter bringt ihn zur Schule. Sie hält seine Hand. Tim ist ein bisschen nervös.\n\nIn der Klasse sitzen viele Kinder. Die Lehrerin heißt Frau Klein. Sie lächelt und sagt: „Willkommen in der Schule!\" Tim setzt sich neben ein Mädchen. Das Mädchen heißt Mia. Mia zeigt Tim ihre Bücher. Die beiden Kinder sprechen über ihre Haustiere.\n\nNach der Schule holt die Mutter Tim ab. Tim erzählt von seinem Tag. Er sagt: „Die Schule ist schön!\" Mia und Tim wollen morgen wieder zusammen spielen. Tim freut sich auf den nächsten Schultag.",
+    "preguntas": [
+      {
+        "enunciado": "Tim trägt einen blauen und grünen Schulranzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tims Lehrerin heißt Frau Klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim ist sieben Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia zeigt Tim ihre Bücher.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim findet die Schule nicht schön.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-blaue-katze-von-nebenan",
+    "nivel": "A1",
+    "titulo": "Die Katze mit den blauen Augen",
+    "descripcion": "Nina mag die Katze der Nachbarn und spielt oft mit ihr.",
+    "texto": "Nina wohnt in einem großen Haus. Ihre Nachbarn haben eine Katze. Die Katze heißt Luna. Luna hat blaue Augen und weißes Fell. Nina mag Luna sehr. Jeden Tag spielt sie mit der Katze im Garten.\n\nLuna schläft oft auf der Fensterbank. Sie trinkt gern Milch. Nina bringt Luna manchmal ein bisschen Futter. Die Nachbarin, Frau Sommer, freut sich über Ninas Besuche. Sie sagt: „Luna mag dich sehr gern!\"\n\nAm Wochenende spielt Nina wieder mit Luna. Sie wirft einen kleinen Ball, und Luna läuft schnell hinterher. Nina lacht viel. Am Abend geht Nina müde, aber glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Luna hat blaue Augen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina mag die Katze nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Luna trinkt gern Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Sommer ist Ninas Nachbarin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina spielt am Wochenende mit Luna.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mittagessen-bei-familie-weber",
+    "nivel": "A1",
+    "titulo": "Mittagessen bei Familie Weber",
+    "descripcion": "Die Familie Weber isst zusammen zu Mittag und spricht über den Tag.",
+    "texto": "Es ist Sonntag. Die Familie Weber sitzt am Tisch. Es gibt Suppe und Brot. Der Vater kocht gern. Die Mutter deckt den Tisch. Die Kinder, Paul und Emma, helfen in der Küche.\n\nPaul mag die Suppe sehr. Emma isst lieber Brot mit Käse. Die Mutter fragt: „Wie war euer Tag?\" Paul erzählt von der Schule. Emma spricht über ihre Freundin. Die Familie lacht viel beim Essen.\n\nNach dem Essen räumen alle zusammen auf. Paul wäscht das Geschirr. Emma trocknet die Teller ab. Der Vater macht Kaffee für die Mutter. Die Familie ist zufrieden und geht in den Garten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie isst Suppe und Brot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma mag die Suppe mehr als Paul.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul erzählt von der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Essen schläft die Familie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul wäscht das Geschirr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-telefonanruf-mit-tante-rosi",
+    "nivel": "A2",
+    "titulo": "Ein Telefonanruf mit Tante Rosi",
+    "descripcion": "Julia hat ihre Tante angerufen, weil sie Neuigkeiten erzählen wollte.",
+    "texto": "Julia hat gestern Abend ihre Tante Rosi angerufen. Sie hat lange nicht mit ihr gesprochen, weil beide sehr beschäftigt waren. Tante Rosi hat sich sehr gefreut, als sie Julias Stimme gehört hat. Sie hat sofort gefragt, wie es Julia geht.\n\nJulia hat erzählt, dass sie eine neue Stelle in einem Büro gefunden hat. Sie hat auch gesagt, dass sie bald umziehen möchte, weil ihre alte Wohnung zu klein geworden ist. Tante Rosi hat ihr viele Tipps gegeben, weil sie selbst oft umgezogen ist. „Wenn du Hilfe brauchst, rufst du mich einfach an\", hat sie gesagt.\n\nAm Ende des Gesprächs haben die beiden vereinbart, sich im Sommer zu treffen. Julia hat sich sehr gefreut, dass ihre Tante sie besuchen will. Sie hat versprochen, bald wieder anzurufen, wenn sie mehr Neuigkeiten hat.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat ihre Tante Rosi angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat schon eine neue Wohnung gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Rosi ist oft umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden wollen sich nie wieder treffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat eine neue Stelle in einem Büro gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradreparatur-am-samstag",
+    "nivel": "A2",
+    "titulo": "Die Fahrradreparatur am Samstag",
+    "descripcion": "Ben hat am Samstag sein Fahrrad repariert, weil es kaputt war.",
+    "texto": "Am Samstagmorgen hat Ben sein Fahrrad aus der Garage geholt. Das Fahrrad war kaputt, weil die Kette gerissen war. Ben hat seinen Nachbarn Jonas um Hilfe gebeten, weil Jonas sich gut mit Fahrrädern auskennt.\n\nJonas ist gekommen und hat sein Werkzeug mitgebracht. Zusammen haben sie die alte Kette entfernt und eine neue eingebaut. Es hat fast zwei Stunden gedauert, weil einige Schrauben sehr fest saßen. Als sie fertig waren, hat Ben eine kurze Proberunde gefahren.\n\nDas Fahrrad hat wieder gut funktioniert. Ben hat sich bei Jonas bedankt und ihn zum Essen eingeladen, weil er so dankbar war. Die beiden haben zusammen gegessen und über die nächste Fahrradtour gesprochen, die sie im Sommer machen wollen.",
+    "preguntas": [
+      {
+        "enunciado": "Bens Fahrrad war kaputt, weil die Kette gerissen war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hat die Reparatur ganz allein gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Reparatur hat nur zehn Minuten gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben hat Jonas zum Essen eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden wollen im Sommer eine Fahrradtour machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-rote-koffer-am-bahnhof",
+    "nivel": "A2",
+    "titulo": "Der rote Koffer am Bahnhof",
+    "descripcion": "Sophie hat am Bahnhof einen fremden Koffer gefunden und die Polizei gerufen.",
+    "texto": "Sophie ist am Montagmorgen zum Bahnhof gefahren, weil sie einen Zug nach München nehmen wollte. Auf dem Bahnsteig hat sie einen roten Koffer gesehen. Niemand war in der Nähe, und der Koffer stand einfach da.\n\nSophie hat zehn Minuten gewartet, weil sie dachte, dass jemand zurückkommt. Niemand ist gekommen. Deshalb hat sie einen Bahnmitarbeiter informiert. Der Mitarbeiter hat gesagt, dass sie die Polizei rufen müssen, wenn ein Gepäckstück allein steht.\n\nDie Polizei ist schnell gekommen und hat den Koffer überprüft. Es war nur ein vergessenes Gepäckstück ohne Gefahr. Der Besitzer hat sich später gemeldet, nachdem er gemerkt hatte, dass der Koffer fehlte. Sophie hat ihren Zug trotzdem noch erreicht.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie wollte nach München fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat den Koffer sofort mitgenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Polizei hat den Koffer überprüft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Koffer war gefährlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat ihren Zug verpasst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-austauschschueler-aus-finnland",
+    "nivel": "B1",
+    "titulo": "Der Austauschschüler aus Finnland",
+    "descripcion": "Mikko kommt als Austauschschüler aus Finnland und findet schnell neue Freunde.",
+    "texto": "Seit zwei Wochen lebt Mikko bei einer Gastfamilie in Deutschland. Er ist Austauschschüler aus Finnland und besucht für ein halbes Jahr eine deutsche Schule. Obwohl er am Anfang kaum Deutsch sprechen konnte, hat er sich schnell in der Klasse eingelebt. Seine Mitschüler haben ihm geholfen, die neue Sprache zu lernen.\n\nNachdem Mikko die ersten Hürden überwunden hatte, hat er begonnen, regelmäßig mit seinem Sitznachbarn Tobias zu lernen. Die beiden sind inzwischen gute Freunde geworden, obwohl sie aus völlig verschiedenen Ländern kommen. Trotzdem vermisst Mikko manchmal seine Familie und seine Freunde in Helsinki. Er schreibt ihnen oft lange Nachrichten.\n\nAm Wochenende hat die Klasse einen Ausflug in die Berge gemacht. Mikko hat dort viel über die deutsche Kultur gelernt und auch seinen Mitschülern von Finnland erzählt. Nachdem der Ausflug vorbei war, war sich Mikko sicher, dass er die Zeit in Deutschland nie vergessen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Mikko kommt aus Finnland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mikko konnte von Anfang an perfekt Deutsch sprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias und Mikko sind Freunde geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mikko vermisst seine Familie nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat einen Ausflug in die Berge gemacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-praktikum-in-der-druckerei",
+    "nivel": "B1",
+    "titulo": "Das Praktikum in der Druckerei",
+    "descripcion": "Jonas macht ein Praktikum in einer Druckerei und lernt viel über den Beruf.",
+    "texto": "Jonas absolviert seit einer Woche ein Praktikum in einer Druckerei in seiner Stadt. Obwohl er vorher keine Erfahrung mit Druckmaschinen hatte, zeigt ihm sein Chef jeden Tag etwas Neues. Die Arbeit ist anstrengender, als Jonas gedacht hatte, aber sie macht ihm trotzdem Spaß.\n\nNachdem Jonas gelernt hatte, wie die großen Maschinen funktionieren, durfte er selbst kleine Aufträge bearbeiten. Er war sehr stolz, als sein erstes gedrucktes Plakat fertig war. Seine Kollegen haben ihn gelobt, obwohl kleine Fehler passiert sind. „Jeder fängt mal klein an\", hat sein Chef gesagt.\n\nAm Ende des Praktikums hat Jonas eine kleine Präsentation über seine Erfahrungen gehalten. Er hat berichtet, dass er viel über Teamarbeit und Genauigkeit gelernt hat. Obwohl das Praktikum nur vier Wochen dauerte, überlegt Jonas jetzt, eine Ausbildung in diesem Bereich zu beginnen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte vorher viel Erfahrung mit Druckmaschinen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas durfte später kleine Aufträge selbst bearbeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat Jonas bei der Arbeit gelobt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Praktikum hat vier Wochen gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas möchte auf keinen Fall eine Ausbildung in diesem Bereich machen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "streit-um-die-fernbedienung",
+    "nivel": "B1",
+    "titulo": "Streit um die Fernbedienung",
+    "descripcion": "Zwei Mitbewohner streiten sich über das Fernsehprogramm und finden eine Lösung.",
+    "texto": "Lukas und Finn teilen sich seit einem Jahr eine Wohnung. Meistens verstehen sie sich gut, obwohl sie sehr unterschiedliche Interessen haben. An diesem Abend kommt es jedoch zu einem Streit, weil beide ein anderes Programm sehen wollen. Lukas möchte ein Fußballspiel sehen, während Finn lieber einen Film schauen will.\n\nNachdem die Diskussion immer lauter geworden war, hat Finn vorgeschlagen, eine Lösung zu finden. Trotzdem waren beide zuerst stur und wollten nicht nachgeben. Erst als Lukas vorschlug, das Fußballspiel im Wohnzimmer und den Film später im Schlafzimmer zu schauen, waren beide einverstanden.\n\nAm Ende des Abends haben sie beide bekommen, was sie wollten. Obwohl der Streit am Anfang ernst wirkte, haben sie am Ende zusammen gelacht. Seitdem haben sie einen Plan gemacht, wer an welchem Abend das Fernsehprogramm bestimmen darf.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas und Finn sind Mitbewohner.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Streit ging um das Fernsehprogramm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn wollte unbedingt das Fußballspiel sehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende hat keiner von beiden bekommen, was er wollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden haben einen Plan für zukünftige Abende gemacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-buergerinitiative-gegen-den-fluglaerm",
+    "nivel": "B2",
+    "titulo": "Die Bürgerinitiative gegen den Fluglärm",
+    "descripcion": "Anwohner in der Nähe eines Flughafens setzen sich gegen den zunehmenden Fluglärm ein.",
+    "texto": "In einer Kleinstadt in der Nähe eines großen Flughafens hat sich vor einigen Monaten eine Bürgerinitiative gegründet, die sich gegen den zunehmenden Fluglärm wehrt. Die seit Jahren steigende Zahl der Nachtflüge, die viele Anwohner um ihren Schlaf bringt, wird von der Initiative als nicht länger hinnehmbar beschrieben. Mehrere Hundert Unterschriften wurden bereits gesammelt, um eine Petition an die Stadtverwaltung zu übergeben.\n\nDie Organisatoren betonen, dass sie keineswegs gegen den Flughafen an sich seien, sondern lediglich eine gerechtere Verteilung der Belastung fordern würden. Wenn striktere Nachtflugverbote eingeführt würden, könnte die Lebensqualität vieler Familien deutlich verbessert werden. Die Fluggesellschaften argumentieren hingegen, dass wirtschaftliche Nachteile entstünden, wenn die Flugzeiten weiter eingeschränkt würden.\n\nEin öffentliches Gespräch zwischen Vertretern der Initiative, der Stadt und des Flughafens wurde für den kommenden Monat angesetzt. Beobachter sind sich uneinig, ob dabei ein echter Kompromiss erzielt werden kann. Sollte keine Einigung gefunden werden, hat die Initiative bereits angekündigt, weitere Proteste zu organisieren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Bürgerinitiative wehrt sich gegen den Fluglärm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Initiative fordert die vollständige Schließung des Flughafens.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wurden Unterschriften für eine Petition gesammelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fluggesellschaften befürworten strikte Nachtflugverbote ohne Bedenken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Gespräch zwischen den Parteien wurde für den kommenden Monat angesetzt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "algorithmen-in-der-partnersuche",
+    "nivel": "B2",
+    "titulo": "Algorithmen in der Partnersuche",
+    "descripcion": "Dating-Apps nutzen Algorithmen, um passende Partner vorzuschlagen – eine kritische Betrachtung.",
+    "texto": "Immer mehr Menschen lernen ihre Partner nicht mehr zufällig im Alltag kennen, sondern über Dating-Apps, deren Vorschläge von komplexen Algorithmen gesteuert werden. Diese Programme werten eine Vielzahl persönlicher Daten aus, um möglichst passende Profile anzuzeigen. Kritiker bemängeln jedoch, dass dadurch bestimmte Vorlieben verstärkt und andere potenzielle Partner systematisch ausgeblendet würden.\n\nBefürworter argumentieren, dass ohne solche Algorithmen die Partnersuche in der heutigen Zeit deutlich schwieriger wäre, da die Zahl der Nutzer kaum manuell überschaubar sei. Wenn die Algorithmen jedoch ausschließlich nach oberflächlichen Kriterien wie Aussehen oder Einkommen sortieren würden, bliebe die eigentliche Persönlichkeit eines Menschen unberücksichtigt. Manche Experten fordern deshalb, dass die Funktionsweise dieser Systeme transparenter gemacht werden sollte.\n\nSoziologen weisen zudem darauf hin, dass sich durch die ständige Verfügbarkeit neuer Vorschläge das Verhalten vieler Nutzer verändert habe. Anstatt sich auf eine Person einzulassen, würde häufig weitergesucht, als könnte stets noch eine bessere Option gefunden werden. Ob diese Entwicklung langfristig zu mehr oder weniger Zufriedenheit in Beziehungen führt, wird kontrovers diskutiert.",
+    "preguntas": [
+      {
+        "enunciado": "Dating-Apps nutzen Algorithmen, um Partnervorschläge zu machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind von den Algorithmen vollkommen überzeugt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten fordern mehr Transparenz bei den Algorithmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Soziologen stellen fest, dass sich das Nutzerverhalten verändert hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es besteht allgemeiner Konsens darüber, dass Dating-Apps die Zufriedenheit erhöhen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-viertagewoche-feldversuch",
+    "nivel": "B2",
+    "titulo": "Der Feldversuch zur Viertagewoche",
+    "descripcion": "Ein Unternehmen testet die Viertagewoche und zieht nach einem Jahr Bilanz.",
+    "texto": "Vor einem Jahr hat ein mittelständisches Unternehmen begonnen, die Viertagewoche bei vollem Lohnausgleich zu testen. Die Mitarbeiter, deren Arbeitszeit von fünf auf vier Tage reduziert wurde, sollten die gleiche Menge Arbeit in kürzerer Zeit erledigen. Die Geschäftsführung wollte herausfinden, ob sich dadurch die Produktivität und die Zufriedenheit der Belegschaft verbessern ließen.\n\nNach Ablauf des Feldversuchs zeigt die Auswertung ein überwiegend positives Bild. Viele Mitarbeiter berichten, dass sie sich erholter fühlten und ihre Arbeit konzentrierter erledigen könnten, wenn ihnen ein zusätzlicher freier Tag zur Verfügung stehe. Gleichzeitig geben einige Führungskräfte zu bedenken, dass die Umstellung ohne eine Reorganisation der Arbeitsabläufe kaum gelungen wäre.\n\nOb das Modell dauerhaft eingeführt wird, soll in den kommenden Monaten entschieden werden. Sollten sich die positiven Effekte bestätigen, könnte die Viertagewoche auch in anderen Abteilungen eingeführt werden. Kritiker merken jedoch an, dass ein solches Modell nicht in jeder Branche gleich gut umgesetzt werden könnte.",
+    "preguntas": [
+      {
+        "enunciado": "Das Unternehmen hat die Viertagewoche bei vollem Lohnausgleich getestet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mitarbeiter mussten für weniger Geld arbeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Auswertung zeigt ein überwiegend positives Bild.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Führungskräfte sind uneingeschränkt begeistert, ohne jede Einschränkung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker meinen, das Modell passe in jede Branche gleich gut.",
+        "respuesta": false
+      }
+    ]
   }
 ]
