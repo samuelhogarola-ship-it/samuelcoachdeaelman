@@ -54410,5 +54410,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-terminkalender",
+    "nivel": "A1",
+    "titulo": "Mein Terminkalender",
+    "descripcion": "Laura erzählt von ihren Terminen in der Woche.",
+    "texto": "Ich heiße Laura und ich habe einen Terminkalender. In meinem Terminkalender stehen alle meine Termine für die Woche. Am Montag habe ich einen Termin beim Friseur. Am Mittwoch gehe ich zum Deutschkurs. Der Kurs beginnt um 18 Uhr und dauert zwei Stunden.\n\nAm Freitag habe ich keine Termine. Das ist mein freier Tag. Ich treffe meine Freundin Nina im Park. Wir trinken einen Kaffee und reden über die Woche. Am Samstag schreibe ich die neuen Termine für die nächste Woche in meinen Kalender.\n\nMein Kalender ist klein und rot. Ich trage ihn immer in meiner Tasche. Ohne meinen Kalender vergesse ich oft meine Termine. Deshalb ist er sehr wichtig für mich.",
+    "preguntas": [
+      {
+        "enunciado": "Laura hat am Montag einen Termin beim Friseur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Deutschkurs dauert nur eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Freitag trifft Laura ihre Freundin Nina.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lauras Kalender ist groß und blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura vergisst nie ihre Termine.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "farben-in-meinem-zimmer",
+    "nivel": "A1",
+    "titulo": "Farben in meinem Zimmer",
+    "descripcion": "Mia beschreibt die Farben in ihrem Zimmer.",
+    "texto": "Mia hat ein Zimmer mit vielen Farben. Die Wände sind hellblau und das Fenster ist weiß. Ihr Bett steht neben dem Fenster und die Bettdecke ist gelb. Auf dem Boden liegt ein grüner Teppich.\n\nMia hat auch einen Schreibtisch in ihrem Zimmer. Der Schreibtisch ist braun und der Stuhl ist orange. An der Wand hängt ein Poster mit vielen bunten Blumen. Ihre Lampe ist rot und steht auf dem Schreibtisch.\n\nMia mag ihr Zimmer sehr. Die Farben machen sie glücklich. Jeden Abend liest sie ein Buch in ihrem Bett, bevor sie schläft.",
+    "preguntas": [
+      {
+        "enunciado": "Mias Wände sind hellblau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bettdecke ist schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Teppich im Zimmer ist grün.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schreibtisch ist weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia liest jeden Abend ein Buch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-uhrzeit-lernen",
+    "nivel": "A1",
+    "titulo": "Die Uhrzeit lernen",
+    "descripcion": "Tom lernt in der Schule, die Uhrzeit zu lesen.",
+    "texto": "Tom geht in die zweite Klasse. Heute lernt er die Uhrzeit. Seine Lehrerin zeigt eine große Uhr an der Wand. Der große Zeiger zeigt die Minuten und der kleine Zeiger zeigt die Stunden.\n\nTom übt mit einer Spielzeuguhr. Er stellt die Zeiger auf sieben Uhr. Das ist die Zeit, wenn er aufsteht. Dann stellt er die Zeiger auf zwölf Uhr. Das ist die Zeit, wenn er Mittagessen isst. Seine Freundin Lea hilft ihm und fragt: „Wie viel Uhr ist es jetzt?\"\n\nAm Ende der Stunde kann Tom die Uhrzeit gut lesen. Er ist sehr stolz. Zu Hause zeigt er seiner Mutter, wie die Uhr funktioniert. Seine Mutter freut sich und lobt ihn.",
+    "preguntas": [
+      {
+        "enunciado": "Tom lernt heute die Uhrzeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der kleine Zeiger zeigt die Minuten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst um zwölf Uhr Mittagessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea hilft Tom beim Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom kann am Ende der Stunde die Uhrzeit nicht lesen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-missgeschick-im-aufzug",
+    "nivel": "A2",
+    "titulo": "Das Missgeschick im Aufzug",
+    "descripcion": "Markus bleibt im Aufzug stecken, als er zu einem wichtigen Termin will.",
+    "texto": "Gestern ist Markus etwas Peinliches passiert. Er wollte mit dem Aufzug in den fünften Stock fahren, weil er zu einem wichtigen Termin musste. Als er den Knopf gedrückt hat, ist der Aufzug plötzlich stehen geblieben. Markus hat sich erschrocken, weil er dachte, dass er stecken bleiben würde.\n\nEr hat sofort den Notrufknopf gedrückt und auf Hilfe gewartet. Nach ein paar Minuten hat ihn eine freundliche Stimme durch den Lautsprecher beruhigt. „Keine Sorge, wir holen Sie gleich heraus\", hat die Stimme gesagt. Markus hat tief durchgeatmet und versucht, ruhig zu bleiben, obwohl er sehr nervös war.\n\nNach zwanzig Minuten haben die Techniker den Aufzug endlich reparieren können. Markus ist erleichtert ausgestiegen und zu seinem Termin gelaufen, obwohl er schon sehr spät war. Am Abend hat er seinen Freunden lachend von dem Missgeschick erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Markus wollte in den fünften Stock fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Aufzug ist ohne Probleme gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat den Notrufknopf gedrückt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Techniker haben den Aufzug sofort repariert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus kam pünktlich zu seinem Termin.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-stau-auf-der-autobahn",
+    "nivel": "A2",
+    "titulo": "Der Stau auf der Autobahn",
+    "descripcion": "Julias Familie steht auf dem Weg in den Urlaub lange im Stau.",
+    "texto": "Letzten Sonntag sind Julia und ihre Familie in den Urlaub gefahren. Sie wollten an die Ostsee fahren, weil sie dort ein kleines Ferienhaus gemietet hatten. Schon nach einer Stunde Fahrt sind sie in einen langen Stau geraten. Auf der Autobahn standen die Autos fast eine Stunde lang still.\n\nJulias Vater hat im Radio gehört, dass es einen Unfall gegeben hatte. Deshalb hat die Polizei eine Spur der Autobahn gesperrt. Julias kleiner Bruder hat sich im Auto gelangweilt und immer wieder gefragt, wann sie endlich ankommen würden. Die Mutter hat Kekse verteilt, damit alle ruhiger wurden.\n\nNach fast drei Stunden im Stau sind sie endlich weitergefahren. Obwohl die Fahrt viel länger gedauert hat als geplant, waren alle froh, als sie abends am Meer ankamen. Julia hat sofort ihre Füße ins kalte Wasser gesteckt und den langen Stau vergessen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist an die Nordsee gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab einen Unfall auf der Autobahn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Stau hat nur zehn Minuten gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julias kleiner Bruder hat sich im Auto gelangweilt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia war froh, als sie am Meer ankam.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-kaputte-heizung-im-winter",
+    "nivel": "A2",
+    "titulo": "Die kaputte Heizung im Winter",
+    "descripcion": "Sarahs Heizung geht an einem kalten Wintertag kaputt.",
+    "texto": "Es war ein sehr kalter Tag im Januar, als die Heizung in Sarahs Wohnung plötzlich kaputt ging. Sie hat sofort ihren Vermieter angerufen, weil die Wohnung schnell sehr kalt wurde. Der Vermieter hat gesagt, dass ein Techniker erst am nächsten Tag kommen könnte.\n\nSarah hat dicke Pullover angezogen und sich eine warme Decke genommen, damit sie den Abend nicht frieren musste. Ihre Nachbarin Frau Berger hat das gehört und ihr einen kleinen Heizlüfter geliehen. „Du kannst ihn so lange benutzen, bis die Heizung wieder funktioniert\", hat Frau Berger gesagt.\n\nAm nächsten Morgen ist der Techniker gekommen und hat das Problem schnell gefunden. Ein kleines Teil der Heizung war defekt. Nachdem der Techniker das Teil ausgetauscht hatte, wurde die Wohnung wieder warm. Sarah war ihrer Nachbarin sehr dankbar für die Hilfe.",
+    "preguntas": [
+      {
+        "enunciado": "Die Heizung ist im Sommer kaputt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Techniker ist noch am selben Tag gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat Sarah einen Heizlüfter geliehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein defektes Teil war das Problem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah war ihrer Nachbarin nicht dankbar.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-bewerbungsgespraech",
+    "nivel": "B1",
+    "titulo": "Das Bewerbungsgespräch",
+    "descripcion": "Felix bereitet sich auf ein wichtiges Bewerbungsgespräch vor und bekommt die Stelle.",
+    "texto": "Nachdem Felix monatelang erfolglos nach einem Job gesucht hatte, bekam er endlich eine Einladung zu einem Bewerbungsgespräch bei einer großen Softwarefirma. Obwohl er sich seit Tagen intensiv vorbereitet hatte, war er am Morgen des Gesprächs furchtbar nervös. Er zog seinen besten Anzug an und fuhr eine Stunde früher los, um auf keinen Fall zu spät zu kommen.\n\nIm Büro wurde er von einer freundlichen Personalerin empfangen, die ihm sofort einen Kaffee anbot. Trotzdem konnte Felix seine Nervosität zunächst kaum verbergen. Während des Gesprächs stellte ihm die Personalerin viele Fragen zu seiner bisherigen Erfahrung und zu seinen Stärken. Je länger das Gespräch dauerte, desto sicherer fühlte sich Felix, und am Ende konnte er sogar über einen kleinen Versprecher lachen.\n\nZwei Tage später rief die Firma an und teilte ihm mit, dass er die Stelle bekommen hätte. Felix konnte es kaum glauben, nachdem er sich schon auf eine Absage eingestellt hatte. Seine Familie freute sich riesig mit ihm, und er feierte den Erfolg noch am selben Abend mit seinen besten Freunden.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hatte lange erfolglos nach einem Job gesucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix war am Morgen des Gesprächs völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Personalerin hat Felix unfreundlich empfangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix fühlte sich im Laufe des Gesprächs sicherer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat die Stelle nicht bekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-ferienjob-im-freibad",
+    "nivel": "B1",
+    "titulo": "Ein Ferienjob im Freibad",
+    "descripcion": "Jana übernimmt im Sommer zum ersten Mal Verantwortung als Aufsicht im Freibad.",
+    "texto": "Letzten Sommer arbeitete Jana zum ersten Mal als Aufsicht im örtlichen Freibad. Obwohl sie vorher nervös war, ob sie der Verantwortung gerecht werden könnte, gewöhnte sie sich schnell an die neue Aufgabe. Jeden Morgen musste sie früh aufstehen, um das Becken zu kontrollieren, bevor die ersten Gäste kamen.\n\nAn heißen Tagen war das Freibad besonders voll, und Jana musste genau aufpassen, dass die Kinder im Wasser nicht zu wild spielten. Nachdem sie einmal ein kleines Kind beruhigen musste, das sich im tiefen Becken verschätzt hatte, fühlte sie sich noch verantwortungsbewusster. Ihre Kollegen lobten sie dafür, wie ruhig sie in dieser Situation geblieben war.\n\nTrotz der anstrengenden Arbeit genoss Jana ihren Sommerjob sehr, weil sie viele neue Leute kennenlernte und draußen in der Sonne arbeiten konnte. Am Ende des Sommers war sie stolz darauf, so viel Verantwortung übernommen zu haben, und überlegte, im nächsten Jahr wieder im Freibad zu arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Jana arbeitete zum ersten Mal im Freibad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana musste nie früh aufstehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Kind hatte sich im tiefen Becken verschätzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Janas Kollegen waren unzufrieden mit ihr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana möchte vielleicht im nächsten Jahr wieder dort arbeiten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-teilnahme-am-stadtfest",
+    "nivel": "B1",
+    "titulo": "Die Teilnahme am Stadtfest",
+    "descripcion": "Lukas und seine Freunde organisieren einen Limonadenstand für das Stadtfest in Freiburg.",
+    "texto": "Als die Stadt Freiburg ankündigte, dass in diesem Jahr wieder ein großes Stadtfest organisiert werden sollte, meldeten sich Lukas und seine Freunde freiwillig, um bei der Organisation zu helfen. Nachdem sie sich mit dem Organisationsteam getroffen hatten, bekamen sie die Aufgabe, einen Stand mit selbstgemachter Limonade aufzubauen.\n\nIn den Wochen vor dem Fest trafen sich die Freunde mehrmals, um Rezepte auszuprobieren und Werbung für ihren Stand zu machen. Obwohl die Vorbereitung viel Zeit kostete, hatten sie dabei auch sehr viel Spaß zusammen. Am Tag des Festes regnete es zunächst, trotzdem kamen am Nachmittag viele Besucher auf den Marktplatz.\n\nDer Limonadenstand wurde ein großer Erfolg, und die Freunde verkauften fast alle ihre Getränke. Nachdem das Fest zu Ende war, waren alle müde, aber glücklich über den gemeinsamen Erfolg. Lukas sagte, dass er im nächsten Jahr auf jeden Fall wieder mitmachen wolle.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas und seine Freunde haben einen Kuchenstand aufgebaut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Vorbereitung kostete viel Zeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Tag des Festes war von Anfang an schönes Wetter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Limonadenstand war erfolgreich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas möchte im nächsten Jahr nicht mehr mitmachen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "digitale-schulbildung-chancen-und-grenzen",
+    "nivel": "B2",
+    "titulo": "Digitale Schulbildung: Chancen und Grenzen",
+    "descripcion": "Eine Betrachtung der Chancen und Risiken digitaler Lernmittel im deutschen Schulsystem.",
+    "texto": "Die Digitalisierung des Schulunterrichts wird seit Jahren als eines der zentralen Zukunftsprojekte des deutschen Bildungssystems diskutiert. Befürworter argumentieren, dass digitale Lernmittel individuelleres Lernen ermöglichen würden, da Schülerinnen und Schüler in ihrem eigenen Tempo arbeiten könnten. Zudem könnten interaktive Programme den Unterricht abwechslungsreicher gestalten und die Motivation steigern, insbesondere bei jüngeren Lernenden.\n\nAllerdings zeigen zahlreiche Studien, dass die technische Ausstattung an vielen Schulen nach wie vor unzureichend ist. Während einige Schulen mit modernen Tablets und schnellem Internet ausgestattet sind, kämpfen andere noch mit veralteten Computern und instabilen Netzwerken. Diese Ungleichheit wird häufig als „digitale Kluft\" bezeichnet und betrifft vor allem Schulen in strukturschwachen Regionen, wodurch bestehende Bildungsungerechtigkeiten weiter verstärkt werden könnten.\n\nKritiker weisen zudem darauf hin, dass der übermäßige Einsatz von Bildschirmen im Unterricht negative Folgen für die Konzentrationsfähigkeit der Kinder haben könnte. Es wird gefordert, dass digitale Werkzeuge sinnvoll in ein pädagogisches Gesamtkonzept eingebettet werden müssten, anstatt den klassischen Unterricht vollständig zu ersetzen. Nur so, so betonen viele Experten, könne die Digitalisierung der Schulen tatsächlich zu besseren Lernergebnissen führen, ohne neue Probleme zu schaffen.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Digitalisierung sehen Vorteile für individuelles Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist die technische Ausstattung an allen Schulen gleich gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die digitale Kluft betrifft vor allem strukturschwache Regionen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keine Risiken im übermäßigen Bildschirmgebrauch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern, digitale Werkzeuge in ein pädagogisches Konzept einzubetten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-zwischen-wirtschaft-und-verantwortung",
+    "nivel": "B2",
+    "titulo": "Klimapolitik zwischen Wirtschaft und Verantwortung",
+    "descripcion": "Ein Blick auf den Konflikt zwischen wirtschaftlichen Interessen und gesellschaftlicher Verantwortung in der Klimapolitik.",
+    "texto": "Die Klimapolitik steht seit Jahren im Spannungsfeld zwischen wirtschaftlichen Interessen und der gesellschaftlichen Verantwortung gegenüber zukünftigen Generationen. Während Umweltverbände strengere Vorschriften für Industrie und Verkehr fordern, warnen Wirtschaftsvertreter regelmäßig davor, dass zu ambitionierte Klimaziele Arbeitsplätze gefährden und Unternehmen ins Ausland abwandern lassen könnten. Diese gegensätzlichen Positionen erschweren es der Politik, verbindliche und zugleich mehrheitsfähige Entscheidungen zu treffen.\n\nBesonders kontrovers wird die Frage diskutiert, wie stark der Staat in die Wirtschaft eingreifen sollte, um Klimaziele zu erreichen. Befürworter einer strengeren Regulierung argumentieren, dass freiwillige Maßnahmen der Industrie in der Vergangenheit kaum ausreichende Ergebnisse gebracht hätten. Gegner hingegen betonen, dass marktwirtschaftliche Anreize, etwa durch Förderprogramme, nachhaltiger wirken könnten als starre Verbote und Auflagen.\n\nUnabhängig von der gewählten Strategie wird jedoch deutlich, dass eine wirksame Klimapolitik nicht ohne gesellschaftliche Akzeptanz gelingen kann. Sollten Maßnahmen als ungerecht wahrgenommen werden, etwa weil sie einkommensschwächere Haushalte überproportional belasten, drohe der politische Rückhalt zu schwinden. Daher fordern viele Experten, dass soziale Ausgleichsmechanismen von Anfang an in jede klimapolitische Entscheidung integriert werden müssten.",
+    "preguntas": [
+      {
+        "enunciado": "Umweltverbände fordern strengere Vorschriften für Industrie und Verkehr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wirtschaftsvertreter befürchten negative Folgen für Arbeitsplätze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass nur Verbote wirksam sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text spielt gesellschaftliche Akzeptanz keine Rolle für die Klimapolitik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern soziale Ausgleichsmechanismen in der Klimapolitik.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "elektromobilitaet-und-ladeinfrastruktur",
+    "nivel": "B2",
+    "titulo": "Elektromobilität und der Ausbau der Ladeinfrastruktur",
+    "descripcion": "Eine Analyse der Herausforderungen beim Ausbau der Ladeinfrastruktur für Elektrofahrzeuge in Deutschland.",
+    "texto": "Der Umstieg auf Elektrofahrzeuge gilt als einer der wichtigsten Bausteine der Verkehrswende, doch der Ausbau der notwendigen Ladeinfrastruktur hinkt in vielen Regionen Deutschlands nach wie vor hinterher. Während in Großstädten mittlerweile zahlreiche öffentliche Ladesäulen zur Verfügung stehen, berichten Autofahrer in ländlichen Gebieten häufig von langen Wartezeiten oder defekten Säulen. Diese Ungleichverteilung wird von Experten zunehmend als ernstzunehmendes Hindernis für die Akzeptanz der Elektromobilität betrachtet.\n\nEin weiteres Problem besteht darin, dass unterschiedliche Anbieter unterschiedliche Bezahlsysteme und Tarife verwenden, wodurch das Laden für viele Nutzer unübersichtlich wird. Verbraucherschützer fordern deshalb einheitliche Standards, die spontanes Laden ohne komplizierte Anmeldeprozesse ermöglichen sollten. Sollte es nicht gelingen, dieses Problem zu lösen, könnten potenzielle Käufer weiterhin aus Unsicherheit beim klassischen Verbrennungsmotor bleiben.\n\nGleichzeitig wird diskutiert, ob der aktuelle Ausbau der Ladeinfrastruktur mit den ambitionierten Zielen für den Anteil von Elektrofahrzeugen auf deutschen Straßen Schritt halten kann. Während die Automobilindustrie den Ausbau als vorrangige staatliche Aufgabe betrachtet, verweist die Politik häufig auf die Verantwortung privater Energieversorger. Diese Verantwortungsverteilung müsste, so betonen viele Beobachter, deutlich klarer geregelt werden, damit die Elektromobilität ihr volles Potenzial entfalten kann.",
+    "preguntas": [
+      {
+        "enunciado": "Der Ausbau der Ladeinfrastruktur ist in allen Regionen Deutschlands gleich weit fortgeschritten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In ländlichen Gebieten gibt es häufiger Probleme mit der Ladeinfrastruktur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Anbieter nutzen dasselbe Bezahlsystem fürs Laden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Verbraucherschützer fordern einheitliche Standards fürs Laden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Verantwortung für den Ausbau der Ladeinfrastruktur ist laut Text klar und eindeutig geregelt.",
+        "respuesta": false
+      }
+    ]
   }
 ]
