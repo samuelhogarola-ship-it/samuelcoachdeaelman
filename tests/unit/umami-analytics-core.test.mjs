@@ -178,7 +178,7 @@ test("covers every tracked HTML entry through a local analytics core", async () 
   for (const file of htmlFiles) {
     const html = await readFile(file, "utf8");
     if (
-      !html.includes("google-analytics-core.js") &&
+      !html.includes("google-analytics-core.js?v=umami-20261015") &&
       !html.includes("umami-analytics-core.js")
     ) {
       missing.push(path.relative(projectRoot, file));
