@@ -2,6 +2,22 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <script>
+    // Protect forms before any remote module or session check can finish.
+    document.addEventListener('submit', function (event) {
+      const form = event.target
+      if (!/^form-(signin|signup|reset|newpass)$/.test(form.id)) return
+      if (form.dataset.authReady === 'true') return
+      event.preventDefault()
+      event.stopImmediatePropagation()
+      const message = document.getElementById(form.id.slice(5) + '-error')
+      if (message) {
+        message.textContent = 'El acceso está cargando. Espera unos segundos y pulsa Entrar de nuevo.'
+        message.hidden = false
+      }
+    }, true)
+  </script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Iniciar sesión — Samuel Coach de Alemán</title>
   <meta name="description" content="Accede a tu cuenta de Samuel Coach de Alemán para guardar tu progreso y acceder a contenido premium.">
@@ -298,7 +314,7 @@
       <div id="panel-signin">
         <div id="signin-session" class="msg msg-ok" hidden></div>
         <div id="signin-error" class="msg msg-error" hidden></div>
-        <form id="form-signin" novalidate>
+        <form id="form-signin" method="post" novalidate>
           <div class="field">
             <label for="signin-email">Correo electrónico</label>
             <input type="email" id="signin-email" name="email" autocomplete="email" required placeholder="tu@email.com">
@@ -318,7 +334,7 @@
       <div id="panel-signup" hidden>
         <div id="signup-error" class="msg msg-error" hidden></div>
         <div id="signup-ok"    class="msg msg-ok"    hidden></div>
-        <form id="form-signup" novalidate>
+        <form id="form-signup" method="post" novalidate>
           <div class="field">
             <label for="signup-email">Correo electrónico</label>
             <input type="email" id="signup-email" name="email" autocomplete="email" required placeholder="tu@email.com">
@@ -341,7 +357,7 @@
 
       <p class="reset-desc">Escribe tu correo y te enviamos un enlace para restablecer tu contraseña.</p>
 
-      <form id="form-reset" novalidate>
+      <form id="form-reset" method="post" novalidate>
         <div class="field">
           <label for="reset-email">Correo electrónico</label>
           <input type="email" id="reset-email" name="email" autocomplete="email" required placeholder="tu@email.com">
@@ -363,7 +379,7 @@
 
       <p class="reset-desc">Elige una nueva contraseña para tu cuenta.</p>
 
-      <form id="form-newpass" novalidate>
+      <form id="form-newpass" method="post" novalidate>
         <div class="field">
           <label for="newpass-password">Nueva contraseña</label>
           <input type="password" id="newpass-password" name="password" autocomplete="new-password" required placeholder="Mínimo 6 caracteres">
@@ -420,14 +436,9 @@
     import { buildAccountUrl, finishAuthSessionFromUrl, resetPassword, signIn, signUp, supabase } from '/assets/js/auth.js'
     import { safeAuthRedirect } from '/assets/js/auth-redirect.mjs'
 
-    // Do not let a stalled Supabase session check prevent the form handlers
-    // from being registered. The form must remain usable even during a
-    // transient auth-network failure.
-    const flow = await Promise.race([
-      finishAuthSessionFromUrl(),
-      new Promise(resolve => setTimeout(() => resolve({ session: null, error: null, isRecovery: false }), 5000)),
-    ])
-    const isRecovery = flow.isRecovery
+    let isRecovery = new URLSearchParams(location.search).get('reset') === '1' ||
+      new URLSearchParams(location.search).get('type') === 'recovery' ||
+      new URLSearchParams(location.hash.slice(1)).get('type') === 'recovery'
 
     function redirect() {
       const r = new URLSearchParams(location.search).get('redirect')
@@ -449,14 +460,6 @@
       btn.textContent = on ? 'Un momento…' : btn.dataset.label
     }
     document.querySelectorAll('.btn-primary').forEach(b => b.dataset.label = b.textContent)
-
-    if (isRecovery) showCard('card-newpass')
-    if (flow.error) showMsg(isRecovery ? 'newpass-error' : 'signin-error', flow.error.message, 'error')
-    if (flow.session && !isRecovery) {
-      const sessionNote = document.getElementById('signin-session')
-      sessionNote.textContent = `Sesión activa: ${flow.session.user.email || 'cuenta actual'}. Puedes continuar o iniciar sesión con otra cuenta.`
-      sessionNote.hidden = false
-    }
 
     supabase.auth.onAuthStateChange((event, session) => {
       if (event === 'PASSWORD_RECOVERY') showCard('card-newpass')
@@ -527,6 +530,20 @@
       showMsg('newpass-ok', 'Contraseña actualizada. Redirigiendo…', 'ok')
       setTimeout(() => location.href = buildAccountUrl(), 1500)
     })
+    document.querySelectorAll('form[id^="form-"]').forEach(form => {
+      form.dataset.authReady = 'true'
+    })
+
+    finishAuthSessionFromUrl().then(flow => {
+      isRecovery = isRecovery || flow.isRecovery
+      if (isRecovery) showCard('card-newpass')
+      if (flow.error) showMsg(isRecovery ? 'newpass-error' : 'signin-error', flow.error.message, 'error')
+      if (flow.session && !isRecovery) {
+        const sessionNote = document.getElementById('signin-session')
+        sessionNote.textContent = `Sesión activa: ${flow.session.user.email || 'cuenta actual'}. Puedes continuar o iniciar sesión con otra cuenta.`
+        sessionNote.hidden = false
+      }
+    }).catch(error => showMsg(isRecovery ? 'newpass-error' : 'signin-error', error.message, 'error'))
   </script>
 
 </body>

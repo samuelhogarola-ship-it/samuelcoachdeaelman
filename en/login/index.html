@@ -2,6 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <script>
+    // Protect forms before any remote module or session check can finish.
+    document.addEventListener('submit', function (event) {
+      const form = event.target
+      if (!/^form-(signin|signup|reset|newpass)$/.test(form.id)) return
+      if (form.dataset.authReady === 'true') return
+      event.preventDefault()
+      event.stopImmediatePropagation()
+      const message = document.getElementById(form.id.slice(5) + '-error')
+      if (message) {
+        message.textContent = 'Sign-in is loading. Please wait a moment and try again.'
+        message.hidden = false
+      }
+    }, true)
+  </script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Log In — Samuel Coach de Alemán</title>
   <meta name="description" content="Access your Samuel Coach de Alemán account to save your progress and unlock premium content.">
@@ -105,7 +121,7 @@
           <button class="login-tab" role="tab" data-tab="signup" aria-selected="false">Create account</button>
         </div>
 
-        <form id="form-signin" class="login-form" novalidate>
+        <form id="form-signin" method="post" class="login-form" novalidate>
           <div class="login-field">
             <label for="signin-email">Email</label>
             <input type="email" id="signin-email" name="email" autocomplete="email" required placeholder="your@email.com">
@@ -125,7 +141,7 @@
           </button>
         </form>
 
-        <form id="form-signup" class="login-form" hidden novalidate>
+        <form id="form-signup" method="post" class="login-form" hidden novalidate>
           <div class="login-field">
             <label for="signup-email">Email</label>
             <input type="email" id="signup-email" name="email" autocomplete="email" required placeholder="your@email.com">
@@ -145,7 +161,7 @@
           </button>
         </form>
 
-        <form id="form-reset" class="login-form" hidden novalidate>
+        <form id="form-reset" method="post" class="login-form" hidden novalidate>
           <p class="login-reset-desc">Enter your email address and we will send you a link to reset your password.</p>
           <div class="login-field">
             <label for="reset-email">Email</label>
@@ -157,7 +173,7 @@
           <button type="button" class="login-reset-link" id="btn-back-to-signin">← Back to log in</button>
         </form>
 
-        <form id="form-newpass" class="login-form" hidden novalidate>
+        <form id="form-newpass" method="post" class="login-form" hidden novalidate>
           <p class="login-reset-desc">Choose a new password for your account.</p>
           <div class="login-field">
             <label for="newpass-password">New password</label>
@@ -203,21 +219,15 @@
       updateSuccess: 'Password updated. Redirecting…'
     }
 
-    const flow = await finishAuthSessionFromUrl()
-    const isRecovery = flow.isRecovery
-
-    if (isRecovery) {
-      document.querySelectorAll('.login-tab').forEach(t => t.closest('.login-tabs').hidden = true)
-      document.getElementById('form-signin').hidden = true
-    }
+    let isRecovery = new URLSearchParams(location.search).get('reset') === '1' ||
+      new URLSearchParams(location.search).get('type') === 'recovery' ||
+      new URLSearchParams(location.hash.slice(1)).get('type') === 'recovery'
 
     supabase.auth.onAuthStateChange((event, session) => {
       if (event === 'PASSWORD_RECOVERY') showNewPassForm()
       else if (event === 'SIGNED_IN' && session && !isRecovery) redirectAfterLogin()
     })
 
-    if (flow.error) showError(isRecovery ? 'newpass-error' : 'signin-error', flow.error.message)
-    if (flow.session && !isRecovery) redirectAfterLogin()
 
     function showNewPassForm() {
       document.querySelectorAll('.login-form').forEach(f => f.hidden = true)
@@ -339,6 +349,16 @@
       ok.hidden = false
       setTimeout(() => { location.href = buildAccountUrl() }, 1500)
     })
+    document.querySelectorAll('form[id^="form-"]').forEach(form => {
+      form.dataset.authReady = 'true'
+    })
+
+    finishAuthSessionFromUrl().then(flow => {
+      isRecovery = isRecovery || flow.isRecovery
+      if (isRecovery) showNewPassForm()
+      if (flow.error) showError(isRecovery ? 'newpass-error' : 'signin-error', flow.error.message)
+      if (flow.session && !isRecovery) redirectAfterLogin()
+    }).catch(error => showError(isRecovery ? 'newpass-error' : 'signin-error', error.message))
   </script>
 
 </body>

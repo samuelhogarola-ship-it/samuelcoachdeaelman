@@ -16,6 +16,47 @@ test.beforeEach(async ({ page }) => {
 });
 
 for (const locale of ['', '/de', '/en']) {
+  test(`${locale || '/es'} pending session check does not block sign in`, async ({ page }) => {
+    await page.route('**/assets/js/auth.js', async route => {
+      const source = fs.readFileSync(path.join(__dirname, '../../assets/js/auth.js'), 'utf8');
+      await route.fulfill({ contentType: 'application/javascript', body: source.replace(
+        'export async function finishAuthSessionFromUrl() {',
+        'export async function finishAuthSessionFromUrl() { await new Promise(() => {});'
+      ) });
+    });
+    await page.goto(`${locale}/login/`);
+    await page.locator('#signin-email').fill('fixture@example.invalid');
+    await page.locator('#signin-password').fill('fixture-password');
+    await page.locator('#form-signin button[type=submit]').click();
+    await expect(page.locator('#signin-error')).toHaveText('Invalid login credentials');
+    await expect(page.locator('#form-signin button[type=submit]')).toBeEnabled();
+  });
+
+  test(`${locale || '/es'} slow auth module never submits credentials as a document`, async ({ page }) => {
+    let release;
+    const paused = new Promise(resolve => { release = resolve; });
+    await page.route('https://esm.sh/@supabase/supabase-js@2', async route => {
+      await paused;
+      await route.fulfill({ contentType: 'application/javascript', body: `${sdk}\nexport const createClient = supabase.createClient;` });
+    });
+    const documents = [];
+    page.on('request', request => { if (request.isNavigationRequest()) documents.push(request.url()); });
+    await page.goto(`${locale}/login/`, { waitUntil: 'commit' });
+    await page.locator('#signin-email').fill('fixture@example.invalid');
+    await page.locator('#signin-password').fill('fixture-password');
+    await page.locator('#form-signin button[type=submit]').click();
+    try {
+      await expect(page.locator('#signin-error')).toBeVisible();
+      await expect(page.locator('#signin-password')).toHaveValue('fixture-password');
+      expect(documents).toHaveLength(1);
+    } finally {
+      release();
+    }
+    await page.waitForLoadState('networkidle');
+    await page.locator('#form-signin button[type=submit]').click();
+    await expect(page.locator('#signin-error')).toHaveText('Invalid login credentials');
+  });
+
   test(`${locale || '/es'} callback percent error keeps login usable`, async ({ page }) => {
     await page.goto(`${locale}/login/?error=access_denied&error_description=Link%20100%25%20expired`);
     await expect(page.locator('#signin-error')).toHaveText('Link 100% expired');
