@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gestor de posts | Samuel Coach</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="Posts">
+        <div class="brand">
+          <img src="/assets/img/logo-main.webp" alt="" />
+          <div>
+            <strong>Posts</strong>
+            <span>Samuel Coach</span>
+          </div>
+        </div>
+        <div class="search-row">
+          <input id="search" type="search" placeholder="Buscar posts" autocomplete="off" />
+          <button id="newPost" type="button">Nuevo</button>
+        </div>
+        <div id="postList" class="post-list" aria-live="polite"></div>
+      </aside>
+
+      <section class="editor" aria-label="Editor de post">
+        <header class="topbar">
+          <div>
+            <p id="statusText" class="status-text">Cargando posts...</p>
+            <h1 id="currentTitle">Gestor de contenidos</h1>
+          </div>
+          <div class="actions">
+            <button id="buildBlog" class="secondary" type="button">Generar HTML</button>
+            <button id="savePost" type="button">Guardar</button>
+          </div>
+        </header>
+
+        <section class="meta-grid" aria-label="Metadatos del post">
+          <label>Titulo<input id="title" type="text" /></label>
+          <label>Slug<input id="slug" type="text" /></label>
+          <label>Descripcion SEO<textarea id="description" rows="3"></textarea></label>
+          <label>Fecha<input id="date" type="date" /></label>
+          <label>Idioma<input id="lang" type="text" /></label>
+          <label>Autor<input id="author" type="text" /></label>
+          <label>Imagen destacada<input id="image" type="text" placeholder="img/cover.webp o default" /></label>
+          <label>Etiquetas<input id="tags" type="text" placeholder="goethe, b1, gramatica" /></label>
+          <label>Categoria<input id="category" type="text" /></label>
+          <label>Nivel<input id="level" type="text" placeholder="A2-B1" /></label>
+          <label>Estado<input id="status" type="text" placeholder="draft o published" /></label>
+        </section>
+
+        <section class="workspace">
+          <div class="writing-pane">
+            <div class="view-tabs" aria-label="Vistas del editor">
+              <button class="is-active" data-view="preview" type="button">Vista estándar</button>
+              <button data-view="write" type="button">Editar</button>
+              <button data-view="html" type="button">HTML</button>
+            </div>
+            <div class="toolbar" aria-label="Formato">
+              <button data-wrap="**|**" data-placeholder="texto" type="button"><strong>B</strong></button>
+              <button data-wrap="*|*" data-placeholder="texto" type="button"><em>I</em></button>
+              <button data-line="## " data-placeholder="Subtitulo" type="button">H2</button>
+              <button data-line="### " data-placeholder="Apartado" type="button">H3</button>
+              <button data-wrap="<p class=&quot;blog-text-lg&quot;>|</p>" data-placeholder="Texto destacado" type="button">Grande</button>
+              <button data-line="- " data-placeholder="Punto" type="button">Lista</button>
+              <button data-wrap="[|](https://)" data-placeholder="texto" type="button">Link</button>
+              <button id="insertImage" type="button">Imagen</button>
+            </div>
+            <textarea id="body" class="body-editor" spellcheck="true" hidden></textarea>
+            <article id="mainPreview" class="main-preview"></article>
+            <pre id="htmlView" class="html-view" hidden></pre>
+          </div>
+
+          <aside class="asset-pane" aria-label="Imagenes y vista previa">
+            <div class="asset-header">
+              <strong>Imagenes</strong>
+              <label class="file-button">
+                Subir
+                <input id="imageUpload" type="file" accept="image/*" multiple />
+              </label>
+            </div>
+            <div id="imageList" class="image-list"></div>
+            <form id="imageMetaForm" class="image-meta" hidden>
+              <strong id="selectedImageName">Imagen seleccionada</strong>
+              <label>Texto alt<input id="imageAlt" type="text" /></label>
+              <label>Descripcion<textarea id="imageDescription" rows="3"></textarea></label>
+              <div class="image-meta-actions">
+                <button id="setFeaturedImage" class="secondary" type="button">Usar como principal</button>
+                <button id="saveImageMeta" type="button">Guardar imagen</button>
+              </div>
+            </form>
+            <div class="preview-header">
+              <strong>Vista rapida</strong>
+            </div>
+            <article id="preview" class="preview"></article>
+          </aside>
+        </section>
+      </section>
+    </main>
+    <script defer src="/assets/js/umami-analytics-core.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

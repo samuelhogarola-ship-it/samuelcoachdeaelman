@@ -10,12 +10,17 @@
     "build": "npm run build:blog && npm run build:i18n",
     "check:generated": "node scripts/check-generated-clean.mjs",
     "check:links": "node scripts/check-internal-links.mjs",
+    "render:umami": "sh scripts/render-umami-config.sh",
+    "test:umami": "node --test tests/unit/umami-analytics-core.test.mjs tests/unit/umami-config-render.test.mjs",
+    "check:umami": "npm run test:umami && git diff --check -- assets/js/umami-analytics-core.js config/umami-config.template.json docs/umami-integration-runbook.md scripts/render-umami-config.sh tests/unit/umami-analytics-core.test.mjs tests/unit/umami-config-render.test.mjs umami-config.json",
     "test:unit": "node --test tests/unit/*.test.mjs tests/security/*.test.mjs supabase/functions/contact/index.test.mjs",
     "new:post": "node new-post.js",
     "test:e2e:smoke": "playwright test tests/playwright/resources-preview.spec.js --reporter=line",
     "test:e2e": "playwright test",
     "test:e2e:headed": "playwright test --headed",
-    "test:e2e:ui": "playwright test --ui"
+    "test:e2e:ui": "playwright test --ui",
+    "posts:manage": "node scripts/post-manager-server.mjs",
+    "test:posts": "node --test tests/unit/post-manager-core.test.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

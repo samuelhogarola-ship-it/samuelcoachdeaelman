@@ -1257,7 +1257,7 @@ function buildPage(locale, options) {
     </section>
   </main>
   ${buildFooter(locale)}
-  <script defer src="/assets/js/google-analytics-core.js"></script>
+  <script defer src="/assets/js/google-analytics-core.js?v=umami-20261015"></script>
   <script src="/assets/js/cookie-banner-core.js" defer></script>
   <script src="/assets/js/main.js" defer></script>
   ${options.inlineExercise
