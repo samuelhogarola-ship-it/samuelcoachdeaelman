@@ -18,6 +18,13 @@
     <p class="admin-note">Este panel está separado de la web pública y no se indexa en buscadores.</p>
   </main>
   <script defer src="/assets/js/umami-analytics-core.js"></script>
+  <script>
+    setTimeout(() => {
+      if (!document.body.classList.contains('admin-authenticated')) {
+        window.location.replace('/login/?redirect=%2Fadmin%2F')
+      }
+    }, 3000)
+  </script>
   <script type="module">
     import { requireAdminAccess, wireAdminSignOut } from '/assets/js/admin-gate.js'
     await requireAdminAccess()
