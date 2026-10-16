@@ -30,8 +30,6 @@ while (have_posts()) :
 			<?php the_content(); ?>
 		</div>
 
-		<?php scb_render_newsletter(); ?>
-
 		<nav class="scb-post-nav" aria-label="<?php esc_attr_e('Navegación de entradas', 'samuel-coach-blog'); ?>">
 			<div><?php previous_post_link('%link', '&larr; %title'); ?></div>
 			<div><?php next_post_link('%link', '%title &rarr;'); ?></div>
@@ -78,4 +76,3 @@ endwhile;
 
 <?php
 get_footer();
-

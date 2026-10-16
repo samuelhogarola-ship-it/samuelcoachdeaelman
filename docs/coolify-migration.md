@@ -85,7 +85,7 @@ No hay credenciales SMTP/Resend configuradas en el contenedor ni secretos de fun
 
 Contacto Node requiere `RESEND_API_KEY`, `RESEND_FROM_EMAIL` y `CONTACT_EMAIL`. `TRUST_PROXY_HOPS=1` se usa en Docker porque Traefik es la única entrada; en una ejecución expuesta directamente no debe habilitarse.
 
-Newsletter necesita proveedor, tabla/migraciones y funciones antes de anunciarlo operativo. No ejecutar todas las migraciones indiscriminadamente: revisar las que faltan y validar sus políticas antes de aplicarlas.
+La newsletter está desactivada por decisión del propietario. Sus formularios y scripts se retiraron de las tres portadas y el tema WordPress dejó de renderizar el bloque. El código de funciones y migraciones permanece inactivo y no debe desplegarse mientras esta decisión siga vigente.
 
 ## Secuencia de publicación y comprobación
 

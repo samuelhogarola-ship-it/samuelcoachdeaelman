@@ -33,9 +33,9 @@ La publicación autorizada está activa en el VPS. Administración, persistencia
 
 `admin` tiene únicamente A 187.124.55.36 y AAAA 2a02:4780:7:94a6::1, TTL 300. HTTPS verificado por ambas familias; certificado renovado hasta el 14 de enero de 2027. El webhook antiguo 618249997 está desactivado. El hosting antiguo se conserva. Detalles en [el procedimiento del VPS](../coolify-migration.md).
 
-No existe SMTP personalizado en Supabase ni proveedor de envío configurado en el VPS. La confirmación de cuenta es obligatoria y el límite actual de Auth es 2 correos/hora. Newsletter no tiene desplegadas sus funciones ni su tabla de suscriptores. No se enviaron emails de prueba ni se crearon cuentas reales.
+No existe SMTP personalizado en Supabase ni proveedor de envío configurado en el VPS. La confirmación de cuenta es obligatoria y el límite actual de Auth es 2 correos/hora. La newsletter queda desactivada por decisión del propietario: se retiraron sus formularios y scripts de las tres portadas y el bloque del tema WordPress. El código histórico permanece inactivo para una posible recuperación. No se enviaron emails de prueba ni se crearon cuentas reales.
 
-`actividad2` permanece en el hosting antiguo y falla por HTTPS. Su conservación o retirada depende de confirmar si se usa. Los informes de profesor se guardan en el navegador, no en el VPS.
+El propietario confirmó que `actividad2` ya no se usa y autorizó retirarlo. Sus registros DNS A y AAAA quedan pendientes únicamente del segundo paso de confirmación exigido por el procedimiento de borrado DNS. Los informes de profesor se guardan en el navegador, no en el VPS.
 
 El contenedor actual está saludable según Docker. La instancia obsoleta detenida fue archivada como imagen samuel-legacy-archive:20261016, con inspección privada y copias editoriales, y retirada para evitar etiquetas de producción duplicadas. No se ha configurado un respaldo externo periódico. Quedan tres relaciones hreflang comerciales DE→EN sin reciprocidad; no impiden navegar.
 
