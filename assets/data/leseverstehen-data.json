@@ -56150,5 +56150,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-morgen-von-lisa",
+    "nivel": "A1",
+    "titulo": "Der Morgen von Lisa",
+    "descripcion": "Lisa erzählt, wie ein normaler Morgen bei ihr aussieht.",
+    "texto": "Lisa steht jeden Tag um sieben Uhr auf. Sie wäscht sich das Gesicht und putzt die Zähne. Dann frühstückt sie in der Küche. Sie trinkt eine Tasse Tee und isst ein Brötchen mit Marmelade.\n\nNach dem Frühstück zieht Lisa sich an. Sie trägt heute eine blaue Hose und ein weißes Hemd. Ihre Tasche liegt schon an der Tür. Um acht Uhr geht sie aus dem Haus und läuft zur Bushaltestelle.\n\nDer Bus kommt pünktlich. Lisa setzt sich ans Fenster und hört Musik. In zwanzig Minuten ist sie in der Schule. Dort trifft sie ihre Freundin Mia, und sie gehen zusammen in das Klassenzimmer.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa trinkt Kaffee zum Frühstück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa trägt eine blaue Hose.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa fährt mit dem Fahrrad zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia ist Lisas Freundin.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-hobby-fotografie",
+    "nivel": "A1",
+    "titulo": "Mein Hobby: Fotografie",
+    "descripcion": "Tom spricht über sein Hobby und seine Kamera.",
+    "texto": "Ich heiße Tom und mein Hobby ist Fotografie. Ich habe eine kleine Kamera. Sie ist schwarz und nicht sehr teuer. Ich fotografiere gern Blumen, Tiere und meine Familie.\n\nAm Wochenende gehe ich oft in den Park. Dort gibt es viele Vögel und Bäume. Ich mache Fotos von den Enten am See. Manchmal fotografiere ich auch meinen Hund Bello.\n\nZu Hause zeige ich die Fotos meiner Mutter. Sie findet die Bilder sehr schön. Wir drucken die besten Fotos aus und hängen sie an die Wand.",
+    "preguntas": [
+      {
+        "enunciado": "Toms Kamera ist groß und teuer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom fotografiert gern Blumen und Tiere.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom geht am Wochenende in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello ist Toms Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom hängt Fotos an die Wand.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-regnerischer-nachmittag",
+    "nivel": "A1",
+    "titulo": "Ein regnerischer Nachmittag",
+    "descripcion": "Paul und Emma bleiben wegen des Regens zu Hause.",
+    "texto": "Heute regnet es sehr stark. Paul und Emma können nicht draußen spielen. Sie bleiben zu Hause und spielen im Wohnzimmer. Emma holt ein Puzzle aus dem Schrank.\n\nPaul mag Puzzles nicht so gern. Er sucht lieber seine Bauklötze. Die Kinder bauen zusammen einen Turm. Der Turm ist sehr hoch und fast so groß wie Emma.\n\nAm Nachmittag macht Mama heißen Kakao für die Kinder. Paul und Emma sitzen am Tisch und trinken den Kakao. Draußen regnet es immer noch, aber die Kinder sind glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und Emma spielen heute draußen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma holt ein Puzzle aus dem Schrank.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul baut gern mit Bauklötzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Turm ist sehr klein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mama macht heißen Kakao für die Kinder.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-von-der-reise",
+    "nivel": "A2",
+    "titulo": "Ein Brief von der Reise",
+    "descripcion": "Julia schreibt ihrer Freundin einen Brief über ihren Urlaub in Österreich.",
+    "texto": "Liebe Sabine, ich bin seit drei Tagen in Österreich und wollte dir endlich schreiben. Ich bin mit dem Zug gefahren, weil ich das Fliegen nicht mag. Die Fahrt war lang, aber die Landschaft war wunderschön. Als ich in Salzburg angekommen bin, habe ich sofort ein kleines Hotel in der Altstadt gefunden.\n\nGestern habe ich eine Wanderung in den Bergen gemacht, obwohl das Wetter nicht sehr gut war. Es hat zwischendurch geregnet, aber ich habe trotzdem eine tolle Aussicht gesehen. Danach habe ich in einem kleinen Café eine heiße Schokolade getrunken, weil mir sehr kalt war.\n\nMorgen fahre ich nach Wien weiter, weil ich dort meine Cousine besuchen möchte. Ich hoffe, dass das Wetter besser wird. Ich schreibe dir wieder, wenn ich dort angekommen bin. Viele Grüße, Julia",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit dem Flugzeug nach Österreich gereist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia wohnt in einem Hotel in der Altstadt von Salzburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wanderung war bei perfektem Sonnenschein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat nach der Wanderung eine heiße Schokolade getrunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia fährt als Nächstes nach München.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsfeier-am-wochenende",
+    "nivel": "A2",
+    "titulo": "Die Geburtstagsfeier am Wochenende",
+    "descripcion": "Markus erzählt, wie er den Geburtstag seiner Schwester organisiert hat.",
+    "texto": "Am letzten Samstag hatte meine Schwester Geburtstag. Ich habe eine kleine Feier für sie organisiert, weil sie dieses Jahr dreißig geworden ist. Zuerst habe ich einen Kuchen gebacken, aber das war nicht so einfach, weil der Ofen plötzlich kaputt war. Deshalb habe ich bei unserer Nachbarin gefragt, ob ich ihren Ofen benutzen darf.\n\nAm Nachmittag sind viele Gäste gekommen, und wir haben im Garten gefeiert. Es war sonnig, deshalb konnten wir draußen essen und spielen. Meine Schwester hat sich sehr gefreut, als sie die Geschenke gesehen hat. Besonders das Fahrrad von unseren Eltern hat ihr gut gefallen.\n\nAm Abend sind wir alle müde, aber zufrieden gewesen. Meine Schwester hat sich bei allen bedankt und gesagt, dass es der schönste Geburtstag war, den sie je hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Schwester von Markus ist vierzig Jahre alt geworden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat den Ofen der Nachbarin benutzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Feier fand im Garten statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schwester hat kein Geschenk bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schwester war mit der Feier sehr zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-wohnung-im-dritten-stock",
+    "nivel": "A2",
+    "titulo": "Die neue Wohnung im dritten Stock",
+    "descripcion": "Sven berichtet über seinen Umzug in eine neue Wohnung.",
+    "texto": "Letzten Monat bin ich in eine neue Wohnung im dritten Stock umgezogen. Ich habe lange nach einer passenden Wohnung gesucht, weil die Mieten in der Stadt sehr hoch sind. Endlich habe ich eine kleine, aber helle Wohnung gefunden, die ich mir leisten kann.\n\nDer Umzug war anstrengend, weil ich viele schwere Kisten tragen musste. Zum Glück haben mir zwei Freunde geholfen, sodass alles schneller ging. Nachdem wir alle Möbel hineingetragen hatten, haben wir gemeinsam Pizza bestellt und im leeren Wohnzimmer gegessen.\n\nJetzt wohne ich schon seit zwei Wochen hier und fühle mich sehr wohl. Meine neuen Nachbarn sind freundlich, und von meinem Balkon aus kann ich den Sonnenuntergang sehen.",
+    "preguntas": [
+      {
+        "enunciado": "Sven hat schnell eine Wohnung gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zwei Freunde haben Sven beim Umzug geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Umzug haben sie Pizza gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Svens Nachbarn sind unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Von Svens Balkon aus sieht man den Sonnenuntergang.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-streit-unter-freunden",
+    "nivel": "B1",
+    "titulo": "Ein Streit unter Freunden",
+    "descripcion": "Nina und Felix geraten wegen eines Missverständnisses in Streit, versöhnen sich aber wieder.",
+    "texto": "Nina und Felix sind seit der Schulzeit beste Freunde, obwohl sie sehr unterschiedliche Persönlichkeiten haben. Letzte Woche kam es jedoch zu einem Streit, der beide sehr beschäftigt hat. Felix hatte vergessen, dass er mit Nina zum Kino verabredet war, weil er sich stattdessen mit Kollegen getroffen hatte. Als Nina alleine vor dem Kino wartete, wurde sie zunehmend wütend.\n\nNachdem Felix am nächsten Tag von seinem Fehler erfahren hatte, rief er Nina sofort an, um sich zu entschuldigen. Nina war trotzdem enttäuscht und wollte zunächst nicht mit ihm reden. Erst als Felix ihr erklärte, wie stressig seine Woche gewesen war, verstand sie die Situation besser. Trotzdem machte sie deutlich, dass Verabredungen für sie wichtig sind.\n\nAm Ende trafen sich die beiden zu einem langen Gespräch in einem Café. Sie einigten sich darauf, in Zukunft besser zu kommunizieren, bevor Pläne geändert werden. Die Freundschaft war zwar kurz belastet, wurde aber durch das offene Gespräch sogar gestärkt.",
+    "preguntas": [
+      {
+        "enunciado": "Nina und Felix sind erst seit kurzer Zeit befreundet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat die Verabredung mit Nina vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina war sofort wieder glücklich, als Felix anrief.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden haben sich in einem Café ausgesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freundschaft wurde durch das Gespräch stärker.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "konflikte-im-team",
+    "nivel": "B1",
+    "titulo": "Konflikte im Team",
+    "descripcion": "In einem Projektteam entstehen Spannungen, die durch ein offenes Gespräch gelöst werden.",
+    "texto": "In der Marketingabteilung einer mittelgroßen Firma arbeitet ein Team von fünf Personen an einem wichtigen Projekt. Seit einigen Wochen gibt es jedoch Spannungen, weil zwei Kollegen unterschiedliche Meinungen darüber haben, wie die Aufgaben verteilt werden sollen. Obwohl beide gute Ideen haben, führen die Diskussionen oft zu Missverständnissen und schlechter Stimmung.\n\nDie Teamleiterin Frau Meyer bemerkte, dass die Produktivität sank, nachdem der Konflikt begonnen hatte. Deshalb organisierte sie ein Treffen, bei dem alle Teammitglieder offen über ihre Erwartungen sprechen konnten. Zunächst war die Atmosphäre angespannt, aber nachdem jeder seine Sicht erklärt hatte, verstanden die Kollegen die Beweggründe des anderen besser.\n\nAm Ende des Gesprächs entwickelte das Team gemeinsam einen klaren Plan für die Aufgabenverteilung. Obwohl nicht alle Probleme sofort gelöst waren, fühlte sich die Zusammenarbeit danach deutlich entspannter an. Frau Meyer war zufrieden, dass offene Kommunikation den Konflikt entschärft hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Im Team arbeiten fünf Personen zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Konflikt entstand wegen der Aufgabenverteilung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Meyer ignorierte den Konflikt vollständig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Treffen verstanden die Kollegen einander besser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Gespräch waren sofort alle Probleme gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-missverstaendnis-im-buero",
+    "nivel": "B1",
+    "titulo": "Ein Missverständnis im Büro",
+    "descripcion": "Eine falsch verstandene E-Mail führt im Büro zu Verwirrung, die schließlich aufgeklärt wird.",
+    "texto": "Thomas arbeitet seit zwei Jahren als Buchhalter in einer kleinen Firma. An einem Montagmorgen erhielt er eine E-Mail von seiner Chefin, in der stand, dass ein wichtiger Bericht bis Mittag fertig sein müsse. Da die E-Mail sehr kurz formuliert war, verstand Thomas sie falsch und dachte, der Bericht müsse erst am nächsten Tag abgegeben werden.\n\nAls die Chefin am Mittag nach dem Bericht fragte, war Thomas völlig überrascht. Zunächst erklärte er, dass er die Frist anders verstanden hatte, woraufhin die Chefin leicht verärgert reagierte. Nachdem beide jedoch die E-Mail gemeinsam noch einmal gelesen hatten, erkannten sie, dass die Formulierung tatsächlich mehrdeutig gewesen war.\n\nUm das Problem zu lösen, arbeitete Thomas den restlichen Nachmittag konzentriert und reichte den Bericht noch vor Feierabend ein. Die Chefin bedankte sich für seinen Einsatz und versprach, ihre E-Mails in Zukunft klarer zu formulieren, damit solche Missverständnisse nicht wieder passieren.",
+    "preguntas": [
+      {
+        "enunciado": "Thomas arbeitet als Verkäufer in der Firma.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Thomas hat die Frist der E-Mail falsch verstanden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Chefin reagierte zunächst gar nicht überrascht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Thomas hat den Bericht noch vor Feierabend abgegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Chefin will ihre E-Mails künftig klarer formulieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-der-arbeitswelt",
+    "nivel": "B2",
+    "titulo": "Der Wandel der Arbeitswelt",
+    "descripcion": "Ein Essay über die Veränderungen der Arbeitswelt durch Homeoffice und Digitalisierung.",
+    "texto": "Die Arbeitswelt hat sich in den letzten Jahren tiefgreifend verändert. Während früher die Anwesenheit im Büro als selbstverständlich galt, wird heute vielerorts die Möglichkeit geschaffen, zumindest teilweise von zu Hause aus zu arbeiten. Diese Entwicklung wurde insbesondere durch die Pandemie beschleunigt, deren Auswirkungen bis heute in vielen Unternehmensstrukturen spürbar sind. Dabei stellt sich die Frage, ob diese neue Flexibilität tatsächlich zu mehr Zufriedenheit führt oder ob sie neue Probleme schafft.\n\nBefürworter des Homeoffice argumentieren, dass die Mitarbeiter dadurch mehr Autonomie über ihre Zeiteinteilung gewinnen würden. Wenn man weniger Zeit im Pendlerverkehr verbringen müsste, bliebe mehr Zeit für Familie und Erholung. Gleichzeitig wird jedoch häufig kritisiert, dass die Grenze zwischen Berufs- und Privatleben zunehmend verschwimmt. Viele Beschäftigte berichten, dass sie sich schwerer abgrenzen können, obwohl sie sich eigentlich mehr Freizeit erhofft hatten.\n\nLetztlich hängt der Erfolg flexibler Arbeitsmodelle stark davon ab, wie Unternehmen und Angestellte gemeinsam klare Regeln entwickeln. Würde man etwa feste Erreichbarkeitszeiten vereinbaren, könnten sowohl die Vorteile der Flexibilität genutzt als auch die Nachteile der ständigen Erreichbarkeit vermieden werden. Es bleibt abzuwarten, wie sich diese Debatte in den kommenden Jahren weiterentwickelt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Pandemie hat die Verbreitung des Homeoffice beschleunigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind sich einig, dass Homeoffice keine Nachteile hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Weniger Pendelzeit kann mehr Zeit für Familie bedeuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text verschwimmt durch Homeoffice manchmal die Grenze zwischen Beruf und Privatleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass klare Regeln für flexible Arbeit unnötig seien.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-bildung",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Bildung",
+    "descripcion": "Ein Text über mögliche Reformen des Bildungssystems und ihre gesellschaftlichen Folgen.",
+    "texto": "Das deutsche Bildungssystem steht seit Jahren im Zentrum öffentlicher Debatten. Kritiker bemängeln, dass Schulen den Anforderungen einer sich rasch wandelnden Gesellschaft nicht mehr gerecht würden. Insbesondere der Umgang mit digitalen Medien und die individuelle Förderung von Schülern mit unterschiedlichen Lernvoraussetzungen gelten als zentrale Herausforderungen, die bislang nur unzureichend gelöst worden seien.\n\nBefürworter einer umfassenden Bildungsreform schlagen vor, den Unterricht stärker projektbasiert zu gestalten, sodass Schüler eigenständiger lernen könnten. Wenn Lehrkräfte mehr Zeit für individuelle Betreuung hätten, ließe sich vermutlich auch die Chancengleichheit verbessern, da leistungsschwächere Schüler gezielter unterstützt werden könnten. Allerdings wird eingewendet, dass solche Reformen erhebliche finanzielle Investitionen voraussetzen würden, die von vielen Bundesländern derzeit nicht geleistet werden können.\n\nEin weiterer Streitpunkt betrifft die Frage, inwiefern künstliche Intelligenz künftig im Unterricht eingesetzt werden sollte. Während manche Experten darin eine Chance sehen, den Unterricht individueller zu gestalten, warnen andere davor, dass eine übermäßige Nutzung digitaler Werkzeuge die soziale Interaktion im Klassenzimmer beeinträchtigen könnte. Letztlich wird die Bildungspolitik der kommenden Jahre zeigen müssen, wie diese widersprüchlichen Interessen miteinander vereinbart werden können.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text gibt es keine Kritik am deutschen Bildungssystem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Befürworter schlagen projektbasierten Unterricht vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bildungsreformen würden laut Text keine finanziellen Mittel benötigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt unterschiedliche Meinungen zum Einsatz künstlicher Intelligenz im Unterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die Debatte um Bildungspolitik sei bereits vollständig abgeschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-im-alltag",
+    "nivel": "B2",
+    "titulo": "Digitalisierung im Alltag",
+    "descripcion": "Eine Betrachtung darüber, wie digitale Technologien den Alltag verändern und welche Risiken damit einhergehen.",
+    "texto": "Digitale Technologien sind inzwischen so tief in den Alltag integriert, dass sich viele Menschen ein Leben ohne Smartphone, Online-Banking oder soziale Netzwerke kaum noch vorstellen können. Diese Entwicklung bringt zweifellos zahlreiche Vorteile mit sich, etwa den schnellen Zugang zu Informationen oder die Möglichkeit, unabhängig von Ort und Zeit zu kommunizieren. Gleichzeitig wird jedoch zunehmend diskutiert, welche gesellschaftlichen Folgen diese ständige Vernetzung mit sich bringt.\n\nEin zentrales Problem wird darin gesehen, dass die permanente Erreichbarkeit zu erhöhtem Stress führen kann. Würden Nutzer ihre Bildschirmzeit bewusster regulieren, ließe sich dieses Risiko zwar verringern, doch in der Praxis fällt vielen Menschen diese Selbstkontrolle schwer, da Apps und Plattformen gezielt so gestaltet sind, dass sie möglichst viel Aufmerksamkeit binden. Hinzu kommt die Sorge um den Schutz persönlicher Daten, da zahlreiche Dienste umfangreiche Informationen über ihre Nutzer sammeln, ohne dass diese stets vollständig darüber informiert würden.\n\nDennoch wäre es verkürzt, die Digitalisierung ausschließlich negativ zu bewerten. Gerade in Bereichen wie der Medizin oder der Bildung eröffnen digitale Werkzeuge neue Möglichkeiten, die vor wenigen Jahrzehnten noch undenkbar gewesen wären. Entscheidend wird sein, ob es gelingt, Regelwerke zu schaffen, die den verantwortungsvollen Umgang mit Technologie fördern, ohne deren Potenzial unnötig einzuschränken.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text hat die Digitalisierung ausschließlich Vorteile.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Permanente Erreichbarkeit kann laut Text zu mehr Stress führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Apps sind laut Text oft so gestaltet, dass sie viel Aufmerksamkeit binden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sagt, dass alle Nutzer vollständig über die Datensammlung informiert werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erkennt auch positive Potenziale der Digitalisierung, etwa in der Medizin.",
+        "respuesta": true
+      }
+    ]
   }
 ]
