@@ -1,12 +1,13 @@
 import { supabase } from './auth.js'
-import { buildAdminLoginUrl } from './admin-gate-core.mjs'
+import { buildAdminLoginUrl, isAdminUser } from './admin-gate-core.mjs'
 
 export { buildAdminLoginUrl }
 
 export async function requireAdminAccess({ root = document.body } = {}) {
   root.setAttribute('aria-busy', 'true')
   const { data: { session } } = await supabase.auth.getSession()
-  if (!session) {
+  if (!session || !isAdminUser(session.user)) {
+    if (session) await supabase.auth.signOut()
     window.location.replace(buildAdminLoginUrl())
     return null
   }
