@@ -5,7 +5,11 @@ export { buildAdminLoginUrl }
 
 export async function requireAdminAccess({ root = document.body } = {}) {
   root.setAttribute('aria-busy', 'true')
-  const { data: { session } } = await supabase.auth.getSession()
+  const sessionResult = await Promise.race([
+    supabase.auth.getSession(),
+    new Promise(resolve => setTimeout(() => resolve({ data: { session: null } }), 2500)),
+  ])
+  const { data: { session } } = sessionResult
   if (!session || !isAdminUser(session.user)) {
     if (session) await supabase.auth.signOut()
     window.location.replace(buildAdminLoginUrl())
