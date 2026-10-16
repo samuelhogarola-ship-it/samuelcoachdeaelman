@@ -17,6 +17,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 const uiDir = path.join(rootDir, "tools", "post-manager");
 const port = Number(process.env.POST_MANAGER_PORT || 4321);
+let postsListCache = null;
+let postsListCacheAt = 0;
+const POSTS_CACHE_TTL = 5000;
 
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
@@ -39,12 +42,19 @@ const server = createServer(async (req, res) => {
     }
 
     if (url.pathname === "/api/posts" && req.method === "GET") {
-      return sendJson(res, { posts: await listPosts(rootDir) });
+      const now = Date.now();
+      if (!postsListCache || now - postsListCacheAt > POSTS_CACHE_TTL) {
+        postsListCache = await listPosts(rootDir);
+        postsListCacheAt = now;
+      }
+      return sendJson(res, { posts: postsListCache });
     }
 
     if (url.pathname === "/api/posts" && req.method === "POST") {
       const payload = await readJson(req);
-      return sendJson(res, await savePost(rootDir, null, payload), 201);
+      const result = await savePost(rootDir, null, payload);
+      postsListCache = null;
+      return sendJson(res, result, 201);
     }
 
     const postMatch = url.pathname.match(/^\/api\/posts\/([a-z0-9-]+)$/);
@@ -54,7 +64,9 @@ const server = createServer(async (req, res) => {
 
     if (postMatch && req.method === "PUT") {
       const payload = await readJson(req);
-      return sendJson(res, await savePost(rootDir, postMatch[1], payload));
+      const result = await savePost(rootDir, postMatch[1], payload);
+      postsListCache = null;
+      return sendJson(res, result);
     }
 
     const imageCollectionMatch = url.pathname.match(/^\/api\/posts\/([a-z0-9-]+)\/images$/);

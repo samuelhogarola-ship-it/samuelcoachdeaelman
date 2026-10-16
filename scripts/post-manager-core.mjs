@@ -107,14 +107,13 @@ export async function listPosts(rootDir) {
   const posts = [];
   const seenSlugs = new Set();
 
-  for (const file of files.filter((entry) => entry.endsWith(".md"))) {
+  const markdownPosts = await Promise.all(files.filter((entry) => entry.endsWith(".md")).map(async (file) => {
     const filePath = path.join(postsDir, file);
     const content = await readFile(filePath, "utf8");
     const { meta, body } = parsePostMarkdown(content);
     const slug = meta.slug || file.replace(/\.md$/, "");
     const images = await collectPostImages(rootDir, slug, meta.image, meta.title || slug);
-    seenSlugs.add(slug);
-    posts.push({
+    return {
       slug,
       file,
       source: "markdown",
@@ -129,7 +128,11 @@ export async function listPosts(rootDir) {
       status: meta.status || "published",
       words: body.split(/\s+/).filter(Boolean).length,
       images,
-    });
+    };
+  }));
+  for (const post of markdownPosts) {
+    seenSlugs.add(post.slug);
+    posts.push(post);
   }
 
   for (const legacyPost of await listGeneratedPosts(rootDir)) {
@@ -309,12 +312,12 @@ async function listGeneratedPosts(rootDir) {
   const entries = await safeReadDir(outputDir);
   const posts = [];
 
-  for (const slug of entries.filter((entry) => SLUG_RE.test(entry))) {
+  const generatedPosts = await Promise.all(entries.filter((entry) => SLUG_RE.test(entry)).map(async (slug) => {
     const htmlPath = path.join(outputDir, slug, "index.html");
     try {
       const html = await readFile(htmlPath, "utf8");
       const meta = extractGeneratedMeta(html, slug);
-      posts.push({
+      return {
         slug,
         file: "f/" + slug + "/index.html",
         source: "generated-html",
@@ -329,11 +332,13 @@ async function listGeneratedPosts(rootDir) {
         status: "html-heredado",
         words: htmlToText(extractArticleHtml(html)).split(/\s+/).filter(Boolean).length,
         images: await collectPostImages(rootDir, slug, meta.image, meta.title),
-      });
+      };
     } catch (error) {
       if (error.code !== "ENOENT") throw error;
+      return null;
     }
-  }
+  }));
+  posts.push(...generatedPosts.filter(Boolean));
 
   return posts;
 }
