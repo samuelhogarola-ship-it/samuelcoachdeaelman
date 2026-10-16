@@ -21,10 +21,19 @@ test("el gestor mantiene la lista a la izquierda y las vistas de lectura separad
   const html = readFileSync(new URL("../../tools/post-manager/index.html", import.meta.url), "utf8");
   const css = readFileSync(new URL("../../tools/post-manager/styles.css", import.meta.url), "utf8");
   assert.match(html, /id="buildBlog"[^>]*>Vista HTML/);
-  assert.match(html, /data-view="preview"[^>]*>Vista normal/);
-  assert.match(html, /data-view="html"[^>]*>Vista código/);
+  assert.match(html, /id="visualEditor"[^>]*contenteditable="true"/);
+  assert.match(html, /data-view="visual"[^>]*>Vista normal/);
+  assert.match(html, /data-view="html"[^>]*>Vista HTML/);
   assert.match(css, /@media \(max-width: 780px\)/);
   assert.doesNotMatch(css, /@media \(max-width: 1100px\)\s*\{[\s\S]*?\.app-shell,/);
+});
+
+test("blogger abre directamente el gestor completo y protege su ruta", () => {
+  const adminBlogger = readFileSync(new URL("../../admin/blogger/index.html", import.meta.url), "utf8");
+  const editor = readFileSync(new URL("../../tools/post-manager/index.html", import.meta.url), "utf8");
+  assert.doesNotMatch(adminBlogger, /<iframe/);
+  assert.match(adminBlogger, /tools\/post-manager/);
+  assert.match(editor, /requireAdminAccess/);
 });
 
 test("parsea y serializa frontmatter del gestor", () => {

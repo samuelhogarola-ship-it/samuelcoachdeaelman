@@ -52,11 +52,13 @@
         <section class="workspace">
           <div class="writing-pane">
             <div class="view-tabs" aria-label="Vistas del editor">
-              <button class="is-active" data-view="preview" type="button">Vista normal</button>
-              <button data-view="write" type="button">Editar</button>
-              <button data-view="html" type="button">Vista código</button>
+              <button class="is-active" data-view="visual" type="button">Vista normal</button>
+              <button data-view="markdown" type="button">Editar Markdown</button>
+              <button data-view="html" type="button">Vista HTML</button>
             </div>
             <div class="toolbar" aria-label="Formato">
+              <button data-command="undo" type="button" title="Deshacer">↶</button>
+              <button data-command="redo" type="button" title="Rehacer">↷</button>
               <button data-wrap="**|**" data-placeholder="texto" type="button"><strong>B</strong></button>
               <button data-wrap="*|*" data-placeholder="texto" type="button"><em>I</em></button>
               <button data-line="## " data-placeholder="Subtitulo" type="button">H2</button>
@@ -66,8 +68,9 @@
               <button data-wrap="[|](https://)" data-placeholder="texto" type="button">Link</button>
               <button id="insertImage" type="button">Imagen</button>
             </div>
+            <div id="visualEditor" class="visual-editor" contenteditable="true" role="textbox" aria-label="Editor visual" spellcheck="true"></div>
             <textarea id="body" class="body-editor" spellcheck="true" hidden></textarea>
-            <article id="mainPreview" class="main-preview"></article>
+            <article id="mainPreview" class="main-preview" hidden></article>
             <pre id="htmlView" class="html-view" hidden></pre>
           </div>
 

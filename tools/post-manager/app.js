@@ -28,9 +28,10 @@ const imageList = document.querySelector("#imageList");
 const preview = document.querySelector("#preview");
 const mainPreview = document.querySelector("#mainPreview");
 const htmlView = document.querySelector("#htmlView");
+const visualEditor = document.querySelector("#visualEditor");
 const editorViews = {
-  write: fields.body,
-  preview: mainPreview,
+  visual: visualEditor,
+  markdown: fields.body,
   html: htmlView,
 };
 
@@ -46,13 +47,28 @@ postList.addEventListener("click", (event) => {
   if (!card) return;
   loadPost(card.dataset.slug);
 });
-fields.body.addEventListener("input", renderPreview);
+fields.body.addEventListener("input", () => {
+  visualEditor.innerHTML = markdownPreview(fields.body.value);
+  renderPreview();
+});
+visualEditor.addEventListener("input", () => {
+  fields.body.value = richHtmlToMarkdown(visualEditor.innerHTML);
+  renderPreview();
+});
 fields.title.addEventListener("input", () => {
   currentTitle.textContent = fields.title.value || "Nuevo post";
 });
 
 for (const button of document.querySelectorAll("[data-wrap], [data-line]")) {
   button.addEventListener("click", () => applyFormat(button));
+}
+for (const button of document.querySelectorAll("[data-command]")) {
+  button.addEventListener("click", () => {
+    visualEditor.focus();
+    document.execCommand(button.dataset.command);
+    fields.body.value = richHtmlToMarkdown(visualEditor.innerHTML);
+    renderPreview();
+  });
 }
 for (const button of document.querySelectorAll("[data-view]")) {
   button.addEventListener("click", () => setView(button.dataset.view));
@@ -131,6 +147,7 @@ function fillForm(post) {
     else if (key === "tags" && Array.isArray(meta.tags)) fields.tags.value = meta.tags.join(", ");
     else fields[key].value = meta[key] || "";
   }
+  visualEditor.innerHTML = markdownPreview(fields.body.value);
   currentTitle.textContent = fields.title.value || "Nuevo post";
 }
 
@@ -205,6 +222,7 @@ function renderImages(images) {
 }
 
 function readForm() {
+  fields.body.value = richHtmlToMarkdown(visualEditor.innerHTML);
   return {
     title: fields.title.value,
     slug: fields.slug.value,
@@ -222,6 +240,21 @@ function readForm() {
 }
 
 function applyFormat(button) {
+  if (!editorViews.visual.hidden) {
+    visualEditor.focus();
+    if (button.dataset.wrap === "**|**") document.execCommand("bold");
+    else if (button.dataset.wrap === "*|*") document.execCommand("italic");
+    else if (button.dataset.line === "## ") document.execCommand("formatBlock", false, "h2");
+    else if (button.dataset.line === "### ") document.execCommand("formatBlock", false, "h3");
+    else if (button.dataset.line === "- ") document.execCommand("insertUnorderedList");
+    else if (button.dataset.wrap && button.dataset.wrap.startsWith("[|]")) {
+      const url = window.prompt("URL del enlace", "https://");
+      if (url) document.execCommand("createLink", false, url);
+    }
+    fields.body.value = richHtmlToMarkdown(visualEditor.innerHTML);
+    renderPreview();
+    return;
+  }
   if (button.dataset.wrap) {
     const [before, after] = button.dataset.wrap.split("|");
     wrapSelection(before, after, button.dataset.placeholder || "texto");
@@ -255,7 +288,15 @@ function insertSelectedImage() {
     statusText.textContent = "Sube una imagen antes de insertarla";
     return;
   }
-  insertText(`![${image.alt || fields.title.value || image.file}](${image.url})`);
+  const alt = image.alt || fields.title.value || image.file;
+  if (editorViews.visual.hidden) {
+    insertText(`![${alt}](${image.url})`);
+    return;
+  }
+  visualEditor.focus();
+  document.execCommand("insertHTML", false, `<img src="${escapeHtml(image.url)}" alt="${escapeHtml(alt)}">`);
+  fields.body.value = richHtmlToMarkdown(visualEditor.innerHTML);
+  renderPreview();
 }
 
 function insertText(text) {
@@ -268,6 +309,7 @@ function insertText(text) {
 
 function renderPreview() {
   const html = markdownPreview(fields.body.value);
+  if (!visualEditor.innerHTML || editorViews.visual.hidden) visualEditor.innerHTML = html;
   preview.innerHTML = html;
   mainPreview.innerHTML = html;
   htmlView.textContent = html;
@@ -318,6 +360,19 @@ function setView(view) {
     button.classList.toggle("is-active", button.dataset.view === view);
   }
   renderPreview();
+}
+
+function richHtmlToMarkdown(html) {
+  const root = document.createElement("div");
+  root.innerHTML = html;
+  root.querySelectorAll("br").forEach((node) => node.replaceWith("\n"));
+  root.querySelectorAll("strong, b").forEach((node) => node.replaceWith(`**${node.textContent}**`));
+  root.querySelectorAll("em, i").forEach((node) => node.replaceWith(`*${node.textContent}*`));
+  root.querySelectorAll("h1, h2, h3").forEach((node) => node.replaceWith(`${"#".repeat(Number(node.tagName[1]))} ${node.textContent}\n\n`));
+  root.querySelectorAll("a").forEach((node) => node.replaceWith(`[${node.textContent}](${node.getAttribute("href") || ""})`));
+  root.querySelectorAll("img").forEach((node) => node.replaceWith(`![${node.getAttribute("alt") || ""}](${node.getAttribute("src") || ""})`));
+  root.querySelectorAll("li").forEach((node) => node.replaceWith(`- ${node.textContent}\n`));
+  return root.innerText.replace(/\n{3,}/g, "\n\n").trim();
 }
 
 function selectImage(file) {

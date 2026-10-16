@@ -221,6 +221,21 @@ textarea {
   min-height: 58vh;
 }
 
+.visual-editor {
+  min-height: 58vh;
+  outline: none;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.visual-editor img {
+  border-radius: 8px;
+  display: block;
+  height: auto;
+  margin: 1rem 0;
+  max-width: 100%;
+}
+
 .main-preview,
 .html-view {
   margin: 0;

@@ -1,2 +1,18 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Blogger · Administración</title><link rel="stylesheet" href="/admin/styles.css"></head><body><main class="admin-shell"><header class="admin-header"><div><p class="eyebrow">Administración / Blogger</p><h1>Generador de posts</h1><p>Herramienta interna para crear y preparar contenido.</p></div><a class="signout" href="/admin/">Volver al panel</a></header><p class="admin-note">La interfaz completa del editor se abre a continuación.</p><iframe title="Generador de posts" src="/tools/post-manager/" style="width:100%;height:80vh;border:1px solid #dbe4ef;border-radius:16px;background:#fff"></iframe></main><script type="module">import { requireAdminAccess } from '/assets/js/admin-gate.js'; await requireAdminAccess()</script></body></html>
-<script defer src="/assets/js/umami-analytics-core.js"></script>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Blogger · Administración</title>
+  </head>
+  <body>
+    <p>Abriendo el gestor de posts…</p>
+    <script type="module">
+      import { requireAdminAccess } from '/assets/js/admin-gate.js'
+      const user = await requireAdminAccess()
+      if (user) window.location.replace('/tools/post-manager/')
+    </script>
+    <script defer src="/assets/js/umami-analytics-core.js"></script>
+  </body>
+</html>
