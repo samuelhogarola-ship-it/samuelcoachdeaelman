@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { createServer } from "node:http";
-import { readFile } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
 import { spawn } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -95,10 +95,13 @@ async function serveStatic(urlPath, res) {
     ? normalizedPath.replace(/^\/tools\/post-manager\/?/, "/") || "/index.html"
     : normalizedPath;
   const baseDir = isPostManagerPath ? uiDir : rootDir;
-  const targetPath = path.resolve(baseDir, `.${relativePath}`);
+  let targetPath = path.resolve(baseDir, `.${relativePath}`);
   if (!targetPath.startsWith(baseDir)) return sendJson(res, { error: "Ruta no permitida" }, 403);
 
   try {
+    if ((await stat(targetPath)).isDirectory()) {
+      targetPath = path.join(targetPath, "index.html");
+    }
     const body = await readFile(targetPath);
     res.writeHead(200, {
       "Cache-Control": "no-store",
