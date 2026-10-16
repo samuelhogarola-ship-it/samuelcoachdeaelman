@@ -55454,5 +55454,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "lena-lernt-deutsch",
+    "nivel": "A1",
+    "titulo": "Lena lernt Deutsch",
+    "descripcion": "Lena kommt aus Spanien und besucht einen Deutschkurs in München.",
+    "texto": "Lena kommt aus Spanien. Sie wohnt jetzt in München. Lena lernt Deutsch in einem Sprachkurs. Der Kurs ist jeden Morgen von neun bis elf Uhr. Lena lernt neue Wörter jeden Tag. Sie übt auch mit einer App auf ihrem Handy.\n\nIn der Klasse sind zwölf Schüler. Sie kommen aus vielen Ländern: aus Italien, aus Brasilien und aus Japan. Der Lehrer heißt Herr Fischer. Er ist sehr freundlich und spricht langsam. Lena mag ihre Klasse sehr.\n\nNach dem Kurs trifft Lena ihre Freundin Mia im Café. Sie trinken Kaffee und sprechen Deutsch zusammen. „Dein Deutsch wird jeden Tag besser!“, sagt Mia. Lena lacht und ist glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lena kommt aus Spanien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Deutschkurs ist am Abend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena übt auch mit einer App.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Klasse sind zwölf Schüler.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena trifft ihre Freundin im Supermarkt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-obstkorb-von-opa-werner",
+    "nivel": "A1",
+    "titulo": "Der Obstkorb von Opa Werner",
+    "descripcion": "Opa Werner pflückt jeden Sonntag bunte Früchte für seine Enkelkinder.",
+    "texto": "Opa Werner hat einen großen Garten. Im Garten wachsen Äpfel, Birnen und Trauben. Jeden Sonntag pflückt Opa Werner Obst für seinen Obstkorb. Der Korb ist bunt: rote Äpfel, grüne Birnen und lila Trauben.\n\nAm Sonntag kommen die Kinder zu Besuch. Lisa und Tom lieben den Obstkorb von Opa Werner. „Ich möchte einen roten Apfel!“, sagt Lisa. Tom nimmt lieber die süßen Trauben. Oma Helga macht auch einen Kuchen mit den Birnen.\n\nNach dem Essen spielen die Kinder im Garten. Sie suchen Schnecken und beobachten die Vögel. Am Abend sagt Lisa: „Danke, Opa! Der Obstkorb ist immer lecker.“ Opa Werner lächelt und freut sich.",
+    "preguntas": [
+      {
+        "enunciado": "Opa Werner hat einen großen Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Garten wachsen nur Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst lieber Trauben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma Helga macht einen Kuchen mit Äpfeln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa dankt Opa Werner am Abend.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-dienstag-im-schwimmverein",
+    "nivel": "A1",
+    "titulo": "Mein Dienstag im Schwimmverein",
+    "descripcion": "Paul erzählt von seinem wöchentlichen Schwimmtraining.",
+    "texto": "Ich heiße Paul und ich bin zehn Jahre alt. Jeden Dienstag gehe ich zum Schwimmverein. Das Training beginnt um 16 Uhr und dauert eine Stunde. Ich schwimme gern Rückenschwimmen und Brustschwimmen.\n\nUnser Trainer heißt Herr Krause. Er ist streng, aber auch sehr nett. In meiner Gruppe sind acht Kinder. Nach dem Training sind wir immer sehr müde und hungrig.\n\nNach dem Schwimmen wartet meine Mutter vor dem Schwimmbad auf mich. Wir fahren zusammen nach Hause. Zu Hause esse ich immer ein großes Abendessen. Am Mittwoch bin ich oft noch müde, aber das Training macht mir viel Spaß.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht jeden Dienstag zum Schwimmverein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Training dauert zwei Stunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Pauls Gruppe sind acht Kinder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Krause ist der Trainer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul fährt mit dem Bus nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-zahnarzttermin-von-ben",
+    "nivel": "A2",
+    "titulo": "Der Zahnarzttermin von Ben",
+    "descripcion": "Ben hat Zahnschmerzen und muss zum ersten Mal zur Zahnärztin.",
+    "texto": "Ben hatte letzte Woche Zahnschmerzen. Seine Mutter hat sofort einen Termin beim Zahnarzt gemacht, weil Ben seit zwei Tagen nicht gut schlafen konnte. Der Termin war am Donnerstagnachmittag.\n\nIm Wartezimmer war Ben sehr nervös. Er hat ein Buch gelesen, um sich abzulenken. Als die Zahnärztin seinen Namen gerufen hat, ist Ben langsam ins Behandlungszimmer gegangen. Die Zahnärztin, Frau Dr. Keller, war sehr freundlich. Sie hat erklärt, dass Ben einen kleinen Kariesfleck an einem Backenzahn hatte.\n\nDie Behandlung hat nicht lange gedauert. Frau Dr. Keller hat den Zahn gebohrt und mit einer Füllung versorgt. Ben hat während der Behandlung fast keine Schmerzen gefühlt. Danach hat seine Mutter ihm versprochen, dass sie zusammen ein Eis essen gehen, wenn er brav war. Ben war sehr stolz auf sich.",
+    "preguntas": [
+      {
+        "enunciado": "Ben hatte Zahnschmerzen, weil er zu viel Schokolade gegessen hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Termin war am Donnerstagnachmittag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hat im Wartezimmer ein Buch gelesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahnärztin heißt Frau Dr. Keller.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Behandlung sind Ben und seine Mutter sofort nach Hause gefahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-kanada",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus Kanada",
+    "descripcion": "Sophie bekommt einen Brief von ihrer Cousine, die nach Toronto gezogen ist.",
+    "texto": "Sophie hat letzte Woche einen Brief aus Kanada bekommen. Der Brief war von ihrer Cousine Emma, die vor zwei Jahren mit ihrer Familie nach Toronto gezogen ist. Emma hat geschrieben, dass das Leben in Kanada ganz anders ist als in Deutschland.\n\nIn ihrem Brief hat Emma erzählt, dass der Winter in Toronto sehr kalt ist und es oft schneit. Sie hat auch berichtet, dass sie in der Schule neue Freunde gefunden hat, obwohl sie am Anfang kein Englisch sprechen konnte. Emma hat Fotos von einem Ahornblatt und von ihrem Haus mitgeschickt.\n\nSophie war sehr glücklich über den Brief und hat sofort geantwortet. Sie hat Emma erzählt, dass sie und ihre Familie im Sommer vielleicht nach Kanada fliegen, wenn ihre Eltern genug Geld gespart haben. Sophie freut sich schon sehr auf das Wiedersehen mit ihrer Cousine.",
+    "preguntas": [
+      {
+        "enunciado": "Emma wohnt jetzt in Toronto.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma konnte am Anfang gut Englisch sprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma hat Fotos mitgeschickt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat den Brief nicht beantwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie möchte im Sommer vielleicht nach Kanada fliegen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wochenende-auf-dem-ponyhof",
+    "nivel": "A2",
+    "titulo": "Das Wochenende auf dem Ponyhof",
+    "descripcion": "Mara und Lotta verbringen einen Samstag auf einem Ponyhof.",
+    "texto": "Am Samstag ist Mara mit ihrer Freundin Lotta auf einen Ponyhof gefahren. Die beiden Mädchen haben sich schon lange auf diesen Ausflug gefreut, weil sie beide Pferde lieben. Der Ponyhof liegt auf dem Land, etwa dreißig Minuten von ihrer Stadt entfernt.\n\nAuf dem Hof haben Mara und Lotta die Ponys gefüttert und geputzt. Ein Pony namens Max war besonders zutraulich. „Ich glaube, Max mag mich!“, hat Mara gelacht, als das Pony seine Hand geleckt hat. Am Nachmittag sind die Mädchen sogar eine kleine Runde auf den Ponys geritten.\n\nAm Abend waren Mara und Lotta müde, aber sehr glücklich. Sie haben beschlossen, dass sie bald wieder auf den Ponyhof fahren wollen. Maras Mutter hat gesagt, dass sie vielleicht im nächsten Monat noch einmal kommen können, wenn das Wetter gut bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Mara und Lotta sind auf einen Ponyhof gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Ponyhof liegt mitten in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Pony namens Max war sehr zutraulich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mädchen sind nicht auf den Ponys geritten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mara und Lotta möchten wieder auf den Ponyhof fahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-theaterauffuehrung-der-grundschule-lindenweg",
+    "nivel": "B1",
+    "titulo": "Die Theateraufführung der Grundschule Lindenweg",
+    "descripcion": "Eine vierte Klasse probt monatelang für eine moderne Version von Rotkäppchen.",
+    "texto": "An der Grundschule Lindenweg hat die vierte Klasse monatelang für eine Theateraufführung geprobt. Das Stück, eine moderne Version von „Rotkäppchen“, sollte am Ende des Schuljahres vor den Eltern aufgeführt werden. Obwohl viele Kinder am Anfang Lampenfieber hatten, wuchs ihre Begeisterung mit jeder Probe.\n\nNachdem die Lehrerin, Frau Albrecht, die Rollen verteilt hatte, begannen die Kinder, ihre Texte zu lernen und Kostüme zu basteln. Besonders die Rolle des Wolfs war beliebt, weil der Junge, der sie spielte, lustige Grimassen schneiden durfte. Trotzdem gab es auch Streit, denn zwei Mädchen wollten beide die Rolle von Rotkäppchen übernehmen. Am Ende entschied das Los.\n\nAm Tag der Aufführung war die Turnhalle voller Eltern und Großeltern. Die Kinder spielten mit so viel Energie, dass das Publikum mehrmals lachte und am Schluss lange applaudierte. Obwohl ein Junge seinen Text kurz vergaß, rettete seine Mitspielerin die Szene mit einem spontanen Satz. Nach der Vorstellung waren alle Kinder stolz, und Frau Albrecht versprach, im nächsten Jahr ein neues Stück einzustudieren.",
+    "preguntas": [
+      {
+        "enunciado": "Die vierte Klasse hat für ein Theaterstück geprobt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kinder waren von Anfang an völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zwei Mädchen wollten beide Rotkäppchen spielen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Aufführung fand in der Turnhalle statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Junge vergaß seinen Text, und die Aufführung musste abgebrochen werden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-nachtschichtwechsel-im-krankenhaus",
+    "nivel": "B1",
+    "titulo": "Der Nachtschichtwechsel im Krankenhaus",
+    "descripcion": "Markus arbeitet zum ersten Mal in der Nachtschicht eines Krankenhauses.",
+    "texto": "Markus arbeitet seit drei Jahren als Krankenpfleger in einem Krankenhaus in Leipzig. Diese Woche hat er zum ersten Mal in der Nachtschicht gearbeitet, nachdem sein Kollege plötzlich krank geworden war. Obwohl Markus schon viel Erfahrung im Beruf hat, war er vor der ersten Nachtschicht ziemlich nervös.\n\nDie Nachtschicht beginnt um 22 Uhr und endet um 6 Uhr morgens. In dieser Zeit ist das Krankenhaus viel ruhiger als am Tag, trotzdem gibt es immer wieder Notfälle. In der zweiten Nacht musste Markus einem älteren Patienten helfen, der plötzlich starke Schmerzen hatte. Nachdem der Arzt gerufen worden war, konnte der Patient schnell behandelt werden.\n\nAm Ende der Woche war Markus erschöpft, aber auch zufrieden mit seiner Arbeit. Er hat seinen Kollegen erzählt, dass die Nachtschicht anstrengender ist, als er gedacht hatte, obwohl er auch die ruhigeren Momente auf der Station genossen hat. Markus überlegt jetzt, ob er dauerhaft in die Nachtschicht wechseln soll, weil er ein höheres Gehalt bekommen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat zum ersten Mal in der Nachtschicht gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachtschicht beginnt um 18 Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der zweiten Nacht gab es einen Notfall.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus fand die Nachtschicht überhaupt nicht anstrengend.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus überlegt, dauerhaft in die Nachtschicht zu wechseln.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-in-die-marketingabteilung",
+    "nivel": "B1",
+    "titulo": "Der Wechsel in die Marketingabteilung",
+    "descripcion": "Julia wechselt nach fünf Jahren in der Buchhaltung in die Marketingabteilung.",
+    "texto": "Julia arbeitet seit fünf Jahren bei einer mittelgroßen Firma, die Sportartikel verkauft. Lange Zeit hat sie in der Buchhaltung gearbeitet, obwohl sie sich eigentlich immer für Werbung und Social Media interessiert hat. Als eine Stelle in der Marketingabteilung frei wurde, hat sie sich sofort beworben.\n\nNachdem Julia das Vorstellungsgespräch erfolgreich bestanden hatte, konnte sie vor zwei Monaten in die neue Abteilung wechseln. Der Anfang war nicht leicht, weil sie viele neue Programme lernen musste und ihre neuen Kollegen zunächst nicht kannte. Trotzdem hat sie sich schnell eingearbeitet, da ihre Vorgesetzte sie sehr unterstützt hat.\n\nHeute plant Julia Werbekampagnen für neue Produkte und arbeitet eng mit dem Designteam zusammen. Obwohl sie manchmal noch unsicher ist, ob sie alles richtig macht, genießt sie die kreative Arbeit viel mehr als die Zahlen in der Buchhaltung. Ihre Kollegen sagen, dass Julia schon jetzt wichtige Ideen für die nächste Kampagne beigetragen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat lange in der Buchhaltung gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat sich nicht für die freie Stelle beworben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Anfang in der neuen Abteilung war einfach für Julia.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia arbeitet mit dem Designteam zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia findet die Arbeit in der Marketingabteilung kreativer als die Buchhaltung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-und-der-journalismus-der-zukunft",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz und der Journalismus der Zukunft",
+    "descripcion": "Eine Analyse der Chancen und Risiken künstlicher Intelligenz in der Berichterstattung.",
+    "texto": "Die rasante Entwicklung künstlicher Intelligenz stellt den Journalismus vor tiefgreifende Herausforderungen. Immer mehr Redaktionen setzen Programme ein, die automatisch Texte zu Wetterberichten, Börsenkursen oder Sportergebnissen erstellen. Befürworter argumentieren, dass Journalisten dadurch von repetitiven Aufgaben entlastet würden und sich stärker auf investigative Recherchen konzentrieren könnten, die von einer Maschine kaum geleistet werden können.\n\nKritiker hingegen warnen, dass eine zunehmend von Algorithmen gesteuerte Berichterstattung die journalistische Sorgfaltspflicht gefährden könnte. Wenn Texte ohne menschliche Kontrolle veröffentlicht würden, bestünde die Gefahr, dass Fehler oder sogar erfundene Informationen unentdeckt blieben. Besonders beunruhigend sei, so die Kritiker, dass von künstlicher Intelligenz erzeugte Bilder und Videos kaum noch von echten Aufnahmen zu unterscheiden seien, was das Vertrauen der Öffentlichkeit in die Medien insgesamt erschüttern könnte.\n\nZahlreiche Verlage haben deshalb begonnen, Richtlinien für den Einsatz künstlicher Intelligenz zu entwickeln. Es wird zum Beispiel gefordert, dass von Maschinen erstellte Inhalte klar gekennzeichnet werden müssten, damit die Leserschaft stets wisse, woher ein Text stammt. Auch wird diskutiert, ob zusätzliche gesetzliche Regelungen nötig wären, um Missbrauch zu verhindern.\n\nTrotz aller Bedenken sind sich die meisten Experten einig, dass künstliche Intelligenz aus dem Journalismus der Zukunft nicht mehr verschwinden wird. Entscheidend sei vielmehr, wie verantwortungsvoll die Technologie eingesetzt werde und ob es gelinge, journalistische Standards auch im digitalen Zeitalter aufrechtzuerhalten.",
+    "preguntas": [
+      {
+        "enunciado": "Künstliche Intelligenz wird bereits für Wetterberichte und Sportergebnisse eingesetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass künstliche Intelligenz aus dem Journalismus verschwinden sollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Fehler ohne menschliche Kontrolle unentdeckt bleiben könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Von künstlicher Intelligenz erzeugte Bilder lassen sich laut Text immer leicht von echten Aufnahmen unterscheiden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Verlage fordern, dass von Maschinen erstellte Inhalte gekennzeichnet werden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "inklusion-an-deutschen-schulen",
+    "nivel": "B2",
+    "titulo": "Inklusion an deutschen Schulen",
+    "descripcion": "Mehr als ein Jahrzehnt nach der UN-Behindertenrechtskonvention fällt die Bilanz zur schulischen Inklusion gemischt aus.",
+    "texto": "Seit der Unterzeichnung der UN-Behindertenrechtskonvention im Jahr 2009 ist Deutschland verpflichtet, Kindern mit Behinderung den Besuch einer Regelschule zu ermöglichen. Dieses Konzept, das als schulische Inklusion bezeichnet wird, sollte sicherstellen, dass Kinder mit und ohne Förderbedarf gemeinsam lernen, anstatt in getrennten Einrichtungen unterrichtet zu werden. Mehr als ein Jahrzehnt später fällt die Bilanz jedoch gemischt aus.\n\nBefürworter der Inklusion betonen, dass gemeinsamer Unterricht sowohl Kindern mit als auch ohne Behinderung zugutekomme. Kinder würden frühzeitig lernen, dass Vielfalt zur Gesellschaft gehöre, und Vorurteile könnten so von Anfang an abgebaut werden. Studien deuten zudem darauf hin, dass sich die sozialen Fähigkeiten aller Beteiligten verbessern, wenn unterschiedliche Lernvoraussetzungen im Klassenzimmer zusammenkommen.\n\nKritiker weisen hingegen darauf hin, dass viele Schulen für eine erfolgreiche Umsetzung weder ausreichend Personal noch die notwendige räumliche Ausstattung hätten. Ohne genügend Sonderpädagogen, so wird argumentiert, könnten weder Kinder mit Förderbedarf angemessen unterstützt noch die übrigen Schüler ausreichend unterrichtet werden. Lehrerverbände fordern deshalb seit Jahren mehr finanzielle Mittel und kleinere Klassen, damit Inklusion nicht nur auf dem Papier, sondern auch im Schulalltag gelingen könne.\n\nOb Inklusion langfristig zu besseren Bildungschancen für alle führt, hängt daher maßgeblich davon ab, ob Politik und Gesellschaft bereit sind, die notwendigen Ressourcen bereitzustellen. Ohne eine solche Investition, warnen Experten, bleibe das Ziel einer wirklich inklusiven Schule in weiter Ferne.",
+    "preguntas": [
+      {
+        "enunciado": "Deutschland hat sich 2009 verpflichtet, Inklusion an Schulen zu ermöglichen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker lehnen die Inklusion grundsätzlich ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter meinen, dass Vorurteile durch gemeinsamen Unterricht abgebaut werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern verfügen alle Schulen bereits über ausreichend Sonderpädagogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lehrerverbände fordern mehr finanzielle Mittel für die Inklusion.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lichtverschmutzung-und-ihre-folgen-fuer-tiere",
+    "nivel": "B2",
+    "titulo": "Lichtverschmutzung und ihre Folgen für Tiere",
+    "descripcion": "Künstliches Licht verändert den Lebensrhythmus zahlreicher Tierarten und gilt als unterschätztes Umweltproblem.",
+    "texto": "Während künstliches Licht in Städten und Dörfern lange Zeit ausschließlich als Fortschritt gefeiert wurde, rückt inzwischen eine Kehrseite immer stärker in den Fokus der Wissenschaft: die sogenannte Lichtverschmutzung. Gemeint ist die zunehmende Aufhellung des Nachthimmels durch Straßenlaternen, Leuchtreklamen und beleuchtete Gebäude, die mittlerweile kaum noch einen wirklich dunklen Ort übrig lässt.\n\nBesonders betroffen von dieser Entwicklung sind zahlreiche Tierarten, deren Lebensrhythmus über Jahrtausende an den natürlichen Wechsel von Tag und Nacht angepasst wurde. Zugvögel etwa, die sich traditionell an den Sternen orientieren, würden durch die künstliche Beleuchtung der Städte in ihrer Navigation gestört, was nicht selten zu tödlichen Kollisionen mit beleuchteten Hochhäusern führe. Auch Insekten seien stark betroffen: Millionen von ihnen verenden jährlich, nachdem sie von Straßenlaternen angezogen wurden und vor Erschöpfung sterben, anstatt sich fortzupflanzen.\n\nUmweltschützer fordern deshalb, dass Städte und Gemeinden ihre Beleuchtungskonzepte grundlegend überdenken sollten. Wenn Straßenlaternen gezielter ausgerichtet und nur dann eingeschaltet würden, wenn tatsächlich Bedarf bestehe, ließe sich die Lichtverschmutzung deutlich reduzieren, ohne dass die Sicherheit im Straßenverkehr darunter leiden müsste. Einige Kommunen haben bereits begonnen, warmweißes statt kaltweißes Licht einzusetzen, da dieses für viele Tierarten als weniger störend gilt.\n\nTrotz erster Fortschritte bleibt die Lichtverschmutzung ein unterschätztes Umweltproblem, das in der öffentlichen Debatte bislang deutlich weniger Aufmerksamkeit erhält als etwa der Klimawandel oder die Luftverschmutzung. Experten sind sich jedoch einig, dass ein dunklerer Nachthimmel nicht nur dem Artenschutz, sondern auch dem menschlichen Wohlbefinden zugutekommen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Lichtverschmutzung bezeichnet die Aufhellung des Nachthimmels durch künstliches Licht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zugvögel orientieren sich laut Text nicht an den Sternen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Insekten sterben, weil sie von Straßenlaternen angezogen werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text gibt es weltweit keinen dunklen Ort mehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Kommunen setzen bereits warmweißes Licht ein.",
+        "respuesta": true
+      }
+    ]
   }
 ]
