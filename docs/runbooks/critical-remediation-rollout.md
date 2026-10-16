@@ -1,5 +1,55 @@
 # Critical Remediation Production Rollout
 
+## VPS product contract update — 2026-10-16
+
+Status: prepared and locally verified; **not applied to production**. This
+section supersedes the historical Hostinger deployment steps below for the VPS
+product-data correction. The audit is in `docs/audits/2026-10-16-vps-review.md`.
+
+The incremental migration is
+`supabase/migrations/20261016000001_vps_product_contract.sql`. It supports both
+the observed production schema and the earlier repository migration. It adds
+missing attempt fields, allows a null exercise ID, replaces both live and legacy
+ownership policies, removes direct user updates/deletes of attempts and all
+direct progress writes, and supplies the validated atomic progress RPC and the
+own-coach-message read receipt RPC.
+
+Scores remain client-reported. Users can submit a valid new attempt and progress
+event; this change does not claim server-side grading or prevent repeated valid
+submissions. Attempts accept a null score as the existing contract permits.
+Historical rows are preserved: the three attempt constraints are `NOT VALID`.
+The migration does not change newsletter, leads, premium membership or email
+configuration. Existing service-role table privileges are preserved.
+
+Production application is a separate approved operation after a verified backup
+and review of the live schema. Do not use an unrestricted `supabase db push` to
+apply this isolated fix: unrelated outstanding migrations include newsletter
+work that is not part of this rollout. Record the exact migration and transaction
+result, then verify the exercise-save and message-read flows with authorized test
+fixtures. Do not rewrite historical scores or validate old rows as part of this
+patch.
+
+Local SQL verification uses PostgreSQL through PGlite 0.5.10 in an isolated
+temporary directory; it adds no production dependency:
+
+```sh
+npm install --prefix /private/tmp/samuel-vps-contract-db --no-audit --no-fund --ignore-scripts @electric-sql/pglite@0.5.10
+PGLITE_MODULE=/private/tmp/samuel-vps-contract-db/node_modules/@electric-sql/pglite/dist/index.js node --test tests/integration/vps-product-contract.test.mjs
+node --test tests/unit/product-data-contract.test.mjs
+```
+
+Verified: both SQL scenarios passed (live schema and prior repository migration),
+including repeat application, preservation of an invalid historical row, valid
+inserts, denial of cross-user access and direct edits, null/non-finite/out-of-range
+input rejection, progress averaging, idempotent read receipts and retained
+service-role maintenance. Four existing product-contract tests also passed.
+Without `PGLITE_MODULE`, the integration tests explicitly skip. Native Supabase
+Docker/pgTAP and multi-connection contention tests were not run: the local Docker
+daemon was unavailable. Atomicity uses PostgreSQL `INSERT ... ON CONFLICT DO
+UPDATE`; the WASM harness checks sequential results and permissions.
+
+## Historical rollout — 2026-08-24
+
 Date prepared: 2026-08-24  
 Supabase project ref: `hocdlmxzghwymamientc`  
 Production hosts: `samuelcoachdealeman.com`, `www.samuelcoachdealeman.com`

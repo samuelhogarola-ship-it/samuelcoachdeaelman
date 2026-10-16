@@ -1,10 +1,9 @@
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 
 const rootDir = process.cwd();
-const sourceBlogDir = path.join(rootDir, "f");
+const origin = "https://www.samuelcoachdealeman.com";
 const sitemapFile = path.join(rootDir, "sitemap.xml");
-const unsupportedLocales = [];
 const legacyBlogAliases = [
   "demonstrativpronomen-los-pronombres-demostrativos-en-aleman",
   "el-imperativo-en-aleman",
@@ -18,68 +17,89 @@ const legacyBlogAliases = [
   "trennbare-verben-en-aleman-verbos-separables-y-no-separables",
 ];
 
-function findBlogFiles() {
-  const files = [];
+function attributes(tag) {
+  return Object.fromEntries([...tag.matchAll(/([\w-]+)=["']([^"']*)["']/g)].map(match => [match[1], match[2]]));
+}
 
+function findBlogPages() {
+  const pages = [];
   function walk(dir) {
+    if (!fs.existsSync(dir)) return;
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      const entryPath = path.join(dir, entry.name);
-      if (entry.isDirectory()) {
-        walk(entryPath);
-      } else if (entry.name === "index.html") {
-        files.push(entryPath);
+      const filePath = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(filePath);
+      else if (entry.name === "index.html") {
+        const html = fs.readFileSync(filePath, "utf8");
+        const links = [...html.matchAll(/<link\b[^>]*>/gi)].map(match => attributes(match[0]));
+        const canonical = links.find(link => link.rel === "canonical")?.href;
+        const route = path.relative(rootDir, filePath).replaceAll(path.sep, "/").replace(/index\.html$/, "");
+        const robots = [...html.matchAll(/<meta\b[^>]*>/gi)].map(match => attributes(match[0])).find(meta => meta.name === "robots")?.content || "";
+        if (canonical !== `${origin}/${route}` || /noindex/i.test(robots)) continue;
+        const locale = route.startsWith("de/") ? "de" : route.startsWith("en/") ? "en" : "es";
+        pages.push({ filePath, html, links, canonical, locale });
       }
     }
   }
-
-  walk(sourceBlogDir);
-  return files.sort();
+  for (const prefix of ["f", "de/f", "en/f"]) walk(path.join(rootDir, prefix));
+  return pages;
 }
 
-function removeUnsupportedAlternates(filePath) {
-  const source = fs.readFileSync(filePath, "utf8");
-  const consolidated = source.replace(
-    /\n\s*<link rel="alternate" hreflang="(?:de|en)" href="https:\/\/www\.samuelcoachdealeman\.com\/(?:de|en)\/f\/[^"]*">/g,
-    ""
-  );
-
-  if (consolidated !== source) {
-    fs.writeFileSync(filePath, consolidated, "utf8");
+function consolidateAlternates(pages) {
+  const byCanonical = new Map(pages.map(page => [page.canonical, page]));
+  const groups = new Map(pages.filter(page => page.locale === "es").map(page => [page.canonical, { es: page }]));
+  // A translation explicitly declares its Spanish source; a matching slug alone
+  // does not establish that two pages contain equivalent localized content.
+  for (const page of pages.filter(page => page.locale !== "es")) {
+    const spanish = page.links.find(link => link.hreflang === "es")?.href;
+    if (groups.has(spanish)) groups.get(spanish)[page.locale] = page;
+  }
+  for (const group of groups.values()) {
+    const translated = Boolean(group.de || group.en);
+    for (const page of Object.values(group)) {
+      let next = page.html;
+      if (translated) {
+        next = next.replace(/\n?[ \t]*<link\b[^>]*>/gi, tag => attributes(tag).hreflang ? "" : tag);
+        const alternates = ["es", "de", "en"].filter(locale => group[locale])
+          .map(locale => `  <link rel="alternate" hreflang="${locale}" href="${group[locale].canonical}">`);
+        alternates.push(`  <link rel="alternate" hreflang="x-default" href="${group.es.canonical}">`);
+        next = next.replace(/<link\b[^>]*>/gi, tag => attributes(tag).rel === "canonical" ? `${tag}\n${alternates.join("\n")}` : tag);
+      } else {
+        next = next.replace(/\n?[ \t]*<link\b[^>]*>/gi, tag => {
+          const link = attributes(tag);
+          return ["de", "en"].includes(link.hreflang) && !byCanonical.has(link.href) ? "" : tag;
+        });
+      }
+      if (next !== page.html) fs.writeFileSync(page.filePath, next, "utf8");
+    }
   }
 }
 
-function removeGeneratedLocaleTrees() {
-  for (const locale of unsupportedLocales) {
-    fs.rmSync(path.join(rootDir, locale, "f"), { recursive: true, force: true });
-  }
-}
-
-function removeLegacyBlogAliases() {
-  for (const slug of legacyBlogAliases) {
-    fs.rmSync(path.join(sourceBlogDir, slug), { recursive: true, force: true });
-  }
-}
-
-function removeLocalizedBlogSitemapBlock() {
+function updateBlogSitemap(pages) {
   if (!fs.existsSync(sitemapFile)) return;
-
   const source = fs.readFileSync(sitemapFile, "utf8");
-  const consolidated = source.replace(
-    /\s*<!-- BLOG-I18N:START -->[\s\S]*?<!-- BLOG-I18N:END -->\s*/g,
-    "\n"
-  );
-
-  if (consolidated !== source) {
-    fs.writeFileSync(sitemapFile, consolidated, "utf8");
+  const valid = new Set(pages.map(page => page.canonical));
+  const seen = new Set();
+  let next = source.replace(/\n?[ \t]*<url>[\s\S]*?<\/url>/g, block => {
+    const location = block.match(/<loc>([^<]+)<\/loc>/)?.[1];
+    if (!location?.match(/^https:\/\/www\.samuelcoachdealeman\.com\/(?:de\/|en\/)?f\//)) return block;
+    if (!valid.has(location) || seen.has(location)) return "";
+    seen.add(location);
+    return block;
+  });
+  const missing = [...valid].filter(url => !seen.has(url)).sort();
+  if (missing.length) {
+    const entries = missing.map(url => `  <url>\n    <loc>${url}</loc>\n  </url>`).join("\n");
+    next = next.replace("</urlset>", `${entries}\n</urlset>`);
   }
+  if (next !== source) fs.writeFileSync(sitemapFile, next, "utf8");
 }
 
-const blogFiles = findBlogFiles();
-blogFiles.forEach(removeUnsupportedAlternates);
-removeGeneratedLocaleTrees();
-removeLegacyBlogAliases();
-removeLocalizedBlogSitemapBlock();
-
-console.log(
-  `Consolidated ${blogFiles.length} Spanish blog pages; removed ${legacyBlogAliases.length} legacy aliases and untranslated /de/f/ and /en/f/ outputs.`
-);
+for (const slug of legacyBlogAliases) {
+  for (const prefix of ["f", "de/f", "en/f"]) {
+    fs.rmSync(path.join(rootDir, prefix, slug), { recursive: true, force: true });
+  }
+}
+const pages = findBlogPages();
+consolidateAlternates(pages);
+updateBlogSitemap(pages);
+console.log(`Consolidated ${pages.length} indexable blog pages, preserving real translations and removing legacy aliases.`);

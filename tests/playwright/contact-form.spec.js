@@ -77,6 +77,19 @@ test.describe("contact form", () => {
     );
   });
 
+  test("does not report delivery or clear the form for an HTML success response", async ({ page }) => {
+    await page.route("**/functions/v1/contact**", route => route.fulfill({
+      status: 200, contentType: "text/html", body: "<!doctype html><title>Fallback page</title>"
+    }));
+    await page.goto("/#valoracion");
+    await acceptCookiesIfVisible(page);
+    await fillHomeContactForm(page);
+    await page.getByRole("button", { name: /quiero mi plan personalizado/i }).click();
+    await expect(page.locator(".form-status")).not.toHaveText(/Mensaje enviado\./i);
+    await expect(page.locator('input[name="email"]')).toHaveValue("maria.gomez@example.com");
+    await expect(page.locator(".form-status")).toHaveText(/he preparado el email con tus datos/i);
+  });
+
   test("submits successfully with a mocked endpoint and mocked Turnstile", async ({ page }) => {
     let requestBody = null;
 

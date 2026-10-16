@@ -1,5 +1,50 @@
 # Contact Form Production Config
 
+## Node/VPS migration (2026-10-16)
+
+The Docker application runs Node, so the legacy `functions/v1/contact/index.php`
+and its PHP `mail()` call cannot handle requests. The Node server now routes
+`POST /functions/v1/contact` (with or without the final slash) to
+`scripts/contact-api.mjs`.
+
+Configure these server-only variables before expecting automatic delivery:
+
+- `RESEND_API_KEY`
+- `RESEND_FROM_EMAIL` (a sender verified in the selected Resend account)
+- `CONTACT_EMAIL` (the intended contact recipient)
+
+Missing configuration returns HTTP 503; provider failure returns 502. Neither
+response claims delivery, and the browser preserves the form and offers the
+prepared-email fallback. A successful response is sent only after the email
+provider accepts the message. The Node route does not store leads in Supabase.
+
+The handler limits JSON bodies to 32 KiB and delivery attempts to three per
+15 minutes per socket IP by default. With `TRUST_PROXY_HOPS=1`, it uses only the
+final valid IP in `X-Forwarded-For`, appended by the single trusted Traefik proxy.
+Earlier client-supplied values are ignored. A missing, malformed or invalid final
+address falls back to the socket IP. Enable this setting only when the app is
+reachable solely through that proxy, with no public container port. Other values
+do not enable proxy trust. Limits are in memory and reset on process restart.
+
+Turnstile is optional for this Node migration. If `TURNSTILE_SECRET_KEY` is set,
+the backend requires a valid token; configure the matching public site key in
+every contact page at the same time. Do not set only the backend secret.
+
+Audit evidence before deploying this change: the website contact route returned
+404, and the project's four contact/newsletter Edge Functions were absent.
+Newsletter also returned `PGRST205` for `newsletter_subscribers`; enabling it
+requires its reviewed database migrations, three newsletter Edge Functions and
+Resend configuration. These are separate from the Node contact route.
+
+Local verification uses mocked providers and sends no real email:
+
+```sh
+node --test tests/unit/contact-api.test.mjs
+npx playwright test tests/playwright/contact-form.spec.js --reporter=line
+```
+
+## Optional Supabase contact implementation
+
 The public contact form now reads its frontend configuration from `window.__SAMUEL_CONTACT_CONFIG__` and from these meta tags in the page `<head>`:
 
 - `samuel-turnstile-site-key`
@@ -18,7 +63,8 @@ Set the real public site key in one of these places:
 - `window.__SAMUEL_CONTACT_CONFIG__.turnstileSiteKey`
 - `<meta name="samuel-turnstile-site-key" content="YOUR_REAL_SITE_KEY">`
 
-If this value is missing, the form stays blocked by the frontend with the controlled security error message instead of silently bypassing Turnstile.
+If this value is missing, the current frontend does not enable Turnstile. If a
+real configured key cannot load, the form displays a controlled security error.
 
 ## Contact endpoint
 

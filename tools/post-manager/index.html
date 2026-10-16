@@ -101,9 +101,8 @@
     </main>
     <script type="module">
       import { requireAdminAccess } from '/assets/js/admin-gate.js'
-      await requireAdminAccess()
+      if (await requireAdminAccess()) await import("./app.js")
     </script>
     <script defer src="/assets/js/umami-analytics-core.js"></script>
-    <script type="module" src="app.js"></script>
   </body>
 </html>

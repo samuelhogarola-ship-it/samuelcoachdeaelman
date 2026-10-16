@@ -647,6 +647,14 @@ const initOfferForms = () => {
           return;
         }
 
+        // A proxy or static-host fallback can return 200 HTML. Only an explicit
+        // acknowledgement from the contact API confirms that delivery succeeded.
+        if (!result || result.success !== true) {
+          openEmailFallback(payload);
+          setStatusMessage(submitText.fallback, "error");
+          return;
+        }
+
         form.reset();
         requiredFields.forEach((field) => setFieldError(field, ""));
         setStatusMessage(

@@ -1,3 +1,6 @@
+import { supabase } from "/assets/js/auth.js";
+import { buildAdminLoginUrl } from "/assets/js/admin-gate-core.mjs";
+
 const fields = {
   title: document.querySelector("#title"),
   slug: document.querySelector("#slug"),
@@ -433,9 +436,17 @@ function matchesSearch(post, query) {
 }
 
 async function api(url, options = {}) {
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session) {
+    window.location.replace(buildAdminLoginUrl(location.pathname + location.search));
+    throw new Error("Inicia sesion como administrador.");
+  }
   const response = await fetch(url, {
     method: options.method || "GET",
-    headers: options.body ? { "Content-Type": "application/json" } : undefined,
+    headers: {
+      Authorization: `Bearer ${session.access_token}`,
+      ...(options.body ? { "Content-Type": "application/json" } : {}),
+    },
     body: options.body ? JSON.stringify(options.body) : undefined,
   });
   const data = await response.json();

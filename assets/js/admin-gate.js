@@ -12,7 +12,7 @@ export async function requireAdminAccess({ root = document.body } = {}) {
   const { data: { session } } = sessionResult
   if (!session || !isAdminUser(session.user)) {
     if (session) await supabase.auth.signOut()
-    window.location.replace(buildAdminLoginUrl())
+    window.location.replace(buildAdminLoginUrl(window.location.pathname + window.location.search))
     return null
   }
   root.removeAttribute('aria-busy')

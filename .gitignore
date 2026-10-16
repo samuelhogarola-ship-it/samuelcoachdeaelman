@@ -9,3 +9,4 @@ playwright-report/
 test-results/
 .env.local
 .env.*.local
+site-data/

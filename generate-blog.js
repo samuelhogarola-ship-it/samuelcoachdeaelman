@@ -100,13 +100,10 @@ function generateHtmlPage(slug, frontmatter, htmlContent) {
   const publishDate = frontmatter.date || new Date().toISOString().split('T')[0];
   const author = frontmatter.author || 'Samuel Coach de Alemán';
 
-  let image = 'https://www.samuelcoachdealeman.com/assets/img/og-blog.webp';
-  if (frontmatter.image) {
-    if (frontmatter.image === 'default') {
-      image = 'https://www.samuelcoachdealeman.com/assets/img/og-blog.webp';
-    } else {
-      image = `https://www.samuelcoachdealeman.com/f/${slug}/${frontmatter.image}`;
-    }
+  let image = 'https://www.samuelcoachdealeman.com/assets/img/og-home.webp';
+  if (frontmatter.image && frontmatter.image !== 'default'
+      && fs.existsSync(path.join(OUTPUT_DIR, slug, frontmatter.image))) {
+    image = `https://www.samuelcoachdealeman.com/f/${slug}/${frontmatter.image}`;
   }
 
   return `<!DOCTYPE html>

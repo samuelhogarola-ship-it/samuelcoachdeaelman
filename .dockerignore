@@ -10,3 +10,4 @@ output/seo
 *.log
 .env
 .env.*
+site-data
