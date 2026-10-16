@@ -296,6 +296,7 @@
 
       <!-- Sign in -->
       <div id="panel-signin">
+        <div id="signin-session" class="msg msg-ok" hidden></div>
         <div id="signin-error" class="msg msg-error" hidden></div>
         <form id="form-signin" novalidate>
           <div class="field">
@@ -432,7 +433,11 @@
 
     if (isRecovery) showCard('card-newpass')
     if (flow.error) showMsg(isRecovery ? 'newpass-error' : 'signin-error', flow.error.message, 'error')
-    if (flow.session && !isRecovery) redirect()
+    if (flow.session && !isRecovery) {
+      const sessionNote = document.getElementById('signin-session')
+      sessionNote.textContent = `Sesión activa: ${flow.session.user.email || 'cuenta actual'}. Puedes continuar o iniciar sesión con otra cuenta.`
+      sessionNote.hidden = false
+    }
 
     supabase.auth.onAuthStateChange((event, session) => {
       if (event === 'PASSWORD_RECOVERY') showCard('card-newpass')
@@ -445,10 +450,16 @@
       clearMsg('signin-error')
       const btn = e.target.querySelector('.btn-primary')
       setLoading(btn, true)
-      const { error } = await signIn(
-        document.getElementById('signin-email').value.trim(),
-        document.getElementById('signin-password').value
-      )
+      let error = null
+      try {
+        const result = await signIn(
+          document.getElementById('signin-email').value.trim(),
+          document.getElementById('signin-password').value
+        )
+        error = result.error
+      } catch (caught) {
+        error = caught
+      }
       setLoading(btn, false)
       if (error) { showMsg('signin-error', error.message, 'error'); return }
       redirect()
