@@ -1,0 +1,12 @@
+.git
+.github
+.claude
+.codex
+.agents
+node_modules
+test-results
+playwright-report
+output/seo
+*.log
+.env
+.env.*

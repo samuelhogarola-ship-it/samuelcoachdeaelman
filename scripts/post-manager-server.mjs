@@ -34,6 +34,10 @@ const server = createServer(async (req, res) => {
   try {
     const url = new URL(req.url, `http://${req.headers.host}`);
 
+    if (url.pathname === "/health" && req.method === "GET") {
+      return sendJson(res, { ok: true, service: "samuel-coach" });
+    }
+
     if (url.pathname === "/api/posts" && req.method === "GET") {
       return sendJson(res, { posts: await listPosts(rootDir) });
     }
@@ -79,14 +83,19 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(port, "127.0.0.1", () => {
-  console.log(`Gestor de posts listo en http://127.0.0.1:${port}`);
+const host = process.env.POST_MANAGER_HOST || "127.0.0.1";
+server.listen(port, host, () => {
+  console.log(`Gestor de posts listo en http://${host}:${port}`);
 });
 
 async function serveStatic(urlPath, res) {
   const normalizedPath = urlPath === "/" ? "/index.html" : urlPath;
-  const baseDir = normalizedPath.startsWith("/assets/") || normalizedPath.startsWith("/f/") ? rootDir : uiDir;
-  const targetPath = path.resolve(baseDir, `.${normalizedPath}`);
+  const isPostManagerPath = normalizedPath === "/tools/post-manager" || normalizedPath.startsWith("/tools/post-manager/");
+  const relativePath = isPostManagerPath
+    ? normalizedPath.replace(/^\/tools\/post-manager\/?/, "/") || "/index.html"
+    : normalizedPath;
+  const baseDir = isPostManagerPath ? uiDir : rootDir;
+  const targetPath = path.resolve(baseDir, `.${relativePath}`);
   if (!targetPath.startsWith(baseDir)) return sendJson(res, { error: "Ruta no permitida" }, 403);
 
   try {

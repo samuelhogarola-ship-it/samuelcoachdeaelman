@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><title>Administración · Samuel Coach</title>
+  <link rel="stylesheet" href="/admin/styles.css">
+</head>
+<body>
+  <main class="admin-shell">
+    <header class="admin-header">
+      <div><p class="eyebrow">Samuel Coach de Alemán</p><h1>Panel de administración</h1><p>Acceso privado a las herramientas profesionales de contenido y seguimiento.</p></div>
+      <button class="signout" type="button" data-admin-signout>Cerrar sesión</button>
+    </header>
+    <section class="tool-grid" aria-label="Herramientas">
+      <article class="tool-card"><span class="tool-icon" aria-hidden="true">✍️</span><h2>Generador de posts</h2><p>Redacta, revisa y prepara posts del blog con sus metadatos e imágenes.</p><a href="/admin/blogger/">Abrir blogger</a></article>
+      <article class="tool-card"><span class="tool-icon" aria-hidden="true">📋</span><h2>Generador de informes</h2><p>Crea informes de progreso para tus alumnos a partir de las plantillas existentes.</p><a href="/admin/informes/">Abrir informes</a></article>
+    </section>
+    <p class="admin-note">Este panel está separado de la web pública y no se indexa en buscadores.</p>
+  </main>
+  <script defer src="/assets/js/umami-analytics-core.js"></script>
+  <script type="module">
+    import { requireAdminAccess, wireAdminSignOut } from '/assets/js/admin-gate.js'
+    await requireAdminAccess()
+    wireAdminSignOut()
+  </script>
+</body>
+</html>

@@ -1578,5 +1578,9 @@ window.addEventListener('beforeinstallprompt',e=>{
   document.querySelector('.tbar').appendChild(btn);
 });
 </script>
+  <script type="module">
+    import { requireAdminAccess } from '/assets/js/admin-gate.js'
+    await requireAdminAccess()
+  </script>
 </body>
 </html>
