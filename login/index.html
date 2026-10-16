@@ -383,6 +383,19 @@
 
   <!-- Navigation works independently of auth module so it never breaks -->
   <script>
+    // Never allow credentials to remain in the address bar or browser history.
+    (() => {
+      const url = new URL(location.href)
+      let changed = false
+      ;['email', 'password'].forEach(key => {
+        if (url.searchParams.has(key)) {
+          url.searchParams.delete(key)
+          changed = true
+        }
+      })
+      if (changed) history.replaceState({}, document.title, `${url.pathname}${url.search}${url.hash}`)
+    })()
+
     function showCard(name) {
       ['card-auth','card-reset','card-newpass'].forEach(id => {
         const el = document.getElementById(id); if (el) el.hidden = id !== name
