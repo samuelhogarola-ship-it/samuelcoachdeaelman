@@ -37,7 +37,6 @@ const editorViews = {
 
 document.querySelector("#newPost").addEventListener("click", newPost);
 document.querySelector("#savePost").addEventListener("click", savePost);
-document.querySelector("#buildBlog").addEventListener("click", buildBlog);
 document.querySelector("#imageUpload").addEventListener("change", uploadImages);
 document.querySelector("#saveImageMeta").addEventListener("click", saveSelectedImageMeta);
 document.querySelector("#setFeaturedImage").addEventListener("click", setSelectedImageAsFeatured);
@@ -160,12 +159,6 @@ async function savePost() {
   await loadPosts();
   await loadPost(post.slug);
   statusText.textContent = "Guardado";
-}
-
-async function buildBlog() {
-  statusText.textContent = "Generando HTML...";
-  const result = await api("/api/build", { method: "POST", body: {} });
-  statusText.textContent = result.ok ? "HTML generado" : "No se pudo generar";
 }
 
 async function uploadImages(event) {

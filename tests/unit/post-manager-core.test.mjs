@@ -20,7 +20,7 @@ import {
 test("el gestor mantiene la lista a la izquierda y las vistas de lectura separadas", () => {
   const html = readFileSync(new URL("../../tools/post-manager/index.html", import.meta.url), "utf8");
   const css = readFileSync(new URL("../../tools/post-manager/styles.css", import.meta.url), "utf8");
-  assert.match(html, /id="buildBlog"[^>]*>Vista HTML/);
+  assert.doesNotMatch(html, /Generar HTML/);
   assert.match(html, /id="visualEditor"[^>]*contenteditable="true"/);
   assert.match(html, /data-view="visual"[^>]*>Vista normal/);
   assert.match(html, /data-view="html"[^>]*>Vista HTML/);
