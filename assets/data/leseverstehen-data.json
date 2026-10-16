@@ -56498,5 +56498,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-kleine-garten-von-oma",
+    "nivel": "A1",
+    "titulo": "Der kleine Garten von Oma",
+    "descripcion": "Lukas hilft seiner Oma im Garten und lernt die Namen der Pflanzen.",
+    "texto": "Lukas besucht seine Oma am Samstag. Oma hat einen kleinen Garten hinter dem Haus. Im Garten wachsen Tomaten, Karotten und Erdbeeren. Lukas mag die Erdbeeren am liebsten.\n\nOma gibt Lukas eine kleine Gießkanne. Zusammen gießen sie die Pflanzen. Lukas lernt die Namen der Blumen: Rosen, Tulpen und Sonnenblumen. Die Sonnenblumen sind sehr groß und gelb.\n\nAm Ende des Tages pflückt Lukas fünf Erdbeeren. Er isst zwei Erdbeeren im Garten. Die anderen drei nimmt er mit nach Hause für seine Mama. Oma sagt: „Komm bald wieder!\"",
+    "preguntas": [
+      {
+        "enunciado": "Lukas besucht seine Oma am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Garten wachsen Kartoffeln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas mag die Erdbeeren am liebsten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Sonnenblumen sind klein und blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas nimmt drei Erdbeeren für seine Mama mit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsessen-nudeln",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsessen: Nudeln",
+    "descripcion": "Sofia erzählt, warum Nudeln mit Tomatensoße ihr Lieblingsessen sind.",
+    "texto": "Sofia ist zehn Jahre alt. Ihr Lieblingsessen sind Nudeln mit Tomatensoße. Jeden Freitag kocht ihre Mama dieses Essen. Sofia hilft gern in der Küche.\n\nZuerst kocht Sofia die Nudeln in Wasser. Dann macht ihre Mama die Tomatensoße mit Tomaten, Zwiebeln und Basilikum. Sofia schneidet den Käse. Am Ende streut sie den Käse über die Nudeln.\n\nDie Familie isst zusammen am Tisch. Sofias kleiner Bruder mag die Nudeln auch sehr. Er isst immer zwei Teller. Nach dem Essen sagt Sofia: „Das war super lecker!\"",
+    "preguntas": [
+      {
+        "enunciado": "Sofias Lieblingsessen sind Nudeln mit Tomatensoße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia kocht jeden Montag dieses Essen mit ihrer Mama.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tomatensoße hat Zwiebeln und Basilikum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofias Bruder mag die Nudeln nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofias Bruder isst immer zwei Teller.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-kleiner-bruder-mag-dinosaurier",
+    "nivel": "A1",
+    "titulo": "Mein kleiner Bruder mag Dinosaurier",
+    "descripcion": "Nico beschreibt das große Hobby seines kleinen Bruders Felix.",
+    "texto": "Mein kleiner Bruder heißt Felix. Felix ist fünf Jahre alt und liebt Dinosaurier. Er hat viele Dinosaurier-Spielzeuge in seinem Zimmer. Sein Lieblingsdinosaurier ist der Tyrannosaurus.\n\nFelix malt oft Bilder von Dinosauriern. Er malt sie grün und braun. Manchmal malt er auch rosa Dinosaurier, weil er das lustig findet. In der Schule erzählt er allen von seinem Wissen.\n\nAm Wochenende gehen wir oft ins Museum. Felix schaut die großen Dinosaurierknochen an und ist jedes Mal begeistert. Danach kauft er sich ein kleines Dinosaurierbuch im Museumsladen.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist fünf Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix mag am liebsten Pferde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix malt manchmal rosa Dinosaurier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix erzählt in der Schule nie von Dinosauriern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix kauft sich im Museumsladen ein Dinosaurierbuch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schluessel-im-garten",
+    "nivel": "A2",
+    "titulo": "Der Schlüssel im Garten",
+    "descripcion": "Herr Fischer sucht verzweifelt seinen Hausschlüssel, nachdem er im Garten gearbeitet hat.",
+    "texto": "Am Sonntagnachmittag hat Herr Fischer im Garten gearbeitet. Er hat Unkraut entfernt und die Blumen gegossen. Als er fertig war, wollte er ins Haus gehen, aber er konnte seinen Schlüssel nicht finden.\n\nWeil er keinen Zweitschlüssel bei sich hatte, musste er seine Tochter anrufen, die zum Glück noch einen Schlüssel besaß. Während er auf seine Tochter wartete, hat er noch einmal im Garten gesucht. Er hat die Erde um die Blumenbeete abgesucht, weil er dort zuletzt gearbeitet hatte.\n\nSchließlich hat er den Schlüssel unter einem großen Blatt gefunden. Er war so erleichtert, dass er sofort seiner Tochter Bescheid gegeben hat, bevor sie losgefahren ist. Von diesem Tag an trägt Herr Fischer seinen Schlüssel immer an einer Kette um den Hals.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Fischer hat am Sonntag im Garten gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Fischer hatte einen Zweitschlüssel in der Tasche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Tochter ist losgefahren, bevor er den Schlüssel gefunden hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schlüssel lag unter einem Blatt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Fischer trägt seinen Schlüssel jetzt an einer Kette.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-neuer-haarschnitt-vor-der-party",
+    "nivel": "A2",
+    "titulo": "Ein neuer Haarschnitt vor der Party",
+    "descripcion": "Jan möchte vor einer wichtigen Geburtstagsparty einen neuen Haarschnitt bekommen.",
+    "texto": "Jan hat am Freitag einen Termin beim Friseur gemacht, weil am Samstag die große Geburtstagsparty seines besten Freundes stattfand. Er wollte gut aussehen und hat sich deshalb für einen neuen Haarschnitt entschieden.\n\nIm Friseursalon hat er dem Friseur ein Foto gezeigt, das er im Internet gefunden hatte. Der Friseur hat gelacht und gesagt, dass diese Frisur zu Jans Gesicht passen würde. Nach vierzig Minuten war der neue Haarschnitt fertig, und Jan hat sich im Spiegel kaum wiedererkannt.\n\nAuf der Party haben alle Freunde den neuen Haarschnitt bemerkt und Jan Komplimente gemacht. Sein bester Freund hat gesagt, dass er noch nie so gut ausgesehen habe. Jan war den ganzen Abend sehr zufrieden mit sich.",
+    "preguntas": [
+      {
+        "enunciado": "Jan hat den Friseurtermin für Freitag gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Party war am Sonntag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jan hat dem Friseur ein Foto aus dem Internet gezeigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Haarschnitt hat über zwei Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde haben Jan auf der Party Komplimente gemacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-regenschirm-am-bahnhof",
+    "nivel": "A2",
+    "titulo": "Der Regenschirm am Bahnhof",
+    "descripcion": "Katrin vergisst ihren Regenschirm am Bahnhof und muss ihn wiederfinden.",
+    "texto": "Letzten Dienstag ist Katrin mit dem Zug zur Arbeit gefahren. Es hat stark geregnet, deshalb hatte sie ihren großen roten Regenschirm dabei. Als sie am Bahnhof ausgestiegen ist, hat sie ihre Tasche genommen, aber den Regenschirm im Zug vergessen.\n\nErst am Nachmittag ist ihr aufgefallen, dass der Regenschirm fehlte. Weil sie wusste, dass es wichtig war, den Schirm wiederzufinden, hat sie beim Fundbüro des Bahnhofs angerufen. Die Mitarbeiterin dort hat gesagt, dass sie vorbeikommen solle, weil mehrere rote Regenschirme abgegeben worden waren.\n\nAm Abend ist Katrin zum Fundbüro gegangen und hat tatsächlich ihren Regenschirm wiedergefunden. Sie war froh, dass jemand ihn im Zug entdeckt und abgegeben hatte. Seitdem passt sie besser auf ihre Sachen auf, wenn sie mit dem Zug fährt.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin ist am Dienstag mit dem Auto zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrin hat ihren Regenschirm im Zug vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin hat sofort am Morgen bemerkt, dass der Schirm fehlt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Fundbüro gab es mehrere rote Regenschirme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin hat ihren Regenschirm nicht wiedergefunden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrt-nach-hamburg-mit-der-schulklasse",
+    "nivel": "B1",
+    "titulo": "Die Fahrt nach Hamburg mit der Schulklasse",
+    "descripcion": "Eine Schulklasse erlebt eine aufregende Klassenfahrt nach Hamburg.",
+    "texto": "Die 10. Klasse des Goethe-Gymnasiums ist letzte Woche für drei Tage nach Hamburg gefahren. Obwohl einige Schüler zunächst wenig Interesse an der Stadt gezeigt hatten, änderte sich das schnell, nachdem sie den Hafen und die Speicherstadt besucht hatten. Die beeindruckende Architektur und die vielen Schiffe faszinierten fast alle.\n\nAm zweiten Tag stand ein Besuch im Miniatur Wunderland auf dem Programm, der größten Modelleisenbahnanlage der Welt. Obwohl einige Schüler anfangs skeptisch waren, ob eine Modellbahnausstellung wirklich spannend sein könnte, verbrachten sie am Ende Stunden damit, die winzigen Details zu bestaunen. Abends durften die Jugendlichen in kleinen Gruppen die Innenstadt erkunden, was ihnen besonders gut gefiel.\n\nAm letzten Tag, nachdem das Gepäck bereits gepackt war, machte die Klasse noch eine Hafenrundfahrt. Die Lehrerin, Frau Hoffmann, war begeistert davon, wie diszipliniert sich die Schüler während der ganzen Reise verhalten hatten. Auf der Rückfahrt im Bus waren sich alle einig: Diese Klassenfahrt würden sie nie vergessen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klassenfahrt dauerte drei Tage.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler waren von Anfang an begeistert von Hamburg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Miniatur Wunderland fanden die Schüler nach kurzer Zeit alles langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Tag machte die Klasse eine Hafenrundfahrt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Hoffmann war unzufrieden mit dem Verhalten der Schüler.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "konflikte-in-der-wg",
+    "nivel": "B1",
+    "titulo": "Konflikte in der WG",
+    "descripcion": "Drei Mitbewohner müssen lernen, Konflikte über Hausarbeit und Lautstärke zu lösen.",
+    "texto": "Seit drei Monaten wohnen Lisa, Ben und Nora zusammen in einer Wohngemeinschaft in Köln. Anfangs lief alles harmonisch, doch nachdem der Alltag eingekehrt war, kam es immer häufiger zu kleinen Streitigkeiten. Besonders die Aufteilung der Hausarbeit sorgte für Spannungen, weil Ben seine Aufgaben oft vergaß.\n\nTrotzdem die anderen beiden mehrmals freundlich darauf hingewiesen hatten, änderte sich zunächst nichts. Hinzu kam, dass Nora oft spät abends laute Musik hörte, was Lisa beim Lernen störte. Nachdem die Situation immer angespannter wurde, beschlossen die drei, ein offenes Gespräch zu führen.\n\nBei diesem Gespräch stellte sich heraus, dass Ben unter großem Stress in der Uni stand und deshalb den Haushalt vernachlässigt hatte. Die drei einigten sich schließlich auf einen klaren Putzplan und feste Ruhezeiten. Obwohl es am Anfang ungewohnt war, sich an diese Regeln zu halten, verbesserte sich das Zusammenleben in der WG merklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa, Ben und Nora wohnen seit drei Monaten zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hat seine Hausarbeiten immer zuverlässig gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nora hat abends oft laute Musik gehört.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die drei haben nie über die Probleme gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Gespräch haben sie einen Putzplan und Ruhezeiten eingeführt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "beste-freundinnen-trotz-der-entfernung",
+    "nivel": "B1",
+    "titulo": "Beste Freundinnen trotz der Entfernung",
+    "descripcion": "Zwei beste Freundinnen pflegen ihre Freundschaft, obwohl sie in verschiedenen Ländern leben.",
+    "texto": "Lea und Nora sind seit der Grundschule beste Freundinnen. Nachdem Noras Familie vor zwei Jahren nach Kanada gezogen war, befürchteten beide, dass ihre Freundschaft darunter leiden würde. Trotzdem haben sie einen Weg gefunden, in Kontakt zu bleiben.\n\nJeden Sonntag telefonieren sie per Videoanruf und erzählen sich, was in der vergangenen Woche passiert ist. Obwohl die Zeitverschiebung manchmal schwierig ist, finden sie immer eine passende Zeit. Außerdem schreiben sie sich fast täglich Nachrichten und schicken sich Fotos von ihrem Alltag.\n\nLetzten Sommer konnte Lea Nora schließlich in Kanada besuchen, nachdem sie lange dafür gespart hatte. Die beiden verbrachten zwei unvergessliche Wochen zusammen und merkten, dass sich an ihrer Freundschaft nichts geändert hatte. Sie sind sich sicher, dass die Entfernung ihre Verbindung nie zerstören wird.",
+    "preguntas": [
+      {
+        "enunciado": "Nora ist vor zwei Jahren nach Kanada gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea und Nora haben seit dem Umzug keinen Kontakt mehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden telefonieren jeden Sonntag per Videoanruf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea konnte Nora noch nie besuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Besuch merkten sie, dass sich ihre Freundschaft verändert hatte.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wohnungsmangel-in-den-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Wohnungsmangel in den Großstädten",
+    "descripcion": "Eine Analyse der Ursachen und möglichen Lösungen der Wohnungsknappheit in deutschen Großstädten.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Suche nach bezahlbarem Wohnraum in den letzten Jahren zu einem der dringendsten gesellschaftlichen Probleme entwickelt. Während die Mieten in Metropolen wie München, Berlin oder Hamburg stetig steigen, wächst das Angebot an neuen Wohnungen nur langsam, was zu einem erheblichen Ungleichgewicht zwischen Angebot und Nachfrage führt.\n\nAls Hauptursachen werden häufig der anhaltende Zuzug in die Städte, die gestiegenen Baukosten sowie restriktive Bauvorschriften genannt. Würden die Genehmigungsverfahren für neue Bauprojekte beschleunigt, ließe sich das Angebot zwar theoretisch erhöhen, doch in der Praxis scheitern viele Vorhaben an bürokratischen Hürden oder am Widerstand lokaler Anwohner, die Veränderungen in ihrem Wohnumfeld ablehnen.\n\nUm der Krise zu begegnen, werden verschiedene Lösungsansätze diskutiert. Einerseits fordern manche Politiker eine strengere Mietpreisbremse, die verhindern soll, dass Mieten noch weiter in die Höhe getrieben werden. Andererseits wird argumentiert, dass solche Maßnahmen Investoren abschrecken und somit den Wohnungsbau zusätzlich hemmen könnten. Letztlich wird es entscheidend sein, ob es gelingt, soziale Gerechtigkeit und wirtschaftliche Anreize miteinander in Einklang zu bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text sinken die Mieten in deutschen Großstädten seit Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zuzug in die Städte wird als eine Ursache der Wohnungsnot genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bürokratische Hürden erschweren laut Text neue Bauprojekte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Politiker sind sich laut Text einig, wie die Krise gelöst werden soll.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erwähnt, dass eine strengere Mietpreisbremse auch Nachteile haben könnte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medien-und-das-schwindende-vertrauen",
+    "nivel": "B2",
+    "titulo": "Medien und das schwindende Vertrauen",
+    "descripcion": "Ein Text über das schwindende Vertrauen in traditionelle Medien und die Rolle sozialer Netzwerke.",
+    "texto": "In den letzten Jahren ist das Vertrauen vieler Bürger in traditionelle Medien wie Zeitungen und Fernsehsender zunehmend gesunken. Diese Entwicklung wird von Experten auf verschiedene Faktoren zurückgeführt, darunter die wachsende Verbreitung sozialer Netzwerke, in denen Informationen oft unreflektiert geteilt werden, sowie eine allgemeine Skepsis gegenüber etablierten Institutionen.\n\nKritiker werfen den klassischen Medien vor, bestimmte Themen einseitig darzustellen oder wirtschaftliche Interessen über journalistische Sorgfalt zu stellen. Befürworter hingegen betonen, dass professioneller Journalismus nach wie vor strengen Qualitätsstandards unterliege, die bei Inhalten aus sozialen Netzwerken häufig fehlten. Würde die Bevölkerung stärker zwischen seriösen und unseriösen Quellen unterscheiden, ließe sich die Verbreitung von Falschinformationen vermutlich deutlich reduzieren.\n\nUm das Vertrauen in die Medien wiederherzustellen, setzen manche Verlage auf mehr Transparenz, etwa indem sie ihre Recherchemethoden offenlegen oder Leserinnen und Lesern die Möglichkeit geben, Fragen direkt an Journalisten zu stellen. Ob solche Maßnahmen ausreichen, um das verlorene Vertrauen zurückzugewinnen, bleibt jedoch fraglich, solange gleichzeitig die Menge an unkontrollierten Informationen in sozialen Netzwerken weiter zunimmt.",
+    "preguntas": [
+      {
+        "enunciado": "Das Vertrauen in traditionelle Medien ist laut Text in den letzten Jahren gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Soziale Netzwerke werden im Text als ein Faktor für sinkendes Medienvertrauen genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind sich alle Experten einig, dass klassische Medien immer objektiv berichten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Verlage setzen laut Text auf mehr Transparenz, um Vertrauen zurückzugewinnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass das Problem der Falschinformationen bereits vollständig gelöst ist.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "veraenderte-erwartungen-an-die-work-life-balance",
+    "nivel": "B2",
+    "titulo": "Veränderte Erwartungen an die Work-Life-Balance",
+    "descripcion": "Eine Auseinandersetzung mit veränderten Erwartungen an die Vereinbarkeit von Beruf und Privatleben.",
+    "texto": "Die Vorstellung davon, wie Berufs- und Privatleben miteinander in Einklang gebracht werden sollten, hat sich in den vergangenen Jahrzehnten erheblich gewandelt. Während frühere Generationen oft bereit waren, berufliche Anforderungen klar über persönliche Bedürfnisse zu stellen, legen jüngere Arbeitnehmer zunehmend Wert darauf, dass ihre Arbeit genügend Raum für Familie, Hobbys und Erholung lässt.\n\nDiese veränderte Haltung wird von manchen Arbeitgebern als Herausforderung wahrgenommen, da starre Arbeitszeitmodelle den neuen Erwartungen oft nicht mehr gerecht werden. Flexible Arbeitszeiten, Homeoffice-Möglichkeiten und die Viertagewoche werden daher zunehmend als Maßnahmen diskutiert, mit denen Unternehmen attraktiver für qualifizierte Fachkräfte werden könnten. Gäbe es keine Anpassung an diese Erwartungen, würden viele Unternehmen vermutlich zunehmend Schwierigkeiten haben, geeignetes Personal zu finden.\n\nAllerdings wird auch kritisch angemerkt, dass eine verbesserte Work-Life-Balance nicht für alle Branchen gleich leicht umzusetzen sei. Insbesondere in Berufen, die direkten Kundenkontakt erfordern, etwa im Gesundheitswesen oder im Einzelhandel, lassen sich flexible Modelle nur begrenzt einführen. Es bleibt daher eine zentrale gesellschaftliche Aufgabe, Lösungen zu finden, die sowohl den Bedürfnissen der Arbeitnehmer als auch den Anforderungen der jeweiligen Branche gerecht werden.",
+    "preguntas": [
+      {
+        "enunciado": "Frühere Generationen stellten laut Text ihr Privatleben meist über den Beruf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Arbeitnehmer legen laut Text mehr Wert auf Freizeit und Familie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flexible Arbeitszeiten und Homeoffice werden im Text als mögliche Maßnahmen genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text lassen sich flexible Arbeitsmodelle in allen Branchen gleich leicht umsetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sagt, dass das Thema Work-Life-Balance keine gesellschaftliche Relevanz mehr hat.",
+        "respuesta": false
+      }
+    ]
   }
 ]
