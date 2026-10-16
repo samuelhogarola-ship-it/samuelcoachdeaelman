@@ -4,11 +4,11 @@
 
 La web principal ya se sirve en el VPS `187.124.55.36`, aplicación Coolify `b3hcv1rftd5b46ynn2amvk4v`, desde `main` del repositorio `samuelhogarola-ship-it/samuelcoachdeaelman`. Docker escucha en el puerto interno 3000 y Traefik termina HTTPS. El contenedor no publica directamente sus puertos.
 
-El login quedó reparado y publicado en `3b9dc861`. Una instancia antigua atendía alternativamente peticiones y devolvía los módulos `.mjs` como `application/octet-stream`. Esa instancia está detenida y tiene reinicio deshabilitado. La versión actual está saludable según Docker.
+El login quedó reparado y publicado en `3b9dc861`. Una instancia antigua atendía alternativamente peticiones y devolvía los módulos `.mjs` como `application/octet-stream`. Tras preservar imagen, inspección y contenido, ese contenedor obsoleto se retiró. La versión actual está saludable según Docker.
 
-## Correcciones preparadas después de la auditoría
+## Correcciones publicadas después de la auditoría
 
-Estas correcciones locales no están publicadas hasta completar la aprobación y verificación de despliegue:
+Publicación autorizada activada en `9c8285d6`, con los doce textos añadidos por la automatización integrados. Comprobado el montaje real y el arranque de la nueva imagen:
 
 - El servidor verifica el token de Supabase y la política de administrador antes de cualquier `/api/*`.
 - Los archivos internos, PHP, borradores y almacenamiento privado no se sirven por HTTP.
@@ -20,7 +20,7 @@ Estas correcciones locales no están publicadas hasta completar la aprobación y
 
 ## Almacenamiento persistente
 
-Crear en Coolify un volumen de la aplicación con:
+Volumen configurado en Coolify y comprobado mediante Docker:
 
 - Host: `/data/samuel-coach/site-data`
 - Contenedor: `/app/site-data`
@@ -31,6 +31,10 @@ Crear en Coolify un volumen de la aplicación con:
 No montar todo `/app`, ni montar directamente árboles HTML sin reconciliación: ocultaría los cambios de las siguientes imágenes. El generador de posts no modifica el sitemap en tiempo de ejecución, por lo que el sitemap pertenece al despliegue y no debe quedar fijado a un volumen antiguo.
 
 Copias iniciales ya guardadas en `/data/samuel-coach/backups/`: fuentes y páginas tanto del contenedor actual como del antiguo, antes de añadir persistencia. Son copias en el mismo VPS; no sustituyen un respaldo externo.
+
+La siembra se ejecutó en `/data/samuel-coach/migration-f8fd4468`: baseline de la imagen inmutable anterior, contenido vivo y copia final consistente. Los 58 archivos se verificaron por contenido; no había diferencias editoriales respecto a la imagen anterior. La reconciliación actualizó 15 archivos incluidos en la nueva versión. La prueba Docker detectó y permitió corregir `EXDEV` al renombrar directorios de la capa de imagen; el arranque usa una copia temporal completa cuando overlayfs lo requiere. La imagen final arrancó y conservó el contenido tras reiniciar.
+
+La instancia antigua está archivada como imagen `samuel-legacy-archive:20261016`, con etiquetas de publicación desactivadas. Su inspección y el identificador de imagen están guardados en el directorio privado de copias; el contenedor viejo ya no conserva rutas activables de producción.
 
 ## Primera migración: sembrar antes de montar
 
@@ -70,8 +74,9 @@ El algoritmo de reconciliación no proporciona bloqueo entre procesos: las opera
 ## DNS y publicación antigua
 
 - Apex A: `187.124.55.36`; `www` CNAME al apex. No hay AAAA en esos dos nombres.
-- `admin` conserva un A del VPS, otro A del hosting antiguo y un AAAA antiguo. Cambio preparado: A único `187.124.55.36` y AAAA `2a02:4780:7:94a6::1`, la IPv6 comprobada del VPS; añadir `https://admin.samuelcoachdealeman.com` a la aplicación.
-- El webhook GitHub `618249997` todavía apunta al despliegue de Hostinger. Desactivarlo, sin borrar el hosting, una vez aprobada la consolidación del VPS.
+- `admin` tiene A único `187.124.55.36` y AAAA `2a02:4780:7:94a6::1`, TTL 300. Dominio y reglas HTTPS añadidos a la aplicación. Certificado renovado hasta 2027-01-14, tras respaldar ACME y reiniciar el proxy; IPv4 e IPv6 verificados con validación TLS.
+- El webhook GitHub `618249997` está desactivado; el hosting antiguo se conserva. La publicación desde GitHub activa únicamente la aplicación actual de Coolify.
+- Snapshot DNS previo al cambio: `188790861`. Se actualizaron solo los registros de `admin`; el resto de la zona se verificó sin cambios.
 - `actividad2` y `ftp` siguen apuntando al hosting antiguo. No eliminarlos sin aclarar su uso y conservar sus datos.
 
 ## Correo y newsletter

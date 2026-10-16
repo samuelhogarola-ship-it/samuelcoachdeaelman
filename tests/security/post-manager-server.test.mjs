@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { test, before, after } from 'node:test';
 import { createServer, request } from 'node:http';
 import { spawn } from 'node:child_process';
-import { cp, mkdir, mkdtemp, rm, symlink, writeFile } from 'node:fs/promises';
+import { cp, mkdir, mkdtemp, readFile, rm, symlink, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { once } from 'node:events';
@@ -16,6 +16,10 @@ before(async () => {
   await mkdir(path.join(root, 'assets/js'), { recursive: true });
   await cp(new URL('../../assets/js/admin-gate-core.mjs', import.meta.url), path.join(root, 'assets/js/admin-gate-core.mjs'));
   await cp(new URL('../../.htaccess', import.meta.url), path.join(root, '.htaccess'));
+  for (const page of ['recursos/sprachbausteine/index.html', 'recursos/sprachbausteine/a1/index.html', 'recursos/sprachbausteine/a1/meine-kleidung/index.html']) {
+    await mkdir(path.dirname(path.join(root, page)), { recursive: true });
+    await cp(new URL('../../' + page, import.meta.url), path.join(root, page));
+  }
   for (const [file, body] of Object.entries({
     'index.html': '<h1>Home</h1>', 'login/index.html': 'Login',
     'assets/js/app.mjs': 'export const ok = true;',
@@ -100,7 +104,7 @@ test('directories redirect to trailing slash without losing query', async () => 
   assert.equal(res.headers.get('location'), '/tools/post-manager/?draft=1');
 });
 test('Apache legacy redirects also run under Node', async () => {
-  for (const [resource, target] of [['/lueckentext/a1/', '/sprachbausteine/a1/'], ['/de/f/el-imperativo-en-aleman/', '/f/imperativ-en-aleman/'], ['/blog/f/der-die-das-los-generos-en-aleman/', '/f/der-die-das-los-generos-en-aleman/']]) {
+  for (const [resource, target] of [['/lueckentext/a1/', '/recursos/sprachbausteine/a1/'], ['/de/f/el-imperativo-en-aleman/', '/f/imperativ-en-aleman/'], ['/blog/f/der-die-das-los-generos-en-aleman/', '/f/der-die-das-los-generos-en-aleman/']]) {
     const res = await fetch(base + resource + '?source=old', { redirect: 'manual' });
     assert.equal(res.status, 301, resource);
     assert.equal(res.headers.get('location'), target + '?source=old');
@@ -155,5 +159,17 @@ test('administrator hostname redirects to the canonical admin area', async () =>
     });
     assert.equal(res.statusCode, 301);
     assert.equal(res.headers.location, 'https://www.samuelcoachdealeman.com' + target);
+  }
+});
+
+test('legacy lueckentext redirects finish on real published exercise pages', async () => {
+  for (const suffix of ['', 'a1/', 'a1/meine-kleidung/']) {
+    const destination = '/recursos/sprachbausteine/' + suffix;
+    const response = await fetch(base + '/lueckentext/' + suffix + '?source=legacy');
+    assert.equal(response.status, 200, suffix || 'hub');
+    assert.equal(response.url, base + destination + '?source=legacy');
+    assert.match(response.headers.get('content-type'), /^text\/html/);
+    const published = await readFile(new URL('../../' + destination.slice(1) + 'index.html', import.meta.url), 'utf8');
+    assert.equal(await response.text(), published);
   }
 });

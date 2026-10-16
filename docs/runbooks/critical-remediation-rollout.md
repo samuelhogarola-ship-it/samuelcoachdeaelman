@@ -1,9 +1,14 @@
 # Critical Remediation Production Rollout
 
+> The Hostinger procedure below is historical. The current deployment runs on
+> the VPS: follow `docs/coolify-migration.md` and apply only the specifically
+> authorized incremental SQL migration. Do not deploy all outstanding database
+> migrations or newsletter functions as part of this product-contract fix.
+
 ## VPS product contract update — 2026-10-16
 
-Status: prepared and locally verified; **not applied to production**. This
-section supersedes the historical Hostinger deployment steps below for the VPS
+Status: **applied to production and verified on 2026-10-16 at 13:30 UTC**, after
+explicit user authorization. This section supersedes the historical Hostinger deployment steps below for the VPS
 product-data correction. The audit is in `docs/audits/2026-10-16-vps-review.md`.
 
 The incremental migration is
@@ -21,13 +26,33 @@ Historical rows are preserved: the three attempt constraints are `NOT VALID`.
 The migration does not change newsletter, leads, premium membership or email
 configuration. Existing service-role table privileges are preserved.
 
-Production application is a separate approved operation after a verified backup
-and review of the live schema. Do not use an unrestricted `supabase db push` to
-apply this isolated fix: unrelated outstanding migrations include newsletter
-work that is not part of this rollout. Record the exact migration and transaction
-result, then verify the exercise-save and message-read flows with authorized test
-fixtures. Do not rewrite historical scores or validate old rows as part of this
-patch.
+The production application used only this SQL file in one transaction; it also
+registered version `20261016000001`, name `vps_product_contract` and the exact SQL
+in `supabase_migrations.schema_migrations`. Temporary fixture writes were reverted
+to a savepoint before commit. Do not use an unrestricted `supabase db push` for
+this isolated fix: unrelated outstanding migrations include newsletter work.
+Historical rows were neither rewritten nor validated by this patch.
+
+Production evidence:
+
+| Check | UTC timestamp | Result |
+| --- | --- | --- |
+| Live schema and backup availability | 2026-10-16 13:25 | Live policy names/schema confirmed; Supabase backup list empty and PITR disabled |
+| Private backup captured | 2026-10-16 13:26:13 | Three affected tables, DDL, policies, grants, RPC definitions and existing data saved outside the repository |
+| Backup restored locally | 2026-10-16 13:27:11 | Schema/data restored in isolated PostgreSQL WASM; exact original data verified |
+| Authorized migration committed | 2026-10-16 13:29:51 | API HTTP 201; transaction and precommit fixture tests passed; fixtures reverted before commit |
+| Post-commit fixture verification | 2026-10-16 13:30:27 | API HTTP 201; exercise inserts, RLS, denied edits, progress accumulation/validation and message ownership passed; transaction rolled back |
+| Final catalog/data verification | 2026-10-16 13:30 | Three new columns; exercise ID nullable; three unvalidated constraints; user direct writes denied; service-role maintenance retained; original data unchanged in all three tables; zero fixture users remain |
+
+Backup location: `/Users/sam/.codex/backups/samuel/20261016-vps-contract-8nRb0W`.
+Directory mode is `0700`; snapshot, SQL recovery files, manifest and verification
+evidence are `0600`. Do not copy them into this repository or public web storage.
+Snapshot SHA-256:
+`9b0cb4bd62d80455497f2291addae795585a7b5cd956766ef6942f9ec979533d`.
+The recovery SQL expects an empty target for these tables and existing Supabase
+auth users/roles; an existing target requires a reviewed recovery procedure.
+No other migrations, newsletter tables, contact leads, email sends or persistent
+test accounts were created.
 
 Local SQL verification uses PostgreSQL through PGlite 0.5.10 in an isolated
 temporary directory; it adds no production dependency:
