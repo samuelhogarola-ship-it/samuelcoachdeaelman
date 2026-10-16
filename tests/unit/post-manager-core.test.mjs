@@ -3,6 +3,7 @@ import { mkdir, mkdtemp, readFile, rename, rm, writeFile } from "node:fs/promise
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { test } from "node:test";
+import { readFileSync } from "node:fs";
 import {
   deletePostImage,
   listPosts,
@@ -15,6 +16,16 @@ import {
   serializePostMarkdown,
   slugify,
 } from "../../scripts/post-manager-core.mjs";
+
+test("el gestor mantiene la lista a la izquierda y las vistas de lectura separadas", () => {
+  const html = readFileSync(new URL("../../tools/post-manager/index.html", import.meta.url), "utf8");
+  const css = readFileSync(new URL("../../tools/post-manager/styles.css", import.meta.url), "utf8");
+  assert.match(html, /id="buildBlog"[^>]*>Vista HTML/);
+  assert.match(html, /data-view="preview"[^>]*>Vista normal/);
+  assert.match(html, /data-view="html"[^>]*>Vista código/);
+  assert.match(css, /@media \(max-width: 780px\)/);
+  assert.doesNotMatch(css, /@media \(max-width: 1100px\)\s*\{[\s\S]*?\.app-shell,/);
+});
 
 test("parsea y serializa frontmatter del gestor", () => {
   const parsed = parsePostMarkdown("---\ntitle: Hola\nslug: hola\n---\n\n## Texto");
