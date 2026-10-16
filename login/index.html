@@ -471,10 +471,13 @@
       setLoading(btn, true)
       let error = null
       try {
-        const result = await signIn(
-          document.getElementById('signin-email').value.trim(),
-          document.getElementById('signin-password').value
-        )
+        const result = await Promise.race([
+          signIn(
+            document.getElementById('signin-email').value.trim(),
+            document.getElementById('signin-password').value
+          ),
+          new Promise((_, reject) => setTimeout(() => reject(new Error('La conexión de inicio de sesión está tardando demasiado. Comprueba tu conexión y vuelve a intentarlo.')), 15000)),
+        ])
         error = result.error
       } catch (caught) {
         error = caught
