@@ -420,7 +420,13 @@
     import { buildAccountUrl, finishAuthSessionFromUrl, resetPassword, signIn, signUp, supabase } from '/assets/js/auth.js'
     import { safeAuthRedirect } from '/assets/js/auth-redirect.mjs'
 
-    const flow = await finishAuthSessionFromUrl()
+    // Do not let a stalled Supabase session check prevent the form handlers
+    // from being registered. The form must remain usable even during a
+    // transient auth-network failure.
+    const flow = await Promise.race([
+      finishAuthSessionFromUrl(),
+      new Promise(resolve => setTimeout(() => resolve({ session: null, error: null, isRecovery: false }), 5000)),
+    ])
     const isRecovery = flow.isRecovery
 
     function redirect() {
