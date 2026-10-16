@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir, writeFile, readFile, rm, lstat, rename } from 'node:fs/promises';
+import { mkdtemp, mkdir, writeFile, readFile, rm, lstat, rename, cp } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { prepareSiteContent } from '../../scripts/site-content-store.mjs';
@@ -68,4 +68,67 @@ test('recovers an interrupted switch from bundled directory to persistent conten
   await rename(path.join(root, 'f'), path.join(root, '.bundled-f'));
   await prepareSiteContent(root, data);
   assert.equal(await readFile(path.join(root, 'f/post/index.html'), 'utf8'), 'published page');
+});
+
+// Exercise the real module while emulating overlayfs's EXDEV for a lower-layer
+// directory rename. All file copies, removals and recovery use the real disk.
+async function overlayStore() {
+  const source = await readFile(new URL('../../scripts/site-content-store.mjs', import.meta.url), 'utf8');
+  const fsAdapter = `
+    export * from 'node:fs/promises';
+    import { rename as realRename } from 'node:fs/promises';
+    export async function rename(from, to) {
+      if (/\\/(?:blog-posts|f)$/.test(from) && /\\/\\.bundled-(?:blog-posts|f)$/.test(to)) {
+        throw Object.assign(new Error('lower-layer directory'), { code: 'EXDEV' });
+      }
+      return realRename(from, to);
+    }
+  `;
+  const adapterUrl = 'data:text/javascript,' + encodeURIComponent(fsAdapter);
+  return import('data:text/javascript,' + encodeURIComponent(source.replace("'node:fs/promises'", JSON.stringify(adapterUrl))));
+}
+
+test('switches overlayfs lower-layer directories after a complete backup copy', async t => {
+  const { dir, data } = await fixture(t);
+  const root = await image(dir, 'overlay-release', {
+    'blog-posts/post.md': 'source',
+    'f/post/index.html': 'page',
+    'f/post/img/cover.webp': 'image',
+  });
+  const { prepareSiteContent: prepareOverlay } = await overlayStore();
+  await prepareOverlay(root, data);
+  assert.ok((await lstat(path.join(root, 'blog-posts'))).isSymbolicLink());
+  assert.ok((await lstat(path.join(root, 'f'))).isSymbolicLink());
+  assert.equal(await readFile(path.join(root, 'blog-posts/post.md'), 'utf8'), 'source');
+  assert.equal(await readFile(path.join(root, 'f/post/img/cover.webp'), 'utf8'), 'image');
+  await assert.rejects(lstat(path.join(root, '.bundled-f')), { code: 'ENOENT' });
+  await assert.rejects(lstat(path.join(root, '.bundled-f.tmp')), { code: 'ENOENT' });
+});
+
+test('restores a complete backup when source removal was interrupted', async t => {
+  const { dir, data } = await fixture(t);
+  const root = await image(dir, 'release', {
+    'f/post/index.html': 'page',
+    'f/post/img/cover.webp': 'image',
+  });
+  await cp(path.join(root, 'f'), path.join(root, '.bundled-f'), { recursive: true });
+  await rm(path.join(root, 'f/post/img'), { recursive: true });
+  await prepareSiteContent(root, data);
+  assert.equal(await readFile(path.join(root, 'f/post/img/cover.webp'), 'utf8'), 'image');
+  assert.equal(await readFile(path.join(root, 'f/post/index.html'), 'utf8'), 'page');
+  await assert.rejects(lstat(path.join(root, '.bundled-f')), { code: 'ENOENT' });
+});
+
+test('discards an interrupted temporary copy and preserves the intact source', async t => {
+  const { dir, data } = await fixture(t);
+  const root = await image(dir, 'release', {
+    'f/post/index.html': 'complete page',
+    'f/post/img/cover.webp': 'complete image',
+    '.bundled-f.tmp/post/index.html': 'incomplete copy',
+  });
+  const { prepareSiteContent: prepareOverlay } = await overlayStore();
+  await prepareOverlay(root, data);
+  assert.equal(await readFile(path.join(root, 'f/post/index.html'), 'utf8'), 'complete page');
+  assert.equal(await readFile(path.join(root, 'f/post/img/cover.webp'), 'utf8'), 'complete image');
+  await assert.rejects(lstat(path.join(root, '.bundled-f.tmp')), { code: 'ENOENT' });
 });

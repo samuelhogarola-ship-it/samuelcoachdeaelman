@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-import { copyFile, lstat, mkdir, readFile, readdir, readlink, rename, rm, symlink, writeFile } from 'node:fs/promises';
+import { cp, copyFile, lstat, mkdir, readFile, readdir, readlink, rename, rm, symlink, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const trees = ['blog-posts', 'f'];
@@ -50,14 +50,24 @@ export async function prepareSiteContent(rootDir, dataDir) {
     const source = path.join(rootDir, tree);
     const backup = path.join(rootDir, `.bundled-${tree}`);
     const destination = path.join(storage, 'content', tree);
-    if (!(await statOptional(source)) && await statOptional(backup)) await rename(backup, source);
-    const sourceInfo = await statOptional(source);
+    const temporaryBackup = `${backup}.tmp`;
+    // The temporary copy is never authoritative: source removal starts only
+    // after the complete copy has been atomically promoted to backup.
+    await rm(temporaryBackup, { recursive: true, force: true });
+    let sourceInfo = await statOptional(source);
     if (sourceInfo && sourceInfo.isSymbolicLink()) {
       if (path.resolve(path.dirname(source), await readlink(source)) !== destination) {
         throw new Error(`Unexpected content link: ${tree}`);
       }
       await rm(backup, { recursive: true, force: true });
       continue; // Restart of the same container: no new image to reconcile.
+    }
+    if (await statOptional(backup)) {
+      // EXDEV fallback removal can be interrupted with a partial source still
+      // present. Restore the complete backup before calculating any baseline.
+      await rm(source, { recursive: true, force: true });
+      await rename(backup, source);
+      sourceInfo = await statOptional(source);
     }
     const bundled = await bundledFiles(source);
     const old = previous[tree] || {};
@@ -87,7 +97,19 @@ export async function prepareSiteContent(rootDir, dataDir) {
     const temporaryManifest = `${manifestPath}.tmp`;
     await writeFile(temporaryManifest, JSON.stringify(next) + '\n');
     await rename(temporaryManifest, manifestPath);
-    if (sourceInfo) await rename(source, backup);
+    if (sourceInfo) {
+      try {
+        await rename(source, backup);
+      } catch (error) {
+        if (error.code !== 'EXDEV') throw error;
+        // Overlayfs cannot rename a directory from an image's lower layer.
+        // Keep source intact until the full backup is committed; a failed copy
+        // leaves only a disposable .tmp tree for the next startup to remove.
+        await cp(source, temporaryBackup, { recursive: true, force: false, errorOnExist: true });
+        await rename(temporaryBackup, backup);
+        await rm(source, { recursive: true, force: true });
+      }
+    }
     await symlink(destination, source, 'dir');
     await rm(backup, { recursive: true, force: true });
   }
