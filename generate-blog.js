@@ -7,8 +7,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const BLOG_POSTS_DIR = path.join(__dirname, 'blog-posts');
-const OUTPUT_DIR = path.join(__dirname, 'f');
+const BLOG_POSTS_DIR = process.env.BLOG_POSTS_DIR || path.join(__dirname, 'blog-posts');
+const OUTPUT_DIR = process.env.BLOG_OUTPUT_DIR || path.join(__dirname, 'f');
 
 // Ensure directories exist
 if (!fs.existsSync(BLOG_POSTS_DIR)) {
@@ -43,6 +43,7 @@ function parseBlogPost(content) {
 // Format inline elements (bold, italic, links, code)
 function formatInline(text) {
   return text
+    .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1">')
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.*?)\*/g, '<em>$1</em>')
     .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
@@ -93,82 +94,147 @@ function markdownToHtml(markdown) {
   return html;
 }
 
+function escapeAttribute(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function replaceMetaTag(html, attribute, name, content) {
+  const pattern = new RegExp(`<meta\\s+${attribute}=["']${name}["'][^>]*>`, 'i');
+  const replacement = `<meta ${attribute}="${name}" content="${escapeAttribute(content)}">`;
+  return pattern.test(html) ? html.replace(pattern, replacement) : html;
+}
+
+function updateExistingPage(existing, slug, frontmatter, htmlContent) {
+  const title = frontmatter.title || slug;
+  const description = frontmatter.description || `Blog post: ${title}`;
+  const canonical = `https://www.samuelcoachdealeman.com/f/${slug}/`;
+  const publishDate = frontmatter.date || new Date().toISOString().split('T')[0];
+  let image = 'https://www.samuelcoachdealeman.com/assets/img/og-home.webp';
+  if (frontmatter.image && frontmatter.image !== 'default') {
+    image = frontmatter.image.startsWith('http') || frontmatter.image.startsWith('/')
+      ? frontmatter.image
+      : `${canonical}${frontmatter.image}`;
+  }
+
+  let next = existing.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeAttribute(title)} | Samuel Coach de Alemán</title>`);
+  next = replaceMetaTag(next, 'name', 'description', description);
+  next = replaceMetaTag(next, 'property', 'og:title', title);
+  next = replaceMetaTag(next, 'property', 'og:description', description);
+  next = replaceMetaTag(next, 'property', 'og:url', canonical);
+  next = replaceMetaTag(next, 'property', 'og:image', image);
+  next = replaceMetaTag(next, 'name', 'twitter:title', title);
+  next = replaceMetaTag(next, 'name', 'twitter:description', description);
+  next = replaceMetaTag(next, 'name', 'twitter:image', image);
+  next = next.replace(/<link\s+rel=["']canonical["'][^>]*>/i, `<link rel="canonical" href="${canonical}">`);
+  next = next.replace(/"headline"\s*:\s*"(?:[^"\\]|\\.)*"/g, `"headline": ${JSON.stringify(title)}`);
+  next = next.replace(/"description"\s*:\s*"(?:[^"\\]|\\.)*"/g, `"description": ${JSON.stringify(description)}`);
+  next = next.replace(/"dateModified"\s*:\s*"(?:[^"\\]|\\.)*"/g, `"dateModified": ${JSON.stringify(publishDate)}`);
+
+  const article = `<article class="blog-post-main">\n          <div class="blog-post-card">\n${htmlContent}\n          </div>\n        </article>`;
+  if (/<article\s+class=["']blog-post-main["'][^>]*>[\s\S]*?<\/article>/i.test(next)) {
+    return next.replace(/<article\s+class=["']blog-post-main["'][^>]*>[\s\S]*?<\/article>/i, article);
+  }
+  return next.replace(/<article[^>]*>[\s\S]*?<\/article>/i, `<article>\n${htmlContent}\n</article>`);
+}
+
 // Generate HTML template
 function generateHtmlPage(slug, frontmatter, htmlContent) {
   const title = frontmatter.title || slug;
   const description = frontmatter.description || `Blog post: ${title}`;
   const publishDate = frontmatter.date || new Date().toISOString().split('T')[0];
   const author = frontmatter.author || 'Samuel Coach de Alemán';
+  const canonical = `https://www.samuelcoachdealeman.com/f/${slug}/`;
+  const safeTitle = escapeAttribute(title);
+  const safeDescription = escapeAttribute(description);
+  const safeAuthor = escapeAttribute(author);
 
   let image = 'https://www.samuelcoachdealeman.com/assets/img/og-home.webp';
-  if (frontmatter.image && frontmatter.image !== 'default'
-      && fs.existsSync(path.join(OUTPUT_DIR, slug, frontmatter.image))) {
-    image = `https://www.samuelcoachdealeman.com/f/${slug}/${frontmatter.image}`;
+  if (frontmatter.image && frontmatter.image !== 'default') {
+    if (frontmatter.image.startsWith('http') || frontmatter.image.startsWith('/')) image = frontmatter.image;
+    else if (fs.existsSync(path.join(OUTPUT_DIR, slug, frontmatter.image))) image = `${canonical}${frontmatter.image}`;
   }
+
+  const structuredData = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Inicio', item: 'https://www.samuelcoachdealeman.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.samuelcoachdealeman.com/f/' },
+          { '@type': 'ListItem', position: 3, name: title, item: canonical },
+        ],
+      },
+      {
+        '@type': 'BlogPosting', headline: title, description, url: canonical,
+        datePublished: publishDate, dateModified: publishDate,
+        inLanguage: frontmatter.lang || 'es',
+        author: { '@type': 'Person', name: author, url: 'https://www.samuelcoachdealeman.com/sobre-mi/' },
+        publisher: { '@type': 'Person', name: 'Samuel Coach de Alemán', url: 'https://www.samuelcoachdealeman.com/' },
+        image, mainEntityOfPage: canonical,
+      },
+    ],
+  }, null, 2).replace(/</g, '\\u003c');
 
   return `<!DOCTYPE html>
 <html lang="${frontmatter.lang || 'es'}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${title} | Samuel Coach de Alemán</title>
-  <meta name="description" content="${description}">
-  <link rel="canonical" href="https://www.samuelcoachdealeman.com/f/${slug}/">
+  <title>${safeTitle} | Samuel Coach de Alemán</title>
+  <meta name="description" content="${safeDescription}">
+  <link rel="canonical" href="${canonical}">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#455a64">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@600;700&family=Lato:wght@400;700&display=swap"></noscript>
-  <link rel="stylesheet" href="/assets/css/styles.css?v=20260704a">
+  <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/cookie-banner-core.css">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="${title}">
-  <meta property="og:description" content="${description}">
-  <meta property="og:url" content="https://www.samuelcoachdealeman.com/f/${slug}/">
-  <meta property="og:image" content="${image}">
+  <meta property="og:title" content="${safeTitle}">
+  <meta property="og:description" content="${safeDescription}">
+  <meta property="og:url" content="${canonical}">
+  <meta property="og:image" content="${escapeAttribute(image)}">
+  <meta property="og:site_name" content="Samuel Coach de Alemán">
   <meta name="twitter:card" content="summary_large_image">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "${title}",
-    "description": "${description}",
-    "author": {"@type": "Person", "name": "${author}"},
-    "datePublished": "${publishDate}",
-    "image": "${image}",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Samuel Coach de Alemán",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.samuelcoachdealeman.com/assets/img/logo-main.webp"
-      }
-    }
-  }
-  </script>
+  <meta name="twitter:title" content="${safeTitle}">
+  <meta name="twitter:description" content="${safeDescription}">
+  <meta name="twitter:image" content="${escapeAttribute(image)}">
+  <script type="application/ld+json">${structuredData}</script>
 </head>
 <body>
-  <nav class="nav">
-    <a href="/" class="nav-logo"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="48" height="48"></a>
-    <ul class="nav-links">
-      <li><a href="/">Inicio</a></li>
-      <li><a href="/recursos/">Recursos</a></li>
-      <li><a href="/#contacto">Contacto</a></li>
-    </ul>
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-logo" href="/"><img src="/assets/img/logo-main.webp" alt="Samuel Coach de Alemán" width="260" height="260"></a>
+      <button class="hamburger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <ul class="nav-links"><li><a href="/">Inicio</a></li><li><a href="/f/">Blog</a></li><li><a href="/sobre-mi/">Sobre mí</a></li><li><a href="/servicios/">Servicios</a></li><li><a href="/recursos/">Recursos</a></li></ul>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden><a href="/">Inicio</a><a href="/f/">Blog</a><a href="/sobre-mi/">Sobre mí</a><a href="/servicios/">Servicios</a><a href="/recursos/">Recursos</a></div>
   </nav>
 
-  <main>
-    <article>
-      <header>
-        <h1>${title}</h1>
-        <p class="meta">${publishDate} · ${author}</p>
-      </header>
-
-      ${htmlContent}
-    </article>
+  <main class="blog-shell"><div class="container">
+    <div class="blog-breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Inicio</a></li><li><a href="/f/">Blog</a></li><li>${safeTitle}</li></ol></div>
+    <div class="blog-post-layout">
+      <article class="blog-post-main"><div class="blog-post-card">
+        <h1>${safeTitle}</h1>
+        <p class="blog-post-lead">${safeDescription}</p>
+        <div class="blog-post-meta"><span>📅 ${publishDate}</span><span>✍️ ${safeAuthor}</span></div>
+        ${htmlContent}
+      </div></article>
+    </div>
+  </div>
   </main>
 
-  <footer class="footer">
-    <p>&copy; 2026 Samuel Coach de Alemán. <a href="/">Inicio</a></p>
-  </footer>
+  <footer><div class="container"><p>&copy; 2026 Samuel Coach de Alemán · <a href="/f/">Blog</a> · <a href="/legal/">Aviso legal</a></p></div></footer>
 
-  <script defer src="/assets/js/google-analytics-core.js?v=umami-20261015"></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script defer src="/assets/js/umami-analytics-core.js"></script>
   <script defer src="/assets/js/cookie-banner-core.js"></script>
 </body>
 </html>`;
@@ -200,8 +266,14 @@ function generateBlog() {
     }
 
     const slug = parsed.frontmatter.slug || file.replace('.md', '');
-    const htmlContent = markdownToHtml(parsed.markdown);
-    const htmlPage = generateHtmlPage(slug, parsed.frontmatter, htmlContent);
+    const defaultStatus = process.env.PUBLISH_EXPLICIT_ONLY === '1' ? 'draft' : 'published';
+    if ((parsed.frontmatter.status || defaultStatus).toLowerCase() !== 'published') {
+      console.log(`- Draft not published: ${slug}`);
+      return;
+    }
+    const htmlContent = parsed.frontmatter.content_format === 'html'
+      ? parsed.markdown.trim()
+      : markdownToHtml(parsed.markdown);
 
     const outputPath = path.join(OUTPUT_DIR, slug, 'index.html');
     const outputDir = path.dirname(outputPath);
@@ -215,6 +287,9 @@ function generateBlog() {
       fs.mkdirSync(outputDir, { recursive: true });
     }
 
+    const htmlPage = fs.existsSync(outputPath)
+      ? updateExistingPage(fs.readFileSync(outputPath, 'utf8'), slug, parsed.frontmatter, htmlContent)
+      : generateHtmlPage(slug, parsed.frontmatter, htmlContent);
     fs.writeFileSync(outputPath, htmlPage);
     console.log(`✓ Generated ${slug}`);
     generated++;

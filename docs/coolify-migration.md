@@ -77,7 +77,7 @@ El algoritmo de reconciliación no proporciona bloqueo entre procesos: las opera
 - `admin` tiene A único `187.124.55.36` y AAAA `2a02:4780:7:94a6::1`, TTL 300. Dominio y reglas HTTPS añadidos a la aplicación. Certificado renovado hasta 2027-01-14, tras respaldar ACME y reiniciar el proxy; IPv4 e IPv6 verificados con validación TLS.
 - El webhook GitHub `618249997` está desactivado; el hosting antiguo se conserva. La publicación desde GitHub activa únicamente la aplicación actual de Coolify.
 - Snapshot DNS previo al cambio: `188790861`. Se actualizaron solo los registros de `admin`; el resto de la zona se verificó sin cambios.
-- `actividad2` y `ftp` siguen apuntando al hosting antiguo. No eliminarlos sin aclarar su uso y conservar sus datos.
+- `actividad2` se retiró por decisión del propietario el 16 de octubre de 2026; sus registros A y AAAA ya no existen. `ftp` sigue apuntando al hosting antiguo y debe conservarse mientras ese servicio siga en uso.
 
 ## Correo y newsletter
 

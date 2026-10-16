@@ -30,7 +30,9 @@
             <h1 id="currentTitle">Gestor de contenidos</h1>
           </div>
           <div class="actions">
-            <button id="savePost" type="button">Guardar</button>
+            <a id="viewPublished" class="button-link secondary" href="#" target="_blank" rel="noreferrer" hidden>Ver publicación</a>
+            <button id="savePost" class="secondary" type="button">Guardar borrador</button>
+            <button id="publishPost" type="button">Publicar</button>
           </div>
         </header>
 
@@ -45,7 +47,7 @@
           <label>Etiquetas<input id="tags" type="text" placeholder="goethe, b1, gramatica" /></label>
           <label>Categoria<input id="category" type="text" /></label>
           <label>Nivel<input id="level" type="text" placeholder="A2-B1" /></label>
-          <label>Estado<input id="status" type="text" placeholder="draft o published" /></label>
+          <label>Estado<select id="status" disabled><option value="draft">Borrador</option><option value="published">Publicado</option></select></label>
         </section>
 
         <section class="workspace">

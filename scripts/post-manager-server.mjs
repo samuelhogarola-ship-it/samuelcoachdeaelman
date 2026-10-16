@@ -29,6 +29,7 @@ const contactHandler = createContactHandler();
 const port = Number(process.env.POST_MANAGER_PORT || 4321);
 let postsListCache = null;
 let postsListCacheAt = 0;
+let buildPromise = null;
 const POSTS_CACHE_TTL = 5000;
 
 const contentTypes = {
@@ -242,10 +243,11 @@ async function readJson(req, maxBytes = 2 * 1024 * 1024) {
 }
 
 function runBuild() {
-  return new Promise((resolve, reject) => {
+  if (buildPromise) return buildPromise;
+  buildPromise = new Promise((resolve, reject) => {
     const child = spawn("npm", ["run", "build:blog"], {
       cwd: rootDir,
-      env: { ...process.env, REBUILD_BLOG_PAGES: "1" },
+      env: { ...process.env, REBUILD_BLOG_PAGES: "1", PUBLISH_EXPLICIT_ONLY: "1" },
       shell: false,
     });
     let output = "";
@@ -260,5 +262,8 @@ function runBuild() {
       if (code === 0) resolve({ ok: true, output: output.trim() });
       else reject(new Error(output.trim() || `Build fallido con codigo ${code}`));
     });
+  }).finally(() => {
+    buildPromise = null;
   });
+  return buildPromise;
 }

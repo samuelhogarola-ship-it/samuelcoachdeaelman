@@ -139,6 +139,15 @@ test('verified administrator can create a draft and malformed JSON returns 400',
   const invalid = await fetch(base + '/api/posts', { method: 'POST', headers, body: '{' });
   assert.equal(invalid.status, 400);
 });
+test('editor validation errors use useful client statuses', async () => {
+  const headers = { Authorization: 'Bearer verified-admin', 'Content-Type': 'application/json' };
+  const missingDescription = await fetch(base + '/api/posts', { method: 'POST', headers, body: JSON.stringify({ title: 'Incomplete post', slug: 'incomplete-post', body: 'Content' }) });
+  assert.equal(missingDescription.status, 400);
+  assert.match((await missingDescription.json()).error, /description es obligatoria/);
+  const duplicate = await fetch(base + '/api/posts', { method: 'POST', headers, body: JSON.stringify({ title: 'Duplicate', slug: 'test-post', description: 'Duplicate description', body: 'Content' }) });
+  assert.equal(duplicate.status, 409);
+  assert.match((await duplicate.json()).error, /Ya existe un post/);
+});
 test('HEAD has the public content type and no body', async () => {
   const res = await fetch(base + '/login/', { method: 'HEAD' });
   assert.equal(res.status, 200);

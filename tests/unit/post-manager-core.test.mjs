@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { mkdir, mkdtemp, readFile, rename, rm, writeFile } from "node:fs/promises";
+import { access, mkdir, mkdtemp, readFile, rename, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { test } from "node:test";
@@ -21,11 +21,63 @@ test("el gestor mantiene la lista a la izquierda y las vistas de lectura separad
   const html = readFileSync(new URL("../../tools/post-manager/index.html", import.meta.url), "utf8");
   const css = readFileSync(new URL("../../tools/post-manager/styles.css", import.meta.url), "utf8");
   assert.doesNotMatch(html, /Generar HTML/);
+  assert.match(html, /id="publishPost"[^>]*>Publicar/);
+  assert.match(html, /id="viewPublished"/);
+  assert.match(html, /<select id="status"/);
   assert.match(html, /id="visualEditor"[^>]*contenteditable="true"/);
   assert.match(html, /data-view="visual"[^>]*>Vista normal/);
   assert.match(html, /data-view="html"[^>]*>Vista HTML/);
   assert.match(css, /@media \(max-width: 780px\)/);
   assert.doesNotMatch(css, /@media \(max-width: 1100px\)\s*\{[\s\S]*?\.app-shell,/);
+});
+
+test("actualiza un markdown heredado sin dejar dos fuentes para el mismo slug", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "post-manager-legacy-save-"));
+  try {
+    await mkdir(path.join(root, "blog-posts"), { recursive: true });
+    await writeFile(
+      path.join(root, "blog-posts", "INSTRUCCIONES.md"),
+      "---\ntitle: Post heredado\nslug: post-heredado\ndescription: Antes\n---\n\nContenido anterior\n",
+      "utf8",
+    );
+
+    await savePost(root, "post-heredado", {
+      title: "Post heredado editado",
+      slug: "post-heredado",
+      description: "Despues",
+      status: "published",
+      body: "Contenido nuevo",
+    });
+
+    await assert.rejects(access(path.join(root, "blog-posts", "INSTRUCCIONES.md")));
+    assert.match(await readFile(path.join(root, "blog-posts", "post-heredado.md"), "utf8"), /Contenido nuevo/);
+    assert.equal((await listPosts(root)).filter((post) => post.slug === "post-heredado").length, 1);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test("no permite crear un post encima de otro slug existente", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "post-manager-collision-"));
+  try {
+    await savePost(root, null, {
+      title: "Original",
+      slug: "slug-ocupado",
+      description: "Original",
+      body: "Original",
+    });
+    await assert.rejects(
+      savePost(root, null, {
+        title: "Duplicado",
+        slug: "slug-ocupado",
+        description: "Duplicado",
+        body: "Duplicado",
+      }),
+      /Ya existe un post con ese slug/,
+    );
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
 });
 
 test("blogger abre directamente el gestor completo y protege su ruta", () => {
@@ -147,14 +199,16 @@ test("lista y abre posts HTML existentes sin markdown fuente", async () => {
     const posts = await listPosts(root);
     assert.equal(posts[0].source, "generated-html");
     assert.equal(posts[0].slug, "post-html-existente");
-    assert.equal(posts[0].status, "html-heredado");
+    assert.equal(posts[0].status, "published");
     assert.equal(posts[0].images[0].url, "https://example.com/cover.webp");
     assert.equal(posts[0].images[0].isFeatured, true);
     assert.equal(posts[0].images[0].canDelete, false);
 
     const post = await readPost(root, "post-html-existente");
     assert.equal(post.source, "generated-html");
-    assert.match(post.body, /Texto \*\*importante\*\*/);
+    assert.equal(post.isPublished, true);
+    assert.equal(post.format, "html");
+    assert.match(post.body, /Texto <strong>importante<\/strong>/);
     assert.equal(post.images[0].file, "cover.webp");
   } finally {
     await rm(root, { recursive: true, force: true });

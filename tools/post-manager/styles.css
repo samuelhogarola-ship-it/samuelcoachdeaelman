@@ -24,7 +24,8 @@ body {
 
 button,
 input,
-textarea {
+textarea,
+select {
   font: inherit;
 }
 
@@ -88,7 +89,8 @@ button:hover {
 }
 
 input,
-textarea {
+textarea,
+select {
   border: 1px solid var(--line);
   border-radius: 8px;
   color: var(--ink);
@@ -98,6 +100,31 @@ textarea {
 input {
   min-height: 42px;
   padding: 0.55rem 0.7rem;
+}
+
+select {
+  min-height: 42px;
+  padding: 0.55rem 0.7rem;
+}
+
+.button-link {
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.7rem 0.95rem;
+  text-decoration: none;
+}
+
+.button-link.secondary {
+  background: #e7ecf8;
+  color: var(--ink);
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.65;
 }
 
 textarea {

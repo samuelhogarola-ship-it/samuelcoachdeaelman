@@ -21,6 +21,8 @@ const state = {
   activeSlug: null,
   activeImages: [],
   selectedImage: null,
+  bodyFormat: "markdown",
+  dirty: false,
 };
 
 const postList = document.querySelector("#postList");
@@ -38,8 +40,11 @@ const editorViews = {
   html: htmlView,
 };
 
-document.querySelector("#newPost").addEventListener("click", newPost);
-document.querySelector("#savePost").addEventListener("click", savePost);
+document.querySelector("#newPost").addEventListener("click", () => {
+  if (confirmDiscardChanges()) newPost();
+});
+document.querySelector("#savePost").addEventListener("click", () => runAction("Guardando borrador...", () => savePost("draft")));
+document.querySelector("#publishPost").addEventListener("click", () => runAction("Publicando...", publishPost));
 document.querySelector("#imageUpload").addEventListener("change", uploadImages);
 document.querySelector("#saveImageMeta").addEventListener("click", saveSelectedImageMeta);
 document.querySelector("#setFeaturedImage").addEventListener("click", setSelectedImageAsFeatured);
@@ -47,18 +52,29 @@ search.addEventListener("input", renderPostList);
 postList.addEventListener("click", (event) => {
   const card = event.target.closest(".post-card");
   if (!card) return;
-  loadPost(card.dataset.slug);
+  if (confirmDiscardChanges()) loadPost(card.dataset.slug);
 });
 fields.body.addEventListener("input", () => {
-  visualEditor.innerHTML = markdownPreview(fields.body.value);
+  visualEditor.innerHTML = state.bodyFormat === "html" ? fields.body.value : markdownPreview(fields.body.value);
   renderPreview();
+  markDirty();
 });
 visualEditor.addEventListener("input", () => {
-  fields.body.value = richHtmlToMarkdown(visualEditor.innerHTML);
+  fields.body.value = state.bodyFormat === "html" ? visualEditor.innerHTML : richHtmlToMarkdown(visualEditor.innerHTML);
   renderPreview();
+  markDirty();
 });
 fields.title.addEventListener("input", () => {
   currentTitle.textContent = fields.title.value || "Nuevo post";
+  markDirty();
+});
+for (const field of Object.values(fields).filter((field) => ![fields.title, fields.body, fields.status].includes(field))) {
+  field.addEventListener("input", markDirty);
+}
+window.addEventListener("beforeunload", (event) => {
+  if (!state.dirty) return;
+  event.preventDefault();
+  event.returnValue = "";
 });
 
 for (const button of document.querySelectorAll("[data-wrap], [data-line]")) {
@@ -68,8 +84,9 @@ for (const button of document.querySelectorAll("[data-command]")) {
   button.addEventListener("click", () => {
     visualEditor.focus();
     document.execCommand(button.dataset.command);
-    fields.body.value = richHtmlToMarkdown(visualEditor.innerHTML);
+    fields.body.value = state.bodyFormat === "html" ? visualEditor.innerHTML : richHtmlToMarkdown(visualEditor.innerHTML);
     renderPreview();
+    markDirty();
   });
 }
 for (const button of document.querySelectorAll("[data-view]")) {
@@ -99,7 +116,8 @@ function renderPostList() {
     button.type = "button";
     button.className = `post-card${post.slug === state.activeSlug ? " is-active" : ""}`;
     button.dataset.slug = post.slug;
-    button.innerHTML = `<strong>${escapeHtml(post.title)}</strong><span>${escapeHtml(post.slug)} · ${post.words} palabras · ${post.images.length} imagenes</span>`;
+    const publication = post.isPublished ? "Publicado" : "Borrador";
+    button.innerHTML = `<strong>${escapeHtml(post.title)}</strong><span>${publication} · ${escapeHtml(post.slug)} · ${post.words} palabras · ${post.images.length} imagenes</span>`;
     postList.append(button);
   }
 }
@@ -140,28 +158,73 @@ function newPost() {
   renderImages([]);
   renderPreview();
   statusText.textContent = "Nuevo post";
+  updatePublishedLink(null, false);
 }
 
 function fillForm(post) {
   const meta = post.meta || {};
+  state.bodyFormat = post.format || meta.content_format || "markdown";
   for (const key of Object.keys(fields)) {
     if (key === "body") fields.body.value = post.body || "";
     else if (key === "tags" && Array.isArray(meta.tags)) fields.tags.value = meta.tags.join(", ");
     else fields[key].value = meta[key] || "";
   }
-  visualEditor.innerHTML = markdownPreview(fields.body.value);
+  visualEditor.innerHTML = state.bodyFormat === "html" ? fields.body.value : markdownPreview(fields.body.value);
+  document.querySelector('[data-view="markdown"]').textContent = state.bodyFormat === "html" ? "Editar HTML" : "Editar Markdown";
   currentTitle.textContent = fields.title.value || "Nuevo post";
+  updatePublishedLink(meta.slug || post.slug, Boolean(post.isPublished));
+  state.dirty = false;
 }
 
-async function savePost() {
+function markDirty() {
+  state.dirty = true;
+  statusText.textContent = "Cambios sin guardar";
+}
+
+function confirmDiscardChanges() {
+  return !state.dirty || window.confirm("Hay cambios sin guardar. ¿Quieres descartarlos?");
+}
+
+async function savePost(forcedStatus = null) {
   const payload = readForm();
+  if (forcedStatus) payload.status = forcedStatus;
   const endpoint = state.activeSlug ? `/api/posts/${state.activeSlug}` : "/api/posts";
   const method = state.activeSlug ? "PUT" : "POST";
   const post = await api(endpoint, { method, body: payload });
   state.activeSlug = post.slug;
-  await loadPosts();
+  fields.status.value = payload.status;
+  const data = await api("/api/posts");
+  state.posts = data.posts;
+  renderPostList();
   await loadPost(post.slug);
-  statusText.textContent = "Guardado";
+  statusText.textContent = payload.status === "published" ? "Cambios guardados" : "Borrador guardado";
+  return post;
+}
+
+function updatePublishedLink(slug, isPublished) {
+  const link = document.querySelector("#viewPublished");
+  link.hidden = !slug || !isPublished;
+  link.href = slug ? `/f/${slug}/` : "#";
+}
+
+async function publishPost() {
+  const post = await savePost("published");
+  await api("/api/build", { method: "POST", body: {} });
+  updatePublishedLink(post.slug, true);
+  statusText.textContent = "Publicado correctamente";
+}
+
+async function runAction(message, action) {
+  const buttons = [...document.querySelectorAll("#savePost, #publishPost")];
+  buttons.forEach((button) => { button.disabled = true; });
+  statusText.textContent = message;
+  try {
+    await action();
+  } catch (error) {
+    statusText.textContent = error.message;
+  } finally {
+    buttons.forEach((button) => { button.disabled = false; });
+  }
 }
 
 async function uploadImages(event) {
@@ -198,7 +261,7 @@ function renderImages(images) {
     const item = document.createElement("div");
     item.className = `image-item${image.file === state.selectedImage ? " is-selected" : ""}`;
     const deleteButton = image.canDelete === false ? "" : "<button class=\"delete-image\" type=\"button\">Borrar</button>";
-    item.innerHTML = `<img src="${image.url}" alt=""><span><strong>${escapeHtml(image.file)}</strong>${image.isFeatured ? "<small>Principal</small>" : ""}</span>${deleteButton}`;
+    item.innerHTML = `<img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || "")}"><span><strong>${escapeHtml(image.file)}</strong>${image.isFeatured ? "<small>Principal</small>" : ""}</span>${deleteButton}`;
     item.addEventListener("click", (event) => {
       if (event.target.closest(".delete-image")) return;
       selectImage(image.file);
@@ -218,7 +281,7 @@ function renderImages(images) {
 }
 
 function readForm() {
-  fields.body.value = richHtmlToMarkdown(visualEditor.innerHTML);
+  fields.body.value = state.bodyFormat === "html" ? visualEditor.innerHTML : richHtmlToMarkdown(visualEditor.innerHTML);
   return {
     title: fields.title.value,
     slug: fields.slug.value,
@@ -231,6 +294,7 @@ function readForm() {
     category: fields.category.value,
     level: fields.level.value,
     status: fields.status.value,
+    content_format: state.bodyFormat,
     body: fields.body.value,
   };
 }
@@ -247,8 +311,9 @@ function applyFormat(button) {
       const url = window.prompt("URL del enlace", "https://");
       if (url) document.execCommand("createLink", false, url);
     }
-    fields.body.value = richHtmlToMarkdown(visualEditor.innerHTML);
+    fields.body.value = state.bodyFormat === "html" ? visualEditor.innerHTML : richHtmlToMarkdown(visualEditor.innerHTML);
     renderPreview();
+    markDirty();
     return;
   }
   if (button.dataset.wrap) {
@@ -266,6 +331,7 @@ function wrapSelection(before, after, placeholder) {
   fields.body.setRangeText(`${before}${selected}${after}`, start, end, "select");
   fields.body.focus();
   renderPreview();
+  markDirty();
 }
 
 function prefixSelectedLines(prefix, placeholder) {
@@ -276,6 +342,7 @@ function prefixSelectedLines(prefix, placeholder) {
   fields.body.setRangeText(next, start, end, "select");
   fields.body.focus();
   renderPreview();
+  markDirty();
 }
 
 function insertSelectedImage() {
@@ -291,8 +358,9 @@ function insertSelectedImage() {
   }
   visualEditor.focus();
   document.execCommand("insertHTML", false, `<img src="${escapeHtml(image.url)}" alt="${escapeHtml(alt)}">`);
-  fields.body.value = richHtmlToMarkdown(visualEditor.innerHTML);
+  fields.body.value = state.bodyFormat === "html" ? visualEditor.innerHTML : richHtmlToMarkdown(visualEditor.innerHTML);
   renderPreview();
+  markDirty();
 }
 
 function insertText(text) {
@@ -301,10 +369,11 @@ function insertText(text) {
   fields.body.setRangeText(text, start, end, "end");
   fields.body.focus();
   renderPreview();
+  markDirty();
 }
 
 function renderPreview() {
-  const html = markdownPreview(fields.body.value);
+  const html = state.bodyFormat === "html" ? fields.body.value : markdownPreview(fields.body.value);
   if (!visualEditor.innerHTML || editorViews.visual.hidden) visualEditor.innerHTML = html;
   preview.innerHTML = html;
   mainPreview.innerHTML = html;
@@ -423,7 +492,7 @@ async function setSelectedImageAsFeatured() {
     },
   });
   fields.image.value = `img/${image.file}`;
-  await savePost();
+  await savePost("draft");
   statusText.textContent = "Imagen principal actualizada";
 }
 

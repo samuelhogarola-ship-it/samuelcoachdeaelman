@@ -18,7 +18,7 @@ export function slugify(input) {
 
 export function assertSafeSlug(slug) {
   if (!SLUG_RE.test(slug)) {
-    throw new Error("Slug invalido: usa minusculas, numeros y guiones.");
+    throw Object.assign(new Error("Slug invalido: usa minusculas, numeros y guiones."), { status: 400 });
   }
 }
 
@@ -31,7 +31,7 @@ export function sanitizeImageName(fileName) {
     .replace(/^-+|-+$/g, "");
 
   if (!base || base.includes("..") || !IMAGE_EXT_RE.test(base)) {
-    throw new Error("Imagen invalida: usa jpg, png, webp, avif, gif o svg.");
+    throw Object.assign(new Error("Imagen invalida: usa jpg, png, webp, avif, gif o svg."), { status: 400 });
   }
 
   return base;
@@ -67,6 +67,7 @@ export function serializePostMarkdown(meta, body) {
     "category",
     "level",
     "status",
+    "content_format",
   ];
   const allKeys = [...orderedKeys, ...Object.keys(meta).filter((key) => !orderedKeys.includes(key)).sort()];
   const frontmatter = allKeys
@@ -96,6 +97,7 @@ export function normalizePostInput(input) {
       category: String(input.category || "").trim(),
       level: String(input.level || "").trim(),
       status: String(input.status || "draft").trim(),
+      content_format: input.content_format === "html" ? "html" : "markdown",
     },
     body: String(input.body || "").trim(),
   };
@@ -125,7 +127,9 @@ export async function listPosts(rootDir) {
       tags: splitList(meta.tags),
       category: meta.category || "",
       level: meta.level || "",
-      status: meta.status || "published",
+      status: meta.status || "draft",
+      format: meta.content_format || "markdown",
+      isPublished: await fileExists(path.join(rootDir, "f", slug, "index.html")),
       words: body.split(/\s+/).filter(Boolean).length,
       images,
     };
@@ -151,8 +155,10 @@ export async function readPost(rootDir, slug) {
   return {
     slug,
     file: fileName,
-    meta: { ...meta, slug: meta.slug || slug },
+    meta: { ...meta, slug: meta.slug || slug, status: meta.status || "draft" },
     body,
+    format: meta.content_format || "markdown",
+    isPublished: await fileExists(path.join(rootDir, "f", meta.slug || slug, "index.html")),
     images: await collectPostImages(rootDir, meta.slug || slug, meta.image, meta.title || slug),
   };
 }
@@ -160,19 +166,29 @@ export async function readPost(rootDir, slug) {
 export async function savePost(rootDir, currentSlug, input) {
   const { meta, body } = normalizePostInput(input);
   const nextSlug = meta.slug;
-  if (!meta.title) throw new Error("El titulo es obligatorio.");
-  if (!meta.description) throw new Error("La meta description es obligatoria.");
+  if (!meta.title) throw Object.assign(new Error("El titulo es obligatorio."), { status: 400 });
+  if (!meta.description) throw Object.assign(new Error("La meta description es obligatoria."), { status: 400 });
 
   await mkdir(path.join(rootDir, "blog-posts"), { recursive: true });
 
   const nextPath = path.join(rootDir, "blog-posts", `${nextSlug}.md`);
-  if (currentSlug && currentSlug !== nextSlug) {
+  const currentFile = currentSlug ? await findPostFileBySlug(rootDir, currentSlug) : null;
+  const occupiedFile = await findPostFileBySlug(rootDir, nextSlug);
+  if (!currentSlug && occupiedFile) {
+    throw Object.assign(new Error("Ya existe un post con ese slug."), { status: 409 });
+  }
+  if (currentSlug && occupiedFile && occupiedFile !== currentFile) {
+    throw Object.assign(new Error("Ya existe otro post con ese slug."), { status: 409 });
+  }
+
+  if (currentSlug) {
     assertSafeSlug(currentSlug);
-    const currentPath = path.join(rootDir, "blog-posts", `${currentSlug}.md`);
-    const currentAssets = path.join(rootDir, "f", currentSlug);
-    const nextAssets = path.join(rootDir, "f", nextSlug);
-    await renameIfExists(currentPath, nextPath);
-    await renameIfExists(currentAssets, nextAssets);
+    if (currentFile && currentFile !== `${nextSlug}.md`) {
+      await renameIfExists(path.join(rootDir, "blog-posts", currentFile), nextPath);
+    }
+    if (currentSlug !== nextSlug) {
+      await renameIfExists(path.join(rootDir, "f", currentSlug), path.join(rootDir, "f", nextSlug));
+    }
   }
 
   await mkdir(path.join(rootDir, "f", nextSlug, "img"), { recursive: true });
@@ -258,6 +274,16 @@ async function safeReadDir(dir) {
   }
 }
 
+async function fileExists(filePath) {
+  try {
+    await stat(filePath);
+    return true;
+  } catch (error) {
+    if (error.code === "ENOENT") return false;
+    throw error;
+  }
+}
+
 async function readImageMetadata(rootDir, slug) {
   try {
     return JSON.parse(await readFile(path.join(rootDir, "f", slug, "img", IMAGE_META_FILE), "utf8"));
@@ -329,7 +355,9 @@ async function listGeneratedPosts(rootDir) {
         tags: meta.tags,
         category: meta.category,
         level: meta.level,
-        status: "html-heredado",
+        status: "published",
+        format: "html",
+        isPublished: true,
         words: htmlToText(extractArticleHtml(html)).split(/\s+/).filter(Boolean).length,
         images: await collectPostImages(rootDir, slug, meta.image, meta.title),
       };
@@ -346,7 +374,6 @@ async function listGeneratedPosts(rootDir) {
 async function readGeneratedPost(rootDir, slug) {
   const html = await readFile(path.join(rootDir, "f", slug, "index.html"), "utf8");
   const meta = extractGeneratedMeta(html, slug);
-  const body = htmlToMarkdown(extractArticleHtml(html));
   return {
     slug,
     file: "f/" + slug + "/index.html",
@@ -362,9 +389,12 @@ async function readGeneratedPost(rootDir, slug) {
       tags: meta.tags.join(", "),
       category: meta.category,
       level: meta.level,
-      status: "html-heredado",
+      status: "published",
+      content_format: "html",
     },
-    body,
+    body: extractArticleHtml(html),
+    format: "html",
+    isPublished: true,
     images: await collectPostImages(rootDir, slug, meta.image, meta.title),
   };
 }

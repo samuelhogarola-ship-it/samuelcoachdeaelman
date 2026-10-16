@@ -1,6 +1,6 @@
 # Revisión de la migración de Samuel Coach al VPS
 
-La publicación autorizada está activa en el VPS. Administración, persistencia, DNS y contrato de datos de ejercicios están corregidos. Correo, newsletter y los servicios auxiliares indicados al final siguen pendientes.
+La publicación autorizada está activa en el VPS. Administración, persistencia, DNS y contrato de datos de ejercicios están corregidos. El correo transaccional y los servicios auxiliares indicados al final siguen pendientes; la newsletter está desactivada.
 
 ## Producción comprobada
 
@@ -28,6 +28,7 @@ La publicación autorizada está activa en el VPS. Administración, persistencia
 | Traducciones del blog desaparecían de hreflang y sitemap | Consolidación respeta traducciones reales; sitemap incorpora 25 URLs indexables omitidas. |
 | Imágenes OG/Twitter inexistentes | Referencias reparadas con recurso existente y validación de regresión. |
 | Guardado de intentos incompatible con columnas actuales; RPC para leer mensajes ausente | Migración incremental aplicada para compatibilidad, validación de puntuaciones, propiedad de datos y actualización atómica del progreso. |
+| El gestor guardaba Markdown sin publicar, podía duplicar fuentes heredadas y degradar posts HTML antiguos | Flujo separado de borrador/publicación, protección contra colisiones, conservación del HTML enriquecido y de la plantilla pública, imágenes Markdown y enlace directo a la publicación. |
 
 ## Pendientes de infraestructura y configuración
 
@@ -35,15 +36,15 @@ La publicación autorizada está activa en el VPS. Administración, persistencia
 
 No existe SMTP personalizado en Supabase ni proveedor de envío configurado en el VPS. La confirmación de cuenta es obligatoria y el límite actual de Auth es 2 correos/hora. La newsletter queda desactivada por decisión del propietario: se retiraron sus formularios y scripts de las tres portadas y el bloque del tema WordPress. El código histórico permanece inactivo para una posible recuperación. No se enviaron emails de prueba ni se crearon cuentas reales.
 
-El propietario confirmó que `actividad2` ya no se usa y autorizó retirarlo. Sus registros DNS A y AAAA quedan pendientes únicamente del segundo paso de confirmación exigido por el procedimiento de borrado DNS. Los informes de profesor se guardan en el navegador, no en el VPS.
+El propietario confirmó que `actividad2` ya no se usa y autorizó retirarlo dos veces. Sus registros DNS A y AAAA se eliminaron de Hostinger el 16 de octubre de 2026 y la zona se volvió a consultar para comprobar que ya no existen. Los informes de profesor se guardan en el navegador, no en el VPS.
 
 El contenedor actual está saludable según Docker. La instancia obsoleta detenida fue archivada como imagen samuel-legacy-archive:20261016, con inspección privada y copias editoriales, y retirada para evitar etiquetas de producción duplicadas. No se ha configurado un respaldo externo periódico. Quedan tres relaciones hreflang comerciales DE→EN sin reciprocidad; no impiden navegar.
 
 ## Verificación local
 
-- Suite unitaria y de seguridad: 162 pruebas aprobadas, 0 fallos, incluida regresión de redirección legacy y arranque Docker overlayfs.
+- Suite unitaria y de seguridad: 167 pruebas aprobadas, 0 fallos, incluidas las regresiones del editor, generador, redirección legacy y arranque Docker overlayfs.
 - Base de datos: 2 escenarios PostgreSQL WASM (PGlite 0.5.10) aprobados, además de pruebas transaccionales reales de permisos, aislamiento, puntuaciones, progreso y lectura de mensajes en producción, revertidas sin residuos. No se hizo prueba de concurrencia multiproceso.
-- Navegador: 78 aprobadas, 3 omitidas por la configuración existente.
+- Navegador: las 78 pruebas anteriores siguen documentadas; la nueva prueba integral del editor también aprobó en Chromium (abrir HTML heredado, guardar borrador y publicar).
 - ESLint: 0 errores y 20 advertencias previas.
 - Enlaces internos y canonical locales: 2355 HTML revisados, sin enlaces internos rotos en el chequeo existente.
 - Compilación y check:generated ejecutados en copia aislada para no interferir con cambios concurrentes.
