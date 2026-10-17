@@ -56846,5 +56846,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-geburtstag-meiner-oma",
+    "nivel": "A1",
+    "titulo": "Der Geburtstag meiner Oma",
+    "descripcion": "Lena erzählt von der Geburtstagsfeier ihrer Oma.",
+    "texto": "Heute hat meine Oma Geburtstag. Sie wird achtzig Jahre alt. Die ganze Familie kommt zu Besuch. Meine Mutter backt einen Kuchen. Mein Vater kauft Blumen.\n\nOma trägt ein schönes rotes Kleid. Sie lacht viel und ist sehr glücklich. Wir singen ein Geburtstagslied. Dann isst Oma ein Stück Kuchen. Die Kinder spielen im Garten.\n\nAm Abend sagt Oma: „Danke für diesen schönen Tag!“ Alle umarmen sich. Es ist ein Fest voller Liebe und Freude.",
+    "preguntas": [
+      {
+        "enunciado": "Omas Geburtstag ist heute.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma wird siebzig Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter backt einen Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma trägt ein blaues Kleid.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder spielen im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-neuer-wellensittich",
+    "nivel": "A1",
+    "titulo": "Mein neuer Wellensittich",
+    "descripcion": "Paul bekommt einen Wellensittich und kümmert sich um ihn.",
+    "texto": "Paul hat einen neuen Vogel. Es ist ein Wellensittich. Der Vogel ist grün und blau. Paul nennt ihn Pico. Pico wohnt in einem großen Käfig.\n\nJeden Morgen gibt Paul Pico Wasser und Futter. Pico singt gern und fliegt im Zimmer herum. Pauls Schwester mag Pico auch. Sie spielt oft mit ihm.\n\nAm Abend sagt Paul: „Pico, du bist mein bester Freund!“ Pico zwitschert fröhlich zurück. Die ganze Familie liebt den kleinen Vogel.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hat einen Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vogel heißt Pico.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pico ist gelb und rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul füttert Pico jeden Morgen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pauls Schwester mag Pico nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-picknick-im-stadtpark",
+    "nivel": "A1",
+    "titulo": "Das Picknick im Stadtpark",
+    "descripcion": "Eine Familie macht ein Picknick im Park und genießt den Tag.",
+    "texto": "Am Samstag geht die Familie Müller in den Stadtpark. Die Sonne scheint und der Himmel ist blau. Mama packt Brot, Käse und Obst in eine Tasche. Papa nimmt eine Decke mit.\n\nIm Park suchen sie einen schönen Platz unter einem Baum. Sie legen die Decke auf das Gras. Die Kinder essen Äpfel und trinken Saft. Danach spielen sie Fußball.\n\nAm Ende des Tages sind alle müde, aber glücklich. „Das war ein toller Tag“, sagt die kleine Lisa. Die Familie geht langsam nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie geht am Sonntag in den Park.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mama packt Brot und Obst ein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie legen die Decke ins Gras.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen Basketball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende sind alle traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wochenmarkt-einkaufstour",
+    "nivel": "A2",
+    "titulo": "Die Wochenmarkt-Einkaufstour",
+    "descripcion": "Maria erzählt, wie sie am Samstag auf dem Wochenmarkt eingekauft hat.",
+    "texto": "Am Samstag bin ich mit meiner Mutter zum Wochenmarkt gegangen. Wir sind früh aufgestanden, weil der Markt um acht Uhr beginnt. Auf dem Markt gibt es viele Stände mit Obst, Gemüse und Blumen.\n\nZuerst haben wir frische Erdbeeren gekauft, weil sie so gut gerochen haben. Dann hat meine Mutter mit einem Gemüsehändler gesprochen. Er hat gesagt, dass die Tomaten aus der Region kommen. Ich habe mir ein Stück Käse ausgesucht.\n\nAls wir fertig waren, haben wir noch einen Kaffee getrunken. Es war schön, weil wir viele Nachbarn getroffen haben. Meine Mutter meinte, dass wir nächste Woche wiederkommen sollten.",
+    "preguntas": [
+      {
+        "enunciado": "Maria ist mit ihrem Vater zum Markt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Markt beginnt um acht Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben keine Erdbeeren gekauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tomaten kommen aus der Region.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben auf dem Markt niemanden getroffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-schulranzen",
+    "nivel": "A2",
+    "titulo": "Der verlorene Schulranzen",
+    "descripcion": "Tim hat seinen Schulranzen im Bus verloren und sucht ihn.",
+    "texto": "Gestern hat Tim seinen Schulranzen im Bus vergessen. Als er zu Hause ankam, hat er bemerkt, dass der Ranzen fehlte. Er hat sich sehr aufgeregt, weil seine Hausaufgaben darin waren.\n\nTims Mutter hat sofort die Busgesellschaft angerufen. Sie hat erklärt, dass ihr Sohn den Ranzen im Bus 14 verloren hat. Der Mitarbeiter hat gesagt, dass er nachschauen wird. Nach einer Stunde hat er zurückgerufen und gesagt, dass der Ranzen gefunden wurde.\n\nAm nächsten Morgen sind Tim und seine Mutter zum Busdepot gefahren. Der Ranzen war dort, und nichts fehlte. Tim war sehr erleichtert und hat versprochen, in Zukunft besser aufzupassen.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hat seinen Ranzen im Zug vergessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Hausaufgaben waren im Ranzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter hat die Polizei angerufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ranzen wurde im Busdepot gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat versprochen, in Zukunft besser aufzupassen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ferienjob-im-cafe",
+    "nivel": "A2",
+    "titulo": "Ein Ferienjob im Café",
+    "descripcion": "Sophie berichtet von ihrem ersten Ferienjob in einem Café.",
+    "texto": "In den Sommerferien hat Sophie einen Job in einem kleinen Café gefunden. Sie hat sich gefreut, weil sie endlich eigenes Geld verdienen wollte. Am ersten Tag hat der Chef ihr gezeigt, wie man Kaffee macht.\n\nAm Anfang war es schwierig, weil viele Gäste gleichzeitig kamen. Sophie hat manchmal die Bestellungen vertauscht. Ihre Kollegin hat ihr aber geholfen und gesagt, dass das am Anfang normal ist. Nach zwei Wochen hat Sophie alles gut gekonnt.\n\nAm Ende des Sommers hat Sophie viel gelernt. Sie hat gesagt, dass sie den Job sehr spannend fand, obwohl die Arbeit manchmal anstrengend war. Ihr Chef hat ihr angeboten, auch im nächsten Sommer wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat im Winter gearbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag hat sie das Kaffeemachen gelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hatte von Anfang an keine Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihre Kollegin hat ihr geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Chef hat sie nicht wieder eingeladen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "nachhilfe-fuer-den-kleinen-bruder",
+    "nivel": "B1",
+    "titulo": "Nachhilfe für den kleinen Bruder",
+    "descripcion": "Jonas hilft seinem jüngeren Bruder beim Lernen und entdeckt dabei Geduld.",
+    "texto": "Nachdem Jonas seine eigenen Hausaufgaben erledigt hatte, setzte er sich jeden Nachmittag mit seinem kleinen Bruder Felix an den Küchentisch. Felix hatte in der Schule Probleme mit Mathematik, obwohl er sich eigentlich viel Mühe gab. Die Eltern hatten Jonas gebeten, ihm zu helfen, weil ein professioneller Nachhilfelehrer zu teuer gewesen wäre.\n\nAm Anfang war es nicht einfach, denn Felix verlor schnell die Geduld und wollte lieber draußen spielen. Trotzdem blieb Jonas ruhig und erklärte die Aufgaben immer wieder auf eine andere Art. Nach einigen Wochen bemerkte er, dass Felix die Übungen schneller löste und sich sogar über schwierige Aufgaben freute.\n\nAls die nächsten Schulnoten kamen, hatte sich Felix deutlich verbessert. Die ganze Familie war stolz auf die beiden Brüder. Jonas selbst merkte, dass er durch das Erklären sein eigenes Verständnis für Mathematik vertieft hatte, und er beschloss, Felix auch im nächsten Schuljahr weiter zu helfen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas half Felix beim Fach Englisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein professioneller Nachhilfelehrer war den Eltern zu teuer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hatte von Anfang an viel Geduld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix verbesserte sich im Laufe der Zeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas wollte im nächsten Jahr nicht mehr helfen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-schueleraustausch-nach-frankreich",
+    "nivel": "B1",
+    "titulo": "Der Schüleraustausch nach Frankreich",
+    "descripcion": "Mia verbringt drei Wochen bei einer Gastfamilie in Frankreich und wächst über sich hinaus.",
+    "texto": "Mia hatte sich lange auf den Schüleraustausch nach Frankreich gefreut, obwohl sie vorher noch nie so lange von ihrer Familie getrennt gewesen war. Nachdem sie am Bahnhof von ihrer Gastfamilie abgeholt worden war, fühlte sie sich zunächst etwas unsicher, weil ihr Französisch noch nicht perfekt war.\n\nIn den ersten Tagen verstand Mia nicht alles, was die Gastfamilie sagte, trotzdem gab sie nicht auf. Sie besuchte mit ihrer Austauschschülerin Léa die Schule, lernte neue Wörter und gewöhnte sich langsam an den Alltag. Am Wochenende unternahm die Familie einen Ausflug an die Küste, was Mia sehr beeindruckte.\n\nNach drei Wochen konnte Mia sich schon viel besser auf Französisch ausdrücken, als sie erwartet hatte. Beim Abschied weinte sie, weil sie Léa und die Gastfamilie sehr vermissen würde. Sie versprach, im nächsten Jahr zurückzukommen und den Kontakt per Videoanruf zu halten.",
+    "preguntas": [
+      {
+        "enunciado": "Mia fuhr nach Spanien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia war anfangs unsicher, weil ihr Französisch noch nicht perfekt war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gastfamilie unternahm keinen Ausflug mit Mia.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach drei Wochen sprach Mia besser Französisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia wollte den Kontakt nicht weiter halten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-praktikum-in-der-tierarztpraxis",
+    "nivel": "B1",
+    "titulo": "Das Praktikum in der Tierarztpraxis",
+    "descripcion": "Ben macht ein Schulpraktikum bei einer Tierärztin und entdeckt seine Leidenschaft für Tiere.",
+    "texto": "Für sein zweiwöchiges Schulpraktikum entschied sich Ben für eine Tierarztpraxis in seiner Stadt, obwohl seine Eltern zunächst skeptisch waren, ob das der richtige Beruf für ihn sei. Schon am ersten Tag durfte er der Tierärztin bei einer Untersuchung zuschauen, nachdem er sich einen weißen Kittel angezogen hatte.\n\nIn den folgenden Tagen lernte Ben viel über die Pflege von Hunden, Katzen und sogar Kaninchen. Manche Momente waren schwierig, zum Beispiel als ein verletzter Hund operiert werden musste, trotzdem blieb Ben ruhig und half, wo er konnte. Die Tierärztin lobte ihn, weil er sich schnell in das Team eingefügt hatte.\n\nAm letzten Tag des Praktikums war sich Ben sicher, dass er später selbst Tierarzt werden möchte. Er bedankte sich bei der ganzen Praxis und erzählte seinen Eltern begeistert von seinen Erfahrungen. Seine Mutter war erstaunt, wie sehr sich seine Meinung über den Beruf verändert hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Ben machte ein Praktikum in einer Bäckerei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Praktikum dauerte zwei Wochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben blieb während der Operation ruhig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tierärztin war unzufrieden mit Ben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende wollte Ben auf keinen Fall Tierarzt werden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "resilienz-im-alltag-stress-bewaeltigen",
+    "nivel": "B2",
+    "titulo": "Resilienz im Alltag: Wie wir Stress bewältigen",
+    "descripcion": "Ein Essay über psychische Widerstandsfähigkeit in einer beschleunigten Gesellschaft.",
+    "texto": "In einer Gesellschaft, die von permanenter Erreichbarkeit und wachsendem Leistungsdruck geprägt ist, gewinnt der Begriff der Resilienz zunehmend an Bedeutung. Als Resilienz wird die Fähigkeit bezeichnet, mit Krisen, Rückschlägen und chronischem Stress umgehen zu können, ohne dass die psychische Gesundheit dauerhaft beeinträchtigt wird. Viele Experten sind der Meinung, dass diese Fähigkeit nicht angeboren, sondern im Laufe des Lebens erlernt werden könne.\n\nUntersuchungen zeigen, dass resiliente Menschen bestimmte Denkmuster und Verhaltensweisen entwickelt haben, die ihnen helfen, Belastungen besser zu verarbeiten. Dazu gehört etwa die Fähigkeit, Probleme realistisch einzuschätzen, anstatt sie entweder zu verharmlosen oder zu dramatisieren. Wäre jeder Mensch in der Lage, solche Strategien zu erlernen, so argumentieren manche Psychologen, könnten viele stressbedingte Erkrankungen vermieden werden. Kritiker wenden jedoch ein, dass der Fokus auf individuelle Resilienz auch dazu missbraucht werden kann, strukturelle Probleme wie überhöhte Arbeitsbelastung zu verschleiern.\n\nIn Unternehmen werden mittlerweile zahlreiche Resilienztrainings angeboten, die von Achtsamkeitsübungen bis hin zu Zeitmanagement-Seminaren reichen. Es wird jedoch zunehmend diskutiert, ob solche Maßnahmen ausreichen, wenn die eigentlichen Ursachen von Stress – etwa unrealistische Deadlines oder mangelnde Wertschätzung – unangetastet bleiben. Sollte eine Organisation tatsächlich nachhaltige Veränderungen erreichen wollen, müsste sie neben individuellen Trainings auch strukturelle Reformen in Betracht ziehen.\n\nLetztlich zeigt sich, dass Resilienz weder eine Allzwecklösung noch eine reine Privatangelegenheit ist. Vielmehr handelt es sich um ein Zusammenspiel aus persönlichen Fähigkeiten und gesellschaftlichen Rahmenbedingungen, die gemeinsam betrachtet werden müssen, wenn langfristig gesunde Arbeits- und Lebensverhältnisse geschaffen werden sollen.",
+    "preguntas": [
+      {
+        "enunciado": "Resilienz wird im Text als rein angeborene Eigenschaft beschrieben, die nicht erlernt werden kann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker befürchten, dass der Resilienzbegriff strukturelle Probleme verschleiern könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text reichen Achtsamkeitsübungen allein immer aus, um Stress vollständig zu beseitigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text plädiert dafür, individuelle Trainings mit strukturellen Reformen zu verbinden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text beschreibt Resilienz als reine Privatangelegenheit ohne gesellschaftlichen Bezug.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "gentrifizierung-und-staedtischer-wandel",
+    "nivel": "B2",
+    "titulo": "Gentrifizierung und städtischer Wandel",
+    "descripcion": "Eine Analyse darüber, wie sich Stadtviertel durch Aufwertung verändern und wer davon profitiert.",
+    "texto": "In vielen deutschen Großstädten ist seit Jahren ein Phänomen zu beobachten, das unter dem Begriff Gentrifizierung bekannt ist: einst günstige Arbeiterviertel werden saniert, neue Cafés und Boutiquen eröffnen, und die Mieten steigen in einem Tempo, das für viele langjährige Bewohner kaum noch zu bewältigen ist. Während manche diesen Wandel als Zeichen wirtschaftlicher Erholung begrüßen, befürchten andere, dass die soziale Durchmischung der Stadtteile verloren geht.\n\nBesonders betroffen sind häufig Menschen mit geringem Einkommen, Rentner und Familien, die seit Jahrzehnten in denselben Vierteln leben. Würden die Mieten weiter so stark steigen wie in den letzten Jahren, müssten viele von ihnen in günstigere, oft weiter entfernte Stadtteile umziehen, was wiederum zu einer stärkeren sozialen Segregation führen würde. Auf der anderen Seite argumentieren Investoren, dass Sanierungen notwendig seien, um den Gebäudebestand zu erhalten und zu modernisieren.\n\nAls Reaktion auf diese Entwicklung haben mehrere Städte Instrumente wie die Mietpreisbremse oder Milieuschutzsatzungen eingeführt, mit denen verhindert werden soll, dass angestammte Bewohner verdrängt werden. Ob diese Maßnahmen ausreichen, um die Dynamik der Gentrifizierung wirksam zu bremsen, wird von Stadtforschern unterschiedlich beurteilt. Einige fordern zusätzlich einen massiven Ausbau des sozialen Wohnungsbaus, damit bezahlbarer Wohnraum langfristig gesichert werden kann.\n\nLetztendlich zeigt die Debatte um Gentrifizierung, wie eng wirtschaftliche Interessen, soziale Gerechtigkeit und städtebauliche Entwicklung miteinander verknüpft sind. Eine Lösung, die alle Beteiligten zufriedenstellt, scheint angesichts der unterschiedlichen Interessenlagen kaum erreichbar zu sein, weshalb kontinuierliche politische Aushandlungsprozesse notwendig bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Gentrifizierung bezeichnet die Aufwertung von Stadtvierteln, bei der die Mieten oft steigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Dem Text zufolge sind von steigenden Mieten vor allem wohlhabende Investoren negativ betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Städte haben Instrumente wie die Mietpreisbremse eingeführt, um Verdrängung zu verhindern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind sich alle Stadtforscher einig, dass diese Maßnahmen völlig ausreichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, den sozialen Wohnungsbau auszubauen, um bezahlbaren Wohnraum zu sichern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ueberwachung-am-arbeitsplatz-durch-software",
+    "nivel": "B2",
+    "titulo": "Überwachung am Arbeitsplatz durch Software",
+    "descripcion": "Ein Text über digitale Kontrolle von Mitarbeitenden und die ethischen Fragen, die sie aufwirft.",
+    "texto": "Mit der zunehmenden Digitalisierung der Arbeitswelt setzen immer mehr Unternehmen Software ein, mit der sich das Verhalten ihrer Mitarbeitenden detailliert nachverfolgen lässt. Solche Programme können erfassen, wie lange jemand an einem Dokument arbeitet, welche Webseiten besucht werden oder wie oft eine Person während der Arbeitszeit inaktiv ist. Befürworter argumentieren, dass dadurch Produktivität gesteigert und Missbrauch von Arbeitszeit verhindert werden könne.\n\nKritiker hingegen weisen darauf hin, dass eine solche lückenlose Überwachung das Vertrauensverhältnis zwischen Arbeitgebern und Angestellten erheblich belasten könnte. Wenn Mitarbeitende das Gefühl hätten, ständig kontrolliert zu werden, würde dies nicht nur das Arbeitsklima verschlechtern, sondern könnte auch zu erhöhtem Stress und sinkender Kreativität führen. Zudem wird befürchtet, dass gesammelte Daten über die eigentliche Leistungskontrolle hinaus für andere, möglicherweise diskriminierende Zwecke verwendet werden könnten.\n\nRechtlich ist die Lage in vielen Ländern unklar, da Datenschutzgesetze zwar existieren, deren Umsetzung aber oft hinter der technischen Entwicklung zurückbleibt. Es müsste eigentlich klar geregelt werden, in welchem Umfang Überwachung zulässig ist und welche Mitspracherechte Betriebsräte dabei haben sollten. Andernfalls bestehe die Gefahr, dass einzelne Unternehmen immer weitreichendere Kontrollmechanismen einführen, ohne dass die Betroffenen wirksam dagegen vorgehen könnten.\n\nDie Debatte um Überwachungssoftware verdeutlicht ein grundsätzliches Spannungsfeld der modernen Arbeitswelt: den Konflikt zwischen wirtschaftlicher Effizienz und dem Schutz der Privatsphäre. Eine ausgewogene Lösung müsste beide Interessen berücksichtigen, etwa durch transparente Regelungen, die den Mitarbeitenden Mitbestimmung einräumen und den Einsatz solcher Software klar begrenzen.",
+    "preguntas": [
+      {
+        "enunciado": "Überwachungssoftware kann erfassen, wie lange jemand an einem Dokument arbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Dem Text zufolge begrüßen alle Mitarbeitenden die Überwachung uneingeschränkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass die Überwachung das Vertrauensverhältnis belasten könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die rechtliche Lage ist laut Text in allen Ländern vollständig und eindeutig geregelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text fordert eine Balance zwischen wirtschaftlicher Effizienz und dem Schutz der Privatsphäre.",
+        "respuesta": true
+      }
+    ]
   }
 ]
