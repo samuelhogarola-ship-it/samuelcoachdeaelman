@@ -57890,5 +57890,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "lenas-hund-bruno",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingstier",
+    "descripcion": "Lena erzählt von ihrem Lieblingstier, dem Hund Bruno.",
+    "texto": "Lena hat einen Hund. Er heißt Bruno und ist drei Jahre alt. Bruno ist braun und weiß. Er ist sehr freundlich und spielt gern im Garten.\n\nJeden Morgen geht Lena mit Bruno im Park spazieren. Bruno läuft schnell und holt den Ball. Danach isst er sein Futter und trinkt Wasser. Am Abend schläft Bruno neben Lenas Bett.\n\nLena liebt Bruno sehr. Sie sagt: „Bruno ist mein bester Freund.\" Am Wochenende spielt die ganze Familie mit Bruno im Garten.",
+    "preguntas": [
+      {
+        "enunciado": "Bruno ist eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist drei Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena geht morgens mit Bruno spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno schläft in der Küche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie spielt am Wochenende mit Bruno.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-einkauf-am-freitagabend",
+    "nivel": "A1",
+    "titulo": "Im Supermarkt an der Kasse",
+    "descripcion": "Paul kauft Brot, Milch und Äpfel und zahlt an der Kasse.",
+    "texto": "Paul geht in den Supermarkt. Er braucht Brot, Milch und Äpfel. Er nimmt einen Einkaufswagen und sucht die Produkte.\n\nAn der Kasse stellt sich Paul in die Schlange. Die Kassiererin lächelt und sagt: „Guten Tag! Das macht zusammen acht Euro.\" Paul bezahlt mit einem Zehn-Euro-Schein. Er bekommt zwei Euro zurück.\n\nPaul packt die Sachen in seine Tasche. Dann geht er nach Hause und kocht das Abendessen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul kauft Käse und Wurst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul benutzt einen Einkaufswagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kassiererin ist unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul bezahlt mit einem Zehn-Euro-Schein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul geht danach ins Kino.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-nachmittag-im-freibad",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Schwimmbad",
+    "descripcion": "Tim und Lisa verbringen einen heißen Tag im Freibad.",
+    "texto": "Heute ist es sehr warm. Tim und Lisa gehen ins Schwimmbad. Sie packen Handtücher, Badesachen und eine Flasche Wasser ein.\n\nIm Schwimmbad schwimmen sie im großen Becken. Tim springt vom Sprungbrett, und Lisa schwimmt zehn Runden. Danach essen sie ein Eis und liegen in der Sonne.\n\nAm Nachmittag spielen sie Ball mit anderen Kindern. Um sechs Uhr fahren Tim und Lisa mit dem Fahrrad nach Hause. Es war ein schöner Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Es ist heute kalt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim springt vom Sprungbrett.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa schwimmt zehn Runden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie essen am Schwimmbad Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim und Lisa fahren mit dem Fahrrad nach Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verspaetete-zugfahrt-nach-hamburg",
+    "nivel": "A2",
+    "titulo": "Die Zugfahrt nach Hamburg",
+    "descripcion": "Markus erzählt von seiner Zugfahrt nach Hamburg, die nicht ganz plangemäß verlief.",
+    "texto": "Letzte Woche ist Markus mit dem Zug nach Hamburg gefahren, weil er dort seine Schwester besuchen wollte. Er ist früh aufgestanden und hat seinen Koffer gepackt. Am Bahnhof hat er sich einen Kaffee gekauft und ist in den Zug eingestiegen.\n\nNach einer Stunde ist der Zug plötzlich stehen geblieben, weil es ein technisches Problem gab. Markus hat sich geärgert, dass die Fahrt so lange dauerte. Zum Glück hat er ein Buch dabeigehabt und konnte die Zeit nutzen, um zu lesen. Ein anderer Fahrgast hat ihm erzählt, dass solche Verspätungen in Deutschland leider häufig vorkommen.\n\nAls der Zug endlich in Hamburg angekommen ist, hat Markus seine Schwester am Bahnhof getroffen. Sie waren beide froh, dass die Reise trotz der Verspätung gut ausgegangen ist. Zusammen sind sie dann in ein Café gegangen, um sich zu unterhalten.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist mit dem Auto nach Hamburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug hatte ein technisches Problem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hatte kein Buch dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Verspätungen bei der Bahn sind laut Text selten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus und seine Schwester gehen in ein Café.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sophies-brief-aus-dem-urlaub",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Oma",
+    "descripcion": "Sophie schreibt ihrer Großmutter einen Brief über ihre Ferien.",
+    "texto": "Liebe Oma, ich habe dir lange nicht geschrieben, weil ich sehr beschäftigt war. In den Ferien bin ich mit meinen Eltern an die Ostsee gefahren. Wir haben dort ein kleines Ferienhaus gemietet und sind jeden Tag an den Strand gegangen.\n\nEs hat mir sehr gut gefallen, weil das Wetter meistens sonnig war. Nur einmal hat es stark geregnet, und wir sind deshalb ins Museum gegangen. Dort habe ich viel über alte Schiffe gelernt. Abends haben wir oft Fisch gegessen, weil das in der Region eine Spezialität ist.\n\nIch hoffe, dass du bald zu Besuch kommst, damit ich dir die Fotos von unserem Urlaub zeigen kann. Ich vermisse dich sehr und schicke dir viele Grüße. Deine Sophie.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie war mit ihrer Familie an der Ostsee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war die ganze Zeit schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat im Museum etwas über Schiffe gelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben abends nie Fisch gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie möchte, dass ihre Oma zu Besuch kommt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "carlos-der-neue-nachbar",
+    "nivel": "A2",
+    "titulo": "Der neue Nachbar",
+    "descripcion": "Frau Weber lernt ihren neuen Nachbarn kennen, der aus Spanien kommt.",
+    "texto": "Letzten Monat ist ein neuer Nachbar in das Haus von Frau Weber eingezogen. Er heißt Carlos und kommt aus Spanien. Frau Weber hat ihn zuerst im Treppenhaus getroffen, als er seine Kisten in die Wohnung getragen hat.\n\nSie hat ihm angeboten, ihm zu helfen, weil die Kisten sehr schwer waren. Carlos hat sich gefreut und ihr später zum Dank einen spanischen Kuchen gebacken. Sie haben sich lange unterhalten, obwohl Carlos noch nicht perfekt Deutsch sprechen konnte. Frau Weber hat ihm erklärt, wo der nächste Supermarkt und die Bushaltestelle sind.\n\nSeitdem treffen sich die beiden oft im Garten und trinken zusammen Kaffee. Carlos sagt, dass er sich in der neuen Nachbarschaft sehr wohl fühlt, weil die Leute so freundlich sind.",
+    "preguntas": [
+      {
+        "enunciado": "Carlos kommt aus Italien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber hilft Carlos mit den Kisten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carlos spricht schon perfekt Deutsch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber zeigt Carlos, wo der Supermarkt ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carlos fühlt sich in der Nachbarschaft nicht wohl.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "janas-umzug-nach-leipzig",
+    "nivel": "B1",
+    "titulo": "Der Umzug nach Leipzig",
+    "descripcion": "Jana zieht aus beruflichen Gründen nach Leipzig und muss sich an die neue Stadt gewöhnen.",
+    "texto": "Nachdem Jana ein neues Jobangebot in Leipzig erhalten hatte, entschied sie sich, aus ihrer Heimatstadt wegzuziehen. Obwohl sie ihre Freunde und ihre Familie sehr vermissen würde, wollte sie die berufliche Chance nutzen. Der Umzug selbst war anstrengend, da sie innerhalb von zwei Wochen eine Wohnung finden und alle Möbel organisieren musste.\n\nIn den ersten Wochen fühlte sich Jana in Leipzig etwas einsam, trotzdem versuchte sie, neue Kontakte zu knüpfen. Sie meldete sich bei einem Sportverein an und lernte dort schnell andere junge Leute kennen. Nachdem sie einige Kollegen aus der Arbeit näher kennengelernt hatte, fühlte sie sich langsam zu Hause in der Stadt.\n\nHeute, ein Jahr später, mag Jana Leipzig sehr. Sie schätzt die vielen Cafés, die Parks und das kulturelle Angebot der Stadt. Obwohl der Anfang schwierig war, bereut sie ihre Entscheidung nicht und empfiehlt anderen, ähnliche Chancen zu ergreifen.",
+    "preguntas": [
+      {
+        "enunciado": "Jana zieht wegen eines neuen Jobs nach Leipzig um.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Umzug war völlig stressfrei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana lernt neue Leute über einen Sportverein kennen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana fühlt sich nie einsam in Leipzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana bereut ihre Entscheidung, nach Leipzig zu ziehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-auf-dem-weihnachtsmarkt",
+    "nivel": "B1",
+    "titulo": "Ein Wochenende auf dem Weihnachtsmarkt",
+    "descripcion": "Eine Gruppe von Freunden besucht den Weihnachtsmarkt in Nürnberg und erlebt die Vorweihnachtszeit.",
+    "texto": "Jedes Jahr im Dezember fahren Clara und ihre Freunde zum berühmten Weihnachtsmarkt in Nürnberg, obwohl die Fahrt dorthin fast drei Stunden dauert. Für sie gehört dieser Ausflug fest zur Vorweihnachtszeit, da die Atmosphäre dort einzigartig ist. Zwischen den beleuchteten Ständen duftet es nach gebrannten Mandeln, Glühwein und Lebkuchen.\n\nNachdem sie durch die engen Gassen geschlendert waren, kauften sie kleine Geschenke für ihre Familien. Trotzdem nahmen sie sich auch Zeit, um einfach die festliche Stimmung zu genießen und den verschiedenen Musikgruppen zuzuhören, die auf dem Platz spielten. Ein Freund von Clara, der zum ersten Mal dabei war, war beeindruckt von der Größe und Vielfalt des Marktes.\n\nAm Abend, nachdem die Sonne untergegangen war, wirkte der Markt noch zauberhafter, weil tausende Lichter die Stände erleuchteten. Die Gruppe beschloss, auch im nächsten Jahr wiederzukommen, denn solch eine Tradition wollten sie nicht missen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Weihnachtsmarkt findet in Nürnberg statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fahrt zum Markt dauert nur zehn Minuten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt auf dem Markt gebrannte Mandeln und Glühwein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Claras Freund war schon oft auf diesem Markt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe möchte im nächsten Jahr wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-ueber-die-entfernung",
+    "nivel": "B1",
+    "titulo": "Freundschaft über die Entfernung",
+    "descripcion": "Zwei Freundinnen pflegen ihre Freundschaft, nachdem eine von ihnen ins Ausland gezogen ist.",
+    "texto": "Als Hannah vor zwei Jahren beschloss, für ihr Studium nach Kanada zu ziehen, hatten sie und ihre beste Freundin Mia große Angst, den Kontakt zu verlieren. Nachdem Hannah abgereist war, schrieben sie sich zunächst jeden Tag Nachrichten, obwohl die Zeitverschiebung die Kommunikation manchmal erschwerte.\n\nMit der Zeit fanden die beiden einen Rhythmus, der zu ihrem Alltag passte. Sie verabredeten sich jeden Sonntag zu einem Videoanruf, bei dem sie ausführlich über ihre Woche sprachen. Obwohl sie sich selten persönlich sehen konnten, fühlten sie sich einander weiterhin sehr nah. Mia erzählte, dass sie sich sogar enger verbunden fühlten als vorher, weil sie sich bewusst Zeit füreinander nahmen.\n\nLetzten Sommer besuchte Mia Hannah schließlich in Kanada. Nachdem sie sich am Flughafen umarmt hatten, wussten beide, dass ihre Freundschaft die Entfernung erfolgreich überstanden hatte. Sie planen bereits das nächste Wiedersehen.",
+    "preguntas": [
+      {
+        "enunciado": "Hannah ist für ihr Studium nach Kanada gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zeitverschiebung macht die Kommunikation leichter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hannah und Mia telefonieren jeden Sonntag per Video.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia besucht Hannah nie in Kanada.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden planen ein weiteres Wiedersehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "knappe-wohnungen-in-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Die Wohnungsnot in deutschen Großstädten",
+    "descripcion": "Eine Analyse der Ursachen und möglichen Lösungen der angespannten Wohnungsmärkte in deutschen Metropolen.",
+    "texto": "In vielen deutschen Großstädten hat sich die Wohnungssuche in den letzten Jahren zu einer erheblichen Herausforderung entwickelt. Während die Bevölkerung in Ballungsräumen wie München, Berlin und Hamburg stetig wächst, wird deutlich zu wenig neuer Wohnraum geschaffen. Dadurch sind die Mietpreise in kurzer Zeit drastisch gestiegen, sodass sich viele Menschen mit geringem oder mittlerem Einkommen kaum noch eine angemessene Wohnung leisten können.\n\nExperten führen diese Entwicklung auf mehrere Faktoren zurück. Zum einen seien die Baukosten durch gestiegene Materialpreise und strengere Vorschriften erheblich angestiegen, was private Investoren vom Neubau abschrecke. Zum anderen würden Genehmigungsverfahren oft so lange dauern, dass geplante Projekte verzögert oder ganz aufgegeben würden. Hinzu kommt, dass in attraktiven Lagen zunehmend Wohnungen als Kapitalanlage gekauft werden, anstatt dauerhaft bewohnt zu werden.\n\nUm die Situation zu entschärfen, fordern Politiker und Verbände unterschiedliche Maßnahmen. Manche plädieren dafür, dass der soziale Wohnungsbau stärker gefördert werden müsse, während andere eine Vereinfachung der Bauvorschriften vorschlagen. Würden beide Ansätze konsequent umgesetzt, könnte sich die Lage auf dem Wohnungsmarkt mittelfristig verbessern. Bis dahin bleibt die Wohnungsnot jedoch eines der dringendsten sozialen Probleme in deutschen Großstädten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Bevölkerung in deutschen Großstädten wächst laut Text.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es wird laut Text ausreichend neuer Wohnraum geschaffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gestiegene Baukosten schrecken private Investoren ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Wohnungen in attraktiven Lagen werden dauerhaft bewohnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Politiker fordern eine stärkere Förderung des sozialen Wohnungsbaus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-in-der-schule",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Klassenzimmer",
+    "descripcion": "Der Einsatz von KI-Werkzeugen im Schulunterricht wird kontrovers diskutiert.",
+    "texto": "Der Einsatz künstlicher Intelligenz im schulischen Unterricht wird von Lehrkräften, Eltern und Bildungsexperten zunehmend diskutiert. Während einige Schulen bereits KI-gestützte Lernprogramme einsetzen, mit denen Schülerinnen und Schüler individuell gefördert werden können, warnen Kritiker vor möglichen negativen Folgen für die Entwicklung eigenständigen Denkens.\n\nBefürworter argumentieren, dass solche Programme es ermöglichten, auf die unterschiedlichen Lerntempi einzelner Kinder einzugehen, was im traditionellen Klassenzimmer kaum umsetzbar sei. Außerdem könnten Lehrkräfte durch automatisierte Auswertungen entlastet werden und mehr Zeit für die persönliche Betreuung ihrer Schüler gewinnen. Es wird zudem betont, dass Schüler, die frühzeitig lernten, verantwortungsvoll mit solchen Technologien umzugehen, später im Berufsleben im Vorteil seien.\n\nKritiker hingegen befürchten, dass eine zu starke Abhängigkeit von KI-Werkzeugen die Fähigkeit zum selbstständigen Problemlösen beeinträchtigen könnte. Wenn Hausaufgaben zunehmend von Programmen erledigt würden, bestehe die Gefahr, dass grundlegende Kompetenzen nicht mehr ausreichend trainiert würden. Um diesem Risiko zu begegnen, fordern viele Pädagogen klare Richtlinien, die den verantwortungsvollen Einsatz solcher Technologien im Unterricht sicherstellen sollen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Schulen lehnen den Einsatz von KI im Unterricht ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen Vorteile bei der individuellen Förderung von Schülern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten eine Beeinträchtigung des selbstständigen Problemlösens.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text gibt es keine Bedenken gegenüber KI im Unterricht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Pädagogen fordern klare Richtlinien für den Einsatz von KI.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-schattenseiten-von-fast-fashion",
+    "nivel": "B2",
+    "titulo": "Fast Fashion und ihre Folgen",
+    "descripcion": "Ein kritischer Blick auf die Umwelt- und Sozialfolgen der schnellen Modeindustrie.",
+    "texto": "In den letzten Jahrzehnten hat sich die Modeindustrie grundlegend verändert. Kleidungsstücke werden heute in einem Tempo produziert und konsumiert, das noch vor wenigen Jahrzehnten undenkbar gewesen wäre. Dieses als „Fast Fashion\" bezeichnete Phänomen ermöglicht es Verbrauchern, ständig neue, günstige Kleidung zu kaufen, zieht jedoch erhebliche ökologische und soziale Probleme nach sich.\n\nAus ökologischer Sicht ist vor allem der enorme Wasserverbrauch bei der Textilproduktion besorgniserregend. Zudem werden große Mengen an Chemikalien verwendet, die häufig ungefiltert in Flüsse gelangen und dadurch Ökosysteme nachhaltig schädigen. Hinzu kommt, dass ein Großteil der produzierten Kleidung aus synthetischen Fasern besteht, die beim Waschen Mikroplastik freisetzen, das letztlich in den Weltmeeren landet.\n\nAuf sozialer Ebene wird kritisiert, dass die niedrigen Preise häufig auf Kosten der Arbeiterinnen und Arbeiter in den Produktionsländern erzielt werden. Viele von ihnen erhielten Löhne, die kaum zum Leben ausreichten, und arbeiteten unter gesundheitsgefährdenden Bedingungen. Um diese Missstände zu beheben, fordern Aktivisten strengere gesetzliche Vorgaben sowie ein größeres Bewusstsein der Konsumenten für die Herkunft ihrer Kleidung. Nur durch ein verändertes Konsumverhalten, so die Hoffnung, ließe sich die Branche langfristig nachhaltiger gestalten.",
+    "preguntas": [
+      {
+        "enunciado": "Fast Fashion bedeutet, dass Kleidung sehr schnell produziert und konsumiert wird.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Textilproduktion verbraucht laut Text kaum Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Synthetische Fasern können beim Waschen Mikroplastik freisetzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Arbeiter in der Textilindustrie erhalten laut Text hohe Löhne.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Aktivisten fordern strengere gesetzliche Vorgaben für die Modeindustrie.",
+        "respuesta": true
+      }
+    ]
   }
 ]
