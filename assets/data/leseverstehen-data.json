@@ -57542,5 +57542,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-second-hand-laden",
+    "nivel": "A1",
+    "titulo": "Im Second-Hand-Laden",
+    "descripcion": "Mia kauft gebrauchte Kleidung in einem kleinen Laden.",
+    "texto": "Mia geht am Samstag in die Stadt. Sie sucht einen neuen Pullover. Im Second-Hand-Laden gibt es viele Kleider. Die Preise sind günstig.\n\nMia findet einen blauen Pullover. Er kostet nur fünf Euro. Sie findet auch eine rote Jacke. Die Jacke ist schön, aber zu groß.\n\nDie Verkäuferin ist sehr nett. Mia kauft den Pullover. Sie bezahlt an der Kasse. Dann geht sie glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Mia geht am Samstag einkaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Laden ist ein großes Kaufhaus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Pullover kostet fünf Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia kauft die rote Jacke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia geht traurig nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-fruehstueckstisch",
+    "nivel": "A1",
+    "titulo": "Der Frühstückstisch",
+    "descripcion": "Die Familie Berger frühstückt zusammen am Morgen.",
+    "texto": "Jeden Morgen frühstückt die Familie Berger zusammen. Der Vater macht Kaffee. Die Mutter schneidet Brot. Die Kinder trinken Milch.\n\nAuf dem Tisch stehen Brötchen, Butter und Marmelade. Der kleine Tom isst gern Honig. Seine Schwester Lisa mag lieber Käse.\n\nUm acht Uhr gehen die Kinder zur Schule. Die Eltern räumen die Küche auf. Das Frühstück macht die Familie jeden Tag glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger frühstückt zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater macht Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst gern Honig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa mag lieber Marmelade als Käse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder gehen um acht Uhr zur Schule.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unsere-familie-am-tisch",
+    "nivel": "A1",
+    "titulo": "Unsere Familie am Tisch",
+    "descripcion": "Am Sonntag isst die ganze Familie gemeinsam zu Mittag.",
+    "texto": "Am Sonntag kommt die ganze Familie zusammen. Oma und Opa kommen auch zu Besuch. Alle sitzen am großen Tisch im Wohnzimmer.\n\nDie Mutter kocht Nudeln mit Tomatensoße. Der Opa bringt einen Apfelkuchen mit. Die Kinder decken den Tisch mit Tellern und Gläsern.\n\nNach dem Essen spielen die Kinder im Garten. Die Erwachsenen trinken Kaffee und sprechen über die Woche. Der Sonntag ist der schönste Tag der Woche.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie trifft sich am Sonntag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma und Opa kommen nicht zu Besuch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt Nudeln mit Tomatensoße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Opa bringt eine Pizza mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Essen spielen die Kinder im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-hautarzt",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Hautarzt",
+    "descripcion": "Nina hat einen Ausschlag und geht deshalb zum Hautarzt.",
+    "texto": "Nina hatte seit einer Woche einen roten Ausschlag am Arm. Weil es nicht besser wurde, hat sie einen Termin beim Hautarzt gemacht. Sie war ein bisschen nervös.\n\nIm Wartezimmer hat sie eine Zeitschrift gelesen. Als die Ärztin sie aufgerufen hat, ist Nina ins Behandlungszimmer gegangen. Die Ärztin hat den Arm genau angeschaut und ein paar Fragen gestellt.\n\nDie Ärztin hat gesagt, dass Nina eine Allergie gegen eine neue Creme hat. Sie hat ihr eine Salbe verschrieben. Nach drei Tagen war der Ausschlag fast weg.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hatte einen Ausschlag am Bein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina war ein bisschen nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Wartezimmer hat Nina geschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin hat eine Allergie festgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach drei Tagen war der Ausschlag fast weg.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-briefkasten-ist-voll",
+    "nivel": "A2",
+    "titulo": "Der Briefkasten ist voll",
+    "descripcion": "Herr Fischer findet viele Briefe in seinem Briefkasten.",
+    "texto": "Herr Fischer war zwei Wochen im Urlaub. Als er nach Hause kam, war sein Briefkasten voll. Er hat alle Briefe mit ins Haus genommen.\n\nZuerst hat er die Rechnungen sortiert. Dann hat er einen Brief von seiner Schwester gefunden. Sie hat geschrieben, dass sie bald zu Besuch kommt, weil sie ihn lange nicht gesehen hat.\n\nHerr Fischer hat sich sehr gefreut. Er hat sofort geantwortet und seiner Schwester geschrieben, wann sie kommen soll. Am Abend hat er die Wohnung schon ein bisschen aufgeräumt.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Fischer war vier Wochen im Urlaub.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Briefkasten war voll.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schwester kommt bald zu Besuch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Fischer hat sich nicht gefreut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er hat seiner Schwester sofort geantwortet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ferien-an-der-nordsee",
+    "nivel": "A2",
+    "titulo": "Ferien an der Nordsee",
+    "descripcion": "Die Familie Klein verbringt eine Woche an der Nordsee.",
+    "texto": "Die Familie Klein ist letzten Sommer an die Nordsee gefahren. Sie haben eine kleine Ferienwohnung in Sankt Peter-Ording gemietet. Das Wetter war meistens windig, aber die Kinder hat das nicht gestört.\n\nJeden Tag sind sie an den Strand gegangen. Sie haben Drachen steigen lassen und Muscheln gesammelt. Einmal sind sie mit dem Fahrrad zum Deich gefahren, weil der Vater die Landschaft fotografieren wollte.\n\nAm letzten Abend haben sie in einem Fischrestaurant gegessen. Die Kinder haben gesagt, dass sie nächstes Jahr wieder an die Nordsee fahren möchten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Klein war an der Ostsee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war meistens windig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben Muscheln gesammelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater wollte nicht fotografieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder möchten nächstes Jahr wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-praktikum-im-buero",
+    "nivel": "B1",
+    "titulo": "Mein Praktikum im Büro",
+    "descripcion": "Jonas berichtet von seinem ersten Praktikum in einer Firma.",
+    "texto": "Nachdem Jonas sein Abitur gemacht hatte, wollte er vor dem Studium praktische Erfahrung sammeln. Er bekam ein Praktikum bei einer kleinen Marketingfirma in seiner Heimatstadt. Obwohl er anfangs sehr aufgeregt war, freute er sich auf die neue Erfahrung.\n\nAm ersten Tag zeigte ihm sein Kollege das Büro und erklärte ihm die wichtigsten Aufgaben. Jonas durfte bei Projekten für Kunden mitarbeiten, obwohl er noch keine Erfahrung hatte. Trotzdem machte ihm die Arbeit großen Spaß, weil das Team sehr freundlich war.\n\nAm Ende des Praktikums merkte Jonas, dass er gerne im Marketing arbeiten möchte. Er beschloss, genau dieses Fach zu studieren, nachdem er so viel Positives erlebt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas machte das Praktikum vor dem Studium.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas war überhaupt nicht aufgeregt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er durfte bei Kundenprojekten mitarbeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Team war unfreundlich zu ihm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas möchte Marketing studieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-neue-freundschaft",
+    "nivel": "B1",
+    "titulo": "Eine neue Freundschaft",
+    "descripcion": "Paula lernt in ihrer neuen Klasse eine gute Freundin kennen.",
+    "texto": "Als Paula in die neunte Klasse kam, kannte sie noch niemanden, weil ihre Familie erst vor Kurzem in die Stadt gezogen war. Am ersten Schultag setzte sie sich neben ein Mädchen namens Sarah, obwohl sie sehr schüchtern war.\n\nDie beiden merkten schnell, dass sie viele gemeinsame Interessen hatten. Sie mochten beide Musik und spielten gern Volleyball. Nachdem sie einige Wochen zusammen gelernt hatten, trafen sie sich auch nachmittags, um gemeinsam Hausaufgaben zu machen.\n\nHeute sind Paula und Sarah beste Freundinnen. Obwohl sie manchmal unterschiedliche Meinungen haben, vertrauen sie sich gegenseitig. Paula ist froh, dass sie den Mut hatte, sich neben Sarah zu setzen.",
+    "preguntas": [
+      {
+        "enunciado": "Paula kannte vorher schon alle in der Klasse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula und Sarah mögen beide Musik.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden lernten nie zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula und Sarah sind heute beste Freundinnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben niemals unterschiedliche Meinungen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest-der-kulturen",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest der Kulturen",
+    "descripcion": "Eine Kleinstadt feiert ein Fest mit Musik und Essen aus aller Welt.",
+    "texto": "Jedes Jahr im September veranstaltet die Stadt Hanau ein Fest, bei dem verschiedene Kulturen gefeiert werden. Obwohl das Fest klein begann, kommen heute Tausende Besucher aus der ganzen Region.\n\nAuf dem Marktplatz stehen Stände mit Spezialitäten aus der Türkei, aus Italien und aus Syrien. Nachdem die Besucher gegessen haben, können sie traditionellen Tänzen zuschauen oder selbst tanzen lernen. Viele Vereine zeigen ihre Trachten und erzählen von ihrer Heimat.\n\nDie Organisatoren sagen, dass das Fest den Menschen hilft, sich besser kennenzulernen, obwohl sie aus unterschiedlichen Ländern kommen. Trotzdem bleibt die größte Herausforderung, genug Freiwillige für die Organisation zu finden.",
+    "preguntas": [
+      {
+        "enunciado": "Das Fest findet im September statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur wenige Besucher kommen zum Fest.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt Essen aus verschiedenen Ländern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand zeigt traditionelle Tänze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es ist schwierig, genug Freiwillige zu finden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wohnraummangel-in-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Wohnraummangel in Großstädten",
+    "descripcion": "Ein Blick auf die Ursachen und möglichen Lösungen der Wohnungsnot.",
+    "texto": "In vielen deutschen Großstädten ist bezahlbarer Wohnraum längst zu einem knappen Gut geworden. Während die Mieten in den letzten zehn Jahren kontinuierlich gestiegen sind, hat der Neubau von Wohnungen mit der wachsenden Nachfrage nicht Schritt gehalten. Besonders betroffen sind Studierende und Familien mit geringem Einkommen, die sich zentral gelegene Wohnungen kaum noch leisten können.\n\nWürde der Staat konsequenter in sozialen Wohnungsbau investieren, könnte die Situation nach Ansicht vieler Experten deutlich entspannt werden. Stattdessen wird jedoch oft kritisiert, dass Bauvorschriften zu kompliziert seien und Genehmigungsverfahren viel zu lange dauerten. Zudem wird ein großer Teil des bestehenden Wohnraums nicht mehr dauerhaft bewohnt, sondern als Kapitalanlage genutzt oder kurzfristig an Touristen vermietet.\n\nEinige Städte haben bereits Maßnahmen ergriffen, um dem entgegenzuwirken, etwa durch eine Mietpreisbremse oder strengere Regeln für Ferienwohnungen. Ob solche Eingriffe tatsächlich ausreichen, um den Wohnungsmarkt langfristig zu entlasten, bleibt allerdings umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studierende sind von der Wohnungsnot besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten lehnen mehr sozialen Wohnungsbau ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Wohnungen werden als Kapitalanlage genutzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wirkung von Mietpreisbremsen ist unumstritten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "lokale-nachrichten-im-wandel",
+    "nivel": "B2",
+    "titulo": "Lokale Nachrichten im Wandel",
+    "descripcion": "Warum regionale Zeitungen zunehmend unter Druck geraten.",
+    "texto": "Lokale Tageszeitungen gehörten jahrzehntelang zu den wichtigsten Informationsquellen in deutschen Städten und Gemeinden. Inzwischen sind jedoch viele Redaktionen gezwungen, ihr Personal drastisch zu reduzieren, da die Einnahmen aus Anzeigen und Abonnements stetig zurückgehen. Immer mehr Menschen informieren sich stattdessen über soziale Netzwerke, wo lokale Themen jedoch oft nur oberflächlich behandelt werden.\n\nKritiker warnen davor, dass dadurch sogenannte Nachrichtenwüsten entstehen könnten, also Regionen, über die kaum noch unabhängig berichtet wird. Wäre dies der Fall, würde die lokale Demokratie erheblich geschwächt, weil wichtige Entscheidungen von Kommunalpolitikern nicht mehr kritisch begleitet würden. Gleichzeitig wird befürchtet, dass Falschinformationen in solchen Lücken leichter verbreitet werden können.\n\nEinige Verlage experimentieren deshalb mit neuen Modellen, etwa gemeinnützigem Journalismus oder digitalen Mitgliedschaften, die von Leserinnen und Lesern direkt finanziert werden. Ob diese Ansätze ausreichen, um den Qualitätsjournalismus vor Ort dauerhaft zu sichern, wird sich erst in den kommenden Jahren zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Einnahmen lokaler Zeitungen steigen stetig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Regionen könnten zu Nachrichtenwüsten werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine geschwächte lokale Presse betrifft die Demokratie nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Falschinformationen könnten sich leichter verbreiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt bereits neue Finanzierungsmodelle für Journalismus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice-oder-buero",
+    "nivel": "B2",
+    "titulo": "Homeoffice oder Büro?",
+    "descripcion": "Eine Diskussion über Vor- und Nachteile flexibler Arbeitsmodelle.",
+    "texto": "Seit einigen Jahren streiten Unternehmen und Beschäftigte darüber, ob die Arbeit künftig überwiegend im Homeoffice oder im Büro stattfinden sollte. Befürworter des Homeoffice betonen, dass dadurch Pendelzeiten entfallen und sich Berufs- und Privatleben besser vereinbaren ließen. Gleichzeitig weisen Studien darauf hin, dass viele Beschäftigte zu Hause produktiver arbeiten, weil sie weniger durch Kollegen abgelenkt werden.\n\nAndererseits wird häufig argumentiert, dass der persönliche Austausch im Büro durch digitale Kommunikation nicht vollständig ersetzt werden könne. Würde ausschließlich von zu Hause gearbeitet, könnte dies langfristig zu einem Verlust an Kreativität und Teamzusammenhalt führen, da spontane Gespräche am Arbeitsplatz fehlen. Zudem berichten manche Angestellte von sozialer Isolation, wenn sie kaum noch persönlichen Kontakt zu ihren Kollegen haben.\n\nViele Firmen setzen deshalb mittlerweile auf hybride Modelle, bei denen sich Homeoffice- und Bürotage abwechseln. Dadurch soll ein Gleichgewicht geschaffen werden, das sowohl die Flexibilität der Beschäftigten als auch den Zusammenhalt im Team berücksichtigt.",
+    "preguntas": [
+      {
+        "enunciado": "Homeoffice kann Pendelzeiten reduzieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Studien zeigen, dass Homeoffice die Produktivität senkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Persönlicher Austausch lässt sich laut Text völlig digital ersetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Angestellte fühlen sich im Homeoffice isoliert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Viele Firmen setzen auf hybride Arbeitsmodelle.",
+        "respuesta": true
+      }
+    ]
   }
 ]
