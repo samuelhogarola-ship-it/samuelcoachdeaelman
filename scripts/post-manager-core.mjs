@@ -174,10 +174,14 @@ export async function savePost(rootDir, currentSlug, input) {
   const nextPath = path.join(rootDir, "blog-posts", `${nextSlug}.md`);
   const currentFile = currentSlug ? await findPostFileBySlug(rootDir, currentSlug) : null;
   const occupiedFile = await findPostFileBySlug(rootDir, nextSlug);
-  if (!currentSlug && occupiedFile) {
+  const publishedTargetExists = await fileExists(path.join(rootDir, "f", nextSlug, "index.html"));
+  if (!currentSlug && (occupiedFile || publishedTargetExists)) {
     throw Object.assign(new Error("Ya existe un post con ese slug."), { status: 409 });
   }
-  if (currentSlug && occupiedFile && occupiedFile !== currentFile) {
+  if (currentSlug && (
+    (occupiedFile && occupiedFile !== currentFile)
+    || (nextSlug !== currentSlug && publishedTargetExists)
+  )) {
     throw Object.assign(new Error("Ya existe otro post con ese slug."), { status: 409 });
   }
 

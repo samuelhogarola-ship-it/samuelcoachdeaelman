@@ -80,6 +80,30 @@ test("no permite crear un post encima de otro slug existente", async () => {
   }
 });
 
+test("no permite crear un post encima de un HTML publicado sin fuente Markdown", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "post-manager-generated-collision-"));
+  try {
+    await mkdir(path.join(root, "f", "post-publicado"), { recursive: true });
+    await writeFile(
+      path.join(root, "f", "post-publicado", "index.html"),
+      "<!doctype html><html><body><article><h1>Post publicado</h1></article></body></html>",
+      "utf8",
+    );
+
+    await assert.rejects(
+      savePost(root, null, {
+        title: "Nuevo post",
+        slug: "post-publicado",
+        description: "No debe reemplazar el HTML heredado",
+        body: "Contenido nuevo",
+      }),
+      /Ya existe un post con ese slug/,
+    );
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
 test("blogger abre directamente el gestor completo y protege su ruta", () => {
   const adminBlogger = readFileSync(new URL("../../admin/blogger/index.html", import.meta.url), "utf8");
   const editor = readFileSync(new URL("../../tools/post-manager/index.html", import.meta.url), "utf8");

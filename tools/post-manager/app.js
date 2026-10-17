@@ -23,6 +23,7 @@ const state = {
   selectedImage: null,
   bodyFormat: "markdown",
   dirty: false,
+  slugEdited: false,
 };
 
 const postList = document.querySelector("#postList");
@@ -66,11 +67,22 @@ visualEditor.addEventListener("input", () => {
 });
 fields.title.addEventListener("input", () => {
   currentTitle.textContent = fields.title.value || "Nuevo post";
+  if (!state.activeSlug && !state.slugEdited) fields.slug.value = slugifyTitle(fields.title.value);
   markDirty();
+});
+fields.slug.addEventListener("input", () => {
+  state.slugEdited = true;
 });
 for (const field of Object.values(fields).filter((field) => ![fields.title, fields.body, fields.status].includes(field))) {
   field.addEventListener("input", markDirty);
 }
+document.addEventListener("keydown", (event) => {
+  if (!(event.metaKey || event.ctrlKey) || event.key.toLowerCase() !== "s") return;
+  event.preventDefault();
+  if (!document.querySelector("#savePost").disabled) {
+    runAction("Guardando borrador...", () => savePost("draft"));
+  }
+});
 window.addEventListener("beforeunload", (event) => {
   if (!state.dirty) return;
   event.preventDefault();
@@ -141,6 +153,7 @@ async function loadPost(slug) {
 
 function newPost() {
   state.activeSlug = null;
+  state.slugEdited = false;
   fillForm({
     meta: {
       title: "",
@@ -173,6 +186,7 @@ function fillForm(post) {
   document.querySelector('[data-view="markdown"]').textContent = state.bodyFormat === "html" ? "Editar HTML" : "Editar Markdown";
   currentTitle.textContent = fields.title.value || "Nuevo post";
   updatePublishedLink(meta.slug || post.slug, Boolean(post.isPublished));
+  state.slugEdited = Boolean(meta.slug || post.slug);
   state.dirty = false;
 }
 
@@ -188,6 +202,7 @@ function confirmDiscardChanges() {
 async function savePost(forcedStatus = null) {
   const payload = readForm();
   if (forcedStatus) payload.status = forcedStatus;
+  if (!validatePost(payload)) return null;
   const endpoint = state.activeSlug ? `/api/posts/${state.activeSlug}` : "/api/posts";
   const method = state.activeSlug ? "PUT" : "POST";
   const post = await api(endpoint, { method, body: payload });
@@ -209,9 +224,33 @@ function updatePublishedLink(slug, isPublished) {
 
 async function publishPost() {
   const post = await savePost("published");
+  if (!post) return;
   await api("/api/build", { method: "POST", body: {} });
   updatePublishedLink(post.slug, true);
   statusText.textContent = "Publicado correctamente";
+}
+
+function validatePost(payload) {
+  const required = [
+    [payload.title, fields.title, "El titulo es obligatorio."],
+    [payload.description, fields.description, "La meta description es obligatoria."],
+    [payload.body, editorViews.visual.hidden ? fields.body : visualEditor, "El contenido es obligatorio."],
+  ];
+  const invalid = required.find(([value]) => !String(value || "").trim());
+  if (!invalid) return true;
+  statusText.textContent = invalid[2];
+  invalid[1].focus();
+  return false;
+}
+
+function slugifyTitle(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .replace(/-{2,}/g, "-");
 }
 
 async function runAction(message, action) {
