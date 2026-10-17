@@ -58238,5 +58238,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "toms-morgenroutine-im-winter",
+    "nivel": "A1",
+    "titulo": "Toms Morgenroutine im Winter",
+    "descripcion": "Tom erzählt, was er jeden Morgen im Winter macht.",
+    "texto": "Tom steht jeden Morgen um sechs Uhr auf. Draußen ist es dunkel und kalt. Er macht das Licht an und geht ins Bad. Dort putzt er seine Zähne und wäscht sein Gesicht. Danach zieht er einen warmen Pullover und eine Jacke an.\n\nIn der Küche trinkt Tom einen heißen Tee und isst ein Brot mit Käse. Seine Katze sitzt neben ihm und wartet auf Futter. Tom gibt ihr Futter und streichelt sie kurz. Um sieben Uhr nimmt er seine Tasche und geht aus dem Haus. Der Weg zur Arbeit ist kurz, aber heute liegt viel Schnee auf der Straße.\n\nTom geht langsam und vorsichtig. Er mag den Winter, weil alles so weiß und ruhig aussieht. Um acht Uhr ist er im Büro und trinkt noch einen Kaffee mit seinen Kollegen.",
+    "preguntas": [
+      {
+        "enunciado": "Tom steht um sechs Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom isst morgens Suppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom hat eine Katze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Weg zur Arbeit ist sehr lang.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom mag den Winter.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-familie-krause-feiert-geburtstag",
+    "nivel": "A1",
+    "titulo": "Die Familie Krause feiert Geburtstag",
+    "descripcion": "Die Familie Krause bereitet eine kleine Geburtstagsfeier vor.",
+    "texto": "Heute hat die kleine Lisa Geburtstag. Sie wird sechs Jahre alt. Die ganze Familie Krause kommt zu Besuch. Oma bringt einen Kuchen mit Schokolade, und Opa bringt bunte Luftballons. Lisas Bruder Paul hilft beim Dekorieren im Garten.\n\nDie Mutter kocht Nudeln mit Tomatensoße, weil das Lisas Lieblingsessen ist. Der Vater stellt den Tisch in den Garten, denn das Wetter ist schön und sonnig. Alle singen ein Geburtstagslied, und Lisa bläst die Kerzen aus. Sie bekommt ein neues Fahrrad als Geschenk.\n\nNach dem Essen spielen die Kinder im Garten. Lisa fährt sofort mit ihrem neuen Fahrrad. Am Abend ist Lisa sehr müde, aber sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa wird sechs Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa bringt einen Kuchen mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst Nudeln mit Tomatensoße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter ist schlecht und regnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa bekommt ein Fahrrad.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-hobby-schach-spielen",
+    "nivel": "A1",
+    "titulo": "Mein Hobby: Schach spielen",
+    "descripcion": "Ein Junge erzählt, warum er gerne Schach spielt.",
+    "texto": "Ich heiße Felix und bin elf Jahre alt. Mein Lieblingshobby ist Schach. Ich spiele jeden Dienstag im Schachclub in meiner Stadt. Dort treffe ich viele Freunde, und wir spielen zusammen.\n\nMein Opa hat mir das Schachspielen gezeigt. Er spielt sehr gut, aber ich werde auch immer besser. Wir spielen oft am Wochenende zu Hause. Meine Mutter schaut manchmal zu und bringt uns Tee und Kekse.\n\nIm Schachclub gibt es auch kleine Turniere. Letzten Monat habe ich das zweite Spiel gewonnen. Ich bin sehr stolz, und mein Opa freut sich auch sehr. Nächstes Jahr möchte ich an einem größeren Turnier teilnehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist elf Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix spielt jeden Montag Schach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Opa hat Felix das Schachspielen gezeigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix spielt nur im Club und nie zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix möchte an einem größeren Turnier teilnehmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradreparatur-beim-nachbarn",
+    "nivel": "A2",
+    "titulo": "Die Fahrradreparatur beim Nachbarn",
+    "descripcion": "Jonas hat ein Problem mit seinem Fahrrad und bittet seinen Nachbarn um Hilfe.",
+    "texto": "Jonas ist gestern mit seinem Fahrrad zur Arbeit gefahren, als plötzlich die Kette kaputt gegangen ist. Er hat das Fahrrad nach Hause geschoben, weil er nicht mehr weiterfahren konnte. Zu Hause hat er seinen Nachbarn Herrn Beck gefragt, ob er helfen kann, denn Herr Beck repariert oft Fahrräder.\n\nHerr Beck hat sein Werkzeug geholt und sich das Fahrrad genau angeschaut. Er hat gesagt, dass die Kette alt ist und eine neue gekauft werden muss. Zusammen sind sie zu einem Fahrradladen gegangen und haben eine passende Kette gefunden. Danach hat Herr Beck die neue Kette montiert, während Jonas ihm die Werkzeuge gereicht hat.\n\nNach einer Stunde war das Fahrrad wieder fertig. Jonas hat sich sehr gefreut und seinem Nachbarn als Dank einen Kuchen gebacken. Herr Beck hat gesagt, dass er sich jederzeit wieder melden kann, wenn er Hilfe braucht. Seitdem sind die beiden gute Freunde geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Fahrradkette ist beim Einkaufen kaputt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat seinen Nachbarn um Hilfe gebeten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Beck hat gesagt, dass nichts kaputt ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas und Herr Beck sind zu einem Fahrradladen gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat seinem Nachbarn einen Kuchen gebacken.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-zum-bodensee",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug zum Bodensee",
+    "descripcion": "Eine Familie verbringt ein sonniges Wochenende am Bodensee.",
+    "texto": "Am Samstag ist die Familie Vogel früh aufgestanden, weil sie einen Ausflug zum Bodensee geplant hat. Sie sind mit dem Auto gefahren und haben nach zwei Stunden den See erreicht. Das Wetter war warm und sonnig, deshalb haben sich alle sehr gefreut.\n\nAm See haben die Kinder im Wasser gespielt, während die Eltern ein Picknick vorbereitet haben. Sie haben belegte Brote, Obst und kalte Getränke mitgebracht. Nach dem Essen sind sie mit einem kleinen Boot auf den See gefahren, weil der Vater schon immer einmal eine Bootsfahrt machen wollte. Die Kinder haben Enten und Schwäne gesehen und waren sehr begeistert.\n\nAm Abend sind sie müde, aber zufrieden nach Hause gefahren. Die Mutter hat gesagt, dass sie den Ausflug bald wiederholen möchten, wenn das Wetter wieder so schön ist. Die Kinder haben sofort zugestimmt und wollen das nächste Mal auch schwimmen lernen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Vogel ist mit dem Zug gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war warm und sonnig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eltern haben kein Essen mitgebracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie ist mit einem Boot gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder wollen beim nächsten Mal schwimmen lernen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-portugal",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus Portugal",
+    "descripcion": "Mara schreibt ihrer Freundin einen Brief über ihren Urlaub in Portugal.",
+    "texto": "Liebe Petra,\n\nich hoffe, es geht dir gut! Ich bin jetzt seit drei Tagen in Portugal und es gefällt mir hier sehr gut. Das Hotel liegt direkt am Strand, und man kann das Meer vom Balkon aus sehen. Gestern bin ich zum ersten Mal im Meer geschwommen, obwohl das Wasser noch etwas kalt war.\n\nAm zweiten Tag haben wir eine kleine Stadt namens Lagos besucht. Dort haben wir alte Häuser und eine schöne Kirche gesehen. Wir haben auch frischen Fisch probiert, der sehr lecker war. Am Abend sind wir durch die engen Straßen spaziert und haben portugiesische Musik gehört.\n\nMorgen fahren wir an die Felsen von Ponta da Piedade, weil man dort angeblich einen fantastischen Sonnenuntergang sehen kann. Ich schreibe dir bald wieder und bringe dir ein kleines Geschenk mit.\n\nViele liebe Grüße,\nMara",
+    "preguntas": [
+      {
+        "enunciado": "Mara ist seit drei Tagen in Portugal.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Hotel liegt weit weg vom Strand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mara hat die Stadt Lagos besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mara hat keinen Fisch probiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mara möchte Petra ein Geschenk mitbringen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-studienfahrt-nach-salzburg",
+    "nivel": "B1",
+    "titulo": "Die Studienfahrt nach Salzburg",
+    "descripcion": "Eine Schulklasse unternimmt eine mehrtägige Studienfahrt nach Salzburg.",
+    "texto": "Nachdem die Klasse 10b monatelang auf diesen Moment gewartet hatte, ging es endlich los: die Studienfahrt nach Salzburg. Obwohl der Bus schon um sechs Uhr morgens abfuhr, waren alle Schüler pünktlich und aufgeregt. Die Fahrt dauerte mehrere Stunden, doch die Zeit verging schnell, weil alle miteinander Karten spielten und Musik hörten.\n\nIn Salzburg angekommen, besuchten sie zunächst die Festung Hohensalzburg, von der aus man einen wunderbaren Blick über die ganze Stadt hatte. Trotzdem hatten einige Schüler mehr Interesse an der Mozart-Ausstellung, die sie am nächsten Tag besichtigten. Der Lehrer erklärte, dass Salzburg die Geburtsstadt des berühmten Komponisten sei und deshalb jedes Jahr viele Touristen anziehe.\n\nAm letzten Abend organisierte die Klasse eine kleine Abschlussfeier in der Jugendherberge. Nachdem alle ihre Erlebnisse ausgetauscht hatten, waren sich alle einig, dass die Reise trotz des stressigen Programms unvergesslich bleiben würde. Auf der Rückfahrt schlief fast die ganze Klasse, erschöpft von den vielen Eindrücken der letzten Tage.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bus fuhr um sechs Uhr morgens ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler hatten während der Fahrt keine Beschäftigung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse besuchte die Festung Hohensalzburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mozart wurde nicht in Salzburg geboren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend gab es eine kleine Feier.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-neuer-job-in-der-werbebranche",
+    "nivel": "B1",
+    "titulo": "Ein neuer Job in der Werbebranche",
+    "descripcion": "Nina beginnt eine neue Stelle in einer Werbeagentur und muss sich an viele Veränderungen gewöhnen.",
+    "texto": "Nina hatte sich lange auf ihren ersten Arbeitstag in der Werbeagentur gefreut, obwohl sie auch ein wenig nervös war. Nachdem sie das Vorstellungsgespräch erfolgreich bestanden hatte, konnte sie es kaum glauben, dass sie wirklich für ein so bekanntes Unternehmen arbeiten würde. Am ersten Tag zeigte ihr Kollege Markus ihr das ganze Büro und stellte sie dem Team vor.\n\nIn den ersten Wochen musste Nina sich an viele neue Aufgaben gewöhnen. Obwohl sie an der Universität viel über Marketing gelernt hatte, war die Praxis ganz anders als die Theorie. Trotzdem lernte sie schnell, wie man Kundenpräsentationen vorbereitet und kreative Kampagnen entwickelt. Ihre Chefin lobte sie oft für ihre frischen Ideen, was Nina sehr motivierte.\n\nNach einigen Monaten übernahm Nina ihr erstes eigenes Projekt für einen großen Kunden. Obwohl sie zunächst Angst vor der Verantwortung hatte, meisterte sie die Herausforderung mit viel Engagement. Am Ende der Kampagne bedankte sich der Kunde persönlich bei ihr, und Nina wusste, dass sie den richtigen Beruf gewählt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Nina war vor ihrem ersten Arbeitstag überhaupt nicht nervös.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat Nina dem Team vorgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Praxis war genau wie die Theorie an der Universität.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat nach einigen Monaten ein eigenes Projekt übernommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kunde war am Ende unzufrieden mit Ninas Arbeit.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-jazzfestival-am-see",
+    "nivel": "B1",
+    "titulo": "Das Jazzfestival am See",
+    "descripcion": "Ein jährliches Jazzfestival bringt Musikliebhaber aus ganz Deutschland an den See.",
+    "texto": "Jedes Jahr im Juli findet am Ufer des Sees ein großes Jazzfestival statt, das Besucher aus ganz Deutschland anzieht. Obwohl das Festival erst vor zehn Jahren gegründet wurde, hat es sich inzwischen zu einem der bekanntesten Musikereignisse der Region entwickelt. Nachdem die Organisatoren in diesem Jahr ein besonders vielfältiges Programm zusammengestellt hatten, wurden alle Karten innerhalb wenige Tage verkauft.\n\nAn den drei Festivaltagen treten sowohl internationale Stars als auch junge, aufstrebende Bands auf. Trotzdem bleibt die familiäre Atmosphäre erhalten, weil die Bühnen klein gehalten werden und das Publikum den Musikern sehr nahekommt. Viele Besucher bringen Picknickdecken mit und genießen die Konzerte direkt am Wasser, während die Sonne langsam untergeht.\n\nNachdem das letzte Konzert am Sonntagabend beendet war, feierten die Musiker gemeinsam mit dem Publikum am Lagerfeuer. Die Organisatoren erklärten, dass sie das Festival im nächsten Jahr noch weiter ausbauen möchten, obwohl der Erfolg schon jetzt alle Erwartungen übertroffen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Das Festival findet jedes Jahr im Juli statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Festival wurde vor fünfzig Jahren gegründet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nur internationale Stars treten beim Festival auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Besucher bringen Picknickdecken mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Organisatoren möchten das Festival weiter ausbauen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-diskussion-um-die-vier-tage-woche",
+    "nivel": "B2",
+    "titulo": "Die Diskussion um die Vier-Tage-Woche",
+    "descripcion": "Ein Beitrag untersucht Chancen und Risiken der Vier-Tage-Woche für Unternehmen und Beschäftigte.",
+    "texto": "Seit einigen Jahren wird in Deutschland intensiv über die Einführung der Vier-Tage-Woche diskutiert. Befürworter argumentieren, dass eine verkürzte Arbeitszeit bei gleichem Gehalt nicht nur die Lebensqualität der Beschäftigten verbessern, sondern auch deren Produktivität steigern würde. Zahlreiche Pilotprojekte in verschiedenen Branchen hätten gezeigt, dass Mitarbeitende motivierter und seltener krankgeschrieben seien, wenn ihnen ein zusätzlicher freier Tag zur Verfügung stünde.\n\nKritiker hingegen warnen davor, das Modell unreflektiert auf alle Wirtschaftszweige zu übertragen. Insbesondere in Branchen mit Fachkräftemangel, etwa im Gesundheitswesen oder im Handwerk, könnte eine Verkürzung der Arbeitszeit den bestehenden Personalmangel noch verschärfen. Zudem müsse berücksichtigt werden, dass nicht jede Tätigkeit sich in vier statt fünf Tagen bewältigen lasse, ohne dass die Arbeitsverdichtung zu zusätzlichem Stress führe.\n\nViele Experten plädieren daher für einen differenzierten Ansatz, bei dem Unternehmen je nach Branche und Struktur selbst entscheiden könnten, ob und wie das Modell umgesetzt würde. Würde die Politik lediglich einen gesetzlichen Rahmen schaffen, ohne starre Vorgaben zu machen, ließen sich die Vorteile der Vier-Tage-Woche nutzen, ohne dabei die Funktionsfähigkeit systemrelevanter Branchen zu gefährden.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter sehen in der Vier-Tage-Woche eine mögliche Produktivitätssteigerung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text gab es bisher keine Pilotprojekte zur Vier-Tage-Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten Probleme in Branchen mit Fachkräftemangel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Dem Text zufolge lässt sich jede Tätigkeit problemlos in vier Tagen erledigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Experten befürworten einen differenzierten, branchenspezifischen Ansatz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "klimaschutz-zwischen-anspruch-und-wirklichkeit",
+    "nivel": "B2",
+    "titulo": "Klimaschutz zwischen Anspruch und Wirklichkeit",
+    "descripcion": "Der Text beleuchtet die Diskrepanz zwischen klimapolitischen Zielen und ihrer tatsächlichen Umsetzung.",
+    "texto": "Obwohl sich Deutschland ambitionierte Klimaziele gesetzt hat, wird zunehmend kritisiert, dass zwischen den politischen Ankündigungen und der tatsächlichen Umsetzung eine erhebliche Lücke bestehe. Während auf internationalen Konferenzen regelmäßig verbindliche Reduktionsziele beschlossen werden, zeigen aktuelle Statistiken, dass die realen Emissionswerte in vielen Sektoren nur langsam zurückgehen. Besonders im Verkehrs- und Gebäudesektor würden die vereinbarten Zwischenziele regelmäßig verfehlt.\n\nExperten führen dies vor allem auf strukturelle Hindernisse zurück. So müssten etwa umfassende Investitionen in erneuerbare Energien und in die Sanierung von Gebäuden getätigt werden, die jedoch häufig an bürokratischen Hürden oder fehlenden Fachkräften scheiterten. Zudem werde befürchtet, dass strengere Klimaauflagen ohne begleitende soziale Maßnahmen einkommensschwächere Haushalte überproportional belasten könnten, was wiederum die gesellschaftliche Akzeptanz der Klimapolitik gefährde.\n\nUm diesem Dilemma zu entgehen, fordern viele Fachleute, dass konkrete Maßnahmen mit verbindlichen Zeitplänen und ausreichender finanzieller Unterstützung verknüpft werden müssten. Nur wenn ambitionierte Ziele auch durch entsprechende Ressourcen und soziale Abfederung flankiert würden, ließe sich die Kluft zwischen Anspruch und Wirklichkeit in der Klimapolitik langfristig schließen.",
+    "preguntas": [
+      {
+        "enunciado": "Zwischen klimapolitischen Zielen und der Umsetzung besteht laut dem Text eine Lücke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Emissionswerte sind dem Text zufolge in allen Sektoren bereits stark gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bürokratische Hürden gelten als ein Hindernis für Investitionen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Strengere Klimaauflagen betreffen laut dem Text alle Haushalte in gleichem Maße.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern verbindliche Zeitpläne und finanzielle Unterstützung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-der-arbeitswelt",
+    "nivel": "B2",
+    "titulo": "Digitalisierung der Arbeitswelt",
+    "descripcion": "Ein Beitrag analysiert, wie die zunehmende Digitalisierung Arbeitsprozesse und Berufsbilder verändert.",
+    "texto": "Die fortschreitende Digitalisierung verändert die Arbeitswelt in einem Tempo, das noch vor wenigen Jahrzehnten kaum vorstellbar gewesen wäre. Während repetitive und standardisierte Tätigkeiten zunehmend von Software oder Maschinen übernommen werden, gewinnen gleichzeitig Kompetenzen wie digitale Problemlösungsfähigkeit und interdisziplinäres Denken an Bedeutung. Viele Unternehmen stehen daher vor der Herausforderung, ihre Belegschaft kontinuierlich weiterzubilden, um mit dem technologischen Wandel Schritt halten zu können.\n\nBesonders umstritten ist die Frage, inwieweit durch die Digitalisierung Arbeitsplätze verschwinden oder lediglich verändert werden. Während manche Studien vor einem massiven Stellenabbau in bestimmten Branchen warnen, verweisen andere Untersuchungen darauf, dass gleichzeitig neue Berufsfelder entstünden, die vor der Digitalisierung noch gar nicht existiert hätten. Entscheidend sei letztlich, ob es gelinge, Beschäftigte frühzeitig und gezielt auf diese neuen Anforderungen vorzubereiten.\n\nGewerkschaften und Arbeitgeberverbände sind sich zumindest in einem Punkt einig: Ohne erhebliche Investitionen in Weiterbildung und digitale Infrastruktur werde der Wandel kaum sozial verträglich gestaltet werden können. Würden entsprechende Programme rechtzeitig und flächendeckend eingeführt, ließe sich verhindern, dass bestimmte Bevölkerungsgruppen von der digitalen Transformation abgehängt würden.",
+    "preguntas": [
+      {
+        "enunciado": "Repetitive Tätigkeiten werden zunehmend von Maschinen oder Software übernommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Digitale Problemlösungsfähigkeit verliert laut dem Text an Bedeutung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Studien warnen vor einem Stellenabbau durch die Digitalisierung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Dem Text zufolge entstehen durch die Digitalisierung keine neuen Berufsfelder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gewerkschaften und Arbeitgeberverbände halten Investitionen in Weiterbildung für wichtig.",
+        "respuesta": true
+      }
+    ]
   }
 ]
