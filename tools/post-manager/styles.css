@@ -207,6 +207,20 @@ textarea {
   overflow: hidden;
 }
 
+.writing-pane {
+  overflow: visible;
+  position: relative;
+}
+
+.editor-tools {
+  background: var(--panel);
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 1px 0 var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
 .view-tabs {
   align-items: center;
   border-bottom: 1px solid var(--line);
@@ -261,6 +275,62 @@ textarea {
   height: auto;
   margin: 1rem 0;
   max-width: 100%;
+}
+
+.visual-editor figure.editor-image-block {
+  border: 1px solid transparent;
+  cursor: grab;
+  margin: 1rem 0;
+  padding: 0.35rem;
+}
+
+.visual-editor figure.editor-image-block.is-selected {
+  background: var(--soft);
+  border-color: var(--accent);
+  border-radius: 10px;
+}
+
+.visual-editor img.is-selected {
+  box-shadow: 0 0 0 3px var(--accent);
+}
+
+.visual-editor figure.editor-image-block img {
+  margin: 0;
+}
+
+.floating-toolbar {
+  align-items: center;
+  background: #172033;
+  border: 1px solid #344054;
+  border-radius: 10px;
+  box-shadow: 0 12px 28px rgb(15 23 42 / 24%);
+  color: #fff;
+  display: flex;
+  gap: 0.25rem;
+  padding: 0.35rem;
+  position: fixed;
+  z-index: 100;
+}
+
+.floating-toolbar[hidden],
+.visually-hidden {
+  display: none;
+}
+
+.floating-toolbar button {
+  background: transparent;
+  min-width: 34px;
+  padding: 0.4rem 0.5rem;
+}
+
+.floating-toolbar button:hover {
+  background: #344054;
+}
+
+.image-move-toolbar span {
+  color: #d0d5dd;
+  font-size: 0.75rem;
+  padding: 0 0.35rem;
 }
 
 .main-preview,
@@ -396,6 +466,7 @@ textarea {
 
 .image-meta-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
 }
 

@@ -52,27 +52,44 @@
 
         <section class="workspace">
           <div class="writing-pane">
-            <div class="view-tabs" aria-label="Vistas del editor">
-              <button class="is-active" data-view="visual" type="button">Vista normal</button>
-              <button data-view="markdown" type="button">Editar Markdown</button>
-              <button data-view="html" type="button">Vista HTML</button>
-            </div>
-            <div class="toolbar" aria-label="Formato">
-              <button data-command="undo" type="button" title="Deshacer">↶</button>
-              <button data-command="redo" type="button" title="Rehacer">↷</button>
-              <button data-wrap="**|**" data-placeholder="texto" type="button"><strong>B</strong></button>
-              <button data-wrap="*|*" data-placeholder="texto" type="button"><em>I</em></button>
-              <button data-line="## " data-placeholder="Subtitulo" type="button">H2</button>
-              <button data-line="### " data-placeholder="Apartado" type="button">H3</button>
-              <button data-wrap="<p class=&quot;blog-text-lg&quot;>|</p>" data-placeholder="Texto destacado" type="button">Grande</button>
-              <button data-line="- " data-placeholder="Punto" type="button">Lista</button>
-              <button data-wrap="[|](https://)" data-placeholder="texto" type="button">Link</button>
-              <button id="insertImage" type="button">Imagen</button>
+            <div class="editor-tools">
+              <div class="view-tabs" aria-label="Vistas del editor">
+                <button class="is-active" data-view="visual" type="button">Vista normal</button>
+                <button data-view="markdown" type="button">Editar Markdown</button>
+                <button data-view="html" type="button">Vista HTML</button>
+              </div>
+              <div class="toolbar" aria-label="Formato">
+                <button data-command="undo" type="button" title="Deshacer">↶</button>
+                <button data-command="redo" type="button" title="Rehacer">↷</button>
+                <button data-wrap="**|**" data-placeholder="texto" type="button"><strong>B</strong></button>
+                <button data-wrap="*|*" data-placeholder="texto" type="button"><em>I</em></button>
+                <button data-line="## " data-placeholder="Subtitulo" type="button">H2</button>
+                <button data-line="### " data-placeholder="Apartado" type="button">H3</button>
+                <button data-wrap="<p class=&quot;blog-text-lg&quot;>|</p>" data-placeholder="Texto destacado" type="button">Grande</button>
+                <button data-line="- " data-placeholder="Punto" type="button">Lista</button>
+                <button data-wrap="[|](https://)" data-placeholder="texto" type="button">Link</button>
+                <button id="insertImage" type="button">Insertar imagen aquí</button>
+              </div>
             </div>
             <div id="visualEditor" class="visual-editor" contenteditable="true" role="textbox" aria-label="Editor visual" spellcheck="true"></div>
             <textarea id="body" class="body-editor" spellcheck="true" hidden></textarea>
             <article id="mainPreview" class="main-preview" hidden></article>
             <pre id="htmlView" class="html-view" hidden></pre>
+            <input id="inlineImageUpload" class="visually-hidden" type="file" accept="image/*" />
+            <div id="selectionToolbar" class="floating-toolbar selection-toolbar" role="toolbar" aria-label="Formato de la selección" hidden>
+              <button data-command="bold" type="button" title="Negrita"><strong>B</strong></button>
+              <button data-command="italic" type="button" title="Cursiva"><em>I</em></button>
+              <button data-block="h2" type="button">H2</button>
+              <button data-block="h3" type="button">H3</button>
+              <button data-command="insertUnorderedList" type="button">Lista</button>
+              <button id="selectionLink" type="button">Link</button>
+              <button id="selectionImage" type="button">Imagen</button>
+            </div>
+            <div id="imageMoveToolbar" class="floating-toolbar image-move-toolbar" role="toolbar" aria-label="Mover imagen" hidden>
+              <span>Arrastra o mueve</span>
+              <button id="moveImageUp" type="button" title="Mover imagen arriba">↑</button>
+              <button id="moveImageDown" type="button" title="Mover imagen abajo">↓</button>
+            </div>
           </div>
 
           <aside class="asset-pane" aria-label="Imagenes y vista previa">
@@ -89,6 +106,7 @@
               <label>Texto alt<input id="imageAlt" type="text" /></label>
               <label>Descripcion<textarea id="imageDescription" rows="3"></textarea></label>
               <div class="image-meta-actions">
+                <button id="insertSelectedImage" class="secondary" type="button">Insertar en el cursor</button>
                 <button id="setFeaturedImage" class="secondary" type="button">Usar como principal</button>
                 <button id="saveImageMeta" type="button">Guardar imagen</button>
               </div>

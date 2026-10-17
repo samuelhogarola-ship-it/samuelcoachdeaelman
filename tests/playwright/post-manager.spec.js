@@ -1,4 +1,5 @@
 const { test, expect } = require('@playwright/test');
+const path = require('path');
 
 test('el editor conserva HTML heredado, guarda borradores y publica', async ({ page }) => {
   let post = {
@@ -148,4 +149,125 @@ test('el creador propone el slug, valida campos y guarda con Cmd o Ctrl+S', asyn
   expect(creates).toHaveLength(1);
   expect(creates[0].slug).toBe('como-preparar-el-goethe-b1');
   expect(creates[0].status).toBe('draft');
+});
+
+test('ofrece formato contextual e inserta y mueve una imagen desde el cursor', async ({ page }) => {
+  let post = {
+    slug: 'editor-dinamico',
+    format: 'markdown',
+    isPublished: false,
+    meta: {
+      title: 'Editor dinámico',
+      slug: 'editor-dinamico',
+      description: 'Prueba del editor dinámico',
+      date: '2026-10-17',
+      author: 'Samuel Coach de Aleman',
+      lang: 'es',
+      status: 'draft',
+      content_format: 'markdown',
+    },
+    body: 'Primera línea\n\nSegunda línea',
+    images: [],
+  };
+  const saves = [];
+
+  await page.route('**/assets/js/admin-gate.js', route => route.fulfill({
+    contentType: 'application/javascript',
+    body: 'export async function requireAdminAccess(){ return { email: "info@webfuengirola.com" }; }',
+  }));
+  await page.route('**/assets/js/auth.js', route => route.fulfill({
+    contentType: 'application/javascript',
+    body: 'export const supabase={auth:{getSession:async()=>({data:{session:{access_token:"fixture-token"}}})}};',
+  }));
+  await page.route('**/api/**', async route => {
+    const request = route.request();
+    const url = new URL(request.url());
+    if (url.pathname === '/api/posts' && request.method() === 'GET') {
+      return route.fulfill({ contentType: 'application/json', body: JSON.stringify({ posts: [{
+        slug: post.slug,
+        title: post.meta.title,
+        description: post.meta.description,
+        status: post.meta.status,
+        isPublished: false,
+        words: 4,
+        images: post.images,
+        tags: [],
+      }] }) });
+    }
+    if (url.pathname === '/api/posts/editor-dinamico' && request.method() === 'GET') {
+      return route.fulfill({ contentType: 'application/json', body: JSON.stringify(post) });
+    }
+    if (url.pathname === '/api/posts/editor-dinamico' && request.method() === 'PUT') {
+      const payload = request.postDataJSON();
+      saves.push(payload);
+      post = { ...post, meta: { ...post.meta, ...payload }, body: payload.body };
+      return route.fulfill({ contentType: 'application/json', body: JSON.stringify(post) });
+    }
+    if (url.pathname === '/api/posts/editor-dinamico/images' && request.method() === 'POST') {
+      const image = { file: 'foto-inline.webp', url: '/f/editor-dinamico/img/foto-inline.webp', alt: '', description: '', isFeatured: false, canDelete: true };
+      post.images = [image];
+      return route.fulfill({ contentType: 'application/json', body: JSON.stringify(image) });
+    }
+    return route.fulfill({ status: 404, contentType: 'application/json', body: '{"error":"not found"}' });
+  });
+
+  await page.goto('/tools/post-manager/');
+  await expect(page.locator('#currentTitle')).toHaveText('Editor dinámico');
+
+  await page.locator('#visualEditor').evaluate(editor => {
+    const text = editor.querySelector('p').firstChild;
+    const range = document.createRange();
+    range.setStart(text, 0);
+    range.setEnd(text, 7);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.dispatchEvent(new Event('selectionchange'));
+  });
+  await expect(page.locator('#selectionToolbar')).toBeVisible();
+  await page.locator('#selectionToolbar [data-command="bold"]').click();
+  await expect(page.locator('#visualEditor strong, #visualEditor b')).toHaveText('Primera');
+
+  await page.locator('#visualEditor').evaluate(editor => {
+    const second = editor.querySelectorAll('p')[1];
+    const range = document.createRange();
+    range.setStartBefore(second);
+    range.collapse(true);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.dispatchEvent(new Event('selectionchange'));
+  });
+  const chooserPromise = page.waitForEvent('filechooser');
+  await page.locator('#insertImage').click();
+  const chooser = await chooserPromise;
+  await chooser.setFiles(path.join(__dirname, '../../assets/img/logo-main.webp'));
+
+  const inlineImage = page.locator('#visualEditor img[src="/f/editor-dinamico/img/foto-inline.webp"]');
+  await expect(inlineImage).toBeVisible();
+  const blocksBefore = await page.locator('#visualEditor').evaluate(editor => [...editor.children].map(node => node.tagName + ':' + node.textContent.trim()));
+  expect(blocksBefore).toEqual(['P:Primera línea', 'FIGURE:', 'P:Segunda línea']);
+
+  await inlineImage.click();
+  await expect(page.locator('#imageMoveToolbar')).toBeVisible();
+  await page.locator('#moveImageDown').click();
+  const blocksAfter = await page.locator('#visualEditor').evaluate(editor => [...editor.children].map(node => node.tagName + ':' + node.textContent.trim()));
+  expect(blocksAfter).toEqual(['P:Primera línea', 'P:Segunda línea', 'FIGURE:']);
+
+  await page.locator('#visualEditor').evaluate(editor => {
+    const second = editor.querySelectorAll('p')[1];
+    const range = document.createRange();
+    range.setStartBefore(second);
+    range.collapse(true);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    document.dispatchEvent(new Event('selectionchange'));
+  });
+  await page.locator('#insertSelectedImage').click();
+  await expect(page.locator('#visualEditor img[src="/f/editor-dinamico/img/foto-inline.webp"]')).toHaveCount(2);
+
+  await page.locator('#savePost').click();
+  await expect(page.locator('#statusText')).toHaveText('Borrador guardado');
+  expect(saves.at(-1).body).toContain('/f/editor-dinamico/img/foto-inline.webp');
 });

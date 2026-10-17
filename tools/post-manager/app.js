@@ -24,6 +24,10 @@ const state = {
   bodyFormat: "markdown",
   dirty: false,
   slugEdited: false,
+  savedSelectionRange: null,
+  savedSelectionBookmark: null,
+  selectedEditorImage: null,
+  draggedImageBlock: null,
 };
 
 const postList = document.querySelector("#postList");
@@ -35,6 +39,9 @@ const preview = document.querySelector("#preview");
 const mainPreview = document.querySelector("#mainPreview");
 const htmlView = document.querySelector("#htmlView");
 const visualEditor = document.querySelector("#visualEditor");
+const selectionToolbar = document.querySelector("#selectionToolbar");
+const imageMoveToolbar = document.querySelector("#imageMoveToolbar");
+const inlineImageUpload = document.querySelector("#inlineImageUpload");
 const editorViews = {
   visual: visualEditor,
   markdown: fields.body,
@@ -47,8 +54,10 @@ document.querySelector("#newPost").addEventListener("click", () => {
 document.querySelector("#savePost").addEventListener("click", () => runAction("Guardando borrador...", () => savePost("draft")));
 document.querySelector("#publishPost").addEventListener("click", () => runAction("Publicando...", publishPost));
 document.querySelector("#imageUpload").addEventListener("change", uploadImages);
+inlineImageUpload.addEventListener("change", uploadInlineImage);
 document.querySelector("#saveImageMeta").addEventListener("click", saveSelectedImageMeta);
 document.querySelector("#setFeaturedImage").addEventListener("click", setSelectedImageAsFeatured);
+document.querySelector("#insertSelectedImage").addEventListener("click", insertSelectedImage);
 search.addEventListener("input", renderPostList);
 postList.addEventListener("click", (event) => {
   const card = event.target.closest(".post-card");
@@ -61,10 +70,14 @@ fields.body.addEventListener("input", () => {
   markDirty();
 });
 visualEditor.addEventListener("input", () => {
-  fields.body.value = state.bodyFormat === "html" ? visualEditor.innerHTML : richHtmlToMarkdown(visualEditor.innerHTML);
-  renderPreview();
-  markDirty();
+  syncVisualEditor();
 });
+visualEditor.addEventListener("click", handleVisualEditorClick);
+visualEditor.addEventListener("dragstart", handleImageDragStart);
+visualEditor.addEventListener("dragover", handleImageDragOver);
+visualEditor.addEventListener("drop", handleImageDrop);
+visualEditor.addEventListener("dragend", () => { state.draggedImageBlock = null; });
+document.addEventListener("selectionchange", handleSelectionChange);
 fields.title.addEventListener("input", () => {
   currentTitle.textContent = fields.title.value || "Nuevo post";
   if (!state.activeSlug && !state.slugEdited) fields.slug.value = slugifyTitle(fields.title.value);
@@ -89,10 +102,10 @@ window.addEventListener("beforeunload", (event) => {
   event.returnValue = "";
 });
 
-for (const button of document.querySelectorAll("[data-wrap], [data-line]")) {
+for (const button of document.querySelectorAll(".toolbar [data-wrap], .toolbar [data-line]")) {
   button.addEventListener("click", () => applyFormat(button));
 }
-for (const button of document.querySelectorAll("[data-command]")) {
+for (const button of document.querySelectorAll(".toolbar [data-command]")) {
   button.addEventListener("click", () => {
     visualEditor.focus();
     document.execCommand(button.dataset.command);
@@ -104,7 +117,16 @@ for (const button of document.querySelectorAll("[data-command]")) {
 for (const button of document.querySelectorAll("[data-view]")) {
   button.addEventListener("click", () => setView(button.dataset.view));
 }
-document.querySelector("#insertImage").addEventListener("click", insertSelectedImage);
+document.querySelector("#insertImage").addEventListener("click", beginInlineImageUpload);
+document.querySelector("#selectionImage").addEventListener("click", beginInlineImageUpload);
+document.querySelector("#selectionLink").addEventListener("click", applySelectionLink);
+document.querySelector("#moveImageUp").addEventListener("click", () => moveSelectedEditorImage(-1));
+document.querySelector("#moveImageDown").addEventListener("click", () => moveSelectedEditorImage(1));
+selectionToolbar.addEventListener("pointerdown", (event) => event.preventDefault());
+imageMoveToolbar.addEventListener("pointerdown", (event) => event.preventDefault());
+for (const button of selectionToolbar.querySelectorAll("[data-command], [data-block]")) {
+  button.addEventListener("click", () => applySelectionFormat(button));
+}
 
 loadPosts();
 
@@ -187,6 +209,10 @@ function fillForm(post) {
   currentTitle.textContent = fields.title.value || "Nuevo post";
   updatePublishedLink(meta.slug || post.slug, Boolean(post.isPublished));
   state.slugEdited = Boolean(meta.slug || post.slug);
+  state.savedSelectionRange = null;
+  state.savedSelectionBookmark = null;
+  clearEditorImageSelection();
+  selectionToolbar.hidden = true;
   state.dirty = false;
 }
 
@@ -384,19 +410,296 @@ function prefixSelectedLines(prefix, placeholder) {
   markDirty();
 }
 
+function beginInlineImageUpload() {
+  if (editorViews.visual.hidden) setView("visual");
+  rememberEditorSelection();
+  inlineImageUpload.click();
+}
+
 function insertSelectedImage() {
   const image = state.activeImages.find((item) => item.file === state.selectedImage) || state.activeImages[0];
   if (!image) {
-    statusText.textContent = "Sube una imagen antes de insertarla";
+    statusText.textContent = "Selecciona o sube una imagen primero";
     return;
   }
-  const alt = image.alt || fields.title.value || image.file;
-  if (editorViews.visual.hidden) {
-    insertText(`![${alt}](${image.url})`);
+  if (editorViews.visual.hidden) setView("visual");
+  rememberEditorSelection();
+  insertInlineImage(image);
+  statusText.textContent = "Imagen insertada en el texto";
+}
+
+async function uploadInlineImage(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const bookmark = state.savedSelectionBookmark;
+  statusText.textContent = "Subiendo e insertando imagen...";
+  try {
+    if (!state.activeSlug) {
+      const post = await savePost("draft");
+      if (!post) return;
+      state.savedSelectionRange = restoreSelectionBookmark(bookmark);
+    }
+    const data = await fileToBase64(file);
+    const uploaded = await api(`/api/posts/${state.activeSlug}/images`, {
+      method: "POST",
+      body: { fileName: file.name, data },
+    });
+    const image = {
+      alt: "",
+      description: "",
+      isFeatured: false,
+      canDelete: true,
+      ...uploaded,
+    };
+    state.activeImages = state.activeImages.filter((item) => item.file !== image.file).concat(image);
+    insertInlineImage(image);
+    renderImages(state.activeImages);
+    statusText.textContent = "Imagen insertada en el texto";
+  } catch (error) {
+    statusText.textContent = error.message;
+  } finally {
+    event.target.value = "";
+  }
+}
+
+function insertInlineImage(image) {
+  const range = getInsertionRange();
+  const figure = document.createElement("figure");
+  figure.className = "editor-image-block";
+  figure.draggable = true;
+  figure.contentEditable = "false";
+  const img = document.createElement("img");
+  img.src = image.url;
+  img.alt = image.alt || fields.title.value || image.file;
+  img.draggable = false;
+  figure.append(img);
+
+  range.deleteContents();
+  range.insertNode(figure);
+  if (figure.parentElement !== visualEditor) {
+    const containingBlock = getTopLevelEditorChild(figure);
+    visualEditor.insertBefore(figure, containingBlock ? containingBlock.nextSibling : null);
+  }
+
+  const nextRange = document.createRange();
+  nextRange.setStartAfter(figure);
+  nextRange.collapse(true);
+  setEditorSelection(nextRange);
+  selectEditorImage(img);
+  syncVisualEditor();
+}
+
+function handleSelectionChange() {
+  const selection = window.getSelection();
+  if (!selection || !selection.rangeCount) return;
+  const range = selection.getRangeAt(0);
+  if (!selectionBelongsToEditor(range)) {
+    if (!selectionToolbar.contains(document.activeElement)) selectionToolbar.hidden = true;
     return;
   }
+  state.savedSelectionRange = range.cloneRange();
+  state.savedSelectionBookmark = createSelectionBookmark(range);
+  if (range.collapsed) {
+    selectionToolbar.hidden = true;
+    return;
+  }
+  selectionToolbar.hidden = false;
+  positionFloatingToolbar(selectionToolbar, range.getBoundingClientRect());
+}
+
+function rememberEditorSelection() {
+  const selection = window.getSelection();
+  if (selection && selection.rangeCount && selectionBelongsToEditor(selection.getRangeAt(0))) {
+    state.savedSelectionRange = selection.getRangeAt(0).cloneRange();
+    state.savedSelectionBookmark = createSelectionBookmark(state.savedSelectionRange);
+  }
+  if (!state.savedSelectionRange || !selectionBelongsToEditor(state.savedSelectionRange)) {
+    const range = document.createRange();
+    range.selectNodeContents(visualEditor);
+    range.collapse(false);
+    state.savedSelectionRange = range;
+    state.savedSelectionBookmark = createSelectionBookmark(range);
+  }
+}
+
+function applySelectionFormat(button) {
+  const range = getInsertionRange();
   visualEditor.focus();
-  document.execCommand("insertHTML", false, `<img src="${escapeHtml(image.url)}" alt="${escapeHtml(alt)}">`);
+  setEditorSelection(range);
+  if (button.dataset.block) document.execCommand("formatBlock", false, button.dataset.block);
+  else document.execCommand(button.dataset.command);
+  rememberEditorSelection();
+  syncVisualEditor();
+}
+
+function applySelectionLink() {
+  const range = getInsertionRange();
+  const url = window.prompt("URL del enlace", "https://");
+  if (!url) return;
+  visualEditor.focus();
+  setEditorSelection(range);
+  document.execCommand("createLink", false, url);
+  rememberEditorSelection();
+  syncVisualEditor();
+}
+
+function getInsertionRange() {
+  if (state.savedSelectionRange && selectionBelongsToEditor(state.savedSelectionRange)) {
+    return state.savedSelectionRange.cloneRange();
+  }
+  const restored = restoreSelectionBookmark(state.savedSelectionBookmark);
+  if (restored) return restored;
+  const range = document.createRange();
+  range.selectNodeContents(visualEditor);
+  range.collapse(false);
+  return range;
+}
+
+function setEditorSelection(range) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+  selection.addRange(range);
+  state.savedSelectionRange = range.cloneRange();
+  state.savedSelectionBookmark = createSelectionBookmark(range);
+}
+
+function selectionBelongsToEditor(range) {
+  const container = range.commonAncestorContainer.nodeType === Node.ELEMENT_NODE
+    ? range.commonAncestorContainer
+    : range.commonAncestorContainer.parentElement;
+  return container === visualEditor || visualEditor.contains(container);
+}
+
+function createSelectionBookmark(range) {
+  if (!range || !selectionBelongsToEditor(range)) return null;
+  return {
+    startPath: nodePathFromEditor(range.startContainer),
+    startOffset: range.startOffset,
+    endPath: nodePathFromEditor(range.endContainer),
+    endOffset: range.endOffset,
+  };
+}
+
+function nodePathFromEditor(node) {
+  const path = [];
+  let current = node;
+  while (current && current !== visualEditor) {
+    const parent = current.parentNode;
+    if (!parent) return [];
+    path.unshift(Array.prototype.indexOf.call(parent.childNodes, current));
+    current = parent;
+  }
+  return path;
+}
+
+function restoreSelectionBookmark(bookmark) {
+  if (!bookmark) return null;
+  const start = nodeFromEditorPath(bookmark.startPath);
+  const end = nodeFromEditorPath(bookmark.endPath);
+  if (!start || !end) return null;
+  const range = document.createRange();
+  try {
+    range.setStart(start, clampRangeOffset(start, bookmark.startOffset));
+    range.setEnd(end, clampRangeOffset(end, bookmark.endOffset));
+    return range;
+  } catch {
+    return null;
+  }
+}
+
+function nodeFromEditorPath(path) {
+  let node = visualEditor;
+  for (const index of path || []) {
+    node = node.childNodes[index];
+    if (!node) return null;
+  }
+  return node;
+}
+
+function clampRangeOffset(node, offset) {
+  const max = node.nodeType === Node.TEXT_NODE ? node.data.length : node.childNodes.length;
+  return Math.max(0, Math.min(Number(offset) || 0, max));
+}
+
+function positionFloatingToolbar(toolbar, rect) {
+  const left = Math.max(8, Math.min(rect.left + rect.width / 2 - toolbar.offsetWidth / 2, window.innerWidth - toolbar.offsetWidth - 8));
+  const preferredTop = rect.top - toolbar.offsetHeight - 8;
+  toolbar.style.left = `${left}px`;
+  toolbar.style.top = `${preferredTop > 8 ? preferredTop : rect.bottom + 8}px`;
+}
+
+function handleVisualEditorClick(event) {
+  const image = event.target.closest("img");
+  if (image) selectEditorImage(image);
+  else clearEditorImageSelection();
+}
+
+function selectEditorImage(image) {
+  clearEditorImageSelection();
+  state.selectedEditorImage = image;
+  const block = image.closest(".editor-image-block");
+  if (block) block.classList.add("is-selected");
+  else image.classList.add("is-selected");
+  imageMoveToolbar.hidden = false;
+  positionFloatingToolbar(imageMoveToolbar, image.getBoundingClientRect());
+}
+
+function clearEditorImageSelection() {
+  for (const block of visualEditor.querySelectorAll(".editor-image-block.is-selected")) block.classList.remove("is-selected");
+  for (const image of visualEditor.querySelectorAll("img.is-selected")) image.classList.remove("is-selected");
+  state.selectedEditorImage = null;
+  imageMoveToolbar.hidden = true;
+}
+
+function moveSelectedEditorImage(direction) {
+  if (!state.selectedEditorImage) return;
+  const block = state.selectedEditorImage.closest(".editor-image-block") || state.selectedEditorImage;
+  const topLevel = getTopLevelEditorChild(block);
+  if (!topLevel) return;
+  if (topLevel !== block) visualEditor.insertBefore(block, topLevel.nextSibling);
+  const sibling = direction < 0 ? block.previousElementSibling : block.nextElementSibling;
+  if (!sibling) return;
+  if (direction < 0) visualEditor.insertBefore(block, sibling);
+  else visualEditor.insertBefore(block, sibling.nextSibling);
+  syncVisualEditor();
+  positionFloatingToolbar(imageMoveToolbar, state.selectedEditorImage.getBoundingClientRect());
+}
+
+function getTopLevelEditorChild(node) {
+  let current = node;
+  while (current && current.parentElement !== visualEditor) current = current.parentElement;
+  return current && current.parentElement === visualEditor ? current : null;
+}
+
+function handleImageDragStart(event) {
+  const image = event.target.closest("img");
+  const block = event.target.closest(".editor-image-block") || image;
+  if (!block) return;
+  state.draggedImageBlock = block;
+  event.dataTransfer.effectAllowed = "move";
+  event.dataTransfer.setData("text/plain", "editor-image");
+}
+
+function handleImageDragOver(event) {
+  if (!state.draggedImageBlock) return;
+  event.preventDefault();
+  event.dataTransfer.dropEffect = "move";
+}
+
+function handleImageDrop(event) {
+  if (!state.draggedImageBlock) return;
+  event.preventDefault();
+  const target = getTopLevelEditorChild(event.target);
+  if (!target || target === state.draggedImageBlock) return;
+  const rect = target.getBoundingClientRect();
+  if (event.clientY < rect.top + rect.height / 2) visualEditor.insertBefore(state.draggedImageBlock, target);
+  else visualEditor.insertBefore(state.draggedImageBlock, target.nextSibling);
+  syncVisualEditor();
+  const image = state.draggedImageBlock.matches("img") ? state.draggedImageBlock : state.draggedImageBlock.querySelector("img");
+  if (image) selectEditorImage(image);
+}
+
+function syncVisualEditor() {
   fields.body.value = state.bodyFormat === "html" ? visualEditor.innerHTML : richHtmlToMarkdown(visualEditor.innerHTML);
   renderPreview();
   markDirty();
@@ -429,7 +732,7 @@ function markdownPreview(markdown) {
     .replace(/&lt;br\s*\/?&gt;/gi, "<br>")
     .replace(/&lt;\/?(strong|b)&gt;/gi, (tag) => tag.replaceAll("&lt;", "<").replaceAll("&gt;", ">").replace(/^<b/i, "<strong").replace(/^<\/b/i, "</strong"))
     .replace(/&lt;\/?(em|i)&gt;/gi, (tag) => tag.replaceAll("&lt;", "<").replaceAll("&gt;", ">").replace(/^<i/i, "<em").replace(/^<\/i/i, "</em"))
-    .replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, '<img src="$2" alt="$1">')
+    .replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, '<figure class="editor-image-block" draggable="true" contenteditable="false"><img src="$2" alt="$1" draggable="false"></figure>')
     .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noreferrer">$1</a>')
     .replace(/\*\*([^*\n]+)\*\*/g, "<strong>$1</strong>")
     .replace(/\*([^*\n]+)\*/g, "<em>$1</em>")
@@ -447,7 +750,7 @@ function markdownPreview(markdown) {
         const [, heading, rest] = headingMatch;
         return rest ? `${heading}<p>${rest.trim().replace(/\n/g, "<br>")}</p>` : heading;
       }
-      if (/^<(p|img)\b/.test(trimmed)) return trimmed;
+      if (/^<(p|img|figure)\b/.test(trimmed)) return trimmed;
       if (trimmed.startsWith("- ")) {
         return `<ul>${trimmed.split("\n").map((line) => `<li>${line.replace(/^- /, "")}</li>`).join("")}</ul>`;
       }

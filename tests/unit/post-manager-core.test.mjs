@@ -27,6 +27,11 @@ test("el gestor mantiene la lista a la izquierda y las vistas de lectura separad
   assert.match(html, /id="visualEditor"[^>]*contenteditable="true"/);
   assert.match(html, /data-view="visual"[^>]*>Vista normal/);
   assert.match(html, /data-view="html"[^>]*>Vista HTML/);
+  assert.match(html, /id="selectionToolbar"/);
+  assert.match(html, /id="inlineImageUpload"/);
+  assert.match(html, /id="insertSelectedImage"/);
+  assert.match(html, /id="imageMoveToolbar"/);
+  assert.match(css, /\.editor-tools\s*\{[\s\S]*?position:\s*sticky/);
   assert.match(css, /@media \(max-width: 780px\)/);
   assert.doesNotMatch(css, /@media \(max-width: 1100px\)\s*\{[\s\S]*?\.app-shell,/);
 });
