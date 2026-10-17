@@ -57194,5 +57194,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-roter-fahrradhelm",
+    "nivel": "A1",
+    "titulo": "Mein roter Fahrradhelm",
+    "descripcion": "Tom erzählt von seinem neuen Fahrradhelm und seinem Weg zur Schule.",
+    "texto": "Tom hat einen neuen Fahrradhelm. Der Helm ist rot und hat einen kleinen Stern. Tom trägt den Helm jeden Tag. Er fährt mit dem Fahrrad zur Schule. Die Schule ist nicht weit von seinem Haus.\n\nAm Morgen isst Tom ein Brot mit Käse. Dann nimmt er seine Tasche und seinen Helm. Sein Vater sagt: „Pass gut auf im Verkehr!\" Tom lacht und sagt: „Keine Sorge, Papa!\" Die Fahrt dauert nur zehn Minuten.\n\nIn der Schule stellt Tom seinen Helm neben die anderen Helme. Seine Freundin Lena hat einen blauen Helm. Die zwei Kinder fahren oft zusammen nach Hause. Tom mag das Fahrradfahren sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Toms Helm ist rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom fährt mit dem Bus zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst morgens ein Brot mit Käse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fahrt zur Schule dauert eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena hat einen blauen Helm.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-katze-meines-nachbarn",
+    "nivel": "A1",
+    "titulo": "Die Katze meines Nachbarn",
+    "descripcion": "Eine kleine Geschichte über eine freche Katze aus der Nachbarschaft.",
+    "texto": "Mein Nachbar heißt Herr Berger. Er hat eine Katze. Die Katze ist schwarz und weiß und heißt Mimi. Mimi ist sehr neugierig. Sie sitzt oft auf unserem Balkon.\n\nJeden Nachmittag kommt Mimi in unseren Garten. Sie spielt mit einem Ball. Meine kleine Schwester gibt Mimi manchmal Milch. Herr Berger sucht Mimi dann und ruft: „Mimi, komm nach Hause!\" Mimi hört nicht gut zu.\n\nAm Abend schläft Mimi auf einem weichen Kissen. Herr Berger liebt seine Katze sehr. Wir mögen Mimi auch, weil sie lustig ist.",
+    "preguntas": [
+      {
+        "enunciado": "Mimi ist ein Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi kommt jeden Nachmittag in den Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schwester gibt Mimi manchmal Milch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger mag seine Katze nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi schläft auf einem Stuhl.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wir-backen-kekse",
+    "nivel": "A1",
+    "titulo": "Wir backen Kekse",
+    "descripcion": "Eine Familie backt zusammen Kekse für das Wochenende.",
+    "texto": "Am Samstag backen Mia und ihre Mutter Kekse. Sie brauchen Mehl, Zucker, Butter und Eier. Mia mischt den Teig in einer großen Schüssel. Die Küche riecht schon nach Vanille.\n\nMia formt kleine runde Kekse. Ihr kleiner Bruder Paul hilft auch mit. Er legt die Kekse auf das Blech. Die Mutter stellt das Blech in den Ofen. Nach zwölf Minuten sind die Kekse fertig.\n\nDie Familie setzt sich an den Tisch. Alle probieren die warmen Kekse. „Die sind lecker!\", sagt Paul. Mia ist stolz auf ihre Arbeit. Am Abend bringt die Familie ein paar Kekse zur Oma.",
+    "preguntas": [
+      {
+        "enunciado": "Mia backt Kekse mit ihrer Mutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kekse brauchen eine Stunde im Ofen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hilft beim Backen nicht mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst die Kekse am Tisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie bringt Kekse zur Oma.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verspaetete-zugfahrt",
+    "nivel": "A2",
+    "titulo": "Die verspätete Zugfahrt",
+    "descripcion": "Jonas erlebt eine chaotische Zugfahrt mit vielen Verspätungen.",
+    "texto": "Jonas wollte am Freitag mit dem Zug nach Köln fahren, weil er dort seine Cousine besuchen wollte. Er ist früh zum Bahnhof gegangen, weil er den Zug nicht verpassen wollte. Als er am Bahnsteig stand, hat eine Durchsage gesagt, dass der Zug zwanzig Minuten Verspätung hat.\n\nJonas hat sich in ein Café gesetzt und einen Kaffee getrunken. Nach einer halben Stunde ist der Zug endlich gekommen, aber er war sehr voll. Jonas hat keinen Sitzplatz gefunden und musste im Gang stehen. Während der Fahrt ist der Zug plötzlich stehen geblieben, weil es ein technisches Problem gab. Alle Passagiere waren genervt und haben laut geseufzt.\n\nAm Ende ist Jonas zwei Stunden später als geplant in Köln angekommen. Seine Cousine hat am Bahnhof gewartet, obwohl sie auch müde war. Sie haben beide gelacht, weil die Reise so kompliziert war. Trotzdem hatten sie am Abend noch eine schöne Zeit zusammen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist mit dem Auto nach Köln gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug hatte von Anfang an Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat im Zug sofort einen Sitzplatz gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug ist während der Fahrt stehen geblieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Cousine hat nicht am Bahnhof gewartet.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsparty-meiner-schwester",
+    "nivel": "A2",
+    "titulo": "Die Geburtstagsparty meiner Schwester",
+    "descripcion": "Eine Geburtstagsfeier mit kleinen Problemen und viel Spaß.",
+    "texto": "Letzten Samstag haben wir die Geburtstagsparty meiner Schwester Lea gefeiert. Sie ist sechzehn Jahre alt geworden. Meine Eltern haben den Garten mit bunten Luftballons dekoriert, weil Lea Farben sehr mag. Am Nachmittag sind viele Freunde von Lea gekommen.\n\nWir hatten einen großen Kuchen mit Schokolade bestellt, aber der Lieferant hat sich verspätet. Lea war ein bisschen traurig, weil sie dachte, dass der Kuchen gar nicht kommt. Zum Glück ist der Kuchen nach einer Stunde doch noch angekommen. Alle haben „Happy Birthday\" gesungen und Lea hat die Kerzen ausgeblasen.\n\nNach dem Essen haben die Jugendlichen Musik gehört und getanzt. Mein Vater hat Fotos gemacht, während meine Mutter Getränke verteilt hat. Lea hat gesagt, dass dies ihre schönste Geburtstagsparty war, obwohl es am Anfang Probleme gab. Am Abend war sie sehr müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lea ist bei der Party siebzehn Jahre alt geworden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kuchen ist pünktlich angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle haben für Lea ein Geburtstagslied gesungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Essen hat niemand getanzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea fand die Party trotz der Probleme schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-nach-hamburg",
+    "nivel": "A2",
+    "titulo": "Die Reise nach Hamburg",
+    "descripcion": "Eine Familie plant eine Wochenendreise und erlebt eine Überraschung.",
+    "texto": "Familie Weber hat ein Wochenende in Hamburg verbracht. Sie sind am Freitagabend mit dem Auto gefahren, weil die Kinder noch nie am Meer waren. Die Fahrt hat fast vier Stunden gedauert, aber die Kinder haben im Auto geschlafen.\n\nAm Samstag haben sie den Hafen besucht und ein großes Schiff gesehen. Der Vater hat erklärt, dass dieses Schiff Waren aus der ganzen Welt transportiert. Die Kinder waren begeistert, weil sie so etwas noch nie gesehen hatten. Später sind sie in ein Fischrestaurant gegangen, obwohl die kleine Tochter lieber Pizza essen wollte.\n\nAm Sonntag hat es stark geregnet, deshalb sind sie ins Museum gegangen, statt am Strand zu spazieren. Trotzdem hat die ganze Familie die Reise genossen. Auf der Rückfahrt haben die Kinder erzählt, dass sie bald wieder nach Hamburg fahren möchten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist mit dem Zug nach Hamburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder waren vorher schon oft am Meer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat ein großes Schiff im Hafen gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag war das Wetter sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder möchten irgendwann wieder nach Hamburg fahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-auf-eine-neue-schule",
+    "nivel": "B1",
+    "titulo": "Der Wechsel auf eine neue Schule",
+    "descripcion": "Simon muss die Schule wechseln und erlebt gemischte Gefühle.",
+    "texto": "Simon musste im letzten Sommer die Schule wechseln, nachdem seine Familie in eine andere Stadt umgezogen war. Obwohl er sich auf das neue Haus gefreut hatte, war ihm der Gedanke an eine neue Schule unangenehm. Er kannte niemanden in seiner neuen Klasse, und am ersten Schultag war er sehr nervös.\n\nIn der ersten Woche saß Simon meistens allein in der Pause, weil die anderen Schüler schon feste Freundesgruppen hatten. Trotzdem hat er sich bemüht, offen und freundlich zu sein. Ein Mitschüler namens David hat ihn eines Tages angesprochen und ihm angeboten, gemeinsam Fußball zu spielen. Nachdem Simon zugesagt hatte, haben die beiden fast jeden Tag zusammen trainiert.\n\nNach ein paar Monaten hatte Simon mehrere neue Freunde gefunden, obwohl er am Anfang gedacht hatte, dass dies nie passieren würde. Seine Eltern waren erleichtert, als sie sahen, wie glücklich er war. Simon erzählt heute, dass der Schulwechsel am Anfang schwierig war, aber letztendlich eine positive Erfahrung wurde.",
+    "preguntas": [
+      {
+        "enunciado": "Simon ist wegen eines Umzugs auf eine neue Schule gewechselt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon fühlte sich am ersten Schultag sehr sicher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David hat Simon zum Fußballspielen eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon hat nie neue Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende war der Schulwechsel für Simon eine positive Erfahrung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-organisation-eines-schulfests",
+    "nivel": "B1",
+    "titulo": "Die Organisation eines Schulfests",
+    "descripcion": "Eine Schülergruppe organisiert ein großes Sommerfest trotz vieler Hindernisse.",
+    "texto": "Die Schülervertretung der Albert-Schweitzer-Schule hat beschlossen, am Ende des Schuljahres ein großes Sommerfest zu organisieren. Obwohl viele Schüler zunächst skeptisch waren, ob es gelingen würde, hat sich eine kleine Gruppe engagiert um die Planung gekümmert. Sie mussten einen Ort finden, Essen organisieren und die Lehrer um Erlaubnis bitten.\n\nNachdem der Schulleiter seine Zustimmung gegeben hatte, begannen die Vorbereitungen richtig. Die Schüler haben Plakate gemalt, Musik ausgesucht und verschiedene Stände geplant, an denen man Spiele spielen konnte. Es gab jedoch ein Problem: Eine Woche vor dem Fest wurde schlechtes Wetter vorhergesagt. Trotzdem haben die Organisatoren nicht aufgegeben und einen Plan B mit einer überdachten Halle entwickelt.\n\nAm Tag des Festes hat es tatsächlich geregnet, aber dank der Halle konnte die Feier trotzdem stattfinden. Viele Eltern und Schüler sind gekommen, und alle hatten eine wunderbare Zeit. Die Organisatoren waren stolz, weil ihre harte Arbeit sich gelohnt hatte, obwohl der Weg bis dahin nicht einfach gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Schüler waren von Anfang an sicher, dass das Fest gelingen würde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schulleiter hat die Erlaubnis für das Fest gegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Woche vor dem Fest wurde gutes Wetter vorhergesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Organisatoren hatten keinen Plan B für schlechtes Wetter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fest konnte trotz des Regens stattfinden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-ehrenamt-im-tierheim",
+    "nivel": "B1",
+    "titulo": "Das Ehrenamt im Tierheim",
+    "descripcion": "Eine Jugendliche berichtet über ihre Erfahrungen als freiwillige Helferin im Tierheim.",
+    "texto": "Carla hat sich vor einem Jahr entschieden, jeden Samstag freiwillig in einem Tierheim zu helfen, nachdem sie einen Bericht über ausgesetzte Hunde gesehen hatte. Obwohl ihre Eltern am Anfang Bedenken hatten, weil die Arbeit anstrengend sein könnte, hat Carla sich für diese Aufgabe entschieden, weil sie Tiere liebt.\n\nIm Tierheim füttert Carla die Hunde, putzt die Käfige und geht mit den Tieren spazieren. Besonders ein kleiner Hund namens Balu liegt ihr am Herzen, weil er schon sehr lange auf eine neue Familie wartet. Carla verbringt viel Zeit mit ihm, obwohl sie weiß, dass sie ihn eines Tages wieder gehen lassen muss, wenn er adoptiert wird.\n\nNachdem Carla mehrere Monate im Tierheim gearbeitet hatte, haben sich ihre Eltern von ihrem Engagement überzeugen lassen. Sie haben sogar angeboten, Balu bei sich aufzunehmen. Carla war überglücklich, als die Familie die Adoption offiziell gemacht hat. Heute erzählt sie stolz, wie ihr Ehrenamt ihr Leben verändert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Carla hilft jeden Sonntag im Tierheim.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carlas Eltern hatten am Anfang keine Bedenken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Balu ist ein Hund, der lange auf eine Familie wartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carlas Familie hat Balu am Ende adoptiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla bereut ihre Entscheidung für das Ehrenamt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-der-sozialen-medien-in-der-politik",
+    "nivel": "B2",
+    "titulo": "Die Rolle der sozialen Medien in der Politik",
+    "descripcion": "Eine Analyse darüber, wie soziale Netzwerke politische Debatten verändert haben.",
+    "texto": "Soziale Medien haben die politische Kommunikation in den letzten zwei Jahrzehnten grundlegend verändert. Während früher vor allem Zeitungen und das Fernsehen die öffentliche Meinung prägten, werden politische Botschaften heute zunehmend über Plattformen wie Instagram, TikTok und X verbreitet. Diese Entwicklung wird von manchen als demokratisierend gelobt, da sich prinzipiell jeder Bürger an politischen Diskussionen beteiligen kann, ohne dass seine Stimme von traditionellen Medienhäusern gefiltert würde.\n\nGleichzeitig wird zunehmend kritisiert, dass die Algorithmen dieser Plattformen eher emotionale und polarisierende Inhalte begünstigen, da diese mehr Interaktionen erzeugen. Wenn ein Beitrag besonders empörend oder vereinfachend formuliert ist, wird er häufiger geteilt, unabhängig davon, ob die enthaltenen Informationen korrekt sind. Dadurch entstehen sogenannte Filterblasen, in denen Nutzer vorwiegend mit Meinungen konfrontiert werden, die ihre eigene Weltsicht bestätigen, was die gesellschaftliche Polarisierung weiter verstärken könnte.\n\nExperten diskutieren daher, welche Maßnahmen ergriffen werden sollten, um Desinformation einzudämmen, ohne dabei die Meinungsfreiheit unangemessen einzuschränken. Einige Wissenschaftler schlagen vor, dass Plattformbetreiber stärker reguliert werden müssten, während andere eher auf Medienkompetenz und Aufklärung setzen würden. Wäre es möglich, beide Ansätze zu kombinieren, könnte dies langfristig zu einer informierteren und weniger polarisierten öffentlichen Debatte führen, auch wenn ein solcher Wandel Zeit und gesellschaftliche Anstrengung erfordern würde.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Medien haben die politische Kommunikation wesentlich verändert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass soziale Medien die Demokratie ausschließlich fördern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen begünstigen laut dem Text oft emotionale und polarisierende Inhalte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Filterblasen sorgen dafür, dass Nutzer vor allem gegensätzliche Meinungen sehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Text wird vorgeschlagen, Regulierung und Medienkompetenz zu kombinieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-der-arbeitswelt-durch-homeoffice",
+    "nivel": "B2",
+    "titulo": "Der Wandel der Arbeitswelt durch Homeoffice",
+    "descripcion": "Ein Text über die langfristigen Folgen der Verbreitung von Homeoffice für Unternehmen und Beschäftigte.",
+    "texto": "Seit einigen Jahren hat sich die Arbeitswelt vieler Angestellter grundlegend verändert, da das Homeoffice in zahlreichen Branchen zu einem festen Bestandteil des Arbeitsalltags geworden ist. Während früher die Anwesenheit im Büro als selbstverständlich galt, wird heute in vielen Unternehmen akzeptiert, dass Mitarbeiter einen Teil ihrer Arbeitszeit von zu Hause aus erledigen. Diese Entwicklung wurde von vielen Beschäftigten begrüßt, weil ihnen dadurch mehr Flexibilität bei der Gestaltung ihres Alltags ermöglicht wird.\n\nAllerdings werden auch zunehmend Schattenseiten dieser Entwicklung diskutiert. Studien zeigen, dass manche Arbeitnehmer sich im Homeoffice isolierter fühlen, da der informelle Austausch mit Kollegen fehlt, der im Büro spontan entstehen würde. Zudem wird kritisiert, dass die Grenze zwischen Arbeit und Privatleben zunehmend verschwimmt, wenn berufliche E-Mails auch abends oder am Wochenende beantwortet werden. Es stellt sich die Frage, ob Unternehmen genügend Maßnahmen ergreifen, um diesen negativen Begleiterscheinungen entgegenzuwirken.\n\nManche Experten argumentieren, dass ein hybrides Modell, bei dem Präsenztage im Büro mit Homeoffice-Tagen kombiniert werden, die beste Lösung darstellen könnte. Wenn Unternehmen klare Regeln für Erreichbarkeit festlegen würden, ließe sich vermutlich ein besseres Gleichgewicht zwischen Produktivität und Wohlbefinden der Mitarbeiter erreichen. Ob sich ein solches Modell langfristig als Standard durchsetzen wird, bleibt jedoch abzuwarten, da die Bedürfnisse einzelner Branchen und Unternehmen sehr unterschiedlich sind.",
+    "preguntas": [
+      {
+        "enunciado": "Homeoffice wird in vielen Branchen inzwischen als normal akzeptiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text hat Homeoffice ausschließlich positive Folgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Arbeitnehmer fühlen sich im Homeoffice isolierter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Grenze zwischen Arbeit und Privatleben wird im Text als klarer beschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein hybrides Modell wird als mögliche Lösung vorgeschlagen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nachhaltigkeit-als-konsumtrend",
+    "nivel": "B2",
+    "titulo": "Nachhaltigkeit als Konsumtrend",
+    "descripcion": "Ein kritischer Blick auf den wachsenden Markt für nachhaltige Produkte.",
+    "texto": "In den letzten Jahren ist das Bewusstsein für Nachhaltigkeit bei vielen Verbrauchern deutlich gestiegen, was zu einem rasanten Wachstum des Marktes für sogenannte nachhaltige Produkte geführt hat. Unternehmen aus den unterschiedlichsten Branchen, von der Mode- bis zur Lebensmittelindustrie, bewerben ihre Waren zunehmend mit Begriffen wie „umweltfreundlich\" oder „klimaneutral\", um umweltbewusste Kunden anzusprechen. Dieser Trend wird von Umweltschützern grundsätzlich begrüßt, da er zeigt, dass ökologische Themen in der breiten Gesellschaft angekommen sind.\n\nGleichzeitig wird zunehmend bemängelt, dass nicht alle als nachhaltig beworbenen Produkte tatsächlich den Umweltstandards entsprechen, die suggeriert werden. Dieses Phänomen, das als Greenwashing bezeichnet wird, täuscht Verbraucher häufig über die wahren ökologischen Auswirkungen eines Produkts. Wenn ein Unternehmen beispielsweise nur einen kleinen Teil seiner Produktion nachhaltig gestaltet, aber mit diesem Aspekt die gesamte Marke bewirbt, entsteht beim Kunden ein verzerrtes Bild der tatsächlichen Umweltbilanz.\n\nUm dieser Entwicklung entgegenzuwirken, wird von Verbraucherschutzorganisationen gefordert, dass strengere gesetzliche Regelungen für die Kennzeichnung nachhaltiger Produkte eingeführt werden sollten. Sollten solche Vorschriften tatsächlich verbindlich gemacht werden, müssten Unternehmen ihre Nachhaltigkeitsversprechen nachweislich belegen können, bevor sie damit werben dürfen. Ob eine solche Regulierung in naher Zukunft umgesetzt wird, hängt stark vom politischen Willen und vom Druck durch die Öffentlichkeit ab.",
+    "preguntas": [
+      {
+        "enunciado": "Das Bewusstsein für Nachhaltigkeit ist bei vielen Verbrauchern gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text entsprechen alle nachhaltig beworbenen Produkte den tatsächlichen Umweltstandards.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Greenwashing bedeutet, dass Verbraucher über die ökologischen Auswirkungen getäuscht werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Verbraucherschutzorganisationen fordern laxere Regelungen für nachhaltige Produkte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine strengere Regulierung würde Unternehmen zwingen, ihre Nachhaltigkeitsversprechen zu belegen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
