@@ -59630,5 +59630,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "lisas-lieblingsfarbe-blau",
+    "nivel": "A1",
+    "titulo": "Lisas Lieblingsfarbe ist Blau",
+    "descripcion": "Lisa erzählt, warum Blau ihre Lieblingsfarbe ist.",
+    "texto": "Ich heiße Lisa. Meine Lieblingsfarbe ist Blau. Der Himmel ist blau. Das Meer ist auch blau. Mein Fahrrad ist blau und mein Rucksack ist blau.\n\nMeine Schwester mag Rot. Sie sagt: „Rot ist schön und stark.“ Mein Bruder mag Grün. Er liebt die Natur und den Wald.\n\nIn meinem Zimmer sind die Wände blau. Ich habe auch ein blaues Kissen und eine blaue Lampe. Blau macht mich ruhig und glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lisas Lieblingsfarbe ist Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisas Fahrrad ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihre Schwester mag Rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Bruder mag Blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wände in Lisas Zimmer sind blau.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "toms-hund-rocky-spielt-im-park-am-sonntag",
+    "nivel": "A1",
+    "titulo": "Toms Hund Rocky spielt im Park",
+    "descripcion": "Tom und seine Familie verbringen einen Sonntag im Park.",
+    "texto": "Am Sonntag gehen Tom und seine Familie in den Park. Die Sonne scheint und der Himmel ist blau. Tom spielt mit seinem Hund Rocky Ball. Seine Mutter liest ein Buch auf der Bank.\n\nSein Vater macht ein Picknick. Es gibt Brot, Käse und Äpfel. Tom isst zwei Äpfel, weil sie sehr süß sind. Seine kleine Schwester spielt auf dem Spielplatz.\n\nAm Abend gehen sie müde, aber glücklich nach Hause. Tom sagt: „Das war ein toller Tag!“",
+    "preguntas": [
+      {
+        "enunciado": "Tom geht am Sonntag in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Toms Mutter spielt Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt Brot, Käse und Äpfel beim Picknick.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom isst drei Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie ist am Abend glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ninas-kurzhaarschnitt-beim-friseur-keller",
+    "nivel": "A1",
+    "titulo": "Ninas Kurzhaarschnitt beim Friseur Keller",
+    "descripcion": "Nina geht zum Friseur und bekommt eine neue Frisur.",
+    "texto": "Nina braucht einen neuen Haarschnitt. Sie geht zum Friseur in ihrer Straße. Der Friseur heißt Herr Keller. Er ist sehr freundlich.\n\n„Was möchten Sie?“, fragt Herr Keller. Nina sagt: „Bitte kurze Haare und einen Pony.“ Der Friseur wäscht ihre Haare und schneidet sie langsam. Nina sieht in den Spiegel und lächelt.\n\nNach einer Stunde ist Nina fertig. Ihre neuen Haare sind kurz und modern. Sie bezahlt und sagt: „Danke, das gefällt mir sehr!“",
+    "preguntas": [
+      {
+        "enunciado": "Nina geht zum Friseur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Friseur heißt Herr Keller.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina möchte lange Haare.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina ist nach einer Stunde fertig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina gefällt die neue Frisur nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "frau-martens-geschaeftskoffer-bleibt-in-muenchen",
+    "nivel": "A2",
+    "titulo": "Frau Martens' Geschäftskoffer bleibt in München",
+    "descripcion": "Frau Martens verliert ihren Koffer am Flughafen und muss ihn suchen.",
+    "texto": "Frau Martens ist gestern von München nach Hamburg geflogen. Als sie am Flughafen ankam, hat sie lange auf ihren Koffer gewartet. Leider ist der Koffer nicht gekommen, weil er in München liegen geblieben ist. Frau Martens war sehr verärgert, weil sie wichtige Kleidung für ein Geschäftstreffen brauchte.\n\nSie ist zum Informationsschalter gegangen und hat das Problem erklärt. Die Mitarbeiterin hat gesagt, dass der Koffer am nächsten Tag mit einem Taxi geliefert wird. Frau Martens hat ihre Adresse und Telefonnummer angegeben, bevor sie das Flughafengebäude verlassen hat.\n\nAm nächsten Morgen hat es an der Tür geklingelt. Der Koffer war endlich da! Frau Martens hat sich sehr gefreut, dass alles gut ausgegangen ist, obwohl sie einen Tag ohne ihre Sachen verbringen musste.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Martens ist von Hamburg nach München geflogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihr Koffer ist in München liegen geblieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie brauchte die Kleidung für ein Geschäftstreffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Koffer ist noch am selben Tag angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am nächsten Morgen hat sie ihren Koffer bekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "pauls-erster-brief-aus-koeln-an-seine-oma",
+    "nivel": "A2",
+    "titulo": "Pauls erster Brief aus Köln an seine Oma",
+    "descripcion": "Paul schreibt seiner Großmutter einen Brief über sein neues Leben in der Stadt.",
+    "texto": "Liebe Oma,\n\nich hoffe, es geht dir gut. Ich wollte dir schreiben, weil ich seit zwei Monaten in Köln wohne. Die Stadt ist groß und laut, aber ich habe mich schon gut eingelebt. Letzte Woche habe ich neue Freunde kennengelernt, als ich im Supermarkt eingekauft habe.\n\nMeine neue Wohnung ist klein, aber gemütlich. Ich habe ein Zimmer mit Blick auf den Rhein. Am Wochenende bin ich mit dem Fahrrad am Fluss entlanggefahren, und es war wunderschön. Ich vermisse dich und das Dorf, aber ich bin froh, dass ich diesen Schritt gemacht habe.\n\nWenn du Zeit hast, kannst du mich gerne besuchen. Ich zeige dir dann die ganze Stadt. Bis bald!\n\nDein Paul",
+    "preguntas": [
+      {
+        "enunciado": "Paul wohnt seit zwei Monaten in Köln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul findet die Stadt sehr ruhig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hat neue Freunde im Supermarkt kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seine Wohnung liegt weit vom Fluss entfernt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul lädt seine Oma ein, ihn zu besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "herr-bauer-zieht-aus-der-schweiz-als-neuer-nachbar-ein",
+    "nivel": "A2",
+    "titulo": "Herr Bauer zieht aus der Schweiz als neuer Nachbar ein",
+    "descripcion": "Familie Weber lernt ihren neuen Nachbarn kennen.",
+    "texto": "Letzte Woche ist ein neuer Nachbar in das Haus neben Familie Weber eingezogen. Er heißt Herr Bauer und kommt aus der Schweiz. Frau Weber hat ihn zuerst im Treppenhaus getroffen, als sie die Post geholt hat. Sie hat ihn freundlich begrüßt und ihm bei den schweren Kisten geholfen.\n\nAm Samstag haben die Webers Herrn Bauer zum Kaffee eingeladen, weil sie ihn besser kennenlernen wollten. Er hat erzählt, dass er wegen seiner neuen Arbeit in die Stadt gezogen ist. Die Kinder der Webers haben ihm viele Fragen über die Schweiz gestellt, und Herr Bauer hat gerne geantwortet.\n\nNach dem Kaffee haben sich alle sehr sympathisch gefunden. Herr Bauer hat gesagt, dass er sich freut, so freundliche Nachbarn zu haben. Die Webers hoffen, dass sie bald wieder zusammen Zeit verbringen können.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Bauer kommt aus Österreich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber hat ihm im Treppenhaus geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Webers haben Herrn Bauer nie eingeladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Bauer ist wegen einer neuen Arbeit umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben ihm Fragen über die Schweiz gestellt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-10-klasse-erlebt-ein-abenteuer-auf-der-wien-fahrt",
+    "nivel": "B1",
+    "titulo": "Die 10. Klasse erlebt ein Abenteuer auf der Wien-Fahrt",
+    "descripcion": "Eine Schulklasse erlebt auf ihrer Klassenfahrt nach Wien unerwartete Abenteuer.",
+    "texto": "Die 10. Klasse des Gymnasiums fuhr Anfang Mai für eine Woche nach Wien. Obwohl viele Schüler zunächst skeptisch waren, weil sie lieber ans Meer gefahren wären, änderte sich ihre Meinung schon am ersten Tag. Die Stadt beeindruckte sie mit ihrer Architektur, den Museen und dem berühmten Riesenrad im Prater.\n\nNachdem die Gruppe das Schloss Schönbrunn besichtigt hatte, verirrten sich zwei Schüler in der Innenstadt und fanden den Treffpunkt nicht wieder. Trotzdem blieben sie ruhig und fragten einen Passanten nach dem Weg. Am Ende kamen sie nur zehn Minuten später als die anderen an, was die Lehrerin sehr erleichterte.\n\nAm letzten Abend organisierte die Klasse eine kleine Abschiedsfeier im Hostel. Viele Schüler gaben zu, dass die Fahrt ihre Erwartungen übertroffen hatte. Sie verließen Wien mit vielen Fotos, neuen Freundschaften und der festen Absicht, die Stadt eines Tages wiederzubesuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse fuhr für eine Woche nach Wien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler wollten von Anfang an nach Wien fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zwei Schüler verirrten sich in der Innenstadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler kamen eine Stunde später am Treffpunkt an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt übertraf die Erwartungen vieler Schüler.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "jonas-beruflicher-umzug-von-seiner-heimatstadt-nach-leipzig",
+    "nivel": "B1",
+    "titulo": "Jonas' beruflicher Umzug von seiner Heimatstadt nach Leipzig",
+    "descripcion": "Jonas zieht beruflich nach Leipzig und muss sich an ein neues Leben gewöhnen.",
+    "texto": "Jonas hatte zehn Jahre lang in seiner Heimatstadt gelebt, bevor er wegen eines neuen Jobangebots nach Leipzig zog. Der Entschluss fiel ihm nicht leicht, da er seine Familie und seine langjährigen Freunde zurücklassen musste. Trotzdem war er überzeugt, dass diese Chance seine Karriere entscheidend voranbringen würde.\n\nIn den ersten Wochen fühlte sich Jonas oft einsam, nachdem er von der Arbeit nach Hause kam. Die Wohnung war noch leer, und er kannte niemanden in der Stadt. Um neue Kontakte zu finden, meldete er sich bei einem Sportverein an und besuchte regelmäßig ein Café in der Nähe seiner Wohnung. Dort lernte er nach einigen Wochen einige nette Leute kennen, mit denen er sich inzwischen fast täglich trifft.\n\nHeute, sechs Monate nach dem Umzug, fühlt sich Jonas in Leipzig deutlich wohler. Obwohl er seine alte Heimat manchmal vermisst, hat er gelernt, die Vorteile seines neuen Lebens zu schätzen. Er plant bereits, seine Familie zu Weihnachten in seine neue Wohnung einzuladen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas zog wegen eines neuen Jobs nach Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Umzug fiel ihm sehr leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas fühlte sich in den ersten Wochen einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er fand keine neuen Kontakte in Leipzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas möchte seine Familie zu Weihnachten einladen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mara-und-sofia-bleiben-trotz-kanada-beste-freundinnen",
+    "nivel": "B1",
+    "titulo": "Mara und Sofia bleiben trotz Kanada beste Freundinnen",
+    "descripcion": "Zwei beste Freundinnen bleiben verbunden, obwohl sie in verschiedenen Ländern leben.",
+    "texto": "Mara und Sofia waren seit der Grundschule beste Freundinnen, bis Sofia vor zwei Jahren mit ihrer Familie nach Kanada auswanderte. Obwohl die Entfernung zwischen Deutschland und Kanada groß ist, haben die beiden es geschafft, ihre Freundschaft aufrechtzuerhalten. Sie schreiben sich fast jeden Tag Nachrichten und telefonieren einmal pro Woche über Video.\n\nNachdem Sofia sich in ihrer neuen Schule eingelebt hatte, erzählte sie Mara begeistert von ihren neuen Erfahrungen. Trotzdem gab es auch schwierige Momente, in denen beide die gemeinsame Zeit und die alten Gewohnheiten vermissten. Mara gestand einmal, dass sie manchmal traurig wurde, wenn sie an die gemeinsamen Nachmittage dachten, die sie früher zusammen verbracht hatten.\n\nLetzten Sommer besuchte Mara Sofia schließlich in Kanada, nachdem sie monatelang Geld dafür gespart hatte. Die beiden verbrachten drei unvergessliche Wochen zusammen und merkten, dass sich an ihrer Verbindung nichts geändert hatte. Sie beschlossen, sich von nun an jedes Jahr mindestens einmal persönlich zu treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Sofia ist vor zwei Jahren nach Kanada gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mara und Sofia haben seit dem Umzug keinen Kontakt mehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mara besuchte Sofia letzten Sommer in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen vermissten nie die gemeinsame Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie wollen sich jedes Jahr mindestens einmal treffen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "gesellschaftliche-debatte-um-die-einfuehrung-der-vier-tage-woche-2026",
+    "nivel": "B2",
+    "titulo": "Die gesellschaftliche Debatte um die Vier-Tage-Woche 2026",
+    "descripcion": "Eine kritische Betrachtung der Debatte um die Einführung der Vier-Tage-Woche in Deutschland.",
+    "texto": "In den letzten Jahren hat sich die Diskussion über die Vier-Tage-Woche von einer Randdebatte zu einem zentralen Thema der Arbeitsmarktpolitik entwickelt. Mehrere Pilotprojekte, bei denen Unternehmen ihre Angestellten bei vollem Lohnausgleich einen Tag weniger arbeiten ließen, zeigten überraschend positive Ergebnisse hinsichtlich Produktivität und Mitarbeiterzufriedenheit. Dennoch bleibt umstritten, ob sich diese Modelle auf alle Branchen übertragen lassen würden.\n\nBefürworter argumentieren, dass eine verkürzte Arbeitswoche nicht nur die psychische Gesundheit der Beschäftigten verbessern, sondern auch dem zunehmenden Fachkräftemangel entgegenwirken könnte, indem Arbeitgeber attraktiver würden. Es wird zudem betont, dass in vielen Berufen, insbesondere im Bürobereich, die Arbeitszeit ohnehin ineffizient genutzt werde und eine Verdichtung der Aufgaben auf vier Tage durchaus möglich sei. Kritiker hingegen warnen, dass im Gesundheits- und Pflegesektor, wo ohnehin ein Personalmangel herrscht, eine Arbeitszeitverkürzung die bestehenden Probleme eher verschärfen würde.\n\nWürde die Vier-Tage-Woche flächendeckend eingeführt, müssten zahlreiche strukturelle Anpassungen vorgenommen werden, die weit über die reine Arbeitszeitgestaltung hinausgingen. Letztlich dürfte die Antwort auf diese Frage nicht einheitlich ausfallen, sondern branchenspezifisch differenziert werden müssen, da die Voraussetzungen und Belastungen in den einzelnen Wirtschaftssektoren stark variieren.",
+    "preguntas": [
+      {
+        "enunciado": "Pilotprojekte zur Vier-Tage-Woche zeigten durchweg negative Ergebnisse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in der Vier-Tage-Woche ein Mittel gegen den Fachkräftemangel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten besonders im Pflegesektor negative Folgen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die Vier-Tage-Woche passe problemlos zu jeder Branche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text sollte die Lösung branchenspezifisch betrachtet werden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ki-gestuetzte-lernprogramme-veraendern-den-schulischen-alltag",
+    "nivel": "B2",
+    "titulo": "KI-gestützte Lernprogramme verändern den schulischen Alltag",
+    "descripcion": "Eine Analyse der Chancen und Risiken, die der Einsatz von KI-Werkzeugen an Schulen mit sich bringt.",
+    "texto": "Der Einzug künstlicher Intelligenz in den schulischen Alltag hat in den vergangenen Jahren eine Debatte ausgelöst, die weit über technische Fragen hinausgeht. Während einige Lehrkräfte den Einsatz von KI-gestützten Lernprogrammen als Chance begreifen, individuelle Förderung zu ermöglichen, befürchten andere, dass grundlegende Kompetenzen wie eigenständiges Schreiben und kritisches Denken verkümmern könnten, wenn Schüler zu früh auf automatisierte Hilfsmittel zurückgreifen.\n\nBesonders kontrovers wird diskutiert, inwiefern Hausaufgaben und Prüfungsformate angepasst werden müssten, da herkömmliche Textaufgaben inzwischen von Sprachmodellen mühelos gelöst werden können. Es stellt sich die Frage, ob Bildungseinrichtungen eher auf ein Verbot solcher Technologien setzen oder ob stattdessen neue Prüfungsformen entwickelt werden sollten, die den reflektierten Umgang mit KI selbst zum Lerngegenstand machen. Manche Experten plädieren dafür, dass Schüler lernen müssten, KI-generierte Inhalte kritisch zu hinterfragen, anstatt sie unreflektiert zu übernehmen.\n\nSollte es gelingen, einen verantwortungsvollen Umgang mit diesen Technologien in die Lehrpläne zu integrieren, könnte künstliche Intelligenz langfristig als wertvolles pädagogisches Werkzeug dienen, anstatt als Bedrohung für die Lernqualität wahrgenommen zu werden. Entscheidend wird dabei sein, dass Lehrkräfte entsprechend fortgebildet und mit den nötigen Ressourcen ausgestattet werden, um diesen Wandel aktiv mitzugestalten.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Lehrkräfte lehnen den Einsatz von KI im Unterricht einstimmig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche befürchten, dass kritisches Denken durch KI verkümmern könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sprachmodelle können laut Text herkömmliche Textaufgaben inzwischen lösen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, dass Schüler KI-Inhalte unreflektiert übernehmen sollen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fortbildung von Lehrkräften wird als wichtig für den Wandel angesehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkonsum-und-aufmerksamkeitsspanne",
+    "nivel": "B2",
+    "titulo": "Medienkonsum und Aufmerksamkeitsspanne",
+    "descripcion": "Der Artikel untersucht, wie sich der Konsum kurzer Videoformate auf die Konzentrationsfähigkeit auswirken könnte.",
+    "texto": "In den sozialen Medien dominieren zunehmend kurze, schnell geschnittene Videoformate, die binnen wenigen Sekunden die Aufmerksamkeit der Nutzer fesseln sollen. Diese Entwicklung wird von manchen Wissenschaftlern mit Sorge betrachtet, da Studien darauf hindeuten, dass ein übermäßiger Konsum solcher Inhalte die Fähigkeit beeinträchtigen könnte, sich über längere Zeiträume auf eine einzige Aufgabe zu konzentrieren.\n\nAndererseits wird argumentiert, dass es sich hierbei nicht um eine grundsätzliche Verkürzung der Aufmerksamkeitsspanne handele, sondern vielmehr um eine Anpassung an veränderte mediale Gewohnheiten, wobei komplexere Inhalte weiterhin aufmerksam verfolgt würden, sofern sie als relevant empfunden werden. Es wäre demnach verkürzt, den gesamten Medienwandel allein für Konzentrationsprobleme verantwortlich zu machen, ohne weitere Faktoren wie Schlafmangel oder Stress zu berücksichtigen.\n\nUnbestritten bleibt jedoch, dass Bildungseinrichtungen vor der Herausforderung stehen, Lerninhalte so zu gestalten, dass sie trotz veränderter Mediennutzung die nötige Tiefe vermitteln. Würden Schulen ausschließlich auf kurze, fragmentierte Lerneinheiten setzen, um der vermeintlich sinkenden Aufmerksamkeitsspanne gerecht zu werden, bestünde die Gefahr, dass komplexes, vernetztes Denken dabei zu kurz käme.",
+    "preguntas": [
+      {
+        "enunciado": "Kurze Videoformate dominieren zunehmend die sozialen Medien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Wissenschaftler sind sich einig, dass die Aufmerksamkeitsspanne grundsätzlich sinkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text nennt Schlafmangel und Stress als mögliche weitere Faktoren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Komplexe Inhalte werden laut Text nie aufmerksam verfolgt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es besteht die Gefahr, dass vernetztes Denken bei rein fragmentierten Lerneinheiten zu kurz kommt.",
+        "respuesta": true
+      }
+    ]
   }
 ]
