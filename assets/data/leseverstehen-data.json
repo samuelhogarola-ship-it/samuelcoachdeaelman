@@ -58934,5 +58934,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "am-telefon-mit-oma",
+    "nivel": "A1",
+    "titulo": "Am Telefon mit Oma",
+    "descripcion": "Ein Kind telefoniert jeden Sonntag mit der Oma auf dem Land.",
+    "texto": "Jeden Sonntag telefoniere ich mit meiner Oma. Sie wohnt in einem kleinen Dorf in Bayern. Oma ist 75 Jahre alt und sehr aktiv. Sie arbeitet gern im Garten und pflegt ihre Blumen.\n\n„Wie geht es dir?“, fragt Oma immer zuerst. Ich erzähle ihr von der Schule und von meinen Freunden. Oma erzählt mir von ihren Hühnern und von ihrem Gemüse. Sie hat Tomaten, Karotten und Kartoffeln im Garten. Im Sommer schickt sie mir oft ein Paket mit frischem Obst.\n\nNach dem Telefonat fühle ich mich immer froh. Oma lacht viel und erzählt lustige Geschichten. Im nächsten Monat besuche ich sie mit meiner Familie. Wir fahren mit dem Auto und bleiben eine Woche bei ihr. Ich freue mich schon sehr auf den Besuch.",
+    "preguntas": [
+      {
+        "enunciado": "Die Oma wohnt in einer großen Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma ist 75 Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma hat Hühner und Gemüse im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Telefonat fühlt sich das Kind traurig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie fährt mit dem Auto zu Oma.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-spaziergang-im-park",
+    "nivel": "A1",
+    "titulo": "Der Spaziergang im Park",
+    "descripcion": "Eine Person geht mit ihrem Hund Bruno im Park spazieren und trifft die Nachbarin.",
+    "texto": "Am Nachmittag gehe ich gern in den Park. Der Park ist groß und hat viele Bäume. Ich gehe oft mit meinem Hund Bruno spazieren. Bruno ist braun und sehr verspielt. Er läuft gern hinter dem Ball her.\n\nIm Park treffe ich oft meine Nachbarin Frau Meyer. Sie sitzt gern auf der Bank und liest ein Buch. „Guten Tag!“, sage ich immer zu ihr. Manchmal setze ich mich kurz zu ihr und wir reden über das Wetter. Die Kinder spielen auf dem Spielplatz und lachen laut.\n\nNach dem Spaziergang gehen Bruno und ich nach Hause. Bruno trinkt viel Wasser, denn er ist müde. Ich mache mir einen Tee und setze mich auf das Sofa. Der Spaziergang im Park macht mich jeden Tag glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Der Hund heißt Bruno und ist schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Meyer liest gern ein Buch auf der Bank.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen auf dem Spielplatz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Spaziergang trinkt die Person viel Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Spaziergang macht die Person glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-wohnung-im-studentenwohnheim",
+    "nivel": "A1",
+    "titulo": "Meine Wohnung im Studentenwohnheim",
+    "descripcion": "Laura beschreibt ihr Zimmer im Studentenwohnheim und ihren Alltag mit Mitbewohnerin Nina.",
+    "texto": "Ich heiße Laura und wohne in einem Studentenwohnheim. Mein Zimmer ist klein, aber gemütlich. Ich habe ein Bett, einen Schrank und einen Tisch. An der Wand hängt ein Poster von meiner Lieblingsband.\n\nDie Küche teile ich mit meiner Mitbewohnerin Nina. Nina kocht jeden Abend das Essen. Ich koche nicht gern, aber ich wasche gern ab. Im Gemeinschaftsraum steht ein großes Sofa. Dort sehen wir zusammen Filme und trinken Tee.\n\nAm Wochenende putze ich mein Zimmer. Ich räume den Tisch auf und sauge den Boden. Danach gehe ich mit Nina einkaufen. Wir kaufen Brot, Milch und Obst. Ich bin sehr glücklich im Studentenwohnheim.",
+    "preguntas": [
+      {
+        "enunciado": "Laura wohnt allein in einem Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lauras Zimmer ist klein, aber gemütlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura kocht jeden Abend das Essen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Wochenende putzt Laura ihr Zimmer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura und Nina kaufen nur Obst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-nachbarin-aus-portugal",
+    "nivel": "A2",
+    "titulo": "Die neue Nachbarin aus Portugal",
+    "descripcion": "Herr Fischer lernt seine neue Nachbarin aus Portugal kennen und hilft ihr beim Einzug.",
+    "texto": "Letzten Monat ist eine neue Nachbarin in das Haus von Herrn Fischer gezogen. Sie heißt Inês und kommt aus Portugal. Als Herr Fischer sie zum ersten Mal im Treppenhaus getroffen hat, hat er ihr gleich geholfen, weil sie viele schwere Kisten trug. Inês hat sich sehr gefreut, dass ihr neuer Nachbar so freundlich war.\n\nNach dem Umzug hat Inês Herrn Fischer zu einem Kaffee eingeladen, damit sie sich besser kennenlernen konnten. Sie hat erzählt, dass sie wegen eines neuen Jobs nach Deutschland gekommen ist. Herr Fischer hat ihr erklärt, wo der Supermarkt und die Bushaltestelle sind. Inês war froh, weil sie sich am Anfang in der fremden Stadt etwas einsam gefühlt hatte.\n\nSeitdem treffen sich die beiden regelmäßig im Hof. Inês hat Herrn Fischer sogar portugiesische Pastéis gebacken, die ihm sehr gut geschmeckt haben. Herr Fischer sagt, dass er sich freut, wenn Inês von ihrer Heimat erzählt. Die beiden sind inzwischen gute Freunde geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Inês kommt aus Spanien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer hat Inês beim Tragen der Kisten geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Inês ist wegen eines neuen Jobs nach Deutschland gekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Inês hat sich am Anfang überhaupt nicht einsam gefühlt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Inês und Herr Fischer sind inzwischen gute Freunde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "besuch-bei-der-kinderaerztin",
+    "nivel": "A2",
+    "titulo": "Besuch bei der Kinderärztin",
+    "descripcion": "Frau Keller bringt ihren kleinen Sohn Max wegen Fieber zur Kinderärztin.",
+    "texto": "Am Mittwochabend hatte der kleine Max hohes Fieber. Seine Mutter, Frau Keller, hat sich große Sorgen gemacht, weil Max kaum etwas essen wollte und ständig müde war. Am nächsten Morgen hat sie sofort einen Termin bei der Kinderärztin vereinbart.\n\nIm Wartezimmer hat Max geweint, denn er hatte Angst vor der Untersuchung. Die Kinderärztin, Frau Doktor Brandt, hat ihn aber sehr geduldig und ruhig untersucht. Sie hat gesagt, dass Max eine leichte Erkältung hat und dass das Fieber in ein paar Tagen wieder sinkt. Frau Keller war erleichtert, weil es nichts Schlimmes war.\n\nDie Ärztin hat empfohlen, dass Max viel trinkt und sich ausruht. Zu Hause hat Frau Keller ihm heißen Tee mit Honig gemacht. Nach zwei Tagen ist das Fieber gesunken, und Max konnte wieder in den Kindergarten gehen. Frau Keller war sehr dankbar für die gute Beratung.",
+    "preguntas": [
+      {
+        "enunciado": "Max hatte am Mittwochabend hohes Fieber.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max hat im Wartezimmer gelacht, weil er keine Angst hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinderärztin hat eine schwere Krankheit festgestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin hat empfohlen, dass Max viel trinkt und sich ausruht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach zwei Tagen konnte Max wieder in den Kindergarten gehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-geburtstagsbrief-fuer-opa-heinrich",
+    "nivel": "A2",
+    "titulo": "Der Geburtstagsbrief für Opa Heinrich",
+    "descripcion": "Emma schreibt ihrem Opa Heinrich einen Geburtstagsbrief, weil sie ihn nicht besuchen kann.",
+    "texto": "Opa Heinrich wird nächste Woche achtzig Jahre alt. Emma kann leider nicht zu seiner Geburtstagsfeier kommen, weil sie wegen einer wichtigen Prüfung in ihrer Stadt bleiben muss. Deshalb hat sie sich entschieden, ihm einen langen Brief zu schreiben.\n\nIn dem Brief hat Emma erzählt, dass sie sich noch gut an die gemeinsamen Sommer bei Opa Heinrich erinnert. Sie hat geschrieben, dass sie dankbar ist, weil er ihr immer beim Fahrradfahren geholfen hat. Außerdem hat sie ein altes Foto von sich und Opa Heinrich in den Umschlag gelegt. Sie hofft, dass der Brief ihn an seinem Geburtstag erreicht.\n\nAls der Brief bei Opa Heinrich ankam, hat er sich sehr gefreut. Er hat die Familie angerufen und erzählt, dass er vor Freude fast geweint hat. Emma hat versprochen, dass sie ihn bald besuchen wird, wenn die Prüfungen vorbei sind. Opa Heinrich wartet schon jetzt auf ihren Besuch.",
+    "preguntas": [
+      {
+        "enunciado": "Opa Heinrich wird nächste Woche achtzig Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma kommt zur Geburtstagsfeier, weil sie frei hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma hat ein altes Foto in den Umschlag gelegt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa Heinrich hat sich über den Brief nicht gefreut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma will Opa Heinrich nach den Prüfungen besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wiedersehen-nach-vielen-jahren",
+    "nivel": "B1",
+    "titulo": "Das Wiedersehen nach vielen Jahren",
+    "descripcion": "Clara trifft nach zehn Jahren ihre alten Klassenkameraden wieder und entdeckt neue Lebenswege.",
+    "texto": "Zehn Jahre nachdem sie die Schule beendet hatten, trafen sich Clara und ihre alten Klassenkameraden zum ersten Mal wieder. Obwohl die Jahre schnell vergangen waren, erkannte Clara viele Gesichter sofort wieder. Trotzdem fühlte sie sich zunächst etwas unsicher, weil sich manche Leute stark verändert hatten.\n\nNachdem das Treffen in einem gemütlichen Restaurant begonnen hatte, löste sich die Anspannung schnell auf. Alle erzählten von ihrem Leben: wer studiert hatte, wer schon Kinder hatte und wer ins Ausland gezogen war. Clara war überrascht, dass ihr bester Freund aus der Schulzeit, Jonas, inzwischen als Arzt in Hamburg arbeitete. Sie unterhielten sich stundenlang und erinnerten sich an lustige Momente aus ihrer Jugend.\n\nAm Ende des Abends tauschten alle ihre Telefonnummern aus, obwohl viele schon über soziale Medien verbunden waren. Clara fuhr glücklich nach Hause und dachte darüber nach, wie wichtig alte Freundschaften trotz der Entfernung bleiben können. Sie beschloss, das nächste Klassentreffen selbst zu organisieren.",
+    "preguntas": [
+      {
+        "enunciado": "Clara und ihre Klassenkameraden trafen sich fünf Jahre nach dem Schulabschluss.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara erkannte zunächst niemanden wieder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas arbeitet inzwischen als Arzt in Hamburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Abends wollte niemand Kontaktdaten austauschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara möchte das nächste Klassentreffen organisieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fotoausstellung-im-alten-bahnhof",
+    "nivel": "B1",
+    "titulo": "Die Fotoausstellung im alten Bahnhof",
+    "descripcion": "Ein leerstehender Bahnhof wird zu einem beliebten Ort für eine Fotoausstellung über die Stadtgeschichte.",
+    "texto": "Im alten Bahnhof der Stadt wurde kürzlich eine ungewöhnliche Fotoausstellung eröffnet. Nachdem das Gebäude jahrelang leer gestanden hatte, verwandelten lokale Künstler die Hallen in einen lebendigen Ausstellungsraum. Obwohl viele Bewohner skeptisch waren, ob ein alter Bahnhof der richtige Ort für Kunst sein könnte, kamen am Eröffnungsabend über zweihundert Besucher.\n\nDie Fotografien zeigten das Leben in der Stadt aus den letzten fünfzig Jahren. Besonders beeindruckend fanden die Besucher die Schwarz-Weiß-Bilder vom Wiederaufbau nach dem Krieg. Trotzdem gab es auch moderne, farbenfrohe Aufnahmen von aktuellen Stadtfesten und Straßenszenen. Die Künstlerin Mira Lenz erklärte in einem kurzen Vortrag, dass sie mit der Ausstellung die Geschichte und die Zukunft der Stadt verbinden wollte.\n\nNachdem die Ausstellung so erfolgreich gestartet war, beschloss die Stadtverwaltung, sie um drei Monate zu verlängern. Viele Schulen planen inzwischen Besuche mit ihren Klassen. Obwohl der alte Bahnhof früher nur ein vergessener Ort war, ist er jetzt zu einem beliebten Treffpunkt für Kunst und Kultur geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bahnhof stand jahrelang leer, bevor die Ausstellung eröffnet wurde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Eröffnungsabend kamen nur wenige Besucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fotografien zeigen ausschließlich Bilder aus dem letzten Jahr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Stadtverwaltung hat die Ausstellung um drei Monate verlängert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Schulen planen keine Besuche der Ausstellung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vorbereitung-auf-den-stadtmarathon",
+    "nivel": "B1",
+    "titulo": "Die Vorbereitung auf den Stadtmarathon",
+    "descripcion": "Simon trainiert monatelang für den Stadtmarathon, obwohl ihm das Training schwerfällt.",
+    "texto": "Obwohl Simon noch nie zuvor einen Marathon gelaufen war, meldete er sich spontan für den Stadtmarathon an. Nachdem er sich angemeldet hatte, begann er sofort mit einem strengen Trainingsplan. Trotzdem fiel ihm das Training in den ersten Wochen sehr schwer, weil seine Beine nach jedem Lauf schmerzten.\n\nSein Freund Tobias, der schon mehrere Marathons gelaufen war, gab ihm wertvolle Tipps zur Ernährung und zur richtigen Lauftechnik. Nachdem Simon seine Technik verbessert hatte, lief er jede Woche ein paar Kilometer mehr. Obwohl der Winter kalt und regnerisch war, ließ er sich nicht entmutigen und lief dreimal pro Woche durch den Park.\n\nAm Tag des Marathons war Simon trotz der langen Vorbereitung sehr nervös. Nachdem der Startschuss gefallen war, vergaß er seine Nervosität schnell und konzentrierte sich nur auf seinen Rhythmus. Nach vier Stunden und zwanzig Minuten überquerte er die Ziellinie, obwohl er in den letzten Kilometern fast aufgeben wollte. Er war unglaublich stolz auf sich.",
+    "preguntas": [
+      {
+        "enunciado": "Simon war schon mehrmals einen Marathon gelaufen, bevor er sich anmeldete.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Training fiel Simon in den ersten Wochen leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hat Simon Tipps zur Ernährung und Lauftechnik gegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon hat das Training im Winter komplett aufgegeben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon hat den Marathon erfolgreich beendet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-einfluss-von-influencern-auf-jugendliche",
+    "nivel": "B2",
+    "titulo": "Der Einfluss von Influencern auf Jugendliche",
+    "descripcion": "Pädagogen diskutieren, wie Influencer die Meinungsbildung und das Selbstwertgefühl von Jugendlichen prägen.",
+    "texto": "In den letzten Jahren hat sich die Art, wie Jugendliche Informationen konsumieren und sich orientieren, grundlegend verändert. Influencer, die auf Plattformen wie Instagram und TikTok oft Millionen von Followern erreichen, üben einen Einfluss aus, der von vielen Pädagogen und Medienexperten zunehmend kritisch betrachtet wird. Während früher Zeitschriften und Fernsehsendungen die Meinungsbildung prägten, übernehmen heute scheinbar authentische, aber häufig kommerziell motivierte Online-Persönlichkeiten diese Rolle.\n\nBefürworter dieser Entwicklung weisen darauf hin, dass Influencer auch positive Vorbilder sein könnten, etwa wenn sie sich für mentale Gesundheit, Umweltschutz oder soziale Gerechtigkeit einsetzten. Problematisch wird es jedoch, wenn Jugendliche nicht zwischen ehrlicher Empfehlung und bezahlter Werbung unterscheiden können. Würden Werbekennzeichnungen konsequenter durchgesetzt und wäre Medienkompetenz fester Bestandteil des Schulunterrichts, könnten junge Menschen besser einschätzen, welche Inhalte tatsächlich glaubwürdig sind.\n\nKritiker bemängeln außerdem, dass durch den ständigen Vergleich mit scheinbar perfekten, oft stark bearbeiteten Bildern das Selbstwertgefühl vieler Jugendlicher negativ beeinflusst werde. Es sei dringend notwendig, so fordern mehrere Jugendorganisationen, dass sowohl Plattformen als auch Eltern und Schulen gemeinsam Verantwortung übernehmen. Nur durch eine Kombination aus rechtlicher Regulierung, elterlicher Begleitung und schulischer Aufklärung könne der Einfluss von Influencern auf eine gesunde Weise gestaltet werden.",
+    "preguntas": [
+      {
+        "enunciado": "Influencer erreichen auf Plattformen wie Instagram und TikTok oft Millionen von Followern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Früher haben vor allem Zeitschriften und Fernsehsendungen die Meinungsbildung geprägt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Jugendlichen können perfekt zwischen Werbung und ehrlicher Empfehlung unterscheiden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen keine negativen Auswirkungen auf das Selbstwertgefühl von Jugendlichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jugendorganisationen fordern, dass Plattformen, Eltern und Schulen gemeinsam Verantwortung übernehmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitale-selbstkontrolle-in-der-smartphone-gesellschaft",
+    "nivel": "B2",
+    "titulo": "Digitale Selbstkontrolle in der Smartphone-Gesellschaft",
+    "descripcion": "Eine Analyse darüber, ob der Einzelne oder die Technologiebranche für übermäßige Bildschirmzeit verantwortlich ist.",
+    "texto": "Die durchschnittliche Bildschirmzeit vieler Menschen ist in den vergangenen Jahren drastisch gestiegen, und immer häufiger wird gefragt, wer eigentlich die Verantwortung für diesen Zustand trägt. Während manche Experten argumentieren, dass es in erster Linie an der individuellen Disziplin jedes Einzelnen liege, verweisen andere auf die gezielt entwickelten, psychologisch ausgeklügelten Mechanismen, mit denen Apps und soziale Netzwerke konstruiert werden, um möglichst viel Aufmerksamkeit zu binden.\n\nWäre es tatsächlich allein eine Frage der persönlichen Willenskraft, müssten strengere Nutzungsgewohnheiten ausreichen, um das Problem zu lösen. Tatsächlich jedoch zeigen zahlreiche Studien, dass Benachrichtigungen, endlose Scroll-Funktionen und algorithmisch kuratierte Inhalte so gestaltet sind, dass selbst disziplinierte Nutzer regelmäßig länger am Bildschirm verweilen, als sie es ursprünglich beabsichtigt hatten. Diese Mechanismen werden von Kritikern zunehmend mit Methoden aus der Glücksspielbranche verglichen.\n\nSollten Technologieunternehmen tatsächlich stärker in die Pflicht genommen werden, müssten künftig transparentere Standardeinstellungen und verpflichtende Erinnerungsfunktionen eingeführt werden. Gleichzeitig wird von vielen Bildungsexperten gefordert, dass digitale Selbstkontrolle bereits in der Schule vermittelt werden sollte, damit Jugendliche frühzeitig lernen könnten, bewusster mit ihren Geräten umzugehen. Nur durch ein Zusammenspiel von persönlicher Verantwortung und regulatorischen Maßnahmen ließe sich das Problem der digitalen Überforderung nachhaltig angehen.",
+    "preguntas": [
+      {
+        "enunciado": "Die durchschnittliche Bildschirmzeit ist in den letzten Jahren gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass nur die individuelle Disziplin eine Rolle spielt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen, dass App-Mechanismen wie Benachrichtigungen die Nutzungsdauer beeinflussen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker vergleichen manche App-Mechanismen mit Methoden der Glücksspielbranche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bildungsexperten lehnen es ab, digitale Selbstkontrolle in der Schule zu vermitteln.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-ein-verpflichtendes-gesellschaftsjahr",
+    "nivel": "B2",
+    "titulo": "Die Debatte um ein verpflichtendes Gesellschaftsjahr",
+    "descripcion": "Politiker und Bürger streiten darüber, ob junge Menschen zu einem sozialen Pflichtjahr verpflichtet werden sollten.",
+    "texto": "Seit einiger Zeit wird in der deutschen Öffentlichkeit intensiv darüber diskutiert, ob ein verpflichtendes Gesellschaftsjahr für junge Menschen nach dem Schulabschluss eingeführt werden sollte. Befürworter dieses Vorschlags argumentieren, dass ein solches Jahr, das etwa in sozialen Einrichtungen, bei der Feuerwehr oder in Umweltprojekten absolviert werden könnte, den gesellschaftlichen Zusammenhalt stärken und jungen Menschen wichtige Erfahrungen vermitteln würde.\n\nWürde ein solches Pflichtjahr tatsächlich eingeführt, müsste allerdings geklärt werden, wie die zusätzlichen Plätze in den betroffenen Einrichtungen finanziert und organisiert werden könnten. Kritiker weisen darauf hin, dass ein verpflichtender Dienst die individuelle Freiheit junger Menschen einschränke, die ohnehin schon mit dem Übergang von der Schule ins Berufsleben oder ins Studium beschäftigt seien. Zudem bestehe die Gefahr, dass ein unfreiwillig geleisteter Dienst weniger motiviert und damit weniger wirkungsvoll ausfallen könnte, als es Befürworter erwarten.\n\nMehrere Studien, die sich mit vergleichbaren Modellen in anderen europäischen Ländern beschäftigt haben, deuten darauf hin, dass freiwillige Programme mit attraktiven Anreizen oft erfolgreicher seien als verpflichtende Varianten. Dennoch halten viele Politiker an der Idee eines Pflichtjahres fest, da sie glauben, dass nur eine verbindliche Regelung sicherstellen könnte, dass wirklich alle jungen Menschen, unabhängig von ihrer Herkunft und ihren Interessen, einmal Verantwortung für die Gesellschaft übernehmen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Debatte handelt von einem möglichen Pflichtjahr für junge Menschen nach der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter glauben, dass ein solches Jahr den gesellschaftlichen Zusammenhalt stärken könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keine Probleme bei der Einschränkung individueller Freiheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zu anderen Ländern zeigen, dass freiwillige Programme oft erfolgreicher sind als verpflichtende.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Politiker lehnen die Idee eines Pflichtjahres vollständig ab.",
+        "respuesta": false
+      }
+    ]
   }
 ]
