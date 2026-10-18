@@ -58586,5 +58586,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-lieblingstier-im-zoo",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingstier im Zoo",
+    "descripcion": "Paul und Lina besuchen den Zoo und sehen Elefanten und Affen.",
+    "texto": "Paul besucht heute den Zoo mit seiner Schwester Lina. Der Zoo ist groß und hat viele Tiere. Paul mag Elefanten sehr gern. Die Elefanten sind grau und sehr groß. Sie essen Gras und Blätter. Lina mag lieber die Affen. Die Affen klettern schnell auf die Bäume. Sie sind lustig und spielen viel.\n\nPaul und Lina gehen zum Elefantenhaus. Ein kleiner Elefant spielt mit Wasser. Paul lacht und macht ein Foto. Dann gehen sie zum Affenhaus. Ein Affe isst eine Banane. Lina findet das sehr süß. Am Ende kaufen sie ein Eis und sitzen auf einer Bank. Der Tag im Zoo ist sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Paul mag Elefanten gern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lina mag Affen lieber als Elefanten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der kleine Elefant spielt mit Sand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Affe isst einen Apfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und Lina kaufen ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-zum-baecker",
+    "nivel": "A1",
+    "titulo": "Der Ausflug zum Bäcker",
+    "descripcion": "Tom geht jeden Samstag mit seinem Vater zum Bäcker.",
+    "texto": "Jeden Samstag geht Tom mit seinem Vater zum Bäcker. Der Bäcker ist in der Nähe von ihrem Haus. Sie stehen früh auf und gehen zu Fuß. Im Laden riecht es nach frischem Brot. Tom mag Brötchen mit Käse. Sein Vater kauft immer ein Vollkornbrot.\n\nDie Verkäuferin heißt Frau Winter. Sie ist sehr freundlich und kennt Tom gut. „Guten Morgen, Tom! Willst du wieder zwei Brötchen?“, fragt sie. Tom nickt und lacht. Sein Vater bezahlt an der Kasse. Danach gehen sie zusammen nach Hause und essen die Brötchen zum Frühstück. Tom freut sich schon auf den nächsten Samstag.",
+    "preguntas": [
+      {
+        "enunciado": "Tom geht jeden Sonntag zum Bäcker.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bäcker ist nicht weit von ihrem Haus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Toms Vater kauft ein Vollkornbrot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Verkäuferin heißt Frau Sommer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom und sein Vater essen die Brötchen zum Frühstück.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-woche-im-sportverein",
+    "nivel": "A1",
+    "titulo": "Meine Woche im Sportverein",
+    "descripcion": "Mia spielt Fußball im Sportverein und trainiert zweimal pro Woche.",
+    "texto": "Mia ist zehn Jahre alt und spielt Fußball im Sportverein. Am Montag und am Mittwoch hat sie Training. Das Training beginnt um vier Uhr. Mia läuft gern und schießt gern Tore. Ihre Trainerin heißt Frau Berg. Sie ist nett und hilft den Kindern viel.\n\nAm Samstag spielt Mias Mannschaft oft ein Spiel gegen eine andere Schule. Mias Eltern kommen immer und schauen zu. Nach dem Spiel trinkt die Mannschaft zusammen Saft. Mia trägt ein rotes Trikot mit der Nummer sieben. Sie mag ihr Team sehr. Am Ende der Woche ist Mia müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Mia spielt Tennis im Sportverein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Training beginnt um vier Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Trainerin heißt Frau Berg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Mannschaft spielt am Sonntag gegen eine andere Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia trägt ein rotes Trikot.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-bei-der-oma-in-hamburg",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei der Oma in Hamburg",
+    "descripcion": "Julia besucht ihre Oma in Hamburg und verbringt ein schönes Wochenende mit ihr.",
+    "texto": "Letztes Wochenende ist Julia mit dem Zug nach Hamburg gefahren, weil sie ihre Oma besuchen wollte. Die Fahrt hat drei Stunden gedauert. Am Bahnhof hat die Oma schon auf sie gewartet und sich sehr gefreut. Zusammen sind sie nach Hause gegangen, und die Oma hat sofort Kaffee und Kuchen vorbereitet.\n\nAm Samstag sind Julia und ihre Oma an der Elbe spazieren gegangen. Sie haben die großen Schiffe im Hafen gesehen und viele Fotos gemacht. Julia hat erzählt, dass sie bald eine neue Arbeit in Berlin beginnt. Die Oma war stolz und hat ihr Glück gewünscht. Am Abend haben sie zusammen gekocht und über alte Zeiten gesprochen.\n\nAm Sonntag musste Julia leider schon wieder zurückfahren. Wenn sie Zeit hat, möchte sie ihre Oma bald wieder besuchen. Die Oma hat ihr zum Abschied ein Stück Kuchen für die Reise mitgegeben. Julia war traurig, aber auch glücklich über das schöne Wochenende.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit dem Auto nach Hamburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zugfahrt hat drei Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia und ihre Oma sind am Hafen spazieren gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia beginnt bald eine neue Arbeit in München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist am Sonntag noch länger geblieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-an-die-brieffreundin-in-frankreich",
+    "nivel": "A2",
+    "titulo": "Der Brief an die Brieffreundin in Frankreich",
+    "descripcion": "Nina schreibt ihrer Brieffreundin Camille in Lyon über ihre Sommerferien.",
+    "texto": "Nina hat seit einem Jahr eine Brieffreundin in Frankreich. Sie heißt Camille und wohnt in Lyon. Letzte Woche hat Nina einen langen Brief geschrieben, weil sie Camille von ihren Sommerferien erzählen wollte. Sie hat über den Strandurlaub mit ihrer Familie berichtet und ein Foto in den Brief gelegt.\n\nIn dem Brief hat Nina auch gefragt, ob Camille sie im nächsten Sommer besuchen kann. Sie hat geschrieben, dass ihre Eltern damit einverstanden sind. Camille hat schnell geantwortet und sich sehr gefreut. Sie hat erklärt, dass sie noch mit ihren Eltern sprechen muss, bevor sie eine feste Zusage geben kann.\n\nNina wartet jetzt gespannt auf eine neue Nachricht. Wenn Camille wirklich kommt, möchte Nina ihr die ganze Stadt zeigen. Die beiden Freundinnen schreiben sich schon seit der fünften Klasse, und ihre Freundschaft ist trotz der großen Entfernung sehr stark geblieben.",
+    "preguntas": [
+      {
+        "enunciado": "Camille wohnt in Paris.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat Camille von ihren Sommerferien erzählt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat kein Foto in den Brief gelegt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Camille muss noch mit ihren Eltern sprechen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina und Camille schreiben sich erst seit diesem Jahr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-rucksack-im-zug",
+    "nivel": "A2",
+    "titulo": "Der verlorene Rucksack im Zug",
+    "descripcion": "Ben vergisst seinen Rucksack im Zug und muss ihn im Fundbüro suchen.",
+    "texto": "Am Freitag ist Ben mit dem Zug von München nach Augsburg gefahren. Er hatte seinen Rucksack mit allen Schulsachen dabei. Als der Zug in Augsburg angekommen ist, ist Ben schnell ausgestiegen, weil er seinen Bus nicht verpassen wollte. Erst zu Hause hat er bemerkt, dass sein Rucksack fehlt.\n\nBen hat sich große Sorgen gemacht, weil seine Hausaufgaben und sein Laptop im Rucksack waren. Seine Mutter hat sofort bei der Bahn angerufen und die Situation erklärt. Der Mitarbeiter hat gesagt, dass viele vergessene Taschen im Fundbüro landen. Er hat Ben gebeten, am nächsten Tag persönlich vorbeizukommen.\n\nAm Samstagmorgen sind Ben und seine Mutter zum Fundbüro gefahren. Zum Glück war der Rucksack dort, und nichts hat gefehlt. Ben war sehr erleichtert und hat sich fest vorgenommen, in Zukunft besser auf seine Sachen zu achten.",
+    "preguntas": [
+      {
+        "enunciado": "Ben ist von Augsburg nach München gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben hat seinen Rucksack im Zug vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Rucksack waren Bens Laptop und Hausaufgaben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Rucksack war für immer verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben und seine Mutter haben den Rucksack im Fundbüro gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-betriebsausflug-in-die-berge",
+    "nivel": "B1",
+    "titulo": "Der Betriebsausflug in die Berge",
+    "descripcion": "Eine Firma unternimmt einen Betriebsausflug in die bayerischen Alpen.",
+    "texto": "Jedes Jahr organisiert die Firma von Herrn Keller einen Betriebsausflug, und diesmal ging es in die bayerischen Alpen. Obwohl das Wetter am Morgen bewölkt war, entschied sich die Gruppe, trotzdem mit der Wanderung zu beginnen. Herr Keller hatte die Route schon Wochen vorher geplant und alle Kollegen eingeladen, feste Schuhe mitzubringen.\n\nNachdem die Gruppe zwei Stunden gewandert war, erreichten sie eine Hütte mit herrlichem Blick auf das Tal. Dort machten alle eine Pause und genossen eine warme Suppe. Einige Kollegen, die sich sonst kaum unterhalten, kamen plötzlich ins Gespräch und lachten viel. Die Chefin bedankte sich bei allen für ihren Einsatz im vergangenen Jahr und sprach über die Pläne für die Zukunft.\n\nAm Nachmittag klarte der Himmel auf, und die Gruppe konnte die Aussicht noch besser genießen. Trotzdem waren viele am Abend erschöpft, aber alle waren sich einig, dass der Ausflug ein voller Erfolg war. Solche Ausflüge stärken den Zusammenhalt im Team und sorgen dafür, dass sich die Kollegen auch außerhalb des Büros besser kennenlernen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Betriebsausflug fand am Meer statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war am Morgen sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe machte an einer Hütte eine Pause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Chefin sprach über die Pläne für die Zukunft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend war niemand müde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenfest-in-der-nachbarschaft",
+    "nivel": "B1",
+    "titulo": "Das Straßenfest in der Nachbarschaft",
+    "descripcion": "Die Bewohner der Lindenstraße organisieren gemeinsam ein großes Straßenfest.",
+    "texto": "In der Lindenstraße findet jeden Sommer ein großes Straßenfest statt, das von den Anwohnern selbst organisiert wird. Nachdem die Bewohner im letzten Jahr gemeinsam einen Verein gegründet hatten, wurde die Planung des Festes deutlich einfacher. Jede Familie bringt etwas zu essen mit, und es gibt immer Musik und Spiele für die Kinder.\n\nDieses Jahr übernahm Frau Albrecht, die seit zwanzig Jahren in der Straße wohnt, die Organisation. Obwohl sie zu Beginn etwas nervös war, verlief alles reibungslos. Die Nachbarn stellten Tische und Stühle auf die Straße, und ein paar Jugendliche kümmerten sich um die Musikanlage. Herr Novak, der neu in die Straße gezogen war, half spontan beim Grillen und lernte so schnell seine Nachbarn kennen.\n\nAm Abend saßen alle noch lange zusammen und erzählten Geschichten aus vergangenen Jahren. Trotzdem endete das Fest pünktlich um zehn Uhr, weil am nächsten Tag viele Kinder zur Schule mussten. Für die Nachbarschaft ist das Straßenfest inzwischen zu einer festen Tradition geworden, auf die sich alle jedes Jahr freuen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Straßenfest findet jeden Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bewohner haben letztes Jahr einen Verein gegründet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Novak wohnt schon seit zwanzig Jahren in der Straße.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fest endete erst nach Mitternacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Straßenfest ist eine feste Tradition in der Nachbarschaft geworden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-theaterauffuehrung-der-schulklasse",
+    "nivel": "B1",
+    "titulo": "Die Theateraufführung der Schulklasse",
+    "descripcion": "Die Klasse 9b probt monatelang für ihre Theateraufführung am Ende des Schuljahres.",
+    "texto": "Die Klasse 9b der Goetheschule probte monatelang für ihre Theateraufführung, die am Ende des Schuljahres stattfinden sollte. Obwohl viele Schüler zu Beginn Angst hatten, vor so vielen Menschen aufzutreten, wuchs ihr Selbstvertrauen von Probe zu Probe. Die Deutschlehrerin, Frau Richter, hatte das Stück selbst ausgewählt und half den Schülern geduldig beim Lernen ihrer Texte.\n\nNachdem die letzten Proben abgeschlossen waren, war die ganze Klasse aufgeregt. Am Tag der Aufführung kamen Eltern, Geschwister und sogar der Schulleiter in die Aula. Einige Schüler vergaßen kurz ihren Text, trotzdem retteten ihre Mitschüler die Situation mit kleinen Hinweisen. Das Publikum applaudierte am Ende lange und begeistert.\n\nNach der Vorstellung feierte die Klasse mit Kuchen und Getränken im Klassenzimmer. Frau Richter war sehr stolz auf ihre Schüler und sagte, dass sie noch nie eine so engagierte Klasse unterrichtet habe. Für viele Schüler war es eine Erfahrung, die sie nie vergessen werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b probte nur eine Woche für das Stück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Richter unterrichtet Mathematik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schulleiter kam zur Aufführung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kein Schüler vergaß seinen Text.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Vorstellung feierte die Klasse mit Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-das-verbrenner-verbot",
+    "nivel": "B2",
+    "titulo": "Die Debatte um das Verbrenner-Verbot",
+    "descripcion": "Die geplante EU-Regelung zum Verbot von Verbrennungsmotoren sorgt für hitzige Diskussionen.",
+    "texto": "Die von der Europäischen Union geplante Regelung, nach der ab einem bestimmten Jahr keine neuen Autos mit Verbrennungsmotor mehr zugelassen werden sollen, sorgt seit Monaten für hitzige Diskussionen. Befürworter argumentieren, dass ein klares Enddatum notwendig sei, um die Automobilindustrie zu einem schnelleren Umstieg auf Elektromobilität zu zwingen. Ohne eine solche Vorgabe, so ihre Befürchtung, würde der Wandel zu langsam vorangehen, um die Klimaziele noch zu erreichen.\n\nKritiker hingegen bezweifeln, dass die Infrastruktur für Elektrofahrzeuge rechtzeitig ausgebaut werden könnte. Besonders in ländlichen Regionen, in denen Ladestationen bisher selten zu finden sind, befürchten viele Autofahrer, dass sie von der Entwicklung abgehängt würden. Manche Experten schlagen deshalb vor, dass synthetische Kraftstoffe als Alternative zugelassen werden sollten, wodurch bestehende Fahrzeuge weiter genutzt werden könnten, ohne die Klimabilanz wesentlich zu verschlechtern.\n\nWäre eine solche Kompromisslösung tatsächlich umsetzbar, könnten beide Seiten der Debatte zufriedengestellt werden. Allerdings weisen Umweltverbände darauf hin, dass synthetische Kraftstoffe derzeit nur in geringen Mengen und zu hohen Kosten hergestellt werden können. Es bleibt also fraglich, ob diese Technologie in absehbarer Zeit eine echte Alternative darstellen würde.\n\nLetztlich zeigt die Debatte, wie schwierig es ist, ökologische Notwendigkeiten mit wirtschaftlichen und sozialen Interessen in Einklang zu bringen. Eine endgültige Lösung, die von allen Seiten akzeptiert würde, ist derzeit nicht in Sicht, und die Diskussion wird die europäische Politik wohl noch lange begleiten.",
+    "preguntas": [
+      {
+        "enunciado": "Die EU plant ein Verbot neuer Verbrenner-Autos ab einem bestimmten Jahr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker des Verbots lehnen Elektromobilität grundsätzlich ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In ländlichen Regionen gibt es bisher besonders viele Ladestationen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Synthetische Kraftstoffe werden derzeit günstig und in großen Mengen hergestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Debatte zeigt einen Konflikt zwischen ökologischen und wirtschaftlichen Interessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-mindestlohn-und-seine-folgen-fuer-den-arbeitsmarkt",
+    "nivel": "B2",
+    "titulo": "Der Mindestlohn und seine Folgen für den Arbeitsmarkt",
+    "descripcion": "Eine Analyse der Auswirkungen des gesetzlichen Mindestlohns auf Beschäftigung und Unternehmen.",
+    "texto": "Seit der Einführung eines gesetzlichen Mindestlohns wird in vielen Ländern darüber diskutiert, welche Auswirkungen eine solche Regelung tatsächlich auf den Arbeitsmarkt hat. Befürworter betonen, dass Millionen von Beschäftigten, die zuvor von ihrem Einkommen kaum leben konnten, dadurch finanziell entlastet worden seien. Besonders in Branchen mit traditionell niedrigen Löhnen, etwa im Gastgewerbe oder im Einzelhandel, habe sich die Lage vieler Arbeitnehmer spürbar verbessert.\n\nGegner der Regelung warnen hingegen davor, dass ein zu hoch angesetzter Mindestlohn Arbeitsplätze gefährden könnte. Kleinere Unternehmen, die nur über geringe finanzielle Spielräume verfügten, müssten im schlimmsten Fall Stellen abbauen oder Investitionen verschieben, um die höheren Lohnkosten zu stemmen. Wäre der Mindestlohn deutlich niedriger angesetzt worden, so ihr Argument, hätte sich dieses Risiko verringern lassen.\n\nWissenschaftliche Studien zu diesem Thema kommen zu unterschiedlichen Ergebnissen, was die politische Debatte zusätzlich erschwert. Während manche Untersuchungen kaum negative Beschäftigungseffekte feststellen konnten, verweisen andere Studien auf einzelne Branchen, in denen tatsächlich Arbeitsplätze abgebaut wurden. Diese Widersprüche werden von beiden Seiten der politischen Debatte gerne genutzt, um die eigene Position zu untermauern.\n\nAngesichts dieser komplexen Lage erscheint es unwahrscheinlich, dass sich die Diskussion über die richtige Höhe des Mindestlohns in naher Zukunft erschöpfen wird. Vielmehr dürfte das Thema, das eng mit Fragen sozialer Gerechtigkeit und wirtschaftlicher Stabilität verknüpft ist, die politische Debatte weiterhin begleiten.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Studien zum Mindestlohn kommen zum gleichen Ergebnis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen eine Verbesserung der Lage für Beschäftigte in Niedriglohnbranchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner befürchten, dass ein hoher Mindestlohn Arbeitsplätze gefährden könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Thema Mindestlohn ist laut Text politisch bereits vollständig geklärt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kleinere Unternehmen haben laut Text unbegrenzte finanzielle Spielräume.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "gesellschaftlicher-wandel-durch-generative-ki",
+    "nivel": "B2",
+    "titulo": "Gesellschaftlicher Wandel durch generative KI",
+    "descripcion": "Generative künstliche Intelligenz verändert Arbeitswelt, Kreativität und Medienkompetenz.",
+    "texto": "Mit der rasanten Entwicklung generativer künstlicher Intelligenz verändert sich nicht nur die Arbeitswelt, sondern auch das gesellschaftliche Zusammenleben in vielen Bereichen. Texte, Bilder und sogar Videos, die früher ausschließlich von Menschen erstellt wurden, können heute innerhalb von Sekunden von Computerprogrammen generiert werden. Diese Entwicklung wirft grundlegende Fragen auf, etwa danach, wie Kreativität in Zukunft definiert und bewertet werden sollte.\n\nBesorgt äußern sich vor allem Berufsgruppen, deren Tätigkeiten stark auf klassischen Schreib- oder Gestaltungsaufgaben beruhen. Wären ganze Berufsfelder tatsächlich durch Maschinen ersetzbar, müsste die Gesellschaft über neue Formen der Bildung und Umschulung nachdenken. Gleichzeitig weisen Befürworter der Technologie darauf hin, dass durch den Einsatz von KI auch völlig neue Berufsfelder entstehen könnten, die es heute noch gar nicht gibt.\n\nEin weiteres zentrales Problem betrifft die Verbreitung von Falschinformationen. Da täuschend echte Bilder und Texte mittlerweile mit wenigen Klicks erzeugt werden können, wird es für Laien zunehmend schwieriger, zwischen echten und künstlich erzeugten Inhalten zu unterscheiden. Medienkompetenz, die früher vor allem das kritische Lesen von Texten umfasste, müsste daher dringend um neue Fähigkeiten im Umgang mit KI-generierten Inhalten erweitert werden.\n\nOb generative KI letztlich mehr Chancen als Risiken mit sich bringt, lässt sich derzeit kaum abschließend beurteilen. Klar scheint jedoch, dass sich Bildungssysteme, Gesetzgebung und gesellschaftliche Normen in den kommenden Jahren an diese neue Realität anpassen müssen, wenn ein verantwortungsvoller Umgang mit der Technologie gelingen soll.",
+    "preguntas": [
+      {
+        "enunciado": "Generative KI kann heute Texte, Bilder und Videos erzeugen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind sich alle Experten einig, dass KI nur Risiken mit sich bringt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Durch KI könnten laut Text auch neue Berufsfelder entstehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Unterscheidung zwischen echten und künstlich erzeugten Inhalten wird laut Text einfacher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sagt, dass sich Bildungssysteme an die neue Realität anpassen müssen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
