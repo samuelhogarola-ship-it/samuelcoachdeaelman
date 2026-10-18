@@ -59978,5 +59978,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-hamster-kruemel",
+    "nivel": "A1",
+    "titulo": "Mein Hamster Krümel",
+    "descripcion": "Lara stellt ihren Hamster Krümel vor.",
+    "texto": "Ich heiße Lara. Ich habe einen Hamster. Mein Hamster heißt Krümel. Krümel ist klein und braun. Er schläft am Tag und ist nachts wach.\n\nKrümel isst Körner und Karotten. Er trinkt Wasser aus einer kleinen Flasche. Jeden Abend spiele ich mit ihm. Krümel läuft gern in seinem Laufrad. Sein Käfig steht in meinem Zimmer.",
+    "preguntas": [
+      {
+        "enunciado": "Laras Hamster heißt Krümel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Krümel ist weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Krümel ist nachts wach.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Krümel mag kein Laufrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Käfig steht in Laras Zimmer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einkaufen-fuer-die-geburtstagsparty",
+    "nivel": "A1",
+    "titulo": "Einkaufen für die Geburtstagsparty",
+    "descripcion": "Nina kauft mit ihrer Mutter Sachen für ihre Geburtstagsparty.",
+    "texto": "Nina hat bald Geburtstag. Sie geht mit ihrer Mutter einkaufen. Sie kaufen Luftballons und eine Torte. Die Torte ist gelb und hat Erdbeeren.\n\nIm Laden kauft Nina auch Saft und Chips. Ihre Mutter kauft zehn Kerzen für die Torte. Zu Hause packen sie die Geschenke in eine Tasche. Nina freut sich sehr auf die Party.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat bald Geburtstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Torte ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina kauft Saft und Chips.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter kauft zwanzig Kerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina freut sich auf die Party.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "am-montag-spiele-ich-fussball",
+    "nivel": "A1",
+    "titulo": "Am Montag spiele ich Fußball",
+    "descripcion": "Tim beschreibt seine Hobbys an den verschiedenen Wochentagen.",
+    "texto": "Ich heiße Tim. Am Montag spiele ich Fußball mit meinen Freunden. Am Mittwoch lerne ich Gitarre. Am Freitag schwimme ich im Schwimmbad.\n\nAm Samstag male ich gern Bilder. Am Sonntag bleibe ich zu Hause und lese ein Buch. Meine Lieblingssportart ist Fußball. Mein Bruder spielt lieber Tennis.",
+    "preguntas": [
+      {
+        "enunciado": "Tim spielt am Montag Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim lernt am Mittwoch Klavier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim schwimmt am Freitag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim malt am Sonntag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tims Bruder spielt lieber Tennis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-zahnarzt-wegen-eines-weisheitszahns",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Zahnarzt wegen eines Weisheitszahns",
+    "descripcion": "Julia hat Schmerzen wegen eines Weisheitszahns und muss zum Zahnarzt gehen.",
+    "texto": "Letzte Woche hatte Julia starke Schmerzen im Kiefer, weil ein Weisheitszahn durchbrechen wollte. Sie hat sofort einen Termin beim Zahnarzt gemacht. Am nächsten Morgen ist sie mit ihrer Mutter in die Praxis gefahren. Sie hat ein bisschen Angst gehabt, aber der Zahnarzt war sehr freundlich.\n\nDer Zahnarzt hat gesagt, dass der Weisheitszahn bald gezogen werden muss. Er hat Julia ein Schmerzmittel gegeben, und die Schmerzen sind schnell besser geworden. Danach hat die Mutter ihr erklärt, dass die Operation erst in den nächsten Ferien stattfinden soll. Wenn Julia jetzt an ihren Kiefer denkt, hat sie keine Angst mehr.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hatte Schmerzen, weil ein Weisheitszahn durchbrechen wollte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia ist allein zum Zahnarzt gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zahnarzt war unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zahnarzt hat Julia ein Schmerzmittel gegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Operation soll noch am selben Tag stattfinden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-meine-cousine-in-kanada",
+    "nivel": "A2",
+    "titulo": "Ein Brief an meine Cousine in Kanada",
+    "descripcion": "Lena schreibt ihrer Cousine in Kanada einen Brief über die Klassenfahrt nach Hamburg.",
+    "texto": "Liebe Sarah,\n\nich habe dir lange nicht geschrieben, weil die Schule sehr stressig war. Letzten Monat bin ich mit meiner Klasse nach Hamburg gefahren. Wir haben den Hafen besucht und sind mit einem Boot gefahren. Es hat geregnet, aber trotzdem war es sehr schön.\n\nIch hoffe, dass es dir in Kanada gut geht und dass es dort schon kalt ist. Wenn ich im nächsten Jahr Zeit habe, möchte ich dich endlich besuchen. Dann können wir zusammen durch Toronto laufen, so wie wir es immer geplant haben.\n\nViele liebe Grüße,\nLena",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat lange nicht geschrieben, weil sie krank war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse ist nach Hamburg gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat nicht geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah wohnt in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena möchte Sarah irgendwann in Toronto besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wochenende-am-chiemsee",
+    "nivel": "A2",
+    "titulo": "Das Wochenende am Chiemsee",
+    "descripcion": "Ben und seine Freunde verbringen ein Wochenende zelten am Chiemsee.",
+    "texto": "Am Samstag sind Ben und seine Freunde zum Chiemsee gefahren. Das Wetter war warm, deshalb haben sie den ganzen Tag im Wasser verbracht. Sie haben ein Zelt aufgebaut und dort auch übernachtet, weil sie so die Sterne sehen wollten.\n\nAm Abend haben sie ein Lagerfeuer gemacht und Würstchen gegrillt. Ben hat seine Gitarre mitgebracht, und alle haben zusammen gesungen. Einer seiner Freunde hatte Angst vor Spinnen, deshalb haben die anderen im Zelt nachgesehen, ob alles sicher war. Am Sonntagmorgen sind sie müde, aber zufrieden nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Das Wetter war kalt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben und seine Freunde haben im Zelt übernachtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben kein Feuer gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben hat eine Gitarre mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Freund hatte Angst vor Spinnen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-von-koeln-nach-dresden",
+    "nivel": "B1",
+    "titulo": "Der Umzug von Köln nach Dresden",
+    "descripcion": "Sophie muss sich nach dem Umzug von Köln nach Dresden an ein neues Leben gewöhnen.",
+    "texto": "Als Sophies Eltern ihr erzählten, dass die Familie von Köln nach Dresden umziehen würde, war sie zunächst gar nicht begeistert. Obwohl sie wusste, dass ihr Vater dort eine bessere Stelle bekommen hatte, wollte sie ihre Freunde und ihre Schule nicht verlassen. Trotzdem half ihr nichts, denn der Umzug war bereits beschlossen.\n\nIn den ersten Wochen in Dresden fühlte sich Sophie einsam, weil sie noch niemanden kannte. Nachdem sie jedoch an ihrer neuen Schule angefangen hatte, lernte sie schnell ein paar Mitschüler kennen, die sie zu einem Fußballturnier einluden. Dort merkte sie, dass es gar nicht so schwer war, neue Freunde zu finden.\n\nHeute, ein Jahr später, mag Sophie Dresden sehr. Sie vermisst zwar manchmal Köln, doch sie ist froh, dass ihre Eltern sich damals für den Umzug entschieden haben. Obwohl Veränderungen am Anfang schwierig sein können, haben sie ihr am Ende neue Möglichkeiten eröffnet.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie war von Anfang an begeistert von dem Umzug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophies Vater hat in Dresden eine bessere Stelle bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie fühlte sich in den ersten Wochen einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie fand an der neuen Schule keine Freunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Heute mag Sophie Dresden sehr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-internationale-schulfest-an-der-realschule-am-fluss",
+    "nivel": "B1",
+    "titulo": "Das internationale Schulfest an der Realschule am Fluss",
+    "descripcion": "Eine Realschule organisiert ein internationales Schulfest mit kleinen Überraschungen.",
+    "texto": "Jedes Jahr organisiert die Realschule am Fluss ein großes Schulfest, doch dieses Jahr war etwas ganz Besonderes geplant. Nachdem die Schülervertretung monatelang Ideen gesammelt hatte, entschied man sich für ein internationales Fest, bei dem jede Klasse ein anderes Land vorstellen sollte.\n\nObwohl die Vorbereitungen viel Arbeit bedeuteten, waren alle mit großer Begeisterung dabei. Die Klasse von Mert kochte türkisches Essen, während eine andere Klasse italienische Musik spielte. Trotzdem gab es auch kleine Probleme: Kurz vor dem Fest fiel der Strom für zwei Stunden aus, sodass die Schüler improvisieren mussten.\n\nAm Ende war das Fest ein großer Erfolg. Die Eltern waren begeistert, und sogar die Lehrer tanzten mit den Schülern. Nachdem alle Stände abgebaut worden waren, war sich die ganze Schule einig, dass dieses Fest in Erinnerung bleiben würde.",
+    "preguntas": [
+      {
+        "enunciado": "Das Schulfest war dieses Jahr international.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Vorbereitungen waren für alle uninteressant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab einen kurzen Stromausfall.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrer haben nicht mit den Schülern getanzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fest wird allen in Erinnerung bleiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-freundschaft-zwischen-deutschland-und-spanien",
+    "nivel": "B1",
+    "titulo": "Eine Freundschaft zwischen Deutschland und Spanien",
+    "descripcion": "Lukas und Pedro halten ihre Freundschaft trotz der Entfernung zwischen Deutschland und Spanien lebendig.",
+    "texto": "Lukas und Pedro haben sich vor drei Jahren bei einem Austauschprogramm in Spanien kennengelernt und sind seitdem gute Freunde geblieben, obwohl sie in unterschiedlichen Ländern leben. Am Anfang schrieben sie sich fast jeden Tag Nachrichten, doch mit der Zeit wurde der Kontakt etwas seltener, weil beide viel zu tun hatten.\n\nTrotzdem haben sie es geschafft, die Freundschaft lebendig zu halten. Einmal im Jahr besucht Lukas seinen Freund in Madrid, und manchmal fliegt Pedro nach Deutschland. Nachdem sie sich letztes Jahr wiedergesehen hatten, merkten beide, dass sich an ihrer Verbindung nichts geändert hatte.\n\nFür Lukas zeigt diese Freundschaft, dass Entfernung keine wirkliche Barriere sein muss, solange man sich wirklich für den anderen interessiert. Pedro sieht das genauso und plant bereits den nächsten Besuch in Deutschland.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas und Pedro haben sich in Spanien kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden schreiben sich heute noch jeden Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas besucht Pedro einmal im Jahr in Madrid.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Wiedersehen hatte sich ihre Freundschaft verändert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pedro plant einen weiteren Besuch in Deutschland.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice-und-die-zukunft-der-buerokultur",
+    "nivel": "B2",
+    "titulo": "Homeoffice und die Zukunft der Bürokultur",
+    "descripcion": "Der Text beleuchtet Vor- und Nachteile des Homeoffice und plädiert für hybride Arbeitsmodelle.",
+    "texto": "Seit der Pandemie hat sich die Arbeitswelt in vielen Unternehmen grundlegend verändert, und das Homeoffice wird inzwischen von einem großen Teil der Beschäftigten als selbstverständlicher Bestandteil des Arbeitslebens betrachtet. Während manche Arbeitgeber argumentieren, dass die Zusammenarbeit im Büro unersetzlich sei, verweisen Befürworter des Homeoffice auf Studien, die zeigen, dass die Produktivität vieler Mitarbeiter im eigenen Zuhause nicht gesunken, sondern teilweise sogar gestiegen ist.\n\nKritiker geben jedoch zu bedenken, dass informelle Gespräche und spontaner Ideenaustausch, die im Büroalltag entstehen, im Homeoffice kaum ersetzt werden könnten. Würde man ausschließlich auf digitale Kommunikation setzen, ginge möglicherweise ein wichtiger Teil der Unternehmenskultur verloren. Zudem wird befürchtet, dass junge Mitarbeiter, die gerade erst ins Berufsleben eingestiegen sind, von erfahrenen Kollegen weniger lernen könnten, wenn der persönliche Kontakt fehlt.\n\nViele Experten plädieren daher für ein hybrides Modell, bei dem Mitarbeiter sowohl im Büro als auch von zu Hause arbeiten dürfen. Ein solches Modell müsste jedoch klar geregelt werden, damit weder Überlastung noch Isolation entstehen. Letztlich hängt der Erfolg des Homeoffice stark davon ab, wie verantwortungsbewusst Unternehmen und Angestellte mit der neu gewonnenen Flexibilität umgehen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text wird das Homeoffice von vielen Beschäftigten als selbstverständlich angesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Studien zeigen, dass die Produktivität im Homeoffice gesunken ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass informeller Austausch im Homeoffice verloren geht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass junge Mitarbeiter im Homeoffice garantiert mehr lernen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Experten plädieren für ein hybrides Arbeitsmodell.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wohnraummangel-in-deutschen-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Der Wohnraummangel in deutschen Großstädten",
+    "descripcion": "Der Artikel analysiert Ursachen und mögliche politische Maßnahmen gegen den Wohnraummangel.",
+    "texto": "In vielen deutschen Großstädten hat sich der Wohnraummangel in den letzten Jahren erheblich verschärft. Während die Nachfrage nach bezahlbaren Wohnungen stetig steigt, wird in zahlreichen Städten zu wenig gebaut, um diesen Bedarf zu decken. Besonders betroffen sind junge Familien und Studierende, die oft monatelang nach einer geeigneten Wohnung suchen müssen, ohne fündig zu werden.\n\nAls Ursachen werden unter anderem hohe Baukosten, komplizierte Genehmigungsverfahren und ein Mangel an verfügbaren Grundstücken genannt. Es wird zudem kritisiert, dass bestehende Förderprogramme für sozialen Wohnungsbau nicht ausreichend seien, um der Entwicklung entgegenzuwirken. Wären die bürokratischen Hürden geringer, könnten laut Experten deutlich mehr Wohnungen in kürzerer Zeit errichtet werden.\n\nAuf politischer Ebene werden verschiedene Maßnahmen diskutiert, darunter eine Mietpreisbremse, die in manchen Städten bereits eingeführt wurde, sowie staatliche Investitionen in den Bau neuer Sozialwohnungen. Ob diese Maßnahmen ausreichen, um den Wohnraummangel langfristig zu lösen, bleibt jedoch umstritten, da strukturelle Probleme wie die Landknappheit in Ballungsgebieten nicht einfach zu beheben sind.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wohnraummangel hat sich in den letzten Jahren verschärft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In allen Großstädten wird ausreichend gebaut, um die Nachfrage zu decken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hohe Baukosten werden als eine mögliche Ursache genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Mietpreisbremse wurde in manchen Städten bereits eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist der Wohnraummangel bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "chancengleichheit-als-kernfrage-der-bildungsreform",
+    "nivel": "B2",
+    "titulo": "Chancengleichheit als Kernfrage der Bildungsreform",
+    "descripcion": "Der Text diskutiert Lösungsansätze für mehr Chancengleichheit im deutschen Bildungssystem.",
+    "texto": "Die Diskussion um eine umfassende Bildungsreform in Deutschland wird seit Jahren mit wechselnder Intensität geführt. Im Zentrum steht dabei häufig die Frage, wie Chancengleichheit zwischen Kindern aus unterschiedlichen sozialen Schichten besser gewährleistet werden könnte. Studien belegen immer wieder, dass der Bildungserfolg hierzulande stark vom familiären Hintergrund abhängt, was viele Bildungsforscher als problematisch ansehen.\n\nAls mögliche Lösungsansätze werden unter anderem eine stärkere individuelle Förderung, kleinere Klassengrößen sowie eine bessere Ausstattung von Schulen in sozial schwächeren Stadtteilen genannt. Würde mehr in frühkindliche Bildung investiert, so argumentieren Befürworter, könnten Bildungsunterschiede bereits vor der Einschulung deutlich verringert werden. Gegner solcher Reformen weisen hingegen darauf hin, dass zusätzliche finanzielle Mittel allein nicht automatisch zu besseren Ergebnissen führten, sofern nicht auch die Qualität der Lehrerausbildung verbessert werde.\n\nLetztlich zeigt sich, dass eine wirksame Reform nicht isoliert betrachtet werden kann, sondern mit anderen gesellschaftlichen Bereichen wie Familienpolitik und Integration zusammenhängt. Nur durch ein Zusammenspiel verschiedener Maßnahmen könnte es gelingen, die bestehende Ungleichheit nachhaltig zu verringern.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bildungserfolg hängt laut Studien stark vom familiären Hintergrund ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bildungsforscher halten diesen Zusammenhang für unproblematisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kleinere Klassengrößen werden als möglicher Lösungsansatz genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Gegnern führen zusätzliche finanzielle Mittel allein automatisch zu besseren Ergebnissen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erwähnt einen Zusammenhang zwischen Bildungsreform und Familienpolitik.",
+        "respuesta": true
+      }
+    ]
   }
 ]
