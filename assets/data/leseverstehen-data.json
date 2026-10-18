@@ -59282,5 +59282,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "das-fruehstueck-bei-familie-berger",
+    "nivel": "A1",
+    "titulo": "Das Frühstück bei Familie Berger",
+    "descripcion": "Die Familie Berger isst zusammen Frühstück und spricht über den Tag.",
+    "texto": "Es ist Sonntagmorgen. Die Familie Berger sitzt am Tisch. Der Vater trinkt Kaffee. Die Mutter isst ein Brötchen mit Marmelade. Die Kinder trinken Orangensaft.\n\nLisa ist neun Jahre alt. Sie mag Müsli mit Milch. Ihr Bruder Tom isst gern Eier. Die Mutter fragt: „Was macht ihr heute?“ Tom sagt: „Ich spiele Fußball im Park.“\n\nNach dem Frühstück räumt Lisa den Tisch ab. Der Vater liest die Zeitung. Die Mutter geht einkaufen. Die Familie hat einen schönen Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Es ist Sonntagmorgen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater trinkt Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa ist neun Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom isst gern Suppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter geht nach dem Frühstück einkaufen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-zoo-mit-opa",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Zoo mit Opa",
+    "descripcion": "Opa besucht die Kinder und geht mit ihnen in den Zoo.",
+    "texto": "Am Samstag besucht Opa die Kinder. Er sagt: „Wir gehen heute in den Zoo!“ Die Kinder freuen sich sehr. Sie ziehen ihre Jacken an und gehen los.\n\nIm Zoo sehen sie viele Tiere. Die Affen klettern auf Bäume. Der Elefant trinkt Wasser. Die Kinder lachen, weil der Löwe laut brüllt. Opa kauft Eis für alle.\n\nAm Nachmittag sind die Kinder müde. Sie fahren mit dem Bus nach Hause. Opa sagt: „Das war ein toller Tag.“ Die Kinder sagen: „Danke, Opa!“",
+    "preguntas": [
+      {
+        "enunciado": "Opa besucht die Kinder am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder gehen ins Kino.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Löwe brüllt laut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa kauft keine Süßigkeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder fahren mit dem Zug nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "montag-ist-waschtag",
+    "nivel": "A1",
+    "titulo": "Montag ist Waschtag",
+    "descripcion": "Jeden Montag wäscht Frau Klein die Kleidung ihrer Familie.",
+    "texto": "Frau Klein hat jeden Montag viel Arbeit. Sie wäscht die Kleidung der Familie. Zuerst sortiert sie die Wäsche. Weiße Kleidung kommt in eine Box. Bunte Kleidung kommt in eine andere Box.\n\nDie Waschmaschine ist sehr laut. Frau Klein hängt die nasse Kleidung auf die Leine im Garten. Die Sonne scheint, und die Kleidung trocknet schnell. Ihr Sohn Max hilft ihr manchmal.\n\nAm Abend bügelt Frau Klein die Hemden. Dann legt sie alles in den Schrank. Max sagt: „Danke, Mama, meine Hose ist jetzt sauber!“ Frau Klein lächelt und ist froh.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Klein wäscht die Kleidung am Montag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie mischt weiße und bunte Kleidung zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Waschmaschine ist leise.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max hilft seiner Mutter manchmal.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Klein bügelt die Hemden am Abend.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-von-tante-erika",
+    "nivel": "A2",
+    "titulo": "Der Brief von Tante Erika",
+    "descripcion": "Tante Erika schreibt einen Brief und erzählt von ihrer Reise.",
+    "texto": "Letzte Woche hat Anna einen Brief von Tante Erika bekommen. Tante Erika wohnt in Österreich und hat dort einen schönen Urlaub gemacht. Sie hat geschrieben, dass die Berge wunderschön waren.\n\nIn dem Brief hat Tante Erika auch erzählt, dass sie eine Wanderung gemacht hat. Weil das Wetter so gut war, ist sie fast jeden Tag spazieren gegangen. Sie hat sogar ein paar Fotos in den Brief gelegt.\n\nAnna hat sich sehr gefreut und möchte Tante Erika bald besuchen. Sie hat sofort zurückgeschrieben und gefragt, wann sie kommen kann. Tante Erika hat geantwortet, dass Anna im Sommer kommen soll.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Erika wohnt in der Schweiz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Erika hat eine Wanderung gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna hat sich über den Brief gefreut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna soll im Winter kommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-unerwarteter-besuch-beim-arzt",
+    "nivel": "A2",
+    "titulo": "Ein unerwarteter Besuch beim Arzt",
+    "descripcion": "Markus hat plötzlich starke Kopfschmerzen und muss zum Arzt gehen.",
+    "texto": "Am Dienstagmorgen hatte Markus plötzlich starke Kopfschmerzen. Weil es ihm sehr schlecht ging, ist er sofort zum Arzt gefahren. Im Wartezimmer hat er fast eine Stunde gewartet.\n\nDie Ärztin hat Markus gefragt, seit wann er die Schmerzen hat. Markus hat erklärt, dass er in der Nacht schlecht geschlafen hat. Die Ärztin hat gesagt, dass er wahrscheinlich zu wenig Wasser getrunken hat.\n\nMarkus hat Tabletten bekommen und sollte mehr trinken. Am nächsten Tag ist es ihm schon viel besser gegangen. Er hat seiner Mutter erzählt, dass der Arztbesuch zum Glück nicht lange gedauert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte Bauchschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er ist sofort zum Arzt gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat gut geschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin hat gesagt, er soll mehr trinken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am nächsten Tag ging es ihm schlechter.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-nach-freiburg",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour nach Freiburg",
+    "descripcion": "Paul und seine Freunde machen eine Fahrradtour und erleben ein kleines Abenteuer.",
+    "texto": "Am Samstag sind Paul und seine Freunde mit dem Fahrrad nach Freiburg gefahren. Die Tour war ungefähr dreißig Kilometer lang. Weil die Sonne geschienen hat, war die Fahrt sehr angenehm.\n\nNach zwei Stunden hat Pauls Fahrrad einen platten Reifen bekommen. Zum Glück hatte sein Freund Tim ein Reparaturset dabei. Sie haben zusammen den Reifen reparieren und danach weiterfahren können.\n\nIn Freiburg haben sie eine Pause gemacht und Kuchen gegessen. Paul hat gesagt, dass es trotz des kleinen Problems ein toller Tag war. Am Abend sind alle müde, aber zufrieden nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Fahrradtour war ungefähr fünfzig Kilometer lang.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Fahrrad hatte einen platten Reifen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hatte kein Reparaturset dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Freiburg haben sie Kuchen gegessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-erstes-praktikum-in-einer-baeckerei",
+    "nivel": "B1",
+    "titulo": "Mein erstes Praktikum in einer Bäckerei",
+    "descripcion": "Ein Jugendlicher berichtet von seinen Erfahrungen während eines Praktikums in einer Bäckerei.",
+    "texto": "Letzten Monat habe ich ein zweiwöchiges Praktikum in einer kleinen Bäckerei gemacht. Obwohl ich schon früh um fünf Uhr aufstehen musste, hat mir die Arbeit von Anfang an gefallen. Der Bäckermeister hat mir gezeigt, wie man Brötchen formt und Brot backt.\n\nAm dritten Tag durfte ich zum ersten Mal selbst einen Teig vorbereiten. Nachdem ich mehrmals den falschen Mehlanteil verwendet hatte, hat mir der Bäckermeister geduldig erklärt, worauf es wirklich ankommt. Trotzdem war ich stolz, als mein erstes Brot aus dem Ofen kam.\n\nAm Ende des Praktikums habe ich verstanden, wie viel Arbeit hinter einem einfachen Brötchen steckt. Ich habe nicht nur handwerkliche Fähigkeiten gelernt, sondern auch, wie wichtig Geduld und Teamarbeit in diesem Beruf sind. Vielleicht werde ich nach der Schule eine Ausbildung als Bäcker beginnen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Praktikum hat vier Wochen gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Praktikant musste früh aufstehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat am ersten Tag selbst einen Teig vorbereitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bäckermeister war ungeduldig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Praktikant überlegt, eine Ausbildung als Bäcker zu machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest-in-meiner-neuen-heimat",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest in meiner neuen Heimat",
+    "descripcion": "Eine Familie ist in eine neue Stadt gezogen und besucht zum ersten Mal das örtliche Stadtfest.",
+    "texto": "Vor drei Monaten ist meine Familie in eine kleine Stadt in Bayern gezogen. Obwohl ich am Anfang niemanden kannte, habe ich mich schnell an die Umgebung gewöhnt. Letztes Wochenende fand das jährliche Stadtfest statt, und meine Eltern haben beschlossen, hinzugehen.\n\nAuf dem Marktplatz gab es Musik, Essstände und ein kleines Karussell für die jüngeren Kinder. Nachdem wir eine traditionelle Brezel gegessen hatten, haben wir uns die Live-Band angehört. Dort habe ich zufällig einen Jungen aus meiner neuen Klasse getroffen.\n\nWir haben uns den ganzen Abend unterhalten und festgestellt, dass wir dieselben Hobbys haben. Trotzdem war ich überrascht, wie schnell man in einer neuen Stadt Freunde finden kann. Das Stadtfest hat mir geholfen, mich endlich wie zu Hause zu fühlen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist vor drei Monaten umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Stadtfest fand in einer Großstadt in Norddeutschland statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab kein Karussell auf dem Fest.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Erzähler hat einen Jungen aus seiner neuen Klasse getroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Erzähler konnte keine neuen Freunde finden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-austausch-mit-einer-partnerschule",
+    "nivel": "B1",
+    "titulo": "Der Austausch mit einer Partnerschule",
+    "descripcion": "Eine Schülerin nimmt an einem Schüleraustausch mit einer französischen Partnerschule teil.",
+    "texto": "Seit zwei Jahren hat unsere Schule eine Partnerschule in Frankreich. Dieses Jahr durfte ich endlich am Austauschprogramm teilnehmen. Obwohl ich vorher etwas nervös war, habe ich mich gefreut, eine neue Kultur kennenzulernen.\n\nWährend der zwei Wochen habe ich bei einer französischen Familie gewohnt. Nachdem ich mich an die anderen Essenszeiten gewöhnt hatte, habe ich das Zusammenleben sehr genossen. Mit meiner Austauschpartnerin Léa habe ich jeden Tag etwas Neues erlebt, zum Beispiel einen Ausflug nach Paris.\n\nAm Ende des Austauschs fiel mir der Abschied schwer, obwohl ich wusste, dass Léa mich im nächsten Jahr in Deutschland besuchen wird. Diese Erfahrung hat mir gezeigt, wie wertvoll es ist, über den eigenen Horizont hinauszuschauen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Partnerschule liegt in Spanien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schülerin hat bei einer Gastfamilie gewohnt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hat sich von Anfang an an die Essenszeiten gewöhnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Léa und die Schülerin haben einen Ausflug nach Paris gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Léa wird die Schülerin nie besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mieten-in-zeiten-der-wohnungsnot",
+    "nivel": "B2",
+    "titulo": "Mieten in Zeiten der Wohnungsnot",
+    "descripcion": "Ein Kommentar über die wachsende Wohnungsnot in deutschen Großstädten und mögliche Lösungsansätze.",
+    "texto": "In den letzten Jahren sind die Mieten in vielen deutschen Großstädten so stark gestiegen, dass sich immer mehr Menschen eine Wohnung in zentraler Lage kaum noch leisten können. Besonders betroffen sind Berufseinsteiger und Familien mit geringem Einkommen, die oft an den Stadtrand ziehen müssen, obwohl sie eigentlich in der Nähe ihres Arbeitsplatzes wohnen möchten. Würde man die Mietpreisbremse konsequenter durchsetzen, könnte dieser Trend zumindest abgeschwächt werden.\n\nKritiker der aktuellen Wohnungspolitik argumentieren, dass zu wenig neuer Wohnraum geschaffen wird, während die Nachfrage kontinuierlich steigt. Es wird zudem kritisiert, dass viele Investoren Wohnungen vorrangig als Kapitalanlage betrachten, anstatt sie dauerhaft zu vermieten. Dadurch werden zahlreiche Wohnungen leer gehalten, was die Lage auf dem Wohnungsmarkt weiter verschärft.\n\nUm der Wohnungsnot entgegenzuwirken, fordern Experten mehr Investitionen in den sozialen Wohnungsbau sowie strengere Regulierungen für Zweckentfremdung. Sollte sich an der aktuellen Situation nichts ändern, könnte die soziale Spaltung zwischen Stadtzentrum und Peripherie in den kommenden Jahren noch deutlicher werden. Es bleibt daher eine der größten gesellschaftlichen Herausforderungen unserer Zeit, bezahlbaren Wohnraum für alle zu sichern.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Berufseinsteiger und Familien mit geringem Einkommen sind von der Wohnungsnot besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern wird genug neuer Wohnraum geschaffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Investoren betrachten Wohnungen vorrangig als Kapitalanlage.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten fordern weniger Investitionen in den sozialen Wohnungsbau.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-krise-der-lokalen-zeitungen",
+    "nivel": "B2",
+    "titulo": "Die Krise der lokalen Zeitungen",
+    "descripcion": "Ein Essay über den Rückgang der Lokalzeitungen und die Folgen für die demokratische Meinungsbildung.",
+    "texto": "Seit Jahren kämpfen lokale Zeitungen mit sinkenden Abonnentenzahlen und schwindenden Werbeeinnahmen. Viele Leser informieren sich inzwischen über soziale Medien oder kostenlose Nachrichtenportale, wodurch traditionelle Printmedien zunehmend an Bedeutung verlieren. Dies hat zur Folge, dass zahlreiche Lokalredaktionen geschlossen oder stark verkleinert werden mussten.\n\nBesonders problematisch ist, dass dadurch in manchen Regionen kaum noch unabhängige Berichterstattung über kommunalpolitische Themen stattfindet. Wenn niemand mehr über Gemeinderatssitzungen oder lokale Skandale berichtet, wird es für Bürger schwieriger, sich eine fundierte Meinung zu bilden. Experten warnen, dass dadurch demokratische Kontrollmechanismen auf lokaler Ebene geschwächt werden könnten.\n\nEinige Verlage versuchen, dieser Entwicklung mit digitalen Abonnementmodellen entgegenzuwirken, wobei der Erfolg bislang unterschiedlich ausfällt. Andere setzen auf gemeinnützige Finanzierungsmodelle, die durch Spenden oder Stiftungen unterstützt werden. Ob diese Ansätze ausreichen, um den lokalen Journalismus langfristig zu retten, bleibt allerdings ungewiss.",
+    "preguntas": [
+      {
+        "enunciado": "Die Abonnentenzahlen lokaler Zeitungen steigen seit Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Leser informieren sich heute über soziale Medien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In manchen Regionen gibt es kaum noch unabhängige Berichterstattung über Kommunalpolitik.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten sehen keine Gefahr für die demokratische Kontrolle auf lokaler Ebene.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Verlage setzen ausschließlich auf gedruckte Zeitungen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "elterngeld-und-die-debatte-um-gleichberechtigung",
+    "nivel": "B2",
+    "titulo": "Elterngeld und die Debatte um Gleichberechtigung",
+    "descripcion": "Eine Analyse darüber, wie das Elterngeld die Aufteilung von Erziehungsarbeit zwischen Eltern beeinflusst.",
+    "texto": "Das Elterngeld wurde ursprünglich eingeführt, um Eltern finanziell zu unterstützen, die nach der Geburt eines Kindes vorübergehend weniger oder gar nicht arbeiten. Obwohl das Gesetz geschlechtsneutral formuliert ist, nehmen nach wie vor überwiegend Mütter die Elternzeit in Anspruch, während Väter oft nur die beiden sogenannten Partnermonate beziehen. Diese ungleiche Verteilung wirkt sich langfristig auf die Karrierechancen und die Rentenansprüche von Frauen aus.\n\nBefürworter einer Reform argumentieren, dass die bisherigen Regelungen finanzielle Anreize für Väter nicht ausreichend setzen würden, um sich stärker an der Kinderbetreuung zu beteiligen. Es wird daher diskutiert, ob eine verpflichtende, paritätische Aufteilung der Elternzeit, wie sie in einigen skandinavischen Ländern bereits praktiziert wird, auch in Deutschland eingeführt werden sollte. Kritiker hingegen befürchten, dass eine solche Regelung in die individuelle Entscheidungsfreiheit von Familien eingreifen würde.\n\nStudien zeigen, dass Länder mit einer gleichmäßigeren Aufteilung der Elternzeit tendenziell eine höhere Erwerbsquote von Frauen sowie eine stärkere Einbindung der Väter in die Erziehung aufweisen. Wäre die Elternzeit gerechter verteilt, könnte dies langfristig auch zu einem Wandel traditioneller Rollenbilder innerhalb der Gesellschaft beitragen. Die Debatte darüber, wie viel der Staat in private Familienentscheidungen eingreifen sollte, dürfte daher auch in Zukunft kontrovers bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Überwiegend Mütter nehmen die Elternzeit in Anspruch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Elterngeld-Gesetz ist explizit nur für Mütter formuliert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige skandinavische Länder praktizieren bereits eine paritätische Aufteilung der Elternzeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten keine Einschränkung der Entscheidungsfreiheit von Familien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen keinen Zusammenhang zwischen Elternzeitverteilung und Erwerbsquote von Frauen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
