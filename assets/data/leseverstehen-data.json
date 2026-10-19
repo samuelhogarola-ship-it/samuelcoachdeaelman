@@ -60674,5 +60674,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-roter-rucksack",
+    "nivel": "A1",
+    "titulo": "Mein roter Rucksack",
+    "descripcion": "Lena erzählt von ihrem neuen roten Rucksack für die Schule.",
+    "texto": "Lena ist zehn Jahre alt. Sie hat einen neuen Rucksack. Der Rucksack ist rot und sehr groß. Lena mag die Farbe Rot. Im Rucksack sind ihre Bücher, ein Heft und ein Bleistift. Sie hat auch eine kleine Tasche für ihr Pausenbrot.\n\nJeden Morgen packt Lena ihren Rucksack. Sie nimmt eine Flasche Wasser und einen Apfel mit. Ihre Mutter sagt: „Vergiss deine Hausaufgaben nicht!“ Lena lacht und packt ihr Heft ein. Dann geht sie mit dem Rucksack zur Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Rucksack ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Rucksack ist ein Bleistift.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena nimmt keine Flasche Wasser mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena geht mit dem Rucksack zur Schule.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-im-zoo-mit-oma",
+    "nivel": "A1",
+    "titulo": "Ein Besuch im Zoo mit Oma",
+    "descripcion": "Tim besucht mit seiner Oma den Zoo und sieht viele Tiere.",
+    "texto": "Tim besucht heute den Zoo. Er geht mit seiner Oma. Der Zoo ist groß und hat viele Tiere. Tim sieht Elefanten, Affen und Löwen. Die Affen springen von Baum zu Baum. Tim lacht und zeigt mit dem Finger.\n\nOma kauft zwei Eis. Tim isst sein Eis vor dem Affenhaus. „Die Affen sind so lustig!“, sagt Tim. Danach gehen sie zu den Pinguinen. Die Pinguine schwimmen schnell im Wasser. Tim findet die Pinguine auch sehr schön. Am Ende kauft Oma eine Postkarte für Tims Mama.",
+    "preguntas": [
+      {
+        "enunciado": "Tim geht mit seiner Oma in den Zoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Zoo gibt es keine Elefanten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma kauft zwei Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Pinguine schwimmen im Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma kauft ein Buch für Tims Mama.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kaffee-und-kuchen-am-nachmittag",
+    "nivel": "A1",
+    "titulo": "Kaffee und Kuchen am Nachmittag",
+    "descripcion": "Familie Schmidt trifft sich am Sonntag zum Kaffee und Kuchen.",
+    "texto": "Am Sonntag trifft sich die Familie Schmidt. Oma backt einen Apfelkuchen. Opa macht Kaffee. Die Kinder decken den Tisch. Es gibt auch Tee für die Kleinen.\n\nAlle sitzen zusammen im Garten. Der Kuchen schmeckt sehr gut. „Der Kuchen ist super, Oma!“, sagt die kleine Mia. Opa erzählt eine lustige Geschichte. Nach dem Kaffee spielen die Kinder im Garten. Es ist ein schöner Nachmittag.",
+    "preguntas": [
+      {
+        "enunciado": "Oma backt einen Apfelkuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa macht Tee für alle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie sitzt im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia findet den Kuchen nicht gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder spielen nach dem Kaffee im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-neue-fahrrad-von-paul",
+    "nivel": "A2",
+    "titulo": "Das neue Fahrrad von Paul",
+    "descripcion": "Paul hat ein neues Fahrrad bekommen und macht damit einen Ausflug.",
+    "texto": "Paul hat letzte Woche Geburtstag gehabt. Seine Eltern haben ihm ein neues Fahrrad geschenkt, weil sein altes Fahrrad kaputt war. Das neue Fahrrad ist blau und hat viele Gänge. Paul war sehr glücklich und ist sofort damit zur Schule gefahren.\n\nAm Wochenende hat Paul mit seinem Freund Jonas einen Ausflug gemacht. Sie sind zusammen an den Fluss gefahren. Jonas hat gesagt, dass er auch ein neues Fahrrad will. Als sie am Fluss angekommen sind, haben sie eine Pause gemacht und Brote gegessen. Wenn das Wetter am nächsten Wochenende schön ist, wollen sie wieder eine Tour machen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hat ein neues Fahrrad zum Geburtstag bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das neue Fahrrad ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul ist mit Jonas an den Fluss gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas will kein neues Fahrrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde haben am Fluss eine Pause gemacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-beim-zahnarzt",
+    "nivel": "A2",
+    "titulo": "Ein Tag beim Zahnarzt",
+    "descripcion": "Sophie hat Angst vor dem Zahnarzt, aber alles geht gut.",
+    "texto": "Sophie hatte gestern einen Termin beim Zahnarzt. Sie hatte ein bisschen Angst, weil sie schon lange nicht mehr dort war. Ihre Mutter ist mit ihr in die Praxis gegangen. Im Wartezimmer hat Sophie ein Buch gelesen, um sich abzulenken.\n\nDer Zahnarzt war sehr freundlich. Er hat gesagt, dass Sophies Zähne gesund sind. Trotzdem musste sie den Mund lange offen lassen, und das war unangenehm. Nachdem die Untersuchung fertig war, hat Sophie von der Assistentin einen kleinen Stempel bekommen. Sie war erleichtert, dass alles so gut gelaufen ist. Am Abend hat sie ihrem Vater stolz erzählt, dass sie keine Angst mehr hat.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hatte Angst vor dem Zahnarzttermin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie ist allein zur Praxis gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zahnarzt sagt, die Zähne sind gesund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie bekommt einen Stempel von der Assistentin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat nach dem Termin mehr Angst als vorher.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-missverstaendnis-im-bus",
+    "nivel": "A2",
+    "titulo": "Ein Missverständnis im Bus",
+    "descripcion": "David steigt versehentlich in den falschen Bus und erlebt eine lustige Überraschung.",
+    "texto": "David ist am Montagmorgen in den Bus Nummer 12 eingestiegen, weil er dachte, dieser Bus würde zur Schule fahren. Er hat sein Handy benutzt und nicht richtig aufgepasst. Nach zehn Minuten hat er gemerkt, dass der Bus in die falsche Richtung gefahren ist.\n\nDavid ist sehr nervös geworden, weil er Angst hatte, zu spät zur Schule zu kommen. Eine freundliche Frau im Bus hat ihm erklärt, dass er an der nächsten Haltestelle aussteigen und den Bus 7 nehmen muss. David hat sich bedankt und ist schnell umgestiegen. Am Ende ist er nur fünf Minuten zu spät gekommen, und der Lehrer hat nicht einmal etwas gesagt.",
+    "preguntas": [
+      {
+        "enunciado": "David ist in den Bus Nummer 12 eingestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David hat sofort gemerkt, dass er im falschen Bus ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Frau im Bus hat David geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David ist eine Stunde zu spät zur Schule gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David musste in den Bus 7 umsteigen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-pannenhilfe-auf-der-autobahn",
+    "nivel": "B1",
+    "titulo": "Die Pannenhilfe auf der Autobahn",
+    "descripcion": "Familie Weber erlebt eine Autopanne auf dem Weg in den Urlaub.",
+    "texto": "Familie Weber war auf dem Weg in den Urlaub, als plötzlich ein lautes Geräusch aus dem Motor kam. Obwohl Herr Weber versuchte, ruhig zu bleiben, merkte er schnell, dass das Auto eine Panne hatte. Er fuhr auf den Seitenstreifen und schaltete die Warnblinkanlage ein. Die Kinder auf der Rückbank waren zunächst verwirrt, aber sie verstanden bald den Ernst der Lage.\n\nFrau Weber rief sofort den Pannendienst an, nachdem sie das Warndreieck aufgestellt hatte. Es dauerte fast eine Stunde, bis der Abschleppwagen ankam. Trotzdem blieb die Familie gelassen und spielte ein Kartenspiel, um die Zeit zu überbrücken. Der Mechaniker fand schnell das Problem: Ein Kühlerschlauch war gerissen. Er konnte das Auto notdürftig reparieren, sodass die Familie langsam weiterfahren konnte.\n\nAm Ende kamen die Webers mit drei Stunden Verspätung im Ferienhaus an. Obwohl der Start in den Urlaub nicht wie geplant verlaufen war, erzählten sie später oft und lachend von diesem Abenteuer auf der Autobahn.",
+    "preguntas": [
+      {
+        "enunciado": "Das Auto der Familie Weber hatte eine Panne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber ignorierte das Geräusch aus dem Motor.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber stellte ein Warndreieck auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Pannendienst kam nach wenigen Minuten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie kam mit Verspätung im Ferienhaus an.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "freiwilligenarbeit-beim-roten-kreuz",
+    "nivel": "B1",
+    "titulo": "Freiwilligenarbeit beim Roten Kreuz",
+    "descripcion": "Markus berichtet über seine Erfahrungen als freiwilliger Helfer beim Roten Kreuz.",
+    "texto": "Markus engagiert sich seit einem Jahr freiwillig beim Roten Kreuz. Obwohl er zunächst unsicher war, ob er genug Zeit dafür hätte, entschied er sich, es einfach zu versuchen. Seitdem hilft er einmal pro Woche bei der Essensausgabe für bedürftige Menschen in seiner Stadt.\n\nNachdem Markus die ersten Schulungen abgeschlossen hatte, durfte er auch bei größeren Einsätzen mitarbeiten, zum Beispiel bei Blutspendeaktionen. Die Arbeit ist manchmal anstrengend, trotzdem fühlt sich Markus danach immer zufrieden. Er hat gelernt, wie wichtig Teamarbeit und Geduld in solchen Situationen sind.\n\nMittlerweile überlegt Markus, ob er nach dem Abitur eine Ausbildung im sozialen Bereich machen möchte. Die Erfahrungen beim Roten Kreuz haben seine Berufswahl stark beeinflusst, obwohl er früher eher an eine technische Ausbildung gedacht hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Markus engagiert sich seit einem Jahr beim Roten Kreuz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hilft nie bei der Essensausgabe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat auch bei Blutspendeaktionen mitgeholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Arbeit hat Markus' Berufswahl nicht beeinflusst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus überlegt, eine Ausbildung im sozialen Bereich zu machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-abschlussfeier-der-zehnten-klasse",
+    "nivel": "B1",
+    "titulo": "Die Abschlussfeier der zehnten Klasse",
+    "descripcion": "Die Schüler der zehnten Klasse feiern gemeinsam ihren Schulabschluss.",
+    "texto": "Nachdem die letzten Prüfungen endlich vorbei waren, organisierten die Schüler der zehnten Klasse eine große Abschlussfeier. Obwohl die Vorbereitungen viel Zeit kosteten, halfen fast alle Mitschüler mit Begeisterung mit. Sie dekorierten die Aula mit Luftballons und bunten Lichtern.\n\nAm Abend der Feier hielten mehrere Schüler Reden über die vergangenen Jahre. Manche erzählten lustige Geschichten aus dem Schulalltag, andere bedankten sich bei den Lehrern. Trotzdem wurde es an einigen Stellen auch emotional, weil viele Freunde sich bald trennen würden, um unterschiedliche Wege zu gehen.\n\nNach den Reden gab es Musik und Tanz bis spät in die Nacht. Viele Schüler tauschten Kontaktdaten aus, nachdem sie versprochen hatten, in Verbindung zu bleiben. Für die meisten war es ein unvergesslicher Abend, der das Ende einer wichtigen Lebensphase markierte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Abschlussfeier fand vor den Prüfungen statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler dekorierten die Aula mit Luftballons.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bei der Feier wurden keine Reden gehalten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Schüler wurden während der Feier emotional.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach den Reden gab es Musik und Tanz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "gentrifizierung-in-berlin-kreuzberg",
+    "nivel": "B2",
+    "titulo": "Gentrifizierung in Berlin-Kreuzberg",
+    "descripcion": "Ein Blick auf die Veränderungen und sozialen Spannungen im Berliner Stadtteil Kreuzberg.",
+    "texto": "In den letzten zwei Jahrzehnten hat sich der Berliner Stadtteil Kreuzberg stark verändert. Während das Viertel früher vor allem von Arbeitermilieus und Migrantenfamilien geprägt war, ziehen heute zunehmend wohlhabendere Bewohner und internationale Start-ups in die Gegend. Diese Entwicklung, die gemeinhin als Gentrifizierung bezeichnet wird, hat sowohl Befürworter als auch scharfe Kritiker.\n\nBefürworter argumentieren, dass durch die Aufwertung des Viertels neue Arbeitsplätze geschaffen würden und die Infrastruktur verbessert werde. Kritiker hingegen weisen darauf hin, dass langjährige Bewohner, die sich die steigenden Mieten nicht mehr leisten können, aus ihren angestammten Wohnungen verdrängt werden. Besonders betroffen seien ältere Menschen und Familien mit geringem Einkommen, deren soziale Netzwerke im Viertel über Jahre gewachsen seien.\n\nWenn die Mietpreise weiterhin so stark steigen würden, befürchten Stadtforscher, dass die soziale Mischung, die Kreuzberg einst auszeichnete, vollständig verschwinden könnte. Mehrere Initiativen fordern deshalb strengere Mietpreisbindungen und den Erhalt von Sozialwohnungen. Ob solche Maßnahmen tatsächlich umgesetzt werden, bleibt jedoch politisch umstritten.\n\nLetztlich zeigt das Beispiel Kreuzberg exemplarisch, wie schwierig es ist, wirtschaftliche Entwicklung und soziale Gerechtigkeit in einer wachsenden Stadt miteinander zu vereinbaren. Es wäre wünschenswert, dass zukünftige Stadtplanung beide Interessen stärker berücksichtigt.",
+    "preguntas": [
+      {
+        "enunciado": "Kreuzberg war früher vor allem von wohlhabenden Bewohnern geprägt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gentrifizierung wird von allen Bewohnern gleich bewertet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten die Verdrängung einkommensschwacher Bewohner.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mehrere Initiativen fordern strengere Mietpreisbindungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem sei bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-der-muttersprache",
+    "nivel": "B2",
+    "titulo": "Der Wert der Muttersprache in der Migrationsgesellschaft",
+    "descripcion": "Eine Betrachtung darüber, welche Rolle die Muttersprache für Menschen mit Migrationshintergrund spielt.",
+    "texto": "In einer zunehmend globalisierten Gesellschaft stellt sich immer wieder die Frage, welchen Stellenwert die Muttersprache für Menschen mit Migrationshintergrund haben sollte. Während die Landessprache zweifellos für die berufliche und gesellschaftliche Integration von zentraler Bedeutung ist, wird der Erhalt der Herkunftssprache häufig unterschätzt.\n\nSprachwissenschaftler weisen darauf hin, dass Kinder, die ihre Muttersprache gut beherrschen, in der Regel auch schneller eine zweite Sprache erlernen würden. Dies widerspricht der verbreiteten Annahme, dass die Muttersprache den Erwerb der Landessprache behindere. Vielmehr dient eine solide sprachliche Grundlage als Fundament, auf dem weitere Sprachen leichter aufgebaut werden können.\n\nDennoch wird in vielen Schulen nach wie vor wenig Wert auf die Mehrsprachigkeit der Schüler gelegt. Wäre es möglich, die Herkunftssprachen stärker in den Unterricht einzubeziehen, könnten Kinder nicht nur sprachlich, sondern auch kulturell davon profitieren. Einige Bundesländer haben bereits begonnen, bilinguale Unterrichtsmodelle einzuführen, wobei die Ergebnisse bisher vielversprechend sind.\n\nLetztendlich geht es nicht darum, die Landessprache zu vernachlässigen, sondern beide Sprachen als gleichwertige Ressourcen zu betrachten. Nur so könne, wie Experten betonen, eine wirklich inklusive Bildungspolitik gestaltet werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Landessprache ist für die Integration ohne Bedeutung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine gute Muttersprache kann den Erwerb einer Zweitsprache erleichtern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schulen legen bereits großen Wert auf Mehrsprachigkeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Bundesländer haben bilinguale Unterrichtsmodelle eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert, die Landessprache zu vernachlässigen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "buergergeld-und-arbeitsmarkt",
+    "nivel": "B2",
+    "titulo": "Bürgergeld und Arbeitsmarkt",
+    "descripcion": "Eine Analyse der Debatte um das deutsche Bürgergeld und seine Auswirkungen auf den Arbeitsmarkt.",
+    "texto": "Seit der Einführung des Bürgergeldes als Nachfolger von Hartz IV wird in Deutschland intensiv diskutiert, welche Auswirkungen diese Reform auf den Arbeitsmarkt hat. Befürworter betonen, dass das neue System mehr Wertschätzung für Arbeitsuchende zeige und ihnen mehr Zeit gebe, sich beruflich neu zu orientieren, anstatt sie zu schnellen, schlecht bezahlten Jobs zu zwingen.\n\nKritiker hingegen argumentieren, dass die höheren Regelsätze den Anreiz verringern könnten, überhaupt eine Arbeitsstelle anzunehmen. Sie fordern strengere Sanktionen für Personen, die zumutbare Jobangebote ablehnen. Studien zu diesem Thema kommen bislang zu unterschiedlichen Ergebnissen, sodass eine endgültige Bewertung schwierig bleibt.\n\nBesonders kontrovers wird diskutiert, inwieweit das Bürgergeld tatsächlich zur Vermittlung in den Arbeitsmarkt beitragen kann. Wenn Arbeitsuchende mehr individuelle Betreuung und Weiterbildungsangebote erhielten, so argumentieren manche Experten, würde die langfristige Integration in den Arbeitsmarkt erfolgreicher verlaufen als durch bloßen finanziellen Druck.\n\nDie politische Debatte wird vermutlich noch lange andauern, da sich wirtschaftliche Interessen, soziale Gerechtigkeit und arbeitsmarktpolitische Ziele nur schwer miteinander in Einklang bringen lassen. Eine Reform, die alle Seiten zufriedenstellt, erscheint derzeit kaum realistisch.",
+    "preguntas": [
+      {
+        "enunciado": "Das Bürgergeld ist der Nachfolger von Hartz IV.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass das Bürgergeld nur Vorteile hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker fordern strengere Sanktionen bei abgelehnten Jobangeboten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zum Thema kommen zu einheitlichen Ergebnissen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten sehen individuelle Betreuung als wichtigen Faktor an.",
+        "respuesta": true
+      }
+    ]
   }
 ]
