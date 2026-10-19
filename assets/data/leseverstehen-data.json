@@ -61022,5 +61022,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-katze-minka",
+    "nivel": "A1",
+    "titulo": "Meine Katze Minka",
+    "descripcion": "Lisa erzählt von ihrer Katze Minka.",
+    "texto": "Ich heiße Lisa. Ich habe eine Katze. Sie heißt Minka und ist grau. Minka schläft viel und mag Milch.\n\nAm Morgen gebe ich Minka Futter. Sie isst Fisch und trinkt Wasser. Dann spielt Minka mit einem Ball. Der Ball ist rot.\n\nAm Abend sitzt Minka auf meinem Bett. Sie ist ruhig und schnurrt. Ich liebe meine Katze sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Lisas Katze heißt Minka.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka ist schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka isst am Morgen Fisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Ball von Minka ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka sitzt am Abend auf dem Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kerzen-und-kuchen-fuer-den-geburtstag",
+    "nivel": "A1",
+    "titulo": "Kerzen und Kuchen für den Geburtstag",
+    "descripcion": "Tim kauft Dinge für die Geburtstagsfeier seiner Schwester.",
+    "texto": "Tim hat morgen Geburtstag. Seine Schwester Emma plant eine Feier. Sie geht in den Laden und kauft Kerzen und bunte Luftballons.\n\nDann kauft Emma einen Kuchen. Der Kuchen ist braun und hat Schokolade. Er kostet acht Euro. Emma kauft auch Saft für die Gäste.\n\nAm Abend kommen Tims Freunde. Alle singen und essen Kuchen. Tim ist sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hat morgen Geburtstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma kauft grüne Luftballons.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kuchen hat Schokolade.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen kostet zwanzig Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tims Freunde kommen am Abend.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-in-den-zoo",
+    "nivel": "A1",
+    "titulo": "Ein Ausflug in den Zoo",
+    "descripcion": "Die Familie Hofmann besucht den Zoo.",
+    "texto": "Am Sonntag fährt Familie Hofmann in den Zoo. Die Kinder sind sehr aufgeregt. Zuerst sehen sie die Affen. Die Affen klettern schnell auf die Bäume.\n\nDanach gehen sie zu den Elefanten. Die Elefanten sind sehr groß und grau. Ein Elefant trinkt Wasser mit seinem Rüssel. Die Kinder lachen viel.\n\nZum Mittag essen sie Pommes im Zoo-Restaurant. Am Nachmittag sehen sie noch Löwen und Vögel. Alle sind müde, aber der Tag war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Hofmann fährt am Samstag in den Zoo.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Affen klettern auf die Bäume.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Elefanten sind klein und rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst Pommes im Zoo-Restaurant.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag sehen sie Löwen und Vögel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-untersuchung-beim-hausarzt",
+    "nivel": "A2",
+    "titulo": "Die Untersuchung beim Hausarzt",
+    "descripcion": "Frau Keller geht wegen Kopfschmerzen zum Hausarzt.",
+    "texto": "Frau Keller hatte seit mehreren Tagen starke Kopfschmerzen. Weil die Schmerzen nicht besser wurden, hat sie einen Termin bei ihrem Hausarzt gemacht. Im Wartezimmer saßen schon einige andere Patienten.\n\nAls die Ärztin sie endlich untersucht hat, hat sie den Blutdruck gemessen und viele Fragen gestellt. Frau Keller hat erklärt, dass sie in letzter Zeit sehr viel Stress auf der Arbeit hatte. Die Ärztin hat gesagt, dass der Stress wahrscheinlich die Ursache für die Kopfschmerzen ist.\n\nDeshalb hat die Ärztin ihr geraten, mehr zu schlafen und regelmäßig Pausen zu machen. Frau Keller hat auch eine Tablette gegen die Schmerzen bekommen. Nach einer Woche ging es ihr schon viel besser.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller hatte seit Tagen Kopfschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Wartezimmer war niemand außer Frau Keller.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin vermutet, dass Stress die Ursache ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Ärztin rät Frau Keller, weniger zu schlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einer Woche ging es Frau Keller besser.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-von-meinem-brieffreund",
+    "nivel": "A2",
+    "titulo": "Ein Brief von meinem Brieffreund",
+    "descripcion": "Felix bekommt einen Brief von seinem Brieffreund aus Kanada.",
+    "texto": "Felix hat heute einen Brief von seinem Brieffreund Noah aus Kanada bekommen. Er hat sich sehr gefreut, weil er lange auf eine Antwort gewartet hat. Noah hat erzählt, dass es bei ihm schon sehr kalt ist, obwohl erst November ist.\n\nIn seinem Brief hat Noah auch geschrieben, dass er letzten Monat mit seiner Familie einen Ausflug in die Berge gemacht hat. Dort haben sie gezeltet und ein Lagerfeuer gemacht. Felix fand diese Geschichte sehr spannend, weil er selbst noch nie gezeltet hat.\n\nAm Ende des Briefes hat Noah gefragt, ob Felix ihn nächstes Jahr in Kanada besuchen möchte. Felix hat sofort angefangen, einen Antwortbrief zu schreiben, weil er diese Idee wirklich toll fand.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat einen Brief von seinem Brieffreund Noah bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Noah wohnt in Australien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Noah hat mit seiner Familie gezeltet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat schon oft gezeltet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Noah hat Felix eingeladen, ihn in Kanada zu besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-nachbarin-aus-polen",
+    "nivel": "A2",
+    "titulo": "Die neue Nachbarin aus Polen",
+    "descripcion": "Herr Schulz lernt seine neue Nachbarin kennen.",
+    "texto": "Herr Schulz wohnt seit vielen Jahren in demselben Haus. Letzte Woche ist eine neue Nachbarin namens Ola aus Polen in die Wohnung neben ihm eingezogen. Weil sie noch niemanden in der Stadt kannte, hat Herr Schulz sie zu einem Kaffee eingeladen.\n\nOla hat erzählt, dass sie wegen eines neuen Jobs in die Stadt gekommen ist. Sie hat auch gesagt, dass sie die deutsche Sprache noch lernt und manchmal Probleme hat, alles zu verstehen. Herr Schulz hat angeboten, ihr beim Deutschlernen zu helfen.\n\nSeitdem treffen sich die beiden einmal pro Woche, um gemeinsam Deutsch zu üben. Ola ist sehr dankbar, dass sie einen so netten Nachbarn hat. Herr Schulz freut sich auch, weil er durch Ola viel über Polen gelernt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Ola kommt aus Polen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ola ist schon seit vielen Jahren in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Schulz lädt Ola zu einem Kaffee ein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ola spricht schon perfekt Deutsch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Schulz und Ola treffen sich regelmäßig.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-abschlussfahrt-der-klasse-10b",
+    "nivel": "B1",
+    "titulo": "Die Abschlussfahrt der Klasse 10b",
+    "descripcion": "Die Klasse 10b erlebt ihre letzte gemeinsame Klassenfahrt.",
+    "texto": "Nachdem die Klasse 10b monatelang für ihre Abschlussfahrt gespart hatte, ging es endlich nach Prag. Obwohl einige Schüler zuerst skeptisch waren, weil die Fahrt mit dem Bus fast sieben Stunden dauerte, waren am Ende alle begeistert von der Stadt. Die Lehrerin hatte ein abwechslungsreiches Programm organisiert, das sowohl kulturelle Ausflüge als auch Freizeit beinhaltete.\n\nAm zweiten Tag besichtigten sie die Prager Burg und erfuhren viel über die Geschichte der Stadt. Trotzdem fanden die meisten Schüler den Abend am Fluss, an dem sie gemeinsam gegrillt haben, noch schöner als die Besichtigungen. Nachdem die Sonne untergegangen war, haben sie zusammen Gitarre gespielt und über die vergangenen Schuljahre gesprochen.\n\nAm letzten Abend wurde allen klar, dass dies wahrscheinlich die letzte gemeinsame Reise der Klasse sein würde, da sich die Wege nach dem Abschluss trennen würden. Deshalb versprachen sich alle, in Kontakt zu bleiben, obwohl sie wussten, dass das nicht immer einfach ist.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 10b ist nach Prag gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Busfahrt hat nur eine Stunde gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat die Prager Burg besichtigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Fluss haben die Schüler nicht gegrillt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler wollen nach dem Abschluss in Kontakt bleiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-im-krankenhaus",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag im Krankenhaus",
+    "descripcion": "Simon beginnt seine Ausbildung als Krankenpfleger.",
+    "texto": "Simon hat sich lange auf seinen ersten Arbeitstag als angehender Krankenpfleger vorbereitet, trotzdem war er am Morgen sehr nervös. Nachdem er sich bei der Stationsleitung vorgestellt hatte, bekam er sofort seinen ersten Patienten zugeteilt. Obwohl ihm die theoretische Ausbildung viel Wissen vermittelt hatte, merkte Simon schnell, dass die Praxis ganz anders war.\n\nBesonders beeindruckt war er von der Geduld seiner Kollegin Petra, die ihm half, mit schwierigen Situationen umzugehen. Nachdem ein Patient ihn mit Fragen zu seiner Behandlung überrascht hatte, zeigte Petra ihm, wie man ruhig und professionell reagiert. Durch diese Erfahrung lernte Simon, dass Empathie im Krankenhausalltag genauso wichtig ist wie fachliches Wissen.\n\nAm Ende des Tages war Simon erschöpft, aber zufrieden. Obwohl der erste Tag anstrengend gewesen war, wusste er, dass er die richtige Berufswahl getroffen hatte. Er freute sich schon auf den nächsten Tag auf der Station.",
+    "preguntas": [
+      {
+        "enunciado": "Simon war am Morgen sehr nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon bekam erst nach einer Woche einen Patienten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Petra hat Simon geholfen, mit schwierigen Situationen umzugehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon findet, dass Empathie im Krankenhaus nicht wichtig ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon ist zufrieden mit seiner Berufswahl.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-sommerfest-im-stadtpark",
+    "nivel": "B1",
+    "titulo": "Das Sommerfest im Stadtpark",
+    "descripcion": "Die Nachbarschaft organisiert gemeinsam ein Sommerfest.",
+    "texto": "Nachdem die Nachbarschaft monatelang geplant hatte, fand endlich das große Sommerfest im Stadtpark statt. Obwohl es am Morgen noch bewölkt war, schien am Nachmittag die Sonne, und viele Familien kamen mit Decken und Essen in den Park. Die Organisatoren hatten mehrere Stände aufgebaut, an denen man selbstgemachten Kuchen und kalte Getränke kaufen konnte.\n\nBesonders beliebt war die kleine Bühne, auf der lokale Musikgruppen auftraten. Kinder konnten sich schminken lassen und an verschiedenen Spielen teilnehmen, während die Erwachsenen sich unterhielten und neue Nachbarn kennenlernten. Trotz der großen Menschenmenge verlief alles sehr entspannt und friedlich.\n\nAm Abend, nachdem die Musik verklungen war, halfen viele Freiwillige beim Aufräumen des Parks. Alle waren sich einig, dass das Fest ein voller Erfolg gewesen war und dass man es im nächsten Jahr unbedingt wiederholen sollte.",
+    "preguntas": [
+      {
+        "enunciado": "Am Morgen war das Wetter sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Man konnte selbstgemachten Kuchen kaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf der Bühne traten lokale Musikgruppen auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder konnten nicht an Spielen teilnehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle fanden das Fest ein voller Erfolg.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice-und-die-neue-arbeitswelt",
+    "nivel": "B2",
+    "titulo": "Homeoffice und die neue Arbeitswelt",
+    "descripcion": "Eine Betrachtung der Vor- und Nachteile von Homeoffice.",
+    "texto": "Seit einigen Jahren hat sich das Homeoffice in vielen deutschen Unternehmen als feste Arbeitsform etabliert, nachdem es zuvor oft nur als Ausnahme betrachtet wurde. Befürworter heben hervor, dass flexible Arbeitszeiten und der Wegfall des Arbeitswegs die Lebensqualität der Angestellten erheblich verbessern könnten. Zudem wird argumentiert, dass Beschäftigte zu Hause oft konzentrierter arbeiten würden, da Ablenkungen durch Großraumbüros wegfallen.\n\nGleichzeitig weisen Kritiker darauf hin, dass die soziale Isolation, die mit dauerhaftem Homeoffice einhergehen kann, langfristig negative Folgen für das Betriebsklima haben könnte. Wenn Mitarbeiter kaum noch persönlichen Kontakt zu ihren Kollegen hätten, würde dies den informellen Austausch und die Entstehung neuer Ideen erschweren. Außerdem berichten manche Führungskräfte, dass es schwieriger sei, Teams zu motivieren, deren Mitglieder sich nur noch virtuell begegneten.\n\nUm beiden Seiten gerecht zu werden, setzen viele Unternehmen inzwischen auf hybride Modelle, bei denen Mitarbeiter sowohl von zu Hause als auch im Büro arbeiten könnten. Sollte sich dieses Modell langfristig durchsetzen, müssten Führungskräfte lernen, Teams zu leiten, die nicht mehr ständig am selben Ort versammelt sind. Die Debatte zeigt, dass sich das Verständnis von Arbeit und Zusammenarbeit grundlegend wandelt.",
+    "preguntas": [
+      {
+        "enunciado": "Homeoffice wurde früher meist als Ausnahme betrachtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter sagen, dass der Arbeitsweg im Homeoffice länger wird.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten soziale Isolation durch dauerhaftes Homeoffice.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text setzen keine Unternehmen auf hybride Modelle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Debatte zeigt einen Wandel im Verständnis von Arbeit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sozialer-wohnungsbau-als-loesung-der-wohnungskrise",
+    "nivel": "B2",
+    "titulo": "Sozialer Wohnungsbau als Lösung der Wohnungskrise",
+    "descripcion": "Diskussion über soziale Wohnungsbauprojekte als Antwort auf knappen Wohnraum.",
+    "texto": "Angesichts der anhaltenden Wohnungskrise in deutschen Großstädten wird der soziale Wohnungsbau zunehmend als mögliche Lösung diskutiert. Befürworter argumentieren, dass staatlich geförderte Wohnprojekte einkommensschwächeren Haushalten ermöglichen würden, auch in zentralen Lagen bezahlbaren Wohnraum zu finden. Ohne eine deutliche Erhöhung der Bauförderung, so die Kritik, werde sich die Zahl der Sozialwohnungen in den kommenden Jahren weiter verringern, da viele Bindungen auslaufen.\n\nSkeptiker wenden jedoch ein, dass der soziale Wohnungsbau allein das strukturelle Problem der Wohnungsknappheit nicht lösen könne, solange gleichzeitig zu wenig Bauland ausgewiesen werde. Zudem wird bemängelt, dass bürokratische Genehmigungsverfahren den Bau neuer Wohnungen erheblich verzögern würden. Wenn diese Verfahren vereinfacht würden, könnten laut Experten deutlich mehr Wohnungen in kürzerer Zeit entstehen.\n\nViele Stadtplaner fordern daher ein Zusammenspiel verschiedener Maßnahmen, das sowohl den sozialen Wohnungsbau stärkt als auch private Investitionen erleichtert. Nur durch eine Kombination dieser Ansätze, so die vorherrschende Meinung, könnte die Wohnungskrise mittelfristig entschärft werden, ohne dass einzelne Bevölkerungsgruppen benachteiligt würden.",
+    "preguntas": [
+      {
+        "enunciado": "Sozialer Wohnungsbau wird als mögliche Lösung der Wohnungskrise diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahl der Sozialwohnungen wird laut Text in Zukunft automatisch steigen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Skeptiker meinen, dass auch zu wenig Bauland ein Problem ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bürokratische Verfahren beschleunigen laut Text den Wohnungsbau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Stadtplaner fordern ein Zusammenspiel verschiedener Maßnahmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fake-news-und-die-rolle-der-medienkompetenz",
+    "nivel": "B2",
+    "titulo": "Fake News und die Rolle der Medienkompetenz",
+    "descripcion": "Wie Desinformation die Gesellschaft herausfordert und welche Rolle Medienkompetenz spielt.",
+    "texto": "Mit der zunehmenden Verbreitung sozialer Medien hat sich auch die Verbreitung von Falschinformationen, sogenannten Fake News, erheblich beschleunigt. Kritiker warnen davor, dass irreführende Inhalte, die sich schneller verbreiten als korrekte Richtigstellungen, das Vertrauen der Bevölkerung in etablierte Medien untergraben könnten. Besonders in politisch angespannten Zeiten würden solche Falschmeldungen gezielt eingesetzt, um Meinungen zu manipulieren und gesellschaftliche Spannungen zu verstärken.\n\nUm dieser Entwicklung entgegenzuwirken, fordern viele Experten eine stärkere Förderung der Medienkompetenz bereits in der Schule. Wenn Schüler frühzeitig lernten, Quellen kritisch zu prüfen und Informationen zu hinterfragen, wären sie später besser in der Lage, seriöse von unseriösen Inhalten zu unterscheiden. Zudem wird diskutiert, inwiefern soziale Netzwerke selbst stärker in die Verantwortung genommen werden sollten, um die Verbreitung von Desinformation einzuschränken.\n\nDennoch bleibt die Frage, wie weit staatliche Eingriffe gehen dürften, ohne die Meinungsfreiheit zu gefährden. Befürworter strengerer Regulierung argumentieren, dass ohne klare Regeln die Glaubwürdigkeit der digitalen Öffentlichkeit weiter leiden würde. Gegner hingegen warnen davor, dass eine zu starke Kontrolle der Inhalte selbst zu einem Instrument der Zensur werden könnte.",
+    "preguntas": [
+      {
+        "enunciado": "Fake News verbreiten sich laut Text schneller als Richtigstellungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Falschmeldungen werden laut Text niemals politisch genutzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern mehr Medienkompetenz schon in der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt keine Diskussion über die Verantwortung sozialer Netzwerke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gegner strengerer Regulierung befürchten eine Form von Zensur.",
+        "respuesta": true
+      }
+    ]
   }
 ]
