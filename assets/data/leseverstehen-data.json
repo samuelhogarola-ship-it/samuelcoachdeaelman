@@ -61370,5 +61370,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "paul-kauft-neue-schuhe",
+    "nivel": "A1",
+    "titulo": "Paul kauft neue Schuhe",
+    "descripcion": "Paul geht mit seiner Mutter in ein Schuhgeschäft.",
+    "texto": "Paul ist acht Jahre alt. Seine alten Schuhe sind kaputt. Heute geht er mit seiner Mutter in die Stadt. Sie gehen in ein Schuhgeschäft.\n\nIm Geschäft gibt es viele Schuhe. Es gibt rote, blaue und schwarze Schuhe. Paul mag die blauen Schuhe. Er probiert sie an. Die Schuhe sind bequem.\n\nDie Verkäuferin lächelt und sagt: „Die Schuhe passen gut zu dir.“ Paul ist froh. Seine Mutter bezahlt die Schuhe. Dann gehen sie zusammen nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pauls alte Schuhe sind noch sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul mag die blauen Schuhe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Verkäuferin ist unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Mutter bezahlt die neuen Schuhe.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-katze-von-frau-berger",
+    "nivel": "A1",
+    "titulo": "Die Katze von Frau Berger",
+    "descripcion": "Frau Berger hat eine kleine graue Katze namens Minka.",
+    "texto": "Frau Berger wohnt allein in einer kleinen Wohnung. Sie hat eine Katze. Die Katze heißt Minka und ist grau. Minka schläft gern auf dem Sofa.\n\nJeden Morgen gibt Frau Berger der Katze Futter. Minka isst Fisch und trinkt Milch. Am Nachmittag spielt Minka mit einem Ball. Frau Berger lacht und sieht ihr zu.\n\nAm Abend sitzt Minka auf dem Fenster und schaut nach draußen. Frau Berger sagt: „Minka, du bist meine beste Freundin.“",
+    "preguntas": [
+      {
+        "enunciado": "Frau Bergers Katze heißt Minka.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka ist eine schwarze Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka trinkt Milch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka spielt nie mit einem Ball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend schaut Minka aus dem Fenster.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mittwoch-im-schwimmbad",
+    "nivel": "A1",
+    "titulo": "Mittwoch im Schwimmbad",
+    "descripcion": "Tim und seine Schwester gehen am Mittwoch ins Schwimmbad.",
+    "texto": "Am Mittwoch hat Tim keine Schule. Er geht mit seiner Schwester Mia ins Schwimmbad. Das Wasser ist warm und blau.\n\nTim schwimmt schnell. Mia spielt lieber mit dem Ball im Wasser. Nach dem Schwimmen essen sie ein Eis. Tim isst Schokoladeneis, Mia isst Erdbeereis.\n\nAm Ende sind beide müde, aber glücklich. „Das war ein toller Tag“, sagt Mia.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hat am Mittwoch Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim geht mit seiner Schwester ins Schwimmbad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia schwimmt lieber als Tim.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Schwimmen essen sie ein Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia isst Schokoladeneis.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-nach-innsbruck",
+    "nivel": "A2",
+    "titulo": "Die Reise nach Innsbruck",
+    "descripcion": "Sandra hat eine Reise nach Innsbruck gemacht und erzählt davon.",
+    "texto": "Letzten Monat ist Sandra nach Innsbruck gefahren. Sie wollte die Berge sehen, weil sie gern wandert. Die Fahrt mit dem Zug hat vier Stunden gedauert.\n\nIn Innsbruck hat sie in einer kleinen Pension gewohnt. Jeden Tag ist sie früh aufgestanden und hat lange Wanderungen gemacht. Einmal hat es stark geregnet, deshalb ist sie in ein Museum gegangen.\n\nAm letzten Abend hat sie in einem typischen Restaurant gegessen. Sandra sagt: „Ich bin müde zurückgekommen, aber ich hatte eine wunderbare Zeit.“",
+    "preguntas": [
+      {
+        "enunciado": "Sandra ist nach Innsbruck gefahren, weil sie wandern wollte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zugfahrt hat nur eine Stunde gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sandra hat in einem großen Hotel gewohnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bei Regen ist Sandra ins Museum gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sandra hat die Reise nicht genossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-missverstaendnis-mit-dem-nachbarn",
+    "nivel": "A2",
+    "titulo": "Ein Missverständnis mit dem Nachbarn",
+    "descripcion": "Herr Klein glaubt, sein Nachbar sei unfreundlich, aber es ist ein Irrtum.",
+    "texto": "Herr Klein wohnt seit zwei Jahren in seiner Wohnung. Sein Nachbar, Herr Fischer, hat nie „Guten Tag“ gesagt. Herr Klein dachte, dass Herr Fischer unfreundlich ist.\n\nEines Tages hat Herr Klein seinen Schlüssel verloren. Herr Fischer hat ihn gefunden und an die Tür gebracht. Er hat erklärt, dass er sehr schlecht hört und deshalb manchmal nicht antwortet, wenn man ihn grüßt.\n\nSeitdem sprechen die beiden Männer oft miteinander. Herr Klein hat verstanden, dass sein erster Eindruck falsch war.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Fischer ist der Nachbar von Herrn Klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Klein fand seinen Nachbarn von Anfang an sehr freundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer hat den verlorenen Schlüssel gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Fischer hört sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende sprechen die beiden Männer oft miteinander.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-e-mail-von-tante-ruth",
+    "nivel": "A2",
+    "titulo": "Die E-Mail von Tante Ruth",
+    "descripcion": "Jonas bekommt eine lange E-Mail von seiner Tante aus Kanada.",
+    "texto": "Jonas hat gestern eine E-Mail von seiner Tante Ruth bekommen. Sie wohnt seit vielen Jahren in Kanada und schreibt der Familie oft kleine Geschichten über ihr Leben dort.\n\nIn der E-Mail hat sie erzählt, dass sie im Winter viel Schnee hatte und dass sie mit ihrem Hund im Wald spazieren gegangen ist. Sie hat auch gefragt, wie es der Familie in Deutschland geht.\n\nJonas hat sich sehr gefreut. Er hat sofort geantwortet und ihr Fotos von seinem Geburtstag geschickt. Am Ende hat er geschrieben, dass sie ihn bald besuchen soll.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Ruth wohnt in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tante Ruth hat im Sommer viel Schnee gehabt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Ruth ist mit ihrem Hund im Wald spazieren gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat die E-Mail nicht beantwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat seiner Tante Fotos geschickt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-job-bei-einer-werbeagentur",
+    "nivel": "B1",
+    "titulo": "Der neue Job bei einer Werbeagentur",
+    "descripcion": "Nina beginnt einen neuen Job und muss sich an viele Veränderungen gewöhnen.",
+    "texto": "Nina hat nach dem Studium lange nach einer Stelle gesucht. Obwohl sie mehrere Absagen bekommen hatte, hat sie schließlich einen Job bei einer kleinen Werbeagentur gefunden. Am ersten Tag war sie sehr nervös, weil alles neu für sie war.\n\nNachdem sie sich eingearbeitet hatte, merkte Nina, dass die Arbeit abwechslungsreicher war, als sie erwartet hatte. Sie durfte eigene Ideen für Werbekampagnen vorschlagen, obwohl sie noch keine Erfahrung hatte. Ihre Kollegen halfen ihr geduldig.\n\nTrotzdem war der Druck manchmal groß, vor allem kurz vor wichtigen Präsentationen. Nach einigen Monaten fühlte sich Nina jedoch sicherer und war stolz auf ihre Entwicklung.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat sofort nach dem Studium einen Job gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina arbeitet bei einer Werbeagentur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina durfte keine eigenen Ideen vorschlagen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen haben Nina geduldig geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina fühlte sich nach einigen Monaten unsicherer als am Anfang.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-wiedersehen-nach-zehn-jahren",
+    "nivel": "B1",
+    "titulo": "Ein Wiedersehen nach zehn Jahren",
+    "descripcion": "Zwei alte Schulfreunde treffen sich nach zehn Jahren wieder.",
+    "texto": "Markus und Felix waren in der Schule beste Freunde, verloren aber nach dem Abitur den Kontakt, weil sie in unterschiedliche Städte gezogen waren. Zehn Jahre später trafen sie sich zufällig auf einer Hochzeit wieder.\n\nAm Anfang war das Gespräch etwas unsicher, da beide nicht genau wussten, worüber sie sprechen sollten. Nachdem sie jedoch über ihre Schulzeit geredet hatten, kam die alte Vertrautheit schnell zurück.\n\nObwohl ihre Leben sich sehr unterschiedlich entwickelt hatten, stellten beide fest, dass ihre Freundschaft noch genauso stark war wie früher. Sie beschlossen, sich von nun an regelmäßig zu treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus und Felix waren in der Schule beste Freunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben sich nach dem Abitur jede Woche getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie trafen sich zufällig auf einer Hochzeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Gespräch war von Anfang an sehr einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende beschließen sie, sich regelmäßig zu treffen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-jazzfestival-am-rhein",
+    "nivel": "B1",
+    "titulo": "Das Jazzfestival am Rhein",
+    "descripcion": "Eine Stadt am Rhein veranstaltet jedes Jahr ein beliebtes Jazzfestival.",
+    "texto": "Jedes Jahr im Juli findet in einer kleinen Stadt am Rhein ein Jazzfestival statt. Musiker aus vielen Ländern kommen, um dort aufzutreten, obwohl die Stadt eigentlich nicht sehr bekannt ist.\n\nWährend des Festivals verwandeln sich die Straßen in große Bühnen. Besucher sitzen an kleinen Tischen am Flussufer und hören der Musik zu, während Boote langsam vorbeifahren. Viele Restaurants bieten spezielle Festival-Menüs an.\n\nNachdem das Festival vor zwanzig Jahren zum ersten Mal organisiert wurde, ist es inzwischen zu einem wichtigen kulturellen Ereignis geworden. Die Einwohner sind stolz darauf, dass ihre kleine Stadt jedes Jahr so viele Besucher anzieht.",
+    "preguntas": [
+      {
+        "enunciado": "Das Jazzfestival findet im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Musiker aus vielen Ländern nehmen am Festival teil.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Konzerte finden nur in einer großen Konzerthalle statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Boote fahren während des Festivals am Ufer vorbei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Festival wurde erst letztes Jahr zum ersten Mal organisiert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "algorithmen-und-die-meinungsbildung-im-netz",
+    "nivel": "B2",
+    "titulo": "Algorithmen und die Meinungsbildung im Netz",
+    "descripcion": "Ein Beitrag über den Einfluss von Algorithmen auf die öffentliche Meinung.",
+    "texto": "Soziale Netzwerke bestimmen zunehmend, welche Nachrichten und Meinungen Millionen Menschen täglich zu sehen bekommen. Dabei spielen Algorithmen eine entscheidende Rolle, die darauf trainiert sind, Inhalte zu zeigen, die möglichst lange die Aufmerksamkeit der Nutzer binden. Kritiker bemängeln, dass dadurch emotionale und zugespitzte Beiträge bevorzugt würden, während differenzierte Analysen kaum Beachtung fänden.\n\nBesonders problematisch sei, dass viele Nutzer sich der Funktionsweise dieser Systeme gar nicht bewusst seien. Würden die Mechanismen transparenter gemacht, könnten Menschen bewusster mit den ihnen vorgeschlagenen Inhalten umgehen. Stattdessen entsteht häufig der Eindruck, man erhalte eine neutrale Auswahl der wichtigsten Themen, obwohl tatsächlich eine algorithmische Vorauswahl stattgefunden hat.\n\nEinige Experten fordern deshalb strengere Regulierungen, die Plattformen verpflichten würden, ihre Empfehlungssysteme offenzulegen. Andere wiederum argumentieren, dass die Verantwortung letztlich bei den Nutzern selbst liege, da niemand gezwungen werde, jeden vorgeschlagenen Inhalt unreflektiert zu übernehmen. Die Debatte darüber, wie viel Kontrolle der Staat über private Plattformen ausüben sollte, bleibt bis heute ungelöst.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen beeinflussen, welche Inhalte Nutzer in sozialen Netzwerken sehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text bevorzugen die Algorithmen vor allem ruhige, differenzierte Analysen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Nutzer sind sich der Funktionsweise der Algorithmen voll bewusst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Experten fordern eine stärkere Regulierung der Empfehlungssysteme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte über die Kontrolle der Plattformen ist bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "sabbatical-als-ausweg-aus-dem-burnout",
+    "nivel": "B2",
+    "titulo": "Sabbatical als Ausweg aus dem Burnout",
+    "descripcion": "Immer mehr Arbeitnehmer nehmen sich eine längere Pause vom Beruf.",
+    "texto": "Immer mehr Arbeitnehmer in Deutschland entscheiden sich dazu, für mehrere Monate aus dem Berufsleben auszusteigen, um ein sogenanntes Sabbatical zu nehmen. Während ein solcher Schritt früher vor allem als Luxus einzelner Branchen galt, wird er heute von immer mehr Unternehmen aktiv angeboten, um dem zunehmenden Burnout ihrer Mitarbeiter entgegenzuwirken.\n\nBefürworter argumentieren, dass eine längere Auszeit nicht nur der Gesundheit diene, sondern langfristig auch der Produktivität zugutekomme. Wer sich erholt habe, kehre motivierter und kreativer an den Arbeitsplatz zurück. Wäre es möglich, solche Pausen fest in Arbeitsverträge zu integrieren, könnte dies laut Experten sogar die allgemeine Krankheitsrate in Unternehmen senken.\n\nKritiker weisen jedoch darauf hin, dass sich nicht jeder ein unbezahltes Sabbatical finanziell leisten kann, wodurch diese Lösung vor allem gut verdienenden Angestellten offenstehe. Zudem entstehe während der Abwesenheit zusätzlicher Druck für die verbleibenden Kollegen, deren Arbeitsbelastung in dieser Zeit steige. Ob Sabbaticals also tatsächlich eine nachhaltige Lösung für das Burnout-Problem darstellen, bleibt umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Arbeitnehmer nehmen sich ein Sabbatical vom Beruf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text wird das Sabbatical nur in wenigen Branchen angeboten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen einen Zusammenhang zwischen Erholung und Produktivität.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein unbezahltes Sabbatical ist für alle Arbeitnehmer finanziell problemlos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen der abwesenden Person haben während des Sabbaticals weniger Arbeit.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mietpreisbremse-hilft-sie-wirklich",
+    "nivel": "B2",
+    "titulo": "Mietpreisbremse: Hilft sie wirklich?",
+    "descripcion": "Eine kritische Betrachtung der gesetzlichen Mietpreisbremse in deutschen Großstädten.",
+    "texto": "Vor einigen Jahren wurde in zahlreichen deutschen Großstädten die sogenannte Mietpreisbremse eingeführt, um den stetig steigenden Mieten entgegenzuwirken. Das Gesetz sollte sicherstellen, dass Neuvermietungen nur geringfügig über der ortsüblichen Vergleichsmiete liegen dürfen. Trotz dieser Regelung ist die Lage auf vielen Wohnungsmärkten weiterhin angespannt.\n\nMieterverbände kritisieren, dass die Mietpreisbremse zu viele Ausnahmen enthalte und von Vermietern leicht umgangen werden könne. So würden beispielsweise möblierte Wohnungen oder Neubauten häufig gar nicht unter das Gesetz fallen. Würde die Regelung konsequenter durchgesetzt, könnten laut Experten deutlich mehr Mieter tatsächlich profitieren.\n\nVermieterverbände hingegen argumentieren, dass die Mietpreisbremse das eigentliche Problem nicht löse, da zu wenig neuer Wohnraum geschaffen werde. Anstatt die Mieten künstlich zu begrenzen, müsse vielmehr der Neubau gefördert werden, damit das Angebot langfristig mit der Nachfrage Schritt halten könne. Ohne eine umfassendere Wohnungs- politik, so die einhellige Meinung vieler Beobachter, werde sich an der Situation in den Großstädten kaum etwas ändern.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreisbremse wurde eingeführt, um steigende Mieten zu begrenzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seit Einführung der Mietpreisbremse sind die Wohnungsmärkte völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Möblierte Wohnungen fallen laut Text häufig nicht unter die Mietpreisbremse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Vermieterverbände fordern vor allem eine Förderung des Wohnungsneubaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Beobachter sind sich einig, dass die Mietpreisbremse das Problem bereits vollständig gelöst hat.",
+        "respuesta": false
+      }
+    ]
   }
 ]
