@@ -60674,5 +60674,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "ein-regentag-mit-brettspielen",
+    "nivel": "A1",
+    "titulo": "Ein Regentag mit Brettspielen",
+    "descripcion": "Lena und Tom spielen an einem Regentag Brettspiele mit ihrer Mutter.",
+    "texto": "Heute regnet es stark. Lena und ihr Bruder Tom bleiben zu Hause. Sie spielen gern Brettspiele.\n\nTom holt die Spiele aus dem Schrank. Lena macht heißen Kakao für beide. Zuerst spielen sie „Mensch ärgere dich nicht\". Tom gewinnt zweimal, Lena gewinnt einmal.\n\nAm Nachmittag kommt ihre Mutter dazu. Sie spielen zusammen ein Kartenspiel. Alle lachen viel. Der Regentag ist am Ende gar nicht langweilig.",
+    "preguntas": [
+      {
+        "enunciado": "Es regnet heute stark.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom und Lena gehen ins Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena macht heißen Kakao.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom gewinnt nur einmal.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter spielt mit den Kindern.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagstorte-fuer-papa",
+    "nivel": "A1",
+    "titulo": "Die Geburtstagstorte für Papa",
+    "descripcion": "Die Familie backt heimlich eine Torte für Papas Geburtstag.",
+    "texto": "Papa hat morgen Geburtstag. Mama und die Kinder backen heute eine Torte. Die Torte ist eine Schokoladentorte.\n\nAnna mischt den Teig. Ihr kleiner Bruder Felix streut Zucker auf den Tisch. Das ist lustig, aber auch ein bisschen chaotisch. Mama backt die Torte im Ofen. Sie duftet sehr gut.\n\nAm Abend verstecken sie die Torte im Keller. Papa soll nichts sehen. Morgen früh singen alle „Happy Birthday\" und essen die Torte zum Frühstück.",
+    "preguntas": [
+      {
+        "enunciado": "Papa hat heute Geburtstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie backt eine Schokoladentorte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix mischt den Teig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie verstecken die Torte im Keller.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand singt „Happy Birthday\".",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-spaziergang-mit-dem-nachbarshund",
+    "nivel": "A1",
+    "titulo": "Ein Spaziergang mit dem Nachbarshund",
+    "descripcion": "Jonas hilft seiner kranken Nachbarin und geht mit ihrem Hund spazieren.",
+    "texto": "Frau Keller ist krank und kann nicht spazieren gehen. Ihr Hund Bello braucht aber Bewegung. Deshalb fragt sie ihren Nachbarn Jonas um Hilfe.\n\nJonas geht gern mit Bello spazieren. Sie laufen durch den Park und Bello spielt mit anderen Hunden. Danach kauft Jonas noch Brötchen beim Bäcker.\n\nZurück bei Frau Keller freut sich Bello sehr. Er bringt Jonas einen Ball. Frau Keller bedankt sich und gibt Jonas einen Apfel. Jonas geht jetzt oft mit Bello spazieren.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller ist krank.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello ist die Katze von Frau Keller.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas geht mit Bello in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello spielt mit keinem anderen Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Keller gibt Jonas einen Apfel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-in-der-bibliothek",
+    "nivel": "A2",
+    "titulo": "Ein Praktikum in der Bibliothek",
+    "descripcion": "Marie berichtet von ihrem zweiwöchigen Praktikum in der Stadtbibliothek.",
+    "texto": "Marie hat letzten Monat ein zweiwöchiges Praktikum in der Stadtbibliothek gemacht. Sie hat sich dafür entschieden, weil sie gerne liest und mit Büchern arbeiten möchte.\n\nAm ersten Tag hat sie gelernt, wie man Bücher sortiert und zurückgibt. Die Bibliothekarin, Frau Schulz, hat ihr gezeigt, wie das Computersystem funktioniert. Marie hat auch Kindern beim Lesewettbewerb geholfen, weil viele Schulklassen zu Besuch kamen.\n\nAm letzten Tag hat Marie gesagt, dass ihr das Praktikum sehr gut gefallen hat. Sie hat sogar überlegt, später Bibliothekswissenschaft zu studieren. Frau Schulz hat ihr ein gutes Zeugnis geschrieben.",
+    "preguntas": [
+      {
+        "enunciado": "Das Praktikum hat zwei Wochen gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie mag keine Bücher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Schulz hat Marie das Computersystem gezeigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es kamen keine Schulklassen zu Besuch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marie hat überlegt, Bibliothekswissenschaft zu studieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-die-fernbedienung",
+    "nivel": "A2",
+    "titulo": "Der Streit um die Fernbedienung",
+    "descripcion": "Paul und Nina streiten sich, welchen Film sie am Sonntagabend sehen sollen.",
+    "texto": "Am Sonntagabend haben sich Paul und seine Schwester Nina gestritten, weil beide einen anderen Film sehen wollten. Paul wollte einen Actionfilm schauen, aber Nina wollte lieber eine Komödie sehen.\n\nDie Eltern haben den Streit gehört und sind ins Wohnzimmer gekommen. Der Vater hat vorgeschlagen, dass jeder abwechselnd entscheiden darf. Nina hat zuerst gewählt, weil sie an diesem Tag Geburtstag hatte.\n\nAm Ende haben alle zusammen die Komödie gesehen und viel gelacht. Paul hat gesagt, dass der Film doch besser war, als er gedacht hatte. Nächsten Sonntag darf er den Film auswählen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und Nina haben sich um die Fernbedienung gestritten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina wollte einen Actionfilm sehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater hat eine Lösung vorgeschlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hatte an diesem Tag keinen Geburtstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende hat die Familie zusammen gelacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-zum-bauernhof",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug zum Bauernhof",
+    "descripcion": "Lukas und seine Klasse besuchen einen Bauernhof und lernen das Melken.",
+    "texto": "Letzte Woche hat die Grundschulklasse von Lukas einen Ausflug zu einem Bauernhof gemacht. Alle Kinder waren aufgeregt, weil sie noch nie echte Kühe gesehen hatten.\n\nDer Bauer hat den Kindern gezeigt, wie man eine Kuh melkt. Lukas hat sich zuerst gefürchtet, aber dann hat er es auch probiert. Danach haben die Kinder Hühner gefüttert und frische Eier gesammelt.\n\nZum Mittagessen gab es Brot mit selbstgemachter Butter. Lukas hat seiner Mutter erzählt, dass der Ausflug der schönste Schultag des Jahres war. Er möchte den Bauernhof bald wieder besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse hat einen Ausflug zum Bauernhof gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder hatten schon oft Kühe gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas hat sich zuerst nicht gefürchtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben Eier gesammelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas fand den Ausflug langweilig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wandergruppe-im-schwarzwald",
+    "nivel": "B1",
+    "titulo": "Die Wandergruppe im Schwarzwald",
+    "descripcion": "Ein Wanderverein aus Freiburg unternimmt trotz schlechtem Wetter eine mehrtägige Tour.",
+    "texto": "Jeden Sommer organisiert der Wanderverein aus Freiburg eine mehrtägige Tour durch den Schwarzwald. Dieses Jahr haben sich über zwanzig Mitglieder angemeldet, obwohl die Wettervorhersage nicht besonders gut war.\n\nNachdem die Gruppe am ersten Tag fast fünfzehn Kilometer gewandert war, erreichten sie eine kleine Hütte, in der sie übernachten konnten. Trotzdem es in der Nacht stark regnete, blieb die Stimmung gut, weil der Hüttenwirt für alle eine heiße Suppe kochte.\n\nAm letzten Tag stiegen die Wanderer auf den Feldberg, den höchsten Berg des Schwarzwaldes. Die Aussicht entschädigte für die Anstrengung der vorherigen Tage. Viele Teilnehmer sagten, dass sie im nächsten Jahr wieder mitkommen wollen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Tour fand im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Über zwanzig Mitglieder haben sich angemeldet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe hat in einem Hotel übernachtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hüttenwirt hat eine Suppe gekocht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wanderer sind auf den Feldberg gestiegen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-der-gewerkschaften-heute",
+    "nivel": "B1",
+    "titulo": "Die Rolle der Gewerkschaften heute",
+    "descripcion": "Trotz sinkender Mitgliederzahlen bleiben Gewerkschaften ein wichtiger Akteur im Arbeitsleben.",
+    "texto": "Gewerkschaften haben in Deutschland eine lange Tradition, obwohl ihre Mitgliederzahlen in den letzten Jahrzehnten gesunken sind. Früher waren sie vor allem in der Industrie stark, heute engagieren sie sich auch zunehmend im Dienstleistungssektor.\n\nNachdem mehrere große Unternehmen Gehaltserhöhungen verweigert hatten, organisierten die Gewerkschaften im letzten Jahr landesweite Streiks. Trotzdem viele Pendler durch die Streiks Verspätungen hinnehmen mussten, zeigten Umfragen, dass ein großer Teil der Bevölkerung Verständnis für die Forderungen hatte.\n\nJunge Arbeitnehmer interessieren sich inzwischen wieder stärker für gewerkschaftliche Themen, besonders wenn es um befristete Verträge und faire Arbeitszeiten geht. Experten gehen davon aus, dass Gewerkschaften auch in Zukunft eine wichtige Rolle im Arbeitsleben spielen werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mitgliederzahlen der Gewerkschaften sind gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gewerkschaften haben Streiks organisiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Pendler lehnten die Streiks komplett ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Arbeitnehmer interessieren sich für befristete Verträge.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten glauben, dass Gewerkschaften bald verschwinden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-online-unterricht-waehrend-der-grippewelle",
+    "nivel": "B1",
+    "titulo": "Der Online-Unterricht während der Grippewelle",
+    "descripcion": "Eine Schule in Leipzig stellt wegen einer Grippewelle für eine Woche auf Online-Unterricht um.",
+    "texto": "Im vergangenen Winter breitete sich an der Gesamtschule in Leipzig eine starke Grippewelle aus, sodass die Schulleitung entschied, für eine Woche auf Online-Unterricht umzustellen. Viele Lehrer waren zunächst skeptisch, obwohl sie bereits Erfahrung mit digitalen Werkzeugen hatten.\n\nNachdem die Schüler sich per Videokonferenz eingeloggt hatten, lief der Unterricht erstaunlich reibungslos ab. Einige Schüler vermissten trotzdem den direkten Kontakt zu ihren Mitschülern. Andere schätzten es, dass sie Aufgaben in ihrem eigenen Tempo bearbeiten konnten.\n\nAm Ende der Woche zogen die Lehrer eine positive Bilanz, auch wenn technische Probleme wie schlechte Internetverbindungen den Unterricht manchmal störten. Die Schule überlegt nun, einzelne Elemente des Online-Unterrichts dauerhaft einzuführen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Grippewelle betraf eine Schule in Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Online-Unterricht dauerte einen ganzen Monat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Lehrer waren von Anfang an begeistert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Schüler vermissten den Kontakt zu Mitschülern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab keine technischen Probleme.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-abschaffung-des-bargelds",
+    "nivel": "B2",
+    "titulo": "Die Abschaffung des Bargelds",
+    "descripcion": "Eine Analyse der Debatte um Vor- und Nachteile einer bargeldlosen Gesellschaft.",
+    "texto": "In den letzten Jahren wird in vielen europäischen Ländern verstärkt diskutiert, ob das Bargeld langfristig abgeschafft werden sollte. Befürworter argumentieren, dass eine bargeldlose Gesellschaft Steuerhinterziehung und Schwarzarbeit erheblich erschweren würde, da jede Transaktion digital nachvollzogen werden könnte.\n\nGegner dieser Entwicklung weisen hingegen darauf hin, dass ohne Bargeld die Privatsphäre der Bürger stark eingeschränkt würde. Würde jede Zahlung elektronisch erfasst, ließe sich daraus ein nahezu vollständiges Bewegungs- und Konsumprofil jedes Einzelnen erstellen. Zudem wären ältere Menschen und Personen ohne Bankkonto besonders benachteiligt, da sie oft weniger Zugang zu digitalen Zahlungsmitteln haben.\n\nIn Schweden, einem Land, das bereits weitgehend auf Bargeld verzichtet, wird mittlerweile sogar über die Wiedereinführung bestimmter Bargeldpflichten diskutiert, weil Kritiker vor einer zu großen Abhängigkeit von privaten Zahlungsdienstleistern warnen. Es zeigt sich also, dass die Frage der Bargeldabschaffung weit komplexer ist, als es auf den ersten Blick scheinen mag.\n\nEine endgültige Lösung ist derzeit nicht in Sicht. Die meisten Experten gehen davon aus, dass Bargeld und digitale Zahlungsmittel noch lange parallel existieren werden, auch wenn der Anteil bargeldloser Zahlungen stetig zunimmt.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Experten sind sich einig, dass Bargeld sofort abgeschafft werden soll.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen einen Vorteil im Kampf gegen Schwarzarbeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten einen Verlust der Privatsphäre.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Schweden wird über eine Wiedereinführung von Bargeldpflichten diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ältere Menschen profitieren laut Text besonders von einer bargeldlosen Gesellschaft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-tempolimit",
+    "nivel": "B2",
+    "titulo": "Die Debatte um ein generelles Tempolimit",
+    "descripcion": "Warum die Diskussion um ein Tempolimit auf deutschen Autobahnen so emotional geführt wird.",
+    "texto": "Kaum ein verkehrspolitisches Thema wird in Deutschland so emotional diskutiert wie die Frage nach einem generellen Tempolimit auf Autobahnen. Befürworter verweisen auf Studien, denen zufolge ein Limit von 130 km/h den CO2-Ausstoß merklich senken und die Zahl schwerer Unfälle reduzieren würde.\n\nGegner des Tempolimits, darunter viele Vertreter der Automobilindustrie, argumentieren, dass die freie Fahrt auf deutschen Autobahnen ein wichtiges Stück nationaler Identität sei. Würde ein Tempolimit eingeführt, so befürchten sie, könnte dies dem Ansehen der deutschen Autoindustrie im Ausland schaden, obwohl internationale Vergleiche zeigen, dass die meisten Nachbarländer bereits ein Tempolimit haben.\n\nZusätzlich wird in der politischen Debatte oft übersehen, dass auf einem Großteil der deutschen Autobahnen bereits heute Geschwindigkeitsbegrenzungen gelten, etwa in Baustellenbereichen oder bei schlechten Wetterverhältnissen. Befürworter eines generellen Limits sehen darin einen Beleg dafür, dass ein einheitliches Tempolimit die Verkehrssicherheit kaum zusätzlich beeinträchtigen würde.\n\nOb und wann ein generelles Tempolimit tatsächlich eingeführt wird, bleibt ungewiss. Umfragen zufolge befürwortet inzwischen eine knappe Mehrheit der Bevölkerung diese Maßnahme, während sich die politischen Lager weiterhin uneinig zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Autobahnabschnitte in Deutschland sind aktuell ohne jede Geschwindigkeitsbegrenzung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter argumentieren mit einer möglichen Senkung des CO2-Ausstoßes.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die meisten Nachbarländer Deutschlands haben kein Tempolimit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Umfragen befürwortet eine knappe Mehrheit der Bevölkerung ein Tempolimit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Automobilindustrie ist komplett für ein generelles Tempolimit.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-work-life-balance-im-homeoffice",
+    "nivel": "B2",
+    "titulo": "Die Work-Life-Balance im Homeoffice",
+    "descripcion": "Wie Arbeitgeber und Arbeitnehmer dem Verschwimmen von Beruf und Privatleben im Homeoffice begegnen.",
+    "texto": "Seit der Pandemie hat sich das Homeoffice für viele Arbeitnehmer in Deutschland von einer Ausnahme zu einem festen Bestandteil des Arbeitsalltags entwickelt. Zahlreiche Studien zeigen, dass flexible Arbeitsmodelle die Zufriedenheit vieler Beschäftigter deutlich erhöht haben, da der tägliche Pendelweg entfällt und sich Beruf und Familie leichter vereinbaren lassen.\n\nGleichzeitig weisen Arbeitspsychologen darauf hin, dass die Grenze zwischen Arbeit und Privatleben im Homeoffice zunehmend verschwimmt. Würden klare Regeln fehlen, so warnen Experten, neigten viele Beschäftigte dazu, auch nach Feierabend noch E-Mails zu beantworten oder an Projekten weiterzuarbeiten. Dies könne langfristig zu erhöhtem Stress und sogar zu Burnout führen, obwohl die Betroffenen das Homeoffice eigentlich als Entlastung wahrnehmen.\n\nEinige Unternehmen haben deshalb begonnen, verbindliche Regelungen einzuführen, nach denen außerhalb der Arbeitszeiten keine dienstlichen Nachrichten mehr versendet werden dürfen. Andere setzen auf Schulungen, in denen Beschäftigten Methoden des Zeitmanagements vermittelt werden, damit eine gesunde Balance zwischen beruflichen und privaten Verpflichtungen erhalten bleibt.\n\nLetztlich wird deutlich, dass die Vorteile des Homeoffice nur dann voll genutzt werden können, wenn sowohl Arbeitgeber als auch Arbeitnehmer aktiv Verantwortung für eine gesunde Grenzziehung übernehmen. Andernfalls droht aus der gewonnenen Freiheit eine neue Form der Erschöpfung zu werden.",
+    "preguntas": [
+      {
+        "enunciado": "Homeoffice ist seit der Pandemie für viele zu einem festen Bestandteil des Arbeitslebens geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Arbeitspsychologen verschwimmt im Homeoffice oft die Grenze zwischen Arbeit und Privatleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kein Unternehmen hat bisher Regelungen zum Feierabend eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten warnen vor einem erhöhten Risiko für Burnout.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird gesagt, dass Homeoffice ausschließlich Vorteile ohne jedes Risiko bietet.",
+        "respuesta": false
+      }
+    ]
   }
 ]
