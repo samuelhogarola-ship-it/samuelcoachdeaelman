@@ -60326,5 +60326,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-zoo-mit-meiner-schwester",
+    "nivel": "A1",
+    "titulo": "Im Zoo mit meiner Schwester",
+    "descripcion": "Lena besucht mit ihrer kleinen Schwester den Zoo und sieht viele Tiere.",
+    "texto": "Lena geht heute mit ihrer kleinen Schwester Mia in den Zoo. Der Zoo ist groß und hat viele Tiere. Zuerst sehen sie die Elefanten. Die Elefanten sind sehr groß und grau. Mia findet die Elefanten toll und lacht laut. Danach gehen sie zu den Affen. Die Affen klettern auf Bäume und spielen miteinander.\n\nUm zwölf Uhr haben Lena und Mia Hunger. Sie gehen zu einem kleinen Restaurant im Zoo. Lena isst eine Pizza, und Mia isst Pommes mit Ketchup. „Das schmeckt super!“, sagt Mia. Nach dem Essen besuchen sie noch die Pinguine. Die Pinguine schwimmen schnell im Wasser.\n\nAm Nachmittag kaufen sie ein Eis. Mia nimmt Schokoladeneis, und Lena nimmt Vanilleeis. Die beiden Schwestern sind sehr glücklich. Der Tag im Zoo macht ihnen viel Spaß.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht mit ihrer Schwester in den Zoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Elefanten sind klein und rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia isst Pommes mit Ketchup.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Affen schwimmen im Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag kaufen sie ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingsessen-am-wochenende",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsessen am Wochenende",
+    "descripcion": "Paul erzählt, was seine Familie am Wochenende gern isst.",
+    "texto": "Am Wochenende kocht meine Familie immer zusammen. Meine Mutter macht gern Nudeln mit Tomatensoße. Mein Vater grillt am liebsten Fleisch und Gemüse. Ich helfe beim Tischdecken und bringe Teller und Gläser. Meine kleine Schwester mag am liebsten Kartoffeln mit Butter.\n\nSamstags essen wir oft zu Mittag im Garten. Die Sonne scheint, und alle sind fröhlich. Nach dem Essen trinken wir Tee oder Kaffee. Manchmal backt meine Mutter einen Kuchen für den Nachmittag. Der Apfelkuchen ist mein Lieblingskuchen.\n\nSonntags gehen wir manchmal in ein Restaurant. Dort bestellen wir Schnitzel mit Salat. Das Essen schmeckt immer sehr gut. Am Abend sind wir satt und müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie kocht am Wochenende zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater mag am liebsten Nudeln mit Tomatensoße.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die kleine Schwester mag Kartoffeln mit Butter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie essen samstags immer im Restaurant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Apfelkuchen ist der Lieblingskuchen des Erzählers.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-spaziergang-am-flussufer",
+    "nivel": "A1",
+    "titulo": "Ein Spaziergang am Flussufer",
+    "descripcion": "Tom und seine Oma machen einen Spaziergang am Fluss und sehen viele Vögel.",
+    "texto": "Tom besucht seine Oma am Sonntag. Nach dem Frühstück machen sie einen Spaziergang am Flussufer. Das Wetter ist schön, und die Sonne scheint. Am Fluss sehen sie viele Enten und ein paar Schwäne. Tom bringt Brot mit und füttert die Enten.\n\nOma erzählt Tom Geschichten aus ihrer Kindheit. Sie ist früher auch oft am Fluss spazieren gegangen. Tom hört gern zu und stellt viele Fragen. Auf dem Weg finden sie eine schöne Bank und setzen sich hin. Sie trinken Tee aus einer Thermoskanne.\n\nNach dem Spaziergang gehen sie zurück zu Omas Haus. Dort isst Tom noch ein Stück Kuchen. Er freut sich schon auf den nächsten Besuch bei seiner Oma.",
+    "preguntas": [
+      {
+        "enunciado": "Tom macht mit seiner Oma einen Spaziergang am Fluss.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sehen keine Vögel am Fluss.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma erzählt Geschichten aus ihrer Kindheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie trinken Kaffee aus einer Thermoskanne.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst nach dem Spaziergang ein Stück Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wandern-in-den-alpen",
+    "nivel": "A2",
+    "titulo": "Wandern in den Alpen",
+    "descripcion": "Julia und ihr Freund sind in den Alpen wandern gegangen und haben die Natur genossen.",
+    "texto": "Letzten Sommer sind Julia und ihr Freund Markus in die Alpen gefahren. Sie haben eine Woche in einer kleinen Berghütte verbracht. Jeden Morgen sind sie früh aufgestanden, weil sie die Sonnenaufgänge sehen wollten. Die Berge waren wunderschön, und die Luft war sehr frisch.\n\nAm zweiten Tag haben sie eine lange Wanderung gemacht. Der Weg war steil, und Julia war müde, aber sie hat nicht aufgegeben. Als sie den Gipfel erreicht haben, haben sie einen fantastischen Blick auf das Tal gehabt. Markus hat gesagt, dass er noch nie eine so schöne Aussicht gesehen hat. Sie haben Fotos gemacht und ihr Essen auf einem Felsen geteilt.\n\nAm Abend sind sie zurück zur Hütte gegangen und haben mit anderen Wanderern gesprochen. Alle haben Geschichten über ihre Wanderungen erzählt. Julia hat gesagt, dass sie nächstes Jahr wiederkommen möchte, wenn sie Zeit hat. Der Urlaub in den Alpen war unvergesslich.",
+    "preguntas": [
+      {
+        "enunciado": "Julia und Markus sind in die Alpen gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind spät aufgestanden, um auszuschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat die Wanderung wegen der Müdigkeit abgebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus fand die Aussicht vom Gipfel sehr schön.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia möchte nächstes Jahr wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-meinen-brieffreund",
+    "nivel": "A2",
+    "titulo": "Ein Brief an meinen Brieffreund",
+    "descripcion": "Sophie schreibt ihrem Brieffreund in Spanien über ihre Sommerferien.",
+    "texto": "Lieber Carlos,\n\nich hoffe, es geht dir gut! Ich habe dir lange nicht geschrieben, weil ich sehr beschäftigt war. Diesen Sommer habe ich mit meiner Familie einen Campingurlaub an der Nordsee gemacht. Wir sind zwei Wochen dort geblieben, und das Wetter war meistens gut.\n\nAm meisten hat mir der Strandtag mit meinen Cousins gefallen. Wir haben Sandburgen gebaut und sind im kalten Wasser geschwommen. Mein kleiner Bruder hat eine Qualle gesehen und hat laut geschrien, weil er Angst hatte. Das war wirklich lustig! Abends haben wir immer am Lagerfeuer gesessen und Lieder gesungen.\n\nNächstes Jahr möchte ich dich in Spanien besuchen, wenn meine Eltern es erlauben. Ich habe schon angefangen, Spanisch zu lernen. Schreib mir bald zurück und erzähl mir von deinem Sommer!\n\nViele Grüße,\nSophie",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat ihrem Brieffreund lange nicht geschrieben, weil sie beschäftigt war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat einen Urlaub in den Bergen gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophies kleiner Bruder hatte Angst vor einer Qualle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie möchte Carlos nächstes Jahr in Frankreich besuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie lernt bereits Spanisch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-termin-beim-augenarzt",
+    "nivel": "A2",
+    "titulo": "Der Termin beim Augenarzt",
+    "descripcion": "Herr Keller hat einen Termin beim Augenarzt, weil er schlechter sieht.",
+    "texto": "Herr Keller hat seit einigen Wochen Probleme mit seinen Augen. Er kann die Straßenschilder nicht mehr gut lesen, wenn er Auto fährt. Deshalb hat er einen Termin beim Augenarzt gemacht. Am Montagmorgen ist er pünktlich in die Praxis gegangen.\n\nDie Ärztin hat zuerst seine Augen gründlich untersucht. Sie hat ihm verschiedene Buchstaben gezeigt und gefragt, ob er sie lesen kann. Herr Keller hat viele Buchstaben nicht erkannt, obwohl er sich sehr angestrengt hat. Die Ärztin hat gesagt, dass er eine neue Brille braucht. Herr Keller war ein bisschen überrascht, aber nicht traurig.\n\nNach der Untersuchung ist er zu einem Optiker gegangen und hat ein neues Brillengestell ausgesucht. Er hat sich für ein modernes, schwarzes Modell entschieden. In einer Woche kann er seine neue Brille abholen. Er freut sich schon darauf, wieder klar zu sehen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Keller hat Probleme mit seinen Augen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er ist zu spät zu seinem Termin gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin hat gesagt, dass er keine Brille braucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Keller hat ein schwarzes Brillengestell ausgesucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er kann seine neue Brille sofort mitnehmen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "umzug-nach-hamburg",
+    "nivel": "B1",
+    "titulo": "Umzug nach Hamburg",
+    "descripcion": "Nina zieht aus beruflichen Gründen nach Hamburg und muss sich an die neue Stadt gewöhnen.",
+    "texto": "Nina hat vor drei Monaten eine neue Stelle in Hamburg angenommen, obwohl sie ihre Heimatstadt München sehr geliebt hat. Der Umzug war nicht einfach, denn sie musste ihre Wohnung kündigen, neue Möbel kaufen und sich von Freunden verabschieden. Trotzdem war sie überzeugt, dass die berufliche Chance die Mühe wert war.\n\nNachdem sie in Hamburg angekommen war, hat sie sich zunächst sehr einsam gefühlt. Die Stadt war größer, als sie erwartet hatte, und das Wetter war oft regnerisch. Mit der Zeit hat sie jedoch nette Kollegen kennengelernt, die sie zu einem Fußballverein eingeladen haben. Dort hat sie schnell neue Freunde gefunden, obwohl sie am Anfang Zweifel hatte, ob sie dazupassen würde.\n\nHeute, ein halbes Jahr später, fühlt sich Nina in Hamburg richtig zu Hause. Sie genießt die Nähe zum Wasser und die vielen Parks in der Stadt. Manchmal vermisst sie München, aber sie bereut den Umzug nicht. Sie sagt, dass man manchmal Risiken eingehen muss, um im Leben weiterzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist aus privaten Gründen nach Hamburg gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Umzug war für Nina einfach und stressfrei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat durch Kollegen neue Freunde gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina fühlt sich nach einem halben Jahr in Hamburg wohl.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina bereut ihren Umzug nach Hamburg.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-zwischen-zwei-kulturen",
+    "nivel": "B1",
+    "titulo": "Freundschaft zwischen zwei Kulturen",
+    "descripcion": "Yasmin und Linda werden trotz kultureller Unterschiede enge Freundinnen.",
+    "texto": "Yasmin ist vor fünf Jahren mit ihrer Familie aus Marokko nach Deutschland gekommen. In der Schule hat sie Linda kennengelernt, und die beiden Mädchen haben sich sofort gut verstanden, obwohl sie aus ganz unterschiedlichen Kulturen stammen. Linda war neugierig auf Yasmins Traditionen und hat oft Fragen über das Leben in Marokko gestellt.\n\nNachdem die beiden ein paar Monate befreundet waren, hat Yasmin Linda zu einem Familienfest eingeladen. Linda war beeindruckt von dem leckeren Essen und der Gastfreundschaft der Familie. Im Gegenzug hat Linda Yasmin zu Weihnachten eingeladen, obwohl Yasmins Familie Muslime sind und das Fest nicht feiern. Yasmin hat die Feier trotzdem genossen, weil sie die Bräuche einer anderen Kultur kennenlernen wollte.\n\nHeute sind Yasmin und Linda beste Freundinnen und verbringen jede Woche Zeit miteinander. Sie sagen, dass ihre Freundschaft ihnen gezeigt hat, wie bereichernd es sein kann, offen für andere Kulturen zu sein. Beide planen, gemeinsam nach Marokko zu reisen, sobald sie genug Geld gespart haben.",
+    "preguntas": [
+      {
+        "enunciado": "Yasmin kommt ursprünglich aus der Türkei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Linda hat sich für Yasmins Traditionen interessiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Yasmin hat Linda nie zu sich nach Hause eingeladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Yasmin hat an Lindas Weihnachtsfeier teilgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden planen eine gemeinsame Reise nach Marokko.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-monat-im-neuen-job",
+    "nivel": "B1",
+    "titulo": "Der erste Monat im neuen Job",
+    "descripcion": "Felix berichtet von seinen Erfahrungen und Herausforderungen im ersten Monat seiner neuen Stelle.",
+    "texto": "Vor einem Monat hat Felix seine neue Stelle als Ingenieur bei einer mittelständischen Firma angetreten. Am ersten Tag war er sehr nervös, obwohl er sich gut vorbereitet hatte. Er wusste nicht, wie seine neuen Kollegen reagieren würden, und machte sich Sorgen, ob er den Anforderungen gerecht werden könnte.\n\nNachdem er sich eine Woche eingearbeitet hatte, fühlte er sich schon viel sicherer. Seine Kollegen waren hilfsbereit und erklärten ihm geduldig die internen Abläufe. Trotzdem gab es auch schwierige Momente: Ein großes Projekt musste schneller als geplant fertiggestellt werden, und Felix musste oft Überstunden machen. Er fragte sich manchmal, ob er die richtige Entscheidung getroffen hatte, als er seinen alten Job gekündigt hatte.\n\nAm Ende des Monats hat sein Chef ihm positives Feedback gegeben und ihm für seinen Einsatz gedankt. Das hat Felix sehr motiviert, weiterzumachen. Er ist zwar noch nicht ganz angekommen, aber er ist zuversichtlich, dass er sich in der neuen Firma gut entwickeln wird.",
+    "preguntas": [
+      {
+        "enunciado": "Felix war am ersten Arbeitstag sehr entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen haben Felix bei der Einarbeitung geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix musste wegen eines Projekts Überstunden machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat am Ende des Monats negatives Feedback bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix ist überhaupt nicht zuversichtlich für die Zukunft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wohnungsnot-in-deutschen-metropolen",
+    "nivel": "B2",
+    "titulo": "Wohnungsnot in deutschen Metropolen",
+    "descripcion": "Ein Blick auf die Ursachen und möglichen Lösungen der Wohnungsnot in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten wie München, Berlin und Hamburg hat sich die Wohnungsnot in den letzten Jahren drastisch verschärft. Während die Bevölkerung in den Metropolen stetig wächst, wird deutlich zu wenig neuer Wohnraum geschaffen. Die Mieten steigen kontinuierlich, sodass sich immer mehr Menschen, insbesondere Geringverdiener und Studierende, das Leben in der Stadt kaum noch leisten können. Experten zufolge müssten jährlich mehrere Hunderttausend neue Wohnungen gebaut werden, um den tatsächlichen Bedarf zu decken.\n\nDie Ursachen dieser Entwicklung sind vielschichtig. Zum einen wurden in den vergangenen Jahrzehnten zu wenige Sozialwohnungen gebaut, obwohl der Bedarf schon damals absehbar war. Zum anderen sorgen hohe Baukosten und strenge Bauvorschriften dafür, dass neue Bauprojekte oft verzögert oder ganz aufgegeben werden. Hinzu kommt, dass viele Investoren lieber in hochpreisige Eigentumswohnungen investieren, da sich damit höhere Gewinne erzielen lassen als mit bezahlbarem Mietwohnraum.\n\nPolitiker diskutieren seit Jahren über mögliche Lösungen. Manche fordern eine strengere Mietpreisbremse, wieder andere plädieren dafür, dass der Staat selbst mehr in den sozialen Wohnungsbau investieren sollte. Wäre es möglich, bürokratische Hürden beim Bauen abzubauen, könnten neue Wohnungen deutlich schneller entstehen. Kritiker wenden jedoch ein, dass solche Maßnahmen allein nicht ausreichen würden, um das strukturelle Problem zu lösen.\n\nLetztlich bleibt die Wohnungsfrage eine der drängendsten sozialen Herausforderungen unserer Zeit. Ohne ein koordiniertes Zusammenspiel von Politik, Wirtschaft und Gesellschaft wird es kaum gelingen, bezahlbaren Wohnraum für alle zu schaffen. Viele Bürger fragen sich daher zu Recht, wie lange sie sich ihre Stadt noch werden leisten können.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wurden in der Vergangenheit zu wenige Sozialwohnungen gebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Investoren bevorzugen oft hochpreisige Eigentumswohnungen gegenüber bezahlbarem Mietwohnraum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Politiker sind sich einig, wie die Wohnungsnot gelöst werden soll.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Abbau bürokratischer Hürden wird von manchen als mögliche Lösung angesehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitale-medien-im-klassenzimmer",
+    "nivel": "B2",
+    "titulo": "Digitale Medien im Klassenzimmer",
+    "descripcion": "Eine Betrachtung der Chancen und Risiken digitaler Medien im schulischen Unterricht.",
+    "texto": "Der Einsatz digitaler Medien im Unterricht wird seit Jahren kontrovers diskutiert. Befürworter argumentieren, dass Tablets, interaktive Whiteboards und Lernplattformen den Unterricht abwechslungsreicher gestalten und Schülerinnen und Schülern den Zugang zu einer Fülle von Informationen ermöglichen. Zudem könnten digitale Werkzeuge individualisiertes Lernen fördern, da jede Schülerin und jeder Schüler im eigenen Tempo arbeiten kann.\n\nGleichzeitig weisen Kritiker darauf hin, dass der übermäßige Gebrauch digitaler Geräte auch negative Folgen haben kann. So wird häufig befürchtet, dass die Konzentrationsfähigkeit der Schüler leidet, wenn sie ständig von Benachrichtigungen und Ablenkungen umgeben sind. Außerdem sei nicht erwiesen, dass digitale Medien tatsächlich zu besseren Lernergebnissen führen, obwohl viele Schulen in den letzten Jahren massiv in entsprechende Technik investiert haben.\n\nEin weiteres Problem besteht in der ungleichen Verteilung digitaler Kompetenzen unter den Lehrkräften. Während manche Lehrerinnen und Lehrer digitale Medien geschickt in ihren Unterricht integrieren, fühlen sich andere damit überfordert, weil ihnen die entsprechende Fortbildung gefehlt hat. Würde die Politik stärker in die Weiterbildung von Lehrkräften investieren, könnte dieses Problem deutlich gemildert werden.\n\nLetztendlich wird die Debatte wohl noch lange andauern. Es zeigt sich jedoch, dass digitale Medien weder als reine Heilsbringer noch als grundsätzliche Gefahr betrachtet werden sollten. Entscheidend ist vielmehr, wie durchdacht und pädagogisch sinnvoll sie in den Unterricht eingebunden werden.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter digitaler Medien sehen Vorteile für individualisiertes Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass digitale Geräte die Konzentration der Schüler verbessern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Lehrkräfte fühlen sich gleich sicher im Umgang mit digitalen Medien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fortbildungen könnten laut Text helfen, die ungleiche Kompetenzverteilung zu verringern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, digitale Medien seien grundsätzlich schädlich für den Unterricht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-grenzen-der-work-life-balance",
+    "nivel": "B2",
+    "titulo": "Die Grenzen der Work-Life-Balance",
+    "descripcion": "Ein kritischer Blick darauf, warum das Konzept der Work-Life-Balance in der modernen Arbeitswelt oft scheitert.",
+    "texto": "Kaum ein Begriff wird in der modernen Arbeitswelt so häufig verwendet wie „Work-Life-Balance“. Unternehmen werben damit, ihren Angestellten flexible Arbeitszeiten, Homeoffice-Möglichkeiten und zusätzliche Urlaubstage anzubieten, um Beruf und Privatleben besser miteinander vereinbaren zu können. Dennoch zeigen zahlreiche Studien, dass viele Arbeitnehmerinnen und Arbeitnehmer trotz dieser Maßnahmen zunehmend gestresst und ausgebrannt sind.\n\nEin zentrales Problem liegt darin, dass die vermeintliche Flexibilität oft dazu führt, dass die Grenzen zwischen Arbeit und Freizeit verschwimmen. Wenn Mitarbeitende theoretisch jederzeit und von überall aus arbeiten können, wird von ihnen implizit erwartet, dass sie auch abends und am Wochenende erreichbar sind. Es entsteht der Eindruck, man müsste ständig verfügbar sein, um als engagiert zu gelten, obwohl genau das Gegenteil einer gesunden Balance ist.\n\nHinzu kommt, dass viele Unternehmen zwar offiziell Wert auf das Wohlbefinden ihrer Angestellten legen, in der Praxis jedoch weiterhin hohe Leistungsziele setzen. Würden Führungskräfte tatsächlich konsequent dafür sorgen, dass Überstunden die Ausnahme bleiben, sähe die Situation vermutlich anders aus. Stattdessen wird oft nur über Work-Life-Balance gesprochen, ohne dass sich an den eigentlichen Arbeitsstrukturen etwas ändert.\n\nManche Expertinnen und Experten schlagen daher vor, den Begriff durch das Konzept der „Work-Life-Integration“ zu ersetzen, das realistischer anerkennt, dass sich Arbeit und Privatleben nicht vollständig trennen lassen. Andere fordern hingegen grundlegende strukturelle Reformen, etwa eine gesetzlich verankerte Vier-Tage-Woche. Klar ist jedenfalls, dass eine echte Balance nur erreicht werden kann, wenn Unternehmen bereit sind, ihre Arbeitskultur grundlegend zu überdenken.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text sind viele Arbeitnehmer trotz flexibler Arbeitsangebote gestresst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flexible Arbeitszeiten führen laut Text immer zu einer klaren Trennung von Arbeit und Freizeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen setzen trotz Work-Life-Balance-Angeboten weiterhin hohe Leistungsziele.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Expertinnen und Experten sind sich einig, dass eine Vier-Tage-Woche die einzige Lösung ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Begriff „Work-Life-Integration“ wird im Text als mögliche Alternative erwähnt.",
+        "respuesta": true
+      }
+    ]
   }
 ]
