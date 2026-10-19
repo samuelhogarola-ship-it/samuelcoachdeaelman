@@ -61718,5 +61718,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "neue-schuhe-kaufen",
+    "nivel": "A1",
+    "titulo": "Neue Schuhe kaufen",
+    "descripcion": "Lisa geht in ein Schuhgeschäft und kauft neue Schuhe.",
+    "texto": "Lisa braucht neue Schuhe. Ihre alten Schuhe sind kaputt. Sie geht am Samstag in die Stadt. Dort gibt es ein großes Schuhgeschäft.\n\nIn dem Geschäft sieht Lisa viele Schuhe. Es gibt rote Schuhe, blaue Schuhe und schwarze Schuhe. Lisa mag die schwarzen Schuhe. Sie fragt die Verkäuferin: „Haben Sie diese Schuhe in Größe 38?\" Die Verkäuferin sucht die Schuhe und bringt sie zu Lisa. Lisa probiert die Schuhe an. Die Schuhe passen gut.\n\nLisa kauft die schwarzen Schuhe. Sie bezahlt an der Kasse. Die Schuhe kosten vierzig Euro. Lisa ist glücklich. Sie trägt die neuen Schuhe gleich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Lisas alte Schuhe sind kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa geht am Montag in die Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa mag die schwarzen Schuhe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schuhe passen Lisa nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa trägt die neuen Schuhe nach Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-neues-fahrrad-fuer-tim",
+    "nivel": "A1",
+    "titulo": "Ein neues Fahrrad für Tim",
+    "descripcion": "Tim bekommt zum Geburtstag ein neues Fahrrad und fährt im Park.",
+    "texto": "Tim hat heute Geburtstag. Er wird zehn Jahre alt. Seine Eltern schenken ihm ein neues Fahrrad. Das Fahrrad ist grün und hat eine Klingel.\n\nTim ist sehr froh. Er zieht schnell seine Jacke an und geht mit dem Fahrrad nach draußen. Im Park fährt Tim mit seinem Vater. Der Park ist groß und hat viele Bäume. Tim fährt schnell und ruft: „Das macht Spaß!\" Sein Vater fährt langsam hinter ihm.\n\nNach einer Stunde sind Tim und sein Vater müde. Sie setzen sich auf eine Bank und trinken Wasser. Tim freut sich schon auf morgen. Dann will er wieder mit dem Fahrrad fahren.",
+    "preguntas": [
+      {
+        "enunciado": "Tim wird zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim fährt mit seinem Vater im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim bleibt zu Hause und schläft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim möchte morgen wieder Fahrrad fahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wetterwoche",
+    "nivel": "A1",
+    "titulo": "Die Wetterwoche",
+    "descripcion": "Eine kurze Übersicht über das Wetter in einer Woche.",
+    "texto": "Am Montag ist es sonnig. Die Sonne scheint und der Himmel ist blau. Am Dienstag ist es auch warm, aber es gibt ein paar Wolken. Am Mittwoch regnet es den ganzen Tag.\n\nAm Donnerstag ist es windig und kalt. Die Menschen tragen Jacken und Mützen. Am Freitag schneit es ein bisschen. Die Kinder sind sehr glücklich und spielen im Schnee.\n\nAm Samstag ist das Wetter wieder sonnig und schön. Viele Leute gehen spazieren. Am Sonntag bleibt die Familie zu Hause, weil es stark regnet. Sie spielen Karten und trinken heißen Tee.",
+    "preguntas": [
+      {
+        "enunciado": "Am Montag scheint die Sonne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Mittwoch ist der Himmel blau und sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Freitag schneit es ein bisschen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder sind traurig, weil es schneit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag bleibt die Familie zu Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-bei-der-oma",
+    "nivel": "A2",
+    "titulo": "Der Besuch bei der Oma",
+    "descripcion": "Paul hat seine Oma am Wochenende besucht und ihr im Garten geholfen.",
+    "texto": "Am Samstag hat Paul seine Oma besucht. Sie wohnt in einem kleinen Dorf, weil sie die Ruhe dort liebt. Paul ist mit dem Zug gefahren, denn seine Oma hat kein Auto mehr. Als er ankam, hat die Oma schon Kuchen gebacken.\n\nNach dem Essen hat Paul seiner Oma im Garten geholfen. Sie haben zusammen Blumen gepflanzt und Unkraut entfernt. Paul hat gemerkt, dass die Gartenarbeit mehr Spaß macht, als er dachte. Seine Oma hat ihm erzählt, dass sie den Garten schon seit vierzig Jahren pflegt.\n\nAm Abend hat Paul seiner Oma beim Abspülen geholfen, weil er wusste, dass sie müde war. Danach haben sie zusammen auf dem Sofa gesessen und alte Fotos angeschaut. Paul war froh, dass er seine Oma besucht hat, und er hat versprochen, bald wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Oma wohnt in einer großen Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul ist mit dem Zug zu seiner Oma gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul und seine Oma haben im Garten gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul fand die Gartenarbeit langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hat versprochen, bald wiederzukommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-tasche-am-bahnhof",
+    "nivel": "A2",
+    "titulo": "Die verlorene Tasche am Bahnhof",
+    "descripcion": "Sabine hat am Bahnhof ihre Tasche verloren und muss sie wiederfinden.",
+    "texto": "Sabine ist gestern zum Bahnhof gefahren, weil sie einen Zug nach München nehmen wollte. Sie hatte eine große Tasche mit ihrem Laptop und ihren Dokumenten. Als sie am Bahnhof ankam, hat sie die Tasche kurz auf eine Bank gestellt, um ihr Ticket zu suchen.\n\nNach ein paar Minuten hat Sabine bemerkt, dass die Tasche weg war. Sie hat sich sehr aufgeregt, weil wichtige Papiere darin waren. Sie ist sofort zum Informationsschalter gegangen und hat dem Mitarbeiter erzählt, was passiert ist. Der Mitarbeiter hat gesagt, dass jemand eine ähnliche Tasche gefunden und abgegeben hat.\n\nSabine ist zum Fundbüro gelaufen und hat tatsächlich ihre Tasche gefunden. Alles war noch drin: der Laptop, die Dokumente und sogar ihr Geldbeutel. Sabine hat sich sehr gefreut und dem Mitarbeiter herzlich gedankt. Sie hat gelernt, dass sie beim nächsten Mal besser auf ihre Sachen aufpassen muss.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine wollte mit dem Zug nach München fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine hat ihre Tasche sofort wiedergefunden, ohne zu suchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Tasche waren ein Laptop und Dokumente.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fundbüro hatte die Tasche von jemandem bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine hat ihren Geldbeutel in der Tasche nicht mehr gefunden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-zum-baggersee",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug zum Baggersee",
+    "descripcion": "Jonas und seine Freunde haben einen heißen Tag am Baggersee verbracht.",
+    "texto": "Letzten Sonntag war es sehr heiß, deshalb haben Jonas und seine Freunde beschlossen, zum Baggersee zu fahren. Sie haben ihre Fahrräder genommen, weil der See nicht weit vom Dorf entfernt liegt. Jeder hat ein Handtuch und etwas zu essen mitgebracht.\n\nAm See haben sie zuerst ein Volleyballnetz aufgebaut und eine Weile gespielt. Danach sind alle ins Wasser gesprungen, weil es draußen so warm war. Jonas hat seinen Freund Felix zu einem Wettschwimmen herausgefordert, aber Felix hat gewonnen. Alle haben viel gelacht, als Jonas ins Wasser gefallen ist.\n\nAm späten Nachmittag haben sie sich an den Strand gesetzt und ihre Sandwiches gegessen. Jonas hat gesagt, dass er diesen Ausflug nie vergessen wird, weil es so ein schöner Tag war. Bevor es dunkel wurde, sind sie wieder mit den Fahrrädern nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas und seine Freunde sind mit dem Bus zum See gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am See haben sie zuerst Volleyball gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hat das Wettschwimmen gewonnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand ist ins Wasser gesprungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind mit dem Fahrrad nach Hause gefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-in-der-neuen-firma",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag in der neuen Firma",
+    "descripcion": "Sophie beginnt einen neuen Job und erlebt einen aufregenden ersten Tag.",
+    "texto": "Sophie war sehr nervös, obwohl sie sich seit Wochen auf ihren ersten Arbeitstag vorbereitet hatte. Nachdem sie ihre Bewerbung geschrieben und mehrere Vorstellungsgespräche geführt hatte, hatte sie endlich die Stelle als Marketingassistentin bekommen. Am Morgen zog sie sich besonders ordentlich an und kam eine halbe Stunde früher an, um nicht unpünktlich zu wirken.\n\nIhr neuer Chef begrüßte sie freundlich und stellte sie den Kollegen vor. Obwohl die Namen der vielen Mitarbeiter schwer zu merken waren, versuchte Sophie, sich möglichst viele zu notieren. Nachdem die Vorstellungsrunde beendet war, bekam sie einen Schreibtisch neben einer erfahrenen Kollegin namens Julia, die ihr half, sich im Büro zurechtzufinden. Trotzdem fühlte sich Sophie an diesem ersten Tag ein wenig überfordert, weil es so viele neue Informationen gab.\n\nAm Nachmittag nahm Sophie an ihrer ersten Teamsitzung teil. Obwohl sie kaum etwas sagte, hörte sie aufmerksam zu und machte sich Notizen über die laufenden Projekte. Nachdem die Sitzung zu Ende war, fühlte sie sich schon etwas sicherer. Als sie abends nach Hause fuhr, war sie müde, aber auch zufrieden, denn trotz der anfänglichen Unsicherheit hatte sie das Gefühl, dass sie sich in ihrer neuen Firma wohlfühlen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hatte sich seit Wochen auf ihren ersten Arbeitstag vorbereitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie kam an ihrem ersten Tag zu spät zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia half Sophie, sich im Büro zurechtzufinden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie sprach viel in der ersten Teamsitzung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Tages fühlte sich Sophie zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-austauschjahr-in-frankreich",
+    "nivel": "B1",
+    "titulo": "Ein Austauschjahr in Frankreich",
+    "descripcion": "Lukas berichtet von seinen Erfahrungen während eines Schulaustauschs in Frankreich.",
+    "texto": "Lukas verbrachte ein ganzes Schuljahr in Frankreich, obwohl er zu Beginn kaum Französisch sprechen konnte. Nachdem er sich für das Austauschprogramm beworben hatte, wurde er einer Gastfamilie in der Nähe von Lyon zugeteilt. In den ersten Wochen verstand er in der Schule fast nichts, trotzdem gab er nicht auf und besuchte zusätzlich einen Sprachkurs am Nachmittag.\n\nMit der Zeit wurde es leichter, weil Lukas sich immer mehr an die Sprache und die Kultur gewöhnte. Seine Gastfamilie war sehr geduldig und erklärte ihm geduldig Wörter, die er nicht kannte. Nachdem die ersten drei Monate vergangen waren, konnte Lukas schon einfache Gespräche führen und fand sogar neue Freunde in seiner Klasse. Obwohl das Heimweh manchmal stark war, half ihm der regelmäßige Kontakt mit seinen Eltern über Videoanrufe.\n\nAm Ende des Austauschjahres war Lukas stolz auf seine Fortschritte. Er konnte fließend Französisch sprechen und hatte viele unvergessliche Erfahrungen gesammelt. Nachdem er nach Deutschland zurückgekehrt war, vermisste er seine Gastfamilie und seine französischen Freunde sehr. Trotzdem war er sich sicher, dass er eines Tages wieder nach Frankreich reisen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas sprach schon vor der Reise fließend Französisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas besuchte zusätzlich einen Sprachkurs am Nachmittag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas fand in seiner Klasse keine neuen Freunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas hatte regelmäßigen Kontakt mit seinen Eltern über Videoanrufe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Jahres konnte Lukas fließend Französisch sprechen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenfest-im-juli",
+    "nivel": "B1",
+    "titulo": "Das Straßenfest im Juli",
+    "descripcion": "Eine Nachbarschaft organisiert gemeinsam ein großes Straßenfest.",
+    "texto": "Jedes Jahr im Juli organisieren die Bewohner der Lindenstraße ein gemeinsames Straßenfest, obwohl die Vorbereitung jedes Mal viel Arbeit bedeutet. Nachdem sich die Nachbarn im Frühling getroffen hatten, um die Planung zu besprechen, verteilten sie die Aufgaben: Einige kümmerten sich um das Essen, andere um die Musik und wieder andere um die Dekoration der Straße.\n\nAm Tag des Festes wurde die Straße für den Verkehr gesperrt, damit Tische und Stühle aufgestellt werden konnten. Trotz des unsicheren Wetters am Morgen kamen am Nachmittag viele Familien mit selbstgebackenem Kuchen und frischem Salat. Die Kinder spielten zusammen auf der Straße, während die Erwachsenen sich unterhielten und neue Nachbarn kennenlernten. Nachdem das Essen verteilt war, begann eine kleine Band mit Live-Musik zu spielen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Straßenfest findet jedes Jahr im Juli statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn haben keine Aufgaben verteilt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Tag des Festes wurde die Straße für den Verkehr gesperrt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es kam niemand mit selbstgebackenem Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende spielte eine Band Live-Musik.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "flexible-arbeitszeitmodelle-in-unternehmen",
+    "nivel": "B2",
+    "titulo": "Flexible Arbeitszeitmodelle in Unternehmen",
+    "descripcion": "Eine Betrachtung der Chancen und Herausforderungen flexibler Arbeitszeiten.",
+    "texto": "In den letzten Jahren haben immer mehr Unternehmen begonnen, ihren Mitarbeitern flexible Arbeitszeitmodelle anzubieten. Statt feste Anwesenheitszeiten vorzuschreiben, erlauben zahlreiche Firmen ihren Angestellten, selbst zu entscheiden, wann und wo sie arbeiten. Befürworter argumentieren, dass dadurch sowohl die Produktivität als auch die Zufriedenheit der Mitarbeiter gesteigert werden könne.\n\nKritiker hingegen weisen darauf hin, dass flexible Arbeitszeiten auch Risiken mit sich bringen. Würden klare Grenzen zwischen Arbeit und Freizeit fehlen, könnten viele Beschäftigte dazu neigen, ständig erreichbar zu sein und sich selbst zu überlasten. Zudem werde die Zusammenarbeit im Team erschwert, wenn Kollegen zu völlig unterschiedlichen Zeiten arbeiteten, wodurch spontane Absprachen seltener würden.\n\nUm diesen Herausforderungen zu begegnen, setzen manche Unternehmen auf sogenannte Kernarbeitszeiten, während derer alle Mitarbeiter anwesend sein müssen. Dadurch soll gewährleistet werden, dass trotz der gewonnenen Flexibilität ein Mindestmaß an gemeinsamer Zusammenarbeit erhalten bleibt. Ob sich flexible Arbeitszeitmodelle langfristig durchsetzen werden, hängt letztlich davon ab, inwieweit es Unternehmen gelingt, Freiheit und Struktur sinnvoll miteinander zu verbinden.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Unternehmen bieten flexible Arbeitszeitmodelle an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Befürworter und Kritiker sind sich vollkommen einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker warnen vor einer möglichen Selbstüberlastung der Beschäftigten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kernarbeitszeiten sollen ein Mindestmaß an gemeinsamer Zusammenarbeit sichern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist bereits sicher, dass sich flexible Arbeitszeiten überall durchsetzen werden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "soziale-medien-und-die-meinungsbildung",
+    "nivel": "B2",
+    "titulo": "Soziale Medien und die Meinungsbildung",
+    "descripcion": "Eine kritische Analyse des Einflusses sozialer Medien auf politische Meinungen.",
+    "texto": "Soziale Medien haben die Art, wie Menschen sich über politische und gesellschaftliche Themen informieren, grundlegend verändert. Während früher vor allem Zeitungen und das Fernsehen die öffentliche Meinung prägten, werden Nachrichten heute zunehmend über Plattformen wie soziale Netzwerke verbreitet, auf denen jeder Nutzer selbst zum Verfasser von Inhalten werden kann.\n\nBefürworter betonen, dass soziale Medien die Meinungsvielfalt erhöhten, da auch Stimmen Gehör fänden, die in traditionellen Medien kaum vorkämen. Kritiker hingegen warnen vor der Gefahr sogenannter Filterblasen, in denen Nutzer überwiegend mit Inhalten konfrontiert würden, die ihrer eigenen Meinung entsprächen. Dadurch würde die Auseinandersetzung mit abweichenden Standpunkten erschwert, was wiederum die gesellschaftliche Polarisierung verstärken könne.\n\nHinzu kommt, dass Falschinformationen sich auf sozialen Plattformen besonders schnell verbreiten können, da emotionale oder reißerische Inhalte häufiger geteilt werden als sachliche Berichte. Würden Plattformbetreiber strengere Regeln zur Überprüfung von Inhalten einführen, ließe sich dieses Problem zumindest teilweise eindämmen. Letztlich bleibt die Frage, inwieweit Nutzer selbst bereit sind, ihre eigene Informationsaufnahme kritisch zu hinterfragen, anstatt sich ausschließlich auf algorithmisch kuratierte Inhalte zu verlassen.",
+    "preguntas": [
+      {
+        "enunciado": "Früher prägten vor allem Zeitungen und das Fernsehen die öffentliche Meinung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Befürwortern verringern soziale Medien die Meinungsvielfalt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen können die gesellschaftliche Polarisierung verstärken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sachliche Berichte werden laut Text häufiger geteilt als emotionale Inhalte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text stellt die Frage, wie kritisch Nutzer ihre eigene Informationsaufnahme hinterfragen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "pflegekraeftemangel-in-deutschen-kliniken",
+    "nivel": "B2",
+    "titulo": "Pflegekräftemangel in deutschen Kliniken",
+    "descripcion": "Eine Analyse der Ursachen und möglichen Lösungen des Pflegekräftemangels.",
+    "texto": "Der Mangel an qualifiziertem Pflegepersonal gehört seit Jahren zu den größten Herausforderungen des deutschen Gesundheitssystems. Viele Kliniken berichten davon, dass ganze Stationen nur eingeschränkt betrieben werden könnten, weil schlicht nicht genügend Pflegekräfte zur Verfügung stünden. Besonders betroffen seien ländliche Regionen, in denen es ohnehin schwerer sei, qualifiziertes Personal zu gewinnen.\n\nExperten führen den Mangel auf mehrere Ursachen zurück. Zum einen seien die Arbeitsbedingungen in der Pflege häufig von hoher körperlicher und psychischer Belastung geprägt, während die Bezahlung im Vergleich zu anderen Berufen oft als unzureichend empfunden werde. Zum anderen verließen viele ausgebildete Pflegekräfte den Beruf bereits nach wenigen Jahren wieder, weil Familie und Schichtdienst sich kaum vereinbaren ließen. Würden die Arbeitsbedingungen spürbar verbessert, könnte laut Studien ein erheblicher Teil dieser Fachkräfte im Beruf gehalten werden.\n\nAls mögliche Lösungsansätze werden unter anderem höhere Gehälter, eine bessere Personalausstattung sowie flexiblere Arbeitszeitmodelle diskutiert. Zudem setzen manche Kliniken verstärkt auf die Anwerbung von Pflegekräften aus dem Ausland, was jedoch mit bürokratischen Hürden verbunden sei. Ob diese Maßnahmen ausreichen, um den Pflegekräftemangel langfristig zu beheben, bleibt ungewiss, zumal die Zahl der pflegebedürftigen Menschen in Deutschland aufgrund des demografischen Wandels weiter steigen dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Der Pflegekräftemangel betrifft besonders stark ländliche Regionen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist die Bezahlung in der Pflege allgemein als sehr hoch bekannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Pflegekräfte verlassen den Beruf, weil Familie und Schichtdienst schwer vereinbar sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Anwerbung von Pflegekräften aus dem Ausland ist laut Text völlig unbürokratisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahl der pflegebedürftigen Menschen dürfte aufgrund des demografischen Wandels weiter steigen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
