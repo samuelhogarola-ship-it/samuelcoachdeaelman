@@ -62762,5 +62762,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-fahrrad-ist-blau",
+    "nivel": "A1",
+    "titulo": "Mein Fahrrad ist blau",
+    "descripcion": "Tim erzählt kurz über sein neues Fahrrad und seinen Schulweg.",
+    "texto": "Ich heiße Tim. Ich bin zehn Jahre alt. Ich habe ein neues Fahrrad. Mein Fahrrad ist blau. Es hat zwei große Räder und eine kleine Glocke. Ich fahre jeden Tag mit dem Fahrrad zur Schule.\n\nDie Schule ist nicht weit. Der Weg dauert nur zehn Minuten. Ich fahre durch den Park und über eine Brücke. Im Park sehe ich oft Vögel und Hunde. Am Morgen ist die Luft frisch und kalt.\n\nNach der Schule fahre ich mit meinem Freund Paul nach Hause. Paul hat ein rotes Fahrrad. Wir fahren zusammen und sprechen über den Schultag. Zu Hause stelle ich mein Fahrrad in die Garage.",
+    "preguntas": [
+      {
+        "enunciado": "Tims Fahrrad ist blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim ist zwölf Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schulweg dauert eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim fährt durch einen Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pauls Fahrrad ist grün.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "lisas-neue-schultasche",
+    "nivel": "A1",
+    "titulo": "Lisas neue Schultasche",
+    "descripcion": "Lisa bekommt eine neue Schultasche und packt sie für die Schule.",
+    "texto": "Lisa ist acht Jahre alt. Heute hat sie eine neue Schultasche. Die Schultasche ist gelb und hat viele Taschen. Lisa findet die Schultasche sehr schön. Sie packt ihre Bücher und Stifte hinein.\n\nIn der Schultasche sind ein Buch, ein Heft, zwei Stifte und ein Radiergummi. Lisa packt auch ihr Pausenbrot ein. Das Brot hat Käse und Tomate. Ihre Mutter gibt ihr auch einen Apfel mit.\n\nAm Morgen geht Lisa mit der neuen Schultasche zur Schule. Ihre Freundin Mia findet die Tasche toll. „Deine Tasche ist wirklich schön!“, sagt Mia. Lisa lächelt und ist glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lisas Schultasche ist gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa ist zehn Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Tasche ist ein Apfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia findet die Tasche nicht schön.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisas Brot hat Käse und Tomate.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "drei-geschwister-kochen-suppe",
+    "nivel": "A1",
+    "titulo": "Drei Geschwister kochen Suppe",
+    "descripcion": "Drei Geschwister kochen zusammen eine einfache Gemüsesuppe.",
+    "texto": "Lena, Finn und Ben sind Geschwister. Heute kochen sie zusammen. Sie kochen eine Suppe. Die Suppe hat Kartoffeln, Karotten und Zwiebeln. Lena schneidet die Karotten. Finn schneidet die Kartoffeln.\n\nBen ist der kleinste. Er darf das Wasser in den Topf gießen. Die Kinder kochen das Gemüse zwanzig Minuten. Die Küche riecht sehr gut. Lena schmeckt die Suppe und sagt: „Sie braucht noch etwas Salz.“\n\nNach dem Kochen essen alle drei zusammen am Tisch. Die Suppe ist warm und lecker. Die Mutter kommt nach Hause und freut sich. „Das riecht fantastisch!“, sagt sie und probiert die Suppe auch.",
+    "preguntas": [
+      {
+        "enunciado": "Die Geschwister kochen eine Suppe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben ist der älteste von den drei Kindern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena schneidet die Karotten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Suppe hat Fleisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter probiert die Suppe am Ende.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-zahnarzttermin-am-dienstag",
+    "nivel": "A2",
+    "titulo": "Der Zahnarzttermin am Dienstag",
+    "descripcion": "Jonas hatte Angst vor dem Zahnarzt, aber der Termin lief gut.",
+    "texto": "Jonas hatte am Dienstag einen Termin beim Zahnarzt. Er hatte seit Tagen Angst, weil er dachte, dass es wehtun würde. Seine Mutter hat ihm gesagt, dass er keine Angst haben muss. Trotzdem war Jonas am Morgen sehr nervös und hat kaum gefrühstückt.\n\nIm Wartezimmer hat er ein paar Comics gelesen, um sich abzulenken. Als er endlich aufgerufen wurde, hat die Zahnärztin ihm freundlich erklärt, was sie machen würde. Sie hat seine Zähne kontrolliert und ein kleines Loch gefunden. Weil das Loch noch klein war, hat sie es schnell und ohne Schmerzen behandelt.\n\nNach der Behandlung hat Jonas erzählt, dass es gar nicht so schlimm war, wie er gedacht hatte. Die Zahnärztin hat ihm gesagt, dass er öfter die Zähne putzen soll. Zum Schluss hat er von der Assistentin eine kleine Belohnung bekommen, weil er so tapfer war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte vor dem Termin keine Angst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Wartezimmer hat Jonas Comics gelesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahnärztin hat ein großes Loch gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Behandlung hat Jonas Schmerzen bereitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat am Ende eine kleine Belohnung bekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-sms-von-tante-erika",
+    "nivel": "A2",
+    "titulo": "Eine SMS von Tante Erika",
+    "descripcion": "Paula bekommt eine überraschende Nachricht von ihrer Tante und plant einen Besuch.",
+    "texto": "Paula hat am Nachmittag eine SMS von ihrer Tante Erika bekommen. Tante Erika hat geschrieben, dass sie nächste Woche in die Stadt kommt, weil sie eine Freundin besuchen möchte. Paula hat sich sehr gefreut, weil sie ihre Tante schon lange nicht mehr gesehen hat.\n\nSofort hat Paula ihre Eltern angerufen, um ihnen die Neuigkeit zu erzählen. Ihr Vater hat vorgeschlagen, dass die ganze Familie zusammen essen geht, wenn Tante Erika da ist. Paula hat sich auch überlegt, dass sie ihrer Tante die neue Wohnung zeigen möchte, weil die Familie erst vor zwei Monaten umgezogen ist.\n\nAm Abend hat Paula ihrer Tante geantwortet und ein Treffen vorgeschlagen. Tante Erika hat sich gefreut und geschrieben, dass sie am Samstag Zeit hat. Paula hat schon angefangen zu planen, was sie ihrer Tante alles zeigen will.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Erika schreibt Paula eine SMS.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula hat ihre Tante erst letzte Woche gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Familie ist vor zwei Monaten umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Erika hat am Samstag Zeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula möchte ihrer Tante die neue Wohnung zeigen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-nasser-tag-im-bus",
+    "nivel": "A2",
+    "titulo": "Ein nasser Tag im Bus",
+    "descripcion": "Sophie erlebt einen regnerischen Morgen, an dem im Bus alles schiefläuft.",
+    "texto": "Am Montagmorgen hat es sehr stark geregnet. Sophie ist zur Bushaltestelle gelaufen, weil sie ihren Regenschirm vergessen hatte. Als der Bus endlich kam, war er schon sehr voll. Sophie musste stehen, obwohl sie müde war.\n\nIm Bus hat eine Frau versehentlich auf Sophies nassen Schuh getreten, und beide haben sich entschuldigt. Weil die Fenster beschlagen waren, konnte Sophie kaum nach draußen sehen. Plötzlich ist der Bus wegen eines Staus stehen geblieben, und Sophie hatte Angst, dass sie zu spät zur Arbeit kommt.\n\nNachdem der Bus endlich weitergefahren ist, ist Sophie nur fünf Minuten zu spät angekommen. Ihre Chefin hat gelacht und gesagt, dass fast alle an diesem Tag Probleme mit dem Verkehr hatten. Am Abend hat Sophie sich vorgenommen, immer einen Regenschirm im Rucksack zu haben.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hatte ihren Regenschirm dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bus war am Morgen sehr leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bus blieb wegen eines Staus stehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie kam fünf Minuten zu spät zur Arbeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Chefin war sehr wütend auf Sophie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-die-hausaufgaben",
+    "nivel": "B1",
+    "titulo": "Der Streit um die Hausaufgaben",
+    "descripcion": "Ein Geschwisterstreit über Hausaufgaben zeigt, wie Missverständnisse entstehen und gelöst werden können.",
+    "texto": "Mara und ihr jüngerer Bruder Tom teilen sich ein Zimmer, in dem sie beide ihre Hausaufgaben machen. Obwohl sie sich meistens gut verstehen, kam es an einem Nachmittag zu einem heftigen Streit. Tom wollte laute Musik hören, während Mara sich auf eine wichtige Mathearbeit vorbereiten musste. Als Mara ihn bat, leiser zu sein, reagierte Tom gereizt und meinte, dass sie sich ja woanders hinsetzen könne.\n\nDer Streit wurde lauter, bis die Mutter ins Zimmer kam, um nachzusehen, was los war. Nachdem sie beiden Seiten zugehört hatte, schlug sie vor, dass Tom seine Kopfhörer benutzen solle, damit Mara in Ruhe arbeiten könne. Tom war zunächst wenig begeistert von dieser Lösung, akzeptierte sie aber schließlich, weil er einsah, dass seine Schwester tatsächlich für eine wichtige Prüfung lernte.\n\nAm Abend entschuldigten sich beide bei ihrer Mutter sowie bei einander, und Mara erklärte Tom, wie wichtig ihr die Mathearbeit war. Trotzdem war Tom am nächsten Tag immer noch etwas beleidigt, weil er sich nicht ernst genommen fühlte. Erst als Mara ihm anbot, ihm am Wochenende bei seinen eigenen Hausaufgaben zu helfen, war der Streit endgültig vergessen.",
+    "preguntas": [
+      {
+        "enunciado": "Mara und Tom teilen sich ein Zimmer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom wollte beim Lernen helfen, deshalb spielte er Musik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter schlägt vor, dass Tom Kopfhörer benutzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom war sofort begeistert von der Lösung der Mutter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende bietet Mara an, Tom bei seinen Hausaufgaben zu helfen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-ungewoehnliche-geburtstagsfeier",
+    "nivel": "B1",
+    "titulo": "Eine ungewöhnliche Geburtstagsfeier",
+    "descripcion": "Statt einer klassischen Party organisiert Jana eine ungewöhnliche Geburtstagsfeier im Freien.",
+    "texto": "Jana wollte ihren dreißigsten Geburtstag auf keinen Fall klassisch feiern. Anstatt eine Party in einer Bar zu organisieren, lud sie ihre Freunde zu einer Wanderung in die Berge ein, nachdem sie monatelang nach einer passenden Route gesucht hatte. Viele ihrer Freunde waren zunächst überrascht, einige sogar etwas skeptisch, da das Wetter im Oktober unsicher sein konnte.\n\nAm Tag der Feier trafen sich alle früh am Morgen, obwohl einige von ihnen lieber länger geschlafen hätten. Während des Aufstiegs wurde viel gelacht, und zwischendurch machten sie Pausen, um Tee aus Thermoskannen zu trinken. Nachdem sie den Gipfel erreicht hatten, breiteten sie eine Picknickdecke aus und packten selbstgebackenen Kuchen aus, den Jana extra für diesen Anlass vorbereitet hatte.\n\nAls plötzlich dichte Wolken aufzogen, mussten alle schnell wieder absteigen, bevor es zu regnen begann. Trotz des unerwarteten Wetterumschwungs war sich die Gruppe am Ende einig, dass es eine der schönsten Geburtstagsfeiern gewesen sei, an die sie sich erinnern konnten. Jana selbst sagte, dass sie diese Feier nie vergessen werde, weil sie so anders als alle vorherigen gewesen sei.",
+    "preguntas": [
+      {
+        "enunciado": "Jana feiert ihren Geburtstag in einer Bar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana organisiert eine Wanderung in die Berge.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Freunde waren von Anfang an begeistert von der Idee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe musste wegen aufziehender Wolken schnell absteigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana findet, dass die Feier nicht besonders war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-alte-fahrradkeller",
+    "nivel": "B1",
+    "titulo": "Der alte Fahrradkeller",
+    "descripcion": "Die Bewohner eines Mietshauses entdecken beim Aufräumen des Fahrradkellers alte Erinnerungsstücke.",
+    "texto": "In dem Mietshaus, in dem Familie Kessler seit zehn Jahren wohnt, gibt es einen alten Fahrradkeller, der schon lange nicht mehr richtig aufgeräumt wurde. Als die Hausverwaltung ankündigte, dass der Keller renoviert werden sollte, mussten alle Bewohner ihre Fahrräder und sonstigen Gegenstände innerhalb von zwei Wochen entfernen. Viele waren zunächst genervt von dieser Aufgabe, weil sie wenig Zeit hatten.\n\nBeim Aufräumen entdeckte Herr Kessler ein altes Kinderfahrrad, das seiner Tochter gehört hatte, obwohl sie es seit Jahren vergessen hatte. Auch andere Nachbarn fanden vergessene Gegenstände, etwa einen rostigen Werkzeugkasten oder alte Kinderwagen. Nachdem die Bewohner gemeinsam aufgeräumt hatten, beschlossen sie spontan, einen kleinen Flohmarkt im Hof zu veranstalten.\n\nDer Flohmarkt wurde überraschend gut besucht, und viele Nachbarn, die sich vorher kaum kannten, kamen ins Gespräch. Am Ende des Tages war der Keller nicht nur aufgeräumt, sondern die Hausgemeinschaft auch ein Stück enger zusammengewachsen. Frau Kessler meinte scherzhaft, dass man öfter renovieren sollte, wenn dabei solche Nachbarschaftstreffen entstehen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Fahrradkeller sollte renoviert werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Kessler findet ein altes Kinderfahrrad seiner Tochter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bewohner hatten mehrere Monate Zeit, um den Keller zu räumen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Aufräumen findet im Hof ein Flohmarkt statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn lernen sich beim Flohmarkt nicht näher kennen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-gesellschaftliche-wert-ehrenamtlicher-arbeit",
+    "nivel": "B2",
+    "titulo": "Der gesellschaftliche Wert ehrenamtlicher Arbeit",
+    "descripcion": "Ein Essay darüber, welche Rolle freiwilliges Engagement in modernen Gesellschaften spielt und welche Herausforderungen damit verbunden sind.",
+    "texto": "Ehrenamtliche Arbeit gilt in vielen Gesellschaften als unverzichtbarer Bestandteil des sozialen Zusammenlebens, da zahlreiche Aufgaben, die von öffentlichen Institutionen nicht vollständig übernommen werden können, auf freiwilligem Engagement beruhen. Von der Nachbarschaftshilfe über die Betreuung Geflüchteter bis hin zur Organisation von Kulturveranstaltungen übernehmen Freiwillige Aufgaben, die ohne ihr Engagement entweder gar nicht oder nur unzureichend erfüllt würden. Zugleich wird jedoch zunehmend diskutiert, ob der Staat sich zu stark auf unentgeltliche Arbeit verlässt, anstatt ausreichende finanzielle Mittel für professionelle Strukturen bereitzustellen.\n\nBesonders in sozialen Bereichen wie der Altenpflege oder der Unterstützung von Menschen mit Behinderung zeigt sich, dass ehrenamtliches Engagement oft an seine Grenzen stößt, wenn es strukturelle Lücken dauerhaft kompensieren soll. Würde der Staat konsequent in bezahlte Fachkräfte investieren, müssten Freiwillige nicht Aufgaben übernehmen, für die eigentlich eine professionelle Ausbildung erforderlich wäre. Dennoch betonen viele Ehrenamtliche, dass ihr Engagement weniger aus einem Pflichtgefühl als aus persönlicher Überzeugung entsteht, wodurch ihre Arbeit eine Qualität erhält, die rein finanzielle Anreize kaum ersetzen könnten.\n\nLetztlich stellt sich die Frage, wie eine Gesellschaft ein Gleichgewicht finden kann, in dem freiwilliges Engagement wertgeschätzt und gefördert wird, ohne dass es zur Rechtfertigung fehlender staatlicher Investitionen missbraucht wird. Eine mögliche Lösung bestünde darin, dass hauptamtliche und ehrenamtliche Strukturen enger zusammenarbeiten, sodass Freiwillige entlastet würden und sich auf jene Tätigkeiten konzentrieren könnten, die tatsächlich von ihrem persönlichen Engagement profitieren, statt strukturelle Defizite auszugleichen, die eigentlich in die Verantwortung des Staates fallen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text behauptet, dass ehrenamtliche Arbeit für das soziale Zusammenleben bedeutungslos ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Text wird kritisch diskutiert, ob der Staat sich zu stark auf Freiwillige verlässt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text stößt ehrenamtliches Engagement manchmal an seine Grenzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass alle Ehrenamtlichen nur aus Pflichtgefühl handeln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt eine engere Zusammenarbeit zwischen hauptamtlichen und ehrenamtlichen Strukturen vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-bewerbungsprozess",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Bewerbungsprozess",
+    "descripcion": "Eine Auseinandersetzung mit den Chancen und Risiken, die der Einsatz von künstlicher Intelligenz bei Personalentscheidungen mit sich bringt.",
+    "texto": "Immer mehr Unternehmen setzen künstliche Intelligenz ein, um Bewerbungsunterlagen vorzusortieren und geeignete Kandidaten für eine Stelle zu identifizieren. Befürworter dieser Entwicklung argumentieren, dass Algorithmen in der Lage seien, große Mengen an Bewerbungen objektiver und schneller zu bewerten, als es menschliche Personalverantwortliche könnten. Dadurch würde der Bewerbungsprozess nicht nur effizienter, sondern angeblich auch gerechter gestaltet, da subjektive Vorurteile vermeintlich keine Rolle mehr spielten.\n\nAllerdings mehren sich kritische Stimmen, die darauf hinweisen, dass auch algorithmische Systeme nicht frei von Verzerrungen sind, sofern sie mit historischen Daten trainiert wurden, die bereits bestehende Diskriminierungsmuster widerspiegeln. Würde ein System beispielsweise überwiegend mit Daten erfolgreicher männlicher Bewerber trainiert, bestünde die Gefahr, dass weibliche Bewerberinnen systematisch benachteiligt würden, ohne dass dies den Verantwortlichen unmittelbar auffiele. Hinzu kommt, dass viele dieser Systeme als sogenannte Black Boxes funktionieren, deren Entscheidungswege selbst für Fachleute kaum nachvollziehbar sind.\n\nAngesichts dieser Problematik wird gefordert, dass der Einsatz von künstlicher Intelligenz im Bewerbungsprozess stärker reguliert und transparenter gestaltet werden müsse. Sollten Unternehmen verpflichtet werden, ihre Algorithmen regelmäßig von unabhängigen Stellen überprüfen zu lassen, ließe sich das Risiko diskriminierender Entscheidungen zumindest verringern. Letztlich bleibt jedoch fraglich, ob rein technische Lösungen ausreichen, um ein Problem zu beheben, das letztlich tief in gesellschaftlichen Strukturen verwurzelt ist.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text behauptet, dass künstliche Intelligenz im Bewerbungsprozess ausschließlich Vorteile bringt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter argumentieren, dass Algorithmen Bewerbungen schneller bewerten können.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text sind algorithmische Systeme grundsätzlich frei von Verzerrungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erklärt, dass viele Systeme als Black Boxes funktionieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird eine stärkere Regulierung und Transparenz gefordert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-innenstaedte-im-wandel-des-onlinehandels",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Innenstädte im Wandel des Onlinehandels",
+    "descripcion": "Eine Betrachtung darüber, wie der wachsende Onlinehandel die Innenstädte verändert und welche Strategien diskutiert werden, um sie attraktiv zu halten.",
+    "texto": "In den vergangenen Jahren hat der zunehmende Onlinehandel die Innenstädte vieler Städte grundlegend verändert. Immer mehr traditionelle Geschäfte, die früher das Stadtbild prägten, mussten schließen, weil sie mit den niedrigeren Preisen und der Bequemlichkeit großer Online-Plattformen nicht konkurrieren konnten. Leerstehende Ladenflächen und zunehmend leere Fußgängerzonen sind in vielen Städten inzwischen ein vertrautes Bild, das bei Stadtplanern und Politikern erhebliche Besorgnis auslöst.\n\nUm dieser Entwicklung entgegenzuwirken, werden verschiedene Konzepte diskutiert, mit denen Innenstädte wieder attraktiver gestaltet werden sollen. Manche Städte setzen auf eine stärkere Durchmischung von Wohnen, Gastronomie und Kultur, damit Innenstädte nicht mehr ausschließlich als Einkaufsorte, sondern als vielfältige Lebensräume wahrgenommen werden. Andere Städte fördern gezielt kleine, lokale Geschäfte, die ein besonderes Einkaufserlebnis bieten, welches von Online-Plattformen kaum reproduziert werden kann, etwa durch persönliche Beratung oder individuell gestaltete Produkte.\n\nTrotz dieser Bemühungen bleibt fraglich, ob es gelingen wird, die Innenstädte dauerhaft zu revitalisieren, solange sich das Konsumverhalten der Menschen nicht grundlegend ändert. Würden mehr Menschen bereit sein, bewusst in lokalen Geschäften einzukaufen, obwohl dies oft mit höheren Preisen und größerem Aufwand verbunden ist, könnte dies einen entscheidenden Unterschied machen. Letztlich hängt die Zukunft der Innenstädte also nicht nur von politischen Maßnahmen ab, sondern auch davon, welchen Wert die Gesellschaft lebendigen, physischen Begegnungsräumen im Vergleich zur Bequemlichkeit des Onlinehandels beimisst.",
+    "preguntas": [
+      {
+        "enunciado": "Der Onlinehandel hat laut Text keinen Einfluss auf die Innenstädte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Leerstehende Ladenflächen sind in vielen Innenstädten inzwischen üblich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche Städte setzen auf eine Durchmischung von Wohnen, Gastronomie und Kultur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass lokale Geschäfte keine Vorteile gegenüber Online-Plattformen bieten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text hängt die Zukunft der Innenstädte auch vom Konsumverhalten der Menschen ab.",
+        "respuesta": true
+      }
+    ]
   }
 ]
