@@ -62066,5 +62066,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "ich-heisse-lisa",
+    "nivel": "A1",
+    "titulo": "Ich heiße Lisa",
+    "descripcion": "Lisa stellt sich und ihre Familie vor.",
+    "texto": "Ich heiße Lisa. Ich bin vierzehn Jahre alt. Ich komme aus München. Meine Lieblingsfarbe ist grün. Ich habe einen Bruder und eine Schwester.\n\nMeine Familie ist sehr nett. Mein Vater heißt Peter. Meine Mutter heißt Sabine. Mein Bruder heißt Tom. Meine Schwester heißt Mia. Wir wohnen in einem kleinen Haus.\n\nAm Wochenende spielen wir oft zusammen. Ich spiele gern Gitarre. Tom spielt gern Fußball. Mia malt gern Bilder. Wir essen gern Pizza am Freitagabend.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa ist vierzehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa kommt aus Berlin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisas Bruder heißt Tom.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia spielt gern Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst am Freitagabend gern Pizza.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-obststand-vor-dem-haus",
+    "nivel": "A1",
+    "titulo": "Der Obststand vor dem Haus",
+    "descripcion": "Jonas kauft Obst an einem kleinen Stand vor seinem Haus.",
+    "texto": "Vor Jonas' Haus steht ein kleiner Obststand. Der Mann am Stand heißt Herr Keller. Jonas kauft dort oft Äpfel und Bananen. Die Äpfel sind rot und süß. Die Bananen sind gelb.\n\nHeute kauft Jonas zwei Kilo Äpfel. Er kauft auch vier Bananen für seine Mutter. Herr Keller lächelt und gibt Jonas eine Tüte. Die Tüte ist braun und groß. Jonas bezahlt fünf Euro.\n\nZu Hause wäscht Jonas die Äpfel. Seine Mutter freut sich sehr. Sie macht einen Apfelkuchen für die Familie. Der Kuchen riecht lecker. Am Abend essen alle ein Stück Kuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Obststand steht vor Jonas' Haus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bananen sind grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas kauft zwei Kilo Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas bezahlt zehn Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas' Mutter backt einen Apfelkuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-hobby-tanzen",
+    "nivel": "A1",
+    "titulo": "Mein Hobby: Tanzen",
+    "descripcion": "Sofia erzählt von ihrem Hobby, dem Tanzen.",
+    "texto": "Ich heiße Sofia. Mein Hobby ist Tanzen. Ich tanze jeden Dienstag und Donnerstag. Die Tanzschule ist nicht weit von meinem Haus. Meine Freundin Emma tanzt auch dort.\n\nWir lernen verschiedene Tänze. Ich mag besonders den Hip-Hop-Tanz. Emma mag lieber Ballett. Unsere Lehrerin heißt Frau Wolf. Sie ist sehr geduldig und freundlich.\n\nEinmal im Jahr machen wir eine große Show. Viele Eltern und Freunde kommen dann. Ich bin immer ein bisschen nervös vor der Show. Aber danach bin ich sehr glücklich. Tanzen macht mir viel Spaß.",
+    "preguntas": [
+      {
+        "enunciado": "Sofia tanzt jeden Montag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma mag Ballett lieber als Hip-Hop.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tanzlehrerin heißt Frau Wolf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia ist vor der Show nie nervös.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einmal im Jahr gibt es eine Show.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-der-ferienwohnung",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus der Ferienwohnung",
+    "descripcion": "Julia schreibt ihrer besten Freundin einen Brief aus dem Urlaub an der Ostsee.",
+    "texto": "Liebe Nina, ich schreibe dir diesen Brief aus unserer Ferienwohnung an der Ostsee. Wir sind seit drei Tagen hier und haben schon viel erlebt. Am ersten Tag sind wir sofort an den Strand gegangen, weil das Wetter so schön war. Das Wasser war noch kalt, aber wir sind trotzdem geschwommen.\n\nGestern haben wir eine lange Fahrradtour gemacht. Wir sind durch einen Wald gefahren und haben am Ende einen alten Leuchtturm besucht. Meine Eltern haben gesagt, dass der Leuchtturm schon über hundert Jahre alt ist. Danach haben wir in einem kleinen Café frischen Fisch gegessen.\n\nMorgen wollen wir einen Ausflug in die nächste Stadt machen, wenn das Wetter gut bleibt. Ich hoffe, dass es nicht regnet. Ich vermisse dich und erzähle dir alles, wenn ich wieder zu Hause bin. Viele liebe Grüße, Julia",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist mit ihrer Familie an der Ostsee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am ersten Tag war das Wasser sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia und ihre Familie haben einen Leuchtturm besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Leuchtturm ist noch ganz neu.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia plant einen Ausflug in die nächste Stadt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ungewoehnliches-wochenende",
+    "nivel": "A2",
+    "titulo": "Ein ungewöhnliches Wochenende",
+    "descripcion": "Tobias erzählt, wie sein Wochenende ganz anders als geplant verlaufen ist.",
+    "texto": "Tobias hat das Wochenende ganz anders verbracht, als er geplant hatte. Eigentlich wollte er mit Freunden ins Kino gehen, aber er ist am Samstagmorgen krank geworden. Weil er starke Kopfschmerzen hatte, ist er den ganzen Tag im Bett geblieben. Seine Mutter hat ihm Tee gekocht und ein Buch gebracht.\n\nAm Nachmittag hat ihn sein bester Freund Paul besucht. Paul hat gesagt, dass er sich auch nicht wohlgefühlt hat. Die beiden haben zusammen Filme auf dem Laptop geschaut und über die Schule gesprochen. Obwohl Tobias krank war, hat er sich über den Besuch gefreut.\n\nAm Sonntag ist es ihm schon viel besser gegangen. Er ist kurz spazieren gegangen, weil er frische Luft brauchte. Danach hat er mit seiner Familie zu Abend gegessen. Tobias hat gedacht, dass ein ruhiges Wochenende manchmal auch gut sein kann.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias ist am Samstag ins Kino gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hatte am Samstag Kopfschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat Tobias am Nachmittag besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag ging es Tobias noch schlechter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias ist am Sonntag spazieren gegangen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zugfahrt-nach-koeln",
+    "nivel": "A2",
+    "titulo": "Die Zugfahrt nach Köln",
+    "descripcion": "Markus fährt mit dem Zug nach Köln und erlebt eine kleine Verspätung.",
+    "texto": "Markus ist am Freitag mit dem Zug nach Köln gefahren, weil er seine Cousine besuchen wollte. Er ist früh am Bahnhof angekommen und hat sich einen Kaffee gekauft. Der Zug sollte um neun Uhr abfahren, aber er hatte zwanzig Minuten Verspätung.\n\nIm Zug hat Markus neben einer älteren Frau gesessen, die ihm von ihrer Reise nach Spanien erzählt hat. Markus hat gedacht, dass die Geschichten sehr interessant waren. Als der Zug endlich in Köln angekommen ist, hat seine Cousine schon am Bahnsteig gewartet.\n\nSie sind zusammen zum Dom gegangen und haben die Stadt besichtigt. Markus hat gesagt, dass er den Dom noch größer erwartet hatte. Am Abend haben sie in einem gemütlichen Restaurant gegessen. Markus war froh, dass er die Reise trotz der Verspätung gemacht hat.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist mit dem Auto nach Köln gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug hatte zwanzig Minuten Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat im Zug mit niemandem gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus' Cousine hat am Bahnsteig gewartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus und seine Cousine haben den Dom besichtigt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-nach-freiburg",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Freiburg",
+    "descripcion": "Eine Schulklasse verbringt drei Tage in Freiburg und erlebt dabei einige Überraschungen.",
+    "texto": "Nachdem die Klasse 9b monatelang auf die Klassenfahrt gewartet hatte, ging es endlich los. Das Ziel war Freiburg im Breisgau, eine Stadt, die für ihre Altstadt und den Schwarzwald bekannt ist. Obwohl die Busfahrt fast fünf Stunden dauerte, war die Stimmung von Anfang an gut. Die Schüler sangen Lieder und spielten Karten.\n\nIn Freiburg angekommen, bezogen die Schüler ihre Zimmer in der Jugendherberge und machten sich dann auf einen Rundgang durch die Altstadt. Trotzdem die Füße nach dem langen Sitzen im Bus müde waren, wollten alle die berühmten Bächle sehen, die kleinen Wasserkanäle, die durch die Straßen fließen. Am zweiten Tag unternahm die Klasse eine Wanderung in den Schwarzwald, bei der einige Schüler fast den Weg verloren, weil sie zu schnell vorausgingen.\n\nAm letzten Abend organisierte die Klassenlehrerin ein gemeinsames Grillfest im Garten der Jugendherberge. Obwohl das Wetter zunächst unsicher war, blieb es trocken, und alle genossen den Abend. Nachdem die Schüler zurück in ihre Heimatstadt gefahren waren, erzählten sie noch wochenlang von den Erlebnissen in Freiburg.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klassenfahrt führte nach Freiburg im Breisgau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Busfahrt dauerte nur eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bächle sind kleine Wasserkanäle in der Altstadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bei der Wanderung verlief alles ohne Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend gab es ein Grillfest.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "umzug-nach-dresden",
+    "nivel": "B1",
+    "titulo": "Umzug nach Dresden",
+    "descripcion": "Felix zieht wegen eines neuen Jobs nach Dresden und muss sich an die neue Stadt gewöhnen.",
+    "texto": "Felix hatte lange in Stuttgart gelebt, bevor er wegen einer neuen Stelle nach Dresden ziehen musste. Obwohl ihm der Abschied von seinen Freunden schwerfiel, freute er sich auch auf das neue Kapitel seines Lebens. Nachdem er eine kleine Wohnung in der Nähe der Altstadt gefunden hatte, begann er, seine Sachen zu packen.\n\nIn den ersten Wochen in Dresden fühlte sich Felix oft einsam, trotzdem er versuchte, offen auf neue Menschen zuzugehen. Er meldete sich bei einem Sportverein an, weil er dachte, dass er dort schnell Leute kennenlernen könnte. Tatsächlich lernte er bei seinem zweiten Training einen Kollegen kennen, der ebenfalls neu in der Stadt war.\n\nNach einigen Monaten hatte sich Felix gut in Dresden eingelebt. Er entdeckte die Elbwiesen, wo er samstags joggen ging, und besuchte regelmäßig die Frauenkirche. Obwohl er seine alte Stadt manchmal vermisste, war er überzeugt, dass der Umzug die richtige Entscheidung gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist wegen der Liebe nach Dresden gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat sich einem Sportverein angeschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix fühlte sich von Anfang an überhaupt nicht einsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix joggt an den Elbwiesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix bereut am Ende seinen Umzug.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-neuer-job-bei-einer-start-up-firma",
+    "nivel": "B1",
+    "titulo": "Ein neuer Job bei einer Start-up-Firma",
+    "descripcion": "Nach dem Studium beginnt Carla ihre erste Stelle bei einem jungen Technologieunternehmen.",
+    "texto": "Nachdem Carla ihr Studium abgeschlossen hatte, bewarb sie sich bei verschiedenen Unternehmen. Am meisten begeisterte sie eine kleine Start-up-Firma, die Apps für gesunde Ernährung entwickelte. Obwohl das Gehalt am Anfang nicht sehr hoch war, überzeugte sie die Atmosphäre im Büro sofort.\n\nIn den ersten Wochen musste Carla viel lernen, weil die Arbeitsweise im Start-up ganz anders war als an der Universität. Trotzdem fühlte sie sich schnell wohl, da ihre Kollegen immer bereit waren zu helfen. Besonders schätzte sie, dass ihre Ideen ernst genommen wurden, obwohl sie die jüngste Mitarbeiterin im Team war.\n\nNach einigen Monaten durfte Carla ihr erstes eigenes Projekt leiten. Sie war nervös, aber auch stolz auf das Vertrauen ihres Chefs. Nachdem das Projekt erfolgreich abgeschlossen worden war, wurde ihr sogar eine Gehaltserhöhung angeboten. Carla war sicher, dass sie die richtige Entscheidung getroffen hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Carla arbeitet bei einem großen, traditionellen Konzern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Start-up entwickelt Apps für gesunde Ernährung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla fühlte sich im Team von Anfang an unwohl.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carla durfte ein eigenes Projekt leiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla bekam nach dem erfolgreichen Projekt eine Gehaltserhöhung angeboten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-in-der-schule",
+    "nivel": "B2",
+    "titulo": "Digitalisierung in der Schule",
+    "descripcion": "Ein Beitrag über die Chancen und Herausforderungen der digitalen Bildung an deutschen Schulen.",
+    "texto": "Die Digitalisierung des Bildungswesens wird seit Jahren diskutiert, doch erst in den letzten Jahren wurden an vielen deutschen Schulen tatsächlich digitale Endgeräte eingeführt. Tablets und interaktive Whiteboards, die früher nur in wenigen Modellschulen zu finden waren, gehören inzwischen in zahlreichen Klassenzimmern zur Standardausstattung. Befürworter argumentieren, dass digitale Medien den Unterricht abwechslungsreicher gestalten und Schülern einen selbstständigeren Zugang zum Lernstoff ermöglichen könnten.\n\nGleichzeitig wird jedoch Kritik geäußert. Manche Lehrkräfte bemängeln, dass die technische Ausstattung häufig unzureichend gewartet werde und dass es an einheitlichen pädagogischen Konzepten fehle. Wenn ein Lehrer beispielsweise ein digitales Arbeitsblatt vorbereitet hätte, aber das WLAN im entscheidenden Moment ausfiele, wäre der gesamte Unterrichtsplan hinfällig. Zudem wird befürchtet, dass Schüler durch den ständigen Bildschirmkontakt weniger konzentriert arbeiten könnten als mit gedruckten Materialien.\n\nBildungsforscher schlagen deshalb vor, dass digitale Werkzeuge nicht isoliert, sondern als Ergänzung zu klassischen Lehrmethoden eingesetzt werden sollten. Es wäre wünschenswert, wenn Lehrkräfte durch regelmäßige Fortbildungen besser auf den Einsatz neuer Technologien vorbereitet würden. Nur so könnte das Potenzial der Digitalisierung tatsächlich ausgeschöpft werden, ohne dass grundlegende Lerninhalte vernachlässigt werden.",
+    "preguntas": [
+      {
+        "enunciado": "Digitale Endgeräte sind an allen deutschen Schulen schon seit Jahrzehnten Standard.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Lehrkräfte kritisieren die unzureichende Wartung der technischen Ausstattung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text funktioniert das WLAN in Schulen immer zuverlässig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsforscher empfehlen, digitale Werkzeuge als Ergänzung zu klassischen Methoden zu nutzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert, komplett auf gedruckte Materialien zu verzichten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wohnungsmarkt-unter-druck",
+    "nivel": "B2",
+    "titulo": "Der Wohnungsmarkt unter Druck",
+    "descripcion": "Eine Analyse der angespannten Lage auf dem Wohnungsmarkt in deutschen Großstädten.",
+    "texto": "In vielen deutschen Großstädten hat sich die Lage auf dem Wohnungsmarkt in den vergangenen Jahren erheblich verschärft. Die stetig steigende Nachfrage nach bezahlbarem Wohnraum, die vor allem durch den Zuzug in urbane Zentren verursacht wird, trifft auf ein Angebot, das kaum mitwächst. Besonders betroffen sind junge Familien und Studierende, die oft monatelang nach einer geeigneten Wohnung suchen müssen.\n\nPolitiker verschiedener Parteien streiten darüber, welche Maßnahmen ergriffen werden sollten, um die Situation zu entschärfen. Während einige eine strengere Mietpreisbremse fordern, plädieren andere dafür, dass mehr Bauland freigegeben werden müsse. Würde tatsächlich schneller gebaut, könnte sich das Angebot mittelfristig erhöhen, doch Bauprojekte werden häufig durch lange Genehmigungsverfahren verzögert.\n\nExperten weisen zudem darauf hin, dass soziale Ungleichheiten durch die Wohnungsknappheit verstärkt würden. Wenn einkommensschwache Haushalte gezwungen wären, in die Randgebiete der Städte zu ziehen, könnte dies langfristig zu einer stärkeren sozialen Spaltung führen. Es wird daher gefordert, dass beim Neubau ein bestimmter Anteil an Sozialwohnungen verpflichtend vorgeschrieben wird.\n\nOb die diskutierten Maßnahmen tatsächlich ausreichen würden, um den Wohnungsmarkt zu entspannen, bleibt umstritten. Klar ist jedoch, dass ohne entschlossenes politisches Handeln die Lage für viele Haushalte weiterhin angespannt bleiben wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die Nachfrage nach Wohnraum in Großstädten ist in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Familien und Studierende gehören zu den besonders betroffenen Gruppen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Politiker sind sich über die richtigen Maßnahmen vollkommen einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lange Genehmigungsverfahren können Bauprojekte verzögern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten fordern teilweise einen verpflichtenden Anteil an Sozialwohnungen bei Neubauten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkritik-in-sozialen-netzwerken",
+    "nivel": "B2",
+    "titulo": "Medienkritik in sozialen Netzwerken",
+    "descripcion": "Ein Überblick über die wachsende Kritik an der Berichterstattung und Meinungsbildung in sozialen Netzwerken.",
+    "texto": "Soziale Netzwerke haben die Art, wie Nachrichten konsumiert und verbreitet werden, grundlegend verändert. Während früher vor allem etablierte Zeitungen und Fernsehsender die öffentliche Meinung prägten, werden heute viele Informationen über Plattformen verbreitet, auf denen jeder Nutzer selbst zum Verfasser von Inhalten werden kann. Diese Entwicklung wird von manchen als demokratisierend gefeiert, von anderen jedoch kritisch betrachtet.\n\nEin zentraler Kritikpunkt betrifft die sogenannten Algorithmen, durch die Inhalte den Nutzern angezeigt werden. Würden Plattformen transparenter offenlegen, nach welchen Kriterien Beiträge ausgewählt werden, könnten Nutzer besser einschätzen, warum ihnen bestimmte Meinungen besonders häufig begegnen. Kritiker befürchten, dass durch diese personalisierten Algorithmen sogenannte Filterblasen entstehen, in denen abweichende Meinungen kaum noch wahrgenommen werden.\n\nHinzu kommt die Verbreitung von Falschinformationen, die sich in sozialen Netzwerken oft schneller verbreiten als korrekte Richtigstellungen. Medienexperten fordern deshalb, dass Plattformbetreiber stärker in die Pflicht genommen werden sollten, damit irreführende Inhalte frühzeitig gekennzeichnet oder entfernt werden. Gleichzeitig wird betont, dass auch die Nutzer selbst eine größere Medienkompetenz entwickeln müssten, um Quellen kritisch zu hinterfragen.\n\nLetztlich wird deutlich, dass die Debatte um Medienkritik in sozialen Netzwerken kein einfaches Problem darstellt, das durch eine einzelne Maßnahme gelöst werden könnte. Vielmehr erfordert sie ein Zusammenspiel aus technischer Regulierung, journalistischer Sorgfalt und gesellschaftlicher Aufklärung.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Netzwerke haben die Verbreitung von Nachrichten stark verändert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sehen soziale Netzwerke ausschließlich positiv.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen entstehen laut Text unter anderem durch personalisierte Algorithmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Falschinformationen verbreiten sich im Text zufolge immer langsamer als Richtigstellungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text fordert sowohl technische Regulierung als auch mehr Medienkompetenz der Nutzer.",
+        "respuesta": true
+      }
+    ]
   }
 ]
