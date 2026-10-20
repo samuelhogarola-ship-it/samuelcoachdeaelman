@@ -63806,5 +63806,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-flohmarkt-in-der-altstadt",
+    "nivel": "A1",
+    "titulo": "Der Flohmarkt in der Altstadt",
+    "descripcion": "Lena und ihr Bruder verkaufen alte Sachen auf dem Flohmarkt.",
+    "texto": "Am Samstag ist Flohmarkt in der Altstadt. Lena und ihr Bruder Tom stehen früh auf. Sie packen Bücher, Spielzeug und eine alte Lampe in eine Tasche.\n\nAuf dem Markt stellen sie einen Tisch auf. Viele Leute kommen und schauen die Sachen an. Eine Frau kauft das Spielzeugauto für zwei Euro. Ein Mann nimmt drei Bücher.\n\nAm Ende verkaufen Lena und Tom fast alles. Sie sind sehr froh. Mit dem Geld kaufen sie ein Eis und gehen glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Der Flohmarkt ist am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena und Tom stehen spät auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Frau kauft das Spielzeugauto.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie verkaufen nichts auf dem Markt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende kaufen sie ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-haustier-heisst-minka",
+    "nivel": "A1",
+    "titulo": "Mein Haustier heißt Minka",
+    "descripcion": "Paul erzählt von seiner Katze Minka und ihrem Tag.",
+    "texto": "Ich heiße Paul und ich habe eine Katze. Sie heißt Minka und ist drei Jahre alt. Minka ist schwarz und weiß. Sie schläft sehr viel.\n\nJeden Morgen gebe ich Minka Futter. Sie isst gern Fisch. Nach dem Essen spielt sie mit einem Ball. Am Nachmittag sitzt Minka am Fenster und schaut nach draußen.\n\nAbends schläft Minka auf meinem Bett. Ich mag meine Katze sehr. Sie ist mein bester Freund.",
+    "preguntas": [
+      {
+        "enunciado": "Minka ist ein Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka ist drei Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka isst gern Fisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka spielt nie mit einem Ball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka schläft abends auf Pauls Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-am-sonntag",
+    "nivel": "A1",
+    "titulo": "Die Fahrradtour am Sonntag",
+    "descripcion": "Eine Familie macht am Sonntag eine kleine Fahrradtour.",
+    "texto": "Am Sonntag ist das Wetter schön. Die Familie Berger fährt mit dem Fahrrad an den See. Der Vater, die Mutter und die zwei Kinder nehmen Wasser und Brot mit.\n\nSie fahren langsam durch den Wald. Die Kinder sehen Vögel und einen kleinen Hasen. Am See machen sie eine Pause und essen ihr Brot. Das Wasser ist blau und ruhig.\n\nAm Nachmittag fahren sie wieder nach Hause. Alle sind müde, aber glücklich. Die Fahrradtour war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie fährt mit dem Auto.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie fahren an einen See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder sehen einen Hasen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie machen keine Pause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend sind alle müde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-bei-oma-im-krankenhaus",
+    "nivel": "A2",
+    "titulo": "Der Besuch bei Oma im Krankenhaus",
+    "descripcion": "Marie besucht ihre Oma, die nach einem Sturz im Krankenhaus liegt.",
+    "texto": "Letzte Woche ist Omas Fuß gebrochen, weil sie auf der Treppe gestürzt ist. Deshalb liegt sie seit Montag im Krankenhaus. Marie und ihre Mutter haben sie am Mittwoch besucht.\n\nOma hat im Bett gelegen und ein Buch gelesen. Sie hat gesagt, dass der Fuß noch wehtut, aber dass es ihr schon besser geht. Marie hat ihr Blumen und eine Karte mitgebracht. Die Ärztin hat erklärt, dass Oma noch zwei Wochen im Krankenhaus bleiben muss.\n\nAm Ende des Besuchs hat Oma gelacht und gesagt, dass sie sich schon auf das Essen zu Hause freut. Marie hat versprochen, sie bald wieder zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Oma ist von der Treppe gestürzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma liegt seit Montag im Krankenhaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie hat keine Geschenke mitgebracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma muss nur einen Tag bleiben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma freut sich auf das Essen zu Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-bei-den-grosseltern-auf-dem-land",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei den Großeltern auf dem Land",
+    "descripcion": "Jonas verbringt ein Wochenende bei seinen Großeltern und hilft im Garten.",
+    "texto": "Jonas ist am Freitag zu seinen Großeltern aufs Land gefahren, weil in der Schule keine Ferien, aber ein freies Wochenende war. Sein Opa hat ihn am Bahnhof abgeholt.\n\nAm Samstag haben sie zusammen im Garten gearbeitet. Jonas hat Äpfel gepflückt, während sein Opa das Gras gemäht hat. Seine Oma hat einen Kuchen gebacken, weil sie wusste, dass Jonas Apfelkuchen liebt. Am Abend haben alle zusammen am Feuer gesessen und Geschichten erzählt.\n\nAm Sonntag ist Jonas traurig zurück in die Stadt gefahren. Er hat gesagt, dass er bald wiederkommen möchte, wenn er wieder Zeit hat.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist am Freitag angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa hat ihn am Bahnhof abgeholt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Garten haben sie nichts gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma hat einen Apfelkuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist froh, dass er wegfahren muss.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-verlorene-tasche",
+    "nivel": "A2",
+    "titulo": "Die verlorene Tasche",
+    "descripcion": "Frau Keller verliert ihre Tasche im Bus und sucht sie verzweifelt.",
+    "texto": "Frau Keller ist gestern mit dem Bus in die Stadt gefahren, weil sie einkaufen wollte. Als sie ausgestiegen ist, hat sie ihre Tasche im Bus vergessen. Erst im Supermarkt hat sie bemerkt, dass die Tasche fehlt.\n\nSie ist sofort zur Bushaltestelle zurückgelaufen, aber der Bus war schon weg. Deshalb hat sie bei der Verkehrsgesellschaft angerufen und gefragt, ob jemand die Tasche gefunden hat. Die Mitarbeiterin hat gesagt, dass sie warten soll, weil der Busfahrer die Tasche vielleicht abgibt.\n\nAm Abend hat Frau Keller einen Anruf bekommen. Der Busfahrer hatte die Tasche gefunden und ins Fundbüro gebracht. Sie war sehr erleichtert, dass nichts gestohlen wurde.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller ist mit dem Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat die Tasche im Bus vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bus war noch an der Haltestelle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie hat bei der Verkehrsgesellschaft angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tasche war für immer verloren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-in-der-baeckerei",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag in der Bäckerei",
+    "descripcion": "Simon beginnt seine Ausbildung in einer kleinen Bäckerei und muss sich an den frühen Rhythmus gewöhnen.",
+    "texto": "Simon hat sich lange auf seinen ersten Arbeitstag in der Bäckerei gefreut, obwohl er wusste, dass er um vier Uhr morgens aufstehen musste. Nachdem er sich die Uniform angezogen hatte, ging er zur Backstube, wo der Meister schon das Brot vorbereitete.\n\nIn den ersten Stunden fühlte sich Simon unsicher, weil alles viel schneller ging, als er erwartet hatte. Trotzdem half ihm der Meister geduldig und erklärte jeden Schritt genau. Nachdem die ersten Brötchen aus dem Ofen kamen, durfte Simon sie selbst in die Vitrine legen.\n\nAm Ende des Tages war Simon müde, aber zufrieden. Er hatte gelernt, dass Geduld und Übung in diesem Beruf sehr wichtig sind. Obwohl der Start schwer war, freute er sich schon auf den nächsten Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Simon musste schon um vier Uhr aufstehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Meister hat Simon allein gelassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon fühlte sich am Anfang unsicher.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon durfte die Brötchen in die Vitrine legen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon freut sich nicht auf den nächsten Tag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-dorffest-nach-langer-pause",
+    "nivel": "B1",
+    "titulo": "Das Dorffest nach langer Pause",
+    "descripcion": "Ein kleines Dorf organisiert nach mehreren Jahren wieder ein großes Fest.",
+    "texto": "Nachdem das Dorffest viele Jahre lang nicht stattgefunden hatte, beschloss der Gemeinderat, es in diesem Sommer wieder zu organisieren. Viele Bewohner waren begeistert, obwohl einige zuerst zweifelten, ob genug Leute helfen würden.\n\nAm Ende halfen fast alle Familien im Dorf mit. Die Frauen backten Kuchen, die Männer bauten Tische und Bänke auf dem Marktplatz, und die Jugendlichen kümmerten sich um die Musik. Trotzdem gab es kurz vor dem Fest noch ein Problem, denn es regnete den ganzen Vormittag.\n\nGlücklicherweise hörte der Regen am Nachmittag auf, und das Fest konnte wie geplant beginnen. Die Menschen tanzten, aßen und erzählten sich Geschichten bis spät in die Nacht. Am Ende waren alle sich einig, dass das Fest jedes Jahr wiederholt werden sollte.",
+    "preguntas": [
+      {
+        "enunciado": "Das Dorffest fand jedes Jahr ohne Pause statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fast alle Familien haben beim Fest mitgeholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab vor dem Fest kein Problem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Regen hörte am Nachmittag auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Menschen wollen das Fest jedes Jahr wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-freundschaft-ueber-die-grenze",
+    "nivel": "B1",
+    "titulo": "Die Freundschaft über die Grenze",
+    "descripcion": "Zwei Jugendliche aus verschiedenen Ländern lernen sich bei einem Schüleraustausch kennen.",
+    "texto": "Anna aus Deutschland und Hugo aus Frankreich lernten sich bei einem Schüleraustausch kennen, nachdem ihre Schulen eine gemeinsame Projektwoche organisiert hatten. Am Anfang war die Kommunikation schwierig, weil Anna nur wenig Französisch und Hugo nur wenig Deutsch sprach.\n\nTrotzdem fanden sie schnell eine Lösung: Sie sprachen Englisch und halfen sich gegenseitig, die andere Sprache zu lernen. Während der Projektwoche besuchten sie gemeinsam Museen, kochten typische Gerichte aus ihren Ländern und diskutierten über die Unterschiede zwischen ihren Kulturen.\n\nAls der Austausch zu Ende ging, waren beide traurig, obwohl sie wussten, dass sie in Kontakt bleiben würden. Seitdem schreiben sie sich fast jede Woche und planen schon einen Besuch im nächsten Sommer.",
+    "preguntas": [
+      {
+        "enunciado": "Anna und Hugo kannten sich schon vorher sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang war die Kommunikation einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben sich mit Englisch verständigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Während der Projektwoche haben sie zusammen gekocht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Austausch haben sie den Kontakt verloren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-tempolimits",
+    "nivel": "B2",
+    "titulo": "Die Debatte um Tempolimits",
+    "descripcion": "Ein Blick auf die gesellschaftliche Diskussion über ein allgemeines Tempolimit auf Autobahnen.",
+    "texto": "Seit Jahrzehnten wird in Deutschland über die Einführung eines allgemeinen Tempolimits auf Autobahnen diskutiert. Befürworter argumentieren, dass ein Limit von etwa 130 Kilometern pro Stunde die Zahl der schweren Unfälle deutlich senken und zugleich den Ausstoß von Treibhausgasen reduzieren würde. Studien, die von Umweltverbänden zitiert werden, zeigen, dass langsameres Fahren den Kraftstoffverbrauch messbar verringert.\n\nGegner des Tempolimits halten dem entgegen, dass die individuelle Freiheit der Autofahrer dadurch unnötig eingeschränkt würde, obwohl gerade auf freien Streckenabschnitten schnelleres Fahren möglich sei. Zudem wird argumentiert, dass die deutsche Autoindustrie, die stark von schnellen Fahrzeugen geprägt ist, wirtschaftlich benachteiligt werden könnte, wenn das Fahren auf Autobahnen reglementiert würde.\n\nIn den vergangenen Jahren wurde das Thema immer wieder im Bundestag behandelt, ohne dass eine endgültige Entscheidung getroffen wurde. Während andere europäische Länder längst ein Tempolimit eingeführt haben, bleibt Deutschland eine der wenigen Ausnahmen, in denen auf bestimmten Streckenabschnitten unbegrenzt schnell gefahren werden darf. Es bleibt abzuwarten, ob und wann sich daran in Zukunft etwas ändern wird.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland gibt es bereits seit Jahrzehnten ein allgemeines Tempolimit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen einen Zusammenhang zwischen Tempolimit und weniger Unfällen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner argumentieren mit der individuellen Freiheit der Autofahrer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle europäischen Länder haben schon ein Tempolimit eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bundestag hat eine endgültige Entscheidung getroffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-an-der-universitaet",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz an der Universität",
+    "descripcion": "Eine Analyse, wie künstliche Intelligenz den universitären Alltag verändert und welche Herausforderungen damit verbunden sind.",
+    "texto": "Künstliche Intelligenz hat in den letzten Jahren Einzug in viele Bereiche des universitären Alltags gehalten. Studierende nutzen KI-gestützte Programme, um Texte zu überarbeiten, Literatur zusammenzufassen oder komplexe Zusammenhänge verständlicher dargestellt zu bekommen. Dozierende wiederum setzen entsprechende Werkzeuge ein, um Prüfungen effizienter zu gestalten oder individuelle Lernfortschritte besser nachzuvollziehen.\n\nGleichzeitig wirft diese Entwicklung grundlegende Fragen auf, die bislang nicht vollständig geklärt sind. Wenn Hausarbeiten teilweise von Künstlicher Intelligenz verfasst würden, stellte sich die Frage, wie akademische Leistungen überhaupt noch fair bewertet werden könnten. Manche Hochschulen haben deshalb strenge Regeln eingeführt, während andere den Einsatz solcher Werkzeuge ausdrücklich fördern, sofern er transparent gemacht wird.\n\nBesonders umstritten ist die Rolle, die KI-Systeme künftig im wissenschaftlichen Denken selbst einnehmen könnten. Kritiker befürchten, dass Studierende, die sich zu stark auf automatisierte Hilfsmittel verlassen, grundlegende Fähigkeiten wie kritisches Denken und eigenständige Argumentation nicht ausreichend entwickeln. Befürworter hingegen betonen, dass gerade der reflektierte Umgang mit solchen Technologien zu den Schlüsselkompetenzen der Zukunft gehöre und frühzeitig vermittelt werden müsse.",
+    "preguntas": [
+      {
+        "enunciado": "Nur Dozierende nutzen KI-Werkzeuge an der Universität.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bewertung akademischer Leistungen wird durch KI komplizierter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Hochschulen haben die gleichen Regeln zum Einsatz von KI.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten eine Schwächung des kritischen Denkens.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter halten den Umgang mit KI für eine wichtige Zukunftskompetenz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-um-die-haustierhaltung-in-mietwohnungen",
+    "nivel": "B2",
+    "titulo": "Der Streit um die Haustierhaltung in Mietwohnungen",
+    "descripcion": "Warum die Frage, ob Haustiere in Mietwohnungen erlaubt sein sollten, Vermieter und Mieter seit Jahren beschäftigt.",
+    "texto": "Ob Hunde oder Katzen in einer Mietwohnung gehalten werden dürfen, ist in Deutschland seit Langem ein Streitthema, das regelmäßig vor Gericht landet. Während kleinere Tiere wie Hamster oder Fische grundsätzlich ohne Zustimmung des Vermieters gehalten werden dürfen, bedarf die Haltung größerer Haustiere häufig einer ausdrücklichen Erlaubnis, die im Mietvertrag festgehalten wird.\n\nVermieter begründen entsprechende Klauseln meist damit, dass Haustiere Schäden an der Wohnung verursachen oder andere Mieter durch Lärm und Gerüche stören könnten. Mieterverbände hingegen weisen darauf hin, dass ein generelles Verbot unangemessen sei, da jeder Einzelfall gesondert betrachtet werden müsse. Gerichte haben wiederholt entschieden, dass pauschale Verbotsklauseln in Mietverträgen unwirksam sind, sofern sie keine individuelle Abwägung zulassen.\n\nTrotz dieser Rechtsprechung bleibt die Praxis uneinheitlich, da viele Mieter aus Unsicherheit erst gar nicht nach einer Erlaubnis fragen oder ihr Haustier heimlich halten. Fachleute empfehlen daher, Konflikte frühzeitig durch ein offenes Gespräch mit dem Vermieter zu vermeiden, anstatt sich ausschließlich auf eine spätere gerichtliche Klärung zu verlassen.",
+    "preguntas": [
+      {
+        "enunciado": "Kleinere Tiere wie Hamster benötigen grundsätzlich eine Erlaubnis des Vermieters.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Vermieter befürchten oft Schäden durch Haustiere.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gerichte haben pauschale Verbotsklauseln für unwirksam erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Mieter fragen immer offiziell nach einer Erlaubnis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fachleute raten dazu, Konflikte frühzeitig anzusprechen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
