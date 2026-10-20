@@ -63110,5 +63110,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "ein-ausflug-zum-streichelzoo",
+    "nivel": "A1",
+    "titulo": "Ein Ausflug zum Streichelzoo",
+    "descripcion": "Mia besucht mit ihrer Klasse einen Streichelzoo und füttert die Tiere.",
+    "texto": "Mia geht heute mit ihrer Klasse zum Streichelzoo. Der Bus fährt um neun Uhr los. Im Zoo gibt es Ziegen, Schafe und Kaninchen. Mia mag die kleinen Ziegen sehr gern.\n\nDie Kinder kaufen Futter für die Tiere. Mia füttert eine Ziege mit Karotten. Das Tier frisst schnell und schaut Mia an. „Das Tier ist so süß!\", sagt Mia zu ihrer Freundin Lotte. Lotte streichelt ein weißes Kaninchen und lacht.\n\nAm Mittag essen die Kinder ihr Brot im Park. Danach fahren sie mit dem Bus zurück zur Schule. Mia erzählt ihrer Mutter am Abend von den Tieren im Zoo. Sie findet den Tag sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Mia fährt mit dem Bus zum Streichelzoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Zoo gibt es nur Vögel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia füttert eine Ziege mit Karotten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lotte streichelt einen Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder essen im Park zu Mittag.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "tims-neue-regenjacke",
+    "nivel": "A1",
+    "titulo": "Tims neue Regenjacke",
+    "descripcion": "Tim kauft mit seinem Vater eine neue Regenjacke für den Herbst.",
+    "texto": "Es ist Herbst und es regnet oft. Tim braucht eine neue Regenjacke. Er geht mit seinem Vater in ein Geschäft in der Stadt. Im Geschäft gibt es viele Jacken in verschiedenen Farben.\n\nTim mag die blaue Jacke am liebsten. Sie hat auch eine Kapuze. Tim probiert die Jacke an. Sie passt gut. „Die Jacke ist perfekt\", sagt sein Vater und lacht. Sie bezahlen an der Kasse und gehen nach Hause.\n\nAm nächsten Tag regnet es sehr stark. Tim trägt seine neue Jacke zur Schule. Seine Freunde finden die Jacke schön. Tim ist glücklich und bleibt trocken.",
+    "preguntas": [
+      {
+        "enunciado": "Tim braucht eine neue Regenjacke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim kauft die Jacke allein ohne seinen Vater.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim mag die grüne Jacke am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die blaue Jacke hat eine Kapuze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim trägt die Jacke am nächsten Tag zur Schule.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "frühstück-mit-opa-karl",
+    "nivel": "A1",
+    "titulo": "Frühstück mit Opa Karl",
+    "descripcion": "Paul frühstückt am Wochenende bei seinem Opa Karl.",
+    "texto": "Am Samstag besucht Paul seinen Opa Karl. Opa Karl wohnt in einem kleinen Haus mit Garten. Zum Frühstück gibt es Brötchen, Butter und Marmelade. Paul trinkt heiße Schokolade.\n\nOpa Karl erzählt Paul eine Geschichte von früher. Paul hört gerne zu und isst sein Brötchen. Nach dem Frühstück gehen sie zusammen in den Garten. Dort pflücken sie Äpfel von einem Baum.\n\nPaul hilft seinem Opa beim Sammeln der Äpfel. Sie legen die Äpfel in einen Korb. Am Abend fährt Paul wieder nach Hause. Er freut sich schon auf den nächsten Besuch bei Opa Karl.",
+    "preguntas": [
+      {
+        "enunciado": "Paul besucht seinen Opa am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa Karl wohnt in einer großen Stadtwohnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul trinkt zum Frühstück Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa Karl und Paul pflücken Äpfel im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul freut sich auf den nächsten Besuch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-busfahrt-zur-schwimmhalle",
+    "nivel": "A2",
+    "titulo": "Die Busfahrt zur Schwimmhalle",
+    "descripcion": "Sophie verpasst den Bus zur Schwimmhalle und muss einen neuen Plan machen.",
+    "texto": "Sophie wollte am Dienstag mit ihrer Freundin Nele zur Schwimmhalle fahren. Weil sie am Morgen zu lange geschlafen hatte, hat sie den Bus verpasst. Sie ist sehr sauer auf sich selbst gewesen, denn der nächste Bus ist erst in einer Stunde gekommen. Nele hat an der Haltestelle gewartet und sich Sorgen gemacht, weil Sophie nicht angekommen ist.\n\nSophie hat Nele schnell eine Nachricht geschrieben und erklärt, dass sie den Bus verpasst hat. Nele hat vorgeschlagen, dass sie stattdessen mit dem Fahrrad fährt. Sophie hat ihr Fahrrad genommen und ist durch den Park gefahren. Nach zwanzig Minuten ist sie endlich bei der Schwimmhalle angekommen. Nele hat schon im Wasser gewartet und gewunken.\n\nObwohl der Start nicht gut gelaufen ist, haben die beiden Mädchen einen schönen Nachmittag im Schwimmbad verbracht. Sie sind viele Bahnen geschwommen und haben danach Pommes im Kiosk gegessen. Sophie hat versprochen, dass sie nächstes Mal früher aufsteht.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat den Bus verpasst, weil sie zu lange geschlafen hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nele ist mit Sophie im selben Bus gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie ist am Ende mit dem Fahrrad zur Schwimmhalle gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mädchen haben den Nachmittag nicht zusammen verbracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Schwimmen haben sie Pommes gegessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-telefonat-mit-tante-rosa",
+    "nivel": "A2",
+    "titulo": "Ein Telefonat mit Tante Rosa",
+    "descripcion": "Jonas erzählt seiner Tante Rosa am Telefon von seinem neuen Job.",
+    "texto": "Jonas hat am Sonntagabend seine Tante Rosa angerufen, weil er lange nicht mit ihr gesprochen hatte. Tante Rosa hat sich sehr gefreut, seine Stimme zu hören, denn sie wohnt seit einem Jahr in einer anderen Stadt. Jonas hat ihr erzählt, dass er vor zwei Wochen einen neuen Job in einem Büro begonnen hat.\n\nTante Rosa hat viele Fragen gestellt, weil sie wissen wollte, wie es Jonas in der neuen Firma gefällt. Jonas hat erklärt, dass seine Kollegen sehr freundlich sind und dass er jeden Tag mit dem Fahrrad zur Arbeit fährt. Er hat auch gesagt, dass er manchmal müde ist, wenn er abends nach Hause kommt, aber dass die Arbeit ihm Spaß macht.\n\nAm Ende des Gesprächs hat Tante Rosa Jonas eingeladen, sie in den nächsten Ferien zu besuchen. Jonas hat die Einladung gerne angenommen und versprochen, dass er bald einen Zug buchen wird. Nach dem Telefonat hat er sich gefreut, dass er endlich wieder mit seiner Tante gesprochen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ruft seine Tante am Montagmorgen an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Rosa wohnt seit einem Jahr in einer anderen Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fährt mit dem Auto zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas sagt, dass ihm die neue Arbeit Spaß macht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tante Rosa lädt Jonas zu einem Besuch ein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-handwerker-von-nebenan",
+    "nivel": "A2",
+    "titulo": "Der Handwerker von nebenan",
+    "descripcion": "Frau Weber bittet ihren Nachbarn um Hilfe, weil die Heizung kaputt ist.",
+    "texto": "Frau Weber hat letzten Winter ein Problem mit ihrer Heizung gehabt. Weil es draußen sehr kalt war, hat sie schnell Hilfe gebraucht. Sie hat an die Tür ihres Nachbarn Herrn Fischer geklopft, denn er arbeitet als Handwerker und kennt sich mit solchen Dingen gut aus.\n\nHerr Fischer ist sofort mit seinem Werkzeug gekommen und hat sich die Heizung angeschaut. Er hat gesagt, dass ein kleines Teil kaputt ist und dass er es reparieren kann. Frau Weber war sehr erleichtert, weil sie dachte, dass sie einen teuren Techniker rufen müsste. Nach einer Stunde hat Herr Fischer die Heizung repariert, und die Wohnung wurde langsam wieder warm.\n\nAls Dank hat Frau Weber ihrem Nachbarn einen selbstgebackenen Kuchen geschenkt. Herr Fischer hat sich sehr gefreut und gesagt, dass er gerne wieder hilft, wenn etwas kaputt geht. Seitdem sprechen die beiden Nachbarn öfter miteinander und helfen sich gegenseitig im Haus.",
+    "preguntas": [
+      {
+        "enunciado": "Die Heizung von Frau Weber ist im Sommer kaputtgegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Fischer arbeitet als Handwerker.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Fischer konnte die Heizung nicht reparieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber schenkt ihrem Nachbarn einen Kuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Nachbarn sprechen seitdem öfter miteinander.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "umzug-in-die-altbauwohnung-in-dresden",
+    "nivel": "B1",
+    "titulo": "Umzug in die Altbauwohnung in Dresden",
+    "descripcion": "Katrin zieht nach Dresden und muss sich in einer alten Wohnung zurechtfinden.",
+    "texto": "Nachdem Katrin eine neue Stelle in Dresden angenommen hatte, musste sie innerhalb weniger Wochen eine passende Wohnung finden. Nach langer Suche entschied sie sich für eine Altbauwohnung im Stadtteil Neustadt, obwohl die Wohnung einige Mängel aufwies. Die hohen Decken und die alten Holzdielen gefielen ihr sofort, auch wenn die Fenster undicht waren und im Winter kalte Luft hereinließen.\n\nDer Umzug selbst verlief nicht ganz reibungslos, da der Fahrstuhl im Gebäude seit Jahren defekt war. Katrin und ihre Freunde mussten daher alle Möbel über eine enge Treppe in den vierten Stock tragen, was deutlich länger dauerte als geplant. Trotzdem blieb die Stimmung gut, und nach getaner Arbeit feierten sie den gelungenen Umzug mit Pizza auf dem Boden des leeren Wohnzimmers.\n\nIn den folgenden Wochen lernte Katrin nach und nach ihre neuen Nachbarn kennen, die ihr viele nützliche Tipps zum Viertel gaben. Besonders der kleine Gemüseladen um die Ecke und ein gemütliches Café wurden schnell zu ihren Lieblingsorten. Obwohl ihr der Abschied von ihrer alten Stadt schwergefallen war, fühlte sie sich in Dresden immer mehr zu Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin zieht wegen einer neuen Stelle nach Dresden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wohnung hat keinerlei Mängel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Fahrstuhl im Gebäude funktioniert einwandfrei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrin und ihre Freunde tragen die Möbel über die Treppe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin lernt nach dem Umzug ihre neuen Nachbarn kennen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wiedersehen-nach-zehn-jahren-schulzeit",
+    "nivel": "B1",
+    "titulo": "Wiedersehen nach zehn Jahren Schulzeit",
+    "descripcion": "Ehemalige Klassenkameraden treffen sich nach zehn Jahren zu einem Klassentreffen.",
+    "texto": "Zehn Jahre nachdem sie ihren Schulabschluss gemacht hatten, organisierte eine ehemalige Klasse ein großes Wiedersehen in ihrer alten Heimatstadt. Viele der früheren Mitschüler lebten inzwischen in anderen Städten oder sogar im Ausland, trotzdem reisten fast alle an, um ihre alten Freunde wiederzusehen. Die Organisation übernahm Julia, die schon in der Schulzeit gerne Veranstaltungen geplant hatte.\n\nAls sich die Gruppe im alten Schulgebäude traf, erkannten sich manche zunächst kaum wieder, da sich ihr Aussehen stark verändert hatte. Nachdem die ersten Minuten etwas unsicher verlaufen waren, kamen schnell alte Erinnerungen hoch, und man begann, Geschichten von früher zu erzählen. Besonders amüsant fanden alle die alten Klassenfotos, die an die Wand projiziert wurden.\n\nIm Laufe des Abends wurde klar, dass sich die Lebenswege der ehemaligen Mitschüler sehr unterschiedlich entwickelt hatten. Während einige bereits eine Familie gegründet hatten, konzentrierten sich andere ganz auf ihre Karriere. Trotz dieser Unterschiede verbrachten alle einen harmonischen Abend und versprachen sich, den Kontakt diesmal nicht wieder zu verlieren.",
+    "preguntas": [
+      {
+        "enunciado": "Das Klassentreffen findet fünf Jahre nach dem Schulabschluss statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia übernimmt die Organisation des Treffens.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Mitschüler erkennen sich sofort ohne Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die ehemaligen Mitschüler haben sehr unterschiedliche Lebenswege.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Abends wollen sie den Kontakt weiter pflegen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenfest-im-dritten-stadtbezirk",
+    "nivel": "B1",
+    "titulo": "Das Straßenfest im dritten Stadtbezirk",
+    "descripcion": "Die Bewohner eines Stadtviertels organisieren gemeinsam ein buntes Straßenfest.",
+    "texto": "Jedes Jahr im Sommer organisieren die Bewohner des dritten Stadtbezirks ein Straßenfest, bei dem die ganze Nachbarschaft zusammenkommt. In diesem Jahr übernahm ein Komitee aus freiwilligen Anwohnern die Planung, nachdem die Stadtverwaltung zusätzliche Mittel für kulturelle Veranstaltungen bereitgestellt hatte. Es wurden Stände mit Essen aus verschiedenen Ländern aufgebaut, da im Viertel Menschen mit vielen unterschiedlichen kulturellen Hintergründen leben.\n\nAm Nachmittag des Festes spielte eine lokale Band auf einer kleinen Bühne, während Kinder auf einer Hüpfburg spielten und Eltern sich an den Ständen unterhielten. Obwohl das Wetter morgens noch unsicher gewesen war, klarte der Himmel rechtzeitig auf, und die Sonne schien während des gesamten Nachmittags. Viele Anwohner lobten die Organisatoren für die gute Stimmung und die Vielfalt des Angebots.\n\nGegen Abend versammelten sich die meisten Gäste vor der Bühne, um gemeinsam ein Feuerwerk zu beobachten, das den Abschluss des Festes bildete. Nachdem das letzte Licht am Himmel verschwunden war, begannen viele Nachbarn, gemeinsam aufzuräumen, was zeigte, wie stark der Zusammenhalt im Viertel in den letzten Jahren gewachsen war.",
+    "preguntas": [
+      {
+        "enunciado": "Das Straßenfest wird jedes Jahr im Winter organisiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Komitee aus freiwilligen Anwohnern plant das Fest.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt beim Fest nur deutsche Speisen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag spielt eine lokale Band auf einer Bühne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Feuerwerk helfen viele Nachbarn beim Aufräumen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice-und-die-frage-der-erreichbarkeit",
+    "nivel": "B2",
+    "titulo": "Homeoffice und die Frage der ständigen Erreichbarkeit",
+    "descripcion": "Eine Auseinandersetzung mit den Vor- und Nachteilen der ständigen Erreichbarkeit im Homeoffice.",
+    "texto": "Seit sich das Homeoffice in vielen Branchen als feste Arbeitsform etabliert hat, wird zunehmend diskutiert, inwiefern die damit einhergehende Flexibilität tatsächlich zu einer besseren Vereinbarkeit von Beruf und Privatleben führt. Während Befürworter betonen, dass wegfallende Pendelzeiten und ein selbstbestimmterer Tagesablauf die Lebensqualität spürbar verbessern, weisen Kritiker darauf hin, dass die Grenzen zwischen Arbeits- und Privatzeit zunehmend verschwimmen. Besonders problematisch erscheint vielen Beschäftigten die implizite Erwartung, auch außerhalb der eigentlichen Arbeitszeiten für Nachrichten und Anrufe erreichbar zu sein.\n\nStudien zu diesem Thema zeigen ein uneinheitliches Bild: Manche Beschäftigte berichten von einem spürbaren Rückgang ihres Stressempfindens, da sie ihre Arbeitszeit flexibler gestalten können, während andere von einem schleichenden Gefühl der Überforderung sprechen, weil die Arbeit gefühlt niemals endet. Wäre eine klare gesetzliche Regelung zum sogenannten „Recht auf Nichterreichbarkeit\" eingeführt worden, hätten Beschäftigte möglicherweise ein wirksameres Mittel, sich gegen diese Erwartungshaltung zu wehren. Bislang existiert eine solche Regelung in Deutschland jedoch nur in Ansätzen und wird von Arbeitgeberverbänden skeptisch betrachtet.\n\nLetztlich hängt der verantwortungsvolle Umgang mit der Erreichbarkeit im Homeoffice stark von der jeweiligen Unternehmenskultur ab. Wird von Führungskräften vorgelebt, dass Nachrichten außerhalb der Arbeitszeit nicht sofort beantwortet werden müssen, sinkt der gefühlte Druck bei den Angestellten erheblich. Ohne ein solches Bewusstsein auf Seiten der Arbeitgeber droht die eigentlich positiv gedachte Flexibilität des Homeoffice in eine Form der Selbstausbeutung umzuschlagen, die langfristig der Gesundheit der Beschäftigten schaden könnte.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text führt Homeoffice für alle Beschäftigten automatisch zu weniger Stress.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln, dass Arbeits- und Privatzeit im Homeoffice verschwimmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Recht auf Nichterreichbarkeit ist in Deutschland bereits umfassend gesetzlich geregelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Unternehmenskultur spielt laut Text eine wichtige Rolle für den Umgang mit Erreichbarkeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text warnt vor einer möglichen Selbstausbeutung durch ständige Erreichbarkeit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "algorithmen-in-sozialen-medien-und-meinungsbildung",
+    "nivel": "B2",
+    "titulo": "Algorithmen in sozialen Medien und ihre Rolle bei der Meinungsbildung",
+    "descripcion": "Eine kritische Betrachtung, wie Algorithmen sozialer Netzwerke die öffentliche Meinungsbildung beeinflussen.",
+    "texto": "In den letzten Jahren ist zunehmend deutlich geworden, welchen erheblichen Einfluss die Algorithmen sozialer Netzwerke auf die öffentliche Meinungsbildung ausüben. Diese Algorithmen, die ursprünglich entwickelt wurden, um Nutzern besonders relevante Inhalte anzuzeigen, bevorzugen häufig Beiträge, die starke emotionale Reaktionen hervorrufen, da diese tendenziell mehr Interaktionen erzeugen. Dadurch entsteht eine Dynamik, bei der zugespitzte oder polarisierende Aussagen systematisch mehr Sichtbarkeit erhalten als differenzierte Betrachtungen.\n\nBesonders problematisch wird diese Entwicklung dann, wenn Nutzer über einen längeren Zeitraum überwiegend mit Inhalten konfrontiert werden, die ihre bestehenden Überzeugungen bestätigen, anstatt sie mit abweichenden Perspektiven zu konfrontieren. Dieses Phänomen, das häufig als „Filterblase\" bezeichnet wird, kann dazu führen, dass gesellschaftliche Gräben vertieft werden, da unterschiedliche Gruppen zunehmend voneinander isolierte Informationsräume bewohnen. Würde die Funktionsweise dieser Algorithmen transparenter gestaltet, könnten Nutzer möglicherweise bewusster mit den ihnen präsentierten Inhalten umgehen.\n\nAngesichts dieser Problematik fordern zahlreiche Medienwissenschaftler und Politiker strengere Regulierungen, die Plattformbetreiber dazu verpflichten würden, die Grundprinzipien ihrer Empfehlungsalgorithmen offenzulegen. Kritiker solcher Forderungen wenden jedoch ein, dass eine vollständige Transparenz technisch schwer umsetzbar sei und zugleich das Geschäftsmodell der Unternehmen gefährden könnte. Unabhängig davon, welche Lösung sich letztlich durchsetzt, bleibt die Förderung von Medienkompetenz eine zentrale Voraussetzung dafür, dass Menschen algorithmisch kuratierte Inhalte kritisch hinterfragen können.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen sozialer Netzwerke bevorzugen laut Text oft emotional aufwühlende Inhalte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass Filterblasen gesellschaftliche Gräben verringern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten fordern mehr Transparenz bei Empfehlungsalgorithmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist vollständige Transparenz technisch völlig problemlos umsetzbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienkompetenz wird im Text als wichtige Voraussetzung genannt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lehrermangel-als-strukturelles-problem-der-bildungspolitik",
+    "nivel": "B2",
+    "titulo": "Lehrermangel als strukturelles Problem der Bildungspolitik",
+    "descripcion": "Eine Analyse der Ursachen und möglichen Lösungsansätze für den anhaltenden Lehrermangel.",
+    "texto": "Der anhaltende Mangel an ausgebildeten Lehrkräften zählt zu den drängendsten Herausforderungen des deutschen Bildungssystems. Während in manchen Regionen Schulen kaum noch in der Lage sind, den regulären Unterricht vollständig abzudecken, führen Quereinsteiger und befristete Verträge zu einer zunehmenden Belastung des verbleibenden Lehrpersonals. Experten weisen darauf hin, dass dieser Mangel nicht plötzlich entstanden ist, sondern das Ergebnis jahrzehntelanger Fehlplanungen in der Bildungspolitik darstellt, bei denen demografische Entwicklungen systematisch unterschätzt wurden.\n\nUm dem Problem kurzfristig zu begegnen, setzen einige Bundesländer verstärkt auf sogenannte Seiteneinsteiger, die ohne klassisches Lehramtsstudium unterrichten dürfen, nachdem sie eine verkürzte pädagogische Qualifizierung durchlaufen haben. Obwohl dieser Ansatz kurzfristig helfen kann, akute Personallücken zu schließen, wird er von Lehrerverbänden kritisch gesehen, da befürchtet wird, dass die Unterrichtsqualität darunter leiden könnte. Gleichzeitig wird diskutiert, ob eine bessere Bezahlung und eine Reduzierung der administrativen Aufgaben den Lehrerberuf wieder attraktiver machen könnten.\n\nLangfristig, so sind sich viele Bildungsforscher einig, wird sich der Lehrermangel nur durch eine Kombination verschiedener Maßnahmen lösen lassen. Würde die Politik frühzeitiger in die Ausbildung neuer Lehrkräfte investieren und zugleich die Arbeitsbedingungen an Schulen spürbar verbessern, ließe sich der Beruf möglicherweise wieder für mehr junge Menschen attraktiv gestalten. Solange diese strukturellen Veränderungen jedoch ausbleiben, dürfte der Mangel an qualifizierten Lehrkräften das deutsche Bildungssystem noch über Jahre hinweg belasten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Lehrermangel betrifft laut Text alle Regionen Deutschlands in gleichem Maße.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Quereinsteiger werden in manchen Bundesländern eingesetzt, um Personallücken zu schließen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lehrerverbände sehen den Einsatz von Seiteneinsteigern ausschließlich positiv.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine bessere Bezahlung wird als mögliche Maßnahme diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text geht davon aus, dass sich der Lehrermangel sehr kurzfristig von selbst löst.",
+        "respuesta": false
+      }
+    ]
   }
 ]
