@@ -63458,5 +63458,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-spaziergang-mit-dem-hund-max",
+    "nivel": "A1",
+    "titulo": "Der Spaziergang mit dem Hund Max",
+    "descripcion": "Nina geht jeden Tag mit ihrem Hund Max im Wald spazieren.",
+    "texto": "Nina hat einen Hund. Er heißt Max. Max ist braun und sehr groß. Jeden Nachmittag geht Nina mit Max in den Wald. Der Wald ist nicht weit von ihrem Haus.\n\nMax läuft gern zwischen den Bäumen. Er mag auch den kleinen Fluss im Wald. Dort trinkt er Wasser und spielt mit Stöcken. Nina wirft einen Ball, und Max holt ihn schnell zurück. Manchmal treffen sie andere Hunde und ihre Besitzer.\n\nNach dem Spaziergang ist Max müde. Er trinkt Wasser und schläft auf seinem Kissen. Nina macht ihm danach sein Abendessen. Sie liebt die Zeit mit ihrem Hund sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Max ist eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina geht jeden Nachmittag mit Max in den Wald.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Wald gibt es einen kleinen Fluss.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Max spielt nicht gern mit einem Ball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max ist nach dem Spaziergang nicht müde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-katze-mia",
+    "nivel": "A1",
+    "titulo": "Meine Katze Mia",
+    "descripcion": "Paul erzählt von seiner Katze Mia und ihrem Alltag.",
+    "texto": "Ich heiße Paul und ich habe eine Katze. Sie heißt Mia. Mia ist weiß und schwarz. Sie ist drei Jahre alt. Mia schläft sehr viel, am Tag und in der Nacht.\n\nJeden Morgen gebe ich Mia Futter. Sie mag Fisch am liebsten. Nach dem Essen spielt Mia mit einem Ball. Sie liebt auch Papier und Kartons. Am Nachmittag sitzt Mia gern am Fenster und beobachtet die Vögel.\n\nAbends kommt Mia zu mir auf das Sofa. Sie schnurrt leise. Ich finde meine Katze sehr lieb und lustig. Mia ist mein bester Freund zu Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Mia ist eine Hündin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia ist drei Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia mag Fisch am liebsten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia spielt nicht gern mit Papier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Abends sitzt Mia neben Paul auf dem Sofa.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-auf-dem-flohmarkt",
+    "nivel": "A1",
+    "titulo": "Ein Tag auf dem Flohmarkt",
+    "descripcion": "Sofia besucht mit ihrer Mutter einen Flohmarkt in der Stadt.",
+    "texto": "Sofia geht mit ihrer Mutter auf den Flohmarkt. Der Flohmarkt ist in der Stadtmitte. Dort gibt es viele Stände. Die Leute verkaufen Bücher, Kleidung und Spielzeug.\n\nSofia sieht ein altes Puppenhaus. Es kostet nur fünf Euro. Ihre Mutter findet eine schöne Lampe für das Wohnzimmer. An einem anderen Stand gibt es bunte Tassen. Sofia kauft eine gelbe Tasse für ihren Vater.\n\nNach dem Einkauf trinken sie eine Limonade. Der Tag auf dem Flohmarkt macht Sofia sehr viel Spaß. Sie möchte nächsten Monat wiederkommen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Flohmarkt ist in der Stadtmitte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia kauft ein Fahrrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter findet eine Lampe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sofia kauft eine Tasse für ihre Mutter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofia möchte nie wieder auf den Flohmarkt gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-neuen-nachbarn-von-nebenan",
+    "nivel": "A2",
+    "titulo": "Die neuen Nachbarn von nebenan",
+    "descripcion": "Eine Familie zieht in die Nachbarwohnung, und Herr Krüger lernt sie kennen.",
+    "texto": "Herr Krüger hat letzten Monat bemerkt, dass die Wohnung neben ihm leer steht. Er hat sich gefragt, wer wohl einziehen wird. Letzte Woche sind endlich neue Nachbarn gekommen: eine junge Familie mit zwei kleinen Kindern. Weil die Umzugskisten so schwer waren, hat Herr Krüger sofort angeboten zu helfen.\n\nDie Familie hat sich sehr gefreut, dass der Nachbar so freundlich war. Nachdem sie die Möbel in die Wohnung getragen hatten, hat die Mutter Herrn Krüger zu einem Kaffee eingeladen. Er hat erzählt, dass er schon seit zwanzig Jahren in dem Haus wohnt und dass er die Ruhe in der Straße sehr mag. Die Kinder haben ihm gezeigt, wie sie ihr neues Zimmer einrichten wollen.\n\nAm Abend hat Herr Krüger seiner Schwester am Telefon erzählt, dass er sich über die neue Familie freut. Er hat gesagt, dass das Haus jetzt wieder lebendiger wirkt, weil man die Kinder im Hof spielen hört.",
+    "preguntas": [
+      {
+        "enunciado": "Die Wohnung neben Herrn Krüger stand lange leer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Krüger hat den neuen Nachbarn nicht geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter hat Herrn Krüger zu einem Kaffee eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Krüger wohnt erst seit einem Jahr in dem Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Krüger findet das Haus jetzt lebendiger.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-zugfahrt-nach-hamburg-im-regen",
+    "nivel": "A2",
+    "titulo": "Eine Zugfahrt nach Hamburg im Regen",
+    "descripcion": "Katja fährt bei schlechtem Wetter mit dem Zug nach Hamburg und erlebt eine Verspätung.",
+    "texto": "Katja ist am Freitagmorgen zum Bahnhof gegangen, weil sie nach Hamburg fahren wollte. Es hat stark geregnet, und sie hatte keinen Schirm dabei. Am Bahnhof hat sie erfahren, dass ihr Zug zwanzig Minuten Verspätung hatte, weil es ein technisches Problem gab. Sie hat sich geärgert, aber sie hat sich in ein kleines Café im Bahnhof gesetzt und einen Tee bestellt.\n\nAls der Zug endlich gekommen ist, war er sehr voll. Katja hat einen Platz am Fenster gefunden und hat die Landschaft beobachtet, während es weiter geregnet hat. Neben ihr hat eine ältere Frau gesessen, die ihr erzählt hat, dass sie zu ihrer Tochter nach Hamburg fährt. Die beiden haben sich während der Fahrt gut unterhalten, obwohl sie sich vorher nicht gekannt haben.\n\nAls Katja in Hamburg angekommen ist, hatte es endlich aufgehört zu regnen. Sie hat sich gefreut, dass die Fahrt trotz der Verspätung sehr angenehm war. Am Abend hat sie ihrer Freundin erzählt, dass sie auf der Zugfahrt eine interessante Frau kennengelernt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Katja ist mit dem Auto nach Hamburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug hatte zwanzig Minuten Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katja hat im Bahnhof einen Tee getrunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Zug war kaum jemand, und Katja war allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Als Katja in Hamburg ankam, regnete es noch stark.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-von-der-oma",
+    "nivel": "A2",
+    "titulo": "Ein Brief von der Oma",
+    "descripcion": "Clara bekommt einen Brief von ihrer Großmutter und antwortet ihr.",
+    "texto": "Clara hat letzte Woche einen Brief von ihrer Oma bekommen. Die Oma wohnt seit einem Jahr in einem kleinen Dorf in Bayern. Im Brief hat sie geschrieben, dass sie einen Garten mit vielen Blumen hat und dass sie jeden Tag spazieren geht. Clara hat sich sehr gefreut, weil sie ihre Oma lange nicht gesehen hat.\n\nIn ihrer Antwort hat Clara erzählt, dass sie in der Schule viel gelernt hat und dass sie bald Ferien hat. Sie hat auch geschrieben, dass sie ihre Oma im Sommer besuchen möchte, wenn ihre Eltern Zeit haben. Clara hat ein Foto von ihrer Familie in den Brief gelegt.\n\nAls die Oma die Antwort bekommen hat, hat sie sich riesig gefreut. Sie hat sofort zurückgeschrieben und gesagt, dass sie sich schon auf den Besuch freut. Clara und ihre Oma schreiben sich seitdem jeden Monat einen Brief.",
+    "preguntas": [
+      {
+        "enunciado": "Die Oma wohnt in einer großen Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara hat sich über den Brief gefreut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara will ihre Oma im Winter besuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara hat ein Foto in den Brief gelegt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara und ihre Oma schreiben sich nie wieder.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-ausbildung-zum-tischler",
+    "nivel": "B1",
+    "titulo": "Die Ausbildung zum Tischler",
+    "descripcion": "Niklas beginnt eine Ausbildung als Tischler und entdeckt seine Leidenschaft für das Handwerk.",
+    "texto": "Niklas hatte nach dem Abitur zunächst keine Ahnung, welchen Beruf er ergreifen wollte. Obwohl seine Eltern ihm ein Studium empfahlen, entschied er sich schließlich für eine Ausbildung zum Tischler, weil er schon immer gern mit Holz gearbeitet hatte. Die ersten Wochen in der Werkstatt waren anstrengend, da er viele grundlegende Techniken von Grund auf lernen musste.\n\nNachdem er die ersten einfachen Projekte, wie ein kleines Regal und einen Hocker, erfolgreich gebaut hatte, wuchs sein Selbstvertrauen deutlich. Sein Ausbilder lobte ihn für seine Genauigkeit und seine Geduld, zwei Eigenschaften, die im Handwerk besonders wichtig sind. Trotzdem gab es auch Rückschläge, etwa als ihm ein wichtiges Werkstück beim Hobeln zerbrach und er es noch einmal von vorne beginnen musste.\n\nAm Ende des ersten Ausbildungsjahres durfte Niklas an einem größeren Projekt mitarbeiten: dem Bau einer Küche für einen Kunden. Obwohl die Verantwortung groß war, meisterte er die Aufgabe mit Erfolg. Er erzählte seinen Eltern stolz, dass er seine Entscheidung nie bereut habe, denn im Handwerk fühle er sich endlich am richtigen Ort.",
+    "preguntas": [
+      {
+        "enunciado": "Niklas wusste nach dem Abitur sofort, was er machen wollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas hat sich für eine Ausbildung zum Tischler entschieden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Ausbilder hat Niklas für seine Genauigkeit gelobt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niklas hatte während der Ausbildung keine Rückschläge.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas hat an einer Küche für einen Kunden mitgearbeitet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-theaterprojekt-der-zehnten-klasse",
+    "nivel": "B1",
+    "titulo": "Das Theaterprojekt der zehnten Klasse",
+    "descripcion": "Eine Schulklasse bereitet über mehrere Monate ein eigenes Theaterstück vor.",
+    "texto": "Die zehnte Klasse des Goethe-Gymnasiums in Dresden hat sich zu Beginn des Schuljahres entschieden, ein eigenes Theaterstück zu schreiben und aufzuführen. Nachdem die Schüler lange über ein passendes Thema diskutiert hatten, einigten sie sich auf eine moderne Version eines klassischen Märchens. Die Proben fanden zweimal pro Woche nach dem Unterricht statt, was für viele Schüler eine zusätzliche Belastung neben den Hausaufgaben bedeutete.\n\nObwohl einige Schüler zunächst skeptisch waren, ob das Projekt gelingen würde, entwickelte sich mit der Zeit ein starker Teamgeist. Jeder übernahm eine Aufgabe: Manche spielten Rollen, andere bauten das Bühnenbild oder kümmerten sich um die Kostüme. Besonders die Hauptdarstellerin, die vorher nie auf einer Bühne gestanden hatte, überraschte alle mit ihrem Talent, nachdem sie wochenlang intensiv geübt hatte.\n\nAm Tag der Aufführung waren alle nervös, aber auch aufgeregt. Trotz eines kleinen technischen Problems mit dem Licht verlief die Vorstellung hervorragend, und das Publikum applaudierte lange. Die Lehrerin, die das Projekt begleitet hatte, erklärte anschließend, dass sie noch nie so stolz auf eine Klasse gewesen sei.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse hat ein bekanntes Theaterstück unverändert aufgeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Proben fanden zweimal pro Woche statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Hauptdarstellerin hatte schon oft auf einer Bühne gestanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bei der Aufführung gab es ein kleines technisches Problem mit dem Licht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin war am Ende enttäuscht von der Klasse.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommer-als-praktikant-in-der-redaktion",
+    "nivel": "B1",
+    "titulo": "Ein Sommer als Praktikant in der Redaktion",
+    "descripcion": "Jannik absolviert ein Praktikum bei einer Zeitung und lernt den Alltag im Journalismus kennen.",
+    "texto": "Jannik hatte sich schon lange für ein Praktikum in einer Zeitungsredaktion interessiert, bevor er endlich eine Zusage von einer regionalen Zeitung in Köln erhielt. Am ersten Tag war er sehr nervös, weil er nicht wusste, was ihn erwarten würde. Nachdem ihm der Chefredakteur die Redaktionsräume gezeigt hatte, bekam er bereits am zweiten Tag die Aufgabe, über ein lokales Sportereignis zu berichten.\n\nObwohl Jannik anfangs Schwierigkeiten hatte, seine Artikel kurz und präzise zu formulieren, verbesserte er sich von Woche zu Woche. Ein erfahrener Journalist half ihm geduldig, seine Texte zu überarbeiten, und erklärte ihm, worauf es bei einer guten Überschrift ankommt. Besonders spannend fand Jannik es, als er einen örtlichen Politiker für ein Interview besuchen durfte, nachdem er sich monatelang nur mit kleineren Themen beschäftigt hatte.\n\nAm Ende des Sommers hatte Jannik bereits mehrere eigene Artikel veröffentlicht. Er erzählte seinen Freunden, dass er durch das Praktikum viel über Teamarbeit und Zeitdruck gelernt habe. Trotz der anstrengenden Wochen war er sich sicher, dass er später gern im Journalismus arbeiten möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Jannik hat sein Praktikum bei einer Fernsehanstalt gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jannik bekam schon am zweiten Tag eine Schreibaufgabe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein erfahrener Journalist half Jannik, seine Texte zu überarbeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jannik hat während des Praktikums keinen Politiker interviewt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jannik möchte später nicht im Journalismus arbeiten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-generationenvertrag-unter-druck",
+    "nivel": "B2",
+    "titulo": "Der Generationenvertrag unter Druck",
+    "descripcion": "Der Text beleuchtet, warum das deutsche Rentensystem angesichts des demografischen Wandels zunehmend infrage gestellt wird.",
+    "texto": "Das deutsche Rentensystem basiert traditionell auf dem sogenannten Generationenvertrag, bei dem die erwerbstätige Bevölkerung durch ihre Beiträge die Renten der älteren Generation finanziert. Dieses Modell, das über Jahrzehnte als stabil galt, gerät zunehmend unter Druck, da sich das Verhältnis zwischen Beitragszahlern und Rentenempfängern aufgrund der demografischen Entwicklung kontinuierlich verschlechtert. Wäre die Lebenserwartung nicht in den vergangenen Jahrzehnten so deutlich gestiegen, stünde das System heute vermutlich auf einer deutlich stabileren Grundlage.\n\nVerschiedene Reformvorschläge, die in den letzten Jahren diskutiert wurden, zielen darauf ab, das System langfristig zu sichern. Während einige Ökonomen eine Erhöhung des Renteneintrittsalters befürworten, argumentieren andere, dass eine stärkere kapitalgedeckte Vorsorge notwendig sei, um die Abhängigkeit von der umlagefinanzierten Rente zu verringern. Kritiker dieser Ansätze weisen jedoch darauf hin, dass insbesondere Geringverdiener, deren Arbeitsplätze körperlich anstrengender sind, durch ein höheres Renteneintrittsalter unverhältnismäßig stark belastet würden.\n\nAngesichts dieser Spannungen fordern manche Sozialwissenschaftler ein grundlegendes Umdenken, das über reine Zahlenspiele hinausgeht. Es werde zunehmend deutlich, so ihr Argument, dass eine gerechte Lösung nur gefunden werden könne, wenn die Lasten des demografischen Wandels gleichmäßiger zwischen den Generationen verteilt würden, anstatt sie einseitig den Jüngeren oder den Älteren aufzubürden.",
+    "preguntas": [
+      {
+        "enunciado": "Der Generationenvertrag beruht darauf, dass Erwerbstätige die Renten der älteren Generation finanzieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Verhältnis zwischen Beitragszahlern und Rentenempfängern hat sich verbessert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Ökonomen sind sich einig, dass das Renteneintrittsalter erhöht werden sollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Geringverdiener durch ein höheres Renteneintrittsalter stärker belastet würden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche Sozialwissenschaftler fordern eine gerechtere Verteilung der Lasten zwischen den Generationen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "algorithmen-und-die-illusion-der-wahlfreiheit",
+    "nivel": "B2",
+    "titulo": "Algorithmen und die Illusion der Wahlfreiheit",
+    "descripcion": "Eine kritische Betrachtung darüber, wie algorithmische Empfehlungssysteme unsere scheinbar freien Entscheidungen beeinflussen.",
+    "texto": "Ob beim Einkaufen im Internet, beim Streamen eines Films oder beim Scrollen durch soziale Netzwerke: In nahezu jedem Bereich des digitalen Alltags begleiten uns heute Algorithmen, die auf Basis unseres bisherigen Verhaltens Empfehlungen aussprechen. Diese Systeme vermitteln den Eindruck, dass wir aus einer schier unbegrenzten Auswahl frei wählen könnten, obwohl die tatsächlich präsentierten Optionen bereits durch komplexe Berechnungen vorsortiert wurden. Würden Nutzer stärker über die Funktionsweise dieser Mechanismen aufgeklärt, könnten sie vermutlich bewusster mit den ihnen vorgeschlagenen Inhalten umgehen.\n\nBesonders problematisch erscheint vielen Kritikern, dass die zugrunde liegenden Berechnungsverfahren selten vollständig offengelegt werden, da sie als Geschäftsgeheimnis der jeweiligen Unternehmen gelten. Dadurch bleibt für die Nutzer weitgehend unklar, nach welchen Kriterien bestimmte Inhalte bevorzugt oder benachteiligt werden. Diese mangelnde Transparenz wird von Datenschutzorganisationen zunehmend als demokratiepolitisches Problem betrachtet, da sie die Meinungsbildung einzelner Personen auf eine kaum nachvollziehbare Weise beeinflussen kann.\n\nAls Reaktion auf diese Entwicklung fordern einige Abgeordnete auf europäischer Ebene strengere Regulierungen, die eine größere Rechenschaftspflicht der Technologiekonzerne vorsehen. Es wird vorgeschlagen, dass Nutzer künftig ein Recht darauf erhalten sollten, zu erfahren, warum ihnen bestimmte Inhalte angezeigt werden, und dass ihnen alternative, unsortierte Ansichten angeboten werden müssten. Nur durch derartige Maßnahmen, so die Befürworter dieser Forderung, lasse sich verhindern, dass algorithmische Systeme die individuelle Wahlfreiheit auf Dauer unbemerkt einschränken.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen beeinflussen laut dem Text nur das Einkaufen im Internet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die präsentierten Optionen sind bereits durch Berechnungen vorsortiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Berechnungsverfahren der Unternehmen werden meist vollständig offengelegt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Datenschutzorganisationen sehen die mangelnde Transparenz als demokratiepolitisches Problem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Einige Abgeordnete fordern strengere Regulierungen für Technologiekonzerne.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-pflegenotstand-als-gesellschaftliche-herausforderung",
+    "nivel": "B2",
+    "titulo": "Der Pflegenotstand als gesellschaftliche Herausforderung",
+    "descripcion": "Der Text analysiert die Ursachen des Fachkräftemangels in der Pflege und mögliche Lösungsansätze.",
+    "texto": "In deutschen Krankenhäusern und Pflegeeinrichtungen fehlt es seit Jahren an ausreichend qualifiziertem Personal, eine Entwicklung, die angesichts der alternden Bevölkerung zunehmend besorgniserregend ist. Viele Pflegekräfte, die den Beruf einst aus Überzeugung ergriffen hatten, berichten von einer Arbeitsbelastung, die auf Dauer kaum zu bewältigen sei. Wäre die Vergütung in der Pflege in der Vergangenheit stärker an die tatsächliche Verantwortung und Belastung angepasst worden, hätten vermutlich deutlich weniger Fachkräfte den Beruf vorzeitig verlassen.\n\nUm dem Fachkräftemangel entgegenzuwirken, wurden in den vergangenen Jahren verschiedene politische Maßnahmen ergriffen, darunter eine Erhöhung der Gehälter sowie Investitionen in die Ausbildung neuer Pflegekräfte. Dennoch zweifeln viele Experten daran, dass diese Schritte ausreichen, um die strukturellen Probleme der Branche nachhaltig zu lösen. Es wird vielfach betont, dass nicht allein die Bezahlung entscheidend sei, sondern ebenso die Arbeitsbedingungen, die Personalschlüssel und die gesellschaftliche Anerkennung des Berufs verbessert werden müssten.\n\nAngesichts dieser vielschichtigen Problematik fordern Pflegeverbände eine umfassende Reform, die über kurzfristige finanzielle Anreize hinausgeht. Nur wenn es gelinge, den Pflegeberuf grundlegend attraktiver zu gestalten, so ihre Argumentation, könne langfristig verhindert werden, dass die Versorgung einer alternden Gesellschaft durch einen anhaltenden Personalmangel gefährdet werde.",
+    "preguntas": [
+      {
+        "enunciado": "In der Pflege gibt es seit Jahren einen Mangel an qualifiziertem Personal.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Pflegekräfte berichten von einer problemlosen Arbeitsbelastung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gehälter in der Pflege wurden in den letzten Jahren erhöht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten sind überzeugt, dass höhere Gehälter allein das Problem vollständig lösen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pflegeverbände fordern eine umfassende Reform des Berufs.",
+        "respuesta": true
+      }
+    ]
   }
 ]
