@@ -62414,5 +62414,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-familie-im-garten",
+    "nivel": "A1",
+    "titulo": "Meine Familie im Garten",
+    "descripcion": "Lena beschreibt ihre Familie und einen schönen Tag im Garten.",
+    "texto": "Ich heiße Lena. Ich bin zehn Jahre alt. Ich wohne mit meiner Familie in einem kleinen Haus. Mein Vater heißt Paul, meine Mutter heißt Nina. Ich habe einen Bruder. Er heißt Tom und ist acht Jahre alt.\n\nAm Sonntag ist das Wetter schön. Wir sind alle im Garten. Mein Vater grillt Würstchen. Meine Mutter macht einen Salat mit Tomaten und Gurken. Tom und ich spielen Fußball. Unser Hund Bello läuft mit uns.\n\nNach dem Essen trinken wir Limonade. Tom isst einen Apfel, ich esse eine Banane. Die Sonne scheint, und der Garten ist grün. Wir sind sehr glücklich zusammen.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas Bruder heißt Paul.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie ist am Sonntag im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter grillt die Würstchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena trinkt nach dem Essen Kaffee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wocheneinkauf-mit-mama",
+    "nivel": "A1",
+    "titulo": "Der Wocheneinkauf mit Mama",
+    "descripcion": "Ein Kind erzählt vom Einkaufen im Supermarkt mit der Mutter.",
+    "texto": "Heute gehe ich mit meiner Mama in den Supermarkt. Wir brauchen Milch, Brot und Eier. Mama schreibt immer eine Liste. Ich darf den Einkaufswagen schieben.\n\nIm Supermarkt gibt es viele Dinge. Wir kaufen Äpfel, Käse und Joghurt. Ich möchte auch Schokolade kaufen. Mama sagt: „Nur ein kleines Stück.\" Ich freue mich.\n\nAn der Kasse bezahlt Mama mit der Karte. Ein Mann packt unsere Taschen. Zu Hause räumen wir die Sachen in den Kühlschrank. Danach esse ich ein Stück Schokolade.",
+    "preguntas": [
+      {
+        "enunciado": "Das Kind geht mit dem Vater einkaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mama schreibt eine Einkaufsliste.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie kaufen Milch, Brot und Eier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mama kauft keine Schokolade.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mama bezahlt mit Bargeld.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-tag-beginnt-frueh",
+    "nivel": "A1",
+    "titulo": "Mein Tag beginnt früh",
+    "descripcion": "Ein Junge beschreibt seine tägliche Morgenroutine vor der Schule.",
+    "texto": "Ich heiße Jonas. Mein Tag beginnt früh. Ich stehe um sechs Uhr auf. Zuerst putze ich meine Zähne. Dann ziehe ich mich an.\n\nIn der Küche esse ich ein Frühstück. Ich esse Brot mit Marmelade und trinke Kakao. Meine Schwester trinkt Tee. Um halb acht gehen wir zur Schule. Wir fahren mit dem Fahrrad.\n\nDie Schule beginnt um acht Uhr. Ich habe heute Deutsch, Mathe und Sport. Nach der Schule spiele ich mit meinen Freunden. Am Abend lese ich ein Buch und gehe früh ins Bett.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas steht um sieben Uhr auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas trinkt zum Frühstück Kakao.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder fahren mit dem Bus zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schule beginnt um acht Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas liest abends ein Buch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fieber-und-ein-termin-beim-arzt",
+    "nivel": "A2",
+    "titulo": "Fieber und ein Termin beim Arzt",
+    "descripcion": "Markus ist krank und muss zum Arzt gehen.",
+    "texto": "Markus ist seit zwei Tagen krank. Er hat Fieber und Halsschmerzen. Weil er sich sehr schlecht fühlt, hat seine Mutter einen Termin beim Arzt gemacht. Am Morgen sind sie zusammen zur Praxis gefahren.\n\nIn der Praxis hat die Ärztin Markus untersucht. Sie hat seine Temperatur gemessen und in seinen Hals geschaut. „Sie haben eine Erkältung, aber das ist nicht gefährlich\", hat die Ärztin gesagt. Sie hat ihm Tabletten und Hustensaft verschrieben. Markus musste auch viel Tee trinken und im Bett bleiben.\n\nAm nächsten Tag hat sich Markus schon etwas besser gefühlt, obwohl das Fieber noch nicht ganz weg war. Seine Mutter hat ihm Suppe gekocht und ein Buch gebracht. Nach fünf Tagen konnte Markus wieder in die Schule gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte Fieber und Halsschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus ist alleine zur Arztpraxis gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin hat gesagt, die Erkältung sei gefährlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus musste Tabletten und Hustensaft nehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus konnte erst nach einer Woche wieder zur Schule.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-fuer-die-oma",
+    "nivel": "A2",
+    "titulo": "Ein Brief für die Oma",
+    "descripcion": "Sophie schreibt ihrer Großmutter einen Brief über ihr letztes Wochenende.",
+    "texto": "Liebe Oma,\n\nich hoffe, es geht dir gut. Ich wollte dir erzählen, was ich am Wochenende gemacht habe. Am Samstag bin ich mit meinen Eltern in den Zoo gegangen. Wir haben Löwen, Elefanten und Affen gesehen. Es hat mir sehr gut gefallen, weil die Tiere so interessant waren.\n\nAm Sonntag habe ich meine Freundin Clara besucht. Wir haben zusammen Kuchen gebacken und einen Film geschaut. Danach sind wir im Park spazieren gegangen, denn das Wetter war sehr schön. Clara hat mir erzählt, dass sie im Sommer ans Meer fährt.\n\nIch freue mich schon sehr, dich in den Ferien zu besuchen. Dann können wir zusammen im Garten sitzen und Kekse essen.\n\nViele liebe Grüße,\nDeine Sophie",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist am Samstag in den Zoo gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Zoo hat Sophie keine Elefanten gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara und Sophie haben zusammen einen Kuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara fährt im Winter ans Meer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie möchte ihre Oma in den Ferien besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "neue-nachbarn-im-haus",
+    "nivel": "A2",
+    "titulo": "Neue Nachbarn im Haus",
+    "descripcion": "Eine Familie zieht in das Haus, und Frau Berger lernt sie kennen.",
+    "texto": "Letzte Woche ist eine neue Familie in das Haus nebenan eingezogen. Frau Berger hat die Familie vom Fenster aus beobachtet, als sie ihre Möbel in die Wohnung gebracht haben. Weil sie neugierig war, hat sie beschlossen, die neuen Nachbarn zu besuchen.\n\nAm Nachmittag hat Frau Berger an die Tür geklopft und einen Kuchen mitgebracht. Die Familie hat sich sehr gefreut. Herr und Frau Keller haben sich vorgestellt und erzählt, dass sie aus Hamburg gekommen sind. Sie haben zwei Kinder, die bald in die neue Schule gehen werden.\n\nFrau Berger hat den Kellers die Nachbarschaft gezeigt, obwohl es draußen ziemlich kalt war. Sie haben den Supermarkt, den Park und die Bushaltestelle besucht. Am Ende des Tages hat Frau Berger die Familie zum Kaffee eingeladen, und sie haben noch lange zusammen gesprochen.",
+    "preguntas": [
+      {
+        "enunciado": "Die neue Familie ist aus München gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat den Kellers einen Kuchen gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kellers haben keine Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat den Kellers die Nachbarschaft gezeigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Tages ist Frau Berger allein geblieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-ans-meer",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt ans Meer",
+    "descripcion": "Eine Schulklasse fährt an die Ostsee und erlebt dort einige Abenteuer.",
+    "texto": "Die Klasse 9b hatte sich schon lange auf die Klassenfahrt an die Ostsee gefreut. Nachdem die letzten Prüfungen geschrieben worden waren, stiegen alle Schüler mit großer Vorfreude in den Bus. Obwohl die Fahrt fast fünf Stunden dauerte, verging die Zeit schnell, weil alle gemeinsam Musik hörten und Karten spielten.\n\nIn der Jugendherberge angekommen, mussten die Schüler zuerst ihre Zimmer beziehen. Trotzdem blieb genug Zeit, um noch am selben Abend an den Strand zu gehen. Dort beobachteten sie den Sonnenuntergang und sammelten Muscheln. Am nächsten Tag unternahm die Klasse eine Wanderung entlang der Steilküste, bei der sie viel über die Entstehung der Landschaft lernten.\n\nBesonders beeindruckend fanden die Schüler den Besuch im Meeresmuseum, wo sie Seehunde und verschiedene Fischarten aus der Nähe betrachten konnten. Am letzten Abend organisierten die Lehrer ein Lagerfeuer, an dem alle zusammen sangen und sich an die schönsten Momente der Woche erinnerten. Als der Bus zurück in die Heimatstadt fuhr, waren sich alle einig, dass es eine unvergessliche Reise gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Busfahrt zur Ostsee dauerte etwa fünf Stunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler gingen erst am dritten Tag zum ersten Mal an den Strand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse unternahm eine Wanderung entlang der Steilküste.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Meeresmuseum gab es keine lebenden Tiere zu sehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend gab es ein Lagerfeuer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-auf-die-probe-gestellt",
+    "nivel": "B1",
+    "titulo": "Freundschaft auf die Probe gestellt",
+    "descripcion": "Zwei langjährige Freunde streiten sich und müssen lernen, sich wieder zu vertragen.",
+    "texto": "Jana und Felix waren seit der Grundschule beste Freunde, obwohl sie oft sehr unterschiedliche Meinungen hatten. Als Felix vergaß, zu Janas Geburtstagsfeier zu kommen, fühlte sich Jana zutiefst verletzt. Sie sprach tagelang nicht mit ihm, weil sie glaubte, dass ihm die Freundschaft nicht mehr wichtig sei.\n\nNachdem Felix mehrmals versucht hatte, sich bei Jana zu entschuldigen, schrieb er ihr schließlich einen langen Brief. Darin erklärte er, dass er an jenem Tag einen wichtigen Arzttermin für seine kranke Mutter gehabt hatte und es völlig vergessen hatte, ihr vorher Bescheid zu sagen. Trotzdem hätte er sich sofort danach melden sollen, schrieb er, und das tue ihm sehr leid.\n\nAls Jana den Brief gelesen hatte, verstand sie, dass Felix keine böse Absicht gehabt hatte. Sie rief ihn an, und nach einem langen Gespräch versöhnten sich die beiden wieder. Seitdem versuchen sie, offener miteinander zu reden, damit solche Missverständnisse in Zukunft seltener vorkommen.",
+    "preguntas": [
+      {
+        "enunciado": "Jana und Felix kennen sich erst seit der Oberschule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat Janas Geburtstagsfeier verpasst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix hatte an dem Tag einen Arzttermin für seine Mutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana wollte den Brief von Felix nicht lesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende versöhnen sich Jana und Felix wieder.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-im-buero",
+    "nivel": "B1",
+    "titulo": "Der erste Tag im Büro",
+    "descripcion": "Simon beginnt seinen ersten Arbeitstag in einer neuen Firma und ist sehr nervös.",
+    "texto": "Simon hatte die ganze Nacht kaum geschlafen, weil er so nervös vor seinem ersten Arbeitstag war. Nachdem er sich endlich für ein Hemd entschieden hatte, machte er sich früh auf den Weg zur Firma, obwohl er wusste, dass er viel zu früh ankommen würde. An der Rezeption wurde er freundlich empfangen und zu seinem neuen Büro begleitet.\n\nIm Laufe des Vormittags lernte Simon seine Kollegen kennen, die ihm geduldig die wichtigsten Abläufe erklärten. Besonders sein Kollege Thomas half ihm, sich mit den neuen Computerprogrammen vertraut zu machen, da Simon damit noch keine Erfahrung hatte. Trotzdem fühlte sich Simon nach dem Mittagessen schon etwas sicherer, weil das Team sehr hilfsbereit war.\n\nAm Nachmittag nahm Simon an seiner ersten Teambesprechung teil. Obwohl er zunächst wenig sagte, bemerkte er, dass die Atmosphäre im Büro angenehm und entspannt war. Als er abends nach Hause fuhr, war er erschöpft, aber auch zufrieden, weil der erste Tag viel besser verlaufen war, als er erwartet hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Simon hat vor dem ersten Arbeitstag gut geschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon kam viel zu spät in der Firma an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Thomas half Simon mit den neuen Computerprogrammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon nahm an einer Teambesprechung teil.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon war am Ende des Tages enttäuscht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "schule-im-wandel-der-zeit",
+    "nivel": "B2",
+    "titulo": "Schule im Wandel der Zeit",
+    "descripcion": "Ein Essay über die Herausforderungen und Chancen einer umfassenden Bildungsreform.",
+    "texto": "Das deutsche Bildungssystem steht seit Jahren im Zentrum gesellschaftlicher Debatten. Während die einen eine grundlegende Reform fordern, um die Schulen besser auf die Anforderungen des 21. Jahrhunderts vorzubereiten, warnen andere davor, bewährte Strukturen vorschnell über Bord zu werfen. Es wird zunehmend diskutiert, ob mehr Wert auf individuelle Förderung gelegt werden sollte, anstatt an einem starren Lehrplan festzuhalten, der kaum Rücksicht auf unterschiedliche Lerntempi nimmt.\n\nBesonders kontrovers wird die Frage behandelt, inwieweit digitale Medien in den Unterricht integriert werden sollten. Befürworter argumentieren, dass digitale Kompetenzen längst zu den Grundfertigkeiten gehören, die in jedem Beruf vorausgesetzt werden, und dass Schulen, die sich dieser Entwicklung verweigern, ihre Schüler nicht angemessen auf die Zukunft vorbereiten. Kritiker hingegen betonen, dass ein übermäßiger Einsatz von Bildschirmen die Konzentrationsfähigkeit beeinträchtigen könne und dass soziale Kompetenzen, die im direkten Austausch erlernt werden, dabei zu kurz kämen.\n\nWürde man die Lehrerausbildung grundlegend überarbeiten, ließe sich vermutlich ein wesentlicher Teil dieser Probleme angehen. Lehrkräfte, die besser auf heterogene Klassen vorbereitet wären, könnten individueller auf die Bedürfnisse ihrer Schüler eingehen. Dennoch bleibt fraglich, ob eine solche Reform allein ausreichen würde, wenn nicht gleichzeitig auch die strukturellen Rahmenbedingungen, wie etwa die Klassengröße und die Ausstattung der Schulen, verbessert werden. Am Ende zeigt sich, dass Bildungspolitik ein komplexes Zusammenspiel vieler Faktoren erfordert, das sich nicht durch einzelne Maßnahmen lösen lässt.",
+    "preguntas": [
+      {
+        "enunciado": "Im Text gibt es einen vollständigen Konsens über die nötige Bildungsreform.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter digitaler Medien sehen digitale Kompetenzen als Grundfertigkeit an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Bildschirme die Konzentration beeinträchtigen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, die Lehrerausbildung unverändert zu lassen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text würde eine überarbeitete Lehrerausbildung allein sicher alle Probleme lösen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-zwischen-worten-und-taten",
+    "nivel": "B2",
+    "titulo": "Klimapolitik zwischen Worten und Taten",
+    "descripcion": "Eine kritische Betrachtung der Diskrepanz zwischen politischen Klimazielen und ihrer tatsächlichen Umsetzung.",
+    "texto": "Kaum ein politisches Thema wird so leidenschaftlich diskutiert wie der Klimaschutz, und doch klafft zwischen den verkündeten Zielen und der tatsächlichen Umsetzung häufig eine erhebliche Lücke. Zahlreiche Regierungen haben sich ambitionierte Klimaziele gesetzt, die bis zur Mitte des Jahrhunderts erreicht werden sollen. Gleichzeitig zeigen Berichte unabhängiger Institutionen immer wieder, dass die bisher ergriffenen Maßnahmen bei weitem nicht ausreichen, um diese Ziele tatsächlich zu erreichen.\n\nEin zentrales Problem liegt darin, dass viele der notwendigen Maßnahmen, etwa eine drastische Reduzierung des Verkehrs mit fossilen Brennstoffen oder eine umfassende Sanierung von Gebäuden, kurzfristig mit erheblichen Kosten verbunden sind. Diese Kosten werden von der Bevölkerung oft als Belastung empfunden, was dazu führt, dass Politiker, die wiedergewählt werden möchten, vor besonders unpopulären Entscheidungen zurückschrecken. Wäre die Klimapolitik konsequenter gestaltet, müssten langfristig vermutlich deutlich geringere Kosten getragen werden, da die Folgen des Klimawandels selbst enorme wirtschaftliche Schäden verursachen.\n\nHinzu kommt, dass die öffentliche Debatte häufig von kurzfristigen Interessen bestimmt wird, obwohl Klimaschutz naturgemäß eine langfristige Perspektive erfordert. Es wird zunehmend gefordert, dass unabhängige Gremien stärker in die Gestaltung der Klimapolitik eingebunden werden sollten, damit Entscheidungen weniger von kurzfristigen Wahlzyklen abhängig gemacht werden. Ob eine solche Reform tatsächlich umgesetzt wird, bleibt jedoch ungewiss, solange sich politische Mehrheiten weiterhin an unmittelbaren Interessen der Wählerschaft orientieren müssen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text stimmen die Klimaziele und die tatsächlichen Maßnahmen meist vollständig überein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Unabhängige Institutionen bestätigen, dass die bisherigen Maßnahmen ausreichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hohe kurzfristige Kosten führen dazu, dass manche Politiker unpopuläre Maßnahmen vermeiden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, unabhängige Gremien stärker in die Klimapolitik einzubinden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass Klimapolitik ausschließlich kurzfristig gedacht werden sollte.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice-und-die-grenzen-der-erholung",
+    "nivel": "B2",
+    "titulo": "Homeoffice und die Grenzen der Erholung",
+    "descripcion": "Eine Analyse darüber, wie das Arbeiten von zu Hause die Balance zwischen Beruf und Privatleben verändert hat.",
+    "texto": "Seit sich das Homeoffice in vielen Branchen als feste Arbeitsform etabliert hat, wird intensiv diskutiert, welche Auswirkungen diese Entwicklung auf das Verhältnis zwischen Beruf und Privatleben hat. Auf den ersten Blick scheint die Möglichkeit, von zu Hause aus zu arbeiten, zahlreiche Vorteile mit sich zu bringen: Pendelzeiten entfallen, die Arbeitszeit lässt sich flexibler gestalten, und Beschäftigte können ihren Alltag scheinbar freier organisieren. Bei genauerer Betrachtung zeigt sich jedoch, dass diese neu gewonnene Freiheit auch erhebliche Risiken birgt.\n\nViele Beschäftigte berichten, dass die Grenze zwischen Arbeit und Freizeit im Homeoffice zunehmend verschwimmt. Da der Arbeitsplatz nicht mehr räumlich von der Wohnung getrennt ist, fällt es vielen schwer, nach Feierabend tatsächlich abzuschalten. Hinzu kommt, dass von vielen Arbeitgebern erwartet wird, auch außerhalb der eigentlichen Arbeitszeiten erreichbar zu sein, was langfristig zu einer erhöhten psychischen Belastung führen kann. Es stellt sich die Frage, ob Beschäftigte, die dauerhaft im Homeoffice arbeiten, nicht stärker geschützt werden müssten, etwa durch gesetzlich verankerte Regelungen zur Erreichbarkeit.\n\nGleichzeitig wird betont, dass die Auswirkungen des Homeoffice stark von individuellen Lebensumständen abhängen. Während Menschen mit ausreichend Platz in der Wohnung und klaren familiären Absprachen oft von der neuen Arbeitsform profitieren, geraten andere, die etwa beengte Wohnverhältnisse oder Betreuungspflichten haben, zunehmend unter Druck. Würden Unternehmen verbindliche Leitlinien einführen, die klare Erreichbarkeitszeiten und regelmäßige Pausen vorschreiben, ließe sich vermutlich ein ausgewogeneres Verhältnis zwischen beruflichen Anforderungen und privater Erholung erreichen, als es gegenwärtig vielfach der Fall ist.",
+    "preguntas": [
+      {
+        "enunciado": "Der Text behauptet, dass Homeoffice ausschließlich Vorteile mit sich bringt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text verschwimmt für viele Beschäftigte die Grenze zwischen Arbeit und Freizeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird erwähnt, dass ständige Erreichbarkeit die psychische Belastung senken kann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Auswirkungen des Homeoffice hängen laut dem Text von den individuellen Lebensumständen ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, dass Unternehmen klare Erreichbarkeitszeiten und Pausen festlegen könnten.",
+        "respuesta": true
+      }
+    ]
   }
 ]
