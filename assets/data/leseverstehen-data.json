@@ -64154,5 +64154,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "ein-tag-im-buero",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Büro",
+    "descripcion": "Lukas erzählt von seinem typischen Arbeitstag im Büro.",
+    "texto": "Lukas steht jeden Morgen um sieben Uhr auf. Er trinkt einen Kaffee und isst ein Brot mit Käse. Dann fährt er mit dem Bus zur Arbeit. Das Büro ist in der Stadtmitte, nicht weit von seiner Wohnung.\n\nUm neun Uhr beginnt Lukas mit der Arbeit. Er schreibt E-Mails und telefoniert mit Kunden. Um zwölf Uhr macht er eine Pause und isst mit seinen Kollegen in der Kantine. Das Essen ist einfach, aber lecker. Nach der Pause arbeitet er bis fünf Uhr am Nachmittag.\n\nAm Abend geht Lukas nach Hause und kocht Abendessen. Er mag Nudeln mit Tomatensoße sehr gern. Danach liest er ein Buch oder schaut einen Film. Lukas ist mit seinem Arbeitstag zufrieden.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas fährt mit dem Auto zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas isst allein in der Kantine.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Arbeit beginnt um neun Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas kocht am Abend Nudeln mit Tomatensoße.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-tagesablauf",
+    "nivel": "A1",
+    "titulo": "Der Tagesablauf von Mia",
+    "descripcion": "Mia beschreibt ihren Tagesablauf von morgens bis abends.",
+    "texto": "Mia ist zwölf Jahre alt und geht in die Schule. Sie steht um sechs Uhr dreißig auf. Zuerst putzt sie die Zähne und zieht sich an. Dann frühstückt sie mit ihrer Familie. Sie isst gern Müsli mit Milch und Obst.\n\nUm acht Uhr beginnt die Schule. Mia hat Deutsch, Mathe und Sport. In der Pause spielt sie mit ihren Freundinnen. Um ein Uhr ist die Schule zu Ende, und Mia geht zu Fuß nach Hause. Zu Hause macht sie ihre Hausaufgaben und isst dann Mittagessen.\n\nAm Nachmittag spielt Mia Fußball im Park. Sie mag Sport sehr. Am Abend isst die Familie zusammen, und Mia geht um neun Uhr ins Bett. Sie ist müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Mia steht um sechs Uhr dreißig auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia isst morgens Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schule beginnt um neun Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia spielt am Nachmittag Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia geht um sechs Uhr ins Bett.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-farben-meiner-familie",
+    "nivel": "A1",
+    "titulo": "Meine Lieblingsfarbe",
+    "descripcion": "Paul erzählt, welche Farben er mag und warum.",
+    "texto": "Paul mag die Farbe Blau sehr gern. Sein Zimmer ist blau, und sein Fahrrad ist auch blau. Er sagt: „Blau ist die Farbe des Himmels und des Meeres.\" Pauls Schwester Lina mag dagegen die Farbe Grün. Ihr Zimmer ist grün, und sie trägt oft grüne Kleider.\n\nIn der Familie gibt es viele Farben. Die Mutter mag Rot, und der Vater mag Gelb. Am Wochenende malen Paul und Lina oft zusammen. Sie benutzen viele bunte Stifte: Rot, Blau, Grün, Gelb und Orange. Das macht beiden großen Spaß.\n\nIm Sommer kauft die Familie neue T-Shirts. Paul wählt ein blaues T-Shirt, und Lina wählt ein grünes. Die Eltern finden das sehr schön. Alle sind glücklich mit ihren Lieblingsfarben.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Lieblingsfarbe ist Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Linas Zimmer ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater mag die Farbe Gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul und Lina malen nie zusammen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lina kauft ein grünes T-Shirt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarn",
+    "nivel": "A2",
+    "titulo": "Die neuen Nachbarn",
+    "descripcion": "Frau Weber lernt ihre neuen Nachbarn kennen und hilft ihnen beim Umzug.",
+    "texto": "Letzten Monat sind neue Nachbarn in das Haus gegenüber eingezogen. Frau Weber hat die Familie gleich am ersten Tag gesehen, weil sie viele Kisten getragen haben. Sie hat beschlossen, den Nachbarn zu helfen, weil ein Umzug immer anstrengend ist. Sie hat Kaffee und Kuchen gemacht und ist einfach hinübergegangen.\n\nDie Familie hat sich sehr gefreut. Der Vater, Herr Novak, hat erzählt, dass sie aus einer anderen Stadt gekommen sind, weil er eine neue Arbeit gefunden hat. Die Mutter, Frau Novak, hat gesagt, dass die Kinder zuerst ein bisschen traurig waren, weil sie ihre alten Freunde vermisst haben. Frau Weber hat versprochen, dass sie die Kinder den anderen Kindern in der Straße vorstellen wird.\n\nAm nächsten Wochenende hat Frau Weber eine kleine Party organisiert. Alle Nachbarn sind gekommen, und die Kinder haben zusammen im Garten gespielt. Herr und Frau Novak haben sich sehr willkommen gefühlt. Am Ende des Abends haben sie gesagt, dass sie froh sind, in diese Straße gezogen zu sein.",
+    "preguntas": [
+      {
+        "enunciado": "Die neuen Nachbarn sind vor einem Jahr eingezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber hat den Nachbarn Kaffee und Kuchen gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Novak hat wegen einer neuen Arbeit die Stadt gewechselt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben sich sofort über den Umzug gefreut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber hat eine Party für die Nachbarn organisiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenendausflug",
+    "nivel": "A2",
+    "titulo": "Ein Wochenendausflug an den See",
+    "descripcion": "Tim und seine Freunde fahren für einen Tag an einen See, um zu entspannen.",
+    "texto": "Am Samstag sind Tim und seine Freunde früh aufgestanden, weil sie einen Ausflug an den See geplant haben. Sie haben Brote, Obst und Getränke eingepackt und sind mit dem Zug gefahren. Die Fahrt hat ungefähr eine Stunde gedauert, und alle haben sich schon sehr gefreut.\n\nAls sie am See angekommen sind, war das Wetter leider nicht so gut, wie sie gehofft hatten. Es war ein bisschen bewölkt, aber nach einer Stunde ist die Sonne herausgekommen. Tim und seine Freunde haben ein Picknick gemacht und sind dann schwimmen gegangen, weil das Wasser doch angenehm warm war. Einer der Freunde, Jonas, hat ein Boot gemietet, und alle sind zusammen über den See gefahren.\n\nAm Abend waren alle müde, aber glücklich. Sie haben Fotos gemacht, weil sie sich an diesen schönen Tag erinnern wollten. Auf der Rückfahrt im Zug haben sie schon über den nächsten Ausflug gesprochen. Tim hat gesagt, dass er gern wieder an den See fahren möchte, weil es so entspannend war.",
+    "preguntas": [
+      {
+        "enunciado": "Tim und seine Freunde sind mit dem Auto gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang war das Wetter bewölkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand ist im See geschwommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat ein Boot gemietet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim möchte nicht wieder an den See fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-italien",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus dem Urlaub",
+    "descripcion": "Sophie schreibt ihrer besten Freundin einen Brief über ihren Urlaub in Italien.",
+    "texto": "Liebe Katrin, ich bin seit drei Tagen hier in Italien und wollte dir unbedingt schreiben, weil ich so viel erlebt habe. Das Hotel liegt direkt am Meer, und das Wasser ist wunderschön blau. Gestern bin ich schwimmen gegangen, obwohl das Wasser noch ein bisschen kalt war.\n\nAm zweiten Tag haben meine Eltern und ich eine alte Stadt besucht. Wir haben viele Kirchen und kleine Gassen gesehen. Ich habe auch echte italienische Pizza probiert, und sie war viel besser als die Pizza zu Hause. Nachdem wir die Stadt besichtigt haben, sind wir in ein kleines Restaurant gegangen und haben dort zu Abend gegessen.\n\nMorgen fahren wir an einen anderen Strand, weil meine Mutter gelesen hat, dass er sehr schön sein soll. Ich vermisse dich und unsere Stadt, aber der Urlaub macht mir großen Spaß. Ich bringe dir ein kleines Geschenk mit. Bis bald, deine Sophie.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist seit einer Woche in Italien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Hotel liegt direkt am Meer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie fand die italienische Pizza nicht gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat mit ihren Eltern eine alte Stadt besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie bringt Katrin ein Geschenk mit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-schulreise",
+    "nivel": "B1",
+    "titulo": "Die Schulreise nach Hamburg",
+    "descripcion": "Eine Schulklasse fährt drei Tage nach Hamburg und erlebt dort viele Abenteuer.",
+    "texto": "Die Klasse 9b hatte sich schon seit Wochen auf die Schulreise nach Hamburg gefreut. Obwohl das Wetter zu Beginn der Fahrt ziemlich schlecht war, blieb die Stimmung im Bus ausgezeichnet. Nachdem sie nach vier Stunden endlich angekommen waren, brachten die Lehrer die Schüler zuerst in die Jugendherberge, damit alle ihre Zimmer beziehen konnten.\n\nAm nächsten Tag besichtigte die Klasse den Hafen und machte eine Bootstour durch die Speicherstadt. Einige Schüler waren von der Größe der Containerschiffe beeindruckt, während andere sich mehr für die alten Lagerhäuser interessierten. Trotzdem fanden alle den Ausflug ins Miniatur Wunderland am Abend am spannendsten, weil die riesigen Modelllandschaften mit kleinen Zügen und Flugzeugen wirklich beeindruckend waren.\n\nAm letzten Tag, bevor sie zurück zur Schule fuhren, hatten die Schüler noch Zeit, um Souvenirs zu kaufen und durch die Innenstadt zu bummeln. Einige kauften kleine Schiffe aus Holz, andere Postkarten für ihre Familien. Auf der Rückfahrt im Bus schliefen die meisten Schüler, weil sie von den drei ereignisreichen Tagen erschöpft waren. Die Lehrer waren zufrieden, dass die Reise trotz des schlechten Wetters am Anfang so gut verlaufen war.",
+    "preguntas": [
+      {
+        "enunciado": "Das Wetter war während der ganzen Reise schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat eine Bootstour durch die Speicherstadt gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand interessierte sich für das Miniatur Wunderland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Tag konnten die Schüler noch Souvenirs kaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler waren auf der Rückfahrt sehr wach und aktiv.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "umzug-in-eine-andere-stadt",
+    "nivel": "B1",
+    "titulo": "Umzug in eine andere Stadt",
+    "descripcion": "Jonas zieht wegen seines Studiums in eine neue Stadt und muss sich dort einleben.",
+    "texto": "Als Jonas erfuhr, dass er einen Studienplatz in München bekommen hatte, freute er sich zunächst sehr. Erst später wurde ihm klar, dass er dafür seine Heimatstadt verlassen und sich ein völlig neues Leben aufbauen musste. Obwohl er seine Familie und Freunde sehr vermissen würde, entschied er sich, die Chance zu nutzen, da ihm das Studienfach sehr wichtig war.\n\nDie ersten Wochen in München waren nicht leicht. Jonas kannte niemanden in der Stadt, und das Wohnheim, in dem er wohnte, war kleiner, als er erwartet hatte. Nachdem er jedoch an einer Einführungsveranstaltung der Universität teilgenommen hatte, lernte er mehrere Kommilitonen kennen, mit denen er sich schnell gut verstand. Gemeinsam erkundeten sie die Stadt, besuchten Cafés und entdeckten die besten Orte zum Lernen.\n\nNach ein paar Monaten fühlte sich Jonas in München schon viel wohler. Trotzdem rief er fast jeden Abend seine Eltern an, weil ihm der Kontakt zur Familie wichtig blieb. Inzwischen hat er eine kleine Wohnung gefunden und engagiert sich sogar in einem Sportverein. Rückblickend ist Jonas froh, dass er den Mut hatte, in eine neue Stadt zu ziehen, obwohl der Anfang schwierig war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist wegen eines Studienplatzes nach München gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas kannte schon viele Leute, als er in München ankam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Durch eine Einführungsveranstaltung lernte Jonas Kommilitonen kennen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat den Kontakt zu seinen Eltern komplett abgebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas bereut seinen Umzug nach München.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenfest-der-nachbarschaft",
+    "nivel": "B1",
+    "titulo": "Das Straßenfest der Nachbarschaft",
+    "descripcion": "Eine Nachbarschaft organisiert ein Straßenfest, um den Zusammenhalt zu stärken.",
+    "texto": "Seit mehreren Jahren organisieren die Bewohner der Lindenstraße jeden Sommer ein gemeinsames Straßenfest. Die Idee dazu entstand, nachdem einige Nachbarn festgestellt hatten, dass sich viele Menschen in der Straße kaum kannten, obwohl sie schon lange dort wohnten. Deshalb beschloss eine kleine Gruppe, ein Fest zu planen, bei dem sich alle besser kennenlernen konnten.\n\nIn diesem Jahr war die Vorbereitung besonders aufwendig, weil mehr Familien als je zuvor mitmachen wollten. Jeder Haushalt sollte etwas zu essen mitbringen, während andere sich um Musik und Dekoration kümmerten. Trotz des Regens am Morgen ließen sich die Nachbarn die gute Stimmung nicht verderben, denn am Nachmittag kam doch noch die Sonne heraus. Kinder spielten auf der gesperrten Straße, während die Erwachsenen an langen Tischen saßen und sich unterhielten.\n\nAm Ende des Tages waren sich alle einig, dass das Fest ein voller Erfolg gewesen war. Mehrere Nachbarn, die sich vorher nur vom Sehen kannten, hatten nun echte Gespräche geführt und Telefonnummern ausgetauscht. Eine ältere Nachbarin meinte, dass solche Feste wichtig seien, weil sie das Gefühl von Gemeinschaft in der heutigen Zeit stärken. Die Organisatoren planen bereits, das Fest im nächsten Jahr noch größer zu gestalten.",
+    "preguntas": [
+      {
+        "enunciado": "Das Straßenfest findet seit mehreren Jahren im Sommer statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn kannten sich alle schon sehr gut, bevor das Fest entstand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wegen des Regens wurde das Fest komplett abgesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Fest tauschten einige Nachbarn Telefonnummern aus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Organisatoren wollen das Fest im nächsten Jahr nicht wiederholen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-und-wir",
+    "nivel": "B2",
+    "titulo": "Digitalisierung und wir",
+    "descripcion": "Ein Essay über die Auswirkungen der Digitalisierung auf Arbeit und Gesellschaft.",
+    "texto": "Die Digitalisierung hat in den letzten zwei Jahrzehnten nahezu alle Lebensbereiche durchdrungen und verändert fortlaufend die Art, wie wir arbeiten, kommunizieren und Informationen konsumieren. Während einige Beobachter in dieser Entwicklung vor allem eine Chance sehen, warnen andere davor, dass die zunehmende Automatisierung ganze Berufsgruppen überflüssig machen könnte. Es wäre jedoch verkürzt, die Digitalisierung ausschließlich unter dem Aspekt des Arbeitsplatzverlustes zu betrachten, da sie gleichzeitig neue Tätigkeitsfelder schafft, die vor wenigen Jahren noch undenkbar gewesen wären.\n\nBesonders deutlich zeigt sich der Wandel im Bereich der Kommunikation. Wo früher persönliche Treffen oder Telefonate notwendig waren, genügt heute oft eine Videokonferenz, um Entscheidungen über Kontinente hinweg zu treffen. Kritiker wenden allerdings ein, dass die ständige Erreichbarkeit, die durch Smartphones und mobile Endgeräte ermöglicht wird, zu einer Entgrenzung von Arbeit und Freizeit führe. Würde man diese Entwicklung konsequent zu Ende denken, müsste man fragen, ob der technologische Fortschritt tatsächlich zu mehr Lebensqualität beiträgt oder ob er vor allem neue Formen des Stresses erzeugt.\n\nUm die Chancen der Digitalisierung nutzen zu können, ohne von ihren Risiken überrollt zu werden, bedarf es daher klarer gesellschaftlicher und politischer Rahmenbedingungen. Dazu gehören etwa Regelungen zur digitalen Erreichbarkeit außerhalb der Arbeitszeit sowie Investitionen in die digitale Bildung, damit nicht nur technikaffine Menschen von den Veränderungen profitieren. Nur wenn diese Voraussetzungen geschaffen werden, kann die Digitalisierung langfristig als Fortschritt und nicht als Bedrohung wahrgenommen werden.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text führt die Digitalisierung ausschließlich zum Verlust von Arbeitsplätzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Videokonferenzen haben persönliche Treffen in vielen Fällen ersetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen in der ständigen Erreichbarkeit kein Problem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text fordert politische Rahmenbedingungen für die digitale Entwicklung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text profitieren automatisch alle Menschen gleich von der Digitalisierung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wohnungsmarkt-in-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Der Wohnungsmarkt in Großstädten",
+    "descripcion": "Eine Analyse der Wohnungskrise in deutschen Großstädten und möglicher Lösungsansätze.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Lage auf dem Wohnungsmarkt in den vergangenen Jahren erheblich verschärft. Steigende Mietpreise und ein begrenztes Angebot an verfügbarem Wohnraum führen dazu, dass insbesondere Menschen mit geringem Einkommen zunehmend Schwierigkeiten haben, eine bezahlbare Wohnung zu finden. Während Investoren oft hochwertige Neubauwohnungen errichten, die auf eine zahlungskräftige Klientel zielen, wird der Bedarf an günstigem Wohnraum vielerorts nicht ausreichend gedeckt.\n\nExperten führen diese Entwicklung auf mehrere Ursachen zurück. Zum einen sei die Zuwanderung in die Städte in den letzten Jahrzehnten stärker gewachsen, als neuer Wohnraum geschaffen werden konnte. Zum anderen würden Investitionen in Immobilien von vielen als besonders sichere Geldanlage betrachtet, was die Preise zusätzlich in die Höhe treibe. Manche Stadtplaner argumentieren zudem, dass strenge Bauvorschriften und langwierige Genehmigungsverfahren den Bau neuer Wohnungen erheblich verzögerten, wodurch sich das Problem weiter verschärfe.\n\nAls mögliche Lösung wird von verschiedenen Seiten eine Ausweitung des sozialen Wohnungsbaus gefordert. Würde der Staat stärker in den Bau günstiger Wohnungen investieren, könnte dies den Druck auf dem freien Markt zumindest teilweise mindern. Gleichzeitig wird diskutiert, ob eine strengere Mietpreisbremse eingeführt werden sollte, wobei Kritiker einwenden, dass solche Maßnahmen private Investitionen in den Wohnungsbau eher hemmen als fördern würden. Letztlich scheint klar, dass nur ein Zusammenspiel verschiedener Maßnahmen die Wohnungskrise langfristig entschärfen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text zielen viele Neubauwohnungen auf eine zahlungskräftige Klientel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Langwierige Genehmigungsverfahren werden als ein Grund für den Wohnungsmangel genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass eine Mietpreisbremse keine Nachteile hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt eine Ausweitung des sozialen Wohnungsbaus als mögliche Lösung vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "work-life-balance-im-wandel",
+    "nivel": "B2",
+    "titulo": "Work-Life-Balance im Wandel",
+    "descripcion": "Eine Betrachtung darüber, wie sich das Verhältnis von Arbeit und Privatleben in der modernen Gesellschaft verändert hat.",
+    "texto": "Der Begriff der Work-Life-Balance ist in den letzten Jahren zu einem zentralen Thema in Diskussionen über moderne Arbeitswelten geworden. Während frühere Generationen Arbeit und Freizeit häufig als klar voneinander getrennte Bereiche verstanden, verschwimmen diese Grenzen heute zunehmend. Mobile Endgeräte und flexible Arbeitsmodelle ermöglichen es zwar, Beruf und Privatleben besser miteinander zu vereinbaren, bergen jedoch auch die Gefahr, dass Erholungsphasen immer seltener werden.\n\nBesonders in Berufen mit hoher Verantwortung berichten viele Beschäftigte, dass sie sich auch in ihrer Freizeit kaum von beruflichen Gedanken lösen können. Sollte sich dieser Trend fortsetzen, könnten langfristig gesundheitliche Folgen wie Erschöpfung und Burnout zunehmen, worauf Arbeitsmediziner bereits seit Jahren hinweisen. Gleichzeitig argumentieren manche Unternehmensvertreter, dass flexible Arbeitszeiten den Beschäftigten eigentlich mehr Freiheit verschaffen würden, da sie selbst entscheiden könnten, wann sie arbeiten.\n\nUm diesem Spannungsfeld zu begegnen, setzen einige Unternehmen inzwischen auf Maßnahmen wie die Vier-Tage-Woche oder klare Regelungen zur Nichterreichbarkeit nach Feierabend. Ob solche Maßnahmen tatsächlich zu einer besseren Balance führen, wird in der Forschung allerdings unterschiedlich bewertet. Fest steht jedoch, dass eine Gesellschaft, in der Erwerbsarbeit einen immer größeren Teil des Lebens einnimmt, Lösungen finden muss, damit Beschäftigte langfristig gesund und motiviert bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Frühere Generationen haben Arbeit und Freizeit meist klar getrennt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mobile Endgeräte haben laut dem Text keinen Einfluss auf die Work-Life-Balance.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Arbeitsmediziner warnen vor möglichen gesundheitlichen Folgen wie Burnout.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmensvertreter lehnen flexible Arbeitszeiten strikt ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Vier-Tage-Woche wird im Text als eine mögliche Maßnahme genannt.",
+        "respuesta": true
+      }
+    ]
   }
 ]
