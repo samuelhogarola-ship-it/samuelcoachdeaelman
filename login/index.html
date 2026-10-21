@@ -433,7 +433,7 @@
   </script>
 
   <script type="module">
-    import { buildAccountUrl, finishAuthSessionFromUrl, resetPassword, signIn, signUp, supabase } from '/assets/js/auth.js'
+    import { buildAccountUrl, finishAuthSessionFromUrl, resetPassword, signIn, signUp, supabase } from '/assets/js/auth.bundle.js'
     import { safeAuthRedirect } from '/assets/js/auth-redirect.mjs'
 
     let isRecovery = new URLSearchParams(location.search).get('reset') === '1' ||

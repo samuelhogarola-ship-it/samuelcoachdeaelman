@@ -11,6 +11,7 @@ export default [
       "de/**",
       "en/**",
       "f/**",
+      "assets/js/*.bundle.js",
     ],
   },
   {

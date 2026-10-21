@@ -2,7 +2,9 @@
 // Cargado como type="module" en todas las páginas.
 // El anon key es público por diseño de Supabase — no es un secreto.
 
-import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
+// Source: build with `npx esbuild assets/js/auth.js --bundle --format=esm --target=es2020 --minify --outfile=assets/js/auth.bundle.js`
+// Pages load auth.bundle.js (the bundled version), not this file directly.
+import { createClient } from '@supabase/supabase-js'
 
 const SUPABASE_URL  = 'https://hocdlmxzghwymamientc.supabase.co'
 const SUPABASE_ANON = 'sb_publishable_d2RkD-vcqXebnAFs31AdHw_ti2Eb5qO'
