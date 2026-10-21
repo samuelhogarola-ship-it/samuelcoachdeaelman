@@ -65198,5 +65198,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-rote-regenschirm",
+    "nivel": "A1",
+    "titulo": "Der rote Regenschirm",
+    "descripcion": "Lena hat einen roten Regenschirm und geht damit zur Schule.",
+    "texto": "Lena hat einen roten Regenschirm. Der Regenschirm ist groß und hat weiße Punkte. Heute regnet es, und Lena nimmt ihren Regenschirm mit. Sie geht zu Fuß zur Schule. Der Weg ist nicht weit, nur zehn Minuten.\n\nAuf dem Weg trifft Lena ihre Freundin Mia. Mia hat keinen Regenschirm. „Komm unter meinen Regenschirm!\", sagt Lena. Mia lacht und sagt Danke. Die zwei Mädchen gehen zusammen zur Schule. Sie sprechen über ihre Hausaufgaben und über das Wetter.\n\nIn der Schule stellen sie den Regenschirm in die Ecke. Nach dem Unterricht regnet es nicht mehr. Die Sonne scheint. Lena und Mia gehen glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Lenas Regenschirm ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena geht zu Fuß zur Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia hat auch einen Regenschirm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und Mia gehen zusammen zur Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Schule regnet es noch stark.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "unser-neues-fahrrad",
+    "nivel": "A1",
+    "titulo": "Unser neues Fahrrad",
+    "descripcion": "Die Familie Berger kauft ein neues Fahrrad für den Sohn Tim.",
+    "texto": "Tim ist acht Jahre alt. Er bekommt ein neues Fahrrad. Das Fahrrad ist grün und hat eine Klingel. Tims Vater kauft das Fahrrad im Geschäft am Markt. Tim ist sehr glücklich.\n\nAm Samstag fahren Tim und sein Vater in den Park. Tim übt das Fahren. Zuerst ist es schwer, aber dann geht es gut. Tim fährt schnell und lacht viel. Sein Vater passt gut auf.\n\nNach einer Stunde sind beide müde. Sie trinken Wasser und essen einen Apfel. Tim sagt: „Das Fahrrad ist toll!\" Sein Vater nickt und lächelt.",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist zehn Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das neue Fahrrad ist grün.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim übt das Fahren im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim fällt oft vom Fahrrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim und sein Vater essen am Ende einen Apfel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-katze-vom-nachbarn",
+    "nivel": "A1",
+    "titulo": "Die Katze vom Nachbarn",
+    "descripcion": "Paul passt auf die Katze seines Nachbarn auf.",
+    "texto": "Paul wohnt neben Herrn Meier. Herr Meier hat eine Katze. Die Katze heißt Minka und ist schwarz und weiß. Herr Meier fährt für drei Tage weg. Paul soll auf Minka aufpassen.\n\nJeden Tag geht Paul zu Herrn Meier und gibt Minka Futter und Wasser. Minka ist sehr zutraulich und spielt gern mit einem kleinen Ball. Paul spielt jeden Nachmittag mit ihr. Das macht ihm viel Spaß.\n\nAm vierten Tag kommt Herr Meier zurück. Er dankt Paul und gibt ihm eine kleine Tüte Bonbons. Paul freut sich sehr und sagt: „Minka ist eine tolle Katze!\"",
+    "preguntas": [
+      {
+        "enunciado": "Minka ist die Katze von Herrn Meier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Meier fährt für eine Woche weg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul gibt der Katze jeden Tag Futter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka spielt nicht gern mit Paul.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul bekommt am Ende Bonbons.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unser-urlaub-auf-dem-bauernhof",
+    "nivel": "A2",
+    "titulo": "Unser Urlaub auf dem Bauernhof",
+    "descripcion": "Die Familie Hoffmann hat ihren Sommerurlaub auf einem Bauernhof verbracht.",
+    "texto": "Letzten Sommer ist die Familie Hoffmann auf einen Bauernhof in Bayern gefahren. Sie haben eine Woche dort verbracht, weil die Kinder Tiere sehr gerne mögen. Auf dem Hof gab es Kühe, Hühner, Schweine und zwei Pferde. Die Kinder haben jeden Morgen geholfen, die Hühner zu füttern.\n\nAm zweiten Tag sind sie mit dem Bauern auf die Felder gefahren. Der Bauer hat ihnen gezeigt, wie das Heu gemacht wird. Die Kinder waren sehr müde am Abend, aber auch sehr zufrieden. Einmal durften sie sogar eine Kuh melken. Das war für alle ein besonderes Erlebnis, obwohl es am Anfang etwas schwierig war.\n\nAm letzten Tag haben sie sich von den Tieren verabschiedet. Die Tochter hat geweint, weil sie die kleinen Ziegen so sehr mochte. Die Familie hat beschlossen, im nächsten Jahr wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Hoffmann war im Winter auf dem Bauernhof.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem Hof gab es keine Pferde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben die Hühner gefüttert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Kind durfte eine Kuh melken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie möchte nicht noch einmal auf den Bauernhof fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-flohmarkt-im-hof",
+    "nivel": "A2",
+    "titulo": "Der Flohmarkt im Hof",
+    "descripcion": "Die Nachbarn in einem Wohnhaus organisieren einen gemeinsamen Flohmarkt.",
+    "texto": "Am Samstag haben die Nachbarn im Hof einen Flohmarkt organisiert. Jeder hat alte Sachen mitgebracht, die er nicht mehr braucht: Bücher, Spielzeug, Kleidung und Geschirr. Frau Krause hat sogar einen alten Fahrradkorb verkauft, weil sie kein Fahrrad mehr hat.\n\nViele Leute sind gekommen, weil das Wetter sehr schön war. Die Kinder haben an einem Stand mit alten Spielen gesessen und mit den Besuchern gesprochen. Ein Junge hat seinen alten Fußball für zwei Euro verkauft, und er war sehr stolz darauf. Herr Alver hat Kaffee und Kuchen angeboten, damit die Leute länger bleiben.\n\nAm Nachmittag war fast alles verkauft. Die Nachbarn haben das Geld für einen neuen Spielplatz im Hof gesammelt. Alle waren zufrieden, dass der Flohmarkt so gut gelaufen ist, und sie haben beschlossen, ihn im nächsten Jahr zu wiederholen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Flohmarkt fand im Hof statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Krause hat einen Fahrradkorb gekauft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war schlecht, deshalb kamen wenige Leute.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Junge hat seinen Fußball verkauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Geld war für einen neuen Spielplatz bestimmt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachricht-vom-freund",
+    "nivel": "A2",
+    "titulo": "Die Nachricht vom Freund",
+    "descripcion": "Jonas bekommt eine überraschende Nachricht von seinem alten Schulfreund.",
+    "texto": "Jonas hat gestern Abend eine Nachricht von seinem alten Schulfreund Felix bekommen. Sie hatten sich seit fünf Jahren nicht mehr gesehen, weil Felix nach Hamburg gezogen war. Felix hat geschrieben, dass er nächste Woche in die Stadt kommt, weil er dort eine neue Arbeit beginnt.\n\nJonas hat sich sehr gefreut, obwohl er zuerst überrascht war. Er hat sofort geantwortet und ein Treffen vorgeschlagen. Die beiden haben sich für Freitagabend in einem kleinen Café verabredet, das sie schon als Schüler gern besucht haben. Jonas hat seiner Frau von der Nachricht erzählt, und sie fand die Idee toll.\n\nAm Freitag hat Jonas lange auf Felix gewartet, weil der Zug Verspätung hatte. Als Felix endlich ankam, haben sie sich lange umarmt. Sie haben bis spät in die Nacht über die alten Zeiten gesprochen und viele Fotos angeschaut.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas und Felix haben sich seit fünf Jahren nicht gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix zieht wegen eines neuen Jobs in die Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas wollte sich nicht mit Felix treffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug von Felix kam pünktlich an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde haben sich über die alten Zeiten unterhalten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-vereinswechsel-im-fussballclub",
+    "nivel": "B1",
+    "titulo": "Der Vereinswechsel im Fußballclub",
+    "descripcion": "Ein junger Spieler entscheidet sich, nach vielen Jahren den Verein zu wechseln.",
+    "texto": "Niklas spielt seit seiner Kindheit im selben Fußballverein. Obwohl er dort viele Freunde hat, überlegt er seit einigen Monaten, den Verein zu wechseln. Der Grund ist, dass sein jetziger Trainer ihm nicht genug Spielzeit gibt, obwohl Niklas hart trainiert und sich wirklich bemüht. Ein anderer Club aus der Nachbarstadt hat ihm ein Angebot gemacht, das er sich genau anschauen möchte.\n\nNachdem Niklas lange mit seinen Eltern gesprochen hat, entscheidet er sich für ein Probetraining beim neuen Verein. Die Atmosphäre dort gefällt ihm sofort, und der Trainer lobt seine Technik. Trotzdem fällt ihm der Abschied von seinem alten Team nicht leicht, denn er muss seinen langjährigen Mitspielern und Freunden Bescheid geben.\n\nAm Ende unterschreibt Niklas beim neuen Verein. Seine alten Mannschaftskameraden sind zwar enttäuscht, wünschen ihm aber viel Erfolg. Niklas hofft, dass er in seinem neuen Team mehr Spielzeit bekommt und sich sportlich weiterentwickeln kann.",
+    "preguntas": [
+      {
+        "enunciado": "Niklas spielt erst seit kurzer Zeit in seinem Verein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas bekommt beim alten Verein wenig Spielzeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niklas entscheidet sich sofort, ohne mit seinen Eltern zu sprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Abschied von seinem alten Team fällt Niklas leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas unterschreibt am Ende beim neuen Verein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geschichte-meiner-grossmutter",
+    "nivel": "B1",
+    "titulo": "Die Geschichte meiner Großmutter",
+    "descripcion": "Eine junge Frau erzählt von den Erinnerungen ihrer Großmutter an die Nachkriegszeit.",
+    "texto": "Meine Großmutter wurde in einem kleinen Dorf geboren und hat dort fast ihr ganzes Leben verbracht. Wenn sie von ihrer Kindheit erzählt, höre ich immer aufmerksam zu, obwohl ich die Geschichten schon oft gehört habe. Sie erzählt oft, wie schwierig das Leben nach dem Krieg war, weil es kaum Lebensmittel gab und die Familie alles selbst anbauen musste.\n\nNachdem sie die Schule beendet hatte, begann sie eine Ausbildung als Schneiderin. Trotz der harten Arbeit erinnert sie sich gern an diese Zeit, weil sie dort ihren späteren Mann kennenlernte. Die beiden heirateten jung und bauten gemeinsam ein kleines Haus, in dem meine Großmutter noch heute lebt.\n\nHeute, mit über achtzig Jahren, sitzt sie oft im Garten und erzählt mir von früher. Sie sagt immer, dass die jungen Menschen heute vieles haben, was damals undenkbar war, aber dass die Familie damals enger zusammengehalten hat. Ich bin dankbar, dass ich ihre Geschichten hören darf, bevor sie verloren gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Großmutter wurde in einer großen Stadt geboren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Krieg gab es genug Lebensmittel für alle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Großmutter lernte ihren Mann während der Ausbildung kennen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Großmutter lebt heute noch in dem Haus, das sie mit ihrem Mann gebaut hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Enkelin interessiert sich nicht für die Geschichten ihrer Großmutter.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-austauschjahr-in-kanada",
+    "nivel": "B1",
+    "titulo": "Mein Austauschjahr in Kanada",
+    "descripcion": "Ein Schüler berichtet von seinen Erfahrungen während eines Schulaustauschs in Kanada.",
+    "texto": "Letztes Jahr habe ich ein Austauschjahr in Kanada verbracht, obwohl ich vorher noch nie so lange von meiner Familie getrennt war. Am Anfang war es nicht einfach, weil ich die Sprache zwar in der Schule gelernt hatte, aber im Alltag doch vieles anders klang. Meine Gastfamilie hat mir aber sehr geholfen, mich schnell einzuleben.\n\nNachdem ich mich an die neue Schule gewöhnt hatte, habe ich viele neue Freunde gefunden. Wir haben zusammen Sport gemacht, sind ins Kino gegangen und haben an Wochenenden die Natur rund um die Stadt erkundet. Besonders beeindruckt hat mich ein Ausflug zu den Niagarafällen, den ich nie vergessen werde.\n\nAls das Austauschjahr zu Ende ging, fiel mir der Abschied schwer, obwohl ich mich auch auf meine Familie zu Hause freute. Heute halte ich noch regelmäßig Kontakt zu meiner Gastfamilie und meinen kanadischen Freunden. Dieses Jahr hat mein Leben auf viele Arten verändert und mir gezeigt, wie wichtig Offenheit gegenüber anderen Kulturen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Der Schüler war vorher schon oft lange von seiner Familie getrennt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gastfamilie hat dem Schüler geholfen, sich einzuleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schüler hat in Kanada keine neuen Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ausflug zu den Niagarafällen hat ihn beeindruckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schüler hat nach dem Austauschjahr den Kontakt zu seiner Gastfamilie verloren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-der-stille-in-der-gesellschaft",
+    "nivel": "B2",
+    "titulo": "Der Wert der Stille in der Gesellschaft",
+    "descripcion": "Ein Essay über die wachsende Bedeutung von Ruhe und Stille in einer lauten, digitalisierten Welt.",
+    "texto": "In einer Gesellschaft, die von ständiger Erreichbarkeit und permanenter Reizüberflutung geprägt ist, gewinnt das Bedürfnis nach Stille zunehmend an Bedeutung. Viele Menschen berichten, dass sie kaum noch einen Moment der Ruhe finden, weil Benachrichtigungen, Werbung und der allgemeine Lärm des städtischen Lebens ihre Aufmerksamkeit permanent beanspruchen. Wissenschaftliche Studien deuten darauf hin, dass dieser Mangel an Stille nicht nur das Stressniveau erhöht, sondern auch die Konzentrationsfähigkeit und die kreative Leistungsfähigkeit beeinträchtigen kann.\n\nAls Reaktion darauf entstehen immer mehr Angebote, die bewusste Stille ermöglichen sollen: schweigende Wanderungen, digitale Auszeiten und sogenannte „Silent Rooms\" in Bibliotheken und Flughäfen. Kritiker wenden jedoch ein, dass diese kommerzialisierten Formen der Stille das eigentliche Problem nicht lösen, sondern es lediglich in ein neues Produkt verwandeln, das sich nur wohlhabendere Menschen leisten können. Wäre es nicht sinnvoller, so argumentieren sie, die gesellschaftlichen Strukturen selbst zu hinterfragen, die diese permanente Reizüberflutung überhaupt erst erzeugen?\n\nUnabhängig davon, welchem Ansatz man folgt, scheint Einigkeit darüber zu bestehen, dass ein bewusster Umgang mit Stille für das individuelle Wohlbefinden unerlässlich ist. Pädagogen fordern zudem, dass bereits Kindern beigebracht werden sollte, Momente der Ruhe wertzuschätzen, anstatt jede Pause mit digitalen Reizen zu füllen. Ob sich dieser Wandel tatsächlich gesamtgesellschaftlich durchsetzen wird, bleibt abzuwarten.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text haben viele Menschen heute genug Momente der Ruhe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen, dass fehlende Stille die Konzentrationsfähigkeit beeinträchtigen kann.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker befürworten die kommerzialisierten Stille-Angebote vollständig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker fordern, die gesellschaftlichen Ursachen der Reizüberflutung zu hinterfragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird gefordert, dass Kinder lernen sollen, Stille wertzuschätzen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-der-kuenstlichen-intelligenz-im-alltag",
+    "nivel": "B2",
+    "titulo": "Die Rolle der künstlichen Intelligenz im Alltag",
+    "descripcion": "Eine Analyse darüber, wie künstliche Intelligenz zunehmend den Alltag vieler Menschen prägt.",
+    "texto": "Künstliche Intelligenz ist längst kein Thema mehr, das nur in Forschungslaboren diskutiert wird, sondern durchdringt zunehmend den Alltag breiter Bevölkerungsschichten. Von Sprachassistenten über personalisierte Werbung bis hin zu automatisierten Entscheidungen bei Kreditanträgen – kaum ein Lebensbereich bleibt von dieser Entwicklung unberührt. Befürworter betonen, dass KI-Systeme viele Prozesse effizienter gestalten und Menschen von monotonen Aufgaben entlasten können, wodurch mehr Zeit für kreative und zwischenmenschliche Tätigkeiten bliebe.\n\nGleichzeitig mehren sich kritische Stimmen, die vor den Risiken einer unreflektierten Nutzung warnen. Sollten Algorithmen tatsächlich über so sensible Bereiche wie Bewerbungsverfahren oder medizinische Diagnosen entscheiden, ohne dass ihre Entscheidungswege für Laien nachvollziehbar sind? Diese Intransparenz wird von vielen Experten als eines der größten Probleme angesehen, da sie bestehende gesellschaftliche Ungleichheiten unbemerkt verstärken könnte. Zudem wird befürchtet, dass durch den zunehmenden Einsatz von KI in Unternehmen langfristig Arbeitsplätze verloren gehen, insbesondere in Berufen mit stark standardisierten Abläufen.\n\nUm diesen Herausforderungen zu begegnen, fordern zahlreiche Fachleute eine stärkere Regulierung sowie verpflichtende Transparenzstandards für KI-Systeme. Nur wenn Bürgerinnen und Bürger nachvollziehen können, wie Entscheidungen zustande kommen, lasse sich das notwendige Vertrauen in diese Technologien aufbauen. Es wird sich zeigen, inwieweit Gesetzgeber in der Lage sein werden, mit dem rasanten technologischen Fortschritt Schritt zu halten.",
+    "preguntas": [
+      {
+        "enunciado": "Künstliche Intelligenz spielt nur in der Forschung eine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in der KI eine Entlastung von monotonen Aufgaben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten halten die Entscheidungswege von Algorithmen für vollkommen transparent.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wird befürchtet, dass KI in manchen Berufen Arbeitsplätze kosten könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fachleute fordern mehr Regulierung und Transparenzstandards für KI-Systeme.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einsamkeit-in-der-modernen-gesellschaft",
+    "nivel": "B2",
+    "titulo": "Einsamkeit in der modernen Gesellschaft",
+    "descripcion": "Ein Artikel über die Ursachen und Folgen von Einsamkeit trotz zunehmender digitaler Vernetzung.",
+    "texto": "Obwohl Menschen heute über digitale Medien so stark vernetzt sind wie nie zuvor, berichten immer mehr von ihnen über ein Gefühl der Einsamkeit. Dieses scheinbare Paradox beschäftigt Soziologen und Psychologen gleichermaßen. Untersuchungen zeigen, dass oberflächliche Kontakte in sozialen Netzwerken echte, tiefgehende zwischenmenschliche Beziehungen oft nicht ersetzen können, selbst wenn die Anzahl der „Freunde\" oder „Follower\" hoch ist.\n\nBesonders betroffen sind laut mehreren Studien junge Erwachsene und ältere Menschen, wenn auch aus unterschiedlichen Gründen. Während junge Menschen häufig unter dem sozialen Vergleich in sozialen Medien leiden, wird bei älteren Menschen der Verlust des Partners oder von Freunden sowie der Rückzug aus dem Berufsleben als Ursache genannt. In beiden Fällen können die gesundheitlichen Folgen erheblich sein: Studien verweisen auf einen Zusammenhang zwischen chronischer Einsamkeit und einem erhöhten Risiko für Depressionen sowie Herz-Kreislauf-Erkrankungen.\n\nUm dem entgegenzuwirken, setzen manche Städte inzwischen auf gemeinschaftsfördernde Projekte wie Nachbarschaftstreffs oder generationenübergreifende Wohnprojekte. Experten betonen jedoch, dass strukturelle Maßnahmen allein nicht ausreichen würden, wenn nicht auch ein gesellschaftliches Umdenken stattfände, das echten zwischenmenschlichen Beziehungen wieder mehr Priorität einräumt als der reinen digitalen Präsenz.",
+    "preguntas": [
+      {
+        "enunciado": "Trotz starker digitaler Vernetzung fühlen sich viele Menschen einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Soziale Netzwerke können laut dem Text tiefgehende Beziehungen immer vollständig ersetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Menschen und ältere Menschen leiden aus denselben Gründen unter Einsamkeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einsamkeit wird mit einem erhöhten Risiko für bestimmte Krankheiten in Verbindung gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten meinen, dass strukturelle Maßnahmen allein ausreichend sind.",
+        "respuesta": false
+      }
+    ]
   }
 ]
