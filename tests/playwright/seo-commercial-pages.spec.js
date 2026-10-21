@@ -50,9 +50,9 @@ test.describe("SEO commercial pages", () => {
   test("homepage exposes local German-specialist intent without review rating schema", async ({ page }) => {
     await page.goto("/");
 
-    await expect(page).toHaveTitle(/academia de alemán en fuengirola/i);
+    await expect(page).toHaveTitle(/academia de alemán online.*clases personalizadas en españa/i);
     await expect(page.locator('meta[name="keywords"]')).toHaveCount(0);
-    await expect(page.locator("h1")).toHaveText("Clases de alemán online desde Fuengirola");
+    await expect(page.locator("h1")).toHaveText("Clases de alemán online en toda España");
     await expect(page.getByText("Individual desde 30 €/h", { exact: true })).toBeVisible();
     await expect(page.getByText("Pareja 40 €/h en total", { exact: true })).toBeVisible();
     await expect(page.getByText("Éxito 100% garantizado", { exact: true })).toHaveCount(0);
