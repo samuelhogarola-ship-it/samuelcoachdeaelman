@@ -64502,5 +64502,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "finns-rote-gummistiefel",
+    "nivel": "A1",
+    "titulo": "Finns rote Gummistiefel",
+    "descripcion": "Finn trägt bei Regen seine roten Gummistiefel und spielt in Pfützen.",
+    "texto": "Finn ist fünf Jahre alt. Heute regnet es. Finn hat rote Gummistiefel. Er mag die Stiefel sehr.\n\nFinn geht mit seinem Vater nach draußen. Sie springen in Pfützen. Das Wasser spritzt hoch. Finn lacht laut.\n\nZu Hause trinkt Finn warmen Kakao. Seine Mutter macht ihm trockene Socken. Finn ist müde und glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Finn ist fünf Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn hat gelbe Gummistiefel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn springt mit seinem Vater in Pfützen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn trinkt zu Hause kalten Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn ist am Ende müde und glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "oma-gretes-apfelkuchen",
+    "nivel": "A1",
+    "titulo": "Oma Gretes Apfelkuchen",
+    "descripcion": "Oma Grete backt mit ihrer Enkelin Mia einen Apfelkuchen.",
+    "texto": "Oma Grete backt heute einen Apfelkuchen. Ihre Enkelin Mia hilft ihr. Mia schneidet die Äpfel klein.\n\nOma Grete mischt Mehl, Zucker und Eier. Der Teig riecht gut. Mia darf den Teig in die Form geben.\n\nDer Kuchen backt eine Stunde im Ofen. Danach essen Oma Grete und Mia den Kuchen mit Sahne. Der Kuchen schmeckt sehr lecker.",
+    "preguntas": [
+      {
+        "enunciado": "Oma Grete backt einen Apfelkuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia schneidet Bananen klein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Teig riecht gut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen backt zehn Minuten im Ofen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie essen den Kuchen mit Sahne.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-papagei-von-herrn-busch",
+    "nivel": "A1",
+    "titulo": "Der Papagei von Herrn Busch",
+    "descripcion": "Herr Busch hat einen bunten Papagei, der viele Wörter spricht.",
+    "texto": "Herr Busch hat einen Papagei. Der Papagei heißt Rudi. Rudi ist grün und gelb.\n\nRudi kann sprechen. Er sagt „Guten Morgen“ und „Hallo“. Herr Busch lacht immer, wenn Rudi spricht.\n\nJeden Tag gibt Herr Busch Rudi Obst und Wasser. Rudi mag Äpfel am liebsten. Herr Busch und Rudi sind gute Freunde.",
+    "preguntas": [
+      {
+        "enunciado": "Der Papagei von Herrn Busch heißt Rudi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Rudi ist blau und weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Rudi kann sprechen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Busch gibt Rudi nur Wasser, kein Obst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Rudi mag Äpfel am liebsten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "jonas-verliert-seinen-schluessel",
+    "nivel": "A2",
+    "titulo": "Jonas verliert seinen Schlüssel",
+    "descripcion": "Jonas kommt nicht in die Wohnung, weil er seinen Schlüssel verloren hat.",
+    "texto": "Als Jonas von der Arbeit nach Hause kam, konnte er seine Wohnungstür nicht öffnen, weil er seinen Schlüssel verloren hatte. Zuerst dachte er, dass er den Schlüssel im Büro vergessen hatte.\n\nJonas rief seine Nachbarin an, weil sie einen Ersatzschlüssel hatte. Die Nachbarin war nicht zu Hause, also musste Jonas eine Stunde vor der Tür warten. Es war ihm kalt, aber er hatte zum Glück sein Handy dabei.\n\nAls die Nachbarin endlich zurückkam, gab sie Jonas den Ersatzschlüssel. Später fand er seinen eigenen Schlüssel in seiner Jackentasche. Jonas musste über sich selbst lachen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas konnte seine Wohnungstür nicht öffnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas dachte sofort, dass der Schlüssel in der Jacke ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarin hatte einen Ersatzschlüssel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas musste nicht warten, weil die Nachbarin sofort da war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas fand seinen Schlüssel später in seiner Jackentasche.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-schwimmbad-mit-onkel-peter",
+    "nivel": "A2",
+    "titulo": "Der Besuch im Schwimmbad mit Onkel Peter",
+    "descripcion": "Onkel Peter nimmt seine Nichte Emma mit ins Schwimmbad.",
+    "texto": "Am Samstag hat Onkel Peter seine Nichte Emma ins Schwimmbad mitgenommen, weil die Schule Ferien hatte. Emma war sehr aufgeregt, weil sie das neue Schwimmbad noch nicht kannte.\n\nIm Schwimmbad sind sie zuerst die große Wasserrutsche gefahren. Danach haben sie im Nichtschwimmerbecken Ball gespielt. Emma hat sich getraut, vom kleinen Sprungbrett zu springen, obwohl sie am Anfang Angst hatte.\n\nNach drei Stunden waren beide müde und hungrig. Onkel Peter hat Emma eine Pommes gekauft, bevor sie nach Hause gefahren sind. Emma hat gesagt, dass es der schönste Tag der Ferien war.",
+    "preguntas": [
+      {
+        "enunciado": "Onkel Peter hat Emma ins Schwimmbad mitgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma kannte das Schwimmbad schon sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind zuerst die Wasserrutsche gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma hatte keine Angst vor dem Sprungbrett.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Onkel Peter hat Emma eine Pommes gekauft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-postkarte-aus-oesterreich",
+    "nivel": "A2",
+    "titulo": "Eine Postkarte aus Österreich",
+    "descripcion": "Paula schickt ihrer besten Freundin eine Postkarte aus den österreichischen Bergen.",
+    "texto": "Liebe Nele,\n\nich bin seit drei Tagen mit meiner Familie in Österreich, weil wir hier Urlaub machen. Die Berge sind riesig, und die Luft ist so frisch, dass ich morgens immer tief einatmen muss.\n\nGestern sind wir auf eine Hütte gewandert. Der Weg war steil, aber die Aussicht hat sich gelohnt. Wir haben dort Kaiserschmarrn gegessen, und das war das beste Essen in meinem ganzen Urlaub.\n\nÜbermorgen fahren wir wieder nach Hause. Ich bringe dir ein kleines Geschenk mit, wenn du mir dafür von deinem Wochenende erzählst.\n\nViele Grüße\nPaula",
+    "preguntas": [
+      {
+        "enunciado": "Paula macht mit ihrer Familie Urlaub in Österreich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula findet die Luft dort schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind auf eine Hütte gewandert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wanderweg war ganz flach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula bringt Nele ein kleines Geschenk mit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-theaterauffuehrung-der-abschlussklasse",
+    "nivel": "B1",
+    "titulo": "Die Theateraufführung der Abschlussklasse",
+    "descripcion": "Die Abschlussklasse bereitet trotz vieler Schwierigkeiten ihre Theateraufführung vor.",
+    "texto": "Die Abschlussklasse probt seit zwei Monaten für ihre große Theateraufführung. Obwohl einige Schüler zunächst keine Lust auf das Projekt hatten, wurden die Proben mit der Zeit immer intensiver und ernster.\n\nNachdem der Hauptdarsteller kurz vor der Premiere krank geworden war, musste eine Mitschülerin seine Rolle innerhalb von zwei Tagen übernehmen. Trotzdem schaffte sie es, sich den Text zu merken und die Szenen glaubwürdig zu spielen. Die Lehrerin war von ihrem Mut sehr beeindruckt.\n\nAm Abend der Premiere war die Aula voller Eltern und Mitschüler. Obwohl alle vor der Vorstellung sehr nervös waren, verlief die Aufführung am Ende reibungslos. Nachdem der letzte Vorhang gefallen war, gab es minutenlangen Applaus.",
+    "preguntas": [
+      {
+        "enunciado": "Die Abschlussklasse probt seit zwei Monaten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler waren von Anfang an begeistert vom Projekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hauptdarsteller wurde kurz vor der Premiere krank.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mitschülerin hatte vier Wochen Zeit, die Rolle zu lernen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Aufführung gab es langen Applaus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nina-und-der-streit-um-die-wohnungssuche",
+    "nivel": "B1",
+    "titulo": "Nina und der Streit um die Wohnungssuche",
+    "descripcion": "Nina sucht mit ihrem Mitbewohner eine neue Wohnung und es kommt zu Streit.",
+    "texto": "Nina und ihr Mitbewohner Tobias mussten eine neue Wohnung finden, nachdem ihr Vermieter ihnen gekündigt hatte. Obwohl beide motiviert waren, stritten sie sich schon nach der ersten Wohnungsbesichtigung.\n\nNina wollte eine Wohnung im Stadtzentrum, weil sie es liebte, abends zu Fuß in Cafés zu gehen. Tobias hingegen bevorzugte eine günstigere Wohnung am Stadtrand, obwohl er dafür jeden Tag länger mit der Bahn fahren müsste. Nachdem sie tagelang diskutiert hatten, einigten sie sich schließlich auf einen Kompromiss: eine Wohnung zwischen Zentrum und Stadtrand.\n\nTrotz der anfänglichen Streitereien zogen Nina und Tobias am Ende glücklich in ihre neue Wohnung ein. Sie lachten später oft darüber, wie ernst sie die ganze Diskussion genommen hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Vermieter hat Nina und Tobias gekündigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina und Tobias waren sich sofort einig, wo sie wohnen wollten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias wollte lieber eine Wohnung am Stadtrand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben sich nie auf einen Kompromiss geeinigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende sind sie glücklich in ihre neue Wohnung eingezogen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-praktikumsbericht-von-jakob",
+    "nivel": "B1",
+    "titulo": "Der Praktikumsbericht von Jakob",
+    "descripcion": "Jakob berichtet von seinem Praktikum in einer Tierarztpraxis.",
+    "texto": "Jakob hat sein dreiwöchiges Praktikum in einer Tierarztpraxis gemacht. Obwohl er am ersten Tag sehr nervös war, weil er noch nie mit kranken Tieren gearbeitet hatte, gewöhnte er sich schnell an den Praxisalltag.\n\nNachdem die Tierärztin ihm gezeigt hatte, wie man Hunde und Katzen untersucht, durfte Jakob bei kleinen Aufgaben helfen, zum Beispiel beim Wiegen der Tiere. Trotzdem war es nicht immer einfach, denn manche Besitzer waren wegen ihrer kranken Haustiere sehr besorgt und gestresst.\n\nAm Ende des Praktikums schrieb Jakob einen ausführlichen Bericht für die Schule. Er erklärte darin, dass er nach dieser Erfahrung überlegt, später selbst Tiermedizin zu studieren.",
+    "preguntas": [
+      {
+        "enunciado": "Jakob hat sein Praktikum in einer Bäckerei gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jakob war am ersten Tag sehr nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jakob durfte beim Wiegen der Tiere helfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Besitzer waren immer ganz entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jakob überlegt, Tiermedizin zu studieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-ueber-ein-bedingungsloses-grundeinkommen",
+    "nivel": "B2",
+    "titulo": "Die Debatte über ein bedingungsloses Grundeinkommen",
+    "descripcion": "Für und Wider eines bedingungslosen Grundeinkommens in der gesellschaftlichen Diskussion.",
+    "texto": "Die Idee eines bedingungslosen Grundeinkommens wird in Deutschland seit Jahren diskutiert, ohne dass eine politische Mehrheit für ihre Einführung gefunden wurde. Befürworter argumentieren, dass ein monatlicher Betrag ohne Bedürftigkeitsprüfung die Existenzängste vieler Menschen verringern und zugleich bürokratische Prozesse im Sozialsystem erheblich vereinfachen würde.\n\nGegner des Konzepts bezweifeln hingegen, dass sich ein Grundeinkommen finanzieren ließe, ohne andere Sozialleistungen drastisch zu kürzen. Sie befürchten außerdem, dass ein garantiertes Einkommen den Anreiz verringern könnte, überhaupt einer Erwerbsarbeit nachzugehen. Mehrere Modellprojekte, bei denen ausgewählte Teilnehmer über einen begrenzten Zeitraum ein Grundeinkommen erhielten, hätten allerdings gezeigt, dass die meisten Teilnehmer weiterhin arbeiteten oder sich weiterbildeten.\n\nWäre eine flächendeckende Einführung tatsächlich geplant, müsste zunächst eine umfassende Reform des gesamten Steuer- und Sozialsystems erfolgen. Angesichts der hohen Kosten und der ungeklärten Auswirkungen auf den Arbeitsmarkt bleibt die Debatte bislang vor allem ein theoretisches Gedankenexperiment.",
+    "preguntas": [
+      {
+        "enunciado": "Für die Einführung eines bedingungslosen Grundeinkommens gibt es bereits eine politische Mehrheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen einen Vorteil in weniger Bürokratie.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner befürchten, dass der Anreiz zur Erwerbsarbeit sinken könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Modellprojekte zeigten, dass die meisten Teilnehmer sofort aufhörten zu arbeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text ist eine flächendeckende Einführung bereits beschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "elektromobilitaet-und-der-ausbau-der-ladeinfrastruktur",
+    "nivel": "B2",
+    "titulo": "Elektromobilität und der Ausbau der Ladeinfrastruktur",
+    "descripcion": "Herausforderungen beim Ausbau der Ladeinfrastruktur für Elektroautos in Deutschland.",
+    "texto": "Der Umstieg auf Elektromobilität gilt als wichtiger Baustein der deutschen Klimapolitik, doch der Ausbau der notwendigen Ladeinfrastruktur hinkt den politischen Zielen deutlich hinterher. Besonders in ländlichen Regionen beklagen viele Autofahrer, dass es kaum öffentliche Ladesäulen in zumutbarer Entfernung gebe.\n\nExperten weisen darauf hin, dass der Ausbau nicht nur an fehlenden Investitionen scheitere, sondern auch an langwierigen Genehmigungsverfahren und einem teils überlasteten Stromnetz. Würde die Infrastruktur schneller ausgebaut, könnten sich wohl deutlich mehr Menschen für den Kauf eines Elektroautos entscheiden, anstatt aus Sorge vor einer unzureichenden Reichweite weiterhin einen Verbrennungsmotor zu wählen.\n\nKritiker merken zudem an, dass das Laden an öffentlichen Säulen oft teurer sei als an der eigenen Steckdose, was insbesondere Mieter ohne eigenen Stellplatz benachteilige. Um diese Ungleichheit zu verringern, fordern mehrere Verbände einheitliche und transparente Preismodelle sowie einen beschleunigten Ausbau in strukturschwachen Gebieten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Ausbau der Ladeinfrastruktur ist laut Text schneller als geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Besonders in ländlichen Regionen gibt es wenige Ladesäulen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lange Genehmigungsverfahren sind laut Experten kein Problem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laden an öffentlichen Säulen ist oft teurer als an der eigenen Steckdose.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Verbände fordern uneinheitliche und intransparente Preismodelle.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "influencer-werbung-und-der-schutz-jugendlicher-konsumenten",
+    "nivel": "B2",
+    "titulo": "Influencer-Werbung und der Schutz jugendlicher Konsumenten",
+    "descripcion": "Diskussion über Influencer-Werbung in sozialen Medien und den Schutz junger Konsumenten.",
+    "texto": "Influencer erreichen über soziale Netzwerke oft ein überwiegend junges Publikum, das Produktempfehlungen nicht immer von persönlicher Meinung unterscheiden kann. Verbraucherschützer kritisieren seit längerem, dass Werbung in solchen Beiträgen häufig nicht ausreichend gekennzeichnet werde, obwohl dies gesetzlich vorgeschrieben ist.\n\nBesonders problematisch sei laut mehreren Studien die Werbung für ungesunde Lebensmittel oder teure Konsumgüter, die bei jugendlichen Followern einen hohen psychischen Druck erzeugen könne. Würden Plattformen strengere Kennzeichnungsregeln konsequent durchsetzen, ließe sich die Transparenz für junge Nutzer deutlich verbessern.\n\nEinige Influencer betonen hingegen, dass sie bereits freiwillig auf eine klare Kennzeichnung achten und ihre Follower über Werbekooperationen informieren. Verbraucherschutzverbände fordern trotzdem schärfere Kontrollen und empfindlichere Strafen, damit nicht gekennzeichnete Werbung zur Ausnahme statt zur Regel wird.",
+    "preguntas": [
+      {
+        "enunciado": "Influencer erreichen laut Text oft ein überwiegend älteres Publikum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Werbung muss gesetzlich gekennzeichnet werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Werbung für ungesunde Lebensmittel wird im Text als unproblematisch bezeichnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Influencer informieren freiwillig über Werbekooperationen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Verbraucherschutzverbände fordern laut Text weniger Kontrollen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
