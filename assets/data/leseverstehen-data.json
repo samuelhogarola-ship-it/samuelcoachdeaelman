@@ -64850,5 +64850,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "die-gitarrenstunde",
+    "nivel": "A1",
+    "titulo": "Die Gitarrenstunde",
+    "descripcion": "Lukas lernt jeden Mittwoch Gitarre spielen.",
+    "texto": "Lukas ist zehn Jahre alt. Er hat jeden Mittwoch um vier Uhr Gitarrenstunde. Die Lehrerin heißt Frau Berger. Sie ist sehr nett und geduldig.\n\nLukas übt jeden Tag zehn Minuten. Er spielt gerne einfache Lieder. Sein Lieblingslied heißt „Bruder Jakob\". Seine Schwester Mia singt oft dazu.\n\nAm Mittwoch zeigt Frau Berger ein neues Lied. Lukas ist glücklich und übt es sofort. Er möchte das Lied seiner Oma vorspielen.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas hat jeden Montag Gitarrenstunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin heißt Frau Berger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas übt nie zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia ist die Schwester von Lukas.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas möchte das neue Lied seiner Oma vorspielen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "fruehstueck-mit-oma",
+    "nivel": "A1",
+    "titulo": "Frühstück mit Oma",
+    "descripcion": "Jeden Samstag frühstückt Paul bei seiner Oma.",
+    "texto": "Paul besucht jeden Samstag seine Oma. Sie wohnt ganz in der Nähe. Zum Frühstück gibt es Brötchen, Butter und Marmelade. Oma kocht auch heißen Kakao.\n\nPaul isst gerne Brötchen mit Honig. Seine Oma trinkt Kaffee mit Milch. Sie sprechen über die Woche und über die Schule. Paul erzählt gerne von seinen Freunden.\n\nNach dem Frühstück spielen sie zusammen Karten. Paul gewinnt oft, aber Oma lacht immer viel. Um zwölf Uhr geht Paul wieder nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Paul besucht seine Oma jeden Sonntag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt Brötchen mit Marmelade.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma trinkt Tee mit Zucker.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul erzählt von seinen Freunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Frühstück spielen sie Karten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingshaustier",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingshaustier",
+    "descripcion": "Sophie erzählt von ihrem Hund Bello.",
+    "texto": "Sophie hat einen Hund. Er heißt Bello und ist braun und weiß. Bello ist drei Jahre alt. Er ist sehr lieb und spielt gerne im Garten.\n\nJeden Morgen geht Sophie mit Bello spazieren. Bello mag Bälle und läuft schnell. Nach dem Spaziergang bekommt er Wasser und Futter.\n\nAbends schläft Bello neben Sophies Bett. Sophie liebt ihren Hund sehr. Sie sagt: „Bello ist mein bester Freund.\"",
+    "preguntas": [
+      {
+        "enunciado": "Bello ist eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bello ist drei Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie geht morgens mit Bello spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello mag keine Bälle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bello schläft neben Sophies Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-aus-oesterreich",
+    "nivel": "A2",
+    "titulo": "Ein Brief aus Österreich",
+    "descripcion": "Julia hat einen Brief von ihrer Freundin aus Wien bekommen.",
+    "texto": "Julia hat letzte Woche einen Brief bekommen. Er kam aus Wien, von ihrer Freundin Katharina. Die beiden haben sich vor zwei Jahren im Urlaub kennengelernt. Seitdem schreiben sie sich regelmäßig Briefe, weil Katharina keine sozialen Medien benutzt.\n\nIn dem Brief hat Katharina erzählt, dass sie im Sommer nach Deutschland kommen möchte. Sie hat geschrieben, dass sie Julia unbedingt besuchen will, wenn sie Zeit hat. Julia hat sich sehr gefreut und sofort eine Antwort geschrieben. Sie hat vorgeschlagen, dass Katharina zwei Wochen bei ihr bleiben kann.\n\nJulia hat ihrer Mutter von dem Besuch erzählt. Die Mutter war auch begeistert und hat gesagt, dass sie gemeinsam einen Ausflug nach München machen könnten. Julia kann es kaum erwarten, ihre Freundin wiederzusehen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Brief kam aus Wien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia und Katharina schreiben sich Briefe, weil Katharina keine sozialen Medien nutzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katharina möchte im Winter nach Deutschland kommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat nicht geantwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julias Mutter freut sich über den Besuch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsfeier-im-garten",
+    "nivel": "A2",
+    "titulo": "Die Geburtstagsfeier im Garten",
+    "descripcion": "Tim hat seinen Geburtstag mit Freunden im Garten gefeiert.",
+    "texto": "Tim ist letzten Samstag fünfzehn Jahre alt geworden. Er hat seinen Geburtstag im Garten seiner Eltern gefeiert, weil das Wetter so schön war. Seine Eltern haben einen Grill aufgebaut, und seine Freunde haben Würstchen und Salat mitgebracht.\n\nAm Nachmittag haben alle Fußball gespielt, obwohl der Garten nicht sehr groß ist. Später hat Tims Mutter einen Kuchen mit fünfzehn Kerzen gebracht. Alle haben „Happy Birthday\" gesungen, und Tim hat sich etwas gewünscht, bevor er die Kerzen ausgeblasen hat.\n\nAm Abend sind die Freunde nach Hause gegangen, weil es kühl geworden ist. Tim hat sich bei allen bedankt und gesagt, dass es die schönste Feier war, die er je hatte. Seine Eltern waren froh, dass alles so gut geklappt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist fünfzehn Jahre alt geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Feier war in einem Restaurant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gäste haben Fußball gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen hatte zwanzig Kerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde sind bis spät in die Nacht geblieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-koffer-in-madrid",
+    "nivel": "A2",
+    "titulo": "Der verlorene Koffer",
+    "descripcion": "Herr Weber hat seinen Koffer am Flughafen verloren.",
+    "texto": "Herr Weber ist letzte Woche nach Spanien geflogen. Als er in Madrid angekommen ist, hat er lange auf sein Gepäck gewartet. Sein Koffer ist aber nicht gekommen, obwohl alle anderen Koffer schon da waren.\n\nEr ist zum Schalter der Fluggesellschaft gegangen und hat erklärt, dass sein Koffer fehlt. Die Mitarbeiterin hat gesagt, dass der Koffer wahrscheinlich noch in Frankfurt ist, weil er den Flug verpasst hat. Herr Weber war sehr ärgerlich, weil seine Kleidung und seine Medikamente im Koffer waren.\n\nZwei Tage später hat ihn die Fluggesellschaft angerufen und mitgeteilt, dass der Koffer gefunden wurde. Ein Fahrer hat den Koffer direkt zum Hotel gebracht. Herr Weber war sehr erleichtert und konnte endlich seinen Urlaub genießen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber ist nach Italien geflogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sein Koffer ist nicht angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Koffer war noch in Frankfurt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber hat sich gar nicht geärgert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer wurde zum Hotel gebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-abschlussfahrt-nach-prag",
+    "nivel": "B1",
+    "titulo": "Die Abschlussfahrt nach Prag",
+    "descripcion": "Eine Schulklasse fährt zum Abschluss der Schulzeit nach Prag.",
+    "texto": "Nachdem die Abiturprüfungen endlich vorbei waren, durfte die Klasse 12b eine Abschlussfahrt nach Prag machen. Die Schüler hatten sich schon seit Monaten darauf gefreut, obwohl einige von ihnen vorher noch nie im Ausland gewesen waren. Der Lehrer, Herr Novak, hatte das Programm sorgfältig geplant.\n\nAm ersten Tag besichtigten sie die Prager Burg und die Karlsbrücke. Trotzdem blieb genug Zeit, um die Stadt auf eigene Faust zu erkunden. Einige Schüler probierten typisches Essen wie Gulasch und Trdelník, während andere lieber durch die Geschäfte bummelten. Am Abend trafen sich alle im Hostel, um über ihre Erlebnisse zu sprechen.\n\nAm letzten Abend organisierte die Klasse eine kleine Abschiedsparty, da sie sich nach der Schule in verschiedene Richtungen entwickeln würden. Viele waren traurig, dass die gemeinsame Schulzeit vorbei war, freuten sich aber gleichzeitig auf die Zukunft. Die Fahrt nach Prag blieb allen als eine der schönsten Erinnerungen an die Schulzeit.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse fuhr vor den Abiturprüfungen nach Prag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Novak hat das Programm geplant.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler hatten keine freie Zeit in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend gab es eine Abschiedsparty.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler waren nur traurig und freuten sich auf nichts.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-nach-dem-studium",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag im Büro",
+    "descripcion": "Jonas beginnt seinen ersten Job nach dem Studium.",
+    "texto": "Jonas hatte gerade sein Studium abgeschlossen, als er die Zusage für seine erste feste Stelle bekam. Obwohl er sich sehr auf den neuen Job freute, war er am ersten Tag auch ziemlich nervös. Er wusste nicht genau, was ihn erwarten würde und wie seine neuen Kollegen reagieren würden.\n\nAls er im Büro ankam, wurde er freundlich von seinem Team empfangen. Sein Chef zeigte ihm den Arbeitsplatz und erklärte die wichtigsten Aufgaben, nachdem er sich kurz vorgestellt hatte. Jonas merkte schnell, dass die Kollegen sehr hilfsbereit waren, obwohl er viele Fragen stellte. Trotzdem fühlte er sich am Ende des Tages ziemlich erschöpft.\n\nAm Abend rief er seine Eltern an und erzählte ihnen begeistert von seinem ersten Tag. Er erklärte, dass er zwar noch viel lernen müsse, sich aber schon jetzt im Team wohlfühle. Seine Eltern waren stolz auf ihn und wünschten ihm viel Erfolg für die kommenden Wochen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte sein Studium noch nicht beendet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas war am ersten Tag nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kollegen waren unfreundlich zu ihm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas fühlte sich am Ende des Tages erschöpft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seine Eltern waren enttäuscht von ihm.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-chorkonzert-in-der-stadthalle",
+    "nivel": "B1",
+    "titulo": "Das Chorkonzert in der Stadthalle",
+    "descripcion": "Ein Gemeindechor gibt nach langer Vorbereitung sein großes Konzert.",
+    "texto": "Der Gemeindechor von Lindenberg probte seit fast einem Jahr für sein großes Jahreskonzert in der Stadthalle. Die Chorleiterin, Frau Kaiser, hatte ein anspruchsvolles Programm ausgewählt, das sowohl klassische als auch moderne Stücke enthielt. Viele Mitglieder des Chores waren aufgeregt, weil es das erste Konzert seit der langen Pause war.\n\nAm Abend des Konzerts war die Stadthalle bis auf den letzten Platz gefüllt. Nachdem die ersten Lieder gesungen worden waren, applaudierte das Publikum begeistert. Besonders ein modernes Stück, das von einem jungen Mitglied komponiert worden war, begeisterte die Zuhörer. Trotz der Nervosität lief alles reibungslos ab.\n\nNach dem Konzert gab es einen kleinen Empfang, bei dem sich Sänger und Publikum austauschen konnten. Viele Zuschauer lobten die Qualität des Konzerts und fragten, wann das nächste stattfinden würde. Frau Kaiser war sehr zufrieden und kündigte an, dass der Chor bereits an neuen Projekten arbeiten werde.",
+    "preguntas": [
+      {
+        "enunciado": "Der Chor probte seit fast einem Jahr für das Konzert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Programm enthielt nur klassische Stücke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Stadthalle war fast leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein modernes Stück begeisterte die Zuhörer besonders.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Konzert gab es keinen Austausch mit dem Publikum.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-gentrifizierung-deutscher-innenstaedte",
+    "nivel": "B2",
+    "titulo": "Die Gentrifizierung deutscher Innenstädte",
+    "descripcion": "Eine Analyse der steigenden Mieten und des sozialen Wandels in beliebten Stadtvierteln.",
+    "texto": "In vielen deutschen Großstädten lässt sich seit Jahren ein Prozess beobachten, der als Gentrifizierung bezeichnet wird: einst preiswerte Stadtviertel werden zunehmend von einkommensstärkeren Bevölkerungsgruppen bewohnt, während die ursprüngliche Bevölkerung häufig verdrängt wird. Investoren sanieren alte Gebäude, wodurch die Mieten erheblich steigen und sich viele langjährige Bewohner die Wohnungen nicht mehr leisten können.\n\nBefürworter dieser Entwicklung argumentieren, dass sanierte Viertel sicherer und attraktiver würden, was wiederum neue Geschäfte und Arbeitsplätze anziehe. Kritiker hingegen betonen, dass die soziale Durchmischung verloren gehe und sich einkommensschwache Haushalte in Randgebiete zurückziehen müssten, in denen die Infrastruktur oft schlechter ausgebaut sei. Mancherorts würden ganze Nachbarschaften ihren ursprünglichen Charakter verlieren.\n\nStädtische Verwaltungen versuchen zunehmend, mit Instrumenten wie Mietpreisbremsen oder sozialem Wohnungsbau gegenzusteuern. Ob diese Maßnahmen ausreichen, um die Verdrängung einkommensschwacher Haushalte zu verhindern, bleibt jedoch umstritten. Experten fordern, dass langfristige Stadtentwicklungskonzepte stärker die Bedürfnisse aller Bevölkerungsgruppen berücksichtigen sollten.",
+    "preguntas": [
+      {
+        "enunciado": "Bei der Gentrifizierung ziehen oft einkommensstärkere Gruppen in günstige Viertel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sehen die Gentrifizierung ausschließlich positiv.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten den Verlust der sozialen Durchmischung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Städte versuchen teilweise mit Mietpreisbremsen gegenzusteuern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird gesagt, dass das Problem bereits vollständig gelöst ist.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ki-gestuetztes-lernen-in-schulen",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Klassenzimmer",
+    "descripcion": "Chancen und Risiken des Einsatzes von KI-Werkzeugen im Schulunterricht.",
+    "texto": "Der Einsatz künstlicher Intelligenz im Schulunterricht wird in der Bildungspolitik zunehmend kontrovers diskutiert. Während einige Schulen bereits KI-gestützte Lernprogramme einsetzen, die individuell auf den Lernstand jedes Schülers eingehen, warnen andere Stimmen vor einer übermäßigen Abhängigkeit von solchen Technologien. Befürworter betonen, dass personalisiertes Lernen durch KI Schülern helfen könne, in ihrem eigenen Tempo zu lernen.\n\nKritiker hingegen geben zu bedenken, dass Schüler, würden sie zu früh an KI-Werkzeuge gewöhnt, möglicherweise weniger eigenständig denken und schreiben lernten. Zudem stelle sich die Frage, wie zuverlässig von KI generierte Inhalte seien und ob Lehrkräfte ausreichend geschult würden, um solche Werkzeuge sinnvoll einzusetzen. Auch der Datenschutz spiele eine wichtige Rolle, da viele Programme Nutzungsdaten der Schüler sammelten.\n\nBildungsexperten fordern daher klare pädagogische Konzepte, bevor KI flächendeckend in Schulen eingeführt wird. Nur wenn Lehrkräfte entsprechend fortgebildet und klare Regeln für den Einsatz formuliert würden, könne das Potenzial der Technologie sinnvoll genutzt werden, ohne grundlegende Lernprozesse zu gefährden.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Schulen lehnen den Einsatz von KI im Unterricht strikt ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen einen Vorteil im personalisierten Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass Schüler weniger eigenständig denken lernen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Datenschutz spielt laut Text keine Rolle bei KI-Programmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern klare pädagogische Konzepte vor der Einführung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "vier-tage-woche-chancen-und-risiken",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche-Debatte",
+    "descripcion": "Eine Diskussion über Vor- und Nachteile der verkürzten Arbeitswoche.",
+    "texto": "In den letzten Jahren haben immer mehr Unternehmen die Vier-Tage-Woche getestet, bei der Beschäftigte bei vollem Lohnausgleich einen Tag weniger arbeiten. Befürworter argumentieren, dass sich die Produktivität der Mitarbeiter dadurch nicht verringere, sondern durch höhere Motivation und weniger Krankheitstage sogar steigen könne. Zudem verweisen sie auf Studien, laut denen die Beschäftigten zufriedener und ausgeglichener seien.\n\nArbeitgeberverbände äußern sich dagegen häufig skeptisch und geben zu bedenken, dass nicht jede Branche eine verkürzte Arbeitswoche ohne Weiteres umsetzen könne. Besonders im Gesundheitswesen oder im Einzelhandel, wo durchgehende Anwesenheit erforderlich sei, ließen sich die Arbeitszeiten nur schwer reduzieren, ohne zusätzliches Personal einzustellen. Würde die Vier-Tage-Woche verpflichtend eingeführt, befürchten manche Unternehmen steigende Kosten und Personalengpässe.\n\nDennoch zeigen Pilotprojekte in mehreren europäischen Ländern vielversprechende Ergebnisse, weshalb immer mehr Politiker eine breitere Einführung fordern. Ob sich das Modell langfristig durchsetzen wird, hängt vermutlich davon ab, wie flexibel einzelne Branchen auf die veränderten Anforderungen reagieren können.",
+    "preguntas": [
+      {
+        "enunciado": "Bei der Vier-Tage-Woche wird der Lohn meist gekürzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen einen möglichen Anstieg der Produktivität.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Arbeitgeberverbände sind laut Text durchweg begeistert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen lässt sich die Arbeitszeit laut Text leicht reduzieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pilotprojekte in Europa zeigen vielversprechende Ergebnisse.",
+        "respuesta": true
+      }
+    ]
   }
 ]
