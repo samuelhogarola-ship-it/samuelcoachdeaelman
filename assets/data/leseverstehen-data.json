@@ -65546,5 +65546,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-rote-rucksack",
+    "nivel": "A1",
+    "titulo": "Der rote Rucksack",
+    "descripcion": "Lena kauft einen neuen Rucksack für die Schule.",
+    "texto": "Lena braucht einen neuen Rucksack für die Schule. Sie geht mit ihrer Mutter in ein Geschäft in der Stadt. Im Geschäft gibt es viele Rucksäcke: blaue, grüne und rote. Lena mag die Farbe Rot sehr gern.\n\nDie Verkäuferin zeigt Lena einen roten Rucksack. Der Rucksack hat viele Taschen und ist nicht zu schwer. Lena probiert ihn an und lächelt. „Der Rucksack ist perfekt!“, sagt sie. Ihre Mutter bezahlt an der Kasse.\n\nAm nächsten Tag nimmt Lena den roten Rucksack mit in die Schule. Ihre Freunde finden den Rucksack sehr schön. Lena ist stolz und glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lena kauft einen neuen Rucksack für die Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena mag die Farbe Blau am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der rote Rucksack hat viele Taschen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas Mutter bezahlt den Rucksack nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lenas Freunde finden den Rucksack schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-cafe-um-die-ecke",
+    "nivel": "A1",
+    "titulo": "Im Café um die Ecke",
+    "descripcion": "Paul trinkt jeden Morgen einen Kaffee im Café um die Ecke.",
+    "texto": "Paul wohnt in der Stadtmitte. Jeden Morgen geht er zu Fuß zum Café um die Ecke. Das Café ist klein, aber sehr gemütlich. Paul trinkt dort immer einen Kaffee mit Milch.\n\nDie Kellnerin im Café heißt Nina. Sie kennt Paul gut und bringt ihm oft auch ein Croissant. „Guten Morgen, Paul! Das Übliche?“, fragt sie. Paul nickt und setzt sich an seinen Lieblingstisch am Fenster.\n\nNach dem Kaffee liest Paul die Zeitung. Dann geht er zur Arbeit. Das Café ist für Paul ein wichtiger Teil vom Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Paul fährt mit dem Auto zum Café.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul trinkt jeden Morgen einen Kaffee mit Milch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kellnerin heißt Nina.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina kennt Paul nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul liest im Café die Zeitung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-katze-auf-dem-baum",
+    "nivel": "A1",
+    "titulo": "Die Katze auf dem Baum",
+    "descripcion": "Die Katze von Familie Schmidt sitzt plötzlich auf einem hohen Baum.",
+    "texto": "Die Familie Schmidt hat eine Katze. Die Katze heißt Mimi und spielt gern im Garten. Eines Tages klettert Mimi auf einen hohen Baum. Aber dann kommt sie nicht mehr herunter.\n\nDie kleine Tochter Emma sieht die Katze und ruft laut: „Mimi sitzt auf dem Baum! Hilfe!“ Der Vater kommt schnell in den Garten. Er holt eine lange Leiter aus der Garage.\n\nDer Vater steigt langsam auf die Leiter und holt Mimi vom Baum. Mimi miaut leise. Emma ist sehr froh und umarmt ihre Katze. Die ganze Familie trinkt danach gemeinsam Tee in der Küche.",
+    "preguntas": [
+      {
+        "enunciado": "Die Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi klettert auf ein Dach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma ruft um Hilfe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater findet keine Leiter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende ist Emma froh.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-oma-in-muenchen",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Oma in München",
+    "descripcion": "Tim hat seiner Oma einen langen Brief über die Sommerferien geschrieben.",
+    "texto": "Tim hat seiner Oma in München einen Brief geschrieben, weil er sie schon lange nicht mehr besucht hat. In dem Brief hat er erzählt, dass die Sommerferien dieses Jahr besonders schön waren. Er ist mit seinen Eltern an die Nordsee gefahren und hat dort jeden Tag im Sand gespielt.\n\nAußerdem hat Tim geschrieben, dass er in der Schule eine neue Freundin gefunden hat. Sie heißt Clara und sitzt jetzt neben ihm. Wenn die beiden Hausaufgaben machen, helfen sie sich gegenseitig. Tim hat auch gefragt, ob die Oma ihn bald besuchen kann.\n\nDie Oma hat sich sehr über den Brief gefreut. Sie hat sofort geantwortet und geschrieben, dass sie im Oktober nach Köln kommt. Tim freut sich schon riesig auf ihren Besuch.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hat den Brief an seine Mutter geschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim ist mit seinen Eltern an die Nordsee gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara ist Tims neue Lehrerin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma hat sich über den Brief gefreut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma kommt nie nach Köln.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-termin-beim-arzt",
+    "nivel": "A2",
+    "titulo": "Der Termin beim Arzt",
+    "descripcion": "Sabine hat starke Kopfschmerzen und geht deshalb zum Arzt.",
+    "texto": "Sabine hat seit zwei Tagen starke Kopfschmerzen. Weil die Schmerzen nicht besser werden, ruft sie beim Arzt an und vereinbart einen Termin. Am nächsten Morgen fährt sie mit dem Bus in die Praxis.\n\nIm Wartezimmer sitzen schon viele Patienten. Sabine muss fast eine Stunde warten, bevor die Arzthelferin ihren Namen aufruft. Der Arzt untersucht sie gründlich und fragt, ob sie in letzter Zeit viel Stress hatte. Sabine antwortet, dass sie dieses Semester sehr viel für die Uni lernen musste.\n\nDer Arzt sagt, dass Sabine mehr schlafen und Pausen machen soll. Er gibt ihr auch Tabletten gegen die Schmerzen. Wenn die Kopfschmerzen in einer Woche nicht weggehen, soll sie wiederkommen. Sabine bedankt sich und fährt nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine hat Bauchschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine wartet fast eine Stunde im Wartezimmer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt fragt nach Stress.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt gibt Sabine keine Tabletten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine soll wiederkommen, wenn die Schmerzen bleiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-durch-den-schwarzwald",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour durch den Schwarzwald",
+    "descripcion": "Markus und seine Freunde machen am Wochenende eine lange Fahrradtour.",
+    "texto": "Markus und seine zwei Freunde haben am Samstag eine Fahrradtour durch den Schwarzwald gemacht. Sie sind früh am Morgen gestartet, weil der Weg sehr lang war. Die Straßen waren ruhig, und die Luft hat nach Wald und Regen gerochen.\n\nNach drei Stunden haben sie an einem See eine Pause gemacht. Dort haben sie ihre Brote gegessen und ein bisschen geschwommen. Markus hat erzählt, dass er diese Tour schon lange machen wollte. Seine Freunde haben gelacht, weil er am Anfang fast vom Fahrrad gefallen ist.\n\nAm Abend sind sie müde, aber zufrieden nach Hause gekommen. Alle drei haben gesagt, dass sie die Tour im nächsten Jahr wiederholen wollen, wenn das Wetter wieder so schön ist.",
+    "preguntas": [
+      {
+        "enunciado": "Markus macht die Fahrradtour allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie starten am frühen Morgen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie machen eine Pause an einem See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus fällt am Ende der Tour vom Fahrrad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie wollen die Tour nächstes Jahr wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-nach-muenchen",
+    "nivel": "B1",
+    "titulo": "Der Umzug nach München",
+    "descripcion": "Jonas zieht aus beruflichen Gründen von Leipzig nach München um.",
+    "texto": "Nachdem Jonas eine neue Stelle in München gefunden hatte, musste er innerhalb weniger Wochen seine ganze Wohnung in Leipzig auflösen. Obwohl er die Stadt und seine Freunde sehr mochte, freute er sich auch auf das neue Kapitel in seinem Leben. Der Umzug selbst war anstrengend, denn er musste Möbel verkaufen, Kisten packen und viele Behördengänge erledigen.\n\nIn München angekommen, war die Wohnungssuche nicht einfach. Die Mieten waren deutlich höher als in Leipzig, und viele Wohnungen wurden schon nach wenigen Stunden vergeben. Trotzdem fand Jonas schließlich eine kleine, aber helle Wohnung in Schwabing. Nachdem er eingezogen war, lernte er schnell neue Nachbarn kennen, die ihm beim Einrichten halfen.\n\nHeute, ein Jahr später, fühlt sich Jonas in München richtig zu Hause. Er vermisst zwar manchmal seine alten Freunde aus Leipzig, besucht sie aber regelmäßig an den Wochenenden. Insgesamt bereut er den Umzug nicht, obwohl er anfangs sehr unsicher war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas zieht wegen einer neuen Arbeitsstelle um.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas findet sofort eine günstige Wohnung in München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas wohnt jetzt im Stadtteil Schwabing.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas besucht seine alten Freunde nie mehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas bereut den Umzug nach einem Jahr nicht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-bei-der-zeitung",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum bei der Zeitung",
+    "descripcion": "Lara macht ein sechswöchiges Praktikum in der Redaktion einer Lokalzeitung.",
+    "texto": "Lara interessiert sich schon lange für Journalismus, obwohl ihre Eltern ihr eher zu einem technischen Studium geraten haben. Nachdem sie ihr Abitur gemacht hatte, bewarb sie sich für ein sechswöchiges Praktikum bei einer Lokalzeitung in ihrer Heimatstadt. Zu ihrer Überraschung bekam sie die Zusage schon nach wenigen Tagen.\n\nAm ersten Arbeitstag war Lara sehr nervös, denn sie musste gleich einen kurzen Artikel über ein Schulfest schreiben. Ihr Mentor, ein erfahrener Redakteur, half ihr geduldig und zeigte ihr, wie man Interviews führt. Obwohl die Arbeitstage oft lang und stressig waren, gefiel Lara die Abwechslung zwischen Recherche, Schreiben und Fotografieren.\n\nNachdem das Praktikum beendet war, bot ihr die Redaktion eine freie Mitarbeit an. Lara war begeistert und entschied sich, trotz des Drucks ihrer Eltern, Journalismus zu studieren. Sie ist überzeugt, dass sie die richtige Entscheidung getroffen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Laras Eltern wollten, dass sie Journalismus studiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lara bekommt die Zusage für das Praktikum sofort.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lara schreibt am ersten Tag einen Artikel über ein Schulfest.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Redaktion bietet Lara nach dem Praktikum nichts an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lara entscheidet sich, Journalismus zu studieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-dorffest-im-herbst",
+    "nivel": "B1",
+    "titulo": "Das Dorffest im Herbst",
+    "descripcion": "Ein kleines Dorf organisiert trotz schlechten Wetters ein großes Herbstfest.",
+    "texto": "Jedes Jahr im Oktober organisieren die Bewohner von Lindenau ein großes Dorffest, um die Ernte zu feiern. Dieses Jahr sah es allerdings zunächst schlecht aus, da tagelang starker Regen vorhergesagt wurde. Obwohl viele Dorfbewohner skeptisch waren, entschied sich das Organisationsteam, das Fest trotzdem stattfinden zu lassen.\n\nAm Samstagmorgen regnete es tatsächlich, aber am Nachmittag klarte der Himmel überraschend auf. Nachdem die ersten Besucher auf dem Marktplatz angekommen waren, begannen die Musiker zu spielen, und die Stände mit Kartoffelpuffern und Apfelwein öffneten. Kinder spielten alte Dorfspiele, während die Erwachsenen sich über die Ernte des Jahres austauschten.\n\nAm Abend war das Fest trotz der unsicheren Wetterlage ein großer Erfolg. Der Bürgermeister bedankte sich bei allen Helfern und kündigte an, dass das Fest im nächsten Jahr noch größer werden soll. Viele Bewohner waren sich einig, dass gerade die Unsicherheit das Fest besonders unvergesslich gemacht hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Das Dorffest findet jedes Jahr im Frühling statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wurde starker Regen vorhergesagt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fest wurde wegen des Regens komplett abgesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag klarte der Himmel auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bürgermeister war mit dem Fest unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umgang-mit-fake-news",
+    "nivel": "B2",
+    "titulo": "Der Umgang mit Fake News",
+    "descripcion": "Ein Essay über die Herausforderungen, die durch die Verbreitung von Falschinformationen entstehen.",
+    "texto": "In einer Zeit, in der Informationen über soziale Netzwerke in Sekundenschnelle verbreitet werden, stellt der Umgang mit sogenannten Fake News eine der größten Herausforderungen demokratischer Gesellschaften dar. Studien zeigen, dass falsche Nachrichten sich oft schneller verbreiten als korrekte Informationen, da sie häufig emotionaler und überraschender formuliert sind. Dies führt dazu, dass selbst gut informierte Bürgerinnen und Bürger zunehmend Schwierigkeiten haben, seriöse von unseriösen Quellen zu unterscheiden.\n\nWäre die Medienkompetenz in der Bevölkerung stärker ausgeprägt, könnten viele der durch Falschinformationen verursachten Probleme vermieden werden. Deshalb fordern zahlreiche Bildungsexperten, dass der kritische Umgang mit digitalen Medien bereits in der Schule unterrichtet werden sollte. Gleichzeitig wird von den Betreibern sozialer Netzwerke verlangt, stärker gegen die Verbreitung nachweislich falscher Inhalte vorzugehen, ohne dabei die Meinungsfreiheit unangemessen einzuschränken.\n\nEin weiterer, viel diskutierter Ansatz besteht darin, Falschinformationen durch automatisierte Systeme und unabhängige Faktenchecker kennzeichnen zu lassen, bevor sie massenhaft geteilt werden. Kritiker geben jedoch zu bedenken, dass solche Systeme selbst fehleranfällig seien und möglicherweise missbraucht werden könnten, um unliebsame, aber legitime Meinungen zu unterdrücken. Die Debatte darüber, wie eine demokratische Gesellschaft Wahrheit und Meinungsfreiheit gleichermaßen schützen kann, bleibt daher weiterhin ungelöst.",
+    "preguntas": [
+      {
+        "enunciado": "Fake News verbreiten sich laut Studien oft langsamer als korrekte Nachrichten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern mehr Medienkompetenz schon in der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind sich einig, dass automatisierte Faktencheck-Systeme fehlerfrei funktionieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Soziale Netzwerke sollen laut Text stärker gegen falsche Inhalte vorgehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte über Wahrheit und Meinungsfreiheit gilt im Text als abgeschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "klimaneutralitaet-bis-2045",
+    "nivel": "B2",
+    "titulo": "Klimaneutralität bis 2045",
+    "descripcion": "Ein Artikel über die politischen und gesellschaftlichen Herausforderungen auf dem Weg zur Klimaneutralität.",
+    "texto": "Mehrere europäische Länder haben sich das ambitionierte Ziel gesetzt, bis zum Jahr 2045 klimaneutral zu werden. Dieses Vorhaben, das eine vollständige Umstellung der Energieversorgung sowie des Verkehrs- und Bausektors voraussetzt, gilt als eine der größten wirtschaftlichen und gesellschaftlichen Transformationen der jüngeren Geschichte. Kritiker bezweifeln, dass ein derart tiefgreifender Wandel innerhalb von nur zwei Jahrzehnten überhaupt umsetzbar sei.\n\nBefürworter des Vorhabens argumentieren hingegen, dass ein späteres Handeln noch höhere Kosten verursachen würde, sowohl ökologisch als auch ökonomisch. Würden die notwendigen Investitionen in erneuerbare Energien und energieeffiziente Gebäude jetzt getätigt, ließen sich langfristig sowohl Arbeitsplätze schaffen als auch die Abhängigkeit von fossilen Energieträgern verringern. Besonders der stark subventionierte Ausbau von Wind- und Solarenergie wird von vielen Expertinnen und Experten als zentraler Baustein der Energiewende betrachtet.\n\nDennoch bleibt die soziale Dimension dieser Transformation umstritten. Viele Haushalte mit geringem Einkommen könnten durch steigende Energiepreise und Umbaukosten überproportional belastet werden, wenn keine ausgleichenden Maßnahmen ergriffen würden. Aus diesem Grund fordern Sozialverbände, dass die Klimapolitik stets mit einer gerechten Verteilung der entstehenden Lasten einhergehen müsse, damit der gesellschaftliche Zusammenhalt nicht gefährdet wird.",
+    "preguntas": [
+      {
+        "enunciado": "Das Ziel der Klimaneutralität soll bis 2045 erreicht werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker halten den Zeitplan für problemlos umsetzbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sagen, spätes Handeln wäre langfristig günstiger.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sozialverbände fordern eine gerechte Verteilung der Lasten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist die soziale Dimension der Transformation unumstritten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "generationengerechtigkeit-und-rentenpolitik",
+    "nivel": "B2",
+    "titulo": "Generationengerechtigkeit und Rentenpolitik",
+    "descripcion": "Eine Analyse der Debatte um eine faire Verteilung der Rentenlasten zwischen den Generationen.",
+    "texto": "Die demografische Entwicklung in Deutschland und anderen europäischen Ländern stellt die bestehenden Rentensysteme vor erhebliche Herausforderungen. Da die Lebenserwartung kontinuierlich steigt und gleichzeitig immer weniger jüngere Menschen in die Rentenkassen einzahlen, wird zunehmend die Frage gestellt, wie eine gerechte Verteilung der finanziellen Lasten zwischen den Generationen aussehen könnte.\n\nManche Ökonomen schlagen vor, das Renteneintrittsalter schrittweise anzuheben, um das System langfristig zu stabilisieren. Andere Stimmen plädieren hingegen für eine stärkere Beteiligung von Selbstständigen und Beamten am umlagefinanzierten System, da dadurch mehr Menschen zur Finanzierung beitragen würden. Würde man hingegen ausschließlich die Beiträge der aktuell Beschäftigten erhöhen, träfe dies vor allem jüngere Generationen, die ohnehin schon mit steigenden Lebenshaltungskosten konfrontiert sind.\n\nJugendorganisationen kritisieren zunehmend, dass politische Entscheidungen oft zugunsten älterer Wählergruppen getroffen würden, da diese einen größeren Anteil der Wählerschaft ausmachen. Um dieser sogenannten Boomer-Demokratie entgegenzuwirken, fordern einige Verbände, langfristige Auswirkungen politischer Entscheidungen stärker in die Gesetzgebung einzubeziehen, damit auch die Interessen künftiger Generationen angemessen berücksichtigt werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Lebenserwartung sinkt laut Text kontinuierlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Ökonomen schlagen eine schrittweise Anhebung des Renteneintrittsalters vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand fordert eine stärkere Beteiligung von Selbstständigen und Beamten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jugendorganisationen kritisieren eine mögliche Bevorzugung älterer Wählergruppen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass künftige Generationen bereits ausreichend berücksichtigt werden.",
+        "respuesta": false
+      }
+    ]
   }
 ]
