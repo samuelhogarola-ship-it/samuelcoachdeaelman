@@ -83,6 +83,23 @@
     ]
   }
   </script>
+  <style>
+/* Cities interlinking grid */
+.home-cities { padding: 3rem 0 2rem; background: var(--home-surface, #f7fbff); }
+.home-cities h2 { font-size: 1.3rem; text-align: center; margin-bottom: 1.5rem; color: var(--home-ink, #14263d); }
+.cities-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1.5rem 2rem; max-width: 900px; margin: 0 auto; }
+.cities-zone h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--home-ink-soft, #4f6478); margin-bottom: 0.5rem; }
+.cities-zone ul { list-style: none; padding: 0; margin: 0; }
+.cities-zone li { margin-bottom: 0.3rem; }
+.cities-zone a { color: var(--home-accent, #4f9be0); text-decoration: none; font-size: 0.9rem; }
+.cities-zone a:hover { text-decoration: underline; }
+.cities-zone strong { font-size: 0.9rem; color: var(--home-ink, #14263d); }
+.home-nearby { padding: 2rem 0 1rem; }
+.home-nearby h2 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+.home-nearby p { font-size: 0.95rem; line-height: 1.6; }
+.home-nearby a { color: var(--home-accent, #4f9be0); text-decoration: none; }
+.home-nearby a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body class="home-page">
   <header class="site-header">
@@ -260,6 +277,15 @@
       </div>
     </section>
 
+    
+    <section class="home-nearby" aria-labelledby="nearby-title">
+      <div class="home-shell">
+        <div class="home-section-head reveal">
+          <h2 id="nearby-title">También cerca de Barcelona</h2>
+          <p>Imparto clases de alemán online en toda España. Si conoces a alguien en estas ciudades, también puedo ayudarle: <a href="/zaragoza/">alemán en Zaragoza</a>, <a href="/valencia/">alemán en Valencia</a>, <a href="/madrid/">alemán en Madrid</a>, <a href="/palma-de-mallorca/">alemán en Palma de Mallorca</a>.</p>
+        </div>
+      </div>
+    </section>
     <section class="home-assessment" id="valoracion" aria-labelledby="valoracion-title">
       <div class="home-shell">
         <div class="home-section-head reveal">
@@ -283,6 +309,59 @@
             </div>
             <button type="submit" class="btn btn-dark">Enviar valoración</button>
           </form>
+        </div>
+      </div>
+    </section>
+  
+    <section class="home-cities" aria-labelledby="ciudades-title">
+      <div class="home-shell">
+        <h2 id="ciudades-title">Clases de alemán online en toda España</h2>
+        <div class="cities-grid">
+          <div class="cities-zone">
+            <h3>Costa del Sol</h3>
+            <ul>
+              <li><a href="/fuengirola/">Fuengirola</a></li>
+              <li><a href="/marbella/">Marbella</a></li>
+              <li><a href="/malaga/">Málaga</a></li>
+              <li><a href="/benalmadena/">Benalmádena</a></li>
+              <li><a href="/estepona/">Estepona</a></li>
+              <li><a href="/mijas/">Mijas</a></li>
+              <li><a href="/torremolinos/">Torremolinos</a></li>
+              <li><a href="/nerja/">Nerja</a></li>
+            </ul>
+          </div>
+          <div class="cities-zone">
+            <h3>Andalucía</h3>
+            <ul>
+              <li><a href="/sevilla/">Sevilla</a></li>
+              <li><a href="/granada/">Granada</a></li>
+            </ul>
+          </div>
+          <div class="cities-zone">
+            <h3>Centro y Norte</h3>
+            <ul>
+              <li><a href="/madrid/">Madrid</a></li>
+              <li><a href="/bilbao/">Bilbao</a></li>
+              <li><a href="/zaragoza/">Zaragoza</a></li>
+            </ul>
+          </div>
+          <div class="cities-zone">
+            <h3>Levante</h3>
+            <ul>
+              <li><strong>Barcelona</strong></li>
+              <li><a href="/valencia/">Valencia</a></li>
+              <li><a href="/alicante/">Alicante</a></li>
+              <li><a href="/murcia/">Murcia</a></li>
+            </ul>
+          </div>
+          <div class="cities-zone">
+            <h3>Islas</h3>
+            <ul>
+              <li><a href="/palma-de-mallorca/">Palma de Mallorca</a></li>
+              <li><a href="/las-palmas/">Las Palmas</a></li>
+              <li><a href="/tenerife/">Tenerife</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
