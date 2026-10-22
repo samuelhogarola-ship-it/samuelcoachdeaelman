@@ -66590,5 +66590,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-aquarium-mit-fischen",
+    "nivel": "A1",
+    "titulo": "Mein Aquarium mit Fischen",
+    "descripcion": "Ein Mädchen erzählt von ihrem Aquarium und ihren bunten Fischen.",
+    "texto": "Ich heiße Lina. Ich habe ein Aquarium in meinem Zimmer. Das Aquarium ist groß und bunt. Ich habe sechs Fische. Die Fische sind klein und schnell.\n\nMein Fisch heißt Flip. Flip ist orange und schwarz. Er schwimmt immer zwischen den Steinen. Die anderen Fische sind blau und gelb. Sie schwimmen gern zusammen.\n\nJeden Morgen füttere ich die Fische. Ich gebe ihnen Futter aus einer kleinen Dose. Am Abend putze ich das Glas. Das Aquarium macht mir viel Spaß. Meine Fische sind meine besten Freunde.",
+    "preguntas": [
+      {
+        "enunciado": "Lina hat ein Aquarium in ihrem Zimmer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lina hat zehn Fische.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Flip ist orange und schwarz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lina füttert die Fische nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lina putzt das Glas am Abend.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-kiosk-an-der-ecke",
+    "nivel": "A1",
+    "titulo": "Im Kiosk an der Ecke",
+    "descripcion": "Ein Junge kauft jeden Tag etwas im kleinen Kiosk in seiner Straße.",
+    "texto": "Der Kiosk ist an der Ecke meiner Straße. Der Kiosk ist klein, aber sehr praktisch. Herr Yilmaz arbeitet dort jeden Tag. Er ist freundlich und kennt alle Kunden.\n\nIch gehe oft nach der Schule zum Kiosk. Ich kaufe eine Zeitschrift oder ein Getränk. Manchmal kaufe ich auch Kaugummi für meine Schwester. Der Kiosk verkauft auch Zeitungen, Süßigkeiten und Postkarten.\n\nAm Wochenende kommt mein Vater mit. Er kauft eine Zeitung und spricht kurz mit Herrn Yilmaz. Der Kiosk ist für unsere Familie ein wichtiger Ort. Wir treffen dort oft unsere Nachbarn.",
+    "preguntas": [
+      {
+        "enunciado": "Der Kiosk ist an der Ecke der Straße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Yilmaz arbeitet im Kiosk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Junge kauft nie etwas im Kiosk.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Kiosk verkauft nur Getränke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater geht manchmal mit zum Kiosk.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-onkel-ist-baecker",
+    "nivel": "A1",
+    "titulo": "Mein Onkel ist Bäcker",
+    "descripcion": "Ein Kind beschreibt den Alltag seines Onkels in der Bäckerei.",
+    "texto": "Mein Onkel Paul ist Bäcker. Er steht jeden Morgen sehr früh auf. Um vier Uhr fährt er schon zur Bäckerei. Dort backt er frisches Brot und Brötchen.\n\nDie Bäckerei riecht immer nach frischem Brot. Ich besuche meinen Onkel oft am Samstag. Er zeigt mir, wie man Teig knetet. Das macht mir sehr viel Spaß.\n\nAm liebsten mag ich die süßen Kuchen von meinem Onkel. Er backt auch bunte Torten für Geburtstage. Nach der Arbeit ist mein Onkel müde, aber glücklich. Er liebt seinen Beruf sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Onkel Paul ist Bäcker.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er steht sehr spät auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bäckerei riecht nach frischem Brot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Kind besucht den Onkel nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Onkel liebt seinen Beruf.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-panne-mit-dem-mietwagen",
+    "nivel": "A2",
+    "titulo": "Die Panne mit dem Mietwagen",
+    "descripcion": "Eine Familie erlebt im Urlaub eine unerwartete Autopanne.",
+    "texto": "Familie Berger ist letzten Sommer nach Italien gefahren. Sie haben einen Mietwagen am Flughafen gebucht, weil sie die Küste erkunden wollten. Schon am zweiten Tag ist der Wagen plötzlich stehen geblieben.\n\nHerr Berger hat sofort die Vermietung angerufen, weil er nicht wusste, was passiert war. Die Mitarbeiterin hat erklärt, dass ein Abschleppdienst in einer Stunde kommen würde. Die Familie hat die Wartezeit genutzt, um in einem kleinen Café zu frühstücken.\n\nAls der neue Wagen endlich angekommen ist, haben alle erleichtert aufgeatmet. Frau Berger hat gesagt, dass sie trotz der Panne einen schönen Urlaub hatten. Wenn man flexibel bleibt, kann man auch kleine Probleme gut lösen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger ist nach Italien gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Mietwagen hatte während der ganzen Reise keine Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Berger hat die Vermietung angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie musste den ganzen Urlaub ohne Auto bleiben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger fand den Urlaub trotzdem schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-an-die-brieffreundin-in-kanada",
+    "nivel": "A2",
+    "titulo": "Der Brief an die Brieffreundin in Kanada",
+    "descripcion": "Ein Mädchen schreibt ihrer kanadischen Brieffreundin von ihrem Alltag.",
+    "texto": "Liebe Emma,\n\nich habe mich sehr gefreut, als dein letzter Brief angekommen ist. Du hast geschrieben, dass es in Kanada schon geschneit hat. Bei uns in Deutschland ist es noch mild, aber die Blätter sind bunt geworden.\n\nLetzte Woche habe ich mit meiner Klasse einen Ausflug gemacht. Wir sind in den Zoo gefahren, weil wir gerade ein Projekt über Tiere machen. Ich habe dort viele Fotos gemacht, die ich dir gerne schicken möchte. Außerdem habe ich angefangen, Gitarre zu lernen.\n\nSchreib mir bald wieder und erzähl mir, wie es dir geht! Wenn du Lust hast, können wir vielleicht nächstes Jahr telefonieren, dass wir uns endlich hören können.\n\nViele Grüße\nMia",
+    "preguntas": [
+      {
+        "enunciado": "Mia hat sich über den Brief gefreut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Kanada hat es schon geschneit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia ist mit ihrer Klasse ins Museum gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia lernt gerade Gitarre.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia will nicht mehr mit Emma telefonieren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-bei-der-physiotherapeutin",
+    "nivel": "A2",
+    "titulo": "Der Besuch bei der Physiotherapeutin",
+    "descripcion": "Nach einer Sportverletzung muss Tom regelmäßig zur Physiotherapie gehen.",
+    "texto": "Tom hat sich beim Fußballspielen das Knie verletzt. Weil der Schmerz nicht besser wurde, ist er zum Arzt gegangen. Der Arzt hat ihm empfohlen, zur Physiotherapie zu gehen.\n\nSeit zwei Wochen besucht Tom zweimal pro Woche eine Physiotherapeutin. Sie zeigt ihm Übungen, die das Knie wieder stärken sollen. Am Anfang hat es ziemlich wehgetan, aber Tom hat durchgehalten, weil er bald wieder spielen möchte.\n\nDie Physiotherapeutin hat gesagt, dass sich das Knie gut entwickelt hat. Wenn Tom weiter so fleißig übt, kann er in einem Monat wieder trainieren. Tom ist froh, dass er die Verletzung ernst genommen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Tom hat sich beim Schwimmen verletzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat Physiotherapie empfohlen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom geht einmal im Monat zur Physiotherapie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang hat die Behandlung wehgetan.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Physiotherapeutin ist mit der Entwicklung zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schueleraustausch-in-lyon",
+    "nivel": "B1",
+    "titulo": "Der Schüleraustausch in Lyon",
+    "descripcion": "Ein Schüler berichtet von seinen Erfahrungen während eines Austauschs in Frankreich.",
+    "texto": "Als Jonas erfahren hat, dass er für drei Wochen nach Lyon fahren würde, war er zunächst nervös. Obwohl er schon seit drei Jahren Französisch lernte, hatte er Angst, sich im Alltag nicht verständigen zu können. Nachdem er in der Gastfamilie angekommen war, verschwand diese Angst jedoch schnell.\n\nDie Gastfamilie hat Jonas von Anfang an herzlich aufgenommen. Trotzdem fühlte er sich in den ersten Tagen etwas fremd, weil vieles anders war als zu Hause. Er musste sich an das Schulsystem, die Essenszeiten und sogar an die Höflichkeitsformen gewöhnen. Nach einer Woche hatte er sich jedoch gut eingelebt und genoss die neuen Eindrücke.\n\nBesonders beeindruckt hat Jonas die Herzlichkeit seiner Gastfamilie und die kulturellen Unterschiede, die er im Alltag entdeckte. Als der Austausch zu Ende ging, war er traurig, seine neuen Freunde verlassen zu müssen. Trotzdem war er sich sicher, dass diese Erfahrung sein Leben nachhaltig verändert hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte vor der Reise keine Angst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas lernte schon seit mehreren Jahren Französisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gastfamilie hat Jonas kalt empfangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas musste sich an neue Essenszeiten gewöhnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas war am Ende des Austauschs froh, keine Freunde gefunden zu haben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-foodtruck-festival",
+    "nivel": "B1",
+    "titulo": "Das Foodtruck-Festival",
+    "descripcion": "Eine Stadt veranstaltet ein buntes Festival mit Foodtrucks aus aller Welt.",
+    "texto": "Jedes Jahr im Sommer findet in der Innenstadt ein Foodtruck-Festival statt, das zahlreiche Besucher anzieht. Obwohl das Wetter in diesem Jahr unsicher war, kamen Tausende Menschen, um die unterschiedlichen Gerichte zu probieren. Von thailändischen Currys bis zu klassischen deutschen Bratwürsten war für jeden Geschmack etwas dabei.\n\nNachdem die ersten Foodtrucks ihre Stände aufgebaut hatten, bildeten sich bereits lange Schlangen. Viele Besucher lobten die Vielfalt der Angebote, trotzdem beschwerten sich einige über die hohen Preise. Die Organisatoren erklärten, dass die Standmieten in diesem Jahr gestiegen seien, was sich auf die Preise ausgewirkt habe.\n\nAm Abend sorgte eine Live-Band für gute Stimmung, während die Besucher zwischen den Trucks umherschlenderten. Trotz kleiner Kritikpunkte war das Festival insgesamt ein großer Erfolg. Die Stadt plant bereits, die Veranstaltung im nächsten Jahr zu wiederholen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Festival findet jedes Jahr im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab nur deutsche Gerichte zu probieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Besucher beschwerten sich über die Preise.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend spielte eine Live-Band.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Stadt plant keine Wiederholung des Festivals.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-im-start-up",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag im Start-up",
+    "descripcion": "Eine junge Frau beginnt ihren ersten Job in einem kleinen Technologieunternehmen.",
+    "texto": "Nachdem Sarah ihr Studium abgeschlossen hatte, bekam sie eine Stelle bei einem kleinen Start-up, das Apps für Fitnessstudios entwickelt. Am ersten Tag war sie sehr nervös, obwohl sie sich gut auf das Vorstellungsgespräch vorbereitet hatte. Die ungewohnte Arbeitsatmosphäre machte sie zunächst unsicher.\n\nIm Büro gab es keine festen Schreibtische, sondern offene Sitzecken, an denen jeder arbeiten konnte, wo er wollte. Trotzdem fand Sarah schnell einen Platz, an dem sie sich wohlfühlte. Ihre Kollegen erklärten ihr geduldig die wichtigsten Arbeitsabläufe, nachdem sie gemerkt hatten, dass sie noch unsicher war.\n\nAm Ende des Tages war Sarah erschöpft, aber zufrieden. Obwohl vieles neu und ungewohnt war, spürte sie, dass sie sich in diesem Team gut einleben würde. Sie freute sich schon auf die kommenden Wochen in ihrem neuen Job.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah hat eine Stelle in einem großen Konzern bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag war Sarah sehr nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Büro gibt es feste Schreibtische für jeden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen haben Sarah die Arbeitsabläufe erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah war am Ende des Tages unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "entgrenzung-von-arbeit-und-freizeit",
+    "nivel": "B2",
+    "titulo": "Entgrenzung von Arbeit und Freizeit",
+    "descripcion": "Wie digitale Technologien die Trennung zwischen Beruf und Privatleben zunehmend auflösen.",
+    "texto": "In den letzten Jahren ist zu beobachten, dass die Grenzen zwischen Arbeit und Freizeit immer stärker verschwimmen. Durch Smartphones und mobile Endgeräte werden Arbeitnehmerinnen und Arbeitnehmer häufig auch außerhalb der regulären Arbeitszeiten erreicht. Viele Beschäftigte berichten, dass E-Mails und Nachrichten selbst am Abend oder am Wochenende beantwortet werden, obwohl dies arbeitsrechtlich nicht vorgeschrieben ist.\n\nBefürworter flexibler Arbeitsmodelle argumentieren, dass diese Entgrenzung auch Vorteile biete, da Arbeitszeit individueller gestaltet werden könne. Wäre es möglich, Arbeit und Privatleben flexibler zu organisieren, ließe sich beispielsweise leichter auf familiäre Verpflichtungen reagieren. Kritiker hingegen warnen, dass die ständige Erreichbarkeit langfristig zu Erschöpfung und psychischer Belastung führen könnte.\n\nArbeitspsychologen fordern daher klare Regelungen, durch die Erholungszeiten besser geschützt würden. Sollten Unternehmen verbindliche Ruhezeiten einführen, könnte dies laut mehreren Studien das Wohlbefinden der Beschäftigten deutlich verbessern. Ob eine solche Regulierung tatsächlich flächendeckend umgesetzt wird, bleibt angesichts unterschiedlicher wirtschaftlicher Interessen jedoch fraglich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Grenzen zwischen Arbeit und Freizeit verschwimmen laut Text zunehmend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Arbeitnehmer müssen gesetzlich auch nach Feierabend erreichbar sein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen in flexiblen Arbeitsmodellen auch Vorteile.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten mögliche psychische Belastungen durch ständige Erreichbarkeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird die Einführung verbindlicher Ruhezeiten abgelehnt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "filterblasen-in-sozialen-netzwerken",
+    "nivel": "B2",
+    "titulo": "Filterblasen in sozialen Netzwerken",
+    "descripcion": "Wie Algorithmen die Wahrnehmung der Nutzer in sozialen Medien beeinflussen können.",
+    "texto": "Soziale Netzwerke nutzen Algorithmen, um Inhalte so auszuwählen, dass sie möglichst gut zu den Interessen der jeweiligen Nutzerinnen und Nutzer passen. Dadurch entstehen sogenannte Filterblasen, in denen überwiegend Meinungen und Informationen gezeigt werden, die den eigenen Ansichten entsprechen. Kritiker befürchten, dass diese Mechanismen die gesellschaftliche Debatte zunehmend polarisieren könnten.\n\nWürden Nutzerinnen und Nutzer ausschließlich mit bestätigenden Inhalten konfrontiert, bestünde die Gefahr, dass abweichende Perspektiven kaum noch wahrgenommen würden. Studien deuten darauf hin, dass dies das Verständnis für andere Standpunkte erschweren und Vorurteile verstärken kann. Gleichzeitig verteidigen manche Plattformbetreiber ihre Algorithmen damit, dass sie lediglich die Relevanz der Inhalte für die Nutzer erhöhen sollten.\n\nUm der Entstehung von Filterblasen entgegenzuwirken, wird von Medienexperten eine stärkere Förderung der Medienkompetenz gefordert. Sollten Nutzerinnen und Nutzer besser über die Funktionsweise solcher Algorithmen informiert werden, könnten sie bewusster mit den ihnen angezeigten Inhalten umgehen. Letztlich bleibt die Frage offen, inwieweit Plattformen selbst zu mehr Transparenz verpflichtet werden sollten.",
+    "preguntas": [
+      {
+        "enunciado": "Filterblasen entstehen laut Text durch algorithmische Inhaltsauswahl.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Filterblasen zeigen vor allem Inhalte, die den eigenen Ansichten widersprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen in Filterblasen eine mögliche Ursache für gesellschaftliche Polarisierung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Plattformbetreiber lehnen den Einsatz solcher Algorithmen vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienexperten fordern mehr Medienkompetenz, um Filterblasen entgegenzuwirken.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "streitpunkt-rueckkehrpflicht-ins-buero",
+    "nivel": "B2",
+    "titulo": "Streitpunkt Rückkehrpflicht ins Büro",
+    "descripcion": "Immer mehr Unternehmen verlangen von Beschäftigten die Rückkehr ins Büro – eine kontroverse Entwicklung.",
+    "texto": "Nachdem viele Unternehmen während der Pandemie auf Homeoffice umgestellt hatten, verlangen inzwischen zahlreiche Arbeitgeber wieder eine verstärkte Präsenz im Büro. Diese Entwicklung sorgt bei vielen Beschäftigten für Unmut, da sie sich an die Vorteile des mobilen Arbeitens gewöhnt hatten. Besonders Berufspendler kritisieren, dass durch die Rückkehrpflicht wertvolle Zeit im Alltag verloren gehe.\n\nUnternehmen begründen ihre Entscheidung häufig damit, dass die persönliche Zusammenarbeit im Büro gefördert und die Unternehmenskultur gestärkt werden solle. Würde ausschließlich im Homeoffice gearbeitet, so argumentieren einige Führungskräfte, gingen informelle Gespräche und spontaner Wissensaustausch verloren. Mitarbeitervertretungen hingegen weisen darauf hin, dass zahlreiche Studien keinen eindeutigen Zusammenhang zwischen Büropräsenz und Produktivität belegen konnten.\n\nAngesichts dieser gegensätzlichen Positionen setzen manche Unternehmen inzwischen auf hybride Modelle, bei denen Mitarbeitende an bestimmten Tagen ins Büro kommen müssen. Ob sich eine solche Kompromisslösung langfristig durchsetzen wird, hängt maßgeblich davon ab, wie flexibel Unternehmen auf die unterschiedlichen Bedürfnisse ihrer Belegschaft reagieren. Klar ist jedoch, dass die Debatte um die Zukunft der Arbeit noch lange nicht beendet ist.",
+    "preguntas": [
+      {
+        "enunciado": "Während der Pandemie haben viele Unternehmen auf Homeoffice umgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Beschäftigten begrüßen die Rückkehrpflicht ins Büro ohne Einschränkungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Unternehmen argumentieren unter anderem mit der Stärkung der Unternehmenskultur.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien belegen laut Text eindeutig einen Zusammenhang zwischen Büropräsenz und Produktivität.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen setzen auf hybride Arbeitsmodelle.",
+        "respuesta": true
+      }
+    ]
   }
 ]
