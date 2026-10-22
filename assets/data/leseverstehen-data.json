@@ -66242,5 +66242,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "lisas-verlorener-hausschluessel",
+    "nivel": "A1",
+    "titulo": "Lisas verlorener Hausschlüssel",
+    "descripcion": "Lisa sucht ihren Hausschlüssel und fragt ihre Familie um Hilfe.",
+    "texto": "Lisa kommt nach der Schule nach Hause. Sie sucht ihren Schlüssel in der Tasche. Der Schlüssel ist nicht da. Lisa ist traurig und ruft ihre Mutter an.\n\nIhre Mutter sagt: „Keine Sorge, ich bin bald da.\" Lisa wartet vor der Tür. Ihr Bruder Tom kommt auch nach Hause. Er fragt: „Was ist los?\" Lisa sagt: „Ich finde meinen Schlüssel nicht.\"\n\nTom sucht in Lisas Rucksack. Dort findet er den Schlüssel. Er liegt unter einem Buch. Lisa ist sehr froh. Sie sagt: „Danke, Tom! Du bist super.\" Die beiden gehen zusammen ins Haus.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa findet ihren Schlüssel sofort in der Tasche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa ruft ihre Mutter an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom kommt auch nach Hause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schlüssel liegt unter einem Buch im Rucksack.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa ist böse auf Tom.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-sonntag-im-zoo-mit-mia-und-paul",
+    "nivel": "A1",
+    "titulo": "Ein Sonntag im Zoo mit Mia und Paul",
+    "descripcion": "Die Familie Weber besucht den Zoo und sieht viele Tiere.",
+    "texto": "Am Sonntag fährt die Familie Weber in den Zoo. Die Kinder Mia und Paul sind sehr aufgeregt. Sie sehen Elefanten, Löwen und Affen. Die Elefanten sind sehr groß und grau.\n\nMia mag die Affen am meisten. Sie springen von Baum zu Baum. Paul findet die Löwen toll. Die Löwen schlafen in der Sonne. Die Familie isst Eis und trinkt Wasser.\n\nAm Nachmittag sehen sie auch die Pinguine. Die Pinguine schwimmen schnell im Wasser. Mia sagt: „Der Zoo ist super!\" Paul sagt: „Ich komme morgen wieder.\" Die Eltern lachen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Weber fährt am Sonntag in den Zoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia mag die Elefanten am meisten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Löwen schlafen in der Sonne.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie trinkt keinen Kaffee im Zoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Pinguine schwimmen langsam.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingszimmer",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingszimmer",
+    "descripcion": "Sophie beschreibt ihr Zimmer und ihre Lieblingssachen.",
+    "texto": "Sophie hat ein kleines Zimmer. Das Zimmer ist blau und weiß. Ein Bett, ein Schreibtisch und ein Regal stehen im Zimmer. Auf dem Regal liegen viele Bücher.\n\nSophie malt gern Bilder. Ihre Bilder hängen an der Wand. Auf dem Schreibtisch steht eine kleine Lampe. Die Lampe ist gelb und macht das Zimmer gemütlich.\n\nAbends liest Sophie gern in ihrem Bett. Ihre Katze Mimi schläft oft neben ihr. Sophie sagt: „Mein Zimmer ist mein Lieblingsort im Haus.\"",
+    "preguntas": [
+      {
+        "enunciado": "Sophies Zimmer ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Zimmer steht ein Schreibtisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie malt gern Bilder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lampe auf dem Schreibtisch ist grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi ist Sophies Katze.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "janas-umzug-in-eine-neue-wohnung",
+    "nivel": "A2",
+    "titulo": "Janas Umzug in eine neue Wohnung",
+    "descripcion": "Jana erzählt, wie ihre Familie in eine neue Wohnung umgezogen ist.",
+    "texto": "Letzten Monat ist Janas Familie in eine neue Wohnung umgezogen. Sie haben viele Kisten gepackt, weil sie so lange in der alten Wohnung gewohnt hatten. Jana war traurig, weil sie ihre Freunde in der alten Straße zurücklassen musste.\n\nAm Umzugstag haben alle geholfen: Janas Eltern, ihr Onkel und sogar die neuen Nachbarn. Die neue Wohnung ist größer und hat einen schönen Balkon. Als Jana zum ersten Mal auf den Balkon gegangen ist, hat sie gesagt, dass sie den Ausblick auf den Park sehr mag.\n\nNach dem Umzug hat Jana einen Brief an ihre alte Freundin Clara geschrieben. Sie hat erzählt, dass die neue Schule auch nicht weit entfernt ist. Wenn das Wetter schön ist, möchte Jana Clara zu Besuch einladen.",
+    "preguntas": [
+      {
+        "enunciado": "Janas Familie ist vor einer Woche umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana war traurig wegen ihrer Freunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat beim Umzug geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die neue Wohnung hat einen Balkon.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana hat Clara einen Brief geschrieben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-zeltwochenende-am-see-mit-markus",
+    "nivel": "A2",
+    "titulo": "Ein Zeltwochenende am See",
+    "descripcion": "Markus erzählt von einem entspannten Wochenende mit Freunden am See.",
+    "texto": "Am Freitagabend ist Markus mit drei Freunden zu einem See gefahren, weil sie dort ein Zelt aufstellen wollten. Sie sind spät angekommen und haben das Zelt im Dunkeln aufgebaut. Das war nicht einfach, aber am Ende hat alles gut funktioniert.\n\nAm Samstagmorgen sind sie früh aufgewacht, weil die Vögel sehr laut gesungen haben. Sie haben zusammen gefrühstückt und sind dann im See schwimmen gegangen. Das Wasser war kalt, aber die Sonne hat schön geschienen. Nachmittags haben sie ein Lagerfeuer gemacht und Würstchen gegrillt.\n\nAm Sonntag mussten sie leider wieder nach Hause fahren, weil die Freunde am Montag arbeiten mussten. Markus hat gesagt, dass er froh ist, dass sie trotz des Regens am Samstagabend so eine schöne Zeit hatten. Er hofft, dass sie im Sommer wiederkommen können.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist allein zum See gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben das Zelt im Dunkeln aufgebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Samstagmorgen haben die Vögel sie geweckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind am Sonntag noch einen Tag länger geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat am Samstagabend geregnet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "beim-arzt-wegen-kopfschmerzen",
+    "nivel": "A2",
+    "titulo": "Beim Arzt wegen Kopfschmerzen",
+    "descripcion": "Herr Klein geht zum Arzt, weil er seit Tagen Kopfschmerzen hat.",
+    "texto": "Herr Klein hat seit drei Tagen starke Kopfschmerzen. Weil die Schmerzen nicht besser wurden, hat er einen Termin bei seiner Ärztin gemacht. Im Wartezimmer hat er eine Zeitschrift gelesen, bis die Arzthelferin seinen Namen gerufen hat.\n\nDie Ärztin hat gefragt, ob er genug Wasser trinkt und ob er gut schläft. Herr Klein hat erzählt, dass er in letzter Zeit sehr viel am Computer gearbeitet hat. Die Ärztin hat gesagt, dass das wahrscheinlich der Grund für die Kopfschmerzen ist.\n\nSie hat ihm empfohlen, öfter Pausen zu machen und mehr Wasser zu trinken. Herr Klein hat versprochen, dass er ab morgen jede Stunde eine kurze Pause macht. Nach einer Woche hat er der Ärztin geschrieben, dass es ihm schon viel besser geht.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Klein hat seit drei Tagen Kopfschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er geht ohne Termin direkt zur Ärztin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin fragt nach seinem Schlaf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Grund für die Schmerzen ist zu viel Sport.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einer Woche geht es Herrn Klein besser.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-der-klasse-9b-nach-hamburg",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt der Klasse 9b nach Hamburg",
+    "descripcion": "Eine Schulklasse fährt auf Klassenfahrt nach Hamburg und erlebt dort viel Neues.",
+    "texto": "Obwohl das Wetter in Hamburg oft wechselhaft ist, freute sich die Klasse 9b schon seit Wochen auf ihre Klassenfahrt. Nachdem sie fünf Stunden mit dem Zug gefahren waren, kamen sie müde, aber aufgeregt in der Jugendherberge an. Die Lehrerin hatte ein abwechslungsreiches Programm vorbereitet, das von einer Hafenrundfahrt bis zu einem Besuch im Museum reichte.\n\nAm zweiten Tag besichtigten die Schüler die Speicherstadt, obwohl es leicht regnete. Trotzdem waren alle begeistert von den alten Lagerhäusern und den schmalen Kanälen. Ein Schüler namens Tim meinte, dass er sich die Stadt viel kleiner vorgestellt hatte. Abends gingen sie gemeinsam in ein Restaurant, in dem sie typisch norddeutsche Spezialitäten probierten.\n\nNachdem die Klassenfahrt zu Ende war, schrieben viele Schüler in ihr Tagebuch, wie sehr ihnen die Fahrt gefallen hatte. Einige hatten sogar neue Freundschaften geschlossen, weil sie die ganze Zeit zusammen verbracht hatten. Die Lehrerin war zufrieden, dass trotz des wechselhaften Wetters alle eine gute Erinnerung mit nach Hause nahmen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b fuhr mit dem Bus nach Hamburg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin hatte ein abwechslungsreiches Programm vorbereitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler besichtigten die Speicherstadt bei schönstem Sonnenschein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim fand die Stadt größer als erwartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Einige Schüler schlossen während der Fahrt neue Freundschaften.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "neu-in-der-firma",
+    "nivel": "B1",
+    "titulo": "Neu in der Firma",
+    "descripcion": "Fatima beginnt eine neue Stelle und muss sich an die Arbeitsabläufe gewöhnen.",
+    "texto": "Fatima hat vor zwei Wochen eine neue Stelle in einer mittelgroßen Firma angefangen. Obwohl sie schon viele Jahre Berufserfahrung hat, fühlte sie sich am ersten Tag nervös, weil alles noch fremd war. Ihre Kollegin Petra zeigte ihr die wichtigsten Programme und erklärte, wie die Abteilung organisiert ist.\n\nIn den ersten Tagen fiel es Fatima schwer, sich alle Namen zu merken, obwohl sie sich wirklich Mühe gab. Nachdem sie an einem Teammeeting teilgenommen hatte, verstand sie besser, welche Aufgaben die einzelnen Kollegen übernehmen. Trotzdem gab es immer wieder Situationen, in denen sie nicht wusste, an wen sie sich wenden sollte.\n\nNach einem Monat fühlte sich Fatima schon viel sicherer. Sie hatte gelernt, dass es völlig normal ist, am Anfang viele Fragen zu stellen. Ihre Chefin lobte sie dafür, dass sie sich so schnell eingearbeitet hatte, obwohl der Einstieg nicht immer leicht gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Fatima arbeitet seit zwei Jahren in der Firma.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Petra erklärt Fatima die wichtigsten Programme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fatima kann sich sofort alle Namen merken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einem Teammeeting versteht Fatima die Aufgabenverteilung besser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Chefin ist unzufrieden mit Fatimas Einarbeitung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-sommerstadtfest-in-lindenau-am-markt",
+    "nivel": "B1",
+    "titulo": "Das Sommerstadtfest in Lindenau",
+    "descripcion": "Eine Kleinstadt feiert ihr jährliches Stadtfest mit Musik, Essen und alten Freundschaften.",
+    "texto": "Jedes Jahr im August verwandelt sich der Marktplatz der kleinen Stadt Lindenau in ein buntes Fest. Nachdem die Organisatoren monatelang geplant hatten, konnte das Stadtfest endlich wieder stattfinden, obwohl es im letzten Jahr wegen schlechtem Wetter fast abgesagt worden war. Überall standen Stände mit regionalem Essen, und auf einer kleinen Bühne spielten lokale Bands.\n\nViele Bewohner nutzten das Fest, um alte Freunde zu treffen, die sie schon lange nicht mehr gesehen hatten. Eine Frau namens Ursula erzählte, dass sie fast jeden kannte, der am Stand ihrer Nachbarin vorbeikam. Obwohl die Stadt eigentlich recht klein ist, zog das Fest auch viele Besucher aus den umliegenden Dörfern an.\n\nAm Abend, nachdem die Sonne untergegangen war, gab es ein kleines Feuerwerk, das die Kinder besonders begeisterte. Die Organisatoren waren erleichtert, dass trotz der Unsicherheit im Vorfeld alles so gut geklappt hatte. Viele sagten, dass sie sich schon auf das Fest im nächsten Jahr freuen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest findet jedes Jahr im Dezember statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im letzten Jahr wäre das Fest fast wegen des Wetters abgesagt worden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf der Bühne spielten internationale Bands.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fest zog auch Besucher aus umliegenden Dörfern an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend gab es ein kleines Feuerwerk.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-des-dauerhaften-homeoffice",
+    "nivel": "B2",
+    "titulo": "Die Zukunft des dauerhaften Homeoffice",
+    "descripcion": "Eine Analyse darüber, wie sich die Arbeitswelt durch dauerhaftes Homeoffice verändert hat.",
+    "texto": "Seit einigen Jahren hat sich das Homeoffice von einer Ausnahmeregelung zu einem festen Bestandteil der Arbeitswelt entwickelt. Viele Unternehmen, die ihren Angestellten früher kaum flexible Arbeitsmodelle anboten, haben ihre Strukturen grundlegend verändert, um dem gestiegenen Bedürfnis nach Flexibilität gerecht zu werden. Dabei stellt sich jedoch zunehmend die Frage, welche langfristigen Folgen diese Entwicklung für Unternehmenskultur und Zusammenarbeit hat.\n\nBefürworter des Homeoffice betonen, dass dadurch Pendelzeiten entfallen und sich Beruf und Privatleben besser vereinbaren lassen. Kritiker hingegen geben zu bedenken, dass der informelle Austausch zwischen Kollegen, der häufig spontan in der Kaffeeküche entsteht, kaum digital ersetzt werden könne. Wenn Unternehmen nicht gezielt in Maßnahmen zur Teambindung investierten, würde die Identifikation der Mitarbeitenden mit dem Unternehmen langfristig leiden, so eine viel zitierte Studie.\n\nManche Firmen setzen deshalb auf hybride Modelle, bei denen Mitarbeitende an bestimmten Tagen ins Büro kommen müssen, während sie an anderen Tagen frei entscheiden können. Ob sich ein solches Modell als dauerhafte Lösung etablieren wird, bleibt offen, da sowohl die Bedürfnisse der Angestellten als auch die wirtschaftlichen Interessen der Unternehmen berücksichtigt werden müssen. Es zeichnet sich jedoch ab, dass eine vollständige Rückkehr zur reinen Büropräsenz in den meisten Branchen kaum mehr durchsetzbar wäre.",
+    "preguntas": [
+      {
+        "enunciado": "Homeoffice war schon immer die gängige Arbeitsform in den meisten Unternehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter des Homeoffice heben den Wegfall von Pendelzeiten hervor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker meinen, der informelle Austausch lasse sich leicht digital ersetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Firmen setzen auf hybride Arbeitsmodelle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text ist eine vollständige Rückkehr zur reinen Büropräsenz in den meisten Branchen wahrscheinlich.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "steigende-mietpreise-und-wohnraummangel",
+    "nivel": "B2",
+    "titulo": "Steigende Mietpreise und Wohnraummangel",
+    "descripcion": "Warum bezahlbarer Wohnraum in vielen deutschen Großstädten immer knapper wird.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich der Mangel an bezahlbarem Wohnraum in den letzten Jahren erheblich verschärft. Während die Nachfrage nach Wohnungen stetig steigt, weil immer mehr Menschen in die Städte ziehen, hält das Angebot an Neubauten mit dieser Entwicklung längst nicht Schritt. Die Folge sind stark steigende Mietpreise, die insbesondere Menschen mit geringerem Einkommen zunehmend aus den Innenstädten verdrängen.\n\nExperten führen die Ursachen auf mehrere Faktoren zurück: hohe Baukosten, komplizierte Genehmigungsverfahren und ein Mangel an verfügbaren Grundstücken erschweren es, schnell neuen Wohnraum zu schaffen. Wäre der soziale Wohnungsbau in den vergangenen Jahrzehnten stärker gefördert worden, hätte sich die aktuelle Krise nach Ansicht vieler Fachleute wahrscheinlich abmildern lassen. Stattdessen wurden zahlreiche Sozialwohnungen privatisiert, wodurch dem Markt dringend benötigter Wohnraum entzogen wurde.\n\nAls mögliche Lösungsansätze werden unter anderem eine Beschleunigung von Baugenehmigungen, strengere Mietpreisbremsen und eine verstärkte Förderung des sozialen Wohnungsbaus diskutiert. Kritiker solcher Maßnahmen warnen jedoch davor, dass zu strenge Regulierungen private Investoren abschrecken könnten, was die Wohnungsknappheit paradoxerweise noch verschärfen würde. Eine nachhaltige Lösung des Problems erfordert daher ein sorgfältig abgestimmtes Zusammenspiel von staatlicher Förderung und privater Investitionsbereitschaft.",
+    "preguntas": [
+      {
+        "enunciado": "Das Angebot an Neubauten übersteigt in vielen Städten die Nachfrage.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Steigende Mietpreise treffen besonders Menschen mit geringerem Einkommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Komplizierte Genehmigungsverfahren werden als eine Ursache des Problems genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text wurden in der Vergangenheit zahlreiche Sozialwohnungen privatisiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass strengere Regulierungen keine negativen Folgen haben könnten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "bildungsreform-und-digitale-schulen",
+    "nivel": "B2",
+    "titulo": "Bildungsreform und digitale Schulen",
+    "descripcion": "Wie die Digitalisierung das deutsche Schulsystem herausfordert und verändert.",
+    "texto": "Die Digitalisierung des Schulsystems gilt seit Jahren als eines der zentralen Themen bildungspolitischer Debatten in Deutschland. Obwohl bereits erhebliche finanzielle Mittel in die technische Ausstattung von Schulen investiert wurden, klagen viele Lehrkräfte weiterhin über unzureichende Infrastruktur und fehlende Fortbildungsmöglichkeiten. Insbesondere in ländlichen Regionen fehlt es häufig an einer stabilen Internetverbindung, wodurch der Einsatz digitaler Lernmittel im Unterricht erheblich erschwert wird.\n\nBefürworter der Digitalisierung argumentieren, dass digitale Werkzeuge individuelleres Lernen ermöglichten und Schülerinnen und Schüler besser auf eine zunehmend digitalisierte Arbeitswelt vorbereiteten. Würden Schulen konsequent auf digitale Lernplattformen setzen, ließe sich nach Ansicht einiger Bildungsforscher auch besser auf unterschiedliche Lerntempi eingehen. Andere Stimmen warnen jedoch davor, dass eine übermäßige Bildschirmnutzung die Konzentrationsfähigkeit von Kindern negativ beeinflussen könnte.\n\nAngesichts dieser gegensätzlichen Positionen fordern viele Bildungsexperten eine ausgewogene Strategie, bei der digitale Medien sinnvoll in den Unterricht integriert werden, ohne klassische Lehrmethoden vollständig zu verdrängen. Entscheidend sei dabei vor allem, dass Lehrkräfte ausreichend geschult würden, damit digitale Werkzeuge nicht nur angeschafft, sondern auch wirkungsvoll eingesetzt werden können. Ob die geplanten Reformen diesem Anspruch gerecht werden, wird sich erst in den kommenden Jahren zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Schulen in Deutschland verfügen bereits über eine optimale digitale Infrastruktur.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In ländlichen Regionen fehlt es laut Text häufig an stabilem Internet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter der Digitalisierung sehen Vorteile für individuelleres Lernen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird keine Kritik an übermäßiger Bildschirmnutzung erwähnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern eine ausreichende Schulung der Lehrkräfte.",
+        "respuesta": true
+      }
+    ]
   }
 ]
