@@ -65894,5 +65894,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-teddybaer",
+    "nivel": "A1",
+    "titulo": "Mein Teddybär",
+    "descripcion": "Lukas erzählt von seinem Teddybären, der ihn schon lange begleitet.",
+    "texto": "Lukas hat einen Teddybären. Der Teddybär heißt Bruno. Lukas bekam ihn zu seinem dritten Geburtstag. Bruno ist braun und weich.\n\nJeden Abend schläft Lukas mit Bruno. Der Teddybär liegt immer neben dem Kopfkissen. Manchmal nimmt Lukas Bruno auch mit ins Auto.\n\nEinmal hat Lukas den Teddybären im Park verloren. Die ganze Familie hat gesucht. Am Ende fand der Vater Bruno unter einer Bank. Lukas war sehr froh.",
+    "preguntas": [
+      {
+        "enunciado": "Der Teddybär heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas bekam den Teddybären zum fünften Geburtstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist braun und weich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas nimmt Bruno nie mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater hat den Teddybären im Park gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-planetarium",
+    "nivel": "A1",
+    "titulo": "Im Planetarium",
+    "descripcion": "Die Klasse besucht ein Planetarium und lernt etwas über Sterne.",
+    "texto": "Die Klasse 4b besucht heute ein Planetarium. Im Planetarium ist es dunkel. An der Decke sieht man viele Sterne. Die Kinder setzen sich auf bequeme Stühle.\n\nEin Mann erklärt die Planeten. Er zeigt den Mond und die Sonne. Die Kinder sehen auch den Mars. Alle hören gut zu.\n\nNach der Show stellen die Kinder viele Fragen. Lena fragt: „Wie viele Sterne gibt es?“ Der Mann lacht und sagt: „Sehr, sehr viele!“ Die Klasse findet den Ausflug toll.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 4b besucht ein Planetarium.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Planetarium ist es sehr hell.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder sehen den Mars.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand stellt Fragen nach der Show.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse findet den Ausflug toll.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-zahnarztbesuch-von-tom",
+    "nivel": "A1",
+    "titulo": "Der Zahnarztbesuch von Tom",
+    "descripcion": "Tom hat ein bisschen Angst, aber der Zahnarztbesuch verläuft gut.",
+    "texto": "Tom hat morgen einen Termin beim Zahnarzt. Er hat ein bisschen Angst. Seine Mutter sagt: „Das ist nicht schlimm.“\n\nIm Wartezimmer liest Tom ein Comic-Heft. Dann ruft die Zahnärztin seinen Namen. Tom setzt sich auf den großen Stuhl. Die Zahnärztin schaut sich seine Zähne an.\n\n„Deine Zähne sind gesund“, sagt die Zahnärztin. Tom lächelt. Er bekommt eine kleine Belohnung. Danach geht er glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Tom hat einen Termin beim Zahnarzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom hat gar keine Angst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom liest im Wartezimmer ein Comic-Heft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahnärztin sagt, die Zähne sind krank.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom bekommt eine kleine Belohnung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-aquapark",
+    "nivel": "A2",
+    "titulo": "Ein Tag im Aquapark",
+    "descripcion": "Jana verbringt mit ihren Freunden einen aufregenden Tag im Aquapark.",
+    "texto": "Am Samstag ist Jana mit ihren Freunden in den Aquapark gefahren. Sie hat sich schon seit Wochen darauf gefreut, weil es dort viele Wasserrutschen gibt. Als sie ankamen, war der Park schon ziemlich voll.\n\nZuerst sind sie die große Rutsche hinuntergefahren, obwohl Jana zuerst etwas Angst hatte. Danach haben sie im Wellenbad gespielt und sind um die Mittagszeit essen gegangen. Weil die Sonne so stark schien, haben sie viel Sonnencreme benutzt.\n\nAm Abend waren alle müde, aber glücklich. Jana hat ihrer Mutter erzählt, dass es der schönste Ausflug des Sommers war. Sie will bald wieder in den Aquapark fahren.",
+    "preguntas": [
+      {
+        "enunciado": "Jana ist am Samstag in den Aquapark gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Park war an diesem Tag leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana hatte vor der Rutsche etwas Angst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde haben kein Mittagessen gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana fand den Ausflug sehr schön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-von-tante-erika",
+    "nivel": "A2",
+    "titulo": "Ein Brief von Tante Erika",
+    "descripcion": "Tante Erika schreibt ihrer Nichte einen Brief über ihr neues Leben auf dem Land.",
+    "texto": "Liebe Nina, ich wollte dir schreiben, weil wir uns schon so lange nicht gesehen haben. Wir sind vor drei Monaten aufs Land gezogen, weil dein Onkel dort einen neuen Job gefunden hat.\n\nDas Haus ist viel größer als unsere alte Wohnung, und wir haben sogar einen kleinen Garten. Obwohl ich die Stadt manchmal vermisse, gefällt mir die Ruhe hier sehr gut. Jeden Morgen höre ich die Vögel singen, wenn ich aufwache.\n\nIch hoffe, dass du uns bald besuchen kommst. Wenn du kommst, zeige ich dir unseren Garten und die Tiere auf dem Nachbarhof. Viele liebe Grüße, deine Tante Erika.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Erika ist vor drei Monaten aufs Land gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das neue Haus ist kleiner als die alte Wohnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Erika vermisst die Stadt manchmal.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tante Erika hat keinen Garten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Erika möchte, dass Nina sie besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-vereinsfest",
+    "nivel": "A2",
+    "titulo": "Das Vereinsfest",
+    "descripcion": "Der Sportverein feiert sein Fest, und die ganze Nachbarschaft ist eingeladen.",
+    "texto": "Am Samstag hat der Sportverein sein jährliches Fest gefeiert. Viele Nachbarn sind gekommen, weil es Musik, Essen und Spiele für Kinder gab. Herr Lang hat gegrillt, und seine Frau hat Kuchen gebacken.\n\nDie Kinder haben ein Fußballturnier gespielt, obwohl es ziemlich heiß war. Am Nachmittag hat eine Band auf der kleinen Bühne gespielt. Viele Leute haben getanzt und sich gut amüsiert.\n\nAls es dunkel wurde, haben die Organisatoren ein Feuerwerk gezeigt. Alle waren begeistert und haben sich bedankt. Das Fest war ein voller Erfolg für den Verein.",
+    "preguntas": [
+      {
+        "enunciado": "Das Vereinsfest hat an einem Samstag stattgefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand ist zum Fest gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben ein Fußballturnier gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag hat niemand Musik gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende gab es ein Feuerwerk.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schueleraustausch",
+    "nivel": "B1",
+    "titulo": "Der Schüleraustausch",
+    "descripcion": "Anna nimmt an einem Schüleraustausch nach Frankreich teil und sammelt neue Erfahrungen.",
+    "texto": "Anna hatte sich schon lange auf den Schüleraustausch gefreut. Obwohl sie vor der Abreise etwas nervös war, stieg sie voller Vorfreude in den Bus nach Lyon. Ihre Gastfamilie holte sie am Busbahnhof ab und begrüßte sie herzlich.\n\nIn den ersten Tagen fiel es Anna schwer, dem schnellen Französisch zu folgen. Trotzdem gab sie nicht auf und übte jeden Abend neue Wörter. Nachdem sie zwei Wochen bei der Familie gelebt hatte, konnte sie sich schon viel besser verständigen.\n\nAm Ende des Austauschs war Anna traurig, dass sie abreisen musste. Sie hatte enge Freundschaften geschlossen und viel über eine andere Kultur gelernt. Ihre Gastfamilie versprach, sie bald in Deutschland zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Anna fuhr für den Austausch nach Lyon.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna hatte vor der Abreise keine Aufregung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna gab das Üben der Sprache schnell auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach zwei Wochen konnte Anna sich besser verständigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gastfamilie wollte Anna nie wieder besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-ueber-distanz",
+    "nivel": "B1",
+    "titulo": "Freundschaft über Distanz",
+    "descripcion": "Zwei beste Freundinnen versuchen, ihre Freundschaft zu pflegen, nachdem eine von ihnen weggezogen ist.",
+    "texto": "Sophie und Mara waren seit der Grundschule beste Freundinnen. Nachdem Maras Familie in eine andere Stadt gezogen war, fürchteten beide, dass ihre Freundschaft darunter leiden würde. Obwohl die Entfernung groß war, wollten sie den Kontakt nicht verlieren.\n\nSie schrieben sich fast jeden Tag Nachrichten und telefonierten am Wochenende stundenlang. Trotzdem vermissten sie die gemeinsamen Nachmittage sehr. Um die Freundschaft zu stärken, planten sie, sich einmal im Monat zu besuchen.\n\nBeim ersten Besuch merkten beide, dass sich nichts verändert hatte. Sie lachten genauso viel wie früher und erzählten sich alles. Die Distanz hatte ihre Freundschaft nicht geschwächt, sondern sogar gefestigt.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie und Mara kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mara ist in eine andere Stadt gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden haben den Kontakt sofort verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben sich entschieden, sich nie zu besuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freundschaft wurde durch die Distanz gestärkt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-missgeschick-beim-kochkurs",
+    "nivel": "B1",
+    "titulo": "Ein Missgeschick beim Kochkurs",
+    "descripcion": "Bei einem Kochkurs geht nicht alles nach Plan, aber am Ende lachen alle darüber.",
+    "texto": "Markus hatte sich schon lange auf den Kochkurs gefreut, obwohl er noch nie zuvor etwas Kompliziertes gekocht hatte. Nachdem der Kursleiter die Zutaten verteilt hatte, sollten alle Teilnehmer ein dreigängiges Menü zubereiten.\n\nBeim Schneiden der Zwiebeln liefen Markus die Tränen, und beim Braten des Fisches ging fast etwas schief, weil die Pfanne zu heiß geworden war. Trotzdem gab er nicht auf und half auch seiner Nachbarin, die Schwierigkeiten mit der Soße hatte.\n\nAm Ende des Abends schmeckte das Essen überraschend gut, obwohl es ein paar kleine Pannen gegeben hatte. Alle Teilnehmer lachten über die Missgeschicke und verabredeten sich für den nächsten Kurs. Markus war stolz, dass er durchgehalten hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte vorher schon oft kompliziert gekocht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beim Schneiden der Zwiebeln musste Markus weinen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat aufgegeben, als es schwierig wurde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Essen schmeckte am Ende überraschend gut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand wollte sich für einen weiteren Kurs verabreden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-digitalisierung-der-verwaltung",
+    "nivel": "B2",
+    "titulo": "Die Digitalisierung der Verwaltung",
+    "descripcion": "Warum der digitale Wandel in deutschen Behörden nur langsam vorankommt.",
+    "texto": "Während viele Lebensbereiche längst digitalisiert sind, hinkt die öffentliche Verwaltung in Deutschland diesem Wandel vielerorts hinterher. Noch immer müssen Bürgerinnen und Bürger für viele Anliegen persönlich im Amt erscheinen, obwohl entsprechende Formulare theoretisch online ausgefüllt werden könnten. Lange Wartezeiten und komplizierte Zuständigkeiten gehören für viele Menschen weiterhin zum Alltag.\n\nAls Gründe für die schleppende Digitalisierung werden häufig veraltete IT-Systeme, fehlende einheitliche Standards zwischen Bundesländern sowie ein Mangel an qualifiziertem Personal genannt. Würden Behörden stärker miteinander vernetzt, müssten Bürger bestimmte Dokumente nicht mehrfach einreichen. Kritiker bemängeln zudem, dass viele digitale Angebote zwar entwickelt, aber kaum beworben oder genutzt werden.\n\nBefürworter einer konsequenten Verwaltungsdigitalisierung verweisen auf andere Länder, in denen ein Großteil der Behördengänge längst online erledigt werden kann. Damit Deutschland hier aufholt, müsste nach Ansicht vieler Experten deutlich mehr in Schulungen und moderne Software investiert werden. Ob die geplanten Reformen tatsächlich zu spürbaren Verbesserungen führen, wird sich erst in den kommenden Jahren zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Die öffentliche Verwaltung in Deutschland gilt als vollständig digitalisiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Bürger müssen weiterhin persönlich im Amt erscheinen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Veraltete IT-Systeme werden als ein Grund für die langsame Digitalisierung genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In anderen Ländern können viele Behördengänge bereits online erledigt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle digitalen Angebote der Behörden werden bereits intensiv genutzt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-der-kuenstlichen-intelligenz-in-bewerbungsverfahren",
+    "nivel": "B2",
+    "titulo": "Die Rolle der künstlichen Intelligenz in Bewerbungsverfahren",
+    "descripcion": "Immer mehr Unternehmen setzen KI-Systeme ein, um Bewerbungen vorzusortieren – nicht ohne Risiken.",
+    "texto": "Immer mehr Unternehmen setzen heute Software ein, die Bewerbungsunterlagen automatisch analysiert und vorsortiert, bevor ein Mensch sie überhaupt zu Gesicht bekommt. Befürworter argumentieren, dass solche Systeme Zeit sparen und große Mengen an Bewerbungen objektiver bewerten könnten als ein gestresster Personaler am Ende eines langen Arbeitstages.\n\nAllerdings wird zunehmend kritisiert, dass diese Systeme keineswegs so neutral sind, wie oft behauptet wird. Da die Algorithmen mit historischen Daten trainiert wurden, übernehmen sie häufig bestehende Vorurteile, etwa gegenüber bestimmten Namen, Lücken im Lebenslauf oder ungewöhnlichen Karrierewegen. Wäre die Software transparenter gestaltet, könnten Bewerberinnen und Bewerber zumindest nachvollziehen, nach welchen Kriterien sie bewertet wurden.\n\nArbeitsrechtler fordern deshalb strengere gesetzliche Vorgaben für den Einsatz solcher Systeme, damit Diskriminierung frühzeitig erkannt und verhindert werden kann. Gleichzeitig räumen selbst Befürworter ein, dass eine abschließende Entscheidung weiterhin von einem Menschen getroffen werden sollte. Ob künstliche Intelligenz den Bewerbungsprozess tatsächlich fairer macht oder bestehende Ungleichheiten eher verstärkt, bleibt daher umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Software soll angeblich Zeit sparen und objektiver bewerten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker halten die Systeme für völlig neutral.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Algorithmen können bestehende Vorurteile aus den Trainingsdaten übernehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Arbeitsrechtler fordern strengere gesetzliche Vorgaben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Befürworter lehnen eine menschliche Letztentscheidung ab.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-vertrauensverlust-in-traditionelle-medien",
+    "nivel": "B2",
+    "titulo": "Der Vertrauensverlust in traditionelle Medien",
+    "descripcion": "Warum immer weniger Menschen klassischen Nachrichtenmedien vertrauen und welche Folgen das hat.",
+    "texto": "Umfragen zeigen seit Jahren einen Rückgang des Vertrauens in traditionelle Nachrichtenmedien wie Zeitungen, Radio und Fernsehen. Besonders jüngere Menschen informieren sich zunehmend über soziale Netzwerke, wo Inhalte oft ungefiltert und ohne redaktionelle Prüfung verbreitet werden. Dies führt dazu, dass sich journalistische Standards und persönliche Meinungen in der Wahrnehmung vieler Nutzer zunehmend vermischen.\n\nAls Gründe für den Vertrauensverlust werden unter anderem wahrgenommene Einseitigkeit, eine zu enge Nähe mancher Medien zu politischen Akteuren sowie vereinzelte, aber folgenreiche journalistische Fehler genannt. Medienwissenschaftler weisen jedoch darauf hin, dass gerade etablierte Redaktionen strengen Kontrollmechanismen unterliegen, die bei vielen Online-Quellen völlig fehlen.\n\nUm das Vertrauen zurückzugewinnen, setzen einige Redaktionen inzwischen auf mehr Transparenz, etwa indem sie ihre Recherchemethoden offenlegen oder Leserinnen und Leser stärker einbeziehen. Ob solche Maßnahmen ausreichen, um den langfristigen Trend umzukehren, ist unter Experten umstritten. Klar scheint jedoch, dass eine informierte Gesellschaft auf verlässliche journalistische Strukturen angewiesen bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Das Vertrauen in traditionelle Medien ist laut Umfragen gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Menschen informieren sich zunehmend über soziale Netzwerke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Journalistische Fehler werden als ein Grund für den Vertrauensverlust genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Etablierte Redaktionen unterliegen laut Medienwissenschaftlern gar keinen Kontrollmechanismen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Redaktionen setzen inzwischen auf mehr Transparenz.",
+        "respuesta": true
+      }
+    ]
   }
 ]
