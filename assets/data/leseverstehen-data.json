@@ -67286,5 +67286,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "meine-lieblingszahl",
+    "nivel": "A1",
+    "titulo": "Meine Lieblingszahl",
+    "descripcion": "Paul erzählt, warum die Zahl sieben seine Lieblingszahl ist.",
+    "texto": "Ich heiße Paul. Meine Lieblingszahl ist sieben. Eine Woche hat sieben Tage. Das finde ich schön.\n\nMein Geburtstag ist am siebten Mai. Meine Fußballmannschaft trägt die Nummer sieben. Mein Bruder mag die Zahl drei. Seine Lieblingsfarbe ist auch blau.\n\nIn der Schule rechnen wir oft mit Zahlen. Ich finde Mathe nicht so schwer. Sieben ist für mich eine Glückszahl.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Lieblingszahl ist sieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Woche hat sieben Tage.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pauls Geburtstag ist im Juni.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Bruder mag die Zahl drei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul findet Mathe sehr schwer.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-pausensnack",
+    "nivel": "A1",
+    "titulo": "Mein Pausensnack",
+    "descripcion": "Mia packt jeden Morgen einen gesunden Snack für die Schulpause.",
+    "texto": "Mia geht jeden Tag in die Schule. In der Pause isst sie einen Snack. Ihre Mutter packt den Snack am Morgen.\n\nMia mag Äpfel und Karotten. Manchmal isst sie auch ein Käsebrot. Wasser trinkt sie aus einer blauen Flasche. Ihre Freundin Lea isst meistens Joghurt.\n\nNach der Pause gehen die Kinder wieder in die Klasse. Mia freut sich schon auf das Mittagessen zu Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Mia isst in der Pause einen Snack.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Vater packt den Snack.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia mag Äpfel und Karotten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Flasche ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea isst meistens Joghurt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-hausnummer",
+    "nivel": "A1",
+    "titulo": "Die richtige Hausnummer",
+    "descripcion": "Tom sucht die Wohnung seines Freundes und findet die Hausnummer nicht sofort.",
+    "texto": "Tom besucht seinen Freund Ben. Ben wohnt in der Gartenstraße. Tom sucht die Hausnummer zwölf.\n\nDie Straße ist lang. Tom sieht die Nummer zehn und die Nummer vierzehn. Die Nummer zwölf ist zwischen den beiden Häusern. Das Haus ist gelb.\n\nTom klingelt an der Tür. Ben öffnet und lacht. „Du bist pünktlich!“, sagt Ben. Die beiden Freunde gehen zusammen ins Zimmer.",
+    "preguntas": [
+      {
+        "enunciado": "Tom besucht seinen Freund Ben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben wohnt in der Blumenstraße.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Haus mit der Nummer zwölf ist gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom findet das Haus sofort.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben öffnet die Tür und lacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-strandurlaub",
+    "nivel": "A2",
+    "titulo": "Der Strandurlaub",
+    "descripcion": "Familie Berger hat ihren ersten gemeinsamen Strandurlaub verbracht.",
+    "texto": "Familie Berger ist letzten Sommer an die Nordsee gefahren. Sie haben ein kleines Hotel direkt am Strand gebucht. Die Kinder waren sehr aufgeregt, weil sie noch nie am Meer waren.\n\nAm ersten Tag haben sie eine Sandburg gebaut. Danach sind sie im kalten Wasser geschwommen, obwohl der Wind stark war. Abends haben sie frischen Fisch im Restaurant gegessen und den Sonnenuntergang beobachtet.\n\nNach einer Woche mussten sie leider wieder nach Hause fahren. Die Kinder haben gesagt, dass sie nächstes Jahr wieder an die Nordsee fahren wollen.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Berger ist an die Nordsee gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder waren schon oft am Meer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben eine Sandburg gebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wind war an diesem Tag ganz schwach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder wollen nächstes Jahr wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fotoalben",
+    "nivel": "A2",
+    "titulo": "Die alten Fotoalben",
+    "descripcion": "Am Wochenende hat Clara mit ihrer Oma alte Fotoalben angeschaut.",
+    "texto": "Am Samstagnachmittag hat Clara ihre Oma besucht. Sie haben zusammen Kaffee getrunken und dann die alten Fotoalben aus dem Schrank geholt. Clara wollte wissen, wie ihre Oma als junges Mädchen ausgesehen hat.\n\nAuf den Fotos haben sie viele Bilder aus den siebziger Jahren gefunden. Die Oma hat erzählt, dass sie damals mit dem Zug nach Italien gereist ist, weil es dort billiger war als heute. Clara hat gelacht, als sie die alten Kleider gesehen hat.\n\nAm Abend hat Clara ihrer Mutter von dem schönen Nachmittag erzählt. Sie hat versprochen, bald wieder zur Oma zu fahren und sich weitere Fotos anzuschauen.",
+    "preguntas": [
+      {
+        "enunciado": "Clara hat ihre Oma am Samstag besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fotos sind aus den neunziger Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma ist früher mit dem Zug nach Italien gereist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara fand die alten Kleider langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara will bald wieder zur Oma fahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-hausarzt",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Hausarzt",
+    "descripcion": "Herr Kowalski hat Husten und geht deshalb zu seinem Hausarzt.",
+    "texto": "Herr Kowalski hustet seit drei Tagen. Deshalb hat er einen Termin bei seinem Hausarzt gemacht. Im Wartezimmer saßen schon viele andere Patienten.\n\nDer Arzt hat ihn gründlich untersucht und seine Lunge abgehört. Er hat gesagt, dass es wahrscheinlich nur eine leichte Erkältung ist, weil das Wetter in letzter Zeit sehr wechselhaft war. Herr Kowalski musste trotzdem ein paar Tage zu Hause bleiben.\n\nDer Arzt hat ihm Tee und viel Schlaf empfohlen. Nach einer Woche ist der Husten verschwunden und Herr Kowalski konnte wieder arbeiten gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Kowalski hustet seit drei Tagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Wartezimmer war niemand außer ihm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt vermutet eine leichte Erkältung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Kowalski musste sofort ins Krankenhaus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einer Woche war der Husten weg.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-stadtrundgang",
+    "nivel": "B1",
+    "titulo": "Ein Stadtrundgang mit der Volkshochschule",
+    "descripcion": "Eine Gruppe von Deutschlernenden entdeckt bei einem geführten Rundgang die Geschichte ihrer Stadt.",
+    "texto": "Jeden Monat organisiert die Volkshochschule einen Stadtrundgang für Deutschlernende. Obwohl das Wetter oft nicht ideal ist, melden sich immer viele Teilnehmer an, weil sie die Stadt und die Sprache gleichzeitig besser kennenlernen wollen.\n\nBei dem letzten Rundgang hat der Stadtführer über die Geschichte des alten Rathauses erzählt und gezeigt, wie sich das Zentrum nach dem Krieg verändert hat. Nachdem die Gruppe durch die engen Gassen der Altstadt gelaufen war, haben alle gemeinsam in einem kleinen Café eine Pause gemacht.\n\nViele Teilnehmer haben gesagt, dass sie durch solche Rundgänge nicht nur neue Wörter lernen, sondern sich auch in der Stadt sicherer fühlen. Trotzdem wünschen sich einige längere Touren, damit noch mehr Stadtteile besucht werden können.",
+    "preguntas": [
+      {
+        "enunciado": "Die Volkshochschule organisiert monatlich einen Stadtrundgang.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des schlechten Wetters melden sich kaum Teilnehmer an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Stadtführer hat über das alte Rathaus erzählt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Rundgang ist die Gruppe sofort nach Hause gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Teilnehmer wünschen sich längere Touren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-mentorenschaft",
+    "nivel": "B1",
+    "titulo": "Eine Mentorenschaft im neuen Job",
+    "descripcion": "Jana berichtet, wie ihr ein erfahrener Kollege den Einstieg in die neue Firma erleichtert hat.",
+    "texto": "Als Jana vor drei Monaten in der neuen Firma angefangen hat, bekam sie einen Mentor zugeteilt. Ihr Mentor Herr Albrecht arbeitet schon seit zwanzig Jahren im Unternehmen und kennt fast alle Abläufe.\n\nIn den ersten Wochen hat er ihr geholfen, sich im Büro zurechtzufinden, obwohl er selbst sehr viel zu tun hatte. Nachdem sie einige schwierige Projekte gemeinsam besprochen hatten, fühlte sich Jana deutlich sicherer in ihrer neuen Rolle. Besonders hilfreich fand sie, dass er ihr ehrliches Feedback gegeben hat, anstatt nur nette Worte zu sagen.\n\nHeute trifft sich Jana immer noch einmal im Monat mit ihrem Mentor, um aktuelle Fragen zu klären. Sie sagt, dass sie ohne diese Unterstützung viel länger gebraucht hätte, um sich einzuarbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Jana hat vor drei Monaten in der Firma angefangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Albrecht arbeitet erst seit einem Jahr im Unternehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Albrecht hat Jana im Büro geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Albrecht hat Jana nur positive, unehrliche Worte gesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana trifft ihren Mentor noch heute regelmäßig.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtteilfest",
+    "nivel": "B1",
+    "titulo": "Das Stadtteilfest am Fluss",
+    "descripcion": "Nachbarn aus verschiedenen Kulturen organisieren gemeinsam ein Fest für ihren Stadtteil.",
+    "texto": "Jeden Sommer findet in unserem Stadtteil ein großes Fest am Fluss statt. Nachdem einige Nachbarn vor fünf Jahren die Idee hatten, ist das Fest inzwischen zu einer festen Tradition geworden, obwohl es am Anfang nur wenige Besucher gab.\n\nDieses Jahr haben Familien aus zehn verschiedenen Ländern eigene Gerichte mitgebracht und verkauft. Es gab türkische, syrische und italienische Spezialitäten direkt neben traditionellen deutschen Würstchen. Viele Kinder haben an Spielen teilgenommen, während die Erwachsenen sich bei Musik und gutem Essen kennengelernt haben.\n\nDie Organisatoren sagen, dass das Fest den Zusammenhalt im Stadtteil deutlich verbessert hat. Trotzdem brauchen sie jedes Jahr mehr Freiwillige, weil die Veranstaltung immer größer wird.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtteilfest findet jeden Sommer am Fluss statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fest hatte von Anfang an viele Besucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Familien aus zehn Ländern haben Gerichte angeboten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur die Kinder haben an dem Fest teilgenommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Organisatoren brauchen jedes Jahr mehr Freiwillige.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-algorithmus-im-alltag",
+    "nivel": "B2",
+    "titulo": "Der Algorithmus im Alltag",
+    "descripcion": "Ein Essay darüber, wie Empfehlungsalgorithmen unsere Entscheidungen zunehmend beeinflussen.",
+    "texto": "Kaum ein Bereich des täglichen Lebens bleibt heute von Algorithmen unberührt. Ob beim Streaming von Filmen, beim Online-Einkauf oder beim Scrollen durch soziale Netzwerke – stets wird im Hintergrund berechnet, welcher Inhalt die größte Aufmerksamkeit erzeugen könnte. Viele Nutzer sind sich dabei kaum bewusst, in welchem Ausmaß ihre Entscheidungen von unsichtbaren Systemen vorstrukturiert werden.\n\nBefürworter betonen, dass personalisierte Empfehlungen das Leben erleichtern, indem relevante Informationen schneller gefunden werden. Kritiker hingegen warnen davor, dass dadurch sogenannte Filterblasen entstehen, in denen abweichende Meinungen kaum noch sichtbar sind. Wäre es möglich, dass Nutzer selbst bestimmen könnten, nach welchen Kriterien ihnen Inhalte vorgeschlagen werden, ließe sich dieses Problem teilweise entschärfen.\n\nAngesichts der wachsenden Bedeutung algorithmischer Systeme fordern immer mehr Experten, dass deren Funktionsweise transparenter gemacht werden sollte. Nur wenn nachvollziehbar wird, welche Daten verarbeitet und welche Kriterien angewendet werden, kann eine informierte gesellschaftliche Debatte über die Grenzen dieser Technologien geführt werden.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text sind Algorithmen fast überall im Alltag präsent.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Allen Nutzern ist genau bewusst, wie Algorithmen sie beeinflussen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker warnen vor sogenannten Filterblasen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird gefordert, Algorithmen vollständig abzuschaffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern mehr Transparenz bei algorithmischen Systemen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-ernaehrungswende",
+    "nivel": "B2",
+    "titulo": "Die Ernährungswende in Deutschland",
+    "descripcion": "Eine Analyse des gesellschaftlichen Wandels hin zu pflanzlicher und nachhaltiger Ernährung.",
+    "texto": "In den letzten Jahren hat sich das Essverhalten vieler Deutscher merklich verändert. Während früher Fleisch selbstverständlich auf fast jedem Teller lag, entscheiden sich heute immer mehr Menschen bewusst für pflanzliche Alternativen. Diese Entwicklung wird von Fachleuten als Ernährungswende bezeichnet und mit dem wachsenden Umweltbewusstsein der Bevölkerung in Verbindung gebracht.\n\nSupermärkte haben auf diesen Trend reagiert, indem das Angebot an vegetarischen und veganen Produkten in den vergangenen zehn Jahren erheblich erweitert wurde. Dennoch wird in der öffentlichen Debatte kontrovers diskutiert, ob diese Produkte tatsächlich nachhaltiger sind, da ihre Herstellung oft industriell und ressourcenintensiv erfolgt. Wenn die Politik strengere Standards für die Lebensmittelproduktion einführen würde, könnten Verbraucher fundierter entscheiden, welche Produkte wirklich umweltfreundlich sind.\n\nGleichzeitig bleibt die traditionelle Landwirtschaft ein wichtiger Wirtschaftsfaktor, weshalb viele Bauern befürchten, von der neuen Entwicklung wirtschaftlich benachteiligt zu werden. Ein gelingender Wandel müsste daher sowohl ökologische als auch soziale Aspekte berücksichtigen, damit die Ernährungswende nicht zulasten einzelner Bevölkerungsgruppen geht.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Menschen entscheiden sich für pflanzliche Alternativen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Angebot an vegetarischen Produkten ist in den letzten Jahren kleiner geworden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wird kontrovers diskutiert, ob pflanzliche Produkte wirklich nachhaltig sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bauern profitieren uneingeschränkt von der Ernährungswende.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein gelingender Wandel sollte ökologische und soziale Aspekte berücksichtigen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-oeffentliche-nahverkehr-ausbau",
+    "nivel": "B2",
+    "titulo": "Der Ausbau des öffentlichen Nahverkehrs",
+    "descripcion": "Ein Kommentar zu den Chancen und Herausforderungen beim Ausbau des öffentlichen Nahverkehrs in Großstädten.",
+    "texto": "Angesichts steigender Einwohnerzahlen und zunehmender Verkehrsprobleme fordern viele Stadtplaner einen konsequenten Ausbau des öffentlichen Nahverkehrs. Nur durch ein dichteres Netz an Bussen und Bahnen, so die Argumentation, lasse sich die Zahl der Autos in den Innenstädten nachhaltig reduzieren.\n\nMehrere deutsche Großstädte haben in den letzten Jahren neue Straßenbahnlinien gebaut oder bestehende Netze erweitert. Dennoch beklagen Pendler regelmäßig überfüllte Züge und verspätete Verbindungen, besonders während der morgendlichen Hauptverkehrszeit. Würde der Ausbau konsequenter vorangetrieben, könnten solche Probleme deutlich reduziert werden, allerdings sind die dafür notwendigen Investitionen erheblich.\n\nKritiker bemängeln außerdem, dass ländliche Regionen bei der Verkehrsplanung oft vernachlässigt werden, obwohl auch dort viele Menschen auf verlässliche Verbindungen angewiesen sind. Eine gerechte Verkehrswende müsste daher sowohl städtische als auch ländliche Bedürfnisse berücksichtigen, um einen echten gesellschaftlichen Mehrwert zu schaffen.",
+    "preguntas": [
+      {
+        "enunciado": "Stadtplaner fordern einen Ausbau des öffentlichen Nahverkehrs.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pendler beschweren sich nie über überfüllte Züge.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein stärkerer Ausbau würde erhebliche Investitionen erfordern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ländliche Regionen werden laut Kritikern bei der Verkehrsplanung besonders bevorzugt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine gerechte Verkehrswende sollte städtische und ländliche Bedürfnisse berücksichtigen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
