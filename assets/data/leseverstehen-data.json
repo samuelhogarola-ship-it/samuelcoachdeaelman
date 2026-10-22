@@ -66938,5 +66938,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-kleiner-garten",
+    "nivel": "A1",
+    "titulo": "Mein kleiner Garten",
+    "descripcion": "Eine kurze Beschreibung von Lauras Garten und ihren Pflanzen.",
+    "texto": "Laura hat einen kleinen Garten hinter dem Haus. Der Garten ist nicht groß, aber sehr schön. Sie pflanzt Tomaten, Karotten und Erdbeeren. Jeden Morgen gießt sie die Pflanzen mit Wasser.\n\nIm Sommer isst Laura oft Erdbeeren aus dem Garten. Sie sind süß und frisch. Ihr Bruder Tim hilft ihr manchmal. Er mag die Arbeit im Garten nicht so gern.\n\nAm Wochenende sitzen Laura und ihre Familie im Garten. Sie trinken Tee und essen Kuchen. Der Garten ist ein schöner Ort für die Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Lauras Garten ist sehr groß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura pflanzt Tomaten und Erdbeeren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura gießt die Pflanzen jeden Morgen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim mag die Gartenarbeit sehr gern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie trinkt Tee im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einkaufen-im-supermarkt-um-die-ecke",
+    "nivel": "A1",
+    "titulo": "Einkaufen im Supermarkt um die Ecke",
+    "descripcion": "Markus kauft jeden Tag frisches Brot und Obst im kleinen Supermarkt.",
+    "texto": "Markus wohnt in der Stadt. Neben seinem Haus ist ein kleiner Supermarkt. Er geht jeden Tag dorthin. Im Supermarkt kauft er Brot, Milch und Obst.\n\nDer Verkäufer heißt Herr Keller. Er ist sehr freundlich. „Guten Morgen, Markus! Was brauchst du heute?“, fragt er. Markus kauft oft Äpfel und Bananen.\n\nAm Freitag kauft Markus auch Blumen für seine Mutter. Die Blumen sind bunt und schön. Seine Mutter freut sich immer sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Supermarkt ist weit von Markus' Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus kauft Brot, Milch und Obst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer heißt Herr Keller.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus kauft nie Obst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Freitag kauft Markus Blumen für seine Mutter.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsparty-im-garten",
+    "nivel": "A1",
+    "titulo": "Die Geburtstagsparty im Garten",
+    "descripcion": "Finn feiert seinen zehnten Geburtstag mit Freunden im Garten.",
+    "texto": "Finn wird heute zehn Jahre alt. Seine Eltern machen eine Party im Garten. Viele Freunde kommen zu Besuch. Alle bringen kleine Geschenke mit.\n\nIm Garten gibt es einen Tisch mit Kuchen und Limonade. Die Kinder spielen Fußball und lachen viel. Finns beste Freundin Mia schenkt ihm ein Buch.\n\nAm Abend ist Finn sehr müde, aber glücklich. „Das war die beste Party!“, sagt er zu seiner Mutter. Er freut sich schon auf das nächste Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Finn wird heute zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Party ist im Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia schenkt Finn ein Buch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn ist am Abend traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "besuch-bei-der-tante-in-hamburg",
+    "nivel": "A2",
+    "titulo": "Besuch bei der Tante in Hamburg",
+    "descripcion": "Jana hat ihre Tante in Hamburg besucht und viel über die Stadt gelernt.",
+    "texto": "Jana ist am Samstag nach Hamburg gefahren, weil sie ihre Tante besuchen wollte. Die Fahrt mit dem Zug hat drei Stunden gedauert. Ihre Tante Petra hat sie am Bahnhof abgeholt.\n\nAm Nachmittag sind sie zusammen in den Hafen gegangen. Jana hat die großen Schiffe fotografiert, weil sie so beeindruckend waren. Danach haben sie in einem kleinen Café Fischbrötchen gegessen.\n\nAm Abend hat Petra erzählt, dass sie früher auch in Janas Stadt gewohnt hat. Jana war sehr überrascht. Sie hat versprochen, dass sie ihre Tante bald wieder besucht.",
+    "preguntas": [
+      {
+        "enunciado": "Jana ist mit dem Auto nach Hamburg gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Petra hat Jana am Bahnhof abgeholt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana hat die Schiffe im Hafen fotografiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben am Abend nichts gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Petra hat früher in Janas Stadt gewohnt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-geburtstagsgeschenk-fuer-opa",
+    "nivel": "A2",
+    "titulo": "Ein Geburtstagsgeschenk für Opa",
+    "descripcion": "Die Kinder haben gemeinsam ein besonderes Geschenk für ihren Opa gesucht.",
+    "texto": "Opas Geburtstag war am Sonntag, und die ganze Familie hat ein Geschenk gesucht. Lukas hat vorgeschlagen, dass sie ein Fotobuch machen. Seine Schwester Emma fand die Idee sehr gut.\n\nSie haben alte Fotos von Opas Leben gesammelt, weil er früher viel gereist ist. Emma hat die Bilder sortiert, und Lukas hat Texte dazu geschrieben. Am Ende war das Buch sehr persönlich.\n\nAls Opa das Fotobuch geöffnet hat, hat er geweint, weil er so gerührt war. „Das ist das schönste Geschenk, das ich je bekommen habe“, hat er gesagt. Die Kinder haben sich sehr gefreut.",
+    "preguntas": [
+      {
+        "enunciado": "Opas Geburtstag war am Montag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas und Emma haben ein Fotobuch gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa ist früher nie gereist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma hat die Bilder sortiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa hat sich über das Geschenk gefreut.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schluessel-ist-weg",
+    "nivel": "A2",
+    "titulo": "Der Schlüssel ist weg",
+    "descripcion": "Simon hat seinen Wohnungsschlüssel verloren und musste lange danach suchen.",
+    "texto": "Simon ist gestern spät von der Arbeit nach Hause gekommen. Als er vor der Tür stand, hat er gemerkt, dass sein Schlüssel nicht in der Tasche war. Er hatte den Schlüssel verloren.\n\nZuerst hat er im Büro angerufen, weil er dachte, dass der Schlüssel dort liegen könnte. Niemand hat ihn gefunden. Dann hat Simon seinen Nachbarn gefragt, ob er einen Ersatzschlüssel hat.\n\nZum Glück hatte der Nachbar einen alten Schlüssel von früher. Simon war sehr erleichtert, dass er doch noch in die Wohnung kam. Er hat sofort einen neuen Schlüssel machen lassen.",
+    "preguntas": [
+      {
+        "enunciado": "Simon hat seinen Schlüssel im Büro gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon hat zuerst im Büro angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Nachbar hatte keinen Ersatzschlüssel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Simon konnte am Ende in die Wohnung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simon hat sofort einen neuen Schlüssel machen lassen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-erstes-jahr-im-neuen-job",
+    "nivel": "B1",
+    "titulo": "Mein erstes Jahr im neuen Job",
+    "descripcion": "Carla blickt auf ihr erstes Jahr in einer neuen Firma zurück und zieht eine positive Bilanz.",
+    "texto": "Vor einem Jahr hat Carla ihre Stelle als Grafikdesignerin in einer kleinen Agentur angetreten. Obwohl sie am Anfang sehr nervös war, hat sie sich schnell an die neuen Kollegen gewöhnt. Nachdem die ersten Wochen vorbei waren, fühlte sie sich schon viel sicherer.\n\nDie Arbeit war nicht immer leicht. Es gab Projekte mit engen Fristen, und manchmal musste Carla bis spät abends arbeiten. Trotzdem hat sie die Herausforderung gemocht, weil sie dabei viel gelernt hat. Ihre Chefin hat ihre Kreativität oft gelobt.\n\nHeute, ein Jahr später, leitet Carla sogar ein kleines Team. Obwohl sie manchmal an die schwierigen Anfangstage denkt, ist sie stolz auf ihre Entwicklung. Sie freut sich schon auf die nächsten Projekte in der Agentur.",
+    "preguntas": [
+      {
+        "enunciado": "Carla war am Anfang sehr nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hat sich nie an die Kollegen gewöhnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Arbeit war immer leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carlas Chefin hat ihre Kreativität gelobt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla leitet heute ein kleines Team.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-der-schule",
+    "nivel": "B1",
+    "titulo": "Der Wechsel der Schule",
+    "descripcion": "Tobias erzählt, wie er den Wechsel an eine neue Schule erlebt hat.",
+    "texto": "Als Tobias zwölf Jahre alt war, musste seine Familie in eine andere Stadt umziehen. Deshalb musste er die Schule wechseln. Obwohl er seine alten Freunde sehr vermisste, versuchte er, offen für die neue Situation zu sein.\n\nAm ersten Schultag war Tobias sehr aufgeregt. Nachdem die Lehrerin ihn der Klasse vorgestellt hatte, setzte er sich neben einen Jungen namens Felix. Die beiden verstanden sich sofort gut, obwohl sie sehr unterschiedliche Interessen hatten.\n\nNach ein paar Monaten hatte Tobias schon eine feste Gruppe von Freunden gefunden. Trotzdem schrieb er seinen alten Freunden weiterhin regelmäßig. Heute sagt er, dass der Schulwechsel am Ende eine gute Erfahrung war.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias ist mit seiner Familie umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias hat sich sofort mit Felix verstanden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias und Felix hatten die gleichen Interessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hat seine alten Freunde vergessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias findet den Schulwechsel heute negativ.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-buchclub-gruendung",
+    "nivel": "B1",
+    "titulo": "Die Buchclub-Gründung",
+    "descripcion": "Nach einem Umzug gründet Hanna einen Buchclub, um neue Leute kennenzulernen.",
+    "texto": "Nachdem Hanna in eine neue Stadt gezogen war, kannte sie dort noch niemanden. Sie liebte es zu lesen, aber ihr fehlten Gesprächspartner über Bücher. Deshalb beschloss sie, selbst einen Buchclub zu gründen.\n\nZuerst hing sie Zettel in der Bibliothek und im Café aus, obwohl sie nicht sicher war, ob sich jemand melden würde. Nach wenigen Tagen schrieben ihr fünf Personen, die Interesse hatten. Das erste Treffen fand in einem kleinen Café statt.\n\nMittlerweile trifft sich die Gruppe jeden Monat, und aus einigen Mitgliedern sind gute Freunde geworden. Obwohl der Anfang schwierig war, ist Hanna heute sehr stolz auf ihren Buchclub. Sie sagt, dass Lesen Menschen verbinden kann.",
+    "preguntas": [
+      {
+        "enunciado": "Hanna kannte schon viele Leute in der neuen Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hanna hat Zettel in der Bibliothek ausgehängt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat sich für den Buchclub gemeldet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gruppe trifft sich jeden Monat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Aus einigen Mitgliedern sind Freunde geworden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "resilienz-als-gesellschaftliches-schlagwort",
+    "nivel": "B2",
+    "titulo": "Resilienz als gesellschaftliches Schlagwort",
+    "descripcion": "Der Text untersucht kritisch, warum der Begriff Resilienz in der öffentlichen Debatte so populär geworden ist.",
+    "texto": "In den letzten Jahren ist der Begriff „Resilienz“ zu einem festen Bestandteil der öffentlichen Debatte geworden. Ob in der Wirtschaft, der Bildung oder der Psychologie – überall wird von der Fähigkeit gesprochen, Krisen zu bewältigen und gestärkt aus ihnen hervorzugehen. Kritiker bemängeln jedoch, dass der Begriff oft genutzt wird, um gesellschaftliche Probleme auf die individuelle Ebene zu verschieben.\n\nWürde man ausschließlich auf die persönliche Resilienz setzen, bliebe die Frage nach den strukturellen Ursachen von Stress und Überforderung unbeantwortet. Viele Expertinnen und Experten fordern deshalb, dass neben individuellen Strategien auch politische Maßnahmen ergriffen werden, etwa eine gerechtere Arbeitsverteilung oder ein besserer Zugang zu psychologischer Unterstützung. Andernfalls würde die Verantwortung einseitig auf den Einzelnen abgewälzt.\n\nDennoch betonen Befürworter des Konzepts, dass Resilienz kein Ersatz für gesellschaftlichen Wandel sein müsse, sondern eine sinnvolle Ergänzung dazu sein könne. Entscheidend sei, dass beide Ebenen – die individuelle und die strukturelle – gemeinsam gedacht werden. Nur so könne der Begriff seinen ursprünglichen Wert behalten, anstatt zu einer leeren Floskel zu verkommen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Begriff Resilienz wird nur in der Psychologie verwendet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen die Gefahr, dass Probleme auf den Einzelnen verschoben werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Expertinnen und Experten lehnen das Konzept der Resilienz komplett ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche fordern zusätzlich politische Maßnahmen gegen Überforderung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter sehen Resilienz als sinnvolle Ergänzung zu gesellschaftlichem Wandel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-von-stille-in-einer-lauten-welt",
+    "nivel": "B2",
+    "titulo": "Der Wert von Stille in einer lauten Welt",
+    "descripcion": "Ein Essay darüber, warum Stille in einer zunehmend lauten und digitalisierten Gesellschaft wichtiger wird.",
+    "texto": "In einer Welt, die von ständigen Benachrichtigungen, Verkehrslärm und permanenter Erreichbarkeit geprägt ist, wird Stille zu einem seltenen Gut. Viele Menschen berichten, dass sie kaum noch Momente erleben, in denen sie wirklich zur Ruhe kommen. Dabei zeigen Studien, dass regelmäßige Phasen der Stille positive Auswirkungen auf die Konzentration und das emotionale Wohlbefinden haben können.\n\nWäre es möglich, bewusst mehr Stille in den Alltag zu integrieren, könnten viele der heute beklagten Stresssymptome gelindert werden. Einige Städte haben bereits reagiert und sogenannte „stille Zonen“ in Parks eingerichtet, in denen Mobiltelefone ausgeschaltet bleiben sollen. Solche Maßnahmen werden von manchen als übertrieben kritisiert, von anderen hingegen als notwendiger Schritt begrüßt.\n\nLetztlich stellt sich die Frage, ob Stille nicht auch eine Frage der persönlichen Haltung ist. Selbst in einer lauten Umgebung könnte innere Ruhe gefunden werden, wenn man lernte, bewusster mit Reizen umzugehen. Die Debatte über den Wert der Stille zeigt jedenfalls, dass ein wachsendes Bedürfnis nach Entschleunigung in der Gesellschaft besteht.",
+    "preguntas": [
+      {
+        "enunciado": "Stille wird in der heutigen Gesellschaft als sehr häufig beschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen mögliche positive Effekte von Stille auf das Wohlbefinden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Städte lehnen die Einrichtung stiller Zonen strikt ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Maßnahmen zur Förderung von Stille werden kritisiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht keinen Zusammenhang zwischen Stille und persönlicher Haltung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ehrenamt-im-wandel-der-zeit",
+    "nivel": "B2",
+    "titulo": "Ehrenamt im Wandel der Zeit",
+    "descripcion": "Der Artikel beleuchtet, wie sich freiwilliges Engagement in Deutschland in den letzten Jahrzehnten verändert hat.",
+    "texto": "Freiwilliges Engagement hat in Deutschland eine lange Tradition, doch die Formen des Ehrenamts haben sich in den letzten Jahrzehnten stark verändert. Während früher vor allem langfristige Verpflichtungen in Vereinen üblich waren, bevorzugen viele jüngere Menschen heute kurzfristige und projektbezogene Einsätze. Diese Entwicklung wird von Soziologen als Ausdruck eines veränderten Lebensstils gedeutet.\n\nSollten sich Vereine nicht an diese neuen Bedürfnisse anpassen, würden sie zunehmend Mitglieder verlieren, warnen Expertinnen und Experten. Bereits jetzt wird in vielen Organisationen über flexiblere Modelle diskutiert, bei denen Freiwillige sich für einzelne Veranstaltungen statt für Jahre engagieren können. Digitale Plattformen, auf denen Ehrenämter vermittelt werden, gewinnen dabei zunehmend an Bedeutung.\n\nTrotz dieser Veränderungen bleibt der gesellschaftliche Wert des Ehrenamts unbestritten. Ohne freiwillige Helferinnen und Helfer könnten viele soziale, kulturelle und sportliche Angebote gar nicht aufrechterhalten werden. Die Herausforderung besteht nun darin, traditionelle Strukturen mit neuen Formen des Engagements zu verbinden, ohne die Verlässlichkeit des Ehrenamts zu gefährden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Formen des Ehrenamts sind seit Jahrzehnten unverändert geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Menschen bevorzugen oft kurzfristige, projektbezogene Einsätze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Digitale Plattformen spielen bei der Vermittlung von Ehrenämtern keine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten warnen, dass Vereine ohne Anpassung Mitglieder verlieren könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der gesellschaftliche Wert des Ehrenamts wird im Text infrage gestellt.",
+        "respuesta": false
+      }
+    ]
   }
 ]
