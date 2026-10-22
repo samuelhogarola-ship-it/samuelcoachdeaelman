@@ -67634,5 +67634,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-lieblingskaese",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingskäse",
+    "descripcion": "Lena erzählt, warum sie Käse so gern mag.",
+    "texto": "Ich heiße Lena. Ich bin 24 Jahre alt. Ich wohne in Hamburg.\nIch esse gern Käse. Käse ist mein Lieblingsessen. Jeden Freitag kaufe ich Käse auf dem Markt.\n\nMein Lieblingskäse kommt aus der Schweiz. Er heißt Emmentaler. Der Käse hat viele kleine Löcher. Ich esse ihn mit Brot. Manchmal esse ich auch Trauben dazu. Das schmeckt sehr gut.\n\nAm Wochenende kocht meine Familie oft Käsefondue. Wir sitzen zusammen am Tisch. Wir tunken Brot in den warmen Käse. Das ist sehr lustig. Ich liebe diese Zeit mit meiner Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Lena wohnt in Hamburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena mag keinen Käse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Emmentaler kommt aus Frankreich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena isst den Käse mit Brot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie kocht am Wochenende Käsefondue.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-schildkroete-lotte",
+    "nivel": "A1",
+    "titulo": "Meine Schildkröte Lotte",
+    "descripcion": "Paul stellt sein Haustier, die Schildkröte Lotte, vor.",
+    "texto": "Ich heiße Paul. Ich habe eine Schildkröte. Sie heißt Lotte. Lotte ist fünf Jahre alt. Sie lebt in einem großen Terrarium.\n\nLotte frisst gern Salat und Tomaten. Sie frisst auch kleine Stücke Apfel. Jeden Tag gebe ich ihr frisches Wasser. Lotte schläft viel und bewegt sich langsam.\n\nAm Wochenende putze ich das Terrarium. Das macht mir Spaß. Meine Schwester hilft mir dabei. Lotte ist ruhig und braucht keine lauten Spiele. Ich mag meine kleine Schildkröte sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Lotte ist eine Schildkröte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lotte ist zehn Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lotte frisst gern Salat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul putzt das Terrarium nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Schwester hilft ihm.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-onkel-aus-muenchen",
+    "nivel": "A1",
+    "titulo": "Mein Onkel aus München",
+    "descripcion": "Tim erzählt von seinem Onkel, der in München lebt.",
+    "texto": "Mein Onkel heißt Stefan. Er wohnt in München. Er ist der Bruder von meiner Mutter. Stefan arbeitet als Bäcker.\n\nJeden Sommer besuchen wir ihn. Wir fahren mit dem Zug nach München. Die Fahrt dauert sechs Stunden. Stefan backt leckeres Brot und süße Kuchen. Ich helfe ihm gern in der Bäckerei.\n\nAm Abend spielen wir zusammen Karten. Stefan erzählt lustige Geschichten. Ich mag meinen Onkel sehr. Nächstes Jahr möchte ich wieder nach München fahren.",
+    "preguntas": [
+      {
+        "enunciado": "Stefan ist der Bruder von Tims Mutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Stefan wohnt in Berlin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Stefan arbeitet als Lehrer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hilft gern in der Bäckerei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie fahren mit dem Flugzeug nach München.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrkarte-ist-weg",
+    "nivel": "A2",
+    "titulo": "Die Fahrkarte ist weg",
+    "descripcion": "Julia hat auf der Zugreise ihre Fahrkarte verloren und muss das Problem lösen.",
+    "texto": "Julia ist am Montag nach Köln gefahren, weil sie dort eine Freundin besucht hat. Am Bahnhof hat sie ihre Fahrkarte gekauft und sie in die Jackentasche gesteckt. Der Zug war pünktlich, und Julia hat sich gefreut, weil sie einen Fensterplatz bekommen hat.\n\nNach einer Stunde ist der Schaffner gekommen und hat die Fahrkarten kontrolliert. Julia hat in ihrer Tasche gesucht, aber die Fahrkarte war nicht mehr da. Sie ist nervös geworden und hat überall gesucht. Der Schaffner hat gefragt, ob sie die Karte online gekauft hat. Julia hat ihm ihr Handy gezeigt, und zum Glück hat sie die Bestätigung per E-Mail gefunden.\n\nDer Schaffner hat die E-Mail akzeptiert, weil die Buchung klar zu sehen war. Julia war sehr erleichtert und hat ihre Jacke noch einmal durchsucht. Am Ende hat sie die Fahrkarte doch gefunden, unter dem Sitz. Sie hat laut gelacht, weil die ganze Aufregung unnötig war.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist nach Köln gefahren, um eine Freundin zu besuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat sofort einen Fensterplatz bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schaffner hat die E-Mail nicht akzeptiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat die Fahrkarte am Ende nicht gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrkarte lag unter dem Sitz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "besuch-beim-hals-nasen-ohren-arzt",
+    "nivel": "A2",
+    "titulo": "Besuch beim Hals-Nasen-Ohren-Arzt",
+    "descripcion": "Markus hat Ohrenschmerzen und geht deshalb zum Hals-Nasen-Ohren-Arzt.",
+    "texto": "Markus hat seit drei Tagen starke Ohrenschmerzen gehabt. Er konnte nachts nicht gut schlafen, weil die Schmerzen immer schlimmer wurden. Deshalb hat er einen Termin beim Hals-Nasen-Ohren-Arzt gemacht.\n\nIm Wartezimmer hat Markus lange gewartet, weil viele Patienten vor ihm dran waren. Als die Ärztin ihn endlich untersucht hat, hat sie gesagt, dass er eine leichte Ohrenentzündung hat. Sie hat erklärt, dass er wahrscheinlich beim Schwimmen Wasser ins Ohr bekommen hat. Markus hat genickt, weil er letzte Woche im See geschwommen ist.\n\nDie Ärztin hat Markus Ohrentropfen verschrieben und gesagt, dass er eine Woche nicht schwimmen soll. Markus hat das verstanden, obwohl er den Schwimmverein sehr vermisst. Nach ein paar Tagen sind die Schmerzen weniger geworden, und Markus war froh, dass er zum Arzt gegangen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte seit drei Tagen Ohrenschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus musste nicht lange im Wartezimmer warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Ärztin hat eine Ohrenentzündung festgestellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus darf sofort wieder schwimmen gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach ein paar Tagen wurden die Schmerzen weniger.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wochenende-auf-dem-bauernhof",
+    "nivel": "A2",
+    "titulo": "Das Wochenende auf dem Bauernhof",
+    "descripcion": "Die Familie Berger hat ein Wochenende auf dem Bauernhof der Großeltern verbracht.",
+    "texto": "Die Familie Berger hat das Wochenende auf dem Bauernhof der Großeltern verbracht. Die Kinder haben sich sehr gefreut, weil sie die Tiere so gern mögen. Am Samstagmorgen sind sie früh aufgestanden, um die Kühe zu füttern.\n\nNachdem sie gefrühstückt hatten, sind alle auf das Feld gegangen, um Kartoffeln zu ernten. Die Arbeit war anstrengend, aber die Kinder hatten viel Spaß dabei. Der Großvater hat ihnen gezeigt, wie man die Kartoffeln richtig aus der Erde holt. Am Nachmittag haben sie zusammen Kuchen gebacken, weil die Großmutter Geburtstag hatte.\n\nAm Abend haben alle am Lagerfeuer gesessen und Lieder gesungen. Die Kinder wollten nicht nach Hause fahren, obwohl sie am Montag wieder zur Schule mussten. Die Großeltern haben versprochen, dass die Familie bald wiederkommen darf.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie hat das Wochenende im Hotel verbracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben Kühe gefüttert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben auf dem Feld Äpfel geerntet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Großmutter hatte an diesem Tag Geburtstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder wollten sofort nach Hause fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-ausbildung-im-handwerk",
+    "nivel": "B1",
+    "titulo": "Die Ausbildung im Handwerk",
+    "descripcion": "Jonas berichtet über seine Entscheidung, eine Ausbildung zum Tischler zu machen, statt zu studieren.",
+    "texto": "Nachdem Jonas sein Abitur gemacht hatte, standen ihm viele Wege offen. Die meisten seiner Freunde haben sich für ein Studium entschieden, doch Jonas wollte etwas anderes machen. Er hat sich für eine Ausbildung zum Tischler entschieden, obwohl einige Verwandte das zunächst nicht verstanden haben.\n\nWährend der Ausbildung hat Jonas gelernt, wie man Möbel aus Holz baut und repariert. Die Arbeit war körperlich anstrengend, trotzdem hat ihm das praktische Arbeiten großen Spaß gemacht. Besonders gefällt ihm, dass er am Ende des Tages ein fertiges Produkt in den Händen hält. Sein Ausbilder hat ihm beigebracht, mit welchen Werkzeugen man welche Materialien am besten bearbeitet.\n\nMittlerweile ist Jonas im letzten Lehrjahr und wird bald seine Abschlussprüfung ablegen. Obwohl das Handwerk oft weniger Anerkennung bekommt als ein Studium, ist Jonas überzeugt, die richtige Entscheidung getroffen zu haben. Er plant, nach der Ausbildung noch den Meistertitel zu machen, um später eine eigene Werkstatt zu eröffnen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat sich nach dem Abitur für ein Studium entschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Verwandten haben Jonas' Entscheidung sofort verstanden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas findet die praktische Arbeit trotz der Anstrengung schön.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist bereits fertig mit seiner Ausbildung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas möchte später eine eigene Werkstatt eröffnen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-konzert-im-stadtpark",
+    "nivel": "B1",
+    "titulo": "Das Konzert im Stadtpark",
+    "descripcion": "Eine Gruppe von Freunden besucht ein kostenloses Sommerkonzert im Stadtpark.",
+    "texto": "Jeden Sommer findet im Stadtpark ein kostenloses Konzert statt, zu dem Hunderte von Menschen kommen. Lisa und ihre Freunde hatten sich schon lange auf dieses Ereignis gefreut und sind bereits am frühen Nachmittag mit Decken und Picknickkörben gekommen, um einen guten Platz zu sichern.\n\nNachdem sie ihre Decken ausgebreitet hatten, haben sie gegessen und über die letzten Wochen geplaudert. Gegen 18 Uhr hat die erste Band angefangen zu spielen, obwohl der Himmel schon leicht bewölkt war. Die Musik war so mitreißend, dass niemand an den möglichen Regen gedacht hat. Als später tatsächlich ein paar Tropfen fielen, haben die Leute trotzdem weitergetanzt.\n\nAm Ende des Abends war Lisa müde, aber glücklich. Sie fand es schön, dass solche Veranstaltungen Menschen aus der ganzen Stadt zusammenbringen, unabhängig davon, wie viel Geld sie haben. Ihre Freunde waren sich einig, dass sie im nächsten Jahr unbedingt wiederkommen wollen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Konzert im Stadtpark kostet Eintritt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa und ihre Freunde sind erst kurz vor Konzertbeginn gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat während des Konzerts ein wenig geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Musik hat trotz des Wetters viele Leute begeistert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisas Freunde wollen im nächsten Jahr nicht mehr kommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-wiedersehensfeier-nach-jahren",
+    "nivel": "B1",
+    "titulo": "Eine Wiedersehensfeier nach Jahren",
+    "descripcion": "Ehemalige Klassenkameraden treffen sich nach zehn Jahren zu einer Wiedersehensfeier.",
+    "texto": "Zehn Jahre nach dem Schulabschluss haben sich die ehemaligen Klassenkameraden von Sabine zu einer Wiedersehensfeier getroffen. Viele hatten sich seit dem Abitur nicht mehr gesehen, und einige wohnten inzwischen in anderen Ländern. Trotzdem waren fast alle bereit, für diesen besonderen Abend anzureisen.\n\nAls die ersten Gäste in der alten Schulaula eintrafen, erkannten sich manche nur schwer, weil sich ihr Aussehen stark verändert hatte. Nachdem jedoch die ersten Witze über die gemeinsame Schulzeit gefallen waren, kehrte schnell die alte Vertrautheit zurück. Sabine erzählte von ihrer Arbeit als Ärztin, während ihr ehemaliger Banknachbar inzwischen ein eigenes Café eröffnet hatte.\n\nObwohl die Leben der einzelnen Klassenkameraden sehr unterschiedlich verlaufen waren, fühlten sich alle an diesem Abend wieder wie früher. Am Ende des Abends versprachen sie sich, sich nicht wieder zehn Jahre aus den Augen zu verlieren, sondern sich regelmäßiger zu treffen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Klassenkameraden wohnen noch in derselben Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Gäste haben sich zuerst nicht wiedererkannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine arbeitet als Ärztin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr ehemaliger Banknachbar hat ein Café eröffnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klassenkameraden wollen sich nie wieder treffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "teilzeit-oder-vollzeit-karriere",
+    "nivel": "B2",
+    "titulo": "Teilzeit oder Vollzeit? Die Karrierefrage",
+    "descripcion": "Ein Essay über die Vor- und Nachteile von Teilzeitarbeit für die berufliche Entwicklung.",
+    "texto": "In vielen Unternehmen wird nach wie vor davon ausgegangen, dass nur Vollzeitbeschäftigte für Führungspositionen infrage kommen. Wer in Teilzeit arbeitet, dem wird häufig unterstellt, weniger ambitioniert oder weniger belastbar zu sein, obwohl zahlreiche Studien belegen, dass die geleistete Arbeitsqualität nicht von der Stundenzahl abhängt. Diese Annahme führt dazu, dass vor allem Frauen, die nach der Elternzeit reduziert arbeiten, seltener befördert werden.\n\nWürde die Arbeitswelt stärker an Ergebnissen statt an Anwesenheitszeiten gemessen, ließen sich viele dieser Vorurteile vermutlich abbauen. Einige Unternehmen haben bereits begonnen, Führungspositionen in Teilzeit oder im Tandem anzubieten, bei dem sich zwei Personen eine Stelle teilen. Solche Modelle werden von Befürwortern als zukunftsweisend gelobt, da sie sowohl Eltern als auch Menschen mit gesundheitlichen Einschränkungen neue Karrierewege eröffnen könnten.\n\nKritiker wenden hingegen ein, dass geteilte Verantwortung in der Praxis zu Kommunikationsproblemen führen kann, wenn Entscheidungen nicht klar abgestimmt werden. Dennoch scheint sich ein Wandel anzudeuten: Immer mehr Beschäftigte fordern Arbeitsmodelle, die sich an ihrem Leben orientieren, statt ihr Leben den starren Anforderungen des Berufs unterzuordnen. Ob sich dieser Wandel langfristig durchsetzen wird, hängt maßgeblich davon ab, wie bereit Unternehmen sind, etablierte Strukturen zu hinterfragen.",
+    "preguntas": [
+      {
+        "enunciado": "In vielen Unternehmen gelten Teilzeitbeschäftigte automatisch als karriereorientiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studien zeigen, dass die Stundenzahl die Arbeitsqualität bestimmt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen bieten bereits Führungspositionen im Tandem an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen bei geteilter Verantwortung keine möglichen Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Immer mehr Beschäftigte wünschen sich flexiblere Arbeitsmodelle.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "desinformation-im-internet",
+    "nivel": "B2",
+    "titulo": "Desinformation im Internet",
+    "descripcion": "Ein kritischer Kommentar zur Verbreitung von Falschinformationen in sozialen Netzwerken.",
+    "texto": "Die Geschwindigkeit, mit der sich Falschinformationen in sozialen Netzwerken verbreiten, stellt demokratische Gesellschaften vor erhebliche Herausforderungen. Studien zeigen, dass emotional aufgeladene, falsche Nachrichten häufig schneller geteilt werden als sachliche Richtigstellungen, da Empörung und Angst besonders starke Reaktionen hervorrufen. Dadurch entsteht ein Umfeld, in dem Fakten zunehmend gegen gefühlte Wahrheiten konkurrieren müssen.\n\nPlattformbetreiber werden regelmäßig dazu aufgefordert, wirksamere Maßnahmen gegen Desinformation zu ergreifen, etwa durch Faktenchecks oder die Kennzeichnung fragwürdiger Inhalte. Allerdings wird diesen Maßnahmen oft vorgeworfen, zu spät oder zu inkonsequent umgesetzt zu werden. Würden Algorithmen stärker auf die Verbreitung geprüfter Informationen ausgerichtet, anstatt primär auf Nutzerbindung zu optimieren, ließe sich die Reichweite von Falschmeldungen vermutlich deutlich verringern.\n\nGleichzeitig wird betont, dass technische Lösungen allein nicht ausreichen. Medienkompetenz müsste bereits in der Schule stärker vermittelt werden, damit junge Menschen lernen, Quellen kritisch zu hinterfragen, bevor sie Inhalte weiterverbreiten. Ohne ein grundlegendes Umdenken in der Mediennutzung droht die öffentliche Debatte weiter an Qualität zu verlieren, selbst wenn einzelne Plattformen ihre Richtlinien verschärfen.",
+    "preguntas": [
+      {
+        "enunciado": "Falsche Nachrichten werden laut Studien oft langsamer verbreitet als sachliche Informationen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emotional aufgeladene Inhalte lösen besonders starke Reaktionen aus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Plattformbetreiber werden niemals aufgefordert, gegen Desinformation vorzugehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen sind derzeit vor allem auf Nutzerbindung optimiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienkompetenz soll laut Text weniger Aufmerksamkeit in der Schule bekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "studiengebuehren-pro-und-contra",
+    "nivel": "B2",
+    "titulo": "Studiengebühren: Pro und Contra",
+    "descripcion": "Eine Abhandlung über die kontroverse Debatte um die Wiedereinführung von Studiengebühren in Deutschland.",
+    "texto": "Die Frage, ob an deutschen Hochschulen wieder Studiengebühren erhoben werden sollten, wird seit Jahren kontrovers diskutiert. Befürworter argumentieren, dass Gebühren die Hochschulen finanziell entlasten und zu besserer Ausstattung sowie kleineren Seminargruppen führen könnten. Zudem wird angeführt, dass Studierende, die für ihr Studium bezahlen, ihr Studium ernsthafter und zielgerichteter angehen würden.\n\nGegner hingegen warnen davor, dass Studiengebühren vor allem Studierende aus einkommensschwächeren Familien von einem Studium abhalten würden, selbst wenn Stipendien oder Darlehen angeboten werden. Es wird befürchtet, dass soziale Ungleichheit dadurch verstärkt statt verringert würde, da nicht jeder Zugang zu ausreichender finanzieller Unterstützung hätte. Studien aus Bundesländern, die Studiengebühren zeitweise eingeführt und später wieder abgeschafft hatten, lieferten bislang keine eindeutigen Belege für positive Effekte auf die Studienqualität.\n\nAngesichts dieser widersprüchlichen Befunde bleibt die Debatte ideologisch aufgeladen. Während einige Parteien ein gebührenfreies Studium als Grundpfeiler der Chancengleichheit verteidigen, plädieren andere für ein Modell nachgelagerter Gebühren, die erst nach Abschluss des Studiums und ab einem bestimmten Einkommen zurückgezahlt werden müssten. Ob ein solcher Kompromiss gesellschaftliche Akzeptanz finden würde, bleibt bislang offen.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter von Studiengebühren erwarten unter anderem kleinere Seminargruppen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gegner befürchten, dass Studiengebühren soziale Ungleichheit verringern würden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt eindeutige Studienergebnisse, die positive Effekte von Studiengebühren belegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Modell nachgelagerter Gebühren würde erst nach dem Studienabschluss greifen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Parteien sind sich in dieser Debatte einig.",
+        "respuesta": false
+      }
+    ]
   }
 ]
