@@ -67982,5 +67982,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-flohmarkt-im-stadtpark-am-samstagmorgen",
+    "nivel": "A1",
+    "titulo": "Der Flohmarkt im Stadtpark",
+    "descripcion": "Frau Berger geht am Samstag auf den Flohmarkt und kauft eine alte Vase.",
+    "texto": "Jeden Samstag geht Frau Berger auf den Flohmarkt. Der Flohmarkt ist im Park. Sie kauft dort alte Bücher und schöne Tassen. Die Preise sind sehr günstig.\n\nHeute sieht Frau Berger eine rote Vase. Die Vase kostet drei Euro. Sie fragt den Verkäufer: „Ist die Vase aus Glas?“ Der Verkäufer antwortet: „Ja, die Vase ist aus Glas und sehr alt.“ Frau Berger kauft die Vase. Sie ist sehr glücklich.\n\nNach dem Flohmarkt trinkt Frau Berger einen Kaffee im Café. Sie trifft dort ihre Freundin Nina. Die zwei Frauen sprechen über ihre Einkäufe. Nina zeigt ein neues Buch. Es ist ein schöner Samstag für beide Frauen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger geht jeden Sonntag auf den Flohmarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Flohmarkt ist im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Vase kostet drei Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Vase ist aus Plastik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger trifft ihre Freundin Nina im Café.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "toms-lieblingssport",
+    "nivel": "A1",
+    "titulo": "Toms Lieblingssport",
+    "descripcion": "Tom spielt gern Fußball und trainiert zweimal in der Woche mit seinem Team.",
+    "texto": "Tom ist zehn Jahre alt. Er spielt gern Fußball. Jeden Dienstag und Donnerstag trainiert er mit seinem Team. Das Training dauert eine Stunde.\n\nTom trägt ein grünes Trikot. Seine Nummer ist sieben. Nach dem Training trinkt er immer Wasser und isst einen Apfel. Seine Mutter holt ihn mit dem Auto ab.\n\nAm Wochenende spielt Tom ein Spiel gegen eine andere Mannschaft. Seine ganze Familie kommt und schaut zu. Tom schießt ein Tor. Alle sind sehr stolz auf ihn.",
+    "preguntas": [
+      {
+        "enunciado": "Tom ist zwölf Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom spielt gern Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Training dauert zwei Stunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Trikot ist grün.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom schießt kein Tor im Spiel.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "in-der-baeckerei-am-morgen",
+    "nivel": "A1",
+    "titulo": "In der Bäckerei am Morgen",
+    "descripcion": "Herr Klein kauft jeden Morgen frische Brötchen und Croissants in der Bäckerei.",
+    "texto": "Herr Klein steht jeden Morgen früh auf. Um sieben Uhr geht er in die Bäckerei. Die Bäckerei ist neben seinem Haus.\n\nIn der Bäckerei kauft er frische Brötchen und ein Vollkornbrot. Die Verkäuferin fragt: „Möchten Sie auch Croissants?“ Herr Klein sagt: „Ja, bitte zwei Croissants.“ Er bezahlt vier Euro.\n\nZu Hause frühstückt Herr Klein mit seiner Frau. Sie essen die Brötchen mit Marmelade und trinken Kaffee. Das Frühstück schmeckt sehr gut.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Klein geht um sieben Uhr in die Bäckerei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bäckerei ist weit von seinem Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Klein kauft zwei Croissants.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er bezahlt zehn Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Klein frühstückt allein.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-koffer-am-flughafen-lissabon",
+    "nivel": "A2",
+    "titulo": "Der verlorene Koffer",
+    "descripcion": "Frau Hoffmanns Koffer fliegt versehentlich nach Lissabon statt nach Barcelona.",
+    "texto": "Letzte Woche ist Frau Hoffmann nach Barcelona geflogen. Als sie am Flughafen angekommen ist, hat sie lange auf ihren Koffer gewartet. Leider ist der Koffer nicht gekommen, weil er versehentlich nach Lissabon geflogen war.\n\nFrau Hoffmann war sehr verärgert und ist zum Informationsschalter gegangen. Dort hat sie ein Formular ausgefüllt und ihre Adresse im Hotel angegeben. Die Mitarbeiterin hat versprochen, dass der Koffer in zwei Tagen ankommen würde.\n\nZum Glück hatte Frau Hoffmann noch etwas Kleidung in ihrer Handtasche. Sie hat sich außerdem ein T-Shirt gekauft, weil es sehr warm war. Am dritten Tag ist der Koffer endlich im Hotel angekommen. Frau Hoffmann war erleichtert und konnte ihren Urlaub genießen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Hoffmann ist nach Barcelona geflogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihr Koffer ist sofort angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer war nach Lissabon geflogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Hoffmann hatte keine Kleidung dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer ist nach drei Tagen angekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "markus-und-die-angst-vor-dem-zahnarzt",
+    "nivel": "A2",
+    "titulo": "Markus und die Angst vor dem Zahnarzt",
+    "descripcion": "Markus hat Zahnschmerzen und muss trotz seiner Angst zum Zahnarzt gehen.",
+    "texto": "Markus hatte seit zwei Tagen starke Zahnschmerzen. Weil der Schmerz immer schlimmer wurde, hat er endlich einen Termin beim Zahnarzt gemacht. Er hatte ein bisschen Angst, weil er den Zahnarzt nicht gern besucht.\n\nIn der Praxis hat die Zahnärztin seinen Zahn untersucht und ein Röntgenbild gemacht. Sie hat gesagt, dass er ein Loch im Zahn hatte. Markus musste sich hinlegen, während die Zahnärztin den Zahn behandelt hat. Es hat nicht so sehr geschmerzt, wie er gedacht hatte.\n\nNach der Behandlung hat die Zahnärztin ihm empfohlen, öfter die Zähne zu putzen und weniger Süßigkeiten zu essen. Markus war froh, dass die Schmerzen endlich weg waren. Er hat sich vorgenommen, in Zukunft besser auf seine Zähne aufzupassen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte Kopfschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hatte keine Angst vor dem Zahnarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin hat ein Röntgenbild gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hatte ein Loch im Zahn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zahnärztin hat ihm empfohlen, mehr Süßigkeiten zu essen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-italienische-familie-von-nebenan",
+    "nivel": "A2",
+    "titulo": "Die italienische Familie von nebenan",
+    "descripcion": "Frau Winter freut sich über ihre neuen Nachbarn aus Italien und lädt sie zum Kaffee ein.",
+    "texto": "Seit letztem Monat wohnt eine neue Familie neben Frau Winter. Die Familie kommt aus Italien und hat zwei kleine Kinder. Frau Winter hat sich gefreut, weil sie schon lange Nachbarn mit Kindern wollte.\n\nLetzten Samstag hat Frau Winter die neue Familie zum Kaffee eingeladen. Sie haben zusammen italienischen Kuchen gegessen, den die Nachbarin selbst gebacken hatte. Die Kinder haben im Garten gespielt, während die Erwachsenen sich unterhalten haben.\n\nFrau Winter hat erfahren, dass der Vater als Koch arbeitet und die Mutter Deutsch lernt. Sie haben sich verabredet, dass sie sich bald wieder treffen. Frau Winter ist glücklich, weil sie jetzt so freundliche Nachbarn hat.",
+    "preguntas": [
+      {
+        "enunciado": "Die neue Familie kommt aus Spanien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat zwei Kinder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Winter hat die Familie zum Abendessen eingeladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater arbeitet als Lehrer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter lernt Deutsch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lenas-neuanfang-in-leipzig",
+    "nivel": "B1",
+    "titulo": "Lenas Neuanfang in Leipzig",
+    "descripcion": "Nach ihrem Umzug nach Leipzig findet Lena trotz anfänglicher Schwierigkeiten neue Freunde.",
+    "texto": "Als Lena vor drei Monaten nach Leipzig gezogen ist, kannte sie dort niemanden. Obwohl sie zunächst Angst hatte, sich in einer fremden Stadt einzuleben, entschied sie sich, offen auf neue Menschen zuzugehen. Nachdem sie ihre neue Wohnung eingerichtet hatte, meldete sie sich in einem Sportverein an, um Kontakte zu knüpfen.\n\nTrotzdem fiel ihr der Anfang nicht leicht. Die ersten Wochen verbrachte sie meist allein, weil sie noch niemanden richtig kannte. Erst als sie beim Training ein paar Leute aus ihrer Trainingsgruppe kennenlernte, änderte sich das langsam. Eine Kollegin aus dem Verein lud sie zu einem gemeinsamen Abendessen ein, und von da an trafen sie sich regelmäßig.\n\nHeute, nach einem halben Jahr in Leipzig, fühlt sich Lena endlich zu Hause. Sie hat einen festen Freundeskreis gefunden und genießt es, die Stadt mit ihren neuen Freunden zu erkunden. Rückblickend ist sie froh, dass sie den Mut hatte, auf andere zuzugehen, obwohl es ihr am Anfang schwerfiel.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist vor drei Monaten nach Leipzig gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena kannte in Leipzig von Anfang an viele Menschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena hat sich einem Sportverein angeschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena fühlte sich von der ersten Woche an zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einem halben Jahr hat Lena einen Freundeskreis gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "felix-und-sein-erster-arbeitstag-in-der-softwarefirma",
+    "nivel": "B1",
+    "titulo": "Felix und sein erster Arbeitstag",
+    "descripcion": "Felix erlebt seinen ersten, anstrengenden aber zufriedenstellenden Arbeitstag in einer Softwarefirma.",
+    "texto": "Nachdem Felix monatelang Bewerbungen geschrieben hatte, bekam er endlich eine Zusage von einer Softwarefirma. Am ersten Arbeitstag war er sehr nervös, obwohl er sich gut vorbereitet hatte. Schon am Empfang wurde er freundlich von einer Kollegin begrüßt, die ihm die wichtigsten Räume zeigte.\n\nIm Laufe des Tages lernte Felix sein Team kennen und bekam einen Überblick über seine zukünftigen Aufgaben. Trotzdem fühlte er sich zunächst überfordert, da es viele neue Programme zu lernen gab. Sein Chef erklärte ihm jedoch geduldig, wie alles funktionierte, und versicherte ihm, dass niemand von Anfang an alles wisse.\n\nAm Ende des Tages war Felix erschöpft, aber zufrieden. Obwohl der erste Tag anstrengend gewesen war, hatte er das Gefühl, am richtigen Ort zu sein. Er freute sich schon auf die kommenden Wochen, in denen er mehr über seine neue Stelle lernen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat sofort nach der ersten Bewerbung eine Zusage bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix war am ersten Arbeitstag nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat Felix am Empfang begrüßt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix fühlte sich mit den neuen Programmen sofort sicher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Tages war Felix zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-jubilaeumsstadtfest-in-hameln",
+    "nivel": "B1",
+    "titulo": "Das Jubiläumsstadtfest in Hameln",
+    "descripcion": "Hameln feiert sein sechshundertjähriges Jubiläum mit einem großen Sommerfest.",
+    "texto": "Jedes Jahr im Juli findet in der kleinen Stadt Hameln ein großes Stadtfest statt. Obwohl die Vorbereitungen schon Wochen vorher beginnen, wissen viele Einwohner bis zuletzt nicht genau, welche Bands auftreten werden. Dieses Jahr wurde das Fest besonders aufwendig organisiert, weil die Stadt ihr sechshundertjähriges Jubiläum feierte.\n\nNachdem die Bühne auf dem Marktplatz aufgebaut worden war, strömten am ersten Abend Hunderte von Besuchern in die Innenstadt. Es gab Essensstände mit regionalen Spezialitäten, Kunsthandwerker, die ihre Waren verkauften, und ein buntes Programm für Kinder. Trotzdem blieb genug Platz, dass sich niemand gedrängt fühlte.\n\nAm letzten Abend endete das Fest mit einem Feuerwerk über dem Fluss. Viele Besucher waren sich einig, dass dies das schönste Stadtfest seit Jahren gewesen sei. Obwohl das Aufräumen am nächsten Morgen viel Arbeit bedeutete, waren die Organisatoren stolz auf den gelungenen Erfolg.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest findet jedes Jahr im Dezember statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Stadt feierte ihr sechshundertjähriges Jubiläum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab keine Essensstände auf dem Fest.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fest endete mit einem Feuerwerk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Aufräumen bedeutete keine Arbeit.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-in-der-deutschen-arbeitswelt",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche in der deutschen Arbeitswelt",
+    "descripcion": "Eine Analyse der Chancen und Risiken, die mit der Einführung der Vier-Tage-Woche verbunden wären.",
+    "texto": "In den vergangenen Jahren ist die Diskussion um die Vier-Tage-Woche in vielen europäischen Ländern intensiver geworden. Befürworter argumentieren, dass die Arbeitszeit verkürzt werden könnte, ohne dass die Produktivität darunter leiden müsse. Mehrere Pilotprojekte, die in Unternehmen unterschiedlicher Branchen durchgeführt wurden, hätten gezeigt, dass Mitarbeitende bei gleichem Gehalt und reduzierter Arbeitszeit oft konzentrierter und motivierter arbeiteten.\n\nKritiker hingegen wenden ein, dass sich ein solches Modell nicht auf alle Branchen übertragen lasse. Besonders im Gesundheitswesen oder im Einzelhandel, wo eine durchgehende Besetzung notwendig sei, wäre eine Umstellung mit erheblichen organisatorischen Schwierigkeiten verbunden. Zudem wird befürchtet, dass kleinere Unternehmen, die über weniger finanzielle Reserven verfügen, durch höhere Personalkosten benachteiligt werden könnten.\n\nWürde die Vier-Tage-Woche flächendeckend eingeführt, müssten Arbeitsabläufe in vielen Betrieben grundlegend überdacht werden. Experten schlagen vor, dass zunächst weitere Studien durchgeführt werden sollten, bevor verbindliche gesetzliche Regelungen getroffen werden. Nur so könne sichergestellt werden, dass die Interessen von Arbeitgebern und Arbeitnehmern gleichermaßen berücksichtigt würden.\n\nTrotz aller offenen Fragen scheint der gesellschaftliche Trend eindeutig: Immer mehr Beschäftigte wünschen sich eine bessere Vereinbarkeit von Beruf und Privatleben. Ob die Vier-Tage-Woche tatsächlich zum neuen Standard wird, bleibt abzuwarten, doch die Debatte darüber wird die Arbeitswelt der kommenden Jahre maßgeblich prägen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Experten sind sich einig, dass die Vier-Tage-Woche in jeder Branche problemlos eingeführt werden kann.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pilotprojekte haben gezeigt, dass Mitarbeitende oft motivierter arbeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Gesundheitswesen gibt es laut Text keine organisatorischen Herausforderungen bei der Umstellung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kleinere Unternehmen könnten laut Kritikern durch höhere Personalkosten benachteiligt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die Debatte um die Vier-Tage-Woche beendet ist.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungskrise-in-deutschen-metropolen",
+    "nivel": "B2",
+    "titulo": "Die Wohnungskrise in deutschen Metropolen",
+    "descripcion": "Ursachen und mögliche Lösungsansätze für den akuten Mangel an bezahlbarem Wohnraum.",
+    "texto": "Die Wohnungsnot in deutschen Großstädten hat sich in den letzten Jahren erheblich verschärft. Während die Mieten in Metropolen wie München, Berlin oder Hamburg kontinuierlich steigen, wächst das Angebot an bezahlbarem Wohnraum kaum noch. Besonders Menschen mit niedrigem Einkommen, die auf eine günstige Wohnung angewiesen sind, finden zunehmend keine passende Unterkunft mehr.\n\nAls Hauptursachen werden von Experten vor allem gestiegene Baukosten, ein Mangel an Bauland sowie bürokratische Hürden bei Genehmigungsverfahren genannt. Hinzu kommt, dass in den letzten Jahrzehnten der soziale Wohnungsbau, der einst einen bedeutenden Anteil am Wohnungsmarkt ausmachte, massiv zurückgefahren wurde. Viele der ehemals öffentlich geförderten Wohnungen sind inzwischen privatisiert worden und somit dem freien Markt überlassen.\n\nPolitiker diskutieren derzeit verschiedene Lösungsansätze. Einige fordern, dass der Staat wieder verstärkt in den sozialen Wohnungsbau investieren sollte, damit mehr bezahlbare Wohnungen entstehen könnten. Andere plädieren für eine strengere Mietpreisbremse, auch wenn Kritiker einwenden, dass eine solche Regulierung Investoren abschrecken und den Neubau zusätzlich bremsen würde.\n\nSollte sich an der aktuellen Situation nichts ändern, dürfte sich die Lage auf dem Wohnungsmarkt weiter zuspitzen. Viele Beobachter sind sich daher einig, dass nur ein Zusammenspiel mehrerer Maßnahmen – von mehr Neubau bis zu gezielter Förderung – die Wohnungsnot langfristig lindern könnte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sinken laut Text seit Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gestiegene Baukosten werden als eine der Hauptursachen der Wohnungsnot genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der soziale Wohnungsbau wurde in den letzten Jahrzehnten stark ausgebaut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Politiker fordern eine strengere Mietpreisbremse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu dem Schluss, dass eine einzelne Maßnahme das Problem vollständig lösen würde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-macht-der-algorithmen-in-sozialen-medien",
+    "nivel": "B2",
+    "titulo": "Die Macht der Algorithmen in sozialen Medien",
+    "descripcion": "Wie Algorithmen die Wahrnehmung von Nutzern steuern und warum das gesellschaftlich problematisch sein kann.",
+    "texto": "Soziale Medien sind längst zu einem festen Bestandteil des Alltags geworden, doch kaum jemand macht sich bewusst, wie stark die eigene Wahrnehmung durch Algorithmen gesteuert wird. Diese Algorithmen, die von den Plattformen entwickelt und ständig optimiert werden, entscheiden darüber, welche Inhalte einem Nutzer angezeigt werden und welche nicht. Ziel ist es in erster Linie, die Verweildauer der Nutzer zu maximieren, nicht etwa, sie möglichst ausgewogen zu informieren.\n\nMedienkritiker warnen seit Jahren davor, dass dadurch sogenannte Filterblasen entstehen könnten, in denen Nutzer vorwiegend Inhalte sehen, die ihre bestehende Meinung bestätigen. Wäre dies tatsächlich der Fall, würde dies die gesellschaftliche Polarisierung weiter verstärken, da gegensätzliche Standpunkte immer seltener wahrgenommen würden. Studien zu diesem Thema kommen jedoch zu unterschiedlichen Ergebnissen, sodass die genaue Wirkung von Algorithmen in der Wissenschaft weiterhin diskutiert wird.\n\nEinige Plattformen haben als Reaktion auf die Kritik angekündigt, ihre Algorithmen transparenter zu gestalten. Es wird jedoch bezweifelt, ob eine wirkliche Offenlegung der komplexen Berechnungsverfahren überhaupt im Interesse der Unternehmen liegen könnte, da diese Algorithmen als zentrales Geschäftsgeheimnis gelten. Ohne verbindliche gesetzliche Vorgaben, so argumentieren viele Experten, werde sich an dieser Situation kaum etwas ändern.\n\nLetztlich bleibt es den Nutzern selbst überlassen, sich der Wirkungsweise dieser Mechanismen bewusst zu werden und bewusster mit sozialen Medien umzugehen. Ob dies jedoch ausreicht, um den gesellschaftlichen Folgen algorithmisch gesteuerter Inhalte wirksam zu begegnen, bleibt fraglich.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen in sozialen Medien zielen laut Text vor allem darauf ab, Nutzer möglichst neutral zu informieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen können laut Medienkritikern die gesellschaftliche Polarisierung verstärken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Studien zu diesem Thema kommen laut Text zum gleichen Ergebnis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Plattformen haben angekündigt, ihre Algorithmen transparenter zu gestalten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass gesetzliche Vorgaben das Problem bereits vollständig gelöst haben.",
+        "respuesta": false
+      }
+    ]
   }
 ]
