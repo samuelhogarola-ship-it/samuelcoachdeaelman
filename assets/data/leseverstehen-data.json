@@ -69026,5 +69026,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "backen-mit-oma",
+    "nivel": "A1",
+    "titulo": "Backen mit Oma",
+    "descripcion": "Lisa backt am Samstag einen Kuchen mit ihrer Oma.",
+    "texto": "Lisa ist sieben Jahre alt. Sie wohnt in einem Dorf. Am Samstag besucht sie ihre Oma. Die Oma wohnt in einem kleinen Haus mit einem Garten. In der Küche riecht es nach Äpfeln.\n\nLisa und ihre Oma backen einen Apfelkuchen. Sie brauchen Mehl, Eier, Zucker und Äpfel. Lisa schneidet die Äpfel. Die Oma mischt den Teig. „Pass auf, das Messer ist scharf!“, sagt die Oma. Lisa ist vorsichtig und lächelt.\n\nNach einer Stunde ist der Kuchen fertig. Er duftet sehr gut. Lisa und ihre Oma trinken Tee und essen ein Stück Kuchen. Der Kuchen schmeckt süß und lecker. Lisa ist glücklich und freut sich schon auf das nächste Mal.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa besucht ihre Oma am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa und ihre Oma backen eine Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa schneidet die Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen braucht drei Stunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa isst ein Stück Kuchen mit ihrer Oma.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-neuer-fussballverein",
+    "nivel": "A1",
+    "titulo": "Mein neuer Fußballverein",
+    "descripcion": "Tom erzählt von seinem ersten Training in einem neuen Fußballverein.",
+    "texto": "Tom ist zehn Jahre alt. Fußball ist sein Lieblingshobby. Seit letzter Woche spielt er in einem neuen Verein. Der Verein heißt „SV Grün-Weiß“. Das Training ist am Dienstag und am Donnerstag.\n\nHeute ist Toms erstes Training. Er trägt ein rotes Trikot und weiße Schuhe. Der Trainer heißt Herr Berger. Herr Berger ist sehr freundlich. „Willkommen im Team, Tom!“, sagt er. Tom lernt schnell die Namen von den anderen Kindern.\n\nNach dem Training ist Tom müde, aber sehr zufrieden. Er trinkt Wasser und isst einen Apfel. Tom freut sich schon auf das nächste Training. Seine Eltern holen ihn mit dem Auto ab.",
+    "preguntas": [
+      {
+        "enunciado": "Tom spielt seit letzter Woche in einem neuen Verein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Training ist am Montag und am Mittwoch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Trainer heißt Herr Berger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom trägt ein blaues Trikot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom ist nach dem Training zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "neue-kleidung-fuer-die-schule",
+    "nivel": "A1",
+    "titulo": "Neue Kleidung für die Schule",
+    "descripcion": "Mia kauft mit ihrer Mutter neue Kleidung für das neue Schuljahr.",
+    "texto": "Die Schule beginnt bald. Mia braucht neue Kleidung. Ihre Mutter geht mit ihr in ein Kaufhaus in der Stadt. Das Kaufhaus ist groß und hat viele Abteilungen.\n\nMia sucht eine Jacke und neue Schuhe. Sie findet eine blaue Jacke. Die Jacke ist warm und schön. „Die Jacke gefällt mir sehr“, sagt Mia. Dann probiert sie Schuhe an. Die schwarzen Schuhe sind bequem. Mia kauft die Jacke und die Schuhe.\n\nZum Schluss kaufen Mia und ihre Mutter noch einen Schulranzen. Der Schulranzen ist grün und hat viele Taschen. Mia ist glücklich. Sie ist jetzt bereit für die Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Mia kauft Kleidung mit ihrem Vater.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Kaufhaus ist groß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia kauft eine rote Jacke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die schwarzen Schuhe sind bequem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia kauft auch einen Schulranzen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-tierarzttermin-fuer-den-hund",
+    "nivel": "A2",
+    "titulo": "Der Tierarzttermin für den Hund",
+    "descripcion": "Paul bringt seinen Hund Bello zum Tierarzt, weil er nicht fressen wollte.",
+    "texto": "Paul hat einen Hund namens Bello. Gestern hat Bello nicht gefressen und war sehr ruhig. Paul hat sich Sorgen gemacht, weil Bello sonst immer hungrig ist. Deshalb hat er heute einen Termin beim Tierarzt gemacht.\n\nIn der Tierarztpraxis hat die Tierärztin Bello genau untersucht. Sie hat seinen Bauch abgetastet und seine Temperatur gemessen. „Ihr Hund hat wahrscheinlich etwas Falsches gegessen“, hat sie erklärt. Paul hat erzählt, dass Bello im Garten oft nach Dingen sucht. Die Tierärztin hat ihm Tabletten gegeben und gesagt, dass Bello sich bald besser fühlen wird.\n\nAm Abend hat Bello schon wieder ein bisschen gefressen. Paul war erleichtert. Er hat beschlossen, den Garten besser zu kontrollieren, damit Bello nicht wieder krank wird. Heute Morgen hat Bello sogar wieder mit seinem Ball gespielt.",
+    "preguntas": [
+      {
+        "enunciado": "Bello hat gestern sehr viel gefressen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul hat sich Sorgen um Bello gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tierärztin hat Bellos Temperatur gemessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello hat eine Operation bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend hat Bello wieder etwas gefressen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-postkarte-aus-island",
+    "nivel": "A2",
+    "titulo": "Eine Postkarte aus Island",
+    "descripcion": "Sarah schreibt ihrer Freundin eine Postkarte von ihrer Reise nach Island.",
+    "texto": "Sarah ist seit drei Tagen in Island. Sie hat schon viele Wasserfälle und heiße Quellen besucht. Heute Abend schreibt sie eine Postkarte an ihre Freundin Nina, weil sie ihr von der Reise erzählen möchte.\n\n„Liebe Nina, Island ist wunderschön, obwohl es hier sehr kalt und windig ist. Gestern bin ich zu einem großen Wasserfall gefahren und habe sogar einen Regenbogen gesehen. Ich habe auch in einer heißen Quelle gebadet, während draußen Schnee gefallen ist. Das war ein komisches, aber tolles Gefühl!“\n\nAm Ende der Postkarte schreibt Sarah, dass sie in zwei Tagen nach Hause fliegt. Sie hofft, dass Nina die Fotos mag, die sie mitbringt. Sarah klebt eine Briefmarke auf die Karte und geht zum Postamt, bevor es schließt.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah ist seit einer Woche in Island.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah hat einen Wasserfall besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Island ist es sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah hat in einer heißen Quelle gebadet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sarah fliegt sofort nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-skiausflug-mit-der-klasse",
+    "nivel": "A2",
+    "titulo": "Der Skiausflug mit der Klasse",
+    "descripcion": "Die Klasse von Jonas macht einen Tagesausflug in die Berge zum Skifahren.",
+    "texto": "Letzten Freitag ist die Klasse von Jonas in die Berge gefahren, weil die Schule einen Skiausflug organisiert hat. Der Bus ist um sieben Uhr morgens losgefahren, und alle Schüler waren sehr aufgeregt.\n\nAls sie angekommen sind, haben sie zuerst Skier und Helme ausgeliehen. Jonas konnte noch nicht gut Skifahren, deshalb hat er an einem Anfängerkurs teilgenommen. Sein Freund Tim ist schon seit Jahren Ski gefahren und ist viel schneller gefahren. Trotzdem hat Jonas viel Spaß gehabt, obwohl er zweimal hingefallen ist.\n\nAm Nachmittag haben alle zusammen in einer Hütte heiße Schokolade getrunken. Jonas war müde, aber glücklich, weil er neue Dinge gelernt hat. Er hat seiner Mutter erzählt, dass er den Ausflug nie vergessen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bus ist am Nachmittag losgefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas konnte schon sehr gut Skifahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim ist schneller Ski gefahren als Jonas.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist nie hingefallen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende haben die Schüler heiße Schokolade getrunken.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-berufseinstieg-als-quereinsteiger",
+    "nivel": "B1",
+    "titulo": "Der Berufseinstieg als Quereinsteiger",
+    "descripcion": "Markus berichtet, wie er nach zehn Jahren als Koch in die IT-Branche gewechselt ist.",
+    "texto": "Markus hat zehn Jahre als Koch in verschiedenen Restaurants gearbeitet. Obwohl er seinen Beruf gemocht hat, waren die langen Arbeitszeiten und der Stress am Ende zu belastend. Deshalb hat er sich entschieden, eine komplett neue Richtung einzuschlagen.\n\nNachdem er sich online über verschiedene Weiterbildungen informiert hatte, hat Markus einen Kurs für Webentwicklung begonnen. Am Anfang war es schwierig, weil er noch nie programmiert hatte. Trotzdem hat er jeden Abend nach der Arbeit gelernt und sich nicht entmutigen lassen. Seine Familie hat ihn die ganze Zeit unterstützt, was ihm sehr geholfen hat.\n\nNach acht Monaten intensivem Lernen hat Markus seine erste Stelle als Junior-Entwickler gefunden. Auch wenn der Umstieg nicht einfach war, bereut er seine Entscheidung nicht. Er sagt, dass es nie zu spät sei, etwas Neues zu lernen, solange man bereit ist, hart dafür zu arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hat zehn Jahre als Lehrer gearbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat sich für eine Weiterbildung in Webentwicklung entschieden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hatte schon viel Programmiererfahrung, bevor er den Kurs begonnen hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Familie hat ihn während des Lernens unterstützt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus bereut seine Entscheidung, den Beruf zu wechseln.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenmusikfestival-im-sommer",
+    "nivel": "B1",
+    "titulo": "Das Straßenmusikfestival im Sommer",
+    "descripcion": "Eine Kleinstadt veranstaltet jedes Jahr ein Straßenmusikfestival, das viele Besucher anzieht.",
+    "texto": "Jeden Sommer verwandelt sich die Innenstadt von Hameln für drei Tage in eine große Bühne. Musiker aus ganz Europa reisen an, um auf den Plätzen und in den engen Gassen der Altstadt aufzutreten. Obwohl das Festival klein begonnen hat, zieht es inzwischen jedes Jahr tausende Besucher an.\n\nNachdem die ersten Konzerte um die Mittagszeit beginnen, füllen sich die Straßen nach und nach mit Menschen. Es gibt klassische Musik, Jazz und moderne Popmusik, sodass für jeden Geschmack etwas dabei ist. Viele Besucher bringen ihre eigenen Stühle mit, weil die besten Plätze schnell belegt sind.\n\nDie Organisatoren betonen immer wieder, dass das Festival kostenlos bleiben soll, auch wenn die Kosten jedes Jahr steigen. Stattdessen sammeln die Musiker Spenden, nachdem sie ihre Auftritte beendet haben. Viele Einwohner freuen sich schon lange im Voraus auf dieses besondere Ereignis, das die Stadt für ein Wochenende völlig verändert.",
+    "preguntas": [
+      {
+        "enunciado": "Das Festival findet jeden Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Musiker aus ganz Europa nehmen am Festival teil.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt nur klassische Musik beim Festival.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Eintritt zum Festival ist kostenlos.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Musiker sammeln keine Spenden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-freundschaft-trotz-der-entfernung",
+    "nivel": "B1",
+    "titulo": "Eine Freundschaft trotz der Entfernung",
+    "descripcion": "Zwei Freundinnen erzählen, wie sie ihre Freundschaft nach dem Schulabschluss aufrechterhalten haben.",
+    "texto": "Laura und Emma waren während der ganzen Schulzeit beste Freundinnen. Nachdem sie das Abitur gemacht hatten, ist Laura zum Studieren nach Hamburg gezogen, während Emma in ihrer Heimatstadt geblieben ist. Viele dachten, dass ihre Freundschaft die Entfernung nicht überstehen würde.\n\nTrotzdem haben die beiden einen Weg gefunden, in Kontakt zu bleiben. Sie telefonieren jeden Sonntagabend und erzählen sich, was in der vergangenen Woche passiert ist. Obwohl sie sich nicht mehr jeden Tag sehen können, fühlen sie sich einander genauso nah wie früher. Außerdem besucht Laura ihre Heimatstadt mindestens einmal im Monat.\n\nLetztes Jahr haben Laura und Emma zusammen Urlaub gemacht, nachdem sie sich monatelang nicht persönlich gesehen hatten. Beide waren überrascht, wie schnell sich ihre alte Vertrautheit wieder eingestellt hat. Sie sind sich sicher, dass echte Freundschaft auch große Entfernungen überstehen kann, solange beide Seiten sich darum bemühen.",
+    "preguntas": [
+      {
+        "enunciado": "Laura und Emma sind erst seit kurzer Zeit befreundet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura ist nach dem Abitur nach Hamburg gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen telefonieren jede Woche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura besucht ihre Heimatstadt nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden haben letztes Jahr gemeinsam Urlaub gemacht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "elektromobilitaet-und-ihre-grenzen",
+    "nivel": "B2",
+    "titulo": "Elektromobilität und ihre Grenzen",
+    "descripcion": "Eine Analyse der Chancen und Herausforderungen der Elektromobilität in Deutschland.",
+    "texto": "Die Elektromobilität wird seit Jahren als zentraler Baustein der Verkehrswende gepriesen, doch der Übergang vom Verbrennungsmotor zum Elektroantrieb verläuft langsamer, als es sich viele Befürworter erhofft hatten. Während die Verkaufszahlen von Elektrofahrzeugen zwar gestiegen sind, bleibt die Ladeinfrastruktur in weiten Teilen des Landes lückenhaft, was potenzielle Käufer abschreckt.\n\nHinzu kommt, dass die Herstellung der Batterien erhebliche Mengen an Rohstoffen wie Lithium und Kobalt erfordert, deren Abbau oft unter fragwürdigen ökologischen und sozialen Bedingungen stattfindet. Kritiker argumentieren daher, dass Elektroautos nur dann tatsächlich klimafreundlicher seien, wenn sowohl die Batterieproduktion als auch der verwendete Strom aus nachhaltigen Quellen stammten. Würde man diese Faktoren außer Acht lassen, entstünde ein verzerrtes Bild der tatsächlichen Umweltbilanz.\n\nBefürworter der Technologie entgegnen, dass sich sowohl die Batterietechnik als auch die Recyclingverfahren rasant weiterentwickelten. Zudem sei es wichtig, die gesamte Lebensdauer eines Fahrzeugs zu betrachten, anstatt sich nur auf die Produktionsphase zu konzentrieren. Letztlich dürfte die Zukunft der Mobilität nicht allein von einer einzigen Technologie abhängen, sondern von einem Zusammenspiel verschiedener Lösungen, zu denen auch der Ausbau des öffentlichen Nahverkehrs gehören müsste.",
+    "preguntas": [
+      {
+        "enunciado": "Die Ladeinfrastruktur ist in Deutschland bereits flächendeckend ausgebaut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Batterieproduktion erfordert den Abbau von Rohstoffen wie Lithium und Kobalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern sind Elektroautos automatisch immer klimafreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter verweisen auf Fortschritte bei Batterietechnik und Recycling.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, ausschließlich auf Elektroautos zu setzen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "fernstudium-als-alternative-zum-praesenzstudium",
+    "nivel": "B2",
+    "titulo": "Fernstudium als Alternative zum Präsenzstudium",
+    "descripcion": "Ein Beitrag über die wachsende Beliebtheit von Fernstudiengängen und ihre Herausforderungen.",
+    "texto": "Immer mehr Menschen entscheiden sich für ein Fernstudium, anstatt an einer klassischen Präsenzuniversität zu studieren. Besonders Berufstätige und Eltern schätzen die Flexibilität, die ihnen ermöglicht wird, da Vorlesungen und Prüfungen oft zeitlich unabhängig absolviert werden können. Dadurch lässt sich ein Studium leichter mit familiären und beruflichen Verpflichtungen vereinbaren.\n\nAllerdings wird von Fernstudierenden ein hohes Maß an Selbstdisziplin verlangt, das im Präsenzstudium durch feste Stundenpläne und den sozialen Druck der Kommilitonen teilweise ersetzt wird. Ohne regelmäßigen persönlichen Kontakt zu Dozenten und Kommilitonen fühlen sich manche Studierende isoliert, was sich negativ auf die Motivation auswirken kann. Aus diesem Grund bieten viele Fernuniversitäten inzwischen virtuelle Lerngruppen an, in denen Erfahrungen ausgetauscht werden können.\n\nOb ein Fernstudium die richtige Wahl ist, hängt letztlich stark von der individuellen Lebenssituation ab. Während es für manche die einzige Möglichkeit darstellt, überhaupt einen akademischen Abschluss zu erwerben, würden andere die direkte Interaktion einer Präsenzuniversität vermissen. Entscheidend dürfte sein, inwieweit die jeweilige Person in der Lage ist, sich selbst zu organisieren und langfristig motiviert zu bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Ein Fernstudium erfordert weniger Selbstdisziplin als ein Präsenzstudium.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Berufstätige schätzen die zeitliche Flexibilität eines Fernstudiums.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche Fernstudierende fühlen sich wegen des fehlenden persönlichen Kontakts isoliert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fernuniversitäten bieten laut Text keine virtuellen Lerngruppen an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, dass ein Fernstudium für alle Menschen die beste Wahl sei.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-eine-kuerzere-arbeitswoche",
+    "nivel": "B2",
+    "titulo": "Die Debatte um eine kürzere Arbeitswoche",
+    "descripcion": "Gewerkschaften und Arbeitgeber streiten über die Einführung der Vier-Tage-Woche.",
+    "texto": "In mehreren europäischen Ländern wird derzeit intensiv diskutiert, ob die klassische Fünf-Tage-Woche durch eine Vier-Tage-Woche ersetzt werden sollte, ohne dass die Mitarbeitenden dabei Gehaltseinbußen hinnehmen müssten. Befürworter argumentieren, dass kürzere Arbeitszeiten nicht nur die Lebensqualität verbesserten, sondern paradoxerweise sogar die Produktivität steigern könnten, da ausgeruhte Beschäftigte konzentrierter arbeiteten.\n\nMehrere Pilotprojekte, in denen Unternehmen die Vier-Tage-Woche getestet haben, scheinen diese These zu bestätigen. In vielen Fällen blieb die Produktivität gleich oder stieg sogar leicht an, während die Mitarbeitenden von weniger Stress und einer besseren Work-Life-Balance berichteten. Dennoch weisen Kritiker darauf hin, dass sich die Ergebnisse solcher Projekte nicht ohne Weiteres auf alle Branchen übertragen ließen, insbesondere nicht auf das Gesundheitswesen oder die Produktion.\n\nArbeitgeberverbände warnen zudem davor, dass eine verkürzte Arbeitswoche den bereits bestehenden Fachkräftemangel in manchen Branchen noch verschärfen würde, da dieselbe Arbeitsmenge auf weniger Stunden verteilt werden müsste. Ob sich die Vier-Tage-Woche tatsächlich flächendeckend durchsetzen wird, bleibt daher ungewiss, auch wenn immer mehr Unternehmen bereit zu sein scheinen, neue Arbeitsmodelle auszuprobieren.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Vier-Tage-Woche fordern gleichzeitig eine Gehaltskürzung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In einigen Pilotprojekten blieb die Produktivität trotz kürzerer Arbeitszeit gleich oder stieg an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern lassen sich die Ergebnisse problemlos auf alle Branchen übertragen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Arbeitgeberverbände befürchten eine Verschärfung des Fachkräftemangels.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die Vier-Tage-Woche bereits überall eingeführt wurde.",
+        "respuesta": false
+      }
+    ]
   }
 ]
