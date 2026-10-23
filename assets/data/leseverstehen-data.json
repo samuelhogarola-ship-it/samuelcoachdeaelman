@@ -69722,5 +69722,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-tierpark",
+    "nivel": "A1",
+    "titulo": "Im Tierpark",
+    "descripcion": "Eine Familie besucht am Wochenende den Tierpark und sieht viele Tiere.",
+    "texto": "Familie Schmidt besucht am Samstag den Tierpark. Die Kinder Emma und Ben sind sehr aufgeregt. Zuerst sehen sie die Elefanten. Die Elefanten sind sehr groß und grau. Dann gehen sie zu den Affen. Die Affen klettern schnell auf die Bäume.\n\nBen mag die Löwen am meisten. Die Löwen schlafen in der Sonne. Emma findet die Pinguine lustig, weil sie komisch laufen. Die Familie kauft Popcorn und setzt sich auf eine Bank. Von dort sehen sie auch die Giraffen essen.\n\nAm Ende des Tages kaufen die Eltern noch ein kleines Stofftier für jedes Kind. Ben bekommt einen Löwen, und Emma bekommt einen Pinguin. Die Kinder sind sehr zufrieden und wollen bald wiederkommen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie besucht den Tierpark am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben mag die Affen am meisten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Pinguine laufen komisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie kauft kein Popcorn.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma bekommt ein Pinguin-Stofftier.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-in-der-redaktion",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum in der Redaktion",
+    "descripcion": "Felix berichtet von seinem Praktikum bei einer Zeitung und was er dort gelernt hat.",
+    "texto": "Felix hat vor einem Monat ein dreiwöchiges Praktikum bei einer regionalen Zeitung begonnen. Nachdem er sich zunächst unsicher fühlte, wie der Arbeitsalltag in einer Redaktion aussieht, wurde er schon am ersten Tag herzlich von seinen Kollegen aufgenommen. Seine Aufgabe war es, kleinere Artikel über lokale Veranstaltungen zu schreiben.\n\nObwohl Felix anfangs Schwierigkeiten hatte, die richtigen Worte zu finden, verbesserte sich sein Schreibstil von Tag zu Tag. Besonders spannend fand er es, als er einen Lokalpolitiker interviewen durfte. Dieses Interview war seine erste echte journalistische Aufgabe, und er bereitete sich deshalb sehr sorgfältig vor.\n\nAm Ende des Praktikums war Felix stolz, dass drei seiner Artikel tatsächlich in der Zeitung veröffentlicht wurden. Seine Chefin lobte seine schnelle Entwicklung und schlug ihm vor, sich nach dem Abitur um ein Volontariat zu bewerben. Felix überlegt nun ernsthaft, Journalismus zu seinem Beruf zu machen.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat ein dreiwöchiges Praktikum gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix wurde am ersten Tag von den Kollegen schlecht behandelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix durfte einen Lokalpolitiker interviewen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Keiner seiner Artikel wurde veröffentlicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Chefin schlug ihm ein Volontariat vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wohnraummangel-in-deutschen-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Wohnraummangel in deutschen Großstädten",
+    "descripcion": "Warum bezahlbarer Wohnraum in vielen deutschen Städten zunehmend knapp wird.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich der Wohnungsmarkt in den letzten Jahren spürbar zugespitzt. Steigende Mieten und ein begrenztes Angebot führen dazu, dass vor allem einkommensschwächere Haushalte zunehmend Schwierigkeiten haben, eine bezahlbare Wohnung zu finden. Besonders betroffen sind Studierende, Alleinerziehende und Rentnerinnen und Rentner, deren Einkommen oft nicht mit den steigenden Mietpreisen Schritt halten kann.\n\nAls Hauptursache wird häufig der jahrelange Rückgang des sozialen Wohnungsbaus genannt. Während in den 1970er- und 1980er-Jahren noch zahlreiche öffentlich geförderte Wohnungen entstanden, wurde dieser Bereich in den folgenden Jahrzehnten stark vernachlässigt, sodass das Angebot mit der wachsenden Nachfrage in vielen Regionen nicht mehr Schritt halten konnte. Hinzu kommt, dass Bauland in begehrten Lagen zunehmend knapp und entsprechend teuer geworden ist, was Neubauprojekte zusätzlich erschwert.\n\nUm der Wohnungsnot entgegenzuwirken, fordern Expertinnen und Experten unter anderem eine Reform der Mietpreisbremse sowie verstärkte Investitionen in den sozialen Wohnungsbau. Manche Städte setzen zudem auf eine Mietpreisobergrenze oder auf die Umwandlung leerstehender Bürogebäude in Wohnraum. Ob diese Maßnahmen ausreichen würden, um den Druck auf dem Wohnungsmarkt tatsächlich zu verringern, wird in der Politik jedoch weiterhin kontrovers diskutiert.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wohnungsmarkt in deutschen Großstädten hat sich entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Studierende und Alleinerziehende gehören zu den besonders betroffenen Gruppen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der soziale Wohnungsbau wurde laut Text über Jahrzehnte stark vernachlässigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bauland in begehrten Lagen ist laut Text billiger geworden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Politik besteht völlige Einigkeit über die richtigen Maßnahmen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-flohmarkt-im-stadtpark",
+    "nivel": "A1",
+    "titulo": "Der Flohmarkt im Stadtpark",
+    "descripcion": "Jana verkauft alte Spielsachen auf dem Flohmarkt im Stadtpark.",
+    "texto": "Am Samstag ist Flohmarkt im Stadtpark. Jana packt alte Spielsachen, Bücher und eine kleine Lampe in eine große Tasche. Sie möchte die Sachen verkaufen, weil sie Platz in ihrem Zimmer braucht. Ihr Vater hilft ihr, einen Tisch aufzustellen.\n\nViele Leute kommen zum Flohmarkt. Eine Frau kauft das rote Fahrrad von Janas Bruder. Ein Mann kauft drei Bücher für zwei Euro. Jana verkauft auch ihre alte Puppe an ein kleines Mädchen. Das Mädchen ist sehr froh.\n\nAm Ende des Tages hat Jana zwanzig Euro verdient. Sie kauft sich damit ein neues Spiel für den Computer. Ihr Vater ist stolz auf sie, weil sie so fleißig war.",
+    "preguntas": [
+      {
+        "enunciado": "Der Flohmarkt ist am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana verkauft neue Spielsachen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Mann kauft zwei Bücher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana verkauft ihre alte Puppe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana kauft sich am Ende ein neues Spiel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingspullover",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingspullover",
+    "descripcion": "Felix erzählt von seinem warmen Lieblingspullover und einem kleinen Problem damit.",
+    "texto": "Felix hat einen grünen Pullover. Es ist sein Lieblingspullover, weil er sehr warm ist. Felix trägt ihn fast jeden Tag im Winter. Seine Mutter hat den Pullover vor zwei Jahren gekauft.\n\nEines Tages findet Felix ein kleines Loch am Ärmel. Er ist sehr traurig, denn er mag den Pullover sehr. Seine Mutter sagt: „Keine Sorge, ich kann das Loch reparieren.\" Sie nimmt eine Nadel und grünen Faden.\n\nAm Abend ist der Pullover wieder ganz. Felix freut sich sehr und zieht ihn sofort an. Er sagt: „Danke, Mama! Jetzt kann ich meinen Lieblingspullover wieder tragen.\"",
+    "preguntas": [
+      {
+        "enunciado": "Der Pullover von Felix ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix trägt den Pullover oft im Winter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix findet ein Loch am Kragen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter repariert den Pullover.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix will den Pullover nicht mehr tragen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-missverstaendnis-am-telefon",
+    "nivel": "A2",
+    "titulo": "Ein Missverständnis am Telefon",
+    "descripcion": "Peter hat einen Termin falsch verstanden und steht vor einer geschlossenen Praxis.",
+    "texto": "Peter hat gestern mit seiner Ärztin telefoniert, um einen Termin zu vereinbaren. Er hat verstanden, dass der Termin am Donnerstag um neun Uhr ist. Heute, am Donnerstag, ist er pünktlich zur Praxis gefahren, aber die Tür war geschlossen.\n\nPeter war sehr verwirrt und hat noch einmal in der Praxis angerufen. Die Sprechstundenhilfe hat ihm erklärt, dass der Termin eigentlich für Freitag geplant war, weil die Praxis am Donnerstag geschlossen ist. Peter hat sich entschuldigt, weil er das wohl falsch verstanden hatte.\n\nAm Freitag ist Peter wieder zur Praxis gefahren, diesmal zur richtigen Zeit. Die Ärztin hat ihn freundlich begrüßt und die Untersuchung hat ohne Probleme stattgefunden. Peter hat sich vorgenommen, Termine in Zukunft immer schriftlich zu notieren.",
+    "preguntas": [
+      {
+        "enunciado": "Peter hat am Telefon einen Termin vereinbart.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Praxis war am Donnerstag geöffnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der richtige Termin war am Freitag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Peter ist am Freitag nicht zur Praxis gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Peter will Termine in Zukunft schriftlich notieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarin-mit-der-katze",
+    "nivel": "A2",
+    "titulo": "Die Nachbarin mit der Katze",
+    "descripcion": "Simone kümmert sich während des Urlaubs ihrer Nachbarin um deren Katze.",
+    "texto": "Simones Nachbarin Frau Petersen ist letzte Woche für zehn Tage in den Urlaub gefahren. Weil sie niemanden für ihre Katze Mimi hatte, hat sie Simone gefragt, ob diese sich kümmern könnte. Simone hat sofort Ja gesagt, weil sie Katzen sehr mag.\n\nJeden Morgen ist Simone vor der Arbeit kurz in die Wohnung von Frau Petersen gegangen, um Mimi zu füttern und frisches Wasser zu geben. Am Anfang war die Katze schüchtern und hat sich unter dem Sofa versteckt. Nach ein paar Tagen ist Mimi jedoch viel zutraulicher geworden, weil Simone immer ruhig und geduldig mit ihr gesprochen hat.\n\nAls Frau Petersen aus dem Urlaub zurückkam, war sie sehr glücklich, dass Mimi gesund und munter aussah. Zum Dank hat sie Simone zu einem Kaffee eingeladen und ihr ein kleines Geschenk aus dem Urlaub mitgebracht. Simone hat sich sehr gefreut und angeboten, auch beim nächsten Urlaub wieder zu helfen.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Petersen ist zehn Tage im Urlaub gewesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simone mag keine Katzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi war am Anfang sehr zutraulich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Petersen hat Simone zum Dank eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Simone möchte beim nächsten Urlaub nicht wieder helfen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-im-planetarium",
+    "nivel": "A2",
+    "titulo": "Ein Besuch im Planetarium",
+    "descripcion": "Tobias besucht mit seiner Klasse das Planetarium und lernt viel über die Sterne.",
+    "texto": "Letzten Donnerstag ist Tobias mit seiner Klasse zum Planetarium gefahren. Er hat sich sehr darauf gefreut, weil er sich schon lange für Sterne und Planeten interessiert. Im Planetarium haben sich alle Schüler in bequeme Sessel gesetzt und nach oben geschaut.\n\nEin Mitarbeiter hat erklärt, wie die Planeten unseres Sonnensystems heißen und wie weit sie von der Erde entfernt sind. Tobias fand es besonders spannend, als auf der großen Kuppel ein künstlicher Sternenhimmel gezeigt wurde, der genauso aussah wie der echte Himmel in einer klaren Nacht. Einige Schüler haben sogar laut gestaunt, weil die Bilder so echt wirkten.\n\nAm Ende der Vorführung durften die Schüler Fragen stellen. Tobias hat gefragt, ob es auf dem Mars Leben geben könnte, und der Mitarbeiter hat ihm ausführlich geantwortet. Auf der Rückfahrt in die Schule hat Tobias seinen Freunden begeistert von dem Mars erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias ist mit seiner Klasse ins Planetarium gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias interessiert sich nicht für Sterne.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Planetarium wurde ein künstlicher Sternenhimmel gezeigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler durften keine Fragen stellen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hat nach Leben auf dem Mars gefragt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-im-sportverein",
+    "nivel": "B1",
+    "titulo": "Der erste Tag im Sportverein",
+    "descripcion": "Jonas tritt einem Volleyballverein bei, obwohl er zunächst sehr nervös ist.",
+    "texto": "Nachdem Jonas monatelang überlegt hatte, ob er einem Sportverein beitreten sollte, hat er sich endlich entschieden, beim örtlichen Volleyballverein mitzutrainieren. Am ersten Trainingsabend war er so nervös, dass er fast nicht hingefahren wäre, obwohl ihn seine Schwester ermutigt hatte, es wenigstens einmal zu versuchen.\n\nAls er in der Sporthalle ankam, wurde er freundlich von den anderen Spielern begrüßt, die bereits seit Jahren zusammen trainierten. Trotz seiner Unsicherheit merkte Jonas schnell, dass die Gruppe sehr offen war und ihm half, die Grundtechniken des Spiels zu lernen. Besonders der Trainer nahm sich viel Zeit, um ihm die wichtigsten Regeln zu erklären.\n\nAm Ende des Abends war Jonas erschöpft, aber auch überraschend glücklich. Er hatte zwar viele Fehler gemacht, doch niemand hatte ihn deswegen kritisiert. Auf dem Heimweg beschloss er, auch zum nächsten Training zu gehen, weil er zum ersten Mal seit langer Zeit wieder richtig Spaß am Sport hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist einem Volleyballverein beigetreten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas war am ersten Abend völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die anderen Spieler haben Jonas unfreundlich behandelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Trainer hat sich Zeit genommen, um die Regeln zu erklären.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat beschlossen, nicht mehr zum Training zu gehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fotoausstellung-im-rathaus",
+    "nivel": "B1",
+    "titulo": "Die Fotoausstellung im Rathaus",
+    "descripcion": "Eine junge Fotografin stellt ihre Bilder zum ersten Mal öffentlich im Rathaus aus.",
+    "texto": "Seit zwei Jahren fotografiert Laura in ihrer Freizeit die Architektur ihrer Heimatstadt. Nachdem sie unzählige Bilder gesammelt hatte, bewarb sie sich schließlich mit großer Unsicherheit um eine kleine Ausstellung im örtlichen Rathaus. Zu ihrer Überraschung wurde ihre Bewerbung angenommen, obwohl sie keine professionelle Ausbildung als Fotografin hatte.\n\nIn den Wochen vor der Eröffnung musste Laura zwanzig ihrer besten Fotos auswählen und passend rahmen lassen. Dies war schwieriger, als sie erwartet hatte, da sie an fast jedem Bild etwas verbessern wollte. Nachdem die Bilder endlich an den Wänden hingen, fühlte sie sich zugleich stolz und nervös vor der Eröffnung.\n\nAm Abend der Vernissage kamen deutlich mehr Besucher, als Laura erwartet hatte, darunter auch der Bürgermeister. Viele Gäste lobten besonders ihre ungewöhnlichen Perspektiven auf bekannte Gebäude der Stadt. Am Ende des Abends hatte Laura bereits drei Anfragen für weitere Ausstellungen erhalten, worüber sie sich riesig freute.",
+    "preguntas": [
+      {
+        "enunciado": "Laura fotografiert seit zwei Jahren die Architektur ihrer Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura hat eine professionelle Fotografenausbildung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Auswählen der Fotos war für Laura sehr einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bürgermeister kam zur Eröffnung der Ausstellung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura erhielt am Ende keine weiteren Anfragen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-gentrifizierung-deutscher-stadtviertel",
+    "nivel": "B2",
+    "titulo": "Die Gentrifizierung deutscher Stadtviertel",
+    "descripcion": "Ein Text über den Wandel beliebter Stadtviertel und seine Folgen für die angestammte Bevölkerung.",
+    "texto": "In vielen deutschen Großstädten lässt sich seit Jahren ein ähnliches Muster beobachten: Zunächst ziehen Künstlerinnen, Studierende und junge Kreative in ein bisher wenig beachtetes, oft heruntergekommenes Stadtviertel, weil die Mieten dort günstig sind. Durch ihre Präsenz entstehen allmählich neue Cafés, kleine Galerien und alternative Läden, wodurch das Viertel zunehmend attraktiver und bekannter wird. Dieser Prozess, der in der Stadtforschung als Gentrifizierung bezeichnet wird, bringt jedoch erhebliche Folgen mit sich.\n\nSobald ein Viertel als angesagt gilt, steigen in der Regel sowohl die Mietpreise als auch die Immobilienwerte deutlich an. Wer das Viertel ursprünglich geprägt hat, kann sich die steigenden Mieten häufig nicht mehr leisten und wird gezwungen, in günstigere Stadtteile umzuziehen. Dadurch verändert sich die soziale Zusammensetzung des Viertels grundlegend, während zugleich oft genau jene Kreativen verdrängt werden, die zu seiner Aufwertung beigetragen hatten.\n\nUm diesen Verdrängungsprozess abzumildern, diskutieren Stadtverwaltungen verschiedene Instrumente, etwa Mietpreisbindungen für einen bestimmten Anteil der Wohnungen oder den Erhalt von Sozialwohnungen in besonders betroffenen Gebieten. Dennoch bleibt fraglich, ob solche Maßnahmen ausreichen, um die tiefgreifenden wirtschaftlichen Mechanismen hinter der Gentrifizierung wirksam zu bremsen, zumal der Zuzug in attraktive Städte vermutlich weiter anhalten wird.",
+    "preguntas": [
+      {
+        "enunciado": "Gentrifizierung beginnt laut Text oft mit dem Zuzug junger Kreativer in günstige Viertel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Steigende Mietpreise sind laut Text eine typische Folge der Gentrifizierung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die ursprünglichen Bewohner können sich die steigenden Mieten laut Text meist weiterhin leisten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text diskutieren Stadtverwaltungen Mietpreisbindungen als mögliches Instrument.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem sei durch bisherige Maßnahmen bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "algorithmen-und-ihre-macht-ueber-nachrichten",
+    "nivel": "B2",
+    "titulo": "Algorithmen und ihre Macht über Nachrichten",
+    "descripcion": "Ein Text darüber, wie Algorithmen sozialer Netzwerke bestimmen, welche Nachrichten wir sehen.",
+    "texto": "Für einen wachsenden Teil der Bevölkerung sind soziale Netzwerke längst zur wichtigsten Nachrichtenquelle geworden, noch vor klassischen Zeitungen oder dem Fernsehen. Welche Beiträge dabei in den persönlichen Nachrichtenfluss gelangen, entscheidet jedoch nicht etwa eine Redaktion, sondern ein Algorithmus, der aus dem bisherigen Nutzerverhalten Vorlieben ableitet und darauf basierend Inhalte auswählt. Diese algorithmische Kuratierung bleibt für die meisten Nutzerinnen und Nutzer weitgehend unsichtbar, obwohl sie maßgeblich beeinflusst, welches Bild von der Welt sich jemand verschafft.\n\nKritiker dieser Entwicklung warnen vor sogenannten Filterblasen, innerhalb derer vor allem Inhalte angezeigt werden, die den bereits bestehenden Ansichten einer Person entsprechen. Da Algorithmen in erster Linie darauf optimiert sind, die Verweildauer der Nutzer zu maximieren, würden zudem oft besonders emotionale oder polarisierende Beiträge bevorzugt dargestellt, selbst wenn diese journalistisch wenig fundiert seien. Dies könne, so die Befürchtung, gesellschaftliche Spaltungen zusätzlich verschärfen.\n\nAndere Stimmen relativieren diese Sorge und verweisen darauf, dass Studien zur tatsächlichen Wirkung von Filterblasen bislang uneinheitliche Ergebnisse liefern. Dennoch fordern zahlreiche Medienwissenschaftlerinnen und -wissenschaftler mehr Transparenz darüber, nach welchen Kriterien Plattformen Inhalte auswählen, damit Nutzerinnen und Nutzer die Mechanismen hinter ihrem eigenen Nachrichtenkonsum besser verstehen und bei Bedarf hinterfragen können.",
+    "preguntas": [
+      {
+        "enunciado": "Für viele Menschen sind soziale Netzwerke mittlerweile die wichtigste Nachrichtenquelle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text entscheidet eine Redaktion, welche Beiträge Nutzer sehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker warnen vor sogenannten Filterblasen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien liefern laut Text einheitliche Ergebnisse zur Wirkung von Filterblasen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienwissenschaftler fordern mehr Transparenz über die Auswahlkriterien der Plattformen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
