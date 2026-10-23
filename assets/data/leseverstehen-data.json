@@ -68678,5 +68678,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-hamster-von-mia",
+    "nivel": "A1",
+    "titulo": "Der Hamster von Mia",
+    "descripcion": "Mia hat einen kleinen Hamster und erzählt von ihrem Alltag mit ihm.",
+    "texto": "Mia ist acht Jahre alt. Sie hat einen kleinen Hamster. Der Hamster heißt Keks. Keks ist braun und weiß. Er wohnt in einem Käfig in Mias Zimmer.\n\nJeden Morgen gibt Mia dem Hamster Wasser und Futter. Keks isst gerne Karotten und Nüsse. Am Abend spielt Mia mit Keks. Sie nimmt ihn auf die Hand und streichelt ihn.\n\nAm Wochenende putzt Mia den Käfig. Das macht sie mit ihrer Mutter zusammen. „Keks ist mein bester Freund\", sagt Mia. Die ganze Familie liebt den kleinen Hamster.",
+    "preguntas": [
+      {
+        "enunciado": "Mia hat eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hamster heißt Keks.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Keks isst gerne Karotten und Nüsse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia putzt den Käfig allein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia spielt am Abend mit dem Hamster.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "opas-gemuesegarten",
+    "nivel": "A1",
+    "titulo": "Opas Gemüsegarten",
+    "descripcion": "Opa hat einen Garten mit Gemüse und die Kinder helfen ihm gerne.",
+    "texto": "Opa hat einen großen Garten. Im Garten wachsen Tomaten, Karotten und Salat. Die Tomaten sind rot, die Karotten sind orange und der Salat ist grün.\n\nJeden Samstag kommen die Kinder zu Opa. Sie helfen ihm im Garten. Lena gießt die Pflanzen mit Wasser. Tim sammelt die reifen Tomaten in einen Korb.\n\nNach der Arbeit essen alle zusammen im Garten. Oma macht einen frischen Salat mit dem Gemüse. „Das Essen aus dem Garten schmeckt am besten\", sagt Opa. Die Kinder lachen und essen gerne mit.",
+    "preguntas": [
+      {
+        "enunciado": "Im Garten wachsen nur Blumen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena gießt die Pflanzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim sammelt die Tomaten in einen Korb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder kommen jeden Tag zu Opa.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma macht einen Salat mit dem Gemüse.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-torte-fuer-omas-geburtstag",
+    "nivel": "A1",
+    "titulo": "Die Torte für Omas Geburtstag",
+    "descripcion": "Die Familie backt gemeinsam eine Torte für Omas Geburtstag.",
+    "texto": "Oma hat heute Geburtstag. Die ganze Familie trifft sich in der Küche. Mama und die Kinder backen eine Torte für Oma. Die Torte ist braun und hat viel Schokolade.\n\nPaul mischt die Eier und das Mehl. Seine Schwester Sofia wäscht die Erdbeeren. Die Erdbeeren sind rot und süß. Papa stellt die Torte in den Ofen.\n\nAm Nachmittag ist die Torte fertig. Die Familie singt ein Geburtstagslied für Oma. Oma lächelt und sagt: „Diese Torte ist wunderbar! Danke, meine Lieben.\" Alle essen zusammen ein großes Stück Torte.",
+    "preguntas": [
+      {
+        "enunciado": "Oma hat heute Geburtstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Torte ist aus Vanille.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofia wäscht die Erdbeeren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Papa backt die Torte nicht im Ofen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie singt ein Geburtstagslied.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-regenschirm-im-buero",
+    "nivel": "A2",
+    "titulo": "Der Regenschirm im Büro",
+    "descripcion": "Herr Weber hat seinen Regenschirm im Büro vergessen und erlebt einen nassen Nachmittag.",
+    "texto": "Herr Weber hat gestern im Büro gearbeitet. Als er am Nachmittag nach Hause gehen wollte, hat es stark geregnet. Er hat nach seinem Regenschirm gesucht, aber er hat ihn nicht gefunden. Der Regenschirm ist zu Hause geblieben.\n\nWeil es so stark geregnet hat, ist Herr Weber ohne Schirm nach draußen gegangen. Nach wenigen Minuten war er völlig nass. Zum Glück hat eine Kollegin, Frau Klein, ihn gesehen und ihm ihren Schirm angeboten. „Nimm meinen Schirm, ich fahre mit dem Auto\", hat sie gesagt.\n\nHerr Weber hat sich sehr gefreut und ist trocken nach Hause gekommen. Am nächsten Tag hat er Frau Klein ein kleines Geschenk mitgebracht, weil er sich bedanken wollte. Seitdem lässt er immer einen Regenschirm im Büro liegen, falls es wieder regnet.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber hatte seinen Regenschirm im Büro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat am Nachmittag stark geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Klein hat Herrn Weber ihren Schirm gegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber ist nass nach Hause gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber lässt jetzt immer einen Schirm im Büro.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kaputte-fahrstuhl",
+    "nivel": "A2",
+    "titulo": "Der kaputte Fahrstuhl",
+    "descripcion": "Im Wohnhaus von Familie Schmidt ist der Fahrstuhl kaputt und die Nachbarn müssen die Treppe benutzen.",
+    "texto": "Familie Schmidt wohnt im sechsten Stock eines großen Wohnhauses. Letzte Woche ist der Fahrstuhl kaputt gegangen. Alle Bewohner mussten die Treppe benutzen, weil es keinen anderen Weg gab.\n\nHerr Schmidt war zuerst sehr ärgerlich, weil er mit schweren Einkaufstaschen die Treppe hochgehen musste. Seine Nachbarin, Frau Vogel, hat ihm oft geholfen und eine Tasche getragen. Dadurch haben sich die beiden besser kennengelernt und öfter miteinander gesprochen.\n\nNach drei Tagen ist der Techniker gekommen und hat den Fahrstuhl repariert. Obwohl die Reparatur lange gedauert hat, war die Zeit nicht nur schlecht. Herr Schmidt hat gesagt, dass er jetzt seine Nachbarn viel besser kennt als vorher.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Schmidt wohnt im Erdgeschoss.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Fahrstuhl war eine Woche kaputt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Vogel hat Herrn Schmidt geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Techniker hat den Fahrstuhl repariert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Schmidt kennt seine Nachbarn jetzt besser.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-verspaetete-postsendung",
+    "nivel": "A2",
+    "titulo": "Die verspätete Postsendung",
+    "descripcion": "Clara wartet auf ein Paket von ihrer Schwester, aber die Post kommt nicht rechtzeitig an.",
+    "texto": "Clara hat vor zwei Wochen ein Paket von ihrer Schwester bestellt. Ihre Schwester wohnt in Kanada und hat ihr ein Geschenk zum Geburtstag geschickt. Clara hat sich sehr gefreut, aber das Paket ist nicht pünktlich angekommen.\n\nAm Tag ihres Geburtstags hat Clara den ganzen Nachmittag auf den Postboten gewartet. Sie war ein bisschen traurig, weil das Geschenk nicht da war. Sie hat ihrer Schwester geschrieben, dass sie nichts bekommen hat.\n\nZwei Tage später hat es endlich geklingelt. Der Postbote hatte das Paket aus Kanada gebracht. Clara hat sich riesig gefreut und sofort ihre Schwester angerufen. „Es war die Reise wert, auch wenn es etwas gedauert hat\", hat Clara gesagt.",
+    "preguntas": [
+      {
+        "enunciado": "Claras Schwester wohnt in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Paket ist genau am Geburtstag angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara war traurig, weil das Geschenk fehlte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara hat ihrer Schwester nichts geschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Paket ist zwei Tage nach dem Geburtstag angekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-erstes-jahr-als-austauschstudent-in-leipzig",
+    "nivel": "B1",
+    "titulo": "Mein erstes Jahr als Austauschstudent in Leipzig",
+    "descripcion": "Ein kolumbianischer Student berichtet über sein erstes Jahr an der Universität Leipzig.",
+    "texto": "Als ich vor einem Jahr nach Leipzig gekommen bin, kannte ich niemanden in der Stadt. Ich hatte mich für ein Austauschjahr an der Universität beworben, obwohl ich nur wenig Deutsch sprechen konnte. In den ersten Wochen war alles fremd: die Sprache, das Essen, sogar das Wetter.\n\nNachdem ich einen Sprachkurs an der Universität besucht hatte, wurde vieles einfacher. Ich habe andere internationale Studenten kennengelernt, mit denen ich bis heute befreundet bin. Trotzdem war es nicht immer leicht, weil ich oft Heimweh hatte und meine Familie in Kolumbien vermisste. Besonders die ersten Weihnachtsferien ohne meine Eltern waren schwierig für mich.\n\nMit der Zeit habe ich die Stadt und ihre Menschen schätzen gelernt. Meine deutschen Mitbewohner haben mir geholfen, mich einzuleben, und wir kochen jetzt regelmäßig zusammen. Obwohl mein Deutsch immer noch nicht perfekt ist, fühle ich mich inzwischen fast wie zu Hause. Ich bin sicher, dass dieses Jahr mein Leben verändert hat.",
+    "preguntas": [
+      {
+        "enunciado": "Der Student kannte am Anfang viele Leute in Leipzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Sprachkurs hat ihm geholfen, sich besser zu verständigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hatte nie Heimweh während des Austauschjahres.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine deutschen Mitbewohner haben ihm beim Einleben geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Textes spricht der Student schon perfekt Deutsch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-chorauftritt-im-altenheim",
+    "nivel": "B1",
+    "titulo": "Der Chorauftritt im Altenheim",
+    "descripcion": "Eine Schulklasse bereitet einen Chorauftritt für die Bewohner eines Altenheims vor.",
+    "texto": "Die Musiklehrerin Frau Berger hatte die Idee, mit ihrer Klasse ein kleines Konzert in einem Altenheim in der Nähe der Schule zu geben. Obwohl einige Schüler zuerst wenig Interesse zeigten, änderte sich das schnell, als sie mit den Proben begannen. Jede Woche übten sie zwei Stunden lang bekannte Lieder, die den älteren Bewohnern gefallen sollten.\n\nAm Tag des Auftritts waren viele Schüler nervös, weil sie noch nie vor einem fremden Publikum gesungen hatten. Nachdem der Chor die ersten Töne gesungen hatte, verschwand die Nervosität jedoch schnell. Die Bewohner des Altenheims klatschten begeistert und sangen bei manchen Liedern sogar mit. Eine ältere Dame erzählte den Schülern nach dem Konzert, dass sie seit Jahren nicht mehr so gute Laune gehabt habe.\n\nFür die Schüler war der Nachmittag eine besondere Erfahrung. Trotzdem der Auftritt anstrengend war, wollten viele von ihnen das Projekt im nächsten Jahr wiederholen. Frau Berger war stolz darauf, dass ihre Klasse nicht nur Musik gemacht, sondern auch anderen Menschen eine Freude gemacht hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Schüler waren von Anfang an begeistert von der Idee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Chor hat zwei Stunden pro Woche geprobt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bewohner des Altenheims haben bei manchen Liedern mitgesungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Konzert war niemand von den Bewohnern beeindruckt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Schüler wollten das Projekt im nächsten Jahr wiederholen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wg-mit-drei-sprachen",
+    "nivel": "B1",
+    "titulo": "Die WG mit drei Sprachen",
+    "descripcion": "Drei Studentinnen aus unterschiedlichen Ländern teilen sich eine Wohnung und lernen voneinander.",
+    "texto": "Lea, Nadia und Yuki teilen sich seit einem Jahr eine Wohnung in Köln. Lea kommt aus Deutschland, Nadia aus Marokko und Yuki aus Japan. Zu Hause sprechen sie meistens Deutsch, aber manchmal mischen sich auch arabische und japanische Wörter in ihre Gespräche.\n\nAm Anfang gab es kleine Missverständnisse, weil jede von ihnen andere Gewohnheiten hatte. Nadia war es wichtig, vor dem Essen gemeinsam zu kochen, während Yuki lieber früh schlafen ging. Nachdem sie einige Wochen zusammengewohnt hatten, fanden sie jedoch einen Weg, sich gegenseitig zu respektieren und Kompromisse zu finden.\n\nHeute organisieren sie regelmäßig einen „internationalen Abend\", an dem jede ein typisches Gericht aus ihrem Land kocht. Obwohl sie aus so unterschiedlichen Kulturen kommen, sind sie inzwischen enge Freundinnen geworden. Lea sagt, dass sie durch die WG mehr über die Welt gelernt habe als in jedem Geografieunterricht.",
+    "preguntas": [
+      {
+        "enunciado": "Die drei Frauen kommen alle aus Deutschland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang gab es wegen unterschiedlicher Gewohnheiten kleine Missverständnisse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Yuki wollte immer sehr spät schlafen gehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie organisieren einen internationalen Abend mit typischen Gerichten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea findet, dass sie durch die WG viel gelernt hat.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice-und-der-wandel-der-teamkultur",
+    "nivel": "B2",
+    "titulo": "Homeoffice und der Wandel der Teamkultur",
+    "descripcion": "Ein Artikel über die Auswirkungen des Homeoffice auf Zusammenhalt und Kommunikation in Unternehmen.",
+    "texto": "Seit immer mehr Unternehmen ihren Beschäftigten erlauben, von zu Hause aus zu arbeiten, hat sich die Art, wie Teams zusammenarbeiten, grundlegend verändert. Während Befürworter des Homeoffice vor allem die gewonnene Flexibilität und die Zeitersparnis durch den fehlenden Arbeitsweg betonen, weisen Kritiker darauf hin, dass der informelle Austausch zwischen Kolleginnen und Kollegen zunehmend verloren gehe.\n\nBesonders betroffen seien davon neue Mitarbeitende, die sich in einem rein digitalen Umfeld schwerer in ein Team integrieren könnten. Studien deuten darauf hin, dass spontane Gespräche an der Kaffeemaschine oder in der Mittagspause, die früher beiläufig Vertrauen schufen, im Homeoffice kaum ersetzt werden können. Manche Firmen versuchen deshalb, mit virtuellen Kaffeepausen oder gelegentlichen Präsenztagen gegenzusteuern, wobei der Erfolg solcher Maßnahmen umstritten bleibt.\n\nGleichzeitig berichten zahlreiche Beschäftigte, dass sie im Homeoffice konzentrierter arbeiten könnten, da Ablenkungen durch Großraumbüros wegfielen. Es wird daher immer deutlicher, dass es keine einheitliche Lösung gibt, die für alle Branchen und Unternehmenskulturen gleich gut funktioniert. Vielmehr müsste jedes Unternehmen individuell abwägen, welches Modell zu seinen Mitarbeitenden und seiner Arbeitsweise passt, anstatt pauschale Vorgaben zu machen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text sind sich alle Experten einig, dass Homeoffice nur Vorteile bringt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Neue Mitarbeitende haben es im Homeoffice oft schwerer, sich zu integrieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Spontane Gespräche an der Kaffeemaschine lassen sich im Homeoffice leicht ersetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Firmen bieten virtuelle Kaffeepausen an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt eine einheitliche Lösung für alle Unternehmen vor.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-ethik-der-selbstfahrenden-autos",
+    "nivel": "B2",
+    "titulo": "Die Ethik der selbstfahrenden Autos",
+    "descripcion": "Ein Text über die moralischen Fragen, die durch autonome Fahrzeuge aufgeworfen werden.",
+    "texto": "Selbstfahrende Autos galten lange Zeit als eine rein technische Herausforderung, bei der es vor allem um Sensoren, Algorithmen und Verkehrssicherheit ging. Inzwischen wird jedoch immer deutlicher, dass auch ethische Fragen gelöst werden müssen, bevor autonome Fahrzeuge flächendeckend eingesetzt werden können. Käme es zu einem unvermeidbaren Unfall, müsste das Fahrzeug innerhalb von Millisekunden entscheiden, wie der Schaden möglichst gering gehalten werden könnte.\n\nBesonders umstritten ist die Frage, nach welchen Kriterien solche Entscheidungen programmiert werden sollten. Sollte das Leben der Fahrzeuginsassen stets Vorrang haben, oder müsste ein Algorithmus so gestaltet werden, dass die Anzahl der Verletzten insgesamt minimiert wird, selbst wenn dadurch die eigenen Passagiere gefährdet würden? Viele Ethiker argumentieren, dass es keine allgemein akzeptierte Antwort auf diese Frage gebe, da unterschiedliche moralische Theorien zu völlig verschiedenen Ergebnissen führten.\n\nHinzu kommt die Frage der Verantwortung: Wer haftet, wenn ein autonomes Fahrzeug einen Unfall verursacht, der Hersteller, der Softwareentwickler oder der Halter des Fahrzeugs? Da die bestehenden Gesetze größtenteils auf menschliche Fahrer ausgelegt sind, müssten viele Länder ihre Rechtssysteme grundlegend überarbeiten. Bis diese Fragen zufriedenstellend geklärt worden sind, dürfte die vollständige Autonomie im Straßenverkehr trotz aller technischen Fortschritte noch auf sich warten lassen.",
+    "preguntas": [
+      {
+        "enunciado": "Selbstfahrende Autos werfen laut Text nur technische, aber keine ethischen Fragen auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt eine allgemein akzeptierte Antwort darauf, wie Algorithmen bei Unfällen entscheiden sollten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Frage der Haftung bei Unfällen mit autonomen Fahrzeugen ist laut Text ungeklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bestehende Gesetze sind laut Text meist für menschliche Fahrer gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sagt, dass vollständige Autonomie im Straßenverkehr bereits erreicht wurde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-mindestlohn-in-der-plattformoekonomie",
+    "nivel": "B2",
+    "titulo": "Der Mindestlohn in der Plattformökonomie",
+    "descripcion": "Ein Beitrag über die schwierige Durchsetzung von Mindestlöhnen für Fahrer und Kuriere digitaler Plattformen.",
+    "texto": "Mit dem Aufstieg digitaler Plattformen, über die Essen geliefert oder Fahrdienste vermittelt werden, ist eine neue Form der Erwerbsarbeit entstanden, die sich kaum in die klassischen Kategorien von Angestellten und Selbstständigen einordnen lässt. Viele Kuriere und Fahrer werden offiziell als Selbstständige eingestuft, wodurch sie formal keinen Anspruch auf den gesetzlichen Mindestlohn haben, obwohl sie in der Praxis oft nach festen Vorgaben der Plattform arbeiten.\n\nKritiker dieses Systems bemängeln, dass Plattformen dadurch Verantwortung abwälzen würden, die ihnen eigentlich als Arbeitgeber zukäme. Würden die Beschäftigten tatsächlich als Angestellte anerkannt, müssten die Unternehmen Sozialabgaben zahlen und Mindestlöhne garantieren, was die Preise für Kunden erhöhen und die Gewinnmargen der Plattformen verringern würde. Aus diesem Grund wehren sich viele Unternehmen entschieden gegen eine Neueinstufung ihrer Mitarbeitenden.\n\nIn mehreren europäischen Ländern wurde bereits vor Gericht entschieden, dass bestimmte Plattformarbeiter als Angestellte zu behandeln seien. Dennoch bleibt die Rechtslage uneinheitlich, da jedes Urteil nur für den jeweiligen Einzelfall gilt und sich die Geschäftsmodelle der Plattformen ständig weiterentwickeln. Solange keine einheitliche europäische Regelung gefunden wird, dürften Gerichte und Gesetzgeber in den kommenden Jahren weiterhin mit dieser Frage beschäftigt sein.",
+    "preguntas": [
+      {
+        "enunciado": "Kuriere und Fahrer von Plattformen werden meist als Angestellte eingestuft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Als Selbstständige eingestufte Plattformarbeiter haben formal keinen Anspruch auf den Mindestlohn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Neueinstufung als Angestellte würde für die Plattformen höhere Kosten bedeuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Europa gibt es bereits eine einheitliche Regelung für alle Plattformarbeiter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gerichtsurteile zu diesem Thema gelten laut Text automatisch für alle Plattformen in Europa.",
+        "respuesta": false
+      }
+    ]
   }
 ]
