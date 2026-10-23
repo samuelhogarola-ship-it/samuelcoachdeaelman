@@ -69374,5 +69374,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-hamster-zuhause",
+    "nivel": "A1",
+    "titulo": "Mein Hamster zuhause",
+    "descripcion": "Ein Kind erzählt von seinem Hamster.",
+    "texto": "Ich habe einen Hamster. Er heißt Krümel. Krümel ist klein und braun. Er wohnt in einem Käfig in meinem Zimmer.\n\nKrümel schläft am Tag. In der Nacht ist er wach. Er läuft im Rad und isst Körner. Manchmal isst er auch eine Karotte.\n\nJeden Abend mache ich den Käfig sauber. Ich gebe Krümel frisches Wasser. Mein Hamster ist mein bester Freund.",
+    "preguntas": [
+      {
+        "enunciado": "Der Hamster heißt Krümel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Krümel ist groß und schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Krümel schläft in der Nacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Krümel isst manchmal eine Karotte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Kind macht den Käfig nie sauber.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-neue-wohnung",
+    "nivel": "A1",
+    "titulo": "Meine neue Wohnung",
+    "descripcion": "Eine kurze Beschreibung einer neuen Wohnung.",
+    "texto": "Ich habe eine neue Wohnung. Sie ist klein, aber schön. Die Wohnung hat zwei Zimmer, eine Küche und ein Bad.\n\nMein Zimmer ist blau. Ich habe ein Bett, einen Schrank und einen Tisch. Vom Fenster sehe ich einen Baum.\n\nDie Küche ist gelb. Dort kocht meine Mutter jeden Tag. Ich finde meine neue Wohnung sehr gemütlich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Wohnung hat zwei Zimmer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Zimmer ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Vom Fenster sieht man einen Baum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Küche ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Person findet die Wohnung gemütlich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-neues-fahrrad-vom-opa",
+    "nivel": "A1",
+    "titulo": "Mein neues Fahrrad vom Opa",
+    "descripcion": "Ein Kind bekommt ein Fahrrad von seinem Großvater.",
+    "texto": "Mein Opa schenkt mir ein Fahrrad. Es ist rot und hat eine Klingel. Ich bin sehr glücklich.\n\nAm Samstag fahren wir zusammen im Park. Mein Opa fährt langsam neben mir. Ich trage einen Helm.\n\nNach dem Fahren essen wir ein Eis. Mein Opa sagt: „Du fährst schon sehr gut!“ Ich liebe mein neues Fahrrad.",
+    "preguntas": [
+      {
+        "enunciado": "Das Fahrrad ist ein Geschenk vom Opa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fahrrad ist grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Kind trägt keinen Helm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie fahren im Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Fahren essen sie ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-bei-der-oma-im-garten",
+    "nivel": "A2",
+    "titulo": "Ein Tag bei der Oma im Garten",
+    "descripcion": "Ein Kind besucht die Großmutter und hilft im Garten.",
+    "texto": "Am Samstag habe ich meine Oma besucht. Sie hat einen großen Garten mit Blumen und Gemüse. Weil das Wetter schön war, haben wir den ganzen Tag draußen gearbeitet.\n\nZuerst haben wir Tomaten gepflückt. Danach habe ich die Blumen gegossen und meine Oma hat Unkraut entfernt. Sie hat erzählt, dass sie den Garten schon seit dreißig Jahren pflegt.\n\nAm Abend haben wir zusammen Suppe aus dem eigenen Gemüse gekocht. Ich habe ihr versprochen, dass ich bald wiederkomme.",
+    "preguntas": [
+      {
+        "enunciado": "Das Kind hat am Samstag die Oma besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat den ganzen Tag geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben zuerst Tomaten gepflückt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma pflegt den Garten erst seit einem Jahr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend haben sie Suppe gekocht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-in-der-jugendherberge",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende in der Jugendherberge",
+    "descripcion": "Eine Klasse verbringt ein Wochenende in einer Jugendherberge.",
+    "texto": "Meine Klasse hat ein Wochenende in einer Jugendherberge verbracht. Wir sind mit dem Bus angereist, weil die Herberge weit von der Stadt entfernt lag.\n\nAm ersten Abend haben wir ein Lagerfeuer gemacht und Lieder gesungen. Am nächsten Tag sind wir gewandert, obwohl es ziemlich kalt war. Nachmittags haben wir in Teams Spiele gespielt.\n\nIch habe mir das Zimmer mit drei Freundinnen geteilt. Wir haben wenig geschlafen, weil wir so viel geredet haben. Am Ende war ich traurig, dass das Wochenende schon vorbei war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist mit dem Zug angereist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Abend gab es ein Lagerfeuer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wanderung fand an einem warmen Tag statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schülerin hat sich das Zimmer mit Freundinnen geteilt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie war froh, dass das Wochenende vorbei war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-bei-der-tierarztpraxis-am-markt",
+    "nivel": "A2",
+    "titulo": "Der Besuch bei der Tierarztpraxis am Markt",
+    "descripcion": "Eine Familie bringt ihren kranken Hund zum Tierarzt.",
+    "texto": "Unser Hund Bello wollte seit zwei Tagen nicht mehr fressen. Weil wir uns Sorgen gemacht haben, sind wir zur Tierarztpraxis am Markt gefahren.\n\nDie Tierärztin hat Bello genau untersucht. Sie hat gesagt, dass er sich wahrscheinlich etwas Falsches gegessen hat. Er hat eine Spritze bekommen und musste zwei Tage eine spezielle Diät essen.\n\nZum Glück ging es Bello nach ein paar Tagen wieder besser. Er hat wieder sein normales Futter gefressen und ist mit uns im Park spazieren gegangen.",
+    "preguntas": [
+      {
+        "enunciado": "Bello wollte zwei Tage lang nicht fressen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat den Hund zu Hause behandelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tierärztin hat Bello untersucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello musste für immer eine spezielle Diät essen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach ein paar Tagen ging es Bello besser.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-erster-job-im-cafe",
+    "nivel": "B1",
+    "titulo": "Mein erster Job im Café",
+    "descripcion": "Eine Jugendliche berichtet von ihrem ersten Nebenjob.",
+    "texto": "Seit zwei Monaten arbeite ich nachmittags in einem kleinen Café in meiner Straße. Obwohl ich am Anfang sehr nervös war, habe ich mich schnell an die Arbeit gewöhnt.\n\nMeine Aufgaben sind vielfältig: Ich nehme Bestellungen auf, serviere Kaffee und Kuchen und räume am Ende der Schicht die Tische ab. Nachdem ich die ersten Wochen viele Fehler gemacht hatte, habe ich mittlerweile mehr Sicherheit gewonnen.\n\nBesonders gern mag ich die Stammgäste. Eine ältere Frau kommt jeden Dienstag und erzählt mir von ihren Reisen. Trotzdem ist die Arbeit manchmal anstrengend, vor allem wenn das Café voll ist und alle gleichzeitig bestellen. Insgesamt bin ich aber froh, dass ich diesen Job gefunden habe, denn ich lerne dabei viel über Verantwortung.",
+    "preguntas": [
+      {
+        "enunciado": "Die Jugendliche arbeitet in einem Café.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie fühlte sich von Anfang an völlig sicher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zu ihren Aufgaben gehört das Servieren von Kaffee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Stammgäste interessieren sie überhaupt nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie findet, dass sie durch den Job Verantwortung lernt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schulaustausch-in-lyon",
+    "nivel": "B1",
+    "titulo": "Der Schulaustausch in Lyon",
+    "descripcion": "Ein Schüler berichtet von einem Austauschprogramm in Frankreich.",
+    "texto": "Letzten Monat habe ich an einem Schulaustausch mit einer Partnerschule in Lyon teilgenommen. Nachdem ich zunächst unsicher war, ob ich mich mit meiner Gastfamilie gut verstehen würde, wurde ich schon am ersten Abend herzlich aufgenommen.\n\nIn der Schule habe ich am Unterricht teilgenommen, obwohl ich nicht alles auf Französisch verstanden habe. Die Lehrerin hat mir oft geholfen, die wichtigsten Punkte zu übersetzen. Am Wochenende sind wir gemeinsam in die Altstadt gefahren und haben die berühmten Gassen besichtigt.\n\nWas mich am meisten beeindruckt hat, war die Offenheit meiner Austauschpartnerin. Trotzdem war der Abschied schwer, denn wir waren in zwei Wochen echte Freundinnen geworden. Ich hoffe, dass ich sie bald wieder in Deutschland besuchen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Der Schulaustausch fand mit einer Schule in Lyon statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schüler wurde von der Gastfamilie kühl begrüßt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er hat am Unterricht teilgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben am Wochenende nur zu Hause gesessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Abschied war für ihn schwer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-trotz-unterschiedlicher-interessen",
+    "nivel": "B1",
+    "titulo": "Freundschaft trotz unterschiedlicher Interessen",
+    "descripcion": "Zwei Freunde mit ganz unterschiedlichen Hobbys bleiben verbunden.",
+    "texto": "Mia und Jonas sind seit der Grundschule beste Freunde, obwohl sie fast nichts gemeinsam haben. Mia liebt Sport und trainiert jeden Tag im Fußballverein, während Jonas lieber liest und Musik komponiert.\n\nNachdem beide auf unterschiedliche Schulen gewechselt waren, hatten sie zunächst weniger Zeit füreinander. Trotzdem haben sie sich jede Woche zum Telefonieren verabredet, damit die Freundschaft nicht einschläft.\n\nMittlerweile unterstützen sie sich gegenseitig: Jonas kommt zu Mias Spielen und Mia hört sich geduldig seine neuen Lieder an. Beide sind sich sicher, dass unterschiedliche Interessen eine Freundschaft nicht zerstören, sondern sie sogar interessanter machen können.",
+    "preguntas": [
+      {
+        "enunciado": "Mia und Jonas sind seit der Grundschule befreundet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide haben die gleichen Hobbys.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie telefonieren regelmäßig miteinander.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas interessiert sich nicht für Mias Fußballspiele.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beide glauben, dass unterschiedliche Interessen die Freundschaft interessanter machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-die-viertagewoche",
+    "nivel": "B2",
+    "titulo": "Die Debatte um die Viertagewoche",
+    "descripcion": "Ein Blick auf die gesellschaftliche Diskussion über kürzere Arbeitszeiten.",
+    "texto": "In den letzten Jahren wird in vielen Ländern über die Einführung einer Viertagewoche diskutiert. Befürworter argumentieren, dass die Produktivität der Beschäftigten steigen würde, wenn ihnen ein zusätzlicher freier Tag zur Erholung zur Verfügung stünde. Zahlreiche Pilotprojekte, in denen die Arbeitszeit bei vollem Lohn reduziert wurde, hätten gezeigt, dass Krankheitsausfälle sinken und die Mitarbeiterzufriedenheit steigt.\n\nKritiker weisen jedoch darauf hin, dass ein solches Modell nicht in jeder Branche umgesetzt werden könne. Besonders im Gesundheitswesen und im Handwerk, wo ohnehin ein Fachkräftemangel besteht, würde eine kürzere Arbeitswoche den bestehenden Personalengpass eher verschärfen. Zudem wird befürchtet, dass Unternehmen die eingesparte Zeit durch höheren Druck an den verbleibenden Arbeitstagen kompensieren müssten.\n\nWäre eine flächendeckende Einführung tatsächlich sinnvoll, müsste sie wohl branchenspezifisch gestaltet werden. Während einige Unternehmen bereits erfolgreich auf das Modell umgestellt haben, bleibt in anderen Sektoren offen, ob eine Reduzierung der Arbeitszeit ohne Lohnkürzung finanzierbar wäre. Die Diskussion zeigt jedenfalls, dass sich das Verhältnis zwischen Arbeit und Freizeit grundlegend wandelt.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Viertagewoche sehen einen möglichen Anstieg der Produktivität.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Pilotprojekte hätten durchweg steigende Krankheitsausfälle gezeigt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten eine Verschärfung des Fachkräftemangels in bestimmten Branchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text ist eine Einführung in allen Branchen gleich einfach umsetzbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text beschreibt einen grundlegenden Wandel im Verhältnis von Arbeit und Freizeit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-im-unterricht",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Unterricht",
+    "descripcion": "Chancen und Risiken des Einsatzes von KI-Werkzeugen in Schulen.",
+    "texto": "Seit generative KI-Programme frei zugänglich sind, stellt sich an vielen Schulen die Frage, wie mit diesen Werkzeugen im Unterricht umgegangen werden sollte. Manche Lehrkräfte sehen in der Technologie eine Chance, weil Schülerinnen und Schüler individuelles Feedback erhalten könnten, ohne dass Lehrpersonal überlastet wird. So ließen sich etwa Übungsaufgaben automatisch an das jeweilige Leistungsniveau anpassen.\n\nAndere Pädagogen äußern sich skeptisch und verweisen darauf, dass Hausaufgaben, die früher eigenständiges Denken förderten, zunehmend von Programmen erledigt würden, ohne dass ein echter Lernprozess stattfinde. Es wird befürchtet, dass grundlegende Fähigkeiten wie das Verfassen eines zusammenhängenden Textes verkümmern könnten, wenn Schülerinnen und Schüler sich zu früh auf solche Hilfsmittel verlassen.\n\nUm diesem Dilemma zu begegnen, setzen manche Schulen auf verbindliche Regeln, die den Einsatz der Werkzeuge transparent machen sollen. Denkbar wäre beispielsweise, dass bestimmte Aufgaben ausschließlich handschriftlich oder unter Aufsicht erledigt werden müssten. Ob sich ein solcher Mittelweg durchsetzen wird, hängt letztlich davon ab, inwieweit es gelingt, Schülerinnen und Schüler für einen verantwortungsvollen Umgang mit der Technologie zu sensibilisieren.",
+    "preguntas": [
+      {
+        "enunciado": "Manche Lehrkräfte sehen in KI die Möglichkeit individuellen Feedbacks.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Pädagogen im Text sind begeistert vom Einsatz von KI bei Hausaufgaben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass grundlegende Fähigkeiten verkümmern könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, bestimmte Aufgaben handschriftlich oder unter Aufsicht zu erledigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text ist das Thema bereits endgültig und einheitlich geregelt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-strukturwandel-unserer-innenstaedte",
+    "nivel": "B2",
+    "titulo": "Der Strukturwandel unserer Innenstädte",
+    "descripcion": "Warum viele deutsche Innenstädte vor einem tiefgreifenden Wandel stehen.",
+    "texto": "Leerstehende Geschäfte prägen zunehmend das Bild vieler Innenstädte. Während früher der Einzelhandel das Zentrum des städtischen Lebens bildete, hat der Onlinehandel in den letzten Jahren einen erheblichen Teil des Umsatzes übernommen. Dadurch sehen sich zahlreiche Händler gezwungen, ihre Ladenflächen aufzugeben, da die Mieten in zentralen Lagen oft nicht mehr gedeckt werden können.\n\nStadtplaner diskutieren deshalb, wie Innenstädte neu belebt werden könnten, ohne dass sie zu reinen Konsummeilen verkommen. Ein Ansatz besteht darin, leerstehende Geschäfte in Wohnraum, Kulturzentren oder Coworking-Flächen umzuwandeln. Dadurch würde, so die Hoffnung, eine stärkere Durchmischung von Wohnen, Arbeiten und Freizeit entstehen, wodurch die Innenstädte auch außerhalb der Geschäftszeiten belebt blieben.\n\nKritiker geben jedoch zu bedenken, dass solche Umbauten hohe Investitionen erfordern und in vielen Fällen nur schwer finanzierbar seien, wenn nicht gleichzeitig Fördermittel bereitgestellt würden. Ohne eine enge Zusammenarbeit zwischen Kommunen, Eigentümern und lokalen Initiativen dürfte der Wandel der Innenstädte kaum gelingen. Letztlich stellt sich die grundsätzliche Frage, welche Funktion eine Stadtmitte im digitalen Zeitalter überhaupt noch erfüllen soll.",
+    "preguntas": [
+      {
+        "enunciado": "Leerstehende Geschäfte prägen zunehmend viele Innenstädte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Onlinehandel hat laut Text keinen Einfluss auf den stationären Einzelhandel gehabt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein genannter Ansatz ist die Umwandlung leerstehender Geschäfte in Wohnraum oder Kulturzentren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker halten solche Umbauten für problemlos finanzierbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text stellt die Frage, welche Funktion Stadtzentren im digitalen Zeitalter erfüllen sollen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
