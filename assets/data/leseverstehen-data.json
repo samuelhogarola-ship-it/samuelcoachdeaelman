@@ -68330,5 +68330,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-stammbaum",
+    "nivel": "A1",
+    "titulo": "Der Stammbaum",
+    "descripcion": "Lena malt einen Stammbaum und erzählt von ihrer Familie.",
+    "texto": "Lena malt einen Stammbaum für die Schule. Sie zeichnet ihre Familie auf ein großes Blatt Papier. Oben steht der Name von ihrem Opa. Er heißt Werner und ist 78 Jahre alt. Neben ihm steht der Name von ihrer Oma. Sie heißt Helga und kocht sehr gern.\n\nLenas Mutter heißt Sabine und arbeitet in einer Bank. Ihr Vater heißt Jürgen und ist Lehrer. Lena hat auch einen Bruder. Er heißt Tom und ist zehn Jahre alt. Tom spielt gern Fußball. Lena ist zwölf Jahre alt und malt gern Bilder.\n\nAm Ende klebt Lena ein Foto von der ganzen Familie auf das Blatt. Das Foto ist von letztem Sommer. Die Familie lächelt auf dem Foto. Lena ist stolz auf ihren Stammbaum. Sie zeigt ihn morgen in der Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Lenas Opa heißt Werner.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas Oma kocht nicht gern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lenas Mutter ist Lehrerin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom spielt gern Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena klebt kein Foto auf das Blatt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-lieblingstier-der-papagei",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingstier: der Papagei",
+    "descripcion": "Finn erzählt von seinem Papagei und was der Vogel alles kann.",
+    "texto": "Finn hat einen Papagei. Der Papagei heißt Rocky und ist grün und rot. Rocky lebt in einem großen Käfig im Wohnzimmer. Jeden Morgen gibt Finn ihm frisches Obst. Rocky mag besonders Äpfel und Bananen. Der Papagei trinkt auch gern Wasser aus einer kleinen Schale.\n\nRocky kann ein paar Wörter sprechen. Er sagt oft „Hallo“ und „Guten Morgen“. Manchmal singt er auch ein kleines Lied. Finns Schwester lacht immer, wenn Rocky spricht. Am Nachmittag fliegt Rocky durch das Zimmer. Er landet gern auf Finns Schulter.\n\nFinn putzt den Käfig jeden Samstag. Das macht er zusammen mit seinem Vater. Danach spielen sie mit Rocky im Garten. Rocky ist ein sehr lustiges Tier. Finn liebt seinen Papagei sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Rocky ist ein Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Rocky mag Äpfel und Bananen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Rocky kann nicht sprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn putzt den Käfig jeden Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn spielt nie mit Rocky im Garten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-pause-in-der-schulkantine",
+    "nivel": "A1",
+    "titulo": "Die Pause in der Schulkantine",
+    "descripcion": "Mia und ihre Freunde essen zusammen in der Schulkantine.",
+    "texto": "Um zwölf Uhr klingelt die Pausenglocke. Mia und ihre Freunde gehen schnell in die Schulkantine. Dort gibt es heute Nudeln mit Tomatensoße. Mia stellt sich in die Schlange und wartet. Ihr Freund Paul nimmt lieber einen Salat mit Brot. Die Kantine ist sehr laut und voll.\n\nMia setzt sich an einen Tisch neben dem Fenster. Ihre Freundin Lisa isst einen Joghurt zum Nachtisch. „Das Essen schmeckt heute gut“, sagt Mia. Paul trinkt ein Glas Apfelsaft. Nach dem Essen räumen die Kinder ihre Teller selbst weg. Das ist eine Regel in der Schule.\n\nNach der Pause gehen alle wieder in den Klassenraum. Mia hat jetzt Mathematik. Sie ist satt und kann sich gut konzentrieren. Die nächste Pause ist erst in zwei Stunden. Mia freut sich schon auf den Nachmittag.",
+    "preguntas": [
+      {
+        "enunciado": "Es gibt heute Nudeln mit Tomatensoße.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul isst Nudeln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kantine ist sehr leise.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder räumen ihre Teller selbst weg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach der Pause hat Mia Sport.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-klassenfahrt-nach-koeln",
+    "nivel": "A2",
+    "titulo": "Eine Klassenfahrt nach Köln",
+    "descripcion": "Die Klasse 8b hat eine dreitägige Klassenfahrt nach Köln gemacht.",
+    "texto": "Letzte Woche ist die Klasse 8b nach Köln gefahren. Die Fahrt hat drei Tage gedauert, und alle Schüler haben sich sehr gefreut. Am ersten Tag haben sie den Kölner Dom besucht. Weil der Dom so hoch ist, mussten sie über 500 Stufen steigen. Oben hatten sie einen tollen Blick über die ganze Stadt.\n\nAm zweiten Tag sind sie mit einem Boot auf dem Rhein gefahren. Der Lehrer hat erklärt, dass Köln eine der ältesten Städte Deutschlands ist. Danach haben die Schüler Freizeit bekommen und sind durch die Altstadt gelaufen. Lena hat ein Geschenk für ihre Mutter gekauft, weil sie bald Geburtstag hat. Einige Schüler haben auch das Schokoladenmuseum besucht und viele Süßigkeiten probiert.\n\nAm letzten Abend haben alle zusammen in der Jugendherberge gegessen und Karten gespielt. Max hat gesagt, dass die Fahrt viel zu schnell vorbei war. Wenn die Klasse nächstes Jahr wieder eine Fahrt macht, möchten viele Schüler nach Hamburg fahren. Am Morgen sind alle müde, aber zufrieden nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klassenfahrt hat drei Tage gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler sind mit dem Fahrstuhl auf den Dom gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Köln ist eine der ältesten Städte Deutschlands.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat im Schokoladenmuseum etwas probiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max fand, dass die Fahrt zu lang war.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-beim-zahnarzt-in-der-kleinstadt",
+    "nivel": "A2",
+    "titulo": "Der Besuch beim Zahnarzt in der Kleinstadt",
+    "descripcion": "Jonas hatte Zahnschmerzen und musste zum Zahnarzt in seiner Kleinstadt gehen.",
+    "texto": "Jonas hatte seit zwei Tagen starke Zahnschmerzen. Weil der Schmerz immer schlimmer wurde, hat seine Mutter einen Termin beim Zahnarzt gemacht. Der Zahnarzt in ihrer Kleinstadt heißt Doktor Berger und hat eine kleine Praxis neben der Apotheke. Jonas war ein bisschen nervös, weil er den Zahnarzt nicht gern besucht.\n\nIm Wartezimmer hat Jonas eine Zeitschrift gelesen, bis die Arzthelferin seinen Namen gerufen hat. Doktor Berger hat sich den Zahn genau angeschaut und gesagt, dass Jonas ein kleines Loch im Backenzahn hat. Er hat erklärt, dass er den Zahn heute noch behandeln kann. Jonas hatte Angst vor der Spritze, aber der Arzt hat ihn gut beruhigt. Die Behandlung hat nur zwanzig Minuten gedauert.\n\nNach der Behandlung hat Jonas keine Schmerzen mehr gehabt. Der Zahnarzt hat ihm geraten, zweimal am Tag die Zähne zu putzen und weniger Süßigkeiten zu essen. Jonas hat versprochen, dass er das machen wird. Auf dem Weg nach Hause hat seine Mutter ihm ein Eis gekauft, weil er so tapfer war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte seit zwei Tagen Zahnschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zahnarzt heißt Doktor Berger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte keine Angst vor der Spritze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Behandlung hat zwei Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Termin hat Jonas noch Schmerzen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarschaftshilfe-im-hinterhof",
+    "nivel": "A2",
+    "titulo": "Die Nachbarschaftshilfe im Hinterhof",
+    "descripcion": "Die Nachbarn in einem Hinterhof in Leipzig haben eine Hilfsgruppe gegründet.",
+    "texto": "Im Hinterhof eines alten Hauses in Leipzig wohnen acht Familien. Letzten Monat haben sie eine kleine Nachbarschaftshilfe gegründet, weil viele ältere Nachbarn allein leben. Frau Schulz, die im zweiten Stock wohnt, hat die Idee gehabt. Sie hat einen Zettel an das schwarze Brett gehängt und alle Nachbarn eingeladen.\n\nBeim ersten Treffen haben die Nachbarn entschieden, dass sie sich gegenseitig helfen wollen. Herr Keller, der 80 Jahre alt ist, bekommt jetzt jeden Dienstag Hilfe beim Einkaufen. Die junge Familie Özdemir kümmert sich um seinen kleinen Garten, wenn er krank ist. Dafür backt Herr Keller manchmal einen Kuchen für alle Kinder im Hof.\n\nDie Nachbarn haben auch eine Tauschbox im Hof aufgestellt. Dort kann man Bücher, Spielzeug und Werkzeug tauschen. Weil die Idee so gut funktioniert hat, wollen die Nachbarn jetzt jeden Monat ein gemeinsames Fest feiern. Frau Schulz ist sehr glücklich, dass die Gemeinschaft im Hof so stark geworden ist.",
+    "preguntas": [
+      {
+        "enunciado": "Im Hinterhof wohnen acht Familien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Schulz hatte die Idee für die Nachbarschaftshilfe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Keller ist 60 Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie Özdemir hilft Herrn Keller nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn haben eine Tauschbox aufgestellt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-studenten-wg",
+    "nivel": "B1",
+    "titulo": "Der Umzug in die Studenten-WG",
+    "descripcion": "Paula zieht in eine Wohngemeinschaft in München und muss sich an das neue Leben gewöhnen.",
+    "texto": "Paula hat gerade ihr Studium in München begonnen und ist in eine Wohngemeinschaft mit drei anderen Studierenden gezogen. Obwohl sie vorher nie mit fremden Menschen zusammengewohnt hatte, wollte sie unbedingt diese Erfahrung machen. Nachdem sie ihre Kisten ausgepackt hatte, lernte sie ihre neuen Mitbewohner bei einem gemeinsamen Abendessen kennen. Die Küche war klein, trotzdem fanden alle vier einen Platz am Tisch.\n\nIn den ersten Wochen musste sich Paula an viele neue Regeln gewöhnen. Jeder Mitbewohner putzte abwechselnd das Bad, und einmal pro Woche kochten sie gemeinsam. Obwohl Paula es gewohnt war, allein zu leben, gefiel ihr das Zusammenleben überraschend gut. Nachdem ein Konflikt wegen der Lautstärke der Musik entstanden war, sprachen die Mitbewohner offen darüber und fanden gemeinsam eine Lösung.\n\nNach ein paar Monaten fühlte sich Paula in der WG wie zu Hause. Trotzdem vermisste sie manchmal die Ruhe ihres alten Zimmers bei ihren Eltern. Ihre Mitbewohner wurden zu echten Freunden, mit denen sie auch in den Semesterferien in Kontakt blieb. Paula war am Ende froh, dass sie den Mut gehabt hatte, in die WG zu ziehen.",
+    "preguntas": [
+      {
+        "enunciado": "Paula hat vorher schon oft mit fremden Menschen zusammengewohnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der WG kochten die Mitbewohner einmal pro Woche gemeinsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab nie Konflikte in der WG.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula fühlte sich nach ein paar Monaten wie zu Hause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paula bereute es am Ende, in die WG gezogen zu sein.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-interview-fuer-den-schulpodcast",
+    "nivel": "B1",
+    "titulo": "Ein Interview für den Schulpodcast",
+    "descripcion": "Zwei Schüler produzieren einen Podcast und interviewen ihren Sportlehrer.",
+    "texto": "An der Gesamtschule in Bremen gibt es seit diesem Schuljahr einen eigenen Schulpodcast. Die beiden Schüler Leon und Amira leiten das Projekt und entscheiden jede Woche, wen sie interviewen. Diesmal wollten sie ihren Sportlehrer, Herrn Wagner, zu Wort kommen lassen, nachdem er zwanzig Jahre Dienstjubiläum an der Schule gefeiert hatte.\n\nObwohl Herr Wagner zunächst etwas schüchtern vor dem Mikrofon war, erzählte er bald spannende Geschichten aus seiner Zeit als Lehrer. Er berichtete, dass er früher selbst Leistungssportler gewesen war, bevor er sich für den Lehrerberuf entschieden hatte. Leon fragte ihn, ob sich der Schulsport in zwanzig Jahren stark verändert habe. Herr Wagner antwortete, dass die Schüler heute viel mehr digitale Geräte benutzen und sich dadurch weniger bewegen als früher.\n\nNachdem das Interview aufgenommen worden war, schnitten Leon und Amira die Aufnahme am Computer zusammen. Sie fügten noch Musik hinzu, obwohl das technisch nicht immer einfach war. Am Ende der Woche luden sie die fertige Folge auf die Schulwebsite hoch. Viele Mitschüler hörten sich die Folge an und fanden die Geschichten von Herrn Wagner sehr interessant.",
+    "preguntas": [
+      {
+        "enunciado": "Leon und Amira leiten den Schulpodcast.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Wagner feierte sein zehnjähriges Dienstjubiläum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Wagner war früher selbst Leistungssportler.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Herrn Wagner bewegen sich Schüler heute mehr als früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die fertige Folge wurde nie veröffentlicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-freundschaft-ueber-die-grenze-hinweg",
+    "nivel": "B1",
+    "titulo": "Die Freundschaft über die Grenze hinweg",
+    "descripcion": "Zwei Jugendliche aus Deutschland und Polen bleiben nach einem Schüleraustausch in Kontakt.",
+    "texto": "Vor einem Jahr nahm Jakob an einem Schüleraustausch mit einer Partnerschule in Polen teil. Dort lernte er Kuba kennen, einen Jugendlichen aus Breslau, bei dem er zwei Wochen wohnte. Obwohl die beiden zunächst kaum eine gemeinsame Sprache sprachen, verstanden sie sich von Anfang an gut. Nachdem der Austausch beendet war, schrieben sie sich fast jeden Tag Nachrichten.\n\nMit der Zeit verbesserten beide ihre Fremdsprachenkenntnisse, weil sie unbedingt miteinander kommunizieren wollten. Jakob lernte ein paar polnische Wörter, während Kuba sein Deutsch durch die Gespräche deutlich verbesserte. Trotzdem nutzten sie meistens Englisch, wenn es um kompliziertere Themen ging. Im Sommer besuchte Kuba Jakob in Deutschland, und die beiden Familien freuten sich sehr über das Wiedersehen.\n\nObwohl zwischen ihren Heimatstädten mehr als sechshundert Kilometer liegen, planen Jakob und Kuba, sich mindestens einmal im Jahr zu besuchen. Nachdem sie gemerkt hatten, wie viel sie trotz der Entfernung gemeinsam haben, beschlossen sie, gemeinsam ein kleines Online-Projekt über das Leben in beiden Ländern zu starten. Ihre Lehrer waren von dieser Idee begeistert und unterstützten die beiden Freunde.",
+    "preguntas": [
+      {
+        "enunciado": "Jakob und Kuba lernten sich bei einem Schüleraustausch kennen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden sprachen von Anfang an fließend die gleiche Sprache.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kuba besuchte Jakob im Sommer in Deutschland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zwischen ihren Heimatstädten liegen weniger als hundert Kilometer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Freunde haben kein gemeinsames Projekt geplant.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-homeoffice",
+    "nivel": "B2",
+    "titulo": "Die Debatte um das Homeoffice",
+    "descripcion": "Ein Kommentar über die anhaltende gesellschaftliche Diskussion über Homeoffice und seine Folgen für Unternehmen und Beschäftigte.",
+    "texto": "Seit der Pandemie ist das Homeoffice für viele Beschäftigte in Deutschland zu einer festen Arbeitsform geworden, die von Arbeitgebern und Arbeitnehmern höchst unterschiedlich bewertet wird. Während einige Unternehmen ihre Angestellten inzwischen wieder verstärkt ins Büro zurückrufen, bestehen andere Belegschaften darauf, dass ihnen die im Lockdown gewährte Flexibilität dauerhaft erhalten bleibt. Befürworter des mobilen Arbeitens argumentieren, dass lange Pendelzeiten eingespart und Familie und Beruf leichter vereinbart werden könnten, wenn Arbeitnehmer selbst entscheiden dürften, von wo aus sie arbeiten.\n\nKritiker hingegen weisen darauf hin, dass der informelle Austausch zwischen Kollegen, der oft erst beim gemeinsamen Mittagessen oder an der Kaffeemaschine entsteht, im digitalen Raum kaum ersetzt werden kann. Wäre der persönliche Kontakt tatsächlich verzichtbar, so wird argumentiert, hätten viele kreative Projekte, die auf spontanem Austausch beruhen, wohl nie entstehen können. Zudem wird befürchtet, dass junge Berufseinsteiger, denen eine enge Betreuung durch erfahrene Kollegen fehlt, im Homeoffice schwerer in ein Team hineinwachsen würden.\n\nStudien, die von verschiedenen Wirtschaftsinstituten durchgeführt wurden, zeichnen ein differenziertes Bild. Es wurde festgestellt, dass die Produktivität je nach Tätigkeit und Branche stark variiert; während konzentrierte Einzelarbeit im Homeoffice oft effizienter erledigt wird, leiden komplexe Teamprozesse häufiger unter der räumlichen Trennung. Manche Expertinnen und Experten schlagen deshalb ein hybrides Modell vor, bei dem die Mitarbeitenden an bestimmten Tagen ins Büro kommen müssten, ohne jedoch vollständig auf die Vorteile des Homeoffice verzichten zu müssen.\n\nAm Ende dürfte die Frage, wie stark sich das Homeoffice langfristig durchsetzt, weniger von ideologischen Debatten als von der tatsächlichen wirtschaftlichen Entwicklung abhängen. Sollte sich herausstellen, dass hybride Modelle sowohl die Zufriedenheit der Beschäftigten als auch die Innovationskraft der Unternehmen steigern, wäre mit einer breiten Etablierung dieser Arbeitsform in den kommenden Jahren zu rechnen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Unternehmen in Deutschland sind sich einig, dass Homeoffice beibehalten werden sollte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass informeller Austausch im Homeoffice schwerer stattfindet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien ist die Produktivität im Homeoffice für alle Tätigkeiten gleich hoch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein hybrides Modell wird als möglicher Kompromiss vorgeschlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass sich Homeoffice garantiert nicht durchsetzen wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-von-ehrenamtlicher-arbeit",
+    "nivel": "B2",
+    "titulo": "Der Wert von ehrenamtlicher Arbeit",
+    "descripcion": "Ein Essay über die gesellschaftliche Bedeutung des Ehrenamts und die Herausforderungen, vor denen Vereine heute stehen.",
+    "texto": "Ehrenamtliche Arbeit gilt in Deutschland traditionell als eine der wichtigsten Stützen des gesellschaftlichen Zusammenhalts. Ob im Sportverein, in der Feuerwehr oder in der Flüchtlingshilfe, Millionen Menschen engagieren sich regelmäßig unentgeltlich für Aufgaben, die sonst vom Staat oder von kommerziellen Anbietern übernommen werden müssten. Dieses zivilgesellschaftliche Engagement, das oft als selbstverständlich wahrgenommen wird, steht jedoch zunehmend unter Druck.\n\nViele Vereine berichten, dass es ihnen immer schwerer falle, jüngere Mitglieder für langfristige Verantwortung zu gewinnen. Während ältere Generationen häufig über Jahrzehnte in Vorständen tätig waren, bevorzugen jüngere Freiwillige eher kurzfristige, projektbezogene Einsätze. Würde dieser Trend anhalten, müssten viele traditionelle Vereinsstrukturen grundlegend überdacht werden, da sich kaum noch Personen finden lassen, die bereit sind, über viele Jahre ein Amt zu übernehmen.\n\nHinzu kommt, dass ehrenamtliche Tätigkeiten, die früher weitgehend unbürokratisch organisiert werden konnten, heute mit zunehmenden rechtlichen und administrativen Anforderungen verbunden sind. Ein Trainer, der eine Kindermannschaft betreuen möchte, muss inzwischen oft ein erweitertes Führungszeugnis vorlegen und verschiedene Schulungen absolvieren. Diese Vorschriften, die zum Schutz der Kinder eingeführt wurden, werden von vielen Engagierten zwar als sinnvoll, aber auch als zusätzliche Belastung empfunden, die manche vom Ehrenamt abhält.\n\nUm das Ehrenamt zukunftsfähig zu gestalten, müssten laut Fachleuten neue Anreize geschaffen werden, etwa durch eine bessere Anerkennung in Lebensläufen oder steuerliche Vorteile. Nur wenn es gelinge, das Engagement attraktiver zu machen, ohne seinen uneigennützigen Charakter zu verlieren, könne die ehrenamtliche Arbeit auch künftigen Generationen als tragende Säule der Gesellschaft erhalten bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Ehrenamtliche Arbeit wird im Text als unwichtig für die Gesellschaft beschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Freiwillige bevorzugen oft kurzfristige Einsätze statt langfristiger Ämter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die administrativen Anforderungen für Ehrenamtliche sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Trainer braucht laut Text manchmal ein erweitertes Führungszeugnis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Fachleute sehen keinen Bedarf, neue Anreize für das Ehrenamt zu schaffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reform-des-bildungssystems-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Die Reform des Bildungssystems in Deutschland",
+    "descripcion": "Ein Artikel über Vorschläge zur Reform des deutschen Schulsystems und die Kontroversen, die damit verbunden sind.",
+    "texto": "Das deutsche Bildungssystem wird seit Jahren von Bildungsforschern, Lehrerverbänden und Eltern kontrovers diskutiert. Immer wieder wird kritisiert, dass die frühe Aufteilung der Schüler in verschiedene Schulformen nach der vierten Klasse die Chancengleichheit beeinträchtige. Kinder, deren Eltern über einen akademischen Hintergrund verfügen, würden dadurch systematisch bevorzugt, während Kinder aus bildungsfernen Haushalten seltener den Weg zum Gymnasium fänden.\n\nAls mögliche Lösung wird häufig ein längeres gemeinsames Lernen vorgeschlagen, bei dem alle Schüler bis zur sechsten oder sogar neunten Klasse gemeinsam unterrichtet werden. Befürworter dieses Modells argumentieren, dass dadurch spätere, besser informierte Bildungsentscheidungen getroffen werden könnten. Gegner hingegen befürchten, dass leistungsstarke Schüler in heterogenen Klassen nicht ausreichend gefördert würden und dass das Niveau insgesamt sinken könnte, wenn auf eine frühe Differenzierung verzichtet würde.\n\nEin weiterer zentraler Streitpunkt ist die Digitalisierung der Schulen. Obwohl während der Pandemie zahlreiche Fördergelder bereitgestellt wurden, mit denen Tablets und digitale Tafeln angeschafft werden sollten, beklagen viele Lehrkräfte, dass es weiterhin an einem durchdachten pädagogischen Konzept fehle. Es werde zu oft Technik angeschafft, ohne dass gleichzeitig geklärt werde, wie digitale Medien den Unterricht tatsächlich verbessern könnten. Manche Experten plädieren deshalb dafür, zunächst in die Fortbildung der Lehrkräfte zu investieren, bevor weitere Geräte beschafft werden.\n\nLetztlich scheitern viele Reformvorschläge weniger an inhaltlichen Argumenten als an der föderalen Struktur Deutschlands, in der Bildungspolitik Ländersache ist. Müssten sich alle sechzehn Bundesländer auf ein gemeinsames Konzept verständigen, wäre mit einem jahrelangen, zähen Aushandlungsprozess zu rechnen, an dessen Ende ein Kompromiss stünde, der kaum einer der ursprünglichen Positionen vollständig entspräche.",
+    "preguntas": [
+      {
+        "enunciado": "Die frühe Aufteilung der Schüler nach der vierten Klasse wird von manchen als Problem für die Chancengleichheit gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass längeres gemeinsames Lernen die beste Lösung ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Während der Pandemie wurden keine Fördergelder für Digitalisierung bereitgestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungspolitik ist in Deutschland Sache der einzelnen Bundesländer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text wäre eine bundesweite Bildungsreform einfach und schnell umzusetzen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
