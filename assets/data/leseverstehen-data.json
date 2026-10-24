@@ -70418,5 +70418,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-neuer-fahrradhelm",
+    "nivel": "A1",
+    "titulo": "Mein neuer Fahrradhelm",
+    "descripcion": "Clara kauft einen neuen Fahrradhelm und erzählt von ihrem Fahrrad.",
+    "texto": "Clara fährt jeden Tag mit dem Fahrrad zur Schule. Ihr alter Helm ist kaputt. Deshalb geht sie mit ihrer Mutter in ein Geschäft. Das Geschäft hat viele Helme in verschiedenen Farben. Clara mag die Farbe Blau sehr gern.\n\nDie Verkäuferin zeigt Clara drei Helme. Ein Helm ist blau, ein Helm ist rot und ein Helm ist grün. Clara probiert den blauen Helm an. Er passt gut und ist nicht zu schwer. Clara ist sehr glücklich.\n\nZu Hause zeigt Clara ihrem Bruder den neuen Helm. Er findet den Helm auch schön. Jetzt fährt Clara jeden Tag sicher mit dem Fahrrad. Ihre Mutter ist froh, weil der Helm wichtig ist.",
+    "preguntas": [
+      {
+        "enunciado": "Clara fährt mit dem Bus zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der alte Helm von Clara ist kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara mag die Farbe Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Verkäuferin zeigt Clara nur einen Helm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Claras Bruder findet den Helm nicht schön.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-tante-aus-kanada",
+    "nivel": "A1",
+    "titulo": "Meine Tante aus Kanada",
+    "descripcion": "Lukas erzählt von seiner Tante, die in Kanada lebt und zu Besuch kommt.",
+    "texto": "Lukas hat eine Tante. Sie heißt Rita und wohnt in Kanada. Rita spricht Englisch und ein bisschen Deutsch. Einmal im Jahr besucht sie die Familie in Deutschland.\n\nDieses Jahr kommt Tante Rita im Sommer. Sie bringt immer Geschenke mit. Lukas bekommt eine rote Mütze mit einem Ahornblatt. Seine Schwester bekommt ein Buch über Tiere.\n\nDie Familie isst zusammen Abendessen. Tante Rita erzählt von Kanada. Dort ist es im Winter sehr kalt. Lukas findet die Geschichten spannend. Er möchte Kanada bald besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Rita wohnt in Deutschland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Rita besucht die Familie einmal im Jahr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas bekommt ein Buch über Tiere.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Kanada ist es im Winter sehr kalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas möchte Kanada nicht besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-regentag-im-park",
+    "nivel": "A1",
+    "titulo": "Ein Regentag im Park",
+    "descripcion": "Max und Lena spielen trotz Regen im Park und haben viel Spaß.",
+    "texto": "Am Samstag regnet es. Max und Lena wollen trotzdem in den Park gehen. Sie ziehen Gummistiefel und Regenjacken an. Max hat eine gelbe Regenjacke. Lena hat eine rote Regenjacke.\n\nIm Park gibt es viele Pfützen. Max springt gern in die Pfützen. Lena sammelt bunte Blätter. Ein Hund läuft durch den Park und bellt laut. Die Kinder lachen viel.\n\nNach einer Stunde gehen Max und Lena nach Hause. Sie sind nass, aber glücklich. Die Mutter macht heißen Kakao. Max und Lena trinken den Kakao und essen Kekse dazu.",
+    "preguntas": [
+      {
+        "enunciado": "Am Samstag ist das Wetter sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Max trägt eine gelbe Regenjacke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena sammelt bunte Blumen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Hund läuft durch den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter macht kalten Tee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-ueberraschungsbesuch-der-oma",
+    "nivel": "A2",
+    "titulo": "Ein Überraschungsbesuch der Oma",
+    "descripcion": "Omas unangekündigter Besuch sorgt für Freude und ein improvisiertes Mittagessen.",
+    "texto": "Am Mittwochnachmittag hat es an der Tür geklingelt, obwohl niemand einen Besuch erwartet hat. Als Tim die Tür geöffnet hat, hat er seine Oma mit einem großen Koffer gesehen. Sie hat erklärt, dass sie spontan Lust hatte, ihre Familie zu besuchen, weil sie die Kinder schon lange nicht mehr gesehen hatte.\n\nTims Mutter war zuerst etwas überrascht, weil im Kühlschrank nicht viel zu essen war. Trotzdem hat sie schnell eine Gemüsesuppe gekocht, während Oma den Kindern Geschichten von früher erzählt hat. Tim hat besonders gelacht, als Oma von ihrer eigenen Schulzeit berichtet hat.\n\nAm Abend haben alle zusammen am Tisch gesessen und gegessen. Oma hat gesagt, dass sie eine Woche bleiben möchte, wenn das kein Problem sei. Die ganze Familie hat sich sehr darüber gefreut, weil solche Besuche selten geworden sind.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie hat den Besuch der Oma lange geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma ist mit einem großen Koffer gekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Kühlschrank war sehr viel Essen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma hat den Kindern Geschichten von früher erzählt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma möchte nur einen Tag bleiben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-zwischen-nachbarn-wegen-laerm",
+    "nivel": "A2",
+    "titulo": "Der Streit zwischen Nachbarn wegen Lärm",
+    "descripcion": "Zwei Nachbarn geraten wegen lauter Musik in Streit, finden aber am Ende eine Lösung.",
+    "texto": "Herr Beck hat sich letzte Woche bei seinem Nachbarn beschwert, weil dieser fast jeden Abend laute Musik gehört hat. Er hat erklärt, dass er wegen des Lärms kaum schlafen konnte, obwohl er mehrmals höflich darum gebeten hatte, die Musik leiser zu machen. Der Nachbar, Herr Schulz, hat zunächst nicht verstanden, dass die Musik wirklich so störend war.\n\nNachdem die beiden Männer sich einige Tage nicht mehr gegrüßt hatten, hat Herr Becks Frau vorgeschlagen, dass man gemeinsam ein Gespräch führen sollte. Die beiden Nachbarn haben sich schließlich auf der Treppe getroffen und über das Problem gesprochen. Herr Schulz hat sich entschuldigt und versprochen, ab 22 Uhr keine laute Musik mehr zu hören.\n\nSeitdem ist es im Haus deutlich ruhiger geworden. Herr Beck hat erzählt, dass er jetzt wieder gut schlafen kann, weil sich sein Nachbar an die Abmachung hält. Beide Männer grüßen sich inzwischen wieder freundlich, wenn sie sich im Treppenhaus begegnen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Beck hat sich über laute Musik beschwert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Schulz hat sofort verstanden, dass die Musik störend war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Becks Frau hat ein Gespräch vorgeschlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Schulz hat versprochen, ab 22 Uhr leise zu sein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Nachbarn grüßen sich heute nicht mehr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-nach-koeln-mit-dem-bus",
+    "nivel": "A2",
+    "titulo": "Die Reise nach Köln mit dem Bus",
+    "descripcion": "Eine Familie fährt mit dem Fernbus nach Köln und erlebt eine kleine Verspätung.",
+    "texto": "Familie Hoffmann hat beschlossen, am Wochenende mit dem Fernbus nach Köln zu fahren, weil die Bustickets viel günstiger waren als die Zugfahrkarten. Schon am Bahnhof haben sie gemerkt, dass der Bus eine halbe Stunde Verspätung hatte, weil es auf der Autobahn einen Stau gab.\n\nWährend der Fahrt haben die Kinder Karten gespielt und aus dem Fenster geschaut, als der Bus durch mehrere kleine Städte gefahren ist. Die Mutter hat belegte Brote mitgebracht, weil sie wusste, dass die Fahrt mehrere Stunden dauern würde. Der Vater hat ein Hörbuch gehört und ist dabei fast eingeschlafen.\n\nAls der Bus endlich in Köln angekommen ist, war die Familie sehr müde, aber auch neugierig auf die Stadt. Sie haben zuerst den Kölner Dom besucht, bevor sie ins Hotel gegangen sind. Am Abend haben alle gesagt, dass sich die lange Fahrt gelohnt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist mit dem Zug nach Köln gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bus hatte Verspätung wegen eines Staus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben während der Fahrt geschlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter hat belegte Brote mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat zuerst den Kölner Dom besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-erster-tag-als-praktikant-im-buero",
+    "nivel": "B1",
+    "titulo": "Mein erster Tag als Praktikant im Büro",
+    "descripcion": "Ein Schüler berichtet von seinem ersten, nervenaufreibenden Tag als Praktikant in einer Firma.",
+    "texto": "Als ich am Montagmorgen zum ersten Mal das Bürogebäude betrat, war ich extrem nervös, obwohl ich mich wochenlang auf dieses Praktikum vorbereitet hatte. Meine Betreuerin, Frau Nowak, begrüßte mich freundlich und zeigte mir zunächst meinen Arbeitsplatz, bevor sie mir die wichtigsten Kollegen vorstellte. Nachdem ich mich an meinem Schreibtisch eingerichtet hatte, bekam ich meine erste Aufgabe: Ich sollte alte Dokumente sortieren und in einem neuen System digitalisieren.\n\nAm Anfang fiel mir die Arbeit schwerer, als ich erwartet hatte, weil ich das Computerprogramm noch nicht kannte. Trotzdem gab ich nicht auf und fragte einen Kollegen um Hilfe, der mir geduldig alles erklärte. Im Laufe des Vormittags wurde ich immer sicherer und konnte die Aufgaben schneller erledigen. In der Mittagspause aß ich zusammen mit anderen Praktikanten in der Kantine, was mir half, mich weniger allein zu fühlen.\n\nAm Ende des Tages war ich erschöpft, fühlte mich aber auch stolz darauf, dass ich meine erste Aufgabe erfolgreich abgeschlossen hatte. Obwohl der erste Tag anstrengend gewesen war, freute ich mich schon auf den nächsten Tag, weil ich spürte, dass ich in diesem Büro viel lernen könnte.",
+    "preguntas": [
+      {
+        "enunciado": "Der Erzähler war am ersten Tag überhaupt nicht nervös.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Nowak zeigte dem Praktikanten zuerst seinen Arbeitsplatz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Praktikant kannte das Computerprogramm sofort gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Kollege half dem Praktikanten geduldig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Erzähler freute sich am Ende nicht mehr auf die weitere Arbeit.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-jahr-als-austauschschueler-in-irland",
+    "nivel": "B1",
+    "titulo": "Ein Jahr als Austauschschüler in Irland",
+    "descripcion": "Ein deutscher Schüler erzählt von seinen Erfahrungen während eines Schuljahres in Irland.",
+    "texto": "Nachdem Jonas sich monatelang auf das Austauschjahr vorbereitet hatte, flog er im September nach Irland, um dort ein Schuljahr zu verbringen. Obwohl er schon seit Jahren Englisch lernte, war er überrascht, wie schwer es ihm am Anfang fiel, die irischen Mitschüler zu verstehen, weil viele von ihnen einen starken Akzent sprachen. Seine Gastfamilie, die Familie O'Brien, nahm ihn jedoch herzlich auf und half ihm, sich schnell einzuleben.\n\nIn den ersten Wochen fühlte sich Jonas manchmal einsam, obwohl er in der Schule bald neue Freunde fand. Nachdem er einem Fußballverein beigetreten war, verbesserte sich sein Englisch deutlich, weil er regelmäßig mit anderen Jugendlichen sprach. Er lernte außerdem viel über die irische Kultur, etwa über traditionelle Musik und die Bedeutung von Feiertagen wie dem St. Patrick's Day.\n\nAls das Schuljahr zu Ende ging, fiel es Jonas schwer, sich von seiner Gastfamilie und seinen neuen Freunden zu verabschieden. Trotzdem war er überzeugt, dass dieses Jahr eine der wichtigsten Erfahrungen seines Lebens gewesen war, weil er nicht nur seine Sprachkenntnisse, sondern auch sein Selbstvertrauen deutlich verbessert hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas konnte von Anfang an alle irischen Mitschüler problemlos verstehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gastfamilie O'Brien nahm Jonas herzlich auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas trat einem Fußballverein bei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas lernte nichts über die irische Kultur.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Abschied von der Gastfamilie fiel Jonas leicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-renovierung-unseres-alten-hauses",
+    "nivel": "B1",
+    "titulo": "Die Renovierung unseres alten Hauses",
+    "descripcion": "Eine Familie renoviert ihr altes Haus und entdeckt dabei unerwartete Probleme.",
+    "texto": "Als meine Eltern vor zwei Jahren das alte Haus meiner Großeltern übernahmen, war schnell klar, dass eine umfassende Renovierung nötig sein würde, obwohl niemand ahnte, wie aufwendig die Arbeiten tatsächlich werden würden. Nachdem die Handwerker die alten Tapeten entfernt hatten, entdeckten sie Feuchtigkeitsschäden an mehreren Wänden, die zunächst niemandem aufgefallen waren.\n\nMeine Eltern mussten deshalb ihr ursprüngliches Budget deutlich erhöhen, obwohl sie gehofft hatten, die Kosten so gering wie möglich zu halten. Trotzdem gaben sie das Projekt nicht auf, weil sie das Haus aus familiären Gründen unbedingt erhalten wollten. Mein Vater verbrachte fast jedes Wochenende damit, gemeinsam mit einem befreundeten Handwerker die Wände zu reparieren, während meine Mutter sich um die Planung der neuen Küche kümmerte.\n\nNachdem die Renovierung nach fast einem Jahr endlich abgeschlossen war, zogen wir mit großer Freude in das Haus ein. Obwohl der Umbau viel länger gedauert hatte als geplant, waren alle in der Familie überzeugt, dass sich die Mühe gelohnt hatte, weil das Haus nun ein gemütliches neues Zuhause für uns alle geworden war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Renovierung war von Anfang an einfach und schnell.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Handwerker entdeckten Feuchtigkeitsschäden an den Wänden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Eltern mussten das Budget deutlich erhöhen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater kümmerte sich nie um die Reparatur der Wände.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Renovierung hat länger als ein Jahr gedauert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-druck-durch-soziale-medien-bei-jugendlichen",
+    "nivel": "B2",
+    "titulo": "Der Druck durch soziale Medien bei Jugendlichen",
+    "descripcion": "Eine Analyse darüber, wie soziale Medien das Selbstbild und das Wohlbefinden junger Menschen beeinflussen.",
+    "texto": "In den letzten Jahren ist zunehmend diskutiert worden, welchen Einfluss soziale Medien auf das psychische Wohlbefinden von Jugendlichen haben. Studien deuten darauf hin, dass insbesondere der ständige Vergleich mit scheinbar perfekten Lebensläufen und Körperbildern, die auf Plattformen wie Instagram oder TikTok präsentiert werden, zu einem verzerrten Selbstbild führen kann. Viele Jugendliche gäben an, sich minderwertig zu fühlen, wenn sie die vermeintlich makellosen Fotos anderer Nutzer betrachteten, obwohl ihnen bewusst sei, dass diese Bilder oft bearbeitet worden seien.\n\nPsychologen weisen darauf hin, dass es hilfreich wäre, wenn Jugendliche stärker darin geschult würden, Medieninhalte kritisch zu hinterfragen. Würde man beispielsweise im Schulunterricht gezielt über die Entstehung solcher Bilder aufgeklärt, könnten junge Menschen besser einschätzen, dass die dargestellte Perfektion selten der Realität entspricht. Einige Plattformen haben bereits reagiert und Funktionen eingeführt, mit denen die tägliche Nutzungszeit begrenzt werden kann, auch wenn Kritiker bezweifeln, dass solche Maßnahmen ausreichen.\n\nEltern und Pädagogen fordern zudem, dass Unternehmen stärker in die Verantwortung genommen werden sollten, etwa durch strengere Alterskontrollen und transparente Kennzeichnung bearbeiteter Bilder. Sollte dies konsequent umgesetzt werden, könnte dies langfristig dazu beitragen, den Druck auf Jugendliche zu verringern. Bislang jedoch bleibt die Umsetzung solcher Forderungen in vielen Ländern lückenhaft, sodass die Debatte über die Verantwortung der Plattformen voraussichtlich noch lange andauern wird.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Medien haben laut Text keinen Einfluss auf das Selbstbild von Jugendlichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Jugendliche vergleichen sich mit bearbeiteten Bildern anderer Nutzer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Psychologen halten eine kritische Medienerziehung für sinnvoll.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Plattformen haben bereits strenge Alterskontrollen eingeführt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Forderungen von Eltern und Pädagogen sind laut Text in allen Ländern bereits vollständig umgesetzt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-ungleichheit-beim-zugang-zu-homeoffice",
+    "nivel": "B2",
+    "titulo": "Die Ungleichheit beim Zugang zu Homeoffice",
+    "descripcion": "Ein Beitrag über die sozialen Unterschiede, die durch die ungleiche Möglichkeit zum Homeoffice entstehen.",
+    "texto": "Seit der Pandemie ist Homeoffice für viele Beschäftigte zu einer festen Option geworden, wobei sich zunehmend zeigt, dass diese Möglichkeit keineswegs allen Berufsgruppen gleichermaßen offensteht. Während Angestellte in der IT-Branche oder im Verwaltungsbereich häufig flexibel von zu Hause arbeiten können, sind Beschäftigte in der Pflege, im Einzelhandel oder in der Produktion nach wie vor darauf angewiesen, vor Ort anwesend zu sein. Kritiker bemängeln, dass dadurch eine neue Form sozialer Ungleichheit entstehe, die eng mit dem Bildungsniveau und dem Einkommen zusammenhänge.\n\nWäre es möglich, mehr Tätigkeiten zumindest teilweise ins Homeoffice zu verlagern, könnte dies laut Experten die Zufriedenheit vieler Beschäftigter erhöhen. Allerdings wird eingewendet, dass bestimmte Berufe, in denen direkter menschlicher Kontakt oder physische Präsenz notwendig sind, grundsätzlich nicht ins Homeoffice verlagert werden könnten, selbst wenn man dies wollte. Zudem berichten manche Beschäftigte im Homeoffice von einer zunehmenden Vermischung von Arbeit und Privatleben, was wiederum zu neuen Belastungen führen könne.\n\nUm der wachsenden Ungleichheit entgegenzuwirken, schlagen einige Ökonomen vor, dass Unternehmen, deren Beschäftigte keine Homeoffice-Möglichkeit haben, stattdessen andere Vorteile anbieten sollten, etwa flexiblere Arbeitszeiten oder zusätzliche freie Tage. Ob solche Ausgleichsmaßnahmen tatsächlich eingeführt würden, hängt letztlich davon ab, wie stark der politische und gesellschaftliche Druck auf die Unternehmen in den kommenden Jahren zunehmen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Homeoffice steht laut Text allen Berufsgruppen gleichermaßen zur Verfügung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beschäftigte in der Pflege können laut Text meist nicht im Homeoffice arbeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen einen Zusammenhang zwischen Homeoffice-Zugang und sozialer Ungleichheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text können alle Berufe problemlos ins Homeoffice verlagert werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Ökonomen schlagen alternative Vorteile für Beschäftigte ohne Homeoffice vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-der-ki-bei-bewerbungsverfahren",
+    "nivel": "B2",
+    "titulo": "Die Rolle der KI bei Bewerbungsverfahren",
+    "descripcion": "Ein Überblick über Chancen und Risiken des Einsatzes künstlicher Intelligenz bei der Personalauswahl.",
+    "texto": "Immer mehr Unternehmen setzen künstliche Intelligenz ein, um Bewerbungsunterlagen vorzusortieren und geeignete Kandidaten für eine Stelle zu identifizieren. Befürworter argumentieren, dass dadurch Zeit gespart und der Auswahlprozess objektiver gestaltet werden könne, da menschliche Vorurteile, etwa hinsichtlich Name, Geschlecht oder Herkunft, theoretisch keine Rolle mehr spielen müssten. Kritiker weisen jedoch darauf hin, dass die eingesetzten Algorithmen selbst nicht frei von Vorurteilen seien, da sie mit Daten aus der Vergangenheit trainiert würden, in denen bestehende Diskriminierungsmuster bereits enthalten gewesen seien.\n\nWürde ein solches System beispielsweise überwiegend mit Daten erfolgreicher männlicher Bewerber trainiert, könnte es systematisch Bewerberinnen benachteiligen, selbst wenn dies von den Entwicklern nicht beabsichtigt gewesen wäre. Aus diesem Grund fordern Datenschutzexperten, dass derartige Systeme regelmäßig überprüft und ihre Entscheidungsgrundlagen für Bewerberinnen und Bewerber transparent gemacht werden sollten. Einige Länder diskutieren bereits gesetzliche Regelungen, nach denen Unternehmen offenlegen müssten, ob und in welchem Umfang KI bei Personalentscheidungen eingesetzt wird.\n\nTrotz dieser Bedenken gehen viele Experten davon aus, dass der Einsatz von KI im Bewerbungsprozess in den kommenden Jahren weiter zunehmen wird, da Unternehmen angesichts der hohen Zahl eingehender Bewerbungen kaum eine Alternative sähen. Entscheidend werde jedoch sein, ob es gelingt, verlässliche Kontrollmechanismen zu entwickeln, mit denen diskriminierende Effekte frühzeitig erkannt und korrigiert werden könnten, bevor sie sich auf die Chancen einzelner Bewerberinnen und Bewerber auswirken.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter sehen in KI eine Möglichkeit, den Auswahlprozess zu beschleunigen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind die eingesetzten Algorithmen grundsätzlich frei von Vorurteilen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "KI-Systeme könnten laut Text Bewerberinnen benachteiligen, wenn die Trainingsdaten verzerrt sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Einige Länder diskutieren gesetzliche Transparenzpflichten für den Einsatz von KI.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten gehen davon aus, dass der Einsatz von KI bei Bewerbungen künftig abnehmen wird.",
+        "respuesta": false
+      }
+    ]
   }
 ]
