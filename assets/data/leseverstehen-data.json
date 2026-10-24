@@ -70070,5 +70070,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-garten-hinter-dem-haus",
+    "nivel": "A1",
+    "titulo": "Der Garten hinter dem Haus",
+    "descripcion": "Lisa und ihr Vater arbeiten im Garten hinter ihrem Haus.",
+    "texto": "Lisa wohnt mit ihrer Familie in einem kleinen Haus. Hinter dem Haus ist ein Garten. Im Garten gibt es viele Blumen und ein paar Bäume. Lisa und ihr Vater arbeiten jeden Samstag im Garten.\n\nHeute pflanzt Lisa rote Tomaten. Ihr Vater gießt die Blumen mit Wasser. Die Sonne scheint, und es ist warm. „Die Tomaten brauchen viel Sonne\", sagt ihr Vater. Lisa lacht und holt noch mehr Wasser.\n\nAm Nachmittag essen Lisa und ihr Vater Kuchen im Garten. Sie sitzen unter einem großen Baum und hören die Vögel singen. Lisa findet den Garten sehr schön. Sie möchte morgen wieder im Garten arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa wohnt in einem großen Haus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Garten gibt es Blumen und Bäume.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa pflanzt heute Kartoffeln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisas Vater gießt die Blumen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa und ihr Vater essen Kuchen im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-flohmarkt-im-hinterhof",
+    "nivel": "A1",
+    "titulo": "Der Flohmarkt im Hinterhof",
+    "descripcion": "Die Nachbarn organisieren einen kleinen Flohmarkt im Hinterhof.",
+    "texto": "In unserem Hinterhof ist heute ein Flohmarkt. Viele Nachbarn verkaufen alte Sachen. Es gibt Bücher, Spielzeug und Kleidung. Die Kinder spielen zusammen und essen Eis.\n\nFrau Meier verkauft alte Teller und Tassen. Herr Krause hat viele Bücher auf einem Tisch. Mein Bruder Tom verkauft sein altes Fahrrad. Ich kaufe ein buntes Buch für zwei Euro. „Das Buch ist sehr schön\", sage ich zu Herrn Krause.\n\nAm Ende des Tages sind alle müde, aber glücklich. Die Nachbarn trinken zusammen Kaffee und reden. Der Flohmarkt war ein großer Erfolg. Nächstes Jahr machen wir wieder einen Flohmarkt im Hinterhof.",
+    "preguntas": [
+      {
+        "enunciado": "Der Flohmarkt ist im Hinterhof.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Meier verkauft Fahrräder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ich kaufe ein Buch für zwei Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder essen Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand trinkt am Ende Kaffee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-kleiner-bruder-lernt-schwimmen",
+    "nivel": "A1",
+    "titulo": "Mein kleiner Bruder lernt schwimmen",
+    "descripcion": "Max geht mit seinem kleinen Bruder Paul zum ersten Schwimmkurs.",
+    "texto": "Mein kleiner Bruder Paul ist fünf Jahre alt. Heute hat er seinen ersten Schwimmkurs. Wir fahren zusammen zum Schwimmbad. Paul ist ein bisschen nervös, aber auch sehr aufgeregt.\n\nIm Schwimmbad trägt Paul eine gelbe Schwimmbrille und rote Schwimmflügel. Der Schwimmlehrer heißt Herr Fischer. Er ist sehr freundlich und geduldig. Paul und die anderen Kinder üben zuerst am Beckenrand. Dann geht Paul langsam ins Wasser.\n\nNach einer Stunde kann Paul schon ein bisschen schwimmen. Er ist sehr stolz auf sich. „Ich schwimme wie ein Fisch!\", ruft er glücklich. Ich finde meinen kleinen Bruder sehr mutig. Wir freuen uns schon auf den nächsten Schwimmkurs.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist fünf Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat heute keinen Schwimmkurs.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schwimmlehrer heißt Herr Fischer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trägt eine blaue Schwimmbrille.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul kann nach der Stunde gar nicht schwimmen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-verregneter-ausflug-ans-meer",
+    "nivel": "A2",
+    "titulo": "Ein verregneter Ausflug ans Meer",
+    "descripcion": "Familie Berger fährt an die Nordsee, aber das Wetter spielt nicht mit.",
+    "texto": "Familie Berger hat letztes Wochenende einen Ausflug an die Nordsee gemacht. Sie sind früh aufgestanden, weil die Fahrt drei Stunden gedauert hat. Als sie endlich am Strand angekommen sind, hat es leider angefangen zu regnen. Die Kinder waren traurig, weil sie nicht im Wasser schwimmen konnten.\n\nTrotzdem haben sie einen Spaziergang am Strand gemacht. Herr Berger hat gesagt, dass der Regen nicht so schlimm sei. Die Familie hat Regenjacken angezogen und ist am Meer entlanggelaufen. Die Kinder haben Muscheln gesammelt und kleine Krebse gefunden. Frau Berger hat Fotos von den grauen Wellen gemacht.\n\nAm Nachmittag sind sie in ein kleines Café gegangen. Dort haben sie heißen Kakao getrunken und sich aufgewärmt. Obwohl das Wetter nicht gut war, hat die Familie den Tag trotzdem genossen. Sie haben beschlossen, im Sommer noch einmal an die Nordsee zu fahren, wenn es wärmer ist.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger ist an die Ostsee gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat am Strand angefangen zu regnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder konnten im Meer schwimmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat Muscheln gesammelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie ist sofort nach Hause gefahren, als es regnete.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-grosseltern",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Großeltern",
+    "descripcion": "Sophie schreibt ihren Großeltern einen Brief über ihre Sommerferien.",
+    "texto": "Liebe Oma, lieber Opa, ich habe euch lange nicht geschrieben, weil die Schule sehr anstrengend war. Jetzt sind endlich die Sommerferien, und ich habe Zeit für einen Brief. Wir haben letzte Woche einen Ausflug in die Berge gemacht, und das Wetter war zum Glück sehr schön.\n\nIch bin zum ersten Mal auf einen richtigen Berg gewandert. Meine Beine haben danach sehr weh getan, aber ich war trotzdem stolz. Mama hat gesagt, dass wir beim nächsten Mal eine leichtere Route wählen sollten. Papa hat viele Fotos von den Bergen und den Kühen gemacht. Abends haben wir in einer kleinen Hütte geschlafen.\n\nIch hoffe, dass es euch gut geht und dass ihr bald zu Besuch kommt. Wenn ihr kommt, zeige ich euch gerne die Fotos von unserem Ausflug. Ich vermisse euch sehr und freue mich auf eure Antwort. Viele liebe Grüße, eure Sophie.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat den Brief im Winter geschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat einen Ausflug in die Berge gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophies Beine haben nach der Wanderung nicht weh getan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben in einer Hütte geschlafen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie möchte ihre Großeltern nicht wiedersehen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-mitfahrgelegenheit-nach-muenchen",
+    "nivel": "A2",
+    "titulo": "Die Mitfahrgelegenheit nach München",
+    "descripcion": "Jonas teilt sich eine Autofahrt nach München mit zwei fremden Mitfahrern.",
+    "texto": "Jonas musste letzten Freitag nach München fahren, weil er dort ein Vorstellungsgespräch hatte. Da ein Zugticket sehr teuer war, hat er sich im Internet eine Mitfahrgelegenheit gesucht. Er hat eine Fahrerin namens Petra gefunden, die ebenfalls nach München gefahren ist.\n\nIm Auto haben außerdem zwei andere Mitfahrer gesessen, ein Student und eine ältere Frau. Am Anfang war Jonas ein bisschen schüchtern, weil er niemanden kannte. Nach einer Stunde haben sie aber alle angefangen, sich zu unterhalten. Sie haben über Musik, Reisen und das Leben in großen Städten gesprochen.\n\nDie Fahrt hat fast vier Stunden gedauert, weil es auf der Autobahn einen Stau gab. Trotzdem hat Jonas die Fahrt sehr angenehm gefunden. Als sie in München angekommen sind, haben sich alle freundlich verabschiedet. Jonas hat sogar Petras Telefonnummer bekommen, falls er wieder einmal nach München fahren muss.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist mit dem Zug nach München gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Auto waren insgesamt vier Personen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fahrt hat ohne Probleme nur zwei Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mitfahrer haben sich während der Fahrt unterhalten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat am Ende niemandes Telefonnummer bekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-arbeitstag-im-homeoffice",
+    "nivel": "B1",
+    "titulo": "Der erste Arbeitstag im Homeoffice",
+    "descripcion": "Nina beginnt einen neuen Job und arbeitet von Anfang an im Homeoffice.",
+    "texto": "Nina hat vor zwei Wochen eine neue Stelle als Grafikdesignerin angetreten, und obwohl sie sich sehr darüber gefreut hat, war sie am ersten Arbeitstag auch nervös. Ihr neuer Arbeitgeber hatte ihr mitgeteilt, dass sie von zu Hause aus arbeiten würde, da das Unternehmen kein eigenes Büro in ihrer Stadt besitzt. Nachdem sie ihren Laptop eingerichtet hatte, wartete sie gespannt auf die erste Videokonferenz mit ihrem Team.\n\nZu Beginn verlief alles etwas chaotisch, weil die Internetverbindung mehrmals abbrach und Nina Schwierigkeiten hatte, sich bei den firmeninternen Programmen anzumelden. Trotzdem halfen ihr die Kollegen geduldig weiter, und nach wenigen Stunden konnte sie endlich mit ihrer ersten Aufgabe beginnen. Ihr Chef erklärte ihr ausführlich, welche Projekte in den nächsten Wochen anstehen würden.\n\nAm Abend war Nina erschöpft, fühlte sich aber auch zufrieden. Obwohl ihr die direkte Nähe zu den Kollegen im Büro fehlte, schätzte sie die Flexibilität, die das Homeoffice ihr bot. Sie beschloss, sich am nächsten Tag einen festen Tagesplan zu erstellen, damit sie Arbeit und Pausen besser trennen könnte. Nachdem die erste Woche vorbei war, fühlte sie sich schon viel sicherer in ihrer neuen Rolle.",
+    "preguntas": [
+      {
+        "enunciado": "Nina arbeitet als Grafikdesignerin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Unternehmen hat ein großes Büro in Ninas Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am ersten Tag gab es keine technischen Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen haben Nina geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina fühlte sich nach der ersten Woche unsicherer als am Anfang.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-an-der-kueste",
+    "nivel": "B1",
+    "titulo": "Die Fahrradtour an der Küste",
+    "descripcion": "Eine Gruppe von Freunden plant eine mehrtägige Fahrradtour entlang der Ostseeküste.",
+    "texto": "Jedes Jahr im Sommer unternimmt eine Gruppe von fünf Freunden eine gemeinsame Fahrradtour, und dieses Jahr haben sie sich für eine Route entlang der Ostseeküste entschieden. Obwohl die Strecke über zweihundert Kilometer lang war, waren alle optimistisch, weil sie sich gut vorbereitet hatten. Sie packten leichtes Gepäck, da sie in Hostels und kleinen Pensionen übernachten wollten, anstatt zu zelten.\n\nAm zweiten Tag der Tour zog plötzlich ein starker Sturm auf, nachdem die Wettervorhersage eigentlich sonniges Wetter angekündigt hatte. Die Gruppe musste daher kurzfristig in einem kleinen Fischerdorf Schutz suchen und wartete dort mehrere Stunden, bis der Regen nachließ. Trotzdem ließen sich die Freunde die gute Stimmung nicht verderben und nutzten die Pause, um frischen Fisch in einem Hafenrestaurant zu probieren.\n\nNach fünf Tagen erreichten sie schließlich ihr Ziel, eine kleine Hafenstadt mit einem berühmten Leuchtturm. Obwohl ihre Beine am Ende der Tour schmerzten, waren alle stolz auf die geleistete Strecke. Sie beschlossen, dass diese Fahrradtour eine der schönsten Erfahrungen ihres Sommers gewesen sei, und planten bereits, im nächsten Jahr eine noch längere Route zu fahren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Freunde haben während der Tour gezeltet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am zweiten Tag gab es einen starken Sturm.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gruppe hat die Tour wegen des Sturms abgebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende der Tour haben sie einen Leuchtturm erreicht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde wollen nächstes Jahr keine Fahrradtour mehr machen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-herausforderungen-der-pflegebranche",
+    "nivel": "B1",
+    "titulo": "Die Herausforderungen der Pflegebranche",
+    "descripcion": "Ein Bericht über den Alltag und die Probleme von Pflegekräften in deutschen Krankenhäusern.",
+    "texto": "Pflegekräfte in deutschen Krankenhäusern berichten seit Jahren von einer hohen Arbeitsbelastung, die sich trotz verschiedener politischer Reformen kaum verbessert hat. Viele Stationen sind chronisch unterbesetzt, sodass einzelne Pflegekräfte oft deutlich mehr Patienten versorgen müssen, als es eigentlich empfohlen wird. Obwohl die Politik in den letzten Jahren mehrfach versprochen hat, die Situation zu verbessern, klagen viele Beschäftigte darüber, dass sich im Arbeitsalltag kaum etwas verändert habe.\n\nEine Krankenschwester aus Hamburg erzählte in einem Interview, dass sie während ihrer Schichten häufig keine Zeit für Pausen finde, obwohl diese gesetzlich vorgeschrieben seien. Nachdem sie bereits mehrere Jahre in diesem Beruf gearbeitet hatte, überlegte sie schließlich, ihre Stelle zu wechseln, weil die körperliche und psychische Belastung zu groß geworden war. Viele ihrer Kolleginnen und Kollegen hätten den Beruf bereits verlassen, was den Personalmangel zusätzlich verschärfe.\n\nExperten fordern deshalb strukturelle Veränderungen, etwa eine bessere Bezahlung und verbindliche Personaluntergrenzen, die tatsächlich eingehalten werden. Trotzdem bleibt unklar, ob und wann solche Maßnahmen flächendeckend umgesetzt werden. Solange sich die Arbeitsbedingungen nicht grundlegend ändern, dürfte es für Krankenhäuser weiterhin schwierig bleiben, ausreichend qualifiziertes Personal zu finden und langfristig zu halten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Arbeitsbelastung in der Pflege hat sich laut Text deutlich verbessert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Stationen sind unterbesetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Krankenschwester aus Hamburg hat immer genug Zeit für Pausen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Pflegekräfte haben den Beruf bereits verlassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten sind sich sicher, dass die Probleme bald gelöst werden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-rueckkehr-des-nachtzugs-in-europa",
+    "nivel": "B2",
+    "titulo": "Die Rückkehr des Nachtzugs in Europa",
+    "descripcion": "Warum Nachtzüge in Europa nach Jahren des Rückgangs wieder an Bedeutung gewinnen.",
+    "texto": "Nachdem zahlreiche Nachtzugverbindungen in Europa über Jahrzehnte hinweg aus wirtschaftlichen Gründen eingestellt worden waren, erlebt diese Form des Reisens in den vergangenen Jahren eine bemerkenswerte Renaissance. Mehrere europäische Bahngesellschaften haben neue Linien eingeführt oder bestehende Verbindungen ausgebaut, was von vielen Reisenden als überfällige Entwicklung begrüßt wird. Als Hauptgrund für dieses wiedererwachte Interesse gilt vor allem das gestiegene Umweltbewusstsein, da Zugreisen im Vergleich zu Kurzstreckenflügen deutlich weniger Treibhausgase verursachen.\n\nBefürworter argumentieren, dass Nachtzüge nicht nur ökologisch sinnvoller seien, sondern auch einen praktischen Vorteil böten: Würde man nachts reisen, könnte man einen vollen Tag am Zielort gewinnen, anstatt diesen mit Warten am Flughafen zu verbringen. Kritiker wenden hingegen ein, dass die Infrastruktur in vielen Ländern veraltet sei und dringend modernisiert werden müsse, damit die Züge tatsächlich eine konkurrenzfähige Alternative zum Flugzeug darstellen könnten. Zudem seien die Ticketpreise häufig höher als vergleichbare Flugverbindungen, was von manchen als Hindernis für eine breite Nutzung angesehen wird.\n\nUm den Nachtzugverkehr langfristig zu stärken, müssten nach Ansicht vieler Experten die beteiligten Länder enger zusammenarbeiten und gemeinsam in neues Rollmaterial sowie in eine bessere grenzüberschreitende Koordination investieren. Sollte dies gelingen, könnten Nachtzüge zu einer festen Säule einer klimafreundlicheren europäischen Mobilität werden. Bis dahin bleibt jedoch fraglich, ob der aktuelle Aufschwung tatsächlich anhält oder ob er sich, wie schon frühere Versuche, als vorübergehendes Phänomen erweisen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Nachtzüge wurden früher aus wirtschaftlichen Gründen abgeschafft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das gestiegene Umweltbewusstsein wird als Grund für die Renaissance der Nachtzüge genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind Ticketpreise für Nachtzüge immer günstiger als Flugtickets.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sagen, die Infrastruktur sei bereits ausreichend modernisiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern mehr internationale Zusammenarbeit, um den Nachtzugverkehr zu stärken.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-recht-auf-reparatur",
+    "nivel": "B2",
+    "titulo": "Reparieren statt Wegwerfen: Die Debatte um ein Recht auf Reparatur",
+    "descripcion": "Eine Analyse der Forderung nach einem gesetzlich verankerten Recht auf Reparatur elektronischer Geräte.",
+    "texto": "In den vergangenen Jahren ist die Forderung nach einem sogenannten Recht auf Reparatur zunehmend in den Mittelpunkt der politischen Debatte gerückt. Verbraucherschützer kritisieren, dass viele elektronische Geräte absichtlich so konstruiert würden, dass sie nach Ablauf der Garantiezeit möglichst schwer zu reparieren seien. Akkus, die fest verklebt sind, oder Ersatzteile, die nur autorisierten Werkstätten zur Verfügung gestellt werden, würden Verbraucher faktisch dazu zwingen, defekte Geräte durch neue zu ersetzen, anstatt sie reparieren zu lassen.\n\nBefürworter eines gesetzlichen Reparaturrechts argumentieren, dass Hersteller verpflichtet werden sollten, Ersatzteile über einen längeren Zeitraum anzubieten und Reparaturanleitungen frei zugänglich zu machen. Nur so könnten unabhängige Werkstätten und technisch versierte Privatpersonen Geräte selbst instand setzen, ohne auf den Hersteller angewiesen zu sein. Dies würde nicht nur Geld sparen, sondern auch erheblich zur Reduzierung von Elektroschrott beitragen, der weltweit zu einem immer gravierenderen Umweltproblem geworden ist.\n\nDie Industrie hingegen warnt vor den Folgen einer zu strengen Regulierung. Würden Hersteller gezwungen, ihre Produkte grundlegend umzugestalten, könnte dies zu höheren Produktionskosten führen, die letztlich an die Verbraucher weitergegeben würden. Zudem wird argumentiert, dass unsachgemäße Reparaturen durch Laien die Sicherheit der Geräte gefährden könnten. Dennoch haben einige Länder bereits erste gesetzliche Schritte unternommen, und es ist davon auszugehen, dass sich das Thema in den kommenden Jahren weiter zu einem zentralen Streitpunkt der europäischen Verbraucherpolitik entwickeln wird.",
+    "preguntas": [
+      {
+        "enunciado": "Verbraucherschützer werfen Herstellern vor, Geräte absichtlich schwer reparierbar zu machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind Ersatzteile für alle Geräte problemlos frei verfügbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter des Reparaturrechts wollen, dass Reparaturanleitungen frei zugänglich sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Industrie befürwortet uneingeschränkt ein strenges Reparaturrecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Länder haben bereits gesetzliche Schritte in diese Richtung unternommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "laerm-in-der-stadt",
+    "nivel": "B2",
+    "titulo": "Lärm in der Stadt: Ein unterschätztes Gesundheitsrisiko",
+    "descripcion": "Warum chronischer Verkehrslärm in Großstädten zunehmend als ernstes Gesundheitsproblem gilt.",
+    "texto": "Während Luftverschmutzung in der öffentlichen Debatte über die gesundheitlichen Folgen des städtischen Lebens meist im Vordergrund steht, wird ein anderer Faktor häufig unterschätzt: der permanente Lärm, dem Bewohnerinnen und Bewohner von Großstädten tagtäglich ausgesetzt sind. Studien zeigen, dass chronischer Verkehrslärm nicht nur das subjektive Wohlbefinden beeinträchtigt, sondern auch nachweislich mit einem erhöhten Risiko für Herz-Kreislauf-Erkrankungen, Schlafstörungen und sogar psychischen Belastungen in Verbindung gebracht werden kann.\n\nBesonders betroffen seien Menschen, die in der Nähe stark befahrener Straßen oder unter Einflugschneisen von Flughäfen wohnten, da sie auch nachts kaum Erholung fänden. Mediziner weisen darauf hin, dass selbst Lärm, der subjektiv nicht als störend wahrgenommen werde, weil man sich im Schlaf daran gewöhnt zu haben glaube, dennoch messbare Stressreaktionen im Körper auslösen könne. Langfristig erhöhe dies das Risiko für chronische Erkrankungen, selbst wenn die betroffenen Personen selbst keinen direkten Zusammenhang herstellten.\n\nStädteplaner und Gesundheitsexperten fordern deshalb, dem Thema Lärmschutz bei der Stadtplanung mehr Gewicht zu verleihen, etwa durch Lärmschutzwände, strengere Tempolimits oder eine konsequentere Verlagerung des Verkehrs auf leisere Verkehrsmittel. Sollten solche Maßnahmen flächendeckend umgesetzt werden, könnte dies langfristig nicht nur die Lebensqualität in Städten erhöhen, sondern auch die Gesundheitskosten senken, die durch lärmbedingte Erkrankungen jährlich entstehen. Bislang jedoch spielt der Lärmschutz in vielen Stadtentwicklungsplänen nur eine untergeordnete Rolle gegenüber anderen Prioritäten wie Wohnraum oder Verkehrsinfrastruktur.",
+    "preguntas": [
+      {
+        "enunciado": "Verkehrslärm wird im Text als unterschätztes Gesundheitsrisiko beschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien hat Lärm keinen Zusammenhang mit Herz-Kreislauf-Erkrankungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Menschen in der Nähe von Flughäfen sind laut Text besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Körper reagiert laut Text nie mit Stress auf Lärm, den man nicht bewusst wahrnimmt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Städteplaner fordern mehr Gewicht für Lärmschutz in der Stadtplanung.",
+        "respuesta": true
+      }
+    ]
   }
 ]
