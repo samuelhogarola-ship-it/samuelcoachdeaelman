@@ -71114,5 +71114,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-oma-naeht-kleider",
+    "nivel": "A1",
+    "titulo": "Meine Oma näht Kleider",
+    "descripcion": "Ein Mädchen erzählt über das Hobby ihrer Oma.",
+    "texto": "Meine Oma heißt Grete. Sie ist 70 Jahre alt und wohnt in einem kleinen Haus. Jeden Tag näht sie Kleider. Sie hat einen roten Stoff, einen blauen Stoff und einen gelben Stoff. Die Kleider sind sehr schön.\n\nAm Samstag besuche ich meine Oma. Wir trinken Tee und essen Kuchen. Oma zeigt mir ihre neue Nähmaschine. Ich sage: „Oma, das Kleid ist toll!“ Oma lacht und sagt: „Danke, Liebling. Ich nähe ein Kleid für dich.“\n\nIch mag die Kleider von meiner Oma. Sie sind bunt und bequem. Im Sommer trage ich oft ein Kleid von Oma. Meine Freundinnen finden die Kleider auch schön.",
+    "preguntas": [
+      {
+        "enunciado": "Omas Name ist Grete.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma näht Hosen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Mädchen besucht die Oma am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma hat keine Nähmaschine.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Mädchen trägt im Sommer ein Kleid von Oma.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-regenschirm-ist-kaputt",
+    "nivel": "A1",
+    "titulo": "Der Regenschirm ist kaputt",
+    "descripcion": "Ein Mann braucht einen neuen Regenschirm und geht einkaufen.",
+    "texto": "Es regnet. Herr Berger nimmt seinen Regenschirm. Der Regenschirm ist alt und kaputt. Der Wind macht ihn ganz krumm. Herr Berger ist nass und nicht froh.\n\nHerr Berger geht in ein Geschäft. Im Geschäft gibt es viele Regenschirme: schwarz, grün und rot. Er fragt die Verkäuferin: „Was kostet der schwarze Regenschirm?“ Die Verkäuferin antwortet: „Er kostet zwölf Euro.“ Herr Berger nimmt den schwarzen Regenschirm.\n\nJetzt hat Herr Berger einen neuen Regenschirm. Der Regenschirm ist groß und stark. Herr Berger ist wieder froh. Er geht nach Hause und bleibt trocken.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Bergers alter Regenschirm ist kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Sonne scheint.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Geschäft gibt es nur einen Regenschirm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der schwarze Regenschirm kostet zwölf Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger bleibt am Ende nass.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wir-kaufen-ein-aquarium",
+    "nivel": "A1",
+    "titulo": "Wir kaufen ein Aquarium",
+    "descripcion": "Eine Familie kauft ein Aquarium mit Fischen für das Wohnzimmer.",
+    "texto": "Die Familie Hoffmann möchte Fische haben. Am Sonntag fahren sie in ein Tiergeschäft. Im Geschäft gibt es viele Aquarien. Die Kinder, Lea und Tim, sind sehr aufgeregt.\n\nLea mag die orangen Fische. Tim mag die blauen Fische. Die Mutter kauft ein großes Aquarium und zehn Fische. Der Vater kauft Steine und Pflanzen für das Aquarium. Zu Hause stellen sie das Aquarium ins Wohnzimmer.\n\nJeden Morgen füttert Tim die Fische. Lea putzt das Glas. Die Familie schaut gern auf die Fische. Das Aquarium macht alle glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie fährt am Sonntag ins Tiergeschäft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea mag die blauen Fische.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter kauft zehn Fische.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Aquarium steht in der Küche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim füttert jeden Morgen die Fische.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-bei-der-cousine",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei der Cousine",
+    "descripcion": "Ein Mädchen berichtet von einem Besuch bei ihrer Cousine in einer anderen Stadt.",
+    "texto": "Letztes Wochenende bin ich zu meiner Cousine Mara nach Leipzig gefahren. Ich bin mit dem Zug gefahren, weil die Fahrkarte nicht so teuer war. Mara hat mich am Bahnhof abgeholt und wir sind zusammen zu ihrer Wohnung gegangen.\n\nAm Samstag haben wir die Altstadt besucht. Wir sind in viele kleine Geschäfte gegangen und haben Postkarten gekauft. Danach haben wir in einem Café Kuchen gegessen, weil wir sehr hungrig waren. Am Abend haben wir einen Film angeschaut und viel gelacht.\n\nAm Sonntag musste ich schon wieder nach Hause fahren. Das fand ich schade, denn das Wochenende war so schön. Mara hat gesagt, dass ich bald wiederkommen soll. Ich habe mich sehr gefreut und werde sie im nächsten Monat wieder besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Mädchen ist mit dem Auto nach Leipzig gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mara hat sie am Bahnhof abgeholt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben am Samstag die Altstadt besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend sind sie schwimmen gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Mädchen will Mara im nächsten Monat wieder besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-nachbar-und-sein-neuer-hund",
+    "nivel": "A2",
+    "titulo": "Der Nachbar und sein neuer Hund",
+    "descripcion": "Ein neuer Hund im Haus bringt Unruhe, aber auch neue Freundschaft.",
+    "texto": "Letzte Woche hat unser Nachbar, Herr Krause, einen Hund bekommen. Der Hund heißt Bruno und ist noch sehr jung. Weil Bruno nachts oft gebellt hat, haben wir in den ersten Tagen nicht gut geschlafen.\n\nIch bin zu Herrn Krause gegangen und habe mit ihm gesprochen. Er hat erklärt, dass Bruno Angst vor der neuen Wohnung hat. Deshalb habe ich ihm vorgeschlagen, dass wir Bruno zusammen Gassi führen. Herr Krause hat sich sehr gefreut, dass ich helfen wollte.\n\nJetzt gehen wir jeden Abend mit Bruno in den Park. Der Hund bellt nicht mehr so viel, weil er sich an die neue Umgebung gewöhnt hat. Auch Herr Krause und ich sind inzwischen gute Freunde geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Krause hat eine Katze bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno hat in den ersten Tagen oft gebellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Erzähler hat nie mit Herrn Krause gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie führen Bruno jetzt zusammen Gassi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno bellt am Ende immer noch sehr viel.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-jacke-im-zug-vergessen",
+    "nivel": "A2",
+    "titulo": "Die Jacke im Zug vergessen",
+    "descripcion": "Ein Reisender vergisst seine Jacke im Zug und sucht sie beim Fundbüro.",
+    "texto": "Als Paul in München ausgestiegen ist, hat er bemerkt, dass er seine Jacke im Zug vergessen hat. Er ist sofort zum Fundbüro gegangen, weil seine Schlüssel in der Jackentasche waren.\n\nIm Fundbüro hat eine freundliche Frau ihm geholfen. Sie hat gefragt, wie die Jacke aussieht und wann der Zug angekommen ist. Paul hat gesagt, dass die Jacke blau ist und eine Kapuze hat. Die Frau hat in einer Liste gesucht, aber die Jacke war noch nicht da.\n\nZwei Tage später hat Paul einen Anruf vom Fundbüro bekommen. Die Jacke war gefunden worden, weil ein anderer Fahrgast sie abgegeben hatte. Paul war sehr erleichtert und ist noch am selben Tag zum Fundbüro gefahren, um seine Jacke abzuholen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hat seine Jacke im Bus vergessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Jackentasche waren Pauls Schlüssel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Jacke war beim ersten Besuch sofort im Fundbüro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein anderer Fahrgast hat die Jacke abgegeben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat seine Jacke nie zurückbekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-umstellung-auf-vier-tage-woche",
+    "nivel": "B1",
+    "titulo": "Die Umstellung auf die Vier-Tage-Woche",
+    "descripcion": "Ein mittelständisches Unternehmen testet die Vier-Tage-Woche und zieht eine Bilanz.",
+    "texto": "Vor einem Jahr hat die Firma Lindner GmbH beschlossen, die Vier-Tage-Woche einzuführen. Obwohl viele Mitarbeiter zunächst skeptisch waren, wollte die Geschäftsführung ausprobieren, ob weniger Arbeitstage die Zufriedenheit und die Produktivität verbessern können.\n\nNachdem das Projekt gestartet war, zeigten sich schnell erste Veränderungen. Die Mitarbeiter waren konzentrierter, weil sie wussten, dass ihnen am Freitag ein freier Tag zur Verfügung stand. Trotzdem gab es auch Schwierigkeiten: In manchen Abteilungen mussten Termine neu organisiert werden, damit Kunden weiterhin gut betreut werden konnten.\n\nHeute, ein Jahr später, zieht die Firma eine positive Bilanz. Die Krankheitstage sind gesunken und die Mitarbeiter berichten von mehr Energie im Alltag. Obwohl nicht jede Abteilung die neue Regelung gleich gut umsetzen konnte, will die Geschäftsführung die Vier-Tage-Woche dauerhaft beibehalten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mitarbeiter waren von Anfang an begeistert von der Vier-Tage-Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Umstellung waren die Mitarbeiter konzentrierter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Abteilungen hatten von Beginn an keine Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Krankheitstage sind nach der Umstellung gesunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Firma will zur klassischen Fünf-Tage-Woche zurückkehren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "soziale-ungleichheit-in-der-bildung",
+    "nivel": "B1",
+    "titulo": "Soziale Ungleichheit in der Bildung",
+    "descripcion": "Ein Blick darauf, wie die familiäre Herkunft die Bildungschancen von Kindern beeinflusst.",
+    "texto": "In Deutschland hängt der Schulerfolg eines Kindes stark von der familiären Herkunft ab. Obwohl das Schulsystem allen Kindern offenstehen soll, zeigen Studien, dass Kinder aus bildungsfernen Familien seltener ein Gymnasium besuchen als Kinder, deren Eltern selbst studiert haben.\n\nNachdem Experten jahrelang auf dieses Problem hingewiesen hatten, haben einige Bundesländer begonnen, zusätzliche Förderprogramme einzuführen. Dazu gehören kostenlose Nachhilfe und Ganztagsschulen, die benachteiligten Kindern mehr Unterstützung bieten sollen. Trotzdem reicht das nach Meinung vieler Pädagogen noch nicht aus.\n\nBesonders wichtig ist, dass Lehrerinnen und Lehrer früh erkennen, welche Schüler zusätzliche Hilfe brauchen. Wenn Kinder schon in der Grundschule gefördert werden, haben sie später bessere Chancen auf einen höheren Schulabschluss. Deshalb fordern viele Experten mehr Investitionen in die frühe Bildung.",
+    "preguntas": [
+      {
+        "enunciado": "Der Schulerfolg hängt in Deutschland nicht von der Herkunft ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kinder aus bildungsfernen Familien besuchen seltener ein Gymnasium.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bundesländer haben die gleichen Förderprogramme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frühe Förderung kann die Bildungschancen verbessern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten meinen, die bisherigen Maßnahmen reichen völlig aus.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "gentrifizierung-in-der-grossstadt",
+    "nivel": "B1",
+    "titulo": "Gentrifizierung in der Großstadt",
+    "descripcion": "Ein Stadtviertel verändert sich, nachdem viele neue, wohlhabende Bewohner zuziehen.",
+    "texto": "Vor zehn Jahren war der Stadtteil Sonnenallee noch ein einfaches Arbeiterviertel. Die Mieten waren niedrig und viele Familien lebten dort schon seit Generationen. Nachdem jedoch mehrere trendige Cafés und Geschäfte eröffnet hatten, begannen sich die Dinge zu verändern.\n\nImmer mehr junge, gut verdienende Menschen zogen in das Viertel, weil sie die Nähe zum Stadtzentrum und die lebendige Atmosphäre schätzten. Dadurch stiegen die Mieten jedoch so stark, dass viele alte Bewohner sich ihre Wohnungen nicht mehr leisten konnten. Obwohl die Stadtverwaltung versprochen hatte, bezahlbaren Wohnraum zu schützen, mussten zahlreiche Familien in günstigere Stadtteile umziehen.\n\nHeute diskutiert die Politik darüber, wie man solche Entwicklungen in Zukunft verhindern kann. Einige fordern eine strengere Mietpreisbremse, andere setzen auf den Bau neuer Sozialwohnungen. Trotzdem bleibt die Sonnenallee ein Beispiel dafür, wie schnell sich ein Viertel verändern kann.",
+    "preguntas": [
+      {
+        "enunciado": "Die Sonnenallee war vor zehn Jahren ein teures Viertel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Neue Cafés und Geschäfte haben die Entwicklung des Viertels beeinflusst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mieten sind nach dem Zuzug neuer Bewohner gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele alte Bewohner mussten in günstigere Stadtteile umziehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Politik diskutiert heute nicht mehr über das Thema.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "desinformation-und-faktencheck",
+    "nivel": "B2",
+    "titulo": "Desinformation und die Rolle des Faktenchecks",
+    "descripcion": "Eine Auseinandersetzung mit der wachsenden Bedeutung von Faktenprüfung im digitalen Zeitalter.",
+    "texto": "Mit der zunehmenden Verbreitung sozialer Medien hat sich auch die Geschwindigkeit erhöht, mit der Falschinformationen kursieren können. Während früher journalistische Redaktionen als zentrale Filter fungierten, werden Inhalte heute oft ungeprüft weitergeleitet, bevor ihre Richtigkeit überhaupt überprüft wurde.\n\nUm dieser Entwicklung entgegenzuwirken, wurden in den vergangenen Jahren zahlreiche Faktencheck-Organisationen gegründet, die gezielt Behauptungen überprüfen, die online besonders häufig geteilt werden. Dennoch stellt sich die Frage, ob ein nachträglicher Faktencheck überhaupt ausreicht, wenn eine Falschmeldung bereits Millionen Menschen erreicht hat, bevor sie widerlegt wird. Kritiker bemängeln außerdem, dass Faktenchecks von Teilen der Bevölkerung als parteiisch wahrgenommen werden, was ihre Wirkung zusätzlich einschränkt.\n\nWäre es also sinnvoller, bereits in der Bildung anzusetzen, anstatt ausschließlich auf nachträgliche Korrekturen zu vertrauen? Viele Pädagogen plädieren dafür, Medienkompetenz fest im Lehrplan zu verankern, damit junge Menschen von Anfang an lernen, Quellen kritisch zu hinterfragen. Nur durch eine Kombination aus struktureller Aufklärung und individueller Urteilsfähigkeit lässt sich der Verbreitung von Desinformation wirksam begegnen.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Medien haben die Verbreitung von Falschinformationen beschleunigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Faktencheck-Organisationen wurden schon vor Jahrzehnten flächendeckend etabliert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker halten Faktenchecks für parteiisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Pädagogen lehnen die Idee ab, Medienkompetenz zu unterrichten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, Bildung und Aufklärung stärker zu kombinieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "elterngeld-und-gleichstellung-der-eltern",
+    "nivel": "B2",
+    "titulo": "Elterngeld und die Gleichstellung der Eltern",
+    "descripcion": "Eine Analyse, inwiefern das Elterngeld zur Gleichstellung von Müttern und Vätern beiträgt.",
+    "texto": "Seit der Einführung des Elterngeldes sollte nicht nur die finanzielle Belastung junger Familien verringert, sondern auch eine gerechtere Aufteilung der Erziehungsarbeit zwischen Müttern und Vätern gefördert werden. Tatsächlich hat sich der Anteil der Väter, die Elternzeit nehmen, in den letzten Jahren deutlich erhöht, wenngleich die meisten von ihnen nur die beiden sogenannten Partnermonate in Anspruch nehmen.\n\nWürde das Elterngeld anders gestaltet, könnte dies möglicherweise zu einer ausgewogeneren Verteilung der Betreuungszeit führen. Einige Expertinnen schlagen vor, dass längere, für beide Elternteile verpflichtende Zeiträume die traditionelle Rollenverteilung aufbrechen könnten, da Väter dann nicht mehr als Ausnahme, sondern als Normalfall wahrgenommen würden. Zugleich wird jedoch befürchtet, dass eine solche Regelung von kleineren Unternehmen als zusätzliche Belastung empfunden werden könnte.\n\nLetztlich zeigt die Debatte, dass gesetzliche Regelungen allein nicht ausreichen, um gesellschaftliche Rollenbilder zu verändern. Solange Erziehungsarbeit in vielen Branchen weiterhin als Karrierehindernis angesehen wird, dürfte sich an der ungleichen Verteilung nur wenig ändern, selbst wenn das Elterngeld weiter reformiert wird.",
+    "preguntas": [
+      {
+        "enunciado": "Das Elterngeld sollte ausschließlich die Finanzen der Familien entlasten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Anteil der Väter in Elternzeit ist in den letzten Jahren gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die meisten Väter nehmen bisher nur die Partnermonate.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kleinere Unternehmen begrüßen längere, verpflichtende Elternzeiten ausnahmslos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, gesetzliche Regelungen allein würden die Rollenbilder sicher verändern.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wert-von-muessiggang-in-der-leistungsgesellschaft",
+    "nivel": "B2",
+    "titulo": "Der Wert von Müßiggang in der Leistungsgesellschaft",
+    "descripcion": "Ein Essay darüber, warum bewusstes Nichtstun in einer effizienzorientierten Gesellschaft an Bedeutung gewinnt.",
+    "texto": "In einer Gesellschaft, die Produktivität und ständige Erreichbarkeit zunehmend als Tugenden betrachtet, gilt Müßiggang häufig als verschwendete Zeit. Wer nicht arbeitet, so die weitverbreitete Annahme, verpasst eine Gelegenheit, sich weiterzuentwickeln oder sein Einkommen zu steigern. Diese Haltung wird jedoch von immer mehr Wissenschaftlern infrage gestellt.\n\nStudien zur Kreativitätsforschung legen nahe, dass gerade Phasen scheinbarer Untätigkeit notwendig sind, damit das Gehirn Informationen verarbeiten und neue Verbindungen herstellen kann. Würde man also konsequent jede freie Minute mit Aufgaben füllen, bliebe dem Geist kaum Raum, um unkonventionelle Lösungen zu entwickeln. Dennoch wird bewusste Erholung in vielen Berufen noch immer als Zeichen von Faulheit missverstanden, wodurch ein stiller Druck entsteht, ununterbrochen beschäftigt zu wirken.\n\nUm diesem Druck zu entgehen, müsste sich nicht nur die individuelle Einstellung ändern, sondern auch die Unternehmenskultur insgesamt. Solange Mitarbeitende dafür belohnt werden, möglichst viele Überstunden zu leisten, wird echte Erholung weiterhin als Luxus gelten, den man sich erst verdienen muss. Ein Umdenken wäre jedoch nicht nur für die Gesundheit der Einzelnen von Vorteil, sondern könnte langfristig auch der Innovationsfähigkeit ganzer Branchen zugutekommen.",
+    "preguntas": [
+      {
+        "enunciado": "In der beschriebenen Gesellschaft wird Müßiggang meist positiv bewertet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Kreativitätsforschung können Ruhephasen für neue Ideen wichtig sein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, Erholung werde in jedem Beruf sofort akzeptiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Umdenken in der Unternehmenskultur wird im Text als möglich vorteilhaft beschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Autor fordert, möglichst viele Überstunden zu belohnen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
