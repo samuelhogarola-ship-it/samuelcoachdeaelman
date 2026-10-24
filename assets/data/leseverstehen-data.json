@@ -71462,5 +71462,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "die-blauen-schuhe-von-tante-rosa",
+    "nivel": "A1",
+    "titulo": "Die blauen Schuhe von Tante Rosa",
+    "descripcion": "Tante Rosa trägt immer blaue Schuhe und erzählt gern davon.",
+    "texto": "Tante Rosa hat viele Schuhe. Ihre Lieblingsschuhe sind blau. Sie trägt die blauen Schuhe jeden Tag. Die Schuhe sind alt, aber sehr bequem.\n\nAm Sonntag besuche ich Tante Rosa. Wir trinken Tee und essen Kekse. Sie zeigt mir ein Foto. Auf dem Foto trägt sie die blauen Schuhe am Strand. Das Foto ist zwanzig Jahre alt.\n\n„Die Schuhe sind mein Glück“, sagt Tante Rosa. Ich finde die Schuhe sehr schön. Vielleicht kaufe ich mir auch blaue Schuhe.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Rosa trägt oft blaue Schuhe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schuhe sind neu.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Foto zeigt die Schuhe am Strand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tante Rosa mag die Schuhe nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Besucherin trinkt Kaffee bei Tante Rosa.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-regentag-im-zirkus",
+    "nivel": "A1",
+    "titulo": "Ein Regentag im Zirkus",
+    "descripcion": "Eine Familie besucht trotz Regen den Zirkus in der Stadt.",
+    "texto": "Heute regnet es stark. Lena und ihr Bruder Tom gehen trotzdem in den Zirkus. Der Zirkus ist in einem großen Zelt. Drinnen ist es warm und trocken.\n\nIm Zirkus sehen sie Clowns, Pferde und einen Elefanten. Der Elefant heißt Max. Lena lacht viel über die Clowns. Tom mag den Elefanten am meisten.\n\nNach der Vorstellung essen sie Popcorn. Draußen regnet es immer noch. Aber Lena und Tom sind glücklich. Der Zirkus war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Es regnet an diesem Tag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena und Tom bleiben zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Elefant heißt Max.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom mag die Clowns am meisten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie essen nach der Vorstellung Popcorn.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagstorte-fuer-opa-karl",
+    "nivel": "A1",
+    "titulo": "Die Geburtstagstorte für Opa Karl",
+    "descripcion": "Die Familie backt gemeinsam eine Torte für Opas Geburtstag.",
+    "texto": "Opa Karl wird heute achtzig Jahre alt. Die ganze Familie backt eine Torte. Mama macht den Teig. Die Kinder legen Erdbeeren auf die Torte.\n\nDie Torte ist groß und rot. Papa schreibt „Alles Gute“ mit Schokolade. Die Kinder sind sehr stolz auf die Torte.\n\nAm Abend kommt Opa Karl. Er sieht die Torte und lacht. „Das ist die schönste Torte“, sagt er. Alle singen ein Geburtstagslied und essen die Torte zusammen.",
+    "preguntas": [
+      {
+        "enunciado": "Opa Karl wird achtzig Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Torte ist blau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder legen Erdbeeren auf die Torte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa Karl mag die Torte nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie singt ein Geburtstagslied.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-dreibeinige-hund-vom-nachbarn",
+    "nivel": "A2",
+    "titulo": "Der dreibeinige Hund vom Nachbarn",
+    "descripcion": "Ein Nachbarshund mit drei Beinen gewinnt das Herz der ganzen Straße.",
+    "texto": "HerrWeber hat vor einem Monat einen neuen Hund bekommen. Der Hund heißt Bruno und hat nur drei Beine, weil er als Welpe einen Unfall hatte. Trotzdem läuft Bruno schnell und ist immer fröhlich.\n\nJeden Morgen gehen Herr Weber und Bruno durch die Straße. Alle Nachbarn haben Bruno schnell gemocht, weil er so freundlich ist. Die Kinder aus der Nachbarschaft haben ihm sogar einen kleinen Ball gekauft, mit dem er spielen kann.\n\nLetzte Woche ist Bruno im Park einer Katze nachgelaufen. Herr Weber hat sich erschrocken, aber am Ende hat alles gut geendet. Die Katze ist auf einen Baum geklettert, und Bruno hat fröhlich davor gesessen. Seitdem erzählt Herr Weber diese Geschichte gerne.",
+    "preguntas": [
+      {
+        "enunciado": "Bruno hat vier gesunde Beine.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist meistens fröhlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn mögen Bruno nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben Bruno einen Ball gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist im Park einer Katze nachgelaufen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-als-nachtportier",
+    "nivel": "A2",
+    "titulo": "Ein Tag als Nachtportier",
+    "descripcion": "Ein Student berichtet von seinem ersten Nachtdienst in einem Hotel.",
+    "texto": "Felix arbeitet seit zwei Wochen nachts an der Rezeption eines kleinen Hotels, weil er für sein Studium Geld braucht. Am Anfang hatte er Angst, weil er dachte, dass nachts nichts passiert und die Zeit langsam vergeht.\n\nIn der ersten Nacht ist tatsächlich wenig passiert. Ein Gast hat um zwei Uhr nach einem Handtuch gefragt, und ein anderer hat sich über das kaputte Fernsehgerät beschwert. Felix hat alles ruhig gelöst, obwohl er sehr müde war.\n\nGegen fünf Uhr morgens hat er einen Kaffee gemacht und den Sonnenaufgang durch das Fenster beobachtet. Er hat gemerkt, dass die Nachtschicht auch schöne Momente hat. Jetzt freut er sich sogar auf seinen nächsten Dienst.",
+    "preguntas": [
+      {
+        "enunciado": "Felix arbeitet tagsüber an der Rezeption.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Gast hat nach einem Handtuch gefragt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der ersten Nacht ist sehr viel passiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat den Sonnenaufgang gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix möchte nie wieder eine Nachtschicht machen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-austauschschueler-aus-suedkorea",
+    "nivel": "A2",
+    "titulo": "Der Austauschschüler aus Südkorea",
+    "descripcion": "Ein Schüler aus Südkorea erzählt von seinen ersten Wochen in Deutschland.",
+    "texto": "Jun-ho ist vor drei Wochen aus Südkorea nach Deutschland gekommen, weil er ein Schuljahr im Ausland verbringen möchte. Er wohnt bei einer Gastfamilie in einer kleinen Stadt und geht dort auf eine Schule.\n\nAm Anfang war alles fremd für ihn, weil das Essen anders schmeckt und die Leute anders sprechen. Besonders das deutsche Brot hat ihn überrascht, da es viel fester ist als das Brot in seiner Heimat. Trotzdem hat er sich schnell an den neuen Alltag gewöhnt.\n\nSeine Gastfamilie hat ihm geholfen, neue Freunde zu finden. Letztes Wochenende sind sie zusammen in die Berge gefahren, nachdem Jun-ho gesagt hat, dass er noch nie Schnee gesehen hat. Er war so glücklich, dass er viele Fotos gemacht hat.",
+    "preguntas": [
+      {
+        "enunciado": "Jun-ho kommt aus Südkorea.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er wohnt in einem Hotel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das deutsche Brot war für ihn anders als erwartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jun-ho hatte vorher schon oft Schnee gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gastfamilie hat ihm geholfen, Freunde zu finden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-mondfinsternis-im-schulgarten",
+    "nivel": "B1",
+    "titulo": "Die Mondfinsternis im Schulgarten",
+    "descripcion": "Eine Schulklasse beobachtet nachts eine Mondfinsternis im Schulgarten.",
+    "texto": "Die Klasse 9b hat sich an einem kalten Novemberabend im Schulgarten getroffen, um eine seltene Mondfinsternis zu beobachten. Obwohl viele Eltern zunächst skeptisch waren, ob ein nächtlicher Ausflug sinnvoll sei, hat die Lehrerin Frau Keller die Erlaubnis bekommen, weil sie das Ereignis für den Physikunterricht nutzen wollte.\n\nNachdem alle Schüler mit warmen Jacken und heißem Tee angekommen waren, haben sie Teleskope aufgebaut und auf den Himmel gewartet. Trotz der Kälte wollte niemand nach Hause gehen, als der Mond langsam rötlich wurde. Ein Schüler, Tim, hat erklärt, dass dieser Effekt entsteht, weil das Licht der Sonne durch die Erdatmosphäre gebrochen wird.\n\nAm Ende des Abends waren sich alle einig, dass sich das Warten gelohnt hatte. Frau Keller hat vorgeschlagen, im nächsten Jahr eine ähnliche Exkursion zu organisieren, nachdem die Begeisterung der Klasse so groß war. Viele Schüler sagten, dass sie den Abend nie vergessen würden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse beobachtet die Mondfinsternis am Nachmittag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Keller wollte das Ereignis für den Physikunterricht nutzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Eltern waren von Anfang an begeistert von der Idee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Mond wird während der Finsternis rötlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller möchte die Exkursion nicht wiederholen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "nachdem-der-sturm-das-dorf-traf",
+    "nivel": "B1",
+    "titulo": "Nachdem der Sturm das Dorf traf",
+    "descripcion": "Ein kleines Dorf hilft sich gegenseitig nach einem schweren Sturm.",
+    "texto": "Nachdem ein heftiger Sturm über das kleine Dorf Lindenbach gezogen war, lagen am nächsten Morgen überall Äste und abgedeckte Dächer auf den Straßen. Obwohl der Schaden groß war, verlor niemand im Dorf die Ruhe, denn die Bewohner kannten sich gut und halfen sich traditionell gegenseitig.\n\nSchon am frühen Morgen trafen sich die Nachbarn vor dem Gemeindehaus, um gemeinsam aufzuräumen. Herr Brandt, der Besitzer des Dorfladens, verteilte kostenlos Kaffee und belegte Brote, trotzdem er selbst einen kaputten Zaun hatte. Die jüngeren Bewohner halfen den älteren Menschen, Äste von den Dächern zu entfernen.\n\nAm Abend saßen viele Dorfbewohner zusammen und sprachen über den anstrengenden Tag. Trotz des Sturms und der vielen Arbeit wirkten alle zufrieden, weil sie gezeigt hatten, dass sie als Gemeinschaft jede Schwierigkeit bewältigen können. Der Bürgermeister kündigte an, dass die Gemeinde beim Wiederaufbau finanziell helfen werde.",
+    "preguntas": [
+      {
+        "enunciado": "Der Sturm hat keine größeren Schäden verursacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Dorfbewohner haben sich gegenseitig geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Brandt hat selbst keinen Schaden erlitten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Bewohner haben älteren Menschen geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bürgermeister verweigert jede finanzielle Hilfe.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-letzte-stueck-schwarzwaelder-kirschtorte",
+    "nivel": "B1",
+    "titulo": "Das letzte Stück Schwarzwälder Kirschtorte",
+    "descripcion": "Eine Familienfeier gerät wegen des letzten Tortenstücks durcheinander.",
+    "texto": "Bei der Familienfeier zum sechzigsten Geburtstag von Oma Gertrud stand eine große Schwarzwälder Kirschtorte auf dem Tisch, die Tante Monika extra gebacken hatte. Obwohl die Torte riesig war, verschwand sie Stück für Stück erstaunlich schnell, da fast jeder Gast ein zweites Stück wollte.\n\nAls nur noch ein einziges Stück übrig war, entstand ein kleiner Streit zwischen den Cousins Lukas und Felix, nachdem beide gleichzeitig danach gegriffen hatten. Oma Gertrud, die das Durcheinander amüsiert beobachtete, schlug schließlich vor, das letzte Stück einfach zu teilen, damit niemand traurig nach Hause gehen musste.\n\nAm Ende lachten alle über die kleine Szene, und Tante Monika versprach, beim nächsten Fest gleich zwei Torten zu backen. Trotzdem erinnerten sich die beiden Cousins noch lange an den Streit um das letzte Stück Kuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Monika hat die Torte gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Torte ist fast niemandem aufgefallen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas und Felix haben sich um das letzte Stück gestritten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma Gertrud ärgert sich sehr über den Streit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Monika will beim nächsten Fest zwei Torten backen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "vertical-farming-in-der-stadt",
+    "nivel": "B2",
+    "titulo": "Vertical Farming in der Stadt",
+    "descripcion": "Senkrechte Gemüsefarmen in Hochhäusern gelten als mögliche Antwort auf knappen städtischen Raum.",
+    "texto": "In zahlreichen Großstädten wird derzeit über sogenannte Vertical Farms diskutiert, also mehrstöckige Gewächshäuser, in denen Gemüse ohne Erde unter künstlichem Licht angebaut wird. Befürworter argumentieren, dass auf diese Weise selbst in dicht bebauten Stadtvierteln frisches Gemüse produziert werden könne, ohne dass zusätzliche Ackerflächen auf dem Land benötigt würden. Da die Transportwege wegfallen, werde zudem ein erheblicher Teil der CO2-Emissionen eingespart, die sonst beim Transport von Obst und Gemüse entstünden.\n\nKritiker hingegen weisen darauf hin, dass der enorme Energiebedarf für Beleuchtung und Klimatisierung die ökologische Bilanz solcher Anlagen erheblich verschlechtern könnte, sofern der verwendete Strom nicht ausschließlich aus erneuerbaren Quellen stamme. Außerdem wird bezweifelt, dass sich die hohen Investitionskosten für die notwendige Technik in absehbarer Zeit amortisieren würden, wenn man die Produkte zu einem für Verbraucher erschwinglichen Preis anbieten müsste.\n\nDennoch wird in mehreren europäischen Metropolen bereits mit Pilotprojekten experimentiert. Würde sich die Technologie weiterentwickeln lassen und würden die Energiekosten sinken, könnten Vertical Farms langfristig durchaus zu einem festen Bestandteil der städtischen Lebensmittelversorgung werden. Bis dahin bleibt jedoch unklar, ob sich das Konzept wirtschaftlich gegenüber der klassischen Landwirtschaft durchsetzen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Beim Vertical Farming wird Gemüse ohne Erde angebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter sehen keinen Vorteil bei den Transportwegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln den hohen Energiebedarf der Anlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Investitionskosten gelten allgemein als sehr niedrig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt bereits Pilotprojekte in europäischen Städten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "konjunktiv-im-alltag-bittfloskeln",
+    "nivel": "B2",
+    "titulo": "Höflichkeit durch Konjunktiv: Bittfloskeln im Alltag",
+    "descripcion": "Warum der Konjunktiv II im Deutschen oft als Zeichen der Höflichkeit verwendet wird.",
+    "texto": "Wer im Deutschen um etwas bitten möchte, greift häufig unbewusst auf den Konjunktiv II zurück, obwohl dieser grammatisch eigentlich für irreale oder hypothetische Sachverhalte vorgesehen ist. Sätze wie „Könnten Sie mir bitte helfen?“ oder „Ich hätte gern einen Kaffee“ wirken deutlich zurückhaltender und freundlicher als die entsprechenden Indikativformen „Können Sie mir helfen?“ oder „Ich will einen Kaffee“. Diese sprachliche Distanzierung signalisiert dem Gesprächspartner, dass die Bitte keineswegs als Befehl verstanden werden solle.\n\nLinguisten erklären dieses Phänomen damit, dass der Konjunktiv eine gewisse Unsicherheit ausdrückt, die dem direkten Indikativ fehlt. Würde man stattdessen stets den Indikativ verwenden, entstünde beim Zuhörer leicht der Eindruck, als werde eine Forderung gestellt, anstatt um einen Gefallen gebeten. Besonders in formellen Kontexten, etwa im Kundenservice oder in E-Mails an Vorgesetzte, würde ein Verzicht auf den Konjunktiv häufig als unhöflich wahrgenommen werden.\n\nInteressant ist zudem, dass diese Höflichkeitsfunktion des Konjunktivs keineswegs nur im Deutschen existiert, sondern sich in ähnlicher Form auch in anderen europäischen Sprachen findet. Dennoch unterscheidet sich die genaue Verwendung von Sprache zu Sprache, sodass Lernende des Deutschen diese feinen Nuancen meist erst nach längerer Übung intuitiv richtig einsetzen können.",
+    "preguntas": [
+      {
+        "enunciado": "Der Konjunktiv II wird oft benutzt, um Bitten höflicher klingen zu lassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Indikativ wirkt in Bitten grundsätzlich freundlicher als der Konjunktiv.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Linguisten sehen im Konjunktiv ein Zeichen von Unsicherheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Kundenservice wird der Konjunktiv meist als unpassend empfunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ähnliche Höflichkeitsformen existieren auch in anderen Sprachen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-rente-mit-siebzig",
+    "nivel": "B2",
+    "titulo": "Die Rente mit siebzig?",
+    "descripcion": "Angesichts des demografischen Wandels wird eine weitere Anhebung des Renteneintrittsalters diskutiert.",
+    "texto": "Angesichts der alternden Gesellschaft wird in der Politik immer wieder gefordert, das gesetzliche Renteneintrittsalter schrittweise auf siebzig Jahre anzuheben. Befürworter dieser Maßnahme argumentieren, dass die Rentenkassen ohne eine solche Reform in wenigen Jahrzehnten nicht mehr in der Lage wären, die stetig wachsende Zahl der Rentner zu finanzieren, da immer weniger Erwerbstätige auf immer mehr Ruheständler kämen.\n\nGegner der Reform wenden hingegen ein, dass eine pauschale Anhebung des Renteneintrittsalters insbesondere Menschen in körperlich anstrengenden Berufen unangemessen hart treffen würde. Ein Dachdecker oder eine Pflegekraft, so wird argumentiert, könnten kaum bis zum siebzigsten Lebensjahr in ihrem Beruf arbeiten, ohne dass ihre Gesundheit ernsthaft Schaden nähme. Stattdessen sollte, wenn überhaupt, eine Differenzierung nach Berufsgruppen vorgenommen werden, bei der körperlich belastende Tätigkeiten früher in den Ruhestand führen dürften als überwiegend sitzende Bürotätigkeiten.\n\nManche Experten schlagen als Alternative vor, das Renteneintrittsalter nicht starr festzulegen, sondern es flexibel an die individuelle Lebenserwartung und Erwerbsbiografie zu koppeln. Würde ein solches Modell eingeführt, könnten Arbeitnehmer selbst mitentscheiden, wann für sie der richtige Zeitpunkt für den Ruhestand gekommen sei, sofern die finanzielle Stabilität des Rentensystems insgesamt gewahrt bliebe. Bis zu einer politischen Einigung dürfte es jedoch noch ein langer Weg sein, da das Thema in der Bevölkerung äußerst umstritten bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter sehen in der Reform eine Lösung für die Finanzierung der Rentenkassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Berufsgruppen wären von einer Anhebung gleich stark betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Gegner befürchten besonders Nachteile für körperlich anstrengende Berufe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt in der Bevölkerung einen breiten Konsens zu diesem Thema.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten schlagen ein flexibles Renteneintrittsalter vor.",
+        "respuesta": true
+      }
+    ]
   }
 ]
