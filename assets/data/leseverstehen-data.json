@@ -71810,5 +71810,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-haustier-heisst-bruno",
+    "nivel": "A1",
+    "titulo": "Mein Haustier heißt Bruno",
+    "descripcion": "Ein Mädchen stellt ihren Hund Bruno vor.",
+    "texto": "Ich heiße Lina. Ich habe einen Hund. Mein Hund heißt Bruno. Bruno ist braun und weiß. Er ist drei Jahre alt.\n\nBruno isst gern Fleisch und Reis. Er trinkt viel Wasser. Jeden Morgen gehen wir im Park spazieren. Bruno läuft schnell und spielt mit dem Ball.\n\nAbends schläft Bruno in der Küche. Er ist sehr lieb. Ich liebe meinen Hund Bruno.",
+    "preguntas": [
+      {
+        "enunciado": "Lina hat eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist braun und weiß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist drei Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno trinkt keinen Wasser.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno schläft abends in der Küche.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-familie-schmidt-kocht",
+    "nivel": "A1",
+    "titulo": "Die Familie Schmidt kocht",
+    "descripcion": "Eine Familie bereitet zusammen das Abendessen vor.",
+    "texto": "Die Familie Schmidt kocht heute zusammen. Die Mutter schneidet Gemüse. Der Vater macht Nudeln. Die Kinder decken den Tisch.\n\nEs gibt Tomaten, Zwiebeln und Paprika. Die Familie kocht eine Nudelsuppe. Das Essen riecht sehr gut. Alle haben Hunger.\n\nUm sieben Uhr essen sie zusammen. Die Suppe schmeckt lecker. Nach dem Essen spielt die Familie ein Spiel.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Schmidt kocht Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter schneidet Gemüse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder decken den Tisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie isst um neun Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Essen spielt die Familie ein Spiel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-bei-oma-erika",
+    "nivel": "A1",
+    "titulo": "Ein Besuch bei Oma Erika",
+    "descripcion": "Ein Kind besucht am Wochenende seine Großmutter.",
+    "texto": "Am Samstag besuche ich Oma Erika. Sie wohnt in einem kleinen Haus mit einem Garten. Im Garten hat sie viele Blumen und Äpfel.\n\nOma Erika backt gern Kuchen. Heute backt sie einen Apfelkuchen. Der Kuchen ist süß und warm. Wir trinken Tee und essen Kuchen zusammen.\n\nOma Erika erzählt gern Geschichten. Sie erzählt mir von ihrer Kindheit. Ich höre gerne zu. Am Abend fahre ich wieder nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Oma Erika wohnt in einer Wohnung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Garten gibt es Blumen und Äpfel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma Erika backt einen Apfelkuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie trinken Kaffee ohne Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oma Erika erzählt Geschichten von ihrer Kindheit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sturz-vom-fahrrad-in-der-fussgaengerzone",
+    "nivel": "A2",
+    "titulo": "Der Sturz vom Fahrrad",
+    "descripcion": "Ein junger Mann stürzt in der Fußgängerzone und muss zum Arzt.",
+    "texto": "Gestern ist Tim mit dem Fahrrad in die Stadt gefahren. In der Fußgängerzone ist er gestürzt, weil ein Hund plötzlich auf die Straße gelaufen ist. Tim hat sich das Knie verletzt.\n\nEine Frau hat gesehen, dass Tim gestürzt ist, und hat sofort geholfen. Sie hat einen Krankenwagen gerufen. Im Krankenhaus hat der Arzt das Knie untersucht und ein Röntgenbild gemacht. Zum Glück war nichts gebrochen.\n\nTim musste einen Verband tragen und durfte eine Woche nicht Fahrrad fahren. Wenn er wieder gesund ist, will er vorsichtiger fahren. Er hat seiner Mutter erzählt, dass er großes Glück gehabt hat.",
+    "preguntas": [
+      {
+        "enunciado": "Tim ist mit dem Auto in die Stadt gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Hund ist auf die Straße gelaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hat sich den Arm verletzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Krankenhaus hat der Arzt ein Röntgenbild gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim durfte sofort wieder Fahrrad fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "frau-keller-zieht-in-die-gartenstrasse",
+    "nivel": "A2",
+    "titulo": "Frau Keller zieht in die Gartenstraße",
+    "descripcion": "Eine neue Nachbarin zieht ein und lernt die Hausgemeinschaft kennen.",
+    "texto": "Letzte Woche ist Frau Keller in die Gartenstraße gezogen. Sie hat eine Wohnung im zweiten Stock gemietet. Die Nachbarn haben gleich gemerkt, dass jemand Neues eingezogen ist, weil ein großer Umzugswagen vor dem Haus stand.\n\nAm Samstag hat Herr Berger, der im ersten Stock wohnt, geklingelt und sich vorgestellt. Er hat Frau Keller einen Kuchen gebracht und ihr erzählt, dass es im Haus eine kleine Gemeinschaft gibt. Frau Keller hat sich sehr gefreut, weil sie noch niemanden in der Stadt kannte.\n\nAm Abend hat sie ihrer Schwester geschrieben, dass die neuen Nachbarn sehr freundlich sind. Sie hofft, dass sie sich in der Gartenstraße schnell wohlfühlen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller ist in den dritten Stock gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Berger wohnt im ersten Stock.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger hat Frau Keller einen Kuchen gebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller kannte schon viele Leute in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Keller hat ihrer Schwester geschrieben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-von-lukas-aus-leipzig",
+    "nivel": "A2",
+    "titulo": "Ein Brief von Lukas aus Leipzig",
+    "descripcion": "Lukas schreibt seinem Freund einen Brief über sein Wochenende in Leipzig.",
+    "texto": "Lieber Jonas,\n\nich bin jetzt seit einem Monat in Leipzig und möchte dir erzählen, wie mein Wochenende war. Am Samstag bin ich mit neuen Freunden auf den Markt gegangen, weil dort frisches Obst und Gemüse verkauft wird. Danach haben wir in einem kleinen Café Kaffee getrunken.\n\nAm Sonntag hat es geregnet, deshalb sind wir ins Museum gegangen. Ich fand es interessant, dass es dort viel über die Geschichte der Stadt zu sehen gibt. Nachdem wir das Museum besucht hatten, sind wir noch spazieren gegangen, obwohl es kalt war.\n\nIch hoffe, dass du mich bald besuchen kannst. Dann zeige ich dir die Stadt!\n\nViele Grüße,\nLukas",
+    "preguntas": [
+      {
+        "enunciado": "Lukas ist seit einer Woche in Leipzig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag ist Lukas auf den Markt gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Sonntag war das Wetter sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas und seine Freunde sind ins Museum gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas möchte, dass Jonas ihn besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-der-familie-bauer-nach-hamburg",
+    "nivel": "B1",
+    "titulo": "Der Umzug der Familie Bauer nach Hamburg",
+    "descripcion": "Eine Familie zieht aus beruflichen Gründen in eine neue Stadt und muss sich dort einleben.",
+    "texto": "Als Herr Bauer eine neue Stelle in Hamburg angeboten wurde, musste die ganze Familie eine wichtige Entscheidung treffen. Obwohl sie seit zehn Jahren in derselben kleinen Stadt lebten und dort viele Freunde hatten, entschieden sie sich schließlich für den Umzug. Die Kinder, Mia und Felix, waren zunächst nicht begeistert, weil sie ihre Schule und ihre Freunde verlassen mussten.\n\nNachdem die Familie in Hamburg angekommen war, dauerte es einige Wochen, bis sich alle an die neue Umgebung gewöhnt hatten. Mia fand es am Anfang schwierig, neue Freunde zu finden, trotzdem besuchte sie regelmäßig einen Sportverein und lernte dort schnell andere Jugendliche kennen. Felix interessierte sich für die vielen Kanäle der Stadt und entdeckte ein neues Hobby: das Segeln.\n\nHeute, ein Jahr nach dem Umzug, sagt die Familie, dass die Entscheidung richtig war. Obwohl der Abschied von der alten Stadt schwer war, haben sie in Hamburg ein neues Zuhause gefunden. Herr Bauer ist mit seiner neuen Stelle zufrieden, und die Kinder freuen sich über ihr neues Leben am Wasser.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Bauer hat eine neue Stelle in München bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder waren am Anfang nicht begeistert vom Umzug.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia fand sofort neue Freunde ohne Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat das Segeln als neues Hobby entdeckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Jahr später bereut die Familie den Umzug.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-schulfest-am-gymnasium-nord",
+    "nivel": "B1",
+    "titulo": "Das Schulfest am Gymnasium Nord",
+    "descripcion": "Schülerinnen und Schüler organisieren gemeinsam ein großes Schulfest.",
+    "texto": "Jedes Jahr im Sommer organisiert das Gymnasium Nord ein großes Schulfest, bei dem Schüler, Lehrer und Eltern zusammenkommen. In diesem Jahr übernahm die zehnte Klasse die Planung, nachdem sie im Unterricht verschiedene Ideen gesammelt hatte. Obwohl die Vorbereitung viel Zeit kostete, waren alle motiviert, weil sie das Fest zu etwas Besonderem machen wollten.\n\nAm Tag des Festes bauten die Schüler schon früh am Morgen Stände auf, an denen Kuchen, Getränke und selbstgemachte Spiele angeboten wurden. Trotz des unsicheren Wetters kamen viele Besucher, und am Nachmittag schien sogar die Sonne. Eine Schülerband spielte Live-Musik, während andere Schüler eine kleine Theateraufführung vorbereitet hatten.\n\nAm Ende des Tages waren alle müde, aber zufrieden. Der Erlös des Festes wurde für eine neue Schulbibliothek gespendet. Die Lehrer lobten das Engagement der Schüler, und viele hoffen, dass das nächste Schulfest genauso erfolgreich wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die zehnte Klasse hat das Schulfest geplant.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab keine Stände mit Essen und Getränken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Schülerband spielte Live-Musik.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen schlechtem Wetter kamen nur wenige Besucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Erlös wurde für eine neue Schulbibliothek gespendet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-ungewoehnliche-freundschaft-im-grossraumbuero",
+    "nivel": "B1",
+    "titulo": "Eine ungewöhnliche Freundschaft im Großraumbüro",
+    "descripcion": "Zwei sehr unterschiedliche Kollegen entwickeln im Büroalltag eine überraschende Freundschaft.",
+    "texto": "Als Paul vor einem Jahr seine neue Stelle in einem großen Versicherungsunternehmen antrat, erwartete er nicht, dort eine enge Freundschaft zu finden. Sein Schreibtisch stand direkt neben dem von Sibylle, einer erfahrenen Mitarbeiterin, die seit zwanzig Jahren im Unternehmen arbeitete. Die beiden hätten unterschiedlicher kaum sein können: Paul war jung und ungeduldig, während Sibylle ruhig und erfahren war.\n\nObwohl sie am Anfang kaum miteinander sprachen, begannen sie nach einigen Wochen, sich bei schwierigen Aufgaben gegenseitig zu helfen. Nachdem Paul einmal einen wichtigen Fehler gemacht hatte, war es Sibylle, die ihm half, die Situation zu retten, ohne dass der Chef davon erfuhr. Seitdem vertraute Paul ihr immer mehr, und trotzdem blieb ihre Freundschaft am Arbeitsplatz zunächst unauffällig.\n\nHeute essen die beiden fast jeden Tag gemeinsam in der Kantine zu Mittag und tauschen sich nicht nur über die Arbeit, sondern auch über ihr Privatleben aus. Viele Kollegen sind überrascht, wie gut sich die beiden verstehen, obwohl ein Altersunterschied von fast dreißig Jahren zwischen ihnen liegt.",
+    "preguntas": [
+      {
+        "enunciado": "Paul und Sibylle waren von Anfang an beste Freunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sibylle arbeitet seit zwanzig Jahren im Unternehmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sibylle hat Paul geholfen, einen Fehler zu beheben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Zwischen Paul und Sibylle liegt kein großer Altersunterschied.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden essen oft zusammen in der Kantine.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungsnot-in-deutschen-universitaetsstaedten",
+    "nivel": "B2",
+    "titulo": "Die Wohnungsnot in deutschen Universitätsstädten",
+    "descripcion": "Eine Analyse der Wohnungsknappheit, von der besonders Studierende in deutschen Universitätsstädten betroffen sind.",
+    "texto": "In zahlreichen deutschen Universitätsstädten hat sich die Suche nach einer bezahlbaren Wohnung in den letzten Jahren zu einer der größten Herausforderungen für Studierende entwickelt. Während die Zahl der Studienplätze kontinuierlich gestiegen ist, wurde der studentische Wohnraum in vielen Städten nicht in ausreichendem Maße erweitert. Es wird geschätzt, dass in einigen Städten auf einen freien Wohnheimplatz mehr als zehn Bewerber kommen, was die Konkurrenz erheblich verschärft.\n\nWürde man das Problem allein durch den Bau neuer Studentenwohnheime lösen wollen, müssten enorme finanzielle Mittel bereitgestellt werden, die vielen Kommunen derzeit fehlen. Stattdessen setzen manche Städte auf alternative Modelle, bei denen ältere Menschen ein Zimmer an Studierende vermieten, die im Gegenzug im Haushalt oder im Garten helfen. Solche Initiativen, die als „Wohnen für Hilfe“ bezeichnet werden, könnten zumindest teilweise entlasten, auch wenn sie das grundlegende Problem nicht beheben.\n\nKritiker bemängeln zudem, dass private Investoren zunehmend bezahlbaren Wohnraum durch teure möblierte Apartments ersetzen, die speziell für internationale Studierende und Berufspendler gebaut werden. Dadurch werde die soziale Durchmischung gefährdet, und einkommensschwächere Studierende müssten immer häufiger auf weit entfernte Stadtteile oder das Pendeln aus dem Umland zurückgreifen. Ohne eine koordinierte Wohnungspolitik, die sowohl den Neubau fördert als auch Mietpreise begrenzt, dürfte sich die Lage in den kommenden Jahren kaum entspannen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Zahl der Studienplätze ist in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In manchen Städten gibt es für einen Wohnheimplatz mehr als zehn Bewerber.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim Modell „Wohnen für Hilfe“ helfen Studierende im Haushalt oder Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Private Investoren bauen laut Text vor allem günstigen Wohnraum für Studierende.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text fordert eine koordinierte Wohnungspolitik mit Neubau und Mietpreisbegrenzung.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkritik-in-zeiten-sozialer-netzwerke",
+    "nivel": "B2",
+    "titulo": "Medienkritik in Zeiten sozialer Netzwerke",
+    "descripcion": "Ein Blick auf die veränderte Rolle klassischer Medienkritik im Zeitalter sozialer Netzwerke.",
+    "texto": "Lange Zeit galt die klassische Medienkritik als Aufgabe von Fachjournalisten und Experten, die in Zeitungen und Fachzeitschriften die Qualität von Berichterstattung analysierten. In den letzten Jahren hat sich diese Rolle jedoch grundlegend verändert, da soziale Netzwerke es praktisch jedem Nutzer ermöglichen, öffentlich Kritik an Medieninhalten zu üben. Dadurch entstand eine Form der Medienkritik, die zwar schneller und vielfältiger geworden ist, deren Qualität aber zunehmend hinterfragt wird.\n\nBefürworter dieser Entwicklung argumentieren, dass durch soziale Netzwerke Fehler in der Berichterstattung schneller aufgedeckt würden, als dies früher möglich gewesen wäre. Wäre ein Medienhaus früher für eine fehlerhafte Meldung kaum zur Rechenschaft gezogen worden, könne heute innerhalb weniger Stunden ein öffentlicher Druck entstehen, der zu Korrekturen oder Richtigstellungen führt. Zudem würden Perspektiven sichtbar, die in traditionellen Redaktionen oft vernachlässigt worden seien.\n\nKritiker hingegen weisen darauf hin, dass ein großer Teil der in sozialen Netzwerken geäußerten Medienkritik weniger auf sachlicher Analyse als auf emotionaler Empörung beruhe. Häufig werde nicht zwischen begründeter Kritik und bloßer Stimmungsmache unterschieden, wodurch seriöse journalistische Arbeit zu Unrecht in Verruf gerate. Es stellt sich daher die Frage, ob eine stärkere Medienbildung notwendig wäre, damit Nutzer besser zwischen fundierter Kritik und oberflächlicher Empörung unterscheiden könnten.",
+    "preguntas": [
+      {
+        "enunciado": "Medienkritik wurde früher ausschließlich von Fachjournalisten geübt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Befürwortern werden Fehler in sozialen Netzwerken langsamer entdeckt als früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker meinen, dass Medienkritik in sozialen Netzwerken oft emotional statt sachlich ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass alle Kritik in sozialen Netzwerken gut begründet ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Text wird eine stärkere Medienbildung als mögliche Lösung diskutiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "work-life-balance-in-der-generation-z",
+    "nivel": "B2",
+    "titulo": "Work-Life-Balance in der Generation Z",
+    "descripcion": "Eine Auseinandersetzung mit den veränderten Erwartungen junger Arbeitnehmer an Beruf und Freizeit.",
+    "texto": "Während frühere Generationen beruflichen Erfolg häufig mit langen Arbeitszeiten und ständiger Erreichbarkeit gleichsetzten, legt die Generation Z zunehmend Wert auf eine klare Trennung zwischen Arbeit und Privatleben. Umfragen zeigen, dass für viele junge Arbeitnehmer eine ausgewogene Work-Life-Balance wichtiger ist als ein hohes Gehalt oder eine schnelle Karriere. Diese veränderte Haltung stellt Unternehmen vor neue Herausforderungen, da traditionelle Arbeitsmodelle oft nicht mehr den Erwartungen der jüngeren Belegschaft entsprechen.\n\nManche Personalverantwortliche bemängeln, dass junge Mitarbeiter weniger bereit seien, Überstunden zu leisten oder sich in kritischen Projektphasen flexibel einzusetzen. Andere Experten widersprechen dieser Sichtweise und betonen, dass es sich nicht um mangelnden Einsatz handle, sondern um ein gesünderes Verständnis von Leistung. Würden Unternehmen flexiblere Arbeitszeitmodelle und mehr Möglichkeiten für Homeoffice anbieten, ließe sich die Produktivität junger Mitarbeiter häufig sogar steigern, ohne dass deren Wohlbefinden beeinträchtigt werde.\n\nGleichzeitig wird darauf hingewiesen, dass eine übermäßige Betonung der Freizeit auch Risiken birgt, etwa wenn wichtige Projekte durch mangelnde Verbindlichkeit gefährdet werden. Es wird daher diskutiert, ob Unternehmen und jüngere Arbeitnehmer gemeinsam neue Formen der Zusammenarbeit entwickeln müssten, bei denen sowohl unternehmerische Anforderungen als auch individuelle Bedürfnisse nach Erholung berücksichtigt werden. Ein nachhaltiger Kompromiss könnte langfristig sowohl der Zufriedenheit der Mitarbeiter als auch dem wirtschaftlichen Erfolg der Unternehmen zugutekommen.",
+    "preguntas": [
+      {
+        "enunciado": "Für die Generation Z ist laut Text eine klare Trennung von Arbeit und Privatleben wichtig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Umfragen zeigen, dass ein hohes Gehalt für die Generation Z wichtiger ist als Work-Life-Balance.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass junge Mitarbeiter weniger leistungsbereit sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Flexible Arbeitszeitmodelle könnten laut Text die Produktivität steigern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht keine Risiken in einer übermäßigen Betonung der Freizeit.",
+        "respuesta": false
+      }
+    ]
   }
 ]
