@@ -70766,5 +70766,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "meine-oma-aus-polen",
+    "nivel": "A1",
+    "titulo": "Meine Oma aus Polen",
+    "descripcion": "Ein Kind erzählt kurz über seine Oma und ihren Besuch.",
+    "texto": "Meine Oma heißt Barbara. Sie kommt aus Polen. Sie wohnt in Krakau, aber sie besucht uns oft. Meine Oma ist sehr lieb und kocht sehr gut. Ihr Lieblingsgericht ist Suppe mit Brot.\n\nJeden Sommer kommt meine Oma zu uns nach Deutschland. Sie bleibt zwei Wochen bei uns. Wir gehen zusammen in den Park und spielen Karten. Meine Oma singt auch gerne polnische Lieder.\n\n„Ich liebe diese Besuche\", sagt meine Mutter. Am Abend essen wir zusammen und erzählen Geschichten. Meine Oma schenkt mir immer ein kleines Geschenk aus Polen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Oma kommt aus Polen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma wohnt in Berlin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma kocht gern Suppe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma bleibt einen Monat zu Besuch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma singt polnische Lieder.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ich-kaufe-eine-neue-jacke",
+    "nivel": "A1",
+    "titulo": "Ich kaufe eine neue Jacke",
+    "descripcion": "Lukas geht in ein Geschäft und kauft eine Winterjacke.",
+    "texto": "Lukas braucht eine neue Jacke für den Winter. Er geht in ein Geschäft in der Stadt. Im Geschäft gibt es viele Jacken in verschiedenen Farben. Lukas mag die Farbe Blau.\n\nEine Verkäuferin fragt: „Welche Größe brauchen Sie?\" Lukas sagt: „Ich brauche Größe M.\" Er probiert die blaue Jacke an. Die Jacke ist warm und passt gut.\n\nDie Jacke kostet fünfzig Euro. Lukas bezahlt mit Karte und geht glücklich nach Hause. Zu Hause zeigt er die Jacke seiner Familie.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas kauft einen Pullover.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas mag die Farbe Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Jacke passt nicht gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Jacke kostet fünfzig Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas bezahlt mit Karte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-bruder-und-der-ball",
+    "nivel": "A1",
+    "titulo": "Mein Bruder und der Ball",
+    "descripcion": "Ein Junge erzählt, wie er mit seinem Bruder Fußball spielt.",
+    "texto": "Ich heiße Tom. Ich habe einen kleinen Bruder. Er heißt Felix. Felix ist fünf Jahre alt und spielt sehr gern Fußball. Jeden Nachmittag gehen wir zusammen in den Garten.\n\nFelix hat einen roten Ball. Er schießt den Ball zu mir, und ich schieße den Ball zurück. Manchmal spielt auch unser Hund mit. Der Hund läuft hinter dem Ball her.\n\n„Das macht Spaß!\", ruft Felix. Nach dem Spiel trinken wir Wasser und essen einen Apfel. Felix möchte später Fußballspieler werden.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist der Bruder von Tom.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix spielt nicht gern Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ball ist rot.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund spielt auch mit dem Ball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Spiel essen sie Kuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-unfall-mit-dem-fahrrad",
+    "nivel": "A2",
+    "titulo": "Ein Unfall mit dem Fahrrad",
+    "descripcion": "Marie hat beim Radfahren einen kleinen Unfall gehabt.",
+    "texto": "Marie ist gestern mit dem Fahrrad zur Arbeit gefahren, weil das Wetter schön war. Auf dem Weg ist ein Hund plötzlich auf die Straße gelaufen. Marie ist erschrocken und hat gebremst. Sie ist vom Fahrrad gefallen.\n\nZum Glück ist nichts Schlimmes passiert. Marie hat sich nur das Knie verletzt. Ein Mann hat ihr geholfen und hat gefragt, ob sie einen Arzt braucht. Marie hat gesagt, dass es nicht so schlimm ist.\n\nTrotzdem ist sie zum Arzt gegangen, weil das Knie weh getan hat. Der Arzt hat gesagt, dass sie Glück gehabt hat. Jetzt fährt Marie wieder vorsichtig mit dem Fahrrad zur Arbeit.",
+    "preguntas": [
+      {
+        "enunciado": "Marie ist mit dem Auto zur Arbeit gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Hund ist auf die Straße gelaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie hat sich schwer verletzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Mann hat Marie geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie ist nicht zum Arzt gegangen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-reise-nach-hamburg-im-winter",
+    "nivel": "A2",
+    "titulo": "Die Reise nach Hamburg im Winter",
+    "descripcion": "Jonas erzählt von seiner Zugreise nach Hamburg im Winter.",
+    "texto": "Jonas hat letzten Winter seine Schwester in Hamburg besucht. Er ist mit dem Zug gefahren, weil die Fahrt mit dem Zug bequemer ist als mit dem Bus. Die Fahrt hat ungefähr vier Stunden gedauert.\n\nAls Jonas in Hamburg angekommen ist, hat es stark geschneit. Seine Schwester hat ihn am Bahnhof abgeholt. Sie sind zusammen durch die Stadt gelaufen und haben den Hafen besichtigt, obwohl es sehr kalt war.\n\nAbends haben sie heißen Kakao getrunken und über die Familie gesprochen. Jonas hat gesagt, dass er die Reise sehr schön fand. Er möchte Hamburg auch im Sommer besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist mit dem Bus gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt hat etwa vier Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Hamburg hat es geschneit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind nicht zum Hafen gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas möchte Hamburg nie wieder besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meine-nachbarin-frau-schmidt",
+    "nivel": "A2",
+    "titulo": "Meine Nachbarin, Frau Schmidt",
+    "descripcion": "Eine Geschichte über eine hilfsbereite ältere Nachbarin.",
+    "texto": "Frau Schmidt wohnt seit vielen Jahren neben mir. Sie ist schon alt, aber sehr aktiv. Letzte Woche habe ich ihr geholfen, weil sie schwere Einkaufstaschen getragen hat. Sie hat sich sehr gefreut.\n\nAls Dank hat Frau Schmidt mich zum Kaffee eingeladen. Wir haben über ihr Leben gesprochen, und ich habe viel gelernt. Sie hat erzählt, dass sie früher als Lehrerin gearbeitet hat.\n\nSeitdem besuche ich Frau Schmidt öfter. Wenn ich Zeit habe, bringe ich ihr Brötchen vom Bäcker mit. Sie sagt immer, dass gute Nachbarn wie Familie sind.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Schmidt ist die Nachbarin des Erzählers.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Schmidt hat schwere Taschen getragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Schmidt war früher Ärztin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Erzähler besucht Frau Schmidt nie wieder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Erzähler bringt ihr manchmal Brötchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-job-in-münchen",
+    "nivel": "B1",
+    "titulo": "Der neue Job in München",
+    "descripcion": "Sophie zieht für eine neue Arbeitsstelle nach München um.",
+    "texto": "Sophie hat vor zwei Monaten eine neue Stelle in München gefunden, obwohl sie vorher nie daran gedacht hatte, umzuziehen. Die Firma hat ihr ein interessantes Angebot gemacht, und sie konnte nicht widerstehen. Nachdem sie die Zusage bekommen hatte, hat sie innerhalb von drei Wochen eine Wohnung gefunden und ist umgezogen.\n\nDer Anfang war nicht leicht. Sophie kannte niemanden in der Stadt, und ihre neuen Kollegen waren am Anfang eher zurückhaltend. Trotzdem hat sie sich nicht entmutigen lassen und hat regelmäßig an Firmenveranstaltungen teilgenommen. Nach ein paar Wochen hat sie eine Kollegin kennengelernt, mit der sie sich sofort gut verstanden hat.\n\nHeute fühlt sich Sophie in München wie zu Hause. Sie hat einen festen Freundeskreis aufgebaut und genießt ihre Arbeit sehr. „Am Anfang hatte ich Zweifel\", sagt sie, „aber jetzt bin ich froh, dass ich den Mut hatte, umzuziehen.\"",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist für einen neuen Job nach München gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hatte schon lange vor umzuziehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat sofort viele Freunde in München gehabt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat eine Kollegin kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie bereut heute ihren Umzug.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-umzugskisten-im-flur",
+    "nivel": "B1",
+    "titulo": "Die Umzugskisten im Flur",
+    "descripcion": "Eine Familie packt für den Umzug in ein neues Haus.",
+    "texto": "Seit drei Tagen stehen überall im Flur Umzugskisten, denn die Familie Weber zieht nächste Woche in ein neues Haus am Stadtrand. Obwohl alle mithelfen, dauert das Packen länger als erwartet, weil es so viele Dinge gibt, die aussortiert werden müssen.\n\nDie Kinder sind traurig, weil sie ihre Freunde in der alten Nachbarschaft zurücklassen müssen. Nachdem die Eltern mit ihnen gesprochen hatten, haben sich die Kinder etwas beruhigt. Sie dürfen in den Sommerferien ihre alten Freunde besuchen.\n\nAm Umzugstag selbst kommen Freunde und Verwandte, um zu helfen. Gemeinsam tragen sie die Möbel in den Lastwagen. Trotz der Anstrengung ist die Stimmung gut, und am Abend feiern alle zusammen die neue Wohnung mit Pizza auf dem Boden, weil noch kein Tisch aufgebaut ist.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Weber zieht in ein neues Haus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Packen geht schneller als erwartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder freuen sich sofort über den Umzug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Freunde helfen am Umzugstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend essen alle an einem großen Tisch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-bei-einer-zeitung",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum bei einer Zeitung",
+    "descripcion": "Ein Student macht ein Praktikum in einer Lokalzeitung.",
+    "texto": "David studiert Journalismus und hat sich schon lange ein Praktikum bei einer Zeitung gewünscht. Nachdem er sich bei mehreren Redaktionen beworben hatte, hat ihn eine kleine Lokalzeitung in seiner Heimatstadt eingeladen.\n\nAm ersten Tag war David sehr nervös, obwohl ihn die Redaktion freundlich empfangen hat. Seine erste Aufgabe war es, über ein Stadtfest zu schreiben. Er hat mit vielen Menschen gesprochen und Fotos gemacht, bevor er den Artikel geschrieben hat.\n\nNachdem der Artikel gedruckt worden war, hat David viel positives Feedback von seinen Kollegen bekommen. Diese Erfahrung hat ihm gezeigt, dass er den richtigen Beruf gewählt hat. Er hofft, dass er nach dem Studium wieder bei dieser Zeitung arbeiten kann.",
+    "preguntas": [
+      {
+        "enunciado": "David studiert Medizin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David hat ein Praktikum bei einer Zeitung gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David war am ersten Tag nicht nervös.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine erste Aufgabe war ein Artikel über ein Stadtfest.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David hat negatives Feedback bekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-die-mietpreisbremse",
+    "nivel": "B2",
+    "titulo": "Die Debatte um die Mietpreisbremse",
+    "descripcion": "Eine Analyse der politischen Diskussion über die Mietpreisbremse in Deutschland.",
+    "texto": "In vielen deutschen Großstädten sind die Mieten in den letzten Jahren stark gestiegen, sodass sich zahlreiche Haushalte kaum noch bezahlbaren Wohnraum leisten können. Als Reaktion darauf wurde die sogenannte Mietpreisbremse eingeführt, die den Anstieg der Mieten bei Neuvermietungen begrenzen soll. Befürworter argumentieren, dass ohne diese Regelung einkommensschwächere Bevölkerungsgruppen zunehmend aus den Innenstädten verdrängt würden.\n\nKritiker hingegen bemängeln, dass die Mietpreisbremse das eigentliche Problem nicht löse, sondern lediglich die Symptome bekämpfe. Sie weisen darauf hin, dass der Wohnungsmangel vor allem durch zu wenig Neubau verursacht werde. Würde mehr gebaut, so ihr Argument, würde sich der Markt von selbst entspannen, und staatliche Eingriffe wären überflüssig. Zudem wird befürchtet, dass Investoren durch die Regulierung abgeschreckt werden könnten, was den Wohnungsbau zusätzlich bremsen würde.\n\nTrotz dieser Gegensätze sind sich die meisten Experten einig, dass eine nachhaltige Lösung nur durch eine Kombination verschiedener Maßnahmen erreicht werden kann. Dazu gehören neben der Mietpreisbremse auch gezielte Förderprogramme für den sozialen Wohnungsbau sowie eine Vereinfachung der Baugenehmigungsverfahren. Ob diese Maßnahmen ausreichen, um die Wohnungskrise zu entschärfen, bleibt jedoch umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten sind in vielen Großstädten gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mietpreisbremse soll den Mietanstieg begrenzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten lehnen die Mietpreisbremse ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen den Wohnungsmangel vor allem im fehlenden Neubau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es besteht völlige Einigkeit über die beste Lösung der Wohnungskrise.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "künstliche-intelligenz-im-klassenzimmer",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz im Klassenzimmer",
+    "descripcion": "Chancen und Risiken des Einsatzes von KI-Werkzeugen im Schulunterricht.",
+    "texto": "Der Einsatz künstlicher Intelligenz im Unterricht wird derzeit intensiv diskutiert. Während einige Lehrkräfte den Einsatz von KI-gestützten Lernprogrammen begrüßen, weil diese individuelles Lernen ermöglichen sollen, äußern andere die Sorge, dass Schülerinnen und Schüler dadurch zu abhängig von Technologie werden könnten. Befürworter betonen, dass solche Programme es erlauben würden, auf das jeweilige Lerntempo einzugehen, was im herkömmlichen Klassenunterricht kaum möglich ist.\n\nBesonders kontrovers wird die Frage diskutiert, inwieweit Hausaufgaben und schriftliche Prüfungen noch aussagekräftig sind, wenn Texte mithilfe von KI-Anwendungen verfasst werden könnten. Manche Schulen reagieren darauf, indem sie verstärkt auf mündliche Prüfungsformen setzen, bei denen der Einsatz von KI nicht möglich ist. Andere Stimmen fordern, dass Schülerinnen und Schüler von Anfang an lernen sollten, mit diesen Werkzeugen verantwortungsvoll umzugehen, anstatt sie schlicht zu verbieten.\n\nLetztlich wird vermutet, dass die Schule der Zukunft weder völlig auf KI verzichten noch sich vollständig auf sie verlassen wird können. Entscheidend dürfte sein, wie gut es gelingt, Lehrkräfte entsprechend fortzubilden, damit sie die neuen Werkzeuge sinnvoll in den Unterricht einbinden können, ohne die Entwicklung eigenständigen Denkens zu vernachlässigen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Lehrkräfte lehnen den Einsatz von KI im Unterricht ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Schulen setzen verstärkt auf mündliche Prüfungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "KI-Programme könnten individuelles Lernen fördern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt keine Diskussion über die Aussagekraft schriftlicher Prüfungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fortbildung der Lehrkräfte wird als wichtig angesehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkompetenz-in-zeiten-von-fake-news",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz in Zeiten von Fake News",
+    "descripcion": "Warum kritisches Denken im Umgang mit Nachrichten heute wichtiger denn je ist.",
+    "texto": "Die Verbreitung von Falschinformationen, sogenannten Fake News, hat sich durch soziale Medien erheblich beschleunigt. Nachrichten, die früher sorgfältig von Redaktionen geprüft wurden, verbreiten sich heute in Sekundenschnelle, ohne dass ihr Wahrheitsgehalt überprüft wird. Dadurch entsteht die Gefahr, dass sich falsche Behauptungen schneller verbreiten als deren Richtigstellungen.\n\nExperten sind sich weitgehend einig, dass Medienkompetenz heute zu den wichtigsten Fähigkeiten überhaupt gehört. Darunter wird die Fähigkeit verstanden, Quellen kritisch zu hinterfragen, unterschiedliche Perspektiven zu vergleichen und manipulative Darstellungen zu erkennen. Gerade jüngere Menschen, die einen großen Teil ihrer Informationen über soziale Netzwerke beziehen, gelten als besonders anfällig für irreführende Inhalte, wenn ihnen entsprechende Kompetenzen fehlen.\n\nUm dieser Entwicklung entgegenzuwirken, fordern viele Bildungsexperten, dass Medienkompetenz fest im Lehrplan verankert werden sollte, anstatt nur gelegentlich im Unterricht behandelt zu werden. Wäre dies der Fall, könnten zukünftige Generationen besser darauf vorbereitet werden, zwischen verlässlichen und unseriösen Quellen zu unterscheiden. Bis dahin bleibt es vor allem Aufgabe der Eltern und Lehrkräfte, Kinder und Jugendliche für dieses Thema zu sensibilisieren.",
+    "preguntas": [
+      {
+        "enunciado": "Soziale Medien haben die Verbreitung von Fake News beschleunigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Falschinformationen werden immer sofort korrigiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienkompetenz gilt als wichtige Fähigkeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienkompetenz ist bereits überall fest im Lehrplan verankert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Menschen gelten als besonders anfällig für irreführende Inhalte.",
+        "respuesta": true
+      }
+    ]
   }
 ]
