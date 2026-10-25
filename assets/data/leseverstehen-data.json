@@ -73898,5 +73898,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "ein-picknick-im-park",
+    "nivel": "A1",
+    "titulo": "Ein Picknick im Park",
+    "descripcion": "Lena und ihre Freunde machen ein Picknick im Park.",
+    "texto": "Lena und ihre Freunde gehen am Sonntag in den Park. Die Sonne scheint, und der Himmel ist blau. Lena bringt eine Decke und einen Korb mit. Im Korb sind Brot, Käse, Äpfel und Saft.\n\nSie legen die Decke unter einen großen Baum. Tom bringt einen Ball mit, und Mia bringt Kekse mit. Alle sind hungrig und essen zusammen. „Der Käse ist sehr lecker\", sagt Tom. Mia trinkt den Saft und lacht.\n\nNach dem Essen spielen sie mit dem Ball. Lena ist müde und legt sich auf die Decke. Die Freunde bleiben bis zum Abend im Park. Es ist ein schöner Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht am Sonntag in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Korb sind Brot, Käse, Äpfel und Saft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom bringt Kekse mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freunde essen unter einem Baum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freunde bleiben nur eine Stunde im Park.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "im-supermarkt-mit-papa",
+    "nivel": "A1",
+    "titulo": "Im Supermarkt mit Papa",
+    "descripcion": "Ein Kind geht mit seinem Vater einkaufen und hilft ihm.",
+    "texto": "Jonas geht mit seinem Papa in den Supermarkt. Sie haben eine Liste: Milch, Brot, Eier und Butter. Jonas nimmt einen kleinen Wagen und schiebt ihn durch die Gänge.\n\nIm Supermarkt gibt es viele Regale. Jonas findet die Milch und legt sie in den Wagen. Papa sucht das Brot. „Welches Brot möchtest du?\", fragt Papa. Jonas zeigt auf ein braunes Brot. Dann kaufen sie noch Eier und Butter.\n\nAn der Kasse bezahlt Papa mit Karte. Jonas trägt eine kleine Tasche. Zu Hause legen sie alles in den Kühlschrank. Jonas ist froh, dass er helfen konnte.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas geht mit seiner Mama einkaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf der Liste stehen Milch, Brot, Eier und Butter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas schiebt einen Wagen durch den Supermarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Papa bezahlt mit Bargeld.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas trägt zu Hause alles in den Kühlschrank.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kindergeburtstag-im-garten",
+    "nivel": "A1",
+    "titulo": "Der Kindergeburtstag im Garten",
+    "descripcion": "Emma feiert ihren Geburtstag mit Freunden im Garten.",
+    "texto": "Emma wird heute sieben Jahre alt. Sie feiert ihren Geburtstag im Garten. Ihre Mama hat einen Kuchen mit Erdbeeren gemacht. Viele Luftballons hängen an den Bäumen.\n\nEmmas Freunde kommen und bringen Geschenke mit. Paul bringt ein Buch, und Lisa bringt eine Puppe. Alle singen „Happy Birthday\", und Emma pustet die Kerzen aus. Danach isst jedes Kind ein Stück Kuchen.\n\nNach dem Kuchen spielen die Kinder im Garten. Sie spielen Fangen und Verstecken. Emma ist sehr glücklich. Am Abend sagt sie: „Das war der schönste Tag!\"",
+    "preguntas": [
+      {
+        "enunciado": "Emma wird sieben Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen hat Schokolade.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul bringt eine Puppe mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder singen „Happy Birthday\".",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder spielen im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-postkarte-aus-hamburg",
+    "nivel": "A2",
+    "titulo": "Eine Postkarte aus Hamburg",
+    "descripcion": "Nina schreibt ihrer Oma eine Postkarte aus ihrem Urlaub in Hamburg.",
+    "texto": "Liebe Oma,\n\nich bin seit drei Tagen in Hamburg und es gefällt mir sehr gut hier. Gestern habe ich den Hafen besucht und ein großes Schiff gesehen. Danach bin ich mit meinen Eltern in die Speicherstadt gegangen, weil dort viele alte, schöne Gebäude stehen. Wir haben auch ein Modell von ganz Deutschland im Miniatur Wunderland gesehen. Es war unglaublich, weil alles so klein und detailliert war.\n\nHeute Morgen hat es geregnet, aber das war kein Problem, denn wir sind einfach in ein Museum gegangen. Am Nachmittag ist die Sonne wieder gekommen, und wir sind an der Elbe spazieren gegangen. Ich habe dort frischen Fisch gegessen, obwohl ich normalerweise keinen Fisch mag. Er hat mir wirklich geschmeckt!\n\nMorgen fahren wir zurück nach München. Ich bringe dir ein kleines Geschenk mit. Bis bald!\n\nDeine Nina",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist seit drei Tagen in Hamburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat ein Schiff im Hafen gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina mag normalerweise sehr gern Fisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat den ganzen Tag geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina fährt morgen zurück nach München.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-beim-kinderarzt",
+    "nivel": "A2",
+    "titulo": "Ein Tag beim Kinderarzt",
+    "descripcion": "Frau Berger bringt ihren Sohn zum Kinderarzt, weil er Fieber hat.",
+    "texto": "Lukas hat seit zwei Tagen Fieber und Halsschmerzen. Seine Mutter, Frau Berger, hat deshalb gestern Abend einen Termin beim Kinderarzt vereinbart. Heute Morgen sind sie früh aufgestanden und zur Praxis gefahren, weil Lukas sich sehr schwach gefühlt hat.\n\nIn der Praxis haben sie nicht lange gewartet. Der Arzt hat Lukas' Hals untersucht und seine Temperatur gemessen. „Du hast eine leichte Mandelentzündung, aber das ist nicht gefährlich\", hat der Arzt erklärt. Er hat Frau Berger ein Rezept für ein Medikament gegeben und gesagt, dass Lukas viel trinken und sich ausruhen soll.\n\nAuf dem Weg nach Hause sind sie in die Apotheke gegangen und haben das Medikament gekauft. Lukas war froh, weil er keine Spritze bekommen hat. Seine Mutter hat ihm versprochen, dass er morgen wieder gesund sein wird, wenn er sich ausruht.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas hat seit zwei Tagen Fieber.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie mussten lange in der Praxis warten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat eine gefährliche Krankheit festgestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas hat eine Spritze bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie gehen nach dem Arztbesuch in die Apotheke.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-zum-bauernhof",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug zum Bauernhof",
+    "descripcion": "Eine Schulklasse besucht einen Bauernhof auf dem Land.",
+    "texto": "Letzte Woche ist die Klasse 3b mit ihrer Lehrerin, Frau Klein, zu einem Bauernhof gefahren. Die Kinder haben sich sehr gefreut, weil sie noch nie echte Tiere auf einem Hof gesehen hatten. Der Bauer hat die Klasse am Eingang begrüßt und ihnen den Hof gezeigt.\n\nZuerst sind sie in den Stall gegangen, wo die Kühe und Ziegen gelebt haben. Ein Mädchen hat eine Kuh gestreichelt, obwohl sie am Anfang etwas Angst hatte. Danach haben die Kinder den Hühnern beim Fressen zugeschaut und durften sogar frische Eier einsammeln. Der Bauer hat erklärt, dass die Tiere jeden Tag gefüttert werden müssen, damit sie gesund bleiben.\n\nAm Ende des Ausflugs haben die Kinder frische Milch probiert, die direkt vom Hof kam. Alle haben den Tag sehr genossen, und einige Kinder haben gesagt, dass sie später auch Bauern werden möchten. Frau Klein war zufrieden, weil die Kinder so viel gelernt haben.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 3b besucht einen Bauernhof.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Mädchen hatte keine Angst vor der Kuh.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder dürfen Eier einsammeln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Tiere werden nur einmal pro Woche gefüttert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende probieren die Kinder frische Milch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-nach-dresden",
+    "nivel": "B1",
+    "titulo": "Der Umzug nach Dresden",
+    "descripcion": "Familie Weber zieht nach Dresden um, obwohl der Abschied schwerfällt.",
+    "texto": "Familie Weber lebt seit zehn Jahren in Köln, aber nächsten Monat ziehen sie nach Dresden um, weil Herr Weber dort eine neue Stelle als Ingenieur angetreten hat. Für die Kinder, Jana und Felix, ist der Umzug nicht leicht, obwohl sie sich auch ein bisschen auf die neue Stadt freuen. Sie müssen ihre Freunde, ihre Schule und ihr Zuhause zurücklassen, und das macht sie traurig.\n\nNachdem die Familie das neue Haus in Dresden besichtigt hatte, fühlten sich alle etwas besser. Das Haus liegt in der Nähe eines Parks, und es gibt eine neue Schule nur fünf Minuten zu Fuß entfernt. Jana hat sogar schon online mit einem Mädchen aus ihrer zukünftigen Klasse geschrieben, und die beiden verstehen sich bereits gut, obwohl sie sich noch nie persönlich getroffen haben.\n\nTrotzdem bleibt der Abschied von Köln schwer. Die Kinder haben eine Abschiedsparty für ihre Freunde organisiert, bei der alle versprochen haben, in Kontakt zu bleiben. Frau Weber ist überzeugt, dass sich die Familie in Dresden schnell eingewöhnen wird, auch wenn der Anfang nicht einfach sein wird.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Weber zieht wegen einer neuen Stelle um.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder freuen sich überhaupt nicht auf den Umzug.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das neue Haus liegt weit von einer Schule entfernt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jana hat schon online Kontakt zu einem Mädchen aus Dresden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder organisieren eine Abschiedsparty.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest-in-freiburg",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest in Freiburg",
+    "descripcion": "Die Stadt Freiburg feiert ihr jährliches Stadtfest mit Musik und Kunst.",
+    "texto": "Jeden Sommer organisiert die Stadt Freiburg ein großes Stadtfest, bei dem die ganze Innenstadt zu einer Bühne für Musik, Kunst und Kultur wird. Dieses Jahr nahmen über zwanzig Bands aus der ganzen Region teil, obwohl das Wetter am ersten Tag nicht besonders gut war. Nachdem der Regen am Nachmittag aufgehört hatte, kamen trotzdem Tausende Besucher in die Altstadt.\n\nAuf verschiedenen Plätzen traten lokale Künstler auf, und viele Straßen waren mit bunten Lichtern und Dekorationen geschmückt. Besonders beliebt war der Kunstmarkt, auf dem junge Künstler ihre Werke verkauften, obwohl die meisten erst am Anfang ihrer Karriere standen. Eine Studentin aus Freiburg erklärte, dass solche Feste wichtig seien, weil sie der lokalen Kunstszene eine Plattform geben.\n\nAm Abend endete das Fest mit einem großen Feuerwerk über dem Fluss. Viele Familien, die den ganzen Tag unterwegs gewesen waren, blieben bis zum Schluss, um das Spektakel gemeinsam zu erleben. Die Organisatoren zeigten sich zufrieden, da das Fest trotz des schlechten Wetters am Anfang ein großer Erfolg war.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest findet jeden Sommer statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war den ganzen Tag perfekt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem Kunstmarkt verkaufen junge Künstler ihre Werke.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fest endet ohne besondere Veranstaltung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Organisatoren sind mit dem Fest zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommerkurs-in-berlin",
+    "nivel": "B1",
+    "titulo": "Ein Sommerkurs in Berlin",
+    "descripcion": "Carla aus Spanien besucht einen Deutschkurs in Berlin und findet neue Freunde.",
+    "texto": "Carla kommt aus Spanien und ist für drei Wochen nach Berlin gereist, um einen Sommerkurs für Deutsch zu machen. Am Anfang hatte sie Angst, dass sie zu wenig Deutsch sprechen könnte, obwohl sie schon zwei Jahre Deutschunterricht in ihrer Heimat gehabt hatte. Nachdem der Kurs begonnen hatte, merkte sie aber schnell, dass die anderen Teilnehmer ähnliche Erfahrungen hatten.\n\nIn ihrer Klasse gab es Studierende aus Italien, Polen und Südkorea. Jeden Morgen hatten sie Unterricht, und am Nachmittag unternahmen sie gemeinsam Ausflüge durch die Stadt, obwohl manche lieber in der Unterkunft geblieben wären, um zu lernen. Carla besuchte mit ihren neuen Freunden das Brandenburger Tor und den Berliner Dom, und sie übten dabei, auf Deutsch über das, was sie sahen, zu sprechen.\n\nAm Ende des Kurses war Carla überrascht, wie viel sich ihr Deutsch verbessert hatte. Sie hatte nicht nur die Sprache gelernt, sondern auch Freundschaften geschlossen, die über die drei Wochen hinausgehen sollten. Trotzdem war der Abschied schwer, weil alle in verschiedene Länder zurückkehren mussten.",
+    "preguntas": [
+      {
+        "enunciado": "Carla kommt aus Italien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carla hatte vor dem Kurs keinen Deutschunterricht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Klasse gibt es Studierende aus mehreren Ländern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag machen sie Ausflüge durch die Stadt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla findet, dass sich ihr Deutsch nicht verbessert hat.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "chatbots-im-alltag",
+    "nivel": "B2",
+    "titulo": "Chatbots im Alltag",
+    "descripcion": "Eine Analyse darüber, wie Chatbots zunehmend den Alltag der Menschen prägen.",
+    "texto": "Chatbots, die auf künstlicher Intelligenz basieren, sind in den letzten Jahren zu einem festen Bestandteil des Alltags geworden. Ob beim Kundenservice, in der Bildung oder im privaten Gebrauch – kaum ein Bereich bleibt von dieser Entwicklung unberührt. Während Befürworter betonen, dass solche Systeme Zeit sparen und Informationen rund um die Uhr zugänglich machen, warnen Kritiker davor, dass die menschliche Interaktion dadurch zunehmend verdrängt werde.\n\nBesonders in Unternehmen werden Chatbots eingesetzt, um Kundenanfragen schneller zu bearbeiten. Es wäre jedoch verfehlt zu glauben, dass diese Technologie fehlerfrei funktioniert. Häufig werden komplexe Anliegen, die menschliches Einfühlungsvermögen erfordern, von den Systemen missverstanden oder unzureichend beantwortet. Manche Experten argumentieren, dass ein Gleichgewicht zwischen automatisierten Antworten und menschlicher Betreuung gefunden werden müsse, damit die Kundenzufriedenheit nicht leidet.\n\nAuch im Bildungsbereich gewinnen Chatbots an Bedeutung, da sie Schülern und Studierenden individuelle Unterstützung beim Lernen bieten können. Dennoch wird befürchtet, dass eine übermäßige Nutzung solcher Werkzeuge die Entwicklung eigenständigen Denkens beeinträchtigen könnte. Würde man gänzlich auf menschliche Lehrkräfte verzichten, ginge wohl ein wesentlicher Teil des pädagogischen Prozesses verloren, der auf zwischenmenschlicher Beziehung beruht.\n\nLetztlich zeigt die Debatte, dass Chatbots zwar enorme Chancen bieten, ihre Grenzen aber nicht ignoriert werden dürfen. Eine verantwortungsvolle Integration dieser Technologie in den Alltag erfordert eine kritische Auseinandersetzung mit ihren Stärken und Schwächen, anstatt sie unreflektiert als Lösung für alle Probleme zu betrachten.",
+    "preguntas": [
+      {
+        "enunciado": "Chatbots werden nur im privaten Bereich genutzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass menschliche Interaktion verdrängt wird.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text funktionieren Chatbots immer fehlerfrei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Bildungsbereich können Chatbots individuelle Unterstützung bieten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert, menschliche Lehrkräfte vollständig zu ersetzen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-mietmarkt-in-deutschen-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Der Mietmarkt in deutschen Großstädten",
+    "descripcion": "Eine Betrachtung der steigenden Mietpreise und ihrer Folgen für die Gesellschaft.",
+    "texto": "In den vergangenen Jahren sind die Mietpreise in deutschen Großstädten wie München, Berlin und Hamburg stark gestiegen. Für viele Menschen mit mittlerem oder niedrigem Einkommen wird es dadurch zunehmend schwieriger, eine bezahlbare Wohnung zu finden. Während manche Experten argumentieren, dass die hohe Nachfrage und das begrenzte Angebot an Wohnraum die Hauptursachen seien, weisen andere darauf hin, dass auch spekulative Investitionen den Markt erheblich beeinflussen.\n\nBesonders betroffen sind junge Familien und Studierende, die oft lange nach einer passenden Wohnung suchen müssen. Wäre der soziale Wohnungsbau in den letzten Jahrzehnten stärker gefördert worden, hätte sich die Situation wohl weniger drastisch entwickelt. Stattdessen wurde in vielen Städten zu wenig neuer, bezahlbarer Wohnraum geschaffen, was den Druck auf den bestehenden Markt zusätzlich erhöht hat.\n\nUm dem Problem zu begegnen, werden verschiedene politische Maßnahmen diskutiert. Dazu gehören unter anderem die sogenannte Mietpreisbremse, die eine zu starke Erhöhung der Mieten verhindern soll, sowie Förderprogramme für den Bau neuer Sozialwohnungen. Kritiker dieser Maßnahmen behaupten jedoch, dass staatliche Eingriffe in den Markt langfristig Investitionen in neuen Wohnraum verhindern könnten, wodurch das Problem letztlich verschärft werden würde.\n\nUnabhängig von der politischen Ausrichtung besteht weitgehend Einigkeit darüber, dass dringend gehandelt werden muss. Sollte sich an der aktuellen Situation nichts ändern, könnten soziale Spannungen in den betroffenen Städten weiter zunehmen, da sich die Kluft zwischen Wohlhabenden und einkommensschwächeren Bevölkerungsgruppen immer weiter vergrößert.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Familien und Studierende sind besonders von der Wohnungsnot betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text erwähnt die Mietpreisbremse als eine mögliche politische Maßnahme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass staatliche Eingriffe keine Nachteile haben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text besteht weitgehend Einigkeit, dass gehandelt werden muss.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "flexible-arbeitszeitmodelle",
+    "nivel": "B2",
+    "titulo": "Flexible Arbeitszeitmodelle",
+    "descripcion": "Ein Blick auf die Vor- und Nachteile flexibler Arbeitszeiten in modernen Unternehmen.",
+    "texto": "In den letzten Jahren haben immer mehr Unternehmen begonnen, flexible Arbeitszeitmodelle einzuführen, um den veränderten Bedürfnissen ihrer Angestellten gerecht zu werden. Modelle wie Gleitzeit, Homeoffice oder die Vier-Tage-Woche werden zunehmend als Mittel betrachtet, um die Vereinbarkeit von Beruf und Privatleben zu verbessern. Befürworter argumentieren, dass zufriedene Mitarbeiter produktiver seien, während Skeptiker bezweifeln, ob sich diese Modelle in jeder Branche umsetzen lassen.\n\nBesonders in der Informationstechnologie und in kreativen Berufen haben sich flexible Arbeitszeiten bereits weitgehend etabliert. In Branchen, die auf feste Arbeitszeiten angewiesen sind, etwa im Gesundheitswesen oder in der Produktion, gestaltet sich die Umsetzung hingegen deutlich schwieriger. Es wäre daher unangemessen, flexible Modelle als universelle Lösung für alle Arbeitsbereiche zu betrachten, ohne die jeweiligen branchenspezifischen Anforderungen zu berücksichtigen.\n\nEine Studie, die kürzlich veröffentlicht wurde, zeigt zudem, dass Mitarbeiter, die flexibel arbeiten dürfen, ein höheres Maß an Zufriedenheit berichten. Gleichzeitig wird jedoch darauf hingewiesen, dass die Grenze zwischen Arbeit und Freizeit zunehmend verschwimmt, was langfristig zu erhöhtem Stress führen könnte, sofern keine klaren Regelungen getroffen werden. Würde man beispielsweise nicht ausdrücklich festlegen, wann die Arbeitszeit endet, bestünde die Gefahr, dass Mitarbeiter ständig erreichbar sein müssten.\n\nInsgesamt zeigt sich, dass flexible Arbeitszeitmodelle zwar erhebliches Potenzial bieten, ihre erfolgreiche Umsetzung jedoch von einer durchdachten Unternehmenskultur abhängt. Nur wenn klare Rahmenbedingungen geschaffen werden, können sowohl Unternehmen als auch Angestellte langfristig von dieser Entwicklung profitieren.",
+    "preguntas": [
+      {
+        "enunciado": "Flexible Arbeitszeitmodelle lassen sich laut dem Text in jeder Branche problemlos umsetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der Informationstechnologie haben sich flexible Arbeitszeiten bereits weitgehend etabliert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Studie zeigt, dass flexibel arbeitende Mitarbeiter unzufriedener sind.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text warnt davor, dass die Grenze zwischen Arbeit und Freizeit verschwimmen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text hängt der Erfolg flexibler Modelle von einer durchdachten Unternehmenskultur ab.",
+        "respuesta": true
+      }
+    ]
   }
 ]
