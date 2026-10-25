@@ -72854,5 +72854,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-rucksack-fuer-die-schule",
+    "nivel": "A1",
+    "titulo": "Mein Rucksack für die Schule",
+    "descripcion": "Lukas packt seinen Rucksack für den Schultag.",
+    "texto": "Lukas ist neun Jahre alt. Jeden Morgen packt er seinen Rucksack für die Schule. In den Rucksack kommen ein Buch, ein Heft, ein Bleistift und ein Radiergummi. Er nimmt auch eine Flasche Wasser und einen Apfel mit.\n\nHeute hat Lukas auch Sportunterricht. Deshalb packt er Sportschuhe und ein T-Shirt ein. Seine Mutter sagt: „Vergiss die Jacke nicht, es ist kalt.“ Lukas nimmt die Jacke und geht zur Tür.\n\nDie Schule ist nicht weit. Lukas geht zu Fuß mit seinem Freund Tim. Sie sprechen über Fußball und lachen viel. Um acht Uhr beginnt der Unterricht.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas ist neun Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas packt einen Computer in den Rucksack.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Heute hat Lukas Sportunterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas fährt mit dem Auto zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Unterricht beginnt um acht Uhr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-im-zoo",
+    "nivel": "A1",
+    "titulo": "Ein Besuch im Zoo",
+    "descripcion": "Die Familie Weber besucht am Sonntag den Zoo.",
+    "texto": "Am Sonntag besucht die Familie Weber den Zoo. Die Kinder, Mia und Ben, sind sehr glücklich. Zuerst sehen sie die Affen. Die Affen springen von Baum zu Baum. Mia lacht und sagt: „Die sind lustig!“\n\nDanach gehen sie zu den Elefanten. Die Elefanten sind sehr groß und grau. Ben möchte Fotos machen. Die Familie isst auch ein Eis. Es ist warm und die Sonne scheint.\n\nAm Ende sehen sie noch die Löwen. Die Löwen schlafen in der Sonne. Um fünf Uhr fahren sie nach Hause. Der Tag im Zoo war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Weber geht am Montag in den Zoo.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder heißen Mia und Ben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Affen schlafen den ganzen Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst ein Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Löwen schlafen in der Sonne.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kleine-hund-bruno",
+    "nivel": "A1",
+    "titulo": "Unser neues Haustier",
+    "descripcion": "Familie Schmidt kauft einen kleinen Hund.",
+    "texto": "Die Familie Schmidt hat ein neues Haustier. Es ist ein kleiner Hund. Der Hund heißt Bruno und ist braun und weiß. Bruno ist sehr jung und spielt gern mit einem Ball.\n\nJeden Tag geht die Familie mit Bruno in den Park. Dort trifft Bruno andere Hunde. Er läuft schnell und bellt laut. Die Kinder geben Bruno auch Futter und Wasser.\n\nAm Abend schläft Bruno in seinem Korb. Die ganze Familie liebt den kleinen Hund sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie geht jeden Tag mit Bruno in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno schläft auf dem Sofa.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie liebt Bruno sehr.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-koffer-ist-weg",
+    "nivel": "A2",
+    "titulo": "Der verlorene Koffer",
+    "descripcion": "Frau Keller verliert ihren Koffer auf dem Flughafen.",
+    "texto": "Frau Keller ist vor zwei Tagen von München nach Hamburg geflogen. Als sie am Flughafen ankam, hat sie lange auf ihren Koffer gewartet. Leider ist der Koffer nicht gekommen. Sie war sehr ärgerlich, weil wichtige Dokumente im Koffer waren.\n\nFrau Keller ist zum Informationsschalter gegangen und hat den Verlust gemeldet. Ein Mitarbeiter hat ihr gesagt, dass der Koffer wahrscheinlich noch in München ist. Er hat ein Formular ausgefüllt und ihr eine Telefonnummer gegeben.\n\nAm nächsten Tag hat die Fluggesellschaft angerufen. Der Koffer wurde gefunden, weil ein Mitarbeiter das falsche Etikett bemerkt hat. Frau Keller war sehr erleichtert, als sie ihren Koffer endlich bekommen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller ist von Hamburg nach München geflogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer ist nicht angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Keller war ärgerlich, weil wichtige Dokumente fehlten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fluggesellschaft hat nie wieder angerufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer wurde am Ende gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sophies-brief-an-die-grossmutter",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Oma",
+    "descripcion": "Sophie schreibt ihrer Oma einen Brief über ihr Wochenende.",
+    "texto": "Liebe Oma, ich schreibe dir, weil ich dir von meinem Wochenende erzählen möchte. Am Samstag bin ich mit meinen Eltern in die Berge gefahren. Wir sind dort gewandert und haben ein Picknick gemacht. Das Wetter war sonnig, aber am Nachmittag hat es geregnet.\n\nAm Sonntag habe ich meine Freundin Laura besucht. Wir haben zusammen Kuchen gebacken, weil ihr Geburtstag bald ist. Der Kuchen war ein bisschen verbrannt, aber wir haben trotzdem viel gelacht.\n\nIch hoffe, dass du mich bald besuchst. Ich vermisse dich sehr. Viele Grüße, deine Sophie.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist am Samstag in die Berge gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat den ganzen Tag geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat am Sonntag ihre Freundin Laura besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen ist perfekt gelungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie vermisst ihre Oma.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "beim-arzt-mit-halsschmerzen",
+    "nivel": "A2",
+    "titulo": "Beim Arzt mit Halsschmerzen",
+    "descripcion": "Markus geht zum Arzt, weil er starke Halsschmerzen hat.",
+    "texto": "Markus ist seit drei Tagen krank. Er hat Halsschmerzen und auch ein bisschen Fieber. Weil es nicht besser wurde, hat er einen Termin bei seinem Hausarzt gemacht.\n\nIm Wartezimmer hat Markus fast eine halbe Stunde gewartet. Dann hat der Arzt seinen Hals untersucht und gesagt, dass es eine leichte Infektion ist. Markus hat Medikamente bekommen und soll viel Tee trinken.\n\nDer Arzt hat auch gesagt, dass Markus zu Hause bleiben soll, wenn das Fieber nicht sinkt. Nach einer Woche ist Markus wieder gesund und kann zur Arbeit zurückkehren.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist seit drei Tagen krank.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat keine Halsschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat fast eine halbe Stunde im Wartezimmer gewartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Arzt gibt Markus keine Medikamente.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einer Woche ist Markus wieder gesund.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "jonas-neuer-job-in-leipzig",
+    "nivel": "B1",
+    "titulo": "Umzug in eine neue Stadt",
+    "descripcion": "Jonas zieht wegen eines neuen Jobs nach Leipzig und muss sich einleben.",
+    "texto": "Nachdem Jonas eine neue Stelle in Leipzig angenommen hatte, musste er innerhalb von zwei Wochen umziehen. Obwohl er die Stadt kaum kannte, war er entschlossen, die neue Herausforderung anzunehmen. Der Abschied von Freunden und Familie fiel ihm jedoch nicht leicht.\n\nIn den ersten Tagen fühlte sich Jonas einsam, trotzdem versuchte er, Kontakte zu knüpfen. Er meldete sich in einem Sportverein an und lernte dort schnell neue Leute kennen. Nachdem er einige Kollegen aus der Arbeit besser kennengelernt hatte, fühlte er sich allmählich wohler.\n\nNach einigen Monaten hatte sich Jonas gut eingelebt. Er entdeckte seine Lieblingscafés, kannte die besten Wege zur Arbeit und hatte sogar einen engen Freundeskreis gefunden. Rückblickend war der Umzug zwar schwierig, aber letztendlich eine der besten Entscheidungen seines Lebens.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte viel Zeit, um seinen Umzug zu planen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas kannte Leipzig schon sehr gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas fühlte sich in den ersten Tagen einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas trat einem Sportverein bei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende bereute Jonas seinen Umzug.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "klassenfahrt-in-die-hauptstadt",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Berlin",
+    "descripcion": "Eine Schulklasse erlebt auf ihrer Klassenfahrt nach Berlin unerwartete Abenteuer.",
+    "texto": "Die Klasse 9b fuhr für eine Woche nach Berlin, um die Hauptstadt und ihre Geschichte besser kennenzulernen. Obwohl viele Schüler schon vorher aufgeregt waren, wusste niemand genau, was sie erwarten würde. Die Lehrerin hatte ein straffes Programm geplant.\n\nAm zweiten Tag besuchten sie das Brandenburger Tor und anschließend ein Museum über die deutsche Teilung. Nachdem sie viel über die Berliner Mauer erfahren hatten, diskutierten die Schüler lange über die Geschichte ihres Landes. Einige waren tief beeindruckt, obwohl sie vorher wenig Interesse an Geschichte gezeigt hatten.\n\nAm letzten Abend organisierten die Schüler eine kleine Abschlussfeier im Hostel. Trotzdem waren alle etwas traurig, dass die Reise schon zu Ende ging. Zurück in der Schule erzählten sie noch wochenlang von ihren Erlebnissen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klassenfahrt dauerte eine Woche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler besuchten kein Museum.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler lernten viel über die Berliner Mauer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am letzten Abend ging jeder sofort schlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Reise sprachen die Schüler noch lange darüber.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "beste-freundinnen-auf-distanz",
+    "nivel": "B1",
+    "titulo": "Freundschaft trotz Entfernung",
+    "descripcion": "Zwei Freundinnen bleiben sich nahe, obwohl sie in verschiedenen Ländern leben.",
+    "texto": "Anna und Lea sind seit der Grundschule beste Freundinnen. Nachdem Lea vor zwei Jahren nach Kanada gezogen war, veränderte sich ihre Freundschaft stark. Obwohl die Entfernung groß war, versuchten beide, den Kontakt nicht zu verlieren.\n\nSie schreiben sich fast jeden Tag Nachrichten und telefonieren einmal pro Woche per Video. Wenn es die Zeitverschiebung erlaubt, schauen sie sogar gemeinsam Filme, während sie im Videoanruf verbunden sind. Anna sagt, dass sie Lea trotz der Distanz nie so nah gefühlt hat wie vorher.\n\nLetzten Sommer flog Anna nach Kanada, um Lea zu besuchen. Nachdem sie sich zwei Jahre nicht persönlich gesehen hatten, war das Wiedersehen besonders emotional. Beide sind sich sicher, dass ihre Freundschaft auch in Zukunft stark bleiben wird.",
+    "preguntas": [
+      {
+        "enunciado": "Anna und Lea kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea ist vor zwei Jahren nach Kanada gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen haben jeglichen Kontakt verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna hat Lea letzten Sommer in Kanada besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide glauben, dass ihre Freundschaft enden wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "hybrides-arbeiten-als-neuer-standard",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Arbeit im Homeoffice",
+    "descripcion": "Eine Analyse darüber, wie das Homeoffice die Arbeitswelt dauerhaft verändert hat.",
+    "texto": "Seit einigen Jahren hat sich die Arbeitswelt grundlegend verändert. Was früher als Ausnahme galt, wird inzwischen von vielen Unternehmen als fester Bestandteil des Arbeitsalltags betrachtet: das Homeoffice. Zahlreiche Studien zeigen, dass die Produktivität vieler Beschäftigter nicht gelitten hat, obwohl anfangs Zweifel geäußert wurden, ob das Arbeiten von zu Hause aus langfristig funktionieren könne.\n\nKritiker weisen jedoch darauf hin, dass der informelle Austausch zwischen Kollegen, der oft spontan in der Kaffeeküche entsteht, durch digitale Kommunikation nur schwer ersetzt werden kann. Außerdem wird befürchtet, dass junge Mitarbeiter, die gerade ins Berufsleben einsteigen, weniger von erfahrenen Kollegen lernen könnten, wenn persönlicher Kontakt fehlt.\n\nDennoch dürfte sich das hybride Arbeitsmodell, bei dem Beschäftigte sowohl im Büro als auch von zu Hause aus arbeiten, langfristig durchsetzen. Viele Unternehmen haben erkannt, dass flexible Arbeitsmodelle entscheidend sind, um qualifizierte Fachkräfte zu gewinnen und zu halten. Es bleibt jedoch fraglich, ob sich diese Entwicklung in allen Branchen gleichermaßen umsetzen lässt.",
+    "preguntas": [
+      {
+        "enunciado": "Das Homeoffice wird heute von vielen Unternehmen als normaler Teil des Arbeitsalltags angesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zeigen, dass die Produktivität im Homeoffice generell stark gesunken ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker bemängeln den fehlenden informellen Austausch zwischen Kollegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text haben junge Mitarbeiter im Homeoffice keine Nachteile.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text geht davon aus, dass sich hybride Arbeitsmodelle langfristig durchsetzen könnten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wohnungsknappheit-in-metropolen",
+    "nivel": "B2",
+    "titulo": "Wohnungsnot in deutschen Großstädten",
+    "descripcion": "Der Text beleuchtet die Ursachen und möglichen Lösungen der Wohnungsknappheit in deutschen Metropolen.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Wohnungssuche in den letzten Jahren zu einer echten Herausforderung entwickelt. Die Mietpreise steigen kontinuierlich, während das Angebot an bezahlbarem Wohnraum kaum mit der wachsenden Nachfrage Schritt halten kann. Besonders betroffen sind junge Familien und Studierende, die oft monatelang nach einer passenden Unterkunft suchen müssen.\n\nAls Hauptursachen werden von Experten vor allem die starke Zuwanderung in die Städte sowie ein jahrzehntelanger Mangel an Neubauten genannt. Hinzu kommt, dass viele Investoren lieber hochpreisige Wohnungen bauen, da sich diese schneller und profitabler vermieten lassen. Sozialer Wohnungsbau würde zwar helfen, wird jedoch von vielen Kommunen aus finanziellen Gründen vernachlässigt.\n\nUm die Lage zu verbessern, fordern Politiker unterschiedlicher Parteien strengere Mietpreisbremsen sowie Förderprogramme für den Bau von Sozialwohnungen. Ob diese Maßnahmen jedoch tatsächlich ausreichen würden, um die Wohnungsnot nachhaltig zu lindern, wird von Fachleuten kontrovers diskutiert. Einig sind sich die meisten jedoch darin, dass ohne entschlossenes politisches Handeln die Situation sich in den kommenden Jahren weiter verschärfen dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise in deutschen Großstädten sinken seit einigen Jahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Familien und Studierende sind von der Wohnungsnot besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text bauen Investoren bevorzugt günstige Sozialwohnungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Politiker fordern unter anderem strengere Mietpreisbremsen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass die geforderten Maßnahmen das Problem vollständig lösen würden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kritischer-umgang-mit-fake-news",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz im digitalen Zeitalter",
+    "descripcion": "Warum ein kritischer Umgang mit Informationen in Zeiten von Fake News immer wichtiger wird.",
+    "texto": "In einer Zeit, in der Informationen über soziale Medien innerhalb von Sekunden verbreitet werden, gewinnt die Fähigkeit, Nachrichten kritisch zu hinterfragen, zunehmend an Bedeutung. Während früher vor allem etablierte Zeitungen und Fernsehsender als Nachrichtenquelle dienten, informieren sich heute viele Menschen, insbesondere jüngere Generationen, hauptsächlich über Plattformen, auf denen Inhalte ungeprüft veröffentlicht werden können.\n\nDiese Entwicklung birgt erhebliche Risiken, da gezielt verbreitete Falschinformationen, sogenannte Fake News, oft schwer von seriösen Berichten zu unterscheiden sind. Besonders problematisch wird es, wenn emotional aufgeladene Inhalte verbreitet werden, die zwar wenig Wahrheitsgehalt besitzen, dafür aber umso mehr geteilt und kommentiert werden.\n\nUm dieser Entwicklung entgegenzuwirken, fordern viele Bildungsexperten, dass Medienkompetenz schon in der Schule systematisch vermittelt werden sollte. Schüler müssten lernen, Quellen zu überprüfen, Interessen hinter bestimmten Darstellungen zu erkennen und sich nicht ausschließlich auf einen einzigen Kanal zu verlassen. Nur so könnte verhindert werden, dass sich Falschinformationen ungehindert in der Gesellschaft verbreiten.",
+    "preguntas": [
+      {
+        "enunciado": "Informationen verbreiten sich heute über soziale Medien sehr schnell.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Früher informierten sich die Menschen hauptsächlich über soziale Medien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Fake News sind laut dem Text immer leicht von seriösen Nachrichten zu unterscheiden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Bildungsexperten fordern mehr Medienkompetenz in der Schule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text empfiehlt, sich nur auf einen einzigen Nachrichtenkanal zu verlassen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
