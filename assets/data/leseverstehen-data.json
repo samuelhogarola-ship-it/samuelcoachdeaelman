@@ -72506,5 +72506,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "lena-mag-aepfel-am-meisten",
+    "nivel": "A1",
+    "titulo": "Lena mag Äpfel am meisten",
+    "descripcion": "Lena erzählt von ihrem Lieblingsobst und ihrer Familie.",
+    "texto": "Lena ist zehn Jahre alt. Sie isst jeden Tag Obst. Lena mag Äpfel, Bananen und Trauben. Aber Äpfel sind ihr Lieblingsobst. Sie isst oft einen roten Apfel zum Frühstück.\n\nDie Familie von Lena kauft das Obst auf dem Markt. Der Markt ist am Mittwoch und am Samstag. Lenas Mutter kauft auch Gemüse: Karotten, Tomaten und Salat. Lenas kleiner Bruder mag nur Bananen.\n\nAm Sonntag macht die Familie einen Obstsalat. Lena schneidet die Äpfel. Ihr Bruder schneidet die Bananen. Der Obstsalat schmeckt sehr gut, und alle sind zufrieden.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas Lieblingsobst ist die Banane.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Markt ist am Mittwoch und am Samstag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas Bruder mag nur Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag macht die Familie einen Obstsalat.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "flohmarkt-im-park-schoeneberg",
+    "nivel": "A1",
+    "titulo": "Flohmarkt im Park Schöneberg",
+    "descripcion": "Paul und seine Schwester verkaufen alte Spielsachen auf einem Flohmarkt.",
+    "texto": "Paul und seine Schwester Mia gehen heute zum Flohmarkt im Park. Sie haben einen kleinen Tisch mit alten Spielsachen. Paul verkauft Autos und Bücher. Mia verkauft Puppen und ein Fahrrad.\n\nViele Leute kommen zum Tisch. Eine Frau kauft ein Buch für zwei Euro. Ein Junge kauft ein Auto für einen Euro. Mia verkauft das Fahrrad für zehn Euro an einen Mann.\n\nAm Ende des Tages haben Paul und Mia viel Geld. Sie kaufen sich ein Eis und sind sehr glücklich. Der nächste Flohmarkt ist in zwei Monaten.",
+    "preguntas": [
+      {
+        "enunciado": "Paul verkauft Autos und Bücher.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia verkauft nur Bücher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Frau kauft ein Buch für zwei Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand kauft etwas am Tisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und Mia kaufen sich am Ende ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-katze-heisst-minka",
+    "nivel": "A1",
+    "titulo": "Meine Katze heißt Minka",
+    "descripcion": "Ein Mädchen beschreibt den Tagesablauf ihrer Katze.",
+    "texto": "Ich heiße Sofie und ich habe eine Katze. Meine Katze heißt Minka. Minka ist schwarz und weiß. Sie schläft sehr viel, fast sechzehn Stunden am Tag.\n\nAm Morgen isst Minka Fischfutter. Danach spielt sie im Garten. Minka mag kleine Bälle und läuft gern hinter ihnen her. Am Nachmittag schläft sie meistens auf dem Sofa.\n\nAm Abend sitzt Minka bei mir auf dem Bett. Ich lese ein Buch, und Minka schläft neben mir. Ich liebe meine Katze sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Minka ist schwarz und weiß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka schläft nur zwei Stunden am Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka isst am Morgen Fischfutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka spielt nicht im Garten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend sitzt Minka bei Sofie auf dem Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-oma-in-bremen",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Oma in Bremen",
+    "descripcion": "Julia schreibt ihrer Oma einen Brief über ihre Ferien.",
+    "texto": "Liebe Oma, ich habe dir lange nicht geschrieben, weil ich sehr viel in der Schule zu tun hatte. Jetzt sind endlich Ferien, und ich habe Zeit für einen Brief.\n\nIn den Ferien bin ich mit meinen Eltern ans Meer gefahren. Wir haben eine kleine Wohnung in Rostock gemietet. Jeden Tag sind wir zum Strand gegangen, wenn das Wetter schön war. Einmal hat es geregnet, und wir sind in ein Museum gegangen. Das Museum war sehr interessant, weil es viel über alte Schiffe erzählt hat.\n\nNächste Woche kommen wir dich besuchen. Ich freue mich schon sehr darauf, weil ich dich lange nicht gesehen habe. Hoffentlich backst du wieder deinen leckeren Apfelkuchen!\n\nViele liebe Grüße, deine Julia",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat lange nicht geschrieben, weil sie viel in der Schule zu tun hatte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia ist in den Ferien in die Berge gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat eine Wohnung in Rostock gemietet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat nie geregnet, und sie waren jeden Tag am Strand.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia will ihre Oma nächste Woche besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-zahnarztbesuch-von-paul",
+    "nivel": "A2",
+    "titulo": "Der Zahnarztbesuch von Paul",
+    "descripcion": "Paul hat Zahnschmerzen und muss zum Zahnarzt gehen.",
+    "texto": "Paul hat seit zwei Tagen Zahnschmerzen. Weil der Schmerz immer schlimmer wurde, hat seine Mutter einen Termin beim Zahnarzt gemacht. Paul hatte ein bisschen Angst, weil er noch nie beim Zahnarzt war.\n\nIn der Praxis hat die Zahnärztin zuerst alle Zähne angeschaut. Dann hat sie gesagt, dass Paul ein kleines Loch im Zahn hat. Die Zahnärztin hat den Zahn sehr vorsichtig behandelt, und Paul hat fast nichts gespürt. Nach der Behandlung hat er sich viel besser gefühlt.\n\nAls Paul nach Hause gekommen ist, hat er seiner Mutter erzählt, dass der Zahnarzt gar nicht so schlimm war. Jetzt putzt Paul jeden Abend seine Zähne, weil er nicht noch einmal Zahnschmerzen haben möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hatte seit zwei Tagen Zahnschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul war schon oft beim Zahnarzt gewesen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin hat ein kleines Loch im Zahn gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat während der Behandlung sehr starke Schmerzen gehabt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul putzt jetzt jeden Abend seine Zähne.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-am-chiemsee",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende am Chiemsee",
+    "descripcion": "Eine Familie verbringt ein entspanntes Wochenende am bayerischen Chiemsee.",
+    "texto": "Am Freitagabend ist die Familie Berger zum Chiemsee gefahren. Sie haben ein kleines Zimmer in einer Pension gebucht, weil sie zwei Nächte bleiben wollten. Die Fahrt hat fast zwei Stunden gedauert, aber die Kinder haben sich nicht gelangweilt.\n\nAm Samstag sind sie mit einem Boot zur Herreninsel gefahren. Dort haben sie ein großes Schloss besichtigt. Die Kinder fanden das Schloss toll, weil es so viele goldene Zimmer gab. Am Nachmittag haben sie am See gebadet, obwohl das Wasser noch kalt war.\n\nAm Sonntag sind sie mit dem Fahrrad um den See gefahren. Nachdem sie eine Pause im Café gemacht hatten, sind sie wieder nach Hause gefahren. Alle waren müde, aber sehr zufrieden mit dem Wochenende.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger ist am Freitagabend zum Chiemsee gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind nur einen Tag am Chiemsee geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag haben sie ein Schloss auf der Herreninsel besichtigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wasser des Sees war sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag sind sie mit dem Fahrrad um den See gefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "toms-umzug-nach-leipzig",
+    "nivel": "B1",
+    "titulo": "Toms Umzug nach Leipzig",
+    "descripcion": "Tom zieht wegen eines neuen Jobs nach Leipzig und muss sich an die neue Stadt gewöhnen.",
+    "texto": "Tom hat vor drei Wochen eine neue Stelle in Leipzig angenommen, obwohl er seine Heimatstadt sehr geliebt hat. Er musste schnell eine Wohnung finden, denn der Wohnungsmarkt in Leipzig ist in den letzten Jahren sehr angespannt geworden. Nachdem er fünf Wohnungen besichtigt hatte, fand er endlich eine kleine, aber gemütliche Wohnung im Stadtteil Südvorstadt.\n\nDer Anfang war nicht leicht. Tom kannte niemanden in der Stadt, und trotzdem war er fest entschlossen, sich schnell einzuleben. Er meldete sich in einem Sportverein an und lernte dort bald die ersten neuen Freunde kennen. Obwohl er am Anfang oft Heimweh hatte, fühlte er sich nach ein paar Monaten schon viel wohler.\n\nHeute, ein Jahr später, kann sich Tom ein Leben ohne Leipzig kaum noch vorstellen. Die Stadt hat ihm mit ihrer lebendigen Kulturszene und den vielen Parks viel zu bieten. Nachdem er sich so gut eingelebt hat, überlegt er sogar, ob er langfristig in Leipzig bleiben möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Tom ist wegen einer neuen Stelle nach Leipzig gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom hat sofort die erste Wohnung genommen, die er besichtigt hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom hat durch einen Sportverein neue Freunde kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom hatte nie Heimweh nach seiner alten Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einem Jahr überlegt Tom, ob er in Leipzig bleiben möchte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-theaterabend-mit-alten-freunden",
+    "nivel": "B1",
+    "titulo": "Ein Theaterabend mit alten Freunden",
+    "descripcion": "Eine Gruppe alter Freunde trifft sich nach Jahren wieder, um gemeinsam ins Theater zu gehen.",
+    "texto": "Nachdem sie sich fast zehn Jahre nicht gesehen hatten, trafen sich vier alte Schulfreunde letzten Freitag wieder in ihrer Heimatstadt. Der Anlass war ein Theaterstück, das eine von ihnen, Carla, unbedingt sehen wollte. Obwohl alle vier inzwischen in verschiedenen Städten lebten, hatten sie sich entschlossen, für diesen Abend extra anzureisen.\n\nVor der Vorstellung trafen sie sich in einem kleinen Restaurant in der Nähe des Theaters. Es gab viel zu erzählen, denn trotzdem, dass sie sich lange nicht gesehen hatten, fühlte es sich an, als wäre keine Zeit vergangen. Sie erinnerten sich an alte Geschichten aus der Schulzeit und lachten viel.\n\nDas Theaterstück selbst war ein Drama über Freundschaft und Verlust, und alle vier waren nach der Vorstellung sehr berührt. Nachdem der Vorhang gefallen war, saßen sie noch lange zusammen und beschlossen, sich nicht erst nach weiteren zehn Jahren wiederzusehen.",
+    "preguntas": [
+      {
+        "enunciado": "Die vier Freunde hatten sich fast zehn Jahre nicht gesehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie trafen sich, weil einer von ihnen Geburtstag hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Vor der Vorstellung aßen sie gemeinsam in einem Restaurant.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Theaterstück handelte von einer lustigen Komödie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie beschlossen, sich bald wieder zu treffen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-der-10b-nach-muenchen",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt der 10b nach München",
+    "descripcion": "Die Klasse 10b fährt für eine Woche nach München und erlebt dort viele neue Dinge.",
+    "texto": "Die Klasse 10b ist letzte Woche für fünf Tage nach München gefahren. Obwohl einige Schüler schon vorher in München gewesen waren, war es für die meisten die erste größere Reise ohne die Eltern. Die Lehrerin, Frau Keller, hatte ein Programm mit Museumsbesuchen, einer Stadtführung und einem Ausflug in die Alpen geplant.\n\nAm zweiten Tag besuchten sie das Deutsche Museum, das als eines der größten Technikmuseen der Welt gilt. Viele Schüler fanden besonders die Ausstellung über Luftfahrt spannend. Nachdem sie den ganzen Vormittag im Museum verbracht hatten, machten sie am Nachmittag einen Spaziergang durch den Englischen Garten.\n\nTrotzdem es am dritten Tag stark regnete, fuhr die Klasse in die Alpen, um eine kleine Wanderung zu machen. Die Schüler waren zunächst nicht begeistert, aber am Ende genossen sie die Aussicht sehr. Am letzten Abend organisierten die Schüler eine kleine Abschlussfeier im Hostel, bei der sie über die Höhepunkte der Woche sprachen.",
+    "preguntas": [
+      {
+        "enunciado": "Für die meisten Schüler war es die erste größere Reise ohne Eltern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse hat kein Museum besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am dritten Tag fuhr die Klasse trotz Regen in die Alpen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler waren von der Wanderung am Ende enttäuscht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend gab es eine kleine Abschlussfeier im Hostel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-digitalisierung-der-grundschulen",
+    "nivel": "B2",
+    "titulo": "Die Digitalisierung der Grundschulen",
+    "descripcion": "Ein Text über die Chancen und Herausforderungen der digitalen Ausstattung an Grundschulen.",
+    "texto": "In den vergangenen Jahren wurden viele deutsche Grundschulen mit digitalen Geräten wie Tablets und interaktiven Whiteboards ausgestattet. Befürworter dieser Entwicklung argumentieren, dass Kinder auf diese Weise frühzeitig an den Umgang mit digitalen Medien herangeführt würden, was ihnen später im Berufsleben zugutekomme. Zudem könnten individuelle Lernprogramme es ermöglichen, dass jedes Kind in seinem eigenen Tempo lernt.\n\nKritiker hingegen warnen davor, dass eine zu frühe und zu intensive Nutzung digitaler Geräte die Konzentrationsfähigkeit der Kinder beeinträchtigen könnte. Es wird zudem befürchtet, dass soziale Kompetenzen, die durch direkten Austausch zwischen Schülern entstehen, vernachlässigt werden könnten, wenn ein großer Teil des Unterrichts am Bildschirm stattfindet. Manche Pädagogen würden es daher bevorzugen, wenn digitale Medien erst ab der weiterführenden Schule eingesetzt würden.\n\nAuch die finanzielle Seite spielt eine wichtige Rolle in dieser Debatte. Während einige Bundesländer bereits erhebliche Summen in die technische Ausstattung investiert haben, fehlt vielerorts noch das geschulte Personal, um die Geräte sinnvoll im Unterricht einzusetzen. Ohne eine entsprechende Weiterbildung der Lehrkräfte, so wird häufig argumentiert, bleibe die teure Technik letztlich ungenutzt oder werde nur unzureichend eingesetzt.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter sehen in der Digitalisierung Vorteile für das spätere Berufsleben der Kinder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Kritiker sind der Meinung, dass digitale Geräte keine negativen Folgen haben können.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Pädagogen würden digitale Medien lieber erst in weiterführenden Schulen einsetzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bundesländer haben bereits ausreichend geschultes Personal für die Technik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ohne Weiterbildung der Lehrkräfte wird die Technik laut Text oft nicht sinnvoll genutzt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wahrheit-und-social-media",
+    "nivel": "B2",
+    "titulo": "Wahrheit und Social Media",
+    "descripcion": "Ein kritischer Text über die Verbreitung von Falschinformationen in sozialen Netzwerken.",
+    "texto": "Soziale Netzwerke haben die Art, wie Informationen verbreitet werden, grundlegend verändert. Nachrichten, die früher von Redaktionen geprüft wurden, bevor sie veröffentlicht wurden, können heute innerhalb von Minuten ungeprüft an Millionen von Nutzern weitergeleitet werden. Dadurch entsteht ein Umfeld, in dem Falschinformationen sich oft schneller verbreiten als korrigierte Fakten.\n\nBesonders problematisch sei, so Medienwissenschaftler, dass Algorithmen bevorzugt Inhalte anzeigen würden, die starke emotionale Reaktionen auslösen, unabhängig davon, ob sie wahr seien. Wenn ein Nutzer einmal mit einer bestimmten Art von Inhalt interagiert hat, werde ihm in der Folge noch mehr ähnlicher Inhalt angezeigt, was zu einer sogenannten Filterblase führen könne. Innerhalb dieser Blase würden alternative Sichtweisen kaum noch wahrgenommen.\n\nUm dieser Entwicklung entgegenzuwirken, wurden in den letzten Jahren verschiedene Maßnahmen diskutiert, etwa eine stärkere Kennzeichnung von Falschinformationen oder eine Reform der Algorithmen, die von unabhängigen Institutionen überwacht werden sollte. Ob solche Maßnahmen tatsächlich greifen würden, ist jedoch umstritten, da die Plattformen selbst wirtschaftlich davon profitieren, wenn Nutzer möglichst lange auf ihnen verweilen.",
+    "preguntas": [
+      {
+        "enunciado": "Nachrichten in sozialen Netzwerken werden laut Text immer sorgfältig geprüft, bevor sie erscheinen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen bevorzugen laut Medienwissenschaftlern oft emotional aufwühlende Inhalte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Filterblase führt dazu, dass Nutzer kaum noch alternative Sichtweisen sehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt laut Text keine Vorschläge, wie man gegen Falschinformationen vorgehen könnte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Plattformen profitieren wirtschaftlich davon, wenn Nutzer lange auf ihnen bleiben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-ueber-die-vier-tage-woche",
+    "nivel": "B2",
+    "titulo": "Die Debatte über die Vier-Tage-Woche",
+    "descripcion": "Ein Text über Chancen und Risiken der Vier-Tage-Woche in deutschen Unternehmen.",
+    "texto": "In den letzten Jahren wird in Deutschland zunehmend über die Einführung einer Vier-Tage-Woche diskutiert. Mehrere Unternehmen haben bereits Pilotprojekte durchgeführt, bei denen die Arbeitszeit bei gleichem Gehalt von fünf auf vier Tage reduziert wurde. Die bisherigen Ergebnisse dieser Projekte seien, so die beteiligten Firmen, überwiegend positiv ausgefallen.\n\nBefürworter der Vier-Tage-Woche argumentieren, dass kürzere Arbeitszeiten die Produktivität der Mitarbeiter sogar steigern könnten, da ausgeruhte Angestellte konzentrierter arbeiten würden. Außerdem würde eine bessere Vereinbarkeit von Beruf und Privatleben erreicht, wenn Arbeitnehmer mehr Zeit für Familie, Erholung und persönliche Interessen hätten. Studien, die in einigen skandinavischen Ländern durchgeführt wurden, scheinen diese These zu unterstützen.\n\nKritiker hingegen geben zu bedenken, dass nicht jede Branche von einer verkürzten Arbeitswoche profitieren könnte. In Berufen, in denen physische Präsenz unerlässlich ist, etwa im Gesundheitswesen oder im Einzelhandel, sei eine Umsetzung deutlich schwieriger, da die anfallende Arbeit nicht einfach komprimiert werden könne. Es wird befürchtet, dass eine verpflichtende Einführung der Vier-Tage-Woche in solchen Branchen zu einer zusätzlichen Belastung der verbleibenden Arbeitskräfte führen würde, wenn nicht gleichzeitig neues Personal eingestellt würde.",
+    "preguntas": [
+      {
+        "enunciado": "Mehrere deutsche Unternehmen haben bereits Pilotprojekte zur Vier-Tage-Woche durchgeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bei den Pilotprojekten wurde das Gehalt der Mitarbeiter gekürzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter glauben, dass ausgeruhte Mitarbeiter produktiver arbeiten könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern profitieren alle Branchen gleich stark von der Vier-Tage-Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen gilt die Umsetzung der Vier-Tage-Woche als besonders schwierig.",
+        "respuesta": true
+      }
+    ]
   }
 ]
