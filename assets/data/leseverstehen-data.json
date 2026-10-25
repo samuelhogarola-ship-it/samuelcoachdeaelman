@@ -73202,5 +73202,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-fruehstueck-am-sonntag",
+    "nivel": "A1",
+    "titulo": "Mein Frühstück am Sonntag",
+    "descripcion": "Lena erzählt, was sie jeden Sonntag zum Frühstück isst.",
+    "texto": "Ich heiße Lena und ich liebe den Sonntag. Am Sonntag stehe ich spät auf. Ich mache ein großes Frühstück für meine Familie. Wir essen Brötchen mit Butter und Marmelade. Mein Bruder trinkt heiße Schokolade und ich trinke Tee mit Honig.\n\nMeine Mutter kocht Eier und mein Vater schneidet Obst. Wir essen Äpfel, Bananen und Orangen. Der Tisch ist bunt und das Essen schmeckt sehr gut. Meine kleine Schwester mag nur Nutella auf dem Brot.\n\nNach dem Frühstück räumen wir zusammen auf. Dann gehen wir oft in den Park. Der Sonntag ist mein Lieblingstag in der Woche.",
+    "preguntas": [
+      {
+        "enunciado": "Lena isst am Sonntag ein großes Frühstück.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas Bruder trinkt Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst Äpfel, Bananen und Orangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lenas kleine Schwester mag nur Käse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Frühstück gehen sie oft in den Park.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unser-kleiner-garten",
+    "nivel": "A1",
+    "titulo": "Unser kleiner Garten",
+    "descripcion": "Paul erzählt über den kleinen Garten seiner Familie.",
+    "texto": "Meine Familie hat einen kleinen Garten hinter dem Haus. Im Garten wachsen Tomaten, Karotten und Salat. Mein Opa arbeitet jeden Tag im Garten. Er gießt die Pflanzen und pflückt das Gemüse.\n\nIch helfe meinem Opa gern. Wir pflanzen auch bunte Blumen: rote, gelbe und lila Blumen. Meine Oma macht aus den Tomaten eine leckere Soße. Die ganze Familie isst das frische Gemüse aus dem Garten.\n\nAm Abend sitzen wir oft im Garten und essen zusammen. Der Garten ist klein, aber wir lieben ihn sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Im Garten wachsen Tomaten und Karotten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Opa arbeitet nie im Garten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Blumen im Garten sind rot, gelb und lila.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma macht aus den Karotten einen Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst am Abend oft im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-geschwister-und-ich",
+    "nivel": "A1",
+    "titulo": "Meine Geschwister und ich",
+    "descripcion": "Tim stellt seine zwei Geschwister kurz vor.",
+    "texto": "Ich heiße Tim und ich habe zwei Geschwister. Meine Schwester heißt Mia und mein Bruder heißt Finn. Mia ist zehn Jahre alt und sie spielt gern Fußball. Finn ist fünf Jahre alt und er malt gern Bilder.\n\nWir wohnen zusammen in einem Haus mit unseren Eltern. Jeden Nachmittag spielen wir im Garten. Mia schießt den Ball und Finn läuft schnell. Ich spiele auch gern mit meinen Geschwistern.\n\nAm Abend essen wir zusammen und erzählen vom Tag. Finn zeigt uns immer seine neuen Bilder. Meine Familie ist klein, aber sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hat zwei Geschwister.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia ist fünf Jahre alt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn malt gern Bilder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie spielt jeden Nachmittag im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn zeigt seine Bilder nie der Familie.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-verregneter-wandertag",
+    "nivel": "A2",
+    "titulo": "Ein verregneter Wandertag",
+    "descripcion": "Jonas und seine Freunde haben eine Wanderung geplant, aber das Wetter hat andere Pläne.",
+    "texto": "Jonas hat mit seinen Freunden eine Wanderung in den Bergen geplant. Sie sind früh aufgestanden, weil die Wanderung lange dauern sollte. Aber als sie aus dem Haus gegangen sind, hat es stark geregnet. Jonas war traurig, weil er sich so auf den Tag gefreut hatte.\n\nSeine Freundin Lisa hat gesagt: „Wir können trotzdem losgehen, wenn wir warme Jacken anziehen.\" Also haben sie sich warm angezogen und sind trotzdem in die Berge gefahren. Der Weg war nass und rutschig, aber die Freunde haben viel gelacht. Sie haben sogar ein kleines Picknick unter einem Baum gemacht, weil es da trocken war.\n\nAm Nachmittag hat der Regen aufgehört, und die Sonne ist herausgekommen. Die Freunde waren müde, aber sehr zufrieden. Jonas hat gesagt, dass dieser Wandertag einer der schönsten war, obwohl das Wetter am Anfang so schlecht war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas und seine Freunde sind früh aufgestanden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des Regens sind sie sofort nach Hause gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa wollte trotz des Regens losgehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben kein Picknick gemacht, weil es zu kalt war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Tages ist die Sonne herausgekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsueberraschung-fuer-opa",
+    "nivel": "A2",
+    "titulo": "Die Geburtstagsüberraschung für Opa",
+    "descripcion": "Die Familie plant eine heimliche Überraschungsfeier für den achtzigsten Geburtstag des Opas.",
+    "texto": "Opa Heinrich wird nächste Woche achtzig Jahre alt. Seine Kinder und Enkelkinder haben beschlossen, eine Überraschungsfeier zu organisieren. Niemand durfte Opa etwas sagen, weil die Feier eine echte Überraschung sein sollte. Tante Birgit hat die Einladungen geschrieben und an alle Verwandten geschickt.\n\nAm Tag der Feier hat die Familie den Garten mit Luftballons und Lichtern dekoriert. Opa dachte, dass er nur zum normalen Mittagessen eingeladen war. Als er in den Garten gekommen ist, haben alle „Herzlichen Glückwunsch!\" gerufen. Opa war so überrascht, dass er fast geweint hat.\n\nNach der Feier hat Opa gesagt, dass es der schönste Geburtstag seines Lebens war. Er hat sich bei allen bedankt, weil sie so viel Mühe in die Planung gesteckt hatten. Die ganze Familie hat bis spät in die Nacht gefeiert und viele alte Geschichten erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Opa Heinrich wird achtzig Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa wusste schon vorher von der Überraschungsfeier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Birgit hat die Einladungen geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Garten wurde nicht dekoriert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa hat gesagt, es war der schönste Geburtstag seines Lebens.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verspaetete-zug-nach-muenchen",
+    "nivel": "A2",
+    "titulo": "Der verspätete Zug nach München",
+    "descripcion": "Sarah erlebt eine stressige Zugreise, weil ihr Zug großen Verspätung hat.",
+    "texto": "Sarah wollte am Freitag mit dem Zug nach München fahren, um ihre Schwester zu besuchen. Sie ist pünktlich zum Bahnhof gekommen, aber auf der Anzeigetafel stand, dass der Zug eine Stunde Verspätung hatte. Sarah war frustriert, weil sie wenig Zeit hatte.\n\nAn einem Automaten hat sie sich einen Kaffee gekauft und sich auf eine Bank gesetzt. Neben ihr hat ein älterer Mann gewartet, der auch nach München wollte. Sie haben sich unterhalten, und die Zeit ist schneller vergangen, als Sarah gedacht hatte. Der Mann hat erzählt, dass er früher selbst bei der Bahn gearbeitet hat.\n\nAls der Zug endlich gekommen ist, war er sehr voll. Sarah hat trotzdem einen Platz gefunden und ist drei Stunden später als geplant in München angekommen. Ihre Schwester hat am Bahnhof gewartet und war froh, dass Sarah endlich da war.",
+    "preguntas": [
+      {
+        "enunciado": "Sarah wollte am Freitag nach München fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zug ist pünktlich gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarah hat sich mit einem älteren Mann unterhalten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Mann hat nie bei der Bahn gearbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sarahs Schwester hat am Bahnhof auf sie gewartet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-freiwilligenjahr-im-ausland",
+    "nivel": "B1",
+    "titulo": "Das Freiwilligenjahr im Ausland",
+    "descripcion": "Nach dem Abitur entscheidet sich Felix für ein Freiwilligenjahr in Südamerika.",
+    "texto": "Nachdem Felix sein Abitur bestanden hatte, wusste er nicht genau, was er als Nächstes machen sollte. Viele seiner Freunde hatten bereits ein Studium begonnen, doch Felix fühlte sich noch nicht bereit dafür. Also entschied er sich, ein Freiwilligenjahr in Ecuador zu machen, obwohl seine Eltern am Anfang skeptisch waren.\n\nIn Ecuador arbeitete Felix in einer kleinen Schule in den Bergen und half den Kindern beim Lernen. Die ersten Wochen waren schwierig, weil er kaum Spanisch sprach und sich an das einfache Leben gewöhnen musste. Trotzdem lernte er schnell, und nach ein paar Monaten konnte er sich schon gut mit den Dorfbewohnern unterhalten. Er entdeckte außerdem, dass ihm die Arbeit mit Kindern sehr viel Freude bereitete.\n\nAls Felix nach einem Jahr nach Deutschland zurückkehrte, hatte er sich stark verändert. Er war selbstständiger geworden und wusste nun genau, dass er später Lehrer werden wollte. Seine Eltern waren stolz auf ihn, obwohl sie ihn während des Jahres sehr vermisst hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat direkt nach dem Abitur ein Studium begonnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat sein Freiwilligenjahr in Ecuador gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix sprach von Anfang an fließend Spanisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat entdeckt, dass ihm die Arbeit mit Kindern Freude macht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Jahr wollte Felix auf keinen Fall Lehrer werden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-chorprobe-am-montag",
+    "nivel": "B1",
+    "titulo": "Die Chorprobe am Montag",
+    "descripcion": "Marie tritt einem Dorfchor bei und findet dort neue Freundschaften.",
+    "texto": "Marie war erst vor drei Monaten in das kleine Dorf gezogen und fühlte sich dort noch etwas einsam. Eine Nachbarin erzählte ihr, dass es jeden Montagabend eine Chorprobe in der Gemeindehalle gab, und lud sie ein, einfach mitzukommen. Obwohl Marie noch nie in einem Chor gesungen hatte, beschloss sie, es auszuprobieren.\n\nAls sie zum ersten Mal zur Probe kam, war sie sehr nervös, weil alle anderen Mitglieder sich schon lange kannten. Trotzdem wurde sie herzlich willkommen geheißen, und der Chorleiter half ihr geduldig, die neuen Lieder zu lernen. Nachdem sie ein paar Wochen dabei gewesen war, fühlte sich Marie schon viel sicherer und freute sich jeden Montag auf die Probe.\n\nMit der Zeit wurden einige Chormitglieder zu echten Freunden, mit denen Marie sich auch außerhalb der Proben traf. Der Chor gab ihr nicht nur ein neues Hobby, sondern auch das Gefühl, endlich in ihrer neuen Heimat anzukommen. Heute kann sie sich ein Leben ohne die montägliche Chorprobe kaum noch vorstellen.",
+    "preguntas": [
+      {
+        "enunciado": "Marie wohnte schon viele Jahre in dem Dorf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Nachbarin hat Marie zur Chorprobe eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie hatte schon viel Erfahrung im Singen im Chor.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mit der Zeit wurden einige Chormitglieder zu Maries Freunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie findet die Chorprobe inzwischen unwichtig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-praktikum-in-der-redaktion",
+    "nivel": "B1",
+    "titulo": "Das Praktikum in der Redaktion",
+    "descripcion": "David macht ein Praktikum bei einer Zeitung und entdeckt, wie viel Arbeit hinter einem Artikel steckt.",
+    "texto": "David hatte sich schon lange für Journalismus interessiert und war daher sehr aufgeregt, als er ein Praktikum bei einer regionalen Zeitung bekam. Am ersten Tag dachte er, dass er sofort spannende Geschichten schreiben dürfte, doch die Realität sah anders aus. Zuerst musste er lernen, wie man Pressemitteilungen sortiert und kurze Meldungen überprüft.\n\nNachdem David einige Wochen im Büro gearbeitet hatte, durfte er endlich eine Redakteurin zu einem Interview begleiten. Er war überrascht, wie viel Vorbereitung nötig war, bevor man überhaupt die erste Frage stellen konnte. Obwohl das Interview nur eine Stunde dauerte, hatte die Redakteurin tagelang recherchiert und Fragen vorbereitet.\n\nAm Ende seines Praktikums durfte David seinen ersten eigenen Artikel über ein lokales Musikfestival schreiben. Er war sehr stolz, als sein Name unter dem Artikel in der gedruckten Zeitung stand. Das Praktikum hat ihm gezeigt, dass guter Journalismus viel Geduld und Sorgfalt erfordert.",
+    "preguntas": [
+      {
+        "enunciado": "David durfte am ersten Tag sofort einen eigenen Artikel schreiben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David hat anfangs Pressemitteilungen sortiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Redakteurin hat sich kaum auf das Interview vorbereitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "David hat am Ende einen Artikel über ein Musikfestival geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "David fand, dass Journalismus keine Geduld erfordert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-viertagewoche",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Viertagewoche",
+    "descripcion": "Ein Blick auf die Debatte über die Vier-Tage-Woche und ihre möglichen Folgen für Wirtschaft und Gesellschaft.",
+    "texto": "In den letzten Jahren hat die Idee der Vier-Tage-Woche in zahlreichen Ländern an Bedeutung gewonnen. Befürworter argumentieren, dass eine verkürzte Arbeitszeit bei gleichem Lohn nicht nur die Produktivität steigern, sondern auch die psychische Gesundheit der Beschäftigten erheblich verbessern würde. Mehrere Pilotprojekte in Unternehmen verschiedener Branchen hätten gezeigt, dass Mitarbeitende konzentrierter arbeiten, wenn ihnen ein zusätzlicher freier Tag zur Verfügung steht.\n\nGleichzeitig gibt es jedoch erhebliche Bedenken, insbesondere von Seiten kleinerer Betriebe, die befürchten, dass sie sich eine solche Umstellung finanziell nicht leisten könnten. Kritiker weisen zudem darauf hin, dass nicht alle Branchen gleich von einer Verkürzung der Arbeitszeit profitieren würden, da beispielsweise im Gesundheitswesen oder im Einzelhandel die Personalknappheit bereits ein großes Problem darstellt. Würde man dort die Arbeitszeit verkürzen, ohne gleichzeitig mehr Personal einzustellen, könnte sich die Belastung der verbleibenden Mitarbeitenden eher noch verschärfen.\n\nTrotz dieser Einwände mehren sich die Stimmen, die eine grundlegende Reform der Arbeitszeitmodelle fordern. Wenn die Digitalisierung und Automatisierung tatsächlich zu höherer Effizienz führten, so argumentieren manche Ökonomen, müsste sich dieser Produktivitätsgewinn auch in mehr Freizeit für die Beschäftigten niederschlagen. Ob sich die Vier-Tage-Woche langfristig durchsetzen wird, bleibt daher eine der spannendsten Fragen der zukünftigen Arbeitswelt.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Vier-Tage-Woche sehen vor allem Vorteile für die psychische Gesundheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen können sich laut dem Text die Vier-Tage-Woche problemlos leisten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen gibt es laut dem Text bereits einen Personalmangel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die Digitalisierung keinen Einfluss auf die Arbeitszeitdebatte hat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text ist die Zukunft der Vier-Tage-Woche noch unklar.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-der-innenstaedte-durch-onlinehandel",
+    "nivel": "B2",
+    "titulo": "Der Wandel der Innenstädte durch den Onlinehandel",
+    "descripcion": "Wie der wachsende Onlinehandel das Gesicht deutscher Innenstädte verändert und welche Lösungsansätze diskutiert werden.",
+    "texto": "Seit Jahren beklagen Einzelhändler in deutschen Innenstädten sinkende Umsätze, während der Onlinehandel kontinuierlich wächst. Immer mehr traditionelle Geschäfte müssen schließen, weil sie mit den niedrigen Preisen und der Bequemlichkeit großer Online-Plattformen nicht konkurrieren können. Besonders betroffen sind kleine, inhabergeführte Läden, die sich weder eine groß angelegte Werbekampagne noch einen eigenen Online-Shop leisten können.\n\nAls Folge dieser Entwicklung verändern sich die Innenstädte vieler mittelgroßer Städte spürbar. Leerstehende Ladenflächen, die früher von Buchhandlungen, Boutiquen oder Elektronikgeschäften genutzt wurden, prägen zunehmend das Stadtbild. Stadtplaner und Kommunalpolitiker diskutieren daher intensiv darüber, wie Innenstädte attraktiv bleiben könnten, ohne dass sie zu reinen Einkaufszentren verkommen. Vorgeschlagen werden unter anderem mehr Wohnraum in Innenstadtlagen, kulturelle Angebote sowie eine stärkere Förderung von Gastronomie und Freizeiteinrichtungen.\n\nManche Experten sind der Ansicht, dass sich Innenstädte grundlegend neu erfinden müssten, um auch in Zukunft Menschen anzuziehen. Es reiche nicht aus, lediglich auf vergangene Zeiten zurückzublicken, in denen der stationäre Handel dominierte. Vielmehr müsse ein Gleichgewicht zwischen Erlebnischarakter, Aufenthaltsqualität und wirtschaftlicher Nutzung gefunden werden, damit Innenstädte auch im digitalen Zeitalter lebendig bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Der Onlinehandel wächst laut dem Text kontinuierlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Vor allem große Ladenketten sind laut dem Text von Schließungen betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Leerstehende Ladenflächen prägen zunehmend das Stadtbild.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text schlägt vor, Innenstädte nur noch als Einkaufszentren zu nutzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten meinen, dass sich Innenstädte neu erfinden müssen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-einfluss-sozialer-medien-auf-die-demokratie",
+    "nivel": "B2",
+    "titulo": "Der Einfluss sozialer Medien auf die Demokratie",
+    "descripcion": "Eine Auseinandersetzung mit der Frage, wie soziale Medien politische Meinungsbildung und demokratische Prozesse verändern.",
+    "texto": "Soziale Medien haben die Art, wie Menschen sich politisch informieren und austauschen, grundlegend verändert. Während früher vor allem Zeitungen, Radio und Fernsehen die öffentliche Meinung prägten, werden politische Debatten heute zunehmend auf Plattformen geführt, deren Algorithmen primär auf Aufmerksamkeit und Interaktion ausgerichtet sind. Dies hat zur Folge, dass polarisierende und emotionale Inhalte oft stärker verbreitet werden als sachliche, ausgewogene Beiträge.\n\nViele Politikwissenschaftler warnen davor, dass diese Entwicklung demokratische Prozesse gefährden könnte. Wenn Nutzer hauptsächlich Inhalte sehen, die ihre bestehenden Meinungen bestätigen, entstehen sogenannte Filterblasen, innerhalb derer ein konstruktiver Austausch unterschiedlicher Standpunkte kaum noch stattfindet. Hinzu kommt, dass gezielte Desinformationskampagnen, die über soziale Netzwerke verbreitet werden, Wahlen und öffentliche Diskurse in mehreren Ländern bereits nachweislich beeinflusst haben.\n\nDennoch wird argumentiert, dass soziale Medien auch demokratiefördernde Potenziale böten, da sie es Bürgern ermöglichten, sich direkt zu politischen Themen zu äußern und sich unabhängig von traditionellen Medien zu organisieren. Ob diese Plattformen der Demokratie insgesamt mehr schaden oder nutzen, hänge letztlich stark davon ab, wie verantwortungsvoll sowohl Nutzer als auch Plattformbetreiber mit der enormen Reichweite dieser Medien umgingen.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen sozialer Medien sind laut dem Text primär auf Aufmerksamkeit ausgerichtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Filterblasen fördern laut dem Text einen konstruktiven Austausch unterschiedlicher Meinungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Desinformationskampagnen haben laut dem Text bereits Wahlen beeinflusst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, soziale Medien hätten ausschließlich negative Auswirkungen auf die Demokratie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut dem Text hängt der Einfluss sozialer Medien auch vom verantwortungsvollen Umgang der Nutzer ab.",
+        "respuesta": true
+      }
+    ]
   }
 ]
