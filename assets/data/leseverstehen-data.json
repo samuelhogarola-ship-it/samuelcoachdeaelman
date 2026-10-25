@@ -73550,5 +73550,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-kleiner-hund-bruno",
+    "nivel": "A1",
+    "titulo": "Mein kleiner Hund Bruno",
+    "descripcion": "Lisa erzählt von ihrem Hund Bruno und ihrem Alltag mit ihm.",
+    "texto": "Ich heiße Lisa und ich habe einen Hund. Mein Hund heißt Bruno. Bruno ist klein und braun. Er ist sehr lieb und spielt gerne im Garten. Jeden Morgen gehe ich mit Bruno spazieren. Wir gehen zusammen in den Park.\n\nBruno mag Fleisch und Wasser. Er trinkt viel Wasser, besonders im Sommer. Am Nachmittag schläft Bruno oft auf dem Sofa. Meine Familie liebt Bruno sehr. Mein kleiner Bruder spielt auch mit ihm und wirft ihm einen Ball zu.\n\nAm Wochenende fahren wir oft zum See. Bruno schwimmt gerne im Wasser und ist dann sehr glücklich. „Bruno, komm her!“, rufe ich, und er läuft sofort zu mir. Ich bin sehr froh, dass ich einen so guten Hund habe.",
+    "preguntas": [
+      {
+        "enunciado": "Lisas Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist groß und schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa geht jeden Morgen mit Bruno spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno schläft nie auf dem Sofa.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Wochenende fahren sie manchmal zum See.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kleidung-kaufen-im-kaufhaus",
+    "nivel": "A1",
+    "titulo": "Kleidung kaufen im Kaufhaus",
+    "descripcion": "Tom geht mit seiner Mutter ins Kaufhaus und kauft neue Kleidung.",
+    "texto": "Tom braucht neue Kleidung für die Schule. Er geht mit seiner Mutter ins Kaufhaus in der Stadt. Das Kaufhaus ist sehr groß und hat viele Abteilungen. Zuerst gehen sie in die Abteilung für Jungen.\n\nTom sieht eine blaue Jacke und eine rote Hose. Er probiert die Jacke an. Die Jacke passt gut und Tom findet sie schön. „Die Jacke ist sehr warm“, sagt die Verkäuferin. Tom möchte auch neue Schuhe kaufen. Er sucht schwarze Turnschuhe in seiner Größe.\n\nAm Ende bezahlt die Mutter alles an der Kasse. Tom ist sehr zufrieden mit seinen neuen Sachen. Danach gehen sie zusammen in ein Café und trinken eine heiße Schokolade.",
+    "preguntas": [
+      {
+        "enunciado": "Tom geht mit seiner Mutter ins Kaufhaus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom kauft nur Schuhe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die blaue Jacke passt Tom gut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom sucht weiße Turnschuhe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Einkauf trinken sie eine heiße Schokolade.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sonniger-nachmittag-im-freibad",
+    "nivel": "A1",
+    "titulo": "Ein sonniger Nachmittag im Freibad",
+    "descripcion": "Paul und seine Freunde verbringen einen sonnigen Nachmittag im Freibad.",
+    "texto": "Heute ist das Wetter sehr schön. Die Sonne scheint und es ist warm. Paul und seine Freunde gehen ins Freibad. Sie packen Handtücher, Badehosen und Sonnencreme ein. Das Freibad ist nicht weit von ihrem Haus.\n\nIm Freibad gibt es ein großes Becken und ein kleines Becken für Kinder. Paul schwimmt gerne im großen Becken. Seine Freundin Mia spielt lieber Volleyball am Beckenrand. Danach essen sie zusammen ein Eis am Kiosk. Das Eis schmeckt sehr gut und kostet nicht viel.\n\nAm Abend sind alle müde, aber glücklich. „Das war ein toller Tag!“, sagt Paul zu seinen Freunden. Sie fahren mit dem Fahrrad nach Hause und freuen sich schon auf den nächsten Besuch im Freibad.",
+    "preguntas": [
+      {
+        "enunciado": "Das Wetter ist heute schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul schwimmt gerne im großen Becken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia spielt lieber Volleyball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie essen kein Eis im Freibad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend fahren sie mit dem Fahrrad nach Hause.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-bei-der-oma",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei der Oma",
+    "descripcion": "Jonas hat das Wochenende bei seiner Oma auf dem Land verbracht.",
+    "texto": "Letztes Wochenende hat Jonas seine Oma auf dem Land besucht. Er ist mit dem Zug gefahren, weil seine Eltern arbeiten mussten. Die Fahrt hat zwei Stunden gedauert, aber Jonas hat sich nicht gelangweilt, weil er ein spannendes Buch gelesen hat.\n\nAls Jonas angekommen ist, hat seine Oma schon Kuchen gebacken. Sie haben zusammen im Garten gesessen und über die Familie gesprochen. Am Samstag sind sie in den Wald gegangen und haben Pilze gesammelt. Jonas hat das sehr gern gemacht, obwohl er vorher noch nie Pilze gesammelt hatte. Seine Oma hat ihm erklärt, welche Pilze man essen darf.\n\nAm Sonntag mussten sie sich leider schon verabschieden. Jonas war traurig, dass das Wochenende so schnell vorbei war. „Komm bald wieder“, hat seine Oma gesagt. Jonas hat versprochen, dass er sie im nächsten Monat wieder besuchen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist mit dem Auto zu seiner Oma gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Oma hatte schon Kuchen gebacken, als Jonas ankam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte vorher schon oft Pilze gesammelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag mussten sie sich verabschieden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas will seine Oma nie wieder besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-neue-nachbarin",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die neue Nachbarin",
+    "descripcion": "Sabine schreibt ihrer neuen Nachbarin einen Brief, um sie willkommen zu heißen.",
+    "texto": "Liebe Frau Keller, ich habe gehört, dass Sie letzte Woche in unser Haus eingezogen sind. Ich wollte Ihnen schreiben, weil ich Sie gerne kennenlernen möchte. Mein Name ist Sabine und ich wohne direkt über Ihnen, in der Wohnung im dritten Stock.\n\nAls ich vor fünf Jahren hierher gezogen bin, haben mir meine Nachbarn sehr geholfen. Deshalb möchte ich jetzt dasselbe für Sie tun. Wenn Sie Fragen zum Haus oder zur Umgebung haben, können Sie mich gerne fragen. Es gibt in der Nähe einen kleinen Supermarkt, der auch sonntags geöffnet hat, falls Sie dann noch etwas einkaufen müssen.\n\nIch würde mich freuen, wenn wir uns bald auf einen Kaffee treffen könnten. Dann können wir uns besser kennenlernen und über das Leben in diesem Haus sprechen. Bitte melden Sie sich, wenn es Ihnen passt. Herzliche Grüße, Sabine",
+    "preguntas": [
+      {
+        "enunciado": "Frau Keller ist vor einem Jahr eingezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine wohnt im dritten Stock.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine bekam vor fünf Jahren Hilfe von ihren Nachbarn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Supermarkt in der Nähe ist sonntags geschlossen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine möchte sich mit Frau Keller auf einen Kaffee treffen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-verschwundene-gepaeck-am-flughafen",
+    "nivel": "A2",
+    "titulo": "Das verschwundene Gepäck am Flughafen",
+    "descripcion": "Markus erlebt am Flughafen ein Problem, weil sein Koffer nicht ankommt.",
+    "texto": "Markus ist von seiner Reise aus Spanien zurückgekommen. Als er am Flughafen gelandet ist, hat er lange am Gepäckband gewartet. Alle anderen Passagiere haben ihre Koffer schon abgeholt, aber Markus hat seinen Koffer nicht gefunden. Er hat sich geärgert, weil er in dem Koffer wichtige Dokumente hatte.\n\nDeshalb ist Markus zum Informationsschalter gegangen und hat das Problem gemeldet. Die Mitarbeiterin hat ihm gesagt, dass der Koffer vielleicht im falschen Flugzeug gelandet ist. Sie hat ein Formular ausgefüllt und Markus eine Telefonnummer gegeben, damit er sich später erkundigen kann. Markus war nicht glücklich, aber er wusste, dass er nichts anderes machen konnte.\n\nAm nächsten Tag hat die Airline angerufen und gesagt, dass der Koffer gefunden wurde. Er war tatsächlich nach München geflogen, weil jemand ihn verwechselt hatte. Zwei Tage später wurde der Koffer zu Markus nach Hause gebracht. Markus war sehr erleichtert, dass alles wieder gut war.",
+    "preguntas": [
+      {
+        "enunciado": "Markus kommt von einer Reise aus Spanien zurück.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hat seinen Koffer sofort am Gepäckband gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus geht zum Informationsschalter, um das Problem zu melden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Koffer ist nach Paris geflogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer wird am Ende zu Markus nach Hause gebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-theaterauffuehrung-in-der-schule",
+    "nivel": "B1",
+    "titulo": "Die Theateraufführung in der Schule",
+    "descripcion": "Eine Schulklasse bereitet trotz vieler Schwierigkeiten eine Theateraufführung vor.",
+    "texto": "Seit Wochen bereitet die Klasse 9b eine Theateraufführung für das Schulfest vor. Obwohl die Schüler zunächst wenig Erfahrung mit Schauspielerei hatten, haben sie sich mit viel Engagement in ihre Rollen eingearbeitet. Ihre Deutschlehrerin, Frau Brandt, hat das Stück ausgewählt und die Proben organisiert. Trotzdem war es nicht einfach, alle Termine unter einen Hut zu bekommen, da viele Schüler auch andere Verpflichtungen hatten.\n\nNachdem die ersten Proben eher chaotisch verlaufen waren, begannen die Schüler langsam, sich besser zu organisieren. Ein paar von ihnen übernahmen zusätzlich die Aufgabe, die Kulissen zu bauen, während andere sich um die Kostüme kümmerten. Besonders schwierig war es, die Texte auswendig zu lernen, aber mit gegenseitiger Unterstützung gelang es schließlich allen. Manche Schüler, die anfangs sehr schüchtern waren, wuchsen während der Proben regelrecht über sich hinaus.\n\nAm Tag der Aufführung war die Aula voll mit Eltern und Mitschülern. Trotz der Nervosität lief die Vorstellung erstaunlich gut, und am Ende gab es langen Applaus. Frau Brandt war sehr stolz auf ihre Klasse, weil sie gesehen hatte, wie sehr sich alle verändert hatten. Für viele Schüler war dieses Projekt eine der schönsten Erinnerungen an ihre Schulzeit.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b hatte von Anfang an viel Erfahrung mit Schauspielerei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es war einfach, alle Probentermine zu koordinieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Schüler kümmerten sich um die Kostüme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche schüchterne Schüler veränderten sich während der Proben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Aufführung war ein Misserfolg und niemand applaudierte.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-neuer-job-in-einer-fremden-stadt",
+    "nivel": "B1",
+    "titulo": "Ein neuer Job in einer fremden Stadt",
+    "descripcion": "Katrin zieht für einen neuen Job in eine fremde Stadt und muss sich dort einleben.",
+    "texto": "Vor drei Monaten hat Katrin eine neue Stelle in Leipzig angenommen, obwohl sie dort niemanden kannte. Sie hatte zuvor jahrelang in ihrer Heimatstadt gearbeitet und war nervös, weil sie sich an so viele neue Dinge gleichzeitig gewöhnen musste. Die Wohnungssuche war schwieriger, als sie erwartet hatte, da die Mieten in den letzten Jahren stark gestiegen waren.\n\nNachdem Katrin endlich eine passende Wohnung gefunden hatte, begann der eigentliche Alltag im neuen Job. Ihre Kollegen waren von Anfang an sehr freundlich, was ihr den Einstieg erleichterte. Trotzdem fühlte sie sich in den ersten Wochen oft einsam, weil sie abends niemanden zum Reden hatte. Sie beschloss deshalb, einem Sportverein beizutreten, um neue Leute kennenzulernen und sich besser in die Stadt zu integrieren.\n\nMittlerweile hat Katrin durch den Verein mehrere gute Freunde gefunden, mit denen sie regelmäßig etwas unternimmt. Sie erkennt jetzt, dass der Umzug zwar am Anfang schwierig war, sich aber langfristig gelohnt hat. Rückblickend ist sie dankbar, dass sie den Mut hatte, diesen Schritt zu wagen, obwohl viele Freunde sie damals davon abraten wollten.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin kannte in Leipzig von Anfang an viele Menschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wohnungssuche war einfacher, als Katrin gedacht hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrins Kollegen waren von Anfang an freundlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin trat einem Sportverein bei, um neue Leute zu treffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin bereut den Umzug nach Leipzig sehr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "streit-zwischen-alten-freunden",
+    "nivel": "B1",
+    "titulo": "Streit zwischen alten Freunden",
+    "descripcion": "Zwei langjährige Freunde geraten wegen eines Missverständnisses in einen Streit.",
+    "texto": "Felix und Daniel sind seit der Grundschule beste Freunde, obwohl sie in den letzten Jahren sehr unterschiedliche Wege eingeschlagen haben. Vor zwei Wochen kam es zwischen ihnen zu einem heftigen Streit, nachdem Daniel ein Treffen kurzfristig abgesagt hatte, ohne Felix einen genauen Grund zu nennen. Felix fühlte sich verletzt, weil er dachte, dass Daniel ihm nicht mehr wichtig sei.\n\nIn Wirklichkeit hatte Daniel das Treffen abgesagt, weil er sich um seine kranke Mutter kümmern musste. Er hatte jedoch nicht daran gedacht, Felix davon zu erzählen, weil er in dieser stressigen Zeit kaum an etwas anderes denken konnte. Als Felix schließlich erfuhr, was wirklich passiert war, tat es ihm sehr leid, dass er so schnell geurteilt hatte, ohne nach dem Grund zu fragen.\n\nNachdem die beiden ausführlich miteinander gesprochen hatten, konnten sie den Streit beilegen. Sie erkannten, dass Missverständnisse oft entstehen, wenn man nicht offen über seine Gefühle und Probleme spricht. Seitdem versuchen Felix und Daniel, sich gegenseitig mehr zu erzählen, auch wenn es manchmal unangenehm ist.",
+    "preguntas": [
+      {
+        "enunciado": "Felix und Daniel sind seit der Grundschule befreundet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel sagte das Treffen ab, weil er keine Lust hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix wusste sofort, warum Daniel das Treffen abgesagt hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Freunde konnten den Streit am Ende beilegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Streit sprechen sie weniger miteinander als vorher.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-als-zukunftsmodell",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche als Zukunftsmodell",
+    "descripcion": "Eine Auseinandersetzung mit den Chancen und Risiken der Vier-Tage-Woche für die Arbeitswelt.",
+    "texto": "In den letzten Jahren wird in vielen Ländern über die Einführung einer Vier-Tage-Woche diskutiert. Befürworter argumentieren, dass eine kürzere Arbeitszeit bei gleichbleibendem Gehalt die Produktivität steigern und die psychische Gesundheit der Beschäftigten verbessern würde. Zahlreiche Pilotprojekte haben gezeigt, dass Mitarbeiter, die nur vier Tage pro Woche arbeiten, oft konzentrierter und motivierter sind, weil ihnen mehr Zeit zur Erholung bleibt.\n\nKritiker hingegen geben zu bedenken, dass sich das Modell nicht auf alle Branchen übertragen lasse. Während in Bürojobs flexible Arbeitszeitmodelle relativ einfach umgesetzt werden könnten, stünden Berufe im Gesundheitswesen oder im Einzelhandel vor größeren Herausforderungen, da dort eine durchgehende Besetzung notwendig sei. Außerdem wird befürchtet, dass Unternehmen, die die Arbeitszeit verkürzen, ohne den Arbeitsdruck entsprechend anzupassen, lediglich die bestehende Arbeitslast auf weniger Tage verteilen würden, was zu zusätzlichem Stress führen könnte.\n\nSollte die Vier-Tage-Woche flächendeckend eingeführt werden, müssten daher begleitende Maßnahmen ergriffen werden, um sicherzustellen, dass die Arbeitsbelastung tatsächlich sinkt und nicht nur anders verteilt wird. Viele Experten sind sich einig, dass es keine pauschale Lösung geben kann, sondern dass jede Branche individuelle Modelle entwickeln müsste, die sowohl den Bedürfnissen der Beschäftigten als auch den wirtschaftlichen Anforderungen gerecht werden.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Vier-Tage-Woche sehen Vorteile für die psychische Gesundheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text lässt sich die Vier-Tage-Woche problemlos auf alle Branchen übertragen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen gibt es wegen der durchgehenden Besetzung besondere Herausforderungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass sich der Arbeitsdruck durch weniger Arbeitstage erhöhen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten sind sich laut dem Text einig, dass es eine einzige pauschale Lösung für alle Branchen gibt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "fake-news-und-die-verantwortung-der-medien",
+    "nivel": "B2",
+    "titulo": "Fake News und die Verantwortung der Medien",
+    "descripcion": "Ein Text über die Verbreitung von Falschinformationen und die Rolle der Medien im digitalen Zeitalter.",
+    "texto": "Die rasante Verbreitung von Falschinformationen in sozialen Netzwerken stellt moderne Gesellschaften vor erhebliche Herausforderungen. Während früher vor allem etablierte Nachrichtenmedien über die Verbreitung von Informationen entschieden, kann heute praktisch jede Person Inhalte erstellen und online verbreiten, ohne dass diese zuvor überprüft werden. Dadurch entsteht ein Umfeld, in dem Fake News sich oft schneller verbreiten als korrigierte Fakten, zumal reißerische und emotionale Inhalte besonders häufig geteilt werden.\n\nMan könnte argumentieren, dass die Verantwortung allein bei den Nutzern liege, die Informationen kritisch hinterfragen sollten, bevor sie diese weiterverbreiten. Allerdings wäre es naiv anzunehmen, dass sich dieses Problem allein durch individuelle Medienkompetenz lösen ließe. Vielmehr müssten auch die Plattformbetreiber stärker in die Pflicht genommen werden, da ihre Algorithmen oft genau jene Inhalte bevorzugen, die hohe Interaktionsraten erzielen, unabhängig davon, ob sie wahr oder falsch sind.\n\nSollten strengere Regulierungen eingeführt werden, müsste gleichzeitig darauf geachtet werden, dass die Meinungsfreiheit nicht eingeschränkt wird. Es ist eine komplexe Gratwanderung zwischen dem Schutz der demokratischen Debatte und der Bekämpfung schädlicher Desinformation. Letztlich wird deutlich, dass sowohl politische Institutionen als auch Medienhäuser und Einzelpersonen gemeinsam Verantwortung tragen müssen, damit vertrauenswürdige Informationen auch in Zukunft eine Chance haben, sich durchzusetzen.",
+    "preguntas": [
+      {
+        "enunciado": "Heute kann praktisch jede Person Inhalte online verbreiten, ohne dass sie überprüft werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text verbreiten sich Fake News meist langsamer als korrigierte Fakten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text argumentiert, dass allein die individuelle Medienkompetenz das Problem lösen könnte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen bevorzugen oft Inhalte mit hohen Interaktionsraten, unabhängig von deren Wahrheitsgehalt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert, dass bei neuen Regulierungen die Meinungsfreiheit beachtet werden sollte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-klimawandel-und-die-frage-der-generationengerechtigkeit",
+    "nivel": "B2",
+    "titulo": "Der Klimawandel und die Frage der Generationengerechtigkeit",
+    "descripcion": "Eine Auseinandersetzung mit der Frage, welche Verantwortung heutige Generationen für künftige Generationen beim Klimaschutz tragen.",
+    "texto": "Die Debatte um den Klimawandel wird zunehmend auch unter dem Aspekt der Generationengerechtigkeit geführt. Dabei steht die Frage im Mittelpunkt, inwieweit die heutige Generation verpflichtet sei, Ressourcen zu schonen und Emissionen zu reduzieren, damit nachfolgende Generationen unter annehmbaren Bedingungen leben können. Kritiker werfen der Politik vor, dass kurzfristige wirtschaftliche Interessen häufig über langfristige ökologische Notwendigkeiten gestellt würden, obwohl die wissenschaftlichen Erkenntnisse zu den Folgen des Klimawandels seit Jahrzehnten bekannt seien.\n\nWürde man die Erwärmung des Klimas konsequent als Verteilungsfrage zwischen den Generationen begreifen, müssten politische Entscheidungen grundlegend anders getroffen werden, als dies gegenwärtig der Fall ist. Es wird argumentiert, dass heutige Entscheidungsträger oft nicht die vollen Konsequenzen ihres Handelns tragen müssen, da diese erst in mehreren Jahrzehnten vollständig sichtbar werden. Dies erschwere es, ausreichend ambitionierte Klimaschutzmaßnahmen durchzusetzen, da die Kosten sofort, der Nutzen jedoch erst in der Zukunft anfalle.\n\nDennoch mehren sich die Stimmen, die eine stärkere Berücksichtigung der Interessen künftiger Generationen in der Gesetzgebung fordern, etwa durch verbindliche Klimaziele, die nicht einfach durch politische Mehrheiten rückgängig gemacht werden könnten. Ob solche Maßnahmen ausreichen würden, um die notwendige Transformation der Wirtschaft rechtzeitig einzuleiten, bleibt allerdings umstritten. Klar ist jedoch, dass die Frage der Generationengerechtigkeit die klimapolitische Debatte in den kommenden Jahren maßgeblich prägen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Im Text geht es um die Frage, wie viel Verantwortung die heutige Generation für künftige Generationen trägt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text sind die wissenschaftlichen Erkenntnisse zum Klimawandel erst seit kurzer Zeit bekannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text argumentiert, dass die Kosten von Klimaschutzmaßnahmen meist sofort anfallen, der Nutzen aber erst später sichtbar wird.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird gefordert, verbindliche Klimaziele einzuführen, die nicht leicht rückgängig gemacht werden können.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text kommt zu dem eindeutigen Schluss, dass die Frage der Generationengerechtigkeit in Zukunft keine Rolle mehr spielen wird.",
+        "respuesta": false
+      }
+    ]
   }
 ]
