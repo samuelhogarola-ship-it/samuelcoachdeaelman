@@ -72158,5 +72158,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-brillenladen",
+    "nivel": "A1",
+    "titulo": "Der Brillenladen",
+    "descripcion": "Lukas kauft eine neue Brille im Brillenladen.",
+    "texto": "Lukas braucht eine neue Brille. Er geht in den Brillenladen in der Stadt. Die Verkäuferin heißt Frau Keller. Sie ist sehr freundlich.\n\n„Welche Farbe möchten Sie?“, fragt Frau Keller. Lukas mag die Farbe Blau. Er probiert drei Brillen an. Die blaue Brille passt sehr gut.\n\nLukas bezahlt die Brille an der Kasse. Die Brille kostet neunzig Euro. Er trägt die neue Brille sofort. Jetzt sieht er wieder gut.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas kauft eine neue Brille.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Verkäuferin heißt Frau Schmidt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas mag die Farbe Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er probiert fünf Brillen an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Brille kostet neunzig Euro.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unser-neues-sofa",
+    "nivel": "A1",
+    "titulo": "Unser neues Sofa",
+    "descripcion": "Familie Berger kauft ein neues Sofa für das Wohnzimmer.",
+    "texto": "Familie Berger braucht ein neues Sofa. Das alte Sofa ist kaputt. Herr und Frau Berger fahren ins Möbelhaus. Die Kinder bleiben zu Hause.\n\nIm Möbelhaus gibt es viele Sofas. Ein Sofa ist grau und sehr groß. Ein anderes Sofa ist grün und klein. Frau Berger mag das graue Sofa.\n\nDie Familie kauft das graue Sofa. Zwei Männer bringen das Sofa nach Hause. Das Sofa steht jetzt im Wohnzimmer. Alle finden das neue Sofa schön.",
+    "preguntas": [
+      {
+        "enunciado": "Das alte Sofa ist kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder fahren mit ins Möbelhaus.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Möbelhaus gibt es nur ein Sofa.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger mag das graue Sofa.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das neue Sofa steht in der Küche.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-bushaltestelle-am-morgen",
+    "nivel": "A1",
+    "titulo": "Die Bushaltestelle am Morgen",
+    "descripcion": "Jeden Morgen wartet Mia mit anderen Leuten auf den Bus.",
+    "texto": "Mia steht jeden Morgen an der Bushaltestelle. Der Bus kommt um acht Uhr. Viele Leute warten auch dort. Ein alter Mann liest eine Zeitung.\n\nHeute ist der Bus spät. Mia wartet zehn Minuten länger. Eine Frau neben ihr telefoniert. Ein Junge hört Musik mit Kopfhörern.\n\nEndlich kommt der Bus. Alle Leute steigen schnell ein. Mia findet einen Platz am Fenster. Sie fährt zur Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Mia wartet an der Bushaltestelle.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bus kommt immer um neun Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Heute ist der Bus spät.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ein Junge liest eine Zeitung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia findet einen Platz am Fenster.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verpasste-zug-nach-hamburg",
+    "nivel": "A2",
+    "titulo": "Der verpasste Zug nach Hamburg",
+    "descripcion": "Tobias verpasst seinen Zug und muss seine Pläne ändern.",
+    "texto": "Tobias wollte am Samstag nach Hamburg fahren. Er hat einen Freund besucht, den er lange nicht gesehen hat. Leider ist er zu spät zum Bahnhof gekommen, weil der Bus im Stau stand. Als er auf dem Bahnsteig ankam, war der Zug schon weg.\n\nTobias war sehr enttäuscht. Er ist zum Schalter gegangen und hat nach dem nächsten Zug gefragt. Die Frau am Schalter hat gesagt, dass der nächste Zug erst in zwei Stunden fährt. Tobias hat sich entschieden, in der Bahnhofscafé zu warten.\n\nDort hat er einen Kaffee getrunken und seinem Freund geschrieben, dass er später kommt. Sein Freund fand das kein Problem, weil er auch noch Zeit zum Aufräumen brauchte. Am Ende ist die Reise trotzdem schön geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Tobias wollte nach München fahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bus stand im Stau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der nächste Zug fährt sofort.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tobias hat in der Bahnhofscafé gewartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sein Freund war wütend.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-nachbarshund",
+    "nivel": "A2",
+    "titulo": "Der neue Nachbarshund",
+    "descripcion": "Die neuen Nachbarn haben einen Hund, der nachts bellt.",
+    "texto": "Letzte Woche sind neue Nachbarn in das Haus nebenan eingezogen. Sie haben einen großen Hund, der Rex heißt. Am Anfang hat sich Frau Lindner gefreut, weil sie Tiere mag. Aber schon in der ersten Nacht hat Rex laut gebellt.\n\nFrau Lindner konnte nicht schlafen, weil der Hund die ganze Nacht gebellt hat. Am nächsten Morgen ist sie zu den Nachbarn gegangen und hat höflich mit ihnen gesprochen. Die Nachbarn haben sich entschuldigt und erklärt, dass Rex noch Angst vor der neuen Umgebung hat.\n\nSeitdem bringen die Nachbarn den Hund jeden Abend früher ins Haus. Rex bellt jetzt viel weniger, weil er sich besser fühlt. Frau Lindner und die neuen Nachbarn sind inzwischen gute Freunde geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Die neuen Nachbarn haben eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hund heißt Rex.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Lindner konnte in der ersten Nacht gut schlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarn haben sich entschuldigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Rex und Frau Lindner sind jetzt Feinde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-zum-see-im-herbst",
+    "nivel": "A2",
+    "titulo": "Der Ausflug zum See im Herbst",
+    "descripcion": "Eine Familie macht trotz kühlem Wetter einen Herbstausflug zum See.",
+    "texto": "Am Sonntag hat Familie Weber einen Ausflug zum See gemacht. Das Wetter war kühl, aber die Sonne hat geschienen. Die Kinder wollten unbedingt raus, weil sie das bunte Laub sehen wollten.\n\nAm See haben sie ein Picknick gemacht und heißen Tee getrunken. Der kleine Sohn hat Steine ins Wasser geworfen, weil er das lustig fand. Die Mutter hat Fotos von den bunten Bäumen gemacht.\n\nAm Nachmittag ist es windig geworden, deshalb sind sie früher nach Hause gefahren. Trotzdem war es ein schöner Tag, und alle haben sich auf den nächsten Ausflug gefreut.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist im Sommer zum See gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war kühl.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder wollten zu Hause bleiben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter hat Fotos gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind bis zum Abend am See geblieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-praktikum-in-der-anwaltskanzlei",
+    "nivel": "B1",
+    "titulo": "Das Praktikum in der Anwaltskanzlei",
+    "descripcion": "Julia macht ein Praktikum in einer Anwaltskanzlei und lernt den Berufsalltag kennen.",
+    "texto": "Julia hat sich schon lange für das Jurastudium interessiert, deshalb hat sie sich um ein Praktikum in einer Anwaltskanzlei beworben. Nachdem sie die Zusage erhalten hatte, war sie sehr aufgeregt, obwohl sie auch ein bisschen Angst vor dem ersten Tag hatte.\n\nAm ersten Tag hat ihr der Chef, Herr Brandt, die Kanzlei gezeigt und ihr erklärt, welche Aufgaben sie übernehmen würde. Zuerst durfte Julia nur einfache Dokumente sortieren, aber nach ein paar Tagen hat sie auch bei kleinen Recherchen geholfen. Obwohl die Arbeit manchmal anstrengend war, hat sie viel über den juristischen Alltag gelernt.\n\nBesonders beeindruckt hat Julia, wie genau man bei juristischen Texten arbeiten muss, da schon ein einziges falsches Wort große Folgen haben kann. Nachdem das Praktikum zu Ende war, war sich Julia sicher, dass sie wirklich Jura studieren möchte.",
+    "preguntas": [
+      {
+        "enunciado": "Julia hat sich für ein Praktikum in einem Krankenhaus beworben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Brandt hat Julia die Kanzlei gezeigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia durfte am ersten Tag sofort große Fälle bearbeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat auch bei Recherchen geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Praktikum will Julia kein Jura mehr studieren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-mit-der-mitbewohnerin",
+    "nivel": "B1",
+    "titulo": "Der Streit mit der Mitbewohnerin",
+    "descripcion": "Zwei Mitbewohnerinnen streiten sich wegen der Hausarbeit und finden eine Lösung.",
+    "texto": "Lena und Sophie wohnen seit einem Jahr zusammen in einer kleinen Wohnung. Meistens verstehen sie sich gut, obwohl sie sehr unterschiedliche Charaktere haben. In letzter Zeit gab es jedoch immer wieder Streit, weil Sophie selten den Müll rausgebracht hat.\n\nEines Abends, nachdem Lena wieder die ganze Küche allein aufgeräumt hatte, wurde sie richtig wütend. Sie hat Sophie direkt angesprochen und gesagt, dass sie sich mehr Hilfe im Haushalt wünscht. Sophie war zuerst überrascht, weil sie das Problem nicht so ernst genommen hatte.\n\nNachdem die beiden lange miteinander gesprochen hatten, haben sie einen Putzplan erstellt. Seitdem teilen sie sich die Aufgaben gerecht auf, und der Streit ist vergessen. Trotzdem erinnern sie sich manchmal lachend an diesen Abend.",
+    "preguntas": [
+      {
+        "enunciado": "Lena und Sophie wohnen seit einem Jahr zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat immer den Müll rausgebracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena hat ihre Wut für sich behalten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden haben einen Putzplan erstellt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seit dem Gespräch gibt es keine faire Aufteilung mehr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-schueleraustauschjahr-in-kanada",
+    "nivel": "B1",
+    "titulo": "Das Schüleraustauschjahr in Kanada",
+    "descripcion": "Finn verbringt ein Austauschjahr in Kanada und erlebt eine neue Kultur.",
+    "texto": "Finn hat sich schon in der neunten Klasse für ein Austauschjahr in Kanada entschieden. Nachdem seine Eltern zugestimmt hatten, hat er monatelang Englisch gelernt und sich auf das Leben in einer Gastfamilie vorbereitet. Trotzdem war er am Flughafen sehr nervös, weil er niemanden in Kanada kannte.\n\nDie Gastfamilie, bei der Finn wohnte, hat ihn herzlich aufgenommen. Am Anfang fiel es ihm schwer, dem schnellen Englisch zu folgen, obwohl er in der Schule schon viele Jahre gelernt hatte. Nachdem er einige Wochen in der kanadischen Schule verbracht hatte, fühlte er sich jedoch schon viel sicherer.\n\nBesonders die kanadische Natur hat Finn beeindruckt, da er noch nie so große Wälder gesehen hatte. Am Ende des Jahres fiel ihm der Abschied von der Gastfamilie sehr schwer, obwohl er sich auch darauf freute, seine Familie in Deutschland wiederzusehen.",
+    "preguntas": [
+      {
+        "enunciado": "Finn hat sich für ein Austauschjahr in Australien entschieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Gastfamilie hat Finn herzlich aufgenommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn konnte von Anfang an jedes Wort auf Englisch verstehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die kanadische Natur hat Finn beeindruckt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Abschied fiel Finn überhaupt nicht schwer.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-regulierung-sozialer-medien",
+    "nivel": "B2",
+    "titulo": "Die Regulierung sozialer Medien",
+    "descripcion": "Ein Beitrag über die Debatte, wie soziale Medien stärker reguliert werden sollten.",
+    "texto": "In den letzten Jahren ist die Forderung nach einer stärkeren Regulierung sozialer Medien immer lauter geworden. Kritiker bemängeln, dass auf vielen Plattformen Falschinformationen und Hassrede kaum eingeschränkt werden, obwohl die Betreiber über ausreichende technische Mittel verfügen würden. Befürworter strengerer Gesetze argumentieren, dass ohne klare Regeln die gesellschaftliche Debatte zunehmend vergiftet werde.\n\nAuf der anderen Seite warnen Kritiker einer Regulierung davor, dass zu strenge Vorschriften die Meinungsfreiheit gefährden könnten. Sie befürchten, dass Plattformen im Zweifel lieber zu viele Inhalte löschen würden, als mit rechtlichen Konsequenzen zu rechnen. Diese sogenannte Überblockierung würde letztlich auch legitime, wenn auch unbequeme Meinungen treffen.\n\nEin möglicher Mittelweg, der zunehmend diskutiert wird, bestünde darin, nicht die Inhalte selbst, sondern die Algorithmen zu regulieren, die bestimmen, was Nutzern angezeigt wird. Befürworter dieses Ansatzes meinen, dass dadurch die Verbreitung schädlicher Inhalte eingeschränkt werden könnte, ohne dass einzelne Meinungen direkt zensiert würden. Ob ein solches Modell tatsächlich funktionieren würde, ist jedoch bislang nicht erwiesen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Kritiker fordern strengere Gesetze für soziale Medien.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker fürchten eine Gefährdung der Meinungsfreiheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Überblockierung bedeutet, dass zu wenig Inhalte gelöscht werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein diskutierter Mittelweg wäre die Regulierung von Algorithmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es ist bereits sicher bewiesen, dass die Algorithmus-Regulierung funktioniert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-bildungsnotstand-an-schulen",
+    "nivel": "B2",
+    "titulo": "Der Bildungsnotstand an Schulen",
+    "descripcion": "Eine Analyse der Debatte um Lehrermangel und sinkende Bildungsqualität in Deutschland.",
+    "texto": "Seit Jahren wird in Deutschland über einen zunehmenden Bildungsnotstand diskutiert. Viele Schulen klagen über einen akuten Lehrermangel, der dazu führt, dass Unterricht ausfällt oder von fachfremden Lehrkräften übernommen werden muss. Zusätzlich wird beklagt, dass veraltete Gebäude und fehlende digitale Ausstattung den Unterricht erschweren.\n\nBildungsforscher weisen darauf hin, dass diese Probleme nicht gleichmäßig verteilt seien, sondern Schulen in sozial schwächeren Stadtteilen besonders stark betreffen würden. Kinder aus einkommensschwachen Familien hätten es dadurch ungleich schwerer, ihr Potenzial auszuschöpfen, obwohl die Bildungspolitik eigentlich Chancengleichheit anstrebe.\n\nAls Lösung werden unterschiedliche Maßnahmen vorgeschlagen, etwa höhere Gehälter für Lehrkräfte an Brennpunktschulen oder eine Vereinfachung der Lehramtsausbildung, um schneller neue Lehrer zu gewinnen. Kritiker warnen jedoch davor, dass eine verkürzte Ausbildung die Qualität des Unterrichts weiter verschlechtern könnte, anstatt das zugrunde liegende Problem zu lösen.",
+    "preguntas": [
+      {
+        "enunciado": "In Deutschland gibt es laut Text keinen Lehrermangel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Schulen in sozial schwächeren Stadtteilen sind laut Forschern besonders betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schulen in Deutschland sind gleich stark vom Problem betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Höhere Gehälter für Lehrkräfte an Brennpunktschulen werden als Maßnahme vorgeschlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass eine verkürzte Ausbildung die Qualität verbessern würde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungsnot-in-studentenstaedten",
+    "nivel": "B2",
+    "titulo": "Die Wohnungsnot in Studentenstädten",
+    "descripcion": "Ein Text über die angespannte Wohnungslage für Studierende in deutschen Universitätsstädten.",
+    "texto": "In vielen deutschen Universitätsstädten hat sich die Wohnungssuche für Studierende in den letzten Jahren drastisch verschärft. Während die Zahl der Studienplätze stetig gewachsen ist, wurden gleichzeitig zu wenige neue Wohnheime gebaut, sodass heute auf einen freien Wohnheimplatz oft mehrere Dutzend Bewerber kommen.\n\nViele Studierende sehen sich deshalb gezwungen, auf dem freien Wohnungsmarkt nach Zimmern zu suchen, wo die Mieten in begehrten Städten inzwischen kaum noch bezahlbar seien. Manche Studierende würden, wie Umfragen zeigen, sogar ihr Studium abbrechen, wenn sie keine bezahlbare Wohnung finden könnten. Andere pendeln stundenlang aus dem Umland, nur um die hohen Mieten der Innenstädte zu vermeiden.\n\nStadtverwaltungen und Studierendenwerke diskutieren inzwischen über mehrere Lösungsansätze, etwa den beschleunigten Bau neuer Wohnheime oder die Einführung von Mietobergrenzen für Studierende. Ob solche Maßnahmen ausreichen würden, um die Wohnungsnot tatsächlich zu lindern, bleibt jedoch umstritten, da der Wohnungsmangel auch die Gesamtbevölkerung betrifft und nicht nur Studierende.",
+    "preguntas": [
+      {
+        "enunciado": "Es gibt inzwischen genug Wohnheimplätze für alle Studierenden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mieten in begehrten Universitätsstädten sind für viele Studierende kaum bezahlbar.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Umfragen denkt niemand wegen der Wohnungsnot an einen Studienabbruch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es wird über eine Mietobergrenze für Studierende diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Wohnungsmangel betrifft laut Text ausschließlich Studierende.",
+        "respuesta": false
+      }
+    ]
   }
 ]
