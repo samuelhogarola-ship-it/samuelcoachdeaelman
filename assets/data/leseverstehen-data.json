@@ -74942,5 +74942,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "herr-weber-kauft-brot",
+    "nivel": "A1",
+    "titulo": "Herr Weber kauft Brot",
+    "descripcion": "Herr Weber geht jeden Morgen zur Bäckerei.",
+    "texto": "Herr Weber steht früh auf. Er trinkt einen Kaffee und geht dann zur Bäckerei. Die Bäckerei ist nicht weit von seinem Haus.\n\nIn der Bäckerei sagt er: „Guten Morgen! Ich möchte ein Brot und zwei Brötchen, bitte.“ Die Verkäuferin lächelt und gibt ihm das Brot. Herr Weber bezahlt drei Euro.\n\nZu Hause isst Herr Weber ein Brötchen mit Butter und Marmelade. Das Brot legt er für den Abend in die Küche. Er ist zufrieden mit seinem Frühstück.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber steht früh auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er kauft das Brot im Supermarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er kauft ein Brot und zwei Brötchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er bezahlt zehn Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er isst ein Brötchen mit Butter und Marmelade.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-katze-von-frau-schmidt",
+    "nivel": "A1",
+    "titulo": "Die Katze von Frau Schmidt",
+    "descripcion": "Frau Schmidt hat eine kleine, schwarze Katze.",
+    "texto": "Frau Schmidt hat eine Katze. Die Katze heißt Mimi. Mimi ist schwarz und sehr klein. Sie schläft gern auf dem Sofa.\n\nJeden Tag gibt Frau Schmidt der Katze Futter. Mimi isst gern Fisch. Am Nachmittag spielt Frau Schmidt mit Mimi im Garten.\n\nMimi mag auch Musik. Wenn Frau Schmidt Klavier spielt, sitzt Mimi neben ihr und hört zu. Frau Schmidt liebt ihre Katze sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Die Katze heißt Mimi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist weiß und groß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi isst gern Fisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Schmidt spielt am Morgen mit Mimi.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi hört gern Klaviermusik.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-bus-nummer-sieben",
+    "nivel": "A1",
+    "titulo": "Im Bus Nummer sieben",
+    "descripcion": "Lukas fährt jeden Tag mit dem Bus zur Schule.",
+    "texto": "Lukas fährt mit dem Bus Nummer sieben zur Schule. Der Bus kommt um acht Uhr. Lukas wartet an der Haltestelle vor seinem Haus.\n\nIm Bus sitzt Lukas neben seinem Freund Paul. Sie sprechen über Fußball und Hausaufgaben. Die Fahrt dauert fünfzehn Minuten.\n\nAn der Schule steigen viele Kinder aus dem Bus. Lukas sagt: „Tschüss, bis morgen!“ und geht in die Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas fährt mit dem Fahrrad zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bus kommt um acht Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas sitzt neben seinem Freund Paul.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Fahrt dauert eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Kinder steigen an der Schule aus dem Bus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-von-meiner-kusine",
+    "nivel": "A2",
+    "titulo": "Ein Brief von meiner Kusine",
+    "descripcion": "Clara hat einen Brief von ihrer Kusine aus Österreich bekommen.",
+    "texto": "Clara hat gestern einen Brief von ihrer Kusine Lena bekommen. Lena wohnt in Österreich und hat lange nicht geschrieben, weil sie viel Arbeit hatte.\n\nIn dem Brief hat Lena erzählt, dass sie im Sommer nach Berlin gekommen ist. Sie hat drei Tage bei Freunden gewohnt und die Stadt besucht. Besonders gut hat ihr das Museum gefallen, weil es sehr interessant war.\n\nClara war sehr froh über den Brief. Sie hat sofort geantwortet und geschrieben, dass sie Lena im Winter besuchen möchte, wenn sie Urlaub hat.",
+    "preguntas": [
+      {
+        "enunciado": "Lena wohnt in der Schweiz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena ist im Sommer nach Berlin gekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena hat eine Woche bei Freunden gewohnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Museum hat Lena gut gefallen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara möchte Lena im Winter besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-nachbar-herr-kaiser",
+    "nivel": "A2",
+    "titulo": "Mein Nachbar, Herr Kaiser",
+    "descripcion": "Ein freundlicher, aber manchmal lauter Nachbar sorgt für Gesprächsstoff.",
+    "texto": "Mein Nachbar, Herr Kaiser, ist meistens sehr freundlich. Er grüßt mich immer, wenn wir uns im Treppenhaus treffen, und manchmal bringt er mir Post, wenn ich nicht zu Hause bin.\n\nLetzte Woche hat Herr Kaiser aber bis spät in die Nacht laut Musik gehört. Ich konnte nicht schlafen, weil die Musik durch die Wand zu hören war. Am nächsten Tag habe ich bei ihm geklingelt, um mit ihm zu sprechen.\n\nHerr Kaiser hat sich sofort entschuldigt. Er hat gesagt, dass er seinen Geburtstag gefeiert hat und die Zeit vergessen hat. Seitdem ist es wieder ruhig, und wir verstehen uns gut.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Kaiser grüßt im Treppenhaus nie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Kaiser hat spät in der Nacht laute Musik gehört.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Erzählerin konnte deshalb gut schlafen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Kaiser hat seinen Geburtstag gefeiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Seit dem Gespräch streiten sie sich oft.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-zum-zoo",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug zum Zoo",
+    "descripcion": "Eine Familie verbringt einen sonnigen Tag im Zoo.",
+    "texto": "Am Samstag ist die Familie Hoffmann zum Zoo gefahren. Die Kinder waren sehr aufgeregt, weil sie die Elefanten und die Löwen sehen wollten.\n\nIm Zoo haben sie zuerst die Affen beobachtet, die lustig von Baum zu Baum gesprungen sind. Danach sind sie zu den Elefanten gegangen, die gerade gebadet haben. Die Kinder haben laut gelacht, als ein Elefant Wasser verspritzt hat.\n\nAm Nachmittag haben sie im Zoorestaurant Pommes gegessen, bevor sie wieder nach Hause gefahren sind. Es war ein schöner Tag, obwohl es am Ende ein bisschen geregnet hat.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist am Sonntag in den Zoo gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder wollten Elefanten und Löwen sehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Affen sind von Baum zu Baum gesprungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat im Restaurant Pizza gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende des Tages hat es geregnet.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-eine-fremde-stadt",
+    "nivel": "B1",
+    "titulo": "Der Umzug in eine fremde Stadt",
+    "descripcion": "Jonas zieht aus beruflichen Gründen in eine Stadt, in der er niemanden kennt.",
+    "texto": "Als Jonas die Stelle in Leipzig angeboten wurde, musste er sich schnell entscheiden. Obwohl er dort niemanden kannte, nahm er die Herausforderung an und zog innerhalb von drei Wochen um.\n\nDie ersten Tage waren nicht einfach. Er kannte die Stadt nicht gut und fühlte sich oft einsam, nachdem er von der Arbeit nach Hause gekommen war. Trotzdem versuchte er, nicht aufzugeben, und meldete sich in einem Sportverein an, um neue Leute kennenzulernen.\n\nNach einigen Monaten hatte sich die Situation deutlich verbessert. Jonas hatte durch den Verein mehrere Freunde gefunden, mit denen er regelmäßig etwas unternahm. Rückblickend war er froh, dass er den Mut gefunden hatte, obwohl der Anfang schwer gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas kannte in Leipzig schon viele Leute.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er zog innerhalb von drei Wochen um.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die ersten Tage fand er sehr einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Er meldete sich in einem Sportverein an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach einigen Monaten fühlte er sich immer noch sehr einsam.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-jubilaeum-unseres-vereins",
+    "nivel": "B1",
+    "titulo": "Das Jubiläum unseres Vereins",
+    "descripcion": "Ein Sportverein feiert sein fünfzigjähriges Bestehen mit einem großen Fest.",
+    "texto": "Unser Fußballverein feierte in diesem Jahr sein fünfzigjähriges Bestehen. Die Vorbereitungen hatten schon Monate vorher begonnen, nachdem der Vorstand beschlossen hatte, ein großes Fest zu organisieren.\n\nAm Tag der Feier kamen viele ehemalige Mitglieder, obwohl einige von ihnen seit Jahren nicht mehr in der Stadt gewohnt hatten. Es gab Reden, alte Fotos wurden gezeigt, und am Abend spielte eine Band, zu der alle tanzten.\n\nBesonders bewegend war der Moment, als der älteste Spieler des Vereins eine kurze Rede hielt. Er erzählte, wie sich der Verein über die Jahre verändert hatte, und bedankte sich bei allen, die trotz schwieriger Zeiten dabeigeblieben waren.",
+    "preguntas": [
+      {
+        "enunciado": "Der Verein feierte sein fünfzigjähriges Bestehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Vorbereitungen begannen erst eine Woche vorher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele ehemalige Mitglieder kamen zum Fest.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend wurde es sehr ruhig, niemand tanzte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der älteste Spieler hielt eine Rede.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-konflikt-mit-dem-mitbewohner",
+    "nivel": "B1",
+    "titulo": "Der Konflikt mit dem Mitbewohner",
+    "descripcion": "Zwei Mitbewohner müssen einen Streit über die Hausarbeit lösen.",
+    "texto": "Seit Sophie mit Ben eine Wohnung teilt, läuft meistens alles gut. Nachdem jedoch das Geschirr mehrmals tagelang in der Küche stehen geblieben war, wurde Sophie langsam ungeduldig.\n\nEines Abends sprach sie Ben direkt an. Sie erklärte, dass sie sich über die Unordnung ärgerte, obwohl sie wusste, dass Ben viel Stress mit der Arbeit hatte. Ben war zunächst überrascht, gab aber zu, dass er das Problem unterschätzt hatte.\n\nGemeinsam erstellten sie einen Putzplan, nachdem sie lange über eine faire Lösung diskutiert hatten. Seitdem funktioniert das Zusammenleben deutlich besser, und beide sind zufriedener als vorher.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie und Ben teilen sich eine Wohnung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie war von Anfang an wütend auf Ben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben hatte viel Stress mit der Arbeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie erstellten keinen Putzplan.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Zusammenleben funktioniert jetzt besser.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-generative-ki-in-schulen",
+    "nivel": "B2",
+    "titulo": "Die Debatte um generative KI in Schulen",
+    "descripcion": "Der Einsatz von KI-Textwerkzeugen im Unterricht wird kontrovers diskutiert.",
+    "texto": "Seit generative KI-Systeme in der Lage sind, Aufsätze, Zusammenfassungen und sogar Hausaufgaben in wenigen Sekunden zu erstellen, wird in Lehrerzimmern und Bildungsministerien intensiv über ihren Einsatz diskutiert. Während manche Pädagogen in diesen Werkzeugen eine Chance sehen, individualisiertes Lernen zu fördern, warnen andere davor, dass grundlegende Fähigkeiten wie das selbstständige Formulieren von Gedanken verloren gehen könnten.\n\nBefürworter argumentieren, dass es naiv wäre, Schülerinnen und Schüler von einer Technologie abzuschotten, die ohnehin längst Teil ihres Alltags ist. Stattdessen solle man ihnen beibringen, KI-Werkzeuge kritisch und verantwortungsvoll zu nutzen, etwa zur Recherche oder zur Überarbeitung eigener Texte. Würde man generative KI schlicht verbieten, so ihr Einwand, entstünde lediglich eine Grauzone, in der die Technologie heimlich und unreflektiert verwendet würde.\n\nKritiker hingegen betonen, dass das Schreiben selbst ein Denkprozess sei, der durch vorschnelle KI-Hilfe untergraben werde. Besonders in jüngeren Klassen, in denen grundlegende sprachliche Kompetenzen erst erworben werden müssten, sei eine strengere Regulierung notwendig. Einigkeit besteht zumindest darin, dass die bisherigen Prüfungsformate überdacht werden müssten, damit sie der veränderten Realität gerecht werden.",
+    "preguntas": [
+      {
+        "enunciado": "Generative KI kann Aufsätze in wenigen Sekunden erstellen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Pädagogen sind sich über den Einsatz von KI einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter wollen Schüler vollständig von KI abschotten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen im Schreiben selbst einen wichtigen Denkprozess.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es besteht Einigkeit, dass Prüfungsformate überdacht werden müssen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wohnungsnot-in-den-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Wohnungsnot in den Großstädten",
+    "descripcion": "Steigende Mieten und knapper Wohnraum stellen deutsche Großstädte vor große Herausforderungen.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Wohnsituation in den letzten Jahren drastisch verschärft. Während die Mietpreise kontinuierlich gestiegen sind, wurde der Neubau von bezahlbarem Wohnraum vielerorts vernachlässigt, sodass sich vor allem einkommensschwache Haushalte zunehmend verdrängt fühlen.\n\nExperten führen diese Entwicklung auf mehrere Ursachen zurück. Zum einen sei der Zuzug in urbane Zentren über Jahre unterschätzt worden, zum anderen hätten bürokratische Hürden den Bau neuer Wohnungen erheblich verzögert. Hinzu komme, dass viele Investoren lieber in hochpreisige Wohnungen investierten, weil damit höhere Renditen erzielt werden könnten, während der soziale Wohnungsbau vernachlässigt werde.\n\nAls Lösung werden unterschiedliche Maßnahmen diskutiert, von einer strengeren Mietpreisbremse bis hin zu staatlich geförderten Bauprojekten. Manche Ökonomen warnen jedoch davor, dass zu starke Eingriffe in den Markt private Investitionen abschrecken und die Lage langfristig sogar verschlimmern könnten. Einig ist man sich allerdings, dass ohne entschiedenes politisches Handeln die Wohnungsnot weiter zunehmen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bürokratische Hürden haben den Neubau verzögert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Investoren bevorzugen laut Text oft hochpreisige Wohnungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Ökonomen befürworten strenge Markteingriffe ohne Einschränkung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Man ist sich einig, dass politisches Handeln notwendig ist.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-sozialer-medien-in-der-politik",
+    "nivel": "B2",
+    "titulo": "Die Rolle sozialer Medien in der Politik",
+    "descripcion": "Soziale Netzwerke verändern zunehmend die politische Kommunikation und Meinungsbildung.",
+    "texto": "Soziale Medien haben die politische Kommunikation in den vergangenen Jahren grundlegend verändert. Politikerinnen und Politiker können heute ohne den Umweg über klassische Medien direkt mit Wählerinnen und Wählern in Kontakt treten, was einerseits als demokratisierend gilt, andererseits aber auch neue Risiken mit sich bringt.\n\nBefürworter betonen, dass soziale Netzwerke jungen Menschen einen niedrigschwelligen Zugang zu politischen Themen ermöglichten, der ihnen über traditionelle Nachrichtenformate oft verwehrt bliebe. Zudem könnten Bürgerinnen und Bürger direkt mit Entscheidungsträgern diskutieren, was früher kaum denkbar gewesen wäre. Diese Unmittelbarkeit habe, so die Hoffnung, das Potenzial, politisches Desinteresse abzubauen.\n\nGleichzeitig warnen Kritiker davor, dass Algorithmen, die auf Aufmerksamkeit statt auf Ausgewogenheit optimiert seien, zur Verbreitung von Fehlinformationen und zur Polarisierung beitrügen. Würde die Regulierung dieser Plattformen weiterhin vernachlässigt, so ihre Befürchtung, könnten demokratische Diskurse zunehmend von emotionalisierten Inhalten statt von sachlichen Argumenten bestimmt werden. Einigkeit besteht zumindest darin, dass Medienkompetenz künftig eine noch zentralere Rolle in der politischen Bildung einnehmen muss.",
+    "preguntas": [
+      {
+        "enunciado": "Politiker können heute direkt mit Wählern kommunizieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten lehnen soziale Medien in der Politik vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen einen niedrigschwelligen Zugang für junge Menschen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen keinen Zusammenhang zwischen Algorithmen und Polarisierung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienkompetenz soll laut Text künftig wichtiger werden.",
+        "respuesta": true
+      }
+    ]
   }
 ]
