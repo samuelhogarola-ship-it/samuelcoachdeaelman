@@ -75638,5 +75638,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-kleine-balkon",
+    "nivel": "A1",
+    "titulo": "Der kleine Balkon",
+    "descripcion": "Lina hat einen kleinen Balkon und pflanzt dort Blumen und Gemüse.",
+    "texto": "Lina wohnt in einer kleinen Wohnung in Köln. Sie hat einen kleinen Balkon. Der Balkon ist nicht groß, aber Lina liebt ihn sehr. Jeden Morgen trinkt sie dort ihren Kaffee. Sie hat viele Blumen auf dem Balkon. Die Blumen sind rot, gelb und blau. Lina gießt die Blumen jeden Tag.\n\nAuf dem Balkon pflanzt Lina auch Tomaten und Kräuter. Sie hat Basilikum, Petersilie und Minze. Im Sommer isst sie die Tomaten aus ihrem eigenen Garten. Das schmeckt sehr gut. Ihr Nachbar Paul hat auch einen Balkon. Er pflanzt Erdbeeren und Salat. Manchmal tauschen Lina und Paul ihr Gemüse.\n\nAm Wochenende sitzt Lina gerne auf dem Balkon und liest ein Buch. Die Sonne scheint, und die Blumen duften schön. Lina ist glücklich mit ihrem kleinen Garten. Sie sagt: „Mein Balkon ist mein Lieblingsplatz zu Hause.\"",
+    "preguntas": [
+      {
+        "enunciado": "Lina wohnt in einem großen Haus mit Garten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lina hat Blumen und Gemüse auf dem Balkon.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lina gießt ihre Blumen nur einmal pro Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul, der Nachbar, pflanzt Erdbeeren und Salat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lina liest am Wochenende gerne auf dem Balkon.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-beim-friseur",
+    "nivel": "A1",
+    "titulo": "Ein Tag beim Friseur",
+    "descripcion": "Tom geht zum Friseur und bekommt eine neue Frisur.",
+    "texto": "Tom braucht einen neuen Haarschnitt. Seine Haare sind zu lang. Er geht zum Friseur in der Hauptstraße. Der Friseur heißt Frau Weber. Sie arbeitet dort seit zehn Jahren. Tom setzt sich auf den Stuhl und wartet.\n\nFrau Weber fragt: „Wie möchten Sie Ihre Haare?\" Tom antwortet: „Kurz, bitte. Nicht zu kurz an den Seiten.\" Frau Weber nimmt die Schere und schneidet langsam. Tom schaut in den Spiegel und lächelt. Die neue Frisur gefällt ihm sehr gut. Nach dreißig Minuten ist Tom fertig.\n\nTom bezahlt zwanzig Euro und bedankt sich bei Frau Weber. Draußen scheint die Sonne. Tom fühlt sich frisch und glücklich. Er ruft seine Freundin an und sagt: „Schau mal, ich habe eine neue Frisur!\"",
+    "preguntas": [
+      {
+        "enunciado": "Tom geht zum Friseur, weil seine Haare zu lang sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Friseur heißt Herr Weber.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom möchte eine sehr lange Frisur.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Haarschnitt dauert dreißig Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom ist mit der neuen Frisur unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "unsere-neue-katze",
+    "nivel": "A1",
+    "titulo": "Unsere neue Katze",
+    "descripcion": "Die Familie Schmidt bekommt eine neue Katze und gibt ihr einen Namen.",
+    "texto": "Die Familie Schmidt hat eine neue Katze. Die Katze ist klein und grau. Die Kinder, Jonas und Mia, sind sehr aufgeregt. Sie möchten der Katze einen Namen geben. Jonas sagt: „Wir nennen sie Minka!\" Mia findet den Namen schön.\n\nMinka schläft viel und spielt gerne mit einem Ball. Sie isst Fisch und Trockenfutter. Jeden Abend trinkt sie Milch aus einer kleinen Schüssel. Mia gibt Minka jeden Tag frisches Wasser. Jonas spielt mit ihr nach der Schule.\n\nMinka schläft jetzt auf dem Sofa im Wohnzimmer. Die ganze Familie liebt die neue Katze sehr. Am Sonntag kauft die Familie ein neues Spielzeug für Minka. Die Katze ist sehr glücklich in ihrem neuen Zuhause.",
+    "preguntas": [
+      {
+        "enunciado": "Die Katze der Familie Schmidt ist groß und schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Katze heißt Minka.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka trinkt jeden Abend Milch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas spielt nie mit der Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie kauft am Sonntag ein neues Spielzeug für Minka.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-koffer-am-flughafen-hamburg",
+    "nivel": "A2",
+    "titulo": "Der verlorene Koffer",
+    "descripcion": "Sabine verliert ihren Koffer am Flughafen und muss ihn suchen.",
+    "texto": "Sabine ist von München nach Hamburg geflogen. Als sie am Flughafen ankam, hat sie lange auf ihren Koffer gewartet. Nach einer halben Stunde war klar: Ihr Koffer war nicht da. Sabine wurde langsam nervös, weil alle ihre Kleider und ihr Laptop im Koffer waren.\n\nSie ist zum Informationsschalter gegangen und hat eine Mitarbeiterin gefragt. Die Mitarbeiterin hat gesagt, dass der Koffer wahrscheinlich noch in München ist, weil er falsch verladen wurde. Sabine musste ein Formular ausfüllen und ihre Adresse angeben. Sie war ein bisschen ärgerlich, aber die Mitarbeiterin war sehr freundlich und hat ihr versprochen, dass der Koffer am nächsten Tag ankommen würde.\n\nAm nächsten Morgen hat ein Kurier an Sabines Tür geklingelt. Der Koffer war endlich da! Sabine hat sich sehr gefreut, dass alles noch da war. Sie hat der Fluggesellschaft eine E-Mail geschrieben und sich für die gute Hilfe bedankt.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine ist von Hamburg nach München geflogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabines Koffer ist nicht am Flughafen angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mitarbeiterin am Schalter war unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine musste ein Formular ausfüllen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Koffer ist nie bei Sabine angekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "markus-und-der-zahnschmerz",
+    "nivel": "A2",
+    "titulo": "Besuch beim Zahnarzt",
+    "descripcion": "Markus hat Zahnschmerzen und geht deshalb zum Zahnarzt.",
+    "texto": "Markus hatte seit zwei Tagen Zahnschmerzen. Weil die Schmerzen immer schlimmer wurden, hat er einen Termin bei seinem Zahnarzt gemacht. Der Zahnarzt, Dr. Becker, hat seine Praxis in der Nähe von Markus' Wohnung. Markus war ein bisschen nervös, weil er den Zahnarzt nicht so gern mag.\n\nIn der Praxis hat die Assistentin Markus zuerst nach seinem Namen gefragt und dann hat er im Wartezimmer gesessen. Nach zehn Minuten wurde er aufgerufen. Dr. Becker hat den Zahn untersucht und gesagt, dass Markus ein Loch im Zahn hat. Der Zahnarzt hat den Zahn behandelt, und das hat fast eine Stunde gedauert. Markus hatte ein bisschen Angst, aber alles ist gut gegangen.\n\nNachdem die Behandlung fertig war, hat Dr. Becker gesagt, dass Markus in sechs Monaten wiederkommen soll. Markus war froh, dass die Schmerzen weg waren. Auf dem Weg nach Hause hat er sich ein Eis gekauft, weil er so stolz auf sich war.",
+    "preguntas": [
+      {
+        "enunciado": "Markus hatte seit zwei Tagen Zahnschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus mag den Zahnarzt sehr gern.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Dr. Becker hat kein Problem am Zahn gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Behandlung hat fast eine Stunde gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus soll in sechs Monaten wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "julias-brief-aus-leipzig",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Oma",
+    "descripcion": "Julia schreibt ihrer Oma einen Brief über ihr neues Leben in der Stadt.",
+    "texto": "Liebe Oma, ich hoffe, es geht dir gut! Ich wollte dir schreiben, weil ich dir von meinem neuen Leben in Leipzig erzählen möchte. Ich bin vor drei Monaten umgezogen, und am Anfang war es nicht leicht, weil ich niemanden kannte. Jetzt habe ich aber schon ein paar Freunde gefunden.\n\nLetzte Woche habe ich eine neue Arbeit in einem kleinen Café angefangen. Die Arbeit macht mir Spaß, obwohl ich manchmal sehr müde bin. Meine Kollegin heißt Nina, und wir verstehen uns sehr gut. Am Wochenende sind wir zusammen ins Kino gegangen und haben einen lustigen Film gesehen.\n\nIch vermisse dich und deine leckeren Kuchen! Wenn ich im Sommer Urlaub habe, komme ich dich besuchen. Dann können wir zusammen in den Garten gehen und Kaffee trinken. Ich freue mich schon sehr darauf. Viele liebe Grüße, deine Julia.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist vor drei Monaten nach Leipzig umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat am Anfang schnell viele Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia arbeitet jetzt in einem kleinen Café.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia und Nina verstehen sich nicht gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia möchte ihre Oma im Sommer besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "klassenfahrt-der-9b-nach-wien",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Wien",
+    "descripcion": "Eine Schulklasse fährt nach Wien und erlebt dort einige Überraschungen.",
+    "texto": "Die Klasse 9b aus Dresden ist auf Klassenfahrt nach Wien gefahren. Obwohl die Busfahrt sehr lang war, waren alle Schüler gut gelaunt, als sie endlich am Hotel ankamen. Der Lehrer, Herr Jansen, hatte ein volles Programm geplant: Museumsbesuche, eine Stadtführung und sogar einen Ausflug zum Schloss Schönbrunn.\n\nAm zweiten Tag, nachdem die Gruppe das Kunsthistorische Museum besichtigt hatte, verlor einer der Schüler, Tim, plötzlich seinen Rucksack mit dem Handy und dem Geldbeutel. Trotzdem blieb die Gruppe ruhig, und gemeinsam suchten sie den Weg zurück zum Museum. Zum Glück hatte eine Museumsangestellte den Rucksack gefunden und sicher aufbewahrt. Tim war so erleichtert, dass er der Angestellten eine Postkarte aus Dresden schickte, sobald er wieder zu Hause war.\n\nAm letzten Abend saßen alle zusammen in einem Café und sprachen über ihre Lieblingsmomente der Reise. Viele fanden, dass der Besuch im Schloss Schönbrunn am beeindruckendsten war, obwohl auch der kleine Zwischenfall mit dem Rucksack unvergesslich blieb. Die Klassenfahrt hat allen gezeigt, wie wichtig Zusammenhalt in schwierigen Momenten ist.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b kommt aus Dresden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Jansen hatte kein festes Programm geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim hat seinen Rucksack für immer verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Museumsangestellte hat den Rucksack gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler fanden den Besuch im Schloss Schönbrunn uninteressant.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "neuanfang-in-leipzig",
+    "nivel": "B1",
+    "titulo": "Neuanfang in Leipzig",
+    "descripcion": "Felix zieht aus beruflichen Gründen nach Leipzig und muss sich an sein neues Leben gewöhnen.",
+    "texto": "Felix hat sich vor einem Jahr entschieden, seinen Job in München zu kündigen und nach Leipzig zu ziehen, um dort eine neue Stelle als Ingenieur anzutreten. Obwohl ihm der Abschied von seinen Freunden schwerfiel, war er überzeugt, dass die neue Stelle eine große Chance für seine Karriere war. Nachdem er eine kleine Wohnung in der Südvorstadt gefunden hatte, begann für ihn ein völlig neues Kapitel.\n\nDie ersten Wochen waren nicht einfach, denn Felix kannte niemanden in der Stadt und fühlte sich oft einsam. Trotzdem gab er nicht auf und meldete sich bei einem Sportverein an, wo er regelmäßig Fußball spielte. Dort lernte er bald mehrere Leute kennen, mit denen er sich gut verstand. Besonders sein Kollege Daniel wurde schnell zu einem guten Freund, und die beiden unternahmen oft gemeinsam etwas am Wochenende.\n\nHeute, ein Jahr später, fühlt sich Felix in Leipzig richtig zu Hause. Er hat gelernt, dass ein Umzug zwar am Anfang schwierig sein kann, dass sich die Mühe aber lohnt, wenn man offen für Neues bleibt. Mittlerweile denkt er sogar darüber nach, langfristig in der Stadt zu bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist aus persönlichen Gründen nach Leipzig gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat sofort viele Freunde in Leipzig gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat sich bei einem Sportverein angemeldet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel ist ein Kollege, der zu einem guten Freund wurde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix bereut seinen Umzug nach Leipzig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenfest-im-viertel",
+    "nivel": "B1",
+    "titulo": "Das Straßenfest im Viertel",
+    "descripcion": "Die Nachbarschaft organisiert ein Straßenfest, um die Gemeinschaft im Viertel zu stärken.",
+    "texto": "Jeden Sommer organisiert die Nachbarschaft in der Blumenstraße ein großes Straßenfest. Dieses Jahr übernahm Frau Hoffmann, die seit über zwanzig Jahren in dem Viertel wohnt, die Organisation. Obwohl die Planung viel Arbeit bedeutete, war sie überzeugt, dass solche Feste wichtig für den Zusammenhalt der Nachbarschaft sind.\n\nAn dem Tag des Festes bauten die Anwohner gemeinsam Tische und Stände auf der Straße auf. Jede Familie brachte etwas zu essen mit, sodass am Ende ein riesiges Buffet mit Gerichten aus verschiedenen Kulturen entstand. Die Kinder spielten zusammen, während die Erwachsenen sich unterhielten und neue Nachbarn kennenlernten. Nachdem die Musik angefangen hatte zu spielen, tanzten sogar einige ältere Bewohner auf der Straße.\n\nAm Abend, als das Fest langsam zu Ende ging, bedankte sich Frau Hoffmann bei allen Helfern für ihre Unterstützung. Viele Anwohner sagten, dass sie sich durch das Fest dem Viertel näher fühlten als zuvor. Für das nächste Jahr wurde bereits beschlossen, das Fest noch größer zu feiern.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Hoffmann wohnt seit über zwanzig Jahren in dem Viertel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jede Familie musste Essen kaufen, statt es mitzubringen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder spielten während des Festes zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat beim Fest getanzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Für das nächste Jahr ist ein größeres Fest geplant.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "deutschland-diskutiert-ueber-die-vier-tage-woche",
+    "nivel": "B2",
+    "titulo": "Die Debatte um die Vier-Tage-Woche",
+    "descripcion": "Immer mehr Unternehmen diskutieren über die Einführung der Vier-Tage-Woche und ihre Folgen.",
+    "texto": "In den letzten Jahren hat die Diskussion um die Vier-Tage-Woche in Deutschland erheblich an Bedeutung gewonnen. Befürworter argumentieren, dass eine Verkürzung der Arbeitszeit bei gleichem Lohn nicht nur die Lebensqualität der Beschäftigten verbessern, sondern auch die Produktivität steigern würde, da erholte Mitarbeiter konzentrierter und effizienter arbeiteten. Mehrere Pilotprojekte in verschiedenen Branchen hätten bereits gezeigt, dass sich die Arbeitsleistung trotz kürzerer Arbeitszeit kaum verringert habe.\n\nKritiker hingegen weisen darauf hin, dass sich ein solches Modell nicht ohne Weiteres auf alle Branchen übertragen ließe. Insbesondere im Gesundheitswesen und im Handwerk, wo Personalmangel bereits heute ein großes Problem darstellt, wäre eine Reduzierung der Arbeitszeit kaum umsetzbar, ohne dass die Versorgung der Bevölkerung gefährdet würde. Zudem müssten Unternehmen, die auf eine Vier-Tage-Woche umstellen wollten, zunächst in effizientere Arbeitsprozesse und digitale Werkzeuge investieren, was gerade für kleinere Betriebe eine erhebliche finanzielle Belastung bedeuten könnte.\n\nTrotz dieser Bedenken experimentieren immer mehr Firmen mit flexibleren Arbeitszeitmodellen, um dem Fachkräftemangel entgegenzuwirken und sich als attraktive Arbeitgeber zu positionieren. Ob sich die Vier-Tage-Woche langfristig als Standard durchsetzen wird, bleibt jedoch ungewiss, da sie eng mit strukturellen Veränderungen verbunden ist, die nicht in jeder Branche gleich leicht umzusetzen sind. Letztlich wird die Entwicklung davon abhängen, inwieweit Politik und Wirtschaft bereit sind, neue Arbeitsmodelle aktiv zu fördern.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter der Vier-Tage-Woche glauben, dass sie die Produktivität senken würde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen gibt es laut Text bereits einen Personalmangel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Umstellung auf die Vier-Tage-Woche erfordert laut Text oft Investitionen in effizientere Prozesse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text ist völlig sicher, dass sich die Vier-Tage-Woche überall durchsetzen wird.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Unternehmen experimentieren mit flexibleren Modellen, um Fachkräfte zu gewinnen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kampf-um-bezahlbaren-wohnraum",
+    "nivel": "B2",
+    "titulo": "Wohnraummangel in deutschen Großstädten",
+    "descripcion": "Steigende Mieten und knapper Wohnraum stellen deutsche Großstädte vor erhebliche Herausforderungen.",
+    "texto": "In vielen deutschen Großstädten hat sich der Mangel an bezahlbarem Wohnraum in den letzten Jahren drastisch verschärft. Besonders in Metropolen wie München, Hamburg und Berlin sind die Mietpreise so stark gestiegen, dass es für Menschen mit mittlerem oder niedrigem Einkommen zunehmend schwierig wird, eine angemessene Wohnung zu finden. Während die Nachfrage nach Wohnraum stetig wächst, hält das Angebot an neuen Wohnungen bei Weitem nicht Schritt, was die Situation zusätzlich verschärft.\n\nAls Hauptursachen für diese Entwicklung werden von Experten mehrere Faktoren genannt: eine zunehmende Urbanisierung, strenge Bauvorschriften sowie ein Mangel an verfügbaren Grundstücken in zentralen Lagen. Hinzu kommt, dass Wohnungen von vielen Investoren zunehmend als Kapitalanlage betrachtet werden, wodurch der Wohnraum teilweise dem freien Markt entzogen wird. Sollte diese Entwicklung ungebremst fortgesetzt werden, könnte die soziale Spaltung in den betroffenen Städten weiter zunehmen, da sich nur noch wohlhabendere Bevölkerungsgruppen zentrale Wohnlagen leisten könnten.\n\nUm dieser Entwicklung entgegenzuwirken, fordern Politiker und Stadtplaner unterschiedliche Maßnahmen, von einer strengeren Mietpreisbremse bis hin zu umfangreichen Investitionen in den sozialen Wohnungsbau. Manche Experten schlagen zudem vor, dass leerstehende Gebäude konsequenter für Wohnzwecke umgenutzt werden sollten, anstatt neue Flächen zu versiegeln. Ob diese Maßnahmen ausreichen werden, um den Wohnraummangel nachhaltig zu lindern, wird sich jedoch erst in den kommenden Jahren zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise in Großstädten wie München sind laut Text gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Angebot an neuen Wohnungen hält mit der Nachfrage nicht Schritt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Investoren betrachten Wohnungen laut Text manchmal als Kapitalanlage.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text gibt es keine Vorschläge zur Lösung des Wohnraummangels.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Leerstehende Gebäude könnten laut einigen Experten für Wohnzwecke genutzt werden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "schulische-bildung-im-wandel",
+    "nivel": "B2",
+    "titulo": "Schulische Bildung im Wandel",
+    "descripcion": "Digitalisierung und veränderte gesellschaftliche Anforderungen stellen das deutsche Bildungssystem vor neue Fragen.",
+    "texto": "Das deutsche Bildungssystem steht seit einigen Jahren vor tiefgreifenden Veränderungen, die vor allem durch die fortschreitende Digitalisierung ausgelöst wurden. Während traditionelle Unterrichtsmethoden lange Zeit auf Frontalunterricht und starre Lehrpläne setzten, wird zunehmend gefordert, dass Schulen digitale Kompetenzen stärker vermitteln und individuellere Lernwege ermöglichen sollten. Befürworter dieser Reform argumentieren, dass Schüler dadurch besser auf die Anforderungen einer zunehmend digitalisierten Arbeitswelt vorbereitet würden.\n\nGleichzeitig wird jedoch kritisiert, dass viele Schulen nicht über die nötige technische Ausstattung verfügen, um solche Veränderungen tatsächlich umzusetzen. Lehrkräfte beklagen zudem, dass ihnen oft die notwendige Fortbildung fehle, um digitale Werkzeuge sinnvoll in den Unterricht zu integrieren. Wäre die digitale Infrastruktur an Schulen flächendeckend ausgebaut, könnten Lehrer deutlich flexibler auf die unterschiedlichen Bedürfnisse ihrer Schüler eingehen, was besonders benachteiligten Kindern zugutekäme.\n\nNeben der technischen Dimension wird auch diskutiert, inwiefern das Bildungssystem gesellschaftliche Ungleichheiten verstärkt oder abbaut. Studien zeigen, dass der Bildungserfolg in Deutschland nach wie vor stark von der sozialen Herkunft der Schüler abhängt. Um dem entgegenzuwirken, müssten nach Ansicht vieler Bildungsforscher nicht nur die Schulen besser ausgestattet, sondern auch frühkindliche Förderprogramme konsequent ausgebaut werden. Nur so ließe sich langfristig erreichen, dass Bildungschancen tatsächlich unabhängig von der sozialen Herkunft verteilt würden.",
+    "preguntas": [
+      {
+        "enunciado": "Traditionelle Unterrichtsmethoden setzten laut Text stark auf Frontalunterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schulen verfügen laut Text bereits über ausreichende technische Ausstattung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lehrkräfte beklagen laut Text einen Mangel an Fortbildung für digitale Werkzeuge.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bildungserfolg in Deutschland hängt laut Studien nicht von der sozialen Herkunft ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsforscher fordern unter anderem den Ausbau frühkindlicher Förderprogramme.",
+        "respuesta": true
+      }
+    ]
   }
 ]
