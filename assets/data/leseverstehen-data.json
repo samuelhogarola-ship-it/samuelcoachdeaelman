@@ -75986,5 +75986,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "meine-oma-backt-kuchen",
+    "nivel": "A1",
+    "titulo": "Meine Oma backt einen Kuchen",
+    "descripcion": "Lena besucht ihre Oma und hilft beim Backen.",
+    "texto": "Am Sonntag besuche ich meine Oma. Sie backt gern Kuchen. Heute backt sie einen Apfelkuchen.\n\nIch helfe ihr in der Küche. Wir schneiden Äpfel und mischen den Teig. Die Küche riecht sehr gut.\n\nNach einer Stunde ist der Kuchen fertig. Wir essen den Kuchen mit Sahne. Er ist lecker. Meine Oma lacht und sagt: „Der Kuchen ist für dich, Lena.“",
+    "preguntas": [
+      {
+        "enunciado": "Lena besucht ihre Oma am Sonntag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma backt einen Schokoladenkuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena hilft in der Küche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kuchen ist nach zehn Minuten fertig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie essen den Kuchen mit Sahne.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-geburtstag-von-tim",
+    "nivel": "A1",
+    "titulo": "Der Geburtstag von Tim",
+    "descripcion": "Tim feiert seinen achten Geburtstag mit Freunden.",
+    "texto": "Tim ist heute acht Jahre alt. Er feiert seinen Geburtstag im Garten. Seine Freunde kommen um drei Uhr.\n\nDie Mutter von Tim macht eine Torte. Die Torte ist grün und hat acht Kerzen. Die Kinder singen ein Geburtstagslied.\n\nTim bekommt viele Geschenke. Er bekommt ein neues Fahrrad und ein Buch. Am Abend ist Tim sehr müde, aber sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Tim wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Party ist in der Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Torte hat acht Kerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim bekommt kein Geschenk.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim ist am Abend glücklich.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-schulbus",
+    "nivel": "A1",
+    "titulo": "Im Schulbus",
+    "descripcion": "Mia fährt jeden Morgen mit dem Schulbus zur Schule.",
+    "texto": "Mia steht jeden Morgen um sieben Uhr auf. Sie geht zur Bushaltestelle. Der Schulbus kommt um Viertel nach sieben.\n\nIm Bus sitzt Mia neben ihrer Freundin Paula. Sie sprechen über die Hausaufgaben. Die Busfahrt dauert zwanzig Minuten.\n\nUm halb acht ist Mia in der Schule. Sie mag die Busfahrt, weil sie ihre Freundin trifft.",
+    "preguntas": [
+      {
+        "enunciado": "Mia steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia fährt mit dem Fahrrad zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula sitzt neben Mia im Bus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Busfahrt dauert zwei Stunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia mag die Busfahrt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-reise-nach-wien",
+    "nivel": "A2",
+    "titulo": "Meine Reise nach Wien",
+    "descripcion": "Sabine erzählt von ihrer Reise nach Wien und einem kleinen Problem mit dem Regenschirm.",
+    "texto": "Letzten Monat bin ich nach Wien gereist. Ich bin mit dem Zug gefahren, weil ich das Fliegen nicht mag. Die Fahrt hat sechs Stunden gedauert.\n\nIn Wien habe ich viele Museen besucht und einen berühmten Kaffee getrunken. Leider habe ich am ersten Tag meinen Regenschirm verloren, weil es so windig war. Zum Glück hat es die ganze Woche nicht geregnet.\n\nAm letzten Abend bin ich in die Oper gegangen. Das war das schönste Erlebnis der Reise. Ich möchte bald wieder nach Wien fahren, weil mir die Stadt sehr gefallen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine ist mit dem Zug nach Wien gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zugfahrt hat zwei Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine hat ihren Regenschirm verloren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat die ganze Woche geregnet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sabine war in der Oper.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-durch-den-wald",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour durch den Wald",
+    "descripcion": "Markus und sein Freund machen eine Fahrradtour, obwohl das Wetter schlecht ist.",
+    "texto": "Am Samstag haben Markus und sein Freund Jonas eine Fahrradtour geplant. Obwohl der Himmel grau war, sind sie losgefahren. Sie wollten durch den Wald bis zum See fahren.\n\nNach einer Stunde hat es stark geregnet. Die beiden haben sich unter einem großen Baum versteckt, weil sie keine Regenjacke dabeihatten. Jonas hat gesagt, dass er lieber nach Hause fahren möchte.\n\nTrotzdem sind sie weitergefahren, und als sie am See ankamen, hat die Sonne wieder geschienen. Markus war froh, dass sie nicht aufgegeben haben.",
+    "preguntas": [
+      {
+        "enunciado": "Markus und Jonas fahren mit dem Auto.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie wollten zum See fahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es hat während der Tour geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas wollte unbedingt weiterfahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende hat die Sonne geschienen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-praktikum-in-der-baeckerei",
+    "nivel": "A2",
+    "titulo": "Mein Praktikum in der Bäckerei",
+    "descripcion": "Anna berichtet von ihrem einwöchigen Praktikum in einer Bäckerei.",
+    "texto": "Letzte Woche habe ich ein Praktikum in einer Bäckerei gemacht. Ich musste jeden Tag um fünf Uhr aufstehen, weil die Bäckerei schon um sechs Uhr öffnet. Das war am Anfang sehr schwer für mich.\n\nIch habe gelernt, wie man Brötchen und Brot backt. Der Bäcker hat mir gezeigt, dass man viel Geduld braucht, wenn der Teig nicht aufgeht. Am meisten Spaß hat mir das Verzieren von Kuchen gemacht.\n\nAm letzten Tag hat mir der Bäcker gesagt, dass ich eine gute Arbeiterin bin. Ich war stolz, dass ich eine ganze Woche durchgehalten habe, obwohl es anstrengend war.",
+    "preguntas": [
+      {
+        "enunciado": "Anna musste um fünf Uhr aufstehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Bäckerei öffnet um zehn Uhr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Anna hat gelernt, wie man Brötchen backt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna fand das Verzieren von Kuchen langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Praktikum hat zwei Monate gedauert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-erstes-praktikum",
+    "nivel": "B1",
+    "titulo": "Mein erstes Praktikum",
+    "descripcion": "Ein Bericht über die Erfahrungen während eines Praktikums in einer Werbeagentur.",
+    "texto": "Nachdem ich mein Abitur gemacht hatte, wollte ich erste Erfahrungen in der Arbeitswelt sammeln. Deshalb habe ich ein dreiwöchiges Praktikum in einer kleinen Werbeagentur begonnen. Obwohl ich sehr nervös war, hat mich das Team von Anfang an freundlich aufgenommen.\n\nIn den ersten Tagen durfte ich nur zuschauen und Kaffee kochen, was mich ein bisschen enttäuscht hat. Nachdem ich jedoch gezeigt hatte, dass ich mich für Grafikdesign interessiere, bekam ich eigene kleine Projekte. Trotzdem war die Arbeit manchmal stressig, weil die Kunden oft kurzfristig Änderungen wollten.\n\nAm Ende des Praktikums habe ich verstanden, dass Kreativität und Geduld in diesem Beruf gleich wichtig sind. Ich habe sogar das Angebot bekommen, in den Semesterferien wieder zu kommen, was mich sehr gefreut hat.",
+    "preguntas": [
+      {
+        "enunciado": "Das Praktikum hat drei Wochen gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Team war von Anfang an unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Person durfte während des ganzen Praktikums nur Kaffee kochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kunden wollten manchmal kurzfristig Änderungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende gab es kein Angebot, wiederzukommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-konzert-in-der-alten-fabrik",
+    "nivel": "B1",
+    "titulo": "Das Konzert in der alten Fabrik",
+    "descripcion": "Ein ungewöhnliches Konzert in einer umgebauten Fabrikhalle begeistert die Besucher.",
+    "texto": "In unserer Stadt gibt es eine alte Fabrik, die seit einigen Jahren als Kulturzentrum genutzt wird. Letzten Freitag fand dort ein besonderes Konzert statt, zu dem Hunderte von jungen Leuten kamen. Obwohl die Halle keine klassische Konzerthalle ist, war die Atmosphäre einzigartig.\n\nDie Band, die aus unserer Region stammt, spielte eine Mischung aus Rock und elektronischer Musik. Nachdem die ersten Lieder gespielt worden waren, tanzte fast das ganze Publikum. Viele Besucher sagten später, dass die rohe Industrieumgebung die Musik noch intensiver gemacht habe.\n\nTrotz einiger technischer Probleme mit der Beleuchtung war der Abend ein großer Erfolg. Die Organisatoren planen bereits weitere Konzerte an diesem besonderen Ort, da das Feedback so positiv war.",
+    "preguntas": [
+      {
+        "enunciado": "Das Konzert fand in einer klassischen Konzerthalle statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hunderte von jungen Leuten kamen zum Konzert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Band spielte nur klassische Musik.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gab technische Probleme mit der Beleuchtung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Organisatoren planen keine weiteren Konzerte dort.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-vereinssport-im-dorf",
+    "nivel": "B1",
+    "titulo": "Der Vereinssport im Dorf",
+    "descripcion": "Der örtliche Sportverein kämpft um neue Mitglieder, nachdem viele junge Leute die Gegend verlassen haben.",
+    "texto": "Der Sportverein in unserem Dorf existiert schon seit über sechzig Jahren. Früher hatte der Fußballverein mehrere Mannschaften, aber heute hat er Probleme, genug Spieler für ein einziges Team zu finden. Viele junge Leute sind in die Stadt gezogen, um dort zu studieren oder zu arbeiten.\n\nDer Vorsitzende des Vereins, Herr Weber, versucht trotzdem, den Verein am Leben zu halten. Nachdem er eine Werbekampagne in den sozialen Medien gestartet hatte, meldeten sich tatsächlich einige neue Mitglieder an. Auch einige Familien mit Kindern sind dem Verein beigetreten, weil sie den Sport als wichtigen Teil des Dorflebens sehen.\n\nObwohl die Zukunft des Vereins noch unsicher ist, bleibt Herr Weber optimistisch. Er glaubt, dass der Zusammenhalt im Dorf stärker ist, als viele denken, und dass der Verein diese schwierige Phase überstehen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der Verein existiert seit über sechzig Jahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verein hat heute mehr Spieler als früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hat eine Werbekampagne in sozialen Medien gestartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es haben sich keine neuen Mitglieder angemeldet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber ist trotz der Probleme optimistisch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-lehrermangel-an-schulen",
+    "nivel": "B2",
+    "titulo": "Der Lehrermangel an deutschen Schulen",
+    "descripcion": "Ein Blick auf die Ursachen und möglichen Lösungen des zunehmenden Lehrermangels.",
+    "texto": "In den letzten Jahren hat sich der Mangel an qualifizierten Lehrkräften in Deutschland deutlich verschärft. Viele Schulen, besonders in ländlichen Regionen, können offene Stellen kaum noch besetzen. Wenn diese Entwicklung nicht gestoppt würde, könnte die Qualität des Unterrichts langfristig erheblich leiden.\n\nExperten nennen mehrere Gründe für diese Krise. Zum einen gehen in den kommenden Jahren viele ältere Lehrkräfte in den Ruhestand, ohne dass genug junge Absolventen nachrücken. Zum anderen beklagen viele angehende Lehrer, dass der Beruf durch Bürokratie, große Klassen und mangelnde Wertschätzung zunehmend unattraktiv geworden sei. Manche Bildungsforscher argumentieren sogar, dass das Lehramtsstudium grundlegend reformiert werden müsste, damit mehr Studierende den Beruf tatsächlich ergreifen.\n\nAls mögliche Lösung wird häufig vorgeschlagen, Quereinsteigern den Weg in den Schuldienst zu erleichtern. Kritiker wenden jedoch ein, dass dadurch die pädagogische Qualität leiden könnte, wenn Quereinsteiger zu wenig didaktische Ausbildung erhalten. Andere fordern, dass der Lehrerberuf finanziell attraktiver gemacht und die Arbeitsbedingungen verbessert werden sollten, damit mehr junge Menschen sich für diesen Weg entscheiden.\n\nLetztlich scheint klar, dass eine einzelne Maßnahme kaum ausreichen wird, um das Problem zu lösen. Nur durch ein Zusammenspiel aus besserer Bezahlung, moderner Ausbildung und gesellschaftlicher Anerkennung könnte der Lehrerberuf wieder an Attraktivität gewinnen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Lehrermangel betrifft vor allem städtische Regionen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele ältere Lehrkräfte gehen bald in den Ruhestand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle angehenden Lehrer finden den Beruf sehr attraktiv.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Quereinsteiger werden von allen Experten uneingeschränkt befürwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bessere Bezahlung wird als mögliche Lösung genannt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-energiewende-vor-ort",
+    "nivel": "B2",
+    "titulo": "Die Energiewende vor Ort",
+    "descripcion": "Eine Kleinstadt diskutiert über den Bau eines neuen Windparks und die damit verbundenen Konflikte.",
+    "texto": "In einer Kleinstadt im Norden Deutschlands wird seit Monaten heftig über den geplanten Bau eines Windparks diskutiert. Während die Gemeindeverwaltung betont, dass der Windpark einen wichtigen Beitrag zur Energiewende leisten würde, befürchten viele Anwohner negative Folgen für Landschaft und Lebensqualität.\n\nDie Befürworter argumentieren, dass ohne den Ausbau erneuerbarer Energien die Klimaziele kaum erreicht werden könnten. Zudem würde der Windpark neue Arbeitsplätze schaffen und der Gemeinde zusätzliche Einnahmen bringen, die dringend benötigt würden. Die Gegner hingegen weisen darauf hin, dass die Windräder das Landschaftsbild dauerhaft verändern und möglicherweise den Tourismus in der Region beeinträchtigen würden.\n\nBesonders umstritten ist die Frage, wie nah die Anlagen an Wohngebieten gebaut werden dürfen. Einige Anwohner befürchten, durch den Lärm der Rotoren gesundheitlich beeinträchtigt zu werden, auch wenn Studien hierzu widersprüchliche Ergebnisse liefern. Andere wiederum sind der Meinung, dass man ohne gewisse Kompromisse die Energiewende niemals erfolgreich umsetzen könne.\n\nAm Ende wird wohl der Gemeinderat über das Projekt entscheiden müssen, nachdem alle Argumente in einer öffentlichen Anhörung gesammelt wurden. Unabhängig vom Ergebnis zeigt der Streit, wie schwierig es ist, globale Klimaziele mit lokalen Interessen in Einklang zu bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Anwohner sind begeistert von dem geplanten Windpark.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Befürworter sehen im Windpark einen Beitrag zur Energiewende.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Gegner befürchten negative Folgen für Tourismus und Landschaft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zum Lärm der Windräder liefern eindeutige Ergebnisse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Gemeinderat hat die Entscheidung bereits getroffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-glaubwuerdigkeit-der-nachrichten",
+    "nivel": "B2",
+    "titulo": "Die Glaubwürdigkeit der Nachrichten",
+    "descripcion": "Eine Auseinandersetzung mit dem schwindenden Vertrauen in traditionelle Medien und den Herausforderungen durch soziale Netzwerke.",
+    "texto": "Das Vertrauen vieler Menschen in klassische Nachrichtenmedien ist in den letzten Jahren spürbar gesunken. Immer mehr Menschen informieren sich stattdessen über soziale Netzwerke, wo Informationen zwar schneller verbreitet werden, aber oft weniger sorgfältig geprüft sind. Diese Entwicklung stellt Journalisten und Medienhäuser vor erhebliche Herausforderungen.\n\nEin zentrales Problem besteht darin, dass auf sozialen Plattformen Falschmeldungen und seriöse Berichte nebeneinander erscheinen, ohne dass Nutzer die Quelle immer eindeutig erkennen können. Wenn Algorithmen entscheiden, welche Inhalte besonders sichtbar werden, würden emotional aufgeladene oder reißerische Beiträge oft bevorzugt, selbst wenn ihr Wahrheitsgehalt zweifelhaft sei. Manche Kommunikationswissenschaftler sprechen deshalb von einer schleichenden Erosion der gemeinsamen Faktenbasis in der Gesellschaft.\n\nTraditionelle Medienhäuser versuchen, dieser Entwicklung mit mehr Transparenz zu begegnen, etwa indem sie offenlegen, wie ihre Recherchen entstanden sind. Dennoch bleibt die Skepsis bei einem Teil des Publikums bestehen, zumal manche Politiker etablierte Medien gezielt als unglaubwürdig darstellen, um eigene Interessen durchzusetzen. Das erschwert es Journalisten zusätzlich, verlorenes Vertrauen zurückzugewinnen.\n\nBildungsexperten fordern daher, dass Medienkompetenz schon in der Schule intensiver vermittelt werden sollte. Nur wenn junge Menschen lernten, Quellen kritisch zu hinterfragen, könnten sie zukünftig besser zwischen seriösem Journalismus und gezielter Desinformation unterscheiden. Ob eine solche Bildungsreform ausreichen würde, um das Vertrauen in die Medien nachhaltig zu stärken, bleibt jedoch umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Das Vertrauen in klassische Medien ist in den letzten Jahren gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf sozialen Netzwerken sind Quellen immer eindeutig erkennbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen bevorzugen oft emotional aufgeladene Inhalte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche Politiker stellen etablierte Medien gezielt als unglaubwürdig dar.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bildungsexperten lehnen mehr Medienkompetenzunterricht in der Schule ab.",
+        "respuesta": false
+      }
+    ]
   }
 ]
