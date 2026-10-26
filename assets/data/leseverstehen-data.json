@@ -75290,5 +75290,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "im-schuhladen",
+    "nivel": "A1",
+    "titulo": "Im Schuhladen",
+    "descripcion": "Lena kauft neue Schuhe für die Schule.",
+    "texto": "Lena geht mit ihrer Mutter in den Schuhladen. Sie braucht neue Schuhe für die Schule. Im Laden gibt es viele Schuhe in verschiedenen Farben. Lena mag die roten Schuhe sehr.\n\nDie Verkäuferin bringt Lena die roten Schuhe in ihrer Größe. Lena probiert die Schuhe an. Die Schuhe passen gut und sind sehr bequem. „Ich möchte diese Schuhe kaufen“, sagt Lena froh.\n\nDie Mutter bezahlt die Schuhe an der Kasse. Lena trägt die neuen Schuhe sofort. Sie ist sehr glücklich und läuft schnell nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Lena geht mit ihrer Mutter in den Schuhladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena braucht neue Schuhe für den Sport.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena mag die roten Schuhe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schuhe passen Lena nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter bezahlt die Schuhe an der Kasse.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-neue-fahrradklingel",
+    "nivel": "A1",
+    "titulo": "Meine neue Fahrradklingel",
+    "descripcion": "Tom kauft eine neue Klingel für sein Fahrrad.",
+    "texto": "Tom hat ein blaues Fahrrad. Er fährt jeden Tag zur Schule mit dem Fahrrad. Die alte Klingel von Tom ist kaputt. Tom braucht eine neue Klingel.\n\nTom geht mit seinem Vater in den Fahrradladen. Im Laden gibt es viele Klingeln. Es gibt kleine Klingeln und große Klingeln. Tom wählt eine gelbe Klingel. Die Klingel ist laut und schön.\n\nDer Vater montiert die neue Klingel am Fahrrad. Tom testet die Klingel sofort. „Die Klingel klingt super!“, ruft Tom glücklich. Jetzt fährt Tom wieder sicher zur Schule.",
+    "preguntas": [
+      {
+        "enunciado": "Tom hat ein blaues Fahrrad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die alte Klingel von Tom funktioniert gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom kauft eine rote Klingel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater montiert die neue Klingel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom fährt jetzt unsicher zur Schule.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-besuch-im-tierpark-mit-papa",
+    "nivel": "A1",
+    "titulo": "Der Besuch im Tierpark mit Papa",
+    "descripcion": "Finn besucht mit seinem Papa den Tierpark und sieht viele Tiere.",
+    "texto": "Finn besucht heute den Tierpark mit seinem Papa. Das Wetter ist schön und sonnig. Im Tierpark gibt es viele Tiere: Affen, Vögel und Bären. Finn mag die Affen am liebsten.\n\nPapa kauft Finn ein Eis. Das Eis ist süß und kalt. Sie gehen weiter und sehen einen großen Bären. Der Bär schläft unter einem Baum. „Schau mal, der Bär ist so groß!“, sagt Finn aufgeregt.\n\nAm Ende des Tages ist Finn sehr müde, aber glücklich. Er möchte bald wieder in den Tierpark gehen. Papa und Finn fahren mit dem Bus nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Finn besucht den Tierpark mit seiner Mama.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter ist schön und sonnig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn mag die Vögel am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Bär schläft unter einem Baum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn und Papa fahren mit dem Auto nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-verspaetete-zugfahrt-nach-muenchen",
+    "nivel": "A2",
+    "titulo": "Die verspätete Zugfahrt nach München",
+    "descripcion": "Julia hat eine lange Zugfahrt nach München erlebt, weil der Zug Verspätung hatte.",
+    "texto": "Julia ist letzten Freitag nach München gefahren, weil sie dort ihre Schwester besuchen wollte. Sie ist früh zum Bahnhof gegangen, weil sie den Zug nicht verpassen wollte. Am Bahnhof hat sie erfahren, dass der Zug eine Stunde Verspätung hatte. Julia war sehr enttäuscht, denn sie hatte sich schon auf die Reise gefreut.\n\nWährend sie gewartet hat, hat sie einen Kaffee getrunken und ein Buch gelesen. Als der Zug endlich gekommen ist, war er sehr voll. Julia hat trotzdem einen Platz gefunden und sich hingesetzt. Neben ihr hat ein älterer Mann gesessen, der ihr von seiner letzten Reise nach Italien erzählt hat.\n\nNach vier Stunden ist Julia endlich in München angekommen. Ihre Schwester hat schon am Bahnhof gewartet. „Ich bin so froh, dass du endlich da bist!“, hat ihre Schwester gesagt. Sie sind zusammen nach Hause gefahren und haben den Abend gemütlich verbracht.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist nach Berlin gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug hatte eine Stunde Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia war froh über die Verspätung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein älterer Mann hat ihr von Italien erzählt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ihre Schwester hat sie nicht am Bahnhof abgeholt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-an-die-oma-in-der-tuerkei",
+    "nivel": "A2",
+    "titulo": "Der Brief an die Oma in der Türkei",
+    "descripcion": "Elif schreibt ihrer Oma in der Türkei einen langen Brief über ihr Leben in Deutschland.",
+    "texto": "Elif lebt seit zwei Jahren mit ihrer Familie in Deutschland. Ihre Oma lebt noch in der Türkei, und Elif vermisst sie sehr. Weil sie ihre Oma nicht oft sehen kann, schreibt sie ihr jeden Monat einen Brief. In diesem Brief erzählt Elif, dass sie neue Freunde in der Schule gefunden hat.\n\nElif hat geschrieben, dass das Wetter in Deutschland oft kalt und regnerisch ist. Sie hat auch erzählt, dass sie gerade Deutsch in der Schule gelernt hat und schon viele Wörter kennt. Wenn sie Zeit hat, besucht sie mit ihren Eltern den Park in der Nähe. Dort hat sie letzte Woche ein Fahrrad gefahren.\n\nAm Ende des Briefes hat Elif geschrieben, dass sie ihre Oma im Sommer besuchen möchte. Ihre Oma hat sich sehr über den Brief gefreut und sofort zurückgeschrieben. Sie hat Elif versprochen, dass sie im Sommer gemeinsam Baklava backen werden.",
+    "preguntas": [
+      {
+        "enunciado": "Elif lebt seit zwei Jahren in Deutschland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Elifs Oma lebt in Deutschland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elif schreibt ihrer Oma jede Woche einen Brief.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Elif hat in der Schule Deutsch gelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma und Elif wollen im Sommer zusammen Baklava backen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarin-aus-dem-dritten-stock",
+    "nivel": "A2",
+    "titulo": "Die Nachbarin aus dem dritten Stock",
+    "descripcion": "Herr Weber lernt seine neue Nachbarin kennen und hilft ihr beim Einzug.",
+    "texto": "Herr Weber wohnt seit zehn Jahren im selben Haus. Letzte Woche ist eine neue Nachbarin in die Wohnung im dritten Stock eingezogen. Sie heißt Frau Delgado und kommt aus Spanien. Weil sie viele schwere Kisten hatte, hat Herr Weber ihr beim Tragen geholfen.\n\nNachdem sie alle Kisten in die Wohnung gebracht hatten, hat Frau Delgado Herrn Weber zu einem Kaffee eingeladen. Sie haben sich über ihre Familien unterhalten und gelacht, obwohl Frau Delgado noch nicht viel Deutsch sprechen konnte. Herr Weber hat ihr erklärt, dass es in der Nähe einen guten Supermarkt und eine Bäckerei gibt.\n\nAm Abend hat Frau Delgado ihrer Schwester in Spanien erzählt, dass sie einen netten Nachbarn gefunden hat. Seitdem treffen sich die beiden oft im Treppenhaus und sprechen über das Leben in der Stadt. Herr Weber freut sich, dass er eine neue Freundschaft gefunden hat.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Delgado ist vor einem Jahr eingezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Delgado kommt aus Spanien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber hat ihr beim Tragen der Kisten nicht geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Delgado spricht schon perfekt Deutsch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber und Frau Delgado treffen sich oft im Treppenhaus.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-freundschaft-trotz-entfernung",
+    "nivel": "B1",
+    "titulo": "Die Freundschaft trotz Entfernung",
+    "descripcion": "Zwei beste Freundinnen pflegen ihre Freundschaft, obwohl sie in verschiedenen Ländern leben.",
+    "texto": "Mara und Sophie sind seit der Grundschule beste Freundinnen. Vor drei Jahren ist Sophie mit ihrer Familie nach Kanada gezogen, weil ihr Vater dort eine neue Arbeitsstelle gefunden hatte. Obwohl die beiden Freundinnen nun Tausende Kilometer voneinander entfernt leben, haben sie ihre enge Freundschaft nicht verloren. Trotzdem war der Anfang nicht leicht, denn die Zeitverschiebung machte es schwierig, regelmäßig miteinander zu telefonieren.\n\nNachdem sie einige Monate ausprobiert hatten, verschiedene Zeiten für ihre Videoanrufe zu finden, haben sie sich schließlich an einen festen Termin gewöhnt. Jeden Sonntagabend sprechen sie eine Stunde über ihren Alltag, ihre Sorgen und ihre Träume. Außerdem schreiben sie sich fast täglich Nachrichten, um sich auf dem Laufenden zu halten. Mara erzählt oft, dass diese Gespräche ihr helfen, sich ihrer Freundin trotz der Entfernung nahe zu fühlen.\n\nLetzten Sommer konnte Sophie endlich wieder nach Deutschland reisen, um Mara zu besuchen. Die beiden haben sich sofort umarmt, als wäre keine Zeit vergangen. Sie verbrachten zwei Wochen zusammen und besuchten viele Orte ihrer Kindheit. Am Ende des Besuchs waren beide traurig über den Abschied, aber sie wussten, dass ihre Freundschaft jede Entfernung überstehen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Mara und Sophie kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie ist wegen eines Studiums nach Kanada gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zeitverschiebung machte das Telefonieren am Anfang leicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mara und Sophie telefonieren jeden Sonntagabend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie konnte Deutschland nie wieder besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-job-in-einer-fremden-stadt",
+    "nivel": "B1",
+    "titulo": "Der neue Job in einer fremden Stadt",
+    "descripcion": "Daniel beginnt eine neue Arbeitsstelle in einer fremden Stadt und muss sich an viele Veränderungen gewöhnen.",
+    "texto": "Nachdem Daniel sein Studium abgeschlossen hatte, bekam er ein attraktives Jobangebot in Leipzig. Obwohl er seine Heimatstadt und seine Freunde sehr mochte, entschied er sich, die Stelle anzunehmen. Die neue Stadt war für ihn völlig fremd, und am Anfang fühlte er sich oft einsam. Trotzdem wusste er, dass diese Erfahrung wichtig für seine berufliche Zukunft sein würde.\n\nIn den ersten Wochen konzentrierte sich Daniel hauptsächlich auf seine Arbeit, da er seinen neuen Kollegen einen guten Eindruck machen wollte. Nachdem er sich etwas eingearbeitet hatte, begann er, auch das Leben außerhalb des Büros zu genießen. Er trat einem Sportverein bei, um neue Leute kennenzulernen, und entdeckte dabei seine Leidenschaft fürs Klettern. Durch den Verein lernte er bald mehrere Kollegen und Freunde kennen, mit denen er sich regelmäßig traf.\n\nNach einem Jahr in Leipzig fühlte sich Daniel endlich zu Hause. Er hatte gelernt, dass eine fremde Stadt nicht für immer fremd bleiben muss, wenn man offen für neue Erfahrungen ist. Seine Eltern besuchten ihn oft und waren stolz, wie selbstständig er geworden war. Daniel erzählte ihnen begeistert von seinem neuen Leben und seinen neuen Freunden.",
+    "preguntas": [
+      {
+        "enunciado": "Daniel hat das Jobangebot in Leipzig abgelehnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang fühlte sich Daniel oft einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel ist einem Sportverein beigetreten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel hat seine Leidenschaft fürs Schwimmen entdeckt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach einem Jahr fühlte sich Daniel immer noch fremd in Leipzig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenmusikfestival-in-der-altstadt",
+    "nivel": "B1",
+    "titulo": "Das Straßenmusikfestival in der Altstadt",
+    "descripcion": "Die Altstadt verwandelt sich einmal im Jahr in eine große Bühne für Straßenmusiker aus aller Welt.",
+    "texto": "Jeden Sommer findet in der Altstadt ein großes Straßenmusikfestival statt, zu dem Musiker aus ganz Europa anreisen. Obwohl das Wetter in diesem Jahr unsicher war, kamen trotzdem Tausende Besucher in die engen Gassen der Stadt. Überall hörte man unterschiedliche Musikstile, von klassischer Gitarre bis zu modernem Jazz. Die Atmosphäre war fröhlich, und viele Menschen tanzten spontan auf den Straßen.\n\nNachdem die ersten Bands am Nachmittag gespielt hatten, versammelte sich die größte Menge am Abend auf dem Marktplatz. Dort trat eine bekannte Band auf, die extra aus Frankreich angereist war. Die Zuschauer waren begeistert, obwohl einige von ihnen die Band vorher nicht kannten. Zwischen den Auftritten konnten die Besucher an kleinen Ständen regionale Spezialitäten probieren und Kunsthandwerk kaufen.\n\nAm Ende des Festivals waren sich alle einig, dass es ein gelungener Abend gewesen war. Viele Besucher sagten, dass sie im nächsten Jahr wiederkommen würden. Die Organisatoren freuten sich besonders über die positive Resonanz, nachdem sie monatelang an der Planung des Festivals gearbeitet hatten.",
+    "preguntas": [
+      {
+        "enunciado": "Das Festival findet jeden Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nur deutsche Musiker nahmen am Festival teil.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend trat eine Band aus Frankreich auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Besucher konnten keine regionalen Spezialitäten probieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Besucher wollen im nächsten Jahr wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "digitalisierung-des-gesundheitswesens",
+    "nivel": "B2",
+    "titulo": "Digitalisierung des Gesundheitswesens – Fortschritt mit Hindernissen",
+    "descripcion": "Die digitale Transformation des Gesundheitssystems verspricht Effizienz, bringt aber auch neue Herausforderungen mit sich.",
+    "texto": "Die Digitalisierung des Gesundheitswesens gilt seit Jahren als eines der wichtigsten Zukunftsprojekte moderner Industriestaaten. Elektronische Patientenakten, die von Ärzten und Krankenhäusern gemeinsam genutzt werden können, sollen die medizinische Versorgung effizienter und sicherer machen. Wäre dieses System vollständig umgesetzt, könnten Doppeluntersuchungen vermieden und wertvolle Behandlungszeit gespart werden. In der Praxis verläuft die Einführung jedoch deutlich langsamer, als es sich viele Experten erhofft hatten.\n\nEin zentrales Problem liegt in der mangelnden technischen Infrastruktur, die in vielen Arztpraxen und Krankenhäusern noch immer veraltet ist. Hinzu kommt die berechtigte Sorge um den Datenschutz, da hochsensible Gesundheitsdaten potenziell missbraucht werden könnten, sollten die Sicherheitssysteme nicht ausreichend geschützt sein. Kritiker argumentieren zudem, dass ältere Patienten, die mit digitalen Anwendungen weniger vertraut sind, von den neuen Systemen benachteiligt werden könnten. Befürworter hingegen betonen, dass gut gestaltete digitale Lösungen allen Patientengruppen zugutekommen würden, wenn man bei der Entwicklung auf Benutzerfreundlichkeit achtete.\n\nTrotz aller Herausforderungen wird die Digitalisierung des Gesundheitswesens von der Politik weiterhin vorangetrieben. Es wurden bereits Fördermittel bereitgestellt, mit denen Krankenhäuser ihre technische Ausstattung modernisieren können. Langfristig, so die Hoffnung vieler Fachleute, werde sich die Investition auszahlen, indem sie das gesamte Gesundheitssystem widerstandsfähiger und zugänglicher mache. Ob dieses ambitionierte Ziel tatsächlich erreicht wird, hängt jedoch maßgeblich davon ab, wie konsequent die bestehenden Probleme in den kommenden Jahren angegangen werden.",
+    "preguntas": [
+      {
+        "enunciado": "Elektronische Patientenakten sollen die medizinische Versorgung effizienter machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Einführung der Digitalisierung verläuft schneller als erwartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Datenschutz spielt bei der Digitalisierung des Gesundheitswesens keine Rolle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass ältere Patienten benachteiligt werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Politik hat die Digitalisierung komplett gestoppt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-und-generationengerechtigkeit",
+    "nivel": "B2",
+    "titulo": "Klimapolitik und Generationengerechtigkeit",
+    "descripcion": "Die Debatte um Klimaschutz wirft die Frage auf, wie viel Verantwortung heutige Generationen gegenüber zukünftigen tragen.",
+    "texto": "In den letzten Jahren hat sich die Klimapolitik zunehmend zu einer Frage der Generationengerechtigkeit entwickelt. Junge Menschen, die durch Bewegungen wie Fridays for Future auf die Straße gegangen sind, werfen älteren Generationen vor, dass Entscheidungen getroffen würden, deren Konsequenzen vor allem von den Jüngeren getragen werden müssten. Wäre der Klimaschutz schon vor Jahrzehnten konsequenter umgesetzt worden, so argumentieren viele Aktivisten, befänden wir uns heute in einer deutlich besseren Ausgangslage.\n\nDie politische Debatte wird zudem durch wirtschaftliche Interessen erschwert, die kurzfristige Gewinne oft über langfristige Nachhaltigkeit stellen. Unternehmen, deren Geschäftsmodelle stark von fossilen Brennstoffen abhängen, fürchten durch strengere Klimaauflagen finanzielle Verluste. Gleichzeitig weisen Wissenschaftler darauf hin, dass ein Hinauszögern wirksamer Maßnahmen die ohnehin schon gravierenden Folgen des Klimawandels weiter verschärfen würde. Sollte die internationale Gemeinschaft nicht bald entschlossener handeln, könnten irreversible Kipppunkte im Klimasystem erreicht werden.\n\nAngesichts dieser Herausforderungen fordern immer mehr Stimmen eine Klimapolitik, die explizit die Interessen zukünftiger Generationen berücksichtigt. Einige Länder haben bereits verfassungsrechtliche Regelungen eingeführt, die den Staat verpflichten, langfristige ökologische Verantwortung zu übernehmen. Ob solche Maßnahmen ausreichen, um einen echten Wandel zu bewirken, bleibt allerdings umstritten, da ihre Umsetzung letztlich von politischem Willen und gesellschaftlichem Druck abhängt.",
+    "preguntas": [
+      {
+        "enunciado": "Fridays for Future ist eine Bewegung junger Menschen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ältere Generationen werden von manchen Aktivisten kritisiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen begrüßen strengere Klimaauflagen ohne Bedenken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Wissenschaftler warnen vor irreversiblen Kipppunkten im Klimasystem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kein Land hat verfassungsrechtliche Klimaregelungen eingeführt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "medien-und-meinungsbildung",
+    "nivel": "B2",
+    "titulo": "Medien und Meinungsbildung im digitalen Zeitalter",
+    "descripcion": "Soziale Netzwerke und Algorithmen beeinflussen zunehmend, wie Meinungen in der Gesellschaft entstehen.",
+    "texto": "Die Art und Weise, wie Meinungen in der Gesellschaft gebildet werden, hat sich durch die Verbreitung sozialer Medien grundlegend verändert. Während früher vor allem Zeitungen, Radio und Fernsehen die öffentliche Debatte prägten, werden Informationen heute größtenteils über Plattformen verbreitet, deren Algorithmen bestimmen, welche Inhalte den Nutzern angezeigt werden. Diese algorithmische Steuerung führt dazu, dass Nutzer vorwiegend Inhalte sehen, die ihren bereits bestehenden Ansichten entsprechen.\n\nKritiker dieser Entwicklung warnen vor sogenannten Filterblasen, in denen abweichende Meinungen kaum noch wahrgenommen würden. Würde man ausschließlich mit gleichgesinnten Perspektiven konfrontiert, bestünde die Gefahr, dass gesellschaftliche Polarisierung weiter zunähme. Hinzu kommt das Problem der Desinformation, die sich über soziale Netzwerke besonders schnell verbreiten kann, da emotionale und aufsehenerregende Inhalte von den Algorithmen oft bevorzugt werden. Medienwissenschaftler fordern deshalb strengere Regulierungen, mit denen die Transparenz der verwendeten Algorithmen erhöht werden könnte.\n\nDennoch betonen manche Experten auch die positiven Aspekte der veränderten Medienlandschaft. Dank sozialer Netzwerke können marginalisierte Stimmen, die in traditionellen Medien kaum Beachtung fänden, nun eine breitere Öffentlichkeit erreichen. Damit die Vorteile der Digitalisierung die Risiken überwiegen, müsste jedoch sowohl die Medienkompetenz der Nutzer gestärkt als auch die Verantwortung der Plattformbetreiber deutlich erhöht werden.",
+    "preguntas": [
+      {
+        "enunciado": "Früher prägten vor allem Zeitungen, Radio und Fernsehen die öffentliche Debatte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Algorithmen zeigen Nutzern meist Inhalte, die ihren Ansichten widersprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Filterblasen können die gesellschaftliche Polarisierung verstärken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Desinformation verbreitet sich über soziale Netzwerke nie schnell.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Soziale Netzwerke bieten auch marginalisierten Stimmen eine Plattform.",
+        "respuesta": true
+      }
+    ]
   }
 ]
