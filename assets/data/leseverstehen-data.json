@@ -74594,5 +74594,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "lea-kauft-einen-regenschirm",
+    "nivel": "A1",
+    "titulo": "Lea kauft einen Regenschirm",
+    "descripcion": "Es regnet, und Lea braucht einen neuen Regenschirm.",
+    "texto": "Lea wohnt in Hamburg. Heute regnet es sehr stark. Lea hat keinen Regenschirm. Sie geht in ein kleines Geschäft in der Stadt.\n\nIm Geschäft sieht sie viele Regenschirme. Ein Schirm ist rot, ein anderer ist blau. Lea mag die Farbe Gelb. Sie findet einen gelben Regenschirm. Der Schirm kostet zwölf Euro. Lea bezahlt an der Kasse.\n\nJetzt geht Lea nach Hause. Der gelbe Regenschirm schützt sie gut vor dem Regen. Lea ist glücklich. Sie trägt den Schirm jeden Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Lea wohnt in Hamburg.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea hat schon einen Regenschirm zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der gelbe Regenschirm kostet zwölf Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lea kauft einen blauen Regenschirm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea ist mit ihrem neuen Regenschirm zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "toms-fruehstueck-am-montag",
+    "nivel": "A1",
+    "titulo": "Toms Frühstück am Montag",
+    "descripcion": "Tom isst jeden Montag ein besonderes Frühstück.",
+    "texto": "Tom steht jeden Morgen um sechs Uhr auf. Am Montag isst er immer Brot mit Käse und trinkt eine Tasse Kaffee. Seine Schwester Mia trinkt lieber Tee mit Milch. Die Familie frühstückt zusammen in der Küche.\n\nHeute ist Montag. Tom schneidet eine Tomate und legt sie auf das Brot. Mia bringt frische Äpfel vom Markt mit. „Möchtest du einen Apfel?“, fragt Mia. Tom nimmt einen roten Apfel und isst ihn gerne.\n\nNach dem Frühstück packt Tom seine Tasche. Er geht zu Fuß zur Schule. Der Weg dauert zehn Minuten. Tom mag den Montagmorgen, weil das Frühstück mit der Familie schön ist.",
+    "preguntas": [
+      {
+        "enunciado": "Tom steht um sechs Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia trinkt am Morgen immer Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst am Montag Brot mit Käse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom fährt mit dem Bus zur Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schulweg dauert zehn Minuten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-katze-von-frau-klein",
+    "nivel": "A1",
+    "titulo": "Die Katze von Frau Klein",
+    "descripcion": "Frau Klein hat eine kleine, schwarze Katze.",
+    "texto": "Frau Klein wohnt in einem kleinen Haus. Sie hat eine Katze. Die Katze heißt Minka. Minka ist schwarz und sehr klein. Jeden Morgen gibt Frau Klein der Katze Milch und Futter.\n\nMinka schläft gern auf dem Sofa. Am Nachmittag spielt sie im Garten. Sie läuft hinter einem Ball her. Frau Klein lacht, wenn Minka spielt. Die Nachbarin, Frau Berg, mag Minka auch sehr.\n\nAm Abend sitzt Frau Klein mit Minka vor dem Fernseher. Minka schläft auf ihrem Schoß. Frau Klein ist nicht allein, weil sie ihre Katze hat. Sie liebt Minka sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Die Katze von Frau Klein heißt Minka.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Minka ist eine weiße Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka spielt am Nachmittag im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berg mag die Katze nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Minka schläft am Abend auf dem Schoß von Frau Klein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-vertauschte-koffer-am-gepaeckband",
+    "nivel": "A2",
+    "titulo": "Der vertauschte Koffer am Gepäckband",
+    "descripcion": "Nach dem Flug hat Julia den falschen Koffer vom Gepäckband genommen.",
+    "texto": "Julia ist letzte Woche nach Lissabon geflogen, weil sie dort ihre Cousine besucht hat. Der Flug ist pünktlich gelandet, und Julia war froh, als sie endlich am Gepäckband stand. Sie hat schnell einen schwarzen Koffer gesehen und ihn sofort genommen, weil er genauso aussah wie ihrer.\n\nErst im Taxi hat Julia gemerkt, dass der Koffer nicht ihrer war. Innen lagen fremde Kleidung und ein Buch auf Portugiesisch. Julia hat sich sehr erschrocken und ist sofort zum Flughafen zurückgefahren. Am Informationsschalter hat sie der Mitarbeiterin erklärt, dass sie den falschen Koffer mitgenommen hatte.\n\nZum Glück hat die Besitzerin des Koffers noch am Flughafen gewartet, weil sie denselben Fehler bemerkt hatte. Die beiden Frauen haben gelacht, als sie die Koffer getauscht haben. Julia war erleichtert, dass alles so schnell gelöst wurde, und ist endlich zu ihrer Cousine gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist nach Lissabon geflogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat sofort bemerkt, dass der Koffer nicht ihrer war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im fremden Koffer lagen eine Kleidung und ein Buch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Besitzerin des Koffers war schon nach Hause gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia und die Frau haben die Koffer am Flughafen getauscht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-termin-beim-zahnarzt-in-muenchen",
+    "nivel": "A2",
+    "titulo": "Ein Termin beim Zahnarzt in München",
+    "descripcion": "Markus hat große Angst vor seinem Zahnarzttermin.",
+    "texto": "Markus wohnt in München und hat seit Tagen Zahnschmerzen gehabt. Weil der Schmerz immer schlimmer wurde, hat er endlich einen Termin bei der Zahnärztin gemacht. Markus hatte schon als Kind Angst vor dem Zahnarzt, deshalb war er vor dem Termin sehr nervös.\n\nIn der Praxis hat die Zahnärztin ihn freundlich begrüßt und ihm erklärt, dass die Untersuchung nicht lange dauern würde. Sie hat seinen Zahn genau angeschaut und gesagt, dass er leider ein Loch hatte. Markus musste sich hinlegen, während die Ärztin den Zahn behandelt hat.\n\nNach einer halben Stunde war die Behandlung fertig. Markus hatte keine Schmerzen mehr, obwohl er sich vorher so viele Sorgen gemacht hatte. Die Zahnärztin hat ihm gesagt, dass er in sechs Monaten wiederkommen soll. Markus war erleichtert und hat sich sogar schon über den nächsten Termin weniger Gedanken gemacht.",
+    "preguntas": [
+      {
+        "enunciado": "Markus wohnt in München.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus hatte noch nie Angst vor dem Zahnarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin hat ein Loch in Markus' Zahn gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Behandlung hat den ganzen Tag gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus soll nach sechs Monaten wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-regenwochenende-bei-tante-rita",
+    "nivel": "A2",
+    "titulo": "Ein Regenwochenende bei Tante Rita",
+    "descripcion": "Paul hat ein verregnetes Wochenende bei seiner Tante auf dem Land verbracht.",
+    "texto": "Paul ist am Freitag zu seiner Tante Rita aufs Land gefahren, weil er die Ferien bei ihr verbringen wollte. Als er ankam, hat es schon stark geregnet, und das Wetter ist das ganze Wochenende schlecht geblieben. Paul war zuerst ein bisschen enttäuscht, weil er eigentlich im Garten spielen wollte.\n\nTante Rita hat vorgeschlagen, dass sie zusammen backen könnten, wenn das Wetter so schlecht bleibt. Paul fand die Idee toll, und sie haben einen Apfelkuchen gebacken. Während der Kuchen im Ofen war, haben sie Karten gespielt und alte Fotos angeschaut. Paul hat viel über die Jugend seiner Tante gelernt.\n\nAm Sonntagabend, bevor Paul wieder nach Hause gefahren ist, hat er gesagt, dass dieses Regenwochenende trotzdem schön war. Tante Rita hat gelacht und gemeint, dass sie sich schon auf den nächsten Besuch freut. Paul hat versprochen, bald wiederzukommen.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist zu seiner Tante Rita aufs Land gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war das ganze Wochenende sonnig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und seine Tante haben einen Apfelkuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat sich über das Wochenende nur geärgert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul möchte Tante Rita wieder besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-an-den-chiemsee",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt an den Chiemsee",
+    "descripcion": "Eine Schulklasse verbringt drei Tage am Chiemsee und erlebt dabei unerwartete Abenteuer.",
+    "texto": "Die Klasse 9b ist am Montagmorgen mit dem Bus an den Chiemsee gefahren, nachdem sie wochenlang auf diesen Ausflug gewartet hatte. Obwohl der Himmel bewölkt war, freuten sich alle Schüler auf die drei Tage ohne Unterricht. Die Jugendherberge lag direkt am See, sodass man vom Zimmer aus das Wasser sehen konnte.\n\nAm ersten Nachmittag wollte die Klasse eine Bootstour machen, doch das Boot hatte technische Probleme. Trotzdem ließen sich die Schüler die Laune nicht verderben und unternahmen stattdessen eine lange Wanderung um den See. Einige Schüler entdeckten dabei einen versteckten Badeplatz, an dem sie trotz der kühlen Temperatur kurz ins Wasser sprangen.\n\nAm letzten Abend organisierte die Lehrerin ein Lagerfeuer, bei dem die Schüler Lieder sangen und Stockbrot grillten. Nachdem das Feuer erloschen war, saßen viele noch lange zusammen und sprachen über die Erlebnisse der letzten Tage. Als der Bus am Donnerstag zurück zur Schule fuhr, waren sich alle einig, dass diese Klassenfahrt unvergesslich bleiben würde.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b ist mit dem Zug an den Chiemsee gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Jugendherberge lag direkt am See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die geplante Bootstour hat ohne Probleme funktioniert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am letzten Abend gab es ein Lagerfeuer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler fanden die Klassenfahrt langweilig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-nachbar-aus-valencia",
+    "nivel": "B1",
+    "titulo": "Der neue Nachbar aus Valencia",
+    "descripcion": "Ein spanischer Nachbar zieht in das Haus nebenan und verändert den Alltag der Familie Weber.",
+    "texto": "Seit letztem Monat wohnt Diego, ein junger Mann aus Valencia, im Haus neben der Familie Weber. Obwohl er erst seit kurzer Zeit in Deutschland lebt, spricht er schon überraschend gut Deutsch. Frau Weber war anfangs etwas unsicher, wie sie mit dem neuen Nachbarn in Kontakt treten sollte, weil sie kaum Spanisch spricht.\n\nNachdem Diego eines Tages an der Tür geklingelt hatte, um sich nach einem fehlenden Werkzeug zu erkundigen, entwickelte sich schnell ein freundschaftliches Verhältnis zwischen den beiden Familien. Diego erzählte, dass er in Valencia als Koch gearbeitet hatte und jetzt in einem deutschen Restaurant eine neue Stelle gefunden hat. Herr Weber war begeistert und lud ihn zum Grillabend ein.\n\nTrotzdem gab es anfangs auch kleine Missverständnisse, etwa als Diego laute Musik hörte und die Nachbarn sich beschwerten. Nachdem man offen darüber gesprochen hatte, fand man gemeinsam eine Lösung. Heute kocht Diego manchmal spanische Gerichte für die ganze Straße, und die Nachbarschaft freut sich jedes Mal auf seine Paella.",
+    "preguntas": [
+      {
+        "enunciado": "Diego kommt aus Valencia.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Diego spricht noch kein Deutsch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Diego hat früher als Koch in Valencia gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab nie Missverständnisse zwischen Diego und den Nachbarn.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Diego kocht manchmal für die ganze Nachbarschaft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-jahr-als-austauschschueler",
+    "nivel": "B1",
+    "titulo": "Ein Jahr als Austauschschüler",
+    "descripcion": "Niklas berichtet von seinem Austauschjahr in Kanada und den Herausforderungen, die er dabei erlebt hat.",
+    "texto": "Niklas hat sich schon lange gewünscht, ein Jahr im Ausland zu verbringen, und nachdem er sich monatelang beworben hatte, durfte er endlich für ein Schuljahr nach Kanada gehen. Obwohl er vorher gutes Englisch gelernt hatte, war der Anfang nicht leicht, weil die Gastfamilie einen starken kanadischen Akzent sprach.\n\nIn den ersten Wochen fühlte sich Niklas oft einsam, obwohl die Gastfamilie sehr freundlich war. Nachdem er sich einer Fußballmannschaft an der neuen Schule angeschlossen hatte, lernte er schnell neue Freunde kennen. Besonders sein Mitspieler Liam half ihm dabei, sich in der fremden Umgebung wohlzufühlen.\n\nAm Ende des Austauschjahres fiel es Niklas schwer, sich von seinen neuen Freunden und der Gastfamilie zu verabschieden, trotzdem freute er sich auch darauf, seine Familie in Deutschland wiederzusehen. Er sagt heute, dass dieses Jahr sein Leben verändert hat, weil er selbstbewusster und offener geworden ist.",
+    "preguntas": [
+      {
+        "enunciado": "Niklas ist für ein Schuljahr nach Kanada gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niklas hatte von Anfang an keine Probleme mit der Sprache.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas hat sich einer Fußballmannschaft angeschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niklas wollte am Ende des Jahres nicht nach Deutschland zurück.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas sagt, dass das Austauschjahr ihn verändert hat.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-die-vier-tage-arbeitswoche",
+    "nivel": "B2",
+    "titulo": "Die Debatte um die Vier-Tage-Arbeitswoche",
+    "descripcion": "Ein Essay über die Chancen und Risiken der Vier-Tage-Woche in der deutschen Arbeitswelt.",
+    "texto": "In den letzten Jahren wird in Deutschland zunehmend über die Einführung einer Vier-Tage-Arbeitswoche diskutiert, bei gleichem Lohn und reduzierter Arbeitszeit. Befürworter argumentieren, dass die Produktivität der Beschäftigten nicht automatisch sinken würde, wenn ihnen ein zusätzlicher freier Tag zur Verfügung stünde. Zahlreiche Pilotprojekte in Großbritannien und Belgien haben gezeigt, dass viele Unternehmen trotz verkürzter Arbeitszeit ähnliche oder sogar bessere Ergebnisse erzielt haben.\n\nKritiker hingegen geben zu bedenken, dass ein solches Modell nicht in jeder Branche umgesetzt werden könnte, ohne dass es zu personellen Engpässen käme. Besonders im Gesundheitswesen und in der Pflege, wo ohnehin ein erheblicher Fachkräftemangel herrscht, wäre eine Verkürzung der Arbeitszeit nach Ansicht vieler Experten kaum realisierbar, es sei denn, es würden deutlich mehr Fachkräfte ausgebildet werden. Zudem wird befürchtet, dass kleinere Unternehmen, die über weniger finanzielle Reserven verfügen, durch höhere Lohnkosten pro Arbeitsstunde stärker belastet würden als große Konzerne.\n\nTrotz dieser Bedenken wächst die gesellschaftliche Zustimmung zu flexibleren Arbeitszeitmodellen stetig. Immer mehr jüngere Arbeitnehmerinnen und Arbeitnehmer wünschen sich eine bessere Vereinbarkeit von Beruf und Privatleben, selbst wenn dies mit gewissen wirtschaftlichen Unsicherheiten verbunden wäre. Ob sich die Vier-Tage-Woche langfristig als Standardmodell durchsetzen wird, bleibt abzuwarten, doch die aktuelle Entwicklung deutet darauf hin, dass sich der klassische Fünf-Tage-Rhythmus in den kommenden Jahrzehnten verändern dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Bei der diskutierten Vier-Tage-Woche soll der Lohn gleich bleiben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Pilotprojekte in Europa sind gescheitert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen gilt die Umsetzung als besonders schwierig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kleinere Unternehmen hätten laut Kritikern keine zusätzlichen Belastungen zu erwarten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jüngere Arbeitnehmer wünschen sich häufiger eine bessere Work-Life-Balance.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mietpreise-und-ihre-gesellschaftlichen-folgen",
+    "nivel": "B2",
+    "titulo": "Mietpreise und ihre gesellschaftlichen Folgen",
+    "descripcion": "Eine Analyse darüber, wie steigende Mieten in deutschen Großstädten den sozialen Zusammenhalt gefährden.",
+    "texto": "Die Mietpreise in deutschen Großstädten wie München, Berlin und Hamburg sind in den vergangenen zehn Jahren drastisch gestiegen, sodass sich immer mehr Haushalte mit mittlerem Einkommen keine zentrale Wohnung mehr leisten können. Besonders betroffen sind junge Familien und Alleinerziehende, die oft gezwungen werden, in die Außenbezirke oder ins Umland zu ziehen, wo zwar die Mieten niedriger sind, die Infrastruktur jedoch häufig unzureichend ausgebaut ist.\n\nExperten warnen davor, dass durch diese Entwicklung eine zunehmende soziale Entmischung der Innenstädte entstehen könnte, wenn nicht gegengesteuert würde. Während wohlhabende Haushalte sich hochpreisige Neubauwohnungen leisten können, werden einkommensschwächere Gruppen an den Rand gedrängt. Diese Verdrängung, die in der Fachliteratur auch als Gentrifizierung bezeichnet wird, verändert langfristig die soziale Struktur ganzer Stadtteile.\n\nAls mögliche Lösungsansätze werden unter anderem eine strengere Mietpreisbremse, der verstärkte Bau von Sozialwohnungen sowie steuerliche Anreize für gemeinnützige Wohnungsbaugesellschaften diskutiert. Ob diese Maßnahmen ausreichen würden, um die Wohnungsnot spürbar zu lindern, ist unter Fachleuten jedoch umstritten, da der Neubau in den letzten Jahren ohnehin hinter den politisch gesetzten Zielen zurückgeblieben ist. Klar scheint jedoch, dass ohne ein entschiedenes politisches Handeln die soziale Spaltung in den Großstädten weiter zunehmen dürfte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Familien ziehen häufig in die Außenbezirke, weil die Mieten dort niedriger sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die soziale Entmischung der Innenstädte wird im Text als Gentrifizierung bezeichnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass die vorgeschlagenen Maßnahmen die Wohnungsnot sicher lösen werden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Neubau von Wohnungen hat die politischen Ziele der letzten Jahre übertroffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "bildungsgerechtigkeit-im-digitalen-klassenzimmer",
+    "nivel": "B2",
+    "titulo": "Bildungsgerechtigkeit im digitalen Klassenzimmer",
+    "descripcion": "Ein Text über die Chancen und Ungleichheiten, die durch die Digitalisierung der Schulen entstehen.",
+    "texto": "Seit der Corona-Pandemie hat sich die Digitalisierung an deutschen Schulen deutlich beschleunigt, wobei digitale Lernplattformen, Tablets und interaktive Whiteboards inzwischen an vielen Schulen zum Alltag gehören. Befürworter dieser Entwicklung betonen, dass digitale Medien individuelleres Lernen ermöglichen würden, da Schülerinnen und Schüler in ihrem eigenen Tempo arbeiten könnten, ohne dass die gesamte Klasse auf sie warten müsste.\n\nAllerdings wird zunehmend kritisiert, dass die Digitalisierung bestehende Bildungsungleichheiten verschärfen könnte, anstatt sie zu verringern. Schülerinnen und Schüler aus einkommensschwächeren Familien verfügen häufig weder über ein eigenes Endgerät noch über eine stabile Internetverbindung zu Hause, wodurch sie gegenüber ihren Mitschülern benachteiligt werden. Hinzu kommt, dass nicht alle Lehrkräfte ausreichend im Umgang mit digitalen Werkzeugen geschult wurden, sodass der Unterricht je nach Schule und Lehrperson sehr unterschiedlich gestaltet wird.\n\nUm echte Bildungsgerechtigkeit zu erreichen, müsste nach Ansicht vieler Bildungsforscher nicht nur die technische Ausstattung aller Schulen verbessert werden, sondern auch die Lehrerfortbildung deutlich ausgeweitet werden. Andernfalls bestehe die Gefahr, dass digitale Medien zwar als modern und fortschrittlich gelten, in der Praxis jedoch vor allem jenen Schülerinnen und Schülern zugutekommen, die bereits über gute Voraussetzungen verfügen. Die eigentliche Herausforderung liegt also weniger in der Technik selbst als in deren gerechter Verteilung und sinnvoller pädagogischer Einbindung.",
+    "preguntas": [
+      {
+        "enunciado": "Die Digitalisierung an Schulen hat sich seit der Corona-Pandemie beschleunigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schülerinnen und Schüler haben zu Hause die gleichen technischen Voraussetzungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text sind alle Lehrkräfte bereits ausreichend im Umgang mit digitalen Werkzeugen geschult.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsforscher fordern unter anderem eine bessere Lehrerfortbildung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht die größte Herausforderung ausschließlich in der technischen Ausstattung.",
+        "respuesta": false
+      }
+    ]
   }
 ]
