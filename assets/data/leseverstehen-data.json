@@ -74246,5 +74246,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "pizza-backen-mit-papa",
+    "nivel": "A1",
+    "titulo": "Pizza backen mit Papa",
+    "descripcion": "Lena backt am Samstag mit ihrem Papa eine leckere Pizza.",
+    "texto": "Heute ist Samstag. Lena und ihr Papa backen eine Pizza. Sie kaufen Tomaten, Käse und Pilze. Papa macht den Teig. Lena legt den Käse auf die Pizza.\n\nDie Pizza kommt in den Ofen. Sie backt zwanzig Minuten. Die Küche riecht sehr gut. Lena ist glücklich.\n\nZum Schluss isst die Familie die Pizza zusammen. Mama sagt: „Die Pizza ist lecker!“ Lena lacht und nimmt noch ein Stück.",
+    "preguntas": [
+      {
+        "enunciado": "Lena backt die Pizza mit ihrer Mama.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie kauft Tomaten, Käse und Pilze.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Pizza backt zwanzig Minuten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Küche riecht schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mama findet die Pizza lecker.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-luftballon-fliegt-weg",
+    "nivel": "A1",
+    "titulo": "Der Luftballon fliegt weg",
+    "descripcion": "Tim verliert auf dem Spielplatz seinen roten Luftballon.",
+    "texto": "Tim ist auf dem Spielplatz. Er hat einen roten Luftballon. Der Luftballon ist sehr groß. Tim hält den Luftballon in der Hand.\n\nPlötzlich kommt starker Wind. Der Luftballon fliegt weg. Tim läuft schnell hinterher. Er ruft: „Komm zurück!“\n\nDer Luftballon fliegt über einen Baum. Tim kann ihn nicht mehr sehen. Er ist traurig. Seine Mama kauft ihm einen neuen Luftballon.",
+    "preguntas": [
+      {
+        "enunciado": "Tim hat einen blauen Luftballon.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Wind nimmt den Luftballon mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim fängt den Luftballon wieder ein.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim ist traurig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim bekommt keinen neuen Luftballon.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-kuscheltier-heisst-bello",
+    "nivel": "A1",
+    "titulo": "Mein Kuscheltier heißt Bello",
+    "descripcion": "Mia erzählt von ihrem Kuscheltier Bello, das immer bei ihr ist.",
+    "texto": "Ich heiße Mia. Mein Kuscheltier heißt Bello. Bello ist ein brauner Hund. Er sitzt immer auf meinem Bett.\n\nJeden Abend lese ich Bello eine Geschichte vor. Bello hört gut zu. Ich mag Bello sehr.\n\nIm Urlaub nehme ich Bello immer mit. Meine Freundin hat auch ein Kuscheltier. Ihr Kuscheltier heißt Mimi und ist eine Katze.",
+    "preguntas": [
+      {
+        "enunciado": "Bello ist eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bello sitzt auf dem Bett.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia liest Bello eine Geschichte vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia nimmt Bello nie mit in den Urlaub.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi ist das Kuscheltier von Mias Freundin.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-krankschreibung",
+    "nivel": "A2",
+    "titulo": "Die Krankschreibung",
+    "descripcion": "Herr Keller geht wegen einer Grippe zum Arzt und bekommt eine Krankschreibung.",
+    "texto": "Herr Keller ist seit zwei Tagen krank. Er hat starke Kopfschmerzen und Fieber bekommen. Deshalb ist er heute zum Arzt gegangen, weil er sich sehr schlecht gefühlt hat.\n\nDer Arzt hat ihn gründlich untersucht und gesagt, dass er eine Grippe hat. Herr Keller hat eine Krankschreibung für fünf Tage bekommen. Der Arzt hat ihm empfohlen, viel zu trinken und sich auszuruhen.\n\nHerr Keller hat seinen Chef sofort angerufen und ihm Bescheid gesagt. Sein Chef hat verstanden, dass er zu Hause bleiben muss. Wenn es Herrn Keller nächste Woche besser geht, kann er wieder arbeiten.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Keller ist seit einer Woche krank.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Keller hat eine Grippe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Krankschreibung gilt für zehn Tage.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Arzt hat ihm empfohlen, viel zu trinken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Kellers Chef hat sich geärgert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-hund-im-park",
+    "nivel": "A2",
+    "titulo": "Der Hund im Park",
+    "descripcion": "Frau Bauer trifft im Park ihre Nachbarin, die auch einen Hund hat.",
+    "texto": "Am Samstag ist Frau Bauer mit ihrem Hund Rex in den Park gegangen. Dort hat sie ihre Nachbarin Frau Vogel getroffen, die auch einen Hund hat.\n\nDie beiden Hunde haben sofort angefangen zu spielen, weil sie sich schon kannten. Frau Bauer und Frau Vogel haben sich lange unterhalten und über ihre Familien gesprochen.\n\nAls es anfing zu regnen, sind alle schnell nach Hause gelaufen. Frau Vogel hat gesagt, dass sie sich nächste Woche wieder im Park treffen möchten.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Bauer ist mit ihrer Katze in den Park gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Vogel ist die Nachbarin von Frau Bauer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Hunde haben sich gestritten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat angefangen zu regnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frauen wollen sich nie wieder treffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-praktikumssuche",
+    "nivel": "A2",
+    "titulo": "Die Praktikumssuche",
+    "descripcion": "Jonas bewirbt sich nach dem Studium um ein Praktikum und bekommt eine Zusage.",
+    "texto": "Jonas hat sein Studium fast beendet und hat deshalb ein Praktikum gesucht. Er hat viele Bewerbungen geschrieben und an verschiedene Firmen geschickt.\n\nNach zwei Wochen hat eine Firma geantwortet und ihn zu einem Gespräch eingeladen. Jonas war sehr nervös, weil es sein erstes Vorstellungsgespräch war.\n\nDas Gespräch ist gut gelaufen, und die Firma hat ihm das Praktikum angeboten. Jonas hat sich sehr gefreut und seinen Eltern sofort davon erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat sein Studium gerade erst begonnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat viele Bewerbungen geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Keine Firma hat auf seine Bewerbungen geantwortet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas war vor dem Gespräch nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat das Praktikum nicht bekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-erstes-jahr-in-der-neuen-firma",
+    "nivel": "B1",
+    "titulo": "Mein erstes Jahr in der neuen Firma",
+    "descripcion": "Ein Berufseinsteiger erzählt von seinem ersten Jahr in einer neuen Firma.",
+    "texto": "Nachdem ich mein Studium abgeschlossen hatte, habe ich eine Stelle in einer großen Firma in Hamburg gefunden. Am Anfang war alles neu und ziemlich überwältigend, obwohl ich mich auf den ersten Arbeitstag gut vorbereitet hatte.\n\nIn den ersten Wochen musste ich viele neue Kollegen kennenlernen und mich an die Arbeitsabläufe gewöhnen. Trotzdem fühlte ich mich schon nach kurzer Zeit wohl, weil mein Team mir immer geholfen hat, wenn ich Fragen hatte.\n\nNach einem Jahr kann ich sagen, dass sich die Mühe gelohnt hat. Ich habe viel gelernt und bin selbstbewusster geworden, auch wenn es manchmal stressige Phasen gab. Heute freue ich mich jeden Morgen auf die Arbeit.",
+    "preguntas": [
+      {
+        "enunciado": "Die Person hat die Stelle vor dem Studium gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der erste Arbeitstag war einfach, weil alles vertraut war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Team hat der Person geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach einem Jahr bereut die Person die Entscheidung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Person ist selbstbewusster geworden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-ins-freilichtmuseum",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt ins Freilichtmuseum",
+    "descripcion": "Die Klasse 8b besucht ein Freilichtmuseum und erfährt, wie man früher lebte.",
+    "texto": "Letzte Woche ist die Klasse 8b mit ihrer Lehrerin Frau Schmidt zu einer Klassenfahrt ins Freilichtmuseum gefahren. Obwohl das Wetter am Morgen schlecht war, hat sich die Sonne am Nachmittag doch noch gezeigt.\n\nIm Museum haben die Schüler gesehen, wie die Menschen vor hundert Jahren gelebt haben. Ein Mitarbeiter hat erklärt, wie man früher Brot gebacken und Kleidung genäht hat, nachdem die Gruppe durch die alten Häuser gegangen war.\n\nAm Ende des Tages waren alle Schüler müde, aber begeistert. Max sagte: „Das war viel interessanter, als ich gedacht hatte!“ Die Lehrerin plant schon die nächste Klassenfahrt.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9a ist zum Freilichtmuseum gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war den ganzen Tag schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Mitarbeiter hat den Schülern das Leben von früher erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler fanden den Ausflug langweilig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Lehrerin plant eine weitere Klassenfahrt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "inklusion-in-unserer-klasse",
+    "nivel": "B1",
+    "titulo": "Inklusion in unserer Klasse",
+    "descripcion": "Ein Schüler berichtet, wie seine Klasse lernt, mit einem neuen Mitschüler im Rollstuhl umzugehen.",
+    "texto": "Seit diesem Schuljahr ist ein neuer Mitschüler namens Paul in unserer Klasse, der im Rollstuhl sitzt. Am Anfang wussten viele von uns nicht genau, wie wir mit ihm umgehen sollten, obwohl wir ihn alle nett fanden.\n\nNachdem unsere Lehrerin ein Gespräch über Inklusion geführt hatte, haben wir verstanden, dass Paul die gleichen Dinge machen möchte wie alle anderen. Trotzdem braucht er manchmal ein bisschen mehr Zeit oder Hilfe.\n\nHeute, nach einem halben Jahr, ist Paul ein ganz normaler Teil unserer Klasse. Wir haben zusammen einen Ausflug gemacht, und Paul hat genauso viel Spaß gehabt wie wir alle. Ich habe durch ihn viel über Rücksichtnahme gelernt.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist seit der ersten Klasse an der Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mitschüler wussten am Anfang nicht, wie sie mit Paul umgehen sollten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin hat nie über Inklusion gesprochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul braucht manchmal mehr Zeit oder Hilfe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hatte beim Ausflug keinen Spaß.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-private-altersvorsorge-im-wandel",
+    "nivel": "B2",
+    "titulo": "Die private Altersvorsorge im Wandel",
+    "descripcion": "Ein Blick auf die Debatte über die Zukunft der Altersvorsorge in Deutschland.",
+    "texto": "Angesichts der demografischen Entwicklung wird die gesetzliche Rente allein kaum ausreichen, um den Lebensstandard im Alter zu sichern. Immer mehr Experten fordern daher, dass die private Altersvorsorge stärker gefördert werden müsse, damit künftige Generationen nicht in Altersarmut geraten.\n\nWürde man ausschließlich auf die gesetzliche Rente vertrauen, müssten viele Menschen im Alter mit erheblichen finanziellen Einschränkungen rechnen. Private Rentenversicherungen und betriebliche Vorsorgemodelle werden deshalb von der Politik zunehmend als notwendige Ergänzung betrachtet, auch wenn sie für Geringverdiener oft schwer zu finanzieren sind.\n\nKritiker wenden ein, dass private Vorsorgemodelle vor allem denjenigen zugutekämen, die sich diese überhaupt leisten könnten, während Menschen mit niedrigem Einkommen benachteiligt blieben. Es stellt sich also die Frage, ob nicht auch strukturelle Reformen des gesamten Rentensystems notwendig wären, anstatt die Verantwortung allein auf den Einzelnen zu verlagern.\n\nLetztlich zeigt die Debatte, dass eine nachhaltige Lösung nur gefunden werden kann, wenn staatliche, betriebliche und private Vorsorge sinnvoll miteinander kombiniert werden. Ob die aktuellen politischen Vorschläge dafür ausreichen, bleibt jedoch umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "Experten gehen davon aus, dass die gesetzliche Rente allein ausreichen wird.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Private Rentenversicherungen werden als notwendige Ergänzung betrachtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Kritikern profitieren vor allem Geringverdiener von privaten Vorsorgemodellen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, staatliche, betriebliche und private Vorsorge zu kombinieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte über die Altersvorsorge ist laut Text bereits vollständig abgeschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "laermbelastung-als-stadtplanerische-herausforderung",
+    "nivel": "B2",
+    "titulo": "Lärmbelastung als stadtplanerische Herausforderung",
+    "descripcion": "Stadtplaner suchen nach Lösungen für den wachsenden Verkehrslärm in Großstädten.",
+    "texto": "In vielen deutschen Großstädten klagen Anwohner zunehmend über Verkehrslärm, der durch den stetig wachsenden Straßen- und Luftverkehr verursacht wird. Stadtplaner stehen vor der schwierigen Aufgabe, Wohnraum zu schaffen, ohne dabei die Lebensqualität der Bewohner zu beeinträchtigen.\n\nManche Experten schlagen vor, dass mehr Flächen entsiegelt und begrünt werden sollten, da Pflanzen und Bäume den Schall nachweislich dämpfen können. Andere setzen auf technische Lösungen wie Lärmschutzwände oder flüsterleise Fahrbahnbeläge, die in den letzten Jahren entwickelt wurden.\n\nWürde man den Autoverkehr in den Innenstädten deutlich reduzieren, ließe sich die Lärmbelastung erheblich senken, argumentieren Umweltschützer. Allerdings befürchten Gewerbetreibende, dass eine solche Maßnahme ihre Geschäfte negativ beeinflussen könnte, wodurch der Konflikt zwischen Umweltschutz und wirtschaftlichen Interessen deutlich wird.\n\nLetztlich wird deutlich, dass eine wirksame Lärmbekämpfung nur gelingen kann, wenn städtebauliche, technische und politische Maßnahmen gemeinsam gedacht werden. Einfache Lösungen, so scheint es, gibt es für dieses komplexe Problem nicht.",
+    "preguntas": [
+      {
+        "enunciado": "Der Verkehrslärm in Großstädten nimmt laut Text ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pflanzen und Bäume können den Schall dämpfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, welche Lösung die beste ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Umweltschützer fordern eine Reduzierung des Autoverkehrs in Innenstädten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gewerbetreibende befürchten keine negativen Folgen durch weniger Autoverkehr.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "meinungsfreiheit-und-moderation-in-sozialen-netzwerken",
+    "nivel": "B2",
+    "titulo": "Meinungsfreiheit und Moderation in sozialen Netzwerken",
+    "descripcion": "Eine Auseinandersetzung mit dem Spannungsfeld zwischen Meinungsfreiheit und Inhaltsmoderation.",
+    "texto": "Die Frage, wie viel Moderation in sozialen Netzwerken notwendig ist, wird seit Jahren intensiv diskutiert. Während die einen eine strengere Kontrolle fordern, um Hassrede und Falschinformationen einzudämmen, warnen andere davor, dass dadurch die Meinungsfreiheit eingeschränkt werden könnte.\n\nPlattformbetreiber setzen zunehmend auf Algorithmen, mit denen problematische Inhalte automatisch erkannt und entfernt werden sollen. Kritiker bemängeln jedoch, dass diese Systeme oft fehlerhaft seien und harmlose Beiträge fälschlicherweise löschten, während tatsächlich schädliche Inhalte übersehen würden.\n\nWenn die Moderation ausschließlich privaten Unternehmen überlassen würde, bestünde die Gefahr, dass wirtschaftliche Interessen über gesellschaftliche Verantwortung gestellt werden. Deshalb fordern manche Politiker eine unabhängige Aufsicht, die gleichzeitig die Meinungsfreiheit respektiert und vor Missbrauch schützt.\n\nEine endgültige Lösung dieses Spannungsfelds zwischen Freiheit und Schutz ist bislang nicht in Sicht. Klar scheint jedoch, dass weder völlige Zensurfreiheit noch übermäßige Kontrolle der Gesellschaft dienlich wären.",
+    "preguntas": [
+      {
+        "enunciado": "Alle sind sich einig, dass mehr Kontrolle notwendig ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Algorithmen werden eingesetzt, um problematische Inhalte zu erkennen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sagen, die Algorithmen funktionieren immer fehlerfrei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Politiker fordern eine unabhängige Aufsicht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, das Problem sei bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
   }
 ]
