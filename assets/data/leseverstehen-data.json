@@ -77030,5 +77030,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "der-geburtstag-von-tom",
+    "nivel": "A1",
+    "titulo": "Der Geburtstag von Tom",
+    "descripcion": "Tom feiert seinen neunten Geburtstag mit seiner Familie.",
+    "texto": "Tom hat heute Geburtstag. Er wird neun Jahre alt. Seine Familie feiert mit ihm zu Hause. Die Mutter backt einen Schokoladenkuchen. Der Vater kauft bunte Luftballons. Toms kleine Schwester malt eine Geburtstagskarte.\n\nAm Nachmittag kommen Toms Freunde zu Besuch. Alle singen ein Geburtstagslied. Tom bläst die Kerzen aus. Dann isst jeder ein Stück Kuchen. Die Kinder spielen zusammen im Garten. Tom bekommt viele schöne Geschenke.\n\nAm Abend ist Tom sehr müde. Er dankt seiner Familie für den schönen Tag. „Das war mein bester Geburtstag!\", sagt Tom. Dann geht er glücklich ins Bett.",
+    "preguntas": [
+      {
+        "enunciado": "Tom wird neun Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter backt eine Pizza.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Toms Freunde kommen am Abend zu Besuch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder spielen im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom ist am Abend nicht müde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-haustier-von-lena",
+    "nivel": "A1",
+    "titulo": "Das Haustier von Lena",
+    "descripcion": "Lena erzählt von ihrem Hund Bruno und ihrem Alltag mit ihm.",
+    "texto": "Lena hat einen kleinen Hund. Der Hund heißt Bruno. Bruno ist braun und weiß. Er ist noch jung und sehr verspielt. Lena füttert Bruno jeden Morgen. Danach geht sie mit ihm im Park spazieren.\n\nBruno liebt es, mit dem Ball zu spielen. Lena wirft den Ball, und Bruno läuft schnell hinterher. Manchmal trifft sie ihre Freundin Mia im Park. Mia hat eine Katze, aber keinen Hund. Die beiden Mädchen sitzen auf einer Bank und reden.\n\nAm Abend schläft Bruno neben Lenas Bett. „Gute Nacht, Bruno\", sagt Lena leise. Bruno schließt die Augen und schläft schnell ein. Lena ist sehr glücklich mit ihrem Hund.",
+    "preguntas": [
+      {
+        "enunciado": "Lena hat eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist braun und weiß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena geht jeden Morgen mit Bruno spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia hat auch einen Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno schläft in der Küche.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "eine-woche-im-leben-von-nina",
+    "nivel": "A1",
+    "titulo": "Eine Woche im Leben von Nina",
+    "descripcion": "Nina beschreibt, was sie an jedem Tag der Woche macht.",
+    "texto": "Nina steht jeden Tag um sieben Uhr auf. Am Montag geht sie zur Schule und lernt Englisch. Am Dienstag hat sie Sportunterricht, und das macht ihr Spaß. Am Mittwoch trifft sie ihre Oma und trinkt Tee mit ihr.\n\nAm Donnerstag übt Nina Klavier. Sie spielt schon zwei Jahre lang Klavier. Am Freitag geht Nina mit ihren Eltern einkaufen. Sie kauft neue Schuhe und ein buntes Buch.\n\nAm Wochenende bleibt Nina zu Hause. Sie liest gern Bücher und malt Bilder. Am Sonntag kocht die ganze Familie zusammen. Nina mag diese ruhigen Tage sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Nina steht um acht Uhr auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Dienstag hat Nina Sportunterricht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina spielt seit zwei Jahren Klavier.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Freitag bleibt Nina zu Hause.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag kocht nur Nina allein.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-zahnarzttermin-von-paul",
+    "nivel": "A2",
+    "titulo": "Der Zahnarzttermin von Paul",
+    "descripcion": "Paul hat Zahnschmerzen und muss zum Zahnarzt gehen.",
+    "texto": "Paul hat seit zwei Tagen Zahnschmerzen gehabt. Er hat sofort einen Termin beim Zahnarzt gemacht, weil der Schmerz immer stärker wurde. Am Morgen ist er etwas nervös gewesen, weil er den Zahnarzt nicht sehr mag. Seine Mutter hat ihn zur Praxis begleitet.\n\nDer Zahnarzt hat Pauls Zähne genau untersucht. Er hat gesagt, dass Paul ein kleines Loch im Zahn hat. „Das tut nicht weh, wenn du ruhig bleibst\", hat der Zahnarzt erklärt. Paul hat tief Luft geholt und die Behandlung gut überstanden. Danach hat er sich viel besser gefühlt.\n\nNach dem Termin haben Paul und seine Mutter ein Eis gegessen. Paul hat erzählt, dass er gar keine Angst mehr hat. Er hat sich vorgenommen, seine Zähne jeden Abend gründlich zu putzen. Seine Mutter war sehr stolz auf ihn.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hatte seit zwei Tagen Zahnschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul ist allein zum Zahnarzt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zahnarzt hat kein Loch im Zahn gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Termin haben sie ein Eis gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul will seine Zähne nicht mehr putzen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-am-wochenende",
+    "nivel": "A2",
+    "titulo": "Der Ausflug am Wochenende",
+    "descripcion": "Die Familie Berger macht einen Ausflug in die Berge.",
+    "texto": "Am Samstag ist die Familie Berger früh aufgestanden, weil sie einen Ausflug in die Berge geplant hatte. Sie sind mit dem Auto losgefahren und haben nach zwei Stunden einen schönen Wanderweg gefunden. Das Wetter war sonnig, und alle haben sich sehr gefreut.\n\nWährend der Wanderung haben die Kinder viele Blumen und Steine gesammelt. Der Vater hat ein Foto von der ganzen Familie gemacht, weil die Aussicht so schön war. Nach drei Stunden sind sie müde, aber zufrieden an einem kleinen See angekommen. Dort haben sie ihr Picknick ausgepackt und gegessen.\n\nAm Abend ist die Familie nach Hause gefahren. Die Kinder haben erzählt, dass der Ausflug der schönste Tag des Jahres war. Die Mutter hat gesagt, dass sie bald wieder in die Berge fahren wollen. Alle sind zufrieden ins Bett gegangen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist mit dem Zug gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wetter war sonnig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben nichts gesammelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat am See gegessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie will nie wieder in die Berge fahren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-nachbar-herr-schmidt",
+    "nivel": "A2",
+    "titulo": "Der neue Nachbar, Herr Schmidt",
+    "descripcion": "Ein neuer Nachbar zieht ein und organisiert ein Fest für die Nachbarschaft.",
+    "texto": "Letzte Woche ist ein neuer Nachbar in das Haus nebenan eingezogen. Er heißt Herr Schmidt und kommt aus Hamburg. Frau Keller, die im ersten Stock wohnt, hat ihn gleich am ersten Tag begrüßt, weil sie sehr neugierig war.\n\nHerr Schmidt hat erzählt, dass er wegen seiner neuen Arbeit in die Stadt gezogen ist. Er hat auch gesagt, dass er gern kocht und Fußball spielt. Frau Keller hat ihn zum Kaffee eingeladen, und die beiden haben lange über das Viertel gesprochen.\n\nAm Wochenende hat Herr Schmidt ein kleines Fest für die Nachbarn organisiert, damit alle sich besser kennenlernen. Viele Nachbarn sind gekommen und haben Kuchen und Getränke mitgebracht. Frau Keller war froh, dass die Nachbarschaft jetzt so freundlich geworden ist.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Schmidt kommt aus München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Keller hat Herrn Schmidt zum Kaffee eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Schmidt mag kein Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Schmidt hat ein Fest für die Nachbarn organisiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand ist zum Fest gekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-umzug-nach-leipzig",
+    "nivel": "B1",
+    "titulo": "Mein Umzug nach Leipzig",
+    "descripcion": "Ein Jugendlicher erzählt, wie er sich nach dem Umzug in eine neue Stadt eingelebt hat.",
+    "texto": "Vor drei Monaten bin ich mit meiner Familie nach Leipzig umgezogen, obwohl wir eigentlich gern in unserer alten Stadt geblieben wären. Mein Vater hatte dort eine neue Stelle bekommen, und wir mussten uns schnell entscheiden. Am Anfang war es nicht leicht, weil ich niemanden in der neuen Stadt kannte und meine alten Freunde sehr vermisste.\n\nNachdem wir in die neue Wohnung eingezogen waren, habe ich mich in der Schule angemeldet. Die ersten Wochen waren anstrengend, trotzdem habe ich schnell nette Mitschüler kennengelernt. Besonders Jonas, mein Sitznachbar, hat mir sehr geholfen, mich in der Klasse wohlzufühlen. Wir sind inzwischen gute Freunde geworden und unternehmen oft etwas zusammen.\n\nHeute fühle ich mich in Leipzig schon viel zu Hause, obwohl ich meine alte Stadt natürlich nicht vergessen habe. Die Stadt hat viele schöne Parks und ein lebendiges Stadtzentrum, das ich inzwischen gut kenne. Manchmal vermisse ich noch meine alten Freunde, aber ich bin froh, dass der Umzug am Ende doch eine gute Entscheidung war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie ist freiwillig und ohne besonderen Grund umgezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Erzähler kannte am Anfang niemanden in Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat dem Erzähler geholfen, sich einzuleben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Erzähler hat in Leipzig keine neuen Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Erzähler fühlt sich inzwischen wohl in Leipzig.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-ins-allgaeu",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt ins Allgäu",
+    "descripcion": "Die Klasse 9b verbringt eine erlebnisreiche Klassenfahrt in den Bergen.",
+    "texto": "Letzten Monat ist die Klasse 9b auf Klassenfahrt ins Allgäu gefahren. Obwohl die Busfahrt fast fünf Stunden gedauert hat, war die Stimmung von Anfang an sehr gut. Die Schüler haben in einer Jugendherberge in den Bergen übernachtet und sich sofort die Zimmer eingeteilt.\n\nAm zweiten Tag haben sie eine lange Wanderung gemacht, nachdem der Lehrer die Route am Vorabend erklärt hatte. Trotz des wechselhaften Wetters haben alle die Wanderung durchgehalten und wurden am Gipfel mit einer wunderschönen Aussicht belohnt. Abends haben die Schüler zusammen am Lagerfeuer gesessen, Lieder gesungen und Geschichten erzählt.\n\nAm letzten Tag mussten alle leider schon wieder abreisen, obwohl keiner so richtig nach Hause wollte. Viele Schüler haben gesagt, dass diese Klassenfahrt eine der schönsten Erfahrungen ihrer Schulzeit war. Der Lehrer hat versprochen, im nächsten Jahr eine ähnliche Fahrt zu organisieren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Busfahrt hat nur eine Stunde gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat in einem Hotel am Meer übernachtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wanderung endete mit einer schönen Aussicht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend haben die Schüler am Lagerfeuer gesessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle waren traurig, dass die Fahrt zu Ende war.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-freundschaft-uebersteht-alles",
+    "nivel": "B1",
+    "titulo": "Eine Freundschaft übersteht alles",
+    "descripcion": "Zwei beste Freundinnen beweisen, dass Entfernung ihre Freundschaft nicht schwächt.",
+    "texto": "Lisa und Mara sind seit der Grundschule beste Freundinnen, obwohl sie inzwischen in verschiedenen Städten leben. Nach dem Abitur ist Mara zum Studieren nach Köln gezogen, während Lisa in ihrer Heimatstadt geblieben ist. Am Anfang hatten beide Angst, dass die Entfernung ihre Freundschaft schwächen könnte.\n\nTrotzdem haben sie sich nicht aus den Augen verloren. Sie schreiben sich fast jeden Tag Nachrichten und telefonieren jedes Wochenende lange miteinander. Nachdem Mara ein Semester in Köln verbracht hatte, hat Lisa sie dort besucht, und die beiden haben eine ganze Woche zusammen verbracht. Es war, als hätten sie sich nie getrennt.\n\nHeute sind Lisa und Mara überzeugt, dass echte Freundschaft keine Entfernung kennt. Sie planen schon den nächsten gemeinsamen Urlaub, obwohl beide viel Arbeit und wenig Zeit haben. Für sie ist klar, dass ihre Freundschaft auch in Zukunft bestehen bleibt.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa und Mara kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mara ist nach dem Abitur nach Köln gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen haben jeden Kontakt verloren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa hat Mara in Köln besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide glauben, dass Entfernung ihre Freundschaft nicht zerstört.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-digitalisierung-der-arbeitswelt",
+    "nivel": "B2",
+    "titulo": "Die Digitalisierung der Arbeitswelt",
+    "descripcion": "Ein Essay über Chancen und Risiken der digitalen Transformation der Arbeit.",
+    "texto": "Die fortschreitende Digitalisierung verändert die Arbeitswelt in einem Tempo, das vor wenigen Jahrzehnten noch kaum vorstellbar gewesen wäre. Viele Tätigkeiten, die früher ausschließlich von Menschen erledigt wurden, werden heute zunehmend von Software und automatisierten Systemen übernommen. Besonders in der Verwaltung und in der Produktion werden immer mehr Prozesse durch digitale Lösungen ersetzt, was sowohl Chancen als auch erhebliche Herausforderungen mit sich bringt.\n\nBefürworter der Digitalisierung argumentieren, dass repetitive und körperlich belastende Aufgaben zunehmend automatisiert werden könnten, sodass sich Beschäftigte stärker auf kreative und anspruchsvolle Tätigkeiten konzentrieren könnten. Wenn Unternehmen diesen Wandel klug gestalten würden, entstünden neue Arbeitsplätze in Bereichen, die es vor Kurzem noch gar nicht gegeben hat. Kritiker hingegen befürchten, dass ganze Berufsgruppen verschwinden könnten, ohne dass ausreichend neue, gleichwertige Stellen geschaffen würden.\n\nBesonders umstritten ist die Frage, wie mit den sozialen Folgen dieser Entwicklung umgegangen werden sollte. Es wird diskutiert, ob eine umfassende Weiterbildungsoffensive finanziert werden müsste, um Arbeitnehmerinnen und Arbeitnehmer auf die veränderten Anforderungen vorzubereiten. Manche Experten schlagen sogar vor, dass ein bedingungsloses Grundeinkommen eingeführt werden sollte, falls die Automatisierung in bestimmten Branchen zu massiver Arbeitslosigkeit führen würde.\n\nLetztlich hängt der Erfolg der digitalen Transformation davon ab, ob Politik, Unternehmen und Gesellschaft gemeinsam Lösungen finden, die den technologischen Fortschritt mit sozialer Gerechtigkeit verbinden. Ohne eine solche gemeinsame Anstrengung könnte die Digitalisierung bestehende Ungleichheiten weiter verschärfen, anstatt den versprochenen Wohlstand für alle zu bringen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text verändert sich die Arbeitswelt durch die Digitalisierung sehr langsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter glauben, dass Automatisierung Raum für kreativere Tätigkeiten schaffen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass keine Weiterbildung nötig ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten schlagen ein bedingungsloses Grundeinkommen als mögliche Lösung vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die Digitalisierung keine sozialen Folgen hat.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungskrise-in-muenchen",
+    "nivel": "B2",
+    "titulo": "Die Wohnungskrise in München",
+    "descripcion": "Ein Essay über die Ursachen und möglichen Lösungen der Wohnungsnot in München.",
+    "texto": "In kaum einer anderen deutschen Stadt ist die Wohnungsnot so deutlich zu spüren wie in München. Die Mieten sind in den vergangenen Jahren derart stark gestiegen, dass sich viele Menschen mit durchschnittlichem Einkommen eine Wohnung in zentraler Lage kaum noch leisten können. Besonders betroffen sind junge Familien, Studierende und Menschen, die neu in die Stadt ziehen, um dort zu arbeiten.\n\nStadtplaner und Politiker diskutieren seit Jahren darüber, wie dem Problem begegnet werden könnte. Einige fordern, dass deutlich mehr bezahlbarer Wohnraum geschaffen werden müsste, etwa durch den Bau neuer Sozialwohnungen am Stadtrand. Andere schlagen vor, dass bestehende Mietpreisbremsen verschärft werden sollten, damit Vermieter die Mieten nicht beliebig erhöhen können. Kritiker dieser Maßnahmen wenden jedoch ein, dass strengere Regulierungen private Investoren abschrecken und somit den Wohnungsbau insgesamt verlangsamen könnten.\n\nWenn die Stadt nicht entschlossener handeln würde, könnte sich die soziale Durchmischung der Innenstadt weiter verringern, da sich nur noch wohlhabende Haushalte das Leben in zentralen Vierteln leisten könnten. Mehrere Bürgerinitiativen fordern deshalb, dass leerstehende Gebäude schneller für Wohnzwecke umgenutzt werden sollten, anstatt jahrelang ungenutzt zu bleiben.\n\nDie Wohnungskrise in München zeigt exemplarisch, vor welchen Herausforderungen viele europäische Großstädte stehen, in denen begrenzter Wohnraum auf eine stetig wachsende Nachfrage trifft. Eine nachhaltige Lösung wird wohl nur gelingen, wenn ökonomische Interessen und soziale Gerechtigkeit stärker miteinander in Einklang gebracht werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in München sind in den letzten Jahren stark gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nur ältere Menschen sind von der Wohnungsnot betroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Politiker fordern den Bau neuer Sozialwohnungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass strengere Mietpreisbremsen keine Nachteile hätten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht die Wohnungskrise als rein lokales, einzigartiges Problem Münchens.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kritik-an-sozialen-netzwerken",
+    "nivel": "B2",
+    "titulo": "Kritik an sozialen Netzwerken",
+    "descripcion": "Ein Essay über die wachsende Kritik an Algorithmen und Desinformation in sozialen Medien.",
+    "texto": "In den letzten Jahren ist die öffentliche Kritik an sozialen Netzwerken deutlich gewachsen. Immer häufiger wird bemängelt, dass Algorithmen vor allem solche Inhalte bevorzugen würden, die starke Emotionen auslösen, unabhängig davon, ob sie wahr oder sachlich korrekt sind. Dadurch entstehe, so die Kritiker, eine verzerrte Wahrnehmung der Realität, die gesellschaftliche Debatten zunehmend polarisiere.\n\nBesonders problematisch sei, dass Falschinformationen sich auf diesen Plattformen oft schneller verbreiten könnten als sorgfältig recherchierte Nachrichten. Medienexperten weisen darauf hin, dass dieses Phänomen nicht zufällig entstanden sei, sondern aus den wirtschaftlichen Interessen der Plattformbetreiber resultiere, deren Werbeeinnahmen von einer möglichst langen Nutzungsdauer abhängen. Wenn Nutzerinnen und Nutzer durch aufwühlende Inhalte länger auf der Plattform gehalten würden, stiegen damit auch die Einnahmen der Unternehmen.\n\nBefürworter strengerer Regulierung fordern deshalb, dass Plattformen zu mehr Transparenz über ihre Algorithmen verpflichtet werden sollten. Es wird auch diskutiert, ob bestimmte Inhalte, die nachweislich Falschinformationen verbreiten, konsequenter entfernt werden müssten. Die Betreiber der Netzwerke argumentieren dagegen, dass eine zu strenge Regulierung die Meinungsfreiheit gefährden könnte, und betonen, dass bereits zahlreiche Maßnahmen gegen Falschinformationen ergriffen worden seien.\n\nLetztlich bleibt die Frage offen, wie ein Gleichgewicht zwischen freier Meinungsäußerung und dem Schutz vor Desinformation gefunden werden kann, ohne dabei die Grundprinzipien einer offenen, demokratischen Gesellschaft zu gefährden.",
+    "preguntas": [
+      {
+        "enunciado": "Kritiker behaupten, Algorithmen würden vor allem emotionale Inhalte bevorzugen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text verbreiten sich Falschinformationen langsamer als geprüfte Nachrichten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Werbeeinnahmen der Plattformen hängen laut Text von der Nutzungsdauer ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Plattformbetreiber stimmen strengerer Regulierung sofort zu.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text präsentiert eine eindeutige, abschließende Lösung für das Problem.",
+        "respuesta": false
+      }
+    ]
   }
 ]
