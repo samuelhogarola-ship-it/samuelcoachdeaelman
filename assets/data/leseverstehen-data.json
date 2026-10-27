@@ -76334,5 +76334,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mias-lieblingsfarbe",
+    "nivel": "A1",
+    "titulo": "Mias Lieblingsfarbe",
+    "descripcion": "Mia erzählt, warum Grün ihre Lieblingsfarbe ist.",
+    "texto": "Mia ist sieben Jahre alt. Ihre Lieblingsfarbe ist Grün. Ihr Rucksack ist grün. Ihre Jacke ist auch grün. Im Garten mag Mia die grünen Blätter und das grüne Gras.\n\nIn der Schule malt Mia oft mit grüner Farbe. Sie malt einen Baum, einen Frosch und ein Blatt. Ihre Freundin Lea mag Blau. Lea sagt: „Blau ist schön wie der Himmel.\" Mia und Lea malen zusammen ein Bild. Das Bild ist bunt: grün und blau.\n\nAm Ende der Schulstunde zeigen die Kinder ihre Bilder. Die Lehrerin lobt Mia und Lea. Mia ist sehr glücklich und nimmt ihr Bild mit nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Mias Lieblingsfarbe ist Grün.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mias Rucksack ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Leas Lieblingsfarbe ist Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia und Lea malen zusammen ein Bild.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin ist böse auf Mia.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "drei-kekse-zum-fruehstueck",
+    "nivel": "A1",
+    "titulo": "Drei Kekse zum Frühstück",
+    "descripcion": "Paul frühstückt jeden Morgen mit seiner Familie.",
+    "texto": "Paul steht jeden Morgen um sieben Uhr auf. Er wäscht sein Gesicht und zieht sich an. Danach geht er in die Küche. Dort sitzt seine Familie am Tisch.\n\nZum Frühstück isst Paul Brot mit Butter und Marmelade. Er trinkt ein Glas Milch. Seine Schwester Lisa isst gerne Müsli mit Obst. Ihr Vater trinkt Kaffee, und ihre Mutter trinkt Tee. Manchmal gibt es auch Kekse. Paul nimmt immer drei Kekse und freut sich darüber.\n\nNach dem Frühstück packt Paul seine Schultasche. Er sagt: „Tschüss, bis später!\" und geht zur Schule. Der Weg zur Schule dauert zehn Minuten.",
+    "preguntas": [
+      {
+        "enunciado": "Paul steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trinkt zum Frühstück Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa isst gerne Müsli mit Obst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul nimmt nur einen Keks.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schulweg dauert zehn Minuten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lukas-kauft-neue-schuhe",
+    "nivel": "A1",
+    "titulo": "Lukas kauft neue Schuhe",
+    "descripcion": "Lukas geht mit seinem Vater ins Schuhgeschäft.",
+    "texto": "Lukas braucht neue Schuhe für die Schule. Seine alten Schuhe sind zu klein. Am Samstag geht er mit seinem Vater in die Stadt. Sie finden ein großes Schuhgeschäft.\n\nIm Geschäft gibt es viele Schuhe: rote, blaue und schwarze Schuhe. Lukas möchte blaue Schuhe mit weißen Streifen. Der Verkäufer bringt die passende Größe. Lukas probiert die Schuhe an und läuft ein Stück. Die Schuhe passen gut.\n\nLukas' Vater bezahlt die Schuhe an der Kasse. Lukas ist sehr zufrieden. Auf dem Heimweg trägt er seine neuen Schuhe und lächelt.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas' alte Schuhe sind zu klein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas kauft rote Schuhe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Verkäufer bringt die passende Größe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schuhe passen nicht gut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas trägt die neuen Schuhe auf dem Heimweg.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-alte-nachbarin",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die alte Nachbarin",
+    "descripcion": "Nach dem Umzug schreibt Julia einen Brief an ihre frühere Nachbarin.",
+    "texto": "Julia ist vor zwei Monaten in eine andere Stadt gezogen, weil sie dort einen neuen Job gefunden hat. Sie hat sich schnell an die neue Wohnung gewöhnt, aber sie vermisst ihre alte Nachbarin Frau Berger sehr. Deshalb hat sie ihr gestern Abend einen langen Brief geschrieben.\n\nIn dem Brief hat Julia erzählt, dass sie viel über ihre gemeinsame Zeit im Treppenhaus nachgedacht hat. Sie hat sich bei Frau Berger bedankt, weil diese ihr oft geholfen hat, wenn sie die Katze füttern musste. Julia hat auch gefragt, wie es dem kleinen Garten hinter dem Haus geht und ob die Rosen noch blühen.\n\nAm Ende des Briefes hat Julia versprochen, dass sie Frau Berger bald besuchen wird, wenn sie wieder Urlaub hat. Sie hat den Brief zur Post gebracht und war sicher, dass sich Frau Berger darüber freuen würde.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist wegen eines neuen Jobs umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat ihre alte Nachbarin sofort vergessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger hat Julia manchmal geholfen, die Katze zu füttern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia hat im Brief nach dem Garten gefragt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia will Frau Berger nie wieder besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-verregnetes-wochenende-in-hamburg",
+    "nivel": "A2",
+    "titulo": "Ein verregnetes Wochenende in Hamburg",
+    "descripcion": "Tom und Sara erleben ein Wochenende in Hamburg, obwohl es ständig regnet.",
+    "texto": "Tom und Sara sind am Freitag nach Hamburg gefahren, weil sie das Wochenende zusammen verbringen wollten. Leider hat es gleich am ersten Abend angefangen zu regnen, und der Regen hat fast das ganze Wochenende nicht aufgehört. Trotzdem haben die beiden beschlossen, ihre Pläne nicht zu ändern.\n\nAm Samstagmorgen sind sie in ein großes Museum gegangen, weil man dort trocken bleiben konnte. Dort haben sie viele interessante Ausstellungen über die Geschichte der Hafenstadt gesehen. Am Nachmittag, als der Regen etwas schwächer wurde, sind sie trotzdem kurz zum Hafen spaziert und haben die großen Schiffe bewundert.\n\nAm Abend haben sie sich in ein kleines Restaurant gesetzt und gewärmte Suppe gegessen. Sara hat gesagt, dass es ihr trotz des schlechten Wetters gefallen hat, weil sie viel Zeit zusammen verbringen konnten. Am Sonntag sind sie müde, aber zufrieden nach Hause gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Es hat das ganze Wochenende geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom und Sara sind wegen des Regens sofort nach Hause gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben am Samstag ein Museum besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind nicht zum Hafen gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sara hat das Wochenende trotzdem gefallen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-altbauwohnung",
+    "nivel": "A2",
+    "titulo": "Der Umzug in die Altbauwohnung",
+    "descripcion": "Familie Weber zieht in eine alte, aber gemütliche Wohnung.",
+    "texto": "Familie Weber hat letzten Monat eine neue Wohnung gefunden, weil ihre alte Wohnung zu klein geworden war. Die neue Wohnung liegt in einem Altbau aus dem letzten Jahrhundert und hat hohe Decken und große Fenster. Herr Weber hat sich sofort in die alten Holzböden verliebt.\n\nDer Umzug war anstrengend, weil die Treppe sehr eng war und die Möbel schwer waren. Zum Glück haben Freunde geholfen, sodass alles an einem einzigen Tag geschafft wurde. Frau Weber hat sich gefreut, dass die Kinder endlich jeder ein eigenes Zimmer hatten.\n\nNachdem alle Kisten ausgepackt waren, haben die Webers eine kleine Einzugsparty gefeiert. Die neuen Nachbarn sind vorbeigekommen und haben Kuchen mitgebracht. Familie Weber hat sich sehr willkommen gefühlt und ist sicher, dass sie hier glücklich sein wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die alte Wohnung war zu klein geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die neue Wohnung ist ein moderner Neubau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Umzug war ohne Probleme.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jedes Kind hat jetzt ein eigenes Zimmer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die neuen Nachbarn haben Kuchen mitgebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-streit-zwischen-alten-freunden",
+    "nivel": "B1",
+    "titulo": "Ein Streit zwischen alten Freunden",
+    "descripcion": "Zwei langjährige Freunde geraten wegen eines Missverständnisses in Streit.",
+    "texto": "Markus und Felix kennen sich seit der Grundschule und waren jahrelang die besten Freunde. Nachdem Markus jedoch vor einem Jahr in eine andere Stadt gezogen war, hatten sich die beiden immer seltener gesehen. Als Felix vor zwei Wochen nicht zu Markus' Geburtstagsfeier kam, obwohl er zugesagt hatte, war Markus sehr enttäuscht.\n\nFelix hatte eigentlich einen guten Grund: Seine Großmutter war plötzlich krank geworden, und er musste kurzfristig zu ihr fahren. Trotzdem hatte er vergessen, Markus Bescheid zu sagen, weil er in der Aufregung nicht daran gedacht hatte. Markus wusste davon nichts und fühlte sich von seinem besten Freund im Stich gelassen.\n\nAls die beiden sich schließlich am Telefon sprachen, klärte sich das Missverständnis schnell auf. Obwohl Markus zunächst wütend gewesen war, verstand er, nachdem Felix alles erklärt hatte, dass es keine böse Absicht gegeben hatte. Die Freundschaft war am Ende stärker als der Streit, und die beiden beschlossen, sich bald wiederzusehen.",
+    "preguntas": [
+      {
+        "enunciado": "Markus und Felix kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix ist ohne Grund nicht zur Feier gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix' Großmutter war plötzlich krank geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus wusste sofort, warum Felix nicht gekommen war.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende bleibt die Freundschaft zerstört.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-erste-tag-im-neuen-grossraumbuero",
+    "nivel": "B1",
+    "titulo": "Der erste Tag im neuen Großraumbüro",
+    "descripcion": "Nina beginnt einen neuen Job in einem modernen Großraumbüro.",
+    "texto": "Nina hat nach ihrem Studium endlich eine Stelle in einer großen Firma gefunden. Am ersten Arbeitstag war sie sehr nervös, obwohl sie sich gut vorbereitet hatte. Als sie das Büro betrat, war sie überrascht, wie offen und modern alles gestaltet war: keine festen Wände, sondern ein großer, heller Raum mit vielen Schreibtischen.\n\nIhr neuer Chef stellte sie den Kollegen vor, nachdem er ihr kurz die wichtigsten Regeln erklärt hatte. Nina merkte schnell, dass es im Großraumbüro ziemlich laut werden konnte, besonders wenn mehrere Teams gleichzeitig Besprechungen hatten. Trotzdem gefiel ihr die offene Atmosphäre, weil man sich leicht mit anderen austauschen konnte.\n\nAm Nachmittag half ihr eine Kollegin namens Petra, sich mit dem Computersystem vertraut zu machen. Obwohl Nina am Ende des Tages erschöpft war, fühlte sie sich gut aufgenommen. Sie war zuversichtlich, dass sie sich in den nächsten Wochen gut einleben würde.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hat ihre neue Stelle vor dem Studium bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Büro hat keine festen Wände.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Großraumbüro ist es immer völlig still.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Petra hilft Nina mit dem Computersystem.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina fühlt sich am ersten Tag gut aufgenommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-mehrsprachigkeit-in-schulen",
+    "nivel": "B1",
+    "titulo": "Die Mehrsprachigkeit in Schulen",
+    "descripcion": "Eine Schule geht neue Wege im Umgang mit mehrsprachigen Schülerinnen und Schülern.",
+    "texto": "An einer Grundschule in Köln sprechen die Kinder insgesamt über zwanzig verschiedene Sprachen zu Hause. Früher wurde den Schülern oft gesagt, sie sollten in der Schule nur Deutsch sprechen, selbst in den Pausen. Nachdem jedoch mehrere Lehrer festgestellt hatten, dass dies viele Kinder verunsicherte, entschied sich die Schule für einen anderen Ansatz.\n\nSeit zwei Jahren dürfen die Kinder ihre Herkunftssprachen offen zeigen, etwa indem sie Gedichte in ihrer Muttersprache vorlesen oder Wörter aus verschiedenen Sprachen vergleichen. Obwohl manche Eltern zunächst skeptisch waren, zeigte sich schnell, dass die Schüler motivierter lernten, wenn ihre Sprachen wertgeschätzt wurden. Die Lehrerin Frau Yilmaz berichtet, dass sich sogar die Deutschkenntnisse vieler Kinder verbessert hätten.\n\nAndere Schulen interessieren sich inzwischen für dieses Konzept, nachdem die positiven Ergebnisse bekannt wurden. Trotzdem bleibt die Umsetzung eine Herausforderung, da nicht jede Schule genügend Personal und Zeit für solche Projekte hat.",
+    "preguntas": [
+      {
+        "enunciado": "An der Schule sprechen die Kinder über zwanzig Sprachen zu Hause.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Früher durften die Kinder in der Pause ihre Muttersprache sprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Eltern waren von Anfang an begeistert von dem Konzept.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Deutschkenntnisse vieler Kinder haben sich verbessert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jede Schule kann das Konzept problemlos umsetzen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-der-gewerkschaften-im-wandel",
+    "nivel": "B2",
+    "titulo": "Die Rolle der Gewerkschaften im Wandel",
+    "descripcion": "Eine Betrachtung darüber, wie sich Gewerkschaften in Zeiten der Digitalisierung neu positionieren müssen.",
+    "texto": "Gewerkschaften haben über Jahrzehnte eine zentrale Rolle in der Arbeitswelt gespielt, indem sie für bessere Löhne, kürzere Arbeitszeiten und sicherere Arbeitsbedingungen gekämpft haben. In den letzten Jahren hat sich jedoch gezeigt, dass die klassischen gewerkschaftlichen Strukturen zunehmend an ihre Grenzen stoßen, wenn es um neue Beschäftigungsformen wie Plattformarbeit oder Freelancing geht.\n\nViele Menschen, die heute über digitale Plattformen arbeiten, würden sich selbst kaum als klassische Arbeitnehmer bezeichnen, obwohl sie oft ähnlich abhängig von einem einzigen Auftraggeber sind. Für Gewerkschaften stellt sich damit die Frage, wie sie diese Gruppe überhaupt erreichen und organisieren könnten, wenn deren Arbeitsverhältnisse so fragmentiert und individuell gestaltet sind. Kritiker bemängeln zudem, dass viele Gewerkschaften zu langsam auf diesen Wandel reagiert hätten.\n\nEinige Organisationen experimentieren inzwischen mit neuen Ansätzen, etwa mit digitalen Beratungsangeboten oder branchenübergreifenden Bündnissen. Ob es ihnen gelingen wird, auch in der digitalisierten Arbeitswelt eine vergleichbare Verhandlungsmacht aufzubauen wie früher in der Industrie, bleibt allerdings ungewiss. Manche Experten argumentieren, dass dafür grundlegend neue rechtliche Rahmenbedingungen geschaffen werden müssten.\n\nFest steht jedenfalls, dass die Debatte über die Zukunft der Gewerkschaften eng mit der Frage verknüpft ist, wie Arbeit in einer zunehmend digitalisierten Gesellschaft überhaupt organisiert und abgesichert werden kann.",
+    "preguntas": [
+      {
+        "enunciado": "Gewerkschaften haben traditionell für bessere Arbeitsbedingungen gekämpft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Plattformarbeiter gelten immer eindeutig als klassische Arbeitnehmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Kritiker meinen, Gewerkschaften hätten zu langsam reagiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Gewerkschaften lehnen neue digitale Beratungsangebote strikt ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zukunft der Gewerkschaften gilt als vollständig gesichert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-druck-der-staendigen-erreichbarkeit",
+    "nivel": "B2",
+    "titulo": "Der Druck der ständigen Erreichbarkeit",
+    "descripcion": "Ein Blick auf die psychischen Folgen permanenter digitaler Erreichbarkeit im Berufsleben.",
+    "texto": "In vielen Berufen wird heute erwartet, dass Mitarbeiter auch außerhalb der regulären Arbeitszeiten per E-Mail oder Messenger erreichbar sind. Diese ständige Verfügbarkeit, die durch Smartphones erst technisch möglich wurde, hat sich in zahlreichen Branchen zu einer stillschweigenden Norm entwickelt, obwohl sie selten explizit im Arbeitsvertrag festgehalten wird.\n\nArbeitspsychologen warnen schon seit längerer Zeit davor, dass diese Entgrenzung von Arbeits- und Freizeit erhebliche gesundheitliche Folgen haben könnte. Wenn Beschäftigte nie wirklich abschalten könnten, würde sich der Körper kaum noch von den Belastungen des Arbeitsalltags erholen, was langfristig das Risiko für Erschöpfungssymptome erhöhe. Besonders betroffen seien Personen, die ohnehin unter hohem Leistungsdruck stünden.\n\nEinige Unternehmen haben deshalb begonnen, Regeln einzuführen, die Mitarbeiter während ihres Urlaubs oder nach Feierabend von der digitalen Erreichbarkeit entlasten sollen, etwa indem E-Mail-Server nachts automatisch deaktiviert werden. Kritiker solcher Maßnahmen wenden jedoch ein, dass dadurch internationale Zusammenarbeit erschwert werde, da Zeitzonenunterschiede ohnehin eine gewisse Flexibilität erforderten.\n\nLetztlich bleibt die Frage, inwieweit Gesetzgeber verbindliche Regelungen schaffen sollten, um Arbeitnehmer wirksam zu schützen, ohne die wirtschaftliche Wettbewerbsfähigkeit der Unternehmen zu gefährden. Diese Debatte dürfte angesichts der fortschreitenden Digitalisierung der Arbeitswelt in den kommenden Jahren noch an Bedeutung gewinnen.",
+    "preguntas": [
+      {
+        "enunciado": "Ständige Erreichbarkeit ist meist ausdrücklich im Arbeitsvertrag geregelt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Arbeitspsychologen sehen in der Entgrenzung mögliche gesundheitliche Risiken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche Unternehmen deaktivieren nachts automatisch die E-Mail-Server.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass solche Maßnahmen die internationale Zusammenarbeit erschweren könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte über verbindliche Regelungen gilt als vollständig abgeschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-glaeserne-decke-im-berufsleben",
+    "nivel": "B2",
+    "titulo": "Die gläserne Decke im Berufsleben",
+    "descripcion": "Eine Analyse der unsichtbaren Hürden, die Frauen auf dem Weg in Führungspositionen begegnen.",
+    "texto": "Obwohl Frauen in den meisten westlichen Ländern inzwischen besser ausgebildet sind als je zuvor, sind sie in den Vorständen großer Unternehmen nach wie vor deutlich unterrepräsentiert. Dieses Phänomen wird häufig als „gläserne Decke\" bezeichnet, weil die Hürden, die Frauen auf dem Weg nach oben begegnen, oft unsichtbar bleiben, aber dennoch real sind.\n\nSoziologen führen dieses Phänomen auf mehrere Ursachen zurück. Zum einen würden informelle Netzwerke, in denen wichtige Entscheidungen oft außerhalb offizieller Besprechungen getroffen werden, überwiegend von Männern dominiert, sodass Frauen seltener Zugang zu entscheidenden Informationen hätten. Zum anderen bestünden in vielen Köpfen noch immer unbewusste Vorurteile darüber, welche Eigenschaften eine Führungskraft angeblich mitbringen müsse.\n\nHinzu kommt, dass Frauen nach der Geburt eines Kindes häufiger ihre Arbeitszeit reduzieren als Männer, was sich negativ auf ihre Karrierechancen auswirken kann, selbst wenn sie fachlich ebenso qualifiziert wären. Manche Unternehmen haben deshalb begonnen, verbindliche Frauenquoten für Führungspositionen einzuführen, um diesem Ungleichgewicht aktiv entgegenzuwirken.\n\nOb solche Quoten tatsächlich die richtige Lösung sind, wird kontrovers diskutiert. Befürworter argumentieren, dass ohne verbindliche Vorgaben der Wandel viel zu langsam vorangehen würde. Gegner hingegen befürchten, dass Quoten Frauen in Führungspositionen den Vorwurf aussetzen könnten, sie seien nicht aufgrund ihrer Leistung, sondern allein wegen ihres Geschlechts befördert worden.",
+    "preguntas": [
+      {
+        "enunciado": "Frauen sind in Vorständen großer Unternehmen stark unterrepräsentiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die gläserne Decke bezeichnet offen sichtbare, gesetzlich festgelegte Hürden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Informelle Netzwerke werden laut Soziologen oft von Männern dominiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Unternehmen lehnen verbindliche Frauenquoten grundsätzlich ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Diskussion über Frauenquoten ist einheitlich und unumstritten.",
+        "respuesta": false
+      }
+    ]
   }
 ]
