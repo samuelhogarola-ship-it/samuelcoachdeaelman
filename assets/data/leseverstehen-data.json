@@ -76682,5 +76682,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "ein-geschenk-fuer-die-oma",
+    "nivel": "A1",
+    "titulo": "Ein Geschenk für die Oma",
+    "descripcion": "Lena kauft mit ihrer Mutter ein Geschenk für den Geburtstag der Oma.",
+    "texto": "Lena hat eine Oma. Die Oma heißt Erika. Am Samstag hat Erika Geburtstag. Lena möchte ein Geschenk kaufen. Sie geht mit ihrer Mutter in die Stadt.\n\nIn einem kleinen Laden sieht Lena schöne Blumen. Die Blumen sind rot und gelb. „Diese Blumen sind schön\", sagt Lena. Sie kauft auch eine Tasse. Die Tasse ist blau. Lena schreibt eine Karte für die Oma.\n\nAm Samstag besucht Lena ihre Oma. Sie gibt ihr die Blumen und die Tasse. Die Oma ist sehr glücklich. „Vielen Dank, Lena!\", sagt die Oma. Dann essen sie zusammen Kuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Lenas Oma heißt Erika.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Erika hat am Sonntag Geburtstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena kauft eine blaue Tasse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma ist traurig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena und die Oma essen Kuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mittagessen-in-der-kantine",
+    "nivel": "A1",
+    "titulo": "Mittagessen in der Kantine",
+    "descripcion": "Tom isst mit seinem Kollegen Paul in der Firmenkantine.",
+    "texto": "Tom arbeitet in einer Firma. Um zwölf Uhr geht er in die Kantine. Die Kantine ist groß und laut. Viele Kollegen essen dort zusammen.\n\nHeute gibt es Suppe, Nudeln und Salat. Tom nimmt die Nudeln mit Tomatensoße. Sein Kollege Paul isst nur Salat, weil er keinen Hunger hat. Sie setzen sich an einen Tisch am Fenster.\n\nNach dem Essen trinken Tom und Paul einen Kaffee. Sie sprechen über die Arbeit am Nachmittag. Um halb eins gehen sie zurück ins Büro.",
+    "preguntas": [
+      {
+        "enunciado": "Tom isst um zwölf Uhr in der Kantine.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kantine ist klein und leise.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom nimmt die Nudeln.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul isst viel Suppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Essen trinken sie Kaffee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "einkaufen-fuer-den-geburtstag",
+    "nivel": "A1",
+    "titulo": "Einkaufen für den Geburtstag",
+    "descripcion": "Familie Berger kauft Essen und Dekoration für Pauls Geburtstagsparty.",
+    "texto": "Am Sonntag feiert Paul seinen Geburtstag. Er wird acht Jahre alt. Seine Mutter und sein Vater gehen zusammen einkaufen. Sie brauchen Kuchen, Saft und Luftballons.\n\nIm Supermarkt kaufen sie einen großen Schokoladenkuchen. Paul mag Schokolade sehr gern. Sie kaufen auch Orangensaft und bunte Luftballons. Der Vater nimmt noch Kerzen für den Kuchen.\n\nZu Hause schmückt die Mutter das Wohnzimmer mit den Luftballons. Paul kommt aus der Schule und ist sehr überrascht. „Das ist toll!\", ruft er. Am Abend kommen seine Freunde zur Party.",
+    "preguntas": [
+      {
+        "enunciado": "Paul wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie kauft einen Vanillekuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater kauft Kerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul feiert seinen Geburtstag im Supermarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend kommen Pauls Freunde.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrt-zur-oma-im-dorf",
+    "nivel": "A2",
+    "titulo": "Die Fahrt zur Oma im Dorf",
+    "descripcion": "Sophie besucht mit dem Zug ihre Großmutter auf dem Land.",
+    "texto": "Letzten Monat ist Sophie mit dem Zug zu ihrer Oma gefahren. Die Oma wohnt in einem kleinen Dorf, weit weg von der Stadt. Die Fahrt hat fast drei Stunden gedauert, weil Sophie zweimal umsteigen musste.\n\nAls sie endlich angekommen ist, hat die Oma schon auf dem Bahnhof gewartet. „Ich habe dich so vermisst!\", hat die Oma gesagt und Sophie fest umarmt. Zusammen sind sie zu Fuß zum Haus gegangen, weil es nicht weit war. Im Garten der Oma gibt es viele Apfelbäume und ein kleines Gewächshaus mit Tomaten.\n\nAm Abend hat die Oma Kartoffelsuppe gekocht, und sie haben lange am Tisch gesessen und über die Familie gesprochen. Sophie hat erzählt, dass sie bald einen neuen Job anfängt. Bevor sie ins Bett gegangen ist, hat sie ihrer Mutter geschrieben, dass alles gut war.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist mit dem Auto zu ihrer Oma gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Fahrt hat fast drei Stunden gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Oma hat auf dem Bahnhof gewartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Garten gibt es keine Obstbäume.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat erzählt, dass sie einen neuen Job anfängt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ausflug-zum-zoo-mit-der-klasse",
+    "nivel": "A2",
+    "titulo": "Ein Ausflug zum Zoo mit der Klasse",
+    "descripcion": "Eine Schulklasse besucht an einem Freitag zusammen den Zoo.",
+    "texto": "Am Freitag ist die Klasse 5b mit ihrer Lehrerin in den Zoo gefahren. Alle Kinder haben sich schon lange auf diesen Tag gefreut, weil sie noch nie zusammen einen Ausflug gemacht hatten. Mit dem Bus hat die Fahrt nur zwanzig Minuten gedauert.\n\nIm Zoo haben die Kinder zuerst die Elefanten besucht. Danach sind sie zu den Affen gegangen, die laut geschrien haben. Ein Junge namens Felix hat gesagt, dass die Pinguine seine Lieblingstiere sind. Die Lehrerin hat erklärt, dass die Pinguine aus kalten Ländern kommen.\n\nZum Mittagessen haben alle zusammen auf einer Wiese gepicknickt. Nachdem sie gegessen hatten, durften die Kinder noch den Streichelzoo besuchen. Am Nachmittag sind sie müde, aber glücklich mit dem Bus zur Schule zurückgefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 5b ist mit dem Zug zum Zoo gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben zuerst die Elefanten besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Felix mag die Affen am liebsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben auf einer Wiese gepicknickt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Nachmittag sind die Kinder zur Schule zurückgefahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verpasste-zug-nach-muenchen",
+    "nivel": "A2",
+    "titulo": "Der verpasste Zug nach München",
+    "descripcion": "Jonas verpasst seinen Zug und muss seine Reisepläne ändern.",
+    "texto": "Jonas wollte am Morgen nach München fahren, um seine Schwester zu besuchen. Weil er zu lange geschlafen hatte, ist er erst um sieben Uhr aufgestanden. Sein Zug sollte aber schon um Viertel vor acht fahren.\n\nEr ist so schnell wie möglich zum Bahnhof gelaufen, aber als er ankam, war der Zug gerade abgefahren. Jonas war sehr frustriert, weil er seiner Schwester schon gesagt hatte, dass er pünktlich kommt. Am Schalter hat ihm eine freundliche Dame geholfen und ihm ein Ticket für den nächsten Zug gegeben.\n\nDer nächste Zug ist erst zwei Stunden später gefahren. Jonas hat die Zeit genutzt, um einen Kaffee zu trinken und seine Schwester anzurufen. Sie hat gelacht und gesagt, dass es kein Problem ist. Am Ende ist er trotzdem noch am Nachmittag in München angekommen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist zu spät aufgewacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat seinen Zug noch pünktlich erreicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Schalter hat ihm niemand geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat seine Schwester angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er ist nie in München angekommen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wanderung-durch-den-schwarzwald",
+    "nivel": "B1",
+    "titulo": "Die Wanderung durch den Schwarzwald",
+    "descripcion": "Zwei Freunde unternehmen trotz schlechter Wettervorhersage eine Wanderung im Schwarzwald.",
+    "texto": "Markus und Julia hatten seit Wochen eine Wanderung durch den Schwarzwald geplant. Obwohl der Wetterbericht für den Samstag Regen vorhersagte, entschieden sie sich, trotzdem loszufahren. Schließlich hatten sie die Wanderschuhe und die Route schon lange vorbereitet.\n\nAm Morgen war der Himmel grau, aber es regnete nicht. Die beiden wanderten durch dichte Wälder und an klaren Bächen entlang. Nachdem sie etwa zwei Stunden gegangen waren, erreichten sie einen Aussichtspunkt, von dem aus man das ganze Tal sehen konnte. Trotzdem zogen plötzlich dunkle Wolken auf, und kurz darauf begann es heftig zu regnen.\n\nSie suchten Schutz unter einem großen Baum und warteten, bis der Regen nachließ. „Zum Glück haben wir die Regenjacken mitgenommen\", sagte Julia lachend. Nach einer halben Stunde hörte der Regen auf, und sie konnten die Wanderung fortsetzen. Am Abend waren sie zwar nass und müde, aber sehr zufrieden mit dem Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wetterbericht hat gutes Wetter vorhergesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus und Julia fahren trotz der Regenvorhersage los.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Von dem Aussichtspunkt konnte man das Tal sehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es regnet während der ganzen Wanderung ununterbrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend sind sie unzufrieden mit dem Tag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-missverstaendnis-im-restaurant",
+    "nivel": "B1",
+    "titulo": "Ein Missverständnis im Restaurant",
+    "descripcion": "Eine Verwechslung bei der Bestellung führt zu einer komischen Situation unter Freunden.",
+    "texto": "Als Clara und ihre Freunde in einem neuen italienischen Restaurant essen gingen, wollte jeder etwas anderes bestellen. Nachdem der Kellner die Bestellungen aufgenommen hatte, verließ er den Tisch, ohne sie zu wiederholen, was sich später als Fehler herausstellen sollte.\n\nAls das Essen kam, bemerkte Clara sofort, dass etwas nicht stimmte. Sie hatte eine vegetarische Pizza bestellt, bekam aber ein Gericht mit Fleisch. Ihr Freund Tim, der eigentlich Fisch bestellt hatte, erhielt stattdessen Claras Pizza. Obwohl die Situation zunächst verwirrend war, fanden alle am Tisch es eigentlich ziemlich lustig.\n\nDer Kellner entschuldigte sich mehrmals und brachte ihnen kurz darauf die richtigen Gerichte, ohne dass sie extra bezahlen mussten. Nachdem das Missverständnis geklärt war, lachten sie noch lange über die vertauschten Teller. Am Ende des Abends beschlossen sie, dieses Restaurant bald wieder zu besuchen, weil das Essen trotz allem sehr lecker gewesen war.",
+    "preguntas": [
+      {
+        "enunciado": "Der Kellner wiederholt die Bestellungen am Tisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara bekommt zuerst ein Gericht mit Fleisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim hatte ursprünglich eine Pizza bestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle am Tisch finden die Situation nur ärgerlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie möchten das Restaurant wieder besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-gruendung-eines-vereins",
+    "nivel": "B1",
+    "titulo": "Die Gründung eines Vereins",
+    "descripcion": "Nachbarn gründen gemeinsam einen Verein, um das Leben im Stadtteil zu verbessern.",
+    "texto": "Seitdem der alte Spielplatz im Stadtteil geschlossen worden war, ärgerten sich viele Familien über den Mangel an Freizeitmöglichkeiten für Kinder. Deshalb beschlossen einige Nachbarn, einen Verein zu gründen, um gemeinsam etwas zu verändern.\n\nZunächst trafen sich die interessierten Nachbarn einmal im Monat in einem Café, um Ideen zu sammeln. Nachdem sie genug Unterstützer gefunden hatten, organisierten sie ein offizielles Gründungstreffen im Gemeindehaus. Dort wählten die Mitglieder einen Vorstand und legten die Ziele des Vereins fest: einen neuen Spielplatz bauen und regelmäßige Nachbarschaftsfeste veranstalten.\n\nObwohl die Stadt zunächst skeptisch war, konnte der Verein nach einigen Monaten genug Spenden sammeln, um das Projekt zu starten. Heute, ein Jahr später, gibt es im Stadtteil nicht nur einen neuen Spielplatz, sondern auch ein jährliches Sommerfest, das von den Mitgliedern des Vereins organisiert wird.",
+    "preguntas": [
+      {
+        "enunciado": "Der alte Spielplatz wurde geschlossen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn trafen sich nur einmal und gaben dann auf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Beim Gründungstreffen wählten die Mitglieder einen Vorstand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Stadt unterstützte das Projekt von Anfang an begeistert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Heute gibt es im Stadtteil ein jährliches Sommerfest.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "konflikte-zwischen-generationen-am-arbeitsplatz",
+    "nivel": "B2",
+    "titulo": "Konflikte zwischen Generationen am Arbeitsplatz",
+    "descripcion": "Eine Betrachtung der unterschiedlichen Erwartungen von Jung und Alt in deutschen Unternehmen.",
+    "texto": "In immer mehr deutschen Unternehmen arbeiten heute bis zu vier Generationen gemeinsam unter einem Dach, von erfahrenen Mitarbeitern kurz vor der Rente bis hin zu Berufseinsteigern, die gerade erst ihr Studium abgeschlossen haben. Diese Vielfalt bringt zwar wertvolle Perspektiven mit sich, führt jedoch häufig auch zu Missverständnissen und Spannungen, deren Ursachen tiefer liegen, als es auf den ersten Blick scheint.\n\nWährend ältere Beschäftigte oft Wert auf klare Hierarchien, feste Arbeitszeiten und persönliche Loyalität zum Unternehmen legen, erwarten jüngere Mitarbeitende zunehmend Flexibilität, flache Strukturen und eine ausgeprägte Work-Life-Balance. Nicht selten wird dies von älteren Kollegen als mangelndes Engagement fehlinterpretiert, obwohl es sich eigentlich um ein verändertes Verständnis von beruflicher Erfüllung handelt.\n\nHinzu kommt, dass digitale Kommunikationsmittel, die für jüngere Generationen selbstverständlich sind, von manchen älteren Mitarbeitern als unpersönlich oder sogar respektlos empfunden werden. Personalabteilungen reagieren darauf inzwischen mit sogenannten Mentoring-Programmen, bei denen jüngere und ältere Angestellte voneinander lernen sollen, anstatt sich gegenseitig zu kritisieren.\n\nExperten sind sich einig, dass Unternehmen, denen es gelingt, diese Unterschiede als Stärke statt als Problem zu begreifen, langfristig wettbewerbsfähiger sein werden. Entscheidend sei dabei vor allem eine offene Kommunikationskultur, in der beide Seiten ihre jeweiligen Bedürfnisse ohne Angst vor Vorurteilen äußern könnten.",
+    "preguntas": [
+      {
+        "enunciado": "In vielen Unternehmen arbeiten heute mehrere Generationen zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Mitarbeitenden legen unabhängig vom Alter die gleichen beruflichen Werte an den Tag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ältere Mitarbeiter empfinden digitale Kommunikation manchmal als unpersönlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mentoring-Programme sollen den Austausch zwischen den Generationen fördern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Experten sollten Unternehmen generationelle Unterschiede am besten ignorieren.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "oeffentlicher-verkehr-auf-dem-land",
+    "nivel": "B2",
+    "titulo": "Öffentlicher Verkehr auf dem Land",
+    "descripcion": "Warum der ländliche Raum beim Ausbau des öffentlichen Nahverkehrs oft vernachlässigt wird.",
+    "texto": "Während in deutschen Großstädten U-Bahnen und Busse oft im Zehn-Minuten-Takt verkehren, sieht die Realität in ländlichen Regionen häufig ganz anders aus. Dort müssen Bewohner mitunter mehrere Stunden auf den nächsten Bus warten, sofern überhaupt eine Verbindung existiert. Diese Ungleichheit wird von Verkehrsforschern zunehmend als strukturelles Problem bezeichnet, das weit über eine bloße Unbequemlichkeit hinausgeht.\n\nEin Grund für diese Entwicklung liegt in der geringeren Bevölkerungsdichte, wodurch sich der Betrieb regelmäßiger Linien für die Verkehrsunternehmen wirtschaftlich kaum rentiert. Hinzu kommt, dass in den vergangenen Jahrzehnten viele Bahnstrecken in ländlichen Gebieten stillgelegt wurden, weil sie als unrentabel galten, was zahlreiche Dörfer vollständig vom Schienennetz abschnitt.\n\nDies hat weitreichende Folgen, insbesondere für Menschen ohne eigenes Auto, wie Jugendliche, Senioren oder Menschen mit geringem Einkommen, die dadurch in ihrer Mobilität erheblich eingeschränkt werden. Mancherorts würden junge Menschen regelrecht gezwungen, in die Stadt zu ziehen, nicht weil sie es wollten, sondern weil ihnen auf dem Land schlicht die nötige Infrastruktur fehle.\n\nAls mögliche Lösung werden derzeit sogenannte Bürgerbusse diskutiert, die von freiwilligen Fahrern betrieben werden, sowie On-Demand-Shuttles, die per App bestellt werden können. Ob solche Angebote jedoch ausreichen, um die strukturellen Defizite langfristig auszugleichen, bleibt unter Experten weiterhin umstritten.",
+    "preguntas": [
+      {
+        "enunciado": "In ländlichen Regionen fahren Busse meistens im Zehn-Minuten-Takt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Bahnstrecken auf dem Land wurden stillgelegt, weil sie unrentabel waren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Von der schlechten Infrastruktur sind vor allem Menschen ohne Auto betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bürgerbusse werden von bezahlten Angestellten der Stadt gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Unter Experten besteht völlige Einigkeit, dass On-Demand-Shuttles das Problem lösen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ehrenamtliche-arbeit-und-ihre-grenzen",
+    "nivel": "B2",
+    "titulo": "Ehrenamtliche Arbeit und ihre Grenzen",
+    "descripcion": "Ein kritischer Blick darauf, wie sehr sich der Staat auf freiwillige Helfer verlässt.",
+    "texto": "Ohne ehrenamtliche Helfer würde in Deutschland vieles nicht funktionieren: Feuerwehren in kleinen Gemeinden, Sportvereine, Tafeln für Bedürftige und zahlreiche soziale Projekte beruhen größtenteils auf dem unentgeltlichen Engagement freiwilliger Mitarbeiter. Dieses System wird gesellschaftlich hoch geschätzt, gerät jedoch zunehmend unter Druck, wenn man es genauer betrachtet.\n\nKritiker weisen darauf hin, dass sich der Staat in manchen Bereichen zu stark auf das Ehrenamt verlasse, anstatt ausreichend in bezahlte Strukturen zu investieren. Besonders deutlich zeige sich dies bei den sogenannten Tafeln, die mittlerweile in fast jeder deutschen Stadt existieren und Lebensmittel an Menschen mit geringem Einkommen verteilen. Was ursprünglich als vorübergehende Nothilfe gedacht war, sei inzwischen zu einer dauerhaften Einrichtung geworden, ohne die ein Teil der Bevölkerung kaum über die Runden käme.\n\nDarüber hinaus berichten viele freiwillige Helfer von Erschöpfung, da die Anforderungen an ihr Engagement stetig gestiegen seien, während die Anzahl der Freiwilligen in manchen Bereichen zurückgehe. Besonders betroffen seien ländliche Feuerwehren, denen zunehmend der Nachwuchs fehle, weil junge Menschen häufig in die Stadt zögen oder schlicht keine Zeit für ein solches Engagement aufbringen könnten.\n\nSozialwissenschaftler fordern deshalb, dass der Staat das Ehrenamt zwar weiterhin fördern, es aber nicht als Ersatz für fehlende öffentliche Angebote missbrauchen sollte. Nur wenn freiwillige Arbeit tatsächlich freiwillig bleibe, anstatt notwendig zu sein, könne sie langfristig eine Bereicherung für die Gesellschaft darstellen, statt zu einer stillen Überforderung zu werden.",
+    "preguntas": [
+      {
+        "enunciado": "Viele soziale Projekte in Deutschland beruhen stark auf ehrenamtlicher Arbeit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker meinen, der Staat investiere zu stark in bezahlte Strukturen statt ins Ehrenamt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Tafeln waren ursprünglich als dauerhafte Einrichtung geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ländliche Feuerwehren haben teilweise Probleme, neue Mitglieder zu finden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sozialwissenschaftler fordern, ehrenamtliche Arbeit vollständig abzuschaffen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
