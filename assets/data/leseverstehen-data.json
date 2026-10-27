@@ -77378,5 +77378,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-geschwister",
+    "nivel": "A1",
+    "titulo": "Meine Geschwister",
+    "descripcion": "Paul erzählt von seinen zwei Geschwistern und ihren Hobbys.",
+    "texto": "Ich heiße Paul und ich bin zehn Jahre alt. Ich habe zwei Geschwister. Meine Schwester heißt Lisa und mein Bruder heißt Tom.\n\nLisa ist fünfzehn Jahre alt. Sie spielt gern Gitarre. Tom ist sieben Jahre alt. Er mag Fußball und spielt jeden Tag im Garten.\n\nWir essen zusammen am Abend. Meine Mutter kocht Nudeln oder Suppe. Nach dem Essen spielen wir manchmal Karten. Ich liebe meine Familie sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul hat drei Geschwister.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa spielt gern Gitarre.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom mag keinen Fußball.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie isst zusammen am Abend.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "im-buero-meines-vaters",
+    "nivel": "A1",
+    "titulo": "Im Büro meines Vaters",
+    "descripcion": "Finn besucht das Büro seines Vaters und beschreibt, was er dort sieht.",
+    "texto": "Mein Vater arbeitet in einem großen Büro in der Stadt. Heute besuche ich ihn nach der Schule. Das Büro ist im fünften Stock.\n\nIm Büro steht ein großer Schreibtisch mit einem Computer. Auf dem Tisch liegen Papiere und ein Telefon. An der Wand hängt eine Uhr. Mein Vater trinkt oft Kaffee, wenn er arbeitet.\n\nDie Kollegen von meinem Vater sind sehr freundlich. Eine Kollegin schenkt mir einen Keks. Ich finde das Büro spannend, aber ich möchte lieber draußen spielen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Büro ist im fünften Stock.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn besucht seinen Vater am Morgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem Tisch liegen Papiere und ein Telefon.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kollegen sind unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn möchte lieber draußen spielen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unser-klassenzimmer",
+    "nivel": "A1",
+    "titulo": "Unser Klassenzimmer",
+    "descripcion": "Mia beschreibt ihr Klassenzimmer und ihre Mitschüler.",
+    "texto": "Unser Klassenzimmer ist groß und hell. Es gibt viele Tische und Stühle. An der Wand hängen bunte Bilder von uns.\n\nWir sind zwanzig Schüler in der Klasse. Meine beste Freundin Emma sitzt neben mir. Unsere Lehrerin heißt Frau Berger. Sie ist sehr nett und erklärt alles genau.\n\nJeden Morgen räumen wir unsere Sachen auf. Dann lesen wir ein Buch oder rechnen Matheaufgaben. In der Pause spielen wir draußen im Hof.",
+    "preguntas": [
+      {
+        "enunciado": "Das Klassenzimmer ist groß und hell.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt fünf Schüler in der Klasse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Emma sitzt neben Mia.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger ist die Lehrerin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der Pause bleiben die Kinder immer drinnen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-die-nachbarschaft",
+    "nivel": "A2",
+    "titulo": "Der Umzug in die Nachbarschaft",
+    "descripcion": "Eine neue Familie ist in die Nachbarschaft gezogen, und die Nachbarn lernen sie kennen.",
+    "texto": "Letzten Monat ist eine neue Familie in unsere Straße gezogen. Die Familie Keller hat das Haus neben uns gekauft, weil sie mehr Platz für ihre drei Kinder brauchte. Am ersten Tag haben sie viele Kisten aus dem Lastwagen getragen.\n\nMeine Mutter hat sofort einen Kuchen gebacken und ist zu den neuen Nachbarn gegangen. Frau Keller hat sich sehr gefreut, dass jemand sie willkommen geheißen hat. Sie hat erzählt, dass die Familie wegen der neuen Arbeit ihres Mannes umgezogen ist. Die Kinder waren zuerst schüchtern, aber sie haben schnell mit den Kindern aus der Nachbarschaft gespielt.\n\nNach ein paar Wochen haben die Kellers ein kleines Fest im Garten organisiert, weil sie sich bei allen Nachbarn bedanken wollten. Es gab Grillwürste und Salate, und alle haben zusammen gegessen. Jetzt sind wir froh, dass wir so freundliche Nachbarn haben.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Keller ist letzten Monat umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie Keller hat keine Kinder.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Keller hat eine neue Arbeitsstelle gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder der Kellers wollten nicht mit den Nachbarskindern spielen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kellers haben ein Fest im Garten organisiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-eine-freundin",
+    "nivel": "A2",
+    "titulo": "Ein Brief an eine Freundin",
+    "descripcion": "Sophie schreibt ihrer Freundin Nina einen Brief, nachdem diese in eine andere Stadt gezogen ist.",
+    "texto": "Liebe Nina,\n\nich hoffe, es geht dir gut in deiner neuen Stadt. Ich habe deinen letzten Brief bekommen und mich sehr gefreut, weil du geschrieben hast, dass du schon neue Freunde gefunden hast. Hier bei uns hat sich nicht viel verändert, aber dein Platz in der Klasse bleibt leer.\n\nLetzte Woche haben wir einen Ausflug in den Zoo gemacht, weil unsere Lehrerin das organisiert hat. Ich musste an dich denken, denn du hast die Elefanten immer so gern gehabt. Danach sind wir ins Eiscafé gegangen, wo wir früher oft zusammen waren.\n\nIch würde mich freuen, wenn du mich in den Ferien besuchen könntest, damit wir wieder zusammen etwas unternehmen können. Schreib mir bald zurück und erzähl mir mehr von deiner neuen Schule!\n\nViele liebe Grüße,\nSophie",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist in eine andere Stadt gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat noch keine neuen Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat einen Ausflug in den Zoo gemacht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie mag keine Elefanten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie lädt Nina für die Ferien ein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-im-schwimmbad-mit-freunden",
+    "nivel": "A2",
+    "titulo": "Ein Tag im Schwimmbad mit Freunden",
+    "descripcion": "Jonas erzählt von einem heißen Sommertag, den er mit seinen Freunden im Schwimmbad verbracht hat.",
+    "texto": "Am Samstag war es sehr heiß, deshalb sind Jonas und seine Freunde ins Freibad gefahren. Sie haben sich schon morgens getroffen, weil sie befürchtet haben, dass das Schwimmbad später zu voll werden könnte.\n\nAls sie angekommen sind, haben sie sich sofort Liegestühle gesucht und ihre Sachen dort abgelegt. Dann sind sie ins Wasser gesprungen, obwohl es zuerst noch etwas kalt war. Sie haben Wettrennen im Wasser gemacht, und Jonas hat fast immer gewonnen. Am Mittag haben sie Pommes und Eis am Kiosk gekauft, weil sie großen Hunger hatten.\n\nAm Nachmittag ist es noch heißer geworden, und das Schwimmbad war wirklich voll. Trotzdem haben sie einen schönen Platz im Schatten gefunden und sich dort ausgeruht. Am Abend waren alle müde, aber sehr zufrieden mit diesem Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas und seine Freunde sind ins Freibad gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie sind erst am Nachmittag ins Schwimmbad gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat die Wettrennen im Wasser fast immer gewonnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie hatten keinen Hunger und haben nichts gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend waren alle müde, aber zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "freundschaft-in-schwierigen-zeiten",
+    "nivel": "B1",
+    "titulo": "Freundschaft in schwierigen Zeiten",
+    "descripcion": "Nach einem Streit merken zwei Freunde, wie wichtig ihre Freundschaft wirklich ist.",
+    "texto": "Jana und Felix sind seit der Grundschule beste Freunde, obwohl sie sich in vielen Dingen unterscheiden. Vor ein paar Wochen hatten sie jedoch einen heftigen Streit, weil Felix ein wichtiges Treffen vergessen hatte. Jana war sehr enttäuscht und hat tagelang nicht mit ihm gesprochen.\n\nNachdem beide einige Zeit nachgedacht hatten, hat Felix eingesehen, dass er einen Fehler gemacht hatte. Er hat Jana eine lange Nachricht geschrieben, in der er sich ehrlich entschuldigt hat. Obwohl Jana zuerst noch zögerte, hat sie seine Worte schließlich angenommen, weil sie merkte, wie sehr ihm die Freundschaft am Herzen lag.\n\nSeitdem haben die beiden offener über ihre Gefühle gesprochen, anstatt Probleme zu verschweigen. Trotzdem war es nicht leicht, das verlorene Vertrauen wieder aufzubauen. Heute sagen beide, dass der Streit ihre Freundschaft am Ende sogar gestärkt hat, weil sie gelernt haben, ehrlicher miteinander umzugehen.",
+    "preguntas": [
+      {
+        "enunciado": "Jana und Felix kennen sich seit der Grundschule.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Streit entstand, weil Jana ein Treffen vergessen hatte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix hat sich bei Jana schriftlich entschuldigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jana hat die Entschuldigung sofort ohne Zögern akzeptiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden sagen, dass der Streit ihre Freundschaft gestärkt hat.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-jahr-im-ausland",
+    "nivel": "B1",
+    "titulo": "Ein Jahr im Ausland",
+    "descripcion": "Katrin berichtet von ihren Erfahrungen während eines Auslandsjahres in Kanada.",
+    "texto": "Katrin hat sich schon lange gewünscht, für ein Jahr im Ausland zu leben, und entschied sich schließlich für ein Austauschjahr in Kanada. Obwohl sie sich vor der Abreise sehr auf das Abenteuer gefreut hat, war ihr auch etwas bange, weil sie ihre Familie und Freunde für lange Zeit nicht sehen würde.\n\nIn den ersten Wochen war alles neu und ungewohnt für sie: eine andere Sprache im Alltag, eine fremde Gastfamilie und ein völlig anderes Schulsystem. Nachdem sie sich jedoch an die neue Umgebung gewöhnt hatte, begann sie, das Leben in Kanada richtig zu genießen. Sie hat an vielen Schulaktivitäten teilgenommen und dadurch schnell Freunde aus unterschiedlichen Ländern gefunden.\n\nRückblickend sagt Katrin, dass dieses Jahr ihr Leben verändert hat, obwohl es am Anfang nicht einfach war. Sie ist selbstständiger geworden und hat gelernt, sich in ungewohnten Situationen zurechtzufinden. Heute rät sie allen, die Chance auf ein Austauschjahr zu nutzen, falls sich die Möglichkeit ergibt.",
+    "preguntas": [
+      {
+        "enunciado": "Katrin hat ein Austauschjahr in Kanada verbracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin hatte vor der Abreise überhaupt keine Zweifel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Anfang war das Leben in Kanada für Katrin ungewohnt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Katrin hat während des Jahres keine neuen Freunde gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Katrin empfiehlt anderen, ein Austauschjahr zu machen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-dorfgemeinschaft",
+    "nivel": "B1",
+    "titulo": "Die Dorfgemeinschaft",
+    "descripcion": "In einem kleinen Dorf organisieren die Bewohner gemeinsam ein Fest, um den Zusammenhalt zu stärken.",
+    "texto": "In dem kleinen Dorf Lindenbach leben nur knapp dreihundert Menschen, doch der Zusammenhalt unter den Bewohnern ist bemerkenswert groß. Jedes Jahr im Sommer organisiert die Dorfgemeinschaft ein gemeinsames Fest, obwohl die Vorbereitungen viel Zeit und Arbeit erfordern.\n\nDieses Jahr haben sich besonders viele Freiwillige gemeldet, nachdem der Bürgermeister in der Zeitung dazu aufgerufen hatte. Die jüngeren Bewohner haben die Dekoration vorbereitet, während die älteren Dorfbewohner traditionelle Gerichte gekocht haben. Trotz des schlechten Wetters am Vormittag ließen sich die Leute nicht entmutigen und bauten die Stände fertig auf.\n\nAm Abend kamen schließlich fast alle Dorfbewohner zum Fest, und es wurde bis spät in die Nacht gefeiert und getanzt. Viele sagten später, dass solche Feste wichtig seien, damit das Dorf trotz seiner geringen Größe lebendig bleibt. Für die nächste Veranstaltung planen sie schon jetzt neue Ideen.",
+    "preguntas": [
+      {
+        "enunciado": "In Lindenbach leben mehrere tausend Menschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Dorfgemeinschaft organisiert jedes Jahr im Sommer ein Fest.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Dieses Jahr haben sich nur wenige Freiwillige gemeldet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das schlechte Wetter hat die Vorbereitungen nicht gestoppt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend kamen fast alle Dorfbewohner zum Fest.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-wohnung-in-berlin",
+    "nivel": "B2",
+    "titulo": "Die Wohnungskrise und ihre Folgen",
+    "descripcion": "Ein Essay über die steigenden Mietpreise in deutschen Großstädten und ihre gesellschaftlichen Auswirkungen.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Lage auf dem Wohnungsmarkt in den vergangenen Jahren erheblich verschärft. Während die Nachfrage nach bezahlbarem Wohnraum stetig steigt, wird gleichzeitig zu wenig neuer Wohnraum gebaut, was dazu führt, dass die Mietpreise in vielen Stadtteilen innerhalb kurzer Zeit erheblich gestiegen sind.\n\nBesonders betroffen seien, so Sozialwissenschaftler, Menschen mit geringem Einkommen, die zunehmend aus den zentralen Stadtvierteln verdrängt würden. Dies habe zur Folge, dass sich soziale Unterschiede innerhalb der Städte immer deutlicher abzeichneten. Wäre ausreichend bezahlbarer Wohnraum vorhanden, könnten viele dieser Verdrängungs-prozesse vermieden werden, argumentieren Kritiker der aktuellen Wohnungspolitik.\n\nAls mögliche Lösungsansätze werden unter anderem eine strengere Mietpreisbremse, der verstärkte Bau von Sozialwohnungen sowie die Einschränkung von Ferienwohnungen diskutiert. Immobilienverbände hingegen warnen davor, dass zu strenge Regulierungen Investitionen in neuen Wohnraum verhindern könnten, wodurch sich die Situation langfristig sogar verschlimmern würde.\n\nLetztlich zeigt die Debatte, dass eine nachhaltige Lösung der Wohnungskrise nur durch ein Zusammenspiel von Politik, Wirtschaft und Stadtplanung erreicht werden kann, wenn soziale Gerechtigkeit dabei nicht aus dem Blick geraten soll.",
+    "preguntas": [
+      {
+        "enunciado": "In vielen deutschen Großstädten sind die Mietpreise stark gestiegen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text wird derzeit ausreichend neuer Wohnraum gebaut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Menschen mit geringem Einkommen werden oft aus zentralen Stadtvierteln verdrängt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Immobilienverbände fordern ausnahmslos strengere Regulierungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text schlägt vor, Politik, Wirtschaft und Stadtplanung zusammenzudenken.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-generative-ki",
+    "nivel": "B2",
+    "titulo": "Die Debatte um generative KI",
+    "descripcion": "Ein Artikel beleuchtet Chancen und Risiken generativer künstlicher Intelligenz für Gesellschaft und Arbeitswelt.",
+    "texto": "Seit generative künstliche Intelligenz für die breite Öffentlichkeit zugänglich geworden ist, wird intensiv über ihre Auswirkungen auf Gesellschaft und Arbeitswelt diskutiert. Befürworter betonen, dass solche Systeme Routinetätigkeiten erheblich erleichtern könnten, wodurch mehr Zeit für kreative und zwischenmenschliche Aufgaben bliebe.\n\nKritiker hingegen weisen darauf hin, dass zahlreiche Arbeitsplätze, insbesondere im Bereich einfacher Schreib- und Verwaltungstätigkeiten, gefährdet seien. Es wird befürchtet, dass Unternehmen, würden sie generative KI flächendeckend einsetzen, Personal in großem Umfang abbauen könnten, ohne dass ausreichend neue Arbeitsplätze entstünden. Zudem wird diskutiert, ob von solchen Systemen erzeugte Inhalte ausreichend gekennzeichnet werden müssten, damit Nutzerinnen und Nutzer zwischen menschlich und maschinell erstellten Texten unterscheiden könnten.\n\nEin weiterer zentraler Streitpunkt betrifft den Umgang mit urheberrechtlich geschütztem Material, das zum Training dieser Systeme verwendet wurde, oft ohne dass die ursprünglichen Autorinnen und Autoren dafür entlohnt worden wären. Verschiedene Verbände fordern deshalb gesetzliche Regelungen, die eine faire Vergütung sicherstellen sollen.\n\nAngesichts dieser offenen Fragen plädieren viele Expertinnen und Experten dafür, generative KI zwar zu nutzen, gleichzeitig aber verbindliche ethische und rechtliche Rahmenbedingungen zu schaffen, damit der technologische Fortschritt nicht zulasten gesellschaftlicher Werte geht.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter sehen in generativer KI vor allem eine Erleichterung von Routinetätigkeiten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass einfache Schreibarbeiten durch KI überflüssig werden könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird kein Problem mit urheberrechtlich geschütztem Material erwähnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Verbände lehnen eine gesetzliche Regelung grundsätzlich ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text fordert ethische und rechtliche Rahmenbedingungen für den Einsatz von KI.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-der-medien-in-der-demokratie",
+    "nivel": "B2",
+    "titulo": "Die Rolle der Medien in der Demokratie",
+    "descripcion": "Ein Beitrag über die Bedeutung unabhängiger Medien für demokratische Gesellschaften und die Herausforderungen, denen sie heute begegnen.",
+    "texto": "Unabhängige Medien gelten seit langem als eine der wichtigsten Säulen demokratischer Gesellschaften, da sie die Öffentlichkeit informieren und die Mächtigen kontrollieren sollen. Ohne eine freie Presse, so argumentieren Politikwissenschaftler, könnten Machtmissbrauch und Korruption kaum aufgedeckt werden, weil es an unabhängiger Kontrolle fehlen würde.\n\nIn den letzten Jahren sehen sich klassische Medienhäuser jedoch mit erheblichen Herausforderungen konfrontiert. Durch den Rückgang der Werbeeinnahmen, die zunehmend an Onlineplattformen abfließen, müssten viele Redaktionen Stellen abbauen, was wiederum die Qualität der journalistischen Arbeit beeinträchtigen könne. Gleichzeitig gewinnen alternative Informationsquellen an Bedeutung, deren journalistische Standards nicht immer überprüft werden.\n\nBesonders besorgniserregend sei, dass das Vertrauen in etablierte Medien in Teilen der Bevölkerung gesunken sei, während zugleich die Verbreitung unbelegter Behauptungen zunehme. Medienforscher betonen, dass dieser Vertrauensverlust nicht nur mit Fehlern einzelner Redaktionen zusammenhänge, sondern auch mit gezielten Kampagnen, die das Ansehen des Journalismus als Ganzes beschädigen sollten.\n\nUm die demokratische Funktion der Medien zu sichern, fordern Experten unter anderem eine stärkere öffentliche Förderung von Qualitätsjournalismus sowie eine bessere Medienbildung, damit Bürgerinnen und Bürger glaubwürdige von unseriösen Quellen besser unterscheiden könnten.",
+    "preguntas": [
+      {
+        "enunciado": "Unabhängige Medien werden als wichtige Säule der Demokratie beschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind die Werbeeinnahmen klassischer Medienhäuser gestiegen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alternative Informationsquellen werden im Text als durchweg vertrauenswürdig dargestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Vertrauen in etablierte Medien ist laut Text in Teilen der Bevölkerung gesunken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten fordern unter anderem eine bessere Medienbildung.",
+        "respuesta": true
+      }
+    ]
   }
 ]
