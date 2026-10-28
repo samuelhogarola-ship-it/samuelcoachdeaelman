@@ -79466,5 +79466,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mittwoch-bei-tom",
+    "nivel": "A1",
+    "titulo": "Mittwoch bei Tom",
+    "descripcion": "Tom erzählt, wie sein Mittwoch aussieht.",
+    "texto": "Tom steht jeden Mittwoch um sieben Uhr auf. Er isst ein Brot mit Käse und trinkt einen Tee. Danach putzt er seine Zähne und zieht sich an. Tom fährt mit dem Fahrrad zur Arbeit. Die Fahrt dauert nur zehn Minuten.\n\nUm zwölf Uhr macht Tom eine Pause. Er isst eine Suppe in der Kantine und trinkt Wasser. Am Nachmittag telefoniert er mit seiner Schwester. Sie sprechen über das Wochenende. Um 17 Uhr geht Tom nach Hause.\n\nAm Abend kocht Tom Nudeln mit Tomatensauce. Er isst zusammen mit seinem Mitbewohner. Danach sehen sie einen Film im Wohnzimmer. Tom geht um 23 Uhr ins Bett. Er ist müde, aber zufrieden.",
+    "preguntas": [
+      {
+        "enunciado": "Tom steht um sieben Uhr auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom fährt mit dem Bus zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom isst zu Mittag eine Suppe.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom telefoniert am Morgen mit seiner Schwester.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend kocht Tom Nudeln.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-gartenparty",
+    "nivel": "A1",
+    "titulo": "Die Gartenparty",
+    "descripcion": "Familie Berger feiert eine Party im Garten.",
+    "texto": "Familie Berger macht heute eine Gartenparty. Die Sonne scheint, und der Garten ist schön dekoriert. Es gibt bunte Luftballons und eine lange Tischdecke. Frau Berger stellt Teller und Gläser auf den Tisch. Herr Berger grillt Würstchen und Gemüse.\n\nViele Gäste kommen zur Party. Die Kinder spielen Fußball auf der Wiese. Die Erwachsenen trinken Limonade und reden miteinander. Oma Berger bringt einen großen Kuchen mit. Alle finden den Kuchen sehr lecker.\n\nAm Abend wird es dunkel, und die Familie zündet Kerzen an. Die Gäste singen Lieder und lachen zusammen. Um zehn Uhr gehen die ersten Gäste nach Hause. Familie Berger ist müde, aber die Party war sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Die Party findet im Garten statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Berger kocht Suppe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder spielen Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma Berger bringt keinen Kuchen mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend zündet die Familie Kerzen an.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-flohmarkt-am-dienstag",
+    "nivel": "A1",
+    "titulo": "Der Flohmarkt am Dienstag",
+    "descripcion": "Lisa geht am Dienstag auf einen kleinen Flohmarkt.",
+    "texto": "Lisa geht am Dienstag auf den Flohmarkt in ihrer Straße. Sie sucht einen alten Stuhl für ihre Küche. Die Stände sind voll mit Büchern, Tassen und Kleidung. Lisa schaut sich jeden Stand genau an.\n\nAn einem Stand findet sie einen roten Stuhl. Der Stuhl kostet nur fünf Euro. Lisa fragt die Verkäuferin: „Ist der Stuhl noch gut?\" Die Verkäuferin lacht und sagt: „Ja, er ist sehr stabil.\" Lisa kauft den Stuhl und ist sehr froh.\n\nDanach kauft Lisa noch eine Tasse und ein altes Buch. Sie trägt alles in einer großen Tasche. Auf dem Weg nach Hause trinkt sie einen Kaffee in einem Café. Lisa findet den Flohmarkt sehr interessant.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa sucht einen Stuhl für die Küche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Stuhl kostet zwanzig Euro.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Verkäuferin sagt, der Stuhl ist kaputt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa kauft auch eine Tasse und ein Buch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa trinkt auf dem Heimweg einen Kaffee.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-verlorene-koffer-am-bahnhof",
+    "nivel": "A2",
+    "titulo": "Der verlorene Koffer am Bahnhof",
+    "descripcion": "Markus verliert seinen Koffer während einer Zugreise.",
+    "texto": "Markus ist mit dem Zug nach Hamburg gefahren, weil er dort seine Tante besuchen wollte. Als er am Bahnhof ankam, hat er seinen Koffer nicht gefunden. Er hat den Koffer wahrscheinlich im Zug vergessen, weil er in Eile ausgestiegen ist. Markus ist sehr nervös geworden und ist sofort zum Info-Schalter gegangen.\n\nDie Mitarbeiterin am Schalter hat ihm gesagt, dass er eine Verlustmeldung ausfüllen muss. Markus hat ein Formular bekommen und hat seinen Namen, die Zugnummer und eine Beschreibung des Koffers aufgeschrieben. Er hat erklärt, dass der Koffer blau ist und ein kaputtes Rad hat. Die Mitarbeiterin hat versprochen, dass sie sich bald melden wird, wenn der Koffer gefunden wird.\n\nAm nächsten Tag hat Markus einen Anruf bekommen. Der Koffer ist in einem anderen Zug gefunden worden, weil ein Schaffner ihn entdeckt hat. Markus war sehr glücklich, dass alles gut ausgegangen ist. Er hat den Koffer am selben Tag am Bahnhof abgeholt und ist endlich zu seiner Tante gefahren.",
+    "preguntas": [
+      {
+        "enunciado": "Markus ist mit dem Flugzeug gereist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Markus hat seinen Koffer im Zug vergessen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Markus musste ein Formular ausfüllen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Koffer ist für immer verschwunden geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Schaffner hat den Koffer gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-nachbar-von-nebenan",
+    "nivel": "A2",
+    "titulo": "Der neue Nachbar von nebenan",
+    "descripcion": "Eine Familie lernt ihren neuen Nachbarn kennen.",
+    "texto": "Letzte Woche ist ein neuer Nachbar in die Wohnung neben Familie Schulz eingezogen. Er heißt Herr Keller und kommt aus Österreich. Frau Schulz hat ihn im Treppenhaus getroffen, weil sie gerade die Post geholt hat. Sie haben sich kurz vorgestellt und über das Wetter gesprochen.\n\nAm Samstag hat Frau Schulz Herrn Keller zum Kaffee eingeladen, weil sie ihn besser kennenlernen wollte. Herr Keller hat erzählt, dass er wegen seiner neuen Arbeit umgezogen ist. Er hat auch gesagt, dass er die Nachbarschaft sehr ruhig findet. Die beiden haben lange über ihre Familien gesprochen und viel gelacht.\n\nNach dem Kaffee hat Herr Keller der Familie Schulz angeboten, beim Umzug der schweren Möbel zu helfen. Herr Schulz war sehr dankbar, dass der neue Nachbar so freundlich ist. Seitdem treffen sich die beiden Familien oft und helfen sich gegenseitig.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Keller kommt aus der Schweiz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Schulz hat Herrn Keller zum Kaffee eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Keller ist wegen einer neuen Arbeit umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Keller findet die Nachbarschaft sehr laut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Familien treffen sich seitdem oft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-liebe-freundin",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die liebe Freundin",
+    "descripcion": "Nina schreibt ihrer Freundin einen Brief über ihr Leben in einer neuen Stadt.",
+    "texto": "Liebe Carla, ich hoffe, dass es dir gut geht! Ich wollte dir schon lange schreiben, weil ich dir so viel erzählen möchte. Vor zwei Monaten bin ich nach Köln gezogen, weil ich hier einen neuen Job gefunden habe. Am Anfang war es schwer, weil ich niemanden kannte.\n\nMittlerweile habe ich aber einige Kollegen kennengelernt, und wir haben zusammen den Dom besucht. Letzte Woche sind wir auch an den Rhein spazieren gegangen, weil das Wetter so schön war. Ich habe gemerkt, dass die Leute hier sehr freundlich sind, wenn man offen auf sie zugeht.\n\nIch würde mich sehr freuen, wenn du mich bald besuchen könntest. Wir könnten zusammen durch die Stadt laufen und viele Cafés entdecken. Schreib mir bitte bald zurück und erzähl mir, wie es dir geht. Ich vermisse dich sehr!\n\nLiebe Grüße,\nNina",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist nach Köln gezogen, weil sie einen Job gefunden hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina kannte am Anfang schon viele Leute in Köln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat mit Kollegen den Dom besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina findet die Leute in Köln unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina lädt Carla ein, sie zu besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommerjob-am-flughafen",
+    "nivel": "B1",
+    "titulo": "Ein Sommerjob am Flughafen",
+    "descripcion": "Jonas berichtet über seinen ersten Sommerjob am Flughafen.",
+    "texto": "Jonas hat sich letzten Sommer für einen Ferienjob am Flughafen entschieden, obwohl seine Eltern zunächst skeptisch waren. Er wollte unbedingt Berufserfahrung sammeln, bevor er mit seinem Studium beginnt. Nachdem er sich online beworben hatte, wurde er zu einem Vorstellungsgespräch eingeladen und bekam kurz darauf die Zusage für die Arbeit am Check-in-Schalter.\n\nAm Anfang fühlte sich Jonas überfordert, weil er viele Regeln und Abläufe lernen musste. Trotzdem gewöhnte er sich schnell an den stressigen Alltag und lernte, ruhig zu bleiben, auch wenn Passagiere ungeduldig wurden. Besonders spannend fand er es, mit Menschen aus verschiedenen Ländern zu sprechen und dabei sein Englisch zu verbessern. Nachdem die ersten Wochen vorbei waren, fühlte er sich deutlich sicherer in seiner Rolle.\n\nAm Ende des Sommers war Jonas stolz auf das, was er gelernt hatte, obwohl die Arbeitszeiten manchmal sehr anstrengend waren. Er hat nicht nur Geld verdient, sondern auch gelernt, wie wichtig Geduld und Teamarbeit im Berufsleben sind. Seine Eltern waren am Ende sehr beeindruckt von seiner Entwicklung und unterstützten ihn bei seinen weiteren Plänen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas' Eltern waren von Anfang an begeistert von der Idee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat am Check-in-Schalter gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fand die Arbeit von Anfang an einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas konnte sein Englisch verbessern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende waren seine Eltern enttäuscht von ihm.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-streit-mit-der-besten-freundin",
+    "nivel": "B1",
+    "titulo": "Der Streit mit der besten Freundin",
+    "descripcion": "Mia und ihre beste Freundin streiten sich wegen eines Missverständnisses.",
+    "texto": "Mia und Sofie sind seit der Grundschule beste Freundinnen, obwohl sie in vielen Dingen sehr unterschiedlich sind. Vor zwei Wochen kam es zu einem großen Streit, nachdem Sofie ein wichtiges Treffen vergessen hatte. Mia fühlte sich verletzt, weil sie dachte, dass ihr die Freundschaft nicht wichtig genug sei. Trotzdem wollte sie nicht sofort mit Sofie sprechen, weil sie noch zu wütend war.\n\nNach ein paar Tagen rief Sofie an und erklärte, dass sie das Treffen wegen eines familiären Notfalls verpasst hatte. Sie hatte ihr Handy ausgeschaltet, weil sie sich voll auf ihre kranke Großmutter konzentrieren wollte. Mia schämte sich, nachdem sie die wahre Geschichte gehört hatte, weil sie zu schnell negativ reagiert hatte. Sie entschied sich, ihre Freundin zu besuchen, obwohl der Streit sie beide noch belastete.\n\nNachdem die beiden ausführlich miteinander gesprochen hatten, verstanden sie, wie wichtig offene Kommunikation in einer Freundschaft ist. Sie versprachen sich, in Zukunft ehrlicher zu sein und sich gegenseitig mehr Vertrauen zu schenken. Die Freundschaft wurde durch diesen Streit sogar noch stärker, obwohl es anfangs sehr schwer war.",
+    "preguntas": [
+      {
+        "enunciado": "Mia und Sofie kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sofie hat das Treffen wegen eines familiären Notfalls verpasst.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia hat sofort verstanden, warum Sofie nicht gekommen ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die beiden Freundinnen haben sich am Ende ausgesprochen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freundschaft wurde durch den Streit schwächer.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-strassenfest-im-neuen-stadtteil",
+    "nivel": "B1",
+    "titulo": "Das Straßenfest im neuen Stadtteil",
+    "descripcion": "Eine Familie lernt ihre neue Nachbarschaft bei einem Straßenfest kennen.",
+    "texto": "Familie Novak ist vor drei Monaten in einen neuen Stadtteil gezogen, obwohl sie zunächst Zweifel hatten, ob sie sich dort wohlfühlen würden. Nachdem sie sich eingerichtet hatten, erfuhren sie, dass am Wochenende ein großes Straßenfest stattfinden sollte. Sie beschlossen, daran teilzunehmen, um neue Leute kennenzulernen.\n\nAuf dem Fest gab es Musik, Essen aus verschiedenen Ländern und viele Stände mit selbstgemachten Produkten. Herr Novak kam schnell mit anderen Vätern ins Gespräch, nachdem sie gemeinsam beim Grillstand geholfen hatten. Frau Novak lernte eine Nachbarin kennen, die ebenfalls vor einigen Jahren in den Stadtteil gezogen war. Obwohl sich die Familie zunächst fremd gefühlt hatte, merkten sie schnell, wie herzlich die Gemeinschaft war.\n\nAm Abend saßen alle zusammen an langen Tischen und tauschten Geschichten aus. Die Kinder der Familie Novak freundeten sich mit anderen Kindern aus der Nachbarschaft an. Nachdem das Fest zu Ende gegangen war, fühlte sich die Familie zum ersten Mal richtig zu Hause in ihrem neuen Stadtteil.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Novak ist schon seit vielen Jahren in dem Stadtteil.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Auf dem Straßenfest gab es Essen aus verschiedenen Ländern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Novak hat sich beim Grillstand mit anderen Vätern unterhalten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie fühlte sich nach dem Fest immer noch fremd.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder der Familie haben neue Freunde gefunden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "kuenstliche-intelligenz-in-der-schule-der-zukunft",
+    "nivel": "B2",
+    "titulo": "Künstliche Intelligenz in der Schule der Zukunft",
+    "descripcion": "Ein Beitrag über Chancen und Risiken des Einsatzes von KI im Bildungswesen.",
+    "texto": "Der Einsatz künstlicher Intelligenz im Unterricht wird derzeit kontrovers diskutiert, wobei sowohl Befürworter als auch Kritiker gewichtige Argumente vorbringen. Während die einen betonen, dass individualisiertes Lernen durch KI-gestützte Programme erheblich erleichtert werden könnte, warnen andere vor einer zunehmenden Abhängigkeit von Technologie, die die eigenständige Denkfähigkeit der Schülerinnen und Schüler schwächen könnte. Besonders umstritten ist die Frage, inwieweit Hausaufgaben und Prüfungen in einer Welt noch sinnvoll bewertet werden können, in der Texte mühelos von Maschinen erstellt werden.\n\nWürde man KI konsequent in den Schulalltag integrieren, müssten zugleich die Lehrpläne grundlegend überarbeitet werden. Es wäre notwendig, dass Schülerinnen und Schüler lernen, mit solchen Werkzeugen verantwortungsvoll umzugehen, anstatt sie lediglich als Abkürzung zu nutzen. Zudem müsste in die Fortbildung der Lehrkräfte investiert werden, damit diese neue Technologien sinnvoll in den Unterricht einbinden können. Ohne eine solche Investition besteht die Gefahr, dass die digitale Kluft zwischen gut ausgestatteten und schlecht ausgestatteten Schulen weiter wächst.\n\nAndererseits wird von Experten darauf hingewiesen, dass bereits erfolgreiche Pilotprojekte existieren, in denen KI-gestützte Lernprogramme gezielt zur Förderung leistungsschwächerer Schüler eingesetzt werden. In diesen Projekten wird berichtet, dass sich die Motivation der Lernenden deutlich verbessert habe, da individuelles Feedback in Echtzeit gegeben werden könne. Ob sich dieser Ansatz flächendeckend umsetzen lässt, hängt letztlich von politischen Entscheidungen und einer gerechten Verteilung der notwendigen Ressourcen ab.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Experten sind sich einig, dass KI im Unterricht nur Vorteile bringt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass KI die eigenständige Denkfähigkeit schwächen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text müssten Lehrpläne bei einer stärkeren KI-Nutzung überarbeitet werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text erwähnt keine Pilotprojekte mit KI in Schulen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Erfolg von KI in Schulen hängt laut Text auch von politischen Entscheidungen ab.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "nachhaltigkeit-im-alltag-zwischen-anspruch-und-wirklichkeit",
+    "nivel": "B2",
+    "titulo": "Nachhaltigkeit im Alltag zwischen Anspruch und Wirklichkeit",
+    "descripcion": "Ein kritischer Blick darauf, wie nachhaltig der Alltag vieler Menschen wirklich ist.",
+    "texto": "Obwohl sich immer mehr Menschen als umweltbewusst bezeichnen, zeigt sich im Alltag häufig eine deutliche Diskrepanz zwischen Anspruch und tatsächlichem Verhalten. Viele Konsumenten geben an, dass ihnen Nachhaltigkeit wichtig sei, kaufen jedoch weiterhin günstige Produkte, die unter fragwürdigen Bedingungen hergestellt wurden. Diese Widersprüchlichkeit wird von Soziologen häufig als „Attitude-Behavior-Gap\" bezeichnet, also als Kluft zwischen Einstellung und tatsächlichem Handeln.\n\nEin Grund für dieses Verhalten liegt vermutlich darin, dass nachhaltige Alternativen oft deutlich teurer sind und daher nicht allen Bevölkerungsgruppen gleichermaßen zugänglich erscheinen. Würde die Politik stärker in die Preisgestaltung eingreifen, etwa durch gezielte Subventionen für umweltfreundliche Produkte, könnte sich dieses Problem möglicherweise verringern lassen. Gleichzeitig wird kritisiert, dass Unternehmen durch sogenanntes „Greenwashing\" den Eindruck erwecken, besonders nachhaltig zu handeln, ohne dass dies tatsächlich der Fall ist.\n\nDennoch gibt es ermutigende Entwicklungen: Immer mehr Städte setzen auf Konzepte wie Reparaturcafés, Tauschbörsen und gemeinschaftliche Gärten, durch die ein bewussterer Umgang mit Ressourcen gefördert wird. Diese Initiativen zeigen, dass nachhaltiges Handeln dann besonders erfolgreich ist, wenn es durch strukturelle Angebote erleichtert wird, anstatt allein auf die individuelle Verantwortung der Konsumenten zu setzen. Ob sich eine echte Verhaltensänderung in der breiten Gesellschaft durchsetzen lässt, bleibt jedoch eine offene Frage.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text verhalten sich alle umweltbewussten Menschen auch nachhaltig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text erwähnt die Kluft zwischen Einstellung und Handeln als 'Attitude-Behavior-Gap'.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nachhaltige Produkte sind laut Text oft günstiger als herkömmliche Produkte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Greenwashing wird im Text als problematisch beschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Reparaturcafés und Tauschbörsen werden als positive Beispiele genannt.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-rolle-der-sozialen-medien-in-der-politischen-meinungsbildung",
+    "nivel": "B2",
+    "titulo": "Die Rolle der sozialen Medien in der politischen Meinungsbildung",
+    "descripcion": "Ein Essay über den Einfluss sozialer Netzwerke auf die politische Meinungsbildung.",
+    "texto": "In den letzten Jahren hat sich die Art, wie politische Meinungen gebildet werden, grundlegend verändert, was maßgeblich auf den wachsenden Einfluss sozialer Medien zurückzuführen ist. Während früher vor allem Zeitungen und das Fernsehen die öffentliche Debatte prägten, werden heute politische Inhalte zunehmend über Plattformen verbreitet, deren Algorithmen primär auf Aufmerksamkeit statt auf inhaltliche Ausgewogenheit ausgerichtet sind. Diese Entwicklung wird von Medienkritikern als problematisch angesehen, da komplexe politische Zusammenhänge dadurch oft auf vereinfachte, emotional aufgeladene Aussagen reduziert werden.\n\nBesonders kritisch wird die sogenannte Filterblase diskutiert, in der Nutzerinnen und Nutzer vorwiegend mit Inhalten konfrontiert werden, die ihre bereits bestehenden Ansichten bestätigen. Dadurch könnte die Fähigkeit zur konstruktiven Auseinandersetzung mit abweichenden Meinungen zunehmend eingeschränkt werden. Müsste man die Plattformen stärker regulieren, damit vielfältigere Perspektiven sichtbar werden, wäre dies ein erheblicher Eingriff in die unternehmerische Freiheit der Betreiber, der von diesen entsprechend abgelehnt wird.\n\nAndererseits wird in der Debatte auch betont, dass soziale Medien demokratische Teilhabe erleichtern können, indem sie Menschen eine Stimme geben, die in traditionellen Medien kaum Beachtung gefunden hätten. Es wird daher gefordert, dass Nutzerinnen und Nutzer stärker in der kritischen Bewertung von Informationen geschult werden, damit Desinformation leichter erkannt werden kann. Eine nachhaltige Lösung dieses Problems wird letztlich nur durch das Zusammenwirken von Bildung, Regulierung und technologischer Transparenz erreichbar sein.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text waren früher vor allem Zeitungen und Fernsehen prägend für die politische Debatte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Algorithmen sozialer Medien zielen laut Text primär auf inhaltliche Ausgewogenheit ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Filterblase kann laut Text die Auseinandersetzung mit anderen Meinungen erschweren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, soziale Medien hätten keinerlei positive Effekte auf die Demokratie.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Text wird eine Kombination aus Bildung, Regulierung und Transparenz als Lösung vorgeschlagen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
