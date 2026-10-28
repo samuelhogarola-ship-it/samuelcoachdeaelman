@@ -77726,5 +77726,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "der-kiosk-um-die-ecke",
+    "nivel": "A1",
+    "titulo": "Der Kiosk um die Ecke",
+    "descripcion": "Lukas kauft jeden Morgen eine Zeitung am Kiosk.",
+    "texto": "Lukas wohnt in einer kleinen Stadt. Jeden Morgen geht er zum Kiosk um die Ecke. Der Kiosk gehört Frau Berger. Sie ist sehr freundlich. Lukas kauft dort eine Zeitung und ein Brötchen. Er trinkt auch einen Kaffee. Der Kaffee ist heiß und lecker.\n\nFrau Berger kennt Lukas gut. Sie fragt immer: „Wie geht es dir heute?“ Lukas lacht und antwortet. Am Kiosk gibt es auch Süßigkeiten und Getränke. Kinder kaufen dort gern Schokolade. Am Wochenende ist der Kiosk voll mit Kunden.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas kauft jeden Morgen eine Zeitung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Kiosk gehört Lukas.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas trinkt am Kiosk einen Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger ist unfreundlich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Wochenende ist der Kiosk voll.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-familie-am-wochenende",
+    "nivel": "A1",
+    "titulo": "Meine Familie am Wochenende",
+    "descripcion": "Eine Familie erzählt, was sie am Wochenende zusammen macht.",
+    "texto": "Am Samstag frühstückt meine Familie zusammen. Meine Mutter macht Pfannkuchen. Mein Vater trinkt Kaffee und liest die Zeitung. Meine Schwester und ich spielen danach im Garten. Wir haben einen Hund. Er heißt Bruno und spielt gern mit uns.\n\nAm Nachmittag fahren wir oft ins Schwimmbad. Das Wasser ist kühl und frisch. Meine Schwester schwimmt sehr gut. Ich spiele lieber Ball am Beckenrand. Am Abend essen wir zusammen Pizza. Das ist unser Lieblingsessen am Wochenende.",
+    "preguntas": [
+      {
+        "enunciado": "Meine Mutter macht am Samstag Pfannkuchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund heißt Max.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie fährt oft ins Schwimmbad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ich schwimme besser als meine Schwester.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend isst die Familie Suppe.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "unser-garten-im-fruehling",
+    "nivel": "A1",
+    "titulo": "Unser Garten im Frühling",
+    "descripcion": "Im Frühling arbeitet die Familie gern im Garten.",
+    "texto": "Im Frühling ist unser Garten sehr schön. Die Blumen blühen bunt. Meine Oma pflanzt Tomaten und Salat. Mein Opa schneidet die Hecke. Ich helfe gern beim Gießen. Das Wasser kommt aus einem großen Eimer.\n\nAm Nachmittag sitzen wir oft auf der Terrasse. Wir trinken Tee und essen Kekse. Die Vögel singen laut in den Bäumen. Mein Opa erzählt gern Geschichten aus seiner Kindheit. Am Ende des Tages sind wir müde, aber glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Im Garten blühen die Blumen bunt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa pflanzt Tomaten und Salat.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ich helfe beim Gießen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie sitzt nie auf der Terrasse.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Vögel singen laut.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-reparatur-cafe",
+    "nivel": "A2",
+    "titulo": "Das Reparatur-Café",
+    "descripcion": "Herr Keller hat sein altes Radio im Reparatur-Café reparieren lassen.",
+    "texto": "Letzten Samstag ist Herr Keller zum Reparatur-Café gegangen. Dort haben Freiwillige kaputte Geräte repariert. Herr Keller hatte ein altes Radio, das nicht mehr funktioniert hat. Ein freundlicher Helfer namens Tobias hat sich das Radio angeschaut. Er hat ein Kabel gefunden, das kaputt war.\n\nTobias hat das Kabel repariert, weil er viel Erfahrung mit alten Geräten hatte. Nach einer Stunde hat das Radio wieder Musik gespielt. Herr Keller hat sich sehr gefreut und Tobias herzlich bedankt. Er hat auch eine kleine Spende für das Café gegeben, weil er die Arbeit der Freiwilligen so wichtig fand.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Keller ist zum Reparatur-Café gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tobias hat das Radio nicht reparieren können.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Kabel im Radio war kaputt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Keller hat keine Spende gegeben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Reparatur hat das Radio wieder funktioniert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-strassenmusiker",
+    "nivel": "A2",
+    "titulo": "Der Straßenmusiker",
+    "descripcion": "Julia hat auf dem Weg zur Arbeit einem Straßenmusiker zugehört.",
+    "texto": "Am Montagmorgen ist Julia wie immer zur Arbeit gegangen. Auf dem Weg hat sie einen Straßenmusiker gehört, der Gitarre gespielt hat. Seine Musik hat ihr so gut gefallen, dass sie stehen geblieben ist. Viele Leute haben sich um ihn versammelt, weil die Melodie so schön war.\n\nJulia hat gefragt, ob der Musiker schon lange auf der Straße spielt. Er hat erzählt, dass er seit zwei Jahren jeden Morgen dort steht, weil er die Leute glücklich machen möchte. Julia hat ihm ein paar Euro gegeben und ist dann weiter zur Arbeit gelaufen. Den ganzen Tag hat sie an die schöne Melodie gedacht.",
+    "preguntas": [
+      {
+        "enunciado": "Julia ist auf dem Weg zur Arbeit stehen geblieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Musiker hat Klavier gespielt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Leute haben sich um den Musiker versammelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Musiker spielt erst seit einer Woche auf der Straße.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat dem Musiker Geld gegeben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-tauschboerse",
+    "nivel": "A2",
+    "titulo": "Die Tauschbörse im Stadtpark",
+    "descripcion": "Familie Weber hat an einer Tauschbörse im Park teilgenommen.",
+    "texto": "Am Sonntag hat im Stadtpark eine Tauschbörse stattgefunden. Familie Weber hat alte Spielsachen und Bücher mitgebracht, weil die Kinder nicht mehr damit gespielt haben. Viele andere Familien sind auch gekommen und haben ihre Sachen auf Decken ausgebreitet.\n\nDie Kinder der Familie Weber haben ein neues Puzzle und ein Fahrrad gegen ihre alten Spielsachen getauscht. Die Eltern haben sich gefreut, dass sie nichts bezahlen mussten. Nachdem die Tauschbörse zu Ende war, haben alle zusammen aufgeräumt und sich verabschiedet. Familie Weber will nächstes Jahr wiederkommen, weil der Tausch so viel Spaß gemacht hat.",
+    "preguntas": [
+      {
+        "enunciado": "Die Tauschbörse hat im Stadtpark stattgefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Familie Weber hat Möbel mitgebracht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben ein Fahrrad bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familien mussten für die Sachen bezahlen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Familie Weber möchte nächstes Jahr wiederkommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-sprachtandem",
+    "nivel": "B1",
+    "titulo": "Das Sprachtandem",
+    "descripcion": "Mia und Hiroshi treffen sich regelmäßig, um gemeinsam Deutsch und Japanisch zu lernen.",
+    "texto": "Mia lernt seit einem Jahr Japanisch, obwohl sie am Anfang kaum Fortschritte gemacht hat. Über eine Universitäts-App hat sie Hiroshi kennengelernt, der gerade nach Deutschland gezogen ist, um Deutsch zu lernen. Seitdem treffen sich die beiden einmal pro Woche in einem Café, um gemeinsam zu üben.\n\nIn der ersten halben Stunde sprechen sie nur Deutsch, danach wechseln sie zu Japanisch, damit beide gleich viel profitieren. Mia findet es hilfreich, dass Hiroshi ihr die Aussprache korrigiert, obwohl sie sich manchmal über ihre Fehler ärgert. Nachdem sie sich mehrmals getroffen haben, sind die beiden auch außerhalb des Sprachtandems Freunde geworden.\n\nTrotzdem gibt es Herausforderungen: Manchmal fehlen beiden die richtigen Wörter, und sie müssen mit Händen und Füßen erklären, was sie meinen. Genau das macht den Austausch für beide aber auch lustig und einprägsam. Mia ist überzeugt, dass sie ohne das Tandem nie so schnell gelernt hätte, wie wichtig echte Gespräche für das Sprachenlernen sind.",
+    "preguntas": [
+      {
+        "enunciado": "Mia und Hiroshi haben sich über eine Universitäts-App kennengelernt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden sprechen nur Japanisch miteinander.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Hiroshi korrigiert Mias Aussprache.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia und Hiroshi sind nur Lernpartner und keine Freunde geworden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia glaubt, dass echte Gespräche wichtig für das Sprachenlernen sind.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarschaftshilfe-app",
+    "nivel": "B1",
+    "titulo": "Die Nachbarschaftshilfe-App",
+    "descripcion": "Herr Novak entdeckt eine App, mit der Nachbarn sich gegenseitig helfen können.",
+    "texto": "Herr Novak ist vor kurzem in eine neue Wohnung gezogen und kannte in der Nachbarschaft noch niemanden. Ein Kollege hat ihm von einer App erzählt, über die sich Nachbarn gegenseitig helfen können, obwohl Herr Novak zuerst skeptisch war. Nachdem er die App installiert hatte, sah er sofort mehrere Anfragen aus seiner Straße.\n\nEine ältere Nachbarin suchte jemanden, der ihr beim Einkaufen helfen konnte, weil sie sich das Bein verletzt hatte. Herr Novak meldete sich, und seitdem bringt er ihr jede Woche Lebensmittel. Im Gegenzug lädt sie ihn manchmal zum Kaffee ein und erzählt ihm Geschichten aus der Nachbarschaft, die er sonst nie gehört hätte.\n\nTrotzdem findet Herr Novak, dass solche Apps die persönliche Nachbarschaftshilfe nicht komplett ersetzen können, weil echter Kontakt wichtiger sei als jede Technologie. Für ihn war die App aber ein guter erster Schritt, um in seiner neuen Umgebung anzukommen und neue Menschen kennenzulernen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Novak kannte seine Nachbarschaft schon sehr gut, bevor er die App nutzte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarin brauchte Hilfe beim Einkaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Novak bringt der Nachbarin nie wieder Lebensmittel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Nachbarin lädt Herrn Novak manchmal zum Kaffee ein.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Novak glaubt, dass die App den persönlichen Kontakt völlig ersetzen kann.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-generationenkonflikt-im-buero",
+    "nivel": "B1",
+    "titulo": "Der Generationenkonflikt im Büro",
+    "descripcion": "In einer Firma treffen junge und ältere Kollegen auf unterschiedliche Arbeitsweisen.",
+    "texto": "In der Marketingabteilung einer mittelgroßen Firma arbeiten Mitarbeiter aus drei verschiedenen Generationen zusammen. Während die jüngeren Kollegen am liebsten per Chat kommunizieren, bevorzugen die älteren Kollegen persönliche Gespräche oder Telefonanrufe. Diese unterschiedlichen Gewohnheiten führen immer wieder zu kleinen Missverständnissen, obwohl alle das gleiche Ziel verfolgen.\n\nNachdem es mehrmals zu Konflikten gekommen war, hat die Abteilungsleiterin ein Treffen organisiert, bei dem jede Generation ihre Sicht erklären konnte. Die jüngeren Mitarbeiter sagten, dass sie durch Chats schneller und flexibler arbeiten könnten. Die älteren Kollegen betonten dagegen, dass persönliche Gespräche weniger Missverständnisse verursachen, weil man Tonfall und Mimik besser einschätzen kann.\n\nAm Ende haben sich die Kollegen auf einen Kompromiss geeinigt: Für kurze Fragen nutzen sie weiterhin den Chat, für wichtige Entscheidungen setzen sie sich aber zusammen an einen Tisch. Trotzdem gibt es gelegentlich noch Reibungen, doch insgesamt hat sich die Zusammenarbeit deutlich verbessert.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Mitarbeiter in der Abteilung bevorzugen die gleiche Kommunikationsform.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Abteilungsleiterin hat ein Treffen organisiert, um die Konflikte zu klären.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die älteren Kollegen finden persönliche Gespräche hilfreich gegen Missverständnisse.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach dem Treffen nutzen die Kollegen den Chat gar nicht mehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zusammenarbeit hat sich nach dem Kompromiss verbessert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-homeoffice-gesetz",
+    "nivel": "B2",
+    "titulo": "Das Homeoffice-Gesetz",
+    "descripcion": "Ein Kommentar über die geplante gesetzliche Regelung des Homeoffice und ihre gesellschaftlichen Folgen.",
+    "texto": "Seit der Pandemie ist das Homeoffice für viele Beschäftigte zu einem festen Bestandteil des Arbeitsalltags geworden, weshalb nun über eine gesetzliche Regelung diskutiert wird. Befürworter argumentieren, dass ein gesetzlich verankerter Anspruch auf Homeoffice die Vereinbarkeit von Beruf und Familie erheblich verbessern würde, während Arbeitgeberverbände vor zu starren Vorgaben warnen.\n\nKritiker des Gesetzes befürchten, dass ein pauschaler Rechtsanspruch den betrieblichen Besonderheiten einzelner Branchen nicht gerecht werden könnte. In der Produktion oder im Gesundheitswesen etwa sei Homeoffice schlicht nicht umsetzbar, weshalb manche Beschäftigte sich benachteiligt fühlten, wenn andere Berufsgruppen von flexibleren Regelungen profitierten. Befürworter entgegnen, dass das Gesetz Ausnahmen für solche Fälle vorsehen würde.\n\nArbeitsrechtler weisen zudem darauf hin, dass die Frage, wer die Kosten für Ausstattung und Energie im Homeoffice trägt, bislang kaum geklärt sei. Sollte das Gesetz verabschiedet werden, müssten Unternehmen voraussichtlich klare Regelungen für solche Kosten entwickeln, was wiederum zusätzliche bürokratische Aufgaben mit sich bringen würde.\n\nTrotz aller Kontroversen sind sich die meisten Experten einig, dass sich die Arbeitswelt durch die Digitalisierung dauerhaft verändert hat und eine gesetzliche Grundlage längst überfällig sei. Wie genau diese Grundlage aussehen soll, bleibt jedoch weiterhin Gegenstand intensiver politischer Debatten.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Experten sind sich einig, dass ein Gesetz zum Homeoffice unnötig sei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Arbeitgeberverbände warnen vor zu starren Vorgaben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In allen Branchen ist Homeoffice laut Text problemlos umsetzbar.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Frage der Kostenübernahme für Homeoffice-Ausstattung ist laut Text bereits vollständig geklärt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text hat sich die Arbeitswelt durch die Digitalisierung dauerhaft verändert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-krise-der-pflegebranche",
+    "nivel": "B2",
+    "titulo": "Die Krise der Pflegebranche",
+    "descripcion": "Ein Beitrag über den Personalmangel in der Alten- und Krankenpflege und mögliche Lösungsansätze.",
+    "texto": "Der Mangel an Pflegekräften gilt als eines der drängendsten Probleme des deutschen Gesundheitssystems. Laut Branchenverbänden fehlten bereits heute Zehntausende Fachkräfte in Krankenhäusern und Pflegeheimen, und ohne grundlegende Reformen werde sich die Lage angesichts der alternden Gesellschaft weiter verschärfen.\n\nAls Hauptursache nennen Experten die schwierigen Arbeitsbedingungen in der Branche: Niedrige Löhne, hohe körperliche Belastung und häufige Überstunden führten dazu, dass viele Pflegekräfte den Beruf frühzeitig wieder verließen. Gleichzeitig entschieden sich immer weniger junge Menschen für eine Ausbildung in der Pflege, obwohl der Bedarf stetig steige.\n\nPolitiker verschiedener Parteien haben wiederholt angekündigt, die Löhne in der Pflege anzuheben und die Arbeitsbedingungen zu verbessern, doch Kritiker bemängeln, dass bisherige Reformen nicht weit genug gingen. Einige Fachleute schlagen vor, mehr ausländische Pflegekräfte anzuwerben, wobei dabei bürokratische Hürden bei der Anerkennung ausländischer Abschlüsse abgebaut werden müssten.\n\nOhne entschlossenes Handeln, so warnen Experten, drohe sich die Versorgungslücke in den kommenden Jahren weiter zu vergrößern, was letztlich alle Bürgerinnen und Bürger betreffen würde, die auf pflegerische Unterstützung angewiesen sind.",
+    "preguntas": [
+      {
+        "enunciado": "Laut Text gibt es in Deutschland genug Pflegekräfte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niedrige Löhne werden als eine Ursache für den Personalmangel genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Immer mehr junge Menschen entscheiden sich laut Text für eine Ausbildung in der Pflege.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Fachleute schlagen vor, mehr ausländische Pflegekräfte anzuwerben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten warnen, dass sich die Versorgungslücke ohne Handeln vergrößern könnte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-ethik-der-kuenstlichen-intelligenz",
+    "nivel": "B2",
+    "titulo": "Die Ethik der Künstlichen Intelligenz",
+    "descripcion": "Ein Essay über ethische Fragen, die der zunehmende Einsatz künstlicher Intelligenz in Gesellschaft und Wirtschaft aufwirft.",
+    "texto": "Mit der rasanten Verbreitung künstlicher Intelligenz stellen sich zunehmend Fragen, die weit über technische Aspekte hinausgehen. Wer trägt die Verantwortung, wenn ein automatisiertes System eine folgenreiche Fehlentscheidung trifft? Diese Frage beschäftigt Juristen, Philosophen und Ingenieure gleichermaßen, ohne dass bislang eine einheitliche Antwort gefunden worden wäre.\n\nBesondere Brisanz erhält die Debatte durch den Einsatz von KI-Systemen in sensiblen Bereichen wie der medizinischen Diagnostik oder der Strafjustiz. Kritiker weisen darauf hin, dass solche Systeme oft auf historischen Daten trainiert würden, in denen gesellschaftliche Vorurteile bereits enthalten seien, sodass bestehende Ungleichheiten unbeabsichtigt fortgeschrieben werden könnten.\n\nBefürworter halten dem entgegen, dass KI-Systeme, wenn sie sorgfältig entwickelt und regelmäßig überprüft würden, menschliche Entscheidungen in vielen Fällen sogar objektiver und konsistenter gestalten könnten als von Vorurteilen beeinflusste Personen. Entscheidend sei daher nicht die Technologie an sich, sondern die Frage, nach welchen Kriterien sie entwickelt und kontrolliert werde.\n\nZahlreiche Expertengremien fordern deshalb verbindliche ethische Leitlinien und eine stärkere Regulierung, damit der Einsatz künstlicher Intelligenz dem Gemeinwohl dient, statt bestehende Machtverhältnisse weiter zu verfestigen. Wie eine solche Regulierung konkret aussehen sollte, wird jedoch nach wie vor intensiv diskutiert.",
+    "preguntas": [
+      {
+        "enunciado": "Die Frage der Verantwortung bei KI-Fehlentscheidungen ist laut Text bereits eindeutig geklärt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "KI-Systeme werden laut Text auch in der medizinischen Diagnostik eingesetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass KI-Systeme gesellschaftliche Vorurteile fortschreiben könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter meinen, dass allein die Technologie entscheidend sei, unabhängig von ihrer Entwicklung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Expertengremien fordern verbindliche ethische Leitlinien für KI.",
+        "respuesta": true
+      }
+    ]
   }
 ]
