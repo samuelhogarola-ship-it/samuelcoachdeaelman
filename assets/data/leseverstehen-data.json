@@ -79118,5 +79118,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-geburtstag",
+    "nivel": "A1",
+    "titulo": "Mein Geburtstag",
+    "descripcion": "Lena erzählt, wie sie ihren Geburtstag mit der Familie feiert.",
+    "texto": "Lena hat heute Geburtstag. Sie wird neun Jahre alt. Am Morgen singt die Familie ein Geburtstagslied. Lena bekommt viele Geschenke. Sie öffnet jedes Geschenk langsam und lächelt.\n\nAm Nachmittag kommen ihre Freunde zu Besuch. Sie essen Kuchen mit Schokolade und trinken Saft. Lena bekommt neun Kerzen auf dem Kuchen. Alle singen noch einmal und Lena pustet die Kerzen aus. Danach spielen die Kinder zusammen im Garten.\n\nAm Abend ist Lena sehr müde, aber glücklich. „Das war mein schönster Geburtstag\", sagt sie zu ihrer Mutter. Sie freut sich schon auf das nächste Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Lena wird neun Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie singt am Morgen ein Lied.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena isst keinen Kuchen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder spielen im Garten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena ist am Abend traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "unser-garten",
+    "nivel": "A1",
+    "titulo": "Unser Garten",
+    "descripcion": "Paul beschreibt den kleinen Garten seiner Familie und was dort wächst.",
+    "texto": "Paul und seine Eltern haben einen kleinen Garten hinter dem Haus. Im Garten wachsen Tomaten, Karotten und Salat. Paul hilft seiner Mutter beim Gießen der Pflanzen. Jeden Tag schaut er, ob die Tomaten schon rot sind.\n\nIm Garten steht auch ein großer Apfelbaum. Im Herbst sammelt die Familie die Äpfel. Paul mag Äpfel sehr gern und isst jeden Tag einen. Sein Vater macht aus den Äpfeln manchmal einen Kuchen.\n\nAm Wochenende sitzt die Familie oft im Garten und frühstückt dort. Paul findet den Garten sehr schön und hilft gern bei der Gartenarbeit.",
+    "preguntas": [
+      {
+        "enunciado": "Im Garten wachsen Tomaten und Karotten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul gießt die Pflanzen nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Garten steht ein Apfelbaum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul mag keine Äpfel.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie frühstückt manchmal im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-bahnhof",
+    "nivel": "A1",
+    "titulo": "Der Bahnhof",
+    "descripcion": "Tim fährt zum ersten Mal allein mit dem Zug und beschreibt den Bahnhof.",
+    "texto": "Tim steht am Bahnhof und wartet auf seinen Zug. Der Bahnhof ist groß und laut. Viele Menschen laufen schnell hin und her. Tim schaut auf die große Anzeigetafel und sucht seinen Zug.\n\nSein Zug fährt um zehn Uhr von Gleis drei. Tim kauft noch schnell eine Flasche Wasser am Kiosk. Dann geht er zu Gleis drei und wartet. Der Zug kommt pünktlich an. Tim steigt ein und sucht seinen Platz.\n\nIm Zug sitzt Tim am Fenster. Er schaut hinaus und sieht Felder und Häuser. Nach einer Stunde ist er am Ziel. Tim ist stolz, denn er ist zum ersten Mal allein gereist.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bahnhof ist ruhig und leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zug fährt von Gleis drei.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim kauft eine Flasche Wasser.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zug kommt zu spät an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim reist zum ersten Mal allein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-flug-nach-spanien",
+    "nivel": "A2",
+    "titulo": "Der Flug nach Spanien",
+    "descripcion": "Marie berichtet von ihrem ersten Flug und einem kleinen Problem am Flughafen.",
+    "texto": "Letzten Sommer ist Marie zum ersten Mal geflogen. Sie ist mit ihrer Familie nach Spanien geflogen, weil sie dort zwei Wochen Urlaub machen wollten. Am Flughafen war Marie ein bisschen nervös, weil alles so neu war. Sie mussten lange warten, bis sie einchecken konnten.\n\nPlötzlich hat Marie bemerkt, dass sie ihren Pass nicht in der Tasche hatte. Sie hat ihn zu Hause auf dem Tisch vergessen! Zum Glück hat ihr Vater schnell eine Kopie am Flughafen gefunden und mit der Fluggesellschaft gesprochen. Nachdem alles geklärt war, konnten sie doch noch pünktlich fliegen.\n\nDer Flug selbst hat Marie sehr gefallen. Sie hat aus dem Fenster geschaut und die Wolken beobachtet. Als sie in Spanien gelandet sind, war es schon warm und sonnig. Marie hat sich sehr gefreut, dass alles am Ende gut gegangen ist.",
+    "preguntas": [
+      {
+        "enunciado": "Marie ist zum ersten Mal geflogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Marie hatte ihren Pass dabei.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie hat den Flug verpasst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Marie hat während des Fluges aus dem Fenster geschaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Spanien war es kalt und regnerisch.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-geburtstagsfeier-meiner-schwester",
+    "nivel": "A2",
+    "titulo": "Die Geburtstagsfeier meiner Schwester",
+    "descripcion": "Jonas erzählt, wie die Geburtstagsfeier seiner Schwester trotz eines Problems gelungen ist.",
+    "texto": "Letzte Woche hat Jonas' Schwester Geburtstag gefeiert. Die ganze Familie hat gemeinsam die Feier vorbereitet, weil sie ihrer Schwester eine Überraschung machen wollten. Jonas hat Luftballons aufgehängt, und seine Mutter hat einen großen Kuchen gebacken.\n\nAls die Gäste schon unterwegs waren, hat es plötzlich angefangen zu regnen. Die Feier sollte eigentlich im Garten stattfinden, aber das war jetzt nicht mehr möglich. Jonas und sein Vater haben schnell alles ins Wohnzimmer gebracht, damit die Party trotzdem stattfinden konnte.\n\nAm Ende war die Feier trotz des Regens ein großer Erfolg. Alle Gäste haben getanzt und gelacht, und Jonas' Schwester hat sich sehr über die Überraschung gefreut. Sie hat gesagt, dass es der schönste Geburtstag war, den sie je hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie hat die Feier zusammen vorbereitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Feier hat im Garten stattgefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat während der Vorbereitung zu regnen angefangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Party wurde komplett abgesagt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas' Schwester war mit der Feier unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-brief-an-die-freundin",
+    "nivel": "A2",
+    "titulo": "Der Brief an die Freundin",
+    "descripcion": "Sophie schreibt ihrer besten Freundin einen Brief, nachdem diese umgezogen ist.",
+    "texto": "Sophies beste Freundin Laura ist vor zwei Monaten in eine andere Stadt umgezogen, weil ihre Eltern dort neue Arbeit gefunden haben. Sophie hat Laura sehr vermisst und beschlossen, ihr einen Brief zu schreiben, statt nur eine kurze Nachricht zu senden.\n\nIn dem Brief hat Sophie erzählt, was in der Schule passiert ist und dass die Klasse einen neuen Lehrer bekommen hat. Sie hat auch geschrieben, dass sie traurig war, als Laura wegfahren musste, weil die beiden seit der ersten Klasse Freundinnen sind. Trotzdem hat Sophie versucht, positiv zu bleiben.\n\nAls Laura den Brief bekommen hat, hat sie sich riesig gefreut. Sie hat sofort zurückgeschrieben und Sophie eingeladen, sie in den Ferien zu besuchen. Beide Mädchen freuen sich jetzt schon sehr auf das Wiedersehen.",
+    "preguntas": [
+      {
+        "enunciado": "Laura ist wegen der Arbeit ihrer Eltern umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat Laura eine kurze SMS geschickt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse hat einen neuen Lehrer bekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laura hat sich über den Brief nicht gefreut.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie und Laura wollen sich in den Ferien treffen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-schulausflug-nach-berlin",
+    "nivel": "B1",
+    "titulo": "Der Schulausflug nach Berlin",
+    "descripcion": "Eine Klasse unternimmt einen mehrtägigen Ausflug nach Berlin, obwohl nicht alles nach Plan läuft.",
+    "texto": "Die Klasse 9b hat sich schon Monate auf den Schulausflug nach Berlin gefreut. Obwohl der Bus morgens eine Stunde Verspätung hatte, war die Stimmung von Anfang an gut. Nachdem sie endlich angekommen waren, haben sie zuerst das Hostel bezogen und dann die Innenstadt besichtigt.\n\nAm zweiten Tag stand ein Besuch im Reichstag auf dem Programm. Die Schülerinnen und Schüler haben viel über die deutsche Geschichte und Politik gelernt, obwohl einige am Anfang eher wenig Interesse gezeigt hatten. Nachdem der Guide ihnen spannende Geschichten erzählt hatte, stellten plötzlich viele Fragen. Am Abend sind sie gemeinsam essen gegangen und haben über ihre Eindrücke gesprochen.\n\nTrotz des kurzen Aufenthalts von nur drei Tagen hat die Klasse viel erlebt. Am letzten Tag wollte eigentlich niemand abreisen, weil die Stadt so viel zu bieten hatte. Die Lehrerin war zufrieden, dass sich alle so gut benommen hatten, und plant bereits den nächsten Ausflug für das kommende Jahr.",
+    "preguntas": [
+      {
+        "enunciado": "Der Bus hatte am Morgen Verspätung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Klasse hat den Reichstag nicht besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Schüler haben sich von Anfang an für Politik interessiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Ausflug hat drei Tage gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin plant keinen weiteren Ausflug.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-wohnung-in-muenchen",
+    "nivel": "B1",
+    "titulo": "Die neue Wohnung in München",
+    "descripcion": "Daniel zieht wegen eines neuen Jobs nach München und muss sich an die neue Stadt gewöhnen.",
+    "texto": "Daniel hat vor kurzem eine neue Stelle in München angenommen, obwohl er vorher nie in einer Großstadt gelebt hatte. Der Umzug war stressig, weil er innerhalb von zwei Wochen eine passende Wohnung finden musste. Nachdem er mehrere Besichtigungen gemacht hatte, hat er schließlich eine kleine Wohnung in der Nähe des Stadtzentrums gefunden.\n\nIn den ersten Wochen fühlte sich Daniel einsam, weil er niemanden in der Stadt kannte. Trotzdem hat er sich entschieden, einem Sportverein beizutreten, um neue Leute kennenzulernen. Dort hat er schnell Kontakt zu anderen Mitgliedern gefunden, und nach ein paar Wochen hatte er bereits einen festen Freundeskreis.\n\nMittlerweile fühlt sich Daniel in München richtig zu Hause. Obwohl die Miete höher ist als in seiner alten Stadt, bereut er den Umzug nicht. Er genießt die vielen Parks, die guten Verkehrsverbindungen und das kulturelle Angebot der Stadt.",
+    "preguntas": [
+      {
+        "enunciado": "Daniel hatte schon vorher in einer Großstadt gewohnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Daniel hat sofort eine Wohnung gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Daniel ist einem Sportverein beigetreten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel kennt bis heute niemanden in München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Daniel bereut seinen Umzug nach München.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-musikfestival-im-sommer",
+    "nivel": "B1",
+    "titulo": "Das Musikfestival im Sommer",
+    "descripcion": "Freunde besuchen gemeinsam ein Musikfestival, obwohl das Wetter nicht mitspielt.",
+    "texto": "Jedes Jahr im Sommer findet in der Nähe von Leipzig ein großes Musikfestival statt, zu dem Menschen aus ganz Deutschland kommen. Lisa und ihre Freunde hatten sich schon Wochen vorher Tickets gekauft, weil ihre Lieblingsband spielen sollte. Nachdem sie lange im Stau gestanden hatten, kamen sie schließlich am frühen Abend auf dem Festivalgelände an.\n\nObwohl der Wettervorbericht Regen angesagt hatte, waren alle guter Laune. Sie haben ihr Zelt aufgebaut und sind dann zur Hauptbühne gegangen. Tatsächlich hat es während des ersten Konzerts angefangen zu regnen, aber das hat die Stimmung kaum getrübt. Viele Besucher haben einfach weitergetanzt, als wäre nichts passiert.\n\nAm nächsten Morgen war zwar alles nass und ein bisschen chaotisch, trotzdem waren sich alle einig, dass es eines der besten Festivals war, die sie je besucht hatten. Lisa sagt, dass sie nächstes Jahr unbedingt wiederkommen möchte, auch wenn es wieder regnen sollte.",
+    "preguntas": [
+      {
+        "enunciado": "Das Festival findet in der Nähe von Leipzig statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa und ihre Freunde kamen ohne Verzögerung an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat während des ersten Konzerts geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Besucher haben wegen des Regens aufgehört zu tanzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa möchte das Festival nächstes Jahr nicht mehr besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-mediale-wandel",
+    "nivel": "B2",
+    "titulo": "Der mediale Wandel – Wie das Internet den Journalismus verändert hat",
+    "descripcion": "Eine Betrachtung darüber, wie sich die Medienlandschaft durch Digitalisierung grundlegend verändert hat.",
+    "texto": "Die Medienlandschaft hat sich in den letzten zwei Jahrzehnten so radikal verändert wie kaum zuvor in ihrer Geschichte. Während früher Zeitungen und Fernsehsender die zentralen Instanzen waren, über die Nachrichten verbreitet wurden, werden heute Informationen überwiegend über soziale Netzwerke und Online-Plattformen konsumiert. Diese Entwicklung hat zur Folge, dass klassische Verlage massiv unter Druck stehen und viele Redaktionen Personal abbauen mussten, um wirtschaftlich zu überleben.\n\nGleichzeitig wird von Medienwissenschaftlern kritisiert, dass journalistische Sorgfaltspflichten im digitalen Raum häufig vernachlässigt werden. Es wird argumentiert, dass die Geschwindigkeit, mit der Inhalte heute produziert und verbreitet werden müssen, zulasten der Recherchequalität gehe. Wäre es möglich, mehr Zeit für sorgfältige Überprüfung einzuräumen, könnte die Verbreitung von Falschinformationen deutlich reduziert werden. Stattdessen wird jedoch oft zuerst veröffentlicht und erst danach korrigiert, falls überhaupt.\n\nTrotz dieser Problematik eröffnet die Digitalisierung auch neue Chancen für den Journalismus. Unabhängige Plattformen, die von etablierten Verlagen völlig losgelöst sind, können heute Themen aufgreifen, die in traditionellen Medien kaum Beachtung fänden. Auch die Möglichkeit, dass Leserinnen und Leser direkt mit Autorinnen und Autoren in Kontakt treten, wurde durch soziale Medien erst geschaffen. Ob sich daraus langfristig ein nachhaltigeres Mediensystem entwickeln wird, bleibt allerdings abzuwarten.",
+    "preguntas": [
+      {
+        "enunciado": "Klassische Zeitungen und Fernsehsender haben heute noch dieselbe zentrale Bedeutung wie früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Viele Redaktionen mussten aus wirtschaftlichen Gründen Personal abbauen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienwissenschaftler kritisieren, dass die Recherchequalität unter dem Zeitdruck leidet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass die Digitalisierung dem Journalismus ausschließlich schadet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Durch soziale Medien können Leser direkt mit Journalisten in Kontakt treten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-bildungsreform-in-deutschland",
+    "nivel": "B2",
+    "titulo": "Die Bildungsreform in Deutschland – Notwendigkeit oder Symbolpolitik?",
+    "descripcion": "Ein Blick auf die Debatte über notwendige Reformen im deutschen Bildungssystem.",
+    "texto": "Seit Jahren wird in Deutschland eine Reform des Bildungssystems gefordert, ohne dass sich grundlegend etwas verändert hätte. Kritiker bemängeln vor allem, dass die föderale Struktur des Bildungswesens dazu führt, dass Schülerinnen und Schüler je nach Bundesland völlig unterschiedliche Lehrpläne und Prüfungsanforderungen vorfinden. Dadurch werde die Chancengleichheit untergraben, zumal ein Umzug in ein anderes Bundesland für betroffene Familien oft mit erheblichen schulischen Nachteilen verbunden sei.\n\nBefürworter einer umfassenden Reform argumentieren, dass das Bildungssystem stärker an die Anforderungen des 21. Jahrhunderts angepasst werden müsse. Es wird gefordert, dass digitale Kompetenzen von Anfang an ebenso selbstverständlich vermittelt werden sollten wie Lesen und Rechnen. Würde man das Curriculum konsequent überarbeiten, könnten Schülerinnen und Schüler besser auf eine zunehmend digitalisierte Arbeitswelt vorbereitet werden. Zudem wird beklagt, dass das dreigliedrige Schulsystem soziale Ungleichheiten eher verstärke als abbaue.\n\nAndere Stimmen warnen jedoch davor, das bestehende System vorschnell über Bord zu werfen. Sie verweisen darauf, dass zahlreiche frühere Reformversuche, etwa die Einführung des achtjährigen Gymnasiums, in der Praxis zu erheblichen Problemen geführt hätten und letztlich teilweise wieder zurückgenommen werden mussten. Angesichts dieser Erfahrungen plädieren sie für behutsame, wissenschaftlich begleitete Veränderungen statt für radikale Umbrüche, die am Ende mehr schaden als nutzen könnten.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Bundesländer in Deutschland haben identische Lehrpläne.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker sehen in der föderalen Bildungsstruktur ein Problem für die Chancengleichheit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter einer Reform fordern mehr digitale Bildung von Anfang an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird behauptet, dass frühere Reformen immer erfolgreich waren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Stimmen fordern eher vorsichtige statt radikale Veränderungen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-digitalisierung-der-schulen",
+    "nivel": "B2",
+    "titulo": "Die Digitalisierung der Schulen – Zwischen Anspruch und Wirklichkeit",
+    "descripcion": "Ein kritischer Blick auf die schleppende digitale Ausstattung deutscher Schulen.",
+    "texto": "Obwohl seit Jahren von der „digitalen Bildung der Zukunft\" gesprochen wird, hinkt die tatsächliche technische Ausstattung vieler Schulen diesem Anspruch deutlich hinterher. In zahlreichen Klassenzimmern fehlt es nach wie vor an stabilem WLAN, funktionierenden Endgeräten und ausreichend geschultem Personal. Zwar wurden in den letzten Jahren erhebliche öffentliche Mittel für die Digitalisierung bereitgestellt, doch die Umsetzung gestaltet sich aufgrund bürokratischer Hürden und Lehrkräftemangels äußerst schwierig.\n\nBesonders problematisch erscheint, dass Lehrkräfte selten ausreichend fortgebildet werden, bevor neue Technik in den Unterricht eingeführt wird. Es wird kritisiert, dass teure Tablets und interaktive Whiteboards oft ungenutzt in Schränken verstauben, weil niemand weiß, wie sie sinnvoll eingesetzt werden können. Würde man stattdessen zuerst in Fortbildungen investieren und erst anschließend die Geräte anschaffen, ließe sich vermutlich ein deutlich größerer pädagogischer Mehrwert erzielen.\n\nDennoch gibt es auch positive Beispiele, an denen sich zeigt, wie digitale Medien den Unterricht sinnvoll bereichern können. An einigen Schulen wurden eigene Konzepte entwickelt, bei denen digitale und analoge Lernformen bewusst kombiniert werden. Diese Schulen berichten von einer gesteigerten Motivation der Schülerinnen und Schüler, da individuelles und differenziertes Lernen durch digitale Werkzeuge erheblich erleichtert werde. Ob sich solche Modelle flächendeckend durchsetzen können, hängt jedoch maßgeblich von politischen Entscheidungen und einer nachhaltigen Finanzierung ab.",
+    "preguntas": [
+      {
+        "enunciado": "Alle deutschen Schulen sind bereits optimal digital ausgestattet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text nennt Lehrkräftemangel als ein Hindernis für die Digitalisierung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Teure Geräte werden laut Text immer sinnvoll im Unterricht genutzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Schulen kombinieren digitale und analoge Lernformen erfolgreich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Erfolg der Digitalisierung hängt laut Text auch von politischen Entscheidungen ab.",
+        "respuesta": true
+      }
+    ]
   }
 ]
