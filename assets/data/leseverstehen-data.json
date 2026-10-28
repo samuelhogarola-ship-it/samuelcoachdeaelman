@@ -78074,5 +78074,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-hund-bello",
+    "nivel": "A1",
+    "titulo": "Mein Haustier, der Hund",
+    "descripcion": "Lisa erzählt kurz über ihren Hund Bello und seinen Tag.",
+    "texto": "Lisa hat einen Hund. Der Hund heißt Bello. Bello ist braun und klein. Jeden Morgen geht Lisa mit Bello spazieren. Sie gehen in den Park. Bello läuft gern und spielt mit anderen Hunden.\n\nUm zwölf Uhr isst Bello sein Futter. Er mag Fleisch und Reis sehr gern. Nach dem Essen schläft Bello oft auf dem Sofa. Lisa liest ein Buch und Bello liegt neben ihr.\n\nAm Abend spielt Lisa mit Bello im Garten. Sie wirft einen Ball und Bello holt ihn. Lisa sagt: „Du bist ein guter Hund!“ Bello ist müde und geht früh ins Bett.",
+    "preguntas": [
+      {
+        "enunciado": "Bello ist ein großer schwarzer Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa geht morgens mit Bello in den Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello isst Fleisch und Reis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bello schläft nach dem Essen auf dem Boden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Abend spielen Lisa und Bello im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-sommertag-im-schwimmbad",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Schwimmbad",
+    "descripcion": "Tom und seine Schwester verbringen einen Sommertag im Schwimmbad.",
+    "texto": "Es ist Sommer und die Sonne scheint. Tom und seine Schwester Mia gehen ins Schwimmbad. Sie packen Handtücher, Wasser und Obst in eine Tasche. Das Schwimmbad ist groß und es gibt viele Leute.\n\nTom schwimmt gern im großen Becken. Mia spielt lieber im kleinen Becken mit anderen Kindern. Um ein Uhr essen sie ein Sandwich und trinken Wasser. Danach kaufen sie ein Eis. Tom mag Schokoladeneis, Mia mag Erdbeereis.\n\nAm Nachmittag spielen sie Ball im Wasser. Es ist sehr lustig. Um fünf Uhr fahren sie müde nach Hause. Mia sagt: „Das war ein toller Tag!“",
+    "preguntas": [
+      {
+        "enunciado": "Tom und Mia gehen im Winter ins Schwimmbad.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tom schwimmt im großen Becken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia mag Schokoladeneis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie essen ein Sandwich um ein Uhr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie fahren um acht Uhr nach Hause.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "paul-und-die-farbe-blau",
+    "nivel": "A1",
+    "titulo": "Meine Lieblingsfarbe",
+    "descripcion": "Paul spricht über seine Lieblingsfarbe und seine Kleidung.",
+    "texto": "Paul ist zehn Jahre alt. Seine Lieblingsfarbe ist Blau. Sein Fahrrad ist blau. Sein Rucksack ist auch blau. In der Schule trägt Paul oft ein blaues T-Shirt.\n\nSeine Schwester Emma mag die Farbe Grün. Ihr Zimmer ist grün und ihre Schuhe sind grün. Paul und Emma mögen beide die Farbe Gelb nicht so sehr. Ihre Mutter trägt gern rote Kleider.\n\nAm Wochenende malen Paul und Emma zusammen ein Bild. Paul malt den Himmel blau. Emma malt die Bäume grün. Das Bild ist sehr schön und bunt.",
+    "preguntas": [
+      {
+        "enunciado": "Pauls Lieblingsfarbe ist Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emmas Zimmer ist rot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul trägt oft ein blaues T-Shirt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter trägt gern gelbe Kleider.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und Emma malen am Wochenende ein Bild.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sabines-koffer-kommt-nicht-an",
+    "nivel": "A2",
+    "titulo": "Der verlorene Koffer",
+    "descripcion": "Sabine verliert ihren Koffer am Flughafen und muss ihn suchen.",
+    "texto": "Sabine ist am Flughafen München gelandet. Sie hat eine lange Reise aus Spanien gemacht und ist sehr müde. Als sie am Gepäckband steht, wartet sie und wartet, aber ihr Koffer kommt nicht. Nach zwanzig Minuten ist sie sicher: Ihr Koffer ist verloren.\n\nSabine geht zum Schalter der Fluggesellschaft, weil sie Hilfe braucht. Eine Mitarbeiterin fragt nach ihrem Namen und ihrer Flugnummer. „Ihr Koffer ist wahrscheinlich noch in Madrid“, sagt die Mitarbeiterin. Sabine ist ärgerlich, aber sie bleibt ruhig. Sie füllt ein Formular aus und bekommt eine Telefonnummer.\n\nAm nächsten Tag ruft die Fluggesellschaft an. Der Koffer ist gefunden worden und kommt am Abend mit einem anderen Flug. Sabine ist froh, dass alles gut ausgegangen ist, obwohl sie einen Tag ohne ihre Kleidung verbringen musste.",
+    "preguntas": [
+      {
+        "enunciado": "Sabine ist aus Italien geflogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihr Koffer kommt nicht am Gepäckband an.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine wird sofort wütend und schreit am Schalter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer war noch in Madrid.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sabine bekommt ihren Koffer nie zurück.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "angst-vor-dem-zahnarzttermin",
+    "nivel": "A2",
+    "titulo": "Besuch beim Zahnarzt",
+    "descripcion": "Jonas hat Angst vor dem Zahnarzt, aber der Besuch verläuft gut.",
+    "texto": "Jonas hat seit zwei Tagen Zahnschmerzen. Er hat Angst vor dem Zahnarzt, weil er als Kind eine schlechte Erfahrung gemacht hat. Trotzdem ruft er am Montag in der Praxis an und bekommt einen Termin für den Nachmittag.\n\nAls Jonas im Wartezimmer sitzt, ist sein Herz sehr unruhig. Eine freundliche Assistentin ruft seinen Namen, und er geht ins Behandlungszimmer. Der Zahnarzt untersucht seinen Mund und sagt: „Du hast ein kleines Loch im Zahn, aber keine Sorge, das reparieren wir schnell.“ Jonas ist erleichtert, weil es nicht so schlimm ist, wie er dachte.\n\nNachdem die Behandlung fertig war, fühlt Jonas keine Schmerzen mehr. Der Zahnarzt gibt ihm Tipps, wie er seine Zähne besser putzen kann. Jonas verlässt die Praxis zufrieden und denkt, dass seine Angst eigentlich unnötig war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat seit einer Woche Zahnschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat Angst vor dem Zahnarzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Zahnarzt findet ein großes Problem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach der Behandlung hat Jonas keine Schmerzen mehr.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas verlässt die Praxis sehr unzufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-oma-ueber-das-wochenende",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die Oma",
+    "descripcion": "Nina schreibt ihrer Großmutter einen Brief über ihr Wochenende.",
+    "texto": "Liebe Oma, ich hoffe, es geht dir gut. Ich wollte dir erzählen, was ich am Wochenende gemacht habe. Am Samstag bin ich mit meinen Freunden Rad gefahren, weil das Wetter so schön war. Wir sind bis zum See gefahren und haben dort gepicknickt.\n\nAm Sonntag habe ich meine Hausaufgaben gemacht, weil ich am Montag eine Prüfung in Mathe habe. Danach habe ich mit Mama einen Kuchen gebacken. Es war ein Apfelkuchen, genau wie du ihn immer machst. Er ist zwar nicht so gut wie deiner, aber ganz lecker geworden.\n\nIch hoffe, dass ich dich bald besuchen kann. Papa sagt, dass wir vielleicht nächsten Monat kommen können. Ich freue mich schon sehr darauf. Viele liebe Grüße, Nina",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist am Samstag Rad gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina hat am Sonntag eine Prüfung geschrieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina und ihre Mutter haben einen Kuchen gebacken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina findet, ihr Kuchen ist besser als der von der Oma.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina möchte ihre Oma bald besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-neue-nachbarschaft",
+    "nivel": "B1",
+    "titulo": "Die neue Nachbarschaft",
+    "descripcion": "Felix zieht in eine neue Stadt und lernt seine Nachbarn kennen.",
+    "texto": "Felix ist vor zwei Wochen nach Leipzig gezogen, weil er dort eine neue Stelle als Ingenieur angetreten hat. Obwohl er sich auf die neue Arbeit freut, fühlt er sich in der fremden Stadt zunächst ziemlich einsam. Er kennt niemanden und seine Wohnung ist noch voller Umzugskartons.\n\nNachdem er einige Tage allein verbracht hatte, klingelte eines Abends seine Nachbarin an der Tür. Sie hieß Claudia und brachte ihm ein Stück selbstgebackenen Kuchen. „Willkommen im Haus“, sagte sie lächelnd. „Falls du Fragen zur Gegend hast, kannst du mich jederzeit fragen.“ Felix war von dieser Geste sehr berührt, denn er hatte nicht mit so viel Freundlichkeit gerechnet.\n\nIn den folgenden Wochen lernte Felix immer mehr Nachbarn kennen, trotzdem er anfangs schüchtern gewesen war. Er wurde zu einem Grillfest im Hof eingeladen und freundete sich mit mehreren Leuten an. Heute, drei Monate später, fühlt er sich in Leipzig fast wie zu Hause und ist dankbar für die herzliche Nachbarschaft.",
+    "preguntas": [
+      {
+        "enunciado": "Felix ist wegen eines Studiums nach Leipzig gezogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix fühlte sich am Anfang einsam.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Claudia hat Felix sofort nach seinem Einzug ignoriert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix wurde zu einem Grillfest eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach drei Monaten fühlt sich Felix immer noch völlig fremd.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-der-zehnten-klasse",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Hamburg",
+    "descripcion": "Eine Schulklasse erlebt auf ihrer Klassenfahrt nach Hamburg einige Überraschungen.",
+    "texto": "Die zehnte Klasse des Gymnasiums fuhr letzte Woche für vier Tage nach Hamburg. Die Schüler hatten sich schon lange auf diese Reise gefreut, obwohl einige von ihnen auch ein bisschen nervös waren, weil sie noch nie so lange von zu Hause weg gewesen waren.\n\nNachdem die Gruppe im Hostel angekommen war, besuchten sie zuerst den Hafen und machten eine Bootstour. Später am Abend besichtigten sie die Speicherstadt, die nachts wunderschön beleuchtet war. Am zweiten Tag regnete es stark, trotzdem gingen alle zum Miniatur Wunderland, einem riesigen Modelleisenbahn-Museum, das allen sehr gut gefiel.\n\nAm letzten Abend organisierten die Lehrer eine kleine Abschlussfeier im Hostel. Die Schüler erzählten sich ihre Lieblingsmomente der Reise und tauschten Fotos aus. Als der Bus am nächsten Morgen zurück in die Heimatstadt fuhr, waren viele Schüler müde, aber glücklich über die unvergessliche Erfahrung.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klassenfahrt dauerte eine Woche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler machten eine Bootstour im Hafen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am zweiten Tag war das Wetter sonnig und warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler besuchten das Miniatur Wunderland.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am letzten Abend gab es keine besondere Aktivität.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "beste-freundinnen-trotz-entfernung",
+    "nivel": "B1",
+    "titulo": "Freundschaft trotz Entfernung",
+    "descripcion": "Zwei Freundinnen bleiben trotz der Entfernung zwischen ihren Städten eng verbunden.",
+    "texto": "Laura und Julia sind seit der Grundschule beste Freundinnen. Vor einem Jahr musste Julia jedoch mit ihrer Familie nach Köln umziehen, während Laura in Dresden blieb. Anfangs machte sich Laura Sorgen, dass die Freundschaft durch die große Entfernung leiden würde.\n\nDie beiden Freundinnen fanden jedoch schnell eine Lösung: Sie telefonieren jeden Sonntagabend und schreiben sich fast täglich Nachrichten. Außerdem planen sie alle paar Monate ein Treffen, bei dem eine die andere besucht. Obwohl sie sich nicht mehr jeden Tag sehen können, erzählen sie sich weiterhin alles.\n\nLetzten Monat besuchte Julia Laura in Dresden, und die beiden verbrachten ein ganzes Wochenende zusammen, als wäre keine Zeit vergangen. Beide sind sich sicher, dass echte Freundschaft nicht von der Entfernung abhängt, sondern davon, wie viel Mühe man in die Beziehung investiert.",
+    "preguntas": [
+      {
+        "enunciado": "Laura und Julia kennen sich erst seit einem Jahr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia ist nach Köln umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden haben seit dem Umzug keinen Kontakt mehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia hat Laura letzten Monat in Dresden besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beide glauben, dass Entfernung eine Freundschaft automatisch zerstört.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-die-wohnungskrise",
+    "nivel": "B2",
+    "titulo": "Die Debatte um die Wohnungskrise",
+    "descripcion": "Ein Überblick über die gesellschaftliche Debatte zur Wohnungsknappheit in deutschen Großstädten.",
+    "texto": "In den vergangenen Jahren ist die Wohnungsknappheit in deutschen Großstädten zu einem der zentralen gesellschaftlichen Themen geworden. Während die Mieten in Metropolen wie München, Berlin und Hamburg kontinuierlich steigen, wird gleichzeitig zu wenig neuer Wohnraum geschaffen. Viele junge Familien und Studierende klagen darüber, dass bezahlbare Wohnungen in zentralen Lagen kaum noch zu finden seien.\n\nPolitiker und Experten sind sich uneinig darüber, wie diesem Problem begegnet werden sollte. Während einige eine strengere Mietpreisbremse fordern, argumentieren andere, dass dadurch Investitionen in neuen Wohnraum verhindert würden. Es wird zudem diskutiert, ob der Staat selbst verstärkt in den sozialen Wohnungsbau investieren sollte, anstatt die Regulierung dem privaten Markt zu überlassen. Kritiker bemängeln, dass bürokratische Hürden den Bau neuer Wohnungen zusätzlich verzögern.\n\nSollte sich an der aktuellen Situation nichts ändern, könnten sich die sozialen Spannungen in den Ballungsräumen weiter verschärfen. Manche Experten schlagen vor, dass durch eine bessere Verkehrsanbindung ländlicher Regionen der Druck auf die Städte verringert werden könnte. Letztlich scheint klar, dass eine nachhaltige Lösung nur durch ein Zusammenspiel von Politik, Bauwirtschaft und Stadtplanung erreicht werden kann.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mieten in deutschen Großstädten sind in den letzten Jahren gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es herrscht Uneinigkeit darüber, wie die Wohnungsknappheit gelöst werden soll.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Experten sind sich einig, dass eine Mietpreisbremse die beste Lösung ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten sehen eine bessere Verkehrsanbindung ländlicher Gebiete als mögliche Lösung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird behauptet, die Politik allein könne das Problem vollständig lösen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kritisches-denken-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Medienkompetenz im digitalen Zeitalter",
+    "descripcion": "Eine Betrachtung darüber, warum kritisches Denken im Umgang mit digitalen Medien immer wichtiger wird.",
+    "texto": "In einer Zeit, in der Informationen über soziale Netzwerke und Nachrichten-Apps in Sekundenschnelle verbreitet werden, gewinnt die Fähigkeit, Quellen kritisch zu bewerten, zunehmend an Bedeutung. Viele Jugendliche und auch Erwachsene übernehmen Informationen unreflektiert, ohne zu überprüfen, ob diese tatsächlich der Wahrheit entsprechen. Dadurch verbreiten sich Falschmeldungen oft schneller als korrigierende Fakten.\n\nBildungsexperten fordern deshalb, dass Medienkompetenz fester Bestandteil des Schulunterrichts werden sollte. Wäre dieses Thema stärker im Lehrplan verankert, könnten Schüler frühzeitig lernen, zwischen seriösen und unseriösen Quellen zu unterscheiden. Bislang wird dieses Thema jedoch an vielen Schulen nur am Rande behandelt, was von Kritikern als großes Versäumnis angesehen wird.\n\nDarüber hinaus wird diskutiert, inwiefern soziale Netzwerke selbst stärker in die Verantwortung genommen werden sollten. Es stellt sich die Frage, ob Plattformen verpflichtet werden sollten, nachweislich falsche Inhalte aktiv zu kennzeichnen oder zu entfernen. Befürworter argumentieren, dass dies die Verbreitung von Desinformation deutlich eindämmen würde, während Kritiker vor einer möglichen Einschränkung der Meinungsfreiheit warnen.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text verbreiten sich Falschmeldungen manchmal schneller als korrigierende Fakten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Medienkompetenz wird an allen deutschen Schulen bereits intensiv unterrichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bildungsexperten fordern mehr Medienkompetenz im Lehrplan.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text gibt es keine Diskussion über die Verantwortung sozialer Netzwerke.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker warnen davor, dass eine Kennzeichnungspflicht die Meinungsfreiheit einschränken könnte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "work-life-balance-neu-gedacht",
+    "nivel": "B2",
+    "titulo": "Work-Life-Balance neu gedacht",
+    "descripcion": "Ein Blick auf den Wandel des Verhältnisses zwischen Arbeit und Privatleben in der modernen Arbeitswelt.",
+    "texto": "Das Konzept der Work-Life-Balance hat sich in den letzten Jahren grundlegend gewandelt. Während früher vor allem die Trennung zwischen Arbeitszeit und Freizeit im Vordergrund stand, wird heute zunehmend über eine sinnvolle Integration beider Bereiche gesprochen. Flexible Arbeitsmodelle wie Homeoffice und Gleitzeit ermöglichen es vielen Beschäftigten, ihren Arbeitstag individueller zu gestalten.\n\nAllerdings bringt diese neue Flexibilität auch Herausforderungen mit sich. Nicht wenige Arbeitnehmer berichten, dass die Grenzen zwischen Beruf und Privatleben zunehmend verschwimmen, wodurch das Gefühl entsteht, nie wirklich „abschalten“ zu können. Wäre es möglich, klare Regeln für die Erreichbarkeit außerhalb der Arbeitszeit einzuführen, könnte dies vielen Beschäftigten helfen, eine gesündere Distanz zur Arbeit zu wahren.\n\nUnternehmen stehen somit vor der Aufgabe, ein Gleichgewicht zwischen Produktivität und dem Wohlbefinden ihrer Mitarbeiter zu finden. Studien deuten darauf hin, dass Mitarbeiter, die eine bessere Balance erleben, langfristig motivierter und seltener krankgeschrieben sind. Es bleibt jedoch fraglich, ob sich dieser Kulturwandel in allen Branchen gleichermaßen durchsetzen lässt, da insbesondere im Dienstleistungssektor oft weniger Flexibilität möglich ist.",
+    "preguntas": [
+      {
+        "enunciado": "Früher stand vor allem die strikte Trennung von Arbeit und Freizeit im Vordergrund.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text bringt mehr Flexibilität ausschließlich Vorteile ohne jegliche Nachteile.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Arbeitnehmer haben das Gefühl, nie richtig abschalten zu können.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien deuten darauf hin, dass eine bessere Balance mit weniger Krankschreibungen zusammenhängt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, dass sich der Kulturwandel in allen Branchen gleich leicht umsetzen lässt.",
+        "respuesta": false
+      }
+    ]
   }
 ]
