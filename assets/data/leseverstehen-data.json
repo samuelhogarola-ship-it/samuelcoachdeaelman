@@ -78422,5 +78422,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mein-haustier-der-hund-2",
+    "nivel": "A1",
+    "titulo": "Mein Haustier, der Hund",
+    "descripcion": "Tim erzählt kurz über seinen Hund Bruno.",
+    "texto": "Tim hat einen Hund. Der Hund heißt Bruno. Bruno ist braun und klein. Er spielt gern im Garten. Jeden Morgen geht Tim mit Bruno spazieren. Sie gehen zusammen in den Park.\n\nBruno mag Bälle. Er läuft schnell und bringt den Ball zurück. Tim lacht und spielt mit ihm. Am Abend bekommt Bruno Futter. Er isst gern Fleisch und Reis.\n\nTim liebt seinen Hund sehr. Bruno schläft in einem Korb neben Tims Bett. Tim sagt: „Bruno ist mein bester Freund.“",
+    "preguntas": [
+      {
+        "enunciado": "Tims Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist groß und schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim geht jeden Morgen mit Bruno spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno mag keine Bälle.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno schläft neben Tims Bett.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wochenplan-von-lisa",
+    "nivel": "A1",
+    "titulo": "Der Wochenplan von Lisa",
+    "descripcion": "Lisa beschreibt ihre Woche von Montag bis Sonntag.",
+    "texto": "Lisa hat eine feste Woche. Am Montag geht sie zur Schule. Am Dienstag lernt sie Englisch. Am Mittwoch hat sie Sport. Sie spielt Fußball mit Freunden.\n\nAm Donnerstag besucht sie ihre Oma. Sie trinken Tee und reden viel. Am Freitag macht Lisa ihre Hausaufgaben. Danach schaut sie einen Film.\n\nAm Samstag geht Lisa einkaufen. Sie kauft Obst, Brot und Milch. Am Sonntag bleibt sie zu Hause. Sie liest ein Buch und ruht sich aus.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa hat am Montag Sport.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lisa spielt am Mittwoch Fußball.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa besucht am Donnerstag ihre Oma.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa geht am Freitag einkaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Sonntag liest Lisa ein Buch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-wetter-im-april",
+    "nivel": "A1",
+    "titulo": "Das Wetter im April",
+    "descripcion": "Ein kurzer Text über das Wetter und die Kleidung im April.",
+    "texto": "Im April ist das Wetter oft nicht stabil. Manchmal ist die Sonne da, und manchmal regnet es. Am Morgen ist es kalt. Am Mittag wird es wärmer.\n\nPaul trägt eine Jacke und eine Mütze. Er nimmt auch einen Regenschirm mit. Seine Schwester Maria trägt einen Pullover und feste Schuhe. Sie mag den April, weil die Blumen blühen.\n\nAm Wochenende ist das Wetter schön. Die Familie macht einen Spaziergang im Park. Alle sind glücklich und genießen die frische Luft.",
+    "preguntas": [
+      {
+        "enunciado": "Das Wetter im April ist immer gleich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul nimmt einen Regenschirm mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Maria mag den April nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Mittag wird es wärmer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie bleibt am Wochenende im Haus.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-termin-beim-zahnarzt-2",
+    "nivel": "A2",
+    "titulo": "Der Termin beim Zahnarzt",
+    "descripcion": "Jonas hatte Zahnschmerzen und ist zum Zahnarzt gegangen.",
+    "texto": "Jonas hatte seit zwei Tagen Zahnschmerzen. Weil der Schmerz immer stärker wurde, hat er einen Termin beim Zahnarzt gemacht. Am Morgen ist er früh aufgestanden und zur Praxis gefahren. Im Wartezimmer hat er ein paar Zeitschriften gelesen, bis die Arzthelferin seinen Namen gerufen hat.\n\nDer Zahnarzt hat den Zahn genau untersucht und festgestellt, dass Jonas ein kleines Loch hatte. „Das ist nicht so schlimm“, hat der Arzt gesagt, „aber wir müssen den Zahn heute behandeln.“ Jonas hatte ein bisschen Angst, weil er die Spritze nicht gern mag. Trotzdem ist alles gut gegangen, und die Behandlung hat nur zwanzig Minuten gedauert.\n\nAls Jonas nach Hause gekommen ist, hat er sich sehr erleichtert gefühlt. Er hat seiner Mutter erzählt, dass der Zahnarzt sehr freundlich war. Am Abend hat er vorsichtig gegessen, weil sein Mund noch ein bisschen taub war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte seit zwei Tagen Zahnschmerzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas ist ohne Termin zum Zahnarzt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zahnarzt hat ein kleines Loch im Zahn gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Behandlung hat mehrere Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas hat am Abend ganz normal gegessen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-die-beste-freundin-2",
+    "nivel": "A2",
+    "titulo": "Ein Brief an die beste Freundin",
+    "descripcion": "Nina schreibt ihrer Freundin Sara einen Brief über ihr neues Leben in Köln.",
+    "texto": "Liebe Sara,\n\nich hoffe, dass es dir gut geht. Ich wollte dir schon lange schreiben, aber ich hatte in den letzten Wochen sehr viel zu tun. Wie du weißt, bin ich vor einem Monat nach Köln gezogen. Die Stadt ist groß und bunt, und ich habe schon viele neue Orte entdeckt. Weil ich noch niemanden hier kenne, war der Anfang nicht einfach.\n\nLetzte Woche habe ich einen netten Nachbarn kennengelernt. Er heißt Felix und hat mir gezeigt, wo man gut einkaufen kann. Wenn das Wetter schön ist, gehe ich gern am Rhein spazieren. Das macht mich glücklich und hilft mir, mich zu entspannen.\n\nIch vermisse dich und unsere Gespräche sehr. Könntest du mich vielleicht im nächsten Monat besuchen? Ich würde mich sehr freuen! Schreib mir bald zurück.\n\nViele liebe Grüße,\nNina",
+    "preguntas": [
+      {
+        "enunciado": "Nina ist vor einem Monat nach Köln gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina kannte in Köln von Anfang an viele Leute.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix ist Ninas neuer Nachbar.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nina geht nie am Rhein spazieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina möchte, dass Sara sie besucht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-verlorene-gepaeck",
+    "nivel": "A2",
+    "titulo": "Das verlorene Gepäck",
+    "descripcion": "Familie Weber erlebt am Flughafen ein kleines Reiseabenteuer.",
+    "texto": "Familie Weber ist letzten Sommer nach Spanien geflogen. Der Flug war lang, aber angenehm. Als sie am Flughafen in Barcelona gelandet sind, haben sie lange auf ihre Koffer gewartet. Nach einer halben Stunde war klar, dass ein Koffer fehlte.\n\nHerr Weber ist sofort zum Schalter gegangen und hat das Problem gemeldet. Die Mitarbeiterin hat gesagt, dass der Koffer wahrscheinlich noch in Frankfurt ist, weil er beim Umsteigen nicht mitgekommen ist. Die Familie war besorgt, weil im Koffer die Badesachen und die Sonnencreme waren.\n\nZum Glück ist der Koffer schon am nächsten Tag im Hotel angekommen. Die Kinder haben sich sehr gefreut, und die ganze Familie konnte endlich an den Strand gehen. Frau Weber hat gesagt, dass sie beim nächsten Urlaub lieber alles im Handgepäck mitnimmt.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Weber ist nach Italien geflogen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Koffer ist beim Umsteigen in Frankfurt zurückgeblieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im fehlenden Koffer waren die Badesachen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Koffer ist nie bei der Familie angekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Weber möchte beim nächsten Mal mehr im Handgepäck mitnehmen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-klassenfahrt-nach-hamburg-2",
+    "nivel": "B1",
+    "titulo": "Die Klassenfahrt nach Hamburg",
+    "descripcion": "Eine Schulklasse verbringt drei Tage in Hamburg und lernt die Stadt kennen.",
+    "texto": "Die Klasse 9b ist vergangene Woche für drei Tage nach Hamburg gefahren. Obwohl einige Schüler zuerst wenig Lust auf die lange Busfahrt hatten, war die Stimmung schon nach der Ankunft sehr gut. Die Jugendherberge lag direkt am Hafen, und man konnte von den Zimmern aus die großen Schiffe sehen.\n\nAm ersten Tag haben die Schüler eine Hafenrundfahrt gemacht. Nachdem sie viel über die Geschichte des Hamburger Hafens erfahren hatten, sind sie in die Speicherstadt gegangen, um das Miniatur Wunderland zu besuchen. Dort haben sie stundenlang die kleinen Modelllandschaften bewundert. Am zweiten Tag stand ein Besuch im Musical-Theater auf dem Programm, was besonders bei den musikbegeisterten Schülern großen Eindruck hinterließ.\n\nTrotzdem war nicht alles perfekt: Am letzten Abend hat es stark geregnet, sodass der geplante Spaziergang durch St. Pauli ausfallen musste. Stattdessen haben sich alle in der Jugendherberge versammelt und Spiele gespielt. Am Ende waren sich fast alle einig, dass die Klassenfahrt trotz des schlechten Wetters eine der schönsten Erfahrungen des Schuljahres war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse 9b war vier Tage in Hamburg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Jugendherberge lag direkt am Hafen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler haben das Miniatur Wunderland besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Spaziergang durch St. Pauli hat wie geplant stattgefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende fanden die meisten Schüler die Fahrt nicht gelungen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-neues-leben-in-muenchen",
+    "nivel": "B1",
+    "titulo": "Ein neues Leben in München",
+    "descripcion": "Carla zieht für ihren neuen Job nach München und muss sich an vieles gewöhnen.",
+    "texto": "Carla hat vor zwei Monaten eine neue Stelle in München angenommen. Nachdem sie sich lange über die Entscheidung Gedanken gemacht hatte, ist sie schließlich aus ihrer Heimatstadt weggezogen. Obwohl sie wusste, dass der Anfang nicht leicht sein würde, war sie von der neuen Herausforderung begeistert.\n\nDie ersten Wochen in München waren voller kleiner Hürden. Carla musste sich zum Beispiel beim Einwohnermeldeamt anmelden und ein neues Bankkonto eröffnen. Außerdem war die Wohnungssuche schwieriger, als sie erwartet hatte, weil die Mieten in der Stadt sehr hoch sind. Trotzdem hat sie nach einigen Wochen eine schöne Wohnung in der Nähe ihres Büros gefunden.\n\nMittlerweile fühlt sich Carla in München viel wohler. Sie hat durch ihre Arbeitskollegen neue Freunde gefunden, mit denen sie regelmäßig ins Kino oder in Biergärten geht. Auch wenn sie ihre Familie manchmal vermisst, ist sie überzeugt, dass der Umzug die richtige Entscheidung war.",
+    "preguntas": [
+      {
+        "enunciado": "Carla ist wegen eines neuen Jobs nach München gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla hatte von Anfang an keine Probleme in München.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Wohnungssuche war einfacher als erwartet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Carla hat durch ihre Arbeit neue Freunde gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla bereut den Umzug nach München.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest-im-sommer-2",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest im Sommer",
+    "descripcion": "Eine Kleinstadt feiert ihr jährliches Stadtfest mit Musik, Essen und alten Freunden.",
+    "texto": "Jedes Jahr im Juli veranstaltet die Kleinstadt Lindau ihr traditionelles Stadtfest. Schon Wochen vorher bereiten sich die Geschäfte und Vereine auf das Ereignis vor, da viele Besucher aus der ganzen Region erwartet werden. Auf dem Marktplatz werden Bühnen aufgebaut, und verschiedene Bands spielen bis spät in die Nacht.\n\nIn diesem Jahr hat das Fest besonders viele Besucher angezogen, obwohl es tagsüber ziemlich heiß war. Familien saßen an langen Tischen und probierten lokale Spezialitäten, während Kinder auf dem Karussell fuhren. Nachdem die Sonne untergegangen war, hat ein großes Feuerwerk den Himmel erleuchtet, was bei Jung und Alt für Begeisterung gesorgt hat.\n\nFür viele Einwohner ist das Stadtfest auch eine Gelegenheit, alte Freunde wiederzutreffen, die mittlerweile woanders leben. Lena, die vor Jahren nach Berlin gezogen ist, kommt jedes Jahr extra für das Fest zurück. „Es ist wie eine kleine Zeitreise in meine Kindheit“, erzählt sie lachend. Trotz der Hitze und der vielen Menschen will sie das Fest auch im nächsten Jahr nicht verpassen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest findet jedes Jahr im Dezember statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In diesem Jahr war es tagsüber sehr heiß.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend gab es ein Feuerwerk.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena lebt mittlerweile wieder in Lindau.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena möchte das Fest im nächsten Jahr nicht mehr besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-ein-tempolimit-2",
+    "nivel": "B2",
+    "titulo": "Die Debatte um ein Tempolimit",
+    "descripcion": "Eine Analyse der gesellschaftlichen Diskussion über ein generelles Tempolimit auf deutschen Autobahnen.",
+    "texto": "Kaum ein verkehrspolitisches Thema wird in Deutschland so emotional diskutiert wie die Einführung eines generellen Tempolimits auf Autobahnen. Während Befürworter argumentieren, dass ein Tempolimit die Verkehrssicherheit erhöhen und den CO2-Ausstoß deutlich senken würde, verweisen Gegner auf die lange Tradition der freien Fahrt und befürchten unnötige Einschränkungen der individuellen Mobilität.\n\nStudien, die von unabhängigen Verkehrsforschern durchgeführt wurden, zeigen, dass durch ein Tempolimit von 130 Kilometern pro Stunde jährlich mehrere Millionen Tonnen CO2 eingespart werden könnten. Dennoch wird in der politischen Debatte oft argumentiert, dass solche Maßnahmen allein nicht ausreichten, um die Klimaziele zu erreichen, und dass stattdessen umfassendere Konzepte notwendig seien. Würde man sich ausschließlich auf symbolische Maßnahmen verlassen, bliebe der tatsächliche ökologische Effekt wahrscheinlich gering.\n\nAuffällig ist, dass Deutschland im europäischen Vergleich zu den wenigen Ländern gehört, die kein generelles Tempolimit kennen. In nahezu allen Nachbarländern wurden entsprechende Regelungen längst eingeführt, ohne dass dies zu nennenswerten wirtschaftlichen Nachteilen geführt hätte. Ob sich die politischen Mehrheiten in Deutschland in naher Zukunft ändern werden, bleibt jedoch ungewiss, da das Thema regelmäßig zum Gegenstand parteipolitischer Auseinandersetzungen wird.",
+    "preguntas": [
+      {
+        "enunciado": "Alle politischen Parteien in Deutschland sind sich beim Tempolimit einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter eines Tempolimits argumentieren mit mehr Sicherheit und weniger CO2.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Studien könnte ein Tempolimit mehrere Millionen Tonnen CO2 einsparen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Deutschland gehört zu den meisten europäischen Ländern, die bereits ein Tempolimit haben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text behauptet, dass ein Tempolimit allein die Klimaziele vollständig erreichen würde.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "fake-news-und-medienkompetenz",
+    "nivel": "B2",
+    "titulo": "Fake News und Medienkompetenz",
+    "descripcion": "Ein Blick auf die Herausforderungen durch Falschinformationen und die Bedeutung von Medienkompetenz.",
+    "texto": "In einer Zeit, in der Informationen über soziale Netzwerke in Sekundenschnelle verbreitet werden, gewinnt das Phänomen der sogenannten Fake News zunehmend an Bedeutung. Falschinformationen, die bewusst oder unbewusst geteilt werden, können innerhalb kürzester Zeit ein großes Publikum erreichen und dabei erheblichen Schaden anrichten, sei es im politischen, gesundheitlichen oder gesellschaftlichen Bereich.\n\nBesonders problematisch ist, dass viele Nutzer Inhalte teilen, ohne deren Wahrheitsgehalt zu überprüfen. Dies wird häufig dadurch begünstigt, dass reißerische Überschriften mehr Aufmerksamkeit erzeugen als sachliche Berichterstattung. Würden mehr Menschen gelernt haben, Quellen kritisch zu hinterfragen, ließe sich die Verbreitung von Falschinformationen vermutlich erheblich eindämmen. Genau hier setzt die sogenannte Medienkompetenz an, die in Schulen und Bildungseinrichtungen zunehmend gefördert werden soll.\n\nEinige Experten fordern deshalb, dass Medienkompetenz fester Bestandteil des Lehrplans wird, damit Schülerinnen und Schüler frühzeitig lernen, zwischen seriösen und unseriösen Quellen zu unterscheiden. Andere wiederum sehen die Plattformbetreiber in der Pflicht, technische Lösungen zur Kennzeichnung fragwürdiger Inhalte zu entwickeln. Letztlich wird wohl nur ein Zusammenspiel aus Bildung, technischer Regulierung und gesellschaftlichem Bewusstsein das Problem nachhaltig eindämmen können.",
+    "preguntas": [
+      {
+        "enunciado": "Fake News verbreiten sich laut Text langsam und erreichen nur wenige Menschen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Reißerische Überschriften erzeugen oft mehr Aufmerksamkeit als sachliche Berichte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Manche Experten fordern Medienkompetenz als festen Teil des Lehrplans.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht ausschließlich die Nutzer in der Verantwortung, nicht die Plattformbetreiber.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laut Text reicht eine einzelne Maßnahme aus, um Fake News vollständig zu beseitigen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-der-innenstaedte-2",
+    "nivel": "B2",
+    "titulo": "Der Wandel der Innenstädte",
+    "descripcion": "Eine Betrachtung darüber, wie Online-Shopping und neue Nutzungskonzepte deutsche Innenstädte verändern.",
+    "texto": "Deutsche Innenstädte befinden sich seit einigen Jahren in einem tiefgreifenden Wandel. Während früher der klassische Einzelhandel das Stadtbild prägte, kämpfen viele Geschäfte heute mit sinkenden Kundenzahlen, da ein wachsender Teil des Konsums über das Internet abgewickelt wird. Zahlreiche Ladenflächen stehen inzwischen leer, was in manchen Städten zu einem regelrechten Strukturproblem geworden ist.\n\nStadtplaner diskutieren deshalb intensiv darüber, wie Innenstädte attraktiver gestaltet werden könnten, um Besucher wieder anzuziehen. Vorgeschlagen werden unter anderem mehr Grünflächen, kulturelle Angebote sowie eine stärkere Mischung aus Wohnen, Arbeiten und Freizeit. Wären Innenstädte nicht länger primär auf den Einzelhandel ausgerichtet, sondern als lebendige, multifunktionale Räume gedacht, könnten sie langfristig widerstandsfähiger gegenüber wirtschaftlichen Veränderungen werden.\n\nGleichzeitig wird vielerorts befürchtet, dass durch steigende Mieten kleine, inhabergeführte Geschäfte zunehmend von großen Filialketten verdrängt werden, wodurch die Innenstädte an Individualität verlieren. Einige Kommunen haben bereits begonnen, leerstehende Gebäude für kulturelle Projekte oder soziale Einrichtungen umzunutzen, um dem Leerstand entgegenzuwirken. Ob diese Maßnahmen ausreichen werden, um die Innenstädte langfristig zu beleben, bleibt allerdings abzuwarten.",
+    "preguntas": [
+      {
+        "enunciado": "Der Einzelhandel in deutschen Innenstädten hat in den letzten Jahren an Bedeutung gewonnen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Grund für die Probleme ist der wachsende Online-Handel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Stadtplaner schlagen unter anderem mehr Grünflächen und kulturelle Angebote vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind steigende Mieten für kleine Geschäfte kein Problem.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Kommunen nutzen leerstehende Gebäude für kulturelle oder soziale Zwecke um.",
+        "respuesta": true
+      }
+    ]
   }
 ]
