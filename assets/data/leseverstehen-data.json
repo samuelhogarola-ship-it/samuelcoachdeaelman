@@ -78770,5 +78770,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "die-katze-meiner-oma",
+    "nivel": "A1",
+    "titulo": "Die Katze meiner Oma",
+    "descripcion": "Ein Kind erzählt von der Katze seiner Großmutter.",
+    "texto": "Meine Oma hat eine Katze. Die Katze heißt Mimi. Mimi ist klein und grau. Sie hat grüne Augen. Mimi schläft sehr viel. Am Tag schläft sie zehn Stunden.\n\nIch besuche meine Oma jeden Samstag. Mimi mag mich sehr. Sie kommt zu mir und spielt mit einem Ball. Meine Oma gibt Mimi jeden Morgen Milch und Fisch. Mimi isst sehr gern Fisch.\n\nIm Garten von meiner Oma läuft Mimi gern herum. Sie klettert auf den Baum und sieht die Vögel. Meine Oma sagt: „Mimi ist eine sehr glückliche Katze.\" Ich finde Mimi auch sehr süß.",
+    "preguntas": [
+      {
+        "enunciado": "Mimi ist die Katze von der Oma.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mimi ist schwarz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi schläft sehr viel am Tag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Kind besucht die Oma jeden Montag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mimi isst gern Fisch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-rote-schulranzen-von-finn",
+    "nivel": "A1",
+    "titulo": "Der rote Schulranzen von Finn",
+    "descripcion": "Finn beschreibt seinen neuen Schulranzen und seine Schulsachen.",
+    "texto": "Finn hat einen neuen Schulranzen. Er ist rot und blau. Der Schulranzen ist nicht schwer. Finn trägt ihn jeden Tag zur Schule.\n\nIn seinem Schulranzen sind viele Dinge. Er hat Bücher, Hefte und Stifte. Er hat auch eine Brotdose und eine Trinkflasche. Seine Mutter macht ihm jeden Morgen ein Pausenbrot.\n\nIn der Schule packt Finn seinen Schulranzen aus. Seine Lehrerin heißt Frau Weber. Sie ist sehr nett. Nach der Schule packt Finn alles wieder ein und geht nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Der Schulranzen von Finn ist rot und blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Schulranzen ist sehr schwer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Schulranzen sind Bücher und Hefte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finns Mutter macht ihm kein Pausenbrot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finns Lehrerin heißt Frau Weber.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-im-schwimmbad",
+    "nivel": "A1",
+    "titulo": "Ein Besuch im Schwimmbad",
+    "descripcion": "Die Familie Müller verbringt einen Nachmittag im Schwimmbad.",
+    "texto": "Am Sonntag fährt die Familie Müller ins Schwimmbad. Das Wetter ist warm und sonnig. Herr Müller, Frau Müller und ihre zwei Kinder packen Handtücher und Badesachen ein.\n\nIm Schwimmbad gibt es ein großes Becken und ein kleines Becken für Kinder. Die Kinder spielen gern im kleinen Becken. Herr Müller schwimmt zwanzig Runden im großen Becken. Frau Müller liegt auf einer Liege und liest ein Buch.\n\nZum Mittagessen kaufen sie Pommes und Eis am Kiosk. „Das Eis ist lecker!\", sagt die Tochter. Am Abend sind alle müde, aber glücklich. Sie fahren zufrieden nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Müller fährt am Sonntag ins Schwimmbad.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter ist kalt und regnerisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Müller schwimmt im kleinen Becken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie essen Pommes und Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Abend sind alle traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "lenas-umzug-nach-leipzig",
+    "nivel": "A2",
+    "titulo": "Lenas Umzug nach Leipzig",
+    "descripcion": "Lena erzählt, wie sie mit ihrer Familie in eine neue Wohnung umgezogen ist.",
+    "texto": "Letzten Monat ist Lena mit ihrer Familie nach Leipzig umgezogen. Sie haben eine neue Wohnung in einem anderen Stadtteil gefunden, weil die alte Wohnung zu klein geworden ist. Der Umzug hat drei Tage gedauert, und alle haben fleißig mitgeholfen.\n\nAm ersten Tag haben sie die Möbel in einen großen Lastwagen geladen. Lenas Vater hat gesagt, dass der Lastwagen fast nicht gereicht hat, weil sie so viele Kisten hatten. Lenas kleiner Bruder hat seine Spielsachen selbst eingepackt und war sehr stolz darauf.\n\nAls sie endlich in der neuen Wohnung angekommen sind, haben alle die Zimmer eingerichtet. Lena hat ihr neues Zimmer sofort gemocht, weil es viel größer ist als das alte. Wenn das Wetter am Wochenende schön ist, wollen sie eine kleine Einzugsparty feiern.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist mit ihrer Familie umgezogen, weil die Wohnung zu klein war.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Umzug hat nur einen Tag gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lenas Bruder hat seine Spielsachen nicht selbst eingepackt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lenas neues Zimmer ist größer als das alte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie will am Wochenende eine Party feiern, wenn das Wetter schön ist.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "pauls-brief-aus-dem-ferienhaus",
+    "nivel": "A2",
+    "titulo": "Pauls Brief aus dem Ferienhaus",
+    "descripcion": "Paul schreibt seiner Großmutter einen Brief über seinen Urlaub an der Ostsee.",
+    "texto": "Liebe Oma, ich habe dir lange nicht geschrieben, weil ich sehr viel zu tun hatte. Letzte Woche bin ich mit meinen Eltern an die Ostsee gefahren. Wir haben dort ein kleines Ferienhaus gemietet.\n\nAm Strand habe ich jeden Tag gebadet, obwohl das Wasser noch ziemlich kalt war. Mein Vater hat mir gezeigt, wie man ein Sandschloss baut, und wir haben zusammen eine riesige Burg gebaut. Meine Mutter hat gesagt, dass es die schönste Burg war, die sie je gesehen hat.\n\nAm letzten Abend haben wir ein Lagerfeuer gemacht und Stockbrot gegessen. Ich hoffe, dass du bald zu Besuch kommst, damit ich dir alle Fotos zeigen kann. Viele liebe Grüße, dein Paul.",
+    "preguntas": [
+      {
+        "enunciado": "Paul ist mit seinen Eltern an die Ostsee gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben in einem Hotel gewohnt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wasser am Strand war sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul und sein Vater haben ein Sandschloss gebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am letzten Abend haben sie Stockbrot gegessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-fahrradtour-um-den-dorfsee",
+    "nivel": "A2",
+    "titulo": "Die Fahrradtour um den Dorfsee",
+    "descripcion": "Tom und seine Freunde machen eine Fahrradtour rund um einen See.",
+    "texto": "Am Samstag haben Tom und seine Freunde eine Fahrradtour rund um den Dorfsee gemacht. Sie sind früh am Morgen gestartet, weil sie die ganze Strecke an einem Tag schaffen wollten. Die Tour war ungefähr dreißig Kilometer lang.\n\nNach zwei Stunden haben sie an einem kleinen Café am Seeufer eine Pause gemacht. Tom hat erzählt, dass er noch nie so weit mit dem Fahrrad gefahren ist. Seine Freundin Mia hat gelacht und gesagt: „Du schaffst das bestimmt, wenn du genug trinkst!\"\n\nAm Nachmittag sind sie müde, aber zufrieden am Ausgangspunkt angekommen. Sie haben entschieden, dass sie diese Tour im nächsten Jahr wiederholen wollen. Alle waren sich einig, dass es ein wunderschöner Tag war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Fahrradtour ging rund um einen See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Strecke war ungefähr hundert Kilometer lang.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben keine Pause gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia hat Tom ermutigt, mehr zu trinken.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle fanden den Tag wunderschön.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandertag-in-den-bergen",
+    "nivel": "B1",
+    "titulo": "Der Wandertag in den Bergen",
+    "descripcion": "Eine Schulklasse unternimmt einen anstrengenden, aber schönen Wandertag in den Alpen.",
+    "texto": "Nachdem die Klasse 9b wochenlang auf den Wandertag gewartet hatte, ging es endlich los. Um sieben Uhr morgens trafen sich alle Schüler am Bahnhof, obwohl viele von ihnen noch müde waren. Der Lehrer, Herr Schulz, hatte eine Route in den Alpen geplant, die als mittelschwer galt.\n\nDer Aufstieg war anstrengender, als die Schüler erwartet hatten. Trotzdem beschwerte sich kaum jemand, weil die Aussicht auf die Berge einfach atemberaubend war. Nachdem sie eine Stunde gewandert waren, machten sie an einer Hütte eine Rast und stärkten sich mit Brot und Tee.\n\nAm Nachmittag erreichten sie den Gipfel, und alle waren stolz auf sich. Obwohl der Rückweg lang war, sang die Klasse fröhliche Lieder und die Zeit verging schnell. Am Ende des Tages waren alle erschöpft, aber glücklich über dieses gemeinsame Erlebnis.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse traf sich um sieben Uhr morgens am Bahnhof.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Schulz hatte die Route nicht geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler beschwerten sich viel über den anstrengenden Aufstieg.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Klasse machte an einer Hütte eine Rast.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende des Tages waren alle nur erschöpft, aber nicht glücklich.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "julias-erster-tag-im-buero",
+    "nivel": "B1",
+    "titulo": "Julias erster Tag im Büro",
+    "descripcion": "Julia berichtet von ihrem ersten Arbeitstag in einer neuen Firma.",
+    "texto": "Julia war sehr nervös, als sie an ihrem ersten Arbeitstag vor dem Bürogebäude stand. Obwohl sie sich gut auf das Vorstellungsgespräch vorbereitet hatte, wusste sie nicht genau, was sie an ihrem ersten Tag erwarten würde. Pünktlich um neun Uhr betrat sie das Gebäude.\n\nIhr neuer Chef begrüßte sie freundlich und stellte sie dem gesamten Team vor. Nachdem sie ihren Arbeitsplatz gezeigt bekommen hatte, erklärte ihr eine Kollegin die wichtigsten Computerprogramme. Trotzdem fühlte sich Julia am Anfang etwas überfordert, weil es so viele neue Informationen gab.\n\nBeim gemeinsamen Mittagessen lernte Julia ihre Kollegen besser kennen, und die Stimmung wurde entspannter. Am Ende des Tages war sie zwar müde, aber auch zufrieden, weil der erste Eindruck sehr positiv war. Sie freute sich schon auf den nächsten Arbeitstag.",
+    "preguntas": [
+      {
+        "enunciado": "Julia war an ihrem ersten Arbeitstag sehr nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat Julia dem Team vorgestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Eine Kollegin hat Julia die Computerprogramme erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia fühlte sich von Anfang an völlig entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia freute sich auf den nächsten Arbeitstag.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest-in-meiner-heimatstadt",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest in meiner Heimatstadt",
+    "descripcion": "Ein Bericht über das jährliche Stadtfest und seine Attraktionen.",
+    "texto": "Jedes Jahr im Sommer findet in meiner Heimatstadt ein großes Stadtfest statt. Obwohl das Fest nur drei Tage dauert, kommen Besucher aus der ganzen Region. Auf dem Marktplatz stehen zahlreiche Stände mit Essen, Getränken und Kunsthandwerk.\n\nNachdem die Bühne aufgebaut worden war, begann am Freitagabend das erste Konzert. Trotz des leichten Regens blieben viele Besucher und tanzten fröhlich weiter. Am Samstag gab es zusätzlich einen Flohmarkt, auf dem die Kinder alte Spielsachen verkauften.\n\nAm Sonntag endete das Fest traditionell mit einem großen Feuerwerk. Viele Einwohner sagen, dass das Stadtfest einer der schönsten Momente im Jahr ist, weil die ganze Stadt zusammenkommt. Auch ich freue mich jedes Jahr auf dieses besondere Ereignis.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest findet jedes Jahr im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fest dauert drei Tage.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wegen des Regens ging niemand zum Konzert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag gab es einen Flohmarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fest endet mit einem Feuerwerk.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "homeoffice-und-die-zukunft-der-buerowelt",
+    "nivel": "B2",
+    "titulo": "Homeoffice und die Zukunft der Bürowelt",
+    "descripcion": "Eine Auseinandersetzung mit den Chancen und Risiken des Homeoffice für die moderne Arbeitswelt.",
+    "texto": "Seit einigen Jahren hat sich die Arbeitswelt grundlegend verändert. Immer mehr Beschäftigte arbeiten von zu Hause aus, und viele Unternehmen haben ihre Büroflächen bereits reduziert. Befürworter des Homeoffice argumentieren, dass dadurch nicht nur Pendelzeiten eingespart, sondern auch die Vereinbarkeit von Familie und Beruf verbessert würde.\n\nKritiker hingegen weisen darauf hin, dass der persönliche Austausch zwischen Kollegen durch digitale Kommunikation nur teilweise ersetzt werden kann. Wenn man ausschließlich von zu Hause arbeitete, würde man wichtige informelle Gespräche verpassen, die oft zu neuen Ideen führen. Zudem wird befürchtet, dass junge Mitarbeiter, die noch wenig Berufserfahrung besitzen, im Homeoffice schlechter betreut werden könnten.\n\nStudien zeigen, dass ein hybrides Modell, bei dem Mitarbeiter sowohl im Büro als auch von zu Hause arbeiten, von vielen Beschäftigten bevorzugt wird. Wäre es möglich, die Vorteile beider Arbeitsformen zu kombinieren, könnte dies sowohl die Produktivität als auch die Zufriedenheit der Mitarbeiter steigern. Letztlich hängt der Erfolg des Homeoffice-Modells stark davon ab, wie gut es von den jeweiligen Unternehmen organisiert wird.\n\nEs bleibt abzuwarten, wie sich die Arbeitswelt in den kommenden Jahren weiterentwickeln wird. Sicher ist jedoch, dass starre Bürozeiten zunehmend durch flexible Arbeitsmodelle abgelöst werden, die den individuellen Bedürfnissen der Beschäftigten besser entsprechen.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr Unternehmen haben ihre Büroflächen vergrößert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter des Homeoffice betonen die bessere Vereinbarkeit von Familie und Beruf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sagen, dass informelle Gespräche im Homeoffice komplett ersetzt werden können.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein hybrides Modell wird von vielen Beschäftigten bevorzugt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sagt, dass sich an starren Arbeitsmodellen in Zukunft nichts ändern wird.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-wohnungsknappheit-in-deutschen-metropolen",
+    "nivel": "B2",
+    "titulo": "Die Wohnungsknappheit in deutschen Metropolen",
+    "descripcion": "Eine Analyse der Ursachen und möglichen Lösungen der Wohnungsknappheit in deutschen Großstädten.",
+    "texto": "In den letzten Jahren ist die Wohnungsnot in deutschen Großstädten zu einem der dringendsten gesellschaftlichen Probleme geworden. Besonders in Städten wie München, Berlin und Hamburg sind die Mietpreise in kurzer Zeit stark gestiegen, sodass sich viele Menschen mit niedrigem oder mittlerem Einkommen kaum noch eine Wohnung leisten können.\n\nAls Hauptursache wird häufig der Mangel an neu gebautem Wohnraum genannt. Obwohl die Nachfrage seit Jahren steigt, werden jährlich zu wenige Wohnungen fertiggestellt, um den Bedarf zu decken. Hinzu kommt, dass viele Grundstücke in begehrten Lagen bereits bebaut sind, weshalb neue Projekte oft nur noch am Stadtrand realisiert werden können.\n\nPolitiker diskutieren verschiedene Maßnahmen, um die Situation zu verbessern. Würde der soziale Wohnungsbau stärker gefördert, könnten mehr bezahlbare Wohnungen entstehen. Einige Experten schlagen zudem vor, dass bürokratische Hürden beim Bauen abgebaut werden sollten, damit Bauprojekte schneller umgesetzt werden können.\n\nTrotz dieser Vorschläge bleibt die Wohnungsnot ein komplexes Problem, das nicht von heute auf morgen gelöst werden kann. Viele Betroffene hoffen dennoch, dass in naher Zukunft wirksame Maßnahmen ergriffen werden, damit bezahlbarer Wohnraum wieder für alle zugänglich wird.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise in Großstädten wie München sind stark gesunken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es werden jährlich genug Wohnungen gebaut, um die Nachfrage zu decken.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Experten fordern den Abbau bürokratischer Hürden beim Bauen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Neue Bauprojekte entstehen oft nur noch am Stadtrand.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Wohnungsnot ist laut Text bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kritisches-denken-im-umgang-mit-falschmeldungen",
+    "nivel": "B2",
+    "titulo": "Kritisches Denken im Umgang mit Falschmeldungen",
+    "descripcion": "Der Text untersucht, warum Medienkompetenz im Umgang mit Nachrichten immer wichtiger wird.",
+    "texto": "In einer Zeit, in der Informationen über soziale Medien innerhalb von Sekunden verbreitet werden, gewinnt die Fähigkeit, Nachrichtenquellen kritisch zu bewerten, zunehmend an Bedeutung. Falschmeldungen, die bewusst gestreut werden, können sich heute schneller verbreiten als je zuvor, weshalb Experten vor den Gefahren mangelnder Medienkompetenz warnen.\n\nBesonders junge Menschen, die einen Großteil ihrer Nachrichten über soziale Netzwerke beziehen, laufen Gefahr, Fake News für wahr zu halten. Wenn Schulen die Medienkompetenz nicht stärker in den Lehrplan integrierten, würde vielen Jugendlichen ein wichtiges Werkzeug fehlen, um Informationen richtig einzuordnen. Aus diesem Grund wird in vielen Bundesländern bereits daran gearbeitet, entsprechende Unterrichtseinheiten einzuführen.\n\nAuch die Plattformen selbst stehen in der Verantwortung. Es wird gefordert, dass Falschinformationen schneller gekennzeichnet oder entfernt werden, bevor sie sich massenhaft verbreiten können. Gleichzeitig betonen manche Fachleute, dass eine zu strenge Kontrolle auch die Meinungsfreiheit einschränken könnte, was die Debatte zusätzlich erschwert.\n\nLetztlich kann Medienkompetenz nicht allein durch technische Lösungen erreicht werden. Vielmehr müsste eine Kombination aus Bildung, verantwortungsvollem Plattformdesign und individueller Achtsamkeit geschaffen werden, damit Menschen in Zukunft besser zwischen seriösen und unseriösen Quellen unterscheiden können.",
+    "preguntas": [
+      {
+        "enunciado": "Fake News verbreiten sich laut Text langsamer als früher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Menschen, die viele Nachrichten über soziale Netzwerke beziehen, sind besonders gefährdet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In allen Bundesländern wurde Medienkompetenz schon seit Jahrzehnten unterrichtet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Fachleute befürchten, dass strenge Kontrolle die Meinungsfreiheit einschränken könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sagt, dass technische Lösungen allein ausreichen, um Medienkompetenz zu erreichen.",
+        "respuesta": false
+      }
+    ]
   }
 ]
