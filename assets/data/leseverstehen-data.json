@@ -80510,5 +80510,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-kaninchen-flauschi",
+    "nivel": "A1",
+    "titulo": "Mein Kaninchen Flauschi",
+    "descripcion": "Lena erzählt von ihrem Kaninchen Flauschi und seinem Tag.",
+    "texto": "Lena hat ein Kaninchen. Es heißt Flauschi. Flauschi ist weiß und braun. Er lebt in einem großen Käfig im Garten. Jeden Morgen gibt Lena ihm frisches Wasser. Sie gibt ihm auch Karotten und Salat. Flauschi mag Karotten sehr gern.\n\nAm Nachmittag spielt Lena mit Flauschi. Sie macht die Käfigtür auf. Flauschi hüpft schnell durch den Garten. Er läuft gern unter dem Apfelbaum. Lenas kleiner Bruder Tom schaut gern zu. „Flauschi ist so schnell!“, sagt Tom und lacht.\n\nAm Abend bringt Lena Flauschi zurück in den Käfig. Sie gibt ihm noch etwas Heu. Flauschi kuschelt sich in die Ecke und schläft. Lena mag ihr Kaninchen sehr. Jeden Tag kümmert sie sich liebevoll um ihn.",
+    "preguntas": [
+      {
+        "enunciado": "Flauschi ist ein Kaninchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flauschi isst keine Karotten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lena spielt am Nachmittag mit Flauschi.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tom ist Lenas Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Flauschi schläft abends im Käfig.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-fischmarkt-am-hafen",
+    "nivel": "A1",
+    "titulo": "Der Fischmarkt am Hafen",
+    "descripcion": "Paul kauft mit seiner Mutter frischen Fisch am Hafen.",
+    "texto": "Paul geht mit seiner Mutter zum Fischmarkt am Hafen. Es ist Samstag. Viele Boote liegen im Wasser. Die Fischer verkaufen frischen Fisch an kleinen Ständen. Pauls Mutter sucht Lachs für das Mittagessen.\n\nAn einem Stand riecht es nach frischem Fisch. Ein Fischer ruft: „Frischer Lachs, heute gefangen!“ Pauls Mutter kauft zwei Stück Lachs. Paul möchte auch Garnelen kaufen. Seine Mutter sagt: „Garnelen sind heute teuer.“ Paul ist ein bisschen traurig, aber er versteht das.\n\nZum Schluss kaufen sie noch Brot für das Essen. Paul trägt die Tasche mit dem Fisch. Zu Hause kocht die Mutter den Lachs mit Reis. Paul deckt den Tisch. Das Essen schmeckt sehr gut.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht mit seiner Mutter zum Fischmarkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Fischmarkt ist am Montag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pauls Mutter kauft Lachs.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft Garnelen für sich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Zu Hause isst die Familie den Lachs mit Reis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-teepause-um-vier",
+    "nivel": "A1",
+    "titulo": "Die Teepause um vier",
+    "descripcion": "Frau Berger trinkt jeden Nachmittag um vier Uhr Tee mit ihrer Freundin.",
+    "texto": "Frau Berger trinkt jeden Tag um vier Uhr Tee. Das ist ihre Teepause. Sie sitzt gern auf dem Balkon. Ihre Freundin Rita kommt oft zu Besuch. Die beiden Frauen mögen schwarzen Tee mit Zucker.\n\nHeute bringt Rita einen Kuchen mit. „Der Kuchen ist von meiner Tochter“, sagt Rita. Frau Berger freut sich sehr. Sie schneidet den Kuchen in kleine Stücke. Die Frauen essen den Kuchen und trinken Tee. Sie reden über ihre Familien und über das Wetter.\n\nNach der Teepause räumt Frau Berger den Tisch auf. Rita hilft ihr dabei. Die beiden Freundinnen treffen sich jeden Mittwoch. Sie freuen sich schon auf die nächste Teepause.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Berger trinkt morgens Tee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Rita ist Frau Bergers Freundin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Rita bringt heute Kekse mit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Frauen essen Kuchen und trinken Tee.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie treffen sich jeden Mittwoch.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-regenschirm-von-opa",
+    "nivel": "A2",
+    "titulo": "Der Regenschirm von Opa",
+    "descripcion": "Jonas hat den alten Regenschirm seines Opas verloren und muss ihn wiederfinden.",
+    "texto": "Jonas hat letzte Woche den Regenschirm seines Opas ausgeliehen, weil es stark geregnet hat. Der Schirm ist schon sehr alt, aber Opa mag ihn trotzdem sehr. Jonas ist mit dem Schirm zur Schule gegangen und hat ihn danach im Bus liegen lassen.\n\nAls Jonas nach Hause gekommen ist, hat er gemerkt, dass der Schirm fehlt. Er hat sofort seine Mutter angerufen und erzählt, was passiert ist. „Wir müssen beim Busunternehmen anrufen“, hat seine Mutter gesagt. Zusammen haben sie im Fundbüro nachgefragt, ob jemand den Schirm abgegeben hat.\n\nAm nächsten Tag hat das Fundbüro angerufen. Ein Busfahrer hat den Schirm gefunden und abgegeben. Jonas war sehr erleichtert und hat den Schirm sofort zu Opa gebracht. „Danke, dass du so ehrlich warst“, hat Opa gesagt und gelächelt. Jonas hat versprochen, in Zukunft besser auf die Sachen von Opa aufzupassen.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat den Schirm von seinem Opa ausgeliehen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat den Schirm im Bus liegen lassen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand hat den Schirm gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Fundbüro hat am nächsten Tag angerufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa war wütend auf Jonas.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-zahnarzttermin-am-freitag",
+    "nivel": "A2",
+    "titulo": "Der Zahnarzttermin am Freitag",
+    "descripcion": "Sophie hat Angst vor dem Zahnarzt, aber der Termin verläuft besser als erwartet.",
+    "texto": "Sophie hatte am Freitag einen Termin beim Zahnarzt. Sie hat sich schon seit Tagen Sorgen gemacht, weil sie Angst vor der Behandlung hatte. Ihre Mutter hat ihr gesagt, dass alles schnell vorbei sein wird.\n\nIm Wartezimmer hat Sophie ein Buch gelesen, um ruhig zu bleiben. Als die Arzthelferin ihren Namen gerufen hat, ist Sophie langsam ins Behandlungszimmer gegangen. Der Zahnarzt war sehr freundlich und hat ihr alles genau erklärt, bevor er mit der Untersuchung angefangen hat. „Du machst das super“, hat er gesagt.\n\nNach zehn Minuten war die Untersuchung schon fertig. Der Zahnarzt hat gesagt, dass Sophies Zähne gesund sind. Sophie war sehr glücklich und hat sich gefreut, dass es nicht so schlimm war, wie sie gedacht hatte. Zur Belohnung hat ihre Mutter ihr ein Eis gekauft.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hatte keine Angst vor dem Zahnarzttermin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Wartezimmer hat Sophie ein Buch gelesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Untersuchung hat zwei Stunden gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Zahnarzt hat gesagt, dass Sophies Zähne gesund sind.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat nach dem Termin ein Eis bekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-nachbarin-mit-dem-hund",
+    "nivel": "A2",
+    "titulo": "Die Nachbarin mit dem Hund",
+    "descripcion": "Herr Weber lernt seine neue Nachbarin und ihren Hund besser kennen.",
+    "texto": "Herr Weber ist letzten Monat in ein neues Haus gezogen. Seine Nachbarin, Frau Keller, hat einen kleinen Hund namens Bruno. Jeden Morgen hat Herr Weber gehört, wie Bruno im Garten gebellt hat.\n\nEines Tages ist Herr Weber in den Garten gegangen, weil er mit Frau Keller sprechen wollte. „Es tut mir leid, wenn Bruno zu laut ist“, hat Frau Keller gesagt. Herr Weber hat geantwortet, dass ihn das nicht stört. Die beiden haben sich lange über ihre Haustiere unterhalten, und Herr Weber hat erzählt, dass er früher auch einen Hund hatte.\n\nSeitdem gehen Herr Weber und Frau Keller manchmal zusammen mit Bruno spazieren. Herr Weber hat sich sehr über die neue Freundschaft gefreut. Er hat gemerkt, dass gute Nachbarn das Leben viel schöner machen können.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber ist letzten Monat in sein neues Haus gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Kellers Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Weber hat sich bei Frau Keller über den Hund beschwert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber hatte früher nie einen Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber und Frau Keller gehen jetzt manchmal zusammen mit Bruno spazieren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzugswagen-vor-der-tuer",
+    "nivel": "B1",
+    "titulo": "Der Umzugswagen vor der Tür",
+    "descripcion": "Familie Hoffmann zieht in eine neue Stadt, obwohl der Abschied von Freunden schwerfällt.",
+    "texto": "Am frühen Morgen stand der Umzugswagen bereits vor der Tür der Familie Hoffmann. Nachdem die letzten Kisten eingepackt worden waren, verabschiedeten sich die Kinder von ihren Freunden aus der Nachbarschaft. Obwohl der Abschied schwerfiel, freuten sich Lukas und seine Schwester Mia auch auf die neue Stadt, in der ihr Vater eine neue Stelle gefunden hatte.\n\nWährend der Fahrt erzählte die Mutter den Kindern von der neuen Wohnung, die direkt neben einem Park liegt. „Dort gibt es sogar einen Spielplatz und einen kleinen See“, erklärte sie begeistert. Trotzdem machte sich Mia Sorgen, ob sie in der neuen Schule schnell Freunde finden würde. Lukas versuchte, seine Schwester zu beruhigen, indem er ihr von seinen eigenen Erfahrungen erzählte.\n\nAls die Familie schließlich in der neuen Stadt ankam, wartete bereits die neue Nachbarin mit einem selbstgebackenen Kuchen vor der Tür. Diese freundliche Geste machte den Kindern den Einstieg viel leichter. Nachdem alle Möbel aufgestellt waren, saß die Familie zum ersten Mal gemeinsam im neuen Wohnzimmer und besprach, was sie am nächsten Wochenende alles erkunden wollten.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Hoffmann zieht in eine neue Stadt, weil der Vater eine neue Stelle gefunden hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia freut sich sofort und macht sich keine Sorgen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die neue Wohnung liegt neben einem Park.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niemand begrüßt die Familie in der neuen Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie sitzt am Ende gemeinsam im neuen Wohnzimmer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-erste-vorlesung-an-der-uni",
+    "nivel": "B1",
+    "titulo": "Die erste Vorlesung an der Uni",
+    "descripcion": "Tim besucht seine erste Vorlesung an der Universität und muss sich an das neue Leben gewöhnen.",
+    "texto": "Tim hatte lange auf diesen Tag gewartet: seine erste Vorlesung an der Universität. Obwohl er schon mehrmals über den Campus spaziert war, fühlte er sich an diesem Morgen besonders nervös. Nachdem er den richtigen Hörsaal gefunden hatte, setzte er sich in die letzte Reihe, um die anderen Studierenden beobachten zu können.\n\nDie Vorlesung begann pünktlich, und der Professor sprach sehr schnell über komplizierte Themen. Tim verstand nicht alles, trotzdem versuchte er, so viele Notizen wie möglich zu machen. In der Pause lernte er eine Kommilitonin namens Clara kennen, die ihm erklärte, wie das Lernsystem an der Uni funktioniert. „Am Anfang ist alles neu, aber man gewöhnt sich schnell daran“, sagte sie aufmunternd.\n\nNach der Vorlesung gingen Tim und Clara zusammen in die Mensa und tauschten ihre Eindrücke aus. Obwohl der erste Tag anstrengend gewesen war, fühlte sich Tim am Ende viel sicherer. Er merkte, dass das Studentenleben zwar herausfordernd, aber auch spannend sein kann, wenn man offen auf andere Menschen zugeht.",
+    "preguntas": [
+      {
+        "enunciado": "Tim war schon oft auf dem Campus gewesen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim setzte sich in die erste Reihe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Professor sprach sehr langsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara erklärte Tim, wie das Lernsystem funktioniert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim fühlte sich nach der Vorlesung unsicherer als vorher.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-konflikt-mit-dem-vermieter",
+    "nivel": "B1",
+    "titulo": "Der Konflikt mit dem Vermieter",
+    "descripcion": "Familie Richter streitet mit ihrem Vermieter über eine kaputte Heizung und findet schließlich eine Lösung.",
+    "texto": "Seit zwei Wochen funktionierte die Heizung in der Wohnung von Familie Richter nicht mehr richtig. Obwohl sie den Vermieter mehrmals angerufen hatten, kam niemand, um das Problem zu reparieren. Frau Richter wurde langsam ungeduldig, weil die Nächte besonders kalt waren.\n\nNachdem der Vermieter wieder nicht reagiert hatte, schrieb Herr Richter einen offiziellen Brief und setzte eine Frist für die Reparatur. Trotzdem meldete sich der Vermieter zunächst nicht zurück. Die Familie überlegte sogar, einen Anwalt zu kontaktieren, obwohl sie lieber eine friedliche Lösung gefunden hätten.\n\nSchließlich rief der Vermieter doch noch an und erklärte, dass er von der ersten Nachricht nichts gewusst hatte, weil seine Assistentin im Urlaub gewesen war. Er schickte sofort einen Handwerker, der die Heizung noch am selben Tag reparierte. Am Ende entschuldigte sich der Vermieter persönlich bei Familie Richter und bot ihnen zur Wiedergutmachung eine Mietminderung an.",
+    "preguntas": [
+      {
+        "enunciado": "Die Heizung funktioniert seit zwei Wochen nicht richtig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vermieter reagiert sofort auf den ersten Anruf.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Richter schreibt einen offiziellen Brief.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie zieht nie in Betracht, einen Anwalt zu kontaktieren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vermieter bietet der Familie eine Mietminderung an.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-algorithmus-in-sozialen-medien",
+    "nivel": "B2",
+    "titulo": "Der Algorithmus in sozialen Medien",
+    "descripcion": "Ein Essay über die Macht von Algorithmen in sozialen Netzwerken und ihre gesellschaftlichen Folgen.",
+    "texto": "In den vergangenen Jahren ist zunehmend diskutiert worden, welchen Einfluss die von sozialen Netzwerken eingesetzten Algorithmen auf die öffentliche Meinungsbildung haben. Diese komplexen, auf künstlicher Intelligenz basierenden Systeme entscheiden darüber, welche Inhalte den Nutzerinnen und Nutzern angezeigt werden, wobei vor allem solche Beiträge bevorzugt werden, die starke Emotionen hervorrufen. Kritiker argumentieren, dass dadurch polarisierende und oft wenig differenzierte Inhalte überproportional verbreitet werden.\n\nWenn die Plattformbetreiber transparenter mit ihren Algorithmen umgehen würden, könnten Nutzerinnen und Nutzer besser nachvollziehen, warum ihnen bestimmte Inhalte angezeigt werden. Bislang werden die genauen Funktionsweisen jedoch meist als Geschäftsgeheimnis behandelt und nicht offengelegt. Einige Wissenschaftler fordern deshalb eine gesetzliche Regulierung, durch die eine unabhängige Überprüfung der Algorithmen ermöglicht würde, ohne dass die Unternehmen ihre gesamten Systeme offenlegen müssten.\n\nBefürworter der aktuellen Praxis hingegen betonen, dass personalisierte Inhalte das Nutzererlebnis verbessern und den Zugang zu relevanten Informationen erleichtern würden. Sie weisen zudem darauf hin, dass eine vollständige Offenlegung der Algorithmen von Konkurrenzunternehmen ausgenutzt werden könnte. Dennoch wächst in der Gesellschaft das Bewusstsein dafür, dass eine ausschließlich wirtschaftlich motivierte Steuerung von Informationsflüssen demokratische Prozesse gefährden kann.\n\nLetztlich bleibt die Frage offen, wie ein Gleichgewicht zwischen wirtschaftlichen Interessen der Unternehmen und dem gesellschaftlichen Bedürfnis nach Transparenz gefunden werden kann. Es wird vermutet, dass zukünftige Gesetzgebungen, wie sie bereits in Teilen der Europäischen Union diskutiert werden, strengere Vorgaben für die Offenlegung algorithmischer Entscheidungsprozesse einführen könnten.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen in sozialen Netzwerken bevorzugen oft emotional aufwühlende Inhalte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Plattformbetreiber legen ihre Algorithmen meist vollständig offen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Wissenschaftler fordern eine gesetzliche Regulierung der Algorithmen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter der aktuellen Praxis sehen keine Vorteile in personalisierten Inhalten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In der EU werden strengere Vorgaben für algorithmische Transparenz diskutiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-des-lokaljournalismus",
+    "nivel": "B2",
+    "titulo": "Der Wandel des Lokaljournalismus",
+    "descripcion": "Eine Analyse darüber, wie der Lokaljournalismus durch digitale Medien unter Druck gerät und sich neu erfinden muss.",
+    "texto": "Der Lokaljournalismus, der über Jahrzehnte als verlässliche Informationsquelle für lokale Ereignisse galt, befindet sich seit einigen Jahren in einer tiefgreifenden Krise. Immer mehr kleine Zeitungsredaktionen, die früher über Gemeinderatssitzungen und lokale Vereine berichteten, mussten aus wirtschaftlichen Gründen geschlossen werden. Als Hauptursache wird häufig der Rückgang der Werbeeinnahmen genannt, die zunehmend an große, überregional agierende Online-Plattformen abfließen.\n\nWürde der Lokaljournalismus vollständig verschwinden, hätte dies weitreichende Folgen für die demokratische Teilhabe vor Ort. Ohne eine unabhängige Berichterstattung über kommunalpolitische Entscheidungen könnten Bürgerinnen und Bürger wichtige Informationen verpassen, die ihr unmittelbares Umfeld betreffen. Experten warnen zudem davor, dass in sogenannten „Nachrichten-Wüsten“ Desinformation leichter verbreitet werden kann, da keine etablierten Redaktionen mehr vor Ort recherchieren.\n\nAngesichts dieser Entwicklung experimentieren viele Redaktionen mit neuen, digital ausgerichteten Geschäftsmodellen. Manche setzen auf Mitgliedschaftsmodelle, bei denen Leserinnen und Leser freiwillig für hochwertigen Journalismus bezahlen, während andere von Stiftungen oder gemeinnützigen Organisationen unterstützt werden. Es bleibt jedoch fragwürdig, ob diese alternativen Finanzierungsformen ausreichen werden, um die entstandenen Lücken in der lokalen Berichterstattung vollständig zu schließen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Lokaljournalismus befindet sich aktuell in einer stabilen Phase.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Rückgang der Werbeeinnahmen wird als Hauptursache der Krise genannt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Experten sehen keinen Zusammenhang zwischen schwindendem Lokaljournalismus und Desinformation.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Redaktionen setzen auf Mitgliedschaftsmodelle zur Finanzierung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle neuen Finanzierungsmodelle haben die Probleme des Lokaljournalismus bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-ueberwachung-am-arbeitsplatz",
+    "nivel": "B2",
+    "titulo": "Die Überwachung am Arbeitsplatz",
+    "descripcion": "Ein Text über die zunehmende digitale Überwachung von Angestellten und die ethischen Fragen, die damit verbunden sind.",
+    "texto": "In vielen Unternehmen wird mittlerweile eine Vielzahl digitaler Werkzeuge eingesetzt, mit denen die Produktivität der Angestellten gemessen werden kann. Von der Auswertung der Tastaturanschläge bis hin zur Analyse des E-Mail-Verkehrs reicht das Spektrum der Überwachungsmethoden, die von manchen Arbeitgebern mittlerweile als selbstverständlich betrachtet werden. Befürworter dieser Praxis argumentieren, dass dadurch Ineffizienzen innerhalb von Arbeitsabläufen aufgedeckt und behoben werden könnten.\n\nGleichzeitig wird jedoch zunehmend kritisiert, dass eine derart umfassende Überwachung das Vertrauensverhältnis zwischen Arbeitgebern und Arbeitnehmern nachhaltig beschädigen könnte. Wenn Angestellte das Gefühl hätten, ständig kontrolliert zu werden, würde dies vermutlich zu erhöhtem Stress und einer sinkenden Arbeitszufriedenheit führen. Arbeitsrechtsexperten weisen zudem darauf hin, dass in vielen Ländern strenge gesetzliche Vorgaben existieren, die den Umfang einer zulässigen Überwachung deutlich einschränken.\n\nHinzu kommt, dass die gesammelten Daten, sofern sie nicht ausreichend geschützt werden, auch für andere Zwecke missbraucht werden könnten, etwa zur gezielten Diskriminierung einzelner Mitarbeitergruppen. Sollten Unternehmen auf eine transparente Kommunikation über die eingesetzten Überwachungsmethoden verzichten, würde dies das Misstrauen der Belegschaft weiter verstärken. Aus diesem Grund fordern Arbeitnehmervertretungen, dass jede Form der digitalen Überwachung klar begründet und von den Mitarbeitenden mitbestimmt werden sollte.\n\nLetztlich zeigt sich, dass technologischer Fortschritt am Arbeitsplatz zwar neue Möglichkeiten zur Effizienzsteigerung bietet, gleichzeitig aber auch verantwortungsvoll eingesetzt werden muss, damit die Würde und die Privatsphäre der Angestellten gewahrt bleiben. Ein ausgewogenes Verhältnis zwischen unternehmerischen Interessen und individuellen Rechten dürfte auch in Zukunft eine zentrale Herausforderung der Arbeitswelt bleiben.",
+    "preguntas": [
+      {
+        "enunciado": "Manche Unternehmen analysieren den E-Mail-Verkehr ihrer Angestellten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Arbeitsrechtsexperten befürworten eine unbegrenzte Überwachung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Übermäßige Kontrolle kann zu erhöhtem Stress bei Angestellten führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Gesammelte Überwachungsdaten können theoretisch für Diskriminierung missbraucht werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Arbeitnehmervertretungen fordern, dass Überwachung ohne jede Begründung erlaubt sein sollte.",
+        "respuesta": false
+      }
+    ]
   }
 ]
