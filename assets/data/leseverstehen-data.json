@@ -81206,5 +81206,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "fruehstueck-mit-opa-heinrich",
+    "nivel": "A1",
+    "titulo": "Frühstück mit Opa Heinrich",
+    "descripcion": "Jeden Sonntag frühstückt Lukas mit seinem Opa Heinrich.",
+    "texto": "Lukas besucht jeden Sonntag seinen Opa Heinrich. Sie frühstücken zusammen in der kleinen Küche. Opa Heinrich macht immer frische Brötchen und kocht Kaffee. Lukas trinkt lieber Kakao mit viel Milch.\n\nNach dem Frühstück gehen sie oft im Park spazieren. Opa Heinrich erzählt gern Geschichten aus seiner Kindheit. „Früher hatten wir kein Fernsehen“, sagt er oft. Lukas hört immer aufmerksam zu. Am Ende des Besuchs gibt Opa Heinrich seinem Enkel ein Stück Kuchen für zu Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas besucht seinen Opa jeden Samstag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa Heinrich macht frische Brötchen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas trinkt gern Kaffee.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Frühstück gehen sie spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa Heinrich erzählt nie Geschichten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-blaue-fahrradhelm",
+    "nivel": "A1",
+    "titulo": "Der blaue Fahrradhelm",
+    "descripcion": "Finn bekommt einen neuen Fahrradhelm und fährt damit zur Schule.",
+    "texto": "Finn hat einen neuen Fahrradhelm. Der Helm ist blau und hat einen gelben Stern. Finn trägt den Helm jeden Tag auf dem Weg zur Schule. Seine Mutter sagt: „Ein Helm ist sehr wichtig!“\n\nAm Montag fährt Finn mit seinem Freund Ben zur Schule. Ben hat noch keinen Helm. Finn gibt Ben Tipps, wie man einen passenden Helm findet. Am Nachmittag kaufen die beiden zusammen einen roten Helm für Ben. Jetzt tragen beide Jungen einen Helm.",
+    "preguntas": [
+      {
+        "enunciado": "Finns Helm ist grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn trägt den Helm jeden Tag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ben hat schon einen eigenen Helm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn und Ben kaufen zusammen einen Helm für Ben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Ende trägt nur Finn einen Helm.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "tims-geburtstagsparty",
+    "nivel": "A1",
+    "titulo": "Tims Geburtstagsparty",
+    "descripcion": "Tim wird acht Jahre alt und feiert mit seinen Freunden eine Party.",
+    "texto": "Heute wird Tim acht Jahre alt. Seine Eltern organisieren eine Geburtstagsparty im Garten. Viele Freunde kommen mit Geschenken. Es gibt einen großen Schokoladenkuchen mit acht Kerzen.\n\nDie Kinder spielen Fußball und tanzen zu lauter Musik. Tims beste Freundin Mia schenkt ihm ein neues Buch. „Vielen Dank, das ist toll!“, ruft Tim. Am Ende des Tages sind alle Kinder müde, aber sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Tim wird acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Party findet im Wohnzimmer statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es gibt keinen Kuchen auf der Party.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia schenkt Tim ein Buch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder sind am Ende traurig.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-zahnarzttermin-von-nina",
+    "nivel": "A2",
+    "titulo": "Der Zahnarzttermin von Nina",
+    "descripcion": "Nina hat Angst vor dem Zahnarzt, aber der Besuch verläuft besser als erwartet.",
+    "texto": "Nina hatte seit Wochen Angst vor ihrem Zahnarzttermin, weil sie sich vor der Behandlung fürchtete. Am Mittwochmorgen ist sie mit ihrer Mutter in die Praxis gegangen. Im Wartezimmer hat sie ein Buch gelesen, um sich abzulenken.\n\nAls die Zahnärztin sie gerufen hat, war Nina sehr nervös. Die Ärztin hat ihr erklärt, dass sie nur die Zähne kontrollieren wird. Nachdem die Untersuchung beendet war, hat die Zahnärztin gesagt, dass Ninas Zähne sehr gesund sind. Nina hat sich gefreut, dass alles so gut verlaufen ist. Zur Belohnung hat ihre Mutter ihr ein Eis gekauft.",
+    "preguntas": [
+      {
+        "enunciado": "Nina hatte keine Angst vor dem Zahnarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina ist allein zum Zahnarzt gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin hat nur die Zähne kontrolliert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Ninas Zähne sind nicht gesund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nina hat zur Belohnung ein Eis bekommen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "eine-postkarte-aus-der-toskana",
+    "nivel": "A2",
+    "titulo": "Eine Postkarte aus der Toskana",
+    "descripcion": "Laura schreibt ihrer besten Freundin eine Postkarte aus ihrem Urlaub in Italien.",
+    "texto": "Liebe Sarah,\n\nich bin seit drei Tagen mit meiner Familie in der Toskana und es ist wunderschön hier. Wir haben schon ein kleines Dorf besucht, das auf einem Hügel liegt. Weil es so heiß war, haben wir am Nachmittag ein Eis gegessen.\n\nGestern sind wir zu einem alten Schloss gefahren und haben viele Fotos gemacht. Mein Vater hat dort auch leckeren italienischen Wein probiert. Ich vermisse dich und freue mich, dir bald alles persönlich zu erzählen.\n\nBis bald,\nLaura",
+    "preguntas": [
+      {
+        "enunciado": "Laura ist allein in der Toskana.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura ist schon seit drei Tagen in Italien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat ein Dorf auf einem Hügel besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es war sehr kalt in der Toskana.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Laura hat Sarah nicht geschrieben.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-neue-nachbar-herr-lopez",
+    "nivel": "A2",
+    "titulo": "Der neue Nachbar, Herr López",
+    "descripcion": "Familie Weber lernt ihren neuen spanischen Nachbarn kennen.",
+    "texto": "Letzten Monat ist Herr López aus Spanien in die Wohnung neben Familie Weber gezogen. Weil er noch nicht viele Leute in der Stadt kannte, hat er sich zuerst ein bisschen einsam gefühlt. Frau Weber hat ihn eines Tages zum Kaffee eingeladen, um ihn besser kennenzulernen.\n\nHerr López hat erzählt, dass er wegen seiner Arbeit nach Deutschland gekommen ist. Er hat auch von seiner Heimatstadt Valencia berichtet und Fotos vom Meer gezeigt. Familie Weber hat sich sehr für seine Geschichten interessiert. Seitdem besuchen sich die Nachbarn regelmäßig und Herr López fühlt sich nicht mehr so allein.",
+    "preguntas": [
+      {
+        "enunciado": "Herr López kommt aus Frankreich.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr López hat sich zuerst einsam gefühlt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Weber hat Herrn López nie eingeladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr López ist wegen der Arbeit nach Deutschland gekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Nachbarn besuchen sich nie wieder.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-schulauffuehrung-von-romeo-und-julia",
+    "nivel": "B1",
+    "titulo": "Die Schulaufführung von „Romeo und Julia“",
+    "descripcion": "Eine Theatergruppe der Schule bereitet monatelang eine Aufführung von Shakespeares Drama vor.",
+    "texto": "Seit September probt die Theatergruppe des Gymnasiums für ihre große Aufführung von „Romeo und Julia“. Obwohl viele Schüler noch nie auf einer Bühne gestanden hatten, haben sie sich mit viel Eifer auf ihre Rollen vorbereitet. Besonders die Hauptdarstellerin Clara musste zahlreiche Texte lernen und abends oft bis spät üben.\n\nNachdem die Generalprobe fast gescheitert war, weil das Bühnenbild zusammengebrochen war, hat die Technik-AG in letzter Minute alles reparieren können. Am Abend der Premiere war die Aula bis auf den letzten Platz gefüllt. Trotz der anfänglichen Nervosität haben die Schauspieler ihre Texte fehlerlos vorgetragen.\n\nAm Ende der Vorstellung hat das Publikum minutenlang applaudiert. Die Lehrerin, die das Projekt geleitet hatte, war sichtlich gerührt und stolz auf ihre Schüler. Viele Eltern sagten später, dass sie von der Leistung der Jugendlichen überrascht gewesen seien.",
+    "preguntas": [
+      {
+        "enunciado": "Die Theatergruppe hat seit September geprobt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Schüler hatten schon viel Bühnenerfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Generalprobe ist perfekt verlaufen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Aula war bei der Premiere fast leer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Publikum hat am Ende applaudiert.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-praktikum-in-einer-werbeagentur",
+    "nivel": "B1",
+    "titulo": "Ein Praktikum in einer Werbeagentur",
+    "descripcion": "Julia sammelt während eines zweiwöchigen Praktikums erste Erfahrungen im Berufsleben.",
+    "texto": "Julia hat ein zweiwöchiges Praktikum bei einer kleinen Werbeagentur in Frankfurt begonnen. Am ersten Tag war sie sehr nervös, weil sie nicht wusste, was sie erwarten würde. Nachdem ihr Chef ihr das Team vorgestellt hatte, fühlte sie sich jedoch schnell wohler.\n\nIn den ersten Tagen durfte Julia vor allem bei Besprechungen zuhören und Notizen machen. Später hat man ihr erlaubt, an einem kleinen Projekt für einen Kunden mitzuarbeiten. Obwohl die Arbeit manchmal stressig war, hat Julia viel über Teamarbeit und Kreativität gelernt.\n\nAm letzten Tag des Praktikums hat ihr Team eine kleine Abschiedsfeier organisiert. Ihr Chef hat ihr gesagt, dass sie sich gerne wieder bei der Agentur bewerben könne. Julia ist überzeugt, dass dieses Praktikum ihr bei der Berufswahl sehr geholfen hat.",
+    "preguntas": [
+      {
+        "enunciado": "Julias Praktikum hat einen Monat gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia war am ersten Tag nervös.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Julia durfte nie an einem Projekt mitarbeiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Arbeit war für Julia immer entspannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Julia könnte sich wieder bei der Agentur bewerben.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "wiedersehen-nach-zehn-jahren",
+    "nivel": "B1",
+    "titulo": "Wiedersehen nach zehn Jahren",
+    "descripcion": "Zwei alte Schulfreunde treffen sich nach langer Zeit zufällig wieder und erinnern sich an ihre Jugend.",
+    "texto": "Markus und Daniel waren in der Schulzeit die besten Freunde, haben sich aber nach dem Abitur aus den Augen verloren. Nachdem beide ihr Studium in verschiedenen Städten begonnen hatten, haben sie sich kaum noch geschrieben. Zehn Jahre später sind sie sich zufällig auf einem Konzert in Köln wiederbegegnet.\n\nObwohl sie sich am Anfang etwas fremd fühlten, haben sie schnell wieder einen vertrauten Ton gefunden. Sie haben die ganze Nacht über alte Erinnerungen und ihre neuen Leben gesprochen. Markus arbeitet inzwischen als Ingenieur, während Daniel eine eigene Firma gegründet hat.\n\nAm Ende des Abends haben beide beschlossen, sich nicht wieder aus den Augen zu verlieren. Sie haben vereinbart, sich künftig regelmäßig zu treffen, trotz ihrer unterschiedlichen Wohnorte. Für beide war dieses Wiedersehen ein echtes Geschenk.",
+    "preguntas": [
+      {
+        "enunciado": "Markus und Daniel waren in der Schulzeit beste Freunde.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie haben sich nach dem Abitur regelmäßig getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie sind sich auf einem Konzert wiederbegegnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Daniel arbeitet als Ingenieur.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben beschlossen, sich nie wieder zu treffen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-die-bildungsreform",
+    "nivel": "B2",
+    "titulo": "Die Debatte um die Bildungsreform",
+    "descripcion": "Eine kontroverse Bildungsreform sorgt für hitzige Diskussionen zwischen Politik, Lehrerverbänden und Eltern.",
+    "texto": "Die geplante Bildungsreform, die von der Kultusministerkonferenz vorgeschlagen wurde, sorgt derzeit für erhebliche gesellschaftliche Debatten. Kernpunkt der Reform ist eine stärkere Vereinheitlichung der Lehrpläne zwischen den Bundesländern, die bisher für ihre eigene Bildungspolitik verantwortlich sind. Befürworter argumentieren, dass Schüler, die innerhalb Deutschlands umziehen, von einheitlicheren Standards profitieren würden.\n\nKritiker hingegen bemängeln, dass eine zentrale Steuerung des Bildungssystems die regionale Vielfalt gefährden könnte. Besonders Lehrerverbände warnen davor, dass pädagogisch sinnvolle, lokal entwickelte Konzepte durch die Reform verdrängt werden könnten. Wenn die Reform ohne ausreichende Beteiligung der Lehrkräfte umgesetzt würde, befürchten viele, dass die Akzeptanz in den Schulen gering bleiben würde.\n\nElternverbände sind in der Frage gespalten. Manche begrüßen die Reform, weil sie sich mehr Vergleichbarkeit der Abschlüsse erhoffen, während andere fürchten, dass bewährte, auf die jeweilige Region zugeschnittene Förderprogramme verschwinden könnten. Die endgültige Entscheidung über die Reform soll im kommenden Jahr fallen, nachdem weitere Anhörungen mit Experten und Verbänden stattgefunden haben.",
+    "preguntas": [
+      {
+        "enunciado": "Die Bildungsreform zielt auf eine stärkere Vereinheitlichung der Lehrpläne ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Lehrerverbände unterstützen die Reform ohne Vorbehalte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass die regionale Vielfalt gefährdet werden könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Elternverbände sind sich in dieser Frage vollkommen einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Entscheidung über die Reform ist bereits endgültig gefallen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "klimapolitik-zwischen-ambition-und-umsetzung",
+    "nivel": "B2",
+    "titulo": "Klimapolitik zwischen Ambition und Umsetzung",
+    "descripcion": "Trotz ambitionierter Klimaziele hapert es in Deutschland oft an der praktischen Umsetzung konkreter Maßnahmen.",
+    "texto": "Deutschland hat sich ambitionierte Klimaziele gesetzt, die eine deutliche Reduzierung der Treibhausgasemissionen bis zum Jahr 2030 vorsehen. In der politischen Debatte wird jedoch zunehmend bemängelt, dass zwischen den formulierten Zielen und der tatsächlichen Umsetzung eine erhebliche Lücke besteht. Besonders im Verkehrs- und Gebäudesektor werden die gesetzten Zwischenziele regelmäßig verfehlt.\n\nExperten weisen darauf hin, dass notwendige Maßnahmen, etwa der beschleunigte Ausbau erneuerbarer Energien oder eine umfassende energetische Sanierung von Gebäuden, bislang nur schleppend vorangetrieben werden. Wenn die Investitionen in diesen Bereichen deutlich erhöht würden, könnten die Klimaziele nach Ansicht vieler Fachleute durchaus noch erreicht werden. Bislang scheitern viele Projekte jedoch an langwierigen Genehmigungsverfahren und einem Mangel an Fachkräften.\n\nUmweltverbände fordern daher eine deutliche Beschleunigung der Klimapolitik und kritisieren, dass kurzfristige wirtschaftliche Interessen häufig Vorrang vor langfristigem Klimaschutz erhalten. Die Bundesregierung verweist hingegen auf bereits beschlossene Förderprogramme, deren Wirkung sich erst in den kommenden Jahren vollständig zeigen werde. Wie sich die Lücke zwischen Anspruch und Wirklichkeit schließen lässt, bleibt eine der zentralen Fragen der deutschen Klimapolitik.",
+    "preguntas": [
+      {
+        "enunciado": "Deutschland hat keine konkreten Klimaziele formuliert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Verkehrssektor werden die Zwischenziele oft verfehlt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Ausbau erneuerbarer Energien verläuft laut Experten schneller als geplant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lange Genehmigungsverfahren erschweren viele Klimaschutzprojekte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Umweltverbände sind mit dem aktuellen Tempo der Klimapolitik vollkommen zufrieden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "staendige-erreichbarkeit-im-homeoffice",
+    "nivel": "B2",
+    "titulo": "Ständige Erreichbarkeit im Homeoffice",
+    "descripcion": "Die Verbreitung des Homeoffice verwischt zunehmend die Grenze zwischen Arbeit und Privatleben.",
+    "texto": "Seit der verstärkten Nutzung von Homeoffice-Modellen hat sich die Grenze zwischen Arbeits- und Privatleben für viele Beschäftigte zunehmend verwischt. Während das Arbeiten von zu Hause aus mehr Flexibilität ermöglicht, berichten zahlreiche Arbeitnehmer davon, dass von ihnen eine ständige Erreichbarkeit erwartet werde, selbst außerhalb der regulären Arbeitszeiten.\n\nArbeitspsychologen weisen darauf hin, dass diese permanente Verfügbarkeit langfristig zu erhöhtem Stress und, in manchen Fällen, zu Erschöpfungszuständen führen könne. Wenn klare Regeln zur Erreichbarkeit vereinbart würden, ließe sich dieses Risiko deutlich reduzieren. Einige Unternehmen haben bereits begonnen, feste Zeiten einzuführen, in denen E-Mails nach Feierabend nicht mehr beantwortet werden müssen.\n\nGewerkschaften fordern seit Jahren ein gesetzlich verankertes Recht auf Nichterreichbarkeit, wie es in einigen europäischen Ländern bereits existiert. Arbeitgeberverbände hingegen argumentieren, dass pauschale gesetzliche Regelungen der Vielfalt moderner Arbeitsmodelle nicht gerecht würden. Die Debatte darüber, wie Flexibilität und Erholung in Zukunft besser miteinander vereinbart werden können, dürfte die Arbeitswelt noch lange beschäftigen.",
+    "preguntas": [
+      {
+        "enunciado": "Homeoffice hat die Grenze zwischen Arbeit und Privatleben klarer gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Arbeitnehmer fühlen sich auch außerhalb der Arbeitszeit zur Erreichbarkeit verpflichtet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Arbeitspsychologen sehen in ständiger Erreichbarkeit kein gesundheitliches Risiko.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Unternehmen haben feste Zeiten ohne E-Mail-Pflicht eingeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Arbeitgeberverbände befürworten ein gesetzliches Recht auf Nichterreichbarkeit.",
+        "respuesta": false
+      }
+    ]
   }
 ]
