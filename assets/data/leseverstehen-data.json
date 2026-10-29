@@ -79814,5 +79814,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "lisas-hund-bruno",
+    "nivel": "A1",
+    "titulo": "Lisas Hund Bruno",
+    "descripcion": "Lisa erzählt von ihrem Hund und ihrem Tagesplan mit ihm.",
+    "texto": "Ich heiße Lisa und ich habe einen Hund. Er heißt Bruno und ist drei Jahre alt. Bruno ist klein und braun. Er spielt gern im Garten.\n\nJeden Morgen gehe ich mit Bruno spazieren. Wir gehen zum Park um die Ecke. Dort trifft Bruno andere Hunde. Er ist sehr freundlich. Nach dem Spaziergang isst Bruno sein Futter.\n\nAm Abend schläft Bruno neben meinem Bett. Mein Bruder möchte auch einen Hund, aber unsere Wohnung ist zu klein. Bruno ist mein bester Freund.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa hat eine Katze.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno ist drei Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa geht jeden Morgen mit Bruno spazieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno isst sein Futter vor dem Spaziergang.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bruno schläft im Garten.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-tag-auf-dem-markt",
+    "nivel": "A1",
+    "titulo": "Ein Tag auf dem Markt",
+    "descripcion": "Paul kauft Obst und Gemüse auf dem Wochenmarkt.",
+    "texto": "Jeden Samstag geht Paul auf den Markt. Der Markt ist in der Stadtmitte. Dort gibt es viel Obst und Gemüse. Paul kauft Äpfel, Tomaten und Karotten.\n\nAn einem Stand verkauft eine Frau frisches Brot. Paul fragt: „Wie viel kostet das Brot?“ Die Frau antwortet: „Zwei Euro fünfzig.“ Paul kauft ein Brot und ein Stück Käse.\n\nNach dem Einkauf trinkt Paul einen Kaffee in einem Café. Der Markt ist um vierzehn Uhr zu Ende. Paul geht mit seiner Tasche nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht jeden Samstag auf den Markt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Markt ist in einem Supermarkt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul kauft kein Brot.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Brot kostet zwei Euro fünfzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul trinkt zu Hause einen Kaffee.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mia-und-die-farbe-blau",
+    "nivel": "A1",
+    "titulo": "Mia und die Farbe Blau",
+    "descripcion": "Mia beschreibt ihre Lieblingsfarbe und ihre Kleidung.",
+    "texto": "Mia mag die Farbe Blau. Ihr Zimmer ist blau. Ihre Jacke ist auch blau. Sie trägt oft blaue Schuhe.\n\nIhr Bruder Tim mag Rot. Er hat ein rotes Fahrrad. Die Geschwister haben verschiedene Lieblingsfarben, aber sie spielen gern zusammen. Am Wochenende malen sie Bilder.\n\nMia malt einen blauen Himmel. Tim malt ein rotes Auto. Die Mutter hängt die Bilder in die Küche.",
+    "preguntas": [
+      {
+        "enunciado": "Mias Lieblingsfarbe ist Blau.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tims Fahrrad ist grün.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia und Tim haben die gleiche Lieblingsfarbe.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Wochenende malen die Kinder Bilder.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Mutter hängt die Bilder ins Schlafzimmer.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "familie-brandt-zieht-nach-rostock",
+    "nivel": "A2",
+    "titulo": "Familie Brandt zieht nach Rostock",
+    "descripcion": "Familie Brandt ist nach Rostock umgezogen und berichtet von den ersten Tagen.",
+    "texto": "Letzten Monat ist Familie Brandt nach Rostock umgezogen. Der Vater hat dort eine neue Stelle gefunden. Die Kinder waren zuerst traurig, weil sie ihre Freunde in der alten Stadt zurücklassen mussten.\n\nAm ersten Tag in der neuen Wohnung haben sie viele Kisten ausgepackt. Die Mutter hat die Küche eingerichtet, während die Kinder ihre Zimmer gestrichen haben. Am Abend sind sie alle müde ins Bett gegangen.\n\nNach ein paar Wochen haben die Kinder neue Freunde in der Schule gefunden. Sie haben auch den Park in der Nähe entdeckt, wo sie Fahrrad fahren können. Jetzt gefällt es der Familie in Rostock sehr gut.",
+    "preguntas": [
+      {
+        "enunciado": "Familie Brandt ist nach Rostock umgezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater hat in Rostock keine Arbeit gefunden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter hat die Zimmer der Kinder gestrichen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder haben nach einigen Wochen neue Freunde gefunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Familie gefällt es in Rostock nicht.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "sophies-brief-von-der-ostsee",
+    "nivel": "A2",
+    "titulo": "Sophies Brief von der Ostsee",
+    "descripcion": "Sophie schreibt ihrer Oma einen Brief über ihre letzten Ferien.",
+    "texto": "Liebe Oma,\n\nich hoffe, dass es dir gut geht. Ich wollte dir erzählen, was ich in den Sommerferien gemacht habe. Wir sind mit dem Zug an die Ostsee gefahren und haben eine Woche in einer kleinen Ferienwohnung gewohnt. Das Wetter war meistens schön, obwohl es an zwei Tagen geregnet hat.\n\nAm Strand habe ich mit meinem Bruder eine große Sandburg gebaut. Danach sind wir ins Wasser gegangen, auch wenn es ziemlich kalt war. Abends haben wir oft Fisch gegessen, weil es in dem Ort ein sehr gutes Restaurant gab.\n\nIch vermisse dich und möchte dich bald besuchen. Vielleicht kannst du mit uns das nächste Mal an die Ostsee fahren.\n\nViele liebe Grüße,\nSophie",
+    "preguntas": [
+      {
+        "enunciado": "Sophie ist mit dem Auto an die Ostsee gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat an zwei Tagen geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie hat am Strand eine Sandburg gebaut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wasser war sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie möchte ihre Oma bald besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "beim-arzt-im-krankenhaus",
+    "nivel": "A2",
+    "titulo": "Beim Arzt im Krankenhaus",
+    "descripcion": "Herr Koch hat sich beim Sport verletzt und muss ins Krankenhaus.",
+    "texto": "Gestern hat sich Herr Koch beim Fußballspielen das Bein verletzt. Weil die Schmerzen sehr stark waren, ist seine Frau mit ihm ins Krankenhaus gefahren. Dort haben sie lange im Wartezimmer gesessen.\n\nEin Arzt hat das Bein untersucht und ein Röntgenbild gemacht. Zum Glück war der Knochen nicht gebrochen, sondern nur verdreht. Der Arzt hat gesagt, dass Herr Koch zwei Wochen keinen Sport machen darf.\n\nHerr Koch war etwas enttäuscht, weil er gern Fußball spielt. Trotzdem hat er sich an die Regeln gehalten und das Bein geschont. Nach zwei Wochen konnte er wieder schmerzfrei laufen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Koch hat sich beim Schwimmen verletzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Frau ist mit ihm ins Krankenhaus gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Knochen war gebrochen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Koch durfte zwei Wochen keinen Sport machen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach zwei Wochen konnte Herr Koch wieder schmerzfrei laufen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "schulklasse-erkundet-berlin",
+    "nivel": "B1",
+    "titulo": "Schulklasse erkundet Berlin",
+    "descripcion": "Eine Schulklasse besucht Berlin und erlebt dort spannende Tage.",
+    "texto": "Nachdem die Schüler monatelang auf die Klassenfahrt gewartet hatten, ging es endlich los: Ziel war Berlin. Die Klasse fuhr mit dem Nachtzug, sodass die Schüler müde, aber aufgeregt am frühen Morgen in der Hauptstadt ankamen. Obwohl das Hostel sehr einfach war, freuten sich alle auf die nächsten Tage.\n\nAm ersten Tag besuchten sie das Brandenburger Tor und den Reichstag. Der Lehrer erklärte die Geschichte der Teilung Deutschlands, was viele Schüler sehr beeindruckte. Trotzdem war den meisten die Berliner Mauer-Gedenkstätte am wichtigsten, weil sie dort persönliche Geschichten von Flüchtenden lasen.\n\nAm letzten Abend organisierten die Schüler eine kleine Abschlussfeier im Hostel. Nachdem sie Musik gehört und Pizza gegessen hatten, erzählten sich alle, was ihnen am meisten gefallen hatte. Die Klassenfahrt blieb den Schülern noch lange in Erinnerung, obwohl die Rückfahrt im Zug sehr anstrengend war.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse fuhr mit dem Flugzeug nach Berlin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Hostel war sehr luxuriös.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler besuchten das Brandenburger Tor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Berliner Mauer-Gedenkstätte war für viele Schüler besonders wichtig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am letzten Abend gab es keine gemeinsame Feier.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "anna-und-clara-bleiben-freundinnen",
+    "nivel": "B1",
+    "titulo": "Anna und Clara bleiben Freundinnen",
+    "descripcion": "Zwei Freundinnen pflegen ihre Freundschaft, obwohl sie in verschiedenen Städten leben.",
+    "texto": "Anna und Clara sind seit der Schulzeit beste Freundinnen. Nachdem Clara vor zwei Jahren wegen eines Studienplatzes nach München gezogen war, befürchteten beide, dass ihre Freundschaft darunter leiden könnte. Trotzdem haben sie einen Weg gefunden, in Kontakt zu bleiben.\n\nJede Woche telefonieren die beiden mindestens einmal und erzählen sich, was im Alltag passiert ist. Obwohl sie unterschiedliche Leben führen, Anna arbeitet in einem Büro, Clara studiert noch, finden sie immer Themen, über die sie stundenlang sprechen können. Zusätzlich schreiben sie sich fast täglich kurze Nachrichten.\n\nEinmal im Jahr versuchen Anna und Clara, sich persönlich zu treffen, meistens in den Semesterferien. Nachdem sie sich getroffen haben, fühlt es sich für beide an, als wäre keine Zeit vergangen. Diese Freundschaft zeigt, dass Entfernung keine Freundschaft zerstören muss, solange beide Seiten sich bemühen.",
+    "preguntas": [
+      {
+        "enunciado": "Anna und Clara kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara ist wegen eines Studienplatzes nach München gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden telefonieren nie miteinander.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie treffen sich etwa einmal im Jahr persönlich.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach den Treffen fühlt es sich an, als wäre viel Zeit vergangen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-kulturfestival-in-der-stadt",
+    "nivel": "B1",
+    "titulo": "Ein Kulturfestival in der Stadt",
+    "descripcion": "Eine Kleinstadt veranstaltet erstmals ein großes Kulturfestival mit Musik und Kunst.",
+    "texto": "In diesem Jahr fand in der Kleinstadt Hainberg zum ersten Mal ein großes Kulturfestival statt. Obwohl viele Einwohner zunächst skeptisch waren, ob ein solches Event in einer so kleinen Stadt funktionieren würde, kamen am Ende mehr Besucher als erwartet. Nachdem die Organisatoren monatelang geplant hatten, war der Erfolg eine große Erleichterung.\n\nAuf dem Marktplatz traten lokale Bands auf, während in der alten Fabrikhalle Künstler ihre Werke ausstellten. Besonders beliebt war ein Workshop, in dem Kinder und Erwachsene gemeinsam Skulpturen aus recyceltem Material bauten. Trotzdem gab es auch kritische Stimmen, die sich über den Lärm bis in die späten Abendstunden beschwerten.\n\nAm Ende des Wochenendes waren sich die meisten Einwohner einig, dass das Festival wiederholt werden sollte. Die Stadtverwaltung kündigte bereits an, im nächsten Jahr ein noch größeres Programm zu planen, nachdem sie das positive Feedback der Bevölkerung ausgewertet hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Das Kulturfestival fand bereits zum zehnten Mal statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mehr Besucher kamen als erwartet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Auf dem Marktplatz traten lokale Bands auf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Einwohner waren mit dem Lärm zufrieden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Stadtverwaltung plant kein weiteres Festival.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-zukunft-der-arbeit-im-digitalen-zeitalter",
+    "nivel": "B2",
+    "titulo": "Die Zukunft der Arbeit im digitalen Zeitalter",
+    "descripcion": "Ein Essay über die Auswirkungen der Digitalisierung auf traditionelle Arbeitsplätze.",
+    "texto": "Die Digitalisierung verändert die Arbeitswelt in einem Tempo, das vor wenigen Jahrzehnten kaum vorstellbar gewesen wäre. Immer mehr Tätigkeiten, die früher ausschließlich von Menschen ausgeführt wurden, könnten in naher Zukunft automatisiert werden. Während einige Ökonomen betonen, dass dadurch neue Berufsfelder entstehen würden, warnen andere davor, dass bestimmte Branchen massive Arbeitsplatzverluste erleiden könnten, ohne dass ein gleichwertiger Ersatz geschaffen wird.\n\nBesonders betroffen wären Berufe, die aus wiederholbaren und klar definierten Aufgaben bestehen, etwa in der Produktion oder in der Buchhaltung. Wenn Unternehmen weiterhin verstärkt in künstliche Intelligenz investierten, müssten Arbeitnehmer bereit sein, sich kontinuierlich weiterzubilden, um mit den technologischen Entwicklungen Schritt zu halten. Andernfalls bestünde die Gefahr, dass eine wachsende Gruppe von Menschen den Anschluss an den Arbeitsmarkt verliert.\n\nAndererseits sollte nicht vergessen werden, dass technologischer Wandel historisch gesehen stets auch Chancen mit sich gebracht hat. Es wäre daher sinnvoll, wenn Politik und Wirtschaft gemeinsam Strategien entwickelten, mit denen der Übergang sozial abgefedert werden könnte, etwa durch gezielte Umschulungsprogramme. Nur so ließe sich verhindern, dass die digitale Transformation zu einer tiefen gesellschaftlichen Spaltung führt.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text verändert die Digitalisierung die Arbeitswelt sehr langsam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Alle Ökonomen sind sich einig, dass nur Vorteile entstehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Besonders betroffen sind Berufe mit wiederholbaren, klar definierten Aufgaben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text empfiehlt kontinuierliche Weiterbildung für Arbeitnehmer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sieht im technologischen Wandel ausschließlich eine Bedrohung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "steigende-mieten-in-deutschen-grossstaedten",
+    "nivel": "B2",
+    "titulo": "Steigende Mieten in deutschen Großstädten",
+    "descripcion": "Eine Analyse der steigenden Mietpreise und ihrer gesellschaftlichen Folgen in deutschen Großstädten.",
+    "texto": "In zahlreichen deutschen Großstädten hat sich die Wohnungsnot in den vergangenen Jahren zu einem der dringendsten sozialen Probleme entwickelt. Während die Mietpreise kontinuierlich steigen, hält das Angebot an bezahlbarem Wohnraum mit der wachsenden Nachfrage längst nicht mehr Schritt. Besonders junge Familien und Studierende, die über ein begrenztes Einkommen verfügen, werden zunehmend aus den Innenstädten verdrängt.\n\nViele Experten führen die Ursachen auf eine Kombination verschiedener Faktoren zurück: zum einen wurde über Jahre zu wenig sozialer Wohnungsbau gefördert, zum anderen hat die Attraktivität vieler Städte als Investitionsstandort dazu geführt, dass Immobilien verstärkt als Kapitalanlage betrachtet werden. Wäre in der Vergangenheit stärker in öffentlich geförderten Wohnraum investiert worden, befände sich der Markt heute vermutlich in einer stabileren Lage.\n\nAls mögliche Lösungsansätze werden unter anderem strengere Mietpreisbremsen, eine Reform des Baurechts und eine Ausweitung der Fördermittel für den Neubau diskutiert. Kritiker solcher Maßnahmen geben allerdings zu bedenken, dass zu starke Regulierung private Investoren abschrecken und somit den Wohnungsbau zusätzlich verlangsamen könnte. Letztlich wird deutlich, dass eine nachhaltige Lösung nur gelingen kann, wenn soziale und wirtschaftliche Interessen in Einklang gebracht werden.",
+    "preguntas": [
+      {
+        "enunciado": "Die Mietpreise sinken in vielen deutschen Großstädten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Junge Familien und Studierende sind besonders von der Wohnungsnot betroffen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut dem Text wurde in der Vergangenheit ausreichend sozialer Wohnungsbau gefördert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Strengere Mietpreisbremsen werden als mögliche Lösung diskutiert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass starke Regulierung private Investoren abschrecken könnte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "medienkritik-in-der-informationsgesellschaft",
+    "nivel": "B2",
+    "titulo": "Medienkritik in der Informationsgesellschaft",
+    "descripcion": "Ein Text über die Herausforderungen der Medienkompetenz im Zeitalter sozialer Netzwerke.",
+    "texto": "In einer Zeit, in der Informationen über soziale Netzwerke in Sekundenschnelle verbreitet werden, gewinnt die Fähigkeit, Quellen kritisch zu hinterfragen, zunehmend an Bedeutung. Viele Nutzer teilen Inhalte, ohne deren Wahrheitsgehalt zu überprüfen, was dazu führt, dass sich Falschinformationen rasant verbreiten können. Es stellt sich die Frage, ob Bildungseinrichtungen genug tun, um junge Menschen auf diesen kritischen Umgang mit Medien vorzubereiten.\n\nWürde Medienkompetenz stärker als eigenständiges Unterrichtsfach etabliert, könnten Schülerinnen und Schüler frühzeitig lernen, zwischen seriösen und unseriösen Quellen zu unterscheiden. Stattdessen wird dieses Thema in vielen Lehrplänen nur am Rande behandelt, obwohl digitale Medien einen immer größeren Teil des Alltags einnehmen. Hinzu kommt, dass Algorithmen sozialer Plattformen oft bevorzugt Inhalte anzeigen, die starke Emotionen hervorrufen, was die Verbreitung reißerischer oder verzerrter Darstellungen zusätzlich begünstigt.\n\nUm dieser Entwicklung entgegenzuwirken, fordern zahlreiche Experten eine engere Zusammenarbeit zwischen Schulen, Medienunternehmen und politischen Institutionen. Nur wenn Medienkompetenz als gesamtgesellschaftliche Aufgabe verstanden würde, ließe sich langfristig verhindern, dass das Vertrauen in seriösen Journalismus weiter schwindet. Andernfalls droht eine Gesellschaft, in der fundierte Information und bloße Meinung immer schwerer zu unterscheiden sind.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text überprüfen alle Nutzer Inhalte, bevor sie sie teilen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Medienkompetenz wird in vielen Lehrplänen nur am Rande behandelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Algorithmen bevorzugen laut dem Text oft emotionale Inhalte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text fordert weniger Zusammenarbeit zwischen Schulen und Medienunternehmen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text sieht keine Gefahr für das Vertrauen in seriösen Journalismus.",
+        "respuesta": false
+      }
+    ]
   }
 ]
