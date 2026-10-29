@@ -80162,5 +80162,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "ein-tag-im-streichelzoo",
+    "nivel": "A1",
+    "titulo": "Ein Tag im Streichelzoo",
+    "descripcion": "Lisa besucht mit ihrer Klasse einen Streichelzoo und füttert die Tiere.",
+    "texto": "Lisa geht heute mit ihrer Klasse in den Streichelzoo. Der Bus fährt um neun Uhr los. Lisa sitzt neben ihrem Freund Paul. Im Streichelzoo gibt es Ziegen, Schafe und Hasen. Die Kinder dürfen die Tiere füttern. Lisa gibt einer Ziege etwas Gras. Die Ziege isst sehr schnell.\n\nPaul streichelt ein kleines Schaf. Das Schaf ist weich und weiß. „Das Schaf ist so süß!\", sagt Paul. Die Lehrerin zeigt den Kindern auch die Hasen. Die Hasen sind braun und grau. Lisa findet den grauen Hasen am schönsten.\n\nUm zwölf Uhr essen die Kinder ihr Picknick auf einer Wiese. Lisa hat ein Brot und einen Apfel dabei. Nach dem Essen spielen alle noch ein bisschen. Am Nachmittag fahren sie mit dem Bus zurück zur Schule. Lisa ist müde, aber sehr glücklich.",
+    "preguntas": [
+      {
+        "enunciado": "Lisa fährt mit dem Bus in den Streichelzoo.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Streichelzoo gibt es nur Hunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul streichelt ein Schaf.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lisa findet den braunen Hasen am schönsten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kinder essen ihr Picknick im Bus.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "mein-fussballtraining",
+    "nivel": "A1",
+    "titulo": "Mein Fußballtraining",
+    "descripcion": "Jonas erzählt von seinem Fußballtraining am Dienstag.",
+    "texto": "Jonas spielt Fußball in einem Verein. Das Training ist jeden Dienstag um fünf Uhr. Jonas zieht seine Fußballschuhe und sein Trikot an. Das Trikot ist blau und gelb. Er fährt mit dem Fahrrad zum Sportplatz.\n\nAuf dem Sportplatz trifft Jonas seine Freunde Tim und Lea. Der Trainer heißt Herr Berger. Zuerst laufen alle Kinder eine Runde. Dann üben sie Pässe und Tore. Jonas schießt drei Tore. Er ist sehr stolz.\n\nNach dem Training trinken alle Kinder Wasser. Jonas ist müde, aber er lacht viel mit seinen Freunden. Am Samstag hat sein Team ein Spiel. Jonas freut sich schon sehr darauf.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hat jeden Dienstag Fußballtraining.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas fährt mit dem Bus zum Sportplatz.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Trainer heißt Herr Berger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas schießt kein Tor.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Samstag hat Jonas ein Fußballspiel.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-familienpicknick",
+    "nivel": "A1",
+    "titulo": "Das Familienpicknick",
+    "descripcion": "Die Familie Schmidt macht am Sonntag ein Picknick im Park.",
+    "texto": "Am Sonntag macht die Familie Schmidt ein Picknick im Park. Die Mutter packt Brote, Käse und Tomaten in eine Tasche. Der Vater nimmt eine Decke und einen Ball mit. Die Kinder, Emma und Ben, freuen sich sehr.\n\nIm Park legen sie die Decke unter einen großen Baum. Emma isst ein Brot mit Käse. Ben spielt mit dem Ball und läuft im Gras. Die Mutter trinkt einen Tee aus der Thermoskanne. Der Vater liest ein Buch.\n\nAm Nachmittag kommt eine andere Familie mit einem Hund vorbei. Der Hund heißt Rex. Emma und Ben streicheln den Hund und spielen mit ihm. Am Abend gehen alle müde, aber zufrieden nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie macht das Picknick am Montag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Vater nimmt eine Decke mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Emma spielt mit dem Ball im Gras.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Hund heißt Rex.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie bleibt bis zum nächsten Morgen im Park.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-nachbar-mit-der-lauten-musik",
+    "nivel": "A2",
+    "titulo": "Der Nachbar mit der lauten Musik",
+    "descripcion": "Herr Weber ärgert sich über die laute Musik seines neuen Nachbarn.",
+    "texto": "Herr Weber wohnt seit zehn Jahren in einem ruhigen Mietshaus. Letzten Monat ist ein neuer Nachbar eingezogen, ein junger Student namens Finn. Finn hört jeden Abend sehr laute Musik, weil er gerne tanzt und feiert. Herr Weber konnte deshalb mehrmals nicht einschlafen.\n\nAm Mittwochabend hat Herr Weber endlich an Finns Tür geklopft. „Entschuldigung, aber Ihre Musik ist sehr laut\", hat er gesagt. Finn hat sich sofort entschuldigt, weil er nicht wusste, dass man die Musik so gut hören konnte. Er hat versprochen, abends leiser zu sein.\n\nSeitdem ist es im Haus wieder ruhiger. Finn hat sich sogar Kopfhörer gekauft, damit er trotzdem Musik hören kann, ohne jemanden zu stören. Herr Weber findet, dass Finn eigentlich ein netter Nachbar ist, wenn man einmal mit ihm redet.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Weber wohnt seit zehn Jahren in dem Haus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn ist ein älterer Lehrer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Weber ruft die Polizei an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn entschuldigt sich bei Herrn Weber.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Finn kauft sich Kopfhörer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-bewerbung-um-ein-zimmer-in-der-wg",
+    "nivel": "A2",
+    "titulo": "Die Bewerbung um ein Zimmer in der WG",
+    "descripcion": "Sophie bewirbt sich um ein Zimmer in einer Wohngemeinschaft in Leipzig.",
+    "texto": "Sophie hat eine Anzeige für ein Zimmer in einer Wohngemeinschaft in Leipzig gesehen. Das Zimmer ist groß und hat ein eigenes Fenster zum Garten. Sophie hat sofort eine E-Mail an die Mitbewohner geschrieben, weil sie sich für das Zimmer interessiert.\n\nZwei Tage später hat sie eine Antwort bekommen. Die Mitbewohner, Jan und Katrin, haben sie zu einem Kennenlerntreffen eingeladen. Sophie ist sehr nervös gewesen, weil sie die WG unbedingt bekommen wollte. Beim Treffen hat sie viel über ihr Studium und ihre Hobbys erzählt.\n\nJan und Katrin haben Sophie sehr sympathisch gefunden. Am nächsten Tag haben sie ihr geschrieben, dass sie das Zimmer haben kann. Sophie hat sich riesig gefreut und sofort ihre Eltern angerufen, um die gute Nachricht zu erzählen.",
+    "preguntas": [
+      {
+        "enunciado": "Das Zimmer liegt in Leipzig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie ruft sofort bei der WG an.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mitbewohner heißen Jan und Katrin.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie bekommt das Zimmer nicht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie ruft ihre Eltern an.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umzug-in-eine-studentenwohnung",
+    "nivel": "A2",
+    "titulo": "Der Umzug in eine Studentenwohnung",
+    "descripcion": "Maximilian zieht für sein Studium in eine kleine Studentenwohnung um.",
+    "texto": "Maximilian hat einen Studienplatz in Dresden bekommen und musste deshalb umziehen. Seine neue Wohnung ist klein, aber hell. Sie hat ein Zimmer, eine Küche und ein Bad. Am Umzugstag haben ihm sein Vater und sein bester Freund Oliver geholfen.\n\nSie haben die Kartons in einen alten Transporter geladen, weil Maximilians Auto zu klein war. In der neuen Wohnung haben sie zuerst das Bett aufgebaut, damit Maximilian abends schlafen konnte. Danach haben sie die Küche eingerichtet und die Bücher ins Regal gestellt.\n\nAbends haben Maximilian, sein Vater und Oliver zusammen Pizza bestellt, weil niemand mehr kochen wollte. Maximilian war erschöpft, aber auch sehr glücklich über seine erste eigene Wohnung. Er hat an diesem Abend lange nicht einschlafen können, weil er so aufgeregt war.",
+    "preguntas": [
+      {
+        "enunciado": "Maximilian zieht nach Dresden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die neue Wohnung hat drei Zimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Oliver hilft Maximilian beim Umzug.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie kochen am Abend selbst.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Maximilian schläft sofort tief und fest ein.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-vereinsfest-im-dorf",
+    "nivel": "B1",
+    "titulo": "Das Vereinsfest im Dorf",
+    "descripcion": "Der Sportverein organisiert nach langer Pause wieder ein Fest für das ganze Dorf.",
+    "texto": "Nachdem das jährliche Vereinsfest zwei Jahre lang wegen Bauarbeiten am Sportplatz ausgefallen war, haben sich die Mitglieder des örtlichen Sportvereins dieses Jahr besonders viel Mühe gegeben. Obwohl die Vorbereitungen stressig waren, war allen wichtig, dass das Fest wieder ein echtes Highlight für das Dorf wird. Die Vereinsmitglieder haben Wochen vorher Kuchen gebacken, Stände aufgebaut und sogar eine kleine Bühne für die Musikgruppe organisiert.\n\nAm Festtag selbst kamen trotz des unsicheren Wetters über dreihundert Besucher. Es gab ein Fußballturnier für Kinder, einen Flohmarkt und natürlich viel selbstgemachten Kuchen. Besonders beliebt war der Stand mit gegrillten Würstchen, an dem sich lange Schlangen bildeten. Nachdem die Sonne am Nachmittag doch noch herauskam, blieben viele Familien bis zum Abend auf dem Festplatz.\n\nDer Vorsitzende des Vereins zeigte sich am Ende sehr zufrieden, obwohl er vorher Angst hatte, dass wegen des Wetters nur wenige Leute kommen würden. Trotzdem war das Fest ein großer Erfolg, und die Einnahmen sollen in neue Trainingsgeräte für die Jugendmannschaften investiert werden.",
+    "preguntas": [
+      {
+        "enunciado": "Das Vereinsfest fand zwei Jahre lang nicht statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Am Festtag kamen weniger als hundert Besucher.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Stand mit Würstchen war sehr beliebt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Wetter war den ganzen Tag schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Einnahmen gehen an die Jugendmannschaften.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-bewerbung-fuer-ein-sommerpraktikum",
+    "nivel": "B1",
+    "titulo": "Die Bewerbung für ein Sommerpraktikum",
+    "descripcion": "Clara bewirbt sich für ein Praktikum bei einer Zeitschrift und muss mehrere Hürden überwinden.",
+    "texto": "Clara interessiert sich seit der Schulzeit für Journalismus und hat deshalb beschlossen, sich für ein Sommerpraktikum bei einer regionalen Zeitschrift zu bewerben. Nachdem sie ihren Lebenslauf und ihr Anschreiben mehrmals überarbeitet hatte, schickte sie die Bewerbung schließlich ab, obwohl sie sich nicht besonders sicher fühlte. Zwei Wochen später bekam sie überraschend eine Einladung zu einem Vorstellungsgespräch.\n\nIm Gespräch wurde Clara nach ihren bisherigen Erfahrungen gefragt, obwohl sie außer der Schülerzeitung noch keine praktische Erfahrung im Journalismus hatte. Sie erzählte deshalb ausführlich von einem Artikel, den sie für die Schülerzeitung geschrieben hatte, und zeigte damit, wie motiviert sie war. Die Redakteurin schien beeindruckt, auch wenn sie betonte, dass das Praktikum anspruchsvoll werden würde.\n\nEine Woche später erhielt Clara die Zusage per E-Mail. Sie konnte es kaum glauben und rief sofort ihre beste Freundin an, um die Neuigkeit zu teilen. Seitdem bereitet sie sich intensiv auf ihren ersten Arbeitstag vor, indem sie regelmäßig Zeitungen liest und sich über aktuelle Themen informiert.",
+    "preguntas": [
+      {
+        "enunciado": "Clara bewirbt sich für ein Praktikum im Journalismus.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara wird sofort ohne Gespräch eingestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara hat schon viele Jahre Berufserfahrung als Journalistin.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara bekommt die Zusage für das Praktikum.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Clara bereitet sich auf ihren ersten Arbeitstag vor.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-nachmittag-im-jugendzentrum",
+    "nivel": "B1",
+    "titulo": "Ein Nachmittag im Jugendzentrum",
+    "descripcion": "Eine Gruppe von Jugendlichen trifft sich regelmäßig im neuen Jugendzentrum der Stadt.",
+    "texto": "Seit das neue Jugendzentrum vor drei Monaten eröffnet wurde, treffen sich Felix und seine Freunde dort fast jeden Nachmittag. Nachdem die Stadt lange über den Bau diskutiert hatte, war die Freude groß, als der Jugendtreff endlich fertig war. Es gibt einen Raum mit Tischtennisplatten, eine kleine Küche und sogar ein Tonstudio, in dem Jugendliche eigene Musik aufnehmen können.\n\nAn diesem Nachmittag wollte Felix mit seinen Freunden ein Lied aufnehmen, obwohl keiner von ihnen vorher jemals in einem Tonstudio gewesen war. Ein Sozialarbeiter namens Herr Krause half ihnen geduldig bei der Technik. Nachdem sie das Lied dreimal geübt hatten, klang die Aufnahme schon richtig professionell. Alle waren begeistert und wollten das Lied sofort ihren Eltern vorspielen.\n\nSpäter am Abend saßen Felix und seine Freunde noch zusammen in der Küche und kochten gemeinsam Nudeln. Sie sprachen darüber, wie wichtig es ist, einen Ort zu haben, an dem man sich nach der Schule treffen kann, ohne dass es etwas kostet. Herr Krause erzählte, dass das Jugendzentrum in Zukunft noch weitere Kurse anbieten möchte, etwa einen Fotografiekurs.",
+    "preguntas": [
+      {
+        "enunciado": "Das Jugendzentrum wurde vor drei Monaten eröffnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Jugendzentrum gibt es kein Tonstudio.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix war schon oft in einem Tonstudio.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Krause hilft den Jugendlichen bei der Aufnahme.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Jugendzentrum plant weitere Kurse, zum Beispiel Fotografie.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "minimalismus-als-gesellschaftlicher-gegentrend",
+    "nivel": "B2",
+    "titulo": "Minimalismus als gesellschaftlicher Gegentrend",
+    "descripcion": "Ein Essay über die wachsende Bewegung des bewussten Konsumverzichts in einer Überflussgesellschaft.",
+    "texto": "In einer Gesellschaft, die durch ständig wachsenden Konsum und permanente Verfügbarkeit geprägt ist, gewinnt eine Gegenbewegung zunehmend an Bedeutung: der Minimalismus. Immer mehr Menschen entscheiden sich bewusst dafür, Besitz zu reduzieren und sich von materiellen Dingen zu lösen, die sie als überflüssig empfinden. Diese Entwicklung lässt sich nicht nur als individuelle Lebensentscheidung verstehen, sondern auch als Reaktion auf eine Konsumkultur, die viele Menschen zunehmend als belastend wahrnehmen.\n\nBefürworter des Minimalismus argumentieren, dass weniger Besitz zu mehr Klarheit und geringerem Stress führe. Würden Menschen bewusster konsumieren, ließe sich zudem die Umweltbelastung durch Produktion und Müll erheblich reduzieren. Kritiker wenden jedoch ein, dass Minimalismus oft nur denjenigen vorbehalten sei, die sich bereits einen gewissen Wohlstand leisten können, da bewusster Konsum häufig teurere, langlebigere Produkte voraussetzt. Für Menschen mit geringem Einkommen sei der Verzicht daher keine freie Wahl, sondern oft schlicht Notwendigkeit.\n\nUnabhängig von dieser Debatte zeigt der Erfolg zahlreicher Bücher und Online-Formate zum Thema, dass das Bedürfnis nach einem bewussteren Umgang mit Konsum in weiten Teilen der Gesellschaft angekommen ist. Ob sich der Minimalismus langfristig als nachhaltiger kultureller Wandel etabliert oder lediglich ein vorübergehender Trend bleibt, wird sich erst in den kommenden Jahren zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Minimalismus bedeutet laut dem Text, mehr zu besitzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter sehen einen Zusammenhang zwischen weniger Besitz und weniger Stress.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker meinen, Minimalismus sei für alle Einkommensgruppen gleich einfach umzusetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Bücher und Online-Formate zum Thema sind laut dem Text erfolglos.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Text lässt offen, ob Minimalismus ein dauerhafter Wandel wird.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-umgang-mit-fehlern-in-der-leistungsgesellschaft",
+    "nivel": "B2",
+    "titulo": "Der Umgang mit Fehlern in der Leistungsgesellschaft",
+    "descripcion": "Ein Text über die gesellschaftliche Angst vor dem Scheitern und mögliche Alternativen zur Fehlerkultur.",
+    "texto": "In vielen westlichen Gesellschaften gilt Erfolg als zentraler Maßstab für den persönlichen Wert eines Menschen. Fehler und Rückschläge werden dabei häufig nicht als selbstverständlicher Teil eines Lernprozesses betrachtet, sondern als persönliches Versagen. Diese Haltung führt dazu, dass viele Menschen aus Angst vor negativen Konsequenzen zögern, neue Wege auszuprobieren oder Risiken einzugehen, obwohl gerade solche Erfahrungen häufig zu wichtigen Entwicklungsschritten führen.\n\nBesonders im Arbeitsleben zeigt sich dieses Phänomen deutlich. Mitarbeiter, die befürchten, für Fehler bestraft zu werden, neigen dazu, Probleme zu verschweigen, anstatt sie offen anzusprechen. Dadurch können sich kleinere Schwierigkeiten zu größeren Krisen entwickeln, bevor sie überhaupt bemerkt werden. Unternehmen, die hingegen eine offene Fehlerkultur pflegen, berichten häufig von höherer Innovationsbereitschaft, da Mitarbeiter sich eher trauen, ungewöhnliche Ideen vorzuschlagen, ohne Angst vor Bloßstellung haben zu müssen.\n\nExperten fordern deshalb ein Umdenken, das bereits in der Schule beginnen sollte. Würden Kinder von klein auf lernen, dass Fehler zum Lernen dazugehören, anstatt bestraft zu werden, könnte sich langfristig eine Kultur entwickeln, in der Scheitern nicht als Makel, sondern als wertvolle Erfahrung gilt. Bis eine solche Veränderung tatsächlich gesellschaftlich verankert ist, dürfte jedoch noch viel Zeit vergehen.",
+    "preguntas": [
+      {
+        "enunciado": "Fehler werden in der Leistungsgesellschaft laut dem Text meist als normaler Lernprozess gesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Angst vor Fehlern kann dazu führen, dass Probleme verschwiegen werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Unternehmen mit offener Fehlerkultur berichten laut dem Text von weniger Innovation.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern ein Umdenken, das schon in der Schule beginnen sollte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text erwartet, dass sich die Fehlerkultur sehr schnell verändert.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "schlafmangel-in-der-modernen-gesellschaft",
+    "nivel": "B2",
+    "titulo": "Schlafmangel in der modernen Gesellschaft",
+    "descripcion": "Ein Artikel über die Ursachen und gesundheitlichen Folgen von chronischem Schlafmangel.",
+    "texto": "Immer mehr Menschen in Industrieländern leiden unter chronischem Schlafmangel, obwohl ausreichender Schlaf als eine der Grundlagen für körperliche und geistige Gesundheit gilt. Als Hauptursachen gelten unter anderem die ständige Erreichbarkeit durch Smartphones, lange Arbeitszeiten und ein gesellschaftliches Klima, in dem Produktivität oft höher bewertet wird als Erholung. Wer früh ins Bett geht, wird in manchen Berufsfeldern sogar belächelt, als wäre Schlaf ein Zeichen von mangelndem Engagement.\n\nDabei zeigen zahlreiche Studien, dass dauerhafter Schlafmangel das Risiko für Herz-Kreislauf-Erkrankungen, Depressionen und Konzentrationsstörungen erheblich erhöht. Besonders betroffen sind Berufstätige in Schichtarbeit sowie Jugendliche, deren natürlicher Schlafrhythmus häufig im Widerspruch zu frühen Schulzeiten steht. Mediziner warnen zudem davor, dass fehlender Schlaf langfristig die Leistungsfähigkeit senkt, anstatt sie, wie viele glauben, durch zusätzliche wache Stunden zu steigern.\n\nUm dem entgegenzuwirken, fordern Schlafforscher unter anderem spätere Schulbeginnzeiten sowie ein gesellschaftliches Umdenken, bei dem Erholung nicht länger als Schwäche, sondern als notwendiger Bestandteil eines gesunden Lebensstils gilt. Solange Unternehmen und Bildungseinrichtungen jedoch weiterhin vor allem auf Leistung setzen, dürfte sich an der Problematik nur langsam etwas ändern.",
+    "preguntas": [
+      {
+        "enunciado": "Ausreichender Schlaf gilt laut dem Text als unwichtig für die Gesundheit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Smartphones und lange Arbeitszeiten gelten als mögliche Ursachen für Schlafmangel.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Studien zeigen laut dem Text keinen Zusammenhang zwischen Schlafmangel und Krankheiten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jugendliche sind von dem Problem besonders betroffen, weil Schulzeiten früh beginnen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Schlafforscher fordern unter anderem spätere Schulbeginnzeiten.",
+        "respuesta": true
+      }
+    ]
   }
 ]
