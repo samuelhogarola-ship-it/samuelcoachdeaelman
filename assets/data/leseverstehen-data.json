@@ -80858,5 +80858,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "tim-beim-friseur-am-samstag",
+    "nivel": "A1",
+    "titulo": "Tim beim Friseur am Samstag",
+    "descripcion": "Tim geht zum Friseur und bekommt einen neuen Haarschnitt.",
+    "texto": "Tim hat lange Haare. Er möchte einen neuen Haarschnitt. Heute geht er zum Friseur. Der Friseursalon ist in der Nähe von seiner Wohnung. Die Friseurin heißt Frau Berger. Sie ist sehr freundlich.\n\nTim setzt sich auf den Stuhl. Frau Berger fragt: „Wie möchtest du deine Haare?\" Tim sagt: „Kurz, bitte. Nicht zu kurz.\" Frau Berger schneidet die Haare langsam und sorgfältig. Sie wäscht die Haare auch mit Shampoo. Das Wasser ist warm und angenehm.\n\nNach dreißig Minuten ist Tim fertig. Er schaut in den Spiegel und lacht. Die neue Frisur gefällt ihm sehr gut. Er bezahlt zwanzig Euro und sagt „Danke schön\". Dann geht er glücklich nach Hause.",
+    "preguntas": [
+      {
+        "enunciado": "Tim geht zum Zahnarzt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Friseurin heißt Frau Berger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim möchte sehr lange Haare.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Berger wäscht Tims Haare.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Tim bezahlt zwanzig Euro.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "unser-haustier-das-kaninchen",
+    "nivel": "A1",
+    "titulo": "Unser Haustier, das Kaninchen",
+    "descripcion": "Mia erzählt von ihrem Kaninchen und seinem Alltag.",
+    "texto": "Mia hat ein Kaninchen. Es heißt Flauschi. Flauschi ist weiß und braun. Es lebt in einem Käfig im Garten. Jeden Morgen gibt Mia ihm Karotten und frisches Wasser.\n\nFlauschi liebt grünes Gras. Es springt oft durch den Garten. Mia spielt gern mit ihm. Sie streichelt sein weiches Fell. Manchmal schläft Flauschi in einer kleinen Box aus Holz.\n\nAm Nachmittag putzt Mia den Käfig. Das ist wichtig für Flauschi. Danach bringt sie ihm neues Heu. Flauschi ist müde und schläft ein. Mia ist glücklich mit ihrem kleinen Kaninchen.",
+    "preguntas": [
+      {
+        "enunciado": "Flauschi ist ein Hund.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Flauschi isst gern Karotten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flauschi lebt im Wohnzimmer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia putzt den Käfig am Nachmittag.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Flauschi mag kein Gras.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "paul-im-schreibwarenladen",
+    "nivel": "A1",
+    "titulo": "Paul im Schreibwarenladen",
+    "descripcion": "Paul kauft Stifte und Hefte für die Schule.",
+    "texto": "Paul braucht neue Sachen für die Schule. Er geht in einen Schreibwarenladen. Der Laden ist bunt und hat viele Regale. Paul sucht Hefte, Stifte und einen Radiergummi.\n\nEr findet ein blaues Heft und ein rotes Heft. Dann nimmt er drei bunte Stifte. Ein Verkäufer fragt: „Brauchst du auch einen Spitzer?\" Paul sagt: „Ja, bitte, einen Spitzer auch.\" Der Verkäufer legt alles in eine Tüte.\n\nAn der Kasse bezahlt Paul mit seinem Taschengeld. Die Sachen kosten acht Euro. Paul bedankt sich und geht nach Hause. Morgen hat er alles für die Schule bereit.",
+    "preguntas": [
+      {
+        "enunciado": "Paul geht in einen Schuhladen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul kauft ein blaues Heft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Paul kauft keinen Spitzer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paul bezahlt mit seinem Taschengeld.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Sachen kosten acht Euro.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "jonas-zieht-ins-studentenwohnheim",
+    "nivel": "A2",
+    "titulo": "Jonas zieht ins Studentenwohnheim",
+    "descripcion": "Jonas zieht zum Studienbeginn in ein Studentenwohnheim um.",
+    "texto": "Jonas hat letzte Woche sein Studium begonnen. Weil die Universität weit von seinem Elternhaus liegt, ist er in ein Studentenwohnheim gezogen. Am Umzugstag haben ihm seine Eltern und sein bester Freund geholfen. Sie haben Kisten mit Büchern, Kleidung und Küchengeräten in das kleine Zimmer getragen.\n\nAm Abend hat Jonas sein Zimmer eingerichtet. Er hat ein Poster an die Wand gehängt und seinen Schreibtisch am Fenster aufgestellt. Danach hat er seine neuen Mitbewohner kennengelernt. Sie haben zusammen in der gemeinsamen Küche Nudeln gekocht, weil niemand von ihnen Lust hatte, allein zu essen. Ein Mitbewohner kommt aus Spanien und ein anderer aus Polen, deshalb haben sie viel über ihre Heimatländer erzählt.\n\nObwohl Jonas am Anfang etwas Heimweh hatte, hat er sich schnell wohlgefühlt. Er findet es toll, dass er jetzt selbstständig leben kann. Am Wochenende hat er seine Eltern angerufen und ihnen erzählt, wie gut alles läuft.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas ist in der Nähe seines Elternhauses geblieben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Seine Eltern und sein bester Freund haben beim Umzug geholfen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hat allein in seinem Zimmer gegessen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ein Mitbewohner kommt aus Spanien.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas hatte überhaupt kein Heimweh.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-besuch-beim-zahnarzt-in-wien",
+    "nivel": "A2",
+    "titulo": "Ein Besuch beim Zahnarzt in Wien",
+    "descripcion": "Sophie hat während ihres Urlaubs in Wien Zahnschmerzen und sucht einen Zahnarzt.",
+    "texto": "Sophie ist seit drei Tagen im Urlaub in Wien. Gestern Abend hat sie plötzlich starke Zahnschmerzen bekommen, weil sie ein Stück harten Kuchen gegessen hat. Weil die Schmerzen nicht weggegangen sind, hat sie heute Morgen einen Zahnarzt gesucht. Im Hotel hat ihr die Rezeption geholfen und eine Praxis in der Nähe gefunden.\n\nIn der Praxis hat die Zahnärztin Sophie freundlich empfangen. Sie hat den Zahn untersucht und gesagt, dass ein kleines Loch im Zahn ist. Die Behandlung hat nicht lange gedauert, und die Schmerzen sind danach verschwunden. Sophie war sehr erleichtert, dass die Zahnärztin so schnell helfen konnte.\n\nNach dem Zahnarztbesuch ist Sophie noch durch die Innenstadt spaziert. Sie hat ein Eis gegessen, obwohl der Zahnarzt gesagt hat, dass sie vorsichtig sein soll. Am Abend hat sie ihrer Familie von ihrem Abenteuer erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Sophie hat Zahnschmerzen, weil sie harten Kuchen gegessen hat.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie findet selbst sofort eine Zahnarztpraxis.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Zahnärztin findet ein kleines Loch im Zahn.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Behandlung hat sehr lange gedauert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie isst nach dem Zahnarztbesuch ein Eis.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-beim-angeln",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende beim Angeln",
+    "descripcion": "Herr Fischer verbringt mit seinem Sohn ein ruhiges Wochenende am See.",
+    "texto": "Herr Fischer und sein Sohn Niklas sind am Samstagmorgen zu einem See gefahren, weil sie zusammen angeln wollten. Sie haben ihre Angeln, einen Eimer und ein Picknick mitgenommen. Als sie am See angekommen sind, war es noch sehr ruhig und nur wenige Vögel waren zu hören.\n\nNiklas hatte vorher noch nie geangelt, deshalb hat ihm sein Vater gezeigt, wie man den Köder am Haken befestigt. Nach einer Stunde hat Niklas seinen ersten Fisch gefangen. Er war so aufgeregt, dass er fast ins Wasser gefallen ist. Sie haben zusammen gelacht und ein Foto von dem Fisch gemacht.\n\nAm Mittag haben sie ihr Picknick ausgepackt und Sandwiches gegessen. Obwohl sie den ganzen Nachmittag geblieben sind, haben sie keinen weiteren Fisch gefangen. Trotzdem war es für beide ein wunderschöner Tag, und sie haben beschlossen, bald wieder zusammen angeln zu gehen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Fischer und Niklas fahren zu einem See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Niklas hatte schon viel Erfahrung beim Angeln.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niklas fängt seinen ersten Fisch.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sie essen am Mittag in einem Restaurant.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie planen, bald wieder zusammen angeln zu gehen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wechsel-in-eine-andere-abteilung",
+    "nivel": "B1",
+    "titulo": "Der Wechsel in eine andere Abteilung",
+    "descripcion": "Frau Lindner wechselt nach fünf Jahren in eine neue Abteilung ihrer Firma.",
+    "texto": "Frau Lindner arbeitet seit fünf Jahren im Marketing eines mittelgroßen Unternehmens. Obwohl sie ihre Arbeit dort gern gemacht hat, wollte sie schon lange etwas Neues ausprobieren. Nachdem eine Stelle in der Abteilung für Produktentwicklung frei geworden war, hat sie sich entschieden, sich intern zu bewerben. Ihre Vorgesetzte war zunächst überrascht, hat die Entscheidung aber letztlich unterstützt.\n\nDer Wechsel war am Anfang nicht einfach, weil Frau Lindner in der neuen Abteilung ganz andere Aufgaben übernehmen musste. Während sie im Marketing hauptsächlich mit Kunden und Werbekampagnen zu tun hatte, arbeitet sie nun eng mit Ingenieuren und Designern zusammen. Trotzdem hat sie sich schnell in das neue Team eingefunden, da ihre Kollegen sie geduldig eingearbeitet haben.\n\nNach einigen Monaten zieht Frau Lindner eine positive Bilanz. Sie findet die neue Tätigkeit abwechslungsreicher und schätzt es, nun direkt an der Entwicklung neuer Produkte beteiligt zu sein. Obwohl sie manchmal ihre alten Kollegen vermisst, bereut sie den Wechsel nicht. Sie ist überzeugt, dass sie in der neuen Abteilung noch viel lernen kann.",
+    "preguntas": [
+      {
+        "enunciado": "Frau Lindner hat zehn Jahre im Marketing gearbeitet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihre Vorgesetzte hat den Wechsel letztlich unterstützt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In der neuen Abteilung arbeitet sie mit Ingenieuren und Designern zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Lindner bereut ihre Entscheidung sehr.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie vermisst ihre alten Kollegen manchmal.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-zehnte-klasse-faehrt-nach-koeln",
+    "nivel": "B1",
+    "titulo": "Die zehnte Klasse fährt nach Köln",
+    "descripcion": "Eine Schulklasse erlebt auf ihrer Klassenfahrt nach Köln unerwartete Abenteuer.",
+    "texto": "Die zehnte Klasse des Gymnasiums ist für drei Tage nach Köln gefahren, um die Stadt und ihre Geschichte kennenzulernen. Nachdem die Schüler mit dem Zug angekommen waren, haben sie zunächst ihre Zimmer in der Jugendherberge bezogen. Schon am ersten Abend war klar, dass diese Fahrt vielen lange in Erinnerung bleiben würde, denn die Stimmung in der Gruppe war von Anfang an ausgezeichnet.\n\nAm zweiten Tag haben die Schüler den Kölner Dom besichtigt und sind sogar auf den Turm gestiegen, obwohl einige von ihnen etwas Höhenangst hatten. Danach haben sie an einer Stadtführung teilgenommen, bei der sie viel über die römische Geschichte der Stadt erfahren haben. Am Nachmittag ist eine kleine Gruppe verloren gegangen, weil sie den Weg zurück zur Jugendherberge nicht mehr gefunden hat. Nachdem sie die Lehrerin angerufen hatten, konnte die Gruppe glücklicherweise schnell wieder abgeholt werden.\n\nAm letzten Abend haben alle gemeinsam an einem Grillfest teilgenommen, das die Lehrer organisiert hatten. Trotz des kleinen Zwischenfalls am zweiten Tag waren sich am Ende alle einig, dass die Klassenfahrt ein voller Erfolg war. Viele Schüler haben beschlossen, Köln irgendwann mit ihrer Familie noch einmal zu besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Die Klasse ist mit dem Bus nach Köln gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Schüler besichtigen den Kölner Dom.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine Gruppe von Schülern hat sich verlaufen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Lehrerin konnte die Gruppe nicht finden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Ende waren alle mit der Klassenfahrt zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "lea-und-carla-freundschaft-ueber-den-ozean",
+    "nivel": "B1",
+    "titulo": "Lea und Carla: Freundschaft über den Ozean",
+    "descripcion": "Zwei Freundinnen pflegen ihre Freundschaft, obwohl sie in unterschiedlichen Ländern leben.",
+    "texto": "Lea und Carla sind seit ihrer Schulzeit beste Freundinnen, obwohl sie heute in verschiedenen Ländern leben. Lea ist vor zwei Jahren nach Kanada gezogen, weil sie dort eine interessante Arbeitsstelle gefunden hat. Carla ist in Deutschland geblieben, um ihr Studium fertig zu machen. Trotz der großen Entfernung schreiben sich die beiden fast jeden Tag Nachrichten.\n\nNachdem sie sich am Anfang nur selten per Videoanruf gesehen hatten, haben sie sich mittlerweile ein festes Ritual ausgedacht. Jeden Sonntagabend telefonieren sie eine Stunde lang und erzählen sich, was in der vergangenen Woche passiert ist. Obwohl der Zeitunterschied manchmal unpraktisch ist, haben sie immer eine Lösung gefunden, die für beide passt.\n\nIm letzten Sommer hat Carla Lea in Kanada besucht, und die beiden haben eine wunderschöne Zeit zusammen verbracht. Sie sind sich einig, dass ihre Freundschaft durch die Entfernung sogar stärker geworden ist, weil sie lernen mussten, ihre Zeit miteinander bewusster zu schätzen. Beide hoffen, dass sie sich bald wiedersehen können.",
+    "preguntas": [
+      {
+        "enunciado": "Lea und Carla kennen sich erst seit kurzer Zeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lea ist wegen einer Arbeitsstelle nach Kanada gezogen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die beiden Freundinnen telefonieren jeden Sonntagabend.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Carla hat Lea noch nie in Kanada besucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Freundschaft ist durch die Entfernung schwächer geworden.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "chancen-und-risiken-von-ki-im-schulunterricht",
+    "nivel": "B2",
+    "titulo": "Chancen und Risiken von KI im Schulunterricht",
+    "descripcion": "Ein Text über Chancen und Risiken des Einsatzes künstlicher Intelligenz im Schulunterricht.",
+    "texto": "In zahlreichen Schulen wird derzeit diskutiert, in welchem Umfang künstliche Intelligenz im Unterricht eingesetzt werden sollte. Befürworter argumentieren, dass KI-gestützte Programme den Lernstoff individuell an das Tempo jedes einzelnen Schülers anpassen könnten, wodurch Über- oder Unterforderung vermieden würde. Zudem würden Lehrkräfte durch die Automatisierung bestimmter Aufgaben, etwa der Korrektur von Übungen, entlastet und könnten sich stärker auf die pädagogische Betreuung konzentrieren.\n\nKritiker hingegen warnen davor, dass ein übermäßiger Einsatz solcher Technologien die Entwicklung eigenständigen Denkens beeinträchtigen könnte. Wenn Schüler zu früh daran gewöhnt würden, komplexe Aufgaben von einer KI lösen zu lassen, bestehe die Gefahr, dass grundlegende Fähigkeiten wie kritisches Hinterfragen oder kreatives Problemlösen nicht ausreichend trainiert würden. Außerdem wird befürchtet, dass durch die Nutzung solcher Systeme sensible Daten von Minderjährigen gesammelt und möglicherweise missbräuchlich verwendet werden könnten.\n\nEinige Bildungsforscher schlagen deshalb einen vermittelnden Ansatz vor, bei dem künstliche Intelligenz zwar als unterstützendes Werkzeug eingesetzt wird, die abschließende Bewertung des Lernerfolgs aber stets von Lehrkräften vorgenommen werden sollte. Nur so könne sichergestellt werden, dass Technologie den Unterricht bereichert, ohne die zwischenmenschliche Komponente des Lernens zu verdrängen.\n\nOb sich dieser Mittelweg in der Praxis durchsetzen wird, bleibt abzuwarten. Fest steht jedoch, dass Schulen und Bildungspolitik gemeinsam klare Richtlinien entwickeln müssten, damit der Einsatz künstlicher Intelligenz dem Lernerfolg der Schüler tatsächlich zugutekommt, anstatt ihn langfristig zu gefährden.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter glauben, dass KI den Lernstoff individuell anpassen könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Bildungsforscher lehnen künstliche Intelligenz im Unterricht vollständig ab.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass eigenständiges Denken beeinträchtigt werden könnte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Sammlung sensibler Daten von Minderjährigen wird als unproblematisch angesehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige Experten schlagen vor, dass Lehrkräfte den Lernerfolg weiterhin bewerten sollten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "debatte-um-die-abschaffung-des-bargelds",
+    "nivel": "B2",
+    "titulo": "Debatte um die Abschaffung des Bargelds",
+    "descripcion": "Ein Text über die gesellschaftliche Debatte rund um die Abschaffung des Bargelds.",
+    "texto": "In vielen europäischen Ländern nimmt die Nutzung von Bargeld seit Jahren kontinuierlich ab, während digitale Zahlungsmethoden zunehmend an Bedeutung gewinnen. Befürworter einer vollständig bargeldlosen Gesellschaft verweisen darauf, dass elektronische Zahlungen schneller, hygienischer und leichter nachzuvollziehen seien. Zudem würde die Abschaffung von Bargeld Steuerhinterziehung und Schwarzarbeit erschweren, da sämtliche Transaktionen digital erfasst würden.\n\nAllerdings wird diese Entwicklung von vielen Seiten kritisch betrachtet. Datenschutzexperten warnen davor, dass eine vollständig digitale Zahlungsinfrastruktur ein lückenloses Bewegungs- und Konsumprofil jedes Bürgers ermöglichen würde, was erhebliche Risiken für den Schutz der Privatsphäre mit sich brächte. Darüber hinaus wären insbesondere ältere Menschen und Personen ohne Zugang zu digitalen Geräten von einer solchen Entwicklung benachteiligt, da sie häufig nicht über die notwendigen technischen Mittel verfügten.\n\nEin weiteres Argument gegen die vollständige Abschaffung des Bargelds betrifft die Stabilität des Zahlungssystems. Sollte es zu einem technischen Ausfall oder einem Cyberangriff kommen, stünde ohne Bargeld keine funktionierende Rückfallebene mehr zur Verfügung, um grundlegende Zahlungen zu tätigen. Aus diesem Grund fordern selbst einige Zentralbanken, dass Bargeld als Wahlfreiheit erhalten bleiben müsse, auch wenn digitale Zahlungsmittel weiter gefördert würden.\n\nLetztlich zeigt die Debatte, dass technologischer Fortschritt im Zahlungsverkehr zwar zahlreiche Vorteile mit sich bringt, zugleich aber sorgfältig gegen gesellschaftliche Risiken abgewogen werden muss. Eine ausgewogene Lösung, bei der Bürgerinnen und Bürger frei zwischen verschiedenen Zahlungsmitteln wählen können, dürfte daher auch künftig von zentraler Bedeutung sein.",
+    "preguntas": [
+      {
+        "enunciado": "Die Nutzung von Bargeld nimmt in vielen europäischen Ländern ab.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Befürworter glauben, dass digitale Zahlungen Schwarzarbeit erschweren könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Datenschutzexperten sehen keine Risiken in einer vollständig digitalen Zahlungsinfrastruktur.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ältere Menschen könnten von einer bargeldlosen Gesellschaft benachteiligt werden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Zentralbanken fordern die vollständige Abschaffung von Bargeld.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "landflucht-und-staedtisches-wachstum",
+    "nivel": "B2",
+    "titulo": "Landflucht und städtisches Wachstum",
+    "descripcion": "Ein Text über die Ursachen und Folgen der Abwanderung aus ländlichen Regionen in die Städte.",
+    "texto": "Seit Jahrzehnten lässt sich in vielen Ländern ein deutlicher Trend beobachten: Immer mehr junge Menschen verlassen ländliche Regionen, um in größeren Städten zu leben und zu arbeiten. Als Hauptgründe werden gewöhnlich bessere Bildungs- und Arbeitsmöglichkeiten genannt, die in urbanen Zentren in deutlich größerer Vielfalt vorhanden sind. Hinzu kommt, dass das kulturelle Angebot sowie die soziale Infrastruktur in Städten für viele Menschen attraktiver erscheinen als das Leben auf dem Land.\n\nDiese Entwicklung hat jedoch weitreichende Folgen für die betroffenen ländlichen Gebiete. Wenn vor allem jüngere und gut ausgebildete Menschen abwandern, würde die demografische Struktur dieser Regionen zunehmend überaltern, was langfristig die wirtschaftliche Entwicklung erschweren dürfte. Gleichzeitig würden lokale Geschäfte, Schulen und Arztpraxen geschlossen, sobald die Nachfrage nach entsprechenden Dienstleistungen zu stark zurückginge, wodurch die Attraktivität dieser Gebiete weiter sinken würde.\n\nUm dieser Entwicklung entgegenzuwirken, haben manche Regionen begonnen, gezielte Förderprogramme einzuführen, etwa indem Unternehmen beim Umzug auf das Land finanziell unterstützt oder Breitbandinternet flächendeckend ausgebaut werden. Ob solche Maßnahmen ausreichen, um den Trend grundlegend umzukehren, wird von Experten allerdings unterschiedlich bewertet, da strukturelle Nachteile ländlicher Regionen dadurch allein kaum beseitigt werden könnten.\n\nLetztlich stellt die Landflucht eine der zentralen Herausforderungen für die Raumplanung der kommenden Jahrzehnte dar. Ohne koordinierte politische Maßnahmen auf regionaler und nationaler Ebene dürfte sich die Kluft zwischen prosperierenden Städten und zunehmend verödenden ländlichen Gebieten weiter vergrößern.",
+    "preguntas": [
+      {
+        "enunciado": "Immer mehr junge Menschen ziehen aus ländlichen Regionen in Städte.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das kulturelle Angebot auf dem Land wird als Hauptgrund für die Abwanderung genannt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Abwanderung kann zu einer Überalterung ländlicher Regionen führen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lokale Geschäfte und Arztpraxen profitieren von der Landflucht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Regionen haben Förderprogramme eingeführt, um der Landflucht entgegenzuwirken.",
+        "respuesta": true
+      }
+    ]
   }
 ]
