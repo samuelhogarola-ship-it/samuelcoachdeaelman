@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import {
   cities,
   citySlugs,
@@ -8,7 +9,7 @@ import {
   locales,
   nationalCopy
 } from "../../scripts/commercial-page-data.mjs";
-import { renderCommercialPage } from "../../scripts/generate-commercial-pages.mjs";
+import { commercialOutputs, renderCommercialPage } from "../../scripts/generate-commercial-pages.mjs";
 
 const expectedCitySlugs = [
   "alicante",
@@ -114,4 +115,17 @@ test("renderer localizes city copy, H1, and WhatsApp message", () => {
   assert.doesNotMatch(english, /Clases de alemán online/);
   assert.match(german, /wa\.me\/34644220965/);
   assert.match(english, /wa\.me\/34644220965/);
+});
+
+test("commercial output matrix covers three national and 75 city routes", () => {
+  assert.equal(commercialOutputs.length, 78);
+  assert.equal(commercialOutputs.filter((output) => output.citySlug === undefined).length, 3);
+  assert.equal(new Set(commercialOutputs.map(({ locale, citySlug }) => `${locale}:${citySlug || "national"}`)).size, 78);
+});
+
+test("generated commercial routes expose reciprocal alternates and city area data", () => {
+  const html = fs.readFileSync("barcelona/index.html", "utf8");
+  assert.match(html, /hreflang="de" href="https:\/\/www\.samuelcoachdealeman\.com\/de\/barcelona\//);
+  assert.match(html, /"areaServed":\["Barcelona","Cataluña"\]/);
+  assert.match(fs.readFileSync("sitemap.xml", "utf8"), /https:\/\/www\.samuelcoachdealeman\.com\/en\/barcelona\//);
 });

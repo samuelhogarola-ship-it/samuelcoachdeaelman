@@ -87,6 +87,8 @@ export function renderCommercialPage({ locale, citySlug } = {}) {
   <meta property="og:locale" content="${localeMeta[locale]}">
   <link rel="stylesheet" href="/assets/css/styles.css?v=20260613d">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
+  <script src="/assets/js/google-analytics-core.js?v=umami-20261015" defer></script>
+  <script src="/assets/js/umami-analytics-core.js" defer></script>
   <script type="application/ld+json">${JSON.stringify({
     "@context": "https://schema.org",
     "@type": ["EducationalOrganization", "ProfessionalService"],
@@ -118,19 +120,34 @@ export function renderCommercialPage({ locale, citySlug } = {}) {
 </html>`;
 }
 
+export const commercialOutputs = locales.flatMap((locale) => [
+  { locale },
+  ...citySlugs.map((citySlug) => ({ locale, citySlug }))
+]);
+
+function updateSitemap() {
+  const sitemapFile = path.join(rootDir, "sitemap.xml");
+  if (!fs.existsSync(sitemapFile)) return;
+  const source = fs.readFileSync(sitemapFile, "utf8");
+  const urls = new Set(commercialOutputs.map(({ locale, citySlug }) => absoluteRoute(locale, citySlug)));
+  let next = source.replace(/\s*<url>[\s\S]*?<\/url>/g, (block) => {
+    const match = block.match(/<loc>([^<]+)<\/loc>/);
+    return match && urls.has(match[1]) ? "" : block;
+  });
+  const entries = commercialOutputs.map(({ locale, citySlug }) => `  <url>\n    <loc>${absoluteRoute(locale, citySlug)}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>${citySlug ? "0.75" : "0.9"}</priority>\n  </url>`).join("\n");
+  next = next.replace("</urlset>", `${entries}\n</urlset>`);
+  fs.writeFileSync(sitemapFile, next, "utf8");
+}
+
 export function renderCommercialPages() {
-  const outputs = [];
-  for (const locale of locales) {
-    outputs.push({ locale });
-    for (const slug of citySlugs) outputs.push({ locale, citySlug: slug });
-  }
-  for (const output of outputs) {
+  for (const output of commercialOutputs) {
     const route = getCommercialRoute(output.locale, output.citySlug);
     const relative = route === "/" ? "index.html" : path.join(route.slice(1), "index.html");
     const file = path.join(rootDir, relative);
     fs.mkdirSync(path.dirname(file), { recursive: true });
     fs.writeFileSync(file, renderCommercialPage(output));
   }
+  updateSitemap();
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) renderCommercialPages();
+if (process.argv[1]?.endsWith("generate-commercial-pages.mjs")) renderCommercialPages();
