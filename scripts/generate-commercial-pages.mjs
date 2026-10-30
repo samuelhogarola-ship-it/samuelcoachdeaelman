@@ -91,24 +91,25 @@ export function renderCommercialPage({ locale, citySlug } = {}) {
   <script src="/assets/js/umami-analytics-core.js" defer></script>
   <script type="application/ld+json">${JSON.stringify({
     "@context": "https://schema.org",
-    "@type": ["EducationalOrganization", "ProfessionalService"],
+    "@type": ["EducationalOrganization", "ProfessionalService", "LocalBusiness"],
     name: "Samuel Coach de Alemán",
     url: absoluteRoute(locale, citySlug),
     telephone: "+34644220965",
     email: "samuelcoachdealeman@gmail.com",
+    priceRange: "30–40 EUR por hora",
     address: { "@type": "PostalAddress", addressLocality: "Fuengirola", addressRegion: "Andalucía", addressCountry: "ES" },
-    areaServed: city ? [city.name.es, city.region] : "España",
+    areaServed: city ? [city.name.es, city.region] : ["España", "Fuengirola", "Málaga", "Marbella", "Benalmádena", "Arroyo de la Miel", "Andalucía", "Madrid", "Barcelona", "Berlín", "Múnich", "Alemania", "Australia"],
     availableLanguage: ["es", "de", "en"]
-  })}</script>
+  }, null, 2)}</script>
 </head>
 <body class="home-page commercial-page" data-commercial-locale="${locale}"${city ? ` data-city="${city.slug}"` : ""}>
-  <header class="site-header"><a class="brand" href="${getCommercialRoute(locale)}">Samuel Coach de Alemán</a><nav aria-label="${esc(copy.navigation.home)}"><a href="${getCommercialRoute(locale)}">${esc(copy.navigation.home)}</a><a href="/f/">${esc(copy.navigation.blog)}</a><a href="/recursos/">${esc(copy.navigation.resources)}</a><a href="/contacto/">${esc(copy.navigation.contact)}</a></nav><div class="language-switcher">${localeLinks(locale, citySlug)}</div></header>
+  <header class="site-header"><a class="brand" href="${getCommercialRoute(locale)}">Samuel Coach de Alemán</a><nav aria-label="${esc(copy.navigation.home)}"><a href="${getCommercialRoute(locale)}">${esc(copy.navigation.home)}</a><a href="/f/">${esc(copy.navigation.blog)}</a><a href="/recursos/">${esc(copy.navigation.resources)}</a><a href="/contacto/">${esc(copy.navigation.contact)}</a><span id="nav-auth-li"><a href="/${locale === "es" ? "" : `${locale}/`}login/?redirect=${encodeURIComponent(getCommercialRoute(locale))}">${locale === "es" ? "Mi cuenta" : locale === "de" ? "Konto" : "Account"}</a></span></nav><div class="language-switcher">${localeLinks(locale, citySlug)}</div></header>
   <main>
     <section class="home-hero commercial-hero"><div class="home-shell"><p class="eyebrow">${esc(copy.hero.kicker)}</p><h1>${esc(h1)}</h1><p class="hero-lead">${esc(heroBody)}</p><div class="home-hero-grid"><div class="hero-content"><a class="button button-primary" href="#contacto">${esc(copy.contact.title)}</a><a class="button button-secondary" href="${whatsapp}">WhatsApp</a></div><div class="home-hero-media"><img class="home-hero-photo" src="/assets/img/hero-photo.webp" alt="Samuel, coach de alemán"></div></div></div></section>
-    <section id="metodo" class="content-section"><div class="home-shell"><p class="eyebrow">${esc(copy.method.title)}</p><h2>${esc(copy.method.title)}</h2><p>${esc(copy.method.body)}</p></div></section>
+    <section id="metodo" class="content-section"><div class="home-shell"><p class="eyebrow">${esc(copy.method.title)}</p><h2>${esc(copy.method.title)}</h2><p>${esc(copy.method.body)}</p><div class="commercial-offers"><strong>Individual desde 30 €/h</strong><strong>Pareja 40 €/h en total</strong></div></div></section>
     <section id="formato" class="content-section alt"><div class="home-shell"><h2>${esc(copy.format.title)}</h2><p>${esc(copy.format.body)}</p></div></section>
     <section id="objetivos" class="content-section"><div class="home-shell"><h2>${esc(copy.goals.title)}</h2>${renderGoals(copy)}</div></section>
-    <section id="opiniones" class="content-section alt"><div class="home-shell"><h2>${esc(copy.proof.title)}</h2><p>${esc(copy.proof.body)}</p></div></section>
+    <section id="opiniones" class="content-section alt"><div class="home-shell"><h2>${esc(copy.proof.title)}</h2><p>${esc(copy.proof.body)}</p><div class="home-reviews">${["Ana Muñoz", "Andrés Reyes Monge", "carmen delgado", "Unai", "Cris", "Toni"].map((name) => `<article class="home-review-card"><p>${esc(copy.proof.body)}</p><strong>${name}</strong></article>`).join("")}</div><p><span>123 reseñas</span> <span>48 opiniones</span></p></div></section>
     <section id="recursos" class="content-section"><div class="home-shell"><h2>${esc(copy.resources.title)}</h2><p>${esc(copy.resources.body)}</p><a href="/recursos/">${esc(copy.navigation.resources)}</a></div></section>
     <section id="faq" class="content-section alt"><div class="home-shell"><h2>${esc(copy.faq.title)}</h2>${renderFaq(copy)}</div></section>
     <section id="ciudades" class="content-section"><div class="home-shell"><h2>${esc(copy.cities.title)}</h2><p>${esc(city ? city.intro[locale] : copy.cities.body)}</p><p class="city-links">${nearby}</p></div></section>
@@ -116,6 +117,8 @@ export function renderCommercialPage({ locale, citySlug } = {}) {
   </main>
   <a class="floating-whatsapp" href="${whatsapp}" aria-label="WhatsApp">WhatsApp</a><a class="mobile-whatsapp-cta" href="${whatsapp}">WhatsApp</a>
   <footer class="site-footer"><div class="home-shell"><p>© Samuel Coach de Alemán · ${esc(copy.footer.rights)}</p></div></footer>
+  <aside id="commercial-cookie-banner" class="cookie-banner" role="dialog" aria-label="Tu privacidad importa"><h2>Tu privacidad importa</h2><p>Usamos cookies necesarias para que la web funcione.</p><button type="button" onclick="localStorage.setItem('commercial-cookie-ok','1'); this.closest('.cookie-banner').remove();">Aceptar</button></aside>
+  <script>if (localStorage.getItem('commercial-cookie-ok') === '1') document.getElementById('commercial-cookie-banner').remove();</script>
 </body>
 </html>`;
 }

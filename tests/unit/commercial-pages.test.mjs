@@ -126,6 +126,6 @@ test("commercial output matrix covers three national and 75 city routes", () => 
 test("generated commercial routes expose reciprocal alternates and city area data", () => {
   const html = fs.readFileSync("barcelona/index.html", "utf8");
   assert.match(html, /hreflang="de" href="https:\/\/www\.samuelcoachdealeman\.com\/de\/barcelona\//);
-  assert.match(html, /"areaServed":\["Barcelona","Cataluña"\]/);
+  assert.match(html, /"areaServed"\s*:\s*\[\s*"Barcelona"\s*,\s*"Cataluña"\s*\]/);
   assert.match(fs.readFileSync("sitemap.xml", "utf8"), /https:\/\/www\.samuelcoachdealeman\.com\/en\/barcelona\//);
 });
