@@ -8,6 +8,7 @@ import {
   locales,
   nationalCopy
 } from "../../scripts/commercial-page-data.mjs";
+import { renderCommercialPage } from "../../scripts/generate-commercial-pages.mjs";
 
 const expectedCitySlugs = [
   "alicante",
@@ -87,4 +88,30 @@ test("commercial routes map locale and city consistently", () => {
   assert.equal(getCommercialRoute("es", "barcelona"), "/barcelona/");
   assert.equal(getCommercialRoute("de", "barcelona"), "/de/barcelona/");
   assert.equal(getCommercialRoute("en", "barcelona"), "/en/barcelona/");
+});
+
+test("renderer keeps the national H1 and shared commercial structure", () => {
+  const html = renderCommercialPage({ locale: "es" });
+  assert.match(html, /<h1[^>]*>Clases de alemán online<\/h1>/);
+  for (const marker of ["método", "formato", "objetivos", "opiniones", "Recursos", "Preguntas frecuentes", "Clases de alemán online en toda España"]) {
+    assert.match(html, new RegExp(marker));
+  }
+  assert.match(html, /wa\.me\/34644220965/);
+  assert.match(html, /class="mobile-whatsapp-cta"/);
+});
+
+test("renderer localizes city copy, H1, and WhatsApp message", () => {
+  const barcelona = renderCommercialPage({ locale: "es", citySlug: "barcelona" });
+  assert.match(barcelona, /<h1[^>]*>Clases de alemán online en Barcelona<\/h1>/);
+  assert.match(barcelona, /Barcelona/);
+  assert.match(barcelona, /informarme%20sobre%20clases%20de%20alem%C3%A1n%20en%20Barcelona/);
+
+  const german = renderCommercialPage({ locale: "de", citySlug: "barcelona" });
+  const english = renderCommercialPage({ locale: "en", citySlug: "barcelona" });
+  assert.match(german, /<h1[^>]*>Online-Deutschunterricht in Barcelona<\/h1>/);
+  assert.match(english, /<h1[^>]*>Online German lessons in Barcelona<\/h1>/);
+  assert.doesNotMatch(german, /Clases de alemán online/);
+  assert.doesNotMatch(english, /Clases de alemán online/);
+  assert.match(german, /wa\.me\/34644220965/);
+  assert.match(english, /wa\.me\/34644220965/);
 });
