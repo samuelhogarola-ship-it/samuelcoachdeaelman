@@ -54,6 +54,7 @@ export function renderCommercialPage({ locale, citySlug } = {}) {
     ? `${locale === "es" ? "Clases de alemán online en" : locale === "de" ? "Online-Deutschunterricht in" : "Online German lessons in"} ${city.name[locale]} | Samuel Coach de Alemán`
     : meta.title;
   const description = city ? city.intro[locale] : meta.description;
+  const ogImage = city ? "og-home.webp" : "hero-photo.webp";
   const h1 = city
     ? `${locale === "es" ? "Clases de alemán online en" : locale === "de" ? "Online-Deutschunterricht in" : "Online German lessons in"} ${city.name[locale]}`
     : copy.hero.title;
@@ -83,12 +84,13 @@ export function renderCommercialPage({ locale, citySlug } = {}) {
   <meta property="og:url" content="${absoluteRoute(locale, citySlug)}">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
-  <meta property="og:image" content="${baseUrl}/assets/img/og-home.webp">
+  <meta property="og:image" content="${baseUrl}/assets/img/${ogImage}">
   <meta property="og:locale" content="${localeMeta[locale]}">
   <link rel="stylesheet" href="/assets/css/styles.css?v=20260613d">
   <link rel="icon" type="image/webp" href="/assets/img/favicon.webp">
   <script src="/assets/js/google-analytics-core.js?v=umami-20261015" defer></script>
   <script src="/assets/js/umami-analytics-core.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
   <script type="application/ld+json">${JSON.stringify({
     "@context": "https://schema.org",
     "@type": ["EducationalOrganization", "ProfessionalService", "LocalBusiness"],
@@ -103,9 +105,9 @@ export function renderCommercialPage({ locale, citySlug } = {}) {
   }, null, 2)}</script>
 </head>
 <body class="home-page commercial-page" data-commercial-locale="${locale}"${city ? ` data-city="${city.slug}"` : ""}>
-  <header class="site-header"><a class="brand" href="${getCommercialRoute(locale)}">Samuel Coach de Alemán</a><nav aria-label="${esc(copy.navigation.home)}"><a href="${getCommercialRoute(locale)}">${esc(copy.navigation.home)}</a><a href="/f/">${esc(copy.navigation.blog)}</a><a href="/recursos/">${esc(copy.navigation.resources)}</a><a href="/contacto/">${esc(copy.navigation.contact)}</a><span id="nav-auth-li"><a href="/${locale === "es" ? "" : `${locale}/`}login/?redirect=${encodeURIComponent(getCommercialRoute(locale))}">${locale === "es" ? "Mi cuenta" : locale === "de" ? "Konto" : "Account"}</a></span></nav><div class="language-switcher">${localeLinks(locale, citySlug)}</div></header>
+  <header class="site-header"><a class="brand" href="${getCommercialRoute(locale)}">Samuel Coach de Alemán</a><nav aria-label="${esc(copy.navigation.home)}"><a href="${getCommercialRoute(locale)}">${esc(copy.navigation.home)}</a><a href="${locale === "es" ? "/f/" : `/${locale}/f/`}">${esc(copy.navigation.blog)}</a><a href="/recursos/">${esc(copy.navigation.resources)}</a><a href="/contacto/">${esc(copy.navigation.contact)}</a><span id="nav-auth-li"><a href="/${locale === "es" ? "" : `${locale}/`}login/?redirect=${encodeURIComponent(getCommercialRoute(locale))}">${locale === "es" ? "Mi cuenta" : locale === "de" ? "Konto" : "Account"}</a></span></nav><div class="language-switcher">${localeLinks(locale, citySlug)}</div></header>
   <main>
-    <section class="home-hero commercial-hero"><div class="home-shell"><p class="eyebrow">${esc(copy.hero.kicker)}</p><h1>${esc(h1)}</h1><p class="hero-lead">${esc(heroBody)}</p><div class="home-hero-grid"><div class="hero-content"><a class="button button-primary" href="#contacto">${esc(copy.contact.title)}</a><a class="button button-secondary" href="${whatsapp}">WhatsApp</a></div><div class="home-hero-media"><img class="home-hero-photo" src="/assets/img/hero-photo.webp" alt="Samuel, coach de alemán"></div></div></div></section>
+    <section class="home-hero commercial-hero"><div class="home-shell"><p class="eyebrow">${esc(copy.hero.kicker)}</p><h1>${esc(h1)}</h1><p class="hero-lead">${esc(heroBody)}</p><div class="home-hero-grid"><div class="hero-content"><a class="button button-primary" href="#contacto">${esc(copy.contact.title)}</a><a class="button button-secondary" href="${whatsapp}">WhatsApp</a></div><div class="home-hero-media hero-photo"><img class="home-hero-photo" src="/assets/img/hero-photo.webp" alt="Samuel, coach de alemán"></div></div></div></section>
     <section id="metodo" class="content-section"><div class="home-shell"><p class="eyebrow">${esc(copy.method.title)}</p><h2>${esc(copy.method.title)}</h2><p>${esc(copy.method.body)}</p><div class="commercial-offers"><strong>Individual desde 30 €/h</strong><strong>Pareja 40 €/h en total</strong></div></div></section>
     <section id="formato" class="content-section alt"><div class="home-shell"><h2>${esc(copy.format.title)}</h2><p>${esc(copy.format.body)}</p></div></section>
     <section id="objetivos" class="content-section"><div class="home-shell"><h2>${esc(copy.goals.title)}</h2>${renderGoals(copy)}</div></section>
@@ -113,9 +115,9 @@ export function renderCommercialPage({ locale, citySlug } = {}) {
     <section id="recursos" class="content-section"><div class="home-shell"><h2>${esc(copy.resources.title)}</h2><p>${esc(copy.resources.body)}</p><a href="/recursos/">${esc(copy.navigation.resources)}</a></div></section>
     <section id="faq" class="content-section alt"><div class="home-shell"><h2>${esc(copy.faq.title)}</h2>${renderFaq(copy)}</div></section>
     <section id="ciudades" class="content-section"><div class="home-shell"><h2>${esc(copy.cities.title)}</h2><p>${esc(city ? city.intro[locale] : copy.cities.body)}</p><p class="city-links">${nearby}</p></div></section>
-    <section id="contacto" class="content-section contact-section"><div class="home-shell"><h2>${esc(copy.contact.title)}</h2><p>${esc(copy.contact.body)}</p><form action="/api/contact" method="post"><label>${locale === "es" ? "Nombre" : locale === "de" ? "Name" : "Name"}<input name="name" required></label><label>Email<input type="email" name="email" required></label><button class="button button-primary" type="submit">${esc(copy.contact.title)}</button></form></div></section>
+    <section id="valoracion" class="content-section contact-section"><div class="home-shell"><h2 id="valoracion-title">${esc(copy.contact.title)}</h2><p>${esc(copy.contact.body)}</p><form class="offer-form" action="/functions/v1/contact" method="post" novalidate><input type="text" name="company" class="form-honeypot" tabindex="-1"><input type="hidden" name="turnstileToken" value=""><label>Nombre<input name="name" required></label><label>Email<input type="email" name="email" required></label><label>Teléfono o WhatsApp<input name="phone"></label><label>Edad<select name="age_band" required><option value="">Selecciona una etapa</option><option value="6–11">6–11</option><option value="12–17">12–17</option><option value="18+">18+</option></select></label><label>Objetivo<select name="goal" required><option value="">Selecciona tu objetivo</option><option value="Trabajo">Trabajo</option><option value="Colegio e instituto">Colegio e instituto</option></select></label><label>Nivel actual<select name="current_level" required><option value="">Selecciona tu nivel</option><option value="A1">A1</option><option value="B1">B1</option></select></label><label>Disponibilidad<select name="availability" required><option value="">Selecciona una opción</option><option value="Tardes">Tardes</option><option value="Flexible">Flexible</option></select></label><div class="form-turnstile" data-turnstile-container data-turnstile-required="Confirma que no eres un bot." data-turnstile-error="No se pudo cargar la comprobación de seguridad. Escríbeme por WhatsApp o inténtalo de nuevo en unos minutos."><div class="form-turnstile-widget"></div></div><button type="submit" class="contact-btn home-form-submit">Quiero mi plan personalizado</button><p class="form-status" role="status"></p></form></div></section>
   </main>
-  <a class="floating-whatsapp" href="${whatsapp}" aria-label="WhatsApp">WhatsApp</a><a class="mobile-whatsapp-cta" href="${whatsapp}">WhatsApp</a>
+  <a class="floating-whatsapp" href="${whatsapp}" aria-label="Abrir WhatsApp para pedir más información">WhatsApp</a><a class="mobile-whatsapp-cta" href="${whatsapp}">WhatsApp</a>
   <footer class="site-footer"><div class="home-shell"><p>© Samuel Coach de Alemán · ${esc(copy.footer.rights)}</p></div></footer>
   <aside id="commercial-cookie-banner" class="cookie-banner" role="dialog" aria-label="Tu privacidad importa"><h2>Tu privacidad importa</h2><p>Usamos cookies necesarias para que la web funcione.</p><button type="button" onclick="localStorage.setItem('commercial-cookie-ok','1'); this.closest('.cookie-banner').remove();">Aceptar</button></aside>
   <script>if (localStorage.getItem('commercial-cookie-ok') === '1') document.getElementById('commercial-cookie-banner').remove();</script>

@@ -44,6 +44,20 @@
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
   align-items: center;
 }
+.commercial-page .floating-whatsapp {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 500;
+  display: inline-flex;
+  align-items: center;
+  padding: .75rem 1rem;
+  border-radius: 999px;
+  background: #25d366;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgba(0,0,0,.2);
+}
 .commercial-offers {
   display: flex;
   flex-wrap: wrap;
