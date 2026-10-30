@@ -2063,6 +2063,7 @@ ${renderFooter(locale)}
 
 function writeLocalizedPages() {
   for (const page of pages) {
+    if (page.key === "home") continue;
     const targetLocales = page.locales || locales;
     for (const locale of targetLocales) {
       const relativeFile = path.join(locale, page.slug, "index.html");
@@ -2078,6 +2079,7 @@ function writeLocalizedPages() {
 
 function updateOriginalAlternates() {
   for (const page of pages) {
+    if (page.key === "home") continue;
     if (!page.sourceFile) continue;
     const targetFile = path.join(rootDir, page.sourceFile);
     const source = fs.readFileSync(targetFile, "utf8");
@@ -2096,6 +2098,7 @@ function updateSitemap() {
   const localizedEntries = [];
 
   for (const page of pages) {
+    if (page.key === "home") continue;
     const targetLocales = page.locales || locales;
     for (const locale of targetLocales) {
       localizedEntries.push(`  <url>
