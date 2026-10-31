@@ -82250,5 +82250,353 @@
         "respuesta": true
       }
     ]
+  },
+  {
+    "slug": "mein-lieblingsbuch-als-kind",
+    "nivel": "A1",
+    "titulo": "Mein Lieblingsbuch als Kind",
+    "descripcion": "Lena erzählt von ihrem Lieblingsbuch aus der Kindheit.",
+    "texto": "Lena ist zehn Jahre alt. Sie liebt Bücher sehr. Ihr Lieblingsbuch heißt „Die kleine Hexe\". Das Buch ist alt und bunt. Lena liest es jeden Abend vor dem Schlafen.\n\nIn dem Buch wohnt eine kleine Hexe im Wald. Die Hexe hat eine Katze. Die Katze heißt Abraxas. Lena mag die Katze sehr gern. Das Buch hat viele bunte Bilder.\n\nLena liest das Buch schon zehn Mal. Ihre Mutter liest das Buch auch gern. Am Wochenende lesen sie zusammen. Das macht beiden viel Spaß.",
+    "preguntas": [
+      {
+        "enunciado": "Lena ist zehn Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Lieblingsbuch heißt „Die kleine Hexe\".",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Hexe wohnt in der Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Katze der Hexe heißt Abraxas.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lena liest das Buch nur einmal.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-sonntagsspaziergang-mit-dem-hund",
+    "nivel": "A1",
+    "titulo": "Der Sonntagsspaziergang mit dem Hund",
+    "descripcion": "Paul und sein Hund Bruno machen jeden Sonntag einen Spaziergang.",
+    "texto": "Paul hat einen Hund. Der Hund heißt Bruno. Bruno ist braun und sehr groß. Jeden Sonntag gehen Paul und Bruno in den Park.\n\nIm Park gibt es einen See und viele Bäume. Bruno läuft gern am See. Paul wirft einen Ball, und Bruno holt ihn. Danach trinkt Bruno Wasser aus seiner Flasche.\n\nNach dem Spaziergang gehen Paul und Bruno nach Hause. Bruno ist müde und schläft auf seinem Platz. Paul kocht Kaffee und liest die Zeitung. Der Sonntag ist für beide sehr schön.",
+    "preguntas": [
+      {
+        "enunciado": "Paul hat einen Hund namens Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno ist klein und weiß.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Park gibt es einen See.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bruno trinkt Milch aus der Flasche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Spaziergang schläft Bruno.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-tasche-fuer-die-schule",
+    "nivel": "A1",
+    "titulo": "Meine Tasche für die Schule",
+    "descripcion": "Mia packt jeden Morgen ihre Schultasche.",
+    "texto": "Mia ist acht Jahre alt. Sie geht jeden Morgen in die Schule. Ihre Schultasche ist rot und gelb. Die Tasche ist nicht schwer.\n\nIn der Tasche sind viele Sachen. Mia hat ein Buch, ein Heft und einen Bleistift. Sie hat auch eine Trinkflasche und ein kleines Brot. Am Montag packt sie auch ihre Sportschuhe ein.\n\nVor der Schule frühstückt Mia mit ihrer Familie. Dann nimmt sie die Tasche und geht los. Der Schulweg ist kurz. Mia mag ihre Schule sehr.",
+    "preguntas": [
+      {
+        "enunciado": "Mia ist acht Jahre alt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schultasche ist rot und gelb.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia hat keinen Bleistift in der Tasche.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Mia frühstückt nie vor der Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Schulweg ist kurz.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "das-missverstaendnis-im-hotel",
+    "nivel": "A2",
+    "titulo": "Das Missverständnis im Hotel",
+    "descripcion": "Herr Schneider hat bei seiner Ankunft im Hotel ein lustiges Missverständnis erlebt.",
+    "texto": "Herr Schneider ist letzte Woche nach München gefahren, weil er dort eine Konferenz hatte. Er hat ein Zimmer in einem kleinen Hotel in der Nähe des Bahnhofs reserviert. Als er angekommen ist, hat die Rezeptionistin gesagt, dass sein Zimmer noch nicht fertig ist.\n\nHerr Schneider hat zwei Stunden in der Lobby gewartet. Er hat gedacht, dass er die falsche Reservierung gemacht hat. Später hat die Rezeptionistin erklärt, dass es einen Fehler im Computersystem gegeben hat. Sein richtiges Zimmer war die ganze Zeit frei, aber niemand hat es bemerkt.\n\nAm Ende hat das Hotel ihm einen Rabatt angeboten, weil die Situation so unangenehm war. Herr Schneider war trotzdem zufrieden, denn das Zimmer war sehr schön und ruhig. Er hat dem Hotel eine positive Bewertung geschrieben.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Schneider ist nach München gefahren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er hat sofort sein Zimmer bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Rezeptionistin hat einen Fehler im Computersystem erklärt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Hotel hat ihm keinen Rabatt angeboten.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Herr Schneider war am Ende zufrieden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-defekte-wasserhahn",
+    "nivel": "A2",
+    "titulo": "Der defekte Wasserhahn",
+    "descripcion": "Frau Berger musste einen Klempner rufen, weil ihr Wasserhahn kaputt war.",
+    "texto": "Letzten Montag ist der Wasserhahn in Frau Bergers Küche kaputt gegangen. Das Wasser ist die ganze Nacht getropft, und am Morgen stand eine kleine Pfütze auf dem Boden. Frau Berger hat sofort einen Klempner angerufen, weil sie die Reparatur nicht selbst machen konnte.\n\nDer Klempner ist erst am Nachmittag gekommen, obwohl Frau Berger ihn schon am Morgen angerufen hatte. Er hat gesagt, dass das Problem an einer alten Dichtung lag. Die Reparatur hat nur eine halbe Stunde gedauert, aber die Rechnung war höher, als Frau Berger erwartet hatte.\n\nTrotzdem war sie am Ende froh, dass der Wasserhahn wieder funktioniert hat. Sie hat sich vorgenommen, dass sie in Zukunft die Wohnung regelmäßiger kontrolliert. Am Abend hat sie ihrer Nachbarin von dem Problem erzählt.",
+    "preguntas": [
+      {
+        "enunciado": "Der Wasserhahn ist am Montag kaputt gegangen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Berger hat die Reparatur selbst gemacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Klempner ist sofort am Morgen gekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Problem lag an einer alten Dichtung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Rechnung war niedriger, als Frau Berger erwartet hatte.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-ueberraschungsparty-fuer-den-opa",
+    "nivel": "A2",
+    "titulo": "Die Überraschungsparty für den Opa",
+    "descripcion": "Die Familie hat eine Überraschungsparty zum 70. Geburtstag des Opas organisiert.",
+    "texto": "Opa Werner hat letzten Samstag seinen 70. Geburtstag gefeiert. Seine Kinder und Enkelkinder haben heimlich eine Überraschungsparty geplant, weil er immer gesagt hat, dass er keine große Feier möchte. Die ganze Familie hat zusammen den Garten dekoriert und einen Kuchen gebacken.\n\nAls Opa Werner nach Hause gekommen ist, hat er zuerst gedacht, dass niemand da ist. Dann sind plötzlich alle Gäste aus dem Garten gekommen und haben „Herzlichen Glückwunsch!\" gerufen. Opa Werner war so überrascht, dass er fast geweint hat.\n\nDie Party hat bis spät in die Nacht gedauert. Es gab Musik, Essen und viele alte Fotos. Opa Werner hat gesagt, dass es der schönste Geburtstag seines Lebens war. Am Ende haben alle zusammen aufgeräumt.",
+    "preguntas": [
+      {
+        "enunciado": "Opa Werner ist 70 Jahre alt geworden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa Werner hat die Party selbst organisiert.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Niemand war zu Hause, als Opa Werner ankam.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Party hat bis spät in die Nacht gedauert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Opa Werner fand es den schönsten Geburtstag seines Lebens.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-erster-tag-im-buero",
+    "nivel": "B1",
+    "titulo": "Mein erster Tag im Büro",
+    "descripcion": "Jonas berichtet von seinem ersten Arbeitstag in einer neuen Firma.",
+    "texto": "Nachdem Jonas monatelang Bewerbungen geschrieben hatte, bekam er endlich eine Zusage von einer mittelgroßen Firma in Frankfurt. Am ersten Arbeitstag war er sehr nervös, obwohl er sich gut vorbereitet hatte. Er zog seinen besten Anzug an und kam eine halbe Stunde früher an, weil er pünktlich sein wollte.\n\nSein neuer Chef begrüßte ihn freundlich und stellte ihn dem Team vor. Die Kollegen waren alle sehr hilfsbereit, und Jonas fühlte sich schnell willkommen. Trotzdem machte er am Vormittag einen kleinen Fehler, als er eine E-Mail an den falschen Kunden schickte. Zum Glück konnte sein Kollege das Problem schnell lösen, bevor es ernst wurde.\n\nAm Ende des Tages war Jonas erschöpft, aber auch stolz auf sich. Er hatte viele neue Namen gelernt und verstand schon einen Teil der Arbeitsabläufe. Auf dem Heimweg dachte er, dass dieser Job eine gute Entscheidung gewesen war, obwohl der erste Tag anstrengend war.",
+    "preguntas": [
+      {
+        "enunciado": "Jonas hatte monatelang Bewerbungen geschrieben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas kam eine halbe Stunde zu spät zur Arbeit.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Kollegen waren unfreundlich zu Jonas.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas schickte eine E-Mail an den falschen Kunden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Jonas war am Ende des Tages nicht zufrieden mit seiner Entscheidung.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-stadtfest-und-seine-tradition",
+    "nivel": "B1",
+    "titulo": "Das Stadtfest und seine Tradition",
+    "descripcion": "In einer kleinen Stadt wird seit über hundert Jahren ein traditionelles Stadtfest gefeiert.",
+    "texto": "In der kleinen Stadt Rothenburg wird seit mehr als hundert Jahren jedes Jahr im Sommer ein großes Stadtfest gefeiert. Die Bewohner bereiten sich schon Wochen vorher vor, indem sie die Straßen mit Blumen und Fahnen dekorieren. Obwohl sich die Welt seitdem stark verändert hat, bleiben viele alte Bräuche beim Fest erhalten.\n\nAm Freitagabend beginnt das Fest traditionell mit einem Umzug durch die Altstadt, bei dem die Menschen historische Kostüme tragen. Nachdem der Umzug beendet ist, öffnen die Stände mit regionalen Spezialitäten, und auf dem Marktplatz spielt eine Musikkapelle bis spät in die Nacht. Viele Touristen reisen extra für dieses Ereignis an, weil das Fest mittlerweile auch international bekannt ist.\n\nJüngere Generationen haben dem Fest in den letzten Jahren neue Elemente hinzugefügt, etwa einen Markt für lokale Kunsthandwerker. Trotzdem betonen die älteren Bewohner, dass der historische Charakter des Festes unbedingt erhalten bleiben muss. Für die ganze Stadt ist das Fest ein wichtiger Teil ihrer Identität geworden.",
+    "preguntas": [
+      {
+        "enunciado": "Das Stadtfest findet seit über hundert Jahren statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Fest findet immer im Winter statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Umzug durch die Altstadt findet am Freitagabend statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Keine Touristen interessieren sich für das Fest.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die älteren Bewohner wollen den historischen Charakter des Festes bewahren.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-ausflug-der-theater-ag",
+    "nivel": "B1",
+    "titulo": "Der Ausflug der Theater-AG",
+    "descripcion": "Eine Schulklasse fährt mit ihrer Theater-AG zu einem Festival in eine andere Stadt.",
+    "texto": "Die Theater-AG des Gymnasiums hatte monatelang für ein eigenes Stück geprobt, bevor sie zu einem Jugendtheaterfestival nach Leipzig eingeladen wurde. Die Schülerinnen und Schüler waren begeistert, obwohl die lange Busfahrt von fünf Stunden sie etwas müde machte. Ihre Lehrerin, Frau Keller, hatte alles bis ins Detail organisiert, damit nichts schiefging.\n\nNachdem die Gruppe im Jugendhotel angekommen war, hatten die Schüler nur wenig Zeit, sich zu erholen, bevor die erste Probe auf der großen Bühne begann. Die Bühne war viel größer als die Aula ihrer Schule, und einige Schüler hatten zunächst Lampenfieber. Trotzdem lief die Aufführung am Abend erstaunlich gut, und das Publikum applaudierte lange.\n\nAm nächsten Tag besuchten die Schüler noch andere Vorstellungen und tauschten sich mit Jugendlichen aus anderen Schulen aus. Viele fanden es spannend, zu sehen, wie unterschiedlich die Gruppen ihre Geschichten erzählten. Auf der Rückfahrt waren alle erschöpft, aber einig, dass sich die Reise gelohnt hatte.",
+    "preguntas": [
+      {
+        "enunciado": "Die Theater-AG wurde zu einem Festival nach Leipzig eingeladen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Busfahrt dauerte nur eine Stunde.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Bühne in Leipzig war kleiner als die Aula der Schule.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Publikum applaudierte lange nach der Aufführung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Schüler waren sich am Ende einig, dass sich die Reise gelohnt hatte.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-wandel-der-innenstaedte-durch-den-online-handel",
+    "nivel": "B2",
+    "titulo": "Der Wandel der Innenstädte durch den Online-Handel",
+    "descripcion": "Der wachsende Online-Handel verändert das Gesicht deutscher Innenstädte grundlegend.",
+    "texto": "In den vergangenen zwei Jahrzehnten hat sich das Einkaufsverhalten der Menschen in Deutschland grundlegend verändert. Während früher die meisten Produkte in den zahlreichen, oft familiengeführten Geschäften der Innenstädte gekauft wurden, bestellen heute immer mehr Verbraucher ihre Waren bequem von zu Hause aus im Internet. Diese Entwicklung hat zur Folge, dass viele traditionelle Läden schließen mussten, weil sie mit den niedrigen Preisen und der schnellen Lieferung großer Onlineplattformen nicht konkurrieren konnten.\n\nExperten diskutieren seit Jahren darüber, wie die Innenstädte attraktiv gehalten werden könnten, damit sie nicht vollständig veröden. Manche Städte setzen auf kulturelle Veranstaltungen und verkehrsberuhigte Zonen, während andere versuchen, durch günstigere Mieten kleine, innovative Geschäfte anzuziehen. Wäre der stationäre Handel nicht so stark unter Druck, bräuchten viele Kommunen solche Maßnahmen gar nicht erst zu ergreifen.\n\nKritiker des Online-Handels weisen zudem darauf hin, dass mit dem Verschwinden der Geschäfte auch ein wichtiger sozialer Treffpunkt verloren geht. Die Innenstadt, die früher als lebendiger Mittelpunkt des städtischen Lebens galt, werde zunehmend durch leere Schaufenster und Billigläden geprägt, so die Befürchtung vieler Stadtplaner. Dennoch betonen Befürworter des digitalen Wandels, dass der Online-Handel auch neue Arbeitsplätze in der Logistikbranche geschaffen habe.\n\nLetztlich scheint klar, dass die Innenstädte der Zukunft neu gedacht werden müssen. Es wird zunehmend gefordert, dass Wohnen, Kultur und Handel stärker miteinander verbunden werden, um die Attraktivität der Zentren langfristig zu sichern. Ob dies gelingt, wird sich erst in den kommenden Jahren zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Früher wurden die meisten Produkte in Innenstadtgeschäften gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Online-Handel hat keinen Einfluss auf traditionelle Läden.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Städte setzen auf kulturelle Veranstaltungen, um die Innenstädte attraktiv zu halten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen im Verschwinden der Geschäfte keinen Verlust für das soziale Leben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Online-Handel hat laut Befürwortern neue Arbeitsplätze in der Logistik geschaffen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-abhaengigkeit-vom-smartphone-bei-jugendlichen",
+    "nivel": "B2",
+    "titulo": "Die Abhängigkeit vom Smartphone bei Jugendlichen",
+    "descripcion": "Psychologen warnen vor den Folgen einer übermäßigen Smartphone-Nutzung im Jugendalter.",
+    "texto": "Kaum ein anderes Thema wird in den vergangenen Jahren so kontrovers diskutiert wie die zunehmende Nutzung von Smartphones unter Jugendlichen. Studien zufolge verbringen viele Teenager mehrere Stunden täglich mit sozialen Netzwerken, Videospielen und Messenger-Diensten, was von zahlreichen Psychologen als besorgniserregend eingeschätzt wird. Besonders die ständige Erreichbarkeit und der Druck, auf Nachrichten sofort reagieren zu müssen, werden als belastende Faktoren genannt.\n\nEinige Wissenschaftler argumentieren, dass nicht die reine Nutzungsdauer entscheidend sei, sondern vielmehr die Art der Nutzung. Wer das Smartphone überwiegend zur Kommunikation mit Freunden oder zum Lernen verwende, zeige seltener negative Auswirkungen als jemand, der stundenlang passiv Inhalte konsumiere. Dennoch würde, so viele Experten, eine allgemeine Reduzierung der Bildschirmzeit den meisten Jugendlichen gut tun.\n\nIn mehreren Ländern wurden bereits Maßnahmen ergriffen, um der Entwicklung entgegenzuwirken. So wurde beispielsweise in manchen Schulen die Nutzung von Smartphones während des Unterrichts vollständig verboten. Wäre ein solches Verbot nicht eingeführt worden, hätten viele Lehrkräfte berichtet, dass die Konzentration der Schüler im Unterricht erheblich gelitten hätte.\n\nTrotz aller Debatten sind sich die meisten Fachleute einig, dass ein vollständiger Verzicht auf digitale Geräte weder realistisch noch sinnvoll wäre. Vielmehr solle Jugendlichen ein bewusster und reflektierter Umgang mit ihrem Smartphone vermittelt werden, damit sie die Vorteile der Technologie nutzen können, ohne von ihr abhängig zu werden.",
+    "preguntas": [
+      {
+        "enunciado": "Studien zeigen, dass viele Jugendliche mehrere Stunden täglich das Smartphone nutzen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Alle Wissenschaftler sind sich einig, dass die Nutzungsdauer allein entscheidend ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In manchen Schulen wurde die Smartphone-Nutzung im Unterricht verboten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die meisten Fachleute fordern einen vollständigen Verzicht auf digitale Geräte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten empfehlen einen bewussten und reflektierten Umgang mit dem Smartphone.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-strukturwandel-in-der-industrieregion",
+    "nivel": "B2",
+    "titulo": "Der Strukturwandel in der Industrieregion",
+    "descripcion": "Eine ehemalige Kohleregion kämpft mit dem wirtschaftlichen und sozialen Wandel nach der Schließung der Zechen.",
+    "texto": "Über Jahrzehnte prägte der Steinkohlebergbau das wirtschaftliche und soziale Leben im Ruhrgebiet. Ganze Generationen von Familien verdienten ihren Lebensunterhalt in den Zechen, und die Identität vieler Städte war untrennbar mit der Industrie verbunden. Mit der Schließung der letzten Zechen in den vergangenen Jahren endete jedoch eine Ära, die das Gesicht der Region über mehr als hundert Jahre bestimmt hatte.\n\nDer daraus resultierende Strukturwandel stellt die betroffenen Kommunen bis heute vor erhebliche Herausforderungen. Tausende Arbeitsplätze, die früher in der Schwerindustrie existierten, mussten durch neue Wirtschaftszweige ersetzt werden, was sich als äußerst schwierig erwies. Wäre nicht in Bildung, Forschung und neue Technologien investiert worden, wäre die wirtschaftliche Lage in vielen Städten der Region vermutlich noch dramatischer ausgefallen.\n\nEinige ehemalige Industriegebiete wurden inzwischen erfolgreich umgewandelt, etwa in Kulturzentren, Universitäten oder Technologieparks. Das stillgelegte Gelände einer früheren Zeche wird heute beispielsweise von zahlreichen jungen Unternehmen genutzt, die in den Bereichen erneuerbare Energien und digitale Technologien tätig sind. Dennoch bleibt die Arbeitslosigkeit in Teilen der Region höher als im bundesweiten Durchschnitt, was zeigt, dass der Wandel noch längst nicht abgeschlossen ist.\n\nSozialwissenschaftler betonen, dass ein erfolgreicher Strukturwandel nicht allein durch wirtschaftliche Maßnahmen gelingen könne. Vielmehr müsse auch die Identität der Menschen berücksichtigt werden, die über Generationen mit der alten Industrie verbunden war. Nur wenn beides gelinge, könne die Region langfristig eine neue, stabile Zukunft aufbauen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Steinkohlebergbau prägte über Jahrzehnte das Ruhrgebiet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Zechen im Ruhrgebiet sind noch alle in Betrieb.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Einige ehemalige Industriegebiete wurden in Kulturzentren oder Technologieparks umgewandelt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Arbeitslosigkeit in der Region liegt unter dem bundesweiten Durchschnitt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sozialwissenschaftler meinen, dass auch die Identität der Menschen berücksichtigt werden muss.",
+        "respuesta": true
+      }
+    ]
   }
 ]
