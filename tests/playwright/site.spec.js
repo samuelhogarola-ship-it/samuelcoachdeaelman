@@ -46,6 +46,24 @@ test.describe("home interactions", () => {
     await page.goto("/");
   });
 
+  test("keeps the floating WhatsApp button inside the viewport", async ({ page }) => {
+    const button = page.getByRole("link", {
+      name: /abrir whatsapp para pedir más información/i
+    });
+
+    const position = await button.evaluate((element) => {
+      const rect = element.getBoundingClientRect();
+      return {
+        top: rect.top,
+        bottom: rect.bottom,
+        viewportHeight: window.innerHeight
+      };
+    });
+
+    expect(position.top).toBeGreaterThanOrEqual(0);
+    expect(position.bottom).toBeLessThanOrEqual(position.viewportHeight);
+  });
+
   test("remembers cookie consent after accepting", async ({ page }) => {
     await page.getByRole("button", { name: "Aceptar" }).click();
     await expect(page.getByRole("heading", { name: /tu privacidad importa/i })).toHaveCount(0);

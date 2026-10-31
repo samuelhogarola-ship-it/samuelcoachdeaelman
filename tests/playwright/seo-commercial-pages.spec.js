@@ -50,9 +50,9 @@ test.describe("SEO commercial pages", () => {
   test("homepage exposes local German-specialist intent without review rating schema", async ({ page }) => {
     await page.goto("/");
 
-    await expect(page).toHaveTitle(/academia de alemán online.*clases personalizadas en españa/i);
+    await expect(page).toHaveTitle(/clases de alemán online.*samuel coach de alemán/i);
     await expect(page.locator('meta[name="keywords"]')).toHaveCount(0);
-    await expect(page.locator("h1")).toHaveText("Clases de alemán online en toda España");
+    await expect(page.locator("h1")).toHaveText("Clases de alemán online");
     await expect(page.getByText("Individual desde 30 €/h", { exact: true })).toBeVisible();
     await expect(page.getByText("Pareja 40 €/h en total", { exact: true })).toBeVisible();
     await expect(page.getByText("Éxito 100% garantizado", { exact: true })).toHaveCount(0);
@@ -61,6 +61,25 @@ test.describe("SEO commercial pages", () => {
     const joinedStructuredData = structuredData.join(" ");
     expect(joinedStructuredData).not.toContain("aggregateRating");
     expect(joinedStructuredData).toContain('"priceRange": "30–40 EUR por hora"');
+  });
+
+  test("localized commercial city routes keep the same structure and translated H1", async ({ page }) => {
+    for (const [path, heading] of [
+      ["/barcelona/", "Clases de alemán online en Barcelona"],
+      ["/de/barcelona/", "Online-Deutschunterricht in Barcelona"],
+      ["/en/barcelona/", "Online German lessons in Barcelona"]
+    ]) {
+      await page.goto(path);
+      await expect(page.locator("h1")).toHaveText(heading);
+      await expect(page.locator(".floating-whatsapp")).toBeVisible();
+      await expect(page.locator(".mobile-whatsapp-cta")).toHaveAttribute("href", /wa\.me\/34644220965/);
+      await expect(page.locator("#metodo")).toBeVisible();
+      await expect(page.locator("#formato")).toBeVisible();
+      await expect(page.locator("#objetivos")).toBeVisible();
+      await expect(page.locator("#opiniones")).toBeVisible();
+      await expect(page.locator("#recursos")).toBeVisible();
+      await expect(page.locator("#faq")).toBeVisible();
+    }
   });
 
   test("academy pages describe local and online coverage without implying extra locations", async ({ page }) => {

@@ -16,6 +16,75 @@
   --radius: 8px;
 }
 
+/* Unified commercial pages: keep the H1 in its own full-width first row. */
+.commercial-page .commercial-hero {
+  overflow: hidden;
+}
+.commercial-page .commercial-hero::before,
+.commercial-page .commercial-hero::after,
+.commercial-page .home-hero-media::before,
+.commercial-page .home-hero-media::after {
+  display: none;
+}
+.commercial-page .home-hero-photo {
+  -webkit-mask-image: none;
+  mask-image: none;
+  filter: none;
+}
+.commercial-page .commercial-hero h1 {
+  width: 100%;
+  max-width: none;
+  margin: 0 0 1rem;
+  text-wrap: balance;
+}
+.commercial-page .commercial-hero .hero-lead {
+  max-width: 70ch;
+}
+.commercial-page .home-hero-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
+  align-items: center;
+}
+.commercial-page .floating-whatsapp {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 500;
+  display: inline-flex;
+  align-items: center;
+  padding: .75rem 1rem;
+  border-radius: 999px;
+  background: #25d366;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgba(0,0,0,.2);
+}
+.commercial-offers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  margin-top: 1.25rem;
+}
+.home-reviews {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.home-review-card {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.7);
+}
+@media (max-width: 760px) {
+  .commercial-page .home-hero-grid,
+  .home-reviews {
+    grid-template-columns: 1fr;
+  }
+  .commercial-page .commercial-hero h1 {
+    font-size: clamp(2.25rem, 11vw, 3.5rem);
+  }
+}
+
 html { scroll-behavior: smooth; }
 body { font-family: "Lato", arial, sans-serif; color: var(--text); background: var(--white); font-size: 16px; line-height: 1.65; }
 h1, h2, h3, h4 { font-family: "Cabin", arial, sans-serif; line-height: 1.25; }
@@ -6194,12 +6263,13 @@ body:not(.premium-page):not(.home-page) .footer-bottom {
 
 /* ─── Page transitions — Fade + Slight Up ───────────────────────── */
 @keyframes page-enter {
-  from { opacity: 0; transform: translateY(10px); }
-  to   { opacity: 1; transform: none; }
+  /* Keep transforms off body so fixed controls stay relative to the viewport. */
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 @keyframes page-leave {
-  from { opacity: 1; transform: none; }
-  to   { opacity: 0; transform: translateY(-7px); }
+  from { opacity: 1; }
+  to   { opacity: 0; }
 }
 
 body {
