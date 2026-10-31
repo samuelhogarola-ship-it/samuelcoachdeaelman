@@ -81902,5 +81902,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "das-fruehstueck-am-sonntag",
+    "nivel": "A1",
+    "titulo": "Das Frühstück am Sonntag",
+    "descripcion": "Die Familie Berger frühstückt zusammen am Sonntag.",
+    "texto": "Am Sonntag frühstückt die Familie Berger immer zusammen. Der Tisch ist bunt gedeckt. Es gibt Brötchen, Butter, Marmelade und Käse. Mama kocht frischen Kaffee. Papa macht Rührei für alle.\n\nDie Kinder Lena und Tim trinken Kakao. Lena isst gern Honig auf dem Brötchen. Tim mag lieber Marmelade. Der Hund Bruno liegt unter dem Tisch und wartet auf ein Stück Wurst.\n\nNach dem Frühstück räumen alle zusammen auf. Dann spielen Lena und Tim im Garten. Die Eltern lesen die Zeitung und trinken noch einen Kaffee. Der Sonntag ist für die Familie Berger ein ruhiger Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Die Familie Berger frühstückt am Sonntag zusammen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gibt nur Brot ohne Butter.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tim mag lieber Marmelade als Honig.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund Bruno sitzt auf dem Tisch.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Nach dem Frühstück spielen die Kinder im Garten.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "mein-onkel-aus-der-schweiz",
+    "nivel": "A1",
+    "titulo": "Mein Onkel aus der Schweiz",
+    "descripcion": "Ein Kind erzählt von seinem Onkel, der in der Schweiz wohnt.",
+    "texto": "Mein Onkel heißt Hans. Er wohnt in der Schweiz, in einer Stadt namens Bern. Er ist der Bruder von meinem Vater. Onkel Hans ist groß und hat kurze graue Haare. Er spricht Deutsch und auch ein bisschen Französisch.\n\nJeden Sommer besucht uns Onkel Hans. Er kommt mit dem Zug. Er bringt immer Schweizer Schokolade mit. Wir essen zusammen Käse und trinken Tee. Onkel Hans erzählt gern Geschichten von den Bergen.\n\nOnkel Hans liebt die Natur. Er wandert oft in den Alpen. Er zeigt uns Fotos von hohen Bergen und grünen Wiesen. Ich finde die Schweiz sehr schön und möchte sie einmal besuchen.",
+    "preguntas": [
+      {
+        "enunciado": "Onkel Hans wohnt in Deutschland.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Onkel Hans ist der Bruder vom Vater.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Er bringt immer Schweizer Schokolade mit.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Onkel Hans mag keine Berge.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Familie möchte die Schweiz besuchen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-kurze-stadtbummel",
+    "nivel": "A1",
+    "titulo": "Der kurze Stadtbummel",
+    "descripcion": "Mia und ihre Freundin gehen am Nachmittag durch die Stadt.",
+    "texto": "Am Nachmittag geht Mia mit ihrer Freundin Paula in die Stadt. Die Sonne scheint und es ist warm. Zuerst schauen sie Schuhe in einem Schaufenster an. Paula findet rote Sandalen sehr schön.\n\nDann gehen die Mädchen in ein Café. Mia bestellt eine heiße Schokolade. Paula trinkt einen Orangensaft. Sie essen auch ein Stück Kuchen. Das Café ist klein, aber gemütlich.\n\nZum Schluss kaufen sie noch Blumen für Mias Mutter. Die Blumen sind gelb und rot. Mia ist glücklich. Der Stadtbummel mit Paula macht ihr viel Spaß.",
+    "preguntas": [
+      {
+        "enunciado": "Mia geht allein in die Stadt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Paula findet rote Sandalen schön.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia trinkt einen Orangensaft.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mädchen kaufen Blumen für Mias Mutter.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Das Café ist sehr groß.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "das-geschenk-fuer-opa",
+    "nivel": "A2",
+    "titulo": "Das Geschenk für Opa",
+    "descripcion": "Die Kinder überlegen, was sie ihrem Opa zum Geburtstag schenken können.",
+    "texto": "Opas Geburtstag ist am Samstag. Die Enkelkinder Finn und Clara haben schon lange überlegt, was sie ihm schenken sollen. Finn hat gesagt, dass Opa gern Vögel beobachtet. Deshalb sind sie gestern in ein Geschäft für Ferngläser gegangen.\n\nIm Geschäft hat der Verkäufer ihnen ein kleines, leichtes Fernglas gezeigt. Clara hat gefragt, ob es auch für ältere Menschen gut geeignet ist. Der Verkäufer hat erklärt, dass dieses Modell besonders einfach zu bedienen ist. Die Kinder haben das Fernglas sofort gekauft.\n\nAm Samstag haben sie Opa das Geschenk gegeben. Opa hat sich sehr gefreut, weil er schon lange ein neues Fernglas wollte. Er hat gesagt, dass er damit bald in den Park gehen wird, um Vögel zu beobachten. Die ganze Familie hat zusammen Kuchen gegessen.",
+    "preguntas": [
+      {
+        "enunciado": "Opas Geburtstag ist am Sonntag.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Finn und Clara haben ein Fernglas gekauft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Verkäufer hat gesagt, dass das Fernglas schwer zu bedienen ist.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Opa hat sich über das Geschenk gefreut.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Familie hat am Samstag Kuchen gegessen.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-ungewoehnlicher-arzttermin",
+    "nivel": "A2",
+    "titulo": "Ein ungewöhnlicher Arzttermin",
+    "descripcion": "Herr Keller hat einen Termin beim Arzt, der anders verläuft als erwartet.",
+    "texto": "Herr Keller hatte seit zwei Tagen Kopfschmerzen. Deshalb hat er einen Termin bei seiner Hausärztin gemacht. Als er ins Wartezimmer gekommen ist, war dort niemand anderes. Das hat ihn gewundert, weil die Praxis normalerweise sehr voll ist.\n\nDie Ärztin hat ihm erklärt, dass heute wenige Patienten gekommen sind, weil es draußen stark geregnet hat. Sie hat Herrn Keller untersucht und gefragt, ob er in letzter Zeit viel Stress hatte. Herr Keller hat geantwortet, dass er seit Wochen viel arbeitet und schlecht schläft.\n\nDie Ärztin hat gesagt, dass die Kopfschmerzen wahrscheinlich vom Stress kommen. Sie hat ihm empfohlen, mehr Pausen zu machen und früher ins Bett zu gehen. Herr Keller hat sich bedankt und ist beruhigt nach Hause gegangen.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Keller hatte seit zwei Tagen Bauchschmerzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Das Wartezimmer war sehr voll.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Es hat an diesem Tag stark geregnet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Ärztin glaubt, dass Stress die Ursache ist.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Keller soll weniger schlafen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-nachricht-von-der-tante",
+    "nivel": "A2",
+    "titulo": "Die Nachricht von der Tante",
+    "descripcion": "Ein Brief von Tante Ingrid bringt eine Überraschung für die Familie.",
+    "texto": "Letzte Woche hat Familie Schmidt einen Brief von Tante Ingrid bekommen. Tante Ingrid lebt seit zehn Jahren in Kanada. Sie hat geschrieben, dass sie im nächsten Monat nach Deutschland kommt, weil sie die Familie endlich wiedersehen möchte.\n\nDie Kinder haben sich sehr gefreut, als sie die Nachricht gehört haben. Sie haben Tante Ingrid nur von Fotos gekannt. Die Mutter hat sofort angefangen, ein Zimmer für den Besuch vorzubereiten. Der Vater hat gesagt, dass sie einen Ausflug an den See planen sollten.\n\nTante Ingrid hat auch geschrieben, dass sie Geschenke aus Kanada mitbringt. Die ganze Familie wartet jetzt gespannt auf ihre Ankunft. Sie wollen zusammen viele schöne Tage verbringen, bevor Tante Ingrid wieder zurückfliegt.",
+    "preguntas": [
+      {
+        "enunciado": "Tante Ingrid lebt seit zehn Jahren in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben Tante Ingrid oft persönlich getroffen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mutter bereitet ein Zimmer vor.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Vater möchte keinen Ausflug machen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Tante Ingrid bringt Geschenke aus Kanada mit.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "meine-erste-wg",
+    "nivel": "B1",
+    "titulo": "Meine erste WG",
+    "descripcion": "Ein Student berichtet von seinen ersten Erfahrungen in einer Wohngemeinschaft.",
+    "texto": "Als ich mit dem Studium begonnen habe, bin ich in meine erste Wohngemeinschaft gezogen. Obwohl ich vorher nie mit fremden Menschen zusammengelebt hatte, habe ich mich schnell an das WG-Leben gewöhnt. Meine beiden Mitbewohner, Jonas und Elif, haben mir am ersten Tag die ganze Wohnung gezeigt.\n\nAm Anfang war es nicht immer einfach. Nachdem wir einen Putzplan aufgestellt hatten, gab es trotzdem manchmal Streit, weil nicht jeder seine Aufgaben erledigt hat. Mit der Zeit haben wir aber gelernt, offen über solche Probleme zu sprechen, statt sie zu ignorieren.\n\nHeute, nach einem Jahr, kann ich mir ein Leben ohne meine WG kaum noch vorstellen. Wir kochen oft zusammen und schauen abends Filme. Obwohl wir alle unterschiedliche Charaktere haben, sind wir echte Freunde geworden. Die WG hat mir gezeigt, wie wichtig gute Kommunikation im Alltag ist.",
+    "preguntas": [
+      {
+        "enunciado": "Der Erzähler hatte schon vor dem Studium WG-Erfahrung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Jonas und Elif haben ihm die Wohnung gezeigt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Es gab nie Streit in der WG.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mitbewohner haben gelernt, offen über Probleme zu sprechen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Nach einem Jahr sind die Mitbewohner Freunde geworden.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "der-tag-der-offenen-tuer-in-der-firma",
+    "nivel": "B1",
+    "titulo": "Der Tag der offenen Tür in der Firma",
+    "descripcion": "Eine Firma lädt Familienmitglieder ihrer Mitarbeiter zu einem besonderen Tag ein.",
+    "texto": "Einmal im Jahr veranstaltet die Firma, in der Frau Novak arbeitet, einen Tag der offenen Tür. An diesem Tag dürfen die Mitarbeiter ihre Familien mitbringen, damit diese sehen können, wo und wie gearbeitet wird. Frau Novak hat ihre beiden Kinder und ihren Mann eingeladen.\n\nNachdem die Familie durch die Werkshalle geführt worden war, haben die Kinder viele Fragen gestellt. Sie wollten wissen, wie die Maschinen funktionieren und was ihre Mutter den ganzen Tag macht. Obwohl die Technik kompliziert erklärt wurde, haben die Kinder vieles verstanden.\n\nAm Nachmittag gab es ein kleines Fest mit Musik und Essen auf dem Firmenparkplatz. Die Kollegen von Frau Novak haben ihre Familie herzlich willkommen geheißen. Trotzdem war der Tag für die Kinder auch ein bisschen anstrengend, weil so viele neue Eindrücke auf einmal kamen.",
+    "preguntas": [
+      {
+        "enunciado": "Der Tag der offenen Tür findet jede Woche statt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Frau Novak hat ihre Familie zur Firma mitgebracht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder haben keine Fragen gestellt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Am Nachmittag gab es ein Fest auf dem Parkplatz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kollegen haben die Familie unfreundlich behandelt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-abschiedsfeier-im-buero",
+    "nivel": "B1",
+    "titulo": "Die Abschiedsfeier im Büro",
+    "descripcion": "Kollegen organisieren eine Feier für einen Mitarbeiter, der in Rente geht.",
+    "texto": "Nachdem Herr Albrecht fast vierzig Jahre in der Firma gearbeitet hatte, ging er endlich in Rente. Seine Kollegen wollten diesen besonderen Tag nicht einfach vorbeigehen lassen und organisierten deshalb eine große Abschiedsfeier im Büro.\n\nObwohl Herr Albrecht immer gesagt hatte, dass er keine große Feier wolle, war er sichtlich gerührt, als er den geschmückten Konferenzraum sah. Viele ehemalige Kollegen waren gekommen, um sich persönlich von ihm zu verabschieden. Einige hielten kurze Reden über die gemeinsame Zeit.\n\nZum Abschluss überreichte ihm sein Chef ein Fotoalbum mit Bildern aus den letzten Jahrzehnten. Herr Albrecht bedankte sich bei allen und sagte, dass er die Firma trotzdem vermissen werde. Die Feier dauerte bis spät in den Abend und war für alle ein unvergesslicher Moment.",
+    "preguntas": [
+      {
+        "enunciado": "Herr Albrecht hat fast vierzig Jahre in der Firma gearbeitet.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Herr Albrecht wollte unbedingt eine große Feier.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ehemalige Kollegen sind zur Feier gekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Chef hat ihm ein Fotoalbum geschenkt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Feier endete schon am frühen Nachmittag.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-diskussion-um-vier-tage-woche",
+    "nivel": "B2",
+    "titulo": "Die Diskussion um die Vier-Tage-Woche",
+    "descripcion": "Ein gesellschaftlicher Blick auf die Debatte über kürzere Arbeitszeiten.",
+    "texto": "In den letzten Jahren wird in vielen Ländern über die Einführung einer Vier-Tage-Woche diskutiert. Befürworter argumentieren, dass eine kürzere Arbeitszeit bei gleichem Lohn die Produktivität sogar steigern könnte, weil ausgeruhte Angestellte konzentrierter arbeiten. Mehrere Pilotprojekte, die in verschiedenen Branchen durchgeführt wurden, scheinen diese These zu bestätigen.\n\nKritiker hingegen geben zu bedenken, dass nicht jede Branche gleich von einer solchen Reform profitieren würde. Besonders im Gesundheitswesen oder im Handwerk, wo ohnehin ein Fachkräftemangel herrscht, wäre es schwierig, die gleiche Arbeitsleistung an weniger Tagen zu erbringen. Außerdem wird befürchtet, dass kleinere Unternehmen finanziell überfordert wären, würden sie gezwungen, das Modell flächendeckend einzuführen.\n\nWürde die Vier-Tage-Woche tatsächlich zur Norm, müsste sich auch die Gesellschaft insgesamt anpassen, etwa bei den Öffnungszeiten von Schulen und Behörden. Manche Experten meinen, dass eine schrittweise Einführung, die je nach Branche individuell gestaltet wird, realistischer wäre als eine pauschale Lösung für alle Arbeitsplätze. Die Debatte bleibt offen und wird von Politik, Gewerkschaften und Arbeitgebern weiterhin kontrovers geführt.",
+    "preguntas": [
+      {
+        "enunciado": "Befürworter glauben, dass die Produktivität durch kürzere Arbeitszeiten sinken könnte.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Pilotprojekte wurden in mehreren Branchen durchgeführt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker sehen im Gesundheitswesen keine besonderen Herausforderungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten befürworten eine schrittweise, branchenspezifische Einführung.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte über die Vier-Tage-Woche ist bereits vollständig abgeschlossen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "wenn-algorithmen-entscheidungen-treffen",
+    "nivel": "B2",
+    "titulo": "Wenn Algorithmen Entscheidungen treffen",
+    "descripcion": "Ein Text über die wachsende Rolle automatisierter Systeme in wichtigen Lebensbereichen.",
+    "texto": "Immer häufiger werden Entscheidungen, die früher ausschließlich von Menschen getroffen wurden, inzwischen von Algorithmen vorbereitet oder sogar vollständig übernommen. Ob bei der Vergabe von Krediten, der Vorauswahl von Bewerbungen oder der Einschätzung von Rückfallrisiken im Justizsystem – automatisierte Systeme beeinflussen zunehmend das Leben vieler Menschen, ohne dass diese genau wissen, nach welchen Kriterien entschieden wird.\n\nBefürworter dieser Entwicklung betonen, dass Algorithmen, wenn sie sorgfältig entwickelt würden, objektiver und konsistenter entscheiden könnten als Menschen, die von Vorurteilen oder Tagesform beeinflusst werden. Allerdings zeigen zahlreiche Studien, dass auch Algorithmen diskriminierend wirken können, da sie häufig mit historischen Daten trainiert werden, in denen bestehende Ungleichheiten bereits enthalten sind.\n\nDeshalb fordern viele Wissenschaftler und Bürgerrechtsorganisationen, dass die Funktionsweise solcher Systeme transparenter gemacht wird. Würde die Öffentlichkeit nachvollziehen können, welche Faktoren in eine automatisierte Entscheidung einfließen, ließe sich das Vertrauen in diese Technologien stärken. Bis dahin bleibt die Frage, wie viel Entscheidungsmacht Maschinen überlassen werden sollte, ein zentrales Thema gesellschaftlicher Debatten.",
+    "preguntas": [
+      {
+        "enunciado": "Algorithmen werden mittlerweile auch bei Kreditentscheidungen eingesetzt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text sind Algorithmen grundsätzlich völlig frei von Diskriminierung.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Historische Daten können bestehende Ungleichheiten in Algorithmen übertragen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Wissenschaftler fordern mehr Transparenz bei automatisierten Entscheidungen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Frage nach der Entscheidungsmacht von Maschinen gilt als vollständig geklärt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-macht-der-bewertungsportale",
+    "nivel": "B2",
+    "titulo": "Die Macht der Bewertungsportale",
+    "descripcion": "Eine kritische Betrachtung des Einflusses von Online-Bewertungen auf Unternehmen und Konsumenten.",
+    "texto": "Bewertungsportale im Internet haben in den letzten Jahren einen enormen Einfluss auf Kaufentscheidungen gewonnen. Bevor viele Verbraucher ein Restaurant besuchen, ein Hotel buchen oder ein Produkt bestellen, lesen sie zunächst die Erfahrungsberichte anderer Nutzer. Diese Entwicklung hat dazu geführt, dass Unternehmen inzwischen erhebliche Ressourcen in das Management ihrer Online-Reputation investieren.\n\nProblematisch wird diese Macht der Bewertungsportale jedoch dann, wenn die Authentizität der Bewertungen nicht gewährleistet werden kann. Es ist längst bekannt, dass gefälschte positive wie negative Bewertungen gezielt eingesetzt werden, um Konkurrenten zu schädigen oder die eigene Reputation künstlich zu verbessern. Betroffene Unternehmer beklagen, dass ihnen durch solche manipulierten Bewertungen erheblicher wirtschaftlicher Schaden entstehen kann, ohne dass sie sich wirksam dagegen wehren könnten.\n\nWäre eine zuverlässige Überprüfung jeder einzelnen Bewertung möglich, könnten viele dieser Probleme vermieden werden. In der Praxis stößt eine solche Kontrolle jedoch angesichts der enormen Menge täglich veröffentlichter Bewertungen schnell an ihre Grenzen. Experten plädieren deshalb für strengere gesetzliche Regelungen, durch die Plattformen stärker in die Verantwortung genommen würden, die Echtheit von Nutzerbewertungen sicherzustellen.",
+    "preguntas": [
+      {
+        "enunciado": "Viele Verbraucher lesen vor einer Kaufentscheidung Bewertungen anderer Nutzer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Text gibt es keine gefälschten Bewertungen im Internet.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manipulierte Bewertungen können Unternehmen wirtschaftlich schaden.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Eine vollständige Überprüfung aller Bewertungen ist in der Praxis einfach umzusetzen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Experten fordern strengere gesetzliche Regelungen für Bewertungsplattformen.",
+        "respuesta": true
+      }
+    ]
   }
 ]
