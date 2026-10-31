@@ -81554,5 +81554,353 @@
         "respuesta": false
       }
     ]
+  },
+  {
+    "slug": "mia-kauft-brot-beim-baecker",
+    "nivel": "A1",
+    "titulo": "Mia kauft Brot beim Bäcker",
+    "descripcion": "Mia geht morgens zum Bäcker und kauft Brot für die Familie.",
+    "texto": "Mia steht früh auf. Sie geht zu Fuß zum Bäcker. Der Bäcker heißt Herr Berger. Er ist sehr freundlich.\n\n„Guten Morgen, Mia!“, sagt Herr Berger. „Guten Morgen! Ich möchte ein Brot und zwei Brötchen“, sagt Mia. Das Brot kostet drei Euro. Die Brötchen kosten einen Euro.\n\nMia bezahlt und sagt „Danke schön“. Zu Hause isst die Familie zusammen Frühstück. Das Brot schmeckt sehr gut. Mia geht jeden Samstag zum Bäcker.",
+    "preguntas": [
+      {
+        "enunciado": "Mia geht zu Fuß zum Bäcker.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Bäcker heißt Herr Berger.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia kauft drei Brote.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Brötchen kosten einen Euro.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Mia geht jeden Tag zum Bäcker.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "der-gelbe-regenschirm-von-lukas",
+    "nivel": "A1",
+    "titulo": "Der gelbe Regenschirm von Lukas",
+    "descripcion": "Lukas hat einen gelben Regenschirm und benutzt ihn jeden Tag im Herbst.",
+    "texto": "Lukas hat einen gelben Regenschirm. Der Regenschirm ist ein Geschenk von seiner Oma. Im Herbst regnet es oft.\n\nJeden Morgen nimmt Lukas den Regenschirm mit. Er geht damit zur Schule. Seine Freunde finden den Regenschirm sehr schön. „Dein Regenschirm ist toll!“, sagt sein Freund Tom.\n\nEin Tag ist Lukas der Regenschirm in der Schule. Er sucht ihn lange. Am Ende findet er ihn im Klassenzimmer. Lukas ist sehr froh.",
+    "preguntas": [
+      {
+        "enunciado": "Lukas hat einen roten Regenschirm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Regenschirm ist ein Geschenk von der Oma.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Herbst regnet es oft.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Lukas verliert den Regenschirm für immer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Lukas findet den Regenschirm im Klassenzimmer.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "sonntag-im-freibad-mit-oma",
+    "nivel": "A1",
+    "titulo": "Sonntag im Freibad mit Oma",
+    "descripcion": "Oma und ihr Enkel verbringen einen sonnigen Sonntag im Freibad.",
+    "texto": "Am Sonntag ist das Wetter sehr schön. Die Sonne scheint. Oma und ihr Enkel Ben gehen ins Freibad.\n\nBen schwimmt gern. Oma sitzt am Rand und liest ein Buch. „Komm, Oma, das Wasser ist warm!“, ruft Ben. Oma lacht und sagt: „Nein, danke, ich bin hier glücklich.“\n\nUm zwölf Uhr essen sie zusammen ein Eis. Ben isst ein Eis mit Schokolade. Oma isst ein Eis mit Erdbeeren. Es ist ein schöner Tag.",
+    "preguntas": [
+      {
+        "enunciado": "Das Wetter ist am Sonntag schlecht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ben schwimmt gern.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma schwimmt auch mit Ben.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie essen zusammen ein Eis.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma isst ein Eis mit Schokolade.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "anna-verliert-ihren-koffer-in-rom",
+    "nivel": "A2",
+    "titulo": "Anna verliert ihren Koffer in Rom",
+    "descripcion": "Anna ist nach Rom geflogen, aber ihr Koffer ist am Flughafen verschwunden.",
+    "texto": "Anna ist letzte Woche nach Rom geflogen. Sie wollte dort Urlaub machen. Am Flughafen hat sie lange auf ihren Koffer gewartet, aber er ist nicht gekommen.\n\nSie ist zum Informationsschalter gegangen und hat den Verlust gemeldet. Die Mitarbeiterin hat gesagt, dass der Koffer vielleicht noch in München ist, weil es dort einen Zwischenstopp gab. Anna war traurig, weil all ihre Kleidung im Koffer war.\n\nZwei Tage später hat ein Mitarbeiter angerufen. Er hat erzählt, dass der Koffer gefunden wurde. Am nächsten Morgen ist der Koffer in ihr Hotel gebracht worden. Anna hat sich sehr gefreut und konnte endlich den Urlaub genießen.",
+    "preguntas": [
+      {
+        "enunciado": "Anna ist nach Rom gefahren.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Ihr Koffer ist am Flughafen nicht angekommen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Koffer war vielleicht in München.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Anna hat den Koffer sofort am Flughafen bekommen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Der Koffer wurde ins Hotel gebracht.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-wochenende-bei-oma-auf-dem-bauernhof",
+    "nivel": "A2",
+    "titulo": "Ein Wochenende bei Oma auf dem Bauernhof",
+    "descripcion": "Zwei Geschwister besuchen ihre Oma, die einen kleinen Bauernhof hat.",
+    "texto": "Leon und seine Schwester Mara haben das Wochenende bei ihrer Oma auf dem Bauernhof verbracht. Oma hat Hühner, zwei Kühe und einen Hund namens Bruno. Die Kinder haben sich sehr gefreut, weil sie die Tiere lieben.\n\nAm Samstag haben Leon und Mara die Hühner gefüttert. Danach sind sie mit Bruno im Wald spazieren gegangen. Oma hat gesagt, dass sie früh aufstehen müssen, wenn sie die Kühe melken wollen. Also sind sie am Sonntag schon um sechs Uhr aufgewacht.\n\nAm Abend haben sie zusammen am Feuer gesessen und Oma hat Geschichten aus ihrer Kindheit erzählt. Leon und Mara haben versprochen, dass sie bald wiederkommen.",
+    "preguntas": [
+      {
+        "enunciado": "Oma hat einen Bauernhof mit Tieren.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Hund heißt Bruno.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Kinder sind am Sonntag erst um zehn Uhr aufgewacht.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sie haben die Hühner gefüttert.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Oma hat keine Geschichten erzählt.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "ein-brief-an-meine-freundin-in-kanada",
+    "nivel": "A2",
+    "titulo": "Ein Brief an meine Freundin in Kanada",
+    "descripcion": "Sophie schreibt ihrer Freundin Emma, die nach Kanada gezogen ist, einen langen Brief.",
+    "texto": "Liebe Emma, ich hoffe, dass es dir in Kanada gut geht. Ich habe lange nichts von dir gehört und wollte dir deshalb schreiben. Hier in Deutschland ist es im Moment sehr kalt, weil der Winter schon angefangen hat.\n\nLetzte Woche habe ich dein altes Zimmer besucht, weil deine Eltern mich eingeladen haben. Es war komisch, dort zu sein, ohne dass du da warst. Ich habe auch unsere alte Schule besucht und mit Frau Schmidt gesprochen. Sie hat gefragt, wie es dir geht.\n\nIch würde mich sehr freuen, wenn du mir bald zurückschreibst und mir Fotos von deinem neuen Leben schickst. Vielleicht kann ich dich nächsten Sommer besuchen, wenn meine Eltern es erlauben. Ich vermisse dich sehr. Deine Sophie.",
+    "preguntas": [
+      {
+        "enunciado": "Emma lebt jetzt in Kanada.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "In Deutschland ist es gerade sehr warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Sophie hat Emmas altes Zimmer besucht.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Frau Schmidt hat nach Emma gefragt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Sophie möchte Emma nie besuchen.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "kenji-der-austauschschueler-aus-osaka",
+    "nivel": "B1",
+    "titulo": "Kenji, der Austauschschüler aus Osaka",
+    "descripcion": "Kenji kommt aus Japan an eine deutsche Schule und muss sich an viele neue Dinge gewöhnen.",
+    "texto": "Kenji ist siebzehn Jahre alt und kommt aus Osaka. Seit drei Monaten besucht er ein Gymnasium in Freiburg als Austauschschüler. Obwohl er vorher zwei Jahre Deutsch gelernt hatte, war es am Anfang schwer, alles zu verstehen, weil die Lehrer schnell sprachen.\n\nAm meisten hat ihn überrascht, dass die Schüler in Deutschland viel direkter ihre Meinung sagen, auch gegenüber den Lehrern. In Japan wäre das unhöflich. Trotzdem hat er sich schnell an die neue Schulkultur gewöhnt, nachdem ihm seine Gastfamilie viel geholfen hatte. Seine Gastschwester Lena erklärt ihm oft, was in der Schule wichtig ist.\n\nKenji vermisst manchmal seine Familie und das japanische Essen, aber er genießt das Leben in Deutschland sehr. Er hat schon viele Freunde gefunden und spielt jetzt sogar in einer Fußballmannschaft mit. Nächsten Monat wird seine Mutter ihn besuchen, und er freut sich darauf, ihr alles zu zeigen.",
+    "preguntas": [
+      {
+        "enunciado": "Kenji kommt aus Osaka.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kenji konnte am Anfang schon alles perfekt verstehen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "In Japan ist es üblich, dem Lehrer direkt zu widersprechen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Kenjis Gastschwester heißt Lena.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kenji spielt in einer Fußballmannschaft.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "die-erste-eigene-wohnung-in-leipzig",
+    "nivel": "B1",
+    "titulo": "Die erste eigene Wohnung in Leipzig",
+    "descripcion": "Nach dem Studium zieht Felix in seine erste eigene Wohnung und muss viel selbst organisieren.",
+    "texto": "Nachdem Felix sein Studium abgeschlossen hatte, bekam er eine Stelle bei einer Firma in Leipzig. Zum ersten Mal in seinem Leben musste er sich eine eigene Wohnung suchen, was sich als schwieriger herausstellte, als er gedacht hatte. Die Mieten in der Stadt waren hoch, und viele Vermieter wollten lieber Mieter mit langer Berufserfahrung.\n\nNach vielen Besichtigungen fand Felix schließlich eine kleine Wohnung im Stadtteil Plagwitz. Obwohl die Wohnung nicht sehr groß war, gefiel ihm die Lage, weil sie nah an seiner Arbeit lag. Der Umzug war anstrengend, aber seine Eltern und Freunde haben ihm geholfen, die Möbel zu tragen.\n\nIn den ersten Wochen musste sich Felix an vieles gewöhnen: Er musste selbst kochen, putzen und den Haushalt organisieren. Trotzdem war er stolz darauf, endlich unabhängig zu sein. Seine Mutter ruft ihn jeden Sonntag an, um zu fragen, wie es ihm geht.",
+    "preguntas": [
+      {
+        "enunciado": "Felix hat vor dem Studium eine eigene Wohnung gehabt.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Mieten in Leipzig waren niedrig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix wohnt jetzt in Plagwitz.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Beim Umzug hat ihm niemand geholfen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Felix ist stolz darauf, unabhängig zu sein.",
+        "respuesta": true
+      }
+    ]
+  },
+  {
+    "slug": "ein-rockkonzert-im-stroemenden-regen",
+    "nivel": "B1",
+    "titulo": "Ein Rockkonzert im strömenden Regen",
+    "descripcion": "Zwei Freundinnen besuchen ein Open-Air-Konzert, obwohl das Wetter schlecht ist.",
+    "texto": "Clara und Paula hatten sich schon seit Monaten auf das Rockkonzert im Stadtpark gefreut. Als sie am Veranstaltungstag ankamen, begann es plötzlich stark zu regnen. Obwohl viele Leute nach Hause gingen, entschieden sich die beiden Freundinnen zu bleiben.\n\n„Wir haben so lange darauf gewartet, da lassen wir uns nicht von ein bisschen Regen aufhalten!“, rief Paula lachend. Sie zogen ihre Regenjacken an und tanzten trotzdem vor der Bühne. Die Band selbst schien die Stimmung zu genießen und spielte noch energischer als sonst.\n\nNachdem das Konzert zu Ende war, waren beide völlig durchnässt, aber überglücklich. Sie erzählten später allen Freunden, dass es eines der besten Konzerte ihres Lebens gewesen sei, trotz des schlechten Wetters.",
+    "preguntas": [
+      {
+        "enunciado": "Das Konzert fand im Stadtpark statt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Bei dem Konzert war es sonnig und warm.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Clara und Paula sind sofort nach Hause gegangen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Die Band hat trotz des Regens energisch gespielt.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Freundinnen fanden das Konzert enttäuschend.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-debatte-um-einen-hoeheren-mindestlohn",
+    "nivel": "B2",
+    "titulo": "Die Debatte um einen höheren Mindestlohn",
+    "descripcion": "Ein Blick auf die gesellschaftliche Diskussion über eine mögliche Erhöhung des Mindestlohns.",
+    "texto": "Seit Jahren wird in der Politik darüber diskutiert, ob der gesetzliche Mindestlohn weiter angehoben werden sollte. Befürworter argumentieren, dass eine Erhöhung notwendig sei, damit Vollzeitbeschäftigte von ihrem Einkommen angemessen leben könnten, ohne auf zusätzliche staatliche Unterstützung angewiesen zu sein. Gerade angesichts steigender Mieten und Lebenshaltungskosten werde diese Forderung immer dringlicher.\n\nKritiker hingegen warnen, dass eine zu starke Anhebung des Mindestlohns kleine und mittelständische Unternehmen finanziell überfordern könnte. Besonders in Branchen mit geringen Gewinnmargen, etwa in der Gastronomie oder im Einzelhandel, befürchtet man, dass Arbeitsplätze abgebaut werden müssten, wenn die Lohnkosten zu stark stiegen. Manche Ökonomen schlagen deshalb vor, den Mindestlohn regional unterschiedlich zu gestalten.\n\nWürde man den Mindestlohn tatsächlich deutlich erhöhen, müssten gleichzeitig Maßnahmen ergriffen werden, um kleinere Betriebe zu entlasten, etwa durch Steuererleichterungen. Letztlich zeigt die Debatte, wie schwierig es ist, soziale Gerechtigkeit und wirtschaftliche Stabilität miteinander in Einklang zu bringen. Ein gesellschaftlicher Konsens scheint vorerst nicht in Sicht.",
+    "preguntas": [
+      {
+        "enunciado": "Alle Politiker sind sich über den Mindestlohn einig.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Befürworter wollen, dass Menschen von ihrem Lohn leben können.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Kritiker befürchten, dass kleine Unternehmen Probleme bekommen könnten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Im Text wird ein regional unterschiedlicher Mindestlohn vorgeschlagen.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Die Debatte ist laut dem Text bereits vollständig gelöst.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "einsamkeit-trotz-staendiger-vernetzung",
+    "nivel": "B2",
+    "titulo": "Einsamkeit trotz ständiger Vernetzung",
+    "descripcion": "Ein Essay über das Paradox, dass Menschen trotz digitaler Vernetzung zunehmend einsam sind.",
+    "texto": "Noch nie waren Menschen so eng miteinander vernetzt wie heute: Soziale Medien, Messenger-Dienste und Videoanrufe ermöglichen es, jederzeit mit anderen in Kontakt zu treten. Trotzdem berichten immer mehr Menschen, insbesondere junge Erwachsene, von einem wachsenden Gefühl der Einsamkeit. Dieses Phänomen wird von Soziologen zunehmend untersucht.\n\nEin möglicher Grund dafür liegt darin, dass digitale Kontakte oft oberflächlicher sind als persönliche Begegnungen. Wer stundenlang Beiträge anderer Menschen betrachtet, vergleicht sich unbewusst mit ihnen, was das eigene Wohlbefinden beeinträchtigen kann. Zudem werde echte Nähe, so Kritiker, durch kurze Nachrichten und schnelle Reaktionen ersetzt, ohne dass tiefere Gespräche entstünden.\n\nManche Experten schlagen vor, dass bewusste Auszeiten von digitalen Geräten helfen könnten, wieder mehr echte Verbindungen aufzubauen. Wenn Menschen regelmäßig Zeit ohne Bildschirme verbrächten, würden sie vermutlich zufriedenere Beziehungen pflegen. Die Herausforderung besteht jedoch darin, dass digitale Technologien inzwischen so tief in den Alltag integriert sind, dass ein völliger Verzicht kaum realistisch erscheint.",
+    "preguntas": [
+      {
+        "enunciado": "Laut dem Text sind Menschen heute digital stärker vernetzt als früher.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Trotz der Vernetzung fühlen sich viele Menschen einsamer.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Digitale Kontakte sind laut dem Text immer tiefer als persönliche Begegnungen.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Experten empfehlen bewusste Pausen von digitalen Geräten.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text sagt, ein völliger Verzicht auf digitale Technologien sei einfach umsetzbar.",
+        "respuesta": false
+      }
+    ]
+  },
+  {
+    "slug": "die-vier-tage-woche-als-arbeitsmodell-der-zukunft",
+    "nivel": "B2",
+    "titulo": "Die Vier-Tage-Woche als Arbeitsmodell der Zukunft",
+    "descripcion": "Eine Analyse der Chancen und Risiken, die mit der Einführung der Vier-Tage-Woche verbunden sind.",
+    "texto": "In den letzten Jahren haben immer mehr Unternehmen weltweit Pilotprojekte zur Vier-Tage-Woche durchgeführt. Dabei arbeiten die Beschäftigten bei vollem Lohnausgleich einen Tag weniger pro Woche. Befürworter argumentieren, dass sich dadurch nicht nur die Lebensqualität der Angestellten verbessere, sondern auch deren Produktivität steige, weil konzentrierter gearbeitet werde, wenn weniger Zeit zur Verfügung stehe.\n\nSkeptiker weisen hingegen darauf hin, dass sich ein solches Modell nicht auf alle Branchen übertragen lasse. Während es in der Verwaltung oder in kreativen Berufen vergleichsweise einfach umzusetzen sei, stelle es im Gesundheitswesen oder in der Produktion eine erhebliche organisatorische Herausforderung dar, da dort durchgehend Personal benötigt werde. Außerdem müsste geklärt werden, wie mit Kundinnen und Kunden umgegangen würde, die eine Erreichbarkeit an fünf Tagen erwarteten.\n\nWürde die Vier-Tage-Woche flächendeckend eingeführt, müssten viele Betriebe ihre internen Abläufe grundlegend neu organisieren. Dennoch zeigen erste Studien, dass die Mehrheit der teilnehmenden Unternehmen nach Ende der Testphase an dem Modell festhalten wollte. Ob sich die Vier-Tage-Woche langfristig als Standard durchsetzen wird, bleibt abzuwarten, doch die Debatte darüber hat die Arbeitswelt bereits nachhaltig verändert.",
+    "preguntas": [
+      {
+        "enunciado": "Bei der Vier-Tage-Woche arbeiten die Angestellten einen Tag weniger pro Woche.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Laut Befürwortern sinkt die Produktivität durch die Vier-Tage-Woche immer.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Im Gesundheitswesen ist die Umsetzung laut Text besonders einfach.",
+        "respuesta": false
+      },
+      {
+        "enunciado": "Manche Unternehmen wollten nach der Testphase bei der Vier-Tage-Woche bleiben.",
+        "respuesta": true
+      },
+      {
+        "enunciado": "Der Text behauptet, die Debatte habe die Arbeitswelt überhaupt nicht verändert.",
+        "respuesta": false
+      }
+    ]
   }
 ]
